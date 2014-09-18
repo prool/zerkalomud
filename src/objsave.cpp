@@ -1,5 +1,5 @@
 /* ************************************************************************
-*   File: objsave.cpp                                     Part of Bylins    *
+*   File: objsave.cpp                                     Part of Bylins  *
 *  Usage: loading/saving player objects for rent and crash-save           *
 *                                                                         *
 *  All rights reserved.  See license.doc for complete information.        *
@@ -34,6 +34,8 @@
 #include "mail.h"
 #include "dg_scripts.h"
 #include "objsave.h"
+
+#include "bigzerkalo.h" // prool
 
 #define LOC_INVENTORY	0
 #define MAX_BAG_ROWS	5
@@ -2805,6 +2807,7 @@ int gen_receptionist(CHAR_DATA * ch, CHAR_DATA * recep, int cmd, char *arg, int 
 			Crash_rentsave(ch, cost);
 			sprintf(buf, "%s has rented (%d/day, %ld tot.)",
 					GET_NAME(ch), cost, ch->get_gold() + ch->get_bank());
+			perslog("ушел на ренту", GET_NAME(ch)); // prool
 		}
 		else  	/* cryo */
 		{

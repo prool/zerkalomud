@@ -71,6 +71,8 @@
 #include "birth_places.hpp"
 #include "pugixml.hpp"
 
+#include "bigzerkalo.h" // prool
+
 #define  TEST_OBJECT_TIMER   30
 
 /**************************************************************************
@@ -1792,6 +1794,7 @@ void boot_db(void)
 
 	boot_time = time(0);
 	log("Boot db -- DONE.");
+	perslog("MUD перезапущен", " "); // prool
 }
 
 /* reset the time in the game from file */

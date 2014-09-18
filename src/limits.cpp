@@ -43,6 +43,8 @@
 #include "birth_places.hpp"
 #include "objsave.h"
 
+#include "bigzerkalo.h" // prool
+
 extern int check_dupes_host(DESCRIPTOR_DATA * d, bool autocheck = 0);
 
 extern room_rnum r_unreg_start_room;
@@ -999,6 +1001,7 @@ void check_idling(CHAR_DATA * ch)
 				Depot::exit_char(ch);
 				Clan::clan_invoice(ch, false);
 				sprintf(buf, "%s force-rented and extracted (idle).", GET_NAME(ch));
+				perslog(" ", buf); // prool
 				mudlog(buf, NRM, LVL_GOD, SYSLOG, TRUE);
 				extract_char(ch, FALSE);
 			}
@@ -1039,6 +1042,7 @@ void hour_update(void)
 		sprintf(buf, "%sМинул час.%s\r\n", CCIRED(i->character, C_NRM), CCNRM(i->character, C_NRM));
 		SEND_TO_Q(buf, i);
 	}
+//statlog(); // prool
 }
 
 void room_point_update()

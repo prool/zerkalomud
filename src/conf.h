@@ -100,7 +100,7 @@ void gettimeofday(struct timeval *t, struct timezone *dummy);
 /* Define if you have the <assert.h> header file.  */
 #define HAVE_ASSERT_H 1
 /* Define if you have the <crypt.h> header file.  */
-//#define HAVE_CRYPT_H 1
+#define HAVE_CRYPT_H 1
 /* Define if you have the <errno.h> header file.  */
 #define HAVE_ERRNO_H 1
 /* Define if you have the <fcntl.h> header file.  */

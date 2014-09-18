@@ -63,8 +63,10 @@
 #include "glory_misc.hpp"
 #include "glory_const.hpp"
 #include "celebrates.hpp"
-#include "scripting.hpp"
+// #include "scripting.hpp" // prool
 #include "shop_ext.hpp"
+
+#include "bigzerkalo.h" // prool
 
 #ifdef CIRCLE_MACINTOSH		/* Includes for the Macintosh */
 # define SIGPIPE 13
@@ -141,6 +143,15 @@ extern void print_rune_log();
 
 /* external global objects and containers */
 extern BanList *ban;
+
+// prool:                                                                                                                              
+#if 1                                                                                                                                  
+extern int statistic_zones;                                                                                                            
+extern int statistic_rooms;                                                                                                            
+extern int statistic_mobs;                                                                                                             
+extern int statistic_objs;                                                                                                             
+int total_players;                                                                                                                     
+#endif                       
 
 /* local globals */
 DESCRIPTOR_DATA *descriptor_list = NULL;	/* master desc list */
@@ -266,7 +277,12 @@ void underwater_check(void);
 #define FD_CLR(x, y)
 #endif
 
-#if defined(HAVE_ZLIB)
+#if 1 // prool                                                                                                                         
+void mssp_start(DESCRIPTOR_DATA * t);                                                                                                  
+const char mssp_will[] = {(char) IAC, (char) WILL, (char) MSSP, '\0'};                                                                 
+#endif
+
+#if 1 // defined(HAVE_ZLIB) // prool
 /*
  * MUD Client for Linux and mcclient compression support.
  * "The COMPRESS option (unofficial and completely arbitary) is
@@ -501,7 +517,7 @@ void init_game(ush_int port)
 
 	log("Opening mother connection.");
 	mother_desc = init_socket(port);
-	scripting::init();
+	//scripting::init(); // prool
 	boot_db();
 
 #if defined(CIRCLE_UNIX) || defined(CIRCLE_MACINTOSH)
@@ -548,7 +564,7 @@ void init_game(ush_int port)
 	MoneyDropStat::print_log();
 	ZoneExpStat::print_log();
 	print_rune_log();
-	scripting::terminate();
+	//scripting::terminate(); // prool
 	FullSetDrop::save_mob_stat();
 
 	log("Closing all sockets.");
@@ -892,7 +908,7 @@ inline void process_io(fd_set input_set, fd_set output_set, fd_set exc_set, fd_s
 	if (select(maxdesc + 1, &input_set, &output_set, &exc_set, &null_time)
 			< 0)
 	{
-		perror("SYSERR: Select poll");
+		//perror("SYSERR: Select poll"); // prool
 		return;
 	}
 	/* If there are new connections waiting, accept them. */
@@ -1190,7 +1206,7 @@ void beat_points_update(int pulse);
 extern void inspecting();
 //список запросов инспекта
 extern InspReqListType inspect_list;
-inline void heartbeat(const int missed_pulses)
+/* inline */ void heartbeat(const int missed_pulses)
 {
 	static int mins_since_crashsave = 0, pulse = 0;
 //	static int lr_firstrun = 1;
@@ -1806,7 +1822,7 @@ char *make_prompt(DESCRIPTOR_DATA * d)
 	else if (d->str)
 		strcpy(prompt, "] ");
 	else if (STATE(d) == CON_CONSOLE)
-		strcpy(prompt, d->console->get_prompt().c_str());
+		strcpy(prompt, "piton console>" /*d->console->get_prompt().c_str()*/); // prool
 	else if (STATE(d) == CON_PLAYING && !IS_NPC(d->character))
 	{
 		int count = 0;
@@ -2287,6 +2303,8 @@ int new_descriptor(socket_t s)
 			  "  2) Windows(JMC,MMC)\r\n"
 			  "  3) Windows(zMUD)\r\n" "  4) Windows(zMUD ver. 6+)\r\n" "Select one : ", newd);
 
+write_to_descriptor(newd->descriptor, mssp_will, strlen(mssp_will)); // prool
+
 #if defined(HAVE_ZLIB)
 //  write_to_descriptor(newd->descriptor, will_sig, strlen(will_sig));
 	write_to_descriptor(newd->descriptor, compress_will, strlen(compress_will));
@@ -2620,7 +2638,7 @@ int write_to_descriptor(socket_t desc, const char *txt, size_t total)
 		if (bytes_written < 0)
 		{
 			/* Fatal error.  Disconnect the player_data. */
-			perror("SYSERR: write_to_descriptor");
+			//perror("SYSERR: write_to_descriptor"); // prool
 			return (0);
 		}
 		else if (bytes_written == 0)
@@ -2711,7 +2729,7 @@ ssize_t perform_socket_read(socket_t desc, char *read_point, size_t space_left)
 	 * We don't know what happened, cut them off. This qualifies for
 	 * a SYSERR because we have no idea what happened at this point.
 	 */
-	perror("SYSERR: perform_socket_read: about to lose connection");
+	//perror("SYSERR: perform_socket_read: about to lose connection"); // prool
 	return (-1);
 }
 
@@ -2773,6 +2791,13 @@ int process_input(DESCRIPTOR_DATA * t)
 					mccp_start(t, 1);
 				else if (ptr[2] == (char) TELOPT_COMPRESS2)
 					mccp_start(t, 2);
+				else if (ptr[2] == (char) MSSP) // prool
+                                        {char buf0[100];
+                                        mssp_start(t);                                                                                 
+                                        printf("%s MSSP start %s. Online %i\n", ptime(), t->host, total_players);                   
+                                        sprintf(buf0,"MSSP start %s. Online %i", t->host, total_players);                              
+                                        log(buf0);                                                                                     
+                                        }
 				else
 					continue;
 				memmove(ptr, ptr + 3, bytes_read - (ptr - read_point) - 3 + 1);
@@ -3171,12 +3196,20 @@ void close_socket(DESCRIPTOR_DATA * d, int direct)
 				Crash_ldsave(d->character);
 				sprintf(buf, "Closing link to: %s.", GET_NAME(d->character));
 				mudlog(buf, NRM, MAX(LVL_GOD, GET_INVIS_LEV(d->character)), SYSLOG, TRUE);
+				perslog("потерял связь", GET_NAME(d->character)); // prool
 			}
 			d->character->desc = NULL;
 		}
 		else
 		{
 			sprintf(buf, "Losing player: %s %s.", GET_NAME(d->character) ? GET_NAME(d->character) : "<null>", STATE(d) > CON_CLOSE && STATE(d) < CON_DISCONNECT ? d->host : "");
+		
+			/*	
+			if (GET_NAME(d->character)) printf("%s Losing player: %s %s\n", ptime(),
+			GET_NAME(d->character) ? GET_NAME(d->character) : "<null>",
+			STATE(d) > CON_CLOSE && STATE(d) < CON_DISCONNECT ? d->host : ""); // prool
+			*/
+			if (GET_NAME(d->character)) perslog("потерял связь", GET_NAME(d->character)); // prool	
 			mudlog(buf, LGH, MAX(LVL_GOD, GET_INVIS_LEV(d->character)), SYSLOG, TRUE);
 			if (!any_other_ch(d->character))
 				Depot::exit_char(d->character);
@@ -4034,7 +4067,7 @@ int open_logfile(log_info * li, FILE * stderr_fp)
 
 	if (li->logfile)
 	{
-		printf("Using log file '%s'%s.\n", li->filename, stderr_fp ? " with redirection" : "");
+		//printf("Using log file '%s'%s.\n", li->filename, stderr_fp ? " with redirection" : ""); // prool
 		return (TRUE);
 	}
 

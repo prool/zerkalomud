@@ -108,7 +108,7 @@ int free_rent = NO;
 /* receptionist's surcharge on top of item costs */
 int min_rent_cost(CHAR_DATA * ch)
 {
-	if ((GET_LEVEL(ch) < 15) && (GET_REMORT(ch) == 0))
+	if (1/*(GET_LEVEL(ch) < 15) && (GET_REMORT(ch) == 0)*/) // prool
 		return (0);
 	else
 		return ((GET_LEVEL(ch) + 30 * GET_REMORT(ch)) * 2);

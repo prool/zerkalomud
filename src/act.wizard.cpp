@@ -57,6 +57,8 @@
 #include "birth_places.hpp"
 #include "corpse.hpp"
 
+#include "bigzerkalo.h" // prool
+
 /*   external vars  */
 extern bool need_warn;
 extern FILE *player_fl;
@@ -6055,3 +6057,59 @@ ACMD(do_print_armor)
 		send_to_char("Ничего не найдено.\r\n", ch);
 	}
 }
+
+ACMD(do_kogda) // new version
+{
+char str[PROOL_MAX_STRLEN];
+FILE *fp;
+int i, counter, tail;
+#define TAIL 30
+
+	// считаем кол-во строк в файле
+	fp=fopen(PERSLOG_FILE,"r");
+	counter=0;
+	while (fgets(str,PROOL_MAX_STRLEN,fp)!=NULL) counter++;
+	fclose(fp);
+
+	// читаем файл и транслируем его игроку
+	if (*argument==0) tail=TAIL;
+	else tail=atoi(argument+1);
+	//printf("tail=%i\n",tail);
+	if (tail==0) tail=TAIL;
+	i=0;
+	fp=fopen(PERSLOG_FILE,"r");
+	while (fgets(str,PROOL_MAX_STRLEN,fp)!=NULL)
+		{
+		if ((i+tail)>=counter)
+			{
+			send_to_char(str,ch);
+			send_to_char("\r",ch);
+			}
+		i++;
+		}
+	fclose(fp);
+}
+
+ACMD(do_igroki) // prool
+{
+char str[PROOL_MAX_STRLEN];
+FILE *fp;
+
+send_to_char("Команда ИГРОКИ ушла в отпуск\r\n", ch); return;
+
+	if (system("sh igroki.sh")==-1)
+		{
+		printf("system() error (maybe fork() error, RAM overflow etc)\n");
+		}
+
+	// читаем файл вывода и транслируем его игроку
+	fp=fopen("system.txt","r");
+	while (fgets(str,PROOL_MAX_STRLEN,fp)!=NULL)
+		{
+		send_to_char(str,ch);
+		send_to_char("\r",ch);
+		}
+	fclose(fp);
+}
+
+

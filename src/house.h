@@ -51,9 +51,9 @@ const unsigned CLAN_PRIVILEGES_NUM = 13;
 // период обновление статов экспы в топе кланов в режиме запрета обновления на лету (минут)
 #define CLAN_TOP_REFRESH_PERIOD 360
 // клановый налог в день
-#define CLAN_TAX 1000
+#define CLAN_TAX 1 // prool
 // налог на выборку по параметрам из хранилища в день
-#define CLAN_STOREHOUSE_TAX 1000
+#define CLAN_STOREHOUSE_TAX 1 // prool
 // процент стоимости ренты шмотки (одетой) для хранилища
 #define CLAN_STOREHOUSE_COEFF 50
 

@@ -48,6 +48,8 @@
 #include "room.hpp"
 #include "objsave.h"
 
+#include "bigzerkalo.h" // prool
+
 using std::ifstream;
 using std::fstream;
 using std::map;
@@ -162,6 +164,7 @@ ACMD(do_quit)
 		}
 		if (!GET_INVIS_LEV(ch))
 			act("$n покинул$g игру.", TRUE, ch, 0, 0, TO_ROOM);
+		perslog("вышел", GET_NAME(ch)); // prool
 		sprintf(buf, "%s quit the game.", GET_NAME(ch));
 		mudlog(buf, NRM, MAX(LVL_GOD, GET_INVIS_LEV(ch)), SYSLOG, TRUE);
 		send_to_char("До свидания, странник... Мы ждем тебя снова !\r\n", ch);

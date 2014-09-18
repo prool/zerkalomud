@@ -87,7 +87,7 @@ void redit_setup(DESCRIPTOR_DATA * d, int real_num)
 	if (real_num == NOWHERE)
 	{
 		room->name = str_dup("Недоделанная комната");
-		room->temp_description = str_dup("Вы оказались в комнате, наполненной обломками творческих мыслей билдера.\r\n");
+		room->temp_description = str_dup("Комната пуста\r\n"); // prool
 	}
 	else
 	{

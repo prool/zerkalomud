@@ -51,6 +51,10 @@
 #include "player_races.hpp"
 #include "corpse.hpp"
 
+#include "map.hpp" // prool
+
+#include "bigzerkalo.h" // prool
+
 using std::string;
 
 /* extern variables */
@@ -77,6 +81,9 @@ extern const char *material_name[];
 extern im_type *imtypes;
 extern int top_imtypes;
 extern void show_code_date(CHAR_DATA *ch);
+
+extern int players_num; // prool
+extern int total_players; // prool
 
 /* extern functions */
 long find_class_bitvector(char arg);
@@ -1599,6 +1606,15 @@ void show_extend_room(const char * const description, CHAR_DATA * ch)
 	send_to_char("\r\n", ch);
 }
 
+int enable_map(CHAR_DATA * ch)
+{
+if (!strcmp(GET_NAME(ch),"Пруль")) return 1;
+if (!strcmp(GET_NAME(ch),"Январь")) return 1;
+if (!strcmp(GET_NAME(ch),"Февраль")) return 1;
+if (!strcmp(GET_NAME(ch),"Март")) return 1;
+return 0;
+}
+
 void look_at_room(CHAR_DATA * ch, int ignore_brief)
 {
 	if (!ch->desc)
@@ -1616,6 +1632,9 @@ void look_at_room(CHAR_DATA * ch, int ignore_brief)
 	}
 	else if (GET_POS(ch) < POS_SLEEPING)
 		return;
+
+	if (enable_map(ch)) MapSystem::print_map(ch); // prool
+
 	send_to_char(CCICYN(ch, C_NRM), ch);
 
 	if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_ROOMFLAGS))
@@ -4895,7 +4914,7 @@ ACMD(do_users)
 // Хорс
 		if (d->host && *d->host)
 		{
-			sprintf(line2, "[%s]", d->host);
+			sprintf(line2, "[%s] [%s]", d->host, nslookup(d->host)); // prool
 			strcat(line, line2);
 		}
 		else
@@ -5438,6 +5457,9 @@ ACMD(do_toggle)
 ACMD(do_zone)
 {
 	const int group = zone_table[world[ch->in_room]->zone].group;
+
+	if (enable_map(ch)) MapSystem::print_map(ch); // prool
+
 	if (group > 1)
 	{
 		send_to_char(ch, "%s (групповая на %d %s).\r\n",
@@ -5652,10 +5674,10 @@ void make_who2html(void)
 	if ((opf = fopen(WHOLIST_FILE, "w")) == 0)
 		return;		/* or log it ? *shrug* */
 
-	fprintf(opf, "<HTML><HEAD><TITLE>Кто сейчас в Былинах?</TITLE></HEAD>\n");
-	fprintf(opf, "<BODY><H1>Кто сейчас живет в Былинах?</H1><HR>\n");
+	fprintf(opf, "<HTML><HEAD><TITLE>Кто сейчас в Зеркале</TITLE></HEAD>\n");
+	fprintf(opf, "<BODY>Кто сейчас в Зеркале<HR>\n");
 
-	sprintf(buf, "БОГИ <BR> \r\n");
+	sprintf(buf, "Иммы <BR> \r\n");
 	imms = str_add(imms, buf);
 
 	sprintf(buf, "<BR>Игроки<BR> \r\n  ");
@@ -5678,10 +5700,15 @@ void make_who2html(void)
 				morts = str_add(morts, buf);
 			}
 		}
+		
+	players_num=morts_num; // prool
+	total_players=morts_num; // prool
+	//statlog(); // prool
 
-	if (morts_num + imms_num == 0)
+	if (0 /*morts_num + imms_num == 0*/ ) // prool
 	{
-		sprintf(buf, "Все ушли на фронт! <BR>");
+		sprintf(buf, "Никого! <BR>");
+		total_players=0;
 		buffer = str_add(buffer, buf);
 	}
 	else
@@ -5691,22 +5718,22 @@ void make_who2html(void)
 		if (morts_num > 0)
 			buffer = str_add(buffer, morts);
 
-		buffer = str_add(buffer, " <BR> \r\n Всего :");
+		buffer = str_add(buffer, " <BR> \r\n Всего:");
 
-		if (imms_num)
+		if (1 /*imms_num*/) // prool
 		{
 			// sprintf(buf+strlen(buf)," бессмертных %d",imms_num);
 			sprintf(buf, " бессмертных %d", imms_num);
 			buffer = str_add(buffer, buf);
 		}
-		if (morts_num)
+		if (1 /*morts_num*/) // prool
 		{
 			// sprintf(buf+strlen(buf)," смертных %d",morts_num);
 			sprintf(buf, " смертных %d", morts_num);
 			buffer = str_add(buffer, buf);
 		}
 
-		buffer = str_add(buffer, ".\n");
+		buffer = str_add(buffer, "\n");
 	}
 
 	fprintf(opf, buffer);

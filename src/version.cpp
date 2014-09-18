@@ -14,7 +14,7 @@
 
 void show_code_date(CHAR_DATA *ch)
 {
-	send_to_char(ch, "МПМ Былины, версия от %s %s\r\n", __DATE__, __TIME__);
+	send_to_char(ch, "Зеркало-НВО, версия от %s %s\r\n", __DATE__, __TIME__);
 }
 
 void log_code_date()

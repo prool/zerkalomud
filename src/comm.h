@@ -81,7 +81,7 @@ extern log_info logs[NLOG];
 
 extern unsigned long cmd_cnt;
 
-#define DEFAULT_REBOOT_UPTIME 60*24*3	//время до ближайшего ребута по умолчанию в минутах
+#define DEFAULT_REBOOT_UPTIME 60*24*7	//время до ближайшего ребута по умолчанию в минутах (было 3. prool)
 #define UPTIME_THRESHOLD      120	//минимальный аптайм для ребута в часах
 
 void timediff(struct timeval *diff, struct timeval *a, struct timeval *b);

@@ -53,9 +53,11 @@
 #include "glory_const.hpp"
 #include "glory_misc.hpp"
 #include "named_stuff.hpp"
-#include "scripting.hpp"
+//#include "scripting.hpp" // prool
 #include "player_races.hpp"
 #include "birth_places.hpp"
+
+#include "bigzerkalo.h" // prool
 
 extern room_rnum r_mortal_start_room;
 extern room_rnum r_immort_start_room;
@@ -403,6 +405,12 @@ ACMD(do_morph);
 ACMD(do_morphset);
 ACMD(do_console);
 
+// prool:
+ACMD(do_fflush);
+ACMD(do_map);
+ACMD(do_kogda);
+ACMD(do_igroki);
+
 /* This is the Master Command List(tm).
 
  * You can put new commands in, take commands out, change the order
@@ -422,57 +430,17 @@ ACMD(do_console);
 const char *create_name_rules =
 	"  ПРАВИЛА ИМЕНОВАНИЯ ИГРОВЫХ ПЕРСОНАЖЕЙ\r\n"
 	"\r\n"
-	"Эпиграф: 'Прежде чем выбрать имя своего персонажа - подумайте: а не\r\n"
-	"окажется ли он в Комнате Имени...'\r\n"
-	"\r\n"
-	"1. Не забывайте, что сей мир создан и продолжает существовать благодаря\r\n"
+	"Не забывайте, что сей мир создан и продолжает существовать благодаря\r\n"
 	"мудрым бессмертным. Поэтому если они посчитали, что Ваше имя не подходит\r\n"
 	"этому миру - значит так оно и есть. И спорить с Этим не нужно.\r\n"
-	"2. На что должно быть похоже имя персонажа? На любое старославянское имя\r\n"
-	"(читайте историческую литературу), которое могло существовать во времена\r\n"
-	"Киевской Руси, и производные от него. Например: Ольга, Оленька, Олюшка,\r\n"
-	"Оля, Ольгуша - это более-менее. Но вот ОлИнька - уже хуже, это уже скорее\r\n"
-	"неграмотно. И так далее. Мужских имен вообще крайне много. Была бы\r\n"
-	"фантазия. Яросвет, Ярополк, Яробор, Яромир, Ярогор, Ярослав - это\r\n"
-	"навскидку так называемые 'однокоренные' имена. В общем, как говорится,\r\n"
-	"немного фантазии и мысли - и все получится. 3. На что НЕ ДОЛЖНО быть\r\n"
-	"похоже имя персонажа? На имена Богов религий, мифологий и эпосов (любых),\r\n"
-	"на современные русские и (особенно) иностранные фамилии, на иностранные\r\n"
-	"(читайте -\r\n"
-	"неславянские) имена, на имена персонажей литературы стиля фэнтези, на\r\n"
-	"названия единиц измерения чего-либо, названия\r\n"
-	"существовавших, существующих или вымыленных рас или национальностей, на\r\n"
-	"иностранные (интернациональные) слова, на\r\n"
-	"существительные, являющиеся неодушевленными предметами, на имена очень\r\n"
-	"известные имена собственные (названия газет, журналов), и конечно на\r\n"
-	"наименования МОБОВ и НПЧ (продавцов и проч.) Также имена не должны быть\r\n"
-	"откровенно грубыми или вызывающими. Примеры неправильных имен: Ра, Анубис,\r\n"
-	"Кришна, Кузнецов, Джонсон, Джон, Гастелло, Гарольд, Хуан, Мерлин,\r\n"
-	"Ланселот, Ритор, Ахмед, Фунтик, Тонночка, Метрик, Дюймичек, Паскаленыш,\r\n"
-	"Халфлинг, Эльфочка, Немчура, Негроид, Грузинчик, Испэшл, Вумен, Драйвер,\r\n"
-	"Менеджер, Провайдер, Рюмочка, Досочка, Доскамир, Доскасвет, Лодчик, Бутик,\r\n"
-	"Хлебомир, Хлебослав, Некрофил, Алкоголь, Кук, Черчилль, Горби, Сахара,\r\n"
-	"Нэнси, ИванушкИ (последняя буква), Пятачок, Косми, Вогги, Гамер, Ламер,\r\n"
-	"Хакер, Инетер, Факер, Мазафакер, Мудокрякер, и т.п.\r\n"
-	"Также следует понимать, что ИМЯ ДОЛЖНО ИМЕТЬ СМЫСЛ. Хоть какой-то. То\r\n"
-	"есть, не должно быть имен Вуглускр, Трепидимикир, и прочее. :) Также как и\r\n"
-	"Эйворкгоу, Тралявал, Супрогор, Супермир, Фрокстич, Кропсмак, ну и так\r\n"
-	"далее. Каждый должен перед тем как выбрать имя подумать, как он сможет\r\n"
-	"объяснить свое появление.\r\n"
-	"4. Если Вы сомневаетесь в имени своем - спросите дружеского совета у Богов\r\n"
+	"Если Вы сомневаетесь в имени своем - спросите дружеского совета у Богов\r\n"
 	"или у опытных игроков хотя бы. Чтобы потом 'не было мучительно больно за\r\n"
 	"прожитые годы'. Если имя одобрено любым Богом уровня 'старший Бог'\r\n"
-	"(справка боги) - считайте, что можно играть. 5. Если Вы на страх и риск\r\n"
+	"(справка боги) - считайте, что можно играть. Если Вы на страх и риск\r\n"
 	"свой создали персонажа с именем на свой вкус - не удивляйтесь что вы\r\n"
 	"оказались в комнате имени и не устраивайте истерик по этому поводу. Оттуда\r\n"
-	"дорога обратная только одна: переименование. На это могут расчитывать\r\n"
-	"персонажи 15+ уровня, причем после долгого и упорного (и слезного)\r\n"
-	"вымаливания процедуры переименования (вероятность что Старшие Боги на это\r\n"
-	"пойдут - порядка 10%)\r\n"
-	"\r\n"
-	"Если у Вас проблемы с придумыванием имени, гляньте по УРЛу\r\n"
-	"http://www.devichnik.ru/9810/imia.html , но учтите, что взятое оттуда имя\r\n"
-	"не гарантирует, что Вы не окажетесь в комнате имен\r\n";
+	"дорога обратная только одна: переименование.\r\n"
+	;
 
 cpp_extern const struct command_info cmd_info[] =
 {
@@ -558,6 +526,7 @@ cpp_extern const struct command_info cmd_info[] =
 	{"дрновости", POS_DEAD, DoBoard, 1, CLANNEWS_BOARD, -1},
 	{"дрвече", POS_DEAD, DoBoard, 1, CLAN_BOARD, -1},
 	{"дрлист", POS_DEAD, DoClanPkList, 0, 1, 0},
+	{"духмада", POS_DEAD, do_duhmada, 0, 1, 0}, // prool
 
 	{"есть", POS_RESTING, do_eat, 0, SCMD_EAT, 500},
 
@@ -589,6 +558,7 @@ cpp_extern const struct command_info cmd_info[] =
 
 	{"инвентарь", POS_SLEEPING, do_inventory, 0, 0, 0},
 	{"игнорировать", POS_DEAD, do_ignore, 0, 0, 0},
+	{"игроки", POS_DEAD, do_igroki, 0, 0, 0}, // prool
 	{"идеи", POS_DEAD, DoBoard, 1, IDEA_BOARD, 0},
 	{"идея", POS_DEAD, do_gen_write, 0, SCMD_IDEA, 0},
 	{"изгнать нежить", POS_RESTING, do_turn_undead, 0, 0, -1},
@@ -599,8 +569,10 @@ cpp_extern const struct command_info cmd_info[] =
 
 	{"колдовать", POS_SITTING, do_cast, 1, 0, -1},
 	{"казна", POS_RESTING, do_not_here, 1, 0, 0},
+	{"карта", POS_RESTING, do_map, 0, 0, 0}, // prool
 	{"клан", POS_RESTING, DoHouse, 0, 0, 0},
 	{"клич", POS_FIGHTING, do_warcry, 1, 0, -1},
+	{"когда", POS_DEAD, do_kogda, 0, 0, 0}, // prool
 	{"кодер", POS_DEAD, DoBoard, 1, GODCODE_BOARD, -1},
 	{"команды", POS_DEAD, do_commands, 0, SCMD_COMMANDS, 0},
 	{"коне", POS_SLEEPING, do_quit, 0, 0, 0},
@@ -867,6 +839,7 @@ cpp_extern const struct command_info cmd_info[] =
 	{"exits", POS_RESTING, do_exits, 0, 0, 500},
 	{"featset", POS_SLEEPING, do_featset, LVL_IMPL, 0, 0},
 	{"features", POS_SLEEPING, do_features, 0, 0, 0},
+	{"fflush", POS_SLEEPING, do_fflush, 0, 0, 0}, // prool
 	{"fill", POS_STANDING, do_pour, 0, SCMD_FILL, 500},
 	{"fit", POS_RESTING, do_fit, 0, SCMD_DO_ADAPT, 500},
 	{"flee", POS_FIGHTING, do_flee, 1, 0, -1},
@@ -949,7 +922,7 @@ cpp_extern const struct command_info cmd_info[] =
 	{"proxy", POS_DEAD, do_proxy, LVL_GRGOD, 0, 0},
 	{"purge", POS_DEAD, do_purge, LVL_GOD, 0, 0},
 	{"put", POS_RESTING, do_put, 0, 0, 500},
-	{"python", POS_DEAD, do_console, LVL_GOD, 0, 0},
+//	{"python", POS_DEAD, do_console, LVL_GOD, 0, 0},
 	{"quaff", POS_RESTING, do_use, 0, SCMD_QUAFF, 500},
 	{"qui", POS_SLEEPING, do_quit, 0, 0, 0},
 	{"quit", POS_SLEEPING, do_quit, 0, SCMD_QUIT, -1},
@@ -1979,6 +1952,7 @@ int perform_dupe_check(DESCRIPTOR_DATA * d)
 		check_light(d->character, LIGHT_NO, LIGHT_NO, LIGHT_NO, LIGHT_NO, 1);
 		act("$n восстановил$g связь.", TRUE, d->character, 0, 0, TO_ROOM);
 		sprintf(buf, "%s [%s] has reconnected.", GET_NAME(d->character), d->host);
+		perslog("пересоединился", GET_NAME(d->character)); // prool
 		mudlog(buf, NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(d->character)), SYSLOG, TRUE);
 		login_change_invoice(d->character);
 		break;
@@ -2046,11 +2020,11 @@ int check_dupes_host(DESCRIPTOR_DATA * d, bool autocheck = 0)
 				&& !IS_IMMORTAL(i->character)
 				&& (STATE(i) == CON_PLAYING || STATE(i) == CON_MENU))
 		{
-			switch (CheckProxy(d))
+			switch (2/*CheckProxy(d)*/) // prool
 			{
 			case 0:
 				// если уже сидим в проксе, то смысла спамить никакого
-				if (IN_ROOM(d->character) == r_unreg_start_room || d->character->get_was_in_room() == r_unreg_start_room)
+				if (1/*IN_ROOM(d->character) == r_unreg_start_room || d->character->get_was_in_room() == r_unreg_start_room*/) // prool: мультить можно
 					return 0;
 				send_to_char(d->character,
 							 "&RВы вошли с игроком %s с одного IP(%s) !\r\n"
@@ -2090,7 +2064,7 @@ int check_dupes_email(DESCRIPTOR_DATA * d)
 			continue;
 		if (IS_NPC(ch))
 			continue;
-		if (ch && !IS_IMMORTAL(ch) && (!str_cmp(GET_EMAIL(ch), GET_EMAIL(d->character))))
+		if (0 /*ch && !IS_IMMORTAL(ch) && (!str_cmp(GET_EMAIL(ch), GET_EMAIL(d->character)))*/) // prool
 		{
 			sprintf(buf, "Вы не можете войти одновременно с %s!\r\n"
 					"Одинаковый email адрес!\r\n", GET_PAD(ch, 4));
@@ -2381,6 +2355,12 @@ void do_entergame(DESCRIPTOR_DATA * d)
 		("Воспользуйтесь командой НОВИЧОК для получения вводной информации игроку.\r\n", d->character);
 	}
 	sprintf(buf, "%s вошел в игру.", GET_NAME(d->character));
+	if (strcmp(GET_NAME(d->character),"Пруль")) // prool
+		{
+		send_email2("Zerkalo", "prool@itl.ua", "User logon", (char *) GET_NAME(d->character));
+		send_email2("Zerkalo", "proolix@gmail.com", "User logon", (char *) GET_NAME(d->character));
+		}
+	perslog("вошел", GET_NAME(d->character)); // prool
 	mudlog(buf, NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(d->character)), SYSLOG, TRUE);
 	look_at_room(d->character, 0);
 	d->has_prompt = 0;
@@ -2538,7 +2518,7 @@ void nanny(DESCRIPTOR_DATA * d, char *arg)
 			NamedStuff::nedit_menu(d->character);
 		break;
 	case CON_CONSOLE:
-		d->console->push(arg);
+		//d->console->push(arg); // prool
 		break;
 		/*. End of OLC states . */
 
