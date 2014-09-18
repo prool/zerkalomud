@@ -2301,7 +2301,10 @@ int new_descriptor(socket_t s)
 			  "  0) Koi-8\r\n"
 			  "  1) Alt\r\n"
 			  "  2) Windows(JMC,MMC)\r\n"
-			  "  3) Windows(zMUD)\r\n" "  4) Windows(zMUD ver. 6+)\r\n" "Select one : ", newd);
+			  "  3) Windows(zMUD)\r\n"
+			  "  4) Windows(zMUD ver. 6+)\r\n"
+			  "  5) UTF-8\r\n"
+			  "Select one : ", newd);
 
 write_to_descriptor(newd->descriptor, mssp_will, strlen(mssp_will)); // prool
 
@@ -2404,11 +2407,13 @@ int process_output(DESCRIPTOR_DATA * t)
 	case KT_WINZ6:
 		for (; *pi; *po = KtoW2(*pi), pi++, po++);
 		break;
+	case KT_UTF8: koi_to_utf8(pi,po);
+			break;
 	default:
 		for (; *pi; *po = *pi, pi++, po++);
 		break;
 	}
-	*po = '\0';
+	if (t->keytable!=KT_UTF8) *po = '\0';
 	for (c = 0; o[c]; c++)
 	{
 		i[c] = o[c];
@@ -2925,6 +2930,7 @@ int process_input(DESCRIPTOR_DATA * t)
 				default:
 					t->keytable = 0;
 				case 0:
+				case KT_UTF8:
 					*(write_point++) = *ptr;
 					break;
 				case KT_ALT:
@@ -2959,6 +2965,24 @@ int process_input(DESCRIPTOR_DATA * t)
 		}
 
 		*write_point = '\0';
+
+		if (t->keytable == KT_UTF8)
+		{
+			int i;
+			char utf8_tmp[MAX_SOCK_BUF * 2 * 3];
+			size_t len_i, len_o;
+
+			len_i = strlen(tmp);
+
+			for (i = 0; i < MAX_SOCK_BUF * 2 * 3; i++)
+			{
+				utf8_tmp[i] = 0;
+			}
+			utf8_to_koi(tmp, utf8_tmp);
+			len_o = strlen(utf8_tmp);
+			strncpy(tmp, utf8_tmp, MAX_INPUT_LENGTH - 1);
+			space_left = space_left + len_i - len_o;
+		}
 
 		if ((space_left <= 0) && (ptr < nl_pos))
 		{
