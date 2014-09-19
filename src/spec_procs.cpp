@@ -7,10 +7,9 @@
 *  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 * 									  *
-*  $Author$                                                        *
-*  $Date$                                           *
-*  $Revision$                                                      *
 ************************************************************************ */
+
+#define DEBUG // prool
 
 #include "conf.h"
 #include "sysdep.h"
@@ -557,12 +556,18 @@ void init_guilds(void)
 	int i, spellnum, skillnum, featnum, num, type = 0, lines = 0, level, pgcount = 0, mgcount = 0;
 	struct guild_poly_type *poly_guild = NULL;
 	struct guild_mono_type mono_guild;
+#ifdef DEBUG
+printf("init_guilds() L1\n");
+#endif
 
 	if (!(magic = fopen(LIB_MISC "guilds.lst", "r")))
 	{
 		log("Cann't open guilds list file...");
 		return;
 	}
+#ifdef DEBUG
+printf("init_guilds() L2\n");
+#endif
 	while (get_line(magic, name))
 	{
 		if (!name[0] || name[0] == ';')
@@ -783,6 +788,9 @@ void init_guilds(void)
 			pgcount++;
 		}
 	}
+#ifdef DEBUG
+printf("init_guilds() L3\n");
+#endif
 	fclose(magic);
 	return;
 }

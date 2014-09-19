@@ -7,10 +7,9 @@
 *  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 *                                                                         *
-*  $Author$                                                        *
-*  $Date$                                           *
-*  $Revision$                                                       *
 ************************************************************************ */
+
+#define DEBUG // prool
 
 #define __DB_C__
 
@@ -1634,10 +1633,19 @@ void boot_db(void)
 	FileCRC::load();
 
 	log("Loading fight messages.");
+#ifdef DEBUG
+printf("L1\n");
+#endif
 	load_messages();
+#ifdef DEBUG
+printf("L2\n");
+#endif
 
 	log("Assigning function pointers:");
 
+#ifdef DEBUG
+printf("L3\n");
+#endif
 	if (!no_specials)
 	{
 		log("   Mobiles.");
@@ -1650,12 +1658,21 @@ void boot_db(void)
 		assign_rooms();
 	}
 
+#ifdef DEBUG
+printf("L4\n");
+#endif
 	log("Assigning spell and skill levels.");
 	init_spell_levels();
 
+#ifdef DEBUG
+printf("L5\n");
+#endif
 	log("Sorting command list.");
 	sort_commands();
 
+#ifdef DEBUG
+printf("L6\n");
+#endif
 	log("Booting mail system.");
 	if (!scan_file())
 	{
@@ -1663,82 +1680,157 @@ void boot_db(void)
 		no_mail = 1;
 	}
 	log("Reading banned site, proxy, privileges and invalid-name list.");
+#ifdef DEBUG
+printf("L7\n");
+#endif
 	ban = new BanList();
 	Read_Invalid_List();
 
+#ifdef DEBUG
+printf("L8\n");
+#endif
 	log("Booting rented objects info");
+#ifdef DEBUG
+printf("L9\n");
+#endif
 	for (i = 0; i <= top_of_p_table; i++)
 	{
 		(player_table + i)->timer = NULL;
 		Crash_read_timer(i, FALSE);
 	}
 
+#ifdef DEBUG
+printf("La\n");
+#endif
 	// последовательность лоада кланов/досок не менять
 	log("Booting boards");
 	Board::BoardInit();
+#ifdef DEBUG
+printf("Lb\n");
+#endif
 	log("Load named stuff");
 	// загрузка списка именных вещей
 	NamedStuff::load();
+#ifdef DEBUG
+printf("Lc\n");
+#endif
 	log("Booting clans");
 	Clan::ClanLoad();
+#ifdef DEBUG
+printf("Ld\n");
+#endif
 
 	log("Booting basic values");
 	init_basic_values();
+#ifdef DEBUG
+printf("Le\n");
+#endif
 
 	log("Booting grouping parameters");
 	if (init_grouping())
 		exit(1);
 
+#ifdef DEBUG
+printf("Lf\n");
+#endif
 	log("Booting specials assigment");
 	init_spec_procs();
+#ifdef DEBUG
+printf("Lg\n");
+#endif
 
 	log("Booting guilds");
 	init_guilds();
+#ifdef DEBUG
+printf("Lh\n");
+#endif
 
 	log("Booting portals for 'town portal' spell");
 	portals_list = NULL;
 	init_portals();
+#ifdef DEBUG
+printf("Li\n");
+#endif
 
 	log("Booting maked items");
 	init_make_items();
+#ifdef DEBUG
+printf("Lj\n");
+#endif
 
 	log("Booting exchange");
 	exchange_database_load();
+#ifdef DEBUG
+printf("Lk\n");
+#endif
 
 	log("Load shedule reboot time");
 	load_sheduled_reboot();
+#ifdef DEBUG
+printf("Ll\n");
+#endif
 
 	log("Load proxy list");
 	LoadProxyList();
+#ifdef DEBUG
+printf("Lm\n");
+#endif
 
 	log("Load new_name list");
 	NewNameLoad();
+#ifdef DEBUG
+printf("Ln\n");
+#endif
 
 	log("Load global uid counter");
 	LoadGlobalUID();
+#ifdef DEBUG
+printf("Lo\n");
+#endif
 
 	log("Init DeathTrap list.");
 	DeathTrap::load();
+#ifdef DEBUG
+printf("Lp\n");
+#endif
 
 	log("Load Title list.");
 	TitleSystem::load_title_list();
+#ifdef DEBUG
+printf("Lq\n");
+#endif
 
 	log("Load registered emails list.");
 	RegisterSystem::load();
+#ifdef DEBUG
+printf("Lr\n");
+#endif
 
 	log("Load privilege and god list.");
 	Privilege::load();
+#ifdef DEBUG
+printf("Ls\n");
+#endif
 
 	// должен идти до резета зон
 	log("Init Depot system.");
 	Depot::init_depot();
+#ifdef DEBUG
+printf("Lt\n");
+#endif
 
 	log("Init Parcel system.");
 	Parcel::load();
+#ifdef DEBUG
+printf("Lu\n");
+#endif
 
 	log("Load Celebrates."); //Polud праздники. используются при ресете зон
 	//Celebrates::load(XMLLoad(LIB_MISC CELEBRATES_FILE, CELEBRATES_MAIN_TAG, CELEBRATES_ERROR_STR));
 	Celebrates::load();
+#ifdef DEBUG
+printf("Lv\n");
+#endif
 
 	// резет должен идти после лоада всех шмоток вне зон (хранилища и т.п.)
 	for (i = 0; i <= top_of_zone_table; i++)
@@ -1747,54 +1839,99 @@ void boot_db(void)
 			(i ? (zone_table[i - 1].top + 1) : 0), zone_table[i].top);
 		reset_zone(i);
 	}
+#ifdef DEBUG
+printf("Lw\n");
+#endif
 	reset_q.head = reset_q.tail = NULL;
 
 	// делается после резета зон, см камент к функции
 	log("Load depot chests.");
 	Depot::load_chests();
+#ifdef DEBUG
+printf("Lx\n");
+#endif
 
 	log("Load glory.");
 	Glory::load_glory();
+#ifdef DEBUG
+printf("Ly\n");
+#endif
 	log("Load const glory.");
 	GloryConst::load();
+#ifdef DEBUG
+printf("Lz\n");
+#endif
 	log("Load glory log.");
 	GloryMisc::load_log();
 
+#ifdef DEBUG
+printf("L~\n");
+#endif
 	//Polud грузим параметры рас мобов
 	log("Load mob races.");
 	load_mobraces();
+#ifdef DEBUG
+printf("L`\n");
+#endif
 
 	log("Load morphs.");
 	load_morphs();
+#ifdef DEBUG
+printf("L!\n");
+#endif
 
 	log("Init global drop list.");
 	GlobalDrop::init();
+#ifdef DEBUG
+printf("L@\n");
+#endif
 
 	log("Init offtop block list.");
 	OfftopSystem::init();
+#ifdef DEBUG
+printf("L#\n");
+#endif
 
 	log("load shop_ext list start.");
 	ShopExt::load(false);
+#ifdef DEBUG
+printf("L$\n");
+#endif
 	log("load shop_ext list stop.");
 
 	log("Init town shop_keepers.");
 	town_shop_keepers();
+#ifdef DEBUG
+printf("L%\n");
+#endif
 
 	log("Set zone average mob_level.");
 	set_zone_mob_level();
+#ifdef DEBUG
+printf("L^\n");
+#endif
 
 //	log("Init stop list for snoop.");
 //	init_snoop_stop_list();
 
 	log("Check big sets in rent.");
 	SetSystem::check_rented();
+#ifdef DEBUG
+printf("L&\n");
+#endif
 
 	log("Init FullSetDrop lists.");
 	FullSetDrop::init();
+#ifdef DEBUG
+printf("L*\n");
+#endif
 
 	boot_time = time(0);
 	log("Boot db -- DONE.");
 	perslog("MUD перезапущен", " "); // prool
+#ifdef DEBUG
+printf("L(\n");
+#endif
 }
 
 /* reset the time in the game from file */
@@ -1925,7 +2062,7 @@ int count_alias_records(FILE * fl)
 
 	/* No, they are not evil. -gg 6/24/98 */
 ackeof:
-	log("SYSERR: Unexpected end of help file.");
+	log("SYSERR: err 1. Unexpected end of help file.");
 	exit(1);		/* Some day we hope to handle these things better... */
 }
 
@@ -1982,8 +2119,8 @@ int count_social_records(FILE * fl, int *messages, int *keywords)
 
 	/* No, they are not evil. -gg 6/24/98 */
 ackeof:
-	log("SYSERR: Unexpected end of help file.");
-	exit(1);		/* Some day we hope to handle these things better... */
+	log("SYSERR: err 2. Unexpected end of help file.");
+	exit(1);		/* Some day we hope to handle these things better... */ // tyt byl prool
 }
 
 

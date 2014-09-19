@@ -7,10 +7,9 @@
 *  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 *                                                                         *
-*  $Author$                                                        *
-*  $Date$                                           *
-*  $Revision$                                                       *
 ************************************************************************ */
+
+#define DEBUG // prool
 
 /*
  * Th
@@ -2544,11 +2543,17 @@ void init_spell_levels(void)
 	FILE *magic;
 	char line1[256], line2[256], line3[256], name[256];
 	int i[15], j, c, sp_num;
+#ifdef DEBUG
+printf("init_spell_levels() L1\n");
+#endif
 	if (!(magic = fopen(LIB_MISC "magic.lst", "r")))
 	{
 		log("Cann't open magic list file...");
 		_exit(1);
 	}
+#ifdef DEBUG
+printf("init_spell_levels() L2\n");
+#endif
 	while (get_line(magic, name))
 	{
 		if (!name[0] || name[0] == ';')
@@ -2597,11 +2602,17 @@ void init_spell_levels(void)
 
 	}
 	fclose(magic);
+#ifdef DEBUG
+printf("init_spell_levels() L3\n");
+#endif
 	if (!(magic = fopen(LIB_MISC "items.lst", "r")))
 	{
 		log("Cann't open items list file...");
 		_exit(1);
 	}
+#ifdef DEBUG
+printf("init_spell_levels() L4\n");
+#endif
 	while (get_line(magic, name))
 	{
 		if (!name[0] || name[0] == ';')
@@ -2684,6 +2695,9 @@ void init_spell_levels(void)
 		}
 	}
 	fclose(magic);
+#ifdef DEBUG
+printf("init_spell_levels() L5\n");
+#endif
 
 	/* Load features variables - added by Gorrah */
 	if (!(magic = fopen(LIB_MISC "features.lst", "r")))
@@ -2691,6 +2705,9 @@ void init_spell_levels(void)
 		log("Cann't open features list file...");
 		_exit(1);
 	}
+#ifdef DEBUG
+printf("init_spell_levels() L6\n");
+#endif
 	while (get_line(magic, name))
 	{
 		if (!name[0] || name[0] == ';')
@@ -2699,6 +2716,9 @@ void init_spell_levels(void)
 		{
 			log("Bad format for feature string !\r\n"
 				"Format : <feature name (%%s %%s)>  <kin (%%d %%d %%d)> <class (%%d)> <remort (%%d)> <level (%%d)> <naturalfeat (%%d)>!");
+#ifdef DEBUG
+printf("init_spell_levels() L6a\n");
+#endif
 			_exit(1);
 		}
 		name[0] = '\0';
@@ -2712,27 +2732,42 @@ void init_spell_levels(void)
 		if ((sp_num = find_feat_num(name)) <= 0)
 		{
 			log("Feat '%s' not found...", name);
+#ifdef DEBUG
+printf("init_spell_levels() L6b\n");
+#endif
 			_exit(1);
 		}
 		for (j = 0; j < NUM_KIN; j++)
 			if (i[j] < 0 || i[j] > 1)
 			{
 				log("Bad race feat know type for feat \"%s\"... 0 or 1 expected", feat_info[sp_num].name);
+#ifdef DEBUG
+printf("init_spell_levels() L6c\n");
+#endif
 				_exit(1);
 			}
 		if (i[3] < 0 || i[3] >= NUM_CLASSES)
 		{
 			log("Bad class type for feat \"%s\"...", feat_info[sp_num].name);
+#ifdef DEBUG
+printf("init_spell_levels() L6d\n");
+#endif
 			_exit(1);
 		}
 		if (i[4] < 0 || i[4] >= MAX_REMORT)
 		{
 			log("Bad remort type for feat \"%s\"...", feat_info[sp_num].name);
+#ifdef DEBUG
+printf("init_spell_levels() L6e\n");
+#endif
 			_exit(1);
 		}
 		if (i[6] < 0 || i[6] > 1)
 		{
 			log("Bad natural classfeat type for feat \"%s\"... 0 or 1 expected", feat_info[sp_num].name);
+#ifdef DEBUG
+printf("init_spell_levels() L6f\n");
+#endif
 			_exit(1);
 		}
 		for (j = 0; j < NUM_KIN; j++)
@@ -2755,9 +2790,15 @@ void init_spell_levels(void)
 	fclose(magic);
 	/* End of changed */
 
+#ifdef DEBUG
+printf("init_spell_levels() L7\n");
+#endif
 //	Polud новый файл описания умений Skills.xml, если его нет - читаются старые
 	load_skills();
 
+#ifdef DEBUG
+printf("init_spell_levels() L8\n");
+#endif
 	if (!(magic = fopen(LIB_MISC "skillvariables.lst", "r")))
 	{
 		log("Cann't open skillvariables list file...");
@@ -2769,6 +2810,9 @@ void init_spell_levels(void)
 	/** ГОРНОЕ ДЕЛО **/
 	// Предварительно ставим значения по дефолту
 
+#ifdef DEBUG
+printf("init_spell_levels() L9\n");
+#endif
 	dig_vars.hole_max_deep = DIG_DFLT_HOLE_MAX_DEEP;
 	dig_vars.instr_crash_chance = DIG_DFLT_INSTR_CRASH_CHANCE;
 	dig_vars.treasure_chance = DIG_DFLT_TREASURE_CHANCE;
@@ -2809,6 +2853,9 @@ void init_spell_levels(void)
 
 
 
+#ifdef DEBUG
+printf("init_spell_levels() La\n");
+#endif
 	while (get_line(magic, name))
 	{
 		if (!name[0] || name[0] == ';')
@@ -2853,6 +2900,9 @@ void init_spell_levels(void)
 	}
 	fclose(magic);
 
+#ifdef DEBUG
+printf("init_spell_levels() Lb\n");
+#endif
 
 	/* Remove to init_im::im.cpp - Gorrah
 	// +newbook.patch (Alisher)
@@ -2888,6 +2938,9 @@ void init_spell_levels(void)
 		fclose(magic);
 	// -newbook.patch (Alisher)
 	*/
+#ifdef DEBUG
+printf("init_spell_levels() Lc\n");
+#endif
 	return;
 }
 
