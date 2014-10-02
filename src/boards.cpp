@@ -4,6 +4,8 @@
 * (c) 2005 Krodo                                                              *
 ******************************************************************************/
 
+#define DEBUG // prool
+
 #include <fstream>
 #include <sstream>
 #include <iomanip>
@@ -275,6 +277,23 @@ ACMD(DoBoard)
 {
 	if (!ch->desc)
 		return;
+	if (IS_NPC(ch))
+		{
+#ifdef DEBUG
+		printf("DoBoard: is NPC!\n"); // prool
+#endif
+		return;
+		}
+	if (IS_MOB(ch))
+		{
+#ifdef DEBUG
+		printf("DoBoard: is MOB!\n"); // prool
+#endif
+		return;
+		}
+#ifdef DEBUG
+printf("DoBoard: `%s'\n", GET_NAME(ch)); // prool
+#endif
 	if (AFF_FLAGGED(ch, AFF_BLIND))
 	{
 		send_to_char("Вы ослеплены!\r\n", ch);
