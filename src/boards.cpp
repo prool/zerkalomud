@@ -4,7 +4,7 @@
 * (c) 2005 Krodo                                                              *
 ******************************************************************************/
 
-#define DEBUG // prool
+// #define DEBUG // prool
 
 #include <fstream>
 #include <sstream>
