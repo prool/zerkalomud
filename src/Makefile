@@ -1,4 +1,4 @@
-# Makefile
+# Make file
 
 # C compiler to use
 CC = g++
