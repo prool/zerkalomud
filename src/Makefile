@@ -1,3 +1,5 @@
+# Makefile
+
 # C compiler to use
 CC = g++
 TESTCC = g++
