@@ -3220,7 +3220,7 @@ void close_socket(DESCRIPTOR_DATA * d, int direct)
 				Crash_ldsave(d->character);
 				sprintf(buf, "Closing link to: %s.", GET_NAME(d->character));
 				mudlog(buf, NRM, MAX(LVL_GOD, GET_INVIS_LEV(d->character)), SYSLOG, TRUE);
-				perslog("потерял связь", GET_NAME(d->character)); // prool
+				perslog("closing link", GET_NAME(d->character)); // prool
 			}
 			d->character->desc = NULL;
 		}
@@ -3233,7 +3233,7 @@ void close_socket(DESCRIPTOR_DATA * d, int direct)
 			GET_NAME(d->character) ? GET_NAME(d->character) : "<null>",
 			STATE(d) > CON_CLOSE && STATE(d) < CON_DISCONNECT ? d->host : ""); // prool
 			*/
-			if (GET_NAME(d->character)) perslog("потерял связь", GET_NAME(d->character)); // prool	
+			if (GET_NAME(d->character)) perslog("losing player", GET_NAME(d->character)); // prool	
 			mudlog(buf, LGH, MAX(LVL_GOD, GET_INVIS_LEV(d->character)), SYSLOG, TRUE);
 			if (!any_other_ch(d->character))
 				Depot::exit_char(d->character);

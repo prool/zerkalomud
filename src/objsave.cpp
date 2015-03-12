@@ -2807,7 +2807,7 @@ int gen_receptionist(CHAR_DATA * ch, CHAR_DATA * recep, int cmd, char *arg, int 
 			Crash_rentsave(ch, cost);
 			sprintf(buf, "%s has rented (%d/day, %ld tot.)",
 					GET_NAME(ch), cost, ch->get_gold() + ch->get_bank());
-			perslog("ушел на ренту", GET_NAME(ch)); // prool
+			perslog("crash rented", GET_NAME(ch)); // prool
 		}
 		else  	/* cryo */
 		{

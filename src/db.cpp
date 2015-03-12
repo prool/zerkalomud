@@ -1928,7 +1928,7 @@ printf("L*\n");
 
 	boot_time = time(0);
 	log("Boot db -- DONE.");
-	perslog("MUD перезапущен", " "); // prool
+	perslog("MUD start", " "); // prool
 #ifdef DEBUG
 printf("L(\n");
 #endif

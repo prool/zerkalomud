@@ -14,7 +14,7 @@ CXREF = cxref
 # Do Not Modify Anything Below This Line (unless you know what you're doing) #
 ##############################################################################
 
-BINDIR = ../bin
+BINDIR = ../../ZERKALO/bin
 
 CFLAGS = -ggdb3 -O2 -Wall
 # use 'make test' for faster compile w/o optimizations, crypt and 34lvl god for first character

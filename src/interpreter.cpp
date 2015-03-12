@@ -1952,7 +1952,7 @@ int perform_dupe_check(DESCRIPTOR_DATA * d)
 		check_light(d->character, LIGHT_NO, LIGHT_NO, LIGHT_NO, LIGHT_NO, 1);
 		act("$n восстановил$g связь.", TRUE, d->character, 0, 0, TO_ROOM);
 		sprintf(buf, "%s [%s] has reconnected.", GET_NAME(d->character), d->host);
-		perslog("пересоединился", GET_NAME(d->character)); // prool
+		perslog("reconnected", GET_NAME(d->character)); // prool
 		mudlog(buf, NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(d->character)), SYSLOG, TRUE);
 		login_change_invoice(d->character);
 		break;
@@ -2360,7 +2360,7 @@ void do_entergame(DESCRIPTOR_DATA * d)
 		send_email2("Zerkalo", "prool@itl.ua", "User logon", (char *) GET_NAME(d->character));
 		send_email2("Zerkalo", "proolix@gmail.com", "User logon", (char *) GET_NAME(d->character));
 		}
-	perslog("вошел", GET_NAME(d->character)); // prool
+	perslog("logon", GET_NAME(d->character)); // prool
 	mudlog(buf, NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(d->character)), SYSLOG, TRUE);
 	look_at_room(d->character, 0);
 	d->has_prompt = 0;
