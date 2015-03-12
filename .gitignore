@@ -26,3 +26,4 @@ syslog
 log/*
 .crash
 circle
+aaa

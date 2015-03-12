@@ -151,7 +151,10 @@ extern int statistic_rooms;
 extern int statistic_mobs;                                                                                                             
 extern int statistic_objs;                                                                                                             
 int total_players;                                                                                                                     
-#endif                       
+#endif
+
+int console_codetable;
+int log_codetable;
 
 /* local globals */
 DESCRIPTOR_DATA *descriptor_list = NULL;	/* master desc list */
@@ -366,6 +369,43 @@ int main(int argc, char **argv)
 	plant_magic(buf1);
 	plant_magic(buf2);
 	plant_magic(arg);
+
+// prool: config file processing
+
+FILE *fconfig;
+char string[PROOL_MAX_STRLEN];
+
+#ifdef CYGWIN
+console_codetable=T_UTF;
+#else
+console_codetable=T_KOI;
+#endif
+
+log_codetable=T_KOI;
+
+fconfig=fopen("prool.cfg","r");
+if (fconfig)
+	{
+	//printf("prool.cfg open\n");
+	while (!feof(fconfig))
+		{char *pp;
+		string[0]=0;
+		fgets(string,PROOL_MAX_STRLEN,fconfig);
+		pp=strchr(string,'\n');
+		if (pp) *pp=0;
+		//printf("`%s'\n", string);
+		if (!strcmp(string,"test")) printf("TEST OK!\n");
+		else if (!strcmp(string,"console_codetable_utf")) console_codetable=T_UTF;
+		else if (!strcmp(string,"console_codetable_koi")) console_codetable=T_KOI;
+		else if (!strcmp(string,"log_codetable_koi")) log_codetable=T_KOI;
+		else if (!strcmp(string,"log_codetable_utf")) log_codetable=T_UTF;
+		}
+	fclose(fconfig);
+	}
+else
+	{
+	printf("prool.cfg not open\n");
+	}
 
 #ifdef CIRCLE_MACINTOSH
 	/*

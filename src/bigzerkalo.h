@@ -14,6 +14,13 @@
 #define PERSLOG_FILE "../log/perslog.txt"
 #define STATLOG_FILE "../log/statlog.txt"
 
+// codetables for console and log
+#define T_KOI			0
+#define T_UTF			1
+#define T_WIN			2
+#define T_ALT			3
+#define T_LAT			4
+
 #define MSSP			70
 #define MSSP_VAR		1
 #define MSSP_VAL		2

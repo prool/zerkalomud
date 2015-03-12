@@ -7,9 +7,6 @@
 *  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 * 									  *
-*  $Author$                                                        *
-*  $Date$                                           *
-*  $Revision$                                                      *
 ************************************************************************ */
 
 #include <vector>
@@ -45,9 +42,13 @@
 #include "depot.hpp"
 #include "objsave.h"
 
+#include "bigzerkalo.h" // prool
+
 extern DESCRIPTOR_DATA *descriptor_list;
 extern CHAR_DATA *mob_proto;
 extern int top_of_p_table;
+
+extern int log_codetable; // prool
 
 /* local functions */
 TIME_INFO_DATA *real_time_passed(time_t t2, time_t t1);
@@ -367,6 +368,9 @@ void write_test_time(FILE *file)
  */
 void log(const char *format, ...)
 {
+	char buffer1[PROOL_MAX_STRLEN];
+	char buffer2[PROOL_MAX_STRLEN];
+
 	if (logfile == NULL)
 		puts("SYSERR: Using log() before stream was initialized!");
 	if (format == NULL)
@@ -381,7 +385,14 @@ void log(const char *format, ...)
 //	write_test_time(logfile);
 	va_list args;
 	va_start(args, format);
-	vfprintf(logfile, format, args);
+	if (log_codetable==T_UTF) // prool
+		{
+		vsprintf(buffer1, format, args);
+		koi_to_utf8(buffer1,buffer2);
+		fprintf(logfile,"%s",buffer2);
+		}
+	else
+		vfprintf(logfile, format, args);
 	va_end(args);
 	fprintf(logfile, "\n");
 

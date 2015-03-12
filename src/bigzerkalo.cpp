@@ -35,12 +35,24 @@
 extern int total_players;
 int players_num;
 extern int boot_time;
+extern int console_codetable;
 
 void perslog (char *verb, const char *pers)
 {FILE *fp;
+char buffer [PROOL_MAX_STRLEN];
+
 fp=fopen(PERSLOG_FILE, "a");
 fprintf(fp,"%s %s %s\n",ptime(),pers,verb);
-printf("zerkalo %s %s %s\n",ptime(),pers,verb);
+fp=fopen(PERSLOG_FILE, "a");
+if (console_codetable==T_UTF)
+	{
+	koi_to_utf8((char*)pers,buffer);
+	printf("zerkalo %s %s %s\n",ptime(),buffer,verb);
+	}
+else
+	{
+	printf("zerkalo %s %s %s\n",ptime(),pers,verb);
+	}
 fclose(fp);
 }
 
