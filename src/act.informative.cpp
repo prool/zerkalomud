@@ -84,6 +84,7 @@ extern void show_code_date(CHAR_DATA *ch);
 
 extern int players_num; // prool
 extern int total_players; // prool
+extern int web_codetable; // prool
 
 /* extern functions */
 long find_class_bitvector(char arg);
@@ -5659,7 +5660,6 @@ ACMD(do_affects)
 // Create web-page with users list
 void make_who2html(void)
 {
-
 	FILE *opf;
 
 	DESCRIPTOR_DATA *d;
@@ -5670,23 +5670,31 @@ void make_who2html(void)
 	char *imms = NULL;
 	char *morts = NULL;
 	char *buffer = NULL;
+	
+	char utf_buf [PROOL_MAX_STRLEN];
 
 	if ((opf = fopen(WHOLIST_FILE, "w")) == 0)
 		return;		/* or log it ? *shrug* */
 
-	fprintf(opf, "<HTML><HEAD><TITLE>Кто сейчас в Зеркале</TITLE></HEAD>\n");
-	fprintf(opf, "<BODY>Кто сейчас в Зеркале<HR>\n");
+	fprintf(opf, "<HTML><HEAD><TITLE>Who in Zerkalo MUD</TITLE></HEAD>\n");
+	fprintf(opf, "<BODY>Who in Zerkalo MUD<HR>\n");
 
-	sprintf(buf, "Иммы <BR> \r\n");
+	sprintf(buf, "Imms <BR> \r\n");
 	imms = str_add(imms, buf);
 
-	sprintf(buf, "<BR>Игроки<BR> \r\n  ");
+	sprintf(buf, "<BR>Players<BR> \r\n  ");
 	morts = str_add(morts, buf);
 
 	for (d = descriptor_list; d; d = d->next)
 		if (STATE(d) == CON_PLAYING && GET_INVIS_LEV(d->character) < 31)
 		{
 			ch = d->character;
+			if (web_codetable==T_UTF)
+				{
+				koi_to_utf8((char*)ch->race_or_title().c_str(), utf_buf);
+				sprintf(buf, "%s <BR> \r\n ", utf_buf);
+				}
+			else
 			sprintf(buf, "%s <BR> \r\n ", ch->race_or_title().c_str());
 
 			if (IS_IMMORTAL(ch))
@@ -5707,7 +5715,7 @@ void make_who2html(void)
 
 	if (0 /*morts_num + imms_num == 0*/ ) // prool
 	{
-		sprintf(buf, "Никого! <BR>");
+		sprintf(buf, "No one <BR>");
 		total_players=0;
 		buffer = str_add(buffer, buf);
 	}
@@ -5718,18 +5726,18 @@ void make_who2html(void)
 		if (morts_num > 0)
 			buffer = str_add(buffer, morts);
 
-		buffer = str_add(buffer, " <BR> \r\n Всего:");
+		buffer = str_add(buffer, " <BR> \r\n Total online:");
 
 		if (1 /*imms_num*/) // prool
 		{
 			// sprintf(buf+strlen(buf)," бессмертных %d",imms_num);
-			sprintf(buf, " бессмертных %d", imms_num);
+			sprintf(buf, " immortals %d", imms_num);
 			buffer = str_add(buffer, buf);
 		}
 		if (1 /*morts_num*/) // prool
 		{
 			// sprintf(buf+strlen(buf)," смертных %d",morts_num);
-			sprintf(buf, " смертных %d", morts_num);
+			sprintf(buf, " mortals %d", morts_num);
 			buffer = str_add(buffer, buf);
 		}
 

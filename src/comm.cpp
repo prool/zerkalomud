@@ -155,6 +155,7 @@ int total_players;
 
 int console_codetable;
 int log_codetable;
+int web_codetable;
 
 /* local globals */
 DESCRIPTOR_DATA *descriptor_list = NULL;	/* master desc list */
@@ -382,6 +383,7 @@ console_codetable=T_KOI;
 #endif
 
 log_codetable=T_KOI;
+web_codetable=T_KOI;
 
 fconfig=fopen("prool.cfg","r");
 if (fconfig)
@@ -399,6 +401,8 @@ if (fconfig)
 		else if (!strcmp(string,"console_codetable_koi")) console_codetable=T_KOI;
 		else if (!strcmp(string,"log_codetable_koi")) log_codetable=T_KOI;
 		else if (!strcmp(string,"log_codetable_utf")) log_codetable=T_UTF;
+		else if (!strcmp(string,"web_codetable_utf")) web_codetable=T_UTF;
+		else if (!strcmp(string,"web_codetable_koi")) web_codetable=T_KOI;
 		}
 	fclose(fconfig);
 	}
