@@ -43,7 +43,6 @@ char buffer [PROOL_MAX_STRLEN];
 
 fp=fopen(PERSLOG_FILE, "a");
 fprintf(fp,"%s %s %s\n",ptime(),pers,verb);
-fp=fopen(PERSLOG_FILE, "a");
 if (console_codetable==T_UTF)
 	{
 	koi_to_utf8((char*)pers,buffer);
