@@ -80,6 +80,7 @@ $(BINDIR)/circle : $(OBJFILES)
 	$(MKDIR) $(BINDIR)
 	$(CC) -o $(BINDIR)/circle $(OBJFILES) $(LIBS)
 	rm -f version.o
+	cp $(BINDIR)/circle ../bin/circle
 	@echo "Done building Bylins."
 
 clean:
