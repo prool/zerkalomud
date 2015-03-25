@@ -1250,7 +1250,7 @@ void beat_points_update(int pulse);
 extern void inspecting();
 //список запросов инспекта
 extern InspReqListType inspect_list;
-inline void heartbeat(const int missed_pulses)
+/* inline */ void heartbeat(const int missed_pulses) // prool
 {
 	static int mins_since_crashsave = 0, pulse = 0;
 //	static int lr_firstrun = 1;
