@@ -1000,7 +1000,7 @@ void check_idling(CHAR_DATA * ch)
 					Crash_idlesave(ch);
 				Depot::exit_char(ch);
 				Clan::clan_invoice(ch, false);
-				sprintf(buf, "%s force-rented and extracted (idle).", GET_NAME(ch));
+				sprintf(buf, "%s слетел по таймауту", GET_NAME(ch));
 				perslog(" ", buf); // prool
 				mudlog(buf, NRM, LVL_GOD, SYSLOG, TRUE);
 				extract_char(ch, FALSE);
