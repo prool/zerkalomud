@@ -953,7 +953,7 @@ inline void process_io(fd_set input_set, fd_set output_set, fd_set exc_set, fd_s
 			< 0)
 	{
 		//perror("SYSERR: Select poll"); // prool
-		printf("%s Zerkalo SYSERR: Select poll\n", ptime()); // prool
+		printf("zerkalo %s SYSERR: Select poll\n", ptime()); // prool
 		return;
 	}
 	/* If there are new connections waiting, accept them. */
