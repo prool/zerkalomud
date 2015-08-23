@@ -1,0 +1,28 @@
+cd ~prool/ZERKALO
+
+while [ 1 ]; do
+
+# date "+%d-%m-%Y %H:%M:%S ZERKALO+ MUD start"
+date "+%d-%m-%Y %H:%M:%S start" >> autolog.txt
+# mail -s "Zerkalo+ start" prool@itl.ua < letter.txt
+# mail -s "Zerkalo+ start" proolix@gmail.com < letter.txt
+bin/circle-zerkalo
+date "+%d-%m-%Y %H:%M:%S exit" >> autolog.txt
+date "+%d-%m-%Y %H:%M:%S exit"
+
+# save syslog
+mv syslog syslog-tail-`date "+%d-%m-%Y-%H-%M-%S"`
+
+  if [ -r .killscript ]; then
+    DATE=`date`;
+    echo "MUD shutdown $DATE"  >> syslog
+    rm .killscript
+    date "+%d-%m-%Y %H:%M:%S ZERKALO+ MUD stopped" > /www/mud.kharkov.org/mudstat/zerkalo.html
+    exit
+  fi
+
+# echo pause 6 sec begin
+# sleep 6
+# echo - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+done
+

@@ -65,7 +65,7 @@ CXREF_FILES = act.comm.cpp act.informative.cpp act.item.cpp act.movement.cpp \
 	bigzerkalo.cpp map.cpp\
 	version.cpp
 
-default: circle
+default: circle-zerkalo
 
 #all: .accepted
 #	$(MAKE) $(BINDIR)/circle
@@ -73,14 +73,14 @@ default: circle
 #accepted:
 #	@./licheck less
 
-circle:
-	$(MAKE) $(BINDIR)/circle
+circle-zerkalo:
+	$(MAKE) $(BINDIR)/circle-zerkalo
 
-$(BINDIR)/circle : $(OBJFILES)
+$(BINDIR)/circle-zerkalo : $(OBJFILES)
 	$(MKDIR) $(BINDIR)
-	$(CC) -o $(BINDIR)/circle $(OBJFILES) $(LIBS)
+	$(CC) -o $(BINDIR)/circle-zerkalo $(OBJFILES) $(LIBS)
 	rm -f version.o
-	cp $(BINDIR)/circle ../bin/circle
+	cp $(BINDIR)/circle-zerkalo ../bin/circle-zerkalo
 	@echo "Done building Bylins."
 
 clean:

@@ -22,9 +22,11 @@
 *.x86_64
 *.hex
 
+# add by prool
 syslog
 log/*
 .crash
 circle
+circle-zerkalo
 aaa
 .killscript
