@@ -5677,7 +5677,7 @@ void make_who2html(void)
 		return;		/* or log it ? *shrug* */
 
 	fprintf(opf, "<HTML><HEAD><TITLE>Who in Zerkalo MUD</TITLE></HEAD>\n");
-	fprintf(opf, "<BODY>Who in Zerkalo MUD<HR>\n");
+	fprintf(opf, "<BODY>%s <b>Who in Zerkalo MUD</b><HR>\n",ptime());
 
 	sprintf(buf, "Imms <BR> \r\n");
 	imms = str_add(imms, buf);
