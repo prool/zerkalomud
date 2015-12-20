@@ -3,7 +3,7 @@ zerkalomud
 
 [Screenshots. Скриншоты](http://blog.mud.kharkov.org/screenshots#zerkalo)
 
-Zerkalo MUD server code (middle Bylins fork)
+Zerkalo MUD server code (middle Bylins MUD fork)
 
 Command for /etc/rc.local file:
 
