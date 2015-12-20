@@ -4,7 +4,6 @@ while [ 1 ]; do
 
 # date "+%d-%m-%Y %H:%M:%S ZERKALO+ MUD start"
 date "+%d-%m-%Y %H:%M:%S start" >> autolog.txt
-# mail -s "Zerkalo+ start" prool@itl.ua < letter.txt
 # mail -s "Zerkalo+ start" proolix@gmail.com < letter.txt
 bin/circle-zerkalo
 date "+%d-%m-%Y %H:%M:%S exit" >> autolog.txt
@@ -25,4 +24,3 @@ mv syslog syslog-tail-`date "+%d-%m-%Y-%H-%M-%S"`
 # sleep 6
 # echo - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 done
-
