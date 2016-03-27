@@ -387,7 +387,7 @@ void log(const char *format, ...)
 	va_start(args, format);
 	if (log_codetable==T_UTF) // prool
 		{
-		vsprintf(buffer1, format, args);
+		vsnprintf(buffer1, PROOL_MAX_STRLEN, format, args);
 		koi_to_utf8(buffer1,buffer2);
 		fprintf(logfile,"%s",buffer2);
 		}
