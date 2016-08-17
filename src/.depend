@@ -418,7 +418,7 @@ cache.o: cache.cpp cache.hpp
 bigzerkalo.o: bigzerkalo.cpp interpreter.h conf.h utils.h features.hpp \
  obj.hpp sysdep.h structs.h pugixml.hpp pugiconfig.hpp comm.h db.h \
  handler.h dg_scripts.h char.hpp player_i.hpp morph.hpp telnet.h \
- bigzerkalo.h
+ bigzerkalo.h duhmada.c
 map.o: map.cpp conf.h map.hpp sysdep.h structs.h char.hpp player_i.hpp \
  morph.hpp comm.h interpreter.h utils.h features.hpp obj.hpp pugixml.hpp \
  pugiconfig.hpp screen.h room.hpp db.h char_player.hpp quested.hpp \
