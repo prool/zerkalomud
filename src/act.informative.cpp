@@ -81,6 +81,7 @@ extern const char *material_name[];
 extern im_type *imtypes;
 extern int top_imtypes;
 extern void show_code_date(CHAR_DATA *ch);
+extern int top_of_p_table;
 
 extern int players_num; // prool
 extern int total_players; // prool
@@ -5663,9 +5664,11 @@ void make_who2html(void)
 	FILE *opf;
 
 	DESCRIPTOR_DATA *d;
+	CHAR_DATA *vict;
 	CHAR_DATA *ch;
+	OBJ_DATA *obj;
 
-	int imms_num = 0, morts_num = 0;
+	int imms_num = 0, morts_num = 0, k;
 
 	char *imms = NULL;
 	char *morts = NULL;
@@ -5752,7 +5755,40 @@ void make_who2html(void)
 	free(imms);
 	free(morts);
 
+	fprintf(opf, " <HR>\n");
 
-	fprintf(opf, "<HR></BODY></HTML>\n");
+		// mob/obj statistics
+		
+		int i = 0;
+		int j = 0;
+		k = 0;
+		int con = 0;
+		int motion = 0;
+		for (vict = character_list; vict; vict = vict->next)
+		{
+			if (IS_NPC(vict))
+				j++;
+			else
+			{
+				if (vict->is_active())
+				{
+					++motion;
+				}
+				if (CAN_SEE(ch, vict))
+				{
+					i++;
+					if (vict->desc)
+						con++;
+				}
+			}
+		}
+
+		for (obj = object_list; obj; obj = obj->next)
+			k++;
+
+	fprintf(opf, "Total mobs %i\n<BR>\n", j);
+	fprintf(opf, "Total objects %i\n<BR>\n", k);
+	fprintf(opf, "Total registered players %i\n<BR>\n", top_of_p_table + 1);
+	fprintf(opf, " </BODY></HTML>\n");
 	fclose(opf);
 }
