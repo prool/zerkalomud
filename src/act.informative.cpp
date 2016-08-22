@@ -5668,7 +5668,7 @@ void make_who2html(void)
 	CHAR_DATA *ch;
 	OBJ_DATA *obj;
 
-	int imms_num = 0, morts_num = 0, k;
+	int imms_num = 0, morts_num = 0, j, k;
 
 	char *imms = NULL;
 	char *morts = NULL;
@@ -5759,28 +5759,12 @@ void make_who2html(void)
 
 		// mob/obj statistics
 		
-		int i = 0;
-		int j = 0;
+		j = 0;
 		k = 0;
-		int con = 0;
-		int motion = 0;
 		for (vict = character_list; vict; vict = vict->next)
 		{
 			if (IS_NPC(vict))
 				j++;
-			else
-			{
-				if (vict->is_active())
-				{
-					++motion;
-				}
-				if (CAN_SEE(ch, vict))
-				{
-					i++;
-					if (vict->desc)
-						con++;
-				}
-			}
 		}
 
 		for (obj = object_list; obj; obj = obj->next)
