@@ -214,11 +214,11 @@ void perform_tell(CHAR_DATA * ch, CHAR_DATA * vict, char *arg)
 	// TODO: если в act() останется показ иммов, то это и эхо ниже переделать на act()
 	if (tell_can_see(ch, vict))
 	{
-		snprintf(buf, MAX_STRING_LENGTH, "%s сказал%s Вам : '%s'", GET_NAME(ch), GET_CH_SUF_1(ch), arg);
+		snprintf(buf, MAX_STRING_LENGTH, "%s сказал%s вам : '%s'", GET_NAME(ch), GET_CH_SUF_1(ch), arg);
 	}
 	else
 	{
-		snprintf(buf, MAX_STRING_LENGTH, "Кто-то сказал Вам : '%s'", arg);
+		snprintf(buf, MAX_STRING_LENGTH, "Кто-то сказал вам : '%s'", arg);
 	}
 	snprintf(buf1, MAX_STRING_LENGTH, "%s%s%s\r\n", CCICYN(vict, C_NRM), CAP(buf), CCNRM(vict, C_NRM));
 	send_to_char(buf1, vict);
@@ -327,7 +327,7 @@ ACMD(do_tell)
 	else if (is_tell_ok(ch, vict))
 	{
 		if (PRF_FLAGGED(ch, PRF_NOTELL))
-			send_to_char("Ответить Вам не смогут!\r\n", ch);
+			send_to_char("Ответить вам не смогут!\r\n", ch);
 		perform_tell(ch, vict, buf2);
 	}
 }
@@ -404,7 +404,7 @@ ACMD(do_spec_comm)
 	{
 		action_sing = "шепнуть";
 		vict1 = "кому";
-		vict2 = "Вам";
+		vict2 = "вам";
 		action_plur = "прошептал";
 		action_others = "$n что-то прошептал$g $N2.";
 	}
@@ -942,7 +942,7 @@ ACMD(do_pray_gods)
 
 	if (IS_IMMORTAL(ch))
 	{
-		sprintf(buf, "&R%s ответил%s Вам : '%s'&n\r\n", GET_NAME(ch), GET_CH_SUF_1(ch), argument);
+		sprintf(buf, "&R%s ответил%s вам : '%s'&n\r\n", GET_NAME(ch), GET_CH_SUF_1(ch), argument);
 		send_to_char(buf, victim);
 		victim->remember_add(buf, Remember::PRAY_PERSONAL);
 
