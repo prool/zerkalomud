@@ -909,6 +909,7 @@ int may_kill_here(CHAR_DATA * ch, CHAR_DATA * victim)
 		act("Боги предотвратили Ваше нападение на $N3.", FALSE, ch, 0, victim, TO_CHAR);
 		return (FALSE);
 	}
+#if 0
 	// ограничение пк до 25лвл, 0 мортов
 	 if (!IS_NPC(victim) && !IS_NPC(ch) && GET_REMORT(ch) < 1 && GET_LEVEL(ch) < 25)
 	 {
@@ -920,6 +921,7 @@ int may_kill_here(CHAR_DATA * ch, CHAR_DATA * victim)
 		send_to_char("Игрок на которого вы пытаетесь напасть ниже слишком молод и ниже 25 уровня!\r\n", ch);
 		return (FALSE);
 	}
+
 	// не агрим чарами <=10 на чаров >=20
 	if (!IS_NPC(victim) && !IS_NPC(ch) && GET_LEVEL(ch) <= 10
 			&& GET_LEVEL(victim) >= 20 && !(pk_action_type(ch, victim) & (PK_ACTION_REVENGE | PK_ACTION_FIGHT)))
@@ -927,6 +929,7 @@ int may_kill_here(CHAR_DATA * ch, CHAR_DATA * victim)
 		act("Вы еще слишком слабы, чтобы напасть на $N3.", FALSE, ch, 0, victim, TO_CHAR);
 		return (FALSE);
 	}
+#endif
 
 	if ((ch->get_fighting() && ch->get_fighting() == victim) || (victim->get_fighting() && victim->get_fighting() == ch))
 		return (TRUE);

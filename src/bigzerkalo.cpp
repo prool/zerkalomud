@@ -88,7 +88,13 @@ send_to_char("fflush!\n", ch);
 fflush(0);
 }
 
-#define PUT_OBJ(obj_number) {r_num = real_object(obj_number); if (r_num==-1) {send_to_char("&RЭтого предмета почему-то не существует в мире и я не могу его найти!&n :(\r\n",ch); return;} obj = read_object(r_num, REAL); GET_OBJ_MAKER(obj) = GET_UNIQUE(ch); obj_to_char(obj, ch); act("$n получил$g от духа мада $o3!", FALSE, ch, obj, 0, TO_ROOM); act("Вы получили от духа мада $o3.", FALSE, ch, obj, 0, TO_CHAR); /* load_otrigger(obj); obj_decay(obj); */ olc_log("Духмада: %s load obj %s #%d", GET_NAME(ch), GET_OBJ_ALIAS(obj), obj_number);}
+#define PUT_OBJ(obj_number) {r_num = real_object(obj_number); \
+if (r_num==-1) {send_to_char("&RЭтого предмета почему-то не существует в мире и я не могу его найти!&n :(\r\n",ch); return;} \
+else { \
+obj = read_object(r_num, REAL); GET_OBJ_MAKER(obj) = GET_UNIQUE(ch); obj_to_char(obj, ch); \
+act("$n получил$g от духа мада $o3!", FALSE, ch, obj, 0, TO_ROOM); \
+act("Вы получили от духа мада $o3.", FALSE, ch, obj, 0, TO_CHAR); /* load_otrigger(obj); obj_decay(obj); */ \
+olc_log("Духмада: %s load obj %s #%d", GET_NAME(ch), GET_OBJ_ALIAS(obj), obj_number);} }
 
 #define DUH_INSTR "Список вещей, которые вам может принести дух мада: хлеб, фляга, меч, нож, лук, палица, лампа, шарик, доспех, руны, сума или сет (набор предметов), нумерованный от 0 до 23. Подробнее см. ПОМОЩЬ ДУХМАДА\r\n\r\nПример вызова:\r\nдухмада хлеб\r\nдухмада 10\r\n"
 
@@ -96,6 +102,7 @@ ACMD(do_duhmada)
 {
 	mob_rnum r_num;
 	OBJ_DATA *obj;
+	int i;
 
 // char str[100];
 // sprintf(str,"`%s'",argument);
@@ -119,7 +126,17 @@ else
 	else if (!strcmp(argument,"фляга")) PUT_OBJ(2208/*114*/)
 	else if (!strcmp(argument,"лук")) PUT_OBJ(2209/*109*/)
 	else if (!strcmp(argument,"сума")) PUT_OBJ(/*2214*/2045)
-	else if (!strcmp(argument,"руны")) {PUT_OBJ(222/*693*/); PUT_OBJ(223/*692*/); PUT_OBJ(224/*695*/); PUT_OBJ(225/*694*/);}
+	else if (!strcmp(argument,"руны")) /* runes */
+	    {
+	    #if 0
+	    PUT_OBJ(222/*693*/);
+	    PUT_OBJ(223/*692*/);
+	    PUT_OBJ(224/*695*/);
+	    PUT_OBJ(225/*694*/);
+	    #endif
+	    // all runes
+	    for (i=200; i<=245; i++) PUT_OBJ (i);
+	    }
 #include "duhmada.c"
 	else
 		{
