@@ -82,6 +82,7 @@ extern im_type *imtypes;
 extern int top_imtypes;
 extern void show_code_date(CHAR_DATA *ch);
 extern int top_of_p_table;
+extern time_t boot_time;
 
 extern int players_num; // prool
 extern int total_players; // prool
@@ -5673,6 +5674,9 @@ void make_who2html(void)
 	char *imms = NULL;
 	char *morts = NULL;
 	char *buffer = NULL;
+
+	time_t mytime;
+	float day;
 	
 	char utf_buf [PROOL_MAX_STRLEN];
 
@@ -5773,6 +5777,12 @@ void make_who2html(void)
 	fprintf(opf, "Total mobs %i\n<BR>\n", j);
 	fprintf(opf, "Total objects %i\n<BR>\n", k);
 	fprintf(opf, "Total registered players %i\n<BR>\n", top_of_p_table + 1);
+
+		mytime = time(0) - boot_time;
+		day=mytime;
+		day/=86400;
+	fprintf(opf, "MUD server uptime %.2f days\n<BR>\n", day);
+
 	fprintf(opf, " </BODY></HTML>\n");
 	fclose(opf);
 }

@@ -3343,6 +3343,7 @@ ACMD(do_date)
 	char *tmstr;
 	time_t mytime;
 	int d, h, m, s;
+	float day;
 
 	if (subcmd == SCMD_DATE)
 		mytime = time(0);
@@ -3362,7 +3363,11 @@ ACMD(do_date)
 		m = (mytime / 60) % 60;
 		s = mytime % 60;
 
-		sprintf(buf, "Up since %s: %d day%s, %d:%02d.%02d\r\n", tmstr, d, ((d == 1) ? "" : "s"), h, m, s);
+		day=mytime;
+		day/=86400;
+
+		sprintf(buf, "Up since %s: %d day%s, %d:%02d.%02d\r\nUp %li sec. Up %.2f dayz\r\n",
+			tmstr, d, ((d == 1) ? "" : "s"), h, m, s, mytime, day);
 	}
 
 	send_to_char(buf, ch);
