@@ -15,6 +15,7 @@ if [ "$1" = "config" ]; then
     echo 'graph_info Zerkalo MUD uptime'
     echo 'vup.label Zerkalo MUD uptime'
     echo 'vup.draw AREA'
+    echo 'vup.colour COLOUR7'
 #    echo 'objs.label VMUD objs'
     exit 0
 fi
