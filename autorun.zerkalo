@@ -2,9 +2,10 @@ cd ~prool/ZERKALO
 
 while [ 1 ]; do
 
-# date "+%d-%m-%Y %H:%M:%S ZERKALO+ MUD start"
+# date "+%d-%m-%Y %H:%M:%S ZERKALO MUD start" > /home/prool2/web/zerkalo.kharkov.org/public_html/who.html
 date "+%d-%m-%Y %H:%M:%S start" >> autolog.txt
-# mail -s "Zerkalo+ start" proolix@gmail.com < letter.txt
+# mail -s "Zerkalo start" prool@itl.ua < letter.txt
+# mail -s "Zerkalo start" proolix@gmail.com < letter.txt
 bin/circle-zerkalo
 date "+%d-%m-%Y %H:%M:%S exit" >> autolog.txt
 date "+%d-%m-%Y %H:%M:%S exit"
@@ -16,7 +17,8 @@ mv syslog syslog-tail-`date "+%d-%m-%Y-%H-%M-%S"`
     DATE=`date`;
     echo "MUD shutdown $DATE"  >> syslog
     rm .killscript
-    date "+%d-%m-%Y %H:%M:%S ZERKALO+ MUD stopped" > /www/mud.kharkov.org/mudstat/zerkalo.html
+    # date "+%d-%m-%Y %H:%M:%S ZERKALO MUD stopped" > /home/prool2/web/zerkalo.kharkov.org/public_html/who.html
+	cp who0.html /var/www/zerkalo.kharkov.org/who.html
     exit
   fi
 
@@ -24,3 +26,4 @@ mv syslog syslog-tail-`date "+%d-%m-%Y-%H-%M-%S"`
 # sleep 6
 # echo - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 done
+
