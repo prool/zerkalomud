@@ -2681,7 +2681,7 @@ void nanny(DESCRIPTOR_DATA * d, char *arg)
 			{
 			case 0:	// Auto - agree
 				sprintf(buf,
-						"Введите пароль для %s (не вводите пароли типа '123' или 'qwe', иначе ваших персонажев могут украсть) : ",
+						"Введите пароль для %s (не вводите пароли типа '123' или 'qwe', иначе ваших персонажей могут украсть) : ",
 						GET_PAD(d->character, 1));
 				SEND_TO_Q(buf, d);
 				STATE(d) = CON_NEWPASSWD;
@@ -2779,7 +2779,7 @@ void nanny(DESCRIPTOR_DATA * d, char *arg)
 		{
 		case 0:	// Auto - agree
 			sprintf(buf,
-					"Введите пароль для %s (не вводите пароли типа '123' или 'qwe', иначе ваших персонажев могут украсть) : ",
+					"Введите пароль для %s (не вводите пароли типа '1234' или 'qwe', иначе ваших персонажей могут украсть) : ",
 					GET_PAD(d->character, 1));
 			SEND_TO_Q(buf, d);
 			STATE(d) = CON_NEWPASSWD;

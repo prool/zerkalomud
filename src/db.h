@@ -127,19 +127,19 @@ enum SetStuffMode
 /* names of various files and directories */
 #define INDEX_FILE	"index"	/* index of world files         */
 #define MINDEX_FILE	"index.mini"	/* ... and for mini-mud-mode    */
-#define WLD_PREFIX	LIB_WORLD"wld"SLASH	/* room definitions     */
-#define MOB_PREFIX	LIB_WORLD"mob"SLASH	/* monster prototypes   */
-#define OBJ_PREFIX	LIB_WORLD"obj"SLASH	/* object prototypes    */
-#define ZON_PREFIX	LIB_WORLD"zon"SLASH	/* zon defs & command tables */
-#define SHP_PREFIX	LIB_WORLD"shp"SLASH	/* shop definitions     */
-#define TRG_PREFIX	LIB_WORLD"trg"SLASH	/* shop definitions     */
-#define HLP_PREFIX	LIB_TEXT"help"SLASH	/* for HELP <keyword>   */
+#define WLD_PREFIX	LIB_WORLD "wld" SLASH	/* room definitions     */
+#define MOB_PREFIX	LIB_WORLD "mob" SLASH	/* monster prototypes   */
+#define OBJ_PREFIX	LIB_WORLD "obj" SLASH	/* object prototypes    */
+#define ZON_PREFIX	LIB_WORLD "zon" SLASH	/* zon defs & command tables */
+#define SHP_PREFIX	LIB_WORLD "shp" SLASH	/* shop definitions     */
+#define TRG_PREFIX	LIB_WORLD "trg" SLASH	/* shop definitions     */
+#define HLP_PREFIX	LIB_TEXT "help" SLASH	/* for HELP <keyword>   */
 #define SOC_PREFIX	LIB_MISC
-#define PLAYER_F_PREFIX LIB_PLRS""LIB_F
-#define PLAYER_K_PREFIX LIB_PLRS""LIB_K
-#define PLAYER_P_PREFIX LIB_PLRS""LIB_P
-#define PLAYER_U_PREFIX LIB_PLRS""LIB_U
-#define PLAYER_Z_PREFIX LIB_PLRS""LIB_Z
+#define PLAYER_F_PREFIX LIB_PLRS "" LIB_F
+#define PLAYER_K_PREFIX LIB_PLRS "" LIB_K
+#define PLAYER_P_PREFIX LIB_PLRS "" LIB_P
+#define PLAYER_U_PREFIX LIB_PLRS "" LIB_U
+#define PLAYER_Z_PREFIX LIB_PLRS "" LIB_Z
 
 #define CREDITS_FILE	LIB_TEXT"credits"	/* for the 'credits' command   */
 #define MOTD_FILE       LIB_TEXT"motd"	/* messages of the day / mortal        */
