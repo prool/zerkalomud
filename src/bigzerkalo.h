@@ -55,3 +55,4 @@ ACMD(do_duhmada);
 void test_color(void);
 void koi_to_utf8(char *str_i, char *str_o);
 void utf8_to_koi(char *str_i, char *str_o);
+void prool_log(char *str);

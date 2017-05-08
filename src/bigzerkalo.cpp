@@ -331,3 +331,11 @@ void utf8_to_koi(char *str_i, char *str_o)
 		return;
 	}
 }
+
+void prool_log(char *str)
+{
+FILE *fp; char buffer [PROOL_MAX_STRLEN];
+fp=fopen("proolmud.log", "a");
+fprintf(fp,"%s %s\n",ptime(),str);
+fclose(fp);
+}

@@ -370,6 +370,8 @@ int main(int argc, char **argv)
 	plant_magic(buf2);
 	plant_magic(arg);
 
+prool_log("MUD start");
+
 // prool: config file processing
 
 FILE *fconfig;

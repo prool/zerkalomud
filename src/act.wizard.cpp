@@ -175,6 +175,8 @@ ACMD(do_email);
 //
 ACMD(do_godtest);
 
+ACMD(do_newpass); // prool
+
 
 #define MAX_TIME 0x7fffffff
 
@@ -626,6 +628,56 @@ int set_punish(CHAR_DATA * ch, CHAR_DATA * vict, int punish , char * reason , lo
 		act(buf2, FALSE, vict, 0, ch, TO_ROOM);
 	};
 	return 1;
+}
+
+ACMD(do_newpass)
+{
+	CHAR_DATA *victim;
+	char *name = arg;
+	char newpass[] = "1234567890";
+	int i = 0;
+	one_argument(argument, arg);
+	if (!*name)
+	{
+		send_to_char("Формат команды : имя_чара \r\n", ch);
+		return;
+	}
+	while (i < (int) strlen(newpass))
+	{
+		int j = number(65, 122);
+		if ((j < 91) || (j > 97))
+		{
+			newpass[i] = (char)(j);
+			i++;
+		}
+	}
+	if ((victim = get_player_vis(ch, name, FIND_CHAR_WORLD)))
+	{
+		send_to_char("[char is online]\r\n", ch);
+		//Password::set_password(victim, std::string(newpass));
+		Password::set_password(victim, newpass);
+		sprintf(buf, "Сгенерирован новый пароль %s, чару %s, e-mail &S%s&s.\r\n", newpass, GET_NAME(victim), GET_EMAIL(victim));
+		prool_log(buf);
+		sprintf(buf, "Сгенерирован новый пароль чару %s, e-mail &S%s&s.\r\n", GET_NAME(victim), GET_EMAIL(victim));
+		send_to_char(buf, ch);
+	}
+	else
+	{
+		Player t_victim;
+		Player *victim = &t_victim;
+		send_to_char("[char is offline]\r\n", ch);
+		if (load_char(name, victim) < 0)
+		{
+			send_to_char("Такого персонажа не существует.\r\n", ch);
+			return;
+		}
+		//Password::set_password(victim, std::string(newpass));
+		Password::set_password(victim, newpass);
+		sprintf(buf, "Сгенерирован новый пароль %s, чару %s, e-mail &S%s&s.\r\n", newpass, GET_NAME(victim), GET_EMAIL(victim));
+		prool_log(buf);
+		sprintf(buf, "Сгенерирован новый пароль чару %s, e-mail &S%s&s.\r\n", GET_NAME(victim), GET_EMAIL(victim));
+		send_to_char(buf, ch);
+	}
 }
 
 ACMD(do_email)
