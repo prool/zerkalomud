@@ -902,7 +902,7 @@ cpp_extern const struct command_info cmd_info[] =
 	{"medit", POS_DEAD, do_olc, LVL_BUILDER, SCMD_OLC_MEDIT},
 	{"name", POS_DEAD, do_wizutil, LVL_GOD, SCMD_NAME, 0},
 	{"nedit", POS_RESTING, NamedStuff::do_named, LVL_BUILDER, SCMD_NAMED_EDIT, 0}, //Именной стаф редактирование
-	{"newpass", POS_DEAD, do_newpass, 1, 0, -1}, // prool
+	{"newpass", POS_DEAD, do_newpass, LVL_GRGOD, 0, -1}, // prool
 	{"news", POS_DEAD, DoBoard, 1, NEWS_BOARD, -1},
 	{"nlist", POS_RESTING, NamedStuff::do_named, LVL_BUILDER, SCMD_NAMED_LIST, 0}, //Именной стаф список
 	{"notitle", POS_DEAD, do_wizutil, LVL_GRGOD, SCMD_NOTITLE, 0},

@@ -630,56 +630,6 @@ int set_punish(CHAR_DATA * ch, CHAR_DATA * vict, int punish , char * reason , lo
 	return 1;
 }
 
-ACMD(do_newpass)
-{
-	CHAR_DATA *victim;
-	char *name = arg;
-	char newpass[] = "1234567890";
-	int i = 0;
-	one_argument(argument, arg);
-	if (!*name)
-	{
-		send_to_char("Формат команды : имя_чара \r\n", ch);
-		return;
-	}
-	while (i < (int) strlen(newpass))
-	{
-		int j = number(65, 122);
-		if ((j < 91) || (j > 97))
-		{
-			newpass[i] = (char)(j);
-			i++;
-		}
-	}
-	if ((victim = get_player_vis(ch, name, FIND_CHAR_WORLD)))
-	{
-		send_to_char("[char is online]\r\n", ch);
-		//Password::set_password(victim, std::string(newpass));
-		Password::set_password(victim, newpass);
-		sprintf(buf, "Сгенерирован новый пароль %s, чару %s, e-mail &S%s&s.\r\n", newpass, GET_NAME(victim), GET_EMAIL(victim));
-		prool_log(buf);
-		sprintf(buf, "Сгенерирован новый пароль чару %s, e-mail &S%s&s.\r\n", GET_NAME(victim), GET_EMAIL(victim));
-		send_to_char(buf, ch);
-	}
-	else
-	{
-		Player t_victim;
-		Player *victim = &t_victim;
-		send_to_char("[char is offline]\r\n", ch);
-		if (load_char(name, victim) < 0)
-		{
-			send_to_char("Такого персонажа не существует.\r\n", ch);
-			return;
-		}
-		//Password::set_password(victim, std::string(newpass));
-		Password::set_password(victim, newpass);
-		sprintf(buf, "Сгенерирован новый пароль %s, чару %s, e-mail &S%s&s.\r\n", newpass, GET_NAME(victim), GET_EMAIL(victim));
-		prool_log(buf);
-		sprintf(buf, "Сгенерирован новый пароль чару %s, e-mail &S%s&s.\r\n", GET_NAME(victim), GET_EMAIL(victim));
-		send_to_char(buf, ch);
-	}
-}
-
 ACMD(do_email)
 {
 	CHAR_DATA *victim;
@@ -6169,4 +6119,49 @@ send_to_char("Команда ИГРОКИ ушла в отпуск\r\n", ch); return;
 	fclose(fp);
 }
 
+ACMD(do_newpass) // prool
+{
+	CHAR_DATA *victim;
+	char *name = arg;
+	char newpass[] = "1234567890";
+	int i = 0;
+	one_argument(argument, arg);
+	if (!*name)
+	{
+		send_to_char("Формат команды : newpass имя_чара \r\n", ch);
+		return;
+	}
+	while (i < (int) strlen(newpass))
+	{
+		int j = number(65, 122);
+		if ((j < 91) || (j > 97))
+		{
+			newpass[i] = (char)(j);
+			i++;
+		}
+	}
 
+	Player t_victim;
+	if ((victim = get_player_vis(ch, name, FIND_CHAR_WORLD)))
+	{
+		send_to_char("[char is online, newpass in proollog]\r\n", ch);
+		Password::set_password(victim, std::string(newpass));
+	}
+	else
+	{
+		send_to_char("[char is offline, newpass in proollog]\r\n", ch);
+		if (load_char(name, &t_victim) < 0)
+		{
+			send_to_char("Такого персонажа не существует.\r\n", ch);
+			return;
+		}
+		victim = &t_victim;
+		Password::set_password(victim, std::string(newpass));
+		victim->save_char();
+	}
+
+//	printf("Char: %s ",GET_NAME(victim));
+//	printf("new pass: %s\r\n",newpass);
+	prool_log(newpass);
+
+}
