@@ -1141,8 +1141,11 @@ void game_loop(socket_t mother_desc)
 				else
 					perror("SYSERR: Select coma");
 			}
-			else
+			else	{
 				log("New connection.  Waking up.");
+				//printf("zerkalo new connection. Waking up\n"); // prool fool
+				}
+				
 			gettimeofday(&last_time, (struct timezone *) 0);
 		}
 		/* Set up the input, output, and exception sets for select(). */
@@ -2289,6 +2292,9 @@ int new_descriptor(socket_t s)
 		strncpy(newd->host, from->h_name, HOST_LENGTH);
 		*(newd->host + HOST_LENGTH) = '\0';
 	}
+
+	printf("zerkalo %s new connection %s\n", ptime(), newd->host); // prool fool
+	log("zerkalo new connection %s", newd->host); // prool fool
 
 	// ип в виде числа
 	newd->ip = TxtToIp(newd->host);
