@@ -1143,7 +1143,7 @@ void game_loop(socket_t mother_desc)
 			}
 			else	{
 				log("New connection.  Waking up.");
-				//printf("zerkalo new connection. Waking up\n"); // prool fool
+				//printf("zerkalo new connection. Waking up\n"); // prool
 				}
 				
 			gettimeofday(&last_time, (struct timezone *) 0);
@@ -2293,8 +2293,8 @@ int new_descriptor(socket_t s)
 		*(newd->host + HOST_LENGTH) = '\0';
 	}
 
-	printf("zerkalo %s new connection %s\n", ptime(), newd->host); // prool fool
-	log("zerkalo new connection %s", newd->host); // prool fool
+	printf("zerkalo %s new connection %s [%s]\n", ptime(), newd->host, nslookup(newd->host)); // prool
+	log("zerkalo new connection %s", newd->host); // prool
 
 	// ип в виде числа
 	newd->ip = TxtToIp(newd->host);
