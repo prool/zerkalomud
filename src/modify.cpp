@@ -1243,6 +1243,19 @@ ACMD(do_skillset)
 	 * find_skill_num() guarantees a valid spell_info[] index, or -1, and we
 	 * checked for the -1 above so we are safe here.
 	 */
+
+	// prool:
+	//printf("prooldebug: skillset: ch=%s vict=%s lvl=%i\r\n", GET_NAME(ch), GET_NAME(vict), GET_LEVEL(ch));
+
+	if (!strcmp(GET_NAME(ch), GET_NAME(vict))) { printf("ch==vict\r\n"); }
+	else { 	//printf("ch!=vict\r\n");
+		if (GET_LEVEL(ch)!=LVL_IMPL) {
+		send_to_char("Накладывать на другого игрока умения и заклинания могут только старшие боги!!!111\r\n", ch);
+		return;
+		}
+	}
+	// end of prool
+
 	sprintf(buf2, "%s changed %s's %s to %d.", GET_NAME(ch), GET_NAME(vict),
 			spell >= 0 ? spell_info[spell].name : skill_info[skill].name, value);
 	mudlog(buf2, BRF, -1, SYSLOG, TRUE);

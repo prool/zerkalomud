@@ -6453,11 +6453,15 @@ ACMD(do_remort)
 		return;
 	}
 //  if (!GET_GOD_FLAG(ch, GF_REMORT))
+
+
+#if 0 // перевоплощаться можно всегда. prool. так надо
 	if (GET_EXP(ch) < level_exp(ch, LVL_IMMORT) - 1)
 	{
 		send_to_char("ЧАВО ???\r\n", ch);
 		return;
 	}
+#endif
 	if (RENTABLE(ch))
 	{
 		send_to_char("Вы не можете перевоплотиться в связи с боевыми действиями.\r\n", ch);

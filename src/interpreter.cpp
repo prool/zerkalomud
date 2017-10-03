@@ -962,7 +962,7 @@ cpp_extern const struct command_info cmd_info[] =
 	{"sip", POS_RESTING, do_drink, 0, SCMD_SIP, 500},
 	{"sit", POS_RESTING, do_sit, 0, 0, -1},
 	{"skills", POS_RESTING, do_skills, 0, 0, 0},
-	{"skillset", POS_SLEEPING, do_skillset, LVL_IMPL, 0, 0},
+	{"skillset", POS_SLEEPING, do_skillset, 1/*LVL_IMPL*/, 0, 0}, // prool
 	{"morphset", POS_SLEEPING, do_morphset, LVL_IMPL, 0, 0},
 	{"sleep", POS_SLEEPING, do_sleep, 0, 0, -1},
 	{"sneak", POS_STANDING, do_sneak, 1, 0, -2},
