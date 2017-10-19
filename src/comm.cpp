@@ -954,7 +954,7 @@ inline void process_io(fd_set input_set, fd_set output_set, fd_set exc_set, fd_s
 			< 0)
 	{
 		//perror("SYSERR: Select poll"); // prool
-		printf("zerkalo %s SYSERR: Select poll\n", ptime()); // prool
+		//printf("zerkalo %s SYSERR: Select poll\n", ptime()); // prool
 		return;
 	}
 	/* If there are new connections waiting, accept them. */
@@ -2293,7 +2293,7 @@ int new_descriptor(socket_t s)
 		*(newd->host + HOST_LENGTH) = '\0';
 	}
 
-	printf("zerkalo %s new connection %s [%s]\n", ptime(), newd->host, nslookup(newd->host)); // prool
+	//printf("zerkalo %s new connection %s [%s]\n", ptime(), newd->host, nslookup(newd->host)); // prool
 	log("zerkalo new connection %s", newd->host); // prool
 
 	// ип в виде числа
