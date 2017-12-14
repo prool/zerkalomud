@@ -1247,7 +1247,7 @@ ACMD(do_skillset)
 	// prool:
 	//printf("prooldebug: skillset: ch=%s vict=%s lvl=%i\r\n", GET_NAME(ch), GET_NAME(vict), GET_LEVEL(ch));
 
-	if (!strcmp(GET_NAME(ch), GET_NAME(vict))) { printf("ch==vict\r\n"); }
+	if (!strcmp(GET_NAME(ch), GET_NAME(vict))) { printf("prooldebug:skillset: ch==vict\r\n"); }
 	else { 	//printf("ch!=vict\r\n");
 		if (GET_LEVEL(ch)!=LVL_IMPL) {
 		send_to_char("Накладывать на другого игрока умения и заклинания могут только старшие боги!!!111\r\n", ch);

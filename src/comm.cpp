@@ -156,6 +156,9 @@ int total_players;
 int console_codetable;
 int log_codetable;
 int web_codetable;
+int webstat;
+int email;
+char mudname [PROOL_MAX_STRLEN];
 
 /* local globals */
 DESCRIPTOR_DATA *descriptor_list = NULL;	/* master desc list */
@@ -386,6 +389,10 @@ console_codetable=T_KOI;
 log_codetable=T_KOI;
 web_codetable=T_KOI;
 
+webstat=0;
+email=0;
+mudname[0]=0;
+
 fconfig=fopen("prool.cfg","r");
 if (fconfig)
 	{
@@ -402,8 +409,18 @@ if (fconfig)
 		else if (!strcmp(string,"console_codetable_koi")) console_codetable=T_KOI;
 		else if (!strcmp(string,"log_codetable_koi")) log_codetable=T_KOI;
 		else if (!strcmp(string,"log_codetable_utf")) log_codetable=T_UTF;
+		else if (!strcmp(string,"webstat_yes")) webstat=1;
+		else if (!strcmp(string,"webstat_no")) webstat=0;
 		else if (!strcmp(string,"web_codetable_utf")) web_codetable=T_UTF;
 		else if (!strcmp(string,"web_codetable_koi")) web_codetable=T_KOI;
+		else if (!strcmp(string,"email_yes")) email=1;
+		else if (!strcmp(string,"email_no")) email=0;
+		else if (!memcmp(string,"mudname ",strlen("mudname ")))
+			{
+			char *cc;
+			cc=string;
+			strcpy(mudname, cc+strlen("mudname "));
+			}
 		}
 	fclose(fconfig);
 	}
@@ -411,6 +428,9 @@ else
 	{
 	printf("prool.cfg not open\n");
 	}
+
+printf("prooldebug: webstat = %i\n", webstat); // prool
+printf("prooldebug: email = %i\n", email); // prool
 
 #ifdef CIRCLE_MACINTOSH
 	/*

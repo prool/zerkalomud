@@ -2996,27 +2996,51 @@ ACMD(do_advance)
 		return;
 	}
 
+#if 0 // prool: для турнира можно повышать свой уровень
 	if (GET_LEVEL(ch) <= GET_LEVEL(victim) && !Privilege::check_flag(ch, Privilege::KRODER))
 	{
 		send_to_char("Нелогично.\r\n", ch);
 		return;
 	}
+#endif
+
 	if (!*level || (newlevel = atoi(level)) <= 0)
 	{
 		send_to_char("Это не похоже на уровень.\r\n", ch);
 		return;
 	}
+
+// begin prool
+// турнирные настройки: игрок может повышать себя, но только до 30 ур
+
+	if (GET_LEVEL(ch)<=LVL_IMPL)
+	{// это не имплементор, значит игрок ;)
+	if (!strcmp(GET_NAME(ch), GET_NAME(victim))) { printf("prooldebug::adv: ch==vict\r\n"); }
+	else	{// не себя повышать нельзя
+		send_to_char("Вы можете повышать только свой уровень!\r\n", ch);
+		return;
+		}
+	if (newlevel>30)
+		{
+		send_to_char("Вы можете повышать свой уровень не более, чем до 30!\r\n", ch);
+		return;
+		}
+	}
+// end prool
+
 	if (newlevel > LVL_IMPL)
 	{
 		sprintf(buf, "%d - максимальный возможный уровень.\r\n", LVL_IMPL);
 		send_to_char(buf, ch);
 		return;
 	}
+#if 0 // prool: для турнира
 	if (newlevel > GET_LEVEL(ch) && !Privilege::check_flag(ch, Privilege::KRODER))
 	{
 		send_to_char("Вы не можете установить уровень выше собственного.\r\n", ch);
 		return;
 	}
+#endif
 	if (newlevel == GET_LEVEL(victim))
 	{
 		act("$E и так этого уровня.", FALSE, ch, 0, victim, TO_CHAR);

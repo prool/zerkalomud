@@ -36,21 +36,27 @@ extern int total_players;
 int players_num;
 extern int boot_time;
 extern int console_codetable;
+extern int email;
+extern char mudname[];
 
 void perslog (char *verb, const char *pers)
 {FILE *fp;
 char buffer [PROOL_MAX_STRLEN];
+char *ident;
+
+if (mudname[0]) ident=mudname;
+else ident = "VMUD";
 
 fp=fopen(PERSLOG_FILE, "a");
 fprintf(fp,"%s %s %s\n",ptime(),pers,verb);
 if (console_codetable==T_UTF)
 	{
 	koi_to_utf8((char*)pers,buffer);
-	printf("zerkalo %s %s %s\n",ptime(),buffer,verb);
+	printf("%s %s %s %s\n",ident,ptime(),buffer,verb);
 	}
 else
 	{
-	printf("zerkalo %s %s %s\n",ptime(),pers,verb);
+	printf("%s %s %s %s\n",ident,ptime(),pers,verb);
 	}
 fclose(fp);
 }
@@ -178,6 +184,7 @@ return (hp!=NULL)?hp->h_name:(char *)"*";
 
 void send_email2 (char *from, char *to, char *subj, char *text)
 	{char buf [80*25];
+	if (email==0) return;
 #if 1
 
 	sprintf(buf,"echo \"Subject: %s\r\nContent-Type: text/plain; charset=koi8-r\r\n\r\n%s\"|/usr/sbin/sendmail -F\"%s\" %s\r\n",

@@ -87,6 +87,8 @@ extern time_t boot_time;
 extern int players_num; // prool
 extern int total_players; // prool
 extern int web_codetable; // prool
+extern int webstat; // prool
+extern char mudname[]; // prool
 
 /* extern functions */
 long find_class_bitvector(char arg);
@@ -5680,13 +5682,21 @@ void make_who2html(void)
 	
 	char utf_buf [PROOL_MAX_STRLEN];
 
+	if (webstat==0) return;
+
+	printf("prooldebug: webstat making\n");
+
 	if ((opf = fopen(WHOLIST_FILE, "w")) == 0)
 		return;		/* or log it ? *shrug* */
 
 	fprintf(opf, "<HTML><HEAD><TITLE>Who in Zerkalo MUD</TITLE>\n\
 <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n\
 </HEAD>\n");
-	fprintf(opf, "<BODY>%s <b>Who in Zerkalo MUD</b><HR>\n",ptime());
+
+	if (mudname[0])
+	    fprintf(opf, "<BODY>%s <b>Who in %s</b><HR>\n",ptime(), mudname);
+	else
+	    fprintf(opf, "<BODY>%s <b>Who in Zerkalo MUD</b><HR>\n",ptime());
 
 	sprintf(buf, "Imms <BR> \r\n");
 	imms = str_add(imms, buf);

@@ -789,7 +789,7 @@ cpp_extern const struct command_info cmd_info[] =
 	{"'", POS_RESTING, do_say, 0, 0, -1},
 	{":", POS_RESTING, do_echo, 1, SCMD_EMOTE, -1},
 	{";", POS_DEAD, do_wiznet, LVL_IMMORT, 0, -1},
-	{"advance", POS_DEAD, do_advance, LVL_IMPL, 0, 0},
+	{"advance", POS_DEAD, do_advance, 1/*LVL_IMPL*/, 0, 0}, // prool: adv сделан доступным всем на себя (для турнира)
 	{"alias", POS_DEAD, do_alias, 0, 0, 0},
 	{"alter", POS_RESTING, do_fit, 0, SCMD_MAKE_OVER, 500},
 	{"ask", POS_RESTING, do_spec_comm, 0, SCMD_ASK, -1},
