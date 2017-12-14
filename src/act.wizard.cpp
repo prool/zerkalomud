@@ -3015,7 +3015,7 @@ ACMD(do_advance)
 
 	if (GET_LEVEL(ch)<=LVL_IMPL)
 	{// это не имплементор, значит игрок ;)
-	if (!strcmp(GET_NAME(ch), GET_NAME(victim))) { printf("prooldebug::adv: ch==vict\r\n"); }
+	if (!strcmp(GET_NAME(ch), GET_NAME(victim))) { /*printf("prooldebug::adv: ch==vict\r\n"); */ }
 	else	{// не себя повышать нельзя
 		send_to_char("Вы можете повышать только свой уровень!\r\n", ch);
 		return;

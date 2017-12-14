@@ -5684,7 +5684,7 @@ void make_who2html(void)
 
 	if (webstat==0) return;
 
-	printf("prooldebug: webstat making\n");
+	//printf("prooldebug: webstat making\n");
 
 	if ((opf = fopen(WHOLIST_FILE, "w")) == 0)
 		return;		/* or log it ? *shrug* */
