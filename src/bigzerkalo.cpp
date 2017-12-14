@@ -45,7 +45,7 @@ char buffer [PROOL_MAX_STRLEN];
 char *ident;
 
 if (mudname[0]) ident=mudname;
-else ident = "VMUD";
+else ident = "Zerkalo";
 
 fp=fopen(PERSLOG_FILE, "a");
 fprintf(fp,"%s %s %s\n",ptime(),pers,verb);
