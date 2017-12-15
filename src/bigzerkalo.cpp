@@ -295,6 +295,24 @@ void koi_to_utf8(char *str_i, char *str_o)
 	iconv_t cd;
 	size_t len_i, len_o = MAX_SOCK_BUF * 6;
 	size_t i;
+	char *in, *out;
+
+	in=str_i;
+	out=str_o;
+
+	*str_o=0;
+
+	if (str_i==0)
+		{
+		printf("koi_to_utf8: error 1\n");
+		return;
+		}
+
+	if (str_o==0)
+		{
+		printf("koi_to_utf8: error 2\n");
+		return;
+		}
 
 	if ((cd = iconv_open("UTF-8","KOI8-R")) == (iconv_t) - 1)
 	{
@@ -304,7 +322,18 @@ void koi_to_utf8(char *str_i, char *str_o)
 	len_i = strlen(str_i);
 	if ((i = iconv(cd, &str_i, &len_i, &str_o, &len_o)) == (size_t) - 1)
 	{
-		printf("koi_to_utf8: iconv error\n");
+		printf("koi_to_utf8: iconv error. ");
+		printf("input='%s' ", in);
+		while (*in)
+			{
+			printf("[%02X]",*in++);
+			}
+		printf(" output='%s' ", out);
+		while (*out)
+			{
+			printf("[%02X]",*out++);
+			}
+		printf("\n");
 		return;
 	}
 	*str_o = 0;
