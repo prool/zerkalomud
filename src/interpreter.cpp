@@ -411,6 +411,11 @@ ACMD(do_map);
 ACMD(do_kogda);
 ACMD(do_igroki);
 ACMD(do_newpass);
+ACMD(do_build);
+ACMD(do_room_title);
+ACMD(do_room_descr);
+ACMD(do_room_type);
+ACMD(do_room_flag);
 
 /* This is the Master Command List(tm).
 
@@ -802,6 +807,7 @@ cpp_extern const struct command_info cmd_info[] =
 	{"bash", POS_FIGHTING, do_bash, 1, 0, -1},
 	{"beep", POS_DEAD, do_beep, LVL_IMMORT, 0},
 	{"block", POS_FIGHTING, do_block, 0, 0, -1},
+	{"build", POS_DEAD, do_build, LVL_IMPL, 0, -1}, // prool
 	{"bug", POS_DEAD, do_gen_write, 0, SCMD_BUG, 0},
 	{"buy", POS_STANDING, do_not_here, 0, 0, -1},
 	{"best", POS_DEAD, DoBest, 0, 0, 0},
@@ -934,6 +940,10 @@ cpp_extern const struct command_info cmd_info[] =
 	{"recite", POS_RESTING, do_use, 0, SCMD_RECITE, 500},
 	{"redit", POS_DEAD, do_olc, LVL_BUILDER, SCMD_OLC_REDIT},
 	{"register", POS_DEAD, do_wizutil, LVL_IMMORT, SCMD_REGISTER, 0},
+	{"roomdescr", POS_DEAD, do_room_descr, LVL_BUILDER, 0, 0},
+	{"roomflag", POS_DEAD, do_room_flag, LVL_BUILDER, 0, 0},
+	{"roomtitle", POS_DEAD, do_room_title, LVL_BUILDER, 0, 0},
+	{"roomtype", POS_DEAD, do_room_type, LVL_BUILDER, 0, 0},
 	{"unregister", POS_DEAD, do_wizutil, LVL_IMMORT, SCMD_UNREGISTER, 0},
 	{"reload", POS_DEAD, do_reboot, LVL_IMPL, 0, 0},
 	{"remove", POS_RESTING, do_remove, 0, 0, 500},

@@ -24,6 +24,16 @@
 #include "char_player.hpp"
 #include "room.hpp"
 
+// begin prool
+#include "interpreter.h" // prool
+#include "bigzerkalo.h" // prool
+int real_zone(int); // prool
+char room_descr [PROOL_MAX_STRLEN];
+char room_title [PROOL_MAX_STRLEN];
+int room_type;
+int room_flag;
+// end prool
+
 /* List each room saved, was used for debugging. */
 #if 0
 #define REDIT_LIST	1
@@ -1062,4 +1072,267 @@ void redit_parse(DESCRIPTOR_DATA * d, char *arg)
 	 */
 	OLC_VAL(d) = 1;
 	redit_disp_menu(d);
+}
+/******************************************************************************************************************/
+ACMD(do_room_flag)
+{int counter, columns=0, plane=0, j=1;
+char c;
+
+if (IS_NPC(ch)) return;
+if (strlen(argument)<2)
+	{
+	snprintf(buf, PROOL_MAX_STRLEN, "room flag is %i\r\n",room_flag);
+	send_to_char(buf, ch);
+	}
+else
+	{
+	room_flag=atoi(argument+1);
+	snprintf(buf, PROOL_MAX_STRLEN, "room flag set to %i\r\n",room_flag);
+	send_to_char(buf, ch);
+	}
+
+	for (counter = 0, c = 'a' - 1; plane < NUM_PLANES; counter++)
+	{
+		if (*room_bits[counter] == '\n')
+		{
+			plane++;
+			c = 'a' - 1;
+			j=0;
+			continue;
+		}
+		else if (c == 'z')
+			c = 'A';
+		else
+			c++;
+
+		sprintf(buf, "%9i %-20.20s %s", j,
+				room_bits[counter], !(++columns % 2) ? "\r\n" : "");
+		j=j<<1;
+		send_to_char(buf, ch);
+	}
+}
+/******************************************************************************************************************/
+ACMD(do_room_type)
+{int counter, columns=0;
+if (IS_NPC(ch)) return;
+if (strlen(argument)<2)
+	{
+	snprintf(buf, PROOL_MAX_STRLEN, "room type is %i [%s]\r\n",room_type, sector_types[room_type]);
+	send_to_char(buf, ch);
+	}
+else
+	{
+	room_type=atoi(argument+1);
+	snprintf(buf, PROOL_MAX_STRLEN, "room type set to %i [%s]\r\n",room_type, sector_types[room_type]);
+	send_to_char(buf, ch);
+	}
+
+	for (counter = 0; counter < NUM_ROOM_SECTORS; counter++)
+	{
+		sprintf(buf, "%2d) %-20.20s %s", counter,
+				sector_types[counter], !(++columns % 2) ? "\r\n" : "");
+		send_to_char(buf, ch);
+	}
+}
+/******************************************************************************************************************/
+ACMD(do_room_title)
+{
+if (IS_NPC(ch)) return;
+if (strlen(argument)<2)
+	{
+	snprintf(buf, PROOL_MAX_STRLEN, "room title is '%s'\r\n",room_title);
+	send_to_char(buf, ch);
+	return;
+	}
+
+strcpy(room_title, argument+1);
+snprintf(buf, PROOL_MAX_STRLEN, "room title set to '%s'\r\n",room_title);
+send_to_char(buf, ch);
+}
+/******************************************************************************************************************/
+ACMD(do_room_descr)
+{
+if (IS_NPC(ch)) return;
+if (strlen(argument)<2)
+	{
+	snprintf(buf, PROOL_MAX_STRLEN, "room descr is '%s'\r\n",room_descr);
+	send_to_char(buf, ch);
+	return;
+	}
+
+strcpy(room_descr, argument+1);
+strcat(room_descr,"\r\n");
+snprintf(buf, PROOL_MAX_STRLEN, "room descr set to '%s'\r\n",room_descr);
+send_to_char(buf, ch);
+}
+/******************************************************************************************************************/
+ACMD(do_build) //prool: build new room
+{char buf [PROOL_MAX_STRLEN];
+int i, vnum, rnum, new_vnum, new_rnum, zone, dir, build_dir, number;
+char c, symbol_dir[] = {'n', 'e', 's', 'w', 'u', 'd'};
+int back [] = {2, 3, 0, 1, 5, 4}; // back directions
+DESCRIPTOR_DATA *d;
+ROOM_DATA *room = new ROOM_DATA;
+ROOM_DATA *room0 = new ROOM_DATA;
+
+if (IS_NPC(ch)) return;
+
+//if (argument==0) send_to_char("argument==0\r\n", ch);
+//if (*argument==0) send_to_char("*argument==0\r\n", ch);
+//snprintf(buf, PROOL_MAX_STRLEN, "build. argument '%s'\r\n", argument);
+//send_to_char(buf, ch);
+
+if (strlen(argument)<2)
+	{
+	snprintf(buf, PROOL_MAX_STRLEN, "usage: build <dir>\r\nf.e. build n\r\n");
+	send_to_char(buf, ch);
+	return;
+	}
+
+c=argument[1];
+build_dir=-1;
+for (dir = 0; dir < NUM_OF_DIRS; dir++)
+	{
+	if (symbol_dir[dir]==c)
+		{
+		build_dir=dir;
+		break;
+		}
+	}
+if (build_dir==-1)
+	{
+	snprintf(buf, PROOL_MAX_STRLEN, "Invalid direct '%c'\r\nusage: build <dir>\r\nf.e. build n\r\n", c);
+	send_to_char(buf, ch);
+	return;
+	}
+
+vnum = world[IN_ROOM(ch)]->number;
+snprintf(buf, PROOL_MAX_STRLEN, "build. origin room number %i\r\n", vnum);
+send_to_char(buf, ch);
+
+rnum=real_room(vnum);
+//snprintf(buf, PROOL_MAX_STRLEN, "build. room real number %i\r\n", rnum);
+//send_to_char(buf, ch);
+
+#if 0
+rnum=real_room(160);
+snprintf(buf, PROOL_MAX_STRLEN, "build. room real number vnum 160 = %i\r\n", rnum);
+send_to_char(buf, ch);
+#endif
+
+zone=vnum/100;
+
+for (i=0;i<99;i++)
+	{
+	new_vnum=zone*100+i;
+	new_rnum=real_room(new_vnum);
+	if (new_rnum==0)
+		{
+		snprintf(buf, PROOL_MAX_STRLEN, "build. free room vnum = %i\r\n", new_vnum);
+		send_to_char(buf, ch);
+		break;
+		}
+	}
+if (new_rnum)
+	{
+	snprintf(buf, PROOL_MAX_STRLEN, "build. no free room. zone = %i\r\n", zone);
+	send_to_char(buf, ch);
+	return;
+	}
+
+#if 1
+for (dir = 0; dir < NUM_OF_DIRS; dir++)
+	if (EXIT(ch, dir))
+		{
+		snprintf(buf, PROOL_MAX_STRLEN, "build. exit on dir %c\r\n", symbol_dir[dir]);
+		send_to_char(buf, ch);
+		}
+#endif
+
+if (EXIT(ch, build_dir))
+	{
+	snprintf(buf, PROOL_MAX_STRLEN, "build. exit busy\r\n");
+	send_to_char(buf, ch);
+	return;
+	}
+//snprintf(buf, PROOL_MAX_STRLEN, "build. exit free!\r\n");
+//send_to_char(buf, ch);
+
+// create new room
+	number=new_vnum;
+	d = ch->desc;
+	d->olc = new olc_data;
+	// * Find the zone.
+	if ((OLC_ZNUM(d) = real_zone(number)) == -1)
+	{
+		send_to_char("Sorry, this zone is not exist\r\n", ch);
+		delete d->olc;
+		return;
+	}
+	OLC_NUM(d) = number;
+
+	// redit_setup
+	room->name = str_dup(room_title);
+	room->temp_description = str_dup(room_descr);
+	room->sector_type=room_type;
+	room->room_flags.flags[0]=room_flag; // set room flags!
+	OLC_ROOM(d) = room;
+	OLC_ITEM_TYPE(d) = WLD_TRIGGER;
+
+	OLC_VAL(d) = back[build_dir];
+	CREATE(OLC_EXIT(d), EXIT_DATA, 1);
+	OLC_EXIT(d)->to_room = rnum;
+
+	redit_save_internally(d);
+	sprintf(buf, "build: OLC: %s edits room %d.", GET_NAME(d->character), OLC_NUM(d));
+	olc_log("%s build room %d", GET_NAME(d->character), OLC_NUM(d));
+	mudlog(buf, NRM, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), SYSLOG, TRUE);
+	cleanup_olc(d, CLEANUP_STRUCTS);
+	//send_to_char("Created room saved to memory.\r\n", d->character);
+
+// make link from origin room to new room. origin num vnum/rnum, new room new_vnum/new_rnum
+
+	new_rnum = real_room (new_vnum);
+	number=vnum;
+	d = ch->desc;
+	d->olc = new olc_data;
+	// * Find the zone.
+	if ((OLC_ZNUM(d) = real_zone(number)) == -1)
+	{
+		send_to_char("Sorry, this zone is not exist\r\n", ch);
+		delete d->olc;
+		return;
+	}
+	OLC_NUM(d) = number;
+	
+	// redit_setup
+	room_copy(room0, world[rnum]);
+	// temp_description существует только на время редактирования комнаты в олц
+	room0->temp_description = str_dup(RoomDescription::show_desc(world[rnum]->description_num).c_str());
+	//room0->temp_description = str_dup("iPWNED\r\n");
+	OLC_ROOM(d) = room0;
+	OLC_ITEM_TYPE(d) = WLD_TRIGGER;
+
+	// * if exit doesn't exist, alloc/create it
+	OLC_VAL(d) = build_dir;
+	if (!OLC_EXIT(d))
+	{
+		//send_to_char("OLC_EXIT(d)==0\r\n", d->character);
+		CREATE(OLC_EXIT(d), EXIT_DATA, 1);
+		OLC_EXIT(d)->to_room = new_rnum;
+	}
+	else
+	{
+	sprintf(buf,"build ERROR. OLC_EXIT(d) != 0\r\nexit to rnum %i\r\n", world[OLC_EXIT(d)->to_room]->number);
+	send_to_char(buf, ch);
+	return;
+	}
+	//printf("new_rnum %i\n", new_rnum);
+
+	redit_save_internally(d);
+	sprintf(buf, "build: OLC: %s edits room0 %d.", GET_NAME(d->character), OLC_NUM(d));
+	olc_log("%s build room0 %d", GET_NAME(d->character), OLC_NUM(d));
+	mudlog(buf, NRM, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), SYSLOG, TRUE);
+	cleanup_olc(d, CLEANUP_STRUCTS);
+	//send_to_char("Modified origin room saved to memory.\r\n", d->character);
 }

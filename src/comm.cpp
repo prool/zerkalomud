@@ -353,6 +353,10 @@ void gettimeofday(struct timeval *t, struct timezone *dummy)
 
 int main(int argc, char **argv)
 {
+extern char room_title [PROOL_MAX_STRLEN];
+extern char room_descr [PROOL_MAX_STRLEN];
+extern int room_type;
+extern int room_flag;
 #ifdef TEST_BUILD
 	// для нормального вывода русского текста под cygwin 1.7 и выше
 	setlocale(LC_CTYPE, "ru_RU.KOI8-R");
@@ -431,6 +435,11 @@ else
 
 printf("prooldebug: webstat = %i\n", webstat); // prool
 printf("prooldebug: email = %i\n", email); // prool
+
+strcpy(room_title, "New room");
+strcpy(room_descr, "    Room descr\r\n");
+room_type=0;
+room_flag=0;
 
 #ifdef CIRCLE_MACINTOSH
 	/*
