@@ -900,6 +900,7 @@ cpp_extern const struct command_info cmd_info[] =
 	{"look", POS_RESTING, do_look, 0, SCMD_LOOK, 200},
 	{"lock", POS_SITTING, do_gen_door, 0, SCMD_LOCK, 500},
 	{"mail", POS_STANDING, do_not_here, 1, 0, -1},
+	{"map", POS_RESTING, do_map, 0, 0, 0}, // prool
 	{"mode", POS_DEAD, do_mode, 0, 0, 0},
 	{"mshout", POS_RESTING, do_mobshout, 0, 0, -1},
 	{"motd", POS_DEAD, do_gen_ps, 0, SCMD_MOTD, 0},
