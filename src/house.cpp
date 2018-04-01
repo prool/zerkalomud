@@ -4,6 +4,8 @@
 * (c) 2005 Krodo                                                              *
 ******************************************************************************/
 
+#define CLANS_FREE // prool: clan rent (tax) free
+
 #include <algorithm>
 #include <fstream>
 #include <sstream>
@@ -74,7 +76,7 @@ int CLAN_CHEST_RNUM = -1;
 const int INGR_CHEST_VNUM = 333;
 int INGR_CHEST_RNUM = -1;
 // налог на хранилище ингров (в день)
-const int INGR_CHEST_TAX = 1; // prool
+const int INGR_CHEST_TAX = 0; // prool
 // макс. длина сообщения дружины
 const int MAX_MOD_LENGTH = 3 * 80;
 // макс. длина названия ранга в дружине
@@ -4907,6 +4909,9 @@ void Clan::ChestInvoice()
 
 int Clan::ChestTax()
 {
+#if 1 // prool free chest tax
+return 0;
+#endif
 	OBJ_DATA *temp, *chest;
 	int cost = 0;
 	int count = 0;
@@ -5652,6 +5657,9 @@ bool ClanSystem::show_ingr_chest(OBJ_DATA *obj, CHAR_DATA *ch)
  */
 int Clan::ingr_chest_tax()
 {
+#if 1 // prool: free ingr chest tax
+return 0;
+#endif
 	if (!ingr_chest_active())
 	{
 		return 0;
@@ -5704,6 +5712,9 @@ void Clan::purge_ingr_chest()
 
 int Clan::calculate_clan_tax() const
 {
+#ifdef CLANS_FREE // prool
+return 0;
+#endif
 	int cost = CLAN_TAX + (storehouse * CLAN_STOREHOUSE_TAX);
 
 	if (ingr_chest_active())

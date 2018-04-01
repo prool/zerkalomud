@@ -1829,6 +1829,7 @@ int Crash_load(CHAR_DATA * ch)
 	mudlog(buf, LGH, MAX(LVL_GOD, GET_INVIS_LEV(ch)), SYSLOG, TRUE);
 	cost = (int)(SAVEINFO(index)->rent.net_cost_per_diem * num_of_days);
 	cost = MAX(0, cost);
+	if (free_rent) cost=0; // prool fool
 	// added by WorM (Видолюб) 2010.06.04 сумма потраченная на найм(возвращается при креше)
 	if(RENTCODE(index) == RENT_CRASH)
 	{

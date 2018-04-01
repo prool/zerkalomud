@@ -41,6 +41,8 @@
 #include "room.hpp"
 #include "named_stuff.hpp"
 
+extern int free_rent; // prool
+
 // Это ужасно, но иначе цигвин крешит. Может быть на родном юниксе все ок...
 
 int max_stats2[][6] =
@@ -4129,6 +4131,7 @@ int calculate_resistance_coeff(CHAR_DATA *ch, int resist_type, int effect)
 */
 int get_object_low_rent(OBJ_DATA *obj)
 {
+	if (free_rent) return 0; // prool fool
 	int rent = GET_OBJ_RENT(obj) > GET_OBJ_RENTEQ(obj) ? GET_OBJ_RENTEQ(obj) : GET_OBJ_RENT(obj);
 	return rent;
 }

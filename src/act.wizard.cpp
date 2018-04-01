@@ -3013,7 +3013,7 @@ ACMD(do_advance)
 // begin prool
 // турнирные настройки: игрок может повышать себя, но только до 30 ур
 
-	if (GET_LEVEL(ch)<=LVL_IMPL)
+	if (GET_LEVEL(ch)<LVL_IMPL)
 	{// это не имплементор, значит игрок ;)
 	if (!strcmp(GET_NAME(ch), GET_NAME(victim))) { /*printf("prooldebug::adv: ch==vict\r\n"); */ }
 	else	{// не себя повышать нельзя
