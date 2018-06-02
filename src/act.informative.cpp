@@ -1611,13 +1611,9 @@ void show_extend_room(const char * const description, CHAR_DATA * ch)
 	send_to_char("\r\n", ch);
 }
 
-int enable_map(CHAR_DATA * ch)
+int enable_map(CHAR_DATA * ch) // prool
 {
-if (!strcmp(GET_NAME(ch),"Пруль")) return 1;
-if (!strcmp(GET_NAME(ch),"Январь")) return 1;
-if (!strcmp(GET_NAME(ch),"Февраль")) return 1;
-if (!strcmp(GET_NAME(ch),"Март")) return 1;
-return 0;
+return 1;
 }
 
 void look_at_room(CHAR_DATA * ch, int ignore_brief)
