@@ -16,7 +16,12 @@ extern char mudname[];
 
 void show_code_date(CHAR_DATA *ch)
 {
-	send_to_char(ch, "Зеркало-НВО, версия от %s %s\r\n", __DATE__, __TIME__);
+#ifdef CYGWIN
+	send_to_char(ch, "Зеркало-НВО, версия для Windows от %s %s\r\nСделано Прулём http://mud.kharkov.org\r\n", __DATE__, __TIME__);
+#else
+	send_to_char(ch, "Зеркало-НВО, версия от %s %s\r\nСделано Прулём http://mud.kharkov.org\r\n", __DATE__, __TIME__);
+#endif
+
 	if (mudname[0])
 		send_to_char(ch, "&R%s&n\r\n",mudname);
 }

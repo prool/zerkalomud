@@ -434,6 +434,7 @@ ACMD(do_room_flag);
 #define MAGIC_LEN 8
 
 const char *create_name_rules =
+#if 0
 	"  ПРАВИЛА ИМЕНОВАНИЯ ИГРОВЫХ ПЕРСОНАЖЕЙ\r\n"
 	"\r\n"
 	"Не забывайте, что сей мир создан и продолжает существовать благодаря\r\n"
@@ -447,6 +448,9 @@ const char *create_name_rules =
 	"оказались в комнате имени и не устраивайте истерик по этому поводу. Оттуда\r\n"
 	"дорога обратная только одна: переименование.\r\n"
 	;
+#else
+	"\r\n";
+#endif
 
 cpp_extern const struct command_info cmd_info[] =
 {
@@ -2365,14 +2369,16 @@ void do_entergame(DESCRIPTOR_DATA * d)
 		GET_MANA_STORED(d->character) = 0;
 		send_to_char(START_MESSG, d->character);
 		send_to_char
-		("Воспользуйтесь командой НОВИЧОК для получения вводной информации игроку.\r\n", d->character);
+		("Воспользуйтесь командой НОВИЧОК для получения вводной информации игроку.\r\nА команда ПОМОЩЬ ПРУЛЬ даст пару советов от Пруля", d->character);
 	}
 	sprintf(buf, "%s вошел в игру.", GET_NAME(d->character));
+#ifndef CYGWIN
 	if (strcmp(GET_NAME(d->character),"Пруль")) // prool
 		{
 		send_email2("Zerkalo", "prool@itl.ua", "User logon", (char *) GET_NAME(d->character));
 		send_email2("Zerkalo", "proolix@gmail.com", "User logon", (char *) GET_NAME(d->character));
 		}
+#endif
 	perslog("logon", GET_NAME(d->character)); // prool
 	mudlog(buf, NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(d->character)), SYSLOG, TRUE);
 	look_at_room(d->character, 0);
