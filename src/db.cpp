@@ -6332,7 +6332,7 @@ void init_char(CHAR_DATA * ch)
 //	if (ch->player_specials == NULL)
 //		CREATE(ch->player_specials, struct player_special_data, 1);
 
-#ifdef TEST_BUILD
+#if defined(TEST_BUILD) || defined (CYGWIN)
 	if (top_of_p_table == 0)
 	{
 		// При собирании через make test первый чар в маде становится иммом 34
