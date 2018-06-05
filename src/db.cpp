@@ -3726,7 +3726,7 @@ void parse_mobile(FILE * mob_f, int nr)
 // #define SEVEN_DAYS 60*24*30
 
 /* read all objects from obj file; generate index and prototypes */
-char *parse_object(FILE * obj_f, int nr)
+char *parse_object(FILE * obj_f, int nr) // tyt byl prool
 {
 	static int i = 0;
 	static char line[256];
