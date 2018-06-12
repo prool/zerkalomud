@@ -39,6 +39,8 @@ extern int console_codetable;
 extern int email;
 extern char mudname[];
 
+void print_object_location(int num, OBJ_DATA * obj, CHAR_DATA * ch, int recur);
+
 void perslog (char *verb, const char *pers)
 {FILE *fp;
 char buffer [PROOL_MAX_STRLEN];
@@ -374,4 +376,42 @@ FILE *fp; char buffer [PROOL_MAX_STRLEN];
 fp=fopen("proolmud.log", "a");
 fprintf(fp,"%s %s\n",ptime(),str);
 fclose(fp);
+}
+
+ACMD (do_accio_trup)
+{
+char buf[PROOL_MAX_STRLEN];
+char imya_trupa[PROOL_MAX_STRLEN];
+OBJ_DATA *k;
+
+//send_to_char("do_accio_trup()\r\n",ch);
+
+// поиск трупа
+
+//sprintf(buf,"Боги знают, что вас зовут %s\r\n", GET_NAME(ch)); send_to_char(buf,ch);
+
+//sprintf(buf,"Боги знают, что ваш труп называется \"труп_%s\"\r\n", GET_PAD(ch,1)); send_to_char(buf,ch);
+
+sprintf(imya_trupa,"труп_%s",GET_PAD(ch,1));
+
+//bool print_imm_where_obj(CHAR_DATA *ch, char *arg, int num)
+	bool found = false;
+	int num=1;
+	for (k = object_list; k; k = k->next)
+	{
+		if (isname(imya_trupa, k->name))
+		{
+			found = true;
+			print_object_location(num++, k, ch, TRUE);
+			break;
+		}
+	}
+
+if (found==true) send_to_char("\r\nМы нашли труп и призываем его сюда\r\n",ch);
+else {send_to_char("Мы НЕ нашли труп\r\n",ch); return; }
+
+// obj from room
+	obj_from_room(k);
+// obj to room
+	obj_to_room(k, ch->in_room);
 }
