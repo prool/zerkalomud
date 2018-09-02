@@ -262,6 +262,8 @@ struct player_special_data
 
 	struct logon_data * logons; /*Записи о входах чара*/
 
+	int	prool_map; // prool: показывать карту или нет
+
 // Punishments structs
 	struct punish_data pmute;
 	struct punish_data pdumb;

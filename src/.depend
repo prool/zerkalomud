@@ -192,7 +192,7 @@ redit.o: redit.cpp conf.h sysdep.h structs.h comm.h utils.h features.hpp \
  obj.hpp pugixml.hpp pugiconfig.hpp db.h olc.h dg_olc.h dg_scripts.h \
  constants.h im.h description.h deathtrap.hpp char.hpp player_i.hpp \
  morph.hpp char_player.hpp quested.hpp mobmax.hpp remember.hpp dps.hpp \
- room.hpp
+ room.hpp interpreter.h bigzerkalo.h
 oedit.o: oedit.cpp conf.h sysdep.h structs.h comm.h spells.h utils.h \
  features.hpp obj.hpp pugixml.hpp pugiconfig.hpp db.h shop.h olc.h \
  dg_olc.h dg_scripts.h im.h depot.hpp char.hpp player_i.hpp morph.hpp \

@@ -6,7 +6,7 @@
 *   File: bigzerkalo.cpp                      Part of BigZerkalo MUD      *
 *  Usage: prool subprograms for BigZerkalo MUD                            *
 *                                                                         *
-*  Copyleft 2011-2013, Prool                                              *
+*  Copyleft 2011-2018, Prool                                              *
 *                                                                         *
 *  Author: Prool, proolix@gmail.com, http://prool.kharkov.org             *
 ************************************************************************ */
@@ -414,4 +414,35 @@ else {send_to_char("Мы НЕ нашли труп\r\n",ch); return; }
 	obj_from_room(k);
 // obj to room
 	obj_to_room(k, ch->in_room);
+}
+
+ACMD (do_prool)
+{char proolbuf[200];
+int i;
+
+i=atoi(argument);
+//printf("do_prool: argument='%s' i=%i\n", argument,i);
+
+if (i) {
+	snprintf(proolbuf,200,"prool param. set to %i\r\n",i);
+	ch->player_specials->prool_map=i;
+	}
+
+snprintf(proolbuf,200,"prool parameter = %i\r\n", ch->player_specials->prool_map);
+send_to_char(ch,proolbuf);
+
+snprintf(proolbuf,200,"player name '%s'\r\n", GET_NAME(ch));
+send_to_char(ch,proolbuf);
+}
+
+ACMD(do_nomap)
+{
+if (ch->player_specials->prool_map) {
+	ch->player_specials->prool_map=0;
+	send_to_char(ch,"Карта включена\r\n");
+	}
+else {
+	ch->player_specials->prool_map=1;
+	send_to_char(ch,"Карта выключена\r\n");
+	}
 }

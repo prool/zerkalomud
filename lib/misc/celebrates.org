@@ -133,7 +133,7 @@
 
 <celebratesReal>
 
-<celebrate day="1" month="1" start="336" end="168" name="Новый год">
+<celebrate day="1" month="1" start="168" end="168" name="Новый год">
 <!-- летучий корабль -->
     <room vnum="2501">
 	<trig vnum="2508"/>

@@ -417,6 +417,8 @@ ACMD(do_room_descr);
 ACMD(do_room_type);
 ACMD(do_room_flag);
 ACMD(do_accio_trup);
+ACMD(do_prool);
+ACMD(do_nomap);
 
 /* This is the Master Command List(tm).
 
@@ -918,6 +920,7 @@ cpp_extern const struct command_info cmd_info[] =
 	{"newpass", POS_DEAD, do_newpass, LVL_GRGOD, 0, -1}, // prool
 	{"news", POS_DEAD, DoBoard, 1, NEWS_BOARD, -1},
 	{"nlist", POS_RESTING, NamedStuff::do_named, LVL_BUILDER, SCMD_NAMED_LIST, 0}, //Именной стаф список
+	{"nomap", POS_DEAD, do_nomap, 0, 0, 0}, // prool
 	{"notitle", POS_DEAD, do_wizutil, LVL_GRGOD, SCMD_NOTITLE, 0},
 	{"oedit", POS_DEAD, do_olc, LVL_BUILDER, SCMD_OLC_OEDIT},
 	{"offer", POS_STANDING, do_not_here, 1, 0, 0},
@@ -934,6 +937,7 @@ cpp_extern const struct command_info cmd_info[] =
 	{"pour", POS_STANDING, do_pour, 0, SCMD_POUR, -1},
 	{"practice", POS_STANDING, do_not_here, 0, 0, -1},
 	{"prompt", POS_DEAD, do_display, 0, 0, 0},
+	{"prool", POS_DEAD, do_prool, 0, 0, 0}, // prool
 	{"proxy", POS_DEAD, do_proxy, LVL_GRGOD, 0, 0},
 	{"purge", POS_DEAD, do_purge, LVL_GOD, 0, 0},
 	{"put", POS_RESTING, do_put, 0, 0, 500},
@@ -3317,7 +3321,7 @@ Sventovit
 				SEND_TO_Q(MENU, d);
 				break;
 			}
-			if (IS_SET(PLR_FLAGS(d->character, PLR_NODELETE), PLR_NODELETE))
+			if (0/*IS_SET(PLR_FLAGS(d->character, PLR_NODELETE), PLR_NODELETE)*/)
 			{
 				SEND_TO_Q("\r\nБоги запретили Вам суицид\r\n", d);
 				SEND_TO_Q(MENU, d);

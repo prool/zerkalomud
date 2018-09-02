@@ -699,6 +699,8 @@ void draw_room(CHAR_DATA *ch, const ROOM_DATA *room, int cur_depth, int y, int x
 // imm по дефолту = 0, если нет, то распечатанная карта засылается ему
 void print_map(CHAR_DATA *ch, CHAR_DATA *imm)
 {
+	// prool
+	if (ch->player_specials->prool_map) return;
 	for (int i = 0; i < MAX_LINES; ++i)
 	{
 		for (int k = 0; k < MAX_LENGHT; ++k)
