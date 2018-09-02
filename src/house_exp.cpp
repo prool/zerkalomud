@@ -389,7 +389,8 @@ void ClanChestLog::add(const std::string &text)
 {
 	char timeBuf[20];
 	time_t curr_time = time(0);
-	strftime(timeBuf, sizeof(timeBuf), "[%d/%m %H:%M] ", localtime(&curr_time));
+	//strftime(timeBuf, sizeof(timeBuf), "[%d/%m %H:%M] ", localtime(&curr_time));
+	strftime(timeBuf, sizeof(timeBuf), "[%d/%m/%y %H:%M] ", localtime(&curr_time)); // prool
 
 	if (chest_log_.size() >= MAX_CHEST_LOG)
 	{
