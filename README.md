@@ -27,3 +27,21 @@ apt-get install libboost-all-dev
 На 32 битных системах все проще, чем 64, в Centos, Debian собирается без проблем
 
 Для сборки в среде Windows/cygwin есть отдельный Makefile
+
+**Links**
+
+Работающий на этом коде MUD:
+connect zerkalo.kharkov.org 4000
+
+Его сайт: http://zerkalo.kharkov.org
+
+Оригинальные Былины:
+connect bylins.su 4000
+Их сайт: http://bylins.su
+Их код: https://github.com/bylins/mud
+
+Домашняя страница Пруля http://prool.kharkov.org
+
+Виртустан мад:
+connect mud.kharkov.org 3000
+Его сайт: http://mud.kharkov.org
