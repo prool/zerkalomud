@@ -164,9 +164,11 @@ extern void abort(), exit();
 #include <sys/errno.h>
 #endif
 
+#ifndef MACOS // by prool
 #ifdef HAVE_CRYPT_H
 #include <crypt.h>
 #endif
+#endif // MACOS
 
 #ifdef TIME_WITH_SYS_TIME
 # include <sys/time.h>
