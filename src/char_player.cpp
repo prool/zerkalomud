@@ -588,13 +588,13 @@ void Player::save_char()
 		fprintf(saved, "PUnr: %ld %d %ld %s~\n", UNREG_DURATION(this), GET_UNREG_LEV(this), UNREG_GODID(this), UNREG_REASON(this));
 
 
-	if (KARMA(this) > 0)
+	if (KARMA(this) != 0) // prool fool
 	{
 		strcpy(buf, KARMA(this));
 		kill_ems(buf);
 		fprintf(saved, "Karm:\n%s~\n", buf);
 	}
-	if (LOGON_LIST(this) > 0)
+	if (LOGON_LIST(this) != 0) // prool fool
 	{
 		log("Saving logon list.");
 		struct logon_data * next_log = LOGON_LIST(this);

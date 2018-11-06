@@ -48,7 +48,7 @@ char * indent_trigger(char * cmd , int * level)
 {
 	// Удаляем впереди идущие пробелы.
 	char * ptr, * tmp;
-	if (level < 0) level = 0;
+	//if (level < 0) level = 0; // prool fool
 
 	int currlev, nextlev;
 	currlev = nextlev = *level;

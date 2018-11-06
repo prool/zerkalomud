@@ -1205,7 +1205,12 @@ extern const FLAG_DATA clear_flags;
 #define INT_ONE   (1 << 30)
 #define INT_TWO   (2 << 30)
 #define INT_THREE (3 << 30)
+
+#if defined(MACOS) || defined(UBUNTU64) // UBUNTU64 = any 64 bit Linux
+#define GET_FLAG(value,flag) (value.flags[((unsigned /*long*/)flag) >> 30])
+#else // for 32 bit platforms
 #define GET_FLAG(value,flag) (value.flags[((unsigned long)flag) >> 30])
+#endif
 
 class unique_bit_flag_data : public flag_data
 {
