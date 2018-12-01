@@ -7,10 +7,12 @@
 *  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 *                                                                         *
-*  $Author$                                                        *
-*  $Date$                                           *
-*  $Revision$                                                       *
+*  $Author$                                                               *
+*  $Date$                                                                 *
+*  $Revision$                                                             *
 ************************************************************************ */
+
+//#define DEBUG // prooldebug
 
 #include <sstream>
 #include <math.h>
@@ -3960,12 +3962,24 @@ void MemQ_remember(CHAR_DATA * ch, int num)
 	send_to_char(buf, ch);
 
 	ch->MemQueue.total += mag_manacost(ch, num);
+#ifdef DEBUG
+printf("prooldebug MemQ lbl 1\n");
+#endif
 	while (*pi)
 		pi = &((*pi)->link);
+#ifdef DEBUG
+printf("prooldebug MemQ lbl 2\n");
+#endif
 	CREATE(i, struct spell_mem_queue_item, 1);
+#ifdef DEBUG
+printf("prooldebug MemQ lbl 3\n");
+#endif
 	*pi = i;
 	i->spellnum = num;
 	i->link = NULL;
+#ifdef DEBUG
+printf("prooldebug MemQ lbl 4 end\n");
+#endif
 }
 
 void MemQ_forget(CHAR_DATA * ch, int num)
@@ -4004,10 +4018,16 @@ int *MemQ_slots(CHAR_DATA * ch)
 	static int slots[MAX_SLOT];
 	int i, n, sloti;
 
+#ifdef DEBUG
+printf("prooldebug MemQ_slots 00\n");
+#endif
 	// инициализация
 	for (i = 0; i < MAX_SLOT; ++i)
 		slots[i] = slot_for_char(ch, i + 1);
 
+#ifdef DEBUG
+printf("prooldebug MemQ_slots 01\n");
+#endif
 	for (i = MAX_SPELLS; i >= 1; --i)
 	{
 		if (!IS_SET(GET_SPELL_TYPE(ch, i), SPELL_KNOW))
@@ -4030,8 +4050,11 @@ int *MemQ_slots(CHAR_DATA * ch)
 
 	}
 
+#ifdef DEBUG
+printf("prooldebug MemQ_slots 02\n");
+#endif
 	for (q = &ch->MemQueue.queue; q[0];)
-	{
+	{// prool: infinitum loop here!
 		sloti = spell_info[q[0]->spellnum].slot_forc[(int) GET_CLASS(ch)][(int) GET_KIN(ch)] - 1;
 		if (sloti >= 0 && sloti <= 10)
 		{
@@ -4055,9 +4078,15 @@ int *MemQ_slots(CHAR_DATA * ch)
 		}
 	}
 
+#ifdef DEBUG
+printf("prooldebug MemQ_slots 04\n");
+#endif
 	for (i = 0; i < MAX_SLOT; ++i)
 		slots[i] = slot_for_char(ch, i + 1) - slots[i];
 
+#ifdef DEBUG
+printf("prooldebug MemQ_slots 05\n");
+#endif
 	return slots;
 }
 

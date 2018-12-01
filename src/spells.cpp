@@ -407,13 +407,13 @@ ASPELL(spell_portal)
 
 	if (victim == NULL)
 		return;
-	if (GET_LEVEL(victim) > GET_LEVEL(ch) && !PRF_FLAGGED(victim, PRF_SUMMONABLE) && !same_group(ch, victim))
+	if (0/*GET_LEVEL(victim) > GET_LEVEL(ch) && !PRF_FLAGGED(victim, PRF_SUMMONABLE) && !same_group(ch, victim)*/) // prool fool
 	{
 		send_to_char(SUMMON_FAIL, ch);
 		return;
 	}
 	// пентить чаров <=10 уровня, нельзя так-же нельзя пентать иммов
-	if (!IS_GOD(ch))
+	if (0/*!IS_GOD(ch)*/) // prool fool
 	{
 		if ((!IS_NPC(victim) && GET_LEVEL(victim) <= 10) || IS_IMMORTAL(victim) || AFF_FLAGGED(victim, AFF_NOTELEPORT))
 		{

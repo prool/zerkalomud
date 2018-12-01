@@ -7,10 +7,12 @@
 *  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 * 									  *
-*  $Author$                                                        *
-*  $Date$                                           *
-*  $Revision$                                                      *
+*  $Author$                                                               *
+*  $Date$                                                                 *
+*  $Revision$                                                             *
 ************************************************************************ */
+
+//#define DEBUG // prool debug
 
 #include "conf.h"
 #include "sysdep.h"
@@ -2047,6 +2049,9 @@ int call_magic(CHAR_DATA * caster, CHAR_DATA * cvict, OBJ_DATA * ovict, ROOM_DAT
 {
 	int savetype;
 
+#ifdef DEBUG
+printf("prooldebug call_magic 00\n");
+#endif
 	if (spellnum < 1 || spellnum > TOP_SPELL_DEFINE)
 		return (0);
 
@@ -2054,6 +2059,9 @@ int call_magic(CHAR_DATA * caster, CHAR_DATA * cvict, OBJ_DATA * ovict, ROOM_DAT
 	{
 		cast_mtrigger(cvict, caster, spellnum);
 	}
+#ifdef DEBUG
+printf("prooldebug call_magic 01\n");
+#endif
 
 	// Определяю возможность чтения заклинания
 	//******************************************
@@ -2064,6 +2072,9 @@ int call_magic(CHAR_DATA * caster, CHAR_DATA * cvict, OBJ_DATA * ovict, ROOM_DAT
 		return 0;
 	}
 
+#ifdef DEBUG
+printf("prooldebug call_magic 02\n");
+#endif
 	if (!may_cast_here(caster, cvict, spellnum))
 	{
 		if (IS_SET(SpINFO.routines, MAG_WARCRY))
@@ -2079,6 +2090,9 @@ int call_magic(CHAR_DATA * caster, CHAR_DATA * cvict, OBJ_DATA * ovict, ROOM_DAT
 		return 0;
 	}
 
+#ifdef DEBUG
+printf("prooldebug call_magic 03\n");
+#endif
 	/* determine the type of saving throw */
 	switch (casttype)
 	{
@@ -2096,9 +2110,15 @@ int call_magic(CHAR_DATA * caster, CHAR_DATA * cvict, OBJ_DATA * ovict, ROOM_DAT
 		break;
 	}
 
+#ifdef DEBUG
+printf("prooldebug call_magic 04\n");
+#endif
 	if (SpellUsage::isActive)
 		SpellUsage::AddSpellStat(GET_CLASS(caster), spellnum);
 
+#ifdef DEBUG
+printf("prooldebug call_magic 05\n");
+#endif
 	// Обработка заклинания
 	//******************************************
 
@@ -2116,6 +2136,9 @@ int call_magic(CHAR_DATA * caster, CHAR_DATA * cvict, OBJ_DATA * ovict, ROOM_DAT
 	if (IS_SET(SpINFO.routines, MAG_ROOM))
 		return RoomSpells::mag_room(level, caster, rvict, spellnum);
 
+#ifdef DEBUG
+printf("prooldebug call_magic 06\n");
+#endif
 	return mag_single_target(level, caster, cvict, ovict, spellnum, savetype);
 }
 
@@ -2820,7 +2843,12 @@ int cast_spell(CHAR_DATA * ch, CHAR_DATA * tch, OBJ_DATA * tobj, ROOM_DATA * tro
 	else
 		GET_SPELL_MEM(ch, spell_subst) = 0;
 	if (!IS_NPC(ch) && !IS_IMMORTAL(ch) && PRF_FLAGGED(ch, PRF_AUTOMEM))
+		{
+#ifdef DEBUG
+printf("prooldebug remember 00\n");
+#endif
 		MemQ_remember(ch, spell_subst);
+		}
 	if (!IS_NPC(ch))
 	{
 		if (!GET_SPELL_MEM(ch, spell_subst))
@@ -2839,6 +2867,9 @@ int cast_spell(CHAR_DATA * ch, CHAR_DATA * tch, OBJ_DATA * tobj, ROOM_DATA * tro
 	{
 		GET_CASTER(ch) -= (IS_SET(spell_info[spellnum].routines, NPC_CALCULATE) ? 1 : 0);
 	}
+#ifdef DEBUG
+printf("prooldebug remember 00a\n");
+#endif
 	return (call_magic(ch, tch, tobj, troom, spellnum, GET_LEVEL(ch), CAST_SPELL));
 }
 
@@ -2942,9 +2973,9 @@ ACMD(do_cast)
 	}
 
 	/* Caster is lower than spell level */
-	if ((!IS_SET(GET_SPELL_TYPE(ch, spellnum), SPELL_TEMP | SPELL_KNOW) ||
+	if (0/*(!IS_SET(GET_SPELL_TYPE(ch, spellnum), SPELL_TEMP | SPELL_KNOW) ||
 			GET_REMORT(ch) < MIN_CAST_REM(SpINFO, ch)) &&
-			(GET_LEVEL(ch) < LVL_GRGOD) && (!IS_NPC(ch)))
+			(GET_LEVEL(ch) < LVL_GRGOD) && (!IS_NPC(ch))*/) // prool fool
 	{
 		if (GET_LEVEL(ch) < MIN_CAST_LEV(SpINFO, ch)
 				|| GET_REMORT(ch) < MIN_CAST_REM(SpINFO, ch)
@@ -2963,9 +2994,9 @@ ACMD(do_cast)
 	/* Caster havn't slot  */
 	if (!GET_SPELL_MEM(ch, spellnum) && !IS_IMMORTAL(ch))
 	{
-		if (can_use_feat(ch, SPELL_SUBSTITUTE_FEAT)
+		if (1/*can_use_feat(ch, SPELL_SUBSTITUTE_FEAT)
 				&& (spellnum == SPELL_CURE_LIGHT || spellnum == SPELL_CURE_SERIOUS
-					|| spellnum == SPELL_CURE_CRITIC || spellnum == SPELL_HEAL))
+					|| spellnum == SPELL_CURE_CRITIC || spellnum == SPELL_HEAL)*/) // prool fool: temporaryli enabled
 		{
 
 			for (i = 1; i <= MAX_SPELLS; i++)
@@ -2976,7 +3007,7 @@ ACMD(do_cast)
 					spell_subst = i;
 					break;
 				}
-			if (i >= LAST_USED_SPELL)
+			if (0/*i >= LAST_USED_SPELL*/) // prool fool
 			{
 				send_to_char("У Вас нет заученных заклинаний этого круга.\r\n", ch);
 				return;
@@ -3026,7 +3057,12 @@ ACMD(do_cast)
 		if (!GET_SPELL_MEM(ch, spell_subst))
 			REMOVE_BIT(GET_SPELL_TYPE(ch, spell_subst), SPELL_TEMP);
 		if (!IS_NPC(ch) && !IS_IMMORTAL(ch) && PRF_FLAGGED(ch, PRF_AUTOMEM))
+			{
+#ifdef DEBUG
+printf("prooldebug remember 01\n");
+#endif
 			MemQ_remember(ch, spell_subst);
+			}
 		//log("[DO_CAST->AFFECT_TOTAL] Start");
 		affect_total(ch);
 		//log("[DO_CAST->AFFECT_TOTAL] Stop");
@@ -3044,11 +3080,19 @@ ACMD(do_cast)
 					tch == ch ? " на себя" : tch ? " на $N3" : tobj ? " на $o3" : troom ? " НА " : "");
 			act(buf, FALSE, ch, tobj, tch, TO_CHAR);
 		}
-		else if (cast_spell(ch, tch, tobj, troom, spellnum, spell_subst) >= 0)
+		else {/*prool*/
+#ifdef DEBUG
+printf("prooldebug: tut???\n");
+#endif
+		if (cast_spell(ch, tch, tobj, troom, spellnum, spell_subst) >= 0)
 		{
 			if (!(WAITLESS(ch) || CHECK_WAIT(ch)))
 				WAIT_STATE(ch, PULSE_VIOLENCE);
 		}
+#ifdef DEBUG
+printf("prooldebug: tut!\n");
+#endif
+		}/*prool*/
 	}
 }
 
@@ -3903,18 +3947,21 @@ ACMD(do_remember)
 		return;
 	}
 	/* Caster is lower than spell level */
-	if (GET_LEVEL(ch) < MIN_CAST_LEV(SpINFO, ch)
+	if (0/*GET_LEVEL(ch) < MIN_CAST_LEV(SpINFO, ch)
 			||  GET_REMORT(ch) < MIN_CAST_REM(SpINFO, ch)
-			||    slot_for_char(ch, SpINFO.slot_forc[(int) GET_CLASS(ch)][(int) GET_KIN(ch)]) <= 0)
+			||    slot_for_char(ch, SpINFO.slot_forc[(int) GET_CLASS(ch)][(int) GET_KIN(ch)]) <= 0*/) // prool fool
 	{
 		send_to_char("Рано еще Вам бросаться такими словами !\r\n", ch);
 		return;
 	};
-	if (!IS_SET(GET_SPELL_TYPE(ch, spellnum), SPELL_KNOW))
+	if (0/*!IS_SET(GET_SPELL_TYPE(ch, spellnum), SPELL_KNOW)*/) // prool fool
 	{
 		send_to_char("Было бы неплохо изучить, для начала, это заклинание...\r\n", ch);
 		return;
 	}
+#ifdef DEBUG
+printf("prooldebug remember 02\n");
+#endif
 	MemQ_remember(ch, spellnum);
 	return;
 }

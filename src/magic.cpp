@@ -7,10 +7,12 @@
 *  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 * 									  *
-*  $Author$                                                        *
-*  $Date$                                           *
-*  $Revision$                                                      *
+*  $Author$                                                               *
+*  $Date$                                                                 *
+*  $Revision$                                                             *
 ************************************************************************ */
+
+//#define DEBUG // prooldebug
 
 #include "conf.h"
 #include "sysdep.h"
@@ -4601,6 +4603,9 @@ int mag_manual(int level, CHAR_DATA * caster, CHAR_DATA * cvict, OBJ_DATA * ovic
 //---------------------------------------------------------
 int mag_single_target(int level, CHAR_DATA * caster, CHAR_DATA * cvict, OBJ_DATA * ovict, int spellnum, int savetype)
 {
+#ifdef DEBUG
+printf("prooldebug mag_single_target 00\n");
+#endif
 	if (IS_SET(SpINFO.routines, MAG_WARCRY) && cvict && IS_UNDEAD(cvict))
 		return 1;
 
@@ -4629,7 +4634,13 @@ int mag_single_target(int level, CHAR_DATA * caster, CHAR_DATA * cvict, OBJ_DATA
 	if (IS_SET(SpINFO.routines, MAG_MANUAL))
 		mag_manual(level, caster, cvict, ovict, spellnum, savetype);
 
+#ifdef DEBUG
+printf("prooldebug mag_single_target 01\n");
+#endif
 	cast_reaction(cvict, caster, spellnum);
+#ifdef DEBUG
+printf("prooldebug mag_single_target 02\n");
+#endif
 	return 1;
 }
 

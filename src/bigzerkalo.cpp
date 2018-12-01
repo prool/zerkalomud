@@ -297,10 +297,10 @@ void koi_to_utf8(char *str_i, char *str_o)
 	iconv_t cd;
 	size_t len_i, len_o = MAX_SOCK_BUF * 6;
 	size_t i;
-	char *in, *out;
+	unsigned char *in, *out;
 
-	in=str_i;
-	out=str_o;
+	in=(unsigned char *)str_i;
+	out=(unsigned char *)str_o;
 
 	*str_o=0;
 
