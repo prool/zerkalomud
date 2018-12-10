@@ -661,7 +661,7 @@ ACMD(do_gen_comm)
 		 KYEL,
 		 "заметили",
 		 "заметил$g",
-		 3,
+		 1, // tyt bylo 3. teper' boltat mozho s urovnya 1. prool.
 		 15,
 		 PRF_NOGOSS},
 
