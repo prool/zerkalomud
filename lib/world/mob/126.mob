@@ -62,7 +62,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 105
-Race: 
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -107,7 +107,7 @@ Size: 70
 LikeWork: 90
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -138,13 +138,13 @@ T 12604
 кузнеца~
 кузнецом~
 кузнеце~
-Мастер наковальни Тирфа стоит тут, хмуро поглядывая на Вас.
+Одноглазый кузнец стоит тут, хмуро поглядывая на Вас.
 ~
    Подпаленная местами борода, фартук из толстой кожи, всем бы обычный
 кузнец, да только один глаз закрывает повязка.
 ~
-b0d0g0n0o0p0r0t0u0x0B0s1f2g2 d0f0k0r1 0 E
-20 15 -5 5d30+500 1d127+10
+b0d0g0n0o0p0r0t0u0x0B0s1f2g2u2 d0f0k0r1 0 E
+20 15 -5 5d30+500 1d1+10
 0d0+30000 0
 8 8 1
 Str: 20
@@ -155,7 +155,7 @@ Con: 19
 Cha: 14
 Size: 50
 Class: 102
-Race: 101
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -169,11 +169,11 @@ E
 кладовщика~
 кладовщиком~
 кладовщике~
-Купчиха Изольда приветствует Вас.
+Толстый кладовщик приветствует Вас.
 ~
    Веселый толстяк, то и дело отпускает сальные шуточки.
 ~
-b0d0g0n0o1f2 d0f0k0r1 0 E
+b0d0g0n0o1f2u2 d0f0k0r1 0 E
 20 15 -5 5d30+500 5d5+10
 0d0+30000 0
 8 8 1
@@ -185,7 +185,7 @@ Con: 19
 Cha: 14
 Size: 50
 Class: 102
-Race: 101
+Race: 100
 Height: 198
 Weight: 180
 Special_Bitvector: 0 
@@ -199,7 +199,7 @@ E
 менялу еврея~
 менялой евреем~
 меняле еврее~
-Старый еврей Шмуэль ведет тут учет деньгам.
+Меняла еврей ведет тут учет деньгам.
 ~
    Старичок-еврей в желтой ермолке да с жиденькой седой бородой. Но
 с деньгами управляется ловко - любо-дорого посмотреть, чувствуется 
@@ -219,7 +219,7 @@ Size: 50
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
-Race: 101
+Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -233,12 +233,12 @@ E
 седого мага~
 седым магом~
 седом маге~
-Опытный волшебник Лешко внимательно изучает волшебную книгу.
+Седой маг внимательно изучает волшебную книгу.
 ~
    Седой старик, на вид немощный. Но в колдовстве старость не есть признак
 слабости.
 ~
-b0d0g0n0f2 d0f0 0 E
+b0d0g0n0f2u2 d0f0 0 E
 20 15 -5 5d30+500 5d5+10
 0d0+30000 0
 8 8 1
@@ -252,7 +252,7 @@ Size: 50
 LikeWork: 12
 ExtraAttack: 1
 Class: 102
-Race: 101
+Race: 100
 Height: 198
 Weight: 125
 Special_Bitvector: 0 
@@ -285,7 +285,7 @@ Size: 50
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
-Race: 101
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -299,7 +299,7 @@ E
 мастера боевых искуств~
 мастером боевых искуств~
 мастере боевых искуств~
-Мастер боевых искусств Эйрар внимательно глядит на Вас.
+Мастер боевых искусств внимательно глядит на Вас.
 ~
    Мастер боевых искусств, обучает и тренирует Незримый Дозор. Говорят,
 нет такого оружия, которым он не умеет владеть в совершенстве.
@@ -318,7 +318,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -367,7 +367,7 @@ Size: 70
 LikeWork: 90
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -396,7 +396,7 @@ E
 дежурного~
 дежурным~
 дежурном~
-Ловкий Делан сидит за столом в углу, выполняя дежурство.
+Дежурный по казарме сидит за столом в углу.
 ~
    Седой воин, уже давно не бывавший в битвах по причине своего преклонного
 возраста. Однако полная боевых подвигов жизнь не дает ему покоя, и он
@@ -416,10 +416,10 @@ Size: 50
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
-Race: 101
+Race: 100
 Height: 198
 Weight: 150
-Special_Bitvector: d1 
+Special_Bitvector: 0 
 Skill: 136 80
 E
 T 12623
@@ -435,7 +435,7 @@ T 12623
 ~
 Огромная черная сколопендра внимательно оглядывается по сторонам.
 ~
-b0d0n0o0p0s0t0y0z0a1f2g2 g0k1 0 E
+b0d0n0o0p0t0y0z0a1g2 g0k1 0 E
 20 15 0 1d1+120 2d2+2
 0d0+0 0
 8 8 2
@@ -449,7 +449,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
-Race: 104
+Race: 100
 Height: 100
 Weight: 100
 Special_Bitvector: 0 
@@ -483,7 +483,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
-Race: 104
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -533,7 +533,7 @@ Cha: 25
 Size: 90
 LikeWork: 100
 Class: 101
-Race: 109
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
@@ -851,7 +851,7 @@ LikeWork: 100
 MaxFactor: 15
 ExtraAttack: 1
 Class: 104
-Race: 101
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -932,7 +932,7 @@ Size: 45
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1022,7 +1022,7 @@ LikeWork: 100
 MaxFactor: 15
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 100
 Height: 198
 Weight: 90
 Special_Bitvector: 0 
@@ -1109,7 +1109,7 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 2
 Class: 102
-Race: 112
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -1145,7 +1145,7 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 4
 Class: 102
-Race: 112
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -1195,7 +1195,7 @@ E
 ~
 Выглядит достаточно незавершенно.
 ~
-b0d0n0o0p0q0t0u0B0f2g2 d0f0k0 0 E
+b0d0n0o0p0q0t0u0B0f2g2u2 d0f0k0 0 E
 25 20 0 1d100+200 1d1+0
 0d0+30000 0
 8 8 1
@@ -1241,7 +1241,7 @@ Size: 45
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1348,7 +1348,7 @@ LikeWork: 100
 MaxFactor: 15
 ExtraAttack: 1
 Class: 104
-Race: 112
+Race: 100
 Height: 198
 Weight: 90
 Special_Bitvector: 0 
@@ -1430,7 +1430,7 @@ Size: 45
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
+Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -1506,7 +1506,7 @@ Size: 100
 LikeWork: 25
 ExtraAttack: 5
 Class: 102
-Race: 112
+Race: 100
 Height: 30
 Weight: 150
 Special_Bitvector: l0w0 
@@ -1574,7 +1574,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 2
 Class: 102
-Race: 101
+Race: 100
 Height: 30
 Weight: 150
 Special_Bitvector: l0w0 
@@ -1720,7 +1720,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 112
+Race: 100
 Height: 30
 Weight: 150
 Special_Bitvector: l0w0C3 
@@ -1789,7 +1789,7 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
-Race: 103
+Race: 100
 Height: 30
 Weight: 90
 Special_Bitvector: u0C3 
@@ -2086,7 +2086,7 @@ Size: 50
 LikeWork: 100
 MaxFactor: 5
 Class: 104
-Race: 101
+Race: 100
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -2218,7 +2218,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
-Race: 101
+Race: 100
 Height: 30
 Weight: 50
 Special_Bitvector: C3 
@@ -2274,7 +2274,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 100
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -2320,7 +2320,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 100
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -2366,7 +2366,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
-Race: 101
+Race: 100
 Height: 30
 Weight: 50
 Special_Bitvector: j0 
@@ -2415,7 +2415,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
-Race: 101
+Race: 100
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1d1 
@@ -2513,7 +2513,7 @@ Cha: 36
 Size: 100
 LikeWork: 100
 Class: 101
-Race: 112
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: g0 
@@ -2549,7 +2549,7 @@ Cha: 3
 Size: 20
 LikeWork: 100
 Class: 101
-Race: 110
+Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
@@ -2583,7 +2583,7 @@ Size: 20
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 110
+Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
@@ -2617,7 +2617,7 @@ Cha: 3
 Size: 20
 LikeWork: 100
 Class: 101
-Race: 110
+Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
@@ -2653,7 +2653,7 @@ Cha: 3
 Size: 20
 LikeWork: 100
 Class: 101
-Race: 110
+Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
@@ -2702,7 +2702,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 3
 Class: 104
-Race: 103
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: x0C3 
@@ -2752,7 +2752,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
-Race: 103
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: x0C3 
@@ -2801,7 +2801,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 4
 Class: 104
-Race: 
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: x0C3 
@@ -2849,7 +2849,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 5
 Class: 104
-Race: 
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: x0C3 
@@ -2904,7 +2904,7 @@ Con: 30
 Cha: 3
 Size: 48
 Class: 100
-Race: 101
+Race: 100
 Height: 100
 Weight: 100
 Special_Bitvector: 0 
@@ -2918,13 +2918,13 @@ E
 старого мятельника~
 старым мятельником~
 старом мятельнике~
-Седой лучник Олфер следит за сохранностью имущества.
+Старый мятельник следит за сохранностью имущества.
 ~
 Низенький плотный старичок с морщинистым лицом и остатками седых волос 
 на макушке. Его забота - следить чтобы не завелась в мягкой рухляди и прочем
 добре моль да гниль.
 ~
-b0d0n0o0B0f2 d0f0k0 200 E
+b0d0n0o0B0f2u2 d0f0k0 200 E
 30 -1 0 1d100+600 5d5+5
 0d0+500000 0
 8 8 1
@@ -2938,7 +2938,7 @@ Size: 50
 LikeWork: 1
 ExtraAttack: 1
 Class: 100
-Race: 101
+Race: 100
 Height: 168
 Weight: 150
 Special_Bitvector: 0 

@@ -22,7 +22,6 @@ Con: 3
 Cha: 10
 Size: 30
 Class: 100
-Race: 100
 Height: 150
 Weight: 150
 Special_Bitvector: 0 
@@ -52,7 +51,6 @@ Con: 3
 Cha: 10
 Size: 40
 Class: 100
-Race: 100
 Height: 150
 Weight: 150
 Special_Bitvector: 0 
@@ -85,7 +83,6 @@ Cha: 10
 Size: 45
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 150
 Weight: 150
 Special_Bitvector: 0 
@@ -118,7 +115,6 @@ Cha: 10
 Size: 85
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 200
 Weight: 150
 Special_Bitvector: 0 
@@ -150,7 +146,6 @@ Cha: 14
 Size: 30
 ExtraAttack: 1
 Class: 101
-Race: 100
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
@@ -186,7 +181,6 @@ Cha: 30
 Size: 40
 LikeWork: 20
 Class: 101
-Race: 100
 Height: 50
 Weight: 60
 Special_Bitvector: 0 
@@ -209,7 +203,7 @@ E
 сил потратил, совершенствуя свое ремесло, и вот Вам и выпала доля
 проверить это.
 ~
-b0d0g0n0B0u2 d0f0k0 0 E
+b0d0g0B0 d0f0k0 0 E
 11 1 -10 30d30+930 10d10+0
 0d0+0 0
 8 8 1
@@ -220,7 +214,6 @@ Cha: 5
 Size: 70
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: a0b0c0d0e0f0 
@@ -250,8 +243,6 @@ Con: 40
 Cha: 40
 Size: 40
 ExtraAttack: 2
-Class: 100
-Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: l0A0B0b1c1m3B3C3 
@@ -498,7 +489,6 @@ Cha: 22
 Size: 65
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 200
 Weight: 150
 Special_Bitvector: l0 
@@ -532,7 +522,6 @@ Dex: 15
 Con: 50
 Size: 30
 Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1 
@@ -556,29 +545,6 @@ Skill: 136 200
 Skill: 154 200
 Skill: 155 200
 E
-#110
-неоконченный моб~
-неоконченный моб~
-неоконченного моба~
-неоконченному мобу~
-неоконченного моба~
-неоконченным мобом~
-неоконченном мобе~
-Неоконченный моб стоит тут.
-~
-Выглядит достаточно незавершенно.
-~
-d0 0 0 E
-1 20 0 1d100+1 1d1+0
-0d0+0 0
-8 8 1
-Size: 30
-Class: 100
-Race: 100
-Height: 198
-Weight: 200
-Special_Bitvector: 0 
-E
 #111
 старик дед разсказчик сказочник~
 старик сказочник~
@@ -597,8 +563,6 @@ b0d0 0 0 E
 0d0+0 0
 8 8 1
 Size: 30
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -659,7 +623,6 @@ Con: 50
 Cha: 50
 Size: 10
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: h0i0a1 
@@ -2382,8 +2345,6 @@ d0e0p0q0s0b1t1i2l2 x0D0d1 0 E
 BareHandAttack: 14
 Str: 35
 Size: 100
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -2408,8 +2369,6 @@ b0d0g0B0 0 1 E
 0d0+1 0
 5 5 1
 Size: 30
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -2433,8 +2392,6 @@ b0d0B0 0 0 E
 0d0+0 0
 8 8 1
 Size: 30
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -2465,8 +2422,6 @@ Con: 35
 Cha: 35
 Size: 100
 ExtraAttack: 2
-Class: 100
-Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: p0 
@@ -2492,7 +2447,7 @@ E
 Наверное, беглый раб
 ~
 b0d0e0t0y0r1f2g2i2 d0f0k0s0z0A0m1p1t1 0 E
-25 -30 -1 10d100+4000 30d10+50
+30 -30 -1 10d100+4000 30d10+50
 0d0+0 100000
 8 8 1
 Str: 25
@@ -2503,8 +2458,6 @@ Con: 45
 Cha: 40
 Size: 60
 ExtraAttack: 1
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: p0 
@@ -2598,8 +2551,6 @@ d0 0 0 E
 8 8 0
 Con: 3
 Size: 30
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -2642,8 +2593,6 @@ d0 0 0 E
 0d0+0 0
 6 8 2
 Size: 30
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -2664,7 +2613,7 @@ E
 пламенем.
 ~
 a0b0d0l0r0t0A0f2h2i2 k0t1x1y1 1 E
-25 -30 3 30d400+10 20d15+20
+36 -30 3 30d400+10 20d15+20
 0d0+5000 100000
 8 8 2
 BareHandAttack: 12
@@ -2676,8 +2625,6 @@ Con: 30
 Cha: 30
 Size: 50
 ExtraAttack: 2
-Class: 100
-Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: m3p3 
@@ -2836,8 +2783,6 @@ Cha: 50
 Size: 100
 LikeWork: 100
 ExtraAttack: 3
-Class: 100
-Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: 0 
@@ -2904,8 +2849,6 @@ Cha: 50
 Size: 30
 LikeWork: 100
 ExtraAttack: 1
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -2985,8 +2928,6 @@ Wis: 22
 Con: 18
 Size: 30
 ExtraAttack: 1
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -3012,8 +2953,6 @@ Str: 25
 Dex: 30
 Con: 25
 Size: 30
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -3091,8 +3030,6 @@ d0o1 d0f0k0x0D0 0 E
 BareHandAttack: 15
 Int: 4
 Size: 30
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
@@ -3126,8 +3063,6 @@ Con: 32
 Size: 30
 LikeWork: 70
 ExtraAttack: 1
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: h0j0 
@@ -3294,8 +3229,6 @@ Con: 36
 Cha: 3
 Size: 70
 ExtraAttack: 2
-Class: 100
-Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: l0u0x0 
@@ -3360,8 +3293,6 @@ b0d0B0 d0f0 1 E
 0d0+0 0
 8 8 2
 Size: 30
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: a0b0c0d0e0f0 
@@ -3381,7 +3312,7 @@ E
 тело
 ~
 d0e0f0n0p0r0t0x0y0b1 c0d0f0k0x0m1 1 E
-28 -30 -5 30d1000+0 30d127+50
+33 -30 -5 30d1000+0 30d127+50
 0d0+999999 150000
 8 8 1
 BareHandAttack: 2
@@ -3393,8 +3324,6 @@ Con: 25
 Cha: 3
 Size: 50
 ExtraAttack: 5
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: l0u0 

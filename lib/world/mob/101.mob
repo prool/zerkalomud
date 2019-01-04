@@ -14,7 +14,7 @@
 с уверенностью сжимает в руках свое оружие и полна готовности сразиться с вами.
 ~
 b0c0d0f0n0o0r0t0A0 k0r0 -600 E
-25 3 -8 20d20+1000 8d3+10
+28 3 -8 20d20+1000 8d3+10
 10d15+200 150000
 8 8 2
 Str: 20
@@ -27,6 +27,7 @@ LikeWork: 70
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -65,7 +66,7 @@ T 10100
 дерева и самоцветных каменьев.
 ~
 b0d0f0g0n0o0 d0f0k0 -600 E
-20 5 -3 20d10+600 5d3+20
+24 5 -3 20d10+600 5d3+20
 0d0+0 80000
 8 8 1
 BareHandAttack: 8
@@ -79,6 +80,7 @@ LikeWork: 70
 MaxFactor: 10
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -112,7 +114,7 @@ T 10107
 злобна и гневна невиданно. 
 ~
 b0c0d0f0g0l0A0 k0 -600 E
-22 4 -6 20d15+700 5d4+10
+27 4 -6 20d15+700 5d4+10
 15d12+100 120000
 8 8 2
 Str: 18
@@ -125,11 +127,12 @@ LikeWork: 60
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 132 50
-Skill: 136 100
+Skill: 136 66
 Skill: 157 50
 Spell: 26
 Spell: 26
@@ -145,7 +148,6 @@ Spell: 82
 Spell: 82
 Spell: 82
 Helper: 10111
-Skill: 136 66
 E
 T 10101
 #10103
@@ -163,7 +165,7 @@ T 10101
 горячая-южная.
 ~
 b0c0d0f0g0n0o0 d0f0k0 -600 E
-20 4 -4 15d20+600 5d3+10
+25 4 -4 15d20+600 5d3+10
 10d10+100 100000
 8 8 2
 Str: 18
@@ -176,10 +178,11 @@ LikeWork: 50
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
-Skill: 136 80
+Skill: 136 60
 Skill: 157 50
 Spell: 28
 Spell: 28
@@ -194,7 +197,6 @@ Spell: 69
 Spell: 69
 Spell: 69
 Helper: 10110
-Skill: 136 60
 E
 T 10102
 #10104
@@ -210,7 +212,7 @@ T 10102
 Молод и залихваст орлик сизокрылый, полно отваги
 его сердце, как душа полна злобой и златолюбием.~
 c0d0g0h0j0m0o0A0 0 -600 E
-16 6 -4 20d10+350 10d2+5
+21 6 -4 20d10+350 10d2+5
 5d10+10 50000
 8 8 1
 BareHandAttack: 11
@@ -224,6 +226,7 @@ LikeWork: 30
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 
@@ -248,7 +251,7 @@ T 10104
 и седой бороденкой.
 ~
 b0c0d0f0g0m0o0A0 k0 -600 E
-18 2 -2 15d10+450 10d3+10
+23 2 -2 15d10+450 10d3+10
 5d10+50 75000
 5 5 1
 BareHandAttack: 5
@@ -262,6 +265,7 @@ LikeWork: 60
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: k0b1c1 
@@ -286,7 +290,7 @@ T 10103
 таким и можно поручить наследие Соловьево.
 ~
 c0d0g0m0n0o0A0 k0 -600 E
-22 5 -8 25d10+750 8d3+10
+25 5 -8 25d10+750 8d3+10
 10d3+100 100000
 8 8 2
 BareHandAttack: 2
@@ -300,6 +304,7 @@ LikeWork: 55
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -331,7 +336,7 @@ T 10105
 и не только "потреб".
 ~
 c0d0g0h0m0o0A0 0 0 E
-15 5 0 20d10+350 5d3+5
+21 5 0 20d10+350 5d3+5
 2d10+10 50000
 8 8 2
 Str: 18
@@ -344,6 +349,7 @@ LikeWork: 30
 MaxFactor: 25
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: a1c1 
@@ -379,7 +385,8 @@ Int: 10
 Wis: 10
 Con: 10
 Cha: 10
-Class: 116
+Class: 107
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -408,12 +415,14 @@ Int: 10
 Wis: 10
 Con: 10
 Size: 30
-Class: 116
+Class: 107
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 136 3
 E
+T 10110
 #10110
 старая нянька~
 старая нянька~
@@ -428,7 +437,7 @@ E
 таким и можно поручить наследие Соловьево.
 ~
 c0d0g0m0n0o0A0 k0 -600 E
-22 5 -8 25d10+750 8d3+10
+25 5 -8 25d10+750 8d3+10
 3d20+100 100000
 8 8 2
 BareHandAttack: 2
@@ -442,6 +451,7 @@ LikeWork: 55
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -468,7 +478,7 @@ T 10105
 таким и можно поручить наследие Соловьево.
 ~
 c0d0g0m0n0o0A0 k0 -600 E
-22 5 -8 25d10+750 8d3+10
+25 5 -8 25d10+750 8d3+10
 3d20+100 100000
 8 8 2
 BareHandAttack: 2
@@ -482,6 +492,7 @@ LikeWork: 55
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -508,7 +519,7 @@ T 10105
 а руки у него то ли в грязи, то ли в крови испачканы.
 ~
 b0c0d0f0g0m0o0A0 k0 -600 E
-19 2 -6 15d10+550 10d3+10
+24 2 -6 15d10+550 10d3+10
 5d10+60 80000
 8 8 1
 BareHandAttack: 5
@@ -522,6 +533,7 @@ LikeWork: 65
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: k0b1c1 

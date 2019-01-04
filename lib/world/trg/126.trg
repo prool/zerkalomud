@@ -16,12 +16,12 @@ wsend %actor.name% Вы очутились у портала на арену.
 wait 1
 if %actor.name%==Делан
   аплодисмент %actor.name%
-elseif %actor.clan%==нд && %actor.clanrank% < 6
+elseif %actor.clan%==НД && %actor.clanrank%>5
   поклон %actor.name%
 end
 tell %actor.name% Приветствую тебя %actor.name%!
 tell %actor.name% Чтобы попасть на арену напиши "&Rарена&C".&n
-if %actor.clan%==нд && %actor.clanrank% < 4
+if %actor.clan%==НД && %actor.clanrank%>3
   tell %actor.name% Если хочешь, чтобы я кого-нибудь привел на арену скажи "&Rда&C".&n
   tell %actor.name% Если хочешь, чтобы я убрал мобов с арены скажи "&Rубрать&C".&n
 end
@@ -31,7 +31,7 @@ end
 1 c 2
 разрешить~
 wait 1
-if %actor.clan%==нд && actor.clanrank < 4
+if %actor.clan%==нд && actor.clanrank>3
   osend %actor.name% Вы разрешили использовать %self.vname% посторонним.
   detach 12613 %self.id%
   detach 12602 %self.id%
@@ -76,7 +76,7 @@ end
 0 d 1
 *~
 wait 1
-if %actor.vnum% != -1 || %actor.clan%!=нд || %actor.clanrank% > 3
+if %actor.vnum% != -1 || %actor.clan%!=НД || %actor.clanrank<4
   halt
 end
 switch %speech%
@@ -245,19 +245,19 @@ wsend %actor.name% Набравшись смелости, Вы шагнули в огненный круг.
 wait 1
 switch %random.4%
   case 1
-    wteleport %actor% 12604 horse
+    wteleport %actor.name% 12604
     wat 12604 %echoaround% %actor% %actor.name% появил%actor.u% из ниоткуда.
   break
   case 2
-    wteleport %actor% 12624 horse
+    wteleport %actor.name% 12624
     wat 12624 %echoaround% %actor% %actor.name% появил%actor.u% из ниоткуда.
   break
   case 3
-    wteleport %actor% 12646 horse
+    wteleport %actor.name% 12646
     wat 12646 %echoaround% %actor% %actor.name% появил%actor.u% из ниоткуда.
   break
   default
-    wteleport %actor% 12656 horse
+    wteleport %actor.name% 12656
     wat 12656 %echoaround% %actor% %actor.name% появил%actor.u% из ниоткуда.
   break
 done
@@ -726,7 +726,6 @@ end
 0 c 1
 закупка~
 wait 1
-* if %arc.contains(закупка)%
 if %actor.clan%!=нд
   msend %actor.name% Совершай покупки в другом месте!
   halt
@@ -776,7 +775,6 @@ mload obj 142
 * факел = 10 кун
 mload obj 12620 
 give all %actor.name%
-*end
 ~
 #12624
 боевой тригг бури-яги~
@@ -928,22 +926,5 @@ if (%cmd.mudcommand% == читать || %cmd.mudcommand% == read)
   end
 end
 return 0
-~
-#12632
-поиск НД~
-1 c 3
-разыскать~
-wait 1
-if %actor.clan% == нд && %actor.clanrank% < 4
-  set ndmember %arg%
-  if %ndmember.clan% == нд
-    set memberlocation %ndmember.realroom%
-    if %ndmember.rentable%
-      osend %actor% %ndmember.name% %ndmember.hitp%/%ndmember.maxhitp%H %ndmember.move%/%ndmember.maxmove%M %ndmember.level%L находится: %memberlocation.name%
-    else
-      osend %actor% %ndmember.name% %ndmember.hitp%/%ndmember.maxhitp%H %ndmember.move%/%ndmember.maxmove%M %ndmember.level%L [БД!] находится: %memberlocation.name%
-    end
-  end
-end
 ~
 $~

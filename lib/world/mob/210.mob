@@ -8,8 +8,7 @@
 злом колдуне~
 Злой колдун в черной мантии стоит здесь.
 ~
-undefined
-~
+undefined~
 b0d0e0g0n0o0x0z0B0o1f2 d0f0k0 -600 E
 15 3 4 1d1+1000 1d2+10
 5d5+8000 0
@@ -24,7 +23,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 30
 Weight: 56
 Special_Bitvector: 0 
@@ -40,9 +38,8 @@ E
 старом мертвяке~
 Старый мертвяк с огромной связкой ключей у пояса охраняет покой склепа.
 ~
-undefined
-~
-b0d0e0g0n0o0p0q0r0t0u0x0z0B0b1o1f2u2 d0f0h0k0 -600 E
+undefined~
+b0d0e0g0n0o0p0q0r0t0u0x0z0B0b1o1f2 d0f0h0k0 -600 E
 25 1 -3 3d3+1000 2d3+12
 0d0+0 0
 8 8 1
@@ -56,7 +53,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 110
 Height: 30
 Weight: 80
 Special_Bitvector: 0 
@@ -72,8 +68,7 @@ E
 огромном костяном драконе~
 Огромный костяной дракон злобно посматривает на Вас.
 ~
-undefined
-~
+undefined~
 b0d0e0g0n0o0r0u0x0z0B0a1b1o1f2 d0f0h0k0 -600 E
 24 3 -3 1d1+1000 3d3+5
 0d0+0 0
@@ -88,7 +83,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 105
 Height: 30
 Weight: 55
 Special_Bitvector: 0 
@@ -105,8 +99,7 @@ T 21005
 скелет-оружейнике~
 Лихой скелет-оружейник предлагает вам оружие.
 ~
-undefined
-~
+undefined~
 b0d0e0g0n0o0p0r0t0x0z0B0b1o1f2 d0f0h0k0C0 -600 E
 25 4 -3 0d0+1000 3d4+10
 0d0+8000 0
@@ -121,7 +114,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 110
 Height: 30
 Weight: 90
 Special_Bitvector: 0 
@@ -137,8 +129,7 @@ E
 мертвяк-пекаре~
 Гнилой мертвяк-пекарь обсыпанный мукой выпекает снедь. 
 ~
-undefined
-~
+undefined~
 b0d0e0g0n0o0p0r0t0u0x0z0B0b1o1f2 d0f0h0k0 -600 E
 23 4 4 0d0+1000 2d3+7
 0d0+1000 0
@@ -153,7 +144,6 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 101
-Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -169,8 +159,7 @@ E
 служителе тьмы~
 Служитель тьмы с выпавшими глазницами молится своим темным богам.
 ~
-undefined
-~
+undefined~
 b0d0e0g0n0o0p0u0x0z0B0b1o1f2 d0f0k0r0 -600 E
 24 6 5 0d0+1000 1d1+5
 0d0+0 0
@@ -185,7 +174,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 110
 Height: 30
 Weight: 90
 Special_Bitvector: 0 
@@ -202,8 +190,7 @@ T 21019
 маленьком скелете~
 Маленький скелет в кожаной куртке пересчитывает монеты.
 ~
-undefined
-~
+undefined~
 b0d0g0n0o0p0r0t0x0z0B0b1o1f2 d0f0k0r0 -600 E
 21 7 5 0d0+1000 3d3+2
 0d0+0 0
@@ -218,7 +205,6 @@ Size: 99
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -234,8 +220,7 @@ E
 хозяине погреба~
 Большой мужичок с красным лицом пробует свое вино.
 ~
-undefined
-~
+undefined~
 b0d0g0n0o0x0z0B0o1f2 d0f0k0 -600 E
 23 5 4 0d0+1000 3d3+4
 0d0+0 0
@@ -250,7 +235,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 30
 Weight: 100
 Special_Bitvector: 0 
@@ -283,7 +267,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 110
 Height: 30
 Weight: 87
 Special_Bitvector: 0 
@@ -312,8 +295,7 @@ T 21016
 страшном мертвяке~
 Страшный мертвяк гремит здесь своими цепями.
 ~
-undefined
-~
+undefined~
 d0g0n0o0p0r0t0x0z0b1f2 c0d0e0f0k0r0x0 -600 E
 25 3 0 100d100+800 6d9+18
 0d0+0 0
@@ -336,7 +318,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 110
 Height: 30
 Weight: 100
 Special_Bitvector: l0 
@@ -353,8 +334,7 @@ E
 умертвии десятника~
 Умертвие десятника неторопливо пролетает здесь.
 ~
-undefined
-~
+undefined~
 d0g0n0o0p0r0u0x0z0b1f2 c0d0e0f0k0 -600 E
 26 2 -3 0d0+3000 7d6+13
 0d0+0 0
@@ -375,7 +355,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 110
 Height: 30
 Weight: 90
 Special_Bitvector: l0 
@@ -393,8 +372,7 @@ T 21001
 упыренке~
 Молодой упыренок с длинным хвостом бегает по замку.
 ~
-undefined
-~
+undefined~
 b0d0g0n0o0u0x0z0b1f2 d0k0C0 -600 E
 26 10 4 6d9+800 1d1+3
 0d0+0 0
@@ -409,7 +387,6 @@ Size: 90
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
-Race: 112
 Height: 30
 Weight: 70
 Special_Bitvector: p0c1 
@@ -426,8 +403,7 @@ E
 злом цербере~
 Злой цербер оскалил зубы, посмотрев на Вас.
 ~
-undefined
-~
+undefined~
 b0d0g0n0o0x0z0b1f2 d0k0 -600 E
 25 5 -3 0d0+900 1d1+5
 0d0+0 0
@@ -442,7 +418,6 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
-Race: 104
 Height: 30
 Weight: 78
 Special_Bitvector: c1 
@@ -460,8 +435,7 @@ T 21012
 скелете~
 Скелет внимательно следит за Вами.
 ~
-undefined
-~
+undefined~
 d0g0n0o0z0f2 c0d0e0f0k0r0 -600 E
 23 5 6 0d0+700 2d1+2
 0d0+0 0
@@ -480,7 +454,6 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 101
-Race: 110
 Height: 30
 Weight: 90
 Special_Bitvector: p0 
@@ -498,8 +471,7 @@ T 21009
 ожившем мертвеце~
 Старательный помощник скелета занят делом.
 ~
-undefined
-~
+undefined~
 d0g0n0o0x0z0f2 d0k0r0 -600 E
 20 7 3 0d0+350 1d1+2
 0d0+0 0
@@ -514,7 +486,6 @@ Size: 96
 LikeWork: 60
 ExtraAttack: 1
 Class: 101
-Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
@@ -530,8 +501,7 @@ E
 костяном псе~
 Костяной пес стоит здесь, воняя гниющим мясом.
 ~
-undefined
-~
+undefined~
 b0d0n0o0p0r0s0t0u0x0z0a1f2 d0f0k0D0a1k1 -600 E
 20 4 0 0d0+500 7d2+12
 0d0+0 0
@@ -546,7 +516,6 @@ Cha: 12
 Size: 30
 ExtraAttack: 2
 Class: 101
-Race: 110
 Height: 180
 Weight: 150
 Special_Bitvector: p0 
@@ -579,7 +548,6 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
-Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -614,7 +582,6 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
-Race: 109
 Height: 30
 Weight: 90
 Special_Bitvector: 0 
@@ -642,8 +609,7 @@ T 21003
 большом дозорном скелете~
 Дозорный скелет спрятался в кустах.
 ~
-undefined
-~
+undefined~
 b0d0e0g0l0m0o0p0q0r0t0u0z0r1f2i2 d0f0k0t0z0C0 -600 E
 30 1 -5 10d10+12000 14d9+20
 0d0+0 0
@@ -657,7 +623,6 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 101
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -691,7 +656,6 @@ Cha: 12
 Size: 100
 ExtraAttack: 1
 Class: 101
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -725,14 +689,13 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 101
-Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 136 60
 E
 #21021
-Мелкий дозорный скелет~
+Средний Дозорный Скелет~
 мелкий дозорный скелет~
 мелкого дозорного скелета~
 мелкому дозорному скелету~
@@ -743,7 +706,7 @@ E
 ~
 
 ~
-b0d0e0g0n0o0p0q0r0t0u0z0r1f2g2i2 b0d0f0k0j1n1 -600 E
+b0d0e0g0l0m0n0o0p0q0r0t0u0z0r1f2g2i2 b0d0f0k0j1 -600 E
 30 1 -7 10d10+8000 14d11+20
 0d0+0 0
 8 8 1
@@ -756,7 +719,6 @@ Cha: 12
 Size: 100
 ExtraAttack: 1
 Class: 101
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -764,5 +726,5 @@ Skill: 4 120
 Skill: 136 110
 Skill: 157 110
 E
-T 21049
+T 21017
 $

@@ -145,11 +145,8 @@ detach 10109 %self.id%
 ~
 #10110
 <101 - PC enter to temnica when Merchant~
-0 h 100
+0 i 100
 ~
-if %actor.id% != %Hero.id%
-  halt
-end
 wait 1s
 if !%self.fighting%
   mecho - Спасибо, что освободил%actor.g% меня, %actor.name%.

@@ -10,7 +10,7 @@
 ~
 Дружинник, нанятый воеводой для охраны замка.
 ~
-b0d0g0B0f2 d0f0k0 1 E
+b0d0g0f2 d0f0k0 1 E
 30 0 -3 100d7+10000 2d2+2
 0d0+0 0
 8 8 1
@@ -23,7 +23,6 @@ Cha: 12
 Size: 60
 ExtraAttack: 3
 Class: 100
-Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -57,7 +56,6 @@ Cha: 12
 Size: 50
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -88,7 +86,6 @@ Cha: 12
 Size: 60
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -121,7 +118,6 @@ Cha: 20
 Size: 60
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -153,7 +149,6 @@ Cha: 20
 Size: 60
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -179,7 +174,6 @@ Str: 36
 Dex: 36
 Size: 31
 Class: 100
-Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -204,7 +198,6 @@ b0d0g0B0f2 d0f0k0 0 E
 8 8 1
 Size: 31
 Class: 100
-Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -228,7 +221,6 @@ b0d0g0B0f2 d0f0k0 0 E
 8 8 1
 Size: 31
 Class: 100
-Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -252,7 +244,6 @@ b0d0g0B0f2 d0f0k0 0 E
 8 8 1
 Size: 31
 Class: 100
-Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -276,7 +267,6 @@ b0d0g0B0f2 d0f0k0 0 E
 8 8 1
 Size: 31
 Class: 100
-Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -294,13 +284,12 @@ E
 ~
 Милая девушка, очаровавшая воеводу своим доброжелательным видом.
 ~
-b0d0g0n0B0f2u2 d0f0k0 0 E
+b0d0g0B0f2 d0f0k0 0 E
 1 20 10 5d3+5 1d3+0
 0d0+0 30
 8 8 2
 Size: 31
 Class: 100
-Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -324,7 +313,6 @@ b0d0g0f2 0 1 E
 8 8 1
 Size: 31
 Class: 100
-Race: 109
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -377,53 +365,12 @@ Con: 12
 Cha: 12
 Size: 100
 ExtraAttack: 1
-Class: 100
-Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 136 60
 E
 T 71305
-#71313
-кожаное чучело~
-кожаное чучело~
-кожаного чучела~
-кожаному чучелу~
-кожаное чучело~
-кожаным чучелом~
-кожаном чучеле~
-Потрепаное кожаное чучело для отработки ударов укреплено на столбе.
-~
-Кожаное чучело, покрытое швами и рубцами, и набитое
-внутри всяческим хламом и тряпками.
-Ходят слухи, что некоторые ратники находят ему нестандартное применение.
-~
-b0d0n0o0z0u2 0 -600 E
-30 20 -2 1d100+15000 4d3+4
-0d0+0 0
-8 8 0
-Str: 30
-Dex: 15
-Int: 30
-Wis: 20
-Con: 40
-Cha: 15
-Size: 30
-LikeWork: 75
-ExtraAttack: 3
-Class: 102
-Race: 109
-Height: 198
-Weight: 1
-Special_Bitvector: 0 
-Skill: 150 150
-Spell: 172
-Spell: 172
-Spell: 172
-Spell: 172
-Spell: 172
-E
 #71399
 грум~
 грум~
@@ -446,8 +393,6 @@ Dex: 21
 Con: 23
 Size: 30
 ExtraAttack: 1
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

@@ -42,7 +42,7 @@ say не бейте меня! У меня ничего нету!
 ~
 wait 1
 ухм %actor.name%
-say Попробуй мое адское зелье, злой колдун говорит что после него ты станешь злее!
+say Попробуй мое адское зелье, злой колдун говорит что после него ты станешь более злее!
 хих
 ~
 #21005
@@ -196,7 +196,7 @@ wait 1s
 wsend %actor% .- Вы спустились в канализацию.
 wteleport %actor% 21035
 %actor.wait(1)%
-wechoaround %actor% %actor.name% спрыгнул%actor.q% сюда сверху.
+wechoaround %actor% Кто-то спустился сюда сверху.
 ~
 #21012
 триг цербера~
@@ -218,7 +218,7 @@ if !%arg.contains(земля)%
 end
 if (!%actor.rentable% && !%actor.fighting% && (%actor.clan% == вс ))
   wsend %actor%  Вы закопались под землю.
-  wechoaround %actor% %actor.name% скрылся под землей.
+  wechoaround %actor% %actor.name% скрывся под землей.
   switch %random.5%
     case 5
       wteleport %actor% 21046
@@ -238,18 +238,23 @@ if (!%actor.rentable% && !%actor.fighting% && (%actor.clan% == вс ))
   done
   wechoaround %actor% %actor.name% выполз откуда-то снизу.
   halt
-elseif (%actor.rentable% && !%actor.fighting% && (%actor.clan% == вс )) 
+elseif %actor.clan% == вс
+  wsend %actor%  Вы закопались под землю.
+  wechoaround %actor% %actor.name% скрывся под землей.
   wteleport %actor% 21017
-  wechoaround %actor% %actor.name% выполз откуда-то снизу.
+  wechoaround %actor% %actor.name% выполз откуда-то снизу. 
+  return 0
   halt
+end
 else
-  wsend %actor% Чаво? 
+wsend %actor% Чаво? 
 end
 ~
 #21014
 орет большой дозорный~
 0 r 100
 ~
+wait 1
 if %actor.clan% == вс
   wait 3
   mecho Большой Дозорный Скелет подтянувся и встал в стойку &K"Смирно"&n.
@@ -344,6 +349,7 @@ switch %num%
 орет средний~
 0 r 100
 ~
+wait 1
 if %actor.clan% == вс
   wait 3
   mecho Средний Дозорный Скелет подтянувся и встал в стойку &K"Смирно"&n.
@@ -438,7 +444,7 @@ done
 #21023
 снимание трига~
 2 c 0
-поднять~
+наступить камень~
 wait 1
 if (%actor.vnum% != -1)
   return 0
@@ -521,7 +527,7 @@ wechoaround %actor.name% с криками упал%actor.u% сверху.
 #21028
 снятие ловушки2~
 2 c 1
-надавить~
+отодвинуть~
 wait 1
 if (%actor.vnum% != -1)
   return 0
@@ -562,7 +568,7 @@ wsend %actor% Вы попробовали дать что-то, но Вам не захотелось с этим расставать
 #21032
 запутывание в лабиринте3~
 2 c 1
-ог огл огля огляд огляде оглядет оглядеть оглядетьс оглядеться оглядеться! см смо смот смотр смотре смотрет смотреть смотреть!~
+ог огл огля огляд огляде оглядет оглядеть оглядетьс оглядеться оглядеться!~
 wsend %actor% Вы посмотрели по сторонам.
 wsend %actor% &yСевер:&n Лабиринт
 wsend %actor% &yВосток:&n Лабиринт
@@ -781,48 +787,5 @@ wechoaround %actor% %actor.name% ушел на арену.
 wsend %actor.name% &WВы пошли на арену.&n
 wteleport %actor% 21004
 wechoaround %actor% %actor.name% пришел с юга.
-~
-#21045
-скелет угорает~
-0 c 1
-iGyvgsifbusfgousv~
-say Пнх
-~
-#21046
-вход на арену2~
-1 c 1
-итем~
-osend %actor% А по мозгам хошь? Ну считай уже получил.
-log &G%actor.name%  - ЧИТИТ с тригом на определение ЧИСЛА ПРЕДМЕТОВ В МИРЕ!!!&n
-~
-#21047
-пурж шмоток~
-2 z 0
-~
-wait 1
-%purge%
-wait 1
-wecho Комната осветилась ярким пламенем и смела все на своем пути.
-~
-#21048
-пурж2~
-2 cz 0
-убрать~
-wait 1s
-%echo% Неизвестно откуда взявшаяся волна, смела все на своем пути!
-%purge%
-~
-#21049
-Мелкий дозорный орет~
-0 r 100
-~
-if %direction% == west  
-  if %actor.clan% == вс
-    wait 3
-    mecho Мелкий Дозорный Скелет подтянулся и встал в стойку "Смирно".
-  else
-    крич %actor.iname% совсем рядом!
-  end
-end
 ~
 $~

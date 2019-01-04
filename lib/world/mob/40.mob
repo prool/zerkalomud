@@ -25,6 +25,7 @@ Size: 30
 LikeWork: 90
 ExtraAttack: 1
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -55,6 +56,7 @@ Con: 20
 Cha: 20
 Size: 30
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -86,6 +88,7 @@ Size: 30
 LikeWork: 50
 MaxFactor: 10
 Class: 102
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -106,7 +109,7 @@ T 4003
 От постоянной тяжелой работы тело
 его окрепло и огрубело.
 ~
-b0d0n0o0p0B0 0 600 E
+b0d0n0o0p0B0u2 0 600 E
 20 8 0 10d10+400 3d3+10
 10d10+100 0
 8 8 1
@@ -121,6 +124,7 @@ Size: 30
 LikeWork: 70
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -151,6 +155,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -183,6 +188,7 @@ Size: 30
 LikeWork: 70
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -213,6 +219,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -243,6 +250,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -273,6 +281,7 @@ Cha: 25
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -291,7 +300,7 @@ E
 Крепкий мужик, не дурак выпить.
 С удовольствием за хорошие деньги угостит любого.
 ~
-b0d0n0o0p0B0 0 600 E
+b0d0n0o0p0B0u2 0 600 E
 15 5 5 10d10+500 3d3+10
 10d10+200 0
 6 6 1
@@ -304,6 +313,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -323,7 +333,7 @@ E
 уже человек, не разбирая дороги.
 ~
 d0g0n0o0p0f2 0 0 E
-5 20 10 5d5+100 1d3+3
+3 20 10 5d5+100 1d3+3
 1d2+0 350
 8 8 1
 Str: 15
@@ -335,6 +345,7 @@ Cha: 3
 Size: 30
 MaxFactor: 10
 Class: 102
+Race: 100
 Height: 170
 Weight: 120
 Special_Bitvector: y0 
@@ -365,6 +376,7 @@ Cha: 15
 Size: 50
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -396,6 +408,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -428,6 +441,7 @@ Size: 30
 LikeWork: 80
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -460,6 +474,7 @@ Size: 30
 LikeWork: 100
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -492,6 +507,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -511,7 +527,7 @@ E
 выводить на пастбище.
 ~
 b0d0n0o0B0 0 0 E
-1 20 10 5d5+20 1d2+1
+2 20 10 5d5+20 1d2+1
 0d0+0 200
 8 8 2
 Str: 10
@@ -523,6 +539,7 @@ Cha: 10
 Size: 15
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 110
 Weight: 50
 Special_Bitvector: 0 
@@ -541,7 +558,7 @@ E
 Рыжеватый ободранный пес.
 ~
 d0m0n0o0 y0 0 E
-5 18 10 5d5+40 1d3+2
+21 18 10 5d5+40 1d3+2
 0d0+0 50000
 8 8 1
 BareHandAttack: 4
@@ -554,6 +571,7 @@ Cha: 10
 Size: 15
 MaxFactor: 10
 Class: 101
+Race: 100
 Height: 80
 Weight: 25
 Special_Bitvector: 0 
@@ -585,6 +603,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 102
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -616,6 +635,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 102
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -648,6 +668,7 @@ Cha: 5
 Size: 1
 MaxFactor: 10
 Class: 103
+Race: 100
 Height: 1
 Weight: 1
 Special_Bitvector: g0 
@@ -666,7 +687,7 @@ E
 Обычная домовая мышь.
 ~
 d0g0n0p0i1f2 m1 0 E
-3 18 9 5d3+20 1d3+1
+1 18 9 5d3+20 1d3+1
 0d0+0 100
 8 8 2
 BareHandAttack: 4
@@ -679,6 +700,7 @@ Cha: 7
 Size: 3
 MaxFactor: 10
 Class: 103
+Race: 100
 Height: 4
 Weight: 1
 Special_Bitvector: i0 
@@ -697,7 +719,7 @@ I шерсть:5
 ~
 Крепкий мужчина с добродушным лицом.
 ~
-b0d0n0o0p0B0 d0e0f0k0D0 600 E
+b0d0n0o0p0B0u2 d0e0f0k0D0 600 E
 15 5 5 10d10+500 3d3+10
 10d10+200 0
 6 6 1
@@ -710,6 +732,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -740,6 +763,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -757,7 +781,7 @@ E
 ~
 Крепкий мужик, не дурак выпить.
 ~
-b0d0n0o0p0B0 0 600 E
+b0d0n0o0p0B0u2 0 600 E
 15 5 5 10d10+500 3d3+10
 10d10+200 0
 6 6 1
@@ -770,6 +794,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -787,7 +812,7 @@ E
 ~
 Местный самородок.
 ~
-b0d0n0o0p0B0 0 600 E
+b0d0n0o0p0B0u2 0 600 E
 15 5 5 10d10+500 3d3+10
 10d10+200 0
 6 6 1
@@ -800,6 +825,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -818,8 +844,8 @@ E
 Придет время и она, вместо своей матери начнет помогать людям в своих
 проблемах.
 ~
-b0d0g0n0 0 0 E
-1 15 0 30d30+50 5d5+0
+b0d0g0n0u2 0 0 E
+9 15 0 30d30+50 5d5+0
 0d0+0 4000
 8 8 2
 Str: 3
@@ -831,6 +857,7 @@ Cha: 3
 Size: 50
 LikeWork: 50
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -862,6 +889,7 @@ Con: 20
 Cha: 20
 Size: 30
 Class: 102
+Race: 100
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
@@ -886,6 +914,8 @@ d0 0 0 E
 0d0+0 0
 8 8 0
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -939,6 +969,7 @@ Size: 30
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -989,6 +1020,7 @@ Size: 40
 LikeWork: 30
 ExtraAttack: 1
 Class: 104
+Race: 100
 Height: 180
 Weight: 180
 Special_Bitvector: 0 
@@ -1013,7 +1045,7 @@ T 4007
 ~
 Деревенский парнишка - ученик скорняка.
 ~
-b0d0n0o0f2 d0f0k0 200 E
+b0d0n0o0f2u2 d0f0k0 200 E
 26 8 0 1d100+300 5d6+5
 0d0+50000 0
 8 8 1
@@ -1026,6 +1058,8 @@ Cha: 14
 Size: 45
 LikeWork: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 160
 Weight: 150
 Special_Bitvector: 0 
@@ -1043,7 +1077,7 @@ E
 ~
 Крепкий жилистый мужик, облаченный в отороченный мехом кафтан.
 ~
-b0d0n0o0B0 d0f0k0 200 E
+b0d0n0o0B0u2 d0f0k0 200 E
 30 -1 0 1d100+600 5d5+5
 0d0+500000 0
 8 8 1
@@ -1057,6 +1091,7 @@ Size: 50
 LikeWork: 1
 ExtraAttack: 1
 Class: 100
+Race: 100
 Height: 168
 Weight: 150
 Special_Bitvector: 0 
@@ -1088,6 +1123,7 @@ Size: 30
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1112,6 +1148,8 @@ b0d0g0n0o0B0 0 0 E
 0d0+0 0
 8 8 1
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

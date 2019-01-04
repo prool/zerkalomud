@@ -28,7 +28,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 103
-Race: 104
 Height: 175
 Weight: 100
 Special_Bitvector: g0i0j0p0m3C3 
@@ -59,17 +58,17 @@ E
 T 20902
 T 20963
 #20901
-воительница ники~
-воительница Ники~
-воительницы Ники~
-воительнице Ники~
-воительницу Ники~
-воительницей Ники~
-воительнице Ники~
+воительница~
+воительница~
+воительницы~
+воительнице~
+воительницу~
+воительницей~
+воительнице~
 Воительница Ники пристально смотрит на Вас.
 ~
 Это очень мощная и высокая девушка. На лице, несущем следы многих битв,
-выделяются яркие карие глаза. Кажется, что она видит Вас насквозь и спо-
+выделяются яркие карие глаза. Кажеться что она видит Вас насквозь и спо-
 собна сразу узнать ложь в человеке. При взгляде на мощные руки и просто
 громадные кулаки в богатырских перчатках понимаешь, что эту девушку луч-
 ше обойти самой дальней дорогой.
@@ -89,7 +88,6 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: g0b1c1m3C3 
@@ -97,7 +95,6 @@ Skill: 22 200
 Skill: 136 200
 E
 T 20901
-T 20932
 #20902
 кузнец~
 кузнец~
@@ -115,8 +112,8 @@ T 20932
 тех пор о нем ни слуду, ни духу.
 ~
 b0d0n0o0p0q0r0t0u0x0y0o1r1f2g2i2 d0f0k0 0 E
-34 0 0 10d150+0 5d5+5
-100d0+300000 10000
+30 0 0 10d150+0 5d5+5
+100d100+25000 10000
 8 8 1
 Str: 20
 Dex: 20
@@ -129,7 +126,6 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3m3 
@@ -148,13 +144,13 @@ T 20924
 Смешина, серая ведьма, мило улыбается Вам.
 ~
 Это очень высокая и худая женщина. Вам сразу бросается в глаза белизна ее
-кожи - кажется, что она почти прозрачна. Люди говорят, что Смешина исполь-
+кожи - кажеться что она почти прозрачна. Люди говорят, что Смешина исполь-
 зует свежую кровь чтобы сохранить свою красоту.  Правда это или нет - не-
 известно, но лучше все-таки держаться от нее подальше.
 ~
 b0d0e0g0n0o0p0q0r0t0u0x0y0z0o1r1f2g2i2 d0f0k0a1r1 0 E
 30 20 -10 100d100+500 5d5+5
-0d0+300000 10000
+0d0+0 10000
 8 8 2
 Str: 25
 Dex: 25
@@ -167,7 +163,6 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 105
-Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: i3m3 
@@ -203,7 +198,6 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1i3m3 
@@ -214,7 +208,6 @@ Skill: 157 100
 E
 T 20904
 T 20905
-T 20973
 #20905
 викинг~
 викинг~
@@ -246,7 +239,6 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 3
 Class: 104
-Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: g0b1c1C3 
@@ -289,9 +281,9 @@ T 20907
 ~
 Невысокий толстенький мужиченка всегда готов обслужить посетителя.
 ~
-b0d0g0n0o0o1f2 d0f0k0D0a1 0 E
+b0d0g0n0o0o1f2 d0f0k0 0 E
 34 10 0 100d100+1000 5d5+5
-0d0+300000 10000
+0d0+0 10000
 8 8 1
 Str: 25
 Dex: 25
@@ -303,7 +295,6 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 90
 Special_Bitvector: 0 
@@ -335,7 +326,6 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -356,7 +346,7 @@ T 20921
 всегда он был здесь. Напрасны попытки узнать его историю - только молчание
 ответ на все вопросы. Хотя можно попробовать попросить у него экипировку.
 ~
-b0d0g0n0o0f2u2 d0f0g0k0D0 0 E
+b0d0g0n0o0f2 d0f0g0k0 0 E
 35 0 0 10d10+2 0d0+0
 0d0+0 0
 8 8 1
@@ -369,14 +359,12 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 136 105
 E
 T 20931
-T 20974
 #20909
 волшебник~
 волшебник~
@@ -385,7 +373,7 @@ T 20974
 волшебника~
 волшебником~
 волшебнике~
-Мудрый Прокиус, серый волшебник, изучает какой-то свиток за столом.
+Мудрый Прокиус, серый вошебник, изучает какой-то свиток за столом.
 ~
 Пряди седины выглядывают из-под надвинутого на лоб капюшона.
 Яркие проблески глаз вспыхивают в сумерке скрывающем лицо и
@@ -412,7 +400,6 @@ LikeWork: 85
 MaxFactor: 17
 ExtraAttack: 1
 Class: 105
-Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -445,7 +432,6 @@ Con: 15
 Cha: 10
 Size: 100
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -483,7 +469,6 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -515,7 +500,6 @@ Con: 10
 Cha: 10
 Size: 100
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -547,7 +531,6 @@ Con: 10
 Cha: 10
 Size: 100
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -579,7 +562,6 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -611,7 +593,6 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -647,7 +628,6 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1i3m3 
@@ -680,7 +660,6 @@ Cha: 20
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1i3m3n3o3 
@@ -715,7 +694,6 @@ LikeWork: 80
 MaxFactor: 100
 ExtraAttack: 2
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: l0u0i3m3C3 
@@ -751,7 +729,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 9
 Class: 100
-Race: 109
 Height: 200
 Weight: 150
 Special_Bitvector: o0d3 
@@ -790,7 +767,6 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
-Race: 109
 Height: 175
 Weight: 130
 Special_Bitvector: 0 
@@ -830,7 +806,6 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 150
 Special_Bitvector: b1c1C3 
@@ -874,7 +849,6 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 130
 Special_Bitvector: b1c1 
@@ -950,7 +924,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 150
 Special_Bitvector: i3m3 
@@ -985,7 +958,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
-Race: 104
 Height: 100
 Weight: 100
 Special_Bitvector: 0 
@@ -1027,7 +999,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
-Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: g0 
@@ -1075,7 +1046,6 @@ Size: 70
 LikeWork: 20
 ExtraAttack: 2
 Class: 102
-Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
@@ -1113,7 +1083,6 @@ Size: 80
 LikeWork: 50
 ExtraAttack: 3
 Class: 102
-Race: 101
 Height: 199
 Weight: 100
 Special_Bitvector: b1c1 
@@ -1149,7 +1118,6 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 70
 Special_Bitvector: b1c1 
@@ -1188,7 +1156,6 @@ Cha: 25
 Size: 100
 LikeWork: 100
 Class: 105
-Race: 114
 Height: 180
 Weight: 85
 Special_Bitvector: 0 
@@ -1227,7 +1194,6 @@ Cha: 14
 Size: 50
 LikeWork: 80
 Class: 103
-Race: 104
 Height: 60
 Weight: 150
 Special_Bitvector: b0 
@@ -1265,7 +1231,6 @@ Cha: 15
 Size: 25
 LikeWork: 15
 Class: 103
-Race: 103
 Height: 50
 Weight: 80
 Special_Bitvector: l0 

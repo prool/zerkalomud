@@ -11,7 +11,7 @@
 Огромный оживший великан, сотворенный из камня.
 ~
 b0d0e0m0n0p0x0y0g2 d0k0t1 -600 E
-27 0 -10 10d10+6000 5d8+19
+29 0 -10 10d10+6000 5d8+19
 0d0+25 250000
 8 8 1
 BareHandAttack: 6
@@ -26,6 +26,7 @@ LikeWork: 80
 MaxFactor: 60
 ExtraAttack: 1
 Class: 100
+Race: 100
 Height: 200
 Weight: 150
 Special_Bitvector: a0b0c0d0w0b1c1 
@@ -51,7 +52,7 @@ T 47628
 Он филантроп в буквальном смысле этого слова.
 ~
 b0d0f0l0m0n0 d0k0 -600 E
-30 0 -10 10d10+3000 5d15+15
+28 0 -10 10d10+3000 5d15+15
 5d100+2000 190000
 8 8 1
 Str: 25
@@ -65,6 +66,7 @@ LikeWork: 60
 MaxFactor: 60
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 150
 Special_Bitvector: b1c1 
@@ -90,7 +92,7 @@ T 47629
 
 ~
 d0 f0k0 -600 E
-15 0 -5 10d10+400 2d4+6
+12 0 -5 10d10+400 2d4+6
 0d0+5 10000
 8 8 2
 Str: 9
@@ -104,6 +106,7 @@ LikeWork: 70
 MaxFactor: 70
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 30
 Weight: 50
 Special_Bitvector: g0p0 
@@ -136,6 +139,7 @@ LikeWork: 70
 MaxFactor: 70
 ExtraAttack: 1
 Class: 101
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: l0u0 
@@ -157,7 +161,7 @@ T 47630
 Или то был не он?
 ~
 d0f0h0 k0r0 -600 E
-25 0 -9 10d10+1200 4d4+5
+23 0 -9 10d10+1200 4d4+5
 0d0+0 70000
 8 8 1
 BareHandAttack: 1
@@ -172,6 +176,7 @@ LikeWork: 75
 MaxFactor: 70
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -194,7 +199,7 @@ I кожа,10:8
 Весь покрытый инеем, абсолютно весь!
 ~
 b0d0f0y0c2h2u2 d0k0r0z0A0 -600 E
-32 0 -10 10d10+7000 8d10+5
+30 0 -10 10d10+7000 8d10+5
 0d20+29 300000
 8 8 1
 Str: 28
@@ -208,6 +213,7 @@ LikeWork: 85
 MaxFactor: 60
 ExtraAttack: 2
 Class: 103
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: b0v0 
@@ -237,7 +243,7 @@ I чешуя,10:3
 Серый пес, только одичавший и озлобившийся.
 ~
 d0k0l0m0n0 d0f0k0C0 -600 E
-28 0 -6 10d10+1000 5d15+20
+24 0 -6 10d10+1000 5d15+20
 0d0+20 80000
 8 8 1
 BareHandAttack: 4
@@ -252,6 +258,7 @@ LikeWork: 70
 MaxFactor: 60
 ExtraAttack: 2
 Class: 103
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
@@ -274,7 +281,7 @@ I шерсть,10:5
 таких же существ.
 ~
 b0d0f0m0n0p0q0u0x0y0z0 d0k0 -600 E
-30 0 -10 10d10+3000 10d10+20
+28 0 -10 10d10+3000 10d10+20
 0d0+25 190000
 8 8 0
 BareHandAttack: 2
@@ -289,6 +296,7 @@ LikeWork: 60
 MaxFactor: 70
 ExtraAttack: 2
 Class: 100
+Race: 100
 Height: 200
 Weight: 150
 Special_Bitvector: w0 
@@ -315,7 +323,7 @@ T 47633
 Ма-а-аленький такой скелетик. Совсем крошка!
 ~
 d0e0f0m0z0 d0f0k0r0A0 -600 E
-25 0 -6 10d10+2000 10d10+10
+27 0 -6 10d10+2000 10d10+10
 0d0+0 140000
 8 8 1
 BareHandAttack: 11
@@ -330,6 +338,7 @@ LikeWork: 90
 MaxFactor: 70
 ExtraAttack: 1
 Class: 101
+Race: 100
 Height: 130
 Weight: 65
 Special_Bitvector: g0w0 
@@ -350,7 +359,7 @@ E
 Уж больно ты грозен, как я погляжу!
 ~
 d0e0f0m0n0p0z0 d0k0w1 -600 E
-29 0 -5 10d10+2000 10d15+20
+27 0 -5 10d10+2000 10d15+20
 0d0+0 140000
 8 8 1
 Str: 22
@@ -364,6 +373,7 @@ LikeWork: 85
 MaxFactor: 60
 ExtraAttack: 1
 Class: 101
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: w0C3 
@@ -401,6 +411,7 @@ LikeWork: 70
 MaxFactor: 90
 ExtraAttack: 1
 Class: 101
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -426,7 +437,7 @@ I крылья,15:8
 Так что близко советую не подходить.
 ~
 b0d0f0n0a2h2u2 x0z0A0 -600 E
-31 0 -10 10d10+7000 10d6+2
+30 0 -10 10d10+7000 10d6+2
 0d0+80 300000
 8 8 1
 Str: 26
@@ -440,6 +451,7 @@ LikeWork: 90
 MaxFactor: 80
 ExtraAttack: 2
 Class: 103
+Race: 100
 Height: 200
 Weight: 150
 Special_Bitvector: a0b0c0d0e0f0l0 
@@ -469,7 +481,7 @@ T 47625
 И при жизни был бомжом и после смерти в грязи весь!
 ~
 d0f0l0m0 d0f0k0n0w1 -600 E
-29 0 -7 10d10+3500 10d10+30
+28 0 -7 10d10+3500 10d10+30
 0d0+0 190000
 8 8 1
 Str: 22
@@ -483,6 +495,7 @@ LikeWork: 85
 MaxFactor: 80
 ExtraAttack: 1
 Class: 101
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: w0 
@@ -507,7 +520,7 @@ I зубы,10:5
 Болотный аналог вампира.
 ~
 d0f0 d0f0k0 -600 E
-27 0 -10 10d10+200 5d5+20
+16 0 -10 10d10+200 5d5+20
 0d0+0 20000
 8 8 2
 Str: 26
@@ -521,6 +534,7 @@ LikeWork: 65
 MaxFactor: 80
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: g0o0 
@@ -543,7 +557,7 @@ I кожа,5:2
 Хозяин местных болот.
 ~
 d0f0 d0f0k0z0A0 -600 E
-31 0 -10 10d10+4000 5d5+20
+30 0 -10 10d10+4000 5d5+20
 0d0+60 280000
 8 8 1
 Str: 25
@@ -557,6 +571,7 @@ LikeWork: 75
 MaxFactor: 70
 ExtraAttack: 1
 Class: 100
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0 
@@ -586,7 +601,7 @@ T 47634
 Змейка с красивой раскраской кожи "в шашечку".
 ~
 d0f0 f0k0 -600 E
-29 0 -2 10d10+500 3d8+8
+20 0 -2 10d10+500 3d8+8
 0d0+5 40000
 8 8 2
 Str: 18
@@ -600,6 +615,7 @@ LikeWork: 85
 MaxFactor: 70
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: g0 
@@ -623,7 +639,7 @@ I зубы,5:2
 Противоестественная помесь кошки и волка тщетно ищет этого "мичуринца".
 ~
 b0d0f0 d0f0k0t0 -600 E
-29 0 -10 10d10+3000 8d20+10
+30 0 -10 10d10+3000 8d20+10
 0d0+50 280000
 8 8 1
 BareHandAttack: 11
@@ -638,6 +654,7 @@ LikeWork: 75
 MaxFactor: 80
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -659,8 +676,8 @@ I глаза,10:3
 ~
 Нет, это не зеленое уродище - это гораздо хуже.
 ~
-b0d0f0d2h2u2 d0k0r0x0 -600 E
-32 0 -10 10d10+7000 6d6+6
+b0d0f0d2h2u2 d0k0r0w0x0u1 -600 E
+30 0 -10 10d100000+900000 6d6+6
 0d0+90 300000
 8 8 1
 Str: 26
@@ -674,6 +691,7 @@ LikeWork: 90
 MaxFactor: 80
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 200
 Weight: 150
 Special_Bitvector: a0b0c0d0 
@@ -703,7 +721,7 @@ I когти,15:5
 Стой! Кто идет?
 ~
 b0d0 d0f0k0r0 -600 E
-30 0 -10 10d10+3000 10d10+10
+28 0 -10 10d10+3000 10d10+10
 5d2+6 180000
 8 8 1
 Str: 30
@@ -717,6 +735,7 @@ LikeWork: 65
 MaxFactor: 80
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: b0b1c1C3 
@@ -744,7 +763,7 @@ T 47636
 на знатность и древность рода этого благородного мужа.
 ~
 d0f0 d0k0r0z0A0 -600 E
-27 0 -10 10d10+2500 10d10+10
+28 0 -10 10d10+2500 10d10+10
 0d0+50 190000
 8 8 1
 Str: 21
@@ -758,6 +777,7 @@ LikeWork: 80
 MaxFactor: 70
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1B3 
@@ -783,7 +803,7 @@ I кости,10:2
 Князь - он и в Африке князь! А уж Великий и подавно!
 ~
 b0d0f0l0 d0f0k0z0A0 -600 E
-43 0 -10 10d10+5000 10d20+10
+30 0 -10 10d10+5000 10d20+10
 0d0+90 300000
 8 8 1
 Str: 35
@@ -797,6 +817,7 @@ LikeWork: 70
 MaxFactor: 90
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -825,7 +846,7 @@ T 47637
 Или то был не он?
 ~
 d0f0h0 k0r0 -600 E
-25 0 -9 10d10+1200 4d4+5
+23 0 -9 10d10+1200 4d4+5
 0d0+0 70000
 8 8 1
 BareHandAttack: 1
@@ -840,6 +861,7 @@ LikeWork: 75
 MaxFactor: 70
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -862,7 +884,7 @@ T 47631
 на знатность и древность рода этого благородного мужа.
 ~
 d0f0 d0k0r0z0A0 -600 E
-27 0 -10 10d10+2500 10d10+10
+28 0 -10 10d10+2500 10d10+10
 0d0+50 190000
 8 8 1
 Str: 21
@@ -876,6 +898,7 @@ LikeWork: 80
 MaxFactor: 70
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1B3 
@@ -900,7 +923,7 @@ T 47623
 на знатность и древность рода этого благородного мужа.
 ~
 d0f0 d0k0r0z0A0 -600 E
-27 0 -10 10d10+2500 10d10+10
+28 0 -10 10d10+2500 10d10+10
 0d0+50 190000
 8 8 1
 Str: 21
@@ -914,6 +937,7 @@ LikeWork: 80
 MaxFactor: 70
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1B3 
@@ -938,7 +962,7 @@ T 47623
 на знатность и древность рода этого благородного мужа.
 ~
 d0f0 d0k0r0z0A0 -600 E
-27 0 -10 10d10+2500 10d10+10
+28 0 -10 10d10+2500 10d10+10
 0d0+50 190000
 8 8 1
 Str: 21
@@ -952,6 +976,7 @@ LikeWork: 80
 MaxFactor: 70
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1B3 
@@ -980,6 +1005,7 @@ b0d0B0 d0f0k0 0 E
 8 8 1
 Size: 30
 Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

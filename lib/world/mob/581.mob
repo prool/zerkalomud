@@ -33,7 +33,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
-Race: 
 Height: 200
 Weight: 150
 Special_Bitvector: 0 
@@ -76,7 +75,6 @@ LikeWork: 50
 MaxFactor: 10
 ExtraAttack: 2
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -112,7 +110,6 @@ LikeWork: 50
 MaxFactor: 10
 ExtraAttack: 2
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -145,12 +142,10 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: d1i3 
+Special_Bitvector: i3 
 E
-T 58204
 #58104
 помощник тиун воеводы~
 тиун~
@@ -177,7 +172,6 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -208,7 +202,6 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -239,7 +232,6 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -270,7 +262,6 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -304,7 +295,6 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -335,10 +325,9 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: d1i3 
+Special_Bitvector: i3 
 E
 #58110
 старый десятник~
@@ -367,7 +356,6 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -398,7 +386,6 @@ Cha: 3
 Size: 20
 MaxFactor: 1
 Class: 103
-Race: 104
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
@@ -428,7 +415,6 @@ Cha: 10
 Size: 100
 ExtraAttack: 5
 Class: 103
-Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: 0 

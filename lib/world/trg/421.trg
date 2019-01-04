@@ -79,7 +79,7 @@ wait 1
 if ((%actor.clan% == ир) || (%actor.vnum% != -1))
   halt
 end
-osend %actor% %self.iname% рассыпал%self.u% в ваших руках.
+osend %actor% %self.name% рассыпал%self.u% в ваших руках.
 wait 1
 opurge %self%
 ~

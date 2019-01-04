@@ -11,7 +11,7 @@
 Мужчина в богатых одеждах, с украшенной огромными брильянтами шапкой-короной
 внимательно выслушивает своих советников.
 ~
-b0d0g0m0n0o0q0r0t0u0f2u2 d0k0u0n1t1 0 E
+b0d0g0m0n0o0q0r0t0u0f2 d0k0u0n1t1 0 E
 30 0 -10 0d0+3000 50d3+50
 0d0+500 0
 8 8 1
@@ -25,7 +25,6 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 3
 Class: 102
-Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -59,7 +58,6 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -97,7 +95,6 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 2
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -136,7 +133,6 @@ Cha: 15
 Size: 50
 LikeWork: 95
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -169,7 +165,6 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 2
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -177,6 +172,7 @@ Skill: 136 75
 Spell: 56
 Spell: 56
 Helper: 49813
+Skill: 136 75
 E
 #49805
 воевода~
@@ -207,7 +203,6 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 4
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -246,7 +241,6 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 2
 Class: 102
-Race: 101
 Height: 198
 Weight: 105
 Special_Bitvector: 0 
@@ -280,7 +274,6 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -315,15 +308,15 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 100
-Skill: 136 90
+Skill: 136 100
 Skill: 137 100
 Skill: 150 100
 Helper: 49817
+Skill: 136 90
 E
 T 49800
 #49809
@@ -354,7 +347,6 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 2
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -388,7 +380,6 @@ Size: 40
 LikeWork: 100
 ExtraAttack: 2
 Class: 102
-Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -418,7 +409,6 @@ Con: 13
 Cha: 20
 Size: 50
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -450,7 +440,6 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -484,7 +473,6 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -519,7 +507,6 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -555,7 +542,6 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -592,7 +578,6 @@ Size: 50
 LikeWork: 60
 ExtraAttack: 4
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -657,7 +642,6 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 2
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1d1 
@@ -693,7 +677,6 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: i3 
@@ -730,7 +713,6 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -774,7 +756,6 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -803,58 +784,10 @@ Con: 35
 Cha: 3
 Size: 30
 ExtraAttack: 1
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 136 10
-E
-#49822
-манекен~
-манекен~
-манекена~
-манекену~
-манекен~
-манекеном~
-манекене~
-Пошарпанный манекен стоит посреди арены.
-~
-Манекен. Чего вам еще нужно то?
-~
-b0d0 h0 0 E
-10 10 0 1d100+3000 1d1+0
-0d0+0 0
-8 8 1
-Size: 30
-Class: 100
-Race: 100
-Height: 198
-Weight: 200
-Special_Bitvector: 0 
-E
-#49823
-манекен~
-манекен~
-манекена~
-манекену~
-манекен~
-манекеном~
-манекене~
-Потрепанный манекен с тоской в глазах-камушках смотрит на Вас.
-~
-Манекен, чтоб воинам неопытным тренироваться.
-~
-b0d0 u1 0 E
-0 20 0 1d100+4000 1d1+0
-0d0+0 0
-8 8 1
-Size: 30
-Class: 100
-Race: 100
-Height: 198
-Weight: 200
-Special_Bitvector: 0 
 E
 #49870
 крылатый лев~
@@ -882,8 +815,6 @@ Con: 12
 Cha: 10
 Size: 100
 ExtraAttack: 1
-Class: 100
-Race: 100
 Height: 180
 Weight: 150
 Special_Bitvector: l0 

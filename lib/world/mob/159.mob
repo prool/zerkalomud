@@ -19,7 +19,6 @@ Destination: 15905
 Size: 50
 LikeWork: 20
 Class: 102
-Race: 101
 Height: 180
 Weight: 200
 Special_Bitvector: 0 
@@ -43,7 +42,6 @@ b0d0g0n0o0p0B0f2 c0d0e0f0k0 0 E
 8 8 1
 Size: 60
 Class: 102
-Race: 101
 Height: 90
 Weight: 60
 Special_Bitvector: 0 
@@ -67,7 +65,6 @@ b0d0g0n0o0p0B0f2 c0d0e0f0k0 0 E
 8 8 1
 Size: 60
 Class: 102
-Race: 101
 Height: 90
 Weight: 60
 Special_Bitvector: 0 
@@ -87,18 +84,18 @@ T 15971
 Старый мудрый дед с пронзительным взглядом и окладистой бородкой
 заглядывает тебе прямо в душу.
 ~
-b0d0g0n0o0p0B0f2u2 c0d0e0f0k0 0 E
+b0d0g0n0o0p0B0f2 c0d0e0f0k0 0 E
 26 10 3 0d0+100 0d0+0
 0d0+0 0
 8 8 1
 Size: 40
 Class: 102
-Race: 101
 Height: 180
 Weight: 100
 Special_Bitvector: 0 
 Skill: 136 78
 E
+T 15967
 #15904
 Кухарка Клуша~
 Кухарка Клуша~
@@ -117,7 +114,6 @@ b0d0g0o0p0q0B0f2 c0d0e0k0 0 E
 8 8 2
 Size: 100
 Class: 102
-Race: 101
 Height: 170
 Weight: 200
 Special_Bitvector: 0 
@@ -141,7 +137,6 @@ b0d0g0o0p0q0B0f2 d0e0f0k0 0 E
 8 8 2
 Size: 42
 Class: 102
-Race: 101
 Height: 160
 Weight: 80
 Special_Bitvector: 0 
@@ -179,7 +174,6 @@ Size: 52
 LikeWork: 14
 ExtraAttack: 3
 Class: 104
-Race: 104
 Height: 190
 Weight: 120
 Special_Bitvector: 0 
@@ -262,7 +256,6 @@ Con: 12
 Cha: 10
 Size: 100
 Class: 103
-Race: 104
 Height: 100
 Weight: 100
 Special_Bitvector: 0 
@@ -297,7 +290,6 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 2
 Class: 102
-Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -335,7 +327,6 @@ Size: 50
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
-Race: 101
 Height: 170
 Weight: 100
 Special_Bitvector: 0 
@@ -370,7 +361,6 @@ Size: 60
 LikeWork: 11
 ExtraAttack: 3
 Class: 104
-Race: 101
 Height: 180
 Weight: 200
 Special_Bitvector: a1 
@@ -413,8 +403,6 @@ Cha: 3
 Size: 55
 LikeWork: 90
 ExtraAttack: 1
-Class: 100
-Race: 100
 Height: 185
 Weight: 189
 Special_Bitvector: 0 
@@ -449,8 +437,6 @@ Cha: 18
 Size: 60
 LikeWork: 75
 ExtraAttack: 2
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -504,7 +490,6 @@ Cha: 19
 Size: 55
 LikeWork: 90
 Class: 105
-Race: 105
 Height: 198
 Weight: 120
 Special_Bitvector: l0 
@@ -628,8 +613,8 @@ T 15979
 Передние лапы его в точности походят на орлиные.
 ~
 d0f0m0n0o0z0f2 d0f0k0m1 -400 E
-29 -10 -5 1d100+2000 4d9+12
-0d0+0 100000
+29 -10 -5 1d100+15000 4d9+12
+0d0+0 0
 8 8 1
 BareHandAttack: 1
 Str: 25
@@ -642,7 +627,6 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
-Race: 104
 Height: 198
 Weight: 180
 Special_Bitvector: 0 
@@ -670,7 +654,7 @@ T 15979
 змеиное туловище. Глаза у нее тоже змеиные, а волосы похожи на живых змей.
 ~
 d0f0m0n0o0z0p1f2 d0f0k0A0m1x1y1 -500 E
-30 -15 4 1d100+5000 10d13+20
+30 -6 4 1d100+5000 10d13+20
 0d0+0 0
 8 8 2
 BareHandAttack: 3
@@ -684,7 +668,6 @@ Size: 55
 LikeWork: 70
 ExtraAttack: 5
 Class: 104
-Race: 104
 Height: 160
 Weight: 180
 Special_Bitvector: 0 
@@ -770,7 +753,6 @@ Size: 40
 LikeWork: 80
 ExtraAttack: 2
 Class: 103
-Race: 104
 Height: 120
 Weight: 80
 Special_Bitvector: g0i0l0u0 
@@ -823,7 +805,6 @@ Cha: 19
 Size: 70
 LikeWork: 80
 Class: 105
-Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: l0u0 
@@ -923,8 +904,6 @@ Cha: 12
 Size: 60
 LikeWork: 90
 ExtraAttack: 2
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: y0b1c1 

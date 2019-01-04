@@ -50,7 +50,7 @@ dg cast !ледяной шторм!  %target.name%
 ~
 #26704
 Темный страж умер~
-0 f 100
+0  100
 ~
 if (%world.curobjs(26701)% < 3) && (%random.100% <= 5)
   mload obj 26701
@@ -106,6 +106,7 @@ else
   wechoaround %actor% %actor.name% превратился в облако пыли и исчез из виду.   
   wteleport %actor.name% 26780
 end
+
 ~
 #26708
 Умер хрустальный голем~
@@ -164,6 +165,7 @@ wechoaround %actor% распахнулась.
 wdoor    26744 up purge       
 wdoor 26744 up room  26753
 detach 26711 %self.id%
+
 ~
 #26712
 Вас жгет в комнате~
@@ -377,6 +379,7 @@ if (%world.curobjs(26709)% < 3) && (%random.100% <= 5)
   mload obj 26709
   воор меч
 end
+
 ~
 #26720
 Смерть барона~
@@ -422,6 +425,7 @@ wload mob 26718
 %echo%   Если вы желаете, я поделюсь с вами этими знаниями.
 makeuid trg 26718 
 detach 26723 %self.id%
+
 ~
 #26724
 reset~
