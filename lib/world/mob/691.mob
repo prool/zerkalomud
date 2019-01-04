@@ -1,0 +1,653 @@
+#69100
+огромное речное чудище~
+огромное речное чудище~
+огромного речного чудища~
+огромному речному чудищу~
+огромное речное чудище~
+огромным речным чудищем~
+огромном речном чудище~
+Огромное речное чудище о девяти лапах так и норовит затянуть Вас под воду.
+~
+   Огромное чудище о девяти лапах так и норовит затащить под воду, к 
+себе в логово, любого попавшегося ему на пути.
+~
+b0c0d0f0g0l0m0n0o0x0y0 c0d0e0f0k0m0n0r0z0A0C0k1z1 -600 E
+45 5 -5 9d10+10000 8d10+15
+0d0+0 600000
+8 8 0
+BareHandAttack: 5
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 30
+MaxFactor: 2
+ExtraAttack: 8
+Class: 103
+Height: 200
+Weight: 150
+Special_Bitvector: v0 
+Skill: 136 100
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 128
+Spell: 128
+Spell: 152
+Spell: 152
+Spell: 153
+Spell: 153
+E
+T 69107
+#69101
+морок~
+морок~
+морока~
+мороку~
+морока~
+мороком~
+мороке~
+Ужасное существо парит над самой кромкой земли.
+~
+   НАВАЖДЕНИЕ, призрак. Может показаться в любом месте: дома, в лесу, 
+в поле. Ни одна блазня не обходится без участия этих нечистых духов, 
+которые помрачают разум человека, заставляя видеть то, чего нет на самом 
+деле. 
+~
+c0d0f0g0l0m0n0o0p0q0r0x0y0z0A0 b0d0h0k0m0n0p0r0x0z0C0x1 -600 E
+40 0 -10 8d10+5000 19d9+22
+0d0+0 400000
+8 8 1
+Str: 30
+Dex: 30
+Int: 36
+Wis: 36
+Con: 25
+Cha: 16
+Size: 100
+LikeWork: 25
+MaxFactor: 4
+ExtraAttack: 1
+Class: 101
+Height: 145
+Weight: 100
+Special_Bitvector: l0c1C3 
+Skill: 22 40
+Skill: 136 100
+Skill: 157 50
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 82
+Spell: 153
+Spell: 153
+Spell: 153
+E
+T 69103
+#69102
+страх~
+страх~
+страха~
+страху~
+страх~
+страхом~
+страхе~
+Ужасный нечеловеческий страх окутал все вокруг.
+~
+   Ужас....
+~
+b0c0d0e0f0g0l0m0n0o0x0y0z0A0 d0f0k0m0r0x0A0C0q1z1 -600 E
+30 5 -5 4d10+5000 9d12+15
+0d0+0 300000
+8 8 1
+BareHandAttack: 2
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 20
+MaxFactor: 5
+ExtraAttack: 1
+Class: 101
+Height: 100
+Weight: 100
+Special_Bitvector: l0c1C3 
+Skill: 22 50
+Skill: 131 30
+Skill: 136 100
+Skill: 167 30
+Spell: 128
+Spell: 152
+Spell: 153
+E
+T 69106
+#69103
+старый омутник~
+старый омутник~
+старого омутника~
+старому омутнику~
+старого омутника~
+старым омутником~
+старом омутнике~
+Огромное, покрытое слизью и темной тиной существо.
+~
+   Ужасное, мерзкое, темное создание, покрытое темным илом и темной тиной,
+вот-вот бросится на вас, вонзит в шею свои гнилые клыки и утащит под воду.
+~
+b0d0f0g0l0n0o0x0y0A0 d0f0k0m0z0C0q1z1 -600 E
+40 0 -10 5d10+14570 19d15+22
+8d11+780 700000
+8 8 1
+Str: 30
+Dex: 35
+Int: 36
+Wis: 36
+Con: 30
+Cha: 15
+Size: 100
+LikeWork: 25
+MaxFactor: 5
+ExtraAttack: 1
+Class: 101
+Height: 199
+Weight: 125
+Special_Bitvector: b1c1C3 
+Skill: 4 45
+Skill: 22 45
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 147 100
+Skill: 148 100
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 114
+Spell: 114
+Spell: 153
+Helper: 69104
+E
+T 69109
+#69104
+омутник~
+омутник ~
+омутника~
+омутнику~
+омутника~
+омутником~
+омутнике~
+Ужасное создание, с толстой шкурой и кровавыми бурлаками место глаз.
+~
+   Ужасное создание, обитающее в глубоких темных омутах.
+~
+b0c0d0g0l0m0n0o0x0y0A0 d0f0h0m0n0r0z0A0q1z1 -600 E
+36 0 -3 10d3+4900 18d22+30
+2d9+89 500000
+8 8 1
+Str: 30
+Dex: 23
+Int: 22
+Wis: 23
+Con: 23
+Cha: 15
+Size: 100
+LikeWork: 35
+MaxFactor: 5
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: m0b1c1C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 148 100
+Skill: 150 50
+Spell: 28
+Spell: 152
+Spell: 153
+Spell: 153
+E
+#69105
+ужас~
+ужас~
+ужаса~
+ужасу~
+ужас~
+ужасом~
+ужасе~
+О ужас, что это ???
+~
+   Смотря на это существо, Вас бросает в дикий ужас.
+~
+b0d0e0f0g0l0m0n0o0x0y0z0i2 c0d0e0f0k0m0n0r0x0z0A0C0b1m1w1x1 -600 E
+41 0 -10 10d10+6700 33d20+33
+0d0+0 550000
+8 8 1
+BareHandAttack: 2
+Str: 29
+Dex: 29
+Int: 36
+Wis: 36
+Con: 30
+Cha: 22
+Size: 100
+LikeWork: 15
+MaxFactor: 3
+ExtraAttack: 1
+Class: 101
+Height: 185
+Weight: 100
+Special_Bitvector: c1C3 
+Skill: 22 75
+Skill: 136 100
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 104
+Spell: 104
+Spell: 111
+Spell: 153
+Spell: 153
+Spell: 153
+Helper: 69106
+Helper: 69107
+E
+#69106
+темный призрак~
+темный призрак~
+темного призрака~
+темному призраку~
+темного призрака~
+темным призраком~
+темном призраке~
+Странное создание, кажется, сотканное из мрака, парит над землей.
+~
+   Ужасный призрак.
+~
+c0d0e0f0g0l0m0n0o0x0y0A0 b0c0d0j0k0m0n0r0x0q1x1 -600 E
+30 0 -10 9d10+1000 15d9+15
+0d0+0 200000
+8 8 1
+BareHandAttack: 5
+Str: 27
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 16
+Size: 100
+LikeWork: 14
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: l0b1c1d1C3 
+Skill: 4 50
+Skill: 22 45
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 94
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 144
+Spell: 153
+E
+#69107
+призрак~
+призрак ~
+призрака~
+призраку~
+призрака~
+призраком~
+призраке~
+Страшное существо, парит над землей, сверкая глазами.
+~
+   Страшное, ужасное существо, того и гляди загрызет. 
+~
+c0d0f0g0h0l0m0n0o0x0y0A0 b0c0d0f0k0r0x0z0A0q1x1z1 -600 E
+32 0 -5 3d10+3000 11d9+22
+0d0+0 300000
+8 8 1
+BareHandAttack: 4
+Str: 28
+Dex: 25
+Int: 35
+Wis: 35
+Con: 20
+Cha: 19
+Size: 100
+LikeWork: 11
+MaxFactor: 7
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: l0b1c1d1C3 
+Skill: 22 50
+Skill: 132 30
+Skill: 136 120
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 148 100
+Skill: 154 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 54
+Spell: 68
+Spell: 68
+Spell: 82
+Spell: 152
+Spell: 152
+E
+#69108
+утопленник~
+утопленник~
+утопленника~
+утопленнику~
+утопленника~
+утопленником~
+утопленнике~
+Ужасного вида существо, все увитое тиной, так и тянет к вам свои руки загребущие.
+~
+   Эх, не повезло этому бедолаге, утонул видать когда-то, а сейчас вон 
+во что превратился.
+~
+c0d0f0g0l0m0n0o0x0y0A0b2 d0k0m0z1 -600 E
+35 0 -7 10d7+4789 22d19+19
+7d3+99 300000
+8 8 1
+Str: 36
+Dex: 25
+Int: 26
+Wis: 27
+Con: 27
+Cha: 19
+Size: 100
+LikeWork: 30
+MaxFactor: 5
+Class: 104
+Height: 169
+Weight: 123
+Special_Bitvector: m0b1c1d1 
+Skill: 136 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 128
+Spell: 150
+Spell: 153
+Spell: 153
+E
+#69109
+дух скорби и печали~
+дух скорби и печали~
+духа скорби и печали~
+духу скорби и печали~
+духа скорби и печали~
+духом скорби и печали~
+духе скорби и печали~
+Странное существо парит над землей, излучая странный свет.
+~
+   Ужасный дух, отец скорби и печали.
+~
+b0c0d0f0g0l0m0n0o0x0y0A0 d0h0k0m0n0x0z0A0a1q1z1 -600 E
+40 0 -10 5d10+8999 22d22+22
+11d11+5000 500000
+8 8 1
+Str: 30
+Dex: 25
+Int: 36
+Wis: 36
+Con: 25
+Cha: 20
+Size: 100
+LikeWork: 35
+MaxFactor: 3
+ExtraAttack: 1
+Class: 105
+Height: 200
+Weight: 100
+Special_Bitvector: b1c1d1C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 25
+Skill: 154 100
+Spell: 23
+Spell: 28
+Spell: 68
+Spell: 128
+Spell: 152
+Spell: 153
+E
+T 69104
+#69110
+двуглавый цербер~
+двуглавый цербер~
+двуглавого цербера~
+двуглавому церберу~
+двуглавого цербера~
+двуглавым цербером~
+двуглавом цербере~
+Странное создание о двух головах и телом огромного пса так и норовит сожрать непрошенного гостя.
+~
+   Ужасное создание о двух головах и с телом пса.
+~
+b0d0f0g0l0m0n0o0r0u0x0 d0f0h0k0m0z0C0x1 -600 E
+36 0 -10 3d10+4590 20d11+19
+0d0+0 400000
+8 8 1
+BareHandAttack: 4
+Str: 36
+Dex: 36
+Int: 20
+Wis: 20
+Con: 22
+Cha: 19
+Size: 100
+LikeWork: 35
+MaxFactor: 6
+ExtraAttack: 4
+Class: 103
+Height: 150
+Weight: 120
+Special_Bitvector: C3 
+Skill: 22 35
+Skill: 136 100
+Skill: 157 50
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 124
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 153
+Spell: 153
+Spell: 153
+E
+T 69108
+#69111
+мертвый воин~
+мертвый воин~
+мертвого воина~
+мертвому воину~
+мертвого воина~
+мертвым воином~
+мертвом воине~
+Огромный, полуразложившийся труп, в темных доспехах неподвижно стоит на своем посту.
+~
+   Хоть этот воин умер давным-давно, но и сейчас он представляет собой 
+огромную опасность.
+~
+b0c0d0f0g0l0m0n0o0x0A0 c0d0f0k0m0n0r0z0A0C0q1z1 -600 E
+47 0 -10 9d10+11000 25d15+15
+9d11+8900 600000
+8 8 1
+BareHandAttack: 3
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 30
+MaxFactor: 3
+ExtraAttack: 2
+Class: 104
+Height: 200
+Weight: 150
+Special_Bitvector: c1d1d3C3 
+Skill: 5 50
+Skill: 22 50
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 144
+E
+#69112
+тень~
+тень~
+тени~
+тени~
+тень~
+тенью~
+тени~
+Странное призрачное существо.
+~
+   Полупрозрачное создание.
+~
+d0e0f0g0l0m0n0o0p0y0z0 d0k0m0x0A0o1x1 0 E
+37 0 -4 3d10+3000 12d12+15
+0d0+0 250000
+8 8 2
+BareHandAttack: 2
+Str: 30
+Dex: 20
+Int: 26
+Wis: 27
+Con: 20
+Cha: 17
+Size: 100
+LikeWork: 35
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: l0m3C3 
+Skill: 5 45
+Skill: 22 89
+Skill: 136 100
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 56
+Spell: 56
+Spell: 153
+Spell: 153
+Spell: 153
+E
+$

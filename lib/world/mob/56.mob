@@ -1,0 +1,410 @@
+#5600
+карась~
+карась~
+карася~
+карасю~
+карася~
+карасем~
+карасе~
+Карась плавает здесь.
+~
+Небольшая толстая рыбка.
+~
+d0c1 0 0 E
+3 0 8 1d1+60 1d2+1
+0d0+0 250
+8 8 1
+BareHandAttack: 4
+Dex: 13
+Int: 6
+Wis: 6
+Con: 9
+Cha: 4
+Size: 10
+Class: 103
+Height: 198
+Weight: 1
+Special_Bitvector: v0 
+Skill: 136 20
+E
+#5601
+окунь~
+окунь~
+окуня~
+окуню~
+окуня~
+окунем~
+окуне~
+Быстрый окунь проплывает здесь.
+~
+Юркий злобный хищник местного водоема.
+~
+d0c1 k0 0 E
+4 17 9 1d1+70 1d3+1
+0d0+0 350
+8 8 1
+BareHandAttack: 4
+Str: 13
+Dex: 12
+Int: 4
+Wis: 4
+Con: 10
+Cha: 4
+Size: 10
+LikeWork: 5
+Class: 103
+Height: 198
+Weight: 2
+Special_Bitvector: v0 
+Skill: 136 25
+E
+T 5607
+#5602
+ерш~
+ерш~
+ерша~
+ершу~
+ерша~
+ершом~
+ерше~
+Веселый ерш играется в воде.
+~
+Маленькая черная рыбка.
+~
+d0c1 0 0 E
+4 17 8 1d1+70 1d3+1
+0d0+0 350
+8 8 1
+BareHandAttack: 4
+Str: 12
+Dex: 14
+Int: 4
+Wis: 4
+Con: 10
+Cha: 4
+Size: 15
+LikeWork: 5
+Class: 103
+Height: 198
+Weight: 2
+Special_Bitvector: v0 
+Skill: 136 25
+E
+#5603
+карп~
+карп~
+карпа~
+карпу~
+карпа~
+карпом~
+карпе~
+Грустный карп медленно плывет здесь.
+~
+Крупная рыбина с пол пуда весом.
+~
+d0c1 k0 -600 E
+5 16 7 1d1+100 1d2+1
+0d0+0 500
+8 8 1
+Str: 14
+Dex: 10
+Int: 4
+Wis: 4
+Con: 10
+Cha: 4
+Size: 20
+LikeWork: 5
+ExtraAttack: 1
+Class: 103
+Height: 198
+Weight: 3
+Special_Bitvector: v0 
+Skill: 136 30
+E
+#5604
+налим~
+налим~
+налима~
+налиму~
+налима~
+налимом~
+налиме~
+Скользкий налим плавает здесь.
+~
+Средних размеров аппетитная рыбина.
+~
+d0c1 k0 0 E
+4 17 9 1d1+60 1d3+1
+0d0+0 400
+8 8 1
+BareHandAttack: 4
+Str: 13
+Dex: 15
+Int: 4
+Wis: 4
+Con: 10
+Cha: 4
+Size: 12
+LikeWork: 5
+Class: 103
+Height: 198
+Weight: 33
+Special_Bitvector: v0 
+Skill: 136 30
+E
+#5605
+лещ~
+лещ~
+леща~
+лещу~
+леща~
+лещем~
+леще~
+Плоский лещ плавает здесь.
+~
+Тонкая но крупная плоская рыбина.
+~
+d0g0c1 k0 0 E
+4 17 7 1d1+70 1d3+1
+0d0+0 400
+8 8 1
+BareHandAttack: 4
+Str: 12
+Dex: 10
+Int: 5
+Wis: 5
+Con: 10
+Cha: 4
+Size: 13
+LikeWork: 5
+Class: 103
+Height: 198
+Weight: 2
+Special_Bitvector: v0 
+Skill: 136 30
+E
+#5606
+рак~
+рак~
+рака~
+раку~
+рака~
+раком~
+раке~
+Медленный рак ползает по дну.
+~
+Красный падальщик этого водоема.
+~
+d0g0c1 k0 0 E
+4 17 7 1d1+80 1d4+1
+0d0+0 400
+8 8 1
+BareHandAttack: 4
+Str: 10
+Dex: 8
+Int: 3
+Wis: 4
+Con: 9
+Cha: 4
+Size: 8
+LikeWork: 5
+Class: 103
+Height: 198
+Weight: 2
+Special_Bitvector: v0 
+Skill: 2 10
+Skill: 136 30
+E
+#5607
+чебак~
+чебак~
+чебака~
+чебаку~
+чебака~
+чебаком~
+чебаке~
+Толстопузый чебак плавает здесь.
+~
+Крупная аппетитная рыбина.
+~
+d0c1 k0 -600 E
+3 18 9 1d1+50 1d2+1
+0d0+0 350
+8 8 1
+BareHandAttack: 4
+Str: 9
+Dex: 9
+Int: 4
+Wis: 4
+Con: 9
+Cha: 4
+Size: 7
+LikeWork: 5
+Class: 103
+Height: 198
+Weight: 1
+Special_Bitvector: v0 
+Skill: 136 20
+E
+#5608
+жерех~
+жерех~
+жереха~
+жереху~
+жереха~
+жерехом~
+жерехе~
+Юркий жерех плавает здесь.
+~
+Средних размеров рыбина.
+~
+d0g0c1 k0 0 E
+4 17 7 1d1+99 1d3+1
+0d0+0 500
+8 8 1
+BareHandAttack: 4
+Str: 10
+Dex: 10
+Int: 4
+Wis: 4
+Cha: 4
+Size: 14
+LikeWork: 5
+Class: 103
+Height: 198
+Weight: 2
+Special_Bitvector: v0 
+Skill: 136 30
+E
+#5609
+елец~
+елец~
+ельца~
+ельцу~
+ельца~
+ельцом~
+ельце~
+Тонкий елец плавает здесь.
+~
+Средних размеров рыбка.
+~
+d0g0c1 k0 -600 E
+3 19 8 1d1+75 1d2+1
+0d0+0 350
+8 8 1
+BareHandAttack: 4
+Str: 7
+Dex: 10
+Int: 4
+Wis: 4
+Con: 6
+Cha: 4
+Size: 8
+Class: 103
+Height: 198
+Weight: 13
+Special_Bitvector: v0 
+Skill: 136 15
+E
+#5610
+сом~
+сом~
+сома~
+сому~
+сома~
+сомом~
+соме~
+Большой сом плавает здесь.
+~
+Здоровенный сомяра с длинными скользкими усами.
+~
+d0c1 k0 0 E
+8 13 8 1d1+160 2d4+1
+0d0+0 2000
+8 8 1
+BareHandAttack: 4
+Str: 16
+Dex: 10
+Int: 4
+Wis: 4
+Con: 12
+Cha: 4
+Size: 30
+LikeWork: 10
+Class: 103
+Height: 198
+Weight: 4
+Special_Bitvector: v0 
+Skill: 2 20
+Skill: 136 35
+E
+#5611
+щука~
+щука~
+щуки~
+щуке~
+щуку~
+щукой~
+щуке~
+Злобная щука плавает здесь.
+~
+Длиннотелая местная охотница.
+~
+b0d0f0g0m0o0x0c1 k0 -600 E
+9 15 6 1d1+125 2d3+2
+0d0+0 2500
+8 8 2
+BareHandAttack: 4
+Str: 16
+Dex: 14
+Int: 4
+Wis: 4
+Con: 10
+Cha: 4
+Size: 35
+LikeWork: 11
+ExtraAttack: 1
+Class: 103
+Height: 198
+Weight: 3
+Special_Bitvector: 0 
+Skill: 5 20
+Skill: 136 40
+Spell: 16
+Spell: 16
+E
+T 5602
+#5612
+рыбак старый~
+старый рыбак~
+старого рыбака~
+старому рыбаку~
+старого рыбака~
+старым рыбаком~
+старом рыбаке~
+Старый рыбак чинит здесь свою сеть.
+~
+   Старый дедушка, который переловил почти всю рыбу в реке.
+~
+b0d0n0o0B0 d0k0 0 E
+20 0 -6 20d20+500 1d2+1
+0d0+0 0
+6 6 1
+Str: 17
+Dex: 15
+Int: 10
+Wis: 10
+Con: 17
+Cha: 10
+Size: 50
+Class: 102
+Height: 198
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 40
+E
+T 5600
+T 5601
+T 5603
+T 5604
+$

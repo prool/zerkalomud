@@ -1,0 +1,1591 @@
+#10300
+лукавый прелат~
+лукавый прелат~
+лукавого прелата~
+лукавому прелату~
+лукавого прелата~
+лукавым прелатом~
+лукавом прелате~
+Лукавый прелат стоит здесь.
+~
+   Длинный, худой, согнут дугой,
+   На голове плешь ютится,
+   В глазах лесть таится,
+   Из уст яд струится.
+~
+b0c0d0g0l0m0n0o0A0 c0d0f0h0k0 -600 E
+30 3 -7 30d10+2000 6d10+10
+5d60+10 200000
+8 8 1
+Str: 22
+Dex: 15
+Int: 22
+Wis: 22
+Con: 18
+Cha: 3
+Size: 40
+LikeWork: 95
+MaxFactor: 10
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 144 100
+Skill: 145 100
+Skill: 147 100
+Skill: 157 80
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 113
+Spell: 113
+Helper: 10321
+E
+T 10300
+T 10301
+#10301
+отец персвитер~
+отец-пресвитер~
+отца-пресвитера~
+отцу-пресвитеру~
+отца-пресвитера~
+отцом-пресвитером~
+отце-пресвитере~
+Отец-пресвитер отдыхает здесь.
+~
+       Святоша из заглавных, первостатейных будет
+       всех он тут в раз рассудит,
+       а на веру он берет деньгами
+       да хорошими тумаками.
+       
+~
+b0d0g0l0m0n0o0A0 d0k0 -600 E
+25 4 -5 20d20+1000 5d4+10
+4d70+60 80000
+4 4 1
+BareHandAttack: 5
+Str: 21
+Dex: 15
+Int: 21
+Wis: 21
+Con: 21
+Cha: 3
+Size: 40
+LikeWork: 70
+MaxFactor: 10
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 4 40
+Skill: 132 60
+Skill: 136 90
+Skill: 141 80
+Skill: 142 80
+Skill: 145 80
+Skill: 157 60
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Helper: 10319
+Helper: 10316
+E
+T 10304
+T 10305
+#10302
+отец приор~
+отец-приор~
+отца-приора~
+отцу-приору~
+отца-приора~
+отцом-приором~
+отце-приоре~
+Отец-приор сидит здесь.
+~
+   С виду поп-попом, только меч при нем,
+   Где крест не справиться - железом расправится.
+   С таким если свяжешься - себе дороже окажется.
+~
+b0d0g0l0m0n0o0p0A0 k0 -600 E
+30 1 -10 25d20+1500 6d5+10
+5d70+20 200000
+8 8 1
+BareHandAttack: 3
+Str: 25
+Dex: 17
+Int: 17
+Wis: 17
+Con: 22
+Cha: 3
+Size: 45
+LikeWork: 100
+MaxFactor: 10
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 5 60
+Skill: 21 70
+Skill: 132 60
+Skill: 136 100
+Skill: 140 95
+Skill: 141 95
+Skill: 142 95
+Skill: 143 95
+Skill: 144 95
+Skill: 145 95
+Skill: 146 95
+Skill: 147 95
+Skill: 148 95
+Skill: 150 50
+Skill: 151 70
+Skill: 154 95
+Skill: 155 95
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 113
+Spell: 124
+Spell: 127
+Helper: 10318
+Helper: 10315
+E
+T 10305
+#10303
+отец инквизитор~
+отец-инквизитор~
+отца-инквизитора~
+отцу-инквизитору~
+отца-инквизитора~
+отцом-инквизитором~
+отце-инквизиторе~
+Отец-инквизитор стоит здесь.
+~
+   Речи величавы, да глаза лукавы,
+   Взглядом так и рыскает - ересь выискивает.
+   Как только узреет - вмиг молодеет,
+   Мечом вырубает, огнем выжигает.
+~
+d0g0l0m0n0o0p0 d0k0 0 E
+25 4 -6 20d15+1000 6d4+10
+5d90+80 175000
+8 8 1
+BareHandAttack: 2
+Str: 21
+Dex: 21
+Int: 21
+Wis: 21
+Con: 21
+Cha: 3
+Size: 40
+LikeWork: 75
+MaxFactor: 20
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 22 40
+Skill: 131 60
+Skill: 132 40
+Skill: 136 90
+Skill: 140 80
+Skill: 141 80
+Skill: 142 80
+Skill: 145 80
+Skill: 150 50
+Skill: 151 50
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 94
+Spell: 94
+E
+T 10308
+#10304
+отец виночерпий~
+отец-виночерпий~
+отца-виночерпия~
+отцу-виночерпию~
+отца-виночерпия~
+отцом-виночерпием~
+отце-виночерпии~
+Отец-виночерпий стоит здесь.
+~
+   Залит вином, как бочка, под завязку,
+   Заплыли жиром поросячьи глазки,
+   И обликом на борова похож,
+   Такого и колом не прошибешь.
+~
+b0d0g0m0n0o0p0u0A0 d0k0l1 -600 E
+25 5 -9 30d20+1200 5d3+20
+3d10+200 175000
+8 8 1
+BareHandAttack: 6
+Str: 23
+Dex: 15
+Int: 13
+Wis: 13
+Con: 27
+Cha: 3
+Size: 45
+LikeWork: 70
+MaxFactor: 15
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: a1b1c1 
+Skill: 2 40
+Skill: 4 20
+Skill: 132 50
+Skill: 136 75
+Skill: 139 50
+Skill: 141 75
+Skill: 142 75
+Skill: 147 75
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 114
+Helper: 10305
+E
+#10305
+отец эконом~
+отец-эконом~
+отца-эконома~
+отцу-эконому~
+отца-эконома~
+отцом-экономом~
+отце-экономе~
+Отец-эконом стоит здесь.
+~
+   Покрытый рясищей, брюхо по земле тащится,
+   Отъел щеки - ажно свисают сбоку.
+   Коль упадет - беда, не встанет сам никогда,
+   Впору на тележке катать - народ потешать.
+~
+c0d0g0m0n0o0p0q0A0 d0k0l1 -600 E
+25 5 -10 30d10+1300 5d4+20
+2d90+300 175000
+8 8 1
+BareHandAttack: 6
+Str: 23
+Dex: 14
+Int: 13
+Wis: 13
+Con: 28
+Cha: 3
+Size: 45
+LikeWork: 75
+MaxFactor: 15
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 5 75
+Skill: 132 50
+Skill: 136 75
+Skill: 141 75
+Skill: 142 75
+Skill: 145 75
+Skill: 147 75
+Skill: 157 40
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 94
+Helper: 10304
+E
+#10306
+латинский рыцарь~
+латинский рыцарь~
+латинского рыцаря~
+латинскому рыцарю~
+латинского рыцаря~
+латинским рыцарем~
+латинском рыцаре~
+Латинский рыцарь стоит здесь.
+~
+   Поступь горделива, да взгляд надменен,
+   Спина - как аршин проглотил.
+~
+c0d0g0l0m0n0o0p0A0 h0k0 -600 E
+28 1 -9 20d15+1000 5d4+20
+5d60+100 180000
+8 8 1
+BareHandAttack: 7
+Destination: 10303
+Destination: 10305
+Destination: 10306
+Destination: 10302
+Str: 24
+Dex: 18
+Int: 15
+Wis: 15
+Con: 24
+Cha: 3
+Size: 45
+LikeWork: 90
+MaxFactor: 20
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 21 60
+Skill: 132 75
+Skill: 136 95
+Skill: 140 95
+Skill: 141 95
+Skill: 142 95
+Skill: 143 95
+Skill: 144 95
+Skill: 145 95
+Skill: 146 95
+Skill: 147 95
+Skill: 148 95
+Skill: 150 60
+Skill: 154 95
+Skill: 155 50
+Skill: 158 80
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+E
+T 10306
+T 10309
+T 10310
+#10307
+оруженосец~
+оруженосец~
+оруженосца~
+оруженосцу~
+оруженосца~
+оруженосцем~
+оруженосце~
+Оруженосец рыцаря стоит здесь.
+~
+       Молод, да не удал, из хороших битв
+       еще не бегивал, оружие и полуживого господина
+       не нашивал.
+~
+c0d0g0h0m0n0o0A0 k0 -600 E
+22 5 -5 20d15+600 5d3+10
+5d10+50 100000
+8 8 1
+Str: 20
+Dex: 20
+Int: 15
+Wis: 3
+Con: 20
+Cha: 3
+Size: 35
+LikeWork: 60
+MaxFactor: 20
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: a1b1c1 
+Skill: 1 55
+Skill: 136 55
+Skill: 137 80
+Skill: 139 40
+Skill: 141 55
+Skill: 144 55
+Skill: 145 55
+Skill: 147 55
+Spell: 3
+Spell: 3
+Spell: 3
+Spell: 3
+Spell: 3
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+T 10307
+#10308
+певчий~
+певчий~
+певчего~
+певчему~
+певчего~
+певчим~
+певчем~
+Певчий стоит здесь.
+~
+     Песнь его хороша, аж ликует вся душа
+     только будет с него род?
+     Про то бабы ни гугу, ведь он средь всех земных утех
+     только тот не знает грех.
+~
+b0c0d0g0h0m0n0A0 0 -600 E
+16 6 -4 20d15+500 3d5+10
+3d10+50 50000
+8 8 1
+BareHandAttack: 2
+Str: 17
+Dex: 22
+Int: 3
+Wis: 3
+Con: 18
+Cha: 14
+Size: 30
+LikeWork: 40
+MaxFactor: 30
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 136 40
+Skill: 137 60
+Skill: 141 40
+Skill: 145 40
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 114
+E
+#10309
+послушник~
+послушник~
+послушника~
+послушнику~
+послушника~
+послушником~
+послушнике~
+Послушник стоит здесь.
+~
+      Спину согнув, ноги поджав
+      стоит свою службу несчастный послушник.
+~
+c0d0f0g0m0n0o0A0 d0k0 -600 E
+20 4 -6 20d10+600 5d3+10
+5d10+150 100000
+8 8 1
+Str: 18
+Dex: 18
+Int: 12
+Wis: 12
+Con: 18
+Cha: 3
+Size: 30
+LikeWork: 50
+MaxFactor: 30
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 136 55
+Skill: 137 60
+Skill: 141 55
+Skill: 142 55
+Skill: 147 55
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 28
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+#10310
+монах~
+монах~
+монаха~
+монаху~
+монаха~
+монахом~
+монахе~
+Монах стоит здесь.
+~
+    По нему видать, что не до гороха ему и плетей,
+    а подавай знатный ужин и... 
+~
+c0d0g0m0n0o0A0 d0k0 -600 E
+22 4 -6 15d20+700 5d3+10
+5d10+100 120000
+8 8 1
+BareHandAttack: 5
+Str: 19
+Dex: 18
+Int: 12
+Wis: 12
+Con: 21
+Cha: 3
+Size: 30
+LikeWork: 55
+MaxFactor: 40
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 136 60
+Skill: 137 60
+Skill: 141 60
+Skill: 142 60
+Skill: 145 60
+Spell: 2
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+#10311
+монашек~
+монашек~
+монашка~
+монашку~
+монашка~
+монашком~
+монашке~
+Молоденький монашек пробегает мимо.
+~
+    Хоть молод он средь всех монахов,
+    но девки, что с окрестных деревень,
+    боятся его как огня.
+~
+c0d0g0h0m0n0o0A0 0 -600 E
+15 6 -2 10d15+300 5d3+0
+4d10+100 20000
+8 8 1
+Str: 16
+Dex: 23
+Int: 3
+Wis: 3
+Con: 16
+Cha: 12
+Size: 25
+LikeWork: 25
+MaxFactor: 40
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: a1b1c1 
+Skill: 136 40
+Skill: 137 60
+Skill: 139 20
+Skill: 141 40
+Skill: 145 40
+Spell: 15
+Spell: 15
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 98
+E
+#10312
+конюх~
+конюх~
+конюха~
+конюху~
+конюха~
+конюхом~
+конюхе~
+Конюх стоит здесь.
+~
+   Служить при конях его задача, дело
+   конечно благородное, но
+   не очень доходное.
+~
+c0d0g0l0m0n0o0A0 d0 -600 E
+20 2 -7 25d10+750 6d3+10
+3d15+30 75000
+8 8 1
+BareHandAttack: 2
+Str: 21
+Dex: 18
+Int: 3
+Wis: 3
+Con: 20
+Cha: 3
+Size: 35
+LikeWork: 50
+MaxFactor: 20
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 136 50
+Skill: 137 60
+Skill: 141 50
+Skill: 142 50
+Skill: 145 50
+Spell: 28
+Spell: 28
+Spell: 111
+Spell: 111
+E
+#10313
+боевой скакун~
+боевой скакун~
+боевого скакуна~
+боевому скакуну~
+боевого скакуна~
+боевым скакуном~
+боевом скакуне~
+Боевой скакун стоит здесь, ожидая своего хозяина.
+~
+   Ой комонь ты мой комонь, пронеси
+   меня сквозь огонь
+   и воду, и те еще места.
+~
+b0d0g0n0s0 0 0 E
+10 20 10 10d10+100 1d1+1
+0d0+0 0
+8 8 1
+BareHandAttack: 13
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 30
+ExtraAttack: 1
+Class: 103
+Height: 198
+Weight: 200
+Special_Bitvector: n0 
+E
+#10314
+отец настоятель~
+отец-настоятель~
+отца-настоятеля~
+отцу-настоятелю~
+отца-настоятеля~
+отцом-настоятелем~
+отце-настоятеле~
+Отец-настоятель отдыхает здесь.
+~
+       Недовольным взглядом пьяным зыркает,
+       сапогами чиркает, толи рвется голубь в бой,
+       толь не прочь хлебнуть с тобой.
+~
+d0g0n0p0 d0k0 -600 E
+27 2 -7 20d20+1100 5d4+15
+5d10+100 175000
+4 4 1
+Str: 22
+Dex: 18
+Int: 18
+Wis: 18
+Con: 20
+Cha: 3
+Size: 35
+LikeWork: 75
+MaxFactor: 15
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Skill: 136 70
+Skill: 141 70
+Skill: 142 70
+Skill: 145 70
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 124
+Spell: 124
+Helper: 10320
+Helper: 10317
+E
+T 10302
+T 10303
+#10315
+послушник первый помощник~
+послушник~
+послушника~
+послушнику~
+послушника~
+послушником~
+послушнике~
+Послушник стоит здесь.
+~
+      Спину согнув, ноги поджав
+      стоит свою службу несчастный послушник.
+~
+c0d0g0m0n0o0A0 k0 -600 E
+20 4 -6 20d10+600 5d3+10
+5d10+150 75000
+8 8 1
+Str: 18
+Dex: 18
+Int: 12
+Wis: 12
+Con: 18
+Cha: 3
+Size: 30
+LikeWork: 50
+MaxFactor: 30
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 136 55
+Skill: 137 60
+Skill: 141 55
+Skill: 142 55
+Skill: 147 55
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 28
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+#10316
+послушник второй помощник~
+послушник~
+послушника~
+послушнику~
+послушника~
+послушником~
+послушнике~
+Послушник стоит здесь.
+~
+      Спину согнув, ноги поджав
+      стоит свою службу несчастный послушник.
+
+~
+c0d0g0m0n0o0A0 k0 -600 E
+20 4 -6 20d10+600 5d3+10
+5d10+50 75000
+8 8 1
+Str: 18
+Dex: 18
+Int: 12
+Wis: 12
+Con: 18
+Cha: 3
+Size: 30
+LikeWork: 50
+MaxFactor: 30
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 136 55
+Skill: 137 60
+Skill: 141 55
+Skill: 142 55
+Skill: 147 55
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 28
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+#10317
+послушник первый помощник~
+послушник~
+послушника~
+послушнику~
+послушника~
+послушником~
+послушнике~
+Послушник стоит здесь.
+~
+      Спину согнув, ноги поджав
+      стоит свою службу несчастный послушник.
+~
+c0d0g0m0n0o0A0 d0k0 -600 E
+20 4 -6 20d10+600 5d3+10
+5d10+50 75000
+8 8 1
+Str: 18
+Dex: 18
+Int: 12
+Wis: 12
+Con: 18
+Cha: 3
+Size: 30
+LikeWork: 50
+MaxFactor: 30
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 136 55
+Skill: 137 60
+Skill: 141 55
+Skill: 142 55
+Skill: 147 55
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 28
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+#10318
+монах первый помощник~
+монах~
+монаха~
+монаху~
+монаха~
+монахом~
+монахе~
+Монах стоит здесь.
+~
+    По нему видать, что не до гороха ему и плетей,
+    а подавай знатный ужин и...
+~
+c0d0g0m0n0o0A0 k0 -600 E
+22 4 -6 15d20+700 5d3+10
+5d10+100 90000
+8 8 1
+BareHandAttack: 5
+Str: 19
+Dex: 18
+Int: 12
+Wis: 12
+Con: 21
+Cha: 3
+Size: 30
+LikeWork: 55
+MaxFactor: 40
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 136 60
+Skill: 137 60
+Skill: 141 60
+Skill: 142 60
+Skill: 145 60
+Spell: 2
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+#10319
+монах второй помощник~
+монах~
+монаха~
+монаху~
+монаха~
+монахом~
+монахе~
+Монах стоит здесь.
+~
+    По нему видать, что не до гороха ему и плетей,
+    а подавай знатный ужин и...
+~
+c0d0g0m0n0o0A0 k0 -600 E
+22 4 -6 15d20+700 5d3+10
+5d10+100 90000
+8 8 1
+BareHandAttack: 5
+Str: 19
+Dex: 18
+Int: 12
+Wis: 12
+Con: 21
+Cha: 3
+Size: 30
+LikeWork: 55
+MaxFactor: 40
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 136 60
+Skill: 137 60
+Skill: 141 60
+Skill: 142 60
+Skill: 145 60
+Spell: 2
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+#10320
+монах третий помощник~
+монах~
+монаха~
+монаху~
+монаха~
+монахом~
+монахе~
+Монах стоит здесь.
+~
+    По нему видать, что не до гороха ему и плетей,
+    а подавай знатный ужин и...
+~
+c0d0g0m0n0o0A0 k0 -600 E
+22 4 -6 15d20+700 5d3+10
+5d10+100 90000
+8 8 1
+BareHandAttack: 5
+Str: 19
+Dex: 18
+Int: 12
+Wis: 12
+Con: 21
+Cha: 3
+Size: 30
+LikeWork: 55
+MaxFactor: 40
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 136 60
+Skill: 137 60
+Skill: 141 60
+Skill: 142 60
+Skill: 145 60
+Spell: 2
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+#10321
+отец инквизитор первый помощник~
+отец-инквизитор~
+отца-инквизитора~
+отцу-инквизитору~
+отца-инквизитора~
+отцом-инквизитором~
+отце-инквизиторе~
+Отец-инквизитор стоит здесь.
+~
+   Речи величавы, да глаза лукавы,
+   Взглядом так и рыскает - ересь выискивает.
+   Как только узреет - вмиг молодеет,
+   Мечом вырубает, огнем выжигает.
+~
+d0g0l0m0n0o0B0 k0 0 E
+25 4 -6 20d15+1000 6d4+10
+3d20+200 175000
+8 8 1
+BareHandAttack: 2
+Str: 21
+Dex: 21
+Int: 21
+Wis: 21
+Con: 21
+Cha: 3
+Size: 40
+LikeWork: 75
+MaxFactor: 20
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 22 40
+Skill: 131 60
+Skill: 132 40
+Skill: 136 90
+Skill: 140 80
+Skill: 141 80
+Skill: 142 80
+Skill: 145 80
+Skill: 150 50
+Skill: 151 50
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 94
+Spell: 94
+E
+#10322
+латинский рыцарь~
+латинский рыцарь~
+латинского рыцаря~
+латинскому рыцарю~
+латинского рыцаря~
+латинским рыцарем~
+латинском рыцаре~
+Латинский рыцарь стоит здесь.
+~
+   Поступь горделива, да взгляд надменен,
+   Спина - как аршин проглотил.
+~
+c0d0g0l0m0n0o0A0 d0h0k0 -600 E
+28 1 -9 20d15+1000 5d4+20
+4d10+300 200000
+8 8 1
+BareHandAttack: 7
+Destination: 10305
+Destination: 10320
+Destination: 10321
+Str: 24
+Dex: 18
+Int: 15
+Wis: 15
+Con: 24
+Cha: 3
+Size: 45
+LikeWork: 90
+MaxFactor: 20
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 21 60
+Skill: 132 75
+Skill: 136 95
+Skill: 140 95
+Skill: 141 95
+Skill: 142 95
+Skill: 143 95
+Skill: 144 95
+Skill: 145 95
+Skill: 146 95
+Skill: 147 95
+Skill: 148 95
+Skill: 150 60
+Skill: 154 95
+Skill: 155 50
+Skill: 158 80
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+E
+T 10306
+#10323
+оруженосец~
+оруженосец~
+оруженосца~
+оруженосцу~
+оруженосца~
+оруженосцем~
+оруженосце~
+Оруженосец рыцаря стоит здесь.
+~
+undefined
+~
+c0d0g0h0m0n0o0A0 k0 -600 E
+22 5 -5 20d15+600 5d3+10
+5d10+150 100000
+8 8 1
+Str: 20
+Dex: 25
+Int: 15
+Wis: 3
+Con: 20
+Cha: 3
+Size: 35
+LikeWork: 60
+MaxFactor: 20
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: a1b1c1 
+Skill: 1 55
+Skill: 136 55
+Skill: 137 80
+Skill: 139 40
+Skill: 141 55
+Skill: 144 55
+Skill: 145 55
+Skill: 147 55
+Spell: 3
+Spell: 3
+Spell: 3
+Spell: 3
+Spell: 3
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+T 10307
+#10324
+латинский рыцарь~
+латинский рыцарь~
+латинского рыцаря~
+латинскому рыцарю~
+латинского рыцаря~
+латинским рыцарем~
+латинском рыцаре~
+Латинский рыцарь стоит здесь.
+~
+   Поступь горделива, да взгляд надменен,
+   Спина - как аршин проглотил.
+~
+c0d0g0l0m0n0o0A0 h0k0 -600 E
+28 1 -9 20d15+1000 5d4+20
+4d10+200 180000
+8 8 1
+BareHandAttack: 7
+Destination: 10305
+Destination: 10329
+Destination: 10338
+Str: 24
+Dex: 18
+Int: 15
+Wis: 15
+Con: 24
+Cha: 3
+Size: 45
+LikeWork: 90
+MaxFactor: 20
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 21 60
+Skill: 132 75
+Skill: 136 95
+Skill: 140 95
+Skill: 141 95
+Skill: 142 95
+Skill: 143 95
+Skill: 144 95
+Skill: 145 95
+Skill: 146 95
+Skill: 147 95
+Skill: 148 95
+Skill: 150 60
+Skill: 154 95
+Skill: 155 50
+Skill: 158 80
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+E
+T 10306
+T 10309
+T 10310
+#10325
+оруженосец~
+оруженосец~
+оруженосца~
+оруженосцу~
+оруженосца~
+оруженосцем~
+оруженосце~
+Оруженосец рыцаря стоит здесь.
+~
+       Молод, да не удал, из хороших битв
+       еще не бегивал, оружие и полуживого господина
+       не нашивал.
+~
+c0d0g0h0m0n0o0A0 k0 -600 E
+22 5 -5 20d15+600 5d3+10
+5d10+150 100000
+8 8 1
+Str: 20
+Dex: 20
+Int: 15
+Wis: 3
+Con: 20
+Cha: 3
+Size: 35
+LikeWork: 60
+MaxFactor: 20
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: a1b1c1 
+Skill: 1 55
+Skill: 136 55
+Skill: 137 80
+Skill: 139 40
+Skill: 141 55
+Skill: 144 55
+Skill: 145 55
+Skill: 147 55
+Spell: 3
+Spell: 3
+Spell: 3
+Spell: 3
+Spell: 3
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+T 10307
+$

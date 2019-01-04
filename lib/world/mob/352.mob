@@ -1,0 +1,532 @@
+#35200
+охотник  пармек~
+охотник-пармек~
+охотника-пармека~
+охотнику-пармеку~
+охотника-пармека~
+охотником-пармеком~
+охотнике-пармеке~
+Невысокого роста кряжистый мужик с большой бородой сидит на топчане.
+~
+undefined~
+b0d0g0 n1 600 E
+30 2 10 10d55+100 6d8+10
+1d1+1 0
+6 6 1
+BareHandAttack: 10
+Str: 25
+Dex: 19
+Int: 15
+Wis: 15
+Con: 25
+Cha: 16
+Size: 50
+ExtraAttack: 1
+Class: 102
+Height: 30
+Weight: 150
+Special_Bitvector: 0 
+E
+#35201
+куница~
+куница~
+куницы~
+кунице~
+куницу~
+куницей~
+кунице~
+Маленькая куница пробегает мимо вас.
+~
+
+~
+d0g0h0k0m0p0r0x0f1l1m1n1 k0p0s0z0m1 0 E
+28 10 -5 30d60+450 5d6+10
+8d5+30 80000
+8 8 2
+BareHandAttack: 4
+Str: 30
+Dex: 23
+Con: 15
+Cha: 13
+Size: 45
+ExtraAttack: 2
+Class: 103
+Height: 30
+Weight: 135
+Special_Bitvector: g0i0p0 
+Skill: 21 60
+Skill: 133 60
+Skill: 136 80
+Skill: 150 200
+Skill: 160 100
+E
+#35202
+енот~
+енот~
+енота~
+еноту~
+енота~
+енотом~
+еноте~
+Пушистый енот пробегает мимо вас.
+~
+
+~
+d0g0h0k0m0x0d1k1n1 k0z0 0 E
+25 3 -5 30d60+150 2d4+15
+8d60+50 100000
+8 8 1
+BareHandAttack: 1
+Str: 26
+Dex: 19
+Int: 16
+Wis: 16
+Con: 14
+Cha: 17
+Size: 55
+Class: 103
+Height: 30
+Weight: 130
+Special_Bitvector: p0 
+Skill: 4 100
+Skill: 132 80
+Skill: 139 80
+Skill: 157 70
+Spell: 26
+Spell: 26
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 38
+Spell: 38
+Spell: 40
+E
+#35203
+фазан~
+фазан~
+фазана~
+фазану~
+фазана~
+фазаном~
+фазане~
+Крупный фазан отдыхает в траве.
+~
+
+~
+d0g0m0n0b1l1m1n1 z0 0 E
+28 1 -9 85d60+160 6d6+5
+5d60+40 110000
+5 5 1
+BareHandAttack: 2
+Str: 28
+Dex: 20
+Int: 14
+Wis: 14
+Con: 21
+Cha: 7
+Size: 45
+ExtraAttack: 2
+Class: 103
+Height: 30
+Weight: 135
+Special_Bitvector: l0 
+Skill: 21 45
+Skill: 133 60
+Skill: 136 35
+Skill: 150 200
+Skill: 160 100
+Spell: 6
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 23
+Spell: 23
+Spell: 30
+Spell: 30
+Spell: 40
+Spell: 54
+Spell: 54
+Spell: 54
+E
+T 35210
+#35204
+барсук~
+барсук~
+барсука~
+барсуку~
+барсука~
+барсуком~
+барсуке~
+Полосатый барсук виднеется в траве.
+~
+
+~
+b0d0g0m0A0g1l1m1n1 t0z0 0 E
+27 0 -7 35d60+160 5d4+15
+4d60+60 35000
+8 8 1
+BareHandAttack: 8
+Str: 30
+Dex: 19
+Int: 14
+Wis: 14
+Con: 21
+Cha: 10
+Size: 60
+LikeWork: 35
+ExtraAttack: 2
+Class: 103
+Height: 30
+Weight: 140
+Special_Bitvector: 0 
+Skill: 4 100
+Skill: 133 60
+Skill: 136 80
+Skill: 150 200
+Skill: 160 200
+Spell: 40
+Spell: 40
+E
+#35205
+камышовый кот хаус~
+хаус~
+хауса~
+хаусу~
+хауса~
+хаусом~
+хаусе~
+Камышовый кот прячется среди листвы и травы.
+~
+
+~
+d0g0m0t0A0d1e1 c0d0f0k0s0t0z0 0 E
+30 5 -7 19d90+151 8d4+15
+4d60+100 90000
+8 8 1
+BareHandAttack: 8
+Str: 25
+Dex: 30
+Int: 14
+Wis: 14
+Con: 15
+Size: 55
+ExtraAttack: 2
+Class: 103
+Height: 30
+Weight: 135
+Special_Bitvector: a1 
+Skill: 133 60
+Skill: 136 80
+Skill: 139 100
+Skill: 150 200
+Skill: 160 200
+Spell: 40
+Spell: 40
+E
+T 35207
+#35206
+упырь~
+упырь~
+упыря~
+упырю~
+упыря~
+упырем~
+упыре~
+Толстобрюхий, с блестящей скользкой кожей упырь ползает здесь.
+~
+   Упырь блестит, как смазанный свиным салом. Приподнимается на всех четы-
+рех лапах, тяжело и надсадно квакает. Его живот с трудом отрывается от мок-
+рого дерева, а покрытая слизью кожа становится матовой, собирается складка-
+ми.
+~
+d0g0j0o0p0x0z0a1f1l1m1n1 f0k0n0m1 0 E
+29 3 -5 20d50+265 8d4+2
+0d0+0 150000
+8 8 1
+BareHandAttack: 8
+Str: 32
+Dex: 13
+Int: 14
+Wis: 15
+Con: 15
+Cha: 8
+Size: 65
+LikeWork: 60
+ExtraAttack: 1
+Class: 101
+Height: 30
+Weight: 130
+Special_Bitvector: m0v0 
+Skill: 141 10
+Skill: 142 10
+Skill: 143 10
+Skill: 144 10
+Skill: 145 10
+Skill: 146 10
+Skill: 147 10
+Skill: 148 10
+Skill: 151 10
+Skill: 154 10
+Skill: 155 10
+Spell: 6
+Spell: 6
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 56
+Spell: 56
+Spell: 93
+Spell: 93
+E
+T 35209
+#35207
+навья~
+навья~
+навьи~
+навье~
+навью~
+навьей~
+навье~
+Вот и пришла навья за кем-то из смертных.
+~
+
+~
+b0d0g0k0n0p0z0A0g1i1l1m1n1a2 c0d0k0z0 0 E
+22 5 -9 50d50+65 6d5+5
+0d0+0 155000
+8 8 2
+Str: 24
+Dex: 9
+Int: 27
+Wis: 27
+Con: 15
+Cha: 16
+Size: 50
+Class: 101
+Height: 30
+Weight: 130
+Special_Bitvector: l0u0 
+Skill: 136 40
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 38
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 62
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 94
+Spell: 111
+Spell: 111
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 128
+Spell: 128
+Spell: 132
+E
+#35208
+зеленое чудовище~
+зеленое чудовище~
+зеленого чудовища~
+зеленому чудовищу~
+зеленое чудовище~
+зеленым чудовищем~
+зеленом чудовище~
+Страшное лесное чудовище выползло из-за дальних деревьев.
+~
+  Вместо  зубов  у  зверя  белеют  толстые роговые  пластинки,  похожие  на  
+ребра,  а  язык  дергается длинный, с раздвоенным концом.
+~
+d0g0j0n0A0a1b1f1i1b2d2 d0f0k0C0 -600 E
+30 15 -9 50d100+165 8d6+15
+0d0+0 300000
+8 8 0
+BareHandAttack: 4
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 20
+ExtraAttack: 2
+Class: 103
+Height: 200
+Weight: 150
+Special_Bitvector: m0w0 
+Skill: 4 100
+Skill: 136 80
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 151 80
+Skill: 154 80
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 110
+Helper: 35207
+E
+T 35202
+#35209
+зеленое чудовище~
+зеленое чудовище~
+зеленого чудовища~
+зеленому чудовищу~
+зеленое чудовище~
+зеленым чудовищем~
+зеленом чудовище~
+Страшное лесное чудовище выползло из-за дальних деревьев.
+~
+  Вместо  зубов  у  зверя  белеют  толстые роговые  пластинки,  похожие  на  
+ребра,  а  язык  дергается длинный, с раздвоенным концом.
+
+~
+d0g0j0n0A0a1b1f1i1d2 d0f0k0C0 -600 E
+26 1 -5 11d20+1200 8d6+3
+0d0+0 150000
+8 8 0
+BareHandAttack: 4
+Str: 26
+Dex: 16
+Int: 15
+Wis: 15
+Con: 22
+Cha: 15
+Size: 70
+LikeWork: 20
+ExtraAttack: 3
+Class: 103
+Height: 70
+Weight: 70
+Special_Bitvector: m0w0 
+Skill: 4 100
+Skill: 136 80
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 151 80
+Skill: 154 80
+Spell: 28
+Spell: 28
+Spell: 110
+E
+T 35205
+#35210
+охотник~
+охотник~
+охотника~
+охотнику~
+охотника~
+охотником~
+охотнике~
+Суровый лесной охотник стоит здесь.
+~
+
+~
+b0d0g0l0n0p0q0r0t0u0x0B0 n1 600 E
+23 2 3 10d155+100 6d8+1
+1d1+1 0
+8 8 1
+BareHandAttack: 10
+Str: 25
+Dex: 19
+Int: 15
+Wis: 15
+Con: 25
+Cha: 16
+Size: 50
+Class: 102
+Weight: 180
+Special_Bitvector: 0 
+E
+T 35208
+#35211
+горонстай~
+горностай~
+горностая~
+горностаю~
+горностая~
+горностаем~
+горностае~
+Пушистый горностай свирепо шипит на вас с ветки.
+~
+Свирепый маленький хищник,
+недовольный появлением двуногих 
+в своем лесу.
+~
+d0g0m0n0b1l1m1n1 z0 0 E
+28 1 -9 85d60+160 6d6+12
+5d60+40 110000
+5 5 1
+BareHandAttack: 2
+Str: 28
+Dex: 20
+Int: 14
+Wis: 14
+Con: 21
+Cha: 7
+Size: 45
+ExtraAttack: 2
+Class: 103
+Height: 30
+Weight: 135
+Special_Bitvector: l0 
+Skill: 21 45
+Skill: 133 60
+Skill: 136 35
+Skill: 150 200
+Skill: 160 100
+Spell: 6
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 23
+Spell: 23
+Spell: 30
+Spell: 30
+Spell: 54
+Spell: 54
+Spell: 54
+E
+$

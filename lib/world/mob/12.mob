@@ -1,0 +1,180 @@
+* BRusMUD mob file v1.0
+#1200
+Ваня Шарко~
+Ваня~
+Вани~
+Ване~
+Ваню~
+Ваней~
+Ване~
+В троне сидиn Ваня Шарко и играет на вонючем Pentium
+~
+~
+b0c0g0p0q0r0t0u0x0A0h1 0 -600 E
+28 0 -4 50d20+8000 26d2+100
+100d60+20000 9000000
+6 6 1
+BareHandAttack: 6
+Str: 36
+Int: 20
+Wis: 24
+Dex: 25
+Con: 36
+Cha: 36
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 3
+Class: 101
+Size: 60
+Height: 0
+Weight: 220
+Special_Bitvector: y0b1c1d1
+E
+#1201
+Страж~
+Страж замка~
+Стража~
+Стражу~
+Стража~
+Стража~
+Страже~
+Страж проходит мимо, строго поглядывая по сторонам
+~
+~
+c0 0 -600 E
+23 5 -5 50d50+500 20d1+5
+50d50+500 50000
+8 8 1
+BareHandAttack: 3
+Str: 30
+Int: 11
+Wis: 11
+Dex: 23
+Con: 36
+Cha: 10
+LikeWork: 5
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 50
+Height: 0
+Weight: 200
+Skill: 136 200
+Skill: 141 200
+Skill: 142 200
+Skill: 143 200
+Skill: 144 200
+Skill: 145 200
+Skill: 146 200
+Skill: 147 200
+Skill: 148 200
+Skill: 151 60
+E
+#1202
+Охранник ворот~
+Охранник Ворот~
+Охранника Ворот~
+Охраннику Ворот~
+Охранника Ворот~
+Охранником Ворот~
+Охраннике Ворот~
+Охранник стоит у ворот в замок
+~
+~
+b0m0 0 -600 E
+25 5 4 0d0+2000 20d1+0
+0d0+500 600000
+8 8 1
+BareHandAttack: 2
+Str: 26
+Int: 11
+Wis: 11
+Dex: 36
+Con: 30
+Cha: 36
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 50
+Height: 0
+Weight: 150
+E
+#1203
+Охранник Марат~
+Марат~
+Марата~
+Марату~
+Марата~
+Маратом~
+Марате~
+Охранник Марат стоит около ворот почему-то пританцовывая.
+~
+~
+b0c0h0m0 0 0 E
+22 4 -5 20d20+5000 50d1+5
+50d5+10000 1000000
+8 8 1
+BareHandAttack: 11
+Str: 23
+Int: 36
+Wis: 36
+Dex: 30
+Con: 10
+Cha: 20
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 3
+Class: 102
+Size: 50
+Height: 0
+Weight: 100
+Special_Bitvector: a0
+Skill: 22 200
+Skill: 132 30
+Skill: 134 150
+Skill: 136 200
+Skill: 143 200
+Skill: 144 200
+Skill: 145 200
+E
+#1205
+Егоров Андрей~
+Андрей Егоров~
+Андрея Егорова~
+Андрею Егорову~
+Андрея Егорова~
+Андреем Егорвым~
+Андее Егорове~
+Толстый колобок Андрей Егров сидит здесь за прилавком.
+~
+~
+b0c0l0 0 0 E
+28 0 10 1d1+10000 1d1+200
+1d1+20000 10000000
+6 6 1
+BareHandAttack: 8
+Str: 36
+Int: 4
+Wis: 4
+Dex: 15
+Con: 15
+Cha: 0
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 0
+Weight: 250
+Skill: 4 200
+Skill: 5 200
+Skill: 21 200
+Skill: 132 200
+Skill: 134 200
+Skill: 136 200
+Skill: 145 200
+Skill: 158 200
+E
+$
+$

@@ -1,0 +1,813 @@
+#92400
+саламандра~
+саламандра~
+саламандры~
+саламандре~
+саламандру~
+саламандрой~
+саламандре~
+Саламандра, извиваясь, ползет по полу..
+~
+
+~
+d0f0m0n0o0p0x0g2 d0f0k0s0p1y1 -600 E
+30 0 -7 10d10+2400 7d7+40
+0d0+0 950000
+8 8 2
+BareHandAttack: 4
+Str: 20
+Dex: 32
+Int: 24
+Wis: 28
+Con: 15
+Cha: 14
+Size: 100
+LikeWork: 100
+MaxFactor: 50
+ExtraAttack: 2
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: m0x0C3 
+Skill: 22 100
+Skill: 136 100
+Skill: 137 90
+Skill: 157 100
+Skill: 167 80
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 82
+Spell: 82
+E
+T 92403
+T 92404
+T 92422
+#92401
+черт~
+черт~
+черта~
+черту~
+черта~
+чертом~
+черте~
+Черт стоит здесь.
+~
+
+~
+c0d0f0m0n0o0p0x0A0g2 d0f0k0s0p1y1 -600 E
+33 0 -8 10d10+4000 11d7+40
+0d0+0 1500000
+8 8 1
+BareHandAttack: 6
+Str: 34
+Dex: 32
+Int: 24
+Wis: 28
+Con: 29
+Cha: 14
+Size: 100
+LikeWork: 100
+MaxFactor: 50
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: x0b1c1B3 
+Skill: 5 120
+Skill: 21 40
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Spell: 28
+Spell: 28
+Spell: 88
+Spell: 88
+Spell: 112
+E
+T 92403
+T 92405
+T 92421
+#92402
+адская гончая~
+адская гончая~
+адской гончей~
+адской гончей~
+адскую гончую~
+адской гончей~
+адской гончей~
+Адская гончая бегает тут.
+~
+
+~
+d0f0m0n0o0p0x0z0a2g2 d0f0k0s0p1y1 -600 E
+25 0 -7 10d10+1400 30d14+40
+0d0+0 580000
+8 8 2
+BareHandAttack: 4
+Str: 20
+Dex: 32
+Int: 16
+Wis: 28
+Con: 22
+Cha: 14
+Size: 100
+LikeWork: 100
+MaxFactor: 50
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: m0p0x0C3 
+Skill: 132 100
+Skill: 134 100
+Skill: 136 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 82
+Spell: 82
+E
+T 92403
+#92403
+огненный великан~
+огненный великан~
+огненного великана~
+огненному великану~
+огненного великана~
+огненным великаном~
+огненном великане~
+Огненный великан стоит тут
+~
+
+~
+c0d0f0m0n0o0p0x0A0g2 d0f0k0s0p1y1 -600 E
+36 0 -8 10d10+8000 20d9+40
+0d0+0 2400000
+8 8 1
+BareHandAttack: 6
+Str: 34
+Dex: 28
+Int: 24
+Wis: 28
+Con: 34
+Cha: 14
+Size: 100
+LikeWork: 100
+MaxFactor: 20
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: x0b1c1B3 
+Skill: 4 140
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 88
+Spell: 88
+Spell: 145
+E
+T 92403
+T 92405
+T 92424
+#92404
+огненный вихрь~
+огненный вихрь~
+огненного вихря~
+огненному вихрю~
+огненного вихря~
+огненным вихрем~
+огненном вихре~
+Огненный вихрь бушует тут.
+~
+
+~
+d0f0m0n0o0p0q0a2i2 d0f0k0A0p1y1 -600 E
+32 0 -9 10d10+3800 20d10+50
+0d0+0 1800000
+8 8 1
+BareHandAttack: 2
+Str: 24
+Dex: 30
+Int: 16
+Wis: 16
+Con: 30
+Cha: 16
+Size: 100
+LikeWork: 100
+MaxFactor: 30
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: x0C3 
+Skill: 22 100
+Skill: 157 100
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+E
+T 92403
+T 92406
+T 92407
+T 92423
+#92405
+огненный элементал~
+огненный элементал~
+огненного элементала~
+огненному элементалу~
+огненного элементала~
+огненным элементалом~
+огненном элементале~
+Огненный элементал летает тут.
+~
+
+~
+d0f0m0n0o0p0r0t0u0a2 d0f0k0x0p1y1 -600 E
+38 0 -9 10d10+6700 20d10+20
+0d0+0 3000000
+8 8 1
+Str: 24
+Dex: 30
+Int: 28
+Wis: 28
+Con: 30
+Cha: 16
+Size: 100
+LikeWork: 100
+MaxFactor: 20
+ExtraAttack: 1
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: x0 
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+E
+T 92403
+T 92408
+T 92409
+#92406
+бес~
+бес~
+беса~
+бесу~
+беса~
+бесом~
+бесе~
+Злобный бес стоит здесь.
+~
+
+~
+c0d0f0m0n0o0p0x0A0q1g2 d0f0k0s0p1y1 -600 E
+28 3 -6 10d10+1200 11d7+10
+0d0+0 200000
+8 8 1
+Str: 23
+Dex: 24
+Int: 18
+Wis: 22
+Con: 23
+Cha: 14
+Size: 100
+LikeWork: 100
+MaxFactor: 50
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: x0b1c1 
+Skill: 132 120
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+E
+T 92405
+#92407
+черт~
+черт~
+черта~
+черту~
+черта~
+чертом~
+черте~
+Черт стоит здесь.
+~
+
+~
+c0d0f0m0n0o0p0x0A0q1g2 d0f0k0s0p1y1 -600 E
+31 0 -8 10d10+2000 11d7+40
+0d0+0 400000
+8 8 1
+BareHandAttack: 6
+Str: 34
+Dex: 32
+Int: 24
+Wis: 28
+Con: 29
+Cha: 14
+Size: 100
+LikeWork: 100
+MaxFactor: 50
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: x0b1c1B3 
+Skill: 5 120
+Skill: 21 40
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Spell: 28
+Spell: 28
+Spell: 88
+Spell: 88
+Spell: 112
+E
+T 92405
+#92408
+огненный великан~
+огненный великан~
+огненного великана~
+огненному великану~
+огненного великана~
+огненным великаном~
+огненном великане~
+Огненный великан стоит тут
+~
+
+~
+c0d0f0m0n0o0p0x0A0q1g2 d0f0k0s0p1y1 -600 E
+33 0 -8 10d10+4000 18d9+20
+0d0+0 800000
+8 8 1
+BareHandAttack: 6
+Str: 34
+Dex: 28
+Int: 24
+Wis: 28
+Con: 34
+Cha: 14
+Size: 100
+LikeWork: 100
+MaxFactor: 20
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: x0b1c1B3 
+Skill: 4 140
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 88
+Spell: 88
+Spell: 145
+E
+T 92405
+#92409
+огненный элементал~
+огненный элементал~
+огненного элементала~
+огненному элементалу~
+огненного элементала~
+огненным элементалом~
+огненном элементале~
+Огненный элементал летает тут.
+~
+
+~
+d0f0m0n0o0p0r0t0u0q1a2 d0f0k0x0p1y1 -600 E
+38 0 -9 10d10+6700 20d10+20
+0d0+0 1200000
+8 8 1
+Str: 24
+Dex: 30
+Int: 28
+Wis: 28
+Con: 30
+Cha: 16
+Size: 100
+LikeWork: 100
+MaxFactor: 20
+ExtraAttack: 1
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: x0 
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+E
+T 92408
+#92410
+красная пентаграмма_92410~
+красная пентаграмма~
+красной пентаграммы~
+красной пентаграмме~
+красную пентаграмму~
+красной пентаграммой~
+красной пентаграмме~
+Красная пентаграмма висит в воздухе!
+~
+
+~
+b0d0m0n0o0p0q0r0t0u0x0a2h2i2 d0f0k0m0n0r0A0a1p1r1x1y1z1 -600 E
+50 0 -10 126d126+20000 10d10+10
+0d0+0 3000000
+8 8 2
+Str: 3
+Dex: 10
+Int: 35
+Wis: 35
+Con: 35
+Cha: 10
+Size: 100
+LikeWork: 100
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: x0C3 
+Skill: 22 200
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 149
+Spell: 149
+Spell: 149
+Spell: 149
+Spell: 149
+E
+T 92411
+T 92419
+T 92420
+#92411
+страж портала_92411~
+страж портала~
+стража портала~
+стражу портала~
+страж портала~
+стражем портала~
+страже портала~
+Страж портала стоит около пентаграммы!
+~
+
+~
+b0d0f0n0o0p0r0t0u0x0z0q1 d0f0k0x0p1r1x1y1z1 -600 E
+30 0 -10 10d10+5000 14d9+10
+0d0+0 750000
+8 8 1
+Str: 24
+Dex: 34
+Int: 34
+Wis: 34
+Con: 25
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: x0b1c1 
+Skill: 132 140
+Skill: 136 140
+Skill: 137 100
+Skill: 141 120
+Skill: 142 120
+Skill: 143 120
+Skill: 144 120
+Skill: 145 120
+Skill: 146 120
+Skill: 147 120
+Skill: 148 120
+Skill: 150 120
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 56
+Spell: 56
+Spell: 94
+Spell: 94
+Spell: 151
+E
+T 92403
+#92412
+саламандра~
+саламандра~
+саламандры~
+саламандре~
+саламандру~
+саламандрой~
+саламандре~
+Саламандра, извиваясь, ползет по полу..
+~
+
+~
+d0f0m0n0o0p0x0q1g2 d0f0k0s0p1y1 -600 E
+30 0 -7 10d10+2400 7d7+40
+0d0+0 950000
+8 8 2
+BareHandAttack: 4
+Str: 20
+Dex: 32
+Int: 24
+Wis: 28
+Con: 15
+Cha: 14
+Size: 100
+LikeWork: 100
+MaxFactor: 50
+ExtraAttack: 2
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: m0x0C3 
+Skill: 22 100
+Skill: 136 100
+Skill: 137 90
+Skill: 157 100
+Skill: 167 80
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 82
+Spell: 82
+E
+T 92404
+#92413
+безумный колдун~
+безумный колдун~
+безумного колдуна~
+безумному колдуну~
+безумного колдуна~
+безумным колдуном~
+безумном колдуне~
+Безумный колдун склонился над пентаграммой!
+~
+
+~
+b0d0f0n0o0g2 d0f0k0p1x1y1z1 0 E
+40 4 -8 10d10+3800 12d7+1
+0d0+0 2400000
+8 8 1
+Str: 17
+Dex: 15
+Int: 30
+Wis: 35
+Con: 24
+Cha: 14
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: c0C3 
+Skill: 22 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+E
+T 92403
+T 92426
+$

@@ -1,0 +1,1507 @@
+#67900
+ходячий костяк~
+ходячий костяк~
+ходячего костяка~
+ходячему костяку~
+ходячий костяк~
+ходячим костяком~
+ходячем костяке~
+Некогда сильный воин, а теперь груда костей.
+~
+   О ужас, грудой костей, но живая!
+~
+d0f0g0l0m0n0o0p0r0u0x0y0 d0k0m0p0A0w1 -600 E
+31 0 -10 9d10+5000 20d20+15
+0d0+0 450000
+8 8 1
+Str: 35
+Dex: 26
+Int: 20
+Wis: 21
+Con: 15
+Cha: 16
+Size: 100
+LikeWork: 20
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 155
+Weight: 100
+Special_Bitvector: m0b1c1h3C3 
+Skill: 4 50
+Skill: 22 50
+Skill: 136 100
+Spell: 93
+Spell: 152
+E
+#67901
+каменный демон~
+каменный демон~
+каменного демона~
+каменному демону~
+каменного демона~
+каменным демоном~
+каменном демоне~
+Ужасное существо с пылающими глазами.
+~
+   Этому демону подвластны силы камня!
+~
+b0c0d0f0g0l0m0n0o0p0x0A0 d0f0h0k0m0t1 -600 E
+30 0 -10 3d10+5000 20d20+20
+0d0+5000 500000
+8 8 1
+Str: 29
+Dex: 20
+Int: 20
+Wis: 20
+Con: 29
+Cha: 18
+Size: 100
+LikeWork: 35
+MaxFactor: 5
+ExtraAttack: 1
+Class: 101
+Height: 200
+Weight: 150
+Special_Bitvector: c1m3C3 
+Skill: 4 30
+Skill: 22 80
+Skill: 132 50
+Skill: 136 100
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 152
+Helper: 67903
+Helper: 67902
+E
+T 67901
+#67902
+оживший камень~
+оживший камень ~
+ожившего камня~
+ожившему камню~
+оживший камень~
+ожившим камнем~
+ожившем камне~
+Огромный валун с формами воина так и норовит растоптать вас!
+~
+   Ужасное создание, созданное из твердого камня!
+~
+b0d0g0l0m0n0o0x0z0i2 d0f0h0m0z0A0t1 -600 E
+30 0 -3 8d10+1700 10d10+10
+0d0+0 300000
+8 8 1
+Str: 36
+Dex: 15
+Int: 15
+Wis: 15
+Con: 36
+Cha: 12
+Size: 100
+LikeWork: 30
+MaxFactor: 3
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: w0c1m3C3 
+Skill: 4 30
+Skill: 22 50
+Skill: 136 100
+Spell: 23
+Spell: 23
+E
+#67903
+оживший камень~
+оживший камень ~
+ожившего камня~
+ожившему камню~
+оживший камень~
+ожившим камнем~
+ожившем камне~
+Огромный валун с формами воина так и норовит растоптать вас!
+~
+   Ужасное создание, созданное из твердого камня!
+~
+b0d0g0l0m0n0o0x0z0 d0f0h0m0z0A0t1 -600 E
+30 0 -3 8d10+1700 10d15+10
+0d0+0 300000
+8 8 1
+Str: 25
+Dex: 15
+Int: 36
+Wis: 36
+Con: 25
+Cha: 12
+Size: 100
+LikeWork: 30
+MaxFactor: 3
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: w0c1m3C3 
+Skill: 5 40
+Skill: 22 50
+Skill: 136 100
+Spell: 28
+Spell: 93
+Spell: 152
+Spell: 152
+E
+#67904
+ходячий костяк~
+ходячий костяк~
+ходячего костяка~
+ходячему костяку~
+ходячий костяк~
+ходячим костяком~
+ходячем костяке~
+Некогда сильный воин, а теперь груда костей.
+~
+   О ужас, грудой костей, но живая!
+~
+d0f0g0l0m0n0o0p0r0u0x0y0 d0k0m0p0A0w1 -600 E
+31 0 -10 9d10+5000 25d25+15
+0d0+0 450000
+8 8 1
+Str: 35
+Dex: 26
+Int: 20
+Wis: 21
+Con: 15
+Cha: 16
+Size: 100
+LikeWork: 20
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 155
+Weight: 100
+Special_Bitvector: m0c1h3C3 
+Skill: 5 50
+Skill: 22 50
+Skill: 136 100
+Spell: 93
+Spell: 152
+E
+#67905
+огненный демон~
+огненный демон~
+огненного демона~
+огненному демону~
+огненного демона~
+огненным демоном~
+огненном демоне~
+Ужасное существо, все окутанное языками пламени.
+~
+   Древний огненный демон.
+~
+b0c0d0f0g0l0m0n0o0x0 c0d0f0h0k0m0r0C0a1p1y1 -600 E
+33 0 -10 5d10+11000 20d16+20
+0d0+5000 700000
+8 8 1
+Str: 35
+Dex: 25
+Int: 25
+Wis: 25
+Con: 20
+Cha: 17
+Size: 100
+LikeWork: 35
+MaxFactor: 7
+ExtraAttack: 3
+Class: 101
+Height: 180
+Weight: 150
+Special_Bitvector: x0b1c1C3 
+Skill: 22 80
+Skill: 134 70
+Skill: 143 100
+Skill: 145 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 82
+Spell: 152
+Helper: 67907
+Helper: 67906
+E
+#67906
+огненный шар~
+огненный шар~
+огненного шара~
+огненному шару~
+огненный шар~
+огненным шаром~
+огненном шаре~
+Огненный шар, парит над землей.
+~
+   О ужас, этот огненный шар как будто имеет свой разум!
+~
+d0f0g0l0m0n0o0p0q0r0u0x0z0 d0f0h0k0n0x0A0C0D0p1y1 -600 E
+28 0 -5 8d10+1000 10d15+20
+0d0+0 250000
+8 8 1
+BareHandAttack: 2
+Str: 30
+Dex: 17
+Int: 27
+Wis: 27
+Con: 17
+Cha: 16
+Size: 100
+LikeWork: 20
+MaxFactor: 4
+ExtraAttack: 1
+Class: 101
+Height: 145
+Weight: 60
+Special_Bitvector: l0x0c1C3 
+Skill: 22 50
+Skill: 136 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 82
+Spell: 82
+Spell: 82
+E
+T 67903
+#67907
+огненный морок~
+огненный морок~
+огненного морока~
+огненному мороку~
+огненный морок~
+огненным мороком~
+огненном мороке~
+Пылающее существо мерно парит над землей.
+~
+Что-то странное полностью окружено языками пламени.
+~
+d0f0g0l0m0n0o0p0q0r0x0z0 d0f0h0k0n0x0A0p1y1 -600 E
+29 0 -5 10d5+1000 11d11+11
+0d0+0 250000
+8 8 1
+BareHandAttack: 2
+Str: 25
+Dex: 20
+Int: 25
+Wis: 25
+Con: 20
+Cha: 13
+Size: 100
+LikeWork: 20
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: l0x0c1C3 
+Skill: 22 50
+Skill: 136 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 66
+Spell: 66
+Spell: 66
+E
+T 67904
+#67908
+огонек~
+огонек~
+огонька~
+огоньку~
+огонек~
+огоньком~
+огоньке~
+Маленький огонек так и норовит подпалить вас!
+~
+   Мелкий огонек!
+~
+d0f0g0l0m0n0o0p0q0r0x0z0i2 d0f0k0n0x0z0A0C0D0p1y1 -600 E
+25 0 0 3d10+500 10d10+10
+0d0+0 100000
+8 8 1
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 16
+Size: 50
+LikeWork: 15
+MaxFactor: 7
+ExtraAttack: 1
+Class: 101
+Height: 50
+Weight: 50
+Special_Bitvector: x0C3 
+Skill: 22 100
+Skill: 136 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+E
+#67909
+огонек~
+огонек~
+огонька~
+огоньку~
+огонек~
+огоньком~
+огоньке~
+Маленький огонек так и норовит подпалить вас!
+~
+   Мелкий огонек!
+~
+d0f0g0l0m0n0o0p0q0r0x0z0i2 d0f0k0n0x0z0A0C0D0p1y1 -600 E
+25 0 0 3d10+500 10d10+10
+0d0+0 100000
+8 8 1
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 16
+Size: 50
+LikeWork: 15
+MaxFactor: 7
+ExtraAttack: 1
+Class: 101
+Height: 50
+Weight: 50
+Special_Bitvector: x0C3 
+Skill: 22 100
+Skill: 136 100
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+E
+#67910
+огонек~
+огонек~
+огонька~
+огоньку~
+огонек~
+огоньком~
+огоньке~
+Маленький огонек так и норовит подпалить вас!
+~
+   Мелкий огонек!
+~
+d0f0g0l0m0n0o0p0q0r0x0z0i2 d0f0k0n0x0z0A0C0D0p1y1 -600 E
+25 0 0 3d10+500 10d10+10
+0d0+0 100000
+8 8 1
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 16
+Size: 50
+LikeWork: 15
+MaxFactor: 7
+ExtraAttack: 1
+Class: 101
+Height: 50
+Weight: 50
+Special_Bitvector: x0C3 
+Skill: 22 100
+Skill: 136 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+E
+#67911
+огромный скелет~
+огромный скелет~
+огромного скелета~
+огромному скелету~
+огромный скелет~
+огромным скелетом~
+огромном скелете~
+Огромных размеров скелет некогда славного воина.
+~
+   Оживший, ходящий костяк.
+~
+d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0A0w1 -600 E
+35 0 -10 5d10+3000 15d20+15
+10d10+15 290000
+8 8 1
+BareHandAttack: 3
+Str: 35
+Dex: 20
+Int: 28
+Wis: 24
+Con: 21
+Cha: 14
+Size: 100
+LikeWork: 30
+MaxFactor: 5
+ExtraAttack: 2
+Class: 101
+Height: 199
+Weight: 130
+Special_Bitvector: p0b1c1C3 
+Skill: 22 50
+Skill: 132 55
+Skill: 136 100
+Skill: 137 55
+Skill: 141 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+E
+#67912
+скелет~
+скелет~
+скелета~
+скелету~
+скелет~
+скелетом~
+скелете~
+Груда полусгнивших костей.
+~
+   Некогда сильный воин, а сейчас просто груда костей.
+~
+d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0r0A0w1 -600 E
+31 0 -5 10d2+2000 10d10+10
+0d0+0 250000
+8 8 1
+Str: 28
+Dex: 21
+Int: 23
+Wis: 19
+Con: 21
+Cha: 14
+Size: 80
+LikeWork: 15
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: m0b1c1C3 
+Skill: 4 30
+Skill: 22 30
+Skill: 134 50
+Skill: 136 100
+Skill: 141 100
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 111
+E
+#67913
+скелет~
+скелет~
+скелета~
+скелету~
+скелет~
+скелетом~
+скелете~
+Груда полусгнивших костей.
+~
+   Некогда сильный воин, а сейчас просто груда костей.
+~
+d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0r0A0w1 -600 E
+27 0 -5 10d2+2000 12d9+10
+0d0+0 250000
+8 8 1
+Str: 28
+Dex: 21
+Int: 23
+Wis: 19
+Con: 21
+Cha: 14
+Size: 89
+LikeWork: 15
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: m0b1c1C3 
+Skill: 1 60
+Skill: 5 30
+Skill: 22 30
+Skill: 136 100
+Skill: 141 100
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 93
+E
+#67914
+большой скелет~
+большой скелет~
+большого скелета~
+большому скелету~
+большой скелет~
+большим скелетом~
+большом скелете~
+Большой, полусгнивший скелет, давно сгинувшего воина.
+~
+   Огромный, злобный скелет.
+~
+d0f0g0l0m0n0o0p0x0y0g2 d0k0m0A0w1 -600 E
+35 0 -10 5d10+4000 15d15+15
+0d0+1233 400000
+8 8 1
+Str: 32
+Dex: 20
+Int: 20
+Wis: 20
+Con: 30
+Cha: 16
+Size: 80
+LikeWork: 40
+MaxFactor: 5
+ExtraAttack: 1
+Class: 101
+Height: 160
+Weight: 70
+Special_Bitvector: m0p0c1C3 
+Skill: 4 50
+Skill: 22 55
+Skill: 132 40
+Skill: 137 60
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+E
+#67915
+скелет~
+скелет~
+скелета~
+скелету~
+скелет~
+скелетом~
+скелете~
+Груда полусгнивших костей.
+~
+   Некогда сильный воин, а сейчас просто груда костей.
+~
+d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0r0A0w1 -600 E
+31 0 -5 10d2+2000 10d10+10
+0d0+0 290000
+8 8 1
+Str: 29
+Dex: 20
+Int: 24
+Wis: 21
+Con: 21
+Cha: 14
+Size: 80
+LikeWork: 15
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: m0b1c1C3 
+Skill: 22 30
+Skill: 134 50
+Skill: 136 100
+Skill: 141 100
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 111
+E
+#67916
+скелет~
+скелет~
+скелета~
+скелету~
+скелет~
+скелетом~
+скелете~
+Груда полусгнивших костей.
+~
+   Некогда сильный воин, а сейчас просто груда костей.
+~
+d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0r0A0w1 -600 E
+29 0 -5 10d2+2000 10d10+10
+0d0+0 290000
+8 8 1
+Str: 27
+Dex: 20
+Int: 23
+Wis: 25
+Con: 21
+Cha: 14
+Size: 80
+LikeWork: 15
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: m0c1C3 
+Skill: 1 50
+Skill: 22 30
+Skill: 134 50
+Skill: 136 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+E
+#67917
+вонючий скелет~
+вонючий скелет~
+вонючего скелета~
+вонючему скелету~
+вонючий скелет~
+вонючим скелетом~
+вонючем скелете~
+Огромный, мерзко пахнущий скелет.
+~
+   Почти полностью сгнивший скелет.
+~
+d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0r0A0w1 -600 E
+30 0 -7 10d4+3800 12d14+15
+0d0+0 350000
+8 8 1
+Str: 27
+Dex: 22
+Int: 25
+Wis: 25
+Con: 19
+Cha: 13
+Size: 60
+LikeWork: 30
+MaxFactor: 7
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: m0c1m3C3 
+Skill: 4 50
+Skill: 22 80
+Skill: 134 60
+Skill: 136 100
+Skill: 137 60
+Spell: 56
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 127
+Spell: 127
+E
+T 67905
+#67918
+трехглавый скелет цербера~
+трехглавый скелет цербера ~
+трехглавого скелета цербера~
+трехглавому скелету цербера~
+трехглавый скелет цербера~
+трехглавым скелетом цербера~
+трехглавом скелете цербера~
+Скелет невиданного чудища, о трех головах.
+~
+   Ужасное создание, так и не успокоившееся после смерти.
+~
+b0d0f0g0l0m0n0o0r0u0x0y0 d0f0k0m0r0z0A0C0q1w1 -600 E
+40 0 -5 4d10+9000 15d15+15
+0d0+0 600000
+8 8 1
+BareHandAttack: 4
+Str: 36
+Dex: 30
+Int: 25
+Wis: 25
+Con: 25
+Cha: 14
+Size: 75
+LikeWork: 35
+MaxFactor: 4
+ExtraAttack: 5
+Class: 101
+Height: 145
+Weight: 90
+Special_Bitvector: c1m3C3 
+Skill: 22 80
+Skill: 136 110
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 56
+Spell: 56
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 93
+Spell: 111
+Spell: 153
+E
+T 67906
+T 67907
+T 67908
+T 67909
+#67919
+скелет~
+скелет~
+скелета~
+скелету~
+скелет~
+скелетом~
+скелете~
+Груда полусгнивших костей.
+~
+   Некогда сильный воин, а сейчас просто груда костей.
+~
+b0c0d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0r0A0w1 -600 E
+40 0 -5 10d2+2000 20d10+10
+0d0+0 250000
+8 8 1
+Str: 27
+Dex: 20
+Int: 23
+Wis: 25
+Con: 21
+Cha: 14
+Size: 80
+LikeWork: 15
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 1 50
+Skill: 22 30
+Skill: 134 50
+Skill: 136 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+E
+#67920
+огромная летучая мышь~
+огромная летучая мышь~
+огромной летучей мыши~
+огромной летучей мыши~
+огромную летучую мышь~
+огромной летучей мышью~
+огромной летучей мыши~
+Огромная летучая мышь.
+~
+   Это создание терпеть не может дневного света, вот и обитает в 
+таких мрачных пещерах.
+~
+d0f0g0l0m0n0o0x0y0 d0f0k0n0x0A0m1r1x1 -600 E
+36 0 -5 3d10+4300 15d9+15
+0d0+0 350000
+8 8 2
+BareHandAttack: 4
+Str: 29
+Dex: 25
+Int: 22
+Wis: 23
+Con: 19
+Cha: 15
+Size: 100
+LikeWork: 30
+MaxFactor: 5
+ExtraAttack: 2
+Class: 103
+Height: 130
+Weight: 50
+Special_Bitvector: l0c1m3C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 137 60
+Skill: 157 50
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 153
+Spell: 153
+Spell: 153
+Helper: 67921
+E
+#67921
+летучая мышь~
+летучая мышь~
+летучей мыши~
+летучей мыши~
+летучую мышь~
+летучей мышью~
+летучей мыши~
+Огромная летучая мышь.
+~
+   Это создание терпеть не может дневного света, вот и обитает в 
+таких мрачных пещерах.
+~
+d0f0g0l0m0n0o0x0y0 d0f0k0n0x0A0m1r1x1 -600 E
+29 0 -2 3d10+1300 10d9+10
+0d0+0 190000
+8 8 2
+BareHandAttack: 4
+Str: 27
+Dex: 22
+Int: 21
+Wis: 21
+Con: 19
+Cha: 15
+Size: 100
+LikeWork: 25
+MaxFactor: 5
+ExtraAttack: 1
+Class: 103
+Height: 130
+Weight: 50
+Special_Bitvector: l0m3B3C3 
+Skill: 21 45
+Skill: 22 50
+Skill: 136 100
+Skill: 157 50
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 72
+Spell: 72
+Spell: 72
+E
+#67922
+костяной дух~
+костяной дух~
+костяного духа~
+костяному духу~
+костяной дух~
+костяным духом~
+костяном духе~
+Ужасная тварь, почти полностью лишенная тела.
+~
+   Ужасная костяная тварь!
+~
+d0f0g0l0m0n0o0q0y0z0 b0d0f0k0m0n0r0x0z0A0q1 -600 E
+43 0 -4 10d6+3500 9d15+15
+0d0+0 330000
+8 8 1
+BareHandAttack: 2
+Str: 32
+Dex: 24
+Int: 25
+Wis: 22
+Con: 17
+Cha: 13
+Size: 65
+LikeWork: 13
+MaxFactor: 2
+ExtraAttack: 3
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: l0C3 
+Skill: 22 50
+Skill: 136 100
+Spell: 28
+Spell: 93
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 152
+E
+#67923
+череп~
+череп~
+черепа~
+черепу~
+череп~
+черепом~
+черепе~
+Огромных размеров череп парит над землей, сверкая ужасными глазами.
+~
+   Череп, давно умершего воина!!!
+~
+d0e0f0g0l0m0n0o0p0q0t0x0y0z0 d0f0k0n0x0m1w1z1 -600 E
+25 0 -2 9d10+1000 15d9+10
+0d0+0 170000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 20
+Int: 20
+Wis: 20
+Con: 12
+Cha: 12
+Size: 30
+LikeWork: 20
+MaxFactor: 5
+Class: 101
+Height: 50
+Weight: 50
+Special_Bitvector: l0C3 
+Skill: 22 30
+Skill: 136 100
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+E
+#67924
+призрак~
+призрак~
+призрака~
+призраку~
+призрак~
+призраком~
+призраке~
+Почти невидимый обычному глазу дух.
+~
+   Душа злобного убийцы.
+~
+d0f0g0h0l0m0n0o0q0y0z0 b0d0f0k0n0t0x0z0A0w1 -600 E
+30 0 -10 3d10+6000 10d20+20
+0d0+0 450000
+8 8 1
+BareHandAttack: 11
+Str: 27
+Dex: 36
+Int: 20
+Wis: 20
+Con: 18
+Cha: 15
+Size: 56
+LikeWork: 35
+MaxFactor: 4
+ExtraAttack: 1
+Class: 101
+Height: 100
+Weight: 50
+Special_Bitvector: l0b1C3 
+Skill: 22 50
+Skill: 131 50
+Skill: 136 100
+Skill: 147 100
+Skill: 157 45
+Skill: 160 30
+Spell: 93
+Spell: 111
+E
+#67925
+летучая мышь~
+летучая мышь~
+летучей мыши~
+летучей мыши~
+летучую мышь~
+летучей мышью~
+летучей мышb~
+Огромная летучая мышь парит под сводами пещеры.
+~
+   Огромная летучая мышь.
+~
+d0f0g0l0m0n0o0q0y0 d0f0h0k0m0s0x0z0A0j1x1 -600 E
+30 0 -5 4d10+1000 10d9+15
+0d0+0 170000
+8 8 2
+BareHandAttack: 4
+Str: 26
+Dex: 20
+Int: 27
+Wis: 27
+Con: 16
+Cha: 15
+Size: 76
+LikeWork: 10
+MaxFactor: 6
+ExtraAttack: 1
+Class: 103
+Height: 100
+Weight: 72
+Special_Bitvector: l0m3C3 
+Skill: 22 80
+Skill: 136 100
+Skill: 167 30
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+E
+#67926
+черный паук~
+черный паук~
+черного паука~
+черному пауку~
+черного паука~
+черным пауком~
+черном пауке~
+Большой черный паук, плетет свою паутину.
+~
+   Ужасное существо.
+~
+d0f0g0l0m0n0o0q0y0 d0f0k0m0t0z0A0j1z1 -600 E
+30 0 -3 2d10+1800 10d10+10
+0d0+0 220000
+8 8 1
+BareHandAttack: 2
+Str: 29
+Dex: 24
+Int: 19
+Wis: 24
+Con: 22
+Cha: 12
+Size: 60
+LikeWork: 15
+MaxFactor: 6
+ExtraAttack: 1
+Class: 103
+Height: 100
+Weight: 65
+Special_Bitvector: m0c1m3C3 
+Skill: 22 68
+Skill: 136 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 111
+E
+#67927
+огромный черный паук~
+огромный черный паук~
+огромного черного паука~
+огромному черному пауку~
+огромного черного паука~
+огромным черным пауком~
+огромном черном пауке~
+Огромный черный паук, плетет свою паутину, сверкая кровавыми зенками.
+~
+   Огромных размеров, черный паук.
+~
+b0d0f0g0l0m0n0o0q0x0 c0d0f0h0k0m0A0C0q1z1 -600 E
+35 0 -10 9d10+7800 15d10+10
+0d0+0 550000
+8 8 1
+BareHandAttack: 1
+Str: 27
+Dex: 30
+Int: 20
+Wis: 24
+Con: 25
+Cha: 14
+Size: 100
+LikeWork: 25
+MaxFactor: 4
+ExtraAttack: 3
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: c1m3C3 
+Skill: 22 90
+Skill: 136 100
+Skill: 157 50
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 56
+Spell: 56
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 88
+Spell: 88
+Helper: 67926
+E
+#67928
+ледяной демон~
+ледяной демон~
+ледяного демона~
+ледяному демону~
+ледяного демона~
+ледяным демоном~
+ледяном демоне~
+Огромный кусок льда чем-то напоминает огромного воина.
+~
+   Ужасное создание, созданное из снега и льда, так и готово растерзать 
+Вас!
+~
+b0d0f0g0l0m0n0o0p0x0y0 d0f0k0m0r0z0A0C0q1z1 -600 E
+40 0 -10 10d9+12000 15d20+25
+9d2+8888 700000
+8 8 1
+Str: 36
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 20
+Size: 100
+LikeWork: 30
+MaxFactor: 4
+ExtraAttack: 1
+Class: 101
+Height: 199
+Weight: 100
+Special_Bitvector: a0b0c0d0e0f0b1c1m3C3 
+Skill: 22 90
+Skill: 132 50
+Skill: 134 75
+Skill: 136 100
+Skill: 137 50
+Skill: 142 100
+Skill: 150 50
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 69
+Spell: 69
+Spell: 69
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 94
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+Helper: 67930
+Helper: 67929
+E
+T 67912
+#67929
+ледяной ветер~
+ледяной ветер~
+ледяного ветра~
+ледяному ветру~
+ледяной ветер~
+ледяным ветером~
+ледяном ветре~
+Порыв ледяного ветра так и сносит Вас с ног!
+~
+   Ужасный северный ветер!
+~
+b0c0d0e0f0g0l0m0n0o0p0r0u0x0y0z0c2 d0k0x0z0A0C0q1z1 -600 E
+30 0 -10 5d10+1000 10d10+10
+0d0+0 200000
+8 8 0
+Str: 30
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 20
+Size: 90
+LikeWork: 30
+MaxFactor: 5
+Class: 101
+Height: 100
+Weight: 85
+Special_Bitvector: l0c1m3C3 
+Skill: 22 50
+Skill: 136 100
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+E
+#67930
+ледяной ветер~
+ледяной ветер~
+ледяного ветра~
+ледяному ветру~
+ледяной ветер~
+ледяным ветром~
+ледяном ветре~
+Порыв ледяного ветра так и сносит Вас с ног!
+~
+   Ужасный северный ветер!
+~
+b0c0d0e0f0g0l0m0n0o0p0r0u0x0y0z0c2 d0k0x0z0A0C0q1z1 -600 E
+30 0 -10 5d10+1000 10d10+10
+0d0+0 200000
+8 8 0
+Str: 25
+Dex: 30
+Int: 30
+Wis: 25
+Con: 25
+Cha: 20
+Size: 90
+LikeWork: 30
+MaxFactor: 5
+Class: 101
+Height: 100
+Weight: 85
+Special_Bitvector: l0c1m3C3 
+Skill: 22 50
+Skill: 136 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 56
+Spell: 82
+Spell: 88
+E
+$

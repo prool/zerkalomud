@@ -1,0 +1,1102 @@
+#91600
+меднокрылый василиск~
+меднокрылый василиск~
+меднокрылого василиска~
+меднокрылому василиску~
+меднокрылого василиска~
+меднокрылым василиском~
+меднокрылом василиске~
+Большая ящерица с медными  крыльями летает тут.
+~
+Огромная рептилия
+~
+d0f0n0o0p0x0b1b2 d0f0k0q1 -600 E
+35 1 -7 0d0+5000 7d7+25
+0d0+0 590000
+8 8 1
+BareHandAttack: 4
+Str: 18
+Dex: 20
+Int: 24
+Wis: 30
+Con: 24
+Cha: 16
+Size: 50
+LikeWork: 40
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 100
+Special_Bitvector: l0 
+Skill: 136 100
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 68
+Spell: 68
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 75
+Spell: 75
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 156
+Spell: 156
+Spell: 156
+E
+T 91600
+I глаза,20:3
+#91601
+молодой медноперый грифон~
+молодой медноперый грифон~
+молодого медноперого грифона~
+молодому медноперому грифону~
+молодого медноперого грифона~
+молодым медноперым грифоном~
+молодом меднопером грифоне~
+Небольшой, но очень проворный грифон летает тут
+~
+И не птица и не зверь.
+~
+d0f0m0n0o0 d0f0h0k0r0x0 -600 E
+37 0 -9 1d1+4000 12d9+50
+0d0+0 600000
+8 8 1
+BareHandAttack: 6
+Destination: 91601
+Destination: 91608
+Str: 28
+Dex: 32
+Int: 36
+Wis: 13
+Con: 16
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: a0b0c0d0e0f0l0C3 
+Skill: 22 40
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 113
+Spell: 156
+E
+T 91602
+#91602
+медноперый грифон~
+медноперый грифон~
+медноперого грифона~
+медноперому грифону~
+медноперого грифона~
+медноперым грифоном~
+меднопером грифоне~
+Большой грифон, с блестящими на свету медными перьями, летает тут.
+~
+И не птица и не зверь.
+~
+d0f0n0o0p0b1 d0f0k0x0 -600 E
+34 1 -5 9d9+3000 22d8+90
+0d0+0 550000
+8 8 1
+BareHandAttack: 6
+Str: 28
+Dex: 18
+Int: 12
+Wis: 24
+Con: 20
+Cha: 18
+Size: 100
+LikeWork: 40
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: l0 
+Skill: 132 90
+Skill: 136 100
+Spell: 36
+Spell: 36
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 88
+Spell: 88
+Spell: 156
+Spell: 156
+E
+T 91603
+I крылья,17:3
+#91603
+старый меднокрылый василиск~
+старый меднокрылый василиск~
+старого меднокрылого василиска~
+старому меднокрылому василиску~
+старого меднокрылого василиска~
+старым меднокрылым василиском~
+старом меднокрылом василиске~
+Большой неповоротливый ящер, с медными крыльями, летает тут.
+~
+undefined~
+d0f0m0n0o0p0b1 d0f0k0x0 -600 E
+38 2 -6 11d11+2800 9d9+11
+0d0+0 570000
+8 8 1
+BareHandAttack: 4
+Destination: 91609
+Destination: 91606
+Destination: 91650
+Str: 17
+Dex: 14
+Int: 30
+Wis: 27
+Con: 22
+Cha: 12
+Size: 90
+LikeWork: 40
+ExtraAttack: 1
+Class: 100
+Height: 198
+Weight: 200
+Special_Bitvector: a0b0c0d0e0f0l0 
+Skill: 136 100
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 93
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+E
+T 91601
+#91604
+алконост зоревая птица~
+Алконост~
+Алконоста~
+Алконосту~
+Алконоста~
+Алконостом~
+Алконосте~
+Зоревая птица - Алконост летает тут.
+~
+неопределен~
+c0d0f0m0n0o0p0r0A0b1r1 d0f0h0k0r0x0a1m1 -600 E
+39 0 -10 0d0+11000 19d15+80
+0d0+0 1800000
+8 8 2
+BareHandAttack: 1
+Destination: 91632
+Destination: 91633
+Destination: 91627
+Str: 32
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 30
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: l0C3 
+Skill: 5 120
+Skill: 22 120
+Skill: 136 100
+Skill: 137 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 124
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+E
+T 91604
+#91605
+стратим грозовая птица~
+Стратим~
+Стратим~
+Стратим~
+Стратим~
+Стратим~
+Стратим~
+Грозовая птица - Стратим летает тут.
+~
+неопределен~
+c0d0f0m0n0o0p0r0A0b1r1 d0f0h0k0r0x0a1m1 -600 E
+39 0 -10 0d0+20000 19d15+90
+0d0+0 2400000
+8 8 2
+BareHandAttack: 1
+Destination: 91641
+Destination: 91642
+Str: 32
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 30
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: l0C3 
+Skill: 4 140
+Skill: 22 130
+Skill: 134 180
+Skill: 135 100
+Skill: 137 100
+Skill: 157 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 111
+Spell: 132
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+E
+T 91605
+#91606
+молодой медноперый грифон~
+молодой медноперый грифон~
+молодого медноперого грифона~
+молодому медноперому грифону~
+молодого медноперого грифона~
+молодым медноперым грифоном~
+молодом меднопером грифоне~
+Небольшой, но очень проворный грифон летает тут
+~
+undefined~
+d0f0m0n0o0p0 d0f0h0k0r0x0 -600 E
+37 0 -9 1d1+4000 12d9+50
+0d0+0 600000
+8 8 1
+BareHandAttack: 6
+Destination: 91650
+Destination: 91612
+Str: 28
+Dex: 32
+Int: 36
+Wis: 13
+Con: 16
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: a0b0c0d0e0f0l0C3 
+Skill: 22 40
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 113
+E
+T 91602
+#91607
+молодой медноперый грифон~
+молодой медноперый грифон~
+молодого медноперого грифона~
+молодому медноперому грифону~
+молодого медноперого грифона~
+молодым медноперым грифоном~
+молодом меднопером грифоне~
+Небольшой, но очень проворный грифон летает тут
+~
+undefined~
+d0f0m0n0o0p0 d0f0h0k0r0x0 -600 E
+37 0 -9 1d1+4000 12d9+50
+0d0+0 600000
+8 8 1
+BareHandAttack: 6
+Destination: 91613
+Destination: 91623
+Str: 28
+Dex: 32
+Int: 36
+Wis: 13
+Con: 16
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: a0b0c0d0e0f0l0C3 
+Skill: 22 40
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 113
+E
+T 91602
+#91608
+молодой медноперый грифон~
+молодой медноперый грифон~
+молодого медноперого грифона~
+молодому медноперому грифону~
+молодого медноперого грифона~
+молодым медноперым грифоном~
+молодом меднопером грифоне~
+Небольшой, но очень проворный грифон летает тут
+~
+undefined~
+d0f0m0n0o0p0 d0f0h0k0r0x0 -600 E
+37 0 -9 1d1+4000 12d9+50
+0d0+0 600000
+8 8 1
+BareHandAttack: 6
+Destination: 91615
+Destination: 91624
+Str: 28
+Dex: 32
+Int: 36
+Wis: 13
+Con: 16
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: a0b0c0d0e0f0l0C3 
+Skill: 22 40
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 113
+E
+T 91602
+#91609
+молодой медноперый грифон~
+молодой медноперый грифон~
+молодого медноперого грифона~
+молодому медноперому грифону~
+молодого медноперого грифона~
+молодым медноперым грифоном~
+молодом меднопером грифоне~
+Небольшой, но очень проворный грифон летает тут
+~
+undefined~
+d0f0m0n0o0p0 d0f0h0k0r0x0 -600 E
+37 0 -9 1d1+4000 12d9+50
+0d0+0 600000
+8 8 1
+BareHandAttack: 6
+Destination: 91625
+Destination: 91635
+Str: 28
+Dex: 32
+Int: 36
+Wis: 13
+Con: 16
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: a0b0c0d0e0f0l0C3 
+Skill: 22 40
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 113
+E
+T 91602
+#91610
+меднокрылый василиск~
+меднокрылый василиск~
+меднокрылого василиска~
+меднокрылому василиску~
+меднокрылого василиска~
+меднокрылым василиском~
+меднокрылом василиске~
+Большая ящерица с медными  крыльями летает тут.
+~
+undefined~
+d0f0n0o0p0x0b1b2 d0f0k0q1 -600 E
+35 1 -7 0d0+5000 7d7+25
+0d0+0 590000
+8 8 1
+BareHandAttack: 4
+Str: 18
+Dex: 20
+Int: 24
+Wis: 30
+Con: 24
+Cha: 16
+Size: 50
+LikeWork: 40
+ExtraAttack: 1
+Class: 100
+Height: 198
+Weight: 100
+Special_Bitvector: l0 
+Skill: 136 100
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 68
+Spell: 68
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 75
+Spell: 75
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+E
+T 91600
+#91611
+медноперый грифон~
+медноперый грифон~
+медноперого грифона~
+медноперому грифону~
+медноперого грифона~
+медноперым грифоном~
+меднопером грифоне~
+Большой грифон, с блестящими на свету медными перьями, летает тут
+~
+
+~
+d0f0n0o0p0b1 d0f0k0x0 -600 E
+34 1 -5 9d9+3000 22d8+90
+0d0+0 550000
+8 8 1
+BareHandAttack: 6
+Str: 28
+Dex: 18
+Int: 12
+Wis: 24
+Con: 20
+Cha: 18
+Size: 100
+LikeWork: 40
+ExtraAttack: 1
+Class: 100
+Height: 198
+Weight: 180
+Special_Bitvector: l0 
+Skill: 132 90
+Skill: 136 100
+Spell: 36
+Spell: 36
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 88
+Spell: 88
+E
+T 91603
+#91612
+старый меднокрылый василиск~
+старый меднокрылый василиск~
+старого меднокрылого василиска~
+старому меднокрылому василиску~
+старого меднокрылого василиска~
+старым меднокрылым василиском~
+старом меднокрылом василиске~
+Большой неповоротливый ящер, с медными крыльями, летает тут.
+~
+undefined~
+d0f0m0n0o0p0b1 d0f0k0x0 -600 E
+38 2 -6 11d11+2800 9d9+11
+0d0+0 570000
+8 8 1
+BareHandAttack: 4
+Destination: 91615
+Destination: 91617
+Destination: 91621
+Str: 17
+Dex: 14
+Int: 30
+Wis: 27
+Con: 22
+Cha: 12
+Size: 90
+LikeWork: 40
+ExtraAttack: 1
+Class: 100
+Height: 198
+Weight: 200
+Special_Bitvector: a0b0c0d0e0f0l0 
+Skill: 136 100
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 93
+E
+T 91601
+#91613
+старый меднокрылый василиск~
+старый меднокрылый василиск~
+старого меднокрылого василиска~
+старому меднокрылому василиску~
+старого меднокрылого василиска~
+старым меднокрылым василиском~
+старом меднокрылом василиске~
+Большой неповоротливый ящер, с медными крыльями, летает тут.
+~
+undefined~
+d0f0m0n0o0p0b1 d0f0k0x0 -600 E
+38 2 -6 11d11+2800 9d9+11
+0d0+0 570000
+8 8 1
+BareHandAttack: 4
+Destination: 91639
+Destination: 91631
+Str: 17
+Dex: 14
+Int: 30
+Wis: 27
+Con: 22
+Cha: 12
+Size: 90
+LikeWork: 40
+ExtraAttack: 1
+Class: 100
+Height: 198
+Weight: 200
+Special_Bitvector: a0b0c0d0e0f0l0 
+Skill: 136 100
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 93
+E
+T 91601
+#91614
+лада молодая женщина~
+Лада~
+Лады~
+Ладе~
+Ладу~
+Ладой~
+Ладе~
+Молодая на вид женщина тихонько плачет около дерева.
+~
+Богиня Любви.
+~
+b0d0e0n0o0p0q0r0t0u0x0r1 d0f0h0k0r0a1m1n1r1 600 E
+50 0 -10 30d1000+0 99d9+99
+0d0+0 0
+6 6 2
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 10
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Height: 30
+Weight: 50
+Special_Bitvector: a0b0 
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+E
+T 91615
+#91615
+старый дракон~
+старый дракон~
+старого дракона~
+старому дракону~
+старого дракона~
+старым драконом~
+старом драконе~
+Старый дракон  летает тут.
+~
+Обычный дракон. На руси таких пруд-пруди.
+~
+d0f0n0o0p0t0A0b1r1 d0f0k0x0C0m1p1 -600 E
+40 0 -10 0d0+5000 20d9+30
+0d0+0 1500000
+8 8 1
+BareHandAttack: 8
+Str: 32
+Dex: 30
+Int: 14
+Wis: 25
+Con: 36
+Cha: 8
+Size: 100
+LikeWork: 100
+ExtraAttack: 3
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: a0b0c0d0l0B3 
+Skill: 21 70
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+E
+T 91614
+I чешуя,17:3
+$

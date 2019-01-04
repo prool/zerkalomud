@@ -1,0 +1,1342 @@
+#92200
+кэлос_моб~
+Кэлос~
+Кэлоса~
+Кэлосу~
+Кэлоса~
+Кэлосом~
+Кэлосе~
+Мрачный чернокнижник Кэлос охраняет дворец Скипера-зверя.
+~
+Некогда известный в мире живых, но проклятый богами после
+смерти он обречен служить повелителю темного царства!
+~
+c0d0f0l0m0n0o0p0z0b1 d0f0k0n0x0b1m1 -600 E
+35 0 -7 0d0+2400 10d11+25
+200d200+1000 2500000
+8 8 1
+Destination: 92228
+Destination: 92223
+Str: 22
+Dex: 20
+Int: 36
+Wis: 36
+Con: 28
+Cha: 32
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+Class: 105
+Height: 30
+Weight: 50
+Special_Bitvector: l0b1c1 
+Skill: 136 130
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 93
+Helper: 92206
+Helper: 92205
+Helper: 92204
+E
+T 92201
+T 92208
+T 92212
+T 92216
+T 92246
+I зубы,17:7
+#92201
+башо_моб~
+Башо~
+Башо~
+Башо~
+Башо~
+Башо~
+Башо~
+Мрачный чернокнижник Башо охраняет дворец Скипера-зверя.
+~
+Некогда известный в мире живых, но проклятый богами после
+смерти он обречен служить повелителю темного царства!
+~
+c0d0f0l0m0n0o0p0z0b1 d0f0k0n0x0b1m1 -600 E
+35 0 -7 0d0+2400 10d11+25
+200d200+1000 2500000
+8 8 1
+Destination: 92229
+Destination: 92230
+Str: 22
+Dex: 20
+Int: 36
+Wis: 36
+Con: 28
+Cha: 32
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+Class: 105
+Height: 30
+Weight: 50
+Special_Bitvector: l0b1c1 
+Skill: 136 130
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 93
+Helper: 92213
+E
+T 92200
+T 92216
+T 92213
+T 92246
+I кожа,17:7
+#92202
+ярпен_моб~
+Ярпен~
+Ярпена~
+Ярпену~
+Ярпена~
+Ярпеном~
+Ярпене~
+Мрачный чернокнижник Ярпен охраняет дворец Скипера-зверя.
+~
+Некогда известный в мире живых, но проклятый богами после
+смерти он обречен служить повелителю темного царства!
+~
+c0d0f0l0m0n0o0p0z0b1 d0f0k0n0x0b1m1 -600 E
+35 0 -7 0d0+2400 10d11+25
+200d200+1000 2500000
+8 8 1
+Destination: 92224
+Destination: 92227
+Str: 22
+Dex: 20
+Int: 36
+Wis: 36
+Con: 28
+Cha: 32
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+Class: 105
+Height: 30
+Weight: 50
+Special_Bitvector: l0b1c1 
+Skill: 136 130
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 93
+Helper: 92212
+Helper: 92211
+Helper: 92210
+E
+T 92203
+T 92216
+T 92214
+T 92210
+T 92246
+I кожа,17:7
+#92203
+рольт_моб~
+Рольт~
+Рольта~
+Рольту~
+Рольта~
+Рольтом~
+Рольте~
+Мрачный чернокнижник Рольт охраняет дворец Скипера-зверя.
+~
+Некогда известный в мире живых, но проклятый богами после
+смерти он обречен служить повелителю темного царства!
+~
+c0d0f0l0m0n0o0p0z0b1 d0f0k0n0x0b1m1 -600 E
+35 0 -7 0d0+2400 10d11+25
+200d200+1000 2500000
+8 8 1
+Destination: 92219
+Destination: 92218
+Destination: 92220
+Destination: 92218
+Str: 22
+Dex: 20
+Int: 36
+Wis: 36
+Con: 28
+Cha: 32
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+Class: 105
+Height: 30
+Weight: 50
+Special_Bitvector: l0b1c1 
+Skill: 136 130
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 93
+Helper: 92209
+Helper: 92208
+Helper: 92207
+E
+T 92202
+T 92211
+T 92215
+T 92216
+T 92246
+I шерсть,17:7
+#92204
+костяной1 дракон~
+костяной дракон~
+костяного дракона~
+костяному дракону~
+костяного дракона~
+костяным драконом~
+костяном драконе~
+Костяной дракон летает тут.
+~
+undefined~
+d0g0m0n0o0p0x0z0b1 d0f0k0 -600 E
+30 0 -10 0d0+1600 15d11+50
+0d0+0 350000
+8 8 1
+Str: 32
+Dex: 25
+Int: 10
+Wis: 10
+Con: 32
+Cha: 4
+Size: 100
+LikeWork: 100
+MaxFactor: 30
+ExtraAttack: 1
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: l0 
+Skill: 132 100
+Skill: 136 100
+E
+T 92206
+T 92217
+#92205
+костяной2 дракон~
+костяной дракон~
+костяного дракона~
+костяному дракону~
+костяного дракона~
+костяным драконом~
+костяном драконе~
+Костяной дракон летает тут.
+~
+undefined~
+d0g0m0n0o0p0x0z0b1 d0f0k0 -600 E
+30 0 -10 0d0+1600 15d11+50
+0d0+0 350000
+8 8 1
+Str: 32
+Dex: 25
+Int: 10
+Wis: 10
+Con: 32
+Cha: 4
+Size: 100
+LikeWork: 100
+MaxFactor: 30
+ExtraAttack: 1
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: l0 
+Skill: 132 100
+Skill: 136 100
+E
+T 92206
+T 92218
+#92206
+костяной3 дракон~
+костяной дракон~
+костяного дракона~
+костяному дракону~
+костяного дракона~
+костяным драконом~
+костяном драконе~
+Костяной дракон летает тут.
+~
+undefined~
+d0g0m0n0o0p0x0z0b1 d0f0k0 -600 E
+30 0 -10 0d0+1600 15d11+50
+0d0+0 350000
+8 8 1
+Str: 32
+Dex: 25
+Int: 10
+Wis: 10
+Con: 32
+Cha: 4
+Size: 100
+LikeWork: 100
+MaxFactor: 30
+ExtraAttack: 1
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: l0 
+Skill: 132 100
+Skill: 136 100
+E
+T 92206
+T 92219
+#92207
+адская1 гончая~
+адская гончая~
+адской гончей~
+адской гончей~
+адскую гончую~
+адской гончей~
+адской гончей~
+Адская гончая бегает тут.
+~
+undefined~
+d0g0m0n0o0p0z0a2 d0f0k0m1 -600 E
+30 0 -10 0d0+1400 30d14+40
+0d0+0 350000
+8 8 2
+BareHandAttack: 4
+Str: 30
+Dex: 30
+Con: 21
+Cha: 4
+Size: 50
+LikeWork: 30
+MaxFactor: 25
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: p0 
+Skill: 134 100
+Skill: 136 100
+E
+T 92206
+#92208
+адская2 гончая~
+адская гончая~
+адской гончей~
+адской гончей~
+адскую гончую~
+адской гончей~
+адской гончей~
+Адская гончая бегает тут.
+~
+undefined~
+d0g0m0n0o0p0z0a2 d0f0k0m1 -600 E
+30 0 -10 0d0+1400 30d14+40
+0d0+0 350000
+8 8 2
+BareHandAttack: 4
+Str: 30
+Dex: 30
+Con: 21
+Cha: 4
+Size: 50
+LikeWork: 30
+MaxFactor: 25
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: p0 
+Skill: 134 100
+Skill: 136 100
+E
+T 92206
+#92209
+адская3 гончая~
+адская гончая~
+адской гончей~
+адской гончей~
+адскую гончую~
+адской гончей~
+адской гончей~
+Адская гончая бегает тут.
+~
+undefined~
+d0g0m0n0o0p0z0a2 d0f0k0m1 -600 E
+30 0 -10 0d0+1400 30d14+40
+0d0+0 350000
+8 8 2
+BareHandAttack: 4
+Str: 30
+Dex: 30
+Con: 21
+Cha: 4
+Size: 50
+LikeWork: 30
+MaxFactor: 25
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: p0 
+Skill: 134 100
+Skill: 136 100
+E
+T 92206
+#92210
+большой1 зомби~
+большой зомби~
+большого зомби~
+большому зомби~
+большого зомби~
+большим зомби~
+большом зомби~
+Оживший труп ходит тут.
+~
+undefined~
+d0g0m0n0o0p0x0z0 d0f0k0 -600 E
+30 0 -10 0d0+5000 10d10+20
+0d0+0 350000
+8 8 1
+Str: 32
+Dex: 25
+Int: 16
+Wis: 10
+Con: 32
+Cha: 4
+Size: 100
+LikeWork: 100
+MaxFactor: 15
+ExtraAttack: 1
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: C3 
+Skill: 22 120
+Skill: 134 100
+Skill: 136 100
+Skill: 137 100
+E
+T 92206
+T 92204
+#92211
+ловкий1 скелет~
+ловкий скелет~
+ловкого скелета~
+ловкому скелету~
+ловкого скелета~
+ловким скелетом~
+ловком скелете~
+Оживший скелет ходит тут.
+~
+undefined~
+d0g0l0m0n0o0p0x0z0 d0f0k0j1 -600 E
+30 0 -10 0d0+1300 20d9+20
+0d0+0 350000
+8 8 1
+BareHandAttack: 11
+Str: 32
+Dex: 25
+Int: 18
+Wis: 10
+Con: 32
+Cha: 4
+Size: 100
+LikeWork: 30
+MaxFactor: 20
+ExtraAttack: 1
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: j0 
+Skill: 131 100
+Skill: 136 100
+Skill: 140 100
+Skill: 156 100
+E
+T 92206
+#92212
+ловкий2 скелет~
+ловкий скелет~
+ловкого скелета~
+ловкому скелету~
+ловкого скелета~
+ловким скелетом~
+ловком скелете~
+Оживший скелет ходит тут.
+~
+undefined~
+d0g0l0m0n0o0p0x0z0 d0f0k0j1 -600 E
+30 0 -10 0d0+1300 20d9+20
+0d0+0 350000
+8 8 1
+BareHandAttack: 11
+Str: 32
+Dex: 25
+Int: 18
+Wis: 10
+Con: 32
+Cha: 4
+Size: 100
+LikeWork: 30
+MaxFactor: 100
+ExtraAttack: 1
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: j0 
+Skill: 131 100
+Skill: 136 100
+Skill: 140 100
+Skill: 156 100
+E
+T 92206
+#92213
+скелет воин~
+скелет-воин~
+скелета-воина~
+скелету-воину~
+скелета-воина~
+скелетом-воином~
+скелете-воине~
+Скелет-воин охраняет дворец.
+~
+undefined~
+c0d0f0g0m0n0o0p0x0z0A0 d0f0k0 -600 E
+30 0 -10 0d0+5000 40d10+20
+0d0+0 570000
+8 8 1
+BareHandAttack: 3
+Str: 32
+Dex: 25
+Int: 16
+Wis: 10
+Con: 32
+Cha: 4
+Size: 100
+LikeWork: 30
+MaxFactor: 50
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: b1c1 
+Skill: 5 120
+Skill: 134 120
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Skill: 155 100
+E
+T 92204
+T 92205
+#92214
+заберь_моб~
+Заберь~
+Заберя~
+Заберю~
+Заберя~
+Заберем~
+Забере~
+Заберь стоит здесь.
+~
+Злой кузнец Заберь, проклят богами и вынужден служить повелителю Зла.
+~
+c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
+30 0 -9 0d0+2800 17d9+20
+100d100+9000 2000000
+8 8 1
+Str: 35
+Dex: 27
+Int: 21
+Wis: 24
+Con: 28
+Cha: 22
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 30
+Weight: 50
+Special_Bitvector: b1c1d1 
+Skill: 5 130
+Skill: 134 130
+Skill: 136 130
+Skill: 140 100
+Skill: 141 130
+Skill: 142 130
+Skill: 143 130
+Skill: 144 130
+Skill: 145 130
+Skill: 146 130
+Skill: 150 130
+Skill: 151 130
+E
+T 92220
+T 92222
+T 92225
+T 92247
+#92215
+кроу_моб~
+Кроу~
+Кроу~
+Кроу~
+Кроу~
+Кроу~
+Кроу~
+Кроу стоит здесь.
+~
+undefined~
+c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
+30 0 -9 0d0+2800 17d9+20
+100d100+9000 2000000
+8 8 1
+Str: 35
+Dex: 27
+Int: 21
+Wis: 24
+Con: 28
+Cha: 22
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 30
+Weight: 50
+Special_Bitvector: b1c1d1 
+Skill: 5 130
+Skill: 134 130
+Skill: 136 130
+Skill: 140 100
+Skill: 141 130
+Skill: 142 130
+Skill: 143 130
+Skill: 144 130
+Skill: 145 130
+Skill: 146 130
+Skill: 150 130
+Skill: 151 130
+E
+T 92220
+T 92223
+T 92226
+T 92247
+#92216
+мирт_моб~
+Мирт~
+Мирта~
+Мирту~
+Мирта~
+Миртом~
+Мирте~
+Мирт стоит здесь.
+~
+undefined~
+c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
+30 0 -10 0d0+3800 15d9+10
+100d100+9000 3000000
+8 8 1
+Destination: 92245
+Destination: 92239
+Destination: 92235
+Destination: 92232
+Destination: 92236
+Destination: 92242
+Str: 34
+Dex: 27
+Int: 21
+Wis: 24
+Con: 32
+Cha: 24
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 30
+Weight: 50
+Special_Bitvector: b1c1d1C3 
+Skill: 12 130
+Skill: 22 130
+Skill: 136 130
+Skill: 137 130
+Skill: 140 100
+Skill: 141 130
+Skill: 142 130
+Skill: 143 130
+Skill: 144 130
+Skill: 145 130
+Skill: 146 130
+Skill: 147 130
+Skill: 148 130
+Skill: 151 130
+E
+T 92220
+T 92224
+T 92251
+#92217
+манекен мертвяк~
+мертвяк-манекен~
+мертвяка-манекена~
+мертвяку-манекену~
+мертвяка-манекена~
+мертвяком-манекеном~
+мертвяке-манекене~
+Мертвый воин, закованный в доспехи из тусклого металла, стоит тут.
+~
+undefined~
+b0c0d0f0n0o0p0x0A0 d0f0k0 -600 E
+40 0 0 0d0+2000 7d7+7
+0d0+0 50000
+8 8 1
+Str: 25
+Dex: 20
+Int: 10
+Wis: 15
+Con: 28
+Cha: 4
+Size: 50
+LikeWork: 10
+ExtraAttack: 1
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: a0b0c0d0a1b1c1C3 
+Skill: 22 150
+Skill: 136 150
+Skill: 137 150
+Spell: 1
+Spell: 1
+Spell: 3
+Spell: 3
+Spell: 36
+Spell: 36
+Spell: 39
+Spell: 39
+Spell: 40
+Spell: 62
+Spell: 62
+Spell: 63
+Spell: 63
+Spell: 74
+Spell: 74
+Spell: 78
+Spell: 78
+Spell: 122
+Spell: 122
+E
+#92218
+мюрат_моб~
+Мюрат~
+Мюрата~
+Мюрату~
+Мюрата~
+Мюратом~
+Мюрате~
+Мюрат стоит здесь.
+~
+undefined~
+c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
+30 0 -10 0d0+3800 15d9+10
+100d100+9000 3000000
+8 8 1
+Destination: 92250
+Destination: 92247
+Destination: 92235
+Destination: 92233
+Destination: 92255
+Str: 34
+Dex: 27
+Int: 21
+Wis: 24
+Con: 32
+Cha: 24
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 30
+Weight: 50
+Special_Bitvector: b1c1d1C3 
+Skill: 12 130
+Skill: 22 130
+Skill: 136 130
+Skill: 137 130
+Skill: 140 100
+Skill: 141 130
+Skill: 142 130
+Skill: 143 130
+Skill: 144 130
+Skill: 145 130
+Skill: 146 130
+Skill: 147 130
+Skill: 148 130
+Skill: 151 130
+E
+T 92220
+T 92251
+#92219
+китон_моб~
+Китон~
+Китона~
+Китону~
+Китона~
+Китоном~
+Китоне~
+Китон стоит здесь.
+~
+undefined~
+c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
+30 0 -9 0d0+3000 15d9+15
+100d100+9000 2000000
+8 8 1
+Str: 32
+Dex: 27
+Int: 21
+Wis: 24
+Con: 28
+Cha: 22
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 130
+Weight: 150
+Special_Bitvector: b1c1d1B3 
+Skill: 21 130
+Skill: 132 130
+Skill: 134 130
+Skill: 136 130
+Skill: 141 130
+Skill: 142 130
+Skill: 143 130
+Skill: 144 130
+Skill: 145 130
+Skill: 146 130
+Skill: 150 130
+Skill: 151 130
+E
+T 92220
+T 92248
+#92220
+тэрсайд_моб~
+Тэрсайд~
+Тэрсайда~
+Тэрсайду~
+Тэрсайда~
+Тэрсайдом~
+Тэрсайде~
+Тэрсайд стоит здесь.
+~
+неопределен~
+c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
+30 0 -9 0d0+2500 15d9+15
+100d100+9000 2000000
+8 8 1
+Str: 31
+Dex: 27
+Int: 21
+Wis: 24
+Con: 28
+Cha: 22
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 30
+Weight: 50
+Special_Bitvector: j0b1c1C3 
+Skill: 22 130
+Skill: 130 130
+Skill: 136 130
+Skill: 141 130
+Skill: 144 130
+Skill: 145 130
+Skill: 146 130
+Skill: 147 130
+Skill: 148 130
+Skill: 156 130
+Skill: 167 150
+Spell: 3
+Spell: 3
+Spell: 3
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 77
+Spell: 77
+Spell: 77
+E
+T 92221
+T 92249
+#92221
+андора_моб~
+Андора~
+Андоры~
+Андоре~
+Андору~
+Андорой~
+Андоре~
+Андора стоит здесь.
+~
+undefined~
+c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
+30 0 -10 0d0+3800 15d9+10
+100d100+9000 3000000
+8 8 2
+Str: 34
+Dex: 27
+Int: 21
+Wis: 24
+Con: 32
+Cha: 24
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 30
+Weight: 50
+Special_Bitvector: b1c1C3 
+Skill: 12 130
+Skill: 22 130
+Skill: 136 130
+Skill: 137 130
+Skill: 140 100
+Skill: 141 130
+Skill: 142 130
+Skill: 143 130
+Skill: 144 130
+Skill: 145 130
+Skill: 146 130
+Skill: 147 130
+Skill: 148 130
+Skill: 151 130
+E
+T 92220
+T 92244
+T 92251
+#92222
+даран_моб1~
+Даран~
+Дарана~
+Дарану~
+Дарана~
+Дараном~
+Даране~
+Даран стоит здесь.
+~
+undefined~
+c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
+30 0 -10 0d0+4500 18d9+15
+100d100+9000 2500000
+8 8 1
+Str: 36
+Dex: 21
+Int: 21
+Wis: 24
+Con: 36
+Cha: 24
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 30
+Weight: 50
+Special_Bitvector: b1c1 
+Skill: 4 130
+Skill: 5 130
+Skill: 134 130
+Skill: 136 130
+E
+T 92209
+T 92234
+T 92250
+#92223
+даран_моб2~
+Даран~
+Дарана~
+Дарану~
+Дарана~
+Дараном~
+Даране~
+Даран стоит здесь.
+~
+undefined~
+c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
+30 0 -10 0d0+4500 18d9+15
+100d100+9000 2500000
+8 8 1
+Str: 36
+Dex: 21
+Int: 21
+Wis: 24
+Con: 36
+Cha: 24
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 30
+Weight: 50
+Special_Bitvector: b1c1 
+Skill: 2 130
+Skill: 136 130
+Skill: 137 130
+Skill: 165 130
+E
+T 92209
+T 92235
+T 92250
+#92224
+жиглон_моб1~
+Жиглон~
+Жиглона~
+Жиглону~
+Жиглона~
+Жиглоном~
+Жиглоне~
+Жиглон стоит здесь.
+~
+undefined~
+c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
+30 0 -10 0d0+4500 18d9+15
+100d100+9000 2500000
+8 8 1
+Str: 36
+Dex: 21
+Int: 21
+Wis: 24
+Con: 36
+Cha: 24
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 30
+Weight: 50
+Special_Bitvector: b1c1 
+Skill: 4 130
+Skill: 5 130
+Skill: 134 130
+Skill: 136 130
+E
+T 92209
+T 92232
+T 92250
+#92225
+жиглон_моб2~
+Жиглон~
+Жиглона~
+Жиглону~
+Жиглона~
+Жиглоном~
+Жиглоне~
+Жиглон стоит здесь.
+~
+undefined~
+c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
+30 0 -10 0d0+4500 18d9+15
+100d100+9000 2500000
+8 8 1
+Str: 36
+Dex: 21
+Int: 21
+Wis: 24
+Con: 36
+Cha: 24
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 30
+Weight: 50
+Special_Bitvector: b1c1 
+Skill: 2 130
+Skill: 136 130
+Skill: 137 130
+Skill: 165 130
+E
+T 92209
+T 92233
+T 92250
+#92226
+биглон_моб~
+Биглон~
+Биглона~
+Биглону~
+Биглона~
+Биглоном~
+Биглоне~
+Биглон стоит здесь.
+~
+неопределен~
+c0d0f0h0l0m0n0o0p0z0A0 d0f0k0A0m1q1 -600 E
+30 -30 -10 0d0+2900 15d9+11
+100d100+9000 2100000
+8 8 1
+Str: 36
+Dex: 21
+Int: 21
+Wis: 24
+Con: 36
+Cha: 24
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 30
+Weight: 50
+Special_Bitvector: j0b1c1 
+Skill: 131 130
+Skill: 134 130
+Skill: 136 130
+Skill: 140 130
+Skill: 147 130
+Skill: 156 130
+Skill: 160 130
+Skill: 167 200
+E
+T 92209
+T 92243
+T 92252
+#92227
+рута_моб~
+Рута~
+Руты~
+Руте~
+Руту~
+Рутой~
+Руте~
+Рута стоит здесь.
+~
+неопределен~
+c0d0f0l0m0n0o0p0r0t0u0z0A0 d0f0k0C0m1q1 -600 E
+30 0 -10 0d0+2200 9d9+5
+100d100+9000 3800000
+8 8 2
+Destination: 92250
+Destination: 92243
+Str: 24
+Dex: 22
+Int: 36
+Wis: 36
+Con: 23
+Cha: 20
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+Class: 104
+Height: 30
+Weight: 50
+Special_Bitvector: b1c1 
+Skill: 7 100
+Skill: 136 130
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 40
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 93
+Spell: 96
+E
+T 92209
+T 92231
+$

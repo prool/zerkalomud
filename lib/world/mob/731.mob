@@ -1,0 +1,2109 @@
+#73100
+огненный воин~
+огненный воин~
+огненного воина~
+огненному воину~
+огненного воина~
+огненным воином~
+огненном воине~
+Охваченный пламенем огненный воин, так и наровит разрубить Вас своим пылающим мечем!
+~
+   Существо созданное из огня-пламени.
+~
+d0f0g0l0m0n0o0 d0f0h0k0n0r0z0a1p1y1 -600 E
+40 2 -9 9d12+6450 28d22+30
+9d22+2000 600000
+8 8 1
+BareHandAttack: 3
+Str: 33
+Dex: 28
+Int: 22
+Wis: 24
+Con: 36
+Cha: 23
+Size: 100
+LikeWork: 35
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 200
+Weight: 100
+Special_Bitvector: p0x0b1c1d1C3 
+Skill: 12 80
+Skill: 20 100
+Skill: 22 75
+Skill: 132 75
+Skill: 134 80
+Skill: 136 100
+Skill: 137 80
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 50
+E
+T 73123
+#73101
+порыв ветра ветер~
+порыв ветра~
+порыва ветра~
+порыву ветра~
+порыв ветра~
+порывом ветра~
+порыве ветра~
+Порывистый, ледяной ветер вот-вот собьет Вас с ног!
+~
+   Порывестый, холодный ветер, бьет вам в лицо.
+~
+d0e0f0g0m0n0o0p0r0u0x0y0z0 b0d0k0r0x0z0A0m1q1x1 -600 E
+40 0 -5 9d100+3000 20d15+20
+0d0+0 700000
+8 8 1
+BareHandAttack: 2
+Str: 30
+Dex: 35
+Int: 30
+Wis: 29
+Con: 24
+Cha: 5
+Size: 65
+LikeWork: 35
+MaxFactor: 5
+ExtraAttack: 2
+Class: 101
+Height: 130
+Weight: 60
+Special_Bitvector: l0u0c1C3 
+Skill: 22 60
+Skill: 136 100
+Skill: 140 100
+Skill: 157 60
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+E
+T 73103
+#73102
+вихрь~
+вихрь~
+вихря~
+вихрю~
+вихрь~
+вихрем~
+вихре~
+Кажется сам воздух встал против вас, приобретя человеческие очертания!
+~
+    Сильный порыв ветра, то и дело приобретает человеческие очертания.
+ 
+~
+d0f0g0m0n0o0u0y0z0q1 d0k0m0n0r0x0A0m1q1x1 -600 E
+35 0 -7 4d10+5700 22d20+19
+0d0+0 700000
+8 8 1
+BareHandAttack: 2
+Str: 30
+Dex: 35
+Int: 25
+Wis: 25
+Con: 22
+Cha: 15
+Size: 100
+LikeWork: 30
+MaxFactor: 4
+ExtraAttack: 2
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: l0u0c1C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 150 50
+Skill: 157 50
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 111
+Spell: 144
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+E
+#73103
+повелитель ветров~
+повелитель ветров~
+повелителя ветров~
+повелителю ветров~
+повелителя ветров~
+повелителем ветров~
+повелителе ветров~
+Грозный воин, в сияющей броне стоит на страже своих владений.
+~
+   Ветер - его стихия!
+~
+b0c0d0f0g0l0m0n0o0x0y0 d0f0k0m0n0r0x0z0A0C0m1q1x1 -600 E
+45 0 -10 9d100+8000 30d25+25
+10d5+3000 4000000
+8 8 1
+Str: 35
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 25
+Size: 99
+LikeWork: 70
+MaxFactor: 3
+ExtraAttack: 2
+Class: 104
+Height: 199
+Weight: 90
+Special_Bitvector: u0b1c1C3 
+Skill: 22 150
+Skill: 134 70
+Skill: 136 100
+Skill: 137 70
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 151 80
+Skill: 154 100
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 153
+Spell: 153
+Spell: 153
+E
+T 73126
+#73104
+холодный ветер~
+холодный ветер~
+холодного ветра~
+холодному ветру~
+холодного ветра~
+холодным ветром~
+холодном ветре~
+Холодный, горный ветер.
+~
+   У-у-у-уууу, как задувает!
+~
+b0d0g0l0m0n0o0x0z0q1 b0f0h0k0r0x0z0A0C0x1 -600 E
+30 0 -5 5d10+3500 15d27+27
+0d0+0 500000
+8 8 1
+Str: 28
+Dex: 28
+Int: 25
+Wis: 25
+Con: 25
+Cha: 15
+Size: 77
+LikeWork: 50
+MaxFactor: 5
+ExtraAttack: 2
+Class: 101
+Height: 150
+Weight: 55
+Special_Bitvector: u0c1C3 
+Skill: 22 80
+Skill: 132 50
+Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+E
+#73105
+холодный ветер~
+холодный ветер~
+холодного ветра~
+холодному ветру~
+холодного ветра~
+холодным ветром~
+холодном ветре~
+Холодный, горный ветер.
+~
+   У-у-у-уууу, как задувает!
+~
+b0d0g0l0m0n0o0x0z0 b0f0h0k0r0x0z0A0C0x1 -600 E
+30 0 -5 5d10+3500 27d19+22
+0d0+0 500000
+8 8 1
+Str: 28
+Dex: 28
+Int: 25
+Wis: 25
+Con: 25
+Cha: 15
+Size: 77
+LikeWork: 50
+MaxFactor: 5
+ExtraAttack: 2
+Class: 101
+Height: 150
+Weight: 55
+Special_Bitvector: u0c1C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 160 50
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+E
+#73106
+горное эхо~
+горное эхо~
+горного эха~
+горному эху~
+горное эхо~
+горного эхом~
+горном эхе~
+Вы крикнули и ваши слова отдались тут же эхом!
+~
+   Горное эхо.
+~
+c0d0e0f0g0l0m0n0o0p0q0r0u0x0y0z0q1 d0f0h0k0m0n0r0t0x0z0A0m1 -600 E
+35 0 -10 9d10+3000 20d20+23
+0d0+0 700000
+8 8 0
+BareHandAttack: 2
+Str: 30
+Dex: 30
+Int: 25
+Wis: 25
+Con: 20
+Cha: 3
+Size: 50
+LikeWork: 50
+MaxFactor: 5
+ExtraAttack: 2
+Class: 101
+Height: 100
+Weight: 50
+Special_Bitvector: l0u0c1C3 
+Skill: 5 60
+Skill: 22 80
+Skill: 136 100
+Skill: 157 50
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+E
+#73107
+холодный горный ветер~
+холодный горный ветер~
+холодного горного ветра~
+холодному горному ветру~
+холодный горный ветер~
+холодным горным ветром~
+холодном горном ветре~
+Ужасно холодный, горный ветер вот-вот сдует Вас с ног!
+~
+   Холодный, порывестый, горный ветер.
+~
+b0d0f0g0l0m0n0o0p0t0u0x0y0z0 d0f0h0k0m0n0r0x0z0A0C0q1x1 -600 E
+45 0 -10 10d20+7000 30d18+25
+0d0+0 1200000
+8 8 1
+BareHandAttack: 2
+Str: 33
+Dex: 35
+Int: 30
+Wis: 30
+Con: 35
+Cha: 25
+Size: 100
+LikeWork: 75
+MaxFactor: 2
+ExtraAttack: 1
+Class: 101
+Height: 170
+Weight: 92
+Special_Bitvector: u0b1c1C3 
+Skill: 22 60
+Skill: 134 50
+Skill: 136 100
+Skill: 144 100
+Skill: 147 100
+Skill: 151 75
+Skill: 160 50
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 88
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 113
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 144
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+E
+#73108
+холодный ветер~
+&BЛедяной ветер&n~
+&BЛедяного ветра&n~
+&BЛедяному ветру&n~
+&BЛедяной ветер&n~
+&BЛедяным ветром&n~
+&BЛедяном ветре&n~
+Холодный, горный ветер разбивается о вершину скалы.
+~
+   Холодный, горный ветер.
+~
+b0c0d0f0g0l0m0n0o0p0q0r0u0x0z0q1c2g2 d0f0k0m0r0x0z0A0C0x1z1 -600 E
+30 0 -10 9d10+3000 10d15+10
+0d0+0 800000
+8 8 1
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 25
+MaxFactor: 3
+ExtraAttack: 2
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: u0c1d1C3 
+Skill: 22 40
+Skill: 136 100
+Skill: 157 50
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+E
+#73109
+небесный витязь~
+небесный витязь~
+небесного витязя~
+небесному витязю~
+небесного витязя~
+небесным витязем~
+небесном витязе~
+Воин огромных размеров, охроняет владения своего господина.
+~
+   Воин огромной силы, будет сражаться до конца, до вашего конца.
+~
+d0f0g0l0m0n0o0g2 d0e0h0k0r0x0z0A0a1x1 -600 E
+45 4 -7 6d10+5000 25d21+19
+9d12+1200 3000000
+8 8 1
+BareHandAttack: 7
+Str: 31
+Dex: 27
+Int: 23
+Wis: 26
+Con: 28
+Cha: 27
+Size: 80
+LikeWork: 45
+MaxFactor: 3
+ExtraAttack: 1
+Class: 104
+Height: 187
+Weight: 130
+Special_Bitvector: l0u0b1c1d1B3C3 
+Skill: 21 25
+Skill: 22 75
+Skill: 132 50
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 45
+Skill: 151 75
+Skill: 158 75
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 74
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 96
+Spell: 112
+E
+T 73110
+I глаза,10:6
+#73110
+небесный знахарь лекарь~
+небесный знахарь~
+небесного знахаря~
+небесному знахарю~
+небесного знахаря~
+небесным знахарем~
+небесном знахаре~
+Человек, с витым сверкающим посохом чинно шествует в окружение своих соратников. 
+~
+   Такой любые раны излечит.
+~
+d0f0g0l0m0n0o0g2 d0e0f0h0k0m0n0x0A0q1y1 -600 E
+35 6 -5 4d10+3800 18d18+19
+8d12+1000 2000000
+8 8 1
+Str: 25
+Dex: 24
+Int: 36
+Wis: 36
+Con: 22
+Cha: 25
+Size: 80
+LikeWork: 70
+MaxFactor: 3
+Class: 102
+Height: 150
+Weight: 79
+Special_Bitvector: l0u0b1c1d1m3C3 
+Skill: 20 100
+Skill: 22 50
+Skill: 136 100
+Skill: 141 100
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 93
+Spell: 96
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+E
+T 73111
+T 73112
+#73111
+небесный воин~
+небесный воин~
+небесного воина~
+небесному воину~
+небесного воина~
+небесным воином~
+небесном воине~
+Огромных размеров воин, всегда придет на помощь своим сотоварищам. 
+~
+   Да это прям каменная стена, а не человек! Такой из любой сечи вытащит.
+~
+d0f0g0l0m0n0o0g2 d0f0h0k0m0r0x0A0C0q1x1 -600 E
+40 6 -10 9d10+7000 29d19+21
+12d7+1490 3100000
+8 8 1
+BareHandAttack: 6
+Str: 32
+Dex: 36
+Int: 21
+Wis: 24
+Con: 36
+Cha: 15
+Size: 100
+LikeWork: 65
+MaxFactor: 4
+ExtraAttack: 1
+Class: 104
+Height: 200
+Weight: 150
+Special_Bitvector: l0u0b1c1d1m3C3 
+Skill: 12 80
+Skill: 22 80
+Skill: 132 50
+Skill: 134 50
+Skill: 136 100
+Skill: 137 85
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 147 100
+Skill: 148 100
+E
+T 73113
+#73112
+могучий небесный воин~
+могучий небесный воин~
+могучего небесного воина~
+могучему небесному воину~
+могучего небесного воина~
+могучим небесным воином~
+могучем небесном воине~
+Огромных размеров воин, с огромными кулаками вот вот разобьет вам голову!
+~
+   Этот воин призирает всяческое оружие! Руки, кулаки - его смертельное
+   оружие!
+~
+d0f0g0l0m0n0o0g2 d0f0k0m0x0C0t1 -600 E
+35 0 3 10d8+6800 25d30+20
+11d7+999 1500000
+8 8 1
+Str: 36
+Dex: 22
+Int: 20
+Wis: 23
+Con: 36
+Cha: 18
+Size: 100
+LikeWork: 55
+MaxFactor: 4
+ExtraAttack: 1
+Class: 104
+Height: 200
+Weight: 150
+Special_Bitvector: l0u0c1d1C3 
+Skill: 4 150
+Skill: 22 50
+Skill: 134 75
+Skill: 136 100
+Skill: 165 75
+E
+T 73114
+#73113
+заклинатель небес колдун~
+заклинатель небес~
+заклинателя небес~
+заклинателю небес~
+заклинателя небес~
+заклинателем небес~
+заклинателе небес~
+Старый заклинатель небес шествует в сопровождение охраны.
+~
+   Небесные силы подвластны ему.
+~
+d0f0g0l0m0n0o0g2 c0d0e0f0k0m0n0x0A0D0p1 -600 E
+40 4 -5 7d10+3800 18d14+22
+12d10+700 3000000
+8 8 1
+BareHandAttack: 5
+Str: 27
+Dex: 25
+Int: 36
+Wis: 36
+Con: 23
+Cha: 28
+Size: 80
+LikeWork: 70
+MaxFactor: 4
+Class: 105
+Height: 160
+Weight: 80
+Special_Bitvector: l0u0b1c1d1C3 
+Skill: 22 120
+Skill: 136 100
+Skill: 141 100
+Skill: 144 100
+Skill: 145 100
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 152
+Spell: 152
+Spell: 152
+E
+T 73115
+#73114
+шаровая молния сгусток~
+шаровая молния~
+шаровой молнии~
+шаровой молнии~
+шаровую молнию~
+шаровой молнией~
+шаровой молнии~
+Сгусток света.
+~
+   Молния!
+~
+d0e0f0g0m0n0o0p0q0r0u0x0y0z0q1 d0f0h0k0n0p0r0x0z0A0C0D0m1p1r1x1 -600 E
+30 5 -2 4d10+1500 20d30+25
+0d0+0 300000
+8 8 2
+BareHandAttack: 2
+Str: 29
+Dex: 25
+Int: 25
+Wis: 25
+Con: 18
+Cha: 12
+Size: 100
+LikeWork: 40
+MaxFactor: 4
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: l0u0C3 
+Skill: 22 50
+Skill: 136 100
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+E
+T 73127
+#73115
+небесный владыка~
+небесный владыка~
+небесного владыки~
+небесному владыке~
+небесного владыку~
+небесным владыкой~
+небесном владыке~
+Огромное существо, с посохом в виде молнии осматривает свои владения.
+~
+   Все небеса подвластны ему.
+~
+b0c0d0f0g0l0m0n0o0x0y0 c0d0e0f0h0k0m0n0r0z0A0C0D0m1q1x1 -600 E
+48 0 -10 7d10+7000 25d25+25
+12d10+7000 3000000
+8 8 1
+BareHandAttack: 5
+Str: 32
+Dex: 26
+Int: 36
+Wis: 36
+Con: 24
+Cha: 25
+Size: 100
+LikeWork: 70
+MaxFactor: 2
+ExtraAttack: 2
+Class: 105
+Height: 199
+Weight: 150
+Special_Bitvector: u0b1c1d1C3 
+Skill: 5 45
+Skill: 21 30
+Skill: 22 140
+Skill: 132 50
+Skill: 134 75
+Skill: 136 100
+Skill: 137 50
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 151 80
+Skill: 154 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 153
+Spell: 153
+Spell: 153
+Helper: 73113
+Helper: 73112
+Helper: 73111
+Helper: 73110
+Helper: 73109
+E
+T 73117
+#73116
+окаменевший воин~
+окаменевший воин~
+окаменевшего воина~
+окаменевшему воину~
+окаменевшего воина~
+окаменевшим воином~
+окаменевшем воине~
+Сказочных размеров богатырь чинно шествует, неся на плече огромную дубину.
+~
+   Экий молодец, зашибет и глазом не успеешь моргнуть! 
+~
+d0f0g0l0m0n0o0y0 d0f0k0m0r0A0l1t1 -600 E
+35 3 -5 3d10+7000 25d20+30
+12d8+3000 1500000
+8 8 1
+Str: 30
+Dex: 30
+Int: 25
+Wis: 25
+Con: 35
+Cha: 20
+Size: 100
+LikeWork: 30
+MaxFactor: 4
+ExtraAttack: 1
+Class: 104
+Height: 200
+Weight: 100
+Special_Bitvector: p0w0b1c1d1C3 
+Skill: 22 65
+Skill: 134 80
+Skill: 136 100
+Skill: 137 50
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 146 100
+Skill: 148 100
+Skill: 151 90
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 62
+Spell: 93
+Spell: 111
+Spell: 152
+E
+T 73118
+#73117
+каменный воин~
+каменный воин  ~
+каменного воина~
+каменному воину~
+каменного воина~
+каменным воином~
+каменном воине~
+Огромная глыба камня.
+~
+   Оживший камень!
+~
+d0e0f0g0l0m0n0o0p0r0u0y0 d0k0m0r0t1 -600 E
+40 0 -7 4d10+6000 27d17+29
+7d11+2000 450000
+8 8 1
+BareHandAttack: 6
+Str: 36
+Dex: 28
+Int: 31
+Wis: 28
+Con: 36
+Cha: 25
+Size: 100
+LikeWork: 50
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: p0w0b1c1d1C3 
+Skill: 4 75
+Skill: 22 50
+Skill: 136 100
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+E
+#73118
+каменное проклятие~
+каменное проклятие~
+каменного проклятия~
+каменному проклятию~
+каменное проклятие~
+каменным проклятием~
+каменном проклятие~
+Огромная груда камней возвышается над вами.
+~
+   Оживший камень.
+~
+b0d0e0f0g0l0m0n0o0p0q0x0y0 c0d0f0j0k0m0r0l1t1 -600 E
+40 0 -3 10d5+8000 22d21+29
+0d0+0 800000
+8 8 0
+BareHandAttack: 6
+Str: 34
+Dex: 27
+Int: 25
+Wis: 30
+Con: 28
+Cha: 26
+Size: 100
+LikeWork: 60
+MaxFactor: 5
+ExtraAttack: 2
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: a0b0c0d0e0f0w0c1C3 
+Skill: 4 70
+Skill: 5 75
+Skill: 22 50
+Skill: 132 75
+Skill: 134 95
+Skill: 136 100
+Skill: 137 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 62
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 69
+Spell: 69
+Spell: 69
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 93
+Spell: 111
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 134
+Spell: 152
+Spell: 152
+Spell: 152
+Helper: 73117
+Helper: 73116
+E
+T 73101
+T 73125
+#73119
+огненная целительница~
+огненная целительница~
+огненной целительницы~
+огненной целительнице~
+огненную целительницу~
+огненной целительницей~
+огненной целительнице~
+Странная женщина, вся охваченна пламенем с ног до головы.
+~
+   Нелегко быть лекарем, но кто то и им должен быть...
+~
+d0f0g0l0m0n0o0t0 d0k0r0A0D0p1y1 -600 E
+42 8 -5 5d10+2500 12d22+22
+12d9+1300 500000
+8 8 2
+BareHandAttack: 5
+Str: 24
+Dex: 26
+Int: 36
+Wis: 36
+Con: 24
+Cha: 28
+Size: 100
+LikeWork: 60
+MaxFactor: 3
+Class: 105
+Height: 140
+Weight: 77
+Special_Bitvector: p0x0b1c1d1C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 141 100
+Skill: 144 100
+Skill: 145 100
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 93
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 114
+E
+#73120
+огненный пройдоха~
+огненный пройдоха~
+огненного пройдохи~
+огненному пройдохе~
+огненного пройдоху~
+огненным пройдохой~
+огненном пройдохе~
+Хитрый малый, с мутным взглядом.
+~
+   Странное создание.
+~
+d0f0g0h0l0m0n0o0 d0f0k0m0r0z0A0D0p1 -600 E
+40 4 -8 7d10+4700 18d20+28
+12d19+9000 400000
+8 8 1
+BareHandAttack: 4
+Str: 31
+Dex: 22
+Int: 30
+Wis: 26
+Con: 23
+Cha: 33
+Size: 100
+LikeWork: 70
+MaxFactor: 6
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: p0x0b1c1d1C3 
+Skill: 22 75
+Skill: 134 70
+Skill: 136 100
+Skill: 144 100
+Skill: 145 100
+Skill: 147 100
+Skill: 148 100
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 47
+E
+#73121
+огненный телохранитель~
+огненный телохранитель~
+огненного телохранителя~
+огненному телохранителю~
+огненного телохранителя~
+огненным телохранителем~
+огненном телохранителе~
+Ужасное создание, охваченное ярким пламенем, всегда защитит своего хозяина.
+~
+   Жуткое создание!
+~
+d0f0g0l0m0n0o0t0x0 d0f0h0m0r0A0C0D0y1 -600 E
+30 4 -10 7d10+2000 19d18+19
+0d0+0 500000
+8 8 1
+Str: 27
+Dex: 27
+Int: 27
+Wis: 26
+Con: 27
+Cha: 27
+Size: 100
+LikeWork: 50
+MaxFactor: 5
+ExtraAttack: 2
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: p0x0C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 137 50
+Spell: 48
+Spell: 48
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+E
+#73122
+огненный телохранитель~
+огненный телохранитель~
+огненного телохранителя~
+огненному телохранителю~
+огненного телохранителя~
+огненным телохранителем~
+огненном телохранителе~
+Ужасное создание, охваченное ярким пламенем, всегда защитит своего хозяина.
+~
+   Жуткое создание!
+~
+d0f0g0l0m0n0o0t0x0 d0f0h0m0r0A0C0D0y1 -600 E
+30 4 -10 7d10+2000 16d22+19
+0d0+0 500000
+8 8 1
+Str: 27
+Dex: 27
+Int: 27
+Wis: 26
+Con: 27
+Cha: 27
+Size: 100
+LikeWork: 50
+MaxFactor: 5
+ExtraAttack: 2
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: p0x0C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 137 50
+E
+#73123
+огненный шар~
+огненный шар~
+огненного шара~
+огненному шару~
+огненный шар~
+огненным шаром~
+огненном шаре~
+Огненный шар, тихо парит над самой поверхностью земли.
+~
+   Жар, огонь, пламя...
+~
+d0e0f0g0l0m0n0o0p0q0r0u0x0y0z0q1a2 d0f0h0k0n0r0x0A0D0p1r1y1 -600 E
+32 0 -8 4d10+1200 15d18+20
+0d0+0 400000
+8 8 1
+Str: 29
+Dex: 21
+Int: 23
+Wis: 22
+Con: 22
+Cha: 19
+Size: 100
+LikeWork: 14
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: l0x0C3 
+Skill: 22 55
+Skill: 136 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+E
+T 73128
+#73124
+огненная воительница~
+огненная воительница~
+огненной воительницы~
+огненной воительнице~
+огненную воительницу~
+огненной воительницей~
+огненной воительнице~
+Закованная в пылающую броню девушка, будет сражаться с вами до конца...
+~
+   Страшный соперник...
+~
+d0f0g0l0m0n0o0x0 d0g0h0n0r0A0m1p1y1 -600 E
+50 0 -10 9d10+7000 25d25+25
+99d10+1000 2000000
+8 8 2
+BareHandAttack: 3
+Str: 36
+Dex: 33
+Int: 25
+Wis: 25
+Con: 25
+Cha: 23
+Size: 100
+LikeWork: 80
+MaxFactor: 2
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: x0b1c1d1C3 
+Skill: 21 40
+Skill: 22 180
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 150 55
+Skill: 157 55
+Skill: 160 50
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 111
+Helper: 73122
+Helper: 73120
+Helper: 73119
+Helper: 73100
+E
+#73125
+владыка стихий~
+владыка стихий~
+владыки стихий~
+владыке стихий~
+владыку стихий~
+владыкой стихий~
+владыке стихий~
+Огромное существо взерает на вас с высоты своего роста!
+~
+   Ему подвластна вся магия!
+~
+d0f0g0l0m0n0o0y0 c0d0e0f0h0k0m0n0r0z0A0C0D0m1x1y1z1 -600 E
+50 5 -10 50d50+12000 25d25+25
+12d100+30000 5000000
+8 8 1
+BareHandAttack: 5
+Str: 30
+Dex: 30
+Int: 36
+Wis: 36
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 80
+MaxFactor: 2
+ExtraAttack: 2
+Class: 105
+Height: 200
+Weight: 99
+Special_Bitvector: u0v0w0x0b1c1d1C3 
+Skill: 5 100
+Skill: 21 50
+Skill: 22 200
+Skill: 132 100
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 147 100
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 62
+Spell: 63
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 88
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 93
+Spell: 94
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 111
+Spell: 124
+Spell: 127
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 153
+Spell: 153
+Spell: 153
+Helper: 73128
+Helper: 73127
+Helper: 73126
+Helper: 73124
+E
+T 73119
+I кости,14:6
+#73126
+огонь~
+огонь~
+огня~
+огню~
+огонь~
+огнем~
+огне~
+Жгучий огонь!
+~
+   Жар, пламя!!!
+~
+b0d0e0f0g0l0m0n0o0p0q0r0t0u0x0z0q1 d0n0x0m1p1y1 -600 E
+30 0 -5 5d10+3000 15d15+15
+0d0+0 700000
+8 8 1
+BareHandAttack: 2
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 30
+MaxFactor: 3
+ExtraAttack: 2
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: x0C3 
+Skill: 22 50
+Skill: 136 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+E
+#73127
+воздух~
+воздух~
+воздуха~
+воздуху~
+воздух~
+воздухом~
+воздухе~
+Порыв ветра!
+~
+   Холодный, горный воздух!
+~
+b0d0e0f0g0l0m0n0o0p0q0t0u0x0z0q1 d0f0n0x0m1q1x1 -600 E
+30 1 -10 5d10+2000 15d15+15
+0d0+0 700000
+8 8 1
+BareHandAttack: 2
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 60
+MaxFactor: 3
+ExtraAttack: 2
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: u0C3 
+Skill: 22 50
+Skill: 136 100
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+E
+#73128
+вода~
+вода~
+воды~
+воде~
+воду~
+водой~
+воде~
+Текучая вода!
+~
+   Текучая вода!
+~
+b0d0e0f0g0l0m0n0o0p0q0r0t0u0x0z0q1 d0f0A0m1o1z1 -600 E
+34 3 -10 3d10+3000 15d15+15
+0d0+0 700000
+8 8 2
+BareHandAttack: 2
+Str: 25
+Dex: 25
+Int: 30
+Wis: 25
+Con: 30
+Cha: 20
+Size: 100
+LikeWork: 45
+MaxFactor: 5
+ExtraAttack: 2
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: v0C3 
+Skill: 22 50
+Skill: 136 100
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+E
+#73129
+старый волхв~
+старый волхв~
+старого волхва~
+старому волхву~
+старый волхв~
+старым волхвом~
+старом волхве~
+Старый волхв отдыхает на камне, задумчиво глядя в огонь.
+~
+Высокий старик, облаченный в длинное белое одеяние.
+Его густая борода и волосы отливают серебром, а лицо
+покрыто глубокими морщинами. В правой руке перекатывает
+небольшой плоский камень, с высеченнойм на нем руной.
+
+~
+b0c0d0g0n0o0x0A0i1 d0f0k0r0A0m1r1 0 E
+32 0 -10 10d50+1400 12d18+18
+0d0+0 1000000
+5 5 1
+BareHandAttack: 5
+Str: 27
+Dex: 22
+Int: 36
+Wis: 29
+Con: 27
+Cha: 24
+Size: 50
+LikeWork: 90
+ExtraAttack: 1
+Class: 105
+Height: 185
+Weight: 150
+Special_Bitvector: 0 
+Skill: 22 200
+Skill: 141 120
+Skill: 166 200
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+E
+T 73100
+#73130
+огненная птица~
+огненная птица~
+огненной птицы~
+огненной птице~
+огненную птицу~
+огненной птицей~
+огненной птице~
+Огненная птица мечется здесь, взмахивая крыльями.
+~
+Дивной красоты создание, словно состоящее
+из свитых вместе клубов и языков пламени.
+~
+b0d0f0l0m0n0o0x0b1t1a2 d0f0k0n0r0x0A0C0m1p1r1 -600 E
+25 20 -8 10d10+1200 15d12+15
+0d0+0 200000
+8 8 2
+BareHandAttack: 2
+Str: 23
+Dex: 35
+Int: 30
+Wis: 35
+Con: 28
+Cha: 13
+Size: 60
+LikeWork: 80
+MaxFactor: 12
+ExtraAttack: 1
+Class: 103
+Height: 120
+Weight: 85
+Special_Bitvector: a0b0c0d0e0f0x0 
+Skill: 21 15
+Skill: 22 120
+Skill: 137 200
+Skill: 157 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 82
+E
+I крылья,11:8
+$

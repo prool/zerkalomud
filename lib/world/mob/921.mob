@@ -1,0 +1,806 @@
+#92100
+летучий змей~
+летучий змей~
+летучего змея~
+летучему змею~
+летучего змея~
+летучим змеем~
+летучем змее~
+Большой змей летает тут.
+~
+undefined~
+c0d0f0g0m0n0o0p0t0A0b1r1 d0f0k0q1 -600 E
+37 0 -10 20d30+3200 25d9+10
+50d100+3000 950000
+8 8 1
+BareHandAttack: 1
+Str: 25
+Dex: 25
+Int: 30
+Wis: 36
+Con: 30
+Cha: 3
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 105
+Height: 30
+Weight: 150
+Special_Bitvector: j0l0v0 
+Skill: 136 100
+Skill: 137 100
+Skill: 156 100
+Skill: 157 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 153
+E
+T 92100
+I крылья,15:7
+#92101
+серый змей~
+серый змей~
+серого змея~
+серому змею~
+серого змея~
+серым змеем~
+сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+34 0 -10 0d0+3000 20d9+5
+0d0+0 680000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+Class: 105
+Height: 30
+Weight: 100
+Special_Bitvector: m0 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92102
+I чешуя,15:7
+#92102
+двухголовый серый змей~
+двухголовый серый змей~
+двухголового серого змея~
+двухголовому серому змею~
+двухголового серого змея~
+двухголовым серым змеем~
+двухголовом сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+35 0 -10 0d0+5500 20d9+5
+0d0+0 1100000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+ExtraAttack: 1
+Class: 105
+Height: 198
+Weight: 100
+Special_Bitvector: m0q1 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92103
+#92103
+серый змей ~
+серый змей~
+серого змея~
+серому змею~
+серого змея~
+серым змеем~
+сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+34 0 -10 0d0+3000 20d9+5
+0d0+0 1100000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+Class: 105
+Height: 30
+Weight: 100
+Special_Bitvector: m0 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92104
+I когти,15:7
+#92104
+трехголовый серый змей~
+трехголовый серый змей~
+трехголового серого змея~
+трехголовому серому змею~
+трехголового серого змея~
+трехголовым серым змеем~
+трехголовом сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+36 0 -10 0d0+8000 20d9+5
+0d0+0 1600000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+ExtraAttack: 2
+Class: 105
+Height: 198
+Weight: 100
+Special_Bitvector: m0q1 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92105
+#92105
+двухголовый серый змей~
+двухголовый серый змей~
+двухголового серого змея~
+двухголовому серому змею~
+двухголового серого змея~
+двухголовым серым змеем~
+двухголовом сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+35 0 -10 0d0+5500 20d9+5
+0d0+0 1600000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+ExtraAttack: 1
+Class: 105
+Height: 198
+Weight: 100
+Special_Bitvector: m0q1 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92106
+#92106
+серый змей ~
+серый змей~
+серого змея~
+серому змею~
+серого змея~
+серым змеем~
+сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+34 0 -10 0d0+3000 20d9+5
+0d0+0 1600000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+Class: 105
+Height: 30
+Weight: 100
+Special_Bitvector: m0 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92107
+I глаза,15:7
+#92107
+четырехголовый серый змей~
+четырехголовый серый змей~
+четырехголового серого змея~
+четырехголовому серому змею~
+четырехголового серого змея~
+четырехголовым серым змеем~
+четырехголовом сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+37 0 -10 0d0+11000 20d9+5
+0d0+0 2200000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+ExtraAttack: 3
+Class: 105
+Height: 198
+Weight: 100
+Special_Bitvector: m0q1 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92108
+#92108
+трехголовый серый змей~
+трехголовый серый змей~
+трехголового серого змея~
+трехголовому серому змею~
+трехголового серого змея~
+трехголовым серым змеем~
+трехголовом сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+36 0 -10 0d0+8000 20d9+5
+0d0+0 2200000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+ExtraAttack: 2
+Class: 105
+Height: 198
+Weight: 100
+Special_Bitvector: q1 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92109
+#92109
+двухголовый серый змей~
+двухголовый серый змей~
+двухголового серого змея~
+двухголовому серому змею~
+двухголового серого змея~
+двухголовым серым змеем~
+двухголовом сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+35 0 -10 0d0+5500 20d9+5
+0d0+0 2200000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+ExtraAttack: 1
+Class: 105
+Height: 198
+Weight: 100
+Special_Bitvector: q1 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92110
+#92110
+серый змей ~
+серый змей~
+серого змея~
+серому змею~
+серого змея~
+серым змеем~
+сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+34 0 -10 0d0+3000 20d9+5
+0d0+0 2200000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+Class: 105
+Height: 30
+Weight: 100
+Special_Bitvector: 0 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92111
+I копыта,15:7
+#92111
+пятиглавый серый змей~
+пятиглавый серый змей~
+пятиглавого серого змея~
+пятиглавому серому змею~
+пятиглавого серого змея~
+пятиглавым серым змеем~
+пятиглавом сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+38 0 -10 0d0+15000 20d9+5
+0d0+0 3000000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+ExtraAttack: 4
+Class: 105
+Height: 198
+Weight: 100
+Special_Bitvector: m0q1 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92112
+#92112
+четырехголовый серый змей~
+четырехголовый серый змей~
+четырехголового серого змея~
+четырехголовому серому змею~
+четырехголового серого змея~
+четырехголовым серым змеем~
+четырехголовом сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+37 0 -10 0d0+11000 20d9+5
+0d0+0 3000000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+ExtraAttack: 3
+Class: 105
+Height: 198
+Weight: 100
+Special_Bitvector: m0q1 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92113
+#92113
+трехголовый серый змей~
+трехголовый серый змей~
+трехголового серого змея~
+трехголовому серому змею~
+трехголового серого змея~
+трехголовым серым змеем~
+трехголовом сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+36 0 -10 0d0+8000 20d9+5
+0d0+0 3000000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+ExtraAttack: 2
+Class: 105
+Height: 198
+Weight: 100
+Special_Bitvector: q1 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92114
+#92114
+двухголовый серый змей~
+двухголовый серый змей~
+двухголового серого змея~
+двухголовому серому змею~
+двухголового серого змея~
+двухголовым серым змеем~
+двухголовом сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+35 0 -10 0d0+5500 20d9+5
+0d0+0 3000000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+ExtraAttack: 1
+Class: 105
+Height: 198
+Weight: 100
+Special_Bitvector: q1 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92115
+#92115
+серый змей ~
+серый змей~
+серого змея~
+серому змею~
+серого змея~
+серым змеем~
+сером змее~
+Серый змей ползает тут.
+~
+undefined~
+d0f0g0n0o0p0t0 d0f0k0 -600 E
+34 0 -10 0d0+3000 20d9+5
+0d0+0 3000000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 30
+Int: 5
+Wis: 30
+Con: 29
+Cha: 5
+Size: 50
+LikeWork: 100
+Class: 105
+Height: 198
+Weight: 100
+Special_Bitvector: q1 
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+E
+T 92116
+T 92118
+#92116
+черное дерево~
+черное дерево~
+черного дерева~
+черному дереву~
+черное дерево~
+черным деревом~
+черном дереве~
+Черное дерево стоит тут.
+~
+undefined~
+b0d0e0f0n0o0p0q0 d0f0k0 -600 E
+34 0 -7 0d0+7000 10d9+9
+0d0+0 840000
+8 8 0
+BareHandAttack: 2
+Str: 20
+Dex: 18
+Int: 18
+Wis: 20
+Con: 36
+Cha: 3
+Size: 50
+LikeWork: 100
+ExtraAttack: 4
+Class: 100
+Height: 198
+Weight: 100
+Special_Bitvector: a0b0c0d0e0f0 
+Skill: 12 100
+Skill: 22 100
+Skill: 136 100
+Skill: 137 100
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+E
+T 92119
+T 92127
+#92117
+черный кустарник~
+черный кустарник~
+черного кустарника~
+черному кустарнику~
+черный кустарник~
+черным кустарником~
+черном кустарнике~
+Черный кустарник растет тут.
+~
+undefined~
+b0d0e0f0n0o0p0q0 d0f0k0 -600 E
+30 0 -7 0d0+2000 5d8+7
+0d0+0 340000
+8 8 1
+BareHandAttack: 2
+Str: 20
+Dex: 18
+Int: 10
+Wis: 25
+Con: 36
+Cha: 3
+Size: 50
+LikeWork: 100
+ExtraAttack: 2
+Class: 100
+Height: 198
+Weight: 100
+Special_Bitvector: 0 
+Skill: 136 100
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+E
+T 92120
+#92118
+лесной великан~
+лесной великан~
+лесного великана~
+лесному великану~
+лесного великана~
+лесным великаном~
+лесном великане~
+Лесной великан стоит тут.
+~
+неопределен~
+c0d0f0l0m0n0o0p0x0A0 d0f0k0 -600 E
+38 0 -5 0d0+14000 30d11+40
+0d0+0 1200000
+8 8 1
+Str: 36
+Dex: 25
+Int: 16
+Wis: 22
+Con: 25
+Cha: 3
+Size: 90
+LikeWork: 35
+ExtraAttack: 1
+Class: 104
+Height: 30
+Weight: 150
+Special_Bitvector: C3 
+Skill: 22 100
+Skill: 134 100
+Skill: 137 100
+Skill: 146 100
+Skill: 151 100
+E
+T 92121
+I кожа,17:7
+#92119
+разрыв трава~
+разрыв трава~
+разрыв травы~
+разрыв траве~
+разрыв траву~
+разрыв травой~
+разрыв траве~
+Высокая трава растет тут.
+~
+undefined~
+b0d0f0n0o0p0q0x0z0 d0f0k0p1 -600 E
+29 0 -8 0d0+1500 1d1+1
+0d0+0 350000
+8 8 2
+BareHandAttack: 2
+Str: 16
+Int: 29
+Wis: 25
+Cha: 3
+Size: 1
+LikeWork: 100
+Class: 100
+Height: 198
+Weight: 1
+Special_Bitvector: a0b0c0d0j0 
+Skill: 150 100
+Skill: 156 100
+E
+T 92123
+#92120
+буря яга усоньша великанша~
+Буря-Яга~
+Бури-Яги~
+Буре-Яге~
+Бурю-Ягу~
+Бурей-Ягой~
+Буре-Яге~
+Великанша Усоньша Виевна стоит тут.
+~
+неопределен~
+b0c0d0f0l0m0n0o0p0u0x0A0r1 d0f0h0k0n0a1 -600 E
+40 0 -10 1d1+19000 30d12+20
+100d200+5000 3000000
+8 8 2
+Str: 36
+Dex: 18
+Int: 50
+Wis: 50
+Con: 36
+Cha: 16
+Size: 100
+LikeWork: 45
+ExtraAttack: 1
+Class: 102
+Height: 30
+Weight: 100
+Special_Bitvector: b1c1d1 
+Skill: 5 140
+Skill: 134 140
+Skill: 136 120
+Skill: 141 120
+Skill: 142 120
+Skill: 143 120
+Skill: 144 120
+Skill: 145 120
+Skill: 146 120
+Skill: 147 120
+Skill: 148 120
+Skill: 150 100
+Spell: 56
+Spell: 56
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 152
+Spell: 153
+Helper: 92118
+E
+T 92126
+T 92128
+$

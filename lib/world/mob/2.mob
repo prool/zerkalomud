@@ -17,11 +17,9 @@ d0g0 p0 600 E
 8 8 1
 Size: 31
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 3
 E
 #201
 моб первого уровня~
@@ -42,11 +40,9 @@ d0g0 p0 600 E
 8 8 1
 Size: 31
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 3
 E
 #202
 моб второго уровня~
@@ -67,11 +63,9 @@ d0g0 p0 600 E
 8 8 1
 Size: 32
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 6
 E
 #203
 моб третьего уровня~
@@ -92,11 +86,9 @@ d0g0 p0 600 E
 8 8 1
 Size: 33
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 9
 E
 #204
 моб четвертого уровня~
@@ -117,11 +109,9 @@ d0g0 p0 600 E
 8 8 1
 Size: 34
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 12
 E
 #205
 чармис пятого уровня~
@@ -141,11 +131,9 @@ d0 p0 600 E
 8 8 1
 Size: 35
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 15
 E
 #206
 чармис шестого уровня~
@@ -165,11 +153,9 @@ d0g0 p0 600 E
 8 8 1
 Size: 36
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 18
 Skill: 137 10
 E
 #207
@@ -190,11 +176,9 @@ d0g0 p0 600 E
 8 8 1
 Size: 37
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 21
 E
 #208
 чармис восьмого уровня~
@@ -214,11 +198,9 @@ d0g0 p0 600 E
 8 8 1
 Size: 38
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 24
 Skill: 137 16
 E
 #209
@@ -240,11 +222,9 @@ d0g0 p0 600 E
 Size: 39
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 27
 E
 #210
 чармис десятого уровня~
@@ -265,11 +245,9 @@ d0g0 p0 600 E
 Size: 40
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 30
 Skill: 137 22
 E
 #211
@@ -291,11 +269,9 @@ d0g0 p0 600 E
 Size: 41
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 33
 E
 #212
 чармис двенадцатого уровня~
@@ -316,11 +292,9 @@ d0g0 p0 600 E
 Size: 42
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 36
 Skill: 137 28
 E
 #213
@@ -342,11 +316,9 @@ d0g0 p0 600 E
 Size: 43
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 39
 E
 #214
 чармис четырнадцатого уровня~
@@ -367,11 +339,9 @@ d0g0 p0 600 E
 Size: 44
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 42
 Skill: 137 34
 E
 #215
@@ -393,11 +363,9 @@ d0g0 p0 600 E
 Size: 45
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 45
 E
 #216
 чармис шестнадцатого уровня~
@@ -418,11 +386,9 @@ d0g0 p0 600 E
 Size: 46
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 48
 Skill: 137 40
 E
 #217
@@ -444,11 +410,9 @@ d0g0 p0 600 E
 Size: 47
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 51
 E
 #218
 чармис восемнадцатого уровня~
@@ -469,11 +433,9 @@ d0g0 p0 600 E
 Size: 48
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 54
 Skill: 137 46
 E
 #219
@@ -495,11 +457,9 @@ d0g0 p0 600 E
 Size: 49
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 57
 E
 #220
 чармис двадцатого уровня~
@@ -520,11 +480,9 @@ d0g0 p0 600 E
 Size: 50
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 60
 Skill: 137 52
 E
 #221
@@ -546,11 +504,9 @@ d0g0 p0 600 E
 Size: 51
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 63
 E
 #222
 чармис двадцать второго уровня~
@@ -571,11 +527,9 @@ d0g0 p0 600 E
 Size: 52
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 66
 Skill: 137 58
 E
 #223
@@ -597,11 +551,9 @@ d0g0 p0 600 E
 Size: 53
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 69
 E
 #224
 чармис двадцать четвертого уровня~
@@ -622,11 +574,9 @@ d0g0 p0 600 E
 Size: 54
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 72
 Skill: 137 64
 E
 #225
@@ -648,11 +598,9 @@ d0g0 p0 600 E
 Size: 55
 ExtraAttack: 2
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 75
 E
 #226
 чармис двадцать шестого уровня~
@@ -673,11 +621,9 @@ d0g0 p0 600 E
 Size: 56
 ExtraAttack: 2
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 78
 Skill: 137 70
 E
 #227
@@ -699,11 +645,9 @@ d0g0 p0 600 E
 Size: 57
 ExtraAttack: 2
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 81
 E
 #228
 чармис двадцать восьмого уровня~
@@ -724,11 +668,9 @@ d0g0 p0 600 E
 Size: 58
 ExtraAttack: 2
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 84
 Skill: 137 76
 E
 #229
@@ -750,11 +692,9 @@ d0g0 p0 600 E
 Size: 59
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 87
 E
 #230
 чармис тридцатого уровня~
@@ -776,11 +716,9 @@ Dex: 25
 Size: 60
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 90
 Skill: 137 82
 E
 #231
@@ -802,11 +740,9 @@ d0g0 p0 600 E
 Size: 61
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 93
 E
 #232
 чармис тридцать воторого уровня_танк~
@@ -827,11 +763,9 @@ d0g0 p0 600 E
 Size: 63
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 96
 Skill: 137 88
 E
 #233
@@ -853,11 +787,9 @@ d0g0 p0 600 E
 Size: 63
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 99
 E
 #234
 чармис тридцать четвертого уровня_танк~
@@ -878,11 +810,9 @@ d0g0 p0 600 E
 Size: 63
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 102
 Skill: 137 94
 E
 #235
@@ -904,11 +834,9 @@ d0g0 p0 600 E
 Size: 63
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 105
 E
 #236
 чармис тридцать шестого уровня_танк~
@@ -929,11 +857,9 @@ d0g0 p0 600 E
 Size: 63
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 108
 Skill: 137 100
 E
 #237
@@ -955,11 +881,9 @@ d0g0 p0 600 E
 Size: 63
 ExtraAttack: 4
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 111
 E
 #238
 чармис тридцать восьмого уровня_танк~
@@ -980,11 +904,9 @@ d0g0 p0 600 E
 Size: 65
 ExtraAttack: 3
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 114
 Skill: 137 106
 E
 #239
@@ -1006,11 +928,9 @@ d0g0 p0 600 E
 Size: 63
 ExtraAttack: 4
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 117
 E
 #240
 чармис сорокового уровня_танк~
@@ -1031,11 +951,9 @@ d0g0 p0 600 E
 Size: 65
 ExtraAttack: 4
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 120
 Skill: 137 112
 E
 #241
@@ -1057,11 +975,9 @@ d0g0 p0 600 E
 Size: 65
 ExtraAttack: 4
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 123
 E
 #242
 чармис сорок второго  уровня_танк~
@@ -1082,11 +998,9 @@ d0g0 p0 600 E
 Size: 67
 ExtraAttack: 4
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 126
 Skill: 137 118
 E
 #243
@@ -1108,11 +1022,9 @@ d0g0 p0 600 E
 Size: 65
 ExtraAttack: 4
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 129
 E
 #244
 чармис сорок четвертого  уровня_танк~
@@ -1133,11 +1045,9 @@ d0g0 p0 600 E
 Size: 67
 ExtraAttack: 4
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 132
 Skill: 137 124
 E
 #245
@@ -1159,11 +1069,9 @@ d0g0 p0 600 E
 Size: 67
 ExtraAttack: 4
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 135
 E
 #246
 чармис сорок шестого уровня_танк~
@@ -1184,11 +1092,9 @@ d0g0 p0 600 E
 Size: 70
 ExtraAttack: 4
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 138
 Skill: 137 130
 E
 #247
@@ -1210,11 +1116,9 @@ d0g0 p0 600 E
 Size: 70
 ExtraAttack: 5
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 141
 E
 #248
 чармис сорок восьмого уровня_танк~
@@ -1235,11 +1139,9 @@ d0g0 p0 600 E
 Size: 72
 ExtraAttack: 4
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 144
 Skill: 137 136
 E
 #249
@@ -1261,11 +1163,9 @@ d0g0 p0 600 E
 Size: 70
 ExtraAttack: 5
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 147
 E
 #250
 чармис пятидесятого уровня_танк~
@@ -1286,11 +1186,9 @@ d0g0 p0 600 E
 Size: 75
 ExtraAttack: 5
 Class: 100
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 136 150
 Skill: 137 142
 E
 $

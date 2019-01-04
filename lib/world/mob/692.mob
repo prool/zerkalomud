@@ -1,0 +1,866 @@
+#69200
+страж темного моста~
+страж темного моста~
+стража темного моста~
+стражу темного моста~
+стража темного моста~
+стражем темного моста~
+страже темного моста~
+Огромных размеров существо, зорко смотрит по сторонам, держа в руках огромных размеров меч.
+~
+   Не человек, и не дух, а странное подобие всех живых, да и мертвых.
+
+~
+a0b0d0e0g0n0o0p0q0r0t0u0x0y0B0o1g2i2 d0f0k0D0n1 0 E
+50 0 -10 10d10+11 11d11+11
+0d0+0 10000
+8 8 1
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 100
+ExtraAttack: 5
+Class: 104
+Height: 200
+Weight: 200
+Special_Bitvector: 0 
+E
+T 69200
+T 69201
+T 69212
+#69201
+темный чародей~
+темный чародей~
+темного чародея~
+темному чародею~
+темного чародея~
+темным чародеем~
+темном чародее~
+Человек в темных одеждах, со странным посохом в руках, склонился над огромной темной книгой.  
+~
+   Странный человек, одетый во все черное, на вид и не скажешь сколько ему 
+лет, видно без магии и тут не обошлось.
+~
+b0c0d0f0g0l0n0o0x0A0 d0e0f0k0m0r0z0A0q1r1x1y1z1 -600 E
+45 0 -5 3d10+9000 20d20+25
+12d5+2115 550000
+8 8 1
+Str: 28
+Dex: 25
+Int: 36
+Wis: 36
+Con: 25
+Cha: 20
+Size: 100
+LikeWork: 20
+MaxFactor: 6
+ExtraAttack: 1
+Class: 105
+Height: 189
+Weight: 100
+Special_Bitvector: b1c1C3 
+Skill: 5 50
+Skill: 22 40
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 48
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 64
+Spell: 64
+Spell: 66
+Spell: 66
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 82
+Spell: 83
+Spell: 83
+Spell: 88
+Spell: 93
+Spell: 94
+Spell: 104
+Spell: 104
+Spell: 111
+Spell: 113
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 152
+Helper: 69205
+Helper: 69204
+Helper: 69213
+Helper: 69211
+Helper: 69210
+E
+T 69202
+#69202
+оживший камень~
+оживший камень~
+ожившего камня~
+ожившему камню~
+оживший камень~
+ожившим камнем~
+ожившем камне~
+Огромный камень, кажется, ожил на ваших глазах.
+~
+   Огромная глыба темного камня, издали очень похожая на человека.
+~
+b0c0d0e0f0g0l0m0n0o0p0q0r0u0x0A0r1g2i2 d0h0k0m0n0r0z0A0t1 -600 E
+40 0 -10 10d5+7500 10d10+20
+0d0+0 450000
+8 8 1
+Str: 36
+Dex: 30
+Int: 25
+Wis: 25
+Con: 36
+Cha: 18
+Size: 100
+LikeWork: 30
+MaxFactor: 5
+ExtraAttack: 2
+Class: 101
+Height: 200
+Weight: 150
+Special_Bitvector: w0b1c1 
+Skill: 4 90
+Skill: 132 75
+Skill: 134 90
+Skill: 136 150
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 82
+Spell: 88
+Spell: 93
+Spell: 111
+E
+T 69205
+#69203
+дух камня~
+дух камня~
+духа камня~
+духу камня~
+духа камня~
+духом камня~
+духе камня~
+Дух камня так и норовит броситься на Вас!
+~
+   Странное создание, раньше обитавшее в огромное глыбе камня.
+~
+b0d0e0f0g0l0n0o0p0q0r0u0x0y0z0 d0k0m0r0x0A0q1x1z1 -600 E
+35 0 -6 10d10+1215 8d8+11
+0d0+0 150000
+8 8 1
+Str: 25
+Dex: 30
+Int: 30
+Wis: 30
+Con: 20
+Cha: 16
+Size: 100
+LikeWork: 15
+MaxFactor: 7
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: u0B3 
+Skill: 21 30
+Skill: 136 100
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 56
+Spell: 56
+Spell: 66
+Spell: 82
+Spell: 88
+Spell: 94
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 111
+E
+#69204
+душа падшего воина~
+душа падшего воина~
+души падшего воина~
+душе падшего воина~
+душу падшего воина~
+душой падшего воина~
+душе падшего воина~
+Странное создание с огромным мечом в руках, парит над землей.
+~
+   Вот как выглядят люди после смерти...
+~
+c0d0e0f0g0l0m0n0o0q0r0y0z0A0i2 b0c0d0e0k0m0n0p0A0q1x1z1 -600 E
+35 5 -10 10d10+3300 11d15+19
+0d0+0 310000
+8 8 2
+BareHandAttack: 3
+Str: 36
+Dex: 36
+Int: 30
+Wis: 30
+Con: 30
+Cha: 20
+Size: 100
+LikeWork: 15
+MaxFactor: 6
+ExtraAttack: 2
+Class: 104
+Height: 187
+Weight: 149
+Special_Bitvector: l0u0b1c1B3 
+Skill: 5 70
+Skill: 12 70
+Skill: 21 50
+Skill: 136 100
+Skill: 137 60
+Skill: 141 100
+Skill: 142 100
+Skill: 143 125
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 93
+E
+#69205
+душа падшего чародея~
+душа падшего чародея~
+души падшего чародея~
+душе падшего чародея~
+душу падшего чародея~
+душой падшего чародея~
+душе падшего чародея~
+Странное создание с рукописью в руках парит над землей.
+~
+   Вот как выглядят люди после смерти...
+~
+c0d0e0f0g0l0m0n0o0p0r0y0z0A0i2 b0d0k0m0r0x0A0z1 -600 E
+35 1 0 10d10+2190 11d10+11
+0d0+0 400000
+8 8 2
+Str: 28
+Dex: 20
+Int: 30
+Wis: 30
+Con: 24
+Cha: 16
+Size: 100
+LikeWork: 25
+MaxFactor: 7
+ExtraAttack: 1
+Class: 105
+Height: 200
+Weight: 150
+Special_Bitvector: u0b1c1C3 
+Skill: 22 40
+Skill: 131 50
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 56
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 82
+Spell: 88
+Spell: 93
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 124
+E
+#69206
+оживший валун~
+оживший валун~
+ожившего валуна~
+ожившему валуну~
+ожившего валуна~
+ожившим валуном~
+ожившем валуне~
+Оживший булыжник шатается туда - суда.
+~
+   Вот это да, камень, а живой!
+~
+d0e0f0g0l0m0n0o0p0z0A0i2 c0d0h0k0m0r0z0t1 -600 E
+30 3 -10 10d10+1150 10d5+9
+0d0+0 400000
+8 8 1
+Str: 36
+Dex: 25
+Int: 20
+Wis: 20
+Con: 36
+Cha: 16
+Size: 100
+LikeWork: 30
+MaxFactor: 7
+ExtraAttack: 1
+Class: 104
+Height: 156
+Weight: 150
+Special_Bitvector: w0 
+Skill: 4 50
+Skill: 5 50
+Skill: 136 100
+Spell: 23
+Spell: 23
+Spell: 23
+E
+T 69208
+#69207
+темный дух~
+темный дух~
+темного духа~
+темному духу~
+темного духа~
+темным духом~
+темном духе~
+Дух камня с диким воплем бросился на Вас.
+~
+   Раньше этот дух был заключен в камень, а сейчас он на свободе!
+~
+d0e0f0g0l0m0n0o0y0z0 c0d0k0m0n0r0x0z0A0a1x1 -600 E
+30 0 -5 10d7+999 8d8+8
+0d0+0 390000
+8 8 1
+BareHandAttack: 6
+Str: 22
+Dex: 23
+Int: 36
+Wis: 36
+Con: 22
+Cha: 16
+Size: 100
+LikeWork: 14
+MaxFactor: 7
+ExtraAttack: 1
+Class: 105
+Height: 138
+Weight: 99
+Special_Bitvector: u0 
+Skill: 136 90
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 82
+Spell: 88
+Spell: 94
+E
+#69208
+озлобленный дух~
+озлобленный дух~
+озлобленного духа~
+озлобленному духу~
+озлобленного духа~
+озлобленным духом~
+озлобленном духе~
+Ужасное создание, со светящимися глазами, ищем свою жертву!
+~
+   Давно умерший человек.
+~
+b0d0e0f0g0l0m0n0o0y0z0c2h2 d0k0m0n0r0x0z0A0q1x1z1 -600 E
+33 2 -6 5d9+1200 7d17+9
+0d0+0 277000
+8 8 1
+Str: 25
+Dex: 25
+Int: 30
+Wis: 30
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 15
+MaxFactor: 7
+ExtraAttack: 1
+Class: 101
+Height: 200
+Weight: 150
+Special_Bitvector: l0u0 
+Skill: 136 100
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 88
+Spell: 88
+Spell: 88
+E
+#69209
+непрощенная душа~
+непрощеная душа~
+непрощенной души~
+непрощенной душе~
+непрощенную душу~
+непрощенной душой~
+непрощенной душе~
+Странное создание, как будто полностью сотканное из воздуха, парит над землей.
+~
+   Вот это ужас! Дух, а страшный какой.
+~
+d0e0f0g0l0m0n0o0y0z0A0 b0d0e0k0m0n0r0x0z0A0r1 -600 E
+30 6 -5 10d10+1200 9d9+22
+0d0+0 300000
+8 8 2
+Str: 30
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 25
+MaxFactor: 5
+ExtraAttack: 2
+Class: 101
+Height: 145
+Weight: 100
+Special_Bitvector: b1c1 
+Skill: 4 70
+Skill: 136 125
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 113
+E
+#69210
+страж туманного зала~
+страж туманного зала~
+стража туманного зала~
+стражу туманного зала~
+стража туманного зала~
+стражем туманного зала~
+страже туманного зала~
+Огромный воин в туманных доспехах стоит, не шевелясь, на своем посту.
+~
+   Странное создание, по видимому созданное какой то магией.
+~
+b0c0d0e0f0g0l0m0n0o0x0y0A0 c0d0f0h0m0n0r0z0A0q1r1x1y1z1 -600 E
+40 0 -10 10d10+5000 12d10+12
+5d22+1111 400000
+8 8 1
+BareHandAttack: 3
+Str: 35
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 30
+MaxFactor: 4
+ExtraAttack: 5
+Class: 104
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1d1 
+Skill: 5 50
+Skill: 22 80
+Skill: 132 50
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Spell: 23
+Spell: 23
+Spell: 55
+Spell: 55
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 88
+Spell: 111
+Helper: 69214
+E
+T 69209
+#69211
+страж светлого зала~
+страж светлого зала~
+стража светлого зала~
+стражу светлого зала~
+стража светлого зала~
+стражем светлого зала~
+страже светлого зала~
+Огромный, страж излучает свет по всему залу.
+~
+   Огромное существо, как будто светится изнутри.
+~
+b0c0d0e0f0g0l0m0n0o0x0A0 c0d0e0h0k0m0n0r0z0A0D0q1y1 -600 E
+35 0 -5 10d5+3000 11d22+22
+5d9+3450 400000
+8 8 1
+Str: 29
+Dex: 26
+Int: 28
+Wis: 26
+Con: 22
+Cha: 18
+Size: 100
+LikeWork: 15
+MaxFactor: 6
+ExtraAttack: 2
+Class: 104
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1d1 
+Skill: 5 50
+Skill: 22 30
+Skill: 132 70
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 23
+Spell: 28
+Spell: 37
+Spell: 37
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 82
+Helper: 69212
+E
+T 69210
+#69212
+дух светлого зала~
+дух светлого зала~
+духа светлого зала~
+духу светлого зала~
+духа светлого зала~
+духом светлого зала~
+духе светлого зала~
+Огромный дух, излучающий свет, так и готов разорвать вас на части.
+~
+   Странное, светящееся существо.
+~
+b0c0d0e0f0g0l0m0n0p0x0z0A0 c0d0e0k0m0n0r0x0z0A0D0q1y1 -600 E
+25 0 -4 5d10+1000 8d8+15
+0d0+0 300000
+8 8 1
+BareHandAttack: 5
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 17
+Size: 100
+LikeWork: 15
+MaxFactor: 7
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1d1C3 
+Skill: 22 50
+Skill: 136 70
+Skill: 137 30
+Skill: 141 70
+Skill: 142 70
+Skill: 143 70
+Skill: 144 70
+Skill: 145 70
+Skill: 146 70
+Skill: 147 70
+Skill: 148 70
+Skill: 154 70
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 93
+Spell: 104
+Spell: 104
+Spell: 104
+E
+#69213
+страж темного зала~
+страж темного зала~
+стража темного зала~
+стражу темного зала~
+стража темного зала~
+стражем темного зала~
+страже темного зала~
+Существо огромных размеров, как будто излучает тьму, стоя посреди зала.
+~
+   Темный страж, как будто излучает тьму изнутри...
+~
+b0c0d0e0f0g0m0n0o0A0 d0e0h0k0m0n0r0z0b1q1x1 -600 E
+25 0 -10 10d10+3400 9d11+15
+7d6+4900 400000
+8 8 1
+BareHandAttack: 6
+Str: 28
+Dex: 28
+Int: 33
+Wis: 33
+Con: 23
+Cha: 17
+Size: 100
+LikeWork: 25
+MaxFactor: 7
+ExtraAttack: 2
+Class: 104
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1d1 
+Skill: 4 50
+Skill: 132 50
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 50
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 82
+Spell: 88
+Spell: 113
+Spell: 128
+E
+T 69211
+#69214
+дух туманного зала~
+дух туманного зала~
+духа туманного зала~
+духу туманного зала~
+духа туманного зала~
+духом туманного зала~
+духе туманного зала~
+Страж магического зала так и жаждет разорвать Вас.
+~
+   Этот дух является стражем этих пещер...
+~
+b0c0d0e0f0g0l0m0n0o0z0A0 c0d0k0m0n0r0A0 -600 E
+30 0 -3 2d11+1205 9d19+11
+0d0+0 400000
+8 8 1
+Str: 27
+Dex: 27
+Int: 29
+Wis: 29
+Con: 27
+Cha: 17
+Size: 100
+LikeWork: 20
+MaxFactor: 5
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 1 70
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 66
+Spell: 66
+Spell: 111
+Spell: 127
+E
+#69215
+летучая мышь~
+летучая мышь~
+летучей мыши~
+летучей мыши~
+летучую мышь~
+летучей мышью~
+летучей мыши~
+Огромного вида летучая мышь парит над самым сводом пещер.
+~
+   Огромная летучая мышь - кровосос.
+~
+d0f0g0l0m0n0o0y0 c0d0e0f0k0m0n0r0x0z0 -600 E
+30 4 -10 8d10+1111 9d9+20
+0d0+0 200000
+8 8 2
+BareHandAttack: 4
+Str: 30
+Dex: 20
+Int: 20
+Wis: 20
+Con: 20
+Cha: 18
+Size: 100
+LikeWork: 25
+MaxFactor: 6
+ExtraAttack: 2
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: l0B3 
+Skill: 21 40
+Skill: 136 100
+Spell: 54
+Spell: 54
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 82
+Spell: 111
+E
+$

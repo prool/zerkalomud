@@ -1,0 +1,1325 @@
+#63700
+старый воин~
+старый воин~
+старого воина~
+старому воину~
+старого воина~
+старым воином~
+старом воине~
+Старый седой воин, в крепких доспехах, понурившись, сидит здесь.
+~
+старый воин, видавший множество битв и одолевший немало противников.
+Его правая рука обмотана пропитанной кровью повязкой, да и ногу он
+вытянул как-то неловко, словно она мешает ему.
+~
+a0b0d0g0n0o0B0 d0f0k0n1 600 E
+33 0 0 10d10+3110 22d21+20
+0d0+0 0
+5 5 1
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 63700
+#63701
+огромная черная тень темный призрак~
+темный призрак~
+темного призрака~
+темному призраку~
+темный призрак~
+темным призраком~
+темном призраке~
+Огромная черная тень нависла над вами...  вы почувствовали себя неуютно.
+~
+Окутанная мраком высокая черная тень.
+Тьма вокруг нее складывается в некое подобие длинного
+плаща с глубоким капюшоном, в глубине которого вспыхивают
+два призрачных огонька.
+~
+a0b0d0g0n0o0x0y0B0 c0d0f0k0D0n1 600 E
+50 0 0 10d10+1000 10d10+10
+0d0+0 10000
+8 8 1
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 63703
+T 63704
+T 63705
+T 63710
+#63702
+туманный воин~
+туманный воин~
+туманного воина~
+туманному воину~
+туманного воина~
+туманным воином~
+туманном воине~
+Странное существо, немного напоминающее человека, парит над туманом с длинным мечом в руках.
+~
+   Странное существо, в чертах которого можно найти сходство с человеком,
+зорко смотрит по сторонам, держа в руках огромный меч.
+~
+c0d0e0f0g0l0m0n0o0A0 d0f0h0k0m0r0x0q1r1z1 -600 E
+33 3 -5 3d10+1600 7d7+15
+0d0+0 120000
+8 8 1
+BareHandAttack: 3
+Str: 28
+Dex: 26
+Int: 24
+Wis: 25
+Con: 30
+Cha: 17
+Size: 100
+LikeWork: 35
+MaxFactor: 3
+ExtraAttack: 2
+Class: 104
+Height: 198
+Weight: 100
+Special_Bitvector: b1c1d1C3 
+Skill: 12 100
+Skill: 22 50
+Skill: 132 80
+Skill: 136 100
+Skill: 137 90
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+E
+#63703
+туманный страж~
+туманный страж~
+туманного стража~
+туманному стражу~
+туманного стража~
+туманным стражем~
+туманном страже~
+Странного вида существо, напоминающее человека, внимательно смотрит по сторонам.
+~
+   Странного вида существо, чем-то напоминающее человека, охраняет 
+туманную пустошь.
+~
+c0d0f0g0l0m0n0o0A0 d0f0h0k0m0x0p1y1 -600 E
+34 2 -5 2d10+1700 6d6+22
+0d0+0 100000
+8 8 1
+Str: 31
+Dex: 22
+Int: 17
+Wis: 18
+Con: 24
+Cha: 25
+Size: 100
+LikeWork: 15
+MaxFactor: 3
+ExtraAttack: 3
+Class: 104
+Height: 199
+Weight: 134
+Special_Bitvector: b1c1d1 
+Skill: 5 60
+Skill: 132 70
+Skill: 136 100
+Skill: 137 80
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 88
+Spell: 111
+E
+T 63723
+#63704
+верховный семикрыл~
+верховный семикрыл~
+верховного семикрыла~
+верховному семикрылу~
+верховного семикрыла~
+верховным семикрылом~
+верховном семикрыле~
+Странное существо с семью крылами парит над землей.
+~
+Странное семикрылое существо.
+~
+a0b0c0d0f0g0l0m0n0o0x0A0c2h2 d0e0f0k0m0n0r0x0z0A0C0a1m1x1y1z1 -600 E
+43 2 -5 3d10+4000 9d7+25
+7d7+5200 220000
+8 8 1
+BareHandAttack: 4
+Str: 36
+Dex: 20
+Int: 28
+Wis: 28
+Con: 22
+Cha: 16
+Size: 100
+LikeWork: 30
+MaxFactor: 3
+ExtraAttack: 1
+Class: 105
+Height: 200
+Weight: 100
+Special_Bitvector: 0 
+Skill: 5 30
+Skill: 136 100
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 56
+Spell: 66
+Spell: 66
+Spell: 88
+Spell: 128
+Helper: 63705
+Helper: 63706
+Helper: 63707
+E
+T 63707
+#63705
+семикрыл~
+семикрыл~
+семикрыла~
+семикрылу~
+семикрыла~
+семикрылом~
+семикрыле~
+Странное существо о семи крылах мечется перед вами.
+~
+   Очень странное существо о семи крылах.
+~
+c0d0f0g0l0m0n0o0A0b2 d0f0h0k0m0r0x0z0x1y1 -600 E
+35 5 -4 2d10+2000 8d8+20
+5d5+110 110000
+8 8 1
+Str: 25
+Dex: 24
+Int: 24
+Wis: 23
+Con: 24
+Cha: 16
+Size: 100
+LikeWork: 15
+MaxFactor: 3
+ExtraAttack: 2
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: l0c1 
+Skill: 136 100
+Skill: 137 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 82
+E
+#63706
+огромный семикрыл~
+огромный семикрыл~
+огромного семикрыла~
+огромному семикрылу~
+огромного семикрыла~
+огромным семикрылом~
+огромном семикрыле~
+Странное существо, огромных размеров о семи крылах, парит над землей.
+~
+Странное существо, окруженное мерцанием бешено машущих крыльев.
+~
+c0d0f0g0l0m0n0o0A0 d0f0h0k0x0z0A0q1z1 -600 E
+31 1 -5 3d9+1990 8d12+19
+5d5+120 120000
+8 8 1
+BareHandAttack: 1
+Str: 33
+Dex: 27
+Int: 23
+Wis: 26
+Con: 32
+Cha: 18
+Size: 100
+LikeWork: 15
+MaxFactor: 3
+ExtraAttack: 2
+Class: 103
+Height: 200
+Weight: 150
+Special_Bitvector: c1B3 
+Skill: 21 10
+Skill: 132 80
+Skill: 136 100
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 54
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 83
+E
+#63707
+детеныш семикрыла~
+детеныш семикрыла~
+детеныша семикрыла~
+детенышу семикрыла~
+детеныша семикрыла~
+детенышем семикрыла~
+детеныше семикрыла~
+Маленькое многокрылое существо парит над землей.
+~
+   Странное существо, о семи крылах.
+~
+c0d0f0g0h0l0m0n0o0A0d2 c0d0f0h0k0x0z0y1z1 -600 E
+30 4 -3 2d10+1000 6d9+11
+2d2+40 80000
+8 8 1
+BareHandAttack: 4
+Str: 31
+Dex: 24
+Int: 14
+Wis: 17
+Con: 19
+Cha: 14
+Size: 100
+LikeWork: 11
+MaxFactor: 6
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 132 80
+Skill: 136 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 88
+E
+#63708
+болотный дух~
+болотный дух~
+болотного духа~
+болотному духу~
+болотный дух~
+болотным духом~
+болотном духе~
+Болотный дух, тихо кружит над трясиной.
+~
+Странное, болотное существо, с очень длинными лапами,
+снабженными острыми, как бритва, когтями, длиной с хороший меч.
+~
+c0d0e0f0g0l0m0n0o0z0A0b2h2 d0f0h0k0m0x0z0A0m1q1z1 -600 E
+37 4 -7 2d5+1500 5d6+9
+0d0+0 121000
+8 8 1
+BareHandAttack: 1
+Str: 28
+Dex: 24
+Int: 27
+Wis: 28
+Con: 25
+Cha: 10
+Size: 90
+LikeWork: 10
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 160
+Weight: 60
+Special_Bitvector: c1 
+Skill: 134 100
+Skill: 136 100
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 54
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 114
+E
+T 63716
+#63709
+лесной змееныш~
+лесной змееныш~
+лесного змееныша~
+лесному змеенышу~
+лесного змееныша~
+лесным змеенышем~
+лесном змееныше~
+Огромный лесной змей выжидает свою жертву.
+~
+   Ужасное, лесное существо.
+~
+c0d0f0g0l0m0n0o0A0 d0f0k0m0n0r0z0A0m1p1 -600 E
+32 1 -9 7d2+1660 7d9+19
+0d0+0 105000
+8 8 1
+BareHandAttack: 4
+Str: 28
+Dex: 29
+Int: 23
+Wis: 21
+Con: 22
+Cha: 14
+Size: 100
+LikeWork: 11
+MaxFactor: 6
+ExtraAttack: 3
+Class: 103
+Height: 178
+Weight: 100
+Special_Bitvector: 0 
+Skill: 5 15
+Skill: 136 100
+Skill: 137 50
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+E
+#63710
+дух леса~
+дух леса~
+духа леса~
+духу леса~
+духа леса~
+духом леса~
+духе леса~
+Лесной дух, неспешно летит по лесу.
+~
+   Ужасное лесное существо.
+~
+c0d0f0g0l0m0n0o0z0A0 d0f0h0k0x0z0A0q1x1 -600 E
+33 3 -10 4d9+2000 11d4+15
+0d0+0 100000
+8 8 1
+Str: 32
+Dex: 30
+Int: 33
+Wis: 20
+Con: 23
+Cha: 12
+Size: 100
+LikeWork: 15
+MaxFactor: 4
+ExtraAttack: 2
+Class: 101
+Height: 188
+Weight: 90
+Special_Bitvector: b1c1d1 
+Skill: 132 70
+Skill: 134 80
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 50
+Skill: 154 100
+Skill: 157 70
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+E
+#63711
+хранитель волшебного дерева~
+хранитель волшебного дерева~
+хранителя волшебного дерева~
+хранителю волшебного дерева~
+хранителя волшебного дерева~
+хранителем волшебного дерева~
+хранителе волшебного дерева~
+Хранитель волшебного дерева зорко смотрит по сторонам.
+~
+   Существо, следящее за волшебным деревом, готово разорвать любого, 
+подошедшего к нему.
+~
+b0c0d0f0g0l0m0n0o0x0A0 d0f0h0k0m0n0r0z0A0C0p1q1x1y1z1 -600 E
+41 1 -8 5d10+7501 6d9+29
+4d4+1000 250000
+8 8 1
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 16
+Size: 100
+LikeWork: 40
+MaxFactor: 3
+ExtraAttack: 3
+Class: 104
+Height: 200
+Weight: 130
+Special_Bitvector: b0b1c1d1 
+Skill: 136 120
+Skill: 141 120
+Skill: 142 120
+Skill: 143 120
+Skill: 144 120
+Skill: 145 120
+Skill: 146 120
+Skill: 147 120
+Skill: 148 120
+Skill: 154 120
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 56
+Spell: 64
+Spell: 64
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 88
+Spell: 93
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 124
+Helper: 63708
+Helper: 63709
+Helper: 63710
+E
+L 1483 12 0 0
+#63712
+темный призрак~
+темный призрак~
+темного призрака~
+темному призраку~
+темного призрака~
+темным призраком~
+темном призраке~
+Огромная черная тень нависла над Вами.
+~
+Кутающаяся во мрак фигура, высотою вдвое выше самого рослого
+воина. Окутывающий ее мрак своими очертаниями напоминает
+плащ с глубоким капюшоном, в глубине которого вспыхивают
+призрачные огоньки глаз.
+~
+b0c0d0f0g0l0n0o0x0 d0f0h0k0m0n0r0x0z0A0a1q1r1x1y1z1 -600 E
+50 0 -10 5d10+9000 9d9+25
+5d5+5000 300000
+8 8 1
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 40
+MaxFactor: 2
+ExtraAttack: 5
+Class: 104
+Height: 199
+Weight: 90
+Special_Bitvector: b1c1d1C3 
+Skill: 22 30
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 54
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 88
+Spell: 93
+Spell: 104
+Spell: 104
+Spell: 104
+Helper: 63713
+E
+T 63712
+T 63727
+T 63728
+#63713
+душа воителя~
+душа воителя~
+души воителя~
+душе воителя~
+душу воителя~
+душой воителя~
+душе воителя~
+Бестелесная душа давно погибшего воина летает тут.
+~
+Огромная черная тень колышется в воздухе.
+~
+c0d0f0g0l0m0n0o0u0z0 d0f0h0k0r0x0z0A0x1z1 -600 E
+33 0 -10 10d2+2700 9d9+19
+0d0+0 180000
+8 8 2
+BareHandAttack: 5
+Str: 36
+Dex: 25
+Int: 20
+Wis: 25
+Con: 35
+Cha: 16
+Size: 100
+LikeWork: 35
+MaxFactor: 4
+ExtraAttack: 2
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: c1d1 
+Skill: 4 90
+Skill: 136 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 56
+E
+#63714
+держи дерево~
+держидерево~
+держидерева~
+держидереву~
+держидерево~
+держидеревом~
+держидереве~
+Держидерево растет у тропы, растопырив во все стороны опутанные колючками ветви.
+~
+приземистое, но очень толстое дерево. Из-за торчащих во все стороны
+крючковатых колючек его ветви кажутся вчетверо толще, чем на самом деле.
+~
+b0c0d0e0f0n0o0p0q0r0u0x0A0l1m1n1g2h2 c0d0f0k0r0C0 -600 E
+32 3 -10 50d20+2000 8d8+10
+0d0+0 410000
+8 8 0
+BareHandAttack: 1
+Str: 35
+Dex: 20
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 100
+LikeWork: 95
+ExtraAttack: 6
+Class: 101
+Height: 200
+Weight: 150
+Special_Bitvector: b0d0w0 
+Skill: 5 100
+Skill: 22 100
+Skill: 132 120
+Skill: 136 100
+Skill: 150 80
+Skill: 151 150
+Skill: 158 150
+Spell: 25
+Spell: 28
+Spell: 28
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 74
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 139
+E
+#63715
+держи дерево~
+держидерево~
+держидерева~
+держидереву~
+держидерево~
+держидеревом~
+держидереве~
+Держидерево растет у тропы, растопырив во все стороны опутанные колючками ветви.
+~
+приземистое, но очень толстое дерево. Из-за торчащих во все стороны
+крючковатых колючек его ветви кажутся вчетверо толще, чем на самом деле.
+~
+b0c0d0e0f0n0o0p0q0r0u0x0A0k1g2h2 c0d0f0k0r0C0 -600 E
+32 3 -10 50d20+2000 8d8+10
+0d0+0 200000
+4 4 0
+BareHandAttack: 1
+Str: 30
+Dex: 20
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 100
+LikeWork: 95
+ExtraAttack: 6
+Class: 101
+Height: 200
+Weight: 150
+Special_Bitvector: b0d0w0 
+Skill: 5 100
+Skill: 22 100
+Skill: 132 120
+Skill: 136 100
+Skill: 150 80
+Skill: 151 150
+Skill: 158 150
+Spell: 25
+Spell: 28
+Spell: 28
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 74
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 139
+E
+#63716
+каменный страж~
+каменный страж~
+каменного стража~
+каменному стражу~
+каменного стража~
+каменным стражем~
+каменном страже~
+Высокий воин в доспехах стоит тут... только вот и он сам и доспехи - каменные.
+~
+Словно ожившая статуя в каменных доспехах и с каменным же
+оружием. Лицо его тоже каменное - и мороз прошел у вас по
+коже, когда в вы увидели в мраморных глазницах обычные
+живые глаза.
+~
+b0c0d0f0m0n0o0p0r0x0z0A0r1 d0f0k0r0z0C0m1p1t1 -600 E
+30 3 -9 20d40+1200 6d7+17
+30d10+366 220000
+8 8 1
+BareHandAttack: 3
+Str: 31
+Dex: 25
+Int: 25
+Wis: 20
+Con: 36
+Cha: 10
+Size: 100
+MaxFactor: 4
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 150
+Special_Bitvector: a0b0c0d0b1c1 
+Skill: 5 120
+Skill: 21 50
+Skill: 22 120
+Skill: 136 100
+Skill: 137 200
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 80
+Skill: 158 150
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 28
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 149
+Spell: 149
+Spell: 149
+Spell: 149
+Spell: 149
+E
+T 63722
+T 63725
+#63717
+туманный ткач существо~
+туманный ткач~
+туманного ткача~
+туманному ткачу~
+туманного ткача~
+туманным ткачом~
+туманном ткаче~
+Неразличимое в облаке густого тумана существо витает тут.
+~
+облако густого тумана скрывает подробности, но все же вам удалось
+различить некоторые детали, о чем вы тут же пожалели - восемь
+длинных, поросших рыжим волосом ног, десятки глаз и огромные жвала,
+с которых капает прозрачный яд, еще долго будут сниться вам по ночам.
+Эта тварь постоянно шевелит конечностями, словно ткет какую-то
+невидимую паутину.
+~
+c0d0l0m0n0o0r0A0b1p1 d0f0k0p0r0s0t0c1m1x1 -600 E
+33 3 -8 20d50+1000 6d6+10
+200d50+0 500000
+8 8 1
+BareHandAttack: 2
+Str: 30
+Dex: 36
+Int: 36
+Wis: 36
+Con: 30
+Cha: 36
+Size: 100
+LikeWork: 100
+ExtraAttack: 7
+Class: 105
+Height: 175
+Weight: 150
+Special_Bitvector: g0i0j0l0u0b1c1 
+Skill: 21 10
+Skill: 22 150
+Skill: 136 100
+Skill: 138 200
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 100
+Skill: 154 100
+Skill: 155 100
+Skill: 157 150
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 63
+Spell: 63
+Spell: 63
+Spell: 63
+Spell: 63
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Helper: 63702
+Helper: 63703
+E
+T 63734
+T 63723
+#63718
+чудо юдо лесное~
+лесное чудо-юдо~
+лесного чудо-юда~
+лесному чудо-юду~
+лесное чудо-юдо~
+лесным чудо-юдом~
+лесном чудо-юде~
+Чудо-юдо лесное вылупилось на вас, раззявив варежку.
+~
+Самое натуральное чудо-юдо...
+Что оно такое - не разбери-поймешь
+где ноги, где голова,  где крылья...
+Всего тут хватает, а кое-чему и слова в человечьем языке нету.
+~
+b0c0d0e0l0n0o0p0q0r0s0t0u0A0f2 c0d0e0f0k0m0n0p0r0z0A0C0a1m1t1x1 0 E
+50 0 -10 90d90+5000 20d20+20
+95d90+0 1000000
+8 8 0
+BareHandAttack: 14
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 100
+ExtraAttack: 9
+Class: 103
+Height: 200
+Weight: 150
+Special_Bitvector: B3 
+Skill: 4 200
+Skill: 5 200
+Skill: 21 200
+Skill: 22 200
+Skill: 132 200
+Skill: 136 200
+Skill: 150 200
+Skill: 157 200
+Skill: 167 200
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+E
+T 63729
+T 63731
+#63719
+леший~
+леший~
+лешего~
+лешему~
+лешего~
+лешим~
+лешем~
+Бородатый старичок прячется между деревьев.
+~
+Сморщенный старикашка в грязном кафтане,
+запахнутом справа налево, в надетой задом
+наперед шапке и в перепутанных с правой на 
+левую ногу сапогах.
+~
+d0e0n0o0p0q0r0t0u0r1f2 c0d0e0f0k0s0t0 0 E
+34 0 -10 10d10+9000 5d6+10
+0d0+0 0
+8 8 1
+Str: 35
+Dex: 24
+Int: 35
+Wis: 31
+Con: 35
+Cha: 34
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: i0 
+Skill: 133 200
+Skill: 138 200
+E
+T 63730
+#63720
+рысь~
+рысь~
+рыси~
+рыси~
+рысь~
+рысью~
+рыси~
+Дикая рысь сидит в засаде на ветке.
+~
+огромная лесная кошка яростно сверкнула на Вас глазами! 
+~
+d0f0m0n0o0 f0k0s0A0m1 -600 E
+27 2 -6 10d10+1000 8d8+9
+0d0+0 90000
+8 8 2
+BareHandAttack: 8
+Str: 32
+Dex: 27
+Int: 23
+Wis: 13
+Con: 26
+Cha: 10
+Size: 100
+ExtraAttack: 3
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: i0 
+Skill: 21 30
+Skill: 136 100
+Skill: 137 200
+Skill: 138 200
+Skill: 140 200
+Skill: 157 100
+E
+#63721
+нечисть лесная~
+нечисть лесная~
+нечисти лесной~
+нечисть лесную~
+нечисть лесную~
+нечистью лесной~
+нечисти лесной~
+Нечисть лесная скачет по веткам и улюлюкает.
+~
+Толи зверь - толи птица - не разбери поймешь.
+нечто волосатое и страшное с длинным крючковатым
+носом свистит и поносит вас на все лады.
+~
+d0f0m0n0o0r0x0z0A0 d0f0k0r0A0m1x1 -600 E
+29 8 -4 50d10+1000 5d6+6
+0d0+0 110000
+8 8 2
+BareHandAttack: 12
+Str: 13
+Dex: 25
+Int: 33
+Wis: 33
+Con: 17
+Cha: 31
+Size: 100
+LikeWork: 99
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 150 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 38
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+E
+$

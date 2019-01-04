@@ -1,0 +1,144 @@
+#81400
+Одержимый витязь~
+Одержимый витязь~
+Одержимого витязя~
+Одержимому витязю~
+Одержимого витязя~
+Одержимому витязю~
+Одержимом витязе~
+Одержимый витязь с ненавистью оглядывается по сторонам.
+~
+
+~
+c0d0f0m0n0o0p0t0x0z0A0q1r1g2 d0f0h0k0z0m1w1x1y1z1 -300 E
+30 -20 10 13d10+9000 12d10+45
+3d4+5000 1000000
+8 8 1
+BareHandAttack: 10
+Str: 35
+Dex: 36
+Int: 32
+Wis: 36
+Con: 22
+Cha: 36
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1B3 
+Skill: 21 120
+Skill: 132 150
+Skill: 136 120
+Skill: 141 120
+Skill: 142 120
+Skill: 143 120
+Skill: 144 120
+Skill: 145 120
+Skill: 146 120
+Skill: 147 120
+Skill: 148 120
+Skill: 149 100
+Skill: 158 150
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 48
+Spell: 48
+Spell: 83
+Spell: 83
+E
+#81401
+Одержимый воин~
+Одержимый воин~
+Одержимого воина~
+Одержимому воину~
+Одержимого воина~
+Одержимым воином~
+Одержимом воине~
+Одержимый воин готов бросится на каждого, кто попадется ему на пути.
+~
+
+~
+c0d0e0f0m0n0o0p0t0x0z0A0q1r1g2 d0f0k0A0m1w1x1y1z1 -300 E
+41 -25 10 13d10+12000 14d7+30
+7d5+10000 1500000
+8 8 1
+BareHandAttack: 11
+Str: 31
+Dex: 33
+Int: 45
+Wis: 36
+Con: 27
+Cha: 18
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: g0b1c1d3C3 
+Skill: 1 120
+Skill: 6 120
+Skill: 22 150
+Skill: 131 130
+Skill: 136 120
+Skill: 137 120
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 149 120
+Skill: 158 200
+E
+#81402
+Одержимый богатырь~
+Одержимый богатырь~
+Одержимого богатыря~
+Одержимому богатырю~
+Одержимого богатыря~
+Одержимым богатырем~
+Одержимом богатыре~
+Одержимый богатырь готов растоптать любого.
+~
+
+~
+c0d0f0m0n0o0p0t0x0z0A0q1g2i2 d0f0k0r0z0m1t1w1y1 -300 E
+30 -20 7 14d10+9500 17d6+40
+4d3+10000 1000000
+8 8 1
+Str: 36
+Dex: 26
+Int: 30
+Wis: 24
+Con: 36
+Cha: 28
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1d1 
+Skill: 3 120
+Skill: 4 200
+Skill: 5 150
+Skill: 136 200
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 149 120
+Skill: 150 120
+E
+$

@@ -1,0 +1,312 @@
+#91900
+мелкий ракшас~
+мелкий ракшас~
+мелкого ракшаса~
+мелкому ракшасу~
+мелкого ракшаса~
+мелким ракшасом~
+мелком ракшасе~
+Мелкий ракшас мечется по палубе лодки.
+~
+undefined~
+d0f0l0m0n0o0p0x0 d0f0h0k0q1 -600 E
+27 2 -8 10d9+500 16d10+2
+0d0+0 140000
+8 8 1
+BareHandAttack: 4
+Str: 18
+Dex: 19
+Int: 12
+Wis: 24
+Con: 14
+Cha: 3
+Size: 50
+LikeWork: 100
+Class: 100
+Height: 198
+Weight: 60
+Special_Bitvector: m0v0 
+Skill: 136 100
+Skill: 157 100
+Spell: 28
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 128
+E
+#91901
+зубастый ракшас~
+зубастый ракшас~
+зубастого ракшаса~
+зубастому ракшасу~
+зубастого ракшаса~
+зубастым ракшасом~
+зубастом ракшасе~
+Зубастый ракшас ищет добычу.
+~
+undefined~
+d0f0l0m0n0o0p0x0b1 d0f0k0m1q1 -600 E
+31 1 -8 10d9+2400 16d8+2
+0d0+0 470000
+8 8 1
+BareHandAttack: 6
+Str: 22
+Dex: 19
+Int: 10
+Wis: 27
+Con: 14
+Cha: 3
+Size: 70
+LikeWork: 45
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 80
+Special_Bitvector: o0v0 
+Skill: 132 100
+Skill: 136 100
+Skill: 137 50
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+E
+I зубы,17:15
+#91902
+большой ракшас~
+большой ракшас~
+большого ракшаса~
+большому ракшасу~
+большого ракшаса~
+большим ракшасом~
+большом ракшасе~
+Большой ракшас плавает тут.
+~
+undefined~
+b0d0f0h0l0m0n0o0p0x0b1 d0f0k0m1 -600 E
+35 0 -8 10d9+7700 16d9+2
+0d0+0 850000
+8 8 1
+BareHandAttack: 6
+Str: 22
+Dex: 19
+Int: 20
+Wis: 27
+Con: 14
+Cha: 3
+Size: 70
+LikeWork: 35
+ExtraAttack: 2
+Class: 100
+Height: 198
+Weight: 80
+Special_Bitvector: o0v0 
+Skill: 5 110
+Skill: 136 100
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 56
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 128
+Spell: 128
+Spell: 128
+E
+#91903
+большой ракшас~
+большой ракшас~
+большого ракшаса~
+большому ракшасу~
+большого ракшаса~
+большим ракшасом~
+большом ракшасе~
+Большой ракшас плавает тут.
+~
+undefined~
+d0f0h0l0m0n0o0p0x0b1 d0f0k0m1 -600 E
+35 0 -8 10d9+7700 16d10+2
+0d0+0 850000
+8 8 1
+BareHandAttack: 6
+Str: 22
+Dex: 19
+Int: 20
+Wis: 27
+Con: 14
+Cha: 3
+Size: 70
+LikeWork: 35
+ExtraAttack: 2
+Class: 100
+Height: 30
+Weight: 80
+Special_Bitvector: o0v0 
+Skill: 5 110
+Skill: 136 100
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 56
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 128
+Spell: 128
+Spell: 128
+E
+T 91923
+I глаза,17:7
+#91912
+большой ракшас~
+большой ракшас~
+большого ракшаса~
+большому ракшасу~
+большого ракшаса~
+большим ракшасом~
+большом ракшасе~
+Большой ракшас плавает тут.
+~
+undefined~
+d0f0h0l0m0n0o0p0x0b1 d0f0k0m1 -600 E
+35 0 -8 10d9+7700 16d10+2
+0d0+0 850000
+8 8 1
+BareHandAttack: 6
+Str: 22
+Dex: 19
+Int: 20
+Wis: 27
+Con: 14
+Cha: 3
+Size: 70
+LikeWork: 35
+ExtraAttack: 2
+Class: 100
+Height: 30
+Weight: 80
+Special_Bitvector: o0v0 
+Skill: 5 110
+Skill: 136 100
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 56
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 128
+Spell: 128
+Spell: 128
+E
+T 91922
+I кости,17:7
+#91913
+ледяной змей~
+ледяной змей~
+ледяного змея~
+ледяному змею~
+ледяного змея~
+ледяным змеем~
+ледяном змее~
+Четырехглавый ледяной змей ползает тут.
+~
+неопределен~
+b0d0f0n0o0p0r1 d0f0k0t0A0m1q1 -600 E
+39 0 -9 1d1+12000 15d9+30
+0d0+0 1740000
+8 8 1
+BareHandAttack: 2
+Str: 24
+Dex: 16
+Int: 25
+Wis: 27
+Con: 30
+Cha: 4
+Size: 100
+LikeWork: 100
+ExtraAttack: 2
+Class: 105
+Height: 30
+Weight: 100
+Special_Bitvector: m0v0C3 
+Skill: 22 60
+Skill: 136 100
+Skill: 157 100
+Spell: 28
+E
+T 91917
+T 91921
+I кожа,17:7
+#91914
+старик моб_91914~
+старик~
+старика~
+старику~
+старика~
+стариком~
+старике~
+Старик с веслом правит лодкой.
+~
+undefined~
+b0d0n0o0p0q0r0t0u0x0o1 d0f0k0n1r1 -600 E
+50 0 0 0d0+30000 30d30+30
+0d0+0 0
+8 8 1
+Str: 32
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
+T 91916
+$

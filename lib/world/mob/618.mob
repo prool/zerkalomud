@@ -1,0 +1,720 @@
+#61800
+горбатый старик~
+горбатый старик~
+горбатого старика~
+горбатому старику~
+горбатого старика~
+горбатым стариком~
+горбатом старике~
+Горбатый старик, вздыхая, сидит на топчане.
+~
+   Да, вот это дед! При одно взгляде на него, вы понимаете, что шутки с ним 
+плохи, вон и посох в руках видимо волшебный.
+~
+a0b0d0g0n0o0o1 d0f0k0D0 600 E
+30 8 7 10d10+222 1d2+1
+0d0+0 10000
+6 6 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+MaxFactor: 1
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: i3m3 
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+E
+T 61800
+T 61801
+T 61804
+#61801
+волчара~
+волчара~
+волчары~
+волчаре~
+волчару~
+волчарой~
+волчаре~
+Огромного размера волк вынюхивает свою жертву.
+~
+   Страшный, голодный, дикий зверь.
+~
+d0f0g0l0m0n0o0 d0k0s0z0A0m1w1 -600 E
+27 5 -7 5d5+800 7d8+7
+0d0+0 90000
+8 8 1
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 20
+Wis: 20
+Con: 30
+Cha: 15
+Size: 100
+LikeWork: 30
+MaxFactor: 7
+ExtraAttack: 1
+Class: 103
+Height: 160
+Weight: 100
+Special_Bitvector: i0 
+Skill: 132 100
+Skill: 136 100
+Skill: 157 100
+Skill: 160 100
+E
+T 61811
+I шерсть,15:3
+#61802
+владыка разума~
+владыка разума~
+владыки разума~
+владыке разума~
+владыку разума~
+владыкой разума~
+владыке разума~
+Владыка долины, восседает на своем троне. 
+~
+   Владыка долины отрешенных, в его глазах гнев, на устах заклятие 
+страшное.
+~
+b0c0d0f0g0l0m0n0o0x0A0 d0f0h0k0n0r0z0A0C0x1z1 -600 E
+29 4 -10 6d16+3500 9d9+15
+9d9+1000 400000
+8 8 1
+Str: 30
+Dex: 27
+Int: 36
+Wis: 35
+Con: 30
+Cha: 18
+Size: 100
+LikeWork: 75
+MaxFactor: 3
+ExtraAttack: 1
+Class: 105
+Height: 199
+Weight: 78
+Special_Bitvector: b1c1 
+Skill: 4 100
+Skill: 132 80
+Skill: 136 100
+Skill: 137 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 82
+Spell: 88
+Spell: 113
+Spell: 135
+Helper: 61811
+Helper: 61812
+Helper: 61810
+E
+T 61803
+#61803
+верный слуга владыки~
+верный слуга владыки~
+верного слугу владыки~
+верному слуге владыки~
+верного слугу владыки~
+верный слугой владыки~
+верном слуге владыки~
+Верный слуга, прислуживает своему господину.
+~
+   Здоровенный детина, готов помочь своему господину в любом начинание.
+~
+b0c0d0g0h0l0m0n0o0x0A0 d0e0k0z0A0m1z1 -600 E
+29 7 -2 2d12+2000 7d7+11
+5d5+100 350000
+8 8 1
+BareHandAttack: 6
+Str: 25
+Dex: 27
+Int: 28
+Wis: 29
+Con: 21
+Cha: 18
+Size: 100
+LikeWork: 50
+MaxFactor: 5
+ExtraAttack: 1
+Class: 104
+Height: 165
+Weight: 99
+Special_Bitvector: b1c1d1 
+Skill: 5 100
+Skill: 131 80
+Skill: 132 80
+Skill: 136 80
+Skill: 137 80
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 154 80
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 82
+Spell: 88
+E
+#61804
+тень ловкача~
+тень ловкача~
+тени ловкача~
+тени ловкача~
+тень ловкача~
+тенью ловкача~
+тени ловкача~
+Тень некогда ловкого вора.
+~
+   Раньше это был умелый вор, но и сейчас, после смерти, его сущность не
+утратила своих навыков.
+~
+c0d0f0g0l0m0n0o0z0A0 d0f0k0m0s0t0A0j1m1 -600 E
+29 1 -10 5d5+1600 6d6+14
+0d0+0 220000
+8 8 2
+BareHandAttack: 11
+Str: 35
+Dex: 35
+Int: 20
+Wis: 20
+Con: 28
+Cha: 16
+Size: 100
+LikeWork: 50
+MaxFactor: 9
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: g0i0j0c1d1 
+Skill: 131 120
+Skill: 133 100
+Skill: 136 100
+Skill: 141 100
+Skill: 142 80
+Skill: 143 80
+Skill: 144 100
+Skill: 145 100
+Skill: 146 80
+Skill: 147 120
+Skill: 148 100
+Skill: 154 80
+Skill: 156 120
+Skill: 157 120
+Skill: 160 120
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 64
+E
+#61805
+дух созидателя огня~
+дух созидателя огня~
+духа созидателя огня~
+духу созидателя огня~
+духа созидателя огня~
+духом созидателя огня~
+духе созидателя огня~
+Дух, окутанный языками пламени, парит над землей.
+~
+   Раньше это был сильный маг, практиковавший в сфере огня.
+~
+c0d0f0g0l0m0n0o0z0A0 b0d0h0k0m0r0o1 -600 E
+30 5 -5 7d5+1000 5d8+10
+0d0+0 220000
+8 8 1
+Str: 26
+Dex: 20
+Int: 28
+Wis: 29
+Con: 25
+Cha: 14
+Size: 100
+LikeWork: 60
+MaxFactor: 7
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: l0b1c1 
+Skill: 5 10
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 4
+Spell: 4
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 88
+E
+#61806
+дух воина с копьем~
+дух воина с копьем~
+духа воина с копьем~
+духу воина с копьем~
+духа воина с копьем~
+духом воина с копьем~
+духе воина с копьем~
+Дух, с огромный копьем в руках, парит над землей.
+~
+   Раньше это был умелый копейщик, а сейчас просто дух.
+~
+c0d0f0g0l0m0n0o0z0A0 b0d0h0k0r0x0z0A0o1r1z1 -600 E
+27 1 -10 11d11+2000 8d8+16
+0d0+0 200000
+8 8 1
+BareHandAttack: 12
+Str: 36
+Dex: 29
+Int: 17
+Wis: 19
+Con: 36
+Cha: 15
+Size: 100
+LikeWork: 40
+MaxFactor: 6
+ExtraAttack: 2
+Class: 104
+Height: 200
+Weight: 120
+Special_Bitvector: l0b1c1C3 
+Skill: 4 25
+Skill: 12 100
+Skill: 22 40
+Skill: 132 90
+Skill: 136 100
+Skill: 137 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 150
+Skill: 150 100
+Skill: 151 90
+Skill: 154 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+E
+#61807
+воздушный воин~
+воздушный воин~
+воздушного воина~
+воздушному воину~
+воздушного воина~
+воздушным воином~
+воздушном воине~
+Вам кажется, что тень движется сама по себе.
+~
+   Странное создание, созданное из одного воздуха да пыли.
+~
+b0c0d0f0g0l0n0o0A0 b0d0f0h0k0r0x0z0A0x1 -600 E
+28 2 -10 7d11+2300 7d7+17
+8d8+100 280000
+8 8 1
+BareHandAttack: 6
+Str: 35
+Dex: 31
+Int: 27
+Wis: 26
+Con: 27
+Cha: 13
+Size: 100
+LikeWork: 60
+MaxFactor: 4
+ExtraAttack: 3
+Class: 105
+Height: 195
+Weight: 40
+Special_Bitvector: b1c1C3 
+Skill: 4 15
+Skill: 22 50
+Skill: 136 100
+Skill: 137 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 151 100
+Skill: 154 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 82
+Spell: 88
+E
+T 61805
+#61808
+огненный воин~
+огненный воин~
+огненного воина~
+огненному воину~
+огненного воина~
+огненным воином~
+огненном воине~
+Пламя парит над землей.
+~
+   Странное создание из огня и камня.
+  
+~
+a0b0c0d0f0g0l0m0n0o0A0 d0f0h0k0n0r0x0a1y1 -600 E
+29 0 -8 5d10+2002 6d9+17
+4d3+100 280000
+8 8 1
+BareHandAttack: 2
+Str: 29
+Dex: 30
+Int: 31
+Wis: 30
+Con: 22
+Cha: 20
+Size: 100
+LikeWork: 85
+MaxFactor: 3
+ExtraAttack: 3
+Class: 105
+Height: 125
+Weight: 50
+Special_Bitvector: b1c1C3 
+Skill: 4 50
+Skill: 22 50
+Skill: 132 90
+Skill: 136 100
+Skill: 137 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 82
+Spell: 88
+E
+T 61806
+#61809
+воин из плоти и крови~
+воин из плоти и крови~
+воин из плоти и крови~
+воин из плоти и крови~
+воин из плоти и крови~
+воин из плоти и крови~
+воин из плоти и крови~
+Богатырского вида человек, внимательно оглядывается по сторонам.
+~
+   На вид простой человек, да, но что-то в нем не так.
+~
+a0b0c0d0f0g0l0n0o0A0 d0f0k0m0r0z0A0x1y1z1 -600 E
+29 0 -10 5d5+2000 8d8+17
+4d7+100 280000
+8 8 1
+Str: 36
+Dex: 25
+Int: 25
+Wis: 31
+Con: 36
+Cha: 20
+Size: 100
+LikeWork: 70
+MaxFactor: 3
+ExtraAttack: 1
+Class: 104
+Height: 200
+Weight: 120
+Special_Bitvector: b1c1 
+Skill: 4 100
+Skill: 132 100
+Skill: 134 100
+Skill: 136 120
+Skill: 137 50
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 82
+Spell: 88
+Spell: 93
+Spell: 111
+E
+T 61807
+#61810
+хранитель покоя долины~
+хранитель покоя долины~
+хранителя покоя долины~
+хранителю покоя долины~
+хранителя покоя долины~
+хранителем покоя долины~
+хранителе покоя долины~
+Странное, многорукое существо, следить за покоем долины.
+~
+   Странное, многорукое существо, оно было создано для защиты долины.
+~
+b0c0d0f0g0l0m0n0o0A0 d0f0h0k0r0A0x1 -600 E
+30 3 6 4d3+2500 8d9+20
+11d3+100 350000
+8 8 1
+Str: 36
+Dex: 28
+Int: 27
+Wis: 28
+Con: 27
+Cha: 17
+Size: 98
+LikeWork: 35
+MaxFactor: 2
+ExtraAttack: 5
+Class: 104
+Height: 195
+Weight: 169
+Special_Bitvector: b1c1m3 
+Skill: 4 18
+Skill: 136 120
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 100
+Skill: 151 80
+Skill: 154 100
+Skill: 160 100
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 25
+Spell: 25
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 56
+Spell: 56
+E
+#61811
+черный паук~
+черный паук~
+черного паука~
+черному пауку~
+черного паука~
+черным пауком~
+черном пауке~
+Огромный паук плетет тут свою паутину.
+~
+   Огромный, черный паук.
+~
+d0f0g0l0m0n0o0 d0f0k0r0s0t0j1 -600 E
+25 6 -5 10d10+1500 5d5+15
+0d0+0 190000
+8 8 1
+BareHandAttack: 2
+Str: 30
+Dex: 25
+Int: 15
+Wis: 15
+Con: 27
+Cha: 10
+Size: 80
+LikeWork: 30
+MaxFactor: 6
+ExtraAttack: 3
+Class: 103
+Height: 150
+Weight: 75
+Special_Bitvector: i0 
+Skill: 4 10
+Skill: 136 100
+Skill: 138 100
+Skill: 160 100
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 76
+E
+I мелкие_твари,3:5
+#61812
+полуистлевший скелет~
+полуистлевший скелет~
+полуистлевшего скелета~
+полуистлевшему скелету~
+полуистлевшего скелета~
+полуистлевшим скелетом~
+полуистлевшем скелете~
+Гнилой скелет испускает страшную вонь.
+~
+   Одни кости да ошметки мяса, интересно, как это еще на ногах держится.
+~
+c0d0e0f0g0l0m0n0o0t0u0A0 d0k0m0w1 -600 E
+30 4 -7 7d10+1500 8d8+15
+0d0+0 210000
+8 8 1
+Str: 36
+Dex: 28
+Int: 22
+Wis: 22
+Con: 22
+Cha: 8
+Size: 100
+LikeWork: 25
+MaxFactor: 3
+ExtraAttack: 1
+Class: 101
+Height: 177
+Weight: 95
+Special_Bitvector: b1c1 
+Skill: 5 80
+Skill: 132 80
+Skill: 136 110
+Skill: 137 100
+Skill: 140 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 28
+Spell: 64
+Spell: 88
+Spell: 93
+E
+I мелкие_твари,10:3
+$

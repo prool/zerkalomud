@@ -1,0 +1,1236 @@
+#25300
+старый купчина~
+старый купчина~
+старого купчины~
+старому купчине~
+старого купчину~
+старым купчиной~
+старом купчине~
+Седой купчина копается в своих товарах
+~
+   Немолодой уже человек, который, казалось бы, всю жизнь, только и делает, 
+что торгует вещами
+~
+b0d0n0o0x0B0f2 d0f0 600 E
+40 4 -10 10d90+5000 1d50+100
+100d100+30000 0
+8 8 1
+Destination: 25358
+Str: 36
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Height: 170
+Weight: 120
+Special_Bitvector: 0 
+Skill: 2 200
+Skill: 4 200
+E
+#25301
+заморский колдун~
+заморский колдун~
+заморского колдуна~
+заморскому колдуну~
+заморского колдуна~
+заморским колдуном~
+заморском колдуне~
+Колдун из далеких заморских стран осматривает окрестности замка.
+~
+Высокий человек, облаченный в серую монашескую рясу, с высоким капюшоном
+~
+b0d0e0g0l0m0n0o0p0q0r0t0u0x0z0B0e2f2 d0e0f0g0h0k0m0n0p0r0s0z0A0C0m1n1o1p1q1r1t1x1y1z1 0 E
+50 0 -10 10d50+5000 10d10+100
+0d0+0 0
+8 8 1
+Destination: 25300
+Str: 26
+Dex: 33
+Int: 35
+Wis: 36
+Con: 36
+Cha: 20
+Size: 100
+LikeWork: 100
+ExtraAttack: 100
+Class: 105
+Height: 190
+Weight: 90
+Special_Bitvector: h0i0j0p0b1c1m3B3C3 
+Skill: 132 95
+Skill: 133 95
+Skill: 136 90
+Skill: 151 95
+Skill: 156 95
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 144
+Spell: 144
+Spell: 144
+Spell: 144
+Spell: 144
+Spell: 144
+Spell: 144
+Spell: 144
+Spell: 144
+Spell: 144
+E
+#25302
+ученик волхва~
+ученик волхва~
+ученика волхва~
+ученику волхва~
+ученика волхва~
+учеником волхва~
+ученике волхва~
+Молодой ученик волхва торгует здесь магическими свитками и снадобьями.
+~
+Молодой парень, в длинной белой хламиде и с волосами до плеч.
+~
+b0d0g0n0o0x0B0f2 d0f0k0m0 0 E
+8 10 -10 10d10+5000 0d0+100
+100d100+30000 0
+8 8 1
+Destination: 25357
+Str: 36
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Height: 180
+Weight: 90
+Special_Bitvector: 0 
+Skill: 2 200
+Skill: 4 200
+E
+#25303
+заморский кузнец~
+заморский кузнец~
+заморского кузнеца~
+заморскому кузнецу~
+заморского кузнеца~
+заморским кузнецом~
+заморском кузнеце~
+Высокий, оголенный по пояс кузнец, что-то ремонтирует здесь
+~
+Громадный мужичина, заросший черной шерстью.
+~
+b0d0g0n0o0p0q0r0s0t0x0y0B0f2g2 d0f0 0 E
+31 10 -9 10d10+5000 0d0+100
+100d100+30000 0
+8 8 1
+Destination: 25359
+Str: 36
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 100
+Special_Bitvector: 0 
+Skill: 4 200
+Skill: 5 200
+E
+#25304
+заморский волшебник~
+заморский волшебник~
+заморского волшебника~
+заморскому волшебнику~
+заморского волшебника~
+заморским волшебником~
+заморском волшебнике~
+Волшебник из южных земель торопливо проходит мимо.
+~
+Старик со смуглой, почти черной кожей
+и окладистой белоснежной бородой.
+~
+d0e0g0l0m0n0o0p0q0r0t0u0x0z0B0b1r1e2f2g2i2 d0e0f0g0h0k0m0n0p0r0s0z0A0c1m1n1o1p1q1r1t1u1z1 0 E
+50 20 -10 99d99+5000 0d10+100
+0d0+0 0
+8 8 1
+BareHandAttack: 5
+Destination: 25362
+Destination: 25363
+Destination: 25364
+Destination: 25365
+Destination: 25366
+Str: 30
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 32
+Size: 100
+LikeWork: 100
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: g0h0i0j0u0m3B3C3 
+Skill: 22 90
+Skill: 136 90
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+E
+#25305
+казначей~
+казначей~
+казначея~
+казначею~
+казначея~
+казначеем~
+казначее~
+Седой казначей  занимается своими делами.
+~
+Немолодой человек, занимающий должность казначея дружины.
+~
+b0d0l0n0o0x0B0f2 d0f0 600 E
+40 4 -10 10d90+5000 1d50+100
+0d0+0 0
+8 8 1
+Destination: 25319
+Str: 36
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Height: 170
+Weight: 120
+Special_Bitvector: 0 
+Skill: 2 200
+Skill: 4 200
+E
+#25306
+ямщик~
+ямщик~
+ямщика~
+ямщику~
+ямщика~
+ямщиком~
+ямщике~
+Седой ямщик занимается своими делами.
+~
+   Немолодой уже человек, который, казалось бы, всю жизнь, только и делает, 
+что перебирает письма.
+~
+b0d0l0n0o0x0B0f2 d0f0 600 E
+40 4 -10 10d90+5000 1d50+100
+0d0+0 0
+8 8 1
+Destination: 25317
+Str: 36
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 100
+Class: 102
+Height: 170
+Weight: 120
+Special_Bitvector: 0 
+Skill: 4 200
+Skill: 5 200
+E
+#25307
+ключник~
+седой ключник~
+седого ключника~
+седому ключнику~
+седого ключника~
+седым ключником~
+седом ключнике~
+Старый седой ключник готов проводить Вас в ваши покои.
+~
+Седой слуга, хранящий ключи от всех комнат замка.
+~
+b0d0g0l0m0n0o0t0u0x0B0o1f2 d0e0f0k0 600 E
+40 4 -10 10d90+5000 1d50+100
+0d0+0 0
+8 8 1
+Destination: 25317
+Str: 32
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 100
+Class: 102
+Height: 170
+Weight: 120
+Special_Bitvector: 0 
+Skill: 4 200
+Skill: 5 200
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+E
+T 25309
+#25308
+ведун~
+ведун~
+ведуна~
+ведуну~
+ведуна~
+ведуном~
+ведуне~
+Мудрый ведун пристально смотрит на Вас.
+~
+Высокий человек , облаченный в серую монашескую рясу, с глубоким
+капюшоном, охраняет покой обитателей замка.
+~
+d0e0g0l0m0n0o0p0q0r0t0x0z0B0e2f2g2 b0d0e0f0g0h0k0m0n0p0r0s0t0z0A0C0b1j1m1n1r1 0 E
+50 0 -10 10d50+5000 10d10+100
+0d0+0 0
+8 8 1
+Destination: 25372
+Destination: 25391
+Str: 36
+Dex: 33
+Int: 35
+Wis: 36
+Con: 36
+Cha: 20
+Size: 100
+LikeWork: 100
+ExtraAttack: 100
+Class: 105
+Height: 190
+Weight: 90
+Special_Bitvector: g0h0i0j0p0B3C3 
+Skill: 4 200
+Skill: 132 95
+Skill: 133 95
+Skill: 136 90
+Skill: 151 95
+Skill: 156 95
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+E
+#25309
+водяной ящер~
+водяной ящер~
+водяного ящера~
+водяному ящеру~
+водяного ящера~
+водяным ящером~
+водяном ящере~
+Огромный водяной ящер из далеких заморских краев притаился в воде.
+~
+Огромное чудище, покрытое рядами костяных пластин и шипов
+доставлено из заморских краев для защиты замка от непрошенных
+гостей. Несмотря на свои размеры эти твари удивительно ловко и
+бесшумно скользят в воде и прикидываются гнилым бревном.
+~
+d0e0n0o0p0q0r0t0u0x0y0c1r1f2g2i2 c0d0e0f0k0r0s0t0A0C0a1m1w1 -600 E
+50 0 -10 0d0+30000 25d25+125
+0d0+0 1
+8 8 1
+BareHandAttack: 4
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 100
+ExtraAttack: 3
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: i0o0 
+Skill: 5 200
+Skill: 21 200
+Skill: 132 200
+Skill: 133 200
+Skill: 138 200
+Skill: 150 200
+Skill: 157 200
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+E
+T 25302
+T 25303
+#25310
+толстая повариха~
+толстая повариха~
+толстой поварихи~
+толстой поварихе~
+толстую повариху~
+толстой поварихой~
+толстой поварихе~
+Толстая повариха добродушно смотрит на вас, оторвавшись от своей работы.
+~
+Средних лет женщина в обсыпанном мукой фартуке.
+~
+b0d0n0o0p0q0r0t0u0x0o1f2g2i2 c0d0e0f0h0 600 E
+34 0 -10 10d10+2000 25d25+25
+100d100+30000 0
+8 8 2
+Str: 35
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#25311
+старый ведун ~
+старый ведун~
+старого ведуна~
+старому ведуну~
+старого ведуна~
+старым ведуном~
+старом ведуне~
+Старый седой ведун возится тут с какими-то зельями и травами.
+~
+Высокий и седой как лунь старик в белой рубахе до пят,
+перепоясанной сплетенным из серебряной проволоки поясом.
+~
+b0d0n0o0p0q0r0t0u0x0o1f2g2i2 c0d0e0f0h0 600 E
+34 0 -10 10d10+2000 25d25+25
+100d100+30000 0
+8 8 1
+Str: 35
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 25304
+#25312
+белоснежный грифон~
+белоснежный грифон~
+белоснежного грифона~
+белоснежному грифону~
+белоснежного грифона~
+белоснежным грифоном~
+белоснежном грифоне~
+Покрытое белоснежными перьями огромное чудище хрипло клекочет и бьет крыльями.
+~
+Огромное чудище, с телом льва, орлиной головою и крыльями,
+покрытое снежно-белым оперением. Такие звери водятся лишь
+на самых вершинах поднебесных гор.
+~
+d0n0o0p0q0r0s0t0u0x0z0f2g2i2 d0f0k0x0 0 E
+30 10 -4 1d1+120 2d2+2
+0d0+0 0
+8 8 1
+BareHandAttack: 4
+Str: 12
+Dex: 12
+Int: 10
+Wis: 10
+Con: 20
+Cha: 10
+Size: 30
+Class: 103
+Height: 175
+Weight: 150
+Special_Bitvector: 0 
+E
+T 25306
+#25313
+дозорный воин~
+дозорный воин~
+дозорного воина~
+дозорному воину~
+дозорного воина~
+дозорным воином~
+дозорном воине~
+Дозорный воин прохаживается по площадке, наблюдая за окрестностями.
+~
+Могучий воин в крепкой кольчуге
+с переяславльским гербом
+и мощным дальнобойным луком в руках.
+~
+d0n0o0p0q0r0t0u0x0y0B0r1f2g2i2 0 600 E
+34 0 -10 50d90+20000 15d15+15
+0d0+0 0
+8 8 1
+BareHandAttack: 9
+Str: 34
+Dex: 36
+Int: 35
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#25314
+отрок~
+отрок~
+отрока~
+отроку~
+отрока~
+отроком~
+отроке~
+Молодший отрок торопится по поручению боярина.
+~
+Безусый молодой парень,
+состоящий в дружине на обучении
+~
+d0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 0 600 E
+34 0 -10 50d90+20000 15d15+15
+0d0+0 0
+8 8 1
+BareHandAttack: 9
+Str: 34
+Dex: 36
+Int: 35
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: p0 
+E
+#25315
+гридень~
+гридень~
+гридня~
+гридню~
+гридня~
+гриднем~
+гридне~
+Крепкий гридень прохаживается по крепости, следя за порядком.
+~
+Могучий воин с изрядной сединой в волосах,
+и крепкими мозолистыми руками.
+~
+d0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0k0r1 600 E
+34 0 -10 50d90+20000 15d15+15
+0d0+0 0
+8 8 1
+BareHandAttack: 9
+Str: 34
+Dex: 36
+Int: 35
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 25312
+#25316
+привратник~
+привратник~
+привратника~
+привратнику~
+привратника~
+привратником~
+привратнике~
+Привратник стоит здесь, хмуро глядя на Вас.
+~
+Пожилой слуга, следящий за порядком
+на воротах замка.
+~
+b0d0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0k0 600 E
+34 0 -10 50d90+20000 15d15+15
+0d0+0 0
+8 8 1
+BareHandAttack: 9
+Str: 34
+Dex: 36
+Int: 35
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 25308
+T 25314
+#25317
+боярин~
+боярин~
+боярина~
+боярину~
+боярина~
+боярином~
+боярине~
+Седовласый боярин неспешным шагом проходит мимо.
+~
+Седой воин с покрытым шрамами лицом,
+но все еще крепкий, словно столетний дуб.
+~
+d0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0 600 E
+50 0 -10 50d90+20000 15d15+15
+0d0+0 0
+8 8 1
+BareHandAttack: 6
+Str: 34
+Dex: 36
+Int: 35
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 25312
+#25318
+хозяин грифонов~
+хозяин грифонов~
+хозяина грифонов~
+хозяину грифонов~
+хозяина грифонов~
+хозяином грифонов~
+хозяине грифонов~
+Высокий седой старик в теплом темно-синем плаще стоит здесь, задумавшись о чем-то.
+~
+Старый колдун, воспитывающий верховых
+грифонов для вот уже которого по счету
+поколения переяславльских ратников. 
+~
+b0d0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 k0 600 E
+34 0 -10 50d90+20000 15d15+15
+0d0+0 0
+8 8 1
+BareHandAttack: 9
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 25310
+#25319
+нищий старик~
+нищий старик~
+нищего старика~
+нищему старику~
+нищего старика~
+нищим стариком~
+нищем старике~
+Нищий старик сидит у тропинки и просит подаяние.
+~
+Грязный старый нищий. Космы седых волос и надвинутая на глаза драная шапка
+почти полностью скрывают лицо. Только вдруг сверкнули на его грязном лице глаза -
+умно и зорко... Не все тут так просто, как кажется.
+~
+b0d0o0p0q0r0t0x0o1s1f2 d0f0k0 100 E
+32 8 0 10d100+600 5d5+12
+0d0+1 0
+6 6 1
+Size: 30
+ExtraAttack: 1
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
+T 25311
+#25398
+демон разрушения~
+&Rдемон разрушения&n~
+&Rдемона разрушения&n~
+&Rдемону разрушения&n~
+&Rдемона разрушения&n~
+&Rдемоном разрушения&n~
+&Rдемоне разрушения&n~
+Чудовищного вида существо, сплошь состоящее из когтей, рогов и клыков, притаилось тут.
+~
+Страшное и омерзительное порождение тьмы, покрытое рядами когтей, клыков
+и костяных наростов, исходящее смрадными испарениями и глядящее злобным взором.
+Судя по его виду - характер у него не самый мирный, но сейчас оно, скорее, пытается
+спрятаться от кого-то.
+~
+d0l0n0u0y0s1a2f2 d0f0k0n0w1 -100 E
+35 11 0 5d100+2000 8d8+18
+0d0+0 0
+8 8 1
+BareHandAttack: 1
+Str: 24
+Dex: 18
+Int: 23
+Wis: 18
+Con: 25
+Cha: 3
+Size: 70
+ExtraAttack: 3
+Height: 170
+Weight: 200
+Special_Bitvector: j0 
+Skill: 4 100
+Skill: 22 150
+Skill: 132 80
+Skill: 140 200
+Skill: 158 50
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 82
+Spell: 88
+Spell: 93
+E
+$

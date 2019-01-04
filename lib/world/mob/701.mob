@@ -1,0 +1,477 @@
+#70100
+скелет выбеленый~
+выбеленый скелет~
+выбеленого скелета~
+выбеленому скелету~
+выбеленого скелета~
+выбеленным скелетом~
+выбеленном скелете~
+Скелет, вставший из могилы, ищет кого бы порешить.
+~
+Обглоданная временем и червями груда самоходных костей.
+~
+b0c0d0e0f0m0n0o0p0r0t0x0z0 c0d0e0f0j0k0z0m1 -600 E
+27 0 -10 10d10+2000 8d8+10
+0d0+0 1000000
+8 8 1
+BareHandAttack: 8
+Str: 17
+Dex: 14
+Int: 10
+Wis: 5
+Con: 12
+Cha: 4
+Size: 50
+LikeWork: 45
+MaxFactor: 25
+ExtraAttack: 1
+Class: 101
+Height: 170
+Weight: 80
+Special_Bitvector: b1c1 
+Skill: 137 120
+Skill: 150 100
+Skill: 160 100
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 23
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 54
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+E
+T 70108
+T 70109
+#70101
+старый усталый ведун~
+старый усталый ведун~
+старого усталого ведуна~
+старому усталому ведуну~
+старого усталого ведуна~
+старым усталым ведуном~
+старом усталом ведуне~
+Старый усталый ведун стоит тут.
+~
+Пожилой дяденька с густой холеной бородой.
+~
+b0c0d0g0l0m0n0o0x0 d0f0h0k0m1o1r1 -600 E
+27 0 -10 0d0+3500 5d5+10
+0d0+0 1200000
+8 8 1
+Str: 21
+Dex: 35
+Int: 26
+Wis: 26
+Con: 35
+Cha: 17
+Size: 50
+LikeWork: 50
+MaxFactor: 100
+ExtraAttack: 1
+Class: 105
+Height: 170
+Weight: 120
+Special_Bitvector: a1b1c1 
+Skill: 157 100
+Skill: 160 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 82
+Helper: 70100
+E
+T 70100
+T 70107
+T 70112
+#70102
+царица~
+царица муравьев~
+царицы муравьев~
+царице муравьев~
+царицу муравьев~
+царицей муравьев~
+царице муравьев~
+Царица муравьев ожидает здесь кого-то.
+~
+Крупный муравей с крыльями и большой головой.
+~
+b0d0l0m0n0o0p0q0r0t0u0 d0k0A0a1 0 E
+30 7 -5 40d10+500 3d3+10
+0d0+0 1000000
+5 5 2
+BareHandAttack: 4
+Str: 10
+Dex: 16
+Int: 25
+Wis: 18
+Con: 10
+Cha: 30
+Size: 20
+LikeWork: 95
+MaxFactor: 10
+Class: 103
+Height: 30
+Weight: 50
+Special_Bitvector: l0 
+Skill: 157 50
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 47
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 53
+Spell: 56
+Spell: 66
+Spell: 66
+Spell: 82
+Spell: 88
+Spell: 93
+Spell: 96
+Spell: 104
+Spell: 112
+Spell: 132
+Spell: 135
+Spell: 135
+Helper: 70103
+Helper: 70104
+Helper: 70105
+E
+T 70106
+T 70113
+#70103
+муравей охранник~
+муравей-охранник~
+муравья-охранника~
+муравью-охраннику~
+муравья-охранника~
+муравьем-охранником~
+муравье-охраннике~
+Муравей охраняет свое жилище.
+~
+Маленький черный муравей в крепком панцире.
+~
+b0d0l0o0r0t0 c0f0r0z0A0 0 E
+25 5 -9 5d10+250 5d5+5
+0d0+0 70000
+8 8 1
+BareHandAttack: 4
+Str: 20
+Dex: 25
+Con: 15
+Cha: 9
+Size: 10
+LikeWork: 100
+MaxFactor: 20
+Class: 103
+Height: 30
+Weight: 50
+Special_Bitvector: 0 
+Skill: 1 100
+Skill: 2 100
+Skill: 22 100
+Skill: 136 100
+Skill: 137 150
+Skill: 151 100
+E
+T 70113
+#70104
+муравей следопыт~
+муравей-следопыт~
+муравья-следопыта~
+муравью-следопыту~
+муравья-следопыта~
+муравьем-следопытом~
+муравье-следопыте~
+Муравей бежит здесь, шевеля усиками.
+~
+Очень подвижный муравей с длинными усиками.
+~
+b0c0d0l0n0o0p0q0r0u0x0 f0k0p0r0z0A0m1 0 E
+20 0 -4 5d10+200 5d20+20
+0d0+0 50000
+8 8 1
+BareHandAttack: 12
+Str: 24
+Dex: 23
+Cha: 10
+Size: 10
+LikeWork: 99
+MaxFactor: 20
+ExtraAttack: 1
+Class: 103
+Height: 30
+Weight: 50
+Special_Bitvector: 0 
+Skill: 4 20
+Skill: 5 20
+Skill: 21 10
+Skill: 131 100
+Skill: 150 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 33
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 114
+Spell: 114
+Spell: 114
+E
+T 70113
+#70105
+муравей работник~
+муравей-работник~
+муравья-работника~
+муравью-работнику~
+муравья-работника~
+муравьем-работником~
+муравье-работнике~
+Сильный муравей пробегает в поисках груза.
+~
+Этот муравей выглядит посильнее остальных, но панцирь
+у него не такой крепкий, как у охранника, и он не так
+быстр как охотник.
+~
+b0c0d0l0m0n0o0x0 k0l1 0 E
+25 5 0 20d10+300 2d10+25
+0d0+0 50000
+8 8 1
+BareHandAttack: 8
+Str: 30
+Dex: 12
+Int: 6
+Wis: 6
+Con: 24
+Cha: 8
+Size: 20
+LikeWork: 95
+MaxFactor: 30
+Class: 103
+Height: 30
+Weight: 50
+Special_Bitvector: m0a1b1c1d1 
+Skill: 1 100
+Skill: 139 100
+Spell: 33
+E
+T 70113
+#70106
+восставший скелет~
+восставший скелет~
+восставшего скелета~
+восставшему скелету~
+восставшего скелета~
+восставшим скелетом~
+восставшем скелете~
+Скелет какого-то человека стоит здесь.
+~
+Это самый обычный ходячий скелет.
+~
+d0f0l0m0n0o0 d0f0 -600 E
+15 18 -5 20d5+100 5d5+1
+0d0+0 10000
+8 8 1
+Str: 15
+Dex: 12
+Int: 7
+Wis: 12
+Con: 15
+Cha: 7
+Size: 50
+LikeWork: 20
+MaxFactor: 10
+ExtraAttack: 1
+Class: 101
+Height: 120
+Weight: 50
+Special_Bitvector: 0 
+E
+#70107
+восставший вампир~
+восставший вампир~
+восставшего вампира~
+восставшему вампиру~
+восставшего вампира~
+восставшим вампиром~
+восставшем вампире~
+Существо из мрака с горящими глазами стоит здесь.
+~
+Фигура, окутанная во мрак, с горящими глазами и запахом тлена.
+~
+d0f0l0m0n0 b0k0n0w1 -600 E
+17 10 -5 5d5+250 2d2+2
+0d0+0 10000
+8 8 1
+BareHandAttack: 4
+Str: 15
+Dex: 15
+Int: 28
+Wis: 15
+Con: 30
+Cha: 4
+Size: 55
+LikeWork: 60
+MaxFactor: 10
+Class: 101
+Height: 150
+Weight: 50
+Special_Bitvector: 0 
+Skill: 22 40
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+E
+$

@@ -1,0 +1,977 @@
+#91700
+птица гамаюн~
+Гамаюн~
+Гамаюн~
+Гамаюн~
+Гамаюн~
+Гамаюн~
+Гамаюн~
+Вещая птица Гамаюн сидит около Алатырь скалы.
+~
+неопределен~
+b0c0d0l0m0n0o0p0t0b1r1 d0f0h0k0x0 0 E
+40 0 -9 0d0+15000 18d9+25
+0d0+0 2400000
+6 6 2
+BareHandAttack: 1
+Str: 27
+Dex: 25
+Int: 36
+Wis: 36
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 100
+ExtraAttack: 3
+Class: 105
+Height: 30
+Weight: 140
+Special_Bitvector: l0C3 
+Skill: 22 40
+Skill: 136 100
+Skill: 157 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 40
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 93
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+E
+T 91702
+T 91703
+T 91704
+T 91710
+I крылья,17:7
+#91701
+широкоплечий мужик~
+широкоплечий мужик~
+широкоплечего мужика~
+широкоплечему мужику~
+широкоплечего мужика~
+широкоплечим мужиком~
+широкоплечем мужике~
+Здоровый мужик с луком аккуратно крадется сквозь лес
+~
+неопределен~
+d0l0m0o0x0A0 f0k0r0s0 0 E
+31 2 -5 15d15+1500 10d9+50
+0d0+0 150000
+8 8 1
+BareHandAttack: 9
+Str: 27
+Dex: 30
+Int: 35
+Wis: 28
+Con: 28
+Cha: 15
+Size: 50
+LikeWork: 100
+ExtraAttack: 2
+Class: 102
+Height: 30
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 134 100
+Skill: 137 100
+Skill: 138 100
+Skill: 140 100
+Skill: 154 100
+Skill: 155 100
+Skill: 157 100
+E
+T 91700
+I кости,15:7
+#91702
+большой черный волк~
+большой черный волк~
+большого черного волка~
+большому черному волку~
+большого черного волка~
+большим черным волком~
+большом черном волке~
+Большой черный волк с голодными глазами бежит, ища добычу.
+~
+undefined
+~
+d0f0l0m0n0o0p0x0 d0f0k0A0m1 -600 E
+37 0 -8 0d0+8000 30d9+50
+0d0+0 780000
+8 8 1
+BareHandAttack: 4
+Str: 24
+Dex: 29
+Int: 15
+Wis: 15
+Con: 35
+Cha: 3
+Size: 100
+LikeWork: 75
+ExtraAttack: 1
+Class: 103
+Height: 198
+Weight: 130
+Special_Bitvector: p0q1 
+Skill: 132 130
+Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+E
+T 91706
+#91703
+ползучий гад~
+ползучий гад~
+ползучего гада~
+ползучему гаду~
+ползучего гада~
+ползучим гадом~
+ползучем гаде~
+Мелкий ползучий змей затаился в листве.
+~
+undefined~
+d0f0g0m0o0p0 d0f0k0 -600 E
+27 3 -5 9d9+400 14d9+10
+0d0+0 100000
+8 8 1
+BareHandAttack: 4
+Str: 19
+Dex: 22
+Int: 15
+Wis: 24
+Con: 15
+Cha: 3
+Size: 45
+LikeWork: 35
+ExtraAttack: 2
+Class: 100
+Height: 30
+Weight: 60
+Special_Bitvector: g0m0B3 
+Skill: 21 70
+Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Helper: 91704
+E
+I кожа,15:5
+#91704
+ползучий змей~
+ползучий змей~
+ползучего змея~
+ползучему змею~
+ползучего змея~
+ползучим змеем~
+ползучем змее~
+Большой змей неспеша ползет по земле.
+~
+undefined~
+d0f0g0m0o0p0 d0f0k0 -600 E
+34 1 -8 9d9+3200 19d9+10
+0d0+0 400000
+8 8 1
+BareHandAttack: 4
+Str: 22
+Dex: 20
+Int: 15
+Wis: 17
+Con: 15
+Cha: 3
+Size: 70
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 140
+Special_Bitvector: m0C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Helper: 91703
+E
+T 91707
+#91705
+ползучий гад~
+ползучий гад~
+ползучего гада~
+ползучему гаду~
+ползучего гада~
+ползучим гадом~
+ползучем гаде~
+Мелкий ползучий змей затаился в листве.
+~
+undefined~
+d0f0g0m0o0p0 d0f0k0 -600 E
+27 3 -5 9d9+400 14d9+10
+0d0+0 100000
+8 8 1
+BareHandAttack: 4
+Str: 19
+Dex: 22
+Int: 15
+Wis: 24
+Con: 15
+Cha: 3
+Size: 45
+LikeWork: 35
+ExtraAttack: 2
+Class: 100
+Height: 30
+Weight: 60
+Special_Bitvector: g0m0B3 
+Skill: 21 70
+Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Helper: 91706
+E
+#91706
+ползучий змей~
+ползучий змей~
+ползучего змея~
+ползучему змею~
+ползучего змея~
+ползучим змеем~
+ползучем змее~
+Большой змей неспеша ползет по земле.
+~
+undefined~
+d0f0g0m0o0p0 d0f0k0 -600 E
+34 1 -8 9d9+3200 19d9+10
+0d0+0 400000
+8 8 1
+BareHandAttack: 4
+Str: 22
+Dex: 20
+Int: 15
+Wis: 17
+Con: 15
+Cha: 3
+Size: 70
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 140
+Special_Bitvector: m0C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Helper: 91705
+E
+T 91707
+#91707
+ползучий гад~
+ползучий гад~
+ползучего гада~
+ползучему гаду~
+ползучего гада~
+ползучим гадом~
+ползучем гаде~
+Мелкий ползучий змей затаился в листве.
+~
+undefined~
+d0f0g0m0o0p0 d0f0k0 -600 E
+27 3 -5 9d9+400 14d9+10
+0d0+0 100000
+8 8 1
+BareHandAttack: 4
+Str: 19
+Dex: 22
+Int: 15
+Wis: 24
+Con: 15
+Cha: 3
+Size: 45
+LikeWork: 35
+ExtraAttack: 2
+Class: 100
+Height: 30
+Weight: 60
+Special_Bitvector: g0m0B3 
+Skill: 21 70
+Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Helper: 91708
+E
+#91708
+ползучий змей~
+ползучий змей~
+ползучего змея~
+ползучему змею~
+ползучего змея~
+ползучим змеем~
+ползучем змее~
+Большой змей неспеша ползет по земле.
+~
+undefined~
+d0f0g0m0o0p0 d0f0k0 -600 E
+34 1 -8 9d9+3200 19d9+10
+0d0+0 400000
+8 8 1
+BareHandAttack: 4
+Str: 22
+Dex: 20
+Int: 15
+Wis: 17
+Con: 15
+Cha: 3
+Size: 70
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 140
+Special_Bitvector: m0C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Helper: 91707
+E
+T 91707
+I чешуя,15:5
+#91709
+мелкий василиск~
+мелкий василиск~
+мелкого василиска~
+мелкому василиску~
+мелкого василиска~
+мелким василиском~
+мелком василиске~
+Мелкая, но длинная змея ползет по земле.
+~
+undefined~
+d0f0g0m0o0p0d2 d0f0k0 -600 E
+28 3 -5 9d9+450 9d9+10
+0d0+0 150000
+8 8 1
+BareHandAttack: 4
+Str: 19
+Dex: 22
+Int: 15
+Wis: 24
+Con: 15
+Cha: 3
+Size: 45
+LikeWork: 40
+ExtraAttack: 2
+Class: 100
+Height: 198
+Weight: 60
+Special_Bitvector: m0 
+Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Helper: 91710
+E
+#91710
+василиск~
+василиск~
+василиска~
+василиску~
+василиска~
+василиском~
+василиске~
+Большой длинный змей неспеша ползет по земле.
+~
+undefined~
+d0f0g0m0o0p0 d0f0k0 -600 E
+35 1 -8 9d9+3000 17d9+10
+0d0+0 550000
+8 8 1
+BareHandAttack: 4
+Str: 23
+Dex: 24
+Int: 15
+Wis: 22
+Con: 15
+Cha: 3
+Size: 70
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 140
+Special_Bitvector: m0C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 56
+Spell: 56
+Helper: 91709
+E
+T 91709
+#91711
+мелкий василиск~
+мелкий василиск~
+мелкого василиска~
+мелкому василиску~
+мелкого василиска~
+мелким василиском~
+мелком василиске~
+Мелкая, но длинная змея ползет по земле.
+~
+undefined~
+d0f0g0m0o0p0d2 d0f0k0 -600 E
+28 3 -5 9d9+450 9d9+10
+0d0+0 150000
+8 8 1
+BareHandAttack: 4
+Str: 19
+Dex: 22
+Int: 15
+Wis: 24
+Con: 15
+Cha: 3
+Size: 45
+LikeWork: 40
+ExtraAttack: 2
+Class: 100
+Height: 198
+Weight: 60
+Special_Bitvector: m0 
+Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Helper: 91712
+E
+#91712
+василиск~
+василиск~
+василиска~
+василиску~
+василиска~
+василиском~
+василиске~
+Большой длинный змей неспеша ползет по земле.
+~
+undefined~
+d0f0g0m0o0p0 d0f0k0 -600 E
+35 1 -8 9d9+3000 17d9+10
+0d0+0 550000
+8 8 1
+BareHandAttack: 4
+Str: 23
+Dex: 24
+Int: 15
+Wis: 22
+Con: 15
+Cha: 3
+Size: 70
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 140
+Special_Bitvector: m0C3 
+Skill: 22 50
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 56
+Spell: 56
+Helper: 91711
+E
+T 91709
+#91713
+маленький белый грифон~
+маленький белый грифон~
+маленького белого грифона~
+маленькому белому грифону~
+маленького белого грифона~
+маленьким белым грифоном~
+маленьком белом грифоне~
+Небольшой грифон, с ослепительно белыми перьями, парит над землей.
+~
+undefined~
+d0f0g0m0o0p0 d0f0k0x0 -600 E
+29 2 -6 9d9+500 9d14+10
+0d0+0 180000
+8 8 1
+BareHandAttack: 8
+Str: 19
+Dex: 24
+Int: 17
+Wis: 24
+Con: 15
+Cha: 3
+Size: 45
+LikeWork: 30
+ExtraAttack: 3
+Class: 100
+Height: 198
+Weight: 60
+Special_Bitvector: l0 
+Skill: 136 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Helper: 91714
+E
+#91714
+белый грифон~
+белый грифон~
+белого грифона~
+белому грифону~
+белого грифона~
+белым грифоном~
+белом грифоне~
+Белый грифон летает тут.
+~
+undefined~
+d0f0g0m0o0p0 d0f0k0 -600 E
+36 1 -8 9d9+2900 16d9+7
+0d0+0 680000
+8 8 1
+BareHandAttack: 1
+Str: 24
+Dex: 24
+Int: 20
+Wis: 22
+Con: 15
+Cha: 3
+Size: 80
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: m0C3 
+Skill: 22 60
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Helper: 91713
+E
+T 91708
+I зубы,17:7
+L 1479 6 0 0
+#91715
+маленький белый грифон~
+маленький белый грифон~
+маленького белого грифона~
+маленькому белому грифону~
+маленького белого грифона~
+маленьким белым грифоном~
+маленьком белом грифоне~
+Небольшой грифон, с ослепительно белыми перьями, парит над землей.
+~
+undefined~
+d0f0g0m0o0p0 d0f0k0x0 -600 E
+29 2 -6 9d9+500 9d14+10
+0d0+0 180000
+8 8 1
+BareHandAttack: 8
+Str: 19
+Dex: 24
+Int: 17
+Wis: 24
+Con: 15
+Cha: 3
+Size: 45
+LikeWork: 30
+ExtraAttack: 3
+Class: 100
+Height: 198
+Weight: 60
+Special_Bitvector: l0 
+Skill: 136 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Helper: 91716
+E
+#91716
+белый грифон~
+белый грифон~
+белого грифона~
+белому грифону~
+белого грифона~
+белым грифоном~
+белом грифоне~
+Белый грифон летает тут.
+~
+undefined~
+d0f0g0m0o0p0 d0f0k0 -600 E
+36 1 -8 9d9+2900 16d9+7
+0d0+0 680000
+8 8 1
+BareHandAttack: 1
+Str: 24
+Dex: 24
+Int: 20
+Wis: 22
+Con: 15
+Cha: 3
+Size: 80
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: m0C3 
+Skill: 22 60
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Helper: 91715
+E
+T 91708
+#91717
+златорогий тур~
+златорогий тур~
+златорогого тура~
+златорогому туру~
+златорогого тура~
+златорогим туром~
+златорогом туре~
+Златорогий тур пасется на поляне.
+~
+неопределен~
+b0c0d0l0n0o0p0x0A0r1 d0f0h0k0 -600 E
+40 0 -9 0d0+18000 40d9+25
+0d0+0 1520000
+8 8 1
+BareHandAttack: 14
+Destination: 91712
+Destination: 91715
+Str: 27
+Dex: 25
+Int: 36
+Wis: 36
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 140
+Special_Bitvector: p0 
+Skill: 5 150
+Skill: 136 100
+Skill: 157 100
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 68
+E
+T 91705
+I копыта,17:7
+#91718
+огненный защитник~
+огненный защитник~
+огненного защитника~
+огненному защитнику~
+огненного защитника~
+огненным защитником~
+огненном защитнике~
+Огненный защитник летает тут.
+~
+undefined~
+b0d0f0m0n0o0p0b1a2 d0f0k0x0p1 0 E
+30 0 -10 9d9+2500 11d9+7
+0d0+0 250000
+8 8 1
+Str: 24
+Dex: 24
+Int: 24
+Wis: 24
+Con: 24
+Cha: 24
+Size: 50
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 198
+Weight: 50
+Special_Bitvector: x0 
+Skill: 136 100
+Skill: 137 100
+Skill: 157 100
+E
+T 91701
+$

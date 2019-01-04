@@ -1,0 +1,975 @@
+#61900
+семаргл~
+семаргл~
+семаргла~
+семарглу~
+семаргла~
+семарглом~
+семаргле~
+Воин, окруженный огнем стоит с огненным мечом в руках.
+~
+   Воин словно Солнце, озаряющий всю Вселенную.
+~
+a0b0d0g0n0o0p0x0y0B0 c0d0e0f0h0k0n1p1y1 600 E
+50 0 -10 10d10+1100 11d11+11
+0d0+0 10000
+8 8 1
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 61900
+T 61901
+T 61903
+#61901
+огненный конь~
+огненный конь~
+огненного коня~
+огненному коню~
+огненного коня~
+огненным конем~
+огненном коне~
+Прекрасный конь с серебристой шерстью.
+~
+   Прекрасный конь с серебристой шерстью. Создынный из из огня Семарглом 
+из огня и пламени.
+~
+b0d0g0n0o0B0 n1p1y1 600 E
+50 0 -10 10d10+2223 1d1+11
+0d0+0 10000
+8 8 1
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#61902
+великий черный змей~
+великий черный змей~
+великого черного змея~
+великому черному змею~
+великого черного змея~
+великим черным змеем~
+великий черный змей~
+Великий черный змей восседает на своем троне.
+~
+   Змей ужасный да коварный, предводитель злых сил да всей нежити, ох и
+силен и проворен он, убить такого не так просто будет.
+~
+b0c0d0f0g0l0n0o0x0A0 d0f0h0k0m0n0z0A0m1x1 -600 E
+31 0 -10 7d7+7000 9d9+40
+9d9+0 800000
+8 8 1
+Str: 35
+Dex: 28
+Int: 30
+Wis: 30
+Con: 31
+Cha: 13
+Size: 100
+LikeWork: 60
+MaxFactor: 3
+ExtraAttack: 2
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1d1C3 
+Skill: 5 100
+Skill: 22 150
+Skill: 131 60
+Skill: 136 140
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 23
+Spell: 28
+Spell: 56
+Spell: 66
+Spell: 67
+Spell: 68
+Spell: 82
+Spell: 88
+Spell: 93
+Spell: 94
+Spell: 111
+Helper: 61904
+Helper: 61903
+Helper: 61917
+Helper: 61916
+Helper: 61915
+E
+T 61902
+I крылья,15:3
+#61903
+повелитель скелетов~
+повелитель скелетов~
+повелителя скелетов~
+повелителю скелетов~
+повелителя скелетов~
+повелителем скелетов~
+повелителе скелетов~
+Ужасный, огромный скелет, сидит на троне.
+~
+   Ужасный огромный скелет - царь всех скелетов одним словом.
+~
+b0c0d0f0g0l0n0o0p0r0x0A0 d0f0h0k0m0A0z1 -600 E
+30 0 -10 4d7+6002 21d6+25
+5d9+0 500000
+8 8 1
+BareHandAttack: 3
+Str: 33
+Dex: 29
+Int: 25
+Wis: 34
+Con: 31
+Cha: 16
+Size: 100
+LikeWork: 40
+MaxFactor: 4
+ExtraAttack: 2
+Class: 101
+Height: 200
+Weight: 80
+Special_Bitvector: b1c1d1C3 
+Skill: 5 100
+Skill: 131 50
+Skill: 132 100
+Skill: 136 120
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 50
+Skill: 154 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Helper: 61909
+Helper: 61908
+Helper: 61906
+Helper: 61905
+E
+#61904
+дьявол искуситель~
+дьявол искуситель~
+дьявола искусителя~
+дьяволу искусителю~
+дьявола искусителя~
+дьяволом искусителем~
+дьяволе искусителе~
+Ужасное создание, с рогами и ужасном ухмылкой, восседает на троне.
+~
+   Дьявол искуситель во своем истинном обличие предстал перед вами.
+~
+b0c0d0f0g0l0n0o0u0x0A0 d0f0k0m0z0A0m1y1 -600 E
+30 5 -2 4d5+6002 8d8+31
+5d4+9990 500000
+8 8 1
+BareHandAttack: 2
+Str: 30
+Dex: 23
+Int: 34
+Wis: 34
+Con: 25
+Cha: 35
+Size: 100
+LikeWork: 50
+MaxFactor: 4
+ExtraAttack: 2
+Class: 101
+Height: 200
+Weight: 110
+Special_Bitvector: b1c1d1C3 
+Skill: 5 100
+Skill: 22 45
+Skill: 132 80
+Skill: 136 120
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Skill: 157 80
+Skill: 160 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 67
+Spell: 67
+Helper: 61914
+Helper: 61912
+Helper: 61911
+Helper: 61910
+E
+T 61913
+#61905
+скелет с головой в руке~
+скелет с головой в руке~
+скелета с головой в руке~
+скелету с головой в руке~
+скелета с головой в руке~
+скелетом с головой в руке~
+скелете с головой в руке~
+Ужасный скелет, тащит свою же голову в правой руке.
+~
+   Один из верных слуг, короля скелетов.
+~
+c0d0f0g0l0m0n0o0p0r0u0A0 d0f0k0m0z0A0z1 -600 E
+28 2 -5 10d10+2092 9d12+23
+0d0+0 300000
+8 8 1
+BareHandAttack: 6
+Str: 30
+Dex: 23
+Int: 19
+Wis: 24
+Con: 28
+Cha: 5
+Size: 100
+LikeWork: 40
+MaxFactor: 5
+ExtraAttack: 1
+Class: 101
+Height: 200
+Weight: 90
+Special_Bitvector: b1c1d1 
+Skill: 4 90
+Skill: 132 90
+Skill: 136 100
+Skill: 137 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 93
+E
+T 61904
+I кости,10:5
+#61906
+безрукий скелет~
+безрукий скелет~
+безрукого скелета~
+безрукому скелету~
+безрукого скелета~
+безруким скелетом~
+безруком скелете~
+Странный скелет, без рук, хотя с головой, бредет себе куда то.
+~
+   Хоть и без рук, но все таки страшный и ужасный скелет, встретиш такого,
+дом родной забудешь.
+~
+c0d0f0g0l0n0o0A0 d0f0k0m0A0z1 -600 E
+36 1 -8 11d11+1500 9d12+14
+0d0+0 280000
+8 8 1
+BareHandAttack: 4
+Str: 30
+Dex: 28
+Int: 29
+Wis: 29
+Con: 26
+Cha: 14
+Size: 100
+LikeWork: 70
+MaxFactor: 4
+Class: 101
+Height: 200
+Weight: 100
+Special_Bitvector: b1c1C3 
+Skill: 4 10
+Skill: 22 70
+Skill: 136 100
+Skill: 137 100
+Skill: 157 90
+Spell: 25
+Spell: 25
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 56
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 137
+E
+T 61904
+#61907
+череп~
+череп~
+черепа~
+черепу~
+череп~
+черепом~
+черепе~
+Череп давно погибшего мага парит над землей, мерцая пустыми глазницами.
+~
+   Да, что это такое, череп и без тела!
+~
+b0d0e0f0g0l0m0n0o0p0q0r0u0x0z0b1g2i2 d0f0k0m0x0z0C0z1 -600 E
+30 10 0 2d10+700 7d8+10
+0d0+0 220000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 17
+Int: 31
+Wis: 30
+Con: 15
+Cha: 16
+Size: 100
+LikeWork: 85
+MaxFactor: 5
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 100
+Skill: 136 100
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 64
+Spell: 64
+Spell: 64
+E
+#61908
+черный скелет~
+черный скелет~
+черного скелета~
+черному скелету~
+черного скелета~
+черным скелетом~
+черном скелете~
+Скелет, черного цвета, тащится неведомо куда.
+~
+   Скелет, непонятного черного цвета, скалится гнилыми зубами.
+~
+c0d0f0g0l0m0n0o0r0A0 d0f0k0m0n0r0s0t0z0A0j1z1 -600 E
+30 0 -5 3d9+2500 19d4+21
+0d0+0 350000
+8 8 1
+Str: 30
+Dex: 28
+Int: 26
+Wis: 23
+Con: 28
+Cha: 16
+Size: 100
+LikeWork: 15
+MaxFactor: 4
+ExtraAttack: 1
+Class: 101
+Height: 199
+Weight: 98
+Special_Bitvector: b1c1d1C3 
+Skill: 5 90
+Skill: 22 100
+Skill: 131 50
+Skill: 132 100
+Skill: 136 100
+Skill: 137 150
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+E
+I зубы,10:5
+#61909
+скелет бешеного пса~
+скелет бешеного пса~
+скелета бешеного пса~
+скелету бешеного пса~
+скелет бешеного пса~
+скелетом бешеного пса~
+скелете бешеного пса~
+Костяк, в виде пса, нюхает зеблю, выслеживая жертву.
+~
+   Раньше это был пес, а сейчас только костяк остался, да повадки собаки.
+~
+d0f0h0m0n0o0p0r0 d0f0k0m0r0z0A0w1 -600 E
+26 0 -9 3d2+700 11d9+8
+0d0+0 240000
+8 8 1
+BareHandAttack: 4
+Str: 28
+Dex: 30
+Int: 25
+Wis: 22
+Con: 24
+Cha: 13
+Size: 90
+LikeWork: 35
+MaxFactor: 3
+Class: 101
+Height: 130
+Weight: 77
+Special_Bitvector: c1 
+Skill: 132 100
+Skill: 136 150
+Skill: 140 90
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 76
+E
+T 61904
+#61910
+продажная душа~
+продажная душа~
+продажной души~
+продажной душе~
+продажную душу~
+продажной душой~
+продажной душе~
+Сгусток тьмы, тихо парит над землей.
+~
+   При жизни человек обменял свою душу дьволу на материальный благости, а 
+при смерти его душа вечно будет находится во власти тьмы.
+~
+d0f0g0l0m0n0o0p0q0r0z0b2h2 b0d0f0k0m0p0r0x0z0A0x1 -600 E
+29 2 -6 2d5+2000 10d4+20
+0d0+400 300000
+8 8 2
+Str: 28
+Dex: 26
+Int: 25
+Wis: 30
+Con: 26
+Cha: 10
+Size: 100
+LikeWork: 30
+MaxFactor: 5
+Class: 101
+Height: 200
+Weight: 80
+Special_Bitvector: c1C3 
+Skill: 4 30
+Skill: 22 50
+Skill: 136 130
+Skill: 137 100
+Skill: 160 100
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 66
+Spell: 66
+Spell: 111
+Spell: 150
+E
+#61911
+алчная душа~
+алчная душа~
+алчной души~
+алчной душе~
+алчную душу~
+алчной душой~
+алчной душе~
+Странное создание что-то бормочет, паря над землей.
+~
+   Раньше человек был алчен, жаден, а теперь он тут страдает и мучается,
+искупая свои грехи.
+~
+d0g0m0n0o0q0z0 b0d0f0k0m0r0x0A0x1 -600 E
+28 2 -5 10d10+1500 8d19+9
+0d0+200 280000
+8 8 2
+BareHandAttack: 2
+Str: 25
+Dex: 24
+Int: 30
+Wis: 30
+Con: 16
+Cha: 16
+Size: 100
+LikeWork: 25
+MaxFactor: 4
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: c1 
+Skill: 136 120
+Skill: 137 100
+Skill: 150 150
+Skill: 157 100
+Skill: 160 100
+Spell: 23
+Spell: 23
+Spell: 25
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 33
+Spell: 33
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 82
+Spell: 88
+Spell: 104
+E
+#61912
+подручный дьявола~
+подручный дьявола~
+подручного дьявола~
+подручному дьявола~
+подручного дьявола~
+подручным дьявола~
+подручном дьявола~
+Существо с ехидной мордой и небольшими рожками, неспешно шествует по своим делам.
+~
+   Верный слуга дьявола.
+~
+c0d0f0g0l0m0n0o0A0 d0f0k0m0z0A0y1 -600 E
+28 5 -3 2d8+2200 7d24+19
+0d0+150 300000
+8 8 1
+BareHandAttack: 5
+Str: 31
+Dex: 27
+Int: 19
+Wis: 20
+Con: 24
+Cha: 16
+Size: 100
+LikeWork: 60
+MaxFactor: 3
+ExtraAttack: 2
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1d1 
+Skill: 5 100
+Skill: 131 60
+Skill: 136 100
+Skill: 137 80
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Skill: 157 80
+Skill: 160 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+E
+#61913
+мерцающий огонек~
+мерцающий огонек~
+мерцающего огонька~
+мерцающему огоньку~
+мерцающий огонек~
+мерцающим огонеком~
+мерцающем огоньке~
+Мерцающий огонек, тихо парит вокруг своего хозяина.
+~
+   Видано ли дело, огонек летает.
+~
+b0d0e0f0g0l0m0n0o0p0q0r0u0x0z0 b0d0f0k0m0n0x0y1 -600 E
+30 5 -10 5d5+666 10d7+23
+0d0+0 200000
+8 8 1
+BareHandAttack: 12
+Str: 25
+Dex: 22
+Int: 36
+Wis: 36
+Con: 22
+Cha: 16
+Size: 60
+LikeWork: 65
+MaxFactor: 5
+Class: 101
+Height: 130
+Weight: 60
+Special_Bitvector: 0 
+Skill: 136 80
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 54
+Spell: 64
+Spell: 75
+E
+#61914
+полусгнивший зомби~
+полусгнивший зомби~
+полусгнившего зомби~
+полусгнившему зомби~
+полусгнившего зомби~
+полусгнившим зомби~
+полусгнившем зомби~
+Куча сгнившео мяса, да костей бредет неведому куда.
+~
+   Давно умерший воин, с ужасной беззубой пастью и пустыми глазницами.
+~
+c0d0f0g0l0m0n0o0A0 d0f0k0m0w1 -600 E
+30 2 -7 3d10+1500 17d9+22
+0d0+0 300000
+8 8 1
+BareHandAttack: 1
+Str: 35
+Dex: 22
+Int: 24
+Wis: 25
+Con: 34
+Cha: 12
+Size: 88
+LikeWork: 55
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 198
+Weight: 125
+Special_Bitvector: b1c1 
+Skill: 4 70
+Skill: 132 70
+Skill: 136 110
+Skill: 137 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 27
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+E
+#61915
+прислужник великого черного змея~
+прислужник великого черного змея~
+прислужника великого черного змея~
+прислужнику великого черного змея~
+прислужника великого черного змея~
+прислужником великого черного змея~
+прислужнике великого черного змея~
+Прислужник великого черного змея, спешит выполнить поручение хозяина.
+~
+   Один из слуг Великого Черного Змея.
+~
+c0d0f0g0l0m0n0o0A0 d0f0k0z0A0o1 -600 E
+30 3 -4 2d10+2000 9d10+18
+0d0+0 280000
+8 8 1
+BareHandAttack: 5
+Str: 27
+Dex: 19
+Int: 31
+Wis: 30
+Con: 22
+Cha: 15
+Size: 100
+LikeWork: 50
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1d1m3C3 
+Skill: 4 100
+Skill: 22 100
+Skill: 132 79
+Skill: 136 90
+Skill: 137 120
+Skill: 141 90
+Skill: 142 90
+Skill: 143 90
+Skill: 144 90
+Skill: 145 90
+Skill: 146 90
+Skill: 147 90
+Skill: 148 90
+Skill: 154 90
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 33
+Spell: 54
+Spell: 54
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 82
+Spell: 88
+Spell: 93
+E
+#61916
+старый бес~
+старый бес~
+старого беса~
+старому бесу~
+старого беса~
+старым бесом~
+старом бесе~
+Лохматый бес, с одним рогом, плетется куда то вдаль.
+~
+   Старый - престарый бес, у него и рог то один вон отвалился.
+ 
+~
+c0d0f0g0l0m0n0o0b2 d0f0k0m0n0x1 -600 E
+38 6 -3 1d10+2000 8d9+20
+0d0+0 300000
+8 8 1
+Str: 27
+Dex: 17
+Int: 30
+Wis: 25
+Con: 26
+Cha: 10
+Size: 100
+LikeWork: 25
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: c1d1 
+Skill: 136 100
+Skill: 137 100
+Skill: 158 150
+Skill: 160 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+E
+#61917
+темный воин~
+темный воин~
+темного воина~
+темному воину~
+темного воина~
+темным воином~
+темном воине~
+Темный рыцарь выискивает кого бы зарезать.
+~
+   Воин зла, воин тьмы...
+~
+c0d0f0g0l0m0n0o0A0 d0f0k0r0z0A0z1 -600 E
+30 0 -10 6d6+2500 19d8+15
+0d0+150 350000
+8 8 1
+BareHandAttack: 3
+Str: 32
+Dex: 22
+Int: 17
+Wis: 16
+Con: 33
+Cha: 14
+Size: 100
+LikeWork: 40
+MaxFactor: 4
+ExtraAttack: 2
+Class: 101
+Height: 200
+Weight: 100
+Special_Bitvector: b1c1d1C3 
+Skill: 12 150
+Skill: 22 120
+Skill: 134 100
+Skill: 136 100
+Skill: 137 150
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 50
+Skill: 154 100
+Skill: 157 100
+Spell: 28
+E
+I кожа,10:5
+#61918
+широкоплечий скелет~
+широкоплечий скелет~
+широкоплечего скелета~
+широкоплечему скелету~
+широкоплечего скелета~
+широкоплечим скелетом~
+широкоплечем скелете~
+Скелет, с широкипи и крепкими костями стучит огромным молотом по наковальне.
+~
+   Видно при жизни кузнецом был, да все ж тоже угодил суда неведомо за что.
+~
+b0d0g0n0o0p0q0r0x0y0B0o1 d0f0j0k0 0 E
+3 2 2 10d10+100 1d1+1
+0d0+0 10000
+8 8 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 5
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 61905
+T 61906
+$

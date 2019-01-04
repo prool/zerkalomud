@@ -1,0 +1,629 @@
+#70700
+метатель змеи тетивы лучник варяг~
+лучник-варяг~
+лучника-варяга~
+лучнику-варягу~
+лучника-варяга~
+лучником-варягом~
+лучнике-варяге~
+Метатель змеи тетивы зорко высматривает цель здесь.
+~
+
+~
+c0d0g0l0m0A0 f0 0 E
+28 6 -5 20d20+1200 7d7+20
+0d0+0 270000
+8 8 1
+BareHandAttack: 9
+Str: 25
+Dex: 20
+Int: 15
+Wis: 10
+Con: 22
+Cha: 13
+Size: 50
+LikeWork: 60
+MaxFactor: 50
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 130
+Special_Bitvector: y0b1c1d3C3 
+Skill: 22 100
+Skill: 137 100
+Skill: 154 100
+Skill: 155 100
+Skill: 157 100
+E
+#70701
+клен льдины руки воин варяг~
+воин-варяг~
+воина-варяга~
+воину-варягу~
+воина-варяга~
+воином-варягом~
+воине-варяге~
+Клен льдины руки проходит тут.
+~
+
+~
+c0d0g0l0m0A0 d0k0 0 E
+27 5 -4 10d10+1600 8d8+30
+0d0+0 240000
+8 8 1
+BareHandAttack: 3
+Str: 26
+Dex: 16
+Int: 10
+Wis: 10
+Con: 23
+Cha: 13
+Size: 50
+LikeWork: 60
+MaxFactor: 50
+ExtraAttack: 1
+Class: 102
+Height: 200
+Weight: 150
+Special_Bitvector: y0b1c1d3B3 
+Skill: 21 90
+Skill: 132 90
+Skill: 134 70
+Skill: 144 80
+Skill: 151 80
+E
+#70702
+предводитель дружины конунг~
+конунг~
+конунга~
+конунгу~
+конунга~
+конунгом~
+конунге~
+Предводитель дружины оглядывает свои владения здесь.
+~
+
+~
+d0g0l0m0A0g2 d0f0h0k0z0A0m1 0 E
+30 1 -10 10d10+2200 7d7+20
+0d0+0 1000000
+8 8 1
+BareHandAttack: 7
+Str: 30
+Dex: 26
+Int: 16
+Wis: 17
+Con: 30
+Cha: 21
+Size: 60
+LikeWork: 99
+ExtraAttack: 1
+Class: 104
+Height: 200
+Weight: 150
+Special_Bitvector: y0b1c1d3 
+Skill: 12 100
+Skill: 20 120
+Skill: 22 100
+Skill: 132 100
+Skill: 134 100
+Skill: 137 100
+Skill: 143 100
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 94
+Spell: 96
+Spell: 112
+Spell: 113
+Helper: 70701
+Helper: 70700
+E
+#70703
+Глум Гейрасон скальд~
+Глум Гейрасон~
+Глума Гейрасона~
+Глуму Гейрасону~
+Глума Гейрасона~
+Глумом Гейрасоном~
+Глуме Гейрасоне~
+Скальд Глум Гейрасон  стоит тут.
+~
+
+~
+d0g0y0B0 n1 0 E
+20 0 0 10d10+2 0d0+0
+0d0+0 10000
+8 5 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 50
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 120
+Special_Bitvector: i3 
+E
+T 70702
+T 70703
+#70704
+дикий скальный великан~
+дикий скальный великан~
+дикого скального великана~
+дикому скальному великану~
+дикого скального великана~
+диким скальным великаном~
+диком скальном великане~
+Дикий житель скал расселся тут.
+~
+
+~
+c0d0f0g0t0A0 d0k0 -600 E
+29 0 -6 10d10+3500 12d9+30
+0d0+0 600000
+8 8 1
+Str: 30
+Dex: 10
+Int: 10
+Wis: 22
+Con: 30
+Cha: 10
+Size: 100
+LikeWork: 55
+ExtraAttack: 1
+Class: 101
+Height: 200
+Weight: 150
+Special_Bitvector: 0 
+Skill: 4 120
+Skill: 136 120
+Spell: 28
+Spell: 28
+Spell: 48
+E
+I зубы,30:30
+I шерсть,30:30
+I кости,30:30
+I кожа,30:30
+L 1478 9 0 0
+#70705
+суттунг~
+великан Суттунг~
+великана Суттунга~
+великану Суттунгу~
+великана Суттунга~
+великаном Суттунгом~
+великане Суттунге~
+Берущий выкупы с карлов стоит тут.
+~
+
+~
+c0d0f0n0o0r0u0 d0k0m1 -600 E
+30 5 -5 10d10+5000 20d14+20
+0d0+0 1000000
+8 8 1
+BareHandAttack: 5
+Str: 30
+Dex: 20
+Int: 16
+Wis: 17
+Con: 29
+Cha: 14
+Size: 100
+LikeWork: 40
+ExtraAttack: 2
+Class: 102
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1d3 
+Skill: 4 120
+Skill: 12 120
+Skill: 132 120
+Skill: 136 120
+Skill: 141 120
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 78
+Spell: 78
+Spell: 78
+Spell: 78
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Helper: 70708
+Helper: 70704
+E
+#70706
+великанша Гуннлед~
+великанша Гуннлед~
+великанши Гуннлед~
+великанше Гуннлед~
+великаншу Гуннлед~
+великаншей Гуннлед~
+великанше Гуннлед~
+Дочь Суттунга стоит тут
+~
+
+~
+b0c0d0g0l0A0g2 d0f0k0 -600 E
+30 10 4 10d10+3800 10d9+30
+0d0+0 1500000
+8 8 2
+Str: 20
+Dex: 15
+Int: 20
+Wis: 20
+Con: 25
+Cha: 18
+Size: 90
+LikeWork: 50
+ExtraAttack: 1
+Class: 102
+Height: 190
+Weight: 150
+Special_Bitvector: b1c1d1d3C3 
+Skill: 22 100
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 56
+Spell: 68
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 94
+Spell: 94
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 132
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+E
+T 70707
+T 70700
+T 70708
+#70707
+разгневанная Гуннлед~
+разгневанная великанша Гуннлед~
+разгневанной великанши Гуннлед~
+разгневанной великанше Гуннлед~
+разгневанную великаншу Гуннлед~
+разгневанной великаншей Гуннлед~
+разгневанной великанше Гуннлед~
+Разгневанная дочь Суттунга стоит тут
+~
+
+~
+b0c0d0g0l0o0p0t0A0g2 d0f0h0k0 -600 E
+40 10 4 10d10+9800 30d9+30
+0d0+0 1500000
+8 8 2
+Str: 20
+Dex: 15
+Int: 20
+Wis: 20
+Con: 25
+Cha: 18
+Size: 90
+LikeWork: 50
+MaxFactor: 10
+ExtraAttack: 1
+Class: 102
+Height: 190
+Weight: 150
+Special_Bitvector: b1c1d1d3C3 
+Skill: 22 100
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 132
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+E
+#70708
+раб Суттунга~
+раб Суттунга~
+раба Суттунга~
+рабу Суттунга~
+раба Суттунга~
+рабом Суттунга~
+рабе Суттунга~
+Унылый раб, работает на  великана Суттунга.
+~
+
+~
+c0d0g0m0A0 d0k0 -600 E
+27 3 -6 10d10+1500 12d9+10
+0d0+0 230000
+8 8 1
+Str: 30
+Dex: 10
+Int: 19
+Wis: 22
+Con: 30
+Cha: 10
+Size: 100
+LikeWork: 55
+MaxFactor: 20
+ExtraAttack: 1
+Class: 101
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 1 90
+Skill: 132 100
+Skill: 136 120
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 150 80
+Spell: 28
+Spell: 48
+E
+#70709
+коренастый карл~
+коренастый карл~
+коренастого карла~
+коренастому карлу~
+коренастого карла~
+коренастым карлом~
+коренастом карле~
+Невысокий коренастый карл,  работает на Суттунга.
+~
+
+~
+c0d0g0m0A0 d0k0 -600 E
+27 3 -6 10d10+2500 12d9+10
+0d0+0 370000
+8 8 1
+Str: 30
+Dex: 10
+Int: 19
+Wis: 22
+Con: 30
+Cha: 10
+Size: 100
+LikeWork: 55
+MaxFactor: 20
+ExtraAttack: 1
+Class: 101
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1C3 
+Skill: 22 100
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 157 100
+Spell: 28
+Spell: 28
+Spell: 48
+E
+#70710
+пещерный дух~
+пещерный дух~
+пещерного духа~
+пещерному духу~
+пещерного духа~
+пещерным духом~
+пещерном духе~
+Облако коричневого тумана парит над землей.
+~
+
+~
+d0f0m0n0o0q0b1b2 d0f0k0s0t0A0 0 E
+30 5 -8 10d10+1800 8d8+10
+0d0+2 300000
+8 8 1
+Str: 16
+Dex: 13
+Int: 19
+Wis: 25
+Con: 20
+Cha: 3
+Size: 100
+LikeWork: 100
+MaxFactor: 10
+ExtraAttack: 2
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 100
+Skill: 157 100
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 124
+Spell: 124
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 144
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 153
+E
+#70711
+каменный змей~
+каменный змей~
+каменного змея~
+каменному змею~
+каменного змея~
+каменным змеем~
+каменном змее~
+Большой каменный змей, ищет  потревожившего его сон.
+~
+
+~
+d0f0n0o0r0t0 0 0 E
+29 0 -4 10d10+5200 20d9+20
+0d0+0 480000
+8 8 1
+BareHandAttack: 4
+Str: 33
+Dex: 25
+Int: 10
+Wis: 30
+Con: 35
+Cha: 3
+Size: 100
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: m0B3 
+Skill: 21 40
+Skill: 167 50
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 93
+E
+I зубы,20:5
+I глаза,30:3
+I чешуя,40:1
+#70712
+каменный змей~
+каменный змей~
+каменного змея~
+каменному змею~
+каменного змея~
+каменным змеем~
+каменном змее~
+Большой каменный змей, ищет  потревожившего его сон.
+~
+
+~
+d0f0n0o0r0t0 0 0 E
+29 0 -4 10d10+5200 20d9+20
+0d0+0 480000
+8 8 1
+BareHandAttack: 4
+Str: 33
+Dex: 25
+Wis: 30
+Con: 35
+Cha: 3
+Size: 100
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 1
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b0d0m0B3 
+Skill: 21 40
+Skill: 167 50
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 93
+E
+$

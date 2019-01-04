@@ -1,0 +1,837 @@
+#22600
+оголодавшая выдра~
+оголодавшая выдра~
+оголодавшей выдры~
+оголодавшей выдре~
+оголодавшую выдру~
+оголодавшей выдрой~
+оголодавшей выдре~
+Оголодавшая выдра испуганно забилась в угол.
+~
+   Бедное животное настолько отощало, что по ней можно изучать особенности
+строения скелета грызунов. Ну подумайте сами - только ты собираешься пола-
+комиться случайно забредшим ньюбисом, как влетает толпа, или просто оперив-
+ший игрок и начинается "сбить; встать; парировать", а некоторые так и норовят
+ухватиться горящими руками или выпустить пару импульсов. И хотя разделение
+игроков несколько снизило охотников за халявной шкуркой, желание побыстрее
+прокачать несколько умений и побыстрее набраться опыту жизни не облегчило.
+Животное стало хиреть и чахнуть просто на глазах.
+~
+b0d0g0n0 d0k0m1 -600 E
+9 12 5 5d20+150 2d5+1
+0d0+0 8000
+5 5 2
+BareHandAttack: 4
+Str: 15
+Dex: 14
+Int: 10
+Wis: 5
+Con: 15
+Cha: 5
+Size: 20
+LikeWork: 100
+MaxFactor: 10
+Class: 101
+Height: 80
+Weight: 100
+Special_Bitvector: 0 
+Skill: 132 25
+E
+T 22604
+T 22606
+#22601
+большая жаба~
+большая жаба~
+большой жабы~
+большой жабе~
+большую жабу~
+большой жабой~
+большой жабе~
+Большая жаба спешит поскорее унести отсюда лапы, заметив Вас.
+~
+   Бедная амфибия. Всякий проходящий норовит, кто пнуть, кто сбить, кто 
+поджарить, а ты даже сдачи дать не можешь, ведь THACO у тебя считай
+никакого. А тут еще напасть - родные комары обернулись в каких-то злобных
+москитов, от которых не столько калорий, сколько желчи и яду. Не, надо
+поскорее возвращаться в родные места, дома и солома едома.
+~
+d0g0n0o0 k0 0 E
+7 13 5 1d10+90 2d4+2
+0d0+0 2250
+8 8 2
+BareHandAttack: 2
+Str: 13
+Dex: 13
+Int: 3
+Wis: 3
+Con: 13
+Cha: 3
+Size: 5
+MaxFactor: 15
+Class: 101
+Height: 20
+Weight: 5
+Special_Bitvector: 0 
+E
+#22602
+лягушка~
+лягушка~
+лягушки~
+лягушке~
+лягушку~
+лягушкой~
+лягушке~
+Лягушка сдула свой пузырь, боясь привлечь к себе Ваше внимание.
+~
+   Карабкаясь на корточках в кромешной тьме при свете маленького шарика или 
+небольшой медной лампы отличить жабу от лягушки в состоянии только натуралист
+возраста Ч. Дарвина, а не бросивший учебу в старших классах / ВУЗу  ради
+погружения в виртуальную реальность отрок. Но, чтобы увеличить количество
+различных мобов в пределах одной зоны, а также с учетом по большому счету
+непринципиальности отличия вышеназванных тварей Божьих, назовем это существо
+лягушкой.
+~
+d0g0o0 k0 0 E
+6 15 6 1d15+75 1d8+1
+0d0+0 1750
+8 8 2
+BareHandAttack: 8
+Str: 12
+Dex: 12
+Int: 3
+Wis: 3
+Con: 12
+Cha: 3
+Size: 6
+MaxFactor: 15
+Class: 101
+Height: 5
+Weight: 3
+Special_Bitvector: 0 
+E
+#22603
+небольшой слизняк~
+небольшой слизняк~
+небольшого слизняка~
+небольшому слизняку~
+небольшого слизняка~
+небольшим слизняком~
+небольшом слизняке~
+Небольшой слизняк пытается скоренько уползти подальше от Вас.
+~
+   Ну, по сравнению с летучими москитами и прыгающими лягушками это студенистое
+головоногое в первую очередь становится жертвой разухарившихся дамагеров-кастеров.
+Проклиная свою судьбу, Линдира, Мандоса, Шандора (далее следуют имена создателей
+кодовой базы и ее модификаций) несчастный моб старается побыстрее убраться с Ваших
+глаз, что ему, похоже, уже не удалось...
+~
+d0g0n0o0q0 k0 0 E
+6 15 6 1d15+70 1d8+2
+0d0+0 1750
+8 8 1
+BareHandAttack: 8
+Str: 13
+Dex: 8
+Int: 3
+Wis: 3
+Con: 13
+Cha: 3
+Size: 5
+MaxFactor: 15
+Class: 102
+Height: 15
+Weight: 5
+Special_Bitvector: m0 
+E
+#22604
+нечто Адамантовское~
+нечто Адамантовское~
+нечто Адамантовского~
+нечто Адамантовскому~
+нечто Адамантовское~
+нечто Адамантовским~
+нечто Адамантовском~
+Нечто Адамантовское покорно ожидает своей смерти.
+~
+   Странно, но Божественный Мандос, невзирая на свой пиетет к Р.Р.Толкиену
+позволил появиться в "Мире Колец" существу неопределенной расы пола профессии
+и возраста. Чем и обрек на мучительное существование - за жалких 200 монет
+существо, которое отличается миролюбивым характером и не в состоянии даже
+убежать, был готов резать всякий, знающий триггер на зачитывание ключа.
+Да и в Ваших глазах покорное нечто прочитало себе смертный приговор.
+~
+b0d0e0g0l0n0o0q0r0v0w0 d0f0k0 0 E
+10 9 1 1d25+150 3d3+1
+0d0+0 8000
+8 8 0
+BareHandAttack: 6
+Str: 14
+Dex: 14
+Int: 17
+Wis: 17
+Con: 12
+Cha: 12
+Size: 50
+LikeWork: 50
+MaxFactor: 10
+ExtraAttack: 1
+Class: 102
+Height: 180
+Weight: 200
+Special_Bitvector: f0 
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 52
+Spell: 52
+Spell: 52
+E
+#22605
+москит большой~
+большой москит~
+большого москита~
+большому москиту~
+большого москита~
+большим москитом~
+большом моските~
+Большой москит летает тут
+~
+   Все таки экологическая ситуация еще во времена гоблинов-тролей-хоббитов-
+орков оставляла желать лучшего - иначе каким бы образом в среднюю полосу 
+(Средиземье) попали обитатели субтропиков, и при этом умудрились достичь
+таких размеров, что их называют большими ? А так - мало того, что попали в 
+колодец, так еще вытеснили родных и привычных комаров, нарушив пищевую цепочку
+лягушек и жаб. В результате - жабы голодные, лягушки тощие, была одна выдра -
+да и ту видели Бог знает когда.
+~
+d0g0o0q0v0w0 k0x0 0 E
+5 16 6 1d15+60 2d2+1
+0d0+0 1500
+8 8 1
+BareHandAttack: 4
+Str: 13
+Dex: 13
+Int: 9
+Wis: 3
+Con: 10
+Cha: 3
+Size: 1
+LikeWork: 5
+MaxFactor: 20
+ExtraAttack: 1
+Class: 102
+Height: 5
+Weight: 2
+Special_Bitvector: g0 
+E
+#22606
+летучая мышь~
+летучая мышь~
+летучей мыши~
+летучей мыши~
+летучую мышь~
+летучей мышью~
+летучей мыши~
+Летучая мышь уснула, отчаявшись выследить своих обидчиков.
+~
+   А что поделаешь ? Ну выследишь (а каково ей в кромешной тьме заниматься
+этим при умении "выследить" 10) ты его - так он, уже отдохнувший, вломит так,
+что только предсмертный крик останется. Поэтому лучше повиснуть вниз головой
+и уснуть, чтобы несостоявшийся кровник не промазал по тебе с первого удара.
+
+~
+d0g0l0o0 k0 0 E
+8 12 6 1d10+150 2d6+1
+0d0+0 3000
+4 4 2
+Str: 14
+Dex: 14
+Int: 3
+Wis: 3
+Con: 14
+Cha: 3
+Size: 3
+LikeWork: 50
+MaxFactor: 10
+Class: 102
+Height: 20
+Weight: 10
+Special_Bitvector: 0 
+E
+#22607
+Божественный~
+Божественный~
+Божественного~
+Божественному~
+Божественного~
+Божественным~
+Божественном~
+Божественный ревностно следит за условиями обитания своих творений.
+~
+   Великий и Могучий Бог Великого и Могучего MUD'а, Творец Средиземья,
+Покровитель Хоббитов, Гномов, Троллей и прочия, прочия, прочия. Любезно
+согласившись поделиться авторскими правами, он поставил одно условие -
+чтобы его творения жили в тепле и неге. Сейчас он ревностно осматривает
+окрестности, стараясь помочь бедным мобам противостоять наплыву подрастающих
+игроков.
+~
+d0e0g0o0p0q0r0t0u0B0o1 d0f0k0n1o1p1q1r1 600 E
+50 0 -10 10d50+30000 25d2+-106
+0d0+0 0
+8 8 1
+BareHandAttack: 6
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 3
+LikeWork: 100
+MaxFactor: 10
+ExtraAttack: 1
+Class: 104
+Height: 20
+Weight: 10
+Special_Bitvector: 0 
+Skill: 1 100
+Skill: 2 100
+Skill: 4 100
+Skill: 5 100
+Skill: 12 100
+Skill: 20 100
+Skill: 21 100
+Skill: 22 100
+Skill: 131 100
+Skill: 132 100
+Skill: 133 100
+Skill: 134 100
+Skill: 135 100
+Skill: 136 100
+Skill: 137 100
+Skill: 138 100
+Skill: 139 100
+Skill: 140 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 100
+Skill: 151 100
+Skill: 154 100
+Skill: 155 100
+Skill: 156 100
+Skill: 157 100
+Skill: 158 100
+Skill: 160 100
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+E
+T 22600
+T 22605
+$

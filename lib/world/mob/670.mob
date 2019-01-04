@@ -1,0 +1,1197 @@
+#67000
+старик~
+старик~
+старика~
+старику~
+старика~
+стариком~
+старике~
+Высокий сутулый старик сидит на топчане, вздыхает.
+~
+   Да, этому деду уже наверно перевалило лет за сто, если и того не больше,
+его длинная борода видно давно не видела гребня, а руки все в морщинах 
+поражают своей худобой, но в глазах можно прочесть недюжий ум, да видно
+это чародей, только что он тут делает в этой убогой хижине, в окружение крыс 
+да пауков.  
+~
+b0d0g0n0o0x0y0o1 d0e0f0k0 600 E
+50 7 10 1d1+100 1d1+10
+0d0+0 0
+6 6 1
+Size: 100
+MaxFactor: 7
+Class: 102
+Height: 150
+Weight: 50
+Special_Bitvector: 0 
+E
+T 67004
+T 67005
+T 67006
+T 67008
+#67001
+старый дракон~
+старый дракон~
+старого дракона~
+старому дракону~
+старого дракона~
+старым драконом~
+старом драконе~
+Ужасная рептилия с огромными крылами парит под сводом зала.
+~
+   Ужасный, старый дракон, да такому нужно съесть много незадачливых 
+искателей приключений, чтобы насытить свою утробу.
+~
+b0c0d0f0g0A0b1a2h2 d0f0h0k0x0C0l1x1y1 -600 E
+30 0 -10 10d7+4000 7d7+10
+1d1+100 500000
+8 8 1
+BareHandAttack: 1
+Str: 35
+Dex: 30
+Int: 30
+Wis: 30
+Con: 35
+Cha: 20
+Size: 100
+LikeWork: 50
+MaxFactor: 3
+ExtraAttack: 1
+Class: 100
+Height: 200
+Weight: 200
+Special_Bitvector: 0 
+Skill: 5 15
+Skill: 136 30
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 88
+Spell: 93
+Spell: 111
+Spell: 124
+E
+T 67007
+I крылья,17:5
+#67002
+темный чародей маг~
+темный чародей~
+темного чародея~
+темному чародею~
+темного чародея~
+темным чародеем~
+темном чародее~
+Темный маг склонился над древней рукописью.
+~
+   В прошлом, ученик одного из сильнейших магов, вступивший на путь зла.
+~
+b0d0f0g0l0n0o0p0x0 c0d0e0f0k0m0C0q1 -600 E
+30 5 0 5d1+2000 4d4+5
+9d9+1000 400000
+8 8 1
+Str: 25
+Dex: 25
+Int: 35
+Wis: 35
+Con: 25
+Cha: 14
+Size: 100
+LikeWork: 60
+MaxFactor: 3
+ExtraAttack: 1
+Class: 105
+Height: 178
+Weight: 150
+Special_Bitvector: b1c1d1 
+Skill: 136 80
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 150 50
+Skill: 154 80
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 56
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 68
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 137
+Helper: 67011
+Helper: 67010
+Helper: 67009
+Helper: 67008
+Helper: 67007
+E
+#67003
+малый красный дракон~
+малый красный дракон~
+малого красного дракона~
+малому красному дракону~
+малого красного дракона~
+малым красным драконом~
+малом красном драконе~
+Дракон, с красной чешуей парит в воздухе. 
+~
+   Страшное, создание с чешуей красного цвета, так и норовит разорвать вас на куски. 
+~
+b0c0d0f0g0l0n0o0x0A0a2 d0f0h0k0r0x0z0m1 -600 E
+30 0 -4 9d5+2000 9d9+9
+5d5+100 300000
+8 8 1
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 35
+Cha: 10
+Size: 100
+LikeWork: 60
+MaxFactor: 5
+ExtraAttack: 4
+Class: 103
+Height: 200
+Weight: 200
+Special_Bitvector: 0 
+Skill: 5 25
+Skill: 136 80
+Skill: 137 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 56
+Helper: 67005
+E
+I чешуя,10:10
+#67004
+малый черный дракон~
+малый черный дракон~
+малого черного дракона~
+малому черному дракону~
+малого черного дракона~
+малым черным драконом~
+малом черном драконе~
+Дракон, с черной чешуей парит в воздухе.
+~
+   Ужасное создание, с темно-черной чешуей, готово разорвать вас на части.
+~
+b0c0d0f0g0l0n0o0x0A0d2 d0f0k0m0x0C0m1 -600 E
+30 0 -3 5d8+2000 3d5+7
+1d1+100 300000
+8 8 1
+Str: 35
+Dex: 25
+Int: 25
+Wis: 25
+Con: 35
+Cha: 20
+Size: 100
+LikeWork: 70
+MaxFactor: 5
+ExtraAttack: 4
+Class: 103
+Height: 180
+Weight: 200
+Special_Bitvector: 0 
+Skill: 5 15
+Skill: 136 70
+Skill: 137 100
+Spell: 15
+Spell: 23
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 93
+Spell: 111
+Helper: 67006
+E
+I когти,10:10
+#67005
+смотритель мужик~
+смотритель за красным драконом~
+смотрителя за красным драконом~
+смотрителю за красным драконом~
+смотрителя за красным драконом~
+смотрителем за красным драконом~
+смотрителе за красным драконом~
+Здоровенный детина в обожженной огнем одежде неприветливо смотрит на вас.
+~
+   Да у этого мужика с силенкой нет проблем, он наверно и камень кулаком расколет 
+как орех, только вот что ж молчит то он.
+~
+b0c0d0g0l0n0o0y0A0 d0f0k0A0t1 -600 E
+30 11 0 4d7+2000 8d8+12
+1d6+200 200000
+8 8 1
+Str: 35
+Dex: 18
+Int: 24
+Wis: 15
+Con: 35
+Cha: 10
+Size: 100
+LikeWork: 90
+MaxFactor: 7
+ExtraAttack: 1
+Class: 102
+Height: 199
+Weight: 200
+Special_Bitvector: b1c1d1 
+Skill: 5 15
+Skill: 132 100
+Skill: 134 100
+Skill: 136 100
+Skill: 137 100
+Skill: 141 70
+Skill: 142 70
+Skill: 143 70
+Skill: 144 70
+Skill: 145 70
+Skill: 146 70
+Skill: 147 70
+Skill: 148 70
+Skill: 154 70
+E
+T 67005
+#67006
+смотритель мужик~
+смотритель за черным драконом ~
+смотрителя за черным драконом ~
+смотрителю за черным драконом ~
+смотрителя за черным драконом ~
+смотрителем за черным драконом ~
+смотрителе за черным драконом ~
+Здоровенный мужик неприветливо пялится на вас.
+~
+   Да много уродов вы видали на своем веку, ну чтобы вот такого, в первый раз...
+~
+d0g0n0o0y0A0 d0f0k0r0C0 -600 E
+30 4 1 3d4+2000 5d5+5
+2d9+200 350000
+8 8 1
+Str: 25
+Dex: 20
+Int: 30
+Wis: 30
+Con: 20
+Cha: 5
+Size: 100
+LikeWork: 50
+MaxFactor: 5
+ExtraAttack: 1
+Class: 102
+Height: 177
+Weight: 200
+Special_Bitvector: b1c1d1 
+Skill: 136 80
+Skill: 137 100
+Skill: 141 50
+Skill: 142 50
+Skill: 143 50
+Skill: 144 50
+Skill: 145 50
+Skill: 146 50
+Skill: 147 50
+Skill: 148 50
+Skill: 154 50
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 54
+Spell: 54
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 93
+E
+T 67006
+#67007
+дух лучник~
+дух лучник~
+духа лучника~
+духу лучнику~
+духа лучника~
+духом лучником~
+духе лучнике~
+Дух с луком и колчаном на перевес парит в воздухе.
+~
+   Некогда бывалый лучник, вызванный страшным заклятием из потустороннего 
+мира стережет спокойный сон своего господина-повелителя.
+~
+b0d0f0g0l0m0n0o0p0r0z0 b0d0e0f0k0m0A0C0m1 -600 E
+25 1 -4 5d5+2000 3d3+12
+0d0+0 250000
+8 8 1
+BareHandAttack: 9
+Str: 25
+Dex: 25
+Int: 20
+Wis: 20
+Con: 20
+Cha: 10
+Size: 100
+LikeWork: 50
+MaxFactor: 5
+ExtraAttack: 2
+Class: 101
+Height: 150
+Weight: 100
+Special_Bitvector: b1c1 
+Skill: 134 100
+Skill: 136 70
+Skill: 141 70
+Skill: 142 70
+Skill: 143 70
+Skill: 144 70
+Skill: 145 70
+Skill: 146 70
+Skill: 147 70
+Skill: 148 70
+Skill: 154 100
+Skill: 155 70
+Skill: 157 100
+Skill: 160 100
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 88
+E
+#67008
+дух мечник~
+дух мечник~
+духа мечника~
+духу мечнику~
+духа мечника~
+духом мечником~
+духе мечнике~
+Дух, с остро заточенным мечем, парит в воздухе.
+~
+   Некогда бывалый воин-мечник, призван магией тьмы, чтобы и после смерти
+умереть в бою. 
+~
+b0d0g0l0m0n0o0p0r0z0 b0d0f0k0m0x0A0C0 -600 E
+25 3 -9 2d2+2500 4d4+12
+0d0+0 250000
+8 8 1
+BareHandAttack: 3
+Str: 26
+Dex: 20
+Int: 20
+Wis: 20
+Con: 26
+Cha: 15
+Size: 100
+LikeWork: 50
+MaxFactor: 7
+ExtraAttack: 1
+Class: 100
+Height: 184
+Weight: 120
+Special_Bitvector: b1c1 
+Skill: 1 80
+Skill: 4 80
+Skill: 132 100
+Skill: 136 80
+Skill: 137 100
+Skill: 141 80
+Skill: 142 80
+Skill: 143 100
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 150 50
+Skill: 154 80
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 82
+E
+#67009
+дух знаменесоц~
+дух знаменосец~
+духа знаменосца~
+духу знаменосцу~
+духа знаменосца~
+духом знаменосцем~
+духе знаменосце~
+Кровожадный предводитель мертвых воинов, парит в воздухе.
+~
+   Некогда бывалый предводитель воинов, вызван темной магией для 
+защиты своего хозяина.
+~
+b0d0f0g0l0m0n0o0p0r0z0 b0d0f0h0k0m0x0z0A0C0m1 -600 E
+25 7 1 3d3+3000 3d3+5
+0d0+0 300000
+8 8 1
+BareHandAttack: 3
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 30
+Cha: 20
+Size: 100
+LikeWork: 90
+MaxFactor: 6
+ExtraAttack: 1
+Class: 100
+Height: 165
+Weight: 150
+Special_Bitvector: C3 
+Skill: 4 15
+Skill: 12 100
+Skill: 22 100
+Skill: 136 90
+Skill: 137 100
+Skill: 141 90
+Skill: 142 90
+Skill: 143 90
+Skill: 144 90
+Skill: 145 90
+Skill: 146 90
+Skill: 147 90
+Skill: 148 90
+Spell: 47
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 93
+Spell: 96
+E
+#67010
+дух лекарь~
+дух лекаря~
+духа лекаря~
+духу лекаря~
+духа лекаря~
+духом лекаря~
+духе лекаря~
+Дух лекарь парит в воздухе.
+~
+   Некогда умелый лекарь, призванный из мира мертвый.
+~
+b0d0g0l0m0n0o0z0 b0d0f0h0k0m0x0A0C0 -600 E
+25 5 -2 5d5+1000 3d3+3
+0d0+0 220000
+8 8 1
+Str: 20
+Dex: 20
+Int: 30
+Wis: 30
+Con: 20
+Cha: 16
+Size: 100
+LikeWork: 50
+MaxFactor: 4
+ExtraAttack: 1
+Class: 101
+Height: 196
+Weight: 120
+Special_Bitvector: b1c1d1C3 
+Skill: 22 30
+Skill: 136 50
+Skill: 137 35
+Skill: 141 50
+Skill: 142 50
+Skill: 143 50
+Skill: 144 50
+Skill: 145 50
+Skill: 146 50
+Skill: 148 50
+Skill: 154 50
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 48
+Spell: 48
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 82
+Spell: 82
+Spell: 93
+Spell: 113
+E
+#67011
+дух заклинателя ~
+дух заклинателя небес~
+духа заклинателя небес~
+духу заклинателя небес~
+духа заклинателя небес~
+духом заклинателя небес~
+Духе заклинателя небес~
+Дух заклинателя небес парит в воздухе.
+~
+   Некогда колдун, занимавшийся магией небес, призван темной магией из мира
+тьмы. 
+~
+b0d0g0l0m0n0o0z0 b0d0f0h0k0m0r0x0A0C0 -600 E
+25 9 5 5d5+2000 3d4+5
+0d0+0 200000
+8 8 1
+Str: 20
+Dex: 20
+Int: 30
+Wis: 30
+Con: 20
+Cha: 16
+Size: 100
+LikeWork: 40
+MaxFactor: 5
+ExtraAttack: 1
+Class: 101
+Height: 176
+Weight: 120
+Special_Bitvector: b1c1d1C3 
+Skill: 4 5
+Skill: 22 30
+Skill: 136 50
+Skill: 137 35
+Skill: 141 50
+Skill: 142 50
+Skill: 143 50
+Skill: 144 50
+Skill: 145 50
+Skill: 146 50
+Skill: 147 50
+Skill: 148 50
+Skill: 154 50
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+E
+#67012
+дух стражника~
+дух стражника~
+духа стражника~
+духу стражника~
+духа стражника~
+духом стражника~
+Духе стражника~
+Дух, призванный охранять вход в замок, парит в воздухе.
+~
+   Дух сильного воина, призван темной магией для охраны подступов к замку.
+~
+b0c0d0f0g0l0m0n0o0p0z0A0 b0d0f0k0m0x0A0 -600 E
+25 17 5 3d3+1000 4d4+7
+0d0+0 200000
+8 8 1
+Str: 25
+Dex: 20
+Int: 20
+Wis: 20
+Con: 20
+Cha: 20
+Size: 100
+LikeWork: 10
+MaxFactor: 5
+ExtraAttack: 1
+Class: 101
+Height: 189
+Weight: 200
+Special_Bitvector: b1c1d1 
+Skill: 1 50
+Skill: 5 100
+Skill: 136 70
+Skill: 137 100
+Skill: 143 70
+Skill: 144 70
+Skill: 145 70
+Skill: 146 70
+Skill: 147 70
+Skill: 148 70
+Skill: 154 70
+E
+#67013
+страшная змея~
+страшная змея~
+страшной змеи~
+страшной змее~
+страшную змею~
+страшной змеей~
+страшной змее~
+Уродливое создание, созданное не понятно зачем, готово растерзать любого на своем пути.
+~
+   Уродливое существо вот-вот перегрызет вам глотку.
+~
+b0c0d0f0g0l0n0o0q0y0A0 d0f0k0r0t0C0j1 -600 E
+30 5 -5 4d4+1500 5d5+6
+0d0+0 250000
+8 8 2
+BareHandAttack: 4
+Str: 28
+Dex: 30
+Int: 20
+Wis: 20
+Con: 26
+Cha: 4
+Size: 100
+LikeWork: 30
+MaxFactor: 5
+ExtraAttack: 5
+Class: 103
+Height: 156
+Weight: 200
+Special_Bitvector: g0j0m3 
+Skill: 136 100
+Skill: 157 100
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+E
+T 67002
+I мелкие_твари,10:15
+#67014
+детеныш паучихи~
+детеныш паучихи~
+детеныша паучихи~
+детенышу паучихи~
+детеныша паучихи~
+детенышем паучихи~
+детеныше паучихи~
+Молодой черный паук плетет свои сети.
+~
+   Небольшой, но уже зубастый паучок.
+~
+b0d0g0l0m0n0o0 d0f0k0m0z0C0 -600 E
+25 3 0 2d6+500 7d4+10
+0d0+0 170000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 20
+Int: 15
+Wis: 15
+Con: 20
+Cha: 15
+Size: 100
+LikeWork: 10
+MaxFactor: 5
+ExtraAttack: 2
+Class: 103
+Height: 100
+Weight: 100
+Special_Bitvector: 0 
+Skill: 4 15
+Skill: 136 100
+Skill: 137 100
+Spell: 77
+Spell: 77
+Spell: 77
+E
+#67015
+взрослый паук~
+взрослый паук~
+взрослого паука~
+взрослому пауку~
+взрослого паука~
+взрослым пауком~
+взрослом пауке~
+Страшный, огромный паук, бдительно охраняет свое потомство.
+~
+   Огромный черный паук, готов разорвать любого попавшего ему на глаза.
+~
+b0d0f0g0l0m0n0o0 d0f0k0m0C0 -600 E
+25 5 -5 3d3+1500 6d6+10
+0d0+0 220000
+8 8 1
+BareHandAttack: 8
+Str: 27
+Dex: 20
+Int: 20
+Wis: 20
+Con: 24
+Cha: 10
+Size: 100
+LikeWork: 15
+MaxFactor: 5
+ExtraAttack: 2
+Class: 103
+Height: 180
+Weight: 200
+Special_Bitvector: C3 
+Skill: 4 29
+Skill: 22 80
+Skill: 136 80
+Skill: 137 80
+E
+T 67001
+I мелкие_твари,3:10
+#67016
+большая паучиха~
+большая паучиха~
+большой паучихи~
+большой паучихе~
+большую паучиху~
+большой паучихой~
+большой паучихе~
+Большая паучиха, высматривает свою жертву.
+~
+   Огромное, многолапое, мерзкое, кровожадное существо.
+~
+b0d0f0g0l0m0n0o0 d0f0k0n0C0 -600 E
+27 4 -2 5d2+1000 7d5+5
+0d0+0 250000
+8 8 2
+BareHandAttack: 2
+Str: 23
+Dex: 16
+Int: 25
+Wis: 25
+Con: 19
+Cha: 10
+Size: 100
+LikeWork: 15
+MaxFactor: 5
+ExtraAttack: 3
+Class: 103
+Height: 153
+Weight: 200
+Special_Bitvector: 0 
+Skill: 5 10
+Skill: 136 50
+Skill: 137 100
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 69
+Spell: 69
+Spell: 69
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 111
+E
+I мелкие_твари,3:15
+#67017
+каменный воин~
+каменный воин~
+каменного воина~
+каменному воину~
+каменного воина~
+каменным воином~
+каменном воине~
+Огромных размеров глыба, внешне напоминающая человека, стоит тут.
+~
+   Да, этот воин, кажется, создан с помощью магии, все его тело - это 
+сплошной камень.
+~
+b0c0d0f0g0l0n0o0p0z0A0g2 d0f0k0m0r0C0l1t1 -600 E
+30 0 -10 2d5+3000 7d9+17
+0d0+0 350000
+8 8 1
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 27
+Cha: 18
+Size: 100
+LikeWork: 40
+MaxFactor: 4
+ExtraAttack: 2
+Class: 104
+Height: 180
+Weight: 170
+Special_Bitvector: b1c1d1 
+Skill: 4 100
+Skill: 132 80
+Skill: 134 100
+Skill: 136 100
+Skill: 137 100
+Skill: 141 70
+Skill: 142 70
+Skill: 143 70
+Skill: 144 70
+Skill: 145 70
+Skill: 146 70
+Skill: 147 70
+Skill: 148 70
+Skill: 154 70
+E
+T 67000
+I кожа,10:10
+#67018
+дух~
+дух дерева~
+духа дерева~
+духу дерева~
+духа дерева~
+духом дерева~
+духе дерева~
+Старый лесной дух смотрит на вас красными глазами.
+~
+   Некогда дух, живший в дереве, разгневанно смотрит на вас.
+~
+b0c0d0f0g0l0n0o0p0y0z0A0b1b2h2 b0c0d0e0f0h0k0r0t0x0A0C0j1 -600 E
+28 3 -5 3d3+2500 5d3+10
+0d0+0 300000
+8 8 1
+BareHandAttack: 1
+Str: 25
+Dex: 18
+Int: 28
+Wis: 28
+Con: 25
+Cha: 10
+Size: 100
+LikeWork: 30
+MaxFactor: 5
+ExtraAttack: 1
+Class: 101
+Height: 200
+Weight: 120
+Special_Bitvector: w0c1d1 
+Skill: 136 70
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 56
+Spell: 66
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 88
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 111
+E
+T 67003
+#67019
+кровосос мышь~
+кровосос~
+кровососа~
+кровососу~
+кровососа~
+кровососом~
+кровососе~
+Невиданного вида летучая мышь парит в воздухе.
+~
+   Страшная летучая мышь так и норовит впиться вам в глотку.
+~
+d0f0g0n0o0b1 f0k0m0s0x0z0b1j1m1 -600 E
+28 6 -2 2d2+999 4d4+3
+0d0+0 150000
+8 8 1
+BareHandAttack: 4
+Destination: 755
+Destination: 761
+Destination: 762
+Destination: 763
+Destination: 764
+Destination: 771
+Destination: 774
+Destination: 775
+Destination: 779
+Destination: 766
+Destination: 767
+Destination: 781
+Destination: 784
+Destination: 785
+Destination: 786
+Destination: 769
+Destination: 768
+Destination: 787
+Destination: 783
+Destination: 782
+Destination: 780
+Destination: 776
+Destination: 773
+Destination: 765
+Destination: 754
+Str: 27
+Dex: 27
+Int: 15
+Wis: 15
+Con: 20
+Cha: 10
+Size: 100
+LikeWork: 15
+MaxFactor: 3
+ExtraAttack: 2
+Class: 103
+Height: 120
+Weight: 120
+Special_Bitvector: l0 
+Skill: 4 25
+Skill: 136 90
+Skill: 137 100
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+E
+#67020
+дух~
+дух замка~
+духа замка~
+духу замка~
+духа замка~
+духом замка~
+духе замка~
+Дух парит в воздухе.
+~
+   Дух со страшными светящимися глазами.
+~
+d0f0g0l0m0n0o0z0 b0c0d0e0k0m0r0x0 -600 E
+28 0 -6 2d2+2000 4d5+7
+0d0+0 200000
+8 8 1
+BareHandAttack: 6
+Str: 20
+Dex: 25
+Int: 25
+Wis: 30
+Con: 20
+Cha: 10
+Size: 100
+LikeWork: 15
+MaxFactor: 5
+ExtraAttack: 1
+Class: 101
+Height: 190
+Weight: 100
+Special_Bitvector: l0 
+Skill: 4 10
+Skill: 136 70
+Skill: 137 100
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 54
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 66
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 75
+Spell: 75
+Spell: 82
+Spell: 111
+E
+#67021
+смотритель верховный~
+верховный смотритель~
+верховного смотрителя~
+верховному смотрителю~
+верховного смотрителя~
+верховным смотрителем~
+верховном смотрителе~
+Здоровенный мужичище отдыхает от трудов праведных.
+~
+   Здоровенный мужичище.
+~
+b0c0d0g0l0n0o0x0A0 c0d0e0f0h0k0m0n0r0A0C0m1r1t1 -600 E
+30 20 0 3d2+2999 7d7+12
+12d2+21500 400000
+8 8 1
+Str: 35
+Dex: 30
+Int: 30
+Wis: 30
+Con: 35
+Cha: 20
+Size: 100
+LikeWork: 15
+MaxFactor: 5
+ExtraAttack: 2
+Class: 104
+Height: 200
+Weight: 200
+Special_Bitvector: b1c1d1 
+Skill: 4 100
+Skill: 132 100
+Skill: 134 100
+Skill: 136 100
+Skill: 137 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 50
+Skill: 154 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 127
+Helper: 67006
+Helper: 67005
+E
+$

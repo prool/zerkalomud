@@ -1,0 +1,1387 @@
+#56800
+магическое дерево~
+магическое дерево~
+магического дерева~
+магическому дереву~
+магическое дерево~
+магическим деревом~
+магическом дереве~
+Что-то странное, напоминающее дерево с огромными ветвями и золотистой листвой стоит здесь посредине поляны.
+~
+Очень красивое дерево, странно светится и шелестит листвой
+~
+b0d0e0f0g0j0l0m0n0o0p0q0r0u0x0y0z0 c0d0e0f0k0m0n0A0C0m1 -600 E
+33 4 -3 10d50+2500 12d12+7
+0d0+0 300000
+8 8 0
+BareHandAttack: 2
+Str: 29
+Dex: 30
+Int: 30
+Wis: 30
+Con: 36
+Cha: 30
+Size: 100
+LikeWork: 90
+ExtraAttack: 5
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: a0b0c0d0e0f0w0 
+Skill: 5 40
+Skill: 22 60
+Skill: 132 100
+Skill: 150 100
+Skill: 151 100
+Skill: 157 100
+Spell: 15
+Spell: 15
+Spell: 23
+Spell: 23
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 56
+Spell: 64
+Spell: 75
+Spell: 75
+Spell: 76
+Spell: 82
+Spell: 82
+Spell: 111
+Spell: 118
+E
+#56801
+старый воин~
+старый воин~
+старого воина~
+старому воину~
+старого воина~
+старым воином~
+старом воине~
+Поседевший от ратных подвигов воин стоит здесь посредине поляны
+~
+Огромного роста человек стоит здесь посреди поляны
+~
+b0d0e0g0l0n0o0p0q0r0t0u0y0o1 c0d0e0f0g0k0m0n0p0z0C0c1k1 600 E
+35 4 4 10d10+20010 19d9+20
+1d1+501 500000
+8 8 1
+Str: 33
+Dex: 30
+Int: 30
+Wis: 29
+Con: 36
+Cha: 16
+Size: 70
+LikeWork: 95
+ExtraAttack: 3
+Class: 100
+Height: 30
+Weight: 120
+Special_Bitvector: w0b1c1d1 
+Skill: 5 100
+Skill: 12 50
+Skill: 21 1
+Skill: 22 80
+Skill: 132 80
+Skill: 134 80
+Skill: 141 50
+Skill: 142 50
+Skill: 143 50
+Skill: 144 50
+Skill: 145 50
+Skill: 146 50
+Skill: 147 50
+Skill: 148 50
+Skill: 150 90
+Skill: 151 50
+Skill: 154 50
+Skill: 155 50
+Skill: 157 90
+Skill: 158 50
+Skill: 160 30
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 38
+Spell: 38
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 128
+Spell: 128
+Spell: 128
+E
+T 56801
+T 56802
+T 56810
+#56802
+змей каменный~
+каменный змей~
+каменного змея~
+каменному змею~
+каменного змея~
+каменным змеем~
+каменном змее~
+Огромного размера змей ползает между камнями.
+~
+Больших размеров змея, напоминающая степную, но размерями во много раз
+превосходящая ее.
+~
+c0d0f0g0l0m0n0o0p0u0x0y0e2 c0d0e0k0m0n0r0s0t0C0r1 -600 E
+28 20 -3 30d30+2000 15d19+9
+0d0+0 200000
+8 8 1
+BareHandAttack: 4
+Str: 28
+Dex: 30
+Int: 28
+Wis: 25
+Con: 28
+Cha: 20
+Size: 40
+LikeWork: 40
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: m0 
+Skill: 21 40
+Skill: 137 10
+Spell: 4
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 48
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 67
+Spell: 76
+Spell: 76
+Spell: 82
+Spell: 88
+Spell: 132
+E
+#56803
+белая птица~
+белая птица~
+белой птицы~
+белой птице~
+белую птицу~
+белой птицей~
+белой птице~
+Больших размеров птица летает над вами ища добычу.
+~
+Огромная птица, с большими когтями и клювом.
+~
+b0c0d0f0g0l0m0n0o0p0u0x0y0A0b1l1 c0d0e0f0k0m0p0r0x0z0A0C0x1 -600 E
+30 0 -4 210d100+1500 10d18+8
+0d0+0 160000
+8 8 2
+BareHandAttack: 8
+Str: 30
+Dex: 30
+Int: 25
+Wis: 25
+Con: 30
+Cha: 30
+Size: 20
+LikeWork: 75
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: a0b0c0d0e0f0l0u0 
+Spell: 8
+Spell: 16
+Spell: 16
+Spell: 25
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 56
+Spell: 88
+Spell: 88
+E
+#56804
+прозрачный хранитель~
+прозрачный хранитель~
+прозрачного хранителя~
+прозрачному хранителю~
+прозрачного хранителя~
+прозрачным хранителем~
+прозрачном хранителе~
+Весь светится, едва заметный, переодически скрываясь из вида, Хранитель летает  вокруг вас.
+~
+Весь светится, едва заметный, переодически скрываясь с вида
+Похож на что-то странное и необьяснимое
+~
+b0c0d0e0f0g0l0m0n0o0p0r0u0x0z0A0b1a2 b0c0d0e0f0k0m0p0t0x0z0A0C0c1m1r1 -600 E
+30 20 -5 10d100+3000 7d15+9
+0d0+100 220000
+8 8 1
+BareHandAttack: 8
+Str: 35
+Dex: 25
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: a0b0c0d0e0f0l0u0a1b1c1d1 
+Skill: 137 100
+Skill: 139 100
+Skill: 150 70
+Skill: 151 70
+Skill: 157 90
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 88
+Spell: 93
+Spell: 111
+E
+#56805
+горящая тень~
+горящая тень~
+горящей тень~
+горящей тени~
+горящую тень~
+горящей тенью~
+горящей тени~
+Горящая ярким огнем тень летает взад и вперед, суетно двигая чем-то, напоминающим руки.
+~
+Горящая ярким теплым как огонь светом тень летает взад и вперед, суетно
+двигая чем-то, напоминающим руки. Странный пучек света или непонятно чего.
+~
+c0d0f0g0l0m0n0o0p0q0a2h2 c0d0e0r0s0z0C0m1 -600 E
+25 20 -6 15d15+1350 10d10+9
+0d0+50 160000
+8 8 2
+Str: 35
+Dex: 25
+Int: 30
+Wis: 30
+Con: 30
+Cha: 27
+Size: 40
+LikeWork: 90
+ExtraAttack: 2
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: a0b0c0d0e0f0l0u0b1c1d1 
+Skill: 150 100
+Skill: 151 60
+Spell: 114
+Spell: 114
+E
+#56806
+темное чудище~
+темное чудище~
+темного чудища~
+темному чудищу~
+темное чудище~
+темным чудищем~
+темном чудище~
+Огромных размеров чудище плавает по озеру.
+~
+Огромных размеров чудище плавает по воде недалеко от Вас.
+~
+b0d0f0g0l0m0n0o0p0q0y0A0a1c1 c0d0e0k0m0n0r0t0z0C0c1 -600 E
+35 0 -2 40d50+5000 9d15+10
+0d0+0 800000
+8 8 1
+BareHandAttack: 2
+Str: 35
+Dex: 10
+Int: 14
+Wis: 15
+Con: 35
+Cha: 10
+Size: 100
+LikeWork: 50
+ExtraAttack: 2
+Class: 101
+Height: 30
+Weight: 150
+Special_Bitvector: a0b0c0d0e0f0o0v0 
+Skill: 132 80
+Spell: 28
+Spell: 38
+Spell: 56
+E
+T 56812
+#56807
+дух небытия~
+дух небытия~
+духа небытия~
+духу небытия~
+дух небытия~
+духом небытия~
+духе небытия~
+Дух какого-то воина злобно летает взад и вперед по комнате.
+~
+Прозрачная масса, летающая взад и вперед
+~
+b0c0d0f0g0l0m0n0o0p0y0z0A0b1 c0d0e0k0m0n0p0x0z0A0C0m1r1 -600 E
+25 2 -4 10d50+2500 9d9+9
+0d0+50 190000
+8 8 1
+Str: 30
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 16
+Size: 45
+LikeWork: 50
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: a0b0c0d0e0f0l0u0b1c1d1 
+Skill: 150 60
+Spell: 56
+Spell: 82
+Spell: 88
+E
+#56808
+темный змей~
+темный змей~
+темного змея~
+темному змею~
+темный змей~
+темным змеем~
+темном змее~
+Огромного размера змей парит над Вами, помахивая своими черными крыльями.
+~
+Черного цвета змей летает над пропастью взад и вперед выискивая добычу
+~
+b0c0d0g0l0m0n0o0p0q0y0A0a1b1d2 c0d0e0k0m0n0x0C0 -600 E
+30 20 -5 20d50+1500 6d18+10
+0d0+50 190000
+8 8 1
+BareHandAttack: 2
+Str: 35
+Dex: 30
+Int: 30
+Wis: 25
+Con: 30
+Cha: 20
+Size: 60
+LikeWork: 50
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 90
+Special_Bitvector: l0b1c1d1 
+Skill: 132 70
+Spell: 67
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 77
+Spell: 82
+Spell: 93
+Spell: 111
+E
+#56809
+дух библиотекаря~
+дух библиотекаря~
+духа библиотекаря~
+духу библиотекаря~
+духа библиотекаря~
+духом библиотекаря~
+духе библиотекаря~
+Прозрачный дух библиотекаря парит над полками книг.
+~
+Прозрачная масса чего-то странного, летает взад и вперед.
+~
+b0c0d0g0k0l0n0o0p0r0y0z0A0b1c2 c0d0e0h0k0n0p0r0x0z0A0C0r1 -600 E
+27 20 -7 10d10+2000 9d19+9
+0d0+100 200000
+8 8 1
+Str: 20
+Dex: 20
+Int: 35
+Wis: 35
+Con: 25
+Cha: 23
+Size: 100
+LikeWork: 80
+ExtraAttack: 4
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: l0u0b1c1d1 
+Skill: 132 90
+Skill: 151 90
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 25
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 82
+E
+#56810
+дух света~
+дух света~
+духа света~
+духу света~
+духа света~
+духом света~
+духе света~
+Светлый дух летает взад и вперед по комнате.
+~
+Небольшого размера, прозрачная масса, напоминающая облако
+~
+b0c0d0f0g0l0m0n0o0p0r0y0z0A0b1a2h2 b0c0d0e0h0k0m0n0p0r0x0z0A0C0m1y1 -600 E
+35 2 -5 10d90+1500 5d20+10
+10d10+10 200000
+8 8 1
+BareHandAttack: 2
+Str: 32
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 25
+Size: 50
+LikeWork: 85
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: c0x0a1b1c1d1 
+Skill: 1 50
+Skill: 2 50
+Skill: 5 80
+Skill: 132 80
+Skill: 137 70
+Skill: 150 100
+Skill: 157 80
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 82
+Spell: 88
+E
+#56811
+дух башни~
+дух башни~
+духа башни~
+духу башни~
+духа башни~
+духом башни~
+духе башни~
+Огромный дух башни летает, судорожно глядя по сторонам.
+~
+Странно выглядящая масс тумана, злробно рычащаяся, парящая в воздухе.
+~
+b0c0d0f0g0l0m0n0o0p0y0z0A0a2 b0c0d0e0k0m0n0p0s0x0z0A0C0c1m1 -600 E
+35 20 -7 50d50+1500 10d18+10
+5d5+10 190000
+8 8 1
+BareHandAttack: 1
+Str: 30
+Dex: 25
+Int: 30
+Wis: 35
+Con: 30
+Cha: 25
+Size: 70
+LikeWork: 75
+ExtraAttack: 1
+Class: 101
+Height: 30
+Weight: 50
+Special_Bitvector: a0b0c0d0e0f0u0 
+Skill: 22 80
+Skill: 132 80
+Skill: 134 50
+Skill: 137 90
+Skill: 150 90
+Skill: 151 80
+Skill: 157 90
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 124
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+E
+#56812
+дух зеленый~
+зеленый дух~
+зеленого духа~
+зеленому духу~
+зеленого духа~
+зеленым духом~
+зеленом духе~
+Огромный дух летает, судорожно глядя по сторонам.
+~
+Странно выглядящая масс тумана, злробно рычащаяся, парящая в воздухе.
+~
+b0c0d0f0g0l0m0n0o0p0y0z0A0a2 b0c0d0e0k0m0n0p0s0x0z0A0C0c1m1 -600 E
+36 20 0 50d50+1000 8d6+8
+6d5+2 170000
+8 8 1
+BareHandAttack: 1
+Str: 32
+Dex: 25
+Int: 30
+Wis: 35
+Con: 30
+Cha: 25
+Size: 70
+LikeWork: 75
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: a0b0c0d0e0f0u0 
+Skill: 132 80
+Skill: 134 50
+Skill: 137 90
+Skill: 150 90
+Skill: 151 80
+Skill: 157 90
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 124
+E
+#56813
+дух пламенный~
+пламенный дух~
+пламенного духа~
+пламенному духу~
+пламенного духа~
+пламенным духом~
+пламенном духе~
+Огромный дух летает, судорожно глядя по сторонам.
+~
+Странно выглядящая масс тумана, злробно рычащаяся, парящая в воздухе.
+~
+b0c0d0f0g0l0m0n0o0p0y0z0A0a2 b0c0d0e0k0m0n0p0r0s0x0z0A0C0c1m1 -600 E
+36 20 0 50d50+1200 8d15+7
+5d5+10 190000
+8 8 1
+BareHandAttack: 1
+Str: 35
+Dex: 25
+Int: 30
+Wis: 35
+Con: 30
+Cha: 25
+Size: 70
+LikeWork: 75
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: a0b0c0d0e0f0u0 
+Skill: 132 80
+Skill: 134 50
+Skill: 137 90
+Skill: 150 90
+Skill: 151 80
+Skill: 157 90
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 124
+E
+#56814
+дух комар~
+дух комара~
+духа комара~
+духу комара~
+духа комара~
+духом комара~
+духе комара~
+Небольшой дух комара парит в воздухе, злобно жужжа и смотрит по сторонам в поисках добычи.
+~
+Прозрачное, маленькое существо, напоминающее комара.
+~
+d0e0f0g0i0l0m0n0o0q0y0z0b1i1 b0f0p0A0C0 -600 E
+17 0 9 11d11+100 10d2+10
+3d0+0 5000
+8 8 1
+BareHandAttack: 4
+Destination: 56809
+Destination: 56810
+Destination: 56811
+Destination: 56812
+Destination: 56813
+Destination: 56815
+Destination: 56816
+Destination: 56817
+Destination: 56818
+Destination: 56819
+Destination: 56820
+Destination: 56821
+Destination: 56822
+Destination: 56823
+Destination: 56824
+Destination: 56825
+Destination: 56826
+Destination: 56827
+Destination: 56828
+Destination: 56829
+Destination: 56830
+Destination: 56831
+Destination: 56832
+Destination: 56833
+Destination: 56834
+Destination: 56835
+Destination: 56836
+Destination: 56837
+Destination: 56838
+Destination: 56839
+Destination: 56840
+Destination: 56841
+Destination: 56842
+Destination: 56843
+Destination: 56844
+Destination: 56845
+Destination: 56846
+Destination: 56847
+Destination: 56848
+Destination: 56849
+Destination: 56850
+Destination: 56851
+Destination: 56852
+Destination: 56853
+Destination: 56854
+Destination: 56855
+Destination: 56856
+Destination: 56857
+Destination: 56858
+Destination: 56864
+Str: 30
+Dex: 25
+Int: 7
+Wis: 5
+Con: 5
+Size: 10
+LikeWork: 75
+ExtraAttack: 2
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: l0y0 
+E
+#56815
+магический двойник~
+магический двойник~
+магического двойника~
+магическому двойнику~
+магического двойника~
+магическим двойником~
+магическом двойнике~
+Весь светится, переодически скрываясь с вида, двойник летает  вокруг вас
+~
+Прозрачное облако паращее над Вами.
+~
+b0c0d0e0f0g0l0m0n0o0p0q0r0u0x0z0A0b1c2 b0c0d0e0f0k0m0p0t0x0z0A0C0c1m1p1q1r1 -600 E
+30 3 -5 10d100+3000 11d11+9
+5d5+100 250000
+8 8 1
+BareHandAttack: 2
+Str: 35
+Dex: 25
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 60
+LikeWork: 85
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: a0b0c0d0e0f0l0u0a1b1c1d1 
+Skill: 137 100
+Skill: 139 100
+Skill: 150 70
+Skill: 151 70
+Skill: 157 90
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 75
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 77
+Spell: 78
+Spell: 88
+Spell: 93
+Spell: 111
+Spell: 132
+E
+#56816
+змей большой светящийся~
+большой светящийся змей~
+большого светящегося змея~
+большому светящемуся змею~
+большого светящегося змея~
+большим светящимся змеем~
+большом светящемся змее~
+Огромный светящийся змей летает в темной мне пере Вами.
+~
+Огромного размера змей парит в воздухе над Вами, навевая стах на всех присутствующих.
+~
+b0c0d0f0g0l0m0n0o0p0y0z0A0 b0c0d0e0k0m0n0p0s0x0z0A0C0c1m1 -600 E
+30 3 0 50d50+3000 6d16+12
+5d3+100 270000
+8 8 1
+BareHandAttack: 1
+Str: 25
+Dex: 24
+Int: 25
+Wis: 26
+Con: 30
+Cha: 15
+Size: 70
+LikeWork: 75
+ExtraAttack: 2
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: a0b0c0d0e0f0u0 
+Skill: 22 50
+Skill: 132 80
+Skill: 134 50
+Skill: 137 90
+Skill: 150 90
+Skill: 151 80
+Skill: 157 90
+E
+#56817
+белый змей~
+белый змей~
+белого змея~
+белому змею~
+белого змея~
+белым змеем~
+белом змее~
+Огромного размера змей замер в воздухе  будто огромная черная туча.
+~
+Больших размеров змей, напоминающий черное облако.
+~
+b0c0d0e0f0g0l0m0n0o0p0u0x0e2 c0d0e0f0k0m0n0s0t0C0 -600 E
+28 20 -4 30d30+1900 6d13+5
+5d9+80 290000
+8 8 1
+BareHandAttack: 4
+Str: 28
+Dex: 30
+Int: 28
+Wis: 25
+Con: 28
+Cha: 20
+Size: 40
+LikeWork: 40
+ExtraAttack: 2
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: m0B3 
+Skill: 21 10
+Skill: 22 80
+Skill: 137 10
+Spell: 4
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 39
+Spell: 48
+Spell: 54
+Spell: 55
+Spell: 56
+Spell: 59
+Spell: 76
+Spell: 76
+Spell: 82
+Spell: 88
+Spell: 111
+Spell: 132
+E
+#56818
+дух маленький полупрозрачный~
+маленький прозрачний дух~
+маленького прозрачного духа~
+маленькому прозрачному духу~
+маленького прозрачного духа~
+маленьком прозрачном духе~
+маленьком прозрачном духе~
+Маленький прозрачный дух судоржно летает над Вами...
+~
+Небольшого размера, странное похожее на облако скопление, напоминающее 
+по облику человека, но почти прозрачное, белого цвета.
+~
+c0d0e0f0g0h0m0n0o0p0q0u0y0z0A0b1i1e2 c0d0e0h0k0m0n0p0s0t0x0z0A0c1j1k1m1 -600 E
+27 20 -7 5d5+150 9d9+5
+10d10+10 5000
+8 8 1
+BareHandAttack: 7
+Destination: 56864
+Destination: 56865
+Destination: 56866
+Destination: 56867
+Destination: 56868
+Destination: 56869
+Destination: 56870
+Destination: 56871
+Destination: 56872
+Destination: 56873
+Destination: 56874
+Destination: 56875
+Destination: 56876
+Destination: 56877
+Destination: 56878
+Destination: 56880
+Str: 26
+Dex: 18
+Int: 18
+Wis: 17
+Con: 7
+Cha: 25
+Size: 15
+LikeWork: 80
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: i0j0l0u0b1c1d1 
+Skill: 1 80
+Skill: 22 40
+Skill: 133 90
+Skill: 137 100
+Skill: 138 90
+Skill: 139 100
+Skill: 156 100
+Skill: 157 100
+Spell: 26
+Spell: 33
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 59
+Spell: 75
+Spell: 75
+Spell: 82
+Spell: 88
+E
+#56819
+старый дух библиотекаря~
+старый дух библиотекаря~
+старого духа библиотекаря~
+старому духу библиотекаря~
+старого духа библиотекаря~
+старым духом библиотекаря~
+старом духе библиотекаря~
+Старый дух библиотекаря парит над полками книг.
+~
+Прозрачная масса чего-то странного, летает в зад и вперед.
+~
+b0c0d0g0k0l0n0o0p0q0r0t0y0z0A0b1 c0d0e0f0h0k0m0n0p0x0A0C0t1 -600 E
+30 0 -7 10d10+3000 9d14+4
+6d10+100 400000
+8 8 1
+Str: 27
+Dex: 25
+Int: 35
+Wis: 35
+Con: 30
+Cha: 23
+Size: 40
+LikeWork: 80
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: a0b0c0d0e0f0l0u0b1c1d1 
+Skill: 22 140
+Skill: 132 90
+Skill: 151 90
+Spell: 4
+Spell: 5
+Spell: 6
+Spell: 6
+Spell: 8
+Spell: 14
+Spell: 15
+Spell: 16
+Spell: 17
+Spell: 17
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 25
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 30
+Spell: 30
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 36
+Spell: 37
+Spell: 37
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 43
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 66
+Spell: 66
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 74
+Spell: 75
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 77
+Spell: 77
+Spell: 78
+Spell: 82
+Spell: 83
+Spell: 88
+Spell: 93
+Spell: 94
+Spell: 110
+Spell: 114
+Spell: 127
+Spell: 132
+E
+#56820
+тень темная~
+темная тень~
+темную тень~
+темной тени~
+темную тень~
+темной тенью~
+темной тени~
+Хмурого цвета , темная, полупрозрачаная тень парит в воздухе..
+~
+Небольших размеров полупрозрачная, темного цвета, не черная, но и не белая..
+~
+c0d0f0g0h0l0m0n0o0q0y0z0A0b1i1 c0d0e0f0h0k0m0n0p0s0x0A0m1 0 E
+15 16 9 10d10+250 3d3+2
+10d10+100 5000
+8 8 1
+BareHandAttack: 1
+Destination: 56859
+Destination: 56860
+Destination: 56861
+Destination: 56862
+Destination: 56863
+Str: 20
+Dex: 30
+Int: 15
+Wis: 15
+Cha: 8
+Size: 15
+LikeWork: 85
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 50
+Special_Bitvector: l0b1c1d1 
+Skill: 150 80
+Spell: 26
+E
+#56821
+змей полупрозрачный подводный~
+полупрозрачный подводный змей~
+полупрозрачного подводного змея~
+полупрозрачному подводному змею~
+полупрозрачного подводного змея~
+полупрозрачным подводным змем~
+полупрозрачном подводном змее~
+Огромного размеря подводная змея свилась в стороне обвив темный рыф озера.
+~
+Большого размера подводная змея, черного цвета с плотной белой кожей,
+кожа блестит и змей как будто кажется прозрачным.
+~
+b0c0d0f0g0l0m0n0o0p0q0r0x0y0A0 c0d0e0k0m0y0C0c1k1l1 -600 E
+35 3 -7 50d50+3100 15d10+10
+90d5+10 360000
+8 8 1
+BareHandAttack: 1
+Str: 30
+Dex: 21
+Int: 23
+Wis: 26
+Con: 35
+Cha: 20
+Size: 70
+LikeWork: 75
+ExtraAttack: 2
+Class: 100
+Height: 30
+Weight: 120
+Special_Bitvector: g0o0v0 
+Skill: 132 80
+Skill: 134 50
+Skill: 137 90
+Skill: 150 90
+Skill: 151 80
+Skill: 157 90
+Spell: 56
+Spell: 124
+E
+#56822
+дракон красный~
+красный дракон~
+красного дракона~
+красному дракону~
+красного дракона~
+красным драконом~
+красном драконе~
+Красного цвета, покрыты плотной чешуей дракон  завис над Вами уцепивщись за выступ на скале.
+~
+Огромного размера дракон, красного цвета с плотной кожей, покрытой красной
+чешуей
+~
+b0c0d0g0l0m0n0o0p0q0t0y0A0a1b1a2 c0d0e0k0m0n0x0C0 -600 E
+30 0 -5 20d50+5200 12d8+16
+6d10+60 2000000
+8 8 1
+BareHandAttack: 1
+Str: 35
+Dex: 30
+Int: 30
+Wis: 30
+Con: 35
+Cha: 30
+Size: 100
+LikeWork: 50
+ExtraAttack: 2
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: l0b1c1d1C3 
+Skill: 4 90
+Skill: 5 70
+Skill: 12 90
+Skill: 22 200
+Skill: 132 120
+Skill: 136 90
+Skill: 151 90
+Skill: 157 90
+Skill: 160 80
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 6
+Spell: 8
+Spell: 14
+Spell: 14
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 25
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 32
+Spell: 32
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 56
+Spell: 64
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 68
+Spell: 68
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 82
+Spell: 83
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 92
+Spell: 93
+Spell: 111
+Spell: 113
+Spell: 127
+Spell: 128
+Spell: 128
+Spell: 132
+Spell: 135
+E
+#56823
+дракон черный~
+черный дракон~
+черного дракона~
+черному дракону~
+черного дракона~
+черным драконом~
+черном драконе~
+Огромный черный дракон сидит по середине пещеры, злобно смотря на Вас.
+~
+Огромного размера дракон, черного цвета с плотной кожей, покрытой черной
+чешуей..
+~
+b0c0d0g0l0m0n0o0t0y0A0a1b1a2 c0d0e0k0m0n0x0C0 -600 E
+35 2 0 20d50+6200 12d18+10
+0d0+0 3000000
+8 8 1
+BareHandAttack: 1
+Str: 36
+Dex: 30
+Int: 30
+Wis: 30
+Con: 35
+Cha: 30
+Size: 100
+LikeWork: 50
+ExtraAttack: 2
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: l0b1c1d1C3 
+Skill: 4 90
+Skill: 5 70
+Skill: 12 90
+Skill: 22 200
+Skill: 132 120
+Skill: 136 90
+Skill: 151 90
+Skill: 157 90
+Skill: 160 80
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 6
+Spell: 8
+Spell: 14
+Spell: 14
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 25
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 42
+Spell: 56
+Spell: 56
+Spell: 64
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 82
+Spell: 83
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 90
+Spell: 90
+Spell: 90
+Spell: 93
+Spell: 94
+Spell: 111
+Spell: 124
+Spell: 128
+Spell: 128
+Spell: 132
+Spell: 135
+Spell: 156
+Spell: 156
+E
+T 56804
+$

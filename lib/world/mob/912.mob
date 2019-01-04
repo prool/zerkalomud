@@ -1,0 +1,867 @@
+#91200
+сладкоголосая птица Сирин~
+птица Сирин~
+птицы Сирин~
+птице Сирин~
+птицу Сирин~
+птицей Сирин~
+птице Сирин~
+Сладкоголосая птица Сирин охраняет вершину мира от простых смертных.
+~
+Прекрасная разноцветная птица.
+~
+b0d0e0f0g0m0n0o0p0q0r0t0u0x0b1s1i2 d0f0h0k0A0m1 -600 E
+30 -30 -9 50d10+2500 10d4+20
+0d0+0 800000
+8 8 2
+BareHandAttack: 2
+Str: 25
+Dex: 30
+Int: 50
+Wis: 30
+Con: 25
+Size: 50
+LikeWork: 100
+MaxFactor: 15
+ExtraAttack: 3
+Class: 105
+Height: 198
+Weight: 200
+Special_Bitvector: l0 
+Skill: 5 100
+Skill: 136 100
+Skill: 149 100
+Skill: 151 80
+Skill: 157 100
+Skill: 167 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 124
+Spell: 124
+Spell: 127
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 156
+Helper: 91209
+E
+T 91208
+L 1450 50 0 0
+#91201
+великан Горыня сын Виевич~
+великан Горыня~
+великана Горыни~
+великану Горыне~
+великана Горыню~
+великаном Горыней~
+великане Горыне~
+Великан Горыня, сын Виевич, охраняет покой вершины мира от простых смертных.
+~
+   Один из младших сыновей владыки подземного Царства Вия, поставлен на
+охрану одной из трех Вершин Мира своим отцом.
+~
+b0c0d0e0f0g0n0o0p0q0r0t0u0x0A0g2 d0f0k0r0t1 -600 E
+32 -30 -10 60d10+4500 5d4+25
+40d40+20000 1500000
+8 8 1
+BareHandAttack: 6
+Str: 30
+Dex: 25
+Int: 50
+Wis: 25
+Con: 30
+Size: 100
+LikeWork: 100
+MaxFactor: 15
+ExtraAttack: 1
+Class: 104
+Height: 198
+Weight: 90
+Special_Bitvector: b1c1 
+Skill: 3 110
+Skill: 4 100
+Skill: 31 100
+Skill: 131 110
+Skill: 134 100
+Skill: 136 110
+Skill: 137 150
+Skill: 141 110
+Skill: 142 110
+Skill: 143 110
+Skill: 144 110
+Skill: 145 110
+Skill: 146 110
+Skill: 147 110
+Skill: 148 110
+Skill: 149 100
+Skill: 150 110
+Skill: 151 100
+Skill: 154 110
+Skill: 155 110
+Skill: 158 110
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 78
+Spell: 78
+Spell: 78
+Spell: 113
+Spell: 113
+Spell: 124
+Spell: 124
+Spell: 127
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Helper: 91203
+E
+T 91204
+T 91205
+#91202
+трехголовый Змей Виевого племени~
+трехголовый Змей~
+трехголового Змея~
+трехголовому Змею~
+трехголового Змея~
+трехголовым Змеем~
+трехголовом Змее~
+Трехголовый Змей Виевого племени охраняет проход на вершину.
+~
+ Величественный черный змей, высоко поднял свои головы,
+осматривает всю округу сразу. Из его пастей видны клыки,
+аки кинжалы.
+~
+c0d0f0g0m0n0o0p0x0A0b1 d0f0k0x0m1 -600 E
+32 0 -10 50d10+2050 5d3+20
+0d0+0 750000
+8 8 1
+BareHandAttack: 14
+Destination: 91220
+Destination: 91226
+Destination: 91230
+Str: 27
+Dex: 18
+Int: 25
+Wis: 25
+Con: 30
+Size: 55
+LikeWork: 100
+MaxFactor: 15
+ExtraAttack: 2
+Class: 104
+Height: 198
+Weight: 90
+Special_Bitvector: l0 
+Skill: 5 80
+Skill: 132 80
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 100
+Skill: 154 100
+Skill: 155 60
+Skill: 157 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 94
+Spell: 110
+Spell: 110
+Spell: 110
+Spell: 110
+Spell: 110
+Spell: 118
+Spell: 118
+Helper: 91210
+E
+T 91207
+#91203
+хранитель Горыни созданный~
+хранитель Горыни~
+хранителя Горыни~
+хранителю Горыни~
+хранителя Горыни~
+хранителем Горыни~
+хранителе Горыни~
+Хранитель Горыни, созданный Вием, готов прийти на помощь господину.
+~
+   Создание Вия, правителя подземного царства, посланный на помощь своему
+сыну Горыне.
+~
+b0c0d0f0g0m0n0o0p0x0A0 d0f0k0m0A0 -600 E
+30 -30 -8 30d10+2000 10d2+20
+0d0+0 750000
+8 8 1
+BareHandAttack: 5
+Str: 24
+Dex: 25
+Int: 50
+Wis: 30
+Con: 35
+Size: 45
+LikeWork: 95
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 1 100
+Skill: 5 80
+Skill: 31 100
+Skill: 132 80
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 149 100
+Skill: 150 100
+Skill: 151 100
+Skill: 154 100
+Skill: 155 100
+Skill: 158 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 68
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 94
+Spell: 94
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+E
+T 91206
+#91204
+черный грифон~
+черный грифон~
+черного грифона~
+черному грифону~
+черного грифона~
+черным грифоном~
+черном грифоне~
+Черный грифон, полуптица-полузверь, охраняет проход на вершину.
+~
+ Огромный орел, со странным оперением и большим,
+загнутым клювом.
+~
+d0f0g0m0n0o0x0b1 d0f0k0r0 -600 E
+26 1 -9 25d10+1000 5d3+15
+0d0+0 300000
+8 8 1
+BareHandAttack: 12
+Destination: 91237
+Destination: 91238
+Str: 24
+Dex: 20
+Int: 18
+Wis: 18
+Con: 28
+Size: 40
+LikeWork: 90
+MaxFactor: 20
+ExtraAttack: 1
+Class: 103
+Height: 198
+Weight: 50
+Special_Bitvector: g0l0 
+Skill: 1 80
+Skill: 132 60
+Skill: 136 100
+Skill: 157 85
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 83
+Spell: 83
+Spell: 114
+Spell: 114
+Spell: 114
+E
+T 91209
+#91205
+серый грифон~
+серый грифон~
+серого грифона~
+серому грифону~
+серого грифона~
+серым грифоном~
+сером грифоне~
+Серый грифон, полуптица-полузверь, охраняет проход на вершину.
+~
+ Величественный серый грифон,
+с когтями, покрытыми толстым слоем крови.
+~
+d0f0g0m0n0o0x0b1 d0f0k0A0l1 -600 E
+25 1 -9 25d10+850 6d3+20
+0d0+0 250000
+8 8 1
+BareHandAttack: 2
+Destination: 91206
+Destination: 91208
+Str: 25
+Dex: 14
+Int: 18
+Wis: 18
+Con: 28
+Size: 40
+LikeWork: 90
+MaxFactor: 20
+ExtraAttack: 1
+Class: 103
+Height: 198
+Weight: 200
+Special_Bitvector: l0 
+Skill: 1 80
+Skill: 2 80
+Skill: 132 70
+Skill: 136 100
+Skill: 157 80
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+E
+T 91209
+#91206
+снежный грифон~
+снежный грифон~
+снежного грифона~
+снежному грифону~
+снежного грифона~
+снежным грифоном~
+снежном грифоне~
+Снежный грифон патрулирует проход к вершине мира.
+~
+Прекрасный грифон снежно-белого цвета.
+~
+d0f0g0m0n0o0x0b1 d0f0k0z0 -600 E
+25 0 -7 20d10+750 6d4+20
+0d0+0 250000
+8 8 1
+BareHandAttack: 8
+Destination: 91223
+Destination: 91229
+Str: 25
+Dex: 22
+Int: 18
+Wis: 18
+Con: 25
+Size: 35
+LikeWork: 95
+MaxFactor: 20
+ExtraAttack: 1
+Class: 103
+Height: 198
+Weight: 50
+Special_Bitvector: g0l0 
+Skill: 5 60
+Skill: 136 100
+Skill: 138 80
+Skill: 150 60
+Skill: 157 85
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 68
+E
+T 91209
+L 1420 10 0 0
+#91207
+пещерный змей~
+пещерный змей~
+пещерного змея~
+пещерному змею~
+пещерного змея~
+пещерным змеем~
+пещерном змее~
+Пещерный змей проползает мимо, высматривая непрошенных гостей.
+~
+ Огромный змей, обитающий в пещере в горах.
+Стоит на маленьких но сильных задних лапах,
+имеет длинные, как сабля клыки.
+~
+d0f0g0m0n0o0x0 d0f0k0 -600 E
+25 3 -5 20d10+1100 15d2+10
+0d0+0 200000
+8 8 1
+BareHandAttack: 4
+Destination: 91209
+Destination: 91211
+Destination: 91217
+Str: 22
+Dex: 20
+Int: 18
+Wis: 22
+Con: 30
+Size: 35
+LikeWork: 85
+MaxFactor: 20
+ExtraAttack: 1
+Class: 103
+Height: 198
+Weight: 200
+Special_Bitvector: i0m0 
+Skill: 132 90
+Skill: 136 100
+Skill: 138 50
+Skill: 157 80
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 77
+Spell: 77
+Spell: 127
+E
+#91208
+черный единорог~
+черный единорог~
+черного единорога~
+черному единорогу~
+черного единорога~
+черным единорогом~
+черном единороге~
+Черный единорог выслеживает непрошенных гостей.
+~
+ Сильный свирепый конь с длинным сверкающим черным рогом.
+~
+d0f0g0m0n0o0u0x0 d0f0k0 -600 E
+23 0 -10 45d10+750 5d3+20
+0d0+0 200000
+8 8 1
+BareHandAttack: 14
+Destination: 91140
+Destination: 91146
+Destination: 91143
+Str: 26
+Dex: 18
+Int: 18
+Wis: 18
+Con: 22
+Size: 40
+LikeWork: 90
+MaxFactor: 19
+ExtraAttack: 1
+Class: 103
+Height: 198
+Weight: 50
+Special_Bitvector: 0 
+Skill: 2 80
+Skill: 5 60
+Skill: 136 100
+Skill: 151 80
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 62
+Spell: 62
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 124
+E
+T 91104
+#91209
+черный грифон~
+черный грифон~
+черного грифона~
+черному грифону~
+черного грифона~
+черным грифоном~
+черном грифоне~
+Черный грифон выслеживает непрошенных гостей.
+~
+ Огромный орел, со странным оперением и большим,
+загнутым клювом.
+~
+d0f0g0m0n0o0u0x0b1 d0f0k0 -600 E
+23 0 -10 45d10+750 5d3+20
+0d0+0 200000
+8 8 1
+BareHandAttack: 14
+Destination: 91135
+Destination: 91139
+Str: 26
+Dex: 18
+Int: 18
+Wis: 18
+Con: 22
+Size: 40
+LikeWork: 90
+MaxFactor: 19
+ExtraAttack: 1
+Class: 103
+Height: 198
+Weight: 200
+Special_Bitvector: g0l0 
+Skill: 2 80
+Skill: 5 60
+Skill: 136 100
+Skill: 151 80
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 62
+Spell: 62
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+E
+T 91104
+#91210
+двухголовый змей Виевого племени~
+двухголовый змей~
+двухголового змея~
+двухголовому змею~
+двухголового змея~
+двухголовым змеем~
+двухголовом змее~
+Двухголовый змей Виевого племени охраняет проход на вершину.
+~
+Огромный двухголовый змей стоит, опираясь на маленькие
+но сильный задние лапки. Головы его черные со сверкающими
+длинными клыками.
+~
+d0f0g0m0n0o0u0x0b1 d0f0k0 -600 E
+28 0 -10 45d10+1500 5d3+20
+0d0+0 500000
+8 8 1
+BareHandAttack: 14
+Str: 26
+Dex: 18
+Int: 18
+Wis: 18
+Con: 22
+Size: 40
+LikeWork: 90
+MaxFactor: 19
+ExtraAttack: 1
+Class: 103
+Height: 198
+Weight: 200
+Special_Bitvector: l0 
+Skill: 2 80
+Skill: 5 60
+Skill: 136 100
+Skill: 151 80
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 62
+Spell: 62
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+E
+T 91104
+#91211
+великий Перун~
+великий Перун~
+великого Перуна~
+великому Перуну~
+великого Перуна~
+великим Перуном~
+великом Перуне~
+Великий Перун стоит здесь.
+~
+Великий Бог.~
+b0d0g0n0 h0o1 600 E
+29 0 -10 10d10+10000 10d5+20
+0d0+0 0
+8 8 1
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 20
+Size: 80
+LikeWork: 100
+ExtraAttack: 2
+Class: 104
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Skill: 4 100
+Skill: 5 100
+Skill: 141 150
+Skill: 142 150
+Skill: 143 150
+Skill: 144 150
+Skill: 145 150
+Skill: 146 150
+Skill: 147 150
+Skill: 148 150
+Skill: 151 150
+Skill: 154 150
+Skill: 155 150
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+E
+$

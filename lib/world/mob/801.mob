@@ -1,0 +1,40 @@
+* BRusMUD mob file v1.0
+#80100
+степняк~
+степняк~
+степняка~
+степняку~
+степняка~
+степняком~
+степняке~
+Степняк подкрадывается к Вам со спины.
+~
+В его руках короткий кривой нож.
+~
+c0f0A0 k0s0t0A0 -600 E
+25 0 0 10d10+1200 4d4+8
+0d0+10 80000
+8 8 1
+BareHandAttack: 0
+Str: 17
+Int: 10
+Wis: 10
+Dex: 23
+Con: 17
+Cha: 14
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: g0i0b1c1
+Spell: 15
+Skill: 131 120
+Skill: 137 120
+Skill: 138 120
+Skill: 160 120
+E
+$
+$
