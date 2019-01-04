@@ -13,7 +13,7 @@
 плакучей ивы, что вторит - слезы льет с поникших ветвей.
 ~
 b0d0p0t0u0B0 b0c0d0e0f0k0n1 0 E
-1 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 6 6 2
 Str: 10
@@ -25,6 +25,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 100
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -47,8 +48,8 @@ T 69408
 темный лес.
 ~
 d0g0l0m0h1 c0k0z0 -600 E
-25 3 -2 10d10+600 4d4+5
-0d0+0 75000
+23 3 -2 10d10+600 4d4+5
+0d0+0 70000
 8 8 2
 BareHandAttack: 10
 Str: 15
@@ -61,6 +62,7 @@ Size: 10
 LikeWork: 85
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: n0 
@@ -83,8 +85,8 @@ T 69448
 смотрят пристально, пробираясь холодом в душу.
 ~
 b0d0l0m0p0q0r0i1 c0e0k0x0 -600 E
-23 2 -2 10d10+900 4d4+5
-0d0+0 100000
+25 2 -2 10d10+900 4d4+5
+0d0+0 90000
 8 8 2
 BareHandAttack: 8
 Str: 15
@@ -97,6 +99,7 @@ Size: 10
 LikeWork: 50
 ExtraAttack: 2
 Class: 103
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
@@ -120,7 +123,7 @@ T 69449
 прямо в душу.
 ~
 d0l0y0e1i1 f0k0x0 -600 E
-23 2 -3 10d10+600 4d4+5
+24 2 -3 10d10+600 4d4+5
 0d0+0 80000
 8 8 1
 BareHandAttack: 8
@@ -134,6 +137,7 @@ Size: 30
 LikeWork: 50
 ExtraAttack: 2
 Class: 103
+Race: 103
 Height: 50
 Weight: 50
 Special_Bitvector: l0 
@@ -159,7 +163,7 @@ T 69410
 ~
 d0h0b1h1 c0e0k0x0t1 -600 E
 23 4 -2 10d10+600 4d4+8
-0d0+0 75000
+0d0+0 65000
 8 8 1
 BareHandAttack: 2
 Str: 15
@@ -172,6 +176,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
@@ -193,7 +198,7 @@ T 69451
 вздымается в такт тяжелому дыханию, а может быть ветру.
 ~
 b0d0e0n0o0p0q0r0t0u0B0j2 c0d0e0f0r0 0 E
-1 0 0 10d10+2 0d0+0
+4 0 0 10d10+2 0d0+0
 0d0+0 1000
 8 8 2
 Str: 10
@@ -206,6 +211,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -225,7 +231,7 @@ E
 над его величавой главой раскинул крыла могучий Филин.
 ~
 b0d0n0o0p0q0r0t0u0 c0d0e0f0n1 0 E
-1 0 0 10d10+2 0d0+0
+4 0 0 10d10+2 0d0+0
 0d0+0 1000
 8 8 1
 Str: 10
@@ -238,6 +244,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -260,7 +267,7 @@ T 69406
 и обгонит ветер.
 ~
 b0d0n0o0p0q0r0t0u0 c0d0e0f0g0x0n1 0 E
-1 0 0 10d10+2 0d0+0
+4 0 0 10d10+2 0d0+0
 0d0+0 1000
 8 8 1
 Str: 10
@@ -273,6 +280,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -294,8 +302,8 @@ E
 она по миру сеет гибель и мор.
 ~
 a0c0d0e0l0m0p0r0 c0d0e0j0k0x0z0A0u1 -600 E
-28 0 -10 10d10+3000 5d4+8
-0d0+300 300000
+29 0 -10 10d10+3000 5d4+8
+0d0+300 225000
 8 8 2
 BareHandAttack: 1
 Str: 19
@@ -308,6 +316,7 @@ Size: 89
 LikeWork: 50
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 169
 Weight: 50
 Special_Bitvector: l0 
@@ -332,7 +341,7 @@ T 69454
 блазней-мороков~
 блазнями-мороками~
 блазнях-мороках~
-Блазни-мороки кружаться в снежном вихре.
+Блазни-мороки кружатся в снежном вихре.
 ~
 Нечистые духи, что морочат доброму человеку голову, отводят глаза
 вынуждая видеть то, чего на самом деле нет. Человек и понимает умом, 
@@ -341,7 +350,7 @@ T 69454
 ~
 b0d0m0z0 c0d0e0k0x0z0A0C0r1t1u1 -600 E
 28 0 -10 10d10+1500 6d5+8
-0d0+500 220000
+0d0+500 175000
 8 8 3
 Str: 17
 Dex: 26
@@ -353,6 +362,7 @@ Size: 89
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 190
 Weight: 120
 Special_Bitvector: 0 
@@ -376,8 +386,8 @@ T 69426
 в самый сильный дождь.
 ~
 b0d0f0l0m0t0b2 c0d0e0k0r0t0A0r1 -600 E
-25 0 -4 10d10+3000 4d4+5
-0d0+800 308000
+30 0 -4 10d10+3000 4d4+5
+0d0+800 260000
 8 8 1
 BareHandAttack: 2
 Str: 16
@@ -390,6 +400,7 @@ Size: 75
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 169
 Weight: 50
 Special_Bitvector: 0 
@@ -414,8 +425,8 @@ E
 домашний скот порчу, иссушили и истомили болезнями.
 ~
 c0d0 c0d0e0f0k0u1 -600 E
-27 3 2 4d10+2000 4d3+4
-0d0+320 220000
+28 3 2 4d10+2000 4d3+4
+0d0+320 180000
 8 8 2
 BareHandAttack: 8
 Str: 20
@@ -428,6 +439,7 @@ Size: 75
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 166
 Weight: 90
 Special_Bitvector: 0 
@@ -464,8 +476,8 @@ T 69456
 и вслед за взмахом ее платка все кругом вымирает...
 ~
 c0d0m0A0 c0d0e0f0k0u1 -600 E
-27 3 2 10d10+2000 4d4+5
-0d0+300 220000
+28 3 2 10d10+2000 4d4+5
+0d0+300 175000
 8 8 2
 BareHandAttack: 8
 Str: 20
@@ -478,6 +490,7 @@ Size: 74
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 178
 Weight: 66
 Special_Bitvector: 0 
@@ -511,9 +524,10 @@ T 69453
 одалживает Морена, богиня погибели, или сама Смерть.
 ~
 d0e0m0t1c2 c0d0e0f0k0x0z0o1r1u1x1 -600 E
-26 2 3 10d10+5000 6d6+5
-0d0+200 500000
+31 2 3 10d10+5000 6d6+5
+0d0+200 400000
 8 8 0
+Saves: -14 -14 -14 -14
 BareHandAttack: 6
 Str: 12
 Dex: 26
@@ -525,6 +539,7 @@ Size: 99
 LikeWork: 85
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 125
 Weight: 90
 Special_Bitvector: 0 
@@ -555,7 +570,7 @@ T 69452
 стороне Бер косматый - лесной хозяин.
 ~
 b0d0n0o0p0q0r0t0u0 n1r1 600 E
-1 0 0 10d10+2 0d0+0
+4 0 0 10d10+2 0d0+0
 0d0+0 1000
 8 8 1
 Str: 10
@@ -568,6 +583,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -605,6 +621,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 150
 Special_Bitvector: 0 
@@ -628,8 +645,8 @@ T 69421
 невольными стражами.
 ~
 b0d0g0l0z0A0b1e2 c0d0e0f0k0x0q1r1 -600 E
-27 2 -5 10d10+2600 5d5+4
-0d0+0 290000
+29 2 -5 10d10+2600 5d5+4
+0d0+0 240000
 8 8 2
 BareHandAttack: 1
 Str: 23
@@ -642,6 +659,7 @@ Size: 56
 LikeWork: 75
 ExtraAttack: 2
 Class: 101
+Race: 111
 Height: 166
 Weight: 95
 Special_Bitvector: c0 
@@ -672,9 +690,10 @@ E
 железным крылом, там разразится повальный мор.
 ~
 d0e0p0b1b2 c0d0e0k0x0r1u1 -600 E
-25 2 -5 10d10+3200 3d4+6
-0d0+300 336000
+30 2 -5 10d10+3200 3d4+6
+0d0+300 275000
 8 8 2
+Saves: -10 -10 -10 -10
 CastSuccess: 100
 BareHandAttack: 4
 Str: 18
@@ -687,6 +706,7 @@ Size: 52
 LikeWork: 80
 ExtraAttack: 2
 Class: 101
+Race: 103
 Height: 165
 Weight: 52
 Special_Bitvector: 0 
@@ -718,7 +738,7 @@ T 69455
 до земли.
 ~
 d0f0l0A0 c0k0r0z0m1t1 -600 E
-29 4 -10 10d10+1000 5d4+8
+28 4 -10 10d10+1000 5d4+8
 0d0+2000 150000
 8 8 1
 BareHandAttack: 3
@@ -732,6 +752,7 @@ Size: 98
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 150
 Special_Bitvector: 0 
@@ -758,7 +779,7 @@ T 69444
 нападений на честной народ.
 ~
 d0l0m0A0 c0e0f0r0A0r1t1 -600 E
-28 2 -2 10d10+2000 6d5+8
+29 2 -2 10d10+2000 6d5+8
 0d0+100 200000
 8 8 1
 BareHandAttack: 3
@@ -772,6 +793,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 199
 Weight: 150
 Special_Bitvector: 0 
@@ -795,7 +817,7 @@ T 69444
 тебя.
 ~
 b0d0 f0g0k0n1 600 E
-1 0 0 10d10+2 0d0+0
+4 0 0 10d10+2 0d0+0
 0d0+0 1000
 8 8 1
 Str: 10
@@ -808,6 +830,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -828,8 +851,8 @@ T 69433
 землю и плавить сталь.
 ~
 b0d0A0 c0d0e0f0h0k0r0z0 -600 E
-30 3 -10 10d10+2000 6d5+3
-0d0+60 250000
+29 3 -10 10d10+2000 6d5+3
+0d0+60 200000
 8 8 1
 BareHandAttack: 5
 Str: 23
@@ -842,6 +865,7 @@ Size: 95
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 186
 Weight: 90
 Special_Bitvector: 0 
@@ -865,8 +889,8 @@ T 69445
 черных соболиных бровей.
 ~
 c0d0m0 c0d0e0h0k0m0r0 -600 E
-23 4 2 10d10+2200 3d4+6
-0d0+300 240000
+29 4 2 10d10+2200 3d4+6
+0d0+300 200000
 8 8 2
 BareHandAttack: 2
 Str: 15
@@ -879,6 +903,7 @@ Size: 56
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 52
 Special_Bitvector: 0 
@@ -911,7 +936,7 @@ T 69445
 Рода своего через пургу и метели.
 ~
 c0d0 c0d0e0f0h0k0 -600 E
-23 3 -10 10d10+2000 6d4+3
+29 3 -10 10d10+2000 6d4+3
 0d0+300 200000
 8 8 1
 Str: 17
@@ -924,6 +949,7 @@ Size: 65
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 86
 Special_Bitvector: 0 
@@ -932,11 +958,11 @@ Skill: 160 100
 E
 T 69445
 #69424
-пекарь трифон пухлого человек~
+пекарь трифон пухлый человек~
 пекарь Трифон~
 пекаря Трифона~
 пекарю Трифону~
-пекаря Трифон~
+пекаря Трифона~
 пекарем Трифоном~
 пекаре Трифоне~
 Пухлого вида человек бежит по своим делам.
@@ -947,9 +973,10 @@ T 69445
 аромат выпеченных пирожков.
 ~
 d0 c0d0e0f0h0k0 600 E
-30 3 -10 10d10+4000 6d4+3
-0d0+200 400000
+31 3 -10 10d10+4000 6d4+3
+0d0+200 330000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 3
 Str: 18
 Dex: 28
@@ -961,6 +988,7 @@ Size: 88
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 55
 Special_Bitvector: 0 
@@ -1007,6 +1035,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 190
 Weight: 90
 Special_Bitvector: 0 
@@ -1036,8 +1065,8 @@ T 69423
 живого. 
 ~
 b0d0 c0d0e0h0k0 -600 E
-30 2 -5 10d10+2500 5d5+4
-0d0+1000 280000
+29 2 -5 10d10+2500 5d5+4
+0d0+1000 230000
 8 8 1
 BareHandAttack: 3
 Str: 19
@@ -1050,6 +1079,7 @@ Size: 70
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 50
 Special_Bitvector: 0 
@@ -1075,7 +1105,7 @@ T 69445
 смотрят удивленно и весело.
 ~
 d0o0p0q0r0t0u0B0 n1 600 E
-25 0 0 10d10+2 0d0+0
+4 0 0 10d10+2 0d0+0
 0d0+0 1000
 8 8 1
 Str: 10
@@ -1087,6 +1117,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: p0i3 
@@ -1108,7 +1139,7 @@ E
 снеди, что приносят в жертву Велесу.
 ~
 b0d0 n1 600 E
-25 0 0 10d10+2 1d1+1
+4 0 0 10d10+2 1d1+1
 0d0+0 1000
 8 8 3
 Str: 10
@@ -1121,6 +1152,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1156,6 +1188,7 @@ Size: 60
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 80
 Special_Bitvector: 0 
@@ -1193,7 +1226,7 @@ E
 кончике хвоста и словно разрезает кошечку на две части.
 ~
 d0B0o1 c0d0e0f0m0n0r1 0 E
-25 0 0 10d10+2 0d0+0
+4 0 0 10d10+2 0d0+0
 0d0+0 1000
 8 8 2
 BareHandAttack: 8
@@ -1207,6 +1240,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -1230,9 +1264,10 @@ T 69425
 воле Велеса ушли волоты в Неведомые Чертоги Родовы.
 ~
 b0d0 c0d0e0f0h0k0o1 -600 E
-30 2 -10 60d10+7000 6d5+8
-0d0+500 590000
+32 2 -10 60d10+7000 6d5+8
+0d0+500 450000
 8 8 1
+Saves: -18 -18 -18 -18
 Str: 30
 Dex: 33
 Int: 36
@@ -1243,6 +1278,7 @@ Size: 95
 LikeWork: 85
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: c0 
@@ -1268,7 +1304,7 @@ T 69459
 благость обитателям лесным.
 ~
 d0e2 c0d0e0f0h0x0p1 -600 E
-27 4 -4 10d10+1000 4d4+6
+28 4 -4 10d10+1000 4d4+6
 0d0+200 150000
 8 8 3
 BareHandAttack: 1
@@ -1282,6 +1318,7 @@ Size: 52
 LikeWork: 99
 ExtraAttack: 2
 Class: 101
+Race: 111
 Height: 164
 Weight: 56
 Special_Bitvector: l0 
@@ -1310,8 +1347,8 @@ E
 волохатого бога - Велеса.
 ~
 d0 f0h0k0m0r0 -600 E
-28 2 2 10d10+2600 5d5+4
-0d0+0 280000
+29 2 2 10d10+2600 5d5+4
+0d0+0 225000
 8 8 1
 BareHandAttack: 8
 Str: 20
@@ -1324,6 +1361,7 @@ Size: 59
 LikeWork: 75
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 168
 Weight: 90
 Special_Bitvector: p0 
@@ -1348,7 +1386,7 @@ T 69465
 черного соболя~
 черным соболем~
 черном соболе~
-Пушистый, иссене-черный зверек крадется в тишине.
+Пушистый иссине-черный зверек крадется в тишине.
 ~
 Хищный зверек, питающийся мелкими грызунами. Необычный,
 очень пушистый мех хранит его от самых страшных морозов.
@@ -1356,8 +1394,8 @@ T 69465
 волохатого бога - Велеса.
 ~
 d0 c0d0e0f0h0 -600 E
-28 2 2 10d10+2800 5d5+4
-0d0+0 300000
+29 2 2 10d10+2800 5d5+4
+0d0+0 225000
 8 8 1
 BareHandAttack: 8
 Str: 20
@@ -1370,6 +1408,7 @@ Size: 62
 LikeWork: 75
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 105
 Weight: 50
 Special_Bitvector: p0 
@@ -1401,8 +1440,8 @@ T 69457
 его поисках и весьма навредить людям
 ~
 b0c0d0f0 c0d0e0f0k0x0r1u1z1 -600 E
-26 4 -3 10d10+1690 3d4+6
-0d0+200 220000
+29 4 -3 10d10+1690 3d4+6
+0d0+200 200000
 8 8 2
 BareHandAttack: 8
 Str: 15
@@ -1415,6 +1454,7 @@ Size: 56
 LikeWork: 85
 ExtraAttack: 2
 Class: 101
+Race: 101
 Height: 185
 Weight: 56
 Special_Bitvector: 0 
@@ -1446,8 +1486,8 @@ T 69446
 или три года воротиться к людям.
 ~
 b0d0e0 c0d0e0f0k0r0x0A0k1q1r1u1 -600 E
-25 4 -3 10d10+1680 4d4+3
-0d0+400 220000
+29 4 -3 10d10+1680 4d4+3
+0d0+400 200000
 8 8 2
 BareHandAttack: 2
 Str: 12
@@ -1460,6 +1500,7 @@ Size: 75
 LikeWork: 80
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 190
 Weight: 80
 Special_Bitvector: 0 
@@ -1487,12 +1528,12 @@ T 69446
 Таласым-оборотень бродит в глуши.
 ~
 Вечно живущий оборотень, мужчина или женщина. Превращаясь в собаку, 
-кошку, любое другое животное, если его разрзлить, может напасть на 
+кошку, любое другое животное, если его разозлить, может напасть на 
 человека глухой ночью. А в остальное время развлекается тем
 что поступает на службу людям.
 ~
 d0 d0k0 -600 E
-30 2 -9 100d10+800 5d6+10
+25 2 -9 100d10+800 5d6+10
 0d0+0 100000
 8 8 1
 Str: 35
@@ -1505,6 +1546,7 @@ Size: 85
 LikeWork: 99
 ExtraAttack: 1
 Class: 104
+Race: 102
 Height: 185
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -1532,7 +1574,7 @@ E
 никому и коледник со скуки стал наниматься на службу людям.
 ~
 b0d0 0 -600 E
-30 2 -9 100d10+800 5d6+10
+25 2 -9 100d10+800 5d6+10
 0d0+0 100000
 8 8 1
 Str: 35
@@ -1545,6 +1587,7 @@ Size: 65
 LikeWork: 99
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 180
 Weight: 90
 Special_Bitvector: y0b1c1 
@@ -1570,9 +1613,10 @@ E
 по миру.
 ~
 b0d0f0e2h2 d0e0f0h0x0z0C0o1r1 -600 E
-30 2 -10 10d10+6000 6d6+10
-0d0+500 800000
+34 2 -10 10d10+6000 6d6+10
+0d0+500 750000
 8 8 2
+Saves: -26 -26 -26 -26
 Armour: 100
 CastSuccess: 70
 Absorbe: 100
@@ -1587,6 +1631,7 @@ Size: 93
 LikeWork: 99
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 150
 Weight: 95
 Special_Bitvector: 0 
@@ -1616,8 +1661,8 @@ T 69458
 смерти.
 ~
 d0e0m0 b0h0x0 -600 E
-28 2 -4 10d10+1500 3d4+3
-0d0+0 250000
+29 2 -4 10d10+1500 3d4+3
+0d0+0 220000
 8 8 2
 BareHandAttack: 1
 Str: 12
@@ -1630,6 +1675,7 @@ Size: 64
 LikeWork: 85
 ExtraAttack: 2
 Class: 103
+Race: 103
 Height: 135
 Weight: 70
 Special_Bitvector: l0 
@@ -1659,7 +1705,7 @@ T 69460
 владениям и выбрасывают старые вещи.
 ~
 b0d0 b0c0d0e0f0k0t0z0C0 -600 E
-28 4 -5 10d10+660 6d4+8
+25 4 -5 10d10+660 6d4+8
 0d0+100 90000
 8 8 1
 BareHandAttack: 2
@@ -1673,6 +1719,7 @@ Size: 65
 LikeWork: 75
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 105
 Weight: 56
 Special_Bitvector: 0 
@@ -1702,7 +1749,7 @@ T 69466
 ~
 d0 b0c0d0e0f0k0r0s0t0x0z0A0 0 E
 29 3 -7 10d10+2200 7d8+8
-0d0+200 220000
+0d0+200 200000
 8 8 1
 BareHandAttack: 1
 Str: 16
@@ -1715,6 +1762,7 @@ Size: 66
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 166
 Weight: 66
 Special_Bitvector: 0 
@@ -1733,7 +1781,7 @@ E
 зеркальный карп~
 зеркальный карп~
 зеркального карпа~
-зеракальному карпу~
+зеркальному карпу~
 зеркального карпа~
 зеркальным карпом~
 зеркальном карпе~
@@ -1745,8 +1793,8 @@ E
 в сторону.
 ~
 d0m0a1e2 A0k1r1 -600 E
-25 -6 -8 10d10+2200 4d4+6
-0d0+1000 200000
+28 -6 -8 10d10+2200 4d4+6
+0d0+1000 175000
 8 8 1
 BareHandAttack: 2
 Str: 28
@@ -1759,6 +1807,7 @@ Size: 78
 LikeWork: 95
 ExtraAttack: 2
 Class: 103
+Race: 106
 Height: 198
 Weight: 90
 Special_Bitvector: o0v0 
@@ -1792,8 +1841,8 @@ E
 домашний скот порчу, иссушили и истомили болезнями.
 ~
 c0d0 c0d0e0f0k0u1 -600 E
-27 3 2 4d10+2000 4d3+4
-0d0+320 220000
+28 3 2 4d10+2000 4d3+4
+0d0+320 180000
 8 8 2
 BareHandAttack: 8
 Str: 20
@@ -1806,6 +1855,7 @@ Size: 75
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 166
 Weight: 90
 Special_Bitvector: 0 
@@ -1839,8 +1889,8 @@ T 69426
 домашний скот порчу, иссушили и истомили болезнями.
 ~
 c0d0 c0d0e0f0k0u1 -600 E
-27 3 2 4d10+2000 4d3+4
-0d0+320 220000
+28 3 2 4d10+2000 4d3+4
+0d0+320 180000
 8 8 2
 BareHandAttack: 8
 Str: 20
@@ -1853,6 +1903,7 @@ Size: 75
 LikeWork: 90
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 166
 Weight: 90
 Special_Bitvector: 0 
@@ -1889,8 +1940,8 @@ T 69426
 и вслед за взмахом ее платка все кругом вымирает...
 ~
 c0d0m0A0 c0d0e0f0k0u1 -600 E
-27 4 2 10d10+2000 4d4+5
-0d0+300 220000
+28 4 2 10d10+2000 4d4+5
+0d0+300 180000
 8 8 2
 BareHandAttack: 8
 Str: 20
@@ -1903,6 +1954,7 @@ Size: 74
 LikeWork: 95
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 178
 Weight: 66
 Special_Bitvector: 0 
@@ -1936,8 +1988,8 @@ T 69426
 и вслед за взмахом ее платка все кругом вымирает...
 ~
 c0d0m0A0 c0d0e0f0k0u1 -600 E
-27 4 2 10d10+2000 4d4+5
-0d0+300 220000
+28 4 2 10d10+2000 4d4+5
+0d0+300 180000
 8 8 2
 BareHandAttack: 8
 Str: 20
@@ -1950,6 +2002,7 @@ Size: 74
 LikeWork: 95
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 178
 Weight: 66
 Special_Bitvector: 0 
@@ -1970,7 +2023,7 @@ T 69426
 незримый страж священной земли~
 незримого стража священной земли~
 незримому стражу священной земли~
-незримый страж священной земли~
+незримого стража священной земли~
 незримым стражем священной земли~
 незримом страже священной земли~
 Незримый страж земли Велесовой витает в воздухе.
@@ -1980,7 +2033,7 @@ T 69426
 велесову от гостей незванных - убийц кровожадных. 
 ~
 b0d0n0o0p0q0r0t0u0x0B0o1t1a2g2i2j2l2 b0c0d0e0f0k0p0r0t0x0z0n1 600 E
-29 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 30
@@ -1993,6 +2046,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 100
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2003,7 +2057,7 @@ T 69461
 незримый страж священной земли~
 незримого стража священной земли~
 незримому стражу священной земли~
-незримый страж священной земли~
+незримого стража священной земли~
 незримым стражем священной земли~
 незримом страже священной земли~
 Незримый страж земли Велесовой витает в воздухе.
@@ -2013,7 +2067,7 @@ T 69461
 велесову от гостей незванных - убийц кровожадных. 
 ~
 b0d0n0o0p0q0r0t0u0x0B0o1t1a2g2i2j2l2 b0c0d0e0f0k0p0r0t0x0z0n1 600 E
-29 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 35
@@ -2026,6 +2080,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 4
 Class: 100
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2037,7 +2092,7 @@ T 69462
 незримый страж священной земли~
 незримого стража священной земли~
 незримому стражу священной земли~
-незримый страж священной земли~
+незримого стража священной земли~
 незримым стражем священной земли~
 незримом страже священной земли~
 Незримый страж земли Велесовой витает в воздухе.
@@ -2047,7 +2102,7 @@ T 69462
 велесову от гостей незванных - убийц кровожадных. 
 ~
 b0d0n0o0p0q0r0t0u0x0B0o1t1a2g2i2j2l2 b0c0d0e0f0k0p0r0t0x0z0n1 600 E
-29 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 35
@@ -2060,6 +2115,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 4
 Class: 100
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2071,7 +2127,7 @@ T 69463
 незримый страж священной земли~
 незримого стража священной земли~
 незримому стражу священной земли~
-незримый страж священной земли~
+незримого стража священной земли~
 незримым стражем священной земли~
 незримом страже священной земли~
 Незримый страж земли Велесовой витает в воздухе.
@@ -2081,7 +2137,7 @@ T 69463
 велесову от гостей незванных - убийц кровожадных. 
 ~
 b0d0n0o0p0q0r0t0u0x0B0o1t1a2g2i2j2l2 b0c0d0e0f0k0p0r0t0x0z0n1 600 E
-29 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 35
@@ -2094,10 +2150,54 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 4
 Class: 100
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 132 200
 E
 T 69464
+#69452
+велесова вестница птица~
+велесова вестница~
+велесовой вестницы~
+велесовой вестнице~
+велесову вестницу~
+велесовой вестницей~
+велесовой вестнице~
+Велесова вестница летит с вестью в мир Яви.
+~
+Птица, велесова вестница - навная потворница,
+влетает в окно к покойнику, принося весть о
+смерти.
+~
+d0e0m0 b0d0f0h0k0x0 -600 E
+12 2 0 10d10+1500 3d3+3
+0d0+0 0
+8 8 2
+BareHandAttack: 1
+Str: 12
+Dex: 17
+Int: 19
+Wis: 20
+Con: 18
+Cha: 10
+Size: 64
+LikeWork: 85
+ExtraAttack: 2
+Class: 103
+Race: 103
+Height: 135
+Weight: 70
+Special_Bitvector: l0 
+Skill: 22 100
+Spell: 68
+Spell: 68
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 93
+Spell: 93
+E
 $

@@ -25,6 +25,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0B3 
@@ -33,7 +34,6 @@ Skill: 136 75
 Skill: 157 100
 Spell: 93
 E
-I кожа,10:3
 #68901
 сорока~
 сорока~
@@ -53,6 +53,7 @@ d0g0h0 0 -600 E
 BareHandAttack: 12
 Size: 10
 Class: 103
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -79,6 +80,7 @@ d0g0h0 0 -600 E
 BareHandAttack: 10
 Size: 10
 Class: 103
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -112,6 +114,7 @@ Cha: 15
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: 0 
@@ -145,6 +148,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -179,6 +183,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -212,6 +217,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1C3 
@@ -247,6 +253,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: g0i0b1c1 
@@ -282,6 +289,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -316,6 +324,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1d1C3 
@@ -346,6 +355,7 @@ b0d0f2j2 d0f0k0n1 0 E
 8 8 2
 Size: 30
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

@@ -25,6 +25,7 @@ Size: 1
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: p0 
@@ -56,6 +57,7 @@ Size: 6
 LikeWork: 15
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: g0p0 
@@ -90,6 +92,7 @@ Size: 6
 LikeWork: 15
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: m0 
@@ -122,6 +125,7 @@ Size: 9
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 50
 Weight: 50
 Special_Bitvector: p0 
@@ -155,6 +159,7 @@ Size: 10
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 50
 Weight: 50
 Special_Bitvector: g0m0 
@@ -193,6 +198,7 @@ Size: 30
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 60
 Weight: 120
 Special_Bitvector: g0m0 
@@ -226,6 +232,7 @@ BareHandAttack: 5
 Size: 30
 LikeWork: 60
 Class: 101
+Race: 110
 Height: 198
 Weight: 200
 Special_Bitvector: g0 
@@ -261,6 +268,7 @@ Size: 30
 LikeWork: 45
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -302,6 +310,7 @@ Size: 40
 LikeWork: 70
 ExtraAttack: 1
 Class: 105
+Race: 112
 Height: 120
 Weight: 80
 Special_Bitvector: 0 
@@ -340,6 +349,7 @@ Cha: 20
 Size: 30
 LikeWork: 70
 Class: 101
+Race: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -391,6 +401,7 @@ Size: 55
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 180
 Weight: 200
 Special_Bitvector: 0 
@@ -445,6 +456,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -496,6 +508,7 @@ d0 0 0 E
 8 8 1
 Size: 30
 Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

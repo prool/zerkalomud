@@ -1,21 +1,14 @@
-* BRusMUD trigger file v1.0
 #23100
 вход к кузнецу~
-0 q0 100
+0 q 100
 ~
 wait 10
 mecho _Кузнец не отрываясь от работы взглянул на Вас и что-то проворчал по поводу 
 mecho _вежливости нынешней молодежи.
-
-
-
-
-
-
 ~
 #23101
 ответ на приветствие~
-0 d0 1
+0 d 1
 здравствуй поклон приветствую здраве~
 wait 15
 г И тебе не болеть
@@ -32,16 +25,10 @@ wait 30
 wait 10
 г Поможешь?
 attach 23102 %self.id%
-
-
-
-
-
-
 ~
 #23102
 выдача задания~
-0 d0 1
+0 d 1
 да помогу говори слушаю~
 г Ну слушай тогда...
 взд
@@ -60,46 +47,62 @@ attach 23103 %self.id%
 detach 23100 %self.id%
 detach 23101 %self.id%
 detach 23102 %self.id%
-
-
-
-
-
-
 ~
 #23103
 оплата~
-0 j0 100
+0 j 100
 ~
 wait 1
 if (%object.vnum% != 23103)
-   г ну и накой мне это?
-   эм нахмурил брови
-   бросить %object.name%
-   halt
+  г ну и накой мне это?
+  эм нахмурил брови
+  бросить %object.name%
+  halt
 else
-   г Спасибо. Это то что нужно.
-   eval rnd %random.1000%
-   if   (%rnd% < 40) && (%world.curobjs(23104)% < 15)
-     mload obj 23104
-     дать колечко %actor.name%
-   elseif  (%rnd% < 70) && (%world.curobjs(23105)% < 20)
-     mload obj 23105
-     дать нож %actor.name%
-   elseif  (%rnd% < 100) && (%world.curobjs(23106)% < 30)
-     mload obj 23106
-     дать оберег %actor.name%
-   elseif  (%rnd% < 300) && (%world.curobjs(23107)% < 30)
-     mload obj 23107
-     дать браслет %actor.name%
-   else
-     msend %actor% Кузнец дал Вам немного денег.
-     %actor.gold(+250)%
-     msend %actor% Это составило 250 кун.
-     mechoaround %actor% Кузнец дал %actor.dname% горстку монет.
-   end
+  г Спасибо. Это то что нужно.
+  if %actor.class% == 11
+    wait 1
+    г Я смотрю, ты тоже кузнечным делом занимаешься
+    г Может смогу тебе чему-нибудь обучить.
+    wait 1s
+    if !%actor.skill(перековать)%
+      mskillturn %actor.name% перековать set
+    else
+      г Извини, ты уже кузнец не хуже меня.
+    end
+  end
+  г Вот, возьми, пригодится в хозяйстве.
+  eval rnd %random.1000%
+  if (%rnd% < 40) && (%world.curobjs(23104)% < 15)
+    mload obj 23104
+    дать колечко %actor.name%
+  elseif (%rnd% < 70) && (%world.curobjs(23105)% < 20)
+    mload obj 23105
+    дать нож %actor.name%
+  elseif (%rnd% < 100) && (%world.curobjs(23106)% < 30)
+    mload obj 23106
+    дать оберег %actor.name%
+  elseif (%rnd% < 300) && (%world.curobjs(23107)% < 30)
+    mload obj 23107
+    дать браслет %actor.name%
+  elseif (%rnd% < 400)
+    mload obj 542
+    дать книга %actor.name%
+  else
+    msend %actor% Кузнец дал Вам немного денег.
+    %actor.gold(+250)%
+    msend %actor% Это составило 250 кун.
+    mechoaround %actor% Кузнец дал %actor.dname% горстку монет.
+  end
 end
-
 ~
-$
-$
+#23104
+Убили анчтуку~
+0 f 100
+~
+eval rnd 10*%world.curmobs(23101)%
+if (%random.100% > %rnd%)
+  mload obj 23103
+end
+~
+$~

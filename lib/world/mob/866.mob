@@ -11,7 +11,7 @@
 Дрожащий мужичонка что-то бормочет будто бы в бреду.
 ~
 d0h0 d0k0z0 0 E
-20 15 8 4d8+340 4d2+9
+17 15 8 4d8+340 4d2+9
 3d3+2 23000
 6 6 1
 Str: 12
@@ -24,6 +24,7 @@ Size: 60
 MaxFactor: 1
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 50
 Special_Bitvector: 0 
@@ -51,7 +52,7 @@ T 86636
 десяток домов.
 ~
 b0c0d0e0f0m0A0i1 d0f0k0r0s0t0A0 -600 E
-28 2 -9 3d8+1323 10d3+26
+30 2 -9 3d8+1323 10d3+26
 2d3+222 290000
 8 8 1
 BareHandAttack: 11
@@ -66,6 +67,7 @@ LikeWork: 80
 MaxFactor: 4
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -91,7 +93,7 @@ I глаза,10:5
 Широкоплечий мужик с мешком инструментов пытается проникнуть внутрь замка.
 ~
 b0c0d0f0A0i1 d0f0k0 -600 E
-29 6 2 12d12+1554 9d4+32
+30 6 2 12d12+1554 9d4+32
 4d2+323 280000
 8 8 1
 BareHandAttack: 10
@@ -105,6 +107,7 @@ LikeWork: 70
 MaxFactor: 4
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 90
 Special_Bitvector: b1c1B3 
@@ -133,6 +136,7 @@ c0d0f0m0p0q0x0A0b1r1 d0e0f0k0n0r0t0x0z0A0C0m1z1 -600 E
 38 -4 -9 30d12+9600 2d22+50
 34d8+4000 1800000
 8 8 1
+Saves: -38 -38 -38 -38
 BareHandAttack: 4
 Destination: 86655
 Destination: 86656
@@ -149,6 +153,7 @@ LikeWork: 85
 MaxFactor: 4
 ExtraAttack: 3
 Class: 103
+Race: 105
 Height: 200
 Weight: 150
 Special_Bitvector: a0b0c0d0e0f0l0B3C3 
@@ -200,7 +205,7 @@ I чешуя,15:5
 Превращенный кем-то из безобидного сорняка в настоящего монстра.
 ~
 d0f0m0p0q0r0t0x0g2 d0f0k0p0 -600 E
-27 4 -5 16d6+1500 4d4+15
+29 4 -5 16d6+1500 4d4+15
 0d0+0 200000
 8 8 1
 BareHandAttack: 2
@@ -215,6 +220,7 @@ LikeWork: 30
 MaxFactor: 2
 ExtraAttack: 4
 Class: 103
+Race: 108
 Height: 150
 Weight: 80
 Special_Bitvector: g0m0 
@@ -242,9 +248,10 @@ T 86610
 Массивное каменное чудище с огромными перепончатыми крыльями охраняет вечный покой замка.
 ~
 c0d0f0m0t0i2 d0f0k0n0r0x0m1o1 -600 E
-28 0 -6 15d8+2600 10d8+8
+31 0 -6 15d8+2600 10d8+8
 0d0+0 390000
 8 8 0
+Saves: -10 -10 -10 -10
 BareHandAttack: 8
 Str: 33
 Dex: 27
@@ -257,6 +264,7 @@ LikeWork: 60
 MaxFactor: 3
 ExtraAttack: 2
 Class: 103
+Race: 114
 Height: 150
 Weight: 100
 Special_Bitvector: B3 
@@ -268,7 +276,7 @@ Spell: 82
 Spell: 82
 E
 #86606
-охотник нежитью ведьмак~
+ведьмак~
 ведьмак~
 ведьмака~
 ведьмаку~
@@ -282,7 +290,7 @@ E
 силами.
 ~
 c0d0l0n0p0t0x0A0 d0e0f0k0p0A0C0k1z1 -600 E
-32 -4 -10 8d6+1000 8d12+33
+21 -4 -10 8d6+1000 8d12+33
 6d4+740 50000
 8 8 1
 BareHandAttack: 7
@@ -297,6 +305,7 @@ LikeWork: 95
 MaxFactor: 4
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 190
 Weight: 70
 Special_Bitvector: y0b1c1B3C3 
@@ -350,7 +359,7 @@ T 86625
 разлагающихся останков, не гнушающийся и свежих мертвячков.
 ~
 d0f0m0p0b2 d0f0k0n0 -600 E
-28 3 -6 4d11+2199 4d8+25
+30 3 -6 4d11+2199 4d8+25
 0d0+0 286000
 8 8 1
 BareHandAttack: 4
@@ -364,6 +373,7 @@ LikeWork: 45
 MaxFactor: 3
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 140
 Weight: 70
 Special_Bitvector: g0m0 
@@ -374,7 +384,6 @@ Spell: 72
 Spell: 72
 Spell: 137
 E
-I кости:6
 I когти:6
 #86608
 опасная бестия мантикора~
@@ -391,9 +400,10 @@ I когти:6
 башку вместе со шлемом, да не поперхнется.
 ~
 d0f0m0q0b1 d0f0k0x0A0m1x1 -600 E
-30 1 -8 9d6+3400 6d6+70
+31 1 -8 9d6+3400 6d6+70
 0d0+0 380000
 8 8 2
+Saves: -10 -10 -10 -10
 BareHandAttack: 2
 Str: 35
 Dex: 26
@@ -404,6 +414,7 @@ LikeWork: 65
 MaxFactor: 3
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 150
 Weight: 100
 Special_Bitvector: g0l0 
@@ -432,7 +443,7 @@ I шерсть:7
 и нападающее на свою жертву всегда сзади.
 ~
 d0f0m0r0t0 d0f0k0n0s0j1x1z1 -600 E
-27 2 -9 3d6+1600 4d16+50
+29 2 -9 3d6+1600 4d16+50
 0d0+0 200000
 8 8 1
 BareHandAttack: 12
@@ -447,6 +458,7 @@ LikeWork: 55
 MaxFactor: 3
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 110
 Weight: 50
 Special_Bitvector: i0j0l0B3 
@@ -459,7 +471,6 @@ Spell: 27
 Spell: 27
 Spell: 27
 E
-I кости:7
 I глаза:7
 #86610
 вампир потревоженный~
@@ -476,9 +487,10 @@ I глаза:7
 кровь сладкую коих, не разбудив оных, сосет.
 ~
 d0f0m0p0r0x0z0A0 c0d0e0f0k0n0p0r0x0z0A0r1 -600 E
-31 0 -8 5d17+5200 4d6+70
+32 0 -8 5d17+5200 4d6+70
 0d0+0 490000
 8 8 1
+Saves: -14 -14 -14 -14
 BareHandAttack: 4
 Str: 31
 Dex: 28
@@ -491,6 +503,7 @@ LikeWork: 90
 MaxFactor: 4
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 160
 Weight: 80
 Special_Bitvector: h0l0b1c1C3 
@@ -539,7 +552,7 @@ I зубы,12:5
 угла в лоб палкою дать может. 
 ~
 c0d0j0k0l0m0 d0k0s0t0 -600 E
-26 3 -4 6d6+1435 5d6+38
+29 3 -4 6d6+1435 5d6+38
 3d5+367 207000
 8 8 1
 BareHandAttack: 5
@@ -553,6 +566,7 @@ Size: 50
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 140
 Weight: 60
 Special_Bitvector: a1b1c1 
@@ -577,9 +591,10 @@ E
 добычу покрупнее.
 ~
 d0f0m0p0q0r0t0u0z0i2 d0f0k0A0C0 -600 E
-25 3 -10 8d8+1300 4d4+15
+32 3 -10 8d8+1300 4d4+15
 0d0+0 484000
 8 8 2
+Saves: -14 -14 -14 -14
 BareHandAttack: 4
 Destination: 86609
 Destination: 86610
@@ -598,6 +613,7 @@ Size: 50
 LikeWork: 45
 ExtraAttack: 6
 Class: 103
+Race: 104
 Height: 50
 Weight: 50
 Special_Bitvector: g0C3 
@@ -619,9 +635,10 @@ E
 обрести покой даже после смерти.
 ~
 d0f0m0p0z0e2h2 d0e0f0k0p1r1 -600 E
-31 1 -7 14d9+6000 6d9+30
+33 1 -7 14d9+6000 6d9+30
 0d0+0 580000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 6
 Destination: 86620
 Destination: 86621
@@ -634,6 +651,7 @@ Cha: 22
 Size: 70
 LikeWork: 85
 Class: 105
+Race: 111
 Height: 180
 Weight: 90
 Special_Bitvector: h0l0b1c1C3 
@@ -670,7 +688,7 @@ T 86615
 пока не упокоится дух его хозяина.
 ~
 d0l0m0n0p0r0u0x0z0i1 d0f0k0m0n0r0 -600 E
-26 3 -7 7d6+1700 4d7+50
+29 3 -7 7d6+1700 4d7+50
 0d0+0 250000
 8 8 1
 Str: 22
@@ -682,7 +700,8 @@ Cha: 17
 Size: 60
 LikeWork: 95
 ExtraAttack: 1
-Class: 102
+Class: 101
+Race: 111
 Height: 150
 Weight: 50
 Special_Bitvector: l0 
@@ -705,7 +724,7 @@ E
 Когда-то это был глубоко преданный старому барону пожилой мужчина, проклятый вместе со своим хозяином.
 ~
 d0l0m0n0p0r0u0x0z0 d0f0k0m0n0r0x0 -600 E
-29 3 -7 7d6+1900 4d7+60
+30 3 -7 7d6+1900 4d7+60
 0d0+0 290000
 8 8 1
 BareHandAttack: 6
@@ -719,6 +738,7 @@ Size: 60
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 111
 Height: 150
 Weight: 50
 Special_Bitvector: l0 
@@ -747,9 +767,10 @@ E
 павшего на всех проклятия и лишь в бессильной ярости убивает все живое.
 ~
 d0f0m0p0r0t0x0z0A0i1 d0f0h0k0n0r0z0m1t1 -600 E
-30 1 -7 4d7+2400 4d5+74
+34 1 -7 4d7+2400 4d5+74
 0d0+0 693000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 3
 Str: 30
 Dex: 26
@@ -762,6 +783,7 @@ LikeWork: 95
 MaxFactor: 2
 ExtraAttack: 1
 Class: 102
+Race: 111
 Height: 190
 Weight: 130
 Special_Bitvector: l0b1c1B3 
@@ -789,9 +811,10 @@ T 86624
 в карикатурную безносую голову с огромными глазищами и чем-то вроде клюва.
 ~
 d0f0m0p0q0r0t0u0z0b2 b0d0e0f0k0p0r0x0A0m1o1r1x1 -600 E
-33 3 -9 6d4+3300 4d9+45
+31 3 -9 6d4+3300 4d9+45
 0d0+0 385000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 2
 Str: 17
 Dex: 21
@@ -804,6 +827,7 @@ LikeWork: 95
 MaxFactor: 2
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 100
 Weight: 100
 Special_Bitvector: h0l0u0C3 
@@ -844,9 +868,10 @@ T 86629
 панцирь создает идеальную защиту и маскировку.
 ~
 d0f0m0q0t0a1 d0e0f0k0z0k1l1 -600 E
-30 0 -8 6d7+3800 4d7+70
+31 0 -8 6d7+3800 4d7+70
 0d0+0 370000
 8 8 2
+Saves: -10 -10 -10 -10
 BareHandAttack: 2
 Str: 35
 Dex: 16
@@ -859,6 +884,7 @@ LikeWork: 65
 MaxFactor: 2
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: j0m0v0 
@@ -885,7 +911,7 @@ T 86630
 принимая человеческий облик.
 ~
 d0k0l0m0p0q0r0t0A0r1i2 d0e0f0k0m0n0p0r0s0z0A0C0c1k1m1r1x1y1z1 -600 E
-32 3 -10 3d8+1500 4d9+25
+28 3 -10 3d8+1500 4d9+25
 0d0+0 170000
 8 8 1
 BareHandAttack: 8
@@ -900,6 +926,7 @@ LikeWork: 90
 MaxFactor: 2
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 170
 Weight: 100
 Special_Bitvector: i0b1c1C3 
@@ -931,9 +958,10 @@ E
 но ставшими неугодными верховному богу и низвергнутыми в недра планеты.
 ~
 d0f0m0p0r0x0z0A0 d0e0f0k0z0a1p1t1y1 -600 E
-35 0 -8 12d7+6900 11d7+80
+33 0 -8 12d7+6900 11d7+80
 0d0+0 610000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 1
 Destination: 86688
 Destination: 86687
@@ -951,6 +979,7 @@ LikeWork: 99
 MaxFactor: 3
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b0c0x0b1C3 
@@ -990,7 +1019,6 @@ Spell: 135
 Spell: 135
 E
 T 86631
-I кожа,15:5
 L 1746 5 0 0
 #86621
 облачный титан~
@@ -1006,9 +1034,10 @@ L 1746 5 0 0
 но ставшими неугодными верховному богу и низвергнутыми в недра планеты.
 ~
 d0f0m0p0r0t0x0z0i2 b0c0d0e0f0k0x0m1o1x1 0 E
-35 3 -10 7d7+4400 5d7+30
+32 3 -10 7d7+4400 5d7+30
 0d0+0 420000
 8 8 1
+Saves: -14 -14 -14 -14
 BareHandAttack: 12
 Destination: 86688
 Destination: 86687
@@ -1026,6 +1055,7 @@ LikeWork: 100
 MaxFactor: 3
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 200
 Weight: 50
 Special_Bitvector: b0c0h0l0u0b1 
@@ -1068,9 +1098,10 @@ T 86634
 но ставшими неугодными верховному богу и низвергнутыми в недра планеты.
 ~
 d0f0m0p0q0t0x0A0 d0k0l1t1 -600 E
-36 0 -5 9d13+9100 5d9+110
+34 0 -5 9d13+9100 5d9+110
 0d0+0 740000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 6
 Destination: 86685
 Destination: 86683
@@ -1088,6 +1119,7 @@ LikeWork: 90
 MaxFactor: 3
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b0c0w0b1 
@@ -1126,9 +1158,10 @@ T 86632
 но ставшими неугодными верховному богу и низвергнутыми в недра планеты.
 ~
 d0f0m0p0r0u0x0A0c2 d0f0k0r0z0q1z1 -600 E
-36 2 -8 7d9+5800 8d8+60
+33 2 -8 7d9+5800 8d8+60
 0d0+0 580000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 6
 Destination: 86685
 Destination: 86683
@@ -1145,6 +1178,7 @@ LikeWork: 99
 MaxFactor: 3
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 200
 Weight: 150
 Special_Bitvector: b0c0v0b1c1C3 
@@ -1172,6 +1206,7 @@ d0f0r0t0x0A0 d0f0k0r0z0l1t1 -600 E
 32 1 -5 22d8+4800 15d5+110
 0d0+0 475000
 4 4 1
+Saves: -14 -14 -14 -14
 Str: 33
 Dex: 22
 Int: 15
@@ -1182,6 +1217,7 @@ LikeWork: 95
 MaxFactor: 1
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1C3 
@@ -1218,7 +1254,7 @@ T 86626
 разорвать в клочья.
 ~
 d0f0m0p0x0z0i1 f0k0r0z0A0m1 -600 E
-28 0 -8 11d6+1100 3d7+60
+29 0 -8 11d6+1100 3d7+60
 0d0+0 220000
 8 8 1
 BareHandAttack: 4
@@ -1232,6 +1268,7 @@ LikeWork: 90
 MaxFactor: 1
 ExtraAttack: 1
 Class: 103
+Race: 111
 Height: 120
 Weight: 50
 Special_Bitvector: p0 
@@ -1246,7 +1283,7 @@ E
 отвергнутого божества~
 отвергнутому божеству~
 отвергнутое божество~
-отвергнутого божеством~
+отвергнутым божеством~
 отвергнутом божестве~
 Отвергнутое людьми древнее божество скрывается в пещерах.
 ~
@@ -1256,8 +1293,9 @@ E
 ~
 b0c0d0f0p0t0x0A0e2h2 d0e0f0k0r0x0z0l1r1x1 -600 E
 40 0 -10 11d11+11000 12d9+30
-0d0+0 2600000
+0d0+6666 2600000
 8 8 0
+Saves: -46 -46 -46 -46
 BareHandAttack: 7
 Destination: 86696
 Destination: 86695
@@ -1271,6 +1309,7 @@ Size: 100
 LikeWork: 85
 MaxFactor: 4
 Class: 104
+Race: 114
 Height: 200
 Weight: 150
 Special_Bitvector: l0b1c1C3 
@@ -1327,9 +1366,10 @@ T 86637
 шестирукого крепкого мужика.
 ~
 c0d0f0m0p0q0A0 d0f0k0l1x1 -600 E
-29 1 -6 7d8+2300 6d4+6
+31 1 -6 7d8+2300 6d4+6
 0d0+0 370000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 26
 Dex: 17
 Int: 12
@@ -1341,6 +1381,7 @@ LikeWork: 85
 MaxFactor: 1
 ExtraAttack: 5
 Class: 100
+Race: 101
 Height: 180
 Weight: 100
 Special_Bitvector: b1c1 
@@ -1365,7 +1406,7 @@ E
 Самая крупная хищная птица, воистину хозяин горных вершин !
 ~
 d0f0m0b1 d0e0f0k0x0x1 -600 E
-28 0 -8 6d6+1300 5d5+45
+30 0 -8 6d6+1300 5d5+45
 0d0+0 295000
 8 8 1
 BareHandAttack: 8
@@ -1380,6 +1421,7 @@ LikeWork: 70
 MaxFactor: 2
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 100
 Weight: 60
 Special_Bitvector: l0u0 
@@ -1403,9 +1445,10 @@ I крылья,12:5
 простых героев.
 ~
 d0f0m0p0q0r0A0b1 c0d0f0k0x0A0a1p1 -600 E
-28 2 -6 14d9+2100 4d8+40
+31 2 -6 14d9+2100 4d8+40
 0d0+0 396000
 8 8 2
+Saves: -10 -10 -10 -10
 BareHandAttack: 12
 Str: 16
 Dex: 15
@@ -1417,6 +1460,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 2
 Class: 103
+Race: 103
 Height: 200
 Weight: 150
 Special_Bitvector: l0u0B3 
@@ -1455,9 +1499,10 @@ L 1487 14 0 0
 Облюбовавшие пещеры в этих местах, стая летучих мышей вышла на охоту.
 ~
 d0e0f0p0q0r0t0u0z0i2 d0e0k0m1 0 E
-27 3 -3 11d14+1400 5d3+8
+31 3 -3 11d14+1400 5d3+8
 0d0+0 395000
 8 8 2
+Saves: -10 -10 -10 -10
 BareHandAttack: 4
 Destination: 86697
 Destination: 86694
@@ -1474,6 +1519,7 @@ LikeWork: 60
 MaxFactor: 1
 ExtraAttack: 5
 Class: 103
+Race: 104
 Height: 100
 Weight: 100
 Special_Bitvector: l0 
@@ -1499,9 +1545,10 @@ E
 заколдованный могущественным хозяином крепости и ставший его вечным рабом.
 ~
 c0d0f0m0p0t0A0 b0c0d0e0f0k0r0p1r1 -600 E
-31 5 -4 7d9+1400 3d9+20
+32 5 -4 7d9+1400 3d9+20
 0d0+0 480000
 8 8 1
+Saves: -14 -14 -14 -14
 BareHandAttack: 11
 Str: 14
 Dex: 12
@@ -1514,6 +1561,7 @@ LikeWork: 85
 MaxFactor: 2
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 160
 Weight: 70
 Special_Bitvector: h0b1c1 

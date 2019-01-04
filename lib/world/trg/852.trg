@@ -72,8 +72,6 @@ mecho - Тако сказывают...
 ВходВПеруновуКрепь~
 2 d 0
 *~
-*wecho Временно зона недоступна.
-*halt
 *mecho %speech%
 if %speech% == я пришел
   wait 1s
@@ -274,12 +272,6 @@ else
   calcuid pech 85206 obj
   %purge% %pech%
   wload obj 85203
-  if ( %actor.class% == 4 )
-    wait 5s
-    %send% %actor% Кажется кто-то хотел войти, но испугался Вас.
-    %echoaround% %actor% Кажется кто-то хотел войти, но испугался %actor.rname%.
-    halt
-  end
   wait 5s
   *лоад лешего
   if !%exist.mob(85200)% 
@@ -373,18 +365,25 @@ wait 1s
 if %world.curobjs(85208)% > 0
   эм озабоченно стал лазить по пустой корзинке
   wait 1s
+  calcuid klubok 85208 obj
   mecho - Странно, как так получилось, но их у меня украли!
-  mecho - Значит приходи в следующий раз...
+  mecho - Но вот что скажу тебе...
+  if %klubok.carried_by%
+    set i %klubok.carried_by%
+    mecho - Заныкал%actor.g% их %i.name%...
+  end
+  set z %klubok.room%
+  mecho - Находятся они вот где: %z.name% - именно там их ищи!
   эм растворился в тишине
 else
-  mload obj 85207
+  *mload obj 85207
   mload obj 85208
   mload obj 85208
   mload obj 85208
   mload obj 85208
   mload obj 85208
-  пол все корз
-  дать корзин %actor.name%
+  * пол все корз
+  дать все .%actor.name%
   mecho - Держи!
   wait 1s
   mecho - Вдруг задумаешь клубки с тропами распустить, так помни:
@@ -483,7 +482,7 @@ if ( ( %actor.haveobj(85006)% ) && ( %actor.quested(85001)% ) )
         end
       done
       *   wecho -
-      wait 7s
+      wait 3
       wforce баюн атак .%actor.name%
       detach 85210 %self%
     end
@@ -499,6 +498,10 @@ if !%arg.contains(кота)%
 else
   * * * * * * * * *если в инвентаре мешок
   if %actor.haveobj(85008)%
+    if %self.hitp% < 4000
+      %send% %actor% Кот слишком здоров и полон сил!
+      halt
+    end
     *
     *
     *wait 1s
@@ -545,8 +548,9 @@ wload obj 85206
 ~
 *открываем ход в шендерский лес
 if %object.vnum% == 85208
-  wait 1s
+  wait 1
   wpurge %object.id%
+  wait 1s
   wecho _Упал клубок спутанных троп на землю - покатился!
   wait 1s
   wecho _Расступилась земля открывая путь в неведомый лес...
@@ -559,6 +563,9 @@ end
 РезетЗоны~
 2 f 100
 ~
+calcuid stan 85276 room
+attach 85206 %stan%
+halt
 if %world.curobjs(85203)% > 0
   *убираем горящую печь
   calcuid pechka 85203 obj
@@ -574,7 +581,7 @@ if %world.curobjs(85206)% == 0
   attach 85206 %stan%
 end
 *выманивание кисы
-calcuid rkisa 85211 room
+calcuid rkisa 85212 room
 attach 85210 %rkisa% 
 ~
 #85216

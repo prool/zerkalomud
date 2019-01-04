@@ -5,7 +5,11 @@
 wait 1
 if ((%actor.class% == 7) && !(%actor.skill(врата)%))
   осм %actor.name%
-  г Добрый день волшебник!
+  if %actor.sex% == 1
+    г Добрый день волшебник!
+  elseif %actor.sex% == 2
+    г Добрый день волшебница!
+  end
   г Опустел наш и без того небольшой поселок.
   вздох
   г Хочешь выслушать про нашу беду?
@@ -152,6 +156,7 @@ if ((%actor.class% == 7) && !(%actor.skill(врата)%))
   г И не причиняй зла людям.
   mskillturn %actor% врата set
   dg_affect %actor% интеллект подчинить_разум -15 0
+  %actor.setquest(12800)%
 end
 ~
 #12807
@@ -219,7 +224,7 @@ wait 1s
 osend %actor.name% Вы пошли на юг.
 oechoaround %actor% %actor.name% куда-то побежал%actor.g% прямо сквозь стену.
 wait 2
-oteleport %actor.name% 12817
+oteleport .%actor.name% 12817
 wait 2
 osend %actor.name% Голос старого волшебника из поселка возник у Вас прямо в голове.
 osend %actor.name% Волшебник сказал Вам : 'В любой момент ты можешь вернуться обратно'
@@ -366,5 +371,8 @@ detach 12812 %sosn128.id%
 wdoor 12817 e purge
 wdoor 12802 w purge
 wdoor 12802 w room 12803
+context 4000
+set defendermagestory 0
+worlds defendermagestory
 ~
 $~

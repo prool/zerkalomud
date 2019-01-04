@@ -1,3 +1,7 @@
-* BRusMUD trigger file v1.0
-$
-$
+#2226
+undefined~
+0 c 100
+~
+
+~
+$~

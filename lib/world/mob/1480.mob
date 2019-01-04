@@ -10,26 +10,24 @@
 ~
 Вы видите молодого печенежского пастуха.
 ~
-l0A0r2c0s2 p0 -600 E
-13 11 +10 10d10+200 3d5+5 
+c0d0l0A0r2s2 p0 -600 E
+13 11 10 10d10+200 3d5+5
 2d2+0 10000
 8 8 1
 CastSuccess: 26
-BareHandAttack:  2
+BareHandAttack: 2
 Str: 15
-Int: 11
-Wis: 11
 Dex: 16
 Con: 15
 Cha: 12
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 130
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 60
 E
 T 148001
@@ -49,26 +47,24 @@ I кожа,3:2
 ~
 Вы видите молодого хазарского пастуха.
 ~
-l0A0r2c0s2 p0 -600 E
-13 11 +10 10d10+200 3d5+5 
+c0d0l0A0r2s2 p0 -600 E
+13 11 10 10d10+200 3d5+5
 2d2+0 10000
 8 8 1
 CastSuccess: 26
-BareHandAttack:  2
+BareHandAttack: 2
 Str: 15
-Int: 11
-Wis: 11
 Dex: 15
 Con: 15
 Cha: 12
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 130
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 60
 E
 T 148001
@@ -88,28 +84,28 @@ I кожа,4:2
 ~
 Вы видите везучего пастуха.
 ~
-l0A0c0 p0A0 -600 E
-15 6 +10 10d10+300 3d5+5 
+c0d0l0A0 p0A0 -600 E
+15 6 10 10d10+300 3d5+5
 2d2+0 35000
 8 8 1
 CastSuccess: 30
-BareHandAttack:  2
+BareHandAttack: 2
 Str: 16
+Dex: 14
 Int: 12
 Wis: 15
-Dex: 14
 Con: 15
 Cha: 22
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 130
-Special_Bitvector: b1c1
-Skill: 134 20
+Special_Bitvector: b1c1 
 Skill: 1 5
+Skill: 134 20
 Skill: 136 80
 E
 T 148001
@@ -129,28 +125,27 @@ I кожа,5:5
 ~
 Вы видите молодого хазарского лазутчика.
 ~
-l0A0r2c0s2 0 -600 E
-16 3 +1 10d15+250 5d4+9 
+c0d0l0A0r2s2 0 -600 E
+16 3 1 10d15+250 5d4+9
 2d2+5 17000
 8 8 1
 CastSuccess: 32
 BareHandAttack: 11
 Str: 16
-Int: 11
-Wis: 10
 Dex: 26
+Wis: 10
 Con: 16
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 120
 Weight: 110
-Special_Bitvector: a1b1c1
-Skill: 147 10
+Special_Bitvector: a1b1c1 
 Skill: 136 60
+Skill: 147 10
 Skill: 157 5
 E
 T 148001
@@ -169,25 +164,24 @@ I кожа,4:3
 Авдотка летает тут.
 ~
 Вы видите авдотку.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,5:9
@@ -204,25 +198,24 @@ I крылья,1:9
 Желтобрюхий полоз свернулся кольцом.
 ~
 Вы видите желтобрюхого полоза.~
-t1l1q0m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0q0l1m1t1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 136 60
 E
 I глаза,5:6
@@ -240,25 +233,24 @@ I кожа,4:7
 Степная саранча сидит тут в траве.
 ~
 Вы видите степную саранчу.~
-l1m1h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0l1m1 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 #148007
@@ -272,25 +264,24 @@ E
 Полосатый полоз ползет куда-то.
 ~
 Вы видите полосатого полоза.~
-t1l1q0m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0q0l1m1t1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 136 60
 E
 I глаза,5:9
@@ -307,25 +298,24 @@ I кожа,5:7
 Перепел летит тут.
 ~
 Вы видите перепела.~
-h0 x0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 x0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
 BareHandAttack: 15
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 25
 Weight: 20
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,5:6
@@ -342,25 +332,24 @@ I крылья,4:6
 Суслик что-то жует.
 ~
 Вы видите суслика.~
-l1n1m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0l1m1n1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,3:5
@@ -368,5 +357,4 @@ I зубы,1:5
 I кости,1:9
 I когти,3:6
 I кожа,2:7
-$
 $

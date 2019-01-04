@@ -14,6 +14,7 @@ b0d0g0n0o0p0q0r0i2 d0k0r0z0A0C0r1 -600 E
 33 2 -2 15d85+7000 4d5+5
 0d0+0 550000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 4
 Str: 28
 Dex: 14
@@ -23,6 +24,7 @@ Con: 18
 Size: 73
 LikeWork: 100
 Class: 103
+Race: 105
 Height: 94
 Weight: 100
 Special_Bitvector: 0 
@@ -57,6 +59,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -79,8 +82,8 @@ T 95211
 ___Это человек в широких и свисающих до самой земли одеждах.
 ~
 c0d0f0g0n0o0A0 d0h0k0r0t0A0q1 -600 E
-31 5 -5 15d20+1800 11d15+25
-5d15+1000 300000
+29 5 -5 15d20+1800 11d15+25
+5d15+1000 250000
 8 8 1
 BareHandAttack: 3
 Str: 36
@@ -93,6 +96,7 @@ Size: 67
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 194
 Weight: 113
 Special_Bitvector: B3 
@@ -110,13 +114,13 @@ E
 дикого холопа~
 диким холопом~
 диком холопе~
-В конец одичавший холоп бежит на Вас!
+Вконец одичавший холоп бежит на Вас!
 ~
    Это простой работящий мужичок, одичавший от несправедливости хозяев.
 ~
 c0d0f0g0n0o0A0 d0k0r0t0A0r1t1w1 -600 E
-45 8 0 15d20+3000 10d10+40
-5d15+10 360000
+30 8 0 15d20+3000 10d10+40
+5d15+10 300000
 8 8 1
 Str: 36
 Dex: 27
@@ -128,6 +132,7 @@ Size: 67
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 194
 Weight: 113
 Special_Bitvector: p0 
@@ -149,9 +154,10 @@ E
    Это мелкий мужичок с ехидным и очень надменным взглядом.
 ~
 b0c0d0f0g0n0o0A0 d0k0r0t0A0t1w1 -600 E
-32 0 -10 15d20+1000 25d15+50
-8d11+4000 550000
+31 0 -10 15d20+1000 25d15+50
+8d11+4000 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 3
 Str: 36
 Dex: 36
@@ -163,6 +169,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 141
 Weight: 56
 Special_Bitvector: p0b1c1C3 
@@ -189,8 +196,8 @@ T 95238
    Это большая рыжая белка, живущая в лесу.
 ~
 d0g0 0 -600 E
-40 0 -10 10d25+1500 15d20+25
-0d0+0 150000
+25 0 -10 10d25+1500 15d20+25
+0d0+0 100000
 8 8 2
 BareHandAttack: 4
 Str: 30
@@ -201,6 +208,7 @@ Con: 22
 Cha: 12
 Size: 60
 Class: 103
+Race: 104
 Height: 121
 Weight: 90
 Special_Bitvector: p0 
@@ -220,8 +228,8 @@ T 95210
    Это высокий, мускулистый человек, облаченный в простые кожаные одежды.
 ~
 c0d0f0g0n0o0A0 k0r0A0p1 -600 E
-30 2 -6 15d20+2500 9d15+10
-25d30+0 300000
+29 2 -6 15d20+2500 9d15+10
+25d30+0 250000
 8 8 1
 BareHandAttack: 3
 Str: 35
@@ -234,6 +242,7 @@ Size: 90
 LikeWork: 95
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 195
 Weight: 130
 Special_Bitvector: 0 
@@ -256,8 +265,8 @@ E
    Это высокий, мускулистый человек, облаченный в простые кожаные одежды.
 ~
 c0d0f0g0n0o0A0 k0r0A0 -600 E
-30 1 0 15d20+2500 9d15+10
-25d30+0 300000
+29 1 0 15d20+2500 9d15+10
+25d30+0 250000
 8 8 1
 BareHandAttack: 3
 Str: 35
@@ -270,6 +279,7 @@ Size: 90
 LikeWork: 95
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 195
 Weight: 130
 Special_Bitvector: 0 
@@ -293,7 +303,7 @@ E
 ~
 d0g0l0m0n0o0 k0 -600 E
 30 0 -7 20d25+6000 16d18+30
-0d0+5 450000
+0d0+5 300000
 8 8 1
 Str: 36
 Dex: 36
@@ -305,6 +315,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 129
 Special_Bitvector: p0 
@@ -325,7 +336,7 @@ E
 ~
 d0g0l0m0n0o0 k0 -600 E
 30 0 -7 20d25+6000 16d18+30
-0d0+5 450000
+0d0+5 300000
 8 8 1
 Str: 36
 Dex: 36
@@ -337,6 +348,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 129
 Special_Bitvector: p0 
@@ -357,7 +369,7 @@ E
 ~
 d0g0l0m0n0o0 k0 -600 E
 30 0 -7 20d25+6000 16d18+30
-0d0+5 450000
+0d0+5 300000
 8 8 1
 Str: 36
 Dex: 36
@@ -369,6 +381,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 129
 Special_Bitvector: p0 
@@ -389,8 +402,8 @@ E
    Это весьма непонятное существо с темно-зеленой кожей.
 ~
 d0f0g0n0o0 k0p0A0q1 -600 E
-30 0 -3 20d25+2000 9d9+15
-0d0+0 400000
+29 0 -3 20d25+2000 9d9+15
+0d0+0 250000
 8 8 0
 Str: 25
 Dex: 23
@@ -402,6 +415,7 @@ Size: 98
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 114
 Height: 189
 Weight: 106
 Special_Bitvector: 0 
@@ -430,8 +444,8 @@ E
    Это весьма непонятное существо с темно-зеленой кожей.
 ~
 d0f0g0n0o0 k0p0A0q1 -600 E
-30 0 -3 20d25+2000 9d9+15
-0d0+0 400000
+29 0 -3 20d25+2000 9d9+15
+0d0+0 250000
 8 8 0
 Str: 25
 Dex: 23
@@ -443,6 +457,7 @@ Size: 98
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 114
 Height: 189
 Weight: 106
 Special_Bitvector: 0 
@@ -458,7 +473,6 @@ Spell: 152
 Spell: 152
 Spell: 152
 E
-I кости,12:6
 #95213
 лесное чудище непонятное зеленое существо~
 лесное чудище~
@@ -472,8 +486,8 @@ I кости,12:6
    Это весьма непонятное существо с темно-зеленой кожей.
 ~
 d0f0g0n0o0 k0p0A0q1 -600 E
-30 0 -3 20d25+2000 9d9+15
-0d0+0 400000
+29 0 -3 20d25+2000 9d9+15
+0d0+0 250000
 8 8 0
 Str: 25
 Dex: 23
@@ -485,6 +499,7 @@ Size: 98
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 114
 Height: 189
 Weight: 106
 Special_Bitvector: 0 
@@ -514,9 +529,10 @@ E
 ударь его как следует, и он переломится словно сухая ветка.
 ~
 b0d0l0n0o0q0r0A0 z0A0a1m1 -600 E
-30 1 -5 13d61+2500 9d15+30
-25d40+5 465000
+31 1 -5 13d61+2500 9d15+30
+25d40+5 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 25
 Dex: 24
 Int: 14
@@ -526,6 +542,7 @@ Cha: 13
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 194
 Weight: 61
 Special_Bitvector: C3 
@@ -566,9 +583,10 @@ T 95216
 Ее длинные остроконечные перья отдают металлическим блеском.
 ~
 b0d0f0g0n0o0b1 d0h0k0r0x0z0A0a1m1r1w1y1 -600 E
-30 0 -10 20d60+8500 15d25+45
-0d0+0 800000
+34 0 -10 20d60+8500 15d25+45
+0d0+0 700000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 12
 Str: 35
 Dex: 34
@@ -579,6 +597,7 @@ Cha: 20
 Size: 100
 LikeWork: 95
 Class: 103
+Race: 104
 Height: 195
 Weight: 135
 Special_Bitvector: 0 
@@ -650,6 +669,7 @@ Con: 30
 Cha: 20
 Size: 100
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -683,20 +703,21 @@ Cha: 18
 Size: 59
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 179
 Weight: 80
 Special_Bitvector: 0 
 Skill: 136 105
 E
 #95218
-историк седой поседевший времени~
-литописец~
-литописца~
-литописцу~
-литописца~
-литописцом~
-литописце~
-Поседевший от времени литописец хранит здесь всю историю храма.
+историк летописец~
+летописец~
+летописца~
+летописцу~
+летописца~
+летописцом~
+летописце~
+Поседевший от времени летописец хранит здесь всю историю храма.
 ~
    Этот человек прожил длинную и плодотворную жизнь, изучая старые 
 сказания о выходцах из храма. Его длинная седая борода говорит о 
@@ -704,8 +725,9 @@ E
 ~
 b0d0g0 d0r1 0 E
 31 5 -6 25d45+2500 5d20+15
-50d60+9500 485000
+50d60+9500 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 15
 Dex: 12
 Int: 35
@@ -715,6 +737,7 @@ Cha: 16
 Size: 53
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 159
 Weight: 58
 Special_Bitvector: C3 
@@ -787,9 +810,10 @@ T 95223
    Это низкорослый человек с очень широкими плечами и мускулистыми руками.
 ~
 b0d0g0l0n0o0A0 k0z0C0 0 E
-30 0 0 13d61+3000 10d15+30
+34 0 0 13d61+3000 10d15+30
 25d40+100 750000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 5
 Str: 36
 Dex: 22
@@ -801,6 +825,7 @@ Size: 91
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 169
 Weight: 128
 Special_Bitvector: b1c1 
@@ -811,7 +836,6 @@ E
 T 95229
 T 95230
 T 95232
-I кожа,15:10
 #95220
 седой мастер~
 седой мастер~
@@ -827,7 +851,7 @@ I кожа,15:10
 ~
 b0d0g0l0n0o0A0 d0k0z0C0q1 0 E
 30 4 -5 13d61+2000 10d10+30
-10d25+300 390000
+10d25+300 300000
 8 8 1
 BareHandAttack: 5
 Str: 32
@@ -840,6 +864,7 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 180
 Weight: 75
 Special_Bitvector: b1c1 
@@ -876,9 +901,10 @@ E
    Это высокий плечистый человек, закованный в причудливые доспехи из стали и кожи.
 ~
 b0d0g0n0o0A0 d0h0k0r0z0A0C0m1p1r1x1y1 0 E
-47 10 -10 45d65+8500 5d20+10
-0d0+0 650000
+32 10 -10 45d65+8500 5d20+10
+0d0+0 500000
 8 8 1
+Saves: -14 -14 -14 -14
 BareHandAttack: 5
 Str: 36
 Dex: 35
@@ -890,6 +916,7 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 196
 Weight: 130
 Special_Bitvector: b1c1C3 
@@ -934,8 +961,9 @@ T 95228
 ~
 b0d0g0 d0h0k0m0n0r0x0z0A0C0a1m1q1r1x1y1z1 -600 E
 34 0 -10 50d65+25000 10d10+50
-0d0+0 1000000
+0d0+0 750000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 3
 Str: 36
 Dex: 36
@@ -947,6 +975,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: C3 
@@ -1005,6 +1034,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1038,6 +1068,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1068,6 +1099,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

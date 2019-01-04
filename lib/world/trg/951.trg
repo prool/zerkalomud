@@ -3,18 +3,18 @@
 1 c 100
 прикоснуться~
 if !%arg.contains(камень)%
-  msend %actor% _И что Вы хотите так любезно облапать?
+  osend %actor% _И что Вы хотите так любезно облапать?
   halt
 end
 if %actor.class% == 4
-  wait 5
+  wait 1
   osend %actor% _Прикоснувшись к камню Вы почувствовали легкое головокружение.
   oechoaround _%actor% %actor.iname% прикоснул%actor.u% к камню и пошатнул%actor.u%,
   wait 4
   oecho _С юга донесся оглушающий грохот.
   odoor 95105 east room 95110 
   odoor 95110 west room 95105  
-  oat 95105 oecho _С оглушительным грохотом, ворота стремительно распахнулись.
+  
   detach 95100 %self.id%
 else 
   osend %actor% _Вы прикоснулись к камню и все вокруг потускнело!
@@ -206,11 +206,15 @@ if %object.vnum% == 95123
   mecho _- Но будь осторожен, теперь там очень опасно.
   mecho _- Держись дороги, и рано или поздно ты придешь на место.
   wait 5
-  mecho _Старый колдун что-то пробормотал и взмахнул рукой.
-  mecho _Вы еле смогли устоять на ногах.
-  mecho _Где это теперь Вы?
-  mecho _Что это за глушь?!
-  mteleport все 95200
+  foreach c %self.pc%
+    msend %c% _Старый колдун что-то пробормотал и взмахнул рукой.
+    msend %c% _Вы еле смогли устоять на ногах.
+    if %c.rentable%
+      msend %c% _Где это теперь Вы?
+      msend %c% _Что это за глушь?!
+      mteleport %c% 95200 followers
+    end
+  done
 else
   mecho _Седой колдун:
   mecho _- Зачем мне эта дрянь?
@@ -308,7 +312,7 @@ wsend %actor% _Вас выбросило на берег.
 убили себлезуба~
 0 f 10
 ~
-if %world.curobjs(95129)% < 8
+if (%random.1000% <= 100) && (%world.curobjs(95129)% < 8)
   mload obj 95129
 end
 ~
@@ -316,8 +320,6 @@ end
 убили чернокнижника~
 0 f 100
 ~
-if (%world.curobjs(1219)% < 1) && (%random.100% <= 1)
-  mload obj 1219
-end
+nop
 ~
 $~

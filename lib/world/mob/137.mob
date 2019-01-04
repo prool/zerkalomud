@@ -24,6 +24,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -60,6 +61,7 @@ LikeWork: 65
 MaxFactor: 1
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 150
 Special_Bitvector: 0 
@@ -101,6 +103,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
@@ -142,6 +145,7 @@ Size: 60
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 150
 Special_Bitvector: c1 
@@ -185,6 +189,7 @@ Cha: 3
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -228,6 +233,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -245,7 +251,7 @@ E
 пьяный горожанин~
 пьяного горожанина~
 пьяному горожанину~
-пьяныго горожанина~
+пьяного горожанина~
 пьяным горожанином~
 пьяном горожанине~
 Хорошо набравшийся горожанин пьет пиво за столом.
@@ -266,6 +272,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: g0 
@@ -304,6 +311,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -352,6 +360,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: p0u0 
@@ -398,6 +407,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
@@ -433,6 +443,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 5
 Class: 101
+Race: 111
 Height: 190
 Weight: 150
 Special_Bitvector: b0l0 
@@ -480,6 +491,7 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 90
 Special_Bitvector: 0 
@@ -516,6 +528,7 @@ Cha: 23
 Size: 100
 LikeWork: 50
 Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -565,6 +578,7 @@ Cha: 3
 Size: 100
 LikeWork: 80
 Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: d0 
@@ -614,6 +628,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 3
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: w0 
@@ -657,6 +672,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -695,6 +711,7 @@ Size: 20
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 100
 Special_Bitvector: 0 
@@ -747,6 +764,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -785,6 +803,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

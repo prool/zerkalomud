@@ -27,6 +27,7 @@ LikeWork: 30
 MaxFactor: 2
 ExtraAttack: 8
 Class: 103
+Race: 114
 Height: 200
 Weight: 150
 Special_Bitvector: v0 
@@ -79,6 +80,7 @@ LikeWork: 25
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 113
 Height: 145
 Weight: 100
 Special_Bitvector: l0C3 
@@ -131,6 +133,7 @@ LikeWork: 20
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 100
 Weight: 100
 Special_Bitvector: l0c1C3 
@@ -171,12 +174,13 @@ LikeWork: 25
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 199
 Weight: 125
 Special_Bitvector: b1c1C3 
 Skill: 4 45
 Skill: 22 45
-Skill: 136 100
+Skill: 136 120
 Skill: 141 100
 Skill: 142 100
 Skill: 143 100
@@ -199,7 +203,6 @@ Spell: 114
 Spell: 114
 Spell: 153
 Helper: 69104
-Skill: 136 120
 E
 T 69109
 #69104
@@ -229,6 +232,7 @@ LikeWork: 35
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: m0b1c1C3 
@@ -275,11 +279,12 @@ LikeWork: 15
 MaxFactor: 3
 ExtraAttack: 1
 Class: 101
+Race: 105
 Height: 185
 Weight: 100
 Special_Bitvector: c1C3 
 Skill: 22 75
-Skill: 136 100
+Skill: 136 123
 Spell: 23
 Spell: 23
 Spell: 23
@@ -301,7 +306,6 @@ Spell: 153
 Spell: 153
 Helper: 69107
 Helper: 69106
-Skill: 136 123
 E
 #69106
 темный призрак~
@@ -331,6 +335,7 @@ LikeWork: 14
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: l0b1c1d1C3 
@@ -392,6 +397,7 @@ LikeWork: 11
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: l0b1c1d1C3 
@@ -444,6 +450,7 @@ Size: 100
 LikeWork: 30
 MaxFactor: 5
 Class: 104
+Race: 110
 Height: 169
 Weight: 123
 Special_Bitvector: m0b1c1d1 
@@ -495,6 +502,7 @@ LikeWork: 35
 MaxFactor: 3
 ExtraAttack: 1
 Class: 105
+Race: 111
 Height: 200
 Weight: 100
 Special_Bitvector: b1c1d1C3 
@@ -546,6 +554,7 @@ LikeWork: 35
 MaxFactor: 6
 ExtraAttack: 4
 Class: 103
+Race: 104
 Height: 150
 Weight: 120
 Special_Bitvector: C3 
@@ -596,6 +605,7 @@ LikeWork: 30
 MaxFactor: 3
 ExtraAttack: 2
 Class: 104
+Race: 110
 Height: 200
 Weight: 150
 Special_Bitvector: c1d1d3C3 
@@ -657,6 +667,7 @@ LikeWork: 35
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: l0m3C3 

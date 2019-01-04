@@ -175,6 +175,7 @@ if %object.vnum%==70108
   * а завалялось 10к кун
   mload obj 70109
   дать куч %actor.name%
+  detach 70107 %self.id%
 else
   г Разозлить меня хочешь ? Зачем мне это ?
   бросить %object.name%

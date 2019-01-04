@@ -106,17 +106,17 @@ if (%object.vnum%==35102)
       end
     break
     * наемник
-    if (%world.curobjs(35109)% < 10) && (%random.10% <= 5)
-      mload obj 35109
-      дать ржа.заточ %actor.name%
-    elseif (%world.curobjs(35110)% < 7) && (%random.10% <= 2)
-      mload obj 35110
-      дать остр.заточ %actor.name%
-    else
-      %self.gold(+2000)%
-      дать 2000 кун %actor.name%
-    end
     case 4
+      if (%world.curobjs(35109)% < 10) && (%random.10% <= 5)
+        mload obj 35109
+        дать ржа.заточ %actor.name%
+      elseif (%world.curobjs(35110)% < 7) && (%random.10% <= 2)
+        mload obj 35110
+        дать остр.заточ %actor.name%
+      else
+        %self.gold(+2000)%
+        дать 2000 кун %actor.name%
+      end
     break
     * дружинник
     case 5
@@ -146,7 +146,7 @@ if (%object.vnum%==35102)
     break
     default
       %self.gold(+5000)%
-      дать 15000 кун %actor.name%
+      дать 5000 кун %actor.name%
     break
   done
 end
@@ -266,7 +266,7 @@ wait 1
 if ((%self.room% < 35191) || (%self.room% > 35196))
   halt
 end
-if (%exist.mob(35103)% || %exist.mob(35108)% || %exist.mob(35109)% || %exist.mob(35107)%)
+if (%exist.mob(35103)% || %exist.mob(35109)% || %exist.mob(35107)%)
   halt
 end
 %echo% Амулет вспыхнул багровым огнем и рассыпался в прах.

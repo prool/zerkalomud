@@ -98,13 +98,11 @@ if %actor.vnum% != -1
 end
 wait 1s
 If %actor.realroom% == 93518
-  calcuid star 93500 mob
-  detach 93501 %star.id%
   calcuid killstar 93501 room
   detach 93544 %killstar.id%
-  osend       %actor% Вы стали чертить мелом круг, но его хватило обвести лишь псалтырь со свечей.
+  osend %actor% Вы стали чертить мелом круг, но его хватило обвести лишь псалтырь со свечей.
   oechoaround %actor% %actor.name% стал%actor.g% чертить мелом круг, но его хватило обвести лишь псалтырь со свечей.
-  osend       %actor% Вы довольно уставились на свою работу, изрядно испачкав мелом пол, и встали, непоместившись, рядом с кругом.
+  osend %actor% Вы довольно уставились на свою работу, изрядно испачкав мелом пол, и встали, непоместившись, рядом с кругом.
   oechoaround %actor% %actor.name% довольно посмотрел%actor.g% на свою работу, изрядно испачкав мелом пол, и встал%actor.g%, непоместившись, рядом с кругом.
   calcuid ps 93518 room
   attach 93504 %ps.id%
@@ -127,6 +125,7 @@ If %actor.religion% = 0
   wechoaround %actor% %actor.name% начал%actor.g% чтение молитв.
   wecho Вдруг, вы заметили, что лицо покойной исказилось в неподвижной гримасе, а под потолком послышался шорох. 
   wload mob 93501
+  detach 93504 %self.id%
 else
   wsend       %actor% Негоже вам изменять своим богам!!!
   wechoaround %actor% %actor.name% Хотел%actor.g% изменить своим богам, но вовремя спохватился.
@@ -436,7 +435,7 @@ mdoor  93518 south room  93525
 умер Вий1~
 0 f 100
 ~
-if (%world.curobjs(93505)% < 10) && (%random.3% == 2)
+if (%world.curobjs(93505)% < 10) && %random.100% < 50
   mload obj 93505
 end
 mecho Черный туман возник на месте убитого Вия.
@@ -463,7 +462,7 @@ mpurge туман
 Умер Вий2~
 0 f 100
 ~
-if (%world.curobjs(93510)% < 20) && (%random.3% == 2)
+if (%world.curobjs(93510)% < 7) && %random.100% < 50
   mload obj 93510
 end
 mecho Черный туман обволок убитого Вия и растворился без следа.
@@ -476,14 +475,14 @@ attach 93540 %viy.id%
 2 c 100
 красться~
 if !(%arg.contains(щель)%) 
-  osend       %actor% Куда это вы хотите красться?
+  wsend       %actor% Куда это вы хотите красться?
   return 1
   halt
 end
 if (%actor.move%>100) && (%actor.dex%>31) && (%actor.skill(подкрасться)%>90)
   wsend       %actor% Вы тихо прокрались мимо сторожевого пса и нырнули в щель.
   wait 2s
-  %actor.move(-100)%
+  eval %actor.move(-100)%
   wsend %actor% Вы тихо влезли внутрь церковной пристройки.
   wteleport %actor.name% 93528
 else
@@ -503,7 +502,7 @@ end
 if (%actor.move%>100) && (%actor.dex%>32) && (%actor.skill(подкрасться)%>90)
   wsend       %actor% Вы тихо вылезли из церковной пристройки.
   wait 2s
-  %actor.move(-100)%
+  eval buf %actor.move(-100)%
   wsend %actor% Вы тихо прокрались мимо сторожевого пса.
   wteleport %actor.name% 93510
 else
@@ -543,8 +542,8 @@ run 93532 %kolokol.id%
 ~
 wait 1s
 wecho Оглушительный звон колокола отозвался болью в ушах.
-mecho Стены поплыли перед вашими глазами. И вы упали без сознания.
-mecho Деревенский староста вылил на вас ведро воды.
+wecho Стены поплыли перед вашими глазами. И вы упали без сознания.
+wecho Деревенский староста вылил на вас ведро воды.
 wteleport all 93501
 calcuid kolokol 93523 room
 detach 93531 %kolokol.id%

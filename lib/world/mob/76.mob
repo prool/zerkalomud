@@ -26,6 +26,7 @@ Size: 60
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 85
 Special_Bitvector: 0 
@@ -65,6 +66,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 125
 Weight: 150
 Special_Bitvector: a0d0 
@@ -97,6 +99,7 @@ Cha: 10
 Size: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 110
 Weight: 65
 Special_Bitvector: p0 
@@ -118,7 +121,7 @@ d0f0g2 f0k0 0 E
 12 18 5 10d3+250 2d4+2
 0d0+0 2500
 8 8 1
-BareHandAttack: 1
+BareHandAttack: 4
 Dex: 10
 Int: 8
 Wis: 8
@@ -127,6 +130,7 @@ Cha: 5
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 90
 Weight: 50
 Special_Bitvector: p0 
@@ -160,6 +164,7 @@ Cha: 9
 Size: 15
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
@@ -192,6 +197,7 @@ Size: 10
 LikeWork: 5
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
@@ -207,7 +213,7 @@ E
 глухаре~
 Серооперенный глухарь сидит на дереве.
 ~
-   Упитаный глухарь. Перья у него на спине пепельно-серые, на груди плавно
+   Упитанный глухарь. Перья у него на спине пепельно-серые, на груди плавно
 переходят в коричневые.
 ~
 d0g0g2 p0x0 0 E
@@ -224,6 +230,7 @@ Cha: 10
 Size: 10
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
@@ -255,6 +262,7 @@ Cha: 10
 Size: 10
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: n0 
@@ -285,6 +293,7 @@ Cha: 10
 Size: 10
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
@@ -317,6 +326,7 @@ Size: 45
 LikeWork: 55
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 65
 Special_Bitvector: b1 
@@ -350,6 +360,7 @@ Size: 60
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 85
 Special_Bitvector: b1c1 
@@ -383,6 +394,7 @@ Cha: 10
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 60
 Special_Bitvector: b1c1 
@@ -415,6 +427,7 @@ Cha: 10
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 65
 Special_Bitvector: d1 
@@ -449,6 +462,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 80
 Weight: 50
 Special_Bitvector: b0i0p0 
@@ -482,6 +496,7 @@ Size: 60
 LikeWork: 15
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 80
 Weight: 100
 Special_Bitvector: 0 
@@ -514,6 +529,7 @@ Size: 60
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
@@ -522,4 +538,5 @@ Spell: 54
 Spell: 104
 Spell: 104
 E
+T 7609
 $

@@ -492,7 +492,7 @@ if %object.vnum% == 95232
   mecho _Главный страж:
   mecho _- Не ожидал... не ожидал.
   mecho _- Мои лучшие воины не смогли с ним справиться, а ты...
-  mecho _- Как же ты смог%actor.d%?!
+  mecho _- Как же ты смог%actor.q%?!
   wait 15
   mecho _- Да это не важно!
   wait 15
@@ -701,7 +701,7 @@ end
 if %world.curobjs(95240)% == 0
   mload obj 95240
 end
-if ((%world.curobjs(3356)% < 1) && (%world.curobjs(3357)% < 1) && (%random.1000% <= 30))
+if ((%world.curobjs(3356)% < 1) && (%random.100% <= 5))
   mload obj 3356
 end
 ~
@@ -962,7 +962,7 @@ if %random.3% == 2
   wat 95266 wecho _Из кустов послышались звуки нецензурной брани и визги.
   wat 95269 wecho _Из кустов послышались звуки нецензурной брани и визги.
   if %actor.hitp% > 10 
-    %actor.hitp(10)%
+    eval buf %actor.hitp(10)%
   end
 end
 wteleport %actor% 95269
@@ -983,7 +983,7 @@ if %random.3% == 2
   wat 95266 wecho _Из кустов послышались звуки нецензурной брани и визги.
   wat 95269 wecho _Из кустов послышались звуки нецензурной брани и визги.
   if %actor.hitp% > 10 
-    %actor.hitp(10)%
+    eval buf %actor.hitp(10)%
   end
 end
 wteleport %actor% 95266

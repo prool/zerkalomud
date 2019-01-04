@@ -11,7 +11,7 @@
 Эт-о го-орячи-й чухонски-ий паре-ень.
 ~
 d0f0m0A0 k0r0s0t0A0 -600 E
-25 0 -10 10d10+1500 6d6+8
+16 0 -10 10d10+1500 6d6+8
 0d0+30 20000
 8 8 1
 BareHandAttack: 11
@@ -25,6 +25,7 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 150
 Special_Bitvector: i0a1b1c1 
@@ -42,7 +43,7 @@ E
 одинокий рыбак~
 одинокого рыбака~
 одинокому рыбаку~
-одинокий рыбак~
+одинокого рыбака~
 одиноким рыбаком~
 одиноком рыбаке~
 Одинокий рыбак задремал, глядя на неподвижные поплавки.
@@ -51,7 +52,7 @@ E
 клева нет абсолютно!
 ~
 b0d0l1m1n1 k0 -600 E
-25 0 0 10d10+600 4d4+7
+12 0 0 10d10+600 4d4+7
 0d0+0 10000
 8 8 1
 Str: 17
@@ -64,6 +65,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -90,7 +92,7 @@ T 64800
 в другую идет.
 ~
 b0d0l1m1n1 k0 -600 E
-25 0 0 10d10+600 4d4+7
+12 0 0 10d10+600 4d4+7
 0d0+0 10000
 8 8 1
 Str: 17
@@ -103,6 +105,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -128,7 +131,7 @@ T 64801
 выгоды не упустит.
 ~
 d0f0m0A0 k0r0s0t0z0 -600 E
-25 20 10 10d10+1500 6d6+9
+18 20 10 10d10+1500 6d6+9
 0d0+40 30000
 4 4 1
 BareHandAttack: 11
@@ -142,6 +145,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 150
 Special_Bitvector: g0i0b1c1 
@@ -170,7 +174,7 @@ E
 Мелкая птичка, кто его разберет какая. Может пеночка, а может зяблик.
 ~
 d0b1 r0x0 -600 E
-10 0 0 10d10+100 1d1+1
+4 0 0 10d10+100 1d1+1
 0d0+0 1000
 8 8 2
 BareHandAttack: 12
@@ -183,6 +187,7 @@ Cha: 10
 Size: 100
 LikeWork: 15
 Class: 103
+Race: 103
 Height: 175
 Weight: 85
 Special_Bitvector: n0 

@@ -26,6 +26,7 @@ LikeWork: 10
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 88
 Special_Bitvector: b1c1d1 
@@ -64,6 +65,7 @@ LikeWork: 15
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 164
 Weight: 61
 Special_Bitvector: b1c1d1C3 
@@ -106,6 +108,7 @@ LikeWork: 11
 MaxFactor: 3
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 132
 Weight: 50
 Special_Bitvector: b1c1d1B3 
@@ -120,7 +123,7 @@ E
 озадаченный мужик~
 озадаченного мужика~
 озадаченному мужику~
-озадаченный мужик~
+озадаченного мужика~
 озадаченным мужиком~
 озадаченном мужике~
 Озадаченный мужик сидит посреди избы - думает думу тяжкую.
@@ -144,6 +147,7 @@ LikeWork: 15
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 197
 Weight: 91
 Special_Bitvector: b1c1d1 
@@ -179,6 +183,7 @@ LikeWork: 25
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 90
 Special_Bitvector: b1c1d1C3 
@@ -220,6 +225,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -254,6 +260,7 @@ LikeWork: 15
 MaxFactor: 5
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 190
 Weight: 95
 Special_Bitvector: b1c1d1 
@@ -290,6 +297,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -322,6 +330,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1 
@@ -355,6 +364,7 @@ LikeWork: 15
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 194
 Weight: 73
 Special_Bitvector: 0 
@@ -397,6 +407,7 @@ LikeWork: 20
 MaxFactor: 10
 ExtraAttack: 4
 Class: 100
+Race: 112
 Height: 200
 Weight: 150
 Special_Bitvector: 0 
@@ -454,6 +465,7 @@ LikeWork: 15
 MaxFactor: 6
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 200
 Weight: 145
 Special_Bitvector: m0 
@@ -507,6 +519,7 @@ Size: 95
 LikeWork: 30
 MaxFactor: 4
 Class: 100
+Race: 112
 Height: 60
 Weight: 150
 Special_Bitvector: m0 
@@ -559,6 +572,7 @@ LikeWork: 10
 MaxFactor: 2
 ExtraAttack: 3
 Class: 100
+Race: 100
 Height: 110
 Weight: 150
 Special_Bitvector: m0C3 
@@ -606,6 +620,7 @@ Size: 45
 LikeWork: 5
 MaxFactor: 4
 Class: 100
+Race: 112
 Height: 85
 Weight: 90
 Special_Bitvector: m0 
@@ -624,7 +639,6 @@ Spell: 55
 Spell: 66
 Spell: 67
 E
-I кости,5:5
 #68315
  каженник~
 каженник~
@@ -653,6 +667,7 @@ Size: 65
 LikeWork: 15
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 187
 Weight: 79
 Special_Bitvector: b1c1d1 
@@ -661,7 +676,6 @@ Skill: 132 55
 Skill: 136 95
 Skill: 137 100
 E
-I кожа,20:5
 #68316
  каженник~
 каженник~
@@ -691,6 +705,7 @@ Size: 60
 LikeWork: 15
 MaxFactor: 5
 Class: 101
+Race: 110
 Height: 179
 Weight: 99
 Special_Bitvector: b1c1d1 
@@ -741,6 +756,7 @@ Cha: 5
 Size: 85
 LikeWork: 5
 Class: 100
+Race: 112
 Height: 75
 Weight: 145
 Special_Bitvector: 0 
@@ -780,6 +796,7 @@ Cha: 15
 Size: 60
 LikeWork: 15
 Class: 102
+Race: 101
 Height: 185
 Weight: 90
 Special_Bitvector: C3 
@@ -817,6 +834,7 @@ Size: 45
 LikeWork: 15
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 148
 Weight: 70
 Special_Bitvector: b1c1d1C3 
@@ -855,6 +873,7 @@ Size: 45
 LikeWork: 10
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 170
 Weight: 80
 Special_Bitvector: b1c1d1 
@@ -891,6 +910,7 @@ Con: 17
 Cha: 10
 Size: 100
 Class: 101
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -921,7 +941,7 @@ E
 Большая круглая искристо-мерцающая мышь сидит перед Вами.
 ~
 Подобно всякому потустороннему существу, блазня может принимать 
-образ хозяев дома, животного, любого другого человека или предмета, 
+образ хозяев дома, любого другого человека, животного или предмета, 
 однако очертания ее всегда зыбкие, неопределенные, быстро исчезающие.
 ~
 b0c0d0g0l0m0A0 c0d0e0f0g0k0A0 -600 E
@@ -938,6 +958,7 @@ Size: 45
 LikeWork: 10
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 170
 Weight: 80
 Special_Bitvector: b1c1d1 

@@ -23,6 +23,7 @@ Con: 3
 Cha: 3
 Size: 50
 Class: 102
+Race: 101
 Height: 160
 Weight: 110
 Special_Bitvector: 0 
@@ -54,6 +55,7 @@ Con: 3
 Cha: 3
 Size: 50
 Class: 102
+Race: 101
 Height: 110
 Weight: 130
 Special_Bitvector: f0 
@@ -85,6 +87,7 @@ Con: 3
 Cha: 3
 Size: 35
 Class: 102
+Race: 101
 Height: 150
 Weight: 90
 Special_Bitvector: 0 
@@ -117,6 +120,7 @@ Con: 3
 Cha: 3
 Size: 25
 Class: 102
+Race: 101
 Height: 90
 Weight: 70
 Special_Bitvector: 0 
@@ -135,9 +139,10 @@ E
    Сильный воин в кожаных доспехах. Грубо сшитый шлем украшен большими железными крылами.
 ~
 b0c0d0e0f0g0j0l0m0n0o0p0q0r0u0x0y0A0i1 d0f0h0k0r0A0C0a1m1q1r1 0 E
-32 0 -10 15d16+2000 7d9+20
+31 0 -10 15d16+2000 7d9+20
 15d15+500 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 35
 Dex: 30
 Int: 30
@@ -148,6 +153,7 @@ Size: 90
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 200
 Special_Bitvector: b1c1d1C3 
@@ -192,6 +198,7 @@ Con: 3
 Cha: 3
 Size: 35
 Class: 102
+Race: 101
 Height: 90
 Weight: 100
 Special_Bitvector: 0 
@@ -212,7 +219,7 @@ T 66915
    Еще юный крестьянин с веселым лицом. На нем одеты широкие штаны и белая рубаха.
 ~
 c0d0g0l0m0u0x0y0A0 c0d0e0f0k0m0n0r0 0 E
-33 0 -6 10d11+2000 6d7+10
+29 0 -6 10d11+2000 6d7+10
 10d10+10 250000
 8 8 1
 Str: 29
@@ -224,6 +231,7 @@ Cha: 18
 Size: 45
 LikeWork: 15
 Class: 102
+Race: 101
 Height: 160
 Weight: 115
 Special_Bitvector: b1c1d1B3 
@@ -249,7 +257,7 @@ E
    Симпатичная девушка с красивыми глазами. Ее длинные русые волосы свисают до самого пояса.
 ~
 c0d0g0l0m0n0o0p0x0y0A0 c0d0e0f0g0k0 0 E
-32 3 -4 10d11+1500 5d6+8
+29 3 -4 10d11+1500 5d6+8
 10d11+10 230000
 8 8 2
 Str: 24
@@ -261,6 +269,7 @@ Cha: 30
 Size: 35
 LikeWork: 70
 Class: 102
+Race: 101
 Height: 140
 Weight: 90
 Special_Bitvector: 0 
@@ -300,6 +309,7 @@ Con: 3
 Cha: 3
 Size: 80
 Class: 102
+Race: 101
 Height: 200
 Weight: 200
 Special_Bitvector: 0 
@@ -319,7 +329,7 @@ T 66908
 ~
    Небольшой человек средних лет в кожаном плаще зеленого цвета. В его руках вы видите лук.
 ~
-b0d0g0B0o1 0 600 E
+b0d0g0B0o1 d0f0k0 600 E
 40 0 0 1d1+1000 1d1+1
 0d0+0 0
 8 8 1
@@ -333,6 +343,7 @@ Cha: 3
 Size: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 125
 Special_Bitvector: 0 
@@ -354,9 +365,10 @@ T 66910
 сильного воина может превратить в глыбу льда.
 ~
 d0f0g0m0n0o0c2u2 d0f0k0s0t0j1q1 -600 E
-38 0 -10 12d13+3000 8d9+5
+33 0 -10 12d13+3000 8d9+5
 0d0+0 560000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 1
 Str: 34
 Dex: 35
@@ -368,6 +380,7 @@ Size: 100
 LikeWork: 20
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 200
 Weight: 150
 Special_Bitvector: 0 
@@ -416,9 +429,10 @@ I зубы,5:15
 сильного воина может превратить в кучку обуглившихся костей.
 ~
 d0f0g0m0n0a2u2 d0f0k0s0t0j1p1 -600 E
-38 0 -10 12d13+3000 8d9+5
+33 0 -10 12d13+3000 8d9+5
 0d0+0 560000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 1
 Str: 34
 Dex: 35
@@ -430,6 +444,7 @@ Size: 100
 LikeWork: 20
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 200
 Weight: 150
 Special_Bitvector: 0 
@@ -488,9 +503,10 @@ I когти,5:15
 сильно воина может превратить в отвратительную жижу.
 ~
 d0f0g0m0n0d2u2 d0f0h0k0s0t0j1r1 -600 E
-38 0 -10 12d13+3000 8d9+5
+33 0 -10 12d13+3000 8d9+5
 0d0+0 560000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 1
 Str: 34
 Dex: 35
@@ -502,6 +518,7 @@ Size: 100
 LikeWork: 20
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 190
 Weight: 150
 Special_Bitvector: 0 
@@ -560,9 +577,10 @@ T 66900
 разрезать самую толстую броню.
 ~
 b0d0f0g0n0e2u2 d0f0k0r0u1 -600 E
-42 0 -10 16d18+4000 9d9+15
+35 0 -10 16d18+4000 9d9+15
 0d0+0 800000
 8 8 1
+Saves: -26 -26 -26 -26
 BareHandAttack: 1
 Str: 36
 Dex: 35
@@ -574,6 +592,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 200
 Weight: 200
 Special_Bitvector: C3 
@@ -618,9 +637,9 @@ Spell: 130
 Spell: 130
 Spell: 130
 Spell: 130
-Helper: 66912
-Helper: 66911
 Helper: 66910
+Helper: 66911
+Helper: 66912
 E
 I мелкие_твари,15:10
 #66914
@@ -636,7 +655,7 @@ I мелкие_твари,15:10
    Большое животное с длинными и острыми клыками.
 ~
 b0d0f0g0n0o0 d0f0h0k0 -600 E
-44 0 -10 15d20+2500 9d9+10
+30 0 -10 15d20+2500 9d9+10
 0d0+0 300000
 8 8 1
 BareHandAttack: 4
@@ -649,6 +668,7 @@ Cha: 10
 Size: 100
 LikeWork: 40
 Class: 103
+Race: 104
 Height: 160
 Weight: 200
 Special_Bitvector: B3 
@@ -674,9 +694,10 @@ I глаза,10:10
    Ужасное существо с каменной кожей и большими когтями.
 ~
 b0d0f0g0n0o0 d0f0k0l1t1 -600 E
-47 0 -10 15d20+3000 8d9+20
+34 0 -10 15d20+3000 8d9+20
 0d0+0 650000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 1
 Str: 36
 Dex: 23
@@ -688,6 +709,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 2
 Class: 100
+Race: 111
 Height: 200
 Weight: 200
 Special_Bitvector: C3 
@@ -703,7 +725,6 @@ Spell: 23
 Spell: 23
 Spell: 23
 E
-I кожа,10:5
 #66916
 болотный дух~
 болотный дух~
@@ -718,9 +739,10 @@ I кожа,10:5
 отравить даже целую армию.
 ~
 d0f0g0n0o0b2 d0f0k0u1 -600 E
-47 0 -10 10d15+3000 5d8+15
+34 0 -10 10d15+3000 5d8+15
 0d0+0 750000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 1
 Str: 29
 Dex: 32
@@ -732,6 +754,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 190
 Weight: 200
 Special_Bitvector: 0 
@@ -779,9 +802,10 @@ I шерсть,10:5
    Страшный полусгнивший труп человека, оживленный черной магией.
 ~
 c0d0f0g0y0z0A0 d0f0h0k0 -600 E
-43 0 -10 10d14+4000 7d9+15
+34 0 -10 10d14+4000 7d9+15
 0d0+0 650000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 3
 Str: 35
 Dex: 23
@@ -793,6 +817,7 @@ Size: 80
 LikeWork: 35
 ExtraAttack: 1
 Class: 101
+Race: 101
 Height: 180
 Weight: 160
 Special_Bitvector: b1c1d1 
@@ -829,9 +854,10 @@ E
    Страшная старушка в черном балахоне.
 ~
 b0c0d0f0g0x0y0A0 d0f0k0z0u1 -600 E
-50 0 -10 15d20+4000 7d8+20
+35 0 -10 15d20+4000 7d8+20
 2d2+400 900000
 8 8 2
+Saves: -26 -26 -26 -26
 Str: 23
 Dex: 20
 Int: 36
@@ -841,6 +867,7 @@ Cha: 16
 Size: 35
 LikeWork: 80
 Class: 102
+Race: 101
 Height: 80
 Weight: 90
 Special_Bitvector: b1c1d1 

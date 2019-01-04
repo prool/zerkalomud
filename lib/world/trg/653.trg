@@ -28,7 +28,7 @@ wait 2s
 say О, вот это - да! Вот так выручил!
 say Что ж, грех в долгу оставаться. 
 mechoaround %actor%  Возчик стал усиленно благодарить %actor.rname%.
-if (%actor.level% > 23) && (%actor.level% < 27)                         
+if (%actor.level% > 23) && (%actor.level% < 27)
   msend %actor%  Возчик так горячо стал Вас благодарить, что это добавило Вам 5000 очков опыта.
   %actor.exp(+5000)%
 else
@@ -39,7 +39,7 @@ else
   end
 end
 wait 1
-if ((%world.curobjs(3349)% < 1) && (%random.1000% < 30))
+if ((%random.100% <= 2) && (%world.curobjs(3349)% < 1))
   mload obj 3349
   say Ой, это ж запасное колесо от моей телеги!
   say А я думал что его цыгане сперли...

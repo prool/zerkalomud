@@ -13,9 +13,10 @@
 пастух, ему подчиняются все звери в лесу. Он охраняет лес и лесных зверей.
 ~
 b0c0d0f0n0o0r0t0x0A0r1d2h2 d0f0k0z0A0q1 -600 E
-28 0 -2 46d21+2900 7d7+8
+31 0 -2 46d21+2900 7d7+8
 4d2+134 350000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 1
 Str: 28
 Dex: 22
@@ -27,6 +28,7 @@ LikeWork: 70
 MaxFactor: 1
 ExtraAttack: 1
 Class: 104
+Race: 112
 Height: 140
 Weight: 70
 Special_Bitvector: w0c1 
@@ -77,7 +79,7 @@ T 68704
 предпочитает быть невидимой и только кричит из болота громким голосом. 
 ~
 c0d0g0h0i0k0l0m0u0A0e1f1 d0f0k0m1 0 E
-25 6 4 20d15+900 6d6+5
+28 6 4 20d15+900 6d6+5
 0d0+0 175000
 8 8 2
 BareHandAttack: 8
@@ -91,6 +93,7 @@ Size: 48
 LikeWork: 40
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 120
 Weight: 50
 Special_Bitvector: v0 
@@ -136,7 +139,7 @@ E
 сыплет им на голову труху и обматывает паутиной.
 ~
 d0g0h0m0q0A0b1 d0f0k0x0A0 0 E
-23 7 3 10d25+750 3d4+3
+24 7 3 10d25+750 3d4+3
 0d0+0 80000
 8 8 2
 BareHandAttack: 2
@@ -149,6 +152,7 @@ Size: 45
 LikeWork: 25
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 140
 Weight: 50
 Special_Bitvector: l0u0 
@@ -175,7 +179,7 @@ E
 Косматое существо с козлиными ногами, бородой и рогами.
 ~
 d0g0m0p0z0b1d2 d0k0A0l1r1 -600 E
-26 7 3 20d20+800 3d4+6
+25 7 3 20d20+800 3d4+6
 0d0+0 90000
 8 8 1
 BareHandAttack: 12
@@ -189,6 +193,7 @@ Size: 55
 LikeWork: 20
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 120
 Weight: 50
 Special_Bitvector: 0 
@@ -221,7 +226,7 @@ E
 Красавица-берегиня следит за порядком и спокойствием в лесу.
 ~
 d0g0m0n0A0 d0f0k0x1y1z1 -600 E
-26 6 4 20d15+700 4d4+5
+24 6 4 20d15+700 4d4+5
 0d0+0 80000
 8 8 2
 BareHandAttack: 2
@@ -235,6 +240,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 113
 Height: 160
 Weight: 70
 Special_Bitvector: 0 
@@ -273,6 +279,7 @@ Size: 70
 LikeWork: 15
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 180
 Weight: 80
 Special_Bitvector: o0v0 
@@ -308,6 +315,7 @@ Size: 60
 LikeWork: 55
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 150
 Weight: 60
 Special_Bitvector: h0i0a1b1c1 
@@ -343,6 +351,7 @@ Size: 70
 LikeWork: 35
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 120
 Weight: 50
 Special_Bitvector: 0 
@@ -374,10 +383,10 @@ E
 листине~
 Приставучая листина пытается сбить вас с дороги.
 ~
-Вредной лесной дух, заманивающий путников в самую глушь.
+Вредный лесной дух, заманивающий путников в самую глушь.
 ~
 d0g0k0l0m0o0A0 b0d0k0x0r1 0 E
-27 3 -3 40d10+1000 5d5+3
+24 3 -3 40d10+1000 5d5+3
 0d0+0 88000
 8 8 2
 BareHandAttack: 4
@@ -390,6 +399,7 @@ Size: 53
 LikeWork: 45
 ExtraAttack: 1
 Class: 100
+Race: 104
 Height: 130
 Weight: 50
 Special_Bitvector: 0 
@@ -414,9 +424,10 @@ E
 Мохнатое существо с когтями и клыками отдаленно напоминающее  человека.
 ~
 c0d0f0m0n0o0p0q0x0A0i2 d0f0k0n0s0z0A0m1 -600 E
-28 1 -8 54d7+2500 9d9+15
+31 1 -8 54d7+2500 9d9+15
 0d0+0 380000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 4
 Str: 28
 Dex: 25
@@ -428,6 +439,7 @@ Size: 90
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 150
 Weight: 80
 Special_Bitvector: i0B3 
@@ -447,12 +459,12 @@ E
 старика-моховика~
 стариком-моховиком~
 старике-моховике~
-Старик-моховик сидит здесь. приняв важный и напыщенный вид.
+Старик-моховик сидит здесь, приняв важный и напыщенный вид.
 ~
 Маленький зеленый человечек в одежде из травы. Иногда бывает очень сердитым.
 ~
 b0c0d0g0l0n0o0u0A0 d0k0A0 -600 E
-27 8 -2 24d16+1500 4d4+4
+28 8 -2 24d16+1500 4d4+4
 8d8+80 180000
 8 8 1
 Str: 16
@@ -466,6 +478,7 @@ LikeWork: 75
 MaxFactor: 1
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 130
 Weight: 50
 Special_Bitvector: 0 
@@ -494,7 +507,7 @@ E
 Следит в лесу за цветами. Там где он - всегда все расцветает и радует глаз.
 ~
 b0d0g0l0n0r0 d0f0k0z0A0x1 -600 E
-28 4 2 20d17+1000 4d5+5
+27 4 2 20d17+1000 4d5+5
 0d0+0 125000
 8 8 1
 BareHandAttack: 2
@@ -507,6 +520,7 @@ Size: 54
 LikeWork: 30
 ExtraAttack: 1
 Class: 100
+Race: 113
 Height: 136
 Weight: 66
 Special_Bitvector: 0 
@@ -551,6 +565,7 @@ Size: 60
 LikeWork: 50
 ExtraAttack: 1
 Class: 100
+Race: 107
 Height: 150
 Weight: 70
 Special_Bitvector: 0 
@@ -594,6 +609,7 @@ Size: 70
 LikeWork: 25
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 155
 Weight: 75
 Special_Bitvector: 0 
@@ -620,7 +636,7 @@ E
 
 ~
 d0g0m0n0u0A0 d0k0 0 E
-25 6 3 40d8+900 4d4+3
+23 6 3 40d8+900 4d4+3
 0d0+0 70000
 8 8 1
 BareHandAttack: 1
@@ -632,6 +648,7 @@ Size: 55
 LikeWork: 15
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 110
 Weight: 50
 Special_Bitvector: 0 
@@ -657,7 +674,7 @@ E
 там глядишь, и новая ягодка вырастет.
 ~
 b0d0l0n0 d0f0h0k0 0 E
-27 4 3 20d17+1000 6d5+3
+26 4 3 20d17+1000 6d5+3
 0d0+0 115000
 8 8 1
 BareHandAttack: 2
@@ -670,6 +687,7 @@ Size: 60
 LikeWork: 55
 ExtraAttack: 1
 Class: 100
+Race: 113
 Height: 110
 Weight: 80
 Special_Bitvector: 0 
@@ -705,7 +723,7 @@ E
 
 ~
 b0d0l0n0 d0f0k0r0 600 E
-28 3 2 20d18+1500 6d5+8
+26 3 2 20d18+1500 6d5+8
 0d0+0 108000
 8 8 1
 BareHandAttack: 5
@@ -717,6 +735,7 @@ Size: 75
 LikeWork: 35
 ExtraAttack: 1
 Class: 100
+Race: 108
 Height: 140
 Weight: 55
 Special_Bitvector: 0 
@@ -744,7 +763,7 @@ E
 Мерзкое ушастое чудище, боящееся дневного света и прячущееся в темных пещерах.
 ~
 c0d0f0m0n0p0A0i2 d0f0k0z0A0 -600 E
-26 2 -5 43d8+1400 6d4+12
+27 2 -5 43d8+1400 6d4+12
 6d21+300 130000
 8 8 1
 BareHandAttack: 4
@@ -758,6 +777,7 @@ Size: 60
 LikeWork: 60
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 140
 Weight: 80
 Special_Bitvector: C3 
@@ -804,6 +824,7 @@ Dex: 21
 Con: 20
 Size: 10
 Class: 101
+Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: v0 
@@ -826,7 +847,7 @@ T 68703
 Неприметная дикая кошка, выбравшая себе домом темные пещеры.
 ~
 d0h0m0t0A0 f0k0s0t0z0A0 0 E
-25 0 -8 13d22+650 5d6+8
+26 0 -8 13d22+650 5d6+8
 0d0+0 110000
 8 8 2
 BareHandAttack: 8
@@ -838,6 +859,7 @@ Size: 30
 LikeWork: 25
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 90
 Weight: 50
 Special_Bitvector: i0 
@@ -872,6 +894,7 @@ Size: 10
 LikeWork: 15
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 50
 Weight: 50
 Special_Bitvector: g0 
@@ -893,7 +916,7 @@ E
 замешательство даже колдунов и волшебников.
 ~
 d0j0k0m0n0A0 d0f0k0s0A0 -600 E
-28 4 -10 16d14+1240 5d4+8
+27 4 -10 16d14+1240 5d4+8
 0d0+0 125000
 8 8 1
 BareHandAttack: 4
@@ -907,6 +930,7 @@ Size: 70
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 160
 Weight: 60
 Special_Bitvector: i0b1c1C3 
@@ -932,6 +956,7 @@ b0d0f0g0n0o0p0r0t0x0z0A0i1g2 d0f0h0k0z0A0C0m1p1r1 -600 E
 40 0 -7 99d99+9950 12d12+30
 6d23+463 2580000
 8 8 1
+Saves: -46 -46 -46 -46
 BareHandAttack: 3
 Str: 24
 Dex: 20
@@ -942,6 +967,7 @@ Size: 80
 LikeWork: 85
 ExtraAttack: 2
 Class: 104
+Race: 111
 Height: 170
 Weight: 50
 Special_Bitvector: b1c1B3 
@@ -1113,7 +1139,7 @@ T 68700
 Целая туча молодых озлобленных на незваных гостей ос.
 ~
 b0d0f0n0o0p0q0r0t0u0i2 d0k0 -600 E
-24 0 2 12d8+800 2d5+3
+25 0 2 12d8+800 2d5+3
 0d0+0 100000
 8 8 1
 BareHandAttack: 4
@@ -1122,6 +1148,7 @@ Dex: 17
 Size: 10
 ExtraAttack: 6
 Class: 103
+Race: 107
 Height: 30
 Weight: 50
 Special_Bitvector: g0B3 
@@ -1141,7 +1168,7 @@ E
 Неведомая сила заставила это мертвеца покинуть свой склеп.
 ~
 b0d0f0m0n0p0r0u0x0z0i2 d0f0k0n0r0C0l1r1 -600 E
-26 4 -8 17d11+2300 7d9+12
+30 4 -8 17d11+2300 7d9+12
 4d23+333 280000
 8 8 1
 BareHandAttack: 12
@@ -1155,6 +1182,7 @@ Size: 10
 LikeWork: 40
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 

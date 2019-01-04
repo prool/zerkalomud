@@ -24,6 +24,7 @@ Con: 27
 Cha: 27
 Size: 100
 Class: 100
+Race: 108
 Height: 200
 Weight: 50
 Special_Bitvector: b1c1 
@@ -48,7 +49,7 @@ E
 добычи. Он внимательно осматривает все вокруг.
 ~
 d0g0h0m0n0t0w0A0a1d1g1r1g2 k0s0z0 0 E
-18 2 -3 55d30+300 3d8+15
+28 2 -3 55d30+300 3d8+15
 10d20+50 150000
 8 8 1
 Str: 30
@@ -60,6 +61,7 @@ Cha: 19
 Size: 100
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 165
 Weight: 50
 Special_Bitvector: y0b1c1m3 
@@ -100,6 +102,7 @@ Con: 35
 Cha: 17
 Size: 100
 Class: 104
+Race: 104
 Height: 170
 Weight: 65
 Special_Bitvector: 0 
@@ -151,17 +154,17 @@ T 35100
 сверкают живым огнем кроваво-красные уголья глаз.
 ~
 b0d0g0l0m0n0p0q0u0v0x0r1g2i2 c0d0e0f0h0k0r0z0m1r1 -600 E
-40 -7 -10 40d40+2500 10d3+10
-50d20+50 800000
+32 -7 -10 40d40+2500 10d3+10
+50d20+50 500000
 8 8 1
-Saves: 40 40 40 40
+Saves: -15 -26 -15 -15
 CastSuccess: 50
 Success: 20
 Absorbe: 20
 AResist: 40
 BareHandAttack: 6
 Str: 30
-Dex: 27
+Dex: 25
 Int: 29
 Wis: 25
 Con: 28
@@ -170,6 +173,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 4
 Class: 105
+Race: 105
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1d3m3 
@@ -238,7 +242,7 @@ L 1720 5 0 0
 
 ~
 b0c0d0g0j0m0n0p0w0A0d1 d0f0r0m1 0 E
-28 15 3 40d40+100 6d6+15
+21 15 3 40d40+100 6d6+15
 60d60+100 50000
 8 8 1
 Destination: 35151
@@ -255,6 +259,7 @@ Cha: 14
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 160
 Special_Bitvector: b1c1 
@@ -281,7 +286,7 @@ E
 
 ~
 d0f0g0l0m0 k0s0t0A0 0 E
-19 5 5 60d10+300 5d5+5
+14 5 5 60d10+300 5d5+5
 0d0+0 15000
 8 8 2
 BareHandAttack: 4
@@ -294,6 +299,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 65
 Weight: 50
 Special_Bitvector: p0 
@@ -323,6 +329,7 @@ Con: 15
 Cha: 14
 Size: 100
 Class: 102
+Race: 101
 Height: 172
 Weight: 65
 Special_Bitvector: b1c1 
@@ -371,6 +378,7 @@ Con: 30
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 105
 Special_Bitvector: b1c1d1d3 
@@ -396,7 +404,7 @@ E
 
 ~
 c0d0f0h0l0m0y0 d0k0r0m1 -600 E
-28 -6 -4 30d50+1000 10d6+21
+29 -6 -4 30d50+1000 10d6+21
 0d0+1000 229663
 8 8 1
 Str: 22
@@ -409,6 +417,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -460,10 +469,10 @@ E
 мысли, одна только ненависть и отчаяние.
 ~
 b0c0d0g0l0m0n0o0p0v0A0 d0f0k0m0n0A0m1 -600 E
-35 13 -10 10d10+2000 3d4+3
+31 13 -10 10d10+2000 3d4+3
 0d0+1800 400000
 8 8 1
-Saves: 40 40 40 40
+Saves: -10 -10 -10 -10
 PlusMem: 40
 CastSuccess: 40
 AResist: 30
@@ -478,6 +487,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 105
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -544,7 +554,7 @@ T 35105
 повадок и следов ему нет равных.
 ~
 d0g0h0m0n0t0a1d1g1r1g2 k0s0z0 0 E
-18 2 -3 55d30+300 3d5+15
+21 2 -3 55d30+300 3d5+15
 10d20+350 50000
 8 8 1
 Str: 30
@@ -556,6 +566,7 @@ Cha: 19
 Size: 100
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 165
 Weight: 50
 Special_Bitvector: b1m3 
@@ -583,7 +594,7 @@ E
 в виде оскаленной головы волка.
 ~
 d0g0h0m0n0t0a1d1g1r1g2 k0s0z0 0 E
-18 2 -3 55d30+300 3d5+15
+21 2 -3 55d30+300 3d5+15
 10d20+350 50000
 8 8 1
 Str: 30
@@ -595,6 +606,7 @@ Cha: 19
 Size: 100
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 165
 Weight: 50
 Special_Bitvector: b1m3 
@@ -622,7 +634,7 @@ E
 домой, в надежде передохнуть.
 ~
 d0g0h0m0n0t0a1d1g1r1g2 k0s0z0 0 E
-18 2 -3 55d30+300 3d5+15
+21 2 -3 55d30+300 3d5+15
 10d20+350 50000
 8 8 1
 Str: 30
@@ -634,6 +646,7 @@ Cha: 19
 Size: 100
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 165
 Weight: 50
 Special_Bitvector: y0b1m3 
@@ -660,7 +673,7 @@ E
 способностью БОЛЬНО кусаться.
 ~
 d0e0f0m0o0a1h1l1m1n1 d0f0m1 0 E
-10 1 -10 0d0+5 0d0+15
+14 1 -10 0d0+5 0d0+15
 0d0+0 15000
 8 8 1
 Str: 20
@@ -672,6 +685,7 @@ Cha: 12
 Size: 10
 LikeWork: 90
 Class: 103
+Race: 107
 Height: 30
 Weight: 50
 Special_Bitvector: m0 
@@ -694,7 +708,7 @@ E
 собрат.
 ~
 d0j0m0n0o0y0 d0f0s0 -600 E
-17 7 -4 10d10+620 7d9+9
+18 7 -4 10d10+620 7d9+9
 0d0+0 30000
 8 8 1
 BareHandAttack: 4
@@ -707,6 +721,7 @@ Cha: 12
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: i0p0 

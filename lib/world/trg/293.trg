@@ -3,78 +3,78 @@
 2 c 0
 лезть залезть~
 if !(%arg.contains(гнездо)%) 
-   wsend       %actor% Куда это Вы хотите пролезть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите пролезть???
+  return 0
+  halt
 end
-  wsend       %actor% Хватаясь за ветки дуба, вы полезли в птичье гнездо.
-  wechoaround %actor% _%actor.name% полез%actor.q% в птичье гнездо, хватаясь за ветки дуба.
-  wait 1s
-  wsend %actor% - Вы оказались на дне большого гнезда.
-  wteleport %actor.name% 29352
-  wechoaround %actor% Кто-то залез в гнездо.
-  calcuid ptenec 29309 mob
-  attach 29305 %ptenec.id%
-  exec  29305 %ptenec.id% 
+wsend       %actor% Хватаясь за ветки дуба, вы полезли в птичье гнездо.
+wechoaround %actor% _%actor.name% полез%actor.q% в птичье гнездо, хватаясь за ветки дуба.
+wait 1s
+wsend %actor% - Вы оказались на дне большого гнезда.
+wteleport %actor.name% 29352
+wechoaround %actor% Кто-то залез в гнездо.
+calcuid ptenec 29309 mob
+attach 29305 %ptenec.id%
+exec  29305 %ptenec.id% 
 ~
 #29301
 лезем из гнезда~
 2 c 0
 лезть вылезть~
 if !(%arg.contains(назад)%) 
-   wsend       %actor% Куда это Вы хотите пролезть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите пролезть???
+  return 0
+  halt
 end
-  wsend       %actor% Осторожно хватаясь за ветки дуба, вы полезли назад.
-  wechoaround %actor% %actor.name% полез%actor.q% назад, осторожно хватаясь за ветки дуба.
-  wait 1s
-  wsend %actor% - Вы оказались на огромной дубовой ветке.
-  wteleport %actor.name% 29330
-  wechoaround %actor% Кто-то вылез из птичьего гнезда.
+wsend       %actor% Осторожно хватаясь за ветки дуба, вы полезли назад.
+wechoaround %actor% %actor.name% полез%actor.q% назад, осторожно хватаясь за ветки дуба.
+wait 1s
+wsend %actor% - Вы оказались на огромной дубовой ветке.
+wteleport %actor.name% 29330
+wechoaround %actor% Кто-то вылез из птичьего гнезда.
 ~
 #29302
 лезем в дупло~
 2 c 0
 лезть залезть~
 if !(%arg.contains(дупло)%) 
-   wsend       %actor% Куда это Вы хотите пролезть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите пролезть???
+  return 0
+  halt
 end
-  wsend       %actor% Согнувшись в три погибели, вы полезли в дупло.
-  wechoaround %actor% %actor.name% полез%actor.q% в дупло, согнувшись в три погибели.
-  wait 1s
-  wsend %actor% - Вы оказались в уютной комнатушке внутри дуба.
-  wteleport %actor.name% 29353
-  wat 29353 wechoaround %actor% Кто-то пролез в дупло.
-  calcuid starichok 29310 mob
-  attach 29308 %starichok.id%
-  exec  29308 %starichok.id% 
+wsend       %actor% Согнувшись в три погибели, вы полезли в дупло.
+wechoaround %actor% %actor.name% полез%actor.q% в дупло, согнувшись в три погибели.
+wait 1s
+wsend %actor% - Вы оказались в уютной комнатушке внутри дуба.
+wteleport %actor.name% 29353
+wat 29353 wechoaround %actor% Кто-то пролез в дупло.
+calcuid starichok 29310 mob
+attach 29308 %starichok.id%
+exec  29308 %starichok.id% 
 ~
 #29303
 лезем из дупла~
 2 c 0
 лезть вылезть~
 if !(%arg.contains(назад)%) 
-   wsend       %actor% Куда это Вы хотите пролезть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите пролезть???
+  return 0
+  halt
 end
-  wsend       %actor% Согнувшись в три погибели, вы полезли из дупла.
-  wechoaround %actor% %actor.name% полез%actor.q% из дупла, согнувшись в три погибели.
-  wait 1s
-  wsend %actor% - Вы оказались на огромной дубовой ветке.
-  wteleport %actor.name% 29332
-  wat 29332 wechoaround %actor% Кто-то вылез сюда из дупла дуба.
+wsend       %actor% Согнувшись в три погибели, вы полезли из дупла.
+wechoaround %actor% %actor.name% полез%actor.q% из дупла, согнувшись в три погибели.
+wait 1s
+wsend %actor% - Вы оказались на огромной дубовой ветке.
+wteleport %actor.name% 29332
+wat 29332 wechoaround %actor% Кто-то вылез сюда из дупла дуба.
 ~
 #29304
 змей движется~
 0 r 100
 ~
 if %self.fighting%
-    halt
-   end
+  halt
+end
 wait 1s
 mecho   Змей движется в сторону гнезда, не обращая на вас внимания.
 ~
@@ -83,24 +83,24 @@ mecho   Змей движется в сторону гнезда, не обращая на вас внимания.
 0 z 100
 ~
 wait 3s
-      switch %random.4%
-case 1
-      mecho Птенец пропищал: "Вы слыхали как поют скворцы? ПИ-ПИ-ПИ!"
-break
-case 2
-      mecho Птенец пропищал: "Когда я выросту, я стану орлом!"
-break
-case 3
-      mecho Птенец пропищал: "Есть хочу! Заморил бы щас какого-нибудь червячка!"
-break
-case 4
-      mecho Птенец пропищал: "Мой дедушка был попугаем и жил в золотой клетке!"
-break
-default
-break
+switch %random.4%
+  case 1
+    mecho Птенец пропищал: "Вы слыхали как поют скворцы? ПИ-ПИ-ПИ!"
+  break
+  case 2
+    mecho Птенец пропищал: "Когда я выросту, я стану орлом!"
+  break
+  case 3
+    mecho Птенец пропищал: "Есть хочу! Заморил бы щас какого-нибудь червячка!"
+  break
+  case 4
+    mecho Птенец пропищал: "Мой дедушка был попугаем и жил в золотой клетке!"
+  break
+  default
+  break
 done
-  calcuid ptenec 29309 mob
-  detach 29305 %ptenec.id%  
+calcuid ptenec 29309 mob
+detach 29305 %ptenec.id%  
 end
 ~
 #29306
@@ -109,8 +109,8 @@ end
 ~
 wait 1
 if %object.vnum% == 29301
-wait 1
-mpurge %object%
+  wait 1
+  mpurge %object%
   wait 1s
   mecho Птенец с визгом набросился на змеиное мясо.
   wait 3s
@@ -118,25 +118,25 @@ mpurge %object%
   wait 2s
   mecho Птенец начал рыться в своем помете, что-то выискивая.
   wait 4s
-if %world.curobjs(29308)% > 10
-дум
-wait 1s
-эмо печально пискнул.
-msend %actor% - Извини. Не нашел ничего. Давай я тебе лучше спою?
-wait 2s
-mecho Птенец начал петь.
-wait 1s
-mecho Вам стало плохо.
-mdamage %actor% 20
-wait 2s
-msend %actor% - Понравилось? Захочешь еще послушать - приходи.
-halt
-end
+  if %world.curobjs(29308)% > 10
+    дум
+    wait 1s
+    эмо печально пискнул.
+    msend %actor% - Извини. Не нашел ничего. Давай я тебе лучше спою?
+    wait 2s
+    mecho Птенец начал петь.
+    wait 1s
+    mecho Вам стало плохо.
+    mdamage %actor% 20
+    wait 2s
+    msend %actor% - Понравилось? Захочешь еще послушать - приходи.
+    halt
+  end
   взд
   msend %actor% - Погоди, погоди! Щас что-нибудь, да найду!
   wait 2s
   mecho Птенец ухватился крылышками за ветку гнезда и с натугой вытащил.
-mload obj 29305
+  mload obj 29305
   wait 4s
   улы
   msend %actor% - На вот, держи!
@@ -149,27 +149,31 @@ end
 0 j 100
 ~
 wait 1
-if %object.vnum% == 29309
+if %object.vnum% != 29309
+  боя
+  say Чего-чего тебе надо?
+  drop %object.name%
+  halt
+end
 wait 1
 mpurge %object%
-  wait 2s
-  msend %actor% - И что я должен с ним сделать?
-  wait 1s
-  mecho Паук задумался и начал изучать лук.
-  wait 1s
-  msend %actor% - А понимаю, понимаю! Ты хочешь тетиву для него!
-  msend %actor% - Сейчас, сейчас сделаю, только не ешь меня!
-  wait 1s
-  mecho Паук начал ловко вить нить паутины.
-  wait 1s
-  mecho Паук привязал паутинную нить к концам лука.
-  wait 1s
-  mload obj 29308
-  дат лук %actor.name%
-  улы
-  wait 1s
-  msend %actor% - Теперь-то ты точно не съешь меня?
-end
+wait 2s
+msend %actor% - И что я должен с ним сделать?
+wait 1s
+mecho Паук задумался и начал изучать лук.
+wait 1s
+msend %actor% - А понимаю, понимаю! Ты хочешь тетиву для него!
+msend %actor% - Сейчас, сейчас сделаю, только не ешь меня!
+wait 1s
+mecho Паук начал ловко вить нить паутины.
+wait 1s
+mecho Паук привязал паутинную нить к концам лука.
+wait 1s
+mload obj 29308
+дат лук %actor.name%
+улы
+wait 1s
+msend %actor% - Теперь-то ты точно не съешь меня?
 ~
 #29308
 приветствие старичка~
@@ -232,8 +236,8 @@ msend %actor% - я бы помог тебе сделать лук не хуже чем у меня.
 ~
 wait 1
 if %object.vnum% == 29305
-wait 1
-mpurge %object%
+  wait 1
+  mpurge %object%
   wait 2s
   msend %actor% - О, какая хорошая ветка, из нее выйдет отличный лук.
   wait 2s
@@ -278,23 +282,23 @@ osend  %actor% Тетива на луке грозно задребезжала в предвкушении битвы.
 ~
 wait 1
 switch %random.4%
-case 1
-         wsend %actor% Небольшой желудь упал с верхушки дуба и больно ударил Вас!
-         wechoaround %actor% Небольшой желудь упал с верхушки дуба и больно ударил %actor.vname%!
-         wdamage %actor% 5
-break
-case 2
-         wsend %actor% Острый сук упал с верхушки дуба и больно ударил Вас!
-         wechoaround %actor% Острый сук упал с верхушки дуба и больно ударил %actor.vname%!
-         wdamage %actor% 10
-break
-case 3
-         wsend %actor% Тяжелая ветка упала с верхушки дуба и больно ударила Вас!
-         wechoaround %actor% Тяжелая ветка упала с верхушки дуба и больно ударила %actor.vname%!
-         wdamage %actor% 15
-break
-     default
-break
+  case 1
+    wsend %actor% Небольшой желудь упал с верхушки дуба и больно ударил Вас!
+    wechoaround %actor% Небольшой желудь упал с верхушки дуба и больно ударил %actor.vname%!
+    wdamage %actor% 5
+  break
+  case 2
+    wsend %actor% Острый сук упал с верхушки дуба и больно ударил Вас!
+    wechoaround %actor% Острый сук упал с верхушки дуба и больно ударил %actor.vname%!
+    wdamage %actor% 10
+  break
+  case 3
+    wsend %actor% Тяжелая ветка упала с верхушки дуба и больно ударила Вас!
+    wechoaround %actor% Тяжелая ветка упала с верхушки дуба и больно ударила %actor.vname%!
+    wdamage %actor% 15
+  break
+  default
+  break
 done
 end
 ~
@@ -303,28 +307,28 @@ end
 0 k 33
 ~
 switch %random.20%
-case 1
-         msend %actor% Пестрый дятел ударил Вас клювом прямо в темечко!
-         mechoaround %actor% Пестрый дятел ударил клювом %actor.vname% прямо в темечко!
-         mdamage %actor% 20
-break
-case 2
-         msend %actor% Пестрый дятел ударил Вас клювом прямо в руку!
-         mechoaround %actor% Пестрый дятел ударил клювом %actor.vname% прямо в руку!
-         mdamage %actor% 15
-break
-case 3
-         msend %actor% Пестрый дятел ударил Вас клювом прямо в живот!
-         mechoaround %actor% Пестрый дятел ударил клювом %actor.vname% прямо в живот!
-         mdamage %actor% 10
-break
-case 4
-         msend %actor% Пестрый дятел ударил Вас клювом прямо в ногу!
-         mechoaround %actor% Пестрый дятел ударил клювом %actor.vname% прямо в ногу!
-         mdamage %actor% 5
-break
-     default
-break
+  case 1
+    msend %actor% Пестрый дятел ударил Вас клювом прямо в темечко!
+    mechoaround %actor% Пестрый дятел ударил клювом %actor.vname% прямо в темечко!
+    mdamage %actor% 20
+  break
+  case 2
+    msend %actor% Пестрый дятел ударил Вас клювом прямо в руку!
+    mechoaround %actor% Пестрый дятел ударил клювом %actor.vname% прямо в руку!
+    mdamage %actor% 15
+  break
+  case 3
+    msend %actor% Пестрый дятел ударил Вас клювом прямо в живот!
+    mechoaround %actor% Пестрый дятел ударил клювом %actor.vname% прямо в живот!
+    mdamage %actor% 10
+  break
+  case 4
+    msend %actor% Пестрый дятел ударил Вас клювом прямо в ногу!
+    mechoaround %actor% Пестрый дятел ударил клювом %actor.vname% прямо в ногу!
+    mdamage %actor% 5
+  break
+  default
+  break
 done
 end
 ~
@@ -333,7 +337,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(29303)% < 10) &&  (%random.2% == 1)
-mload obj 29303
+  mload obj 29303
 end
 ~
 $~

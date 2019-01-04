@@ -12,7 +12,7 @@
 Наверное, у него не все в порядке с головой.
 ~
 b0d0g0l0n0o0x0 d0 0 E
-15 8 5 10d25+270 3d4+3
+14 8 5 10d25+270 3d4+3
 8d5+5 14000
 6 6 1
 Str: 24
@@ -25,6 +25,7 @@ Size: 60
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: f0b1c1 
@@ -48,7 +49,7 @@ E
 сильные руки не всегда держали оружие, видно нужда заставила.
 ~
 b0d0g0l0m0n0o0x0A0 d0f0k0 0 E
-20 5 3 50d7+300 4d4+4
+16 5 3 50d7+300 4d4+4
 8d10+50 20000
 5 8 1
 BareHandAttack: 5
@@ -62,6 +63,7 @@ Size: 65
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b0c0d0b1c1 
@@ -74,10 +76,10 @@ Skill: 144 100
 Skill: 145 100
 Skill: 151 90
 Skill: 158 80
-Helper: 11015
-Helper: 11008
-Helper: 11008
 Helper: 11006
+Helper: 11008
+Helper: 11008
+Helper: 11015
 E
 T 11000
 #11002
@@ -94,7 +96,7 @@ T 11000
 не лучшим образом, все тело покрыто гноящимися ранами. Чудо, что он еще жив.
 ~
 b0d0g0n0 d0f0k0 0 E
-9 10 10 2d2+2 1d1+1
+1 10 10 2d2+2 1d1+1
 0d0+0 5
 6 6 1
 Str: 22
@@ -106,6 +108,7 @@ Cha: 17
 Size: 60
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -134,7 +137,7 @@ T 11001
 состоит в какой-то купеческой гильдии.
 ~
 b0d0g0n0 d0f0 0 E
-8 19 10 5d5+5 2d2+2
+1 19 10 5d5+5 2d2+2
 0d0+0 10
 8 8 1
 Str: 18
@@ -147,6 +150,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -168,7 +172,7 @@ T 11009
 Невзрачная молодая девушка. 
 ~
 b0d0g0l0n0 k0 0 E
-10 11 7 40d4+100 2d4+2
+8 11 7 40d4+100 2d4+2
 2d12+0 3000
 8 8 2
 BareHandAttack: 1
@@ -180,6 +184,7 @@ Con: 20
 Cha: 3
 Size: 55
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -210,7 +215,7 @@ E
 Мальчонка 12-13 лет, он смотрит на вас хитрым взглядом.
 ~
 d0g0m0 k0 0 E
-10 11 7 40d4+100 2d4+2
+8 11 7 40d4+100 2d4+2
 2d4+1 3000
 8 8 1
 Destination: 11012
@@ -233,6 +238,7 @@ Size: 40
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: p0y0 
@@ -259,7 +265,7 @@ E
 Маленький, плюгавенький мужичишка с подозрительным взглядом.
 ~
 c0d0g0m0 d0f0 0 E
-12 10 6 20d10+190 2d4+4
+9 10 6 20d10+190 2d4+4
 2d2+11 5000
 8 8 1
 Destination: 11009
@@ -282,6 +288,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: y0b1c1 
@@ -316,6 +323,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b0 
@@ -339,7 +347,7 @@ E
 правую ногу.
 ~
 d0e0g0n0o0x0 c0k0 0 E
-13 9 5 20d11+210 2d4+5
+12 9 5 20d11+210 2d4+5
 8d5+5 10000
 8 8 1
 Str: 24
@@ -352,6 +360,7 @@ Size: 60
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: f0b1c1 
@@ -400,6 +409,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: i0 
@@ -425,7 +435,7 @@ E
 превратив мелкое, безмозглое существо, в такую ужасную тварь.
 ~
 b0d0f0g0m0l1m1n1 k0 0 E
-10 11 7 40d4+100 2d4+4
+8 11 7 40d4+100 2d4+4
 0d0+0 3000
 8 8 1
 BareHandAttack: 4
@@ -437,6 +447,7 @@ Con: 16
 Cha: 6
 Size: 40
 Class: 100
+Race: 107
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -455,7 +466,7 @@ E
 Пожилой мужчина умело вырезает деревянную ложку. 
 ~
 b0d0g0l0m0n0o0x0 d0 0 E
-11 10 6 25d7+150 2d4+3
+9 10 6 25d7+150 2d4+3
 8d5+5 4000
 6 6 1
 Str: 24
@@ -468,6 +479,7 @@ Size: 60
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -491,7 +503,7 @@ E
 И пахнет от него не самыми изысканными ароматами, интересно, сколько лет он не мылся?
 ~
 b0d0g0l0n0o0x0 d0 0 E
-12 10 6 20d10+190 2d4+4
+9 10 6 20d10+190 2d4+4
 8d15+5 5000
 8 8 1
 Str: 24
@@ -504,6 +516,7 @@ Size: 60
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -526,7 +539,7 @@ E
 Грязное тощее животное, в чем только дух держится. 
 ~
 d0f0g0 f0k0 0 E
-11 10 6 25d7+150 2d4+3
+9 10 6 25d7+150 2d4+3
 0d0+0 4000
 8 8 2
 BareHandAttack: 4
@@ -539,6 +552,7 @@ Cha: 3
 Size: 40
 LikeWork: 100
 Class: 103
+Race: 104
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -558,7 +572,7 @@ E
 Большой грязный мужик громко храпит во сне.
 ~
 b0d0g0l0n0o0x0 d0 0 E
-12 10 6 20d10+190 2d4+4
+9 10 6 20d10+190 2d4+4
 8d5+5 5000
 4 4 1
 Str: 24
@@ -571,6 +585,7 @@ Size: 60
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -608,6 +623,7 @@ Size: 60
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: f0b1c1 
@@ -631,7 +647,7 @@ E
 Старая, умудренная годами женщина. 
 ~
 b0d0g0l0n0 d0f0k0 0 E
-9 12 7 25d5+100 2d3+3
+7 12 7 25d5+100 2d3+3
 0d0+10 2500
 8 8 2
 BareHandAttack: 1
@@ -644,6 +660,7 @@ Cha: 3
 Size: 55
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -680,7 +697,7 @@ E
 Похоже, что у него получается.
 ~
 b0d0g0n0f2 0 0 E
-17 7 4 20d14+290 3d4+5
+15 7 4 20d14+290 3d4+5
 0d0+100 16300
 8 8 1
 Str: 3
@@ -691,6 +708,7 @@ Con: 3
 Cha: 3
 Size: 60
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -711,7 +729,7 @@ T 11003
 хуже.
 ~
 b0d0g0n0 0 0 E
-15 8 5 10d25+270 3d4+3
+14 8 5 10d25+270 3d4+3
 0d0+10 14000
 8 8 1
 Str: 3
@@ -722,6 +740,7 @@ Con: 3
 Cha: 3
 Size: 60
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -742,7 +761,7 @@ T 11002
 кто попробует что-нибудь поломать! За такое он и убить может.
 ~
 b0d0g0l0m0n0 0 0 E
-20 5 3 50d7+300 4d4+4
+16 5 3 50d7+300 4d4+4
 0d0+20 20000
 8 8 1
 BareHandAttack: 5
@@ -754,6 +773,7 @@ Con: 3
 Cha: 3
 Size: 100
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b0 
@@ -785,6 +805,7 @@ Con: 3
 Cha: 3
 Size: 45
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -818,6 +839,7 @@ Con: 3
 Cha: 3
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -837,7 +859,7 @@ T 11007
 Веселый мужик глупо озирается по сторонам.
 ~
 d0g0n0f2 0 -600 E
-17 7 4 20d14+290 3d4+5
+15 7 4 20d14+290 3d4+5
 0d0+14 16300
 8 8 1
 Str: 3
@@ -848,6 +870,7 @@ Con: 3
 Cha: 3
 Size: 60
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -867,7 +890,7 @@ E
 главное, что по душе.
 ~
 b0d0f0g0n0p0q0r0x0 0 -600 E
-17 7 4 20d14+290 3d4+5
+15 7 4 20d14+290 3d4+5
 0d0+10 17000
 8 8 1
 Str: 3
@@ -878,6 +901,7 @@ Con: 3
 Cha: 3
 Size: 100
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -896,8 +920,8 @@ E
 Черное полупрозрачное умертвие.
 ~
 b0d0f0g0z0 d0f0k0z0 -600 E
-21 -30 3 20d17+500 4d5+20
-0d0+0 20000
+16 -30 3 20d17+500 4d5+20
+0d0+1000 20000
 8 8 1
 BareHandAttack: 12
 Str: 3
@@ -908,6 +932,7 @@ Con: 3
 Cha: 3
 Size: 50
 Class: 101
+Race: 111
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

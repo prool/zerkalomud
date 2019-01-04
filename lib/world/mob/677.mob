@@ -25,6 +25,7 @@ LikeWork: 14
 MaxFactor: 4
 ExtraAttack: 2
 Class: 101
+Race: 114
 Height: 199
 Weight: 100
 Special_Bitvector: p0x0c1C3 
@@ -72,6 +73,7 @@ LikeWork: 15
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 50
 Weight: 50
 Special_Bitvector: l0x0c1C3 
@@ -116,6 +118,7 @@ LikeWork: 12
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 70
 Weight: 85
 Special_Bitvector: l0x0c1C3 
@@ -155,6 +158,7 @@ LikeWork: 14
 MaxFactor: 4
 ExtraAttack: 2
 Class: 101
+Race: 114
 Height: 199
 Weight: 100
 Special_Bitvector: p0x0c1C3 
@@ -202,6 +206,7 @@ LikeWork: 15
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 50
 Weight: 50
 Special_Bitvector: l0x0c1C3 
@@ -246,6 +251,7 @@ LikeWork: 12
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 70
 Weight: 85
 Special_Bitvector: l0x0c1C3 
@@ -285,6 +291,7 @@ LikeWork: 14
 MaxFactor: 4
 ExtraAttack: 2
 Class: 101
+Race: 114
 Height: 199
 Weight: 100
 Special_Bitvector: p0x0c1C3 
@@ -332,6 +339,7 @@ LikeWork: 15
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 50
 Weight: 50
 Special_Bitvector: l0x0c1C3 
@@ -376,6 +384,7 @@ LikeWork: 12
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 70
 Weight: 85
 Special_Bitvector: l0x0c1C3 
@@ -415,6 +424,7 @@ LikeWork: 40
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 50
 Weight: 50
 Special_Bitvector: l0x0m3C3 
@@ -458,6 +468,7 @@ LikeWork: 14
 MaxFactor: 2
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 174
 Weight: 88
 Special_Bitvector: l0x0b1c1C3 
@@ -497,6 +508,7 @@ LikeWork: 40
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 50
 Weight: 50
 Special_Bitvector: l0x0m3C3 
@@ -539,6 +551,7 @@ LikeWork: 12
 MaxFactor: 4
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: c1C3 
@@ -579,6 +592,7 @@ LikeWork: 45
 MaxFactor: 3
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0e0f0x0b1c1d1C3 
@@ -612,7 +626,6 @@ Spell: 93
 Spell: 111
 Spell: 153
 E
-I копыта:6
 #67714
 прародитель огня~
 прародитель огня~
@@ -641,6 +654,7 @@ LikeWork: 25
 MaxFactor: 4
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 200
 Weight: 100
 Special_Bitvector: x0b1c1d1C3 
@@ -703,6 +717,7 @@ LikeWork: 15
 MaxFactor: 3
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 145
 Weight: 60
 Special_Bitvector: x0c1C3 
@@ -751,6 +766,7 @@ LikeWork: 25
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: x0C3 

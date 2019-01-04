@@ -185,6 +185,5 @@ else
     дать рун %actor.name%
   end
 end
-detach 77910 %self.id%
 ~
 $~

@@ -48,7 +48,7 @@ wait 1
 foreach victim %self.char%
   emot испустил боевой клич рыцарей и ринулся на Вас, рубя направо и налево!
   if (%random.100% < 60 )
-    dg_cast 'страх' %vicitm.name%
+    dg_cast 'страх' %victim.name%
   end
 done
 if (%random.100% < 3 )
@@ -75,7 +75,7 @@ if !%arg.contains(ворот)%
   halt
 end
 %send% %actor% Вы начали крутить ворот.
-%echoaround% %actor.name% начал%actor.g% крутить ворот.
+%echoaround% %actor% %actor.name% начал%actor.g% крутить ворот.
 %echo% Послышался лязг засовов - теперь ворота можно открыть.
 wdoor 86265 east purge
 wdoor 86265 east room 86133
@@ -95,5 +95,43 @@ wdoor 86265 east room 86133
 wdoor 86265 east name ворота
 wdoor 86265 east description ворота
 wdoor 86265 east flags abcd
+~
+#86210
+Пресуществление, епт~
+1 c 3
+пи~
+set command %cmd.mudcommand%
+if ((%command% != пить) || %self.val1% < 1))
+  return 0
+  halt
+end
+if %actor.fighting%
+  osend %actor% Не стоит отвлекаться в бою!
+  halt
+end
+set name лагвица
+set target %arg.words(1)%
+if !%name.contains(%target%)%
+  halt
+end
+%self.val2(2)%
+*таки чашу откуда-то наполнили и теперь пьют
+return 0
+set vol %self.val1%
+wait 1
+*oops - товарисч уже напился и выпить еще не смог
+if (%self.val1% >= %vol%)
+  halt
+end
+if (%actor.hitp% < %actor.maxhitp%)
+  eval heal 50+%random.50%
+  eval hitp %actor.maxhitp%-%actor.hitp%
+  if (%heal% <= %hitp%)
+    set buf %actor.hitp(+%heal%)%
+  else
+    set buf %actor.hitp(+%hitp%)%
+  end
+  osend %actor% Вы почувствовали себя значительно лучше.
+end
 ~
 $~

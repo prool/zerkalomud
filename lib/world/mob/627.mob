@@ -24,6 +24,7 @@ Cha: 8
 Size: 80
 LikeWork: 60
 Class: 103
+Race: 104
 Height: 150
 Weight: 120
 Special_Bitvector: 0 
@@ -58,6 +59,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 160
 Weight: 120
 Special_Bitvector: 0 
@@ -65,7 +67,6 @@ Skill: 5 60
 Skill: 132 120
 Skill: 136 90
 E
-I копыта,6:5
 #62702
 бандюга с большой дороги старый грабитель~
 бандюга с большой дороги~
@@ -94,6 +95,7 @@ Size: 40
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 60
 Special_Bitvector: g0p0 
@@ -134,6 +136,7 @@ Cha: 10
 Size: 70
 LikeWork: 60
 Class: 102
+Race: 101
 Height: 150
 Weight: 85
 Special_Bitvector: y0 
@@ -183,6 +186,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 140
 Weight: 100
 Special_Bitvector: 0 
@@ -219,6 +223,7 @@ Size: 100
 LikeWork: 25
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 160
 Weight: 140
 Special_Bitvector: 0 
@@ -255,6 +260,7 @@ Size: 70
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 60
 Special_Bitvector: a1b1 
@@ -290,6 +296,7 @@ Size: 60
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -326,6 +333,7 @@ Size: 30
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 50
 Weight: 50
 Special_Bitvector: g0m0 

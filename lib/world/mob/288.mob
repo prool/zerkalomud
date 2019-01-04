@@ -25,6 +25,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 101
+Race: 109
 Height: 198
 Weight: 120
 Special_Bitvector: b0 
@@ -58,6 +59,7 @@ Size: 90
 LikeWork: 95
 ExtraAttack: 1
 Class: 101
+Race: 109
 Height: 198
 Weight: 200
 Special_Bitvector: c0 
@@ -91,6 +93,7 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -136,6 +139,7 @@ Size: 40
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -150,7 +154,6 @@ Spell: 59
 Spell: 59
 Spell: 59
 E
-I кости,10:10
 #28804
 монах ночи~
 монах ночи~
@@ -178,6 +181,7 @@ Size: 25
 LikeWork: 99
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -225,6 +229,7 @@ Size: 40
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -261,6 +266,7 @@ Con: 8
 Cha: 5
 LikeWork: 99
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -300,6 +306,7 @@ Size: 25
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -337,6 +344,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 4
 Class: 101
+Race: 114
 Height: 198
 Weight: 40
 Special_Bitvector: 0 
@@ -374,6 +382,7 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
@@ -411,6 +420,7 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
@@ -447,6 +457,7 @@ Cha: 5
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -483,6 +494,7 @@ Cha: 5
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -519,6 +531,7 @@ Cha: 5
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -556,6 +569,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 4
 Class: 101
+Race: 114
 Height: 198
 Weight: 50
 Special_Bitvector: 0 

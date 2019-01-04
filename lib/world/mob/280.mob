@@ -32,6 +32,7 @@ Size: 30
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -70,6 +71,7 @@ Cha: 3
 Size: 30
 LikeWork: 35
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -106,6 +108,7 @@ Size: 30
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: c0b1c1d1 
@@ -140,6 +143,7 @@ Size: 30
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: j0b1c1d1 
@@ -175,10 +179,11 @@ Size: 30
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: j0b1c1d1 
-Skill: 136 60
+Skill: 136 51
 Skill: 141 60
 Spell: 5
 Spell: 26
@@ -210,7 +215,6 @@ Spell: 110
 Spell: 111
 Spell: 111
 Helper: 2803
-Skill: 136 51
 E
 T 28000
 #28005
@@ -240,6 +244,7 @@ Size: 30
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -283,6 +288,7 @@ Size: 30
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: f0 
@@ -316,6 +322,7 @@ Size: 30
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: a0b0c0d0e0f0b1c1 
@@ -350,6 +357,7 @@ Size: 30
 LikeWork: 100
 MaxFactor: 10
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -390,6 +398,7 @@ LikeWork: 35
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -424,6 +433,7 @@ LikeWork: 35
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -458,6 +468,7 @@ Size: 30
 LikeWork: 20
 MaxFactor: 10
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -497,6 +508,7 @@ Size: 30
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -531,6 +543,7 @@ Size: 30
 LikeWork: 13
 MaxFactor: 10
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -568,6 +581,7 @@ Cha: 3
 Size: 30
 LikeWork: 35
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -606,6 +620,7 @@ Cha: 3
 Size: 30
 LikeWork: 35
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -644,6 +659,7 @@ Cha: 3
 Size: 30
 LikeWork: 35
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -688,6 +704,7 @@ Size: 30
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 

@@ -173,15 +173,17 @@ end
 2 c 0
 нырнуть занырнуть~
 if !(%arg.contains(рея)%) 
-  wsend       %actor% Куда это Вы хотите нырнуть???
+  wsend %actor% Куда это Вы хотите нырнуть???
   return 0
   halt
 end
-wsend       %actor% Отодвинув рею, вы нырнули в неизвестность.
+wsend %actor% Отодвинув рею, вы нырнули в неизвестность.
 wechoaround %actor% %actor.name% отодвинул%actor.g% рею и нырнул%actor.g% в неизвестность
-calcuid brat 33213 mob
-detach 33215 %brat.id%
-attach 33214 %brat.id%
+if %exist.mob(33213)%
+  calcuid brat 33213 mob
+  detach 33215 %brat.id%
+  attach 33214 %brat.id%
+end
 wait 1s
 wsend %actor.name% .- Вы оказались в нешироком уютном лазе.
 wteleport %actor.name% 33307 horse

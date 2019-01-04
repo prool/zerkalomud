@@ -23,6 +23,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -53,6 +54,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -84,6 +86,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -114,6 +117,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -144,6 +148,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -161,7 +166,7 @@ E
 ~
 Молодой мужчина из прислуги князя.
 ~
-b0d0B0 d0f0k0 0 E
+b0d0n0B0u2 d0f0k0 0 E
 1 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
@@ -174,6 +179,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -204,6 +210,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -234,6 +241,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -264,6 +272,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -294,6 +303,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1C3 
@@ -328,6 +338,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -361,6 +372,7 @@ Size: 100
 LikeWork: 14
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -397,6 +409,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -433,6 +446,7 @@ Size: 100
 LikeWork: 14
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1 
@@ -465,6 +479,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -499,6 +514,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0a1b1c1 
@@ -531,6 +547,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -561,6 +578,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -591,6 +609,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

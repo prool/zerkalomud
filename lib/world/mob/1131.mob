@@ -10,33 +10,32 @@
 ~
 Вы видите сильного хазарского нукера.
 ~
-l0A0r2c0s2 k0 -600 E
-24 -3 1 10d10+750 5d6+15 
+c0d0l0A0r2s2 k0 -600 E
+24 -3 1 10d10+750 5d6+15
 10d5+0 60000
 8 8 1
 CastSuccess: 48
-BareHandAttack:  7
+BareHandAttack: 7
 Str: 25
-Int: 14
-Wis: 11
 Dex: 19
+Int: 14
 Con: 25
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 2
 Class: 104
-Size: 50
+Race: 101
 Height: 190
 Weight: 180
-Special_Bitvector: b1c1
-Skill: 142 60
-Skill: 137 35
+Special_Bitvector: b1c1 
 Skill: 22 50
-Skill: 136 90
-Skill: 151 60
 Skill: 132 30
+Skill: 136 90
+Skill: 137 35
+Skill: 142 60
 Skill: 150 25
+Skill: 151 60
 E
 T 113101
 I глаза,1:4
@@ -55,33 +54,33 @@ I кожа,3:5
 ~
 Вы видите опытного монгольского нукера.
 ~
-l0A0r2c0s2 m1k0 -600 E
-25 -1 0 10d10+800 5d6+15 
+c0d0l0A0r2s2 k0m1 -600 E
+25 -1 0 10d10+800 5d6+15
 10d5+0 70000
 8 8 1
 CastSuccess: 50
-BareHandAttack:  7
+BareHandAttack: 7
 Str: 28
+Dex: 19
 Int: 14
 Wis: 14
-Dex: 19
 Con: 25
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 2
 Class: 104
-Size: 50
+Race: 101
 Height: 190
 Weight: 180
-Special_Bitvector: b1c1
-Skill: 142 70
-Skill: 137 45
+Special_Bitvector: b1c1 
 Skill: 22 60
-Skill: 136 100
-Skill: 151 70
 Skill: 132 40
+Skill: 136 100
+Skill: 137 45
+Skill: 142 70
 Skill: 150 35
+Skill: 151 70
 E
 T 113101
 I глаза,2:3
@@ -100,35 +99,33 @@ I кожа,5:3
 ~
 Вы видите великого половецкого колдуна.
 ~
-l0A0r2c0s2m0 x0d0h0b0 -600 E
-27 -2 +10 10d10+950 3d5+8 
+c0d0l0m0A0r2s2 b0d0h0x0 -600 E
+27 -2 10 10d10+950 3d5+8
 3d200+0 130000
 8 8 1
 CastSuccess: 54
-BareHandAttack:  0
 Str: 14
+Dex: 13
 Int: 27
 Wis: 45
-Dex: 13
 Con: 17
 Cha: 14
-LikeWork: 25
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 25
+Class: 102
+Race: 101
 Height: 160
 Weight: 150
-Special_Bitvector: b1c1
-Spell: 6 7
-Spell: 104 6
-Spell: 67 6
-Spell: 130 6
-Spell: 30 7
-Spell: 37 6
-Spell: 5 7
-Spell: 54 6
+Special_Bitvector: b1c1 
 Skill: 136 130
+Spell: 5
+Spell: 6
+Spell: 30
+Spell: 37
+Spell: 54
+Spell: 67
+Spell: 104
+Spell: 130
 E
 T 113101
 I глаза,3:3
@@ -147,37 +144,36 @@ I кожа,1:2
 ~
 Вы видите старого татарского тысячника.
 ~
-l0A0r2c0s2 h0 -600 E
-27 -3 +4 10d10+600 6d6+20 
+c0d0l0A0r2s2 h0 -600 E
+27 -3 4 10d10+600 6d6+20
 2d2+0 70000
 8 8 1
 CastSuccess: 54
-BareHandAttack:  0
 Str: 23
+Dex: 13
 Int: 21
 Wis: 24
-Dex: 13
 Con: 22
 Cha: 13
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 50
+Race: 101
 Height: 170
 Weight: 190
-Special_Bitvector: b1c1
-Spell: 39 5
-Spell: 28 4
-Spell: 3 5
-Spell: 17 5
-Spell: 1 5
-Skill: 134 85
-Skill: 143 105
-Skill: 137 90
+Special_Bitvector: b1c1 
 Skill: 1 75
-Skill: 136 115
 Skill: 132 80
+Skill: 134 85
+Skill: 136 115
+Skill: 137 90
+Skill: 143 105
+Spell: 1
+Spell: 3
+Spell: 17
+Spell: 28
+Spell: 39
 E
 T 113101
 I глаза,4:1
@@ -195,25 +191,24 @@ I кожа,5:5
 Степной коршун улетает с тушкой грызуна в когтях.
 ~
 Вы видите степного коршуну.~
-h0 x0 -600 E
-6 12 +9 1d10+60 4d4+1 
+d0h0 x0 -600 E
+6 12 9 1d10+60 4d4+1
 0d0+0 4000
 8 8 1
 BareHandAttack: 15
 Str: 8
+Dex: 9
 Int: 6
 Wis: 6
-Dex: 9
 Con: 9
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,3:6
@@ -231,25 +226,24 @@ I крылья,2:8
 Ласка юркнула мимо.
 ~
 Вы видите ласку.~
-h0 0 -600 E
-6 12 +9 1d10+60 4d4+1 
+d0h0 0 -600 E
+6 12 9 1d10+60 4d4+1
 0d0+0 4000
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 8
+Dex: 9
 Int: 6
 Wis: 6
-Dex: 9
 Con: 9
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,1:7
@@ -268,25 +262,24 @@ I когти,2:6
 Косуля осторожно смотрит на Вас.
 ~
 Вы видите косулю.~
-h0 0 -600 E
-7 12 +8 1d10+70 4d4+2 
+d0h0 0 -600 E
+7 12 8 1d10+70 4d4+2
 0d0+0 5000
 8 8 2
 BareHandAttack: 13
 Str: 9
+Dex: 10
 Int: 6
 Wis: 6
-Dex: 10
 Con: 10
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,4:9
@@ -305,25 +298,24 @@ I кожа,4:9
 Сыч улетает с тушкой грызуна в когтях.
 ~
 Вы видите сыча.~
-h0 x0 -600 E
-5 11 +9 1d10+50 4d4+0 
+d0h0 x0 -600 E
+5 11 9 1d10+50 4d4+0
 0d0+0 3000
 8 8 1
 BareHandAttack: 15
 Str: 7
+Dex: 8
 Int: 6
 Wis: 6
-Dex: 8
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,1:9
@@ -341,25 +333,24 @@ I крылья,4:9
 Авдотка летает тут.
 ~
 Вы видите авдотку.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,2:7
@@ -376,30 +367,28 @@ I крылья,5:6
 Степной орел камнем падает вниз.
 ~
 Вы видите степного орла.~
-h0 x0 -600 E
-7 12 +8 1d10+70 4d4+2 
+d0h0 x0 -600 E
+7 12 8 1d10+70 4d4+2
 0d0+0 5000
 8 8 1
 BareHandAttack: 15
 Str: 9
+Dex: 10
 Int: 6
 Wis: 6
-Dex: 10
 Con: 10
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,1:6
 I кости,4:6
 I когти,2:9
 I крылья,1:9
-$
 $

@@ -239,7 +239,7 @@ if (( %random.1000% < 30 ) && ( %world.curobjs(69406)% < 10 ))
   *wait 3s
   halt 
 end
-if (( %random.1000% < 30 ) && ( %world.curobjs(69407)% < 10 ))
+if (( %random.1000% < 30 ) && ( %world.curobjs(69407)% < 8 ))
   *лоад мышки с объектом 69407 в зубах
   mload mob 69405
   calcuid maus 69405 mob
@@ -343,11 +343,13 @@ if %object.vnum% == 69411
   set flag_vnum11 1
   global flag_vnum11
   *mecho - 1111111111
-end
-if %object.vnum% == 69403
+elseif %object.vnum% == 69403
   set flag_vnum03 1
   global flag_vnum03
   *mecho - 3333333333333
+else
+  drop all
+  halt
 end
 mpurge %object%
 if (( %flag_vnum11% == 1 ) && ( %flag_vnum03% == 1 ))
@@ -820,14 +822,14 @@ if !%arg.contains(кошку)%
   halt
 else
   %send% %actor% _Очень осторожно, едва касаясь мягкой шерстки, Вы погладили кошку.
-  %echoaround% %actor% _Очень осторожно, едва касаясь мягкой шерстки %actor.name% погладил%actor.q% кошку.
+  %echoaround% %actor% _Очень осторожно, едва касаясь мягкой шерстки, %actor.name% погладил%actor.g% кошку.
   wait 1s
   mecho _Зверек вздрогнул от неожиданности, выронив зажатый между зубов пирожок.
   mecho _И, оставляя за собой только ветер, исчез из виду.
   if (( %random.100% < 50 ) && ( %world.curobjs(69413)% < 8 ))
     mload obj 69413
   end
-  if (( %random.100% < 50 ) && ( %world.curobjs(69414)% < 2 ))
+  if (( %random.100% < 50 ) && ( %world.curobjs(69414)% < 4 ))
     mload obj 69414
   end
   бро все
@@ -864,7 +866,7 @@ mecho - За это награжу я тебя от всего сердца и поклонюсь в ноги.
 эм поклонилась до земли
 wait 1s
 mecho А вот и награда твоя..
-eval max 100+%actor.remort%*5
+eval max 95+%actor.remort%*5
 switch %actor.class%
   *лекарь
   case 0
@@ -889,11 +891,11 @@ switch %actor.class%
   *тать
   case 2
     if (%actor.skill(спрятаться)% < %max%) 
-      eval lvskl %actor.skill(спрятаться)%+4
+      eval lvskl %actor.skill(спрятаться)%+3
       if %lvskl% > %max%
         eval addskl %max%-%actor.skill(спрятаться)%
       else
-        set addskl 4
+        set addskl 3
       end
       mskilladd .%actor.name% спрятаться %addskl%
     else
@@ -904,11 +906,11 @@ switch %actor.class%
   *богатырь
   case 3
     if (%actor.skill(богатырский)% < %max%) 
-      eval lvskl %actor.skill(богатырский)%+4
+      eval lvskl %actor.skill(богатырский)%+3
       if %lvskl% > %max%
         eval addskl %max%-%actor.skill(богатырский молот)%
       else
-        set addskl 4
+        set addskl 3
       end
       mskilladd .%actor.name% богатырский.молот %addskl%
     else
@@ -936,11 +938,11 @@ switch %actor.class%
   *друж
   case 5
     if (%actor.skill(осторожный стиль)% < %max%) 
-      eval lvskl %actor.skill(осторожный стиль)%+4
+      eval lvskl %actor.skill(осторожный стиль)%+3
       if %lvskl% > %max%
         eval addskl %max%-%actor.skill(осторожный стиль)%
       else
-        set addskl 4
+        set addskl 3
       end
       mskilladd .%actor.name% осторожный.стиль %addskl%
     else
@@ -980,11 +982,11 @@ switch %actor.class%
   *витязь
   case 9
     if (%actor.skill(точный стиль)% < %max%) 
-      eval lvskl %actor.skill(точный стиль)%+4
+      eval lvskl %actor.skill(точный стиль)%+3
       if %lvskl% > %max%
         eval addskl %max%-%actor.skill(точный стиль)%
       else
-        set addskl 4
+        set addskl 3
       end
       mskilladd .%actor.name% точный.стиль %addskl%
     else
@@ -995,11 +997,11 @@ switch %actor.class%
   *охот
   case 10
     if (%actor.skill(маскировка)% < %max%) 
-      eval lvskl %actor.skill(маскировка)%+4
+      eval lvskl %actor.skill(маскировка)%+3
       if %lvskl% > %max%
         eval addskl %max%-%actor.skill(маскировка)%
       else
-        set addskl 4
+        set addskl 3
       end
       mskilladd .%actor.name% маскировка %addskl%
     else
@@ -1010,11 +1012,11 @@ switch %actor.class%
   *кузнец
   case 11
     if (%actor.skill(оглушить)% < %max%)
-      eval lvskl %actor.skill(оглушить)%+4
+      eval lvskl %actor.skill(оглушить)%+3
       if %lvskl% > %max%
         eval addskl %max%-%actor.skill(оглушить)%
       else
-        set addskl 4
+        set addskl 3
       end
       mskilladd .%actor.name% оглушить %addskl%
     else
@@ -1025,11 +1027,11 @@ switch %actor.class%
   *купец
   case 12
     if (%quest694.skill(спрятаться)% < %max%)
-      eval lvskl %actor.skill(спрятаться)%+4
+      eval lvskl %actor.skill(спрятаться)%+3
       if %lvskl% > %max%
         eval addskl %max%-%actor.skill(спрятаться)%
       else
-        set addskl 4
+        set addskl 3
       end
       mskilladd .%actor.name% спрятаться %addskl%
     else
@@ -1048,8 +1050,8 @@ switch %actor.class%
     end
   break
   default
-    %self.gold(+4000)%
-    дать 4000 кун %actor.name%
+    %self.gold(+3000)%
+    дать 3000 кун .%actor.name%
   break
 done
 detach 69427 %self.id%
@@ -1136,6 +1138,7 @@ detach 69435 %self.id%
 ~
 *расскажи
 calcuid nZ1 69400 mob
+detach 69427 %nZ1%
 attach 69400 %nZ1.id%
 attach 69408 %nZ1.id%
 *кувшин
@@ -1252,10 +1255,10 @@ odamage %chnbn% %nHit%
 УмерлиЛихие~
 0 f 100
 ~
-if (( %random.100% < 20 ) && ( %world.curobjs(69450)% < 10 ))
+if (( %random.80% < 10 ) && ( %world.curobjs(69450)% < 8 ))
   mload obj 69450
 end
-if (( %random.100% < 20 ) && ( %world.curobjs(69451)% < 10 ))
+if (( %random.80% < 10 ) && ( %world.curobjs(69451)% < 8 ))
   mload obj 69451
 end
 ~
@@ -1519,13 +1522,13 @@ end
 if %actor.class% == 4
   wait 1s
   %send% %actor% &R_Ведь тебя упреждали, убойца... - еле слышно прошелестело вдали.
-  %send% %actor% &R_Теперь пеняй на себя...
+  %send% %actor% &R_Не ушел ты по своей воле, так покорись моей!
   wait 1s
   mecho _Задрожал от напряжения воздух - тяжелые глыбы попадали сверху.
   %send% %actor% _Самая большая плита упала так ладно - будто крышку на Ваш гроб положили.
   %echoaround% %actor% _Самая большая плита упала так ладно - будто крышку на гроб %actor.rname% положили.
-  eval nHit %actor.hitp%+11
-  mdamage %actor% %nHit%
+  mdamage %actor% 100 Hit
+  mteleport %actor% 85271
 end
 ~
 #69465
@@ -1642,5 +1645,13 @@ switch %speech%
     г Нет у меня этого! В другом месте ищи.
   break
 done
+~
+#69472
+УмерлаВестница2~
+0 f 100
+~
+if (( %random.100% < 8 ) && ( %world.curobjs(69449)% < 4 ))
+  mload obj 69449
+end
 ~
 $~

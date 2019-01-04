@@ -193,7 +193,7 @@ if !%random.pc%
   halt
 end
 set target %random.pc%
-mecho Яркие молнии ударили из фонтата!
+mecho Яркие молнии ударили из фонтана!
 dg_cast 'цеп молн' %target.name%
 dg_cast 'цеп молн' %target.name%
 wait 2s
@@ -414,15 +414,17 @@ end
 set actor %random.pc%
 foreach next %actor.pc%
   if %next.fighting%
-    eval volhv 92304+%random.4%  
-    calcuid volhv %volhv% mob  
-    wait 2s
-    if !(%volhv.realroom% == %self.vnum%)
-      wecho &MФиолетовая пентаграмма появилась в воздухе!&n
-      wecho %volhv.name% появил%actor.u% из пентаграммы.
-      wteleport %volhv% %self.vnum%
-      wait 1s
-      wecho Пентаграмма медленно растаяла! 
+    eval volhv 92304+%random.4%
+    if %exist.mob(%volhv%)%
+      calcuid volhv %volhv% mob
+      wait 2s
+      if !(%volhv.realroom% == %self.vnum%)
+        wecho &MФиолетовая пентаграмма появилась в воздухе!&n
+        wecho %volhv.name% появил%actor.u% из пентаграммы.
+        wteleport %volhv% %self.vnum%
+        wait 1s
+        wecho Пентаграмма медленно растаяла! 
+      end
     end
     halt
   end
@@ -481,7 +483,7 @@ end
 дали платину скипер зверю~
 0 j 100
 ~
-if %object.vnum%91201>1 && %object.vnum%<91207 
+if %object.vnum% > 91201 && %object.vnum% < 91207 
   mecho Яркая молния, пробив своды зала, ударила в Скипер зверя!
   mecho Слепяще-белое пламя окружило Скипер зверя!
   mecho Скипер-зверь яростно закричал от боли!    
@@ -612,219 +614,226 @@ switch %actor.class%
   case 0
     case 1
       case 6
+        case 8
+          if !%actor.skill(палицы)%
+            mskillturn %actor.name% палицы set
+          end
+          if !%actor.skill(короткие)%       
+            mskillturn %actor.name% короткие set
+          end
+          if !%actor.skill(иное)%             
+            mskillturn %actor.name% иное set
+          end
+          if %actor.skill(палицы)% < %maxskl%
+            mskilladd %actor.name% палицы 10
+          elseif if %actor.skill(короткие)% < %maxskl%
+            mskilladd %actor.name%  которкие 10
+          elseif %actor.skill(иное)% < %maxskl%
+            mskilladd %actor.name% иное 10
+          end  
+        break         
         case 7
-          case 8
-            if !%actor.skill(палицы)%
-              mskillturn %actor.name% палицы set
-            end
-            if !%actor.skill(короткие)%       
-              mskillturn %actor.name% короткие set
-            end
-            if !%actor.skill(иное)%             
-              mskillturn %actor.name% иное set
-            end
-            if %actor.skill(палицы)% < %maxskl%
-              mskilladd %actor.name% палицы 10
-            elseif if %actor.skill(короткие)% < %maxskl%
-              mskilladd %actor.name%  которкие 10
-            elseif %actor.skill(иное)% < %maxskl%
-              mskilladd %actor.name% иное 10
-            end  
-          break         
-          *воры
-          case 2
-            if !%actor.skill(заколоть)%
-              mskillturn %actor.name% заколоть set
-            end
-            if !%actor.skill(поднож)%       
-              mskillturn %actor.name% поднож set
-            end
-            if !%actor.skill(украсть)%             
-              mskillturn %actor.name% украсть set
-            end
-            if %actor.skill(заколоть)% < %maxskl%
-              mskilladd %actor.name% заколоть 10
-            elseif if %actor.skill(поднож)% < %maxskl%
-              mskilladd %actor.name%  поднож 10
-            elseif %actor.skill(украсть)% < %maxskl%
-              mskilladd %actor.name% украсть 10
-            end
-          break   
-          *батыры                        
-          case 3
-            if !%actor.skill(богатырский)%
-              mskillturn %actor.name% богатырский set
-            end
-            if !%actor.skill(оглушить)%       
-              mskillturn %actor.name% оглушить set
-            end
-            if !%actor.skill(ярость)%             
-              mskillturn %actor.name% ярость set
-            end
-            if %actor.skill(богатырский)% < %maxskl%
-              mskilladd %actor.name% богатырский 10
-            elseif if %actor.skill(оглушить)% < %maxskl%
-              mskilladd %actor.name% оглушить 10
-            elseif %actor.skill(ярость)% < %maxskl%
-              mskilladd %actor.name% ярость 10 
-            end
-          break                          
-          *наемы
-          case 4
-            if !%actor.skill(заколоть)%
-              mskillturn %actor.name% заколоть set
-            end
-            if !%actor.skill(поднож)%       
-              mskillturn %actor.name% поднож set
-            end
-            if !%actor.skill(скрытый)%             
-              mskillturn %actor.name% скрытый set
-            end
-            if %actor.skill(заколоть)% < %maxskl%
-              mskilladd %actor.name% заколоть 10
-            elseif if %actor.skill(поднож)% < %maxskl%
-              mskilladd %actor.name% поднож 10
-            elseif %actor.skill(скрытый)% < %maxskl%
-              mskilladd %actor.name% скрытый 10 
-            end
-          break                       
-          *друж
-          case 5
-            if !%actor.skill(осторож)%
-              mskillturn %actor.name% осторож set
-            end
-            if !%actor.skill(спасти)%       
-              mskillturn %actor.name% спасти set
-            end
-            if !%actor.skill(веер)%             
-              mskillturn %actor.name% веер set
-            end
-            if %actor.skill(осторож)% < %maxskl%
-              mskilladd %actor.name% осторож 10
-            elseif if %actor.skill(спасти)% < %maxskl%
-              mskilladd %actor.name% спасти 10
-            elseif %actor.skill(веер)% < %maxskl%
-              mskilladd %actor.name% веер 10 
-            end
-          break  
-          *витязь
-          case 9
-            if !%actor.skill(блок)%
-              mskillturn %actor.name% блок set
-            end
-            if !%actor.skill(сбить)%       
-              mskillturn %actor.name% сбить set
-            end
-            if !%actor.skill(точный)%             
-              mskillturn %actor.name% точный set
-            end
-            if %actor.skill(блок)% < %maxskl%
-              mskilladd %actor.name% блок 10
-            elseif if %actor.skill(сбить)% < %maxskl%
-              mskilladd %actor.name% сбить 10
-            elseif %actor.skill(точный)% < %maxskl%
-              mskilladd %actor.name% точный 10 
-            end
-          break                      
-          *охотник
-          case 10
-            if !%actor.skill(уклон)%
-              mskillturn %actor.name% уклон set
-            end
-            if !%actor.skill(луки)%       
-              mskillturn %actor.name% луки set
-            end
-            if !%actor.skill(дополнит)%             
-              mskillturn %actor.name% дополнит set
-            end
-            if %actor.skill(уклон)% < %maxskl%
-              mskilladd %actor.name% уклон 10
-            elseif if %actor.skill(луки)% < %maxskl%
-              mskilladd %actor.name% луки 10
-            elseif %actor.skill(дополнит)% < %maxskl%
-              mskilladd %actor.name% дополнит 10 
-            end
-          break                        
-          *кузнец
-          case 11
-            if !%actor.skill(оглушить)%
-              mskillturn %actor.name% оглушить set
-            end
-            if !%actor.skill(железный ветер)%
-              mskillturn %actor.name% железный.ветер set
-            end
-            if !%actor.skill(заточить)%             
-              mskillturn %actor.name% заточить set
-            end
-            if %actor.skill(оглушить)% < %maxskl%
-              mskilladd %actor.name% оглушить 10
-            elseif %actor.skill(пнуть)% < %maxskl%
-              mskilladd %actor.name% пнуть 10 
-            elseif %actor.skill(железный)% < %maxskl%
-              mskilladd %actor.name% железный.ветер 10 
-            end
-          break                        
-          *купец
-          case 12
-            if !%actor.skill(метнуть)%
-              mskillturn %actor.name% метнуть set
-            end
-            if !%actor.skill(спрятат)%       
-              mskillturn %actor.name% спрятат set
-            end
-            if !%actor.skill(осторож)%             
-              mskillturn %actor.name% осторож set
-            end
-            if %actor.skill(метнуть)% < %maxskl%
-              mskilladd %actor.name% метнуть 10
-            elseif if %actor.skill(спрятат)% < %maxskl%
-              mskilladd %actor.name% спрятат 10
-            elseif %actor.skill(осторож)% < %maxskl%
-              mskilladd %actor.name% осторож 10 
-            end
-          break
-          *волхв
-          case 13                   
-            if !%actor.skill(палицы)%
-              mskillturn %actor.name% палицы set
-            end
-            if !%actor.skill(иное)%       
-              mskillturn %actor.name% иное set
-            end
-            if !%actor.skill(сглазить)%             
-              mskillturn %actor.name% сглазить set
-            end
-            if %actor.skill(палицы)% < %maxskl%
-              mskilladd %actor.name% палицы 10
-            elseif if %actor.skill(иное)% < %maxskl%
-              mskilladd %actor.name% иное 10
-            elseif %actor.skill(сглазить)% < %maxskl%
-              mskilladd %actor.name% сглазить 10 
-            end
-          break
+          if !%actor.skill(врата)%
+            mskillturn %actor.name% врата set
+          end
+          if %actor.skill(врата)% < %maxskl%
+            mskilladd %actor.name% врата 10
+          end
+        break
+        *воры
+        case 2
+          if !%actor.skill(заколоть)%
+            mskillturn %actor.name% заколоть set
+          end
+          if !%actor.skill(поднож)%       
+            mskillturn %actor.name% поднож set
+          end
+          if !%actor.skill(украсть)%             
+            mskillturn %actor.name% украсть set
+          end
+          if %actor.skill(заколоть)% < %maxskl%
+            mskilladd %actor.name% заколоть 10
+          elseif if %actor.skill(поднож)% < %maxskl%
+            mskilladd %actor.name%  поднож 10
+          elseif %actor.skill(украсть)% < %maxskl%
+            mskilladd %actor.name% украсть 10
+          end
+        break   
+        *батыры                        
+        case 3
+          if !%actor.skill(богатырский)%
+            mskillturn %actor.name% богатырский set
+          end
+          if !%actor.skill(оглушить)%       
+            mskillturn %actor.name% оглушить set
+          end
+          if !%actor.skill(ярость)%             
+            mskillturn %actor.name% ярость set
+          end
+          if %actor.skill(богатырский)% < %maxskl%
+            mskilladd %actor.name% богатырский 10
+          elseif if %actor.skill(оглушить)% < %maxskl%
+            mskilladd %actor.name% оглушить 10
+          elseif %actor.skill(ярость)% < %maxskl%
+            mskilladd %actor.name% ярость 10 
+          end
+        break                          
+        *наемы
+        case 4
+          if !%actor.skill(заколоть)%
+            mskillturn %actor.name% заколоть set
+          end
+          if !%actor.skill(поднож)%       
+            mskillturn %actor.name% поднож set
+          end
+          if !%actor.skill(скрытый)%             
+            mskillturn %actor.name% скрытый set
+          end
+          if %actor.skill(заколоть)% < %maxskl%
+            mskilladd %actor.name% заколоть 10
+          elseif if %actor.skill(поднож)% < %maxskl%
+            mskilladd %actor.name% поднож 10
+          elseif %actor.skill(скрытый)% < %maxskl%
+            mskilladd %actor.name% скрытый 10 
+          end
+        break                       
+        *друж
+        case 5
+          if !%actor.skill(осторож)%
+            mskillturn %actor.name% осторож set
+          end
+          if !%actor.skill(спасти)%       
+            mskillturn %actor.name% спасти set
+          end
+          if !%actor.skill(веер)%             
+            mskillturn %actor.name% веер set
+          end
+          if %actor.skill(осторож)% < %maxskl%
+            mskilladd %actor.name% осторож 10
+          elseif if %actor.skill(спасти)% < %maxskl%
+            mskilladd %actor.name% спасти 10
+          elseif %actor.skill(веер)% < %maxskl%
+            mskilladd %actor.name% веер 10 
+          end
+        break  
+        *витязь
+        case 9
+          if !%actor.skill(блок)%
+            mskillturn %actor.name% блок set
+          end
+          if !%actor.skill(сбить)%       
+            mskillturn %actor.name% сбить set
+          end
+          if !%actor.skill(точный)%             
+            mskillturn %actor.name% точный set
+          end
+          if %actor.skill(блок)% < %maxskl%
+            mskilladd %actor.name% блок 10
+          elseif if %actor.skill(сбить)% < %maxskl%
+            mskilladd %actor.name% сбить 10
+          elseif %actor.skill(точный)% < %maxskl%
+            mskilladd %actor.name% точный 10 
+          end
+        break                      
+        *охотник
+        case 10
+          if !%actor.skill(уклон)%
+            mskillturn %actor.name% уклон set
+          end
+          if !%actor.skill(луки)%       
+            mskillturn %actor.name% луки set
+          end
+          if !%actor.skill(дополнит)%             
+            mskillturn %actor.name% дополнит set
+          end
+          if %actor.skill(уклон)% < %maxskl%
+            mskilladd %actor.name% уклон 10
+          elseif if %actor.skill(луки)% < %maxskl%
+            mskilladd %actor.name% луки 10
+          elseif %actor.skill(дополнит)% < %maxskl%
+            mskilladd %actor.name% дополнит 10 
+          end
+        break                        
+        *кузнец
+        case 11
+          if !%actor.skill(оглушить)%
+            mskillturn %actor.name% оглушить set
+          end
+          if !%actor.skill(железный ветер)%
+            mskillturn %actor.name% железный.ветер set
+          end
+          if !%actor.skill(заточить)%             
+            mskillturn %actor.name% заточить set
+          end
+          if %actor.skill(оглушить)% < %maxskl%
+            mskilladd %actor.name% оглушить 10
+          elseif %actor.skill(пнуть)% < %maxskl%
+            mskilladd %actor.name% пнуть 10 
+          elseif %actor.skill(железный)% < %maxskl%
+            mskilladd %actor.name% железный.ветер 10 
+          end
+        break                        
+        *купец
+        case 12
+          if !%actor.skill(метнуть)%
+            mskillturn %actor.name% метнуть set
+          end
+          if !%actor.skill(спрятат)%       
+            mskillturn %actor.name% спрятат set
+          end
+          if !%actor.skill(осторож)%             
+            mskillturn %actor.name% осторож set
+          end
+          if %actor.skill(метнуть)% < %maxskl%
+            mskilladd %actor.name% метнуть 10
+          elseif if %actor.skill(спрятат)% < %maxskl%
+            mskilladd %actor.name% спрятат 10
+          elseif %actor.skill(осторож)% < %maxskl%
+            mskilladd %actor.name% осторож 10 
+          end
+        break
+        *волхв
+        case 13                   
+          if !%actor.skill(палицы)%
+            mskillturn %actor.name% палицы set
+          end
+          if !%actor.skill(иное)%       
+            mskillturn %actor.name% иное set
+          end
+          if !%actor.skill(сглазить)%             
+            mskillturn %actor.name% сглазить set
+          end
+          if %actor.skill(палицы)% < %maxskl%
+            mskilladd %actor.name% палицы 10
+          elseif if %actor.skill(иное)% < %maxskl%
+            mskilladd %actor.name% иное 10
+          elseif %actor.skill(сглазить)% < %maxskl%
+            mskilladd %actor.name% сглазить 10 
+          end
+        break
+      done
+      wait 2s
+      say А этот дар от дочерей моих.
+      set i 0 
+      set staff 1253 1252 1245 1237 1236 1265 1266 92726 92718    
+      while %i% < 4 
+        set num %random.11%  
+        set  j 1
+        foreach prize %staff%
+          if %j%==%num% && !%world.curobjs(%prize%)%
+            mload obj %prize%
+            дать все %actor.name% 
+            wait 1s
+            detach 92320 %self.id%
+          end
+          eval j %j%+1             
         done
-        wait 2s
-        say А этот дар от дочерей моих.
-        set i 0 
-        set staff 1253 1252 1245 1237 1236 1265 1266 92726 92718    
-        while %i% < 4 
-          set num %random.9%  
-          set  j 1
-          foreach prize %staff%
-            if %j%==%num% && !%world.curobjs(%prize%)%
-              mload obj %prize%
-              дать все %actor.name% 
-              wait 1s
-              detach 92320 %self.id%
-            end
-            eval j %j%+1             
-          done
-          eval i %i%+1
-        done   
-        if %actor.level% > 25
-          %actor.exp(+2000000)%  
-        end
-        detach 92320 %self.id% 
+        eval i %i%+1
+      done   
+      if %actor.level% > 25
+        %actor.exp(+2000000)%  
+      end
+      detach 92320 %self.id% 
 ~
 #92321
 умер лекарь~

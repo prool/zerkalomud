@@ -23,6 +23,8 @@ Cha: 3
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
+Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 136 60
@@ -55,6 +57,8 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
+Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 136 60

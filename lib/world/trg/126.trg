@@ -369,7 +369,7 @@ if ( %actor.vnum% != -1 )
 end
 wait 1
 * союзники если такие есть -- могут носить
-if %actor.clan% == вд || %actor.clan% == СО2 || %actor.clan% == СО3
+if %actor.clan% == СО1 || %actor.clan% == СО2 || %actor.clan% == СО3
   halt
 end
 * Не НД и не союзники -- не могут

@@ -136,7 +136,7 @@ if (%arg% == корову)
       wait 5
       wsend %actor% Вы надоили огромную крынку молока.
       wechoaround %actor% %actor.iname% начал%actor.g% доить корову.
-      wechoaround %actor.iname% надоил%actor.g% огромную крынку молока.
+      wechoaround  %actor% %actor.iname% надоил%actor.g% огромную крынку молока.
       wload obj  60610
       halt
     end

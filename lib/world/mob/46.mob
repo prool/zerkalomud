@@ -24,6 +24,7 @@ Con: 8
 Cha: 8
 Size: 8
 Class: 103
+Race: 104
 Height: 40
 Weight: 10
 Special_Bitvector: 0 
@@ -55,6 +56,7 @@ Con: 8
 Cha: 8
 Size: 8
 Class: 103
+Race: 104
 Height: 40
 Weight: 60
 Special_Bitvector: n0 
@@ -86,6 +88,7 @@ Con: 8
 Cha: 8
 Size: 8
 Class: 103
+Race: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
@@ -118,6 +121,7 @@ Con: 9
 Cha: 9
 Size: 9
 Class: 103
+Race: 104
 Height: 40
 Weight: 11
 Special_Bitvector: n0 
@@ -149,6 +153,7 @@ Con: 9
 Cha: 9
 Size: 9
 Class: 103
+Race: 103
 Height: 40
 Weight: 10
 Special_Bitvector: l0 
@@ -180,6 +185,7 @@ Con: 9
 Cha: 9
 Size: 9
 Class: 103
+Race: 104
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
@@ -211,6 +217,7 @@ Con: 9
 Cha: 9
 Size: 9
 Class: 103
+Race: 103
 Height: 40
 Weight: 10
 Special_Bitvector: l0a1 
@@ -243,6 +250,7 @@ Cha: 9
 Size: 10
 LikeWork: 10
 Class: 103
+Race: 104
 Height: 40
 Weight: 11
 Special_Bitvector: 0 
@@ -275,6 +283,7 @@ Cha: 9
 Size: 12
 LikeWork: 10
 Class: 103
+Race: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
@@ -307,6 +316,7 @@ Cha: 9
 Size: 11
 LikeWork: 10
 Class: 103
+Race: 104
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
@@ -339,6 +349,7 @@ Cha: 9
 Size: 10
 LikeWork: 10
 Class: 103
+Race: 104
 Height: 40
 Weight: 60
 Special_Bitvector: 0 
@@ -370,6 +381,7 @@ Con: 12
 Cha: 9
 Size: 15
 Class: 103
+Race: 103
 Height: 40
 Weight: 10
 Special_Bitvector: l0 
@@ -401,6 +413,7 @@ Con: 12
 Cha: 9
 Size: 15
 Class: 103
+Race: 103
 Height: 40
 Weight: 10
 Special_Bitvector: l0 
@@ -433,6 +446,7 @@ Cha: 9
 Size: 14
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 11
 Special_Bitvector: 0 
@@ -465,6 +479,7 @@ Cha: 10
 Size: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 10
 Special_Bitvector: 0 
@@ -498,6 +513,7 @@ Cha: 10
 Size: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 60
 Special_Bitvector: 0 
@@ -529,6 +545,7 @@ Cha: 10
 Size: 23
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 140
 Weight: 140
 Special_Bitvector: 0 
@@ -560,6 +577,7 @@ Cha: 10
 Size: 23
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 60
 Weight: 12
 Special_Bitvector: 0 
@@ -578,7 +596,7 @@ E
 Крупный лесной житель с длинными ветвистыми рогами.
 
 ~
-d0g0 0 0 E
+d0g0f2 0 0 E
 9 10 1 5d6+220 3d2+2
 0d0+0 5000
 8 8 1
@@ -592,6 +610,7 @@ Cha: 3
 Size: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 200
 Weight: 200
 Special_Bitvector: 0 
@@ -610,7 +629,7 @@ E
 Крупный лесной хищник.
 
 ~
-d0g0 k0 0 E
+d0g0f2 k0 0 E
 10 10 0 5d3+220 4d2+3
 0d0+0 5000
 8 8 1
@@ -624,6 +643,7 @@ Cha: 10
 Size: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 50
 Special_Bitvector: 0 
@@ -656,6 +676,7 @@ Cha: 10
 Size: 35
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 140
 Weight: 140
 Special_Bitvector: 0 

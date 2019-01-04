@@ -235,7 +235,7 @@ end
 wait 1
 mpurge %object%
 msend %actor%  Воевода обрадовался.
-msend %actor%  - Ты все же смог%actor.g% найти его!
+msend %actor%  - Ты все же смог%actor.q% найти его!
 msend %actor%  - А я уже и не надеялся.
 msend %actor%  - Я не желаю знать, кто уволок его, но ты заслужил%actor.g% награду. 
 wait 5

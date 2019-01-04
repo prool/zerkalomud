@@ -1,2 +1,0 @@
-#!/bin/sh
-pcregrep -f parse.set *.wld > 00sys_parse

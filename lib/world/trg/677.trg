@@ -8,7 +8,7 @@ if !%arg.contains(вверх)%
   halt 
 end
 wsend %actor%  Вы начали карабкаться вверх, цепляясь за камни.
-wechoaround %actor%  %actor.name% начал%actor.g% карабкаться и изчез из виду.
+wechoaround %actor%  %actor.name% начал%actor.g% карабкаться и изчез%actor.q% из виду.
 wteleport %actor% 69151
 wsend %actor% _Вы вылезли на поверхность.
 wechoaround %actor%  Кто-то поднялся сюда из провала.
@@ -22,7 +22,7 @@ mecho _Окаменевший скелет метнул одну из своих костей прямо в Вас!
 foreach char %self.char%
   if %random.2% == 1
     msend %char% _В Вас попала острая кость скелета!
-    mechoaround %actor% _Кость угодила прямо в руку%actor.rname%
+    mechoaround %actor% _Кость угодила прямо в руку %actor.rname%
     mdamage %char% 50
   end
 done

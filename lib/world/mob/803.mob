@@ -24,6 +24,7 @@ Size: 85
 LikeWork: 35
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 195
 Weight: 90
 Special_Bitvector: b1c1 
@@ -72,6 +73,7 @@ Cha: 22
 Size: 51
 LikeWork: 85
 Class: 105
+Race: 101
 Height: 163
 Weight: 124
 Special_Bitvector: b1c1d1C3 
@@ -117,6 +119,7 @@ Size: 100
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -146,6 +149,7 @@ Con: 30
 Size: 69
 LikeWork: 25
 Class: 102
+Race: 101
 Height: 186
 Weight: 112
 Special_Bitvector: b1c1d1 
@@ -181,6 +185,7 @@ Size: 41
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 176
 Weight: 96
 Special_Bitvector: b1c1 
@@ -217,6 +222,7 @@ Size: 49
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 164
 Weight: 87
 Special_Bitvector: b1c1 
@@ -252,6 +258,7 @@ Size: 65
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 197
 Weight: 112
 Special_Bitvector: y0b1c1d1 
@@ -288,6 +295,7 @@ Size: 100
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 194
 Special_Bitvector: b1c1d1 
@@ -324,6 +332,7 @@ Size: 91
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 187
 Weight: 84
 Special_Bitvector: b1c1d1 
@@ -358,6 +367,7 @@ Cha: 16
 Size: 100
 LikeWork: 30
 Class: 104
+Race: 101
 Height: 148
 Weight: 134
 Special_Bitvector: b1c1d1 
@@ -417,6 +427,7 @@ Size: 68
 LikeWork: 35
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 169
 Weight: 117
 Special_Bitvector: b1c1d1 
@@ -452,6 +463,7 @@ Size: 80
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 134
 Special_Bitvector: b1c1d1 
@@ -487,6 +499,7 @@ Size: 100
 LikeWork: 65
 ExtraAttack: 2
 Class: 104
+Race: 101
 Height: 200
 Weight: 157
 Special_Bitvector: b1c1d1 
@@ -551,6 +564,7 @@ Size: 98
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 178
 Weight: 135
 Special_Bitvector: b1c1d1C3 
@@ -586,6 +600,7 @@ Cha: 14
 Size: 84
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 167
 Weight: 159
 Special_Bitvector: b1c1d1 
@@ -620,6 +635,7 @@ Size: 67
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 191
 Weight: 83
 Special_Bitvector: b1c1d1C3 
@@ -654,6 +670,7 @@ Size: 87
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 178
 Weight: 141
 Special_Bitvector: b1c1d1 
@@ -687,6 +704,7 @@ Size: 56
 LikeWork: 85
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 167
 Weight: 91
 Special_Bitvector: b1c1d1 
@@ -718,7 +736,7 @@ T 80311
 подмастерье~
 подмастерья~
 подмастерью~
-подмастерья~
+подмастерье~
 подмастерьем~
 подмастерье~
 Молодой паренек-подмастерье стоит здесь.
@@ -739,6 +757,7 @@ Size: 50
 LikeWork: 15
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 180
 Weight: 90
 Special_Bitvector: b1c1d1 
@@ -773,6 +792,7 @@ Size: 95
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 145
 Special_Bitvector: b1c1d1 
@@ -811,6 +831,7 @@ Size: 100
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 154
 Special_Bitvector: b1c1d1 
@@ -846,6 +867,7 @@ Size: 89
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 197
 Weight: 138
 Special_Bitvector: b1c1d1 

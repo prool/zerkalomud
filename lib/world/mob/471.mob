@@ -1,3 +1,6 @@
+* Сгенерировано BZEditor
+* Количество мобов : 13
+* Сохранено 10.09.2009 13:42:11
 #47100
 падальщик тварь~
 падальщик~
@@ -16,24 +19,27 @@ c0d0f0h0m0 d0k0 -600 E
 8 8 1
 Saves: 0 0 0 -10
 Resistances: 10 10 10 10 0 10 0
+AResist: 0
+MResist: 0
 BareHandAttack: 4
 Str: 17
-Dex: 17
 Int: 10
 Wis: 10
+Dex: 17
 Con: 17
 Cha: 10
-Size: 30
 LikeWork: 40
+MaxFactor: 0
 ExtraAttack: 1
 Class: 103
+Race: 104
+Size: 30
 Height: 100
 Weight: 50
-Special_Bitvector: g0b1c1 
-Skill: 160 100
+Special_Bitvector: g0b1c1
 Spell: 33
+Skill: 160 100
 E
-I шерсть,10:6
 #47101
 Воин навья ~
 воин навья~
@@ -53,25 +59,29 @@ b0d0f0l0m0z0 d0f0k0r0 -600 E
 8 8 1
 Saves: -70 0 -10 -10
 Resistances: 70 70 20 20 20 20 20
+AResist: 0
+MResist: 0
 BareHandAttack: 5
 Str: 20
-Dex: 24
 Int: 10
 Wis: 10
+Dex: 24
 Con: 10
 Cha: 10
-Size: 50
 LikeWork: 70
+MaxFactor: 0
 ExtraAttack: 2
 Class: 101
+Race: 110
+Size: 50
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1 
-Skill: 134 50
-Skill: 137 100
+Special_Bitvector: b1c1
 Spell: 38
 Spell: 38
 Spell: 139
+Skill: 134 50
+Skill: 137 100
 E
 T 47111
 #47102
@@ -90,24 +100,29 @@ d0m0b1g2 d0k0r0x0 -600 E
 20 0 -4 10d30+200 10d5+10
 0d0+50 10000
 8 8 1
+AResist: 0
+MResist: 0
 BareHandAttack: 1
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 10
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 103
+Race: 103
+Size: 10
 Height: 70
 Weight: 50
-Special_Bitvector: u0 
+Special_Bitvector: u0
 Skill: 136 70
 E
 T 47105
 #47103
-скелет витязь Кост~
+скелет витязь~
 скелет витязя~
 скелета витязя~
 скелету витязя~
@@ -124,26 +139,30 @@ d0f0m0z0 d0k0r0C0 -600 E
 8 8 1
 Saves: -60 -25 -25 -25
 Resistances: 30 30 80 30 30 80 30
+AResist: 0
+MResist: 0
+BareHandAttack: 0
 Str: 20
-Dex: 30
 Int: 10
 Wis: 10
+Dex: 30
 Con: 10
 Cha: 10
-Size: 40
 LikeWork: 70
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
+Race: 110
+Size: 40
 Height: 175
 Weight: 60
-Special_Bitvector: w0b1c1B3 
-Skill: 21 50
+Special_Bitvector: w0b1c1B3
 Spell: 152
+Skill: 21 50
 E
 T 47108
-I кости,5:5
 #47104
-волхв темный Черн Мужик~
+волхв темный~
 темный волхв~
 темного волхва~
 темному волхву~
@@ -160,30 +179,34 @@ b0d0f0g0l0m0x0g2 d0k0r0 -600 E
 8 8 1
 Saves: -80 -40 -50 -50
 Resistances: 80 80 25 25 0 80 50
+AResist: 0
+MResist: 0
+BareHandAttack: 0
 Str: 20
-Dex: 30
 Int: 25
 Wis: 25
+Dex: 30
 Con: 10
 Cha: 10
-Size: 100
 LikeWork: 90
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
+Race: 114
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1C3 
-Skill: 12 180
-Skill: 22 100
+Special_Bitvector: b1c1C3
 Spell: 28
 Spell: 56
 Spell: 64
 Spell: 64
 Spell: 76
+Skill: 12 180
+Skill: 22 100
 Helper: 47108
 E
 T 47110
-I кожа,10:8
 #47105
 умирающий Витязь~
 витязь ~
@@ -200,18 +223,24 @@ b0d0g0n0x0o1 d0f0k0C0 0 E
 35 0 0 2d5+2 0d0+0
 0d0+0 0
 5 5 1
+AResist: 0
+MResist: 0
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
+Race: 101
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 T 47100
 T 47101
@@ -234,23 +263,24 @@ b0c0d0g0n0t0g2 d0f0k0r0z0A0r1t1 -600 E
 8 8 1
 Saves: -80 -80 -80 -80
 Resistances: 90 70 90 70 70 70 70
+AResist: 0
+MResist: 0
 BareHandAttack: 11
 Str: 27
-Dex: 29
 Int: 10
 Wis: 23
+Dex: 29
 Con: 28
 Cha: 10
-Size: 100
 LikeWork: 100
+MaxFactor: 0
 ExtraAttack: 2
 Class: 101
+Race: 110
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: w0b1c1 
-Skill: 131 120
-Skill: 136 100
-Skill: 157 120
+Special_Bitvector: w0b1c1
 Spell: 48
 Spell: 76
 Spell: 76
@@ -264,11 +294,14 @@ Spell: 76
 Spell: 76
 Spell: 93
 Spell: 151
-Helper: 47100
-Helper: 47101
-Helper: 47102
-Helper: 47103
+Skill: 131 120
+Skill: 136 100
+Skill: 157 120
 Helper: 47104
+Helper: 47103
+Helper: 47102
+Helper: 47101
+Helper: 47100
 E
 T 47102
 T 47107
@@ -290,35 +323,39 @@ b0d0f0l0m0z0 d0f0k0r0e2 -600 E
 8 8 1
 Saves: -80 -30 -30 -30
 Resistances: 80 30 80 30 30 30 30
+AResist: 0
+MResist: 0
 BareHandAttack: 5
 Str: 20
-Dex: 24
 Int: 15
 Wis: 15
+Dex: 24
 Con: 10
 Cha: 10
-Size: 50
 LikeWork: 70
+MaxFactor: 0
 ExtraAttack: 2
 Class: 101
+Race: 110
+Size: 50
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1 
-Skill: 134 50
-Skill: 137 100
+Special_Bitvector: b1c1
 Spell: 32
 Spell: 32
 Spell: 32
 Spell: 98
+Skill: 134 50
+Skill: 137 100
 E
 T 47106
 #47108
-йцукенг~
+он на службе силы зла~
 он на службе силы ЗЛА~
 его на службе силы ЗЛА~
 ему на службе силы ЗЛА~
 его на службе силы ЗЛА~
-ним на службе силы ЗЛА~
+им на службе силы ЗЛА~
 нем на службе силы ЗЛА~
 Неведомый некто состоит на службе силы ЗЛА.
 ~
@@ -327,26 +364,31 @@ T 47106
 ~
 d0f0z0b2 d0k0 -600 E
 25 -10 -5 10d10+500 6d6+9
-0d0+10 20000
+0d0+10 30000
 8 8 1
 Saves: -80 -80 -80 -80
 Resistances: 80 80 80 0 0 80 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
 Str: 17
-Dex: 17
 Int: 17
 Wis: 17
+Dex: 17
 Con: 17
 Cha: 10
-Size: 100
 LikeWork: 60
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
+Race: 110
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1
 E
 #47109
-волхв темный Черн Мужик~
+волхв темный~
 темный волхв~
 темного волхва~
 темному волхву~
@@ -363,35 +405,40 @@ b0d0f0g0l0m0x0g2 d0k0r0d2e2 -600 E
 8 8 1
 Saves: -80 -80 -80 -80
 Resistances: 70 70 70 70 70 70 70
+AResist: 0
+MResist: 0
+BareHandAttack: 0
 Str: 20
-Dex: 10
 Int: 25
 Wis: 25
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
 LikeWork: 90
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
+Race: 110
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1C3 
-Skill: 12 180
-Skill: 22 100
+Special_Bitvector: b1c1C3
 Spell: 28
 Spell: 56
 Spell: 64
 Spell: 64
 Spell: 76
+Skill: 12 180
+Skill: 22 100
 Helper: 47110
 E
 #47110
-йцукенг~
+он на службе силы зла~
 он на службе силы ЗЛА~
 его на службе силы ЗЛА~
 ему на службе силы ЗЛА~
 его на службе силы ЗЛА~
-ним на службе силы ЗЛА~
+им на службе силы ЗЛА~
 нем на службе силы ЗЛА~
 Неведомый некто состоит на службе силы ЗЛА.
 ~
@@ -404,19 +451,24 @@ d0f0z0b2 d0k0e2 -600 E
 8 8 1
 Saves: -80 -80 -80 -80
 Resistances: 80 80 80 0 0 80 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
 Str: 17
-Dex: 17
 Int: 17
 Wis: 17
+Dex: 17
 Con: 17
 Cha: 10
-Size: 100
 LikeWork: 60
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
+Race: 110
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1
 E
 T 47109
 #47111
@@ -436,22 +488,26 @@ d0f0h0m0 d0f0k0e2 -600 E
 1d1+10 40000
 8 8 1
 Saves: -80 -80 -80 -80
+AResist: 0
+MResist: 0
 BareHandAttack: 4
 Str: 17
-Dex: 17
 Int: 10
 Wis: 10
+Dex: 17
 Con: 17
 Cha: 10
-Size: 30
 LikeWork: 40
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
+Race: 111
+Size: 30
 Height: 100
 Weight: 50
-Special_Bitvector: g0b1c1 
-Skill: 160 100
+Special_Bitvector: g0b1c1
 Spell: 33
+Skill: 160 100
 E
 #47112
 угар боя призрак~
@@ -470,21 +526,26 @@ d0f0h0m0e2h2 d0f0k0e2 -600 E
 1d1+10 40000
 8 8 1
 Saves: -80 -80 -80 -80
+AResist: 0
+MResist: 0
 BareHandAttack: 4
 Str: 17
-Dex: 17
 Int: 10
 Wis: 10
+Dex: 17
 Con: 17
 Cha: 10
-Size: 30
 LikeWork: 40
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
+Race: 111
+Size: 30
 Height: 100
 Weight: 50
-Special_Bitvector: g0b1c1 
-Skill: 160 100
+Special_Bitvector: g0b1c1
 Spell: 33
+Skill: 160 100
 E
+$
 $

@@ -14,7 +14,7 @@
 просто идеальная жена!
 ~
 b0d0g0m0n0o0 0 0 E
-14 5 5 0d0+250 5d5+6
+13 5 5 0d0+250 5d5+6
 1d10+0 12500
 8 8 2
 Str: 3
@@ -26,6 +26,7 @@ Cha: 3
 Size: 100
 LikeWork: 95
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: a0b0c0d0b1c1 
@@ -35,7 +36,6 @@ Spell: 6
 Spell: 91
 E
 T 12014
-I кожа,10:10
 #12001
 пес сабака шарик~
 пес Шарик~
@@ -49,7 +49,7 @@ I кожа,10:10
 А мохнатость у Шарика повышенная. Только вот хвост в драке ему потрепали.
 ~
 d0g0h0m0n0o0 k0 -600 E
-12 6 5 0d0+175 4d3+2
+11 6 5 0d0+175 4d3+2
 0d0+0 8000
 8 8 1
 BareHandAttack: 4
@@ -62,6 +62,7 @@ Cha: 3
 Size: 70
 LikeWork: 90
 Class: 103
+Race: 109
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -82,7 +83,7 @@ I шерсть,10:10
 Противный жирный котяра. Зажравшаяся тварь, просящая смачного пинка.
 ~
 b0d0g0m0n0o0x0 0 -600 E
-10 5 7 0d0+100 5d5+2
+7 5 7 0d0+100 5d5+2
 0d0+0 2500
 8 8 1
 Str: 3
@@ -94,6 +95,7 @@ Cha: 3
 Size: 15
 LikeWork: 5
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -113,7 +115,7 @@ I когти,10:10
 голода он точно не умрет. А вот от обжорства вполне вероятно.
 ~
 b0d0g0m0n0o0 0 0 E
-14 5 5 0d0+300 5d5+6
+13 5 5 0d0+300 5d5+6
 0d0+0 12500
 8 8 2
 Str: 20
@@ -125,6 +127,7 @@ Cha: 3
 Size: 100
 LikeWork: 95
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: a0b0c0d0b1c1 
@@ -149,7 +152,7 @@ I зубы,10:10
 не хочет. Мечтает поскорей замуж выйти. Да чтоб муж богатый попался.
 ~
 b0d0f0g0m0n0o0 0 0 E
-10 7 7 0d0+70 2d2+2
+8 7 7 0d0+70 2d2+2
 0d0+0 3000
 8 8 2
 Str: 10
@@ -162,6 +165,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: d1 
@@ -186,7 +190,7 @@ I глаза,10:10
 И умом Бог его не обидел и здоровье есть еще.
 ~
 b0d0g0m0n0o0 0 0 E
-14 6 6 0d0+200 4d2+1
+12 6 6 0d0+200 4d2+1
 1d10+1 10000
 8 8 1
 Str: 15
@@ -199,13 +203,13 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: a1 
 Skill: 137 50
 E
 T 12016
-I кости,10:10
 #12006
 червь червяк земляной~
 червь земляной~
@@ -220,7 +224,7 @@ I кости,10:10
 залезть опять в землю.
 ~
 c0d0g0n0o0 k0 0 E
-12 10 5 5d5+200 3d1+2
+11 10 5 5d5+200 3d1+2
 0d0+0 7500
 8 8 1
 Str: 3
@@ -233,6 +237,7 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 105
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -264,6 +269,7 @@ Cha: 3
 Size: 3
 LikeWork: 15
 Class: 100
+Race: 113
 Height: 198
 Weight: 3
 Special_Bitvector: i0j0l0x0 
@@ -300,7 +306,7 @@ E
 Что станет полным наконец.
 ~
 b0d0g0m0n0o0 0 0 E
-14 5 5 0d0+300 5d5+6
+13 5 5 0d0+300 5d5+6
 1d2+3 12500
 8 8 1
 Str: 3
@@ -311,7 +317,8 @@ Con: 3
 Cha: 3
 Size: 100
 LikeWork: 95
-Class: 103
+Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: a0b0c0d0b1c1 
@@ -350,6 +357,7 @@ Cha: 3
 Size: 100
 LikeWork: 95
 Class: 101
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: n0v0y0b1 
@@ -372,7 +380,7 @@ T 12000
 Огромная хищная рыбина, но что-то в ней странное все же есть.
 ~
 b0d0f0g0l0n0q0x0 d0g0k0p0t0j1k1 -600 E
-7 0 -4 4d4+100 4d4+2
+9 0 -4 4d4+100 4d4+2
 0d0+0 5000
 8 8 2
 Str: 18
@@ -384,6 +392,7 @@ Cha: 18
 Size: 10
 LikeWork: 15
 Class: 103
+Race: 106
 Height: 198
 Weight: 50
 Special_Bitvector: o0v0 
@@ -412,7 +421,7 @@ I чешуя,10:10
 Красавец удалой - один из 33 богатырей дядьки Беломора.
 ~
 b0c0d0g0m0A0 c0k0r0 -600 E
-3 3 5 1d1+18 1d1+0
+2 3 5 1d1+18 1d1+0
 1d1+3 300
 8 8 1
 Str: 3
@@ -424,6 +433,7 @@ Cha: 3
 Size: 40
 LikeWork: 5
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: p0b1c1 
@@ -449,7 +459,7 @@ E
 влияние на 33 здоровенных мужика.
 ~
 b0c0d0g0A0 c0e0f0h0k0 -600 E
-8 0 0 3d3+70 3d3+1
+11 0 0 3d3+70 3d3+1
 1d1+30 7000
 8 8 1
 Str: 3
@@ -461,6 +471,7 @@ Cha: 33
 Size: 60
 LikeWork: 20
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: b1c1d1 
@@ -498,7 +509,7 @@ T 12022
 но Вам и такая, на худой конец, сгодится.
 ~
 b0c0d0g0m0n0x0A0p1c2 k0 -600 E
-16 0 -5 4d4+150 4d4+1
+17 0 -5 4d4+150 4d4+1
 4d4+5 25000
 8 8 2
 Str: 18
@@ -511,6 +522,7 @@ Size: 60
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: v0b1c1 
@@ -543,7 +555,7 @@ T 12025
 с красным носом из морковки, с глазками угольками и ведром на голове.
 ~
 b0c0d0g0m0n0r0x0z0A0 f0k0r0 -600 E
-8 0 4 3d3+50 2d3+1
+11 0 4 3d3+50 2d3+1
 0d0+0 8000
 8 8 1
 Str: 35
@@ -556,6 +568,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: v0b1c1 
@@ -580,7 +593,7 @@ T 12011
 Старик с красным носом, в огромных рукавицах и с мешком за плечами.
 ~
 b0c0d0f0g0n0x0A0 d0e0f0g0k0r0q1 -600 E
-12 0 0 4d4+200 1d1+1
+16 0 0 4d4+200 1d1+1
 1d1+200 20000
 8 8 1
 Str: 28
@@ -592,6 +605,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: u0v0b1c1 
@@ -617,7 +631,7 @@ T 12024
 как раз вместо носа.
 ~
 b0c0d0g0m0n0p0z0 k0A0 0 E
-12 4 2 3d3+85 2d2+1
+11 4 2 3d3+85 2d2+1
 1d1+25 8000
 8 8 2
 Str: 3
@@ -629,6 +643,7 @@ Cha: 3
 Size: 50
 LikeWork: 50
 Class: 100
+Race: 114
 Height: 198
 Weight: 50
 Special_Bitvector: v0b1c1 
@@ -653,7 +668,7 @@ T 12012
 Ледяная масса воздуха, пришедшая с севера.
 ~
 b0d0g0m0n0p0r0x0z0b1c2 b0d0f0k0p0r0t0x0A0j1 -600 E
-6 0 5 1d1+45 2d2+0
+9 0 5 1d1+45 2d2+0
 0d0+0 5000
 8 8 1
 Str: 3
@@ -665,6 +680,7 @@ Cha: 3
 Size: 100
 LikeWork: 50
 Class: 100
+Race: 113
 Height: 198
 Weight: 100
 Special_Bitvector: u0 
@@ -685,7 +701,7 @@ E
 Леденая масса воздуха, пришедшая с северной Атлантики.
 ~
 b0d0f0g0m0n0p0r0x0z0b1c2 b0d0f0k0p0r0t0x0A0j1 -600 E
-6 0 5 1d1+30 3d3+2
+9 0 5 1d1+30 3d3+2
 0d0+0 5000
 8 8 1
 Str: 3
@@ -697,6 +713,7 @@ Cha: 3
 Size: 100
 LikeWork: 50
 Class: 100
+Race: 113
 Height: 198
 Weight: 100
 Special_Bitvector: u0 
@@ -717,7 +734,7 @@ E
 Не сыскать во всей округе более ленивого мужика.
 ~
 b0c0d0m0o0A0 0 0 E
-1 3 3 3d3+130 3d3+3
+9 3 3 3d3+130 3d3+3
 0d0+20 4000
 8 8 1
 Str: 25
@@ -730,6 +747,7 @@ Size: 80
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: y0b1c1 
@@ -756,7 +774,7 @@ T 12021
 Крошка-бес хоть и мал, а уж хитер.
 ~
 b0c0d0f0g0 b0g0k0t0j1 -600 E
-5 3 0 1d1+100 3d3+0
+9 3 0 1d1+100 3d3+0
 0d0+5 5000
 8 8 1
 Str: 18
@@ -769,6 +787,7 @@ Size: 30
 LikeWork: 10
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 198
 Weight: 30
 Special_Bitvector: b1c1 
@@ -800,7 +819,7 @@ T 12008
 Крошка-чертик так и норовит сбить христиан с пути истинного.
 ~
 b0c0d0g0m0A0 d0f0g0k0r0 -600 E
-6 3 0 1d1+100 2d3+1
+12 3 0 1d1+100 2d3+1
 0d0+10 10000
 8 8 1
 Str: 18
@@ -813,6 +832,7 @@ Size: 50
 LikeWork: 15
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -856,6 +876,7 @@ Cha: 3
 Size: 80
 LikeWork: 30
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: y0b1c1 
@@ -885,7 +906,7 @@ T 12020
 Молодое деревце.
 ~
 b0d0e0g0l0n0o0p0q0r0t0u0x0z0 d0k0A0 0 E
-12 0 0 1d1+100 3d3+3
+11 0 0 1d1+100 3d3+3
 0d0+0 7000
 8 8 2
 BareHandAttack: 2
@@ -899,6 +920,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 2
 Class: 100
+Race: 108
 Height: 198
 Weight: 100
 Special_Bitvector: c0d0 
@@ -919,7 +941,7 @@ E
 Ценный пушной зверек - основной источник золотого запаса на Острове-Буяне.
 ~
 b0c0d0f0g0m0 0 -600 E
-15 5 -4 3d3+200 3d3+3
+11 5 -4 3d3+200 3d3+3
 0d0+0 7000
 8 8 2
 BareHandAttack: 4
@@ -932,6 +954,7 @@ Cha: 3
 Size: 80
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
@@ -950,10 +973,10 @@ E
 Баба-Яга чистит ступу, что-то напевая себе под нос.
 ~
 Хоть и Яга, а все же Баба.
-Что? Не нравиться? Ну на любителя..
+Что? Не нравится? Ну, на любителя..
 ~
 b0c0d0g0m0n0o0u0A0 d0f0k0A0 -600 E
-16 0 -4 4d4+250 3d3+3
+14 0 -4 4d4+250 3d3+3
 3d5+10 15000
 8 8 2
 Str: 3
@@ -964,6 +987,7 @@ Con: 3
 Cha: 3
 Size: 90
 Class: 100
+Race: 101
 Height: 198
 Weight: 90
 Special_Bitvector: b1c1 
@@ -980,7 +1004,6 @@ Spell: 38
 Spell: 54
 E
 T 12023
-I кости,10:10
 #12026
 гуси-лебеди~
 гуси-лебеди~
@@ -996,7 +1019,7 @@ I кости,10:10
 верите?
 ~
 b0d0f0g0n0x0 b0k0s0t0x0j1 -600 E
-5 0 4 1d1+35 2d2+2
+4 0 4 1d1+35 2d2+2
 0d0+0 1000
 8 8 3
 BareHandAttack: 2
@@ -1010,6 +1033,7 @@ Size: 30
 LikeWork: 15
 ExtraAttack: 2
 Class: 103
+Race: 103
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -1029,7 +1053,7 @@ I крылья,10:10
 Красивая девушка лежит в хрустальном гробу и ждет своего спасителя.
 ~
 b0d0g0n0o0u0 d0f0k0r0A0 -600 E
-1 0 -8 0d0+400 4d4+5
+16 0 -8 0d0+400 4d4+5
 0d0+100 20000
 8 8 2
 Str: 3
@@ -1042,6 +1066,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
@@ -1075,7 +1100,7 @@ T 12007
 Все мужики - сволочи!
 ~
 b0d0 0 -600 E
-5 18 -10 1d100+500 1d1+2
+11 18 -10 1d100+500 1d1+2
 0d0+0 7000
 8 8 1
 Str: 3
@@ -1086,6 +1111,7 @@ Con: 3
 Cha: 3
 Size: 30
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -1105,7 +1131,7 @@ T 12001
 а он все равно на лис смотрит.
 ~
 b0d0 0 -600 E
-15 17 -10 1d100+700 1d1+3
+9 17 -10 1d100+700 1d1+3
 0d0+0 5000
 8 8 1
 Str: 3
@@ -1116,6 +1142,7 @@ Con: 15
 Cha: 3
 Size: 30
 Class: 100
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -1134,7 +1161,7 @@ T 12002
 Говорят что в прошлой жизни ее звали - Оля.
 ~
 b0d0f0g0n0o0u0 d0f0k0r0A0 -600 E
-25 0 -8 0d0+200 4d4+1
+16 0 -8 0d0+200 4d4+1
 0d0+100 20000
 8 8 2
 Str: 3
@@ -1147,6 +1174,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 

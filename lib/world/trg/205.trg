@@ -8,6 +8,8 @@ wdoor 20539 south purge
 wdoor 20540 south purge
 calcuid polk 20561 room
 attach 20531 %polk.id%
+calcuid orj 20538 room
+attach 20503 %orj.id%
 ~
 #20501
 меняемвход~
@@ -260,7 +262,7 @@ switch %object.vnum%
     wait 19
     эм начала внимательно изучать содержимое записки.
     wait 19
-    эм перела взгляд на Вас.
+    эм перевела взгляд на Вас.
     wait 25
     say Садись внучек рядом. Расскажу я тебе поверье о цветке дивном папоротника, которое 
     say слыхивала от деда, которому рассказала ее его прабабка.
@@ -392,8 +394,10 @@ else
   wechoaround %actor% %actor.name% поплыл%actor.g% на другой берег.
   makeuid lop %actor.id%
   worlds lop
-  calcuid zl 20512 mob
-  exec 20536 %zl.id%
+  if %exist.mob(20512)%
+    calcuid zl 20512 mob
+    exec 20536 %zl.id%
+  end
   wteleport %actor% 20541
 end
 ~
@@ -582,6 +586,7 @@ mload obj 20503
 if %random.1000% <= 550
   mecho Не вдалеке показались два &Bсиних огонька&n. Ну, только этой нечисти здесь еще  не хватало.
   mload mob 20517
+end
 ~
 #20535
 девушкаулыбается~
@@ -601,10 +606,10 @@ wait 15
 ~
 #20537
 пустилслезу~
-1 bj 100
+1 gjl 100
 *~
 if %random.100% <= 5
-  osend       %actor% Вы пустили скупую слезу война.
+  osend       %actor% Вы пустили скупую слезу воина.
   oechoaround %actor% %actor.name% пустил скупую слезу.
 end
 ~

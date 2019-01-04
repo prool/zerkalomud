@@ -10,28 +10,28 @@
 ~
 Вы видите удачливого монгольского пастуха.
 ~
-l0A0r2c0s2 p0A0 -600 E
-15 7 +10 10d10+300 3d5+5 
+c0d0l0A0r2s2 p0A0 -600 E
+15 7 10 10d10+300 3d5+5
 2d2+0 30000
 8 8 1
 CastSuccess: 30
-BareHandAttack:  2
+BareHandAttack: 2
 Str: 18
+Dex: 14
 Int: 12
 Wis: 14
-Dex: 14
 Con: 15
 Cha: 27
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 130
-Special_Bitvector: b1c1
-Skill: 134 20
+Special_Bitvector: b1c1 
 Skill: 1 5
+Skill: 134 20
 Skill: 136 80
 E
 T 148801
@@ -51,26 +51,25 @@ I кожа,1:1
 ~
 Вы видите везучего молодого хазарина.
 ~
-l0A0r2c0s2 A0 -600 E
-15 7 +10 10d10+350 3d5+5 
+c0d0l0A0r2s2 A0 -600 E
+15 7 10 10d10+350 3d5+5
 2d2+0 34000
 8 8 1
 CastSuccess: 30
-BareHandAttack:  0
 Str: 15
+Dex: 15
 Int: 14
 Wis: 17
-Dex: 15
 Con: 15
 Cha: 22
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 130
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 60
 E
 T 148801
@@ -90,26 +89,22 @@ I кожа,4:1
 ~
 Вы видите убеленого сединами старца.
 ~
-l0A0c0 0 -600 E
-15 9 +10 10d10+250 3d3+5 
+c0d0l0A0 0 -600 E
+15 9 10 10d10+250 3d3+5
 3d2+0 15000
 8 8 1
 CastSuccess: 30
-BareHandAttack:  0
-Str: 11
+Dex: 10
 Int: 20
 Wis: 22
-Dex: 10
-Con: 11
 Cha: 10
-LikeWork: 5
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 5
+Class: 102
+Race: 101
 Height: 160
 Weight: 150
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 80
 E
 T 148801
@@ -129,26 +124,24 @@ I кожа,2:2
 ~
 Вы видите молодого половецкого купца.
 ~
-l0A0r2c0s2 0 -600 E
-15 7 +10 10d10+300 4d4+12 
+c0d0l0A0r2s2 0 -600 E
+15 7 10 10d10+300 4d4+12
 10d10+20 15000
 8 8 1
 CastSuccess: 30
-BareHandAttack:  0
 Str: 15
+Dex: 18
 Int: 19
 Wis: 17
-Dex: 18
 Con: 16
 Cha: 16
-LikeWork: 30
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 30
+Class: 102
+Race: 101
 Height: 150
 Weight: 150
-Special_Bitvector: a1b1c1
+Special_Bitvector: a1b1c1 
 Skill: 134 5
 Skill: 136 60
 E
@@ -168,25 +161,24 @@ I кожа,1:2
 Серый сорокопут чирикает тут.
 ~
 Вы видите серого сорокопута.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,2:7
@@ -203,25 +195,24 @@ I крылья,2:7
 Мелкая степная мышь бежит к своей норке.
 ~
 Вы видите мелкую степную мышь.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,1:5
@@ -240,25 +231,24 @@ I когти,3:8
 Заяц убегает вдаль.
 ~
 Вы видите зайца.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,2:5
@@ -277,25 +267,24 @@ I когти,5:9
 Кузнечик сидит тут в траве.
 ~
 Вы видите кузнечика.~
-l1m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0l1m1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 #148808
@@ -309,25 +298,24 @@ E
 Савка летает тут.
 ~
 Вы видите савку.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,3:6
@@ -344,29 +332,27 @@ I крылья,5:9
 Степной уж свернулся кольцом.
 ~
 Вы видите степного ужа.~
-t1l1q0m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0q0l1m1t1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 105
 Height: 5
 Weight: 10
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 136 60
 E
 I глаза,2:8
 I кости,5:5
 I кожа,3:7
-$
 $

@@ -1,2 +1,0 @@
-#!/bin/sh
-grep -f parse.set *.trg > sys_parse1

@@ -29,6 +29,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 160
 Weight: 90
 Special_Bitvector: 0 
@@ -49,7 +50,7 @@ T 72712
 ручищи как у великана. С таким спорить - себе дороже.
 ~
 b0d0g0l0m0g2o2 d0f0k0r0 0 E
-30 0 -10 40d10+1200 6d4+15
+29 0 -10 40d10+1200 6d4+15
 3d2+100 200000
 8 8 1
 Resistances: 5 5 5 5 5 20 20
@@ -71,6 +72,7 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -92,7 +94,7 @@ T 72714
 лесоруб~
 лесоруба~
 лесорубу~
-лесоруб~
+лесоруба~
 лесорубом~
 лесорубе~
 Здоровый мужичина с топором наперевес.
@@ -101,7 +103,7 @@ T 72714
 С таким опасно шутить, а то ведь может с деревом спутать.
 ~
 b0c0d0l0m0A0h1g2o2 r0z0A0m1 0 E
-26 0 -10 2d10+1000 5d5+14
+28 0 -10 2d10+1000 5d5+14
 1d2+12 150000
 8 8 1
 Resistances: 5 5 5 5 5 5 5
@@ -123,6 +125,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1d1 
@@ -154,7 +157,7 @@ T 72716
 махать эдаким топорищем.
 ~
 b0d0l0m0x0A0i1o2 k0r0m1 600 E
-26 0 -10 2d10+1000 5d5+14
+28 0 -10 2d10+1000 5d5+14
 1d1+12 150000
 5 5 1
 Saves: 5 5 5 5
@@ -174,9 +177,10 @@ Wis: 20
 Con: 30
 Cha: 10
 Size: 50
-LikeWork: 90
+LikeWork: 30
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -188,7 +192,6 @@ Feat: 42
 Skill: 5 80
 Skill: 132 100
 Skill: 137 80
-Skill: 167 20
 Spell: 36
 Spell: 62
 Spell: 72
@@ -210,7 +213,7 @@ T 72715
 Крупная лесная птица с огромными глазищами. Ишь как моргает!
 ~
 d0f0g0q0y0b1i1t1 d0f0k0x0z0 -600 E
-15 4 0 2d2+200 3d2+2
+9 4 0 2d2+200 3d2+2
 0d0+0 5000
 8 8 1
 BareHandAttack: 8
@@ -224,6 +227,7 @@ Size: 10
 LikeWork: 55
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: C3 
@@ -244,7 +248,7 @@ I крылья,10:10
 его собратьев...
 ~
 b0d0f0g0y0 f0k0r0t0z0A0j1m1 -600 E
-15 0 0 10d10+300 3d2+10
+22 0 0 10d10+300 3d2+10
 0d0+0 60000
 8 8 1
 Armour: 100
@@ -260,6 +264,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 60
 Special_Bitvector: h0j0 
@@ -274,7 +279,7 @@ I шерсть,10:10
 бурый медведь~
 бурого медведя~
 бурому медведю~
-бурый медведя~
+бурого медведя~
 бурым медведем~
 буром медведе~
 Бурый медведь ломает ветви пробираясь по чаще.
@@ -282,7 +287,7 @@ I шерсть,10:10
 Царь русского леса. Живой символ русского народа, сильный, опасный и ленивый.
 ~
 b0d0f0g0l0g2 f0m1 -600 E
-25 0 -2 10d10+400 2d2+12
+24 0 -2 10d10+400 2d2+12
 0d0+0 80000
 8 8 1
 BareHandAttack: 1
@@ -296,6 +301,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -317,7 +323,7 @@ I когти,10:10
 напряженно внюхивается в незнакомые запахи. Уж больно она любопытна.
 ~
 d0g0l0m0 d0k0s0z0A0 -600 E
-25 0 -2 10d10+200 2d2+8
+12 0 -2 10d10+200 2d2+8
 0d0+0 10000
 8 8 2
 Armour: 100
@@ -333,6 +339,7 @@ Size: 20
 LikeWork: 85
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: i0p0C3 
@@ -375,6 +382,7 @@ Size: 49
 LikeWork: 80
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 90
 Special_Bitvector: y0b1c1 
@@ -412,7 +420,7 @@ T 72713
 с теленка!
 ~
 b0d0g0 A0 0 E
-15 1 5 10d10+700 4d4+10
+12 1 5 10d10+700 4d4+10
 0d0+0 10000
 8 8 1
 BareHandAttack: 1
@@ -425,6 +433,7 @@ Size: 40
 LikeWork: 14
 ExtraAttack: 4
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -436,7 +445,7 @@ T 72707
 воскресший колдун~
 воскресшего колдуна~
 воскресшему колдуну~
-воскресший колдун~
+воскресшего колдуна~
 воскресшим колдуном~
 воскресшем колдуне~
 Колдун - нежить скалится беззубой улыбкой.
@@ -445,7 +454,7 @@ T 72707
 неведомой силой, подстерегает люд нерасторопный, дабы насытиться кровушкой.
 ~
 b0d0f0l0p0b1 b0d0f0k0n0r0x0z0A0l1e2 -600 E
-28 0 8 2d10+900 3d3+12
+30 0 8 2d10+900 3d3+12
 1d5+200 300000
 8 8 1
 Resistances: 0 0 0 0 5 5 0
@@ -465,6 +474,7 @@ Size: 40
 LikeWork: 99
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 120
 Weight: 85
 Special_Bitvector: c0l0b1c1 
@@ -490,8 +500,8 @@ Spell: 76
 Spell: 76
 Spell: 76
 Spell: 150
-Helper: 72713
 Helper: 72714
+Helper: 72713
 E
 T 72702
 #72711
@@ -508,7 +518,7 @@ T 72702
 находиться колдунов темных.
 ~
 b0d0m0 d0f0k0r0x0z0A0t1e2 -600 E
-30 -16 -4 3d10+900 6d6+10
+28 -16 -4 3d10+900 6d6+10
 1d2+50 160000
 8 8 1
 Armour: 100
@@ -526,6 +536,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 85
 Special_Bitvector: b1c1B3 
@@ -543,7 +554,7 @@ T 72703
 посыльный~
 посыльного~
 посыльному~
-посыльный~
+посыльного~
 посыльным~
 посыльном~
 Посыльный бредет в Полоцк с донесением.
@@ -552,7 +563,7 @@ T 72703
 совсем ничего до Полоцка, но силы его явно сдают.
 ~
 b0d0x0o2 d0k0 600 E
-25 0 0 10d10+500 3d3+10
+12 0 0 10d10+500 3d3+10
 1d2+50 10000
 8 8 1
 Str: 24
@@ -565,6 +576,7 @@ Size: 60
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -594,7 +606,7 @@ T 72720
 Умрун неусопший и неупокоенный.
 ~
 b0d0f0g0l0m0z0g2 f0m1 -600 E
-25 -6 -2 10d10+400 5d5+12
+24 -6 -2 10d10+400 5d5+12
 0d0+0 80000
 8 8 1
 Armour: 100
@@ -612,6 +624,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -632,7 +645,7 @@ T 72718
 Всеми гонимое и презренное существо.
 ~
 b0d0f0g0l0m0z0b2g2h2 f0m1 -600 E
-25 -6 -2 10d10+400 2d2+6
+24 -6 -2 10d10+400 2d2+6
 0d0+0 80000
 8 8 1
 CastSuccess: 100
@@ -647,6 +660,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -671,6 +685,7 @@ c0d0e0l0m0n0A0g2o2 k0r0z0A0m1e2 -600 E
 31 -15 -4 2d10+2500 5d5+10
 1d2+120 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Resistances: 100 100 100 100 0 0 0
 HPreg: 100
 Armour: 100
@@ -686,6 +701,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1C3 
@@ -699,7 +715,6 @@ Spell: 15
 Spell: 93
 E
 T 72721
-I кости,10:10
 #72716
  полоцкий дружинник~
 полоцкий дружинник~
@@ -714,7 +729,7 @@ I кости,10:10
 вооружен и экипирован.
 ~
 d0g0l0m0g2o2 k0r0z0A0 -600 E
-30 0 -10 40d10+1200 6d4+11
+29 0 -10 40d10+1200 6d4+11
 3d2+100 200000
 8 8 1
 Saves: -5 0 0 0
@@ -734,6 +749,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1 
@@ -758,7 +774,7 @@ I зубы,10:10
 Видно, что он побывал не в одной передряге. Этот из боя не сбежит.
 ~
 d0g0l0m0n0x0g2o2 k0r0z0A0 -600 E
-30 0 -10 40d10+1200 6d4+11
+29 0 -10 40d10+1200 6d4+11
 3d2+100 200000
 8 8 1
 Saves: -5 0 0 -25
@@ -778,6 +794,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1 
@@ -800,7 +817,7 @@ T 72726
 Всадник отличнно держится в седле!
 ~
 d0g0l0m0q0x0A0g2o2 r0z0 -600 E
-30 0 -10 40d10+1100 6d4+14
+29 0 -10 40d10+1100 6d4+14
 3d2+100 200000
 8 8 1
 Armour: 100
@@ -818,6 +835,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1B3 
@@ -828,7 +846,6 @@ Spell: 88
 Spell: 88
 E
 T 72722
-I кожа,10:10
 #72719
  полоцкий витязь молодой~
  полоцкий витязь~
@@ -843,7 +860,7 @@ I кожа,10:10
 что его взяли в дозорный отряд.
 ~
 d0e0g0l0m0g2o2 r0 -600 E
-30 -2 -10 40d10+1100 6d4+14
+29 -2 -10 40d10+1100 6d4+14
 3d2+100 200000
 8 8 1
 Armour: 100
@@ -861,6 +878,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1B3 
@@ -885,7 +903,7 @@ T 72725
 Выехал это бугай в дозор - размяться.
 ~
 d0g0l0m0g2o2 r0z0 -600 E
-30 -2 -10 40d10+1300 6d4+14
+29 -2 -10 40d10+1300 6d4+14
 3d2+100 200000
 8 8 1
 Armour: 100
@@ -902,6 +920,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1 
@@ -909,7 +928,6 @@ Skill: 4 150
 Skill: 167 120
 E
 T 72723
-I кожа,10:10
 #72721
  полоцкий богатырь~
  полоцкий богатырь~
@@ -924,7 +942,7 @@ I кожа,10:10
 Очень грамотный боец!
 ~
 d0g0l0m0g2o2 r0z0 -600 E
-30 -2 -10 40d10+1300 6d4+14
+29 -2 -10 40d10+1300 6d4+14
 3d2+100 200000
 8 8 1
 Saves: 0 0 0 -15
@@ -942,6 +960,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1 
@@ -965,7 +984,7 @@ T 72723
 чем охранять покой родного города.
 ~
 d0e0g0l0m0t0A0g2o2 f0r0s0t0A0m1 -600 E
-30 -6 -2 40d10+900 6d4+14
+29 -6 -2 40d10+900 6d4+14
 3d2+100 200000
 8 8 1
 Armour: 100
@@ -982,6 +1001,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: g0i0b1c1d1 
@@ -1007,7 +1027,7 @@ T 72727
 Он не очень опытен в бою, но если ударит, то уж ударит!
 ~
 d0g0l0m0g2o2 r0z0m1 -600 E
-30 -6 -5 40d10+1000 6d4+14
+29 -6 -5 40d10+1000 6d4+14
 3d2+100 200000
 8 8 1
 HPreg: 100
@@ -1026,6 +1046,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1 
@@ -1048,7 +1069,7 @@ E
 не раз с того света вытаскивал.
 ~
 d0g0l0m0g2o2 d0k0r0z0m1d2e2 -600 E
-30 -6 -5 40d10+800 6d4+6
+29 -6 -5 40d10+800 6d4+6
 3d2+100 200000
 8 8 1
 Saves: -15 0 0 -30
@@ -1070,6 +1091,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1 
@@ -1100,7 +1122,7 @@ E
 раздражая молодого витязя.
 ~
 d0e0g0l0m0n0t1g2o2 b0d0k0r0x0z0A0a1m1r1e2 -600 E
-30 -6 -5 40d10+800 6d4+6
+29 -6 -5 40d10+800 6d4+6
 3d2+100 200000
 8 8 1
 Saves: -5 0 0 -30
@@ -1120,6 +1142,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: h0b1c1d1 
@@ -1150,7 +1173,7 @@ I глаза,10:10
 не сбылось! И Слава Богу!
 ~
 c0d0g0l0m0u0x0A0t1g2o2 d0f0h0k0r0x0z0A0a1m1r1e2 -600 E
-30 -6 -5 40d10+800 6d4+6
+29 -6 -5 40d10+800 6d4+6
 3d2+100 200000
 8 8 1
 Saves: -5 0 0 -35
@@ -1171,6 +1194,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: l0b1c1d1 

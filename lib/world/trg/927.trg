@@ -118,7 +118,7 @@ elseif %random.10% < 5
   if %dam%>%actor.maxhitp%
     eval dam %actor.maxhitp%
   end
-  odamage %actor% dam    
+  odamage %actor% %dam%    
   foreach targ %actor.all%
     eval dam %dam%-30
     if %dam%<1

@@ -128,7 +128,7 @@ if %object.vnum% == 33821 then
   calcuid roompiosi 33893 room
   attach 33809 %roompiosi.id%
   exec 33809 %roompiosi.id%
-  mpurge %self.name%
+  mpurge %self%
 end
 if %object.vnum% == 33822 then
   mecho _Пес схватил порошок зубами и попытался проглотить его.
@@ -138,7 +138,7 @@ if %object.vnum% == 33822 then
   calcuid roompiosii 33893 room
   attach 33810 %roompiosii.id%
   exec 33810 %roompiosii.id%
-  mpurge %self.name%
+  mpurge %self%
 end
 if %object.vnum% == 33823 then
   mecho _Пес схватил порошок зубами и попытался проглотить его.
@@ -150,7 +150,7 @@ if %object.vnum% == 33823 then
   calcuid roompiosuu 33893 room
   attach 33822 %roompiosuu.id%
   exec 33822 %roompiosuu.id%
-  mpurge %self.name%
+  mpurge %self%
 end
 ~
 #33809
@@ -161,7 +161,7 @@ wait 1
 wecho _Внезапно черный пес превратился в мокрую лягушку.
 wload mob 33828
 wait 3s
-wecho _"Ну ты и балда... Ты все попутал%actor.q%." - проквакала лягушка.
+wecho _"Ну ты и балда... Ты все попута%actor.q%." - проквакала лягушка.
 calcuid roompios 33893 room
 detach 33809 %roompios.id%
 ~
@@ -235,7 +235,7 @@ detach 33813 %rorikk.id%
 wait 6s
 msend %actor%  Воевода внимательно взглянул на вас.
 mechoaround %actor% Воевода одарил %actor.vname% взглядом.
-if (%world.curobjs(33800)% < 1) && (%random.100% < 10)
+if (%world.curobjs(33800)% < 1) && (%random.100% < 25)
   say Священник много говорил мне про тебя.
   say У меня есть к тебе поручение.
   say Необходимо срочно доставить святую хоругвь в полки.
@@ -245,7 +245,7 @@ if (%world.curobjs(33800)% < 1) && (%random.100% < 10)
   mload obj 33800
   дать хоруг %actor.name%
   detach 33814 %self.id%
-elseif ( %world.curobjs(3306)% < 1 ) && (%random.100%  < 11 )
+elseif ( %world.curobjs(3306)% < 1 ) && (%random.100%  < 4 )
   mload obj 3306
   say Священник много говорил мне про тебя.
   say И, я думаю, ты достоин доверия.
@@ -411,7 +411,8 @@ end
 Умер воевода - лоад сетшмутки~
 0 f 100
 ~
-if %world.curobjs(3306)% < 1  
+halt
+if %world.curobjs(3366)% < 1  
   if  %random.100% < 3
     mload obj 3306
   end

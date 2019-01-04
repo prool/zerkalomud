@@ -11,7 +11,7 @@
 Да он своим жалом может пробить вас насквозь!
 ~
 d0f0q0b1 k0x0 -600 E
-15 6 -10 5d5+220 3d1+2
+11 6 -10 5d5+220 3d1+2
 0d0+0 8000
 8 8 1
 BareHandAttack: 16
@@ -24,6 +24,7 @@ Cha: 10
 Size: 40
 LikeWork: 80
 Class: 103
+Race: 107
 Height: 80
 Weight: 50
 Special_Bitvector: 0 
@@ -46,7 +47,7 @@ I крылья,5:5
 Но намного, намного больше...
 ~
 d0f0q0b1h1 x0 -600 E
-15 3 -10 5d5+260 3d1+2
+12 3 -10 5d5+260 3d1+2
 0d0+0 9000
 8 8 2
 BareHandAttack: 4
@@ -58,6 +59,7 @@ Con: 20
 Cha: 10
 Size: 30
 Class: 103
+Race: 107
 Height: 70
 Weight: 50
 Special_Bitvector: 0 
@@ -78,7 +80,7 @@ E
 Медведя с одного укуса завалит!
 ~
 d0f0q0b1h1 x0 -600 E
-7 5 -10 5d8+300 3d1+3
+13 5 -10 5d8+300 3d1+3
 0d0+0 12000
 8 8 1
 BareHandAttack: 4
@@ -91,6 +93,7 @@ Cha: 10
 Size: 50
 LikeWork: 90
 Class: 103
+Race: 104
 Height: 100
 Weight: 70
 Special_Bitvector: 0 
@@ -110,7 +113,7 @@ E
 Хоть и мелкий, а вас ядом сожжет и внутренности выпьет.
 ~
 d0f0q0 d0f0k0 -600 E
-15 4 -10 7d7+250 3d1+3
+13 4 -10 7d7+250 3d1+3
 0d0+0 11000
 8 8 1
 BareHandAttack: 4
@@ -123,13 +126,13 @@ Cha: 10
 Size: 50
 LikeWork: 90
 Class: 103
+Race: 107
 Height: 100
 Weight: 70
 Special_Bitvector: g0 
 Skill: 136 80
 Spell: 76
 E
-I кожа,3:5
 #12704
 серый паучок~
 серый паучок~
@@ -143,7 +146,7 @@ I кожа,3:5
 Невзрачный паучок, но бежит - зайца обгонит.
 ~
 d0f0q0 k0 -600 E
-14 4 -10 7d7+200 3d2+1
+13 4 -10 7d7+200 3d2+1
 0d0+0 11000
 8 8 1
 BareHandAttack: 4
@@ -156,6 +159,7 @@ Cha: 10
 Size: 50
 LikeWork: 90
 Class: 103
+Race: 107
 Height: 100
 Weight: 70
 Special_Bitvector: g0 
@@ -175,7 +179,7 @@ E
 Мохнатый паук, желто-прозрачный, как будто налитый медом.
 ~
 b0d0f0q0 k0 -600 E
-17 7 -10 10d10+200 3d2+2
+14 7 -10 10d10+200 3d2+2
 0d0+0 13500
 8 8 1
 BareHandAttack: 4
@@ -188,6 +192,7 @@ Cha: 10
 Size: 60
 LikeWork: 95
 Class: 103
+Race: 107
 Height: 120
 Weight: 80
 Special_Bitvector: g0 
@@ -209,7 +214,7 @@ I глаза,3:5
 Жало у нее как хороший меч!
 ~
 b0d0f0q0x0b1 k0x0 -600 E
-17 5 -10 7d7+200 3d1+2
+12 5 -10 7d7+200 3d1+2
 0d0+0 9000
 8 8 2
 BareHandAttack: 16
@@ -222,6 +227,7 @@ Cha: 15
 Size: 50
 LikeWork: 70
 Class: 103
+Race: 107
 Height: 80
 Weight: 50
 Special_Bitvector: g0 
@@ -246,7 +252,7 @@ I крылья,3:5
 Заостренное брюшко, желтые усы, мощные челюсти.
 ~
 b0d0f0q0x0b1 k0x0 -600 E
-20 6 -10 7d7+200 3d2+2
+12 6 -10 7d7+200 3d2+2
 0d0+0 9000
 8 8 2
 BareHandAttack: 11
@@ -259,6 +265,7 @@ Cha: 20
 Size: 60
 LikeWork: 85
 Class: 103
+Race: 104
 Height: 100
 Weight: 70
 Special_Bitvector: g0 
@@ -279,7 +286,7 @@ T 12708
 Он не мал, но вонюч?
 ~
 d0f0b1b2 d0f0k0 -600 E
-16 4 -10 7d7+220 3d1+2
+12 4 -10 7d7+220 3d1+2
 0d0+0 9000
 8 8 1
 BareHandAttack: 4
@@ -292,6 +299,7 @@ Cha: 10
 Size: 40
 LikeWork: 35
 Class: 103
+Race: 107
 Height: 70
 Weight: 60
 Special_Bitvector: 0 
@@ -325,6 +333,7 @@ Cha: 10
 Size: 50
 LikeWork: 14
 Class: 103
+Race: 107
 Height: 80
 Weight: 70
 Special_Bitvector: 0 
@@ -345,7 +354,7 @@ E
 Небольшой жучок, величиной с гуся.
 ~
 d0f0b1 k0 -600 E
-16 4 -10 7d7+200 3d1+3
+12 4 -10 7d7+200 3d1+3
 0d0+0 10000
 8 8 1
 BareHandAttack: 4
@@ -358,6 +367,7 @@ Cha: 10
 Size: 50
 LikeWork: 90
 Class: 103
+Race: 107
 Height: 80
 Weight: 60
 Special_Bitvector: 0 
@@ -378,7 +388,7 @@ E
 Жук с черными рогами на голове.
 ~
 d0f0b1 k0 -600 E
-8 7 -10 7d7+50 20d1+3
+13 7 -10 7d7+50 20d1+3
 0d0+0 11000
 8 8 1
 BareHandAttack: 14
@@ -391,6 +401,7 @@ Cha: 10
 Size: 60
 LikeWork: 90
 Class: 103
+Race: 107
 Height: 90
 Weight: 70
 Special_Bitvector: 0 
@@ -413,7 +424,7 @@ T 12711
 А этот жук, наверно решил закатать в шар вас.
 ~
 b0d0f0x0b1 k0 -600 E
-19 8 -10 10d10+250 3d2+1
+14 8 -10 10d10+250 3d2+1
 0d0+0 13500
 8 8 1
 Str: 35
@@ -426,6 +437,7 @@ Size: 80
 LikeWork: 95
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 170
 Weight: 90
 Special_Bitvector: 0 
@@ -447,7 +459,7 @@ T 12712
 Узкие крылья, тоненькие усики и острый железный хоботок.
 ~
 d0f0q0b1i1 k0x0 -600 E
-16 4 -10 7d7+200 3d1+1
+11 4 -10 7d7+200 3d1+1
 0d0+0 8000
 8 8 1
 BareHandAttack: 8
@@ -460,6 +472,7 @@ Cha: 10
 Size: 40
 LikeWork: 90
 Class: 103
+Race: 107
 Height: 70
 Weight: 60
 Special_Bitvector: 0 
@@ -480,7 +493,7 @@ I крылья,2:5
 Белая с черными кружками на крыльях.
 ~
 d0f0q0b1h1 x0 -600 E
-13 5 -10 7d7+160 3d1+1
+12 5 -10 7d7+160 3d1+1
 0d0+0 10000
 8 8 2
 BareHandAttack: 8
@@ -493,6 +506,7 @@ Cha: 10
 Size: 60
 LikeWork: 90
 Class: 103
+Race: 107
 Height: 90
 Weight: 70
 Special_Bitvector: 0 
@@ -526,6 +540,7 @@ Cha: 12
 Size: 60
 LikeWork: 80
 Class: 103
+Race: 104
 Height: 120
 Weight: 70
 Special_Bitvector: B3 
@@ -548,7 +563,7 @@ T 12719
 Медленное жирное существо, но челюсти сильнее, чем у волка.
 ~
 d0f0q0 k0 -600 E
-15 4 -10 10d10+180 3d1+2
+12 4 -10 10d10+180 3d1+2
 0d0+0 10000
 8 8 2
 BareHandAttack: 4
@@ -561,13 +576,13 @@ Cha: 10
 Size: 50
 LikeWork: 90
 Class: 103
+Race: 107
 Height: 100
 Weight: 80
 Special_Bitvector: m0 
 Skill: 136 80
 Spell: 78
 E
-I кожа,3:5
 #12717
 мохнатая гусеница~
 мохнатая гусеница~
@@ -581,7 +596,7 @@ I кожа,3:5
 Ох, и больно же колются эти колючки...
 ~
 d0f0q0 k0 -600 E
-15 6 -10 10d10+180 3d1+2
+12 6 -10 10d10+180 3d1+2
 0d0+0 10000
 8 8 2
 BareHandAttack: 11
@@ -594,6 +609,7 @@ Cha: 10
 Size: 60
 LikeWork: 95
 Class: 103
+Race: 107
 Height: 100
 Weight: 90
 Special_Bitvector: m0 
@@ -614,7 +630,7 @@ E
 Треугольное брюшко, сухие цепкие лапки.
 ~
 b0d0f0 0 -600 E
-9 3 -10 7d7+150 2d1+2
+11 3 -10 7d7+150 2d1+2
 0d0+0 7000
 8 8 2
 BareHandAttack: 4
@@ -627,6 +643,7 @@ Cha: 10
 Size: 30
 LikeWork: 70
 Class: 103
+Race: 107
 Height: 60
 Weight: 50
 Special_Bitvector: 0 
@@ -647,7 +664,7 @@ E
 Такие мотыльки, только маленькие, летают по ночам и лезут на свет.
 ~
 d0f0q0b1i1 k0x0 -600 E
-17 8 -10 10d10+150 3d1+1
+13 8 -10 10d10+150 3d1+1
 0d0+0 11000
 8 8 1
 Str: 32
@@ -660,6 +677,7 @@ Size: 70
 LikeWork: 95
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 130
 Weight: 90
 Special_Bitvector: 0 
@@ -692,6 +710,7 @@ Cha: 10
 Size: 40
 LikeWork: 90
 Class: 103
+Race: 107
 Height: 70
 Weight: 60
 Special_Bitvector: g0p0 
@@ -714,7 +733,7 @@ T 12700
 протянулась под землей.
 ~
 b0d0f0q0x0 d0k0 -600 E
-16 5 -10 10d10+270 3d2+2
+14 5 -10 10d10+270 3d2+2
 0d0+0 14000
 8 8 1
 BareHandAttack: 2
@@ -727,6 +746,7 @@ Cha: 10
 Size: 80
 LikeWork: 15
 Class: 103
+Race: 105
 Height: 150
 Weight: 100
 Special_Bitvector: 0 
@@ -734,7 +754,6 @@ Skill: 136 48
 Skill: 150 15
 E
 T 12714
-I кожа,4:5
 #12722
 серая ящерка~
 серая ящерка~
@@ -749,7 +768,7 @@ I кожа,4:5
 А эта как?
 ~
 d0f0q0 k0 -600 E
-15 7 -10 10d10+250 3d1+2
+13 7 -10 10d10+250 3d1+2
 0d0+0 12000
 8 8 2
 BareHandAttack: 8
@@ -763,6 +782,7 @@ Size: 80
 LikeWork: 90
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 170
 Weight: 110
 Special_Bitvector: 0 
@@ -784,7 +804,7 @@ T 12715
 не очень большая.
 ~
 d0f0q0 d0f0k0 -600 E
-15 5 -10 10d10+200 3d1+2
+13 5 -10 10d10+200 3d1+2
 0d0+0 11000
 8 8 2
 BareHandAttack: 4
@@ -797,6 +817,7 @@ Cha: 10
 Size: 70
 LikeWork: 90
 Class: 103
+Race: 105
 Height: 100
 Weight: 80
 Special_Bitvector: v0 
@@ -818,7 +839,7 @@ I глаза,3:5
 Маленькие они еще ничего, но вот когда вырастут...
 ~
 d0f0q0 k0 -600 E
-15 6 -10 10d10+200 3d1+2
+13 6 -10 10d10+200 3d1+2
 0d0+0 11000
 8 8 2
 BareHandAttack: 4
@@ -831,6 +852,7 @@ Cha: 10
 Size: 80
 LikeWork: 95
 Class: 103
+Race: 105
 Height: 130
 Weight: 100
 Special_Bitvector: 0 
@@ -851,7 +873,7 @@ T 12716
 Толстая, пупырчатая и наверно очень ядовитая.
 ~
 d0f0q0 k0 -600 E
-15 6 -10 12d12+150 3d2+1
+14 6 -10 12d12+150 3d2+1
 0d0+0 14000
 8 8 2
 BareHandAttack: 4
@@ -864,6 +886,7 @@ Cha: 10
 Size: 90
 LikeWork: 95
 Class: 103
+Race: 105
 Height: 180
 Weight: 130
 Special_Bitvector: a1 
@@ -871,7 +894,6 @@ Skill: 132 15
 Skill: 136 100
 E
 T 12702
-I кожа,4:4
 #12726
 шмель~
 шмель~
@@ -885,7 +907,7 @@ I кожа,4:4
 Бедный шмель стал таким большим, что с трудом держится в воздухе.
 ~
 d0f0q0b1h1 x0 -600 E
-15 5 -10 7d7+200 3d1+1
+12 5 -10 7d7+200 3d1+1
 0d0+0 9000
 8 8 1
 BareHandAttack: 11
@@ -898,6 +920,7 @@ Cha: 12
 Size: 60
 LikeWork: 95
 Class: 103
+Race: 107
 Height: 90
 Weight: 70
 Special_Bitvector: g0u0 
@@ -917,7 +940,7 @@ T 12710
 Немного длиннее, чем другие пчелы. Она - основа жизни гнезда.
 ~
 b0d0f0q0x0b1 d0f0k0 -600 E
-15 6 -10 7d7+260 3d2+2
+14 6 -10 7d7+260 3d2+2
 0d0+0 14000
 8 8 2
 BareHandAttack: 16
@@ -930,6 +953,7 @@ Cha: 20
 Size: 60
 LikeWork: 95
 Class: 103
+Race: 107
 Height: 100
 Weight: 60
 Special_Bitvector: C3 
@@ -949,7 +973,7 @@ E
 В пятнах, мокрый и очень большой.
 ~
 d0f0q0x0a1 0 -600 E
-13 5 -10 7d7+200 3d1+1
+12 5 -10 7d7+200 3d1+1
 0d0+0 10000
 8 8 1
 BareHandAttack: 2
@@ -963,6 +987,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 90
 Weight: 70
 Special_Bitvector: v0 
@@ -983,7 +1008,7 @@ I чешуя,3:1
 В домике этой улитки, пожалуй, смогли бы поместиться и вы.
 ~
 d0f0q0x0 0 -600 E
-11 6 -10 12d12+140 3d1+1
+12 6 -10 12d12+140 3d1+1
 0d0+0 9000
 8 8 2
 BareHandAttack: 14
@@ -996,6 +1021,7 @@ Cha: 10
 Size: 80
 LikeWork: 95
 Class: 103
+Race: 107
 Height: 140
 Weight: 120
 Special_Bitvector: C3 
@@ -1017,7 +1043,7 @@ T 12717
 А прозрачные в прожилках крылья - из самого настоящего стекла.
 ~
 b0d0f0q0x0b1 f0k0x0r1 -600 E
-30 7 -10 7d7+200 3d1+1
+13 7 -10 7d7+200 3d1+1
 0d0+0 11000
 8 8 2
 BareHandAttack: 2
@@ -1031,6 +1057,7 @@ Size: 70
 LikeWork: 90
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 130
 Weight: 80
 Special_Bitvector: u0 
@@ -1054,7 +1081,7 @@ T 12718
 не заметит. А у него их вон сколько, на всех киевских богатырей хватит.
 ~
 b0d0e0f0n0p0q0r0x0r1 d0 -600 E
-20 7 -10 10d12+285 3d1+3
+14 7 -10 10d12+285 3d1+3
 0d0+0 15000
 8 8 1
 BareHandAttack: 4
@@ -1067,6 +1094,7 @@ Cha: 10
 Size: 100
 LikeWork: 15
 Class: 103
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: e0w0 
@@ -1091,7 +1119,7 @@ I зубы,50:50
 то на Михайло Потапыча глянет, то вниз на землю, то по бокам озирается.
 ~
 b0d0x0 f0 0 E
-15 0 0 1d1+400 5d4+1
+1 0 0 1d1+400 5d4+1
 0d0+0 40
 8 8 2
 BareHandAttack: 4
@@ -1103,6 +1131,7 @@ Con: 22
 Cha: 15
 Size: 50
 Class: 103
+Race: 104
 Height: 110
 Weight: 50
 Special_Bitvector: 0 
@@ -1128,7 +1157,7 @@ E
 А здесь прижался к дереву и дрожит от страха.
 ~
 b0d0x0 f0k0 0 E
-27 1 0 1d1+500 7d6+7
+1 1 0 1d1+500 7d6+7
 0d0+0 50
 8 8 1
 BareHandAttack: 4
@@ -1140,6 +1169,7 @@ Con: 28
 Cha: 10
 Size: 50
 Class: 103
+Race: 104
 Height: 120
 Weight: 60
 Special_Bitvector: 0 
@@ -1161,7 +1191,7 @@ E
 Но вот боится чего-то...
 ~
 b0d0x0 d0f0k0 0 E
-30 2 0 1d1+1000 7d6+7
+1 2 0 1d1+1000 7d6+7
 0d0+0 100
 8 8 1
 BareHandAttack: 1
@@ -1174,6 +1204,7 @@ Cha: 12
 Size: 60
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 170
 Weight: 80
 Special_Bitvector: 0 
@@ -1198,7 +1229,7 @@ E
 повсюду? И уж слишком удобно он расположился в дупле...
 ~
 b0d0h0n0p0r0u0 d0r0z0 -600 E
-24 2 -10 10d7+300 3d3+3
+16 2 -10 10d7+300 3d3+3
 1d1+100 20000
 8 8 1
 Int: 35
@@ -1208,6 +1239,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 140
 Weight: 70
 Special_Bitvector: 0 

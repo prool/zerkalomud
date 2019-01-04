@@ -20,7 +20,7 @@ if ((%actor.class% == 8) || (%actor.class% == 4))
     хих
   end
 else
-  tell %actor.name% Зачем ты пришел сюда?
+  tell %actor.name% Зачем ты приш%actor.y% сюда?
   mkill %actor.name%
 end
 ~
@@ -125,7 +125,7 @@ switch %actor.class%
     end
   break
   case 8
-    if (!%actor.spell(поднять труп)% && (%actor.level%>13)
+    if (!%actor.spelltype(поднять труп)% && (%actor.level%>13)
       msend %actor% Вот держи, и надеюсь ты скоро присоединишься ко мне и поможешь.
       mspellturn %actor.name% поднять.труп set
       msend %actor% Поднять труп важное заклинание для чернокнижника.
@@ -169,7 +169,8 @@ if %object.vnum%==27803
     break
     * колдун
     case 1
-      if (!%actor.spelltype(оцепенение)%) && (%actor.level%>17)
+      eval lvl 17-%actor.remort%/3
+      if (!%actor.spelltype(оцепенение)% && (%actor.level% > %lvl%))
         mspellturn .%actor.name% оцепенение set
         say Вот, знай теперь оцепенение, %actor.name%. 
       else

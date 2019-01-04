@@ -12,7 +12,7 @@
 имеющее форму воина-степняка.
 ~
 b0d0f0g0m0n0o0r0z0b1 d0k0x0 -600 E
-12 7 0 10d5+250 4d3+8
+17 7 0 10d5+250 4d3+8
 0d0+0 25000
 8 8 2
 Str: 20
@@ -25,6 +25,7 @@ Size: 30
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
@@ -44,7 +45,7 @@ T 14501
 Крупный ворон с длинным сверкающим
 клювом и острым пронизывающим взглядом.~
 d0g0n0o0b1f2 x0 -600 E
-9 14 4 10d5+150 5d2+8
+10 14 4 10d5+150 5d2+8
 0d0+0 6000
 8 8 1
 BareHandAttack: 1
@@ -55,6 +56,7 @@ Cha: 10
 Size: 20
 LikeWork: 50
 Class: 103
+Race: 103
 Height: 50
 Weight: 10
 Special_Bitvector: l0 
@@ -74,7 +76,7 @@ E
 длиной с Ваш меч.
 ~
 d0g0m0n0o0l1m1n1 0 -600 E
-9 12 4 15d2+120 3d3+10
+11 12 4 15d2+120 3d3+10
 0d0+0 7500
 8 8 1
 BareHandAttack: 2
@@ -84,6 +86,7 @@ Con: 14
 Size: 20
 LikeWork: 50
 Class: 103
+Race: 104
 Height: 50
 Weight: 10
 Special_Bitvector: m0 
@@ -105,7 +108,7 @@ L 1633 60 0 2
 Темного цвета птица с трусливыми повадками.
 ~
 d0g0n0o0b1 k0x0 -600 E
-11 10 4 20d2+180 5d2+10
+12 10 4 20d2+180 5d2+10
 0d0+0 10000
 8 8 1
 BareHandAttack: 8
@@ -115,6 +118,7 @@ Con: 15
 Size: 25
 LikeWork: 50
 Class: 103
+Race: 103
 Height: 50
 Weight: 10
 Special_Bitvector: l0 
@@ -134,7 +138,7 @@ E
 рычит и кусает всех подряд.
 ~
 d0g0j0n0o0f2 k0m1 -600 E
-12 9 1 15d2+220 4d4+10
+14 9 1 15d2+220 4d4+10
 0d0+0 15000
 8 8 1
 BareHandAttack: 4
@@ -144,6 +148,7 @@ Con: 17
 Size: 30
 LikeWork: 50
 Class: 103
+Race: 104
 Height: 100
 Weight: 50
 Special_Bitvector: p0 
@@ -164,7 +169,7 @@ L 1666 25 0 2
 Темного цвета маленькая птаха с прозрачными
 крылами и уродливой мордашкой.~
 d0g0n0o0b1i1l1m1n1 f0k0x0 -600 E
-8 13 2 15d2+120 4d3+8
+10 13 2 15d2+120 4d3+8
 0d0+0 6000
 8 8 2
 BareHandAttack: 2
@@ -174,6 +179,7 @@ Con: 14
 Size: 20
 LikeWork: 50
 Class: 103
+Race: 104
 Height: 10
 Weight: 2
 Special_Bitvector: l0 
@@ -211,6 +217,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 60
 Special_Bitvector: 0 

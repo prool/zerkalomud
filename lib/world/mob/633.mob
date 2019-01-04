@@ -25,6 +25,7 @@ Size: 70
 LikeWork: 30
 ExtraAttack: 5
 Class: 103
+Race: 107
 Height: 100
 Weight: 20
 Special_Bitvector: g0i0l0d3 
@@ -64,6 +65,7 @@ Size: 40
 LikeWork: 15
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 75
 Weight: 50
 Special_Bitvector: p0d3 
@@ -96,6 +98,7 @@ Size: 50
 LikeWork: 25
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 90
 Weight: 70
 Special_Bitvector: i0p0d3 
@@ -124,6 +127,7 @@ d0 0 0 E
 BareHandAttack: 16
 Size: 30
 Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

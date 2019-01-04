@@ -29,6 +29,7 @@ Cha: 36
 Size: 65
 LikeWork: 60
 Class: 101
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: m0x0C3 
@@ -92,6 +93,7 @@ Cha: 36
 Size: 65
 LikeWork: 60
 Class: 101
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: m0x0C3 
@@ -155,6 +157,7 @@ Cha: 36
 Size: 65
 LikeWork: 60
 Class: 101
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: m0x0C3 
@@ -218,6 +221,7 @@ Cha: 36
 Size: 65
 LikeWork: 60
 Class: 101
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: m0x0C3 
@@ -281,6 +285,7 @@ Cha: 36
 Size: 65
 LikeWork: 60
 Class: 101
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: m0x0C3 
@@ -333,11 +338,12 @@ b0d0l0n0o0p0q0r0x0g2 d0f0h0k0m0n0 -600 E
 0d0+0 12000000
 8 8 1
 Saves: -100 -100 -100 -100
-Resistances: 55 55 200 200 100 200 100
+Resistances: 55 200 200 200 100 200 100
 HPreg: 100
 Armour: 50
 Success: 35
 Initiative: 20
+MResist: 30
 Str: 50
 Dex: 16
 Int: 9
@@ -347,6 +353,7 @@ Cha: 10
 Size: 100
 LikeWork: 40
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: f0b1C3 
@@ -399,6 +406,7 @@ LikeWork: 60
 MaxFactor: 10
 ExtraAttack: 1
 Class: 100
+Race: 104
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
@@ -464,6 +472,7 @@ LikeWork: 60
 MaxFactor: 10
 ExtraAttack: 1
 Class: 100
+Race: 104
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
@@ -530,6 +539,7 @@ LikeWork: 60
 MaxFactor: 10
 ExtraAttack: 1
 Class: 100
+Race: 104
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
@@ -595,6 +605,7 @@ LikeWork: 60
 MaxFactor: 10
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
@@ -661,6 +672,7 @@ Size: 50
 LikeWork: 60
 MaxFactor: 10
 Class: 100
+Race: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
@@ -721,6 +733,7 @@ Size: 50
 LikeWork: 60
 MaxFactor: 10
 Class: 100
+Race: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
@@ -775,6 +788,7 @@ LikeWork: 75
 MaxFactor: 10
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 30
 Weight: 120
 Special_Bitvector: m0 
@@ -824,6 +838,7 @@ LikeWork: 100
 MaxFactor: 10
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 30
 Weight: 100
 Special_Bitvector: w0 

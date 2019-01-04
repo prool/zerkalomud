@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #105200
 хан Сырчан мудрый~
 хан Сырчан~
@@ -11,24 +10,25 @@
 ~
 Хан Сырчан, славный своей мудростью на сто улусов.
 ~
-b0l0n0x0 d0f0h0k0r0z0A0 -600 E
+b0d0l0n0x0 d0f0h0k0r0z0A0 -600 E
 30 10 -10 10d100+5000 6d5+8
 10d100+80 600000
 6 6 1
 BareHandAttack: 2
 Str: 30
+Dex: 20
 Int: 35
 Wis: 35
-Dex: 20
 Con: 25
 Cha: 25
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 29
 Feat: 30
 Feat: 31
@@ -64,9 +64,8 @@ Spell: 68
 Spell: 94
 Spell: 113
 Spell: 113
-Helper: 105205
 Helper: 105223
-Skill: 136 90
+Helper: 105205
 E
 T 105202
 #105201
@@ -81,25 +80,24 @@ T 105202
 ~
 Хан Отрок, лихой батыр, гордый своим гневом.
 ~
-b0l0m0n0 d0f0h0k0r0A0m1r1t1 -600 E
+b0d0l0m0n0 d0f0h0k0r0A0m1r1t1 -600 E
 30 10 -8 10d100+5000 8d10+15
 10d10+600 600000
 8 8 1
-BareHandAttack: 0
 Str: 35
+Dex: 35
 Int: 22
 Wis: 29
-Dex: 35
 Con: 32
 Cha: 22
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 2
 Class: 104
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1C3
+Special_Bitvector: b1c1C3 
 Feat: 29
 Feat: 30
 Feat: 31
@@ -113,7 +111,7 @@ Feat: 38
 Skill: 4 120
 Skill: 12 100
 Skill: 22 120
-Skill: 136 120
+Skill: 136 90
 Skill: 137 100
 Skill: 150 120
 Skill: 160 100
@@ -122,9 +120,8 @@ Spell: 28
 Spell: 28
 Spell: 68
 Spell: 68
-Helper: 105275
 Helper: 105274
-Skill: 136 90
+Helper: 105275
 E
 T 105215
 T 105216
@@ -140,24 +137,25 @@ T 105216
 ~
 Счастливый хан радуется возвращению младшего брата.
 ~
-b0l0m0n0 d0f0k0r0z0 -600 E
+b0d0l0m0n0 d0f0k0r0z0 -600 E
 30 10 -5 10d100+5000 2d5+8
 10d10+800 1000000
 6 6 1
 BareHandAttack: 2
 Str: 35
+Dex: 20
 Int: 30
 Wis: 35
-Dex: 20
 Con: 25
 Cha: 35
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 29
 Feat: 30
 Feat: 31
@@ -193,10 +191,9 @@ Spell: 55
 Spell: 94
 Spell: 153
 Spell: 153
-Helper: 105223
-Helper: 105205
 Helper: 105203
-Skill: 136 90
+Helper: 105205
+Helper: 105223
 E
 T 105217
 T 105218
@@ -212,25 +209,24 @@ T 105218
 ~
 Грозный хан не выпускает из рук пучок степной травы.
 ~
-b0l0m0n0A0 d0f0h0k0r0A0r1t1 0 E
+b0d0l0m0n0A0 d0f0h0k0r0A0r1t1 0 E
 1 0 0 10d10+9000 8d8+15
 10d10+600 900000
 6 6 1
-BareHandAttack: 0
 Str: 35
+Dex: 30
 Int: 22
 Wis: 22
-Dex: 30
 Con: 32
 Cha: 22
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 2
 Class: 104
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1C3
+Special_Bitvector: b1c1C3 
 Feat: 29
 Feat: 30
 Feat: 31
@@ -267,25 +263,25 @@ E
 У Дува-Сохора, старшего табунщика, один глаз посреди лба,
 котором он видит окрест на три кочевки.
 ~
-c0h0l0m0n0r0 d0f0k0r0z0 -600 E
+c0d0h0l0m0n0r0 d0f0k0r0z0 -600 E
 28 5 -5 10d100+3000 4d8+10
 2d30+100 400000
 8 8 1
 BareHandAttack: 11
 Str: 25
+Dex: 25
 Int: 22
 Wis: 22
-Dex: 25
 Con: 26
 Cha: 20
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1C3
+Special_Bitvector: b1c1C3 
 Skill: 22 80
 Skill: 131 100
 Skill: 136 100
@@ -325,25 +321,25 @@ E
 Сладкоголосый певец может пол дня, не повторяясь,
 воспевать убранство черной юрты.
 ~
-b0l0n0u0x0 d0r0 -600 E
+b0d0l0n0u0x0 d0r0 -600 E
 25 5 0 5d100+1000 5d8+6
 0d0+0 200000
 6 6 1
 BareHandAttack: 1
 Str: 16
+Dex: 23
 Int: 25
 Wis: 25
-Dex: 23
 Con: 23
 Cha: 30
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 75
 Skill: 160 100
 Spell: 28
@@ -364,25 +360,25 @@ T 105225
 Соколиный охотник Субсутай построил себе из травы балаган
 и стал в нем жить-поживать.
 ~
-b0c0l0n0 d0f0h0k0r0z0 -600 E
+b0c0d0l0n0 d0f0h0k0r0z0 -600 E
 28 10 -5 10d100+6000 8d6+15
 5d5+80 600000
 8 8 1
 BareHandAttack: 9
 Str: 26
+Dex: 32
 Int: 22
 Wis: 22
-Dex: 32
 Con: 25
 Cha: 22
+Size: 100
 LikeWork: 20
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 132 100
 Skill: 136 84
 Skill: 137 100
@@ -391,7 +387,6 @@ Skill: 155 120
 Skill: 157 120
 Spell: 28
 Helper: 105262
-Skill: 136 84
 E
 T 105200
 T 105209
@@ -409,25 +404,25 @@ T 105210
 Молодая девушка идет за хворостом, чтоб красиво и ласково
 тлели угли в очаге посреди юрты.
 ~
-l0n0 r0 -600 E
+d0l0n0 r0 -600 E
 26 5 -3 10d100+1000 5d5+5
 0d0+0 150000
 8 8 2
 BareHandAttack: 8
 Str: 18
+Dex: 25
 Int: 22
 Wis: 20
-Dex: 25
 Con: 22
 Cha: 32
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 78
 Skill: 157 80
 Skill: 160 80
@@ -451,25 +446,24 @@ E
 Богатый нойон Алтан Цеджи, уж двадцать лет прошло, как
 перестал он считать стада своих овец.
 ~
-b0l0n0 d0k0C0r1y1 0 E
+b0d0l0n0 d0k0C0r1y1 0 E
 27 0 0 10d60+5000 6d8+9
 3d200+1000 400000
 5 5 1
-BareHandAttack: 0
 Str: 20
+Dex: 22
 Int: 22
 Wis: 25
-Dex: 22
 Con: 30
 Cha: 22
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 132 120
 Skill: 136 100
 Spell: 28
@@ -497,25 +491,24 @@ E
 ~
 Славный богатырь Аман Цаган, натянувший лук самого Шгали-Шкмана.
 ~
-b0l0r1 h0r0t1y1 -600 E
+b0d0l0r1 h0r0t1y1 -600 E
 30 0 -5 10d50+10000 9d12+10
 5d5+100 600000
 5 5 1
-BareHandAttack: 0
 Str: 35
+Dex: 27
 Int: 12
 Wis: 19
-Dex: 27
 Con: 35
 Cha: 20
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 4 150
 Skill: 5 150
 Skill: 132 100
@@ -536,24 +529,24 @@ E
 ~
 Юный богатырь Йилдер идет в табун, прихватив длинный аркан.
 ~
-l0n0 k0r0z0t1 -600 E
+d0l0n0 k0r0z0t1 -600 E
 26 0 0 10d10+3000 5d10+8
 5d5+100 400000
 8 8 1
-BareHandAttack: 0
 Str: 28
+Dex: 25
 Int: 12
 Wis: 12
-Dex: 25
 Con: 25
 Cha: 20
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 4 120
 Skill: 136 120
 Spell: 62
@@ -570,25 +563,24 @@ E
 ~
 Великан Найхал, могучий батыр, мимо идет богатырским шагом.
 ~
-l0i2 k0r0C0r1t1 -600 E
+d0l0i2 k0r0C0r1t1 -600 E
 29 10 -2 10d100+6000 8d10+10
 4d5+10 500000
 8 8 1
-BareHandAttack: 0
 Str: 30
+Dex: 25
 Int: 10
 Wis: 17
-Dex: 25
 Con: 30
 Cha: 20
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 4 140
 Skill: 136 140
 Skill: 137 100
@@ -606,25 +598,24 @@ E
 ~
 Свирепый богатырь Тукэ-Красный ищет с кем бы померяться силой.
 ~
-l0m0 d0h0k0r0z0C0t1 -600 E
+d0l0m0 d0h0k0r0z0C0t1 -600 E
 28 5 -5 10d100+6000 8d9+15
 2d10+50 500000
 8 8 1
-BareHandAttack: 0
 Str: 32
+Dex: 25
 Int: 20
 Wis: 20
-Dex: 25
 Con: 32
 Cha: 20
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 4 140
 Skill: 5 120
 Skill: 136 140
@@ -646,25 +637,24 @@ T 105219
 ~
 Хатун Харакчин по прозвищу Густобородый сидит на вихорь-коне.
 ~
-l0m0n0 d0k0r0t1x1 -600 E
+d0l0m0n0 d0k0r0t1x1 -600 E
 26 6 0 10d10+4000 8d8+8
 0d0+0 400000
 8 8 1
-BareHandAttack: 0
 Str: 35
+Dex: 25
 Int: 10
 Wis: 10
-Dex: 25
 Con: 25
 Cha: 16
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 114
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1C3
+Special_Bitvector: b1c1C3 
 Skill: 4 100
 Skill: 5 100
 Skill: 22 100
@@ -685,24 +675,24 @@ E
 Молодой батыр, сын хана Бээдэ - где не возьмет силою,
 там возьмет хитростью.
 ~
-b0l0m0n0 d0f0k0r1t1 -600 E
+b0d0l0m0n0 d0f0k0r1t1 -600 E
 26 10 -8 10d50+2000 7d6+10
 0d0+0 350000
 8 8 1
-BareHandAttack: 0
 Str: 22
+Dex: 23
 Int: 28
 Wis: 30
-Dex: 23
 Con: 23
 Cha: 25
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 4 100
 Skill: 136 78
 Spell: 28
@@ -724,25 +714,24 @@ E
 ~
 Могучий Алват Хар, прозванный сыном медведя.
 ~
-b0n0x0i2 k0r0t1 -600 E
+b0d0n0x0i2 k0r0t1 -600 E
 28 4 -6 10d10+7000 7d10+15
 4d5+40 500000
 8 8 1
-BareHandAttack: 0
 Str: 30
+Dex: 15
 Int: 10
 Wis: 10
-Dex: 15
 Con: 32
 Cha: 15
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 2 120
 Skill: 4 150
 Skill: 5 140
@@ -765,25 +754,25 @@ E
 Мазан тетиву натягивает, так что концы лука сходятся.
 Тешится, стрелы длинные в небо пускает.
 ~
-l0m0n0 d0k0 -600 E
+d0l0m0n0 d0k0 -600 E
 26 8 -8 10d10+3000 5d5+5
 2d3+90 300000
 8 8 1
 BareHandAttack: 9
 Str: 24
+Dex: 30
 Int: 15
 Wis: 15
-Dex: 30
 Con: 25
 Cha: 20
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 134 100
 Skill: 136 78
 Skill: 154 120
@@ -812,25 +801,24 @@ E
 Зубы у него, как раковины, бело-розовые, глаза прекрасные - 
 - за сто верст муравья видит.
 ~
-m0n0 d0h0k0r0q1r1 -600 E
+d0m0n0 d0h0k0r0q1r1 -600 E
 25 5 -3 10d50+4000 9d9+9
 3d8+100 400000
 8 8 1
-BareHandAttack: 0
 Str: 25
+Dex: 24
 Int: 22
 Wis: 22
-Dex: 24
 Con: 25
 Cha: 25
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 132 120
 Skill: 136 120
 Spell: 56
@@ -848,24 +836,24 @@ E
 ~
 Эдг, хитрейший из мужчин, сидит верхом на рябой двухлетке.
 ~
-n0 d0f0k0x1 -600 E
+d0n0 d0f0k0x1 -600 E
 25 5 -8 10d40+3000 5d8+8
 8d8+10 400000
 8 8 1
 BareHandAttack: 3
 Str: 22
+Dex: 20
 Int: 26
 Wis: 26
-Dex: 20
 Con: 23
 Cha: 22
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 131 100
 Skill: 136 75
 Skill: 160 100
@@ -899,25 +887,25 @@ T 105220
 а второго взяв с собою, уезжает Шарвад-Баатыр охотиться
 вместе со своим соколом и собаками.
 ~
-l0m0n0 k0r0t1 -600 E
+d0l0m0n0 k0r0t1 -600 E
 25 5 0 10d10+3000 8d8+10
 0d0+0 300000
 8 8 1
 BareHandAttack: 5
 Str: 25
+Dex: 23
 Int: 10
 Wis: 10
-Dex: 23
 Con: 25
 Cha: 15
+Size: 100
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 109
 Height: 175
 Weight: 85
-Special_Bitvector: B3
+Special_Bitvector: B3 
 Skill: 21 100
 Skill: 136 75
 Skill: 150 100
@@ -934,24 +922,24 @@ E
 ~
 Знатный юноша, сын хана Арджи-Бурджи, путешествует по разным землям.
 ~
-h0l0n0 z0A0 -600 E
+d0h0l0n0 z0A0 -600 E
 22 5 -5 10d10+1000 5d6+10
 0d0+0 100000
 8 8 1
-BareHandAttack: 0
 Str: 20
+Dex: 20
 Int: 16
 Wis: 15
-Dex: 20
 Con: 22
 Cha: 22
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 157 80
 Spell: 17
@@ -976,24 +964,25 @@ E
 Могущественный шаман, умеющий призывать духов-покровителей:
 бучу, уродов на одной ноге и с оперенным человеческим телом.
 ~
-b0c0n0 d0f0k0r0C0p1r1 -600 E
+b0c0d0n0 d0f0k0r0C0p1r1 -600 E
 30 0 0 10d10+5000 4d4+8
 0d0+0 500000
 8 8 1
 BareHandAttack: 2
 Str: 14
+Dex: 20
 Int: 30
 Wis: 35
-Dex: 20
 Con: 22
 Cha: 15
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Spell: 23
 Spell: 23
@@ -1033,25 +1022,25 @@ E
 Говорят, как-то положил он свои доспехи на верх ханской юрты -
 - сорок жердей ее погнулись, а четыре поломались.
 ~
-l0m0n0 r0t1 -600 E
+d0l0m0n0 r0t1 -600 E
 28 0 -3 10d60+5000 5d6+20
 0d0+0 400000
 8 8 1
 BareHandAttack: 6
 Str: 30
+Dex: 20
 Int: 10
 Wis: 10
-Dex: 20
 Con: 30
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 4 150
 Skill: 5 140
 Skill: 136 84
@@ -1070,24 +1059,25 @@ E
 ~
 Искусный рассказчик, желанный гость в каждой юрте.
 ~
-b0m0n0 0 -600 E
+b0d0m0n0 0 -600 E
 25 2 -5 10d10+1000 4d4+5
 0d0+0 200000
 8 8 1
 BareHandAttack: 4
 Str: 15
+Dex: 15
 Int: 25
 Wis: 25
-Dex: 15
 Con: 15
 Cha: 25
+Size: 100
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 75
 Skill: 150 100
 Spell: 88
@@ -1106,25 +1096,24 @@ E
 Будя-Мерген набил крепким табаком трубку, величиною с верблюжью голову,
 дым пускает. Спит-не спит, лежит-полеживает.
 ~
-b0l0m0n0x0A0 f0k0 -600 E
+b0d0l0m0n0x0A0 f0k0 -600 E
 28 10 -5 10d10+5000 9d10+10
 0d0+0 400000
 5 5 1
-BareHandAttack: 0
 Str: 30
+Dex: 20
 Int: 10
 Wis: 10
-Dex: 20
 Con: 28
 Cha: 10
+Size: 100
 LikeWork: 35
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 4 120
 Skill: 5 140
 Skill: 136 140
@@ -1143,24 +1132,24 @@ T 105222
 ~
 Столетний старик, с длинной белой бородой.
 ~
-b0n0 0 -600 E
+b0d0n0 0 -600 E
 20 0 0 10d10+800 5d4+5
 2d5+10 100000
 6 6 1
-BareHandAttack: 0
 Str: 10
+Dex: 20
 Int: 22
 Wis: 25
-Dex: 20
 Con: 20
 Cha: 10
+Size: 100
 LikeWork: 20
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 100
 Spell: 17
 Spell: 17
@@ -1179,25 +1168,25 @@ E
 ~
 Маленький старичок в островерхой барашковой шапке.
 ~
-b0n0 d0r1 -600 E
+b0d0n0 d0r1 -600 E
 22 0 0 10d10+1000 4d4+5
 4d5+20 100000
 8 8 1
 BareHandAttack: 12
 Str: 15
+Dex: 15
 Int: 25
 Wis: 25
-Dex: 15
 Con: 15
 Cha: 12
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 66
 Skill: 141 100
 Skill: 160 100
@@ -1222,24 +1211,24 @@ E
 ~
 Прекраснолицая девушка, отрада своих родителей.
 ~
-l0m0n0 0 -600 E
+d0l0m0n0 0 -600 E
 20 5 0 10d10+800 5d5+5
 0d0+0 100000
 8 8 2
-BareHandAttack: 0
 Str: 15
+Dex: 18
 Int: 20
 Wis: 22
-Dex: 18
 Con: 10
 Cha: 20
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 1 80
 Skill: 136 60
 Spell: 4
@@ -1259,24 +1248,24 @@ E
 ~
 Бедная падчерица, ходит целыми днями голодная.
 ~
-m0n0 0 -600 E
+d0m0n0 0 -600 E
 18 0 0 10d10+600 3d5+5
 0d0+0 50000
 8 8 2
-BareHandAttack: 0
 Str: 14
+Dex: 18
 Int: 15
 Wis: 15
-Dex: 18
 Con: 15
 Cha: 15
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 54
 Spell: 5
 Spell: 5
@@ -1298,24 +1287,24 @@ E
 На правой щеке у нее родинка величиной с муху, а на левой -
 - родинка величиной с суслика.
 ~
-l0n0 0 -600 E
+d0l0n0 0 -600 E
 20 5 -2 10d10+1000 5d6+10
 5d20+500 100000
 8 8 2
-BareHandAttack: 0
 Str: 12
+Dex: 15
 Int: 10
 Wis: 15
-Dex: 15
 Con: 22
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 60
 Skill: 160 100
 Spell: 23
@@ -1335,24 +1324,24 @@ E
 ~
 Кто хоть раз девушку эту увидит - всю жизнь красоту ее помнит.
 ~
-b0n0 0 -600 E
+b0d0n0 0 -600 E
 20 0 0 10d10+800 5d6+6
 5d5+90 100000
 6 6 2
-BareHandAttack: 0
 Str: 15
+Dex: 16
 Int: 15
 Wis: 14
-Dex: 16
 Con: 15
 Cha: 30
+Size: 100
 LikeWork: 35
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 60
 Spell: 26
 Spell: 26
@@ -1373,24 +1362,24 @@ E
 ~
 Юноша без настоящих, мужских кулаков, с еле видными усиками.
 ~
-h0m0n0 0 -600 E
+d0h0m0n0 0 -600 E
 23 5 0 10d10+900 5d6+6
 0d0+0 10000
 8 8 1
-BareHandAttack: 0
 Str: 22
+Dex: 22
 Int: 14
 Wis: 14
-Dex: 22
 Con: 22
 Cha: 18
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 100
 Skill: 137 50
 E
@@ -1406,25 +1395,24 @@ E
 ~
 Трехгодовалый мальчонка, смешной сорванец.
 ~
-n0 0 -600 E
+d0n0 0 -600 E
 15 0 5 10d10+200 3d3+3
 0d0+0 10000
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 15
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 136 45
 E
 #105233
@@ -1439,25 +1427,24 @@ E
 ~
 Серьезный не по годам паренек, с босыми ногами.
 ~
-h0m0n0 A0m1 -600 E
+d0h0m0n0 A0m1 -600 E
 18 0 0 10d10+600 5d5+8
 3d5+10 80000
 8 8 1
-BareHandAttack: 0
 Str: 15
+Dex: 20
 Int: 10
 Wis: 10
-Dex: 20
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 1 50
 Skill: 136 54
 Spell: 17
@@ -1475,24 +1462,24 @@ E
 ~
 Древняя старуха, с морщинистым лицом.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 22 0 5 10d10+800 4d5+5
 3d5+10 80000
 8 8 2
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 16
 Wis: 22
-Dex: 10
 Con: 10
 Cha: 12
+Size: 100
 LikeWork: 35
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 66
 Spell: 25
 Spell: 25
@@ -1509,24 +1496,24 @@ E
 ~
 Ворчливая старуха брюзжит себе под нос.
 ~
-b0m0n0 d0 -600 E
+b0d0m0n0 d0 -600 E
 24 0 0 10d10+900 5d5+6
 2d5+20 100000
 8 8 2
-BareHandAttack: 0
 Str: 15
+Dex: 15
 Int: 15
 Wis: 20
-Dex: 15
 Con: 15
 Cha: 12
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 72
 Spell: 23
 Spell: 23
@@ -1545,24 +1532,24 @@ E
 ~
 Старая женщина, родившая четверо детей: три сына и дочь.
 ~
-m0n0 0 -600 E
+d0m0n0 0 -600 E
 24 0 0 10d10+900 5d5+5
 5d5+40 100000
 8 8 2
-BareHandAttack: 0
 Str: 10
+Dex: 14
 Int: 16
 Wis: 16
-Dex: 14
 Con: 10
 Cha: 20
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 72
 Spell: 26
 Spell: 26
@@ -1582,25 +1569,25 @@ E
 ~
 Веселый парень, с румяным лицом и белыми зубами.
 ~
-h0m0n0 k0r0 -600 E
+d0h0m0n0 k0r0 -600 E
 25 5 -4 10d40+2000 8d5+10
 0d0+0 150000
 8 8 1
 BareHandAttack: 2
 Str: 25
+Dex: 25
 Int: 10
 Wis: 10
-Dex: 25
 Con: 20
 Cha: 20
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 5 100
 Skill: 134 100
 Skill: 136 75
@@ -1618,25 +1605,24 @@ E
 ~
 Ханский пастух, уважаемый человек в хотоне.
 ~
-l0m0n0 k0r0t1 -600 E
+d0l0m0n0 k0r0t1 -600 E
 25 0 0 10d10+2000 8d8+8
 8d20+100 200000
 8 8 1
-BareHandAttack: 0
 Str: 25
+Dex: 26
 Int: 10
 Wis: 10
-Dex: 26
 Con: 22
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 120
 Skill: 137 80
 Skill: 151 100
@@ -1655,24 +1641,25 @@ E
 ~
 Братья-охотники, сильные и смелые, зоркие и быстрые.
 ~
-n0q0t0 k0r0z0A0 -600 E
+d0n0q0t0 k0r0z0A0 -600 E
 24 8 -4 10d10+2000 5d5+10
 0d0+0 200000
 8 8 3
 BareHandAttack: 9
 Str: 24
+Dex: 28
 Int: 10
 Wis: 10
-Dex: 28
 Con: 24
 Cha: 10
+Size: 100
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 132 80
 Skill: 136 100
 Skill: 154 150
@@ -1691,24 +1678,24 @@ E
 ~
 Зурхачи-гадальщик, владелец волшебных предметов.
 ~
-l0m0n0r0 d0k0 -600 E
+d0l0m0n0r0 d0k0 -600 E
 22 0 0 10d50+1500 5d7+7
 4d5+50 150000
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 15
 Int: 20
 Wis: 22
-Dex: 15
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 50
 Skill: 157 50
 Spell: 15
@@ -1734,24 +1721,25 @@ E
 Бездельник-лежебока на земле сидит, во весь рот зевает,
 да в носу ковыряет.
 ~
-b0n0x0 0 -600 E
+b0d0n0x0 0 -600 E
 20 0 5 10d10+1500 5d5+6
 0d0+0 100000
 5 5 1
 BareHandAttack: 5
 Str: 16
+Dex: 15
 Int: 10
 Wis: 10
-Dex: 15
 Con: 22
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 5 100
 Skill: 136 60
 E
@@ -1767,24 +1755,25 @@ E
 ~
 Пегий жеребенок, отставший от матери, брыкает ногами.
 ~
-s0 0 -600 E
+d0s0 0 -600 E
 15 0 0 10d10+300 4d4+4
 0d0+0 10000
 8 8 1
 BareHandAttack: 4
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 35
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 45
 E
 #105243
@@ -1799,24 +1788,25 @@ E
 ~
 Лошадь-трехлетка, которая ожеребится через десять дней.
 ~
-s0 0 -600 E
+d0s0 0 -600 E
 18 0 0 10d10+600 5d5+5
 0d0+0 30000
 8 8 2
 BareHandAttack: 13
 Str: 12
+Dex: 12
 Int: 10
 Wis: 10
-Dex: 12
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 54
 E
 #105244
@@ -1831,24 +1821,25 @@ E
 ~
 Вороной конь, у него нет совершенно волос, так что щипнуть не за что.
 ~
-s0 0 -600 E
+d0s0 0 -600 E
 20 0 0 10d10+800 6d6+5
 0d0+0 50000
 8 8 1
 BareHandAttack: 13
 Str: 15
+Dex: 15
 Int: 10
 Wis: 10
-Dex: 15
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 60
 E
 #105245
@@ -1863,24 +1854,25 @@ E
 ~
 Уши у этого коня - в пять, тело же - в пятьдесят саженей.
 ~
-s0 0 -600 E
+d0s0 0 -600 E
 22 0 0 10d10+1000 6d6+6
 0d0+0 80000
 8 8 1
 BareHandAttack: 13
 Str: 18
+Dex: 20
 Int: 10
 Wis: 10
-Dex: 20
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 134 50
 Skill: 136 66
 E
@@ -1896,24 +1888,25 @@ E
 ~
 Конь-вихорь, верный помощник хозяина-богатыря.
 ~
-0 0 -600 E
+d0 0 -600 E
 24 0 0 10d10+800 6d7+7
 0d0+0 50000
 8 8 1
 BareHandAttack: 13
 Str: 16
+Dex: 16
 Int: 10
 Wis: 10
-Dex: 16
 Con: 16
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 72
 E
 #105247
@@ -1928,24 +1921,25 @@ E
 ~
 От огня, из глаз скакуна выходящего, по обе стороны аж пожар возник.
 ~
-r0s0 0 -600 E
+d0r0s0 0 -600 E
 20 0 0 10d10+700 5d5+5
 0d0+0 50000
 8 8 1
 BareHandAttack: 4
 Str: 15
+Dex: 16
 Int: 10
 Wis: 10
-Dex: 16
 Con: 15
 Cha: 15
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 60
 E
 #105248
@@ -1961,25 +1955,25 @@ E
 На спине этого коня нету позвонка гнущегося, между ребер
 промежутка для ножа тонкого злодею найти нельзя.
 ~
-n0q0i2 0 -600 E
+d0n0q0i2 0 -600 E
 25 0 0 10d80+1500 8d6+6
 0d0+0 100000
 8 8 1
 BareHandAttack: 13
 Str: 20
+Dex: 25
 Int: 10
 Wis: 10
-Dex: 25
 Con: 20
 Cha: 25
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 114
 Height: 175
 Weight: 85
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 75
 E
 #105249
@@ -1994,24 +1988,25 @@ E
 ~
 Ханский скакун Хамар-Хар стоит неподвижно, словно черный камень.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 20 0 0 10d10+1500 6d8+8
 0d0+0 100000
 8 8 1
 BareHandAttack: 13
 Str: 24
+Dex: 25
 Int: 10
 Wis: 10
-Dex: 25
 Con: 20
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 60
 E
 #105250
@@ -2026,24 +2021,25 @@ E
 ~
 Когда этот верблюд кричит, то от его крика все люди сбиваются в кучу.
 ~
-u0 0 -600 E
+d0u0 0 -600 E
 18 0 0 10d10+1000 5d5+4
 0d0+0 60000
 8 8 1
 BareHandAttack: 4
 Str: 14
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 54
 E
 #105251
@@ -2058,24 +2054,25 @@ E
 ~
 Огромный бык стоит, как вкопаный, рогами покачивает.
 ~
-0 0 -600 E
+d0 0 -600 E
 24 0 0 10d10+2000 10d8+8
 0d0+0 100000
 8 8 1
 BareHandAttack: 14
 Str: 25
+Dex: 15
 Int: 10
 Wis: 10
-Dex: 15
 Con: 22
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 132 80
 Skill: 136 72
 Skill: 167 100
@@ -2092,25 +2089,24 @@ E
 ~
 Желтая собака Хасар, с облезлым хвостом.
 ~
-h0 0 0 E
+d0h0 0 0 E
 12 0 0 10d10+300 4d4+4
 0d0+0 10000
 8 8 2
 BareHandAttack: 4
 Str: 10
+Dex: 15
 Int: 10
 Wis: 10
-Dex: 15
 Con: 10
 Cha: 15
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 36
 E
 #105253
@@ -2126,25 +2122,24 @@ E
 Бурая собака Басар стащила из ханского котла кусок верблюжатины,
 за это ее побили палкой.
 ~
-h0 0 0 E
+d0h0 0 0 E
 12 0 0 10d10+400 4d4+4
 0d0+0 10000
 8 8 2
 BareHandAttack: 4
 Str: 10
+Dex: 15
 Int: 10
 Wis: 10
-Dex: 15
 Con: 10
 Cha: 15
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 36
 E
 #105254
@@ -2159,25 +2154,24 @@ E
 ~
 Десятитысячный табун пестро-желтых холощенных коней великого хана.
 ~
-0 0 0 E
+d0 0 0 E
 22 0 0 0d0+6000 4d5+5
 0d0+0 50000
 8 8 3
 BareHandAttack: 13
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 5
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 66
 E
 #105255
@@ -2192,25 +2186,24 @@ E
 ~
 Многочисленный табун буланых коней.
 ~
-0 0 0 E
+d0 0 0 E
 18 0 0 10d80+2000 4d5+5
 0d0+0 20000
 8 8 3
 BareHandAttack: 13
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 5
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 54
 E
 #105256
@@ -2225,25 +2218,24 @@ E
 ~
 Многочисленный табун вороных коней.
 ~
-0 0 0 E
+d0 0 0 E
 18 0 0 10d90+2000 4d4+5
 0d0+0 20000
 8 8 3
 BareHandAttack: 13
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 5
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 54
 E
 #105257
@@ -2258,25 +2250,24 @@ E
 ~
 Многочисленный табун гнедых коней.
 ~
-0 0 0 E
+d0 0 0 E
 18 0 0 10d10+2000 4d4+5
 0d0+0 20000
 8 8 3
 BareHandAttack: 13
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 5
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 54
 E
 #105258
@@ -2291,25 +2282,24 @@ E
 ~
 Многочисленный табун пегих коней.
 ~
-0 0 0 E
+d0 0 0 E
 18 0 0 10d10+2000 4d5+5
 0d0+0 20000
 8 8 3
 BareHandAttack: 13
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 5
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 54
 E
 #105259
@@ -2324,24 +2314,24 @@ E
 ~
 Быстроногий сайгак, обгоняющий ветер.
 ~
-0 0 0 E
+d0 0 0 E
 15 2 0 10d10+400 4d4+4
 0d0+0 10000
 8 8 1
 BareHandAttack: 1
 Str: 10
+Dex: 20
 Int: 10
 Wis: 10
-Dex: 20
 Con: 15
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 45
 E
 #105260
@@ -2356,24 +2346,24 @@ E
 ~
 Жирный суслик негромко посвистывает.
 ~
-0 0 0 E
+d0 0 0 E
 10 0 0 10d10+100 3d3+3
 0d0+0 5000
 8 8 1
 BareHandAttack: 4
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 30
 E
 #105261
@@ -2388,25 +2378,24 @@ E
 ~
 Царь-птица камнем падает вниз, приметив добычу.
 ~
-0 k0 0 E
+d0 k0 0 E
 15 0 0 10d10+300 6d4+4
 0d0+0 10000
 8 8 1
 BareHandAttack: 8
 Str: 15
+Dex: 16
 Int: 10
 Wis: 10
-Dex: 16
 Con: 10
 Cha: 15
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 45
 E
 #105262
@@ -2421,25 +2410,24 @@ E
 ~
 Охотничий сокол, символ бесстрашия.
 ~
-b0q0 k0z0m1x1 0 E
+b0d0q0 k0z0m1x1 0 E
 20 5 -5 10d10+800 6d6+6
 0d0+0 80000
 8 8 1
 BareHandAttack: 8
 Str: 20
+Dex: 25
 Int: 10
 Wis: 10
-Dex: 25
 Con: 14
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 131 50
 Skill: 136 60
 E
@@ -2455,24 +2443,24 @@ E
 ~
 Алый волк, страшный овечьим отарам.
 ~
-0 f0k0 0 E
+d0 f0k0 0 E
 18 0 0 10d10+600 4d5+5
 0d0+0 20000
 8 8 1
 BareHandAttack: 4
 Str: 15
+Dex: 16
 Int: 10
 Wis: 10
-Dex: 16
 Con: 16
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 54
 E
 #105264
@@ -2487,25 +2475,24 @@ E
 ~
 Заяц с мягкой, изнеженной спиной, легкая добыча сокола.
 ~
-h0 0 0 E
+d0h0 0 0 E
 8 0 0 10d10+100 4d4+4
 0d0+0 8000
 8 8 1
 BareHandAttack: 8
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 24
 E
 #105265
@@ -2520,25 +2507,24 @@ E
 ~
 Чистый, кудрявый ягненок ищет мать-овцу.
 ~
-0 0 0 E
+d0 0 0 E
 12 0 0 10d10+200 3d4+4
 0d0+0 10000
 8 8 1
 BareHandAttack: 13
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 36
 E
 #105266
@@ -2553,24 +2539,24 @@ E
 ~
 Жирные, ленивые овцы валяются на боку.
 ~
-b0 0 0 E
+b0d0 0 0 E
 13 0 0 10d10+800 4d4+4
 0d0+0 20000
 5 5 3
 BareHandAttack: 4
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 14
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 3
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 39
 E
 #105267
@@ -2585,24 +2571,24 @@ E
 ~
 Могучий великан-верблюд тянет к вам длинную шею.
 ~
-b0 0 0 E
+b0d0 0 0 E
 18 0 0 10d10+900 6d5+5
 0d0+0 40000
 8 8 1
 BareHandAttack: 4
 Str: 20
+Dex: 15
 Int: 10
 Wis: 10
-Dex: 15
 Con: 20
 Cha: 15
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 54
 E
 #105268
@@ -2618,24 +2604,25 @@ E
 Пятнадцатиголовый черный мус, на троне сидит, на золоте ест,
 хорзой желудок свой согревает.
 ~
-b0e0f0l0n0 d0f0k0r0p1w1 -600 E
+b0d0e0f0l0n0 d0f0k0r0p1w1 -600 E
 30 6 -4 10d100+8000 8d10+15
 10d50+1000 1000000
 8 8 1
 BareHandAttack: 6
 Str: 25
+Dex: 23
 Int: 24
 Wis: 32
-Dex: 23
 Con: 28
 Cha: 10
+Size: 100
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 5 140
 Skill: 136 90
 Skill: 137 120
@@ -2661,7 +2648,6 @@ Spell: 152
 Spell: 152
 Spell: 152
 Helper: 105269
-Skill: 136 90
 E
 T 105201
 #105269
@@ -2676,24 +2662,24 @@ T 105201
 ~
 Злая ведьма-шулмуска, немало людей погубила.
 ~
-b0m0n0b2 d0k0r1 -600 E
+b0d0m0n0b2 d0k0r1 -600 E
 26 0 0 10d10+2000 5d6+10
 5d10+80 400000
 8 8 2
-BareHandAttack: 0
 Str: 15
+Dex: 20
 Int: 25
 Wis: 28
-Dex: 20
 Con: 20
 Cha: 10
+Size: 100
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 78
 Skill: 160 100
 Spell: 28
@@ -2725,25 +2711,24 @@ E
 ~
 Лютый желтый мангас, грозный хан средь мангасов.
 ~
-b0f0n0x0A0 d0f0k0n0r0 -600 E
+b0d0f0n0x0A0 d0f0k0n0r0 -600 E
 28 5 0 10d90+5000 8d8+10
 0d0+0 500000
 8 8 1
-BareHandAttack: 0
 Str: 25
+Dex: 28
 Int: 10
 Wis: 10
-Dex: 28
 Con: 28
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: C3
+Special_Bitvector: C3 
 Skill: 12 100
 Skill: 22 120
 Skill: 132 100
@@ -2763,26 +2748,26 @@ E
 ~
 Злобный желтый мангас, пред которым трепещут богатыри.
 ~
-f0m0n0x0A0 d0f0k0r0p1r1 -600 E
+d0f0m0n0x0A0 d0f0k0r0p1r1 -600 E
 25 0 0 10d90+1500 4d6+8
 0d0+0 400000
 8 8 1
-BareHandAttack: 0
 Destination: 105236
 Destination: 105222
 Str: 20
+Dex: 20
 Int: 25
 Wis: 30
-Dex: 20
 Con: 23
 Cha: 10
+Size: 100
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 75
 Spell: 23
 Spell: 23
@@ -2814,7 +2799,7 @@ E
 ~
 Жестокий желтый мангас, пожиратель людей.
 ~
-f0m0n0x0A0 d0f0h0k0r0t1y1 -600 E
+d0f0m0n0x0A0 d0f0h0k0r0t1y1 -600 E
 24 6 -8 10d10+4000 8d8+10
 0d0+0 300000
 8 8 1
@@ -2825,19 +2810,19 @@ Destination: 105227
 Destination: 105228
 Destination: 105244
 Str: 22
+Dex: 25
 Int: 18
 Wis: 15
-Dex: 25
 Con: 24
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: B3
+Special_Bitvector: B3 
 Skill: 21 100
 Skill: 131 90
 Skill: 132 100
@@ -2866,24 +2851,25 @@ E
 ~
 Громадный человек, передвигающий горы, сам словно могучая скала.
 ~
-b0n0q0t0 d0k0r0a1t1x1 -600 E
+b0d0n0q0t0 d0k0r0a1t1x1 -600 E
 32 6 0 10d100+15000 15d15+10
 0d0+0 1400000
 6 6 1
 BareHandAttack: 6
 Str: 35
+Dex: 25
 Int: 10
 Wis: 10
-Dex: 25
 Con: 35
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 4 150
 Skill: 132 150
 Skill: 136 140
@@ -2904,24 +2890,25 @@ T 105226
 ~
 Прекраснолицие черноглазые девы, пригожие дочери гор.
 ~
-b0c0m0n0 0 -600 E
+b0c0d0m0n0 0 -600 E
 24 5 0 10d50+1000 4d4+4
 2d20+50 100000
 8 8 1
 BareHandAttack: 8
 Str: 10
+Dex: 20
 Int: 10
 Wis: 10
-Dex: 20
 Con: 10
 Cha: 25
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 100
+Race: 107
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 1 100
 Skill: 136 72
 E
@@ -2937,24 +2924,25 @@ E
 ~
 Отчаянные головорезы, верные слуги хана Отрока.
 ~
-b0m0 0 -600 E
+b0d0m0 0 -600 E
 28 5 0 10d10+2000 9d9+6
 0d0+0 300000
 8 8 3
 BareHandAttack: 10
 Str: 26
+Dex: 26
 Int: 10
 Wis: 10
-Dex: 26
 Con: 25
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 5 80
 Skill: 136 100
 Skill: 137 100
@@ -2972,25 +2960,25 @@ E
 ~
 Бесстрашный воин, с острым кинжалом на поясе.
 ~
-j0m0n0 k0r0 -600 E
+d0j0m0n0 k0r0 -600 E
 28 5 -4 10d100+3000 8d8+10
 3d10+400 200000
 8 8 1
 BareHandAttack: 7
 Str: 25
+Dex: 22
 Int: 10
 Wis: 10
-Dex: 22
 Con: 25
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: a0b0c0d0b1c1
+Special_Bitvector: a0b0c0d0b1c1 
 Skill: 131 100
 Skill: 132 120
 Skill: 136 100
@@ -2998,5 +2986,4 @@ Skill: 137 50
 Skill: 160 100
 Spell: 62
 E
-$
 $

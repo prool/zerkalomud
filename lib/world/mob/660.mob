@@ -22,6 +22,7 @@ Con: 20
 Cha: 20
 Size: 100
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
@@ -51,6 +52,7 @@ Con: 20
 Cha: 21
 Size: 90
 Class: 102
+Race: 101
 Height: 198
 Weight: 85
 Special_Bitvector: 0 
@@ -80,6 +82,7 @@ Con: 18
 Cha: 19
 Size: 60
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -109,6 +112,7 @@ Con: 15
 Cha: 20
 Size: 55
 Class: 102
+Race: 101
 Height: 198
 Weight: 45
 Special_Bitvector: 0 
@@ -138,6 +142,7 @@ Con: 25
 Cha: 21
 Size: 70
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
@@ -167,6 +172,7 @@ Con: 15
 Cha: 27
 Size: 40
 Class: 105
+Race: 105
 Height: 198
 Weight: 45
 Special_Bitvector: 0 
@@ -197,6 +203,7 @@ Con: 15
 Cha: 18
 Size: 45
 Class: 102
+Race: 101
 Height: 198
 Weight: 40
 Special_Bitvector: 0 
@@ -229,6 +236,7 @@ Con: 20
 Cha: 19
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -258,6 +266,7 @@ Cha: 24
 Size: 49
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 47
 Special_Bitvector: p0 
@@ -288,6 +297,7 @@ Cha: 27
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -318,6 +328,7 @@ Cha: 18
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 47
 Special_Bitvector: 0 
@@ -350,6 +361,7 @@ Size: 70
 LikeWork: 50
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: y0b1c1 
@@ -385,6 +397,7 @@ Size: 35
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -419,6 +432,7 @@ Size: 55
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -451,6 +465,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 51
 Special_Bitvector: 0 
@@ -485,6 +500,7 @@ Cha: 18
 Size: 45
 LikeWork: 15
 Class: 102
+Race: 101
 Height: 198
 Weight: 45
 Special_Bitvector: 0 
@@ -517,6 +533,7 @@ Cha: 16
 Size: 50
 LikeWork: 25
 Class: 102
+Race: 101
 Height: 198
 Weight: 59
 Special_Bitvector: 0 
@@ -550,6 +567,7 @@ Size: 70
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -583,6 +601,7 @@ Size: 70
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 69
 Special_Bitvector: 0 
@@ -615,6 +634,7 @@ Size: 45
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -646,6 +666,7 @@ Size: 30
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 35
 Special_Bitvector: p0 
@@ -676,6 +697,7 @@ Con: 15
 Cha: 20
 Size: 39
 Class: 100
+Race: 101
 Height: 198
 Weight: 47
 Special_Bitvector: 0 
@@ -707,6 +729,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 55
 Special_Bitvector: 0 
@@ -739,6 +762,7 @@ Size: 60
 LikeWork: 40
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 70
 Special_Bitvector: n0y0b1c1 
@@ -772,6 +796,7 @@ Size: 80
 LikeWork: 30
 ExtraAttack: 4
 Class: 102
+Race: 101
 Height: 198
 Weight: 90
 Special_Bitvector: 0 
@@ -804,6 +829,7 @@ Cha: 13
 Size: 10
 LikeWork: 10
 Class: 102
+Race: 101
 Height: 198
 Weight: 20
 Special_Bitvector: p0 
@@ -836,6 +862,7 @@ Size: 10
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 18
 Special_Bitvector: p0 
@@ -853,7 +880,7 @@ E
 ~
 Уже немолодой хозяин, но очень быстр и силен.
 ~
-b0d0g0n0o0p0q0r0t0u0 d0f0k0 0 E
+b0d0g0n0o0p0q0r0t0u0u2 d0f0k0 0 E
 22 0 0 0d0+800 1d1+1
 0d0+0 0
 8 8 1
@@ -865,6 +892,7 @@ Con: 23
 Cha: 23
 Size: 68
 Class: 102
+Race: 101
 Height: 198
 Weight: 73
 Special_Bitvector: 0 
@@ -894,6 +922,7 @@ Cha: 22
 Size: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 78
 Special_Bitvector: 0 
@@ -923,6 +952,7 @@ Con: 15
 Cha: 13
 Size: 80
 Class: 102
+Race: 101
 Height: 198
 Weight: 76
 Special_Bitvector: 0 
@@ -955,6 +985,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 130
 Special_Bitvector: y0b1c1d1 
@@ -989,6 +1020,7 @@ Size: 90
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 75
 Special_Bitvector: y0b1c1d1 
@@ -1023,6 +1055,7 @@ Size: 70
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 66
 Special_Bitvector: 0 
@@ -1040,7 +1073,7 @@ E
 стража~
 стражем~
 страже~
-Высокий страж ворот выглядывается вдаль.
+Высокий страж ворот вглядывается вдаль.
 ~
 Высокий воин с длинными руками и черными волосами.
 ~
@@ -1058,6 +1091,7 @@ Size: 95
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
@@ -1087,6 +1121,7 @@ Con: 22
 Cha: 13
 Size: 100
 Class: 100
+Race: 101
 Height: 198
 Weight: 87
 Special_Bitvector: 0 
@@ -1111,6 +1146,7 @@ d0g0n0o0 0 0 E
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 39
 Special_Bitvector: 0 
@@ -1142,6 +1178,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
@@ -1172,6 +1209,7 @@ Cha: 23
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 79
 Special_Bitvector: 0 
@@ -1202,6 +1240,7 @@ Cha: 23
 Size: 78
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 75
 Special_Bitvector: 0 
@@ -1232,6 +1271,7 @@ Cha: 23
 Size: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 67
 Special_Bitvector: 0 
@@ -1261,6 +1301,7 @@ Con: 18
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 90
 Special_Bitvector: 0 
@@ -1292,6 +1333,7 @@ Size: 90
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 83
 Special_Bitvector: 0 
@@ -1323,6 +1365,7 @@ Size: 55
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 45
 Special_Bitvector: 0 
@@ -1347,6 +1390,7 @@ b0d0B0o1 d0f0k0 0 E
 Wis: 25
 Size: 90
 Class: 102
+Race: 101
 Height: 180
 Weight: 90
 Special_Bitvector: 0 

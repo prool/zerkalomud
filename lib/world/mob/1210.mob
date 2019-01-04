@@ -10,37 +10,36 @@
 ~
 Вы видите старого печенежского сотника.
 ~
-l0A0r2c0s2 h0 -600 E
-27 -5 +5 10d10+550 6d5+20 
+c0d0l0A0r2s2 h0 -600 E
+27 -5 5 10d10+550 6d5+20
 2d2+0 70000
 8 8 1
 CastSuccess: 54
-BareHandAttack:  0
 Str: 22
+Dex: 13
 Int: 20
 Wis: 22
-Dex: 13
 Con: 22
 Cha: 13
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 50
+Race: 101
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Spell: 39 5
-Spell: 3 5
-Spell: 17 5
-Spell: 15 6
-Spell: 1 5
-Skill: 134 75
-Skill: 143 95
-Skill: 137 85
+Special_Bitvector: b1c1 
 Skill: 1 70
-Skill: 136 115
 Skill: 132 70
+Skill: 134 75
+Skill: 136 115
+Skill: 137 85
+Skill: 143 95
+Spell: 1
+Spell: 3
+Spell: 15
+Spell: 17
+Spell: 39
 E
 T 121001
 I глаза,2:2
@@ -59,33 +58,33 @@ I кожа,5:2
 ~
 Вы видите опытного половецкого нукера.
 ~
-l0A0r2c0s2 m1k0 -600 E
-25 -1 0 10d10+800 5d6+18 
+c0d0l0A0r2s2 k0m1 -600 E
+25 -1 0 10d10+800 5d6+18
 10d5+0 70000
 8 8 1
 CastSuccess: 50
-BareHandAttack:  7
+BareHandAttack: 7
 Str: 26
+Dex: 19
 Int: 14
 Wis: 14
-Dex: 19
 Con: 25
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 2
 Class: 104
-Size: 50
+Race: 101
 Height: 190
 Weight: 180
-Special_Bitvector: b1c1
-Skill: 142 70
-Skill: 137 45
+Special_Bitvector: b1c1 
 Skill: 22 60
-Skill: 136 100
-Skill: 151 70
 Skill: 132 40
+Skill: 136 100
+Skill: 137 45
+Skill: 142 70
 Skill: 150 35
+Skill: 151 70
 E
 T 121001
 I глаза,1:1
@@ -104,33 +103,33 @@ I кожа,2:5
 ~
 Вы видите опытного монгольского нукера.
 ~
-l0A0r2c0s2 m1k0 -600 E
-25 -1 0 10d10+800 5d6+15 
+c0d0l0A0r2s2 k0m1 -600 E
+25 -1 0 10d10+800 5d6+15
 10d5+0 70000
 8 8 1
 CastSuccess: 50
-BareHandAttack:  7
+BareHandAttack: 7
 Str: 28
+Dex: 19
 Int: 14
 Wis: 14
-Dex: 19
 Con: 25
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 2
 Class: 104
-Size: 50
+Race: 101
 Height: 190
 Weight: 180
-Special_Bitvector: b1c1
-Skill: 142 70
-Skill: 137 45
+Special_Bitvector: b1c1 
 Skill: 22 60
-Skill: 136 100
-Skill: 151 70
 Skill: 132 40
+Skill: 136 100
+Skill: 137 45
+Skill: 142 70
 Skill: 150 35
+Skill: 151 70
 E
 T 121001
 I глаза,2:4
@@ -149,37 +148,36 @@ I кожа,3:4
 ~
 Вы видите удачливого половецкого десятника.
 ~
-l0A0r2c0s2 A0 -600 E
-22 -4 +7 10d10+500 6d5+18 
+c0d0l0A0r2s2 A0 -600 E
+22 -4 7 10d10+500 6d5+18
 2d2+0 50000
 8 8 1
 CastSuccess: 44
-BareHandAttack:  0
 Str: 21
+Dex: 13
 Int: 17
 Wis: 21
-Dex: 13
 Con: 20
 Cha: 27
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 50
+Race: 101
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Spell: 39 1
-Spell: 3 1
-Spell: 17 1
-Spell: 15 1
-Spell: 1 1
-Skill: 134 30
-Skill: 143 50
-Skill: 137 40
+Special_Bitvector: b1c1 
 Skill: 1 15
-Skill: 136 80
 Skill: 132 30
+Skill: 134 30
+Skill: 136 80
+Skill: 137 40
+Skill: 143 50
+Spell: 1
+Spell: 3
+Spell: 15
+Spell: 17
+Spell: 39
 E
 T 121001
 I глаза,1:3
@@ -197,25 +195,24 @@ I кожа,1:4
 Кобчик охотится тут.
 ~
 Вы видите кобчика.~
-h0 x0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 x0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
 BareHandAttack: 15
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,5:5
@@ -233,25 +230,24 @@ I крылья,3:9
 Яркая птичка летает тут.
 ~
 Вы видите яркую птичку.~
-l1n1m1h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0l1m1n1 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,4:7
@@ -268,25 +264,24 @@ I крылья,3:7
 Сапсан улетает с тушкой грызуна в когтях.
 ~
 Вы видите сапсана.~
-h0 x0 -600 E
-5 11 +9 1d10+50 4d4+0 
+d0h0 x0 -600 E
+5 11 9 1d10+50 4d4+0
 0d0+0 3000
 8 8 1
 BareHandAttack: 15
 Str: 7
+Dex: 8
 Int: 6
 Wis: 6
-Dex: 8
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,5:5
@@ -304,25 +299,24 @@ I крылья,5:8
 Саранча сидит тут в траве.
 ~
 Вы видите саранчу.~
-l1m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0l1m1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 #121008
@@ -336,25 +330,24 @@ E
 Лунь степной парит в небе.
 ~
 Вы видите луня степного.~
-h0 x0 -600 E
-5 11 +9 1d10+50 4d4+0 
+d0h0 x0 -600 E
+5 11 9 1d10+50 4d4+0
 0d0+0 3000
 8 8 1
 BareHandAttack: 15
 Str: 7
+Dex: 8
 Int: 6
 Wis: 6
-Dex: 8
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,4:6
@@ -372,30 +365,28 @@ I крылья,3:7
 Скопа парит в небе.
 ~
 Вы видите скопу.~
-h0 x0 -600 E
-3 9 +9 1d10+30 3d3+0 
+d0h0 x0 -600 E
+3 9 9 1d10+30 3d3+0
 0d0+0 100
 8 8 2
 BareHandAttack: 15
 Str: 5
+Dex: 6
 Int: 6
 Wis: 6
-Dex: 6
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,2:5
 I кости,5:8
 I когти,4:8
 I крылья,4:8
-$
 $

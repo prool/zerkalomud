@@ -130,9 +130,9 @@ run     91211 %questroom.id%
 <912 Zreset quest room>~
 2 z 100
 ~
-wpurge
+calcuid perun 91211 mob
+%purge% %perun%
 detach 91216 %self.id%
-return  0
 ~
 #91212
 <912 Load valun>~
@@ -217,12 +217,13 @@ wecho   Древний Бог встал и потянулся, разминая затекшие от долгого сна мышцы.
 wecho   - Спасибо тебе, %actor.name%, что разбудил%actor.g% меня от вечного сна.
 eval  AddExp 0
 eval lvl 28 - (%actor.remort%/3)
+eval rnd 12+%actor.remort%*2
 if %actor.level% < %lvl%
   wecho   - Hо ты слишком мал%actor.a%, чтоб я чему-то научил тебя, приходи как станешь опытнее.
   set     AddExp 500000
   set AddExp  %actor.exp(+%AddExp%)%
-  %actor.setquest(912)%
-  wpurge %operun%
+  eval tmp %actor.setquest(912)%
+  *     wpurge %operun%
   detach 91215 %self.id%
   halt
 end
@@ -281,16 +282,16 @@ switch %actor.class%
     if (%actor.spelltype(защита богов)%)
       eval AddExp 1000000
     else
-      if  (%random.100% < 12)
+      if  (%random.100% < %rnd%)
         wspellturn %actor.name% защита.богов set
       end
     end
   break
   *боевой маг
   case 1
-    if (!(%actor.spelltype(заколдовать оружие)%) && (%random.100% < 12))
+    if (!(%actor.spelltype(заколдовать оружие)%) && (%random.100% < %rnd%))
       wspellturn %actor.name% заколдовать.оружие set
-    elseif (!(%actor.spelltype(суд богов)%) && (%random.100% < 12))
+    elseif (!(%actor.spelltype(суд богов)%) && (%random.100% < %rnd%))
       wspellturn %actor.name% суд.богов set
     else
       eval AddExp 1000000
@@ -322,9 +323,9 @@ switch %actor.class%
   break
   *наемник
   case 4
-    if    !%actor.skill(скрытый.удар)%
+    if    !%actor.skill(скрытый удар)%
       wskillturn %actor.name% скрытый.удар set
-    elseif %actor.skill(скрытый.удар)% < %skl%
+    elseif %actor.skill(скрытый удар)% < %skl%
       wskilladd  %actor.name% скрытый.удар 5
     elseif %actor.skill(заколоть)% < %skl%
       wskilladd  %actor.name% заколоть 5
@@ -349,7 +350,7 @@ switch %actor.class%
     if (%actor.spelltype(магическое зеркало)% )
       eval AddExp 1000000
     else
-      if  (%random.100% < 15)
+      if  (%random.100% < %rnd%)
         wspellturn %actor.name% магическое.зеркало set
       end
     end
@@ -359,7 +360,7 @@ switch %actor.class%
     if (%actor.spelltype(массовое оцепенение)%)
       eval AddExp 1000000
     else
-      if  (%random.100% < 15)
+      if  (%random.100% < %rnd%)
         wspellturn %actor.name% массовое.оцепенение set
       end
     end
@@ -369,8 +370,8 @@ switch %actor.class%
     if (%actor.spelltype(силы зла)%) 
       eval AddExp 1000000
     else
-      if  (%random.100% < 15)
-        wecho Даю я тебе возможность использовать заклинание "Силы Зла"	
+      if  (%random.100% < %rnd%)
+        wecho Даю я тебе возможность использовать заклинание "Силы Зла"      
         wspellturn %actor.name% силы.зла set
       end
     end
@@ -399,41 +400,42 @@ switch %actor.class%
       else
         eval  AddExp 1000000
       end
-    break
-    *кузнец
-    case 11
-      if !%actor.skill(железный ветер)%
-        wskillturn %actor.name% железный.ветер set
-      elseif %actor.skill(перековать)% < %skl%
-        wskilladd  %actor.name% перековать 5
-      else
-        eval  AddExp 1000000
-      end
-    break
-    *купец
-    case 12
-      if    !%actor.skill(осторо стиль)%
-        wskillturn %actor.name% осторожный.стиль set
-      elseif %actor.skill(осторожный.стиль)% < %skl%
-        wskilladd  %actor.name% осторожный.стиль 5
-      else
-        eval  AddExp 1000000
-      end
-    break
-    *волхв
-    case 13
-      eval AddExp 1000000
-    break
-    default 
-    break
-  done
-  wsend %actor% Вы получили %addexp% очков опыта.
-  %actor.exp(+%AddExp%)%
-  %actor.setquest(912)%
-  wpurge %operun%
-  attach 91216 %self.id%
-  exec 91216 %self.id%
-  detach 91215 %self.id%
+    end
+  break
+  *кузнец
+  case 11
+    if !%actor.skill(железный ветер)%
+      wskillturn %actor.name% железный.ветер set
+    elseif %actor.skill(перековать)% < %skl%
+      wskilladd  %actor.name% перековать 5
+    else
+      eval  AddExp 1000000
+    end
+  break
+  *купец
+  case 12
+    if    !%actor.skill(осторожный стиль)%
+      wskillturn %actor.name% осторожный.стиль set
+    elseif %actor.skill(осторожный стиль)% < %skl%
+      wskilladd  %actor.name% осторожный.стиль 5
+    else
+      eval  AddExp 1000000
+    end
+  break
+  *волхв
+  case 13
+    eval AddExp 1000000
+  break
+  default 
+  break
+done
+wsend %actor% Вы получили %addexp% очков опыта.
+eval tmp %actor.exp(+%AddExp%)%
+eval tmp %actor.setquest(912)%
+*   wpurge %operun%
+attach 91216 %self.id%
+exec 91216 %self.id%
+detach 91215 %self.id%
 ~
 #91216
 Открываем портал после квеста~

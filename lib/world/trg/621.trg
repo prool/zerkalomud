@@ -49,7 +49,7 @@ end
 Старый ярл принимает квест~
 0 j 100
 ~
-if (%object.vnum% == 62104)  (%quest621.name% == %actor.name%)
+if %object.vnum% == 62104 && %quest621.name% == %actor.name%
   wait 1
   mpurge %object%
   msend %actor.name% Вы рассказали о звере в пещере старому ярлу.
@@ -62,8 +62,9 @@ if (%object.vnum% == 62104)  (%quest621.name% == %actor.name%)
   г И в той самой пещере жил этот страшный зверь, марбендилл.
   взд
   wait 1s
+  eval level 24-%actor.remort%/2
   г Ну что же. Ты оказал нам большую услугу, убив его, и теперь уже он не опасен.
-  if (%actor.class% == 4) && (%actor.level% > 23) && (%actor.skill(Cкрытый удар)% == -1)
+  if %actor.class% == 4 && %actor.level% >= %level% && %actor.skill(Cкрытый удар)% == -1
     wait 1s
     г Я вижу, ты хороший наемник и думаю, ты достоин того, что бы я научил тебя кое чему.
     г В свое время, мой учитель научил меня древнему искусству.
@@ -158,7 +159,7 @@ if (%self.affect(яд)% == 1)
   wait 5
   г Да. Тебе это удалось! Ты отравил меня. 
   set skillquest2 1
-  global skillquest2         
+  global skillquest2
   wait 1s
   mecho Воздух содрогнулся от пронзительного звука.
   mecho Ваше сознание на время померкло.

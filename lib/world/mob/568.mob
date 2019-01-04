@@ -11,9 +11,10 @@
 Очень красивое дерево, странно светится и шелестит листвой
 ~
 b0d0e0f0g0j0l0m0n0o0p0q0r0u0x0y0z0 c0d0e0f0k0m0n0A0C0m1 -600 E
-33 4 -3 10d50+2500 12d12+7
+30 4 -3 10d50+2500 12d12+7
 0d0+0 300000
 8 8 0
+CastSuccess: 10
 BareHandAttack: 2
 Str: 29
 Dex: 30
@@ -25,6 +26,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 5
 Class: 100
+Race: 108
 Height: 30
 Weight: 150
 Special_Bitvector: a0b0c0d0e0f0w0 
@@ -65,9 +67,10 @@ E
 Огромного роста человек стоит здесь посреди поляны
 ~
 b0d0e0g0l0n0o0p0q0r0t0u0y0o1 c0d0e0f0g0k0m0n0p0z0C0c1k1 600 E
-35 4 4 10d10+20010 19d9+20
+32 4 4 10d10+20010 19d9+20
 1d1+501 500000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 33
 Dex: 30
 Int: 30
@@ -78,6 +81,7 @@ Size: 70
 LikeWork: 95
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 30
 Weight: 120
 Special_Bitvector: w0b1c1d1 
@@ -173,9 +177,10 @@ T 56810
 превосходящая ее.
 ~
 c0d0f0g0l0m0n0o0p0u0x0y0e2 c0d0e0k0m0n0r0s0t0C0r1 -600 E
-28 20 -3 30d30+2000 15d19+9
-0d0+0 200000
+30 20 -3 30d30+2000 15d19+9
+0d0+0 300000
 8 8 1
+CastSuccess: 15
 BareHandAttack: 4
 Str: 28
 Dex: 30
@@ -187,6 +192,7 @@ Size: 40
 LikeWork: 40
 ExtraAttack: 1
 Class: 100
+Race: 105
 Height: 30
 Weight: 50
 Special_Bitvector: m0 
@@ -221,8 +227,8 @@ E
 Огромная птица, с большими когтями и клювом.
 ~
 b0c0d0f0g0l0m0n0o0p0u0x0y0A0b1l1 c0d0e0f0k0m0p0r0x0z0A0C0x1 -600 E
-30 0 -4 210d100+1500 10d18+8
-0d0+0 160000
+28 0 -4 21d10+1500 10d18+8
+0d0+0 190000
 8 8 2
 BareHandAttack: 8
 Str: 30
@@ -235,6 +241,7 @@ Size: 20
 LikeWork: 75
 ExtraAttack: 1
 Class: 100
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0l0u0 
@@ -268,8 +275,9 @@ E
 ~
 b0c0d0e0f0g0l0m0n0o0p0r0u0x0z0A0b1a2 b0c0d0e0f0k0m0p0t0x0z0A0C0c1m1r1 -600 E
 30 20 -5 10d100+3000 7d15+9
-0d0+100 220000
+0d0+100 300000
 8 8 1
+CastSuccess: 10
 BareHandAttack: 8
 Str: 35
 Dex: 25
@@ -281,6 +289,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0l0u0a1b1c1d1 
@@ -339,8 +348,8 @@ E
 двигая чем-то, напоминающим руки. Странный пучок света или непонятно чего.
 ~
 c0d0f0g0l0m0n0o0p0q0a2h2u2 c0d0e0r0s0z0C0m1 -600 E
-25 20 -6 15d15+1350 10d10+9
-0d0+50 160000
+29 20 -6 15d15+1350 10d10+9
+0d0+50 200000
 8 8 2
 Str: 35
 Dex: 25
@@ -352,6 +361,7 @@ Size: 40
 LikeWork: 90
 ExtraAttack: 2
 Class: 100
+Race: 113
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0l0u0b1c1d1 
@@ -377,6 +387,8 @@ b0d0f0g0l0m0n0o0p0q0y0A0a1c1 c0d0e0k0m0n0r0t0z0C0c1 -600 E
 35 0 -2 40d50+5000 9d15+10
 0d0+0 800000
 8 8 1
+Saves: -26 -26 -26 -26
+CastSuccess: 35
 BareHandAttack: 2
 Str: 35
 Dex: 10
@@ -388,6 +400,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 2
 Class: 101
+Race: 114
 Height: 30
 Weight: 150
 Special_Bitvector: a0b0c0d0e0f0o0v0 
@@ -411,9 +424,10 @@ T 56812
 Прозрачная масса, летающая взад и вперед
 ~
 b0c0d0f0g0l0m0n0o0p0y0z0A0b1 c0d0e0k0m0n0p0x0z0A0C0m1r1 -600 E
-25 2 -4 10d50+2500 9d9+9
-0d0+50 190000
+29 2 -4 10d50+2500 9d9+9
+0d0+50 250000
 8 8 1
+CastSuccess: 15
 Str: 30
 Dex: 25
 Int: 25
@@ -424,6 +438,7 @@ Size: 45
 LikeWork: 50
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0l0u0b1c1d1 
@@ -447,8 +462,9 @@ E
 ~
 b0c0d0g0l0m0n0o0p0q0y0A0a1b1d2 c0d0e0k0m0n0x0C0 -600 E
 30 20 -5 20d50+1500 6d18+10
-0d0+50 190000
+0d0+50 300000
 8 8 1
+CastSuccess: 40
 BareHandAttack: 2
 Str: 35
 Dex: 30
@@ -460,6 +476,7 @@ Size: 60
 LikeWork: 50
 ExtraAttack: 1
 Class: 100
+Race: 105
 Height: 30
 Weight: 90
 Special_Bitvector: l0b1c1d1 
@@ -487,9 +504,10 @@ E
 Прозрачная масса чего-то странного, летает взад и вперед.
 ~
 b0c0d0g0k0l0n0o0p0r0y0z0A0b1c2 c0d0e0h0k0n0p0r0x0z0A0C0r1 -600 E
-27 20 -7 10d10+2000 9d19+9
-0d0+100 200000
+30 20 -7 10d10+2000 9d19+9
+0d0+100 300000
 8 8 1
+CastSuccess: 10
 Str: 20
 Dex: 20
 Int: 35
@@ -500,6 +518,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 4
 Class: 101
+Race: 111
 Height: 30
 Weight: 50
 Special_Bitvector: l0u0b1c1d1 
@@ -535,9 +554,10 @@ E
 Небольшого размера, прозрачная масса, напоминающая облако
 ~
 b0c0d0f0g0l0m0n0o0p0r0y0z0A0b1a2h2 b0c0d0e0h0k0m0n0p0r0x0z0A0C0m1y1 -600 E
-35 2 -5 10d90+1500 5d20+10
-10d10+10 200000
+30 2 -5 10d90+1500 5d20+10
+10d10+10 300000
 8 8 1
+CastSuccess: 10
 BareHandAttack: 2
 Str: 32
 Dex: 30
@@ -548,6 +568,7 @@ Cha: 25
 Size: 50
 LikeWork: 85
 Class: 100
+Race: 111
 Height: 30
 Weight: 50
 Special_Bitvector: c0x0a1b1c1d1 
@@ -579,9 +600,10 @@ E
 Странно выглядящая масса тумана, парящая в воздухе, издавая злобный рык.
 ~
 b0c0d0f0g0l0m0n0o0p0y0z0A0a2 b0c0d0e0k0m0n0p0s0x0z0A0C0c1m1 -600 E
-35 20 -7 50d50+1500 10d18+10
-5d5+10 190000
+29 20 -7 50d50+1500 10d18+10
+5d5+10 250000
 8 8 1
+CastSuccess: 10
 BareHandAttack: 1
 Str: 30
 Dex: 25
@@ -593,6 +615,7 @@ Size: 70
 LikeWork: 75
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0u0 
@@ -630,7 +653,7 @@ E
 Странно выглядящая масса тумана, парящая в воздухе, издавая злобный рык.
 ~
 b0c0d0f0g0l0m0n0o0p0y0z0A0a2 b0c0d0e0k0m0n0p0s0x0z0A0C0c1m1 -600 E
-36 20 0 50d50+1000 8d6+8
+28 20 0 50d50+1000 8d6+8
 6d5+2 170000
 8 8 1
 BareHandAttack: 1
@@ -644,6 +667,7 @@ Size: 70
 LikeWork: 75
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0u0 
@@ -672,7 +696,7 @@ E
 Странно выглядящая масса тумана, парящая в воздухе, издавая злобный рык.
 ~
 b0c0d0f0g0l0m0n0o0p0y0z0A0a2 b0c0d0e0k0m0n0p0r0s0x0z0A0C0c1m1 -600 E
-36 20 0 50d50+1200 8d15+7
+28 20 0 50d50+1200 8d15+7
 5d5+10 190000
 8 8 1
 BareHandAttack: 1
@@ -686,6 +710,7 @@ Size: 70
 LikeWork: 75
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0u0 
@@ -714,7 +739,7 @@ E
 Прозрачное, маленькое существо, напоминающее комара.
 ~
 d0e0f0g0i0l0m0n0o0q0y0z0b1i1 b0f0p0A0C0 -600 E
-17 0 9 11d11+100 10d2+10
+9 0 9 11d11+100 10d2+10
 3d0+0 5000
 8 8 1
 BareHandAttack: 16
@@ -776,6 +801,7 @@ Size: 10
 LikeWork: 75
 ExtraAttack: 2
 Class: 100
+Race: 111
 Height: 30
 Weight: 50
 Special_Bitvector: l0y0 
@@ -794,9 +820,11 @@ E
 Прозрачное облако парящее над Вами.
 ~
 b0c0d0e0f0g0l0m0n0o0p0q0r0u0x0z0A0b1c2 b0c0d0e0f0k0m0p0t0x0z0A0C0c1m1p1q1r1 -600 E
-30 3 -5 10d100+3000 11d11+9
-5d5+100 250000
+34 3 -5 10d100+4000 11d11+9
+5d5+100 750000
 8 8 1
+Saves: -22 -22 -22 -22
+CastSuccess: 25
 BareHandAttack: 2
 Str: 35
 Dex: 25
@@ -808,6 +836,7 @@ Size: 60
 LikeWork: 85
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0l0u0a1b1c1d1 
@@ -874,7 +903,7 @@ E
 ~
 b0c0d0f0g0l0m0n0o0p0y0z0A0 b0c0d0e0k0m0n0p0s0x0z0A0C0c1m1 -600 E
 30 3 0 50d50+3000 6d16+12
-5d3+100 270000
+5d3+100 300000
 8 8 1
 BareHandAttack: 1
 Str: 25
@@ -887,6 +916,7 @@ Size: 70
 LikeWork: 75
 ExtraAttack: 2
 Class: 100
+Race: 105
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0u0 
@@ -912,7 +942,7 @@ E
 Больших размеров змей, напоминающий черное облако.
 ~
 b0c0d0e0f0g0l0m0n0o0p0u0x0e2 c0d0e0f0k0m0n0s0t0C0 -600 E
-28 20 -4 30d30+1900 6d13+5
+30 20 -4 30d30+1900 6d13+5
 5d9+80 290000
 8 8 1
 BareHandAttack: 4
@@ -926,6 +956,7 @@ Size: 40
 LikeWork: 40
 ExtraAttack: 2
 Class: 100
+Race: 105
 Height: 30
 Weight: 50
 Special_Bitvector: m0B3 
@@ -969,7 +1000,7 @@ E
 по облику человека, но почти прозрачное, белого цвета.
 ~
 c0d0e0f0g0h0m0n0o0p0q0u0y0z0A0b1i1e2 c0d0e0h0k0m0n0p0s0t0x0z0A0c1j1k1m1 -600 E
-27 20 -7 5d5+150 9d9+5
+9 20 -7 5d5+150 9d9+5
 10d10+10 5000
 8 8 1
 BareHandAttack: 7
@@ -999,6 +1030,7 @@ Size: 15
 LikeWork: 80
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 30
 Weight: 50
 Special_Bitvector: i0j0l0u0b1c1d1 
@@ -1041,9 +1073,10 @@ E
 Прозрачная масса чего-то странного летает взад и вперед.
 ~
 b0c0d0g0k0l0n0o0p0q0r0t0y0z0A0b1 c0d0e0f0h0k0m0n0p0x0A0C0t1 -600 E
-30 0 -7 10d10+3000 9d14+4
-6d10+100 400000
+33 0 -7 10d10+4000 9d14+4
+6d10+100 600000
 8 8 1
+Saves: -18 -18 -18 -18
 Str: 27
 Dex: 25
 Int: 35
@@ -1054,6 +1087,7 @@ Size: 40
 LikeWork: 80
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0l0u0b1c1d1 
@@ -1136,6 +1170,7 @@ Spell: 114
 Spell: 127
 Spell: 132
 E
+T 56809
 #56820
 тень темная~
 темная тень~
@@ -1149,7 +1184,7 @@ E
 Небольших размеров полупрозрачная, темного цвета, не черная, но и не белая..
 ~
 c0d0f0g0h0l0m0n0o0q0y0z0A0b1i1 c0d0e0f0h0k0m0n0p0s0x0A0m1 0 E
-15 16 9 10d10+250 3d3+2
+9 16 9 10d10+250 3d3+2
 10d10+100 5000
 8 8 1
 BareHandAttack: 1
@@ -1167,6 +1202,7 @@ Size: 15
 LikeWork: 85
 ExtraAttack: 1
 Class: 100
+Race: 113
 Height: 30
 Weight: 50
 Special_Bitvector: l0b1c1d1 
@@ -1188,9 +1224,10 @@ E
 кожа блестит и змей как будто кажется прозрачным.
 ~
 b0c0d0f0g0l0m0n0o0p0q0r0x0y0A0 c0d0e0k0m0y0C0c1k1l1 -600 E
-35 3 -7 50d50+3100 15d10+10
-90d5+10 360000
+31 3 -7 50d50+3100 15d10+10
+90d5+10 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 1
 Str: 30
 Dex: 21
@@ -1202,6 +1239,7 @@ Size: 70
 LikeWork: 75
 ExtraAttack: 2
 Class: 100
+Race: 105
 Height: 30
 Weight: 120
 Special_Bitvector: g0o0v0 
@@ -1229,9 +1267,11 @@ E
 чешуей
 ~
 b0c0d0g0l0m0n0o0p0q0t0y0A0a1b1a2 c0d0e0k0m0n0x0C0 -600 E
-30 0 -5 20d50+5200 12d8+16
-6d10+60 2000000
+41 0 -5 20d50+5200 12d8+16
+6d10+60 3000000
 8 8 1
+Saves: -50 -50 -50 -50
+CastSuccess: 35
 BareHandAttack: 1
 Str: 35
 Dex: 30
@@ -1243,6 +1283,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 2
 Class: 100
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: l0b1c1d1C3 
@@ -1282,7 +1323,6 @@ Spell: 32
 Spell: 38
 Spell: 38
 Spell: 38
-Spell: 56
 Spell: 64
 Spell: 67
 Spell: 67
@@ -1325,9 +1365,11 @@ E
 чешуей..
 ~
 b0c0d0g0l0m0n0o0t0y0A0a1b1a2 c0d0e0k0m0n0x0C0 -600 E
-35 2 0 20d50+6200 12d18+10
-0d0+0 3000000
+42 2 0 20d50+6200 12d18+10
+0d0+0 4000000
 8 8 1
+Saves: -54 -54 -54 -54
+CastSuccess: 35
 BareHandAttack: 1
 Str: 36
 Dex: 30
@@ -1339,6 +1381,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 2
 Class: 100
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: l0b1c1d1C3 

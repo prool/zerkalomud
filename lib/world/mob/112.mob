@@ -26,6 +26,7 @@ Size: 20
 LikeWork: 15
 ExtraAttack: 2
 Class: 100
+Race: 109
 Height: 30
 Weight: 100
 Special_Bitvector: 0 
@@ -58,6 +59,7 @@ Size: 50
 LikeWork: 5
 ExtraAttack: 5
 Class: 102
+Race: 101
 Height: 30
 Weight: 120
 Special_Bitvector: 0 
@@ -90,6 +92,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 3
 Class: 100
+Race: 114
 Height: 30
 Weight: 100
 Special_Bitvector: 0 
@@ -126,6 +129,7 @@ Size: 30
 LikeWork: 5
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 30
 Weight: 80
 Special_Bitvector: a0b0c0d0e0f0g0a1b1c1 
@@ -154,6 +158,7 @@ Size: 35
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: i3 
@@ -182,6 +187,7 @@ Size: 60
 LikeWork: 14
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 100
 Special_Bitvector: 0 
@@ -213,6 +219,7 @@ Size: 80
 LikeWork: 30
 ExtraAttack: 5
 Class: 101
+Race: 112
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0l0b1c1 
@@ -253,6 +260,7 @@ Size: 40
 LikeWork: 25
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -287,6 +295,7 @@ Size: 10
 LikeWork: 65
 ExtraAttack: 2
 Class: 100
+Race: 109
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -324,6 +333,7 @@ Size: 60
 LikeWork: 5
 ExtraAttack: 2
 Class: 103
+Race: 102
 Height: 30
 Weight: 150
 Special_Bitvector: 0 
@@ -359,6 +369,7 @@ Size: 50
 LikeWork: 65
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 30
 Weight: 50
 Special_Bitvector: f0b1c1C3 
@@ -421,6 +432,7 @@ d0m0n0t0z0a2h2 0 0 E
 Str: 30
 Size: 30
 Class: 100
+Race: 109
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -445,10 +457,87 @@ b0d0 n1 0 E
 8 8 1
 Size: 30
 Class: 100
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 136 3
 E
 T 11250
+#11213
+новогодняя белочка~
+новогодняя белочка~
+новогодней белочки~
+новогодней белочке~
+новогоднюю белочку~
+новогодней белочкой~
+новогодней белочке~
+Белочка ухмыляется вам сидя на высокой ветке.
+~
+Новогодняя белочка имеет &Gстранный цвет&n, она быстро носится вокруг вас,
+вызывая головокружение.
+~
+d0 f0t0 0 E
+22 5 0 20d300+1 4d1+10
+0d0+1000 75000
+8 8 2
+Resistances: 0 0 0 0 10 0 0
+Success: 5
+Initiative: 4
+BareHandAttack: 4
+Str: 20
+Dex: 13
+Size: 30
+LikeWork: 1
+Class: 103
+Race: 104
+Height: 90
+Weight: 200
+Special_Bitvector: y0 
+Feat: 17
+Feat: 65
+Feat: 89
+Skill: 21 40
+Skill: 31 50
+Skill: 133 40
+Skill: 136 80
+Skill: 157 80
+E
+#11214
+пушной песец~
+пушной песец~
+пушного песца~
+пушному песцу~
+пушного песца~
+пушным песцом~
+пушном песце~
+&WПушной песец&n внимательно осматривает вас.
+~
+Какой же он большой, этот песец... Подкрался еще незаметно, коварный.
+~
+d0 f0k0b2 0 E
+25 5 0 1d100+1 1d1+12
+0d0+1000 0
+8 8 1
+BareHandAttack: 4
+Str: 15
+Dex: 15
+Int: 5
+Wis: 10
+Con: 15
+Cha: 5
+Size: 50
+Class: 103
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: i0y0 
+Feat: 6
+Feat: 17
+Feat: 68
+Skill: 21 90
+Skill: 132 40
+Skill: 134 50
+Skill: 150 30
+E
 $

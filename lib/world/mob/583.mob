@@ -17,6 +17,7 @@ b0d0e0n0o0p0q0r0t0u0x0y0z0B0a1b1o1s1t1f2g2i2j2l2u2 d0f0g0k0x0k1n1 0 E
 8 8 1
 Size: 30
 Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: m0 
@@ -43,6 +44,7 @@ b0d0e0n0o0p0q0r0t0u0x0y0z0B0a1b1o1s1t1f2g2i2j2u2 c0d0f0g0k1n1 0 E
 8 8 3
 Size: 30
 Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -68,6 +70,7 @@ b0d0e0n0o0p0q0r0t0u0x0y0z0B0o1s1t1g2i2j2u2 d0f0z0k1 0 E
 8 8 1
 Size: 30
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -98,6 +101,7 @@ Con: 12
 Cha: 35
 Size: 100
 Class: 102
+Race: 101
 Height: 100
 Weight: 100
 Special_Bitvector: 0 
@@ -127,6 +131,7 @@ Con: 1
 Cha: 1
 Size: 30
 Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

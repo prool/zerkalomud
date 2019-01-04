@@ -31,7 +31,7 @@ If (%object.vnum%==722)
   If (%object.val1%>5)
     Say Замечательный металл! В самый раз для заклинания!
     If  !(%self.haveobj(60065)%)
-      Mload obj 60061
+      Mload obj 60065
     Else 
       Say У меня уже есть металл! Еще один пока не нужен!
     End

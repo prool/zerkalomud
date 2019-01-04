@@ -93,7 +93,7 @@ end
 if (!%arg.contains(мимо)% || !%arg.contains(ловушки)%)
   wsend  %actor% Чаво?
   halt
-elseif %actor.clan% == тдн && %self.realroom% != 14663 && %self.realroom% != 14666 && %self.realroom% != 14602 && %self.realroom% != 14681
+elseif %actor.clan% == тдн && %actor.realroom% != 14663 && %actor.realroom% != 14666 && %actor.realroom% != 14602 && %actor.realroom% != 14681
   wsend %actor%  Вы ловко прошмыгнули мимо ловушки.
   wechoaround %actor%  %actor.name% медленно скрыл%actor.u% из виду.
   eval room %random.4%
@@ -112,7 +112,7 @@ elseif %actor.clan% == тдн && %self.realroom% != 14663 && %self.realroom% != 146
     break
   done
   wechoaround %actor%  Кто-то появил%actor.u% из неоткуда.
-elseif %self.realroom% != 14663 && %self.realroom% != 14666 && %self.realroom% != 14602 && %self.realroom% != 14681
+elseif %actor.realroom% != 14663 && %actor.realroom% != 14666 && %actor.realroom% != 14602 && %actor.realroom% != 14681
   wsend %actor%  Вы ловко прошмыгнули мимо ловушки.
   wechoaround %actor%  %actor.name% медленно скрыл%actor.u% из виду.
   eval room %random.4%
@@ -165,22 +165,18 @@ end
 ТригДозорного~
 0 z 100
 ~
+wait 1
 if %actor.clan% == тдн
-  halt
+  эмо отдал честь
 else
-  сказа шателье Враг &R%actor.name%&n у наших покоев.
-  сказа фелиций Враг &R%actor.name%&n у наших покоев.
-  сказа некрон Враг &R%actor.name%&n у наших покоев.
-  сказа сантин Враг &R%actor.name%&n у наших покоев.
-  сказа динни Враг &R%actor.name%&n у наших покоев.
-  сказа эварре Враг &R%actor.name%&n у наших покоев.
-  сказа дрелти Враг &R%actor.name%&n у наших покоев.
-  сказа эстор Враг &R%actor.name%&n у наших покоев.
-  сказа морхолт Враг &R%actor.name%&n у наших покоев.
-  сказа глаймон Враг &R%actor.name%&n у наших покоев.
-  сказа малагант Враг &R%actor.name%&n у наших покоев.
-  сказа казанзаки Враг &R%actor.name%&n у наших покоев.
-  сказа олич Враг &R%actor.name%&n у наших покоев.
+  set list эстор морхолт малагант антарис глаймон вячеслав бранген гердар ишхана матфей волонд ломко гунхильда шателье дрелти некрон динни рольт
+  foreach mem %list%
+    tell %mem% &R%actor.iname%&n у ворот!
+  done
+  set list антонина злокраса элемир лариса кунал шунька мирт делор росава микун еруслан лешко вериша судару затаки альвина лонтара
+  foreach mem %list%
+    tell %mem% &R%actor.iname%&n у ворот!
+  done
 end
 ~
 #14612
@@ -238,7 +234,8 @@ end
 if !%arg.contains(трещина)%
   wsend  %actor% Куда это Вы хотите пролезть?
   halt
-elseif %actor.clan% == тдн
+end
+if ((%actor.clan% == тдн) && %actor.rentable%)
   wsend %actor%  Вы с трудом пролезли в трещину.
   wechoaround %actor%  %actor.name% с трудом пролез%actor.g% в терщину.
   wteleport %actor% 14679
@@ -279,7 +276,7 @@ if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
 end
 if %actor.clan% == тдн
   wait 2
-  oechoaround %actor% _&rОкровавленная &Kудавка&n соскочила с запястья %actor.vname% и ловко обвилась вокруг Вашей нежной шеи. &WНичего личного&n - только &Rбизнес&n.
+  oechoaround %actor% _&rОкровавленная &Kудавка&n соскочила с запястья %actor.rname% и ловко обвилась вокруг Вашей нежной шеи. &WНичего личного&n - только &Rбизнес&n.
   osend %actor% _&rОкровавленная &Kудавка&n аккуратно сползла с Вашего запястья в поисках &Rжертвы&n и через несколько секунд &Wвернулась&n обратно.
   halt
 end
@@ -287,5 +284,22 @@ osend %actor% %self.name% рассыпал%self.u% в ваших руках.
 oechoaround %actor% %self.name% рассыпал%self.u% в руках %actor.rname%.
 wait 1
 opurge %self%
+~
+#14643
+ЩитМерцает~
+1 t 100
+~
+wait 1
+wait 1s
+oecho   &rБагровые &Rпятна &Rкрови &rпроступили на &MЩИТЕ&n, &rи Вы увидели надпись : &R"&YЖелание &CНаемника&n - &WЗакон для смерда&n&R"&n
+~
+#14644
+Репоп(лоадщит)~
+2 f 100
+~
+wait 1
+if (%world.obj(23700).room% != %self.vnum%)
+  %load% obj 14641
+end
 ~
 $~

@@ -130,8 +130,6 @@ done
 ~
 if %random.7% == 1 && %world.curobjs(69104)% < 4
   mload obj 69104
-  *if (%random.7% == 1) && (%world.curobjs(69134)% < 1)
-  *mload obj 1217
 end
 ~
 #69110

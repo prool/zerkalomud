@@ -13,11 +13,11 @@ wait 2
 ~
 wait 1
 eval dmg 100+%random.100%
-*set actor %random.pc% 
-wechoaround %actor% Белооперенная стрела вонзилась в грудь %actor.rname%.
-wsend %actor% Белооперенная стрела вонзилась в вашу грудь.
-wdamage %actor% %dmg%
-wait 2s
+set target %random.pc% 
+wechoaround %target% Белооперенная стрела вонзилась в грудь %target.rname%.
+wsend %target% Белооперенная стрела вонзилась в вашу грудь.
+wdamage %target% %dmg%
+wait 30s
 halt
 ~
 $~

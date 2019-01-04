@@ -10,32 +10,31 @@
 ~
 Вы видите удачливого половецкого воина.
 ~
-l0A0x0r2c0s2 C0A0 -600 E
-20 -2 +5 10d10+500 5d5+13 
+c0d0l0x0A0r2s2 A0C0 -600 E
+20 -2 5 10d10+500 5d5+13
 5d5+0 45000
 8 8 1
 CastSuccess: 40
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 22
-Int: 11
-Wis: 13
 Dex: 18
+Wis: 13
 Con: 22
 Cha: 27
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 50
+Race: 104
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Skill: 142 40
-Skill: 137 10
+Special_Bitvector: b1c1 
 Skill: 22 25
 Skill: 136 80
-Skill: 151 30
+Skill: 137 10
+Skill: 142 40
 Skill: 150 10
+Skill: 151 30
 E
 T 122601
 I глаза,3:1
@@ -54,37 +53,36 @@ I кожа,2:3
 ~
 Вы видите опытного хазарского сотника.
 ~
-l0A0r2c0s2 m1 -600 E
-26 -2 3 10d10+700 6d5+20 
+c0d0l0A0r2s2 m1 -600 E
+26 -2 3 10d10+700 6d5+20
 2d2+0 75000
 8 8 1
 CastSuccess: 52
-BareHandAttack:  0
 Str: 25
+Dex: 14
 Int: 18
 Wis: 23
-Dex: 14
 Con: 22
 Cha: 13
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 50
+Race: 101
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Spell: 39 4
-Spell: 3 4
-Spell: 17 4
-Spell: 15 5
-Spell: 1 4
-Skill: 134 60
-Skill: 143 80
-Skill: 137 70
+Special_Bitvector: b1c1 
 Skill: 1 55
-Skill: 136 100
 Skill: 132 55
+Skill: 134 60
+Skill: 136 100
+Skill: 137 70
+Skill: 143 80
+Spell: 1
+Spell: 3
+Spell: 15
+Spell: 17
+Spell: 39
 E
 T 122601
 I глаза,1:1
@@ -103,37 +101,36 @@ I кожа,5:1
 ~
 Вы видите везучего хазарского десятника.
 ~
-l0A0r2c0s2 A0 -600 E
-22 -5 +7 10d10+500 6d5+15 
+c0d0l0A0r2s2 A0 -600 E
+22 -5 7 10d10+500 6d5+15
 2d2+0 55000
 8 8 1
 CastSuccess: 44
-BareHandAttack:  0
 Str: 21
+Dex: 13
 Int: 17
 Wis: 22
-Dex: 13
 Con: 20
 Cha: 22
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 50
+Race: 101
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Spell: 39 1
-Spell: 3 1
-Spell: 17 1
-Spell: 15 1
-Spell: 1 1
-Skill: 134 30
-Skill: 143 50
-Skill: 137 40
+Special_Bitvector: b1c1 
 Skill: 1 15
-Skill: 136 80
 Skill: 132 30
+Skill: 134 30
+Skill: 136 80
+Skill: 137 40
+Skill: 143 50
+Spell: 1
+Spell: 3
+Spell: 15
+Spell: 17
+Spell: 39
 E
 T 122601
 I глаза,3:2
@@ -152,30 +149,30 @@ I кожа,1:4
 ~
 Вы видите опытного монгольского лучника.
 ~
-l0A0r2c0s2 m1 -600 E
-23 0 6 10d10+450 5d5+10 
+c0d0l0A0r2s2 m1 -600 E
+23 0 6 10d10+450 5d5+10
 3d2+0 50000
 8 8 1
 CastSuccess: 46
-BareHandAttack:  9
+BareHandAttack: 9
 Str: 24
+Dex: 18
 Int: 12
 Wis: 16
-Dex: 18
 Con: 18
 Cha: 12
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 150
-Special_Bitvector: b1c1
-Skill: 155 45
+Special_Bitvector: b1c1 
 Skill: 7 50
-Skill: 154 45
 Skill: 136 100
+Skill: 154 45
+Skill: 155 45
 Skill: 157 40
 E
 T 122601
@@ -194,25 +191,24 @@ I кожа,1:1
 Полосатый полоз ползет куда-то.
 ~
 Вы видите полосатого полоза.~
-t1l1q0m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0q0l1m1t1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 136 60
 E
 I глаза,1:5
@@ -229,25 +225,24 @@ I кожа,5:5
 Мышовка кинулась к своей норке.
 ~
 Вы видите мышовку.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,5:8
@@ -267,25 +262,24 @@ I кожа,1:7
 Желтобрюхий полоз свернулся кольцом.
 ~
 Вы видите желтобрюхого полоза.~
-t1l1q0m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0q0l1m1t1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 136 60
 E
 I глаза,3:7
@@ -303,25 +297,24 @@ I кожа,4:9
 Савка летает тут.
 ~
 Вы видите савку.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,5:7
@@ -338,25 +331,24 @@ I крылья,2:5
 Хомяк стоит тут.
 ~
 Вы видите хомяка.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,4:6
@@ -374,30 +366,28 @@ I когти,5:6
 Степной щитомордник ползет куда-то.
 ~
 Вы видите степного щитомордника.~
-t1l1q0m1h0 0 -600 E
-3 9 +9 1d10+30 3d3+0 
+d0h0q0l1m1t1 0 -600 E
+3 9 9 1d10+30 3d3+0
 0d0+0 100
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 5
+Dex: 6
 Int: 6
 Wis: 6
-Dex: 6
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 136 60
 E
 I глаза,5:6
 I зубы,4:6
 I кости,2:5
 I кожа,3:5
-$
 $

@@ -25,6 +25,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -54,6 +55,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: p0y0b1c1 
@@ -82,6 +84,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: p0y0b1c1 
@@ -123,6 +126,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 
@@ -153,6 +157,7 @@ Int: 32
 Size: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -184,6 +189,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 
@@ -216,6 +222,7 @@ Wis: 18
 Size: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: p0b1c1 
@@ -252,6 +259,7 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 160
 Special_Bitvector: b1c1 
@@ -279,6 +287,7 @@ Str: 32
 Size: 60
 LikeWork: 99
 Class: 103
+Race: 104
 Height: 198
 Weight: 160
 Special_Bitvector: n0 
@@ -306,6 +315,7 @@ Size: 60
 LikeWork: 99
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 160
 Special_Bitvector: n0 
@@ -342,6 +352,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 
@@ -376,6 +387,7 @@ Size: 60
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -408,6 +420,7 @@ Con: 18
 Size: 15
 LikeWork: 35
 Class: 103
+Race: 104
 Height: 198
 Weight: 29
 Special_Bitvector: n0y0 
@@ -438,6 +451,7 @@ Con: 25
 Size: 25
 LikeWork: 75
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -469,6 +483,7 @@ Size: 10
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: y0 
@@ -499,6 +514,7 @@ Con: 17
 Size: 30
 LikeWork: 20
 Class: 103
+Race: 104
 Height: 198
 Weight: 140
 Special_Bitvector: p0 
@@ -531,6 +547,7 @@ Size: 24
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
@@ -557,6 +574,7 @@ Size: 10
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
@@ -588,6 +606,7 @@ Cha: 14
 Size: 5
 LikeWork: 50
 Class: 103
+Race: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0 
@@ -616,6 +635,7 @@ Size: 15
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: p0y0 
@@ -643,6 +663,7 @@ Size: 15
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
@@ -660,7 +681,7 @@ E
 ~
 Рыжеватый лисенок с большими любопытными глазами.
 ~
-d0g0 0 0 E
+d0g0f2 0 0 E
 8 11 6 5d5+150 3d3+0
 0d0+0 1000
 8 8 1
@@ -669,6 +690,7 @@ Str: 13
 Size: 10
 LikeWork: 25
 Class: 103
+Race: 104
 Height: 198
 Weight: 20
 Special_Bitvector: p0 
@@ -697,6 +719,7 @@ Int: 19
 Size: 10
 LikeWork: 85
 Class: 103
+Race: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0y0 
@@ -726,6 +749,8 @@ Wis: 14
 Con: 24
 Cha: 16
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -752,6 +777,8 @@ Str: 20
 Dex: 14
 Con: 21
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

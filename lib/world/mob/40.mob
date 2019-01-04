@@ -25,13 +25,12 @@ Size: 30
 LikeWork: 90
 ExtraAttack: 1
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
 Skill: 136 45
 E
-T 15774
 #4001
 жена старейшина дородная женщина~
 жена старейшины~
@@ -57,7 +56,7 @@ Con: 20
 Cha: 20
 Size: 30
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -75,7 +74,7 @@ E
 ~
 Стройный молодой парень.
 ~
-d0g0n0o0p0B0 0 600 E
+d0g0n0o0p0B0f2 0 600 E
 12 17 5 5d10+200 2d2+10
 0d0+0 0
 8 8 1
@@ -89,7 +88,7 @@ Size: 30
 LikeWork: 50
 MaxFactor: 10
 Class: 102
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -125,7 +124,7 @@ Size: 30
 LikeWork: 70
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -156,7 +155,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -189,7 +188,7 @@ Size: 30
 LikeWork: 70
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -220,7 +219,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -251,7 +250,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -282,7 +281,7 @@ Cha: 25
 Size: 30
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -314,7 +313,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -333,25 +332,26 @@ E
 Оборванный и грязный, с бутылками, торчащими из кармана, прется немолодой
 уже человек, не разбирая дороги.
 ~
-d0g0n0o0p0f2 0 0 E
-3 20 10 5d5+100 1d3+3
-1d2+0 350
+d0n0o0p0z0 0 0 E
+1 20 10 0d0+1 1d3+3
+1d1+10 150000000
 8 8 1
 Str: 15
-Dex: 7
-Int: 6
+Dex: 1
+Int: 1
 Wis: 3
-Con: 20
+Con: 1
 Cha: 3
-Size: 30
+Size: 100
 MaxFactor: 10
 Class: 102
-Race: 100
+Race: 101
 Height: 170
 Weight: 120
 Special_Bitvector: y0 
 Skill: 136 15
 E
+T 4055
 #4011
 скорняк продавец~
 скорняк~
@@ -377,7 +377,7 @@ Cha: 15
 Size: 50
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -409,7 +409,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -442,7 +442,7 @@ Size: 30
 LikeWork: 80
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -475,7 +475,7 @@ Size: 30
 LikeWork: 100
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 104
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -495,9 +495,9 @@ E
 толи стал таким. В деревне его никто не любит
 и не уважает.
 ~
-d0g0m0A0 0 600 E
+d0m0A0 0 600 E
 10 15 5 10d10+120 2d2+4
-5d5+10 0
+5d5+10 100
 8 8 1
 Str: 15
 Dex: 15
@@ -508,7 +508,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -540,7 +540,7 @@ Cha: 10
 Size: 15
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 104
 Height: 110
 Weight: 50
 Special_Bitvector: 0 
@@ -572,7 +572,7 @@ Cha: 10
 Size: 15
 MaxFactor: 10
 Class: 101
-Race: 100
+Race: 110
 Height: 80
 Weight: 25
 Special_Bitvector: 0 
@@ -604,7 +604,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 102
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -636,7 +636,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 102
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -669,7 +669,7 @@ Cha: 5
 Size: 1
 MaxFactor: 10
 Class: 103
-Race: 100
+Race: 107
 Height: 1
 Weight: 1
 Special_Bitvector: g0 
@@ -701,7 +701,7 @@ Cha: 7
 Size: 3
 MaxFactor: 10
 Class: 103
-Race: 100
+Race: 104
 Height: 4
 Weight: 1
 Special_Bitvector: i0 
@@ -733,7 +733,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -764,7 +764,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -795,7 +795,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -826,7 +826,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -858,7 +858,7 @@ Cha: 3
 Size: 50
 LikeWork: 50
 Class: 102
-Race: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -890,7 +890,7 @@ Con: 20
 Cha: 20
 Size: 30
 Class: 102
-Race: 100
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
@@ -899,21 +899,23 @@ E
 T 4001
 T 4003
 #4052
-неоконченный моб~
-неоконченный моб~
-неоконченного моба~
-неоконченному мобу~
-неоконченного моба~
-неоконченным мобом~
-неоконченном мобе~
-Неоконченный моб стоит тут.
+мышь~
+мышь~
+мышь~
+мышь~
+мышь~
+мышь~
+мышь~
+МЫШЬ бегает тут.
 ~
 Выглядит достаточно незавершенно.
 ~
 d0 0 0 E
-0 20 0 1d100+1 30d50+50
-0d0+0 0
+50 20 0 1d1+1 2d1+2
+0d0+0 30000000
 8 8 0
+Saves: -86 -86 -86 -86
+CastSuccess: 77
 Size: 30
 Class: 100
 Race: 100
@@ -948,8 +950,8 @@ _
 <в правой руке>             призрачный кинжал
 <в левой руке>              заточка
 ~
-b0d0n0f2j2l2m2u2 c0d0k0m0n0r0s0z0A0k1m1r1 -800 E
-30 -10 -3 0d0+1 10d12+25
+b0d0n0f2j2l2m2u2 0 -800 E
+3 20 1 0d0+1 1d1+1
 0d0+0 0
 8 8 1
 Saves: 60 60 60 60
@@ -960,8 +962,8 @@ Success: 30
 Initiative: 20
 Absorbe: 60
 BareHandAttack: 11
-Str: 36
-Dex: 50
+Str: 50
+Dex: 3
 Int: 20
 Wis: 20
 Con: 25
@@ -970,7 +972,7 @@ Size: 30
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -993,7 +995,6 @@ Skill: 149 90
 Skill: 157 125
 E
 T 4005
-T 20283
 L 1720 100 0 0
 #4054
 r1guard помощник деревенского старосты~
@@ -1022,7 +1023,7 @@ Size: 40
 LikeWork: 30
 ExtraAttack: 1
 Class: 104
-Race: 100
+Race: 104
 Height: 180
 Weight: 180
 Special_Bitvector: 0 
@@ -1061,12 +1062,13 @@ Size: 45
 LikeWork: 30
 ExtraAttack: 1
 Class: 100
-Race: 100
+Race: 101
 Height: 160
 Weight: 150
 Special_Bitvector: 0 
 Skill: 136 78
 E
+T 4055
 #4056
 скупщик купец~
 скупщик~
@@ -1093,7 +1095,7 @@ Size: 50
 LikeWork: 1
 ExtraAttack: 1
 Class: 100
-Race: 100
+Race: 101
 Height: 168
 Weight: 150
 Special_Bitvector: 0 
@@ -1125,38 +1127,46 @@ Size: 30
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
-Race: 100
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
 E
-T 4016
 T 4017
-T 4005
-#4067
-неоконченный моб~
-неоконченный моб~
-неоконченного моба~
-неоконченному мобу~
-неоконченного моба~
-неоконченным мобом~
+T 4016
+#4058
+сказитель~
+сказитель~
+сказителя~
+сказителю~
+сказителя~
+сказителем~
 неоконченном мобе~
-Неоконченный моб стоит тут.
+Седовласый сказитель готов поделиться с Вами интересной историей.
 ~
-Выглядит достаточно незавершенно.
+Седовласый странник хранит в своей памяти сотни сказаний и былин.
+Можно попросить его рассказать сказку - авось не откажет.
 ~
-d0 0 0 E
-0 20 0 1d100+1 1d1+0
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
 0d0+0 0
 8 8 1
-Size: 30
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
 Class: 100
-Race: 100
-Height: 198
-Weight: 200
+Race: 101
+Height: 168
+Weight: 150
 Special_Bitvector: 0 
 E
-T 4041
+T 4020
 #4070
 ямщик~
 ямщик~
@@ -1170,7 +1180,7 @@ T 4041
 Огромный мужик, хоть и немножко подвыпивший, но еще в состоянии понять, куда и
 кому вы хотите отправить письмо.    
 ~
-b0d0g0n0o0B0 D0 0 E
+b0d0g0n0o0B0 d0f0k0D0a1 0 E
 30 15 -10 1d100+500 1d1+5
 0d0+0 0
 8 8 1
@@ -1178,7 +1188,7 @@ Str: 20
 Dex: 20
 Size: 30
 Class: 102
-Race: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: d1 

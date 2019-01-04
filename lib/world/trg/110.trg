@@ -16,52 +16,62 @@ mecho Воин оглядел вас мутным взором.
 say Кто ты? Ты не похож на одного из этих.
 взд
 mecho Воин с надеждой посмотрел на Вас.
-end
 ~
 #11002
 Пьяный разбойник~
-0 ab 50
+0 b 50
 ~
 щупа девк 
-if %random.5%==1 then
- храп
-else
- if %random.4%==1 then
-  ласка
- else
-  if %random.3%==1 then
-   шлепа
-  else
-   if %random.2%==1 then
-    танце
-   else
-    тост
-   end
-  end
- end
-end
+wait 2
+switch %random.9%
+  case 1
+    ласка
+  break
+  case 2
+    шлеп
+  break
+  case 3
+    танц
+  break
+  case 4
+    рыг
+  break
+  case 5
+    ржать
+  break
+  case 6
+    крушить
+  break
+  default
+    петь
+  done
 ~
 #11003
 Бородатый разбойник~
-0 ab 50
+0 b 50
 ~
-if %random.5%==1 then
- вмаза пьян
-else
- if %random.4%==1 then
-  петь
- else
-  if %random.3%==1 then
-   мычать
-  else
-   if %random.2%==1 then
-    вмаза боро
-   else
-    похмелье
-   end
-  end
- end
-end
+щупа девк 
+wait 2
+switch %random.9%
+  case 1
+    вмаза пьян
+  break
+  case 2
+    петь
+  break
+  case 3
+    мычать
+  break
+  case 4
+    вмаз бород
+  break
+  case 5
+    похме
+  break
+  case 6
+    рыг
+  break
+done
 ~
 #11004
 Зашли к девке~
@@ -84,7 +94,7 @@ msend %actor% Слышала только то, что когда кто туда входит,
 msend %actor% Постоянно говорит "сезам откройся".
 msend %actor% Что это такое, мне не ведомо, но наверное что-то важное.
 mecho Девка быстро убежала.
-mpurge  девка
+mpurge %self%
 ~
 #11006
 телепорт~
@@ -98,34 +108,36 @@ wat 11062 wechoaround %actor% %actor.name% с криком упал%actor.g% сверху.
 ~
 #11007
 Пленник на дыбе.~
-0 ab 100
+0 b 100
 ~
-if %random.3%==1 then
-   mecho Пленник завопил от боли.
-else
-   if %random.2%==1 then
-      mecho Пленник поднял голову и посмотрел на вас.
-      wait 2
-      г Кто вы? Откуда пришли?
-      г Сделайте доброе дело, убейте. Все одно я на свете не жилец.
-      г И не жалейте тут никого, лихие это люди. 
-      г Да поищите тут в комнате или рядом.  
-      г Ключ от своей сокровищницы они тут прячут.
-   else
-     mecho Пленник потерял сознание.
-   end
-end
+switch %random.5%
+  case 1
+    mecho Пленник завопил от боли.
+  break
+  case 2
+    mecho Пленник поднял голову и посмотрел на вас.
+    wait 2
+    г Кто вы? Откуда пришли?
+    г Сделайте доброе дело, убейте. Все одно я на свете не жилец.
+    г И не жалейте тут никого, лихие это люди. 
+    г Да поищите тут в комнате или рядом.  
+    г Ключ от своей сокровищницы они тут прячут.
+  break
+  case 3
+    mecho Пленник потерял сознание.
+  break
+done
 ~
 #11008
 Открыли ларец~
 1 p 100
 ~
-makeuid name2 %actor.id%
+set name2 %actor.id%
 if %actor.leader%
-   set name1 %actor.leader%
-   if (%name1.vnum% == -1) && (%actor.vnum% != -1))
-     set name2 %actor.leader%
-   end
+  set name1 %actor.leader%
+  if (%name1.vnum% == -1) && (%actor.vnum% != -1))
+    set name2 %actor.leader%
+  end
 end
 %name2.wait(8)%
 wait 1
@@ -134,16 +146,16 @@ osend %name2% Вы остолбенели при одном взгляде на это.
 wait 1
 oecho Из него вырвался черный дым,
 oecho который через секунду сгустился и превратился 
-oecho в страшного, морозящего душу своим взглядом духа. 
+oecho в страшного, морозящего душу своим взглядом, духа. 
 wait 1
 oecho Призрак посмотрел на вас.
 oecho Призрак сказал "Ты не мой хозяин!"
 oecho Призрак сказал "Будь ты проклят как и я на веки вечные!"
 wait 1
 oload mob 11024
-oforce призр уби .%name2.name%
+calcuid ghost 11024 mob
+oforce %ghost% mkill %name2%
 detach 11008 %self.id%
-end
 ~
 #11009
 Зашли к купцу~

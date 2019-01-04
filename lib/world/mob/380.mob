@@ -24,6 +24,7 @@ Size: 60
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -57,6 +58,7 @@ Con: 18
 Size: 15
 LikeWork: 35
 Class: 103
+Race: 104
 Height: 198
 Weight: 29
 Special_Bitvector: n0y0 
@@ -87,6 +89,7 @@ Con: 25
 Size: 25
 LikeWork: 75
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -118,6 +121,7 @@ Size: 10
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: y0 
@@ -148,6 +152,7 @@ Con: 17
 Size: 30
 LikeWork: 20
 Class: 103
+Race: 104
 Height: 198
 Weight: 140
 Special_Bitvector: p0 
@@ -180,6 +185,7 @@ Size: 24
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
@@ -206,6 +212,7 @@ Size: 10
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
@@ -237,6 +244,7 @@ Cha: 14
 Size: 5
 LikeWork: 50
 Class: 103
+Race: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0 
@@ -265,6 +273,7 @@ Size: 15
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: p0y0 
@@ -292,6 +301,7 @@ Size: 15
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
@@ -318,6 +328,7 @@ Str: 13
 Size: 10
 LikeWork: 25
 Class: 103
+Race: 104
 Height: 198
 Weight: 20
 Special_Bitvector: p0 
@@ -346,6 +357,7 @@ Int: 19
 Size: 10
 LikeWork: 85
 Class: 103
+Race: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0y0 
@@ -377,6 +389,7 @@ Size: 40
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -420,6 +433,7 @@ Cha: 5
 Size: 50
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -473,6 +487,7 @@ Cha: 5
 Size: 55
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -518,6 +533,7 @@ Size: 20
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
@@ -548,12 +564,13 @@ T 38008
 ~
 Приветливая и улыбчивая женщина.
 ~
-b0c0d0g0o1 n1 0 E
+b0d0g0o1 n1 0 E
 5 0 0 1d1+500 1d0+0
 0d0+0 1
 8 8 2
 Size: 58
 Class: 102
+Race: 101
 Height: 198
 Weight: 180
 Special_Bitvector: b1c1 
@@ -593,6 +610,7 @@ Size: 40
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 140
 Special_Bitvector: b1c1 
@@ -634,6 +652,7 @@ Size: 40
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: p0b1c1 
@@ -668,6 +687,7 @@ Size: 55
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 180
 Special_Bitvector: 0 
@@ -699,6 +719,7 @@ Int: 18
 Size: 10
 LikeWork: 40
 Class: 103
+Race: 104
 Height: 198
 Weight: 20
 Special_Bitvector: p0 
@@ -727,6 +748,7 @@ Size: 40
 LikeWork: 5
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 140
 Special_Bitvector: 0 
@@ -758,6 +780,7 @@ Size: 55
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 180
 Special_Bitvector: 0 
@@ -788,6 +811,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: p0 
@@ -819,6 +843,7 @@ Size: 20
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 40
 Special_Bitvector: p0a1 

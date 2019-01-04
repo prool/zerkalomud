@@ -3,7 +3,7 @@
 0 f 100
 ~
 if (%world.curobjs(91608)% < 3) && (%random.5% == 1)
-   mload obj 91608
+  mload obj 91608
 end
 ~
 #91601
@@ -11,7 +11,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(91607)% < 3) && (%random.5% == 1)
-   mload obj 91607
+  mload obj 91607
 end
 ~
 #91602
@@ -19,7 +19,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(91610)% < 3) && (%random.5% == 1)
-   mload obj 91610
+  mload obj 91610
 end
 ~
 #91603
@@ -27,7 +27,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(91609)% < 3) && (%random.5% == 1)
-   mload obj 91609
+  mload obj 91609
 end
 ~
 #91604
@@ -35,13 +35,13 @@ end
 0 f 100
 ~
 if (%world.curobjs(91600)% < 3) && (%random.7% == 1)
-      mload obj 91600
+  mload obj 91600
 elseif (%world.curobjs(91601)% < 3) && (%random.6% == 1)
-      mload obj 91601
+  mload obj 91601
 elseif (%world.curobjs(91602)% < 3) && (%random.5% == 1)
-      mload obj 91602
+  mload obj 91602
 elseif (%world.curobjs(91603)% < 3) && (%random.4% == 1)
-      mload obj 91603
+  mload obj 91603
 end
 ~
 #91605
@@ -49,11 +49,11 @@ end
 0 f 100
 ~
 if (%world.curobjs(91604)% < 3) && (%random.7% == 1)
-      mload obj 91604
+  mload obj 91604
 elseif (%world.curobjs(91605)% < 3) && (%random.6% == 1)
-      mload obj 91605
+  mload obj 91605
 elseif (%world.curobjs(91606)% < 3) && (%random.5% == 1)
-      mload obj 91606
+  mload obj 91606
 end
 ~
 #91606
@@ -117,9 +117,9 @@ wteleport all 91661
 2 b 100
 ~
 if %random.4% == 1
-wait 1s
-wecho Река уносит Вас по течению.
-wteleport all 91665
+  wait 1s
+  wecho Река уносит Вас по течению.
+  wteleport all 91665
 end
 ~
 #91614
@@ -127,9 +127,9 @@ end
 0 k 100
 ~
 if %random.4% == 1
-eval target %random.pc%
-dg_cast 'кислота' %target.name%
-unset %target%
+  eval target %random.pc%
+  dg_cast 'кислота' %target.name%
+  unset %target%
 end
 ~
 #91615
@@ -137,7 +137,7 @@ end
 0 q 100
 ~
 wait 1s
-mecho Лада  подняла голову и посмотрела на Вас.
+mecho Лада подняла голову и посмотрела на Вас.
 wait 1s
 дума 
 wait 3s
@@ -162,57 +162,57 @@ halt
 attach 91815 %self.id%
 eval damag %random.90% + %random.90% + %random.90% + %random.90% +150
 switch (%actor.class%)
-   case 0
-   case 1
-   case 10
-      eval rdam %damag%+10
-   break
-   case 3
-   case 5
-      eval rdam %damag%*2
-   break
-   default
-      eval rdam %damag%*2/3
-   break
-done
-osend %actor% Посох начал вбирать в себя Вашу жизненную силу!
-   if %actor.level%<28
+  case 0
+    case 1
+      case 10
+        eval rdam %damag%+10
+      break
+      case 3
+        case 5
+          eval rdam %damag%*2
+        break
+        default
+          eval rdam %damag%*2/3
+        break
+      done
+      osend %actor% Посох начал вбирать в себя Вашу жизненную силу!
+      if %actor.level%<28
         eval rdam %actor.hitp%+11
         osend %actor% Вы не смогли справится с властью посоха!
         oechoaround %actor% Посох выпил всю жизненную силу %actor.rname%!
-   odamage %actor% %rdam%
-   end
-   if %actor.hitp%>%rdam%
-   odamage %actor% %rdam%
-   else
-   odamage %actor% %actor.hitp%
-   end
-eval  waitt 150+%random.100%
-wait %waitt%s
-osend %actor% Кварц на посохе слегка засветился!
-eval damag %rdam%-%random.90%
-   if %actor.hitp%>%damag%
-osend %actor% Посох вобрал в себя часть Вашей жизненой силы!
-   odamage %actor% %damag%
-   else
-   osend %actor% Посох вытянул из Вас почти всю жизненную силу!
-   odamage %actor% %actor.hitp%
-   end
-eval  waitt 150+%random.100%
-wait %waitt%s
-osend %actor% Кварц на посохе сильно засветился!
-eval rdam %damag%-%random.90%
-   if %actor.hitp%>%rdam%
-   osend %actor% Посох вобрал в себя часть Вашей жизненой силы!
-   odamage %actor% %rdam%
-else
-   osend %actor% Посох вытянул из Вас почти всю жизненную силу!
-   odamage %actor% %actor.hitp%
-end
-eval  waitt 150+%random.100%
-wait %waitt%s
-osend %actor% Кварц на посохе ярко вспыхнул и погас!
-detach 91815 %self.id%
-otransform 91616
+        odamage %actor% %rdam%
+      end
+      if %actor.hitp%>%rdam%
+        odamage %actor% %rdam%
+      else
+        odamage %actor% %actor.hitp%
+      end
+      eval  waitt 150+%random.100%
+      wait %waitt%s
+      osend %actor% Кварц на посохе слегка засветился!
+      eval damag %rdam%-%random.90%
+      if %actor.hitp%>%damag%
+        osend %actor% Посох вобрал в себя часть Вашей жизненой силы!
+        odamage %actor% %damag%
+      else
+        osend %actor% Посох вытянул из Вас почти всю жизненную силу!
+        odamage %actor% %actor.hitp%
+      end
+      eval  waitt 150+%random.100%
+      wait %waitt%s
+      osend %actor% Кварц на посохе сильно засветился!
+      eval rdam %damag%-%random.90%
+      if %actor.hitp%>%rdam%
+        osend %actor% Посох вобрал в себя часть Вашей жизненой силы!
+        odamage %actor% %rdam%
+      else
+        osend %actor% Посох вытянул из Вас почти всю жизненную силу!
+        odamage %actor% %actor.hitp%
+      end
+      eval  waitt 150+%random.100%
+      wait %waitt%s
+      osend %actor% Кварц на посохе ярко вспыхнул и погас!
+      detach 91815 %self.id%
+      otransform 91616
 ~
 $~

@@ -195,6 +195,7 @@ switch %object.vnum%
       attach 20605 %self.id%
     end
   done
+end
 ~
 #20605
 бабагритпойду~
@@ -223,7 +224,7 @@ else
   wait 30
   msend %actor% через секунду резкая боль пронзила все тело. 
   wait 30
-  msend %actor% подлый хуторянин сотворил с Вами то, что все мужики делали с бабами на Руси.
+  msend %actor% подлый хуторянин сотворил с Вами то, что многие мужики делают с бабами.
   dg_affect %actor% ловкость смирение -20 0
   dg_affect %actor% ловкость смирение -20 10000
   dg_affect %actor% интеллект плач -20 0
@@ -239,6 +240,7 @@ else
   mload mob 20603
   attach 20621 %self.id%
   detach 20605 %self.id%
+end
 ~
 #20606
 женалоад~
@@ -384,6 +386,7 @@ switch %object.vnum%
     msend %actor% Князь щедро отсыпал Вам золотых монет.
     %actor.gold(+50000)%
     detach 20214 %self.id%
+  done
 ~
 #20612
 зашликследопыту~
@@ -423,7 +426,6 @@ if ((%actor.id% == %mman.id%) && (%world.curobjs(20619)% < 5))
   эм хитро Вам подмигнул
   detach 20612 %self.id%
 end
-end
 ~
 #20613
 убилинаемника~
@@ -460,6 +462,7 @@ elseif ((857 <= %rand%) && (%rand% < 933) && (%world.curobjs(20615)% < 1))
   mload obj 20615
 elseif ((933 <= %rand%) && (%rand% <= 1000) && (%world.curobjs(20616)% < 1))
   mload obj 20616
+end
 ~
 #20614
 делаемвходдальше~
@@ -467,7 +470,7 @@ elseif ((933 <= %rand%) && (%rand% <= 1000) && (%world.curobjs(20616)% < 1))
 идти~
 if (%arg.contains(точно)% && %arg.contains(по)% && %arg.contains(тропке)%) 
   wait 2
-  wsend %actor% Шаг за шагом Вы осторожно протоптали безопастный путь.
+  wsend %actor% Шаг за шагом Вы осторожно протоптали безопасный путь.
   wdoor  20645 north room 20646
 end
 ~
@@ -475,38 +478,38 @@ end
 рипаемубийцу~
 0 f 100
 *~
-eval rand %random.100%
-if ((%rand% < 6) && (%world.curobjs(20602)% < 2))
+eval rand %random.150%
+if ((%rand% < 5) && (%world.curobjs(20602)% < 2))
   mload obj 20602
-elseif ((6 <= %rand%) && (%rand% < 12) && (%world.curobjs(20603)% < 2))
+elseif ((5 <= %rand%) && (%rand% < 10) && (%world.curobjs(20603)% < 2))
   mload obj 20603
-elseif ((12 <= %rand%) && (%rand% < 18) && (%world.curobjs(20604)% < 2))
+elseif ((10 <= %rand%) && (%rand% < 15) && (%world.curobjs(20604)% < 2))
   mload obj 20604
-elseif ((18 <= %rand%) && (%rand% < 25) && (%world.curobjs(20605)% < 2))
+elseif ((15 <= %rand%) && (%rand% < 20) && (%world.curobjs(20605)% < 2))
   mload obj 20605
-elseif ((25 <= %rand%) && (%rand% < 31) && (%world.curobjs(20606)% < 2))
+elseif ((20 <= %rand%) && (%rand% < 25) && (%world.curobjs(20606)% < 2))
   mload obj 20606
-elseif ((31 <= %rand%) && (%rand% < 38) && (%world.curobjs(20607)% < 2))
+elseif ((25 <= %rand%) && (%rand% < 30) && (%world.curobjs(20607)% < 2))
   mload obj 20607
-elseif ((38 <= %rand%) && (%rand% < 45) && (%world.curobjs(20608)% < 2))
+elseif ((30 <= %rand%) && (%rand% < 35) && (%world.curobjs(20608)% < 2))
   mload obj 20608
-elseif ((45 <= %rand%) && (%rand% < 52) && (%world.curobjs(20609)% < 2))
+elseif ((35 <= %rand%) && (%rand% < 40) && (%world.curobjs(20609)% < 2))
   mload obj 20609
-elseif ((52 <= %rand%) && (%rand% < 59) && (%world.curobjs(20610)% < 2))
+elseif ((40 <= %rand%) && (%rand% < 45) && (%world.curobjs(20610)% < 2))
   mload obj 20610
-elseif ((59 <= %rand%) && (%rand% < 66) && (%world.curobjs(20611)% < 2))
+elseif ((45 <= %rand%) && (%rand% < 50) && (%world.curobjs(20611)% < 2))
   mload obj 20611
-elseif ((66 <= %rand%) && (%rand% < 72) && (%world.curobjs(20612)% < 2))
+elseif ((50 <= %rand%) && (%rand% < 55) && (%world.curobjs(20612)% < 2))
   mload obj 20612
-elseif ((70 <= %rand%) && (%rand% < 76) && (%world.curobjs(20613)% < 2))
+elseif ((55 <= %rand%) && (%rand% < 60) && (%world.curobjs(20613)% < 2))
   mload obj 20613
-elseif ((76 <= %rand%) && (%rand% < 82) && (%world.curobjs(20614)% < 2))
+elseif ((60 <= %rand%) && (%rand% < 65) && (%world.curobjs(20614)% < 2))
   mload obj 20614
-elseif ((82 <= %rand%) && (%rand% < 88) && (%world.curobjs(20615)% < 2))
+elseif ((65 <= %rand%) && (%rand% < 70) && (%world.curobjs(20615)% < 2))
   mload obj 20615
-elseif ((88 <= %rand%) && (%rand% < 94) && (%world.curobjs(20616)% < 2))
+elseif ((70 <= %rand%) && (%rand% < 75) && (%world.curobjs(20616)% < 2))
   mload obj 20616
-elseif ((94 <= %rand%) && (%rand% <= 100) && (%world.curobjs(20618)% < 2))
+elseif ((75 <= %rand%) && (%rand% < 80) && (%world.curobjs(20618)% < 2))
   mload obj 20618
 end
 ~
@@ -538,6 +541,7 @@ wait 10
 eval rand %random.1000%
 if ((%rand% < 150) && (%world.curobjs(20617)% < 2))
   mload obj 20617
+end
 ~
 #20620
 хуторянинпослевзятияквеста~
@@ -775,5 +779,27 @@ elseif %rand3% <= 866
 else
   wdoor  20659 west room 20658
 end
+~
+#20627
+смерть болотной нечисти~
+0 f 100
+~
+eval rand %random.1000%
+if ((%rand% < 10) && (%world.curobjs(20620)% < 3))
+  mload obj 20620
+elseif ((%rand% > 990) && (%world.curobjs(20621)% < 3))
+  mload obj 20621
+end
+~
+#20628
+одеваем тину~
+1 j 1
+~
+if %self.worn_by%
+  halt
+end
+wait 1
+%send% %actor% Мда, вонять вы теперь будете...
+%echoaround% %actor% %actor.name% издает неподражаемый запах гнилого болота.
 ~
 $~

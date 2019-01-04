@@ -15,7 +15,7 @@
 многих местах порван и запачкан кровью.
 ~
 d0B0 d0f0k0 600 E
-30 0 0 10d10+1000 1d1+1
+29 0 0 10d10+1000 1d1+1
 0d0+5000 200000
 6 6 1
 Str: 20
@@ -27,6 +27,7 @@ Cha: 20
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -51,7 +52,7 @@ T 66805
 увесистую булаву.
 ~
 b0c0d0g0l0n0o0A0 d0f0h0k0 -600 E
-31 2 -8 20d10+2000 9d15+10
+28 2 -8 20d10+2000 9d15+10
 10d11+300 150000
 8 8 1
 BareHandAttack: 5
@@ -65,6 +66,7 @@ Size: 100
 LikeWork: 55
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 150
 Special_Bitvector: b1c1 
@@ -76,12 +78,12 @@ T 66802
 L 66803 100 0 0
 #66802
 служанка девушка~
-Служанка~
-Служанки~
-Служанке~
-Служанку~
-Служанкой~
-Служанке~
+служанка~
+служанки~
+служанке~
+служанку~
+служанкой~
+служанке~
 Милая девушка-служанка в панике мечется по комнате.
 ~
    Красивая девушка с испуганным взглядом. Ее светлые длинные волосы сильно взъерошены.
@@ -101,6 +103,7 @@ Size: 50
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 120
 Special_Bitvector: b1c1 
@@ -142,9 +145,10 @@ E
 сидит устрашающий шлем с большими крыльями.
 ~
 b0c0d0e0f0g0l0m0n0o0A0 c0d0e0f0h0 -600 E
-40 1 -10 9d10+25000 3d8+8
+34 1 -10 9d10+25000 3d8+8
 0d0+100 700000
 8 8 1
+Saves: -22 -22 -22 -22
 Str: 25
 Dex: 26
 Int: 13
@@ -155,12 +159,13 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 200
 Special_Bitvector: a0b0c0d0e0f0b1c1C3 
 Skill: 12 120
 Skill: 22 100
-Skill: 136 80
+Skill: 136 120
 Skill: 137 110
 Skill: 142 80
 Skill: 143 60
@@ -170,7 +175,6 @@ Helper: 66810
 Helper: 66809
 Helper: 66808
 Helper: 66807
-Skill: 136 120
 E
 T 66806
 #66804
@@ -188,9 +192,10 @@ T 66806
 нескольких пальцев.
 ~
 b0c0d0g0l0m0n0o0A0 d0k0q1 -600 E
-31 1 -7 11d9+1500 8d9+8
+32 1 -7 11d9+1500 8d9+8
 0d0+50 500000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 32
 Dex: 20
 Int: 26
@@ -201,6 +206,7 @@ Size: 60
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 145
 Weight: 150
 Special_Bitvector: b1c1 
@@ -228,6 +234,7 @@ b0c0d0f0g0m0n0o0A0 d0f0r1 -600 E
 31 5 -9 8d15+1500 1d6+2
 12d14+900 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 22
 Dex: 17
 Int: 35
@@ -237,6 +244,7 @@ Cha: 26
 Size: 40
 LikeWork: 75
 Class: 102
+Race: 101
 Height: 145
 Weight: 110
 Special_Bitvector: b1c1 
@@ -271,7 +279,6 @@ Spell: 94
 Spell: 130
 E
 T 66809
-I кожа,15:5
 L 1413 15 0 0
 #66806
 лекарь синий накидка налетчик~
@@ -288,9 +295,10 @@ L 1413 15 0 0
 в кожаном переплете. На голове надета небольшая широкополая шляпа.
 ~
 b0c0d0g0l0m0n0o0A0 d0k0 -600 E
-33 3 -7 9d16+1000 1d5+1
+31 3 -7 9d16+1000 1d5+1
 0d0+10 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 19
 Dex: 23
 Int: 32
@@ -300,6 +308,7 @@ Cha: 14
 Size: 35
 LikeWork: 50
 Class: 102
+Race: 101
 Height: 170
 Weight: 150
 Special_Bitvector: b1c1 
@@ -336,9 +345,10 @@ T 66809
 Он сильно пьян, но все так же очень опасен.
 ~
 c0d0f0g0h0l0m0n0o0A0 d0h0k0s0t0 -600 E
-32 2 -10 11d10+1500 4d9+10
+31 2 -10 11d10+1500 4d9+10
 0d0+20 350000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 11
 Str: 29
 Dex: 28
@@ -350,6 +360,7 @@ Size: 70
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 150
 Special_Bitvector: g0b1c1 
@@ -381,9 +392,10 @@ I зубы,15:5
 очень надменно и важно. Его яркие одежды только подчеркивают его надменность.
 ~
 c0d0f0g0l0m0n0o0A0 d0h0k0r0C0 -600 E
-34 0 -10 10d10+2000 5d9+15
+32 0 -10 10d10+2000 5d9+15
 0d0+40 420000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 36
 Dex: 16
 Int: 20
@@ -394,6 +406,7 @@ Size: 100
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 130
 Weight: 150
 Special_Bitvector: b1c1 
@@ -424,9 +437,10 @@ E
 В руках он вертит длинный кинжал.
 ~
 c0d0f0g0l0m0n0o0A0 d0k0p1 -600 E
-31 0 -9 10d10+1500 3d9+10
+32 0 -9 10d10+1500 3d9+10
 0d0+25 420000
 8 8 1
+Saves: -14 -14 -14 -14
 BareHandAttack: 11
 Str: 25
 Dex: 35
@@ -438,6 +452,7 @@ Size: 35
 LikeWork: 14
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 110
 Special_Bitvector: a1b1c1 
@@ -475,9 +490,10 @@ T 66808
    Совсем молодой человек с ярко-голубыми глазами. Его светлые волосы торчат в разные стороны.
 ~
 c0d0f0g0h0l0m0n0o0A0 c0f0k0s0q1 -600 E
-29 2 -8 9d15+1000 4d8+10
+31 2 -8 9d15+1000 4d8+10
 0d0+30 370000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 29
 Dex: 24
 Int: 26
@@ -487,6 +503,7 @@ Size: 60
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 185
 Weight: 150
 Special_Bitvector: b1c1 
@@ -514,7 +531,7 @@ T 66808
 В руках он держит свою шапку, которою постоянно теребит.
 ~
 b0c0d0g0l0m0n0o0A0 d0k0u1 -600 E
-32 4 -8 12d13+800 3d7+10
+29 4 -8 12d13+800 3d7+10
 5d5+25 250000
 8 8 1
 Str: 24
@@ -526,6 +543,7 @@ Cha: 23
 Size: 50
 LikeWork: 15
 Class: 102
+Race: 101
 Height: 155
 Weight: 190
 Special_Bitvector: b1c1 
@@ -580,7 +598,7 @@ E
    Огромный как скала человек с колоссальной силой. Его доспехи сильно помяты. В руках он держит большой меч.
 ~
 b0c0d0e0g0l0m0n0o0A0 d0f0k0l1t1 -600 E
-37 0 -10 15d20+1800 4d8+11
+28 0 -10 15d20+1800 4d8+11
 0d0+40 150000
 8 8 1
 Str: 35
@@ -593,6 +611,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: a0b0c0d0e0f0b1c1C3 
@@ -617,7 +636,7 @@ T 66801
    Человек, полностью закованный в железо. Его шлем с огромными крылами выглядит довольно угрожающе. Через узкую прорезь видны полные ненависти глаза.
 ~
 b0c0d0f0g0l0m0n0o0A0 d0f0k0 -600 E
-31 0 -7 11d13+1200 3d5+10
+28 0 -7 11d13+1200 3d5+10
 0d0+25 150000
 8 8 1
 Str: 29
@@ -630,6 +649,7 @@ Size: 80
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 160
 Special_Bitvector: b1c1 

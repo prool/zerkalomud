@@ -820,6 +820,9 @@ detach 12221 %warrior2.id%
 detach 12222 %warrior2.id%
 attach 12221 %warrior2.id%
 wdoor 12270 n purge
+context 4000
+set fighterstory 0
+worlds fighterstory
 ~
 #12232
 Блокируем поднимание шапки~
@@ -827,8 +830,8 @@ wdoor 12270 n purge
 ~
 return 0
 wait 1
-oecho Наклонились вы, поднатужиллись - не смогли шапку малую поднять.
-oecho Лежит она, не сшевелится
+oecho Наклонились вы, поднатужились - не смогли шапку малую поднять.
+oecho Лежит она, не шевелится
 ~
 #12233
 Змей помер~

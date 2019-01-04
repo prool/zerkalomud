@@ -24,6 +24,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -60,6 +61,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 50
 Special_Bitvector: b1c1 
@@ -103,6 +105,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -149,6 +152,7 @@ Size: 50
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 50
 Special_Bitvector: y0 
@@ -187,6 +191,7 @@ LikeWork: 70
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0 
@@ -226,6 +231,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 50
 Special_Bitvector: a0b0d0y0C3 
@@ -263,6 +269,7 @@ Size: 50
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -301,6 +308,7 @@ Size: 60
 LikeWork: 55
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 50
 Special_Bitvector: g0b1c1C3 
@@ -341,6 +349,7 @@ Size: 50
 LikeWork: 55
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 75
 Special_Bitvector: b1c1 
@@ -383,6 +392,7 @@ Size: 50
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -396,7 +406,6 @@ Skill: 150 20
 Skill: 157 20
 E
 T 47703
-I кожа,10:6
 #47710
 богатырь~
 богатырь~
@@ -423,6 +432,7 @@ Size: 85
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 85
 Special_Bitvector: b1c1 
@@ -434,7 +444,6 @@ Skill: 137 30
 Skill: 158 120
 E
 T 47704
-I кости,10:6
 #47711
 дружинник~
 дружинник~
@@ -470,6 +479,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 195
 Weight: 80
 Special_Bitvector: b1c1C3 
@@ -519,6 +529,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 75
 Special_Bitvector: b1c1C3 
@@ -559,6 +570,7 @@ Size: 100
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b0y0 
@@ -599,6 +611,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: d0 
@@ -637,6 +650,7 @@ Size: 50
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 168
 Weight: 50
 Special_Bitvector: b1c1 
@@ -690,6 +704,7 @@ Size: 100
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -729,6 +744,7 @@ Size: 100
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -769,6 +785,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: B3 
@@ -804,6 +821,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -840,6 +858,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 120
 Weight: 50
 Special_Bitvector: 0 
@@ -878,6 +897,7 @@ Size: 50
 LikeWork: 15
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 150
 Weight: 85
 Special_Bitvector: y0 
@@ -909,6 +929,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: g0 
@@ -951,6 +972,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 50
 Special_Bitvector: b1c1 
@@ -994,6 +1016,7 @@ Size: 55
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 75
 Special_Bitvector: b1c1C3 
@@ -1029,6 +1052,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 77
 Special_Bitvector: b1c1C3 
@@ -1038,7 +1062,6 @@ Skill: 136 85
 Skill: 151 80
 E
 T 47709
-I кости,5:5
 #47726
 крестьянка женщина средних~
 крестьянка~
@@ -1065,6 +1088,7 @@ Size: 45
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 155
 Weight: 55
 Special_Bitvector: b1c1 
@@ -1101,6 +1125,7 @@ Size: 45
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 155
 Weight: 55
 Special_Bitvector: b1c1 
@@ -1136,6 +1161,7 @@ Size: 80
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -1184,6 +1210,7 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1218,6 +1245,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 100
 Special_Bitvector: b1c1 
@@ -1256,6 +1284,7 @@ Size: 45
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 60
 Special_Bitvector: 0 
@@ -1293,6 +1322,7 @@ Size: 50
 LikeWork: 35
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 120
 Weight: 70
 Special_Bitvector: p0B3 
@@ -1333,6 +1363,7 @@ Size: 50
 LikeWork: 14
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 110
 Weight: 65
 Special_Bitvector: 0 
@@ -1354,7 +1385,7 @@ I зубы,5:3
 ~
 b0d0o1 d0f0g0h0k0n1r1 600 E
 34 0 0 10d10+2 0d0+0
-0d0+1000 -10000
+0d0+5000 0
 8 8 1
 Str: 10
 Dex: 10
@@ -1365,6 +1396,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1383,7 +1415,7 @@ T 47728
 Никто не может точно сказать что это такое. Но кажется оно голодное.
 ~
 b0d0x0y0 d0f0k0A0 -600 E
-34 0 -10 10d10+5502 10d20+15
+34 0 -10 10d10+5502 10d10+15
 0d0+0 150000
 8 8 1
 BareHandAttack: 1
@@ -1397,6 +1429,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: a0 
@@ -1430,6 +1463,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 185
 Weight: 50
 Special_Bitvector: b0l0u0 
@@ -1465,6 +1499,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 185
 Weight: 50
 Special_Bitvector: b0l0v0 
@@ -1508,6 +1543,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 101
+Race: 101
 Height: 180
 Weight: 70
 Special_Bitvector: x0 
@@ -1545,6 +1581,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 101
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: w0 
@@ -1589,6 +1626,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: u0 
@@ -1639,6 +1677,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 175
 Weight: 85
 Special_Bitvector: l0 

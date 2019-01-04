@@ -1,0 +1,639 @@
+#96200
+жар птица~
+Жар-Птица~
+Жар-Птицы~
+Жар-Птице~
+Жар-Птицу~
+Жар-Птицой~
+Жар-Птице~
+Огромная огонь-птица сжигает все вокруг себя.
+~
+Перья этой птицы как будто охвачены пламенем.
+Ярчайший оранжево-красный свет заставляет вас щуриться.
+А нестерпимый жар напоминает вам полуденную пустыню.
+~
+d0l0t0a2 d0f0k0m0n0x0a1l1p1r1 0 E
+43 -5 -10 0d0+10000 20d10+0
+0d0+0 5000000
+8 8 2
+Saves: -58 -58 -58 -58
+Resistances: 100 0 -50 0 75 75 75
+Initiative: 30
+AResist: 30
+PResist: 30
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 50
+LikeWork: 100
+ExtraAttack: 2
+Class: 103
+Race: 103
+Height: 175
+Weight: 140
+Special_Bitvector: l0C3 
+Skill: 22 75
+Skill: 136 100
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Helper: 96221
+Helper: 96222
+Helper: 96208
+E
+T 96201
+T 96205
+T 96212
+#96201
+аспид~
+Аспид~
+Аспида~
+Аспиду~
+Аспида~
+Аспидом~
+Аспиде~
+Громадный змей мерно помахивает своими горящими крылами.
+~
+Чудовищный крылатый змей, который имеет птичий нос и два хобота, 
+крылья у него пестры и горят-переливаются, словно самоцветные камни.
+~
+b0d0f0l0m0 d0f0k0x0 -600 E
+41 0 -10 0d0+15000 30d10+0
+0d0+0 3000000
+8 8 1
+Saves: -50 -50 -50 -50
+CastSuccess: 40
+Str: 33
+Dex: 30
+Int: 20
+Wis: 20
+Con: 30
+Size: 50
+LikeWork: 100
+ExtraAttack: 4
+Class: 103
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: l0 
+Skill: 136 100
+Skill: 160 150
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 56
+Spell: 56
+Helper: 96103
+E
+T 96211
+#96202
+гарцук горный дух~
+гарцук~
+гарцука~
+гарцуку~
+гарцука~
+гарцуком~
+гарцуке~
+Горный дух поджидает неосторожного путника.
+~
+Дух, обитающий в горах и подвластный Перуну.
+Он может обратиться в хищную птицу и быстрыми взмахами крыльев породить бури и ураганы.
+~
+d0e0f0l0m0 d0f0k0x0 -600 E
+33 -5 -10 0d0+6000 20d20+0
+0d0+0 600000
+8 8 1
+Saves: -40 -40 -40 -40
+Resistances: 0 50 0 0 50 50 50
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 50
+ExtraAttack: 1
+Class: 102
+Race: 112
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 136 100
+E
+T 96204
+#96203
+гриф птица~
+гриф-птица~
+гриф-птицы~
+гриф-птице~
+гриф-птицу~
+гриф-птицой~
+гриф-птице~
+Полузверь-полуптица точит о камни свои острые когти.
+~
+Наполовину птица (голова и крылья у него орлиные), наполовину зверь (туловище и ноги льва).
+Перья у этого птицезверя заострены, как стрелы; когти и клюв у него - железные. 
+Величиною он - с гору. Подобно тучам, заволакивающим небо, она затемняет со-бою весь белый свет. 
+От взмаха крыльев вздымается буря.
+~
+d0f0l0m0 d0k0x0 -600 E
+33 -3 -15 0d0+4000 20d20+0
+0d0+0 600000
+8 8 2
+Saves: -18 -18 -18 -18
+BareHandAttack: 2
+Str: 25
+Dex: 30
+Int: 15
+Wis: 15
+Con: 25
+Size: 50
+LikeWork: 100
+ExtraAttack: 1
+Class: 103
+Race: 103
+Height: 175
+Weight: 140
+Special_Bitvector: l0 
+Skill: 136 100
+Skill: 157 150
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+E
+#96204
+медная птица~
+медная птица~
+медной птицы~
+медной птице~
+медную птицу~
+медной птицей~
+медной птице~
+Медная птица блаженно греется на теплых камнях.
+~
+Перья ее переливаются медным отливом.
+~
+c0d0l0m0t0A0 d0k0x0 -600 E
+34 0 -5 0d0+5000 15d20+0
+0d0+0 650000
+8 8 2
+Saves: -22 -22 -22 -22
+Resistances: 0 100 0 0 50 75 0
+BareHandAttack: 2
+Str: 25
+Dex: 25
+Int: 37
+Wis: 25
+Con: 25
+Size: 50
+LikeWork: 99
+ExtraAttack: 1
+Class: 103
+Race: 103
+Height: 175
+Weight: 140
+Special_Bitvector: l0b1 
+Skill: 130 130
+Skill: 136 100
+Skill: 145 130
+E
+T 96206
+T 96202
+#96205
+гарцук птица~
+гарцук-птица~
+гарцук-птицы~
+гарцук-птице~
+гарцук-птицу~
+гарцук-птицой~
+гарцук-птице~
+Разъяренный гарцук обратился в птицу.
+~
+Разъяренный гарцук обратился в птицу.
+~
+d0f0l0m0t0 d0f0k0x0 -600 E
+33 -15 10 0d0+6000 25d30+20
+0d0+0 600000
+8 8 1
+Saves: -60 -18 -18 -18
+Resistances: 0 60 0 0 30 50 30
+BareHandAttack: 1
+Str: 28
+Dex: 28
+Int: 28
+Wis: 28
+Con: 28
+Cha: 28
+Size: 50
+LikeWork: 100
+ExtraAttack: 2
+Class: 103
+Race: 103
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+E
+T 96203
+#96206
+сребряная птица~
+сребряная птица~
+сребряной птицы~
+сребряной птице~
+сребряную птицу~
+сребряной птицой~
+сребряной птице~
+Сребряная птица блаженно греется на теплых камнях.
+~
+Перья ее переливаются серебряным отливом.
+~
+d0f0l0m0q0 d0k0x0 -600 E
+35 0 -7 0d0+6000 20d20+0
+0d0+0 800000
+8 8 2
+Saves: -30 -30 -30 -30
+Resistances: 0 100 0 0 50 50 0
+CastSuccess: 60
+BareHandAttack: 2
+Str: 27
+Dex: 27
+Int: 27
+Wis: 27
+Con: 27
+Cha: 27
+Size: 50
+LikeWork: 100
+ExtraAttack: 1
+Class: 103
+Race: 103
+Height: 175
+Weight: 140
+Special_Bitvector: a0b0c0d0l0 
+Skill: 1 100
+Skill: 131 125
+Skill: 136 100
+Skill: 137 100
+Skill: 167 50
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 48
+Spell: 48
+Spell: 48
+E
+T 96208
+#96207
+златая птица~
+златая птица~
+златой птицы~
+златой птице~
+златую птицу~
+златой птицой~
+златой птице~
+Златая птица блаженно греется на теплых камнях.
+~
+Перья ее переливаются златым отливом.
+~
+d0f0l0m0t1 d0h0k0x0t1 123 E
+36 -10 2 0d0+7000 20d25+0
+0d0+0 1000000
+8 8 2
+Saves: -40 -40 -40 -40
+Resistances: 0 0 0 0 15 15 15
+Initiative: 20
+BareHandAttack: 15
+Str: 26
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 50
+LikeWork: 100
+ExtraAttack: 2
+Class: 103
+Race: 103
+Height: 175
+Weight: 140
+Special_Bitvector: a0b0c0d0l0 
+Skill: 5 120
+Skill: 21 120
+Skill: 136 100
+Skill: 167 60
+Spell: 82
+Spell: 82
+E
+T 96207
+T 96213
+#96208
+птах~
+птах~
+птаха~
+птаху~
+птаха~
+птахом~
+птахе~
+Птах пришел на помощь Жар-птице.
+~
+Птах, пришедший на помощь Жар-птице.
+~
+b0d0l0m0 d0f0k0 -600 E
+31 -5 0 1d100+4000 15d15+10
+0d0+0 400000
+8 8 1
+Saves: -10 -10 -10 -10
+BareHandAttack: 15
+Str: 26
+Dex: 26
+Int: 26
+Wis: 26
+Con: 26
+Cha: 26
+Size: 30
+LikeWork: 100
+ExtraAttack: 1
+Class: 103
+Race: 103
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Spell: 48
+Spell: 48
+E
+#96209
+златая птица~
+златая птица~
+златой птицы~
+златой птице~
+златую птицу~
+златой птицей~
+златой птице~
+Златая птица блаженно греется на теплых камнях.
+~
+Перья ее переливаются златым отливом.
+~
+d0f0l0m0t1a2 d0h0k0x0t1 -600 E
+36 -10 2 1d100+7000 20d17+0
+0d0+0 1000000
+8 8 2
+Saves: -100 -40 -40 -40
+Resistances: 0 0 0 0 -15 -15 -15
+Initiative: 20
+BareHandAttack: 15
+Str: 26
+Dex: 30
+Int: 30
+Wis: 26
+Con: 30
+Cha: 30
+Size: 30
+LikeWork: 100
+ExtraAttack: 2
+Class: 103
+Race: 103
+Height: 198
+Weight: 200
+Special_Bitvector: a0b0c0d0l0 
+Skill: 5 120
+Skill: 21 120
+Skill: 136 100
+Skill: 167 60
+Spell: 82
+Spell: 82
+E
+T 96207
+T 96213
+#96210
+самовила~
+самовила~
+самовилы~
+самовиле~
+самовилу~
+самовилой~
+самовиле~
+Стройная самовила легко, как тень, летает по воздуху.
+~
+Стройная молодая девушка с растрепанными светлыми волосами. Говорят, самовилы рождаются от утренней росы,
+и обитают они в удаленных от людей местах - в скалах, горных пещерах, под землей.
+~
+d0e0f0m0p0r0t0b1w1 d0f0k0x0 -600 E
+32 10 0 1d100+200 1d1+10
+0d25000+0 500000
+8 8 2
+Saves: -14 -14 -14 -14
+PlusMem: 100
+CastSuccess: 100
+AResist: 95
+PResist: 98
+BareHandAttack: 2
+Str: 20
+Dex: 20
+Int: 40
+Wis: 40
+Con: 20
+Cha: 15
+Size: 30
+LikeWork: 100
+Class: 102
+Race: 101
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+E
+#96221
+ небесный Карс~
+небесный Карс~
+небесного Карса~
+небесному Карсу~
+небесного Карса~
+небесным Карсом~
+небесном Карсе~
+Птица гигантских размеров Карс, осматривается в поисках жертвы.
+~
+ Крылатая птица гигантских размеров с человеческой
+головой и большим клювом; позади рук с длинными
+когтями растут у Карса два мощных крыла.
+~
+b0d0f0g0m0n0o0p0t0x0b1 d0f0k0x0m1 -600 E
+33 15 -10 50d10+4500 10d3+10
+0d0+1000 600000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 30 50 30 30 0 50 7
+Armour: 50
+CastSuccess: 50
+Success: 7
+Initiative: 3
+AResist: 40
+BareHandAttack: 2
+Str: 25
+Dex: 20
+Int: 20
+Wis: 30
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 100
+MaxFactor: 15
+ExtraAttack: 1
+Class: 103
+Race: 103
+Height: 190
+Weight: 150
+Special_Bitvector: l0 
+Feat: 3
+Feat: 56
+Feat: 58
+Skill: 5 80
+Skill: 136 100
+Skill: 150 80
+Skill: 151 80
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 79
+Spell: 79
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 124
+Spell: 124
+Spell: 144
+Helper: 96222
+E
+T 96209
+#96222
+ птица Кахка~
+птица Кахка~
+птицы Кахка~
+птице Кахка~
+птицу Кахка~
+птицей Кахка~
+птице Кахка~
+Большая красивая птица Кахка, кружит над землей.
+~
+ Птица Кахка - большая чудесная птица с огромными крыльями.
+~
+b0c0d0f0g0m0n0o0p0x0A0 d0f0k0x0m1 -600 E
+34 0 -10 50d10+5750 5d3+20
+0d0+0 750000
+8 8 2
+Saves: -22 -22 -22 -22
+Resistances: 30 30 30 40 40 40 40
+CastSuccess: 15
+Success: 10
+Initiative: 3
+AResist: 50
+BareHandAttack: 12
+Str: 27
+Dex: 18
+Int: 25
+Wis: 25
+Con: 30
+Cha: 27
+Size: 55
+LikeWork: 100
+MaxFactor: 15
+ExtraAttack: 2
+Class: 103
+Race: 103
+Height: 198
+Weight: 100
+Special_Bitvector: l0 
+Feat: 3
+Feat: 6
+Feat: 56
+Feat: 58
+Feat: 59
+Skill: 5 80
+Skill: 22 80
+Skill: 132 120
+Skill: 136 100
+Skill: 141 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 150 100
+Skill: 154 100
+Skill: 155 60
+Skill: 157 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 68
+Spell: 68
+Spell: 94
+Spell: 118
+Helper: 96221
+E
+$

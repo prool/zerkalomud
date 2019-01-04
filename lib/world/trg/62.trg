@@ -29,12 +29,12 @@ switch %random.10%
   case 1
     case 2
       osend %actor% Осмотрев сундук, Вы заметили внутри странный предмет, обледеневшую пластину.
-      oechoaround %actor.name% наш%actor.g% обледеневшую табличку.
+      oechoaround %actor% %actor.name% наш%actor.g% обледеневшую табличку.
       oload obj 517
     break
     case 3
       osend %actor% Осмотрев сундук, Вы нашли внутри старую книгу.
-      oechoaround %actor.name% наш%actor.g% в судуке старую книгу.
+      oechoaround %actor% %actor.name% наш%actor.g% в судуке старую книгу.
       oload obj 1712
     break
   done

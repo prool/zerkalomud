@@ -244,8 +244,8 @@ if (%exist.mob(37925)% || %exist.mob(37925)%)
   wait 1
   halt
 else
-  mecho О, змеи всетаки были убиты. Здорово!
-  if ((%world.curobjs(3328)% < 1) && (%random.1000% < 100))
+  mecho О, змеи все-таки были убиты. Здорово!
+  if ((%world.curobjs(3328)% < 1) && (%random.1000% < 60))
     mload obj 3328
     mecho Вот, возьми. Мне она уже не потребуется.
     взд

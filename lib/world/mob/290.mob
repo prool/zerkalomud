@@ -24,6 +24,7 @@ Cha: 3
 Size: 10
 LikeWork: 95
 Class: 103
+Race: 104
 Height: 198
 Weight: 2
 Special_Bitvector: l0 
@@ -56,6 +57,7 @@ Size: 10
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 105
 Height: 198
 Weight: 2
 Special_Bitvector: 0 
@@ -92,6 +94,7 @@ Cha: 3
 Size: 12
 LikeWork: 90
 Class: 103
+Race: 105
 Height: 198
 Weight: 2
 Special_Bitvector: g0m0 
@@ -119,6 +122,8 @@ BareHandAttack: 9
 Dex: 30
 Con: 20
 Size: 100
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: j0A0B0 
@@ -149,6 +154,8 @@ b0d0m0n0 b0f0i0k0 -50 E
 Int: 30
 Wis: 30
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: j0 
@@ -179,6 +186,8 @@ b0d0m0n0 i0k0t0 -80 E
 Str: 35
 Con: 35
 Size: 100
+Class: 100
+Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: j0A0B0 
@@ -204,6 +213,7 @@ d0f0 d0f0k0r0x0 -20 E
 BareHandAttack: 15
 Size: 30
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

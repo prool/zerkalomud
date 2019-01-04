@@ -13,9 +13,10 @@
 тому, кто побеспокоит его!
 ~
 d0f0g0l0m0n0o0 d0k0r0s0t0A0o1x1 -600 E
-37 4 1 25d80+5500 9d6+12
+31 4 1 25d80+5500 9d6+12
 0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 34
 Dex: 35
 Int: 21
@@ -26,6 +27,7 @@ Size: 40
 LikeWork: 85
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 140
 Weight: 125
 Special_Bitvector: g0m0 
@@ -100,9 +102,10 @@ E
 встреча с этим змием для путника заканчивается плачевно. 
 ~
 d0f0g0n0o0q0 d0k0r0s0t0z0A0 -600 E
-30 -4 -4 55d50+6500 10d10+20
+31 -4 -4 55d50+6500 10d10+20
 0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 4
 Str: 30
 Dex: 26
@@ -114,6 +117,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 112
 Height: 85
 Weight: 90
 Special_Bitvector: g0m0C3 
@@ -148,7 +152,7 @@ E
 уже способны вспороть не очень хороший доспех.
 ~
 d0f0g0h0n0o0q1 d0k0n0p0r0s0t0z0r1 -600 E
-34 -6 1 25d60+4000 10d10+25
+30 -6 1 25d60+4000 10d10+25
 0d0+0 280000
 8 8 1
 Str: 31
@@ -161,6 +165,7 @@ Size: 60
 LikeWork: 40
 ExtraAttack: 3
 Class: 103
+Race: 105
 Height: 120
 Weight: 120
 Special_Bitvector: g0m0C3 
@@ -197,9 +202,10 @@ E
 Он с легкостью может вбить Вас в землю по самые уши.
 ~
 b0c0d0f0g0n0o0A0 d0k0 -600 E
-42 0 0 60d85+9850 10d15+50
+35 0 0 60d85+9850 10d15+50
 20d40+0 850000
 8 8 1
+Saves: -26 -26 -26 -26
 Str: 36
 Dex: 3
 Int: 3
@@ -210,6 +216,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 100
+Race: 114
 Height: 185
 Weight: 150
 Special_Bitvector: w0b1c1C3 
@@ -239,9 +246,10 @@ E
 встреча с этим змием для путника заканчивается плачевно. 
 ~
 c0d0f0g0h0n0q0A0 h0k0p0t0z0q1r1 -600 E
-39 0 -8 55d50+12500 13d14+45
+35 0 -8 55d50+12500 13d14+45
 20d25+2450 850000
 8 8 1
+Saves: -26 -26 -26 -26
 BareHandAttack: 4
 Str: 35
 Dex: 29
@@ -252,6 +260,7 @@ Cha: 21
 Size: 50
 LikeWork: 40
 Class: 103
+Race: 112
 Height: 85
 Weight: 90
 Special_Bitvector: C3 
@@ -294,7 +303,7 @@ E
 бродягой.
 ~
 c0d0f0g0h0t0A0 d0k0t0z0m1z1 -600 E
-37 -7 -4 50d30+3500 8d8+16
+30 -7 -4 50d30+3500 8d8+16
 10d10+90 270000
 8 8 1
 AResist: 25
@@ -309,6 +318,7 @@ Size: 55
 LikeWork: 80
 ExtraAttack: 4
 Class: 102
+Race: 101
 Height: 149
 Weight: 91
 Special_Bitvector: i0b1c1 
@@ -349,10 +359,10 @@ E
 и проклятия, а руки изгибаются в странных жестах.
 ~
 b0c0d0g0l0m0n0o0A0 d0f0k0m0n0r0z0A0C0a1m1r1 -600 E
-40 0 10 50d60+9000 5d7+15
+43 0 10 50d60+9000 5d7+15
 0d0+0 5000000
 8 8 1
-Saves: 70 0 70 0
+Saves: -58 -58 -58 -58
 Resistances: 0 0 100 100 30 0 0
 HPreg: 30
 Armour: 60
@@ -368,6 +378,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: C3 
@@ -459,9 +470,10 @@ T 95437
 могут накрыть собой пару всадников вместе с лошадьми.
 ~
 b0d0f0g0q0q1 d0k0t0z0q1r1z1 -600 E
-37 4 -6 50d50+3500 8d11+35
+33 4 -6 50d50+3500 8d11+35
 15d30+0 600000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 1
 Str: 33
 Dex: 20
@@ -473,6 +485,7 @@ Size: 50
 LikeWork: 55
 ExtraAttack: 3
 Class: 103
+Race: 112
 Height: 85
 Weight: 90
 Special_Bitvector: g0l0 
@@ -529,9 +542,10 @@ E
 гиганта содрогается земля, а окрестные скалы отзываются эхом.
 ~
 d0e0f0g0n0o0p0q0t0 d0f0k0r0z0A0C0a1m1o1r1t1 -600 E
-40 -4 5 50d50+6500 5d10+25
+37 -4 5 50d50+6500 5d10+25
 0d0+0 1400000
 8 8 1
+Saves: -34 -34 -34 -34
 BareHandAttack: 6
 Str: 36
 Dex: 27
@@ -543,6 +557,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 100
+Race: 109
 Height: 200
 Weight: 150
 Special_Bitvector: C3 
@@ -576,7 +591,7 @@ E
 кто приблизится к его пещере.
 ~
 b0d0g0m0q0r0u0 d0k0 -600 E
-30 1 1 50d50+2500 5d10+20
+29 1 1 50d50+2500 5d10+20
 0d0+0 200000
 8 8 1
 BareHandAttack: 4
@@ -590,6 +605,7 @@ Size: 35
 LikeWork: 60
 ExtraAttack: 2
 Class: 103
+Race: 105
 Height: 60
 Weight: 55
 Special_Bitvector: m0 
@@ -621,7 +637,7 @@ E
 смотрит на вас налитыми кровью глазками.
 ~
 d0f0g0n0o0q1 d0k0r0 -600 E
-35 -6 2 20d80+5400 10d12+25
+30 -6 2 20d80+5400 10d12+25
 0d0+0 280000
 8 8 1
 BareHandAttack: 14
@@ -635,6 +651,7 @@ Size: 60
 LikeWork: 85
 ExtraAttack: 3
 Class: 103
+Race: 104
 Height: 110
 Weight: 128
 Special_Bitvector: p0 
@@ -659,9 +676,10 @@ E
 шерсти глаза не оставляют сомнения в намерениях их обладателя.
 ~
 b0d0f0n0o0t0 d0f0k0r0A0m1 -600 E
-50 2 -10 50d60+9000 10d18+20
+37 2 -10 50d60+9000 10d18+20
 0d0+0 1200000
 8 8 1
+Saves: -34 -34 -34 -34
 BareHandAttack: 1
 Str: 36
 Dex: 30
@@ -673,6 +691,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 3
 Class: 103
+Race: 104
 Height: 200
 Weight: 139
 Special_Bitvector: B3 
@@ -727,9 +746,10 @@ E
    Длинный змей, покрытый броней из серый чешуек.
 ~
 d0f0g0 k0 -600 E
-40 0 -8 30d70+4000 10d11+60
+31 0 -8 30d70+4000 10d11+60
 0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 4
 Str: 34
 Dex: 20
@@ -740,6 +760,7 @@ Cha: 8
 Size: 60
 LikeWork: 95
 Class: 103
+Race: 105
 Height: 200
 Weight: 70
 Special_Bitvector: m0 
@@ -759,9 +780,10 @@ E
    Огромный серый змей с тремя головами и длинными, с локоть когтями.
 ~
 b0d0f0g0t0A0 d0k0A0p1y1 -600 E
-44 -3 -10 50d80+7800 12d12+30
+34 -3 -10 50d80+7800 12d12+30
 0d0+0 680000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 4
 Str: 36
 Dex: 5
@@ -773,6 +795,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 2
 Class: 103
+Race: 105
 Height: 200
 Weight: 150
 Special_Bitvector: C3 
@@ -809,10 +832,10 @@ E
 с черепом.
 ~
 d0e0f0g0l0m0n0t0z0A0 d0f0k0m0n0r0x0A0D0q1 -600 E
-35 4 -6 50d30+4500 5d5+10
+33 4 -6 50d30+4500 5d5+10
 0d0+0 600000
 8 8 1
-Saves: 100 0 100 0
+Saves: -18 -18 -18 -18
 CastSuccess: 80
 BareHandAttack: 2
 Str: 20
@@ -824,6 +847,7 @@ Cha: 3
 Size: 55
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 160
 Weight: 50
 Special_Bitvector: l0 
@@ -881,9 +905,10 @@ E
 огоньки посверкивают в глубине пустых глазниц.
 ~
 c0d0e0f0g0m0n0o0z0A0 d0f0k0m0z0A0w1 -600 E
-37 -6 -5 50d50+2500 5d10+16
+31 -6 -5 50d50+2500 5d10+16
 30d10+300 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 3
 Str: 34
 Dex: 23
@@ -895,6 +920,7 @@ Size: 55
 LikeWork: 40
 ExtraAttack: 3
 Class: 101
+Race: 110
 Height: 170
 Weight: 60
 Special_Bitvector: b1B3 
@@ -928,7 +954,7 @@ guard95401 грозовой хранитель окутанный молниями~
 черным грозовым туманом, пронизанным вспышками молний.
 ~
 b0d0g0l0m0n0o0z0 d0f0k0m0n0x0A0C0m1o1 -600 E
-35 3 -4 20d50+2000 13d10+20
+30 3 -4 20d50+2000 13d10+20
 0d0+0 300000
 8 8 1
 AResist: 20
@@ -943,6 +969,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 3
 Class: 100
+Race: 114
 Height: 100
 Weight: 50
 Special_Bitvector: d0 
@@ -995,6 +1022,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1015,7 +1043,7 @@ T 95405
 в когтях человека. Удар его клюва подобен удару молнии.
 ~
 d0f0g0m0n0o0 d0k0m0n0r0x0z0A0m1o1 -600 E
-40 -4 -2 20d50+3000 10d12+20
+29 -4 -2 20d50+3000 10d12+20
 0d0+0 250000
 8 8 1
 BareHandAttack: 1
@@ -1029,6 +1057,7 @@ Size: 95
 LikeWork: 45
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 130
 Weight: 140
 Special_Bitvector: l0u0 
@@ -1062,9 +1091,10 @@ L 95440 100 0 0
 и перепончатыми крыльями.
 ~
 b0c0d0f0g0n0o0t0A0 d0k0x0A0o1x1 -600 E
-41 -5 -8 20d50+3000 8d10+20
+31 -5 -8 20d50+3000 8d10+20
 0d0+0 360000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 1
 Str: 33
 Dex: 22
@@ -1076,6 +1106,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 2
 Class: 103
+Race: 105
 Height: 200
 Weight: 115
 Special_Bitvector: l0C3 
@@ -1112,9 +1143,10 @@ E
    Очень странное существо, похожее на простою тучу пыль.
 ~
 d0f0g0q0i2 d0k0p0r0t0x0A0x1 -600 E
-39 0 -8 45d50+1500 10d10+0
+31 0 -8 45d50+1500 10d10+0
 15d25+120 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 20
 Dex: 36
 Int: 14
@@ -1125,6 +1157,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 2
 Class: 103
+Race: 111
 Height: 200
 Weight: 115
 Special_Bitvector: l0C3 
@@ -1163,9 +1196,10 @@ E
 кто приблизится к его пещере.
 ~
 b0d0f0g0q0r0u0b2 k0t0z0z1 -600 E
-37 3 -6 55d50+5950 8d11+5
+33 3 -6 55d50+5950 8d11+5
 15d30+0 550000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 1
 Str: 33
 Dex: 35
@@ -1177,6 +1211,7 @@ Size: 50
 LikeWork: 55
 ExtraAttack: 3
 Class: 103
+Race: 112
 Height: 85
 Weight: 90
 Special_Bitvector: 0 
@@ -1224,9 +1259,10 @@ E
 и он сильнее сотни орлов.
 ~
 b0d0f0g0m0n0o0q1 d0k0x0z0A0 -600 E
-42 -5 5 55d30+3500 10d10+10
+36 -5 5 55d30+3500 10d10+10
 0d0+0 1000000
 8 8 1
+Saves: -30 -30 -30 -30
 BareHandAttack: 1
 Str: 30
 Dex: 35
@@ -1238,6 +1274,7 @@ Size: 95
 LikeWork: 45
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 200
 Weight: 145
 Special_Bitvector: C3 
@@ -1267,9 +1304,10 @@ E
 поисках наживы.
 ~
 c0d0f0g0h0A0 d0k0p0t0z0r1x1z1 -600 E
-37 -7 -10 45d50+5000 10d11+35
+33 -7 -10 45d50+5000 10d11+35
 12d15+90 570000
 8 8 1
+Saves: -18 -18 -18 -18
 AResist: 25
 Str: 34
 Dex: 30
@@ -1281,6 +1319,7 @@ Size: 55
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 149
 Weight: 91
 Special_Bitvector: b1c1d1 
@@ -1320,9 +1359,10 @@ E
 на вас восемью красными глазами, жаждуще перебирая лапами.
 ~
 d0f0g0l0m0n0o0t0f2 d0k0s0t0A0m1 -600 E
-40 0 -8 30d50+4000 8d10+20
+32 0 -8 30d50+4000 8d10+20
 0d0+0 500000
 8 8 1
+Saves: -14 -14 -14 -14
 BareHandAttack: 4
 Str: 34
 Dex: 26
@@ -1334,6 +1374,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 4
 Class: 103
+Race: 107
 Height: 200
 Weight: 120
 Special_Bitvector: p0B3 
@@ -1366,9 +1407,10 @@ E
 перекусить человека напополам.
 ~
 b0d0f0g0n0o0t0A0p1 d0f0k0m0n0r0A0C0r1y1 -600 E
-50 -7 -6 100d50+10000 8d10+20
+45 -7 -6 100d50+10000 8d10+20
 0d0+0 7000000
 8 8 1
+Saves: -66 -66 -66 -66
 BareHandAttack: 1
 Str: 36
 Dex: 30
@@ -1380,6 +1422,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 7
 Class: 103
+Race: 107
 Height: 200
 Weight: 150
 Special_Bitvector: c0C3 
@@ -1435,9 +1478,10 @@ T 95428
 тому, кто побеспокоит его!
 ~
 c0d0f0g0n0o0u0A0 k0s0A0j1x1 -600 E
-37 0 -10 95d85+8500 11d13+35
+34 0 -10 95d85+8500 11d13+35
 15d25+0 750000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 1
 Str: 34
 Dex: 35
@@ -1449,6 +1493,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 103
+Race: 105
 Height: 200
 Weight: 125
 Special_Bitvector: m0c1C3 
@@ -1507,7 +1552,7 @@ E
 кружится и извивается тут.
 ~
 d0f0g0n0q0z0r1t1g2 d0k0p0r0t0x0A0x1 -600 E
-39 0 -8 50d20+2000 10d6+20
+29 0 -8 50d20+2000 10d6+20
 15d25+120 250000
 8 8 1
 BareHandAttack: 2
@@ -1521,6 +1566,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 2
 Class: 103
+Race: 111
 Height: 200
 Weight: 115
 Special_Bitvector: l0C3 
@@ -1562,9 +1608,10 @@ E
 Он с легкостью может вбить Вас в землю по самые уши.
 ~
 b0c0d0f0g0n0o0A0 d0k0 -600 E
-42 0 0 60d85+9850 10d15+50
+35 0 0 60d85+9850 10d15+50
 20d40+0 795000
 8 8 1
+Saves: -26 -26 -26 -26
 Str: 36
 Dex: 3
 Int: 3
@@ -1575,6 +1622,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 100
+Race: 114
 Height: 185
 Weight: 150
 Special_Bitvector: w0b1c1C3 
@@ -1606,7 +1654,7 @@ E
 нечисть, а бывало сам напускал порчу.
 ~
 c0d0f0g0n0o0t0A0 d0k0r0z0D0p1 -600 E
-45 0 0 60d30+4000 5d4+10
+30 0 0 60d30+4000 5d4+10
 50d60+50 300000
 8 8 1
 Str: 36
@@ -1619,6 +1667,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 185
 Weight: 150
 Special_Bitvector: b1c1C3 
@@ -1672,9 +1721,10 @@ T 95439
    Большой горный баран, с большими, смертоносными рогами.
 ~
 d0f0g0 k0 -600 E
-35 -6 -7 15d55+5400 20d25+80
+32 -6 -7 15d55+5400 20d25+80
 0d0+0 500000
 8 8 1
+Saves: -14 -14 -14 -14
 BareHandAttack: 14
 Str: 35
 Dex: 35
@@ -1685,6 +1735,7 @@ Cha: 14
 Size: 87
 LikeWork: 80
 Class: 103
+Race: 104
 Height: 91
 Weight: 128
 Special_Bitvector: p0 
@@ -1706,9 +1757,10 @@ E
 Он с легкостью может вбить Вас в землю по самые уши.
 ~
 b0c0d0f0g0n0o0A0 d0k0 -600 E
-42 0 0 60d85+9850 10d15+50
+35 0 0 60d85+9850 10d15+50
 20d40+0 795000
 8 8 1
+Saves: -26 -26 -26 -26
 Str: 36
 Dex: 3
 Int: 3
@@ -1719,6 +1771,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 100
+Race: 114
 Height: 185
 Weight: 150
 Special_Bitvector: w0b1c1C3 
@@ -1747,9 +1800,10 @@ E
 даже бывалых колдунов и волшебников.
 ~
 b0c0d0f0g0n0o0A0 d0k0p1 -600 E
-45 0 0 60d85+3000 10d15+5
+31 0 0 60d85+3000 10d15+5
 20d40+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 36
 Dex: 3
 Int: 3
@@ -1760,6 +1814,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 185
 Weight: 150
 Special_Bitvector: w0b1c1C3 
@@ -1809,7 +1864,7 @@ E
    Обычный человеческий скелет. Вот только ходячий и смертельно опасный !
 ~
 c0d0e0g0r0z0A0 d0j0k0m0p0z0A0w1 -600 E
-37 2 -5 45d55+1450 5d20+15
+30 2 -5 45d55+1450 5d20+15
 0d0+0 300000
 8 8 1
 Str: 34
@@ -1822,6 +1877,7 @@ Size: 55
 LikeWork: 90
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 170
 Weight: 60
 Special_Bitvector: 0 
@@ -1843,7 +1899,7 @@ E
 Бежавший с рудников раб, куда опаснее самого злого зверя.
 ~
 c0d0f0g0h0n0o0A0q1 d0k0p0r0s0t0z0r1 -600 E
-37 -7 -4 20d50+2000 8d9+20
+30 -7 -4 20d50+2000 8d9+20
 12d15+90 310000
 8 8 1
 Success: 10
@@ -1860,6 +1916,7 @@ Size: 55
 LikeWork: 45
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 149
 Weight: 91
 Special_Bitvector: b1c1d1 
@@ -1898,9 +1955,10 @@ E
 Он с легкостью может вбить Вас в землю по самые уши.
 ~
 b0c0d0g0n0o0q0r0u0A0i2 d0f0h0k0r0A0C0m1q1r1t1 -600 E
-42 0 0 60d85+18000 10d15+100
+37 0 0 60d85+18000 10d15+100
 20d40+0 1200000
 8 8 1
+Saves: -34 -34 -34 -34
 Str: 36
 Dex: 35
 Int: 34
@@ -1911,6 +1969,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 185
 Weight: 150
 Special_Bitvector: a0b0c0d0e0f0w0b1c1C3 
@@ -1962,9 +2021,10 @@ T 95412
 одной из рук у него торчит обломок кости.
 ~
 d0e0f0g0m0n0o0z0 d0f0k0m0z0A0w1 -600 E
-37 2 -5 50d50+6000 6d5+5
+36 2 -5 50d50+6000 6d5+5
 30d10+300 1000000
 8 8 1
+Saves: -30 -30 -30 -30
 BareHandAttack: 3
 Str: 22
 Dex: 23
@@ -1975,6 +2035,7 @@ Cha: 4
 Size: 55
 LikeWork: 95
 Class: 105
+Race: 110
 Height: 170
 Weight: 60
 Special_Bitvector: C3 
@@ -2004,9 +2065,10 @@ E
 в глазницах черепа между пустых ребер.
 ~
 d0f0l0m0n0o0t0z0 d0f0k0r0p1 -600 E
-35 14 -8 50d10+2000 6d6+9
+34 14 -8 50d10+2000 6d6+9
 10d20+50 750000
 8 8 1
+Saves: -22 -22 -22 -22
 Resistances: 0 0 100 100 0 75 0
 CastSuccess: 60
 AResist: 30
@@ -2020,6 +2082,7 @@ Size: 50
 LikeWork: 65
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2070,9 +2133,10 @@ E
 проворством.
 ~
 d0e0f0l0m0n0o0z0q1l2 d0f0k0r0t0z0A0m1 -600 E
-28 -8 -8 10d50+1000 6d10+10
+33 -8 -8 10d50+1000 6d10+10
 20d10+100 600000
 8 8 1
+Saves: -18 -18 -18 -18
 CastSuccess: 40
 Success: 20
 Initiative: 10
@@ -2086,6 +2150,7 @@ Cha: 3
 Size: 40
 ExtraAttack: 3
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: p0C3 
@@ -2114,9 +2179,10 @@ T 95416
 алыми пятнами крови.
 ~
 b0d0f0g0m0n0o0t0 d0f0k0x0z0A0 -600 E
-42 0 5 50d20+3000 4d10+10
+34 0 5 50d20+3000 4d10+10
 0d0+0 750000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 1
 Str: 18
 Dex: 35
@@ -2128,6 +2194,7 @@ Size: 95
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 200
 Weight: 145
 Special_Bitvector: u0C3 
@@ -2192,7 +2259,7 @@ E
 медвежонок с густой черной шерстью.
 ~
 b0d0f0l0m0n0o0t0 c0f0k0r0A0C0m1 -600 E
-30 0 -10 50d10+2000 6d5+15
+28 0 -10 50d10+2000 6d5+15
 0d0+0 160000
 8 8 1
 Str: 25
@@ -2205,6 +2272,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b0 
@@ -2241,6 +2309,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 4
 Class: 101
+Race: 110
 Height: 175
 Weight: 140
 Special_Bitvector: a0 
@@ -2311,6 +2380,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 4
 Class: 101
+Race: 110
 Height: 175
 Weight: 140
 Special_Bitvector: 0 
@@ -2380,6 +2450,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 4
 Class: 101
+Race: 110
 Height: 175
 Weight: 140
 Special_Bitvector: a0 
@@ -2452,6 +2523,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 3
 Class: 101
+Race: 110
 Height: 175
 Weight: 140
 Special_Bitvector: a0w0 
@@ -2496,6 +2568,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 3
 Class: 101
+Race: 110
 Height: 175
 Weight: 140
 Special_Bitvector: a0w0 
@@ -2537,6 +2610,7 @@ Cha: 20
 Size: 80
 ExtraAttack: 3
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: a0 
@@ -2646,6 +2720,7 @@ Cha: 18
 Size: 80
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2738,7 +2813,7 @@ guard95400 грозовой хранитель окутанный молниями~
 черным грозовым туманом, пронизанным вспышками молний.
 ~
 b0d0g0l0m0n0o0z0 d0f0k0m0n0x0A0C0m1o1 -600 E
-35 3 -4 20d50+2000 13d10+20
+30 3 -4 20d50+2000 13d10+20
 0d0+0 300000
 8 8 1
 AResist: 20
@@ -2753,6 +2828,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 3
 Class: 100
+Race: 114
 Height: 100
 Weight: 50
 Special_Bitvector: d0 

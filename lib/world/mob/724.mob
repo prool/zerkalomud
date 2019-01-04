@@ -31,7 +31,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 101
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -75,7 +75,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0 
@@ -88,7 +88,7 @@ E
 призрак мертвого рудокопа~
 призрака мертвого рудокопа~
 призраку мертвого рудокопа~
-призрак мертвого рудокопа~
+призрака мертвого рудокопа~
 призраком мертвого рудокопа~
 призраке мертвого рудокопа~
 Светлое облачко с человеческими чертами плавает по проходу
@@ -115,7 +115,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -160,7 +160,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 5
 Class: 101
-Race: 100
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0p0b1c1C3 
@@ -216,7 +216,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
-Race: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -227,7 +227,7 @@ E
 зеленый подколодный змей~
 зеленого подколодного змея~
 зеленому подколодному змею~
-зеленый подколодный змея~
+зеленого подколодного змея~
 зеленым подколодным змеем~
 зеленом подколодном змее~
 Большая гадина ползет мимо
@@ -255,7 +255,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -271,7 +271,7 @@ T 72411
 дух медной жилы~
 духа медной жилы~
 духу медной жилы~
-дух медной жилы~
+духа медной жилы~
 духом медной жилы~
 духе медной жилы~
 Медно-зеленоватое  существо пролетает мимо
@@ -299,7 +299,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
-Race: 100
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -320,7 +320,7 @@ T 72412
 пещерный паук~
 пещерного паука~
 пещерному пауку~
-пещерный паук~
+пещерного паука~
 пещерным пауком~
 пещерном пауке~
 Паук пробегает мимо
@@ -348,7 +348,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 103
-Race: 100
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -390,7 +390,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 4
 Class: 100
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: j0 
@@ -415,7 +415,7 @@ T 72414
 наемник~
 наемника~
 наемнику~
-наемник~
+наемника~
 наемником~
 наемнике~
 Обычный мастер удара в спину
@@ -435,7 +435,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -479,7 +479,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 105
-Race: 100
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b0 
@@ -542,7 +542,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 100
-Race: 100
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -583,7 +583,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 103
-Race: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0g0b1c1C3 

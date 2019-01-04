@@ -172,7 +172,7 @@ else
   wsend %actor% Вы полезли в узкую щель. Ох и тяжело же тут ползти!
   wechoaround %actor% %actor.name% полез%actor.q% в лазейку. 
   wait 1s
-  %actor.move(-100)%
+  eval buf %actor.move(-100)%
   wsend %actor% Ваши старания были не напрасны? Вы пролезли в расширение длинной щели из известняка.
   wteleport %actor.name% 70386
   wechoaround %actor% Кто-то пролез сюда.
@@ -194,7 +194,7 @@ else
   wsend       %actor% Вы полезли в узкую щель. Ох и тяжело же тут ползти!
   wechoaround %actor% %actor.name% полез%actor.g% в узкую щель. 
   wait 1s
-  %actor.move(-200)%
+  eval buf %actor.move(-200)%
   wsend %actor% Вы пролезли в грот.
   wteleport %actor.name% 70351
   wechoaround %actor% Кто-то пролез сюда.
@@ -211,7 +211,7 @@ if !(%arg.contains(кирпич)%)
 end
 wait 1
 wsend       %actor% Вы вдавили кирпич.
-wechoaround %actor% %actor.name% вдавил%actor.u% кирпич.
+wechoaround %actor% %actor.name% вдавил%actor.g% кирпич.
 wait 1s
 wecho По гроту покатился грохот и звон цепей. Северная кирпичная стена отворилась, 
 wecho открыв секретный проход.
@@ -324,7 +324,7 @@ say Русский шпион?!!!
 say РУСИШ ШВАЙНЦ!!!
 mecho Толстый стражник схватил вас за шиворот и поволок в камеру.
 eval  zekchar %self.people%
-eval  numer 0
+eval  num 0
 while %zekchar% && (%num% < 20)
   set komp %zekchar.next_in_room%
   if %zekchar.vnum% == -1
@@ -333,11 +333,12 @@ while %zekchar% && (%num% < 20)
     wait 1
     if %zekchar.realroom% == 70370
       msend %zekchar% Вы теперь заключенный! Как интересно!
-      eval  numer (%numer%+1)
+      eval num (%num%+1)
     end 
   end
   if %komp%
     makeuid zekchar %komp.id%
+    *set zekchar %komp%
   else
     set zekchar 0 
   end
@@ -548,37 +549,41 @@ end
 REPOP~
 2 f 100
 *~
-log &C ***** Репоп 703 *****&n
 calcuid vorob1 70317 mob
 attach 70312 %vorob1.id%
 *calcuid vorob2 70317 mob
 detach 70328 %vorob1.id%
 calcuid zverk 70307 room
 attach 70302 %zverk.id%
+wait 1
 calcuid rasx 70355 room
 attach 70340 %rasx.id%
 calcuid gavrur1 70363 room
 attach 70310 %gavrur1.id%
 calcuid gavrur2 70371 room
 attach 70311 %gavrur2.id%
+wait 1
 calcuid proxod 70351 room
 attach 70309 %proxod.id%
 calcuid lev1 70300 mob
 detach 70343 %lev1.id%
 calcuid lev2 70300 mob
 attach 70303 %lev2.id%
+wait 1
 calcuid lev3 70300 mob
 attach 70304 %lev3.id%
 calcuid vorota 70381 room
 attach 70344 %vorota.id%
 calcuid kapitan 70355 room
 attach 70340 %kapitan.id%
+wait 1
 calcuid zverik 70306 room
 attach 70302 %zverik.id%
 calcuid zveriyug 70306 room
 attach 70301 %zveriyug.id%
 calcuid zveriyug2 70306 room
 detach 70345 %zveriyug2.id%
+wait 1
 calcuid mish703 70316 mob
 detach 70355 %mish703.id%
 if %exist.mob(70352)%
@@ -591,13 +596,13 @@ if %exist.mob(70352)%
   *calcuid marb703 70352 mob
   detach 70358 %marb703%
 end
-wdoor  70339 north purge
-wdoor  70357 south purge
-wdoor  70371 west purge
-wdoor  70370 east purge
-wdoor  70374 west purge
-wdoor  70366 east purge
-wdoor  70351 north purge
+wdoor 70339 north purge
+wdoor 70357 south purge
+wdoor 70371 west purge
+wdoor 70370 east purge
+wdoor 70374 west purge
+wdoor 70366 east purge
+wdoor 70351 north purge
 ~
 #70326
 красться дыра~
@@ -614,7 +619,7 @@ if (%actor.move%<200) && (%actor.level%<23) && (%actor.skill(подкрасться)%<80)
 else
   wsend %actor% Вы полезли в узкую дыру. Ох и тяжело же тут ползти, да еще и незамеченным остаться.
   wait 1s
-  %actor.move(-200)%
+  eval buf %actor.move(-200)%
   wsend %actor% Вы тихо вылезли рядом за печкой.
   wteleport %actor.name% 70396
   wechoaround %actor% Кто-то тихо пролез сюда.
@@ -635,7 +640,7 @@ if (%actor.move%<200)
 else
   wsend       %actor% Вы полезли в узкую дыру. Ох и тяжело же тут ползти!
   wait 1s
-  %actor.move(-200)%
+  eval buf %actor.move(-200)%
   wsend %actor% Вы пролезли в узкую комнатушку.
   wteleport %actor.name% 70355
   wechoaround %actor% Кто-то пролез сюда.
@@ -1052,7 +1057,7 @@ switch %object.vnum%
       break
       *наемник
       case 4
-        if (%actor.level% > 23) && (%actor.skill(Cкрытый удар)% == -1)
+        if (%actor.level% > 23) && (%actor.skill(скрытый.удар)% == -1)
           сказ %actor.name% Я вижу ты еще мал, многого не умеешь и помочь тебе никто не хочет... А потому держи подарочек!
           mload obj 70367
           дат клоч %actor.name%

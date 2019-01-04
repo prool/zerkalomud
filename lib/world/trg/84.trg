@@ -1,3 +1,9 @@
-* BRusMUD trigger file v1.0
-$
-$
+#8400
+Смерть болотной мерзости~
+0 f 100
+~
+if %random.1000% <= 100
+  %load% obj 574
+end
+~
+$~

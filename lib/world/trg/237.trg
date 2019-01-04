@@ -305,8 +305,8 @@ attach 23730 %self.id%
 #23712
 укрыться на дубе~
 2 c 0
-взгромоздиться~
-if !%arg.contains(на крону дерева)%
+взобраться~
+if !%arg.contains(на дерево)%
   return 0
   halt
 end
@@ -314,6 +314,7 @@ wait 1
 wsend %actor% Ловко вскарабкавшись по мощным веткам, вы оказались наверху.
 wteleport %actor% 23780
 wechoaround %actor% %actor.name% забрал%actor.u% сюда хрустя ветками и ругаясь.
+log &k*>->-> %actor.name%&n
 ~
 #23714
 Тригер двойника~

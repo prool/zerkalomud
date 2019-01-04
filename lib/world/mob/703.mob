@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #70300
  синий лев~
 синий лев~
@@ -15,54 +14,44 @@
 обращать внимание на такие мелочи.
 ~
 b0d0g0l0n0o0p0r0t0u0x0i2 d0k0r0C0 0 E
-35 3 -5 10d10+6000 15d10+20
+33 3 -5 10d10+6000 15d10+20
 0d0+1500 600000
 6 6 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
+Saves: -18 -18 -18 -18
 BareHandAttack: 8
 Str: 35
+Dex: 35
 Int: 20
 Wis: 20
-Dex: 35
 Con: 30
 Cha: 30
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 3
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: 0
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
+Special_Bitvector: 0 
 Skill: 136 130
 Skill: 157 130
-Helper: 70315
-Helper: 70314
-Helper: 70313
-Helper: 70312
-Helper: 70311
-Helper: 70310
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
 Helper: 70308
+Helper: 70310
+Helper: 70311
+Helper: 70312
+Helper: 70313
+Helper: 70314
+Helper: 70315
 E
 T 70303
 T 70350
@@ -81,35 +70,27 @@ T 70343
 и станет настоящим колорадским жуком.
 ~
 d0f0g0m0n0o0r0x0 d0k0r0A0 -600 E
-28 2 0 5d5+2250 14d10+5
+29 2 0 5d5+2250 10d8+5
 0d0+0 210000
 8 8 2
 Saves: -15 0 0 0
 Resistances: 5 5 5 5 5 5 5
-HPreg: 0
 Armour: 15
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 17
+Dex: 18
 Int: 32
 Wis: 18
-Dex: 18
 Con: 18
 Cha: 18
+Size: 50
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 50
+Race: 107
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 90
 Skill: 157 90
 E
@@ -126,35 +107,27 @@ E
 Крупная личинка колорадского жука активно набирает вес, чтобы подрасти.
 ~
 d0f0g0m0n0o0r0 d0k0r0A0 -600 E
-28 2 0 4d4+2200 14d10+0
+29 5 0 4d4+2200 10d3+10
 0d0+0 200000
 8 8 2
 Saves: -13 0 0 0
 Resistances: 4 4 4 4 4 4 4
-HPreg: 0
 Armour: 13
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 17
+Dex: 17
 Int: 30
 Wis: 17
-Dex: 17
 Con: 17
 Cha: 17
+Size: 35
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 35
+Race: 107
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 157 80
 E
 #70303
@@ -171,35 +144,28 @@ E
 ее собратья.
 ~
 d0f0g0m0n0o0r0 d0k0r0A0 -600 E
-28 3 0 3d3+1550 10d10+10
+27 3 0 3d3+1550 6d6+10
 0d0+0 140000
 8 8 2
 Saves: -10 0 0 0
 Resistances: 2 2 2 2 2 2 2
-HPreg: 0
 Armour: 5
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 5
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 20
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 20
+Race: 107
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 157 70
 E
 #70304
@@ -216,70 +182,61 @@ E
 то какой!
 ~
 b0d0f0g0m0n0o0p0t0x0 d0k0r0A0C0 -600 E
-30 0 -7 5d5+6000 16d11+0
+33 0 -7 5d5+6000 13d7+10
 0d0+0 600000
 8 8 1
-Saves: -30 -5 -5 -5
+Saves: -30 -18 -18 -18
 Resistances: 15 15 15 15 15 15 15
-HPreg: 0
 Armour: 35
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 30
+Dex: 13
 Int: 18
 Wis: 30
-Dex: 13
 Con: 18
 Cha: 12
+Size: 50
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 3
 Class: 103
-Size: 50
+Race: 107
 Height: 175
 Weight: 85
-Special_Bitvector: 0
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
+Special_Bitvector: 0 
 Skill: 136 150
 Skill: 157 150
-Helper: 70305
-Helper: 70306
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
 Helper: 70307
+Helper: 70306
+Helper: 70305
 E
 T 70313
 I глаза,5:5
@@ -296,35 +253,26 @@ I глаза,5:5
    Маленький колорадский жук грызет здесь листву, чтобы подрасти.
 ~
 d0f0g0m0n0o0r0x0 d0k0r0A0 -600 E
-28 3 -5 5d5+2300 14d10+10
+29 3 -5 5d5+2300 10d8+10
 5d5+0 220000
 8 8 1
 Saves: -20 0 0 0
 Resistances: 10 10 10 10 10 10 10
-HPreg: 0
 Armour: 20
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 23
 Int: 17
 Wis: 25
-Dex: 23
 Con: 18
 Cha: 13
+Size: 50
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 50
+Race: 107
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 90
 Skill: 157 90
 E
@@ -341,35 +289,26 @@ E
 Крупный колорадский жук активно питается, чтобы еще немного подрасти.
 ~
 d0f0g0m0n0o0r0x0 d0k0r0A0 -600 E
-28 2 -5 5d5+2550 15d10+10
+29 2 -5 5d5+2550 15d10+10
 0d0+0 230000
 8 8 1
 Saves: -35 0 0 0
 Resistances: 17 17 17 17 17 17 17
-HPreg: 0
 Armour: 36
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 23
 Int: 17
 Wis: 20
-Dex: 23
 Con: 18
 Cha: 13
+Size: 70
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 70
+Race: 107
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 95
 Skill: 157 95
 E
@@ -386,35 +325,27 @@ E
 Огромный колорадский жук активно питается, чтобы отложить кладку яйиц.
 ~
 d0f0g0m0n0o0r0x0 d0k0r0A0 -600 E
-29 0 -6 5d5+3400 16d10+10
+30 5 -6 5d5+3400 12d9+10
 0d0+0 310000
 8 8 1
-Saves: -40 0 0 0
+Saves: -30 0 0 0
 Resistances: 20 20 20 20 20 20 20
-HPreg: 0
 Armour: 38
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 5
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 23
 Int: 17
 Wis: 20
-Dex: 23
 Con: 18
 Cha: 13
+Size: 100
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 107
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 100
 Skill: 157 100
 E
@@ -431,38 +362,29 @@ E
 Очень красный кабан сильно голоден и жует листву, чтобы утолить голод.
 ~
 d0g0h0m0n0o0 d0k0r0 -600 E
-28 3 0 5d5+2550 15d11+11
+29 3 0 5d5+2550 15d11+11
 0d0+0 230000
 8 8 1
 Saves: -15 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 35
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 10
 Str: 18
+Dex: 19
 Int: 33
 Wis: 19
-Dex: 19
 Con: 19
 Cha: 19
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Skill: 136 80
+Special_Bitvector: 0 
 Skill: 5 80
+Skill: 136 80
 E
-I копыта,10:5
 #70309
  желтый крокодил~
 желтый крокодил~
@@ -476,35 +398,26 @@ I копыта,10:5
 Странный желтый крокодил ждет свою жертву, изредка вращая глазами.
 ~
 b0d0f0g0n0o0x0c1 d0k0r0 -600 E
-28 2 0 6d6+2400 15d11+11
+29 2 0 6d6+2400 15d11+11
 0d0+0 220000
 8 8 1
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 20
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 25
+Dex: 20
 Int: 17
 Wis: 25
-Dex: 20
 Con: 18
 Cha: 15
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 90
 Skill: 165 90
 E
@@ -522,35 +435,28 @@ I зубы,16:15
 Большой лиловый бегемот залез в пруд подальше от опасности.
 ~
 b0d0g0m0n0o0x0 d0k0r0 -600 E
-28 5 -4 5d5+3300 15d15+31
+30 5 -4 5d5+3300 15d15+31
 0d0+0 290000
 8 8 1
 Saves: -20 0 0 0
 Resistances: 6 6 6 6 6 6 6
-HPreg: 0
 Armour: 40
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 10
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 25
+Dex: 23
 Int: 17
 Wis: 20
-Dex: 23
 Con: 18
 Cha: 13
+Size: 100
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 4 95
 Skill: 136 95
 E
@@ -567,35 +473,28 @@ E
 Огромная рыжая бегемотиха залезла в пруд подальше от опасности.
 ~
 b0d0g0m0n0o0x0 d0k0r0 -600 E
-21 6 -4 5d5+3300 15d15+5
+30 6 -4 5d5+3300 15d15+5
 0d0+0 310000
 8 8 2
 Saves: -30 0 0 0
 Resistances: 15 15 15 15 15 15 15
-HPreg: 0
 Armour: 40
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 8
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 25
+Dex: 22
 Int: 16
 Wis: 19
-Dex: 22
 Con: 17
 Cha: 12
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 5 95
 Skill: 136 95
 E
@@ -612,35 +511,27 @@ E
 Маленький крылатый бегемотик прячется тут подальше от опасности.
 ~
 b0d0g0m0n0o0x0 d0k0r0 -600 E
-28 4 0 10d10+3222 15d15+0
+30 4 0 10d10+3222 15d15+0
 0d0+0 300000
 8 8 1
 Saves: -30 0 0 0
 Resistances: 6 6 6 6 6 6 6
-HPreg: 0
 Armour: 35
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 5
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 21
+Dex: 18
 Int: 14
 Wis: 16
-Dex: 18
 Con: 16
 Cha: 10
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 132 110
 Skill: 136 110
 E
@@ -657,35 +548,26 @@ E
 Полосатый олень немного грустный и ищет траву, чтобы развеселить себя.
 ~
 d0g0h0m0n0o0 d0k0r0 -600 E
-28 3 0 5d5+2250 13d13+0
+29 3 0 5d5+2250 13d13+0
 0d0+0 200000
 8 8 1
 Saves: -15 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 15
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 14
 Str: 17
+Dex: 18
 Int: 28
 Wis: 18
-Dex: 18
 Con: 18
 Cha: 18
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 132 90
 Skill: 136 90
 Skill: 157 90
@@ -704,35 +586,26 @@ I шерсть,8:5
 Пятнистая зебра нашла спасение на этом краю пруда.
 ~
 d0g0h0m0n0o0 d0k0r0 -600 E
-28 3 0 5d5+2300 14d14+0
+29 3 0 5d5+2300 14d14+0
 0d0+0 210000
 8 8 2
 Saves: -25 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 35
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 13
 Str: 18
+Dex: 20
 Int: 33
 Wis: 20
-Dex: 20
 Con: 19
 Cha: 20
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 134 100
 Skill: 136 100
 E
@@ -749,35 +622,29 @@ E
 Разноцветная стрекоза летает от цветочка к цветочку
 ~
 b0d0g0n0o0 r0x0 -600 E
-28 2 -6 2d2+3370 12d12+0
+30 2 -6 2d2+3370 12d12+0
 0d0+0 310000
 8 8 2
 Saves: -40 -10 -10 -10
 Resistances: 9 9 9 9 9 9 9
-HPreg: 0
 Armour: 9
-PlusMem: 0
-CastSuccess: 0
 Success: 5
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 35
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 107
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
+Skill: 136 90
+Skill: 160 90
 Spell: 94
 Spell: 130
 Spell: 130
@@ -794,8 +661,6 @@ Spell: 130
 Spell: 130
 Spell: 130
 Spell: 130
-Skill: 136 90
-Skill: 160 90
 E
 #70316
 огромная летучая мышь~
@@ -810,35 +675,31 @@ E
    Огромная летучая мышь потревожена вашим присутствием.
 ~
 b0d0f0g0n0o0x0 d0f0k0r0x0C0 -600 E
-29 0 -5 5d5+4400 16d16+6
+31 0 -5 5d5+4400 16d16+6
 0d0+0 400000
 8 8 2
-Saves: -30 0 0 0
+Saves: -30 -10 -10 -10
 Resistances: 9 9 9 9 9 9 9
-HPreg: 0
 Armour: 20
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 9
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 25
+Dex: 23
 Int: 17
 Wis: 20
-Dex: 23
 Con: 18
 Cha: 13
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
+Skill: 136 100
+Skill: 150 100
+Skill: 157 100
 Spell: 56
 Spell: 76
 Spell: 76
@@ -871,9 +732,6 @@ Spell: 84
 Spell: 84
 Spell: 84
 Spell: 150
-Skill: 136 100
-Skill: 150 100
-Skill: 157 100
 E
 I крылья,10:5
 #70317
@@ -890,35 +748,24 @@ I крылья,10:5
 Надо бы с ним поздороваться что ли?
 ~
 b0d0g0n0o0p0q0r0t0u0 d0k0x0 -600 E
-35 0 0 10d10+1111 20d20+0
+12 0 0 10d10+1111 20d20+0
 0d0+0 10000
 6 6 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: i3
+Special_Bitvector: i3 
 E
 T 70312
 #70318
@@ -940,30 +787,22 @@ b0d0f0g0n0o0p0q0r0t0u0 d0k0r0 -600 E
 8 8 1
 Saves: -40 -10 -10 -10
 Resistances: 10 10 10 10 5 5 5
-HPreg: 0
 Armour: 40
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 30
+Dex: 13
 Int: 15
 Wis: 16
-Dex: 13
 Con: 30
 Cha: 13
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: c0f0B3
+Special_Bitvector: c0f0B3 
 Skill: 5 90
 Skill: 21 90
 Skill: 165 90
@@ -986,32 +825,21 @@ b0d0g0l0n0o0x0q1i2 d0k0r0C0 -600 E
 30 2 -6 9d9+3500 18d18+8
 0d0+0 320000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 33
+Dex: 30
 Int: 29
 Wis: 24
-Dex: 30
 Con: 24
 Cha: 24
+Size: 100
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 200
 Weight: 150
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 4 90
 Skill: 5 90
 Skill: 134 90
@@ -1031,35 +859,24 @@ E
 умерщвления, пришла сюда исключительно по приказу Льва.
 ~
 b0d0g0l0n0o0x0q1 d0k0r0C0 -600 E
-28 0 -6 8d8+2900 17d17+0
+30 0 -6 8d8+2900 17d17+0
 0d0+0 270000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 8
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 131 95
 Skill: 136 95
 Skill: 167 95
@@ -1078,35 +895,24 @@ E
 приказу Льва.
 ~
 b0d0l0n0o0x0q1 d0k0r0C0 -600 E
-28 0 -6 8d8+2900 17d17+5
+30 0 -6 8d8+2900 17d17+5
 0d0+0 270000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 24
+Dex: 20
 Int: 18
 Wis: 18
-Dex: 20
-Con: 0
-Cha: 0
+Con: 3
+Cha: 3
+Size: 100
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 157 80
 E
@@ -1124,48 +930,37 @@ E
 исключительно по приказу Льва.
 ~
 b0d0g0l0n0o0x0q1 d0k0r0C0 -600 E
-27 0 -8 8d8+2600 18d17+8
+29 0 -8 8d8+2600 18d17+8
 0d0+0 250000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 30
+Dex: 25
 Int: 25
 Wis: 18
-Dex: 25
-Con: 0
-Cha: 0
+Con: 3
+Cha: 3
+Size: 50
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 50
+Race: 104
 Height: 50
 Weight: 85
-Special_Bitvector: 0
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
+Special_Bitvector: 0 
 Skill: 132 80
 Skill: 136 80
 Skill: 137 80
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
 E
 #70323
  грустный прусский страж~
@@ -1185,30 +980,23 @@ d0f0g0h0m0n0o0A0 d0k0r0 -600 E
 8 8 1
 Saves: -20 0 0 0
 Resistances: 3 3 3 3 0 0 0
-HPreg: 0
 Armour: 25
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 5
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 18
+Dex: 18
 Int: 5
 Wis: 5
-Dex: 18
 Con: 22
 Cha: 3
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 134 100
 E
 #70324
@@ -1229,31 +1017,23 @@ b0d0f0g0m0n0o0x0A0 d0k0r0C0 -600 E
 0d0+300 210000
 8 8 1
 Saves: -20 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 20
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 10
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 18
+Dex: 18
 Int: 5
 Wis: 25
-Dex: 18
 Con: 22
 Cha: 3
+Size: 60
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 60
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 148 80
 Skill: 167 80
 E
@@ -1276,31 +1056,23 @@ b0d0f0g0m0n0o0x0A0 d0k0r0C0 -600 E
 0d0+300 210000
 8 8 1
 Saves: -20 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 20
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 10
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 18
+Dex: 25
 Int: 5
 Wis: 20
-Dex: 25
 Con: 18
 Cha: 5
+Size: 60
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 60
+Race: 101
 Height: 167
 Weight: 56
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 134 80
 Skill: 154 80
 Skill: 155 80
@@ -1324,31 +1096,23 @@ b0d0f0g0m0n0o0x0A0 d0k0r0C0 -600 E
 0d0+300 210000
 8 8 1
 Saves: -20 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 20
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 10
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 18
+Dex: 18
 Int: 5
 Wis: 25
-Dex: 18
 Con: 22
 Cha: 3
+Size: 60
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 60
+Race: 101
 Height: 146
 Weight: 79
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 12 80
 Skill: 144 80
 E
@@ -1371,31 +1135,23 @@ b0d0f0g0m0n0o0x0A0 d0k0r0C0 -600 E
 0d0+300 210000
 8 8 1
 Saves: -20 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 20
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 10
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 18
+Dex: 18
 Int: 5
 Wis: 26
-Dex: 18
 Con: 22
 Cha: 3
+Size: 60
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 60
+Race: 101
 Height: 174
 Weight: 87
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 158 80
 Skill: 167 80
 E
@@ -1418,30 +1174,23 @@ b0d0f0g0m0n0o0x0 d0h0k0r0C0 -600 E
 8 8 1
 Saves: -25 0 0 0
 Resistances: 1 1 1 1 0 0 0
-HPreg: 0
 Armour: 25
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 11
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 30
+Dex: 13
 Int: 18
 Wis: 25
-Dex: 13
 Con: 18
 Cha: 12
+Size: 60
 LikeWork: 60
 MaxFactor: 1
 ExtraAttack: 1
 Class: 102
-Size: 60
+Race: 101
 Height: 198
 Weight: 120
-Special_Bitvector: b1c1C3
+Special_Bitvector: b1c1C3 
 Skill: 4 80
 Skill: 5 80
 Skill: 22 80
@@ -1461,35 +1210,27 @@ T 70363
 мечтает заслужить красный крест и служить в звене бывалых вояк.
 ~
 d0f0g0m0n0o0x0 d0k0r0C0 -600 E
-30 2 -3 0d0+2750 15d15+5
+29 2 -3 0d0+2750 15d15+5
 0d0+400 250000
 8 8 1
 Saves: -25 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 25
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 12
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 20
+Dex: 20
 Int: 7
 Wis: 27
-Dex: 20
 Con: 24
 Cha: 5
+Size: 80
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 80
+Race: 101
 Height: 165
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 148 90
 Skill: 167 90
 E
@@ -1508,35 +1249,27 @@ T 70364
 заслужить красный крест и служить в звене бывалых вояк.
 ~
 b0d0g0m0n0o0x0 d0k0r0C0 -600 E
-30 2 -3 0d0+2750 15d15+5
+29 2 -3 0d0+2750 15d15+5
 0d0+400 250000
 8 8 1
 Saves: -25 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 25
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 12
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 20
+Dex: 27
 Int: 7
 Wis: 25
-Dex: 27
 Con: 24
 Cha: 5
+Size: 80
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 80
+Race: 101
 Height: 179
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 154 90
 Skill: 155 90
 E
@@ -1555,35 +1288,27 @@ T 70365
 заслужить красный крест и служить в звене бывалых вояк.
 ~
 d0f0m0n0o0x0 d0k0r0C0 -600 E
-30 2 -3 0d0+2750 15d15+5
+29 2 -3 0d0+2750 15d15+5
 0d0+400 250000
 8 8 1
 Saves: -25 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 25
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 12
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 20
+Dex: 20
 Int: 7
 Wis: 25
-Dex: 20
 Con: 24
 Cha: 5
+Size: 80
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 80
+Race: 101
 Height: 146
 Weight: 97
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 12 90
 Skill: 137 90
 Skill: 144 90
@@ -1603,35 +1328,27 @@ T 70366
 мечтает заслужить красный крест и служить в звене бывалых вояк.
 ~
 d0f0m0n0o0x0 d0k0r0C0 -600 E
-30 2 -3 0d0+2750 15d15+5
+29 2 -3 0d0+2750 15d15+5
 0d0+400 250000
 8 8 1
 Saves: -25 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 25
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 12
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 20
+Dex: 20
 Int: 7
 Wis: 25
-Dex: 20
 Con: 24
 Cha: 5
+Size: 80
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 80
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 137 90
 Skill: 158 90
 Skill: 167 90
@@ -1654,38 +1371,29 @@ b0d0f0m0n0o0x0 d0h0k0r0C0 -600 E
 0d0+600 270000
 8 8 1
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 30
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 30
+Dex: 15
 Int: 20
 Wis: 20
-Dex: 15
 Con: 20
 Cha: 14
+Size: 80
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 80
+Race: 101
 Height: 178
 Weight: 148
-Special_Bitvector: b1c1C3
+Special_Bitvector: b1c1C3 
 Skill: 4 90
 Skill: 5 90
 Skill: 22 90
-Helper: 70332
-Helper: 70331
-Helper: 70329
 Helper: 70330
+Helper: 70329
+Helper: 70331
+Helper: 70332
 E
 T 70368
 #70334
@@ -1702,35 +1410,27 @@ T 70368
 воинов.
 ~
 d0f0m0n0o0t0x0 d0k0r0C0 -600 E
-31 1 -4 0d0+3000 16d16+5
+30 1 -4 0d0+3000 16d16+5
 0d0+500 280000
 8 8 1
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 30
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 22
+Dex: 22
 Int: 10
 Wis: 30
-Dex: 22
 Con: 26
 Cha: 10
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 169
 Weight: 50
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 148 100
 Skill: 151 100
 Skill: 167 100
@@ -1748,35 +1448,27 @@ E
 Бывалый вояка, которого голыми руками не возьмеш. Да и не с голыми тоже.
 ~
 d0f0m0n0o0t0x0 d0k0r0C0 -600 E
-31 1 -4 0d0+3000 16d16+5
+30 1 -4 0d0+3000 16d16+5
 0d0+500 280000
 8 8 1
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 30
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 22
+Dex: 29
 Int: 10
 Wis: 30
-Dex: 29
 Con: 26
 Cha: 10
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 154 100
 Skill: 155 100
 Skill: 157 100
@@ -1794,35 +1486,27 @@ E
 Бывалый вояка, которого голыми руками не возьмеш. Да и не с голыми тоже.
 ~
 d0f0m0n0o0t0x0 d0k0r0C0 -600 E
-31 1 -4 0d0+3000 16d16+5
+30 1 -4 0d0+3000 16d16+5
 0d0+500 280000
 8 8 1
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 30
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 22
+Dex: 22
 Int: 10
 Wis: 33
-Dex: 22
 Con: 26
 Cha: 10
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 156
 Weight: 75
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 12 100
 Skill: 137 100
 Skill: 144 100
@@ -1840,35 +1524,27 @@ E
 Бывалый вояка, которого голыми руками не возьмеш. Да и не с голыми тоже.
 ~
 d0f0m0n0o0t0x0 d0k0r0C0 0 E
-31 1 -4 0d0+3000 16d16+5
+30 1 -4 0d0+3000 16d16+5
 0d0+500 280000
 8 8 1
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 30
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 22
+Dex: 22
 Int: 10
 Wis: 30
-Dex: 22
 Con: 26
 Cha: 10
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 156
 Weight: 78
-Special_Bitvector: b1c1B3
+Special_Bitvector: b1c1B3 
 Skill: 137 100
 Skill: 158 100
 Skill: 167 100
@@ -1889,41 +1565,32 @@ b0d0f0m0n0o0t0x0 d0h0k0r0C0 -600 E
 31 0 -9 6d6+4500 16d16+0
 0d0+700 400000
 8 8 1
-Saves: -40 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
+Saves: -40 -10 -10 -10
 Armour: 40
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 25
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 30
+Dex: 17
 Int: 22
 Wis: 30
-Dex: 17
 Con: 22
 Cha: 16
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 199
 Weight: 89
-Special_Bitvector: b1c1C3
+Special_Bitvector: b1c1C3 
 Skill: 4 100
 Skill: 5 100
 Skill: 22 100
 Skill: 137 100
-Helper: 70333
-Helper: 70337
-Helper: 70336
-Helper: 70335
 Helper: 70334
+Helper: 70335
+Helper: 70336
+Helper: 70337
+Helper: 70333
 E
 #70339
  прусский рыцарь~
@@ -1939,35 +1606,28 @@ E
 ближнего боя.
 ~
 b0d0f0l0m0n0o0t0x0 d0h0k0r0C0 -600 E
-34 0 -10 1d1+4500 16d17+6
+31 0 -10 1d1+4500 16d17+6
 0d0+500 410000
 4 5 1
 Saves: -40 -15 -15 -15
 Resistances: 15 15 15 15 15 15 15
-HPreg: 0
 Armour: 55
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 30
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 30
+Dex: 21
 Int: 30
 Wis: 16
-Dex: 21
 Con: 30
 Cha: 15
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 199
 Weight: 150
-Special_Bitvector: b1c1B3
+Special_Bitvector: b1c1B3 
 Skill: 134 120
 Skill: 136 120
 Skill: 144 120
@@ -1990,39 +1650,32 @@ T 70336
 Прусский оруженосец готов на смерть ради своего господина.
 ~
 b0c0d0f0l0m0n0o0x0A0 d0k0r0C0 -600 E
-31 0 -6 5d5+3600 15d15+0
+30 0 -6 5d5+3600 15d15+0
 0d0+100 320000
 8 8 1
 Saves: -30 -5 -5 -5
 Resistances: 8 8 8 8 8 8 8
-HPreg: 0
 Armour: 35
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 30
+Dex: 13
 Int: 15
 Wis: 20
-Dex: 13
 Con: 30
 Cha: 13
+Size: 68
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 68
+Race: 101
 Height: 147
 Weight: 97
-Special_Bitvector: b1c1B3
-Spell: 48
-Spell: 112
+Special_Bitvector: b1c1B3 
 Skill: 21 100
 Skill: 167 100
+Spell: 48
+Spell: 112
 E
 #70341
  смешливая повариха~
@@ -2037,42 +1690,32 @@ E
 Смешливая повариха кормит весь замок вкуснейшей едой.
 ~
 b0d0f0l0m0n0o0x0 d0k0r0C0 -600 E
-30 3 -8 6d6+2700 14d15+3
+29 3 -8 6d6+2700 14d15+3
 0d0+200 250000
 8 8 2
 Saves: -15 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 15
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 26
+Dex: 18
 Int: 10
 Wis: 10
-Dex: 18
 Con: 25
 Cha: 17
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 154
 Weight: 149
-Special_Bitvector: c1
+Special_Bitvector: c1 
+Skill: 132 100
+Skill: 136 100
 Spell: 56
 Spell: 56
 Spell: 56
 Spell: 93
 Spell: 111
-Skill: 132 100
-Skill: 136 100
 E
 T 70331
 #70342
@@ -2088,35 +1731,26 @@ T 70331
    Прусский холоп - главный помощник поварихи в приготовлении явств.
 ~
 b0c0d0f0l0m0n0o0x0A0 d0k0r0C0 -600 E
-30 3 -7 6d6+2500 14d15+3
+29 3 -7 6d6+2500 14d15+3
 0d0+100 230000
 8 8 1
 Saves: -15 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 15
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 28
+Dex: 18
 Int: 12
 Wis: 12
-Dex: 18
 Con: 25
 Cha: 17
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 148
 Weight: 97
-Special_Bitvector: c1
+Special_Bitvector: c1 
 Skill: 136 100
 Skill: 137 100
 E
@@ -2136,32 +1770,23 @@ b0d0f0l0m0n0o0t0x0A0 d0h0k0r0C0 -600 E
 33 0 -10 6d6+4300 17d17+5
 0d0+2000 600000
 8 8 1
-Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
+Saves: -50 -18 -18 -18
 Armour: 45
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 25
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 30
+Dex: 19
 Int: 24
 Wis: 32
-Dex: 19
 Con: 24
 Cha: 18
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1C3
+Special_Bitvector: b1c1C3 
 Skill: 22 130
 Skill: 134 130
 Skill: 136 130
@@ -2185,31 +1810,22 @@ b0d0f0l0m0n0o0x0A0 d0k0r0C0 -600 E
 0d0+500 270000
 5 5 1
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 30
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 10
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 23
+Dex: 28
 Int: 13
 Wis: 30
-Dex: 28
 Con: 28
 Cha: 15
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 148
 Weight: 134
-Special_Bitvector: c1
+Special_Bitvector: c1 
 Skill: 136 150
 Skill: 157 150
 E
@@ -2231,31 +1847,23 @@ b0c0d0f0m0n0o0x0 d0k0r0C0 -600 E
 0d0+0 200000
 5 5 1
 Saves: -15 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 15
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 22
+Dex: 18
 Int: 10
 Wis: 15
-Dex: 18
 Con: 25
 Cha: 17
+Size: 38
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 38
+Race: 104
 Height: 67
 Weight: 54
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 100
 Skill: 167 100
 E
@@ -2276,54 +1884,45 @@ b0c0d0f0l0m0n0o0t0x0A0 d0k0r0C0 -600 E
 0d0+900 279000
 5 5 1
 Saves: -25 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 25
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 13
 Int: 25
 Wis: 30
-Dex: 13
 Con: 30
 Cha: 13
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 165
 Weight: 139
-Special_Bitvector: c1
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 130
-Spell: 130
-Spell: 130
+Special_Bitvector: c1 
 Skill: 132 110
 Skill: 136 110
 Skill: 167 110
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 130
+Spell: 130
+Spell: 130
 E
 T 70338
 #70347
@@ -2339,35 +1938,31 @@ T 70338
 Прусский шпион недавно вернулся из задания и хочет отдохнуть.
 ~
 b0d0f0g0l0m0n0o0t0x0 d0k0r0A0C0 -600 E
-31 0 -9 1d1+3900 16d14+15
+33 0 -9 1d1+3900 16d14+15
 0d0+1000 600000
 5 8 1
 Saves: -45 -20 -20 -20
 Resistances: 15 15 15 15 15 15 15
 HPreg: 55
 Armour: 45
-PlusMem: 0
-CastSuccess: 0
 Success: 5
 Initiative: 5
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 24
+Dex: 20
 Int: 31
 Wis: 18
-Dex: 20
 Con: 20
 Cha: 10
+Size: 57
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 57
+Race: 101
 Height: 137
 Weight: 62
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 130 110
 Skill: 131 110
 Skill: 133 110
@@ -2395,35 +1990,30 @@ T 70333
 
 ~
 b0d0f0l0m0n0o0t0x0h2 d0h0k0r0C0 -600 E
-35 4 -10 10d10+5000 16d16+0
+33 4 -10 10d10+5000 16d16+0
 0d0+1000 600000
 8 8 1
 Saves: -65 -20 -20 -20
 Resistances: 20 20 20 20 20 20 20
 HPreg: 35
 Armour: 55
-PlusMem: 0
-CastSuccess: 0
 Success: 6
 Initiative: 6
 Absorbe: 33
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 24
+Dex: 20
 Int: 24
 Wis: 32
-Dex: 20
 Con: 30
 Cha: 23
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 178
 Weight: 87
-Special_Bitvector: c1
+Special_Bitvector: c1 
 Skill: 136 150
 Skill: 157 150
 Skill: 167 150
@@ -2443,35 +2033,26 @@ T 70332
 тяг веселой травки.
 ~
 b0c0d0f0l0m0n0o0t0x0A0g2 d0k0r0C0 -600 E
-30 0 0 5d5+3500 15d15+0
+31 0 0 5d5+3500 15d15+0
 0d0+600 330000
 8 8 1
-Saves: -25 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
+Saves: -25 -10 -10 -10
 Armour: 35
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 10
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 13
 Int: 25
 Wis: 30
-Dex: 13
 Con: 30
 Cha: 23
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 167
 Weight: 97
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 4 120
 Skill: 136 120
 Skill: 167 120
@@ -2490,35 +2071,25 @@ E
 тяг веселой травки.
 ~
 b0c0d0f0l0m0n0o0t0x0A0g2 d0k0r0C0 -600 E
-30 0 2 5d5+3500 15d15+0
+31 0 2 5d5+3500 15d15+0
 0d0+600 330000
 8 8 1
-Saves: -35 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
+Saves: -35 -10 -10 -10
 Armour: 35
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 13
 Int: 25
 Wis: 30
-Dex: 13
 Con: 30
 Cha: 23
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 179
 Weight: 98
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 132 120
 Skill: 136 120
 Skill: 167 120
@@ -2538,35 +2109,22 @@ E
 по количеству грибов и размерам лукошка.
 ~
 b0d0g0 d0f0k0 -600 E
-30 0 0 10d10+10000 0d0+0
+12 0 0 10d10+10000 0d0+0
 0d0+0 10000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 18
+Dex: 10
 Int: 23
 Wis: 35
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 145
 Weight: 78
-Special_Bitvector: i3
+Special_Bitvector: i3 
 E
 T 70346
 T 70360
@@ -2586,56 +2144,46 @@ T 70360
 мест в эту пещеру - останется загадкой.
 ~
 b0d0l0n0o0p0q0r0t0u0x0i2 c0d0e0f0k0n0r0s0z0A0C0a1 -600 E
-30 2 -10 100d50+5000 50d5+40
+36 2 -10 100d50+5000 50d5+40
 0d0+0 1000000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
+Saves: -30 -30 -30 -30
 BareHandAttack: 6
 Str: 35
+Dex: 25
 Int: 22
 Wis: 22
-Dex: 25
 Con: 36
 Cha: 10
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 2
 Class: 103
-Size: 100
+Race: 114
 Height: 200
 Weight: 150
-Special_Bitvector: b1c1
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
+Special_Bitvector: b1c1 
 Skill: 4 100
 Skill: 132 100
 Skill: 136 140
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
 Helper: 62114
 E
 T 62109
@@ -2658,35 +2206,24 @@ b0d0n0o0 d0k0 0 E
 0d0+0 210000
 8 8 1
 Saves: -25 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 25
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 16
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 100
+Class: 103
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 110
 Skill: 160 110
 E
 T 70374
 T 70375
-$
 $

@@ -49,8 +49,8 @@ msend %actor% - Ну, а если камень и ветку принесешь, перенесу я тебя в Туров-гра
 ~
 wait 1
 If (%object.vnum%==713)
-  If (%object.val1%>5
-    If  !(%self.haveobj(60064)%
+  If (%object.val1%>5)
+    If  !(%self.haveobj(60064)%)
       mload obj 60064
     else
       нет
@@ -62,7 +62,7 @@ If (%object.vnum%==713)
 End
 If (%object.vnum%==705)
   If (%object.val1%>5)
-    say Да, эта ветка как раз подойдет.
+    say Да, эта ягода как раз подойдет.
     If  !(%self.haveobj(60065)%)
       mload obj 60065
     Else

@@ -23,6 +23,7 @@ Con: 3
 Cha: 3
 Size: 1
 Class: 103
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
@@ -41,7 +42,7 @@ E
 Маленькое насекомое.
 ~
 d0g0 0 0 E
-2 20 9 0d0+15 4d1+1
+1 20 9 0d0+15 4d1+1
 0d0+0 50
 8 8 2
 BareHandAttack: 16
@@ -53,6 +54,7 @@ Con: 3
 Cha: 3
 Size: 1
 Class: 103
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
@@ -72,7 +74,7 @@ E
 слабый постоянный треск.
 ~
 d0g0 0 0 E
-4 15 8 0d0+45 2d2+4
+2 15 8 0d0+45 2d2+4
 0d0+0 200
 8 8 1
 BareHandAttack: 12
@@ -84,6 +86,7 @@ Con: 3
 Cha: 3
 Size: 1
 Class: 103
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
@@ -102,7 +105,7 @@ E
 Белый паук давно натянул свою сеть и сидит в ожидании своей жертвы.
 ~
 b0d0f0g0l0m0 d0f0 0 E
-12 20 9 0d0+200 1d10+2
+9 20 9 0d0+200 1d10+2
 0d0+0 4000
 8 8 1
 BareHandAttack: 16
@@ -115,6 +118,7 @@ Cha: 3
 Size: 3
 LikeWork: 90
 Class: 103
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
@@ -137,7 +141,7 @@ T 5114
 Обычная маленькая муха.
 ~
 d0g0 x0 0 E
-2 18 8 0d0+25 4d1+1
+1 18 8 0d0+25 4d1+1
 0d0+0 70
 8 8 2
 BareHandAttack: 12
@@ -149,6 +153,7 @@ Con: 3
 Cha: 3
 Size: 1
 Class: 103
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
@@ -167,7 +172,7 @@ E
 Обычная серая мышка.
 ~
 d0g0 0 0 E
-6 15 5 0d0+60 4d2+2
+3 15 5 0d0+60 4d2+2
 0d0+0 500
 8 8 2
 BareHandAttack: 12
@@ -179,6 +184,7 @@ Con: 3
 Cha: 3
 Size: 1
 Class: 103
+Race: 104
 Height: 50
 Weight: 1
 Special_Bitvector: 0 
@@ -197,7 +203,7 @@ E
 Клоп-кровопийца.
 ~
 d0g0 0 0 E
-2 18 8 0d0+25 4d1+1
+1 18 8 0d0+25 4d1+1
 0d0+0 70
 8 8 1
 BareHandAttack: 12
@@ -210,6 +216,7 @@ Cha: 3
 Size: 1
 LikeWork: 90
 Class: 103
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
@@ -229,7 +236,7 @@ E
 Мелкий вредитель одежды.
 ~
 d0g0 x0 0 E
-2 18 8 0d0+25 4d1+1
+1 18 8 0d0+25 4d1+1
 0d0+0 60
 8 8 2
 BareHandAttack: 12
@@ -241,6 +248,7 @@ Con: 3
 Cha: 3
 Size: 1
 Class: 103
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
@@ -259,7 +267,7 @@ E
 Обычный комар-кровопийца.
 ~
 d0f0g0 x0 0 E
-2 18 10 0d0+25 4d1+1
+1 18 10 0d0+25 4d1+1
 0d0+0 60
 8 8 1
 BareHandAttack: 16
@@ -271,6 +279,7 @@ Con: 3
 Cha: 3
 Size: 1
 Class: 100
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: 0 

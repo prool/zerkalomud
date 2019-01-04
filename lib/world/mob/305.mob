@@ -26,6 +26,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -63,6 +64,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -101,6 +103,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -140,6 +143,7 @@ Size: 90
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -179,6 +183,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -215,6 +220,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -254,6 +260,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -295,6 +302,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -308,8 +316,8 @@ Spell: 54
 Spell: 88
 Spell: 94
 Spell: 94
-Helper: 30500
 Helper: 30501
+Helper: 30500
 E
 T 30505
 #30508
@@ -339,6 +347,7 @@ Size: 90
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -381,6 +390,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -414,6 +424,7 @@ Size: 90
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -457,6 +468,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -494,6 +506,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -531,6 +544,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -573,6 +587,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a0b1c1 
@@ -613,6 +628,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -649,12 +665,12 @@ Con: 26
 Cha: 5
 Size: 100
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 136 48
 E
-I копыта,10:5
 #30517
 царьградский купец~
 царьградский купец~
@@ -682,6 +698,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -726,6 +743,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -766,6 +784,7 @@ Cha: 6
 Size: 100
 LikeWork: 40
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: m0 
@@ -800,6 +819,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -837,6 +857,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -873,6 +894,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: j0b1c1 
@@ -912,6 +934,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -951,6 +974,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -991,6 +1015,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 3
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1031,13 +1056,13 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 3
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 132 60
 Skill: 136 75
 E
-I копыта,10:4
 #30527
 вожак разбойников~
 вожак разбойников~
@@ -1069,6 +1094,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1080,11 +1106,11 @@ Spell: 28
 Spell: 56
 Spell: 83
 Spell: 127
-Helper: 30524
-Helper: 30528
-Helper: 30529
-Helper: 30522
 Helper: 30523
+Helper: 30522
+Helper: 30529
+Helper: 30528
+Helper: 30524
 E
 #30528
 дозорный разбойник~
@@ -1113,6 +1139,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: j0b1c1 
@@ -1150,6 +1177,7 @@ Size: 90
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1186,6 +1214,7 @@ Cha: 12
 Size: 70
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
@@ -1217,6 +1246,7 @@ Cha: 4
 Size: 60
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1252,6 +1282,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1292,6 +1323,7 @@ Cha: 5
 Size: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

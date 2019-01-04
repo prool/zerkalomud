@@ -25,6 +25,7 @@ Size: 20
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -58,6 +59,7 @@ Size: 20
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -92,6 +94,7 @@ Size: 4
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 198
 Weight: 200
 Special_Bitvector: g0 
@@ -124,6 +127,7 @@ Size: 20
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -157,6 +161,7 @@ Size: 20
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -190,6 +195,7 @@ Size: 20
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -224,6 +230,7 @@ Size: 20
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -258,6 +265,7 @@ Size: 4
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -291,6 +299,7 @@ Size: 4
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: i0j0 
@@ -324,6 +333,7 @@ Size: 8
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -376,6 +386,7 @@ Cha: 15
 Size: 20
 LikeWork: 95
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: y0b1c1 
@@ -411,6 +422,7 @@ Cha: 15
 Size: 20
 LikeWork: 95
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: y0b1 
@@ -445,6 +457,7 @@ Cha: 8
 Size: 4
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -477,6 +490,7 @@ Cha: 8
 Size: 4
 LikeWork: 100
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

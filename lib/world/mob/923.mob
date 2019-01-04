@@ -30,6 +30,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -92,6 +93,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -153,6 +155,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 5
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b0b1c1 
@@ -293,6 +296,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 5
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -427,6 +431,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -467,6 +472,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 5
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -509,6 +515,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 5
 Class: 105
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -551,6 +558,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 5
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -593,6 +601,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 5
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -632,6 +641,7 @@ LikeWork: 100
 MaxFactor: 15
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
@@ -671,6 +681,7 @@ LikeWork: 100
 MaxFactor: 15
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: l0x0 
@@ -703,6 +714,7 @@ Cha: 22
 Size: 100
 LikeWork: 100
 Class: 100
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -736,6 +748,7 @@ Cha: 22
 Size: 100
 LikeWork: 100
 Class: 100
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -800,6 +813,7 @@ Cha: 22
 Size: 100
 LikeWork: 100
 Class: 100
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -866,6 +880,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1B3 
@@ -920,6 +935,7 @@ Con: 10
 Cha: 10
 Size: 100
 Class: 100
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0 
@@ -950,6 +966,7 @@ Con: 10
 Cha: 10
 Size: 100
 Class: 100
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0 
@@ -980,6 +997,7 @@ Con: 10
 Cha: 10
 Size: 100
 Class: 100
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0 
@@ -1010,6 +1028,7 @@ Con: 10
 Cha: 10
 Size: 100
 Class: 100
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0 
@@ -1053,6 +1072,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1C3 
@@ -1169,6 +1189,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1C3 
@@ -1261,6 +1282,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1C3 
@@ -1359,6 +1381,7 @@ Cha: 22
 Size: 100
 LikeWork: 100
 Class: 100
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1430,6 +1453,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 3
 Class: 104
+Race: 114
 Height: 200
 Weight: 150
 Special_Bitvector: C3 
@@ -1491,7 +1515,7 @@ T 92319
 Лелю~
 Лелей~
 Леле~
-шаловливая Леля, Радость-Лелюшка златокудрая прогуливается здесь.
+Радость-Лелюшка златокудрая прогуливается здесь.
 ~
    ...И рoдила тогда Лада-матушка трех прекрасных богинь, Рода трех дочерей,
 Рoдила шаловливую Лелю - Радость-Лелюшку златокудрую. А потом и Живу весеннюю -
@@ -1512,6 +1536,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 3
 Class: 104
+Race: 114
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1C3 
@@ -1593,6 +1618,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 3
 Class: 104
+Race: 114
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1C3 
@@ -1674,6 +1700,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 3
 Class: 104
+Race: 114
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1C3 

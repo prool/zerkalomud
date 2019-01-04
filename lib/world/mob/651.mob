@@ -24,6 +24,7 @@ Con: 10
 Cha: 10
 Size: 100
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: n0 
@@ -59,6 +60,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: B3 
@@ -102,6 +104,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0a1 

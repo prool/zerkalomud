@@ -27,20 +27,20 @@ wait 1s
 ~
 if %object.vnum% == 30807
   wait 1s
-  говор Ты сделал это, молодец!
+  говор Ты сделал%actor.g% это, молодец!
   wait 1s
   mecho _Пучеглазый Леший постучал пальцем по черепу и прислушался к гулу.
   wait 1s
   говор Без своего Царя дятлы скоро погибнут или уйдут искать себе нового.
   if (%world.curobjs(30808)% < 4) &&  (%random.4% == 2) 
-  mecho _Пучеглазый Леший взглянул на череп в руках и произнес: "Трах-Тябидох".
-  wait 1s
-говор На вот, возьми, мне он ни к чему, а тебе, может быть, и пригодится.
-  mload obj 30808
-  дат череп %actor.name%
+    mecho _Пучеглазый Леший взглянул на череп в руках и произнес: "Трах-Тябидох".
+    wait 1s
+    говор На вот, возьми, мне он ни к чему, а тебе, может быть, и пригодится.
+    mload obj 30808
+    дат череп %actor.name%
   end
   wait 1s
-говор А теперь, как я и обещал, верну тебе белок.
+  говор А теперь, как я и обещал, верну тебе белок.
   wait 1s
   mecho _Пучеглазый Леший сделал загадочный жест.
   wait 1s
@@ -57,20 +57,20 @@ if %object.vnum% == 30807
   wait 1s
   calcuid belka 30813 mob
   %purge% %belka%
-*  attach 30813 %belka.id%
-*  exec 30813 %belka.id%
+  *  attach 30813 %belka.id%
+  *  exec 30813 %belka.id%
   calcuid belka 30813 mob
   %purge% %belka%
-*  attach 30813 %belka.id%
-*  exec 30813 %belka.id%
+  *  attach 30813 %belka.id%
+  *  exec 30813 %belka.id%
   calcuid belka 30813 mob
   %purge% %belka%
-*  attach 30813 %belka.id%
-*  exec 30813 %belka.id%
-mecho  Белки стали уменьшаться, пока не превратились в маленькие комочки.
-wait 1s
+  *  attach 30813 %belka.id%
+  *  exec 30813 %belka.id%
+  mecho  Белки стали уменьшаться, пока не превратились в маленькие комочки.
+  wait 1s
   mecho _Пучеглазый Леший подобрал белок и связал им хвосты.
-wait 1s
+  wait 1s
   говор На вот, а теперь прощай...
   mload obj 30809
   дат связка %actor.name%
@@ -106,8 +106,8 @@ attach 30801 %leshiy2.id%
 calcuid berlom 30812 room
 detach 30805 %berlom.id%  
 if %exist.mob(30813)%
-calcuid belka 30813 mob
-detach 30813 %belka.id%
+  calcuid belka 30813 mob
+  detach 30813 %belka.id%
 end
 ~
 #30804
@@ -129,7 +129,7 @@ wportal 30704 2
 0 f 100
 ~
 if (%world.curobjs(30804)% < 5) &&  (%random.3% == 1)
-mload obj 30804
+  mload obj 30804
 end
 ~
 #30807
@@ -137,7 +137,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(30802)% < 10) &&  (%random.3% == 1)
-mload obj 30802
+  mload obj 30802
 end
 ~
 #30808
@@ -145,7 +145,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(30800)% < 5) &&  (%random.3% == 1)
-mload obj 30800
+  mload obj 30800
 end
 ~
 #30809
@@ -153,7 +153,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(30803)% < 5) &&  (%random.3% == 1)
-mload obj 30803
+  mload obj 30803
 end
 ~
 #30810
@@ -161,7 +161,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(30801)% < 20) &&  (%random.3% == 1)
-mload obj 30801
+  mload obj 30801
 end
 ~
 #30811
@@ -169,7 +169,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(30805)% < 4) &&  (%random.3% == 1)
-mload obj 30805
+  mload obj 30805
 end
 ~
 #30812
@@ -177,7 +177,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(30806)% < 3) &&  (%random.3% == 1)
-mload obj 30806
+  mload obj 30806
 end
 ~
 #30813
@@ -191,32 +191,32 @@ mpurge self
 2 c 0
 лезть залезть~
 if !(%arg.contains(гнездо)%) 
-   wsend       %actor% Куда это Вы хотите пролезть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите пролезть???
+  return 0
+  halt
 end
-  wsend       %actor% Хватаясь за ветки дуба, вы полезли в птичье гнездо.
-  wechoaround %actor% _%actor.name% полез%actor.q% в птичье гнездо, хватаясь за ветки дуба.
-  wait 1s
-  wsend %actor% - Вы оказались на дне большого гнезда.
-  wteleport %actor.name% 30891
-  wat 30891 wechoaround %actor% Кто-то залез в гнездо.
+wsend       %actor% Хватаясь за ветки дуба, вы полезли в птичье гнездо.
+wechoaround %actor% _%actor.name% полез%actor.q% в птичье гнездо, хватаясь за ветки дуба.
+wait 1s
+wsend %actor% - Вы оказались на дне большого гнезда.
+wteleport %actor.name% 30891
+wat 30891 wechoaround %actor% Кто-то залез в гнездо.
 ~
 #30815
 вылазим из гнезда~
 2 c 0
 лезть вылезть~
 if !(%arg.contains(назад)%) 
-   wsend       %actor% Куда это Вы хотите пролезть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите пролезть???
+  return 0
+  halt
 end
-  wsend       %actor% _Осторожно хватаясь за ветки дуба, вы полезли назад.
-  wechoaround %actor% _%actor.name% полез%actor.q% назад, осторожно хватаясь за ветки дуба.
-  wait 1s
-  wsend %actor% - Вы оказались на огромной дубовой ветке.
-  wteleport %actor.name% 30834
-  wat 30834 wechoaround %actor% Кто-то вылез из птичьего гнезда.
+wsend       %actor% _Осторожно хватаясь за ветки дуба, вы полезли назад.
+wechoaround %actor% _%actor.name% полез%actor.q% назад, осторожно хватаясь за ветки дуба.
+wait 1s
+wsend %actor% - Вы оказались на огромной дубовой ветке.
+wteleport %actor.name% 30834
+wat 30834 wechoaround %actor% Кто-то вылез из птичьего гнезда.
 ~
 #30816
 одеваем глаз дятла~

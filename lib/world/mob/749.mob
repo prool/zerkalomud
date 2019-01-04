@@ -12,7 +12,7 @@
 присутствием в приготовленном виде.
 ~
 b0d0g0h0n0o0p0u0x0y0e2g2h2u2 c0d0e0f0k0m0n0r0A0a1c1l1r1u1c2 -600 E
-31 2 -8 10d10+3333 12d12+2
+30 2 -8 10d10+3333 12d12+2
 0d0+150 300000
 8 8 1
 Resistances: 0 0 0 0 0 0 10
@@ -31,6 +31,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -103,6 +104,7 @@ Size: 60
 LikeWork: 85
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 80
 Weight: 60
 Special_Bitvector: 0 
@@ -127,7 +129,7 @@ I шерсть,10:10
 озверела бедняга.
 ~
 b0c0d0f0n0o0x0g2u2 b0c0d0e0k0m0r0x0A0C0b1c1l1t1e2 -600 E
-31 0 -10 10d10+2333 4d4+9
+29 0 -10 10d10+2333 4d4+9
 0d0+150 250000
 8 8 2
 Saves: 30 30 30 0
@@ -146,6 +148,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: g0b1c1d1 
@@ -183,8 +186,8 @@ Spell: 153
 Spell: 153
 Spell: 153
 Spell: 153
-Helper: 74903
 Helper: 74917
+Helper: 74903
 E
 T 74920
 #74903
@@ -201,7 +204,7 @@ T 74920
 подневольным, и даже мертвым не обрел покой.
 ~
 d0f0n0o0p0r0u0y0z0A0g2 b0c0e0j0k0m0p0s0x0A0C0b1c1r1t1w1 -600 E
-30 0 10 10d10+1666 12d14+6
+29 0 10 10d10+1666 12d14+6
 0d0+0 200000
 8 8 1
 Saves: 30 30 30 0
@@ -219,6 +222,7 @@ Size: 10
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 165
 Weight: 50
 Special_Bitvector: b1c1 
@@ -263,7 +267,7 @@ T 74927
 помогает местным жителям не заплутать в лесу.
 ~
 d0g0m0n0o0A0g2 c0d0e0k0n0r0C0l1r1t1u1b2 -600 E
-30 0 -6 10d10+2222 13d14+3
+29 0 -6 10d10+2222 13d14+3
 0d0+100 200000
 8 8 1
 Str: 10
@@ -276,6 +280,7 @@ Size: 80
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 145
 Weight: 50
 Special_Bitvector: g0b1c1 
@@ -336,7 +341,7 @@ T 74929
 недвижимом состоянии.
 ~
 b0d0o1 c0d0e0f0k0m0n0p0r0z0A0C0c1n1 600 E
-31 0 0 10d10+9999 99d99+99
+12 0 0 10d10+9999 99d99+99
 0d0+9999 10000
 6 6 1
 Str: 10
@@ -347,6 +352,7 @@ Con: 10
 Cha: 10
 Size: 100
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -372,7 +378,7 @@ T 74914
 лет.
 ~
 b0d0o1 c0d0e0f0k0m0n0 600 E
-30 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 6 6 2
 Str: 10
@@ -384,6 +390,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -402,7 +409,7 @@ E
 играет с разными лесными зверушками.
 ~
 b0d0o1 c0d0e0f0k0 0 E
-30 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
 Str: 10
@@ -414,6 +421,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -451,6 +459,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 183
 Weight: 85
 Special_Bitvector: b1c1 
@@ -470,7 +479,6 @@ Spell: 79
 Spell: 93
 E
 T 74923
-I кости,10:10
 #74909
  коваль~
 коваль~
@@ -485,7 +493,7 @@ I кости,10:10
 и в бою проявит себя с ним как настоящий воин.
 ~
 b0c0d0g0o0p0A0g2 c0r0C0c1t1 -600 E
-30 0 -10 10d10+3333 13d13+9
+29 0 -10 10d10+3333 13d13+9
 0d0+555 250000
 8 8 1
 Resistances: 0 0 0 0 0 0 30
@@ -503,6 +511,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 99
 Special_Bitvector: b1c1 
@@ -546,7 +555,7 @@ I глаза,10:10
 Ярость крестьянина, загнанного в угол скалы сметет.
 ~
 c0d0g0m0o0p0A0 c0k0r0t1 -600 E
-29 0 -7 10d10+1022 10d14+6
+28 0 -7 10d10+1022 10d14+6
 0d0+20 150000
 8 8 1
 Saves: 10 10 10 10
@@ -568,6 +577,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 183
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -597,7 +607,7 @@ I зубы,5:5
 откупишься.
 ~
 c0d0g0o0p0A0 d0k0r0r1t1 -600 E
-29 0 0 10d10+1022 7d7+7
+28 0 0 10d10+1022 7d7+7
 0d0+50 150000
 8 8 2
 Saves: 10 10 10 0
@@ -618,6 +628,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 183
 Weight: 85
 Special_Bitvector: b1c1 
@@ -674,7 +685,6 @@ Spell: 153
 E
 T 74923
 T 74921
-I кожа,5:15
 #74912
  гайдук~
 гайдук~
@@ -689,7 +699,7 @@ I кожа,5:15
 панский надел. Теперь в деревне ему лучше не показываться.
 ~
 c0d0g0m0o0p0A0 d0k0r0t1 -600 E
-29 7 -7 10d10+1022 10d13+7
+28 7 -7 10d10+1022 10d13+7
 0d0+100 150000
 8 8 1
 Str: 35
@@ -702,6 +712,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 183
 Weight: 85
 Special_Bitvector: b1c1 
@@ -716,7 +727,6 @@ Skill: 147 100
 Spell: 28
 E
 T 74931
-I кости,5:5
 #74913
  гость мещанин~
 гость~
@@ -730,7 +740,7 @@ I кости,5:5
 Хорошо одетый человек рассматривает Вас с надменным видом.
 ~
 c0d0g0o0 c0d0e0h0r0t1x1 -600 E
-29 0 0 10d10+1111 11d11+7
+28 0 0 10d10+1111 11d11+7
 0d0+150 150000
 8 8 1
 Saves: 5 5 5 5
@@ -749,6 +759,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -823,10 +834,10 @@ I глаза,10:10
 охраннике поместья~
 Крестьянин в доспехах прохлаждается здесь.
 ~
-На этот парне не плохие доспехи, а в руках он держит добротный клинок.
+На этом парне неплохие доспехи, а в руках он держит добротный клинок.
 ~
 b0c0d0g0m0o0A0 c0d0e0k0r0t1 -600 E
-29 0 -10 10d10+2222 12d13+10
+28 0 -10 10d10+2222 12d13+10
 0d0+50 190000
 8 8 1
 Saves: 10 10 10 10
@@ -844,6 +855,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 183
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -864,7 +876,6 @@ Spell: 28
 Spell: 71
 E
 T 74932
-I кожа,10:6
 #74915
 забулдыга~
 забулдыга~
@@ -878,7 +889,7 @@ I кожа,10:6
 Синее лицо, и глаза как у кролика. Жаль бабу, которая его в мужья взяла.
 ~
 b0c0d0g0o0A0 d0k0r0C0c1t1 -600 E
-30 5 -5 10d10+3333 14d15+9
+29 5 -5 10d10+3333 14d15+9
 0d0+25 200000
 4 4 1
 Saves: 15 15 15 0
@@ -894,6 +905,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 99
 Special_Bitvector: b1c1 
@@ -926,7 +938,7 @@ I зубы,10:10
 Жизнь заставила его уйти в лес и красть у людей. Вы не ошиблись, это 
 разбойник с большой дороги.
 ~
-b0c0d0f0g0m0n0o0p0A0t1 c0d0e0f0k0m0n0s0t0z0A0c1j1m1t1 -600 E
+b0c0d0f0g0m0n0o0p0A0t1j2 c0d0e0f0k0m0n0s0t0z0A0c1j1m1t1 -600 E
 29 10 -10 10d10+2222 12d13+10
 0d0+50 200000
 8 8 1
@@ -950,6 +962,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 183
 Weight: 85
 Special_Bitvector: a1b1c1 
@@ -981,7 +994,7 @@ T 74935
 это.
 ~
 d0k0m0n0o0y0z0A0e2g2h2 b0c0e0j0k0m0p0s0x0A0C0b1c1r1t1u1w1d2 -600 E
-30 0 10 10d10+1666 12d13+3
+29 0 10 10d10+1666 12d13+3
 0d0+0 220000
 8 8 0
 Saves: 15 15 15 15
@@ -1003,6 +1016,7 @@ Cha: 25
 Size: 10
 LikeWork: 50
 Class: 101
+Race: 110
 Height: 165
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1052,10 +1066,10 @@ E
 
 ~
 b0d0g0l0o0p0x0y0s1t1g2 c0d0e0f0k0r0z0A0C0c1r1t1w1x1y1z1d2e2 -600 E
-50 25 10 10d10+9999 20d20+20
+36 25 10 10d10+9999 20d20+20
 100d100+100 1000000
 8 8 1
-Saves: 40 40 40 40
+Saves: -30 -30 -30 -30
 Resistances: 50 50 50 50 50 50 50
 HPreg: 50
 Armour: 50
@@ -1074,6 +1088,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 120
 Special_Bitvector: b1c1C3 
@@ -1205,15 +1220,14 @@ Spell: 152
 Spell: 153
 Spell: 153
 Spell: 153
-Helper: 74914
-Helper: 74913
 Helper: 74912
+Helper: 74913
+Helper: 74914
 E
 T 74916
 T 74917
 T 74918
 T 74934
-I кожа,17:80
 #74919
  избитый пан~
 избитый пан~
@@ -1230,10 +1244,10 @@ I кожа,17:80
 подходят, к теперь уже синему, лицу.
 ~
 b0d0f0l0m0n0o0x0g2 c0d0e0k0C0l1t1 -600 E
-50 0 0 10d10+5555 20d15+10
+31 0 0 10d10+5555 20d15+10
 0d0+200 350000
 8 8 1
-Saves: 10 10 10 10
+Saves: -10 -10 -10 -10
 Resistances: 20 20 20 20 20 20 20
 HPreg: 20
 Armour: 20
@@ -1252,6 +1266,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 120
 Special_Bitvector: b1c1 
@@ -1272,7 +1287,6 @@ Spell: 153
 Helper: 74912
 E
 T 74919
-I кожа,10:33
 #74920
  огромный паук~
 огромный паук~
@@ -1286,7 +1300,7 @@ I кожа,10:33
 Обычный паук, только невероятных размеров, обосновался в пустующей хате.
 ~
 b0d0f0g0l0m0o0t0u0x0t1i2 c0d0e0k0m0n0p0t0A0C0r1 -600 E
-29 5 -8 10d10+1111 9d13+7
+28 5 -8 10d10+1111 9d13+7
 0d0+0 150000
 8 8 1
 BareHandAttack: 2
@@ -1300,6 +1314,7 @@ Size: 60
 LikeWork: 40
 ExtraAttack: 3
 Class: 103
+Race: 107
 Height: 100
 Weight: 60
 Special_Bitvector: 0 
@@ -1347,7 +1362,7 @@ I чешуя,10:10
 охранника деревни~
 охранником деревни~
 охраннике деревни~
-Крестьянин в доспехах прохлождается здесь.
+Крестьянин в доспехах прохлаждается здесь.
 ~
 Раззудись плечо, наших бьют!
 Сбитых, сваленных -- оттаскивай!
@@ -1355,7 +1370,7 @@ I чешуя,10:10
 Ну, а после боя -- ласковый!
 ~
 c0d0g0m0o0p0A0 c0d0e0k0r0r1t1x1 -600 E
-29 0 -10 10d10+2222 15d15+10
+28 0 -10 10d10+2222 15d15+10
 0d0+10 160000
 8 8 1
 Str: 35
@@ -1368,6 +1383,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 183
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -1382,7 +1398,6 @@ Skill: 147 100
 Spell: 28
 E
 T 74923
-I кости,10:10
 #74922
  казанова~
 казанова~
@@ -1397,7 +1412,7 @@ I кости,10:10
 молодежь?
 ~
 b0c0d0g0m0o0p0A0 c0k0r0t1 -600 E
-30 5 -7 10d10+1022 10d13+10
+28 5 -7 10d10+1022 10d13+10
 0d0+50 150000
 6 6 1
 Str: 35
@@ -1410,6 +1425,7 @@ Size: 100
 LikeWork: 13
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 183
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1434,7 +1450,7 @@ T 74933
 Как эта девушка будет теперь целовать этим ртом своих детей?!
 ~
 b0c0d0g0m0o0A0 d0k0r0t1 -600 E
-29 0 0 10d10+1022 7d7+7
+28 0 0 10d10+1022 7d7+7
 0d0+10 150000
 5 5 2
 Saves: 10 10 10 10
@@ -1456,6 +1472,7 @@ Size: 100
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 183
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1499,5 +1516,4 @@ Spell: 130
 Spell: 130
 E
 T 74922
-I кожа,10:10
 $

@@ -24,6 +24,7 @@ Con: 8
 Cha: 8
 Size: 10
 Class: 103
+Race: 104
 Height: 40
 Weight: 11
 Special_Bitvector: n0 
@@ -56,6 +57,7 @@ Cha: 9
 Size: 12
 MaxFactor: 10
 Class: 103
+Race: 104
 Height: 40
 Weight: 11
 Special_Bitvector: n0 
@@ -87,6 +89,7 @@ Cha: 9
 Size: 12
 MaxFactor: 10
 Class: 103
+Race: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -119,6 +122,7 @@ Cha: 9
 Size: 12
 MaxFactor: 10
 Class: 103
+Race: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
@@ -150,6 +154,7 @@ Con: 3
 Cha: 8
 Size: 15
 Class: 103
+Race: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -181,6 +186,7 @@ Con: 10
 Cha: 8
 Size: 14
 Class: 103
+Race: 104
 Height: 40
 Weight: 11
 Special_Bitvector: 0 
@@ -212,6 +218,7 @@ Con: 3
 Cha: 8
 Size: 15
 Class: 103
+Race: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -244,6 +251,7 @@ Cha: 8
 Size: 18
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -276,6 +284,7 @@ Cha: 8
 Size: 18
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -306,6 +315,7 @@ Con: 3
 Cha: 8
 Size: 19
 Class: 103
+Race: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -338,6 +348,7 @@ Cha: 8
 Size: 16
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 50
 Weight: 10
 Special_Bitvector: 0 
@@ -356,7 +367,7 @@ E
 Грациозный небольшой олень.
 
 ~
-d0g0 0 0 E
+d0g0f2 0 0 E
 5 16 7 5d3+80 1d2+1
 0d0+0 750
 8 8 2
@@ -370,6 +381,7 @@ Cha: 13
 Size: 16
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 40
 Special_Bitvector: 0 
@@ -402,6 +414,7 @@ Cha: 10
 Size: 19
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 60
 Weight: 13
 Special_Bitvector: 0 
@@ -434,6 +447,7 @@ Cha: 10
 Size: 19
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -467,6 +481,7 @@ Cha: 10
 Size: 20
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 50
 Weight: 7
 Special_Bitvector: 0 
@@ -500,6 +515,7 @@ Cha: 10
 Size: 19
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 70
 Weight: 7
 Special_Bitvector: 0 
@@ -532,6 +548,7 @@ Cha: 10
 Size: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 60
 Weight: 12
 Special_Bitvector: 0 
@@ -549,7 +566,7 @@ E
 ~
 Более мелкий, чем его лесной собрат.
 ~
-d0g0 0 0 E
+d0g0f2 0 0 E
 8 10 4 5d3+140 2d4+3
 0d0+0 2000
 8 8 1
@@ -563,6 +580,7 @@ Cha: 10
 Size: 21
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 40
 Special_Bitvector: 0 
@@ -595,6 +613,7 @@ Cha: 10
 Size: 13
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 11
 Special_Bitvector: 0 
@@ -627,6 +646,7 @@ Cha: 10
 Size: 20
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 60
 Weight: 10
 Special_Bitvector: 0 
@@ -660,6 +680,7 @@ Size: 50
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 60
 Weight: 10
 Special_Bitvector: 0 
@@ -694,6 +715,7 @@ Cha: 20
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 101
 Height: 198
 Weight: 90
 Special_Bitvector: 0 
@@ -726,6 +748,7 @@ Con: 17
 Cha: 15
 Size: 40
 Class: 103
+Race: 104
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
@@ -746,7 +769,7 @@ T 4700
 Глаза его светятся злобой и он, похоже, абсолютно не боится человека.
 Возможно это не волк, а помесь волка с собакой - вдвойне опасный зверь.
 ~
-b0d0f0m0x0 f0k0 -600 E
+b0d0f0m0x0f2 f0k0 -600 E
 15 2 9 5d10+270 4d2+10
 0d0+0 22000
 8 8 1
@@ -760,12 +783,12 @@ Cha: 10
 Size: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
-Skill: 136 20
-Helper: 4724
 Skill: 136 45
+Helper: 4724
 E
 #4724
 лесной волк~
@@ -793,6 +816,7 @@ Cha: 3
 Size: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: i0p0 

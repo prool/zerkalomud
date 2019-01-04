@@ -26,6 +26,7 @@ Size: 50
 LikeWork: 60
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 150
 Weight: 100
 Special_Bitvector: b1c1d1d3 
@@ -165,6 +166,7 @@ LikeWork: 35
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 120
 Special_Bitvector: b1c1d1d3 
@@ -215,6 +217,7 @@ Size: 60
 LikeWork: 90
 ExtraAttack: 3
 Class: 104
+Race: 101
 Height: 175
 Weight: 150
 Special_Bitvector: b1c1d3 
@@ -277,6 +280,7 @@ Size: 45
 LikeWork: 50
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3 
@@ -362,6 +366,7 @@ Size: 50
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 130
 Special_Bitvector: y0b1c1d3 
@@ -393,6 +398,7 @@ Size: 50
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 110
 Special_Bitvector: y0b1c1d3 
@@ -426,6 +432,7 @@ LikeWork: 40
 MaxFactor: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 180
 Special_Bitvector: b1c1d3i3 
@@ -458,6 +465,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 158
 Weight: 150
 Special_Bitvector: b1c1d3 
@@ -493,6 +501,7 @@ LikeWork: 5
 MaxFactor: 1
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 100
 Special_Bitvector: y0 
@@ -524,6 +533,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -556,6 +566,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 158
 Weight: 150
 Special_Bitvector: b1c1d3 
@@ -577,7 +588,7 @@ E
 Дородный и вислоусый муж, крепкою рукой ведущий
 дела на постоялом дворе.
 ~
-b0d0n0o0B0 d0f0k0 200 E
+b0d0n0o0B0u2 d0f0k0 200 E
 30 -1 0 1d100+600 5d5+5
 0d0+0 0
 8 8 1
@@ -590,6 +601,8 @@ Cha: 17
 Size: 50
 LikeWork: 1
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 168
 Weight: 150
 Special_Bitvector: 0 

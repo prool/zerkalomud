@@ -22,6 +22,7 @@ Con: 3
 Cha: 10
 Size: 30
 Class: 100
+Race: 110
 Height: 150
 Weight: 150
 Special_Bitvector: 0 
@@ -51,6 +52,7 @@ Con: 3
 Cha: 10
 Size: 40
 Class: 100
+Race: 110
 Height: 150
 Weight: 150
 Special_Bitvector: 0 
@@ -83,6 +85,7 @@ Cha: 10
 Size: 45
 ExtraAttack: 1
 Class: 100
+Race: 110
 Height: 150
 Weight: 150
 Special_Bitvector: 0 
@@ -115,6 +118,7 @@ Cha: 10
 Size: 85
 ExtraAttack: 1
 Class: 100
+Race: 105
 Height: 200
 Weight: 150
 Special_Bitvector: 0 
@@ -146,6 +150,7 @@ Cha: 14
 Size: 30
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
@@ -181,6 +186,7 @@ Cha: 30
 Size: 40
 LikeWork: 20
 Class: 101
+Race: 110
 Height: 50
 Weight: 60
 Special_Bitvector: 0 
@@ -203,7 +209,7 @@ E
 сил потратил, совершенствуя свое ремесло, и вот Вам и выпала доля
 проверить это.
 ~
-b0d0g0B0 d0f0k0 0 E
+b0d0g0n0B0u2 d0f0k0 0 E
 11 1 -10 30d30+930 10d10+0
 0d0+0 0
 8 8 1
@@ -214,6 +220,7 @@ Cha: 5
 Size: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: a0b0c0d0e0f0 
@@ -244,6 +251,8 @@ Con: 40
 Cha: 40
 Size: 40
 ExtraAttack: 2
+Class: 100
+Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: l0A0B0b1c1m3B3C3 
@@ -490,6 +499,7 @@ Cha: 22
 Size: 65
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 200
 Weight: 150
 Special_Bitvector: l0 
@@ -523,6 +533,7 @@ Dex: 15
 Con: 50
 Size: 30
 Class: 100
+Race: 109
 Height: 198
 Weight: 200
 Special_Bitvector: b1 
@@ -579,6 +590,7 @@ Size: 30
 LikeWork: 75
 ExtraAttack: 2
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -604,6 +616,8 @@ b0d0 0 0 E
 0d0+0 0
 8 8 1
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -631,6 +645,63 @@ T 127
 T 128
 T 129
 T 130
+#112
+пес Гарм~
+&Kпес Гарм~
+&Kпса Гарма~
+&Kпсу Гарму~
+&Kпса Гарма~
+&Kпсом Гармом~
+&Kпсе Гарме~
+_&KПес Гарм сидит здесь, охраняя вход в чертог.
+~
+___Огромный четырехглазый пес прикован у входа в Хельхейм.
+~
+d0s0e2k2 d0f0s0m2 0 E
+36 -10 5 2d2+3000 2d2+30
+0d0+0 1000000
+6 6 1
+Saves: -30 -30 -30 -30
+CastSuccess: 35
+BareHandAttack: 4
+Str: 50
+Dex: 50
+Int: 30
+Wis: 30
+Con: 50
+Cha: 3
+Size: 90
+ExtraAttack: 5
+Class: 103
+Race: 104
+Height: 200
+Weight: 200
+Special_Bitvector: 0 
+Skill: 165 200
+E
+#113
+2~
+юзается в коде, не трогать~
+неоконченного моба~
+неоконченному мобу~
+неоконченного моба~
+неоконченным мобом~
+неоконченном мобе~
+Неоконченный моб стоит тут.
+~
+Выглядит достаточно незавершенно.
+~
+d0 d0f0k0 0 E
+20 0 0 1d100+2000 1d1+20
+0d0+0 40000
+8 8 1
+Size: 30
+Class: 100
+Race: 100
+Height: 50
+Weight: 200
+Special_Bitvector: 0 
+E
 #115
 хомяк хомячек~
 хомячек~
@@ -664,6 +735,7 @@ Con: 50
 Cha: 50
 Size: 10
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: h0i0a1 
@@ -2379,18 +2451,21 @@ E
 ~
 Товарищ, да ты обкурился уже. Это же лучший в мире розовый летающий слоник! Мдаа.. не узнаешь старого друга.
 ~
-d0e0p0q0s0b1t1i2l2 x0D0d1 0 E
+d0e0p0q0s0b1t1i2l2 d0f0k0x0D0d1 0 E
 4 20 0 1d100+2 1d1+0
 0d0+0 0
 8 8 1
 BareHandAttack: 14
 Str: 35
 Size: 100
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 136 12
 E
+T 131
 #130
 белоснежный волк~
 белоснежный волк~
@@ -2410,6 +2485,8 @@ b0d0g0B0 0 1 E
 0d0+1 0
 5 5 1
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -2433,6 +2510,8 @@ b0d0B0 0 0 E
 0d0+0 0
 8 8 1
 Size: 30
+Class: 100
+Race: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -2463,6 +2542,8 @@ Con: 35
 Cha: 35
 Size: 100
 ExtraAttack: 2
+Class: 100
+Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: p0 
@@ -2488,7 +2569,7 @@ E
 Наверное, беглый раб
 ~
 b0d0e0t0y0r1f2g2i2 d0f0k0s0z0A0m1p1t1 0 E
-30 -30 -1 10d100+4000 30d10+50
+25 -30 -1 10d100+4000 30d10+50
 0d0+0 100000
 8 8 1
 Str: 25
@@ -2499,6 +2580,8 @@ Con: 45
 Cha: 40
 Size: 60
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: p0 
@@ -2574,6 +2657,31 @@ Spell: 114
 Spell: 132
 Spell: 132
 E
+#134
+воспитатель культуры общения~
+воспитатель культуры общения~
+воспитатель культуры общения~
+воспитатель культуры общения~
+воспитатель культуры общения~
+воспитатель культуры общения~
+воспитатель культуры общения~
+Воспитатель культуры общения стоит тут, полируя двуручный пневмопих.
+~
+Ну что?! Есть кто, а?!!
+~
+b0d0B0 d0f0k0 0 E
+50 10 0 1d100+1000 10d1+10
+0d0+0 0
+8 8 1
+Str: 3
+Size: 30
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
+T 131
 #155
 денежный моб~
 денежный моб~
@@ -2592,6 +2700,8 @@ d0 0 0 E
 8 8 0
 Con: 3
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -2634,6 +2744,8 @@ d0 0 0 E
 0d0+0 0
 6 8 2
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -2659,6 +2771,7 @@ b0d0B0 0 0 E
 8 8 1
 Size: 30
 Class: 100
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -2683,10 +2796,37 @@ BareHandAttack: 16
 Destination: 166
 Size: 30
 Class: 101
+Race: 110
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
 E
+#168
+призрак кошмара~
+призрак кошмара~
+призрака кошмара~
+призраку кошмара~
+призрака кошмара~
+призраком кошмара~
+призраке кошмара~
+Призрак &Kкошмара&n &Rнаводит на Вас ужас.&n
+~
+Нечто полупрозрачное витает в воздухе пред Вами.
+Стоит только попытаться вглядеться в него получше, 
+как он принимает очертания самого ужасного Вашего &Kкошмара&n.
+~
+b0d0B0 b0d0f0k0 1 E
+35 10 0 1d10000+1000 30d1+10
+0d0+0 0
+8 8 1
+Size: 30
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: a0 
+E
+T 167
 #170
 жар птица~
 жар-птица~
@@ -2702,7 +2842,7 @@ E
 пламенем.
 ~
 a0b0d0l0r0t0A0f2h2i2 k0t1x1y1 1 E
-36 -30 3 30d400+10 20d15+20
+25 -30 3 30d400+10 20d15+20
 0d0+5000 100000
 8 8 2
 BareHandAttack: 12
@@ -2714,6 +2854,8 @@ Con: 30
 Cha: 30
 Size: 50
 ExtraAttack: 2
+Class: 100
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: m3p3 
@@ -2872,6 +3014,8 @@ Cha: 50
 Size: 100
 LikeWork: 100
 ExtraAttack: 3
+Class: 100
+Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: 0 
@@ -2938,6 +3082,8 @@ Cha: 50
 Size: 30
 LikeWork: 100
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -3018,6 +3164,8 @@ Wis: 22
 Con: 18
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -3043,6 +3191,8 @@ Str: 25
 Dex: 30
 Con: 25
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -3172,6 +3322,8 @@ d0o1 d0f0k0x0D0 0 E
 BareHandAttack: 15
 Int: 4
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
@@ -3205,6 +3357,8 @@ Con: 32
 Size: 30
 LikeWork: 70
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: h0j0 
@@ -3345,6 +3499,81 @@ T 195
 T 194
 T 193
 T 192
+#194
+меченый атом~
+меченый атом~
+меченого атома~
+меченому атому~
+меченый атом~
+меченым атомом~
+меченом атоме~
+Меченый атом с меткой Пруля люменисцирует здесь
+~
+Меченый атом с меткой Пруля люменисцирует здесь
+Используется Прулем для проверки топологии мира и психологии мобов
+~
+d0 0 0 E
+1 19 0 1d100+1 1d1+1
+0d0+0 1
+8 8 1
+Str: 1
+Dex: 14
+Wis: 1
+Con: 1
+Cha: 15
+Size: 1
+Class: 100
+Race: 100
+Height: 50
+Weight: 1
+Special_Bitvector: 0 
+E
+#195
+стюард замка Пруля~
+стюард замка Пруля~
+стюарда замка Пруля~
+стюарду замка Пруля~
+стюарда замка Пруля~
+стюардом замка Пруля~
+стюарде замка Пруля~
+Стюард замка Пруля предлагает всем желающим уйти на постой
+~
+Стюард молод, одет во все черное, деловит
+~
+b0d0n0u2 0 0 E
+25 19 0 1d100+1 1d1+1
+0d0+0 0
+8 8 1
+Size: 30
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
+#196
+стражник замка Пруля~
+стражник замка Пруля~
+стражника замка Пруля~
+стражнику замка Пруля~
+стражника замка Пруля~
+стражником замка Пруля~
+стражнике замка Пруля~
+Стражник замка Пруля стоит на часах тут
+~
+Стражник замка Пруля усат, суров и бдителен
+~
+b0d0 0 0 E
+29 19 0 1d100+1 1d1+1
+0d0+0 0
+8 8 1
+Size: 30
+Class: 102
+Race: 101
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
 #197
 горыныч змей~
 &Rзмей &gГорыныч&n~
@@ -3371,6 +3600,8 @@ Con: 36
 Cha: 3
 Size: 70
 ExtraAttack: 2
+Class: 100
+Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: l0u0x0 
@@ -3435,6 +3666,8 @@ b0d0B0 d0f0 1 E
 0d0+0 0
 8 8 2
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: a0b0c0d0e0f0 
@@ -3453,25 +3686,31 @@ E
 Ужас обуял Вас, когда вы увидели это мощное, усеянное крупной чешуей и шипами
 тело
 ~
-d0e0f0n0p0r0t0x0y0b1 c0d0f0k0x0m1 1 E
-33 -30 -5 30d1000+0 30d127+50
-0d0+999999 150000
+d0f0n0p0q0r0t0x0y0b1s1 c0d0f0k0x0m1 1 E
+28 -30 -5 30d1000+7000 30d127+50
+0d0+200000 150000
 8 8 1
+Saves: 50 50 50 50
+Initiative: 100
+AResist: 80
+MResist: 80
 BareHandAttack: 2
 Str: 50
-Dex: 3
-Int: 3
+Dex: 35
+Int: 35
 Wis: 25
 Con: 25
 Cha: 3
 Size: 50
 ExtraAttack: 5
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: l0u0 
 Skill: 1 100
 Skill: 3 100
-Skill: 132 100
+Skill: 132 200
 Skill: 134 100
 Skill: 136 100
 Skill: 149 100

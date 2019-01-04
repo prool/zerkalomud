@@ -11,7 +11,7 @@
 Высокая медведица с черной шкурою.
 ~
 d0g0 f0k0 0 E
-16 8 3 5d5+400 5d3+0
+13 8 3 5d5+400 5d3+0
 0d0+0 12000
 8 8 2
 BareHandAttack: 1
@@ -24,6 +24,7 @@ Size: 60
 LikeWork: 65
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -44,7 +45,7 @@ E
 Зайчишка с крепкими и длинными белыми зубами.
 ~
 d0g0 0 0 E
-11 9 4 5d5+300 3d4+0
+8 9 4 5d5+300 3d4+0
 0d0+0 3500
 8 8 1
 BareHandAttack: 4
@@ -56,6 +57,7 @@ Con: 18
 Size: 15
 LikeWork: 35
 Class: 103
+Race: 104
 Height: 198
 Weight: 29
 Special_Bitvector: n0y0 
@@ -87,6 +89,7 @@ Size: 25
 LikeWork: 75
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -106,7 +109,7 @@ E
 выпирающими из пасти вверх.
 ~
 d0g0 0 0 E
-10 9 8 5d5+350 2d6+0
+7 9 8 5d5+350 2d6+0
 0d0+0 2900
 8 8 1
 Str: 19
@@ -118,6 +121,7 @@ Size: 10
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: y0 
@@ -137,7 +141,7 @@ E
 в поисках добычи.
 ~
 d0g0j0q0 f0 0 E
-12 4 -5 5d5+320 5d5+0
+11 4 -5 5d5+320 5d5+0
 0d0+0 7000
 8 8 1
 BareHandAttack: 4
@@ -149,6 +153,7 @@ Con: 17
 Size: 30
 LikeWork: 35
 Class: 103
+Race: 104
 Height: 198
 Weight: 140
 Special_Bitvector: p0 
@@ -169,7 +174,7 @@ E
 и острыми клыками.
 ~
 d0g0 0 0 E
-14 9 5 5d5+250 4d4+0
+10 9 5 5d5+250 4d4+0
 0d0+0 6000
 8 8 2
 Str: 18
@@ -180,6 +185,7 @@ Con: 17
 Size: 24
 LikeWork: 45
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
@@ -198,13 +204,14 @@ E
 Маленькое пушистое серенькое животное.
 ~
 d0g0 0 0 E
-8 12 6 5d5+180 5d2+0
+6 12 6 5d5+180 5d2+0
 0d0+0 2000
 8 8 1
 Str: 13
 Size: 10
 LikeWork: 40
 Class: 103
+Race: 104
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
@@ -224,7 +231,7 @@ E
 и длинным черным клювом.
 ~
 d0g0q0 x0 0 E
-12 8 6 5d5+350 6d3+0
+11 8 6 5d5+350 6d3+0
 0d0+0 6900
 8 8 2
 BareHandAttack: 15
@@ -237,6 +244,7 @@ Cha: 14
 Size: 5
 LikeWork: 50
 Class: 103
+Race: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0 
@@ -255,7 +263,7 @@ E
 Маленький рыженький зверек.
 ~
 d0g0 0 0 E
-9 7 6 5d5+200 5d2+0
+8 7 6 5d5+200 5d2+0
 0d0+0 3810
 8 8 2
 BareHandAttack: 4
@@ -263,6 +271,7 @@ Str: 16
 Size: 15
 LikeWork: 40
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: p0y0 
@@ -282,7 +291,7 @@ E
 ценится на ближайших рынках.
 ~
 d0g0 0 0 E
-10 6 3 5d5+250 5d3+0
+9 6 3 5d5+250 5d3+0
 0d0+0 4800
 8 8 2
 BareHandAttack: 4
@@ -290,6 +299,7 @@ Str: 16
 Size: 15
 LikeWork: 40
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
@@ -308,7 +318,7 @@ E
 Маленький детеныш лисицы.
 ~
 d0g0 0 0 E
-8 11 6 5d5+150 3d3+0
+4 11 6 5d5+150 3d3+0
 0d0+0 1000
 8 8 1
 BareHandAttack: 4
@@ -316,6 +326,7 @@ Str: 13
 Size: 10
 LikeWork: 25
 Class: 103
+Race: 104
 Height: 198
 Weight: 20
 Special_Bitvector: p0 
@@ -334,7 +345,7 @@ E
 Величественная черная птица.
 ~
 d0g0q0 x0 0 E
-15 12 7 5d5+190 5d3+0
+9 12 7 5d5+190 5d3+0
 0d0+0 4000
 8 8 2
 BareHandAttack: 15
@@ -343,6 +354,7 @@ Int: 19
 Size: 10
 LikeWork: 85
 Class: 103
+Race: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0y0 
@@ -373,6 +385,7 @@ Size: 55
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: a0c0b1c1 
@@ -393,7 +406,7 @@ T 38114
 Плотный коренастый мужик.
 ~
 b0c0d0f0g0m0A0 f0k0 0 E
-13 5 5 5d5+250 5d2+0
+12 5 5 5d5+250 5d2+0
 0d0+0 9000
 8 8 1
 Str: 18
@@ -405,6 +418,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 140
 Special_Bitvector: b1c1 
@@ -426,7 +440,7 @@ T 38113
 Видно воровал много.
 ~
 c0d0f0g0m0A0 f0k0 0 E
-13 10 3 5d5+100 2d6+0
+11 10 3 5d5+100 2d6+0
 0d0+0 8000
 8 8 1
 Str: 18
@@ -437,6 +451,7 @@ Con: 18
 Size: 40
 LikeWork: 70
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
@@ -458,12 +473,13 @@ E
 в нарядную рубаху красного цвета 
 и подпоясан широким зеленым поясом.
 ~
-b0c0d0g0x0B0o1 0 0 E
+b0d0g0x0B0o1 D0a1 0 E
 8 1 0 1d1+1 1d1+0
 0d0+0 0
 6 6 1
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -486,7 +502,7 @@ E
 УУУУ я тебя!!!
 ~
 b0d0f0g0q0z0b1d2 d0e0f0h0k0p0x0 0 E
-15 12 -5 5d5+300 5d4+0
+14 12 -5 5d5+300 5d4+0
 0d0+0 15000
 8 8 1
 Str: 18
@@ -497,6 +513,7 @@ Size: 30
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 198
 Weight: 130
 Special_Bitvector: g0 
@@ -521,7 +538,7 @@ T 38116
 Киевский. Байки, наверное...
 ~
 b0d0g0l0i1 g0h0k0 0 E
-18 6 -6 5d5+600 5d4+0
+22 6 -6 5d5+600 5d4+0
 20d20+0 59999
 8 8 1
 Str: 20
@@ -533,6 +550,7 @@ Size: 60
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 160
 Special_Bitvector: y0 
@@ -555,7 +573,7 @@ E
 не новая и местами дырявая.
 ~
 b0d0g0l0i1 k0 0 E
-16 8 -6 5d5+600 5d6+0
+18 8 -6 5d5+600 5d6+0
 10d10+0 28000
 8 8 1
 Str: 18
@@ -567,6 +585,7 @@ Size: 40
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -586,7 +605,7 @@ E
 Старый седой мужичок с серого цвета кожей.
 ~
 b0d0g0l0n0o0p0q0r0t0u0b1 c0d0f0h0k0C0r1 400 E
-30 1 -10 5d5+5000 6d15+3
+21 1 -10 5d5+5000 6d15+3
 0d0+0 50000
 8 8 1
 Str: 26
@@ -598,6 +617,7 @@ Size: 30
 LikeWork: 100
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 198
 Weight: 110
 Special_Bitvector: 0 
@@ -722,7 +742,7 @@ T 38103
 руками.
 ~
 b0d0g0l0n0o0p0q0r0t0u0b1 c0d0f0h0k0C0 0 E
-30 1 -10 5d5+1100 3d6+3
+21 1 -10 5d5+1100 3d6+3
 0d0+0 50000
 8 8 1
 BareHandAttack: 1
@@ -735,6 +755,7 @@ Size: 30
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 101
 Height: 198
 Weight: 110
 Special_Bitvector: 0 
@@ -801,6 +822,7 @@ Wis: 18
 Size: 10
 LikeWork: 50
 Class: 103
+Race: 105
 Height: 198
 Weight: 20
 Special_Bitvector: g0n0 
@@ -829,6 +851,7 @@ Wis: 18
 Size: 5
 LikeWork: 80
 Class: 103
+Race: 105
 Height: 198
 Weight: 25
 Special_Bitvector: g0m0o0 
@@ -848,7 +871,7 @@ E
 с кожей, покрытой болотным мхом.
 ~
 d0f0g0b1q1 d0e0g0k0k1 0 E
-16 6 -6 5d5+500 5d5+0
+15 6 -6 5d5+500 5d5+0
 0d0+0 16000
 8 8 2
 Str: 24
@@ -858,6 +881,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 100
 Special_Bitvector: l0 
@@ -876,7 +900,7 @@ E
 Страшная злобная жительница здешних болот.
 ~
 d0f0g0a1b1 d0f0g0k0k1 0 E
-20 7 -5 7d7+600 3d4+0
+19 7 -5 7d7+600 3d4+0
 0d0+0 35000
 8 8 2
 Str: 25
@@ -888,6 +912,7 @@ Size: 50
 LikeWork: 45
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 150
 Special_Bitvector: m0 
@@ -914,7 +939,7 @@ T 38115
 сапоги. На груди его поблескивает серебряная цепь.
 ~
 b0d0l0m0n0A0i1 d0h0 200 E
-21 8 6 5d10+500 5d6+0
+26 8 6 5d10+500 5d6+0
 7d5+100 110000
 8 8 1
 Saves: 80 20 0 0
@@ -929,6 +954,7 @@ Size: 50
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 180
 Special_Bitvector: b1 
@@ -974,7 +1000,7 @@ T 38121
 оружию - это охранник одного остановившихся в корчме купцов.
 ~
 b0d0l0m0n0 d0z0 120 E
-20 2 0 20d6+600 5d6+5
+24 2 0 20d6+600 5d6+5
 3d4+30 85000
 8 8 1
 Saves: 10 0 0 15
@@ -989,6 +1015,7 @@ Size: 50
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 170
 Special_Bitvector: 0 

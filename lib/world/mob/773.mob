@@ -27,6 +27,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: e0g0y0b1c1 
@@ -73,6 +74,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a0b1c1 
@@ -144,6 +146,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -189,6 +192,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a1b1c1 
@@ -235,6 +239,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1B3 
@@ -256,9 +261,9 @@ Spell: 136
 Spell: 136
 Spell: 136
 Spell: 145
-Helper: 77312
-Helper: 77301
 Helper: 77300
+Helper: 77301
+Helper: 77312
 E
 T 77301
 I кости,10:10
@@ -291,6 +296,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -358,6 +364,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: g0 
@@ -409,6 +416,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: g0 
@@ -453,6 +461,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -495,6 +504,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -535,6 +545,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -577,6 +588,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -623,6 +635,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a0c0b1c1 
@@ -676,6 +689,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -744,6 +758,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i0j0a1b1c1 
@@ -790,6 +805,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 

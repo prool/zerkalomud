@@ -10,7 +10,7 @@
 ~
 Зверек с ценным мехом.
 ~
-d0g0n0o0 k0 -600 E
+d0g0n0o0f2 k0 -600 E
 12 10 5 0d0+300 2d4+2
 0d0+0 6000
 8 8 2
@@ -24,6 +24,7 @@ Cha: 8
 Size: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 30
 Special_Bitvector: 0 
@@ -56,6 +57,7 @@ Cha: 4
 Size: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
@@ -87,6 +89,7 @@ Cha: 3
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -116,6 +119,7 @@ Con: 22
 Cha: 3
 Size: 80
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: b1c1 
@@ -156,6 +160,7 @@ Con: 18
 Cha: 5
 Size: 80
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: b1c1 
@@ -190,6 +195,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 

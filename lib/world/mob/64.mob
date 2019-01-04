@@ -12,7 +12,7 @@
 на этом богатом отходами пустыре. 
 ~
 c0d0g0b1 x0 0 E
-7 14 8 5d8+100 2d2+2
+5 14 8 5d8+100 2d2+2
 0d0+0 1500
 8 8 2
 BareHandAttack: 15
@@ -25,6 +25,7 @@ Cha: 3
 Size: 5
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 2
 Special_Bitvector: l0 
@@ -44,7 +45,7 @@ E
 быстро, что вы еле успеваете замечать их мелькание.
 ~
 d0g0h0 k0 0 E
-6 15 8 4d8+50 2d2+2
+4 15 8 4d8+50 2d2+2
 0d0+0 1000
 8 8 2
 BareHandAttack: 8
@@ -56,6 +57,7 @@ Con: 7
 Cha: 3
 Size: 5
 Class: 100
+Race: 107
 Height: 198
 Weight: 5
 Special_Bitvector: m0 
@@ -75,7 +77,7 @@ E
 и смотрит на Вас мутными, сонными глазами.
 ~
 d0g0 0 0 E
-8 13 8 5d4+135 2d4+2
+6 13 8 5d4+135 2d4+2
 0d0+0 2000
 8 8 2
 BareHandAttack: 5
@@ -88,6 +90,7 @@ Cha: 5
 Size: 10
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 198
 Weight: 5
 Special_Bitvector: p0 
@@ -106,7 +109,7 @@ E
 Крупная крыса чувствует себя здесь полным хозяином.
 ~
 d0g0q0 k0 0 E
-10 17 6 4d4+175 2d3+2
+9 17 6 4d4+175 2d3+2
 0d0+0 5000
 8 8 2
 BareHandAttack: 8
@@ -119,6 +122,7 @@ Cha: 3
 Size: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 11
 Special_Bitvector: p0 
@@ -137,7 +141,7 @@ E
 Невысокий седой старичок не отрываясь смотрит куда-то вдаль.
 ~
 b0d0g0n0o0B0 d0k0 0 E
-20 5 3 50d7+600 20d4+20
+16 5 3 50d7+600 20d4+20
 0d0+0 20000
 8 8 1
 Str: 20
@@ -149,6 +153,7 @@ Cha: 20
 Size: 50
 LikeWork: 95
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -182,6 +187,7 @@ Con: 10
 Cha: 10
 Size: 45
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -202,8 +208,8 @@ T 6403
 ~
 Маленькое грязное создание, блошиный санаторий.
 ~
-d0g0q0 d0f0k0 0 E
-9 12 7 5d5+140 2d3+3
+d0g0q0f2 d0f0k0 0 E
+7 12 7 5d5+140 2d3+3
 0d0+0 2500
 8 8 2
 BareHandAttack: 8
@@ -216,6 +222,7 @@ Cha: 4
 Size: 39
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 25
 Special_Bitvector: i0p0 
@@ -255,6 +262,7 @@ Size: 37
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
@@ -275,7 +283,7 @@ T 6408
 Крупный представитель рода шаркальщиков.
 ~
 d0g0 k0 0 E
-11 10 6 5d7+225 2d4+3
+9 10 6 5d7+225 2d4+3
 0d0+0 4000
 8 8 1
 BareHandAttack: 6
@@ -288,6 +296,7 @@ Cha: 3
 Size: 41
 ExtraAttack: 1
 Class: 103
+Race: 109
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
@@ -306,7 +315,7 @@ E
 Комары... 
 ~
 b0d0g0z0 x0 0 E
-7 14 8 2d8+110 2d1+1
+6 14 8 2d8+110 2d1+1
 0d0+0 2000
 8 8 2
 BareHandAttack: 16
@@ -319,6 +328,7 @@ Cha: 3
 Size: 37
 ExtraAttack: 4
 Class: 100
+Race: 107
 Height: 198
 Weight: 4
 Special_Bitvector: l0 
@@ -350,6 +360,7 @@ Con: 15
 Cha: 13
 Size: 39
 Class: 103
+Race: 108
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -374,7 +385,7 @@ T 6409
 Обычная серая сорока.
 ~
 c0d0g0 k0x0 0 E
-8 13 8 2d8+150 2d4+2
+6 13 8 2d8+150 2d4+2
 0d0+0 2000
 8 8 2
 BareHandAttack: 15
@@ -386,6 +397,7 @@ Con: 5
 Cha: 3
 Size: 36
 Class: 100
+Race: 103
 Height: 198
 Weight: 10
 Special_Bitvector: l0 
@@ -418,6 +430,7 @@ Cha: 3
 Size: 100
 LikeWork: 95
 Class: 102
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -446,7 +459,7 @@ L 1726 4 0 0
 Крупная коричнево-бордовая жаба с большими бородавками.
 ~
 d0g0 k0 0 E
-11 10 6 5d7+190 2d4+3
+9 10 6 5d7+190 2d4+3
 0d0+0 4000
 8 8 2
 BareHandAttack: 6
@@ -459,6 +472,7 @@ Cha: 3
 Size: 15
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 198
 Weight: 15
 Special_Bitvector: n0 
@@ -477,7 +491,7 @@ E
 Обычная болотная лягушка.
 ~
 d0g0 k0 0 E
-8 14 8 2d5+110 2d4+3
+6 14 8 2d5+110 2d4+3
 0d0+0 2000
 8 8 2
 BareHandAttack: 4
@@ -489,6 +503,7 @@ Con: 5
 Cha: 3
 Size: 15
 Class: 100
+Race: 105
 Height: 198
 Weight: 4
 Special_Bitvector: n0 
@@ -508,7 +523,7 @@ E
 уже из своих жертв. Но похоже он никогда не наедается.
 ~
 d0g0h0 x0 0 E
-6 15 8 1d8+95 2d2+2
+4 15 8 1d8+95 2d2+2
 0d0+0 750
 8 8 1
 BareHandAttack: 11
@@ -520,6 +535,7 @@ Con: 7
 Cha: 3
 Size: 5
 Class: 100
+Race: 107
 Height: 198
 Weight: 5
 Special_Bitvector: l0 
@@ -553,6 +569,7 @@ Size: 37
 LikeWork: 95
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: c0 
@@ -572,7 +589,7 @@ E
 Обычная серая мышь.
 ~
 d0g0h0 0 0 E
-6 15 8 1d8+95 2d2+2
+4 15 8 1d8+95 2d2+2
 0d0+0 750
 8 8 2
 BareHandAttack: 11
@@ -584,6 +601,7 @@ Con: 7
 Cha: 3
 Size: 5
 Class: 100
+Race: 104
 Height: 198
 Weight: 5
 Special_Bitvector: p0 
@@ -604,8 +622,8 @@ T 6407
 глаза трет - и похоже разбудили его Вы.
 ~
 b0d0g0n0o0B0 d0k0 0 E
-20 5 3 50d7+600 20d4+20
-0d0+0 20000
+16 5 3 50d7+600 20d4+20
+1d0+0 20000
 8 8 1
 Str: 20
 Dex: 20
@@ -616,6 +634,7 @@ Cha: 20
 Size: 50
 LikeWork: 95
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

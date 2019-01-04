@@ -29,6 +29,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 198
 Weight: 120
 Special_Bitvector: b0 
@@ -73,6 +74,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 198
 Weight: 120
 Special_Bitvector: b0b1c1 
@@ -125,6 +127,7 @@ LikeWork: 5
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 198
 Weight: 10
 Special_Bitvector: g0o0 
@@ -158,6 +161,7 @@ Cha: 3
 Size: 25
 LikeWork: 70
 Class: 103
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: g0o0 
@@ -201,6 +205,7 @@ Con: 3
 Cha: 3
 Size: 6
 Class: 103
+Race: 105
 Height: 198
 Weight: 5
 Special_Bitvector: o0 
@@ -234,6 +239,7 @@ LikeWork: 70
 MaxFactor: 90
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: m0y0 
@@ -266,6 +272,7 @@ Cha: 3
 Size: 14
 LikeWork: 35
 Class: 102
+Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: o0 
@@ -273,7 +280,6 @@ Skill: 4 50
 Skill: 132 80
 Skill: 136 66
 E
-I кожа:7
 I глаза:6
 #33207
 скелет раб~
@@ -303,6 +309,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -347,6 +354,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -385,6 +393,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -432,6 +441,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -477,6 +487,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 
@@ -512,6 +523,7 @@ Size: 30
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -554,6 +566,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
@@ -596,6 +609,7 @@ LikeWork: 100
 MaxFactor: 125
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 100
 Special_Bitvector: y0 
@@ -619,7 +633,7 @@ E
    Высокий мужчина, обладающий недюжинными способностями. Только почему вы
 видите сквозь него?
 ~
-b0d0g0n0o0q0z0A0B0 d0e0f0h0k0c1k1m1 0 E
+b0d0g0n0o0q0z0B0 d0e0f0h0k0c1k1m1 0 E
 27 2 -10 1d1+800 9d6+0
 0d0+0 55000
 8 8 1
@@ -633,6 +647,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
@@ -672,6 +687,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 110
 Height: 198
 Weight: 150
 Special_Bitvector: o0c1 
@@ -704,6 +720,7 @@ Size: 12
 LikeWork: 100
 ExtraAttack: 2
 Class: 100
+Race: 109
 Height: 198
 Weight: 200
 Special_Bitvector: a0b0c0d0e0f0 
@@ -744,6 +761,7 @@ Cha: 36
 Size: 100
 LikeWork: 100
 Class: 101
+Race: 109
 Height: 198
 Weight: 200
 Special_Bitvector: j0l0v0 

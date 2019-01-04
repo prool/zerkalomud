@@ -321,7 +321,7 @@ foreach igr %self.pc%
           wecho - Пусть стрелы, рукой твоей пущенные, как молнии летят.
           if !%igr.skill(дополнительный выстрел)%
             wskillturn %igr.name% дополнительный.выстрел set
-          elseif %igr.skill(дополнительный.выстрел)% < 110
+          elseif %igr.skill(дополнительный выстрел)% < 110
             wskilladd %igr.name% дополнительный.выстрел 3
           end
         break

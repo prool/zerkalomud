@@ -13,7 +13,7 @@
 
 ~
 c0d0g0h0i0k0m0n0A0 0 -600 E
-25 5 0 10d10+650 6d6+10
+20 5 0 10d10+650 6d6+10
 0d0+0 40000
 8 8 1
 BareHandAttack: 4
@@ -27,6 +27,7 @@ Size: 30
 LikeWork: 50
 MaxFactor: 20
 Class: 100
+Race: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -57,7 +58,7 @@ E
 
 ~
 c0d0g0j0m0n0 0 -600 E
-28 4 0 10d10+550 8d8+20
+22 4 0 10d10+550 8d8+20
 0d0+0 60000
 8 8 1
 BareHandAttack: 4
@@ -72,6 +73,7 @@ LikeWork: 50
 MaxFactor: 15
 ExtraAttack: 1
 Class: 100
+Race: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -99,7 +101,7 @@ E
 с которых на землю капает густая, вязкая слюна.
 ~
 d0f0g0n0o0A0 0 -600 E
-29 3 -3 10d10+780 8d10+20
+23 3 -3 10d10+780 8d10+20
 0d0+0 70000
 8 8 1
 BareHandAttack: 4
@@ -113,7 +115,8 @@ Size: 35
 LikeWork: 55
 MaxFactor: 15
 ExtraAttack: 1
-Class: 116
+Class: 107
+Race: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -148,7 +151,7 @@ E
 
 ~
 b0d0g0n0o0 d0f0k0 -600 E
-25 2 -3 10d10+600 10d2+15
+20 2 -3 10d10+600 10d2+15
 10d10+70 40000
 8 8 1
 Str: 20
@@ -162,6 +165,7 @@ LikeWork: 70
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -218,6 +222,7 @@ Cha: 10
 Size: 25
 MaxFactor: 15
 Class: 100
+Race: 104
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -253,6 +258,7 @@ LikeWork: 25
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -288,6 +294,7 @@ Cha: 15
 Size: 25
 MaxFactor: 10
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -326,6 +333,7 @@ LikeWork: 50
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -352,7 +360,7 @@ T 90013
 
 ~
 b0d0f0g0n0o0 d0f0k0 -600 E
-25 0 -3 40d20+1600 3d5+15
+21 0 -3 40d20+1600 3d5+15
 0d0+0 50000
 8 8 1
 Str: 25
@@ -366,6 +374,7 @@ LikeWork: 30
 MaxFactor: 15
 ExtraAttack: 1
 Class: 100
+Race: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -409,6 +418,7 @@ LikeWork: 40
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -429,7 +439,7 @@ E
 зеленые глаза.
 ~
 b0d0g0n0o0 d0f0g0k0 -600 E
-30 8 0 10d10+550 3d5+15
+17 8 0 10d10+550 3d5+15
 0d0+0 25000
 8 8 2
 BareHandAttack: 2
@@ -444,6 +454,7 @@ LikeWork: 90
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 102
 Height: 180
 Weight: 150
 Special_Bitvector: d0o0 
@@ -478,7 +489,7 @@ T 90021
 пару ужасного вида клыков, покрытых алой кровью.
 ~
 d0f0g0n0o0 d0f0k0 -600 E
-29 5 -5 15d10+1700 15d10+20
+29 5 -5 15d10+1700 10d10+15
 10d10+200 200000
 5 5 1
 BareHandAttack: 4
@@ -493,6 +504,7 @@ LikeWork: 50
 MaxFactor: 15
 ExtraAttack: 1
 Class: 104
+Race: 112
 Height: 180
 Weight: 150
 Special_Bitvector: g0 
@@ -537,7 +549,7 @@ L 90036 8 0 0
 
 ~
 b0d0g0k0m0n0o0 d0f0k0 -600 E
-25 8 -2 10d10+450 6d6+15
+16 8 -2 10d10+450 6d6+15
 10d10+100 20000
 5 5 2
 BareHandAttack: 8
@@ -551,7 +563,8 @@ Size: 30
 LikeWork: 60
 MaxFactor: 15
 ExtraAttack: 1
-Class: 116
+Class: 107
+Race: 115
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -585,7 +598,7 @@ T 90024
 
 ~
 b0d0g0k0m0n0o0 d0f0k0 -600 E
-25 3 2 10d10+650 6d6+15
+21 3 2 10d10+650 6d6+15
 10d10+100 50000
 8 8 2
 BareHandAttack: 2
@@ -599,7 +612,8 @@ Size: 30
 LikeWork: 70
 MaxFactor: 15
 ExtraAttack: 1
-Class: 116
+Class: 107
+Race: 115
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -640,7 +654,7 @@ T 90023
 
 ~
 d0g0m0 0 -600 E
-10 10 5 10d8+200 3d3+8
+8 10 5 10d8+200 3d3+8
 0d0+0 3000
 8 8 2
 BareHandAttack: 4
@@ -653,7 +667,8 @@ Cha: 10
 Size: 20
 MaxFactor: 20
 ExtraAttack: 1
-Class: 116
+Class: 107
+Race: 115
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -679,7 +694,7 @@ E
 
 ~
 d0g0j0 0 -600 E
-10 10 5 8d10+220 3d2+10
+8 10 5 8d10+220 3d2+10
 0d0+0 3000
 8 8 1
 BareHandAttack: 1
@@ -693,7 +708,8 @@ Size: 20
 LikeWork: 20
 MaxFactor: 20
 ExtraAttack: 1
-Class: 116
+Class: 107
+Race: 107
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -722,7 +738,7 @@ E
 
 ~
 b0d0g0n0o0 0 0 E
-10 10 5 12d10+180 5d3+5
+8 10 5 12d10+180 5d3+5
 0d0+0 3000
 6 6 2
 BareHandAttack: 2
@@ -735,7 +751,8 @@ Cha: 12
 Size: 25
 MaxFactor: 10
 ExtraAttack: 1
-Class: 116
+Class: 107
+Race: 115
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -761,7 +778,7 @@ E
 
 ~
 b0d0g0m0n0o0 d0f0k0 600 E
-25 5 0 5d5+400 3d4+10
+14 5 0 5d5+400 3d4+10
 0d0+0 15000
 8 8 1
 Str: 15
@@ -774,7 +791,8 @@ Size: 30
 LikeWork: 50
 MaxFactor: 10
 ExtraAttack: 1
-Class: 116
+Class: 107
+Race: 115
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -821,6 +839,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -841,7 +860,7 @@ E
   А запах ! Такого перегара, которым несет от него, Вы не слышали ни разу.
 ~
 b0d0g0 0 0 E
-25 6 2 10d10+750 5d3+10
+12 6 2 10d10+750 5d3+10
 10d10+20 10000
 8 8 1
 Str: 16
@@ -855,6 +874,7 @@ LikeWork: 30
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -891,6 +911,7 @@ Cha: 16
 Size: 30
 MaxFactor: 10
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -926,6 +947,7 @@ Size: 30
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -947,7 +969,7 @@ E
 волосатую грудь и здоровенные ручищи, толщиной в ляжку обычного человека.
 ~
 b0c0d0g0l0m0n0o0A0 d0f0k0z0 -600 E
-30 0 -8 10d10+850 4d5+15
+21 0 -8 10d10+850 4d5+15
 50d2+100 50000
 6 6 1
 Str: 25
@@ -961,6 +983,7 @@ LikeWork: 80
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -984,7 +1007,7 @@ T 90027
 у наковальни, или идти за плугом, подался на вольные хлеба.
 ~
 b0c0d0g0l0m0n0o0A0 0 -600 E
-18 6 0 10d10+500 4d2+12
+16 6 0 10d10+500 4d2+12
 5d5+50 20000
 6 6 1
 Str: 18
@@ -998,6 +1021,7 @@ LikeWork: 20
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1020,7 +1044,7 @@ E
 _Довершает картину огромный шнобель, похожий на буровую установку.
 ~
 b0d0g0n0 d0f0k0l1 -600 E
-25 10 -10 20d20+5000 8d8+20
+29 10 -10 20d20+5000 8d8+20
 0d0+0 200000
 8 8 1
 BareHandAttack: 6
@@ -1035,6 +1059,7 @@ LikeWork: 20
 MaxFactor: 10
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 180
 Weight: 150
 Special_Bitvector: d0 
@@ -1059,7 +1084,7 @@ T 90029
  Довершает картину огромный шнобель, похожий на буровую установку.
 ~
 b0d0g0n0 d0f0k0l1 -600 E
-25 10 -10 20d10+3000 7d5+15
+29 10 -10 20d10+3000 7d5+15
 0d0+0 200000
 8 8 1
 BareHandAttack: 6
@@ -1074,6 +1099,7 @@ LikeWork: 20
 MaxFactor: 10
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 180
 Weight: 150
 Special_Bitvector: d0 
@@ -1096,7 +1122,7 @@ E
 перепоясанный коричневым поясом.
 ~
 b0c0d0f0g0n0o0A0 d0f0k0 -600 E
-28 5 -5 10d10+600 9d6+15
+24 5 -5 10d10+600 9d6+15
 0d0+0 80000
 8 8 1
 Str: 20
@@ -1110,6 +1136,7 @@ LikeWork: 50
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1130,7 +1157,7 @@ T 90036
 перепоясанный черным поясом.
 ~
 b0c0d0f0g0n0o0p0A0 d0f0k0 -600 E
-27 0 -10 20d10+900 8d9+20
+25 0 -10 20d10+900 8d9+20
 0d0+0 100000
 8 8 1
 Str: 22
@@ -1144,6 +1171,7 @@ LikeWork: 80
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1163,7 +1191,7 @@ T 90037
  Жирный, скользкий тип, с черными масляными глазами.
 ~
 b0c0d0f0g0n0o0p0A0 d0f0k0 -600 E
-30 5 -6 20d10+700 8d10+30
+28 5 -6 20d10+700 8d10+30
 20d10+200 150000
 6 6 1
 Str: 20
@@ -1177,6 +1205,7 @@ LikeWork: 70
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1200,7 +1229,7 @@ T 90040
 получилось на редкость худосочным, к тому же страдающим всевозможными недугами.
 ~
 b0d0f0g0n0o0 d0f0k0l1 -600 E
-25 0 -5 20d20+2000 5d4+10
+21 0 -5 20d20+2000 5d4+10
 0d0+0 50000
 8 8 1
 BareHandAttack: 4
@@ -1215,9 +1244,10 @@ LikeWork: 20
 MaxFactor: 10
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 180
 Weight: 150
-Special_Bitvector: 0 
+Special_Bitvector: d0 
 Skill: 136 75
 E
 #90030
@@ -1246,6 +1276,7 @@ Con: 3
 Cha: 3
 Size: 30
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -1280,6 +1311,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -1303,7 +1335,7 @@ T 90066
 основными потребностями и руководствующееся лишь одними инстинктами.
 ~
 c0d0f0g0m0o0A0 d0f0k0 -600 E
-22 6 -2 20d4+400 4d4+9
+16 6 -2 20d4+400 4d4+9
 0d0+0 20000
 8 8 1
 Str: 20
@@ -1317,6 +1349,7 @@ LikeWork: 15
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1340,7 +1373,7 @@ T 90051
 он, похоже, настолько привык к этому, что даже не обращает внимания.
 ~
 b0c0d0f0g0l0m0n0o0A0 d0f0k0 -600 E
-30 0 -6 20d10+1400 4d8+15
+29 0 -6 20d10+1400 4d8+15
 10d10+220 250000
 8 8 1
 Str: 18
@@ -1354,6 +1387,7 @@ LikeWork: 60
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1413,6 +1447,7 @@ Cha: 14
 Size: 50
 LikeWork: 20
 Class: 101
+Race: 110
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -1450,6 +1485,7 @@ Con: 10
 Cha: 14
 Size: 20
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -1486,6 +1522,7 @@ Size: 30
 LikeWork: 100
 ExtraAttack: 2
 Class: 102
+Race: 114
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -1520,6 +1557,7 @@ Con: 3
 Cha: 20
 Size: 30
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -1554,6 +1592,7 @@ Con: 3
 Cha: 18
 Size: 30
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -1579,7 +1618,7 @@ E
 разгадывать.
 ~
 b0d0g0n0o0 d0f0k0 -600 E
-26 5 -5 10d10+600 3d5+15
+20 5 -5 10d10+600 3d5+15
 10d4+80 40000
 6 6 1
 Str: 18
@@ -1593,6 +1632,7 @@ LikeWork: 30
 MaxFactor: 10
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -1614,7 +1654,7 @@ T 90056
 улице.
 ~
 c0d0g0m0n0o0A0 d0f0k0 -600 E
-25 2 -7 20d10+800 10d2+15
+24 2 -7 20d10+800 10d2+15
 15d6+150 80000
 8 8 1
 Str: 23
@@ -1628,6 +1668,7 @@ LikeWork: 60
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1654,7 +1695,7 @@ I сердце:7
 в нашу игру они не играют.
 ~
 c0d0g0o0A0 d0f0k0 -600 E
-25 4 -6 20d10+700 5d3+10
+22 4 -6 20d10+700 5d3+10
 10d8+80 60000
 8 8 1
 Str: 18
@@ -1668,6 +1709,7 @@ LikeWork: 40
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1696,7 +1738,7 @@ I сердце:7
 договорятся миром все уладить. Короче - время еще то, хорошее в смысле.
 ~
 c0d0g0o0A0 d0f0k0 -600 E
-25 5 -5 20d10+900 5d3+10
+21 5 -5 20d10+900 5d3+10
 10d10+100 50000
 8 8 1
 Str: 20
@@ -1710,6 +1752,7 @@ LikeWork: 40
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
+Race: 104
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1735,7 +1778,7 @@ I сердце:7
 жил по понятиям, а не шестерил на кумовей да хозяина.
 ~
 b0c0d0e0n0o0A0 d0f0k0 -600 E
-25 2 -4 10d10+500 4d3+12
+20 2 -4 10d10+500 4d3+12
 5d5+50 40000
 6 6 1
 Str: 18
@@ -1749,6 +1792,7 @@ LikeWork: 80
 MaxFactor: 15
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 180
 Weight: 150
 Special_Bitvector: a1b1c1 
@@ -1776,7 +1820,7 @@ I сердце:7
 серьезного хватит - так и к дырявым загреметь не долго.
 ~
 b0c0d0g0l0o0A0 d0f0k0 -600 E
-25 5 4 20d20+1200 3d3+10
+21 5 4 20d20+1200 3d3+10
 10d10+70 50000
 6 6 1
 Str: 18
@@ -1790,6 +1834,7 @@ LikeWork: 30
 MaxFactor: 15
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 180
 Weight: 150
 Special_Bitvector: a1b1 
@@ -1815,7 +1860,7 @@ I сердце:7
 утехе. 
 ~
 b0c0d0g0k0o0p0A0 d0f0k0 -600 E
-30 2 -8 10d10+1500 10d3+10
+25 2 -8 10d10+1500 10d3+10
 10d10+200 100000
 6 6 1
 Str: 20
@@ -1829,6 +1874,7 @@ LikeWork: 80
 MaxFactor: 15
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 

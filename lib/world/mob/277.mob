@@ -24,6 +24,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -56,16 +57,16 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 50
 Weight: 100
 Special_Bitvector: a0f0b1c1C3 
 Skill: 4 80
 Skill: 22 80
-Skill: 136 150
-Helper: 27705
-Helper: 27704
-Helper: 27703
 Skill: 136 75
+Helper: 27703
+Helper: 27704
+Helper: 27705
 E
 T 27713
 L 27707 100 0 0
@@ -97,6 +98,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 50
 Weight: 60
 Special_Bitvector: p0b1c1 
@@ -131,6 +133,7 @@ Size: 100
 LikeWork: 14
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 100
 Special_Bitvector: p0b1c1C3 
@@ -168,6 +171,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 50
 Weight: 60
 Special_Bitvector: p0b1c1 
@@ -203,6 +207,7 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: p0b1c1 
@@ -238,6 +243,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1i3 
@@ -269,6 +275,7 @@ Con: 10
 Cha: 10
 Size: 10
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -300,6 +307,7 @@ Con: 10
 Cha: 10
 Size: 10
 Class: 103
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -331,6 +339,7 @@ Con: 15
 Cha: 10
 Size: 10
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -366,6 +375,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 50
 Weight: 60
 Special_Bitvector: p0b1c1 

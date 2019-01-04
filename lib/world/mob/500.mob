@@ -13,7 +13,7 @@ __Странно, но Вы не можете рассмотреть его лица, хотя, вроде бы четко видите и р
 действительность совсем не мешает разглядеть складки одежды, НО никак не лицо.
 ~
 b0d0n0o0p0z0o1f2g2 d0f0k0C0D0 600 E
-30 20 -10 10d10+500 0d0+0
+1 20 -10 10d10+500 0d0+0
 0d0+0 1
 8 8 1
 Str: 20
@@ -26,6 +26,7 @@ Size: 25
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: l0u0 
@@ -74,6 +75,7 @@ Size: 30
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -314,7 +316,7 @@ T 50011
 раскрытом листе бумаги. Внимательный взгляд охватывает сразу все помещение.
 ~
 b0d0g0n0o0r0t0u0x0y0o1s1 d0f0k0m0n0r0z0 600 E
-30 20 -10 10d10+700 5d5+5
+1 20 -10 10d10+700 5d5+5
 0d0+0 1
 8 8 1
 Str: 25
@@ -326,6 +328,7 @@ Cha: 25
 Size: 80
 LikeWork: 70
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -375,6 +378,7 @@ Cha: 15
 Size: 30
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -416,7 +420,7 @@ E
 ему прикажут.
 ~
 c0d0e0g0l0m0n0o0x0A0 c0d0e0f0k0m0n0p0r0z0A0C0m1 600 E
-27 15 -10 20d10+500 4d4+10
+14 15 -10 20d10+500 4d4+10
 0d0+0 15000
 8 8 1
 Str: 25
@@ -429,6 +433,7 @@ Size: 25
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -472,7 +477,7 @@ E
 кому-нибудь морду. Будьте поаккуратнее с ним.
 ~
 b0c0d0e0g0l0m0n0o0x0A0 c0d0e0f0p0r0z0A0C0 600 E
-25 15 -5 10d10+500 3d3+10
+12 15 -5 10d10+500 3d3+10
 0d0+0 10000
 8 8 1
 Str: 25
@@ -485,6 +490,7 @@ Size: 25
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -519,6 +525,7 @@ Size: 25
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -543,7 +550,7 @@ E
 себя веселое зрелище. Шутка ли, выпить пару литров отборного вина.
 ~
 b0c0d0e0g0l0m0n0o0x0 d0e0f0k0m0n0r0z0C0l1 600 E
-20 5 5 5d5+300 3d3+5
+9 5 5 5d5+300 3d3+5
 0d0+0 5000
 4 4 1
 Str: 15
@@ -556,12 +563,13 @@ Size: 15
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
 Skill: 136 60
-Helper: 50005
 Helper: 50004
+Helper: 50005
 E
 #50008
 князь ярослав мудрый~
@@ -581,7 +589,7 @@ E
 вряд ли способен передвигаться сам.
 ~
 b0c0d0e0g0l0m0n0o0p0r0x0A0 c0d0e0f0h0r0z0C0n1 600 E
-30 20 10 20d20+1000 4d4+0
+21 20 10 20d20+1000 4d4+0
 0d0+0 50000
 6 6 1
 Str: 30
@@ -594,6 +602,7 @@ Size: 30
 LikeWork: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -623,7 +632,7 @@ E
    Теперь он удостоен чести быть личным телохранителем князя.
 ~
 b0c0d0e0g0l0m0n0o0p0x0A0 c0d0e0f0h0k0m0n0p0r0s0t0z0A0C0j1m1q1 600 E
-30 20 -10 10d10+700 10d3+10
+20 20 -10 10d10+700 10d3+10
 0d0+0 40000
 8 8 1
 Str: 36
@@ -636,6 +645,7 @@ Size: 35
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: j0b1c1d1 
@@ -659,7 +669,7 @@ E
 сделали этого человека очень почитаемым на Руси.
 ~
 b0c0d0e0g0l0m0n0o0p0r0x0 c0d0e0f0h0k0m0n0r0z0A0p1 600 E
-25 5 0 5d5+500 3d3+0
+17 5 0 5d5+500 3d3+0
 0d0+0 25000
 8 8 1
 Str: 20
@@ -670,6 +680,7 @@ Con: 20
 Cha: 36
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -718,7 +729,7 @@ E
 хуже ветвей деревьев в дебрях. Угрюмое лицо слегка отпугивает. 
 ~
 b0c0d0g0n0o0 c0d0f0 0 E
-20 15 -6 5d5+400 4d4+10
+9 15 -6 5d5+400 4d4+10
 0d0+0 5000
 8 8 1
 Str: 15
@@ -729,6 +740,7 @@ Con: 15
 Cha: 3
 Size: 20
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -747,8 +759,8 @@ E
    Это уже немолодой мужчина. Судя по количеству муки в его волосах и по 
 количеству засохшего теста на его одежде это пекарь.
 ~
-b0c0d0g0n0o0 0 0 E
-5 0 10 0d0+100 0d0+3
+b0c0d0g0n0o0u2 0 0 E
+9 0 10 0d0+100 0d0+3
 0d0+0 5000
 8 8 1
 Str: 3
@@ -759,6 +771,7 @@ Con: 3
 Cha: 3
 Size: 20
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -778,7 +791,7 @@ E
   На поясе у нее висит тяжелый ключ, которым, судя по всему, и открывается комод.
 ~
 b0c0d0g0n0o0 0 0 E
-15 0 0 0d0+1000 0d0+5
+12 0 0 0d0+1000 0d0+5
 0d0+0 10000
 8 8 1
 Str: 3
@@ -789,6 +802,7 @@ Con: 3
 Cha: 3
 Size: 25
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -809,8 +823,8 @@ E
    Обосновавшись здесь, он сразу начал промышлять тем, что скупал у людишек
 вещи подешевле и продавал их подороже.
 ~
-b0c0d0g0n0o0 0 0 E
-25 20 -6 3d100+500 10d5+0
+b0c0d0g0n0o0u2 0 0 E
+16 20 -6 3d100+500 10d5+0
 10d10+2000 20000
 8 8 1
 Str: 30
@@ -822,6 +836,7 @@ Cha: 15
 Size: 40
 LikeWork: 100
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -837,8 +852,8 @@ Spell: 75
 Spell: 75
 Spell: 75
 Spell: 75
-Helper: 50005
 Helper: 50004
+Helper: 50005
 E
 #50015
 сорванец ~
@@ -853,7 +868,7 @@ E
    На вид этому ребенку можно дать не больше 10 лет.
 ~
 c0d0g0n0o0 m1 600 E
-5 0 0 5d5+100 0d0+1
+1 0 0 5d5+100 0d0+1
 0d0+0 100
 8 8 1
 Str: 3
@@ -864,12 +879,13 @@ Con: 3
 Cha: 3
 Size: 15
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: p0b1 
 Skill: 136 15
-Helper: 50004
 Helper: 50005
+Helper: 50004
 E
 #50016
 горожанин~
@@ -883,7 +899,7 @@ E
 ~
 undefined~
 c0d0g0n0o0 0 600 E
-15 0 0 0d0+200 0d0+10
+4 0 0 0d0+200 0d0+10
 0d0+0 1000
 8 8 1
 Str: 3
@@ -894,12 +910,13 @@ Con: 3
 Cha: 3
 Size: 20
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
 Skill: 136 45
-Helper: 50005
 Helper: 50004
+Helper: 50005
 E
 #50017
 горожанин~
@@ -913,7 +930,7 @@ E
 ~
 undefined~
 b0c0d0g0n0o0 0 600 E
-15 0 0 0d0+200 0d0+10
+4 0 0 0d0+200 0d0+10
 0d0+0 1000
 8 8 1
 Str: 3
@@ -924,12 +941,13 @@ Con: 3
 Cha: 3
 Size: 20
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
 Skill: 136 45
-Helper: 50005
 Helper: 50004
+Helper: 50005
 E
 #50018
 крестьянка~
@@ -943,7 +961,7 @@ E
 ~
 undefined~
 c0d0g0n0o0 0 600 E
-15 0 0 0d0+200 0d0+10
+4 0 0 0d0+200 0d0+10
 0d0+0 1000
 8 8 1
 Str: 3
@@ -954,12 +972,13 @@ Con: 3
 Cha: 3
 Size: 20
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
 Skill: 136 45
-Helper: 50005
 Helper: 50004
+Helper: 50005
 E
 #50019
 седой старый волхв ~
@@ -985,6 +1004,7 @@ Wis: 36
 Con: 3
 Cha: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1009,8 +1029,8 @@ Spell: 40
 Spell: 40
 Spell: 40
 Spell: 40
-Helper: 50004
 Helper: 50005
+Helper: 50004
 E
 #50020
 хозяин~
@@ -1023,8 +1043,8 @@ E
 Хозяин постоялого двора стоит тут.
 ~
 undefined~
-b0c0d0g0 0 600 E
-1 0 0 0d0+1000 0d0+5
+b0c0d0g0n0u2 0 600 E
+12 0 0 0d0+1000 0d0+5
 0d0+0 10000
 8 8 1
 Str: 3
@@ -1034,6 +1054,7 @@ Wis: 3
 Con: 3
 Cha: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -1061,6 +1082,7 @@ Wis: 3
 Con: 3
 Cha: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -1080,7 +1102,7 @@ E
 себя веселое зрелище. Шутка ли, выпить пару литров отборного вина.
 ~
 b0c0d0e0g0l0m0n0o0x0 d0e0f0k0m0n0r0z0C0l1 600 E
-20 5 5 5d5+300 3d3+5
+9 5 5 5d5+300 3d3+5
 0d0+0 5000
 8 8 1
 Str: 15
@@ -1093,12 +1115,13 @@ Size: 15
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: e0b1c1d1 
 Skill: 136 60
-Helper: 50005
 Helper: 50004
+Helper: 50005
 E
 T 50002
 #50023
@@ -1129,6 +1152,7 @@ Size: 75
 LikeWork: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -1160,7 +1184,7 @@ T 50004
 Странный тип, так и хочется вмазать ему по морде.
 ~
 d0j0l0n0A0s1 d0f0k0m1x1y1z1 0 E
-30 -5 -7 5d5+1000 5d3+8
+18 -5 -7 5d5+1000 5d3+8
 0d0+0 30000
 8 8 1
 MResist: 100
@@ -1173,6 +1197,8 @@ Con: 20
 Cha: 18
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: f0g0 
@@ -1193,7 +1219,7 @@ E
 у торговых гостей.
 ~
 d0l0n0o0y0A0f2g2 d0f0k0r0r1 -600 E
-31 -8 -4 15d10+1000 4d14+5
+28 -8 -4 15d10+1000 4d14+5
 0d0+100 150000
 8 8 1
 BareHandAttack: 10
@@ -1205,6 +1231,8 @@ Con: 29
 Cha: 20
 Size: 30
 ExtraAttack: 2
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1 
@@ -1242,6 +1270,8 @@ Dex: 36
 Int: 36
 Wis: 36
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1263,8 +1293,8 @@ ____________...И островаты....
 ____________________....И клычки как-то выпирают!!!...
 _________________________И глазки светятся!!! АААААААААА!!!!!!
 ~
-c0d0f0l0t0z0A0 d0f0k0r0z0 0 E
-25 -8 -4 5d20+360 5d20+5
+c0d0l0t0z0A0 d0f0k0r0z0 0 E
+25 18 -4 5d20+1000000 5d1+5
 0d0+0 0
 8 8 1
 BareHandAttack: 4
@@ -1275,24 +1305,12 @@ Con: 36
 Cha: 6
 Size: 30
 ExtraAttack: 2
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
-Skill: 2 100
-Skill: 4 60
-Skill: 7 150
-Skill: 136 75
-Skill: 140 150
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
 E
-T 50076
 #50028
 корчмарь Микола~
 корчмарь Микола~
@@ -1319,6 +1337,8 @@ Cha: 17
 Size: 30
 LikeWork: 70
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1345,29 +1365,200 @@ b0d0e0n0p0q0r0x0o1t1f2i2j2 d0f0k0p0x0n1q1z1 0 E
 8 8 2
 Size: 30
 Class: 100
+Race: 113
 Height: 198
 Weight: 200
-Special_Bitvector: b0c0u0 
+Special_Bitvector: a0u0 
 E
 T 50030
 T 50031
+#50039
+двое ларца~
+двое-из-ларца~
+двоих-из-ларца~
+двоим-из-ларца~
+двоих-из-ларца~
+двоими-из-ларца~
+двоих-из-ларца~
+Двое-из-ларца бьют здесь баклуши.
+~
+Две здоровенных орясины в вышитых рубахах.
+По слову хозяина все починят-исправят.
+~
+b0d0n0o0p0r0t0u0B0u2 d0f0k0 0 E
+30 -10 -10 1d100+2000 30d30+30
+0d0+0 0
+8 8 3
+Str: 50
+Dex: 50
+Wis: 50
+Size: 30
+ExtraAttack: 5
+Class: 102
+Race: 101
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+Spell: 73
+E
+T 50039
+T 50037
+#50041
+призрачный ворон~
+призрачный ворон~
+призрачного ворона~
+призрачному ворону~
+призрачного ворона~
+призрачным вороном~
+призрачном вороне~
+Призрачный ворон вьется здесь в вышине.
+~
+Огромный черный ворон с призрачными крыльями
+и острым как клинок клювом.
+~
+d0t0x0z0s1f2 d0k0p0v0x0e2 0 E
+30 -15 -7 50d30+1500 25d7+25
+0d0+0 0
+8 8 1
+BareHandAttack: 15
+Dex: 20
+Int: 14
+Wis: 16
+Con: 23
+Cha: 15
+Size: 50
+LikeWork: 60
+ExtraAttack: 2
+Class: 103
+Race: 111
+Height: 190
+Weight: 100
+Special_Bitvector: l0 
+Skill: 4 75
+Skill: 136 120
+Skill: 137 200
+Skill: 149 80
+Skill: 157 150
+Skill: 167 35
+E
 #50048
-неоконченный моб~
-неоконченный моб~
-неоконченного моба~
-неоконченному мобу~
-неоконченного моба~
-неоконченным мобом~
-неоконченном мобе~
-Неоконченный моб стоит тут.
+лохв~
+лохв~
+лохва~
+лохву~
+лохва~
+лохвов~
+лохве~
+Обыкновенный лохв ищет тут группу.
 ~
 Выглядит достаточно незавершенно.
 ~
-d0 0 0 E
-0 20 0 1d100+1 1d1+0
+d0l2 0 600 E
+1 0 0 1d100+200 5d5+5
 0d0+0 0
-8 8 0
+8 8 1
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1383,18 +1574,18 @@ T 50048
 лунном звере~
 Диковинный лунный зверь пляшет здесь в воздухе.
 ~
-невиданынй зверь, чье поджарое, покрытое серебристо-белым мехом
+Невиданный зверь, чье поджарое, покрытое серебристо-белым мехом
 тело украшено широкими кожистыми крыльями, и увенчано головой
 с огромными светящимися глазами, и внушающими уважение клыками.
 ~
-d0p0s0t0x0z0A0b1 d0k0e2 0 E
-30 -10 -10 20d20+1000 8d12+30
+d0p0s0t0x0A0b1u2 k0e2 0 E
+30 -4 -10 8d6+1000 10d12+35
 0d0+0 0
 8 8 1
 AResist: 20
 BareHandAttack: 8
 Str: 30
-Dex: 30
+Dex: 31
 Int: 30
 Wis: 30
 Con: 27
@@ -1402,14 +1593,14 @@ Cha: 20
 Size: 50
 LikeWork: 95
 ExtraAttack: 2
-Class: 100
+Class: 103
+Race: 114
 Height: 180
 Weight: 130
-Special_Bitvector: y0b1c1d1 
+Special_Bitvector: l0y0b1c1d1 
 Skill: 22 100
 Skill: 136 100
 Skill: 137 100
-Skill: 141 100
 Skill: 142 100
 Skill: 146 100
 Skill: 157 120
@@ -1439,6 +1630,8 @@ Con: 30
 Cha: 25
 Size: 60
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b0p0 

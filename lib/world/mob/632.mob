@@ -20,6 +20,8 @@ Int: 10
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
+Height: 198
 Weight: 60
 Special_Bitvector: 0 
 Skill: 4 150
@@ -51,6 +53,8 @@ BareHandAttack: 11
 Size: 53
 ExtraAttack: 1
 Class: 102
+Race: 101
+Height: 198
 Weight: 50
 Special_Bitvector: i0j0a1b1c1 
 Skill: 131 120
@@ -80,6 +84,8 @@ BareHandAttack: 11
 Size: 53
 ExtraAttack: 1
 Class: 102
+Race: 101
+Height: 198
 Weight: 50
 Special_Bitvector: i0j0a1b1c1 
 Skill: 131 120

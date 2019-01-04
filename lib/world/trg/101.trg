@@ -160,7 +160,7 @@ if !%self.fighting%
     mload obj 534
     mecho - Я хотел ее продать, но пусть это будет твоей наградой.
     give книг %actor.name%
-  elseif %world.curobjs(3344)% < 1 && %random.1000% < 250
+  elseif ((%random.1000% <= 100) && (%world.curobjs(3344)% < 1))
     say Возьми эти сапоги, их ценность намного выше, чем кажется на первый  взгляд.
     wait 1
     mload obj 3344

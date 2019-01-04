@@ -23,6 +23,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -56,6 +57,7 @@ Size: 25
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
@@ -92,6 +94,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -127,6 +130,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -161,6 +165,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -195,6 +200,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -230,6 +236,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: l0b1c1C3 
@@ -255,9 +262,9 @@ Spell: 76
 Spell: 76
 Spell: 93
 Spell: 93
-Helper: 93509
-Helper: 93508
 Helper: 93507
+Helper: 93508
+Helper: 93509
 E
 T 93525
 #93507
@@ -287,6 +294,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: i0C3 
@@ -323,6 +331,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: p0b1c1C3 
@@ -330,7 +339,6 @@ Skill: 5 70
 Skill: 22 70
 Skill: 136 70
 E
-I копыта:5
 #93509
 тощий упыренок~
 тощий упыренок~
@@ -358,6 +366,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 156
 Weight: 57
 Special_Bitvector: p0b1c1C3 
@@ -394,6 +403,7 @@ Size: 78
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 156
 Weight: 65
 Special_Bitvector: b1c1C3 
@@ -431,6 +441,7 @@ Size: 78
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 156
 Weight: 65
 Special_Bitvector: b1c1C3 
@@ -467,6 +478,7 @@ Size: 78
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 156
 Weight: 65
 Special_Bitvector: b1c1C3 
@@ -503,6 +515,7 @@ Size: 78
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 156
 Weight: 65
 Special_Bitvector: b1c1C3 
@@ -540,6 +553,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -553,7 +567,6 @@ Spell: 144
 Spell: 150
 E
 T 93536
-I копыта:5
 #93515
 здоровенный упырь~
 здоровенный упырь~
@@ -581,6 +594,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -620,6 +634,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: l0C3 
@@ -656,6 +671,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -692,6 +708,7 @@ Size: 98
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 150
 Weight: 50
 Special_Bitvector: b1c1 
@@ -711,10 +728,10 @@ Spell: 88
 Spell: 88
 Spell: 88
 Spell: 93
-Helper: 93517
-Helper: 93516
-Helper: 93515
 Helper: 93514
+Helper: 93515
+Helper: 93516
+Helper: 93517
 E
 T 93526
 #93519
@@ -743,6 +760,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
@@ -773,6 +791,7 @@ Size: 98
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 150
 Weight: 50
 Special_Bitvector: b1c1 
@@ -812,6 +831,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -847,6 +867,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -882,6 +903,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -917,6 +939,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -953,6 +976,7 @@ Size: 78
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 156
 Weight: 65
 Special_Bitvector: b1c1C3 
@@ -989,6 +1013,7 @@ Size: 78
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 156
 Weight: 65
 Special_Bitvector: b1c1C3 

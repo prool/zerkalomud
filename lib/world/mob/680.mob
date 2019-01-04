@@ -11,13 +11,14 @@
 Каждому рад услужить, особенно тому, кто одет хорошо и с мошной тугой
 за поясом.
 ~
-a0b0d0g0n0o0 d0f0k0 0 E
+a0b0d0g0n0o0u2 d0f0k0 0 E
 30 0 -3 100d7+680 7d6+8
 100d100+10000 200000
 8 8 1
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -42,6 +43,7 @@ a0b0d0g0n0o0B0 d0f0k0 -600 E
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -71,6 +73,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1 
@@ -107,6 +110,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1 
@@ -142,6 +146,7 @@ Size: 80
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1 
@@ -181,6 +186,7 @@ Con: 18
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -209,6 +215,7 @@ Con: 18
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -234,6 +241,7 @@ b0d0g0n0o0 0 0 E
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -262,6 +270,7 @@ Con: 18
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -287,6 +296,7 @@ Str: 18
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -315,6 +325,7 @@ Con: 18
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -344,6 +355,7 @@ Con: 18
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -368,6 +380,7 @@ a0b0d0g0n0o0B0o1 d0f0k0 0 E
 Size: 60
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -394,6 +407,7 @@ a0b0d0g0n0o0B0o1 d0f0k0 0 E
 Size: 60
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -421,6 +435,7 @@ Con: 18
 Size: 60
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -449,6 +464,7 @@ Con: 18
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -473,6 +489,7 @@ a0b0d0g0n0o0B0 d0f0k0 -600 E
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -495,6 +512,8 @@ b0d0n0B0o1 d0f0k0 0 E
 0d0+0 0
 8 8 2
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -521,6 +540,8 @@ Str: 36
 Con: 26
 Cha: 22
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -553,6 +574,8 @@ Con: 32
 Cha: 21
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -594,6 +617,7 @@ b0d0 d0f0k0d1 0 E
 8 8 1
 Size: 30
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

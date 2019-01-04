@@ -23,6 +23,7 @@ Con: 3
 Cha: 3
 Size: 8
 Class: 103
+Race: 104
 Height: 198
 Weight: 10
 Special_Bitvector: p0 
@@ -54,6 +55,7 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 100
 Special_Bitvector: b1c1 
@@ -87,6 +89,7 @@ Size: 39
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
@@ -127,6 +130,7 @@ Cha: 3
 Size: 70
 LikeWork: 50
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -161,6 +165,7 @@ Cha: 3
 Size: 20
 LikeWork: 85
 Class: 103
+Race: 103
 Height: 198
 Weight: 10
 Special_Bitvector: p0 
@@ -195,6 +200,7 @@ Size: 40
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 80
 Special_Bitvector: p0 
@@ -229,6 +235,7 @@ Cha: 3
 Size: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
@@ -262,6 +269,7 @@ Size: 80
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: p0 
@@ -296,6 +304,7 @@ Cha: 3
 Size: 30
 LikeWork: 40
 Class: 103
+Race: 103
 Height: 198
 Weight: 50
 Special_Bitvector: l0 
@@ -329,6 +338,7 @@ Cha: 3
 Size: 52
 LikeWork: 35
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
@@ -364,6 +374,7 @@ Size: 57
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
@@ -419,6 +430,7 @@ Cha: 3
 Size: 60
 LikeWork: 40
 Class: 103
+Race: 103
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -454,6 +466,7 @@ Size: 57
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: a1b1c1d1 
@@ -493,6 +506,7 @@ Size: 89
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
@@ -530,6 +544,7 @@ Size: 65
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
@@ -581,6 +596,7 @@ Cha: 3
 Size: 49
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: b1c1d1 
@@ -611,6 +627,7 @@ Con: 3
 Cha: 3
 Size: 56
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -661,6 +678,7 @@ Size: 49
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -708,6 +726,7 @@ Size: 21
 LikeWork: 75
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 50
 Special_Bitvector: l0a1b1c1d1 
@@ -754,6 +773,7 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -788,6 +808,7 @@ Size: 34
 LikeWork: 90
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: p0 
@@ -820,6 +841,7 @@ Cha: 3
 Size: 21
 LikeWork: 35
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -850,6 +872,7 @@ Con: 26
 Cha: 30
 Size: 21
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: i0 
@@ -882,6 +905,7 @@ Size: 76
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -946,6 +970,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
@@ -984,6 +1009,7 @@ Size: 87
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
@@ -1017,6 +1043,7 @@ Con: 3
 Cha: 3
 Size: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -1049,6 +1076,7 @@ Size: 2
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 10
 Special_Bitvector: l0 
@@ -1063,7 +1091,6 @@ Spell: 75
 Spell: 75
 Spell: 75
 Helper: 33918
-Skill: 136 54
 E
 #33928
 Сварог~
@@ -1090,6 +1117,7 @@ Cha: 30
 Size: 50
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -1231,6 +1259,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 168
 Weight: 167
 Special_Bitvector: 0 
@@ -1269,6 +1298,7 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 185
 Weight: 170
 Special_Bitvector: 0 

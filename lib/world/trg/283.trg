@@ -32,8 +32,6 @@ switch %random.4%
     end
   break
 done     
-%load% obj 28312
-%load% mob 28305
 ~
 #28301
 Общие: игрок раздвигает кусты~

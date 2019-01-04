@@ -11,8 +11,8 @@
 Каждому рад услужить, особенно тому, кто одет хорошо и с мошной тугой
 за поясом.
 ~
-a0b0d0g0n0o0 d0f0k0 0 E
-30 0 -3 100d7+600 7d6+8
+a0b0d0g0n0o0u2 d0f0k0 0 E
+29 0 -3 100d7+600 7d6+8
 100d100+10000 200000
 8 8 1
 Str: 3
@@ -24,6 +24,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -42,7 +43,7 @@ E
 Прибыль выше всего, а честь выше прибыли!
 ~
 a0b0d0g0n0o0x0 d0f0k0 0 E
-30 0 -3 100d7+600 7d6+8
+29 0 -3 100d7+600 7d6+8
 100d100+500000 200000
 8 8 1
 Str: 3
@@ -54,6 +55,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -72,7 +74,7 @@ E
 Не обманешь - не продашь!
 ~
 a0b0d0g0n0o0x0B0o1 d0f0k0 0 E
-30 0 -3 100d7+600 7d6+8
+29 0 -3 100d7+600 7d6+8
 100d100+10000 200000
 8 8 1
 Str: 3
@@ -84,6 +86,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -103,8 +106,8 @@ E
 Он побеждал не раз и готов победить вновь и вновь.
 ~
 c0d0g0A0 r0 0 E
-30 0 -3 100d7+600 7d6+8
-0d0+0 1
+28 0 -3 100d7+600 7d6+8
+0d0+0 195000
 8 8 1
 Str: 18
 Dex: 18
@@ -116,6 +119,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1 
@@ -143,7 +147,7 @@ E
 ~
 b0c0d0g0A0 r0 0 E
 29 0 -3 100d7+600 7d6+8
-0d0+1 1
+0d0+1 200000
 8 8 1
 BareHandAttack: 9
 Str: 18
@@ -156,6 +160,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1 
@@ -178,8 +183,8 @@ E
 Конный воин. Такого не выбьешь копьем из седла.
 ~
 b0c0d0g0 0 0 E
-37 0 -10 25d20+1200 7d7+10
-2d2+25 1
+29 0 -10 25d20+1200 7d7+10
+2d2+25 200000
 8 8 1
 Str: 22
 Dex: 21
@@ -191,6 +196,7 @@ Size: 80
 LikeWork: 99
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1 
@@ -222,7 +228,7 @@ E
 пока урядник не видит. С воску-то не больно разживешься!
 ~
 b0d0g0o0 0 0 E
-35 0 -3 100d7+600 7d6+8
+1 0 -3 100d7+600 7d6+8
 1d1+100 1
 8 8 1
 Str: 21
@@ -234,6 +240,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -253,7 +260,7 @@ E
 у новгородского князя.
 ~
 d0g0o0 0 0 E
-33 0 -3 100d7+600 7d6+8
+1 0 -3 100d7+600 7d6+8
 1d1+5 1
 8 8 1
 Str: 21
@@ -265,6 +272,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -284,7 +292,7 @@ E
 в лохмотьях и рванье.
 ~
 b0d0g0o0 0 0 E
-23 0 0 7d7+600 7d6+3
+1 0 0 7d7+600 7d6+3
 1d1+5 1
 8 8 2
 Str: 18
@@ -296,6 +304,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -314,7 +323,7 @@ E
 Молодая красивая новгородчанка с покрытой головой тихо шепчет молитву.
 ~
 b0d0g0o0 0 0 E
-21 0 0 4d7+600 5d4+5
+1 0 0 4d7+600 5d4+5
 1d1+5 1
 8 8 1
 Str: 3
@@ -326,6 +335,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -345,7 +355,7 @@ E
 сегодня "базарный день" авось удастся выгадать при покупке.
 ~
 b0d0g0o0 0 0 E
-25 0 0 7d7+600 3d6+3
+1 0 0 7d7+600 3d6+3
 1d1+5 1
 8 8 1
 Str: 23
@@ -357,6 +367,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -376,7 +387,7 @@ E
 как у бабы беременной. Как он его только носит?!
 ~
 d0g0o0 0 0 E
-26 0 0 7d7+600 4d4+5
+1 0 0 7d7+600 4d4+5
 1d1+10 1
 8 8 1
 Str: 18
@@ -388,6 +399,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -406,7 +418,7 @@ E
 Третья рюмка за счет заведения!
 ~
 a0b0d0g0n0o0x0o1 d0f0k0 0 E
-30 0 -3 100d7+600 7d6+8
+29 0 -3 100d7+600 7d6+8
 100d100+10000 200000
 8 8 1
 Str: 18
@@ -418,6 +430,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -437,7 +450,7 @@ E
 выражением лица.
 ~
 d0g0o0 0 0 E
-27 0 0 7d7+600 6d6+6
+1 0 0 7d7+600 6d6+6
 1d1+5 1
 8 8 1
 Str: 18
@@ -449,6 +462,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -467,7 +481,7 @@ E
 Нэт, я фам коворю! Это не есть карашо! Это стоить исчо болше!
 ~
 b0d0g0o0 0 0 E
-29 0 0 6d5+600 4d4+4
+1 0 0 6d5+600 4d4+4
 1d1+5 1
 8 8 1
 Str: 21
@@ -479,6 +493,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -498,8 +513,8 @@ E
 у новгородского князя.
 ~
 b0d0g0o0 0 0 E
-30 0 -3 100d7+600 7d6+8
-1d1+5 1
+29 0 -3 100d7+600 7d6+8
+1d1+5 200000
 8 8 1
 Str: 25
 Dex: 18
@@ -510,6 +525,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -529,7 +545,7 @@ E
 Совсем юный монашек, наверное недавно принял постриг.
 ~
 a0b0d0g0n0o0B0o1 d0f0k0 0 E
-30 0 -3 100d7+600 7d6+8
+29 0 -3 100d7+600 7d6+8
 100d100+10000 200000
 8 8 1
 Str: 3
@@ -541,6 +557,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -561,7 +578,7 @@ E
 долго видать ему ждать осталось.
 ~
 a0b0d0g0n0o0B0o1 d0f0k0 0 E
-30 0 -3 100d7+600 7d6+8
+29 0 -3 100d7+600 7d6+8
 100d100+10000 200000
 8 8 1
 Str: 3
@@ -573,6 +590,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -588,11 +606,11 @@ E
 сотнике новгородской дружины~
 Сотник новгородской дружины обходит с проверкой караулы на башнях.
 ~
-Бывалый вояка, не даром он до сотника дослужился.
+Бывалый вояка, недаром он до сотника дослужился.
 ~
 b0d0g0n0o0 0 0 E
-41 4 -3 100d7+700 7d6+10
-1d1+5 1
+28 4 -3 100d7+700 7d6+10
+1d1+5 192500
 8 8 1
 Str: 30
 Dex: 31
@@ -603,6 +621,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -624,7 +643,7 @@ E
 Мастер на все руки.
 ~
 d0g0o0 0 0 E
-27 0 -3 7d7+600 5d5+6
+1 0 -3 7d7+600 5d5+6
 1d1+5 1
 8 8 1
 Str: 21
@@ -636,6 +655,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -654,7 +674,7 @@ E
 Денюжки счет любят!
 ~
 a0b0d0g0n0o0 d0f0k0 0 E
-30 0 -3 100d7+600 7d6+8
+29 0 -3 100d7+600 7d6+8
 100d100+10000 200000
 8 8 1
 Str: 3
@@ -666,6 +686,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -695,6 +716,7 @@ Con: 3
 Cha: 3
 Size: 30
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -714,7 +736,7 @@ E
 идолам. Вероятнее всего - она закончит свой век на костре.
 ~
 b0d0B0o1f2 d0f0k0 -600 E
-1 0 0 10d10+2 0d1+1
+12 0 0 10d10+2 0d1+1
 0d0+0 10000
 8 8 2
 Str: 50
@@ -726,6 +748,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

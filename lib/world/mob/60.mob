@@ -11,7 +11,7 @@
 Стройный высокий парень, всегда в чистой белой рубашке и брюках,
 готовый помочь вам отойти ко сну.
 ~
-b0d0n0o0p0B0 d0e0f0k0 600 E
+b0d0n0o0p0B0u2 d0e0f0k0 600 E
 15 5 5 10d10+500 3d3+10
 10d10+200 0
 6 6 1
@@ -24,6 +24,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -54,6 +55,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -87,6 +89,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -122,6 +125,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -157,6 +161,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -195,6 +200,7 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 25
 Special_Bitvector: 0 
@@ -225,6 +231,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -256,6 +263,7 @@ Cha: 18
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -288,6 +296,7 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -319,6 +328,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -349,6 +359,7 @@ Con: 20
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -381,6 +392,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 45
 Special_Bitvector: 0 
@@ -425,6 +437,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 45
 Special_Bitvector: 0 
@@ -458,13 +471,13 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
 Skill: 136 60
 Skill: 144 70
 Helper: 6013
-Skill: 136 60
 E
 T 4003
 #6014
@@ -492,6 +505,7 @@ Con: 20
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -524,6 +538,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -555,6 +570,7 @@ Con: 21
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
@@ -586,6 +602,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -615,6 +632,7 @@ Con: 18
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 90
 Special_Bitvector: 0 
@@ -647,6 +665,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -677,6 +696,7 @@ Wis: 8
 Con: 12
 Size: 25
 Class: 102
+Race: 101
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
@@ -709,6 +729,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -740,6 +761,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: c0b1c1 
@@ -775,6 +797,7 @@ Size: 30
 LikeWork: 100
 MaxFactor: 10
 Class: 100
+Race: 104
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -805,6 +828,7 @@ Con: 30
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 90
 Special_Bitvector: 0 
@@ -837,6 +861,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -868,6 +893,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -900,6 +926,7 @@ Con: 23
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 110
 Special_Bitvector: b1c1 
@@ -930,6 +957,7 @@ Con: 18
 Size: 50
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -964,6 +992,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -996,6 +1025,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 40
 Special_Bitvector: b1c1 
@@ -1011,7 +1041,7 @@ E
 охраннике~
 Широкоплечий охранник стоит здесь.
 ~
-Трактирный охранник, умеет быстро навести порядок 
+Трактирный охранник умеет быстро навести порядок 
 даже в самой шумной компании.
 ~
 b0d0g0n0o0q0B0 0 600 E
@@ -1027,10 +1057,44 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
 Skill: 136 75
 E
 T 6005
+#6032
+сказитель~
+сказитель~
+сказителя~
+сказителю~
+сказителя~
+сказителем~
+сказителе~
+Седовласый сказитель готов поделиться с Вами интересной историей.
+~
+Седовласый странник хранит в своей памяти сотни сказаний и былин.
+Можно попросить его рассказать сказку - авось не откажет.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+E
+T 4020
 $

@@ -14,7 +14,7 @@
 острыми алмазными иглами, которые словно звезды мерцают во мраке.
 ~
 b0c0d0m0n0o0p0x0y0A0c2h2 d0f0k0x0q1z1 -600 E
-33 0 -9 10d10+6000 15d16+19
+35 0 -9 10d10+6000 15d16+19
 30d3+500 800000
 8 8 1
 Saves: -40 -50 -65 -30
@@ -32,6 +32,7 @@ Cha: 18
 Size: 100
 LikeWork: 85
 Class: 103
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: c1 
@@ -87,6 +88,7 @@ Size: 35
 LikeWork: 75
 ExtraAttack: 4
 Class: 103
+Race: 104
 Height: 66
 Weight: 50
 Special_Bitvector: c0 
@@ -143,10 +145,11 @@ I крылья,10:10
 за собою мертвых воинов. Власы с проседью кровью испачканы. Глаза темные
 смотрят недвижимо.
 ~
-b0c0d0n0o0y0A0 b0d0f0k0m0n0x0C0 -600 E
-30 0 -8 10d10+6500 20d20+6
+b0c0d0n0o0t0y0A0 b0d0f0k0m0n0x0C0 -600 E
+34 0 -8 10d10+9000 20d20+6
 20d20+1000 650000
 8 8 2
+Saves: -22 -22 -22 -22
 BareHandAttack: 2
 Str: 35
 Dex: 24
@@ -158,6 +161,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 105
+Race: 112
 Height: 175
 Weight: 50
 Special_Bitvector: 0 
@@ -186,9 +190,10 @@ T 69352
 скорбь Великая.
 ~
 b0d0n0o0 b0k0x0 -600 E
-30 4 -10 10d10+6500 18d19+14
+34 4 -10 10d10+6500 18d19+14
 0d0+0 650000
 8 8 2
+Saves: -22 -22 -22 -22
 CastSuccess: 90
 BareHandAttack: 2
 Str: 34
@@ -201,6 +206,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 189
 Weight: 77
 Special_Bitvector: 0 
@@ -226,9 +232,10 @@ T 69352
 А в глазах ее застыла омутом - тьма глубокая, белым беленая.
 ~
 b0d0n0o0 b0k0x0 -600 E
-29 4 -10 10d10+6500 18d18+14
+34 4 -10 10d10+6500 18d18+14
 0d0+0 650000
 8 8 2
+Saves: -22 -22 -22 -22
 CastSuccess: 90
 BareHandAttack: 2
 Str: 36
@@ -241,6 +248,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 160
 Weight: 77
 Special_Bitvector: 0 
@@ -274,7 +282,7 @@ T 69352
 во Срок свой Нити жизни людей подрезает.
 ~
 b0c0d0f0n0o0p0z0A0c2h2 c0d0f0k0m0n0r0x0z0q1r1w1x1z1 -600 E
-37 2 -7 10d10+15000 18d19+50
+39 2 -7 10d10+15000 18d19+40
 0d0+5000 2000000
 8 8 2
 Saves: -65 -65 -65 -65
@@ -288,13 +296,14 @@ BareHandAttack: 8
 Str: 42
 Dex: 39
 Int: 31
-Wis: 50
+Wis: 44
 Con: 43
 Cha: 38
 Size: 79
 LikeWork: 85
 ExtraAttack: 1
 Class: 105
+Race: 112
 Height: 198
 Weight: 67
 Special_Bitvector: C3 
@@ -331,12 +340,12 @@ Spell: 152
 Spell: 152
 Spell: 152
 Spell: 152
-Helper: 69326
-Helper: 69325
-Helper: 69324
-Helper: 69323
-Helper: 69322
 Helper: 69321
+Helper: 69322
+Helper: 69323
+Helper: 69324
+Helper: 69325
+Helper: 69326
 E
 T 69319
 #69306
@@ -353,9 +362,10 @@ T 69319
 зрит, навеки душу ей продаст.
 ~
 b0d0n0o0 b0k0x0 -600 E
-28 4 -5 10d10+6500 20d23+14
+34 4 -5 10d10+6500 20d23+14
 0d0+0 650000
 8 8 2
+Saves: -22 -22 -22 -22
 CastSuccess: 90
 BareHandAttack: 2
 Str: 35
@@ -368,6 +378,7 @@ Size: 44
 LikeWork: 85
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 150
 Weight: 70
 Special_Bitvector: 0 
@@ -394,9 +405,10 @@ T 69352
 в темноте.
 ~
 b0d0h1 d0f0k0y1 -600 E
-28 1 -8 10d10+4200 16d11+11
+31 1 -8 10d10+4200 16d11+11
 0d0+0 400000
 4 8 1
+Saves: -10 -10 -10 -10
 Str: 35
 Dex: 30
 Int: 24
@@ -406,6 +418,7 @@ Size: 75
 LikeWork: 85
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 87
 Special_Bitvector: b1c1d1 
@@ -429,7 +442,7 @@ E
 снопы из голов людских.
 ~
 c0d0g0i0l0m0q0r0z0A0 d0f0n0s0x0z0A0a1u1y1 -600 E
-28 2 -3 10d10+3000 15d15+5
+30 2 -3 10d10+3000 15d15+5
 20d20+500 300000
 8 8 2
 Saves: -80 -10 -10 -10
@@ -447,6 +460,7 @@ Size: 98
 LikeWork: 70
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 190
 Weight: 85
 Special_Bitvector: l0 
@@ -480,8 +494,8 @@ T 69348
 Сутулая спина еще крепка, и гордая осанка до сих пор хранит там
 свою печать.
 ~
-b0d0 d0f0k0n1 -600 E
-1 0 0 10d10+2 0d0+0
+b0d0n0u2 d0f0k0n1 -600 E
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -494,6 +508,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -513,7 +528,7 @@ T 69305
 огонь битв Великих.
 ~
 b0d0n0o0r0 d0f0h0k0r1 -600 E
-30 3 -9 10d10+4000 16d16+10
+31 3 -9 10d10+4000 16d16+10
 0d0+1000 400000
 8 8 1
 Saves: -20 -20 -20 -20
@@ -528,6 +543,7 @@ Size: 78
 LikeWork: 65
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 180
 Weight: 80
 Special_Bitvector: b1c1d1 
@@ -551,9 +567,10 @@ T 69331
 Огненный ореол окружает его шлейфом и растворяется в темноте.
 ~
 d0i1 f0k0y1 -600 E
-28 1 -9 10d10+4500 16d16+11
+32 1 -9 10d10+4500 16d16+11
 0d0+0 450000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 35
 Dex: 30
 Int: 24
@@ -563,6 +580,7 @@ Size: 75
 LikeWork: 90
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 175
 Weight: 87
 Special_Bitvector: y0b1c1d1 
@@ -586,7 +604,7 @@ T 69317
 принять за черную ветку, упавшую с дерева.
 ~
 d0h0j0l0m0p0 f0k0r0s0m1 -600 E
-24 4 0 10d10+1000 11d11+4
+25 4 0 10d10+1000 11d11+4
 0d0+0 100000
 8 8 1
 BareHandAttack: 8
@@ -599,6 +617,7 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 3
 Class: 103
+Race: 104
 Height: 60
 Weight: 70
 Special_Bitvector: i0 
@@ -637,6 +656,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 60
 Weight: 55
 Special_Bitvector: i0 
@@ -659,7 +679,7 @@ I когти,10:10
 и спокойствием, силой древней тишины глубокой.
 ~
 b0d0 d0f0k0a1n1 -600 E
-1 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
 Str: 10
@@ -672,6 +692,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -693,9 +714,10 @@ T 69301
 Теперь смотрит Смерть глазами Его.
 ~
 b0d0f0m0q0z0 d0f0h0k0w1 -600 E
-28 0 -5 10d10+6000 16d17+8
+33 0 -5 10d10+6000 16d17+8
 0d0+230 600000
 8 8 1
+Saves: -18 -18 -18 -18
 Str: 36
 Dex: 23
 Int: 16
@@ -706,6 +728,7 @@ Size: 88
 LikeWork: 90
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 176
 Weight: 78
 Special_Bitvector: 0 
@@ -743,9 +766,10 @@ T 69333
 сопровождает его и после Смерти.
 ~
 b0d0j0m0z0 c0d0f0h0k0x0A0C0t1 -600 E
-28 3 -7 10d10+3600 14d15+8
+31 3 -7 10d10+3600 14d15+8
 1d100+900 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 36
 Dex: 18
 Int: 16
@@ -756,6 +780,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -793,6 +818,7 @@ Cha: 13
 Size: 100
 LikeWork: 80
 Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -816,9 +842,10 @@ T 69332
    Зверь, просто зверь. Рыскает.
 ~
 b0d0i0m0 f0k0r0q1 -600 E
-29 3 -7 10d10+3200 14d15+8
+31 3 -7 10d10+3200 14d15+8
 0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 4
 Str: 16
 Dex: 20
@@ -830,6 +857,7 @@ Size: 53
 LikeWork: 95
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 88
 Weight: 59
 Special_Bitvector: 0 
@@ -853,9 +881,9 @@ E
 из под лба звериный.
 ~
 b0d0f0m0 d0f0k0r0o1 -600 E
-29 0 0 10d10+3020 15d14+7
+18 0 0 10d10+3020 15d14+7
 50d20+200 30000
-8 8 0
+8 8 1
 Str: 15
 Dex: 38
 Int: 20
@@ -866,6 +894,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -893,7 +922,7 @@ E
 только ее глаза, темные и бездонные, всегда остаются за левым плечом.
 ~
 c0d0j0l0m0n0o0z0A0 d0f0k0m0s0x0z0A0r1w1 -600 E
-27 2 -4 10d10+3000 4d4+8
+30 2 -4 10d10+3000 4d4+8
 25d55+0 300000
 8 8 2
 Saves: -80 -10 -10 -10
@@ -911,6 +940,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 180
 Weight: 96
 Special_Bitvector: l0 
@@ -959,7 +989,7 @@ T 69349
 она по Миру духом, насылает на род людской озноб.
 ~
 d0l0m0 d0f0k0x0z0u1z1 -600 E
-29 0 -2 10d10+4693 14d19+8
+32 0 -2 10d10+4693 14d19+8
 5d6+500 450000
 8 8 2
 Saves: -40 -40 -40 -40
@@ -977,6 +1007,7 @@ Size: 65
 LikeWork: 90
 ExtraAttack: 2
 Class: 101
+Race: 112
 Height: 176
 Weight: 54
 Special_Bitvector: 0 
@@ -1002,10 +1033,10 @@ E
 И называют ее - жар насылающая.
 ~
 d0l0m0a2 c0d0e0k0x0A0C0y1 -600 E
-28 0 -4 10d10+4400 15d16+8
+32 0 -4 10d10+4400 15d16+8
 6d6+250 450000
 8 8 2
-Saves: -70 0 0 0
+Saves: -70 -14 -14 -14
 CastSuccess: 60
 BareHandAttack: 7
 Str: 28
@@ -1017,6 +1048,7 @@ Cha: 16
 Size: 100
 LikeWork: 90
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1082,9 +1114,10 @@ T 69351
 она по Миру духом, насылает на род мор да голод.
 ~
 d0l0m0 d0e0f0k0x0t1u1 -600 E
-28 3 -2 10d10+4160 13d15+8
+32 3 -2 10d10+4160 13d15+8
 50d60+0 450000
 8 8 2
+Saves: -14 -14 -14 -14
 BareHandAttack: 7
 Str: 15
 Dex: 24
@@ -1096,6 +1129,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1158,7 +1192,7 @@ E
 она по Миру духом, насылает на род людской озноб.
 ~
 d0f0l0m0h2 d0f0k0x0z0q1u1z1 -600 E
-30 0 -2 10d10+6093 19d18+8
+34 0 -2 10d10+6093 19d18+8
 5d6+1500 700000
 8 8 2
 Saves: -50 -50 -50 -50
@@ -1175,6 +1209,7 @@ Cha: 16
 Size: 65
 LikeWork: 90
 Class: 101
+Race: 112
 Height: 176
 Weight: 54
 Special_Bitvector: 0 
@@ -1237,7 +1272,7 @@ E
 она по Миру духом, насылает на род людской кашель и хрипоту.
 ~
 d0m0n0o0 d0f0k0x0u1 -600 E
-28 3 -2 10d10+4000 14d14+10
+32 3 -2 10d10+4000 14d14+10
 20d25+236 450000
 8 8 2
 Saves: -40 -40 -40 -40
@@ -1254,6 +1289,7 @@ Size: 45
 LikeWork: 90
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 175
 Weight: 66
 Special_Bitvector: 0 
@@ -1304,10 +1340,10 @@ E
 кличет она морозы-метели и насылает на землю стылую.
 ~
 d0l0m0c2 d0f0k0x0A0z1 -600 E
-28 0 -3 10d10+4600 16d15+8
+32 0 -3 10d10+4600 16d15+8
 20d1+450 450000
 8 8 2
-Saves: -30 0 0 0
+Saves: -30 -14 -14 -14
 Armour: 60
 CastSuccess: 50
 Absorbe: 40
@@ -1321,6 +1357,7 @@ Cha: 17
 Size: 45
 LikeWork: 90
 Class: 101
+Race: 113
 Height: 160
 Weight: 56
 Special_Bitvector: 0 
@@ -1351,7 +1388,7 @@ T 69350
 из лучей лунного света.
 ~
 b0c0d0z0 d0f0k0r0o1x1 -600 E
-29 3 -7 7d10+7000 17d19+8
+33 3 -7 7d10+7000 17d19+8
 20d5+1000 600000
 8 8 1
 Saves: -65 -40 -50 -35
@@ -1369,6 +1406,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1441,7 +1479,7 @@ T 69310
 печали.
 ~
 c0d0f0n0o0z0A0 b0c0d0e0f0g0k0m0n0s0q1u1 -600 E
-29 2 0 10d10+3060 16d16+10
+30 2 0 10d10+3060 16d16+10
 15d10+0 300000
 8 8 2
 Saves: -40 -40 -40 -40
@@ -1460,6 +1498,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: o0 
@@ -1517,7 +1556,7 @@ T 69330
 неприятелей или других, недобрых, ведогоней.
 ~
 b0d0l0m0r0 d0f0k0x0 -600 E
-30 2 -9 10d10+2501 15d16+10
+27 2 -9 10d10+2501 15d16+10
 0d0+0 120000
 8 8 1
 BareHandAttack: 6
@@ -1531,6 +1570,7 @@ Size: 90
 LikeWork: 90
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 190
 Weight: 120
 Special_Bitvector: b1c1d1 
@@ -1564,10 +1604,10 @@ E
 заката чешуек.
 ~
 b0c0d0g0k0l0u0x0z0A0e2h2 b0d0f0g0k0x0A0u1 -600 E
-30 0 -7 10d10+10000 10d13+10
+36 0 -7 10d10+10000 10d13+10
 0d0+9000 1000000
 8 8 2
-Saves: -70 0 -70 0
+Saves: -70 -30 -70 -30
 Resistances: -25 0 40 0 0 0 0
 Armour: 30
 CastSuccess: 75
@@ -1582,6 +1622,7 @@ Size: 35
 LikeWork: 95
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 180
 Weight: 68
 Special_Bitvector: b1c1 
@@ -1630,10 +1671,10 @@ T 69347
 играет пламя пекла.
 ~
 b0c0d0f0n0o0A0 c0d0f0k0x0A0C0p1 -600 E
-31 4 -10 10d10+5600 8d8+14
+33 4 -10 10d10+5600 8d8+14
 0d0+0 600000
 8 8 1
-Saves: -45 -5 -45 -35
+Saves: -45 -18 -45 -35
 Resistances: 50 0 30 0 0 0 0
 Armour: 40
 CastSuccess: 30
@@ -1649,6 +1690,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 3
 Class: 103
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: g0b1c1 
@@ -1709,9 +1751,10 @@ T 69345
 неприятелей или других, недобрых, ведогоней.
 ~
 a0b0d0o0z0l2 f0k0m0n0x0r1t1 -600 E
-30 0 -10 10d10+2001 6d25+10
+31 0 -10 10d10+2001 6d25+10
 0d0+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 6
 Str: 40
 Dex: 35
@@ -1722,6 +1765,7 @@ Cha: 35
 Size: 90
 LikeWork: 95
 Class: 104
+Race: 104
 Height: 190
 Weight: 120
 Special_Bitvector: y0b1c1d1C3 
@@ -1751,9 +1795,10 @@ E
 из лучей лунного света.
 ~
 b0d0z0 d0f0k0r0o1x1 -600 E
-29 3 -7 7d10+7000 17d19+8
+33 3 -7 7d10+7000 17d19+8
 20d5+1000 600000
 8 8 1
+Saves: -18 -18 -18 -18
 Str: 23
 Dex: 22
 Int: 23
@@ -1764,6 +1809,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1835,7 +1881,7 @@ T 69311
 она по Миру духом, насылает на род людской кашель и хрипоту.
 ~
 b0d0f0l0n0o0x0h2 d0f0k0x0u1 -600 E
-30 2 -6 10d10+6000 18d18+10
+34 2 -6 10d10+6000 18d18+10
 20d25+2360 700000
 8 8 2
 Saves: -50 -50 -50 -50
@@ -1851,6 +1897,7 @@ Cha: 14
 Size: 45
 LikeWork: 80
 Class: 101
+Race: 110
 Height: 175
 Weight: 66
 Special_Bitvector: 0 
@@ -1904,7 +1951,7 @@ E
 она по Миру духом, насылает на род мор да голод.
 ~
 d0f0l0m0h2 d0e0f0k0x0t1u1 -600 E
-30 0 -2 10d10+6560 18d17+8
+34 0 -2 10d10+6560 18d17+8
 50d60+870 700000
 8 8 2
 Saves: -50 -50 -50 -50
@@ -1920,6 +1967,7 @@ Con: 31
 Size: 100
 LikeWork: 90
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1980,7 +2028,7 @@ E
    Белая птица-лебедь с сияющими крылами.
 ~
 d0e0n0p0q0r0t0u0 c0d0f0k0x0a1n1 -600 E
-28 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
 Str: 10
@@ -1993,6 +2041,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -2013,7 +2062,7 @@ I крылья,5:5
 Идеальной формы голова, без лиц. Наверно и никогда не было.
 ~
 b0d0l0m0n0o0p0x0z0e2g2h2 k0m1r1 -600 E
-25 0 -4 10d10+1500 15d15+5
+32 0 -4 10d10+1500 15d15+5
 0d0+1000 500000
 8 8 1
 Saves: -40 -40 -40 -40
@@ -2027,6 +2076,7 @@ Cha: 10
 Size: 45
 LikeWork: 70
 Class: 100
+Race: 101
 Height: 175
 Weight: 65
 Special_Bitvector: 0 
@@ -2047,7 +2097,7 @@ I зубы,10:10
    Нечто, что недоступно Вашему пониманию.
 ~
 b0d0z0f2g2 0 -600 E
-50 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -2060,6 +2110,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: d3i3 
@@ -2080,7 +2131,7 @@ T 69346
 священную от гостей незванных - убийц кровожадных.
 ~
 b0d0g0n0o0p0q0r0t0u0x0y0B0c2g2j2 b0c0d0e0f0k0t0x0z0C0n1 0 E
-35 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 30
@@ -2092,6 +2143,7 @@ Cha: 30
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2112,7 +2164,7 @@ T 69353
 священную от гостей незванных - убийц кровожадных.
 ~
 b0d0g0n0o0p0q0r0t0u0x0y0B0c2g2j2 b0c0d0e0f0k0t0x0z0C0n1 0 E
-35 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 30
@@ -2124,6 +2176,7 @@ Cha: 30
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2144,7 +2197,7 @@ T 69354
 священную от гостей незванных - убийц кровожадных.
 ~
 b0d0g0n0o0p0q0r0t0u0x0y0B0c2g2j2 b0c0d0e0f0k0t0x0z0C0n1 0 E
-35 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 30
@@ -2156,6 +2209,7 @@ Cha: 30
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2176,7 +2230,7 @@ T 69355
 священную от гостей незванных - убийц кровожадных.
 ~
 b0d0g0n0o0p0q0r0t0u0x0y0B0c2g2j2 b0c0d0e0f0k0t0x0z0C0n1 0 E
-35 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 30
@@ -2188,6 +2242,7 @@ Cha: 30
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

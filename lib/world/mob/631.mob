@@ -25,6 +25,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1B3 
@@ -58,6 +59,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1C3 
@@ -92,6 +94,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -134,6 +137,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: j0b1c1 

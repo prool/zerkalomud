@@ -145,11 +145,7 @@ done
 ~
 wait 1
 wsend %actor.name% С криком "БАНЗАЙ" вы выпрыгнули в окно.
-if actor.sex==1
-  wechoaround %actor% С криком %actor.name% выпрыгнул в окно.
-else
-  wechoaround %actor% С криком %actor.name% выпрыгнула в окно.
-end
+wechoaround %actor% С криком %actor.name% выпрыгнул%actor.g% в окно.
 eval  newhit %actor.hitp% - 5
 if %actor.hitp% > 50
   wteleport  %actor% 42704

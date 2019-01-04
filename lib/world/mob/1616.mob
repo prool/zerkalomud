@@ -38,6 +38,7 @@ LikeWork: 100
 MaxFactor: 0
 ExtraAttack: 1
 Class: 102
+Race: 101
 Size: 50
 Height: 198
 Weight: 50
@@ -85,6 +86,7 @@ LikeWork: 100
 MaxFactor: 0
 ExtraAttack: 1
 Class: 102
+Race: 101
 Size: 65
 Height: 168
 Weight: 60
@@ -132,6 +134,7 @@ LikeWork: 100
 MaxFactor: 0
 ExtraAttack: 1
 Class: 105
+Race: 
 Size: 50
 Height: 198
 Weight: 70
@@ -257,6 +260,7 @@ LikeWork: 100
 MaxFactor: 0
 ExtraAttack: 2
 Class: 102
+Race: 101
 Size: 70
 Height: 188
 Weight: 90
@@ -311,6 +315,7 @@ LikeWork: 100
 MaxFactor: 0
 ExtraAttack: 1
 Class: 102
+Race: 101
 Size: 30
 Height: 175
 Weight: 70
@@ -408,6 +413,7 @@ LikeWork: 100
 MaxFactor: 0
 ExtraAttack: 1
 Class: 102
+Race: 101
 Size: 50
 Height: 198
 Weight: 70
@@ -467,6 +473,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 0
 Class: 102
+Race: 101
 Size: 100
 Height: 194
 Weight: 88
@@ -522,6 +529,7 @@ LikeWork: 100
 MaxFactor: 0
 ExtraAttack: 1
 Class: 104
+Race: 
 Size: 60
 Height: 188
 Weight: 90
@@ -571,6 +579,7 @@ LikeWork: 100
 MaxFactor: 0
 ExtraAttack: 1
 Class: 105
+Race: 
 Size: 40
 Height: 178
 Weight: 79
@@ -639,6 +648,7 @@ LikeWork: 100
 MaxFactor: 0
 ExtraAttack: 1
 Class: 104
+Race: 
 Size: 100
 Height: 200
 Weight: 100
@@ -685,6 +695,7 @@ LikeWork: 100
 MaxFactor: 0
 ExtraAttack: 1
 Class: 104
+Race: 
 Size: 90
 Height: 199
 Weight: 99
@@ -739,6 +750,7 @@ LikeWork: 100
 MaxFactor: 2
 ExtraAttack: 2
 Class: 104
+Race: 
 Size: 75
 Height: 170
 Weight: 50
@@ -802,6 +814,7 @@ LikeWork: 90
 MaxFactor: 0
 ExtraAttack: 5
 Class: 103
+Race: 104
 Size: 100
 Height: 200
 Weight: 150
@@ -852,6 +865,7 @@ LikeWork: 20
 MaxFactor: 0
 ExtraAttack: 1
 Class: 102
+Race: 101
 Size: 60
 Height: 176
 Weight: 90
@@ -896,6 +910,7 @@ LikeWork: 100
 MaxFactor: 0
 ExtraAttack: 1
 Class: 104
+Race: 
 Size: 55
 Height: 170
 Weight: 85

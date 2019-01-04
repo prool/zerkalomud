@@ -16,6 +16,7 @@ b0d0g0n0B0 d0f0k0 600 E
 8 8 2
 Size: 5
 Class: 100
+Race: 101
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
@@ -36,12 +37,13 @@ T 11702
 Какой только нечисти в лесу не водится!!
 ~
 b0d0f0g0l0n0p0r0t0A0 d0k0 -600 E
-1 0 -10 0d0+350 4d5+4
+16 0 -10 0d0+350 4d5+4
 0d0+10 20000
 8 8 1
 Size: 100
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -69,6 +71,7 @@ d0f0g0 d0k0 -600 E
 Size: 100
 ExtraAttack: 1
 Class: 100
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -92,12 +95,13 @@ E
 и питается кровью затянутых в трясину людей.
 ~
 d0f0g0 k0 -600 E
-12 0 -2 0d0+200 1d1+3
+13 0 -2 0d0+200 1d1+3
 0d0+0 11000
 8 8 2
 Size: 100
 ExtraAttack: 1
 Class: 100
+Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -120,7 +124,7 @@ E
 местами, где зарыты клады.
 ~
 b0d0f0g0z0 f0k0r0a1m1 -600 E
-1 0 1 0d0+150 2d2+2
+8 0 1 0d0+150 2d2+2
 0d0+0 3000
 8 8 1
 BareHandAttack: 11
@@ -130,6 +134,7 @@ Wis: 18
 Size: 5
 LikeWork: 50
 Class: 100
+Race: 109
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
@@ -152,13 +157,14 @@ E
 Ужас какой-то!
 ~
 b0d0g0m0n0f2 0 -600 E
-15 0 3 0d0+300 1d1+2
+12 0 3 0d0+300 1d1+2
 0d0+0 10000
 8 8 1
 BareHandAttack: 2
 Size: 100
 ExtraAttack: 2
 Class: 100
+Race: 108
 Height: 198
 Weight: 100
 Special_Bitvector: a0b0c0d0 
@@ -181,7 +187,7 @@ T 11706
 Обычный мурашка, чуть крупнее обычного садового муравья.
 ~
 b0d0f0g0 f0k0 -600 E
-1 0 3 0d0+100 1d1+1
+4 0 3 0d0+100 1d1+1
 0d0+0 1000
 8 8 1
 BareHandAttack: 4
@@ -189,6 +195,7 @@ Int: 20
 Wis: 20
 Size: 1
 Class: 103
+Race: 107
 Height: 198
 Weight: 1
 Special_Bitvector: 0 
@@ -209,10 +216,12 @@ E
 Обычное уродище, только бурого цвета.
 ~
 d0f0g0A0 k0r0A0 -300 E
-16 14 -1 5d6+300 4d4+6
+14 14 -1 5d6+300 4d4+6
 0d0+0 15000
 8 8 0
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: A0B0 
@@ -245,6 +254,7 @@ Size: 50
 LikeWork: 1
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 168
 Weight: 150
 Special_Bitvector: 0 

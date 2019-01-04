@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #79200
  лапландский колдун клаус~
 лапландский колдун~
@@ -14,35 +13,53 @@
 У Вас такое ощущение, что где-то Вы его уже видели...
 ~
 b0d0f0g0h0n0o0x0u2 b0c0d0e0f0a1q1z1 -600 E
-37 0 -5 10d10+7777 11d11+5
-0d0+0 1000000
+36 0 -5 10d10+7777 11d11+5
+0d0+0 2700000
 8 8 1
-Saves: -60 0 -60 0
+Saves: -60 -30 -60 -30
 Resistances: 10 50 60 30 0 60 0
-HPreg: 0
 Armour: 45
 PlusMem: 100
 CastSuccess: 50
 Success: 5
 Initiative: 5
 Absorbe: 5
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 20
+Dex: 20
 Int: 47
 Wis: 47
-Dex: 20
 Con: 20
 Cha: 40
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
+Skill: 136 130
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 94
 Spell: 104
 Spell: 104
 Spell: 104
@@ -77,28 +94,6 @@ Spell: 128
 Spell: 128
 Spell: 128
 Spell: 132
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 94
-Skill: 136 130
 Helper: 79206
 E
 T 79211
@@ -120,30 +115,26 @@ b0d0n0o0 d0f0k0 -600 E
 8 8 2
 Saves: -75 0 0 0
 Resistances: 30 30 30 30 50 0 0
-HPreg: 0
 Armour: 30
 PlusMem: 100
 CastSuccess: 30
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 30
 Wis: 30
-Dex: 10
 Con: 25
 Cha: 35
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
+Skill: 132 110
+Skill: 136 110
 Spell: 27
 Spell: 27
 Spell: 27
@@ -165,8 +156,6 @@ Spell: 92
 Spell: 92
 Spell: 92
 Spell: 113
-Skill: 132 110
-Skill: 136 110
 E
 T 79200
 #79202
@@ -183,39 +172,37 @@ T 79200
 ~
 b0d0g0n0o0 d0k0r0C0c1t1 -600 E
 30 0 -6 10d10+3000 13d13+15
-9d5+0 290000
+9d5+0 400000
 8 8 1
 Saves: -51 -50 -50 -10
 Resistances: 15 15 15 15 30 30 30
 HPreg: 55
 Armour: 55
-PlusMem: 0
-CastSuccess: 0
 Success: 5
 Initiative: 5
 Absorbe: 15
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 40
+Dex: 35
 Int: 25
 Wis: 25
-Dex: 35
 Con: 35
 Cha: 35
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 1
 Feat: 3
 Feat: 4
 Feat: 5
 Feat: 29
-Special_Bitvector: 0
+Skill: 4 110
+Skill: 136 110
+Skill: 157 110
 Spell: 23
 Spell: 23
 Spell: 23
@@ -227,9 +214,6 @@ Spell: 130
 Spell: 130
 Spell: 130
 Spell: 170
-Skill: 4 110
-Skill: 136 110
-Skill: 157 110
 E
 T 79203
 T 79204
@@ -254,28 +238,25 @@ Saves: -25 -15 -15 -15
 Resistances: 33 33 33 33 66 50 33
 HPreg: 33
 Armour: 50
-PlusMem: 0
-CastSuccess: 0
 Success: 4
 Initiative: 4
 Absorbe: 9
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 28
+Dex: 45
 Int: 28
 Wis: 28
-Dex: 45
 Con: 28
 Cha: 30
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
+Skill: 136 110
+Skill: 160 110
 Spell: 42
 Spell: 42
 Spell: 42
@@ -284,8 +265,6 @@ Spell: 111
 Spell: 147
 Spell: 147
 Spell: 147
-Skill: 136 110
-Skill: 160 110
 E
 T 79205
 T 79206
@@ -303,47 +282,40 @@ T 79206
 А вот из его шкурки получились бы отличные варежки. 
 ~
 b0c0d0g0j0n0o0x0A0 f0h0k0r0t1z1 -600 E
-32 0 -3 10d10+4444 14d14+13
-0d0+0 400000
+31 0 -3 10d10+4444 14d14+13
+0d0+0 600000
 8 8 1
 Saves: -50 -15 -15 -10
 Resistances: 30 30 30 30 5 5 5
-HPreg: 0
 Armour: 50
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 30
-AResist: 0
-MResist: 0
 BareHandAttack: 14
 Str: 35
+Dex: 30
 Int: 20
 Wis: 20
-Dex: 30
 Con: 40
 Cha: 20
+Size: 100
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: a1 
 Feat: 1
 Feat: 3
 Feat: 29
 Feat: 68
-Special_Bitvector: a1
-Spell: 48
-Spell: 93
-Spell: 96
-Spell: 156
 Skill: 1 125
 Skill: 132 125
 Skill: 134 125
 Skill: 136 125
+Spell: 48
+Spell: 93
+Spell: 96
+Spell: 156
 Helper: 79216
 E
 T 79216
@@ -360,47 +332,42 @@ T 79216
 Это отголосок самых лютых морозов.
 ~
 d0e0f0g0n0o0p0q0r0u0x0z0t1c2h2 d0f0k0s0j1q1d2e2 -600 E
-34 0 -9 10d10+2000 8d14+5
-0d0+0 250000
+29 0 -9 10d10+2000 8d14+5
+0d0+0 400000
 8 8 0
 Saves: -70 -70 -70 0
 Resistances: 0 70 70 0 70 70 0
 HPreg: 100
 Armour: 60
-PlusMem: 0
 CastSuccess: 50
-Success: 0
-Initiative: 0
 Absorbe: 35
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 10
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 100
-Size: 10
+Race: 113
 Height: 30
 Weight: 50
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
+Special_Bitvector: 0 
 Skill: 150 125
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
 E
 T 79217
 #79206
@@ -416,43 +383,39 @@ T 79217
 Огромных размеров чудище, похожее на дракона темно синего цвета внушает ужас.
 Не ошиблись местные жители, назвав его владыкой севера. 
 ~
-b0d0f0n0o0x0c2g2h2 d0f0k0n0m0r0x0C0q1 -600 E
-36 0 -7 10d10+6600 16d16+30
-0d0+0 800000
+b0d0f0n0o0x0c2g2h2 d0f0k0m0n0r0x0C0q1 -600 E
+35 0 -7 10d10+6600 16d16+30
+0d0+0 2000000
 8 8 1
-Saves: -50 -50 -50 -15
+Saves: -50 -50 -50 -26
 Resistances: 5 70 70 5 55 10 55
 HPreg: 60
 Armour: 60
 PlusMem: 60
 CastSuccess: 40
-Success: 0
-Initiative: 0
 Absorbe: 25
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 45
+Dex: 37
 Int: 33
 Wis: 33
-Dex: 37
 Con: 37
 Cha: 15
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 112
 Height: 200
 Weight: 150
+Special_Bitvector: 0 
 Feat: 1
 Feat: 3
+Skill: 160 125
 Spell: 56
 Spell: 68
 Spell: 68
 Spell: 68
 Spell: 86
-Skill: 160 125
 Helper: 79207
 E
 #79207
@@ -468,34 +431,28 @@ E
 Дракон, сложенный из глыб льда, удивительно изворотлив, и даже летает!
 ~
 d0f0g0n0o0t0x0z0 d0f0k0r0q1t1w1x1 -600 E
-34 0 -4 10d10+5000 16d17+15
-0d0+0 450000
+32 0 -4 10d10+5000 16d17+15
+0d0+0 1700000
 8 8 1
-Saves: -40 -40 -40 -10
+Saves: -40 -40 -40 -14
 Resistances: -5 40 40 40 10 10 10
-HPreg: 0
 Armour: 55
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 40
+Dex: 40
 Int: 10
 Wis: 10
-Dex: 40
 Con: 40
 Cha: 25
+Size: 100
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 3
 Class: 100
-Size: 100
+Race: 105
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 1
 Feat: 57
 Skill: 134 130
@@ -515,45 +472,37 @@ T 79218
 ~
 Страж, сложенный из глыб льда, поражает своими размерами. 
 ~
-b0d0g0m0n0o0x0z0g2 d0f0k0n0m0r0l1q1t1z1 -600 E
-33 0 0 10d10+3500 16d16+10
-0d0+0 310000
+b0d0g0m0n0o0x0z0g2 d0f0k0m0n0r0l1q1t1z1 -600 E
+30 0 0 10d10+3500 16d16+10
+0d0+0 600000
 8 8 1
 Saves: -35 -35 -35 -35
 Resistances: 0 30 30 30 0 0 0
-HPreg: 0
 Armour: 55
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 30
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 50
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 50
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 100
-Size: 100
+Race: 114
 Height: 200
 Weight: 150
+Special_Bitvector: a0b1c1C3 
 Feat: 1
-Special_Bitvector: a0b1c1C3
-Spell: 111
-Spell: 56
-Spell: 82
-Spell: 88
+Skill: 22 130
 Skill: 134 130
 Skill: 136 130
 Skill: 157 130
-Skill: 22 130
+Spell: 56
+Spell: 82
+Spell: 88
+Spell: 111
 Helper: 79210
 Helper: 79211
 E
@@ -570,46 +519,38 @@ T 79222
 ~
 Охранник, сложенный из глыб льда, поражает своими размерами. 
 ~
-b0d0g0m0n0o0x0z0g2 d0f0k0n0m0r0l1q1t1z1 -600 E
-33 0 0 10d10+3600 16d16+20
+b0d0g0m0n0o0x0z0g2 d0f0k0m0n0r0l1q1t1z1 -600 E
+30 0 0 10d10+3600 16d16+20
 0d0+0 310000
 8 8 1
 Saves: -35 -35 -35 -35
 Resistances: 0 35 35 35 0 0 0
-HPreg: 0
 Armour: 55
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 30
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 50
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 50
 Cha: 10
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 100
-Size: 100
+Race: 114
 Height: 175
 Weight: 85
+Special_Bitvector: b1c1 
 Feat: 1
 Feat: 29
 Feat: 68
-Special_Bitvector: b1c1
-Spell: 111
-Spell: 150
-Spell: 156
-Spell: 56
 Skill: 134 130
 Skill: 136 130
 Skill: 137 130
+Spell: 56
+Spell: 111
+Spell: 150
+Spell: 156
 Helper: 79211
 Helper: 79210
 E
@@ -627,40 +568,33 @@ T 79223
 Богатырь, сложенный из глыб льда, поражает своими размерами. 
 ~
 d0f0g0n0o0p0x0z0 d0f0k0C0l1q1t1 -600 E
-32 3 0 10d10+3000 16d16+15
-0d0+0 290000
+30 3 0 10d10+3000 16d16+15
+0d0+0 400000
 8 8 1
 Saves: -30 0 0 -5
 Resistances: 0 20 20 20 0 0 0
-HPreg: 0
 Armour: 50
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 45
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 45
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 100
-Size: 100
+Race: 114
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 1
 Feat: 29
 Feat: 68
 Skill: 1 130
-Skill: 136 130
 Skill: 4 130
+Skill: 136 130
 E
 #79211
  ледяной витязь~
@@ -675,43 +609,35 @@ E
 Витязь, сложенный из глыб льда, поражает своими размерами. 
 ~
 d0f0g0n0o0x0z0 d0f0h0k0r0C0q1t1 -600 E
-32 0 -3 10d10+2500 15d15+15
-0d0+0 290000
+30 0 -3 10d10+2500 15d15+15
+0d0+0 350000
 8 8 1
 Saves: -35 0 0 -10
 Resistances: 0 25 25 25 0 0 0
-HPreg: 0
 Armour: 50
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 40
+Dex: 30
 Int: 20
 Wis: 20
-Dex: 30
 Con: 37
 Cha: 10
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 100
-Size: 100
+Race: 114
 Height: 175
 Weight: 85
+Special_Bitvector: B3 
 Feat: 1
 Feat: 3
 Feat: 29
 Feat: 68
-Special_Bitvector: B3
+Skill: 21 130
+Skill: 136 130
 Spell: 82
 Spell: 88
-Skill: 136 130
-Skill: 21 130
 E
 T 79220
 #79212
@@ -727,35 +653,25 @@ T 79220
 Бородатый мужик с луком в руках не прочь чем-нибудь поживиться.
 ~
 d0j0m0n0o0 f0k0r0j1 -600 E
-30 3 -3 10d10+1600 11d11+0
-5d5+0 150000
+28 3 -3 10d10+1600 11d11+0
+5d5+0 300000
 8 8 1
 Saves: -15 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 35
+Dex: 30
 Int: 15
 Wis: 15
-Dex: 30
 Con: 30
 Cha: 20
+Size: 100
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 134 110
 Skill: 136 110
 Skill: 137 110
@@ -774,40 +690,33 @@ E
 Бородатый мужик, с кинжалом в руках, не прочь чем-нибудь поживиться.
 ~
 d0f0n0o0 f0k0r0s0 -600 E
-30 0 -2 10d10+1700 13d13+6
-5d5+0 150000
+28 0 -2 10d10+1700 13d13+6
+5d5+0 270000
 8 8 1
 Saves: -20 0 0 0
 Resistances: 3 3 3 3 0 0 0
-HPreg: 0
 Armour: 15
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 3
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 31
+Dex: 29
 Int: 14
 Wis: 13
-Dex: 29
 Con: 40
 Cha: 15
+Size: 100
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: 0
-Spell: 54
-Spell: 54
+Special_Bitvector: 0 
 Skill: 132 110
 Skill: 136 110
 Skill: 137 110
+Spell: 54
+Spell: 54
 E
 #79214
  страж темницы~
@@ -821,46 +730,38 @@ E
 ~
 Стражник, сложенный из глыб льда, поражает своими размерами. 
 ~
-b0d0f0g0n0o0p0x0z0g2 d0f0k0n0m0r0l1q1t1z1 -600 E
-33 0 0 10d10+3600 16d16+20
+b0d0f0g0n0o0p0x0z0g2 d0f0k0m0n0r0l1q1t1z1 -600 E
+30 0 0 10d10+3600 16d16+20
 0d0+0 310000
 8 8 1
 Saves: -30 -30 -30 0
 Resistances: 0 25 25 25 0 0 0
-HPreg: 0
 Armour: 55
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 55
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 50
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 50
 Cha: 10
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 100
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: b1c1 
 Feat: 1
 Feat: 29
 Feat: 68
-Special_Bitvector: b1c1
-Spell: 111
-Spell: 150
-Spell: 156
-Spell: 56
 Skill: 134 130
 Skill: 136 130
 Skill: 137 130
+Spell: 56
+Spell: 111
+Spell: 150
+Spell: 156
 Helper: 79211
 Helper: 79210
 E
@@ -878,37 +779,29 @@ T 79221
 Главарь разбойников, облаченный в звериные шкуры, выглядывает чужаков.
 ~
 b0d0f0n0o0 d0h0k0r0A0c1m1t1 -600 E
-31 1 -4 10d10+2000 13d13+5
+29 1 -4 10d10+2000 13d13+5
 12d12+0 200000
 8 8 1
 Saves: -20 0 0 0
 Resistances: 5 5 5 5 0 0 0
-HPreg: 0
 Armour: 35
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 40
+Dex: 33
 Int: 21
 Wis: 22
-Dex: 33
 Con: 35
 Cha: 23
+Size: 100
 LikeWork: 65
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: b1c1 
 Feat: 1
 Feat: 68
-Special_Bitvector: b1c1
 Skill: 136 110
 Skill: 150 110
 Skill: 160 110
@@ -929,44 +822,40 @@ T 79219
 Вот ты какой, северный олень.
 ~
 d0n0o0g2 f0h0k0r0l1x1 -600 E
-30 3 -2 10d10+2000 13d13+9
+28 3 -2 10d10+2000 13d13+9
 0d0+0 190000
 8 8 1
 Saves: -20 -10 -10 -10
 Resistances: 15 15 15 15 0 0 0
-HPreg: 0
 Armour: 35
-PlusMem: 0
-CastSuccess: 0
 Success: 3
 Initiative: 3
 Absorbe: 10
-AResist: 0
-MResist: 0
 BareHandAttack: 13
 Str: 25
+Dex: 25
 Int: 25
 Wis: 25
-Dex: 25
 Con: 25
 Cha: 25
+Size: 100
 LikeWork: 65
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Spell: 131
-Spell: 131
-Spell: 6
-Spell: 6
-Spell: 6
-Spell: 6
-Spell: 6
-Spell: 6
+Special_Bitvector: 0 
 Skill: 136 110
 Skill: 150 110
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 131
+Spell: 131
 E
 #79217
  саблезубый тигр~
@@ -981,35 +870,25 @@ E
 Белый тигр с огромными, как сабля, клыками.
 ~
 d0j0m0n0o0 f0k0p0r0A0j1m1t1 -600 E
-30 0 -9 10d10+2202 14d14+1
+29 0 -9 10d10+2202 14d14+1
 0d0+0 200000
 8 8 1
 Saves: -15 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 30
+Dex: 40
 Int: 15
 Wis: 15
-Dex: 40
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 3
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 120
 Skill: 150 100
 E
@@ -1026,39 +905,30 @@ E
 Диковинный зверь северных краев с белыми клыками, торчащими из пасти.
 ~
 d0f0m0 f0k0t1 -600 E
-30 5 0 10d10+2300 14d14+10
+29 5 0 10d10+2300 14d14+10
 0d0+0 210000
 8 8 1
 Saves: -25 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 30
+Dex: 31
 Int: 27
 Wis: 31
-Dex: 31
 Con: 32
 Cha: 28
+Size: 100
 LikeWork: 65
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 1
 Feat: 29
-Spell: 25
 Skill: 132 110
 Skill: 136 110
+Spell: 25
 E
 #79219
  тюлень~
@@ -1073,37 +943,28 @@ E
 Самый обыкновенный северный тюлень.
 ~
 d0m0 f0k0 -600 E
-30 5 0 10d10+2300 14d14+5
+29 5 0 10d10+2300 14d14+5
 0d0+0 210000
 8 8 1
 Saves: -20 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 28
+Dex: 28
 Int: 28
 Wis: 28
-Dex: 28
 Con: 28
 Cha: 28
+Size: 100
 LikeWork: 65
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Spell: 28
+Special_Bitvector: 0 
 Skill: 136 110
 Skill: 137 110
+Spell: 28
 E
 #79220
  белый медведь~
@@ -1119,39 +980,29 @@ E
 деревне. Только этот белого цвета.
 ~
 d0f0m0n0o0 f0r0w1 -600 E
-30 6 0 10d10+2222 16d16+25
+29 6 0 10d10+2222 16d16+25
 0d0+0 200000
 8 8 1
 Saves: -20 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 42
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 40
 Cha: 10
+Size: 100
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 1
-Special_Bitvector: 0
-Spell: 153
 Skill: 132 100
 Skill: 136 100
+Spell: 153
 E
 #79221
  йети~
@@ -1166,38 +1017,31 @@ E
 Огромное волосатое чудище, отдаленно напоминающее человека.
 ~
 b0d0f0n0o0 d0f0k0r0t0m1t1 -600 E
-34 0 0 10d10+4000 17d17+10
+31 0 0 10d10+4000 17d17+10
 0d0+0 400000
 8 8 1
-Saves: -50 -50 -50 -5
+Saves: -50 -50 -50 -10
 Resistances: 10 30 30 30 50 50 50
 HPreg: 50
 Armour: 40
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 5
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 39
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 39
 Cha: 10
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 102
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
-Spell: 156
-Skill: 136 130
+Special_Bitvector: b1c1 
 Skill: 4 130
+Skill: 136 130
+Spell: 156
 Helper: 79205
 E
 #79222
@@ -1213,40 +1057,28 @@ E
 Исхудалый бородатый мужик с грустными глазами разбойника больших дорог.
 ~
 b0d0f0n0o0 d0f0k0r0s0 -600 E
-30 0 -2 10d10+1700 13d13+6
+28 0 -2 10d10+1700 13d13+6
 5d5+0 150000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 31
+Dex: 29
 Int: 14
 Wis: 13
-Dex: 29
 Con: 40
 Cha: 15
+Size: 100
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: 0
-Spell: 54
-Spell: 54
+Special_Bitvector: 0 
 Skill: 132 110
 Skill: 136 110
 Skill: 137 110
+Spell: 54
+Spell: 54
 E
-$
 $

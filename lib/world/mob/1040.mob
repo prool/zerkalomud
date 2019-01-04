@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #104000
 степняк-лучник~
 степняк-лучник ~
@@ -15,24 +14,24 @@
 широкой пластиной, закрывающий переносицу - самое уязвимое место при 
 таком построении шлема.
 ~
-b0g0l0m0n0o0 0 600 E
+b0d0g0l0m0n0o0 0 600 E
 20 10 5 15d10+150 2d3+5
 5d5+50 25000
 8 8 1
-BareHandAttack: 0
 Str: 20
+Dex: 20
 Int: 20
 Wis: 20
-Dex: 20
 Con: 20
 Cha: 20
+Size: 40
 LikeWork: 10
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 40
+Race: 101
 Height: 155
 Weight: 90
+Special_Bitvector: 0 
 Skill: 136 50
 Skill: 154 80
 Skill: 155 80
@@ -56,20 +55,18 @@ b0d0g0 d0f0k0n1 600 E
 1 0 0 10d10+1000 1d1+1
 95d80+2500 0
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 45
+Class: 102
+Race: 101
 Height: 150
 Weight: 70
+Special_Bitvector: 0 
 E
 #104002
 старый степной лис~
@@ -85,24 +82,25 @@ E
 у него еще остались в избытке. Он может легко уйти от 
 преследования охотниками и осуществить набег за едой.
 ~
-b0f0g0 k0 -600 E
+b0d0f0g0 k0 -600 E
 6 15 6 10d15+100 3d4+5
 4d5+5 9500
 5 5 1
 BareHandAttack: 1
 Str: 16
+Dex: 18
 Int: 14
 Wis: 14
-Dex: 18
 Con: 15
 Cha: 14
+Size: 60
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 60
+Race: 104
 Height: 88
 Weight: 94
+Special_Bitvector: 0 
 Skill: 136 25
 E
 T 104005
@@ -120,25 +118,24 @@ T 104005
 со всеми остальными. Ему еще не хватает опыта, чтобы 
 охотится в одиночку.
 ~
-g0 k0 -600 E
+d0g0 k0 -600 E
 6 17 8 10d11+100 2d4+5
 3d4+5 6000
 8 8 1
 BareHandAttack: 1
 Str: 15
-Int: 11
-Wis: 10
 Dex: 14
+Wis: 10
 Con: 13
 Cha: 20
+Size: 45
 LikeWork: 5
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 45
+Race: 104
 Height: 75
 Weight: 70
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 15
 E
 I шерсть,5:10
@@ -157,25 +154,25 @@ I зубы,5:10
 любого, что подвернется ему на пути. Хоть он и ослаб, но 
 все же может нанести глубокие раны.
 ~
-c0f0g0 k0 -600 E
+c0d0f0g0 k0 -600 E
 5 16 7 5d10+95 3d3+5
 3d4+2 7500
 8 8 1
 BareHandAttack: 1
 Str: 13
+Dex: 17
 Int: 13
 Wis: 15
-Dex: 17
 Con: 8
 Cha: 12
+Size: 35
 LikeWork: 5
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 35
+Race: 104
 Height: 60
 Weight: 65
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 20
 E
 I шерсть,4:11
@@ -193,24 +190,23 @@ I зубы,4:11
    Этот высокий человек доставляет сообщения хану от самых отдаленных
 становищ и селений в степи.
 ~
-b0g0B0 d0f0k0 600 E
+b0d0g0B0 d0f0k0 600 E
 1 0 0 10d10+100 1d1+0
 0d0+0 0
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 #104006
 седой степняк~
@@ -226,24 +222,23 @@ E
 Его удел - сидеть в этом шатре и брать плату с путников, 
 желающих отдохнуть.
 ~
-b0g0 d0f0k0 600 E
+b0d0g0 d0f0k0 600 E
 1 0 0 10d10+100 1d1+0
 0d0+0 0
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 #104007
 странствующий купец~
@@ -263,20 +258,19 @@ b0d0g0 d0f0k0 600 E
 1 0 0 10d10+100 1d1+0
 95d85+2500 0
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 T 104006
 #104008
@@ -293,24 +287,21 @@ T 104006
 спит под шум воды. Его доспехи сильно истерты, а 
 оружия вообще не видать.
 ~
-b0g0 0 0 E
+b0d0g0 0 0 E
 10 15 2 10d15+200 3d4+4
 10d5+5 11000
 4 4 1
-BareHandAttack: 0
-Str: 11
-Int: 11
-Wis: 12
 Dex: 9
-Con: 11
+Wis: 12
 Cha: 12
+Size: 55
 LikeWork: 10
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 55
+Race: 101
 Height: 185
 Weight: 110
+Special_Bitvector: 0 
 Skill: 136 15
 E
 #104009
@@ -327,24 +318,23 @@ E
 разное зверье. Но теперь он просто ходит по степи 
 и изучает повадки зверей.
 ~
-b0g0 d0f0k0 600 E
+b0d0g0 d0f0k0 600 E
 1 0 0 10d10+100 1d1+0
 0d0+0 0
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 T 104001
 T 104003
@@ -362,24 +352,22 @@ T 104003
 сколько ему лет. Его длинная белая борода свисает почти 
 что до самых колен.
 ~
-b0g0 d0f0k0 600 E
+b0d0g0 d0f0k0 600 E
 1 0 0 10d10+100 1d1+0
 0d0+0 0
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 100
+Class: 102
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 T 104007
 T 104008
@@ -396,24 +384,23 @@ T 104008
    Этот воин высокого роста, облачен в крепкую 
 кожаную броню. В руках он держит длинное копье.
 ~
-g0m0 0 600 E
+d0g0m0 0 600 E
 15 12 1 10d15+300 5d5+0
 0d0+0 0
 8 8 1
-BareHandAttack: 0
 Str: 15
+Dex: 15
 Int: 15
 Wis: 15
-Dex: 15
 Con: 15
 Cha: 15
-LikeWork: 15
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 45
+LikeWork: 15
+Class: 102
+Race: 101
 Height: 195
 Weight: 110
+Special_Bitvector: 0 
 Skill: 136 45
 E
 #104012
@@ -430,24 +417,23 @@ E
 лука и на полном скаку может подстрелить даже 
 небольшую птицу. 
 ~
-g0m0 0 600 E
+d0g0m0 0 600 E
 10 10 3 8d11+250 3d5+3
 10d2+5 0
 8 8 1
-BareHandAttack: 0
 Str: 14
 Int: 15
 Wis: 17
-Dex: 11
 Con: 8
 Cha: 13
+Size: 55
 LikeWork: 20
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 55
+Race: 101
 Height: 175
 Weight: 125
+Special_Bitvector: 0 
 Skill: 136 25
 E
 T 104016
@@ -464,24 +450,23 @@ T 104016
    Этот низкорослый человек много лет провел за изучением 
 магии и разных трав. Он может излечить практически любой недуг.
 ~
-b0g0 d0f0k0 600 E
+b0d0g0 d0f0k0 600 E
 1 0 0 10d10+100 1d1+0
 0d0+0 0
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 T 104010
 #104014
@@ -502,20 +487,19 @@ b0d0g0 d0f0k0 600 E
 1 0 0 10d10+100 1d1+0
 0d0+0 0
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 #104015
 восточный купец приехавший~
@@ -530,24 +514,23 @@ E
    Этот человек приехал далеко с востока и предлагает 
 всем свои невиданные товары.
 ~
-b0g0 d0f0k0 600 E
+b0d0g0 d0f0k0 600 E
 1 0 0 10d10+100 1d1+0
 0d0+0 0
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 T 104015
 #104016
@@ -564,24 +547,23 @@ T 104015
 Но это не лишает его огромной силы удара, от которого
 может погибнуть неопытный воришка.
 ~
-b0g0 0 0 E
+b0d0g0 0 0 E
 15 15 1 10d15+300 1d1+3
 5d5+15 10500
 5 5 1
-BareHandAttack: 0
 Str: 15
+Dex: 12
 Int: 13
 Wis: 12
-Dex: 12
 Con: 12
 Cha: 15
-LikeWork: 15
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 15
+Class: 102
+Race: 101
 Height: 155
 Weight: 125
+Special_Bitvector: 0 
 Skill: 132 10
 Skill: 136 25
 E
@@ -598,24 +580,23 @@ E
    Этот человек будет рад отвести Вас в другую деревню.
 Но за это придется немного заплатить.
 ~
-b0g0 d0f0k0 600 E
+b0d0g0 d0f0k0 600 E
 1 0 0 10d10+100 1d1+0
 0d0+0 0
 8 8 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 T 104011
 T 104012
@@ -633,25 +614,23 @@ T 104012
 днями напролет шастает со своими сверстниками и 
 мелко пакостит.
 ~
-c0g0 0 0 E
+c0d0g0 0 0 E
 4 18 9 5d10+85 2d2+0
 1d2+2 1000
 8 8 1
-BareHandAttack: 0
 Str: 8
+Dex: 9
 Int: 7
 Wis: 7
-Dex: 9
 Con: 7
 Cha: 15
-LikeWork: 5
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 30
+LikeWork: 5
+Class: 102
+Race: 101
 Height: 125
 Weight: 50
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 5
 E
 T 104019
@@ -670,24 +649,22 @@ T 104020
 и всегда при себе имеет длинный лук. Его выстрела 
 настолько мощны, что могут пробить даже деленный доспех.
 ~
-g0 0 0 E
+d0g0 0 0 E
 7 16 6 10d12+115 2d3+1
 3d4+5 4000
 8 8 1
-BareHandAttack: 0
-Str: 11
+Dex: 10
 Int: 8
 Wis: 8
-Dex: 10
-Con: 11
 Cha: 8
+Size: 55
 LikeWork: 10
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 55
+Race: 101
 Height: 175
 Weight: 90
+Special_Bitvector: 0 
 Skill: 136 10
 E
 T 104021
@@ -705,24 +682,22 @@ T 104021
 он выходил на охоту со своим хозяином. Теперь же он 
 доживает свои дли, рыская по лагерю в поисках пропитания.
 ~
-g0 0 0 E
+d0g0 0 0 E
 3 20 10 5d10+60 2d2+0
 1d1+1 1000
 8 8 1
 BareHandAttack: 4
 Str: 5
+Dex: 5
 Int: 5
 Wis: 5
-Dex: 5
 Con: 5
-Cha: 11
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 35
+Class: 103
+Race: 104
 Height: 65
 Weight: 50
+Special_Bitvector: 0 
 Skill: 136 5
 E
 #104021
@@ -739,25 +714,23 @@ E
 окрас придает ей довольно оригинальный вид. Полевка очень быстрая 
 и проворная.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 1 20 10 1d5+50 1d1+0
 0d0+0 100
 8 8 2
 BareHandAttack: 4
 Str: 4
+Dex: 4
 Int: 4
 Wis: 4
-Dex: 4
 Con: 4
 Cha: 4
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 10
+Class: 103
+Race: 104
 Height: 30
 Weight: 50
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 5
 E
 I шерсть,2:13
@@ -776,25 +749,23 @@ I кости,2:13
 окрас придает ей довольно оригинальный вид. Она очень быстрая 
 и проворная.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 1 20 10 1d5+50 1d1+0
 0d0+0 100
 8 8 2
 BareHandAttack: 4
 Str: 4
+Dex: 4
 Int: 4
 Wis: 4
-Dex: 4
 Con: 4
 Cha: 4
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 10
+Class: 103
+Race: 104
 Height: 30
 Weight: 50
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 5
 E
 #104023
@@ -811,25 +782,23 @@ E
 окрас придает ей довольно оригинальный вид. Она очень быстрая 
 и проворная.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 1 20 10 1d5+50 1d1+0
 0d0+0 100
 8 8 2
 BareHandAttack: 4
 Str: 4
+Dex: 4
 Int: 4
 Wis: 4
-Dex: 4
 Con: 4
 Cha: 4
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 10
+Class: 103
+Race: 104
 Height: 30
 Weight: 50
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 5
 E
 I шерсть,2:13
@@ -847,24 +816,23 @@ I кости,2:13
    Этот животное обитает в степи и распространено почти
  повсеместно. Его большие размеры говорят о хорошем питании.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 1 19 10 3d6+65 1d2+0
 1d1+2 300
 8 8 1
 BareHandAttack: 4
 Str: 5
+Dex: 3
 Int: 5
 Wis: 5
-Dex: 3
 Con: 5
 Cha: 5
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+Class: 103
+Race: 104
 Height: 35
 Weight: 50
+Special_Bitvector: 0 
 Skill: 136 5
 E
 I шерсть,3:10
@@ -882,24 +850,23 @@ I кости,3:10
    Этот животное обитает в степи и распространено почти
  повсеместно. Его большие размеры говорят о хорошем питании.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 1 19 10 3d6+65 1d2+0
 1d1+2 300
 8 8 1
 BareHandAttack: 4
 Str: 5
+Dex: 3
 Int: 5
 Wis: 5
-Dex: 3
 Con: 5
 Cha: 5
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+Class: 103
+Race: 104
 Height: 35
 Weight: 50
+Special_Bitvector: 0 
 Skill: 136 5
 E
 #104026
@@ -915,24 +882,23 @@ E
    Этот животное обитает в степи и распространено почти
  повсеместно. Его большие размеры говорят о хорошем питании.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 1 19 10 3d6+65 1d2+0
 1d1+2 300
 8 8 1
 BareHandAttack: 4
 Str: 5
+Dex: 3
 Int: 5
 Wis: 5
-Dex: 3
 Con: 5
 Cha: 5
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+Class: 103
+Race: 104
 Height: 35
 Weight: 50
+Special_Bitvector: 0 
 Skill: 136 5
 E
 I шерсть,3:10
@@ -949,25 +915,23 @@ I шерсть,3:10
    Это маленькое животное на длинных лапках и большими ушами. 
 Оно может развивать ошеломляющие для своего размера скорости.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 2 18 9 4d4+50 1d3+1
 0d0+0 500
 8 8 1
 BareHandAttack: 4
 Str: 6
+Dex: 8
 Int: 5
 Wis: 4
-Dex: 8
 Con: 4
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 10
+Class: 103
+Race: 104
 Height: 30
 Weight: 50
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 7
 E
 I глаза,5:8
@@ -985,25 +949,23 @@ I шерсть,5:8
    Это маленькое животное на длинных лапках и большими ушами. 
 Оно может развивать ошеломляющие для своего размера скорости.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 2 18 9 4d4+50 1d3+1
 0d0+0 500
 8 8 1
 BareHandAttack: 4
 Str: 6
+Dex: 8
 Int: 5
 Wis: 4
-Dex: 8
 Con: 4
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 10
+Class: 103
+Race: 104
 Height: 30
 Weight: 50
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 7
 E
 #104029
@@ -1019,25 +981,23 @@ E
    Это маленькое животное на длинных лапках и большими ушами. 
 Оно может развивать ошеломляющие для своего размера скорости.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 2 18 9 4d4+50 1d3+1
 0d0+0 500
 8 8 1
 BareHandAttack: 4
 Str: 6
+Dex: 8
 Int: 5
 Wis: 4
-Dex: 8
 Con: 4
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 10
+Class: 103
+Race: 104
 Height: 30
 Weight: 50
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 7
 E
 I шерсть,5:8
@@ -1055,25 +1015,23 @@ I кости,5:8
    Эти небольшие животные живут в норах, которые 
 они копают на ровной площади.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 3 17 8 5d6+95 2d2+0
 1d2+3 1000
 8 8 1
 BareHandAttack: 4
 Str: 6
+Dex: 3
 Int: 5
 Wis: 5
-Dex: 3
 Con: 7
 Cha: 8
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 20
+Class: 103
+Race: 104
 Height: 35
 Weight: 55
-Special_Bitvector: p0
+Special_Bitvector: p0 
 E
 I зубы,6:7
 I шерсть,6:7
@@ -1090,25 +1048,23 @@ I шерсть,6:7
    Эти небольшие животные живут в норах, которые 
 они копают на ровной площади.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 3 17 8 5d6+95 2d2+0
 1d2+3 1000
 8 8 1
 BareHandAttack: 4
 Str: 6
+Dex: 3
 Int: 5
 Wis: 5
-Dex: 3
 Con: 7
 Cha: 8
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 20
+Class: 103
+Race: 104
 Height: 35
 Weight: 55
-Special_Bitvector: p0
+Special_Bitvector: p0 
 E
 #104032
 сурок~
@@ -1123,25 +1079,23 @@ E
    Эти небольшие животные живут в норах, которые 
 они копают на ровной площади.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 3 17 8 5d6+95 2d2+0
 1d2+3 1000
 8 8 1
 BareHandAttack: 4
 Str: 6
+Dex: 3
 Int: 5
 Wis: 5
-Dex: 3
 Con: 7
 Cha: 8
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 20
+Class: 103
+Race: 104
 Height: 35
 Weight: 55
-Special_Bitvector: p0
+Special_Bitvector: p0 
 E
 I шерсть,6:7
 I кожа,6:7
@@ -1157,25 +1111,23 @@ I кожа,6:7
 ~
    Это небольшая степная лисица - корсак.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 5 15 10 7d7+100 2d3+2
 0d0+0 5000
 8 8 1
-BareHandAttack: 0
 Str: 8
+Dex: 8
 Int: 8
 Wis: 8
-Dex: 8
 Con: 8
 Cha: 8
-LikeWork: 0
-MaxFactor: 0
+Size: 40
 ExtraAttack: 1
 Class: 103
-Size: 40
+Race: 104
 Height: 55
 Weight: 70
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 15
 E
 I шерсть,5:5
@@ -1193,25 +1145,23 @@ I когти,5:5
 ~
    Это небольшая степная лисица - корсак.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 5 15 10 7d7+100 2d3+2
 0d0+0 5000
 8 8 1
-BareHandAttack: 0
 Str: 8
+Dex: 8
 Int: 8
 Wis: 8
-Dex: 8
 Con: 8
 Cha: 8
-LikeWork: 0
-MaxFactor: 0
+Size: 40
 ExtraAttack: 1
 Class: 103
-Size: 40
+Race: 104
 Height: 55
 Weight: 70
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 15
 E
 #104035
@@ -1226,25 +1176,23 @@ E
 ~
    Это небольшая степная лисица - корсак.
 ~
-g0 k0 0 E
+d0g0 k0 0 E
 5 15 10 7d7+100 2d3+2
 0d0+0 5000
 8 8 1
-BareHandAttack: 0
 Str: 8
+Dex: 8
 Int: 8
 Wis: 8
-Dex: 8
 Con: 8
 Cha: 8
-LikeWork: 0
-MaxFactor: 0
+Size: 40
 ExtraAttack: 1
 Class: 103
-Size: 40
+Race: 104
 Height: 55
 Weight: 70
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 15
 E
 I шерсть,5:5
@@ -1264,25 +1212,24 @@ I когти,5:5
 добычу. Его острый глаз способен разглядеть даже мельчайшее 
 движение в траве.
 ~
-g0 0 0 E
+d0g0 0 0 E
 5 16 7 7d8+105 2d3+3
 0d0+0 5500
 8 8 1
 BareHandAttack: 1
 Str: 8
+Dex: 10
 Int: 5
 Wis: 5
-Dex: 10
 Con: 6
 Cha: 8
-LikeWork: 0
-MaxFactor: 0
+Size: 50
 ExtraAttack: 1
 Class: 103
-Size: 50
+Race: 104
 Height: 75
 Weight: 55
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 10
 E
 I когти,6:6
@@ -1301,25 +1248,24 @@ I крылья,6:6
 добычу. Его острый глаз способен разглядеть даже мельчайшее 
 движение в траве.
 ~
-g0 0 0 E
+d0g0 0 0 E
 5 16 7 7d8+105 2d3+3
 0d0+0 5500
 8 8 1
 BareHandAttack: 1
 Str: 8
+Dex: 10
 Int: 5
 Wis: 5
-Dex: 10
 Con: 6
 Cha: 8
-LikeWork: 0
-MaxFactor: 0
+Size: 50
 ExtraAttack: 1
 Class: 103
-Size: 50
+Race: 104
 Height: 75
 Weight: 55
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 10
 E
 #104038
@@ -1336,25 +1282,24 @@ E
 добычу. Его острый глаз способен разглядеть даже мельчайшее 
 движение в траве.
 ~
-g0 0 0 E
+d0g0 0 0 E
 5 16 7 7d8+105 2d3+3
 0d0+0 5500
 8 8 1
 BareHandAttack: 1
 Str: 8
+Dex: 10
 Int: 5
 Wis: 5
-Dex: 10
 Con: 6
 Cha: 8
-LikeWork: 0
-MaxFactor: 0
+Size: 50
 ExtraAttack: 1
 Class: 103
-Size: 50
+Race: 104
 Height: 75
 Weight: 55
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 10
 E
 I когти,6:6
@@ -1371,30 +1316,28 @@ I крылья,6:6
 ~
    Это травоядное животное с небольшими рогами.
 ~
-g0 0 0 E
+d0g0 0 0 E
 6 20 10 8d10+100 3d3+1
 0d0+0 7000
 8 8 1
 BareHandAttack: 13
 Str: 9
+Dex: 7
 Int: 3
 Wis: 3
-Dex: 7
 Con: 9
 Cha: 6
-LikeWork: 0
-MaxFactor: 0
+Size: 70
 ExtraAttack: 1
 Class: 103
-Size: 70
+Race: 104
 Height: 110
 Weight: 115
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 134 2
 Skill: 136 15
 E
 I кожа,5:8
-I копыта,5:8
 #104040
 сайгак~
 сайгак~
@@ -1407,25 +1350,24 @@ I копыта,5:8
 ~
    Это травоядное животное с небольшими рогами.
 ~
-g0 0 0 E
+d0g0 0 0 E
 6 20 10 8d10+100 3d3+1
 0d0+0 7000
 8 8 1
 BareHandAttack: 13
 Str: 9
+Dex: 7
 Int: 3
 Wis: 3
-Dex: 7
 Con: 9
 Cha: 6
-LikeWork: 0
-MaxFactor: 0
+Size: 70
 ExtraAttack: 1
 Class: 103
-Size: 70
+Race: 104
 Height: 110
 Weight: 115
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 134 2
 Skill: 136 15
 E
@@ -1441,30 +1383,28 @@ E
 ~
    Это травоядное животное с небольшими рогами.
 ~
-g0 0 0 E
+d0g0 0 0 E
 6 20 10 8d10+100 3d3+1
 0d0+0 7000
 8 8 1
 BareHandAttack: 13
 Str: 9
+Dex: 7
 Int: 3
 Wis: 3
-Dex: 7
 Con: 9
 Cha: 6
-LikeWork: 0
-MaxFactor: 0
+Size: 70
 ExtraAttack: 1
 Class: 103
-Size: 70
+Race: 104
 Height: 110
 Weight: 115
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 134 2
 Skill: 136 15
 E
 I глаза,5:8
-I копыта,5:8
 #104042
 кабарга мелкая~
 кабарга~
@@ -1478,28 +1418,25 @@ I копыта,5:8
    Это животное похоже на маленького оленя, только без 
 рогов. Оно очень пугливое и безобидное.
 ~
-g0 0 0 E
+d0g0 0 0 E
 4 18 8 6d7+95 2d2+0
 2d2+0 2000
 8 8 2
 BareHandAttack: 13
 Str: 6
-Int: 2
-Wis: 5
 Dex: 8
+Int: 3
+Wis: 5
 Con: 3
 Cha: 6
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 38
+Class: 103
+Race: 104
 Height: 41
 Weight: 52
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 134 5
 E
-I копыта,6:9
 I кожа,6:3
 #104043
 кабарга мелкая~
@@ -1514,25 +1451,23 @@ I кожа,6:3
    Это животное похоже на маленького оленя, только без 
 рогов. Оно очень пугливое и безобидное.
 ~
-g0 0 0 E
+d0g0 0 0 E
 4 18 8 6d7+95 2d2+0
 2d2+0 2000
 8 8 2
 BareHandAttack: 13
 Str: 6
-Int: 2
-Wis: 5
 Dex: 8
+Int: 3
+Wis: 5
 Con: 3
 Cha: 6
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 38
+Class: 103
+Race: 104
 Height: 41
 Weight: 52
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 134 5
 E
 #104044
@@ -1548,29 +1483,26 @@ E
    Это животное похоже на маленького оленя, только без 
 рогов. Оно очень пугливое и безобидное.
 ~
-g0 0 0 E
+d0g0 0 0 E
 4 18 8 6d7+95 2d2+0
 2d2+0 2000
 8 8 2
 BareHandAttack: 13
 Str: 6
-Int: 2
-Wis: 5
 Dex: 8
+Int: 3
+Wis: 5
 Con: 3
 Cha: 6
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 38
+Class: 103
+Race: 104
 Height: 41
 Weight: 52
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 134 5
 E
 I глаза,5:5
-I копыта,5:9
 #104045
 беркут хмурый~
 беркут~
@@ -1583,25 +1515,23 @@ I копыта,5:9
 ~
    Эта птица очень больших размеров. Его когти очень остры и опасны.
 ~
-g0 0 0 E
+d0g0 0 0 E
 5 18 10 8d8+90 3d3+0
 0d0+0 4000
 8 8 1
 BareHandAttack: 12
 Str: 7
-Int: 6
-Wis: 2
 Dex: 8
+Int: 6
+Wis: 3
 Con: 4
 Cha: 4
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 11
+Class: 103
+Race: 103
 Height: 59
 Weight: 61
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 134 10
 E
 I глаза,5:10
@@ -1618,25 +1548,23 @@ I крылья,3:15
 ~
    Эта птица очень больших размеров. Его когти очень остры и опасны.
 ~
-g0 0 0 E
+d0g0 0 0 E
 5 18 10 8d8+90 3d3+0
 0d0+0 4000
 8 8 1
 BareHandAttack: 12
 Str: 7
-Int: 6
-Wis: 2
 Dex: 8
+Int: 6
+Wis: 3
 Con: 4
 Cha: 4
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 11
+Class: 103
+Race: 103
 Height: 59
 Weight: 61
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 134 10
 E
 #104047
@@ -1651,25 +1579,23 @@ E
 ~
    Эта птица очень больших размеров. Его когти очень остры и опасны.
 ~
-g0 0 0 E
+d0g0 0 0 E
 5 18 10 8d8+90 3d3+0
 0d0+0 4000
 8 8 1
 BareHandAttack: 12
 Str: 7
-Int: 6
-Wis: 2
 Dex: 8
+Int: 6
+Wis: 3
 Con: 4
 Cha: 4
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 11
+Class: 103
+Race: 103
 Height: 59
 Weight: 61
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 134 10
 E
 I глаза,5:5
@@ -1687,24 +1613,23 @@ I крылья,3:15
    Этот человек похож на большую бочку, в которой обычно 
 хранят пиво. Его оргомный живот вот-вот вывалится из рясы. 
 ~
-b0g0 d0f0k0n1 600 E
+b0d0g0 d0f0k0n1 600 E
 1 0 0 10d10+100 1d1+0
 0d0+0 0
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 #104049
 хозяин лежни~
@@ -1718,24 +1643,22 @@ E
 ~
    Это длинный как ствол сосны человек с длинными, костлявыми руками.
 ~
-0 d0f0k0n1 600 E
+d0 d0f0k0n1 600 E
 1 0 0 10d10+100 1d1+0
 0d0+0 0
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
-$
 $

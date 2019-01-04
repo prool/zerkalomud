@@ -23,6 +23,7 @@ Cha: 20
 Size: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 70
 Special_Bitvector: 0 
@@ -54,12 +55,13 @@ Size: 80
 LikeWork: 50
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 185
 Weight: 90
 Special_Bitvector: C3 
 Skill: 4 30
 Skill: 22 30
-Skill: 136 30
+Skill: 136 75
 Spell: 4
 Spell: 4
 Spell: 4
@@ -71,7 +73,6 @@ Spell: 75
 Spell: 75
 Spell: 75
 Helper: 50105
-Skill: 136 75
 E
 #50102
 сонный часовой~
@@ -101,6 +102,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 190
 Weight: 95
 Special_Bitvector: b0b1c1 
@@ -146,6 +148,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -182,6 +185,7 @@ Size: 99
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 90
 Special_Bitvector: b1c1 
@@ -215,6 +219,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 80
 Special_Bitvector: 0 
@@ -225,7 +230,6 @@ Spell: 53
 Spell: 76
 Spell: 76
 Helper: 50106
-Skill: 136 75
 E
 #50106
 толстая стряпуха~
@@ -254,6 +258,7 @@ Size: 70
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 75
 Special_Bitvector: C3 
@@ -288,6 +293,7 @@ Size: 100
 LikeWork: 65
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 199
 Weight: 120
 Special_Bitvector: b1c1 
@@ -327,6 +333,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 90
 Special_Bitvector: b1c1 
@@ -368,6 +375,7 @@ Size: 90
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 75
 Special_Bitvector: c0b1c1 
@@ -402,6 +410,7 @@ Size: 70
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 114
 Height: 180
 Weight: 60
 Special_Bitvector: 0 
@@ -434,6 +443,7 @@ Size: 60
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 100
 Special_Bitvector: 0 
@@ -468,6 +478,7 @@ Size: 80
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 110
 Special_Bitvector: 0 
@@ -503,6 +514,7 @@ Size: 70
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 100
 Special_Bitvector: b1c1 
@@ -540,6 +552,7 @@ Size: 50
 LikeWork: 13
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 130
 Weight: 70
 Special_Bitvector: a1b1c1 
@@ -573,6 +586,7 @@ Size: 100
 LikeWork: 55
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 100
 Special_Bitvector: 0 
@@ -611,6 +625,7 @@ Size: 50
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 120
 Weight: 50
 Special_Bitvector: 0 
@@ -642,6 +657,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a0b1c1 
@@ -679,6 +695,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 100
 Special_Bitvector: c0b1c1 
@@ -712,6 +729,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a0 
@@ -747,6 +765,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: c0b1c1 
@@ -782,6 +801,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 190
 Weight: 120
 Special_Bitvector: y0b1c1 
@@ -820,6 +840,7 @@ Size: 70
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 85
 Special_Bitvector: 0 
@@ -866,6 +887,7 @@ Size: 60
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 60
 Special_Bitvector: m0 
@@ -898,6 +920,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 150
 Weight: 150
 Special_Bitvector: 0 
@@ -930,6 +953,7 @@ Size: 50
 LikeWork: 15
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 120
 Weight: 50
 Special_Bitvector: 0 
@@ -961,6 +985,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -999,6 +1024,7 @@ Size: 70
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 80
 Special_Bitvector: 0 
@@ -1035,6 +1061,7 @@ Size: 50
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 50
 Special_Bitvector: 0 
@@ -1072,6 +1099,7 @@ Size: 50
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 60
 Special_Bitvector: 0 
@@ -1107,6 +1135,7 @@ Size: 50
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 50
 Weight: 50
 Special_Bitvector: p0 
@@ -1139,6 +1168,7 @@ Size: 50
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 50
 Special_Bitvector: 0 
@@ -1172,6 +1202,7 @@ Size: 70
 LikeWork: 55
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 70
 Special_Bitvector: 0 
@@ -1210,6 +1241,7 @@ Size: 100
 LikeWork: 55
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1244,6 +1276,7 @@ Size: 90
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 75
 Special_Bitvector: a0b1c1 
@@ -1279,6 +1312,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 100
 Special_Bitvector: a0b1c1 
@@ -1312,6 +1346,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: c0b1c1 
@@ -1347,6 +1382,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: c0 
@@ -1382,6 +1418,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a0b1c1 
@@ -1414,6 +1451,7 @@ Size: 50
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 100
 Special_Bitvector: 0 
@@ -1448,6 +1486,7 @@ Size: 100
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1482,6 +1521,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1516,6 +1556,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1540,6 +1581,7 @@ b0d0B0 0 0 E
 8 8 1
 Size: 30
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

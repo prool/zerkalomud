@@ -11,7 +11,7 @@
 Русич несет дозорную службу на смотровой вышке.
 ~
 b0c0d0l0m0o0A0t2 d0k0r0 -600 E
-30 -10 -7 10d10+3500 9d9+40
+25 -10 -7 10d10+3500 9d9+40
 0d0+25 100000
 8 8 1
 Saves: -90 0 -90 0
@@ -27,6 +27,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -48,7 +49,7 @@ E
 Русич несет караульную службу на смотровой вышке.
 ~
 b0c0d0l0m0o0A0t2 d0k0r0 -600 E
-30 -10 -7 10d10+3500 5d6+35
+25 -10 -7 10d10+3500 5d6+35
 0d0+25 100000
 8 8 1
 Saves: -80 0 -80 -50
@@ -64,6 +65,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -83,7 +85,7 @@ E
 Русич несет дозорную службу на смотровой вышке.
 ~
 b0c0d0l0m0o0A0t2 d0k0r0e2 -600 E
-30 -13 -7 10d10+3500 9d9+30
+25 -13 -7 10d10+3500 9d9+30
 0d0+25 100000
 8 8 1
 Str: 17
@@ -97,6 +99,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -117,7 +120,7 @@ E
 Этот человек умеет заживлять раны и лечить от поноса.
 ~
 b0c0d0l0m0o0A0 d0k0r0t0e2 -600 E
-30 -6 -7 10d10+1900 5d9+18
+25 -6 -7 10d10+1900 5d9+18
 0d0+25 100000
 8 8 1
 Saves: -120 0 0 -100
@@ -133,6 +136,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: j0b1c1d3 
@@ -163,7 +167,7 @@ E
 Этот человек умеет предсказывать судьбу и наводить понос на врагов.
 ~
 b0c0d0l0m0o0A0 k0r0r1 -600 E
-30 0 -7 10d10+1900 9d6+12
+25 0 -7 10d10+1900 9d6+12
 0d0+25 100000
 8 8 1
 Saves: -100 0 0 -100
@@ -179,6 +183,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3 
@@ -201,7 +206,7 @@ E
 Лихой витязь гарцует на вороном скакуне.
 ~
 c0d0l0m0o0q0t0A0t2 d0f0k0r0e2 -600 E
-30 -30 -10 10d10+7500 12d12+40
+29 -30 -10 10d10+7500 12d12+40
 0d0+59 200000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -217,6 +222,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0d0b1c1d3B3 
@@ -237,7 +243,7 @@ E
 Огромный детина с кулаками в пол пуда!
 ~
 c0d0l0m0o0t0A0t2 c0k0r0 -600 E
-30 -13 -7 10d10+5500 9d9+30
+25 -13 -7 10d10+5500 9d9+30
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -253,6 +259,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0d0b1c1d3C3 
@@ -273,7 +280,7 @@ E
 Огромный детина с кулаками в пол пуда!
 ~
 c0d0l0m0o0A0 d0k0r0t1 -600 E
-30 -20 -7 10d10+4500 9d9+50
+25 -20 -7 10d10+4500 9d9+50
 0d0+25 100000
 8 8 1
 Saves: -80 -80 -80 -80
@@ -289,6 +296,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -308,7 +316,7 @@ E
 Русский лучник, превосходный стрелок.
 ~
 c0d0l0m0o0A0t2 d0f0k0r0 -600 E
-30 -25 -7 10d10+4500 9d9+50
+25 -25 -7 10d10+4500 9d9+50
 0d0+25 100000
 8 8 1
 Saves: -100 0 -100 -100
@@ -325,6 +333,7 @@ LikeWork: 75
 MaxFactor: 5
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -345,7 +354,7 @@ E
    Всадник с копьем и червленым щитом.
 ~
 c0d0l0m0o0A0t2 d0k0r0 -600 E
-30 -20 -7 10d10+5500 9d9+33
+25 -20 -7 10d10+5500 9d9+33
 0d0+25 100000
 8 8 1
 Saves: -90 -90 -90 -90
@@ -362,6 +371,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3B3 
@@ -390,7 +400,7 @@ E
    Всадник с копьем и червленым щитом.
 ~
 c0d0l0m0o0A0t2 d0k0r0z0e2 -600 E
-30 -13 -7 10d10+5500 9d9+38
+25 -13 -7 10d10+5500 9d9+38
 0d0+25 100000
 8 8 1
 Saves: -100 0 -100 0
@@ -406,6 +416,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3B3 
@@ -435,7 +446,7 @@ E
 Ну и еще кое-что...
 ~
 c0d0l0m0o0A0t2 c0d0k0r0t0A0r1e2 -600 E
-30 -10 -7 10d10+4500 9d9+25
+25 -10 -7 10d10+4500 9d9+25
 0d0+25 100000
 8 8 1
 Saves: -150 0 -150 0
@@ -451,6 +462,7 @@ LikeWork: 70
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: j0b1c1d3 
@@ -474,7 +486,7 @@ E
 волхв сторожевого отряда~
 волхва сторожевого отряда~
 волхву сторожевого отряда~
-волхв сторожевого отряда~
+волхва сторожевого отряда~
 волхвом сторожевого отряда~
 волхве сторожевого отряда~
 Волхв сторожевого отряда рассматривает свои руны.
@@ -482,7 +494,7 @@ E
 Волхв-кудесник, любимец богов!
 ~
 c0d0l0m0o0A0t2 c0f0k0r0r1 -600 E
-30 -10 -7 10d10+4500 9d9+25
+25 -10 -7 10d10+4500 9d9+25
 0d0+25 100000
 8 8 1
 Saves: -150 0 -150 0
@@ -498,6 +510,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3 
@@ -526,7 +539,7 @@ E
 Обычный воин русской дружины.
 ~
 c0d0l0m0o0A0t2 d0k0r0 -600 E
-30 -13 -7 10d10+3500 9d6+30
+25 -13 -7 10d10+3500 9d6+30
 0d0+25 100000
 8 8 1
 Saves: -120 0 -120 0
@@ -542,6 +555,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -561,7 +575,7 @@ E
 Обычный воин русской дружины.
 ~
 c0d0l0m0o0A0t2 d0k0r0 -600 E
-30 -13 -7 10d10+3500 9d9+33
+25 -13 -7 10d10+3500 9d9+33
 0d0+25 100000
 8 8 1
 Saves: -100 0 -100 0
@@ -577,6 +591,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -596,7 +611,7 @@ E
 Обычный воин русской дружины.
 ~
 c0d0l0m0o0A0t2 d0k0r0 -600 E
-30 -13 -7 10d10+3500 9d9+30
+25 -13 -7 10d10+3500 9d9+30
 0d0+25 100000
 8 8 1
 Saves: -80 0 -100 0
@@ -612,6 +627,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -631,7 +647,7 @@ E
 Смелый и необычайно проворный воин.
 ~
 c0d0l0m0o0A0t2 d0k0r0s0 -600 E
-30 -13 -7 10d10+3500 9d9+33
+25 -13 -7 10d10+3500 9d9+33
 0d0+26 100000
 8 8 1
 Saves: -150 -150 -150 -150
@@ -648,6 +664,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: h0i0b1c1d3 
@@ -667,7 +684,7 @@ E
 Смелый и необычайно проворный воин.
 ~
 c0d0l0m0o0A0 d0f0k0r0s0 -600 E
-30 0 -7 10d10+3500 9d9+12
+25 0 -7 10d10+3500 9d9+12
 0d0+25 100000
 8 8 1
 BareHandAttack: 11
@@ -682,6 +699,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i0j0b1c1d3 
@@ -701,7 +719,7 @@ E
 Смелый и необычайно проворный воин.
 ~
 c0d0l0m0o0A0t2 d0k0r0s0 -600 E
-30 -13 -7 10d10+3500 9d9+33
+25 -13 -7 10d10+3500 9d9+33
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -718,6 +736,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i0j0b1c1d3 
@@ -737,7 +756,7 @@ E
 Смелый и необычайно проворный воин.
 ~
 c0d0l0m0o0A0t2 d0k0r0s0 -600 E
-30 -13 -7 10d10+3500 9d9+12
+25 -13 -7 10d10+3500 9d9+12
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -754,6 +773,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i0j0b1c1d3 
@@ -773,7 +793,7 @@ E
 Смелый и необычайно проворный воин.
 ~
 c0d0l0m0o0A0t2 d0f0k0r0s0 -600 E
-30 -13 -7 10d10+3500 9d9+33
+25 -13 -7 10d10+3500 9d9+33
 0d0+25 100000
 8 8 1
 Saves: -100 0 -100 0
@@ -790,6 +810,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i0j0b1c1d3 
@@ -809,7 +830,7 @@ E
 Умелый всадник гарцует на белой кабылице.
 ~
 c0d0l0m0o0q0t0A0r2 d0f0k0r0z0A0 -600 E
-30 -30 -10 10d10+7500 30d30+50
+29 -30 -10 10d10+7500 30d30+50
 0d0+59 200000
 8 8 1
 Saves: -200 -100 -200 -100
@@ -825,6 +846,7 @@ LikeWork: 75
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b0c0d0b1c1d3B3 
@@ -845,7 +867,7 @@ E
 Огромный детина с кулаками в пол пуда!
 ~
 c0d0l0m0o0t0A0r2 d0f0k0r0z0A0 -600 E
-30 -20 -7 10d10+6500 30d15+50
+25 -20 -7 10d10+6500 30d15+50
 0d0+25 100000
 8 8 1
 Saves: -150 -100 -100 -100
@@ -860,6 +882,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b0c0d0b1c1d3C3 
@@ -880,7 +903,7 @@ E
 Огромный детина с кулаками в пол пуда!
 ~
 c0d0l0m0o0A0r2 d0k0r0e2 -600 E
-30 -13 -7 10d10+6500 30d9+50
+25 -13 -7 10d10+6500 30d9+50
 0d0+25 100000
 8 8 1
 Saves: -100 0 -100 -100
@@ -895,6 +918,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -914,7 +938,7 @@ E
 Степняк-лучник, превосходный стрелок.
 ~
 c0d0l0m0o0A0r2 d0f0k0r0 -600 E
-30 -20 -7 10d10+4500 9d9+50
+25 -20 -7 10d10+4500 9d9+50
 0d0+25 100000
 8 8 1
 Saves: -120 0 -100 -100
@@ -932,6 +956,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -952,7 +977,7 @@ E
 Всадник с копьем и круглым щитом.
 ~
 c0d0l0m0o0A0r2 k0r0r1 -600 E
-30 -20 -7 10d10+5500 9d9+45
+25 -20 -7 10d10+5500 9d9+45
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -969,6 +994,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3B3 
@@ -997,7 +1023,7 @@ E
 Всадник с копьем и круглым щитом.
 ~
 c0d0l0m0o0A0r2 d0k0r0r1 -600 E
-30 -20 -7 10d10+5500 9d9+45
+25 -20 -7 10d10+5500 9d9+45
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -1014,6 +1040,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3B3 
@@ -1043,7 +1070,7 @@ E
 Ну и еще кое-что...
 ~
 c0d0l0m0o0A0r2 c0d0f0k0r0t0 -600 E
-30 -10 -7 10d10+4500 9d6+30
+25 -10 -7 10d10+4500 9d6+30
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -1059,6 +1086,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: j0b1c1d3 
@@ -1090,7 +1118,7 @@ E
 Шаман находиться под покровительством духов!
 ~
 c0d0l0m0o0A0r2 d0f0k0r0r1 -600 E
-30 -10 -7 10d10+4500 9d6+30
+25 -10 -7 10d10+4500 9d6+30
 0d0+25 100000
 8 8 1
 Saves: -200 -200 -200 -200
@@ -1106,6 +1134,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3 
@@ -1137,7 +1166,7 @@ E
    Невысокого роста худощавый степняк, с раскосыми глазами.
 ~
 c0d0l0m0o0A0r2 d0k0r0 -600 E
-30 -10 -7 10d10+3500 9d9+30
+25 -10 -7 10d10+3500 9d9+30
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -1153,6 +1182,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -1172,7 +1202,7 @@ E
 Смелый и необычайно проворный воин.
 ~
 c0d0l0m0o0A0r2 d0f0k0r0s0 -600 E
-30 -13 -7 10d10+3500 9d6+33
+25 -13 -7 10d10+3500 9d6+33
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -1189,6 +1219,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: h0i0b1c1d3 
@@ -1208,7 +1239,7 @@ E
 Невысокого роста худощавый степняк, с раскосыми глазами.
 ~
 c0d0l0m0o0A0r2 d0k0r0e2 -600 E
-30 -13 -7 10d10+3500 9d9+33
+25 -13 -7 10d10+3500 9d9+33
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -1224,6 +1255,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -1243,7 +1275,7 @@ E
    Невысокого роста худощавый степняк, с раскосыми глазами.
 ~
 c0d0l0m0o0A0r2 d0k0r0 -600 E
-30 -10 -7 10d10+3500 9d9+30
+25 -10 -7 10d10+3500 9d9+30
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -1259,6 +1291,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -1278,7 +1311,7 @@ E
    Невысокого роста худощавый степняк, с раскосыми глазами.
 ~
 c0d0l0m0o0A0r2 d0k0r0 -600 E
-30 -13 -7 10d10+3500 9d9+33
+25 -13 -7 10d10+3500 9d9+33
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -1294,6 +1327,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -1313,7 +1347,7 @@ E
    Невысокого роста худощавый степняк, с раскосыми глазами.
 ~
 c0d0l0m0o0A0r2 d0k0r0 -600 E
-30 -13 -7 10d10+3500 9d9+33
+25 -13 -7 10d10+3500 9d9+33
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -1329,6 +1363,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3C3 
@@ -1348,7 +1383,7 @@ E
    Невысокого роста худощавый степняк, с раскосыми глазами.
 ~
 c0d0l0m0o0t0A0i2r2 d0f0k0r0 -600 E
-30 -13 -7 10d10+4500 9d9+33
+25 -13 -7 10d10+4500 9d9+33
 0d0+25 100000
 8 8 1
 Resistances: 100 100 100 100 0 100 0
@@ -1363,6 +1398,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d3 
@@ -1381,7 +1417,7 @@ E
 Смелый и необычайно проворный воин.
 ~
 c0d0l0m0o0A0r2 b0d0f0k0r0s0 -600 E
-30 -15 -7 10d10+3500 9d9+35
+25 -15 -7 10d10+3500 9d9+35
 0d0+25 100000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -1398,6 +1434,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: g0h0i0b1c1d3 
@@ -1417,7 +1454,7 @@ E
 Смелый и необычайно проворный воин.
 ~
 c0d0l0m0o0A0r2 d0f0k0r0s0e2 -600 E
-30 -13 -7 10d10+3500 9d9+33
+25 -13 -7 10d10+3500 9d9+33
 0d0+25 100000
 8 8 1
 Saves: -150 -100 -150 -100
@@ -1433,6 +1470,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: h0i0b1c1d3 
@@ -1452,7 +1490,7 @@ E
 Смелый и необычайно проворный воин.
 ~
 c0d0l0m0o0A0 f0k0r0s0 -600 E
-30 0 -7 10d10+3500 9d9+12
+25 0 -7 10d10+3500 9d9+12
 0d0+25 100000
 8 8 1
 BareHandAttack: 11
@@ -1467,6 +1505,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: g0h0i0b1c1d3 
@@ -1488,10 +1527,10 @@ E
 Всегда сыт и доволен, и поэтому подкупить его не удастся.
 ~
 b0d0n0x0y0q2r2s2 d0f0k0r0z0A0m1t1a2e2 -600 E
-31 -30 -3 10d20+3000 8d10+40
+32 -30 -3 10d20+3000 8d10+40
 0d0+80 450000
 8 8 1
-Saves: -15 0 -20 -15
+Saves: -15 -14 -20 -15
 Resistances: 100 100 300 100 100 100 100
 Armour: 95
 Success: 30
@@ -1506,6 +1545,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: c0b1c1 

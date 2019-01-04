@@ -23,6 +23,7 @@ Con: 18
 Cha: 20
 Size: 50
 Class: 102
+Race: 101
 Height: 175
 Weight: 150
 Special_Bitvector: 0 
@@ -56,6 +57,7 @@ Cha: 24
 Size: 100
 LikeWork: 60
 Class: 102
+Race: 101
 Height: 175
 Weight: 95
 Special_Bitvector: b1c1d1 
@@ -74,7 +76,7 @@ E
 ~
 Дородный купец с маленькими глазками и шустрыми ручонками.
 ~
-b0d0g0n0o0y0 h0k0 600 E
+b0d0g0n0o0y0u2 d0f0h0k0 600 E
 20 0 0 0d0+600 1d1+3
 1d1+1 0
 8 8 1
@@ -86,6 +88,7 @@ Con: 22
 Cha: 7
 Size: 50
 Class: 102
+Race: 101
 Height: 183
 Weight: 130
 Special_Bitvector: 0 
@@ -103,7 +106,7 @@ E
 ~
 Толстопузый мужик с прилизанными волосами смотрит на вас из-за стойки.
 ~
-b0d0g0n0o0y0 0 600 E
+b0d0g0n0o0y0u2 0 600 E
 20 0 0 0d0+500 1d1+2
 1d1+100 0
 8 8 1
@@ -115,6 +118,7 @@ Con: 22
 Cha: 9
 Size: 50
 Class: 102
+Race: 101
 Height: 190
 Weight: 110
 Special_Bitvector: 0 
@@ -146,6 +150,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 185
 Weight: 130
 Special_Bitvector: 0 
@@ -163,7 +168,7 @@ E
 ~
 Среднего роста мужик с шустрыми глазами.
 ~
-b0d0g0n0o0y0 0 600 E
+b0d0g0n0o0y0u2 0 600 E
 21 5 5 10d10+300 3d3+6
 10d10+100000 0
 8 8 1
@@ -175,6 +180,7 @@ Con: 19
 Cha: 20
 Size: 50
 Class: 102
+Race: 101
 Height: 160
 Weight: 150
 Special_Bitvector: 0 
@@ -193,7 +199,7 @@ E
 Высокого роста рыжебородый мужлан.
 
 ~
-b0d0g0n0o0y0 0 600 E
+b0d0g0n0o0y0u2 0 600 E
 21 5 5 10d10+300 3d3+6
 10d10+9999 0
 8 8 1
@@ -205,6 +211,7 @@ Con: 19
 Cha: 20
 Size: 50
 Class: 102
+Race: 101
 Height: 190
 Weight: 150
 Special_Bitvector: 0 
@@ -222,7 +229,7 @@ E
 ~
 Сгорбленный от тягот жизни старик.
 ~
-b0d0g0n0o0p0y0B0 0 600 E
+b0d0g0n0o0p0y0B0u2 0 600 E
 20 0 0 0d0+200 3d3+6
 10d10+100 0
 6 6 1
@@ -234,6 +241,7 @@ Con: 18
 Cha: 20
 Size: 60
 Class: 102
+Race: 101
 Height: 162
 Weight: 150
 Special_Bitvector: m3 
@@ -253,7 +261,7 @@ T 18208
 Жилистый крепыш.
 ~
 b0d0e0g0m0n0o0p0q0r0u0x0z0f2g2i2 c0d0e0f0k0r0C0p1 0 E
-29 19 -10 10d20+2000 10d12+6
+12 19 -10 10d20+2000 10d12+6
 5d5+0 10000
 8 8 1
 Str: 30
@@ -266,6 +274,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1C3 
@@ -358,6 +367,7 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -392,6 +402,7 @@ Cha: 8
 Size: 60
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 155
 Weight: 65
 Special_Bitvector: m0d1 
@@ -424,6 +435,7 @@ Cha: 22
 Size: 50
 LikeWork: 60
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -456,6 +468,7 @@ Cha: 24
 Size: 60
 LikeWork: 5
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -487,6 +500,7 @@ Size: 50
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -523,6 +537,7 @@ Cha: 22
 Size: 50
 LikeWork: 60
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -555,6 +570,7 @@ Cha: 12
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -589,6 +605,7 @@ Cha: 12
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -622,6 +639,7 @@ Cha: 12
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -640,7 +658,7 @@ E
 Маленькие глазки и большой живот отличают его от остальных служителей церкви.
 ~
 b0d0e0g0m0n0o0p0q0t0u0x0y0B0o1r1g2i2 0 600 E
-4 1 0 10d10+50 0d0+5
+1 1 0 10d10+50 0d0+5
 0d0+10 100
 8 8 1
 Str: 10
@@ -652,6 +670,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 100
 Special_Bitvector: i3 
@@ -672,7 +691,7 @@ E
 ослепительно яркий свет истинной веры.
 ~
 b0d0n0o0u0y0i2 0 600 E
-5 0 0 10d10+2 0d0+15
+1 0 0 10d10+2 0d0+15
 0d0+10 100
 8 8 1
 Str: 10
@@ -684,6 +703,7 @@ Cha: 10
 Size: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 80
 Special_Bitvector: d3i3 
@@ -703,7 +723,7 @@ E
 Лицо монаха закрыто низко опущенным капюшоном.
 ~
 b0d0n0o0y0g2 0 600 E
-5 0 0 10d10+2 4d7+5
+12 0 0 10d10+2 4d7+5
 0d0+0 10000
 8 8 1
 Str: 10
@@ -715,6 +735,7 @@ Cha: 10
 Size: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 80
 Special_Bitvector: i3 
@@ -734,7 +755,7 @@ E
 Длинная седая борода доходит до пояса невысокого старичка.
 ~
 b0d0n0o0y0 0 0 E
-4 0 0 10d10+2 0d0+0
+1 0 0 10d10+2 0d0+0
 0d0+0 100
 8 8 1
 Str: 10
@@ -746,6 +767,7 @@ Cha: 10
 Size: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 155
 Weight: 70
 Special_Bitvector: 0 
@@ -759,7 +781,7 @@ E
 статного служителя~
 статным служителем~
 статном служителе~
-Статный служитель православнойь церкви стоит здесь.
+Статный служитель православной церкви стоит здесь.
 ~
 
 Когда-то этот человек был могучим богатырем. Но было видение ему - как бы 
@@ -769,7 +791,7 @@ E
 поступил на службу к церкви.
 ~
 b0d0n0o0y0 0 600 E
-20 0 0 10d10+800 0d0+40
+4 0 0 10d10+800 0d0+40
 0d0+500 1000
 8 8 1
 Str: 10
@@ -781,6 +803,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 90
 Special_Bitvector: 0 
@@ -800,7 +823,7 @@ E
 глаза непрерывно бегают по толпе.
 ~
 c0d0g0n0o0y0A0i1 d0k0A0j1 -600 E
-24 12 0 10d10+2 1d6+7
+12 12 0 10d10+2 1d6+7
 5d12+200 10000
 8 8 1
 Str: 19
@@ -813,6 +836,7 @@ Size: 60
 LikeWork: 65
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 150
 Weight: 70
 Special_Bitvector: i0b1c1d1m3 
@@ -849,6 +873,7 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

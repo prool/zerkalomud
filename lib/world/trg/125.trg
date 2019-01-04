@@ -16,7 +16,7 @@ else
     break
     default
       msend %actor% _Большой барсук сердито зарычал на Вас.
-      mechoaround %actor% _Большой барсук зарычал на %actor.dname%. Похоже кому-то придеться стирать штаны.
+      mechoaround %actor% _Большой барсук зарычал на %actor.vname%. Похоже кому-то придеться стирать штаны.
     done
   end
 ~

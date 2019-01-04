@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #23200
 старый паромщик~
 старый паромщик~
@@ -13,24 +12,24 @@
 Седой старик с еще очень сильными руками
 ~
 b0d0g0o1f2g2 d0f0h0k0 0 E
-50 1 -7 10d10+2000 10d10+10
-30d30+3000 1000000
+10 1 -7 10d10+2000 10d10+10
+1d30+1 50000
 8 8 1
-BareHandAttack: 0
+Saves: -30 -30 -30 -30
 Str: 36
+Dex: 19
 Int: 15
 Wis: 15
-Dex: 19
 Con: 26
 Cha: 9
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: i3
+Special_Bitvector: i3 
 E
 T 23201
 T 23202
@@ -48,24 +47,24 @@ T 23202
 Мужик лет тридцати пяти с широченными плечами
 ~
 b0d0g0o1f2g2 d0f0h0k0 0 E
-50 1 -7 10d10+2000 10d10+10
-30d30+3000 1000000
+10 1 -7 10d10+2000 10d10+10
+1d30+1 50000
 8 8 1
-BareHandAttack: 0
+Saves: -30 -30 -30 -30
 Str: 36
+Dex: 19
 Int: 15
 Wis: 15
-Dex: 19
 Con: 26
 Cha: 9
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: i3
+Special_Bitvector: i3 
 E
 T 23203
 T 23204
@@ -83,29 +82,31 @@ T 23204
 Дородный муж в дорогой одежде.
 Косматая борода лежит на необъятном животе.
 ~
-b0h0l0n0A0 0 0 E
-20 6 2 10d10+600 3d5+2
+b0d0h0l0n0A0 0 0 E
+16 6 2 10d10+600 3d5+2
 30d2+100 20000
 8 8 1
-BareHandAttack: 0
 Str: 20
+Dex: 14
 Int: 14
 Wis: 14
-Dex: 14
 Con: 24
 Cha: 12
+Size: 100
 LikeWork: 50
 MaxFactor: 50
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Spell: 17
-Spell: 17
-Skill: 144 60
+Special_Bitvector: 0 
 Skill: 141 60
+Skill: 144 60
+Spell: 17
+Spell: 17
 E
+T 23205
 #23203
 ватажник~
 ватажник~
@@ -120,24 +121,25 @@ E
 Мужик в простых доспехах, при мече и с обычным щитом.
 Видать нанялся к купцу в помощники.
 ~
-0 r0 0 E
-19 5 -2 10d10+450 5d3+1
+d0 r0 0 E
+15 5 -2 10d10+450 5d3+1
 10d2+30 18000
 8 8 1
 BareHandAttack: 3
 Str: 23
-Int: 11
-Wis: 12
 Dex: 19
+Wis: 12
 Con: 20
 Cha: 8
+Size: 100
 LikeWork: 40
 MaxFactor: 50
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 137 20
 Skill: 143 50
 Skill: 158 30
@@ -150,29 +152,31 @@ E
 зайца~
 зайцем~
 зайце~
-Трусливый заяй притих под кустом
+Трусливый заяц притих под кустом.
 ~
 
 Заяц как заяц. На ужин сойдет. Если на одного
 ~
-g0 k0 0 E
-15 6 -2 10d5+150 3d3+2
+d0g0 k0 0 E
+8 6 -2 10d5+150 3d3+2
 0d0+0 3000
 8 8 1
 BareHandAttack: 13
 Str: 14
+Dex: 23
 Int: 5
 Wis: 5
-Dex: 23
 Con: 6
 Cha: 7
+Size: 30
 LikeWork: 25
 MaxFactor: 50
 ExtraAttack: 1
 Class: 103
-Size: 30
+Race: 104
 Height: 30
 Weight: 50
+Special_Bitvector: 0 
 Skill: 136 20
 E
 #23205
@@ -189,24 +193,26 @@ E
 Буроватого цвета зверек, очень похожий на белку.
 От белки отличается кожей по бокам, позволяющей легко планировать.
 ~
-0 0 0 E
-13 7 -3 10d10+120 3d3+1
+d0 0 0 E
+7 7 -3 10d10+120 3d3+1
 0d0+0 2700
 8 8 2
 BareHandAttack: 1
 Str: 13
+Dex: 24
 Int: 9
 Wis: 8
-Dex: 24
 Con: 6
 Cha: 12
+Size: 30
 LikeWork: 55
 MaxFactor: 50
 ExtraAttack: 1
 Class: 103
-Size: 30
+Race: 104
 Height: 30
 Weight: 50
+Special_Bitvector: l0 
 Skill: 157 20
 E
 #23206
@@ -222,24 +228,24 @@ E
 
 Десятипудовый самец с ветвистыми рогами.
 ~
-g0l0m0 0 0 E
-20 7 5 10d10+450 5d3+2
+d0g0l0m0 0 0 E
+13 7 5 10d10+450 5d3+2
 0d0+0 12000
 8 8 1
 BareHandAttack: 14
 Str: 22
-Int: 11
-Wis: 11
 Dex: 18
 Con: 18
 Cha: 14
+Size: 100
 LikeWork: 50
 MaxFactor: 30
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 120
 Weight: 150
+Special_Bitvector: 0 
 Skill: 132 30
 E
 #23207
@@ -255,27 +261,28 @@ E
 
 комок иголок и пуговка-нос
 ~
-l1m1n1 f0 0 E
-12 4 3 10d10+120 2d4+1
+d0l1m1n1 f0 0 E
+6 4 3 10d10+120 2d4+1
 0d0+0 2000
 8 8 1
 BareHandAttack: 4
 Str: 10
+Dex: 13
 Int: 8
 Wis: 9
-Dex: 13
 Con: 9
-Cha: 11
+Size: 30
 LikeWork: 30
 MaxFactor: 50
 ExtraAttack: 1
 Class: 102
-Size: 30
+Race: 104
 Height: 30
 Weight: 50
+Special_Bitvector: 0 
 E
 #23208
-сохатый~
+сохатый лось~
 лось~
 лося~
 лосю~
@@ -287,24 +294,26 @@ E
 
 Могучий зверь с тяжелыми рогами
 ~
-0 0 0 E
-20 4 4 10d10+500 5d3+1
+d0 0 0 E
+14 4 4 10d10+500 5d3+1
 0d0+0 13000
 8 8 1
 BareHandAttack: 14
 Str: 22
+Dex: 15
 Int: 9
 Wis: 8
-Dex: 15
 Con: 24
 Cha: 8
+Size: 100
 LikeWork: 40
 MaxFactor: 50
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 150
+Special_Bitvector: 0 
 Skill: 134 30
 E
 #23209
@@ -318,28 +327,29 @@ E
 Дикий кабан роет носом землю
 ~
 
-Огромная гора мяса у которой лучше на пути не становиться
+Огромная гора мяса, у которой лучше на пути не становиться.
 ~
-e1 0 0 E
-22 10 6 10d10+710 1d20+2
+d0e1 0 0 E
+16 10 6 10d10+710 1d20+2
 0d0+0 20000
 8 8 1
 BareHandAttack: 14
 Str: 25
+Dex: 14
 Int: 5
 Wis: 5
-Dex: 14
 Con: 26
 Cha: 5
+Size: 100
 LikeWork: 20
 MaxFactor: 20
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 132 30
 Skill: 136 30
 E
-$
 $

@@ -26,6 +26,7 @@ LikeWork: 35
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 200
 Weight: 100
 Special_Bitvector: p0x0b1c1d1C3 
@@ -85,6 +86,7 @@ LikeWork: 35
 MaxFactor: 5
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 130
 Weight: 60
 Special_Bitvector: l0u0c1C3 
@@ -152,6 +154,7 @@ LikeWork: 30
 MaxFactor: 4
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: l0u0c1C3 
@@ -211,6 +214,7 @@ LikeWork: 70
 MaxFactor: 3
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 199
 Weight: 90
 Special_Bitvector: u0b1c1C3 
@@ -314,6 +318,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 2
 Class: 101
+Race: 113
 Height: 150
 Weight: 55
 Special_Bitvector: u0c1C3 
@@ -374,6 +379,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 2
 Class: 101
+Race: 113
 Height: 150
 Weight: 55
 Special_Bitvector: u0c1C3 
@@ -435,6 +441,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 2
 Class: 101
+Race: 113
 Height: 100
 Weight: 50
 Special_Bitvector: l0u0c1C3 
@@ -501,6 +508,7 @@ LikeWork: 75
 MaxFactor: 2
 ExtraAttack: 1
 Class: 101
+Race: 113
 Height: 170
 Weight: 92
 Special_Bitvector: u0b1c1C3 
@@ -592,6 +600,7 @@ LikeWork: 25
 MaxFactor: 3
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: u0c1d1C3 
@@ -647,6 +656,7 @@ LikeWork: 45
 MaxFactor: 3
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 187
 Weight: 130
 Special_Bitvector: l0u0b1c1d1B3C3 
@@ -729,6 +739,7 @@ Size: 80
 LikeWork: 70
 MaxFactor: 3
 Class: 102
+Race: 101
 Height: 150
 Weight: 79
 Special_Bitvector: l0u0b1c1d1m3C3 
@@ -853,6 +864,7 @@ LikeWork: 65
 MaxFactor: 4
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: l0u0b1c1d1m3C3 
@@ -909,6 +921,7 @@ LikeWork: 55
 MaxFactor: 4
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: l0u0c1d1C3 
@@ -956,6 +969,7 @@ Size: 80
 LikeWork: 70
 MaxFactor: 4
 Class: 105
+Race: 105
 Height: 160
 Weight: 80
 Special_Bitvector: l0u0b1c1d1C3 
@@ -1090,6 +1104,7 @@ Size: 100
 LikeWork: 40
 MaxFactor: 4
 Class: 101
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: l0u0C3 
@@ -1136,6 +1151,7 @@ LikeWork: 70
 MaxFactor: 2
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 199
 Weight: 150
 Special_Bitvector: u0b1c1d1C3 
@@ -1204,11 +1220,11 @@ Spell: 151
 Spell: 153
 Spell: 153
 Spell: 153
-Helper: 73109
-Helper: 73110
-Helper: 73111
-Helper: 73112
 Helper: 73113
+Helper: 73112
+Helper: 73111
+Helper: 73110
+Helper: 73109
 E
 T 73117
 #73116
@@ -1238,6 +1254,7 @@ LikeWork: 30
 MaxFactor: 4
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 200
 Weight: 100
 Special_Bitvector: p0w0b1c1d1C3 
@@ -1300,6 +1317,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0w0b1c1d1C3 
@@ -1359,6 +1377,7 @@ LikeWork: 60
 MaxFactor: 5
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0e0f0w0c1C3 
@@ -1407,8 +1426,8 @@ Spell: 134
 Spell: 152
 Spell: 152
 Spell: 152
-Helper: 73116
 Helper: 73117
+Helper: 73116
 E
 T 73101
 T 73125
@@ -1439,6 +1458,7 @@ Size: 100
 LikeWork: 60
 MaxFactor: 3
 Class: 105
+Race: 101
 Height: 140
 Weight: 77
 Special_Bitvector: p0x0b1c1d1C3 
@@ -1547,6 +1567,7 @@ LikeWork: 70
 MaxFactor: 6
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0x0b1c1d1C3 
@@ -1606,6 +1627,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 2
 Class: 101
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: p0x0C3 
@@ -1647,6 +1669,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 2
 Class: 101
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: p0x0C3 
@@ -1681,6 +1704,7 @@ LikeWork: 14
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: l0x0C3 
@@ -1726,6 +1750,7 @@ LikeWork: 80
 MaxFactor: 2
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: x0b1c1d1C3 
@@ -1773,10 +1798,10 @@ Spell: 67
 Spell: 67
 Spell: 67
 Spell: 111
-Helper: 73100
-Helper: 73119
-Helper: 73120
 Helper: 73122
+Helper: 73120
+Helper: 73119
+Helper: 73100
 E
 #73125
 владыка стихий~
@@ -1807,6 +1832,7 @@ LikeWork: 80
 MaxFactor: 2
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 200
 Weight: 99
 Special_Bitvector: u0v0w0x0b1c1d1C3 
@@ -1923,10 +1949,10 @@ Spell: 152
 Spell: 153
 Spell: 153
 Spell: 153
-Helper: 73124
-Helper: 73126
-Helper: 73127
 Helper: 73128
+Helper: 73127
+Helper: 73126
+Helper: 73124
 E
 T 73119
 I кости,14:6
@@ -1958,6 +1984,7 @@ LikeWork: 30
 MaxFactor: 3
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: x0C3 
@@ -2002,6 +2029,7 @@ LikeWork: 60
 MaxFactor: 3
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: u0C3 
@@ -2046,6 +2074,7 @@ LikeWork: 45
 MaxFactor: 5
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: v0C3 
@@ -2087,6 +2116,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 105
+Race: 114
 Height: 185
 Weight: 150
 Special_Bitvector: 0 
@@ -2160,6 +2190,7 @@ LikeWork: 80
 MaxFactor: 12
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 120
 Weight: 85
 Special_Bitvector: a0b0c0d0e0f0x0 

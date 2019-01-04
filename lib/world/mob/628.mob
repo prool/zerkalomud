@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #62800
 дикий степняк~
 дикий степняк~
@@ -16,41 +15,29 @@ c0d0f0h0l0m0A0 k0r0s0 -600 E
 26 18 -3 5d36+900 4d4+10
 0d0+100 45000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 18
+Dex: 22
 Int: 20
 Wis: 20
-Dex: 22
 Con: 14
 Cha: 9
+Size: 50
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 60
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
+Skill: 131 60
+Skill: 136 78
+Skill: 167 100
 Spell: 5
 Spell: 5
 Spell: 56
 Spell: 137
-Skill: 131 60
-Skill: 136 78
-Skill: 167 100
 E
-I кости,5:5
 #62801
 татарский разведчик~
 татарский разведчик~
@@ -69,43 +56,32 @@ c0d0f0l0m0A0 k0r0z0 -600 E
 25 18 -5 4d40+1400 2d6+15
 0d0+50 52000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 23
+Dex: 17
 Int: 12
 Wis: 14
-Dex: 17
 Con: 16
 Cha: 10
+Size: 60
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 60
+Race: 101
 Height: 150
 Weight: 80
-Special_Bitvector: 0
+Special_Bitvector: 0 
+Skill: 131 100
+Skill: 136 75
+Skill: 151 70
+Skill: 157 100
+Skill: 160 100
 Spell: 15
 Spell: 15
 Spell: 15
 Spell: 62
 Spell: 64
 Spell: 64
-Skill: 131 100
-Skill: 136 75
-Skill: 151 70
-Skill: 157 100
-Skill: 160 100
 E
 #62802
 степной орел~
@@ -123,32 +99,20 @@ b0d0f0q0b1 k0x0A0 -600 E
 25 0 0 10d10+400 5d5+8
 0d0+0 10000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 2 100
 Skill: 136 75
 E
@@ -170,41 +134,29 @@ b0d0 k0r0 -600 E
 26 0 0 10d10+600 6d6+12
 2d2+3 100000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 24
+Dex: 22
 Int: 10
 Wis: 10
-Dex: 22
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 99
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: y0
-Spell: 16
-Spell: 16
-Spell: 16
+Special_Bitvector: y0 
 Skill: 132 50
 Skill: 136 78
 Skill: 137 100
 Skill: 150 100
 Skill: 157 100
 Skill: 158 100
+Spell: 16
+Spell: 16
+Spell: 16
 E
 #62804
  витко рыбачий~
@@ -222,35 +174,23 @@ E
 много, а потому жили в достатке, да и рыба водилась здесь такая
 какой нигде не сыскать. Приезжали за ней из самых дальних краев.
 ~
-b0 d0k0 0 E
+b0d0 d0k0 0 E
 29 -2 -5 10d10+150 3d3+2
 0d0+0 10000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 16
+Dex: 16
 Int: 16
 Wis: 10
-Dex: 16
 Con: 16
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 106
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 T 62801
 #62805
@@ -268,35 +208,24 @@ T 62801
 Все делает с неохотой и зевая так, что кажется вот-вот треснет его 
 детская еще, челюсть.
 ~
-b0 d0k0 0 E
+b0d0 d0k0 0 E
 29 -3 -4 10d10+245 2d3+4
 0d0+0 10000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 17
+Dex: 17
 Int: 17
 Wis: 17
-Dex: 17
 Con: 16
 Cha: 17
+Size: 100
 LikeWork: 99
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 106
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 132 100
 E
 T 62805
@@ -315,35 +244,24 @@ T 62805
 человек землю прадедов своих. Видно так и унесет с собой в 
 могилу эту тайну. 
 ~
-b0 k0 -600 E
+b0d0 k0 -600 E
 25 -2 -4 10d10+800 4d4+4
 2d4+5 120000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 17
+Dex: 17
 Int: 17
 Wis: 17
-Dex: 17
 Con: 17
 Cha: 17
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 4 100
 E
 T 62806
@@ -363,38 +281,27 @@ T 62809
 спокойно ждет приказания хозяина. Шелковая грива опускается 
 почти до земли.
 ~
-l2 d0f0k0 600 E
+d0l2 d0f0k0 600 E
 5 -1 0 10d10+100 2d2+2
 0d0+0 10000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 13
 Str: 17
+Dex: 16
 Int: 17
 Wis: 10
-Dex: 16
 Con: 17
 Cha: 10
+Size: 100
 LikeWork: 45
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 T 62820
-I копыта,10:10
 #62808
  лошадка повозкой~
 лошадка с повозкой~
@@ -409,38 +316,27 @@ I копыта,10:10
 спокойно ждет приказания хозяина. Шелковая грива опускается 
 почти до земли.
 ~
-l2 d0f0k0 600 E
+d0l2 d0f0k0 600 E
 6 -2 -3 10d10+100 2d2+2
 0d0+0 10000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 13
 Str: 17
+Dex: 17
 Int: 16
 Wis: 17
-Dex: 17
 Con: 17
 Cha: 17
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 T 62820
-I копыта,10:10
 #62809
  златоперый карп рыба солнце~
 златоперый карп~
@@ -455,41 +351,33 @@ I копыта,10:10
 Плавники - как из горного хрусталя ! А глаза - огромные
 аметисты!
 ~
-l0m0a1 k0 -600 E
-26 -4 -22 10d10+400 3d3+3
+d0l0m0a1 k0 -600 E
+26 -4 3 10d10+400 3d3+3
 0d0+0 100000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 100
-PlusMem: 0
 CastSuccess: 100
-Success: 0
 Initiative: 100
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 12
 Str: 16
+Dex: 17
 Int: 17
 Wis: 17
-Dex: 17
 Con: 17
 Cha: 17
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: o0v0
+Special_Bitvector: o0v0 
 Spell: 56
 E
 T 62821
 T 62822
-I чешуя,10:10
 #62810
  малек златоперого карпа~
 малек златоперого карпа~
@@ -504,36 +392,27 @@ I чешуя,10:10
 солнце, золотая чешуя. Плавники - как из горного хрусталя ! 
 А глаза - огромные аметисты!
 ~
-m0a1 0 -600 E
+d0m0a1 0 -600 E
 15 -1 -5 10d10+200 2d3+3
 0d0+0 10000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 12
 Str: 17
+Dex: 17
 Int: 17
 Wis: 17
-Dex: 17
 Con: 17
 Cha: 17
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
+Race: 106
 Height: 175
 Weight: 85
-Special_Bitvector: o0v0
+Special_Bitvector: o0v0 
 Skill: 160 150
 Skill: 167 150
 E
@@ -553,35 +432,23 @@ T 62822
 уже на протяжении многих лет. Говорят знает он слова заветные, 
 чтобы рыба сама в руки шла. Да не признается он.
 ~
-0 d0k0 0 E
+d0 d0k0 0 E
 1 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 T 62818
 T 62819
@@ -603,35 +470,29 @@ T 62819
 также внезапно, как и появляется. Своим появлением она 
 предвещает несчастье, войну, болезнь или смерть.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 28 -2 -5 10d10+500 4d3+2
 0d0+0 100000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 100
-PlusMem: 0
 CastSuccess: 30
 Success: 30
 Initiative: 30
 Absorbe: 100
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 17
+Dex: 17
 Int: 17
 Wis: 17
-Dex: 17
 Con: 16
 Cha: 17
+Size: 100
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 1
 Class: 105
-Size: 100
+Race: 105
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Spell: 98
 Spell: 98
 E
@@ -649,43 +510,32 @@ T 62824
 Женщина с длинными распущенными волосами, обитающая в 
 воде и показывающаяся из нее.
 ~
-b0f0 0 -600 E
-26 -3 -21 10d10+700 3d3+5
+b0d0f0 0 -600 E
+26 -3 4 10d10+700 3d3+5
 0d0+0 100000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 17
+Dex: 17
 Int: 16
 Wis: 16
-Dex: 17
 Con: 16
 Cha: 16
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 100
-Size: 100
+Race: 112
 Height: 175
 Weight: 85
-Special_Bitvector: v0
-Spell: 144
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
+Special_Bitvector: v0 
 Skill: 132 150
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 144
 E
-$
 $

@@ -23,6 +23,7 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -67,6 +68,7 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -100,6 +102,7 @@ LikeWork: 60
 MaxFactor: 3
 ExtraAttack: 2
 Class: 101
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1C3 
@@ -130,11 +133,11 @@ Spell: 88
 Spell: 93
 Spell: 94
 Spell: 111
-Helper: 61904
-Helper: 61903
-Helper: 61917
-Helper: 61916
 Helper: 61915
+Helper: 61916
+Helper: 61917
+Helper: 61903
+Helper: 61904
 E
 T 61902
 I крылья,15:3
@@ -166,6 +169,7 @@ LikeWork: 40
 MaxFactor: 4
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 200
 Weight: 80
 Special_Bitvector: b1c1d1C3 
@@ -211,10 +215,10 @@ Spell: 76
 Spell: 76
 Spell: 76
 Spell: 76
-Helper: 61909
-Helper: 61908
-Helper: 61906
 Helper: 61905
+Helper: 61906
+Helper: 61908
+Helper: 61909
 E
 #61904
 дьявол искуситель~
@@ -224,7 +228,7 @@ E
 дьявола-искусителя~
 дьяволом-искусителем~
 дьяволе-искусителе~
-Ужасное создание с рогами и жудкой ухмылкой восседает на троне.
+Ужасное создание с рогами и жуткой ухмылкой восседает на троне.
 ~
    Дьявол-искуситель в своем истинном обличии предстал перед вами.
 ~
@@ -244,6 +248,7 @@ LikeWork: 50
 MaxFactor: 4
 ExtraAttack: 2
 Class: 101
+Race: 112
 Height: 200
 Weight: 110
 Special_Bitvector: b1c1d1C3 
@@ -283,10 +288,10 @@ Spell: 64
 Spell: 64
 Spell: 67
 Spell: 67
-Helper: 61914
-Helper: 61912
-Helper: 61911
 Helper: 61910
+Helper: 61911
+Helper: 61912
+Helper: 61914
 E
 T 61913
 L 594 10 0 0
@@ -318,6 +323,7 @@ LikeWork: 40
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 200
 Weight: 90
 Special_Bitvector: b1c1d1 
@@ -341,7 +347,6 @@ Spell: 28
 Spell: 93
 E
 T 61904
-I кости,10:5
 #61906
 безрукий скелет~
 безрукий скелет~
@@ -370,6 +375,7 @@ Size: 100
 LikeWork: 70
 MaxFactor: 4
 Class: 101
+Race: 110
 Height: 200
 Weight: 100
 Special_Bitvector: b1c1C3 
@@ -417,6 +423,7 @@ Size: 100
 LikeWork: 85
 MaxFactor: 5
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -467,6 +474,7 @@ LikeWork: 15
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 199
 Weight: 98
 Special_Bitvector: b1c1d1C3 
@@ -518,6 +526,7 @@ Size: 90
 LikeWork: 35
 MaxFactor: 3
 Class: 101
+Race: 110
 Height: 130
 Weight: 77
 Special_Bitvector: c1 
@@ -559,6 +568,7 @@ Size: 100
 LikeWork: 30
 MaxFactor: 5
 Class: 101
+Race: 111
 Height: 200
 Weight: 80
 Special_Bitvector: c1C3 
@@ -607,6 +617,7 @@ LikeWork: 25
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: c1 
@@ -659,6 +670,7 @@ LikeWork: 60
 MaxFactor: 3
 ExtraAttack: 3
 Class: 101
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1 
@@ -717,6 +729,7 @@ Size: 60
 LikeWork: 65
 MaxFactor: 5
 Class: 101
+Race: 110
 Height: 130
 Weight: 60
 Special_Bitvector: 0 
@@ -762,6 +775,7 @@ LikeWork: 55
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 125
 Special_Bitvector: b1c1 
@@ -818,6 +832,7 @@ LikeWork: 50
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1m3C3 
@@ -882,6 +897,7 @@ LikeWork: 25
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: c1d1 
@@ -930,6 +946,7 @@ LikeWork: 40
 MaxFactor: 4
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 200
 Weight: 100
 Special_Bitvector: b1c1d1C3 
@@ -951,7 +968,6 @@ Skill: 154 100
 Skill: 157 100
 Spell: 28
 E
-I кожа,10:5
 #61918
 широкоплечий скелет~
 широкоплечий скелет~
@@ -979,6 +995,7 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

@@ -27,6 +27,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 85
 Special_Bitvector: i0j0a1b1c1 
@@ -63,6 +64,7 @@ LikeWork: 50
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 114
 Height: 195
 Weight: 90
 Special_Bitvector: a0b0c0d0e0f0b1c1 
@@ -80,9 +82,8 @@ Spell: 48
 Spell: 48
 Spell: 83
 Spell: 83
-Helper: 86300
 Helper: 86302
-Skill: 136 90
+Helper: 86300
 E
 #86302
 псковский разбойник~
@@ -111,6 +112,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 110
 Special_Bitvector: g0b1c1C3 
@@ -149,6 +151,7 @@ LikeWork: 85
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 50
 Special_Bitvector: g0h0i0j0a1b1c1 
@@ -187,6 +190,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 200
 Weight: 100
 Special_Bitvector: a0b0c0d0e0f0 
@@ -223,6 +227,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 90
 Special_Bitvector: a0b0c0d0e0f0b1c1B3 
@@ -260,6 +265,7 @@ Size: 80
 LikeWork: 50
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 150
 Weight: 90
 Special_Bitvector: i0j0 
@@ -293,6 +299,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 90
 Special_Bitvector: b1c1B3 
@@ -336,6 +343,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 110
 Special_Bitvector: g0b1c1C3 
@@ -376,6 +384,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 90
 Special_Bitvector: a0b0c0d0e0f0b1c1B3 
@@ -420,6 +429,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 110
 Special_Bitvector: g0b1c1 

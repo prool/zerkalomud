@@ -24,6 +24,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -65,6 +66,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -109,6 +111,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -152,6 +155,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: p0a1b1c1 
@@ -184,6 +188,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -224,6 +229,7 @@ Size: 90
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -259,6 +265,7 @@ Size: 90
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -302,6 +309,7 @@ Size: 30
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -350,6 +358,7 @@ Size: 90
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1B3 
@@ -388,6 +397,7 @@ Size: 99
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -444,6 +454,7 @@ Cha: 20
 Size: 20
 LikeWork: 100
 Class: 100
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -479,6 +490,7 @@ Size: 90
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b0c0d0e0f0b1c1B3 
@@ -490,7 +502,6 @@ Spell: 88
 Spell: 88
 Spell: 88
 Helper: 86206
-Skill: 136 102
 E
 T 86200
 T 86205
@@ -523,6 +534,7 @@ Cha: 13
 Size: 100
 LikeWork: 95
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: C3 

@@ -13,7 +13,7 @@
 не пущает никого, кроме как за деньги.
 ~
 b0d0g0n0o0u0x0 k0 0 E
-6 20 10 5d6+85 1d3+1
+5 20 10 5d6+85 1d3+1
 3d4+10 1100
 8 8 1
 Str: 15
@@ -25,6 +25,7 @@ Cha: 5
 Size: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 130
 Special_Bitvector: b0d0 
@@ -46,7 +47,7 @@ T 7103
 маленький бурый медвежонок.
 ~
 d0g0h0m0y0 k0 0 E
-5 20 10 4d5+80 1d3+0
+4 20 10 4d5+80 1d3+0
 0d0+0 900
 8 8 1
 BareHandAttack: 5
@@ -59,6 +60,7 @@ Cha: 4
 Size: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: p0 
@@ -75,10 +77,10 @@ T 7104
 сердитом охотнике~
 Удалой охотник сердито озирается вокруг.
 ~
-Молодой парень с охотничим луком.
+Молодой парень с охотничьим луком.
 ~
 d0f0g0n0o0 k0 -600 E
-6 16 9 3d4+80 1d2+0
+4 16 9 3d4+80 1d2+0
 5d3+10 1000
 8 8 1
 BareHandAttack: 9
@@ -90,6 +92,7 @@ Con: 21
 Cha: 3
 Size: 30
 Class: 102
+Race: 101
 Height: 198
 Weight: 140
 Special_Bitvector: 0 
@@ -98,7 +101,7 @@ E
 T 7105
 #7104
 горихвостка~
-горихвостка ~
+горихвостка~
 горихвостки~
 горихвостке~
 горихвостку~
@@ -109,7 +112,7 @@ T 7105
 Небольшая птица с ярко-красным хвостом.
 ~
 d0g0o0y0b1 k0x0 0 E
-6 20 10 3d5+80 1d2+0
+4 20 10 3d5+80 1d2+0
 0d0+0 800
 8 8 2
 BareHandAttack: 15
@@ -121,6 +124,7 @@ Con: 8
 Cha: 12
 Size: 15
 Class: 103
+Race: 103
 Height: 198
 Weight: 80
 Special_Bitvector: l0 
@@ -139,7 +143,7 @@ E
 обыкновенный заяц.
 ~
 d0g0h0 0 0 E
-6 20 10 4d3+80 1d2+0
+3 20 10 4d3+80 1d2+0
 0d0+0 600
 8 8 1
 BareHandAttack: 4
@@ -152,6 +156,7 @@ Cha: 14
 Size: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: n0 
@@ -170,7 +175,7 @@ E
 Маленький зверек.
 ~
 d0g0 k0 0 E
-5 14 10 0d0+70 1d2+0
+2 14 10 0d0+70 1d2+0
 0d0+0 300
 8 8 1
 BareHandAttack: 4
@@ -181,6 +186,7 @@ Wis: 5
 Con: 17
 Size: 16
 Class: 103
+Race: 104
 Height: 198
 Weight: 80
 Special_Bitvector: p0 
@@ -199,7 +205,7 @@ E
 мелкий пушной зверь.
 ~
 d0g0h0y0 k0 0 E
-6 0 8 0d0+90 1d2+0
+3 0 8 0d0+90 1d2+0
 0d0+0 500
 8 8 2
 BareHandAttack: 8
@@ -212,6 +218,7 @@ Cha: 19
 Size: 15
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 80
 Special_Bitvector: n0 
@@ -230,7 +237,7 @@ E
 молодой парень с волчьим взглядом серых глаз.
 ~
 d0f0g0 k0 -600 E
-10 15 10 5d6+220 1d3+1
+13 15 10 5d6+220 1d3+1
 5d2+29 10500
 8 8 1
 BareHandAttack: 7
@@ -244,6 +251,7 @@ Size: 30
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 160
 Special_Bitvector: 0 
@@ -253,16 +261,16 @@ E
 лихой ватажник~
 лихой ватажник~
 лихого ватажника~
-лихому ватажнку~
-лихого ватажнка~
-лихим ватажнком~
-лихом ватажнке~
+лихому ватажнику~
+лихого ватажника~
+лихим ватажником~
+лихом ватажнике~
 Лихой ватажник поджидает путника одинокого.
 ~
 Жилистый крепкий мужичонка. Работничек ножа и топора.
 ~
 d0f0g0y0 k0 -600 E
-9 15 10 5d7+250 2d4+0
+11 15 10 5d7+250 2d4+0
 0d0+12 8000
 8 8 1
 BareHandAttack: 10
@@ -276,6 +284,7 @@ Size: 30
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 150
 Special_Bitvector: 0 
@@ -295,7 +304,7 @@ E
 хищная птица.
 ~
 d0g0h0y0b1 k0x0 0 E
-8 19 -11 5d5+180 3d4+0
+9 19 5 5d5+180 3d4+0
 0d0+0 5000
 8 8 2
 BareHandAttack: 1
@@ -308,6 +317,7 @@ Cha: 15
 Size: 25
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 120
 Special_Bitvector: l0 
@@ -323,7 +333,7 @@ E
 волчонке~
 Молодой волчонок трусит мимо, принюхиваясь к земле.
 ~
-серый волчонок - вырастет будет овец таскать у крестьян.
+серый волчонок - вырастет, будет овец таскать у крестьян.
 ~
 d0g0h0m0 k0 0 E
 9 19 -11 10d4+170 2d5+2
@@ -338,6 +348,7 @@ Con: 20
 Size: 20
 LikeWork: 10
 Class: 103
+Race: 104
 Height: 30
 Weight: 145
 Special_Bitvector: p0 
@@ -356,7 +367,7 @@ E
 маленький злобный хищник.
 ~
 d0g0 k0 0 E
-9 17 -11 6d5+190 1d4+0
+5 17 -11 6d5+190 1d4+0
 0d0+0 1200
 8 8 1
 BareHandAttack: 4
@@ -369,6 +380,7 @@ Size: 20
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 100
 Special_Bitvector: p0 
@@ -384,10 +396,10 @@ E
 хитром лисе~
 Хитрый лис внимательно следит за вами из густого кустарника.
 ~
-рыжый хитрый лис.
+рыжий хитрый лис.
 ~
 d0g0h0y0 k0 0 E
-10 15 8 5d6+220 2d3+0
+12 15 8 5d6+220 2d3+0
 0d0+0 9000
 8 8 1
 BareHandAttack: 4
@@ -401,6 +413,7 @@ Size: 30
 LikeWork: 15
 ExtraAttack: 1
 Class: 100
+Race: 104
 Height: 198
 Weight: 140
 Special_Bitvector: 0 
@@ -419,7 +432,7 @@ E
 два крыла, две ноги, клюв... - птица что ли?
 ~
 d0g0y0b1 k0x0 0 E
-8 16 -11 5d7+170 2d4+0
+4 16 -11 5d7+170 2d4+0
 0d0+0 800
 8 8 2
 BareHandAttack: 12
@@ -432,6 +445,7 @@ Cha: 17
 Size: 20
 LikeWork: 20
 Class: 103
+Race: 103
 Height: 30
 Weight: 110
 Special_Bitvector: l0 
@@ -452,7 +466,7 @@ T 7106
 несет товар всяческий на ярмарку в город.
 ~
 b0d0x0y0 0 0 E
-12 15 7 5d6+230 2d4+1
+14 15 7 5d6+230 2d4+1
 0d0+100 14000
 8 8 1
 Str: 22
@@ -465,6 +479,7 @@ Size: 30
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 160
 Special_Bitvector: 0 
@@ -482,10 +497,10 @@ T 7108
 медведе~
 Косматый медведь продирается сквозь кусты.
 ~
-Здоровенный косматы медведь с огромными когтями.
+Здоровенный косматый медведь с огромными когтями.
 ~
 d0 k0 0 E
-20 0 0 3d20+250 5d4+4
+13 0 0 3d20+250 5d4+4
 0d0+0 12500
 8 8 1
 Saves: 20 20 20 20
@@ -500,6 +515,7 @@ Size: 30
 LikeWork: 80
 ExtraAttack: 1
 Class: 100
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

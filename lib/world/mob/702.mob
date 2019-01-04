@@ -13,10 +13,10 @@
 мести душе.
 ~
 b0c0d0f0g0m0n0o0A0 c0d0e0k0w1 -600 E
-32 0 -9 10d10+9999 17d17+0
+36 0 -9 10d10+9999 17d17+0
 0d0+0 1000000
 5 5 0
-Saves: -70 -35 -35 -20
+Saves: -70 -35 -35 -30
 Resistances: 40 40 40 40 44 43 41
 HPreg: 66
 Armour: 55
@@ -36,6 +36,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 3
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -103,7 +104,7 @@ T 70214
 ясно дают понять, что ссориться с ним не следует.
 ~
 b0c0d0g0m0n0o0A0 k0r0 -600 E
-28 5 -4 20d5+2222 15d15+30
+29 5 -4 20d5+2222 15d15+30
 0d0+0 200000
 8 8 1
 Saves: -40 -12 -12 -12
@@ -121,6 +122,7 @@ Size: 30
 LikeWork: 80
 ExtraAttack: 3
 Class: 103
+Race: 107
 Height: 198
 Weight: 50
 Special_Bitvector: g0 
@@ -161,6 +163,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -177,7 +180,7 @@ E
 бурого медведя~
 бурым медведем~
 буром медведе~
-Огромный медведь спит посреди поляны.
+Сонный медведь ищет где прикорнуть.
 ~
 Крупный бурый медведь выглядит несколько сонно.
 ~
@@ -200,6 +203,7 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -228,7 +232,7 @@ d0g0h0m0n0o0 h0k0x0 -600 E
 Saves: -9 -9 -9 -9
 Resistances: 6 6 6 6 6 6 6
 Initiative: 5
-BareHandAttack: 4
+BareHandAttack: 15
 Str: 20
 Dex: 25
 Int: 28
@@ -238,6 +242,7 @@ Cha: 35
 Size: 30
 LikeWork: 60
 Class: 103
+Race: 103
 Height: 198
 Weight: 50
 Special_Bitvector: l0 
@@ -265,7 +270,7 @@ T 70224
 Объевшаяся шишек белка уже не знает чем бы ей заняться. Она сыто икает и 
 держится лапками за живот.
 ~
-d0g0h0m0n0o0 h0k0x0 -600 E
+d0g0h0m0n0o0 h0k0 -600 E
 28 4 -4 0d0+1600 12d13+5
 5d5+0 150000
 8 8 2
@@ -283,9 +288,10 @@ Cha: 32
 Size: 30
 LikeWork: 65
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
-Special_Bitvector: l0 
+Special_Bitvector: 0 
 Skill: 136 100
 Skill: 157 100
 Spell: 26
@@ -330,6 +336,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -377,6 +384,7 @@ Size: 10
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -437,6 +445,7 @@ Cha: 22
 Size: 30
 LikeWork: 70
 Class: 103
+Race: 103
 Height: 198
 Weight: 50
 Special_Bitvector: l0 
@@ -470,7 +479,7 @@ E
 над полем боя.
 ~
 d0f0g0n0o0p0q0r0x0z0b1g2 c0d0e0k0x0C0r1 -600 E
-30 0 -6 10d5+2800 16d16+35
+29 0 -6 10d5+2800 16d16+35
 0d0+0 250000
 8 8 1
 Saves: -70 -30 -30 -30
@@ -487,6 +496,7 @@ Size: 40
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 50
 Special_Bitvector: l0b1c1B3 
@@ -549,6 +559,7 @@ Size: 40
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 50
 Special_Bitvector: l0b1c1 
@@ -594,7 +605,7 @@ T 70221
 Дух погибшего скандинава, жаждет мести.
 ~
 b0d0f0g0n0o0p0r0x0z0b1g2 c0d0e0k0x0n1r1 -600 E
-31 0 -5 0d0+8000 16d16+22
+36 0 -5 0d0+8000 16d16+22
 0d0+0 1000000
 8 8 1
 Saves: -60 -60 -60 -30
@@ -611,6 +622,7 @@ Size: 40
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 50
 Special_Bitvector: l0 
@@ -678,6 +690,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -720,6 +733,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 2
 Class: 103
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: g0m0 
@@ -768,6 +782,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -816,6 +831,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -861,6 +877,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -908,6 +925,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -952,6 +970,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -997,6 +1016,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1027,7 +1047,7 @@ E
 своих сородичей.
 ~
 b0d0f0g0n0o0 d0k0r0 -600 E
-28 5 -4 20d5+2222 15d15+30
+29 5 -4 20d5+2222 15d15+30
 0d0+0 210000
 8 8 1
 Saves: -50 -19 -19 -19
@@ -1045,6 +1065,7 @@ Size: 30
 LikeWork: 80
 ExtraAttack: 2
 Class: 103
+Race: 107
 Height: 198
 Weight: 50
 Special_Bitvector: g0 
@@ -1068,9 +1089,10 @@ E
 Дух погибшего скандинава, жаждет мести.
 ~
 b0d0f0g0n0o0p0r0x0z0b1g2 c0d0e0k0x0r1 -600 E
-31 0 -5 0d0+8000 16d16+22
+36 0 -5 0d0+8000 16d16+22
 0d0+0 1000000
 8 8 1
+Saves: -30 -30 -30 -30
 Str: 30
 Dex: 30
 Int: 38
@@ -1081,6 +1103,7 @@ Size: 40
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 50
 Special_Bitvector: l0 

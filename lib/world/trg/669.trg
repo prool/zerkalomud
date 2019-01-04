@@ -218,6 +218,7 @@ if (%actor.name% == %quest669.name%)
     end
   end
 end
+брос все
 ~
 #66911
 Смерть ведуньи~
@@ -251,6 +252,9 @@ attach 66915 %set_trig.id%
 calcuid set_trig 66909 mob
 attach 66909 %set_trig.id% 
 attach 66910 %set_trig.id% 
+*пуржим проход в лес
+wdoor 66925 east purge
+wdoor 66924 west purge
 ~
 #66914
 Нищий крестьянин_1~

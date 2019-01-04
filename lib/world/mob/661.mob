@@ -25,6 +25,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -62,6 +63,7 @@ Size: 30
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: n0v0 
@@ -69,7 +71,6 @@ Skill: 132 70
 Skill: 136 75
 Spell: 56
 E
-I кости,10:5
 #66102
 протухший труп~
 протухший труп~
@@ -97,6 +98,7 @@ Size: 60
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -137,6 +139,7 @@ Size: 10
 LikeWork: 35
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 30
 Weight: 50
 Special_Bitvector: i0l0u0b1B3 
@@ -178,6 +181,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: a1b1c1 
@@ -213,6 +217,7 @@ Size: 40
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: y0a1b1c1 
@@ -250,6 +255,7 @@ Size: 90
 LikeWork: 60
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 30
 Weight: 70
 Special_Bitvector: l0 
@@ -290,6 +296,7 @@ Con: 3
 Cha: 3
 Size: 10
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -322,6 +329,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -354,6 +362,7 @@ Cha: 10
 Size: 100
 LikeWork: 50
 Class: 100
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -395,6 +404,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: g0b1c1 
@@ -433,6 +443,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -464,6 +475,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

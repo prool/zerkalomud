@@ -15,7 +15,7 @@
 Кот диктует про татар мемуар. 
 ~
 b0d0m0n0x0A0u2 d0f0k0r0A0C0m1 -600 E
-33 0 -8 10d10+2222 14d14+3
+30 0 -8 10d10+2222 14d14+3
 0d0+0 300000
 8 8 1
 Saves: 0 0 0 70
@@ -35,6 +35,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 100
 Weight: 50
 Special_Bitvector: c1 
@@ -69,7 +70,7 @@ T 77410
 хвост.
 ~
 b0d0g0n0p0r0x0g2u2 c0d0e0k0k1l1q1x1z1 -600 E
-33 0 -5 10d10+3888 12d12+4
+30 0 -5 10d10+3888 12d12+4
 0d0+18 260000
 8 8 2
 Resistances: 0 0 300 0 30 30 20
@@ -91,6 +92,7 @@ LikeWork: 80
 MaxFactor: 1
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -146,9 +148,10 @@ T 77412
 Обросший мхом мужиченка. Это лесник темного леса, он отвечает за флору.
 ~
 b0d0g0m0n0o0r0x0u2 c0e0f0k0s0C0c1y1 -600 E
-34 0 -10 10d10+3500 17d17+2
+31 0 -10 10d10+3500 17d17+2
 0d0+40 380000
 8 8 1
+Saves: -10 -10 -10 -10
 Resistances: 0 0 0 150 30 30 30
 HPreg: 40
 Armour: 40
@@ -167,6 +170,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -235,9 +239,10 @@ T 77415
 Женщина в годах с зеленоватыми волосами и пышными формами.
 ~
 b0d0g0m0n0o0A0u2 c0e0k0t1 -600 E
-33 0 -5 10d10+2000 16d16+2
+32 0 -5 10d10+2000 16d16+2
 0d0+35 440000
 8 8 2
+Saves: -14 -14 -14 -14
 Resistances: 25 25 25 25 25 25 25
 HPreg: 35
 Armour: 30
@@ -254,6 +259,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -307,7 +313,7 @@ b0d0f0g0n0o0x0A0u2 c0d0e0k0C0c1j1b2 -600 E
 33 0 -8 10d10+3000 17d17+2
 0d0+40 600000
 8 8 1
-Saves: 0 0 0 70
+Saves: -18 -18 -18 -18
 Resistances: 0 0 30 30 30 0 0
 HPreg: 30
 Armour: 45
@@ -325,6 +331,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -397,7 +404,6 @@ Spell: 66
 Helper: 77420
 E
 T 77414
-I кости,10:10
 #77405
  князь Василий~
 князь Василий~
@@ -415,10 +421,10 @@ I кости,10:10
 Князь-колдун Василий.
 ~
 b0d0g0n0o0s1g2u2 c0d0e0f0k0m0n0A0C0r1w1e2 -600 E
-40 0 -10 10d10+14000 23d23+6
+44 0 -10 10d10+14000 23d23+6
 0d0+200 6000000
 8 8 1
-Saves: 50 50 50 50
+Saves: -62 -62 -62 -62
 Resistances: 0 0 0 0 40 40 40
 HPreg: 40
 Armour: 60
@@ -438,6 +444,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 4
 Class: 101
+Race: 110
 Height: 185
 Weight: 85
 Special_Bitvector: g0 
@@ -499,8 +506,8 @@ Spell: 128
 Spell: 128
 Spell: 128
 Spell: 128
-Helper: 77431
 Helper: 77430
+Helper: 77431
 E
 T 77417
 T 77436
@@ -528,7 +535,7 @@ I глаза,30:25
 
 ~
 b0d0g0n0o0x0A0 c0d0e0f0k0m0s0C0c1l1t1w1e2 -600 E
-33 0 -4 10d10+3300 16d17+3
+30 0 -4 10d10+3300 16d17+3
 0d0+25 280000
 8 8 1
 Saves: 45 0 0 0
@@ -546,6 +553,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 2
 Class: 103
+Race: 102
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -598,6 +606,7 @@ Cha: 10
 Size: 100
 LikeWork: 50
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -644,10 +653,10 @@ I чешуя,25:25
 предпочитает лягушек.
 ~
 b0d0f0g0t0x0A0u2 c0d0e0h0k0C0c1j1b2 -600 E
-33 10 -8 10d10+2800 17d17+6
+32 10 -8 10d10+2800 17d17+6
 0d0+100 500000
 8 8 1
-Saves: 0 10 0 50
+Saves: -14 -14 -14 -14
 HPreg: 45
 Armour: 45
 Absorbe: 20
@@ -663,6 +672,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -730,9 +740,10 @@ T 77422
 Нашу нечистую силу!
 ~
 b0d0g0n0o0x0d2h2u2 c0d0e0k0m0c1k1q1 -600 E
-30 0 0 10d10+1555 13d15+0
+31 0 0 10d10+1555 13d15+0
 0d0+100 340000
 8 8 1
+Saves: -10 -10 -10 -10
 Resistances: 0 0 150 150 15 0 15
 HPreg: 15
 Armour: 35
@@ -748,6 +759,7 @@ Cha: 17
 Size: 100
 LikeWork: 50
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -840,10 +852,10 @@ I чешуя,15:25
 
 ~
 b0c0d0e0m0n0x0A0u2 c0d0e0g0k0m0n0C0k1e2 -600 E
-33 0 0 80d20+5000 15d15+0
+35 0 0 80d20+5000 15d15+0
 0d0+100 800000
 8 8 2
-Saves: 0 0 0 80
+Saves: -26 -26 -26 -26
 Resistances: 35 35 35 35 50 0 35
 HPreg: 50
 Armour: 50
@@ -861,6 +873,7 @@ Cha: 30
 Size: 100
 ExtraAttack: 3
 Class: 103
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: a1b1c1 
@@ -914,9 +927,10 @@ T 77447
 Много лет верно служил Черномору, а ныне озабочен получением надела земли.
 ~
 b0c0d0g0m0n0o0A0g2u2 h0k0n0r0C0t1x1 -600 E
-33 0 0 10d10+6000 12d18+15
+34 0 0 10d10+6000 12d18+15
 0d0+100 750000
 8 8 1
+Saves: -22 -22 -22 -22
 HPreg: 30
 Armour: 45
 Str: 45
@@ -929,6 +943,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 120
 Special_Bitvector: b1c1 
@@ -942,8 +957,8 @@ Skill: 146 150
 Skill: 150 150
 Skill: 165 150
 Spell: 111
-Helper: 77433
 Helper: 77432
+Helper: 77433
 E
 T 77446
 I зубы,10:10
@@ -961,9 +976,10 @@ I зубы,10:10
 его распространением.
 ~
 b0c0d0g0n0x0A0u2 d0h0k0z1 0 E
-34 0 0 10d10+4500 21d21+0
+35 0 0 10d10+4500 21d21+0
 0d0+60 780000
 5 5 1
+Saves: -26 -26 -26 -26
 Resistances: 0 0 0 0 80 0 0
 HPreg: 100
 Armour: 55
@@ -977,6 +993,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 130
 Special_Bitvector: b1c1 
@@ -1022,7 +1039,7 @@ T 77445
 Черноморе~
 Черномор ласкает бабу Ягу.
 ~
-Крепкий мужечек с хитрыми глазенками и смолянисто-черной бородой. 
+Крепкий мужичок с хитрыми глазенками и смолянисто-черной бородой. 
 
 
 ~
@@ -1030,7 +1047,7 @@ b0c0d0f0g0x0A0g2u2 c0d0e0k0m0n0r0c1r1t1z1e2 -600 E
 34 0 -5 10d10+3200 16d19+0
 17d25+4351 680000
 8 8 1
-Saves: 0 0 0 70
+Saves: -22 -22 -22 -22
 HPreg: 50
 Armour: 40
 Absorbe: 20
@@ -1044,6 +1061,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 70
 Special_Bitvector: b1c1 
@@ -1089,7 +1107,6 @@ Spell: 94
 Helper: 77411
 E
 T 77425
-I кожа,15:20
 #77414
 баба яга сгорбившаяся старушка~
 баба Яга~
@@ -1109,7 +1126,7 @@ I кожа,15:20
 
 ~
 b0d0g0n0o0A0u2 c0d0e0f0k0m0n0C0l1r1w1d2e2 -600 E
-33 0 0 10d10+3000 14d13+0
+29 0 0 10d10+3000 14d13+0
 0d0+150 250000
 8 8 2
 HPreg: 66
@@ -1126,6 +1143,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1195,9 +1213,10 @@ T 77435
 деревень, а сейчас как последний крепостной пашет землю.
 ~
 b0d0g0n0o0x0b1a2g2h2u2 c0d0e0k0m0p0x0C0r1w1x1e2 -600 E
-33 0 0 10d10+6666 14d14+0
+31 0 0 10d10+6666 14d14+0
 0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Resistances: 25 25 25 25 0 0 0
 HPreg: 25
 Armour: 50
@@ -1213,6 +1232,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1259,9 +1279,10 @@ I крылья,20:40
 заодно и нежить со света изжить, или объездить.
 ~
 b0c0d0g0m0n0o0A0g2u2 d0k0m0n0r0 -600 E
-34 0 -8 10d10+7000 21d22+0
+37 0 -8 10d10+7000 21d22+0
 0d0+150 1200000
 8 8 1
+Saves: -34 -34 -34 -34
 Resistances: 0 0 0 0 50 0 0
 HPreg: 100
 Armour: 55
@@ -1276,6 +1297,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 195
 Weight: 140
 Special_Bitvector: g0b1c1 
@@ -1303,10 +1325,10 @@ T 77432
 старике Хоттабыче~
 Седовласый дедушка сидит тут, причудливо скрестив ноги.
 ~
-У дедушки очень длинная белая борода. Видимо это не спроста.
+У дедушки очень длинная белая борода. Видимо это неспроста.
 ~
 b0d0e0g0m0n0o0x0e2h2i2u2 c0d0e0k0m0n0r0C0r1x1 -600 E
-34 0 0 10d10+1999 14d14+0
+28 0 0 10d10+1999 14d14+0
 0d0+60 180000
 6 6 1
 Armour: 15
@@ -1321,6 +1343,7 @@ Cha: 36
 Size: 100
 LikeWork: 65
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1375,7 +1398,7 @@ T 77434
 шутить он не будет.
 ~
 c0d0g0m0n0o0A0g2 k0n0r0C0x1 -600 E
-30 0 0 10d10+1500 16d16+0
+29 0 0 10d10+1500 16d16+0
 0d0+15 240000
 8 8 1
 Resistances: 10 10 10 10 0 0 0
@@ -1390,6 +1413,7 @@ Cha: 26
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 185
 Weight: 115
 Special_Bitvector: b1c1 
@@ -1400,7 +1424,6 @@ Skill: 132 100
 Skill: 136 100
 Skill: 146 100
 E
-I кости,10:15
 #77419
  здоровенный жлоб~
 здоровенный жлоб~
@@ -1415,7 +1438,7 @@ I кости,10:15
 шутить он не будет.
 ~
 b0c0d0f0g0m0n0o0A0g2u2 d0k0n0r0C0p1t1x1 -600 E
-31 0 -2 10d10+2700 16d17+0
+30 0 -2 10d10+2700 16d17+0
 0d0+100 300000
 8 8 1
 Armour: 35
@@ -1430,6 +1453,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 185
 Weight: 115
 Special_Bitvector: b1c1 
@@ -1456,10 +1480,10 @@ I глаза,10:20
 Парень лет двадцати пяти с луком в руках выискивает дичь.
 ~
 d0g0x0A0j2 c0d0e0h0k0C0c1j1e2 -600 E
-31 0 -5 10d10+3000 16d16+0
+32 0 -5 10d10+3000 16d16+0
 0d0+40 420000
 8 8 1
-Saves: 80 0 0 0
+Saves: -14 -14 -14 -14
 HPreg: 40
 Armour: 30
 AResist: 25
@@ -1473,6 +1497,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1496,7 +1521,6 @@ Spell: 15
 Spell: 15
 Spell: 23
 E
-I кости,10:8
 #77421
 дворцовый страж крепкий охранник~
 дворцовый страж~
@@ -1511,9 +1535,10 @@ I кости,10:8
 оббитые позолотой, дают понять, что у этого стража богатый хозяин.
 ~
 b0c0d0g0m0n0o0A0g2u2 d0k0n0r0C0t1x1 -600 E
-30 0 -4 10d10+2500 16d16+0
+32 0 -4 10d10+2500 16d16+0
 0d0+30 420000
 8 8 1
+Saves: -14 -14 -14 -14
 Armour: 55
 AResist: 10
 BareHandAttack: 3
@@ -1527,6 +1552,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 185
 Weight: 111
 Special_Bitvector: a0b1c1B3 
@@ -1554,7 +1580,7 @@ I зубы,5:5
 Пожилой мужичек ерзает наглыми глазенками по Вам.
 ~
 b0d0f0g0n0o0A0g2u2 c0d0e0k0l1z1 -600 E
-33 0 -5 10d10+5000 12d12+2
+29 0 -5 10d10+5000 12d12+2
 0d0+40 250000
 8 8 1
 Saves: 50 0 0 0
@@ -1572,6 +1598,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1609,10 +1636,9 @@ Spell: 153
 Spell: 153
 Spell: 153
 Spell: 153
-Helper: 77423
 Helper: 77421
+Helper: 77423
 E
-I кожа,5:15
 #77423
 звездочет старик~
 звездочет~
@@ -1627,10 +1653,10 @@ I кожа,5:15
 На голове √ колпак с полумесяцем.
 ~
 b0d0g0m0n0o0x0A0u2 c0d0e0k0m0n0r0C0r1x1 -600 E
-31 0 0 10d10+2500 13d8+5
+33 0 0 10d10+2500 13d8+5
 0d0+70 600000
 6 8 1
-Saves: 40 40 0 0
+Saves: -18 -18 -18 -18
 CastSuccess: 50
 AResist: 12
 Str: 15
@@ -1642,6 +1668,7 @@ Cha: 36
 Size: 80
 LikeWork: 80
 Class: 102
+Race: 101
 Height: 175
 Weight: 60
 Special_Bitvector: b1c1 
@@ -1674,8 +1701,8 @@ Spell: 143
 Spell: 143
 Spell: 143
 Spell: 143
-Helper: 77425
 Helper: 77424
+Helper: 77425
 E
 I глаза,20:33
 #77424
@@ -1692,9 +1719,10 @@ I глаза,20:33
 улыбки.
 ~
 b0c0d0g0m0n0o0g2u2 d0k0n0r0C0t1x1 -600 E
-31 0 0 10d10+3000 20d20+0
+34 0 0 10d10+3000 20d20+0
 0d0+40 670000
 8 8 1
+Saves: -22 -22 -22 -22
 Armour: 35
 Str: 50
 Dex: 25
@@ -1706,6 +1734,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 120
 Special_Bitvector: b1c1 
@@ -1731,7 +1760,7 @@ E
 Второй из двух братьев-громил нервно зыркает по сторонам.
 ~
 b0c0d0f0g0m0n0o0A0g2u2 k0n0r0C0t1x1 -600 E
-31 0 0 10d10+4200 20d21+0
+30 0 0 10d10+4200 20d21+0
 0d0+40 320000
 8 8 1
 Armour: 40
@@ -1745,6 +1774,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 120
 Special_Bitvector: b1c1 
@@ -1775,7 +1805,7 @@ E
 Эх, хороша Маша, да жаль, что не наша.
 ~
 b0d0g0n0o0A0u2 c0d0e0k0r0t1u1 -600 E
-32 0 -3 10d10+1699 16d13+0
+29 0 -3 10d10+1699 16d13+0
 0d0+0 200000
 8 8 2
 Resistances: 20 20 20 20 0 0 0
@@ -1791,6 +1821,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1810,10 +1841,9 @@ Spell: 54
 Spell: 56
 Spell: 88
 Spell: 156
-Helper: 77422
 Helper: 77423
+Helper: 77422
 E
-I кожа,10:20
 #77427
  поклонник~
 поклонник~
@@ -1828,7 +1858,7 @@ I кожа,10:20
 состоит на службе у царя каким-нибудь охотничком.
 ~
 b0d0g0m0n0x0A0u2 c0d0e0k0r0t0C0c1j1t1e2 -600 E
-31 8 7 10d10+1899 17d17+0
+26 8 7 10d10+1899 17d17+0
 0d0+60 110000
 8 8 1
 Resistances: 10 10 10 10 5 5 5
@@ -1847,6 +1877,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: j0b1c1 
@@ -1889,7 +1920,7 @@ b0c0d0m0n0x0u2 c0d0e0g0j0k0m0n0C0k1 -600 E
 32 0 0 10d10+3500 16d16+0
 0d0+0 500000
 8 8 2
-Saves: 30 0 30 0
+Saves: -14 -14 -14 -14
 Resistances: 0 0 100 0 0 0 0
 HPreg: 55
 Armour: 15
@@ -1906,6 +1937,7 @@ Size: 40
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1939,7 +1971,7 @@ I когти,15:50
 Самая обыкновенная болотная лягушка. Селится близ болот и небольших озер.
 ~
 c0d0m0n0x0u2 c0d0e0g0k0m0n0C0k1 -600 E
-31 0 0 10d10+2299 15d15+0
+29 0 0 10d10+2299 15d15+0
 0d0+0 230000
 8 8 2
 HPreg: 15
@@ -1956,6 +1988,7 @@ Size: 30
 LikeWork: 75
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 30
 Weight: 50
 Special_Bitvector: n0b1c1 
@@ -1982,10 +2015,10 @@ I глаза,5:5
 они уже вкусили силы Великого и кое-чего могут.
 ~
 d0g0n0o0A0u2 c0d0e0k0m0C0l1w1 -600 E
-33 0 0 10d10+3200 14d13+0
+32 0 0 10d10+3200 14d13+0
 0d0+40 500000
 8 8 1
-Saves: 60 0 0 0
+Saves: -14 -14 -14 -14
 CastSuccess: 35
 Str: 22
 Dex: 22
@@ -1997,6 +2030,7 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 120
 Weight: 50
 Special_Bitvector: b1c1 
@@ -2046,10 +2080,10 @@ E
 свое диковинное оружие.
 ~
 b0c0d0g0m0n0o0A0g2u2 c0d0e0k0n0r0C0w1y1 -600 E
-30 0 -6 10d10+5500 17d17+0
+34 0 -6 10d10+5500 17d17+0
 0d0+100 700000
 8 8 1
-Saves: 50 0 0 0
+Saves: -22 -22 -22 -22
 Resistances: 100 0 0 0 0 0 0
 Armour: 40
 BareHandAttack: 3
@@ -2063,6 +2097,7 @@ Size: 90
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 112
 Height: 160
 Weight: 100
 Special_Bitvector: b1c1 
@@ -2103,10 +2138,10 @@ E
 ведрами и таскающего воду.
 ~
 c0d0g0m0n0o0A0s1g2u2 d0k0n0r0C0t1 -600 E
-32 0 0 10d10+3900 18d18+0
+33 0 0 10d10+3900 18d18+0
 0d0+0 620000
 8 8 1
-Saves: 30 0 0 0
+Saves: -18 -18 -18 -18
 Armour: 40
 AResist: 10
 Str: 43
@@ -2119,6 +2154,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 185
 Weight: 120
 Special_Bitvector: b1c1 
@@ -2144,9 +2180,10 @@ I зубы,5:5
 нечистой силе.
 ~
 c0d0g0m0n0o0A0g2u2 d0k0n0r0C0t1 -600 E
-32 0 -5 190d10+3500 15d15+0
+33 0 -5 190d10+3500 15d15+0
 0d0+30 600000
 8 8 1
+Saves: -18 -18 -18 -18
 Resistances: 0 0 0 0 0 10 0
 Armour: 35
 AResist: 20
@@ -2160,6 +2197,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 105
 Special_Bitvector: b1c1B3 
@@ -2192,10 +2230,10 @@ E
 Густые пары алкоголя дурманят Вам голову.
 ~
 b0d0f0g0n0o0x0A0b1d2g2h2u2 c0d0e0k0m0x0C0c1l1r1w1x1e2 -600 E
-31 0 5 10d10+2000 14d10+0
+35 0 5 10d10+2000 14d10+0
 0d0+0 800000
 8 8 1
-Saves: 70 0 70 0
+Saves: -26 -26 -26 -26
 BareHandAttack: 4
 Str: 3
 Dex: 3
@@ -2206,6 +2244,7 @@ Cha: 3
 Size: 10
 LikeWork: 50
 Class: 103
+Race: 112
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -2261,10 +2300,10 @@ I чешуя,20:33
 Парень лет двадцати пяти с луком в руках выискивает дичь.
 ~
 d0g0m0x0A0 c0d0e0h0k0C0c1e2 -600 E
-31 0 -5 10d10+2500 16d16+0
+33 0 -5 10d10+2500 16d16+0
 0d0+10 550000
 8 8 1
-Saves: 50 0 0 0
+Saves: -18 -18 -18 -18
 AResist: 15
 BareHandAttack: 9
 Str: 45
@@ -2277,6 +2316,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -2300,7 +2340,6 @@ Spell: 15
 Spell: 15
 Spell: 23
 E
-I кости,15:5
 #77436
  страж врат~
 страж врат~
@@ -2318,6 +2357,7 @@ b0c0d0g0m0n0o0x0A0g2 h0k0n0r0C0t1x1y1z1 -600 E
 31 0 -4 10d10+2500 16d17+0
 0d0+40 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Resistances: 5 5 5 5 0 0 5
 Armour: 30
 BareHandAttack: 7
@@ -2331,6 +2371,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 100
 Special_Bitvector: b1c1 
@@ -2370,9 +2411,10 @@ I глаза,10:10
 некоторое отвращение.
 ~
 d0f0g0l0n0o0x0A0i2u2 c0d0e0k0m0n0r0 -600 E
-31 0 0 10d10+2000 12d10+10
+32 0 0 10d10+2000 12d10+10
 0d0+10 500000
 6 6 1
+Saves: -14 -14 -14 -14
 Armour: 5
 Initiative: 15
 MResist: 10
@@ -2386,6 +2428,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -2408,9 +2451,10 @@ T 77450
 Последнее напоминание о некогда росших здесь деревьях.
 ~
 d0e0f0g0n0o0z0A0b1e2h2 b0c0e0f0k0m0n0x0C0c1j1r1d2e2 -600 E
-32 0 5 10d10+3000 14d13+0
+34 0 5 10d10+3000 14d13+0
 0d0+666 750000
 8 8 1
+Saves: -22 -22 -22 -22
 Resistances: 0 0 0 0 50 10 50
 HPreg: 50
 CastSuccess: 50
@@ -2424,6 +2468,7 @@ Cha: 30
 Size: 50
 LikeWork: 80
 Class: 101
+Race: 111
 Height: 120
 Weight: 50
 Special_Bitvector: j0l0b1c1 
@@ -2485,9 +2530,10 @@ I крылья,25:25
 Последнее напоминание о некогда росших здесь деревьях.
 ~
 d0e0f0g0n0o0z0A0b1e2h2 b0c0e0f0k0m0n0x0C0c1j1r1w1x1y1z1e2 -600 E
-31 0 6 10d10+3000 14d13+0
+34 0 6 10d10+3000 14d13+0
 0d0+40 750000
 8 8 2
+Saves: -22 -22 -22 -22
 Resistances: 0 0 0 0 40 10 40
 Armour: 40
 CastSuccess: 40
@@ -2502,6 +2548,7 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 120
 Weight: 50
 Special_Bitvector: j0l0b1c1 
@@ -2542,7 +2589,7 @@ E
 
 ~
 b0d0g0n0o0o1u2 c0d0e0f0k0m0n0C0l1r1w1 -600 E
-33 0 0 10d10+9999 1d1+1
+1 0 0 10d10+9999 1d1+1
 0d0+666 1
 8 8 2
 Saves: 200 200 200 200
@@ -2563,6 +2610,7 @@ Cha: 30
 Size: 100
 LikeWork: 15
 Class: 102
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1i3 
@@ -2582,7 +2630,7 @@ E
 спас.
 ~
 b0d0g0n0o0x0b1a2g2h2u2 c0d0e0h0k0m0p0x0C0c1l1r1w1x1e2 -600 E
-33 0 0 10d10+6666 14d14+0
+30 0 0 10d10+6666 14d14+0
 0d0+150 300000
 8 8 1
 Resistances: 30 30 30 30 30 30 30
@@ -2601,6 +2649,7 @@ Cha: 25
 Size: 100
 LikeWork: 85
 Class: 103
+Race: 105
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 

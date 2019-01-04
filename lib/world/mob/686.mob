@@ -15,7 +15,7 @@
 проблем окружающим.
 ~
 c0d0g0h0m0n0o0A0h1 d0f0k0 -600 E
-15 14 8 10d8+300 2d2+10
+14 14 8 10d8+300 2d2+10
 0d2+50 15000
 8 8 1
 Str: 18
@@ -26,6 +26,7 @@ Con: 24
 Cha: 15
 Size: 40
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: p0b1c1 
@@ -45,7 +46,7 @@ E
 за воротами. Пожалуй, лучше не стоит давать ему повода отличиться.
 ~
 b0c0d0g0l0m0A0 d0k0r0z0C0 -600 E
-28 6 3 40d9+1800 4d2+20
+30 6 3 40d9+1800 4d2+20
 11d6+10 280000
 8 8 1
 BareHandAttack: 3
@@ -57,6 +58,7 @@ Size: 90
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 130
 Weight: 150
 Special_Bitvector: b1c1 
@@ -80,7 +82,7 @@ E
 Гадкая птица и мерзко каркает...
 ~
 d0e0f0m0r0b1r1i2 d0f0k0s0x0A0 -600 E
-24 2 -10 9d8+500 2d2+10
+21 2 -10 9d8+500 2d2+10
 0d0+0 50000
 8 8 2
 BareHandAttack: 12
@@ -94,6 +96,7 @@ Size: 37
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: l0m3B3 
@@ -114,7 +117,7 @@ E
 глазами, готовыми понять все на лету. 
 ~
 b0c0d0g0l0m0n0o0 d0 -600 E
-22 0 -4 0d0+700 4d4+4
+23 0 -4 0d0+700 4d4+4
 14d4+10 68600
 8 8 1
 Str: 23
@@ -127,6 +130,7 @@ Size: 55
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 130
 Weight: 120
 Special_Bitvector: b1c1 
@@ -156,6 +160,7 @@ Con: 15
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
@@ -175,7 +180,7 @@ E
 зверьками и грибами.
 ~
 b0d0f0g0 d0k0 -600 E
-20 12 5 8d6+444 2d2+4
+23 12 5 8d6+444 2d2+4
 0d0+0 70000
 8 8 1
 BareHandAttack: 14
@@ -188,6 +193,7 @@ Size: 95
 LikeWork: 70
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 200
 Weight: 85
 Special_Bitvector: 0 
@@ -208,12 +214,13 @@ E
 уложены пучком на затылке.
 ~
 b0d0g0 0 -600 E
-6 12 7 25d5+686 2d3+3
+7 12 7 25d5+686 2d3+3
 0d0+0 2500
 5 5 2
 Size: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -245,6 +252,7 @@ Cha: 14
 Size: 44
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -267,7 +275,7 @@ E
 глазами промелькнет счастливый момент из молодости.
 ~
 b0c0d0g0l0m0 C0 -600 E
-13 9 5 20d11+600 2d4+5
+22 9 5 20d11+600 2d4+5
 0d0+15 60000
 6 6 1
 Str: 18
@@ -275,6 +283,7 @@ Con: 18
 Size: 43
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -300,12 +309,13 @@ E
 черные же чуть диковатые глаза и печальная улыбка.
 ~
 b0d0g0 0 -600 E
-10 10 6 20d10+190 2d4+4
+9 10 6 20d10+190 2d4+4
 0d0+0 5000
 6 6 2
 Size: 42
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -336,6 +346,7 @@ b0d0g0 0 -600 E
 Size: 44
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -355,12 +366,13 @@ T 68601
 пес смердящий.
 ~
 d0g0h1l1m1 0 -600 E
-15 16 9 5d9+120 3d4+3
+9 16 9 5d9+120 3d4+3
 0d0+0 4000
 8 8 2
 BareHandAttack: 4
 Size: 35
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -381,7 +393,7 @@ E
 Неудивительно, что именно его Кинто и Мурат выбирают для охраны. 
 ~
 b0c0d0g0k0l0m0n0o0 d0k0m1 -600 E
-26 4 -3 20d12+1700 3d8+10
+28 4 -3 20d12+1700 3d8+10
 6d3+150 170000
 8 8 1
 BareHandAttack: 9
@@ -394,6 +406,7 @@ Size: 44
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 110
 Special_Bitvector: 0 
@@ -435,6 +448,7 @@ Size: 75
 LikeWork: 60
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 160
 Weight: 150
 Special_Bitvector: b1c1B3 
@@ -468,7 +482,7 @@ T 68605
 Что ж, наверное, неспроста его нос так смахивает на пятачок.
 ~
 c0d0f0g0m0n0p0r0u0A0 d0C0m1 -600 E
-25 6 4 20d15+900 4d7+5
+26 6 4 20d15+900 4d7+5
 8d3+25 115000
 6 6 1
 BareHandAttack: 13
@@ -482,6 +496,7 @@ Size: 48
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 120
 Weight: 50
 Special_Bitvector: b1c1 
@@ -503,7 +518,7 @@ E
 и покрикивая на своего шаловливого сына.
 ~
 c0d0g0h0m0n0A0 d0 -600 E
-24 8 5 10d25+800 3d4+3
+27 8 5 10d25+800 3d4+3
 4d6+50 134000
 8 8 2
 Destination: 68649
@@ -519,6 +534,7 @@ Size: 45
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 120
 Weight: 50
 Special_Bitvector: 0 
@@ -543,7 +559,7 @@ E
 Пропыленный и усталый путешественник.
 ~
 d0g0 k0 -600 E
-22 6 6 20d10+690 3d4+11
+23 6 6 20d10+690 3d4+11
 3d3+200 68610
 8 8 1
 Str: 16
@@ -556,6 +572,7 @@ Size: 42
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 50
 Special_Bitvector: 0 
@@ -576,7 +593,7 @@ E
 мелодию.
 ~
 b0d0g0l0m0n0o0 d0 -600 E
-22 3 2 20d18+580 4d5+4
+23 3 2 20d18+580 4d5+4
 1d5+5 68600
 8 8 1
 BareHandAttack: 7
@@ -587,6 +604,7 @@ Size: 52
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 145
 Weight: 80
 Special_Bitvector: B3 
@@ -614,9 +632,10 @@ E
 сражений. Пожалуй, вам еще не приходилось видеть такое отменное качество лат.
 ~
 c0d0g0l0m0x0A0 d0k0C0m1 -600 E
-27 2 -3 88d4+6860 11d11+15
+32 2 -3 88d4+6860 11d11+15
 5d11+25 500000
 8 8 1
+Saves: -14 -14 -14 -14
 BareHandAttack: 3
 Destination: 68620
 Destination: 68605
@@ -630,6 +649,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 120
 Weight: 120
 Special_Bitvector: b1c1B3C3 
@@ -645,16 +665,16 @@ Spell: 15
 Spell: 15
 Spell: 77
 Spell: 88
-Helper: 68601
 Helper: 68620
+Helper: 68601
 E
 T 68609
 #68619
 помощник начальника стражи~
 помощник~
-помощника ~
+помощникa~
 помощнику~
-помощника~
+помощникa~
 помощником~
 помощнике~
 Помощник начальника стражи согласно кивает, выслушивая подробные указания.
@@ -664,14 +684,15 @@ T 68609
 не может дождаться того дня, когда сможет занять его место.
 ~
 d0g0m0 k0r0 -600 E
-22 7 0 20d14+700 3d4+5
-2d8+15 60000
+28 7 0 20d14+700 3d4+5
+2d8+15 150000
 8 8 1
 Str: 23
 Size: 77
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 179
 Weight: 70
 Special_Bitvector: b1c1d1 
@@ -695,7 +716,7 @@ E
 По внешнему виду этого молодца видно, что на диетах он не сидит.
 ~
 b0c0d0g0l0m0n0o0h1 k0 -600 E
-19 6 3 40d8+700 7d7+7
+27 6 3 40d8+700 7d7+7
 0d0+30 120000
 8 8 1
 Str: 20
@@ -705,6 +726,7 @@ Size: 49
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -716,21 +738,21 @@ E
 T 68600
 T 68603
 #68621
-кузнец ~
-хмурый кузнец ~
-хмурого кузнеца ~
-хмурому кузнецу ~
+хмурый кузнец~
+хмурый кузнец~
+хмурого кузнеца~
+хмурому кузнецу~
 хмурого кузнеца~
 хмурым кузнецом~
 хмуром кузнеце~
-Здоровенный кузнец  со страшным грохотом бьет молотом по наковальне.
+Здоровенный кузнец со страшным грохотом бьет молотом по наковальне.
 ~
 Высокий, голова под  потолок,  статный,  плечистый,  бородища  -
 черной волной. 
 
 ~
 b0c0d0g0l0m0q0 d0k0C0 -600 E
-27 5 -3 50d7+730 6d4+7
+25 5 -3 50d7+730 6d4+7
 6d3+15 90000
 8 8 1
 BareHandAttack: 6
@@ -741,6 +763,7 @@ Size: 90
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 110
 Special_Bitvector: y0b1c1 
@@ -764,7 +787,7 @@ E
 крепких задубелых морщинах и внимательным, отстраненно-спокойным взором.
 ~
 c0d0g0l0m0n0 0 -600 E
-18 0 -4 7d7+754 3d3+3
+23 0 -4 7d7+754 3d3+3
 5d5+10 70000
 8 8 1
 Destination: 68645
@@ -775,6 +798,7 @@ Con: 20
 Size: 45
 LikeWork: 75
 Class: 102
+Race: 101
 Height: 130
 Weight: 50
 Special_Bitvector: b1c1d1 
@@ -799,7 +823,7 @@ E
 
 ~
 d0g0j0n0i1 f0k0m1 -600 E
-12 0 0 0d0+300 7d7+1
+22 0 0 0d0+300 7d7+1
 0d0+0 60000
 8 8 1
 BareHandAttack: 4
@@ -811,6 +835,7 @@ Size: 45
 LikeWork: 70
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
@@ -830,7 +855,7 @@ E
 Вредное создание.
 ~
 d0g0m0 d0f0k0s0 -600 E
-10 7 -6 20d14+190 2d2+2
+9 7 -6 20d14+190 2d2+2
 0d0+0 5000
 8 8 2
 BareHandAttack: 8
@@ -843,6 +868,7 @@ Cha: 15
 Size: 47
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: p0B3 
@@ -864,7 +890,7 @@ E
 за воротами. Пожалуй, лучше не стоит давать ему повода отличиться.
 ~
 b0c0d0g0l0m0A0 d0k0r0z0C0 -600 E
-28 6 3 40d9+1800 4d2+20
+30 6 3 40d9+1800 4d2+20
 11d6+10 280000
 8 8 1
 BareHandAttack: 3
@@ -876,6 +902,7 @@ Size: 90
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 130
 Weight: 150
 Special_Bitvector: a0b0c0d0e0f0b1c1 
@@ -911,6 +938,7 @@ Con: 14
 Size: 40
 LikeWork: 65
 Class: 102
+Race: 101
 Height: 90
 Weight: 50
 Special_Bitvector: 0 
@@ -937,7 +965,7 @@ E
 Под длинными спутанными волосами лица не было! 
 ~
 b0c0d0f0g0p0x0A0b1d2 b0d0f0k0n0x0p1 -600 E
-25 0 -8 12d9+945 6d6+2
+29 0 -8 12d9+945 6d6+2
 23d12+38 250000
 8 8 2
 BareHandAttack: 4
@@ -949,6 +977,7 @@ Size: 40
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 110
 Weight: 50
 Special_Bitvector: 0 
@@ -999,6 +1028,7 @@ b0d0g0B0h1 0 0 E
 5 5 1
 Size: 10
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -1006,18 +1036,18 @@ Skill: 136 80
 E
 T 68612
 #68629
-тяжеловооруженный воин ~
-тяжеловооруженный воин ~
+тяжеловооруженный воин~
+тяжеловооруженный воин~
 тяжеловооруженного война~
 тяжеловооруженному воину~
 тяжеловооруженного воина~
 тяжеловооруженным воином~
-тяжеловооруженном воине ~
+тяжеловооруженном воине~
 Тяжеловооруженный воин охраняет вход в покои хозяина.
 ~
 Телохранитель Демидова был высок, широкоплеч, в густой черной бороде.
 ~
-b0c0d0g0l0m0n0A0h1 d0f0k0z0 600 E
+b0c0d0g0l0m0n0A0h1 d0f0k0z0 -600 E
 27 5 2 40d13+940 5d9+16
 6d3+30 140000
 8 8 1
@@ -1031,6 +1061,7 @@ Size: 75
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 120
 Special_Bitvector: b1c1 

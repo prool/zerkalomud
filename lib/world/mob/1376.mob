@@ -10,28 +10,28 @@
 ~
 Вы видите удачливого монгольского пастуха.
 ~
-l0A0r2c0s2 p0A0 -600 E
-15 7 +10 10d10+300 3d5+5 
+c0d0l0A0r2s2 p0A0 -600 E
+15 7 10 10d10+300 3d5+5
 2d2+0 30000
 8 8 1
 CastSuccess: 30
-BareHandAttack:  2
+BareHandAttack: 2
 Str: 18
+Dex: 14
 Int: 12
 Wis: 14
-Dex: 14
 Con: 15
 Cha: 27
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 130
-Special_Bitvector: b1c1
-Skill: 134 20
+Special_Bitvector: b1c1 
 Skill: 1 5
+Skill: 134 20
 Skill: 136 80
 E
 T 137601
@@ -51,31 +51,28 @@ I кожа,1:4
 ~
 Вы видите печенежского дервиша.
 ~
-l0A0r2c0s2 d0 -600 E
-18 8 +10 10d10+300 4d5+5 
+c0d0l0A0r2s2 d0 -600 E
+18 8 10 10d10+300 4d5+5
 2d2+0 20000
 8 8 1
 CastSuccess: 36
-BareHandAttack:  0
 Str: 12
 Int: 24
 Wis: 22
-Dex: 11
 Con: 14
 Cha: 10
-LikeWork: 30
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 30
+Class: 102
+Race: 101
 Height: 170
 Weight: 140
-Special_Bitvector: b1c1
-Spell: 67 2
-Spell: 26 1
-Spell: 15 1
-Spell: 54 1
+Special_Bitvector: b1c1 
 Skill: 136 80
+Spell: 15
+Spell: 26
+Spell: 54
+Spell: 67
 E
 T 137601
 I глаза,5:2
@@ -94,31 +91,31 @@ I кожа,5:1
 ~
 Вы видите опытного татарского лазутчика.
 ~
-l0A0r2c0s2 m1 -600 E
-21 1 -1 10d15+450 5d4+9 
+c0d0l0A0r2s2 m1 -600 E
+21 1 -1 10d15+450 5d4+9
 2d2+5 52000
 8 8 1
 CastSuccess: 42
 BareHandAttack: 11
 Str: 19
+Dex: 25
 Int: 12
 Wis: 14
-Dex: 25
 Con: 16
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 120
 Weight: 110
-Special_Bitvector: a1b1c1
-Skill: 147 50
-Skill: 139 25
-Skill: 160 40
+Special_Bitvector: a1b1c1 
 Skill: 136 100
+Skill: 139 25
+Skill: 147 50
 Skill: 157 45
+Skill: 160 40
 E
 T 137601
 I глаза,5:1
@@ -137,28 +134,27 @@ I кожа,5:2
 ~
 Вы видите хмурого татарского батыра.
 ~
-l0A0r2c0s2 0 -600 E
-19 -1 +10 10d10+600 5d5+15 
+c0d0l0A0r2s2 0 -600 E
+19 -1 10 10d10+600 5d5+15
 2d2+0 25000
 8 8 1
 CastSuccess: 38
-BareHandAttack:  0
 Str: 25
+Dex: 10
 Int: 13
 Wis: 10
-Dex: 10
 Con: 25
 Cha: 12
+Size: 55
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 55
+Race: 101
 Height: 170
 Weight: 190
-Special_Bitvector: b1c1
-Skill: 134 20
+Special_Bitvector: b1c1 
 Skill: 4 30
+Skill: 134 20
 Skill: 136 80
 E
 T 137601
@@ -177,25 +173,24 @@ I кожа,3:3
 Сыч парит в небе.
 ~
 Вы видите сыча.~
-h0 x0 -600 E
-5 11 +9 1d10+50 4d4+0 
+d0h0 x0 -600 E
+5 11 9 1d10+50 4d4+0
 0d0+0 3000
 8 8 1
 BareHandAttack: 15
 Str: 7
+Dex: 8
 Int: 6
 Wis: 6
-Dex: 8
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,5:6
@@ -213,25 +208,24 @@ I крылья,2:7
 Мышовка стоит тут.
 ~
 Вы видите мышовку.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,1:9
@@ -251,25 +245,24 @@ I кожа,3:9
 Степной коршун камнем падает вниз.
 ~
 Вы видите степного коршуну.~
-h0 x0 -600 E
-6 12 +9 1d10+60 4d4+1 
+d0h0 x0 -600 E
+6 12 9 1d10+60 4d4+1
 0d0+0 4000
 8 8 1
 BareHandAttack: 15
 Str: 8
+Dex: 9
 Int: 6
 Wis: 6
-Dex: 9
 Con: 9
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,4:9
@@ -287,25 +280,24 @@ I крылья,3:6
 Лунь степной камнем падает вниз.
 ~
 Вы видите луня степного.~
-h0 x0 -600 E
-5 11 +9 1d10+50 4d4+0 
+d0h0 x0 -600 E
+5 11 9 1d10+50 4d4+0
 0d0+0 3000
 8 8 1
 BareHandAttack: 15
 Str: 7
+Dex: 8
 Int: 6
 Wis: 6
-Dex: 8
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,3:8
@@ -323,25 +315,24 @@ I крылья,1:9
 Степной тушканчик вильнул кисточкой хвоста.
 ~
 Вы видите степного тушканчика.~
-h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,4:8
@@ -361,25 +352,24 @@ I кожа,2:7
 Толстый хомяк набивает зерна за обе щеки.
 ~
 Вы видите толстого хомяка.~
-l1n1m1h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0l1m1n1 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,3:7
@@ -387,5 +377,4 @@ I зубы,2:5
 I кости,2:7
 I когти,1:5
 I кожа,2:5
-$
 $

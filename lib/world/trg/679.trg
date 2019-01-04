@@ -101,12 +101,11 @@ mload obj 67917
 ~
 #67910
 Лоадим череп(50%)~
-2 e 50
+2 e 25
 ~
 wait 4s
 wecho _Вдруг из груды костей вылетел череп и громка клацая зубами бросился на Вас!
 wload mob 67923
-detach 67910 %self.id%
 ~
 #67911
 Разбираем завал~
@@ -117,8 +116,8 @@ if !%arg.contains(завал)%
   return 0
   halt 
 end
-wsend %actor% _Крехтя и отплевывоясь Вы разобрали зовал, освободив путь.
-wechoaround %actor% _%actor.name% разобрал%actor.q% завал.
+wsend %actor% _Кряхтя и отплевываясь Вы разобрали завал, освободив путь.
+wechoaround %actor% _%actor.name% разобрал%actor.g% завал.
 wdoor 67971 north room 67973
 wdoor 67973 south room 67971
 end

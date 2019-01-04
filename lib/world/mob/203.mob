@@ -10,8 +10,8 @@
 ~
 Могучий воин и великий  монгольский полководец.
 ~
-b0d0n0o0x0q2u2 d0k0m0r0D0r1 -600 E
-37 0 -8 10d10+10000 19d15+8
+b0d0n0o0r0x0q2u2 d0k0m0r0D0r1 -600 E
+39 0 -8 10d10+10000 19d15+8
 0d0+9000 2000000
 8 8 1
 Saves: -65 -65 -65 -65
@@ -24,7 +24,7 @@ Initiative: 15
 Absorbe: 90
 Str: 45
 Dex: 40
-Int: 36
+Int: 40
 Wis: 36
 Con: 41
 Cha: 43
@@ -32,6 +32,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -60,6 +61,9 @@ Spell: 68
 Spell: 68
 Spell: 68
 Spell: 68
+Helper: 20312
+Helper: 20311
+Helper: 20307
 Helper: 20301
 Helper: 20302
 Helper: 20304
@@ -67,7 +71,6 @@ E
 T 20327
 T 20339
 T 20345
-I кости,50:10
 #20301
 визирь~
 визирь~
@@ -81,9 +84,10 @@ I кости,50:10
 Ближайший советник Великого Хана.
 ~
 b0c0d0m0n0o0A0q2 d0n0A0C0l1o1u1x1 -600 E
-34 5 0 10d10+3500 14d13+8
+31 5 0 10d10+3500 14d13+8
 0d0+3000 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Armour: 30
 PlusMem: 200
 CastSuccess: 100
@@ -97,6 +101,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -141,10 +146,10 @@ I глаза,10:10
 Высшее духовное лицо орды.
 ~
 b0d0m0n0o0q2 d0h0m0n0r0C0D0p1 -600 E
-33 5 0 10d10+3333 16d15+25
+31 5 0 10d10+3333 16d15+25
 0d0+1000 400000
 8 8 1
-Saves: -35 0 -10 -5
+Saves: -35 -10 -10 -10
 Resistances: 35 15 30 30 50 25 29
 HPreg: 50
 Armour: 40
@@ -162,6 +167,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -226,8 +232,8 @@ T 20345
 ~
 Обычный исламский священник.
 ~
-d0l0m0n0o0v0w0q1q2 d0k0n0r0A0r1y1 -600 E
-32 6 0 10d10+3333 14d14+15
+d0f0l0m0n0o0v0w0q1q2 d0k0n0r0A0r1y1 -600 E
+31 6 0 10d10+3333 14d14+15
 0d0+550 350000
 8 8 1
 Saves: -20 -20 -20 -20
@@ -246,6 +252,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -308,10 +315,10 @@ T 20320
 Целая тьма...
 ~
 b0d0l0m0n0o0q2 d0D0 -600 E
-35 2 -6 10d10+6000 18d18+0
+34 2 -6 10d10+6000 18d18+0
 0d0+5000 700000
 8 8 1
-Saves: -75 0 0 0
+Saves: -75 -22 -22 -22
 Armour: 90
 CastSuccess: 50
 Absorbe: 90
@@ -325,6 +332,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -378,9 +386,10 @@ T 20345
 Воин средневооруженной конницы.
 ~
 d0l0m0n0o0q2 k0m1 -600 E
-31 1 -3 10d10+4500 18d17+0
+32 1 -3 10d10+4500 18d17+0
 0d0+100 440000
 8 8 1
+Saves: -14 -14 -14 -14
 Armour: 95
 CastSuccess: 20
 Absorbe: 90
@@ -395,6 +404,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -419,12 +429,13 @@ T 20318
 дуулгате~
 Азиатский воин прохаживается здесь.
 ~
-Воин, голова которого покрыта шлемом.
+Воин в причудливом шлеме.
 ~
 d0l0m0n0o0q2 k0A0 -600 E
-30 3 -8 10d10+3800 16d16+30
+31 3 -8 10d10+3800 16d16+30
 0d0+321 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Armour: 90
 Absorbe: 95
 BareHandAttack: 7
@@ -438,6 +449,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -469,11 +481,11 @@ T 20317
 ~
 Воин с ног до головы закован в броню.
 ~
-d0l0m0n0o0q1q2r2 d0h0k0l1q1t1 -600 E
-31 3 0 10d10+4102 19d19+0
+d0f0l0m0n0o0q1q2r2 d0h0k0l1q1t1 -600 E
+32 3 0 10d10+4102 19d19+0
 0d0+195 455000
 8 8 1
-Saves: -25 0 0 -10
+Saves: -25 -14 -14 -14
 Armour: 60
 Absorbe: 90
 BareHandAttack: 3
@@ -486,6 +498,7 @@ Cha: 16
 Size: 100
 LikeWork: 80
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -506,11 +519,11 @@ T 20316
 ~
 На затылочной части шлема у него болтается ленточка.
 ~
-b0d0l0m0n0o0q2r2 d0k0t1 -600 E
+b0d0f0l0m0n0o0q2r2 d0k0t1 -600 E
 32 0 -5 10d10+4000 17d17+0
 0d0+251 450000
 8 8 1
-Saves: -40 0 0 0
+Saves: -40 -14 -14 -14
 Resistances: 15 15 15 15 20 20 20
 Armour: 95
 Absorbe: 95
@@ -525,6 +538,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -553,10 +567,10 @@ T 20315
 кожаный нагрудник, сжимает в одной руке  загнутый меч.
 ~
 d0l0m0n0o0q1q2 k0t1 -600 E
-30 5 -5 10d10+4000 16d16+0
+31 5 -5 10d10+4000 16d16+0
 0d0+111 410000
 8 8 1
-Saves: -10 -5 -9 -8
+Saves: -10 -10 -10 -10
 Armour: 95
 Absorbe: 95
 BareHandAttack: 7
@@ -570,6 +584,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -597,8 +612,8 @@ T 20303
 Это особенно меткий лучник среди монгольских воинов. Дабы выделить среди 
 остальных как снайпера его величают Мэргэн. 
 ~
-d0l0m0n0o0q1q2r2 d0k0m1 -600 E
-31 5 -5 10d10+4000 16d17+0
+d0f0l0m0n0o0q1q2r2 d0k0m1 -600 E
+32 5 -5 10d10+4000 16d17+0
 0d0+545 450000
 8 8 1
 Saves: -19 -19 -19 -19
@@ -618,6 +633,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -644,8 +660,8 @@ T 20314
 Узкоглазый татарин хорошо подготовился к походу, и совсем не просто 
 будет с ним справиться.
 ~
-d0l0m0n0o0q1q2r2 d0k0t1 -600 E
-31 5 -5 10d10+4000 16d16+9
+d0f0l0m0n0o0q1q2r2 d0k0t1 -600 E
+32 5 -5 10d10+4000 16d16+9
 0d0+412 450000
 8 8 1
 Saves: -30 -30 -30 -30
@@ -665,6 +681,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1B3 
@@ -692,7 +709,7 @@ T 20313
 Особо хорошо подготовленный воин специального отряда в составе кэшиктэна, 
 способный решать многоцелевые задачи.
 ~
-d0l0m0n0o0q1q2r2 d0h0k0m1t1 -600 E
+d0f0l0m0n0o0q1q2r2 d0h0k0m1t1 -600 E
 32 5 -5 10d10+4000 18d18+20
 0d0+615 450000
 8 8 1
@@ -714,10 +731,11 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
-Skill: 4 135
+Skill: 4 150
 Skill: 136 135
 Skill: 150 135
 Skill: 160 135
@@ -759,6 +777,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b0c0d0b1c1 
@@ -787,7 +806,7 @@ T 20336
 будет его убить.
 ~
 d0l0m0n0o0q1q2 d0h0k0r0z0A0C0t1 -600 E
-31 5 -5 10d10+4000 16d16+0
+32 5 -5 10d10+4000 16d16+0
 0d0+367 450000
 8 8 1
 Saves: -40 -40 -40 -40
@@ -805,6 +824,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -830,9 +850,10 @@ T 20309
 Молодой ловкий стрелок из лука.
 ~
 d0l0m0n0o0q2 k0 -600 E
-30 5 -5 10d10+4000 16d16+0
+32 5 -5 10d10+4000 16d16+0
 0d0+216 420000
 8 8 1
+Saves: -14 -14 -14 -14
 Armour: 95
 Absorbe: 95
 BareHandAttack: 9
@@ -846,6 +867,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -873,9 +895,10 @@ T 20308
 Молодой раскосый парень вертит трубу в руках. Ей он обозначит начало атаки.
 ~
 b0d0l0m0n0o0q2 d0k0t1 -600 E
-30 5 -5 10d10+3000 15d15+29
+31 5 -5 10d10+3000 15d15+29
 0d0+197 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Armour: 90
 Absorbe: 90
 BareHandAttack: 10
@@ -889,6 +912,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -916,7 +940,7 @@ T 20307
 впечатление бывалого вояки.
 ~
 b0d0m0n0o0q2 d0k0t1 -600 E
-34 5 -5 10d10+4000 17d17+0
+33 5 -5 10d10+4000 17d17+0
 0d0+999 550000
 8 8 1
 Saves: -65 -54 -59 -25
@@ -938,6 +962,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -978,7 +1003,7 @@ T 20304
 до рядовых воинов.
 ~
 b0d0m0n0o0q2 d0k0t1 -600 E
-33 5 -5 10d10+4000 17d16+25
+32 5 -5 10d10+4000 17d16+25
 0d0+999 510000
 8 8 1
 Saves: -50 -50 -20 -20
@@ -1000,6 +1025,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1053,10 +1079,10 @@ T 20305
 Колобкообразный мужичонка в добротном хатагу дэгэл.
 ~
 b0d0m0n0o0q2 d0k0q1t1 -600 E
-32 5 -5 10d10+4000 15d15+0
+31 5 -5 10d10+4000 15d15+0
 0d0+1500 400000
 8 8 1
-Saves: -20 0 0 0
+Saves: -20 -10 -10 -10
 Resistances: 0 5 5 5 5 5 0
 Armour: 95
 Absorbe: 95
@@ -1071,6 +1097,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1104,7 +1131,7 @@ T 20306
 помогут.
 ~
 b0c0d0f0g0n0o0x0b1p1 d0k0x0 -600 E
-33 -30 0 10d10+1350 4d20+10
+29 -30 0 10d10+1350 4d20+10
 0d0+0 250000
 8 8 1
 Saves: -80 -80 -80 -80
@@ -1125,6 +1152,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 9
 Class: 103
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
@@ -1185,8 +1213,8 @@ T 20335
 Не старый монголец очень напряжен. Ему предстоит донести приказ Хана 
 до рядовых воинов.
 ~
-d0f0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
-33 2 -8 10d10+4000 17d16+25
+d0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
+32 2 -8 10d10+4000 17d16+25
 0d0+999 510000
 8 8 1
 Saves: -65 -25 -25 -25
@@ -1205,6 +1233,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1232,7 +1261,7 @@ T 20305
 впечатление бывалого вояки.
 ~
 d0f0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
-34 2 -8 10d10+4000 17d17+0
+33 2 -8 10d10+4000 17d17+0
 0d0+999 550000
 8 8 1
 Saves: -75 -25 -35 -35
@@ -1254,6 +1283,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1280,11 +1310,11 @@ T 20304
 Это особенно меткий лучник среди монгольских воинов. Дабы выделить среди 
 остальных как снайпера его величают Мэргэн. 
 ~
-d0m0n0o0q1g2k2q2r2 d0k0m1 -600 E
-31 0 -5 10d10+4000 16d17+0
+d0f0m0n0o0q1g2k2q2r2 d0k0m1 -600 E
+32 0 -5 10d10+4000 16d17+0
 0d0+545 450000
 8 8 1
-Saves: -20 -15 0 0
+Saves: -20 -15 -14 -14
 Armour: 90
 Initiative: 95
 BareHandAttack: 9
@@ -1298,6 +1328,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1324,11 +1355,11 @@ T 20314
 Узкоглазый татарин хорошо подготовился к походу, и совсем не просто 
 будет с ним справиться.
 ~
-d0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
-31 2 -7 10d10+4000 16d16+9
+d0f0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
+32 2 -7 10d10+4000 16d16+9
 0d0+412 450000
 8 8 1
-Saves: -15 0 0 0
+Saves: -15 -14 -14 -14
 Armour: 90
 Absorbe: 95
 BareHandAttack: 7
@@ -1342,6 +1373,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1B3 
@@ -1369,7 +1401,7 @@ T 20313
 Особо хорошо подготовленный воин специального отряда в составе кэшиктэна, 
 способный решать многоцелевые задачи.
 ~
-d0m0n0o0q1g2k2q2r2 d0h0k0m1t1 -600 E
+d0f0m0n0o0q1g2k2q2r2 d0h0k0m1t1 -600 E
 32 0 -6 10d10+4000 18d18+20
 0d0+615 450000
 8 8 1
@@ -1392,10 +1424,11 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
-Skill: 4 135
+Skill: 4 150
 Skill: 136 135
 Skill: 150 135
 Skill: 160 135
@@ -1418,10 +1451,11 @@ T 20312
 ~
 Воин средневооруженной конницы.
 ~
-d0m0n0o0q1g2k2q2r2 k0m1 -600 E
-31 1 -3 10d10+4500 18d17+0
+d0f0m0n0o0q1g2k2q2r2 k0m1 -600 E
+32 1 -3 10d10+4500 18d17+0
 0d0+100 440000
 8 8 1
+Saves: -14 -14 -14 -14
 Armour: 95
 Absorbe: 90
 BareHandAttack: 11
@@ -1435,6 +1469,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1453,13 +1488,13 @@ T 20318
 дуулгате~
 Азиатский воин оглядывается по сторонам в поисках врага.
 ~
-Воин, голова которого покрыта шлемом.
+Воин в причудливом шлеме.
 ~
-d0m0n0o0q1g2k2q2r2 k0A0 -600 E
-30 3 -8 10d10+3800 16d16+30
+d0f0m0n0o0q1g2k2q2r2 k0A0 -600 E
+31 3 -8 10d10+3800 16d16+30
 0d0+321 400000
 8 8 1
-Saves: -5 0 0 -5
+Saves: -10 -10 -10 -10
 Armour: 35
 BareHandAttack: 7
 Str: 34
@@ -1472,6 +1507,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1493,10 +1529,11 @@ T 20317
 ~
 Воин с ног до головы закован в броню.
 ~
-d0m0n0o0q1g2k2q2r2 h0k0l1q1t1 -600 E
-31 3 0 10d10+4102 19d19+0
+d0f0m0n0o0q1g2k2q2r2 h0k0l1q1t1 -600 E
+32 3 0 10d10+4102 19d19+0
 0d0+195 455000
 8 8 1
+Saves: -14 -14 -14 -14
 Armour: 90
 Absorbe: 90
 BareHandAttack: 3
@@ -1509,6 +1546,7 @@ Cha: 16
 Size: 100
 LikeWork: 80
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1530,10 +1568,11 @@ T 20316
 Воин, несколько отличающийся от остальных татар, экипированный в легкий 
 кожаный нагрудник, сжимает в одной руке  загнутый меч.
 ~
-d0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
-30 2 -5 10d10+4000 16d16+0
+d0f0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
+31 2 -5 10d10+4000 16d16+0
 0d0+111 410000
 8 8 1
+Saves: -10 -10 -10 -10
 Armour: 90
 Absorbe: 90
 BareHandAttack: 7
@@ -1547,6 +1586,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1573,11 +1613,11 @@ T 20303
 Узкоглазый татарин хорошо подготовился к походу, и совсем не просто 
 будет его убить.
 ~
-d0m0n0o0q1g2k2q2r2 d0h0k0r0z0A0C0t1 -600 E
-31 4 -5 10d10+4000 16d16+0
+d0f0m0n0o0q1g2k2q2r2 d0h0k0r0z0A0C0t1 -600 E
+32 4 -5 10d10+4000 16d16+0
 0d0+367 450000
 8 8 1
-Saves: -45 -30 -5 -15
+Saves: -45 -30 -14 -15
 Resistances: 15 35 25 9 50 45 50
 HPreg: 50
 Armour: 90
@@ -1593,6 +1633,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -1621,10 +1662,11 @@ T 20309
 ~
 Молодой ловкий стрелок из лука.
 ~
-d0m0n0o0q1g2k2q2r2 k0 -600 E
-30 3 -5 10d10+4000 16d16+0
+d0f0m0n0o0q1g2k2q2r2 k0 -600 E
+32 3 -5 10d10+4000 16d16+0
 0d0+216 420000
 8 8 1
+Saves: -14 -14 -14 -14
 Armour: 95
 Absorbe: 90
 BareHandAttack: 9
@@ -1638,6 +1680,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1664,11 +1707,11 @@ T 20308
 ~
 Молодой раскосый парень вертит трубу в руках. Ей он обозначит начало атаки.
 ~
-b0d0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
-30 3 -5 10d10+3000 15d15+29
+b0d0f0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
+31 3 -5 10d10+3000 15d15+29
 0d0+197 350000
 8 8 1
-Saves: -5 -5 -5 -5
+Saves: -10 -10 -10 -10
 Resistances: 8 8 8 8 12 12 12
 HPreg: 25
 Armour: 90
@@ -1684,6 +1727,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1711,7 +1755,7 @@ T 20307
 кровью человек.
 ~
 b0d0n0o0x0o2 d0f0k0r0 -600 E
-30 6 -2 10d10+2500 12d13+50
+29 6 -2 10d10+2500 12d13+50
 0d0+1 250000
 6 6 1
 Str: 35
@@ -1724,6 +1768,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1742,9 +1787,10 @@ T 20310
 Басурманин возмущен тем, что ему попали стрелой в... попу. 
 ~
 b0d0l0m0n0o0q2 d0k0t1 -600 E
-30 5 -5 10d10+4000 16d16+0
+31 5 -5 10d10+4000 16d16+0
 0d0+111 410000
 8 8 1
+Saves: -10 -10 -10 -10
 Armour: 90
 Absorbe: 80
 AResist: 5
@@ -1760,6 +1806,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0b1c1 
@@ -1787,7 +1834,7 @@ E
 и сейчас бедакурит у Китежа.
 ~
 d0f0g0n0o0x0i1l2u2 d0k0r1w1 -600 E
-32 6 0 10d10+1650 12d20+35
+29 6 0 10d10+1650 12d20+35
 0d0+0 200000
 8 8 1
 Saves: -40 0 0 0
@@ -1827,6 +1874,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 3
 Class: 103
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1870,6 +1918,7 @@ b0d0l0m0n0o0q2 d0k0t1 -600 E
 32 5 -5 10d10+4000 17d17+0
 0d0+495 430000
 8 8 1
+Saves: -14 -14 -14 -14
 Armour: 95
 Absorbe: 95
 BareHandAttack: 3
@@ -1883,6 +1932,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b0c0b1c1 
@@ -1909,7 +1959,7 @@ T 20311
 Опытный воин готов умереть, чтобы защитить.
 ~
 b0d0f0l0m0n0o0q2r2 d0k0r1t1 -600 E
-33 1 -10 10d10+4000 17d17+0
+32 1 -10 10d10+4000 17d17+0
 0d0+995 450000
 8 8 1
 Saves: -60 -25 -40 -15
@@ -1925,6 +1975,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1950,7 +2001,7 @@ E
 помогут.
 ~
 b0c0d0f0g0n0o0x0b1p1 d0k0x0 -600 E
-33 0 0 10d10+1350 4d20+10
+29 0 0 10d10+1350 4d20+10
 0d0+0 250000
 8 8 1
 Armour: 90
@@ -1966,6 +2017,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 9
 Class: 103
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: l0 

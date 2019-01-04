@@ -24,6 +24,7 @@ Con: 9
 Cha: 9
 Size: 9
 Class: 103
+Race: 103
 Height: 40
 Weight: 10
 Special_Bitvector: a1 
@@ -56,6 +57,7 @@ Cha: 9
 Size: 12
 LikeWork: 10
 Class: 103
+Race: 103
 Height: 40
 Weight: 10
 Special_Bitvector: 0 
@@ -88,6 +90,7 @@ Cha: 9
 Size: 11
 LikeWork: 10
 Class: 103
+Race: 104
 Height: 40
 Weight: 10
 Special_Bitvector: l0 
@@ -119,6 +122,7 @@ Con: 12
 Cha: 9
 Size: 15
 Class: 103
+Race: 103
 Height: 40
 Weight: 10
 Special_Bitvector: l0 
@@ -151,6 +155,7 @@ Cha: 10
 Size: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 10
 Special_Bitvector: 0 
@@ -184,6 +189,7 @@ Cha: 10
 Size: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 40
 Special_Bitvector: 0 
@@ -216,6 +222,7 @@ Cha: 10
 Size: 23
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 110
 Weight: 50
 Special_Bitvector: 0 
@@ -248,6 +255,7 @@ Cha: 10
 Size: 22
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 40
 Special_Bitvector: 0 
@@ -280,6 +288,7 @@ Cha: 10
 Size: 23
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 50
 Weight: 12
 Special_Bitvector: 0 
@@ -312,6 +321,7 @@ Cha: 13
 Size: 25
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 95
 Weight: 40
 Special_Bitvector: 0 
@@ -344,6 +354,7 @@ Cha: 3
 Size: 23
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 50
 Weight: 12
 Special_Bitvector: 0 
@@ -377,6 +388,7 @@ Cha: 3
 Size: 27
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 100
 Special_Bitvector: 0 
@@ -409,6 +421,7 @@ Cha: 3
 Size: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 180
 Weight: 200
 Special_Bitvector: 0 
@@ -442,6 +455,7 @@ Cha: 3
 Size: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 50
 Special_Bitvector: 0 
@@ -474,6 +488,7 @@ Cha: 3
 Size: 35
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -509,6 +524,7 @@ Cha: 3
 Size: 27
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 60
 Weight: 20
 Special_Bitvector: 0 
@@ -542,6 +558,7 @@ Cha: 3
 Size: 35
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 150
 Weight: 120
 Special_Bitvector: 0 
@@ -574,6 +591,7 @@ Cha: 3
 Size: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 140
 Weight: 70
 Special_Bitvector: 0 
@@ -606,6 +624,7 @@ Cha: 3
 Size: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 80
 Special_Bitvector: i0a1 
@@ -638,6 +657,7 @@ Cha: 3
 Size: 32
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 80
 Special_Bitvector: 0 
@@ -671,11 +691,12 @@ Cha: 10
 Size: 36
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 50
 Special_Bitvector: 0 
-Helper: 4419
 Skill: 136 45
+Helper: 4419
 E
 T 4403
 #4421
@@ -695,6 +716,8 @@ d0 0 0 E
 0d0+0 100
 8 8 0
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -716,6 +739,8 @@ d0 0 0 E
 0d0+0 100
 8 8 1
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

@@ -170,9 +170,9 @@ end
 ~
 #47715
 шмот ожившего палача~
-0 o 100
+0 n 100
 ~
-if (%world.curobjs(47726)% < 6) && (%random.5% == 1)
+if (%world.curobjs(47727)% < 6) && (%random.100% < 17)
   mload obj 47727
 end
 ~
@@ -382,7 +382,7 @@ detach 47729 %self.id%
 if (%actor.name% == %quest2477.name%) && (%world.curmobs(47740)% < 1)
   г Ай да молодец, %actor.name%
   г Получи свою награду
-  дат 1000 кун .%actor.name%
+  дат 4567 кун .%actor.name%
   if (%world.curobjs(47733)% < 6) && (%random.5% == 1)
     mload obj 47733
   end
@@ -397,7 +397,7 @@ end
 колдунья рип~
 0 f 100
 ~
-mforce %actor,name% г Где ты держишь сестру, которую похитила твоя ворона?
+mforce %actor.name% г Где ты держишь сестру, которую похитила твоя ворона?
 mecho - Я и есть сестра
 mecho - Это я присылала ворона
 mecho - Но я хотела лишь быть вместе со своим братом

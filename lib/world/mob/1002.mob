@@ -13,7 +13,7 @@
 Похоже, он чем-то сильно разгневан.
 ~
 b0d0f0g0m0b1 d0k0r0x0z0C0 -600 E
-29 13 -5 20d20+1000 5d5+10
+25 13 -5 20d20+1000 5d5+10
 0d0+10 200000
 8 8 1
 Str: 18
@@ -22,7 +22,7 @@ Size: 50
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
@@ -44,10 +44,9 @@ E
 своем подобен богам.
 ~
 b0d0f0g0b1 d0f0k0r0x0z0A0m1t1 -600 E
-31 15 -10 10d10+2100 5d10+5
+30 15 -10 10d10+2100 5d10+5
 5d10+20 350000
 8 8 1
-Saves: -10 -10 -10 -10
 BareHandAttack: 8
 Str: 23
 Dex: 23
@@ -57,7 +56,7 @@ Size: 65
 LikeWork: 50
 ExtraAttack: 2
 Class: 103
-Race: 100
+Race: 103
 Height: 30
 Weight: 120
 Special_Bitvector: l0 
@@ -79,7 +78,7 @@ E
 Наверняка у такого крепкая паутина...
 ~
 d0f0g0 k0 -600 E
-27 9 -5 5d6+400 5d5+10
+25 9 -5 5d6+400 5d5+10
 1d1+10 120000
 8 8 1
 BareHandAttack: 4
@@ -87,7 +86,7 @@ Dex: 15
 Size: 10
 LikeWork: 15
 Class: 103
-Race: 100
+Race: 107
 Height: 30
 Weight: 50
 Special_Bitvector: g0m0 
@@ -110,29 +109,21 @@ I глаза,5:5
 Рожа разбойничья! Глаза раскосые! Косая сажень в плечах!
 ~
 d0g0 r0s0 -600 E
-29 11 -7 5d10+25000 5d10+15
+26 11 -7 5d10+1600 5d10+15
 1d1+25 200000
 8 8 1
-CastSuccess: 200
 BareHandAttack: 11
-Str: 50
-Dex: 50
-Int: 50
-Wis: 50
-Con: 50
-Cha: 50
 Size: 10
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: i0a1b1c1 
 Skill: 131 33
 Skill: 138 100
 E
-T 2140
 #100204
 злобный степняк потомок жужаней~
 злобный степняк~
@@ -146,7 +137,7 @@ T 2140
 Глаза злющие, колючие. Так и сверлят Вас насквозь.
 ~
 d0g0 k0 -600 E
-29 14 -7 10d10+1600 5d10+20
+25 14 -7 10d10+1600 5d10+20
 1d1+25 200000
 8 8 1
 BareHandAttack: 7
@@ -156,7 +147,7 @@ Size: 10
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: B3 
@@ -177,7 +168,7 @@ I кости,5:5
 крайне не рекомендуется.
 ~
 d0g0m0 k0 -600 E
-28 19 -5 10d5+1000 5d5+12
+25 19 -5 10d5+1000 5d5+12
 1d1+20 180000
 8 8 1
 BareHandAttack: 9
@@ -189,7 +180,7 @@ Size: 10
 LikeWork: 10
 ExtraAttack: 2
 Class: 102
-Race: 100
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -210,7 +201,7 @@ E
 Отличный всадник. Такого в степи догонит только стрела!
 ~
 d0g0m0 r0A0 -600 E
-28 15 -6 5d10+1000 6d10+18
+25 15 -6 5d10+1000 6d10+18
 1d1+30 190000
 8 8 1
 Str: 18
@@ -219,7 +210,7 @@ Size: 10
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: C3 
@@ -239,17 +230,16 @@ E
 Он Солнце и Луна в степи! Мудрец умудренный мудростью мудрых!
 ~
 b0d0g0l0n0 r0A0 -600 E
-31 20 -10 10d10+2500 10d10+10
+35 20 -10 10d10+2500 10d10+10
 5d10+40 330000
 6 6 1
-Saves: -10 -10 -10 -10
 BareHandAttack: 6
 Str: 18
 Dex: 18
 Con: 18
 Size: 10
 Class: 102
-Race: 100
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -270,7 +260,7 @@ T 100212
 Личный телохранитель великого хана. Спокойный и уверенный в себе.
 ~
 b0d0g0m0 k0 -600 E
-28 14 -6 5d5+1000 10d5+10
+25 14 -6 5d5+1000 10d5+10
 1d1+20 150000
 8 8 1
 BareHandAttack: 10
@@ -280,7 +270,7 @@ Size: 10
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -299,7 +289,7 @@ E
 Степной конек, с длинной мордой.
 ~
 b0d0g0s0 f0z0 -600 E
-25 9 -4 5d5+500 5d5+4
+22 9 -4 5d5+500 5d5+4
 1d1+1 100000
 8 8 1
 BareHandAttack: 13
@@ -308,7 +298,7 @@ Size: 60
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 30
 Weight: 150
 Special_Bitvector: p0 
@@ -328,7 +318,7 @@ I кости,5:5
 Степная антилопа. Не так грациозна, но зато сильна и вынослива!
 ~
 d0g0 0 -600 E
-25 10 -4 4d8+500 5d3+4
+24 10 -4 4d8+500 5d3+4
 1d1+2 100000
 8 8 1
 BareHandAttack: 14
@@ -339,13 +329,12 @@ Dex: 17
 Size: 50
 LikeWork: 15
 Class: 103
-Race: 100
+Race: 104
 Height: 30
 Weight: 100
 Special_Bitvector: p0 
 Skill: 131 30
 E
-I копыта,10:5
 #100211
 самка дзерена рыженькая антилопа~
 самка Дзерена~
@@ -359,7 +348,7 @@ I копыта,10:5
 Степная антилопа. Не так грациозна, но зато сильна и вынослива!
 ~
 d0g0m0 0 -600 E
-25 5 -3 2d2+500 3d3+8
+22 5 -3 2d2+500 3d3+8
 0d0+2 102000
 8 8 2
 BareHandAttack: 13
@@ -367,7 +356,7 @@ Dex: 14
 Size: 45
 LikeWork: 15
 Class: 103
-Race: 100
+Race: 104
 Height: 30
 Weight: 80
 Special_Bitvector: p0 
@@ -386,7 +375,7 @@ E
 Красивая хищная птица.
 ~
 d0g0b1 k0r0x0 -600 E
-25 4 -2 2d2+350 2d2+5
+21 4 -2 2d2+350 2d2+5
 1d1+10 95000
 8 8 1
 BareHandAttack: 2
@@ -394,7 +383,7 @@ Dex: 14
 Size: 45
 LikeWork: 15
 Class: 103
-Race: 100
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -414,7 +403,7 @@ I крылья,10:5
 Красивый и сильный зверь. Достойный противник для охотничьей схватки!
 ~
 d0g0m0x0e1 k0 -600 E
-25 4 -4 2d2+750 5d5+3
+24 4 -4 2d2+750 5d5+3
 1d1+2 101000
 8 8 2
 BareHandAttack: 4
@@ -422,7 +411,7 @@ Dex: 18
 Size: 50
 LikeWork: 14
 Class: 103
-Race: 100
+Race: 104
 Height: 30
 Weight: 80
 Special_Bitvector: p0 
@@ -442,7 +431,7 @@ I шерсть,10:5
 Щенок-волчонок. Пушистый комочек серебристого меха.
 ~
 d0g0h0m0l1m1 0 -600 E
-22 2 -2 2d3+120 2d2+2
+15 2 -2 2d3+120 2d2+2
 1d1+1 61000
 8 8 1
 BareHandAttack: 8
@@ -450,7 +439,7 @@ Dex: 17
 Size: 30
 LikeWork: 30
 Class: 103
-Race: 100
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: n0 
@@ -470,14 +459,14 @@ I зубы,5:3
 Ну, баба как баба! Что уставился? Голой бабы не видел?
 ~
 b0d0g0 0 600 E
-1 15 -10 3d3+1000 2d2+5
+26 15 -10 3d3+1000 2d2+5
 1d1+100 1
 8 8 2
 BareHandAttack: 8
 Size: 10
 LikeWork: 15
 Class: 102
-Race: 100
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 

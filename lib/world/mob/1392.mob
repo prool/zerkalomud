@@ -10,26 +10,22 @@
 ~
 Вы видите молодого хазарского дервиша.
 ~
-l0A0r2c0s2 d0 -600 E
-16 10 +10 10d10+200 4d5+5 
+c0d0l0A0r2s2 d0 -600 E
+16 10 10 10d10+200 4d5+5
 2d2+0 15000
 8 8 1
 CastSuccess: 32
-BareHandAttack:  0
-Str: 11
 Int: 23
 Wis: 21
-Dex: 11
 Con: 14
 Cha: 10
-LikeWork: 30
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 30
+Class: 102
+Race: 101
 Height: 170
 Weight: 140
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 60
 E
 T 139201
@@ -49,26 +45,25 @@ I кожа,2:5
 ~
 Вы видите удачливого хазарина.
 ~
-l0A0r2c0s2 A0 -600 E
-17 6 +10 10d10+450 3d5+5 
+c0d0l0A0r2s2 A0 -600 E
+17 6 10 10d10+450 3d5+5
 2d2+0 34000
 8 8 1
 CastSuccess: 34
-BareHandAttack:  0
 Str: 16
+Dex: 14
 Int: 15
 Wis: 17
-Dex: 14
 Con: 15
 Cha: 27
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 130
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 80
 E
 T 139201
@@ -88,35 +83,32 @@ I кожа,2:3
 ~
 Вы видите злобного хазарского колдуна.
 ~
-i1l0j2A0g2y0r2c0f0s2m0 x0d0b0 -600 E
-20 8 +10 10d10+350 3d5+5 
+c0d0f0l0m0y0A0i1g2j2r2s2 b0d0x0 -600 E
+20 8 10 10d10+350 3d5+5
 3d200+0 80000
 8 8 1
 CastSuccess: 40
-BareHandAttack:  0
 Str: 12
 Int: 25
 Wis: 35
-Dex: 11
 Con: 15
 Cha: 12
-LikeWork: 25
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 25
+Class: 102
+Race: 101
 Height: 160
 Weight: 150
-Special_Bitvector: b1c1
-Spell: 6 2
-Spell: 104 1
-Spell: 67 1
-Spell: 130 1
-Spell: 30 2
-Spell: 37 1
-Spell: 5 2
-Spell: 54 1
+Special_Bitvector: b1c1 
 Skill: 136 80
+Spell: 5
+Spell: 6
+Spell: 30
+Spell: 37
+Spell: 54
+Spell: 67
+Spell: 104
+Spell: 130
 E
 T 139201
 I глаза,4:5
@@ -135,31 +127,29 @@ I кожа,2:1
 ~
 Вы видите купца.
 ~
-l0A0c0 0 -600 E
-17 5 +10 10d10+400 4d4+9 
+c0d0l0A0 0 -600 E
+17 5 10 10d10+400 4d4+9
 10d10+20 20000
 8 8 1
 CastSuccess: 34
-BareHandAttack:  0
 Str: 16
+Dex: 17
 Int: 20
 Wis: 18
-Dex: 17
 Con: 16
 Cha: 16
-LikeWork: 30
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 30
+Class: 102
+Race: 101
 Height: 150
 Weight: 150
-Special_Bitvector: a1b1c1
+Special_Bitvector: a1b1c1 
+Skill: 20 20
 Skill: 130 15
 Skill: 134 25
-Skill: 139 5
-Skill: 20 20
 Skill: 136 80
+Skill: 139 5
 E
 T 139201
 I глаза,5:1
@@ -177,25 +167,24 @@ I кожа,1:3
 Шилоклювка летает тут.
 ~
 Вы видите шилоклювку.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,4:9
@@ -212,25 +201,24 @@ I крылья,1:6
 Степной щитомордник свернулся кольцом.
 ~
 Вы видите степного щитомордника.~
-t1l1q0m1h0 0 -600 E
-3 9 +9 1d10+30 3d3+0 
+d0h0q0l1m1t1 0 -600 E
+3 9 9 1d10+30 3d3+0
 0d0+0 100
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 5
+Dex: 6
 Int: 6
 Wis: 6
-Dex: 6
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 136 60
 E
 I глаза,1:7
@@ -248,25 +236,24 @@ I кожа,4:7
 Авдотка летает тут.
 ~
 Вы видите авдотку.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,3:6
@@ -283,25 +270,24 @@ I крылья,3:8
 Степной уж свернулся кольцом.
 ~
 Вы видите степного ужа.~
-t1l1q0m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0q0l1m1t1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 105
 Height: 5
 Weight: 10
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 136 60
 E
 I глаза,5:5
@@ -318,25 +304,24 @@ I кожа,3:8
 Манъчжурский цокор собирает корм.
 ~
 Вы видите манъчжурского цокора.~
-l1n1m1h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0l1m1n1 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 105
 Height: 25
 Weight: 20
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,4:7
@@ -356,25 +341,24 @@ I кожа,2:7
 Ласка стоит тут.
 ~
 Вы видите ласку.~
-h0 0 -600 E
-6 12 +9 1d10+60 4d4+1 
+d0h0 0 -600 E
+6 12 9 1d10+60 4d4+1
 0d0+0 4000
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 8
+Dex: 9
 Int: 6
 Wis: 6
-Dex: 9
 Con: 9
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,3:7
@@ -382,5 +366,4 @@ I шерсть,2:5
 I зубы,2:6
 I кости,5:9
 I когти,3:6
-$
 $

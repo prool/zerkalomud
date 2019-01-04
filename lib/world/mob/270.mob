@@ -24,6 +24,7 @@ LikeWork: 90
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -60,6 +61,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -80,7 +82,7 @@ E
 учителя.
 ~
 b0c0d0g0l0m0n0o0 d0f0h0 0 E
-20 1 2 0d0+500 3d5+15
+16 1 2 0d0+500 3d5+15
 0d0+10 20000
 8 8 1
 Str: 20
@@ -92,6 +94,7 @@ LikeWork: 90
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -122,8 +125,8 @@ E
 ~
 Щуплый старичок ощупывает каждое растение и колбочку в поисках нужного.
 ~
-b0d0g0n0o0 c0d0e0f0h0z0 0 E
-30 2 -2 0d0+2000 2d20+10
+b0d0g0n0o0u2 c0d0e0f0h0z0 0 E
+16 2 -2 0d0+2000 2d20+10
 0d0+9999 20000
 8 8 1
 Int: 25
@@ -134,6 +137,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -151,7 +155,7 @@ E
 ~
 Весь рыжий и конопатый. Вроде на Руси таких ярко рыжих не встретишь.
 ~
-b0d0g0n0o0 c0d0e0f0z0 0 E
+b0d0g0n0o0u2 c0d0e0f0z0 0 E
 30 2 -2 0d0+2000 2d20+10
 0d0+9999 0
 8 8 1
@@ -163,6 +167,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 105
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -181,7 +186,7 @@ E
 Пожилой седовласый муж в добротной одежде.
 Его работа - встретить каждого и найти ему место для отдыха.
 ~
-b0d0g0n0o0 c0d0e0f0k0z0D0 0 E
+b0d0g0n0o0u2 c0d0e0f0k0z0D0 0 E
 30 2 -2 0d0+2000 2d20+10
 0d0+10 0
 8 8 1
@@ -193,6 +198,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -223,6 +229,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -253,6 +260,7 @@ Cha: 3
 Size: 100
 MaxFactor: 15
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: n0 
@@ -288,6 +296,7 @@ LikeWork: 90
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -321,6 +330,7 @@ LikeWork: 90
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -339,7 +349,7 @@ E
 ~
 Маленький плюгавенький мужичок с бегающими глазками.
 ~
-b0d0g0n0o0 c0d0e0f0z0D0 0 E
+b0d0g0n0o0u2 c0d0e0f0z0D0 0 E
 30 2 -2 0d0+2000 2d20+10
 0d0+9999 0
 8 8 1
@@ -350,6 +360,7 @@ Size: 20
 MaxFactor: 100
 ExtraAttack: 2
 Class: 105
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -367,7 +378,7 @@ E
 ~
 Крепкий высокий мужчина в рубахе с засученными рукавами.
 ~
-b0d0g0n0o0 c0d0e0f0z0 0 E
+b0d0g0n0o0u2 c0d0e0f0z0 0 E
 30 2 -2 0d0+2000 2d20+10
 0d0+9999 0
 8 8 1
@@ -381,6 +392,7 @@ Size: 20
 MaxFactor: 100
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -399,7 +411,7 @@ E
 Немного располневший, но сильный мужчина.
 ~
 b0d0g0m0n0o0p0q0r0 0 600 E
-25 0 0 0d0+1000 10d5+10
+17 0 0 0d0+1000 10d5+10
 5d56+56 25000
 8 8 1
 BareHandAttack: 6
@@ -411,6 +423,7 @@ Size: 30
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -430,7 +443,7 @@ E
 одетый в цветастые одежды.
 ~
 b0d0g0m0n0o0p0q0r0t0u0m1n1 r0s0 600 E
-20 4 1 0d0+500 3d5+5
+16 4 1 0d0+500 3d5+5
 1d20+2 20000
 8 8 1
 BareHandAttack: 6
@@ -443,6 +456,7 @@ LikeWork: 100
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -478,6 +492,7 @@ LikeWork: 90
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -485,7 +500,7 @@ Skill: 136 69
 Helper: 27009
 E
 #27015
-поп~
+седой поп~
 поп~
 попа~
 попу~
@@ -497,7 +512,7 @@ E
 Статный мужчина в черной одежде.
 ~
 b0d0g0n0o0 c0d0e0f0h0z0 0 E
-30 2 -2 0d0+2000 2d20+10
+30 2 -2 0d0+50000 2d20+10
 0d0+10 0
 8 8 1
 Str: 30
@@ -510,9 +525,10 @@ Size: 20
 MaxFactor: 100
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 198
 Weight: 200
-Special_Bitvector: 0 
+Special_Bitvector: b1c1 
 Skill: 136 90
 E
 #27016
@@ -533,6 +549,8 @@ b0d0n0B0o1f2 d0f0k0 0 E
 8 8 2
 Dex: 50
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -568,6 +586,8 @@ Con: 25
 Cha: 14
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 180
 Weight: 200
 Special_Bitvector: 0 
@@ -664,7 +684,7 @@ T 27030
 его виден узкий шрам - словно бы от плетки или кнута.
 ~
 d0l0n0y0 0 -200 E
-17 2 0 10d5+600 5d7+7
+16 2 0 10d5+600 5d7+7
 0d0+0 20000
 8 8 1
 BareHandAttack: 11
@@ -676,6 +696,8 @@ Con: 16
 Cha: 3
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 50
 Weight: 120
 Special_Bitvector: 0 
@@ -710,6 +732,8 @@ Dex: 15
 Con: 27
 Size: 50
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: p0 
@@ -741,6 +765,8 @@ Wis: 24
 Con: 8
 Cha: 26
 Size: 30
+Class: 100
+Race: 100
 Height: 170
 Weight: 75
 Special_Bitvector: 0 
@@ -776,6 +802,8 @@ Cha: 16
 Size: 50
 LikeWork: 75
 ExtraAttack: 2
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: f0b1 
@@ -829,6 +857,8 @@ Cha: 22
 Size: 30
 LikeWork: 75
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: f0b1 
@@ -859,13 +889,15 @@ ostrog270 тюремщик~
 Широкий как ворота чернобородый мужик в простой одежде
 и заляпанном чем-то бурым кожаном фартуке.
 ~
-b0d0o0B0o1f2g2 d0f0k0 0 E
+b0d0n0o0B0o1f2g2u2 d0f0k0 0 E
 20 20 0 1d100+1 1d1+0
 0d0+0 0
 8 8 1
 Str: 34
 Con: 25
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -887,7 +919,7 @@ beggary нищий попрошайка~
 Немыслимо грязных и завшивленных лохмотьев постыдилась бы и болотная кикимора
 ~
 c0d0h0n0p0t0f2g2j2u2 d0f0k0 0 E
-15 -1 0 20d10+420 4d8+5
+6 -1 0 20d10+420 4d8+5
 0d0+2 2000
 8 8 1
 Str: 18
@@ -900,6 +932,7 @@ Size: 35
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 50
 Special_Bitvector: b1c1 
@@ -983,6 +1016,8 @@ Con: 26
 Cha: 15
 Size: 55
 LikeWork: 75
+Class: 100
+Race: 100
 Height: 185
 Weight: 140
 Special_Bitvector: b1 
@@ -1012,7 +1047,7 @@ T 27033
 серебристые нити. Он облачен в добротный кафтан и высокие кожаные сапоги,
 на пальце блестит тяжелый купеческий перстень-печать.
 ~
-b0d0g0n0o0p0q0r0t0u0B0s1t1f2g2 d0f0h0k0D0 600 E
+b0d0g0n0o0p0q0r0t0u0B0s1t1f2g2u2 d0f0h0k0D0 600 E
 25 5 0 1d100+600 8d8+8
 0d0+500000 0
 8 8 1
@@ -1025,6 +1060,7 @@ Cha: 24
 Size: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1060,6 +1096,8 @@ Con: 36
 Cha: 36
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1091,6 +1129,8 @@ Con: 18
 Cha: 17
 Size: 50
 LikeWork: 1
+Class: 100
+Race: 100
 Height: 175
 Weight: 140
 Special_Bitvector: 0 
@@ -1112,8 +1152,8 @@ T 27039
 Простое платье перехвачено узким плетеным поясом.
 Она неторопливо перебирает и раскладывает принесенные сборщиками травы.
 ~
-b0d0n0o0B0f2g2 d0f0k0 600 E
-18 5 0 1d20+300 3d4+3
+b0d0n0o0B0f2g2u2 d0f0k0 600 E
+1 5 0 1d20+300 3d4+3
 0d0+32000 1
 8 8 2
 Dex: 19
@@ -1122,6 +1162,8 @@ Wis: 25
 Con: 12
 Cha: 23
 Size: 40
+Class: 100
+Race: 100
 Height: 160
 Weight: 70
 Special_Bitvector: 0 
@@ -1154,6 +1196,8 @@ Wis: 30
 Con: 14
 Cha: 18
 Size: 50
+Class: 100
+Race: 100
 Height: 178
 Weight: 120
 Special_Bitvector: 0 
@@ -1189,10 +1233,44 @@ Cha: 17
 Size: 50
 LikeWork: 1
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 168
 Weight: 150
 Special_Bitvector: 0 
 Skill: 136 90
+E
+#27032
+умелец Рутын~
+Рутын~
+Рутына~
+Рутыну~
+Рутына~
+Рутыном~
+Рутыне~
+Умелец Рутын вырезает что-то из дерева.
+~
+Средних лет жилиистый мужичонка с застрявшими в бороде опилками -
+известный в тутошних краях мастер на все руки.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
 E
 #27072
 молодой горожанин парень~
@@ -1221,6 +1299,8 @@ Cha: 17
 Size: 50
 LikeWork: 1
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 168
 Weight: 150
 Special_Bitvector: 0 
@@ -1234,7 +1314,7 @@ E
 базарного зазывалу~
 базарным зазывалой~
 базарном зазывале~
-Базарный зазывала стоит здесь, зычным голосом расхваливая выставленный товар.
+Базарный зазывала стоит здесь разхваливая выставленый товар.
 ~
 Дородный чернобородый мужик в красном кафтане,
 подпоясанном широким поясом, хороших сапогах
@@ -1253,6 +1333,8 @@ Cha: 17
 Size: 50
 LikeWork: 1
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 168
 Weight: 150
 Special_Bitvector: 0 
@@ -1271,7 +1353,7 @@ E
 Дородный, в дорогом кафтане купец с окладистой бородой.
 По договору с воеводой он ведет торговлю от имени дружины.
 ~
-b0d0n0o0B0 d0f0k0 200 E
+b0d0n0o0B0 d0f0k0D0a1 200 E
 30 -1 0 1d100+600 5d5+5
 0d0+0 0
 8 8 1
@@ -1284,6 +1366,8 @@ Cha: 17
 Size: 50
 LikeWork: 1
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 168
 Weight: 150
 Special_Bitvector: 0 
@@ -1302,7 +1386,7 @@ E
 ~
 Молодой парень, пошедший в ученики к мастеру.
 ~
-b0d0n0o0B0 d0f0k0 200 E
+b0d0n0o0B0u2 d0f0k0 200 E
 30 -1 0 1d100+600 5d5+5
 0d0+500000 0
 8 8 1
@@ -1316,6 +1400,7 @@ Size: 50
 LikeWork: 1
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 168
 Weight: 150
 Special_Bitvector: 0 

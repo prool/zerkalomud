@@ -75,7 +75,7 @@ if %exist.mob(73101)%
   halt
 end
 wsend %actor% _Разбежавшись Вы прыгнули через валун.
-wechoaround %actor% _%actor.name% прыгнул%actor.q% через валун.
+wechoaround %actor% _%actor.name% прыгну%actor.q% через валун.
 wteleport %actor% 73114
 wsend %actor% _Вы перепрыгнули валун и оказались на горной тропке.
 wechoaround %actor%  Кто-то прыгнул сюда. 
@@ -91,7 +91,7 @@ if !%arg.contains(валун)%
   halt 
 end
 wsend %actor% _Разбежавшись Вы прыгнули через валун.
-wechoaround %actor% _%actor.name% прыгнул%actor.q% через валун.
+wechoaround %actor% _%actor.name% прыгну%actor.q% через валун.
 wteleport %actor% 73111
 wsend %actor% _Вы перепрыгнули валун и оказались на горной тропке.
 wechoaround %actor% _Кто-то прыгнул суда. 

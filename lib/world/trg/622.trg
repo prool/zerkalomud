@@ -30,7 +30,7 @@ msend %actor% _Старейшина горестно вздохнул.
 wait 2
 msend %actor% _"Поздорову будь, %actor.name%!" - сказал старейшина Имрах.
 wait 1s
-msend %actor% _Стерейшина сказал:
+msend %actor% _Старейшина сказал:
 msend %actor% - Беда, беда к нам пришла, сгинем мы все здесь безвестно...
 msend %actor% - Помоги нам, а мы уж в долгу не останемся... 
 ~
@@ -184,7 +184,8 @@ exec 62234 %world.room(62279)%
 if %questor622%
   halt
 end
-if ((%actor.level% < 22) || (%actor.vnum% != -1) || !%exist.mob(62215)%)
+eval level 22-%actor.remort%/2
+if ( (%actor.level% < %level%) || (%actor.vnum% != -1) || !%exist.mob(62215)%)
   msend %actor% _Старейшина внимательно осмотрел Вас с ног до головы.
   say Нет, боюсь не по силам это тебе...
   вздох
@@ -752,6 +753,10 @@ mpurge %self.name%
 if !(%actor.id% == %questor622.id%)
   halt
 end   
+eval level 22-%actor.remort%/2
+if (%actor.level% < %level%)
+  halt
+end
 wait 1s
 улыб
 say Спасибо тебе, %actor.iname%, спас%actor.q% ты и селение наше, и дочурку мою...
@@ -760,7 +765,6 @@ msend %actor% Старейшина крепко пожал Вам руку.
 mechoaround %actor% Старейшина Имрах крепко пожал руку %actor.dname%.
 wait 2s
 if (%questor622.quested(62200)% == 0)
-  %questor622.setquest(62200)%
   switch %actor.class%
     case 0
       say Нелегкое это дело - людей лечить. За труд твой благородный... 
@@ -787,6 +791,7 @@ if (%questor622.quested(62200)% == 0)
         msend %actor% Вы стали значительно опытнее в умении "заколоть".
         mskilladd .%actor.name% заколоть 10
       end
+      %questor622.setquest(62200)%
     break
     case 3
       say Научу я тебя, как силушку свою с толком в дело пустить.
@@ -799,6 +804,7 @@ if (%questor622.quested(62200)% == 0)
         msend %actor% Теперь вы гораздо лучше умеете наносить богатырские удары!
         mskilladd .%actor.name% богатырский.молот 10
       end
+      %questor622.setquest(62200)%
     break 
     case 4
       say Ясно мне, что наемник ты по крови, да и по духу.
@@ -811,6 +817,7 @@ if (%questor622.quested(62200)% == 0)
         msend %actor% Теперь Вы гораздо лучше умеете осторожно подкрадываться к жертве!
         mskilladd .%actor.name% осторожный.стиль 10
       end
+      %questor622.setquest(62200)%
     break
     case 5
       say С первого взгляда дружинника в тебе видать.
@@ -824,6 +831,7 @@ if (%questor622.quested(62200)% == 0)
         msend %actor% Теперь Вы гораздо лучше умеете отражать удары!
         mskilladd .%actor.name% веерная.защита 10
       end
+      %questor622.setquest(62200)%
     break
     case 6
       say Для кудесника есть у меня чудный дар
@@ -842,6 +850,7 @@ if (%questor622.quested(62200)% == 0)
         msend %actor% Теперь Вы гораздо лучше умеете открывать врата!
         mskilladd .%actor.name% врата 10
       end
+      %questor622.setquest(62200)%
     break 
     case 8
       say Я так считаю... небудь на земле Зла, кто бы тогда Добро заметил?
@@ -859,6 +868,7 @@ if (%questor622.quested(62200)% == 0)
         msend %actor% Теперь Вы гораздо лучше знаете все уязвимые места всевозможных противников!
         mskilladd .%actor.name% точный.стиль 10
       end
+      %questor622.setquest(62200)%
     break
     case 10
       say Охотник ты, как я погляжу.
@@ -872,6 +882,7 @@ if (%questor622.quested(62200)% == 0)
         msend %actor% Теперь Вы гораздо лучше знаете как стрелять быстро и точно!
         mskilladd .%actor.name% дополнительный.выстрел 10
       end
+      %questor622.setquest(62200)%
     break 
     case 11
       say Вижу я, кузнец ты справный.
@@ -889,6 +900,7 @@ if (%questor622.quested(62200)% == 0)
         msend %actor% Теперь Вы гораздо лучше знаете как надо сбивать противников!
         mskilladd .%actor.name% сбить 10
       end
+      %questor622.setquest(62200)%
     break
     case 12
       say Знаю, что для купца важнее прибыли, только честь
@@ -905,6 +917,7 @@ if (%questor622.quested(62200)% == 0)
         msend %actor% Теперь Вы гораздо лучше знаете как надо метать ножи!
         mskilladd .%actor.name% метнуть 10   
       end
+      %questor622.setquest(62200)%
     break  
     case 13
       say Знаю, что все вы, волхвы, себе на уме
@@ -920,6 +933,7 @@ if (%questor622.quested(62200)% == 0)
         msend %actor% Теперь Вы гораздо лучше знаете как сглазить человека!
         mskilladd .%actor.name% сглазить 10 
       end
+      %questor622.setquest(62200)%
     break
   done  
 else
@@ -1019,7 +1033,7 @@ if !%arg.contains(сходн)%
   halt
 end                                            
 wsend %actor% Вы взяли сходню и опустили ее одним концом на берег.
-wechoaround %actor% _%actor.name% взял%actor.q% сходню и опустил ее одним концом на берег.
+wechoaround %actor% _%actor.name% взя%actor.q% сходню и опустил ее одним концом на берег.
 wecho _Теперь можно спокойно пройти.
 wpurge сходня
 wload obj 62239 

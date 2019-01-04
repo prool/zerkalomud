@@ -27,9 +27,9 @@ if %actor% != %hero%
   halt
 end 
 say Неужели тебе это удалось ?
-say Никогда не думал что у кого нибудь получится прогнать этого демона.
+say Никогда не думал что у кого-нибудь получится прогнать этого демона.
 say Держи, честно заслужил!
-if %world.curobjs(3343)% < 1 && %random.1000% < 50
+if (%random.100% < 2) && (%world.curobjs(3343)% < 1)
   mload obj 3343
   дать наруч .%actor.name%
 else
@@ -69,22 +69,16 @@ calcuid vodan 68718 mob
 detach 68702 %vodan.id%    
 detach 68703 %vodan.id% 
 attach 68705 %vodan.id%
-set killer %actor%
-remote killer %vodan.id%
 ~
 #68705
 водяной дает живую воду~
 0 r 100
 ~
-if %actor% != %killer%
-  wait 1s
-  halt
-end
 say Свою часть уговора ты выполнил%actor.g%.
 wait 1s
 mecho Водяной достал бутыль с живой водой.
 wait 1s
-say Вот возьми %killer%, как и обещал.
+say Вот возьми, как я и обещал.
 mload obj 68702
 дать бутыль %actor.name%
 wait 1s

@@ -12,10 +12,10 @@
 смерти он обречен служить повелителю темного царства!
 ~
 c0d0f0l0m0n0o0p0z0b1 d0f0k0n0x0b1m1 -600 E
-35 0 -7 0d0+2400 10d11+25
+40 0 -7 0d0+2400 10d11+25
 200d200+1000 2500000
 8 8 1
-Saves: 0 0 0 -70
+Saves: -46 -46 -46 -70
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -31,6 +31,7 @@ Size: 50
 LikeWork: 100
 MaxFactor: 5
 Class: 105
+Race: 105
 Height: 30
 Weight: 50
 Special_Bitvector: l0b1c1 
@@ -81,10 +82,10 @@ I зубы,17:7
 смерти он обречен служить повелителю темного царства!
 ~
 c0d0f0l0m0n0o0p0z0b1 d0f0k0n0x0b1m1 -600 E
-35 0 -7 0d0+2400 10d11+25
+40 0 -7 0d0+2400 10d11+25
 200d200+1000 2500000
 8 8 1
-Saves: 0 0 0 -70
+Saves: -46 -46 -46 -70
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -100,6 +101,7 @@ Size: 50
 LikeWork: 100
 MaxFactor: 5
 Class: 105
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: l0b1c1 
@@ -132,7 +134,6 @@ T 92200
 T 92216
 T 92213
 T 92246
-I кожа,17:7
 #92202
 ярпен_моб~
 Ярпен~
@@ -147,10 +148,10 @@ I кожа,17:7
 смерти он обречен служить повелителю темного царства!
 ~
 c0d0f0l0m0n0o0p0z0b1 d0f0k0n0x0b1m1 -600 E
-35 0 -7 0d0+2400 10d11+25
+40 0 -7 0d0+2400 10d11+25
 200d200+1000 2500000
 8 8 1
-Saves: 0 0 0 -70
+Saves: -46 -46 -46 -70
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -166,6 +167,7 @@ Size: 50
 LikeWork: 100
 MaxFactor: 5
 Class: 105
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: l0b1c1 
@@ -201,7 +203,6 @@ T 92216
 T 92214
 T 92210
 T 92246
-I кожа,17:7
 #92203
 рольт_моб~
 Рольт~
@@ -216,10 +217,10 @@ I кожа,17:7
 смерти он обречен служить повелителю темного царства!
 ~
 c0d0f0l0m0n0o0p0z0b1 d0f0k0n0x0b1m1 -600 E
-35 0 -7 0d0+2400 10d11+25
+40 0 -7 0d0+2400 10d11+25
 200d200+1000 2500000
 8 8 1
-Saves: 0 0 0 -70
+Saves: -46 -46 -46 -70
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -237,6 +238,7 @@ Size: 50
 LikeWork: 100
 MaxFactor: 5
 Class: 105
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: l0b1c1 
@@ -283,11 +285,13 @@ I шерсть,17:7
 костяном драконе~
 Костяной дракон летает тут.
 ~
-undefined~
+Костяной дракон.
+~
 d0g0m0n0o0p0x0z0b1 d0f0k0 -600 E
-30 0 -10 0d0+1600 15d11+50
+31 0 -10 0d0+1600 15d11+50
 0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Resistances: 0 0 0 0 105 110 0
 Str: 32
 Dex: 25
@@ -300,6 +304,7 @@ LikeWork: 100
 MaxFactor: 30
 ExtraAttack: 1
 Class: 101
+Race: 105
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
@@ -318,11 +323,13 @@ T 92217
 костяном драконе~
 Костяной дракон летает тут.
 ~
-undefined~
+Костяной дракон.
+~
 d0g0m0n0o0p0x0z0b1 d0f0k0 -600 E
-30 0 -10 0d0+1600 15d11+50
+31 0 -10 0d0+1600 15d11+50
 0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Resistances: 0 0 0 0 105 110 0
 Str: 32
 Dex: 25
@@ -335,6 +342,7 @@ LikeWork: 100
 MaxFactor: 30
 ExtraAttack: 1
 Class: 101
+Race: 105
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
@@ -353,11 +361,13 @@ T 92218
 костяном драконе~
 Костяной дракон летает тут.
 ~
-undefined~
+Костяной дракон
+~
 d0g0m0n0o0p0x0z0b1 d0f0k0 -600 E
-30 0 -10 0d0+1600 15d11+50
+31 0 -10 0d0+1600 15d11+50
 0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Resistances: 0 0 0 0 105 110 0
 Str: 32
 Dex: 25
@@ -370,6 +380,7 @@ LikeWork: 100
 MaxFactor: 30
 ExtraAttack: 1
 Class: 101
+Race: 105
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
@@ -388,11 +399,13 @@ T 92219
 адской гончей~
 Адская гончая бегает тут.
 ~
-undefined~
+Адская гончая дышит на вас нестерпимым жаром.
+~
 d0g0m0n0o0p0z0a2 d0f0k0m1 -600 E
-30 0 -10 0d0+1400 30d14+40
+31 0 -10 0d0+1400 30d14+40
 0d0+0 350000
 8 8 2
+Saves: -10 -10 -10 -10
 Resistances: 0 0 0 0 105 110 0
 BareHandAttack: 4
 Str: 30
@@ -403,6 +416,7 @@ Size: 50
 LikeWork: 30
 MaxFactor: 25
 Class: 101
+Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
@@ -420,11 +434,13 @@ T 92206
 адской гончей~
 Адская гончая бегает тут.
 ~
-undefined~
+Адская гончая дышит на вас нестерпимым жаром.
+~
 d0g0m0n0o0p0z0a2 d0f0k0m1 -600 E
-30 0 -10 0d0+1400 30d14+40
+31 0 -10 0d0+1400 30d14+40
 0d0+0 350000
 8 8 2
+Saves: -10 -10 -10 -10
 Resistances: 0 0 0 0 105 110 0
 BareHandAttack: 4
 Str: 30
@@ -435,6 +451,7 @@ Size: 50
 LikeWork: 30
 MaxFactor: 25
 Class: 101
+Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
@@ -452,11 +469,13 @@ T 92206
 адской гончей~
 Адская гончая бегает тут.
 ~
-undefined~
+Адская гончая дышит на вас нестерпимым жаром.
+~
 d0g0m0n0o0p0z0a2 d0f0k0m1 -600 E
-30 0 -10 0d0+1400 30d14+40
+31 0 -10 0d0+1400 30d14+40
 0d0+0 350000
 8 8 2
+Saves: -10 -10 -10 -10
 Resistances: 0 0 0 0 105 110 0
 BareHandAttack: 4
 Str: 30
@@ -467,6 +486,7 @@ Size: 50
 LikeWork: 30
 MaxFactor: 25
 Class: 101
+Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
@@ -487,9 +507,10 @@ T 92206
 огромный полуразложившийся труп демонстрирует полную зубов пасть
 ~
 d0g0m0n0o0p0x0z0 d0f0k0 -600 E
-30 0 -10 0d0+5000 10d10+20
+31 0 -10 0d0+5000 10d10+20
 0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Resistances: 0 0 0 0 105 110 0
 Str: 32
 Dex: 25
@@ -502,6 +523,7 @@ LikeWork: 100
 MaxFactor: 15
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: C3 
@@ -522,11 +544,13 @@ T 92204
 ловком скелете~
 Оживший скелет ходит тут.
 ~
-undefined~
+Оживший скелет бренчит своими высушенными костями.
+~
 d0g0l0m0n0o0p0x0z0 d0f0k0j1 -600 E
-30 0 -10 0d0+1300 20d9+20
+31 0 -10 0d0+1300 20d9+20
 0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Resistances: 0 0 0 0 105 110 0
 BareHandAttack: 11
 Str: 32
@@ -540,6 +564,7 @@ LikeWork: 30
 MaxFactor: 20
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: j0 
@@ -559,11 +584,13 @@ T 92206
 ловком скелете~
 Оживший скелет ходит тут.
 ~
-undefined~
+Оживший скелет бренчит своими высушенными костями.
+~
 d0g0l0m0n0o0p0x0z0 d0f0k0j1 -600 E
-30 0 -10 0d0+1300 20d9+20
+31 0 -10 0d0+1300 20d9+20
 0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Resistances: 0 0 0 0 105 110 0
 BareHandAttack: 11
 Str: 32
@@ -577,6 +604,7 @@ LikeWork: 30
 MaxFactor: 100
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: j0 
@@ -596,12 +624,13 @@ T 92206
 скелете-воине~
 Скелет-воин охраняет дворец.
 ~
-undefined~
+Скелет, поднятый из бывалого воина.
+~
 c0d0f0g0m0n0o0p0x0z0A0 d0f0k0 -600 E
-30 0 -10 0d0+5000 40d10+20
+33 0 -10 0d0+5000 40d10+20
 0d0+0 570000
 8 8 1
-Saves: 0 0 0 -70
+Saves: -18 -18 -18 -70
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -616,6 +645,7 @@ Size: 100
 LikeWork: 30
 MaxFactor: 50
 Class: 101
+Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -648,10 +678,10 @@ T 92205
 Злой кузнец Заберь, проклят богами и вынужден служить повелителю Зла.
 ~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 -16 -9 0d0+2800 17d9+20
+39 -16 -9 0d0+2800 17d9+20
 100d100+9000 2000000
 8 8 1
-Saves: 0 0 0 -70
+Saves: -42 -42 -42 -70
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -666,6 +696,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1d1 
@@ -708,10 +739,10 @@ T 92247
 ~
 undefined~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 -16 -9 0d0+2800 17d9+20
+39 -16 -9 0d0+2800 17d9+20
 100d100+9000 2000000
 8 8 1
-Saves: 0 0 0 -70
+Saves: -42 -42 -42 -70
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -726,6 +757,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1d1 
@@ -766,12 +798,13 @@ T 92247
 Мирте~
 Мирт стоит здесь.
 ~
-undefined~
+Мирт.
+~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 0 -10 0d0+3800 15d9+10
+41 0 -10 0d0+3800 15d9+10
 100d100+9000 3000000
 8 8 1
-Saves: 0 0 0 -70
+Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -792,6 +825,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1d1C3 
@@ -833,9 +867,10 @@ T 92251
 мертвяке-манекене~
 Мертвый воин, закованный в доспехи из тусклого металла, стоит тут.
 ~
-undefined~
+Мертвый воин, закованный в доспехи из тусклого металла.
+~
 b0c0d0f0n0o0p0x0A0 d0f0k0 -600 E
-40 0 0 0d0+2000 7d7+7
+21 0 0 0d0+2000 7d7+7
 0d0+0 50000
 8 8 1
 Resistances: 0 0 0 0 105 110 0
@@ -849,6 +884,7 @@ Size: 50
 LikeWork: 10
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0a1b1c1C3 
@@ -885,12 +921,13 @@ E
 Мюрате~
 Мюрат стоит здесь.
 ~
-undefined~
+Мюрат
+~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 0 -10 0d0+3800 15d9+10
+41 0 -10 0d0+3800 15d9+10
 100d100+9000 3000000
 8 8 1
-Saves: 0 0 0 -70
+Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -910,6 +947,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1d1C3 
@@ -950,12 +988,13 @@ T 92251
 Китоне~
 Китон стоит здесь.
 ~
-undefined~
+Китон.
+~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 -11 -9 0d0+3000 15d9+15
+39 -11 -9 0d0+3000 15d9+15
 100d100+9000 2000000
 8 8 1
-Saves: 0 0 0 -70
+Saves: -42 -42 -42 -70
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -970,6 +1009,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 130
 Weight: 150
 Special_Bitvector: b1c1d1B3 
@@ -1008,12 +1048,13 @@ T 92248
 Тэрсайде~
 Тэрсайд стоит здесь.
 ~
-неопределен~
+Тэрсайд
+~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 -8 -9 0d0+2500 15d9+15
+39 -8 -9 0d0+2500 15d9+15
 100d100+9000 2000000
 8 8 1
-Saves: 0 0 0 -70
+Saves: -42 -42 -42 -70
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -1028,6 +1069,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: j0b1c1C3 
@@ -1105,12 +1147,13 @@ T 92249
 Андоре~
 Андора стоит здесь.
 ~
-undefined~
+Андора.
+~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 0 -10 0d0+3800 15d9+10
+41 0 -10 0d0+3800 15d9+10
 100d100+9000 3000000
 8 8 2
-Saves: 0 0 0 -70
+Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -1125,6 +1168,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -1166,12 +1210,13 @@ T 92251
 Даране~
 Даран стоит здесь.
 ~
-undefined~
+Даран.
+~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 -16 -10 0d0+4500 18d9+15
+40 -16 -10 0d0+4500 18d9+15
 100d100+9000 2500000
 8 8 1
-Saves: 0 0 0 -30
+Saves: -46 -46 -46 -46
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -1186,6 +1231,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1217,12 +1263,13 @@ T 92250
 Даране~
 Даран стоит здесь.
 ~
-undefined~
+Даран.
+~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 0 -10 0d0+4500 18d9+15
+40 0 -10 0d0+4500 18d9+15
 100d100+9000 2500000
 8 8 1
-Saves: 0 0 0 -30
+Saves: -46 -46 -46 -46
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -1237,6 +1284,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1268,12 +1316,13 @@ T 92250
 Жиглоне~
 Жиглон стоит здесь.
 ~
-undefined~
+Жиглон.
+~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 -16 -10 0d0+4500 18d9+15
+40 -16 -10 0d0+4500 18d9+15
 100d100+9000 2500000
 8 8 1
-Saves: 0 0 0 -30
+Saves: -46 -46 -46 -46
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -1288,6 +1337,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1319,12 +1369,13 @@ T 92250
 Жиглоне~
 Жиглон стоит здесь.
 ~
-undefined~
+Жиглон
+~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 0 -10 0d0+4500 18d9+15
+40 0 -10 0d0+4500 18d9+15
 100d100+9000 2500000
 8 8 1
-Saves: 0 0 0 -30
+Saves: -46 -46 -46 -46
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -1339,6 +1390,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1370,12 +1422,13 @@ T 92250
 Биглоне~
 Биглон стоит здесь.
 ~
-неопределен~
+Биглон
+~
 c0d0f0h0l0m0n0o0p0z0A0 d0f0k0A0m1q1 -600 E
-30 -8 -10 0d0+2900 15d9+11
+39 -8 -10 0d0+2900 15d9+11
 100d100+9000 2100000
 8 8 1
-Saves: 0 0 0 -30
+Saves: -42 -42 -42 -42
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -1390,6 +1443,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: j0b1c1 
@@ -1425,12 +1479,13 @@ T 92252
 Руте~
 Рута стоит здесь.
 ~
-неопределен~
+Рута.
+~
 c0d0f0l0m0n0o0p0r0u0z0A0 d0f0k0C0m1q1 -600 E
-30 0 -10 0d0+2200 9d9+5
+42 0 -10 0d0+2200 9d9+5
 100d100+9000 3800000
 8 8 2
-Saves: 0 0 0 -30
+Saves: -54 -54 -54 -54
 Resistances: 0 0 0 0 105 110 0
 CastSuccess: 50
 AResist: 60
@@ -1446,6 +1501,7 @@ Size: 50
 LikeWork: 100
 MaxFactor: 5
 Class: 104
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 

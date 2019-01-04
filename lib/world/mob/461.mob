@@ -1,14 +1,14 @@
 #46100
-седой волхв~
-седой волхв~
-седого волхва~
-седому волхву~
-седого волхва~
-седым волхвом~
-седом волхве~
-Весь покрытый сединой, будто инеем, волхв приветливо смотрит на Вас.
+седой жрец~
+седой жрец~
+седого жреца~
+седому жрецу~
+седого жреца~
+седым жрецом~
+седом жреце~
+Весь покрытый сединой, будто инеем, жрец тоскливо смотрит на Вас.
 ~
-   Старый, умудренный опытом волхв.
+   Старый больной жрец.
 ~
 b0d0g0n0o0t0u0y0o1 d0f0h0k0D0 600 E
 34 0 -4 10d10+1000 10d10+10
@@ -25,13 +25,13 @@ LikeWork: 11
 MaxFactor: 1
 ExtraAttack: 1
 Class: 105
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
 E
 T 46100
 T 46101
-T 46123
 #46101
 огненная птица~
 огненная птица~
@@ -40,13 +40,13 @@ T 46123
 огненную птицу~
 огненной птицей~
 огненной птице~
-Огромная огненная птица парит над землей, разбрасывая огонь вокруг, точно перья!
+Огромная огненная птица парит над землей, разбрасывая огонь вокруг точно перья!
 ~
    Огромная птица, объятая жгучим пламенем!
 ~
 c0d0f0g0l0m0n0o0p0r0x0a2 d0f0h0k0m0p0r0x0z0A0D0m1y1 -600 E
 35 0 -8 4d10+3500 15d14+17
-12d2+2 200000
+12d2+2 400000
 8 8 2
 BareHandAttack: 2
 Str: 29
@@ -60,6 +60,7 @@ LikeWork: 65
 MaxFactor: 6
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 130
 Weight: 77
 Special_Bitvector: l0c1C3 
@@ -123,7 +124,7 @@ T 46102
 ~
 c0d0f0g0l0m0n0o0x0a2g2 d0f0k0m0n0x0A0D0y1 -600 E
 30 3 2 2d10+1980 10d15+12
-2d12+2 170000
+2d12+2 340000
 8 8 1
 BareHandAttack: 12
 Str: 27
@@ -137,11 +138,11 @@ LikeWork: 50
 MaxFactor: 4
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 134
 Weight: 57
 Special_Bitvector: l0c1C3 
 Skill: 22 25
-Skill: 134 50
 Skill: 136 100
 Skill: 157 50
 Spell: 5
@@ -191,7 +192,7 @@ T 46103
 ~
 c0d0f0g0l0m0n0o0x0a2g2 d0f0k0m0n0x0A0D0y1 -600 E
 30 3 2 4d10+1980 11d14+12
-2d12+2 170000
+2d12+2 340000
 8 8 1
 BareHandAttack: 12
 Str: 27
@@ -205,13 +206,13 @@ LikeWork: 50
 MaxFactor: 4
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 134
 Weight: 57
 Special_Bitvector: l0c1C3 
 Skill: 22 25
 Skill: 136 100
 Skill: 157 50
-Skill: 160 50
 Spell: 5
 Spell: 5
 Spell: 5
@@ -257,10 +258,14 @@ T 46104
 ~
    Жгучий, яркий огонь! Такой простой водой и не затушишь!
 ~
-b0d0e0f0g0l0m0n0o0p0q0r0u0x0y0z0a2g2h2 d0k0n0r0z0A0D0m1y1 -600 E
+b0d0e0f0g0l0m0n0o0p0q0r0u0x0y0z0a2g2h2 d0k0n0r0z0A0D0a1m1y1 -600 E
 30 4 5 7d10+1000 12d15+5
-0d0+0 120000
+0d0+0 340000
 8 8 1
+Saves: 0 0 0 -50
+Armour: 10
+Initiative: 10
+Absorbe: 10
 BareHandAttack: 2
 Str: 30
 Dex: 27
@@ -273,6 +278,7 @@ LikeWork: 60
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 113
 Height: 120
 Weight: 51
 Special_Bitvector: m0x0c1C3 
@@ -309,7 +315,7 @@ T 46105
 ~
 b0d0e0f0g0l0m0n0o0p0q0r0u0x0y0z0a2g2h2 d0k0m0n0r0z0D0y1 -600 E
 25 0 -10 3d10+777 10d10+4
-0d0+0 100000
+0d0+0 200000
 8 8 0
 BareHandAttack: 2
 Str: 25
@@ -322,6 +328,7 @@ Size: 50
 LikeWork: 40
 MaxFactor: 3
 Class: 101
+Race: 113
 Height: 50
 Weight: 50
 Special_Bitvector: x0c1C3 
@@ -351,14 +358,14 @@ E
 огненной птахе~
 Огромная птица, полностью охвачена пламенем!
 ~
-   Огромная, огненная птаха!
+   Огромная огненная птаха!
 ~
 c0d0f0g0l0m0n0o0x0a2 d0f0h0k0r0x0A0D0y1 -600 E
 35 0 -4 8d10+4500 15d15+18
-0d0+0 270000
+0d0+0 500000
 8 8 2
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
 BareHandAttack: 2
 Str: 28
 Dex: 25
@@ -371,6 +378,7 @@ LikeWork: 60
 MaxFactor: 6
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 189
 Weight: 99
 Special_Bitvector: l0c1C3 
@@ -426,15 +434,15 @@ T 46106
 птенца огненной птахи~
 птенцом огненной птахи~
 птенце огненной птахи~
-Огромных размеров птенец огненной птахи, так и норовит Вас поджарить!
+Огромных размеров птенец огненной птахи так и норовит Вас поджарить!
 ~
    Огромный птенец огненной птахи!
 ~
 d0f0g0l0m0n0o0x0a2g2 d0f0k0n0x0A0D0y1 -600 E
 30 3 -8 4d10+1890 11d12+15
-4d5+6 150000
+4d5+6 300000
 8 8 1
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
 BareHandAttack: 12
 Str: 25
 Dex: 14
@@ -447,11 +455,11 @@ LikeWork: 55
 MaxFactor: 4
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 167
 Weight: 79
 Special_Bitvector: l0c1C3 
 Skill: 22 15
-Skill: 134 50
 Skill: 136 100
 Skill: 157 45
 Spell: 5
@@ -482,16 +490,16 @@ T 46107
 птенца огненной птахи~
 птенцом огненной птахи~
 птенце огненной птахи~
-Огромных размеров птенец огненной птахи, так и норовит Вас поджарить!
+Огромных размеров птенец огненной птахи так и норовит Вас поджарить!
 ~
    Огромный птенец огненной птахи!
 ~
 d0f0g0l0m0n0o0x0a2g2 d0f0k0n0x0A0D0y1 -600 E
 30 3 -8 4d10+1890 11d12+15
-2d5+4 150000
+2d5+4 300000
 8 8 1
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
 BareHandAttack: 12
 Str: 27
 Dex: 20
@@ -504,11 +512,11 @@ LikeWork: 55
 MaxFactor: 4
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 167
 Weight: 79
 Special_Bitvector: l0c1C3 
 Skill: 22 15
-Skill: 134 50
 Skill: 136 100
 Skill: 157 45
 Spell: 5
@@ -549,10 +557,10 @@ T 46108
 ~
 d0e0f0g0l0m0n0o0p0q0r0u0x0y0z0a2h2 d0f0k0r0z0A0D0y1 -600 E
 30 0 -7 5d10+1200 19d5+4
-0d0+0 120000
+0d0+0 240000
 8 8 1
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
 BareHandAttack: 2
 Str: 24
 Dex: 17
@@ -565,6 +573,7 @@ LikeWork: 30
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 113
 Height: 50
 Weight: 50
 Special_Bitvector: m0x0c1C3 
@@ -596,14 +605,14 @@ E
 крылатом огненном змее~
 Крылатый огненный змей дышит огнем, сжигая все на своем пути! 
 ~
-   Огромное, огненное чудище.
+   Огромное огненное чудище.
 ~
 c0d0f0g0l0m0n0o0x0a2 d0f0h0k0n0r0x0z0A0D0m1y1 -600 E
 35 3 -8 5d10+4500 12d18+17
-9d9+8 290000
+9d9+8 580000
 8 8 1
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
 BareHandAttack: 2
 Str: 24
 Dex: 28
@@ -616,6 +625,7 @@ LikeWork: 65
 MaxFactor: 3
 ExtraAttack: 2
 Class: 103
+Race: 105
 Height: 174
 Weight: 77
 Special_Bitvector: l0c1C3 
@@ -660,10 +670,10 @@ T 46109
 ~
 c0d0f0g0l0m0n0o0x0a2g2 d0f0k0m0x0z0A0C0D0m1y1 -600 E
 33 3 -6 6d10+2300 12d15+15
-0d0+0 170000
+0d0+0 340000
 8 8 1
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
 BareHandAttack: 4
 Str: 23
 Dex: 17
@@ -676,6 +686,7 @@ LikeWork: 55
 MaxFactor: 4
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 123
 Weight: 55
 Special_Bitvector: l0c1C3 
@@ -725,10 +736,10 @@ T 46110
 ~
 c0d0f0g0l0m0n0o0x0a2g2 d0f0k0m0x0z0A0C0D0m1y1 -600 E
 33 3 -6 6d10+2300 12d15+15
-0d0+0 170000
+0d0+0 340000
 8 8 1
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
 BareHandAttack: 4
 Str: 27
 Dex: 24
@@ -740,13 +751,14 @@ LikeWork: 55
 MaxFactor: 4
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 123
 Weight: 55
 Special_Bitvector: l0c1C3 
 Skill: 22 25
-Skill: 132 50
 Skill: 136 100
 Skill: 157 45
+Skill: 160 50
 Skill: 165 75
 Spell: 5
 Spell: 5
@@ -796,14 +808,14 @@ T 46111
 огненной змейке~
 Небольшая огненная змейка так и норовит поджарить Вас!
 ~
-   Странное существо, созданное ярким, жгучим огнем.
+   Странное существо созданное ярким, жгучим огнем.
 ~
 d0f0g0l0m0n0o0q0t0x0y0a2g2 d0f0k0n0r0z0A0m1y1 -600 E
 27 4 4 5d10+777 12d9+12
-0d0+0 100000
+0d0+0 200000
 8 8 2
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
 BareHandAttack: 2
 Str: 28
 Dex: 35
@@ -816,6 +828,7 @@ LikeWork: 50
 MaxFactor: 4
 ExtraAttack: 2
 Class: 103
+Race: 105
 Height: 100
 Weight: 50
 Special_Bitvector: m0c1C3 
@@ -863,10 +876,10 @@ E
 ~
 d0f0g0l0m0n0o0q0r0y0z0a2 d0f0k0n0x0A0D0y1 -600 E
 40 0 -5 5d10+3400 17d12+14
-0d0+0 190000
+0d0+0 380000
 8 8 1
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
 BareHandAttack: 2
 Str: 22
 Dex: 30
@@ -879,6 +892,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 165
 Weight: 77
 Special_Bitvector: l0x0c1C3 
@@ -909,23 +923,24 @@ Spell: 93
 E
 T 46112
 #46115
-огненная тварь~
-огненная тварь~
-огненной твари~
-огненной твари~
-огненную тварь~
-огненной тварью~
-огненной твари~
+огненный пес~
+огненный пес~
+огненного пса~
+огненному псу~
+огненного пса~
+огненным псом~
+огненном псе~
 Ужасное создание, охваченное ярким огнем, так и норовит поджарить вас!
 ~
-   Тварь огненная!
+   Пес огненный!
 ~
 d0f0g0l0m0n0o0y0a2 d0f0h0k0m0n0r0y1 -600 E
 37 0 -4 5d10+2900 14d15+13
-0d0+0 200000
-8 8 2
+0d0+0 400000
+8 8 1
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
+BareHandAttack: 4
 Str: 29
 Dex: 26
 Int: 25
@@ -937,6 +952,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 114
 Height: 122
 Weight: 50
 Special_Bitvector: m0x0c1C3 
@@ -992,14 +1008,18 @@ T 46113
 огненном демоне~
 Огромных размеров демон, так и норовит разорвать Вас на мелкие кусочки!
 ~
-   Ужасное создание огня! По видимому все местные неприятности вызваны им!
+   Ужасное создание огня!
 ~
-d0f0g0l0m0n0o0x0y0a2 c0d0f0h0k0m0n0p0r0z0A0C0D0y1 -600 E
+b0d0f0g0l0m0n0o0x0y0a2 c0d0f0h0k0m0n0p0r0z0A0C0D0y1 -600 E
 45 0 -7 7d10+9000 16d17+15
-11d10+7000 350000
+11d10+5000 2000000
 8 8 1
-Saves: -100 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Saves: -100 -30 -30 0
+Resistances: 50 0 -50 0 20 200 20
+Armour: 10
+CastSuccess: 15
+AResist: 20
+MResist: 20
 BareHandAttack: 2
 Str: 34
 Dex: 30
@@ -1011,10 +1031,11 @@ Size: 100
 LikeWork: 65
 MaxFactor: 4
 ExtraAttack: 2
-Class: 105
+Class: 101
+Race: 112
 Height: 199
 Weight: 99
-Special_Bitvector: n0x0c1C3 
+Special_Bitvector: a0b0n0x0c1C3 
 Skill: 22 50
 Skill: 132 75
 Skill: 134 80
@@ -1041,27 +1062,26 @@ Spell: 68
 Spell: 94
 Spell: 124
 Spell: 139
-Helper: 46101
-Helper: 46102
-Helper: 46103
-Helper: 46106
-Helper: 46107
-Helper: 46108
-Helper: 46110
-Helper: 46111
-Helper: 46112
-Helper: 46114
-Helper: 46115
-Helper: 46117
-Helper: 46118
-Helper: 46119
-Helper: 46120
-Helper: 46121
-Helper: 46122
-Helper: 46123
 Helper: 46124
+Helper: 46123
+Helper: 46122
+Helper: 46121
+Helper: 46120
+Helper: 46119
+Helper: 46118
+Helper: 46117
+Helper: 46115
+Helper: 46114
+Helper: 46112
+Helper: 46111
+Helper: 46110
+Helper: 46108
+Helper: 46107
+Helper: 46106
+Helper: 46103
+Helper: 46102
+Helper: 46101
 E
-T 46114
 #46117
 дух огня огненный~
 дух огня~
@@ -1076,10 +1096,10 @@ T 46114
 ~
 d0f0g0l0m0n0o0q0r0y0z0a2 d0f0k0n0x0A0D0y1 -600 E
 40 0 -5 5d10+3400 17d12+14
-0d0+0 170000
+0d0+0 340000
 8 8 1
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
 BareHandAttack: 2
 Str: 22
 Dex: 30
@@ -1092,6 +1112,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 165
 Weight: 77
 Special_Bitvector: l0x0c1C3 
@@ -1135,10 +1156,10 @@ T 46115
 ~
 d0f0g0l0m0n0o0q0r0y0z0a2 d0f0k0n0x0A0D0y1 -600 E
 40 0 -5 5d10+3400 17d12+14
-0d0+0 170000
+0d0+0 340000
 8 8 1
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
 BareHandAttack: 2
 Str: 22
 Dex: 30
@@ -1151,6 +1172,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 165
 Weight: 77
 Special_Bitvector: l0x0c1C3 
@@ -1194,7 +1216,7 @@ T 46116
 ~
 d0f0g0l0m0n0o0q0r0y0z0a2 d0f0k0n0x0A0D0y1 -600 E
 40 0 -5 5d10+3400 17d12+14
-0d0+0 170000
+0d0+0 340000
 8 8 1
 Saves: -50 0 0 0
 BareHandAttack: 2
@@ -1209,6 +1231,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 165
 Weight: 77
 Special_Bitvector: l0x0c1C3 
@@ -1252,10 +1275,10 @@ T 46117
 ~
 d0f0g0l0m0n0o0q0r0y0z0a2 d0f0k0n0x0A0D0y1 -600 E
 40 0 -5 5d10+3400 17d12+14
-0d0+0 170000
+0d0+0 340000
 8 8 1
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
 BareHandAttack: 2
 Str: 22
 Dex: 30
@@ -1268,6 +1291,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 165
 Weight: 77
 Special_Bitvector: l0x0c1C3 
@@ -1298,23 +1322,24 @@ Spell: 93
 E
 T 46118
 #46121
-огненная тварь~
-огненная тварь~
-огненной твари~
-огненной твари~
-огненную тварь~
-огненной тварью~
-огненной твари~
+огненный пес~
+огненный пес~
+огненного пса~
+огненному псу~
+огненного пса~
+огненным псом~
+огненном псе~
 Ужасное создание, охваченное ярким огнем, так и норовит поджарить вас!
 ~
-   Тварь огненная!
+   Пес огненный!
 ~
 d0f0g0l0m0n0o0y0a2 d0f0h0k0m0n0r0y1 -600 E
 37 0 -4 5d10+2900 14d15+13
-0d0+0 170000
-8 8 2
+0d0+0 340000
+8 8 1
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
+BareHandAttack: 4
 Str: 29
 Dex: 26
 Int: 25
@@ -1326,6 +1351,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 114
 Height: 122
 Weight: 50
 Special_Bitvector: m0x0c1C3 
@@ -1372,23 +1398,24 @@ Spell: 130
 E
 T 46119
 #46122
-огненная тварь~
-огненная тварь~
-огненной твари~
-огненной твари~
-огненную тварь~
-огненной тварью~
-огненной твари~
+огненный пес~
+огненный пес~
+огненного пса~
+огненному псу~
+огненного пса~
+огненным псом~
+огненном псе~
 Ужасное создание, охваченное ярким огнем, так и норовит поджарить вас!
 ~
-   Тварь огненная!
+   Пес огненный!
 ~
 d0f0g0l0m0n0o0y0a2 d0f0h0k0m0n0r0y1 -600 E
 37 0 -4 5d10+2900 14d15+13
-0d0+0 170000
-8 8 2
+0d0+0 340000
+8 8 1
 Saves: -50 0 0 0
-Resistances: 0 0 0 0 0 200 0
+Resistances: 50 0 -50 0 0 200 0
+BareHandAttack: 4
 Str: 29
 Dex: 26
 Int: 25
@@ -1400,6 +1427,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 114
 Height: 122
 Weight: 50
 Special_Bitvector: m0x0c1C3 
@@ -1446,21 +1474,22 @@ Spell: 130
 E
 T 46120
 #46123
-огненная тварь~
-огненная тварь~
-огненной твари~
-огненной твари~
-огненную тварь~
-огненной тварью~
-огненной твари~
+огненный пес~
+огненный пес~
+огненного пса~
+огненному псу~
+огненного пса~
+огненным псом~
+огненном псе~
 Ужасное создание, охваченное ярким огнем, так и норовит поджарить вас!
 ~
-   Тварь огненная!
+   Пес огненный!
 ~
 d0f0g0l0m0n0o0y0a2 d0f0h0k0m0n0r0y1 -600 E
 37 0 -4 5d10+2900 14d15+13
-0d0+0 170000
-8 8 2
+0d0+0 340000
+8 8 1
+BareHandAttack: 4
 Str: 29
 Dex: 26
 Int: 25
@@ -1472,6 +1501,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 114
 Height: 122
 Weight: 50
 Special_Bitvector: m0x0c1C3 
@@ -1518,21 +1548,22 @@ Spell: 130
 E
 T 46121
 #46124
-огненная тварь~
-огненная тварь~
-огненной твари~
-огненной твари~
-огненную тварь~
-огненной тварью~
-огненной твари~
+огненный пес~
+огненный пес~
+огненного пса~
+огненному псу~
+огненного пса~
+огненным псом~
+огненном псе~
 Ужасное создание, охваченное ярким огнем, так и норовит поджарить вас!
 ~
-   Тварь огненная!
+   Пес огненный!
 ~
 d0f0g0l0m0n0o0y0a2 d0f0h0k0m0n0r0y1 -600 E
 37 0 -4 5d10+2900 14d15+13
-0d0+0 170000
-8 8 2
+0d0+0 340000
+8 8 1
+BareHandAttack: 4
 Str: 29
 Dex: 26
 Int: 25
@@ -1544,6 +1575,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 114
 Height: 122
 Weight: 50
 Special_Bitvector: m0x0c1C3 

@@ -80,6 +80,7 @@ if %arg.contains(юг)%
     end
     юг
   else
+    mecho Мяч отскочил от стенки.
     %actor.wait(4)%
     север
   end
@@ -90,6 +91,7 @@ elseif %arg.contains(север)%
     end
     север
   else
+    mecho Мяч отскочил от стенки.
     %actor.wait(4)%
     юг
   end
@@ -100,6 +102,7 @@ elseif %arg.contains(запад)%
     end
     запад
   else
+    mecho Мяч отскочил от стенки.
     %actor.wait(4)%
     восток
   end
@@ -110,6 +113,7 @@ elseif %arg.contains(восток)%
     end
     восток
   else
+    mecho Мяч отскочил от стенки.
     %actor.wait(4)%
     запад
   end
@@ -124,6 +128,7 @@ elseif %arg.contains(вверх)%
   if %sockerroom1.up%
     вверх
   else
+    mecho Мяч отскочил от стенки.
     %actor.wait(4)%
     вниз
   end
@@ -147,8 +152,8 @@ global sockergate1id
 remote sockergate1id %actor.id%
 exec 58305 %actor.id%
 wait 2
-кричать &W%sockerpinalter1name% забивает %sockergoal1counter% гол в ворота команды '&K%sockercommand1name%&W'!&n
-*болтать &W%sockerpinalter1name% забивает %sockergoal1counter% гол в ворота команды '&K%sockercommand1name%&W'!&y
+*кричать &W%sockerpinalter1name% забивает %sockergoal1counter% гол в ворота команды '&K%sockercommand1name%&W'!&n
+болтать &W%sockerpinalter1name% забивает %sockergoal1counter% гол в ворота команды '&K%sockercommand1name%&W'!&n
 mpurge %actor%
 if %ballloadroom%
   set ballbackroom %self.realroom%
@@ -218,7 +223,7 @@ end
 ~
 wait 1
 if %actor.vnum% == -1
-  tell %actor.name% За 500 кун Вы можете приобрести у меня &Wк&Kр&Wу&Kг&Wл&Kы&Wй &Kм&Wя&Kч&C!
+  tell %actor.name% За 15000 кун Вы можете приобрести у меня &Wк&Kр&Wу&Kг&Wл&Kы&Wй &Kм&Wя&Kч&C!&n
 end
 ~
 #58308
@@ -227,7 +232,7 @@ end
 ~
 wait 1
 if %world.curmobs(58300)% < 25
-  if %amount% < 500
+  if %amount% < 15000
     tell %actor.name% Мало, мяч стоит 500 кун, а ты сколько даешь? Всего %amount%!
     tell %actor.name% А деньги назад не отдам - это твои проблемы, что счету не обучен%actor.g%.
   else

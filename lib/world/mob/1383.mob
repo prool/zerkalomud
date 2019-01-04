@@ -10,28 +10,28 @@
 ~
 Вы видите везучего монгольского пастуха.
 ~
-l0A0r2c0s2 p0A0 -600 E
-15 6 +10 10d10+300 3d5+5 
+c0d0l0A0r2s2 p0A0 -600 E
+15 6 10 10d10+300 3d5+5
 2d2+0 35000
 8 8 1
 CastSuccess: 30
-BareHandAttack:  2
+BareHandAttack: 2
 Str: 18
+Dex: 14
 Int: 12
 Wis: 15
-Dex: 14
 Con: 15
 Cha: 22
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 130
-Special_Bitvector: b1c1
-Skill: 134 20
+Special_Bitvector: b1c1 
 Skill: 1 5
+Skill: 134 20
 Skill: 136 80
 Helper: 138300
 E
@@ -52,31 +52,30 @@ I кожа,5:1
 ~
 Вы видите поганого печенежского лазутчика.
 ~
-l0A0r2c0s2 0 -600 E
-18 1 +1 10d15+350 5d4+9 
+c0d0l0A0r2s2 0 -600 E
+18 1 1 10d15+350 5d4+9
 2d2+5 22000
 8 8 1
 CastSuccess: 36
 BareHandAttack: 11
 Str: 17
-Int: 12
-Wis: 11
 Dex: 26
+Int: 12
 Con: 16
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 120
 Weight: 110
-Special_Bitvector: a1b1c1
-Skill: 147 30
-Skill: 139 5
-Skill: 160 20
+Special_Bitvector: a1b1c1 
 Skill: 136 80
+Skill: 139 5
+Skill: 147 30
 Skill: 157 25
+Skill: 160 20
 E
 T 138301
 I глаза,5:2
@@ -95,31 +94,29 @@ I кожа,5:2
 ~
 Вы видите удачливого хазарского купца.
 ~
-l0A0r2c0s2 A0 -600 E
-17 3 +10 10d10+400 4d4+9 
+c0d0l0A0r2s2 A0 -600 E
+17 3 10 10d10+400 4d4+9
 10d10+20 35000
 8 8 1
 CastSuccess: 34
-BareHandAttack:  0
 Str: 16
+Dex: 17
 Int: 20
 Wis: 20
-Dex: 17
 Con: 16
 Cha: 31
-LikeWork: 30
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 30
+Class: 102
+Race: 101
 Height: 150
 Weight: 150
-Special_Bitvector: a1b1c1
+Special_Bitvector: a1b1c1 
+Skill: 20 20
 Skill: 130 15
 Skill: 134 25
-Skill: 139 5
-Skill: 20 20
 Skill: 136 80
+Skill: 139 5
 E
 T 138301
 I глаза,5:3
@@ -138,33 +135,31 @@ I кожа,5:5
 ~
 Вы видите витязя.
 ~
-l0A0c0 0 -600 E
-20 2 +5 10d10+450 5d5+10 
+c0d0l0A0 0 -600 E
+20 2 5 10d10+450 5d5+10
 5d5+0 30000
 8 8 1
 CastSuccess: 40
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 22
-Int: 11
-Wis: 11
 Dex: 18
 Con: 22
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 50
+Race: 104
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 21 20
-Skill: 142 40
-Skill: 137 10
 Skill: 136 80
-Skill: 151 30
+Skill: 137 10
+Skill: 142 40
 Skill: 148 40
 Skill: 150 10
+Skill: 151 30
 E
 T 138301
 I глаза,5:5
@@ -182,25 +177,24 @@ I кожа,1:2
 Могильник несет в когтях какую-то падаль.
 ~
 Вы видите могильника.~
-h0 x0 -600 E
-4 10 +9 1d10+40 4d3+0 
+d0h0 x0 -600 E
+4 10 9 1d10+40 4d3+0
 0d0+0 2000
 8 8 1
 BareHandAttack: 15
 Str: 6
+Dex: 7
 Int: 6
 Wis: 6
-Dex: 7
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,2:9
@@ -218,25 +212,24 @@ I крылья,1:5
 Сурок что-то вертит в лапках.
 ~
 Вы видите сурка.~
-l1n1m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0l1m1n1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,1:6
@@ -255,25 +248,24 @@ I кожа,2:5
 Уж свернулся кольцом.
 ~
 Вы видите ужа.~
-t1l1q0m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0q0l1m1t1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 105
 Height: 5
 Weight: 10
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 136 60
 E
 I глаза,1:8
@@ -290,25 +282,24 @@ I кожа,1:6
 Овсянка пролетает мимо.
 ~
 Вы видите овсянку.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,1:8
@@ -325,25 +316,24 @@ I крылья,3:9
 Дрофа стоит тут.
 ~
 Вы видите дрофу.~
-h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 2
 BareHandAttack: 15
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 25
 Weight: 20
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 60
 E
 I глаза,5:8
@@ -361,29 +351,27 @@ I крылья,1:8
 Овсянка пролетает мимо.
 ~
 Вы видите овсянку.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,3:6
 I кости,4:6
 I крылья,3:7
-$
 $

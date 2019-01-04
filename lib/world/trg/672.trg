@@ -120,7 +120,9 @@ detach 67206 %self.id%
 сдохла змеюка~
 0 f 100
 ~
-if %world.curobjs(67207)% == 0
+if %world.curobjs(67209)% == 0
+  mload obj 67209
+  брос голов
   mload obj 67207
 end
 ~
@@ -136,7 +138,9 @@ end
 сдохла горушка~
 0 f 100
 ~
-if %world.curobjs(67217)% == 0
+if %world.curobjs(67210)% == 0
+  mload obj 67210
+  брос лужиц
   mload obj 67217
 end
 ~
@@ -405,7 +409,7 @@ switch %random.6%
   done
 break
 case 4
-  mecho Матюша-богатырь взманул руками, разминаясь
+  mecho Матюша-богатырь взмахнул руками, разминаясь
 break
 default
 break
@@ -506,5 +510,23 @@ if (%world.curmobs(67203)% < 5)
   wecho Львюка поедучая выскочила из темноты леса.
   wload mob 67203
 end
+~
+#67228
+пуржим квест стаф с орла~
+0 f 100
+~
+mjunk all
+~
+#67229
+убираем триг с львюк~
+0 z 100
+~
+detach 67208 %self.id%
+~
+#67230
+убираем триг с горушек~
+0 z 100
+~
+detach 67209 %self.id%
 ~
 $~

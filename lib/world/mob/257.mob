@@ -11,7 +11,7 @@
 Древний Чародей.
 ~
 c0d0g0l0n0o0p0q0r0t0u0x0B0o1c2f2g2h2i2 d0f0k0x0z0A0a1t1w1x1y1z1 0 E
-50 7 -7 150d150+9999 30d30+100
+12 7 -7 150d150+9999 30d30+100
 0d100+0 10000
 8 8 1
 Destination: 25761
@@ -28,6 +28,7 @@ LikeWork: 75
 MaxFactor: 1
 ExtraAttack: 5
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: m3 
@@ -69,7 +70,7 @@ T 25701
 Сильный воин.
 ~
 d0e0g0m0p0r0 c0d0f0r0x0z0A0 0 E
-25 5 -2 10d30+2000 9d2+30
+29 5 -2 10d30+2000 9d2+30
 50d10+50 250000
 8 8 1
 Str: 27
@@ -83,6 +84,7 @@ LikeWork: 13
 MaxFactor: 30
 ExtraAttack: 2
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a1b1c1m3 
@@ -119,7 +121,7 @@ T 25719
 Колдун с огоньком в глазах.
 ~
 b0c0d0e0g0l0m0n0o1 d0r0n1o1p1q1r1 0 E
-35 7 -5 10d30+2500 15d5+10
+29 7 -5 10d30+2500 15d5+10
 0d50+0 200000
 8 8 1
 Str: 13
@@ -132,6 +134,7 @@ Size: 100
 LikeWork: 15
 MaxFactor: 15
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1m3B3C3 
@@ -167,7 +170,7 @@ T 25716
 Опасный мужик.
 ~
 d0e0l0m0n0o0p0q0a1i2 g0k0m0n0r0x0z0A0C0a1k1m1t1 0 E
-25 10 -3 30d15+2200 10d3+19
+28 10 -3 30d15+2200 10d3+19
 0d3+0 180000
 8 8 1
 Str: 27
@@ -181,6 +184,7 @@ LikeWork: 50
 MaxFactor: 50
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 110
 Special_Bitvector: l0y0b1c1d1m3 
@@ -210,7 +214,7 @@ E
 Очень хороший кузнец.
 ~
 b0c0d0l0m0n0i2 d0h0k0r0 0 E
-37 3 -5 10d10+3700 30d3+10
+29 3 -5 10d10+3700 30d3+10
 20d20+200 250000
 8 8 1
 Str: 27
@@ -224,6 +228,7 @@ LikeWork: 50
 MaxFactor: 17
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: m3B3C3 
@@ -251,7 +256,7 @@ T 25721
 Очень хороший скорняк.
 ~
 b0d0l0m0t0i2 d0h0k0m1z1 0 E
-37 3 -3 10d10+3700 30d3+10
+29 3 -3 10d10+3700 30d3+10
 0d2+0 250000
 8 8 1
 Str: 27
@@ -265,6 +270,7 @@ LikeWork: 80
 MaxFactor: 17
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: B3C3 
@@ -289,7 +295,7 @@ E
 T 25721
 #25706
 чародей наемник~
-чародей ~
+чародей~
 чародея~
 чародею~
 чародея~
@@ -313,6 +319,7 @@ Size: 100
 LikeWork: 90
 MaxFactor: 30
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -360,7 +367,7 @@ E
 Внимательный воин.
 ~
 b0c0d0e0l0m0n0i2 r0x0z0C0t1 0 E
-28 3 3 10d10+1100 19d3+20
+1 3 3 10d10+1100 19d3+20
 0d0+0 1
 8 8 1
 Str: 28
@@ -374,6 +381,7 @@ LikeWork: 65
 MaxFactor: 15
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1m3C3 
@@ -418,6 +426,7 @@ LikeWork: 35
 MaxFactor: 17
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: l0C3 
@@ -457,9 +466,10 @@ E
 Воин, умеющий делать превосходные блюда.
 ~
 b0c0d0n0o0i2 x0z0t1 0 E
-25 10 -5 10d30+3700 50d1+10
+31 10 -5 10d30+3700 50d1+10
 30d10+4 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 27
 Dex: 21
 Int: 17
@@ -471,6 +481,7 @@ LikeWork: 15
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1m3C3 
@@ -496,7 +507,7 @@ E
 Мрачный воин.
 ~
 d0l0m0n0i2 z0C0u1 0 E
-27 3 -3 20d50+2500 19d4+20
+29 3 -3 20d50+2500 19d4+20
 33d20+3 210000
 8 8 1
 Str: 27
@@ -510,6 +521,7 @@ LikeWork: 80
 MaxFactor: 10
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1m3 
@@ -556,7 +568,7 @@ T 25719
 Могучий воин.
 ~
 d0l0m0 h0r0x0z0A0j1 0 E
-27 7 -2 33d10+1800 10d10+20
+28 7 -2 33d10+1800 10d10+20
 0d0+0 180000
 8 8 1
 Str: 34
@@ -570,6 +582,7 @@ LikeWork: 90
 MaxFactor: 30
 ExtraAttack: 2
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0a1b1c1 
@@ -606,9 +619,10 @@ T 25719
 Яростный воин.
 ~
 d0l0m0 h0r0x0z0A0j1 0 E
-27 7 -2 33d10+2300 10d10+20
+31 7 -2 33d10+2300 10d10+20
 50d5+100 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 34
 Dex: 17
 Int: 17
@@ -620,6 +634,7 @@ LikeWork: 90
 MaxFactor: 30
 ExtraAttack: 2
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a1b1c1 
@@ -657,7 +672,7 @@ T 25719
 Опытный чародей.
 ~
 b0c0d0e0l0m0 d0h0r0 600 E
-25 1 1 10d10+1999 10d9+21
+27 1 1 10d10+1999 10d9+21
 0d0+0 140000
 6 6 1
 Str: 17
@@ -671,6 +686,7 @@ LikeWork: 15
 MaxFactor: 7
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: m3B3C3 
@@ -699,7 +715,7 @@ T 25706
 Опытнее чародея вряд ли встретишь.
 ~
 b0c0d0e0l0m0 d0r0u1 -600 E
-7 1 1 10d10+1999 10d10+19
+27 1 1 10d10+1999 10d10+19
 0d0+100 140000
 6 6 1
 Str: 17
@@ -713,6 +729,7 @@ LikeWork: 80
 MaxFactor: 7
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: m3B3C3 
@@ -747,7 +764,7 @@ T 25707
 Чешуйчатый клубок яда.
 ~
 b0d0f0g0m0x0p1i2 r0s0x0z0A0j1 -600 E
-20 -2 0 33d10+1300 12d9+20
+27 -2 0 33d10+1300 12d9+20
 0d0+0 120000
 6 6 2
 BareHandAttack: 4
@@ -762,6 +779,7 @@ LikeWork: 75
 MaxFactor: 30
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: j0a1o3B3 
@@ -785,7 +803,7 @@ E
 Опаснейший воин.
 ~
 b0c0d0e0f0g0l0m0n0x0y0z0p1a2g2i2 b0d0k0x0C0a1p1y1 -600 E
-27 3 2 10d10+2700 4d14+18
+30 3 2 10d10+2700 4d14+18
 10d10+50 300000
 8 8 1
 CastSuccess: 60
@@ -802,6 +820,7 @@ LikeWork: 80
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: x0m3 
@@ -843,7 +862,7 @@ E
 Опаснейший воин.
 ~
 b0c0d0e0f0g0l0m0n0x0y0z0c2g2i2 b0d0k0x0C0a1o1x1 -600 E
-20 3 2 10d10+2700 3d3+3
+30 3 2 10d10+2700 3d3+3
 10d10+50 300000
 8 8 1
 CastSuccess: 60
@@ -860,6 +879,7 @@ LikeWork: 78
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: u0m3C3 
@@ -892,7 +912,7 @@ E
 Опаснейший воин.
 ~
 b0c0d0e0f0g0l0m0n0x0y0z0p1g2i2 b0d0k0x0C0a1r1t1 -600 E
-20 3 2 10d10+2700 10d5+18
+28 3 2 10d10+2700 10d5+18
 10d10+50 150000
 8 8 1
 CastSuccess: 60
@@ -909,6 +929,7 @@ LikeWork: 10
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: w0m3 
@@ -944,7 +965,7 @@ E
 Опаснейший воин.
 ~
 b0c0d0e0f0g0l0m0n0x0y0z0p1d2g2i2 b0d0k0x0C0a1q1 -600 E
-20 3 2 10d10+2700 5d8+18
+30 3 2 10d10+2700 5d8+18
 10d10+50 300000
 8 8 1
 CastSuccess: 60
@@ -961,6 +982,7 @@ LikeWork: 80
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: v0m3C3 
@@ -1001,7 +1023,7 @@ E
 Создание темной магии.
 ~
 c0d0e0g0l0m0n0y0z0p1g2i2 k0x0A0C0b1m1w1 -600 E
-20 3 2 10d10+2000 5d12+22
+28 3 2 10d10+2000 5d12+22
 10d10+50 160000
 8 8 1
 BareHandAttack: 4
@@ -1016,6 +1038,7 @@ LikeWork: 95
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1037,7 +1060,7 @@ T 25724
 Создание темной магии.
 ~
 b0c0d0e0f0g0l0m0n0x0y0z0b2g2i2 b0h0j0k0m0n0t0x0z0C0a1l1w1 -600 E
-20 3 2 10d10+2000 7d10+22
+29 3 2 10d10+2000 7d10+22
 10d10+50 250000
 8 8 1
 BareHandAttack: 8
@@ -1051,6 +1074,7 @@ Size: 100
 LikeWork: 80
 MaxFactor: 7
 Class: 100
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: v0 
@@ -1091,9 +1115,10 @@ E
 Страшнее мага вряд ли встретишь.
 ~
 b0c0d0e0f0g0l0m0n0x0y0z0g2i2 d0f0h0j0k0m0n0x0z0A0C0a1l1t1w1x1z1 -600 E
-27 0 0 10d70+5500 5d11+20
+33 0 0 10d70+5500 5d11+20
 5d30+40 600000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 8
 Str: 22
 Dex: 14
@@ -1106,6 +1131,7 @@ LikeWork: 80
 MaxFactor: 10
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1m3C3 
@@ -1159,7 +1185,7 @@ E
 Опаснейшее создание.
 ~
 b0c0d0e0f0n0x0p1i2 d0k0z0A0C0t1 0 E
-25 0 0 10d50+1900 4d7+10
+26 0 0 10d50+1900 4d7+10
 0d0+0 110000
 8 8 1
 BareHandAttack: 4
@@ -1174,6 +1200,7 @@ LikeWork: 70
 MaxFactor: 10
 ExtraAttack: 3
 Class: 100
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: g0c1 
@@ -1203,7 +1230,7 @@ E
 Опаснейшее создание.
 ~
 b0c0d0e0m0n0x0i2 z0A0C0t1 0 E
-25 -4 0 10d50+1900 4d7+12
+26 -4 0 10d50+1900 4d7+12
 0d0+0 110000
 8 8 2
 BareHandAttack: 4
@@ -1218,6 +1245,7 @@ LikeWork: 15
 MaxFactor: 10
 ExtraAttack: 3
 Class: 100
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: c1 
@@ -1247,9 +1275,10 @@ E
 Огромное существо с нечеловеческой силой.
 ~
 b0c0d0f0g0l0m0n0o0t0x0i2u2 c0d0e0f0A0t1 -400 E
-27 -9 3 30d100+11000 12d14+25
+40 -9 3 30d100+11000 12d14+25
 100d20+500 2800000
 5 5 1
+Saves: -46 -46 -46 -46
 Resistances: 0 0 0 0 80 0 50
 CastSuccess: 50
 Str: 36
@@ -1262,6 +1291,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 3
 Class: 105
+Race: 105
 Height: 200
 Weight: 150
 Special_Bitvector: m3 
@@ -1330,7 +1360,7 @@ T 25729
 Унылое создание.
 ~
 b0d0 0 0 E
-8 0 0 10d10+700 3d4+3
+1 0 0 10d10+700 3d4+3
 0d0+10 1
 8 8 2
 Str: 10
@@ -1342,6 +1372,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 2
 Class: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1374,6 +1405,7 @@ LikeWork: 15
 MaxFactor: 7
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1408,7 +1440,7 @@ T 25713
 Убийца, забирающий чужие жизни.
 ~
 c0d0f0l0m0n0o0 d0r0z0m1 0 E
-30 7 -3 10d50+2500 12d5+10
+29 7 -3 10d50+2500 12d5+10
 50d3+100 200000
 8 8 1
 Str: 23
@@ -1421,7 +1453,8 @@ Size: 100
 LikeWork: 35
 MaxFactor: 17
 ExtraAttack: 2
-Class: 105
+Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1447,9 +1480,10 @@ T 25728
 Ужасное существо не поддающееся описанию.
 ~
 b0c0d0e0f0g0l0m0n0x0y0z0p1g2i2 d0f0h0k0m0n0x0z0A0C0a1x1z1 -600 E
-27 5 7 10d80+8500 7d7+20
+39 5 7 10d80+8500 7d7+20
 4d30+50 2000000
 8 8 1
+Saves: -42 -42 -42 -42
 CastSuccess: 100
 Initiative: 10
 AResist: 30
@@ -1465,6 +1499,7 @@ LikeWork: 90
 MaxFactor: 10
 ExtraAttack: 1
 Class: 105
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1m3C3 
@@ -1540,7 +1575,7 @@ T 25715
 Человек с ужасными манерами.
 ~
 b0c0d0e0g0l0m0n0 d0r0 0 E
-27 7 -5 10d30+2500 15d5+10
+30 7 -5 10d30+2500 15d5+10
 0d0+500 300000
 8 8 1
 Str: 13
@@ -1553,6 +1588,7 @@ Size: 100
 LikeWork: 15
 MaxFactor: 15
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0e0f0b1c1m3B3C3 
@@ -1601,7 +1637,7 @@ E
 Создание темной магии.
 ~
 c0d0e0f0g0l0m0n0o0y0z0A0g2i2 d0k0C0b1w1 -600 E
-20 -3 2 10d10+2000 8d12+22
+28 -3 2 10d10+2000 8d12+22
 10d10+50 180000
 8 8 1
 CastSuccess: 40
@@ -1617,6 +1653,7 @@ LikeWork: 95
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

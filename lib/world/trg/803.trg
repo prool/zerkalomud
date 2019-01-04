@@ -185,7 +185,7 @@ else
   wait 1s
   г А ты кто так%actor.w%?
   г Ах да! Я ждал тебя %actor.iname%...
-  г Мои шпиона доложили, что тебя наняли достать мои планы!
+  г Мои шпионы доложили, что тебя наняли достать мои планы!
   г Но не думай, что ты прош%actor.y% сюда просто так...
   г По моему приказу тебя пропустили.
   думать %actor.iname%
@@ -244,11 +244,19 @@ if (%quest803.name% == %actor.name%)
     if (%give_item% == 1) && (%world.curobjs(80316)% < 10)
       mload obj 80316               
       дать лук %quest803.name%
+      calcuid form_mb 80312 mob
+      detach 80305 %form_mb.id%
+      detach 80307 %form_mb.id%
+      detach 80308 %form_mb.id%
       halt
     end
     if (%give_item% == 2) && (%world.curobjs(80317)% < 10)
       mload obj 80317 
       дать копье %quest803.name%
+      calcuid form_mb 80312 mob
+      detach 80305 %form_mb.id%
+      detach 80307 %form_mb.id%
+      detach 80308 %form_mb.id%
       halt
     end
     mload obj 80320

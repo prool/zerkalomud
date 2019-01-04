@@ -32,7 +32,7 @@ mpurge %object%
 say я так и знал что ты мне поможешь
 say прими это в награду от меня
 %self.gold(+2000)%
-д 2000 кун %actor%
+дать 2000 кун %actor.name%
 eval skl %actor.remort%*5+80
 set buf %actor.skill(допол)%+10
 if (%buf% <= %skl%)
@@ -86,9 +86,9 @@ reset~
 wdoor 26659 south  purge
 wdoor 26661 north  purge
 calcuid room 26659 room
-attach 26604 room
+attach 26604 %room%
 calcuid room 26663 room
-attach 26603 room
+attach 26603 %room%
 calcuid mob 26602 mob
 attach 26601 %mob.id%
 attach 26600 %mob.id%

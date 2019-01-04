@@ -345,7 +345,7 @@ switch %object.vnum%
         calcuid ca2 70716 obj
         calcuid ca3 70717 obj
         wait 1s
-        mecho %self.name% Внимательно оглядел каплю меда.
+        mecho %self.name% внимательно оглядел каплю меда.
         if (( %ca1.carried_by% == %ca2.carried_by% ) && ( %ca1.carried_by% == %ca3.carried_by% ))
           set i 1
         else
@@ -384,15 +384,15 @@ switch %object.vnum%
     if %random.100% <= 50
       eval stuff 1245+%random.2%
     end
-    if !%world.curobjs(%stuff%)%
+    if ((!%world.curobjs(%stuff%)%) && (%random.1000% <= 80))
       mload obj %stuff%
       дать все %actor.name%
-    elseif ( %random.100% <= 10 )
+    elseif ( %random.100% <= 15 )
       mload obj 579
       say Вот эту шкатулку со словами взял я у одного черного жреца, из тех, что молятся кресту.
       say Мне в ней нет проку - возьми, коли хочешь.
       give книг .%actor.name%
-    elseif %actor.level% > 25
+    elseif %actor.level% > 18
       wait 1s
       msend %actor% За доброе деяние вы получили 300000 очков опыта!
       %actor.exp(+300000)%

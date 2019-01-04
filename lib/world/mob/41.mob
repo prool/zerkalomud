@@ -24,6 +24,7 @@ Con: 9
 Cha: 8
 Size: 3
 Class: 103
+Race: 104
 Height: 25
 Weight: 3
 Special_Bitvector: 0 
@@ -55,6 +56,7 @@ Con: 9
 Cha: 8
 Size: 3
 Class: 103
+Race: 104
 Height: 25
 Weight: 3
 Special_Bitvector: 0 
@@ -86,6 +88,7 @@ Con: 8
 Cha: 8
 Size: 3
 Class: 103
+Race: 105
 Height: 10
 Weight: 2
 Special_Bitvector: 0 
@@ -117,6 +120,7 @@ Con: 8
 Cha: 8
 Size: 3
 Class: 103
+Race: 104
 Height: 25
 Weight: 2
 Special_Bitvector: n0 
@@ -147,6 +151,7 @@ Con: 8
 Cha: 8
 Size: 3
 Class: 103
+Race: 104
 Height: 30
 Weight: 3
 Special_Bitvector: 0 
@@ -179,6 +184,7 @@ Cha: 9
 Size: 3
 MaxFactor: 10
 Class: 103
+Race: 104
 Height: 40
 Weight: 10
 Special_Bitvector: n0 
@@ -211,6 +217,7 @@ Cha: 9
 Size: 3
 MaxFactor: 10
 Class: 103
+Race: 103
 Height: 30
 Weight: 5
 Special_Bitvector: l0 
@@ -243,6 +250,7 @@ Cha: 9
 Size: 3
 MaxFactor: 10
 Class: 103
+Race: 105
 Height: 180
 Weight: 3
 Special_Bitvector: m0 
@@ -275,6 +283,7 @@ Cha: 9
 Size: 3
 MaxFactor: 10
 Class: 103
+Race: 103
 Height: 30
 Weight: 4
 Special_Bitvector: 0 
@@ -307,6 +316,7 @@ Cha: 9
 Size: 3
 MaxFactor: 10
 Class: 103
+Race: 103
 Height: 30
 Weight: 5
 Special_Bitvector: l0 
@@ -338,6 +348,7 @@ Con: 8
 Cha: 8
 Size: 3
 Class: 103
+Race: 104
 Height: 20
 Weight: 4
 Special_Bitvector: 0 
@@ -369,6 +380,7 @@ Con: 3
 Cha: 8
 Size: 4
 Class: 103
+Race: 103
 Height: 30
 Weight: 5
 Special_Bitvector: 0 
@@ -400,6 +412,7 @@ Con: 10
 Cha: 8
 Size: 4
 Class: 103
+Race: 104
 Height: 30
 Weight: 5
 Special_Bitvector: 0 
@@ -432,6 +445,7 @@ Con: 3
 Cha: 8
 Size: 4
 Class: 103
+Race: 104
 Height: 30
 Weight: 5
 Special_Bitvector: l0 
@@ -463,6 +477,7 @@ Con: 3
 Cha: 8
 Size: 4
 Class: 103
+Race: 105
 Height: 140
 Weight: 7
 Special_Bitvector: g0m0 
@@ -494,6 +509,7 @@ Con: 3
 Cha: 8
 Size: 4
 Class: 103
+Race: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -526,6 +542,7 @@ Cha: 8
 Size: 4
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -558,6 +575,7 @@ Cha: 8
 Size: 18
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -588,6 +606,7 @@ Con: 3
 Cha: 8
 Size: 5
 Class: 103
+Race: 104
 Height: 50
 Weight: 10
 Special_Bitvector: 0 
@@ -620,6 +639,7 @@ Cha: 8
 Size: 4
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 5
 Special_Bitvector: 0 
@@ -652,6 +672,7 @@ Cha: 13
 Size: 10
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 30
 Special_Bitvector: 0 
@@ -670,7 +691,7 @@ E
 Небольшая серая степная лиса.
 
 ~
-d0g0 0 0 E
+d0g0f2 0 0 E
 6 15 5 5d3+110 1d2+2
 0d0+0 725
 8 8 1
@@ -684,6 +705,7 @@ Cha: 10
 Size: 8
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 70
 Weight: 11
 Special_Bitvector: 0 
@@ -716,6 +738,7 @@ Cha: 10
 Size: 19
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -749,6 +772,7 @@ Cha: 10
 Size: 5
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -781,6 +805,7 @@ Cha: 10
 Size: 5
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -813,6 +838,7 @@ Cha: 10
 Size: 6
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 70
 Weight: 12
 Special_Bitvector: 0 
@@ -845,6 +871,7 @@ Cha: 10
 Size: 7
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 40
 Special_Bitvector: 0 
@@ -877,6 +904,7 @@ Cha: 10
 Size: 6
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 11
 Special_Bitvector: 0 
@@ -909,6 +937,7 @@ Cha: 10
 Size: 5
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 50
 Weight: 7
 Special_Bitvector: 0 

@@ -15,7 +15,7 @@ b0d0n0o0p0B0 c0d0e0f0h0m0 600 E
 10d10+200 0
 8 8 1
 Str: 20
-Dex: 20
+Dex: 1
 Int: 20
 Wis: 20
 Con: 20
@@ -23,7 +23,8 @@ Cha: 20
 Size: 30
 LikeWork: 90
 ExtraAttack: 1
-Class: 100
+Class: 104
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -54,6 +55,7 @@ Con: 20
 Cha: 20
 Size: 30
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -86,6 +88,7 @@ LikeWork: 50
 MaxFactor: 10
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -106,7 +109,7 @@ T 5005
 Горячо, горячо... То-то у кузнецов бороды покороче, чем у других
 людей. Как ни берегись, волосы курчавеют и трещат.
 ~
-b0d0n0o0p0B0 0 600 E
+b0d0n0o0p0B0u2 0 600 E
 20 8 0 10d10+500 3d3+10
 10d10+30000 0
 8 8 1
@@ -121,6 +124,7 @@ Size: 30
 LikeWork: 70
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -154,6 +158,7 @@ LikeWork: 95
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -191,6 +196,7 @@ Size: 30
 LikeWork: 70
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -221,6 +227,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -238,7 +245,7 @@ E
 ~
 Седой старик лечит только ему известными способами.
 ~
-b0d0n0o0p0B0 0 -600 E
+b0d0n0o0p0B0u2 0 -600 E
 30 5 5 10d10+300 3d3+6
 10d10+9999 0
 8 8 1
@@ -251,6 +258,7 @@ Cha: 35
 Size: 50
 MaxFactor: 10
 Class: 102
+Race: 101
 Height: 180
 Weight: 100
 Special_Bitvector: 0 
@@ -281,6 +289,7 @@ Cha: 25
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -298,7 +307,7 @@ E
 ~
 Крепкий мужик, не дурак выпить.
 ~
-b0d0n0o0p0B0 0 600 E
+b0d0n0o0p0B0u2 0 600 E
 15 5 5 10d10+500 3d3+10
 10d10+200 0
 6 6 1
@@ -311,6 +320,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -329,7 +339,7 @@ E
 Еще молодой, но уже крепкий парень со стрижкой под горшок.
 ~
 d0g0o0p0 0 600 E
-5 20 10 5d5+100 1d3+3
+6 20 10 5d5+100 1d3+3
 1d2+0 2000
 8 8 1
 Str: 15
@@ -339,6 +349,7 @@ Con: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: y0b1 
@@ -356,7 +367,7 @@ E
 ~
 Мужчина с плутоватыми быстрыми глазками. Такой может и надуть.
 ~
-b0d0n0o0p0B0 0 600 E
+b0d0n0o0p0B0u2 0 600 E
 15 10 5 10d10+500 3d3+6
 10d10+100 0
 8 8 1
@@ -369,6 +380,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -386,7 +398,7 @@ E
 ~
 Старый опытный охотник отдыхает на скамье.
 ~
-b0d0g0n0o0p0B0 0 600 E
+b0d0g0n0o0p0B0u2 0 600 E
 10 13 0 10d10+100 1d5+3
 0d0+9999 0
 5 5 1
@@ -399,6 +411,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -431,6 +444,7 @@ Size: 30
 LikeWork: 80
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -463,6 +477,7 @@ Size: 30
 LikeWork: 100
 MaxFactor: 10
 Class: 103
+Race: 104
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -493,6 +508,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -525,6 +541,7 @@ Cha: 10
 Size: 15
 MaxFactor: 10
 Class: 103
+Race: 104
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -558,6 +575,7 @@ Size: 30
 MaxFactor: 10
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -586,6 +604,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -617,6 +636,7 @@ Cha: 15
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -649,6 +669,7 @@ Cha: 5
 Size: 10
 MaxFactor: 10
 Class: 103
+Race: 107
 Height: 180
 Weight: 150
 Special_Bitvector: g0 
@@ -667,7 +688,7 @@ E
 Обычная домовая мышь.
 ~
 b0d0g0n0p0i1 m1 0 E
-4 15 5 1d3+60 4d2+2
+1 15 5 1d3+60 4d2+2
 0d0+0 50
 8 8 2
 BareHandAttack: 4
@@ -680,6 +701,7 @@ Cha: 7
 Size: 10
 MaxFactor: 10
 Class: 103
+Race: 104
 Height: 180
 Weight: 150
 Special_Bitvector: i0 
@@ -697,7 +719,7 @@ E
 ~
 Дородная женщина с командным голосом.
 ~
-b0d0n0o0p0B0 d0e0f0k0 600 E
+b0d0n0o0p0B0u2 d0e0f0k0 600 E
 15 5 5 10d10+500 3d3+10
 10d10+200 0
 6 6 2
@@ -710,6 +732,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -740,6 +763,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -770,6 +794,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -800,6 +825,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 100
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -832,6 +858,8 @@ Cha: 20
 Size: 50
 LikeWork: 45
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 172
 Weight: 150
 Special_Bitvector: 0 
@@ -871,6 +899,8 @@ b0d0n0o0B0 D0 600 E
 Str: 36
 Dex: 36
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -905,6 +935,7 @@ Size: 30
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -941,6 +972,7 @@ Size: 50
 LikeWork: 1
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 168
 Weight: 150
 Special_Bitvector: 0 
@@ -948,4 +980,37 @@ Skill: 4 80
 Skill: 136 90
 E
 T 5015
+#5030
+сказитель~
+сказитель~
+сказителя~
+сказителю~
+сказителя~
+сказителем~
+сказителе~
+Седовласый сказитель готов поделиться с Вами интересной историей.
+~
+Седовласый странник хранит в своей памяти сотни сказаний и былин.
+Можно попросить его рассказать сказку - авось не откажет.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+E
+T 4020
 $

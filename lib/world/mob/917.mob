@@ -8,11 +8,24 @@
 Гамаюн~
 Вещая птица Гамаюн сидит около Алатырь скалы.
 ~
-неопределен~
+На гладях бесконечных вод,
+Закатом в пурпур облеченных,
+Она вещает и поет,
+Не в силах крыл поднять смятенных...
+Вещает иго злых татар,
+Вещает казней ряд кровавых,
+И трус, и голод, и пожар,
+Злодеев силу, гибель правых...
+Предвечным ужасом объят,
+Прекрасный лик горит любовью,
+Но вещей правдою звучат
+Уста, запекшиеся кровью!..
+~
 b0c0d0l0m0n0o0p0t0b1r1 d0f0h0k0x0 0 E
 40 0 -9 0d0+15000 18d9+25
 0d0+0 2400000
 6 6 2
+Saves: -46 -46 -46 -46
 BareHandAttack: 1
 Str: 27
 Dex: 25
@@ -24,6 +37,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 105
+Race: 103
 Height: 30
 Weight: 140
 Special_Bitvector: l0C3 
@@ -99,7 +113,7 @@ I крылья,17:7
 ~
 неопределен~
 d0l0m0o0x0A0 f0k0r0s0 0 E
-31 2 -5 15d15+1500 10d9+50
+28 2 -5 15d15+1500 10d9+50
 0d0+0 150000
 8 8 1
 BareHandAttack: 9
@@ -113,6 +127,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
@@ -126,7 +141,6 @@ Skill: 155 100
 Skill: 157 100
 E
 T 91700
-I кости,15:7
 #91702
 большой черный волк~
 большой черный волк~
@@ -137,12 +151,14 @@ I кости,15:7
 большом черном волке~
 Большой черный волк с голодными глазами бежит, ища добычу.
 ~
-undefined
+Черный волк. Он хозяин этих мест.
+Провинишься - съест!
 ~
 d0f0l0m0n0o0p0x0 d0f0k0A0m1 -600 E
-37 0 -8 0d0+8000 30d9+50
+35 0 -8 0d0+8000 30d9+50
 0d0+0 780000
 8 8 1
+Saves: -26 -26 -26 -26
 BareHandAttack: 4
 Str: 24
 Dex: 29
@@ -154,6 +170,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 130
 Special_Bitvector: p0q1 
@@ -186,7 +203,7 @@ T 91706
 ~
 undefined~
 d0f0g0m0o0p0 d0f0k0 -600 E
-27 3 -5 9d9+400 14d9+10
+25 3 -5 9d9+400 14d9+10
 0d0+0 100000
 8 8 1
 BareHandAttack: 4
@@ -200,11 +217,12 @@ Size: 45
 LikeWork: 35
 ExtraAttack: 2
 Class: 100
+Race: 105
 Height: 30
 Weight: 60
 Special_Bitvector: g0m0B3 
 Skill: 21 70
-Skill: 136 100
+Skill: 136 81
 Spell: 28
 Spell: 28
 Spell: 28
@@ -231,9 +249,7 @@ Spell: 72
 Spell: 72
 Spell: 72
 Helper: 91704
-Skill: 136 81
 E
-I кожа,15:5
 #91704
 ползучий змей~
 ползучий змей~
@@ -246,9 +262,10 @@ I кожа,15:5
 ~
 undefined~
 d0f0g0m0o0p0 d0f0k0 -600 E
-34 1 -8 9d9+3200 19d9+10
+31 1 -8 9d9+3200 19d9+10
 0d0+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 4
 Str: 22
 Dex: 20
@@ -260,11 +277,12 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 105
 Height: 30
 Weight: 140
 Special_Bitvector: m0C3 
 Skill: 22 50
-Skill: 136 100
+Skill: 136 102
 Skill: 137 100
 Skill: 157 100
 Spell: 67
@@ -273,7 +291,6 @@ Spell: 67
 Spell: 67
 Spell: 67
 Helper: 91703
-Skill: 136 102
 E
 T 91707
 #91705
@@ -288,7 +305,7 @@ T 91707
 ~
 undefined~
 d0f0g0m0o0p0 d0f0k0 -600 E
-27 3 -5 9d9+400 14d9+10
+25 3 -5 9d9+400 14d9+10
 0d0+0 100000
 8 8 1
 BareHandAttack: 4
@@ -302,11 +319,12 @@ Size: 45
 LikeWork: 35
 ExtraAttack: 2
 Class: 100
+Race: 105
 Height: 30
 Weight: 60
 Special_Bitvector: g0m0B3 
 Skill: 21 70
-Skill: 136 100
+Skill: 136 81
 Spell: 28
 Spell: 28
 Spell: 28
@@ -333,7 +351,6 @@ Spell: 72
 Spell: 72
 Spell: 72
 Helper: 91706
-Skill: 136 81
 E
 #91706
 ползучий змей~
@@ -347,9 +364,10 @@ E
 ~
 undefined~
 d0f0g0m0o0p0 d0f0k0 -600 E
-34 1 -8 9d9+3200 19d9+10
+31 1 -8 9d9+3200 19d9+10
 0d0+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 4
 Str: 22
 Dex: 20
@@ -361,11 +379,12 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 105
 Height: 30
 Weight: 140
 Special_Bitvector: m0C3 
 Skill: 22 50
-Skill: 136 100
+Skill: 136 102
 Skill: 137 100
 Skill: 157 100
 Spell: 67
@@ -374,7 +393,6 @@ Spell: 67
 Spell: 67
 Spell: 67
 Helper: 91705
-Skill: 136 102
 E
 T 91707
 #91707
@@ -389,7 +407,7 @@ T 91707
 ~
 undefined~
 d0f0g0m0o0p0 d0f0k0 -600 E
-27 3 -5 9d9+400 14d9+10
+25 3 -5 9d9+400 14d9+10
 0d0+0 100000
 8 8 1
 BareHandAttack: 4
@@ -403,11 +421,12 @@ Size: 45
 LikeWork: 35
 ExtraAttack: 2
 Class: 100
+Race: 105
 Height: 30
 Weight: 60
 Special_Bitvector: g0m0B3 
 Skill: 21 70
-Skill: 136 100
+Skill: 136 81
 Spell: 28
 Spell: 28
 Spell: 28
@@ -434,7 +453,6 @@ Spell: 72
 Spell: 72
 Spell: 72
 Helper: 91708
-Skill: 136 81
 E
 #91708
 ползучий змей~
@@ -448,9 +466,10 @@ E
 ~
 undefined~
 d0f0g0m0o0p0 d0f0k0 -600 E
-34 1 -8 9d9+3200 19d9+10
+31 1 -8 9d9+3200 19d9+10
 0d0+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 4
 Str: 22
 Dex: 20
@@ -462,11 +481,12 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 105
 Height: 30
 Weight: 140
 Special_Bitvector: m0C3 
 Skill: 22 50
-Skill: 136 100
+Skill: 136 102
 Skill: 137 100
 Skill: 157 100
 Spell: 67
@@ -475,7 +495,6 @@ Spell: 67
 Spell: 67
 Spell: 67
 Helper: 91707
-Skill: 136 102
 E
 T 91707
 I чешуя,15:5
@@ -505,10 +524,11 @@ Size: 45
 LikeWork: 40
 ExtraAttack: 2
 Class: 100
+Race: 105
 Height: 198
 Weight: 60
 Special_Bitvector: m0 
-Skill: 136 100
+Skill: 136 84
 Spell: 28
 Spell: 28
 Spell: 28
@@ -535,7 +555,6 @@ Spell: 55
 Spell: 55
 Spell: 55
 Helper: 91710
-Skill: 136 84
 E
 #91710
 василиск~
@@ -549,9 +568,10 @@ E
 ~
 undefined~
 d0f0g0m0o0p0 d0f0k0 -600 E
-35 1 -8 9d9+3000 17d9+10
+33 1 -8 9d9+3000 17d9+10
 0d0+0 550000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 4
 Str: 23
 Dex: 24
@@ -563,17 +583,17 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 105
 Height: 30
 Weight: 140
 Special_Bitvector: m0C3 
 Skill: 22 50
-Skill: 136 100
+Skill: 136 105
 Skill: 137 100
 Skill: 157 100
 Spell: 56
 Spell: 56
 Helper: 91709
-Skill: 136 105
 E
 T 91709
 #91711
@@ -602,10 +622,11 @@ Size: 45
 LikeWork: 40
 ExtraAttack: 2
 Class: 100
+Race: 105
 Height: 198
 Weight: 60
 Special_Bitvector: m0 
-Skill: 136 100
+Skill: 136 84
 Spell: 28
 Spell: 28
 Spell: 28
@@ -632,7 +653,6 @@ Spell: 55
 Spell: 55
 Spell: 55
 Helper: 91712
-Skill: 136 84
 E
 #91712
 василиск~
@@ -646,9 +666,10 @@ E
 ~
 undefined~
 d0f0g0m0o0p0 d0f0k0 -600 E
-35 1 -8 9d9+3000 17d9+10
+33 1 -8 9d9+3000 17d9+10
 0d0+0 550000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 4
 Str: 23
 Dex: 24
@@ -660,17 +681,17 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 105
 Height: 30
 Weight: 140
 Special_Bitvector: m0C3 
 Skill: 22 50
-Skill: 136 100
+Skill: 136 105
 Skill: 137 100
 Skill: 157 100
 Spell: 56
 Spell: 56
 Helper: 91711
-Skill: 136 105
 E
 T 91709
 #91713
@@ -685,7 +706,7 @@ T 91709
 ~
 undefined~
 d0f0g0m0o0p0 d0f0k0x0 -600 E
-29 2 -6 9d9+500 9d14+10
+28 2 -6 9d9+500 9d14+10
 0d0+0 180000
 8 8 1
 BareHandAttack: 8
@@ -699,10 +720,11 @@ Size: 45
 LikeWork: 30
 ExtraAttack: 3
 Class: 100
+Race: 103
 Height: 198
 Weight: 60
 Special_Bitvector: l0 
-Skill: 136 100
+Skill: 136 87
 Spell: 6
 Spell: 6
 Spell: 6
@@ -729,7 +751,6 @@ Spell: 28
 Spell: 28
 Spell: 28
 Helper: 91714
-Skill: 136 87
 E
 #91714
 белый грифон~
@@ -743,9 +764,10 @@ E
 ~
 undefined~
 d0f0g0m0o0p0 d0f0k0 -600 E
-36 1 -8 9d9+2900 16d9+7
+34 1 -8 9d9+2900 16d9+7
 0d0+0 680000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 1
 Str: 24
 Dex: 24
@@ -757,11 +779,12 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 103
 Height: 30
 Weight: 150
 Special_Bitvector: m0C3 
 Skill: 22 60
-Skill: 136 100
+Skill: 136 108
 Skill: 137 100
 Skill: 157 100
 Spell: 66
@@ -772,7 +795,6 @@ Spell: 66
 Spell: 66
 Spell: 66
 Helper: 91713
-Skill: 136 108
 E
 T 91708
 I зубы,17:7
@@ -789,7 +811,7 @@ L 1479 6 0 0
 ~
 undefined~
 d0f0g0m0o0p0 d0f0k0x0 -600 E
-29 2 -6 9d9+500 9d14+10
+28 2 -6 9d9+500 9d14+10
 0d0+0 180000
 8 8 1
 BareHandAttack: 8
@@ -803,10 +825,11 @@ Size: 45
 LikeWork: 30
 ExtraAttack: 3
 Class: 100
+Race: 103
 Height: 198
 Weight: 60
 Special_Bitvector: l0 
-Skill: 136 100
+Skill: 136 87
 Spell: 6
 Spell: 6
 Spell: 6
@@ -833,7 +856,6 @@ Spell: 28
 Spell: 28
 Spell: 28
 Helper: 91716
-Skill: 136 87
 E
 #91716
 белый грифон~
@@ -847,9 +869,10 @@ E
 ~
 undefined~
 d0f0g0m0o0p0 d0f0k0 -600 E
-36 1 -8 9d9+2900 16d9+7
+34 1 -8 9d9+2900 16d9+7
 0d0+0 680000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 1
 Str: 24
 Dex: 24
@@ -861,11 +884,12 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 103
 Height: 30
 Weight: 150
 Special_Bitvector: m0C3 
 Skill: 22 60
-Skill: 136 100
+Skill: 136 108
 Skill: 137 100
 Skill: 157 100
 Spell: 66
@@ -876,7 +900,6 @@ Spell: 66
 Spell: 66
 Spell: 66
 Helper: 91715
-Skill: 136 108
 E
 T 91708
 #91717
@@ -893,9 +916,10 @@ T 91708
 Огромный тур с золотыми рогами.
 ~
 b0c0d0l0n0o0p0x0A0r1 d0f0h0k0 -600 E
-40 0 -9 0d0+18000 40d9+25
+38 0 -9 0d0+18000 40d9+25
 0d0+0 1520000
 8 8 1
+Saves: -38 -38 -38 -38
 BareHandAttack: 14
 Destination: 91712
 Destination: 91715
@@ -909,6 +933,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 104
 Height: 30
 Weight: 140
 Special_Bitvector: p0 
@@ -957,7 +982,6 @@ Spell: 56
 Spell: 68
 E
 T 91705
-I копыта,17:7
 #91718
 огненный защитник~
 огненный защитник~
@@ -970,7 +994,7 @@ I копыта,17:7
 ~
 undefined~
 b0d0f0m0n0o0p0b1a2 d0f0k0x0p1 0 E
-30 0 -10 9d9+2500 11d9+7
+29 0 -10 9d9+2500 11d9+7
 0d0+0 250000
 8 8 1
 Str: 24
@@ -983,6 +1007,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 198
 Weight: 50
 Special_Bitvector: x0 

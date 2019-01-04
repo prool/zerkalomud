@@ -10,37 +10,36 @@
 ~
 Вы видите старого татарского тысячника.
 ~
-l0A0r2c0s2 h0 -600 E
-27 -3 +4 10d10+600 6d6+20 
+c0d0l0A0r2s2 h0 -600 E
+27 -3 4 10d10+600 6d6+20
 2d2+0 70000
 8 8 1
 CastSuccess: 54
-BareHandAttack:  0
 Str: 23
+Dex: 13
 Int: 21
 Wis: 24
-Dex: 13
 Con: 22
 Cha: 13
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 50
+Race: 101
 Height: 170
 Weight: 190
-Special_Bitvector: b1c1
-Spell: 39 5
-Spell: 28 4
-Spell: 3 5
-Spell: 17 5
-Spell: 1 5
-Skill: 134 85
-Skill: 143 105
-Skill: 137 90
+Special_Bitvector: b1c1 
 Skill: 1 75
-Skill: 136 115
 Skill: 132 80
+Skill: 134 85
+Skill: 136 115
+Skill: 137 90
+Skill: 143 105
+Spell: 1
+Spell: 3
+Spell: 17
+Spell: 28
+Spell: 39
 E
 T 114501
 I глаза,3:2
@@ -59,32 +58,32 @@ I кожа,3:5
 ~
 Вы видите великого монгольского воина.
 ~
-l0A0x0r2c0s2 C0d0h0 -600 E
-27 -10 +5 10d10+1100 5d5+10 
+c0d0l0x0A0r2s2 d0h0C0 -600 E
+27 -10 5 10d10+1100 5d5+10
 5d5+0 80000
 8 8 1
 CastSuccess: 54
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 26
+Dex: 20
 Int: 13
 Wis: 21
-Dex: 20
 Con: 24
 Cha: 14
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 50
+Race: 104
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Skill: 142 90
-Skill: 137 60
+Special_Bitvector: b1c1 
 Skill: 22 75
 Skill: 136 130
-Skill: 151 80
+Skill: 137 60
+Skill: 142 90
 Skill: 150 60
+Skill: 151 80
 E
 T 114501
 I глаза,5:3
@@ -103,37 +102,36 @@ I кожа,5:5
 ~
 Вы видите монгольского сотника.
 ~
-l0A0r2c0s2 0 -600 E
-23 -2 +5 10d10+600 6d5+20 
+c0d0l0A0r2s2 0 -600 E
+23 -2 5 10d10+600 6d5+20
 2d2+0 45000
 8 8 1
 CastSuccess: 46
-BareHandAttack:  0
 Str: 25
+Dex: 14
 Int: 18
 Wis: 20
-Dex: 14
 Con: 22
 Cha: 13
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 50
+Race: 101
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Spell: 39 2
-Spell: 3 2
-Spell: 17 2
-Spell: 15 3
-Spell: 1 2
-Skill: 134 40
-Skill: 143 60
-Skill: 137 50
+Special_Bitvector: b1c1 
 Skill: 1 35
-Skill: 136 80
 Skill: 132 35
+Skill: 134 40
+Skill: 136 80
+Skill: 137 50
+Skill: 143 60
+Spell: 1
+Spell: 3
+Spell: 15
+Spell: 17
+Spell: 39
 E
 T 114501
 I глаза,4:3
@@ -152,30 +150,30 @@ I кожа,2:4
 ~
 Вы видите опытного хазарского охотника.
 ~
-l0A0r2c0s2 m1 -600 E
-23 0 6 10d10+450 5d5+10 
+c0d0l0A0r2s2 m1 -600 E
+23 0 6 10d10+450 5d5+10
 3d2+0 50000
 8 8 1
 CastSuccess: 46
-BareHandAttack:  9
+BareHandAttack: 9
 Str: 22
+Dex: 18
 Int: 12
 Wis: 16
-Dex: 18
 Con: 18
 Cha: 12
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 150
-Special_Bitvector: b1c1
-Skill: 155 45
+Special_Bitvector: b1c1 
 Skill: 7 40
-Skill: 154 45
 Skill: 136 100
+Skill: 154 45
+Skill: 155 45
 Skill: 157 40
 E
 T 114501
@@ -194,25 +192,24 @@ I кожа,5:5
 Черный гриф выискивает падаль с высоты.
 ~
 Вы видите черного грифа.~
-h0 x0 -600 E
-5 11 +9 1d10+50 4d4+0 
+d0h0 x0 -600 E
+5 11 9 1d10+50 4d4+0
 0d0+0 3000
 8 8 1
 BareHandAttack: 15
 Str: 7
+Dex: 8
 Int: 6
 Wis: 6
-Dex: 8
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,1:5
@@ -230,25 +227,24 @@ I крылья,2:5
 Серый сорокопут чирикает тут.
 ~
 Вы видите серого сорокопута.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,2:9
@@ -265,25 +261,24 @@ I крылья,2:7
 Степной тушканчик вильнул кисточкой хвоста.
 ~
 Вы видите степного тушканчика.~
-h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,3:7
@@ -303,25 +298,24 @@ I кожа,2:7
 Черный гриф выискивает падаль с высоты.
 ~
 Вы видите черного грифа.~
-h0 x0 -600 E
-5 11 +9 1d10+50 4d4+0 
+d0h0 x0 -600 E
+5 11 9 1d10+50 4d4+0
 0d0+0 3000
 8 8 1
 BareHandAttack: 15
 Str: 7
+Dex: 8
 Int: 6
 Wis: 6
-Dex: 8
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,2:9
@@ -339,25 +333,24 @@ I крылья,3:7
 Перепел летит тут.
 ~
 Вы видите перепела.~
-h0 x0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 x0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
 BareHandAttack: 15
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 25
 Weight: 20
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,3:7
@@ -374,29 +367,27 @@ I крылья,2:8
 Савка летает тут.
 ~
 Вы видите савку.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,1:9
 I кости,1:6
 I крылья,5:8
-$
 $

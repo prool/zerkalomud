@@ -25,6 +25,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -59,6 +60,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -92,6 +94,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b0C3 
@@ -271,6 +274,7 @@ Size: 50
 LikeWork: 35
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: b0C3 
@@ -309,6 +313,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b0C3 
@@ -359,6 +364,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 3
 Class: 103
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: a0C3 
@@ -411,6 +417,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 3
 Class: 103
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: c0C3 
@@ -436,13 +443,13 @@ Spell: 48
 Spell: 48
 E
 #87707
-царевна медн велич~
-царевна медного царства~
-царевны медного царства~
-царевне медного царства~
-царевну медного царства~
-царевной медного царства~
-царевне медного царства~
+царица медн велич~
+царица медного царства~
+царицы медного царства~
+царице медного царства~
+царицу медного царства~
+царицой медного царства~
+царице медного царства~
 Величавая царица медного царства стоит здесь.
 ~
 Царевная высокая, в одеждах драгоценных.
@@ -464,6 +471,7 @@ Cha: 10
 Size: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -471,13 +479,13 @@ Skill: 136 87
 E
 T 87707
 #87708
-царевна серебрянн приветл~
-царевна серебрянного царства~
-царевны серебрянного царства~
-царевне серебрянного царства~
-царевну серебрянного царства~
-царевной серебрянного царства~
-царевне серебрянного царства~
+царица серебря приветл~
+царица серебрянного царства~
+царицы серебрянного царства~
+царице серебрянного царства~
+царицу серебрянного царства~
+царицей серебрянного царства~
+царице серебрянного царства~
 Приветливая царица серебряного царства стоит здесь.
 ~
 Краса-девица, коса пепельная, глаза серые
@@ -497,6 +505,7 @@ Cha: 10
 Size: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -504,13 +513,13 @@ Skill: 136 87
 E
 T 87715
 #87709
-царевна золотог прекрас~
-царевна золотого царства~
-царевны золотого царства~
-царевне золотого царства~
-царевну золотого царства~
-царевной золотого царства~
-царевне золотого царства~
+царица золотог прекрас~
+царица золотого царства~
+царицы золотого царства~
+царице золотого царства~
+царицу золотого царства~
+царицей золотого царства~
+царице золотого царства~
 Прекрасная царица золотого царства стоит здесь.
 ~
 Словно солнце ясное краса царицы
@@ -531,6 +540,7 @@ Cha: 10
 Size: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -563,7 +573,8 @@ Cha: 14
 Size: 50
 LikeWork: 30
 ExtraAttack: 1
-Class: 105
+Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: v0 
@@ -678,6 +689,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: u0C3 
@@ -738,6 +750,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -769,6 +782,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -802,6 +816,7 @@ Size: 60
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -847,6 +862,7 @@ Cha: 3
 Size: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -892,6 +908,7 @@ Cha: 3
 Size: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -951,6 +968,7 @@ Size: 30
 LikeWork: 30
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1012,12 +1030,13 @@ Size: 80
 LikeWork: 35
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 21 50
 Skill: 132 150
-Skill: 136 150
+Skill: 136 90
 Spell: 28
 Spell: 28
 Spell: 28
@@ -1042,11 +1061,10 @@ Spell: 89
 Spell: 89
 Spell: 93
 Spell: 94
-Helper: 87717
-Helper: 87716
-Helper: 87715
 Helper: 87714
-Skill: 136 90
+Helper: 87715
+Helper: 87716
+Helper: 87717
 E
 T 87737
 #87719
@@ -1078,11 +1096,12 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
 Skill: 22 200
-Skill: 136 150
+Skill: 136 90
 Spell: 6
 Spell: 6
 Spell: 6
@@ -1230,9 +1249,8 @@ Spell: 152
 Spell: 152
 Spell: 152
 Spell: 152
-Helper: 87718
 Helper: 87714
-Skill: 136 90
+Helper: 87718
 E
 T 87746
 #87720
@@ -1265,6 +1283,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1357,6 +1376,7 @@ Size: 40
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1394,6 +1414,7 @@ Size: 100
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1453,6 +1474,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: B3 
@@ -1504,6 +1526,7 @@ Size: 70
 LikeWork: 40
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1549,6 +1572,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1664,6 +1688,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 108
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1779,6 +1804,7 @@ Size: 40
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1839,6 +1865,7 @@ Cha: 36
 Size: 70
 LikeWork: 40
 Class: 102
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1886,6 +1913,7 @@ Size: 90
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1947,6 +1975,7 @@ Cha: 15
 Size: 100
 LikeWork: 70
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -2002,6 +2031,7 @@ Cha: 10
 Size: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2034,6 +2064,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 3
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -2084,6 +2115,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2123,6 +2155,7 @@ Size: 40
 LikeWork: 45
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2166,6 +2199,7 @@ Size: 40
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2208,6 +2242,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2254,6 +2289,7 @@ Cha: 30
 Size: 100
 ExtraAttack: 3
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -2287,6 +2323,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2324,6 +2361,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2364,6 +2402,7 @@ Size: 90
 LikeWork: 80
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: f0 
@@ -2416,6 +2455,7 @@ Cha: 10
 Size: 100
 LikeWork: 100
 Class: 103
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b0 
@@ -2454,6 +2494,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: c0C3 
@@ -2499,6 +2540,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: a0C3 
@@ -2548,6 +2590,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2581,6 +2624,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: u0C3 
@@ -2642,6 +2686,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

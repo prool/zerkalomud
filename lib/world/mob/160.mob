@@ -10,14 +10,15 @@
 ~
 Повар заботится о том, чтобы все были сыты.
 ~
-b0d0g0 0 0 E
-29 0 -2 100d7+600 6d6+9
+b0d0g0n0u2 0 0 E
+25 0 -2 100d7+600 6d6+9
 11d111+1 100000
 8 8 1
 Destination: 16038
 Size: 59
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -35,14 +36,15 @@ E
 ~
 Здоровенный мужик.
 ~
-b0d0g0 0 0 E
-29 0 -2 100d7+600 6d6+9
+b0d0g0n0u2 0 0 E
+4 0 -2 100d7+600 6d6+9
 0d0+0 1000
 8 8 1
 Destination: 16036
 Size: 59
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -60,14 +62,15 @@ E
 ~
 Скупой и щуплый мужичонка.
 ~
-b0d0g0 0 0 E
-29 0 -2 100d7+600 6d6+9
+b0d0g0n0u2 0 0 E
+4 0 -2 100d7+600 6d6+9
 0d0+0 1000
 8 8 1
 Destination: 16039
 Size: 59
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 72
 Special_Bitvector: 0 
@@ -85,8 +88,8 @@ E
 ~
 Смешной маленький человечек.
 ~
-d0g0 0 0 E
-22 3 2 20d18+380 4d5+4
+b0d0g0l0p0r0t0B0 d0f0k0 0 E
+5 3 2 20d18+380 4d5+4
 0d0+0 1500
 8 8 1
 Destination: 16032
@@ -94,6 +97,7 @@ Destination: 16032
 Size: 52
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -102,6 +106,206 @@ Skill: 136 66
 Skill: 151 10
 Skill: 157 10
 Spell: 10
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
 Spell: 72
 E
 #16004
@@ -117,7 +321,7 @@ E
 Богатый мужик.
 ~
 d0g0 0 0 E
-18 6 4 20d15+300 4d4+2
+28 6 4 20d15+300 4d4+2
 0d0+0 175000
 8 8 1
 Destination: 16019
@@ -125,6 +329,7 @@ Destination: 16020
 Size: 48
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -143,13 +348,14 @@ E
 Верующий человек.
 ~
 b0c0d0g0 0 0 E
-30 0 -3 100d7+600 7d6+8
+29 0 -3 100d7+600 7d6+8
 0d0+0 200000
 8 8 1
 Destination: 16045
 Size: 60
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 78
 Special_Bitvector: 0 
@@ -167,14 +373,15 @@ E
 ~
 Скользкий тип.
 ~
-b0c0d0g0 0 0 E
-26 2 1 100d6+480 6d5+3
+b0c0d0g0n0u2 0 0 E
+18 2 1 100d6+480 6d5+3
 0d0+0 30000
 8 8 1
 Destination: 16034
 Size: 56
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -193,7 +400,7 @@ E
 Сильный и стройный молодой человек.
 ~
 c0d0g0o0 0 0 E
-29 0 -2 100d7+600 6d6+9
+4 0 -2 100d7+600 6d6+9
 10d10+100 1000
 8 8 1
 Destination: 16002
@@ -202,6 +409,7 @@ Destination: 16003
 Size: 59
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: y0 
@@ -239,7 +447,7 @@ E
 Огроменый здоровяк.
 ~
 b0d0g0s0a1 k0D0 0 E
-27 1 0 40d15+620 6d5+6
+2 1 0 40d15+620 6d5+6
 1d10+100 200
 8 8 1
 BareHandAttack: 6
@@ -247,6 +455,7 @@ Destination: 16054
 Size: 57
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -267,12 +476,13 @@ E
 Неопытный воин.
 ~
 d0g0 0 0 E
-21 4 3 20d17+350 4d5+2
+23 4 3 20d17+350 4d5+2
 5d5+5 75000
 8 8 1
 Size: 51
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -303,6 +513,7 @@ Destination: 5218
 Size: 54
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 87
 Special_Bitvector: 0 
@@ -321,7 +532,7 @@ E
 Разъяренная женщина.
 ~
 d0g0 0 0 E
-27 2 2 100d100+380 5d5+2
+21 2 2 100d100+380 5d5+2
 10d10+10 50000
 8 8 2
 Destination: 16002
@@ -336,6 +547,7 @@ Destination: 16010
 Destination: 16011
 Size: 40
 Class: 102
+Race: 101
 Height: 198
 Weight: 67
 Special_Bitvector: 0 
@@ -355,13 +567,14 @@ E
 Нда...
 ~
 b0d0g0n0o0p0q0t0u0x0 h0 0 E
-30 0 -3 100d7+600 7d6+8
+29 0 -3 100d7+600 7d6+8
 0d0+0 200000
 8 6 1
 Destination: 16042
 Size: 60
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 130
 Special_Bitvector: 0 
@@ -380,7 +593,7 @@ E
 Маленькое пушистое животное.
 ~
 d0g0 0 0 E
-19 6 3 40d8+300 4d4+3
+11 6 3 40d8+300 4d4+3
 10d10+100 7080
 8 8 2
 BareHandAttack: 4
@@ -394,6 +607,7 @@ Destination: 16028
 Size: 49
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -412,7 +626,7 @@ E
 Огроменный детина.
 ~
 b0d0g0 0 0 E
-30 0 -3 100d7+600 7d6+8
+29 0 -3 100d7+600 7d6+8
 0d0+0 200000
 6 6 1
 Destination: 16001
@@ -422,6 +636,7 @@ Destination: 16001
 Size: 60
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -440,13 +655,14 @@ E
 Человек в состоянии очень сильного алкогольного опьянения.
 ~
 b0d0g0 0 0 E
-27 1 0 40d15+620 6d5+6
+29 1 0 40d15+620 6d5+6
 10d10+100 250000
 8 8 1
 Destination: 16044
 Size: 57
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 79
 Special_Bitvector: 0 

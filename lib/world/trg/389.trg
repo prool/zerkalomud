@@ -598,18 +598,20 @@ if (%arg.contains(к ку куп купе купец тру трус трусл трусли труслив трусливы тру
 end
 say А у меня ничего нету... Я бедный... совсем...
 mecho Трусливый купец спрятал кошелек за спину.
-calcuid star 38900 mob
-attach 38947 %star.id%
-exec 38947 %star.id%
-detach 38939 %star.id%
+if %exist.mob(38900)%
+  calcuid star 38900 mob
+  attach 38947 %star.id%
+  exec 38947 %star.id%
+  detach 38939 %star.id%
+end
 ~
 #38939
 разговор старика и купца1~
 0 g 100
 ~
 if %actor.vnum% == -1 then
-  if %exist.mob(38935)% == 1 then
-    wait 1s
+  wait 1s
+  if %exist.mob(38935)% then
     say Да не печалься ты! Все будет хорошо!
     утеш труслив
     calcuid kup 38935 mob

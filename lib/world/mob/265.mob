@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #26500
  ужас летящий крыльях ночи черный плащ~
 ужас, летящий на крыльях ночи~
@@ -13,11 +12,10 @@
 подвал замка от нежданных гостей. Одного взгляда на него достаточно, чтобы
 понять - нужно держаться от него подальше.
 ~
-e0f0m0n0z0c2h2 b0c0d0e0f0k0x0y0e2 -600 E
-30 0 -22 10d50+3000 8d5+12
+d0e0f0m0n0z0c2h2 b0c0d0e0f0k0x0y0e2 -600 E
+30 0 3 10d50+3000 8d5+12
 2d2+8 300000
 8 8 1
-Saves: 0 0 0 0
 Resistances: 35 35 35 35 35 35 35
 HPreg: 150
 Armour: 55
@@ -26,32 +24,30 @@ CastSuccess: 100
 Success: 34
 Initiative: -10
 Absorbe: 55
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 33
+Dex: 33
 Int: 33
 Wis: 33
-Dex: 33
 Con: 33
 Cha: 33
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 105
 Height: 175
 Weight: 85
-Special_Bitvector: l0b1c1C3
+Special_Bitvector: l0b1c1C3 
+Skill: 22 155
+Skill: 157 180
+Spell: 25
+Spell: 25
+Spell: 48
+Spell: 48
 Spell: 128
 Spell: 156
 Spell: 156
-Spell: 25
-Spell: 25
-Spell: 48
-Spell: 48
-Skill: 157 180
-Skill: 22 155
 E
 T 26500
 #26501
@@ -66,45 +62,41 @@ T 26500
 ~
    Месть! Месть!! Месть!!! А-ааа-аа...
 ~
-e0f0l0n0q0z0 c0d0e0f0k0r0z0A0e2 -600 E
-30 0 -27 10d90+2000 7d7+14
+d0e0f0l0n0q0z0 c0d0e0f0k0r0z0A0e2 -600 E
+29 0 -1 10d90+2000 7d7+14
 3d5+10 220000
 8 8 2
-Saves: 0 0 0 0
 Resistances: 35 35 35 35 35 35 35
 HPreg: 120
 Armour: 22
-PlusMem: 0
 CastSuccess: 50
 Success: 20
 Initiative: 30
 Absorbe: 25
-AResist: 0
-MResist: 0
 BareHandAttack: 10
 Str: 45
+Dex: 45
 Int: 20
 Wis: 20
-Dex: 45
 Con: 35
 Cha: 20
+Size: 100
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 195
 Weight: 115
+Special_Bitvector: g0b1c1C3 
 Feat: 37
 Feat: 76
-Special_Bitvector: g0b1c1C3
-Spell: 150
-Spell: 28
-Spell: 28
-Spell: 28
+Skill: 22 120
 Skill: 132 155
 Skill: 148 155
-Skill: 22 120
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 150
 E
 T 26501
 #26502
@@ -119,11 +111,10 @@ T 26501
 ~
 Ревность, лишает рассудка (разрывая его на части) любое разумное существо.
 ~
-e0f0m0n0u0z0e2g2h2 c0d0e0f0g0k0r0s0t0A0j1d2e2 -600 E
-30 0 -18 15d25+2500 3d5+15
+d0e0f0m0n0u0z0e2g2h2 c0d0e0f0g0k0r0s0t0A0j1d2e2 -600 E
+30 0 7 15d25+2500 3d5+15
 5d5+10 280000
 8 8 2
-Saves: 0 0 0 0
 Resistances: 12 12 -10 -10 5 5 5
 HPreg: 120
 Armour: 33
@@ -132,37 +123,35 @@ CastSuccess: 155
 Success: 25
 Initiative: 33
 Absorbe: 20
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 45
+Dex: 45
 Int: 20
 Wis: 20
-Dex: 45
 Con: 20
 Cha: 20
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 2
 Class: 101
-Size: 100
+Race: 110
 Height: 195
 Weight: 75
+Special_Bitvector: j0b1c1 
 Feat: 38
 Feat: 41
 Feat: 42
 Feat: 54
 Feat: 77
-Special_Bitvector: j0b1c1
-Spell: 131
-Spell: 137
-Spell: 28
-Spell: 28
-Spell: 93
+Skill: 22 100
 Skill: 154 200
 Skill: 155 155
 Skill: 157 155
-Skill: 22 100
+Spell: 28
+Spell: 28
+Spell: 93
+Spell: 131
+Spell: 137
 E
 T 26503
 I когти,10:5
@@ -178,8 +167,8 @@ I когти,10:5
 ~
 Черная-причерная зависть горьким ядом разъедает Вам душу.
 ~
-e0f0z0 c0d0e0f0k0p0r0e2 -600 E
-30 0 -30 55d10+2000 6d6+16
+d0e0f0z0 c0d0e0f0k0p0r0e2 -600 E
+29 0 -4 55d10+2000 6d6+16
 6d6+6 220000
 8 8 2
 Saves: 25 25 25 25
@@ -191,54 +180,52 @@ CastSuccess: 95
 Success: 20
 Initiative: -10
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 25
+Dex: 31
 Int: 45
 Wis: 45
-Dex: 31
 Con: 25
 Cha: 25
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: c1
-Spell: 113
-Spell: 113
-Spell: 33
-Spell: 33
-Spell: 33
-Spell: 48
-Spell: 48
-Spell: 48
-Spell: 48
-Spell: 76
-Spell: 76
+Special_Bitvector: c1 
 Skill: 157 155
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 76
+Spell: 76
+Spell: 113
+Spell: 113
 E
 T 26502
 #26504
  страсть, всецело поглащающая~
 страсть, всецело поглащающая~
-страсть,а всецела поглащающей~
-страсть,у всецелу поглащающей~
+страсти, всецело поглащающей~
+страсти, всецело поглащающей~
 страсть, всецело поглащающую~
-страсть,ом всецелом поглащающей~
-страсть,е всецеле поглащающей~
+страстью, всецело поглащающей~
+страсти, всецело поглащающей~
 Страсть, всецело поглащает Ваши помыслы.
 ~
    Страсть... и нет ничего кроме...
 ~
-b0f0n0x0z0a2h2 c0d0e0f0g0k0r0e2 -600 E
-30 0 -25 10d10+3800 5d10+14
+b0d0f0n0x0z0a2h2 c0d0e0f0g0k0r0e2 -600 E
+31 0 0 10d10+3800 5d10+14
 6d6+60 400000
-8 8 1
-Saves: 0 0 0 0
+8 8 2
+Saves: -10 -10 -10 -10
 Resistances: 15 15 15 15 15 15 15
 HPreg: 200
 Armour: 45
@@ -247,30 +234,27 @@ CastSuccess: 99
 Success: 30
 Initiative: 45
 Absorbe: 15
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 35
+Dex: 35
 Int: 35
 Wis: 35
-Dex: 35
 Con: 35
 Cha: 35
+Size: 100
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: d0C3
+Special_Bitvector: d0C3 
+Skill: 22 111
+Skill: 157 155
 Spell: 23
 Spell: 23
 Spell: 23
 Spell: 23
 Spell: 28
-Skill: 157 155
-Skill: 22 111
 E
 T 26505
 #26505
@@ -285,49 +269,41 @@ T 26505
 ~
    Гнев - спутник неправых. Испепеляет чувства и сеет вражду.
 ~
-b0e0f0n0p0x0z0e2h2 c0d0e0f0g0k0e2 -600 E
-30 0 -25 10d10+3800 5d10+14
+b0d0e0f0n0p0x0z0e2h2 c0d0e0f0g0k0e2 -600 E
+31 0 0 10d10+3800 5d10+14
 8d8+80 400000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
+Saves: -10 -10 -10 -10
 Armour: 100
-PlusMem: 0
 CastSuccess: 100
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 35
+Dex: 35
 Int: 35
 Wis: 35
-Dex: 35
 Con: 35
 Cha: 35
+Size: 100
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: d0C3
+Special_Bitvector: d0C3 
+Skill: 22 111
+Skill: 157 155
 Spell: 23
 Spell: 23
 Spell: 23
 Spell: 23
 Spell: 28
 Spell: 94
-Skill: 157 155
-Skill: 22 111
 E
 T 26504
 #26506
  ненависть разъедающая сознание~
-ненависть,  разъедающая сознание~
+ненависть, разъедающая сознание~
 ненависти, разъедающей сознание~
 ненависти, разъедающей сознание~
 ненависть, разъедающую сознание~
@@ -337,50 +313,46 @@ T 26504
 ~
    Это чувство знакомо всем, кто хоть однажды любил.
 ~
-f0z0 b0c0d0e0f0k0s0t0z0A0e2 -600 E
-30 0 -50 10d10+2200 10d4+9
+d0f0z0 b0c0d0e0f0k0s0t0z0A0e2 -600 E
+30 0 1 10d10+2200 10d4+9
 4d6+5 280000
-8 8 1
-Saves: 0 0 0 0
+8 8 2
 Resistances: 45 45 45 45 45 30 30
 HPreg: 110
 Armour: 50
-PlusMem: 0
 CastSuccess: 80
 Success: 70
 Initiative: 60
 Absorbe: 35
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 50
+Dex: 50
 Int: 17
 Wis: 17
-Dex: 50
 Con: 25
 Cha: 30
+Size: 100
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: i0j0b1c1 
 Feat: 33
 Feat: 75
-Special_Bitvector: i0j0b1c1
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 56
-Spell: 56
 Skill: 131 200
 Skill: 147 200
 Skill: 160 200
 Skill: 167 140
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 56
+Spell: 56
 E
 T 26506
 #26507
@@ -396,38 +368,25 @@ T 26506
    Старый человек восточной внешности. Сейчас он одет в грязные обноски и 
 прикован цепями к стене. 
 ~
-b0B0o1 c0d0f0k0r0z0 0 E
-1 0 0 10d10+2 1d1+1
+b0d0B0o1 c0d0f0k0r0z0 0 E
+12 0 0 10d10+2 1d1+1
 1d1+6000 10000
 6 6 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 50
 Int: 10
 Wis: 10
-Dex: 50
 Con: 10
 Cha: 23
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: i3 
 Feat: 56
 Feat: 60
-Special_Bitvector: i3
 E
 T 26508
 T 26509
@@ -444,11 +403,10 @@ T 26509
    Если ты отчаялся - ты уже проиграл!
 
 ~
-e0f0m0z0u2 c0d0e0f0k0r0e2 -600 E
-30 0 -30 10d10+2300 9d9+9
+d0e0f0m0z0u2 c0d0e0f0k0r0e2 -600 E
+30 0 -4 10d10+2300 9d9+9
 5d5+8 299000
 8 8 0
-Saves: 0 0 0 0
 Resistances: 15 15 15 15 15 15 15
 HPreg: 200
 Armour: 50
@@ -457,26 +415,27 @@ CastSuccess: 5
 Success: 30
 Initiative: 20
 Absorbe: 30
-AResist: 0
-MResist: 0
 BareHandAttack: 14
 Str: 45
+Dex: 45
 Int: 30
 Wis: 30
-Dex: 45
 Con: 30
 Cha: 30
+Size: 100
 LikeWork: 80
 MaxFactor: 40
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: h0i0j0b1c1C3 
 Feat: 23
 Feat: 75
-Special_Bitvector: h0i0j0b1c1C3
-Spell: 134
+Skill: 22 200
+Skill: 143 200
+Skill: 160 200
 Spell: 28
 Spell: 28
 Spell: 28
@@ -484,9 +443,7 @@ Spell: 28
 Spell: 48
 Spell: 48
 Spell: 98
-Skill: 143 200
-Skill: 160 200
-Skill: 22 200
+Spell: 134
 E
 T 26512
 #26509
@@ -502,36 +459,23 @@ T 26512
    Когда-то он был великим мудрецом. После смерти его душа не ушла в 
 небеса, а стала скитаться по миру, решая сложные задачи.
 ~
-b0B0 c0d0e0f0k0 0 E
-1 0 0 10d10+2 0d0+0
+b0d0B0 c0d0e0f0k0 0 E
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 0
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 100
-Size: 100
+Race: 111
 Height: 175
 Weight: 85
-Special_Bitvector: c0
+Special_Bitvector: c0 
 E
 T 26513
 #26510
@@ -547,51 +491,45 @@ T 26513
  Один из самых страшных грехов. Лючше ненавидеть и завидовать,
 чем тихонько хандрить.
 ~
-b0f0z0u2 c0d0e0f0k0r0t0z0A0e2 -600 E
-29 0 -30 10d10+2900 15d6+10
+b0d0f0z0u2 c0d0e0f0k0r0t0z0A0e2 -600 E
+31 0 -4 10d10+2900 15d6+10
 8d5+5 350000
 8 8 0
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
+Saves: -10 -10 -10 -10
 Armour: 90
 PlusMem: 90
 CastSuccess: 90
-Success: 0
-Initiative: 0
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 17
+Dex: 30
 Int: 17
 Wis: 17
-Dex: 30
 Con: 17
 Cha: 17
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: g0i0j0b1c1 
 Feat: 23
 Feat: 27
 Feat: 33
 Feat: 41
 Feat: 56
-Special_Bitvector: g0i0j0b1c1
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 82
-Spell: 82
 Skill: 131 160
 Skill: 160 150
 Skill: 167 150
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 82
+Spell: 82
 E
 T 26516
 T 26526
@@ -607,42 +545,38 @@ T 26526
 ~
  Иногда этот недостаток бывает приятен и полезен. Особенно для крепкого сна.
 ~
-e0f0m0n0z0 c0d0e0f0g0k0r0s0t0e2 -600 E
-30 0 -30 10d10+2500 13d4+8
+d0e0f0m0n0z0 c0d0e0f0g0k0r0s0t0e2 -600 E
+30 0 -4 10d10+2500 13d4+8
 7d7+7 280000
 8 8 1
-Saves: 0 0 0 0
 Resistances: 20 20 20 20 40 40 40
 HPreg: 150
 Armour: 50
-PlusMem: 0
 CastSuccess: 60
 Success: 50
 Initiative: 30
 Absorbe: 40
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 45
+Dex: 45
 Int: 17
 Wis: 17
-Dex: 45
 Con: 45
 Cha: 45
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: g0B3
+Special_Bitvector: g0B3 
+Skill: 21 45
+Skill: 157 200
 Spell: 28
 Spell: 28
 Spell: 88
 Spell: 93
-Skill: 157 200
-Skill: 21 45
 E
 T 26517
 #26512
@@ -658,45 +592,41 @@ T 26517
    Этот порок - двигатель человеческого прогресса!
  
 ~
-b0e0f0z0u2 b0c0d0e0f0k0r0s0t0q1e2 -600 E
-30 0 -30 10d10+2500 10d6+10
+b0d0e0f0z0u2 b0c0d0e0f0k0r0s0t0q1e2 -600 E
+30 0 -4 10d10+2500 10d6+10
 6d7+9 290000
 8 8 2
-Saves: 0 0 0 0
 Resistances: 20 20 20 20 40 40 40
 HPreg: 140
 Armour: 50
-PlusMem: 0
 CastSuccess: 85
 Success: 30
 Initiative: 50
 Absorbe: 50
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 45
+Dex: 45
 Int: 17
 Wis: 17
-Dex: 45
 Con: 17
 Cha: 10
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: i0j0
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 56
-Spell: 56
-Spell: 56
+Special_Bitvector: i0j0 
 Skill: 131 160
 Skill: 160 150
 Skill: 167 150
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 56
+Spell: 56
 E
 T 26518
 #26513
@@ -711,11 +641,11 @@ T 26518
 ~
    Все остальное проистекает из-за него.
 ~
-b0f0l0z0c2h2u2 b0c0d0e0f0g0k0r0x0z0A0C0m1q1x1y1z1e2 -600 E
-33 0 -30 10d10+3500 10d5+15
+b0d0f0l0z0c2h2u2 b0c0d0e0f0g0k0r0x0z0A0C0m1q1x1y1z1e2 -600 E
+32 0 -4 10d10+3500 10d5+15
 10d10+18 500000
 8 8 1
-Saves: 0 0 0 0
+Saves: -14 -14 -14 -14
 Resistances: 30 30 30 30 30 30 30
 HPreg: 200
 Armour: 99
@@ -724,35 +654,24 @@ CastSuccess: 140
 Success: 50
 Initiative: 60
 Absorbe: 99
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: h0C3
-Spell: 128
-Spell: 128
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
+Special_Bitvector: h0C3 
+Skill: 22 110
+Skill: 132 200
+Skill: 157 200
 Spell: 23
 Spell: 23
 Spell: 23
@@ -777,9 +696,18 @@ Spell: 66
 Spell: 66
 Spell: 66
 Spell: 94
-Skill: 132 200
-Skill: 157 200
-Skill: 22 110
+Spell: 128
+Spell: 128
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
 Helper: 26514
 E
 T 26519
@@ -796,39 +724,33 @@ T 26526
 ~
 Родная сестра равнодушия.
 ~
-b0e0f0z0 d0k0r0A0e2 -600 E
-26 0 0 10d10+250 10d8+9
+b0d0e0f0z0 d0k0r0A0e2 -600 E
+25 0 0 10d10+250 10d8+9
 7d7+7 100000
 8 8 0
-Saves: 0 0 0 0
 Resistances: 100 100 100 100 100 100 100
-HPreg: 0
 Armour: 99
-PlusMem: 0
 CastSuccess: 80
-Success: 0
-Initiative: 0
 Absorbe: 99
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 17
+Dex: 22
 Int: 17
 Wis: 17
-Dex: 22
 Con: 17
 Cha: 10
+Size: 100
 LikeWork: 99
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 1
-Spell: 55
-Spell: 55
 Skill: 132 180
+Spell: 55
+Spell: 55
 E
 T 26527
 I крылья,5:5
@@ -844,41 +766,31 @@ I крылья,5:5
 ~
 Та еще дрянь!
 ~
-e0f0z0 d0f0k0r0s0t0z0A0e2 -600 E
-26 0 0 10d10+250 10d8+9
+d0e0f0z0 d0f0k0r0s0t0z0A0e2 -600 E
+25 0 0 10d10+250 10d8+9
 7d7+7 100000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
 Success: 80
 Initiative: 80
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 17
+Dex: 29
 Int: 17
 Wis: 17
-Dex: 29
 Con: 17
 Cha: 10
+Size: 100
 LikeWork: 99
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: g0h0i0j0b1c1
-Spell: 55
-Spell: 55
+Special_Bitvector: g0h0i0j0b1c1 
 Skill: 131 180
 Skill: 160 160
+Spell: 55
+Spell: 55
 E
 T 26528
-$
 $

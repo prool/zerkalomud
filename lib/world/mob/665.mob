@@ -24,6 +24,7 @@ Size: 100
 MaxFactor: 1
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -58,6 +59,7 @@ Size: 100
 MaxFactor: 1
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -91,6 +93,7 @@ Size: 100
 MaxFactor: 1
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -124,6 +127,7 @@ LikeWork: 5
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: p0a1b1c1d1 
@@ -170,6 +174,7 @@ LikeWork: 13
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: c1d1 
@@ -186,6 +191,7 @@ Spell: 92
 Spell: 92
 Spell: 92
 E
+T 66508
 #66505
 крестьянин~
 крестьянин~
@@ -213,6 +219,7 @@ LikeWork: 20
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: c1 
@@ -251,6 +258,7 @@ LikeWork: 10
 MaxFactor: 14
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -288,6 +296,7 @@ LikeWork: 20
 MaxFactor: 19
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -297,7 +306,6 @@ Skill: 136 50
 Skill: 137 120
 Skill: 157 50
 E
-I кости,10:5
 #66508
 лось ~
 лось~
@@ -326,13 +334,13 @@ LikeWork: 25
 MaxFactor: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
 Skill: 136 50
 Skill: 137 150
 E
-I копыта,10:3
 L 1498 13 0 0
 #66509
 лис~
@@ -362,6 +370,7 @@ LikeWork: 30
 MaxFactor: 60
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -398,6 +407,7 @@ LikeWork: 25
 MaxFactor: 25
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -437,6 +447,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -482,6 +493,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

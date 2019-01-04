@@ -24,6 +24,7 @@ Cha: 3
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 198
 Weight: 40
 Special_Bitvector: g0 
@@ -57,6 +58,7 @@ Cha: 5
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -89,6 +91,7 @@ Cha: 5
 Size: 60
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -119,6 +122,7 @@ Cha: 6
 Size: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 30
 Special_Bitvector: 0 
@@ -150,6 +154,7 @@ Cha: 5
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -182,6 +187,7 @@ Cha: 4
 Size: 80
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 80
 Special_Bitvector: 0 

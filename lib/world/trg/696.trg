@@ -30,7 +30,7 @@ else
     if %tmp.val1%>0
       **************
       %send% %actor% Взяв в руки берестяное ведерко, Вы вылили его содержимое на иссохшую от жары землю.
-      %echoaround% %actor% %actor.name% взял%actor.g% в руки берестяное ведерко и вылил%actor.g% его содержимоена иссохшую от жары землю.
+      %echoaround% %actor% %actor.name% взял%actor.g% в руки берестяное ведерко и вылил%actor.g% его содержимое на иссохшую от жары землю.
       *attach 69611 %tmp.id%
       *exec 69611 %tmp.id%
       *detach 69611 %tmp.id%
@@ -100,7 +100,7 @@ else
     if %tmp.val1%>0
       **************
       %send% %actor% _Взяв в руки берестяное ведерко, Вы вылили его содержимое на иссохшую от жары землю.
-      %echoaround% %actor% %actor.name% взял%actor.g% в руки берестяное ведерко и вылил%actor.g% его содержимоена иссохшую от жары землю.
+      %echoaround% %actor% %actor.name% взял%actor.g% в руки берестяное ведерко и вылил%actor.g% его содержимое на иссохшую от жары землю.
       wforce %actor.name% вылить ведерко земля
       **************
       wait 1
@@ -303,7 +303,7 @@ done
 *wait 1s
 *wecho actor test - %actor.name%
 if !%arg.contains(вьюн)%
-  wsend %actor.name% Что Вы хотите полить?
+  %send% %actor.name% Что Вы хотите полить?
 else
   if !%actor.haveobj(69601)%
     %send% %actor% Из чего поливать-то?!
@@ -312,7 +312,7 @@ else
     *Если емкость не пустая
     if %tmp.val1%>0
       %send% %actor% Взяв в руки берестяное ведерко, Вы вылили его содержимое под корень вьюна.
-      %echoaround% %actor% %actor.name% взял%actor.q% в руки берестяное ведерко и вылил%actor.q% его содержимое под корень вьюна.
+      %echoaround% %actor% %actor.name% взял%actor.q% в руки берестяное ведерко и выли%actor.q% его содержимое под корень вьюна.
       wait 1s
       *oecho  Наполнился вьюн новыми силами!
       * oecho  Окрепшие корни змеями утекали в расщелину, сдвигая камни и делая ее все шире и шире.
@@ -323,13 +323,13 @@ else
       exec 69634 %trm.id%
       detach 69634 %trm.id%
       *otransform  69605
+      detach 69608 %self%
       
     else
       %send% %actor% Поливать из пустого ведра, как минимум, странно!
     end
   end
 end
-detach 69608 %self%
 ~
 #69609
 ВстречаетБелка~
@@ -465,13 +465,13 @@ end
 switch %random.2%
   case 1
     *плащ
-    if %random.100% < 30 && %world.curobjs(69616)% < 8
+    if %random.100% < 15 && %world.curobjs(69616)% < 8
       mload obj 69616
     end
   break
   case 2
     *колесо
-    if %random.100% < 30 && %world.curobjs(69617)% < 8
+    if %random.100% < 15 && %world.curobjs(69617)% < 8
       mload obj 69617
     end
   break
@@ -2074,7 +2074,7 @@ unset flag_kol_vo_drov
 УмерлиКониОгни~
 0 f 0
 ~
-if %random.100% < 30 && %world.curobjs(69624)% < 15
+if %random.100% < 20 && %world.curobjs(69624)% < 10
   mload obj 69624
 end 
 ~
@@ -2082,7 +2082,7 @@ end
 УмерлаУтица~
 0 f 0
 ~
-if %random.100% < 30 && %world.curobjs(69661)% < 7
+if %random.100% < 20 && %world.curobjs(69661)% < 7
   mload obj 69661
 end 
 ~
@@ -2090,7 +2090,7 @@ end
 УмерлСоколОгнеперый~
 0 f 0
 ~
-if %random.100% < 30 && %world.curobjs(69623)% < 5
+if %random.100% < 20 && %world.curobjs(69623)% < 5
   mload obj 69623
 end 
 ~
@@ -2123,7 +2123,7 @@ done
 УмерлВитязь~
 0 f 0
 ~
-if %random.100% < 30 && %world.curobjs(69666)% < 6
+if %random.100% < 20 && %world.curobjs(69666)% < 6
   mload obj 69666
 end 
 ~
@@ -2156,7 +2156,7 @@ done
 УмерлиБарашки~
 0 f 0
 ~
-if %random.100% < 30 && %world.curobjs(69670)% < 14
+if %random.100% < 15 && %world.curobjs(69670)% < 8
   mload obj 69670
 end 
 ~
@@ -2164,7 +2164,7 @@ end
 УмерлиКрасныеВолки~
 0 f 0
 ~
-if %random.100% < 30 && %world.curobjs(69671)% < 14
+if %random.100% < 10 && %world.curobjs(69671)% < 8
   mload obj 69671
 end 
 ~
@@ -2172,7 +2172,7 @@ end
 УмерлиКуропатки~
 0 f 0
 ~
-if %random.100% < 30 && %world.curobjs(69672)% < 14
+if %random.100% < 15 && %world.curobjs(69672)% < 8
   mload obj 69672
 end 
 ~
@@ -2431,13 +2431,13 @@ end
 if %actor.class% == 4
   wait 1s
   %send% %actor% &R_Ведь тебя упреждали, убойца... - еле слышно прошелестело вдали.
-  %send% %actor% &R_Теперь пеняй на себя...
+  %send% %actor% &R_Не ушел ты по своей воле, так покорись моей!
   wait 1s
   mecho _Задрожал от напряжения воздух - словно спустился сам Грозный Бог с неба.
   %send% %actor% _Ударила в землю молния, оставляя от Вас лишь кучку пепла.
-  %echoaround% %actor% _СУдарила в землю молния, оставляя от %actor.rname% кчку пепла.
-  eval nHit %actor.hitp%+11
-  mdamage %actor% %nHit%
+  %echoaround% %actor% _ Ударила в землю молния, оставляя от %actor.rname% кучку пепла.
+  mdamage %actor% 100 Hit
+  mteleport %actor% 85271
 end
 ~
 $~

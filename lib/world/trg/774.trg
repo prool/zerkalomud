@@ -48,7 +48,7 @@ detach 77402 %self.id%
 2 e 100
 ~
 wait 2
-wecho Среди деревьев Вы уивдели уже знакомого Баяна, который лихо шпарил на гуслях:
+wecho Среди деревьев Вы увидели уже знакомого Баяна, который лихо шпарил на гуслях:
 wait 3
 wecho  Нету мочи, нету сил, - Леший как-то недопил, 
 wecho  Лешачиху свою бил и вопил: 
@@ -365,7 +365,7 @@ detach 77418 %self.id%
 #77419
 кинулигорошину~
 2 h 100
-~
+/c~
 if %object.vnum% == 77401
   wait 1
   calcuid gorosh 77401 obj
@@ -376,8 +376,10 @@ if %object.vnum% == 77401
   wecho Уже у самых ворот раздался невыносимый грохот, и Вас прошвырнуло на несколько метров вперед. 
   wait 3
   wteleport all 77486
-  calcuid obor 77406 mob
-  attach 77420 %obor.id%
+  if %exist.mob(77406)%
+    calcuid obor 77406 mob
+    attach 77420 %obor.id%
+  end
   wdoor 77486 south room 77430
   wdoor 77430 north room 77486
 end
@@ -553,8 +555,10 @@ wecho Завидев у Вас в руках светящуюся торбу, все три головы змея оскалились в п
 wait 5
 wecho Дорога домой не заняла много времени, и вскоре Вы уже стояли перед избушкой на курьих ножках.
 wteleport all 77469
-calcuid gor 77441 mob
-wpurge %gor%
+if %exist.mob(77441)%
+  calcuid gor 77441 mob
+  wpurge %gor%
+end
 calcuid room5 77469 room
 exec 77443 %room5.id%
 detach 77430 %self.id%
@@ -753,7 +757,7 @@ detach 77437 %self.id%
 if !%arg.contains(озеро)% 
   halt
 end
-wechoaround %actor% %actor.name% разбежал%actor.u% и нырнул в озеро.
+wechoaround %actor% %actor.name% разбежал%actor.u% и нырнул%actor.g% в озеро.
 wteleport %actor.name% 77434 horse
 wsend %actor% Вы нырнули в озеро.
 wechoaround %actor% %actor.name% тяжело плюхнул%actor.u% в озеро рядом с вами.
@@ -839,14 +843,15 @@ calcuid bayan7 77433 room
 calcuid bayan8 77449 room
 calcuid bayan9 77425 room
 calcuid kot 77400 mob
-calcuid rus 77401 mob
 calcuid lesh 77402 mob
 calcuid knyaz 77405 mob
 calcuid obor 77406 mob
 calcuid kik 77407 mob
 calcuid vod 77409 mob
 calcuid gor 77415 mob
-calcuid yaga 77414 mob
+if %exist.mob(77414)%
+  calcuid yaga 77414 mob
+end
 calcuid roomq 77402 room
 attach 77441 %roomq.id%
 calcuid roomw 77406 room
@@ -882,7 +887,9 @@ attach 77417 %knyaz.id%
 attach 77418 %obor.id%
 attach 77421 %kik.id%
 attach 77424 %vod.id%
-attach 77429 %yaga.id%
+if %yaga%
+  attach 77429 %yaga.id%
+end
 attach 77431 %gor.id%
 attach 77400 %bayan0.id%
 attach 77401 %bayan1.id%

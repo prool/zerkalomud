@@ -213,47 +213,47 @@ mdoor 47574 east room 47576
 mdoor 47545 west room 47576
 switch %random.9%
   case 1 
-    if (%world.curobjs(47500)% < 5) && (%random.5% == 1)
+    if (%world.curobjs(47500)% < 5) && (%random.5% == 2)
       mload obj 47500  
     end
   break
   case 2 
-    if (%world.curobjs(47501)% < 5) && (%random.5% == 1)
+    if (%world.curobjs(47501)% < 5) && (%random.5% == 2)
       mload obj 47501  
     end
   break
   case 3 
-    if (%world.curobjs(47513)% < 5) && (%random.5% == 1)
+    if (%world.curobjs(47513)% < 5) && (%random.5% == 2)
       mload obj 47513  
     end
   break
   case 4 
-    if (%world.curobjs(47514)% < 5) && (%random.5% == 1)
+    if (%world.curobjs(47514)% < 5) && (%random.5% == 3)
       mload obj 47514  
     end
   break
   case 5 
-    if (%world.curobjs(47515)% < 5) && (%random.5% == 1)
+    if (%world.curobjs(47515)% < 5) && (%random.5% == 3)
       mload obj 47515  
     end
   break
   case 6 
-    if (%world.curobjs(47516)% < 5) && (%random.5% == 1)
+    if (%world.curobjs(47516)% < 5) && (%random.5% == 3)
       mload obj 47516  
     end
   break
   case 7 
-    if (%world.curobjs(47517)% < 5) && (%random.5% == 1)
+    if (%world.curobjs(47517)% < 5) && (%random.5% == 3)
       mload obj 47517  
     end
   break
   case 8 
-    if (%world.curobjs(47518)% < 5) && (%random.5% == 1)
+    if (%world.curobjs(47518)% < 5) && (%random.5% == 3)
       mload obj 47518  
     end
   break
   case 9 
-    if (%world.curobjs(47519)% < 5) && (%random.5% == 1)
+    if (%world.curobjs(47519)% < 5) && (%random.5% == 3)
       mload obj 47519  
     end
   break
@@ -346,7 +346,7 @@ say Пришли сюда как-то молодые охотники поохотиться и опыту набраться.
 дум
 wait 2ms
 say Но вот беда приключилась с четырьмя из них.
-say Предупеждал я их, что нечистая сила поселилась в глуши нашего леса
+say Предупpеждал я их, что нечистая сила поселилась в глуши нашего леса
 say Не послушали они, забрели туда и более никто их невидел.
 wait 1s
 эм поковырял пальцем в ухе и продолжил
@@ -366,10 +366,10 @@ wait 2ms
 say Прознал я, что у колдуна этого есть некий источник силы, питающий его
 say Просьба к тебе будет, уничтожь его, верни мой лес в прежнее состояние
 say За наградой я не постою, богатство у меня есть, не волнуйся.
-say Ну как поможешь мне?
+say Ну как, поможешь мне?
 ~
 #47518
-леснику дали амулет амулет~
+леснику дали амулет~
 0 j 100
 ~
 if %object.vnum% != 47524
@@ -384,10 +384,16 @@ else
   сия
   say Ты действительно смог это сделать
   say Как я и обещал, за наградой я не постою.
-  mload obj 47525
-  дат куча %actor.name%
+  if (%world.curobjs(47533)% < 5) &&  (%random.5% == 3)
+    mload obj 47533
+    дать амулет %actor.name%
+    say Держи, это поможет выжить тебе в лесах.
+  elseif 
+    mload obj 47525
+    дат куча %actor.name%
+  end
+  detach 47518 %self.id%
 end
-detach 47518 %self.id%
 ~
 #47519
 квест у опыного~
@@ -438,70 +444,70 @@ else
   say Спасибо тебе большое, так уж и быть научу я тебя премудростям всяким
   switch %actor.class%
     case 1
-      if %actor.skill(лидерство)% <100
+      if %actor.skill(лидерство)% <120
         mskilladd %actor.name% лидерство 5
       else 
         say Ты уже очень умен, я ничему тебя не научу
       end
     break
     case 2
-      if %actor.skill(заколоть)% <100
+      if %actor.skill(заколоть)% <120
         mskilladd %actor.name% заколоть 5
       else 
         say Ты уже очень умен, я ничему тебя не научу
       end
     break
     case 3
-      if %actor.skill(богатырский молот)% <100
+      if %actor.skill(богатырский молот)% <120
         mskilladd %actor.name% богатырский.молот 5
       else 
         say Ты уже очень умен, я ничему тебя не научу
       end
     break
     case 4
-      if %actor.skill(заколоть)% <100
+      if %actor.skill(заколоть)% <120
         mskilladd %actor.name% заколоть 5
       else 
         say Ты уже очень умен, я ничему тебя не научу
       end
     break
     case 5
-      if %actor.skill(осторожный стиль)% <100
+      if %actor.skill(осторожный стиль)% <120
         mskilladd %actor.name% осторожный.стиль 5
       else 
         say Ты уже очень умен, я ничему тебя не научу
       end
     break
     case 7
-      if %actor.skill(врата)% <100
+      if %actor.skill(врата)% <120
         mskilladd %actor.name% врата 5
       else 
         say Ты уже очень умен, я ничему тебя не научу
       end
     break
     case 9
-      if %actor.skill(точный стиль)% <100
+      if %actor.skill(точный стиль)% <120
         mskilladd %actor.name% точный.стиль 5
       else 
         say Ты уже очень умен, я ничему тебя не научу
       end
     break
     case 10
-      if %actor.skill(луки)% <100
+      if %actor.skill(луки)% <120
         mskilladd %actor.name% луки 5
       else 
         say Ты уже очень умен, я ничему тебя не научу
       end
     break    
     case 11
-      if %actor.skill(оглушить)% <100
+      if %actor.skill(оглушить)% <120
         mskilladd %actor.name% оглушить 5
       else 
         say Ты уже очень умен, я ничему тебя не научу
       end
     break       
     case 12
-      if %actor.skill(метнуть)% <100
+      if %actor.skill(метнуть)% <120
         mskilladd %actor.name% метнуть 5
       else 
         say Ты уже очень умен, я ничему тебя не научу
@@ -572,5 +578,11 @@ end
 if (%world.curobjs(47531)% < 10) && (%random.5% == 1)
   mload obj 47531
 end
+~
+#47526
+умер босс~
+0 f 100
+~
+mload obj 47524
 ~
 $~

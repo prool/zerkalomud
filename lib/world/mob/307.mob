@@ -27,6 +27,7 @@ Cha: 7
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -61,6 +62,7 @@ Cha: 12
 Size: 100
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -101,6 +103,7 @@ Cha: 3
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -138,6 +141,7 @@ Size: 80
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: n0 
@@ -173,6 +177,7 @@ Cha: 4
 Size: 90
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -210,6 +215,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
@@ -247,6 +253,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -283,6 +290,7 @@ Cha: 5
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -316,6 +324,7 @@ Cha: 5
 Size: 90
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -337,7 +346,7 @@ T 30711
 ему заменяют длинные загнутые внутрь челюсти,
 которыми он орудует словно дружинник мечом.
 ~
-b0d0g0m0n0x0 d0e0f0k0 0 E
+b0d0g0m0n0x0f2 d0e0f0k0 0 E
 19 6 -6 10d5+500 5d4+4
 0d0+0 49000
 8 8 1
@@ -351,6 +360,7 @@ Cha: 5
 Size: 100
 LikeWork: 40
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -385,6 +395,7 @@ Cha: 5
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -419,6 +430,7 @@ Cha: 5
 Size: 80
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -453,12 +465,12 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 136 54
 E
-I кожа,10:2
 #30713
 черный муравей~
 черный муравей~
@@ -487,6 +499,7 @@ Size: 100
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -529,6 +542,7 @@ Cha: 5
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -568,6 +582,7 @@ Cha: 5
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -603,6 +618,7 @@ Cha: 5
 Size: 80
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
@@ -637,6 +653,7 @@ Size: 100
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -647,7 +664,6 @@ Spell: 75
 Spell: 75
 E
 T 30719
-I кости,10:2
 #30718
 рыжий муравьишка~
 рыжий муравьишка~
@@ -675,6 +691,7 @@ Con: 13
 Cha: 5
 Size: 100
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -712,6 +729,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -747,6 +765,7 @@ Cha: 5
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 120
 Special_Bitvector: 0 
@@ -779,6 +798,7 @@ Con: 9
 Cha: 5
 Size: 70
 Class: 103
+Race: 107
 Height: 175
 Weight: 50
 Special_Bitvector: 0 
@@ -813,6 +833,7 @@ Size: 100
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -849,6 +870,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -891,6 +913,7 @@ Con: 17
 Cha: 5
 Size: 100
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -926,6 +949,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

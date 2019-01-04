@@ -492,7 +492,7 @@ say Да-а-а... не ожидал я, что простой смертный сможет убить этакое чудище
 say Я беден, могу только передать тебе часть своих знаний...
 %actor.exp(+70000)%
 msend %actor% %self.iname% что-то шепнул Вам на ушко, вы даже и не запомнили толком, но почувствовали себя намного опытнее...
-if %world.curobjs(3334)% < 2 && %random.8% == 1
+if ((%random.100% < 11) && (%world.curobjs(3334)% < 2))
   wait 1s
   mload obj  3334
   say Да и возьми еще это колечко, и откуда оно у меня взялось? Пригодится тебе наверное.
@@ -504,5 +504,82 @@ end
 0 z 100
 ~
 mload obj 51813
+~
+#51827
+Нельзя снять сапоги-скороходы~
+1 l 100
+~
+return 0
+osend %actor% Во дают люди - на бегу сапоги снимают!
+~
+#51828
+Сапоги ресторят мувы~
+1 b 100
+~
+set target %self.worn_by%
+if %target%
+  set buf %target.move(%target.maxmove%)%
+end
+~
+#51829
+Надели сапоги скороходы~
+1 j 100
+~
+wait 1
+osend %actor% Вы надели сапоги-скороходы. Эх, хорошо!
+osend %actor% Вдруг ваши ноги сами собой понесли вас бегом!!!
+oechoaround %actor% %actor.name% надел%actor.g% сапоги-скороходы и понесся вдаль!
+set victim %actor%
+global victim
+attach 51830 %self.id%
+run 51830 %self.id%
+~
+#51830
+Побежаааали!~
+1 z 100
+~
+if !%victim%
+  halt
+end
+set target %self.worn_by%
+if !%target%
+  halt
+end
+if (%target.position% < 5)
+  oforce %target% wake
+end
+if (%target.position% < 7)
+  oforce %target% stand
+end
+set i 0
+while 1
+  if (%i% == 49)
+    set i 0
+    wait 4s
+    oechoaround %target% %target.name% ????c%target.u% ?????!
+    osend %target% ??????-c???????? c??? c???? ????c?? ??c ??????!
+  end
+  eval i %i%+1
+  switch %random.6%
+    case 1
+      oforce %target% up
+    break
+    case 2
+      oforce %target% down
+    break
+    case 3
+      oforce %target% north
+    break
+    case 4
+      oforce %target% east
+    break
+    case 5
+      oforce %target% south
+    break
+    case 6
+      oforce %target% west
+    break
+  done
+done
 ~
 $~

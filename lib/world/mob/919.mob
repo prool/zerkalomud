@@ -23,6 +23,7 @@ Cha: 3
 Size: 50
 LikeWork: 100
 Class: 100
+Race: 104
 Height: 198
 Weight: 60
 Special_Bitvector: m0v0 
@@ -48,9 +49,10 @@ E
 ~
 undefined~
 d0f0l0m0n0o0p0x0b1 d0f0k0m1q1 -600 E
-31 1 -8 10d9+2400 16d8+2
+32 1 -8 10d9+2400 16d8+2
 0d0+0 470000
 8 8 1
+Saves: -14 -14 -14 -14
 BareHandAttack: 6
 Str: 22
 Dex: 19
@@ -62,6 +64,7 @@ Size: 70
 LikeWork: 45
 ExtraAttack: 1
 Class: 100
+Race: 104
 Height: 30
 Weight: 80
 Special_Bitvector: o0v0 
@@ -96,6 +99,7 @@ b0d0f0h0l0m0n0o0p0x0b1 d0f0k0m1 -600 E
 35 0 -8 10d9+7700 16d9+2
 0d0+0 850000
 8 8 1
+Saves: -26 -26 -26 -26
 BareHandAttack: 6
 Str: 22
 Dex: 19
@@ -107,6 +111,7 @@ Size: 70
 LikeWork: 35
 ExtraAttack: 2
 Class: 100
+Race: 104
 Height: 198
 Weight: 80
 Special_Bitvector: o0v0 
@@ -150,6 +155,7 @@ d0f0h0l0m0n0o0p0x0b1 d0f0k0m1 -600 E
 35 0 -8 10d9+7700 16d10+2
 0d0+0 850000
 8 8 1
+Saves: -26 -26 -26 -26
 BareHandAttack: 6
 Str: 22
 Dex: 19
@@ -161,6 +167,7 @@ Size: 70
 LikeWork: 35
 ExtraAttack: 2
 Class: 100
+Race: 104
 Height: 30
 Weight: 80
 Special_Bitvector: o0v0 
@@ -206,6 +213,7 @@ d0f0h0l0m0n0o0p0x0b1 d0f0k0m1 -600 E
 35 0 -8 10d9+7700 16d10+2
 0d0+0 850000
 8 8 1
+Saves: -26 -26 -26 -26
 BareHandAttack: 6
 Str: 22
 Dex: 19
@@ -217,6 +225,7 @@ Size: 70
 LikeWork: 35
 ExtraAttack: 2
 Class: 100
+Race: 104
 Height: 30
 Weight: 80
 Special_Bitvector: o0v0 
@@ -246,7 +255,6 @@ Spell: 128
 Spell: 128
 E
 T 91922
-I кости,17:7
 #91913
 ледяной змей~
 ледяной змей~
@@ -257,11 +265,13 @@ I кости,17:7
 ледяном змее~
 Четырехглавый ледяной змей ползает тут.
 ~
-неопределен~
+Страшный змей с оскаленной пастью, из которой веет зимним холодом.
+~
 b0d0f0n0o0p0r1 d0f0k0t0A0m1q1 -600 E
-39 0 -9 1d1+12000 15d9+30
+38 0 -9 1d1+12000 15d9+30
 0d0+0 1740000
 8 8 1
+Saves: -38 -38 -38 -38
 BareHandAttack: 2
 Str: 24
 Dex: 16
@@ -273,6 +283,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 30
 Weight: 100
 Special_Bitvector: m0v0C3 
@@ -283,7 +294,6 @@ Spell: 28
 E
 T 91917
 T 91921
-I кожа,17:7
 L 1740 3 0 0
 #91914
 старик моб_91914~
@@ -295,7 +305,8 @@ L 1740 3 0 0
 старике~
 Старик с веслом правит лодкой.
 ~
-undefined~
+Старый лодочник привычно глядит на огненные волны.
+~
 b0d0n0o0p0q0r0t0u0x0o1 d0f0k0n1r1 -600 E
 50 0 0 0d0+30000 30d30+30
 0d0+0 0
@@ -305,6 +316,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

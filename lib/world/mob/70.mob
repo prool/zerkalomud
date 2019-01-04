@@ -11,7 +11,7 @@
 Суетлив воробей - а пива не сварит.
 ~
 b0d0 f0k0 0 E
-5 20 9 2d10+60 1d2+3
+4 20 9 2d10+60 1d2+3
 0d0+1 1000
 8 8 1
 BareHandAttack: 4
@@ -23,6 +23,7 @@ Con: 10
 Cha: 10
 Size: 30
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -41,7 +42,7 @@ E
 Резвый конь белой масти нетерпеливо дергает ушами.
 ~
 b0d0s0g2 f0k0r0 0 E
-10 2 5 6d10+120 2d3+2
+8 2 5 6d10+120 2d3+2
 0d0+0 3000
 8 8 1
 BareHandAttack: 13
@@ -54,6 +55,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
@@ -85,6 +87,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 155
 Weight: 85
 Special_Bitvector: 0 
@@ -103,7 +106,7 @@ E
 Песья матка, недавно ощенившаяся. Не подходи близко, а то тяпнет.
 ~
 b0d0k0m0 f0k0 -600 E
-7 0 8 4d10+100 2d2+2
+8 0 8 4d10+100 2d2+2
 0d0+0 3000
 8 8 2
 BareHandAttack: 4
@@ -116,6 +119,7 @@ Cha: 8
 Size: 70
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 120
 Weight: 55
 Special_Bitvector: 0 
@@ -135,7 +139,7 @@ T 7011
 Бодливая яловая буренка, с длинными рогами и шершавым языком.
 ~
 b0d0 0 0 E
-8 2 9 10d10+150 2d2+2
+9 2 9 10d10+150 2d2+2
 0d0+0 4000
 8 8 2
 BareHandAttack: 14
@@ -148,6 +152,7 @@ Cha: 12
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -163,7 +168,7 @@ E
 важном таракане~
 Большой рыжий таракан с важным видом шевелит усами.
 ~
-Мат╦рый тараканище.
+Матерый тараканище
 ~
 b0d0 f0k0 0 E
 8 0 10 10d10+130 3d3+2
@@ -178,6 +183,7 @@ Con: 14
 Cha: 10
 Size: 80
 Class: 103
+Race: 107
 Height: 160
 Weight: 55
 Special_Bitvector: 0 
@@ -210,6 +216,7 @@ Cha: 8
 Size: 25
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 50
 Special_Bitvector: 0 
@@ -240,6 +247,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -270,6 +278,7 @@ Cha: 14
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -301,6 +310,7 @@ Cha: 18
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -332,6 +342,7 @@ Cha: 22
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -362,6 +373,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -393,6 +405,7 @@ Cha: 10
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 120
 Weight: 50
 Special_Bitvector: m0 
@@ -406,7 +419,7 @@ E
 балалаечника~
 балалаечником~
 балалаечнике~
-Балалаечник брянчит по струнам во все пальцы.
+Балалаечник бренчит по струнам во все пальцы.
 ~
 Первый здешний балагур и забавник. И споет, и спляшет.
 Что ему соха - была бы балалайка.
@@ -425,11 +438,12 @@ Cha: 22
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
-Helper: 7014
 Skill: 136 66
+Helper: 7014
 E
 T 7005
 #7014
@@ -458,6 +472,7 @@ Cha: 25
 Size: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 65
 Special_Bitvector: 0 
@@ -474,9 +489,9 @@ T 7006
 старом знахаре~
 Старый знахарь шепчет чего-то, видать ворожит.
 ~
-Скудовласый старец с брадою клочной. Лицо в моршинах, а глаза по-молодому глядят.
+Скудовласый старец с брадою клочной. Лицо в морщинах, а глаза по-молодому глядят.
 ~
-b0d0B0 d0f0k0 600 E
+b0d0n0B0u2 d0f0k0 600 E
 22 0 0 10d10+500 3d3+10
 0d0+0 0
 6 6 1
@@ -489,6 +504,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -509,6 +525,7 @@ Spell: 113
 Spell: 113
 E
 T 7001
+T 7012
 #7016
 юная волшебница~
 юная волшебница~
@@ -519,7 +536,7 @@ T 7001
 юной волшебнице~
 Юная волшебница в задумчивости сидит у оконца.
 ~
-Девченка почти, а уже чародейка. Говорят в самом Киеве волшбе обучалась.
+Девчонка почти, а уже чародейка. Говорят в самом Киеве волшбе обучалась.
 ~
 b0d0B0 d0f0k0 600 E
 22 0 0 10d10+200 2d2+10
@@ -534,6 +551,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -569,7 +587,7 @@ T 7002
 b0d0B0 0 600 E
 10 2 2 10d10+150 4d5+8
 0d0+0 0
-8 8 0
+8 8 2
 BareHandAttack: 14
 Str: 15
 Dex: 15
@@ -579,6 +597,7 @@ Con: 12
 Cha: 18
 Size: 80
 Class: 103
+Race: 104
 Height: 155
 Weight: 85
 Special_Bitvector: 0 
@@ -597,7 +616,7 @@ E
 Здоровенный мужик сурового виду.
 У калачника дрожжей, а у кузнеца угольев не проси.
 ~
-b0d0l0B0h1 0 600 E
+b0d0l0n0B0h1u2 0 600 E
 25 5 7 10d10+700 7d9+10
 0d0+0 0
 8 8 1
@@ -610,6 +629,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -627,7 +647,7 @@ E
 ~
 Здоровенный мужик сурового виду. У калачника дрожжей, а у кузнеца угольев не проси.
 ~
-b0d0l0B0i1 0 600 E
+b0d0l0n0B0i1u2 0 600 E
 25 5 2 10d10+700 7d9+10
 5d50+20000 0
 5 5 1
@@ -640,6 +660,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -657,7 +678,7 @@ E
 ~
 Сухощавый, жилистый мужик с сильными руками и цепкими пальцами.
 ~
-b0d0B0h1 0 600 E
+b0d0n0B0h1u2 0 600 E
 24 0 5 10d10+600 5d4+8
 5d60+20000 0
 8 8 1
@@ -670,6 +691,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -687,7 +709,7 @@ E
 ~
 Сухощавый, жилистый мужик с сильными руками и цепкими пальцами.
 ~
-b0d0B0i1 0 600 E
+b0d0n0B0i1u2 0 600 E
 24 0 5 10d10+600 5d4+8
 0d0+20000 0
 6 6 1
@@ -700,6 +722,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -717,7 +740,7 @@ E
 ~
 Содержатель корчмы, жид лукавый. Пройдоха да хитроныра.
 ~
-b0d0B0 0 600 E
+b0d0n0B0u2 0 600 E
 20 0 0 10d10+500 3d2+6
 3d100+10000 0
 8 8 1
@@ -730,6 +753,7 @@ Cha: 18
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -762,6 +786,7 @@ Cha: 10
 Size: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 65
 Special_Bitvector: 0 
@@ -793,6 +818,7 @@ Cha: 20
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -811,7 +837,7 @@ T 7003
 ~
 Толстый розовощекий дядька, так и лучится приветливостью.
 ~
-b0d0B0 0 600 E
+b0d0n0B0u2 d0f0k0 600 E
 22 0 0 10d10+600 3d4+5
 5d5+100 0
 8 8 1
@@ -824,6 +850,7 @@ Cha: 15
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -854,6 +881,7 @@ Cha: 15
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 114
 Height: 165
 Weight: 65
 Special_Bitvector: 0 
@@ -874,7 +902,7 @@ E
 b0d0B0 0 600 E
 22 0 0 10d10+500 3d4+5
 0d0+0 0
-8 8 0
+8 8 1
 Str: 18
 Dex: 20
 Int: 12
@@ -884,6 +912,7 @@ Cha: 15
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -897,7 +926,7 @@ E
 попа~
 попом~
 попе~
-Батюшка поп в черной рясе неспешно дымит кадилом.
+Батюшка в черной рясе неспешно дымит кадилом.
 ~
 Наш поп хорошо служит. Важный, благолепный - хоть сейчас в игумены.
 ~
@@ -914,6 +943,7 @@ Cha: 22
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 95
 Special_Bitvector: 0 
@@ -944,6 +974,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -975,6 +1006,7 @@ Cha: 8
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1006,6 +1038,7 @@ Cha: 15
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1023,7 +1056,7 @@ E
 ~
 Богатый вдовый мужик. Деньгой ссужает, зерно на подержанье дает.
 ~
-b0d0B0 0 600 E
+b0d0B0 d0k0 600 E
 22 0 0 10d10+300 3d4+8
 4d30+100 0
 5 5 1
@@ -1036,6 +1069,7 @@ Cha: 20
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1069,6 +1103,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1099,6 +1134,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1130,6 +1166,7 @@ Cha: 25
 Size: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 65
 Special_Bitvector: 0 
@@ -1162,6 +1199,7 @@ Size: 50
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1177,7 +1215,7 @@ E
 травнике~
 Травник растирает в ступке какое-то зелье.
 ~
-Пожилой мужик с окладистй бородой.
+Пожилой мужик с окладистой бородой.
 ~
 b0d0g0x0B0 d0f0k0 0 E
 21 20 5 10d10+700 5d5+5
@@ -1193,6 +1231,7 @@ Size: 50
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1225,6 +1264,7 @@ Size: 50
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1238,7 +1278,7 @@ E
 сгорбленную старуху~
 сгорбленной старухой~
 сгорбленной старухе~
-Сгорбленаня старуха возится по хозяйству.
+Сгорбленная старуха возится по хозяйству.
 ~
 Седая и горбатая старушенция с внушительной бородавкой на носу.
 Глаза темные да хитрые - на вас поглядывают, все замечают.
@@ -1257,9 +1297,43 @@ Size: 50
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 136 63
 E
+#7040
+сказитель~
+сказитель~
+сказителя~
+сказителю~
+сказителя~
+сказителем~
+сказителе~
+Седовласый сказитель готов поделиться с Вами интересной историей.
+~
+Седовласый странник хранит в своей памяти сотни сказаний и былин.
+Можно попросить его рассказать сказку - авось не откажет.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+E
+T 4020
 $

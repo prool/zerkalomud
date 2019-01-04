@@ -10,28 +10,27 @@
 ~
 Вы видите везучего монгольского батыра.
 ~
-l0A0r2c0s2 A0 -600 E
-19 -3 +10 10d10+600 5d5+15 
+c0d0l0A0r2s2 A0 -600 E
+19 -3 10 10d10+600 5d5+15
 2d2+0 45000
 8 8 1
 CastSuccess: 38
-BareHandAttack:  0
 Str: 27
+Dex: 10
 Int: 13
 Wis: 13
-Dex: 10
 Con: 25
 Cha: 22
+Size: 55
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 55
+Race: 101
 Height: 170
 Weight: 190
-Special_Bitvector: b1c1
-Skill: 134 20
+Special_Bitvector: b1c1 
 Skill: 4 30
+Skill: 134 20
 Skill: 136 80
 E
 T 130101
@@ -51,34 +50,34 @@ I кожа,1:1
 ~
 Вы видите печенежского всадника.
 ~
-l0A0r2c0s2 0 -600 E
-21 0 +5 10d10+500 6d6+15 
+c0d0l0A0r2s2 0 -600 E
+21 0 5 10d10+500 6d6+15
 2d5+0 30000
 8 8 1
 CastSuccess: 42
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 25
+Dex: 16
 Int: 12
 Wis: 12
-Dex: 16
 Con: 20
 Cha: 14
+Size: 65
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 65
-Height: 210
-Weight: 250
-Special_Bitvector: b1c1n0
-Skill: 21 15
-Skill: 143 40
+Race: 104
+Height: 200
+Weight: 200
+Special_Bitvector: n0b1c1 
 Skill: 8 30
-Skill: 137 10
-Skill: 136 80
-Skill: 151 30
+Skill: 21 15
 Skill: 132 25
+Skill: 136 80
+Skill: 137 10
+Skill: 143 40
 Skill: 150 10
+Skill: 151 30
 E
 T 130101
 I глаза,3:1
@@ -97,32 +96,31 @@ I кожа,1:2
 ~
 Вы видите везучего опытного рыцаря.
 ~
-l0A0c0 m1A0 -600 E
-23 -3 3 10d10+600 5d5+10 
+c0d0l0A0 A0m1 -600 E
+23 -3 3 10d10+600 5d5+10
 5d5+0 80000
 8 8 1
 CastSuccess: 46
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 24
-Int: 11
-Wis: 17
 Dex: 18
+Wis: 17
 Con: 22
 Cha: 22
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 2
 Class: 104
-Size: 50
+Race: 101
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Skill: 142 60
-Skill: 137 30
+Special_Bitvector: b1c1 
 Skill: 22 45
 Skill: 136 100
-Skill: 151 50
+Skill: 137 30
+Skill: 142 60
 Skill: 150 30
+Skill: 151 50
 E
 T 130101
 I глаза,3:2
@@ -141,31 +139,29 @@ I кожа,5:5
 ~
 Вы видите молодого половецкого всадника.
 ~
-l0A0r2c0s2 0 -600 E
-19 2 +5 10d10+400 6d6+18 
+c0d0l0A0r2s2 0 -600 E
+19 2 5 10d10+400 6d6+18
 2d5+0 25000
 8 8 1
 CastSuccess: 38
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 24
-Int: 11
-Wis: 11
 Dex: 16
 Con: 20
 Cha: 14
+Size: 65
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 65
-Height: 210
-Weight: 250
-Special_Bitvector: b1c1n0
-Skill: 143 20
+Race: 104
+Height: 200
+Weight: 200
+Special_Bitvector: n0b1c1 
 Skill: 8 10
-Skill: 136 60
-Skill: 151 10
 Skill: 132 5
+Skill: 136 60
+Skill: 143 20
+Skill: 151 10
 E
 T 130101
 I глаза,1:5
@@ -183,25 +179,24 @@ I кожа,1:2
 Манъчжурский цокор вылез из своей норки.
 ~
 Вы видите манъчжурского цокора.~
-l1n1m1h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0l1m1n1 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 105
 Height: 25
 Weight: 20
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,1:7
@@ -221,25 +216,24 @@ I кожа,1:7
 Орел улетает с тушкой грызуна в когтях.
 ~
 Вы видите орла.~
-h0 x0 -600 E
-6 12 +9 1d10+60 4d4+1 
+d0h0 x0 -600 E
+6 12 9 1d10+60 4d4+1
 0d0+0 4000
 8 8 1
 BareHandAttack: 15
 Str: 8
+Dex: 9
 Int: 6
 Wis: 6
-Dex: 9
 Con: 9
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,1:9
@@ -257,25 +251,24 @@ I крылья,2:8
 Черный гриф выискивает падаль с высоты.
 ~
 Вы видите черного грифа.~
-h0 x0 -600 E
-5 11 +9 1d10+50 4d4+0 
+d0h0 x0 -600 E
+5 11 9 1d10+50 4d4+0
 0d0+0 3000
 8 8 1
 BareHandAttack: 15
 Str: 7
+Dex: 8
 Int: 6
 Wis: 6
-Dex: 8
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,4:9
@@ -293,25 +286,24 @@ I крылья,1:7
 Степной заяц кинулся от Вас со всех ног.
 ~
 Вы видите степного зайца.~
-h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,5:9
@@ -330,25 +322,23 @@ I когти,5:7
 Степной олень осторожно смотрит на Вас.
 ~
 Вы видите степного оленя.~
-h0 0 -600 E
-9 12 +8 1d10+90 4d4+4 
+d0h0 0 -600 E
+9 12 8 1d10+90 4d4+4
 0d0+0 7000
 8 8 1
 BareHandAttack: 13
-Str: 11
+Dex: 13
 Int: 6
 Wis: 6
-Dex: 13
 Con: 12
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 35
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 45
 Weight: 40
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,2:8
@@ -367,25 +357,24 @@ I кожа,1:8
 Мелкая степная мышь бежит к своей норке.
 ~
 Вы видите мелкую степную мышь.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,5:5
@@ -393,5 +382,4 @@ I шерсть,5:7
 I зубы,5:6
 I кости,2:5
 I когти,2:9
-$
 $

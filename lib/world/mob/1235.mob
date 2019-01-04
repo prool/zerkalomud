@@ -10,37 +10,35 @@
 ~
 Вы видите удачливого хазарского охотника.
 ~
-l0A0r2c0s2 A0 -600 E
-20 -2 +8 10d10+350 5d5+10 
+c0d0l0A0r2s2 A0 -600 E
+20 -2 8 10d10+350 5d5+10
 3d2+0 35000
 8 8 1
 CastSuccess: 40
-BareHandAttack:  9
+BareHandAttack: 9
 Str: 20
+Dex: 18
 Int: 12
 Wis: 15
-Dex: 18
 Con: 18
 Cha: 27
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 150
-Special_Bitvector: b1c1
-Skill: 155 25
+Special_Bitvector: b1c1 
 Skill: 7 20
-Skill: 154 25
 Skill: 136 80
+Skill: 154 25
+Skill: 155 25
 Skill: 157 20
 E
 T 123501
 I глаза,1:2
 I зубы,1:4
-I кости,3:2
-I кожа,4:1
 #123501
 Опытный хазарский всадник~
 Опытный хазарский всадник~
@@ -53,40 +51,38 @@ I кожа,4:1
 ~
 Вы видите опытного хазарского всадника.
 ~
-l0A0r2c0s2 m1 -600 E
-24 0 3 10d10+600 6d6+15 
+c0d0l0A0r2s2 m1 -600 E
+24 0 3 10d10+600 6d6+15
 2d5+0 60000
 8 8 1
 CastSuccess: 48
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 27
+Dex: 15
 Int: 12
 Wis: 15
-Dex: 15
 Con: 20
 Cha: 14
+Size: 65
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 65
-Height: 210
-Weight: 250
-Special_Bitvector: b1c1n0
-Skill: 21 35
-Skill: 143 60
+Race: 104
+Height: 200
+Weight: 200
+Special_Bitvector: n0b1c1 
 Skill: 8 50
-Skill: 137 30
-Skill: 136 100
-Skill: 151 50
+Skill: 21 35
 Skill: 132 45
+Skill: 136 100
+Skill: 137 30
+Skill: 143 60
 Skill: 150 30
+Skill: 151 50
 E
 T 123501
 I глаза,3:5
 I зубы,3:4
-I кости,3:1
-I кожа,3:2
 #123502
 Великий воин~
 Великий воин~
@@ -99,38 +95,36 @@ I кожа,3:2
 ~
 Вы видите великого воина.
 ~
-l0A0x0c0 C0d0h0 -600 E
-27 -10 +5 10d10+1100 5d5+10 
+c0d0l0x0A0 d0h0C0 -600 E
+27 -10 5 10d10+1100 5d5+10
 5d5+0 80000
 8 8 1
 CastSuccess: 54
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 24
+Dex: 20
 Int: 13
 Wis: 21
-Dex: 20
 Con: 24
 Cha: 14
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 50
+Race: 104
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Skill: 142 90
-Skill: 137 60
+Special_Bitvector: b1c1 
 Skill: 22 75
 Skill: 136 130
-Skill: 151 80
+Skill: 137 60
+Skill: 142 90
 Skill: 150 60
+Skill: 151 80
 E
 T 123501
 I глаза,4:5
 I зубы,1:3
-I кости,2:4
-I кожа,3:1
 #123503
 Старый монгольский нукер~
 Старый монгольский нукер~
@@ -143,39 +137,37 @@ I кожа,3:1
 ~
 Вы видите старого монгольского нукера.
 ~
-l0A0r2c0s2 h0k0 -600 E
-26 -4 +2 10d10+650 5d6+15 
+c0d0l0A0r2s2 h0k0 -600 E
+26 -4 2 10d10+650 5d6+15
 10d5+0 65000
 8 8 1
 CastSuccess: 52
-BareHandAttack:  7
+BareHandAttack: 7
 Str: 25
+Dex: 17
 Int: 16
 Wis: 13
-Dex: 17
 Con: 25
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 2
 Class: 104
-Size: 50
+Race: 101
 Height: 190
 Weight: 180
-Special_Bitvector: b1c1
-Skill: 142 85
-Skill: 137 60
+Special_Bitvector: b1c1 
 Skill: 22 75
-Skill: 136 115
-Skill: 151 85
 Skill: 132 55
+Skill: 136 115
+Skill: 137 60
+Skill: 142 85
 Skill: 150 50
+Skill: 151 85
 E
 T 123501
 I глаза,4:1
 I зубы,1:5
-I кости,3:3
-I кожа,4:3
 #123504
 кулан~
 кулан~
@@ -187,32 +179,29 @@ I кожа,4:3
 Кулан осторожно смотрит на Вас.
 ~
 Вы видите кулана.~
-h0 0 -600 E
-6 12 +9 1d10+60 4d4+1 
+d0h0 0 -600 E
+6 12 9 1d10+60 4d4+1
 0d0+0 4000
 8 8 1
 BareHandAttack: 13
 Str: 8
+Dex: 9
 Int: 6
 Wis: 6
-Dex: 9
 Con: 9
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,5:9
 I шерсть,4:5
 I зубы,2:8
-I кости,5:5
-I кожа,4:9
 #123505
 суслик~
 суслик~
@@ -224,32 +213,29 @@ I кожа,4:9
 Суслик замер тут.
 ~
 Вы видите суслика.~
-l1n1m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0l1m1n1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,4:5
 I зубы,3:7
-I кости,5:8
 I когти,1:7
-I кожа,2:8
 #123506
 черный гриф~
 черный гриф~
@@ -261,29 +247,27 @@ I кожа,2:8
 Черный гриф выискивает падаль с высоты.
 ~
 Вы видите черного грифа.~
-h0 x0 -600 E
-5 11 +9 1d10+50 4d4+0 
+d0h0 x0 -600 E
+5 11 9 1d10+50 4d4+0
 0d0+0 3000
 8 8 1
 BareHandAttack: 15
 Str: 7
+Dex: 8
 Int: 6
 Wis: 6
-Dex: 8
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,4:5
-I кости,3:5
 I когти,3:6
 I крылья,4:5
 #123507
@@ -297,32 +281,29 @@ I крылья,4:5
 Сурок прохаживается тут.
 ~
 Вы видите сурка.~
-l1n1m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0l1m1n1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,1:7
 I зубы,2:5
-I кости,2:5
 I когти,4:9
-I кожа,2:7
 #123508
 саранча~
 саранча~
@@ -334,25 +315,24 @@ I кожа,2:7
 Саранча сидит тут в траве.
 ~
 Вы видите саранчу.~
-l1m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0l1m1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 #123509
@@ -366,30 +346,27 @@ E
 Степной коршун улетает с тушкой грызуна в когтях.
 ~
 Вы видите степного коршуну.~
-h0 x0 -600 E
-6 12 +9 1d10+60 4d4+1 
+d0h0 x0 -600 E
+6 12 9 1d10+60 4d4+1
 0d0+0 4000
 8 8 1
 BareHandAttack: 15
 Str: 8
+Dex: 9
 Int: 6
 Wis: 6
-Dex: 9
 Con: 9
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,2:9
-I кости,5:8
 I когти,2:6
 I крылья,4:5
-$
 $

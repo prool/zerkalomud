@@ -10,31 +10,30 @@
 ~
 Вы видите сильного половецкого лазутчика.
 ~
-l0A0r2c0s2 0 -600 E
-20 -1 0 10d15+400 5d4+12 
+c0d0l0A0r2s2 0 -600 E
+20 -1 0 10d15+400 5d4+12
 2d2+5 42000
 8 8 1
 CastSuccess: 40
 BareHandAttack: 11
 Str: 18
-Int: 12
-Wis: 11
 Dex: 25
+Int: 12
 Con: 16
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 120
 Weight: 110
-Special_Bitvector: a1b1c1
-Skill: 147 40
-Skill: 139 15
-Skill: 160 30
+Special_Bitvector: a1b1c1 
 Skill: 136 90
+Skill: 139 15
+Skill: 147 40
 Skill: 157 35
+Skill: 160 30
 E
 T 132001
 I глаза,1:4
@@ -53,29 +52,28 @@ I кожа,5:2
 ~
 Вы видите печенежского чабана.
 ~
-l0A0r2c0s2 0 -600 E
-17 8 +10 10d10+450 3d5+5 
+c0d0l0A0r2s2 0 -600 E
+17 8 10 10d10+450 3d5+5
 2d2+0 19000
 8 8 1
 CastSuccess: 34
-BareHandAttack:  0
 Str: 16
+Dex: 15
 Int: 15
 Wis: 15
-Dex: 15
 Con: 15
 Cha: 12
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 130
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 7 20
-Skill: 160 30
 Skill: 136 80
+Skill: 160 30
 E
 T 132001
 I глаза,2:3
@@ -94,37 +92,36 @@ I кожа,1:2
 ~
 Вы видите хмурого татарского десятника.
 ~
-l0A0r2c0s2 0 -600 E
-22 -3 +7 10d10+500 6d5+15 
+c0d0l0A0r2s2 0 -600 E
+22 -3 7 10d10+500 6d5+15
 2d2+0 35000
 8 8 1
 CastSuccess: 44
-BareHandAttack:  0
 Str: 21
+Dex: 13
 Int: 17
 Wis: 19
-Dex: 13
 Con: 20
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 50
+Race: 101
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Spell: 39 1
-Spell: 3 1
-Spell: 17 1
-Spell: 15 1
-Spell: 1 1
-Skill: 134 30
-Skill: 143 50
-Skill: 137 40
+Special_Bitvector: b1c1 
 Skill: 1 15
-Skill: 136 80
 Skill: 132 30
+Skill: 134 30
+Skill: 136 80
+Skill: 137 40
+Skill: 143 50
+Spell: 1
+Spell: 3
+Spell: 15
+Spell: 17
+Spell: 39
 E
 T 132001
 I глаза,2:4
@@ -143,26 +140,25 @@ I кожа,5:4
 ~
 Вы видите нежить.
 ~
-l0r2s2 0 -600 E
-20 9 +10 10d10+350 3d3+5 
+d0l0r2s2 0 -600 E
+20 9 10 10d10+350 3d3+5
 3d2+0 50000
 8 8 2
 CastSuccess: 40
-BareHandAttack:  0
 Str: 15
+Dex: 19
 Int: 19
 Wis: 20
-Dex: 19
 Con: 13
 Cha: 19
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 50
+Race: 110
 Height: 180
 Weight: 140
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 80
 E
 T 132001
@@ -177,25 +173,24 @@ T 132001
 Степной коршун парит в небе.
 ~
 Вы видите степного коршуну.~
-h0 x0 -600 E
-6 12 +9 1d10+60 4d4+1 
+d0h0 x0 -600 E
+6 12 9 1d10+60 4d4+1
 0d0+0 4000
 8 8 1
 BareHandAttack: 15
 Str: 8
+Dex: 9
 Int: 6
 Wis: 6
-Dex: 9
 Con: 9
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,2:7
@@ -213,25 +208,24 @@ I крылья,1:9
 Дрофа стоит тут.
 ~
 Вы видите дрофу.~
-h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 2
 BareHandAttack: 15
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 25
 Weight: 20
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 60
 E
 I глаза,5:6
@@ -249,25 +243,24 @@ I крылья,5:5
 Хитрый степной хорь замер при виде Вас.
 ~
 Вы видите хитрого степного хоря.~
-h0 0 -600 E
-6 12 +9 1d10+60 4d4+1 
+d0h0 0 -600 E
+6 12 9 1d10+60 4d4+1
 0d0+0 4000
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 8
+Dex: 9
 Int: 6
 Wis: 6
-Dex: 9
 Con: 9
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,4:8
@@ -286,25 +279,24 @@ I когти,3:5
 Степной тушканчик вильнул кисточкой хвоста.
 ~
 Вы видите степного тушканчика.~
-h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,1:8
@@ -324,25 +316,24 @@ I кожа,3:8
 Журавль гордо парит в небе.
 ~
 Вы видите журавля.~
-l1n1m1h0 x0 -600 E
-4 10 +9 1d10+40 4d3+0 
+d0h0l1m1n1 x0 -600 E
+4 10 9 1d10+40 4d3+0
 0d0+0 2000
 8 8 1
 BareHandAttack: 15
 Str: 6
+Dex: 7
 Int: 6
 Wis: 6
-Dex: 7
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 25
 Weight: 20
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,3:7
@@ -360,29 +351,27 @@ I крылья,5:9
 Степной уж свернулся кольцом.
 ~
 Вы видите степного ужа.~
-t1l1q0m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0q0l1m1t1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 105
 Height: 5
 Weight: 10
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 136 60
 E
 I глаза,5:9
 I кости,3:9
 I кожа,3:8
-$
 $

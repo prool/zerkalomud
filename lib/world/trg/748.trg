@@ -11,7 +11,7 @@ wsend %actor%  Подтянувшись и совершив еще несколько ловких движений Вы взобрали
 wechoaround %actor%  Подтянувшись %actor.name% исчез%actor.q% из виду.
 wteleport %actor% 74856
 wait 1s
-wsend %actor%  Едва Вы взобрались на гору, как тут же рухнули обессилив на землю.
+wsend %actor%  Едва Вы взобрались на гору, как тут же рухнули обессилeв на землю.
 %actor.position(6)%
 %actor.wait(2)%
 wechoaround %actor%  Кто-то забрался сюда, и тут же рухнул на землю без сил. 
@@ -164,7 +164,7 @@ end
 0 k 100
 ~
 if (%world.curmobs(74816)% < 3)  && (%random.5% == 1)
-  mecho Волшбник-нежити произнес : 'Дажьбог, даруй защитника'.
+  mecho Волшебник-нежити произнес : 'Дажьбог, даруй защитника'.
   mecho Огненный хранитель появился из вихря пламени! 
   mecho Огненный хранитель начал следовать за Волшебником-нежити.
   mload mob 74816
@@ -351,13 +351,13 @@ end
 умер босс~
 0 f 100
 ~
-if ( (%world.curobjs(74836)% < 3) && (%random.1000% < 201 ) )
+if ( (%world.curobjs(74836)% < 2) && (%random.1000% < 201 ) )
   mload obj 74836
 end
-if ( (%world.curobjs(74837)% < 3) && (%random.1000% < 201 ) )
+if ( (%world.curobjs(74837)% < 2) && (%random.1000% < 201 ) )
   mload obj 74837
 end
-if ( (%world.curobjs(74839)% < 3) && (%random.1000% < 201 ) )
+if ( (%world.curobjs(74839)% < 2) && (%random.1000% < 201 ) )
   mload obj 74839
 end
 *лоад седого мага
@@ -683,9 +683,9 @@ detach 74824 %self%
 умер клер~
 0 f 100
 ~
-if ( (%world.curobjs(74820)% < 3) && (%random.1000% < 101 ) )
+if ( (%world.curobjs(74820)% < 2) && (%random.1000% < 101 ) )
   mload obj 74820
-elseif ( (%world.curobjs(74821)% < 3) && (%random.1000% < 101 ) )
+elseif ( (%world.curobjs(74821)% < 2) && (%random.1000% < 101 ) )
   mload obj 74821
 end
 ~
@@ -693,9 +693,9 @@ end
 умер колд~
 0 f 100
 ~
-if ( (%world.curobjs(74822)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74822)% < 2) && (%random.1000% < 101) )
   mload obj 74822
-elseif ( (%world.curobjs(74823)% < 3) && (%random.1000% < 101) )
+elseif ( (%world.curobjs(74823)% < 2) && (%random.1000% < 101) )
   mload obj 74823
 end
 ~
@@ -703,9 +703,9 @@ end
 умер вор~
 0 f 100
 ~
-if ( (%world.curobjs(74824)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74824)% < 2) && (%random.1000% < 101) )
   mload obj 74824
-elseif ( (%world.curobjs(74825)% < 3) && (%random.1000% < 101) )
+elseif ( (%world.curobjs(74825)% < 2) && (%random.1000% < 101) )
   mload obj 74825
 end
 ~
@@ -713,9 +713,9 @@ end
 умер батыр~
 0 f 100
 ~
-if ( (%world.curobjs(74826)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74826)% < 2) && (%random.1000% < 101) )
   mload obj 74826
-elseif ( (%world.curobjs(74827)% < 3) && (%random.1000% < 101) )
+elseif ( (%world.curobjs(74827)% < 2) && (%random.1000% < 101) )
   mload obj 74827
 end
 ~
@@ -723,9 +723,9 @@ end
 умер наем~
 0 f 100
 ~
-if ( (%world.curobjs(74828)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74828)% < 2) && (%random.1000% < 101) )
   mload obj 74828
-elseif ( (%world.curobjs(74829)% < 3) && (%random.1000% < 101) )
+elseif ( (%world.curobjs(74829)% < 2) && (%random.1000% < 101) )
   mload obj 74829
 end
 ~
@@ -733,9 +733,9 @@ end
 умер друж~
 0 f 100
 ~
-if ( (%world.curobjs(74830)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74830)% < 2) && (%random.1000% < 101) )
   mload obj 74830
-elseif ( (%world.curobjs(74831)% < 3) && (%random.1000% < 101) )
+elseif ( (%world.curobjs(74831)% < 2) && (%random.1000% < 101) )
   mload obj 74831
 end
 ~
@@ -743,9 +743,9 @@ end
 умер кудес~
 0 f 100
 ~
-if ( (%world.curobjs(74832)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74832)% < 2) && (%random.1000% < 101) )
   mload obj 74832
-elseif ( (%world.curobjs(74833)% < 3) && (%random.1000% < 101) )
+elseif ( (%world.curobjs(74833)% < 2) && (%random.1000% < 101) )
   mload obj 74833
 end
 ~
@@ -753,9 +753,9 @@ end
 умер волш~
 0 f 100
 ~
-if ( (%world.curobjs(74834)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74834)% < 2) && (%random.1000% < 101) )
   mload obj 74834
-elseif ( (%world.curobjs(74835)% < 3) && (%random.1000% < 101) )
+elseif ( (%world.curobjs(74835)% < 2) && (%random.1000% < 101) )
   mload obj 74835
 end
 ~
@@ -763,39 +763,25 @@ end
 умер чернок~
 0 f 100
 ~
-if ( (%world.curobjs(74800)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74800)% < 2) && (%random.1000% < 101) )
   mload obj 74800
-elseif ( (%world.curobjs(74807)% < 3) && (%random.1000% < 101) )
-  mload obj 74807
-end
-~
-#74834
-умер витя~
-0 f 100
-~
-if ( (%world.curobjs(74838)% < 3) && (%random.1000% < 101) )
-  mload obj 74838
-elseif ( (%world.curobjs(74801)% < 3) && (%random.1000% < 101) )
-  mload obj 74801
 end
 ~
 #74835
 умер охот~
 0 f 100
 ~
-if ( (%world.curobjs(74840)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74840)% < 2) && (%random.1000% < 101) )
   mload obj 74840
-elseif ( (%world.curobjs(74841)% < 3) && (%random.1000% < 101) )
-  mload obj 74841
 end
 ~
 #74836
 умер кузя~
 0 f 100
 ~
-if ( (%world.curobjs(74842)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74842)% < 2) && (%random.1000% < 101) )
   mload obj 74842
-elseif ( (%world.curobjs(74843)% < 3) && (%random.1000% < 101) )
+elseif ( (%world.curobjs(74843)% < 2) && (%random.1000% < 101) )
   mload obj 74843
 end
 ~
@@ -803,9 +789,9 @@ end
 умер купа~
 0 f 100
 ~
-if ( (%world.curobjs(74844)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74844)% < 2) && (%random.1000% < 101) )
   mload obj 74844
-elseif ( (%world.curobjs(74845)% < 3) && (%random.1000% < 101) )
+elseif ( (%world.curobjs(74845)% < 2) && (%random.1000% < 101) )
   mload obj 74845
 end
 ~
@@ -813,9 +799,9 @@ end
 умер волхв~
 0 f 100
 ~
-if ( (%world.curobjs(74846)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74846)% < 2) && (%random.1000% < 101) )
   mload obj 74846
-elseif ( (%world.curobjs(74850)% < 3) && (%random.1000% < 101) )
+elseif ( (%world.curobjs(74850)% < 2) && (%random.1000% < 101) )
   mload obj 74850
 end
 ~
@@ -845,7 +831,7 @@ attach 74849 %troom.id%
 умер охот2~
 0 f 100
 ~
-if ( (%world.curobjs(74804)% < 4) && (%random.1000% < 101) )
+if ( (%world.curobjs(74804)% < 2) && (%random.1000% < 101) )
   mload obj 74804
 end
 ~
@@ -871,9 +857,9 @@ detach 74841 %self%
 умерли стражники~
 0 f 100
 ~
-if ( (%world.curobjs(74847)% < 3) && (%random.1000% < 101) )
+if ( (%world.curobjs(74847)% < 2) && (%random.1000% < 101) )
   mload obj 74847
-elseif ( (%world.curobjs(74848)% < 3) && (%random.1000% < 101) )
+elseif ( (%world.curobjs(74848)% < 2) && (%random.1000% < 101) )
   mload obj 74848
 end
 ~
@@ -903,7 +889,7 @@ global m11
 умер клер2~
 0 f 100
 ~
-if ( (%world.curobjs(74802)% < 4) && (%random.1000% < 101) )
+if ( (%world.curobjs(74802)% < 2) && (%random.1000% < 101) )
   mload obj 74802
 end
 ~
@@ -911,7 +897,7 @@ end
 умер волхв2~
 0 f 100
 ~
-if ( (%world.curobjs(74805)% < 4) && (%random.1000% < 101) )
+if ( (%world.curobjs(74805)% < 2) && (%random.1000% < 101) )
   mload obj 74805
 end
 ~
@@ -919,7 +905,7 @@ end
 умер волш2~
 0 f 100
 ~
-if ( (%world.curobjs(74808)% < 4) && (%random.1000% < 101) )
+if ( (%world.curobjs(74808)% < 2) && (%random.1000% < 101) )
   mload obj 74808
 end
 ~

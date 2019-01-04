@@ -21,6 +21,8 @@ Con: 22
 Size: 70
 LikeWork: 100
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -72,6 +74,8 @@ Con: 18
 Size: 50
 LikeWork: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -131,6 +135,8 @@ Con: 19
 Size: 80
 LikeWork: 20
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -179,6 +185,8 @@ Cha: 25
 Size: 30
 LikeWork: 100
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 

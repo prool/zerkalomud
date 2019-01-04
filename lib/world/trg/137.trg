@@ -84,7 +84,7 @@ switch %actor.class%
               if %actor.sex% == 1
                 say Здравствуй, волшебник!
               elseif %actor.sex%  == 2
-                say Здравствуй, волшебнца!
+                say Здравствуй, волшебница!
               else
                 say Здравствуй, хз чо!
               end

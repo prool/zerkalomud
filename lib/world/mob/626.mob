@@ -23,6 +23,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: a0a1b1c1 
@@ -35,7 +36,6 @@ Skill: 157 70
 Skill: 160 60
 E
 T 62628
-I кости,10:25
 #62601
 страж вор ловкий~
 ловкий вор~
@@ -50,7 +50,7 @@ I кости,10:25
 Глава гильдии поставил его охранять вход за какую-то провинность.
 ~
 b0c0d0f0g0h0l0m0n0o0p0A0g2 d0f0r0s0t0z0A0 -600 E
-20 0 -10 10d10+1500 5d5+12
+25 0 -10 10d10+1500 5d5+12
 5d5+19 100000
 8 8 1
 BareHandAttack: 11
@@ -61,6 +61,7 @@ Dex: 25
 Size: 40
 LikeWork: 15
 Class: 102
+Race: 101
 Height: 160
 Weight: 70
 Special_Bitvector: a1b1c1 
@@ -86,7 +87,7 @@ E
 но с таким учителем он, несомненно, вскоре станет грозой рынков.
 ~
 d0l0m0A0 k0r0 -600 E
-17 0 -10 10d10+900 5d5+10
+25 0 -10 10d10+900 5d5+10
 2d2+8 100000
 8 8 1
 BareHandAttack: 11
@@ -100,6 +101,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -122,7 +124,7 @@ E
 своих членов и его пристроили следить за архивом.
 ~
 b0d0g0l0n0o0p0q0r0x0y0 k0r0C0 -600 E
-17 1 1 1d10+300 5d5+5
+18 1 1 1d10+300 5d5+5
 9d9+20 30000
 6 6 1
 BareHandAttack: 2
@@ -135,6 +137,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: d0 
@@ -171,7 +174,7 @@ E
 Киеве.
 ~
 b0d0 d0f0k0r0 -600 E
-25 0 -10 10d10+1000 5d5+5
+12 0 -10 10d10+1000 5d5+5
 100d1+10 10000
 6 8 1
 Str: 10
@@ -183,6 +186,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -202,7 +206,7 @@ T 62602
 молодой парень с простоватым рябым лицом растерянно озирается вокруг.
 ~
 c0d0l0m0n0o0A0 k0r0 -600 E
-15 -4 -10 10d10+1000 5d5+10
+25 -4 -10 10d10+1000 5d5+10
 2d2+15 90000
 8 8 1
 BareHandAttack: 11
@@ -217,6 +221,7 @@ LikeWork: 15
 MaxFactor: 1
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 72
 Special_Bitvector: b1c1 
@@ -253,6 +258,7 @@ Size: 100
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -277,7 +283,7 @@ I зубы,10:15
 напевает: "Светит месяц, светит ясный, светит полная луна!"
 ~
 d0 k0r0 -600 E
-24 0 -6 10d10+900 4d4+10
+25 0 -6 10d10+900 4d4+10
 0d0+0 100000
 8 8 1
 BareHandAttack: 8
@@ -291,6 +297,7 @@ Size: 60
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 155
 Weight: 65
 Special_Bitvector: 0 
@@ -329,6 +336,7 @@ Size: 90
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 79
 Special_Bitvector: a1b1c1 
@@ -367,6 +375,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -401,6 +410,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 185
 Weight: 105
 Special_Bitvector: 0 
@@ -435,6 +445,7 @@ Size: 89
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 78
 Special_Bitvector: j0B3 
@@ -459,7 +470,7 @@ T 62619
 он удачно "поработал" и теперь отдыхает по полной программе.
 ~
 d0 k0r0 -600 E
-23 0 -6 10d10+800 5d5+10
+25 0 -6 10d10+800 5d5+10
 0d0+12 100000
 6 6 1
 Str: 10
@@ -472,6 +483,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -509,6 +521,7 @@ Size: 85
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 81
 Special_Bitvector: 0 
@@ -532,7 +545,7 @@ E
 с ним играть, а рука сама тянется проверить на месте ли кошель.
 ~
 d0 k0r0 -600 E
-20 0 -10 10d10+1000 4d5+10
+25 0 -10 10d10+1000 4d5+10
 0d0+25 100000
 6 6 1
 Str: 10
@@ -545,6 +558,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -571,7 +585,7 @@ E
 за стойкой и, похоже, вполне доволен жизнью.
 ~
 b0d0n0o0 d0k0r0 -600 E
-25 0 -10 10d10+1000 5d5+10
+30 0 -10 10d10+1000 5d5+10
 0d0+100 280000
 8 8 1
 Str: 10
@@ -583,6 +597,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -623,6 +638,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -646,7 +662,7 @@ E
 и замаливает свои грехи перед богами.
 ~
 d0l0m0n0o0 k0r0 -600 E
-28 0 -10 10d10+1200 4d4+12
+27 0 -10 10d10+1200 4d4+12
 0d0+150 120000
 5 5 1
 Str: 10
@@ -659,6 +675,7 @@ Size: 100
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -681,7 +698,7 @@ E
 всех операций гильдии.
 ~
 d0l0m0n0o0 k0r0 -600 E
-28 0 -10 10d10+1000 5d5+12
+25 0 -10 10d10+1000 5d5+12
 0d0+150 100000
 5 5 1
 BareHandAttack: 11
@@ -695,6 +712,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -718,7 +736,7 @@ E
 лица.
 ~
 d0 k0r0 -600 E
-29 0 -10 10d10+1000 5d5+15
+27 0 -10 10d10+1000 5d5+15
 0d0+100 130000
 8 8 1
 Str: 30
@@ -731,6 +749,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -739,7 +758,6 @@ Skill: 132 100
 Skill: 136 87
 Skill: 158 100
 E
-I кожа,10:10
 #62620
 ванька каин~
 Ванька-Каин~
@@ -757,7 +775,7 @@ I кожа,10:10
 покинул сей бренный мир.
 ~
 b0d0l0m0n0o0 d0k0r0 -600 E
-30 0 0 10d10+1500 5d5+12
+29 0 0 10d10+1500 5d5+12
 0d0+300 200000
 8 6 1
 BareHandAttack: 11
@@ -771,6 +789,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -792,11 +811,11 @@ Skill: 137 100
 Skill: 139 100
 Skill: 157 100
 Spell: 93
-Helper: 62617
-Helper: 62621
-Helper: 62622
-Helper: 62619
 Helper: 62618
+Helper: 62619
+Helper: 62622
+Helper: 62621
+Helper: 62617
 E
 T 62605
 T 62610
@@ -815,7 +834,7 @@ T 62615
 сразу выдает его основной род занятий.
 ~
 b0d0l0m0n0o0 d0k0r0 -600 E
-28 0 -5 10d10+600 4d4+6
+29 0 -5 10d10+600 4d4+6
 0d0+15 200000
 8 8 1
 Str: 10
@@ -828,6 +847,7 @@ Size: 100
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -855,7 +875,7 @@ E
 лучше на него не смотреть, а то опять вырвет.
 ~
 b0d0l0m0n0o0 0 -600 E
-29 0 -6 10d10+2000 3d3+6
+30 0 -6 10d10+2000 3d3+6
 0d0+30 300000
 8 8 1
 Str: 10
@@ -867,6 +887,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -889,7 +910,7 @@ E
 невиданное чудище~
 невиданным чудищем~
 невиданном чудище~
-Чудовищное существо созданное силой магии из кусков различных тел рыщет здесь в поисках жертвы.
+Чудовищное существо, созданное магией из кусков тел, рыщет в поисках жертвы.
 ~
 &RНевиданное чудище ЖЕСТОКО разорвало Вас аки Тузик грелку! &n
 Вы мертвы!  Hам очень жаль...
@@ -904,7 +925,7 @@ E
 5) Удалить персонаж.
 ~
 d0f0l0m0n0o0q1 k0r0 -600 E
-35 -2 -10 10d10+2500 5d7+15
+30 -2 -10 10d10+2500 5d7+15
 0d0+0 300000
 8 8 0
 BareHandAttack: 13
@@ -918,6 +939,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 103
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -949,7 +971,7 @@ T 62608
 нормальных пацанов.
 ~
 b0d0 k0r0 0 E
-25 0 -10 10d10+1000 0d0+5
+12 0 -10 10d10+1000 0d0+5
 0d0+0 10000
 8 6 1
 Str: 10
@@ -961,6 +983,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -981,7 +1004,7 @@ T 62681
 то, что крал у своих!
 ~
 b0d0 k0r0 -600 E
-15 0 -9 10d10+1000 5d5+8
+25 0 -9 10d10+1000 5d5+8
 0d0+0 100000
 8 8 1
 Str: 10
@@ -993,6 +1016,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1013,7 +1037,7 @@ T 62630
 Сущие пустяки. Жадность фраера сгубила, надо было платить и не выеживаться.
 ~
 d0 0 0 E
-23 0 -10 10d10+1000 5d5+10
+25 0 -10 10d10+1000 5d5+10
 0d0+10 100000
 8 6 1
 Str: 10
@@ -1026,6 +1050,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1046,7 +1071,7 @@ E
 сын знатного новгородца попал в неволю.
 ~
 d0 0 0 E
-15 0 -7 10d10+300 4d4+4
+25 0 -7 10d10+300 4d4+4
 0d0+0 90000
 8 8 1
 Str: 10
@@ -1058,6 +1083,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1078,7 +1104,7 @@ E
 что поворачиваться к этому типу спиной небезопасно.
 ~
 d0f0h0n0o0A0 f0k0r0s0t0A0m1r1 -600 E
-24 2 -6 10d20+850 2d8+3
+25 2 -6 10d20+850 2d8+3
 15d20+0 90000
 8 8 1
 Str: 21
@@ -1091,6 +1117,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i0j0b1c1m3 
@@ -1137,6 +1164,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1178,7 +1206,7 @@ E
 на цепь посадили, да на себя работать заставили.
 ~
 b0d0l0n0o0p0 d0k0 600 E
-27 4 -5 30d10+700 0d0+0
+20 4 -5 30d10+700 0d0+0
 0d0+0 40000
 6 6 1
 Str: 10
@@ -1190,6 +1218,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1215,7 +1244,7 @@ T 62621
 колбочки с серой жидкостью.
 ~
 b0c0d0l0n0o0p0 d0f0k0c1m1 -600 E
-26 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 10d40+0 10000
 8 8 1
 Str: 10
@@ -1227,6 +1256,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1288,7 +1318,7 @@ T 62622
 о котором деревенский кузнец-недотепа и знать-то не может.
 ~
 b0c0d0l0n0o0p0 d0f0k0c1m1 -600 E
-26 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 10d40+0 10000
 8 8 1
 Str: 10
@@ -1300,6 +1330,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1335,7 +1366,7 @@ T 62625
 отсюда?
 ~
 b0d0f0l0m0n0o0 d0f0k0r0A0 -600 E
-23 0 -10 10d30+750 5d5+8
+12 0 -10 10d30+750 5d5+8
 0d0+0 10000
 8 8 1
 BareHandAttack: 10
@@ -1348,6 +1379,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0d0 

@@ -30,7 +30,7 @@ wecho Это святое место было осквернено
 2 e 100
 ~
 wait 1
-if %exist.mob(11801)%
+if %exist.mob(11811)%
   wecho Присоединись к моей армии!
 end
 ~
@@ -152,11 +152,13 @@ attach 11808 %monah.id%
 remote myhero %world.mob(11800)%
 ~
 #11806
-ворон хиляется~
-0 p 100
+ворон трансформится~
+0 k 100
 ~
-mecho Из проклятой земли под вашими ногами вырвался луч тьмы, который восстановил Ворона!
-%self.hitp% = %self.maxhitp%
+mtransform 11801
+calcuid vorona 11801 mob
+attach 11805 %vorona.id%
+detach 11806 %self.id%
 ~
 #11807
 освятили землю~
@@ -164,8 +166,8 @@ mecho Из проклятой земли под вашими ногами вырвался луч тьмы, который восстанови
 ~
 if (%actor.realroom% == 11819)
   oecho Святая земля вспыхнула ярким светом и тьма развеялась.
-  calcuid voron 11801 mob
-  detach 11806 %voron.id%
+  calcuid voron 11811 mob
+  attach 11806 %voron.id%
 end
 wait 1
 opurge %self%
@@ -179,7 +181,7 @@ if (%actor.id% != %myhero.id%)
   say Пусть войдет ко мне %myhero.name%, мой герой !
   halt
 end
-switch %random.20%
+switch %random.28%
   case 1
     if %world.curobjs(11804)% < 3
       say Спасибо путник, теперь я отблагодарю тебя!
@@ -233,8 +235,7 @@ switch %random.20%
 Репоп зоны "кровавый ворон"~
 2 f 100
 ~
-calcuid graven 11801 mob
+calcuid graven 11811 mob
 detach 11806 %graven.id%
-attach 11806 %graven.id%
 ~
 $~

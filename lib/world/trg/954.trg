@@ -15,7 +15,7 @@ if %actor.move% < 80
   wdamage %actor% 100
   halt
 end
-%actor.move(-80)%
+eval buf %actor.move(-80)%
 wsend %actor% _Цепляясь за камни Вы начали медленно карабкаться вверх.
 wechoaround %actor% %actor.name% начал%actor.g% медленно взбираться вверх.
 wteleport %actor% 95411
@@ -301,6 +301,10 @@ sneak
 look
 look
 hide
+set target %random.pc%
+if %target%
+  mkill %target%
+end
 ~
 #95417
 баттл-тригер огромного паука~

@@ -25,6 +25,7 @@ Size: 5
 LikeWork: 60
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 5
 Weight: 3
 Special_Bitvector: 0 
@@ -57,6 +58,7 @@ Size: 15
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 50
 Special_Bitvector: 0 
@@ -100,6 +102,7 @@ Size: 10
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 90
 Special_Bitvector: y0 
@@ -132,6 +135,7 @@ Size: 15
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
@@ -165,6 +169,7 @@ Size: 10
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
@@ -198,6 +203,7 @@ Con: 3
 Cha: 3
 Size: 3
 Class: 103
+Race: 103
 Height: 7
 Weight: 2
 Special_Bitvector: 0 
@@ -228,6 +234,7 @@ Con: 3
 Cha: 3
 Size: 3
 Class: 103
+Race: 103
 Height: 6
 Weight: 2
 Special_Bitvector: 0 
@@ -259,6 +266,7 @@ Con: 3
 Cha: 3
 Size: 1
 Class: 103
+Race: 103
 Height: 1
 Weight: 1
 Special_Bitvector: 0 
@@ -293,6 +301,7 @@ Cha: 3
 Size: 10
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: 0 
@@ -323,6 +332,7 @@ Con: 5
 Cha: 3
 Size: 5
 Class: 103
+Race: 104
 Height: 100
 Weight: 50
 Special_Bitvector: 0 
@@ -356,6 +366,7 @@ Size: 3
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 70
 Weight: 150
 Special_Bitvector: 0 
@@ -387,6 +398,7 @@ Con: 10
 Cha: 3
 Size: 10
 Class: 103
+Race: 104
 Height: 80
 Weight: 70
 Special_Bitvector: 0 
@@ -418,6 +430,7 @@ Con: 3
 Cha: 3
 Size: 3
 Class: 103
+Race: 104
 Height: 70
 Weight: 60
 Special_Bitvector: 0 
@@ -451,6 +464,7 @@ Size: 25
 LikeWork: 90
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 200
 Weight: 190
 Special_Bitvector: 0 
@@ -481,6 +495,7 @@ Size: 20
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 90
 Special_Bitvector: 0 
@@ -502,4 +517,27 @@ Helper: 5501
 E
 T 5507
 T 5508
+#5524
+неоконченный моб~
+неоконченный моб~
+неоконченного моба~
+неоконченному мобу~
+неоконченного моба~
+неоконченным мобом~
+неоконченном мобе~
+Неоконченный моб стоит тут.
+~
+Выглядит достаточно незавершенно.
+~
+d0 0 0 E
+0 20 0 1d100+1 1d1+0
+0d0+0 0
+8 8 0
+Size: 30
+Class: 100
+Race: 103
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
 $

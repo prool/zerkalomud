@@ -163,7 +163,7 @@ if %object.vnum% == 33019
   wait 2s
   say Спасибо. Выручил%actor.g%!
   wait 2s
-  if (%world.curobjs(242)% < 50) && (%random.3% == 2)
+  if (%world.curobjs(242)% < 50) && (%random.100% < 21)
     mecho _Умелец достал руну с полки.
     mload obj 242
     wait 2s
@@ -238,7 +238,7 @@ wait 1s
 set i 0
 switch %objvnum%
   case 33309
-    if ((%world.curobjs(3354)% < 2) && (%random.1000% <= 70))
+    if ((%random.1000% <= 55) && (%world.curobjs(3354)% < 2))
       say Прими вот это кольцо!
       mload obj 3354
       wait 10

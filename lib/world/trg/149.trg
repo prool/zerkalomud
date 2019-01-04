@@ -50,9 +50,10 @@ if (%object.vnum% != 14910)
   drop %object.name%
   halt
 end
-mecho _Старуха тщательно вытерла ключик, что-то бормоча под нос.
+mecho _Старуха тщательно вытерла ключик, что-то бормоча себе под нос.
 mload obj 14913  
 дать чистый %actor.name%
+purge obj 14910
 detach 14902 %self.id%
 detach 14906 %self.id%
 ~
@@ -72,7 +73,6 @@ mecho _- Помоги мне, убей его.....
 mload mob 14906
 attach  14906 %self.id% 
 detach  14903 %self.id%  
-
 ~
 #14904
 Оплата~
@@ -115,6 +115,42 @@ switch %random.20%
   detach 14904 %self.id% 
   
 ~
+#14905
+призраки агрят если чар с ключом~
+0 r 100
+~
+if (%world.curobjs(14910)% > 0)
+  calcuid key 14910 obj
+  eval pers %key.carried_by%
+  if %pers.room% == %self.room%  
+    switch %random.7%
+      case 1
+        say Кто меня убил?!
+      break
+      case 2
+        say За что?!
+      break
+      case 3
+        say Не виновата я...
+      break
+      case 4
+        рыд
+      break
+      case 5
+        say Вот ты где!
+      break
+      case 6
+        гнев
+      break
+      case 7
+        затрещин .%pers.name% 
+      break.
+    done
+    встать
+    убить .%pers.name%
+  end
+end
+~
 #14906
 У старухи 2~
 0 r 100
@@ -150,7 +186,7 @@ say Стражники-то из вас, голодранцев, спесь и дурь выбьют!
 wait 3
 вопр
 say А? Кто здесь?
-say Барин это Вы? Опять Вам скучно? Эх, барин, любовница Вам молодая нужна! 
+say Барин, это Вы? Опять Вам скучно? Эх, барин, любовница Вам молодая нужна! 
 хих
 wait 1
 эм начал снимать с себя портки
@@ -173,5 +209,35 @@ wait 3
 say Вот барин щас воротится! Вот он вам задаст!
 say Здесь вам не тут! 
 кулак %actor.name%
+~
+#14911
+двигаем кресло~
+2 c 0
+двинуть сдвинуть двигать~
+if %arg% == кресло
+  wsend %actor% Вы с трудом сдвинули тяжелое кресло, и обнаружили скрытый проход вниз!
+  wechoaround %actor% %actor.name% сдвинул%actor.g% кресло, и вы заметили скрытый проход вниз!
+  wait 1s
+  wdoor 14919 down room 14967
+  detach 14911 %self%
+else
+  wsend %actor% ЧТО Вы хотите сдвинуть?!
+end
+~
+#14912
+репоп~
+2 f 100
+~
+wdoor 14919 down purge 
+attach 14911 %self.id% 
+~
+#14913
+смерть призраков~
+0 f 100
+~
+if (%world.curobjs(14927)% < 4) &&  (%random.25% == 1)
+  mload obj 14927
+  mecho Маленькие прозрачные сапожки медленно опустились на пол.
+end
 ~
 $~

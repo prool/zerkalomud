@@ -369,6 +369,57 @@ else
   рыч .%actor.name%
 end
 ~
+#50037
+Пуржатся двое из ларца~
+0 n 100
+~
+wait 180s
+say Чой-та мы притомились! Пойдем себе...
+mecho Двое-из-ларца канули куда-то, вы и глазом моргнуть не успели.
+wait 1
+mpurge %self%
+~
+#50038
+Постучать в ларец~
+1 c 4
+постучать~
+wait 1
+if (!%arg.contains(в ларец)% || (%self.val3% >= 50))
+  osend %actor% Вы громко постучали себе по лбу.
+  halt
+end
+osend %actor% Вы постучали в полированную крышку ларца... Совсем с глузду съехали?
+oechoaround %actor% %actor.name% наклонил%actor.u% и постучал%actor.g% в крышку ларца.
+wait 1
+if (%world.curmobs(50039)% > 0)
+  calcuid two 50039 mob
+  if (%two.realroom% == %actor.realroom%)
+    oforce %two% say Ну воооот еще...
+    oecho Вы и глазом моргнуть не успели, как двое-из-ларца канули обратно в ларец.
+    opurge %two%
+  else
+    oecho И ничего не произошло!
+  end
+  halt
+end
+oecho Крышка с треском распахнулась, и откуда ни возьмись явились двое-из-ларца.
+oload mob 50039
+eval num %self.val3%+1
+%self.val3(%num%)%
+~
+#50039
+Двое-из-ларца~
+0 j 100
+~
+wait 1
+eval oname %object.name%
+eval oname %oname.car%
+say Э-эх,где наша не пропадала!
+cast 'починка' %oname%
+wait 1
+give %oname% %actor.name%
+say Принимай работу!
+~
 #50040
 Триггер серебряной свирели~
 1 c 1
@@ -423,27 +474,105 @@ if (%moonanimal.realroom% != %actor.realroom%)
 end
 ~
 #50041
-именной шмот бодрича~
-1 ghijopqrs 100
-~
-if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
+Триггер заговоренного манка~
+1 c 1
+дунуть~
+wait 1
+if !%arg.contains(в манок)%
+  osend %actor% Чего-чего дунуть?! А вот как доберутся до вас стражники из приказу по контролю за оборотом медовухи!
   halt
 end
-if %actor.name% != бодрич && %actor.name% != итан
-  osend %actor%  &gЧереп вспыхнул зеленоватым светом, и Вам стало плохо&n
-  odamage %actor% 1000000
-  return 0
-  halt
+osend %actor% Вы с силой дунули в заговоренный манок.
+oechoaround %actor% %actor.name% с силой дунул%actor.g% в заговоренный манок.
+oecho Послышался протяжный тоскливый звук.
+eval i %world.curmobs(50041)%
+while (%i% > 0)
+  wait 1
+  calcuid raven 50041 mob %i%
+  if (%raven.leader% == %actor%)
+    oecho Призрачный ворон явился на зов.
+    oteleport %raven% %actor.realroom%
+    halt
+  end
+  eval i %i%-1
+done
+oecho Призрачный ворон с хриплым криком возник из тени.
+oload mob 50041
+calcuid raven 50041 mob 1
+oforce %raven% follow .%actor.name%
+eval count %self.val0%+1
+%self.val0(%count%)%
+if (%self.val0% == 10)
+  osend %actor% Заговоренный манок вспыхнул, и рассыпался в прах.
+  wait 1
+  opurge %self%
 end
 ~
 #50042
-триг на сумку бодрича~
-1 b 100
+Призрак пуржится~
+0 ab 100
 ~
-if (%random.100%<5)
-  oecho Из-сумки вылетел белый ЧеРеп, пронесся мимо Вас и взорвался в воздухе, оставив после себя множество осколовков
-  halt
+if !%self.leader%
+  mecho Призрачный ворон взмахнул крыльями и растаял.
+  wait 1
+  mpurge %self%
 end
+~
+#50043
+Открываем портал по зеркалу~
+2 z 100
+~
+wait 1
+wportal %target% 2
+wait 1
+rdelete target %self.id%
+detach 50043 %self.id%
+~
+#50044
+Взглянуть в зеркальце~
+1 c 1
+посмотреть~
+wait 1
+if !%arg.contains(прямо)% && !%arg.contains(искоса)%
+  osend %actor% Зеркальце блеснуло на свету, но ничего не произошло.
+end
+if %arg.contains(прямо)%
+  osend %actor% Вы посмотрели прямо в волшебное зеркальце.
+  osend %actor% Вдруг ваше отражение на миг исчезло, а все вокруг напротив стало видно ясно.
+  osend %actor% Зеркальце мягко блеснуло и померкло.
+  osend %actor% Вам показалось, что зеркальце словно запомнило все вокруг вас.
+  %self.val0(%actor.realroom%%)%
+end
+if %arg.contains(искоса)%
+  osend %actor% Вы повернули зеркало и искоса взглянули в него.
+  osend %actor% Поверхность зеркала мягко засветилась!
+  wait 1
+  if (%self.val0% != 0)
+    calcuid room %actor.realroom% room
+    osend %actor% В зеркале вдруг появилось отражение совсем другого места!
+    attach 50043 %room.id%
+    set target %self.val0%
+    global target
+    remote target %room.id%
+    exec 50043 %room.id%
+    eval count %self.val1%+1
+    %self.val1(%count%)%
+    rdelete target %self.id%
+  else
+    osend %actor% Но ничего не произошло...
+  end
+end
+if (%self.val1% == 5)
+  osend %actor% Волшебное зеркальце вспыхнуло и рассыпалось в прах.
+  wait 1
+  opurge %self%
+end
+~
+#50046
+триг хрустального кушака~
+1 gj 100
+~
+%echo% тест
 ~
 #50047
 Именной шмот пуржится~
@@ -463,7 +592,7 @@ switch %self.vnum%
     end
   break
   case 50051
-    if %owner.name% != Урик
+    if ((%owner.name% != Урик) && (%owner.name% != Старь)
       wait 1
       oforce %owner% бросить %objname.car%.%objname.cdr%
     end
@@ -481,7 +610,7 @@ switch %self.vnum%
     end
   break
   case 50054
-    if %owner.name% != Мильян
+    if %owner.name% != Дилок && %owner.name% != Мильян && %owner.name% != Ладобор
       wait 1
       oforce %owner% бросить %objname.car%.%objname.cdr%
     end
@@ -505,7 +634,7 @@ switch %self.vnum%
     end
   break
   case 50058
-    if %owner.name% != Илерий
+    if %owner.name% != Илерий && %owner.name% != Земовит && %owner.name% != Велеян
       wait 1
       oforce %owner% бросить %objname.car%.%objname.cdr%
     end
@@ -553,7 +682,7 @@ switch %self.vnum%
     end
   break
   case 50066
-    if ((%owner.name% != Регина) && (%owner.name% != Вианэт) && (%owner.name% != Кондратий) && (%owner.name% != Эриман))
+    if ((%owner.name% != Тимон) && (%owner.name% != Вианэт) && (%owner.name% != Миромах) && (%owner.name% != Гневлон))
       wait 1
       oforce %owner% бросить %objname.car%.%objname.cdr%
     end
@@ -619,7 +748,7 @@ switch %self.vnum%
     end
   break
   case 50076
-    if ((%owner.name% != Аладори ) && (%owner.name% != Наталья ) && (%owner.name% != Обида ))
+    if ((%owner.name% != Аладори ) && (%owner.name% != Наталья ) && (%owner.name% != Магура ))
       oforce %owner% бросить %objname.car%.%objname.cdr%
     end
   break
@@ -850,7 +979,7 @@ elseif %actor.name% == Илерий
     шляп
     say Вот твоя награда - не пропала.
     mload obj 50058
-    give оредн .илерий
+    give орден .илерий
   end
 elseif %actor.name% == Никомир
   if %world.curobjs(50060)% == 0
@@ -903,7 +1032,7 @@ end
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if %actor.name% != Урик
+if %actor.name% != Урик && %actor.name% != Старь
   osend %actor%  Труп Урика вырвался у вас из рук и снова прилег на землю.
   return 0
   halt
@@ -952,20 +1081,21 @@ end
 ~
 #50054
 именной шмот Мильян~
-1 gjp 100
+1 ghjp 100
 ~
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if %actor.name% != Мильян
-  oechoaround %actor% %actor.iname% испуганно отдернул руку от узелка, Вам показалось его кто-то укусил.
-  osend %actor% Странная зверушка на узелке цапнула Вас за палец, от неожиданности Вы отдернули руку.
-  return 0
-  halt
-else
+if ( %actor.name% == Мильян ) || ( %actor.name% == Дилок ) || ( %actor.name% == Ладобор )
   wait 1
   osend %actor% Кровавая Зверюшка на узелке облизнула короткие острые зубки.
-  oechoaround %actor% Кровавая Зверюшка на узелке Мильяна осмотрела Вас в надежде найти что-нибудь полезное.
+  oechoaround %actor% Кровавая Зверюшка на узелке %actor.rname% осмотрела Вас в надежде найти что-нибудь полезное.
+else
+  oechoaround %actor% %actor.iname% испуганно отдернул руку от узелка, Вам показалось его кто-то укусил.
+  osend %actor% Странная зверушка на узелке цапнула Вас за палец, от неожиданности Вы отдернули руку.
+  otransform 50054
+  return 0
+  halt
 end
 ~
 #50055
@@ -1021,19 +1151,19 @@ end
 ~
 #50058
 Именной шмот Илерий~
-1 ghjp 100
+1 gjp 100
 ~
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if %actor.name% != Илерий
+if %actor.name% != Илерий && %actor.name% != Земовит && %actor.name% != Велеян && %actor.name% != Ведаш
+  otransform 50058
   return 0
-  oechoaround %actor% Орден вдруг яросто вспыхнул, и едва не спалил %actor.name% дотла!
-  oecho ___Орден вдруг яросто вспыхнул, и едва не спалил Вас дотла!
+  oecho ___&YОрден &Rна суме&n вдруг яросто вспыхнул, и едва не спалил Вас дотла!
   halt
 else
   wait 1
-  oecho _Орден Удомельского братства на груди Илерия ярко сверкнул.
+  oecho _ &RОрден &YУдомельского &Rбратства&n на суме %actor.rname% &Wярко сверкнул&n.
 end
 ~
 #50059
@@ -1095,7 +1225,7 @@ end
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if %actor.name% != Феосий
+if %actor.name% != Феосий && %actor.name% != Вуара && %actor.name% != Рэйра
   otransform 50062
   return 0
   oechoaround %actor% %actor.name% наклонил%actor.u% чтобы взять узелок...
@@ -1105,7 +1235,7 @@ if %actor.name% != Феосий
   halt
 else
   wait 1
-  oecho На мгновение вам показалось, что ваши вещи переходят в узелок Феосия.
+  oecho На мгновение вам показалось, что ваши вещи переходят в узелок %actor.rname%.
 end
 ~
 #50063
@@ -1171,9 +1301,8 @@ end
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if ((%actor.name% != Эриман) && (%actor.name% != Кондратий) && (%actor.name% != Регина) && (%actor.name% != Вианэт))
+if ((%actor.name% != Миромах) && (%actor.name% != Гневлон) && (%actor.name% != Тимон) && (%actor.name% != Вианэт))
   osend %actor% Походный мешок бродяги: Вы не в состоянии нести еще и его !
-  otransform 50066
   return 0
   halt
 end
@@ -1311,7 +1440,7 @@ end
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if ((%actor.name% != Владэк) && (%actor.name% != Чарва) && (%actor.name% != Мергана))
+if ((%actor.name% != Владэк) && (%actor.name% != Чарва) && (%actor.name% != Владух) && (%actor.name% != Мергана))
   otransform 50075
   osend %actor% _Лукошко проворно отскочило от вашей руки.
   return 0
@@ -1322,19 +1451,47 @@ end
 ~
 #50076
 Именной шмот - Добря~
-1 gjp 100
+1 gjlp 100
 ~
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if ((%actor.name% != Аладори ) && (%actor.name% != Наталья ) && (%actor.name% != Обида ))
-  osend %actor%  Торба из лепестков сакуры протекла у вас между пальцев и снова мирно улеглась на земле.
-  return 0
-  halt
-else
-  wait 1
-  oecho ___&KПорыв ветра&n сорвал с торбы несколько &Wлепестков&n.
-end
+switch %random.9%
+  case 1
+    set word &Wлепестков&n
+  break
+  case 2
+    set word &Yлепестков&n
+  break
+  case 3
+    set word &Mлепестков&n
+  break
+  case 4
+    set word &Bлепестков&n
+  break
+  case 5
+    set word &Cлепестков&n
+  break
+  case 6
+    set word &Rлепестков&n
+  break
+  case 7
+    set word &rлепестков&n
+  break
+  case 8
+    set word &bлепестков&n
+  break
+  case 9
+    set word &mлепестков&n
+  done
+  if ((%Actor.name% != Аладори ) && (%Actor.name% != Наталья ) && (%Actor.name% != Магура ))
+    osend %actor%  Торба из %word% сакуры протекла у вас между пальцев и снова мирно улеглась на земле.
+    return 0
+    halt
+  else
+    wait 1
+    oecho ____&KПорыв&n ветра сорвал с торбы несколько %word%.
+  end
 ~
 #50077
 Сумка Рогнеды - Огромадный баул~
@@ -1612,5 +1769,54 @@ foreach target %self.pc%
   end
 done
 %actor.wait(6)%
+~
+#50095
+Перезарядка посоха~
+1 c 1
+перезарядить~
+wait 1
+osend %actor% Вы вставили в посох новую обойму и молодецки крепко прихлопнули ее ладонью.
+oecho &GПосох распорядителя турнира засветился изумрудным светом.&n
+wait 1
+otransform 50092
+~
+#50096
+именная сумка - Эрин~
+1 gjp 100
+~
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
+  halt
+end
+if %actor.name% != Вета && %actor.name% != Эрин && %actor.name% != Меньши
+  osend %actor% &RПлюшевый совенок возмущенно заклекотал и ОЧЕНЬ БОЛЬНО укусил вас за нос!&n
+  return 0
+  halt
+else
+  oechoaround %actor% &YПлюшевый совенок радостно захлопал крыльями и воинственно заклекотал в  ожидании новых побед &n
+end
+~
+#50097
+Пугалка 2~
+1 c 2
+пугать~
+wait 1
+oecho Делор прилетел с запада.
+oecho Волонд прилетел с запада.
+oecho Двойник Волонда прилетел с запада
+oecho Двойник Волонда прилетел с запада
+oecho Двойник Волонда прилетел с запада
+oecho Двойник Волонда прилетел с запада
+oecho Малагант прилетел с запада
+oecho Двойник Малаганта прилетел с запада
+oecho Двойник Малаганта прилетел с запада
+oecho Двойник Малаганта прилетел с запада
+oecho Двойник Малаганта прилетел с запада
+oecho Шелди прилетел с запада
+oecho Двойник Шелди прилетел с запада
+oecho Двойник Шелди прилетел с запада
+oecho Двойник Шелди прилетел с запада
+oecho Двойник Шелди прилетел с запада
+oecho Пилатий прилетел с запада
+oecho Жалын прилетел с запада
 ~
 $~

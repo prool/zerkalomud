@@ -13,7 +13,7 @@
 безумием веры глаза похоже видят кругом слуг дьявола.
 ~
 b0d0g0n0o0x0y0o1 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -25,6 +25,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -54,7 +55,7 @@ E
 в толстом кожаном фартуке поверх рясы, обтягивавшим неподъемный живот.
 ~
 d0g0n0o0o1 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -66,6 +67,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -96,7 +98,7 @@ E
 на это ремесло свое не бросил. 
 ~
 b0d0g0n0o0o1 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -108,6 +110,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -138,7 +141,7 @@ T 85106
 через него заказывают иноземные товары. Да и в лавке у него
 полно всякой иноземной всячины.
 ~
-b0d0g0n0o0 d0f0k0 0 E
+b0d0g0n0o0u2 d0f0k0 0 E
 30 2 -2 0d0+1000 4d5+2
 0d0+10000 0
 8 8 1
@@ -153,6 +156,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -184,7 +188,7 @@ T 85144
 послушно расплывается в улыбке перед каждым, даже самым 
 бедным покупателем.
 ~
-b0d0g0n0o0y0 d0f0k0 0 E
+b0d0g0n0o0y0u2 d0f0k0 0 E
 30 2 -2 0d0+1000 4d5+2
 0d0+10000 0
 8 8 1
@@ -199,6 +203,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -231,7 +236,7 @@ T 85100
 в себе греховное и насаждая в душе и сердце своем все святое. 
 ~
 b0d0g0n0o0x0y0o1 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -243,6 +248,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -293,6 +299,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -334,7 +341,7 @@ T 85134
 какие-то шнурки и веревочки. А к полам кафтана пришпилены иголки,
 наперстки, булавки и прочая утварь портного.
 ~
-b0d0g0n0o0 d0f0k0 0 E
+b0d0g0n0o0u2 d0f0k0 0 E
 30 2 -2 0d0+1000 4d5+2
 0d0+10000 0
 8 8 1
@@ -349,6 +356,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -374,12 +382,12 @@ E
 варяге Куфире~
 Варяг Куфир удивленно разглядывает русский город.
 ~
-Варяг явно прибыл совсем недавно и еще опечатлен величием
+Варяг явно прибыл совсем недавно и еще впечатлен величием
 златоглавых церквей русского города. На бледном узколобом лице
 застыла удивленная гримаса.
 ~
 d0g0l0n0o0p0q0r0t0u0f2g2i2 c0d0e0f0h0k0r0z0m1t1 600 E
-30 0 -10 0d0+3000 8d8+3
+1 0 -10 0d0+3000 8d8+3
 0d0+500 1
 8 8 1
 Str: 30
@@ -393,9 +401,10 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
-Special_Bitvector: y0C3 
+Special_Bitvector: C3 
 Feat: 29
 Feat: 30
 Feat: 31
@@ -444,7 +453,7 @@ E
 благо опыт к тому времени накопился значительный. На всю
 округу славился Семен своим ремеслом.
 ~
-b0d0g0n0o0y0 d0f0k0 0 E
+b0d0g0n0o0y0u2 d0f0k0 0 E
 30 2 -2 0d0+1000 4d5+2
 0d0+10000 0
 8 8 1
@@ -459,6 +468,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -490,8 +500,8 @@ T 85110
 Одежда на нем такая же белая, как борода. Лицо в узорах морщин светится 
 неземной мудростью.
 ~
-b0d0g0n0o0x0y0o1 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+b0d0g0n0o0x0y0o1u2 d0f0h0k0 600 E
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -503,6 +513,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -533,7 +544,7 @@ E
 лет своих продолжает верно служить князю.
 ~
 b0d0g0l0n0o0p0q0r0t0u0x0y0o1f2g2i2 c0d0e0f0h0k0r0z0m1t1 600 E
-30 2 -10 0d0+3000 8d8+3
+1 2 -10 0d0+3000 8d8+3
 0d0+500 1
 8 8 1
 Str: 30
@@ -547,6 +558,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -600,7 +612,7 @@ T 85122
 ~
 c0d0g0l0m0y0j2 c0f0k0r0z0 -600 E
 30 0 -7 20d20+800 7d6+8
-0d0+0 1
+0d0+0 327500
 8 8 1
 BareHandAttack: 9
 Str: 23
@@ -614,6 +626,7 @@ LikeWork: 80
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 101
 Height: 175
 Weight: 115
 Special_Bitvector: y0b1c1d1 
@@ -651,8 +664,8 @@ T 85142
 Велено ему блюсти покой Ростова и днем и ночью.
 ~
 c0d0g0l0m0y0 d0f0h0k0r0z0 -600 E
-30 0 -2 20d20+800 7d6+8
-0d0+0 1
+29 0 -2 20d20+800 7d6+8
+0d0+0 200000
 8 8 1
 BareHandAttack: 9
 Str: 23
@@ -666,6 +679,7 @@ LikeWork: 80
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 101
 Height: 175
 Weight: 115
 Special_Bitvector: y0b1c1d1 
@@ -704,7 +718,7 @@ T 85142
 Бабой Ягой.
 ~
 b0d0A0 k0A0 600 E
-28 0 -7 5d5+900 5d5+8
+20 0 -7 5d5+900 5d5+8
 0d0+0 40000
 8 8 1
 BareHandAttack: 2
@@ -718,6 +732,7 @@ Size: 50
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 120
 Special_Bitvector: y0b1c1d1 
@@ -752,7 +767,7 @@ E
 изогнутыми носами.
 ~
 b0d0g0l0n0 c0d0f0h0k0r0z0 600 E
-25 -3 -5 10d10+3000 10d10+15
+29 -3 -5 10d10+3000 10d10+15
 0d0+1000 200000
 8 8 1
 BareHandAttack: 3
@@ -767,6 +782,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -811,7 +827,7 @@ T 85141
 а в качестве аргументов в споре любил использовать березовый посох.
 ~
 b0d0g0n0o0x0y0 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -823,6 +839,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -856,7 +873,7 @@ T 85114
 недоверчив и сердит.
 ~
 d0 0 600 E
-1 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
 Str: 10
@@ -868,6 +885,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -901,6 +919,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -921,7 +940,7 @@ E
 ежиных иголок, и такие же колючие глаза пытаются заглянуть в душу.
 ~
 b0d0g0n0o0x0y0o1 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -933,6 +952,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -977,6 +997,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -990,7 +1011,7 @@ E
 младого княжича~
 младым княжичем~
 младом княжиче~
-Мдадой княжич играет в прятки под надзором трех нянек.
+Младой княжич играет в прятки под надзором трех нянек.
 ~
 Пышущий здоровьем, светлоокий, златовласый карапуз - младший
 сын великого князя. Характером он с малолетсва отличался
@@ -1012,6 +1033,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1035,7 +1057,7 @@ T 85128
 родственную связь с могучими колдунами или колдуньями.
 ~
 b0d0g0l0n0 c0d0f0h0k0r0z0 600 E
-25 15 -5 10d10+3000 10d10+15
+29 15 -5 10d10+3000 10d10+15
 0d0+1000 200000
 8 8 2
 BareHandAttack: 3
@@ -1050,6 +1072,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -1094,7 +1117,7 @@ T 85138
 Ростовском княжестве.
 ~
 b0d0g0n0o0p0q0r0s0y0 0 600 E
-6 0 0 0d0+120 3d3+1
+4 0 0 0d0+120 3d3+1
 0d0+0 1000
 8 8 1
 BareHandAttack: 13
@@ -1109,6 +1132,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 150
 Special_Bitvector: n0 
@@ -1129,7 +1153,7 @@ E
 налюбуясь на златоглавые церкви.
 ~
 b0d0g0l0n0 c0d0f0h0k0r0z0 600 E
-25 15 -5 10d10+3000 10d10+15
+29 15 -5 10d10+3000 10d10+15
 0d0+1000 200000
 8 8 1
 BareHandAttack: 3
@@ -1144,6 +1168,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -1187,7 +1212,7 @@ E
 воротник, расшитый жемчугом, на шее золотая гривна.
 ~
 d0g0n0o0x0y0o1 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -1199,6 +1224,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1228,7 +1254,7 @@ E
 к себе на родину товары разные.
 ~
 d0g0l0n0o0p0q0r0t0u0x0y0g2i2 c0d0e0f0h0k0r0z0m1t1 600 E
-30 10 -10 0d0+3000 8d8+3
+1 10 -10 0d0+3000 8d8+3
 0d0+500 1
 8 8 1
 Str: 30
@@ -1242,6 +1268,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 3
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1296,7 +1323,7 @@ E
 ~
 b0d0g0n0o0y0 d0f0k0 0 E
 30 2 -2 0d0+1000 4d5+2
-0d0+10000 0
+0d0+1 0
 8 8 1
 Str: 30
 Dex: 30
@@ -1309,6 +1336,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1339,8 +1367,8 @@ E
 любят пряники, да халву, а денег как известно ни у детей, ни у
 пчел нету. 
 ~
-b0d0g0l0n0o0p0q0r0t0u0x0y0o1r1f2g2i2 c0d0e0f0h0k0r0z0m1t1 600 E
-30 10 -10 0d0+3000 8d8+3
+b0d0g0l0n0o0p0q0r0t0u0x0y0o1r1f2g2i2u2 c0d0e0f0h0k0r0z0m1t1 600 E
+1 10 -10 0d0+3000 8d8+3
 0d0+500 1
 8 8 1
 Str: 30
@@ -1354,6 +1382,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1408,7 +1437,7 @@ T 85102
 обозами по торговой площади.
 ~
 b0d0g0l0n0 c0d0f0h0k0r0z0 600 E
-25 0 -5 10d10+3000 10d10+15
+29 0 -5 10d10+3000 10d10+15
 0d0+1000 200000
 8 8 1
 BareHandAttack: 3
@@ -1423,6 +1452,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -1468,7 +1498,7 @@ E
 торговой площади. 
 ~
 b0d0g0l0n0 c0d0f0h0k0r0z0 600 E
-25 -4 -5 10d10+3000 10d10+15
+29 -4 -5 10d10+3000 10d10+15
 0d0+1000 200000
 8 8 1
 BareHandAttack: 3
@@ -1483,6 +1513,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -1522,18 +1553,17 @@ E
 Ростовский бондарь ходит по улицам в поисках работы.
 ~
 Когда видишь ростовского бондаря издалека, кажется будто
-катиться по улице бо-о-ольшая кадушка с солеными огурцами.
-Но при ближайшем рассмотрении оказывается, что у кадушке
+катится по улице бо-о-ольшая кадушка с солеными огурцами.
+Но при ближайшем рассмотрении оказывается, что у кадушки
 есть хоть и маленькая, но все же голова. Из которой периодически
 доносятся звуки, постепенно скалдывающиеся в слова:
 Бо-о-о-о-очки! Ша-а-а-а-айки!
 ~
-c0d0o0x0A0u2 k0r0A0m1 -600 E
-35 0 -4 10d10+1900 13d13+9
+d0o0x0A0u2 k0r0A0m1 -600 E
+28 0 -4 10d10+1900 13d13+9
 0d0+40 150000
 8 8 1
 Armour: 30
-BareHandAttack: 9
 Str: 50
 Dex: 45
 Int: 30
@@ -1544,6 +1574,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -1588,6 +1619,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1619,7 +1651,7 @@ E
 Тем и стал с тех пор зарабатывать на жизнь.
 ~
 b0d0g0l0n0o0p0q0r0t0u0x0y0o1f2g2i2 c0d0e0f0h0k0r0z0m1t1 600 E
-30 0 -10 0d0+3000 8d8+3
+1 0 -10 0d0+3000 8d8+3
 0d0+500 1
 8 8 1
 Str: 30
@@ -1633,6 +1665,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1681,13 +1714,13 @@ T 85105
 дедушке Кудене~
 Дедушка Куденя, улыбаясь каждому встречному, неторопливо идет по улице.
 ~
-Древний седобороды дед. Про таких в народе говорят - дед, сто лет в обед.
+Древний седобородый дед. Про таких в народе говорят - дед, сто лет в обед.
 Живет ли он уже век на этой земле или меньше, то нам не ведомо. Но
 мудрости у дедушки на всю рать хватит, да еще и останется! Не раз
 совет мудрого деда спасал Ростов от очередной беды.
 ~
 c0d0g0m0o0p0A0u2 c0f0k0r0t1 -600 E
-29 0 -7 10d10+1022 14d14+6
+28 0 -7 10d10+1022 14d14+6
 0d0+20 150000
 8 8 1
 Saves: 10 10 10 10
@@ -1709,6 +1742,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 183
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -1737,7 +1771,7 @@ T 85126
 всегда готов отблагодарить по-своему - по медвежьи!
 ~
 d0g0n0o0p0q0r0s0y0 0 600 E
-6 0 0 0d0+120 3d3+1
+4 0 0 0d0+120 3d3+1
 0d0+0 1000
 8 8 1
 BareHandAttack: 13
@@ -1752,6 +1786,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 150
 Special_Bitvector: n0 
@@ -1774,7 +1809,7 @@ T 85115
 себя осенять.
 ~
 b0d0g0n0o0p0q0r0y0 0 600 E
-6 20 0 0d0+120 3d3+1
+4 20 0 0d0+120 3d3+1
 0d0+0 1000
 8 8 1
 BareHandAttack: 13
@@ -1789,6 +1824,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 150
 Special_Bitvector: n0 
@@ -1811,7 +1847,7 @@ E
 намечается.
 ~
 b0d0g0l0n0 c0d0f0h0k0r0z0 600 E
-25 -5 -5 10d10+3000 10d10+15
+29 -5 -5 10d10+3000 10d10+15
 0d0+1000 200000
 8 8 1
 BareHandAttack: 3
@@ -1826,6 +1862,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -1883,6 +1920,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1913,8 +1951,8 @@ T 85113
 Однако дело свое стряпчее знает хорошо, потому его и 
 держат здесь несмотря на его скверный характер.
 ~
-b0d0g0n0o0x0y0o1 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+b0d0g0n0o0x0y0o1u2 d0f0h0k0 600 E
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -1926,6 +1964,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1958,7 +1997,7 @@ T 85124
 медведем ученым интересуются.
 ~
 b0d0g0n0o0x0y0o1 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -1970,6 +2009,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2001,7 +2041,7 @@ T 85104
 на плечи, контрастируя с черным шелковым одеянием.
 ~
 b0d0g0l0n0o0p0q0r0t0u0x0y0o1f2g2i2 c0d0e0f0h0k0r0z0m1t1 600 E
-30 10 -10 0d0+3000 8d8+3
+1 10 -10 0d0+3000 8d8+3
 0d0+500 1
 8 8 2
 Str: 30
@@ -2015,6 +2055,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -2054,14 +2095,14 @@ E
 T 85107
 T 85118
 #85142
- отрок ростовской дружины~
-отрок ростовской дружины~
-отрока ростовской дружины~
-отроку ростовской дружины~
-отрока ростовской дружины~
-отроком ростовской дружины~
-отроке ростовской дружины~
-Новоявленный отрок ростовской дружины разгуливает по городу.
+ростовский стражник~
+ростовский стражник~
+ростовского стражника~
+ростовскому стражнику~
+ростовского стражника~
+ростовским стражником~
+ростовском стражнике~
+Ростовский стражник разгуливает по городу.
 ~
 Молодой отрок только поступивший на службу в дружину князя, но
 уже умеющий постоять за себя и за тех кому служит. Кривая ухмылка
@@ -2069,7 +2110,7 @@ T 85118
 прирожденной рассеянности.
 ~
 d0A0 k0A0 600 E
-28 0 -7 5d5+900 5d5+8
+20 0 -7 5d5+900 5d5+8
 0d0+0 40000
 8 8 1
 BareHandAttack: 2
@@ -2083,6 +2124,7 @@ Size: 50
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 120
 Special_Bitvector: y0b1c1d1 
@@ -2115,7 +2157,7 @@ E
 а сходу признать врагов.
 ~
 b0c0d0o0x0A0u2 k0r0A0m1 -600 E
-35 0 -4 10d10+1900 13d13+9
+28 0 -4 10d10+1900 13d13+9
 0d0+40 150000
 8 8 1
 Armour: 30
@@ -2130,6 +2172,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2159,7 +2202,7 @@ E
 те сундуки десять молодцев, так что будут они сохранны во век!
 ~
 b0d0g0l0n0 c0d0f0h0k0r0z0 600 E
-25 15 -5 10d10+3000 10d10+15
+29 15 -5 10d10+3000 10d10+15
 0d0+1000 200000
 8 8 1
 BareHandAttack: 3
@@ -2174,6 +2217,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -2217,7 +2261,7 @@ E
 а сходу признать врагов.
 ~
 b0c0d0o0x0A0u2 h0k0r0A0m1 -600 E
-30 0 -4 10d10+1900 13d13+9
+28 0 -4 10d10+1900 13d13+9
 0d0+40 150000
 8 8 1
 Armour: 30
@@ -2232,6 +2276,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2261,7 +2306,7 @@ T 85119
 а сходу признать врагов.
 ~
 b0c0d0o0x0A0u2 h0k0r0A0m1 -600 E
-30 0 -4 10d10+1900 13d13+9
+28 0 -4 10d10+1900 13d13+9
 0d0+40 150000
 8 8 1
 Armour: 30
@@ -2276,6 +2321,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2305,7 +2351,7 @@ T 85120
 а сходу признать врагов.
 ~
 b0c0d0o0x0u2 h0k0r0A0m1 -600 E
-30 0 -4 10d10+1900 13d13+9
+28 0 -4 10d10+1900 13d13+9
 0d0+40 150000
 8 8 1
 Armour: 30
@@ -2320,6 +2366,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2350,7 +2397,7 @@ T 85121
 грозили. 
 ~
 b0d0g0n0o0x0y0o1u2 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -2362,6 +2409,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2393,7 +2441,7 @@ T 85125
 лет своих продолжает верно служить князю.
 ~
 b0d0g0l0n0o0p0q0r0t0u0x0y0o1f2g2i2 c0d0e0f0h0k0r0z0m1t1 600 E
-30 0 -10 0d0+3000 8d8+3
+1 0 -10 0d0+3000 8d8+3
 0d0+500 1
 8 8 1
 Str: 30
@@ -2407,6 +2455,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -2472,6 +2521,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2506,6 +2556,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2526,7 +2577,7 @@ E
 ветру, звонит в колокола.
 ~
 b0d0g0l0n0 c0d0f0h0k0r0z0 600 E
-25 15 -5 10d10+3000 10d10+15
+29 15 -5 10d10+3000 10d10+15
 0d0+1000 200000
 8 8 1
 BareHandAttack: 3
@@ -2541,6 +2592,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -2584,7 +2636,7 @@ E
 ветру, звонит в колокола.
 ~
 b0d0g0l0n0 c0d0f0h0k0r0z0 600 E
-25 15 -5 10d10+3000 10d10+15
+29 15 -5 10d10+3000 10d10+15
 0d0+1000 200000
 8 8 1
 BareHandAttack: 3
@@ -2599,6 +2651,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -2643,7 +2696,7 @@ E
 чахнет". 
 ~
 b0d0g0n0o0x0y0o1 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -2655,6 +2708,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2686,7 +2740,7 @@ E
 хозяин берет немного потому и народу пришлого всегда полно.
 ~
 b0d0g0n0o0x0y0o1u2 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -2698,6 +2752,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2731,7 +2786,7 @@ E
 перестали и с тех пор никто не смеет к ним прикоснуться.
 ~
 b0d0g0n0o0p0q0r0s0y0 c0d0f0j0k0x0 600 E
-6 0 0 0d0+120 3d3+1
+4 0 0 0d0+120 3d3+1
 0d0+0 1000
 8 8 2
 BareHandAttack: 2
@@ -2746,6 +2801,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 3
 Class: 103
+Race: 103
 Height: 175
 Weight: 150
 Special_Bitvector: l0 
@@ -2780,6 +2836,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -2800,7 +2857,7 @@ E
 княжичем - не сносить головы!
 ~
 b0d0g0l0m0n0o0p0q0r0t0u0x0y0h1f2g2i2 c0d0e0f0h0k0r0z0m1t1 600 E
-30 10 -10 0d0+3000 8d8+3
+1 10 -10 0d0+3000 8d8+3
 0d0+500 1
 8 8 2
 Str: 30
@@ -2814,6 +2871,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 3
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0C3 
@@ -2858,14 +2916,14 @@ E
 захмелевшего детину~
 захмелевшим детиной~
 захмелевшем детине~
-Зазмелевший детина бредет по улице, распевая песни.
+Захмелевший детина бредет по улице, распевая песни.
 ~
 Пьяное диво, которое очень сложно назвать человеком. Рубаха
 нараспашку, шапка на одном ухе болтается. Ну а морда утюга
 так и просит!
 ~
 c0d0o0x0A0u2 k0r0A0m1 -600 E
-35 0 -4 10d10+1900 13d13+9
+28 0 -4 10d10+1900 13d13+9
 0d0+40 150000
 8 8 1
 Armour: 30
@@ -2880,6 +2938,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -2909,7 +2968,7 @@ T 85130
 растерял. И с гордым видом восседал на оседланном им корыте.
 ~
 b0d0g0l0n0 c0d0f0h0k0r0z0 600 E
-25 15 -5 10d10+3000 10d10+15
+29 15 -5 10d10+3000 10d10+15
 0d0+1000 200000
 8 8 1
 BareHandAttack: 3
@@ -2924,6 +2983,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -2971,7 +3031,7 @@ T 85131
 у злых людей.
 ~
 b0d0g0n0o0p0q0r0s0y0i1 0 600 E
-6 20 0 0d0+120 3d3+1
+4 20 0 0d0+120 3d3+1
 0d0+0 1000
 8 8 2
 BareHandAttack: 13
@@ -2986,6 +3046,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 150
 Special_Bitvector: n0 
@@ -3008,7 +3069,7 @@ T 85136
 почему-то отдавалось предпочтение угольно-черным, как сажа лошадям.
 ~
 b0d0g0l0n0 c0d0f0h0k0r0z0 600 E
-25 15 -5 10d10+3000 10d10+15
+29 15 -5 10d10+3000 10d10+15
 0d0+1000 200000
 8 8 1
 BareHandAttack: 3
@@ -3023,6 +3084,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -3067,7 +3129,7 @@ T 85140
 которые буравят Вас из под густых бровей.
 ~
 b0d0g0h1 c0d0e0f0h0 0 E
-23 18 -8 10d10+500 3d3+15
+16 18 -8 10d10+500 3d3+15
 2d2+2 20000
 8 8 1
 Destination: 64018
@@ -3084,8 +3146,41 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
 E
+#85164
+ученик ведуна~
+ученик ведуна~
+ученика ведуна~
+ученику ведуна~
+ученика ведуна~
+учеником ведуна~
+ученике ведуна~
+Ученик ведуна растирает в ступке смесь трав.
+~
+Молодой рыжий парень с веселыми плутоватыми глазами.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Class: 100
+Race: 101
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+E
+T 85145
 $

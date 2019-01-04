@@ -6,7 +6,8 @@ wait 1
 if %arg.contains(сосн)%
   wsend %actor% Вы начали карабкаться по сосне.
   wechoaround %actor% ~~%actor.iname% начал~~%actor.q% карабкаться по сосне.
-  detach 13600 %self%
+  wteleport %actor% 13670
+  wechoaround %actor% %actor.name% сопя и отдуваясь влез%actor.g% сюда.
 else
   wsend %actor% Куда ползем?
 end

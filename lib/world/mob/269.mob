@@ -11,11 +11,11 @@
 Большой крепкий мужик.
 ~
 c0d0f0g0m0n0A0 k0r0 -600 E
-22 0 -10 5d3+1300 3d6+9
-5d6+100 170000
+23 10 -10 5d3+700 3d6+3
+5d6+100 70000
 8 8 1
 BareHandAttack: 5
-Str: 25
+Str: 22
 Dex: 19
 Int: 10
 Wis: 10
@@ -26,6 +26,7 @@ LikeWork: 20
 MaxFactor: 19
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -49,11 +50,11 @@ E
 Крепкий мужик с зорким глазом и твердой рукой
 ~
 c0d0f0g0m0n0A0 d0k0r0 -600 E
-25 0 -10 4d5+1100 5d5+5
-8d5+150 160000
+22 10 -10 4d5+650 5d5+0
+8d5+150 60000
 8 8 1
 BareHandAttack: 10
-Str: 22
+Str: 20
 Dex: 22
 Int: 10
 Wis: 10
@@ -64,6 +65,7 @@ LikeWork: 25
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: p0b1c1 
@@ -84,12 +86,12 @@ T 26929
 Хитрый разбойник, с ножом в руке
 ~
 c0d0f0g0l0m0n0A0 f0k0 -600 E
-25 0 -10 2d9+800 5d3+5
-5d8+100 130000
+20 10 -10 2d9+500 5d3+0
+5d8+100 45000
 8 8 1
 BareHandAttack: 7
 Str: 19
-Dex: 30
+Dex: 20
 Int: 10
 Wis: 10
 Con: 16
@@ -99,6 +101,7 @@ LikeWork: 30
 MaxFactor: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -120,12 +123,12 @@ E
 Главарь местной шайки
 ~
 b0c0d0f0g0m0n0x0A0 d0k0 -600 E
-27 0 -10 5d5+1600 4d5+12
-7d4+500 220000
+25 10 -10 5d5+1000 4d5+0
+7d4+500 100000
 8 8 1
 BareHandAttack: 5
 Str: 25
-Dex: 25
+Dex: 20
 Int: 10
 Wis: 10
 Con: 25
@@ -135,24 +138,24 @@ LikeWork: 25
 MaxFactor: 25
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
 Skill: 4 150
 Skill: 21 10
 Skill: 132 50
-Skill: 136 80
+Skill: 136 81
 Spell: 4
 Spell: 75
 Spell: 75
 Helper: 26901
-Skill: 136 81
 E
 T 26902
 #26904
-девушка заплаканная~
 заплаканная девушка~
-заплаканную девушку~
+заплаканная девушка~
+заплаканной девушки~
 заплаканной девушке~
 заплаканную девушку~
 заплаканной девушкой~
@@ -169,6 +172,7 @@ Con: 15
 Cha: 20
 Size: 40
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -194,6 +198,7 @@ Int: 20
 Wis: 20
 Size: 50
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -212,7 +217,7 @@ T 26900
 ~
 Молоденький мальчишка.
 ~
-c0d0g0l0n0 k0 0 E
+c0d0g0n0 0 0 E
 18 10 8 5d3+500 3d3+10
 2d2+5 0
 8 8 1
@@ -227,6 +232,7 @@ LikeWork: 5
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: p0a1b1c1 
@@ -274,6 +280,7 @@ LikeWork: 13
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1 
@@ -319,6 +326,7 @@ LikeWork: 20
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -360,6 +368,7 @@ LikeWork: 13
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: c1 
@@ -399,6 +408,7 @@ Wis: 20
 Con: 20
 Size: 10
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -418,11 +428,11 @@ T 26920
 Красивый молодой парень.
 ~
 b0c0d0g0n0 d0k0r0 0 E
-24 0 -10 5d3+1300 3d6+9
-5d6+100 150000
+21 10 -10 5d3+600 3d6+0
+5d6+100 50000
 8 8 1
 BareHandAttack: 5
-Str: 25
+Str: 20
 Dex: 19
 Int: 10
 Wis: 10
@@ -433,6 +443,7 @@ LikeWork: 20
 MaxFactor: 19
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -456,10 +467,10 @@ T 26913
 Сильный мужичина с длинными усами.
 ~
 b0c0d0g0m0n0A0 d0k0r0 600 E
-25 0 -10 4d5+1200 5d4+5
+25 10 -10 4d5+1200 5d4+0
 8d5+120 0
 6 6 1
-Str: 24
+Str: 20
 Dex: 22
 Int: 10
 Wis: 10
@@ -470,6 +481,7 @@ LikeWork: 25
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -477,7 +489,6 @@ Skill: 136 50
 Skill: 137 150
 E
 T 26914
-T 26925
 #26913
 пахарь Емельян~
 пахарь Емельян~
@@ -491,7 +502,7 @@ T 26925
 Местный пахарь, уважаемый человек на хуторе.
 ~
 b0c0d0g0l0m0n0A0 f0k0 600 E
-25 0 -10 2d9+900 5d3+4
+25 10 -10 2d9+900 5d3+0
 5d8+300 0
 6 6 1
 Str: 21
@@ -505,6 +516,7 @@ LikeWork: 30
 MaxFactor: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -515,11 +527,10 @@ Skill: 157 150
 Skill: 160 100
 E
 T 26914
-T 26925
 #26914
 Бабка Марфа~
 бабка Марфа~
-бабку Марфу~
+бабки Марфы~
 бабке Марфе~
 бабку Марфу~
 бабкой Марфой~
@@ -529,13 +540,13 @@ T 26925
 Старая хуторянка, завсегдатая на всех праздниках.
 ~
 b0c0d0g0l0m0n0o0 d0k0 600 E
-25 7 3 5d8+1400 4d5+9
+25 12 3 5d8+700 4d5+9
 2d4+15 0
 6 6 2
 Str: 22
 Dex: 14
-Int: 23
-Wis: 25
+Int: 20
+Wis: 20
 Con: 17
 Cha: 16
 Size: 100
@@ -543,6 +554,7 @@ LikeWork: 13
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -571,11 +583,11 @@ T 26926
 Местный кузнец, сильный человек, с сединой на висках.
 ~
 b0c0d0g0l0m0n0o0A0 d0k0r0 600 E
-25 0 -7 4d9+1600 4d5+10
+25 10 -7 4d9+800 4d5+0
 5d5+300 0
 6 6 1
 BareHandAttack: 6
-Str: 28
+Str: 21
 Dex: 21
 Int: 10
 Wis: 10
@@ -586,6 +598,7 @@ LikeWork: 20
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -609,13 +622,13 @@ T 26927
 Молодая невеста, с румянцем на щеках.
 ~
 b0c0d0g0n0o0 d0k0z0 0 E
-23 7 3 5d8+1300 4d4+7
+25 7 3 5d8+30000 4d4+0
 2d4+200 100000
 8 8 2
 Str: 20
 Dex: 15
-Int: 23
-Wis: 25
+Int: 18
+Wis: 18
 Con: 17
 Cha: 16
 Size: 100
@@ -623,6 +636,7 @@ LikeWork: 13
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -649,7 +663,7 @@ E
 Большой толстый мужик с длинной широкой бородой.
 ~
 b0c0d0g0l0m0n0A0 d0k0r0 600 E
-25 0 -10 5d3+1500 3d6+5
+25 10 -10 5d3+800 3d6+0
 5d6+100 0
 8 8 1
 BareHandAttack: 5
@@ -664,6 +678,7 @@ LikeWork: 20
 MaxFactor: 19
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1 
@@ -693,13 +708,13 @@ T 26928
 Молодая невеста, с румянцем на щеках.
 ~
 b0c0d0g0n0o0 d0k0 0 E
-20 7 3 5d8+1100 4d4+4
-2d4+200 80000
+20 7 3 5d8+700 4d4+0
+2d4+200 40000
 8 8 2
 Str: 19
 Dex: 15
-Int: 23
-Wis: 25
+Int: 20
+Wis: 20
 Con: 18
 Cha: 16
 Size: 100
@@ -707,6 +722,7 @@ LikeWork: 13
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -723,7 +739,7 @@ Spell: 92
 E
 T 26917
 #26919
-Ведьма~
+старая ведьма~
 старая ведьма~
 старой ведьмы~
 старой ведьме~
@@ -735,14 +751,14 @@ T 26917
 Старая уродливая ведьма, с большими злыми глазами.
 ~
 b0c0d0f0g0l0n0o0x0A0 d0f0k0z0 -600 E
-25 7 3 5d8+1600 4d5+9
-2d4+300 200000
+24 13 3 5d8+850 4d5+0
+2d4+300 80000
 8 8 2
 BareHandAttack: 4
 Str: 23
 Dex: 14
-Int: 23
-Wis: 25
+Int: 20
+Wis: 20
 Con: 20
 Cha: 16
 Size: 100
@@ -750,9 +766,10 @@ LikeWork: 13
 MaxFactor: 10
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b0c0b1c1 
+Special_Bitvector: b0c0 
 Skill: 22 50
 Skill: 132 60
 Skill: 136 60
@@ -762,9 +779,6 @@ Spell: 5
 Spell: 15
 Spell: 26
 Spell: 26
-Spell: 26
-Spell: 26
-Spell: 92
 Spell: 92
 Spell: 92
 E
@@ -787,6 +801,7 @@ b0d0g0B0 c0d0f0k0 600 E
 8 8 1
 Size: 10
 Class: 100
+Race: 113
 Height: 30
 Weight: 50
 Special_Bitvector: 0 

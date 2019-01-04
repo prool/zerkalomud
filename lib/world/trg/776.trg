@@ -449,10 +449,10 @@ say Встречайте ратники гостя дорогого!! %pc% к нам пожаловал!!
 Чар_с_тьмой_входит_на_ренту~
 0 aqr 100
 ~
-if %actor.affect(затемнение)% & (!%actor.affect(освещение)%)
+if %actor.affect(затемнение)% && (!%actor.affect(освещение)%)
   say Ну до чего ты невоспитаный, %actor.iname%, не заслоняй свет, читать мешаешь!
   wait 10 s
-  if %actor.affect(затемнение)% & (!%actor.affect(освещение)% & (%actor.realroom% == 77622)) 
+  if %actor.realroom% == 77622
     say Ну не хочешь по-хорошему, будет по-плохому...
     %echoaround% %actor% Хозяйка гостинной НЕВЫНОСИМО БОЛЬНО пнула %actor.vname%!
     %send% %actor% Хозяйка гостинной НЕВЫНОСИМО БОЛЬНО пнула Вас!
@@ -467,10 +467,10 @@ endif
 0 b 12
 ~
 foreach Char %self.pc%
-  if %Char.affect(затемнение)% & (!%Char.affect(освещение)%)
+  if %Char.affect(затемнение)% && (!%Char.affect(освещение)%)
     say Ну до чего ты невоспитаный, %Char.iname%, не заслоняй свет, читать мешаешь!
     wait 10 s
-    if %Char.affect(затемнение)% & (!%Char.affect(освещение)%)
+    if %Char.affect(затемнение)% && (!%Char.affect(освещение)%)
       if %Char.realroom% == 77622
         say Ну не хочешь по-хорошему, будет по-плохому...
         %echoaround% %Char% Хозяйка гостинной НЕВЫНОСИМО БОЛЬНО пнула %Char.vname%!

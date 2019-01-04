@@ -30,6 +30,7 @@ LikeWork: 100
 MaxFactor: 50
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: m0x0C3 
@@ -80,6 +81,7 @@ LikeWork: 100
 MaxFactor: 50
 ExtraAttack: 1
 Class: 104
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: x0b1c1B3 
@@ -144,6 +146,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 50
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: m0p0x0C3 
@@ -189,6 +192,7 @@ LikeWork: 100
 MaxFactor: 20
 ExtraAttack: 1
 Class: 104
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0x0b1c1B3 
@@ -261,6 +265,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 30
 Class: 100
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: x0C3 
@@ -312,6 +317,7 @@ LikeWork: 100
 MaxFactor: 20
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 170
 Weight: 85
 Special_Bitvector: a0b0c0d0x0 
@@ -386,6 +392,7 @@ LikeWork: 100
 MaxFactor: 50
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: x0b1c1 
@@ -411,7 +418,6 @@ Skill: 147 100
 Skill: 148 100
 E
 T 92405
-I копыта:4
 #92407
 черт~
 черт~
@@ -444,6 +450,7 @@ LikeWork: 100
 MaxFactor: 50
 ExtraAttack: 1
 Class: 104
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: x0b1c1B3 
@@ -506,6 +513,7 @@ LikeWork: 100
 MaxFactor: 20
 ExtraAttack: 1
 Class: 104
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: x0b1c1B3 
@@ -577,6 +585,7 @@ LikeWork: 100
 MaxFactor: 20
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: x0 
@@ -643,6 +652,7 @@ Cha: 10
 Size: 100
 LikeWork: 100
 Class: 100
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: x0C3 
@@ -736,6 +746,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: x0b1c1 
@@ -798,6 +809,7 @@ LikeWork: 100
 MaxFactor: 50
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: m0x0C3 
@@ -845,6 +857,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: c0C3 

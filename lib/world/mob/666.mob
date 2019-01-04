@@ -27,6 +27,7 @@ LikeWork: 25
 MaxFactor: 6
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 199
 Weight: 75
 Special_Bitvector: b1c1C3 
@@ -73,6 +74,7 @@ LikeWork: 25
 MaxFactor: 3
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: m0b1c1C3 
@@ -134,6 +136,7 @@ LikeWork: 15
 MaxFactor: 5
 ExtraAttack: 3
 Class: 101
+Race: 110
 Height: 100
 Weight: 85
 Special_Bitvector: a0b0c0d0e0f0m0c1C3 
@@ -178,6 +181,7 @@ Size: 100
 LikeWork: 13
 MaxFactor: 4
 Class: 101
+Race: 111
 Height: 145
 Weight: 77
 Special_Bitvector: l0b1c1 
@@ -220,6 +224,7 @@ LikeWork: 20
 MaxFactor: 4
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 166
 Weight: 88
 Special_Bitvector: a0b0c0d0p0b1c1C3 
@@ -243,8 +248,8 @@ Spell: 89
 Spell: 114
 Spell: 114
 Spell: 114
-Helper: 66605
 Helper: 66606
+Helper: 66605
 E
 #66605
 призрачный воин~
@@ -274,6 +279,7 @@ LikeWork: 40
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 166
 Weight: 99
 Special_Bitvector: l0b1c1m3C3 
@@ -315,6 +321,7 @@ LikeWork: 40
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 166
 Weight: 99
 Special_Bitvector: l0b1c1m3C3 
@@ -364,6 +371,7 @@ LikeWork: 50
 MaxFactor: 2
 ExtraAttack: 4
 Class: 101
+Race: 112
 Height: 199
 Weight: 100
 Special_Bitvector: b1c1m3C3 
@@ -395,6 +403,8 @@ Spell: 113
 Spell: 152
 Spell: 152
 Spell: 152
+Helper: 66609
+Helper: 66608
 E
 #66608
 прислужник темного демона~
@@ -424,6 +434,7 @@ LikeWork: 12
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 100
 Weight: 60
 Special_Bitvector: b1 
@@ -478,6 +489,7 @@ LikeWork: 12
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 100
 Weight: 60
 Special_Bitvector: b1 
@@ -534,6 +546,7 @@ LikeWork: 13
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: m0C3 
@@ -578,6 +591,7 @@ Size: 78
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 167
 Weight: 85
 Special_Bitvector: l0b1c1C3 
@@ -627,6 +641,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 113
 Height: 162
 Weight: 59
 Special_Bitvector: a0b0c0d0b1c1m3C3 
@@ -685,6 +700,7 @@ LikeWork: 50
 MaxFactor: 3
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 166
 Weight: 75
 Special_Bitvector: b1c1C3 
@@ -764,6 +780,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 105
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: i3m3 

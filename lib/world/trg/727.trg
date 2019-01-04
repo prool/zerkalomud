@@ -57,7 +57,7 @@ end
 лоад перчей~
 0 f 100
 ~
-if (( %random.1000% < 101 ) & ( %world.curobjs(72705)% < 3 ))
+if %random.1000% < 101 && %world.curobjs(72705)% < 3
   mload obj 72705
 end
 ~
@@ -128,7 +128,7 @@ if (%object.vnum% == 72704)
   wait 2
   mecho Глава лесорубов бережно обернул наковальню материей и спрятал в мешок.
   г Ну а теперь, награду получай!
-  if (( %random.1000% < 100 ) & ( %world.curobjs(72706)% < 4 ))
+  if %random.1000% < 100 && %world.curobjs(72706)% < 4
     mload obj 72706
     дать все .%actor.name%
   else
@@ -162,7 +162,7 @@ wait 1s
 лоад уха~
 0 f 100
 ~
-if (( %random.1000% < 101 ) & ( %world.curobjs(72708)% < 3 ))
+if %random.1000% < 101 && %world.curobjs(72708)% < 3
   mload obj 72708
 end
 ~
@@ -315,7 +315,7 @@ end
 лоад топора дровосека~
 0 f 100
 ~
-if (( %random.1000% < 100 ) & ( %world.curobjs(72701)% < 6 ))
+if %random.1000% < 100 && %world.curobjs(72701)% < 6
   mload obj 72701
 end
 ~
@@ -323,7 +323,7 @@ end
 лоад рукавиц~
 0 f 100
 ~
-if (( %random.1000% < 100 ) & ( %world.curobjs(72711)% < 4 ))
+if %random.1000% < 100 && %world.curobjs(72711)% < 4
   mload obj 72711
 end
 ~
@@ -331,7 +331,7 @@ end
 лоад штанов~
 0 f 100
 ~
-if (( %random.1000% < 100 ) & ( %world.curobjs(72710)% < 6 ))
+if %random.1000% < 100 && %world.curobjs(72710)% < 6
   mload obj 72710
 end
 ~
@@ -339,7 +339,7 @@ end
 лоад хвоста~
 0 f 100
 ~
-if (( %random.1000% < 101 ) & ( %world.curobjs(72712)% < 6 ))
+if %random.1000% < 101 && %world.curobjs(72712)% < 6
   mload obj 72712
 end
 ~
@@ -348,7 +348,7 @@ end
 0 n 100
 ~
 wait 1
-if (( %random.1000% < 150 ) & ( %world.curobjs(72713)% < 4 ))
+if %random.1000% < 150 && %world.curobjs(72713)% < 4
   mload obj 72713
   од все
 end
@@ -358,7 +358,7 @@ end
 0 n 100
 ~
 wait 1
-if (( %random.1000% < 150 ) & ( %world.curobjs(72714)% < 4 ))
+if %random.1000% < 150 && %world.curobjs(72714)% < 4
   mload obj 72714
   од все
 end
@@ -367,7 +367,7 @@ end
 лоад грамота~
 0 f 100
 ~
-if (( %random.1000% < 150 ) & ( %world.curobjs(72715)% < 2 ))
+if %random.1000% < 150 && %world.curobjs(72715)% < 2
   mload obj 72715
 end
 ~
@@ -375,7 +375,7 @@ end
 лоад кольчуги воеводы~
 0 n 100
 ~
-if (( %random.1000% < 100 ) & ( %world.curobjs(72722)% < 5 ))
+if %random.1000% < 100 && %world.curobjs(72722)% < 5
   mload obj 72722
   од все
 end
@@ -384,7 +384,7 @@ end
 лоад щит витязя~
 0 n 100
 ~
-if (( %random.1000% < 100 ) & ( %world.curobjs(72723)% < 5 ))
+if %random.1000% < 100 && %world.curobjs(72723)% < 5
   mload obj 72723
   од все
 end
@@ -393,7 +393,7 @@ end
 лоад рукавиц богатыря~
 0 n 100
 ~
-if (( %random.1000% < 100 ) & ( %world.curobjs(72726)% < 5 ))
+if %random.1000% < 100 && %world.curobjs(72726)% < 5
   mload obj 72726
   од все
 end
@@ -402,7 +402,7 @@ end
 лоад накидки ведуна~
 0 n 100
 ~
-if (( %random.1000% < 100 ) & ( %world.curobjs(72728)% < 5 ))
+if %random.1000% < 100 && %world.curobjs(72728)% < 5
   mload obj 72728
   од все
 end
@@ -411,7 +411,7 @@ end
 лоад копье витязя~
 0 n 100
 ~
-if (( %random.1000% < 100 ) & ( %world.curobjs(72724)% < 5 ))
+if %random.1000% < 100 && %world.curobjs(72724)% < 5
   mload obj 72724
   воор копь
 end
@@ -420,7 +420,7 @@ end
 лоад меч друж~
 0 n 100
 ~
-if (( %random.1000% < 100 ) & ( %world.curobjs(72725)% < 5 ))
+if %random.1000% < 100 && %world.curobjs(72725)% < 5
   mload obj 72725
   воор меч
 end
@@ -429,7 +429,7 @@ end
 лоад засапожник ополченца~
 0 n 100
 ~
-if (( %random.1000% < 100 ) & ( %world.curobjs(72727)% < 5 ))
+if %random.1000% < 100 && %world.curobjs(72727)% < 5
   mload obj 72727
   воор зас
 end

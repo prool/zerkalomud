@@ -26,6 +26,7 @@ Size: 50
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 150
 Special_Bitvector: b1c1d3C3 
@@ -81,6 +82,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: C3 

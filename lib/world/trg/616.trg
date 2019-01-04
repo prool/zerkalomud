@@ -267,6 +267,11 @@ if  (%actor.id% == %questor616.id%)
   elseif (%chanse% < 35) && (%world.curobjs(61623)% < 20)
     mload obj 61623
     дать перстень %actor.name%
+  elseif ((%world.curobjs(3302)% < 1) && (%random.1000% <= 30) && (%chanse% < 60))
+    wait 1s
+    mload obj 3302
+    say &WДа и возьми еще эти труселя, и откуда они у меня взялись? Пригодятся тебе наверное.&n
+    дать все .%actor.name%
   else
     msend %actor% Старик вручил вам увесистый кошель.
     mechoaround %actor% Мудрец вручил %actor.dname% увесистый кошель.

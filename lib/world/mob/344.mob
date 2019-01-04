@@ -13,7 +13,7 @@
 мечами и копьями.
 ~
 b0d0e0g0m0n0o0p0q0r0t0u0x0z0A0 d0k0z0 0 E
-29 0 0 5d5+5000 9d9+9
+25 0 0 5d5+5000 9d9+9
 0d0+0 100000
 8 8 3
 Str: 25
@@ -22,6 +22,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 10
 Class: 101
+Race: 110
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -42,7 +43,7 @@ E
 в черные косы волосами.
 ~
 c0d0g0l0m0n0o0p0q0r0t0u0A0 d0 0 E
-27 0 0 5d5+900 9d9+9
+12 0 0 5d5+900 9d9+9
 3d5+2 10000
 8 8 1
 Str: 29
@@ -53,15 +54,15 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 21 100
 Skill: 136 81
 Skill: 137 100
-Helper: 34402
 Helper: 34404
-Skill: 136 81
+Helper: 34402
 E
 #34402
 княжий тиун~
@@ -76,7 +77,7 @@ E
 Толстоватый пожилой вельможа в драгоценных одеждах.
 ~
 c0d0g0l0m0n0o0p0t0u0A0h1 d0h0 0 E
-25 0 0 5d5+900 6d6+16
+23 0 0 5d5+900 6d6+16
 53d15+99 70000
 8 8 1
 Str: 36
@@ -86,6 +87,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -108,7 +110,7 @@ E
 в блестящей байдане с коротким мечем.
 ~
 c0d0g0l0m0n0o0A0 d0 0 E
-26 0 0 5d5+400 6d6+0
+18 0 0 5d5+400 6d6+0
 3d5+2 30000
 8 8 1
 Str: 29
@@ -118,6 +120,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -139,7 +142,7 @@ E
 в старшей дружине князя Галицкого.
 ~
 d0g0l0m0n0o0p0q0r0A0h1 d0 0 E
-27 0 0 6d6+800 6d6+6
+21 0 0 6d6+800 6d6+6
 15d15+0 50000
 8 8 1
 Str: 26
@@ -150,6 +153,7 @@ Size: 80
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -170,7 +174,7 @@ E
 Средних лет смерд, живущий в Галицком посаде.
 ~
 c0d0g0l0o0A0h1 d0 0 E
-21 4 4 5d5+400 6d6+0
+18 4 4 5d5+400 6d6+0
 3d5+2 30000
 8 8 1
 Str: 24
@@ -180,6 +184,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: y0b1c1 
@@ -200,7 +205,7 @@ E
 Молодая смешливая черноволосая девушка.
 ~
 c0d0g0l0m0o0A0h1 0 0 E
-21 0 0 5d5+300 3d6+0
+12 0 0 5d5+300 3d6+0
 3d5+2 10000
 8 8 2
 Str: 24
@@ -210,6 +215,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -230,7 +236,7 @@ E
 Невысокая пожилая местная жительница.
 ~
 c0d0g0l0m0n0o0A0h1 0 0 E
-21 0 0 5d5+300 3d6+0
+12 0 0 5d5+300 3d6+0
 3d5+2 10000
 8 8 2
 Str: 23
@@ -240,6 +246,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -260,7 +267,7 @@ E
 Средних лет крестьянин с котомкой в руках.
 ~
 c0d0g0l0m0n0h1 0 0 E
-21 0 0 5d5+450 5d4+0
+16 0 0 5d5+450 5d4+0
 6d6+6 20000
 8 8 1
 Str: 20
@@ -272,6 +279,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -291,7 +299,7 @@ E
 и курносым носиком ловит каждое Ваше слово,
 готовая проводить Вас на ночлег.
 ~
-b0d0g0n0o0 0 600 E
+b0d0g0n0o0u2 d0f0k0 600 E
 25 0 0 5d5+200 6d6+6
 53d15+99 0
 8 8 2
@@ -301,6 +309,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -319,8 +328,8 @@ E
 Средних лет мужик с большим пузом,
 обтянутым красным кушаком.
 ~
-b0c0d0g0l0m0n0 0 0 E
-21 0 0 5d5+450 5d4+0
+b0c0d0g0l0m0n0u2 0 0 E
+16 0 0 5d5+450 5d4+0
 6d6+6 20000
 8 8 1
 Str: 20
@@ -332,6 +341,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -350,8 +360,8 @@ E
 Крепкий невысокий мужик с широкими плечами
 и могучими руками.
 ~
-b0c0d0g0l0m0n0 0 0 E
-21 0 0 5d5+450 5d4+0
+b0c0d0g0l0m0n0u2 0 0 E
+16 0 0 5d5+450 5d4+0
 6d6+32000 20000
 8 8 1
 Str: 20
@@ -363,6 +373,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -382,8 +393,8 @@ E
 никто не заглядывал, а кто бы заглянул,
 тот час и голову бы потерял.
 ~
-b0d0g0l0m0n0o0p0q0r0A0 0 0 E
-27 0 0 6d6+800 6d6+6
+b0d0g0l0m0n0o0p0q0r0 0 0 E
+12 0 0 6d6+800 6d6+6
 15d15+0 10000
 8 8 1
 Str: 26
@@ -394,6 +405,7 @@ Size: 80
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -414,7 +426,7 @@ E
 мечами и копьями.
 ~
 b0d0e0g0m0n0o0p0q0r0t0u0x0z0A0 d0k0z0 0 E
-29 0 0 5d5+5000 9d9+9
+25 0 0 5d5+5000 9d9+9
 0d0+0 100000
 8 8 3
 Str: 25
@@ -423,6 +435,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 10
 Class: 101
+Race: 110
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -442,8 +455,8 @@ E
 Пожилой торговец, на которого работает немало
 местных мастеровых.
 ~
-b0c0d0g0l0m0n0 0 0 E
-21 0 0 5d5+450 5d4+0
+b0c0d0g0l0m0n0u2 0 0 E
+16 0 0 5d5+450 5d4+0
 6d6+32000 20000
 8 8 1
 Str: 20
@@ -455,6 +468,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -474,8 +488,8 @@ E
 восточные шаровары и халат, в колпаке звездочета
 улыбается Вам.
 ~
-b0c0d0g0l0m0n0 0 0 E
-21 0 0 5d5+450 5d4+0
+b0c0d0g0l0m0n0u2 0 0 E
+16 0 0 5d5+450 5d4+0
 6d6+6 20000
 8 8 1
 Str: 20
@@ -487,6 +501,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -508,7 +523,7 @@ T 34408
 мечами и копьями.
 ~
 b0d0g0m0n0o0p0q0r0t0u0x0z0A0 d0k0z0 0 E
-29 0 0 5d5+5000 9d9+9
+25 0 0 5d5+5000 9d9+9
 1d1+1 100000
 8 8 2
 Str: 25
@@ -517,6 +532,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 10
 Class: 101
+Race: 110
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -536,11 +552,12 @@ E
 Щупленький маленький парнишка годков так десяти.
 ~
 b0d0g0n0o0p0q0r0t0u0 0 0 E
-7 0 0 1d1+11 1d1+0
+1 0 0 1d1+11 1d1+0
 0d0+0 1
 8 8 1
 Size: 10
 Class: 102
+Race: 101
 Height: 198
 Weight: 10
 Special_Bitvector: 0 
@@ -575,6 +592,7 @@ Size: 30
 LikeWork: 100
 MaxFactor: 10
 Class: 103
+Race: 104
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -605,6 +623,7 @@ Cha: 20
 Size: 30
 MaxFactor: 10
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -623,7 +642,7 @@ E
 Богатый купец в иноземных одеждах.
 ~
 c0d0g0l0n0o0p0q0r0t0u0A0 d0 0 E
-27 0 0 5d5+500 9d9+0
+12 0 0 5d5+500 9d9+0
 13d15+12 10000
 8 8 1
 Str: 29
@@ -634,6 +653,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -652,7 +672,7 @@ E
 Богатый купец в иноземных одеждах.
 ~
 c0d0g0l0n0o0p0q0r0t0u0A0 d0 0 E
-27 0 0 5d5+500 9d9+0
+12 0 0 5d5+500 9d9+0
 13d15+12 10000
 8 8 1
 Str: 29
@@ -663,6 +683,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -695,6 +716,8 @@ Cha: 3
 Size: 50
 LikeWork: 80
 ExtraAttack: 2
+Class: 100
+Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1d1 

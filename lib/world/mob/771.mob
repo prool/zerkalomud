@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #77102
 Старый медведь~
 старый медведь~
@@ -12,38 +11,30 @@
 Этого зверя помнят еще ваши прапрапрапра....прадеды. Только шкура 
 его уже выцвела и движения не так быстры как когда то.
 ~
-j0o0y0 c0e0g0k0C0l1 -600 E
+d0j0o0y0 c0e0g0k0C0l1 -600 E
 27 0 0 10d10+999 15d10+0
 0d0+0 120000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
 AResist: 20
 MResist: 20
 BareHandAttack: 1
 Str: 36
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 2
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
+Skill: 4 80
 Skill: 136 120
 Skill: 151 80
-Skill: 4 80
 E
 I шерсть,5:5
 #77103
@@ -59,45 +50,36 @@ I шерсть,5:5
 Ух. По настоящему прародитель местного рода косолапых. Врядли 
 вы еще встретите что-нибуть подобное.
 ~
-m0o0 c0e0g0k0C0l1 -600 E
+d0m0o0 c0e0g0k0C0l1 -600 E
 27 5 0 10d10+999 15d10+0
 0d0+1000 150000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
 AResist: 33
 MResist: 33
 BareHandAttack: 1
 Str: 36
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 45
-MaxFactor: 0
 ExtraAttack: 4
 Class: 103
-Size: 100
+Race: 104
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 1
 Feat: 3
-Spell: 28
-Spell: 92
-Skill: 132 100
-Skill: 136 120
 Skill: 4 80
 Skill: 5 90
+Skill: 132 100
+Skill: 136 120
+Spell: 28
+Spell: 92
 E
 T 77100
 I шерсть,10:5
-$
 $

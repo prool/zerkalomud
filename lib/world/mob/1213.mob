@@ -10,34 +10,34 @@
 ~
 Вы видите хмурого хазарского всадника.
 ~
-l0A0r2c0s2 0 -600 E
-21 -1 +5 10d10+500 6d6+15 
+c0d0l0A0r2s2 0 -600 E
+21 -1 5 10d10+500 6d6+15
 2d5+0 30000
 8 8 1
 CastSuccess: 42
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 25
+Dex: 15
 Int: 12
 Wis: 12
-Dex: 15
 Con: 20
 Cha: 14
+Size: 65
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 65
-Height: 210
-Weight: 250
-Special_Bitvector: b1c1n0
-Skill: 21 15
-Skill: 143 40
+Race: 104
+Height: 200
+Weight: 200
+Special_Bitvector: n0b1c1 
 Skill: 8 30
-Skill: 137 10
-Skill: 136 80
-Skill: 151 30
+Skill: 21 15
 Skill: 132 25
+Skill: 136 80
+Skill: 137 10
+Skill: 143 40
 Skill: 150 10
+Skill: 151 30
 E
 T 121301
 I глаза,1:2
@@ -56,34 +56,34 @@ I кожа,2:5
 ~
 Вы видите сильного половецкого всадника.
 ~
-l0A0r2c0s2 0 -600 E
-23 -2 4 10d10+550 6d6+18 
+c0d0l0A0r2s2 0 -600 E
+23 -2 4 10d10+550 6d6+18
 2d5+0 50000
 8 8 1
 CastSuccess: 46
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 26
+Dex: 15
 Int: 12
 Wis: 12
-Dex: 15
 Con: 20
 Cha: 14
+Size: 65
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 65
-Height: 210
-Weight: 250
-Special_Bitvector: b1c1n0
-Skill: 21 25
-Skill: 143 50
+Race: 104
+Height: 200
+Weight: 200
+Special_Bitvector: n0b1c1 
 Skill: 8 40
-Skill: 137 20
-Skill: 136 90
-Skill: 151 40
+Skill: 21 25
 Skill: 132 35
+Skill: 136 90
+Skill: 137 20
+Skill: 143 50
 Skill: 150 20
+Skill: 151 40
 E
 T 121301
 I глаза,1:4
@@ -102,30 +102,30 @@ I кожа,3:1
 ~
 Вы видите старого татарского охотника.
 ~
-l0A0r2c0s2 h0 -600 E
-24 -3 +8 10d10+300 5d5+10 
+c0d0l0A0r2s2 h0 -600 E
+24 -3 8 10d10+300 5d5+10
 3d2+0 45000
 8 8 1
 CastSuccess: 48
-BareHandAttack:  9
+BareHandAttack: 9
 Str: 19
+Dex: 16
 Int: 14
 Wis: 15
-Dex: 16
 Con: 18
 Cha: 12
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 150
-Special_Bitvector: b1c1
-Skill: 155 60
+Special_Bitvector: b1c1 
 Skill: 7 55
-Skill: 154 60
 Skill: 136 115
+Skill: 154 60
+Skill: 155 60
 Skill: 157 55
 E
 T 121301
@@ -145,30 +145,30 @@ I кожа,5:1
 ~
 Вы видите опытного монгольского охотника.
 ~
-l0A0r2c0s2 m1 -600 E
-23 0 6 10d10+450 5d5+10 
+c0d0l0A0r2s2 m1 -600 E
+23 0 6 10d10+450 5d5+10
 3d2+0 50000
 8 8 1
 CastSuccess: 46
-BareHandAttack:  9
+BareHandAttack: 9
 Str: 24
+Dex: 18
 Int: 12
 Wis: 16
-Dex: 18
 Con: 18
 Cha: 12
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 150
-Special_Bitvector: b1c1
-Skill: 155 45
+Special_Bitvector: b1c1 
 Skill: 7 40
-Skill: 154 45
 Skill: 136 100
+Skill: 154 45
+Skill: 155 45
 Skill: 157 40
 E
 T 121301
@@ -187,25 +187,24 @@ I кожа,3:5
 Толстый хомяк оглядывается по сторонам.
 ~
 Вы видите толстого хомяка.~
-l1n1m1h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0l1m1n1 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,5:6
@@ -224,25 +223,24 @@ I кожа,4:5
 Степная саранча сидит тут в траве.
 ~
 Вы видите степную саранчу.~
-l1m1h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0l1m1 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 #121306
@@ -256,25 +254,24 @@ E
 Дрофа стоит тут.
 ~
 Вы видите дрофу.~
-h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 2
 BareHandAttack: 15
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 25
 Weight: 20
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 60
 E
 I глаза,4:9
@@ -292,25 +289,24 @@ I крылья,4:5
 Кузнечик сидит тут в траве.
 ~
 Вы видите кузнечика.~
-l1m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0l1m1 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 #121308
@@ -324,25 +320,24 @@ E
 Хомяк оглядывается по сторонам.
 ~
 Вы видите хомяка.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,2:6
@@ -360,25 +355,24 @@ I когти,4:5
 Степной волк ищет поживу тут.
 ~
 Вы видите степного волка.~
-d1h0 0 -600 E
-10 13 +8 1d10+100 4d4+5 
+d0h0d1 0 -600 E
+10 13 8 1d10+100 4d4+5
 0d0+0 1000
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 12
+Dex: 15
 Int: 6
 Wis: 6
-Dex: 15
 Con: 12
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 35
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 45
 Weight: 40
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,4:5
@@ -386,5 +380,4 @@ I шерсть,5:7
 I зубы,1:9
 I кости,3:8
 I когти,3:6
-$
 $

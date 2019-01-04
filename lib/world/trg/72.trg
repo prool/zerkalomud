@@ -16,8 +16,8 @@ if !%actor.haveobj(7201)%
 end
 osend %actor% Вы ловко выстругали из щепки кораблик.    
 oechoaround %actor% %actor.iname% ловко выстругал%actor.g% из щепки кораблик.
-oforce %actor% взять кораблик
 oload obj 7203
+oforce %actor% взять кораблик
 wait 1
 opurge %self%
 ~

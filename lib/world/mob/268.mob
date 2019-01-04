@@ -32,6 +32,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 100
 Special_Bitvector: g0b1c1 
@@ -81,6 +82,7 @@ Con: 20
 Cha: 20
 Size: 50
 Class: 102
+Race: 101
 Height: 30
 Weight: 150
 Special_Bitvector: 0 
@@ -115,6 +117,7 @@ Size: 45
 LikeWork: 50
 ExtraAttack: 4
 Class: 103
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -154,6 +157,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 100
+Race: 102
 Height: 30
 Weight: 150
 Special_Bitvector: a0b1c1 
@@ -197,6 +201,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
@@ -254,6 +259,7 @@ Size: 80
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 150
 Special_Bitvector: g0b1c1 
@@ -280,7 +286,6 @@ Spell: 91
 E
 T 26802
 T 26814
-I копыта,14:4
 #26806
 минотавр солдат~
 минотавр-солдат~
@@ -310,6 +315,7 @@ Size: 60
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1 
@@ -329,7 +335,6 @@ Spell: 72
 Spell: 75
 E
 T 26815
-I кости,8:5
 #26807
 минотавр шаман~
 минотавр-шаман~
@@ -358,6 +363,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 100
 Special_Bitvector: g0b1c1 
@@ -386,7 +392,6 @@ Helper: 26803
 E
 T 26811
 T 26818
-I кожа,10:5
 #26808
 минотавр Арагрис~
 Арагрис~
@@ -416,6 +421,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
@@ -476,6 +482,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1 
@@ -528,6 +535,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 50
 Special_Bitvector: c0b1c1B3 
@@ -593,6 +601,7 @@ Con: 25
 Cha: 20
 Size: 10
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -628,6 +637,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 150
 Special_Bitvector: a0b1c1 
@@ -684,6 +694,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 150
 Special_Bitvector: a0b1c1 
@@ -729,6 +740,7 @@ Size: 60
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1 
@@ -777,6 +789,7 @@ Size: 60
 LikeWork: 15
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1 
@@ -825,6 +838,7 @@ Size: 60
 LikeWork: 15
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1 
@@ -873,6 +887,7 @@ Size: 60
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1 
@@ -921,6 +936,7 @@ Size: 60
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1 
@@ -968,6 +984,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 100
+Race: 102
 Height: 30
 Weight: 150
 Special_Bitvector: a0b1c1 
@@ -1013,6 +1030,7 @@ Size: 60
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 100
 Special_Bitvector: i0b1c1 
@@ -1058,6 +1076,7 @@ Size: 60
 LikeWork: 65
 ExtraAttack: 1
 Class: 103
+Race: 102
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1 

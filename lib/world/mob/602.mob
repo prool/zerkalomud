@@ -28,7 +28,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 105
-Race: 100
+Race: 101
 Height: 195
 Weight: 85
 Special_Bitvector: 0 
@@ -63,7 +63,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -85,7 +85,7 @@ E
 наверняка, не сильно обрадуют Вас.
 ~
 b0d0g0n0o0B0 d0f0k0 0 E
-30 2 -2 0d0+1000 5d5+2
+12 2 -2 0d0+1000 5d5+2
 0d0+0 10000
 8 8 1
 Str: 10
@@ -99,7 +99,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -146,7 +146,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 105
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -182,7 +182,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 105
-Race: 100
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -220,7 +220,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -252,7 +252,7 @@ E
 не испугает, никакой противник не приведет в смятение.
 ~
 c0d0g0l0m0y0a1g2 f0k0r0 0 E
-24 20 10 10d10+600 6d6+1
+1 20 10 10d10+600 6d6+1
 0d0+200 1
 8 8 1
 Str: 24
@@ -266,7 +266,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
+Race: 104
 Height: 150
 Weight: 70
 Special_Bitvector: y0b1c1d3C3 
@@ -302,10 +302,10 @@ E
 важный.
 ~
 c0d0g0l0m0y0j2 k0r0z0 -600 E
-30 0 -2 20d20+800 7d6+8
-0d0+0 1
+29 0 -2 20d20+800 7d6+8
+0d0+0 200000
 8 8 1
-BareHandAttack: 9
+BareHandAttack: 3
 Str: 23
 Dex: 30
 Int: 16
@@ -317,7 +317,7 @@ LikeWork: 80
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
-Race: 100
+Race: 101
 Height: 175
 Weight: 115
 Special_Bitvector: y0b1c1d1 
@@ -355,7 +355,7 @@ E
 оказаться и кем-угодно другим, а меч необходим для защиты от лихих людей.
 ~
 b0d0g0l0n0 c0d0f0h0k0r0z0 600 E
-25 15 -5 10d10+3000 10d10+15
+29 15 -5 10d10+3000 10d10+15
 0d0+1000 200000
 8 8 1
 BareHandAttack: 3
@@ -370,7 +370,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
-Race: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -415,7 +415,7 @@ E
 Зато тот кто смог, урон будет наносить противнику страшный.
 ~
 d0g0l0m0n0x0y0 c0d0e0f0h0k0r0z0C0c1m1t1 -600 E
-30 3 -5 10d10+1500 18d8+30
+1 3 -5 10d10+1500 18d8+30
 0d0+300 1
 8 8 1
 BareHandAttack: 6
@@ -430,7 +430,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
-Race: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0b1c1d3C3 
@@ -471,7 +471,7 @@ E
 выйдет боец.
 ~
 b0d0g0n0o0p0q0r0s0y0 0 600 E
-6 20 0 0d0+120 3d3+1
+4 20 0 0d0+120 3d3+1
 0d0+0 1000
 8 8 1
 BareHandAttack: 13
@@ -486,7 +486,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 175
 Weight: 150
 Special_Bitvector: n0 
@@ -523,7 +523,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -547,7 +547,7 @@ E
 старую. В прошлое уходят языческие боги и их верные служители.
 ~
 b0d0g0n0o0y0o1 c0d0e0f0k0 600 E
-1 0 0 10d10+2 1d1+1
+12 0 0 10d10+2 1d1+1
 0d0+1 10000
 8 8 1
 Str: 10
@@ -559,7 +559,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 105
-Race: 100
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -585,7 +585,7 @@ T 60202
 но то досужие вымыслы завистников...
 ~
 b0d0g0n0o0x0y0o1 d0f0h0k0 600 E
-10 0 0 0d0+2000 3d4+1
+1 0 0 0d0+2000 3d4+1
 0d0+100 1
 8 8 1
 Str: 25
@@ -597,7 +597,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -630,7 +630,7 @@ E
 парни не думают об опасности. Они с ней сжились и не могут без этого.
 ~
 b0d0g0n0o0x0y0o1 d0f0k0 600 E
-10 0 0 0d0+1000 2d2+1
+1 0 0 0d0+1000 2d2+1
 0d0+1000 1
 8 8 1
 Str: 25
@@ -642,7 +642,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 105
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -664,7 +664,7 @@ E
 преданность князю и даже некоторый фанатизм.
 ~
 b0d0g0l0n0o0p0q0r0t0u0x0y0o1r1f2g2i2 c0d0e0f0h0k0r0z0m1t1 600 E
-30 10 -10 0d0+3000 8d8+3
+1 10 -10 0d0+3000 8d8+3
 0d0+500 1
 8 8 1
 Str: 30
@@ -678,7 +678,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 3
 Class: 104
-Race: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -732,7 +732,7 @@ T 60203
 что и война за мужей своих бестолковых выиграют.
 ~
 b0d0n0o0p0x0y0B0o1g2 0 0 E
-25 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
 Str: 10
@@ -744,7 +744,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -765,7 +765,7 @@ E
 из купцов, а вечера проводит здесь, в компании с медовухой.
 ~
 b0d0 0 0 E
-25 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 6 6 1
 Str: 10
@@ -777,7 +777,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -800,7 +800,7 @@ E
 занять его место.
 ~
 b0d0 0 0 E
-20 10 -5 10d10+2 5d10+20
+12 10 -5 10d10+2 5d10+20
 0d0+0 10000
 8 8 1
 Str: 30
@@ -812,7 +812,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -835,7 +835,7 @@ E
 торговал в Великом Новгороде. Но теперь вот решил перебраться сюда.
 ~
 b0d0 z0A0C0t1 0 E
-24 0 0 10d10+2 5d5+10
+12 0 0 10d10+2 5d5+10
 0d0+0 10000
 8 8 0
 Str: 30
@@ -847,7 +847,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 3
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -868,7 +868,7 @@ E
 жесты полны женственности и шарма, покоряющего мужчин.
 ~
 d0 0 0 E
-20 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
 BareHandAttack: 4
@@ -881,7 +881,7 @@ Cha: 35
 Size: 100
 ExtraAttack: 2
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -903,7 +903,7 @@ E
 и совсем по детски смущается.
 ~
 b0d0g0 0 0 E
-20 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -915,7 +915,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -936,7 +936,7 @@ E
 ориентируется. И только характерная одежка выдает в нем ремесленника.
 ~
 d0g0h1 0 0 E
-15 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -948,7 +948,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -970,7 +970,7 @@ E
 держит прямо - гордая птица.
 ~
 d0g0h1 0 0 E
-20 15 0 10d10+2 1d5+10
+12 15 0 10d10+2 1d5+10
 0d0+0 10000
 8 8 1
 Str: 10
@@ -982,7 +982,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 2
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -990,12 +990,12 @@ Skill: 136 60
 E
 #60224
 толстая баба горожанка~
-Толстая горожанка~
-Толстой горожанки~
-Толстой горожанке~
-Толстую горожанку~
-Толстой горожанкой~
-Толстой горожанке~
+толстая горожанка~
+толстой горожанки~
+толстой горожанке~
+толстую горожанку~
+толстой горожанкой~
+толстой горожанке~
 Толстая баба спешит куда-то по своим делам.
 ~
 Толстая баба, уже не первой молодости, одета в хорошую одежду. Жизнь 
@@ -1005,7 +1005,7 @@ E
 
 ~
 d0g0h1 0 0 E
-1 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
 Str: 10
@@ -1017,7 +1017,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1039,7 +1039,7 @@ E
 дорогам, лучше всякого оружия его защитит песня.
 ~
 d0g0y0h1 0 0 E
-25 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -1051,7 +1051,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1076,7 +1076,7 @@ b0d0n0o0B0f2u2 d0f0k0 200 E
 8 8 1
 Size: 30
 Class: 102
-Race: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

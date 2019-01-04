@@ -1070,6 +1070,8 @@ switch %object.vnum%
                 eval skinok %object.vnum%
                 global kost
                 global skinok
+                eval goldok 0
+                global goldok
                 emot внимательно осмотрел %object.vname%
                 wait 2s
                 say Кхм.. да.
@@ -1091,11 +1093,11 @@ switch %object.vnum%
                 say У нас был договор о другом материале.
                 say За этот и цена другая.
                 *eval skinok 0
-                eval goldok 0
-                eval kost 0
+                *eval goldok 0
+                *eval kost 0
                 *global skinok
-                global goldok
-                global kost
+                *global goldok
+                *global kost
                 give all %actor.name%
                 halt
               end
@@ -1221,6 +1223,10 @@ switch %amount%
   * Брянск
   case 4300
     eval target 66034
+  break
+  * Менск
+  case 7900
+    eval target 77007+%random.30%
   break
   * Галич
   case 5500

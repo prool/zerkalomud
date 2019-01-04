@@ -11,7 +11,7 @@
 Он уже сильно запачкался о эту грязную лестницу.
 ~
 a0d0g0m0n0h1 0 0 E
-23 18 -8 10d10+500 3d3+15
+16 18 -8 10d10+500 3d3+15
 2d2+2 20000
 8 8 1
 Destination: 64018
@@ -28,6 +28,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -46,7 +47,7 @@ E
 седоусый жилистый мужик измазанный глиной.
 ~
 b0d0 0 0 E
-25 20 0 10d10+600 6d6+8
+17 20 0 10d10+600 6d6+8
 2d2+2 23000
 8 8 1
 Str: 22
@@ -59,6 +60,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -79,7 +81,7 @@ E
 Сразу видно, паренек станет отличным гончаром.
 ~
 b0d0 0 0 E
-20 18 0 10d10+400 4d5+5
+12 18 0 10d10+400 4d5+5
 0d0+0 10000
 6 6 1
 Str: 10
@@ -91,6 +93,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -109,7 +112,7 @@ T 64000
 Похоже, мальчишка у гончара совсем недавно и долго не продержится. 
 ~
 b0d0 0 600 E
-4 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -121,6 +124,7 @@ Cha: 10
 Size: 43
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 155
 Weight: 85
 Special_Bitvector: c0 
@@ -141,7 +145,7 @@ T 64003
 все так же точны и выверены.
 ~
 b0d0 0 600 E
-1 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -153,6 +157,7 @@ Cha: 10
 Size: 81
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 165
 Weight: 85
 Special_Bitvector: i3 
@@ -171,7 +176,7 @@ E
 мордаха красноречиво говорит о том, что мальчишка этот шалун и пройдоха.
 ~
 d0 0 0 E
-1 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -183,6 +188,7 @@ Cha: 10
 Size: 42
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 146
 Weight: 85
 Special_Bitvector: p0 
@@ -204,8 +210,8 @@ E
 назвал свою корчму в честь своей спасительницы. Хотя его жена до сих пор
 сомневается: а была ли кобыла?
 ~
-b0d0B0 0 600 E
-1 0 0 10d10+2 0d0+0
+b0d0n0B0u2 0 600 E
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -217,6 +223,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -235,8 +242,8 @@ T 64014
 Пышненькая приятная на вид женщина с гладкими щечками, на которых навечно
 поселились ямочки от приветливой улыбки.
 ~
-b0d0B0 0 600 E
-1 0 0 10d10+2 0d0+0
+b0d0n0B0u2 0 600 E
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
 Str: 10
@@ -248,6 +255,7 @@ Cha: 10
 Size: 71
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 160
 Weight: 60
 Special_Bitvector: 0 
@@ -266,7 +274,7 @@ T 64005
 Молодой парень с легких доспехах. Внимательный и зоркий воин. 
 ~
 b0d0m0 k0 0 E
-26 -1 -7 10d10+700 2d3+3
+25 -1 -7 10d10+700 2d3+3
 0d0+0 100000
 8 8 1
 Armour: 100
@@ -282,6 +290,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -303,7 +312,7 @@ T 64056
 за лошадками смотрит исправно.
 ~
 b0d0B0 0 600 E
-21 0 0 10d10+300 0d0+0
+12 0 0 10d10+300 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -315,6 +324,7 @@ Cha: 10
 Size: 93
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 183
 Weight: 85
 Special_Bitvector: 0 
@@ -330,8 +340,8 @@ T 64001
 отце Алексии~
 Отец Алексий пришел проверить как идет строительство собора.
 ~
-Высокий седой священник в черной рясе. Горящие восторженным огн╦м его глаза
-внимательно следят за тем, чтобы вс╦ было сделано аккуратно и в соответствии 
+Высокий седой священник в черной рясе. Горящие восторженным огнем его глаза
+внимательно следят за тем, чтобы все было сделано аккуратно и в соответствии 
 с канонами.
 ~
 b0d0l0m0n0B0h1g2 h0C0x1 0 E
@@ -347,6 +357,7 @@ Cha: 10
 Size: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 192
 Weight: 101
 Special_Bitvector: 0 
@@ -379,7 +390,7 @@ T 64007
 улыбается.
 ~
 b0d0n0h1 h0 0 E
-24 -10 12 10d10+500 4d4+10
+23 -10 12 10d10+500 4d4+10
 30d30+50 75000
 8 8 1
 Armour: 45
@@ -394,6 +405,7 @@ Cha: 13
 Size: 98
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 179
 Weight: 90
 Special_Bitvector: 0 
@@ -421,7 +433,7 @@ T 64008
 в своем кошеле.
 ~
 b0d0n0o0 0 0 E
-1 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -433,6 +445,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -451,7 +464,7 @@ E
 росписи фресок княжеского собора.
 ~
 b0d0g0n0h1 d0 -600 E
-25 -16 5 10d10+900 5d5+20
+27 -16 5 10d10+900 5d5+20
 10d10+30 120000
 8 8 1
 Str: 28
@@ -463,6 +476,7 @@ Cha: 13
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 185
 Weight: 93
 Special_Bitvector: 0 
@@ -487,7 +501,7 @@ T 64009
 пофыркивая на бегущих за ней собак.
 ~
 d0s0h1 f0 0 E
-18 -2 3 10d10+500 5d5+20
+22 -2 3 10d10+500 5d5+20
 0d0+0 60000
 8 8 2
 BareHandAttack: 13
@@ -501,6 +515,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 3
 Class: 103
+Race: 104
 Height: 160
 Weight: 120
 Special_Bitvector: 0 
@@ -521,7 +536,7 @@ E
 пофыркивая на бегущих за ней собак.
 ~
 d0g0h1 f0 0 E
-18 -2 3 10d10+500 5d5+20
+22 -2 3 10d10+500 5d5+20
 0d0+0 60000
 8 8 2
 BareHandAttack: 13
@@ -535,6 +550,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 160
 Weight: 120
 Special_Bitvector: 0 
@@ -553,7 +569,7 @@ E
 Собака не оставляет надежды найти нового хозяина
 ~
 d0l2 0 -600 E
-1 0 0 10d10+150 1d2+10
+16 0 0 10d10+150 1d2+10
 0d0+0 20000
 8 8 2
 BareHandAttack: 4
@@ -567,6 +583,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 3
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
@@ -585,9 +602,9 @@ T 64013
 Испугали песика...
 ~
 d0 0 0 E
-1 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
-8 8 0
+8 8 2
 BareHandAttack: 4
 Str: 10
 Dex: 10
@@ -598,6 +615,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -616,7 +634,7 @@ E
 на заработки в Чернигов.
 ~
 b0d0n0o0h1 0 600 E
-1 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
 Str: 10
@@ -628,6 +646,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 163
 Weight: 63
 Special_Bitvector: 0 
@@ -646,7 +665,7 @@ T 64056
 Ищет кого, или дело какое есть у него?
 ~
 b0d0n0o0 0 600 E
-1 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -658,6 +677,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -677,7 +697,7 @@ T 64056
 Всей-то грамоты и хватило, чтоб прислужить боярину.
 ~
 b0d0g0 0 0 E
-15 0 0 10d10+300 2d2+2
+12 0 0 10d10+300 2d2+2
 0d0+0 10000
 8 8 1
 Str: 10
@@ -690,6 +710,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -709,7 +730,7 @@ T 64056
 в своей тарелке. 
 ~
 d0g0m0n0h1 0 0 E
-8 -2 0 10d10+300 3d3+3
+12 -2 0 10d10+300 3d3+3
 0d0+0 10000
 8 8 1
 Str: 10
@@ -722,6 +743,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -739,7 +761,7 @@ E
 Не сильно старый но уже седой мужчина с небольшим брюшком.
 ~
 b0d0g0 0 0 E
-29 -3 -7 10d10+2500 4d5+6
+12 -3 -7 10d10+2500 4d5+6
 0d0+0 10000
 8 8 1
 Armour: 100
@@ -754,6 +776,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -778,7 +801,7 @@ T 64058
 
 ~
 b0d0g0n0 0 600 E
-28 -2 -5 10d10+900 5d5+6
+12 -2 -5 10d10+900 5d5+6
 0d0+0 10000
 8 8 1
 BareHandAttack: 6
@@ -792,6 +815,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -810,8 +834,8 @@ E
 Лет сорок пять на вид, а в волосах ни одного седого волоса. Не иначе без
 магии дело не обошлось.
 ~
-b0d0g0n0o0 d0h0 600 E
-1 0 0 10d10+2 0d0+0
+b0d0g0n0o0u2 d0h0 600 E
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
 BareHandAttack: 8
@@ -825,6 +849,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -846,8 +871,8 @@ T 64055
 оставляя в лавке помощника, едет он на недельку проведать родных в
 Чернигов ближайшей оказией.
 ~
-b0d0g0n0 0 600 E
-1 0 0 10d10+2 0d0+0
+b0d0g0n0u2 0 600 E
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -860,6 +885,7 @@ Size: 100
 LikeWork: 65
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -881,8 +907,8 @@ T 64039
 кузнец, что расставаться скоро пора придет. Да беспокоит его угроза нападения
 с востока кочевников.
 ~
-b0d0g0n0o0 0 600 E
-1 0 0 10d10+2 0d0+0
+b0d0g0n0o0u2 0 600 E
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 BareHandAttack: 6
@@ -896,6 +922,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -915,7 +942,7 @@ E
 Сейчас она занята вымачиванием шкур в большом чане.
 ~
 b0d0g0h1 d0e0h0 0 E
-17 -1 3 10d10+500 2d2+10
+18 -1 3 10d10+500 2d2+10
 2d2+15 30000
 8 8 2
 BareHandAttack: 8
@@ -929,6 +956,7 @@ Size: 81
 LikeWork: 75
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 159
 Weight: 55
 Special_Bitvector: 0 
@@ -955,7 +983,7 @@ E
 успели ее рассмотреть.
 ~
 d0o0 k0 -600 E
-22 2 -2 10d10+500 2d2+4
+12 2 -2 10d10+500 2d2+4
 0d0+0 10000
 8 8 2
 Str: 17
@@ -968,6 +996,7 @@ Size: 74
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 164
 Weight: 56
 Special_Bitvector: y0 
@@ -985,7 +1014,7 @@ E
 Статный мужик с черным как смоль оселедцем на абсолютно лысой голове.
 ~
 d0 k0 -600 E
-27 -20 -11 10d10+2000 2d4+2
+12 -20 -11 10d10+2000 2d4+2
 0d0+0 10000
 8 8 1
 BareHandAttack: 3
@@ -999,6 +1028,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -1018,7 +1048,7 @@ E
 и мало смотрит по сторонам, торопясь по делу.
 ~
 d0y0u1g2 C0 -600 E
-30 -25 -5 10d10+1500 5d5+60
+25 -25 -5 10d10+1500 5d5+60
 2d2+4 100000
 8 8 1
 BareHandAttack: 3
@@ -1032,6 +1062,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -1050,7 +1081,7 @@ E
 цыган~
 цыгана~
 цыгану~
-цыган~
+цыгана~
 цыганом~
 цыгане~
 Настороженно поглядывая по сторонам, цыган ведет под узцы лошадку.
@@ -1059,7 +1090,7 @@ E
 него.
 ~
 d0g0A0 0 -600 E
-24 -6 -10 10d10+980 2d2+3
+12 -6 -10 10d10+980 2d2+3
 2d3+2 10000
 8 8 1
 BareHandAttack: 11
@@ -1073,6 +1104,7 @@ Size: 100
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -1100,7 +1132,7 @@ I глаза,10:10
 и поиграть можно будет.
 ~
 d0g0 0 600 E
-7 3 5 10d10+150 1d1+5
+16 3 5 10d10+150 1d1+5
 1d1+2 20000
 8 8 2
 BareHandAttack: 4
@@ -1114,6 +1146,7 @@ Size: 50
 LikeWork: 20
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 120
 Weight: 50
 Special_Bitvector: 0 
@@ -1134,23 +1167,29 @@ E
 мимо. Иди, странник.
 ~
 b0d0g0l0n0g2 0 -600 E
-30 0 0 10d10+5000 10d10+3
+29 5 0 10d10+1000 10d13+15
 2d3+1 250000
 8 8 1
+Saves: 20 0 0 0
 BareHandAttack: 3
 Str: 30
-Dex: 30
+Dex: 28
 Int: 20
-Wis: 20
-Con: 30
+Wis: 12
+Con: 25
 Cha: 15
 Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 200
 Weight: 110
-Special_Bitvector: y0 
+Special_Bitvector: y0b1c1 
+Feat: 35
+Skill: 5 65
+Skill: 146 100
+Skill: 167 25
 Spell: 54
 Spell: 54
 Spell: 54
@@ -1173,7 +1212,7 @@ E
 Юное лицо с небольшой бородкой выражает озабоченность. 
 ~
 d0g0l0m0 0 -600 E
-25 -3 -11 10d10+900 2d2+10
+12 -3 -11 10d10+900 2d2+10
 0d0+0 10000
 8 8 1
 Str: 25
@@ -1186,6 +1225,7 @@ Size: 93
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 181
 Weight: 93
 Special_Bitvector: y0 
@@ -1207,7 +1247,7 @@ T 64056
 одетого на просторную рубаху и на переплетенные на икрах поножи.
 ~
 d0g0m0 c0d0f0h0z0 -600 E
-28 -8 12 10d10+800 4d4+25
+12 -8 12 10d10+800 4d4+25
 0d0+0 10000
 8 8 1
 BareHandAttack: 3
@@ -1221,6 +1261,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 4
 Class: 102
+Race: 101
 Height: 181
 Weight: 88
 Special_Bitvector: y0 
@@ -1238,7 +1279,7 @@ E
 Спокойный уверенный в себе человек с сильными руками и зоркими глазами.
 ~
 b0d0g0o0 0 -600 E
-30 -26 -2 10d10+1500 10d10+20
+12 -26 -2 10d10+1500 10d10+20
 2d2+10 10000
 8 8 1
 BareHandAttack: 9
@@ -1252,6 +1293,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -1271,7 +1313,7 @@ T 64006
 Виден только сгорбившийся неясный силуэт.
 ~
 b0c0d0g0k0m0n0i1j2 d0f0k0 -600 E
-20 -1 -6 10d10+800 3d3+4
+28 -1 -6 10d10+800 3d3+4
 4d4+6 165000
 8 8 1
 Armour: 100
@@ -1288,6 +1330,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i0j0a1b1 
@@ -1310,7 +1353,7 @@ T 64056
 Под накинутой рясой хорошо угадываются мощные плечи воина.
 ~
 d0 0 -600 E
-26 -10 11 10d10+900 3d3+20
+23 -10 11 10d10+900 3d3+20
 20d10+35 75000
 8 8 1
 Str: 27
@@ -1323,6 +1366,7 @@ Size: 100
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1342,7 +1386,7 @@ T 64056
 Соединяет берега.
 ~
 b0d0B0 d0k0 600 E
-1 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -1354,6 +1398,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1373,7 +1418,7 @@ T 64019
 Забравшись на перила, мальчишка задумчиво плюет в воду.
 ~
 b0d0g0B0 d0k0 600 E
-1 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -1385,6 +1430,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1395,7 +1441,7 @@ T 64021
  жена гончарных мастера высокая темноволосая женщина~
 жена гончарных дел мастера~
 жены гончарных дела мастера~
-жене гончарныху дел мастера~
+жене гончарных дел мастера~
 жену гончарных дел мастера~
 женой гончарных дел мастера~
 жене гончарных дел мастера~
@@ -1406,7 +1452,7 @@ T 64021
 связи со знатью города.
 ~
 b0d0 d0f0k0 -600 E
-27 -1 -3 10d10+300 2d2+2
+12 -1 -3 10d10+300 2d2+2
 0d0+0 10000
 8 8 2
 Str: 10
@@ -1418,6 +1464,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1452,6 +1499,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1471,7 +1519,7 @@ E
 каким делам. 
 ~
 b0d0 d0k0e2 600 E
-45 -7 12 10d10+900 5d5+5
+12 -7 12 10d10+900 5d5+5
 5d5+5 10000
 8 8 1
 Armour: 100
@@ -1487,6 +1535,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1514,7 +1563,7 @@ T 64054
 и нигде более его не найдет.
 ~
 b0d0a2h2 0 -600 E
-28 0 0 10d10+900 2d2+5
+12 0 0 10d10+900 2d2+5
 0d0+0 10000
 8 8 1
 Str: 17
@@ -1527,6 +1576,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 100
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1548,7 +1598,7 @@ T 64033
 но возможно, принять за улыбку.
 ~
 d0 0 -600 E
-22 -1 -1 10d10+500 3d3+3
+25 -1 -1 10d10+500 3d3+3
 0d0+0 100000
 8 8 1
 Str: 17
@@ -1561,6 +1611,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1585,7 +1636,7 @@ T 64043
 свинцовая корона, в руках сверкает огнем скипетр и меч.
 ~
 b0d0a2h2 0 -600 E
-29 -1 0 10d10+2500 3d3+4
+12 -1 0 10d10+2500 3d3+4
 0d0+0 10000
 8 8 1
 Armour: 100
@@ -1601,6 +1652,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1629,7 +1681,7 @@ T 64047
 Конечно, особливо по поводу!
 ~
 d0 0 -600 E
-21 0 0 10d10+900 7d3+7
+25 0 0 10d10+900 7d3+7
 0d0+0 100000
 8 8 1
 Str: 17
@@ -1642,6 +1694,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1652,7 +1705,7 @@ T 64043
 болотник~
 болотника~
 болотнику~
-болотник~
+болотника~
 болотником~
 болотнике~
 Зеленоглазый, раскосый болотник ест что-то вкусное, разрывая руками.
@@ -1663,7 +1716,7 @@ T 64043
 да потом тут же поспать. 
 ~
 b0d0m0 0 -600 E
-22 0 0 10d10+900 5d6+7
+25 0 0 10d10+900 5d6+7
 0d0+0 100000
 8 8 0
 Str: 17
@@ -1676,6 +1729,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1697,7 +1751,7 @@ E
 как кипарис фигурой.
 ~
 d0m0 0 -600 E
-22 0 0 10d10+800 5d2+8
+25 0 0 10d10+800 5d2+8
 0d0+0 100000
 8 8 2
 Str: 17
@@ -1710,6 +1764,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1732,7 +1787,7 @@ T 64046
 горящие неземным светом глаза.
 ~
 b0d0m0 0 -600 E
-27 -2 0 10d10+900 6d8+8
+25 -2 0 10d10+900 6d8+8
 0d0+0 100000
 8 8 2
 CastSuccess: 100
@@ -1746,6 +1801,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1771,7 +1827,7 @@ T 64048
 то, чего уже нет.
 ~
 d0m0 0 -600 E
-27 -1 0 10d10+750 3d3+3
+12 -1 0 10d10+750 3d3+3
 0d0+0 10000
 8 8 1
 CastSuccess: 100
@@ -1785,6 +1841,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1814,7 +1871,7 @@ E
 копчик у волколака вырос длинный пушистый, как у лисы хвост.
 ~
 b0d0 0 -600 E
-22 -2 0 10d10+800 5d3+8
+25 -2 0 10d10+800 5d3+8
 0d0+0 100000
 8 8 1
 BareHandAttack: 8
@@ -1827,6 +1884,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1848,7 +1906,7 @@ E
 уголках земли русской.
 ~
 b0d0 0 0 E
-20 -2 0 10d10+900 6d6+3
+12 -2 0 10d10+900 6d6+3
 0d0+0 10000
 8 8 1
 Str: 16
@@ -1861,6 +1919,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1882,7 +1941,7 @@ T 64053
 платье, украшенное ожерельем из черепов.
 ~
 b0d0m0 0 -600 E
-27 -1 0 10d10+1000 5d3+6
+25 -1 0 10d10+1000 5d3+6
 0d0+0 100000
 8 8 2
 CastSuccess: 100
@@ -1896,6 +1955,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1918,7 +1978,7 @@ T 64041
 бутыль с бражкой.
 ~
 b0d0 0 -600 E
-22 -1 0 10d10+1000 4d4+5
+12 -1 0 10d10+1000 4d4+5
 0d0+0 10000
 8 8 1
 Str: 10
@@ -1931,6 +1991,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1953,7 +2014,7 @@ T 64037
 и нигде более его не найдет.
 ~
 b0d0a2h2 d0k0 -600 E
-29 0 0 10d10+2 3d3+4
+25 0 0 10d10+2 3d3+4
 0d0+0 100000
 8 8 1
 Str: 10
@@ -1965,6 +2026,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1988,7 +2050,7 @@ T 64043
 от болезней, а когда они на выпасе, в табуне, ≈ от хищного зверя.
 ~
 d0z0j2 d0k0 -600 E
-25 -2 -12 10d10+800 5d5+4
+28 -2 -12 10d10+800 5d5+4
 0d0+0 150000
 8 8 1
 Str: 17
@@ -2001,6 +2063,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2024,9 +2087,9 @@ T 64061
 
 ~
 d0z0j2 d0k0 -600 E
-27 -2 -9 10d10+700 3d3+4
+28 -2 -9 10d10+700 3d3+4
 0d0+0 150000
-8 8 0
+8 8 2
 CastSuccess: 50
 Str: 17
 Dex: 23
@@ -2037,7 +2100,8 @@ Cha: 17
 Size: 100
 LikeWork: 90
 ExtraAttack: 1
-Class: 100
+Class: 105
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2070,7 +2134,7 @@ T 64061
 живому человеку существа.
 ~
 d0z0t1b2h2j2 d0f0k0 -600 E
-27 -2 5 10d10+700 3d3+4
+28 -2 5 10d10+700 3d3+4
 0d0+0 160000
 8 8 2
 Armour: 100
@@ -2085,6 +2149,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: w0 
@@ -2122,6 +2187,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: B3 
@@ -2146,7 +2212,7 @@ T 64061
 Уж не померещилось ли Вам?
 ~
 d0z0t1j2 d0f0k0 -600 E
-33 -10 -4 10d10+1000 4d5+6
+29 -10 -4 10d10+1000 4d5+6
 0d0+0 200000
 8 8 1
 Armour: 100
@@ -2164,6 +2230,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 100
+Race: 102
 Height: 175
 Weight: 85
 Special_Bitvector: g0w0 

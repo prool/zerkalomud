@@ -121,7 +121,9 @@ else
 0 n 100
 ~
 eval victim %random.pc%
-mkill %victim%
+if %victim%
+  mkill %victim%
+end
 ~
 #86610
 сорняк рип~
@@ -136,7 +138,7 @@ end
 2 e 100
 ~
 wait 1s
-wecho _&MНа мнгновение вам показалось будто каменные изваяния на балконе зашевелились...&n
+wecho _&MНа мгновение вам показалось будто каменные изваяния на балконе зашевелились...&n
 wload mob 86605
 detach 86611 %self.id%
 end
@@ -269,12 +271,14 @@ end
 0 r 100
 ~
 wait 1s
-кри Презренные смертные и здесь вы не даете мне покоя!
-calcuid son 86624 mob
-detach 86618 %son.id%
-exec 86626 %world.mob(86624)%
-detach 86620 %self.id%
+миг .остромир
+кри Презренные смертные! И здесь вы не даете мне покоя!
+if %exist.mob(86624)%
+  calcuid son 86624 mob
+  detach 86618 %son.id%
+  exec 86626 %world.mob(86624)%
 end
+detach 86620 %self.id%
 ~
 #86621
 вампир атакует~

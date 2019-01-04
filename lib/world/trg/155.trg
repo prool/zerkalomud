@@ -18,31 +18,16 @@ end
 уступ падает~
 2 e 100
 ~
-wait  1
-set   pc %self.people%
-while %pc%
-  if %pc.vnum% == -1
-  break
-end
-set pc %pc.next_in_room%
-done
-if !%pc%
-  halt
-end
 wait 5s
-set   pc   %self.people%
-set   used 0
-while %pc%
-  if %pc.vnum% == -1
-    if !%used%
+set used 0
+foreach victim %self.pc%
+  if (%victim.realroom% == %self.vnum%)
+    if !%used% 
       wecho Карниз с грохотом оборвался...
     end
-    wait 4s
-    set used  %pc%
-    wteleport %pc% 15544
-    set pc %used%
+    wteleport %victim% 15544
+    set used 1
   end
-  set pc %pc.next_in_room%
 done
 if %used%
   detach 15504 %self.id%
@@ -57,7 +42,7 @@ if !%arg.contains(стена)%
   return 0
   halt 
 end
-wsend %actor%  Подпрыгнув, вы ухватились заверхний край стены.
+wsend %actor%  Подпрыгнув, вы ухватились за верхний край стены.
 wechoaround %actor% %actor.name% ловко перемахнул%actor.g% через стену...
 wteleport %actor% 15521
 wsend %actor%  Вы перелезли через стену
@@ -73,7 +58,7 @@ if !%arg.contains(стена)%
   return 0
   halt 
 end
-wsend %actor%  Подпрыгнув, вы ухватились заверхний край стены.
+wsend %actor%  Подпрыгнув, вы ухватились за верхний край стены.
 wechoaround %actor% %actor.name% ловко перемахнул%actor.g% через стену...
 wteleport %actor% 15520
 wsend %actor%  Вы перелезли через стену
@@ -92,7 +77,7 @@ end
 wait 1
 wsend %actor.name% Вы ловко забрались в узкий лаз и поползли на юг.
 wechoaround %actor% %actor.name% залез%actor.q% в отверстие в стене и уполз%actor.q% внутрь.
-wteleport %actor.name% 15561
+wteleport .%actor.name% 15561
 ~
 #15510
 лезем в лаз (2)~
@@ -106,7 +91,7 @@ end
 wait 1
 wsend %actor.name% Вы опустились на колени и на карачках поползли в узкий лаз.
 wechoaround %actor% %actor.name% скрыл%actor.u% в зияющей на севере дыре.
-wteleport %actor.name% 15558
+wteleport .%actor.name% 15558
 ~
 #15511
 Приветствие Духа женщины~
@@ -138,7 +123,7 @@ say Я вышла за другого человека
 say Жили мы хорошо с ним, но в один прекрасный день в наш дом ворвались солдаты и убили нас.
 взд
 wait 2s
-say Меня захранили тут а моего мужа я не знаю где, но Я уверена! что его дух где-то рядом.
+say Меня захоронили тут, а моего мужа я не знаю где, но уверена, что его дух где-то рядом.
 say Я чувствую это!
 say Найди моего мужа, но будь осторожен! Скилур не дремлет и его дух где-то тут!
 wait 3s
@@ -283,7 +268,7 @@ if !%arg.contains(заклад)%
   halt 
 end
 wsend %actor%  Долго пыхтя вы разобрали каменный заклад.
-wechoaround %actor%  %actor.name% разобрал%actor.q% каменный заклад освободив проход.
+wechoaround %actor%  %actor.name% разобрал%actor.g% каменный заклад, освободив проход.
 wdoor 15501 north room 15502
 wdoor 15502 south  room 15501
 end
@@ -292,16 +277,13 @@ end
 репоп зоны~
 2 f 100
 ~
-attach 15511
-attach 15525
 wdoor 15505 east purge 15524
 wdoor 15524 west purge 15505
-attach 15502
-attach 15511
 wdoor 15564 up purge
 wdoor 15535 down purge
 wdoor 15501 north purge 15502 
 wdoor 15502 south  purge 15501
+attach 15504 15543
 ~
 #15546
 дали бабе~

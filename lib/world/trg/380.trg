@@ -57,7 +57,7 @@ done
 end
 ~
 #38002
-даеш бабки богатырю~
+Даешь деньги богатырю~
 0 m 1
 ~
 wait 1
@@ -76,12 +76,14 @@ mdoor 38080 e flags a
 mdoor 38080 e name ворота
 mdoor 38080 e description ворота
 mdoor 38080 e key 38000
+mdoor 38080 e lock 22
 mdoor 38083 w purge
 mdoor 38083 w room 38080
 mdoor 38083 w flags a
 mdoor 38083 w name ворота
 mdoor 38083 w description ворота
 mdoor 38083 w key 38000
+mdoor 38083 w lock 22
 wait 5s
 mdoor 38080 e purge
 mdoor 38080 e room 38083
@@ -89,12 +91,14 @@ mdoor 38080 e flags abc
 mdoor 38080 e name ворота
 mdoor 38080 e description ворота
 mdoor 38080 e key 38000
+mdoor 38080 e lock 22
 mdoor 38083 w purge
 mdoor 38083 w room 38080
 mdoor 38083 w flags ab
 mdoor 38083 w name ворота
 mdoor 38083 w description ворота
 mdoor 38083 w key 38000
+mdoor 38083 w lock 22
 mecho Богатырь затворил ворота.
 ~
 #38003

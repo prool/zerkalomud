@@ -33,7 +33,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: 0 
@@ -96,8 +96,8 @@ E
 ~
  Воин лет 25. Явно недавно проснулся.
 ~
-d0g0n0f2u2 k0 0 E
-25 18 -2 10d10+700 5d3+2
+d0g0n0f2u2 h0k0 0 E
+25 18 -2 10d10+1500 5d3+2
 0d0+0 0
 8 8 1
 BareHandAttack: 9
@@ -194,7 +194,7 @@ E
 ~
    Тощий черноволосый мужчина лет 45 с орлиным носом.
 ~
-b0d0g0n0o1f2u2 c0f0k0 0 E
+b0d0g0n0o1f2u2 c0f0k0D0a1 0 E
 30 17 3 10d10+600 5d5+5
 0d0+0 0
 8 8 1
@@ -211,7 +211,7 @@ Class: 102
 Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: i3 
+Special_Bitvector: c1d1i3 
 E
 #58106
 помощник тиуна~
@@ -385,7 +385,7 @@ E
  Да она же собаку загрызет! 
 ~
 d0n0f2u2 0 0 E
-25 9 2 10d10+100 3d3+-1
+4 9 2 10d10+100 3d3+-1
 0d0+0 1000
 8 8 2
 BareHandAttack: 4

@@ -26,6 +26,7 @@ Size: 80
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 190
 Special_Bitvector: b1c1 
@@ -67,6 +68,7 @@ Cha: 5
 Size: 100
 LikeWork: 90
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: p0 
@@ -89,7 +91,7 @@ E
 Ее пора порезать на мясо... 
 ~
 b0d0g0l1m1n1 0 0 E
-15 10 4 0d0+200 2d5+0
+12 10 4 0d0+200 2d5+0
 0d0+0 10000
 8 8 2
 BareHandAttack: 14
@@ -100,6 +102,7 @@ Con: 30
 Size: 100
 LikeWork: 30
 Class: 103
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -121,7 +124,7 @@ E
 отдыхает перед шалашом, а не в нем.
 ~
 d0g0 d0 -600 E
-22 14 -4 10d10+500 4d4+0
+21 14 -4 10d10+500 4d4+0
 6d10+10 50000
 6 6 1
 BareHandAttack: 3
@@ -135,6 +138,7 @@ Size: 60
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
@@ -156,7 +160,7 @@ T 34204
 не берут.
 ~
 b0c0d0g0l0m0n0o0x0A0 c0d0e0 0 E
-23 2 4 0d0+600 2d3+7
+18 2 4 0d0+600 2d3+7
 23d5+5 30000
 8 8 1
 BareHandAttack: 3
@@ -170,6 +174,7 @@ Size: 100
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -193,7 +198,7 @@ T 34216
 Крепкий мужичек, явно не первый раз держит в руках лук.
 ~
 b0c0d0f0g0n0o0p0x0A0 d0 0 E
-22 2 8 0d0+350 1d20+10
+18 2 8 0d0+350 1d20+10
 10d3+60 30000
 8 8 1
 BareHandAttack: 9
@@ -207,6 +212,7 @@ Size: 80
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: a0b0c0d0e0f0 
@@ -227,7 +233,7 @@ E
 И слабаков на это дело не берут.
 ~
 b0c0d0g0l0m0n0o0p0r0t0x0A0 m0 0 E
-25 2 2 20d10+700 1d5+10
+24 2 2 20d10+700 1d5+10
 1d100+10 80000
 8 8 1
 BareHandAttack: 7
@@ -241,6 +247,7 @@ Size: 80
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 190
 Special_Bitvector: b1c1 
@@ -266,7 +273,7 @@ T 34209
 волосы и потертая одежда старят его.
 ~
 c0d0g0A0 0 0 E
-14 9 5 0d0+350 3d5+0
+12 9 5 0d0+350 3d5+0
 10d4+10 10000
 8 8 1
 Str: 18
@@ -279,6 +286,7 @@ Size: 40
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 70
 Special_Bitvector: y0b1c1d1 
@@ -299,7 +307,7 @@ T 34208
 в случае нападения разбойников подает сигнал патрулю.
 ~
 b0d0g0n0o0A0 D0 600 E
-25 2 -7 2d10+600 5d3+10
+19 2 -7 2d10+600 5d3+10
 3d15+50 35000
 8 8 1
 BareHandAttack: 3
@@ -313,6 +321,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 85
 Special_Bitvector: 0 
@@ -343,7 +352,7 @@ E
 и в случае нападения разбойников подает сигнал патрулю.
 ~
 b0d0g0n0o0A0 D0 600 E
-25 2 -7 2d10+600 5d3+10
+19 2 -7 2d10+600 5d3+10
 4d15+10 35000
 8 8 1
 BareHandAttack: 3
@@ -357,6 +366,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 85
 Special_Bitvector: 0 
@@ -385,7 +395,7 @@ E
 и в случае нападения разбойников подает сигнал патрулю.
 ~
 b0d0g0n0o0A0 D0 600 E
-25 2 -7 2d10+600 5d3+10
+19 2 -7 2d10+600 5d3+10
 4d15+50 35000
 8 8 1
 BareHandAttack: 3
@@ -399,6 +409,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 85
 Special_Bitvector: 0 
@@ -427,8 +438,8 @@ E
 опытный воин. Но по его удивленному лицу видно, 
 что он в замешательстве от вашего появления.
 ~
-b0d0e0g0m0n0o0x0A0 d0e0f0k0 0 E
-28 0 -9 10d10+800 6d5+20
+b0d0e0g0m0n0o0x0A0u2 d0e0f0k0 0 E
+25 0 -9 10d10+800 6d5+20
 5d100+4 95000
 8 8 1
 BareHandAttack: 3
@@ -442,6 +453,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 104
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
@@ -486,7 +498,7 @@ E
 вы.
 ~
 c0d0f0g0h0n0o0A0i1 k0t0 -600 E
-22 6 -1 10d10+400 3d3+8
+18 6 -1 10d10+400 3d3+8
 1d100+10 30000
 8 8 1
 BareHandAttack: 11
@@ -500,6 +512,7 @@ Size: 80
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 130
 Special_Bitvector: i0b1c1 
@@ -547,6 +560,7 @@ Size: 40
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 70
 Special_Bitvector: b1c1d1 
@@ -582,7 +596,7 @@ T 34208
 
 ~
 c0d0g0l0m0n0o0A0i1q1 c0d0e0f0k0x0D0w1 -1000 E
-27 4 3 10d10+1000 1d10+10
+25 4 3 10d10+1000 1d10+10
 3d100+80 90000
 8 8 1
 Str: 20
@@ -594,6 +608,7 @@ Cha: 23
 Size: 50
 LikeWork: 95
 Class: 105
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: l0b1c1 
@@ -632,7 +647,7 @@ T 34213
 Грабить и убивать - занятие не хитрое.
 ~
 b0d0f0g0n0o0A0 k0 -600 E
-25 2 -8 1d200+600 1d10+10
+20 2 -8 1d200+600 1d10+10
 1d100+10 40000
 8 8 1
 BareHandAttack: 10
@@ -646,6 +661,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 180
 Special_Bitvector: a1b1c1d1 
@@ -668,7 +684,7 @@ E
 новой кожаной одежде.
 ~
 b0d0f0g0n0o0p0A0 d0f0k0 -600 E
-28 0 -9 1d200+1000 1d10+10
+24 0 -9 1d200+1000 1d10+10
 2d100+300 80000
 8 8 1
 BareHandAttack: 3
@@ -682,6 +698,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1d1 
@@ -715,7 +732,7 @@ E
 Высокий человек с умным лицом в роскошных одеждах.
 ~
 d0g0l0m0n0o0p0q0r0u0A0 d0k0 600 E
-28 3 3 2d100+500 1d10+10
+24 3 3 2d100+500 1d10+10
 2d500+5 80000
 8 8 1
 BareHandAttack: 5
@@ -739,6 +756,7 @@ Size: 70
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -776,7 +794,7 @@ T 34208
 Молодой парнишка в обтягивающих тело одеждах.
 ~
 d0g0m0n0o0 d0k0 600 E
-28 3 -9 1d100+650 1d10+20
+23 3 -9 1d100+650 1d10+20
 1d10+10 70000
 8 8 1
 BareHandAttack: 3
@@ -800,6 +818,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 180
 Special_Bitvector: y0b1c1 
@@ -823,7 +842,7 @@ E
 и духовной силой.
 ~
 d0g0m0n0o0t0A0 d0h0k0 600 E
-25 13 10 0d0+300 1d10+10
+23 13 10 0d0+300 1d10+10
 2d10+30 70000
 8 8 1
 BareHandAttack: 5
@@ -846,6 +865,7 @@ Cha: 15
 Size: 60
 LikeWork: 85
 Class: 102
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: b1c1 
@@ -893,7 +913,7 @@ T 34208
 Средних лет молодец в легкой иноземной одежде.
 ~
 d0g0m0n0o0 d0k0 600 E
-20 9 5 1d100+200 1d10+30
+18 9 5 1d100+200 1d10+30
 1d50+10 30000
 8 8 1
 BareHandAttack: 3
@@ -914,6 +934,7 @@ Con: 14
 Cha: 8
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -935,7 +956,7 @@ E
 
 ~
 d0g0l0m0n0o0p0q0 d0k0 600 E
-27 0 -6 5d6+900 6d4+0
+24 0 -6 5d6+900 6d4+0
 9d19+19 80000
 8 8 1
 Destination: 34202
@@ -958,6 +979,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -978,7 +1000,7 @@ T 34208
 Молодой парнишка из киевского посада.
 ~
 d0g0m0n0o0 d0k0 600 E
-24 3 -9 1d100+450 1d5+5
+20 3 -9 1d100+450 1d5+5
 1d10+10 40000
 8 8 1
 BareHandAttack: 3
@@ -1002,6 +1024,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 180
 Special_Bitvector: y0b1c1 
@@ -1023,7 +1046,7 @@ T 34208
 Большой серый бык с нежными ласковыми глазами.
 ~
 d0g0n0o0x0 d0f0k0 0 E
-22 0 0 0d0+500 2d10+10
+18 0 0 0d0+500 2d10+10
 0d0+0 30000
 8 8 1
 BareHandAttack: 14
@@ -1046,6 +1069,7 @@ Cha: 5
 Size: 100
 LikeWork: 90
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: p0 

@@ -12,7 +12,7 @@
 Он посланник зла, Тень предсмертной птицы.
 ~
 b0c0d0f0g0o0x0A0 d0k0n0r0A0o1 -600 E
-30 0 -10 1d1+3000 4d4+8
+28 0 -10 1d1+3000 4d4+8
 0d0+200 180000
 8 8 1
 Str: 30
@@ -25,6 +25,7 @@ Size: 100
 LikeWork: 55
 ExtraAttack: 1
 Class: 101
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -48,7 +49,7 @@ E
 Дальний родственник вампиров.
 ~
 d0f0g0o0x0b1 d0k0t0x0 -600 E
-20 0 0 0d0+1000 5d6+5
+17 0 0 0d0+1000 5d6+5
 0d0+0 25000
 8 8 2
 BareHandAttack: 4
@@ -62,6 +63,7 @@ Size: 10
 LikeWork: 90
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: l0 
@@ -81,7 +83,7 @@ E
 Огромная стая кожистокрылых тварей.
 ~
 b0d0f0g0o0q0r0t0u0x0z0b1 k0r0s0t0z0 -600 E
-15 0 -5 0d0+1000 6d5+6
+23 0 -5 0d0+1000 6d5+6
 0d0+0 70000
 8 8 3
 BareHandAttack: 4
@@ -95,6 +97,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 5
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: l0 
@@ -111,13 +114,14 @@ E
 Огромный дракон отдыхает здесь.
 ~
 Это старый мудрый дракон. Его кожа очень толстая и почти непробиваема.
-Он лежит на груде сокровищ, некоторые из них прилипли к его коже и теперь
+Он лежит на груде сокровищ, некоторые из них прилипли к его коже, и теперь
 дракон блестит на свету.
 ~
 b0c0d0g0l0n0o0x0z0A0b1 d0h0k0r0A0C0b1m1o1r1 -600 E
-40 0 -10 0d0+10000 7d15+7
-0d0+20000 600000
+33 0 -10 0d0+10000 7d15+7
+0d0+10000 600000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 6
 Str: 35
 Dex: 35
@@ -129,6 +133,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 5
 Class: 100
+Race: 105
 Height: 198
 Weight: 200
 Special_Bitvector: l0x0 
@@ -168,7 +173,7 @@ I крылья,25:3
 А потом они дичать начинают да на людей кидаться.
 ~
 b0d0g0n0o0p0q0r0t0u0 d0f0k0 0 E
-40 0 -9 0d0+3000 0d0+20
+1 0 -9 0d0+3000 0d0+20
 0d0+0 1
 8 8 1
 Str: 30
@@ -180,6 +185,7 @@ Cha: 30
 Size: 100
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 198
 Weight: 10
 Special_Bitvector: c0 
@@ -214,6 +220,7 @@ Cha: 3
 Size: 100
 ExtraAttack: 4
 Class: 103
+Race: 107
 Height: 198
 Weight: 100
 Special_Bitvector: a0b0c0d0g0 
@@ -240,7 +247,7 @@ T 84205
 вдаль уносит наши души.
 ~
 b0d0g0m0o0z0 f0k0 -600 E
-25 0 -2 5d5+750 5d5+10
+28 0 -2 5d5+750 5d5+10
 0d0+50 170000
 8 8 1
 Str: 30
@@ -252,6 +259,7 @@ Cha: 3
 Size: 100
 LikeWork: 40
 Class: 101
+Race: 110
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -276,7 +284,7 @@ L 1411 12 0 0
 сгубило его душу.
 ~
 b0d0g0m0o0b2 d0f0k0t0r1 -600 E
-25 0 -1 0d0+1800 3d3+8
+30 0 -1 0d0+1800 3d3+8
 0d0+100 270000
 8 8 1
 Str: 3
@@ -288,6 +296,7 @@ Cha: 3
 Size: 80
 LikeWork: 100
 Class: 101
+Race: 110
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
@@ -314,7 +323,7 @@ T 84222
 Тень погибшего воина.
 ~
 b0c0d0f0g0o0z0 d0k0r0A0 -600 E
-30 0 -10 0d0+3500 4d4+6
+29 0 -10 0d0+3500 4d4+6
 0d0+50 230000
 8 8 2
 Str: 30
@@ -327,6 +336,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 101
+Race: 113
 Height: 198
 Weight: 200
 Special_Bitvector: a0b0c0d0b1c1 
@@ -352,7 +362,7 @@ E
 Тень сожженного мага.
 ~
 b0d0g0m0n0o0z0 f0h0k0A0b1q1r1 -600 E
-30 0 -5 0d0+1500 2d2+6
+27 0 -5 0d0+1500 2d2+6
 0d0+35 130000
 8 8 2
 Str: 3
@@ -364,6 +374,7 @@ Cha: 18
 Size: 100
 LikeWork: 80
 Class: 101
+Race: 113
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -397,7 +408,7 @@ L 1436 12 0 0
 Тень растерзанного лучника.
 ~
 b0d0g0m0n0o0z0 k0r0 -600 E
-25 0 -3 0d0+1400 4d3+10
+28 0 -3 0d0+1400 4d3+10
 0d0+45 160000
 8 8 2
 BareHandAttack: 9
@@ -410,6 +421,7 @@ Cha: 3
 Size: 100
 LikeWork: 35
 Class: 101
+Race: 113
 Height: 198
 Weight: 145
 Special_Bitvector: j0 
@@ -430,7 +442,7 @@ L 1436 10 0 0
 огненном мефите~
 Огненный мефит сжигает жаром своего дыхания все вокруг.
 ~
-Демон огня- сжигающий все на своем пути.
+Демон огня, сжигающий все на своем пути.
 ~
 b0c0d0f0g0o0x0A0a2 d0k0n0r0A0p1 -600 E
 30 0 -10 1d1+3000 2d2+5
@@ -446,6 +458,7 @@ Size: 100
 LikeWork: 55
 ExtraAttack: 1
 Class: 104
+Race: 114
 Height: 198
 Weight: 200
 Special_Bitvector: x0b1c1 
@@ -465,9 +478,9 @@ Skill: 136 90
 Skill: 137 100
 Skill: 143 100
 Skill: 144 100
-Helper: 84234
-Helper: 84233
 Helper: 84229
+Helper: 84233
+Helper: 84234
 E
 #84212
 огненный ифрит~
@@ -482,7 +495,7 @@ E
 Он не воин, слишком слаб, но на подлости горазд!
 ~
 b0d0g0m0o0b2 k0t0 -600 E
-25 0 -1 0d0+1350 1d1+4
+29 0 -1 0d0+1350 1d1+4
 0d0+100 200000
 8 8 1
 Str: 3
@@ -494,6 +507,7 @@ Cha: 3
 Size: 80
 LikeWork: 100
 Class: 104
+Race: 104
 Height: 198
 Weight: 80
 Special_Bitvector: u0 
@@ -531,8 +545,8 @@ T 84232
 ~
 Шестилапая огненная тварь, изрыгающая пламя.
 ~
-b0d0g0m0n0o0a2 k0p1 -600 E
-25 0 -2 0d0+1400 5d3+7
+b0d0g0m0n0o0a2u2 k0p1 -600 E
+28 0 -2 0d0+1400 5d3+7
 0d0+50 160000
 8 8 1
 BareHandAttack: 2
@@ -546,14 +560,15 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 4
 Class: 105
+Race: 107
 Height: 198
 Weight: 100
 Special_Bitvector: x0 
 Skill: 132 80
 Skill: 136 75
 Skill: 146 100
-Helper: 84212
 Helper: 84211
+Helper: 84212
 E
 T 84203
 L 1241 25 0 0
@@ -571,7 +586,7 @@ L 1421 12 0 0
 Милое создание, но со странным блеском в глазах.
 ~
 b0c0d0g0m0n0o0b2 d0k0 -600 E
-28 0 -5 0d0+1200 3d3+5
+29 0 -5 0d0+1200 3d3+5
 0d0+100 200000
 8 8 2
 Str: 3
@@ -584,6 +599,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: a0b0c0d0e0f0b1c1 
@@ -599,9 +615,9 @@ Spell: 67
 Spell: 67
 Spell: 94
 Spell: 113
-Helper: 84232
-Helper: 84231
 Helper: 84230
+Helper: 84231
+Helper: 84232
 E
 T 84241
 #84215
@@ -631,6 +647,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: w0b1c1 
@@ -656,7 +673,7 @@ E
 Сложно определить вид, пол и возраст этого существа.
 ~
 b0c0d0g0m0o0 k0 -600 E
-32 0 -10 0d0+5000 4d4+8
+30 0 -10 0d0+5000 4d4+8
 0d0+10 260000
 8 8 1
 Str: 25
@@ -669,6 +686,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 114
 Height: 198
 Weight: 200
 Special_Bitvector: a0b0c0d0w0b1c1 
@@ -697,7 +715,7 @@ T 84242
 Хорошенький парнишка, но с жуткими шрамами по всему телу.
 ~
 b0d0g0n0o0 d0f0k0 0 E
-22 0 -10 0d0+1000 3d3+5
+18 0 -10 0d0+1000 3d3+5
 0d0+0 30000
 8 8 1
 Str: 3
@@ -709,6 +727,7 @@ Cha: 3
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -728,7 +747,7 @@ T 84214
 От этой мрази так воняет дохлятиной!
 ~
 b0d0g0o0A0 d0f0k0 -600 E
-29 0 -10 0d0+3000 5d5+4
+21 0 -10 0d0+3000 5d5+4
 0d0+0 50000
 8 8 1
 Str: 25
@@ -740,6 +759,7 @@ Cha: 3
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -761,7 +781,7 @@ T 84215
 Служитель храма Сатаны, хранитель темных святынь Кровавого Алтаря.
 ~
 b0d0g0m0o0 k0 -600 E
-25 2 1 2d2+1500 5d5+5
+27 2 1 2d2+1500 5d5+5
 0d0+0 130000
 8 8 1
 Str: 3
@@ -774,6 +794,7 @@ Size: 55
 LikeWork: 45
 ExtraAttack: 2
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -803,7 +824,7 @@ I зубы,20:3
 Верный страж Храма Сатаны.
 ~
 b0d0f0g0m0o0 d0k0 -600 E
-30 0 -3 1d1+1800 7d6+8
+27 0 -3 1d1+1800 7d6+8
 0d0+0 130000
 8 8 1
 Str: 3
@@ -815,6 +836,7 @@ Cha: 3
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 112
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -836,7 +858,7 @@ T 84201
 Очень скоро он станет таким же могущественным, как и Учитель.
 ~
 b0d0f0g0o0 d0k0 0 E
-25 2 1 1d1+1200 5d5+5
+27 2 1 1d1+1200 5d5+5
 0d0+0 130000
 8 8 1
 Str: 3
@@ -848,6 +870,7 @@ Cha: 3
 Size: 55
 ExtraAttack: 2
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -877,7 +900,7 @@ E
 чей-то крик или шум упавшего камня.
 ~
 b0d0f0g0o0z0 d0k0 0 E
-30 0 -3 100d7+1300 7d6+8
+23 0 -3 100d7+1300 7d6+8
 0d0+0 70000
 8 8 0
 Str: 3
@@ -890,6 +913,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 1
 Class: 100
+Race: 113
 Height: 198
 Weight: 100
 Special_Bitvector: u0 
@@ -931,6 +955,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -939,9 +964,9 @@ Skill: 132 50
 Skill: 136 90
 Skill: 137 150
 Spell: 82
-Helper: 84227
-Helper: 84226
 Helper: 84221
+Helper: 84226
+Helper: 84227
 E
 T 84261
 #84224
@@ -957,7 +982,7 @@ T 84261
 Зло подвластно ей, ибо она сама есть Зло.
 ~
 b0d0g0m0o0 d0k0o1r1 -600 E
-25 2 1 2d2+1000 5d5+2
+30 2 1 2d2+1000 5d5+2
 0d0+400 300000
 8 8 2
 Str: 3
@@ -970,6 +995,7 @@ Size: 55
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -984,9 +1010,9 @@ Spell: 67
 Spell: 67
 Spell: 67
 Spell: 93
-Helper: 84219
-Helper: 84225
 Helper: 84220
+Helper: 84225
+Helper: 84219
 E
 T 84251
 #84225
@@ -1002,7 +1028,7 @@ T 84251
 Ученик настоятельниц храма Сатаны.
 ~
 b0d0g0m0o0 d0k0 -600 E
-25 2 1 2d2+1000 5d5+2
+27 2 1 2d2+1000 5d5+2
 0d0+400 130000
 8 8 1
 Str: 3
@@ -1015,6 +1041,7 @@ Size: 55
 LikeWork: 75
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1041,7 +1068,7 @@ E
 Он знает, где лежит каждый свиток и каждая книга в его библиотеке.
 ~
 b0d0g0m0o0 d0k0 -600 E
-25 2 1 2d2+1000 5d5+2
+27 2 1 2d2+1000 5d5+2
 0d0+400 130000
 8 8 1
 Str: 3
@@ -1054,6 +1081,7 @@ Size: 55
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1083,7 +1111,7 @@ T 84202
 Помощник Хранителя библиотечных фондов.
 ~
 b0d0g0m0o0 d0k0 -600 E
-25 2 1 2d2+1000 5d5+2
+27 2 1 2d2+1000 5d5+2
 0d0+400 130000
 8 8 1
 Str: 3
@@ -1096,6 +1124,7 @@ Size: 55
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1123,7 +1152,7 @@ I глаза,20:3
 Ожившее воплощение гнева воздушной стихии.
 ~
 b0d0g0m0n0o0 d0k0 -600 E
-22 0 -6 10d10+1000 5d5+10
+24 0 -6 10d10+1000 5d5+10
 0d0+0 80000
 8 8 1
 Str: 23
@@ -1135,6 +1164,7 @@ Cha: 3
 Size: 100
 LikeWork: 20
 Class: 100
+Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -1157,7 +1187,7 @@ E
 Ожившее воплощение гнева адского пламени.
 ~
 b0d0g0m0n0o0 d0k0 -600 E
-22 0 -6 10d10+1000 5d5+10
+24 0 -6 10d10+1000 5d5+10
 0d0+0 80000
 8 8 1
 Str: 23
@@ -1169,6 +1199,7 @@ Cha: 3
 Size: 100
 LikeWork: 20
 Class: 100
+Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -1191,7 +1222,7 @@ E
 и огромным луком в руках.
 ~
 b0d0f0g0m0n0o0 d0k0 -600 E
-22 0 -6 10d10+900 5d5+10
+24 0 -6 10d10+900 5d5+10
 0d0+0 80000
 8 8 1
 BareHandAttack: 9
@@ -1204,6 +1235,7 @@ Cha: 3
 Size: 100
 LikeWork: 20
 Class: 100
+Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -1228,7 +1260,7 @@ E
 и огромным луком в руках.
 ~
 b0d0g0m0n0o0 d0k0 -600 E
-22 0 -6 10d10+900 5d5+10
+24 0 -6 10d10+900 5d5+10
 0d0+0 80000
 8 8 1
 BareHandAttack: 9
@@ -1241,6 +1273,7 @@ Cha: 3
 Size: 100
 LikeWork: 20
 Class: 100
+Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -1265,7 +1298,7 @@ E
 и огромным луком в руках.
 ~
 b0d0g0m0n0o0 d0k0 -600 E
-22 0 -6 10d10+900 5d5+10
+24 0 -6 10d10+900 5d5+10
 0d0+0 80000
 8 8 1
 BareHandAttack: 9
@@ -1278,6 +1311,7 @@ Cha: 3
 Size: 100
 LikeWork: 20
 Class: 100
+Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -1301,7 +1335,7 @@ E
 Ожившее воплощение гнева адского пламени.
 ~
 b0d0f0g0m0n0o0 d0k0 -600 E
-22 0 -6 10d10+1000 5d5+10
+24 0 -6 10d10+1000 5d5+10
 0d0+0 80000
 8 8 1
 Str: 23
@@ -1313,6 +1347,7 @@ Cha: 3
 Size: 100
 LikeWork: 20
 Class: 100
+Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -1334,7 +1369,7 @@ E
 Ожившее воплощение гнева адского пламени.
 ~
 b0d0g0m0n0o0 d0k0 -600 E
-22 0 -6 10d10+1000 5d5+10
+24 0 -6 10d10+1000 5d5+10
 0d0+0 80000
 8 8 1
 Str: 23
@@ -1346,6 +1381,7 @@ Cha: 3
 Size: 100
 LikeWork: 20
 Class: 100
+Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -1367,7 +1403,7 @@ E
 Ожившее воплощение гнева воздушной стихии.
 ~
 b0d0f0g0m0n0o0 d0k0 -600 E
-22 0 -6 10d10+1000 5d5+10
+24 0 -6 10d10+1000 5d5+10
 0d0+0 80000
 8 8 1
 Str: 23
@@ -1379,6 +1415,7 @@ Cha: 3
 Size: 100
 LikeWork: 20
 Class: 100
+Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -1401,7 +1438,7 @@ E
 Ожившее воплощение гнева воздушной стихии.
 ~
 b0d0f0g0m0n0o0 d0k0 -600 E
-22 0 -6 10d10+1000 5d5+10
+24 0 -6 10d10+1000 5d5+10
 0d0+0 80000
 8 8 1
 Str: 23
@@ -1413,6 +1450,7 @@ Cha: 3
 Size: 100
 LikeWork: 20
 Class: 100
+Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -1435,9 +1473,10 @@ E
 Бравый гренадер сотворенный силой магии из уплотненных кусков воздуха.
 ~
 b0d0g0o0 d0f0h0k0m0n0 0 E
-29 0 -2 1d1+3000 6d6+9
+31 0 -2 1d1+3000 6d6+9
 0d0+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 3
 Dex: 3
 Int: 3
@@ -1448,6 +1487,7 @@ Size: 59
 LikeWork: 99
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b0u0 
@@ -1470,13 +1510,14 @@ E
 убогом дервише~
 Убогий дервиш назойливо требует милостыню у всякого проходящего здесь.
 ~
-Старик в лохмотьях и с безумными глазами, что-то бормочет
+Старик в лохмотьях и с безумными глазами что-то бормочет,
 протягивая к Вам трясущуюся ладонь.
 ~
 b0d0g0o0 d0h0k0 0 E
-30 0 -3 100d7+3000 7d6+8
+32 0 -3 100d7+3000 7d6+8
 0d0+0 500000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 3
 Dex: 3
 Int: 3
@@ -1487,6 +1528,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 80
 Special_Bitvector: c0u0 
@@ -1512,9 +1554,10 @@ L 1413 15 0 0
 Джинн охранник - это воплощение злобы воздушной среды!
 ~
 b0d0g0n0o0A0u2 d0f0k0 -600 E
-49 0 -10 5d5+7000 7d7+9
+32 0 -10 5d5+7000 7d7+9
 0d0+500 500000
 8 8 1
+Saves: -14 -14 -14 -14
 BareHandAttack: 12
 Str: 34
 Dex: 34
@@ -1526,6 +1569,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 103
+Race: 111
 Height: 198
 Weight: 200
 Special_Bitvector: b0c0u0b1c1 
@@ -1544,9 +1588,9 @@ Spell: 88
 Spell: 93
 Spell: 124
 Spell: 132
-Helper: 84236
-Helper: 84235
 Helper: 84228
+Helper: 84235
+Helper: 84236
 E
 T 84231
 L 1745 7 0 0
@@ -1560,13 +1604,14 @@ L 1745 7 0 0
 гурии~
 Гурия - милая девушка, способная вдохновить любого воина на подвиг.
 ~
-Она сводит с ума всех мужчин поэты слагают о ней песни, а
+Она сводит с ума всех мужчин! Поэты слагают о ней песни, а
 Воины идут на смерть с ее именем на устах.
 ~
 b0c0d0g0o0u0w0z0 d0k0x0 0 E
-25 2 0 3d3+4000 5d5+9
+31 2 0 3d3+4000 5d5+9
 0d0+1000 400000
 8 8 2
+Saves: -10 -10 -10 -10
 BareHandAttack: 4
 Str: 3
 Dex: 3
@@ -1578,6 +1623,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: b0c0l0u0 
@@ -1609,7 +1655,7 @@ E
 голове забытый мотив "Цыпленок жареный..."
 ~
 d0f0g0m0o0a2 d0k0r0A0 0 E
-25 0 -7 3d3+3000 4d4+6
+30 0 -7 3d3+3000 4d4+6
 0d0+0 300000
 8 8 1
 BareHandAttack: 1
@@ -1623,6 +1669,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 100
 Special_Bitvector: x0 
@@ -1649,9 +1696,10 @@ I крылья:8
 просто невозможно - обдает нестерпимым жаром.
 ~
 b0d0f0g0l0m0o0x0f2 d0k0 -600 E
-28 0 -10 4d4+6000 5d5+9
+31 0 -10 4d4+6000 5d5+9
 0d0+0 400000
 8 8 2
+Saves: -10 -10 -10 -10
 BareHandAttack: 15
 Str: 25
 Dex: 25
@@ -1662,6 +1710,7 @@ Cha: 3
 Size: 100
 LikeWork: 80
 Class: 103
+Race: 103
 Height: 198
 Weight: 100
 Special_Bitvector: l0x0 
@@ -1688,9 +1737,10 @@ I крылья:4
 метит паршивец.
 ~
 b0d0g0m0n0o0x0a2 d0k0r0x0p1 -600 E
-30 0 -9 3d3+7000 6d6+9
+31 0 -9 3d3+7000 6d6+9
 0d0+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 2
 Str: 17
 Dex: 26
@@ -1702,6 +1752,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 100
 Special_Bitvector: l0x0 

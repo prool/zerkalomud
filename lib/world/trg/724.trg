@@ -116,15 +116,10 @@ mload mob 72404
 mpurge %self%
 ~
 #72407
-наемник зашел~
+хрусь~
 2 e 100
 ~
-if ((%actor.class% == 4) && (%actor.exp% > 400000000) && (%actor.level% < 31))
-  set buf %actor.exp(-100000000)%
-  set buf %actor.exp(-100000000)%
-  set buf %actor.exp(-100000000)%
-  set buf %actor.exp(-100000000)%
-end
+*Что-то хрустнуло у Вас под ногами. Наемники - бойтесь!
 ~
 #72408
 убили рудокопа~
@@ -264,8 +259,6 @@ end
 wait 1
 wforce %actor% кри сюда!
 wsend %actor% И о чем только болтает Ваш поганый язык??
-calcuid bondage 72443 room
-exec 72416 %bondage.id%
 wait 5
 wecho Дух тверди радостно потер руки - все в сборе.
 wecho Дух начал медленно растворяться прямо в скале!
@@ -278,7 +271,6 @@ wecho Вы расслышали слова страшного заклинания: "Non vagina, non reda cogorta - 
 wecho И ВЫ ПОПЛЕЛИСЬ ТУДА ЖЕ!!!
 wforce all wake
 wforce all stand
-wecho Стойте и не шевелитесь - только так Вы сможете избежать верной гибели...
 wforce all north
 ~
 #72417
@@ -293,9 +285,8 @@ return 1
 ~
 #72418
 дамадж в комнате~
-2 c 1
+2 a 0
 *~
-wait 1
-wdamage %actor% 5000
+%echo% Здесь был кривой триг. Теперь его не стало.
 ~
 $~

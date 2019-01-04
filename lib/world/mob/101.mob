@@ -27,6 +27,7 @@ LikeWork: 70
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
@@ -79,6 +80,7 @@ LikeWork: 70
 MaxFactor: 10
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -125,11 +127,12 @@ LikeWork: 60
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 132 50
-Skill: 136 100
+Skill: 136 66
 Skill: 157 50
 Spell: 26
 Spell: 26
@@ -145,7 +148,6 @@ Spell: 82
 Spell: 82
 Spell: 82
 Helper: 10111
-Skill: 136 66
 E
 T 10101
 #10103
@@ -176,10 +178,11 @@ LikeWork: 50
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
-Skill: 136 80
+Skill: 136 60
 Skill: 157 50
 Spell: 28
 Spell: 28
@@ -194,7 +197,6 @@ Spell: 69
 Spell: 69
 Spell: 69
 Helper: 10110
-Skill: 136 60
 E
 T 10102
 #10104
@@ -208,7 +210,8 @@ T 10102
 Молодой разбойничек лениво прохаживается здесь.
 ~
 Молод и залихваст орлик сизокрылый, полно отваги
-его сердце, как душа полна злобой и златолюбием.~
+его сердце, как душа полна злобой и златолюбием.
+~
 c0d0g0h0j0m0o0A0 0 -600 E
 16 6 -4 20d10+350 10d2+5
 5d10+10 50000
@@ -224,6 +227,7 @@ LikeWork: 30
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 
@@ -262,6 +266,7 @@ LikeWork: 60
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: k0b1c1 
@@ -300,6 +305,7 @@ LikeWork: 55
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -344,6 +350,7 @@ LikeWork: 30
 MaxFactor: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: a1c1 
@@ -379,7 +386,8 @@ Int: 10
 Wis: 10
 Con: 10
 Cha: 10
-Class: 116
+Class: 107
+Race: 115
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -408,7 +416,8 @@ Int: 10
 Wis: 10
 Con: 10
 Size: 30
-Class: 116
+Class: 107
+Race: 115
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -442,6 +451,7 @@ LikeWork: 55
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -482,6 +492,7 @@ LikeWork: 55
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -522,6 +533,7 @@ LikeWork: 65
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: k0b1c1 

@@ -111,7 +111,6 @@ if %pogodka.contains(ночь)% && %arg.contains(огонь)%
   wecho - Об одном только вас молю - если камень окажется у вас, бегите со всех ног.
   wecho - Легенды гласят, что он держит своим присутствием сами горы, не давая им упасть.
   return 1
-  detach 73205 %self.id%
 end
 ~
 #73206
@@ -153,18 +152,18 @@ switch %random.4%
   break
 done
 set rnd %random.1000%
-if %rnd% < 400
+if %rnd% < 200
   mload obj 73210
   дать мешоч %actor.name%
 end
 switch %actor.class%
   case 0
-    if %rnd% < 100
+    if %rnd% < 200
       mspellturn %actor.name% мантия.теней set
     end
   break
   case 1
-    if %rnd% < 400
+    if %rnd% < 200
       mspellturn %actor.name% суд.богов set
     end
   break   
@@ -179,7 +178,7 @@ switch %actor.class%
     end
   break   
   case 4
-    if (%rnd% < 100 && char.skill(осторожный.стиль) < 151)
+    if (%rnd% < 100 && char.skill(осторожный стиль) < 151)
       mskilladd %actor.name% осторожный.стиль 10
     end
   break   
@@ -189,7 +188,7 @@ switch %actor.class%
     end
   break   
   case 6
-    if (%rnd% < 100 && char.skill(осторожный.стиль) < 151)
+    if (%rnd% < 100 && char.skill(осторожный стиль) < 151)
       mskillturn %actor.name% осторожный.стиль 20
     end
   break   
@@ -200,7 +199,7 @@ switch %actor.class%
   break
   
   case 8
-    if %rnd% < 100
+    if %rnd% < 200
       mspellturn %actor.name% силы.зла set
     end
   break   
@@ -215,23 +214,23 @@ switch %actor.class%
     end 
   break   
   case 10
-    if (%rnd% < 100 && char.skill(допол.выстрел) < 151)
+    if (%rnd% < 100 && char.skill(допол выстрел) < 151)
       mskillturn %actor.name% допол.выстрел 10
     end
   break   
   case 11
-    if (%rnd% < 100 && char.skill(горное.дело) < 151)
+    if (%rnd% < 100 && char.skill(горное дело) < 101)
       mskilladd %actor.name% горное.дело 10
     end
   break   
   
   case 12
-    if (%rnd% < 100 && char.skill(осторожный.стиль) < 181)
-      mskilladd %actor.name% осторожный.стиль 20
+    if (%rnd% < 100 && char.skill(осторожный стиль) < 181)
+      mskilladd %actor.name% осторожный.стиль 10
     end
   break   
   case 13
-    if %rnd% < 100
+    if %rnd% < 200
       mload obj 240
       дать рун %actor.name%
     end

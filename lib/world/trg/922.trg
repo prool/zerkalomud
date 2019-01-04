@@ -241,18 +241,24 @@ end
 if !%target2%
   set target2 %target1%
 end
-calcuid drak1 92204 mob
-calcuid drak2 92205 mob
-calcuid drak3 92206 mob
-set draktarget1 %target1.id%
-set draktarget2 %target2.id%
-set draktarget3 %target3.id%
-remote draktarget1 %drak1.id%
-remote draktarget2 %drak2.id%
-remote draktarget3 %drak3.id%
-exec 92217 %drak1.id%
-exec 92218 %drak2.id%
-exec 92219 %drak3.id%
+if (%world.curmobs(92204)%>0)
+  calcuid drak1 92204 mob
+  set draktarget1 %target1.id%
+  remote draktarget1 %drak1.id%
+  exec 92217 %drak1.id%
+end
+if (%world.curmobs(92205)%>0)
+  calcuid drak2 92205 mob
+  set draktarget2 %target2.id%
+  remote draktarget2 %drak2.id%
+  exec 92218 %drak2.id%
+end
+if (%world.curmobs(92206)%>0)
+  calcuid drak3 92206 mob
+  set draktarget3 %target3.id%
+  remote draktarget3 %drak3.id%
+  exec 92219 %drak3.id%
+end
 *рекол если сценарий его предусматривает
 wait 1s
 if %mode%>10
@@ -283,12 +289,18 @@ if !%random.pc%
   exec 92214 %self.id%
   halt
 end
-mforce мертвый1 вст
-mforce ловкий2 вст
-mforce ловкий1 вст
-mteleport мертвый1 %self.realroom%
-mteleport ловкий2 %self.realroom%
-mteleport ловкий1 %self.realroom%
+if %exist.mob(92210)%
+  mforce большой1 вст
+  mteleport большой1 %self.realroom%
+end
+if %exist.mob(92211)%
+  mforce ловкий1 вст
+  mteleport ловкий1 %self.realroom%
+end
+if %exist.mob(92212)%
+  mforce ловкий2 вст
+  mteleport ловкий2 %self.realroom%
+end
 mecho Мертвецы появились из портала!
 set target1 %random.pc%
 set tnum 1
@@ -358,18 +370,24 @@ if !%target2%
   set target2 %target1%
 end
 mecho Ярпен отдал приказ!
-calcuid drak1 92210 mob
-calcuid drak2 92211 mob
-calcuid drak3 92212 mob
-set draktarget1 %target1.id%
-set draktarget2 %target2.id%
-set draktarget3 %target3.id%
-remote draktarget1 %drak1.id%
-remote draktarget2 %drak2.id%
-remote draktarget3 %drak3.id%
-exec 92217 %drak1.id%
-exec 92218 %drak2.id%
-exec 92219 %drak3.id%
+if %exist.mob(92210)%
+  calcuid drak1 92210 mob
+  set draktarget1 %target1.id%
+  remote draktarget1 %drak1.id%
+  exec 92217 %drak1.id%
+end
+if %exist.mob(92211)%
+  calcuid drak2 92211 mob
+  set draktarget2 %target2.id%
+  remote draktarget2 %drak2.id%
+  exec 92218 %drak2.id%
+end
+if %exist.mob(92212)%
+  calcuid drak3 92212 mob
+  set draktarget3 %target3.id%
+  remote draktarget3 %drak3.id%
+  exec 92219 %drak3.id%
+end
 wait 1s
 if %mode%>20
   exec 92214 %self.id%
@@ -607,7 +625,7 @@ end
 0 z 100
 ~
 mkill %draktarget1%  
-dg_cast 'лег вре' %draktarget1%
+dg_cast 'лег вре' %draktarget1.name%
 wait 2s
 unset %draktarget1%
 ~
@@ -616,7 +634,7 @@ unset %draktarget1%
 0 z 100
 ~
 mkill %draktarget2%  
-dg_cast 'лег вре' %draktarget2%
+dg_cast 'лег вре' %draktarget2.name%
 wait 2s
 unset %draktarget2%
 ~
@@ -625,7 +643,7 @@ unset %draktarget2%
 0 z 100
 ~
 mkill %draktarget3%  
-dg_cast 'лег вре' %draktarget3%
+dg_cast 'лег вре' %draktarget3.name%
 wait 2s
 unset %draktarget3%
 ~
@@ -782,7 +800,7 @@ foreach next %self.pc%
   end
 done
 set i 0
-foreach j %self.attakers%
+foreach j %self.attackers%
 done
 if !%self.attackers% && %self.fighting%
   mecho Кроу оступил из боя и потерялся из вида!
@@ -1246,6 +1264,8 @@ done
 ~
 if %world.curmobs(92226)%
   calcuid biglon 92226 mob
+else
+  halt
 end
 if %self.hitp% < 1400 && %random.8% == 1
   mecho Андора прекратила использовать саблю.
@@ -1275,9 +1295,6 @@ end
 ~
 if %world.curobjs(92208)% < 2 && %random.12% == 1
   mload obj 92208          
-end
-if (%world.curobjs(1220)% < 1) && (%random.100% <= 1)
-  mload obj 1220
 end
 ~
 #92247

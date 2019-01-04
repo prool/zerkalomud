@@ -540,6 +540,18 @@ oecho Посох взорвался и исчез в вихре пламени!
 eval dam %actor.hitp%+9
 odamage %actor% %dam%
 otransform 91803
+detach 91616 %self%
+detach 91711 %self%
+detach 91814 %self%
+detach 91816 %self%
+detach 91817 %self%
+detach 91818 %self%
+detach 91920 %self%
+detach 92000 %self%
+detach 92008 %self%
+detach 92117 %self%
+detach 92507 %self%
+detach 91815 %self%
 ~
 #91816
 перезарядка  посоха справедливости~
@@ -758,32 +770,32 @@ end
 умер горыня~
 0 f 100
 ~
-if (%world.curobjs(91819)% < 2) && (%random.4% == 1)
+if (%world.curobjs(91819)% < 2) && (%random.1000% < 250)
   mload obj 91819
-elseif (%world.curobjs(91820)% < 2) && (%random.4% == 1)
+elseif (%world.curobjs(91820)% < 2) && (%random.1000% < 250)
   mload obj 91820
 end
-if (%world.curobjs(91821)% < 2) && (%random.7% == 1)
+if (%world.curobjs(91821)% < 2) && (%random.1000% < 143)
   mload obj 91821
-elseif (%world.curobjs(91822)% < 2) && (%random.7% == 1)
+elseif (%world.curobjs(91822)% < 2) && (%random.1000% < 143)
   mload obj 91822
-elseif (%world.curobjs(91823)% < 2) && (%random.7% == 1)
+elseif (%world.curobjs(91823)% < 2) && (%random.1000% < 143)
   mload obj 91823
 end
-if (%world.curobjs(91828)% < 2) && (%random.5% == 1)
+if (%world.curobjs(91828)% < 2) && (%random.1000% < 200)
   mload obj 91828
-elseif (%world.curobjs(91829)% < 2) && (%random.5% == 1)
+elseif (%world.curobjs(91829)% < 2) && (%random.1000% < 200)
   mload obj 91829
-elseif (%world.curobjs(91830)% < 2) && (%random.5% == 1)
+elseif (%world.curobjs(91830)% < 2) && (%random.1000% < 200)
   mload obj 91830
 end
-if (%world.curobjs(91824)% < 2) && (%random.6% == 1)
+if (%world.curobjs(91824)% < 2) && (%random.1000% < 180)
   mload obj 91824
-elseif (%world.curobjs(91825)% < 2) && (%random.6% == 1)
+elseif (%world.curobjs(91825)% < 2) && (%random.1000% < 180)
   mload obj 91825
-elseif (%world.curobjs(91826)% < 2) && (%random.6% == 1)
+elseif (%world.curobjs(91826)% < 2) && (%random.1000% < 180)
   mload obj 91826
-elseif (%world.curobjs(91827)% < 2) && (%random.6% == 1)
+elseif (%world.curobjs(91827)% < 2) && (%random.1000% < 180)
   mload obj 91827
 end
 ~
@@ -791,32 +803,32 @@ end
 умер дубыня~
 0 f 100
 ~
-if (%world.curobjs(91830)% < 2) && (%random.4% == 1)
+if (%world.curobjs(91830)% < 2) && (%random.1000% < 250)
   mload obj 91830
-elseif (%world.curobjs(91831)% < 2) && (%random.4% == 1)
+elseif (%world.curobjs(91831)% < 2) && (%random.1000% < 250)
   mload obj 91831
 end
-if (%world.curobjs(91832)% < 2) && (%random.7% == 1)
+if (%world.curobjs(91832)% < 2) && (%random.1000% < 143)
   mload obj 91832
-elseif (%world.curobjs(91833)% < 2) && (%random.7% == 1)
+elseif (%world.curobjs(91833)% < 2) && (%random.1000% < 143)
   mload obj 91833
-elseif (%world.curobjs(91834)% < 2) && (%random.7% == 1)
+elseif (%world.curobjs(91834)% < 2) && (%random.1000% < 143)
   mload obj 91834
 end
-if (%world.curobjs(91839)% < 2) && (%random.5% == 1)
+if (%world.curobjs(91839)% < 2) && (%random.1000% < 200)
   mload obj 91839
-elseif (%world.curobjs(91840)% < 2) && (%random.5% == 1)
+elseif (%world.curobjs(91840)% < 2) && (%random.1000% < 200)
   mload obj 91840
-elseif (%world.curobjs(91841)% < 2) && (%random.5% == 1)
+elseif (%world.curobjs(91841)% < 2) && (%random.1000% < 200)
   mload obj 91841
 end
-if (%world.curobjs(91835)% < 2) && (%random.6% == 1)
+if (%world.curobjs(91835)% < 2) && (%random.1000% < 180)
   mload obj 91835
-elseif (%world.curobjs(91836)% < 2) && (%random.6% == 1)
+elseif (%world.curobjs(91836)% < 2) && (%random.1000% < 180)
   mload obj 91836
-elseif (%world.curobjs(91837)% < 2) && (%random.6% == 1)
+elseif (%world.curobjs(91837)% < 2) && (%random.1000% < 180)
   mload obj 91837
-elseif (%world.curobjs(91838)% < 2) && (%random.6% == 1)
+elseif (%world.curobjs(91838)% < 2) && (%random.1000% < 180)
   mload obj 91838
 end
 ~
@@ -824,32 +836,32 @@ end
 умер усыня~
 0 f 100
 ~
-if (%world.curobjs(91843)% < 2) && (%random.4% == 1)
+if (%world.curobjs(91843)% < 2) && (%random.1000% < 250)
   mload obj 91843
-elseif (%world.curobjs(91842)% < 2) && (%random.4% == 1)
+elseif (%world.curobjs(91842)% < 2) && (%random.1000% < 250)
   mload obj 91842
 end
-if (%world.curobjs(91846)% < 2) && (%random.7% == 1)
+if (%world.curobjs(91846)% < 2) && (%random.1000% < 143)
   mload obj 91846
-elseif (%world.curobjs(91844)% < 2) && (%random.7% == 1)
+elseif (%world.curobjs(91844)% < 2) && (%random.1000% < 143)
   mload obj 91844
-elseif (%world.curobjs(91845)% < 2) && (%random.7% == 1)
+elseif (%world.curobjs(91845)% < 2) && (%random.1000% < 143)
   mload obj 91845
 end
-if (%world.curobjs(91851)% < 2) && (%random.5% == 1)
+if (%world.curobjs(91851)% < 2) && (%random.1000% < 200)
   mload obj 91851
-elseif (%world.curobjs(91852)% < 2) && (%random.5% == 1)
+elseif (%world.curobjs(91852)% < 2) && (%random.1000% < 200)
   mload obj 91852
-elseif (%world.curobjs(91853)% < 2) && (%random.5% == 1)
+elseif (%world.curobjs(91853)% < 2) && (%random.1000% < 200)
   mload obj 91853
 end
-if (%world.curobjs(91847)% < 2) && (%random.6% == 1)
+if (%world.curobjs(91847)% < 2) && (%random.1000% < 180)
   mload obj 91847
-elseif (%world.curobjs(91848)% < 2) && (%random.6% == 1)
+elseif (%world.curobjs(91848)% < 2) && (%random.1000% < 180)
   mload obj 91848
-elseif (%world.curobjs(91849)% < 2) && (%random.6% == 1)
+elseif (%world.curobjs(91849)% < 2) && (%random.1000% < 180)
   mload obj 91849
-elseif (%world.curobjs(91850)% < 2) && (%random.6% == 1)
+elseif (%world.curobjs(91850)% < 2) && (%random.1000% < 180)
   mload obj 91850
 end
 ~

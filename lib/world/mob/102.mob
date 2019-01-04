@@ -27,17 +27,17 @@ LikeWork: 95
 MaxFactor: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 131 70
 Skill: 132 70
-Skill: 136 100
+Skill: 136 90
 Skill: 147 100
 Skill: 157 70
-Helper: 10203
 Helper: 10202
-Skill: 136 90
+Helper: 10203
 E
 T 10200
 #10201
@@ -70,6 +70,7 @@ LikeWork: 50
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -108,6 +109,7 @@ LikeWork: 60
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -160,6 +162,7 @@ LikeWork: 50
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -201,18 +204,18 @@ LikeWork: 60
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: j0a1b1c1 
 Skill: 131 30
-Skill: 136 50
+Skill: 136 66
 Skill: 139 30
 Skill: 145 80
 Skill: 156 30
 Skill: 157 30
-Helper: 10206
 Helper: 10205
-Skill: 136 66
+Helper: 10206
 E
 #10205
 башковитый разбойничек первый помощник~
@@ -242,6 +245,7 @@ LikeWork: 60
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -286,6 +290,7 @@ LikeWork: 50
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -327,18 +332,18 @@ LikeWork: 60
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: j0a1b1c1 
 Skill: 131 30
 Skill: 132 30
-Skill: 136 50
+Skill: 136 66
 Skill: 139 30
 Skill: 145 80
 Skill: 156 30
-Helper: 10209
 Helper: 10208
-Skill: 136 66
+Helper: 10209
 E
 #10208
 башковитый разбойничек второй помощник~
@@ -368,6 +373,7 @@ LikeWork: 60
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -410,6 +416,7 @@ LikeWork: 50
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -450,18 +457,18 @@ LikeWork: 60
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: j0a1b1c1 
 Skill: 131 30
 Skill: 132 30
-Skill: 136 50
+Skill: 136 66
 Skill: 139 30
 Skill: 145 80
 Skill: 156 50
-Helper: 10212
 Helper: 10211
-Skill: 136 66
+Helper: 10212
 E
 #10211
 башковитый разбойничек третий помощник~
@@ -491,6 +498,7 @@ LikeWork: 60
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -540,6 +548,7 @@ LikeWork: 50
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -580,18 +589,18 @@ LikeWork: 60
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: j0a1b1c1 
 Skill: 131 30
 Skill: 132 30
-Skill: 136 50
+Skill: 136 66
 Skill: 139 30
 Skill: 145 80
 Skill: 156 50
-Helper: 10214
 Helper: 10213
-Skill: 136 66
+Helper: 10214
 E
 #10214
 башковитый разбойничек четвертый помощник~
@@ -621,6 +630,7 @@ LikeWork: 60
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -670,6 +680,7 @@ LikeWork: 50
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -709,6 +720,7 @@ LikeWork: 60
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 

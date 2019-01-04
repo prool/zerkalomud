@@ -22,6 +22,7 @@ Con: 3
 Cha: 4
 Size: 5
 Class: 103
+Race: 107
 Height: 198
 Weight: 1
 Special_Bitvector: l0 
@@ -52,6 +53,7 @@ Con: 3
 Cha: 4
 Size: 3
 Class: 103
+Race: 103
 Height: 198
 Weight: 1
 Special_Bitvector: p0 
@@ -82,6 +84,7 @@ Con: 3
 Cha: 4
 Size: 2
 Class: 103
+Race: 107
 Height: 198
 Weight: 1
 Special_Bitvector: p0 
@@ -111,6 +114,7 @@ Con: 3
 Cha: 4
 Size: 2
 Class: 103
+Race: 107
 Height: 198
 Weight: 50
 Special_Bitvector: l0 
@@ -141,6 +145,7 @@ Cha: 6
 Size: 10
 ExtraAttack: 1
 Class: 102
+Race: 105
 Height: 198
 Weight: 12
 Special_Bitvector: m0 
@@ -170,6 +175,7 @@ Con: 5
 Cha: 6
 Size: 3
 Class: 103
+Race: 104
 Height: 198
 Weight: 1
 Special_Bitvector: p0 
@@ -200,6 +206,7 @@ Cha: 10
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -231,6 +238,7 @@ Cha: 4
 Size: 2
 ExtraAttack: 3
 Class: 103
+Race: 107
 Height: 198
 Weight: 50
 Special_Bitvector: 0 

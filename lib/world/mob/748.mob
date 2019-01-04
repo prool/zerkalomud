@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #74800
 нежить лекарь знахарь~
 лекарь нежити~
@@ -11,35 +10,34 @@
 ~
 Это неживое существо, владеющее навыками лекаря.
 ~
-b0f0g0l0m0x0g2 c0d0e0f0k0r0z0A0c1m1r1w1z1 -600 E
+b0d0f0g0l0m0x0g2 c0d0e0f0k0r0z0A0c1m1r1w1z1 -600 E
 30 0 -10 10d10+2000 5d5+10
 5d5+12 270000
 8 8 1
 Saves: -30 0 0 -30
 Resistances: 50 50 50 50 25 25 25
-HPreg: 0
 Armour: 90
 PlusMem: 100
 CastSuccess: 40
 Success: 15
 Initiative: 15
 Absorbe: 10
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 20
+Dex: 25
 Int: 30
 Wis: 32
-Dex: 25
 Con: 22
 Cha: 20
+Size: 50
 LikeWork: 90
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 50
+Race: 101
 Height: 155
 Weight: 55
+Special_Bitvector: w0b1c1 
 Feat: 3
 Feat: 14
 Feat: 16
@@ -50,8 +48,7 @@ Feat: 24
 Feat: 42
 Feat: 59
 Feat: 60
-Special_Bitvector: w0b1c1
-Spell: 113
+Skill: 141 120
 Spell: 27
 Spell: 27
 Spell: 27
@@ -70,11 +67,10 @@ Spell: 81
 Spell: 82
 Spell: 82
 Spell: 93
-Skill: 141 120
+Spell: 113
 E
 T 74814
 T 74825
-I глаза,10:5
 #74801
 колдун1 нежить~
 колдун нежити~
@@ -87,7 +83,7 @@ I глаза,10:5
 ~
 Это неживое существо, владеющее навыками колдуна.
 ~
-b0f0g0l0m0x0g2 b0c0d0e0f0k0n0m0r0x0z0A0c1m1w1y1 -600 E
+b0d0f0g0l0m0x0g2 b0c0d0e0f0k0m0n0r0x0z0A0c1m1w1y1 -600 E
 30 0 -10 10d10+2000 5d5+10
 5d5+5 270000
 8 8 1
@@ -100,22 +96,21 @@ CastSuccess: 60
 Success: 15
 Initiative: 15
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 20
+Dex: 24
 Int: 30
 Wis: 31
-Dex: 24
 Con: 22
 Cha: 20
+Size: 80
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 80
+Race: 110
 Height: 165
 Weight: 85
+Special_Bitvector: l0w0b1c1 
 Feat: 3
 Feat: 14
 Feat: 16
@@ -126,29 +121,28 @@ Feat: 24
 Feat: 42
 Feat: 59
 Feat: 60
-Special_Bitvector: l0w0b1c1
+Skill: 20 150
+Skill: 141 120
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 68
+Spell: 68
 Spell: 128
 Spell: 152
 Spell: 152
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 68
-Spell: 68
-Skill: 141 120
-Skill: 20 150
 E
 T 74807
 T 74826
@@ -164,7 +158,7 @@ T 74826
 ~
 Это неживое существо, владеющее навыками вора.
 ~
-f0g0l0m0x0g2 b0c0d0e0f0k0n0m0r0s0t0z0A0m1w1x1z1 -600 E
+d0f0g0l0m0x0g2 b0c0d0e0f0k0m0n0r0s0t0z0A0m1w1x1z1 -600 E
 30 0 -10 10d10+2200 9d9+10
 5d5+5 300000
 8 8 1
@@ -172,27 +166,25 @@ Saves: -30 0 0 0
 Resistances: 70 90 90 70 25 25 25
 HPreg: 40
 Armour: 90
-PlusMem: 0
-CastSuccess: 0
 Success: 95
 Initiative: 25
 Absorbe: 25
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 25
+Dex: 35
 Int: 20
 Wis: 21
-Dex: 35
 Con: 22
 Cha: 15
+Size: 20
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 20
+Race: 110
 Height: 175
 Weight: 55
+Special_Bitvector: i0j0w0a1b1c1 
 Feat: 2
 Feat: 3
 Feat: 4
@@ -212,7 +204,6 @@ Feat: 58
 Feat: 69
 Feat: 72
 Feat: 75
-Special_Bitvector: i0j0w0a1b1c1
 Skill: 131 150
 Skill: 133 150
 Skill: 147 160
@@ -221,7 +212,6 @@ Skill: 157 150
 Skill: 160 120
 E
 T 74827
-I кости,10:5
 #74803
 богатырь нежить~
 богатырь нежити~
@@ -234,35 +224,32 @@ I кости,10:5
 ~
 Это неживое существо, владеющее навыками богатыря.
 ~
-b0f0g0l0m0g2 c0d0e0f0k0n0m0r0z0A0c1m1t1w1x1z1 -600 E
-30 0 -10 10d10+3000 12d12+12
+b0d0f0g0l0m0g2 c0d0e0f0k0m0n0r0z0A0c1m1t1w1x1z1 -600 E
+32 0 -10 10d10+3000 12d12+12
 5d5+5 420000
 8 8 1
-Saves: -30 0 0 0
+Saves: -30 -14 -14 -14
 Resistances: 60 60 60 60 25 25 25
 HPreg: 150
 Armour: 90
-PlusMem: 0
-CastSuccess: 0
 Success: 25
 Initiative: 25
 Absorbe: 40
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 34
+Dex: 24
 Int: 23
 Wis: 23
-Dex: 24
 Con: 35
 Cha: 20
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 195
 Weight: 95
+Special_Bitvector: w0b1c1 
 Feat: 1
 Feat: 2
 Feat: 3
@@ -282,11 +269,10 @@ Feat: 61
 Feat: 65
 Feat: 66
 Feat: 68
-Special_Bitvector: w0b1c1
+Skill: 4 150
 Skill: 136 150
 Skill: 137 140
 Skill: 165 150
-Skill: 4 150
 E
 T 74828
 #74804
@@ -301,35 +287,32 @@ T 74828
 ~
 Это неживое существо, владеющее навыками наемника.
 ~
-f0g0h0l0m0g2 b0c0d0e0f0k0n0m0r0s0t0z0A0c1m1w1x1y1z1 -600 E
+d0f0g0h0l0m0g2 b0c0d0e0f0k0m0n0r0s0t0z0A0c1m1w1x1y1z1 -600 E
 30 0 -10 10d10+2200 9d9+10
 5d27+5 310000
 8 8 1
-Saves: 0 0 0 0
 Resistances: 90 90 90 90 30 30 30
 HPreg: 70
 Armour: 90
-PlusMem: 0
-CastSuccess: 0
 Success: 65
 Initiative: 45
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 35
+Dex: 35
 Int: 21
 Wis: 23
-Dex: 35
 Con: 25
 Cha: 17
+Size: 25
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 25
+Race: 110
 Height: 175
 Weight: 55
+Special_Bitvector: g0i0j0w0b1c1C3 
 Feat: 3
 Feat: 4
 Feat: 6
@@ -350,16 +333,14 @@ Feat: 72
 Feat: 75
 Feat: 78
 Feat: 79
-Special_Bitvector: g0i0j0w0b1c1C3
+Skill: 22 150
 Skill: 131 150
 Skill: 133 150
 Skill: 147 150
 Skill: 160 160
 Skill: 167 140
-Skill: 22 150
 E
 T 74829
-I кожа,10:5
 #74805
 дружинник нежить~
 дружинник нежити~
@@ -372,35 +353,33 @@ I кожа,10:5
 ~
 Это неживое существо, владющее навыками дружинника
 ~
-b0f0g0l0m0g2 c0d0e0k0n0m0r0z0A0c1m1w1x1 -600 E
-30 0 -10 10d10+2800 10d9+8
+b0d0f0g0l0m0g2 c0d0e0k0m0n0r0z0A0c1m1w1x1 -600 E
+31 0 -10 10d10+2800 10d9+8
 5d28+10 350000
 8 8 1
-Saves: 0 0 0 0
+Saves: -10 -10 -10 -10
 Resistances: 90 90 90 90 50 40 30
 HPreg: 150
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
 Success: 20
 Initiative: 25
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 28
+Dex: 33
 Int: 22
 Wis: 23
-Dex: 33
 Con: 33
 Cha: 19
+Size: 100
 LikeWork: 95
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 100
+Special_Bitvector: w0b1c1C3 
 Feat: 2
 Feat: 3
 Feat: 4
@@ -421,13 +400,12 @@ Feat: 56
 Feat: 58
 Feat: 61
 Feat: 70
-Special_Bitvector: w0b1c1C3
 Skill: 12 140
+Skill: 22 150
 Skill: 132 150
 Skill: 137 160
 Skill: 142 150
 Skill: 151 140
-Skill: 22 150
 E
 T 74830
 #74806
@@ -442,7 +420,7 @@ T 74830
 ~
 Это неживое существо, владеющее навыками кудесника.
 ~
-b0f0g0l0m0g2 b0c0d0e0f0k0n0m0r0x0z0A0c1r1w1x1 -600 E
+b0d0f0g0l0m0g2 b0c0d0e0f0k0m0n0r0x0z0A0c1r1w1x1 -600 E
 30 2 -8 10d10+1800 9d9+5
 5d29+5 270000
 8 8 1
@@ -454,23 +432,21 @@ PlusMem: 100
 CastSuccess: 50
 Success: 10
 Initiative: 15
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 19
+Dex: 22
 Int: 30
 Wis: 34
-Dex: 22
 Con: 22
 Cha: 35
+Size: 100
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: l0w0b1c1 
 Feat: 3
 Feat: 14
 Feat: 17
@@ -485,25 +461,24 @@ Feat: 59
 Feat: 60
 Feat: 62
 Feat: 64
-Special_Bitvector: l0w0b1c1
+Skill: 141 120
+Spell: 38
+Spell: 38
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
 Spell: 111
 Spell: 132
 Spell: 153
 Spell: 153
 Spell: 153
-Spell: 38
-Spell: 38
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Skill: 141 120
 E
 T 74808
 T 74831
@@ -519,35 +494,33 @@ T 74831
 ~
 Это неживое существо, владеющее навыками волшебника.
 ~
-b0f0g0l0m0g2 b0c0d0e0f0k0n0m0r0x0z0A0c1q1w1z1 -600 E
+b0d0f0g0l0m0g2 b0c0d0e0f0k0m0n0r0x0z0A0c1q1w1z1 -600 E
 30 2 -9 10d10+1800 9d9+5
 5d5+5 260000
 8 8 1
 Saves: -30 0 0 -30
 Resistances: 60 60 60 60 20 20 20
-HPreg: 0
 Armour: 90
 PlusMem: 101
 CastSuccess: 70
 Success: 15
 Initiative: 15
 Absorbe: 30
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 19
+Dex: 22
 Int: 31
 Wis: 33
-Dex: 22
 Con: 23
 Cha: 30
+Size: 100
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: l0w0b1c1 
 Feat: 3
 Feat: 14
 Feat: 17
@@ -562,13 +535,12 @@ Feat: 59
 Feat: 60
 Feat: 62
 Feat: 64
-Special_Bitvector: l0w0b1c1
-Spell: 113
-Spell: 151
+Skill: 141 120
 Spell: 55
 Spell: 56
 Spell: 56
-Skill: 141 120
+Spell: 113
+Spell: 151
 E
 T 74809
 T 74832
@@ -584,11 +556,11 @@ T 74832
 ~
 Это неживое существо, владеющее навыками чернокнижника.
 ~
-b0f0g0l0m0g2 c0d0e0f0g0k0n0m0r0z0A0c1m1r1w1x1e2 -600 E
-30 0 -8 10d10+3000 9d9+5
+b0d0f0g0l0m0g2 c0d0e0f0g0k0m0n0r0z0A0c1m1r1w1x1e2 -600 E
+31 0 -8 10d10+3000 9d9+5
 5d28+5 400000
 8 8 1
-Saves: -30 0 0 -40
+Saves: -30 -10 -10 -40
 Resistances: 60 60 60 60 25 25 25
 HPreg: 60
 Armour: 90
@@ -597,22 +569,21 @@ CastSuccess: 60
 Success: 15
 Initiative: 15
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 19
+Dex: 22
 Int: 31
 Wis: 32
-Dex: 22
 Con: 25
 Cha: 19
+Size: 100
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: w0b1c1 
 Feat: 3
 Feat: 10
 Feat: 14
@@ -629,8 +600,7 @@ Feat: 59
 Feat: 60
 Feat: 62
 Feat: 64
-Special_Bitvector: w0b1c1
-Spell: 156
+Skill: 141 120
 Spell: 23
 Spell: 23
 Spell: 23
@@ -640,7 +610,7 @@ Spell: 76
 Spell: 76
 Spell: 93
 Spell: 98
-Skill: 141 120
+Spell: 156
 E
 T 74810
 T 74833
@@ -656,7 +626,7 @@ T 74833
 ~
 Это неживое существо, владеющее навыками витязя.
 ~
-b0f0g0l0m0x0g2 c0d0e0f0k0n0m0r0z0A0c1w1x1y1z1 -600 E
+b0d0f0g0l0m0x0g2 c0d0e0f0k0m0n0r0z0A0c1w1x1y1z1 -600 E
 30 0 -10 10d10+2800 12d9+6
 5d23+6 320000
 8 8 1
@@ -669,22 +639,22 @@ CastSuccess: 35
 Success: 95
 Initiative: 30
 Absorbe: 75
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 30
+Dex: 32
 Int: 25
 Wis: 26
-Dex: 32
 Con: 30
 Cha: 23
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 185
 Weight: 95
+Special_Bitvector: w0b1c1B3 
 Feat: 2
 Feat: 3
 Feat: 4
@@ -726,10 +696,7 @@ Feat: 72
 Feat: 74
 Feat: 76
 Feat: 77
-Special_Bitvector: w0b1c1B3
-Spell: 111
-Spell: 88
-Spell: 88
+Skill: 21 25
 Skill: 136 120
 Skill: 137 150
 Skill: 141 150
@@ -738,9 +705,10 @@ Skill: 143 150
 Skill: 146 150
 Skill: 148 120
 Skill: 158 150
-Skill: 21 25
+Spell: 88
+Spell: 88
+Spell: 111
 E
-T 74834
 #74810
 охотник нежить~
 охотник нежити~
@@ -753,35 +721,32 @@ T 74834
 ~
 Это неживое существо, владеющее навыками охотника.
 ~
-b0g0l0m0g2 c0d0e0f0k0n0m0r0z0A0c1j1w1z1 -600 E
+b0d0g0l0m0g2 c0d0e0f0k0m0n0r0z0A0c1j1w1z1 -600 E
 30 0 -10 10d10+2300 12d9+6
 5d28+50 300000
 8 8 1
-Saves: 0 0 0 0
 Resistances: 50 50 50 50 30 30 30
 HPreg: 70
 Armour: 90
-PlusMem: 0
-CastSuccess: 0
 Success: 25
 Initiative: 25
 Absorbe: 35
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 34
+Dex: 31
 Int: 21
 Wis: 23
-Dex: 31
 Con: 29
 Cha: 18
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 2
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: j0w0b1c1 
 Feat: 2
 Feat: 3
 Feat: 4
@@ -807,14 +772,13 @@ Feat: 65
 Feat: 66
 Feat: 68
 Feat: 77
-Special_Bitvector: j0w0b1c1
+Skill: 7 140
 Skill: 132 130
 Skill: 134 150
 Skill: 154 100
 Skill: 155 100
 Skill: 156 140
 Skill: 157 150
-Skill: 7 140
 E
 T 74835
 #74811
@@ -829,7 +793,7 @@ T 74835
 ~
 Это неживое существо, владеющее навыками кузнеца.
 ~
-b0f0g0l0m0g2 c0d0e0g0k0n0m0r0z0A0c1m1w1x1y1z1 -600 E
+b0d0f0g0l0m0g2 c0d0e0g0k0m0n0r0z0A0c1m1w1x1y1z1 -600 E
 30 0 -10 10d10+2600 12d9+8
 5d5+5 320000
 8 8 1
@@ -837,27 +801,25 @@ Saves: -30 0 0 0
 Resistances: 50 50 50 50 25 25 25
 HPreg: 90
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
 Success: 95
 Initiative: 35
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 35
+Dex: 30
 Int: 21
 Wis: 22
-Dex: 30
 Con: 30
 Cha: 17
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: w0b1c1 
 Feat: 3
 Feat: 4
 Feat: 5
@@ -886,12 +848,11 @@ Feat: 65
 Feat: 66
 Feat: 68
 Feat: 70
-Special_Bitvector: w0b1c1
+Skill: 5 150
 Skill: 132 150
 Skill: 141 120
 Skill: 142 150
 Skill: 165 150
-Skill: 5 150
 E
 T 74836
 #74812
@@ -906,7 +867,7 @@ T 74836
 ~
 Это неживое существо, владеющее навыками купца.
 ~
-b0f0g0l0m0g2 b0c0d0e0f0k0n0m0r0s0t0z0A0c1w1x1 -600 E
+b0d0f0g0l0m0g2 b0c0d0e0f0k0m0n0r0s0t0z0A0c1w1x1 -600 E
 30 0 -10 10d10+2000 12d5+5
 25d36+5 300000
 8 8 1
@@ -919,22 +880,22 @@ CastSuccess: 40
 Success: 25
 Initiative: 20
 Absorbe: 25
-AResist: 0
-MResist: 0
 BareHandAttack: 10
 Str: 27
+Dex: 30
 Int: 29
 Wis: 26
-Dex: 30
 Con: 25
 Cha: 26
+Size: 100
 LikeWork: 95
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: i0w0b1c1 
 Feat: 3
 Feat: 6
 Feat: 8
@@ -965,37 +926,35 @@ Feat: 66
 Feat: 68
 Feat: 72
 Feat: 75
-Special_Bitvector: i0w0b1c1
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
+Skill: 22 150
 Skill: 130 160
 Skill: 133 120
 Skill: 134 150
 Skill: 147 150
 Skill: 148 120
-Skill: 22 150
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
 E
 T 74811
 T 74837
-I шерсть,10:5
 #74813
 волхв нежить~
 волхв нежити~
@@ -1008,7 +967,7 @@ I шерсть,10:5
 ~
 Это неживое существо, владеющее навыками волхва.
 ~
-b0f0g0l0m0g2 b0c0d0e0f0k0n0m0r0x0z0A0w1x1y1z1e2 -600 E
+b0d0f0g0l0m0g2 b0c0d0e0f0k0m0n0r0x0z0A0w1x1y1z1e2 -600 E
 30 0 -9 10d10+1900 9d9+5
 6d31+6 260000
 8 8 1
@@ -1016,27 +975,25 @@ Saves: -30 0 0 -30
 Resistances: 50 50 50 50 20 20 20
 HPreg: 90
 Armour: 90
-PlusMem: 0
 CastSuccess: 50
 Success: 15
 Initiative: 25
 Absorbe: 20
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 26
+Dex: 24
 Int: 33
 Wis: 32
-Dex: 24
 Con: 24
 Cha: 27
+Size: 100
 LikeWork: 85
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 114
 Height: 175
 Weight: 85
+Special_Bitvector: w0b1c1 
 Feat: 3
 Feat: 14
 Feat: 16
@@ -1057,7 +1014,6 @@ Feat: 64
 Feat: 65
 Feat: 66
 Feat: 68
-Special_Bitvector: w0b1c1
 Skill: 141 120
 Skill: 148 120
 E
@@ -1075,11 +1031,10 @@ T 74838
 ~
 Точная копия своего владельца.
 ~
-b0f0g0l0m0z0g2 c0d0e0f0k0n0m0r0x0z0A0m1w1y1e2 -600 E
+b0d0f0g0l0m0z0g2 c0d0e0f0k0m0n0r0x0z0A0m1w1y1e2 -600 E
 25 0 -8 0d0+400 1d5+5
 2d2+14 90000
 8 8 1
-Saves: 0 0 0 0
 Resistances: 25 25 25 25 15 15 15
 HPreg: 50
 Armour: 58
@@ -1088,22 +1043,21 @@ CastSuccess: 40
 Success: 15
 Initiative: 15
 Absorbe: 15
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 18
+Dex: 23
 Int: 26
 Wis: 23
-Dex: 23
 Con: 21
 Cha: 21
+Size: 100
 LikeWork: 90
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: l0w0 
 Feat: 3
 Feat: 14
 Feat: 16
@@ -1121,12 +1075,11 @@ Feat: 63
 Feat: 65
 Feat: 66
 Feat: 68
-Special_Bitvector: l0w0
-Spell: 143
-Spell: 37
-Spell: 37
 Skill: 136 120
 Skill: 137 180
+Spell: 37
+Spell: 37
+Spell: 143
 E
 #74815
 странствующая1 воительница странствующая~
@@ -1141,35 +1094,33 @@ E
  *    Вот это да! Такая красавица в сверкающих на свету доспехах и таким
 головорубом в придачу. Убийственная красота!
 ~
-b0f0g0l0m0z0g2 c0d0e0f0k0n0m0r0z0A0w1y1 -600 E
-29 0 -10 40d15+2000 10d9+5
+b0d0f0g0l0m0z0g2 c0d0e0f0k0m0n0r0z0A0w1y1 -600 E
+31 0 -10 40d15+2000 10d9+5
 2d2+12 400000
 8 8 2
-Saves: -100 0 -100 0
+Saves: -100 -10 -100 -10
 Resistances: 30 30 30 30 15 15 15
 HPreg: 50
 Armour: 50
-PlusMem: 0
-CastSuccess: 0
 Success: 15
 Initiative: 15
 Absorbe: 40
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 31
+Dex: 32
 Int: 23
 Wis: 25
-Dex: 32
 Con: 36
 Cha: 17
+Size: 65
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 2
 Class: 101
-Size: 65
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: w0b1c1 
 Feat: 3
 Feat: 17
 Feat: 20
@@ -1183,7 +1134,6 @@ Feat: 57
 Feat: 58
 Feat: 65
 Feat: 66
-Special_Bitvector: w0b1c1
 Skill: 132 120
 Skill: 136 120
 Skill: 154 120
@@ -1200,35 +1150,30 @@ E
 ~
 Огненное существо, созданное волшебной силой.
 ~
-b0f0g0l0m0z0a2g2h2 c0d0e0f0k0n0m0r0x0z0A0w1y1 -600 E
-28 0 -10 1d1+500 2d6+2
+b0d0f0g0l0m0z0a2g2h2 c0d0e0f0k0m0n0r0x0z0A0w1y1 -600 E
+27 0 -10 1d1+500 2d6+2
 0d0+0 120000
 8 8 1
-Saves: 0 0 0 0
 Resistances: 30 30 30 30 15 15 15
 HPreg: 50
 Armour: 90
-PlusMem: 0
-CastSuccess: 0
 Success: 15
 Initiative: 15
 Absorbe: 5
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 24
+Dex: 26
 Int: 27
 Wis: 28
-Dex: 26
 Con: 25
 Cha: 12
+Size: 100
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: l0x0 
 Feat: 3
 Feat: 14
 Feat: 17
@@ -1243,7 +1188,6 @@ Feat: 59
 Feat: 60
 Feat: 62
 Feat: 64
-Special_Bitvector: l0x0
 E
 #74817
 дух костяной~
@@ -1257,35 +1201,31 @@ E
 ~
 Это костяной дух, оживленный черной магией.
 ~
-b0f0g0l0m0z0g2 c0d0e0k0n0m0C0m1w1c2 -600 E
-29 0 -10 0d0+600 15d9+5
+b0d0f0g0l0m0z0g2 c0d0e0k0m0n0C0m1w1c2 -600 E
+27 0 -10 0d0+600 15d9+5
 0d0+0 130000
 8 8 1
-Saves: 0 0 0 0
 Resistances: 30 30 30 30 30 30 30
 HPreg: 30
 Armour: 30
-PlusMem: 0
-CastSuccess: 0
-Success: 0
 Initiative: 10
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 33
+Dex: 24
 Int: 19
 Wis: 22
-Dex: 24
 Con: 22
 Cha: 17
+Size: 100
 LikeWork: 95
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 111
 Height: 175
 Weight: 85
+Special_Bitvector: w0 
 Feat: 3
 Feat: 17
 Feat: 21
@@ -1297,7 +1237,6 @@ Feat: 61
 Feat: 62
 Feat: 65
 Feat: 66
-Special_Bitvector: w0
 Skill: 132 120
 Skill: 136 120
 E
@@ -1313,7 +1252,7 @@ E
 ~
 Этот ведьмак предал силы света и встал на сторону тьмы.
 ~
-b0f0g0l0m0z0g2 c0d0e0f0n0m0A0m1w1x1y1z1 -600 E
+b0d0f0g0l0m0z0g2 c0d0e0f0m0n0A0m1w1x1y1z1 -600 E
 29 0 -10 1d1+1900 17d9+5
 0d0+0 250000
 8 8 1
@@ -1321,27 +1260,25 @@ Saves: -30 0 0 -30
 Resistances: 50 50 50 50 50 50 50
 HPreg: 50
 Armour: 50
-PlusMem: 0
-CastSuccess: 0
 Success: 15
 Initiative: 5
 Absorbe: 50
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 30
+Dex: 30
 Int: 21
 Wis: 23
-Dex: 30
 Con: 26
 Cha: 18
+Size: 100
 LikeWork: 95
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: w0 
 Feat: 3
 Feat: 6
 Feat: 17
@@ -1360,10 +1297,9 @@ Feat: 61
 Feat: 65
 Feat: 66
 Feat: 68
-Special_Bitvector: w0
+Skill: 5 120
 Skill: 136 120
 Skill: 137 100
-Skill: 5 120
 E
 #74819
 защитник~
@@ -1377,35 +1313,32 @@ E
 ~
 Это существо, созданное магией.
 ~
-b0f0g0l0m0z0g2 c0d0e0f0k0n0m0r0x0z0A0C0w1 -600 E
-29 0 -9 0d0+700 5d9+5
+b0d0f0g0l0m0z0g2 c0d0e0f0k0m0n0r0x0z0A0C0w1 -600 E
+28 0 -9 0d0+700 5d9+5
 0d0+0 160000
 8 8 1
-Saves: 0 0 0 0
 Resistances: 30 30 30 30 30 30 30
 HPreg: 30
 Armour: 60
-PlusMem: 0
-CastSuccess: 0
 Success: 15
 Initiative: 5
 Absorbe: 5
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 29
+Dex: 25
 Int: 15
 Wis: 22
-Dex: 25
 Con: 21
 Cha: 14
+Size: 100
 LikeWork: 90
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: l0w0 
 Feat: 3
 Feat: 17
 Feat: 21
@@ -1421,14 +1354,13 @@ Feat: 58
 Feat: 61
 Feat: 65
 Feat: 66
-Special_Bitvector: l0w0
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
 Skill: 136 120
 Skill: 150 100
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
 E
 #74820
 проклятый страж~
@@ -1442,35 +1374,33 @@ E
 ~
 Это могучий воин, заколдованный и проклятый нежитью.
 ~
-b0f0g0l0m0g2 c0d0e0f0k0n0m0r0z0A0C0D0a1c1k1m1r1w1x1y1z1 -600 E
-30 0 -10 10d10+3000 10d9+5
+b0d0f0g0l0m0g2 c0d0e0f0k0m0n0r0z0A0C0D0a1c1k1m1r1w1x1y1z1 -600 E
+31 0 -10 10d10+3000 10d9+5
 10d10+10 390000
 8 8 1
-Saves: 0 0 0 0
+Saves: -10 -10 -10 -10
 Resistances: 90 90 90 90 50 50 50
 HPreg: 90
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
 Success: 35
 Initiative: 35
 Absorbe: 95
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 30
+Dex: 36
 Int: 20
 Wis: 24
-Dex: 36
 Con: 32
 Cha: 19
+Size: 100
 LikeWork: 95
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
+Special_Bitvector: a0b0w0b1c1 
 Feat: 2
 Feat: 3
 Feat: 4
@@ -1498,13 +1428,12 @@ Feat: 65
 Feat: 66
 Feat: 68
 Feat: 70
-Special_Bitvector: a0b0w0b1c1
-Spell: 28
-Spell: 28
+Skill: 22 150
 Skill: 136 150
 Skill: 142 180
 Skill: 157 180
-Skill: 22 150
+Spell: 28
+Spell: 28
 E
 T 74842
 #74821
@@ -1519,11 +1448,11 @@ T 74842
 ~
 Это создание, порожденное силами тьмы. Теперь он их слуга.
 ~
-b0f0g0l0m0n0o0x0g2 c0d0e0f0k0n0m0r0z0A0C0c1m1q1w1x1y1z1e2 -600 E
-33 0 -10 10d10+6000 12d12+12
-5d5+300 900000
+b0d0f0g0l0m0n0o0x0g2 c0d0e0f0k0m0n0r0z0A0C0c1m1q1w1x1y1z1e2 -600 E
+40 0 -10 10d10+6000 12d12+12
+5d5+300 2500000
 8 8 1
-Saves: -30 0 0 -50
+Saves: -46 -46 -46 -50
 Resistances: 90 90 90 90 70 70 70
 HPreg: 150
 Armour: 100
@@ -1532,22 +1461,22 @@ CastSuccess: 80
 Success: 60
 Initiative: 40
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 36
+Dex: 40
 Int: 29
 Wis: 33
-Dex: 40
 Con: 34
 Cha: 29
+Size: 100
 LikeWork: 100
 MaxFactor: 20
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 200
 Weight: 150
+Special_Bitvector: a0w0b1c1C3 
 Feat: 1
 Feat: 2
 Feat: 3
@@ -1582,29 +1511,8 @@ Feat: 64
 Feat: 65
 Feat: 66
 Feat: 68
-Special_Bitvector: a0w0b1c1C3
-Spell: 113
-Spell: 124
-Spell: 135
-Spell: 151
-Spell: 152
-Spell: 153
-Spell: 23
-Spell: 23
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 56
-Spell: 56
-Spell: 6
-Spell: 6
-Spell: 6
-Spell: 68
-Spell: 76
-Spell: 76
-Spell: 82
-Spell: 82
-Spell: 94
+Skill: 5 120
+Skill: 22 150
 Skill: 136 120
 Skill: 141 120
 Skill: 142 120
@@ -1613,15 +1521,35 @@ Skill: 144 120
 Skill: 147 120
 Skill: 148 120
 Skill: 165 100
-Skill: 22 150
-Skill: 5 120
-Helper: 74854
-Helper: 74800
-Helper: 74801
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 76
+Spell: 76
+Spell: 82
+Spell: 82
+Spell: 94
+Spell: 94
+Spell: 113
+Spell: 124
+Spell: 135
+Spell: 151
+Spell: 152
+Spell: 153
 Helper: 74805
+Helper: 74801
+Helper: 74800
+Helper: 74854
 E
 T 74815
-I копыта,10:5
 #74822
 седой маг седой1~
 &WСедой маг&n~
@@ -1634,35 +1562,25 @@ I копыта,10:5
 ~
 Это очень старый человек с желчными и злыми глазами.
 ~
-b0e0g0n0o0p0q0r0t0u0x0y0B0o1f2g2i2j2 c0d0e0f0g0j0k0n0m0r0z0A0C0D0a1w1 -600 E
-30 0 -6 10d10+1234 12d9+12
+b0d0e0g0n0o0p0q0r0t0u0x0y0B0o1f2g2i2j2 c0d0e0f0g0j0k0m0n0r0z0A0C0D0a1w1 -600 E
+1 0 -6 10d10+1234 12d9+12
 0d0+0 1
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 23
+Dex: 23
 Int: 26
 Wis: 30
-Dex: 23
 Con: 18
 Cha: 23
+Size: 100
 LikeWork: 5
 MaxFactor: 1
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: a0w0i3 
 Feat: 1
 Feat: 2
 Feat: 3
@@ -1697,7 +1615,6 @@ Feat: 64
 Feat: 65
 Feat: 66
 Feat: 68
-Special_Bitvector: a0w0i3
 E
 T 74816
 T 74817
@@ -1714,35 +1631,23 @@ T 74851
 ~
 Это человек с седыми волосами и бородой. Мудрость его не знает границ.
 ~
-b0e0g0n0o0p0q0r0t0u0x0y0B0o1f2g2i2j2 c0d0e0f0h0k0D0a1 600 E
-2 0 0 10d10+123 1d1+5
+b0d0e0g0n0o0p0q0r0t0u0x0y0B0o1f2g2i2j2 c0d0e0f0h0k0D0a1 600 E
+1 0 0 10d10+123 1d1+5
 0d0+0 2
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
-Str: 11
+Dex: 14
 Int: 12
 Wis: 13
-Dex: 14
 Con: 14
 Cha: 14
-LikeWork: 0
+Size: 40
 MaxFactor: 2
 ExtraAttack: 1
 Class: 102
-Size: 40
+Race: 101
 Height: 125
 Weight: 55
+Special_Bitvector: i3 
 Feat: 1
 Feat: 2
 Feat: 3
@@ -1777,7 +1682,6 @@ Feat: 64
 Feat: 65
 Feat: 66
 Feat: 68
-Special_Bitvector: i3
 E
 T 74819
 T 74820
@@ -1796,42 +1700,36 @@ T 74824
 ~
 Это неживое существо, владеющее навыками наемника.
 ~
-f0g0h0l0m0g2 b0c0d0e0f0k0n0m0r0s0t0z0A0c1m1w1x1y1z1 -600 E
+d0f0g0h0l0m0g2 b0c0d0e0f0k0m0n0r0s0t0z0A0c1m1w1x1y1z1 -600 E
 30 0 -10 10d10+2200 9d9+10
 5d27+5 310000
 8 8 1
 Saves: -50 0 0 -50
 Resistances: 100 0 100 100 0 100 0
-HPreg: 0
 Armour: 90
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 35
+Dex: 35
 Int: 21
 Wis: 23
-Dex: 35
 Con: 25
 Cha: 17
+Size: 25
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 25
+Race: 110
 Height: 175
 Weight: 55
-Special_Bitvector: g0i0j0w0b1c1C3
+Special_Bitvector: g0i0j0w0b1c1C3 
+Skill: 22 150
 Skill: 131 150
 Skill: 133 150
 Skill: 147 150
 Skill: 160 160
 Skill: 167 140
-Skill: 22 150
 E
 T 74829
 #74825
@@ -1846,45 +1744,39 @@ T 74829
 ~
 Это неживое существо, владеющее навыками наемника.
 ~
-f0g0h0l0m0g2 b0c0d0e0f0k0n0m0r0s0t0z0A0c1m1w1x1y1z1 -600 E
+d0f0g0h0l0m0g2 b0c0d0e0f0k0m0n0r0s0t0z0A0c1m1w1x1y1z1 -600 E
 30 0 -10 10d10+2200 9d9+10
 5d27+5 310000
 8 8 1
 Saves: -50 0 0 -50
 Resistances: 100 100 100 100 0 100 0
-HPreg: 0
 Armour: 90
-PlusMem: 0
-CastSuccess: 0
 Success: 50
-Initiative: 0
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 35
+Dex: 35
 Int: 21
 Wis: 23
-Dex: 35
 Con: 25
 Cha: 17
+Size: 25
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 25
+Race: 110
 Height: 175
 Weight: 55
-Special_Bitvector: c0d0g0i0j0w0b1c1C3
+Special_Bitvector: c0d0g0i0j0w0b1c1C3 
+Skill: 22 150
 Skill: 131 150
 Skill: 133 150
 Skill: 147 150
 Skill: 160 160
 Skill: 167 140
-Skill: 22 150
 E
 T 74829
-I глаза,10:5
 #74826
 наемник нежить~
 наемник нежити~
@@ -1897,42 +1789,36 @@ I глаза,10:5
 ~
 Это неживое существо, владеющее навыками наемника.
 ~
-f0g0h0l0m0g2 b0c0d0e0f0k0n0m0r0s0t0z0A0c1m1w1x1y1z1 -600 E
+d0f0g0h0l0m0g2 b0c0d0e0f0k0m0n0r0s0t0z0A0c1m1w1x1y1z1 -600 E
 30 0 -10 10d10+2200 9d9+10
 5d27+5 310000
 8 8 1
 Saves: -50 0 0 -50
 Resistances: 100 300 0 0 0 100 0
-HPreg: 0
 Armour: 90
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 35
+Dex: 35
 Int: 21
 Wis: 23
-Dex: 35
 Con: 25
 Cha: 17
+Size: 25
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 25
+Race: 110
 Height: 175
 Weight: 55
-Special_Bitvector: g0i0j0w0b1c1C3
+Special_Bitvector: g0i0j0w0b1c1C3 
+Skill: 22 150
 Skill: 131 150
 Skill: 133 150
 Skill: 147 150
 Skill: 160 160
 Skill: 167 140
-Skill: 22 150
 E
 T 74829
 #74827
@@ -1947,36 +1833,31 @@ T 74829
 ~
 Это неживое существо, владеющее навыками вора.
 ~
-f0g0l0m0x0g2 b0c0d0e0f0k0n0m0r0s0t0z0A0m1w1x1z1 -600 E
+d0f0g0l0m0x0g2 b0c0d0e0f0k0m0n0r0s0t0z0A0m1w1x1z1 -600 E
 30 0 -10 10d10+2200 9d9+10
 5d5+5 300000
 8 8 1
 Saves: -50 0 0 -50
 Resistances: 100 0 0 100 0 100 0
-HPreg: 0
 Armour: 80
-PlusMem: 0
-CastSuccess: 0
 Success: 60
-Initiative: 0
 Absorbe: 80
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 25
+Dex: 35
 Int: 20
 Wis: 21
-Dex: 35
 Con: 22
 Cha: 15
+Size: 20
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 20
+Race: 110
 Height: 175
 Weight: 55
-Special_Bitvector: i0j0w0a1b1c1
+Special_Bitvector: i0j0w0a1b1c1 
 Skill: 131 150
 Skill: 133 150
 Skill: 147 160
@@ -1997,36 +1878,31 @@ T 74827
 ~
 Это неживое существо, владеющее навыками вора.
 ~
-f0g0l0m0x0g2 b0c0d0e0f0k0n0m0r0s0t0z0A0m1w1x1z1 -600 E
+d0f0g0l0m0x0g2 b0c0d0e0f0k0m0n0r0s0t0z0A0m1w1x1z1 -600 E
 30 0 -10 10d10+2200 9d9+10
 5d5+5 300000
 8 8 1
 Saves: -50 0 0 -50
 Resistances: 100 0 0 100 0 100 0
-HPreg: 0
 Armour: 80
-PlusMem: 0
-CastSuccess: 0
 Success: 60
-Initiative: 0
 Absorbe: 80
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 25
+Dex: 35
 Int: 20
 Wis: 21
-Dex: 35
 Con: 22
 Cha: 15
+Size: 20
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 20
+Race: 110
 Height: 175
 Weight: 55
-Special_Bitvector: i0j0w0a1b1c1
+Special_Bitvector: i0j0w0a1b1c1 
 Skill: 131 150
 Skill: 133 150
 Skill: 147 160
@@ -2047,36 +1923,31 @@ T 74827
 ~
 Это неживое существо, владеющее навыками вора.
 ~
-f0g0l0m0x0g2 b0c0d0e0f0k0n0m0r0s0t0z0A0m1w1x1z1 -600 E
+d0f0g0l0m0x0g2 b0c0d0e0f0k0m0n0r0s0t0z0A0m1w1x1z1 -600 E
 30 0 -10 10d10+2200 9d9+10
 5d5+5 300000
 8 8 1
 Saves: -50 0 0 -50
 Resistances: 100 0 0 0 0 100 0
-HPreg: 0
 Armour: 80
-PlusMem: 0
-CastSuccess: 0
 Success: 60
-Initiative: 0
 Absorbe: 80
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 25
+Dex: 35
 Int: 20
 Wis: 21
-Dex: 35
 Con: 22
 Cha: 15
+Size: 20
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 20
+Race: 110
 Height: 175
 Weight: 55
-Special_Bitvector: i0j0w0a1b1c1
+Special_Bitvector: i0j0w0a1b1c1 
 Skill: 131 150
 Skill: 133 150
 Skill: 147 160
@@ -2097,7 +1968,7 @@ T 74827
 ~
 Это неживое существо, владеющее навыками лекаря.
 ~
-b0f0g0l0m0x0g2 c0d0e0f0k0r0z0A0c1m1r1w1z1 -600 E
+b0d0f0g0l0m0x0g2 c0d0e0f0k0r0z0A0c1m1r1w1z1 -600 E
 30 0 -10 10d10+2000 5d5+10
 5d5+12 290000
 8 8 1
@@ -2107,27 +1978,24 @@ HPreg: 90
 Armour: 75
 PlusMem: 60
 CastSuccess: 75
-Success: 0
-Initiative: 0
 Absorbe: 75
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 20
+Dex: 25
 Int: 30
 Wis: 32
-Dex: 25
 Con: 22
 Cha: 20
+Size: 50
 LikeWork: 90
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 50
+Race: 101
 Height: 155
 Weight: 55
-Special_Bitvector: w0b1c1
-Spell: 113
+Special_Bitvector: w0b1c1 
+Skill: 141 120
 Spell: 27
 Spell: 27
 Spell: 27
@@ -2146,7 +2014,7 @@ Spell: 81
 Spell: 82
 Spell: 82
 Spell: 93
-Skill: 141 120
+Spell: 113
 E
 T 74825
 T 74852
@@ -2163,7 +2031,7 @@ T 74843
 ~
 Это неживое существо, владеющее навыками колдуна.
 ~
-b0f0g0l0m0x0g2 b0c0d0e0f0k0n0m0r0x0z0A0c1m1w1y1 -600 E
+b0d0f0g0l0m0x0g2 b0c0d0e0f0k0m0n0r0x0z0A0c1m1w1y1 -600 E
 30 0 -10 10d10+2000 5d5+10
 5d5+5 290000
 8 8 1
@@ -2171,50 +2039,45 @@ Saves: -50 0 0 -50
 Resistances: 100 0 0 100 0 100 0
 HPreg: 90
 Armour: 75
-PlusMem: 0
 CastSuccess: 75
-Success: 0
-Initiative: 0
 Absorbe: 75
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 20
+Dex: 24
 Int: 30
 Wis: 31
-Dex: 24
 Con: 22
 Cha: 20
+Size: 80
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 80
+Race: 110
 Height: 165
 Weight: 85
-Special_Bitvector: l0w0b1c1
+Special_Bitvector: l0w0b1c1 
+Skill: 20 150
+Skill: 141 120
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 68
+Spell: 68
 Spell: 128
 Spell: 152
 Spell: 152
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 68
-Spell: 68
-Skill: 141 120
-Skill: 20 150
 E
 T 74807
 T 74826
@@ -2230,40 +2093,34 @@ T 74826
 ~
 Это неживое существо, владеющее навыками богатыря.
 ~
-b0f0g0l0m0g2 c0d0e0f0k0n0m0r0z0A0c1m1t1w1x1z1 -600 E
-30 0 -10 10d10+3000 12d12+12
+b0d0f0g0l0m0g2 c0d0e0f0k0m0n0r0z0A0c1m1t1w1x1z1 -600 E
+32 0 -10 10d10+3000 12d12+12
 5d5+5 450000
 8 8 1
-Saves: -50 0 0 -50
+Saves: -50 -14 -14 -50
 Resistances: 100 0 0 0 0 100 0
-HPreg: 0
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
 Success: 50
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 34
+Dex: 24
 Int: 23
 Wis: 23
-Dex: 24
 Con: 35
 Cha: 20
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 195
 Weight: 95
-Special_Bitvector: w0b1c1
+Special_Bitvector: w0b1c1 
 Skill: 1 150
+Skill: 4 150
 Skill: 136 150
 Skill: 165 150
-Skill: 4 150
 E
 T 74828
 #74833
@@ -2278,42 +2135,39 @@ T 74828
 ~
 Это неживое существо, владеющее навыками дружинника.
 ~
-b0f0g0l0m0g2 c0d0e0k0n0m0r0z0A0c1m1w1x1 -600 E
-30 0 -10 10d10+2800 10d9+8
+b0d0f0g0l0m0g2 c0d0e0k0m0n0r0z0A0c1m1w1x1 -600 E
+31 0 -10 10d10+2800 10d9+8
 5d28+10 380000
 8 8 1
-Saves: -90 0 0 -90
+Saves: -90 -10 -10 -90
 Resistances: 100 0 100 100 100 100 100
 HPreg: 100
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
 Success: 75
 Initiative: 75
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 28
+Dex: 33
 Int: 22
 Wis: 23
-Dex: 33
 Con: 33
 Cha: 19
+Size: 100
 LikeWork: 95
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 101
 Height: 175
 Weight: 100
-Special_Bitvector: w0b1c1C3
+Special_Bitvector: w0b1c1C3 
 Skill: 12 140
+Skill: 22 150
 Skill: 132 150
 Skill: 137 160
 Skill: 142 150
 Skill: 151 140
-Skill: 22 150
 E
 T 74830
 #74834
@@ -2328,7 +2182,7 @@ T 74830
 ~
 Это неживое существо, владеющее навыками кудесника.
 ~
-b0f0g0l0m0g2 b0c0d0e0f0k0n0m0r0x0z0A0c1r1w1x1 -600 E
+b0d0f0g0l0m0g2 b0c0d0e0f0k0m0n0r0x0z0A0c1r1w1x1 -600 E
 30 2 -8 10d10+1800 9d9+5
 5d29+5 290000
 8 8 1
@@ -2336,46 +2190,41 @@ Saves: -50 0 0 -50
 Resistances: 100 0 0 0 0 100 0
 HPreg: 90
 Armour: 75
-PlusMem: 0
 CastSuccess: 75
-Success: 0
-Initiative: 0
 Absorbe: 75
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 19
+Dex: 22
 Int: 30
 Wis: 34
-Dex: 22
 Con: 22
 Cha: 35
+Size: 100
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: l0w0b1c1
+Special_Bitvector: l0w0b1c1 
+Skill: 141 120
+Spell: 38
+Spell: 38
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
 Spell: 111
 Spell: 132
 Spell: 153
 Spell: 153
 Spell: 153
-Spell: 38
-Spell: 38
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Skill: 141 120
 E
 T 74808
 T 74831
@@ -2391,7 +2240,7 @@ T 74831
 ~
 Это неживое существо, владеющее навыками волшебника.
 ~
-b0f0g0l0m0g2 b0c0d0e0f0k0n0m0r0x0z0A0c1q1w1z1 -600 E
+b0d0f0g0l0m0g2 b0c0d0e0f0k0m0n0r0x0z0A0c1q1w1z1 -600 E
 30 2 -9 10d10+1800 9d9+5
 5d5+5 280000
 8 8 1
@@ -2399,34 +2248,29 @@ Saves: -50 0 0 -50
 Resistances: 100 0 0 0 0 100 0
 HPreg: 75
 Armour: 75
-PlusMem: 0
 CastSuccess: 75
-Success: 0
-Initiative: 0
 Absorbe: 75
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 19
+Dex: 22
 Int: 31
 Wis: 33
-Dex: 22
 Con: 23
 Cha: 30
+Size: 100
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: l0w0b1c1
-Spell: 113
-Spell: 151
+Special_Bitvector: l0w0b1c1 
+Skill: 141 120
 Spell: 55
 Spell: 56
 Spell: 56
-Skill: 141 120
+Spell: 113
+Spell: 151
 E
 T 74809
 T 74832
@@ -2442,37 +2286,32 @@ T 74832
 ~
 Это неживое существо, владеющее навыками чернокнижника.
 ~
-b0f0g0l0m0g2 c0d0e0f0g0k0n0m0r0z0A0c1m1r1w1x1e2 -600 E
-30 0 -8 10d10+3000 9d9+5
+b0d0f0g0l0m0g2 c0d0e0f0g0k0m0n0r0z0A0c1m1r1w1x1e2 -600 E
+32 0 -8 10d10+3000 9d9+5
 5d28+5 440000
 8 8 1
-Saves: -50 0 0 -50
+Saves: -50 -14 -14 -50
 Resistances: 100 0 0 100 0 100 0
 HPreg: 100
 Armour: 75
-PlusMem: 0
 CastSuccess: 75
-Success: 0
-Initiative: 0
 Absorbe: 75
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 19
+Dex: 22
 Int: 31
 Wis: 32
-Dex: 22
 Con: 25
 Cha: 19
+Size: 100
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: w0b1c1
-Spell: 156
+Special_Bitvector: w0b1c1 
+Skill: 141 120
 Spell: 23
 Spell: 23
 Spell: 23
@@ -2482,7 +2321,7 @@ Spell: 76
 Spell: 76
 Spell: 93
 Spell: 98
-Skill: 141 120
+Spell: 156
 E
 T 74810
 T 74833
@@ -2498,39 +2337,35 @@ T 74833
 ~
 Это неживое существо, владеющее навыками витязя.
 ~
-b0f0g0l0m0x0g2 c0d0e0f0k0n0m0r0z0A0c1w1x1y1z1 -600 E
-30 0 -10 10d10+2800 12d9+6
+b0d0f0g0l0m0x0g2 c0d0e0f0k0m0n0r0z0A0c1w1x1y1z1 -600 E
+31 0 -10 10d10+2800 12d9+6
 5d23+6 350000
 8 8 1
-Saves: -75 0 0 -75
+Saves: -75 -10 -10 -75
 Resistances: 100 0 0 0 0 100 0
 HPreg: 90
 Armour: 100
-PlusMem: 0
 CastSuccess: 100
 Success: 75
 Initiative: 90
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 30
+Dex: 32
 Int: 25
 Wis: 26
-Dex: 32
 Con: 30
 Cha: 23
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 185
 Weight: 95
-Special_Bitvector: w0b1c1B3
-Spell: 111
-Spell: 88
-Spell: 88
+Special_Bitvector: w0b1c1B3 
+Skill: 21 25
 Skill: 136 120
 Skill: 137 150
 Skill: 141 150
@@ -2539,9 +2374,10 @@ Skill: 143 150
 Skill: 146 150
 Skill: 148 120
 Skill: 158 150
-Skill: 21 25
+Spell: 88
+Spell: 88
+Spell: 111
 E
-T 74834
 #74838
 охотник нежить~
 охотник нежити~
@@ -2554,43 +2390,39 @@ T 74834
 ~
 Это неживое существо, владеющее навыками охотника.
 ~
-b0g0l0m0g2 c0d0e0f0k0n0m0r0z0A0c1j1w1z1 -600 E
-30 0 -10 10d10+2300 12d9+6
+b0d0g0l0m0g2 c0d0e0f0k0m0n0r0z0A0c1j1w1z1 -600 E
+31 0 -10 10d10+2300 12d9+6
 5d28+50 340000
 8 8 1
-Saves: -50 0 0 -50
+Saves: -50 -10 -10 -50
 Resistances: 100 0 0 100 0 100 0
-HPreg: 0
 Armour: 80
-PlusMem: 0
-CastSuccess: 0
 Success: 60
 Initiative: 80
 Absorbe: 80
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 34
+Dex: 31
 Int: 21
 Wis: 23
-Dex: 31
 Con: 29
 Cha: 18
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 2
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: j0w0b1c1
+Special_Bitvector: j0w0b1c1 
+Skill: 7 140
 Skill: 132 130
 Skill: 134 150
 Skill: 154 100
 Skill: 155 100
 Skill: 156 140
 Skill: 157 150
-Skill: 7 140
 E
 T 74835
 #74839
@@ -2605,41 +2437,36 @@ T 74835
 ~
 Это неживое существо, владеющее навыками кузнеца.
 ~
-b0f0g0l0m0g2 c0d0e0g0k0n0m0r0z0A0c1m1w1x1y1z1 -600 E
-30 0 -10 10d10+2600 12d9+8
+b0d0f0g0l0m0g2 c0d0e0g0k0m0n0r0z0A0c1m1w1x1y1z1 -600 E
+31 0 -10 10d10+2600 12d9+8
 5d5+5 350000
 8 8 1
-Saves: -50 0 0 -50
+Saves: -50 -10 -10 -50
 Resistances: 100 0 0 0 0 100 0
-HPreg: 0
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
 Success: 60
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 35
+Dex: 30
 Int: 21
 Wis: 22
-Dex: 30
 Con: 30
 Cha: 17
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: w0b1c1
+Special_Bitvector: w0b1c1 
+Skill: 5 150
 Skill: 132 150
 Skill: 141 120
 Skill: 142 150
 Skill: 165 150
-Skill: 5 150
 E
 T 74836
 #74840
@@ -2654,62 +2481,59 @@ T 74836
 ~
 Это неживое существо, владеющее навыками купца.
 ~
-b0f0g0l0m0g2 b0c0d0e0f0k0n0m0r0s0t0z0A0c1w1x1 -600 E
-30 0 -10 10d10+2000 12d5+5
+b0d0f0g0l0m0g2 b0c0d0e0f0k0m0n0r0s0t0z0A0c1w1x1 -600 E
+31 0 -10 10d10+2000 12d5+5
 25d36+5 340000
 8 8 1
-Saves: -50 0 0 -50
+Saves: -50 -10 -10 -50
 Resistances: 100 0 0 100 0 100 0
-HPreg: 0
 Armour: 75
 PlusMem: 70
 CastSuccess: 75
 Success: 75
-Initiative: 0
 Absorbe: 75
-AResist: 0
-MResist: 0
 BareHandAttack: 10
 Str: 27
+Dex: 30
 Int: 29
 Wis: 26
-Dex: 30
 Con: 25
 Cha: 26
+Size: 100
 LikeWork: 95
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: i0w0b1c1
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
+Special_Bitvector: i0w0b1c1 
+Skill: 22 150
 Skill: 130 160
 Skill: 133 120
 Skill: 134 150
 Skill: 147 150
 Skill: 148 120
-Skill: 22 150
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
 E
 T 74811
 T 74837
@@ -2725,36 +2549,31 @@ T 74837
 ~
 Это неживое существо, владеющее навыками волхва.
 ~
-b0f0g0l0m0g2 b0c0d0e0f0k0n0m0r0x0z0A0w1x1y1z1e2 -600 E
+b0d0f0g0l0m0g2 b0c0d0e0f0k0m0n0r0x0z0A0w1x1y1z1e2 -600 E
 30 0 -9 10d10+1900 9d9+5
 6d31+6 300000
 8 8 1
 Saves: -50 0 0 -50
 Resistances: 100 0 0 100 0 100 0
-HPreg: 0
 Armour: 75
-PlusMem: 0
 CastSuccess: 70
 Success: 70
-Initiative: 0
 Absorbe: 75
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 26
+Dex: 24
 Int: 33
 Wis: 32
-Dex: 24
 Con: 24
 Cha: 27
+Size: 100
 LikeWork: 85
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 114
 Height: 175
 Weight: 85
-Special_Bitvector: w0b1c1
+Special_Bitvector: w0b1c1 
 Skill: 141 120
 Skill: 148 120
 E
@@ -2772,38 +2591,36 @@ T 74838
 ~
 Не на что тут смотреть! Нюхайте!
 ~
-b0f0g0m0p0q0r0t0u0x0z0b2g2h2 b0c0d0e0f0k0n0m0r0x0z0A0c1q1w1z1 -600 E
-30 2 -9 10d10+400 9d5+5
+b0d0f0g0m0p0q0r0t0u0x0z0b2g2h2 b0c0d0e0f0k0m0n0r0x0z0A0c1q1w1z1 -600 E
+25 2 -9 10d10+400 9d5+5
 0d0+0 100000
 8 8 1
 Saves: 0 0 -100 0
 Resistances: 100 100 100 100 0 0 0
 HPreg: 100
 Armour: 100
-PlusMem: 0
 CastSuccess: 100
 Success: 100
 Initiative: 100
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 19
+Dex: 22
 Int: 31
 Wis: 33
-Dex: 22
 Con: 23
 Cha: 30
+Size: 100
 LikeWork: 90
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: a0d0h0j0l0v0b1c1
-Spell: 56
+Special_Bitvector: a0d0h0j0l0v0b1c1 
 Skill: 157 180
+Spell: 56
 E
 #74843
  запах разложенья~
@@ -2817,38 +2634,31 @@ E
 ~
 Не на что тут смотреть! Нюхайте!
 ~
-b0f0g0m0p0q0r0t0u0x0z0b2g2h2 b0c0d0e0f0k0n0m0r0x0z0A0c1q1w1z1 -600 E
-30 2 -9 10d10+400 9d5+5
+b0d0f0g0m0p0q0r0t0u0x0z0b2g2h2 b0c0d0e0f0k0m0n0r0x0z0A0c1q1w1z1 -600 E
+25 2 -9 10d10+400 9d5+5
 0d0+0 100000
 8 8 1
 Saves: 0 0 -100 0
 Resistances: 100 100 100 100 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
 CastSuccess: 100
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 19
+Dex: 22
 Int: 31
 Wis: 33
-Dex: 22
 Con: 23
 Cha: 30
+Size: 100
 LikeWork: 90
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: c0d0h0j0l0v0b1c1
-Spell: 56
+Special_Bitvector: c0d0h0j0l0v0b1c1 
 Skill: 157 180
+Spell: 56
 E
 #74844
  живой мертвый богатырь~
@@ -2862,40 +2672,34 @@ E
 ~
 Это неживое существо, владеющее навыками богатыря.
 ~
-b0f0g0l0m0g2 c0d0e0f0k0n0m0r0z0A0c1m1t1w1x1z1 -600 E
-30 0 -10 10d10+3000 12d12+12
+b0d0f0g0l0m0g2 c0d0e0f0k0m0n0r0z0A0c1m1t1w1x1z1 -600 E
+32 0 -10 10d10+3000 12d12+12
 5d5+5 420000
 8 8 1
-Saves: -50 0 0 -50
+Saves: -50 -14 -14 -50
 Resistances: 0 0 0 0 0 100 0
-HPreg: 0
 Armour: 90
-PlusMem: 0
-CastSuccess: 0
 Success: 50
 Initiative: 90
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 34
+Dex: 24
 Int: 23
 Wis: 23
-Dex: 24
 Con: 35
 Cha: 20
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 195
 Weight: 95
-Special_Bitvector: w0b1c1
+Special_Bitvector: w0b1c1 
+Skill: 4 150
 Skill: 136 150
 Skill: 137 140
 Skill: 165 150
-Skill: 4 150
 E
 T 74828
 #74845
@@ -2910,42 +2714,38 @@ T 74828
 ~
 Это неживое существо, владеющее навыками дружинника.
 ~
-b0f0g0l0m0g2 c0d0e0k0n0m0r0z0A0c1m1w1x1 -600 E
-30 0 -10 10d10+2800 10d9+8
+b0d0f0g0l0m0g2 c0d0e0k0m0n0r0z0A0c1m1w1x1 -600 E
+31 0 -10 10d10+2800 10d9+8
 5d28+10 350000
 8 8 1
-Saves: -100 0 -100 -100
+Saves: -100 -10 -100 -100
 Resistances: 0 0 0 0 0 100 0
 HPreg: 100
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
-Success: 0
 Initiative: 100
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 28
+Dex: 33
 Int: 22
 Wis: 23
-Dex: 33
 Con: 33
 Cha: 19
+Size: 100
 LikeWork: 95
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 100
-Special_Bitvector: w0b1c1C3
+Special_Bitvector: w0b1c1C3 
 Skill: 12 140
+Skill: 22 150
 Skill: 132 150
 Skill: 137 160
 Skill: 142 150
 Skill: 151 140
-Skill: 22 150
 E
 T 74830
 #74846
@@ -2960,39 +2760,33 @@ T 74830
 ~
 Это неживое существо, владеющее навыками витязя.
 ~
-b0f0g0l0m0x0g2 c0d0e0f0k0n0m0r0z0A0c1w1x1y1z1 -600 E
+b0d0f0g0l0m0x0g2 c0d0e0f0k0m0n0r0z0A0c1w1x1y1z1 -600 E
 30 0 -10 10d10+2800 12d9+6
 5d23+6 320000
 8 8 1
 Saves: -50 0 0 -50
 Resistances: 100 0 0 0 0 100 0
-HPreg: 0
 Armour: 90
-PlusMem: 0
 CastSuccess: 100
 Success: 60
-Initiative: 0
 Absorbe: 95
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 30
+Dex: 32
 Int: 25
 Wis: 26
-Dex: 32
 Con: 30
 Cha: 23
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 185
 Weight: 95
-Special_Bitvector: w0b1c1B3
-Spell: 111
-Spell: 88
-Spell: 88
+Special_Bitvector: w0b1c1B3 
+Skill: 21 25
 Skill: 136 120
 Skill: 137 150
 Skill: 141 150
@@ -3001,7 +2795,9 @@ Skill: 143 150
 Skill: 146 150
 Skill: 148 120
 Skill: 158 150
-Skill: 21 25
+Spell: 88
+Spell: 88
+Spell: 111
 E
 T 74848
 #74847
@@ -3016,43 +2812,39 @@ T 74848
 ~
 Это неживое существо, владеющее навыками охотника.
 ~
-b0g0l0m0g2 c0d0e0f0k0n0m0r0z0A0c1j1w1z1 -600 E
+b0d0g0l0m0g2 c0d0e0f0k0m0n0r0z0A0c1j1w1z1 -600 E
 30 0 -10 10d10+2300 12d9+6
 5d28+50 300000
 8 8 1
 Saves: -50 0 0 -50
 Resistances: 0 0 0 100 0 100 0
-HPreg: 0
 Armour: 75
-PlusMem: 0
-CastSuccess: 0
 Success: 50
 Initiative: 50
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 34
+Dex: 31
 Int: 21
 Wis: 23
-Dex: 31
 Con: 29
 Cha: 18
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 2
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: j0w0b1c1
+Special_Bitvector: j0w0b1c1 
+Skill: 7 140
 Skill: 132 130
 Skill: 134 150
 Skill: 154 100
 Skill: 155 100
 Skill: 156 140
 Skill: 157 150
-Skill: 7 140
 E
 T 74840
 #74848
@@ -3067,41 +2859,37 @@ T 74840
 ~
 Это неживое существо, владеющее навыками кузнеца.
 ~
-b0f0g0l0m0g2 c0d0e0g0k0n0m0r0z0A0c1m1w1x1y1z1 -600 E
+b0d0f0g0l0m0g2 c0d0e0g0k0m0n0r0z0A0c1m1w1x1y1z1 -600 E
 30 0 -10 10d10+2600 12d9+8
 5d5+5 320000
 8 8 1
 Saves: -50 0 -50 -50
 Resistances: 100 0 0 100 0 100 0
-HPreg: 0
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
 Success: 50
 Initiative: 50
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 35
+Dex: 30
 Int: 21
 Wis: 22
-Dex: 30
 Con: 30
 Cha: 17
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: w0b1c1
+Special_Bitvector: w0b1c1 
+Skill: 5 150
 Skill: 132 150
 Skill: 141 120
 Skill: 142 150
 Skill: 165 150
-Skill: 5 150
 E
 T 74836
 #74849
@@ -3116,37 +2904,29 @@ T 74836
 ~
 Это неживое существо, владеющее навыками лекаря.
 ~
-b0f0g0l0m0x0g2 c0d0e0f0k0r0z0A0c1m1r1w1z1 -600 E
+b0d0f0g0l0m0x0g2 c0d0e0f0k0r0z0A0c1m1r1w1z1 -600 E
 30 0 -10 10d10+2000 5d5+10
 5d5+12 270000
 8 8 1
 Saves: -50 0 0 -50
 Resistances: 0 0 0 100 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 20
+Dex: 25
 Int: 30
 Wis: 32
-Dex: 25
 Con: 22
 Cha: 20
+Size: 50
 LikeWork: 90
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 50
+Race: 101
 Height: 155
 Weight: 55
-Special_Bitvector: w0b1c1
-Spell: 113
+Special_Bitvector: w0b1c1 
+Skill: 141 120
 Spell: 27
 Spell: 27
 Spell: 27
@@ -3165,7 +2945,7 @@ Spell: 81
 Spell: 82
 Spell: 82
 Spell: 93
-Skill: 141 120
+Spell: 113
 E
 T 74846
 #74850
@@ -3180,58 +2960,50 @@ T 74846
 ~
 Это неживое существо, владеющее навыками колдуна.
 ~
-b0f0g0l0m0x0g2 b0c0d0e0f0k0n0m0r0x0z0A0c1m1w1y1 -600 E
+b0d0f0g0l0m0x0g2 b0c0d0e0f0k0m0n0r0x0z0A0c1m1w1y1 -600 E
 30 0 -10 10d10+2000 5d5+10
 5d5+5 270000
 8 8 1
 Saves: -50 0 0 -50
 Resistances: 0 0 0 0 0 100 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
 CastSuccess: 60
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 20
+Dex: 24
 Int: 30
 Wis: 31
-Dex: 24
 Con: 22
 Cha: 20
+Size: 80
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 80
+Race: 110
 Height: 165
 Weight: 85
-Special_Bitvector: l0w0b1c1
+Special_Bitvector: l0w0b1c1 
+Skill: 20 150
+Skill: 141 120
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 68
+Spell: 68
 Spell: 128
 Spell: 152
 Spell: 152
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 68
-Spell: 68
-Skill: 141 120
-Skill: 20 150
 E
 T 74807
 T 74826
@@ -3247,54 +3019,46 @@ T 74826
 ~
 Это неживое существо, владеющее навыками кудесника.
 ~
-b0f0g0l0m0g2 b0c0d0e0f0k0n0m0r0x0z0A0c1r1w1x1 -600 E
+b0d0f0g0l0m0g2 b0c0d0e0f0k0m0n0r0x0z0A0c1r1w1x1 -600 E
 30 2 -8 10d10+1800 9d9+5
 5d29+5 270000
 8 8 1
 Saves: -50 0 0 -50
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
 CastSuccess: 75
-Success: 0
-Initiative: 0
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 19
+Dex: 22
 Int: 30
 Wis: 34
-Dex: 22
 Con: 22
 Cha: 35
+Size: 100
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: l0w0b1c1
+Special_Bitvector: l0w0b1c1 
+Skill: 141 120
+Spell: 38
+Spell: 38
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
 Spell: 111
 Spell: 132
 Spell: 153
 Spell: 153
 Spell: 153
-Spell: 38
-Spell: 38
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Skill: 141 120
 E
 T 74808
 T 74831
@@ -3310,42 +3074,36 @@ T 74831
 ~
 Это неживое существо, владеющее навыками волшебника.
 ~
-b0f0g0l0m0g2 b0c0d0e0f0k0n0m0r0x0z0A0c1q1w1z1 -600 E
+b0d0f0g0l0m0g2 b0c0d0e0f0k0m0n0r0x0z0A0c1q1w1z1 -600 E
 30 2 -9 10d10+1800 9d9+5
 5d5+5 260000
 8 8 1
 Saves: -50 0 -50 -50
 Resistances: 0 0 0 0 0 100 0
-HPreg: 0
 Armour: 90
-PlusMem: 0
 CastSuccess: 70
-Success: 0
-Initiative: 0
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 19
+Dex: 22
 Int: 31
 Wis: 33
-Dex: 22
 Con: 23
 Cha: 30
+Size: 100
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: l0w0b1c1
-Spell: 113
-Spell: 151
+Special_Bitvector: l0w0b1c1 
+Skill: 141 120
 Spell: 55
 Spell: 56
 Spell: 56
-Skill: 141 120
+Spell: 113
+Spell: 151
 E
 T 74809
 T 74832
@@ -3361,37 +3119,31 @@ T 74832
 ~
 Это неживое существо, владеющее навыками чернокнижника.
 ~
-b0f0g0l0m0g2 c0d0e0f0g0k0n0m0r0z0A0c1m1r1w1x1e2 -600 E
-30 0 -8 10d10+3000 9d9+5
+b0d0f0g0l0m0g2 c0d0e0f0g0k0m0n0r0z0A0c1m1r1w1x1e2 -600 E
+31 0 -8 10d10+3000 9d9+5
 5d28+5 400000
 8 8 1
-Saves: -50 0 0 -50
+Saves: -50 -10 -10 -50
 Resistances: 0 0 0 0 0 100 0
-HPreg: 0
 Armour: 100
-PlusMem: 0
 CastSuccess: 75
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 19
+Dex: 22
 Int: 31
 Wis: 32
-Dex: 22
 Con: 25
 Cha: 19
+Size: 100
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: w0b1c1
-Spell: 156
+Special_Bitvector: w0b1c1 
+Skill: 141 120
 Spell: 23
 Spell: 23
 Spell: 23
@@ -3401,7 +3153,7 @@ Spell: 76
 Spell: 76
 Spell: 93
 Spell: 98
-Skill: 141 120
+Spell: 156
 E
 T 74810
 T 74847
@@ -3417,38 +3169,32 @@ T 74847
 ~
 Не на что тут смотреть! Нюхайте!
 ~
-f0g0m0p0q0r0t0u0x0z0d2g2h2 b0c0d0e0f0k0n0m0p0r0s0t0x0z0A0c1q1w1z1 -600 E
-30 2 -9 10d10+400 9d5+5
+d0f0g0m0p0q0r0t0u0x0z0d2g2h2 b0c0d0e0f0k0m0n0p0r0s0t0x0z0A0c1q1w1z1 -600 E
+25 2 -9 10d10+400 9d5+5
 0d0+0 100000
-8 8 1
+8 8 0
 Saves: -50 0 0 -50
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 100
-PlusMem: 0
 CastSuccess: 100
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 19
+Dex: 22
 Int: 31
 Wis: 33
-Dex: 22
 Con: 23
 Cha: 30
+Size: 100
 LikeWork: 90
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: c0d0h0i0j0w0b1c1
-Spell: 56
+Special_Bitvector: c0d0h0i0j0w0b1c1 
 Skill: 157 180
+Spell: 56
 E
 #74855
 вор тать нежить ворнежити1~
@@ -3462,36 +3208,27 @@ E
 ~
 Это неживое существо, владеющее навыками вора.
 ~
-b0f0g0l0m0x0g2 b0c0d0e0f0k0n0m0r0s0t0z0A0m1w1x1z1 -600 E
+b0d0f0g0l0m0x0g2 b0c0d0e0f0k0m0n0r0s0t0z0A0m1w1x1z1 -600 E
 30 0 -10 10d10+2200 9d9+10
 5d5+5 300000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
 Success: 30
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 25
+Dex: 35
 Int: 20
 Wis: 21
-Dex: 35
 Con: 22
 Cha: 15
+Size: 20
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 20
+Race: 110
 Height: 175
 Weight: 55
-Special_Bitvector: h0i0j0w0a1b1c1
+Special_Bitvector: h0i0j0w0a1b1c1 
 Skill: 131 150
 Skill: 133 150
 Skill: 147 160
@@ -3501,7 +3238,6 @@ Skill: 160 120
 E
 T 74813
 T 74827
-I кости,10:5
 #74856
 нежить лекарь знахарь~
 лекарь нежити~
@@ -3514,37 +3250,27 @@ I кости,10:5
 ~
 Это неживое существо, владеющее навыками лекаря.
 ~
-b0f0g0l0m0x0g2 c0d0e0f0k0r0z0A0c1m1r1w1z1 -600 E
+b0d0f0g0l0m0x0g2 c0d0e0f0k0r0z0A0c1m1r1w1z1 -600 E
 30 0 -10 10d10+2000 5d5+10
 5d5+12 270000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 20
+Dex: 25
 Int: 30
 Wis: 32
-Dex: 25
 Con: 22
 Cha: 20
+Size: 50
 LikeWork: 90
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 50
+Race: 101
 Height: 155
 Weight: 55
-Special_Bitvector: w0b1c1
-Spell: 113
+Special_Bitvector: w0b1c1 
+Skill: 141 120
 Spell: 27
 Spell: 27
 Spell: 27
@@ -3563,7 +3289,7 @@ Spell: 81
 Spell: 82
 Spell: 82
 Spell: 93
-Skill: 141 120
+Spell: 113
 E
 T 74814
 T 74825
@@ -3580,58 +3306,47 @@ T 74818
 ~
 Это неживое существо, владеющее навыками колдуна.
 ~
-b0f0g0l0m0x0g2 b0c0d0e0f0k0n0m0r0x0z0A0c1m1w1y1 -600 E
+b0d0f0g0l0m0x0g2 b0c0d0e0f0k0m0n0r0x0z0A0c1m1w1y1 -600 E
 30 0 -10 10d10+2000 5d5+10
 5d5+5 270000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 20
+Dex: 24
 Int: 30
 Wis: 31
-Dex: 24
 Con: 22
 Cha: 20
+Size: 80
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 80
+Race: 110
 Height: 165
 Weight: 85
-Special_Bitvector: l0w0b1c1
+Special_Bitvector: l0w0b1c1 
+Skill: 20 150
+Skill: 141 120
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 68
+Spell: 68
 Spell: 128
 Spell: 152
 Spell: 152
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 68
-Spell: 68
-Skill: 141 120
-Skill: 20 150
 E
 T 74807
 T 74826
@@ -3647,40 +3362,30 @@ T 74826
 ~
 Это неживое существо, владеющее навыками богатыря.
 ~
-b0f0g0l0m0g2 c0d0e0f0k0n0m0r0z0A0c1m1t1w1x1z1 -600 E
-30 0 -10 10d10+3000 12d12+12
+b0d0f0g0l0m0g2 c0d0e0f0k0m0n0r0z0A0c1m1t1w1x1z1 -600 E
+32 0 -10 10d10+3000 12d12+12
 5d5+5 420000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
+Saves: -14 -14 -14 -14
 Str: 34
+Dex: 24
 Int: 23
 Wis: 23
-Dex: 24
 Con: 35
 Cha: 20
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 195
 Weight: 95
-Special_Bitvector: w0b1c1
+Special_Bitvector: w0b1c1 
+Skill: 4 150
 Skill: 136 150
 Skill: 137 140
 Skill: 165 150
-Skill: 4 150
 E
 T 74828
 #74860
@@ -3695,42 +3400,33 @@ T 74828
 ~
 Это неживое существо, владющее навыками дружинника
 ~
-b0f0g0l0m0g2 c0d0e0k0n0m0r0z0A0c1m1w1x1 -600 E
-30 0 -10 10d10+2800 10d9+8
+b0d0f0g0l0m0g2 c0d0e0k0m0n0r0z0A0c1m1w1x1 -600 E
+31 0 -10 10d10+2800 10d9+8
 5d28+10 350000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
+Saves: -10 -10 -10 -10
 BareHandAttack: 3
 Str: 28
+Dex: 33
 Int: 22
 Wis: 23
-Dex: 33
 Con: 33
 Cha: 19
+Size: 100
 LikeWork: 95
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 101
 Height: 175
 Weight: 100
-Special_Bitvector: w0b1c1C3
+Special_Bitvector: w0b1c1C3 
 Skill: 12 140
+Skill: 22 150
 Skill: 132 150
 Skill: 137 160
 Skill: 142 150
 Skill: 151 140
-Skill: 22 150
 E
 T 74830
 #74861
@@ -3745,42 +3441,31 @@ T 74830
 ~
 Это неживое существо, владеющее навыками волшебника.
 ~
-b0f0g0l0m0g2 b0c0d0e0f0k0n0m0r0x0z0A0c1q1w1z1 -600 E
+b0d0f0g0l0m0g2 b0c0d0e0f0k0m0n0r0x0z0A0c1q1w1z1 -600 E
 30 2 -9 10d10+1800 9d9+5
 5d5+5 260000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 19
+Dex: 22
 Int: 31
 Wis: 33
-Dex: 22
 Con: 23
 Cha: 30
+Size: 100
 LikeWork: 90
 MaxFactor: 25
-ExtraAttack: 0
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: l0w0b1c1
-Spell: 113
-Spell: 151
+Special_Bitvector: l0w0b1c1 
+Skill: 141 120
 Spell: 55
 Spell: 56
 Spell: 56
-Skill: 141 120
+Spell: 113
+Spell: 151
 E
 T 74809
 T 74832
@@ -3796,39 +3481,27 @@ T 74832
 ~
 Это неживое существо, владеющее навыками витязя.
 ~
-b0f0g0l0m0x0g2 c0d0e0f0k0n0m0r0z0A0c1w1x1y1z1 -600 E
+b0d0f0g0l0m0x0g2 c0d0e0f0k0m0n0r0z0A0c1w1x1y1z1 -600 E
 30 0 -10 10d10+2800 12d9+6
 5d23+6 320000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 30
+Dex: 32
 Int: 25
 Wis: 26
-Dex: 32
 Con: 30
 Cha: 23
+Size: 100
 LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 185
 Weight: 95
-Special_Bitvector: w0b1c1B3
-Spell: 111
-Spell: 88
-Spell: 88
+Special_Bitvector: w0b1c1B3 
+Skill: 21 25
 Skill: 136 120
 Skill: 137 150
 Skill: 141 150
@@ -3837,8 +3510,8 @@ Skill: 143 150
 Skill: 146 150
 Skill: 148 120
 Skill: 158 150
-Skill: 21 25
+Spell: 88
+Spell: 88
+Spell: 111
 E
-T 74834
-$
 $

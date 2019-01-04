@@ -28,6 +28,8 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 2
 Class: 103
+Race: 104
+Height: 198
 Weight: 65
 Special_Bitvector: i0 
 Skill: 20 80
@@ -64,15 +66,16 @@ Size: 40
 LikeWork: 75
 ExtraAttack: 1
 Class: 103
+Race: 104
+Height: 198
 Weight: 60
 Special_Bitvector: 0 
 Skill: 1 80
 Skill: 132 80
 Skill: 136 75
 Skill: 157 80
-Helper: 13001
 Helper: 13000
-Skill: 136 75
+Helper: 13001
 E
 T 13001
 #13002
@@ -101,6 +104,8 @@ Size: 40
 LikeWork: 75
 ExtraAttack: 1
 Class: 103
+Race: 104
+Height: 198
 Weight: 60
 Special_Bitvector: 0 
 Skill: 1 80
@@ -137,6 +142,8 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
+Height: 198
 Weight: 70
 Special_Bitvector: 0 
 Skill: 20 90

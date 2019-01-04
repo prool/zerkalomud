@@ -51,11 +51,41 @@ if %arg.contains(нож)%
     halt
   end
   oload obj 13560
-  osend %actor% Вы достали метательный нож из пояса с метательными ножами
-  oechoaround %actor% ~~%actor.iname% достал~~%actor.g% метательный нож из пояса с метательными ножами
+  osend %actor% Вы достали метательный нож из пояса с метательными ножами.
+  oechoaround %actor.iname% достал%actor.g% метательный нож из пояса.
   oforce %actor% взять метательный.нож
 else
   osend %actor% Что вы хотите достать?
 end
+~
+#13502
+Платный портал, комната 13568~
+0 m 1
+~
+wait 1
+emot пересчитал%self.g% монеты
+eval target 0
+switch %amount%
+  * Псков
+  case 2100
+    eval target 75063
+  break
+  * Тотьма
+  case 5100
+    eval target 62025
+  break
+  default
+    дум
+    say И чего же ты за эти деньги хочешь?
+    give %amount% кун .%actor.name%
+    halt
+  done
+  кив
+  emot сделал%self.g% несколько странных жестов
+  mechoaround %actor% %actor.name% исчез%actor.q% в клубах дыма.
+  msend %actor% У вас закружилась голова, и на миг вы потеряли сознание...
+  msend %actor% 
+  mteleport %actor% %target% horse
+  mechoaround %actor% %actor.name% появил%actor.u% здесь в клубах дыма.
 ~
 $~

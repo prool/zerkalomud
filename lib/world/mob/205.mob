@@ -12,7 +12,7 @@
 лук в руках. Судя по глазам, он не прочь заработать.
 ~
 b0d0g0n0o0t0 d0f0k0r1 -600 E
-27 15 5 10d10+1500 13d11+0
+12 15 5 10d10+1500 13d11+0
 12d15+1245 10000
 8 8 1
 BareHandAttack: 9
@@ -26,6 +26,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -49,10 +50,10 @@ T 20512
 Самый страшный Болотник, покрытый грязно-рыжей шерстью, с толстым животом и тонкими ногами.
 ~
 b0d0f0n0o0x0a1b1d2g2h2 d0g0k0m0x0A0C0c1k1t1x1 -600 E
-40 0 10 10d10+9999 17d16+6
+39 0 10 10d10+9999 17d16+6
 0d0+0 2000000
 8 8 1
-Saves: -80 -30 -80 -50
+Saves: -80 -42 -80 -50
 Resistances: 20 20 20 20 100 50 50
 HPreg: 100
 Armour: 50
@@ -71,6 +72,7 @@ Cha: 10
 Size: 100
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -116,10 +118,10 @@ T 20520
 его недооценивать. Как и вся нечисть, заманивает в глушь, чтобы там погубить.
 ~
 b0d0f0n0o0x0a1g2 d0g0k0m0A0C0c1k1w1 -600 E
-40 1 7 10d10+9999 17d17+20
+39 1 7 10d10+9999 17d17+20
 0d0+0 2000000
 8 8 1
-Saves: -50 -35 -90 -10
+Saves: -50 -42 -90 -42
 Resistances: 35 35 35 35 60 35 35
 HPreg: 90
 Armour: 90
@@ -139,6 +141,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -209,10 +212,10 @@ T 20521
 деревьев, то на трясине, то просто на ветру зыбается.
 ~
 b0d0f0n0o0x0a1b1g2 d0g0k0m0x0A0C0m1q1t1x1 -600 E
-40 1 5 10d10+9999 17d17+20
+39 1 5 10d10+9999 17d17+20
 0d0+0 2000000
 8 8 1
-Saves: -65 -50 -50 -40
+Saves: -65 -50 -50 -42
 Resistances: 30 30 30 30 100 10 10
 HPreg: 100
 Armour: 90
@@ -232,6 +235,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 102
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -300,10 +304,10 @@ T 20522
 приютил моховик, ставший для него родным.
 ~
 b0d0f0m0n0o0g2h2 h0k0m0n0z0C0k1r1t1 -600 E
-36 5 0 10d10+4000 15d15+0
+32 5 0 10d10+4000 15d15+0
 0d0+0 451000
 8 8 0
-Saves: -35 -21 -15 -5
+Saves: -35 -21 -15 -14
 Resistances: 5 15 8 25 33 5 10
 HPreg: 10
 Armour: 90
@@ -321,6 +325,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -348,10 +353,10 @@ T 20539
 Волосатый болотный черт, с красными глазенками и характерным пятачком вместо носа.
 ~
 b0d0f0m0n0o0x0g2 k0m0n0C0k1r1w1 -600 E
-36 3 -5 10d10+5500 16d16+0
+33 3 -5 10d10+5500 16d16+0
 0d0+0 551000
 8 8 1
-Saves: -40 0 -65 -15
+Saves: -40 -18 -65 -18
 Resistances: 5 3 5 7 25 15 15
 HPreg: 45
 Armour: 90
@@ -366,6 +371,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -399,10 +405,10 @@ E
 Женщина со змеями вместо волос, ядовитой кровью и обращающим все живое в камень взглядом. 
 ~
 b0d0f0m0n0o0x0g2h2 k0m0n0C0k1r1w1 -600 E
-37 3 -3 10d10+4500 16d16+0
+33 3 -3 10d10+4500 16d16+0
 0d0+0 551000
 8 8 2
-Saves: -56 -10 -60 -15
+Saves: -56 -18 -60 -18
 Resistances: -50 0 200 0 35 5 15
 HPreg: 100
 Armour: 90
@@ -420,6 +426,7 @@ Cha: 16
 Size: 100
 LikeWork: 80
 Class: 102
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -471,10 +478,10 @@ I чешуя,10:10
 упокоенная душа творит темные дела.
 ~
 c0d0f0m0n0o0x0A0g2 k0m0n0C0k1t1y1 -600 E
-33 4 0 10d10+6500 16d16+0
+34 4 0 10d10+6500 16d16+0
 0d0+0 650000
 8 8 1
-Saves: -40 0 -40 0
+Saves: -40 -22 -40 -22
 Resistances: 0 0 0 0 20 0 0
 Armour: 90
 Absorbe: 95
@@ -488,6 +495,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -508,10 +516,10 @@ T 20534
 Злой дух, живущий в болоте и заманивающий людей в омуты.
 ~
 d0f0m0n0o0t0x0z0q1g2h2 d0k0m0n0C0k1w1x1 -600 E
-35 3 -3 10d10+4500 16d16+0
+33 3 -3 10d10+4500 16d16+0
 0d0+0 551000
 8 8 1
-Saves: 0 -15 -40 -3
+Saves: -18 -18 -40 -18
 Resistances: 0 50 0 0 0 0 0
 Armour: 90
 CastSuccess: 30
@@ -526,6 +534,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -549,10 +558,10 @@ E
 Болотный дух, живущий в трясине и заманивающий людей в омуты.
 ~
 d0f0m0n0o0t0x0z0q1d2g2h2 d0k0m0n0C0k1x1 -600 E
-35 3 -3 10d10+4500 16d16+0
+33 3 -3 10d10+4500 16d16+0
 0d0+0 551000
 8 8 2
-Saves: 0 -25 -35 -15
+Saves: -18 -25 -35 -18
 Resistances: 0 40 0 0 25 0 15
 Armour: 95
 CastSuccess: 90
@@ -566,6 +575,7 @@ Cha: 16
 Size: 100
 LikeWork: 80
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -622,7 +632,7 @@ I чешуя,10:10
 ездящая на них верхом до первых петухов. 
 ~
 c0d0f0m0n0o0x0A0g2h2 k0m0n0C0k1w1 -600 E
-34 3 -3 10d10+4500 16d16+0
+33 3 -3 10d10+4500 16d16+0
 0d0+0 551000
 8 8 1
 Saves: -37 -40 -29 -19
@@ -640,6 +650,7 @@ Cha: 16
 Size: 100
 LikeWork: 80
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -670,10 +681,10 @@ E
 него непослушных детей и уносит их на болото. 
 ~
 c0d0n0o0x0A0g2j2 d0k0m0n0r0s0t0A0C0j1k1r1w1 -600 E
-36 3 -3 10d10+4500 16d16+0
+33 3 -3 10d10+4500 16d16+0
 15d13+1234 551000
 8 8 1
-Saves: -60 -5 -65 -15
+Saves: -60 -18 -65 -18
 Resistances: -20 45 50 20 0 0 0
 Armour: 95
 CastSuccess: 60
@@ -700,6 +711,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a1b1c1 
@@ -776,10 +788,10 @@ T 20517
 округе, и теперь она живет на болоте.
 ~
 b0c0d0f0m0n0o0x0A0g2 b0d0k0m0n0C0k1r1 -600 E
-37 3 -3 10d10+4500 16d16+0
+33 3 -3 10d10+4500 16d16+0
 0d0+0 551000
 8 8 2
-Saves: -40 -20 -50 -15
+Saves: -40 -20 -50 -18
 Resistances: -20 0 0 40 0 0 0
 Armour: 30
 PlusMem: 200
@@ -797,6 +809,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -845,10 +858,10 @@ T 20536
 привяжется до него Лихо Одноглазое, и будет до конца жизни пакости сотворять.
 ~
 b0d0m0n0o0x0z0g2 c0d0e0f0h0k0m0n0r0x0z0A0C0b1m1o1t1x1 -600 E
-42 -30 -4 10d10+15000 17d17+0
-0d0+0 2500000
+43 -30 -4 10d10+15000 17d17+10
+0d0+0 5000000
 8 8 0
-Saves: -85 -35 -85 -35
+Saves: -85 -58 -85 -58
 Resistances: -15 40 40 40 50 50 50
 HPreg: 200
 Armour: 90
@@ -857,6 +870,8 @@ CastSuccess: 70
 Success: 5
 Initiative: 5
 Absorbe: 90
+AResist: 30
+MResist: 30
 BareHandAttack: 12
 Str: 50
 Dex: 22
@@ -868,6 +883,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 5
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0e0f0 
@@ -875,9 +891,9 @@ Feat: 1
 Skill: 136 140
 Skill: 151 130
 Skill: 165 130
-Helper: 20503
-Helper: 20502
 Helper: 20501
+Helper: 20502
+Helper: 20503
 E
 T 20523
 T 20538
@@ -907,6 +923,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -932,7 +949,7 @@ T 20513
 и светятся добротой.
 ~
 b0d0o0t0 d0f0k0r1 -600 E
-30 0 0 10d10+1000 5d13+0
+25 0 0 10d10+1000 5d13+0
 15d20+13 100000
 8 8 2
 CastSuccess: 80
@@ -946,6 +963,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -977,7 +995,7 @@ T 20519
 в поисках приключений.
 ~
 d0l0m0n0o0u2 d0f0k0r1 -600 E
-25 -30 -4 10d10+1000 9d11+0
+28 -30 -4 10d10+1000 9d11+0
 10d12+12 150000
 8 8 1
 Saves: -85 -50 -95 -60
@@ -998,6 +1016,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 4
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1036,10 +1055,10 @@ E
 загадочной битвы с неким "врагом в конце Времен". 
 ~
 d0f0m0n0o0x0z0q1g2 d0k0m0n0r0s0t0A0C0j1k1r1w1 -600 E
-37 3 -3 10d10+4500 16d16+0
+33 3 -3 10d10+4500 16d16+0
 0d0+0 551000
 8 8 2
-Saves: -95 0 -50 0
+Saves: -95 -18 -50 -18
 Resistances: -60 0 0 99 0 0 0
 Armour: 60
 CastSuccess: 50
@@ -1055,6 +1074,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1110,6 +1130,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -1168,7 +1189,6 @@ Spell: 135
 E
 T 20530
 T 20529
-I кожа,10:10
 #20519
  упырь~
 упырь~
@@ -1184,9 +1204,10 @@ I кожа,10:10
 прохожих. Сюда их притягивают знакомые запахи магических зелий.
 ~
 d0f0m0n0o0i1g2 h0k0m0n0C0w1 -600 E
-32 5 0 10d10+4000 15d15+0
+31 5 0 10d10+4000 15d15+0
 0d0+0 401000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 34
 Dex: 20
 Int: 17
@@ -1197,6 +1218,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1249,7 +1271,7 @@ c0d0f0m0n0o0x0A0q1g2h2 d0k0m0n0C0k1t1 -600 E
 32 4 0 10d10+4500 16d16+0
 0d0+0 450000
 8 8 2
-Saves: -70 0 -130 0
+Saves: -70 -14 -130 -14
 Armour: 60
 Absorbe: 50
 BareHandAttack: 2
@@ -1262,6 +1284,7 @@ Cha: 10
 Size: 100
 LikeWork: 80
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1282,7 +1305,7 @@ E
 еще совсем маленьким, но умудрился выжить.
 ~
 c0d0f0m0n0o0x0A0g2 d0k0k1m1t1 -600 E
-34 4 10 10d10+6000 17d20+0
+33 4 10 10d10+6000 17d20+0
 0d0+0 600000
 8 8 2
 Saves: -45 -45 -45 -45
@@ -1301,6 +1324,7 @@ Cha: 16
 Size: 100
 LikeWork: 90
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1332,7 +1356,7 @@ E
 Насекомое чем-то очень не довольно. Видимо раздавили его собрата.
 ~
 b0d0f0o0 d0f0k0r0A0m1r1 -600 E
-10 -10 -10 5d10+5 5d4+0
+4 -10 -10 5d10+5 5d4+0
 0d0+0 1000
 8 8 1
 BareHandAttack: 4
@@ -1345,6 +1369,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1366,7 +1391,7 @@ I глаза,10:10
 Насекомое чем-то очень не довольно. Видимо раздавили его собрата.
 ~
 b0d0f0o0 d0f0k0r0A0m1r1t1 -600 E
-12 -10 -10 10d10+20 7d7+0
+9 -10 -10 10d10+20 7d7+0
 0d0+0 5000
 8 8 1
 BareHandAttack: 14
@@ -1379,6 +1404,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1400,7 +1426,7 @@ T 20533
 c0d0o0A0 d0k0 -600 E
 25 0 -5 10d10+1000 9d11+0
 10d12+12 100000
-8 8 1
+8 8 2
 BareHandAttack: 8
 Str: 32
 Dex: 33
@@ -1411,6 +1437,7 @@ Cha: 50
 Size: 100
 LikeWork: 80
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1419,7 +1446,6 @@ Skill: 136 100
 Spell: 28
 E
 T 20535
-I кожа,10:10
 #20525
  бабка~
 бабка~
@@ -1433,9 +1459,9 @@ I кожа,10:10
 Пожилая деревенская женщина.
 ~
 c0d0o0A0 d0k0 -600 E
-27 0 -5 10d10+1000 9d11+0
+25 0 -5 10d10+1000 9d11+0
 10d12+1250 100000
-8 8 1
+8 8 2
 Str: 26
 Dex: 29
 Int: 33
@@ -1445,6 +1471,7 @@ Cha: 24
 Size: 100
 LikeWork: 95
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1458,4 +1485,44 @@ Spell: 55
 Spell: 55
 E
 I зубы,10:10
+#20526
+волосатое лихо женщина~
+волосатое лихо~
+волосатого лиха~
+волосатому лиху~
+волосатое лихо~
+волосатым лихом~
+волосатом лихе~
+Печальная женщина с длинными волосами стоит здесь.
+~
+Это очень высокая и худая женщина с неприятными, какими-то
+смазанными чертами лица. Когда вы встречаетесь с ней глазами,
+вам становится по-настоящему жутко.
+~
+b0d0t0a1b1t1 d0f0k0s0z0A0r1t1x1d2e2 0 E
+30 -15 -2 1d1+2350 6d23+15
+1d1+2000 327000
+8 8 0
+Saves: -14 -14 -14 -14
+Resistances: 5 5 5 5 10 10 10
+AResist: 10
+MResist: 10
+BareHandAttack: 8
+Str: 23
+Dex: 23
+Int: 5
+Wis: 5
+Con: 28
+Cha: 5
+Size: 10
+LikeWork: 15
+ExtraAttack: 4
+Class: 101
+Race: 112
+Height: 150
+Weight: 50
+Special_Bitvector: y0d1 
+Skill: 5 150
+Skill: 136 200
+E
 $

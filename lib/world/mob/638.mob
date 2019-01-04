@@ -24,6 +24,7 @@ Cha: 5
 Size: 100
 LikeWork: 55
 Class: 103
+Race: 103
 Height: 200
 Weight: 150
 Special_Bitvector: l0 
@@ -62,6 +63,7 @@ Cha: 5
 Size: 100
 LikeWork: 55
 Class: 103
+Race: 103
 Height: 200
 Weight: 150
 Special_Bitvector: l0 
@@ -101,6 +103,7 @@ Cha: 5
 Size: 100
 LikeWork: 30
 Class: 103
+Race: 103
 Height: 200
 Weight: 150
 Special_Bitvector: l0 
@@ -139,6 +142,7 @@ Cha: 5
 Size: 100
 LikeWork: 30
 Class: 103
+Race: 103
 Height: 200
 Weight: 150
 Special_Bitvector: l0 
@@ -179,6 +183,7 @@ Size: 45
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 65
 Weight: 75
 Special_Bitvector: i0j0p0 
@@ -218,6 +223,7 @@ Size: 45
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 65
 Weight: 75
 Special_Bitvector: i0j0p0 
@@ -257,6 +263,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 80
 Weight: 95
 Special_Bitvector: i0j0p0 
@@ -296,6 +303,7 @@ Size: 50
 LikeWork: 55
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 40
 Weight: 50
 Special_Bitvector: i0j0p0 
@@ -333,6 +341,7 @@ Size: 55
 LikeWork: 65
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 195
 Weight: 150
 Special_Bitvector: 0 
@@ -340,7 +349,6 @@ Skill: 4 145
 Skill: 136 145
 E
 T 63805
-I кости,10:5
 #63810
 жуткий паук большой черный~
 жуткий паук~
@@ -369,6 +377,7 @@ Size: 45
 LikeWork: 20
 ExtraAttack: 9
 Class: 103
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: m0 
@@ -402,6 +411,7 @@ Con: 12
 Cha: 15
 Size: 45
 Class: 102
+Race: 101
 Height: 65
 Weight: 75
 Special_Bitvector: 0 
@@ -435,6 +445,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

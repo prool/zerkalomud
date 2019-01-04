@@ -148,7 +148,7 @@ end
 ~
 #66608
 репоп~
-2 h 100
+2 f 100
 ~
 wdoor 66617 north purge
 wdoor 66618 south purge

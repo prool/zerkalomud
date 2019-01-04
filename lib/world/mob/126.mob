@@ -62,7 +62,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 105
-Race: 
+Race: 105
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -107,7 +107,7 @@ Size: 70
 LikeWork: 90
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -143,7 +143,7 @@ T 12604
    Подпаленная местами борода, фартук из толстой кожи, всем бы обычный
 кузнец, да только один глаз закрывает повязка.
 ~
-b0d0g0n0o0p0r0t0u0x0B0s1f2g2 d0f0k0r1 0 E
+b0d0g0n0o0p0r0t0u0x0B0s1f2g2u2 d0f0k0r1 0 E
 20 15 -5 5d30+500 1d127+10
 0d0+30000 0
 8 8 1
@@ -173,7 +173,7 @@ E
 ~
    Веселый толстяк, то и дело отпускает сальные шуточки.
 ~
-b0d0g0n0o1f2 d0f0k0r1 0 E
+b0d0g0n0o1f2u2 d0f0k0r1 0 E
 20 15 -5 5d30+500 5d5+10
 0d0+30000 0
 8 8 1
@@ -205,7 +205,7 @@ E
 с деньгами управляется ловко - любо-дорого посмотреть, чувствуется 
 немалый опыт. 
 ~
-b0d0g0n0p0r0t0u0x0o1f2 d0f0r1 0 E
+b0d0g0n0p0r0t0u0x0o1f2 d0f0k0r1 0 E
 20 15 -5 5d30+500 5d5+10
 0d0+0 0
 8 8 1
@@ -238,7 +238,7 @@ E
    Седой старик, на вид немощный. Но в колдовстве старость не есть признак
 слабости.
 ~
-b0d0g0n0f2 d0f0 0 E
+b0d0g0n0f2u2 d0f0k0 0 E
 20 15 -5 5d30+500 5d5+10
 0d0+30000 0
 8 8 1
@@ -318,7 +318,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -367,7 +367,7 @@ Size: 70
 LikeWork: 90
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -385,8 +385,8 @@ Skill: 21 120
 Skill: 136 105
 Skill: 137 120
 Skill: 150 120
-Helper: 12601
 Helper: 12602
+Helper: 12601
 E
 #12610
 дежурный~
@@ -402,7 +402,7 @@ E
 возраста. Однако полная боевых подвигов жизнь не дает ему покоя, и он
 теперь стал несменным дежурным в казармах Дозора.
 ~
-b0d0g0n0o0f2 d0f0k0D0a1 0 E
+b0d0g0n0o0f2u2 d0f0k0D0a1 0 E
 20 15 -5 5d30+500 5d5+10
 0d0+0 0
 8 8 1
@@ -1022,7 +1022,7 @@ LikeWork: 100
 MaxFactor: 15
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 104
 Height: 198
 Weight: 90
 Special_Bitvector: 0 
@@ -1195,7 +1195,7 @@ E
 ~
 Выглядит достаточно незавершенно.
 ~
-b0d0n0o0p0q0t0u0B0f2g2 d0f0k0 0 E
+b0d0n0o0p0q0t0u0B0f2g2u2 d0f0k0 0 E
 25 20 0 1d100+200 1d1+0
 0d0+30000 0
 8 8 1
@@ -2274,7 +2274,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -2320,7 +2320,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 1
 Class: 104
-Race: 
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -2801,7 +2801,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 4
 Class: 104
-Race: 
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: x0C3 
@@ -2849,7 +2849,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 5
 Class: 104
-Race: 
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: x0C3 
@@ -2924,7 +2924,7 @@ E
 на макушке. Его забота - следить чтобы не завелась в мягкой рухляди и прочем
 добре моль да гниль.
 ~
-b0d0n0o0B0f2 d0f0k0 200 E
+b0d0n0o0B0f2u2 d0f0k0 200 E
 30 -1 0 1d100+600 5d5+5
 0d0+500000 0
 8 8 1

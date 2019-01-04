@@ -26,6 +26,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -60,6 +61,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -94,6 +96,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -137,6 +140,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -176,6 +180,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -185,13 +190,12 @@ Spell: 88
 Spell: 93
 E
 T 14117
-I кожа,10:10
 #14105
 потешник ~
 потешник~
 потешника~
 потешнику~
-потешник~
+потешника~
 потешником~
 потешнике~
 Потешник для смеха колет задом орехи.
@@ -214,6 +218,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -257,6 +262,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -291,6 +297,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -327,6 +334,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -335,7 +343,6 @@ Skill: 150 50
 Spell: 54
 E
 T 14114
-I кости,10:10
 #14109
 хранцузский посол~
 хранцузский посол~
@@ -368,6 +375,7 @@ Cha: 17
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: a1b1c1 
@@ -403,6 +411,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -411,7 +420,6 @@ Skill: 132 100
 Skill: 158 100
 E
 T 14112
-I кости,10:10
 #14111
 стрелец~
 стрелец~
@@ -441,6 +449,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -473,6 +482,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -507,6 +517,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 4
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -541,13 +552,13 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
 Spell: 82
 Spell: 82
 E
-I кости,10:10
 #14115
 стрелец молодец~
 стрелец~
@@ -577,6 +588,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
@@ -584,7 +596,6 @@ Skill: 134 100
 Skill: 137 80
 E
 T 14125
-I кости,10:10
 #14116
 стрелец мордатый~
 стрелец~
@@ -612,6 +623,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -648,6 +660,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -685,6 +698,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1C3 
@@ -721,6 +735,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -756,6 +771,7 @@ Con: 10
 Cha: 10
 Size: 100
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
@@ -787,6 +803,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -822,6 +839,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -857,6 +875,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: j0a1b1c1 
@@ -865,7 +884,6 @@ Skill: 136 80
 Skill: 137 50
 Skill: 160 50
 E
-I кости,10:5
 #14124
 баба яга~
 Баба-яга~
@@ -895,6 +913,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 150
 Weight: 80
 Special_Bitvector: 0 
@@ -937,6 +956,7 @@ Size: 90
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 80
 Special_Bitvector: 0 
@@ -974,6 +994,7 @@ Size: 90
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 80
 Special_Bitvector: a0b0c0d0e0f0j0 
@@ -1018,6 +1039,7 @@ Cha: 20
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1056,6 +1078,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 100
+Race: 103
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
@@ -1093,6 +1116,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1132,6 +1156,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1171,6 +1196,7 @@ Cha: 10
 Size: 100
 LikeWork: 15
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0 

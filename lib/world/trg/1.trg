@@ -11,12 +11,18 @@ if (%actor.level%<31)
 end
 if %arg.contains(0)% || %arg.contains(трон)%
   wteleport %actor% 100
+  %echo% &G%actor.name% шагнул в тронный зал Богов!&n
 end
 if %arg.contains(1)% || %arg.contains(темница)%
   wteleport %actor% 101
+  %echo% &G%actor.name% шагнул в темницу!&n
+end
+if %arg.contains(2)% || %arg.contains(прокси)%
+  wteleport %actor% 103
+  %echo% &G%actor.name% шагнул в комнату незарегистрированных игроков!&n
 end
 if %arg.contains(5)% || %arg.contains(имена)%
-  %echo% &Y БАММ!!! &n
+  %echo% БАММ!!! 
   *wteleport %actor% 105
 end
 ~
@@ -605,6 +611,36 @@ mecho -  если силой отбирать надумаешь то сразу готовься... к схватке....  лютой
 wait 1s
 mecho  Дряхлый старик, говоривший все тише и тише, совсем замолчал и впал в дрему.
 ~
+#131
+В воспитательных целях~
+0 ab 100
+100~
+set charlist Андора
+foreach target %charlist%
+  tell .%target% &CЕсть кто? Ну, есть кто? Ау!!! Есть кто там! А? Не?!! Не а?! Ну кто-то же есть, а?! Есть кто, не?!&n
+done
+~
+#140
+капля~
+1 c 1
+капля~
+eval victim %arg.car%
+eval value %arg.cdr%
+foreach target %self.all%
+  eval string %target.iname%
+  set targetname %string.car%
+  if ( %targetname% == %victim% )
+    log %actor.name% окропила водой из Гьелль %victim%, он потерял %value% хитов.
+    %echoaround% %target%  &WХель&n окропила %target.vname% &Wледяной водой&n из реки Гьелль.
+    %echoaround% %target% %target.iname% бледнеет, кажется это действительно БОЛЬНО!
+    %send% %target%  &WХель&n взмахнула рукой, и на Вас полетели &Wледяные капли&n, прожигающие кожу.
+    %send% %target% О Боги, это действительно БОЛЬНО!
+    eval buffer %target.hitp(-%value%)%
+    odamage %target% %value%
+    halt
+  end
+done
+~
 #165
 тест~
 0 d 0
@@ -616,6 +652,14 @@ mecho  Дряхлый старик, говоривший все тише и тише, совсем замолчал и впал в дрем
 1 j 100
 ~
 oecho Это тест-тест-тест...
+~
+#167
+вошли к кошмару~
+0 gr 100
+~
+wait 1s
+say &GЗона на ремонте!&n
+say &CЗайдите, &Wпожалуйста&C, позже!&n
 ~
 #180
 LAAAAAAAAG~

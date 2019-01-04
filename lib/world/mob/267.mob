@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #26700
  пылающий ликом колдун~
 пылающий ликом колдун~
@@ -14,138 +13,132 @@
 Но пламя, окружающее мага, показывает, что перед
 вами сильный противник.
 ~
-f0l0m0n0z0g2 b0d0f0k0x0z0 -600 E
-33 0 -25 30d30+2500 10d11+11
+d0f0l0m0n0z0g2 b0d0f0k0x0z0 -600 E
+30 0 0 30d30+2500 10d11+11
 10d10+25 320000
 8 8 1
-Saves: 0 0 0 0
 Resistances: 40 40 40 40 40 40 40
-HPreg: 0
 Armour: 40
-PlusMem: 0
 CastSuccess: 90
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 90
 MaxFactor: 30
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 150
 Weight: 150
+Special_Bitvector: 0 
 Feat: 2
 Feat: 3
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 28
 Skill: 157 100
+Spell: 28
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
 E
 T 26702
 T 26725
@@ -164,50 +157,43 @@ T 26725
 дыры, светящиеся магическим сиянием.
 
 ~
-j0l0m0n0v0z0g2 c0d0e0f0k0x0m1 -600 E
-33 0 -25 40d50+3300 10d15+18
+d0j0l0m0n0v0z0g2 c0d0e0f0k0x0m1 -600 E
+31 0 0 40d50+3300 10d15+18
 5d2+10 400000
 8 8 1
-Saves: 0 0 0 0
+Saves: -10 -10 -10 -10
 Resistances: 40 40 40 40 40 40 40
-HPreg: 0
 Armour: 50
-PlusMem: 0
 CastSuccess: 40
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 95
 MaxFactor: 80
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 100
 Weight: 150
+Special_Bitvector: C3 
 Feat: 2
 Feat: 3
-Special_Bitvector: C3
+Skill: 22 100
+Skill: 132 100
+Skill: 137 200
+Skill: 146 100
 Spell: 28
 Spell: 82
 Spell: 88
 Spell: 88
-Skill: 132 100
-Skill: 137 200
-Skill: 146 100
-Skill: 22 100
 E
 T 26703
 T 26704
-I кости,10:10
 #26702
 дух оружейника~
 дух оружейника~
@@ -224,50 +210,45 @@ I кости,10:10
 вечность.
 
 ~
-f0l0m0n0z0 b0d0e0f0k0x0r1w1 -600 E
-33 0 -25 20d20+4000 12d12+10
+d0f0l0m0n0z0 b0d0e0f0k0x0r1w1 -600 E
+32 0 0 20d20+4000 12d12+10
 5d10+4 480000
 8 8 1
-Saves: 0 0 0 0
+Saves: -14 -14 -14 -14
 Resistances: 40 40 40 40 40 40 40
-HPreg: 0
 Armour: 50
-PlusMem: 0
 CastSuccess: 70
-Success: 0
-Initiative: 0
 Absorbe: 95
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 85
 MaxFactor: 70
 ExtraAttack: 2
 Class: 101
-Size: 100
+Race: 111
 Height: 166
 Weight: 150
+Special_Bitvector: b1c1 
 Feat: 2
 Feat: 3
-Special_Bitvector: b1c1
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
 Skill: 1 100
 Skill: 150 100
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
 E
 T 26705
 T 26726
@@ -285,45 +266,40 @@ T 26726
 Это бывший тюремщик и сейчас он готов убить вас.
 
 ~
-f0m0z0 d0k0x0u1 -600 E
-43 0 -25 40d40+4000 20d20+2
+d0f0m0z0 d0k0x0u1 -600 E
+32 0 0 40d40+4000 20d20+2
 2d9+30 460000
 8 8 1
-Saves: 0 0 0 0
+Saves: -14 -14 -14 -14
 Resistances: 40 40 40 40 40 40 40
-HPreg: 0
 Armour: 40
-PlusMem: 0
 CastSuccess: 40
-Success: 0
-Initiative: 0
 Absorbe: 95
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 80
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 111
 Height: 150
 Weight: 140
+Special_Bitvector: 0 
 Feat: 2
 Feat: 3
+Skill: 132 100
+Skill: 134 100
 Spell: 26
 Spell: 26
 Spell: 26
 Spell: 26
 Spell: 26
 Spell: 28
-Skill: 132 100
-Skill: 134 100
 E
 T 26727
 #26704
@@ -341,35 +317,21 @@ T 26727
 развязать его ?
 
 ~
-b0B0 d0f0k0 0 E
-34 1 1 1d1+1 11d11+111
+b0d0B0 d0f0k0 0 E
+1 1 1 1d1+1 11d11+111
 1d111+11 1
 6 6 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 8
 Int: 8
-Wis: 11
-Dex: 11
 Con: 8
 Cha: 8
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 101
 Height: 100
 Weight: 100
+Special_Bitvector: 0 
 E
 T 26706
 #26705
@@ -387,44 +349,38 @@ T 26706
  неповоротлив но это обманчивое впечатление.
 
 ~
-f0m0n0z0 d0e0f0k0 -600 E
-45 0 -25 25d75+5000 15d25+9
+d0f0m0n0z0 d0e0f0k0 -600 E
+33 0 0 25d75+5000 15d25+9
 3d3+10 550000
 8 8 1
-Saves: 0 0 0 0
+Saves: -18 -18 -18 -18
 Resistances: 40 40 40 40 40 40 40
-HPreg: 0
 Armour: 100
-PlusMem: 0
 CastSuccess: 40
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 109
 Height: 180
 Weight: 150
+Special_Bitvector: c1 
 Feat: 2
 Feat: 3
-Special_Bitvector: c1
-Spell: 134
-Spell: 28
-Spell: 28
-Skill: 132 100
-Skill: 21 10
 Skill: 5 100
+Skill: 21 10
+Skill: 132 100
+Spell: 28
+Spell: 28
+Spell: 134
 E
 T 26708
 I глаза,10:10
@@ -441,42 +397,36 @@ I глаза,10:10
     Кучка осколков хрусталя, готовая кинуться в бой.
 
 ~
-f0m0n0z0 0 -600 E
-30 0 -25 45d45+500 5d5+9
+d0f0m0n0z0 0 -600 E
+28 0 0 45d45+500 5d5+9
 1d1+1 190000
 8 8 3
-Saves: 0 0 0 0
 Resistances: 40 40 40 40 40 40 40
-HPreg: 0
 Armour: 100
-PlusMem: 0
 CastSuccess: 40
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 8
 Str: 25
+Dex: 25
 Int: 25
 Wis: 25
-Dex: 25
 Con: 25
 Cha: 25
+Size: 100
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 2
 Class: 101
-Size: 100
+Race: 110
 Height: 150
 Weight: 150
+Special_Bitvector: 0 
+Skill: 132 200
 Spell: 56
 Spell: 66
 Spell: 66
 Spell: 66
 Spell: 66
 Spell: 66
-Skill: 132 200
 E
 #26707
 каменный голем~
@@ -492,66 +442,59 @@ E
 неповоротливая, готовая растереть вас в порошок.
 
 ~
-e0f0l0m0n0z0 d0k0 -600 E
-40 0 -25 20d40+5000 20d20+9
+d0e0f0l0m0n0z0 d0k0 -600 E
+33 0 0 20d40+5000 20d20+9
 1d11+10 550000
 8 8 1
-Saves: 0 0 0 0
+Saves: -18 -18 -18 -18
 Resistances: 40 40 40 40 40 40 40
-HPreg: 0
 Armour: 100
-PlusMem: 0
 CastSuccess: 75
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 2
 Class: 101
-Size: 100
+Race: 109
 Height: 200
 Weight: 150
+Special_Bitvector: w0c1 
 Feat: 2
 Feat: 3
-Special_Bitvector: w0c1
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
 Skill: 132 100
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
 E
 T 26710
-I кости,10:10
 #26708
 каменные осколки~
 каменные осколки~
@@ -566,35 +509,28 @@ I кости,10:10
 Стоит быть аккуратнее.
 
 ~
-e0f0m0n0u0z0 d0f0k0 -600 E
-35 0 -10 10d10+500 5d5+9
+d0e0f0m0n0u0z0 d0f0k0 -600 E
+28 0 -10 10d10+500 5d5+9
 0d0+2 190000
 8 8 3
-Saves: 0 0 0 0
 Resistances: 35 35 35 50 0 0 0
-HPreg: 0
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 35
+Dex: 24
 Int: 24
 Wis: 35
-Dex: 24
 Con: 35
 Cha: 24
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 4
 Class: 101
-Size: 100
+Race: 110
 Height: 140
 Weight: 140
+Special_Bitvector: 0 
 Skill: 132 100
 Skill: 137 100
 E
@@ -613,39 +549,36 @@ E
 броню на его теле.
 
 ~
-f0l0m0n0z0 c0d0f0k0a1 -600 E
-33 0 -25 50d50+6000 20d24+9
+d0f0l0m0n0z0 c0d0f0k0a1 -600 E
+34 0 0 50d50+6000 20d24+9
 1d1+1 720000
 8 8 1
-Saves: 0 0 0 0
+Saves: -22 -22 -22 -22
 Resistances: 40 40 40 40 40 40 40
-HPreg: 0
 Armour: 100
-PlusMem: 0
 CastSuccess: 100
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 2
 Class: 101
-Size: 100
+Race: 109
 Height: 150
 Weight: 150
+Special_Bitvector: c1 
 Feat: 1
 Feat: 2
 Feat: 3
-Special_Bitvector: c1
+Skill: 5 100
+Skill: 134 100
+Skill: 137 100
 Spell: 28
 Spell: 28
 Spell: 28
@@ -655,9 +588,6 @@ Spell: 48
 Spell: 48
 Spell: 48
 Spell: 68
-Skill: 134 100
-Skill: 137 100
-Skill: 5 100
 E
 T 26722
 #26710
@@ -673,36 +603,28 @@ T 26722
    Вихрь огня, жужжащий, обжигающий, готовый съесть
 все, что попадется на его пути.
 ~
-b0l0n0p0q0r0t0a2h2 d0k0p1 -600 E
-30 0 -25 20d10+7000 10d10+15
+b0d0l0n0p0q0r0t0a2h2 d0k0p1 -600 E
+35 0 0 20d10+7000 10d10+15
 5d10+20 850000
 8 8 1
-Saves: 0 0 0 0
+Saves: -26 -26 -26 -26
 Resistances: 200 60 60 60 60 60 60
-HPreg: 0
 Armour: 60
-PlusMem: 0
 CastSuccess: 100
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 200
 Weight: 150
-Special_Bitvector: x0
+Special_Bitvector: x0 
 Spell: 56
 Spell: 56
 Spell: 56
@@ -723,35 +645,29 @@ T 26713
    Призрачный дух, светящийся странным сиянием. Он готов убить любого, кто
 зайдет к нему в комнату.
 ~
-f0l0m0n0z0 d0k0 -600 E
-30 0 -25 10d10+2000 14d5+8
+d0f0l0m0n0z0 d0k0 -600 E
+30 0 0 10d10+2000 14d5+8
 1d1+11 280000
 8 8 1
-Saves: 0 0 0 0
 Resistances: 15 15 15 15 15 15 15
-HPreg: 0
 Armour: 45
-PlusMem: 0
 CastSuccess: 70
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 35
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 90
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 111
 Height: 175
 Weight: 90
+Special_Bitvector: 0 
 Spell: 26
 Spell: 26
 Spell: 26
@@ -769,47 +685,40 @@ T 26714
 элементале воздуха~
    Клочoк воздуха и облаков летает здесь.
 ~
-   Это существо - создание воздуха во всем похоже на человека, хотя и 
-может менять свою форму по желанию. Теже руки, ноги, голова, тело..
+___Это существо - создание воздуха во всем похоже на человека, хотя и
+может менять свою форму по желанию. Те же руки, ноги, голова, тело..
 Но все прозрачное и очень легкое.
 ~
-e0f0l0m0n0t0z0 b0c0d0f0g0k0r1 -600 E
-30 0 -30 50d30+2000 12d8+6
+d0e0f0l0m0n0t0z0 b0c0d0f0g0k0r1 -600 E
+30 0 -4 50d30+2000 12d8+6
 2d2+40 260000
 8 8 1
-Saves: 0 0 0 0
 Resistances: 50 100 50 50 50 50 50
-HPreg: 0
 Armour: 50
-PlusMem: 0
 CastSuccess: 100
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 95
 MaxFactor: 20
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 114
 Height: 175
 Weight: 120
+Special_Bitvector: u0 
 Feat: 2
 Feat: 3
 Feat: 61
-Special_Bitvector: u0
-Spell: 151
-Spell: 151
-Spell: 151
 Skill: 132 200
+Spell: 151
+Spell: 151
+Spell: 151
 E
 T 26715
 #26713
@@ -825,46 +734,39 @@ T 26715
    Этот нечеловек не один век провел за магическими книгами, от чего сила
 его заклинаний стала огромна, а глаза его загорелись темным огнем.
 ~
-b0c0f0m0x0A0 b0c0d0f0g0k0p1 -600 E
-30 0 -30 40d50+2500 8d8+8
+b0c0d0f0m0x0A0 b0c0d0f0g0k0p1 -600 E
+31 0 -4 40d50+2500 8d8+8
 8d9+10 400000
 8 8 1
-Saves: 0 0 0 0
+Saves: -10 -10 -10 -10
 Resistances: 50 50 50 50 50 50 50
-HPreg: 0
 Armour: 50
 PlusMem: 50
 CastSuccess: 150
-Success: 0
 Initiative: 50
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: b1
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
+Special_Bitvector: b1 
 Spell: 94
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
 E
 T 26716
 T 26717
-I кожа,10:10
 #26714
  темный дружинник~
 темный дружинник~
@@ -878,41 +780,36 @@ I кожа,10:10
   Этот бывалый воин давным-давно перешел на сторону тьмы и сейчас защищает
 ее преспешников даже ценой своей жизни.
 ~
-b0f0m0n0x0 c0d0e0f0k0r0x0z0A0m1r1e2 -600 E
-30 0 -30 10d10+3500 10d10+9
+b0d0f0m0n0x0 c0d0e0f0k0r0x0z0A0m1r1e2 -600 E
+33 0 -4 10d10+3500 10d10+9
 2d5+8 550000
 8 8 1
-Saves: 0 0 0 0
+Saves: -18 -18 -18 -18
 Resistances: 50 50 50 50 50 50 50
 HPreg: 50
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
 Success: 50
 Initiative: 50
 Absorbe: 100
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1C3
+Special_Bitvector: b1c1C3 
 Skill: 12 200
+Skill: 22 150
 Skill: 137 200
 Skill: 143 200
 Skill: 150 150
-Skill: 22 150
 E
 T 26719
 I зубы,10:15
@@ -929,52 +826,49 @@ I зубы,10:15
    Огромный скелет с крепкими и мощными костями. В руках он держит тяжелый
 меч, лезвие которого остро наточено.
 ~
-b0f0l0m0z0 d0e0f0k0r1d2 -600 E
-30 0 -30 10d60+3000 12d12+8
+b0d0f0l0m0z0 d0e0f0k0r1d2 -600 E
+33 0 -4 10d60+3000 12d12+8
 4d8+12 530000
 8 8 1
-Saves: 0 0 0 0
+Saves: -18 -18 -18 -18
 Resistances: 50 50 50 50 50 50 50
 HPreg: 50
 Armour: 50
-PlusMem: 0
 CastSuccess: 70
 Success: 100
 Initiative: 100
 Absorbe: 50
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 90
 MaxFactor: 19
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 150
+Special_Bitvector: b0b1B3 
 Feat: 2
 Feat: 3
 Feat: 4
 Feat: 5
-Special_Bitvector: b1B3
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 88
+Skill: 21 200
 Skill: 132 200
 Skill: 146 200
-Skill: 21 200
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
 E
 T 26721
 T 26728
-I кости,10:10
 #26716
  лекарь тьмы~
 лекарь тьмы~
@@ -989,11 +883,11 @@ I кости,10:10
 превращается в такое существо - забитое, маленькое, на побегушках у темных
 воинов, не берегущих свою и чужую жизнь.
 ~
-b0l0m0n0z0 b0c0d0e0f0g0k0t0j1r1d2e2 -600 E
-30 0 -30 10d10+1000 10d4+2
+b0d0l0m0n0z0 b0c0d0e0f0g0k0t0j1r1d2e2 -600 E
+31 0 -4 10d10+1000 10d4+2
 2d2+5 380000
 8 8 1
-Saves: 0 0 0 0
+Saves: -10 -10 -10 -10
 Resistances: 50 50 50 55 50 50 50
 HPreg: 50
 Armour: 50
@@ -1002,22 +896,20 @@ CastSuccess: 50
 Success: 50
 Initiative: 50
 Absorbe: 50
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 3
 Spell: 27
 Spell: 27
@@ -1119,11 +1011,11 @@ T 26729
    Огромное существо с клыкастым ртом и сильными, мускулистыми руками.
 Не то мужик, не то зверь, не то призрак.
 ~
-b0c0f0l0n0z0A0 b0c0d0e0f0g0k0n0p1e2 -600 E
-35 0 -35 10d10+9000 12d15+12
+b0c0d0f0l0n0z0A0 b0c0d0e0f0g0k0n0p1e2 -600 E
+37 0 -9 10d10+9000 12d15+12
 10d10+5 1300000
 8 8 1
-Saves: 0 0 0 0
+Saves: -34 -34 -34 -34
 Resistances: 100 100 100 100 100 100 100
 HPreg: 100
 Armour: 100
@@ -1134,21 +1026,24 @@ Initiative: 50
 Absorbe: 100
 AResist: 5
 MResist: 5
-BareHandAttack: 0
 Str: 45
+Dex: 45
 Int: 38
 Wis: 38
-Dex: 45
 Con: 38
 Cha: 38
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 101
 Height: 175
 Weight: 85
-Spell: 113
+Special_Bitvector: 0 
+Skill: 131 200
+Skill: 132 200
+Skill: 147 200
+Skill: 167 200
 Spell: 28
 Spell: 28
 Spell: 28
@@ -1156,10 +1051,7 @@ Spell: 28
 Spell: 28
 Spell: 56
 Spell: 94
-Skill: 131 200
-Skill: 132 200
-Skill: 147 200
-Skill: 167 200
+Spell: 113
 E
 T 26720
 #26718
@@ -1175,35 +1067,23 @@ T 26720
    Мудрый призрак, который провел много лет, будучи заточенным в темницу
 знаний.
 ~
-b0t0 0 0 E
-1 1 1 10d10+2 11d11+1111
+b0d0t0 0 0 E
+12 1 1 10d10+2 11d11+87
 1d1+11 10000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 100
-Size: 100
+Race: 111
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 T 26718
 #26719
@@ -1219,44 +1099,80 @@ T 26718
    Этот нечеловек не один век провел за магическими книгами, от чего сила
 его заклинаний стала огромна, а глаза его загорелись темным огнем.
 ~
-c0f0m0x0A0 b0c0d0f0g0k0p1 -600 E
-30 0 -30 40d50+2500 8d8+8
+c0d0f0m0x0A0 b0c0d0f0g0k0p1 -600 E
+30 0 -4 40d50+2500 8d8+8
 8d9+10 300000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 50
+Dex: 50
 Int: 50
 Wis: 50
-Dex: 50
 Con: 50
 Cha: 50
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
+Race: 110
 Height: 175
 Weight: 85
-Special_Bitvector: b1
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
+Special_Bitvector: b1 
 Spell: 94
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
 E
 T 26716
 T 26717
-$
+#26720
+призрак замка~
+призрак замка~
+призрака замка~
+призраку замка~
+призрака замка~
+призраком замка~
+призраке замка~
+Призрак замка парит в воздухе, не замечая вас.
+~
+___Вы пытаетесь рассмотреть призрака, однако с удивлением обнаруживаете,
+что не можете сосредоточить на нем взгляд.
+~
+b0c0d0n0r0b1 d0f0k0x0z0A0r1t1e2 600 E
+30 -5 -10 0d0+1700 10d10+20
+10d1+1000 327000
+8 8 1
+Saves: -10 -10 -10 -10
+Resistances: 0 0 0 0 10 10 10
+BareHandAttack: 6
+Str: 33
+Dex: 25
+Int: 25
+Wis: 25
+Con: 35
+Cha: 20
+Size: 50
+LikeWork: 80
+ExtraAttack: 2
+Class: 105
+Race: 111
+Height: 180
+Weight: 80
+Special_Bitvector: l0u0y0b1c1 
+Skill: 3 50
+Skill: 5 170
+Skill: 22 170
+Skill: 136 150
+Skill: 141 140
+Skill: 142 140
+Skill: 143 140
+Skill: 144 140
+Skill: 145 140
+Skill: 146 140
+Skill: 148 140
+Skill: 149 100
+Skill: 154 140
+Skill: 155 170
+E
 $

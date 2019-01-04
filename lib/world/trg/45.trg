@@ -1,21 +1,8 @@
 #4500
-раскопать лаз~
-2 c 0
-раскопать разгрести расширить~
-if !%arg.contains(лаз)%
-  return 1
-  halt
-end
-wait 1
-wsend       %actor% Вы начали расширять лаз.
-wechoaround %actor% %actor.name% попытал%actor.u% расширить лаз.
-wait 2s
-wecho       Земля с шумом обвалилась, открыв старый проход...
-wdoor  4510 down flags a
-wdoor  4510 down room  4522
-wdoor  4522 up   flags a
-wdoor  4522 up   room  4510
-detach 4500 %self.id%
+Бешеный пес воет~
+0 b 18
+~
+крича У-у-у-ы-ы-у-у-у!!!
 ~
 #4501
 Убита душа~

@@ -388,7 +388,7 @@ wait 5
 mecho Колдун взял амулет Посейдона, что-то прошептал и вдруг бросил его на землю
 mecho Все померкло вокруг и вы вновь потеряли сознание..
 mteleport all 61102
-calcuid more 61102 room
+calcuid mo 61102 room
 attach 61121 %mo.id%
 exec 61121 %mo.id%
 detach 61120 %self.id%

@@ -8,12 +8,12 @@ if !%arg.contains(Ворота)%
 end
 if %actor.str% < 27 
   wsend %actor% Слабоваты Вы еще, чтобы открыть эту дверь.
-  wechoaround %actor% %actor.name% с криком навалился на дверь, но ничего не смог сделать.
+  wechoaround %actor% %actor.name% с криком навалил%actor.u% на дверь, но ничего не смог%actor.q% сделать.
 else if 
   wdoor 26700 east purge
   wdoor 26700 east room 26701
   wsend %actor% Мощным ударом плеча Вы выбили дверь.   
-  wechoaround %actor% %actor.name% мощным ударом плеча выбил дверь.  
+  wechoaround %actor% %actor.name% мощным ударом плеча выбил%actor.a% дверь.  
   detach 26700 %self.id%
 end
 ~
@@ -23,17 +23,16 @@ end
 ~
 if %actor.move% > 100 
   wsend %actor% С трудом, но вы забрались по лестнице.
-  %actor.move(-99)%
+  eval buf %actor.move(-99)%
 else
   wait 1s
   wsend %actor% Подъем забрал у вас последние силы, но Вы, так и не достигнув 
   wsend %actor% конца, упали и сильно ударились.
   wechoaround  %actor% %actor.name% из последних сил схватился за поручень,   
   wechoaround  но не смог удержаться и упал вниз.      
-  
   wteleport %actor% 26716
-  %actor.move(-99)%
-  mdamage %actor% 100
+  eval buf %actor.move(-99)%
+  wdamage %actor% 100
 end
 ~
 #26702
@@ -75,7 +74,7 @@ end
 Развязываем пленника~
 0 c 0
 развязать~
-say  спасибо тебе, %actor.name% за освобождение.
+say  спасибо тебе, %actor.name%, за освобождение.
 say прими это от меня в дар.
 %actor.gold(+300)%   
 mecho пленник дал вам 300 кун.
@@ -132,13 +131,13 @@ if %random.3% < 3
   wsend %actor% освободив проход.
   wdoor 26734 south purge
   wdoor 26734 south room 26736
-  mechoaround %actor% %actor.name% сильно надавил на рычаг, после чего дверь
-  mechoaround %actor%отодвинулась, освободив проход.
+  %echoaround% %actor% %actor.name% сильно надавил на рычаг, после чего дверь
+  %echoaround% %actor% отодвинулась, освободив проход.
   detach 26709 %self.id%
 else 
   wsend %actor% Вы потеряли сознание, превратились в обалчко пыли и очнулись в 
   wsend %actor% какой-то тесной комнате. 
-  mechoaround %actor% %actor.name% превратился в облачко пыли и исчез.
+  %echoaround% %actor% %actor.name% превратился в облачко пыли и исчез.
   wteleport %actor.name% 26780
 end
 ~
@@ -367,6 +366,7 @@ else
   %actor.exp(+500000)
 end
 %purge% %self%
+end
 ~
 #26719
 Одеваем дружа~
@@ -412,13 +412,15 @@ end
 wsend %actor% Шар разлетелся на куски, одарив вас знаниями
 wechoaround %actor% Шар разлетелся на куски, одарив %actor.rname% знаниями.
 wait 2
-%actor.exp(+800000)
 wechoaround %actor% из стекла появился призрак.
 wload mob 26718
 %echo% Здраве Буде Вам, Люди.
 %echo% Множество веков провел я будучи заперт в этом шаре.
 %echo% И множество знаний впитал я в себя
-%echo%   Если вы желаете, я поделюсь с вами этими знаниями.
+%echo% Если вы желаете, я поделюсь с вами этими знаниями.
+wait 2
+set buf %actor.exp(+800000)%
+wait 1
 detach 26723 %self.id%
 ~
 #26724

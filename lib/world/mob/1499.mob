@@ -10,33 +10,30 @@
 ~
 Вы видите везучего ученика.
 ~
-l0A0c0 A0 -600 E
-12 7 +10 10d10+200 4d4+5 
+c0d0l0A0 A0 -600 E
+18 7 10 10d10+200 4d4+5
 2d2+0 30000
 8 8 1
 CastSuccess: 24
-BareHandAttack:  0
 Str: 15
+Dex: 15
 Int: 15
 Wis: 18
-Dex: 15
 Con: 15
 Cha: 24
+Size: 45
 LikeWork: 20
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 45
+Race: 101
 Height: 140
 Weight: 120
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 80
 E
 T 149901
 I глаза,2:4
 I зубы,2:5
-I кости,1:2
-I кожа,5:4
 #149901
 Молодой печенежский купец~
 Молодой печенежский купец~
@@ -49,34 +46,30 @@ I кожа,5:4
 ~
 Вы видите молодого печенежского купца.
 ~
-l0A0r2c0s2 0 -600 E
-15 7 +10 10d10+300 4d4+9 
+c0d0l0A0r2s2 0 -600 E
+14 7 10 10d10+300 4d4+9
 10d10+20 15000
 8 8 1
 CastSuccess: 30
-BareHandAttack:  0
 Str: 15
+Dex: 19
 Int: 19
 Wis: 17
-Dex: 19
 Con: 16
 Cha: 16
-LikeWork: 30
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 30
+Class: 102
+Race: 101
 Height: 150
 Weight: 150
-Special_Bitvector: a1b1c1
+Special_Bitvector: a1b1c1 
 Skill: 134 5
 Skill: 136 60
 E
 T 149901
 I глаза,4:5
 I зубы,5:1
-I кости,2:1
-I кожа,5:5
 #149902
 Удачливый ученик~
 Удачливый ученик~
@@ -89,33 +82,30 @@ I кожа,5:5
 ~
 Вы видите удачливого ученика.
 ~
-l0A0c0 A0 -600 E
-12 8 +10 10d10+200 4d4+5 
+c0d0l0A0 A0 -600 E
+17 8 10 10d10+200 4d4+5
 2d2+0 25000
 8 8 1
 CastSuccess: 24
-BareHandAttack:  0
 Str: 15
+Dex: 15
 Int: 15
 Wis: 17
-Dex: 15
 Con: 15
 Cha: 29
+Size: 45
 LikeWork: 20
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 45
+Race: 101
 Height: 140
 Weight: 120
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 80
 E
 T 149901
 I глаза,4:5
 I зубы,2:4
-I кости,5:4
-I кожа,2:1
 #149903
 Удачливый татарский пастух~
 Удачливый татарский пастух~
@@ -128,35 +118,33 @@ I кожа,2:1
 ~
 Вы видите удачливого татарского пастуха.
 ~
-l0A0r2c0s2 p0A0 -600 E
-15 7 +10 10d10+300 3d5+5 
+c0d0l0A0r2s2 p0A0 -600 E
+18 7 10 10d10+300 3d5+5
 2d2+0 30000
 8 8 1
 CastSuccess: 30
-BareHandAttack:  2
+BareHandAttack: 2
 Str: 16
+Dex: 14
 Int: 12
 Wis: 14
-Dex: 14
 Con: 15
 Cha: 27
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 130
-Special_Bitvector: b1c1
-Skill: 134 20
+Special_Bitvector: b1c1 
 Skill: 1 5
+Skill: 134 20
 Skill: 136 80
 E
 T 149901
 I глаза,3:4
 I зубы,4:4
-I кости,1:2
-I кожа,4:2
 #149904
 сурок~
 сурок~
@@ -168,32 +156,29 @@ I кожа,4:2
 Сурок прохаживается тут.
 ~
 Вы видите сурка.~
-l1n1m1h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
-0d0+0 200
+d0h0l1m1n1 0 -600 E
+2 7 10 1d10+10 2d3+0
+0d0+999 999999999
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
-Con: 5
+Con: 1
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,5:6
 I зубы,2:7
-I кости,1:5
 I когти,2:9
-I кожа,4:8
 #149905
 тарбаган~
 тарбаган~
@@ -205,33 +190,30 @@ I кожа,4:8
 Тарбаган вглядывается в даль.
 ~
 Вы видите тарбагана.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+2 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,4:5
 I шерсть,3:6
 I зубы,2:8
-I кости,4:8
 I когти,1:9
-I кожа,5:6
 #149906
 тарбаган~
 тарбаган~
@@ -243,33 +225,30 @@ I кожа,5:6
 Тарбаган уплетает что-то.
 ~
 Вы видите тарбагана.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+2 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,4:7
 I шерсть,2:8
 I зубы,4:9
-I кости,5:5
 I когти,1:7
-I кожа,5:8
 #149907
 мышовка~
 мышовка~
@@ -281,33 +260,30 @@ I кожа,5:8
 Мышовка убегает от Вас.
 ~
 Вы видите мышовку.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+2 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,2:6
 I шерсть,2:8
 I зубы,4:9
-I кости,4:7
 I когти,4:7
-I кожа,4:5
 #149908
 хомяк~
 хомяк~
@@ -319,30 +295,28 @@ I кожа,4:5
 Хомяк набивает зерна за обе щеки.
 ~
 Вы видите хомяка.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+2 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,5:7
 I зубы,5:8
-I кости,2:8
 I когти,1:8
 #149909
 степная мышь~
@@ -355,31 +329,28 @@ I когти,1:8
 Степная мышь стоит тут.
 ~
 Вы видите степную мышь.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+2 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,2:9
 I шерсть,5:6
 I зубы,3:8
-I кости,2:6
 I когти,2:7
-$
 $

@@ -16,10 +16,13 @@ wait 1
 oecho Вокруг вспыхнула яркая радуга.
 ~
 #1002
-тестовый триг~
-2 g 100
+крылья~
+1 gj 100
 ~
-
+if (%actor.name% != Велунд)
+  return 0
+  halt
+end
 ~
 #1003
 new trigger~
@@ -246,10 +249,10 @@ skull~
 гчереп~
 wait 1
 if !%actor.name%
-  oecho Череп в руке кого-то шевельнулся и прошамкал : '%arg%'
+  oecho &WЧереп&n в руке кого-то шевельнулся и зловеще проскрипел : '&R%arg%&n'
   halt
 else
-  oecho Череп в руке %actor.rname% шевельнулся и прошамкал : '%arg%'
+  oecho &WЧереп&n в руке %actor.rname% шевельнулся и зловеще проскрипел : '&R%arg%&n'
 end
 ~
 #1014
@@ -286,6 +289,28 @@ loa~
 oload %arg%
 osend %actor% &R loa %arg% - &Cготово&n
 log &R%actor.name% использовал чит-триг крыльев Рафаила!&n
+~
+#1080
+Пришла СМС-ка~
+1 h 100
+~
+wait 1
+foreach victim %self.pc%
+  set dmg %victim.hitp%
+  eval dmg1 %dmg%*2/3
+  osend %victim% &GВам пришла СМС-ка!!!&n
+  osend %victim% &GИ прям на ногу!!!&n
+  odamage %victim% %dmg1%
+done
+~
+#1081
+крылышки~
+1 gj 100
+~
+if %actor.name% != велунд
+  return 0
+  halt
+end
 ~
 #1087
 Вампирская накидка сосет с причмоком~

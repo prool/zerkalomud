@@ -14,7 +14,7 @@
 с помощью которого можно легко заколоть даже самого опытного воина.
 ~
 d0f0g0h0n0o0A0i1 d0k0t0z0A0 -600 E
-25 0 -5 15d25+1050 6d9+10
+28 0 -5 15d25+1050 6d9+10
 5d10+10 150000
 8 8 1
 BareHandAttack: 11
@@ -28,6 +28,7 @@ Size: 50
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 145
 Weight: 65
 Special_Bitvector: b1c1 
@@ -54,7 +55,7 @@ E
 с помощью которого можно легко заколоть даже самого опытного воина.
 ~
 d0f0g0h0n0o0A0i1 d0k0t0z0A0 -600 E
-25 0 -5 15d25+1050 6d9+10
+28 0 -5 15d25+1050 6d9+10
 5d10+10 150000
 8 8 1
 BareHandAttack: 11
@@ -68,6 +69,7 @@ Size: 50
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 145
 Weight: 65
 Special_Bitvector: b1c1 
@@ -93,8 +95,8 @@ E
 все окружающее во тьму.
 ~
 b0d0f0g0n0o0A0 d0k0r0b1q1r1 -600 E
-34 2 -8 35d45+2550 9d11+15
-0d0+0 350000
+30 2 -8 35d45+2550 9d11+15
+0d0+0 300000
 8 8 1
 BareHandAttack: 6
 Str: 34
@@ -107,6 +109,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 188
 Weight: 112
 Special_Bitvector: b1c1 
@@ -132,8 +135,8 @@ E
 носа. За плечами на длинной лямке висит ошеломляющих размеров меч.
 ~
 b0c0d0g0n0o0A0 k0 -600 E
-38 2 -8 25d35+2000 8d9+5
-5d9+50 350000
+29 2 -8 25d35+2000 8d9+5
+5d9+50 250000
 8 8 1
 BareHandAttack: 3
 Str: 36
@@ -146,6 +149,7 @@ Size: 91
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 149
 Weight: 126
 Special_Bitvector: b1c1C3 
@@ -180,8 +184,8 @@ E
 свечение, как будто от огня!
 ~
 c0d0g0n0o0A0 d0k0r0r1 -600 E
-34 2 -3 25d35+3000 9d9+80
-5d6+60 400000
+30 2 -3 25d35+3000 9d9+80
+5d6+60 300000
 8 8 1
 Str: 34
 Dex: 19
@@ -192,6 +196,7 @@ Cha: 27
 Size: 90
 LikeWork: 80
 Class: 102
+Race: 101
 Height: 180
 Weight: 100
 Special_Bitvector: b1c1 
@@ -219,8 +224,8 @@ E
 свечение, как будто от огня!
 ~
 c0d0g0n0o0A0 d0k0r0r1 -600 E
-35 2 -3 25d35+3000 9d9+80
-5d6+60 400000
+30 2 -3 25d35+3000 9d9+80
+5d6+60 300000
 8 8 1
 Str: 34
 Dex: 19
@@ -231,6 +236,7 @@ Cha: 27
 Size: 100
 LikeWork: 80
 Class: 102
+Race: 101
 Height: 180
 Weight: 100
 Special_Bitvector: b1c1 
@@ -257,8 +263,8 @@ E
 Его большие, налитые силой руки, готовы дать в лоб любому непрошенному гостю.
 ~
 b0c0d0g0p0q0r0t0u0 k0 -600 E
-31 3 -2 15d19+950 15d10+6
-5d5+1000 400000
+30 3 -2 15d19+950 15d10+6
+5d5+1000 300000
 8 8 1
 Str: 35
 Dex: 35
@@ -270,6 +276,7 @@ Size: 97
 LikeWork: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 194
 Weight: 121
 Special_Bitvector: b1c1 
@@ -289,8 +296,8 @@ E
 большой капюшон, почти скрывающий лицо своего владельца от чужих глаз.
 ~
 c0d0f0g0n0o0r0 d0k0p0r0z0A0r1 -600 E
-21 5 -5 15d20+1250 15d4+5
-5d50+0 300000
+29 5 -5 15d20+1250 15d4+5
+5d50+0 200000
 8 8 1
 BareHandAttack: 11
 Str: 29
@@ -303,6 +310,7 @@ Size: 52
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 172
 Weight: 79
 Special_Bitvector: b1c1 
@@ -310,7 +318,6 @@ Skill: 131 85
 Skill: 136 105
 Skill: 147 105
 E
-I кости,15:10
 #95108
 лихой чародей~
 лихой чародей~
@@ -325,8 +332,8 @@ I кости,15:10
 слаб, но не стоит недооценивать мощь лихих чародеев.
 ~
 c0d0f0g0n0o0A0i2 d0k0n0r0p1r1 -600 E
-33 0 -10 15d20+2500 5d2+5
-5d50+100 350000
+29 0 -10 15d20+2500 5d2+5
+5d50+100 250000
 8 8 1
 BareHandAttack: 11
 Str: 20
@@ -339,6 +346,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 172
 Weight: 79
 Special_Bitvector: b1c1 
@@ -406,9 +414,10 @@ E
 огромные ручищи могут поотрывать руки-ноги даже герою.
 ~
 b0c0d0f0g0n0o0i2 k0r0t1w1 -600 E
-34 0 -8 30d40+7000 5d5+10
-15d50+1500 750000
+32 0 -8 30d40+7000 5d5+10
+15d50+1500 500000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 36
 Dex: 32
 Int: 15
@@ -419,6 +428,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 5
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1C3 
@@ -458,6 +468,7 @@ Con: 10
 Cha: 10
 Size: 100
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: m3 
@@ -491,6 +502,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -523,6 +535,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -555,6 +568,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -574,30 +588,30 @@ E
 доспехи изрядно поистерлись и выглядят не очень крепкими.
 ~
 c0d0g0p0A0 k0r0r1 -600 E
-35 0 -5 25d35+2000 9d9+20
-5d6+60 450000
+30 0 -5 25d35+1500 6d7+20
+5d6+1000 300000
 8 8 1
 BareHandAttack: 3
 Str: 33
-Dex: 34
-Int: 18
-Wis: 24
-Con: 30
-Cha: 23
+Dex: 28
+Int: 15
+Wis: 15
+Con: 28
+Cha: 10
 Size: 100
-LikeWork: 80
-ExtraAttack: 2
+LikeWork: 40
+ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 178
 Weight: 95
-Special_Bitvector: b1c1 
+Special_Bitvector: y0b1c1 
 Skill: 5 100
 Skill: 12 100
 Skill: 136 125
 Skill: 137 100
 Skill: 143 125
 Skill: 154 145
-Skill: 155 145
 Skill: 167 80
 Spell: 150
 E
@@ -616,8 +630,8 @@ I глаза,15:5
 покой. Его седые волосы говорят о довольно преклонном возрасте.
 ~
 d0g0l0o0A0 k0r0z0A0t1 -600 E
-33 5 -2 15d20+950 5d9+12
-0d0+0 250000
+28 5 -2 15d20+950 5d9+12
+0d0+0 175000
 8 8 1
 BareHandAttack: 10
 Str: 29
@@ -629,6 +643,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 167
 Weight: 91
 Special_Bitvector: b1c1C3 
@@ -652,8 +667,8 @@ E
 тайным знаниям наемников и самому стать профессиональным убийцей.
 ~
 c0d0g0l0n0o0A0 d0h0k0r0 -600 E
-30 10 -5 10d15+1000 4d9+15
-1d5+10 300000
+29 10 -5 10d15+1000 4d9+15
+1d5+10 200000
 8 8 1
 Str: 28
 Dex: 32
@@ -665,6 +680,7 @@ Size: 61
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 182
 Weight: 85
 Special_Bitvector: p0b1c1 
@@ -685,8 +701,8 @@ E
    Это невысокий человек с большими, мускулистыми руками.
 ~
 d0 d0h0k0n0r0z0q1r1t1 -600 E
-33 7 -3 10d50+2100 5d5+25
-5d8+7 450000
+30 7 -3 10d50+2100 5d5+25
+5d8+7 300000
 8 8 1
 Str: 34
 Dex: 33
@@ -698,6 +714,7 @@ Size: 91
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 196
 Weight: 100
 Special_Bitvector: b1c1C3 
@@ -721,7 +738,7 @@ E
 одежды способствуют активному образу жизни.
 ~
 d0g0 k0 -600 E
-20 15 10 10d10+100 2d4+1
+17 15 10 10d10+100 2d4+1
 0d0+0 25000
 8 8 1
 Dex: 35
@@ -731,6 +748,7 @@ Con: 15
 Cha: 12
 Size: 50
 Class: 102
+Race: 101
 Height: 141
 Weight: 50
 Special_Bitvector: p0 
@@ -749,9 +767,10 @@ E
    Это заросший шерстью толи человек, толи зверь. У него длинные когти и длинные клыки.
 ~
 d0f0g0n0o0 d0k0p0r0z0A0m1r1t1w1 -600 E
-32 0 -10 25d50+5500 8d11+30
-0d0+0 500000
+31 0 -10 25d50+5500 8d11+30
+0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 1
 Str: 36
 Dex: 35
@@ -763,6 +782,7 @@ Size: 85
 LikeWork: 95
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 184
 Weight: 92
 Special_Bitvector: p0 
@@ -782,9 +802,10 @@ E
 Просто волосы начинают шевелиться от одного вида этого существа.
 ~
 d0 h0k0 -600 E
-42 2 -4 10d60+4000 7d12+5
-0d0+0 550000
+31 2 -4 10d60+4000 7d12+5
+0d0+0 375000
 8 8 2
+Saves: -10 -10 -10 -10
 BareHandAttack: 2
 Str: 30
 Dex: 15
@@ -796,6 +817,7 @@ Size: 80
 LikeWork: 75
 ExtraAttack: 3
 Class: 103
+Race: 104
 Height: 150
 Weight: 88
 Special_Bitvector: o0 
@@ -831,7 +853,7 @@ I шерсть,15:5
 ___Обычный волк серого цвета.
 ~
 d0g0j0 k0 -600 E
-10 10 0 10d10+100 5d5+1
+12 10 0 10d10+100 5d5+1
 0d0+0 10000
 8 8 1
 BareHandAttack: 4
@@ -843,6 +865,7 @@ Con: 12
 Cha: 9
 Size: 72
 Class: 103
+Race: 104
 Height: 100
 Weight: 70
 Special_Bitvector: p0 
@@ -862,9 +885,10 @@ E
 Его длинные массивные клыки могут распороть даже хорошие доспехи.
 ~
 d0f0g0n0o0 k0p0r0z0A0m1w1 -600 E
-34 0 -10 25d45+5500 8d11+30
-0d0+0 650000
+31 0 -10 25d45+5500 8d11+30
+0d0+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 1
 Str: 36
 Dex: 35
@@ -876,6 +900,7 @@ Size: 85
 LikeWork: 95
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 184
 Weight: 92
 Special_Bitvector: p0 
@@ -900,9 +925,10 @@ T 95115
 Его длинные руки сжимают длинное же, немного изогнутое копье.
 ~
 b0c0d0g0n0o0A0 k0p1r1 -600 E
-34 0 -10 25d45+9500 15d15+30
-0d0+0 950000
+33 0 -10 25d45+9500 15d15+30
+0d0+0 600000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 1
 Str: 36
 Dex: 36
@@ -914,6 +940,7 @@ Size: 85
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 184
 Weight: 92
 Special_Bitvector: p0b1c1C3 
@@ -976,9 +1003,10 @@ E
 шатается по окрестностям с одной лишь целью - убивать!
 ~
 b0d0f0g0n0o0z0 d0k0n0p0r0z0A0C0b1m1r1t1w1 -600 E
-48 0 -10 25d45+8500 9d15+25
-0d0+0 750000
+32 0 -10 25d45+8500 9d15+25
+0d0+0 500000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 36
 Dex: 20
 Int: 3
@@ -989,6 +1017,7 @@ Size: 85
 LikeWork: 95
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 184
 Weight: 92
 Special_Bitvector: 0 
@@ -1011,9 +1040,10 @@ I зубы,15:10
 знает, как руками уже умерших воинов заполучить власть и богатство.
 ~
 b0c0d0f0g0n0o0p0A0i2 d0k0n0p0r0z0A0C0b1m1q1r1w1 -600 E
-34 0 10 25d45+3000 5d5+10
-0d0+0 850000
+33 0 10 25d45+3000 5d5+10
+0d0+0 600000
 8 8 1
+Saves: -18 -18 -18 -18
 Str: 15
 Dex: 21
 Int: 36
@@ -1024,6 +1054,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 101
+Race: 101
 Height: 184
 Weight: 92
 Special_Bitvector: C3 
@@ -1045,5 +1076,4 @@ Spell: 88
 Spell: 88
 Spell: 88
 E
-T 95116
 $

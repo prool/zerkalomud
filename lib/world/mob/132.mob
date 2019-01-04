@@ -13,7 +13,7 @@
 ненавидящим.
 ~
 d0g0m0n0o0 d0f0k0p0z0 -600 E
-18 10 -3 9d5+310 2d4+3
+13 10 -3 9d5+310 2d4+3
 0d0+0 11000
 8 8 1
 BareHandAttack: 1
@@ -28,6 +28,7 @@ LikeWork: 10
 MaxFactor: 25
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 50
 Special_Bitvector: 0 
@@ -58,7 +59,7 @@ T 13204
 огромную силу. Может быть этот пронзительный взгляд?
 ~
 b0c0d0f0g0l0m0n0o0A0 d0f0k0 -600 E
-22 12 -3 8d5+500 4d2+6
+17 12 -3 8d5+500 4d2+6
 2d9+100 25000
 8 8 2
 Str: 18
@@ -72,10 +73,11 @@ LikeWork: 15
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 114
 Height: 150
 Weight: 80
 Special_Bitvector: b1c1d1 
-Skill: 136 60
+Skill: 136 66
 Skill: 141 70
 Skill: 142 50
 Skill: 143 50
@@ -101,7 +103,6 @@ Spell: 69
 Spell: 72
 Spell: 72
 Helper: 13212
-Skill: 136 66
 E
 T 13203
 #13202
@@ -117,7 +118,7 @@ T 13203
    Страшное волосатое создание с длиннющими ручищами.
 ~
 c0d0g0l0m0n0o0 k0 -600 E
-17 14 0 5d8+300 3d3+2
+12 14 0 5d8+300 3d3+2
 2d2+11 10000
 8 8 1
 BareHandAttack: 6
@@ -132,6 +133,7 @@ LikeWork: 10
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -153,7 +155,7 @@ E
    Древнющее создание, бог знает сколько ему лет.
 ~
 c0d0g0l0m0n0o0 d0k0 -600 E
-19 10 1 4d8+350 3d4+2
+12 10 1 4d8+350 3d4+2
 2d2+19 10000
 8 8 1
 Str: 20
@@ -167,6 +169,7 @@ LikeWork: 10
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -179,18 +182,18 @@ E
 #13204
 гуси лебеди~
 Гуси-Лебеди~
-Гуси-Лебедей~
-Гуси-Лебедям~
-Гуси-Лебедей~
-Гуси-Лебедями~
-Гуси-Лебедях~
+Гусей-Лебедей~
+Гусям-Лебедям~
+Гусей-Лебедей~
+Гусями-Лебедями~
+Гусях-Лебедях~
 Гуси-Лебеди кружатся над Вами.
 ~
    Целая стая птиц кружится тут. Видимо прилетели они сюда неспроста, 
 может быть, здесь живет их хозяин?
 ~
-d0g0n0o0 k0p0x0 -600 E
-18 10 0 5d10+350 2d2+3
+d0g0n0o0f2 k0p0x0 -600 E
+11 10 0 5d10+350 2d2+3
 0d0+0 7000
 8 8 3
 BareHandAttack: 1
@@ -205,6 +208,7 @@ LikeWork: 5
 MaxFactor: 20
 ExtraAttack: 3
 Class: 103
+Race: 103
 Height: 150
 Weight: 50
 Special_Bitvector: 0 
@@ -227,7 +231,7 @@ E
 представляет немалую опасность.
 ~
 d0g0m0n0o0 f0k0x0 -600 E
-17 10 0 8d15+100 2d3+4
+11 10 0 8d15+100 2d3+4
 0d0+11 7000
 8 8 1
 BareHandAttack: 1
@@ -242,6 +246,7 @@ LikeWork: 5
 MaxFactor: 15
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 100
 Weight: 50
 Special_Bitvector: 0 
@@ -264,7 +269,7 @@ T 13208
    Странное создание.
 ~
 c0d0f0g0n0o0A0 d0f0k0 -600 E
-19 0 4 8d2+349 3d3+6
+14 0 4 8d2+349 3d3+6
 5d5+5 15000
 8 8 1
 BareHandAttack: 4
@@ -279,6 +284,7 @@ LikeWork: 20
 MaxFactor: 18
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -303,7 +309,7 @@ T 13211
    Большой паук с мохнатыми лапами.
 ~
 c0d0f0g0j0n0o0 d0k0 -600 E
-16 5 -3 9d3+250 2d2+2
+12 5 -3 9d3+250 2d2+2
 0d0+0 9000
 8 8 1
 BareHandAttack: 4
@@ -318,6 +324,7 @@ LikeWork: 11
 MaxFactor: 18
 ExtraAttack: 3
 Class: 103
+Race: 107
 Height: 140
 Weight: 50
 Special_Bitvector: 0 
@@ -337,7 +344,7 @@ E
    Крохотное создание, светящееся в темноте.
 ~
 d0g0n0o0 k0D0 -600 E
-15 10 0 2d15+110 1d2+1
+4 10 0 2d15+110 1d2+1
 0d0+0 1000
 8 8 1
 Str: 10
@@ -351,6 +358,7 @@ LikeWork: 5
 MaxFactor: 20
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
@@ -369,7 +377,7 @@ E
    Обычная серая крыса. С длинным хвостом и острыми зубами.
 ~
 d0g0m0n0o0 k0 -600 E
-17 7 4 5d5+210 2d3+2
+12 7 4 5d5+210 2d3+2
 0d0+0 9000
 8 8 2
 BareHandAttack: 4
@@ -384,6 +392,7 @@ LikeWork: 10
 MaxFactor: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 50
 Special_Bitvector: 0 
@@ -404,7 +413,7 @@ E
    Крупный красивый сокол, изящно наклонив голову, сидит на ветке дерева.
 ~
 b0d0g0n0o0 d0f0k0 600 E
-20 8 -4 5d8+433 4d3+3
+14 8 -4 5d8+433 4d3+3
 5d5+5 15000
 8 8 1
 BareHandAttack: 8
@@ -418,6 +427,7 @@ Size: 100
 LikeWork: 20
 MaxFactor: 20
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -450,6 +460,7 @@ Cha: 35
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -469,7 +480,7 @@ T 13213
    Худая старушка, точь-в-точь похожая на Бабу Ягу, только помоложе чуть.
 ~
 b0c0d0f0g0n0o0A0 d0f0k0 -600 E
-21 9 -4 5d6+300 5d3+2
+16 9 -4 5d6+300 5d3+2
 10d10+10 21000
 8 8 2
 Str: 17
@@ -483,6 +494,7 @@ LikeWork: 15
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: c1 
@@ -507,7 +519,7 @@ T 13209
 опытная.
 ~
 b0c0d0f0g0n0o0A0 d0f0k0 -600 E
-20 7 0 5d15+399 3d3+4
+16 7 0 5d15+399 3d3+4
 10d10+100 20000
 8 8 2
 BareHandAttack: 2
@@ -522,6 +534,7 @@ LikeWork: 10
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: c1 
@@ -544,7 +557,7 @@ T 13210
    Тощий и угрюмый леший.
 ~
 c0d0g0n0o0 k0 -600 E
-19 8 0 5d15+299 3d3+3
+13 8 0 5d15+299 3d3+3
 5d7+10 10999
 6 6 1
 BareHandAttack: 2
@@ -559,6 +572,7 @@ LikeWork: 5
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: c1 
@@ -580,7 +594,7 @@ E
 работе, целыми днями ест да спит.
 ~
 c0d0g0n0o0A0 d0k0 -600 E
-19 9 0 5d6+400 3d3+4
+12 9 0 5d6+400 3d3+4
 3d2+34 10000
 6 6 1
 BareHandAttack: 2
@@ -595,6 +609,7 @@ LikeWork: 5
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: c1 
@@ -616,7 +631,7 @@ E
    Этот леший так напился, что лежит как мертвый, кажется, даже не дышит.
 ~
 b0c0d0g0n0o0A0 k0 -600 E
-18 8 -3 2d10+411 4d2+6
+12 8 -3 2d10+411 4d2+6
 3d2+9 10000
 5 4 1
 BareHandAttack: 2
@@ -631,6 +646,7 @@ LikeWork: 5
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: c1 
@@ -654,7 +670,7 @@ E
 убежать надо...
 ~
 d0g0n0o0 d0f0k0 -600 E
-18 5 5 5d8+312 1d4+4
+13 5 5 5d8+312 1d4+4
 0d0+0 11000
 8 8 1
 BareHandAttack: 4
@@ -667,6 +683,7 @@ Size: 100
 LikeWork: 10
 MaxFactor: 20
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -689,7 +706,7 @@ T 13207
    Огромный волчище с бездонной пастью и острыми клыками.
 ~
 d0f0g0l0n0o0 d0f0k0 -600 E
-20 7 -3 5d2+399 2d2+5
+14 7 -3 5d2+399 2d2+5
 0d0+0 14000
 8 8 1
 Str: 25
@@ -703,6 +720,7 @@ LikeWork: 15
 MaxFactor: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -722,7 +740,7 @@ E
    Старый седой испуганный дед.
 ~
 a0b0d0g0B0 d0f0k0 600 E
-1 0 0 10d10+11 1d1+11
+12 0 0 10d10+11 1d1+11
 0d0+0 10000
 8 8 1
 Str: 10
@@ -734,6 +752,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

@@ -19,6 +19,7 @@ BareHandAttack: 4
 Size: 45
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 30
 Special_Bitvector: 0 
@@ -45,6 +46,7 @@ Dex: 15
 Size: 55
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -71,6 +73,7 @@ Dex: 15
 Size: 55
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -97,6 +100,7 @@ Dex: 15
 Size: 55
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
@@ -125,6 +129,7 @@ Dex: 15
 Size: 55
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b0b1c1 
@@ -154,6 +159,7 @@ Dex: 15
 Size: 55
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 

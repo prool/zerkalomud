@@ -4,13 +4,12 @@
 спуститься~
 if !(%arg.contains(осторожно)%) && !(%arg.contains(аккуратно)%)
   wsend %actor% Вы начали спускаться по склону.
-  wechoaround %actor% %actor% %actor.name% начал спускаться.   
+  wechoaround %actor% %actor.name% начал%actor.q% спускаться.   
   wait 1s
   if (%random.5% < 3) 
     wsend %actor.name% Камень ушел из под Вашей ноги, и Вы упали, сильно ударившись головой.
-    wechoaround %actor% %actor% %actor.name% оступился и полетел вниз.
-    wteleport %actor.name% 91574
-    wechoaround %actor% Кто-то упал сверху.
+    wechoaround %actor% %actor.name% оступил%actor.u% и полетел вниз.
+    wteleport .%actor.name% 91574  
     wdamage %actor% %actor.hitp%
     if (%random.5% == 1) 
       wecho Горный орел прилетел на шум.
@@ -19,8 +18,7 @@ if !(%arg.contains(осторожно)%) && !(%arg.contains(аккуратно)%)
     end
   else
     wsend %actor.name% Вы спустились на площадку.
-    wteleport %actor.name% 91574
-    wechoaround %actor% Кто-то спустился сверху.
+    wteleport .%actor.name% 91574  
     if (%random.40% == 1) 
       wecho __Горный орел прилетел на шум.
       wait 1s
@@ -28,14 +26,13 @@ if !(%arg.contains(осторожно)%) && !(%arg.contains(аккуратно)%)
     end
   end
 else 
-  wsend %actor% Вы начали аккуратно спускатья по склону.
-  wechoaround %actor% %actor% %actor.name% начал аккуратно спускаться вниз.   
+  wsend %actor% Вы начали аккуратно спускаться по склону.
+  wechoaround %actor% %actor.name% начал аккуратно спускаться вниз.   
   wait 1s
   if (%random.50% == 1) 
     wsend %actor.name% Камень ушел из под Вашей ноги, и Вы упали, сильно ударившись головой.
-    wechoaround %actor% %actor% %actor.name% оступился и полетел вниз.
-    wteleport %actor.name% 91574
-    wechoaround %actor% Кто-то упал сверху.
+    wechoaround %actor% %actor.name% оступился и полетел вниз.
+    wteleport .%actor.name% 91574  
     wdamage %actor% %actor.hitp%
     if (%random.5% == 1) 
       wecho __Горный орел прилетел на шум.
@@ -44,8 +41,7 @@ else
     end
   else
     wsend %actor.name% Вы аккуратно спустились на площадку.
-    wteleport %actor.name% 91574
-    wechoaround %actor% Кто-то аккуратно спустился сверху.
+    wteleport .%actor.name% 91574  
   end
 end
 ~
@@ -66,7 +62,7 @@ end
 ~
 #91502
 Вылет зеленого змея~
-2 ab 100
+2 ab 0
 ~
 if (%random.500% == 1)
   wait 10s
@@ -493,8 +489,8 @@ context 915
 взя все все.тру
 if %self.fighting% && %random.pc% 
   set target %random.pc%
-  dg_cast 'звук волн' %target%
-  dg_cast 'масс страх' %target%
+  dg_cast 'звук волн' %target.name%
+  dg_cast 'масс страх' %target.name%
   mecho &rИспепеляющий все на своем пути поток пламени вырвался из пастей двухголового черного змея!&n
   mload mob 91512
   mload mob 91512

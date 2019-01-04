@@ -15,6 +15,7 @@ b0d0g0n0B0 d0f0k0 0 E
 9d150+100 0
 8 8 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -45,6 +46,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 60
 Special_Bitvector: b1c1 
@@ -56,9 +58,10 @@ Spell: 28
 Spell: 40
 Spell: 59
 Spell: 76
+Spell: 77
+Spell: 77
 E
 T 11805
-T 11806
 #11802
 мертвяк~
 мертвяк~
@@ -80,6 +83,7 @@ Int: 35
 Wis: 35
 Con: 21
 Class: 101
+Race: 110
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -115,6 +119,7 @@ Int: 35
 Wis: 35
 Con: 21
 Class: 101
+Race: 110
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -148,6 +153,7 @@ Int: 35
 Wis: 35
 Con: 21
 Class: 101
+Race: 110
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -187,6 +193,8 @@ Con: 30
 Cha: 25
 Size: 30
 ExtraAttack: 2
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: A0B0b1 
@@ -223,6 +231,7 @@ Size: 30
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 200
 Special_Bitvector: A0B0 
@@ -259,6 +268,7 @@ Cha: 15
 Size: 30
 ExtraAttack: 1
 Class: 105
+Race: 111
 Height: 198
 Weight: 200
 Special_Bitvector: f0A0B0 
@@ -287,6 +297,8 @@ Str: 20
 Dex: 30
 Con: 15
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -313,6 +325,8 @@ Str: 25
 Dex: 26
 Con: 20
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -343,6 +357,8 @@ Con: 25
 Cha: 25
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 111
 Height: 160
 Weight: 200
 Special_Bitvector: A0B0C3 
@@ -352,5 +368,34 @@ Skill: 22 80
 Skill: 136 75
 Skill: 149 80
 Spell: 132
+E
+#11811
+кровавый ворон~
+кровавый ворон~
+кровавого ворона~
+кровавому ворону~
+кровавого ворона~
+кровавым вороном~
+кровавом вороне~
+Кровавый ворон, некогда сильнейшая из сестер, теперь поднимает зомби из могил.
+~
+Как можно убить то, что уже умерло?
+~
+b0c0d0f0g0l0n0o0p0q0r0t0x0z0A0f2 d0e0f0k0r0n1 -600 E
+35 0 -10 1d1+4000 4d5+9
+0d0+0 300000
+8 8 2
+Dex: 35
+Int: 35
+Wis: 35
+Con: 32
+Size: 30
+LikeWork: 15
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
 E
 $

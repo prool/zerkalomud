@@ -11,7 +11,7 @@
 Человекоподобная гранитная глыба.
 ~
 b0d0e0n0o0p0q0r0t0u0x0B0 d0f0h0k0n1 600 E
-50 0 -9 0d0+25000 77d77+77
+1 0 -9 0d0+25000 77d77+77
 0d0+0 1
 8 8 1
 Str: 35
@@ -22,6 +22,7 @@ Con: 32
 Size: 100
 LikeWork: 100
 Class: 100
+Race: 109
 Height: 198
 Weight: 100
 Special_Bitvector: a0v0 
@@ -42,7 +43,7 @@ T 91414
 Змеюка источающая из своего тела жуткий холод.
 ~
 c0d0f0g0l0m0n0o0A0b1e2 d0f0k0r0C0l1r1 -600 E
-36 0 -8 30d40+3000 13d13+13
+30 0 -8 30d40+3000 13d13+13
 0d0+0 300000
 8 8 1
 BareHandAttack: 2
@@ -60,6 +61,7 @@ Size: 80
 LikeWork: 25
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 198
 Weight: 90
 Special_Bitvector: l0u0 
@@ -105,9 +107,10 @@ E
 Исполинское порождение земли, покрытое то ли сединой, то ли снегом.
 ~
 c0d0f0g0l0m0n0o0t0x0A0b1i2 d0f0k0r0C0m1t1 -600 E
-35 1 -8 30d40+3000 30d20+30
+33 1 -8 30d40+3000 30d20+30
 1d1+100 600000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 6
 Str: 36
 Dex: 14
@@ -119,6 +122,7 @@ Size: 80
 LikeWork: 15
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 90
 Special_Bitvector: w0b1c1 
@@ -143,16 +147,17 @@ L 1485 14 0 0
 седого снежного великана~
 седому снежному великану~
 седого снежного великана~
-седом снежным великаном~
+седым снежным великаном~
 седом снежном великане~
 Седой снежный великан бродит по пещере.
 ~
 Исполинское порождение льда, припорошенное землей и глиной.
 ~
 c0d0f0g0l0m0n0o0A0b1i2 d0f0k0r0C0m1q1z1 -600 E
-35 1 -8 30d40+3000 20d15+50
-1d1+100 600000
+33 1 -8 30d40+3000 20d15+50
+1d1+100 800000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 6
 Str: 36
 Dex: 14
@@ -164,6 +169,7 @@ Size: 80
 LikeWork: 15
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 90
 Special_Bitvector: v0b1c1 
@@ -193,9 +199,10 @@ L 1482 20 0 0
 Огромный медведь, обитающий в многочисленных пещерах этих гор.
 ~
 b0d0f0l0m0n0o0p0t0 d0f0k0n0r0m1t1 -600 E
-37 0 -6 1d1+2200 20d9+20
+31 0 -6 1d1+2200 20d9+20
 0d0+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 1
 Str: 35
 Dex: 18
@@ -207,6 +214,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: b0d0 
@@ -239,9 +247,10 @@ T 91403
 Самка пещерного медведя так же опасна как и самец.
 ~
 d0f0g0m0n0o0p0t0 d0f0k0p0r0m1 -600 E
-36 2 -7 1d1+6000 20d9+20
+31 2 -7 1d1+6000 20d9+20
 0d0+0 400000
 8 8 2
+Saves: -10 -10 -10 -10
 BareHandAttack: 1
 Str: 32
 Dex: 15
@@ -253,6 +262,7 @@ Size: 90
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -294,6 +304,7 @@ Size: 75
 LikeWork: 80
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -319,7 +330,7 @@ E
 Мишка-малышка. Недавно родившийся.
 ~
 d0h0l0n0o0 d0f0k0m1 -600 E
-30 0 2 1d1+300 5d5+15
+8 0 2 1d1+300 5d5+15
 0d0+0 3000
 8 8 1
 BareHandAttack: 1
@@ -333,6 +344,7 @@ Size: 75
 LikeWork: 80
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -354,9 +366,10 @@ E
 Чудовищное создание из снега и льда, сметает все на своем пути.
 ~
 c0d0f0g0n0o0x0A0b1 d0f0k0n0r0C0m1q1z1 -600 E
-33 2 -7 30d40+9000 15d15+50
+31 2 -7 30d40+9000 15d15+50
 1d1+100 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 6
 Str: 34
 Dex: 14
@@ -368,6 +381,7 @@ Size: 80
 LikeWork: 20
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 90
 Special_Bitvector: a0b0c0v0b1c1 
@@ -396,9 +410,10 @@ E
 Чудовищное порождение земли, сметает все на своем пути.
 ~
 c0d0f0g0n0o0t0x0A0b1 d0f0k0r0C0m1t1 -600 E
-33 2 -7 30d40+5000 27d15+30
+31 2 -7 30d40+5000 27d15+30
 1d1+100 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 6
 Str: 34
 Dex: 14
@@ -410,6 +425,7 @@ Size: 80
 LikeWork: 20
 ExtraAttack: 1
 Class: 100
+Race: 114
 Height: 198
 Weight: 90
 Special_Bitvector: a0b0c0w0b1c1 
@@ -438,7 +454,7 @@ L 1486 8 0 0
 Лесная гадина, замаскированная под цвет опавшей листвы.
 ~
 d0f0g0h0l0m0n0o0 k0n0r0z0j1 -600 E
-31 0 -8 25d25+2000 5d5+45
+29 0 -8 25d25+2000 5d5+45
 0d0+0 200000
 8 8 1
 BareHandAttack: 8
@@ -452,6 +468,7 @@ Size: 90
 LikeWork: 20
 ExtraAttack: 2
 Class: 103
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: a0b0c0m0 
@@ -507,6 +524,7 @@ Size: 65
 LikeWork: 25
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -533,6 +551,7 @@ b0d0l0n0o0p0q0t0u0s1i2 d0f0k0r0t1 -600 E
 32 3 -3 30d30+7500 8d8+8
 1d1+100 490000
 8 8 2
+Saves: -14 -14 -14 -14
 Str: 24
 Dex: 20
 Int: 40
@@ -543,6 +562,7 @@ Size: 100
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 80
 Special_Bitvector: c0 
@@ -599,7 +619,7 @@ L 1713 3 0 0
 Младший сын всегда в сказках дурак. Хотя ведь в семье не без урода.
 ~
 b0d0f0g0m0n0o0p0q0t0s1 d0k0r0C0 -600 E
-29 3 -6 1d1+3500 10d14+35
+30 3 -6 1d1+3500 10d14+35
 1d1+50 300000
 8 8 1
 Str: 30
@@ -612,6 +632,7 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 150
 Weight: 100
 Special_Bitvector: a0 
@@ -634,7 +655,7 @@ E
 среднего сына~
 среднему сыну~
 среднего сына~
-средним сынам~
+средним сыном~
 среднем сыне~
 Толстый великан стоит здесь.
 ~
@@ -654,6 +675,7 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: a0 
@@ -674,16 +696,17 @@ E
 старшего сына~
 старшему сыну~
 старшего сына~
-старшим сынам~
+старшим сыном~
 старшем сыне~
 Высокий и плечистый великан стоит здесь.
 ~
 Старший сын обычно самый любимый. Он же и самым умным считается.
 ~
 b0d0f0g0m0n0o0 d0k0C0 -600 E
-31 1 -8 1d1+6000 20d14+15
+32 1 -8 1d1+6000 20d14+15
 1d1+100 500000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 32
 Dex: 14
 Int: 8
@@ -694,6 +717,7 @@ Size: 90
 LikeWork: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 100
 Special_Bitvector: a0 
@@ -721,9 +745,10 @@ E
 Членистоногая мохнатая тварь, огромных размеров.
 ~
 b0d0f0n0o0 d0f0k0r0m1 -600 E
-32 1 -4 0d0+3000 13d13+13
+31 1 -4 0d0+3000 13d13+13
 0d0+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 7
 Str: 25
 Dex: 18
@@ -735,6 +760,7 @@ Size: 80
 LikeWork: 20
 ExtraAttack: 2
 Class: 103
+Race: 107
 Height: 198
 Weight: 100
 Special_Bitvector: m0 
@@ -755,7 +781,7 @@ T 91407
 Членистоногая лохматая тварь.
 ~
 d0f0n0o0 d0f0k0r0j1m1 -600 E
-32 -10 -4 0d0+2000 13d13+5
+29 -10 -4 0d0+2000 13d13+5
 0d0+0 240000
 8 8 1
 BareHandAttack: 7
@@ -769,6 +795,7 @@ Size: 70
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 198
 Weight: 100
 Special_Bitvector: j0m0 
@@ -789,7 +816,7 @@ E
 Мерзкий паучара сидит в середине толстой паутины.
 ~
 b0d0f0n0o0 d0f0k0r0j1m1 -600 E
-32 3 -4 40d40+2000 13d13+10
+30 3 -4 40d40+2000 13d13+10
 0d0+0 300000
 8 8 1
 BareHandAttack: 7
@@ -803,6 +830,7 @@ Size: 70
 LikeWork: 20
 ExtraAttack: 2
 Class: 103
+Race: 107
 Height: 198
 Weight: 100
 Special_Bitvector: j0m0 
@@ -825,7 +853,7 @@ T 91415
 Иначе достаток и спокойствие покинут дом.
 ~
 b0d0m0n0o0 h0j1l1 -600 E
-18 -30 -2 1d1+600 5d5+10
+20 -30 -2 1d1+600 5d5+10
 0d0+0 40000
 8 8 1
 BareHandAttack: 4
@@ -839,6 +867,7 @@ Size: 40
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 198
 Weight: 50
 Special_Bitvector: j0 
@@ -861,9 +890,10 @@ E
 Гигантский паук плетет паутину невероятных размеров.
 ~
 b0d0f0n0o0 d0f0k0r0m1 -600 E
-32 1 -4 0d0+3000 13d13+15
+31 1 -4 0d0+3000 13d13+15
 0d0+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 7
 Str: 25
 Dex: 18
@@ -875,6 +905,7 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 3
 Class: 103
+Race: 107
 Height: 198
 Weight: 100
 Special_Bitvector: m0 
@@ -896,7 +927,7 @@ E
 Заботливая мать. Правда вот самца своего она уже сожрала.
 ~
 b0d0f0n0o0r0t0x0i2 d0f0k0r0m1 -600 E
-37 1 -5 0d0+4000 13d13+45
+30 1 -5 0d0+4000 13d13+45
 0d0+0 300000
 8 8 2
 BareHandAttack: 4
@@ -910,6 +941,7 @@ Size: 90
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 198
 Weight: 100
 Special_Bitvector: m0 
@@ -955,9 +987,10 @@ T 91401
 Гигантский еж с длиннющими колючками.
 ~
 d0f0g0n0o0t0 f0k0r0m1 -600 E
-33 1 -7 0d0+3300 12d12+120
+34 1 -7 0d0+3300 12d12+120
 0d0+0 650000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 9
 Str: 20
 Dex: 24
@@ -966,6 +999,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -988,7 +1022,7 @@ L 1480 20 0 0
 Для ежа крупноват, хотя явно видно, что детеныш.
 ~
 d0f0g0n0o0 r0m1 -600 E
-20 1 -7 0d0+1000 7d8+3
+23 1 -7 0d0+1000 7d8+3
 0d0+0 65000
 8 8 1
 BareHandAttack: 9
@@ -1000,6 +1034,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -1021,9 +1056,10 @@ L 1480 9 0 0
 Двоюродный брат водяного.
 ~
 d0f0g0l0n0o0p0A0 d0f0g0k0r0C0D0m1q1 -600 E
-40 0 -10 0d0+6000 12d12+12
+31 0 -10 0d0+6000 12d12+12
 0d0+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 AResist: 30
 Destination: 91409
 Destination: 91420
@@ -1038,6 +1074,7 @@ Size: 50
 LikeWork: 30
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 198
 Weight: 70
 Special_Bitvector: b0b1c1d1 
@@ -1095,7 +1132,7 @@ T 91405
 Вурдалак-кровопийца.
 ~
 c0d0f0g0n0o0A0 d0f0k0r0C0 -600 E
-34 0 -8 0d0+7000 9d9+10
+29 0 -8 0d0+7000 9d9+10
 0d0+0 200000
 8 8 1
 Str: 26
@@ -1108,6 +1145,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 198
 Weight: 110
 Special_Bitvector: b1c1 
@@ -1145,6 +1183,7 @@ Cha: 15
 LikeWork: 30
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1180,7 +1219,7 @@ E
 Нечто необычное, что родилось на свет Божий в этих гнилых болотах.
 ~
 d0f0g0q0s1 d0f0k0r0m1q1 -600 E
-32 0 -7 7d9+1200 8d8+8
+28 0 -7 7d9+1200 8d8+8
 0d0+0 160000
 8 8 2
 BareHandAttack: 4
@@ -1194,6 +1233,7 @@ Size: 50
 LikeWork: 30
 ExtraAttack: 2
 Class: 100
+Race: 112
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
@@ -1243,6 +1283,7 @@ Cha: 15
 LikeWork: 30
 ExtraAttack: 1
 Class: 100
+Race: 111
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1303,6 +1344,7 @@ Con: 25
 Cha: 15
 LikeWork: 30
 Class: 100
+Race: 111
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1350,7 +1392,7 @@ T 91406
 Болотный урод, в обличии человека.
 ~
 d0f0g0l0 f0k0r0 -600 E
-31 0 -6 15d19+2500 18d15+20
+29 0 -6 15d19+2500 18d15+20
 0d0+0 240000
 8 8 1
 Str: 34
@@ -1363,6 +1405,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
+Race: 102
 Height: 198
 Weight: 160
 Special_Bitvector: 0 
@@ -1400,7 +1443,7 @@ E
 Мерзкое порождение болотной трясины.
 ~
 d0f0g0l0 d0f0k0r0 -600 E
-33 1 -7 10d70+3200 11d15+11
+29 1 -7 10d70+3200 11d15+11
 0d0+0 200000
 8 8 0
 Str: 30
@@ -1413,6 +1456,7 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 2
 Class: 100
+Race: 114
 Height: 198
 Weight: 70
 Special_Bitvector: a0b0c0 
@@ -1435,7 +1479,7 @@ E
 Мерзкое порождение болотной трясины.
 ~
 d0f0g0l0 d0f0k0r0 -600 E
-33 1 -7 10d70+3200 11d15+11
+29 1 -7 10d70+3200 11d15+11
 0d0+2 200000
 8 8 0
 Str: 30
@@ -1448,6 +1492,7 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 2
 Class: 100
+Race: 114
 Height: 198
 Weight: 70
 Special_Bitvector: a0b0c0 
@@ -1470,7 +1515,7 @@ E
 Мерзкое порождение болотной трясины.
 ~
 d0f0g0l0 d0f0k0r0 -600 E
-33 1 -7 10d70+3200 11d15+11
+29 1 -7 10d70+3200 11d15+11
 0d0+0 200000
 8 8 0
 Str: 30
@@ -1483,6 +1528,7 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 2
 Class: 100
+Race: 114
 Height: 198
 Weight: 70
 Special_Bitvector: a0b0c0 
@@ -1505,7 +1551,7 @@ E
 Мерзкое порождение болотной трясины.
 ~
 d0f0g0l0m0 d0f0k0r0 -600 E
-33 1 -7 10d70+3200 11d15+11
+29 1 -7 10d70+3200 11d15+11
 0d0+0 200000
 8 8 0
 Str: 30
@@ -1518,6 +1564,7 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 2
 Class: 100
+Race: 114
 Height: 198
 Weight: 70
 Special_Bitvector: a0b0c0 
@@ -1540,7 +1587,7 @@ E
 Дедушка-кровопийца.
 ~
 d0f0g0l0p0t0u0 d0f0k0r0m1 -600 E
-38 3 -7 0d0+2000 7d7+11
+29 3 -7 0d0+2000 7d7+11
 0d0+0 220000
 8 8 1
 Destination: 91428
@@ -1555,6 +1602,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 198
 Weight: 100
 Special_Bitvector: a0b0c0 
@@ -1605,7 +1653,7 @@ E
 Дедушка-кровопийца.
 ~
 d0f0g0l0p0t0u0 d0f0k0r0m1 -600 E
-38 3 -7 0d0+2000 7d7+11
+29 3 -7 0d0+2000 7d7+11
 0d0+0 220000
 8 8 1
 Destination: 91429
@@ -1620,6 +1668,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 198
 Weight: 100
 Special_Bitvector: a0b0c0 
@@ -1670,7 +1719,7 @@ E
 Дедушка-кровопийца.
 ~
 d0f0g0l0p0t0u0 d0f0k0r0m1 -600 E
-38 3 -7 0d0+2000 7d7+11
+29 3 -7 0d0+2000 7d7+11
 0d0+0 220000
 8 8 1
 Destination: 91418
@@ -1685,6 +1734,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 198
 Weight: 100
 Special_Bitvector: a0b0c0 
@@ -1735,7 +1785,7 @@ E
 Дедушка-кровопийца.
 ~
 d0f0g0l0p0t0u0 d0f0k0r0m1 -600 E
-38 3 -7 0d0+2000 7d7+11
+29 3 -7 0d0+2000 7d7+11
 0d0+0 220000
 8 8 1
 Str: 20
@@ -1748,6 +1798,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 100
+Race: 112
 Height: 198
 Weight: 100
 Special_Bitvector: a0b0c0 
@@ -1798,7 +1849,7 @@ E
 Для ежа крупноват, хотя явно видно, что детеныш.
 ~
 d0f0g0n0o0t0x0 f0k0r0m1 -600 E
-20 1 -7 0d0+1000 7d8+3
+23 1 -7 0d0+1000 7d8+3
 0d0+0 65000
 8 8 1
 BareHandAttack: 9
@@ -1809,6 +1860,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -1829,7 +1881,7 @@ E
 Для ежа крупноват, хотя явно видно, что детеныш.
 ~
 d0f0g0n0o0t0x0 f0k0r0m1 -600 E
-20 1 -7 0d0+1100 7d8+3
+23 1 -7 0d0+1100 7d8+3
 0d0+0 65000
 8 8 1
 BareHandAttack: 9
@@ -1840,6 +1892,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -1860,7 +1913,7 @@ E
 Для ежа крупноват, хотя явно видно, что детеныш.
 ~
 d0f0g0n0o0t0x0 f0k0r0m1 -600 E
-20 1 -7 0d0+1200 7d8+3
+23 1 -7 0d0+1200 7d8+3
 0d0+0 65000
 8 8 1
 BareHandAttack: 9
@@ -1871,6 +1924,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -1891,7 +1945,7 @@ E
 Для ежа крупноват, хотя явно видно, что детеныш.
 ~
 d0f0g0n0o0t0x0 f0k0r0m1 -600 E
-20 1 -7 0d0+1200 7d8+3
+23 1 -7 0d0+1200 7d8+3
 0d0+0 65000
 8 8 1
 BareHandAttack: 9
@@ -1902,6 +1956,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -1922,7 +1977,7 @@ E
 Для ежа крупноват, хотя явно видно, что детеныш.
 ~
 d0f0g0n0o0t0x0 f0k0r0m1 -600 E
-20 1 -7 0d0+1200 7d8+3
+23 1 -7 0d0+1200 7d8+3
 0d0+0 65000
 8 8 1
 BareHandAttack: 9
@@ -1933,6 +1988,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -1953,7 +2009,7 @@ E
 Для ежа крупноват, хотя явно видно, что детеныш.
 ~
 d0f0g0n0o0t0x0 f0k0r0m1 -600 E
-20 1 -7 0d0+1200 7d8+3
+23 1 -7 0d0+1200 7d8+3
 0d0+0 65000
 8 8 1
 BareHandAttack: 9
@@ -1964,6 +2020,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -1984,7 +2041,7 @@ E
 Для ежа крупноват, хотя явно видно, что детеныш.
 ~
 d0f0g0n0o0t0x0 f0k0r0m1 -600 E
-20 1 -7 0d0+1200 7d8+3
+23 1 -7 0d0+1200 7d8+3
 0d0+0 65000
 8 8 1
 BareHandAttack: 9
@@ -1995,6 +2052,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -2015,7 +2073,7 @@ E
 Вурдалак-кровопийца.
 ~
 b0c0d0f0g0n0r0A0 d0f0g0C0m1 -600 E
-33 0 -8 30d100+10000 9d9+10
+29 0 -8 30d100+10000 9d9+10
 0d0+0 200000
 8 8 1
 Str: 26
@@ -2026,6 +2084,8 @@ Con: 28
 Cha: 6
 Size: 100
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 110
 Special_Bitvector: a0b0c0b1c1d1 

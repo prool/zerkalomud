@@ -127,9 +127,11 @@ mecho Много чего еще рассказал Вам старый рыбак про свое ремесло, да где там все
 mecho Надо бы реку найти подходящую.
 wait 10
 say Ну теперь ступай. 
-calcuid kuz 20407 mob
-attach 20407 %kuz.id%
-detach 20412 %kuz.id%
+if %world.curmobs(20407)% > 0
+  calcuid kuz 20407 mob
+  attach 20407 %kuz.id%
+  detach 20412 %kuz.id%
+end
 detach 20405 %self.id%
 detach 20406 %self.id%
 ~
@@ -316,6 +318,7 @@ switch %object.vnum%
         attach 20420 %self.id%
         exec 20420 %self.id%
         detach 20416 %self.id%
+      done
 ~
 #20417
 даемчанбаскаку~
@@ -386,11 +389,11 @@ if !(%arg.contains(чан)%)
   halt
 else
   wait 1
-  wsend %actor% Вы начали было снимать кострюлю, но поскользнувшись выронили ее из рук.
-  wechoaround %actor% %actor.name% начал%actor.g% снимать со стены кострюлю, но поскользнул%actor.g%ся
+  wsend %actor% Вы начали было снимать кастрюлю, но поскользнувшись выронили ее из рук.
+  wechoaround %actor% %actor.name% начал%actor.g% снимать со стены кастрюлю, но поскользнул%actor.g%ся
   wechoaround %actor% и выронил%actor.g% ее из рук.
   wait 5
-  wecho С оглушительным звоном кострюля упала на пол.
+  wecho С оглушительным звоном кастрюля упала на пол.
   wload obj 20403
 end
 ~

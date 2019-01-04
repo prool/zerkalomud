@@ -11,7 +11,7 @@
    Это старый человек в грубых серых одеждах.
 ~
 b0d0g0n0o0B0 d0f0k0 600 E
-5 0 0 10d10+100 1d1+1
+12 0 0 10d10+100 1d1+1
 0d0+0 10000
 6 6 1
 Str: 10
@@ -23,6 +23,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 105
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -44,7 +45,7 @@ T 69502
    Это высокорослый человек в тяжелой броне, охраняющий вход в школу.
 ~
 b0c0d0g0l0m0A0 h0k0r0z0A0m1r1t1x1 -600 E
-29 0 -10 15d20+2500 6d9+20
+28 0 -10 15d20+2500 6d9+20
 1d1+100 170000
 8 8 1
 Str: 36
@@ -58,6 +59,7 @@ LikeWork: 40
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 170
 Special_Bitvector: a0b1c1d1C3 
@@ -107,7 +109,7 @@ I глаза,20:5
    Молодой человек, который удостоился чести учиться в этой школе.
 ~
 c0d0g0A0 d0k0r0A0 -600 E
-26 0 -7 12d13+1800 7d7+12
+25 0 -7 12d13+1800 7d7+12
 1d1+50 100000
 8 8 1
 Str: 30
@@ -120,6 +122,7 @@ Size: 75
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 110
 Special_Bitvector: b1c1d1 
@@ -161,10 +164,10 @@ E
 старом седом волхве~
 Старый седой волхв идет мимо, еле передвигая ноги.
 ~
-   Очень старый человек всю свою жизнь посветивший магии.
+Очень старый человек всю свою жизнь посвятивший магии.
 ~
 c0d0f0g0A0 d0h0r0z0A0r1 -600 E
-30 0 -9 10d10+2500 7d7+15
+29 0 -9 10d10+2500 7d7+15
 1d1+400 220000
 8 8 1
 Str: 25
@@ -178,6 +181,7 @@ LikeWork: 60
 MaxFactor: 7
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 80
 Special_Bitvector: b1c1d1C3 
@@ -239,6 +243,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 130
 Special_Bitvector: b1c1d1C3 
@@ -280,7 +285,7 @@ E
    Это человек средних лет с длинной седой бородой и глубоко посаженными глазами.
 ~
 c0d0f0g0A0 b0c0h0k0r0D0r1 -600 E
-29 0 -6 10d10+1500 6d7+12
+28 0 -6 10d10+1500 6d7+12
 1d1+400 185000
 8 8 1
 Str: 30
@@ -292,6 +297,7 @@ Cha: 31
 Size: 56
 LikeWork: 60
 Class: 102
+Race: 101
 Height: 178
 Weight: 95
 Special_Bitvector: b1c1d1 
@@ -329,7 +335,7 @@ E
 наносят смертельные раны.
 ~
 c0d0g0A0 d0f0h0k0n0r0z0A0C0m1r1y1 -600 E
-26 1 -10 15d25+1500 10d10+10
+29 1 -10 15d25+1500 10d10+10
 1d1+10 200000
 8 8 1
 BareHandAttack: 3
@@ -343,6 +349,7 @@ Size: 100
 LikeWork: 25
 ExtraAttack: 2
 Class: 104
+Race: 101
 Height: 200
 Weight: 200
 Special_Bitvector: b1c1d1 
@@ -373,7 +380,6 @@ Skill: 154 120
 Skill: 155 120
 Skill: 165 100
 E
-I кожа,25:5
 #69507
 творец магии~
 творец магии~
@@ -388,7 +394,7 @@ I кожа,25:5
 совершенствует уже существующие.
 ~
 b0c0d0f0g0t0A0 b0d0f0h0k0r0x0z0A0m1r1x1 -600 E
-29 5 -5 15d20+2500 3d3+5
+30 5 -5 15d20+2500 3d3+5
 1d1+300 280000
 8 8 1
 Str: 20
@@ -400,13 +406,14 @@ Cha: 36
 Size: 45
 LikeWork: 90
 Class: 102
+Race: 114
 Height: 139
 Weight: 64
 Special_Bitvector: b1c1d1C3 
 Skill: 4 25
 Skill: 22 25
 Skill: 132 25
-Skill: 136 85
+Skill: 136 87
 Skill: 141 85
 Skill: 142 85
 Skill: 143 85
@@ -433,9 +440,8 @@ Spell: 82
 Spell: 88
 Spell: 113
 Spell: 135
-Helper: 69506
 Helper: 69508
-Skill: 136 87
+Helper: 69506
 E
 I глаза,25:5
 #69508
@@ -452,7 +458,7 @@ I глаза,25:5
 огромнейшей чести, стать учеником творца магии.
 ~
 c0d0f0g0A0 b0h0m0z0A0b1m1y1 -600 E
-25 2 -7 10d10+1200 3d3+3
+28 2 -7 10d10+1200 3d3+3
 1d1+10 150000
 6 6 1
 Str: 35
@@ -465,6 +471,7 @@ Size: 60
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 179
 Weight: 91
 Special_Bitvector: b1c1d1C3 
@@ -519,13 +526,14 @@ Size: 75
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 197
 Weight: 112
 Special_Bitvector: b1c1d1C3 
 Skill: 4 90
 Skill: 22 75
 Skill: 132 45
-Skill: 136 140
+Skill: 136 90
 Skill: 137 100
 Skill: 141 95
 Skill: 142 95
@@ -556,13 +564,12 @@ Spell: 32
 Spell: 32
 Spell: 32
 Spell: 54
-Helper: 69518
-Helper: 69505
-Helper: 69523
-Helper: 69522
-Helper: 69521
 Helper: 69502
-Skill: 136 90
+Helper: 69521
+Helper: 69522
+Helper: 69523
+Helper: 69505
+Helper: 69518
 E
 T 69510
 T 69511
@@ -580,9 +587,10 @@ T 69515
    Великий волхв. Его силы в магии настолько велики, что просто поражают воображение.
 ~
 b0c0d0f0g0n0o0x0A0 b0d0f0h0k0r0x0z0A0C0a1m1x1y1z1 -600 E
-31 0 -10 10d10+2500 6d6+8
+33 0 -10 10d10+2500 6d6+8
 1d1+1000 600000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 3
 Str: 36
 Dex: 36
@@ -593,10 +601,11 @@ Cha: 36
 Size: 100
 LikeWork: 95
 Class: 105
+Race: 101
 Height: 200
 Weight: 141
 Special_Bitvector: b1c1d1 
-Skill: 136 150
+Skill: 136 93
 Skill: 141 150
 Skill: 142 150
 Skill: 143 150
@@ -646,13 +655,12 @@ Spell: 76
 Spell: 93
 Spell: 128
 Spell: 132
-Helper: 69513
-Helper: 69512
-Helper: 69504
-Helper: 69519
-Helper: 69516
 Helper: 69525
-Skill: 136 93
+Helper: 69516
+Helper: 69519
+Helper: 69504
+Helper: 69512
+Helper: 69513
 E
 T 69505
 #69511
@@ -682,6 +690,7 @@ Size: 100
 LikeWork: 55
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 200
 Weight: 141
 Special_Bitvector: b1c1d1C3 
@@ -725,9 +734,10 @@ E
    Этот воин - порождение черного шара магии. Его силы просто огромны.
 ~
 b0d0f0g0m0n0o0p0u0 c0f0h0k0n0r0z0A0C0m1r1w1y1 -600 E
-31 0 -10 20d25+3500 12d10+25
+35 0 -10 20d25+3500 12d10+25
 0d0+500 900000
 8 8 1
+Saves: -26 -26 -26 -26
 BareHandAttack: 2
 Str: 36
 Dex: 36
@@ -740,6 +750,7 @@ LikeWork: 95
 MaxFactor: 2
 ExtraAttack: 4
 Class: 100
+Race: 109
 Height: 200
 Weight: 200
 Special_Bitvector: B3 
@@ -764,9 +775,10 @@ T 69508
 Этот воин - порождение белого шара магии. Его силы просто огромны.
 ~
 b0d0f0g0m0n0o0p0u0 d0f0h0k0n0r0z0A0a1m1r1w1z1 -600 E
-33 5 -10 20d25+3500 15d15+25
+36 5 -10 20d25+3500 15d15+25
 0d0+500 980000
 8 8 1
+Saves: -30 -30 -30 -30
 BareHandAttack: 2
 Str: 36
 Dex: 36
@@ -779,6 +791,7 @@ LikeWork: 95
 MaxFactor: 3
 ExtraAttack: 2
 Class: 100
+Race: 109
 Height: 200
 Weight: 200
 Special_Bitvector: a1b1c1B3 
@@ -802,7 +815,7 @@ T 69507
    Это высокорослый человек в тяжелой броне, охраняющий вход в школу.
 ~
 b0c0d0g0l0m0A0 h0k0r0z0A0m1r1t1x1 -600 E
-29 0 -10 15d20+2500 6d9+20
+28 0 -10 15d20+2500 6d9+20
 1d1+100 170000
 8 8 1
 Str: 36
@@ -816,6 +829,7 @@ LikeWork: 40
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 170
 Special_Bitvector: a0b1c1d1C3 
@@ -864,7 +878,7 @@ E
    Это высокорослый человек в тяжелой броне, охраняющий вход в школу.
 ~
 b0c0d0g0l0m0A0 h0k0r0z0A0m1r1t1x1 -600 E
-29 0 -10 15d20+2500 6d9+20
+28 0 -10 15d20+2500 6d9+20
 1d1+100 170000
 8 8 1
 Str: 36
@@ -878,6 +892,7 @@ LikeWork: 40
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 170
 Special_Bitvector: a0b1c1d1C3 
@@ -926,7 +941,7 @@ E
   Это человек высокого роста с длинными кривыми руками.
 ~
 c0d0f0g0A0 d0h0n0r0z0y1 -600 E
-29 0 -10 10d10+1500 6d7+15
+28 0 -10 10d10+1500 6d7+15
 1d5+100 185000
 8 8 1
 Str: 35
@@ -939,6 +954,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 130
 Special_Bitvector: b1c1d1C3 
@@ -980,7 +996,7 @@ E
    Молодой человек, который удостоился чести учиться в этой школе.
 ~
 c0d0f0g0A0 d0k0r0A0 -600 E
-26 0 -7 12d13+1800 7d7+12
+25 0 -7 12d13+1800 7d7+12
 1d1+50 100000
 8 8 1
 Str: 30
@@ -993,6 +1009,7 @@ Size: 75
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 110
 Special_Bitvector: b1c1d1 
@@ -1052,6 +1069,7 @@ LikeWork: 65
 MaxFactor: 7
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 80
 Special_Bitvector: b1c1d1C3 
@@ -1113,6 +1131,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 130
 Special_Bitvector: b1c1d1C3 
@@ -1154,7 +1173,7 @@ E
    Это человек средних лет с длинной седой бородой и глубоко посаженными глазами.
 ~
 c0d0f0g0A0 b0c0h0k0r0D0r1 -600 E
-29 0 -6 10d10+1500 6d7+12
+28 0 -6 10d10+1500 6d7+12
 1d1+400 185000
 8 8 1
 Str: 30
@@ -1166,6 +1185,7 @@ Cha: 31
 Size: 56
 LikeWork: 60
 Class: 102
+Race: 101
 Height: 178
 Weight: 95
 Special_Bitvector: b1c1d1 
@@ -1202,7 +1222,7 @@ E
    Молодой человек, который удостоился чести учиться в этой школе.
 ~
 c0d0g0A0 d0k0r0A0 -600 E
-26 0 -7 12d13+1800 7d7+12
+25 0 -7 12d13+1800 7d7+12
 1d1+50 100000
 8 8 1
 Str: 30
@@ -1215,6 +1235,7 @@ Size: 75
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 110
 Special_Bitvector: b1c1d1 
@@ -1267,7 +1288,7 @@ E
    Молодой человек, который удостоился чести учиться в этой школе.
 ~
 c0d0g0A0 d0k0r0A0 -600 E
-26 0 -7 12d13+1800 7d7+12
+25 0 -7 12d13+1800 7d7+12
 1d1+50 100000
 8 8 1
 Str: 30
@@ -1280,6 +1301,7 @@ Size: 75
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 110
 Special_Bitvector: b1c1d1 
@@ -1332,7 +1354,7 @@ E
    Это человек средних лет с длинной седой бородой и глубоко посаженными глазами.
 ~
 c0d0f0g0A0 b0c0h0k0r0D0r1 -600 E
-29 0 -6 10d10+1500 6d7+12
+28 0 -6 10d10+1500 6d7+12
 1d1+400 185000
 8 8 1
 Str: 30
@@ -1344,6 +1366,7 @@ Cha: 31
 Size: 56
 LikeWork: 60
 Class: 102
+Race: 101
 Height: 178
 Weight: 95
 Special_Bitvector: b1c1d1 
@@ -1380,7 +1403,7 @@ E
    Это человек средних лет с длинной седой бородой и глубоко посаженными глазами.
 ~
 c0d0f0g0A0 b0c0h0k0r0D0r1 -600 E
-29 0 -6 10d10+1500 6d7+12
+28 0 -6 10d10+1500 6d7+12
 1d1+400 185000
 8 8 1
 Str: 30
@@ -1392,6 +1415,7 @@ Cha: 31
 Size: 56
 LikeWork: 60
 Class: 102
+Race: 101
 Height: 178
 Weight: 95
 Special_Bitvector: b1c1d1 
@@ -1428,7 +1452,7 @@ E
   Это человек высокого роста с длинными кривыми руками.
 ~
 c0d0f0g0A0 d0h0n0r0z0y1 -600 E
-29 0 -10 10d10+1500 6d7+15
+28 0 -10 10d10+1500 6d7+15
 1d5+100 185000
 8 8 1
 Str: 35
@@ -1441,6 +1465,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 130
 Special_Bitvector: b1c1d1C3 
@@ -1482,7 +1507,7 @@ E
    Молодой человек, который удостоился чести учиться в этой школе.
 ~
 c0d0f0g0A0 d0k0r0A0 -600 E
-26 0 -7 12d13+1800 7d7+12
+25 0 -7 12d13+1800 7d7+12
 1d1+50 100000
 8 8 1
 Str: 30
@@ -1495,6 +1520,7 @@ Size: 75
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 110
 Special_Bitvector: b1c1d1 
@@ -1539,7 +1565,7 @@ E
    Молодой человек, который удостоился чести учиться в этой школе.
 ~
 c0d0f0g0A0 d0k0r0A0 -600 E
-26 0 -7 12d13+1800 7d7+12
+25 0 -7 12d13+1800 7d7+12
 1d1+50 100000
 8 8 1
 Str: 30
@@ -1552,6 +1578,7 @@ Size: 75
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 110
 Special_Bitvector: b1c1d1 
@@ -1596,9 +1623,10 @@ E
    Этот человек следит за хранением всех знаний школы.
 ~
 b0c0d0g0l0m0n0o0p0q0r0t0u0A0 d0e0h0r0z0A0x1 -600 E
-30 2 -8 10d10+2500 4d6+10
+31 2 -8 10d10+2500 4d6+10
 1d1+100 330000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 32
 Dex: 33
 Int: 35
@@ -1609,13 +1637,14 @@ Size: 75
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 197
 Weight: 112
 Special_Bitvector: b1c1d1C3 
 Skill: 4 90
 Skill: 22 75
 Skill: 132 45
-Skill: 136 140
+Skill: 136 90
 Skill: 137 100
 Skill: 141 95
 Skill: 142 95
@@ -1644,13 +1673,12 @@ Spell: 32
 Spell: 32
 Spell: 32
 Spell: 54
-Helper: 69527
-Helper: 69526
-Helper: 69517
-Helper: 69524
-Helper: 69520
 Helper: 69503
-Skill: 136 90
+Helper: 69520
+Helper: 69524
+Helper: 69517
+Helper: 69526
+Helper: 69527
 E
 #69529
 творец магии~
@@ -1666,7 +1694,7 @@ E
 совершенствует уже существующие.
 ~
 b0c0d0f0g0t0A0 b0d0f0h0k0r0x0z0A0m1r1x1 -600 E
-29 5 -5 15d20+2500 3d3+5
+30 5 -5 15d20+2500 3d3+5
 1d1+300 280000
 8 8 1
 Str: 20
@@ -1678,13 +1706,14 @@ Cha: 36
 Size: 45
 LikeWork: 90
 Class: 102
+Race: 114
 Height: 139
 Weight: 64
 Special_Bitvector: b1c1d1C3 
 Skill: 4 25
 Skill: 22 25
 Skill: 132 25
-Skill: 136 85
+Skill: 136 87
 Skill: 141 85
 Skill: 142 85
 Skill: 143 85
@@ -1711,9 +1740,8 @@ Spell: 82
 Spell: 88
 Spell: 113
 Spell: 135
-Helper: 69531
 Helper: 69530
-Skill: 136 87
+Helper: 69531
 E
 #69530
 ученик творца магии~
@@ -1729,7 +1757,7 @@ E
 огромнейшей чести, стать учеником творца магии.
 ~
 c0d0f0g0A0 b0h0m0z0A0b1m1y1 -600 E
-25 2 -7 10d10+1200 3d3+3
+28 2 -7 10d10+1200 3d3+3
 1d1+10 150000
 6 6 1
 Str: 35
@@ -1742,6 +1770,7 @@ Size: 60
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 179
 Weight: 91
 Special_Bitvector: b1c1d1C3 
@@ -1784,7 +1813,7 @@ E
 наносят смертельные раны.
 ~
 c0d0g0A0 d0f0h0k0n0r0z0A0C0m1r1y1 -600 E
-26 1 -10 15d25+1500 10d10+10
+29 1 -10 15d25+1500 10d10+10
 1d1+10 200000
 8 8 1
 BareHandAttack: 3
@@ -1798,6 +1827,7 @@ Size: 100
 LikeWork: 25
 ExtraAttack: 2
 Class: 104
+Race: 101
 Height: 200
 Weight: 200
 Special_Bitvector: b1c1d1 

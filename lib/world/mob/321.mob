@@ -13,7 +13,7 @@
 сотканную из миллиарда снежинок. Такая величественная, такая прекрасная.
 ~
 b0d0f0g0l0n0z0A0c2 d0k0x0A0C0q1 -600 E
-28 0 -5 50d10+2000 10d5+10
+30 0 -5 50d10+2000 9d5+10
 0d0+0 300000
 8 8 2
 Saves: 40 40 30 0
@@ -30,6 +30,7 @@ Cha: 20
 Size: 50
 LikeWork: 80
 Class: 101
+Race: 110
 Height: 165
 Weight: 60
 Special_Bitvector: b1c1 
@@ -80,6 +81,7 @@ b0d0g0n0o0 d0k0 600 E
 Size: 60
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 160
 Weight: 50
 Special_Bitvector: 0 
@@ -98,7 +100,7 @@ T 32100
 Кажется, сонм снежинок взвилось в воздух и жалит вас со всей силы.
 ~
 d0e0f0g0m0n0r0t0u0z0c2 d0f0k0p0x0m1 -600 E
-24 0 -4 0d0+500 10d8+10
+23 0 -4 0d0+500 10d8+10
 0d0+0 67000
 8 8 1
 Saves: 20 0 0 0
@@ -112,6 +114,7 @@ Wis: 25
 Con: 15
 Size: 40
 Class: 100
+Race: 113
 Height: 30
 Weight: 50
 Special_Bitvector: a0b0c0d0l0 
@@ -120,6 +123,7 @@ Spell: 104
 Spell: 104
 E
 T 32113
+T 32135
 #32103
  стая снежных куропаток~
 стая снежных куропаток~
@@ -136,7 +140,7 @@ T 32113
 хозяйки!
 ~
 d0e0f0g0m0n0q0z0s1t1 d0f0k0x0 -600 E
-18 20 -5 0d0+400 4d10+10
+20 20 -5 0d0+400 4d10+10
 0d0+0 45000
 8 8 2
 Saves: 20 0 0 60
@@ -151,6 +155,7 @@ Size: 10
 LikeWork: 75
 ExtraAttack: 6
 Class: 103
+Race: 103
 Height: 30
 Weight: 50
 Special_Bitvector: h0l0 
@@ -162,6 +167,7 @@ Skill: 136 55
 Skill: 167 20
 E
 T 32113
+T 32134
 #32104
 снежный тролль~
 снежный тролль~
@@ -177,7 +183,7 @@ T 32113
 Да и дубинка у него здоровая. Что-то так вдруг домой захотелось!
 ~
 d0f0g0t1 0 -600 E
-23 22 0 20d10+1000 8d5+8
+25 22 0 20d10+1000 8d5+8
 20d8+50 100000
 8 8 1
 Saves: 0 0 0 30
@@ -192,6 +198,7 @@ Size: 10
 LikeWork: 80
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 200
 Weight: 60
 Special_Bitvector: 0 
@@ -223,6 +230,7 @@ b0d0g0n0u2 d0f0k0 600 E
 Size: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -255,6 +263,7 @@ b0d0g0n0u2 d0f0k0 600 E
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -295,6 +304,7 @@ Size: 58
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 50
 Special_Bitvector: 0 
@@ -327,7 +337,7 @@ T 32116
 
 ~
 c0d0f0g0m0n0A0u2 d0k0 -600 E
-24 5 4 0d0+400 4d3+4
+22 5 4 0d0+400 4d3+4
 30d10+200 60000
 8 8 2
 Saves: 20 20 0 30
@@ -343,6 +353,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 160
 Weight: 60
 Special_Bitvector: 0 
@@ -370,8 +381,8 @@ Spell: 82
 Spell: 82
 Spell: 93
 Spell: 93
-Helper: 32120
 Helper: 32109
+Helper: 32120
 E
 #32109
 вонючий разбойник~
@@ -390,7 +401,7 @@ E
 устоять на ногах от исходящего от этого дядьки амбре довольно трудно. 
 ~
 c0d0f0g0m0n0A0p1 A0 -600 E
-20 22 0 10d5+500 5d7+14
+23 22 0 10d5+500 5d7+14
 5d4+40 75000
 5 5 1
 BareHandAttack: 10
@@ -404,6 +415,7 @@ Size: 55
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 100
 Special_Bitvector: b1c1 
@@ -437,6 +449,7 @@ b0d0g0B0 d0f0k0 600 E
 Size: 36
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: d1 
@@ -465,6 +478,7 @@ b0d0g0n0B0u2 0 600 E
 4 4 2
 Size: 10
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -476,7 +490,7 @@ E
 #32112
 старуха колдунья~
 колдунья~
-колдунью~
+колдуньи~
 колдунье~
 колдунью~
 колдуньей~
@@ -488,7 +502,7 @@ E
 искусственными цветами? Вот-вот... А она - нацепила. 
 ~
 d0l0m0 d0e0f0r1 -600 E
-24 15 -4 4d15+350 4d4+8
+23 15 -4 4d15+350 4d4+8
 0d0+0 65000
 8 8 2
 CastSuccess: 30
@@ -505,6 +519,7 @@ Size: 58
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 155
 Weight: 60
 Special_Bitvector: 0 
@@ -547,7 +562,7 @@ T 32132
 Невысокий стебелек, небольшой светленький цветочек. Нашел чем любоваться.   
 ~
 b0d0f0m0n0o0z0 0 -600 E
-17 22 -2 10d5+250 5d4+10
+18 22 -2 10d5+250 5d4+10
 0d0+0 32000
 8 8 1
 BareHandAttack: 2
@@ -560,6 +575,7 @@ Size: 47
 LikeWork: 80
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -585,7 +601,7 @@ E
 Ярко-синий цветок с колокольчиками. 
 ~
 b0d0f0m0n0o0z0 d0 -600 E
-17 22 4 10d5+250 5d4+10
+18 22 4 10d5+250 5d4+10
 0d0+0 32000
 8 8 1
 BareHandAttack: 2
@@ -598,6 +614,7 @@ Size: 47
 LikeWork: 90
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -625,7 +642,7 @@ E
 а на длинных тычинках явно просматриваются глаза. Оно что, живое? 
 ~
 b0d0f0g0n0o0z0 0 -600 E
-17 22 4 10d5+250 5d4+10
+18 22 4 10d5+250 5d4+10
 0d0+0 32000
 8 8 2
 BareHandAttack: 2
@@ -638,6 +655,7 @@ Size: 47
 LikeWork: 80
 ExtraAttack: 2
 Class: 100
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -668,7 +686,7 @@ E
 
 ~
 b0d0f0g0m0z0 0 -600 E
-17 22 4 10d8+300 5d4+10
+19 22 4 10d8+300 5d4+10
 0d0+0 38000
 8 8 1
 BareHandAttack: 2
@@ -681,6 +699,7 @@ Size: 47
 LikeWork: 90
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -711,7 +730,7 @@ E
 листочками. 
 ~
 b0d0f0g0m0n0o0z0 e2 -600 E
-17 19 4 10d10+250 5d4+12
+19 19 4 10d10+250 5d4+12
 0d0+0 37000
 8 8 1
 BareHandAttack: 2
@@ -723,6 +742,7 @@ Size: 47
 LikeWork: 80
 ExtraAttack: 2
 Class: 100
+Race: 108
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -753,7 +773,7 @@ T 32105
 угрожающе.
 ~
 d0f0g0m0n0 f0k0z0A0 -600 E
-22 23 0 10d5+500 15d4+15
+24 23 0 10d5+500 15d4+15
 0d0+0 79000
 8 8 1
 Saves: 20 0 20 0
@@ -768,6 +788,7 @@ Size: 40
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -807,6 +828,7 @@ Size: 60
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 120
 Weight: 100
 Special_Bitvector: 0 
@@ -831,7 +853,7 @@ E
 женат. 
 ~
 c0d0f0g0 0 -600 E
-22 23 4 6d8+600 8d5+15
+24 23 4 6d8+600 8d5+15
 7d7+30 85000
 8 8 1
 Saves: 40 40 40 40
@@ -849,6 +871,7 @@ Cha: 3
 Size: 48
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -876,10 +899,10 @@ E
 Невзрачный дядька лет тридцати пяти. На первый взгляд, он какой-то психически
 неуравновешанный тип. Глаз левый дергается, руки постоянно в движении. 
 Бегущая из краешка безвольного рта слюна только укрепляет вас в мысли о его 
-душеновной нестабильности. 
+душевной нестабильности. 
 ~
 c0d0g0l0m0n0o0A0 d0f0k0A0 -600 E
-16 21 2 10d5+450 5d4+8
+21 21 2 10d5+450 5d4+8
 10d5+50 54000
 8 8 1
 BareHandAttack: 10
@@ -892,6 +915,7 @@ Size: 46
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -935,6 +959,7 @@ Size: 47
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -960,8 +985,8 @@ E
 Сурово сдвинутые брови, решительные движения. Видно, что он не даст себя
 в обиду. 
 ~
-b0d0g0m0n0o0p0t0u0B0 0 600 E
-20 28 5 5d5+250 8d5+5
+b0d0g0m0n0o0p0t0u0B0 d0k0 600 E
+14 28 5 5d5+250 8d5+5
 0d0+0 14000
 8 8 1
 Saves: 70 70 70 70
@@ -979,6 +1004,7 @@ Size: 45
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 50
 Special_Bitvector: B3 
@@ -1010,6 +1036,7 @@ b0d0g0n0o0p0q0r0t0u0B0 d0f0k0 600 E
 Size: 42
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 50
 Special_Bitvector: 0 
@@ -1032,7 +1059,7 @@ E
 общества, вне всякого сомнения.
 ~
 c0d0g0h0l0o0y0A0h1 0 0 E
-20 21 4 0d0+500 6d7+8
+14 21 4 0d0+500 6d7+8
 0d0+25 15000
 8 8 1
 Destination: 32106
@@ -1054,6 +1081,7 @@ Size: 46
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 90
 Special_Bitvector: b1c1 
@@ -1077,8 +1105,8 @@ E
 Худой лопоухий мальчуган с ободранными коленями. Когда смеется - обнаруживает
 отсутствие двух передних зубов. А смеется он практически всегда.
 ~
-c0d0g0h0A0h1l1m1n1 0 0 E
-6 15 8 10d8+100 2d2+2
+c0d0g0h0y0A0h1l1m1n1 0 0 E
+4 15 8 10d8+100 2d2+2
 1d2+1 720
 8 8 1
 Destination: 32106
@@ -1098,6 +1126,7 @@ Con: 14
 Cha: 14
 Size: 36
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -1121,7 +1150,7 @@ E
 наверное перебирает в уме какие продукты надо купить...
 ~
 d0g0l0n0o0h1 0 0 E
-17 18 4 6d5+320 4d3+4
+16 18 4 6d5+320 4d3+4
 0d0+5 21000
 8 8 2
 Saves: 30 30 30 30
@@ -1145,6 +1174,7 @@ Size: 47
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -1196,6 +1226,7 @@ Size: 33
 LikeWork: 80
 ExtraAttack: 7
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
@@ -1219,7 +1250,7 @@ E
 симпатичного продавца какую-нибудь мелочь - что может быть приятней? 
 ~
 d0g0h1l1m1n1 0 0 E
-16 18 4 0d0+320 5d8+8
+13 18 4 0d0+320 5d8+8
 0d0+5 12000
 8 8 1
 CastSuccess: 20
@@ -1232,6 +1263,7 @@ Con: 18
 Size: 46
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -1264,7 +1296,7 @@ E
 но не доносится до вас ни звука. 
 ~
 d0f0g0n0o0z0A0 d0k0 -600 E
-20 -1 0 20d5+650 8d6+12
+25 -1 0 20d5+650 8d6+12
 0d0+0 95000
 8 8 1
 BareHandAttack: 7
@@ -1278,6 +1310,7 @@ Size: 45
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 160
 Weight: 60
 Special_Bitvector: e0n0b1c1 
@@ -1314,8 +1347,8 @@ E
 ~
 Огромный зверюга, шерсть клочкастая, ребра ввалившиеся. Голодный и опасный.
 ~
-d0f0l0m0n0o0z0A0 0 -600 E
-19 20 5 10d10+350 6d6+12
+d0f0l0m0n0o0A0 0 -600 E
+20 20 5 10d10+350 6d6+12
 0d0+0 41000
 8 8 1
 BareHandAttack: 1
@@ -1327,6 +1360,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1352,7 +1386,7 @@ E
 лица яростно полыхают зловещие красные глаза. 
 ~
 d0f0m0n0z0 k0 -600 E
-20 22 0 12d6+450 6d4+15
+23 22 0 12d6+450 6d4+15
 0d0+0 65000
 8 8 2
 BareHandAttack: 9
@@ -1366,6 +1400,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 2
 Class: 101
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: e0 
@@ -1394,7 +1429,7 @@ E
 пальцев на ее нежной когда-то шейке.
 ~
 c0d0f0l0m0n0o0z0A0 d0f0k0x0 -600 E
-23 16 -2 10d4+380 4d3+6
+21 16 -2 10d4+380 4d3+6
 0d0+0 52000
 8 8 2
 Saves: 10 10 10 10
@@ -1411,6 +1446,7 @@ Size: 80
 LikeWork: 85
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: e0 
@@ -1451,7 +1487,7 @@ E
 когтями на мощных лапах.
 ~
 c0d0f0m0A0t1 d0 -600 E
-19 -2 0 20d5+500 0d0+0
+22 -2 0 20d5+500 0d0+0
 0d0+0 55000
 8 8 1
 Saves: 20 20 20 20
@@ -1467,6 +1503,7 @@ Size: 70
 LikeWork: 70
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -1474,6 +1511,7 @@ Skill: 4 50
 Skill: 132 50
 Skill: 136 60
 E
+T 32133
 #32135
 пес собака~
 сторожевой пес~
@@ -1488,7 +1526,7 @@ E
 
 ~
 b0d0f0l0m0 f0z0 -600 E
-17 19 4 10d5+250 5d4+10
+18 19 4 10d5+250 5d4+10
 0d0+0 28000
 8 8 1
 BareHandAttack: 4
@@ -1502,6 +1540,7 @@ Size: 50
 LikeWork: 60
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 75
 Weight: 60
 Special_Bitvector: 0 
@@ -1527,7 +1566,7 @@ E
 поисках пищи?
 ~
 d0j0k0m0d1 k0s0 -600 E
-26 21 -1 10d5+400 6d5+12
+20 21 -1 10d5+400 6d5+12
 0d0+0 41000
 8 8 1
 BareHandAttack: 4
@@ -1541,6 +1580,7 @@ Size: 50
 LikeWork: 55
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 60
 Weight: 50
 Special_Bitvector: 0 
@@ -1562,7 +1602,7 @@ E
 Высокий смуглый мужчина, прогуливающийся со скучающим видом.
 ~
 c0d0l0m0h1 d0 0 E
-25 7 -3 10d5+450 6d5+12
+15 7 -3 10d5+450 6d5+12
 5d3+20 18000
 8 8 1
 Str: 23
@@ -1575,6 +1615,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 100
 Special_Bitvector: 0 
@@ -1594,7 +1635,7 @@ E
 Достать золотую монету из-за вашего уха или метнуть кинжал в яблочко на голове для настоящего шута не составляет труда.
 ~
 c0d0l0n0g2 d0k0 0 E
-24 22 0 20d5+300 7d6+8
+17 22 0 20d5+300 7d6+8
 10d12+60 25000
 8 8 1
 Saves: 40 40 40 40
@@ -1609,6 +1650,7 @@ Size: 60
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 60
 Special_Bitvector: i0a1 
@@ -1633,7 +1675,7 @@ T 32130
 его в толпе.
 ~
 c0d0n0 d0k0 0 E
-25 3 3 10d5+300 7d5+10
+19 3 3 10d5+300 7d5+10
 10d8+40 38000
 8 8 1
 BareHandAttack: 7
@@ -1647,6 +1689,7 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 60
 Special_Bitvector: a1b1c1 
@@ -1672,7 +1715,7 @@ T 32130
 или же день взятия Бастилии - главное ведь чтоб жилось весело!
 ~
 d0n0h1 d0f0k0 0 E
-24 9 0 0d0+200 6d6+5
+1 9 0 0d0+200 6d6+5
 0d0+0 1
 8 8 1
 BareHandAttack: 14
@@ -1686,6 +1729,7 @@ Size: 80
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 85
 Special_Bitvector: 0 
@@ -1705,7 +1749,7 @@ E
 дворов.
 ~
 c0d0l0A0h1 d0 0 E
-26 20 -3 0d0+600 6d6+15
+16 20 -3 0d0+600 6d6+15
 0d0+0 20000
 8 8 1
 BareHandAttack: 6
@@ -1719,6 +1763,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 150
 Special_Bitvector: 0 
@@ -1753,6 +1798,7 @@ Size: 10
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -1784,6 +1830,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 140
 Weight: 50
 Special_Bitvector: B3 
@@ -1815,6 +1862,7 @@ Cha: 25
 Size: 100
 LikeWork: 50
 Class: 101
+Race: 113
 Height: 200
 Weight: 150
 Special_Bitvector: 0 
@@ -1845,7 +1893,7 @@ E
 Интересно, зачем старой ведьме понадобилась конопля...
 ~
 b0d0f0n0o0 d0k0 -600 E
-21 18 4 0d0+220 5d5+6
+18 18 4 0d0+220 5d5+6
 0d0+0 30000
 8 8 1
 CastSuccess: 15
@@ -1860,6 +1908,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 108
 Height: 100
 Weight: 85
 Special_Bitvector: 0 
@@ -1885,7 +1934,7 @@ E
 ладонь, мошкара с палец величиной, и слепни что твоя голова.
 ~
 d0e0f0n0o0r0z0b1l1m1n1s1h2i2 d0k0x0 -600 E
-23 18 0 0d0+250 5d2+5
+19 18 0 0d0+250 5d2+5
 0d0+0 38000
 8 8 2
 BareHandAttack: 4
@@ -1899,6 +1948,7 @@ Size: 100
 LikeWork: 15
 ExtraAttack: 7
 Class: 103
+Race: 104
 Height: 200
 Weight: 150
 Special_Bitvector: g0 
@@ -1925,7 +1975,7 @@ E
 Темное создание с туманными размытыми очертаниями.
 ~
 b0d0f0q0r0 d0k0x0j1r1e2 -600 E
-27 24 0 20d10+800 7d5+15
+29 24 0 20d10+800 7d5+15
 0d0+0 200000
 8 8 1
 CastSuccess: 40
@@ -1940,6 +1990,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 2
 Class: 101
+Race: 101
 Height: 100
 Weight: 100
 Special_Bitvector: e0 
@@ -1961,9 +2012,9 @@ Spell: 156
 Spell: 156
 Spell: 170
 Spell: 170
-Helper: 32133
-Helper: 32132
 Helper: 32130
+Helper: 32132
+Helper: 32133
 E
 #32148
 девочка Герда~
@@ -1991,6 +2042,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2014,7 +2066,6 @@ b0d0n0o0p0q0r0t0u0 d0f0k0 600 E
 7 5 0 0d0+250 2d2+1
 0d0+0 0
 6 8 2
-BareHandAttack: 4
 Str: 10
 Dex: 10
 Int: 10
@@ -2023,6 +2074,7 @@ Con: 10
 Cha: 10
 Size: 100
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2059,6 +2111,7 @@ Cha: 10
 Size: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 155
 Weight: 50
 Special_Bitvector: 0 
@@ -2088,6 +2141,7 @@ Cha: 10
 Size: 44
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 155
 Weight: 50
 Special_Bitvector: 0 
@@ -2120,6 +2174,7 @@ Size: 58
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 50
 Special_Bitvector: 0 
@@ -2132,8 +2187,8 @@ Skill: 22 60
 Skill: 131 40
 Skill: 144 60
 Skill: 147 60
-Helper: 32121
 Helper: 32109
+Helper: 32121
 E
 T 32116
 #32153
@@ -2165,6 +2220,7 @@ Size: 80
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 85
 Special_Bitvector: 0 
@@ -2198,6 +2254,7 @@ Cha: 13
 Size: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 155
 Weight: 50
 Special_Bitvector: 0 
@@ -2219,7 +2276,7 @@ gerda32101 девочка герда~
 ~
 Измученная, но счастливая от того, что нашла Кая. 
 ~
-b0d0n0o0p0q0r0t0u0g2l2 c0f0k0 600 E
+b0d0n0o0p0q0r0t0u0g2l2 c0d0f0k0 600 E
 7 9 0 0d0+100 3d2+2
 0d0+0 0
 8 8 2
@@ -2232,6 +2289,7 @@ Cha: 10
 Size: 44
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 155
 Weight: 50
 Special_Bitvector: 0 

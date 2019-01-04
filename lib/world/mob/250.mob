@@ -25,6 +25,7 @@ Cha: 20
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -57,6 +58,7 @@ Cha: 20
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -64,7 +66,6 @@ Skill: 21 75
 Skill: 136 75
 Skill: 157 75
 Helper: 25001
-Skill: 136 75
 E
 #25002
 хозяйская дочь~
@@ -80,7 +81,7 @@ E
 приковывает к себе всякий взгляд. Не неженка, что строит глазки всякому
 дородному купцу, а крепкая девица, смотрящая прямо, как будто бросая вызов.
 ~
-b0d0g0 d0f0k0 600 E
+b0d0g0n0u2 d0f0k0 600 E
 30 0 0 0d0+350 8d8+8
 4d4+45 0
 8 8 2
@@ -93,6 +94,7 @@ Cha: 20
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -126,6 +128,7 @@ Cha: 20
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -158,6 +161,7 @@ Cha: 20
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 175
 Special_Bitvector: 0 
@@ -187,6 +191,7 @@ Con: 20
 Cha: 20
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -219,6 +224,7 @@ Cha: 30
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -249,6 +255,7 @@ Con: 20
 Cha: 20
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -284,6 +291,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 95
 Special_Bitvector: d0 
@@ -318,6 +326,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 95
 Special_Bitvector: 0 
@@ -353,6 +362,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 95
 Special_Bitvector: 0 
@@ -388,6 +398,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 95
 Special_Bitvector: 0 
@@ -424,6 +435,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 95
 Special_Bitvector: 0 
@@ -459,6 +471,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 95
 Special_Bitvector: 0 
@@ -493,6 +506,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 30
 Special_Bitvector: 0 
@@ -528,6 +542,7 @@ Size: 50
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 30
 Special_Bitvector: 0 
@@ -563,6 +578,7 @@ Size: 60
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 75
 Special_Bitvector: y0b1c1 
@@ -600,6 +616,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 90
 Special_Bitvector: b1 
@@ -635,6 +652,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 90
 Special_Bitvector: b1 
@@ -671,6 +689,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 95
 Special_Bitvector: 0 
@@ -704,6 +723,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 95
 Special_Bitvector: 0 
@@ -739,6 +759,7 @@ Cha: 30
 Size: 100
 LikeWork: 90
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -772,6 +793,8 @@ Wis: 13
 Con: 22
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -803,6 +826,8 @@ Wis: 24
 Con: 34
 Cha: 28
 Size: 30
+Class: 100
+Race: 100
 Height: 140
 Weight: 200
 Special_Bitvector: 0 
@@ -836,6 +861,8 @@ Wis: 17
 Con: 24
 Cha: 15
 Size: 50
+Class: 100
+Race: 100
 Height: 160
 Weight: 120
 Special_Bitvector: 0 
@@ -870,6 +897,8 @@ Cha: 3
 Size: 50
 LikeWork: 75
 ExtraAttack: 2
+Class: 100
+Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1d1 
@@ -908,6 +937,8 @@ Wis: 16
 Con: 16
 Cha: 4
 Size: 45
+Class: 100
+Race: 100
 Height: 160
 Weight: 90
 Special_Bitvector: j0b1c1 

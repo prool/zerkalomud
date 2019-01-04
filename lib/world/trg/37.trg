@@ -18,7 +18,7 @@ end
 Именной стафф - Коннор~
 1 gjp 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
 if %actor.name% != Коннор
@@ -69,6 +69,7 @@ if ((%actor.level% > 30) && (%actor.level% == -1))
   halt
 end
 if %actor.name% != Мортыфан && %actor.name% != Шабу
+  otransform 3704
   osend %actor% &RТ&Yо&Gр&Cб&Bа &Mд&Rл&Yя &Gп&Gл&Bю&Mш&Rе&Yк&n вырвалась из Ваших рук!
   return 0
   halt
@@ -121,10 +122,10 @@ end
 Именной стафф - Ледогост~
 1 gjp 100
 ~
-if ((%actor.level% > 30) && (%actor.vnum% == -1))
+if %actor.level% > 30 && %actor.vnum% == -1
   halt
 end
-if %actor.name% != Ледогост && %actor.name% != Сагитари && %actor.name% != Лирана
+if %actor.name% != Ледогост && %actor.name% != Касион && %actor.name% != Лирана
   otransform 3707
   osend %actor% _Торба Карманника ловко отскочила в сторону от ваших рук.
   return 0
@@ -340,10 +341,10 @@ oecho Боты засветились таинственным светом и Вам стало теплее на душе.
 Именной стафф - Альмир~
 1 gjp 100
 ~
-if ((%actor.level% > 30) & (%actor.vnum% == -1))
+if ((%actor.level% > 30) && (%actor.vnum% == -1))
   halt
 end
-if ((%actor.name% != Альмир) && (%actor.name% != Лоримак))
+if ((%actor.name% != Альмир) && (%actor.name% != Ларустар) && (%actor.name% != Лоримак))
   otransform 3716
   osend %actor% Вы попытались взять булку, но она рассыпалась, превратившись в крошки, вот незадача.
   return 0
@@ -512,10 +513,10 @@ end
 Именной стафф -- Эстери~
 1 gjp 100
 ~
-if ((%actor.level% > 30) && (%actor.vnum% == -1))
+if %actor.level% > 30 && %actor.vnum% == -1
   halt
 end
-if ((%actor.name% != Эстери) && (%actor.name% != Мадрак) & (%actor.name% != Радош) & (%actor.name% != Акана) && (%actor.clan% != вз))
+if %actor.name% != Эстери && %actor.name% != Мадрак && %actor.name% != Радош && %actor.name% != Акана && %actor.clan% != вз
   otransform 3726
   osend %actor% Вы попытались заглянуть в черную дыру, но у Вас закружилась голова и вы чуть не хлопнулись на пол.
   return 0
@@ -534,9 +535,9 @@ end
 if ((%actor.level% > 30) && (%actor.vnum% == -1))
   halt
 end
-if ((%actor.name% != Тикен) && (%actor.clan% != вз))
+if ((%actor.name% != Тикен) && (%actor.name% != Ролонд) && (%actor.name% != Воря) && (%actor.name% != Хадар) && (%actor.name% != Фарогор))
   otransform 3727
-  osend %actor% Зел╦ный ч╦ртик выскочил из торбы, злобно обнюхал вас и сказал: "Не тво╦, не трожь!"
+  osend %actor% &GЗеленый чертик&n выскочил из торбы, злобно обнюхал Вас и сказал: "Не твое, не трожь!"
   return 0
   halt
 end
@@ -710,7 +711,7 @@ oechoaround %actor% Вы заметили, что в руках Сивиль &Wсумка &Wсо &Yсвя&Rщен&Yным
 if %actor.level% > 30 && %actor.vnum% == -1
   halt
 end
-if %actor.name% != Гиран && %actor.name% != Орник && %actor.name% != Кряж && %actor.name% != Волонд
+if %actor.name% != Гиран && %actor.name% != Орник && %actor.name% != Кряж && %actor.name% != Гирас && %actor.name% != Гирак && %actor.name% != Гират
   otransform 3737
   oechoaround %actor% &WКрылатый сапожок внезапно ожил, &RСМЕРТЕЛЬНО пнув &Wосмелившегося поднять рюкзачок наглеца.&n
   osend %actor% &RКрылатый сапожок СМЕРТЕЛЬНО пнул Вас.&n
@@ -730,14 +731,13 @@ if %actor.level% > 30 && %actor.vnum% == -1
 end
 if %actor.name% != Лиана && %actor.name% != Ириний && %actor.name% != Надия
   otransform 3738
-  __oechoaround %actor% %actor.name% попытал%actor.u% взять &Rсумку кровавых слез&n но вдруг передумал%actor.g%..
-  osend %actor% Вы попытались взять &Rсумку кровавых слез&n но вдруг передумали.
+  oechoaround %actor% %actor.name% попытал%actor.u% дотронуться до &CЛедяной &MРозы&n но чуть сам%actor.g% не стал%actor.g% &Cльдом&n.
+  osend %actor% &CХолод &nи &Mпечаль &nпроникли в ваше сердце, превратив его в &Cмаленький ледяной шарик&n...
   return 0
   halt
 else
   wait 1
-  oechoaround %actor% &RСлезы&n упали на землю и превратились в &Wбелые лилии&n...
-  osend %actor% &RКровавые слезы&n упали с небес...
+  oecho &CЛедяные лепестки &Mрозы&n тихо зашелестели и замерцали &Wтаинственным светом&n...
 end
 ~
 #3739
@@ -814,7 +814,7 @@ end
 if %actor.level% > 30 && %actor.vnum% == -1
   halt
 end
-if %actor.name% != Наська && %actor.name% != Лукреция && %actor.name% != Кира
+if %actor.name% != Наська && %actor.name% != Лукреция && %actor.name% != Кира && %actor.name% != Зазноба
   otransform 3742
   oechoaround %actor% %actor.name% попытал%actor.u% подобрать анимешный брелок, но тутже выронил его из рук.
   oforce %actor% say Ня!
@@ -849,13 +849,13 @@ else
 end
 ~
 #3744
-Именной шмот - Иван~
+Именной стаф - Карл~
 1 g 100
 ~
 if %actor.level% > 30 && %actor.vnum% == -1
   halt
 end
-if %actor.name% != Иван && %actor.name% != Карл && %actor.name% != Делт && %actor.name% != Гиффор 
+if %actor.name% != Гурьян && %actor.name% != Карл && %actor.name% != Ярмита && %actor.name% != Гиффор 
   otransform 3744
   oechoaround %actor% %actor.name% протянул%actor.g% руку к &Kсетке &nс &gпродуктами&n, но затем передумал%actor.g%.
   osend %actor% Вы протянули руку к &Kсетке &nс &gпродуктами&n, но совесть не позволила Вам взять чужое.
@@ -908,7 +908,7 @@ end
 if %actor.level% > 30 && %actor.vnum% == -1
   halt
 end
-if %actor.name% != Чира && %actor.name% != Мируша && %actor.name% != Элиза && %actor.name% != Ярина && %actor.name% != Тхарна 
+if %actor.name% != Василиса && %actor.name% != Мируша && %actor.name% != Элиза && %actor.name% != Ярина && %actor.name% != Тхарна 
   otransform 3747
   oecho Лунные нити на сумке ослепили Вас своим сиянием.
   return 0
@@ -940,7 +940,7 @@ end
 if ((%actor.level% > 30) && (%actor.vnum% == -1))
   halt
 end
-if ((%actor.name% != Сиррон) &  (%actor.clan% != нво))
+if %actor.name% != Сиррон && %actor.clan% != нво
   otransform 3749
   osend %actor% Вы попытались поднять волшебную суму, но она отпрыгнула в сторону.
   return 0
@@ -994,12 +994,19 @@ if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
 end
 if ((%actor.name% != Кьяра) && (%actor.name% != Дэрсин) && (%actor.name% != Коруна) && (%actor.name% != Вистар))
   otransform 3752
-  osend %actor% &mКарамельный &Mкармашек&n растаял у Вас к руках.
+  osend %actor% &mКарамельный &Mкармашек &nрастаял у Вас к руках.
   return 0
   halt
 else
   wait 1
-  oecho Из &WИрискиного &Mкармашка&n повеяло запахом &mкарамели&n.
+  switch %random.2%
+    case 1
+      oecho Из &WИрискиного &Mкармашка &Wповеяло &mванилью и &rкорицей&n.
+    break
+    case 2
+      oecho Из &WИрискиного &Mкармашка &Wвдруг выпало &yкофейное &yзернышко&n.
+    break
+  done
 end
 ~
 #3753
@@ -1075,32 +1082,29 @@ end
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if ((%actor.name% != Гразий) && (%actor.name% != Евпараския) && (%actor.name% != Хорыв) && (%actor.name% != Лескун))
+if ((%actor.name% != Гразий) && (%actor.name% != Евпараския) && (%actor.name% != Хорыв) && (%actor.name% != Лескун) && (%actor.name% != Богун) && (%actor.name% != Горинка) && (%actor.name% != Посолонь))
   otransform 3757
   osend %actor% Вас &WОГЛУШИЛО&n Богатырским &CМолотом&n при попытке взять мешок.
   return 0
   halt
 else
   wait 1
-  oecho _%actor.name% вдохнул%actor.g% полную грудь воздуха и, поднатужившись, поднял%actor.g% тяжеленный мешок.
+  oecho Вдруг у Вас в &Kмозгу&n мелькнула &RМысль&n: Только не в &yтерновый &Yкуст&n!
+  oecho Вокруг &Gлистья&n да &yветки&n, &rтерни&n да &Yколючки&n.
+  oecho Вас обвивают &Yострые &yветви&n и Вы начинаете &Wтихонько&n скулить и проситься к &RМАМЕ&n!
 end
 ~
 #3758
-Именной стаф - Пилатий~
+Именной стаф - Ясленик~
 1 gjp 100
 ~
-if (%actor.level% > 30) && (%actor.vnum% == -1)
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if ((%actor.name% != Пилатий) && (%actor.name% != Савриил) && (%actor.name% != Раодон))
-  otransform 3758
-  osend %actor% Вы хотели поднять торбу, но поняли что, ЗДЕСЬ сала нет!
+if ((%actor.name% != Ясленик) && (%actor.name% != Полюд) && (%actor.name% != Бразд) && (%actor.name% != Меламори) && (%actor.name% != Нежана) && (%actor.name% != Леонтий))
+  osend %actor%   &YР&yу&gн&Gа&n, начертанная на &Kп&nи&Wт&nо&Kм&nз&Wе&n, вдруг &rзагорелась&n и &Kобожгла&n Вам руку.
   return 0
   halt
-else
-  wait 1
-  oecho Вы унюхали смачный запах сала из торбы Савриила.
-  oecho Ах, как хочется пожрать!
 end
 ~
 #3759
@@ -1122,7 +1126,7 @@ say My trigger commandlist is not complete!
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if ((%actor.name% != Вяхорь) && (%actor.name% != Дивиш) && (%actor.name% != Эбрита))
+if ((%actor.name% != Вяхорь) && (%actor.name% != Дивиш) && (%actor.name% != Витаслав))
   otransform 3761
   osend %actor% Вы попытались поднять &Kавоську&n, но случайно уронили ее, разбив все &gбутылки&n.
   return 0
@@ -1136,15 +1140,15 @@ end
 if %actor.level% > 30 && %actor.vnum% == -1
   halt
 end
-if ((%actor.name% != Алексей) && (%actor.name% != Борай) && (%actor.name% != Казбек) && (%actor.name% != Димитрий))
+if ((%actor.name% != Алексей) && (%actor.name% != Борай) && (%actor.name% != Казбек) && (%actor.name% != Димитрий) && (%actor.name%!=Будивой) && (%actor.name%!=Внезд))
   otransform 3762
-  osend %actor% В старческой мошне что-то разбилось и Вы испуганно отдернули руку.
+  osend %actor% В %self.dname% что-то &Rразбилось&n и Вы испуганно &Wотдернули руку&n.
   return 0
   halt
 else
   wait 1
-  oechoaround Из &Wста&nрче&Kско&nй мо&Wшны&n Алексея послышался звук &Kбьющихся &gбутыльков&n.
-  osend %actor% Вы сделали неловкое движение и из &Kста&nрче&Wско&nй мо&Kшны&n послышался звук &Kбьющихся &gбутыльков&n.
+  oechoaround %actor% Из %self.rname% %actor.rname% послышался звук &rбьющихся &gбутылок&n.
+  osend %actor% Вы сделали неловкое движение и из %self.rname% послышался звук бьющихся бутылок.
 end
 ~
 #3763
@@ -1154,7 +1158,7 @@ end
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if ((%actor.name% != Лорелея ) & (%actor.name% != Зоман ) & (%actor.name% != Омагар ))
+if %actor.name% != Лорелея && %actor.name% != Зоман && %actor.name% != Тайна && %actor.name% != Омагар
   osend %actor% &RРуки &Wубрал, &Kда&M!&C!&B!&n
   return 0
   halt
@@ -1199,7 +1203,7 @@ end
 if %actor.level% > 30 && %actor.vnum% == -1
   halt
 end
-if %actor.name% != Лойнис && %actor.name% != Луминар 
+if %actor.name% != Лойнис && %actor.name% != Луминар
   otransform 3766
   oechoaround %actor% %actor.name% попытал%actor.u% взять &WМетку &KТемного Двора&n, но та исчезла во тьме, а через несколько секунд вернулась на место.
   osend %actor% Вы попытались взять &WМетку &KТемного Двора&n, но она исчезла во тьме, а через несколько секунд вернулась на место.
@@ -1207,8 +1211,594 @@ if %actor.name% != Лойнис && %actor.name% != Луминар
   halt
 else
   wait 1
-  osend %actor% Неожиданно &KМетка &nпревратилась в &Wбелку&n и уселась Вам на плечо, с азартом грызя &Yорехи&n.
-  oechoaround %actor% Неожиданно &KМетка &nпревратилась в &Wбелку&n и уселась Лойнису на плечо, с азартом грызя &Yорехи&n.
+  switch %random.3%
+    case 1
+      osend %actor% Неожиданно &KМетка &nпревратилась в &Wбелку&n и уселась Вам на плечо, с азартом грызя &Yорехи&n.
+      oechoaround %actor% Неожиданно &KМетка &nпревратилась в &Wбелку&n и уселась Лойнису на плечо, с азартом грызя &Yорехи&n.
+    break
+    case 2
+      osend %actor% &YБелка&n из Вашей &Kметки&n стырила &yшишку&n у соседа и принялась выгрызать из нее &yорехи&n, сидя у Вас на плече.
+      oechoaround %actor% Вы почувствовали как что-то дернуло Вас за &Bкарман&n и увидели &Yтолстую ухмылающуюся белку&n.
+      oechoaround %actor% Она &Kукрала&n Вашу любимую &gкедровую шишку&n и нагло &Cсгрызает&n ее, сидя у &K%actor.rname%&n на плече.
+    break
+    case 3
+      osend %actor% &KМетка&n в Ваших руках обернулась &Rколодой карт&n и радостно зашуршала.
+      oechoaround %actor% &KТемная &Wметка&n %actor.rname% начала &Bменять очертания&n прямо у Вас на глазах. &RКарты&n с рубашкой в виде &Yбелки&n, &mв&Mе&Yс&Gе&Cл&Rо&n зашелестели в руках &Wвладельца&n.
+      oechoaround %actor% Как странно... &Rчерви&n - &Kчерные&n, &Kпики&n - &Rкрасные&n. Удивительный &Kчеловек&n.
+    break
+  done
+end
+~
+#3767
+Именной стафф - Шелди~
+1 gjp 100
+~
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
+  halt
+end
+if %actor.name% != Шелди && %actor.name% != Яремир && %actor.name% != Тритогор
+  otransform 3767
+  osend %actor% Вы попытались поднять котомку, но тутже порезали палец об острый камень.
+  osend %actor% Вы отдернули руку... &RБольно&n же!
+  return 0
+  halt
+else
+  wait 1
+  osend %actor% Случайно Вы уронили &yко&Yтом&yку&n на землю и из нее выпала &Wр&nо&Kс&nс&Wы&nп&Kь&n &Cдр&cаг&gоц&Gен&gны&cх к&Cам&Bен&bий&n.
+  osend %actor% Вы кинулись собирать &Gизумруды&n, &Wалмазы&n, &rрубины&n и рассовывать их по карманам.
+  oechoaround %actor% Шелди споткнулся и уронил свою котомку, осыпав землю &Gизумрудами&n, &Wалмазами&n, &rрубинами&n. Вы жадно наблюдаете, как он собирает &Cдр&cаг&gоц&Gен&gно&cст&Cи&n и рассовывает их по своим безразмерным карманам.
+end
+~
+#3768
+Именной шмот - Эйко~
+1 gjp 100
+~
+if %actor.level% > 30 && %actor.vnum% == -1
+  halt
+end
+if %actor.name% != Эйко && %actor.name% != Помир && %actor.name% != Лалена 
+  otransform 3768
+  oechoaround %actor% %actor.name% попытал%actor.u% завладеть &rЗамершим Пламенем&n, но чуть было не сгорел%actor.g%!
+  osend %actor% Едва подумав об этом, Вы всем телом &Rощутили нестерпимый жар&n, исходящий от &rЗамершего Пламени&n. Пожалуй, этого делать не стоит.
+  return 0
+  halt
+else
+  wait 1
+  oecho Взглянув на &rЗамершее Пламя &nВас обуяло чувство тревоги - кто-то следит за Вами, проникая в самую суть Ваших тайных помыслов!
+end
+~
+#3769
+Именной шмот - Жалын~
+1 gjp 100
+~
+if %actor.level% > 30 && %actor.vnum% == -1
+  halt
+end
+if %actor.name% != Жалын && %actor.name% != Доменик 
+  otransform 3769
+  oechoaround %actor% %actor.name% попытал%actor.u% войти в &cано&Cма&cлию&n, но &Rэнергия&n, вырвавшаяся из нее, лишила %actor.vname% мозга!
+  osend %actor% &RЭнергия &rвырвавшаяся из &cано&Cма&cлии &rнакрыл Вас темной вуалью и медленно испепеляет Ваш мозг!&n
+  return 0
+  halt
+else
+  wait 1
+  osend %actor% &KПотоки энергии вырвались из &cано&Cмал&cии&K, обволокли Ваше тело &Wсверкающим коконом&K.&n
+  oechoaround %actor% &KПотоки энергии вырвались из &cано&Cмал&cии&K, обволокли тело Жалына &Wсверкающим коконом&K, глаза его &Yстранно засверкали&K.&n
+end
+~
+#3770
+Именной шмот - Пилатий~
+1 gjp 100
+~
+if %actor.level% > 30 && %actor.vnum% == -1
+  halt
+end
+if %actor.name% != Пилатий && %actor.name% != Витрус && %actor.name% != Елизавета && %actor.name% != Горпына && %actor.name% != Раодон && %actor.name% != Савриил 
+  otransform 3770
+  oechoaround %actor% %actor.name% попытал%actor.u% взять &cС&CИ&cН&CЕ&n-&yЖ&YЕ&yЛ&YТ&YЫ&yЙ&W флаг Украины&n но потерпел%actor.g% неудачу.
+  osend %actor% &RСначало прими християнство католик некрещеный!!!&n
+  return 0
+  halt
+else
+  wait 1
+  oecho Вдруг вся комната осветилась на мгновение &cС&CИ&cН&CЕ&n-&yЖ&YЕ&yЛ&YТ&YЫ&yМ&n цветом.
+end
+~
+#3771
+Именной стафф Рольт~
+1 gjp 100
+~
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
+  halt
+end
+if ((%actor.name% != Элемир ) && (%actor.name% != Рольт ) && (%actor.name% != Шунька ) && (%actor.name% != Антонина ) && (%actor.name% != Злокраса ) && (%actor.name% != Лариса ))
+  otransform 3771
+  osend %actor% Протянув руку к суме с вышитым гербом Вольных стрелков, Вы ощутили насколько хорошо быть &RВольным&n. Но Вас это не касается.
+  return 0
+  halt
+else
+  wait 1
+  oecho Внезапно из &Cсу&cмы &yс в&Yыш&yит&cым &Cге&cрб&yом &RВольных Стрелков&n вырвался &Kпорыв ветра&n и Вы, вдохнув его, о чем то задумались.
+end
+~
+#3772
+Именной шмот - Дагомир~
+1 gjp 100
+~
+if %actor.level% > 30 && %actor.vnum% == -1
+  halt
+end
+if %actor.name% != Дагомир && %actor.name% != Колисвет && %actor.name% != Ругий
+  otransform 3772
+  oechoaround %actor% &RКак только %actor.name% приоткрыл%actor.g% крышку ведерка, пары, вылетевшие из него, крепко ударили %actor.vname% в голову, икнув и крякнув, %actor.name% повалил%actor.u% с ног!&n
+  osend %actor% &RКак только Вы приоткрыли крышку ведерка, пары, вылетевшие из него, крепко ударили Вам в голову, икнув и крякнув, Ваши ноги подкосились!&n
+  return 0
+  halt
+else
+  wait 1
+  oecho &WДо блеска начищенное &Gведро с маленьким краником&n, &yна причудливых ножках &Rпыхтит и гонит первач&n.
+end
+~
+#3773
+Именной стафф - Бобр~
+1 gjp 100
+~
+if %actor.level% > 30 && %actor.vnum% == -1
+  halt
+end
+if %actor.name% != Бобрыня && %actor.name% != Ингельд
+  otransform 3773
+  osend %actor% &YХвост &yбобра&n больно ударил Вас по рукам.
+  return 0
+  halt
+else
+  wait 1
+  oecho &YХвост &yбобра&n начал извиваться.
+end
+~
+#3774
+Именной стаф - Дрегвий~
+1 gjp 100
+~
+if %actor.level% > 30 && %actor.vnum% == -1
+  halt
+end
+if %actor.name% != Дрегвий && %actor.name% != Чернава && %actor.name% != Витовий
+  otransform 3774
+  osend %actor% Протянув руку к &rсуме&n, Вы тут же испачкали ее в &Rкрови&n. Нечего хватать что попало!
+  return 0
+  halt
+else
+  wait 1
+  oecho Несколько &mкапель &rкрови&n упало на &Kземлю&n.
+end
+~
+#3775
+именной стафф - федяш~
+1 gjp 100
+~
+if %actor.level% > 30 && %actor.vnum% == -1
+  halt
+end
+if %actor.name% != Хникс && %actor.name% != Балаш && %actor.name% != Федяш
+  otransform 3775
+  osend %actor% Зачем берешь чужой &Wколчан&n? А ну положи на место!
+  return 0
+else
+  wait 1
+  oecho &WКолчан удалого стрельца&n озарился &Wбелым светом&n.
+end
+~
+#3776
+Именной стаф - Младин~
+1 fgjlp 100
+~
+if ((%actor.level% > 30) && (%actor.vnum% == -1))
+  halt
+end
+switch %random.8%
+  case 1
+    set word &GЗеленый&n
+  break
+  case 2
+    set word &RКрасный&n
+  break
+  case 3
+    set word &BСиний&n
+  break
+  case 4
+    set word &WБелый&n
+  break
+  case 5
+    set word &YЖелтый&n
+  break
+  case 6
+    set word &CГолубой&n
+  break
+  case 7
+    set word &KСерый&n
+  break
+  case 8
+    set word &MПурпурный&n
+  done
+  if ((%actor.name% != Младин) && (%actor.name% != Алина) && (%actor.name% != Огонек) && (%actor.name% != Лавале) && (%actor.name% != Лакидар))
+    otransform 3776
+    osend %actor% &WИз &MС&Gу&Bм&Yк&Cи &Wс &Bвеселыми котятами &Wвыбрался &Bвесело хихикающий&n %word% котёнок.
+    osend %actor% &Wобойдя Вас по кругу, котёнок &Mулыбнулся &Wи не прекращая &Bхихикать &Wзалез обратно в &MС&Gу&Bм&Yк&Cу&n.
+    oechoaround %actor% &WИз &MС&Gу&Bм&Yк&Cи &Wс &Bвеселыми котятами &Wвыбрался &Bвесело хихикающий&n %word% котёнок.
+    oechoaround %actor% &Wобойдя %actor.vname% по кругу, котёнок &Mулыбнулся &Wи не прекращая &Bхихикать залез обратно в &MС&Gу&Bм&Yк&Cу&n.
+    return 0
+    halt
+  end
+  set master %self.worn_by%
+  wait 1
+  *Взяли сумку
+  if (%self.carried_by% && %actor% && !%master%)
+    osend %actor% %word% котёнок &Wвысунул голову из &MС&Gу&Bм&Yк&Cи &Wи&n радостно замурлыкал увидев Вас.
+    oechoaround %actor% %word% котёнок &Wвысунул голову из &MС&Gу&Bм&Yк&Cи &Wи&n радостно замурлыкал увидев %actor.vname%.
+    halt
+  end
+  *Сняли сумку
+  if (!%self.worn_by% && %actor% && %self.carried_by% && %master%)
+    oecho &WИз &MС&Gу&Bм&Yк&Cи &Wс &Bвеселыми котятами &Wраздалось &Rжалобное мяуканье&n.
+    halt
+  end
+  *Одели сумку-тик
+  osend %actor% &WИз &MС&Gу&Bм&Yк&Cи &Wс &Bвеселыми котятами &Wвыглянул %word% котёнок&n &Wи, &Bвесело захихикав&n, &Wпощекотал Вам ухо языком&n.
+  osend %actor% &WВы погладили котёнка и ласково затолкали его обратно&n.
+  oechoaround %actor% &WИз &MС&Gу&Bм&Yк&Cи &Wс &Bвеселыми котятами &Wвыглянул %word% котёнок &Wи, &Bвесело захихикав&n, &Wпрошептал что-то на ухо %actor.dname%&n.
+  oechoaround %actor% &W%actor.name% ласково погладил%actor.g% котёнка и затолкал%actor.g% его обратно&n.
+~
+#3777
+Именной шмот - Линси (ранее Валор)~
+1 gjp 100
+~
+if %actor.level% > 30 && %actor.vnum% == -1
+  halt
+end
+*раньше принадлежала чарам: Иннер Иральда Лизария Далнур, сейчас передана: Линси Делика
+if %actor.name% != Линси && %actor.name% != Делика && %actor.name% != Мельтина
+  otransform 3777
+  oechoaround %actor% %actor.name% попытал%actor.u% взять &yПо&Yяс &cНев&Cской &gохот&Gницы&n, но перетрусил%actor.g%.
+  osend %actor% Вы попытались взять &yПо&Yяс &cНев&Cской &gохот&Gницы&n, но Ваши руки как сквозь воздух прошли.
+  return 0
+  halt
+else
+  wait 1
+  oecho &WВнезапно Вам послышался звук &bмогу&Bчих &bво&Bлн&W, бьющихся о берег &cсвящ&Cенной &cре&Cки.&n
+end
+~
+#3778
+Именная сумка - Векомир~
+1 gp 100
+~
+* сумка дана персонажу за помощь Бальдру (вместо славы)
+if %actor.level% > 30 && %actor.vnum% == -1
+  halt
+end
+if (%actor.name% != Векомир && %actor.name% != Верег && %actor.name% != Вечерица && %actor.name% != Годомысл && %actor.name% !=Ририк && %actor.name% != Углеша)
+  otransform 3778
+  oechoaround %actor% %actor.name% попытал%actor.u% поднять &Kнеумело скроенную сумку&n, но та начала разваливаться и он%actor.g%, неудержав, уронил%actor.g% ее.
+  osend %actor% Вы попытались взять &Kнеумело скроенную сумку&n, но та начала разваливаться и Вам пришлось ее бросить.
+  return 0
+  halt
+else
+  wait 1
+  %send% %actor% &KНеумело скроенная сумка&n затрещала по швам в Ваших руках.
+  %echoaround% %actor% &KНеумело скроенная сумка&n затрещала по швам в руках %actor.rname%.
+end
+~
+#3779
+Именной шмот - Шышок~
+1 gjp 100
+~
+if %actor.level% > 30 && %actor.vnum% == -1
+  halt
+end
+if %actor.name% != Поморя && %actor.name% != Валява && %actor.name% != Токихаша && %actor.name% != Шышок && %actor.name% != Кабал && %actor.name% != Хаук && %actor.name% != Зульфия
+  otransform 3779
+  oecho &WВНЕЗАПНО! &nС&nт&cран&nна&Wя &nба&cнк&nа &Wначала поглощать все вокруг!&n 
+  return 0
+  halt
+else
+  wait 1 
+  oecho &WВНЕЗАПНО! &nС&nт&cран&nна&Wя &nба&cнк&nа &Wначала поглощать все вокруг!&n 
+end
+~
+#3780
+Именная сумка - Мангас~
+1 gjp 100
+~
+if ((%actor.level% > 30) && (%actor.vnum% == -1))
+  halt
+end
+if ((%actor.name% != Мангас) && (%actor.name% != Венцеслава) && (%actor.name% != Князеслав) && (%actor.name% != Схимон) && (%actor.clan% != вз))
+  otransform 3780
+  osend %actor% &YМ&Wе&Yш&Wо&Yк &Wс &Yр&Wи&Yс&Wо&Yм&n оказался слишком тяжелым и Вы решили не надрываться.
+  return 0
+  halt
+end
+~
+#3781
+Именной стафф - Гранислав~
+1 gjp 100
+~
+if %actor.level% > 30 && %actor.vnum% == -1
+  halt
+end
+if %actor.name% != Гранислав && %actor.name% != Рауд && %actor.name% != Грида
+  otransform 3781
+  osend %actor% &RВолчонок&n на рюкзачке вдруг ожил, прекратил чесаться и чувствительно цапнул Вас за палец.
+  %echoaround% %actor% &RВолчонок&n на рюкзачке вдруг ожил, прекратил чесаться и цапнул %actor.rname% за палец.
+  return 0
+  halt
+else
+  wait 1
+  oecho &RВолчонок&n принюхался и одобрительно заворчал, предчувствуя добычу.
+end
+* Сумка создана за помощь в написании тригов. В случае вопросов обращаться к Бальдру.
+~
+#3782
+Именной стафф - Сагудор~
+1 gp 100
+~
+if ((%actor.level% > 30) && (%actor.vnum% == -1))
+  halt
+end
+if %actor.name% != Сагудор
+  otransform 3782
+  osend %actor% &yБаул&n надулся, поднялся и попытался &Rцапнуть&n Вас за руку.
+  return 0
+  halt
+else
+  wait 1
+  %echoaround% %actor% &yРыжий баул&n оказался в руках Сагудора, повинуясь его приказу.
+  osend %actor% &yРыжий баул&n оказался в Ваших руках, повинуясь приказу.
+  halt
+end
+~
+#3783
+Именной стаф -- Завлада~
+1 gjpr 100
+~
+if ((%actor.level% > 30) && (%actor.vnum% == -1))
+  halt
+end
+if ((%actor.name% != Завлада) && (%actor.name% != Смирн) && (%actor.name% != Резван) && (%actor.name% != Рикка) && (%actor.name% != Смирон))
+  otransform 3783
+  osend %actor% Из &Yяр&yко&gй с&Gум&Cы ф&cок&Bус&bни&Kка&n показался заяц и, цапнув Вас за палец, спрятался назад.
+  return 0
+  halt
+end
+~
+#3784
+Именной стафф -- Ольгерд~
+1 gjpr 100
+~
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
+  halt
+end
+if ((%actor.name% != Веденей) && (%actor.name% != Искандер) && (%actor.name% != Родни) && (%actor.name% != Ольгерд) && (%actor.name% != Лисьяк))
+  otransform 3784
+  osend %actor% Как только Вы протянули руку к неприметному поясу, Вас охватила ужасная слабость, коленки подогнулись, а пояс окутался &Wдвумя струями пара&n с &Wв&Rк&Yр&Wа&Rп&Yл&Wе&Rн&Yи&Wе&Rм &rсгустков &Rп&Yл&Rа&Yм&Rе&Yн&Rи&n.
+  return 0
+  halt
+else
+  wait 1
+  switch %random.5%
+    case 1
+      oecho Неприметный пояс зашелестел, как будто &cче&gшу&cя о&gгр&cом&gно&cй р&gеп&cтил&gии&n скользнула по гравию.
+    break
+    case 2
+      oechoaround %actor% &GГ&Kла&Gз&n на поясе %actor.rname% беспокойно завращался, будто бы ища Вас взглядом.
+      osend %actor% &GГ&Kла&Gз&n на Вашем поясе беспокойно завращался высматривая кого-то.
+    break
+    case 3
+      oechoaround %actor% &GГ&Kла&Gз&n на неприметном поясе вдруг уставился на Вас, и вы почувствовали смутное беспокойство: а не пора ли тикать???
+      osend %actor% &GГ&Kла&Gз&n на неприметном поясе устрашающе уставился на кого-то.
+    break
+  done
+end
+~
+#3785
+Именной стаф - омельян~
+1 gjp 100
+~
+if ((%actor.level% > 30) && (%actor.vnum% == -1))
+  halt
+end
+if ((%actor.name% != Гудеяр) && (%actor.name% != Амвросий) && (%actor.name% != Омина) && (%actor.name% != Омельян))
+  otransform 3785
+  osend %actor% Вы попытались поднять чужую &Wсуму&n, но из нее случайно выпала &Rотрубленная &Kлапа&n и Вы в ужасе отшатнулись.
+  return 0
+  halt
+else
+  switch %random.3%
+    case 1
+      oecho Несколько &rбагровых&n капель сорвалось с &Rокр&rов&Rавл&rен&Rной&n &Wсумы &Kживодера&n.
+    break
+    case 2
+      oecho Из &Rокр&rов&Rавл&rен&Rной &Wсумы &Kживодера&n случайно вывалился &rобрубок&n лапы.
+    break
+    case 3
+      oecho Из &Rокр&rов&Rавл&rен&Rной &Wсумы &Kживодера&n послышался едва слышный &Kстон&n.
+    break
+  done
+end
+~
+#3786
+именной стафф - Кайнур~
+1 gjp 100
+~
+if ((%actor.level% > 30) && (%actor.vnum% == -1))
+  halt
+end
+if ((%actor.name% != Кайнур) &&& (%actor.name% != Алатор) && (%actor.name% != Регат))
+  otransform 3786
+  osend %actor% &RКалита&n съежилась, скукожилась и закричала - " Не трожь меня, окаянный! Ато оторву окaянный отросток! "
+  return 0
+  halt
+end
+~
+#3787
+Именной стафф - Блажена~
+1 gjp 100
+~
+if ((%actor.level% > 30) && (%actor.vnum% == -1))
+  halt
+end
+if ((%actor.name% != Блажена) && (%actor.name% != Орвин) && (%actor.name% != Патап))
+  otransform 3787
+  osend %actor% На мгновение у Вас появилась &RСовесть&n, которая не позволила Вам взять чужую вещь.
+  return 0
+  halt
+end
+~
+#3788
+Именной стафф - Благомир~
+1 gjp 100
+~
+if ((%actor.level% > 30) && (%actor.vnum% == -1))
+  halt
+end
+if ((%actor.name% != Благомир) && (%actor.name% != Блажич) && (%actor.name% != Ветолик) && (%actor.name% != Эрих) && (%actor.name% != Миломир) && (%actor.name% != Целимир) && (%actor.name% != Левша))
+  otransform 3788
+  oecho Из кармана показалась рука, сложенная в фигу,  и тут же спряталась обратно.
+  return 0
+  halt
+end
+~
+#3789
+Именной стафф - Эстор~
+1 gjp 100
+~
+if ((%actor.level% > 30) && (%actor.vnum% == -1))
+  halt
+end
+if ((%actor.name% != Эстор) && (%actor.name% != Морхолт) && (%actor.name% != Антарис) && (%actor.name% != Малагант) && (%actor.name% != Бранген) && (%actor.name% != Глаймон) && (%actor.name% != Вячеслав))
+  otransform 3789
+  &WСфе&Kра И&Wсто&Kрии &cСоз&Cдан&cия М&Cира&n ослепила Вас своим сиянием и Вы отдернули руку.
+  return 0
+  halt
+else
+  switch %random.3%
+    case 1
+      oecho %actor.name% достал &WСферу&n и начал вертеть ее на ладонях, Вы почувствовали, как все вокруг меняется, пропадают Ваши силы, изчезают перевоплощения и Вы становитесь ребенком.
+    break
+    case 2
+      oecho &WСфера&n &Rвспыхнула&n и перед Вами начался калейдоскоп картинок: вот строится Киев, вот Татарская орда умирает от стрел Росичей и Вы видите огромного Черного Змея что летит жечь воинов ратных.
+    break
+    case 3
+      oecho Неожиданно &WСфера&n превратилась в огромный шар &CМира&n, на котором %actor.name% стал двигать континенты и моря, радостно хихикая от проделываемых им разрушений.
+    break
+  done
+end
+~
+#3790
+Именной стафф - дарсия~
+1 gjp 100
+~
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
+  halt
+end
+if ((%actor.name% != Дарсий ) && (%actor.name% != Меля ) && (%actor.name% != Дарса ) && (%actor.name% != Мелес))
+  otransform 3790
+  osend %actor% Не &RВаш&n карман, не &RВам&n в него и &Yлезть&n!
+  return 0
+  halt
+else
+  wait 1
+  oecho &cЧе&Cшуй&cки&n на кармане Дарсия пошли &Rпе&Yре&Mли&Rвч&Yат&Mой &Rво&Yлн&Mой&n, и в глубине протаяли &Gзеленые&n глаза &Rдракона&n.
+end
+~
+#3791
+Именной стаф Наська~
+1 gj 100
+~
+wait 2s
+oecho С &Kчерного &Kсер&rдца &RВа&rсил&Kисы&n скатилась &Rка&rпл&Rя к&rро&Rви&n - &cСл&Cез&cа В&Cеч&cно&Cст&cи.&n
+~
+#3792
+Именной стаф - Азалия~
+1 gjp 100
+~
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
+  halt
+end
+if ((%actor.name% != Азалия )
+  otransform 3792
+  osend %actor% &YЧемоданчик &Bиз тушки &Rконя&n отскочил в сторону.
+  return 0
+  halt
+else
+  wait 1
+  oecho Из &Yчемоданчика &Bиз тушки &Rконя&n послышалось жалобное ржание.
+end
+~
+#3793
+Именной стаф - Неруб~
+1 gjp 100
+~
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
+  halt
+end
+if ((%actor.name% != Окромий ) && (%actor.name% != Кудояр ) && (%actor.name% != Бурен ) && (%actor.name% != Неруб ))
+  otransform 3793
+  osend %actor% &KГроб&n приоткрылся, из него вылезла большая &RЛетучая мышь&n и тяпнула Вас за руку... "Лучше не совать руки в &Wподозрительные предметы&n" - отметили Вы.
+  return 0
+  halt
+else
+  wait 1
+  oecho &RТаинственные знаки&n &Yвспыхнули&n и медленно погрузили комнату &Kво мрак&n.
+end
+~
+#3794
+именной стафф - Пулана~
+1 gjp 100
+~
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
+  halt
+end
+if ((%actor.name% != Родобор ) && (%actor.name% != Пулана ) && (%actor.name% != Ксей ) && (%actor.name% != Вамор) && (%actor.name% != Лостра))
+  otransform 3794
+  osend %actor% &WЗа&nяч&Kьи &nла&Wпы&n, выросшие из &Rсумки&n, чуть было не сломали Вам &Gчелюсть&n, и Вы сразу бросили ее &Kназемь&n.
+  return 0
+  halt
+end
+~
+#3795
+Именной стафф - Мосяго~
+1 gjp 100
+~
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
+  halt
+end
+if ((%actor.name% != Мосяга ) && (%actor.name% != Дурмана ))
+  otransform 3795
+  osend %actor% &rНе стоит брать чужое, вдруг там что-то запрещенное!&n
+  return 0
+  halt
+else
+  wait 1
+  oecho Из &Gто&gрб&Gы д&gля &Gши&gш&Gек&n послышался &Kстранный смешок&n.
+end
+~
+#3796
+Именной стаф - Дэлмин~
+1 gjp 100
+~
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
+  halt
+end
+if ((%actor.name% != Дэлмин ) && (%actor.name% != Храна ) && (%actor.name% != Златан ) && (%actor.name% != Даний ) && (%actor.name% != Ольран ) && (%actor.name% != Осока ) && (%actor.name% != Длеся ) && (%actor.name% != Геленд ))
+  otransform 3796
+  osend %actor% Вы попробовали поднять &bсине&K-&rгранатовую &bсумку&n, но это оказалось Вам не под силу.
+  return 0
+  halt
+else
+  wait 1
+  osend %actor% Вы начали собирать все трофеи в &bсине&K-&rгранатовую &bсумку.&n.
+  oechoaround %actor% %actor.iname% начал%actor.g% собирать все трофеи в &bсине&K-&rгранатовую &bсумку&n.
 end
 ~
 #3797
@@ -1258,7 +1848,7 @@ switch %self.vnum%
     end
   break
   case 3747
-    if ((%owner.name% != Чира) && (%owner.name% != Мируша) && (%owner.name% != Ярина) && (%owner.name% != Тхарна))
+    if ((%owner.name% != Василиса) && ((%owner.name% != Элиза) && (%owner.name% != Мируша) && (%owner.name% != Ярина) && (%owner.name% != Тхарна))
       wait 1
       oforce %owner% бросить %objname.car%.%objname.cdr%
       halt
@@ -1317,25 +1907,43 @@ switch %self.vnum%
     end
   break
   case 3757
-    if ((%owner.name% != Гразий) && (%owner.name% != Хорыв) && (%owner.name% != Лескун) && (%owner.name% != Евпараския))
+    if ((%owner.name% != Гразий) && (%owner.name% != Хорыв) && (%owner.name% != Лескун) && (%owner.name% != Евпараския) && (%owner.name% != Богун) && (%owner.name% != Горинка) && (%owner.name% != Посолонь))
       oforce %owner% бросить %objname.car%.%objname.cdr%
       halt
     end
   break
   case 3758
-    if ((%owner.name% != Пилатий) && (%owner.name% != Савриил) && (%owner.name% != Раодон))
+    if ((%owner.name% != Ясленик) && (%owner.name% != Полюд) && (%owner.name% != Бразд) && (%owner.name% != Меламори) && (%owner.name% != Нежана) && (%owner.name% !
       oforce %owner% бросить %objname.car%.%objname.cdr%
       halt
     end
   break
   case 3763
-    if ((%owner.name% != Лорелея) && (%owner.name% != Зоман) && (%owner.name% != Омагар))
+    if %owner.name% != Лорелея && %owner.name% != Зоман && %owner.name% != Тайна && %owner.name% != Омагар
       oforce %owner% бросить %objname.car%.%objname.cdr%
       halt
     end
   break
   case 3764
     if ((%owner.name% != Одерон) && (%owner.name% != Дерон) && (%owner.name% != Плесек) && (%owner.name% != Ядвига))
+      oforce %owner% бросить %objname.car%.%objname.cdr%
+      halt
+    end
+  break
+  case 3767
+    if ((%owner.name% != Шелди && %owner.name% != Яремир && %owner.name% != Тритогор))
+      oforce %owner% бросить %objname.car%.%objname.cdr%
+      halt
+    end
+  break
+  case 3774
+    if ((%owner.name% != Чернава) && (%owner.name% != Витовий) && (%owner.name% != Дрегвий))
+      oforce %owner% бросить %objname.car%.%objname.cdr%
+      halt
+    end
+  break
+  case 3780
+    if ((%owner.name% != Мангас) && (%owner.name% != Венцеслава) && (%owner.name% != Схимон) && (%owner.name% != Князеслав) && (%owner.clan% != вз))
       oforce %owner% бросить %objname.car%.%objname.cdr%
       halt
     end
@@ -1546,7 +2154,7 @@ elseif ((%actor.name% == Римелика) || (%actor.name% == Улар) || (%actor.name% ==
     дать тучка .%actor.name%
     halt
   end
-elseif ((%actor.name% == Чира) || (%actor.name% == Ярина) || (%actor.name% == Мируша) || (%actor.name% == Тхарна))
+elseif ((%actor.name% == Василиса) || (%actor.name% == Ярина) || (%actor.name% == Мируша) || (%actor.name% == Тхарна))
   if (%world.curobjs(3747)% == 0)
     mload obj 3747
     дать сумка .%actor.name%
@@ -1692,7 +2300,7 @@ case 3715
   halt
 break
 case 3716
-  if ((%owner.name% != Альмир) && (%owner.name% != Лоримак))
+  if ((%owner.name% != Альмир) && (%owner.name% != Лоримак) && (%owner.name% != Ларустар))
     oforce %owner% бросить %objname.car%.%objname.cdr%
   end
   halt
@@ -1759,7 +2367,7 @@ case 3726
   halt
 break
 case 3727
-  if (%owner.name% != Тикен)
+  if (%owner.name% != Тикен) && (%owner.name% != Ролонд)
     oforce %owner% бросить %objname.car%.%objname.cdr%
   end
   halt

@@ -12,7 +12,7 @@
 длинные так и норовят обхватить каждого приближающегося.
 ~
 b0d0f0g0m0n0o0p0q0r0t0x0 d0f0k0 0 E
-16 2 3 0d0+500 4d4+2
+14 2 3 0d0+500 4d4+2
 0d0+0 15000
 8 8 0
 Str: 20
@@ -24,6 +24,7 @@ Cha: 15
 Size: 50
 LikeWork: 95
 Class: 102
+Race: 108
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -45,7 +46,7 @@ L 1405 20 0 0
 угадывается в его профиле страж.
 ~
 b0d0g0m0n0o0p0q0r0t0x0 d0f0k0 0 E
-20 2 3 0d0+600 4d4+2
+14 2 3 0d0+600 4d4+2
 0d0+0 15000
 8 8 0
 Str: 20
@@ -57,6 +58,7 @@ Cha: 15
 Size: 50
 LikeWork: 95
 Class: 102
+Race: 108
 Height: 198
 Weight: 50
 Special_Bitvector: a0e0 
@@ -78,7 +80,7 @@ L 1405 23 0 0
 Бестелесное полупрозрачное существо.
 ~
 b0d0f0g0m0z0 d0e0f0k0x0 -600 E
-14 5 5 10d5+150 3d2+3
+12 5 5 10d5+150 3d2+3
 0d0+0 10000
 8 8 1
 BareHandAttack: 1
@@ -92,6 +94,7 @@ Size: 5
 LikeWork: 90
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
@@ -112,7 +115,7 @@ E
 Бородатый мужчина в грубой кожаной одежде.
 ~
 c0d0g0 d0k0 0 E
-18 3 3 0d0+400 3d3+3
+11 3 3 0d0+400 3d3+3
 1d5+34 7500
 8 8 1
 Str: 20
@@ -125,6 +128,7 @@ Size: 10
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -150,7 +154,7 @@ L 1404 35 0 0
 во все стороны. Но взгляд, наполненный ненависти пугает.
 ~
 b0c0d0g0n0o0 d0e0f0k0 -600 E
-22 2 2 0d0+500 3d2+3
+21 2 2 0d0+500 3d2+3
 3d50+56 50000
 8 8 2
 BareHandAttack: 8
@@ -164,9 +168,10 @@ Size: 5
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 5
-Special_Bitvector: b1c1 
+Special_Bitvector: a0b1c1 
 Skill: 136 66
 Spell: 28
 Spell: 75
@@ -197,7 +202,7 @@ T 27805
 Толстый кот абсолютно черного цвета. Взгляд его больших глаз усыпляет.
 ~
 d0f0g0 d0f0k0 -600 E
-15 4 6 0d0+250 2d3+3
+11 4 6 0d0+250 2d3+3
 0d0+0 7500
 8 8 1
 BareHandAttack: 1
@@ -211,6 +216,7 @@ Size: 8
 LikeWork: 90
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -231,7 +237,7 @@ E
 Абсолютно черного цвета птица не похожа на обычную лесную обитательницу.
 ~
 d0f0g0 d0f0k0 -600 E
-15 4 6 0d0+250 2d3+3
+11 4 6 0d0+250 2d3+3
 0d0+0 7500
 8 8 2
 BareHandAttack: 1
@@ -245,6 +251,7 @@ Size: 8
 LikeWork: 90
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -265,7 +272,7 @@ E
 покрывают большие полные вены.
 ~
 b0d0g0n0 d0f0k0 0 E
-20 1 -3 2d50+650 5d4+5
+18 1 -3 2d50+650 5d4+5
 4d23+54 30000
 8 8 1
 Str: 30
@@ -277,6 +284,7 @@ Cha: 15
 Size: 50
 LikeWork: 90
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -304,7 +312,7 @@ L 1410 42 0 0
 Бородатый мужчина в грубой кожаной одежде.
 ~
 b0d0g0m0n0 d0f0 0 E
-18 3 3 0d0+400 3d3+3
+11 3 3 0d0+400 3d3+3
 1d5+34 7500
 8 8 1
 Str: 20
@@ -317,6 +325,7 @@ Size: 10
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -340,7 +349,7 @@ L 1406 35 0 0
 простых собратьев. Но черный цвет пугает и настораживает.
 ~
 d0f0g0n0 d0f0k0 -600 E
-17 2 -2 0d0+500 5d6+6
+14 2 -2 0d0+500 5d6+6
 0d0+0 15000
 8 8 1
 BareHandAttack: 1
@@ -353,6 +362,7 @@ Cha: 3
 Size: 50
 LikeWork: 90
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -386,6 +396,7 @@ Cha: 3
 Size: 50
 LikeWork: 90
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -405,7 +416,7 @@ E
 Небольшая юркая быстрая ящерица бегает среди веток и бревен.
 ~
 d0g0l1m1n1 k0 0 E
-12 3 3 0d0+250 2d4+4
+6 3 3 0d0+250 2d4+4
 0d0+0 2000
 8 8 2
 BareHandAttack: 1
@@ -418,6 +429,7 @@ Cha: 3
 Size: 5
 LikeWork: 90
 Class: 103
+Race: 105
 Height: 198
 Weight: 2
 Special_Bitvector: 0 
@@ -451,6 +463,7 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 40
 Special_Bitvector: 0 
@@ -485,6 +498,7 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 40
 Special_Bitvector: 0 

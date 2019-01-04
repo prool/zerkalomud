@@ -13,7 +13,7 @@
 не предвещающей ничего доброго.
 ~
 b0d0g0 c0d0e0f0k0 0 E
-15 3 -3 10d10+300 3d4+5
+1 3 -3 10d10+300 3d4+5
 0d0+0 1
 8 8 1
 Str: 13
@@ -25,6 +25,7 @@ Cha: 12
 Size: 100
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -47,7 +48,7 @@ T 30801
 зеленый хохолок.
 ~
 d0g0k0m0o0y0 k0 -600 E
-20 5 -3 6d5+350 3d5+3
+19 5 -3 6d5+350 3d5+3
 0d0+0 33000
 8 8 1
 Str: 18
@@ -59,6 +60,7 @@ Cha: 5
 Size: 70
 LikeWork: 30
 Class: 103
+Race: 103
 Height: 175
 Weight: 50
 Special_Bitvector: l0 
@@ -76,7 +78,7 @@ I крылья:8
 плотоядного дятла~
 плотоядным дятлом~
 плотоядном дятле~
-Плотоядный дятел тщательно чистит об листву клюв.
+Плотоядный дятел тщательно чистит о листву клюв.
 ~
 Клюв у этого дятла загнут, как у сокола вниз. Долбить,
 конечно, им неудобно, зато оторвать большой кусок мяса
@@ -84,7 +86,7 @@ I крылья:8
 короткими хватательными когтями.
 ~
 d0f0g0m0o0y0 d0k0 -600 E
-22 4 -5 6d5+380 4d5+4
+19 4 -5 6d5+380 4d5+4
 0d0+0 37000
 8 8 1
 BareHandAttack: 4
@@ -96,6 +98,7 @@ Con: 20
 Cha: 5
 Size: 70
 Class: 103
+Race: 103
 Height: 175
 Weight: 50
 Special_Bitvector: l0 
@@ -120,7 +123,7 @@ I крылья:10
 короткими хватательными когтями.
 ~
 d0g0m0o0y0 d0k0 -600 E
-22 4 -5 6d5+380 4d5+4
+19 4 -5 6d5+380 4d5+4
 0d0+0 37000
 8 8 1
 BareHandAttack: 4
@@ -133,6 +136,7 @@ Cha: 5
 Size: 70
 LikeWork: 30
 Class: 103
+Race: 103
 Height: 175
 Weight: 50
 Special_Bitvector: l0 
@@ -156,7 +160,7 @@ I крылья:8
 купеческих дочек.
 ~
 d0g0l0m0o0y0 d0 -600 E
-24 5 -2 4d5+370 4d3+3
+19 5 -2 4d5+370 4d3+3
 0d0+0 34000
 8 8 2
 BareHandAttack: 1
@@ -169,6 +173,7 @@ Cha: 5
 Size: 65
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 175
 Weight: 50
 Special_Bitvector: 0 
@@ -191,7 +196,7 @@ I крылья:8
 западные царьки.
 ~
 b0d0g0l0o0 d0f0k0 -600 E
-22 4 -5 6d5+500 4d5+4
+25 4 -5 6d5+500 4d5+4
 0d0+0 100000
 8 8 1
 BareHandAttack: 4
@@ -205,6 +210,7 @@ Size: 70
 LikeWork: 50
 ExtraAttack: 2
 Class: 103
+Race: 103
 Height: 175
 Weight: 50
 Special_Bitvector: 0 
@@ -242,7 +248,7 @@ L 1414 4 0 0
 этой грозной птицы почти невозможно, а уж догнать и подавно.
 ~
 c0d0g0m0o0y0e1 k0 -600 E
-22 4 -5 6d5+320 3d5+2
+19 4 -5 6d5+320 3d5+2
 0d0+0 33000
 8 8 1
 BareHandAttack: 13
@@ -255,6 +261,7 @@ Cha: 5
 Size: 70
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 175
 Weight: 50
 Special_Bitvector: p0 
@@ -278,7 +285,7 @@ I крылья:8
 прыгает и лазает по деревьям, за счет острых когтей на лапах.
 ~
 d0g0m0o0y0g1 k0 -600 E
-20 5 -3 6d5+350 3d5+3
+19 5 -3 6d5+350 3d5+3
 0d0+0 33000
 8 8 1
 BareHandAttack: 8
@@ -291,6 +298,7 @@ Cha: 5
 Size: 70
 LikeWork: 30
 Class: 103
+Race: 103
 Height: 175
 Weight: 50
 Special_Bitvector: n0 
@@ -315,7 +323,7 @@ I когти:8
 едва видимых щелки.
 ~
 d0g0h0m0o0y0d1 d0 -600 E
-20 5 -3 6d5+320 3d5+3
+18 5 -3 6d5+320 3d5+3
 0d0+0 30000
 8 8 1
 Str: 18
@@ -326,6 +334,7 @@ Con: 20
 Cha: 5
 Size: 70
 Class: 103
+Race: 103
 Height: 175
 Weight: 50
 Special_Bitvector: l0 
@@ -350,10 +359,10 @@ I крылья:8
 мягким воздушным пухом.
 ~
 b0d0f0g0l0m0o0 d0f0k0 -600 E
-23 8 3 6d5+420 3d5+3
+19 8 3 6d5+420 3d5+3
 0d0+0 38000
-8 8 1
-BareHandAttack: 4
+8 8 2
+BareHandAttack: 15
 Str: 18
 Dex: 20
 Int: 5
@@ -362,6 +371,7 @@ Con: 20
 Cha: 5
 Size: 70
 Class: 103
+Race: 103
 Height: 175
 Weight: 50
 Special_Bitvector: l0 
@@ -394,6 +404,7 @@ Con: 10
 Cha: 5
 Size: 50
 Class: 103
+Race: 103
 Height: 175
 Weight: 50
 Special_Bitvector: 0 
@@ -414,7 +425,7 @@ E
 зеленый детский хохолок.
 ~
 d0g0i0m0o0y0 d0 -600 E
-20 5 -3 6d5+320 3d5+3
+17 5 -3 6d5+320 3d5+3
 0d0+0 25000
 8 8 1
 Str: 18
@@ -425,6 +436,7 @@ Con: 20
 Cha: 5
 Size: 70
 Class: 103
+Race: 103
 Height: 175
 Weight: 50
 Special_Bitvector: 0 
@@ -448,7 +460,7 @@ I крылья:8
 вечный покой, превратившись в размозженную лепешку.
 ~
 d0g0m0o0y0e1 d0k0 -600 E
-22 5 -3 6d5+380 3d5+3
+18 5 -3 6d5+380 3d5+3
 0d0+0 28000
 8 8 1
 BareHandAttack: 1
@@ -460,6 +472,7 @@ Con: 20
 Cha: 5
 Size: 70
 Class: 103
+Race: 103
 Height: 175
 Weight: 50
 Special_Bitvector: m0 
@@ -483,7 +496,7 @@ I когти:8
 трубой топорщится пушистый хвост.
 ~
 b0d0g0 0 -600 E
-15 3 -3 6d6+400 5d5+4
+19 3 -3 6d6+400 5d5+4
 0d0+0 34000
 8 8 2
 BareHandAttack: 4
@@ -496,6 +509,7 @@ Cha: 10
 Size: 80
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 50
 Special_Bitvector: 0 
@@ -519,7 +533,7 @@ I зубы:8
 трубой топорщится пушистый хвост.
 ~
 d0g0l0m0o0y0 d0k0 -600 E
-15 3 -3 6d6+500 5d5+4
+20 3 -3 6d6+500 5d5+4
 0d0+0 40000
 8 8 2
 BareHandAttack: 4
@@ -533,6 +547,7 @@ Size: 80
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 50
 Special_Bitvector: p0 

@@ -10,7 +10,7 @@
 ~
 Невысокая, но очень выносливая лошадка.
 ~
-d0g0n0o0 d0k0 -600 E
+d0g0n0o0f2 d0k0 -600 E
 15 15 7 4d1+250 3d3+2
 0d0+0 15000
 8 8 2
@@ -24,6 +24,7 @@ Cha: 8
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 140
 Special_Bitvector: 0 
@@ -58,6 +59,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 160
 Special_Bitvector: b1c1 
@@ -94,6 +96,7 @@ Size: 25
 LikeWork: 5
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 50
 Special_Bitvector: k3 
@@ -125,6 +128,7 @@ Cha: 10
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 135
 Special_Bitvector: a1b1c1d1 
@@ -145,7 +149,7 @@ T 14201
 ~
 Огромная змеюка толщиной с молодую сосенку.
 ~
-b0d0g0j0x0 k0z0 0 E
+b0d0g0j0q0x0t1 k0z0 0 E
 16 7 4 4d4+260 3d5+4
 0d0+0 16000
 5 5 1
@@ -158,6 +162,7 @@ Con: 14
 Cha: 8
 Size: 30
 Class: 103
+Race: 105
 Height: 198
 Weight: 110
 Special_Bitvector: 0 
@@ -190,6 +195,7 @@ Cha: 7
 Size: 45
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 140
 Special_Bitvector: 0 
@@ -222,6 +228,7 @@ Cha: 8
 Size: 25
 ExtraAttack: 3
 Class: 103
+Race: 107
 Height: 198
 Weight: 60
 Special_Bitvector: 0 

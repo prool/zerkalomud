@@ -27,6 +27,7 @@ Cha: 20
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: a1b1c1d3 
@@ -63,6 +64,7 @@ Cha: 9
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: n0 
@@ -93,6 +95,7 @@ Cha: 9
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
@@ -124,6 +127,7 @@ Con: 21
 Cha: 10
 Size: 100
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
@@ -155,6 +159,7 @@ Con: 21
 Cha: 10
 Size: 100
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
@@ -185,6 +190,7 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
@@ -217,6 +223,7 @@ Cha: 8
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
@@ -250,12 +257,12 @@ Cha: 10
 Size: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: B3C3 
 Skill: 136 90
 E
-I копыта,6:4
 #71108
 заяц трусливый~
 заяц~
@@ -282,6 +289,7 @@ Cha: 27
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
@@ -313,6 +321,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

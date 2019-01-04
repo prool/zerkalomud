@@ -64,7 +64,7 @@ detach 15903 %self%
 0 c 0
 доспехи~
 drop all
-if %actor.bank% < 250
+if %actor.bank% < 500
   брык %actor.name%
   wait 1
   говор %actor.name%, у тебя нехватает денег на экипировку
@@ -72,7 +72,7 @@ if %actor.bank% < 250
 end
 говор Сейчас, погоди минутку я соберу все что тебе необходимо
 wait 1s
-eval buffer %actor.bank(-250)%
+eval buffer %actor.bank(-500)%
 mload obj 15901
 mload obj 15902
 mload obj 15903
@@ -103,7 +103,6 @@ wait 1
 if %actor.level% < 31
   %actor.loadroom(60036)%
 end
-log %actor.name%
 ~
 #15968
 Перенос ренты~
@@ -276,7 +275,7 @@ attach 15987 %smotr.id%
 2 c 1
 следуй~
 wait 1
-if %actor.vnum% != -1
+if (%actor.vnum% != -1) || (!%exist.mob(15918)%)
   halt
 end
 wforce arenmob159 follow .%actor.name%

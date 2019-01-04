@@ -1,5 +1,5 @@
 #70100
-скелет выбеленый~
+выбеленый скелет~
 выбеленый скелет~
 выбеленого скелета~
 выбеленому скелету~
@@ -11,7 +11,7 @@
 Обглоданная временем и червями груда самоходных костей.
 ~
 b0c0d0e0f0m0n0o0p0r0t0x0z0 c0d0e0f0j0k0z0m1 -600 E
-27 0 -10 10d10+2000 9d14+10
+29 0 -10 10d10+2000 9d14+10
 0d0+0 220000
 8 8 1
 BareHandAttack: 8
@@ -26,6 +26,7 @@ LikeWork: 45
 MaxFactor: 25
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 170
 Weight: 80
 Special_Bitvector: b0d0b1c1 
@@ -69,9 +70,11 @@ T 70109
 Пожилой дяденька с густой холеной бородой.
 ~
 b0c0d0g0l0n0o0x0j2 d0f0h0k0m1o1r1 -600 E
-27 0 9 0d0+3500 5d5+10
+37 0 9 10d0+3500 5d5+10
 0d0+0 1200000
 8 8 1
+Saves: -34 -34 -34 -34
+PlusMem: -10
 Str: 21
 Dex: 35
 Int: 26
@@ -79,10 +82,11 @@ Wis: 26
 Con: 35
 Cha: 17
 Size: 50
-LikeWork: 50
+LikeWork: 10
 MaxFactor: 100
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 170
 Weight: 120
 Special_Bitvector: a1b1c1 
@@ -103,7 +107,7 @@ T 70100
 T 70107
 T 70112
 #70102
-царица~
+царица муравьев~
 царица муравьев~
 царицы муравьев~
 царице муравьев~
@@ -115,9 +119,10 @@ T 70112
 Крупный муравей с крыльями и большой головой.
 ~
 b0d0l0m0n0o0p0q0r0t0u0 d0k0A0a1 0 E
-30 7 -5 40d10+500 3d3+10
+36 7 -5 40d10+500 3d3+10
 0d0+0 1000000
 5 5 2
+Saves: -30 -30 -30 -30
 BareHandAttack: 4
 Str: 10
 Dex: 16
@@ -129,6 +134,7 @@ Size: 20
 LikeWork: 95
 MaxFactor: 10
 Class: 103
+Race: 107
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
@@ -165,9 +171,9 @@ Spell: 112
 Spell: 132
 Spell: 135
 Spell: 135
-Helper: 70103
-Helper: 70104
 Helper: 70105
+Helper: 70104
+Helper: 70103
 E
 T 70106
 T 70113
@@ -184,7 +190,7 @@ T 70113
 Маленький черный муравей в крепком панцире.
 ~
 b0d0l0o0r0t0 c0f0r0z0A0 0 E
-25 5 -9 5d10+250 5d5+5
+23 5 -9 5d10+250 5d5+5
 0d0+0 70000
 8 8 1
 BareHandAttack: 4
@@ -196,14 +202,13 @@ Size: 10
 LikeWork: 100
 MaxFactor: 20
 Class: 103
+Race: 107
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
-Skill: 1 100
 Skill: 2 100
 Skill: 22 100
 Skill: 136 100
-Skill: 137 150
 Skill: 151 100
 E
 T 70113
@@ -220,7 +225,7 @@ T 70113
 Очень подвижный муравей с длинными усиками.
 ~
 b0c0d0l0n0o0p0q0r0u0x0 f0k0p0r0z0A0m1 0 E
-20 0 -4 5d10+200 5d20+20
+21 0 -4 5d10+200 5d20+20
 0d0+0 50000
 8 8 1
 BareHandAttack: 12
@@ -232,6 +237,7 @@ LikeWork: 99
 MaxFactor: 20
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -293,7 +299,7 @@ T 70113
 быстр как охотник.
 ~
 b0c0d0l0m0n0o0x0 k0l1 0 E
-25 5 0 20d10+300 2d10+25
+21 5 0 20d10+300 2d10+25
 0d0+0 50000
 8 8 1
 BareHandAttack: 8
@@ -307,12 +313,11 @@ Size: 20
 LikeWork: 95
 MaxFactor: 30
 Class: 103
+Race: 107
 Height: 30
 Weight: 50
 Special_Bitvector: m0a1b1c1d1 
-Skill: 1 100
 Skill: 136 75
-Skill: 139 100
 Spell: 33
 E
 T 70113
@@ -329,7 +334,7 @@ T 70113
 Это самый обычный ходячий скелет.
 ~
 d0f0l0m0n0o0z0 d0f0 -600 E
-15 18 -5 20d5+100 5d5+1
+12 18 -5 20d5+100 5d5+1
 0d0+0 10000
 8 8 1
 Str: 15
@@ -343,6 +348,7 @@ LikeWork: 20
 MaxFactor: 10
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 120
 Weight: 50
 Special_Bitvector: 0 
@@ -361,7 +367,7 @@ E
 Фигура, окутанная во мрак, с горящими глазами и запахом тлена.
 ~
 d0f0l0m0n0 b0k0n0w1 -600 E
-17 10 -5 5d5+250 2d2+2
+12 10 -5 5d5+250 2d2+2
 0d0+0 10000
 8 8 1
 BareHandAttack: 4
@@ -375,6 +381,7 @@ Size: 55
 LikeWork: 60
 MaxFactor: 10
 Class: 101
+Race: 110
 Height: 150
 Weight: 50
 Special_Bitvector: 0 

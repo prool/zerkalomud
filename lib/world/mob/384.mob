@@ -26,6 +26,7 @@ Size: 10
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 10
 Special_Bitvector: o0 
@@ -58,6 +59,7 @@ Size: 5
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
+Race: 106
 Height: 198
 Weight: 10
 Special_Bitvector: o0 
@@ -93,6 +95,7 @@ Size: 25
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
+Race: 106
 Height: 198
 Weight: 20
 Special_Bitvector: o0 
@@ -130,6 +133,7 @@ Con: 3
 Cha: 3
 Size: 5
 Class: 103
+Race: 109
 Height: 198
 Weight: 10
 Special_Bitvector: o0 
@@ -162,6 +166,7 @@ Size: 5
 MaxFactor: 70
 ExtraAttack: 1
 Class: 103
+Race: 106
 Height: 198
 Weight: 10
 Special_Bitvector: o0 
@@ -193,6 +198,7 @@ Cha: 3
 Size: 6
 ExtraAttack: 1
 Class: 103
+Race: 106
 Height: 198
 Weight: 10
 Special_Bitvector: o0 
@@ -225,6 +231,7 @@ Size: 30
 MaxFactor: 70
 ExtraAttack: 1
 Class: 102
+Race: 106
 Height: 198
 Weight: 10
 Special_Bitvector: o0 
@@ -258,6 +265,7 @@ Size: 30
 MaxFactor: 90
 ExtraAttack: 3
 Class: 103
+Race: 100
 Height: 198
 Weight: 15
 Special_Bitvector: o0 
@@ -293,6 +301,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 5
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: o0 
@@ -328,6 +337,7 @@ Cha: 3
 Size: 30
 LikeWork: 100
 Class: 103
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: o0 
@@ -362,6 +372,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: o0b1c1d1 
@@ -395,6 +406,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: o0b1c1d1 
@@ -430,6 +442,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: o0b1c1d1 
@@ -441,8 +454,8 @@ Spell: 55
 Spell: 55
 Spell: 55
 Spell: 94
-Helper: 38410
 Helper: 38411
+Helper: 38410
 E
 T 38401
 T 38402
@@ -476,6 +489,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: o0b1c1d1 
@@ -510,6 +524,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: o0b1c1d1 
@@ -549,6 +564,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: o0 
@@ -581,6 +597,7 @@ Size: 25
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 10
 Special_Bitvector: g0o0 
@@ -613,6 +630,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: o0b1c1d1 
@@ -654,6 +672,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 5
 Class: 101
+Race: 108
 Height: 198
 Weight: 40
 Special_Bitvector: 0 
@@ -690,6 +709,7 @@ Cha: 3
 Size: 30
 ExtraAttack: 1
 Class: 100
+Race: 106
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -724,6 +744,7 @@ Con: 3
 Cha: 3
 Size: 30
 Class: 100
+Race: 111
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

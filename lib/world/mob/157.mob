@@ -11,9 +11,10 @@
 Самурай в красном кимоно принадлежит к клану Ямомото.
 ~
 b0c0d0g0m0n0t0A0 d0f0k0r0 -600 E
-34 -30 -10 1d1+8000 6d20+10
+31 -30 -10 1d1+8000 6d20+10
 7d6+50 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 29
 Dex: 21
 Int: 30
@@ -24,6 +25,7 @@ Size: 50
 LikeWork: 20
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: a0b1c1m3 
@@ -58,9 +60,10 @@ T 15701
 Все было в его жизни. Он просто кладезь мудрости.
 ~
 b0c0d0g0n0p0x0 d0k0 0 E
-29 4 5 1d1+3800 4d4+20
+32 4 5 1d1+3800 4d4+20
 0d0+0 450000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 17
 Dex: 17
 Int: 30
@@ -69,6 +72,7 @@ Con: 17
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: z0A0b1c1 
@@ -114,9 +118,10 @@ T 15703
 Самурай в коричневом кимоно принадлежит к клану Такудзава.
 ~
 b0c0d0g0m0n0t0A0 d0k0r0 -600 E
-34 -30 -10 1d1+8000 6d20+10
+31 -30 -10 1d1+8000 6d20+10
 7d60+100 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 29
 Dex: 21
 Int: 30
@@ -127,6 +132,7 @@ Size: 50
 LikeWork: 20
 ExtraAttack: 5
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: a0b1c1m3 
@@ -159,9 +165,10 @@ E
 Ниндзя - наемный убийца, безжалостный, беспощадный и хладнокровный.
 ~
 b0c0d0f0g0l0n0p0q0A0 d0f0k0r0s0t0j1 -600 E
-31 -30 -9 1d1+6500 6d20+10
+32 -30 -9 1d1+6500 6d20+10
 0d0+0 500000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 24
 Dex: 31
 Int: 31
@@ -171,6 +178,7 @@ Size: 50
 LikeWork: 20
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: i0j0b1c1k3 
@@ -205,9 +213,10 @@ E
 но может за себя постоять.
 ~
 b0c0d0g0n0o0p0t0A0 c0d0f0h0r0 0 E
-35 2 -1 5d5+2500 3d3+0
+31 2 -1 5d5+2500 3d3+0
 5d5+0 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 25
 Dex: 25
 Int: 28
@@ -218,6 +227,7 @@ Size: 60
 LikeWork: 30
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: b1c1 
@@ -250,9 +260,10 @@ T 15707
 В его взгляде сила и уверенность.
 ~
 b0c0d0g0n0o0p0q0r0t0u0x0A0 d0f0r0A0C0 0 E
-50 -30 -9 2d2+10000 7d30+10
+38 -30 -9 2d2+10000 7d30+10
 1d1000+150 1500000
 8 8 1
+Saves: -38 -38 -38 -38
 Str: 30
 Dex: 35
 Int: 30
@@ -263,6 +274,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
@@ -298,9 +310,10 @@ L 400 2 0 0
 Связываться с ним мы Вам не советуем.
 ~
 b0c0d0g0n0p0q0r0t0x0A0 d0f0k0 0 E
-35 -10 -10 2d2+8000 8d25+10
+34 -10 -10 2d2+8000 8d25+10
 0d400+0 700000
 8 8 1
+Saves: -22 -22 -22 -22
 Str: 25
 Dex: 30
 Int: 30
@@ -311,6 +324,7 @@ Size: 50
 LikeWork: 15
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b0d0A0B0m3B3C3 
@@ -360,7 +374,7 @@ T 15709
 в боях самураям, чувство прекрасного.
 ~
 b0d0g0n0o0A0 0 0 E
-27 3 4 10d1+1000 3d3+0
+28 3 4 10d1+1000 3d3+0
 8d8+80 180000
 8 8 2
 Str: 15
@@ -373,6 +387,7 @@ Size: 30
 LikeWork: 15
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 30
 Special_Bitvector: a1b1c1 
@@ -399,8 +414,8 @@ E
 Мастер вырезает маленькие фигурки - нэцкэ, которые используются 
 в качестве противовеса для ношения вещей за поясом.
 ~
-b0c0d0g0n0o0A0 d0 0 E
-28 -30 -3 5d5+3500 4d30+6
+b0c0d0g0n0o0A0u2 d0 0 E
+29 -30 -3 5d5+3500 4d30+6
 8d8+200 250000
 8 8 1
 Str: 18
@@ -413,6 +428,7 @@ Size: 50
 LikeWork: 15
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -464,6 +480,8 @@ Wis: 12
 Con: 33
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: i0j0A0B0a1b1c1m3B3 
@@ -501,6 +519,8 @@ Wis: 12
 Con: 33
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: i0j0A0B0a1b1c1m3B3 
@@ -529,9 +549,10 @@ E
 Связываться с ним мы Вам не советуем.
 ~
 b0c0d0g0n0p0x0A0 d0f0k0d1 0 E
-35 -10 -7 2d2+3000 6d25+10
-0d500+0 800000
+30 -10 -7 2d2+3000 6d25+10
+0d500+0 327000
 8 8 1
+Saves: -26 -26 -26 -26
 Str: 25
 Dex: 30
 Int: 30
@@ -542,6 +563,7 @@ Size: 50
 LikeWork: 15
 ExtraAttack: 4
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b0d0A0B0m3C3 
@@ -582,10 +604,10 @@ T 15709
 полотенцем на голове.
 ~
 c0d0j0y0A0g2j2l2 d0f0k0r0u0C0d1r1t1w1a2 -600 E
-35 -10 -1 5d1000+10000 15d15+50
+36 -10 -1 5d1000+10000 15d15+50
 0d0+1 1000000
 8 8 1
-Saves: 40 0 0 90
+Saves: -30 -30 -30 -30
 Resistances: 40 40 40 0 30 34 70
 HPreg: 70
 Armour: 53
@@ -604,6 +626,7 @@ Size: 50
 LikeWork: 30
 ExtraAttack: 5
 Class: 104
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -670,6 +693,7 @@ Size: 50
 LikeWork: 15
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 

@@ -199,16 +199,16 @@ If (%object.vnum%==721)
     Say Не... такой минерал слишком  мал для заклятия.
   end 
 End
-If (%object.vnum%==722)
+If (%object.vnum%==756)
   If (%object.val1%>5)
-    Say Замечательный метал! В самый раз для заклинания!
+    Say Замечательное сердце! В самый раз для заклинания!
     If  !(%self.haveobj(60065)%)
       mload obj 60065
     Else 
-      Say У меня уже есть метал! Еще один пока не нужен!
+      Say У меня уже есть сердце, а больше мне и не надо.
     End
   Else
-    Say Нет! Этот металл недостаточно прочен! Такой не подойдет.
+    Say Нет! Это серде слишком изрезано! Такое не подойдет.
   end 
 End
 If (%object.vnum%==700)
@@ -226,24 +226,24 @@ End
 mpurge %object%
 if (%self.haveobj(60064)% && %self.haveobj(60065)%)
   say Отлично! Сейчас я принесу жертву и сотворю заклятье!
-  say С его помощью я перенесу Вас в Корсунь
+  say С его помощью я перенесу Вас в Торжок
   mecho Ворожея что-то пошептала над ингредиентами и поднесла их к идолу.
   брос все
-  mteleport all 27016
+  mteleport all 24028
 end
 if (%self.haveobj(60064)% && %self.haveobj(60060)%)
   say Отлично! Сейчас я принесу жертву и сотворю заклятье!
-  say С его помощью я перенесу Вас в Галич
+  say С его помощью я перенесу Вас в Великий Новгород
   mecho Ворожея что-то пошептала над ингредиентами и поднесла их к идолу.
   брос все
-  mteleport all 34405
+  mteleport all 60015
 end   
 if (%self.haveobj(60065)% && %self.haveobj(60060)%)
   say Отлично! Сейчас я принесу жертву и сотворю заклятье!
-  say С его помощью я перенесу Вас в Переяславль
+  say С его помощью я перенесу Вас в град Полоцк
   mecho Ворожея что-то пошептала над ингредиентами и поднесла их к идолу.
   брос все
-  mteleport all 25005
+  mteleport all 72035
 end
 ~
 #49912
@@ -267,9 +267,9 @@ if (%amount% < 200)
 end
 wait 1
 msend %actor% - Ворожея сказала тебе:
-msend %actor% - Коли в Корсунь хочешь - принеси мне камушек и металл.
-msend %actor% - Если добудешь камушек и грибы то, смогу отправить тебя в Галич.
-msend %actor% - А захочешь в Переяславль попасть - дай мне металл и грибы.
+msend %actor% - Коли в Торжок хочешь - принеси мне камушек и сердце
+msend %actor% - Если добудешь камушек и грибы то, смогу отправить тебя в Великий Новгород.
+msend %actor% - А захочешь в Полоцк попасть - дай мне сердце и гриб.
 ~
 #49914
 следование нищих~
@@ -414,7 +414,7 @@ if %actor.quested(49950)%
   halt
 end
 if %actor.quested(49911)%
-  msend %actor% Посмотрел на Вас.
+  msend %actor% Мастер посмотрел на Вас.
   mechoaround %actor% Посмотрел на %actor.vname%.
   ул
   wait 1s
@@ -442,7 +442,7 @@ say Зачем пожаловал?
 0 d 1
 *~
 wait 1
-if %speech.contains(пизд)% || %speech.contains(мудак)% || %speech.contains(пидор)% || %speech.contains(пидар)% || %speech.contains(хуй)% || %speech.contains(залуп)% || %speech.contains(ебан)% || %speech.contains(еблан)% || %speech.contains(сран)%
+if %speech.contains(пизд)% || %speech.contains(пидор) || %speech.contains(хуй)% || %speech.contains(еблан)%
   say А вот сквернословить я тебе позволенья не давал!
   say Эй, стража!
   mecho Откуда ни возьмись появилось несколько здоровенных молодцев с дубинками.
@@ -533,7 +533,7 @@ say Сделай милость, не губи, дозволь слово молвить!
 #49923
 Разговор с приказчиком~
 0 d 1
-говори рассказывай слушаю~
+говори рассказывай слушаю да дозволяю~
 if %self.fighting% || !%actor.quested(49902)% ||  %actor.quested(49903)%
   halt
 end
@@ -835,11 +835,26 @@ switch %amount%
   mteleport %actor% %target% horse
   mechoaround %actor% %actor.name% появил%actor.u% здесь в клубах дыма.
 ~
+#49996
+Шуточка!~
+0 ab 9
+~
+wait 1
+cast !summon! .даим
+cast !summon! .илкин
+cast !summon! .булгак
+cast !summon! .фарук
+cast !summon! .афраний
+прыг
+say Шутка-шуточка, мвахахаха!
+~
 #49997
 Самоуничтожение пентаграммы~
 0 n 100
 ~
 mecho Лазурная пентаграмма возникла в воздухе.
+wait 2
+хохохт
 wait 600s
 mecho Лазурная пентаграмма медленно растаяла.
 wait 1
@@ -852,7 +867,7 @@ mpurge %self%
 wait 1
 msend %actor% Ладушки... &RНу, ты сам%actor.g% этого хотел%actor.g%!!!&n
 mechoaround %actor% %actor.name% исчез%actor.q% в пентаграмме.
-switch %random.20%
+switch %random.23%
   case 1
     mteleport %actor% 61663 horse
   break
@@ -912,6 +927,15 @@ switch %random.20%
   break
   case 20
     mteleport %actor% 30300 horse
+  break
+  case 21
+    mteleport %actor% 33550 horse
+  break
+  case 22
+    mteleport %actor% 24843 horse
+  break
+  case 23
+    mteleport %actor% 35447 horse
   break
 done
 log %actor.name% вошел в пенту! :)

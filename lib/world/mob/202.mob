@@ -11,10 +11,10 @@
 Это высокий юноша с не по годам строгим задумчивым лицом.
 ~
 b0d0g0n0o0x0o2t2 c0d0e0k0C0r1t1x1y1z1 -600 E
-40 2 -5 0d0+8500 25d10+15
+36 2 -5 0d0+8500 25d10+15
 0d0+1000 1000000
 8 8 1
-Saves: -70 0 0 0
+Saves: -70 -30 -30 -30
 Resistances: 15 15 15 15 0 0 33
 Armour: 65
 CastSuccess: 30
@@ -34,9 +34,10 @@ Size: 50
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 150
-Special_Bitvector: b1c1 
+Special_Bitvector: b1 
 Feat: 35
 Skill: 5 150
 Skill: 136 150
@@ -52,9 +53,9 @@ Spell: 48
 Spell: 127
 Spell: 127
 Spell: 127
-Helper: 20201
-Helper: 20202
 Helper: 20204
+Helper: 20202
+Helper: 20201
 E
 T 20208
 #20201
@@ -70,10 +71,10 @@ T 20208
 Это пожилой мужчина с толстым брюшком и обрюзгшим лицом, но с ясным взглядом.
 ~
 b0d0g0n0o0o2t2 d0k0t1 -600 E
-35 5 -5 5d5+6000 16d14+8
+34 5 -5 5d5+6000 16d14+8
 0d0+3000 700000
 8 8 1
-Saves: -30 0 0 0
+Saves: -30 -22 -22 -22
 Armour: 40
 CastSuccess: 50
 Success: 5
@@ -91,6 +92,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
@@ -125,15 +127,15 @@ E
 тысяцкого~
 тысяцким~
 тысяцком~
-Хмурый тысяцкий осуждает с князем и посадником  положение дел.
+Хмурый тысяцкий обсуждает с князем и посадником  положение дел.
 ~
-Этот человек на все имеет свое мнение, к которому нельзя ни прислушаться.
+Этот человек на все имеет свое мнение, к которому нельзя не прислушаться.
 ~
 b0d0g0n0o0o2t2 d0k0 -600 E
-37 5 -2 10d10+3200 12d15+25
+31 5 -2 10d10+3200 12d15+25
 0d0+1000 400000
 8 8 1
-Saves: -30 0 0 0
+Saves: -30 -10 -10 -10
 Armour: 90
 CastSuccess: 85
 Success: 5
@@ -152,6 +154,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
@@ -172,9 +175,9 @@ Spell: 124
 Spell: 124
 Spell: 124
 Spell: 124
-Helper: 20206
-Helper: 20214
 Helper: 20216
+Helper: 20214
+Helper: 20206
 E
 #20203
 седой волхв русичь~
@@ -189,10 +192,10 @@ E
 Седой муж с руками, спрятанными в широкие рукава.
 ~
 b0d0g0n0o0o2 c0d0e0k0A0C0m1q1r1t1 -600 E
-37 5 0 0d0+3500 13d14+10
+32 5 0 0d0+3500 13d14+10
 1d1+1300 420000
 8 8 1
-Saves: -30 -30 -30 0
+Saves: -30 -30 -30 -14
 Resistances: 10 10 10 10 10 10 10
 HPreg: 55
 Armour: 30
@@ -207,6 +210,7 @@ Cha: 32
 Size: 10
 LikeWork: 85
 Class: 102
+Race: 114
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -282,10 +286,10 @@ E
 Длиннобородый муж в роскошных одеждах.
 ~
 b0d0g0n0o0o2 d0k0 -600 E
-37 5 -4 10d5+3500 13d13+50
+31 5 -4 10d5+3500 13d13+50
 0d0+1000 400000
 8 8 1
-Saves: -30 0 0 0
+Saves: -30 -10 -10 -10
 HPreg: 30
 Armour: 85
 CastSuccess: 70
@@ -302,6 +306,7 @@ Cha: 30
 Size: 50
 LikeWork: 75
 Class: 102
+Race: 101
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
@@ -334,13 +339,13 @@ T 20226
 старике-ключнике~
 Старик-ключник, щурясь, проходит здесь.
 ~
-Старик в пыльном потертом кафтане и свяхкой ключей в руках.
+Старик в пыльном потертом кафтане и связкой ключей в руках.
 ~
 b0d0g0n0o0t0o2t2 c0d0e0f0k0m0n0z0 -600 E
-35 2 -5 1d1+3000 10d10+15
+31 2 -5 1d1+3000 10d10+15
 0d0+0 350000
 8 8 1
-Saves: -20 0 0 0
+Saves: -20 -10 -10 -10
 Armour: 50
 Absorbe: 50
 BareHandAttack: 5
@@ -353,6 +358,7 @@ Size: 10
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -381,7 +387,7 @@ T 20290
 Высокий бородайтый воин с цепким взглядом.
 ~
 d0g0o0o2t2 d0k0t1 -600 E
-34 2 -7 0d0+3645 13d16+7
+31 2 -7 0d0+3645 13d16+7
 0d0+190 400000
 8 8 1
 Saves: -20 -20 -20 -20
@@ -399,6 +405,7 @@ Size: 10
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -430,7 +437,7 @@ T 20223
 Тщедушный молодой человек с чуть слезящимися глазами.
 ~
 b0d0g0n0o0o2 d0k0 -600 E
-34 9 -4 0d0+3000 11d10+13
+30 9 -4 0d0+3000 11d10+13
 0d0+1000 300000
 8 8 1
 Saves: -10 0 0 0
@@ -445,6 +452,7 @@ Size: 10
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -477,7 +485,7 @@ T 20236
 нависших темных бровей.
 ~
 b0d0g0n0o0u2 c0d0e0k0m0n0l1n1r1u1 -600 E
-40 4 -2 1d99+31000 5d5+8
+4 4 -2 1d99+31000 5d5+8
 0d0+3000 666
 8 8 1
 Saves: -85 0 -85 0
@@ -496,6 +504,7 @@ Cha: 25
 Size: 10
 LikeWork: 90
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -523,7 +532,7 @@ T 20206
 d0g0o0o2 k0A0 -600 E
 30 7 0 0d0+2600 12d9+15
 0d0+22 260000
-8 8 1
+8 8 2
 Str: 18
 Dex: 15
 Int: 20
@@ -534,6 +543,7 @@ Size: 10
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -585,6 +595,7 @@ Size: 10
 LikeWork: 55
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -612,7 +623,7 @@ E
 Плечистый, но худой мужик с злющими глазами.
 ~
 b0d0g0o0o2 b0k0 -600 E
-32 4 -4 0d0+2990 12d13+22
+30 4 -4 0d0+2990 12d13+22
 0d0+444 300000
 8 8 1
 Saves: -90 0 0 0
@@ -631,6 +642,7 @@ Size: 10
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: a1b1c1 
@@ -675,6 +687,7 @@ Size: 10
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -723,6 +736,7 @@ Cha: 15
 Size: 10
 LikeWork: 50
 Class: 103
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -742,7 +756,7 @@ E
 Рослый статный воин в кольчужной рубахе и блестящем шеломце.
 ~
 b0d0g0o0o2t2 d0k0t1 -600 E
-34 2 -7 1d1+3500 14d14+20
+31 2 -7 1d1+3500 14d14+20
 0d0+500 400000
 8 8 1
 Saves: -20 -20 -20 -20
@@ -763,6 +777,7 @@ Size: 10
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -810,7 +825,7 @@ T 20223
 Плечистый здоровенный воин с осунувшимся лицом от недосыпания и недоедания.
 ~
 b0d0g0o0o2t2 k0t1 -600 E
-34 2 -7 1d1+3700 13d13+25
+31 2 -7 1d1+3700 13d13+25
 0d0+250 400000
 8 8 1
 Saves: -25 -25 -28 -25
@@ -830,6 +845,7 @@ Size: 10
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -851,7 +867,7 @@ E
 Высокий молодец.
 ~
 b0d0g0o0o2t2 d0k0t1 -600 E
-34 2 -7 0d0+3600 14d15+15
+31 2 -7 0d0+3600 14d15+15
 0d0+350 400000
 8 8 1
 Saves: -18 -18 -18 -18
@@ -871,6 +887,7 @@ Size: 10
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -899,7 +916,7 @@ T 20223
 Тощий мужичок, утопающий в широкой поношенной рясе.
 ~
 d0g0n0o0o2t2 d0k0m0n0 -600 E
-31 10 0 0d0+2600 10d10+5
+30 10 0 0d0+2600 10d10+5
 0d0+350 260000
 8 8 1
 Saves: -35 0 0 0
@@ -921,6 +938,7 @@ Size: 10
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -940,13 +958,14 @@ E
 дьяке~
 Дьяк стоит тут.
 ~
-Пожелой человек с сутулыми плечами и впавшей грудью.
+Сухопарый пожилой мужчина постоянно сутулится, будто на его плечах
+невидимый, но очень тяжелый мешок.
 ~
 d0g0n0o0o2t2 d0k0m0n0 -600 E
-34 10 -1 0d0+2999 10d10+5
+31 10 -1 0d0+2999 10d10+5
 0d0+1111 350000
 8 8 1
-Saves: -50 0 0 0
+Saves: -50 -10 -10 -10
 Resistances: -60 45 45 45 40 40 40
 Armour: 98
 CastSuccess: 50
@@ -968,6 +987,7 @@ Size: 10
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -987,6 +1007,7 @@ Spell: 86
 Spell: 94
 Helper: 20217
 E
+T 20230
 #20219
 воротный стражник русичь~
 воротный стражник~
@@ -1000,7 +1021,7 @@ E
 Здоровенный воин с огромным мечом в руке.
 ~
 b0d0g0n0o0o2t2 d0k0n0t1 -600 E
-34 2 -7 0d0+3600 14d14+20
+31 2 -7 0d0+3600 14d14+20
 0d0+350 370000
 8 8 1
 Saves: -26 -26 -26 -26
@@ -1020,6 +1041,7 @@ Size: 10
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1049,7 +1071,7 @@ T 20223
 Худенькая молодая девушка.
 ~
 d0g0n0o0o2t2 c0d0e0k0m1 -600 E
-31 6 -5 0d0+2900 11d11+25
+30 6 -5 0d0+2900 11d11+25
 0d0+500 320000
 8 8 2
 Saves: -40 0 0 0
@@ -1069,6 +1091,7 @@ Cha: 40
 Size: 10
 LikeWork: 65
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1117,6 +1140,7 @@ Size: 10
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1135,7 +1159,7 @@ E
 худом горожанине~
 Худой горожанин проходит опасливо озираясь.
 ~
-Этот человек уже давно не доедает и на чем до сих держится не понятно.
+Этот человек уже давно недоедает и на чем до сих держится не понятно.
 ~
 d0g0o0o2 k0A0 -600 E
 30 0 0 0d0+2600 12d12+25
@@ -1152,6 +1176,7 @@ Size: 10
 LikeWork: 55
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: c1d1 
@@ -1175,7 +1200,7 @@ E
 Это худая как тростинка женщина с впалыми щеками на бледном лице.
 ~
 d0g0o0o2 k0A0 -600 E
-30 10 0 0d0+2500 10d10+30
+29 10 0 0d0+2500 10d10+30
 0d0+5 250000
 8 8 2
 Absorbe: 100
@@ -1188,6 +1213,7 @@ Cha: 17
 Size: 10
 LikeWork: 55
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: c1d1 
@@ -1209,10 +1235,10 @@ E
 заткнутой за него же.
 ~
 d0g0n0o0o2t2 d0k0r1 -600 E
-32 4 -6 0d0+3000 12d13+25
+31 4 -6 0d0+3000 12d13+25
 0d0+300 350000
 8 8 1
-Saves: -40 0 0 0
+Saves: -40 -10 -10 -10
 Resistances: -40 26 26 26 25 25 25
 Armour: 90
 CastSuccess: 40
@@ -1235,6 +1261,7 @@ Size: 10
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1272,17 +1299,17 @@ T 20225
 толстого монаха~
 толстому монаху~
 толстого монаха~
-толстому монаху~
+толстым монахом~
 толстом монахе~
 Толстый монах проходит здесь по своим делам.
 ~
 Толстый мужичек с сальными прилизанными волосами в поношенной рясе.
 ~
 d0g0n0o0o2t2 d0h0k0t1 -600 E
-33 4 -3 10d20+3100 12d16+20
+31 4 -3 10d20+3100 12d16+20
 0d0+1250 380000
 8 8 1
-Saves: -65 0 0 -50
+Saves: -65 -10 -10 -50
 Resistances: -80 95 95 95 88 88 88
 Armour: 95
 PlusMem: 55
@@ -1301,6 +1328,7 @@ Size: 10
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1352,7 +1380,7 @@ E
 череп.
 ~
 b0d0g0n0o0q2 d0k0C0 -600 E
-30 5 -5 1d1+2500 9d15+15
+29 5 -5 1d1+2500 9d15+15
 0d0+0 250000
 6 8 1
 Str: 24
@@ -1365,6 +1393,7 @@ Size: 10
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1387,7 +1416,7 @@ T 20233
 Тощий мужичок, утопающий в широкой поношенной рясе.
 ~
 b0d0g0n0o0o2t2 d0h0k0m0n0 -600 E
-32 5 -5 10d10+2999 10d20+5
+30 5 -5 10d10+2999 10d20+5
 0d0+155 300000
 8 8 1
 Saves: -50 0 0 0
@@ -1405,6 +1434,7 @@ Size: 10
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1429,14 +1459,15 @@ T 20230
 княжего егеря~
 княжим егерем~
 княжем егере~
-Бывалый охотник задумался над гредущей судьбой.
+Бывалый охотник задумался над грядущей судьбой.
 ~
 Уже не молодой охотник, сжимающий золоченый составной лук.
 ~
 b0d0g0o0o2t2 d0k0t1 -600 E
-34 2 -7 1d1+3500 14d14+20
+32 2 -7 1d1+3500 14d14+20
 0d0+500 450000
 8 8 1
+Saves: -14 -14 -14 -14
 Armour: 100
 Absorbe: 100
 BareHandAttack: 9
@@ -1450,6 +1481,7 @@ Size: 10
 LikeWork: 75
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -1495,7 +1527,7 @@ E
 Еле живой старик.
 ~
 b0d0g0n0o0j2 c0d0e0k0m0n0l1r1u1 -600 E
-40 4 -2 1d1+99 5d5+8
+4 4 -2 1d1+99 5d5+8
 0d0+3000 666
 1 1 1
 Armour: 90
@@ -1509,6 +1541,7 @@ Cha: 25
 Size: 10
 LikeWork: 90
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 

@@ -14,7 +14,7 @@
 не особенно обременяли себя трудом крестьянским.
 ~
 c0d0g0l0o0A0 d0f0k0 0 E
-27 0 -7 5d5+500 9d9+0
+12 0 -7 5d5+500 9d9+0
 3d3+100 10000
 8 8 1
 Destination: 72000
@@ -35,6 +35,7 @@ Con: 25
 Size: 50
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 190
 Weight: 80
 Special_Bitvector: y0 
@@ -55,7 +56,7 @@ E
 и украдкой оборачивается, поглядеть следуете ли вы за ней.
 ~
 c0d0g0l0o0t0u0A0 d0f0k0 0 E
-27 0 -7 5d5+500 9d9+0
+12 0 -7 5d5+500 9d9+0
 3d3+100 10000
 8 8 2
 Destination: 72022
@@ -82,6 +83,7 @@ Size: 50
 LikeWork: 5
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 185
 Weight: 65
 Special_Bitvector: y0 
@@ -101,7 +103,7 @@ E
 долбит молотом по наковальне.
 ~
 b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0m0n1 600 E
-27 0 0 10d10+750 10d10+0
+1 0 0 10d10+750 10d10+0
 10d101+10 1
 8 8 1
 Str: 30
@@ -114,6 +116,7 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 170
 Weight: 85
 Special_Bitvector: i3 
@@ -132,8 +135,8 @@ E
 занимается продажей товара. Но в скором времени сумеет превзойти своего 
 учителя и занять его место.
 ~
-b0d0g0n0o0p0q0r0t0u0x0y0B0o1f2g2i2 d0f0k0n1 0 E
-30 1 0 10d10+300 5d5+5
+b0d0g0n0o0p0q0r0t0u0x0y0B0o1f2g2i2u2 d0f0k0n1 0 E
+1 1 0 10d10+300 5d5+5
 10d10+10 1
 8 8 1
 Str: 25
@@ -145,6 +148,7 @@ Cha: 12
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 85
 Special_Bitvector: i3 
@@ -164,7 +168,7 @@ E
 после покупки.
 ~
 b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0n1 0 E
-25 0 0 10d10+500 5d5+0
+1 0 0 10d10+500 5d5+0
 10d10+10 5
 8 8 1
 Str: 20
@@ -177,6 +181,7 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -195,7 +200,7 @@ E
 страсть к деньгам. А приводит она к стоянию в синагоге - в ермолке и пейсах.
 ~
 b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0n1 0 E
-25 0 0 10d10+2 1d1+1
+1 0 0 10d10+2 1d1+1
 100d100+1000 1
 8 8 1
 Str: 15
@@ -207,6 +212,7 @@ Cha: 10
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 50
 Special_Bitvector: i3 
@@ -225,7 +231,7 @@ E
 прибывающих в город и взимает с них пошлину.  
 ~
 b0c0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0y1 0 E
-26 2 -5 10d10+500 5d5+5
+12 2 -5 10d10+500 5d5+5
 10d10+300 10000
 8 8 1
 Str: 25
@@ -237,6 +243,7 @@ Cha: 15
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 85
 Special_Bitvector: i3 
@@ -254,8 +261,8 @@ E
   Этот человек перепачканный в муке и забрызганный жиром, предлагает Вам 
 преобрести у него всевозможные угощения.
 ~
-b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0u1 0 E
-25 0 5 10d10+500 5d5+5
+b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2u2 d0f0k0u1 0 E
+12 0 5 10d10+500 5d5+5
 5d5+500 10000
 8 8 1
 Str: 25
@@ -267,6 +274,7 @@ Cha: 15
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 100
 Special_Bitvector: i3 
@@ -286,7 +294,7 @@ E
 характер.
 ~
 b0c0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0 -600 E
-25 0 0 10d10+500 5d5+5
+12 0 0 10d10+500 5d5+5
 5d5+5 10000
 8 8 1
 Str: 20
@@ -298,6 +306,7 @@ Cha: 5
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -310,15 +319,15 @@ E
 хозяюшку Фросю~
 хозяюшкой Фросей~
 хозяюшке Фросе~
-Хозяюшка Фрося отдает распряжения здесь.
+Хозяюшка Фрося отдает распоряжения здесь.
 ~
    Вы видите перед собой невысокую бабенку с широкими бедрами и небольшим
 бюстом, перехватив ее шаловливый взгляд Вы понимаете, что на этом дворе за
 соответствующую плату можно насладиться не только отдыхом, но и плотскими
 утехами.  
 ~
-b0d0g0n0o0p0q0r0t0u0x0y0B0o1f2g2i2 d0f0k0p1 -600 E
-20 0 0 10d10+300 1d1+1
+b0d0g0n0o0p0q0r0t0u0x0y0B0o1f2g2i2u2 d0f0k0p1 -600 E
+1 0 0 10d10+300 1d1+1
 5d5+450 1
 8 8 2
 BareHandAttack: 2
@@ -332,6 +341,7 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 170
 Weight: 65
 Special_Bitvector: b1c1i3 
@@ -340,12 +350,12 @@ Skill: 157 120
 E
 #72010
 аксений~
-аксений~
-аксения~
-аксению~
-аксения~
-аксением~
-аксении~
+Аксений~
+Аксения~
+Аксению~
+Аксения~
+Аксением~
+Аксениии~
 Лавочник Аксений выделывает доспехи здесь.
 ~
   Вы видите перед собой старенького дедушку, который кряхтя, прилаживает к 
@@ -353,8 +363,8 @@ E
 выйдет отличный, тут он замечает Ваш заинтересованный взгляд и предлагает 
 купить комплект брони со скидкой.
 ~
-b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0q1 600 E
-30 0 0 10d10+600 5d5+5
+b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2u2 d0f0k0q1 600 E
+12 0 0 10d10+600 5d5+5
 5d5+100 10000
 8 8 1
 Str: 20
@@ -366,6 +376,7 @@ Cha: 20
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 180
 Weight: 85
 Special_Bitvector: i3 
@@ -386,7 +397,7 @@ E
 кун эдак за 50.
 ~
 b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0 0 E
-25 0 0 10d10+400 1d1+1
+12 0 0 10d10+400 1d1+1
 50d50+50 10000
 8 8 1
 Str: 20
@@ -398,6 +409,7 @@ Cha: 15
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -417,7 +429,7 @@ E
 несколько слов утешения. Его любят и почитают в этом городе.  
 ~
 b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0 0 E
-25 0 0 10d10+500 5d5+5
+12 0 0 10d10+500 5d5+5
 5d5+55 10000
 8 8 1
 Str: 20
@@ -429,6 +441,7 @@ Cha: 15
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 85
 Special_Bitvector: i3 
@@ -448,8 +461,8 @@ E
 продолжает семейное дело изготавливая лечебные зелья и снабжая городских 
 дружинников исцеляющими мазями.
 ~
-b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0 0 E
-25 0 0 10d10+400 2d2+2
+b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2u2 d0f0k0 0 E
+12 0 0 10d10+400 2d2+2
 5d5+55 10000
 8 8 1
 Str: 20
@@ -461,10 +474,12 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
 E
+T 72000
 #72014
 воевода~
 воевода~
@@ -481,7 +496,7 @@ E
  
 ~
 b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0h0k0 600 E
-30 5 -5 10d10+1100 15d15+5
+12 5 -5 10d10+1100 15d15+5
 15d15+1000 10000
 8 8 1
 Str: 25
@@ -493,6 +508,7 @@ Cha: 20
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 95
 Special_Bitvector: i3 
@@ -510,7 +526,7 @@ E
   Кутающийся от пронизывающего ветра в одежды воин.
 ~
 b0d0g0 f0t1 -600 E
-25 0 -10 10d10+1150 10d10+10
+14 0 -10 10d10+1150 10d10+10
 5d5+5 15000
 8 8 1
 BareHandAttack: 9
@@ -524,9 +540,10 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
-Special_Bitvector: y0 
+Special_Bitvector: y0b1c1 
 Skill: 136 80
 Skill: 137 100
 Skill: 146 80

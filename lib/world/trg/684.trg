@@ -51,21 +51,21 @@ switch %random.10%
       msend %actor.name% Немного попотев, вы слатали из чешуи змея неплохую кирасу.
       mechoaround %actor.name% _Немного потрудившись %actor.name% сделал%actor.g%
       mechoaround %actor.name% _неплохую кирасу.
-      mload obj 64803
+      mload obj 68403
     end
   break          
   case 3
     if %world.curobjs(68404)% < 3 
       msend %actor% _Хорошенько постаравшись, вы сделали шлем из чешуи змея.
       mechoaround %actor% _Долго ругаясь и плюясь смастерил%actor.g% шлем из чешуи.
-      mload obj 64804
+      mload obj 68404
     end
   break
   case 4
     if %world.curobjs(68405)% < 3 
       msend %actor% _Вы начали усердно обрабатывать чешую змея и сделали ремень.
       mechoaround %actor% _%actor.name% сделал%actor.g% какую-то вещицу.
-      mload obj 64805
+      mload obj 68405
     end
   break 
   default
@@ -279,8 +279,8 @@ msend %actor% - Если они отвлекутся, то могут просмотреть нападение!
 ~
 mechoaround %actor%  Старший темный маг издал истошный вопль и помер.
 mechoaround %actor%  Удар %actor.rname% оказался для него смертельным.
-calcuid from 68448 room
-detach 68404 %from.id%
+calcuid mag 68448 room
+detach 68404 %mag.id%
 ~
 #68413
 побирушка приветствует игрока~
@@ -561,7 +561,7 @@ mecho _- Может ты сможешь помочь нам?
 wait 15
 detach 68423 %self.id% 
 set quester %actor%
-global quester   
+global quester
 mecho _Глава лагеря:
 mecho _- Ты ведь жаждешь приключений!
 mecho _- Я вижу это в твоих глазах.
@@ -573,7 +573,7 @@ mecho  - Ну утащат пару коров да свиней, да и черт с ними!
 mecho _- Но на людей они еще ни когда не нападали.
 wait 15
 mecho _- Но сейчас! Они просто людоедами стали!
-mecho _- Они же, изверги так все население пождут!
+mecho _- Они же, изверги, так все население пожрут!
 mecho _- Твари ненасытные.
 рычать
 mecho _- Разберись с ними и тем, кто ведет их.

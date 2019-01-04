@@ -11,7 +11,7 @@
 Крупная злобная псина с черной шкурой.
 ~
 b0d0f0g0h0 k0 -600 E
-10 2 8 0d0+150 3d3+4
+11 2 8 0d0+150 3d3+4
 0d0+0 7500
 8 8 1
 BareHandAttack: 4
@@ -23,11 +23,13 @@ Cha: 3
 Size: 25
 LikeWork: 95
 Class: 103
+Race: 104
 Height: 198
 Weight: 10
 Special_Bitvector: 0 
 Skill: 136 30
 E
+T 4500
 #4501
 взрослый разбойник~
 взрослый разбойник~
@@ -41,7 +43,7 @@ E
 Чернобородый крепкий мужик.
 ~
 d0f0g0 k0 0 E
-13 3 7 0d0+250 2d3+2
+12 3 7 0d0+250 2d3+2
 5d3+0 10000
 8 8 1
 Str: 15
@@ -53,6 +55,7 @@ Cha: 3
 Size: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 30
 Special_Bitvector: 0 
@@ -71,7 +74,7 @@ E
 Молодая рыжая деваха в мужской одеже.
 ~
 d0f0g0 k0 0 E
-13 3 7 0d0+180 2d3+1
+12 3 7 0d0+180 2d3+1
 4d3+0 10000
 8 8 2
 Str: 15
@@ -84,6 +87,7 @@ Size: 80
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 20
 Special_Bitvector: 0 

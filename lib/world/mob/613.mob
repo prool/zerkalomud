@@ -27,7 +27,7 @@ LikeWork: 20
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 160
 Weight: 130
 Special_Bitvector: v0b1c1d1d3 
@@ -43,7 +43,6 @@ Spell: 69
 Spell: 69
 E
 I глаза:9
-I кожа:9
 #61301
 сонный водяник~
 сонный водяник~
@@ -73,7 +72,7 @@ LikeWork: 20
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 160
 Weight: 130
 Special_Bitvector: v0b1c1d1d3 
@@ -91,7 +90,6 @@ Spell: 127
 Spell: 127
 Spell: 128
 E
-I кожа:9
 I глаза:9
 #61302
 главный водяник~
@@ -122,7 +120,7 @@ LikeWork: 35
 MaxFactor: 10
 ExtraAttack: 3
 Class: 102
-Race: 100
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: v0b1c1d1d3 
@@ -151,7 +149,6 @@ Helper: 61301
 E
 T 61303
 I глаза:9
-I кожа:9
 #61303
 гадюка подколодная~
 гадюка подколодная~
@@ -179,7 +176,7 @@ LikeWork: 40
 MaxFactor: 15
 ExtraAttack: 1
 Class: 100
-Race: 100
+Race: 105
 Height: 175
 Weight: 50
 Special_Bitvector: g0m0 
@@ -211,7 +208,7 @@ Wis: 3
 Con: 5
 Size: 10
 Class: 100
-Race: 100
+Race: 107
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
@@ -244,7 +241,7 @@ Con: 10
 Cha: 10
 Size: 10
 Class: 100
-Race: 100
+Race: 107
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
@@ -279,7 +276,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: g0m0 
@@ -312,7 +309,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: m0 
@@ -345,7 +342,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 10
 Class: 100
-Race: 100
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: m0 
@@ -379,7 +376,7 @@ LikeWork: 100
 MaxFactor: 19
 ExtraAttack: 1
 Class: 100
-Race: 100
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
@@ -418,7 +415,7 @@ LikeWork: 90
 MaxFactor: 12
 ExtraAttack: 1
 Class: 100
-Race: 100
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: g0l0 
@@ -488,7 +485,7 @@ LikeWork: 35
 MaxFactor: 10
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -525,7 +522,7 @@ LikeWork: 30
 MaxFactor: 5
 ExtraAttack: 2
 Class: 101
-Race: 100
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -562,7 +559,7 @@ LikeWork: 100
 MaxFactor: 13
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -610,7 +607,7 @@ LikeWork: 30
 MaxFactor: 5
 ExtraAttack: 2
 Class: 101
-Race: 100
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 

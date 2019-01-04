@@ -321,4 +321,51 @@ wecho _Неожиданно казавшаяся плотной и твердой кочка утопла в вязкой трясине
 wecho _и Вы рухнули в глубокую мутную воду.
 wdamage %actor% 85
 ~
+#65818
+Лезем на дуб~
+2 c 100
+лезть~
+if !%arg.contains(дуб)%
+  wsend %actor%  Куда это Вы лезть собрались?
+  return 0
+  halt
+end
+if %actor.rentable%
+  wteleport %actor% 65878 horse
+  wsend %actor% Вы залезли в маленький домик на дереве.
+  wechoaround %actor% Кто-то вдруг оказался рядом с Вами.
+end
+~
+#65819
+слезть вниз~
+2 c 100
+слезть~
+if !%arg.contains(вниз)%
+  wsend %actor%  Куда это Вы слезть собрались?
+  return 0
+  halt
+end
+wsend %actor% Вы спрыгнули вниз с дерева.
+wteleport %actor% 65873
+wechoaround %actor% Кто-то вдруг оказался рядом с Вами.
+~
+#65820
+камин~
+1 b 100
+~
+switch %random.60%
+  case 1
+    oecho В камине весело трещат &yдрова&n.
+  break
+  case 2
+    oecho Из камина вылетела &Rис&Yкор&Rка&n и &Wпогасла&n в воздухе.
+  break
+  case 3
+    oecho &YЯзыки &Rпламени&n сплетаются в красивом &rтанце&n.
+  break
+  case 4
+    oecho Вас окутало &Wтепло &Rогня&n.
+  break
+done
+~
 $~

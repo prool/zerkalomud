@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #104300
 печальный странник~
 печальный странник~
@@ -12,35 +11,23 @@
 Молодой степняк, одетый в когда-то богатый кафтан (превратившийся в тряпье),
 явно знавал лучшие времена.
 ~
-b0g0o1q2 d0f0k0D0n1B1 0 E
+b0d0g0o1q2 d0f0k0D0n1B1 0 E
 34 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 6 0
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 100
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 T 104300
 T 104301
@@ -58,39 +45,26 @@ T 104305
 ~
    Безусый юнец, только взявший в руки оружие.
 ~
-c0g0m0A0q2 k0r0 -600 E
+c0d0g0m0A0q2 k0r0 -600 E
 13 12 0 200d1+1 3d4+7
 0d0+10 15000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 12
 Int: 10
 Wis: 10
-Dex: 12
 Con: 10
 Cha: 10
-LikeWork: 30
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 100
+LikeWork: 30
+Class: 102
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: y0
-Spell: 16
+Special_Bitvector: y0 
 Skill: 136 50
 Skill: 157 25
+Spell: 16
 E
 T 104313
 #104302
@@ -105,37 +79,26 @@ T 104313
 ~
 Повидавший не одно сражение воин.
 ~
-g0l0m0q2 k0r0 -600 E
+d0g0l0m0q2 k0r0 -600 E
 15 10 0 250d1+1 4d4+8
 0d0+20 20000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 16
 Int: 10
 Wis: 10
-Dex: 16
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Spell: 52
+Special_Bitvector: 0 
 Skill: 158 40
+Spell: 52
 E
 T 104312
 #104303
@@ -150,37 +113,26 @@ T 104312
 ~
 Воин в летах, закаленный множеством битв, но еще не растерявший былую силу.
 ~
-g0l0m0q2 k0r0z0 -600 E
+d0g0l0m0q2 k0r0z0 -600 E
 15 9 -1 230d1+1 4d4+8
 0d0+20 22000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 17
 Int: 12
 Wis: 12
-Dex: 17
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Spell: 92
+Special_Bitvector: 0 
 Skill: 137 30
+Spell: 92
 E
 T 104311
 I кости,10:4
@@ -196,36 +148,24 @@ I кости,10:4
 ~
 Внимательный воин с длинным копьем.
 ~
-b0g0m0q2 k0r0 -600 E
+b0d0g0m0q2 k0r0 -600 E
 15 10 0 220d1+2 3d4+7
 0d0+5 15000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 10
 Str: 10
+Dex: 14
 Int: 10
 Wis: 10
-Dex: 14
 Con: 10
 Cha: 10
-LikeWork: 70
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 100
+LikeWork: 70
+Class: 102
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: y0
+Special_Bitvector: y0 
 Skill: 134 25
 E
 T 104318
@@ -241,35 +181,24 @@ T 104318
 ~
 Зоркий взгляд, сильные руки - что еще нужно лучнику? 
 ~
-b0g0l0m0q2 k0r0 -600 E
+b0d0g0l0m0q2 k0r0 -600 E
 15 10 0 250d1+1 2d3+6
 1d1+6 18000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 13
 Int: 10
 Wis: 10
-Dex: 13
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 3
 Skill: 155 30
 Skill: 160 30
@@ -288,42 +217,31 @@ I глаза,10:4
 ~
 Рослый степняк умом и отвагой заслуживший свой чин.
 ~
-b0g0l0m0q2 k0r0A0 -600 E
+b0d0g0l0m0q2 k0r0A0 -600 E
 15 8 -2 10d10+2 4d4+10
 2d2+16 35000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 21
 Int: 10
 Wis: 10
-Dex: 21
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 3
 Feat: 65
 Feat: 66
 Feat: 68
-Spell: 150
-Spell: 4
 Skill: 4 35
+Spell: 4
+Spell: 150
 E
 T 104315
 I зубы,10:5
@@ -339,35 +257,24 @@ I зубы,10:5
 ~
 Не робкого десятка взрослый мужчина.
 ~
-b0g0m0x0q2 d0k0p0 -600 E
+b0d0g0m0x0q2 d0k0p0 -600 E
 15 12 0 200d1+1 3d3+7
 0d0+6 12000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 3
 E
 I глаза,10:4
@@ -384,39 +291,27 @@ I глаза,10:4
    Только лучшие из лучших допускаются к несению службы во внутреннем
 круге, а это о многом говорит.
 ~
-b0f0g0l0m0x0q2 d0k0r0 -600 E
+b0d0f0g0l0m0x0q2 d0k0r0 -600 E
 15 10 0 10d10+170 3d3+6
 2d2+8 18000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 16
 Int: 10
 Wis: 10
-Dex: 16
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 35
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: a0b0c0d0
-Spell: 90
-Spell: 90
+Special_Bitvector: a0b0c0d0 
 Skill: 137 25
+Spell: 90
+Spell: 90
 E
 T 104320
 #104309
@@ -431,43 +326,32 @@ T 104320
 ~
    Командир, выигравший не одно сражение, не даром ест свой хлеб.
 ~
-b0g0l0m0q2 d0k0r0 -600 E
+b0d0g0l0m0q2 d0k0r0 -600 E
 20 5 -3 10d10+250 4d4+12
 4d4+30 40000
 8 6 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 17
+Dex: 23
 Int: 10
 Wis: 10
-Dex: 23
 Con: 16
 Cha: 10
+Size: 100
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 1
 Feat: 3
 Feat: 55
-Spell: 156
-Spell: 156
 Skill: 132 60
-Helper: 104303
+Spell: 156
+Spell: 156
 Helper: 104333
+Helper: 104303
 E
 T 104325
 #104310
@@ -482,42 +366,32 @@ T 104325
 ~
 Степняк весь увешанный амулетами.
 ~
-b0f0g0l0m0q2 d0k0 -600 E
+b0d0f0g0l0m0q2 d0k0 -600 E
 17 16 -1 1d1+280 2d2+6
 4d4+16 35000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
 CastSuccess: 40
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 14
+Dex: 15
 Int: 16
 Wis: 17
-Dex: 15
 Con: 16
 Cha: 10
+Size: 100
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 28
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 82
-Spell: 82
 Skill: 165 50
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 82
+Spell: 82
 E
 T 104316
 I кожа,10:5
@@ -533,40 +407,29 @@ I кожа,10:5
 ~
 Юноша решивший стать шаманом.
 ~
-b0g0m0q2 k0r0 -600 E
+b0d0g0m0q2 k0r0 -600 E
 14 11 0 10d10+100 3d3+6
 2d2+2 18000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 15
 Int: 13
 Wis: 14
-Dex: 15
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 4
 Feat: 5
 Feat: 6
-Spell: 54
 Skill: 137 45
+Spell: 54
 E
 T 104317
 #104312
@@ -582,46 +445,35 @@ T 104317
    Немолодой тучный степняк, с нежными холеными руками не знавшими тяжелой
 работы.
 ~
-b0g0m0n0q2 d0k0r0A0 -600 E
+b0d0g0m0n0q2 d0k0r0A0 -600 E
 25 6 -4 10d10+300 4d4+10
 2d2+40 50000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 17
 Int: 10
 Wis: 10
-Dex: 17
 Con: 17
 Cha: 10
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 3
 Feat: 11
+Skill: 5 50
 Spell: 15
 Spell: 93
-Skill: 5 50
-Helper: 104302
-Helper: 104303
-Helper: 104331
-Helper: 104332
-Helper: 104339
 Helper: 104309
+Helper: 104339
+Helper: 104332
+Helper: 104331
+Helper: 104303
+Helper: 104302
 E
 T 104303
 T 104308
@@ -637,39 +489,29 @@ T 104308
 ~
 Нукер с горящими глазами - наверняка тут не обошлось без снадобий шамана.
 ~
-g0j0m0i1q2 f0k0r0 -600 E
+d0g0j0m0i1q2 f0k0r0 -600 E
 18 10 -1 10d10+200 3d4+7
 4d2+6 20000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 11
 Str: 10
+Dex: 15
 Int: 13
 Wis: 13
-Dex: 15
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Spell: 64
-Spell: 64
+Special_Bitvector: 0 
 Skill: 131 50
 Skill: 160 50
+Spell: 64
+Spell: 64
 E
 T 104324
 #104314
@@ -684,35 +526,24 @@ T 104324
 ~
    Опытный дозорный, отстоявший уже не одну ночную смену.
 ~
-f0g0m0i1q2 d0k0r0 -600 E
+d0f0g0m0i1q2 d0k0r0 -600 E
 22 5 -1 10d10+260 4d4+8
 4d4+16 35000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 16
+Dex: 17
 Int: 19
 Wis: 16
-Dex: 17
 Con: 17
 Cha: 10
+Size: 100
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Spell: 131
 Spell: 131
 Spell: 131
@@ -731,35 +562,24 @@ T 104319
 ~
 Немолодой сломленный годами степняк.
 ~
-c0g0m0q2 0 -600 E
+c0d0g0m0q2 0 -600 E
 10 15 0 10d10+150 2d2+2
 1d1+2 10000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 12
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 30
 E
 #104316
@@ -774,35 +594,24 @@ E
 ~
    Молодая красивая женщина.
 ~
-g0m0A0q2 0 -600 E
+d0g0m0A0q2 0 -600 E
 10 10 0 10d10+90 2d2+1
 2d1+1 9000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 14
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 #104317
 спящий нукер~
@@ -816,35 +625,24 @@ E
 ~
 Сопящий мужик.
 ~
-b0g0i1q2 0 -600 E
+b0d0g0i1q2 0 -600 E
 12 10 0 10d10+100 3d3+3
 2d2+2 10000
 4 4 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 14
 Int: 10
 Wis: 10
-Dex: 14
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 #104318
  Прачка~
@@ -858,36 +656,22 @@ E
 ~
 Красивая молодая девушка.
 ~
-b0g0q2 0 -600 E
+b0d0g0q2 0 -600 E
 10 10 0 10d10+60 2d1+1
 1d1+2 80000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 100
+Class: 102
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: y0
+Special_Bitvector: y0 
 E
 T 104323
 #104319
@@ -902,41 +686,30 @@ T 104323
 ~
    Пожилой степняк в ярких одеждах.
 ~
-b0g0k0l0m0q2 0 0 E
+b0d0g0k0l0m0q2 0 0 E
 10 10 0 10d10+180 3d3+2
 2d2+8 20000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 17
 Int: 17
 Wis: 17
-Dex: 17
 Con: 10
 Cha: 17
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 2
 Feat: 3
 Feat: 62
-Spell: 154
-Spell: 56
 Skill: 136 30
+Spell: 56
+Spell: 154
 E
 T 104321
 #104320
@@ -951,36 +724,24 @@ T 104321
 ~
 Немолодой мастер по выделке кожи.
 ~
-b0g0q2 k0 -600 E
+b0d0g0q2 k0 -600 E
 12 10 0 10d10+200 4d4+3
 4d3+6 15000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: y0
+Special_Bitvector: y0 
 Skill: 137 40
 E
 #104321
@@ -995,35 +756,24 @@ E
 ~
 Огромный степняк недюжей силы.
 ~
-b0g0q2 k0r0 -600 E
+b0d0g0q2 k0r0 -600 E
 20 10 0 10d10+180 4d4+7
 4d4+4 20000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 16
 Int: 10
 Wis: 10
-Dex: 16
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 5 40
 E
 T 104307
@@ -1039,36 +789,25 @@ T 104307
 ~
    Весь вытянутый, как и его стрелы степняк.
 ~
-b0g0q2 k0r0 -600 E
+b0d0g0q2 k0r0 -600 E
 10 10 0 10d10+180 4d4+4
 4d2+4 16000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 10
+Dex: 16
 Int: 10
 Wis: 10
-Dex: 16
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: y0
+Special_Bitvector: y0 
 Skill: 137 40
 Skill: 157 50
 E
@@ -1085,35 +824,24 @@ T 104309
 ~
 Пропахший конским духом степняк.
 ~
-b0g0q2 0 -600 E
+b0d0g0q2 0 -600 E
 15 19 0 10d10+180 2d2+5
 2d2+5 12000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 16
 Int: 10
 Wis: 10
-Dex: 16
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 132 40
 E
 #104324
@@ -1128,36 +856,24 @@ E
 ~
 Степняк весь исцарапанный своими инструментами.
 ~
-b0g0q2 0 -600 E
+b0d0g0q2 0 -600 E
 12 10 0 10d10+180 2d2+8
 2d4+6 14000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 17
 Int: 10
 Wis: 10
-Dex: 17
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: y0
+Special_Bitvector: y0 
 Skill: 132 40
 Skill: 137 40
 E
@@ -1175,35 +891,24 @@ T 104310
    Лентяй - вот имя этого воина, вместо того чтобы заниматься,
 сказки слушать пришел.
 ~
-b0g0m0 k0r0 0 E
+b0d0g0m0 k0r0 0 E
 15 10 0 10d10+200 2d2+7
 2d2+8 16000
 5 5 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 17
 Int: 10
 Wis: 10
-Dex: 17
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 3
 Skill: 137 60
 E
@@ -1219,35 +924,24 @@ E
 ~
 Коротконогая степная собачонка.
 ~
-g0j0m0 d0f0k0r0 -600 E
+d0g0j0m0 d0f0k0r0 -600 E
 15 20 0 10d10+80 2d2+2
 0d0+0 8000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 35
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 100
+LikeWork: 35
+Class: 103
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 2 30
 E
 I шерсть,10:5
@@ -1263,36 +957,24 @@ I шерсть,10:5
 ~
 Внимательный воин с длинным копьем.
 ~
-b0g0m0q2 k0r0 -600 E
+b0d0g0m0q2 k0r0 -600 E
 15 10 0 220d1+2 3d4+7
 0d0+5 15000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 10
 Str: 10
+Dex: 14
 Int: 10
 Wis: 10
-Dex: 14
 Con: 10
 Cha: 10
-LikeWork: 70
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 100
+LikeWork: 70
+Class: 102
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: y0
+Special_Bitvector: y0 
 Skill: 134 25
 E
 T 104318
@@ -1308,35 +990,24 @@ T 104318
 ~
 Зоркий взгляд, сильные руки - что еще нужно лучнику? 
 ~
-b0g0l0m0q2 k0r0 -600 E
+b0d0g0l0m0q2 k0r0 -600 E
 15 10 0 250d1+1 2d3+6
 1d1+6 18000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 13
 Int: 10
 Wis: 10
-Dex: 13
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 155 30
 Skill: 160 30
 E
@@ -1353,35 +1024,24 @@ T 104322
 ~
 Не робкого десятка взрослый мужчина.
 ~
-b0g0m0x0q2 d0k0p0 -600 E
+b0d0g0m0x0q2 d0k0p0 -600 E
 15 12 0 200d1+1 3d3+7
 0d0+6 12000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 #104330
 спящий нукер~
@@ -1395,35 +1055,24 @@ E
 ~
 Сопящий мужик.
 ~
-b0g0i1q2 0 -600 E
+b0d0g0i1q2 0 -600 E
 12 10 0 10d10+100 3d3+3
 2d2+2 10000
 4 4 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 14
 Int: 10
 Wis: 10
-Dex: 14
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 #104331
 младший нукер~
@@ -1437,39 +1086,26 @@ E
 ~
    Безусый юнец, только взявший в руки оружие.
 ~
-c0g0m0A0q2 k0r0 -600 E
+c0d0g0m0A0q2 k0r0 -600 E
 13 12 0 200d1+1 3d4+7
 0d0+10 15000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 12
 Int: 10
 Wis: 10
-Dex: 12
 Con: 10
 Cha: 10
-LikeWork: 30
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 100
+LikeWork: 30
+Class: 102
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: y0
-Spell: 16
+Special_Bitvector: y0 
 Skill: 136 50
 Skill: 157 25
+Spell: 16
 E
 T 104313
 #104332
@@ -1484,37 +1120,26 @@ T 104313
 ~
 Повидавший не одно сражение воин.
 ~
-g0l0m0q2 k0r0 -600 E
+d0g0l0m0q2 k0r0 -600 E
 15 10 0 250d1+1 4d4+8
 0d0+20 20000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 16
 Int: 10
 Wis: 10
-Dex: 16
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Spell: 52
+Special_Bitvector: 0 
 Skill: 158 40
+Spell: 52
 E
 T 104312
 #104333
@@ -1529,37 +1154,26 @@ T 104312
 ~
 Воин в летах, закаленный множеством битв, но еще не растерявший былую силу.
 ~
-g0l0m0q2 k0r0z0 -600 E
+d0g0l0m0q2 k0r0z0 -600 E
 15 9 -1 230d1+1 4d4+8
 0d0+20 22000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 17
 Int: 10
 Wis: 10
-Dex: 17
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Spell: 92
+Special_Bitvector: 0 
 Skill: 137 30
+Spell: 92
 E
 T 104311
 #104334
@@ -1574,38 +1188,27 @@ T 104311
 ~
 Рослый степняк умом и отвагой заслуживший свой чин.
 ~
-g0l0m0q2 k0r0A0 -600 E
+d0g0l0m0q2 k0r0A0 -600 E
 15 8 -2 10d10+2 4d4+10
 2d2+16 35000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 21
 Int: 10
 Wis: 10
-Dex: 21
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Spell: 150
-Spell: 4
+Special_Bitvector: 0 
 Skill: 4 35
+Spell: 4
+Spell: 150
 E
 T 104314
 #104335
@@ -1620,40 +1223,27 @@ T 104314
 ~
    Безусый юнец, только взявший в руки оружие.
 ~
-c0g0m0A0q2 k0r0 -600 E
+c0d0g0m0A0q2 k0r0 -600 E
 13 12 0 200d1+1 3d4+7
 0d0+10 15000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 12
 Int: 10
 Wis: 10
-Dex: 12
 Con: 10
 Cha: 10
-LikeWork: 45
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 100
+LikeWork: 45
+Class: 102
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: y0
-Spell: 16
+Special_Bitvector: y0 
 Skill: 136 50
 Skill: 137 60
 Skill: 157 25
+Spell: 16
 E
 #104336
 спящий нукер~
@@ -1667,35 +1257,24 @@ E
 ~
 Сопящий мужик.
 ~
-b0g0i1q2 0 -600 E
+b0d0g0i1q2 0 -600 E
 12 10 0 10d10+100 3d3+3
 2d2+2 10000
 4 4 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 14
 Int: 10
 Wis: 10
-Dex: 14
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 E
 #104337
 прачка~
@@ -1709,36 +1288,22 @@ E
 ~
 Красивая молодая девушка.
 ~
-b0g0q2 0 -600 E
+b0d0g0q2 0 -600 E
 10 10 0 10d10+60 2d1+1
 1d1+2 80000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 100
+Class: 102
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: y0
+Special_Bitvector: y0 
 E
 #104338
 страж внутреннего круга~
@@ -1753,39 +1318,27 @@ E
    Только лучшие из лучших допускаются к несению службы во внутреннем
 круге, а это о многом говорит.
 ~
-b0f0g0l0m0x0q2 d0k0r0 -600 E
+b0d0f0g0l0m0x0q2 d0k0r0 -600 E
 15 10 0 10d10+170 3d3+6
 2d2+8 18000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 16
 Int: 10
 Wis: 10
-Dex: 16
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 35
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Special_Bitvector: a0b0c0d0
-Spell: 90
-Spell: 90
+Special_Bitvector: a0b0c0d0 
 Skill: 137 25
+Spell: 90
+Spell: 90
 E
 T 104320
 #104339
@@ -1800,39 +1353,27 @@ T 104320
 ~
 Повидавший не одно сражение воин.
 ~
-g0l0m0q2 k0r0 -600 E
+d0g0l0m0q2 k0r0 -600 E
 15 10 0 250d1+1 4d4+8
 0d0+20 20000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 16
 Int: 10
 Wis: 10
-Dex: 16
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
+Race: 100
 Height: 175
 Weight: 85
-Spell: 52
-Skill: 158 40
+Special_Bitvector: 0 
 Skill: 137 60
+Skill: 158 40
+Spell: 52
 E
 I кости,10:5
-$
 $

@@ -11,9 +11,10 @@
 Судя по шраму на лице - это бывалый вояка.
 ~
 b0d0g0l0m0n0o0 d0f0k0 -600 E
-33 0 -10 10d10+4000 8d8+12
+35 0 -10 10d10+4000 8d8+12
 0d0+30 820000
 8 8 1
+Saves: -26 -26 -26 -26
 Str: 24
 Dex: 30
 Con: 18
@@ -21,6 +22,7 @@ Size: 100
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -58,7 +60,7 @@ T 13307
 Будьте уверены - этот не промахнется!
 ~
 c0d0g0m0n0o0A0 d0k0 -600 E
-30 -3 -1 100d7+2000 7d6+8
+27 -3 -1 100d7+2000 7d6+8
 0d0+10 120000
 8 8 1
 BareHandAttack: 9
@@ -70,6 +72,7 @@ Size: 60
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
@@ -94,7 +97,7 @@ T 13314
 Объевшись мухоморов, этот парень не чувствует боли.
 ~
 c0d0g0m0n0o0t0A0 d0f0k0 0 E
-29 -3 0 100d7+2000 8d8+9
+27 -3 0 100d7+2000 8d8+9
 0d0+10 140000
 8 8 1
 Str: 18
@@ -103,6 +106,7 @@ Con: 19
 Size: 59
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
@@ -124,7 +128,7 @@ T 13313
 Воин из отряда Торольва.
 ~
 b0d0f0g0m0 k0 -600 E
-28 0 -8 20d30+2000 7d5+6
+25 0 -8 20d30+2000 7d5+6
 0d0+0 100000
 8 8 1
 Str: 24
@@ -134,6 +138,7 @@ Size: 58
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -156,7 +161,7 @@ E
 Воин из отряда Торольва.
 ~
 b0d0f0g0m0 k0 -600 E
-28 0 -8 20d30+2000 7d5+6
+25 0 -8 20d30+2000 7d5+6
 0d0+0 100000
 8 8 1
 Str: 24
@@ -166,6 +171,7 @@ Size: 58
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -188,7 +194,7 @@ E
 Воин из отряда Торольва.
 ~
 b0d0f0g0m0 k0 0 E
-28 0 -8 20d30+2000 7d5+6
+25 0 -8 20d30+2000 7d5+6
 0d0+0 100000
 8 8 1
 Str: 24
@@ -198,6 +204,7 @@ Size: 58
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -220,7 +227,7 @@ E
 Охранник поселения чуди.
 ~
 b0d0f0g0m0 k0 -600 E
-28 0 -8 20d30+2000 7d5+6
+25 0 -8 20d30+2000 7d5+6
 0d0+0 100000
 8 8 1
 Str: 24
@@ -230,6 +237,7 @@ Size: 58
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -252,7 +260,7 @@ E
 Охранник поселения чуди.
 ~
 b0d0f0g0m0 k0 -600 E
-28 0 -8 20d30+2000 7d5+6
+25 0 -8 20d30+2000 7d5+6
 0d0+0 100000
 8 8 1
 Str: 24
@@ -262,6 +270,7 @@ Size: 58
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -284,7 +293,7 @@ E
 Охранник поселения чуди.
 ~
 b0d0f0g0m0 k0 -600 E
-28 0 -8 20d30+2000 7d5+6
+25 0 -8 20d30+2000 7d5+6
 0d0+0 100000
 8 8 1
 Str: 24
@@ -294,6 +303,7 @@ Size: 58
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -316,9 +326,10 @@ E
 Эта женщина ответственна за свое племя перед богами чуди.
 ~
 b0d0g0l0m0n0o0 d0f0k0 -600 E
-33 0 -10 10d10+4000 8d8+3
+32 0 -10 10d10+4000 8d8+3
 0d0+30 500000
 8 8 2
+Saves: -14 -14 -14 -14
 Str: 24
 Dex: 30
 Con: 18
@@ -326,6 +337,7 @@ Size: 100
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -377,7 +389,7 @@ T 13312
 стрельбы из лука.
 ~
 d0g0m0n0o0 k0 -600 E
-29 -3 -3 100d7+2000 7d6+8
+28 -3 -3 100d7+2000 7d6+8
 0d0+10 150000
 8 8 1
 BareHandAttack: 9
@@ -387,6 +399,7 @@ Con: 18
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
@@ -421,6 +434,7 @@ Con: 19
 Size: 59
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -443,7 +457,7 @@ L 1495 11 0 0
 Бедняге не повезло: он ранен и сильно избит.
 ~
 b0d0g0 k0 0 E
-28 0 -8 20d30+2000 7d5+6
+1 0 -8 20d30+2000 7d5+6
 0d0+0 1
 8 8 1
 Str: 24
@@ -451,6 +465,7 @@ Dex: 24
 Size: 58
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -467,13 +482,13 @@ T 13306
 сторожа~
 сторожем~
 стороже~
-Сторож явно не доволен, что Вы здесь ходите туда-сюда.
+Сторож явно недоволен, что Вы ходите туда-сюда.
 ~
 Глаза его так и бегают, он постоянно оглядывается и 
 пытается, видимо, понять, кто Вы и что здесь делаете.
 ~
 b0d0g0m0 d0f0k0 0 E
-28 0 -8 20d30+2000 7d5+6
+25 0 -8 20d30+2000 7d5+6
 0d0+0 100000
 8 8 1
 Str: 24
@@ -481,6 +496,7 @@ Dex: 24
 Size: 58
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -504,7 +520,7 @@ E
 Чудский воин, сторожащий пленных и преступников.
 ~
 b0d0f0g0m0 k0 0 E
-28 0 -8 20d30+2000 7d5+6
+25 0 -8 20d30+2000 7d5+6
 0d0+0 100000
 8 8 1
 Str: 24
@@ -512,6 +528,7 @@ Dex: 24
 Size: 58
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -532,7 +549,7 @@ E
 Чудский воин, сторожащий пленных и преступников.
 ~
 b0d0f0g0m0 k0 0 E
-28 0 -8 20d30+2000 7d5+6
+25 0 -8 20d30+2000 7d5+6
 0d0+0 100000
 8 8 1
 Str: 24
@@ -540,6 +557,7 @@ Dex: 24
 Size: 58
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -560,7 +578,7 @@ E
 Чудский воин, сторожащий пленных и преступников.
 ~
 b0d0f0g0m0 k0 0 E
-28 0 -8 20d30+2000 7d5+6
+25 0 -8 20d30+2000 7d5+6
 0d0+0 100000
 8 8 1
 Str: 24
@@ -568,6 +586,7 @@ Dex: 24
 Size: 58
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -588,7 +607,7 @@ E
 Искусный добытчик дичи.
 ~
 c0d0g0m0o0A0 k0 -600 E
-27 0 -1 100d7+2000 7d6+8
+25 0 -1 100d7+2000 7d6+8
 0d0+10 100000
 8 8 1
 BareHandAttack: 9
@@ -598,6 +617,7 @@ Con: 18
 Size: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1 
@@ -624,7 +644,7 @@ L 1497 8 0 0
 с острыми зубками и коготками.
 ~
 d0f0g0m0 d0f0k0s0t0z0j1 -600 E
-24 0 -4 100d5+380 5d7+8
+21 0 -4 100d5+380 5d7+8
 0d0+0 50000
 8 8 2
 BareHandAttack: 1
@@ -635,6 +655,7 @@ Size: 54
 LikeWork: 75
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: i0j0 
@@ -656,7 +677,7 @@ E
 Мишка косолапый, немножко голодный, видимо, и злой поэтому.
 ~
 d0f0g0m0 k0 -600 E
-24 0 -9 10d10+1500 8d8+12
+27 0 -9 10d10+1500 8d8+12
 0d0+0 120000
 8 8 1
 BareHandAttack: 1
@@ -667,6 +688,7 @@ Size: 100
 LikeWork: 68
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

@@ -72,7 +72,7 @@ else
     wait 3s
     if %actor.skill(спрятаться)%<40 
       wsend %actor% Несмотря на ваши старания, вас заметили.
-      wecho %actor% Модным ударом вас оглушили
+      wecho %actor% Мощным ударом вас оглушили
       wteleport %actor% 40077
     else 
       wsend %actor% Вы благополучно притаились в тени и вскоре шаги стихли вдалеке.
@@ -95,6 +95,9 @@ else
   else 
     wsend %actor% Вы вскрыли замок.
     wload obj 40013 
+    calcuid sun 40015 obj
+    calcuid mes 40013 obj
+    %mes.put(%sun%)%
     detach 40004 %self.id%
   end
 end
@@ -162,7 +165,7 @@ say награжу я тебя.
 say ничего у меня нету, только опыт.
 say раньше я был вором маститым и умел украсть из кармана у кого-угодно что-угодно.
 say расскажу тебе, как это сделать
-if ((%actor.skill(украсть)% < 80) && (%actor.class% == 2))
+if ((%actor.skill(украсть)% < 80) & (%actor.class% == 2))
   eval val 5+%.random.5%
   mskilladd %actor% украсть %val%
 else
@@ -170,24 +173,39 @@ else
   eval val2 %val%+(%val%*%actor.remort%/10)
   %actor.exp(+%val2%)%
 end
+wait 1s
+%echo% %self.name% сделал что-то с замком и тихо скрылся из виду.
+mdoor 40077 west purge
+mdoor 40077 west room 40043
 %purge% %self.id%
 ~
 #40008
 reset~
 2 f 100
 ~
-calcuid room 40082 room
-attach 40082 %room.id%
+calcuid room 40061 room
+*атач ловушки
+attach 40003 %room.id%
+*детач взлома
+detach 40004 %room.id%
+*убираем двери в секретную комнату
+wdoor 40061 north purge
+wdoor 40082 south purge
 calcuid mob 40011 mob
 attach 40000 %mob.id%
 attach 40001 %mob.id%
 calcuid mob 40017 mob
 attach 40006 %mob.id%
+*запираем тюрьму
+wdoor 40077 west purge
+wdoor 40077 west room 40043
+wdoor 40077 west flags abcd
 ~
 #40009
 Входим в тюрьму~
 2 e 100
 ~
+wait 1
 wecho Оставь надежду всяк сюда попавший.
 ~
 #40010
@@ -200,6 +218,7 @@ else
   wsend %actor% Вы нажали на косяк и дверь отползла в сторону.
   wdoor  40061 north purge
   wdoor 40061 north room 40082
+end
 ~
 #40011
 боярин агрит~
@@ -443,7 +462,7 @@ if %arg.contains(погремушку)%
     end 
   else
     %send% %actor% _Вы хотели снять самую красивую погремушку, но не посмели дотронуться до нее.
-    %echoaround% %actor% %actor.name% хоте%actor.q% снять погремушку, но не посме%actor.q% даже дотронуться.
+    %echoaround% %actor% %actor.name% хотел%actor.g% снять погремушку, но не посмел%actor.g% даже дотронуться.
   end
 else
   wsend %actor.name% Что Вы хотите снять?

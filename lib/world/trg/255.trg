@@ -6,7 +6,7 @@ wait 1
 %echo% Наверху послышался резкий хруст и шорох разматывающейся веревки...
 wait 2
 foreach victim %self.pc%
-  if %random.4% != 2
+  if (%random.100% < 26)
     eval dmg %victim.hitp%-1
     %send% %victim%  Огромное бревно обрушилось сверху, попереломав Вам половину костей!
     %echoaround% %victim%  Огромное бревно обрушилось сверху, попереломав %victim.dname% половину костей!
@@ -42,7 +42,7 @@ end
 попытались открыть ларь~
 1 p 100
 ~
-if %exist.mob(25504)%
+if %exist.mob(25502)%
   calcuid smith1 25502 mob 
 end
 if %exist.mob(25504)%
@@ -221,7 +221,7 @@ switch %random.3%
 двигать камень~
 1 c 4
 отодвинуть~
-if !%arg.contains(камень)%
+if (!%arg.contains(камень)% && !%arg.contains(валун)%)
   %send% %actor% _Чего двигаем-то?
   halt
 end

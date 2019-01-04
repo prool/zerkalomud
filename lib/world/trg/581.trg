@@ -32,22 +32,22 @@ end
 ~
 #58104
 биться стена~
-1 c 4
+2 c 0
 биться~
 wait 1
-%actor.wait(15s)%
-osend %actor% Прицелившись, и разогнавшись Вы побежали к стене!
-oechoaround %actor% Прицелившись, и разогнавшись %actor.name% побежал%actor.q% к стене!
+%actor.wait(8s)%
+wsend %actor% Прицелившись, и разогнавшись Вы побежали к стене!
+wechoaround %actor% Прицелившись, и разогнавшись %actor.name% побежал%actor.q% к стене!
 wait 1s
-osend %actor% &YИскры возникли в глазах. &RВы начинаете терять связь с этим миром!&n
-oechoaround %actor% При столкновении %actor.rname% со стеной посыпались &Yискры&n, наверное &Rэто было действительно БОЛЬНО&n.
+wsend %actor% &YИскры возникли в глазах&n. &RВы начинаете терять связь с этим миром!&n
+wechoaround %actor% При столкновении %actor.rname% со стеной посыпались &Yискры&n, наверное &Rэто было действительно БОЛЬНО&n.
 wait 1s
-osend %actor% Вы без сознания и медленно умираете.
-oechoaround %actor% %actor.name% без сознания и медленно умирает.
+wsend %actor% Вы без сознания и медленно умираете.
+wechoaround %actor% %actor.name% без сознания и медленно умирает.
 wait 3s
-osend %actor% Вы без сознания и медленно умираете.
-oechoaround %actor% %actor.name% без сознания и медленно умирает.
-wait 10s
-osend %actor% А, это Вам всего лишь показалось?
+wsend %actor% Вы без сознания и медленно умираете.
+wechoaround %actor% %actor.name% без сознания и медленно умирает.
+wait 3s
+wsend %actor% А, это Вам всего лишь показалось?
 ~
 $~

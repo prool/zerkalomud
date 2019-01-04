@@ -11,7 +11,7 @@
 Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
 b0d0 d0k0 -600 E
-31 0 0 10d10+2 0d0+0
+12 0 0 10d10+2 0d0+0
 0d0+0 10000
 6 6 1
 Str: 10
@@ -23,6 +23,7 @@ Cha: 50
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -58,6 +59,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -77,7 +79,7 @@ E
 Мужик с крепкими жилистыми руками легко тягает канаты, чуть ворочая парус.
 ~
 b0d0 0 -600 E
-30 5 3 10d10+2300 14d11+25
+29 5 3 10d10+2300 14d11+25
 0d0+0 230000
 8 8 1
 Str: 27
@@ -90,6 +92,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -109,7 +112,7 @@ E
 Мускулистый мужик.
 ~
 b0d0 0 -600 E
-30 5 3 10d10+2300 14d11+25
+29 5 3 10d10+2300 14d11+25
 0d0+0 230000
 8 8 1
 Str: 27
@@ -122,6 +125,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -141,7 +145,7 @@ E
 Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
 b0d0 d0k0 -600 E
-31 5 3 10d10+2300 12d11+20
+29 5 3 10d10+2300 12d11+20
 0d0+0 230000
 8 8 1
 Str: 20
@@ -154,6 +158,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -190,6 +195,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -223,6 +229,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -256,6 +263,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -288,6 +296,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -321,6 +330,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -355,6 +365,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -388,6 +399,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -409,7 +421,7 @@ T 79407
 Мускулистый мужик.
 ~
 b0d0 0 -600 E
-30 5 3 10d10+2300 14d11+25
+29 5 3 10d10+2300 14d11+25
 0d0+0 230000
 8 8 1
 Str: 27
@@ -422,6 +434,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -464,6 +477,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -483,7 +497,7 @@ E
 Одной рукой держит коня за узду, а второй, то гладит по голове, то сует коню морковку.
 ~
 b0d0 0 -600 E
-30 5 3 10d10+2300 14d11+25
+29 5 3 10d10+2300 14d11+25
 0d0+0 230000
 8 8 1
 Str: 27
@@ -496,6 +510,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -515,7 +530,7 @@ E
 Ах, туды вашу растуды! Итить налево через плечо! 
 ~
 b0d0 d0k0 -600 E
-31 5 3 10d10+2300 12d11+20
+29 5 3 10d10+2300 12d11+20
 0d0+0 230000
 8 8 1
 Str: 20
@@ -528,6 +543,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -554,7 +570,7 @@ T 79418
 В глазах горит нездоровый красный огонь.
 ~
 d0f0n0o0A0 d0k0w1y1 -600 E
-30 10 0 10d10+700 5d5+3
+23 10 0 10d10+700 5d5+3
 0d0+0 70000
 8 8 2
 BareHandAttack: 4
@@ -568,6 +584,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -591,7 +608,7 @@ E
 В глазах горит нездоровый красный огонь.
 ~
 d0f0n0o0A0 d0k0w1y1 -600 E
-30 10 0 10d10+800 5d6+3
+24 10 0 10d10+800 5d6+3
 0d0+0 80000
 8 8 1
 BareHandAttack: 12
@@ -604,6 +621,7 @@ Cha: 10
 Size: 100
 LikeWork: 25
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -629,7 +647,7 @@ E
 В глазах горит нездоровый красный огонь.
 ~
 c0d0f0n0o0A0 d0h0k0l1t1w1y1 -600 E
-30 10 0 10d10+900 5d6+2
+25 10 0 10d10+900 5d6+2
 0d0+0 90000
 8 8 1
 BareHandAttack: 1
@@ -643,6 +661,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -665,7 +684,7 @@ I шерсть,10:10
 В глазах горит нездоровый красный огонь.
 ~
 c0d0f0n0o0A0 d0k0l1t1 -600 E
-30 10 0 10d10+900 5d6+2
+25 10 0 10d10+900 5d6+2
 0d0+0 90000
 8 8 1
 BareHandAttack: 1
@@ -679,6 +698,7 @@ Size: 100
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -714,6 +734,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 4
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -739,7 +760,7 @@ T 79415
 более удачливого соседа или напакостить молодому и богатому боярину.
 ~
 b0d0f0n0o0 d0k0 -600 E
-25 13 3 10d10+500 5d5+5
+22 13 3 10d10+500 5d5+5
 0d0+400 60000
 8 8 1
 Saves: -45 -5 -15 -10
@@ -757,6 +778,7 @@ Cha: 14
 Size: 50
 LikeWork: 5
 Class: 102
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -778,7 +800,7 @@ T 79420
 Сильный гребец.
 ~
 b0d0 0 -600 E
-30 5 3 10d10+2300 14d11+25
+29 5 3 10d10+2300 14d11+25
 0d0+0 230000
 8 8 1
 Str: 27
@@ -791,6 +813,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -810,7 +833,7 @@ E
 Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
 b0d0 d0k0 -600 E
-31 5 3 10d10+2300 12d11+20
+29 5 3 10d10+2300 12d11+20
 0d0+0 230000
 8 8 1
 Str: 20
@@ -823,6 +846,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -859,6 +883,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -891,6 +916,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -909,7 +935,7 @@ E
 ~
 undefined~
 b0d0 0 -600 E
-30 5 3 10d10+2300 14d11+25
+29 5 3 10d10+2300 14d11+25
 0d0+0 230000
 8 8 1
 Str: 27
@@ -922,6 +948,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -942,7 +969,7 @@ E
 Эмблема на кольчуге замазана свежей краской.
 ~
 b0c0d0f0n0o0A0 d0t1 -600 E
-29 12 2 10d10+900 5d6+1
+25 12 2 10d10+900 5d6+1
 5d5+5 90000
 8 8 1
 Saves: -35 -35 -20 -20
@@ -958,6 +985,7 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -979,7 +1007,7 @@ E
 Эмблема на кольчуге замазана свежей краской.
 ~
 b0c0d0f0n0o0A0 d0k0r1 -600 E
-31 11 2 10d10+1100 5d6+3
+26 11 2 10d10+1100 5d6+3
 5d5+100 110000
 8 8 1
 Saves: -56 -30 -30 -30
@@ -996,6 +1024,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1006,7 +1035,6 @@ Skill: 151 20
 Spell: 96
 E
 T 79423
-I кости,10:10
 #79429
  тонкий гребец~
 тонкий гребец~
@@ -1033,6 +1061,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1065,6 +1094,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1084,7 +1114,7 @@ E
 Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
 b0d0 d0k0 -600 E
-31 5 3 10d10+2300 12d11+20
+29 5 3 10d10+2300 12d11+20
 0d0+0 230000
 6 6 1
 Str: 20
@@ -1097,6 +1127,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1118,7 +1149,7 @@ E
 ~
 undefined~
 b0d0 0 -600 E
-30 5 3 10d10+2300 14d11+25
+29 5 3 10d10+2300 14d11+25
 0d0+0 230000
 6 6 1
 Str: 27
@@ -1131,6 +1162,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1163,6 +1195,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1195,6 +1228,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1214,7 +1248,7 @@ E
 Варяжская морда.
 ~
 b0c0d0f0n0o0A0 k0t1 -600 E
-30 11 3 10d10+900 5d6+2
+25 11 3 10d10+900 5d6+2
 5d5+100 90000
 8 8 1
 BareHandAttack: 7
@@ -1228,6 +1262,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1247,7 +1282,7 @@ E
 Варяг.
 ~
 b0c0d0f0n0o0A0 d0k0t1 -600 E
-31 10 2 10d10+1000 5d6+2
+25 10 2 10d10+1000 5d6+2
 6d6+100 100000
 8 8 1
 BareHandAttack: 3
@@ -1261,6 +1296,7 @@ Size: 100
 LikeWork: 55
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1282,7 +1318,7 @@ E
 Варяг-чародей.
 ~
 b0c0d0m0n0o0A0p2 d0k0r1y1 -600 E
-20 15 6 10d10+500 5d7+1
+23 15 6 10d10+500 5d7+1
 6d6+100 70000
 8 8 1
 BareHandAttack: 3
@@ -1295,6 +1331,7 @@ Cha: 20
 Size: 100
 LikeWork: 5
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1315,7 +1352,7 @@ E
 Варяжский знахарь.
 ~
 b0c0d0m0n0o0A0p2 d0a1x1 -600 E
-25 14 7 10d10+500 4d4+1
+23 14 7 10d10+500 4d4+1
 6d6+10 70000
 8 8 1
 BareHandAttack: 3
@@ -1329,6 +1366,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1357,7 +1395,7 @@ E
 Командир варягов.
 ~
 b0c0d0f0n0o0A0t1 d0t1 -600 E
-31 11 4 10d10+700 5d5+1
+23 11 4 10d10+700 5d5+1
 6d6+10 70000
 8 8 1
 BareHandAttack: 3
@@ -1371,6 +1409,7 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1394,7 +1433,7 @@ E
 Варяг мастеровой.
 ~
 b0c0d0f0n0o0A0p2 k0t1 -600 E
-30 10 3 10d10+900 5d2+2
+25 10 3 10d10+900 5d2+2
 6d6+8 90000
 8 8 1
 BareHandAttack: 7
@@ -1408,6 +1447,7 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1442,6 +1482,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1461,7 +1502,7 @@ E
 Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
 b0d0n0o0o2 d0k0 -600 E
-31 5 3 10d10+2300 12d11+20
+29 5 3 10d10+2300 12d11+20
 10d15+555 230000
 8 8 1
 Str: 20
@@ -1474,6 +1515,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1496,7 +1538,7 @@ T 79433
 Вождь варягов.
 ~
 b0c0d0f0n0o0A0 k0t1 -600 E
-31 11 0 10d10+1300 5d6+2
+25 11 0 10d10+1300 5d6+2
 6d6+8 100000
 8 8 1
 BareHandAttack: 3
@@ -1510,6 +1552,7 @@ Size: 100
 LikeWork: 11
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1532,7 +1575,7 @@ E
 Варяжский воин.
 ~
 b0c0d0f0n0o0A0 t1 -600 E
-31 10 1 10d10+900 5d6+2
+25 10 1 10d10+900 5d6+2
 6d6+10 100000
 8 8 1
 BareHandAttack: 3
@@ -1546,6 +1589,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1567,7 +1611,7 @@ E
 Варяжский сказитель.
 ~
 b0c0d0f0n0o0A0 t1 -600 E
-30 10 3 10d10+800 5d6+2
+24 10 3 10d10+800 5d6+2
 6d6+10 80000
 8 8 1
 BareHandAttack: 7
@@ -1581,6 +1625,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1597,9 +1642,10 @@ E
 бонде~
 Бонд-копейщик спит прямо на гальке.
 ~
-undefined~
+Бонд-копейщик.
+~
 b0c0d0f0n0o0A0 k0t1 -600 E
-30 12 0 10d10+900 5d6+2
+25 12 0 10d10+900 5d6+2
 6d6+6 90000
 4 4 1
 BareHandAttack: 7
@@ -1613,6 +1659,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1632,7 +1679,7 @@ E
 Предводитель варягов.
 ~
 b0c0d0n0o0A0 d0h0k0t1 -600 E
-31 7 -1 10d10+1100 6d6+4
+27 7 -1 10d10+1100 6d6+4
 6d6+10 120000
 8 8 1
 BareHandAttack: 3
@@ -1646,6 +1693,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1666,12 +1714,12 @@ T 79432
 Емельяна~
 Емельяном~
 Емельяне~
-Купец Емельян сидит на причале с удочкой.
+Купец Емельян отдыхает на причале с удочкой.
 ~
 Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
 b0d0n0o0o2 d0k0 -600 E
-31 5 3 10d10+2300 12d11+20
+29 5 3 10d10+2300 12d11+20
 10d15+555 230000
 8 8 1
 Str: 20
@@ -1681,9 +1729,10 @@ Wis: 21
 Con: 15
 Cha: 50
 Size: 100
-LikeWork: 70
+LikeWork: 4
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1i3 
@@ -1707,7 +1756,7 @@ T 79435
 Но такова моя судьба и от нее никуда не денешься. Зачем было сажать в тюрьму?
 ~
 b0d0n0o0 d0k0 -600 E
-30 5 3 10d10+2300 14d11+25
+29 5 3 10d10+2300 14d11+25
 0d0+0 230000
 6 6 1
 Str: 27
@@ -1720,6 +1769,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -1754,6 +1804,7 @@ Cha: 10
 Size: 100
 LikeWork: 70
 Class: 102
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0d0e0f0g0C3 
@@ -1773,7 +1824,7 @@ T 79443
 Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
 b0d0 d0k0 -600 E
-31 5 3 10d10+2300 12d11+20
+29 5 3 10d10+2300 12d11+20
 0d0+0 230000
 8 8 1
 Str: 20
@@ -1786,6 +1837,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 

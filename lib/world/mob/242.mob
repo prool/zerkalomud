@@ -12,7 +12,7 @@
 ясному солнышку, да голубому небу.
 ~
 d0g0m0z0 b0k0x0 -600 E
-15 17 2 4d4+200 3d2+1
+16 17 2 4d4+200 3d2+1
 0d0+0 22000
 8 8 2
 BareHandAttack: 2
@@ -26,6 +26,7 @@ Size: 25
 LikeWork: 5
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: l0 
@@ -50,11 +51,12 @@ I крылья,10:10
 врата Матери-Природы, что в другое время года ведут. 
 ~
 b0d0g0n0o0B0o1l2 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 1
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -86,6 +88,7 @@ Cha: 17
 Size: 45
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 140
 Special_Bitvector: l0u0 
@@ -121,6 +124,7 @@ Cha: 17
 Size: 45
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 198
 Weight: 140
 Special_Bitvector: l0w0 
@@ -142,11 +146,12 @@ E
 мяконькое, переливается!
 ~
 b0d0g0n0o0B0o1 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 2
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -169,11 +174,12 @@ T 24203
 прозвали ее - Свистуха.
 ~
 b0d0g0n0o0B0o1l2 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 2
 Size: 50
 Class: 103
+Race: 104
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -199,11 +205,12 @@ T 24223
 почесывает, но никого не трогает!
 ~
 b0d0g0n0o0B0o1 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 3
 Size: 50
 Class: 103
+Race: 104
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -225,7 +232,7 @@ E
 совсем ленивый, даже за мышами не охотится.
 ~
 b0c0d0l0m0n0x0 d0f0k0n0 -600 E
-17 9 -2 1d5+350 4d4+3
+18 9 -2 1d5+350 4d4+3
 4d4+100 30000
 8 8 1
 BareHandAttack: 4
@@ -239,6 +246,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -264,7 +272,7 @@ I шерсть,10:10
 прячутся.
 ~
 b0d0g0n0o0 l1 -600 E
-20 1 1 0d0+799 3d3+3
+19 1 1 0d0+799 3d3+3
 0d0+10 35000
 8 8 2
 BareHandAttack: 4
@@ -274,6 +282,7 @@ Size: 50
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -313,11 +322,12 @@ I шерсть,10:10
 плутовата. Так и прозвали ее - Плутиха.
 ~
 b0d0g0n0o0B0o1l2 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 2
 Size: 50
 Class: 103
+Race: 104
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -353,6 +363,7 @@ Size: 30
 LikeWork: 70
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 198
 Weight: 70
 Special_Bitvector: w0b1c1 
@@ -385,7 +396,7 @@ T 24254
 спускаются по белым плечам, путаясь и переливаясь загадкой.
 ~
 d0g0m0 b0k0 -600 E
-15 17 2 4d4+200 3d2+1
+16 17 2 4d4+200 3d2+1
 0d0+0 22000
 8 8 2
 BareHandAttack: 8
@@ -399,6 +410,7 @@ Size: 25
 LikeWork: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: o0 
@@ -420,7 +432,7 @@ T 24251
 А потом прядет из его лучей одежды дивные - златотканные.
 ~
 b0d0g0n0o0B0o1 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 2
 Str: 50
@@ -431,6 +443,7 @@ Con: 50
 Cha: 50
 Size: 50
 Class: 102
+Race: 103
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -452,11 +465,12 @@ T 24286
 мяконькое, переливается!
 ~
 b0d0g0n0o0B0o1 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 2
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -471,7 +485,7 @@ T 24211
 золотого жука~
 золотым жуком~
 золотом жуке~
-Золотой жук важно жужжит весннюю песенку.
+Золотой жук важно жужжит весеннюю песенку.
 ~
 Большой жук с золотыми надкрыльями, что отражают ясное
 солнце словно зеркало. Жук важно жужжит, когда перебирается
@@ -490,6 +504,7 @@ Cha: 17
 Size: 45
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 198
 Weight: 140
 Special_Bitvector: l0 
@@ -511,7 +526,7 @@ E
 отгоняет прочь хвори да пожары. 
 ~
 d0g0 b0k0 -600 E
-15 17 2 4d4+200 3d2+1
+16 17 2 4d4+200 3d2+1
 0d0+0 22000
 8 8 2
 BareHandAttack: 8
@@ -525,6 +540,7 @@ Size: 25
 LikeWork: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -548,7 +564,7 @@ T 24252
 грозовой водой.
 ~
 d0g0 b0k0 -600 E
-15 17 2 4d4+200 3d2+1
+16 17 2 4d4+200 3d2+1
 0d0+0 22000
 8 8 2
 BareHandAttack: 8
@@ -562,6 +578,7 @@ Size: 25
 LikeWork: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -585,7 +602,7 @@ T 24253
 водяны-водяницы - хохочут.
 ~
 d0g0m0 b0k0 -600 E
-15 17 2 4d4+200 3d2+1
+16 17 2 4d4+200 3d2+1
 0d0+0 22000
 8 8 1
 Str: 13
@@ -598,6 +615,7 @@ Size: 25
 LikeWork: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: o0v0 
@@ -624,7 +642,7 @@ I глаза,10:10
 девичьей загубленной?
 ~
 b0d0g0m0 b0k0 -600 E
-15 17 2 4d4+200 3d2+1
+16 17 2 4d4+200 3d2+1
 0d0+0 22000
 8 8 2
 BareHandAttack: 8
@@ -638,6 +656,7 @@ Size: 25
 LikeWork: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: o0v0 
@@ -674,6 +693,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -681,7 +701,6 @@ Skill: 4 55
 Skill: 136 100
 E
 T 24215
-I кожа,10:10
 #24220
  кумушка лиса~
 кумушка-лиса~
@@ -698,7 +717,7 @@ I кожа,10:10
 россыпь драгоценных камней.
 ~
 b0d0g0n0o0 c0d0f0j0m1 -600 E
-18 0 -10 0d0+700 4d5+4
+20 0 -10 0d0+700 4d5+4
 0d0+0 40000
 8 8 2
 BareHandAttack: 4
@@ -710,6 +729,7 @@ Size: 60
 LikeWork: 70
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -734,7 +754,7 @@ I шерсть,10:10
 глаза-бусинки.
 ~
 d0g0n0o0 d0k0 -600 E
-15 15 7 4d1+250 3d3+2
+14 15 7 4d1+250 3d3+2
 0d0+0 15000
 8 8 1
 BareHandAttack: 15
@@ -747,6 +767,7 @@ Cha: 18
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 140
 Special_Bitvector: n0 
@@ -769,7 +790,7 @@ I крылья,10:10
 услышать над лесами и полями, над городами и селами.
 ~
 d0g0n0o0 d0k0x0 -600 E
-15 15 7 4d1+250 3d3+2
+14 15 7 4d1+250 3d3+2
 0d0+0 15000
 8 8 1
 BareHandAttack: 15
@@ -782,6 +803,7 @@ Cha: 18
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 140
 Special_Bitvector: l0 
@@ -815,6 +837,7 @@ Cha: 17
 Size: 45
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 140
 Special_Bitvector: l0 
@@ -837,11 +860,12 @@ I крылья,10:10
 тепла нежная улыбка - наполняет она душу светом и умиротворением.
 ~
 b0d0g0n0o0p0B0o1 d0f0k0n1 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 2
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: c1 
@@ -864,7 +888,7 @@ T 24224
 заблудящих мимо деревни спроваживает.
 ~
 b0c0d0g0l0m0n0o0u0A0 c0e0j0C0l1 -600 E
-18 5 -2 4d4+500 4d3+5
+19 5 -2 4d4+500 4d3+5
 0d0+30 35000
 8 8 2
 BareHandAttack: 6
@@ -876,6 +900,7 @@ Size: 50
 LikeWork: 25
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -898,7 +923,7 @@ E
 заскочит в прялку, так и запутаются вмиг все нити.
 ~
 c0d0g0l0m0n0o0u0A0 c0e0j0C0l1 -600 E
-18 5 -2 4d4+500 4d3+5
+17 5 -2 4d4+500 4d3+5
 0d0+30 25000
 8 8 2
 BareHandAttack: 7
@@ -910,6 +935,7 @@ Size: 50
 LikeWork: 55
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -945,6 +971,7 @@ Size: 30
 LikeWork: 70
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 70
 Special_Bitvector: a0l0c1 
@@ -988,6 +1015,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: a0p0b1c1 
@@ -1021,6 +1049,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: a0p0b1c1 
@@ -1043,7 +1072,7 @@ T 24226
 оперенья только глаза рудяные - чертовские!
 ~
 d0g0j0n0o0 d0k0 -600 E
-15 15 7 4d1+250 3d3+2
+14 15 7 4d1+250 3d3+2
 0d0+0 15000
 8 8 1
 BareHandAttack: 15
@@ -1056,6 +1085,7 @@ Cha: 18
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 140
 Special_Bitvector: p0x0 
@@ -1063,7 +1093,6 @@ Skill: 132 25
 Skill: 136 60
 E
 T 24262
-I кости,10:10
 #24231
  ильинский олень~
 ильинский олень~
@@ -1079,11 +1108,12 @@ I кости,10:10
 себе всю мудрость лесов. 
 ~
 b0d0g0n0o0B0o1 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 1
 Size: 50
 Class: 103
+Race: 104
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -1104,7 +1134,7 @@ E
 руки почти человечьи, к Вам тянутся.
 ~
 b0d0f0g0l0n0o0x0A0 c0d0f0j0C0m1 -600 E
-22 7 -8 5d5+1000 5d4+3
+21 7 -8 5d5+1000 5d4+3
 10d4+100 50000
 8 8 1
 BareHandAttack: 6
@@ -1116,6 +1146,7 @@ Size: 60
 LikeWork: 40
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -1153,12 +1184,12 @@ T 24256
 змее-скоропее~
 Змея-скоропея, переваливаясь с лапы на лапу, ползет мимо.
 ~
-Змея черная - земя дивная. Из самого пекла вылезла на Купальские
+Змея черная - змея дивная. Из самого пекла вылезла на Купальские
 Огни полюбоваться. Течет словно вода дивное тело ее, а все 
 шесть-то голов за ней не успевают! Рядом катятся!
 ~
 d0g0n0o0 l1 -600 E
-20 1 1 0d0+799 3d3+3
+19 1 1 0d0+799 3d3+3
 0d0+10 35000
 8 8 2
 BareHandAttack: 4
@@ -1168,6 +1199,7 @@ Size: 50
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 198
 Weight: 150
 Special_Bitvector: m0 
@@ -1205,7 +1237,7 @@ I чешуя,10:10
 Кровавым пламенем вырываются из уст багряные языки!
 ~
 d0g0m0z0 b0k0 -600 E
-15 17 2 4d4+200 3d2+1
+16 17 2 4d4+200 3d2+1
 0d0+0 22000
 8 8 2
 BareHandAttack: 4
@@ -1219,6 +1251,7 @@ Size: 25
 LikeWork: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: m0 
@@ -1242,7 +1275,7 @@ T 24257
 По всем признакам змейка ядовита, так что лучше быть осторожнее.
 ~
 c0d0g0h0 k0 -600 E
-15 14 6 4d5+220 3d2+3
+14 14 6 4d5+220 3d2+3
 2d2+30 15000
 8 8 1
 BareHandAttack: 2
@@ -1255,6 +1288,7 @@ Cha: 20
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 198
 Weight: 135
 Special_Bitvector: g0m0 
@@ -1295,6 +1329,7 @@ Cha: 13
 Size: 25
 ExtraAttack: 3
 Class: 101
+Race: 110
 Height: 198
 Weight: 60
 Special_Bitvector: x0 
@@ -1335,6 +1370,7 @@ Size: 30
 LikeWork: 70
 ExtraAttack: 2
 Class: 103
+Race: 114
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
@@ -1382,6 +1418,7 @@ Cha: 17
 Size: 45
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 140
 Special_Bitvector: l0 
@@ -1405,7 +1442,7 @@ I крылья,10:10
 торчащих из воды деревьев. 
 ~
 b0d0f0g0h0n0o0 f0j0 -600 E
-18 0 -3 0d0+200 3d3+3
+14 0 -3 0d0+200 3d3+3
 0d0+0 15000
 8 8 2
 BareHandAttack: 8
@@ -1416,6 +1453,7 @@ Size: 50
 LikeWork: 60
 ExtraAttack: 1
 Class: 101
+Race: 106
 Height: 198
 Weight: 50
 Special_Bitvector: o0v0 
@@ -1433,8 +1471,8 @@ I чешуя:5
 одноглазой песьей голове~
 Одноглазая песья голова катится по земле клубком.
 ~
-Что только не встретишь в Купальской ночи. Обиделась печья голова
-на хозяина, да гулять пошла. Катится печья голова, жизни радуется, 
+Что только не встретишь в Купальской ночи. Обиделась песья голова
+на хозяина, да гулять пошла. Катится песья голова, жизни радуется, 
 через кочки перепрыгивает, да Вам подмигивает.
 ~
 d0g0j0m0 k0 -600 E
@@ -1450,6 +1488,7 @@ Cha: 17
 Size: 45
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 140
 Special_Bitvector: n0 
@@ -1482,6 +1521,7 @@ Size: 50
 LikeWork: 5
 ExtraAttack: 1
 Class: 103
+Race: 106
 Height: 198
 Weight: 150
 Special_Bitvector: b0o0v0 
@@ -1528,6 +1568,7 @@ Size: 60
 LikeWork: 30
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 60
 Special_Bitvector: o0v0b1c1 
@@ -1552,7 +1593,7 @@ T 24236
 внимательно смотрят на Вас.
 ~
 b0d0g0n0o0 d0k0x0 -600 E
-15 15 7 4d1+250 3d3+2
+14 15 7 4d1+250 3d3+2
 0d0+0 15000
 8 8 2
 BareHandAttack: 15
@@ -1565,6 +1606,7 @@ Cha: 18
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 140
 Special_Bitvector: l0 
@@ -1588,7 +1630,7 @@ T 24285
 трудяжек - остры и жгучи их жала.
 ~
 d0g0n0o0 d0k0x0 -600 E
-15 15 7 4d1+250 3d3+2
+14 15 7 4d1+250 3d3+2
 0d0+0 15000
 8 8 2
 BareHandAttack: 16
@@ -1601,6 +1643,7 @@ Cha: 18
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 198
 Weight: 140
 Special_Bitvector: l0 
@@ -1623,7 +1666,7 @@ E
 голова чья-то с плеч падает!
 ~
 b0c0d0f0g0l0n0o0u0A0 c0e0j0C0l1 -600 E
-18 5 -2 4d4+500 4d3+5
+17 5 -2 4d4+500 4d3+5
 0d0+30 25000
 8 8 1
 BareHandAttack: 6
@@ -1635,6 +1678,7 @@ Size: 50
 LikeWork: 55
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b0b1c1 
@@ -1659,11 +1703,12 @@ I глаза,10:10
 изунизана жемчугом озимь, запорошены лесные луга.
 ~
 b0d0g0n0o0B0o1 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 1
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -1696,6 +1741,7 @@ Size: 50
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1726,7 +1772,7 @@ T 24274
 Что-то постоянно щебечет без устали, без отдыха.
 ~
 d0g0n0o0 d0k0x0 -600 E
-15 15 7 4d1+250 3d3+2
+14 15 7 4d1+250 3d3+2
 0d0+0 15000
 8 8 2
 BareHandAttack: 16
@@ -1739,6 +1785,7 @@ Cha: 18
 Size: 50
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 140
 Special_Bitvector: l0 
@@ -1760,11 +1807,12 @@ E
 круглый оранжевый шарик - настолько пушиста у белочки шерстка.
 ~
 b0d0g0n0o0B0o1 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 2
 Size: 50
 Class: 103
+Race: 104
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -1787,11 +1835,12 @@ T 24239
 обиталище.
 ~
 b0d0g0n0o0B0o1 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 2
 Size: 50
 Class: 103
+Race: 104
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -1814,7 +1863,7 @@ T 24246
 есть ночными.
 ~
 b0c0d0g0l0n0o0A0 c0d0e0f0j0k0C0l1 -600 E
-18 5 -2 4d4+500 4d3+5
+17 5 -2 4d4+500 4d3+5
 0d0+30 25000
 8 8 1
 BareHandAttack: 6
@@ -1825,6 +1874,7 @@ Cha: 23
 Size: 50
 LikeWork: 55
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: c0e0f0b1c1 
@@ -1861,6 +1911,7 @@ Size: 60
 LikeWork: 30
 ExtraAttack: 1
 Class: 101
+Race: 102
 Height: 198
 Weight: 60
 Special_Bitvector: f0b1c1 
@@ -1895,6 +1946,7 @@ Size: 60
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 60
 Special_Bitvector: b1c1 
@@ -1929,6 +1981,7 @@ Cha: 17
 Size: 45
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 140
 Special_Bitvector: l0a1 
@@ -1936,7 +1989,6 @@ Skill: 5 25
 Skill: 136 40
 E
 T 24276
-I кости,10:10
 #24255
 лесной ох~
 Лесной Ох~
@@ -1953,7 +2005,7 @@ I кости,10:10
 него даже звери, настолько чужд он лесной братии.
 ~
 c0d0f0k0l0m0n0x0 d0f0k0n0 -600 E
-17 9 -2 1d5+350 4d4+3
+18 9 -2 1d5+350 4d4+3
 4d4+100 30000
 8 8 1
 BareHandAttack: 2
@@ -1967,6 +2019,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 150
 Special_Bitvector: w0b1c1 
@@ -1992,7 +2045,7 @@ T 24273
 это баба, а нечисть лесная.
 ~
 c0d0g0h0 k0 -600 E
-15 14 6 4d5+220 3d2+3
+14 14 6 4d5+220 3d2+3
 2d2+30 15000
 8 8 2
 BareHandAttack: 12
@@ -2005,6 +2058,7 @@ Cha: 20
 Size: 50
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 135
 Special_Bitvector: w0b1c1d1 
@@ -2028,7 +2082,7 @@ E
 листву, дабы землю-матушку от морозов прикрыть.
 ~
 c0d0g0h0k0 k0 -600 E
-15 14 6 4d5+220 3d2+3
+14 14 6 4d5+220 3d2+3
 2d2+30 15000
 8 8 1
 Str: 20
@@ -2040,6 +2094,7 @@ Cha: 20
 Size: 50
 ExtraAttack: 1
 Class: 101
+Race: 104
 Height: 198
 Weight: 135
 Special_Bitvector: w0b1c1d1 
@@ -2063,7 +2118,7 @@ T 24275
 не любит он людей, вздыхает тяжко.
 ~
 c0d0g0h0k0l0 k0 -600 E
-15 14 6 4d5+220 3d2+3
+14 14 6 4d5+220 3d2+3
 2d2+30 15000
 8 8 1
 BareHandAttack: 5
@@ -2076,6 +2131,7 @@ Cha: 20
 Size: 50
 ExtraAttack: 1
 Class: 101
+Race: 100
 Height: 198
 Weight: 135
 Special_Bitvector: w0b1c1d1 
@@ -2098,7 +2154,7 @@ E
 да все туда записывает - все в лесу на счету должно быть!
 ~
 c0d0g0h0 k0 -600 E
-15 14 6 4d5+220 3d2+3
+14 14 6 4d5+220 3d2+3
 2d2+30 15000
 8 8 2
 Str: 20
@@ -2110,6 +2166,7 @@ Cha: 20
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 135
 Special_Bitvector: b1c1d1 
@@ -2152,6 +2209,7 @@ Cha: 17
 Size: 45
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 140
 Special_Bitvector: 0 
@@ -2174,7 +2232,7 @@ E
 ягодку съесть, а спина-то она не казенная!
 ~
 b0c0d0l0m0n0x0 d0f0k0n0 -600 E
-17 9 -2 1d5+350 4d4+3
+18 9 -2 1d5+350 4d4+3
 4d4+100 30000
 8 8 1
 BareHandAttack: 1
@@ -2188,6 +2246,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -2215,7 +2274,7 @@ I шерсть,10:10
 вертеле!
 ~
 b0c0d0l0m0n0x0 d0f0k0n0 -600 E
-17 9 -2 1d5+350 4d4+3
+18 9 -2 1d5+350 4d4+3
 4d4+100 30000
 8 8 2
 BareHandAttack: 14
@@ -2229,6 +2288,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: f0b1c1 
@@ -2246,14 +2306,14 @@ I шерсть,10:10
 Бабку-Ежку~
 Бабкой-Ежкой~
 Бабке-Ежке~
-Бабка-ежка метет избу полынной метлой.
+Бабка-Eжка метет избу полынной метлой.
 ~
 Стукнуло Бабке-Ежке уж сто лет в обед. А все сила ее колдовская  никуда не девается, 
 а все прибывает и прибывает. Власы седыми космами до пояса свисают, изо рта
 осколок зуба торчит, а на плече летучие мыши гнездо устроили.
 ~
 b0d0f0g0l0n0o0x0A0 c0d0f0j0C0m1 -600 E
-22 7 -8 5d5+1000 5d4+3
+21 7 -8 5d5+1000 5d4+3
 10d4+100 50000
 8 8 2
 BareHandAttack: 4
@@ -2265,6 +2325,7 @@ Size: 60
 LikeWork: 40
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -2302,7 +2363,7 @@ T 24278
 у него дела есть.
 ~
 d0e0g0n0o0z0 d0k0x0 -600 E
-15 15 7 4d1+250 3d3+2
+14 15 7 4d1+250 3d3+2
 0d0+0 15000
 8 8 1
 BareHandAttack: 1
@@ -2315,6 +2376,7 @@ Cha: 18
 Size: 50
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 140
 Special_Bitvector: l0u0 
@@ -2325,7 +2387,7 @@ E
  метель-поземелица~
 метель-поземелица~
 метели-поземелицы~
-метеле-поземелице~
+метели-поземелице~
 метель-поземелицу~
 метелью-поземелицей~
 метеле-поземелице~
@@ -2336,7 +2398,7 @@ E
 норовит заморозить намертво.
 ~
 d0e0g0n0o0z0 d0k0x0 -600 E
-15 15 7 4d1+250 3d3+2
+14 15 7 4d1+250 3d3+2
 0d0+0 15000
 8 8 2
 BareHandAttack: 7
@@ -2349,6 +2411,7 @@ Cha: 18
 Size: 50
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 140
 Special_Bitvector: l0u0 
@@ -2389,6 +2452,7 @@ Size: 50
 LikeWork: 10
 ExtraAttack: 1
 Class: 101
+Race: 113
 Height: 198
 Weight: 150
 Special_Bitvector: l0u0b1c1 
@@ -2414,7 +2478,7 @@ T 24282
 Не пройти Вам теперь, не проехати!
 ~
 b0d0e0f0g0m0z0t1 b0d0f0k0x0 -600 E
-15 17 2 4d4+200 3d2+1
+16 17 2 4d4+200 3d2+1
 0d0+0 22000
 8 8 2
 BareHandAttack: 2
@@ -2428,6 +2492,7 @@ Size: 25
 LikeWork: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: a0b0c0d0l0u0 
@@ -2450,11 +2515,12 @@ T 24284
 частенько заглядывают в этот лес.
 ~
 b0d0g0n0o0B0o1 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 6 6 1
 Size: 50
 Class: 103
+Race: 104
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -2476,11 +2542,12 @@ E
 врата Матери-Природы, что в другое время года ведут. 
 ~
 b0d0g0n0o0B0o1 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 8 8 1
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -2503,7 +2570,7 @@ T 24269
 медведей золотые звездочки.
 ~
 b0d0g0n0o0 c0d0f0j0m1 -600 E
-18 0 -10 0d0+700 4d5+4
+20 0 -10 0d0+700 4d5+4
 0d0+0 40000
 8 8 1
 BareHandAttack: 4
@@ -2515,6 +2582,7 @@ Size: 60
 LikeWork: 70
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -2538,7 +2606,7 @@ I шерсть,10:10
 медведей золотые звездочки.
 ~
 b0d0g0n0o0 c0d0f0j0m1 -600 E
-18 0 -10 0d0+700 4d5+4
+20 0 -10 0d0+700 4d5+4
 0d0+0 40000
 8 8 1
 BareHandAttack: 4
@@ -2550,6 +2618,7 @@ Size: 60
 LikeWork: 70
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -2573,7 +2642,7 @@ I зубы,10:10
 Остерегайся путник сестер лютых!
 ~
 b0d0e0f0g0l0n0o0x0z0A0 c0d0f0j0k0x0C0m1d2 -600 E
-22 7 -8 5d5+900 5d4+3
+25 7 -8 5d5+900 5d4+3
 10d4+100 90000
 8 8 2
 BareHandAttack: 2
@@ -2585,6 +2654,7 @@ Size: 60
 LikeWork: 10
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 150
 Special_Bitvector: u0 
@@ -2618,7 +2688,7 @@ T 24280
 Остерегайся путник сестер лютых!
 ~
 b0d0e0f0g0n0o0z0 b0c0d0f0k0x0l1d2 -600 E
-20 1 1 0d0+599 3d3+3
+22 1 1 0d0+599 3d3+3
 0d0+10 55000
 8 8 2
 BareHandAttack: 2
@@ -2628,6 +2698,7 @@ Size: 50
 LikeWork: 14
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 150
 Special_Bitvector: u0b1c1 
@@ -2658,7 +2729,7 @@ T 24280
 Остерегайся путник сестер лютых!
 ~
 b0d0e0f0g0n0o0z0 b0c0d0f0k0x0z0l1d2 -600 E
-20 1 1 0d0+699 3d3+3
+23 1 1 0d0+699 3d3+3
 0d0+10 65000
 8 8 2
 BareHandAttack: 2
@@ -2668,6 +2739,7 @@ Size: 50
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: u0b1c1 
@@ -2697,7 +2769,7 @@ T 24280
 тех пор здесь уж не один век.
 ~
 b0d0g0l0n0o0x0A0 c0d0f0j0C0m1 -600 E
-22 7 -8 5d5+1000 5d4+3
+25 7 -8 5d5+1000 5d4+3
 10d4+100 90000
 8 8 2
 BareHandAttack: 6
@@ -2709,6 +2781,7 @@ Size: 60
 LikeWork: 40
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -2730,7 +2803,6 @@ Spell: 54
 E
 T 24281
 T 24270
-T 24271
 I глаза,10:10
 #24276
  студеница бледноликая~
@@ -2742,12 +2814,12 @@ I глаза,10:10
 студенице~
 Бледноликая студеница смотрит на Вас мертвыми очами.
 ~
-Дева белая, дева хладная. Бродит по лесной глуши белым пизраком.
+Дева белая, дева хладная. Бродит по лесной глуши белым призраком.
 Навевает сон на путников, чтобы заснули они во холодном лесу, да
 и не проснулись больше никогда.
 ~
 d0e0f0g0m0z0 b0k0x0 -600 E
-15 17 2 4d4+200 3d2+1
+16 17 2 4d4+200 3d2+1
 0d0+0 22000
 8 8 2
 Str: 13
@@ -2760,6 +2832,7 @@ Size: 25
 LikeWork: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 50
 Special_Bitvector: l0u0b1c1 
@@ -2790,7 +2863,7 @@ T 24284
 на него набрасывется.
 ~
 b0c0d0e0f0g0l0m0n0o0u0z0A0 c0e0j0x0C0l1 -600 E
-18 5 -2 4d4+500 4d3+5
+19 5 -2 4d4+500 4d3+5
 0d0+30 35000
 8 8 1
 BareHandAttack: 6
@@ -2802,6 +2875,7 @@ Size: 50
 LikeWork: 10
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 150
 Special_Bitvector: b0l0u0b1c1 
@@ -2825,7 +2899,7 @@ T 24284
 случаются в мире ураганы, да другие бедствия.
 ~
 b0c0d0g0l0m0n0o0u0z0A0 c0e0j0x0C0l1 -600 E
-18 5 -2 4d4+500 4d3+5
+17 5 -2 4d4+500 4d3+5
 0d0+30 25000
 8 8 1
 BareHandAttack: 1
@@ -2837,6 +2911,7 @@ Size: 50
 LikeWork: 55
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 198
 Weight: 150
 Special_Bitvector: u0b1c1 
@@ -2861,11 +2936,12 @@ E
 подрагивают - зайчик не любит гостей.
 ~
 b0d0g0n0o0B0o1 d0f0k0 0 E
-2 1 1 0d0+99 1d1+0
+1 1 1 0d0+99 1d1+0
 0d0+0 1
 4 4 1
 Size: 50
 Class: 103
+Race: 104
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -2887,7 +2963,7 @@ T 24288
 осколок зуба торчит, а на плече летучие мыши гнездо устроили.
 ~
 b0d0f0g0l0n0o0x0A0 c0d0f0j0C0m1 -600 E
-22 7 -8 5d5+1000 5d4+3
+21 7 -8 5d5+1000 5d4+3
 10d4+100 50000
 4 4 2
 BareHandAttack: 4
@@ -2899,6 +2975,7 @@ Size: 60
 LikeWork: 40
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 

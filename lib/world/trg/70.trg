@@ -219,6 +219,11 @@ if (%object.vnum% == 7009)
   гадость
   %self.gold(+50)%
   дать 50 кун %actor.iname%
+  if %random.1000% <= 100
+    г Вот еще держи, давно выбросить хотел.
+    %load% obj 1756
+    дать книга %actor.name%
+  end
 else
   г Это мне и даром не надо.
   дать %object.name% %actor.name%
@@ -264,5 +269,36 @@ end
 wait 4
 рыч %podobral.name%
 mkill %podobral%
+~
+#7012
+телепортеру дали куны~
+0 m 1
+~
+wait 1
+emot пересчитал%self.g% куны
+eval target 0
+switch %amount%
+  case 2000
+    eval target 4039
+  break
+  default
+    тоск
+    say И чего же ты за эти деньги хочешь?
+    give %amount% кун .%actor.name%
+    halt
+  done
+  кив
+  emot сделал%self.g% несколько странных жестов
+  mechoaround %actor% %actor.name% исчез%actor.q% в клубах дыма.
+  msend %actor% У вас закружилась голова, и на миг вы потеряли сознание...
+  msend %actor% 
+  mteleport %actor% %target% horse
+  mechoaround %actor% %actor.name% появил%actor.u% здесь в клубах дыма.
+~
+#7013
+телепорт!~
+2 z 100
+~
+wportal 4039 2
 ~
 $~

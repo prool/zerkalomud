@@ -298,6 +298,7 @@ oecho Выпало %val1% и %val2%.
 одеваем рыцарей в антуражный шмот~
 0 n 100
 ~
+halt
 wait 1
 if ( (%self.realroom% > 86100) && (%self.realroom% < 86199) )
   *лоад экипировки в 861 зоне
@@ -440,7 +441,7 @@ else
 end
 detach 86115 %alter.id%
 mecho Уже умирая, %self.name% изловчился, и нанес противнику СМЕРТЕЛЬНЫЙ удар.
-eval dmg %alter.hitp%+11
+eval dmg %alter.hitp%+10
 mdamage %alter% %dmg%
 ~
 #86116
@@ -636,8 +637,10 @@ if !%exist.mob(86115)%
   if (%world.curobjs(86154)% < 1)
     mload obj 86154
   end
-  calcuid plennik 86116 mob
-  exec 86126 %plennik.id%
+  if %exist.mob(86116)%
+    calcuid plennik 86116 mob
+    exec 86126 %plennik.id%
+  end
 end
 ~
 #86124
@@ -645,8 +648,10 @@ end
 0 f 100
 ~
 if !%exist.mob(86114)%
-  calcuid plennik 86116 mob
-  exec 86126 %plennik.id%
+  if %exist.mob(86116)%
+    calcuid plennik 86116 mob
+    exec 86126 %plennik.id%
+  end
   mload obj 86154
   if ( %random.100% > 69 )
     mload obj 86153
@@ -916,9 +921,9 @@ if ( %self.realroom% ==  86120)
   emot достал несколько предметов из тайника
   emot бережно извлек на свет икону и стал заворачивать ее в кусок чистого навощеного полотна
   eval char %random.pc%
-  if %random.900% < 200 && %world.curobjs(3300)% < 1
+  if ((%random.1000% <= 45) && (%world.curobjs(3300)% < 1))
     mload obj 3300
-    дать дев.мар %char.name%
+    ____дать валькир %char.name%
   end
   if (( %random.1000% <= 100 ) && ( %world.curobjs(578)% < 1 ))
     *место под лоад буки !групповое освящение! после перекладывания

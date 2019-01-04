@@ -25,6 +25,7 @@ Size: 55
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 159
 Weight: 81
 Special_Bitvector: 0 
@@ -60,6 +61,7 @@ Size: 50
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 191
 Weight: 89
 Special_Bitvector: b1c1 
@@ -69,10 +71,10 @@ Skill: 151 40
 Spell: 111
 Spell: 130
 Spell: 130
-Helper: 68804
-Helper: 68805
-Helper: 68806
 Helper: 68807
+Helper: 68806
+Helper: 68805
+Helper: 68804
 E
 #68802
 высокорослый сотник~
@@ -102,6 +104,7 @@ Size: 50
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 191
 Weight: 89
 Special_Bitvector: b1c1 
@@ -111,10 +114,10 @@ Skill: 157 35
 Spell: 15
 Spell: 15
 Spell: 111
-Helper: 68808
-Helper: 68809
-Helper: 68810
 Helper: 68811
+Helper: 68810
+Helper: 68809
+Helper: 68808
 E
 #68803
 худощавый воевода~
@@ -143,6 +146,7 @@ Size: 55
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 71
 Special_Bitvector: b1c1 
@@ -152,9 +156,9 @@ Spell: 15
 Spell: 15
 Spell: 54
 Spell: 111
-Helper: 68821
-Helper: 68802
 Helper: 68813
+Helper: 68802
+Helper: 68821
 E
 T 68809
 T 68810
@@ -187,6 +191,7 @@ Size: 51
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 178
 Weight: 84
 Special_Bitvector: y0b1c1d1 
@@ -225,6 +230,7 @@ Size: 51
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 178
 Weight: 84
 Special_Bitvector: y0b1c1d1 
@@ -263,6 +269,7 @@ Size: 51
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 178
 Weight: 84
 Special_Bitvector: y0b1c1d1 
@@ -301,6 +308,7 @@ Size: 51
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 178
 Weight: 84
 Special_Bitvector: y0b1c1d1 
@@ -338,6 +346,7 @@ Size: 59
 LikeWork: 30
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 116
 Special_Bitvector: y0b1c1d1 
@@ -373,6 +382,7 @@ Size: 59
 LikeWork: 30
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 116
 Special_Bitvector: y0b1c1d1 
@@ -408,6 +418,7 @@ Size: 59
 LikeWork: 30
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 116
 Special_Bitvector: y0b1c1d1 
@@ -443,6 +454,7 @@ Size: 59
 LikeWork: 30
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 116
 Special_Bitvector: y0b1c1d1 
@@ -479,6 +491,7 @@ Cha: 10
 Size: 62
 LikeWork: 25
 Class: 102
+Race: 101
 Height: 182
 Weight: 85
 Special_Bitvector: y0b1c1d1 
@@ -516,6 +529,7 @@ Size: 50
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 167
 Weight: 61
 Special_Bitvector: b1c1 
@@ -553,6 +567,7 @@ Size: 56
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 183
 Weight: 88
 Special_Bitvector: 0 
@@ -587,6 +602,7 @@ Size: 51
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 178
 Weight: 84
 Special_Bitvector: b1c1d1 
@@ -621,6 +637,7 @@ Size: 51
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 178
 Weight: 84
 Special_Bitvector: b1c1d1 
@@ -653,6 +670,7 @@ Cha: 15
 Size: 51
 LikeWork: 5
 Class: 102
+Race: 101
 Height: 167
 Weight: 71
 Special_Bitvector: y0 
@@ -688,6 +706,7 @@ Size: 51
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 169
 Weight: 75
 Special_Bitvector: y0b1c1d1 
@@ -732,6 +751,7 @@ Cha: 10
 Size: 75
 LikeWork: 15
 Class: 102
+Race: 101
 Height: 189
 Weight: 121
 Special_Bitvector: b1c1d1 
@@ -766,6 +786,7 @@ Size: 51
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 188
 Weight: 79
 Special_Bitvector: b1c1 
@@ -802,6 +823,7 @@ Cha: 22
 Size: 70
 LikeWork: 30
 Class: 102
+Race: 101
 Height: 197
 Weight: 91
 Special_Bitvector: b1c1C3 
@@ -817,8 +839,8 @@ Spell: 38
 Spell: 74
 Spell: 74
 Spell: 104
-Helper: 68812
 Helper: 68820
+Helper: 68812
 E
 #68822
 дозорный воин~
@@ -847,6 +869,7 @@ Size: 51
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 79
 Special_Bitvector: b1c1d1 
@@ -883,6 +906,7 @@ Size: 51
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 79
 Special_Bitvector: b1c1d1 
@@ -917,6 +941,7 @@ Con: 10
 Cha: 10
 Size: 100
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

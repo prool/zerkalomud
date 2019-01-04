@@ -146,7 +146,7 @@ switch %actor.realroom%
   break
 done
 eval chanse %random.5%*(%actor.dex%+%actor.str%)
-if %chanse% > 240
+if %chanse% > 200
   switch %random.3%
     case 1
       wait 1  
@@ -198,7 +198,7 @@ if %chanse% > 240
   done
 end 
 * II вариант
-if %chanse% > 190
+if %chanse% > 150
   switch %random.4%
     case 1
       wait 1  
@@ -262,7 +262,7 @@ if %chanse% > 190
   halt
 end  
 * III вариант
-if %chanse% > 140
+if %chanse% > 100
   switch %random.3% 
     case 1
       wait 1  
@@ -281,8 +281,7 @@ if %chanse% > 140
       wait 1 
       wsend %actor% _Подрыгнув вы ловко ухватились за выступ и полезли по стеклянной горе.
       wait 1
-      wsend %actor% _Ваши ноги проскальзывают, но Вы одними руками тянете себя все выше и
-      выше!  
+      wsend %actor%  Ваши ноги проскальзывают, но Вы одними руками тянете себя все выше и выше!
       wait 1
       wsend %actor% _Стекло крошиться под вашими ладонями и его осколки больно ранят Вас!
       eval dmg %actor.hitp%/7 
@@ -1305,8 +1304,8 @@ end
 0 f 100
 ~
 eval chanse %world.curobjs(87748)%+20
-if (( %random.23% > %chanse% ) || ( %random.100% == 53 ))
-  mload obj 877948
+if %random.23% > %chanse% || %random.100% == 53
+  mload obj 87748
 end
 ~
 #87750

@@ -15,7 +15,7 @@ detach 76100 %self.id%
 ~
 wait 1
 wecho _Ну зачем Вы полезли в грязь, неужто мама не учила, что по дороге удобней?
-%actor.move(-80)%
+eval buf %actor.move(-80)%
 ~
 #76102
 заходят к старичку~
@@ -33,7 +33,10 @@ if !%self.fighting%
   mecho _Старичок вдруг дернулся, стремительно покрылся черной шерстью...
   mecho ___... И огромный черный пес-двоедушник кинулся на вас!
   eval buf %self.hitp(+100)%
-  mkill %random.pc%
+  eval t %random.pc%
+  if %t%
+    mkill %t%
+  end
   attach 76113 %self.id%
   detach 76102 %self.id%
 end
@@ -402,15 +405,15 @@ wteleport %actor% 76114
 тенетник убит~
 0 f 100
 ~
-if (%world.curobjs(76113)%) < 4 && (%random.100% < 8)
+if (%world.curobjs(76113)% < 4) && (%random.100% < 8)
   mload obj 76113
   *шерстка паука
 end
-if (%world.curobjs(76130)%) < 4 && (%random.100% < 12)
+if (%world.curobjs(76130)% < 4) && (%random.100% < 12)
   mload obj 76130
   *брюхо тенетника
 end
-if (%world.curobjs(76136)%) < 4 && (%random.100% <8)
+if (%world.curobjs(76136)% < 4) && (%random.100% <8)
   mload obj 76136
   *перчатки из паучьей нити
 end

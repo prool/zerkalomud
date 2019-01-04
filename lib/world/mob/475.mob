@@ -25,6 +25,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 80
 Weight: 85
 Special_Bitvector: p0 
@@ -61,6 +62,7 @@ LikeWork: 35
 MaxFactor: 10
 ExtraAttack: 3
 Class: 101
+Race: 102
 Height: 120
 Weight: 90
 Special_Bitvector: g0i0j0p0c1 
@@ -80,7 +82,6 @@ Spell: 76
 E
 T 47502
 T 47503
-I шерсть,10:5
 #47502
 медведь~
 медведь~
@@ -94,8 +95,8 @@ I шерсть,10:5
    Косолапый медведь рыщет по лесу в поисках пищи.
 ~
 d0f0g0l0m0n0l1m1n1 d0f0k0 -600 E
-28 1 1 10d10+4000 10d20+40
-0d0+10 150000
+28 1 1 10d10+3500 10d10+39
+0d0+100 150000
 8 8 1
 BareHandAttack: 6
 Str: 30
@@ -109,7 +110,8 @@ LikeWork: 55
 MaxFactor: 10
 ExtraAttack: 2
 Class: 103
-Height: 200
+Race: 104
+Height: 150
 Weight: 120
 Special_Bitvector: 0 
 Skill: 4 120
@@ -117,7 +119,6 @@ Skill: 5 100
 Skill: 136 150
 E
 T 47511
-I шерсть,10:5
 #47503
 лесничий охотник~
 лесничий~
@@ -147,6 +148,7 @@ LikeWork: 60
 MaxFactor: 30
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 165
 Weight: 80
 Special_Bitvector: b1c1 
@@ -161,7 +163,7 @@ T 47501
 T 47517
 T 47522
 #47504
-охотник светловолосый~
+светловолосый охотник~
 светловолосый охотник~
 светловолосого охотника~
 светловолосому охотнику~
@@ -172,26 +174,27 @@ T 47522
 ~
    Невысокого роста охотник с выгоревшими на солнце волосами.
 ~
-c0d0l0n0A0 f0h0k0m1 -600 E
-28 0 -5 10d10+2500 10d15+30
-4d10+1 120000
+c0d0l0n0A0 f0k0m1 -600 E
+25 5 -5 2d2+1500 5d5+15
+4d10+1 50000
 8 8 1
+Absorbe: 10
 BareHandAttack: 9
-Str: 30
-Dex: 25
-Int: 14
+Str: 25
+Dex: 15
+Int: 10
 Wis: 10
-Con: 15
-Cha: 14
+Con: 14
+Cha: 10
 Size: 50
 LikeWork: 60
 MaxFactor: 25
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 130
 Weight: 120
 Special_Bitvector: y0b1c1 
-Skill: 134 80
 Skill: 137 50
 Skill: 154 100
 Skill: 155 100
@@ -225,6 +228,7 @@ LikeWork: 70
 MaxFactor: 30
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -265,6 +269,7 @@ LikeWork: 40
 MaxFactor: 12
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 120
 Weight: 60
 Special_Bitvector: 0 
@@ -283,7 +288,7 @@ E
 ~
 b0d0l0m0n0r0c2 d0k0x0r1 -600 E
 35 1 -5 100d100+5000 1d30+45
-10d2+1 400000
+10d2+1 700000
 8 8 1
 Str: 25
 Dex: 25
@@ -296,6 +301,7 @@ LikeWork: 70
 MaxFactor: 40
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 160
 Weight: 75
 Special_Bitvector: b0b1c1 
@@ -348,6 +354,7 @@ LikeWork: 50
 MaxFactor: 9
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 120
 Weight: 80
 Special_Bitvector: 0 
@@ -381,6 +388,7 @@ LikeWork: 50
 MaxFactor: 11
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -413,6 +421,7 @@ LikeWork: 40
 MaxFactor: 10
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -450,6 +459,7 @@ Size: 55
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 155
 Weight: 85
 Special_Bitvector: 0 
@@ -483,6 +493,7 @@ Size: 80
 LikeWork: 70
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 180
 Weight: 86
 Special_Bitvector: 0 
@@ -518,6 +529,7 @@ Size: 60
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 165
 Weight: 70
 Special_Bitvector: 0 
@@ -551,6 +563,7 @@ Size: 70
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 85
 Special_Bitvector: 0 
@@ -584,6 +597,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 120
 Weight: 85
 Special_Bitvector: 0 
@@ -617,6 +631,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -640,7 +655,7 @@ d0f0l0m0n0p0q0r0u0x0z0c2h2 b0d0k0s0x0z1 -600 E
 0d0+0 300000
 8 8 2
 Saves: -90 0 0 0
-Resistances: 80 80 80 0 0 90 0
+Resistances: -80 80 80 0 0 90 0
 Str: 28
 Dex: 25
 Int: 23
@@ -651,6 +666,7 @@ Size: 80
 LikeWork: 50
 ExtraAttack: 1
 Class: 100
+Race: 113
 Height: 160
 Weight: 50
 Special_Bitvector: l0v0a1 
@@ -684,10 +700,10 @@ T 47523
 ~
 d0f0l0m0n0p0q0r0x0z0a2h2 b0d0k0s0x0y1 -600 E
 28 7 -5 10d210+5000 10d20+7
-0d0+0 300000
+0d0+0 500000
 8 8 2
 Saves: -80 0 0 0
-Resistances: 80 80 80 0 0 100 0
+Resistances: 80 80 -80 0 0 100 0
 Str: 28
 Dex: 16
 Int: 25
@@ -698,6 +714,7 @@ Size: 80
 LikeWork: 50
 ExtraAttack: 2
 Class: 100
+Race: 113
 Height: 160
 Weight: 50
 Special_Bitvector: l0x0a1 
@@ -727,12 +744,12 @@ T 47523
 ~
    Огромная тень, призванная охранять покой создателя.
 ~
-b0d0f0l0m0n0p0q0r0u0x0z0b1e2h2 b0d0k0 0 E
-32 7 -5 10d110+8000 0d20+10
-0d0+0 350000
+b0d0f0l0m0n0p0q0r0u0x0z0b1e2h2 b0d0k0 -600 E
+32 7 -5 10d110+8000 1d20+10
+0d0+0 450000
 8 8 2
 Saves: -90 0 0 0
-Resistances: 80 80 80 0 0 100 0
+Resistances: 80 80 80 -80 0 100 0
 Str: 30
 Dex: 10
 Int: 14
@@ -743,6 +760,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 100
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: g0l0u0 
@@ -789,6 +807,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: u0 
@@ -803,10 +822,11 @@ E
 Сгустке магической силы~
 Сгусток магической силы Служителя тьмы парит здесь.
 ~
-undefined~
+Что-то странное и непонятное. Но явно магическое!
+~
 b0d0f0l0n0p0r0z0c2 b0d0f0k0r0x0x1 -600 E
 35 0 -10 10d110+9999 10d10+40
-0d0+0 650000
+0d0+0 750000
 8 8 1
 Str: 25
 Dex: 16
@@ -818,6 +838,7 @@ Size: 100
 LikeWork: 65
 ExtraAttack: 2
 Class: 100
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -831,4 +852,5 @@ Spell: 76
 Spell: 93
 Spell: 94
 E
+T 47526
 $

@@ -195,7 +195,7 @@ else
   wechoaround %actor% %actor.name% распалил%actor.g% костер.
   calcuid ig 70219 obj
   wpurge %ig%
-  wload obj 70213
+  *  wload obj 70213
   detach 70212 %self.id%
   attach 70213 %self.id%
 end
@@ -213,7 +213,7 @@ else
   wait 1
   wsend %actor% Вы расширили нору, и теперь в нее можно пролезть.
   wechoaround %actor.name% %actor.name% расширил нору, и теперь в нее можно пролезть.
-  mecho Духи, покой которых Вы нарушили, не отпустят Вас просто так.
+  wecho Духи, покой которых Вы нарушили, не отпустят Вас просто так.
   wload mob 70209
   wload mob 70209
   wload mob 70209

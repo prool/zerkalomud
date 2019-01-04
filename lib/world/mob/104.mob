@@ -26,6 +26,7 @@ LikeWork: 80
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -57,9 +58,9 @@ Spell: 66
 Spell: 66
 Spell: 66
 Spell: 66
-Helper: 10409
-Helper: 10416
 Helper: 10418
+Helper: 10416
+Helper: 10409
 E
 T 10400
 T 10401
@@ -92,6 +93,7 @@ LikeWork: 75
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -145,6 +147,7 @@ LikeWork: 65
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -171,8 +174,8 @@ Spell: 54
 Spell: 54
 Spell: 54
 Spell: 54
-Helper: 10411
 Helper: 10415
+Helper: 10411
 E
 #10403
 болтливая кумушка~
@@ -203,6 +206,7 @@ LikeWork: 65
 MaxFactor: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -266,6 +270,7 @@ LikeWork: 50
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: i0a1b1c1 
@@ -318,6 +323,7 @@ LikeWork: 55
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
@@ -386,6 +392,7 @@ LikeWork: 65
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -420,8 +427,8 @@ Spell: 114
 Spell: 114
 Spell: 114
 Spell: 114
-Helper: 10412
 Helper: 10414
+Helper: 10412
 E
 T 10403
 T 10402
@@ -452,6 +459,7 @@ Size: 35
 LikeWork: 70
 MaxFactor: 25
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: a0b0c0d0e0f0g0 
@@ -511,6 +519,7 @@ Size: 30
 LikeWork: 70
 MaxFactor: 30
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -582,6 +591,7 @@ LikeWork: 75
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -634,6 +644,7 @@ LikeWork: 75
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -686,6 +697,7 @@ LikeWork: 50
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: i0a1b1c1 
@@ -738,6 +750,7 @@ LikeWork: 65
 MaxFactor: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -797,6 +810,7 @@ Size: 35
 LikeWork: 70
 MaxFactor: 25
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: a0b0c0d0e0f0g0 
@@ -857,6 +871,7 @@ LikeWork: 55
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -925,6 +940,7 @@ LikeWork: 55
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -993,6 +1009,7 @@ LikeWork: 65
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -1055,6 +1072,7 @@ Size: 30
 LikeWork: 70
 MaxFactor: 30
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -1124,6 +1142,7 @@ Size: 30
 LikeWork: 70
 MaxFactor: 30
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -1191,6 +1210,7 @@ Con: 3
 Cha: 3
 Size: 30
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

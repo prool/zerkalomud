@@ -13,7 +13,7 @@
 парень - из числа нанятых.
 ~
 b0d0l0m0n0 k0r0z0A0 -600 E
-25 0 -4 5d6+2000 5d8+10
+29 0 -4 5d6+2000 5d8+10
 7d10+5 200000
 8 8 1
 Resistances: 100 100 100 100 100 100 100
@@ -31,6 +31,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -59,7 +60,7 @@ I глаза,10:5
 парень - из числа нанятых.
 ~
 b0d0l0m0n0 k0r0z0A0 -600 E
-25 0 -4 5d6+2000 5d8+10
+29 0 -4 5d6+2000 5d8+10
 7d10+5 200000
 8 8 1
 BareHandAttack: 9
@@ -73,6 +74,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -98,7 +100,7 @@ E
 парень - из числа нанятых.
 ~
 b0d0l0m0 k0r0z0A0 -600 E
-25 0 -4 5d6+2000 5d8+10
+29 0 -4 5d6+2000 5d8+10
 7d10+5 200000
 8 8 1
 BareHandAttack: 9
@@ -112,6 +114,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: y0b1c1 
@@ -137,7 +140,7 @@ E
 парень - из числа нанятых.
 ~
 b0d0l0m0 k0r0z0A0 -600 E
-25 0 -4 5d6+2000 5d8+10
+29 0 -4 5d6+2000 5d8+10
 7d10+5 200000
 8 8 1
 BareHandAttack: 9
@@ -151,6 +154,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: y0b1c1 
@@ -195,6 +199,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -239,6 +244,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -249,8 +255,8 @@ Skill: 157 180
 Spell: 28
 Spell: 28
 Spell: 93
-Helper: 40027
 Helper: 40028
+Helper: 40027
 E
 T 40023
 #40006
@@ -283,6 +289,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -293,8 +300,8 @@ Skill: 157 180
 Spell: 28
 Spell: 28
 Spell: 93
-Helper: 40029
 Helper: 40030
+Helper: 40029
 E
 T 40024
 #40007
@@ -314,9 +321,10 @@ T 40024
 
 ~
 d0j0l0m0n0 c0d0e0k0 -600 E
-30 0 -4 4d20+3100 10d10+14
+31 0 -4 4d20+3100 10d10+14
 10d5+10 330000
 8 8 1
+Saves: -10 -10 -10 -10
 Resistances: 100 100 100 100 100 100 100
 Armour: 100
 PlusMem: 100
@@ -335,6 +343,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1B3 
@@ -347,12 +356,11 @@ Skill: 157 150
 Spell: 28
 Spell: 28
 Spell: 56
-Helper: 40004
-Helper: 40005
 Helper: 40006
+Helper: 40005
+Helper: 40004
 E
 T 40027
-I кости,10:10
 #40008
 повар~
 повар~
@@ -370,7 +378,7 @@ I кости,10:10
 
 ~
 c0d0h0l0m0A0 f0k0r0z0 -600 E
-25 0 -1 5d6+1200 6d6+8
+27 0 -1 5d6+1200 6d6+8
 2d4+5 125000
 8 8 1
 Resistances: 50 50 50 50 50 50 50
@@ -385,6 +393,7 @@ Size: 90
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 150
 Special_Bitvector: y0b1c1 
@@ -394,7 +403,6 @@ Spell: 25
 Spell: 148
 E
 T 40012
-I кожа,10:10
 #40009
 стражник мечник~
 стражник-мечник~
@@ -409,7 +417,7 @@ I кожа,10:10
 прежде чем попал в этот дом охранником.
 ~
 b0d0j0l0A0 d0k0z0A0 -600 E
-26 0 -4 10d6+2000 8d9+11
+29 0 -4 10d6+2000 8d9+11
 3d6+2 220000
 8 8 1
 Resistances: 100 100 100 100 100 100 100
@@ -427,6 +435,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 100
 Special_Bitvector: b1c1B3 
@@ -467,6 +476,7 @@ Size: 10
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: a1b1c1 
@@ -488,7 +498,7 @@ E
 да так, что никто и не почувствует.
 ~
 b0d0B0 d0f0k0 0 E
-34 1 1 10d10+2 1d11+11
+12 1 1 10d10+2 1d11+11
 1d11+11 10000
 8 8 1
 Str: 10
@@ -500,6 +510,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -520,7 +531,7 @@ T 40001
 и руках видна сила недюжинная.
 ~
 b0c0d0A0 d0f0k0z0A0e2 -600 E
-28 0 -4 10d10+3200 10d5+15
+30 0 -4 10d10+3200 10d5+15
 6d6+19 320000
 8 8 1
 Resistances: 100 100 100 100 100 100 100
@@ -538,6 +549,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -570,7 +582,7 @@ T 40011
 на теле красивое шелковое платье.
 ~
 b0d0j0b2h2 d0k0 -600 E
-30 0 -11 10d10+1000 5d10+5
+28 0 -11 10d10+1000 5d10+5
 2d2+18 180000
 8 8 2
 Resistances: 100 100 100 100 100 100 100
@@ -585,6 +597,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -594,18 +607,17 @@ Spell: 28
 Spell: 28
 Spell: 68
 Spell: 68
-Helper: 40031
 Helper: 40032
+Helper: 40031
 E
 T 40014
-I кожа,10:10
 #40014
- девка чернявка служанка~
-девка - чернявка~
-девки - чернявки~
-девке - чернявке~
-девку - чернявку~
-девкой - чернявкой~
+девка чернявка служанка~
+девка-чернявка~
+девки-чернявки~
+девке-чернявке~
+девку-чернявку~
+девкой-чернявкой~
 девке - чернявке~
 Служанка бежит за боярыней.
 ~
@@ -613,7 +625,7 @@ I кожа,10:10
   
 ~
 d0l0m0A0 d0f0h0 -600 E
-25 0 -12 10d10+700 5d10+5
+27 0 -12 10d10+700 5d10+5
 2d2+4 120000
 8 8 2
 CastSuccess: 100
@@ -627,6 +639,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -656,7 +669,7 @@ I шерсть,10:3
 хозяйское имущество.
 ~
 b0c0d0f0A0 b0c0f0k0s0t0z0A0 0 E
-30 0 5 10d10+1500 5d7+21
+29 0 5 10d10+1500 5d7+21
 5d2+10 220000
 8 8 1
 Resistances: 45 45 45 45 45 45 45
@@ -678,6 +691,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i0j0b1c1 
@@ -692,9 +706,8 @@ Skill: 167 200
 Spell: 71
 E
 T 40026
-I кости,10:10
 #40016
- цепной~
+цепной пес~
 цепной пес~
 цепного пса~
 цепному псу~
@@ -706,7 +719,7 @@ I кости,10:10
    Лохматая псина с грустными глазами сидит на огромной цепи. 
 ~
 b0d0m0 d0f0k0 -600 E
-25 0 -10 10d10+400 11d4+11
+23 0 -10 10d10+400 11d4+11
 1d1+11 70000
 8 8 1
 BareHandAttack: 4
@@ -720,6 +733,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
@@ -728,8 +742,8 @@ E
 T 40028
 I шерсть,10:10
 #40017
- грустный~
-грустный вор ~
+грустный вор~
+грустный вор~
 грустного вора~
 грустному вору~
 грустного вора~
@@ -741,9 +755,10 @@ I шерсть,10:10
 побоя. Незавидная судьба ждет воришек..
 ~
 b0d0 d0f0k0 0 E
-34 0 12 10d10+3000 11d10+21
+31 0 12 10d10+3000 11d10+21
 1d2+5 350000
 6 6 1
+Saves: -10 -10 -10 -10
 Resistances: 100 100 100 100 100 100 100
 Armour: 100
 Absorbe: 100
@@ -757,6 +772,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -795,7 +811,7 @@ I глаза,10:10
 прежде чем попал в этот дом охранником.
 ~
 b0d0j0l0 d0k0z0A0 -600 E
-26 0 -4 10d6+2000 8d9+11
+29 0 -4 10d6+2000 8d9+11
 3d6+2 220000
 8 8 1
 BareHandAttack: 3
@@ -809,6 +825,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 100
 Special_Bitvector: b1c1B3 
@@ -832,7 +849,7 @@ T 40018
 прежде чем попал в этот дом охранником.
 ~
 b0d0j0l0 d0k0z0A0 -600 E
-26 0 -4 10d6+2000 8d9+11
+29 0 -4 10d6+2000 8d9+11
 3d6+2 220000
 8 8 1
 BareHandAttack: 3
@@ -846,6 +863,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 100
 Special_Bitvector: b1c1B3 
@@ -869,7 +887,7 @@ T 40019
 прежде чем попал в этот дом охранником.
 ~
 b0d0j0l0 d0k0z0A0 -600 E
-26 0 -4 10d6+2000 8d9+11
+29 0 -4 10d6+2000 8d9+11
 3d6+2 220000
 8 8 1
 BareHandAttack: 3
@@ -883,6 +901,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 100
 Special_Bitvector: b1c1B3 
@@ -906,7 +925,7 @@ T 40020
 прежде чем попал в этот дом охранником.
 ~
 b0d0j0l0 d0k0z0A0 -600 E
-26 0 -4 10d6+2000 8d9+11
+29 0 -4 10d6+2000 8d9+11
 3d6+2 220000
 8 8 1
 BareHandAttack: 3
@@ -920,6 +939,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 100
 Weight: 100
 Special_Bitvector: b1c1B3 
@@ -943,7 +963,7 @@ T 40021
 парень - из числа нанятых.
 ~
 b0d0l0m0n0 k0r0z0A0 -600 E
-25 0 -4 5d6+2000 5d8+10
+29 0 -4 5d6+2000 5d8+10
 7d10+5 200000
 8 8 1
 BareHandAttack: 9
@@ -957,6 +977,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -982,7 +1003,7 @@ T 40025
   
 ~
 d0l0m0 d0f0h0 -600 E
-25 0 -12 10d10+700 5d10+5
+28 0 -12 10d10+700 5d10+5
 2d2+4 150000
 8 8 1
 PlusMem: 100
@@ -999,6 +1020,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1028,7 +1050,7 @@ E
   
 ~
 d0l0m0 d0f0h0 -600 E
-25 0 -12 10d10+700 5d10+5
+28 0 -12 10d10+700 5d10+5
 2d2+4 150000
 8 8 1
 Str: 35
@@ -1041,6 +1063,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1071,7 +1094,7 @@ T 40032
   
 ~
 d0l0m0 d0f0h0 -600 E
-25 0 -12 10d10+700 5d10+5
+28 0 -12 10d10+700 5d10+5
 2d2+4 150000
 8 8 1
 Str: 35
@@ -1084,6 +1107,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1113,7 +1137,7 @@ E
   
 ~
 d0l0m0 d0f0h0 -600 E
-25 0 -12 10d10+700 5d10+5
+28 0 -12 10d10+700 5d10+5
 2d2+4 150000
 8 8 1
 Str: 35
@@ -1126,6 +1150,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1156,7 +1181,7 @@ E
 парень - из числа нанятых.
 ~
 b0d0l0m0n0 k0r0z0A0 -600 E
-25 0 -4 5d6+2000 5d8+10
+29 0 -4 5d6+2000 5d8+10
 7d10+5 200000
 8 8 1
 BareHandAttack: 9
@@ -1170,6 +1195,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1196,7 +1222,7 @@ T 40031
 парень - из числа нанятых.
 ~
 b0d0l0m0n0 k0r0z0A0 -600 E
-25 0 -4 5d6+2000 5d8+10
+29 0 -4 5d6+2000 5d8+10
 7d10+5 200000
 8 8 1
 BareHandAttack: 9
@@ -1210,6 +1236,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1235,7 +1262,7 @@ E
 парень - из числа нанятых.
 ~
 b0d0l0m0n0 k0r0z0A0 -600 E
-25 0 -4 5d6+2000 5d8+10
+29 0 -4 5d6+2000 5d8+10
 7d10+5 200000
 8 8 1
 BareHandAttack: 9
@@ -1249,6 +1276,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1275,7 +1303,7 @@ T 40031
 парень - из числа нанятых.
 ~
 b0d0l0m0n0 k0r0z0A0 -600 E
-25 0 -4 5d6+2000 5d8+10
+29 0 -4 5d6+2000 5d8+10
 7d10+5 200000
 8 8 1
 BareHandAttack: 9
@@ -1289,6 +1317,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1301,19 +1330,19 @@ Spell: 156
 E
 #40031
  девка чернявка служанка~
-девка - чернявка~
-девки - чернявки~
-девке - чернявке~
-девку - чернявку~
-девкой - чернявкой~
-девке - чернявке~
+девка-чернявка~
+девки-чернявки~
+девке-чернявке~
+девку-чернявку~
+девкой-чернявкой~
+девке-чернявке~
 Служанка бежит за боярыней.
 ~
    Молодая девка, помогающая боярыне вести хозяйство и следить за собой.
   
 ~
 d0l0m0 d0f0h0 -600 E
-25 0 -12 10d10+700 5d10+5
+28 0 -12 10d10+700 5d10+5
 2d2+4 150000
 8 8 2
 CastSuccess: 100
@@ -1321,12 +1350,13 @@ Str: 35
 Dex: 35
 Int: 35
 Wis: 35
-Con: 35
+Con: 34
 Cha: 35
 Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1344,19 +1374,19 @@ E
 T 40030
 #40032
  девка чернявка служанка~
-девка - чернявка~
-девки - чернявки~
-девке - чернявке~
-девку - чернявку~
-девкой - чернявкой~
-девке - чернявке~
+девка-чернявка~
+девки-чернявки~
+девке-чернявке~
+девку-чернявку~
+девкой-чернявкой~
+девке-чернявке~
 Служанка бежит за боярыней.
 ~
    Молодая девка, помогающая боярыне вести хозяйство и следить за собой.
   
 ~
 d0l0m0 d0f0h0 -600 E
-25 0 -12 10d10+700 5d10+5
+28 0 -12 10d10+700 5d10+5
 2d2+4 150000
 8 8 2
 Str: 35
@@ -1369,6 +1399,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1403,7 +1434,7 @@ E
 нечистой силы.
 ~
 b0d0 n1 -600 E
-25 -2 -5 10d10+700 3d4+4
+27 -2 -5 10d10+700 3d4+4
 2d2+4 130000
 8 8 2
 Str: 17
@@ -1416,6 +1447,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1441,7 +1473,7 @@ E
 заморской кузнице.
 ~
 d0 0 -600 E
-25 -2 -8 10d10+750 3d3+5
+28 -2 -8 10d10+750 3d3+5
 2d3+6 150000
 8 8 2
 CastSuccess: 100
@@ -1456,6 +1488,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1469,7 +1502,7 @@ E
 боярскую дочку Лебедь~
 боярской дочкой Лебедью~
 боярской дочке Лебеди~
-Боярская дочка Лебедь скучая бродит по дому.
+Боярская дочка Лебедь, скучая, бродит по дому.
 ~
 Как и полагается боярским дочерям Лебедь одета в роскошное платье из 
 темно-зеленой парчи. Ее осанка величественна, а лицо слегка надменно. 
@@ -1479,7 +1512,7 @@ E
 соколиного глаза.
 ~
 d0 0 -600 E
-26 -3 -9 10d10+750 3d3+3
+28 -3 -9 10d10+750 3d3+3
 4d4+8 170000
 8 8 2
 CastSuccess: 80
@@ -1493,6 +1526,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

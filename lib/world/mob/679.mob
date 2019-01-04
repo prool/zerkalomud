@@ -11,9 +11,10 @@
    О ужас, груда костей, но живая!
 ~
 d0f0g0l0m0n0o0p0r0u0x0y0 d0k0m0p0A0w1 -600 E
-31 0 -10 9d10+5000 20d20+15
+32 0 -10 9d10+5000 20d20+15
 0d0+0 450000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 35
 Dex: 26
 Int: 20
@@ -25,6 +26,7 @@ LikeWork: 20
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 155
 Weight: 100
 Special_Bitvector: m0b1c1h3C3 
@@ -47,9 +49,10 @@ E
    Этому демону подвластны силы камня!
 ~
 b0c0d0f0g0l0m0n0o0p0x0A0 d0f0h0k0m0t1 -600 E
-30 0 -10 3d10+5000 20d20+20
+32 0 -10 3d10+5000 20d20+20
 0d0+5000 500000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 29
 Dex: 20
 Int: 20
@@ -61,20 +64,20 @@ LikeWork: 35
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 200
 Weight: 150
 Special_Bitvector: c1m3C3 
 Skill: 4 30
 Skill: 22 80
 Skill: 132 50
-Skill: 136 100
+Skill: 136 90
 Spell: 23
 Spell: 23
 Spell: 23
 Spell: 152
 Helper: 67903
 Helper: 67902
-Skill: 136 90
 E
 T 67901
 #67902
@@ -104,6 +107,7 @@ LikeWork: 30
 MaxFactor: 3
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: w0c1m3C3 
@@ -140,6 +144,7 @@ LikeWork: 30
 MaxFactor: 3
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: w0c1m3C3 
@@ -164,9 +169,10 @@ E
    О ужас, груда костей, но живая!
 ~
 d0f0g0l0m0n0o0p0r0u0x0y0 d0k0m0p0A0w1 -600 E
-31 0 -10 9d10+5000 25d25+15
+32 0 -10 9d10+5000 25d25+15
 0d0+0 450000
 8 8 1
+Saves: -14 -14 -14 -14
 Str: 35
 Dex: 26
 Int: 20
@@ -178,6 +184,7 @@ LikeWork: 20
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 155
 Weight: 100
 Special_Bitvector: m0c1h3C3 
@@ -200,9 +207,10 @@ E
    Древний огненный демон.
 ~
 b0c0d0f0g0l0m0n0o0x0g2i2 c0d0f0h0k0m0r0C0a1p1y1 -600 E
-33 0 -10 5d10+11000 20d16+20
+34 0 -10 5d10+11000 20d16+20
 0d0+5000 700000
 8 8 1
+Saves: -22 -22 -22 -22
 Str: 35
 Dex: 25
 Int: 25
@@ -214,6 +222,7 @@ LikeWork: 35
 MaxFactor: 7
 ExtraAttack: 3
 Class: 101
+Race: 112
 Height: 180
 Weight: 150
 Special_Bitvector: x0b1c1C3 
@@ -243,7 +252,6 @@ Spell: 82
 Spell: 152
 Helper: 67907
 Helper: 67906
-Skill: 136 99
 E
 #67906
 огненный шар~
@@ -258,7 +266,7 @@ E
    О ужас, этот огненный шар как будто имеет свой разум!
 ~
 d0f0g0l0m0n0o0p0q0r0u0x0z0 d0f0h0k0n0x0A0C0D0p1y1 -600 E
-28 0 -5 8d10+1000 10d15+20
+29 0 -5 8d10+1000 10d15+20
 0d0+0 250000
 8 8 1
 BareHandAttack: 2
@@ -273,6 +281,7 @@ LikeWork: 20
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 109
 Height: 145
 Weight: 60
 Special_Bitvector: l0x0c1C3 
@@ -326,6 +335,7 @@ LikeWork: 20
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: l0x0c1C3 
@@ -372,6 +382,7 @@ LikeWork: 15
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 50
 Weight: 50
 Special_Bitvector: x0C3 
@@ -425,6 +436,7 @@ LikeWork: 15
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 50
 Weight: 50
 Special_Bitvector: x0C3 
@@ -478,6 +490,7 @@ LikeWork: 15
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 50
 Weight: 50
 Special_Bitvector: x0C3 
@@ -517,7 +530,7 @@ E
    Оживший, ходящий костяк.
 ~
 d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0A0w1 -600 E
-35 0 -10 5d10+3000 15d20+15
+30 0 -10 5d10+3000 15d20+15
 10d10+15 290000
 8 8 1
 BareHandAttack: 3
@@ -532,6 +545,7 @@ LikeWork: 30
 MaxFactor: 5
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 199
 Weight: 130
 Special_Bitvector: p0b1c1C3 
@@ -588,7 +602,7 @@ E
    Некогда сильный воин, а сейчас просто груда костей.
 ~
 d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0r0A0w1 -600 E
-31 0 -5 10d2+2000 10d10+10
+29 0 -5 10d2+2000 10d10+10
 0d0+0 250000
 8 8 1
 Str: 28
@@ -602,6 +616,7 @@ LikeWork: 15
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: m0b1c1C3 
@@ -628,7 +643,7 @@ E
    Некогда сильный воин, а сейчас просто груда костей.
 ~
 d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0r0A0w1 -600 E
-27 0 -5 10d2+2000 12d9+10
+29 0 -5 10d2+2000 12d9+10
 0d0+0 250000
 8 8 1
 Str: 28
@@ -642,6 +657,7 @@ LikeWork: 15
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: m0b1c1C3 
@@ -668,9 +684,10 @@ E
    Огромный, злобный скелет.
 ~
 d0f0g0l0m0n0o0p0x0y0g2 d0k0m0A0w1 -600 E
-35 0 -10 5d10+4000 15d15+15
+31 0 -10 5d10+4000 15d15+15
 0d0+1233 400000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 32
 Dex: 20
 Int: 20
@@ -682,6 +699,7 @@ LikeWork: 40
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 160
 Weight: 70
 Special_Bitvector: m0p0c1C3 
@@ -720,7 +738,7 @@ E
    Некогда сильный воин, а сейчас просто груда костей.
 ~
 d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0r0A0w1 -600 E
-31 0 -5 10d2+2000 10d10+10
+30 0 -5 10d2+2000 10d10+10
 0d0+0 290000
 8 8 1
 Str: 29
@@ -734,6 +752,7 @@ LikeWork: 15
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: m0b1c1C3 
@@ -759,7 +778,7 @@ E
    Некогда сильный воин, а сейчас просто груда костей.
 ~
 d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0r0A0w1 -600 E
-29 0 -5 10d2+2000 10d10+10
+30 0 -5 10d2+2000 10d10+10
 0d0+0 290000
 8 8 1
 Str: 27
@@ -773,6 +792,7 @@ LikeWork: 15
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: m0c1C3 
@@ -805,9 +825,10 @@ E
    Почти полностью сгнивший скелет.
 ~
 d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0r0A0w1 -600 E
-30 0 -7 10d4+3800 12d14+15
+31 0 -7 10d4+3800 12d14+15
 0d0+0 350000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 27
 Dex: 22
 Int: 25
@@ -819,6 +840,7 @@ LikeWork: 30
 MaxFactor: 7
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: m0c1m3C3 
@@ -858,9 +880,10 @@ T 67905
    Ужасное создание, так и не успокоившееся после смерти.
 ~
 b0d0f0g0l0m0n0o0r0u0x0y0 d0f0k0m0r0z0A0C0q1w1 -600 E
-40 0 -5 4d10+9000 15d15+15
+33 0 -5 4d10+9000 15d15+15
 0d0+0 600000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 4
 Str: 36
 Dex: 30
@@ -873,6 +896,7 @@ LikeWork: 35
 MaxFactor: 4
 ExtraAttack: 5
 Class: 101
+Race: 110
 Height: 145
 Weight: 90
 Special_Bitvector: c1m3C3 
@@ -919,7 +943,7 @@ T 67909
    Некогда сильный воин, а сейчас просто груда костей.
 ~
 b0c0d0f0g0l0m0n0o0p0x0y0g2 d0f0k0m0r0A0w1 -600 E
-40 0 -5 10d2+2000 20d10+10
+29 0 -5 10d2+2000 20d10+10
 0d0+0 250000
 8 8 1
 Str: 27
@@ -933,6 +957,7 @@ LikeWork: 15
 MaxFactor: 6
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -966,9 +991,10 @@ E
 таких мрачных пещерах.
 ~
 d0f0g0l0m0n0o0x0y0 d0f0k0n0x0A0m1r1x1 -600 E
-36 0 -5 3d10+4300 15d9+15
+31 0 -5 3d10+4300 15d9+15
 0d0+0 350000
 8 8 2
+Saves: -10 -10 -10 -10
 BareHandAttack: 4
 Str: 29
 Dex: 25
@@ -981,11 +1007,12 @@ LikeWork: 30
 MaxFactor: 5
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 130
 Weight: 50
 Special_Bitvector: l0c1m3C3 
 Skill: 22 50
-Skill: 136 100
+Skill: 136 108
 Skill: 137 60
 Skill: 157 50
 Spell: 33
@@ -1010,7 +1037,6 @@ Spell: 153
 Spell: 153
 Spell: 153
 Helper: 67921
-Skill: 136 108
 E
 #67921
 летучая мышь~
@@ -1026,7 +1052,7 @@ E
 таких мрачных пещерах.
 ~
 d0f0g0l0m0n0o0x0y0f2 d0f0k0n0x0A0m1r1x1 -600 E
-29 0 -2 3d10+1300 10d9+10
+28 0 -2 3d10+1300 10d9+10
 0d0+0 190000
 8 8 2
 BareHandAttack: 4
@@ -1041,6 +1067,7 @@ LikeWork: 25
 MaxFactor: 5
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 130
 Weight: 50
 Special_Bitvector: l0m3B3C3 
@@ -1062,7 +1089,7 @@ E
 костяной дух~
 костяного духа~
 костяному духу~
-костяной дух~
+костяного духа~
 костяным духом~
 костяном духе~
 Ужасная тварь, почти полностью лишенная тела.
@@ -1070,9 +1097,10 @@ E
    Ужасная костяная тварь!
 ~
 d0f0g0l0m0n0o0q0y0z0 b0d0f0k0m0n0r0x0z0A0q1 -600 E
-43 0 -4 10d6+3500 9d15+15
+31 0 -4 10d6+3500 9d15+15
 0d0+0 330000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 2
 Str: 32
 Dex: 24
@@ -1085,6 +1113,7 @@ LikeWork: 13
 MaxFactor: 2
 ExtraAttack: 3
 Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: l0C3 
@@ -1110,7 +1139,7 @@ E
 Череп давно умершего воина.
 ~
 d0e0f0g0l0m0n0o0p0q0t0x0y0z0 d0f0k0n0x0m1w1z1 -600 E
-25 0 -2 9d10+1000 15d9+10
+28 0 -2 9d10+1000 15d9+10
 0d0+0 170000
 8 8 1
 BareHandAttack: 4
@@ -1124,6 +1153,7 @@ Size: 30
 LikeWork: 20
 MaxFactor: 5
 Class: 101
+Race: 110
 Height: 50
 Weight: 50
 Special_Bitvector: l0C3 
@@ -1153,9 +1183,10 @@ E
    Душа злобного убийцы.
 ~
 d0f0g0h0l0m0n0o0q0y0z0 b0d0f0k0n0t0x0z0A0w1 -600 E
-30 0 -10 3d10+6000 10d20+20
+32 0 -10 3d10+6000 10d20+20
 0d0+0 450000
 8 8 1
+Saves: -14 -14 -14 -14
 BareHandAttack: 11
 Str: 27
 Dex: 36
@@ -1168,6 +1199,7 @@ LikeWork: 35
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 100
 Weight: 50
 Special_Bitvector: l0b1C3 
@@ -1193,7 +1225,7 @@ E
    Огромная летучая мышь.
 ~
 d0f0g0l0m0n0o0q0y0 d0f0h0k0m0s0x0z0A0j1x1 -600 E
-30 0 -5 4d10+1000 10d9+15
+28 0 -5 4d10+1000 10d9+15
 0d0+0 170000
 8 8 2
 BareHandAttack: 4
@@ -1208,6 +1240,7 @@ LikeWork: 10
 MaxFactor: 6
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 100
 Weight: 72
 Special_Bitvector: l0m3C3 
@@ -1246,7 +1279,7 @@ E
    Ужасное существо.
 ~
 d0f0g0l0m0n0o0q0y0 d0f0k0m0t0z0A0j1z1 -600 E
-30 0 -3 2d10+1800 10d10+10
+29 0 -3 2d10+1800 10d10+10
 0d0+0 220000
 8 8 1
 BareHandAttack: 2
@@ -1261,6 +1294,7 @@ LikeWork: 15
 MaxFactor: 6
 ExtraAttack: 1
 Class: 103
+Race: 107
 Height: 100
 Weight: 65
 Special_Bitvector: m0c1m3C3 
@@ -1297,9 +1331,10 @@ E
    Огромных размеров, черный паук.
 ~
 b0d0f0g0l0m0n0o0q0x0 c0d0f0h0k0m0A0C0q1z1 -600 E
-35 0 -10 9d10+7800 15d10+10
+33 0 -10 9d10+7800 15d10+10
 0d0+0 550000
 8 8 1
+Saves: -18 -18 -18 -18
 BareHandAttack: 1
 Str: 27
 Dex: 30
@@ -1312,11 +1347,12 @@ LikeWork: 25
 MaxFactor: 4
 ExtraAttack: 3
 Class: 103
+Race: 107
 Height: 175
 Weight: 85
 Special_Bitvector: c1m3C3 
 Skill: 22 90
-Skill: 136 100
+Skill: 136 105
 Skill: 157 50
 Spell: 26
 Spell: 26
@@ -1349,7 +1385,6 @@ Spell: 76
 Spell: 88
 Spell: 88
 Helper: 67926
-Skill: 136 105
 E
 #67928
 ледяной демон~
@@ -1365,9 +1400,10 @@ E
 Вас!
 ~
 b0d0f0g0l0m0n0o0p0x0y0 d0f0k0m0r0z0A0C0q1z1 -600 E
-40 0 -10 10d9+12000 15d20+25
+34 0 -10 10d9+12000 15d20+25
 9d2+8888 700000
 8 8 1
+Saves: -22 -22 -22 -22
 Str: 36
 Dex: 30
 Int: 30
@@ -1379,13 +1415,14 @@ LikeWork: 30
 MaxFactor: 4
 ExtraAttack: 1
 Class: 101
+Race: 112
 Height: 199
 Weight: 100
 Special_Bitvector: a0b0c0d0e0f0b1c1m3C3 
 Skill: 22 90
 Skill: 132 50
 Skill: 134 75
-Skill: 136 100
+Skill: 136 120
 Skill: 137 50
 Skill: 142 100
 Skill: 150 50
@@ -1428,7 +1465,6 @@ Spell: 128
 Spell: 128
 Helper: 67930
 Helper: 67929
-Skill: 136 120
 E
 T 67912
 #67929
@@ -1444,7 +1480,7 @@ T 67912
    Ужасный северный ветер!
 ~
 b0c0d0e0f0g0l0m0n0o0p0r0u0x0y0z0c2 d0k0x0z0A0C0q1z1 -600 E
-30 0 -10 5d10+1000 10d10+10
+29 0 -10 5d10+1000 10d10+10
 0d0+0 200000
 8 8 0
 Str: 30
@@ -1457,6 +1493,7 @@ Size: 90
 LikeWork: 30
 MaxFactor: 5
 Class: 101
+Race: 110
 Height: 100
 Weight: 85
 Special_Bitvector: l0c1m3C3 
@@ -1484,7 +1521,7 @@ E
    Ужасный северный ветер!
 ~
 b0c0d0e0f0g0l0m0n0o0p0r0u0x0y0z0c2 d0k0x0z0A0C0q1z1 -600 E
-30 0 -10 5d10+1000 10d10+10
+29 0 -10 5d10+1000 10d10+10
 0d0+0 200000
 8 8 0
 Str: 25
@@ -1497,6 +1534,7 @@ Size: 90
 LikeWork: 30
 MaxFactor: 5
 Class: 101
+Race: 110
 Height: 100
 Weight: 85
 Special_Bitvector: l0c1m3C3 

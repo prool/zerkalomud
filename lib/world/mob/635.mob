@@ -12,8 +12,8 @@
 побольше. Длинные и острые когти угрожающе торчат из лап. На морде 
 этого существа ярко выражена сильнейшая злоба ко всему живому.
 ~
-d0f0g0j0q0 h0k0r0z0j1 -600 E
-25 4 -4 80d10+500 5d6+11
+d0f0g0j0q0 h0k0r0z0 -600 E
+24 4 -4 80d10+500 5d6+11
 0d0+0 78000
 8 8 1
 BareHandAttack: 8
@@ -24,9 +24,10 @@ Con: 13
 Cha: 8
 Size: 75
 LikeWork: 35
+MaxFactor: 2
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -49,8 +50,8 @@ E
 побольше. Длинные и острые когти угрожающе торчат из лап. На морде 
 этого существа ярко выражена сильнейшая злоба ко всему живому.
 ~
-d0f0g0j0 h0k0r0z0j1 -600 E
-22 4 -4 80d10+500 5d6+11
+d0f0g0j0 h0k0r0z0 -600 E
+24 4 -4 80d10+500 5d6+11
 0d0+0 78000
 8 8 1
 BareHandAttack: 8
@@ -61,9 +62,10 @@ Con: 13
 Cha: 8
 Size: 75
 LikeWork: 35
+MaxFactor: 2
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -86,7 +88,7 @@ E
 как ножи когти.
 ~
 d0f0g0i0j0n0o0p0 k0r0A0 -600 E
-18 5 5 30d10+300 8d8+20
+22 5 5 30d10+300 8d8+20
 0d0+0 55000
 8 8 1
 BareHandAttack: 4
@@ -97,8 +99,9 @@ Wis: 9
 Cha: 5
 Size: 45
 LikeWork: 20
+MaxFactor: 2
 Class: 103
-Race: 100
+Race: 104
 Height: 95
 Weight: 110
 Special_Bitvector: p0 
@@ -122,7 +125,7 @@ E
 как ножи когти.
 ~
 d0f0g0i0j0n0o0p0 k0r0A0 -600 E
-18 5 5 30d10+300 8d8+20
+22 5 5 30d10+300 8d8+20
 0d0+0 55000
 8 8 1
 BareHandAttack: 4
@@ -133,8 +136,9 @@ Wis: 9
 Cha: 5
 Size: 45
 LikeWork: 20
+MaxFactor: 2
 Class: 103
-Race: 100
+Race: 104
 Height: 95
 Weight: 110
 Special_Bitvector: p0 
@@ -156,8 +160,8 @@ E
 побольше. Длинные и острые когти угрожающе торчат из лап. Широкие клыки
 похожи на длинный клинки, которыми можно вспороть даже хорошие доспехи.
 ~
-d0f0g0j0 f0h0k0r0z0j1 -600 E
-23 5 -4 80d10+350 5d6+11
+d0f0g0j0 f0h0k0r0z0 -600 E
+25 5 -4 80d10+350 5d6+11
 0d0+0 95000
 8 8 1
 BareHandAttack: 8
@@ -167,9 +171,10 @@ Con: 15
 Cha: 8
 Size: 75
 LikeWork: 35
+MaxFactor: 2
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -188,10 +193,10 @@ E
 ~
    Это животное очень похоже на большую собаку, только вот размерами
 побольше. Длинные и острые когти угрожающе торчат из лап. Широкие клыки
-похожи на длинный клинки, которыми можно вспороть даже хорошие доспехи.
+похожи на длинные клинки, которыми можно вспороть даже хорошие доспехи.
 ~
-d0f0g0j0 f0h0k0z0j1 -600 E
-23 5 -4 80d10+350 5d6+11
+d0f0g0j0 f0h0k0z0 -600 E
+25 5 -4 80d10+350 5d6+11
 0d0+0 95000
 8 8 1
 BareHandAttack: 8
@@ -201,9 +206,10 @@ Con: 15
 Cha: 8
 Size: 75
 LikeWork: 35
+MaxFactor: 2
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -224,8 +230,8 @@ E
 побольше. Длинные и острые когти угрожающе торчат из лап. Длинная
 шерсть стоит дыбом, что показывает на крайнюю агрессивность.
 ~
-d0f0g0j0 f0h0k0r0z0j1 -600 E
-24 2 -6 80d10+700 6d6+14
+d0f0g0j0 f0h0k0r0z0 -600 E
+25 2 -6 80d10+700 6d6+14
 0d0+0 100000
 8 8 1
 BareHandAttack: 8
@@ -236,9 +242,10 @@ Wis: 18
 Con: 20
 Size: 75
 LikeWork: 45
+MaxFactor: 2
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 200
 Special_Bitvector: p0C3 
@@ -261,8 +268,8 @@ E
 побольше. Длинные и острые когти угрожающе торчат из лап. Длинная
 шерсть стоит дыбом, что показывает на крайнюю агрессивность.
 ~
-d0f0g0j0 f0h0k0z0j1 -600 E
-24 2 -6 80d10+700 6d6+14
+d0f0g0j0 f0h0k0z0 -600 E
+25 2 -6 80d10+700 6d6+14
 0d0+0 100000
 8 8 1
 BareHandAttack: 8
@@ -273,9 +280,10 @@ Wis: 18
 Con: 20
 Size: 75
 LikeWork: 45
+MaxFactor: 2
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 200
 Special_Bitvector: p0C3 
@@ -284,7 +292,6 @@ Skill: 132 90
 Skill: 136 95
 Skill: 137 100
 E
-I когти,5:3
 #63508
 ожившее дерево~
 ожившее дерево~
@@ -298,7 +305,7 @@ I когти,5:3
    На вид простое дерево с длинными ветвями. Но вот почему же оно двигается?
 ~
 b0d0f0g0j0n0o0q0r0x0 d0h0k0z1 -600 E
-26 0 5 80d10+985 3d3+5
+28 0 5 80d10+985 3d3+5
 0d0+0 165000
 8 8 0
 BareHandAttack: 2
@@ -310,9 +317,10 @@ Con: 35
 Cha: 10
 Size: 100
 LikeWork: 95
+MaxFactor: 2
 ExtraAttack: 4
 Class: 100
-Race: 100
+Race: 108
 Height: 200
 Weight: 200
 Special_Bitvector: p0 
@@ -341,7 +349,7 @@ E
    На вид простое дерево с длинными ветвями. Но вот почему же оно двигается?
 ~
 b0d0f0g0j0n0o0q0r0x0 d0h0k0z1 -600 E
-26 0 5 80d10+985 3d3+5
+28 0 5 80d10+985 3d3+5
 0d0+0 165000
 8 8 0
 BareHandAttack: 2
@@ -353,9 +361,10 @@ Con: 35
 Cha: 10
 Size: 100
 LikeWork: 95
+MaxFactor: 2
 ExtraAttack: 4
 Class: 100
-Race: 100
+Race: 108
 Height: 200
 Weight: 200
 Special_Bitvector: p0 
@@ -384,8 +393,8 @@ E
    Этот большой волк, похоже, не голодает. Его большое размеры позволят
 ему напасть даже не крупного зверя.
 ~
-d0f0g0j0 k0r0t0j1 -600 E
-20 0 0 55d10+600 9d9+25
+d0f0g0j0 k0r0 -600 E
+25 0 0 55d10+600 9d9+25
 0d0+0 90000
 8 8 1
 BareHandAttack: 4
@@ -397,8 +406,9 @@ Con: 17
 Cha: 13
 Size: 65
 LikeWork: 15
+MaxFactor: 2
 Class: 103
-Race: 100
+Race: 104
 Height: 75
 Weight: 100
 Special_Bitvector: p0 
@@ -418,8 +428,8 @@ E
    Этот большой волк походе не голодает. Его большое размеры позволят
 ему напасть даже не крупного зверя.
 ~
-d0f0g0j0 f0k0t0j1 -600 E
-20 0 0 55d10+600 9d9+25
+d0f0g0j0 f0k0 -600 E
+24 0 0 55d10+600 9d9+25
 0d0+0 80000
 8 8 1
 BareHandAttack: 4
@@ -431,8 +441,9 @@ Con: 17
 Cha: 13
 Size: 65
 LikeWork: 15
+MaxFactor: 2
 Class: 103
-Race: 100
+Race: 104
 Height: 75
 Weight: 100
 Special_Bitvector: p0 
@@ -452,8 +463,8 @@ E
    Это страшное существо похожее на хорьки или другое мелкое животное, но
 имеющее гораздо больше размеры.
 ~
-d0f0g0j0 f0h0k0r0z0j1 -600 E
-22 4 -4 80d10+500 5d6+11
+d0f0g0j0 f0h0k0r0z0 -600 E
+24 4 -4 80d10+500 5d6+11
 0d0+0 78000
 8 8 1
 BareHandAttack: 8
@@ -464,16 +475,16 @@ Con: 13
 Cha: 8
 Size: 75
 LikeWork: 35
+MaxFactor: 2
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
 Skill: 132 90
 Skill: 136 95
 E
-I кости,5:3
 #63513
 озлобленный кособрюх~
 озлобленный кособрюх~
@@ -487,8 +498,8 @@ I кости,5:3
    Это страшное существо похожее на хорьки или другое мелкое животное, но
 имеющее гораздо больше размеры.
 ~
-d0f0g0j0 f0h0k0r0z0j1 -600 E
-22 4 -4 80d10+500 5d6+11
+d0f0g0j0 f0h0k0r0z0 -600 E
+24 4 -4 80d10+500 5d6+11
 0d0+0 78000
 8 8 1
 BareHandAttack: 8
@@ -499,9 +510,10 @@ Con: 13
 Cha: 8
 Size: 75
 LikeWork: 35
+MaxFactor: 2
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -522,7 +534,7 @@ E
 как ножи когти.
 ~
 d0f0g0i0j0n0o0p0 f0k0r0A0 -600 E
-18 5 -4 30d10+300 8d8+20
+22 5 -4 30d10+300 8d8+20
 0d0+0 55000
 8 8 1
 BareHandAttack: 4
@@ -533,8 +545,9 @@ Wis: 9
 Cha: 5
 Size: 45
 LikeWork: 20
+MaxFactor: 2
 Class: 103
-Race: 100
+Race: 104
 Height: 95
 Weight: 110
 Special_Bitvector: p0 
@@ -556,7 +569,7 @@ E
 как ножи когти.
 ~
 d0f0g0i0j0n0o0p0 f0k0r0A0 -600 E
-18 5 5 30d10+300 8d8+20
+22 5 5 30d10+300 8d8+20
 0d0+0 55000
 8 8 1
 BareHandAttack: 4
@@ -567,8 +580,9 @@ Wis: 9
 Cha: 5
 Size: 45
 LikeWork: 20
+MaxFactor: 2
 Class: 103
-Race: 100
+Race: 104
 Height: 95
 Weight: 110
 Special_Bitvector: p0 
@@ -589,8 +603,8 @@ E
    Это ужасного вида существо, немного синеватого цвета. Его длинные, 
 загнутые внутрь когти выглядят достаточно угрожающе.
 ~
-d0f0g0j0 f0h0k0r0z0j1 -600 E
-23 5 5 80d10+350 5d6+11
+d0f0g0j0 f0h0k0r0z0 -600 E
+25 5 5 80d10+350 5d6+11
 0d0+0 95000
 8 8 1
 BareHandAttack: 8
@@ -600,9 +614,10 @@ Con: 15
 Cha: 8
 Size: 75
 LikeWork: 35
+MaxFactor: 2
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -623,8 +638,8 @@ E
    Это ужасного вида существо, немного синеватого цвета. Его длинные, 
 загнутые внутрь когти выглядят достаточно угрожающе.
 ~
-d0f0g0j0 f0h0k0r0z0j1 -600 E
-23 5 -4 80d10+350 5d6+11
+d0f0g0j0 f0h0k0r0z0 -600 E
+25 5 -4 80d10+350 5d6+11
 0d0+0 95000
 8 8 1
 BareHandAttack: 8
@@ -634,9 +649,10 @@ Con: 15
 Cha: 8
 Size: 75
 LikeWork: 35
+MaxFactor: 2
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -657,8 +673,8 @@ E
    Это очень крупное животное с длинной шерстью немного синего цвета. Его
 длинные зубы наводят на Вас неистовый ужас.
 ~
-d0f0g0j0 f0h0k0r0z0j1 -600 E
-24 2 -6 80d10+700 6d6+14
+d0f0g0j0 f0h0k0r0z0 -600 E
+25 2 -6 80d10+700 6d6+14
 0d0+0 100000
 8 8 1
 BareHandAttack: 8
@@ -669,9 +685,10 @@ Wis: 18
 Con: 20
 Size: 75
 LikeWork: 45
+MaxFactor: 2
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 200
 Special_Bitvector: p0C3 
@@ -692,8 +709,8 @@ E
    Это очень крупное животное с длинной шерстью немного синего цвета. Его
 длинные зубы наводят на Вас неистовый ужас.
 ~
-d0f0g0j0 f0h0k0r0z0j1 -600 E
-24 2 -6 80d10+700 6d6+14
+d0f0g0j0 f0h0k0r0z0 -600 E
+25 2 -6 80d10+700 6d6+14
 0d0+0 100000
 8 8 1
 BareHandAttack: 8
@@ -704,9 +721,10 @@ Wis: 18
 Con: 20
 Size: 75
 LikeWork: 45
+MaxFactor: 2
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 200
 Special_Bitvector: p0C3 
@@ -742,7 +760,7 @@ Cha: 20
 Size: 75
 LikeWork: 14
 Class: 103
-Race: 100
+Race: 103
 Height: 200
 Weight: 97
 Special_Bitvector: B3 
@@ -756,7 +774,6 @@ Spell: 26
 Spell: 56
 Spell: 128
 E
-I крылья,15:5
 #63521
 червяк длинный~
 червяк~
@@ -784,7 +801,7 @@ Cha: 20
 Size: 30
 LikeWork: 5
 Class: 103
-Race: 100
+Race: 107
 Height: 25
 Weight: 30
 Special_Bitvector: m0 
@@ -804,7 +821,7 @@ E
    Еж как еж. Только вот довольно отъевшийся и немного злобный.
 ~
 b0d0g0n0o0p0q0r0t0u0x0 d0f0h0k0r1 0 E
-30 8 -5 25d15+650 3d5+0
+25 8 -5 25d15+650 3d5+0
 0d0+0 100000
 8 8 1
 BareHandAttack: 11
@@ -818,7 +835,7 @@ Size: 55
 LikeWork: 95
 ExtraAttack: 6
 Class: 103
-Race: 100
+Race: 104
 Height: 50
 Weight: 100
 Special_Bitvector: 0 
@@ -848,7 +865,7 @@ T 63508
 один его вид повергает в панику всех лесных обитателей. 
 ~
 d0f0g0n0o0q0 d0f0h0k0r0A0 -600 E
-26 2 -3 12d25+250 7d8+5
+24 2 -3 12d25+250 7d8+5
 0d0+0 85000
 8 8 1
 BareHandAttack: 4
@@ -860,8 +877,9 @@ Con: 25
 Cha: 3
 Size: 45
 LikeWork: 20
+MaxFactor: 2
 Class: 103
-Race: 100
+Race: 104
 Height: 56
 Weight: 68
 Special_Bitvector: i0j0p0 
@@ -883,7 +901,7 @@ E
    Обыкновенная лесная белка. Ее толстые бока гордо торчат в стороны.
 ~
 b0d0g0l0m0n0o0p0q0r0u0x0 d0f0h0k0r0A0C0 -600 E
-21 0 -10 25d15+4500 4d4+6
+12 0 -10 25d15+4500 4d4+6
 0d0+0 10000
 8 8 2
 BareHandAttack: 8
@@ -897,14 +915,13 @@ Size: 35
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 45
 Weight: 145
 Special_Bitvector: 0 
 Skill: 136 135
 E
 T 63507
-I глаза,15:3
 #63525
 голодный зверь непонятный~
 голодный зверюга~
@@ -918,8 +935,8 @@ I глаза,15:3
    Это существо немного похоже не волка, но это не волк. Как бы то
 ни было, но оно не агрессивно и довольно дружелюбно.
 ~
-b0d0g0 c0f0h0k0 600 E
-5 0 0 10d10+200 1d1+0
+b0d0g0 c0d0f0h0k0 600 E
+12 0 0 10d10+200 1d1+0
 0d0+0 10000
 8 8 1
 Str: 10
@@ -931,7 +948,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -950,11 +967,11 @@ T 63502
 матке златобрюхов~
 Огромное животное, шипя и кряхтя, лезет сквозь заросли.
 ~
-   Это большое животное манка златобрюхов. Как известно если ее убить
+   Это большое животное матка златобрюхов. Как известно если ее убить
 все оставшиеся златобрюхи постепенно вымрут.
 ~
 b0d0f0g0l0m0n0o0p0 d0f0h0k0r0z0q1 0 E
-32 1 -4 85d15+2000 5d5+8
+30 1 -4 85d15+2000 5d5+8
 0d0+0 295000
 8 8 2
 BareHandAttack: 2
@@ -966,9 +983,10 @@ Con: 29
 Cha: 15
 Size: 100
 LikeWork: 60
+MaxFactor: 2
 ExtraAttack: 5
 Class: 103
-Race: 100
+Race: 104
 Height: 200
 Weight: 200
 Special_Bitvector: 0 
@@ -981,14 +999,14 @@ Spell: 23
 Spell: 23
 Spell: 26
 Spell: 56
-Helper: 63500
-Helper: 63501
-Helper: 63502
-Helper: 63503
-Helper: 63504
-Helper: 63505
-Helper: 63506
 Helper: 63507
+Helper: 63506
+Helper: 63505
+Helper: 63504
+Helper: 63503
+Helper: 63502
+Helper: 63501
+Helper: 63500
 E
 #63527
 матка кособрюхов большое лохматое животное~
@@ -1000,13 +1018,13 @@ E
 матке кособрюхов~
 Большое лохматое животное пробирается сквозь дебри.
 ~
-   Это животное матка кособрюхов. Она похожа на большую толстую собаку.
-Если ее убить, что все оставшиеся кособрюхи постепенно вымрут.
+___Это животное, похожее на большую толстую собаку, - матка кособрюхов.
+Говорят, если ее убить, все оставшиеся кособрюхи постепенно вымрут.
 ~
 b0d0f0g0n0o0 r0r1 -600 E
-32 0 -4 85d15+950 7d8+15
+29 0 -4 85d15+950 7d8+15
 0d0+0 250000
-8 8 0
+8 8 2
 BareHandAttack: 8
 Str: 18
 Dex: 19
@@ -1016,8 +1034,9 @@ Con: 18
 Cha: 35
 Size: 100
 LikeWork: 95
+MaxFactor: 2
 Class: 103
-Race: 100
+Race: 104
 Height: 200
 Weight: 200
 Special_Bitvector: 0 
@@ -1036,13 +1055,13 @@ Spell: 67
 Spell: 67
 Spell: 75
 Spell: 75
-Helper: 63512
-Helper: 63513
-Helper: 63514
-Helper: 63515
-Helper: 63516
-Helper: 63517
-Helper: 63518
 Helper: 63519
+Helper: 63518
+Helper: 63517
+Helper: 63516
+Helper: 63515
+Helper: 63514
+Helper: 63513
+Helper: 63512
 E
 $

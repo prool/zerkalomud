@@ -184,8 +184,10 @@ mload obj 13300
 дать все %actor.name%
 wait 4
 mecho Варяг бесшумно вышел из комнаты.
-calcuid storozh 13313 mob
-attach 13308 %storozh.id%
+if %exist.mob(13313)%
+  calcuid storozh 13313 mob
+  attach 13308 %storozh.id%
+end
 wait 1
 mpurge %self%
 ~

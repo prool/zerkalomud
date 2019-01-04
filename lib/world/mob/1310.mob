@@ -10,33 +10,32 @@
 ~
 Вы видите сильного печенежского нукера.
 ~
-l0A0r2c0s2 k0 -600 E
-24 -3 1 10d10+750 5d6+15 
+c0d0l0A0r2s2 k0 -600 E
+24 -3 1 10d10+750 5d6+15
 10d5+0 60000
 8 8 1
 CastSuccess: 48
-BareHandAttack:  7
+BareHandAttack: 7
 Str: 25
-Int: 14
-Wis: 11
 Dex: 20
+Int: 14
 Con: 25
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 2
 Class: 104
-Size: 50
+Race: 101
 Height: 190
 Weight: 180
-Special_Bitvector: b1c1
-Skill: 142 60
-Skill: 137 35
+Special_Bitvector: b1c1 
 Skill: 22 50
-Skill: 136 90
-Skill: 151 60
 Skill: 132 30
+Skill: 136 90
+Skill: 137 35
+Skill: 142 60
 Skill: 150 25
+Skill: 151 60
 E
 T 131001
 I глаза,3:2
@@ -55,31 +54,30 @@ I кожа,2:3
 ~
 Вы видите хмурого хазарского лазутчика.
 ~
-l0A0r2c0s2 0 -600 E
-18 0 +1 10d15+350 5d4+9 
+c0d0l0A0r2s2 0 -600 E
+18 0 1 10d15+350 5d4+9
 2d2+5 22000
 8 8 1
 CastSuccess: 36
 BareHandAttack: 11
 Str: 17
-Int: 12
-Wis: 11
 Dex: 25
+Int: 12
 Con: 16
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 120
 Weight: 110
-Special_Bitvector: a1b1c1
-Skill: 147 30
-Skill: 139 5
-Skill: 160 20
+Special_Bitvector: a1b1c1 
 Skill: 136 80
+Skill: 139 5
+Skill: 147 30
 Skill: 157 25
+Skill: 160 20
 E
 T 131001
 I глаза,1:1
@@ -98,32 +96,30 @@ I кожа,1:5
 ~
 Вы видите хмурого монгольского воина.
 ~
-l0A0x0r2c0s2 C0 -600 E
-20 -1 +5 10d10+500 5d5+10 
+c0d0l0x0A0r2s2 C0 -600 E
+20 -1 5 10d10+500 5d5+10
 5d5+0 30000
 8 8 1
 CastSuccess: 40
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 24
-Int: 11
-Wis: 11
 Dex: 18
 Con: 22
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 50
+Race: 104
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Skill: 142 40
-Skill: 137 10
+Special_Bitvector: b1c1 
 Skill: 22 25
 Skill: 136 80
-Skill: 151 30
+Skill: 137 10
+Skill: 142 40
 Skill: 150 10
+Skill: 151 30
 E
 T 131001
 I глаза,5:5
@@ -142,31 +138,31 @@ I кожа,4:3
 ~
 Вы видите удачливого опытного лазутчика.
 ~
-l0A0r2c0s2 m1A0 -600 E
-21 -1 -1 10d15+450 5d4+9 
+c0d0l0A0r2s2 A0m1 -600 E
+21 -1 -1 10d15+450 5d4+9
 2d2+5 67000
 8 8 1
 CastSuccess: 42
 BareHandAttack: 11
 Str: 19
+Dex: 25
 Int: 12
 Wis: 16
-Dex: 25
 Con: 16
 Cha: 27
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 120
 Weight: 110
-Special_Bitvector: a1b1c1
-Skill: 147 50
-Skill: 139 25
-Skill: 160 40
+Special_Bitvector: a1b1c1 
 Skill: 136 100
+Skill: 139 25
+Skill: 147 50
 Skill: 157 45
+Skill: 160 40
 E
 T 131001
 I глаза,2:4
@@ -184,25 +180,24 @@ I кожа,3:2
 Степной орел улетает с тушкой грызуна в когтях.
 ~
 Вы видите степного орла.~
-h0 x0 -600 E
-7 12 +8 1d10+70 4d4+2 
+d0h0 x0 -600 E
+7 12 8 1d10+70 4d4+2
 0d0+0 5000
 8 8 1
 BareHandAttack: 15
 Str: 9
+Dex: 10
 Int: 6
 Wis: 6
-Dex: 10
 Con: 10
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,4:7
@@ -220,25 +215,24 @@ I крылья,3:9
 Хитрая степная лиса стоит тут.
 ~
 Вы видите хитрую степную лису.~
-h0 0 -600 E
-10 13 +8 1d10+100 4d4+5 
+d0h0 0 -600 E
+10 13 8 1d10+100 4d4+5
 0d0+0 1000
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 12
+Dex: 15
 Int: 6
 Wis: 6
-Dex: 15
 Con: 12
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 35
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 45
 Weight: 40
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,2:7
@@ -257,25 +251,24 @@ I когти,1:6
 Скопа улетает с тушкой грызуна в когтях.
 ~
 Вы видите скопу.~
-h0 x0 -600 E
-3 9 +9 1d10+30 3d3+0 
+d0h0 x0 -600 E
+3 9 9 1d10+30 3d3+0
 0d0+0 100
 8 8 2
 BareHandAttack: 15
 Str: 5
+Dex: 6
 Int: 6
 Wis: 6
-Dex: 6
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,1:7
@@ -293,25 +286,24 @@ I крылья,5:9
 Хитрый хорек стоит тут.
 ~
 Вы видите хитрого хорька.~
-h0 0 -600 E
-4 10 +9 1d10+40 4d3+0 
+d0h0 0 -600 E
+4 10 9 1d10+40 4d3+0
 0d0+0 2000
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 6
+Dex: 7
 Int: 6
 Wis: 6
-Dex: 7
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,4:6
@@ -330,25 +322,24 @@ I когти,3:8
 Ловкий хорек бежит прочь.
 ~
 Вы видите ловкого хорька.~
-h0 0 -600 E
-4 10 +9 1d10+40 4d3+0 
+d0h0 0 -600 E
+4 10 9 1d10+40 4d3+0
 0d0+0 2000
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 6
+Dex: 7
 Int: 6
 Wis: 6
-Dex: 7
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,1:6
@@ -367,29 +358,27 @@ I когти,1:7
 Серая куропатка летает тут.
 ~
 Вы видите серую куропатку.~
-h0 x0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 x0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 2
 BareHandAttack: 15
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,1:6
 I кости,1:9
 I крылья,3:5
-$
 $

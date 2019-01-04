@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #66700
 волк~
 одинокий волк~
@@ -12,7 +11,7 @@
 Больших размеров хищник. От одного вида Вам становиться не по себе.
 Гигантские клыки торчат из его пасти. Опасный враг.
 ~
-b0f0g0k1 d0k0 -600 E
+b0d0f0g0k1 d0k0 -600 E
 15 12 5 20d30+30 5d6+3
 0d0+0 13000
 8 8 1
@@ -20,17 +19,17 @@ BareHandAttack: 4
 Str: 13
 Int: 3
 Wis: 3
-Dex: 11
 Con: 9
 Cha: 3
+Size: 55
 LikeWork: 25
 MaxFactor: 3
 ExtraAttack: 1
 Class: 103
-Size: 55
+Race: 104
 Height: 50
 Weight: 65
-Special_Bitvector: d0
+Special_Bitvector: d0 
 Skill: 134 30
 Skill: 136 40
 Skill: 157 20
@@ -47,28 +46,29 @@ E
 ~
 Средних размеров паук расположил свою сеть-ловушку между двух деревьев.
 ~
-b0e0f0g0l1m1n1 f0m1 -600 E
+b0d0e0f0g0l1m1n1 f0m1 -600 E
 11 11 6 15d20+10 4d6+2
 0d0+0 11000
 8 8 1
 BareHandAttack: 4
-Str: 11
+Dex: 14
 Int: 4
 Wis: 4
-Dex: 14
 Con: 4
 Cha: 4
+Size: 35
 LikeWork: 50
 MaxFactor: 3
 ExtraAttack: 2
 Class: 103
-Size: 35
+Race: 107
 Height: 35
 Weight: 40
+Special_Bitvector: 0 
+Skill: 136 40
 Spell: 33
 Spell: 77
 Spell: 77
-Skill: 136 40
 E
 #66702
 карась~
@@ -82,25 +82,25 @@ E
 ~
 Серебристого цвета карась. В основном питается небольшой живностью и мошкарой.
 ~
-g0n0y0c1l1m1n1 0 0 E
+d0g0n0y0c1l1m1n1 0 0 E
 11 12 5 16d20+0 4d5+2
 0d0+0 7000
 8 8 1
 BareHandAttack: 4
 Str: 12
+Dex: 10
 Int: 7
 Wis: 7
-Dex: 10
 Con: 13
 Cha: 14
-LikeWork: 0
+Size: 35
 MaxFactor: 6
 ExtraAttack: 1
 Class: 103
-Size: 35
+Race: 104
 Height: 30
 Weight: 45
-Special_Bitvector: o0
+Special_Bitvector: o0 
 Skill: 136 25
 E
 #66703
@@ -116,24 +116,24 @@ E
 Средних размеров рыба, обладающая большой проворность. Отличительная 
 особенность шипастый верхний плавник.
 ~
-g0m0n0l1m1n1 c0k0 0 E
+d0g0m0n0l1m1n1 c0k0 0 E
 12 9 4 18d27+10 4d8+3
 0d0+0 10000
 8 8 1
 BareHandAttack: 4
 Str: 12
+Dex: 10
 Int: 5
 Wis: 5
-Dex: 10
 Con: 5
 Cha: 5
-LikeWork: 0
-MaxFactor: 5
-ExtraAttack: 0
-Class: 103
 Size: 50
+MaxFactor: 5
+Class: 103
+Race: 104
 Height: 34
 Weight: 70
+Special_Bitvector: 0 
 Skill: 136 30
 E
 #66704
@@ -149,7 +149,7 @@ E
 Мощного телосложения рыба. Хищная, охотящаяся на более мелкую рыбу, но не
 брезгует и другой пищей.
 ~
-g0n0l1m1n1 d0f0 0 E
+d0g0n0l1m1n1 d0f0 0 E
 17 9 2 22d28+25 6d8+3
 5d20+0 25000
 8 8 2
@@ -160,18 +160,20 @@ Destination: 66773
 Destination: 66774
 Destination: 66775
 Str: 14
+Dex: 13
 Int: 7
 Wis: 7
-Dex: 13
 Con: 8
 Cha: 7
+Size: 55
 LikeWork: 20
 MaxFactor: 3
 ExtraAttack: 2
 Class: 103
-Size: 55
+Race: 106
 Height: 45
 Weight: 80
+Special_Bitvector: 0 
 Skill: 132 25
 Skill: 136 35
 E
@@ -189,7 +191,7 @@ E
 облезлая. Мощные лапы с большими когтями делают его быстрым, чего не 
 скажешь с первого взгляда. Любитель всяких сладостей.
 ~
-g0e1l1m1n1 0 -600 E
+d0g0e1l1m1n1 0 -600 E
 17 11 6 22d29+16 5d6+4
 0d0+0 16000
 8 8 1
@@ -197,16 +199,17 @@ BareHandAttack: 1
 Str: 14
 Int: 8
 Wis: 7
-Dex: 11
 Con: 8
 Cha: 7
+Size: 65
 LikeWork: 15
 MaxFactor: 4
 ExtraAttack: 1
 Class: 103
-Size: 65
+Race: 104
 Height: 150
 Weight: 100
+Special_Bitvector: 0 
 Skill: 4 30
 Skill: 135 45
 E
@@ -223,24 +226,26 @@ E
 За лето отъевшийся медведь переживает зиму в своей уютной берлоге. На шкуре 
 вы видите несколько следов от чье-то зубастой пасти.
 ~
-b0g0l0k1 k0 0 E
+b0d0g0l0k1 k0 0 E
 18 11 2 25d35+35 4d10+4
 0d0+0 22000
 4 4 1
 BareHandAttack: 1
 Str: 15
+Dex: 8
 Int: 8
 Wis: 8
-Dex: 8
 Con: 8
 Cha: 8
+Size: 70
 LikeWork: 20
 MaxFactor: 3
 ExtraAttack: 1
 Class: 103
-Size: 70
+Race: 104
 Height: 180
 Weight: 130
+Special_Bitvector: 0 
 Skill: 4 40
 Skill: 136 45
 E
@@ -257,24 +262,26 @@ E
 Покрытый грязной шерстью кабан изрыл своей мордой всю листву. На его спине вы 
 заметили несколько полос белого цвета. Из морды торчит пара длинных клыков.
 ~
-g0 0 0 E
+d0g0 0 0 E
 12 14 4 20d27+15 4d7+3
 0d0+0 10000
 8 8 1
 BareHandAttack: 14
 Str: 13
+Dex: 10
 Int: 3
 Wis: 3
-Dex: 10
 Con: 3
 Cha: 3
+Size: 60
 LikeWork: 15
 MaxFactor: 5
 ExtraAttack: 1
 Class: 103
-Size: 60
+Race: 104
 Height: 70
 Weight: 75
+Special_Bitvector: 0 
 Skill: 5 15
 Skill: 136 40
 E
@@ -292,24 +299,25 @@ T 66702
 Довольно длинный зверек с пушистым хвостом. Ценная шкура, вкусное мясо и
 жир делают его охотной добычей любого охотника.
 ~
-g0q0 r0 0 E
+d0g0q0 r0 0 E
 13 2 2 20d20+5 5d5+4
 0d0+0 10000
 8 8 1
 BareHandAttack: 4
 Str: 10
+Dex: 12
 Int: 3
 Wis: 3
-Dex: 12
 Con: 5
 Cha: 3
-LikeWork: 0
+Size: 47
 MaxFactor: 4
 ExtraAttack: 1
 Class: 103
-Size: 47
+Race: 104
 Height: 56
 Weight: 45
+Special_Bitvector: 0 
 Skill: 136 25
 E
 #66709
@@ -325,27 +333,29 @@ E
 Хитрая лисица размахивает своим хвостом. Отличная шкура пригодна для 
 изготовления одежды.
 ~
-g0 0 0 E
+d0g0 0 0 E
 14 13 4 20d22+7 4d7+4
 0d0+0 12000
 8 8 2
 BareHandAttack: 1
 Str: 12
+Dex: 9
 Int: 3
 Wis: 3
-Dex: 9
 Con: 8
 Cha: 3
+Size: 55
 LikeWork: 15
 MaxFactor: 5
 ExtraAttack: 1
 Class: 103
-Size: 55
+Race: 104
 Height: 70
 Weight: 70
-Spell: 1
+Special_Bitvector: 0 
 Skill: 136 30
 Skill: 160 25
+Spell: 1
 E
 T 66701
 #66710
@@ -360,25 +370,25 @@ T 66701
 ~
 Небольшая птица черного цвета.
 ~
-b0g0b1 x0 -600 E
+b0d0g0b1 x0 -600 E
 9 16 4 10d35+5 3d7+3
 0d0+0 4000
 8 8 2
 BareHandAttack: 12
 Str: 10
+Dex: 10
 Int: 3
 Wis: 3
-Dex: 10
 Con: 3
 Cha: 3
+Size: 25
 LikeWork: 20
 MaxFactor: 4
-ExtraAttack: 0
 Class: 103
-Size: 25
+Race: 103
 Height: 40
 Weight: 25
-Special_Bitvector: a1
+Special_Bitvector: a1 
 Skill: 136 20
 Skill: 139 30
 E
@@ -395,25 +405,25 @@ E
 Младший из трех братьев лиходеев. В его руках вы видите хорошо заточенный 
 нож. А из его шапки торчит перо какой-то птицы.
 ~
-b0g0y0 k0 -600 E
+b0d0g0y0 k0 -600 E
 15 13 3 20d35+25 5d6+4
 10d9+5 12500
 8 8 1
-BareHandAttack: 0
 Str: 12
+Dex: 10
 Int: 4
 Wis: 4
-Dex: 10
 Con: 6
 Cha: 4
+Size: 55
 LikeWork: 15
 MaxFactor: 2
 ExtraAttack: 1
 Class: 102
-Size: 55
+Race: 101
 Height: 180
 Weight: 160
-Special_Bitvector: a0b0
+Special_Bitvector: a0b0 
 Skill: 136 40
 Skill: 150 25
 E
@@ -430,25 +440,24 @@ E
 Средний из братьев лиходеев. В его рука виднеется длинный меч. Вы приметили
 что на его левой щеке есть небольшой шрам.
 ~
-b0g0 d0k0 -600 E
+b0d0g0 d0k0 -600 E
 19 12 2 25d28+30 5d8+3
 10d15+0 16000
 8 8 1
-BareHandAttack: 0
 Str: 15
+Dex: 9
 Int: 3
 Wis: 3
-Dex: 9
 Con: 9
 Cha: 3
+Size: 60
 LikeWork: 15
 MaxFactor: 2
-ExtraAttack: 0
 Class: 102
-Size: 60
+Race: 101
 Height: 190
 Weight: 180
-Special_Bitvector: b0c0d0
+Special_Bitvector: b0c0d0 
 Skill: 136 50
 Skill: 160 25
 E
@@ -464,31 +473,30 @@ E
 ~
 Старший из братьев лиходеев, он же и является главарем их шайки.
 ~
-b0f0g0 c0d0k0 -600 E
+b0d0f0g0 c0d0k0 -600 E
 20 11 1 25d35+15 5d9+5
 20d10+0 26000
 8 8 1
-BareHandAttack: 0
 Str: 15
 Int: 3
 Wis: 3
-Dex: 11
 Con: 3
 Cha: 3
+Size: 65
 LikeWork: 15
 MaxFactor: 2
 ExtraAttack: 1
 Class: 102
-Size: 65
+Race: 101
 Height: 200
 Weight: 190
-Special_Bitvector: b0
-Spell: 3
-Spell: 15
-Spell: 15
+Special_Bitvector: b0 
 Skill: 132 20
 Skill: 136 60
 Skill: 150 20
+Spell: 3
+Spell: 15
+Spell: 15
 E
 T 66704
 #66714
@@ -503,25 +511,25 @@ T 66704
 ~
 Средних размеров птица, полностью черная и с большим клювом.
 ~
-g0h0b1 x0 0 E
+d0g0h0b1 x0 0 E
 9 17 4 10d24+15 3d6+3
 0d0+0 6000
 8 8 1
 BareHandAttack: 12
 Str: 10
+Dex: 8
 Int: 4
 Wis: 4
-Dex: 8
 Con: 4
 Cha: 4
-LikeWork: 0
+Size: 35
 MaxFactor: 4
 ExtraAttack: 1
 Class: 103
-Size: 35
+Race: 104
 Height: 55
 Weight: 46
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 20
 E
 #66715
@@ -536,24 +544,25 @@ E
 ~
 Крошечный грызун с длинным хвостом.
 ~
-g0l1m1n1 0 0 E
+d0g0l1m1n1 0 0 E
 5 12 7 10d20+5 3d4+2
 0d0+0 2500
 8 8 2
 BareHandAttack: 4
 Str: 8
+Dex: 7
 Int: 5
 Wis: 6
-Dex: 7
 Con: 3
 Cha: 3
-LikeWork: 0
+Size: 25
 MaxFactor: 6
 ExtraAttack: 1
 Class: 103
-Size: 25
+Race: 104
 Height: 20
 Weight: 30
+Special_Bitvector: 0 
 Skill: 136 15
 E
 #66716
@@ -568,28 +577,29 @@ E
 ~
 Около полутора метра в высоту животное пасется тут.
 ~
-g0y0 d0 0 E
+d0g0y0 d0 0 E
 17 12 3 20d40+25 6d6+3
 10d15+10 18000
 8 8 1
 BareHandAttack: 6
 Str: 13
+Dex: 12
 Int: 3
 Wis: 3
-Dex: 12
 Con: 3
 Cha: 3
+Size: 60
 LikeWork: 30
 MaxFactor: 4
 ExtraAttack: 1
 Class: 103
-Size: 60
+Race: 104
 Height: 67
 Weight: 100
-Special_Bitvector: p0
-Spell: 27
+Special_Bitvector: p0 
 Skill: 4 30
 Skill: 136 45
+Spell: 27
 E
 #66717
 рысь~
@@ -603,7 +613,7 @@ E
 ~
 Хищник обитающий в этих лесах.
 ~
-g0j0n0q0 c0f0k0z0m1 -600 E
+d0g0j0n0q0 c0f0k0z0m1 -600 E
 17 12 3 20d35+25 5d7+3
 0d0+0 21000
 8 8 2
@@ -611,17 +621,17 @@ BareHandAttack: 1
 Str: 13
 Int: 7
 Wis: 12
-Dex: 11
 Con: 8
 Cha: 6
+Size: 65
 LikeWork: 20
 MaxFactor: 3
 ExtraAttack: 2
 Class: 103
-Size: 65
+Race: 104
 Height: 57
 Weight: 90
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Spell: 30
 Spell: 30
 E
@@ -638,25 +648,26 @@ T 66703
 ~
 Небольших размеров насекомое, покрытое мохнатыми щитинками.
 ~
-g0m0r0y0 d0m1 0 E
+d0g0m0r0y0 d0m1 0 E
 10 14 3 18d20+10 3d6+3
 0d0+0 10000
 8 8 1
 BareHandAttack: 4
 Str: 12
+Dex: 12
 Int: 6
 Wis: 8
-Dex: 12
 Con: 7
 Cha: 9
+Size: 45
 LikeWork: 45
 MaxFactor: 3
 ExtraAttack: 1
 Class: 103
-Size: 45
+Race: 107
 Height: 45
 Weight: 69
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 1 50
 Skill: 136 35
 Skill: 151 25
@@ -673,25 +684,16 @@ E
 ~
 Неопытный охотник.
 ~
-b0g0 c0d0e0f0k0 600 E
+b0d0g0 c0d0e0f0k0 600 E
 10 0 0 20d20+10 6d6+6
 0d0+0 1
 8 8 1
-BareHandAttack: 0
-Str: 11
-Int: 11
-Wis: 11
-Dex: 11
-Con: 11
-Cha: 11
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 60
+Class: 102
+Race: 101
 Height: 160
 Weight: 100
-Special_Bitvector: p0
+Special_Bitvector: p0 
 E
 T 66700
 T 66707
@@ -707,27 +709,17 @@ T 66707
 ~
 Житель странствующий по миру.
 ~
-b0g0y0 c0d0e0f0k0 600 E
+b0d0g0y0 c0d0e0f0k0 600 E
 10 6 0 20d20+20 5d6+4
 0d0+0 1
 8 8 1
-BareHandAttack: 0
-Str: 11
-Int: 11
-Wis: 11
-Dex: 11
-Con: 11
-Cha: 11
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
-Height: 667
+Class: 102
+Race: 101
+Height: 200
 Weight: 120
-Special_Bitvector: p0b1c1d1
+Special_Bitvector: p0b1c1d1 
 E
 T 66705
 T 66706
-$
 $

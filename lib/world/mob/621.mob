@@ -15,7 +15,7 @@
 b0d0f0g0n0o0p0r0t0u0x0y0g2i2 d0f0k0 0 E
 25 20 0 10d10+10000 1d1+0
 0d0+0 10000
-8 8 0
+8 8 1
 Str: 15
 Dex: 30
 Int: 15
@@ -24,6 +24,7 @@ Con: 15
 Cha: 15
 Size: 100
 Class: 100
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -56,6 +57,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 80
 Special_Bitvector: 0 
@@ -89,6 +91,7 @@ Size: 50
 LikeWork: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 120
 Weight: 40
 Special_Bitvector: 0 
@@ -121,6 +124,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 70
 Special_Bitvector: y0b1c1 
@@ -160,6 +164,7 @@ Size: 100
 LikeWork: 55
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 190
 Weight: 100
 Special_Bitvector: b1c1 
@@ -196,6 +201,7 @@ Cha: 10
 Size: 100
 LikeWork: 99
 Class: 103
+Race: 104
 Height: 175
 Weight: 200
 Special_Bitvector: d3 
@@ -228,12 +234,12 @@ Cha: 10
 Size: 100
 LikeWork: 100
 Class: 103
+Race: 104
 Height: 175
 Weight: 200
 Special_Bitvector: d3 
 Skill: 136 100
 E
-I кости,10:2
 #62107
 лошадь~
 лошадь~
@@ -261,13 +267,13 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 175
 Weight: 200
 Special_Bitvector: 0 
 Skill: 132 140
 Skill: 136 30
 E
-I копыта,15:2
 #62108
 марбендилл тролль чудовище существо~
 марбендилл~
@@ -298,6 +304,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 114
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
@@ -356,6 +363,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 190
 Weight: 100
 Special_Bitvector: c1B3 
@@ -404,6 +412,7 @@ Con: 20
 Cha: 20
 Size: 100
 Class: 100
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -436,6 +445,7 @@ Con: 20
 Cha: 20
 Size: 100
 Class: 100
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -470,6 +480,7 @@ Con: 20
 Cha: 20
 Size: 100
 Class: 100
+Race: 109
 Height: 200
 Weight: 200
 Special_Bitvector: 0 
@@ -505,6 +516,7 @@ Size: 75
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 114
 Height: 120
 Weight: 80
 Special_Bitvector: B3 
@@ -547,6 +559,7 @@ Cha: 14
 Size: 45
 LikeWork: 30
 Class: 103
+Race: 114
 Height: 85
 Weight: 55
 Special_Bitvector: 0 
@@ -586,6 +599,7 @@ Size: 95
 LikeWork: 50
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 200
 Weight: 110
 Special_Bitvector: b1c1B3 

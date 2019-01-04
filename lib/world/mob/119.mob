@@ -23,6 +23,7 @@ LikeWork: 20
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: m3 
@@ -58,6 +59,7 @@ LikeWork: 15
 MaxFactor: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -93,6 +95,7 @@ LikeWork: 10
 MaxFactor: 50
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -124,6 +127,7 @@ Size: 100
 LikeWork: 15
 MaxFactor: 5
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -179,6 +183,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -214,6 +219,7 @@ LikeWork: 50
 MaxFactor: 25
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

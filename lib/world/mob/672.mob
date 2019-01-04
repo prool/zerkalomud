@@ -13,7 +13,7 @@
 плотоядно глядят в Вашу сторону.
 ~
 d0f0g0o0p0q0r0u0 d0k0m0n0C0q1 -600 E
-27 0 0 20d10+1000 6d4+7
+29 0 0 20d10+1000 6d4+7
 10d10+0 200000
 8 8 2
 BareHandAttack: 4
@@ -27,6 +27,7 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 105
 Height: 198
 Weight: 120
 Special_Bitvector: g0m0 
@@ -53,7 +54,7 @@ I чешуя:2
 этого человека. Глубоко посаженные голубые глаза
 наполнены слезами. 
 ~
-b0d0g0l0B0 d0f0k0m0 600 E
+b0d0g0B0 d0f0k0m0 600 E
 10 0 0 1d1+1 3d3+3
 0d0+0 0
 6 6 1
@@ -63,6 +64,7 @@ Wis: 30
 Size: 90
 ExtraAttack: 10
 Class: 102
+Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
@@ -87,7 +89,7 @@ T 67224
 попавшего в плен к неведомым ворогам и замученного ими.
 ~
 b0d0f0g0q0r0z0A0b1i1 d0k0b1 -600 E
-23 0 0 1d1+1000 5d5+3
+28 0 0 1d1+1000 5d5+3
 20d20+0 150000
 8 8 1
 Str: 23
@@ -100,6 +102,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 198
 Weight: 70
 Special_Bitvector: a0c0p0u0b1c1 
@@ -124,7 +127,7 @@ E
 когтями и огромной пастью.
 ~
 d0f0g0o0q0t0x0 f0k0m1p1 -600 E
-28 0 0 30d20+1000 6d4+5
+30 0 0 30d20+1000 6d4+5
 0d0+0 300000
 8 8 2
 BareHandAttack: 4
@@ -138,6 +141,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 103
+Race: 104
 Height: 198
 Weight: 130
 Special_Bitvector: p0 
@@ -151,7 +155,6 @@ Spell: 75
 Spell: 75
 Spell: 75
 E
-T 67208
 I шерсть:2
 I когти:2
 #67204
@@ -172,9 +175,10 @@ I когти:2
 змея этого, не повторить подвига Добрынюшкиного.
 ~
 b0d0e0g0m0n0o0p0r0t0u0 d0e0f0k0n0C0m1p1 -600 E
-35 0 -8 1d1+5000 8d8+8
+38 0 -8 1d1+5000 8d8+8
 10d10+1000 1500000
 6 6 1
+Saves: -38 -38 -38 -38
 BareHandAttack: 2
 Str: 30
 Dex: 20
@@ -186,6 +190,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 105
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -229,9 +234,10 @@ I крылья:1
 никуда.
 ~
 b0d0g0t0 d0k0 0 E
-29 0 0 1d1+5500 9d9+14
+31 0 0 1d1+5500 9d9+14
 0d0+0 390000
 8 8 1
+Saves: -10 -10 -10 -10
 Str: 32
 Dex: 7
 Int: 36
@@ -242,6 +248,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: c0 
@@ -304,6 +311,7 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 200
 Weight: 120
 Special_Bitvector: n0 
@@ -320,7 +328,6 @@ Spell: 75
 Spell: 83
 E
 T 67209
-I кости:2
 #67207
 львица~
 львица~
@@ -335,7 +342,7 @@ I кости:2
 когтями и огромной пастью.
 ~
 b0d0f0g0o0q0t0x0 d0f0k0m1p1 -600 E
-28 0 0 1d1+1100 6d4+2
+30 0 0 1d1+1100 6d4+2
 0d0+0 300000
 5 5 2
 BareHandAttack: 4
@@ -349,6 +356,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 103
+Race: 104
 Height: 198
 Weight: 130
 Special_Bitvector: p0 
@@ -379,9 +387,10 @@ T 67208
 ее будет очень тяжело.
 ~
 b0d0e0g0l0n0p0q0r0t0u0x0 d0k0 0 E
-30 0 -10 1d1+3500 10d15+6
-0d0+0 500000
+32 0 -10 1d1+3500 10d15+6
+0d10+0 500000
 6 6 1
+Saves: -14 -14 -14 -14
 BareHandAttack: 15
 Str: 32
 Dex: 18
@@ -393,6 +402,7 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -405,6 +415,7 @@ Spell: 68
 E
 T 67210
 T 67212
+T 67228
 #67209
 черная царица змей~
 черная царица змей~
@@ -420,9 +431,10 @@ T 67212
 злобой и ненавистью ко всему живому.
 ~
 b0d0f0g0n0q0t0u0 d0f0k0m0n0p0C0m1 -600 E
-33 0 -2 1d1+3000 7d5+15
+31 0 -2 1d1+3000 7d5+15
 20d10+1000 400000
 6 6 2
+Saves: -10 -10 -10 -10
 BareHandAttack: 4
 Str: 32
 Dex: 27
@@ -434,6 +446,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 198
 Weight: 90
 Special_Bitvector: h0 
@@ -469,9 +482,10 @@ T 67215
 злобой и ненавистью ко всему живому.
 ~
 b0c0d0f0g0p0q0r0t0u0x0 d0f0k0m0n0r0m1 -600 E
-33 0 -3 1d1+3500 6d6+5
+32 0 -3 1d1+3500 6d6+5
 30d20+1000 450000
 8 8 2
+Saves: -14 -14 -14 -14
 BareHandAttack: 4
 Str: 33
 Dex: 27
@@ -483,6 +497,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 105
 Height: 198
 Weight: 90
 Special_Bitvector: g0 
@@ -511,13 +526,13 @@ T 67214
 звере диковинного~
 Зверь диковинный сладко спит тут.
 ~
-Невиданный зверь с длинными рогами 
-и хвостом в районе попы.
+Невиданный зверь с длинными рогами и хвостом.
 ~
 b0d0g0 d0k0 0 E
-29 0 0 1d1+5500 9d9+14
+31 0 0 1d1+5500 9d9+14
 0d0+0 390000
 4 4 1
+Saves: -10 -10 -10 -10
 Str: 32
 Dex: 7
 Int: 36
@@ -528,6 +543,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -586,6 +602,7 @@ Size: 10
 LikeWork: 13
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
@@ -625,6 +642,7 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 198
 Weight: 120
 Special_Bitvector: n0 
@@ -656,7 +674,7 @@ E
 взглядом.
 ~
 b0d0g0m0n0o0p0 0 0 E
-30 0 0 5d5+600 5d5+5
+27 0 0 5d5+600 5d5+5
 0d0+0 120000
 6 6 1
 BareHandAttack: 2
@@ -670,6 +688,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 103
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -692,7 +711,7 @@ E
 взглядом.
 ~
 b0d0g0m0n0o0p0 0 0 E
-30 0 0 5d5+600 5d5+5
+27 0 0 5d5+600 5d5+5
 0d0+0 120000
 6 6 1
 BareHandAttack: 2
@@ -706,6 +725,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: 0 

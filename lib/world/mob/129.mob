@@ -20,6 +20,7 @@ b0d0g0 d0f0k0 600 E
 BareHandAttack: 5
 Size: 38
 Class: 100
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -49,6 +50,7 @@ b0d0g0 0 0 E
 BareHandAttack: 1
 Size: 35
 Class: 100
+Race: 112
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -79,6 +81,7 @@ BareHandAttack: 10
 Size: 40
 ExtraAttack: 1
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -106,6 +109,7 @@ b0d0g0z0b1 d0f0k0x0 0 E
 BareHandAttack: 3
 Size: 35
 Class: 100
+Race: 109
 Height: 198
 Weight: 10
 Special_Bitvector: a0b0 
@@ -132,6 +136,7 @@ b0d0g0z0 d0f0k0 0 E
 BareHandAttack: 3
 Size: 35
 Class: 100
+Race: 109
 Height: 198
 Weight: 10
 Special_Bitvector: a0b0 
@@ -158,6 +163,7 @@ b0d0g0 k0 600 E
 BareHandAttack: 13
 Size: 36
 Class: 100
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -185,6 +191,7 @@ b0d0f0g0 k0 -600 E
 BareHandAttack: 4
 Size: 38
 Class: 100
+Race: 114
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -211,6 +218,7 @@ d0g0 0 -600 E
 8 8 2
 Size: 35
 Class: 100
+Race: 103
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
@@ -238,6 +246,7 @@ b0d0g0 0 0 E
 8 6 2
 Size: 36
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -265,6 +274,7 @@ d0g0 0 0 E
 8 8 1
 Size: 36
 Class: 100
+Race: 112
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

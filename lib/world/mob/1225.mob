@@ -10,32 +10,30 @@
 ~
 Вы видите хмурого печенежского воина.
 ~
-l0A0x0r2c0s2 C0 -600 E
-20 -1 +5 10d10+500 5d5+10 
+c0d0l0x0A0r2s2 C0 -600 E
+20 -1 5 10d10+500 5d5+10
 5d5+0 30000
 8 8 1
 CastSuccess: 40
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 22
-Int: 11
-Wis: 11
 Dex: 19
 Con: 22
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 50
+Race: 104
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Skill: 142 40
-Skill: 137 10
+Special_Bitvector: b1c1 
 Skill: 22 25
 Skill: 136 80
-Skill: 151 30
+Skill: 137 10
+Skill: 142 40
 Skill: 150 10
+Skill: 151 30
 E
 T 122501
 I глаза,3:5
@@ -54,30 +52,30 @@ I кожа,5:4
 ~
 Вы видите старого татарского охотника.
 ~
-l0A0r2c0s2 h0 -600 E
-24 -3 +8 10d10+300 5d5+10 
+c0d0l0A0r2s2 h0 -600 E
+24 -3 8 10d10+300 5d5+10
 3d2+0 45000
 8 8 1
 CastSuccess: 48
-BareHandAttack:  9
+BareHandAttack: 9
 Str: 19
+Dex: 16
 Int: 14
 Wis: 15
-Dex: 16
 Con: 18
 Cha: 12
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 150
-Special_Bitvector: b1c1
-Skill: 155 60
+Special_Bitvector: b1c1 
 Skill: 7 55
-Skill: 154 60
 Skill: 136 115
+Skill: 154 60
+Skill: 155 60
 Skill: 157 55
 E
 T 122501
@@ -97,38 +95,37 @@ I кожа,1:1
 ~
 Вы видите опытного хазарского темника.
 ~
-l0A0r2c0s2m0 m1 -600 E
-27 0 1 10d10+800 6d6+20 
+c0d0l0m0A0r2s2 m1 -600 E
+27 0 1 10d10+800 6d6+20
 2d2+0 80000
 8 8 1
 CastSuccess: 54
-BareHandAttack:  0
 Str: 27
+Dex: 15
 Int: 19
 Wis: 25
-Dex: 15
 Con: 23
 Cha: 13
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 50
+Race: 101
 Height: 170
 Weight: 190
-Special_Bitvector: b1c1
-Spell: 39 4
-Spell: 28 3
-Spell: 3 4
-Spell: 17 4
-Spell: 48 3
-Spell: 1 4
-Skill: 134 70
-Skill: 143 90
-Skill: 137 75
+Special_Bitvector: b1c1 
 Skill: 1 60
-Skill: 136 100
 Skill: 132 65
+Skill: 134 70
+Skill: 136 100
+Skill: 137 75
+Skill: 143 90
+Spell: 1
+Spell: 3
+Spell: 17
+Spell: 28
+Spell: 39
+Spell: 48
 E
 T 122501
 I глаза,1:1
@@ -147,31 +144,30 @@ I кожа,2:2
 ~
 Вы видите молодого печенежского десятника.
 ~
-l0A0r2c0s2 0 -600 E
-20 0 +7 10d10+400 6d5+15 
+c0d0l0A0r2s2 0 -600 E
+20 0 7 10d10+400 6d5+15
 2d2+0 30000
 8 8 1
 CastSuccess: 40
-BareHandAttack:  0
 Str: 20
+Dex: 15
 Int: 16
 Wis: 18
-Dex: 15
 Con: 20
 Cha: 12
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 50
+Race: 101
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Skill: 134 10
-Skill: 143 30
-Skill: 137 20
-Skill: 136 60
+Special_Bitvector: b1c1 
 Skill: 132 10
+Skill: 134 10
+Skill: 136 60
+Skill: 137 20
+Skill: 143 30
 E
 T 122501
 I глаза,4:5
@@ -189,25 +185,23 @@ I кожа,3:3
 Степной олень осторожно смотрит на Вас.
 ~
 Вы видите степного оленя.~
-h0 0 -600 E
-9 12 +8 1d10+90 4d4+4 
+d0h0 0 -600 E
+9 12 8 1d10+90 4d4+4
 0d0+0 7000
 8 8 1
 BareHandAttack: 13
-Str: 11
+Dex: 13
 Int: 6
 Wis: 6
-Dex: 13
 Con: 12
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 35
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 45
 Weight: 40
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,2:6
@@ -226,25 +220,24 @@ I кожа,3:7
 Степная мышь высунулась из норки.
 ~
 Вы видите степную мышь.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,4:9
@@ -263,25 +256,24 @@ I когти,4:8
 Степная мышь высунулась из норки.
 ~
 Вы видите степную мышь.~
-h0 0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,5:7
@@ -300,25 +292,24 @@ I когти,5:9
 Степной щитомордник ползет куда-то.
 ~
 Вы видите степного щитомордника.~
-t1l1q0m1h0 0 -600 E
-3 9 +9 1d10+30 3d3+0 
+d0h0q0l1m1t1 0 -600 E
+3 9 9 1d10+30 3d3+0
 0d0+0 100
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 5
+Dex: 6
 Int: 6
 Wis: 6
-Dex: 6
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: m0
+Special_Bitvector: m0 
 Skill: 136 60
 E
 I глаза,3:6
@@ -336,25 +327,24 @@ I кожа,3:8
 Степной заяц убегает вдаль.
 ~
 Вы видите степного зайца.~
-h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,2:5
@@ -373,29 +363,27 @@ I когти,2:6
 Перепел летит тут.
 ~
 Вы видите перепела.~
-h0 x0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0 x0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
 BareHandAttack: 15
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 25
 Weight: 20
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,1:9
 I кости,1:6
 I крылья,4:9
-$
 $

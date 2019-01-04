@@ -126,6 +126,7 @@ if (%actor.name% == %quest.name%)
   wait  2s
   attach 67107 %self.id%
   detach 67106 %self.id%
+end
 ~
 #67107
 Пришли к знахарю опять~
@@ -211,6 +212,13 @@ switch %random.20%
     %self.gold(3000)%
     дать 3000 кун %actor.name%
   done
+  if ((%random.1000% < 50) && (%world.curobjs(3317)% < 1))
+    mload obj 3317
+    дать все %actor.name%
+  elseif ((%random.1000% < 30) && (%world.curobjs(3329)% < 1))
+    mload obj 3329
+    дать все %actor.name%
+  end
   detach 67108 %self.id%
 ~
 #67109
@@ -255,7 +263,7 @@ wdamage %actor.name% 2000
 if %random.15% == 1
   wait 1
   wsend %actor.name% Вдруг какая то ветка ткнула вас прямо в глаз!
-  wechoaround %actor% %actor.name% наткнулся глазом на ветку!
+  wechoaround %actor% Острая ветка ткнула %actor.rname% прямо в глаз!
   wdamage %actor.name% 100
 end
 ~

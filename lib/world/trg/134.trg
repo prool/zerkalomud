@@ -208,7 +208,7 @@ elseif %actor.clan% == вз
   mload obj 13413
   mload obj 13414
   mload obj 13415
-  mload obj 13425
+  * mload obj 13425
   mload obj 139
   полож все баул
   say Вот твое добро.

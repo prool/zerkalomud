@@ -617,15 +617,11 @@ end
 Завалили шамана~
 0 f 100
 ~
-if (%world.curobjs(61503)% < 8)
-  if (%random.100% < 31)
-    mload obj 61503
-  end
+if ((%world.curobjs(61503)% < %world.maxobj(61503)%) && (%random.100% < 31))
+  mload obj 61503
 end
-if (%world.curobjs(61504)% < 4)
-  if (%random.100% < 16)
-    mload obj 61504
-  end
+if ((%world.curobjs(61504)% < %world.maxobj(61504)%) && (%random.100% < 16))
+  mload obj 61504
 end
 ~
 #61528
@@ -649,7 +645,7 @@ end
 1 j 100
 ~
 if (%actor.vnum% != -1)
-  eval actorname %actor.name%
+  eval actorname %actor.alias%
   %force% %actorname.car% нет
   %force% %actorname.car% say Не буду я энту дрянь надевать! Еще заразу подцеплю...
   %force% %actorname.car% морщ

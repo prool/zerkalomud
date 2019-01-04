@@ -21,6 +21,7 @@ Size: 55
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 120
 Special_Bitvector: y0 
@@ -55,6 +56,7 @@ Cha: 16
 Size: 55
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 150
 Special_Bitvector: y0 
@@ -86,6 +88,7 @@ Size: 70
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 190
 Weight: 150
 Special_Bitvector: y0 
@@ -118,6 +121,7 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 100
 Special_Bitvector: y0b1c1 
@@ -152,6 +156,7 @@ Size: 60
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: y0b1c1C3 
@@ -191,6 +196,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 80
 Special_Bitvector: i0a1 
@@ -219,6 +225,7 @@ c0d0g0 0 -600 E
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 100
 Special_Bitvector: y0 
@@ -249,6 +256,7 @@ Cha: 18
 Size: 60
 ExtraAttack: 2
 Class: 104
+Race: 104
 Height: 30
 Weight: 50
 Special_Bitvector: C3 
@@ -298,6 +306,7 @@ b0d0g0o1 d0f0k0 0 E
 8 8 1
 Size: 50
 Class: 105
+Race: 105
 Height: 30
 Weight: 80
 Special_Bitvector: i3 
@@ -329,6 +338,7 @@ Cha: 13
 Size: 60
 ExtraAttack: 3
 Class: 105
+Race: 101
 Height: 30
 Weight: 100
 Special_Bitvector: 0 
@@ -378,6 +388,7 @@ Cha: 25
 Size: 55
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 30
 Weight: 80
 Special_Bitvector: b1c1 
@@ -414,6 +425,7 @@ b0d0g0B0o1 d0f0k0 0 E
 8 8 1
 Size: 31
 Class: 102
+Race: 101
 Height: 30
 Weight: 80
 Special_Bitvector: i3 
@@ -437,6 +449,7 @@ d0g0 0 -600 E
 8 8 1
 Size: 50
 Class: 102
+Race: 101
 Height: 30
 Weight: 120
 Special_Bitvector: y0 
@@ -460,6 +473,7 @@ b0d0g0x0B0o1 d0f0k0 0 E
 8 8 1
 Size: 31
 Class: 102
+Race: 101
 Height: 30
 Weight: 80
 Special_Bitvector: i3 
@@ -483,6 +497,7 @@ b0d0g0B0o1 d0f0k0 0 E
 8 8 1
 Size: 31
 Class: 102
+Race: 101
 Height: 30
 Weight: 50
 Special_Bitvector: i3 
@@ -506,6 +521,7 @@ b0d0g0B0o1 d0f0k0 0 E
 8 8 1
 Size: 31
 Class: 102
+Race: 101
 Height: 30
 Weight: 100
 Special_Bitvector: i3 
@@ -523,12 +539,13 @@ E
 ~
 Только ночлег, за куны, не более.
 ~
-b0d0g0B0o1 d0f0k0 0 E
+b0d0g0n0B0o1u2 d0f0k0 0 E
 1 20 10 5d3+5 1d3+0
 0d0+0 30
 8 8 1
 Size: 31
 Class: 102
+Race: 101
 Height: 30
 Weight: 100
 Special_Bitvector: i3 
@@ -562,6 +579,7 @@ Size: 100
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -597,6 +615,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -630,6 +649,7 @@ Cha: 20
 Size: 100
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -656,7 +676,7 @@ E
 ~
 А в глазах его отражаются Небесная синь и Мудрость.
 ~
-b0d0l0A0o1 d0f0m0r0t1 600 E
+b0d0l0A0 d0f0m0r0t1 600 E
 30 2 -3 50d3+4000 7d6+8
 0d0+0 1
 8 8 1
@@ -669,6 +689,7 @@ Cha: 13
 Size: 60
 ExtraAttack: 3
 Class: 105
+Race: 101
 Height: 30
 Weight: 100
 Special_Bitvector: 0 
@@ -720,6 +741,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -754,6 +776,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -782,9 +805,10 @@ b0d0o1f2j2 d0f0k0n1 0 E
 0d0+0 0
 8 8 2
 Str: 30
-Dex: 1
+Dex: 3
 Size: 30
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

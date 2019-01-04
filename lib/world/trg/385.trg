@@ -32,6 +32,12 @@ wait 1s
 if !%world.curmobs(38511)%
   oecho _Комнату заполнил светлый дымок и тут же рассеялся.
   oload mob 38522
+  calcuid mouse 38522 mob
+  global mouse
+  calcuid human 38521 mob
+  if %human%
+    remote mouse %human.id%
+  end
 else
   oecho _Комнату заполнил темный дымок и тут же рассеялся.
   oload mob 38510
@@ -327,6 +333,10 @@ end
 лоад мил человека~
 0 n 100
 ~
+if %world.curmobs(38522)%
+  calcuid mouse 38522 mob
+  global mouse
+end
 wait 1s
 пла
 say Спасибо за освобождение! Но сердце мое не спокойно....
@@ -380,6 +390,7 @@ if ((%self.realroom% != 38547) || !%world.curmobs(38522)%)
   return 0
   halt
 end
+detach 38522 %mouse.id%
 wait 1s
 mecho _Мил человек задумался, взглянул на мышку.
 mecho _На его лице проскользнула тень сомнения...

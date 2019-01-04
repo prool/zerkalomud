@@ -8,12 +8,13 @@
 летучем змее~
 Большой змей летает тут.
 ~
-undefined
+Большой летучий змей с серыми кожистыми крыльями.
 ~
 c0d0f0g0m0n0o0p0t0A0b1r1 d0f0k0q1 -600 E
-37 -9 -10 20d30+3200 25d9+10
+36 -9 -10 20d30+3200 25d9+10
 50d100+3000 950000
 8 8 1
+Saves: -30 -30 -30 -30
 BareHandAttack: 1
 Str: 25
 Dex: 25
@@ -25,6 +26,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: j0l0v0 
@@ -79,11 +81,13 @@ I крылья,15:7
 сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Серый непримечательный змей
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
 34 0 -10 0d0+3000 20d9+5
 0d0+0 680000
 8 8 1
+Saves: -22 -22 -22 -22
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -94,6 +98,7 @@ Cha: 5
 Size: 50
 LikeWork: 100
 Class: 105
+Race: 105
 Height: 30
 Weight: 100
 Special_Bitvector: m0 
@@ -113,11 +118,13 @@ I чешуя,15:7
 двухголовом сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Серый змей о двух головах.
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-35 0 -10 0d0+5500 20d9+5
+36 0 -10 0d0+5500 20d9+5
 0d0+0 1100000
 8 8 1
+Saves: -30 -30 -30 -30
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -129,6 +136,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: m0q1 
@@ -147,11 +155,13 @@ T 92103
 сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Серый непримечательный змей.
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-34 0 -10 0d0+3000 20d9+5
+36 0 -10 0d0+3000 20d9+5
 0d0+0 1100000
 8 8 1
+Saves: -30 -30 -30 -30
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -162,6 +172,7 @@ Cha: 5
 Size: 50
 LikeWork: 100
 Class: 105
+Race: 105
 Height: 30
 Weight: 100
 Special_Bitvector: m0 
@@ -181,11 +192,13 @@ I когти,15:7
 трехголовом сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+undefinedБольшой змей о трех головах.
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-36 0 -10 0d0+8000 20d9+5
+38 0 -10 0d0+8000 20d9+5
 0d0+0 1600000
 8 8 1
+Saves: -38 -38 -38 -38
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -197,6 +210,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: m0q1 
@@ -215,11 +229,13 @@ T 92105
 двухголовом сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Большой серый змей о двух головах.
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-35 0 -10 0d0+5500 20d9+5
+38 0 -10 0d0+5500 20d9+5
 0d0+0 1600000
 8 8 1
+Saves: -38 -38 -38 -38
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -231,6 +247,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: m0q1 
@@ -249,11 +266,13 @@ T 92106
 сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Небольшой серый змей с кожистыми крыльями.
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-34 0 -10 0d0+3000 20d9+5
+38 0 -10 0d0+3000 20d9+5
 0d0+0 1600000
 8 8 1
+Saves: -38 -38 -38 -38
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -264,6 +283,7 @@ Cha: 5
 Size: 50
 LikeWork: 100
 Class: 105
+Race: 105
 Height: 30
 Weight: 100
 Special_Bitvector: m0 
@@ -283,11 +303,13 @@ I глаза,15:7
 четырехголовом сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Громадная зверюга напоминающая змея с четыремя головами.
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-37 0 -10 0d0+11000 20d9+5
+39 0 -10 0d0+11000 20d9+5
 0d0+0 2200000
 8 8 1
+Saves: -42 -42 -42 -42
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -299,6 +321,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 3
 Class: 105
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: m0q1 
@@ -317,11 +340,13 @@ T 92108
 трехголовом сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Большой серый змей о трех головах.
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-36 0 -10 0d0+8000 20d9+5
+39 0 -10 0d0+8000 20d9+5
 0d0+0 2200000
 8 8 1
+Saves: -42 -42 -42 -42
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -333,6 +358,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: q1 
@@ -351,11 +377,13 @@ T 92109
 двухголовом сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Серая тварь с двумя змеиными головами.
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-35 0 -10 0d0+5500 20d9+5
+39 0 -10 0d0+5500 20d9+5
 0d0+0 2200000
 8 8 1
+Saves: -42 -42 -42 -42
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -367,6 +395,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: q1 
@@ -385,11 +414,13 @@ T 92110
 сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Небольшой серый змей.
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-34 0 -10 0d0+3000 20d9+5
+39 0 -10 0d0+3000 20d9+5
 0d0+0 2200000
 8 8 1
+Saves: -42 -42 -42 -42
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -400,6 +431,7 @@ Cha: 5
 Size: 50
 LikeWork: 100
 Class: 105
+Race: 105
 Height: 30
 Weight: 100
 Special_Bitvector: 0 
@@ -408,7 +440,6 @@ Skill: 136 100
 Skill: 157 100
 E
 T 92111
-I копыта,15:7
 #92111
 пятиглавый серый змей~
 пятиглавый серый змей~
@@ -419,11 +450,13 @@ I копыта,15:7
 пятиглавом сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Огромадная змеюка с пяти головами так и норовящими разорвать Вас в клочья.
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-38 0 -10 0d0+15000 20d9+5
+41 0 -10 0d0+15000 20d9+5
 0d0+0 3000000
 8 8 1
+Saves: -50 -50 -50 -50
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -435,6 +468,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 4
 Class: 105
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: m0q1 
@@ -453,11 +487,13 @@ T 92112
 четырехголовом сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Громадная тварь аж с четыремя головами! А зубки у этих голов не маленькие то!
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-37 0 -10 0d0+11000 20d9+5
+41 0 -10 0d0+11000 20d9+5
 0d0+0 3000000
 8 8 1
+Saves: -50 -50 -50 -50
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -469,6 +505,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 3
 Class: 105
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: m0q1 
@@ -487,11 +524,13 @@ T 92113
 трехголовом сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Большой змей с тремя головами.
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-36 0 -10 0d0+8000 20d9+5
+41 0 -10 0d0+8000 20d9+5
 0d0+0 3000000
 8 8 1
+Saves: -50 -50 -50 -50
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -503,6 +542,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 2
 Class: 105
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: q1 
@@ -521,11 +561,13 @@ T 92114
 двухголовом сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Серый змей о двух головах.
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-35 0 -10 0d0+5500 20d9+5
+41 0 -10 0d0+5500 20d9+5
 0d0+0 3000000
 8 8 1
+Saves: -50 -50 -50 -50
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -537,6 +579,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: q1 
@@ -555,11 +598,13 @@ T 92115
 сером змее~
 Серый змей ползает тут.
 ~
-undefined~
+Небольшой серый змей
+~
 d0f0g0n0o0p0t0 d0f0k0 -600 E
-34 0 -10 0d0+3000 20d9+5
+41 0 -10 0d0+3000 20d9+5
 0d0+0 3000000
 8 8 1
+Saves: -50 -50 -50 -50
 BareHandAttack: 4
 Str: 25
 Dex: 30
@@ -570,6 +615,7 @@ Cha: 5
 Size: 50
 LikeWork: 100
 Class: 105
+Race: 105
 Height: 198
 Weight: 100
 Special_Bitvector: q1 
@@ -589,11 +635,13 @@ T 92118
 черном дереве~
 Черное дерево стоит тут.
 ~
-undefined~
+Черное коряжистое дерево тянет к вам свои острые ветви.
+~
 b0d0e0f0n0o0p0q0 d0f0k0 -600 E
-34 -13 -7 0d0+7000 10d9+9
+35 -13 -7 0d0+7000 10d9+9
 0d0+0 840000
 8 8 0
+Saves: -26 -26 -26 -26
 BareHandAttack: 2
 Str: 20
 Dex: 18
@@ -605,6 +653,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 4
 Class: 100
+Race: 108
 Height: 198
 Weight: 100
 Special_Bitvector: a0b0c0d0e0f0 
@@ -649,11 +698,13 @@ T 92127
 черном кустарнике~
 Черный кустарник растет тут.
 ~
-undefined~
+Острые сухие ветви черного кустарника так и тянутся к вам.
+~
 b0d0e0f0n0o0p0q0 d0f0k0 -600 E
-30 0 -7 0d0+2000 5d8+7
+31 0 -7 0d0+2000 5d8+7
 0d0+0 340000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 2
 Str: 20
 Dex: 18
@@ -665,6 +716,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 2
 Class: 100
+Race: 108
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -690,12 +742,13 @@ T 92120
 лесном великане~
 Лесной великан стоит тут.
 ~
-неопределен~
+Злобный лесной великан весь покрыт мхом и лишайником.
+~
 c0d0f0l0m0n0o0p0x0A0 d0f0k0 -600 E
-38 -10 -5 0d0+14000 30d11+40
+37 -10 -5 0d0+14000 30d11+40
 0d0+0 1200000
 8 8 1
-Saves: 0 0 0 -50
+Saves: -34 -34 -34 -50
 Armour: 50
 AResist: 40
 Str: 36
@@ -708,6 +761,7 @@ Size: 90
 LikeWork: 35
 ExtraAttack: 1
 Class: 104
+Race: 104
 Height: 30
 Weight: 150
 Special_Bitvector: x0b1C3 
@@ -729,7 +783,6 @@ Skill: 146 150
 Skill: 151 100
 E
 T 92121
-I кожа,17:7
 #92119
 разрыв трава~
 разрыв трава~
@@ -740,11 +793,13 @@ I кожа,17:7
 разрыв траве~
 Высокая трава растет тут.
 ~
-undefined~
+Небольшие пучки разрыв-травы зловеще покачиваются на ветру.
+~
 b0d0f0n0o0p0q0x0z0 d0f0k0p1 -600 E
-29 0 -8 0d0+1500 1d1+1
+31 0 -8 0d0+1500 1d1+1
 0d0+0 350000
 8 8 2
+Saves: -10 -10 -10 -10
 BareHandAttack: 2
 Str: 16
 Int: 29
@@ -753,6 +808,7 @@ Cha: 3
 Size: 1
 LikeWork: 100
 Class: 100
+Race: 108
 Height: 198
 Weight: 1
 Special_Bitvector: a0b0c0d0j0 
@@ -771,12 +827,13 @@ T 92123
 Буре-Яге~
 Великанша Усоньша Виевна стоит тут.
 ~
-неопределен~
+Большая великанша, прозванная Бурей-Ягой.
+~
 b0c0d0f0l0m0n0o0p0x0A0 d0f0k0n0a1 -600 E
-40 -14 -10 30d3+30000 30d12+20
+41 -14 -10 30d3+30000 30d12+20
 100d200+5000 3000000
 8 8 2
-Saves: -20 -20 -20 -40
+Saves: -50 -50 -50 -50
 Resistances: 50 50 50 50 50 150 0
 CastSuccess: 80
 Success: 50
@@ -791,6 +848,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1d1 
@@ -871,6 +929,7 @@ d0 0 0 E
 8 8 0
 Size: 30
 Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

@@ -69,9 +69,9 @@ if %actor.realroom% == 5548 || %actor.realroom%  == 5549
   osend %actor.name% Ну что, будем считать, сколько тут веток до земли встретится: раз, два, три...
   wait 5
   if %actor.sex% == 1
-    oecho %actor.name% полетел вниз с дерева.
+    oechoaround %actor% %actor.name% полетел вниз с дерева.
   else
-    oecho %actor.name% полетела вниз с дерева.
+    oechoaround %actor% %actor.name% полетела вниз с дерева.
   end
   osend %actor.name% Вы полетели вниз с дерева.
   wait 1

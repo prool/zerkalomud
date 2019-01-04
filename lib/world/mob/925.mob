@@ -24,6 +24,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -70,6 +71,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 25
 Class: 105
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: a0c0C3 
@@ -126,7 +128,6 @@ Spell: 152
 Spell: 152
 Spell: 152
 E
-I копыта:7
 #92502
 горящий скелет~
 горящий скелет~
@@ -155,7 +156,8 @@ Cha: 6
 Size: 100
 LikeWork: 100
 MaxFactor: 25
-Class: 104
+Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -228,6 +230,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 25
 Class: 104
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -301,6 +304,7 @@ LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 104
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -319,7 +323,6 @@ Skill: 136 100
 Skill: 137 100
 Skill: 157 120
 E
-I копыта:7
 #92505
 пронырливый черт~
 пронырливый черт~
@@ -350,6 +353,7 @@ LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 1
 Class: 104
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -373,7 +377,6 @@ Spell: 4
 Spell: 4
 E
 T 92501
-I копыта:7
 #92506
 одноглазый черт~
 одноглазый черт~
@@ -404,6 +407,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 25
 Class: 104
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -445,7 +449,6 @@ Spell: 151
 Spell: 153
 E
 T 92502
-I копыта:7
 #92507
 змей_92507 воин~
 змей-воин~
@@ -477,6 +480,7 @@ LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 2
 Class: 104
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -502,7 +506,6 @@ Spell: 4
 Spell: 88
 E
 T 92503
-I копыта:7
 #92508
 змея пераскея_92508~
 Пераскея~
@@ -533,6 +536,7 @@ Size: 100
 MaxFactor: 10
 ExtraAttack: 1
 Class: 105
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1B3 
@@ -619,11 +623,10 @@ Spell: 153
 Spell: 153
 Spell: 153
 Spell: 153
-Helper: 92509
 Helper: 92511
+Helper: 92509
 E
 T 92513
-I копыта:7
 #92509
 служанка пераскеи~
 служанка Пераскеи~
@@ -654,6 +657,7 @@ LikeWork: 35
 MaxFactor: 14
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -713,7 +717,6 @@ Spell: 113
 Spell: 113
 E
 T 92510
-I копыта:7
 #92510
 советник пераскеи~
 советник пераскеи~
@@ -744,6 +747,7 @@ LikeWork: 35
 MaxFactor: 10
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -855,6 +859,7 @@ LikeWork: 35
 MaxFactor: 10
 ExtraAttack: 3
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1C3 
@@ -932,6 +937,7 @@ LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 2
 Class: 104
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -987,6 +993,7 @@ LikeWork: 35
 MaxFactor: 10
 ExtraAttack: 1
 Class: 105
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1096,6 +1103,7 @@ LikeWork: 100
 MaxFactor: 25
 ExtraAttack: 3
 Class: 104
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

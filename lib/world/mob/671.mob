@@ -20,6 +20,7 @@ Dex: 18
 Con: 25
 Size: 50
 Class: 102
+Race: 101
 Height: 170
 Weight: 87
 Special_Bitvector: 0 
@@ -38,7 +39,7 @@ T 67100
    Пожилой явно обладающей большой магической силой мужчина
 ~
 b0c0d0g0l0n0x0 d0f0k0r0C0 600 E
-34 0 2 10d10+3200 5d2+20
+29 0 2 10d10+3200 5d2+20
 5d5+50 200000
 8 8 1
 Str: 20
@@ -51,6 +52,7 @@ Size: 50
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 167
 Weight: 71
 Special_Bitvector: b1c1 
@@ -104,7 +106,7 @@ T 67120
 шепчет себе под нос.
 ~
 b0d0f0g0n0s0t0x0 d0f0k0r0r1 -600 E
-30 -25 -10 20d5+4200 7d5+30
+33 -25 -10 20d5+4200 7d5+30
 25d5+10 600000
 8 8 1
 Saves: -50 -50 -50 -50
@@ -119,6 +121,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 189
 Weight: 94
 Special_Bitvector: b1c1C3 
@@ -158,7 +161,7 @@ T 67113
    Крупное создание, покрытое ни то шерстью, ни то водорослями.
 ~
 d0g0l0m0p0A0a1 d0g0k0r0k1m1 -600 E
-25 -10 -9 15d5+3000 7d5+30
+30 -10 -9 15d5+3000 7d5+30
 0d0+25 260000
 8 8 2
 Saves: -40 -40 -40 -40
@@ -174,6 +177,7 @@ Size: 60
 LikeWork: 75
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 167
 Weight: 98
 Special_Bitvector: b1c1 
@@ -200,7 +204,7 @@ T 67122
    Это человек, посвятивший себя служению злу.
 ~
 b0c0d0g0t0A0 d0f0k0r0z0A0x1y1z1 -600 E
-30 -20 -7 25d5+3100 5d8+40
+29 -20 -7 25d5+3100 5d8+40
 7d7+20 200000
 8 8 1
 Saves: -60 -60 -60 -60
@@ -215,6 +219,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 167
 Weight: 70
 Special_Bitvector: f0b1c1 
@@ -241,7 +246,7 @@ T 67115
    Это древнее покрытое шерстью и мхом создание.
 ~
 b0d0g0A0 d0k0r0z0 -600 E
-27 -20 -9 10d10+4000 5d9+40
+32 -20 -9 10d10+4000 5d9+40
 0d0+100 500000
 8 8 1
 Saves: -70 -70 -70 -70
@@ -257,6 +262,7 @@ Size: 100
 LikeWork: 75
 ExtraAttack: 2
 Class: 103
+Race: 112
 Height: 158
 Weight: 140
 Special_Bitvector: b1c1 
@@ -282,7 +288,7 @@ T 67114
    Это создание с ног до головы покрыто мхом и листьями, на вид очень сильное.
 ~
 d0g0l0m0p0A0 d0k0r0m1 -600 E
-25 -15 -4 15d5+2500 7d7+35
+28 -15 -4 15d5+2500 7d7+35
 0d0+0 190000
 8 8 1
 Saves: -50 -50 -50 -50
@@ -298,6 +304,7 @@ Size: 70
 LikeWork: 60
 ExtraAttack: 2
 Class: 103
+Race: 112
 Height: 156
 Weight: 120
 Special_Bitvector: b1c1 
@@ -319,26 +326,31 @@ T 67124
 ~
    При одном лишь взгляде на это существо кровь стынет в жилах.
 ~
-b0c0d0f0g0A0 d0f0k0n0r0t0t1 -600 E
-27 -30 -9 1d10+4200 5d9+40
-0d0+100 250000
+b0c0d0f0g0A0 d0f0k0n0r0t0A0t1 0 E
+27 -20 -17 1d1+2000 10d15+35
+0d0+100 150000
 8 8 1
 Saves: -70 -70 -70 -70
 Resistances: 90 90 90 90 90 90 90
+HPreg: 20
+Initiative: 7
+AResist: 7
+MResist: 7
+PResist: 7
 BareHandAttack: 4
-Str: 28
-Dex: 33
-Int: 18
-Wis: 18
-Con: 20
+Str: 30
+Dex: 28
+Int: 10
+Wis: 10
+Con: 28
 Cha: 10
 Size: 90
-LikeWork: 75
 ExtraAttack: 2
 Class: 101
+Race: 110
 Height: 158
 Weight: 125
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1d1 
 Skill: 5 80
 Skill: 136 100
 Spell: 27
@@ -361,7 +373,7 @@ T 67118
    Злая нечисть, пришедшая в мир из пермских сказок.
 ~
 c0d0f0g0m0z0 d0k0r0s0z0A0 -600 E
-27 -13 -10 10d10+2500 5d9+40
+29 -13 -10 10d10+2500 5d9+40
 0d0+28 200000
 8 8 1
 Saves: -60 -60 -60 -60
@@ -377,6 +389,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: i0b1c1 
@@ -403,7 +416,7 @@ T 67127
    Каждый кто прислушается к его песне засыпает, без надежды на пробуждение.
 ~
 c0d0f0g0m0z0 d0k0r0s0z0A0 -600 E
-27 -10 -10 10d10+2500 5d9+40
+29 -10 -10 10d10+2500 5d9+40
 0d0+28 200000
 8 8 1
 Saves: -70 -70 -70 -50
@@ -419,6 +432,7 @@ Size: 100
 LikeWork: 45
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: i0b1c1 
@@ -445,7 +459,7 @@ T 67126
    Нет этому страху описания! Неизвестна природа его!
 ~
 c0d0f0g0m0z0e2h2 d0k0r0s0z0A0 -600 E
-27 -20 -10 10d10+100 5d5+5
+12 -20 -10 10d10+100 5d5+5
 0d0+28 10000
 8 8 1
 Saves: -100 -100 -100 -100
@@ -459,10 +473,52 @@ Cha: 10
 Size: 100
 LikeWork: 45
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
 Skill: 132 120
 E
 T 67125
+#67111
+погибалец~
+погибалец~
+погибальца~
+погибальцу~
+погибальца~
+погибальцем~
+погибальце~
+Погибалец бродит в поисках кровушки.
+~
+Довольно страшное и противное мертвое существо.
+При жизни, наверняка, был страшной девкой :)
+Погибалец смотрит на Вас, облизываясь.
+~
+b0d0q0t0 b0d0f0k0z0o1 0 E
+25 -10 -18 1d1+700 9d9+15
+0d0+5000 100000
+8 8 1
+Armour: 20
+Initiative: 20
+Absorbe: 20
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 8
+Str: 30
+Dex: 30
+Int: 15
+Wis: 10
+Con: 30
+Cha: 10
+Size: 50
+ExtraAttack: 2
+Class: 101
+Race: 110
+Height: 190
+Weight: 190
+Special_Bitvector: 0 
+Skill: 3 50
+Skill: 141 100
+E
 $

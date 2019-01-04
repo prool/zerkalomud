@@ -14,7 +14,7 @@
 шататься по периметру лагеря.
 ~
 c0d0j0m0n0o0x0A0 k0r0 0 E
-26 3 -6 20d10+1200 7d12+18
+29 3 -6 20d10+1200 7d12+18
 5d5+50 196000
 8 8 1
 BareHandAttack: 7
@@ -29,6 +29,7 @@ LikeWork: 75
 MaxFactor: 6
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 199
 Weight: 145
 Special_Bitvector: b1c1 
@@ -67,7 +68,7 @@ T 89940
 Суровый рыцарь, просто млеет от местных просторов.
 ~
 d0l0n0o0p0A0 k0r0 0 E
-30 4 -3 10d30+1500 6d8+22
+29 4 -3 10d30+1500 6d8+22
 10d5+50 200000
 8 8 1
 Saves: 0 0 0 20
@@ -82,6 +83,7 @@ Size: 55
 LikeWork: 80
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 190
 Weight: 110
 Special_Bitvector: C3 
@@ -125,7 +127,7 @@ T 89940
 варварами.
 ~
 b0c0d0m0n0o0t0x0A0p1 r0 0 E
-29 5 -4 20d30+1100 4d2+2
+30 5 -4 20d30+1100 4d2+2
 10d10+500 300000
 8 8 1
 Str: 16
@@ -138,6 +140,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -183,7 +186,7 @@ T 89919
 И впрямь, чего?
 ~
 d0g0h0m0n0o0p0r0t0u0x0 d0f0k0 0 E
-24 5 -2 20d10+900 8d8+10
+28 5 -2 20d10+900 8d8+10
 10d5+200 165000
 8 8 1
 Str: 23
@@ -196,6 +199,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
 Weight: 60
 Special_Bitvector: 0 
@@ -227,7 +231,7 @@ E
 голову за него.
 ~
 b0c0d0l0m0n0o0A0 r0C0 0 E
-26 8 -3 10d10+1200 6d8+16
+29 8 -3 10d10+1200 6d8+16
 20d5+20 195000
 8 8 1
 BareHandAttack: 3
@@ -241,6 +245,7 @@ Size: 55
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -275,7 +280,7 @@ T 89940
 Измученный подагрой и алкоголем старикашка.
 ~
 b0c0d0e0l0n0o0u0 0 -600 E
-30 4 -4 10d10+1200 9d8+9
+27 4 -4 10d10+1200 9d8+9
 10d10+120 142000
 8 8 1
 Str: 18
@@ -288,6 +293,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -336,8 +342,8 @@ E
 красным рейнским вином и непотребными девками.
 
 ~
-b0c0d0e0g0l0m0n0o0A0b2 k0 -600 E
-28 3 -5 21d11+1400 8d6+10
+b0c0d0e0g0l0m0n0o0A0b2 d0f0k0 -600 E
+29 3 -5 21d11+1400 8d6+10
 10d10+400 250000
 8 8 1
 Str: 19
@@ -350,6 +356,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: f0m3 
@@ -399,7 +406,7 @@ T 89914
 Молодой рыцарь наслаждается ничегониделанием.
 ~
 b0d0l0m0n0o0A0 d0r0 0 E
-25 2 -5 10d10+1000 8d18+22
+27 2 -5 10d10+1000 8d18+22
 6d5+120 123000
 5 5 1
 BareHandAttack: 7
@@ -413,6 +420,7 @@ Size: 50
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 150
 Special_Bitvector: b1c1C3 
@@ -459,6 +467,7 @@ Size: 60
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 185
 Weight: 95
 Special_Bitvector: 0 
@@ -490,7 +499,7 @@ T 89940
 с сурового деревенского самогона.
 ~
 b0d0h0l0m0n0o0b2 k0 0 E
-22 20 10 1d1+850 7d6+14
+24 20 10 1d1+850 7d6+14
 0d0+40 86000
 6 6 1
 Str: 18
@@ -503,6 +512,7 @@ Size: 30
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -525,7 +535,7 @@ T 89940
 малоприятные гады.
 ~
 b0d0f0g0n0o0p0r0z0a2i2 d0k0t0 -600 E
-25 20 -8 40d10+1000 8d12+18
+27 20 -8 40d10+1000 8d12+18
 0d0+0 120000
 8 8 1
 BareHandAttack: 1
@@ -539,6 +549,7 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -583,7 +594,7 @@ E
 малоприятные гады.
 ~
 b0d0g0n0o0p0r0z0i2 c0d0k0t0 -600 E
-25 5 -3 40d10+1000 8d9+18
+27 5 -3 40d10+1000 8d9+18
 0d0+0 120000
 8 8 1
 BareHandAttack: 11
@@ -596,6 +607,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -650,7 +662,7 @@ E
 малоприятные гады.
 ~
 b0d0f0g0n0o0p0r0z0i2 c0k0 -600 E
-26 2 -7 40d10+1000 9d9+15
+27 2 -7 40d10+1000 9d9+15
 0d0+0 135000
 8 8 1
 BareHandAttack: 1
@@ -664,6 +676,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -696,7 +709,7 @@ E
 малоприятные гады.
 ~
 b0d0g0n0o0p0r0z0i2 0 -600 E
-28 4 -10 30d10+900 7d6+6
+27 4 -10 30d10+900 7d6+6
 0d0+0 125000
 8 8 1
 BareHandAttack: 1
@@ -710,6 +723,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -788,7 +802,7 @@ E
 Суровый германец, всегда готов пустить стрелу в лоб непрошенному гостю.
 ~
 b0c0d0g0l0m0n0o0A0 f0k0 -600 E
-28 2 -4 20d10+900 9d10+28
+26 2 -4 20d10+900 9d10+28
 30d1+10 110000
 8 8 1
 BareHandAttack: 9
@@ -801,6 +815,7 @@ Size: 40
 LikeWork: 90
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -827,7 +842,7 @@ T 89928
 Так и хочется улыбнуться в ответ.
 ~
 b0d0g0n0o0 d0f0k0r0 600 E
-22 4 -7 60d10+900 5d6+22
+1 4 -7 60d10+900 5d6+22
 0d0+0 1
 8 8 1
 Str: 25
@@ -839,6 +854,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -860,7 +876,7 @@ T 89916
 Рядовой воин ордена.
 ~
 c0d0g0l0m0n0g2 d0k0m0r0z1 -600 E
-30 2 -7 10d35+1100 6d8+26
+28 2 -7 10d35+1100 6d8+26
 5d10+100 180000
 8 8 1
 BareHandAttack: 3
@@ -874,6 +890,7 @@ Size: 30
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -902,7 +919,7 @@ T 89940
 Воин в легких доспехах и луком за спиной.
 ~
 d0g0l0m0n0g2 0 -600 E
-30 18 4 10d30+900 9d9+26
+29 18 4 10d30+900 9d9+26
 10d10+200 230000
 8 8 1
 BareHandAttack: 9
@@ -916,6 +933,7 @@ Size: 60
 LikeWork: 90
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -942,7 +960,7 @@ E
 Грязный вонючий конюх. Так и тянет двинуть ему в морду.
 ~
 b0d0n0o0j2 d0f0k0 0 E
-23 4 -3 0d0+400 5d5+6
+4 4 -3 0d0+400 5d5+6
 5d5+5 1000
 8 8 1
 BareHandAttack: 2
@@ -955,6 +973,7 @@ Cha: 7
 Size: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -978,7 +997,7 @@ T 89931
    Мощный жеребец.
 ~
 b0d0s0x0 C0 0 E
-18 3 -5 10d10+400 5d8+8
+1 3 -5 10d10+400 5d8+8
 0d0+0 1
 8 8 1
 BareHandAttack: 13
@@ -991,6 +1010,7 @@ Cha: 12
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 130
 Weight: 150
 Special_Bitvector: 0 
@@ -1010,7 +1030,7 @@ officer899 командир охранник рыцарь ливонец~
 Высокий, статный рыцарь.
 ~
 b0d0g0l0m0n0o0x0 d0f0k0r0 0 E
-30 2 -7 0d0+1200 6d6+25
+28 2 -7 0d0+1200 6d6+25
 0d0+1200 156000
 8 8 1
 BareHandAttack: 5
@@ -1023,7 +1043,8 @@ Cha: 8
 Size: 80
 LikeWork: 75
 ExtraAttack: 1
-Class: 104
+Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1058,6 +1079,8 @@ T 89909
 T 89910
 T 89912
 T 89940
+T 89941
+T 89942
 L 89917 100 0 0
 #89921
 темный дух легат душа~
@@ -1072,7 +1095,7 @@ L 89917 100 0 0
 Сгусток темной энергии. От него веет сверхъестественным холодом.
 ~
 b0d0f0l0m0n0p0q0t0z0i2 d0f0k0A0 0 E
-33 14 -10 0d0+1500 4d5+12
+29 14 -10 0d0+1500 4d5+12
 0d0+0 220000
 8 8 1
 Str: 20
@@ -1085,6 +1108,7 @@ Size: 30
 LikeWork: 80
 ExtraAttack: 1
 Class: 101
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -1125,13 +1149,13 @@ Spell: 84
 Spell: 84
 Spell: 137
 Spell: 137
-Helper: 89910
-Helper: 89911
-Helper: 89912
-Helper: 89913
-Helper: 89922
-Helper: 89923
 Helper: 89924
+Helper: 89923
+Helper: 89922
+Helper: 89913
+Helper: 89912
+Helper: 89911
+Helper: 89910
 E
 T 89918
 L 3004 10 0 1
@@ -1149,7 +1173,7 @@ L 3004 10 0 1
 куски разлагающегося мяса и свалявшейся шерсти.
 ~
 d0f0g0n0o0z0b2 d0k0 -600 E
-30 6 -8 10d10+800 10d6+6
+24 6 -8 10d10+800 10d6+6
 0d0+0 85000
 8 8 0
 BareHandAttack: 4
@@ -1162,6 +1186,7 @@ Size: 70
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1187,7 +1212,7 @@ E
 куски разлагающегося мяса и свалявшейся шерсти.
 ~
 d0f0g0 d0k0 -600 E
-30 1 -4 10d10+1000 0d0+50
+25 1 -4 10d10+1000 0d0+50
 0d0+0 90000
 8 8 0
 BareHandAttack: 1
@@ -1201,6 +1226,7 @@ Size: 100
 LikeWork: 70
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1228,7 +1254,7 @@ E
 малоприятные гады.
 ~
 d0n0o0 d0f0k0 -600 E
-31 15 3 10d10+1000 8d8+15
+25 15 3 10d10+1000 8d8+15
 0d0+0 100000
 8 8 1
 Str: 23
@@ -1241,6 +1267,7 @@ Size: 80
 LikeWork: 60
 ExtraAttack: 1
 Class: 101
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1276,7 +1303,7 @@ E
 Крепкий монах в белой рясе из грубой шерстяной ткани.
 ~
 d0g0l0m0n0t0A0g2 c0d0e0f0k0A0 -600 E
-31 8 4 10d40+900 8d6+18
+28 8 4 10d40+900 8d6+18
 0d0+300 165000
 8 8 1
 CastSuccess: 50
@@ -1290,6 +1317,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1342,6 +1370,7 @@ Size: 50
 LikeWork: 75
 ExtraAttack: 2
 Class: 104
+Race: 101
 Height: 175
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1391,7 +1420,7 @@ T 89940
 Худой и длинный монах с выбритой на макушке тонзурой.
 ~
 d0l0m0n0o0 d0f0k0 0 E
-25 0 0 10d15+900 6d6+6
+28 0 0 10d15+900 6d6+6
 0d0+0 165000
 8 8 1
 CastSuccess: 40
@@ -1405,6 +1434,7 @@ Cha: 15
 Size: 50
 ExtraAttack: 1
 Class: 105
+Race: 101
 Height: 175
 Weight: 145
 Special_Bitvector: 0 
@@ -1451,7 +1481,7 @@ T 89926
 хозяйством ливонского лагеря.
 ~
 c0d0j0l0m0n0o0A0 d0 0 E
-26 3 -6 10d15+1200 0d0+0
+28 3 -6 10d15+1200 0d0+0
 10d5+230 168000
 8 8 1
 Str: 23
@@ -1463,6 +1493,7 @@ Cha: 8
 Size: 50
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -1511,7 +1542,7 @@ T 89940
 жизни посланца шведского короля.
 ~
 d0l0m0n0o0 d0r0 0 E
-25 2 -5 10d10+1000 8d12+22
+26 2 -5 10d10+1000 8d12+22
 6d5+120 110000
 8 8 1
 BareHandAttack: 7
@@ -1525,6 +1556,7 @@ Size: 50
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 150
 Special_Bitvector: b1c1C3 
@@ -1561,7 +1593,7 @@ T 89940
 Неизвестно, что он делает в лагере - возможно прибыл на совет.
 ~
 c0d0l0m0n0o0A0 d0 0 E
-27 4 -3 10d15+1300 12d12+22
+29 4 -3 10d15+1300 12d12+22
 0d0+450 250000
 8 8 1
 BareHandAttack: 3
@@ -1575,6 +1607,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 104
+Race: 101
 Height: 175
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1639,6 +1672,8 @@ Cha: 4
 Size: 50
 LikeWork: 80
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 168
 Weight: 140
 Special_Bitvector: b1 
@@ -1671,7 +1706,7 @@ T 89938
 фигуры платье. Глаза ее подведены тонкими линиями сажи.
 ~
 c0d0l0A0 d0f0k0z0 0 E
-23 2 0 5d40+400 4d4+6
+24 2 0 5d40+400 4d4+6
 5d5+30 85000
 8 8 2
 CastSuccess: 40
@@ -1685,6 +1720,8 @@ Cha: 21
 Size: 45
 LikeWork: 35
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 165
 Weight: 122
 Special_Bitvector: y0a1 

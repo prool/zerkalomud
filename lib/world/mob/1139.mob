@@ -10,32 +10,30 @@
 ~
 Вы видите великого половецкого шамана.
 ~
-l0A0r2c0s2m0 z0d0h0 -600 E
-27 -2 +10 10d10+950 3d5+8 
+c0d0l0m0A0r2s2 d0h0z0 -600 E
+27 -2 10 10d10+950 3d5+8
 3d200+0 75000
 8 8 1
 CastSuccess: 54
-BareHandAttack:  0
 Str: 14
+Dex: 13
 Int: 27
 Wis: 45
-Dex: 13
 Con: 17
 Cha: 14
-LikeWork: 25
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 25
+Class: 102
+Race: 101
 Height: 160
 Weight: 150
-Special_Bitvector: b1c1
-Spell: 33 7
-Spell: 130 6
-Spell: 75 6
-Spell: 81 6
-Spell: 66 7
+Special_Bitvector: b1c1 
 Skill: 136 130
+Spell: 33
+Spell: 66
+Spell: 75
+Spell: 81
+Spell: 130
 E
 T 113901
 I глаза,3:1
@@ -54,30 +52,28 @@ I кожа,4:4
 ~
 Вы видите старую ведьму.
 ~
-l0r2s2 x0d0h0b0 -600 E
-24 7 +10 10d10+300 3d3+5 
+d0l0r2s2 b0d0h0x0 -600 E
+24 7 10 10d10+300 3d3+5
 3d2+0 100000
 8 8 2
 CastSuccess: 48
-BareHandAttack:  0
 Str: 14
+Dex: 17
 Int: 21
 Wis: 37
-Dex: 17
 Con: 13
 Cha: 19
-LikeWork: 25
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 25
+Class: 102
+Race: 101
 Height: 180
 Weight: 140
-Special_Bitvector: 0
-Spell: 6 5
-Spell: 26 4
-Spell: 54 5
+Special_Bitvector: 0 
 Skill: 136 115
+Spell: 6
+Spell: 26
+Spell: 54
 E
 T 113901
 I глаза,4:5
@@ -96,32 +92,32 @@ I кожа,1:1
 ~
 Вы видите великого воина.
 ~
-l0A0x0c0 C0d0h0 -600 E
-27 -10 +5 10d10+1100 5d5+10 
+c0d0l0x0A0 d0h0C0 -600 E
+27 -10 5 10d10+1100 5d5+10
 5d5+0 80000
 8 8 1
 CastSuccess: 54
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 24
+Dex: 20
 Int: 13
 Wis: 21
-Dex: 20
 Con: 24
 Cha: 14
+Size: 50
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 50
+Race: 104
 Height: 170
 Weight: 160
-Special_Bitvector: b1c1
-Skill: 142 90
-Skill: 137 60
+Special_Bitvector: b1c1 
 Skill: 22 75
 Skill: 136 130
-Skill: 151 80
+Skill: 137 60
+Skill: 142 90
 Skill: 150 60
+Skill: 151 80
 E
 T 113901
 I глаза,3:5
@@ -140,34 +136,34 @@ I кожа,1:2
 ~
 Вы видите старого монгольского всадника.
 ~
-l0A0r2c0s2 h0 -600 E
-25 -3 +5 10d10+450 6d6+15 
+c0d0l0A0r2s2 h0 -600 E
+25 -3 5 10d10+450 6d6+15
 2d5+0 55000
 8 8 1
 CastSuccess: 50
-BareHandAttack:  3
+BareHandAttack: 3
 Str: 26
+Dex: 13
 Int: 14
 Wis: 14
-Dex: 13
 Con: 20
 Cha: 14
+Size: 65
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 65
-Height: 210
-Weight: 250
-Special_Bitvector: b1c1n0
-Skill: 21 50
-Skill: 143 75
+Race: 104
+Height: 200
+Weight: 200
+Special_Bitvector: n0b1c1 
 Skill: 8 65
-Skill: 137 45
-Skill: 136 115
-Skill: 151 65
+Skill: 21 50
 Skill: 132 60
+Skill: 136 115
+Skill: 137 45
+Skill: 143 75
 Skill: 150 45
+Skill: 151 65
 E
 T 113901
 I глаза,4:1
@@ -185,25 +181,24 @@ I кожа,3:4
 Яркая птичка летает тут.
 ~
 Вы видите яркую птичку.~
-l1n1m1h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0l1m1n1 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,5:6
@@ -220,25 +215,23 @@ I крылья,1:8
 Степная лиса стоит тут.
 ~
 Вы видите степную лису.~
-d1h0 0 -600 E
-9 12 +8 1d10+90 4d4+4 
+d0h0d1 0 -600 E
+9 12 8 1d10+90 4d4+4
 0d0+0 7000
 8 8 2
-BareHandAttack:  4
-Str: 11
+BareHandAttack: 4
+Dex: 13
 Int: 6
 Wis: 6
-Dex: 13
 Con: 12
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 35
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 45
 Weight: 40
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,2:6
@@ -257,25 +250,24 @@ I когти,3:5
 Степной сыч камнем падает вниз.
 ~
 Вы видите степного сыча.~
-h0 x0 -600 E
-6 12 +9 1d10+60 4d4+1 
+d0h0 x0 -600 E
+6 12 9 1d10+60 4d4+1
 0d0+0 4000
 8 8 1
 BareHandAttack: 15
 Str: 8
+Dex: 9
 Int: 6
 Wis: 6
-Dex: 9
 Con: 9
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,4:9
@@ -293,25 +285,24 @@ I крылья,3:8
 Толстый хомяк набивает зерна за обе щеки.
 ~
 Вы видите толстого хомяка.~
-l1n1m1h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0l1m1n1 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 1
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,4:5
@@ -330,25 +321,23 @@ I кожа,1:7
 Степная лиса пробегает мимо.
 ~
 Вы видите степную лису.~
-d1h0 0 -600 E
-9 12 +8 1d10+90 4d4+4 
+d0h0d1 0 -600 E
+9 12 8 1d10+90 4d4+4
 0d0+0 7000
 8 8 2
-BareHandAttack:  4
-Str: 11
+BareHandAttack: 4
+Dex: 13
 Int: 6
 Wis: 6
-Dex: 13
 Con: 12
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 35
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 45
 Weight: 40
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 60
 E
 I глаза,4:5
@@ -367,30 +356,28 @@ I когти,3:5
 Стервятник выискивает с высоты падаль.
 ~
 Вы видите стервятника.~
-h0 x0 -600 E
-3 9 +9 1d10+30 3d3+0 
+d0h0 x0 -600 E
+3 9 9 1d10+30 3d3+0
 0d0+0 100
 8 8 1
 BareHandAttack: 15
 Str: 5
+Dex: 6
 Int: 6
 Wis: 6
-Dex: 6
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,5:9
 I кости,2:6
 I когти,1:5
 I крылья,5:5
-$
 $

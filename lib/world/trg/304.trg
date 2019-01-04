@@ -198,8 +198,8 @@ if %actor.clanrank%>2
   wsend %actor% У Вас нет прав заходить туда.
   halt
 end
-wsend %actor% Вы попросили что бы Вас не безпокоили и пошли отдыхать.
-wechoaround %actor% %actor.name% попросил что бы его не безпокоили и ушел отдыхать.
+wsend %actor% Вы попросили что бы Вас не беспокоили и пошли отдыхать.
+wechoaround %actor% %actor.name% попросил что бы его не беспокоили и ушел отдыхать.
 wteleport %actor.name% 30447
 ~
 #30412

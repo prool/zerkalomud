@@ -29,7 +29,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
-Race: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -87,7 +87,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
-Race: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
@@ -142,7 +142,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -188,7 +188,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -226,6 +226,7 @@ b0d0g0l0m0n0o0t0i1i2 d0f0k0m0r0k1q1x1 -600 E
 0d0+0 650000
 8 8 2
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 Str: 34
 Dex: 36
 Int: 20
@@ -236,7 +237,7 @@ Size: 78
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 102
 Height: 167
 Weight: 85
 Special_Bitvector: a0b0c0d0v0b1c1C3 
@@ -262,7 +263,6 @@ E
 T 85005
 T 85007
 T 85006
-I чешуя,10:10
 #85005
  озерная русалка девка~
 озерная русалка~
@@ -283,6 +283,7 @@ d0g0l0m0t0i1i2 f0h0j0k0m0k1q1x1 -600 E
 0d0+0 550000
 8 8 2
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 Str: 34
 Dex: 36
 Int: 20
@@ -293,7 +294,7 @@ Size: 78
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 102
 Height: 167
 Weight: 85
 Special_Bitvector: a0b0c0d0v0b1c1C3 
@@ -318,7 +319,6 @@ Spell: 153
 E
 T 85009
 T 85007
-I чешуя,10:10
 #85006
 кот баюн~
 кот Баюн~
@@ -335,11 +335,12 @@ I чешуя,10:10
 отрублен чем-то острым. Видно, что повоевал котище на своем веку, во 
 всяких стычках побывал...
 ~
-b0d0g0l0n0o0p0t0u0x0y0e2u2 d0f0k0m0n0r0z0A0C0p1 -600 E
-34 0 -10 10d10+9000 25d25+25
+b0d0g0l0n0o0p0t0u0x0y0u2 d0f0k0m0n0r0z0A0C0p1 -600 E
+34 0 -10 10d10+9000 17d17+25
 2d100+0 700000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 Str: 36
 Dex: 30
 Int: 25
@@ -351,12 +352,12 @@ LikeWork: 50
 MaxFactor: 2
 ExtraAttack: 3
 Class: 103
-Race: 100
+Race: 104
 Height: 100
 Weight: 100
 Special_Bitvector: a0b0c0d0e0f0 
-Skill: 22 45
-Skill: 134 100
+Skill: 22 140
+Skill: 132 160
 Skill: 136 100
 Skill: 143 100
 Spell: 26
@@ -375,14 +376,16 @@ Spell: 27
 Spell: 28
 Spell: 28
 Spell: 28
-Spell: 88
-Spell: 88
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
 Spell: 88
 Spell: 113
 Spell: 113
-Spell: 152
-Spell: 152
-Spell: 152
 E
 #85007
 кот баюн~
@@ -405,6 +408,7 @@ b0d0g0l0n0o0t0x0y0e2h2 d0f0k0m0n0r0z0A0C0p1w1 -600 E
 2d100+0 700000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 Str: 36
 Dex: 30
 Int: 25
@@ -416,7 +420,7 @@ LikeWork: 50
 MaxFactor: 2
 ExtraAttack: 4
 Class: 103
-Race: 100
+Race: 104
 Height: 199
 Weight: 100
 Special_Bitvector: 0 
@@ -458,7 +462,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 175
 Weight: 150
 Special_Bitvector: 0 
@@ -498,7 +502,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
-Race: 100
+Race: 104
 Height: 175
 Weight: 150
 Special_Bitvector: 0 
@@ -509,11 +513,11 @@ I шерсть,10:10
 #85010
 волк оборотень~
 волк-оборотень~
-волк-оборотеня~
-волк-оборотеню~
-волак-оборотня~
-волк-оборотенем~
-волк-оборотене~
+волка-оборотня~
+волку-оборотню~
+волка-оборотня~
+волком-оборотнем~
+волке-оборотне~
 Огромный волк-оборотень причитывает больную лапу.
 ~
 Матерый, гривастый волк, в холке выше обычного волка на добрый
@@ -538,7 +542,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 3
 Class: 104
-Race: 100
+Race: 104
 Height: 165
 Weight: 90
 Special_Bitvector: b1c1d1 
@@ -582,7 +586,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 112
 Height: 162
 Weight: 59
 Special_Bitvector: b1c1C3 
@@ -626,24 +630,24 @@ T 85062
 высотой. Морда его так страшна, что многие крестьяне умирали 
 со страха когда он заглядывал к ним в избы через окошко.
 ~
-c0d0f0g0l0m0n0o0x0 d0f0k0m0z0p1w1 0 E
-30 0 10 4d10+2500 23d13+33
+c0d0f0g0l0m0o0x0 d0f0k0m0z0p1w1 0 E
+30 0 10 1d1+2000 23d13+33
 2d55+1533 280000
 8 8 1
 Str: 36
 Dex: 21
-Int: 33
-Wis: 27
+Int: 16
+Wis: 17
 Con: 25
-Cha: 36
+Cha: 16
 Size: 100
 LikeWork: 13
 MaxFactor: 4
 ExtraAttack: 3
 Class: 101
-Race: 100
-Height: 145
-Weight: 77
+Race: 101
+Height: 200
+Weight: 200
 Special_Bitvector: b1c1 
 Skill: 136 100
 Skill: 137 45
@@ -680,6 +684,7 @@ b0d0i1 b0d0f0j0k0m0x0A0C0q1 -600 E
 0d0+0 1000000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 35
 Str: 28
 Dex: 22
 Int: 31
@@ -691,7 +696,7 @@ LikeWork: 50
 MaxFactor: 5
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 162
 Weight: 59
 Special_Bitvector: 0 
@@ -753,7 +758,7 @@ LikeWork: 80
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
-Race: 100
+Race: 104
 Height: 175
 Weight: 115
 Special_Bitvector: p0 
@@ -778,11 +783,11 @@ E
 #85015
  Водяной~
 дед Водяной~
-деда Водяной~
-деду Водяной~
 деда Водяного~
-дедом Водяной~
-деде Водяной~
+деду Водяному~
+деда Водяного~
+дедом Водяным~
+деде Водяном~
 Кряхтит дед Водяной, да осочьим корневищем помахивает.
 ~
 Пузатый, как морж, дядя. Ниже пояса весь в рыбьей чешуе,
@@ -797,6 +802,7 @@ b0c0d0e0g0l0n0o0A0e2 c0d0e0f0g0k0r0A0C0k1m1p1 -600 E
 0d0+0 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 Str: 36
 Dex: 32
 Int: 24
@@ -807,7 +813,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 101
-Race: 100
+Race: 101
 Height: 100
 Weight: 100
 Special_Bitvector: o0v0 
@@ -841,8 +847,8 @@ T 85034
 Косматая русалка перебирает камушки на речном дне.
 ~
 Зеленоглазая красавица - одна из дочек самого батюшки-водяногою
-Много у него дочек, даже он сам незнает сколько, да и как звать
-каждую непомнит. Да и какая разница - все они на одно лицо, смотрят
+Много у него дочек, даже он сам не знает сколько, да и как звать
+каждую не помнит. Да и какая разница - все они на одно лицо, смотрят
 изумрудными глазами, да хохочут хрустальными голосами.
 ~
 d0f0g0l0m0n0o0q0c1 f0k0z0k1q1 -600 E
@@ -859,7 +865,7 @@ Cha: 36
 Size: 59
 LikeWork: 15
 Class: 103
-Race: 100
+Race: 102
 Height: 198
 Weight: 150
 Special_Bitvector: o0v0 
@@ -872,7 +878,6 @@ Spell: 75
 Spell: 75
 E
 T 85032
-I чешуя,10:10
 #85017
 яга ягишна старуха~
 Яга Ягишна~
@@ -894,6 +899,7 @@ b0c0d0g0l0n0o0A0c2h2 c0d0e0f0k0r0z0A0k1m1p1t1 -600 E
 0d0+0 400000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 4
 Str: 36
 Dex: 32
@@ -905,7 +911,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 114
 Height: 100
 Weight: 100
 Special_Bitvector: 0 
@@ -922,7 +928,7 @@ T 85029
 T 85040
 T 85066
 #85018
-нелюд серый волк высокий мужчина~
+нелюд~
 Нелюд - Серый волк~
 Нелюда - Серого волка~
 Нелюду - Серому волку~
@@ -939,9 +945,10 @@ T 85066
 младший братец в волка черного оборачивается.
 ~
 b0d0r0l2 k0r0z0A0t1 -600 E
-29 0 0 9d16+1900 5d6+25
-0d0+0 200000
+30 0 -20 10d16+2000 5d6+25
+0d0+0 327000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 6
 Str: 35
 Dex: 25
@@ -953,7 +960,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 3
 Class: 104
-Race: 100
+Race: 101
 Height: 165
 Weight: 90
 Special_Bitvector: y0b1c1d1 
@@ -983,11 +990,12 @@ T 85055
 Средний братец в волка серого-незаметного. Ну а третий,
 младший братец в волка черного оборачивается.
 ~
-b0d0e0n0q0t0u0s1t1k2l2m2 f0k0r0o1p1q1r1y1d2e2 -600 E
-31 -30 -30 25d35+20000 9d9+50
-5d6+5 350000
+b0d0n0r0l2 f0k0r0r1y1 -600 E
+31 0 -5 25d35+2000 9d9+20
+5d6+60 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 3
 Str: 33
 Dex: 34
@@ -999,25 +1007,23 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 2
 Class: 104
-Race: 100
+Race: 105
 Height: 178
 Weight: 95
-Special_Bitvector: y0b1c1d1 
-Skill: 5 200
-Skill: 12 200
-Skill: 22 200
-Skill: 136 200
-Skill: 137 200
-Skill: 143 200
-Skill: 146 200
-Skill: 154 200
-Skill: 155 200
-Skill: 167 200
+Special_Bitvector: b1c1d1 
+Skill: 5 100
+Skill: 12 100
+Skill: 136 125
+Skill: 137 100
+Skill: 143 125
+Skill: 154 145
+Skill: 155 145
+Skill: 167 80
 Spell: 150
 E
 T 85055
 #85020
-хмар850 хмар черный волк высокий мужчина~
+хмар850 хмар~
 Хмар - Черный Волк~
 Хмара - Черного Волка~
 Хмару - Черному Волку~
@@ -1034,29 +1040,30 @@ T 85055
 младший братец в волка черного оборачивается.
 ~
 b0d0r0l2 f0k0r0r1z1 -600 E
-31 -4 -10 25d8+1000 8d12+33
-5d6+60 350000
+30 -4 -20 25d15+1300 8d12+33
+5d6+60 327000
 8 8 1
-Saves: -10 -10 -10 -10
+Saves: -14 -14 -14 -14
+Resistances: 0 0 0 0 10 10 0
 BareHandAttack: 3
 Str: 25
 Dex: 31
 Int: 30
-Wis: 32
-Con: 27
+Wis: 35
+Con: 29
 Cha: 22
 Size: 100
 LikeWork: 99
 ExtraAttack: 2
 Class: 102
-Race: 100
-Height: 178
-Weight: 95
+Race: 101
+Height: 200
+Weight: 100
 Special_Bitvector: y0b1c1d1C3 
 Skill: 22 120
 Skill: 136 120
 Skill: 137 150
-Skill: 146 150
+Skill: 146 100
 Skill: 157 100
 Spell: 150
 E
@@ -1090,7 +1097,7 @@ Cha: 36
 Size: 58
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 113
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
@@ -1122,6 +1129,7 @@ d0e0g0l0n0o0q0z0 f0k0z0r1 -600 E
 0d0+0 350000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 4
 Str: 36
 Dex: 16
@@ -1132,7 +1140,7 @@ Cha: 36
 Size: 59
 LikeWork: 15
 Class: 103
-Race: 100
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -1165,6 +1173,7 @@ b0c0d0g0l0n0o0b2 c0d0e0f0g0k0r0A0C0k1m1r1e2 -600 E
 0d0+0 1000000
 5 5 2
 Saves: -30 -30 -30 -30
+CastSuccess: 35
 Str: 36
 Dex: 32
 Int: 24
@@ -1175,7 +1184,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 100
-Race: 100
+Race: 105
 Height: 100
 Weight: 100
 Special_Bitvector: v0 
@@ -1217,6 +1226,7 @@ b0c0d0f0g0l0m0n0o0x0A0 f0k0r0t0A0k1p1u1 -600 E
 0d0+100 800000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
 BareHandAttack: 2
 Str: 30
 Dex: 33
@@ -1228,7 +1238,7 @@ Size: 58
 LikeWork: 99
 ExtraAttack: 2
 Class: 101
-Race: 100
+Race: 110
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1282,6 +1292,7 @@ b0d0f0g0l0n0o0x0c2h2 c0d0e0f0h0k0r0z0A0k1m1q1r1t1e2 -600 E
 6 6 1
 Saves: -38 -38 -38 -38
 Resistances: -300 0 100 0 0 0 0
+CastSuccess: 41
 BareHandAttack: 6
 Str: 36
 Dex: 34
@@ -1293,7 +1304,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: d0u0 
@@ -1367,7 +1378,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 104
-Race: 100
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1438,7 +1449,7 @@ Size: 45
 LikeWork: 80
 ExtraAttack: 3
 Class: 103
-Race: 100
+Race: 104
 Height: 195
 Weight: 90
 Special_Bitvector: 0 
@@ -1464,6 +1475,7 @@ b0c0d0g0l0n0o0A0c1t1b2h2 c0d0e0f0h0k0z0A0k1m1p1r1 -600 E
 0d0+0 1500000
 6 6 1
 Saves: -38 -38 -38 -38
+CastSuccess: 41
 BareHandAttack: 8
 Str: 36
 Dex: 20
@@ -1475,7 +1487,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
-Race: 100
+Race: 105
 Height: 198
 Weight: 150
 Special_Bitvector: d0 
@@ -1514,7 +1526,7 @@ E
 ~
 Ожившая коряга размахивает лапищами, преграждая Вам путь.
 ~
-b0d0l0x0 c0e0f0k0r0z0t1u1 -600 E
+b0d0l0x0 c0d0e0f0k0r0z0t1u1 -600 E
 30 2 0 9d16+1900 5d6+25
 0d0+0 300000
 8 8 2
@@ -1529,10 +1541,10 @@ Size: 45
 LikeWork: 80
 ExtraAttack: 3
 Class: 101
-Race: 100
+Race: 114
 Height: 195
 Weight: 90
-Special_Bitvector: a0c0d0w0 
+Special_Bitvector: a0b0c0d0w0 
 Skill: 132 145
 Skill: 136 200
 E
@@ -1555,6 +1567,7 @@ b0c0d0f0g0l0n0o0z0A0e2 e0f0k0r0x0z0A0a1k1m1p1 -600 E
 0d0+0 1000000
 8 8 3
 Saves: -30 -30 -30 -30
+CastSuccess: 35
 BareHandAttack: 4
 Str: 36
 Dex: 32
@@ -1566,7 +1579,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 110
 Height: 100
 Weight: 100
 Special_Bitvector: l0x0 
@@ -1598,6 +1611,7 @@ b0c0d0e0f0g0l0m0n0o0z0e2 e0f0k0r0z0C0a1k1p1r1 -600 E
 0d0+0 1200000
 8 8 3
 Saves: -34 -34 -34 -34
+CastSuccess: 38
 BareHandAttack: 2
 Str: 36
 Dex: 30
@@ -1609,7 +1623,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 110
 Height: 100
 Weight: 150
 Special_Bitvector: l0x0 
@@ -1657,6 +1671,7 @@ b0d0f0g0l0n0o0x0c2h2 c0d0e0f0h0k0r0z0A0k1m1r1t1 -600 E
 6 6 2
 Saves: -38 -38 -38 -38
 Resistances: -300 0 100 0 0 0 0
+CastSuccess: 41
 BareHandAttack: 6
 Str: 36
 Dex: 34
@@ -1668,7 +1683,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 114
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -1726,10 +1741,11 @@ T 85066
 человечьим.
 ~
 b0d0l2 d0f0k0r0x0A0r1t1x1 -600 E
-35 -15 -7 2d2+3000 6d25+10
+35 -15 -7 0d0+2900 6d25+10
 1d5+5 800000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
 BareHandAttack: 1
 Str: 25
 Dex: 30
@@ -1741,7 +1757,7 @@ Size: 88
 LikeWork: 15
 ExtraAttack: 4
 Class: 101
-Race: 100
+Race: 110
 Height: 120
 Weight: 66
 Special_Bitvector: 0 
@@ -1779,6 +1795,7 @@ c0d0f0g0l0m0n0o0x0A0 c0d0f0r0A0k1q1 -600 E
 0d0+100 800000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
 BareHandAttack: 2
 Str: 30
 Dex: 33
@@ -1790,7 +1807,7 @@ Size: 58
 LikeWork: 99
 ExtraAttack: 2
 Class: 102
-Race: 100
+Race: 112
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1856,7 +1873,7 @@ Size: 100
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 112
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
@@ -1890,6 +1907,7 @@ b0c0d0g0l0n0o0z0A0e2h2 e0h0k0z0A0k1m1p1r1 -600 E
 0d0+0 1500000
 6 6 2
 Saves: -38 -38 -38 -38
+CastSuccess: 41
 BareHandAttack: 8
 Str: 36
 Dex: 20
@@ -1901,7 +1919,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
-Race: 100
+Race: 103
 Height: 198
 Weight: 150
 Special_Bitvector: d0x0 
@@ -1940,11 +1958,12 @@ T 85058
 уж сам колдун давно умер, а амфисбена так и охраняет
 покои умершего мага.
 ~
-b0c0d0f0g0l0n0o0a2h2 d0e0f0k0n0r0z0C0k1q1r1t1 -600 E
+b0c0d0f0g0l0n0o0r0a2h2 d0e0f0k0n0r0z0C0k1q1r1t1 -600 E
 37 0 -10 0d0+6500 6d8+14
 0d0+0 1200000
 8 8 2
 Saves: -34 -34 -34 -34
+CastSuccess: 38
 BareHandAttack: 2
 Str: 36
 Dex: 30
@@ -1956,7 +1975,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 101
-Race: 100
+Race: 104
 Height: 100
 Weight: 150
 Special_Bitvector: d0o0w0 
@@ -2016,6 +2035,7 @@ b0c0d0f0g0l0n0o0q0r0z0c2h2u2 d0e0f0k0r0z0C0k1q1r1t1 -600 E
 0d0+0 1200000
 8 8 2
 Saves: -34 -34 -34 -34
+CastSuccess: 38
 BareHandAttack: 2
 Str: 36
 Dex: 30
@@ -2027,7 +2047,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
-Race: 100
+Race: 101
 Height: 100
 Weight: 150
 Special_Bitvector: u0 
@@ -2096,7 +2116,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2132,7 +2152,7 @@ Size: 100
 LikeWork: 13
 MaxFactor: 4
 Class: 101
-Race: 100
+Race: 110
 Height: 145
 Weight: 77
 Special_Bitvector: l0u0 
@@ -2174,7 +2194,7 @@ Cha: 36
 Size: 58
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 110
 Height: 198
 Weight: 100
 Special_Bitvector: p0 
@@ -2205,6 +2225,7 @@ d0g0l0n0o0p0 f0k0z0k1 -600 E
 0d0+0 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 4
 Str: 36
 Dex: 16
@@ -2215,7 +2236,7 @@ Cha: 36
 Size: 59
 LikeWork: 15
 Class: 103
-Race: 100
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: n0 
@@ -2245,6 +2266,7 @@ b0d0l0n0o0t0 d0f0k0m0n0r0z0A0C0r1 -600 E
 2d100+9000 700000
 8 8 2
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 Str: 36
 Dex: 30
 Int: 25
@@ -2256,7 +2278,7 @@ LikeWork: 50
 MaxFactor: 2
 ExtraAttack: 4
 Class: 103
-Race: 100
+Race: 104
 Height: 199
 Weight: 100
 Special_Bitvector: n0C3 
@@ -2316,7 +2338,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 3
 Class: 103
-Race: 100
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2354,7 +2376,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2393,7 +2415,7 @@ Cha: 16
 Size: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2426,7 +2448,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 2
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2459,7 +2481,7 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 2
 Class: 102
-Race: 100
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2481,6 +2503,7 @@ b0d0f0l0m0 d0f0k0x0z0u1z1 -600 E
 5d6+500 450000
 8 8 2
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 BareHandAttack: 7
 Destination: 0
 Str: 20
@@ -2493,7 +2516,7 @@ Size: 65
 LikeWork: 90
 ExtraAttack: 2
 Class: 101
-Race: 100
+Race: 112
 Height: 176
 Weight: 54
 Special_Bitvector: 0 
@@ -2525,6 +2548,7 @@ b0d0f0l0m0a2 c0d0e0k0x0A0C0y1 -600 E
 6d6+250 450000
 8 8 2
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 BareHandAttack: 7
 Destination: 0
 Str: 28
@@ -2537,7 +2561,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2567,6 +2591,7 @@ b0d0f0l0m0 d0e0f0k0x0t1u1 -600 E
 50d60+0 450000
 8 8 2
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 BareHandAttack: 7
 Destination: 0
 Str: 15
@@ -2579,7 +2604,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 2
 Class: 101
-Race: 100
+Race: 110
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -2607,11 +2632,12 @@ E
 не находящих после смерти успокоения людей. Невольно задумаешься
 сколько неупокоенных душ заблудших в этом лесу людей бродит здесь.
 ~
-b0c0d0f0g0l0n0o0z0A0e2 e0f0k0r0x0z0A0a1k1m1p1 -600 E
+c0d0f0g0l0n0o0z0A0e2 d0e0f0k0r0x0z0A0a1k1m1p1 -600 E
 36 0 -10 0d0+7000 6d6+12
 0d0+0 1000000
 8 8 3
 Saves: -30 -30 -30 -30
+CastSuccess: 35
 BareHandAttack: 4
 Str: 36
 Dex: 32
@@ -2623,7 +2649,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 110
 Height: 100
 Weight: 100
 Special_Bitvector: l0x0 
@@ -2650,11 +2676,12 @@ E
 не находящих после смерти успокоения людей. Невольно задумаешься
 сколько неупокоенных душ заблудших в этом лесу людей бродит здесь.
 ~
-b0c0d0f0g0l0n0o0z0A0e2 e0f0k0r0x0z0A0a1k1m1p1 -600 E
+c0d0f0g0l0n0o0z0A0e2 d0e0f0k0r0x0z0A0a1k1m1p1 -600 E
 36 0 -10 0d0+7000 6d6+12
 0d0+0 1000000
 8 8 3
 Saves: -30 -30 -30 -30
+CastSuccess: 35
 BareHandAttack: 4
 Str: 36
 Dex: 32
@@ -2666,7 +2693,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 100
+Race: 110
 Height: 100
 Weight: 100
 Special_Bitvector: l0x0 

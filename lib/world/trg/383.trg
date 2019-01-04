@@ -169,7 +169,7 @@ mechoaround %actor%  Библиотекарь взглянул на  %actor.vname% и гаркнул странные 
 wait 1
 msend   %actor% В какой то момент вам показалось что Вы летите над морем кругами.
 msend   %actor% Мимо Вас пролетали моря, острова, земли и города...
-mechoaround %actor% %actor.name% исчез... растворился... пропал.
+mechoaround %actor% %actor.name% исчез%actor.q%... растворил%actor.u%... пропал%actor.g%.
 mteleport %actor% 33009 horse
 msend   %actor% В конце концов Вы приземлились в рыбацкой деревушке.
 mechoaround %actor% Кто-то возник здесь в воздушном вихре.

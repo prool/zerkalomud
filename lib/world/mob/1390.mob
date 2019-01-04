@@ -10,31 +10,29 @@
 ~
 Вы видите проклятого татарского дервиша.
 ~
-l0A0r2c0s2 j0d0 -600 E
-18 8 +10 10d10+300 4d5+5 
+c0d0l0A0r2s2 d0j0 -600 E
+18 8 10 10d10+300 4d5+5
 2d2+0 20000
 8 8 1
 CastSuccess: 36
-BareHandAttack:  0
 Str: 12
+Dex: 10
 Int: 24
 Wis: 22
-Dex: 10
 Con: 14
 Cha: 10
-LikeWork: 30
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 30
+Class: 102
+Race: 101
 Height: 170
 Weight: 140
-Special_Bitvector: b1c1
-Spell: 67 2
-Spell: 26 1
-Spell: 15 1
-Spell: 54 1
+Special_Bitvector: b1c1 
 Skill: 136 80
+Spell: 15
+Spell: 26
+Spell: 54
+Spell: 67
 E
 T 139001
 I глаза,5:4
@@ -53,28 +51,27 @@ I кожа,3:3
 ~
 Вы видите татарского торговца.
 ~
-l0A0r2c0s2 0 -600 E
-17 8 +10 10d10+450 3d5+5 
+c0d0l0A0r2s2 0 -600 E
+17 8 10 10d10+450 3d5+5
 2d200+0 19000
 8 8 1
 CastSuccess: 34
-BareHandAttack:  0
 Str: 16
+Dex: 14
 Int: 15
 Wis: 15
-Dex: 14
 Con: 15
 Cha: 12
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 130
-Special_Bitvector: b1c1
-Skill: 136 80
+Special_Bitvector: b1c1 
 Skill: 132 20
+Skill: 136 80
 E
 T 139001
 I глаза,1:2
@@ -93,30 +90,29 @@ I кожа,4:4
 ~
 Вы видите молодого монгольского лучника.
 ~
-l0A0r2c0s2 0 -600 E
-18 2 +8 10d10+250 5d5+10 
+c0d0l0A0r2s2 0 -600 E
+18 2 8 10d10+250 5d5+10
 3d2+0 15000
 8 8 1
 CastSuccess: 36
-BareHandAttack:  9
+BareHandAttack: 9
 Str: 21
-Int: 11
-Wis: 12
 Dex: 19
+Wis: 12
 Con: 18
 Cha: 12
+Size: 50
 LikeWork: 25
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
+Race: 101
 Height: 160
 Weight: 150
-Special_Bitvector: b1c1
-Skill: 155 5
+Special_Bitvector: b1c1 
 Skill: 7 10
-Skill: 154 5
 Skill: 136 60
+Skill: 154 5
+Skill: 155 5
 E
 T 139001
 I глаза,3:3
@@ -135,35 +131,32 @@ I кожа,1:2
 ~
 Вы видите удачливого татарского колдуна.
 ~
-l0A0r2c0s2m0 x0d0A0b0 -600 E
-20 6 +10 10d10+350 3d5+5 
+c0d0l0m0A0r2s2 b0d0x0A0 -600 E
+20 6 10 10d10+350 3d5+5
 3d200+0 95000
 8 8 1
 CastSuccess: 40
-BareHandAttack:  0
 Str: 12
 Int: 25
 Wis: 37
-Dex: 11
 Con: 15
 Cha: 27
-LikeWork: 25
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 25
+Class: 102
+Race: 101
 Height: 160
 Weight: 150
-Special_Bitvector: b1c1
-Spell: 6 2
-Spell: 104 1
-Spell: 67 1
-Spell: 130 1
-Spell: 30 2
-Spell: 37 1
-Spell: 5 2
-Spell: 54 1
+Special_Bitvector: b1c1 
 Skill: 136 80
+Spell: 5
+Spell: 6
+Spell: 30
+Spell: 37
+Spell: 54
+Spell: 67
+Spell: 104
+Spell: 130
 E
 T 139001
 I глаза,2:1
@@ -181,25 +174,24 @@ I кожа,4:1
 Кулан осторожно смотрит на Вас.
 ~
 Вы видите кулана.~
-h0 0 -600 E
-6 12 +9 1d10+60 4d4+1 
+d0h0 0 -600 E
+6 12 9 1d10+60 4d4+1
 0d0+0 4000
 8 8 1
 BareHandAttack: 13
 Str: 8
+Dex: 9
 Int: 6
 Wis: 6
-Dex: 9
 Con: 9
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,3:6
@@ -218,25 +210,24 @@ I кожа,4:8
 Дзерен осторожно смотрит на Вас.
 ~
 Вы видите дзерена.~
-h0 0 -600 E
-5 11 +9 1d10+50 4d4+0 
+d0h0 0 -600 E
+5 11 9 1d10+50 4d4+0
 0d0+0 3000
 8 8 1
 BareHandAttack: 13
 Str: 7
+Dex: 8
 Int: 6
 Wis: 6
-Dex: 8
 Con: 8
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 I глаза,2:9
@@ -255,25 +246,24 @@ I кожа,4:9
 Степная саранча сидит тут в траве.
 ~
 Вы видите степную саранчу.~
-l1m1h0 0 -600 E
-2 8 +10 1d10+20 3d3+0 
+d0h0l1m1 0 -600 E
+2 8 10 1d10+20 3d3+0
 0d0+0 500
 8 8 2
-BareHandAttack:  4
+BareHandAttack: 4
 Str: 4
+Dex: 5
 Int: 6
 Wis: 6
-Dex: 5
 Con: 7
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 15
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 25
 Weight: 20
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 60
 E
 #139007
@@ -287,25 +277,24 @@ E
 Орел камнем падает вниз.
 ~
 Вы видите орла.~
-h0 x0 -600 E
-6 12 +9 1d10+60 4d4+1 
+d0h0 x0 -600 E
+6 12 9 1d10+60 4d4+1
 0d0+0 4000
 8 8 1
 BareHandAttack: 15
 Str: 8
+Dex: 9
 Int: 6
 Wis: 6
-Dex: 9
 Con: 9
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 25
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 35
 Weight: 30
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,4:8
@@ -323,25 +312,24 @@ I крылья,1:9
 Степной жаворонок выводит песнь тут.
 ~
 Вы видите степного жаворонка.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 1
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 103
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,1:7
@@ -358,29 +346,27 @@ I крылья,5:9
 Каменка летает тут.
 ~
 Вы видите каменку.~
-h0 x0 -600 E
-1 7 +10 1d10+10 2d3+0 
+d0h0 x0 -600 E
+1 7 10 1d10+10 2d3+0
 0d0+0 200
 8 8 2
 BareHandAttack: 15
 Str: 3
+Dex: 4
 Int: 6
 Wis: 6
-Dex: 4
 Con: 5
 Cha: 16
-LikeWork: 10
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 5
+LikeWork: 10
+Class: 103
+Race: 104
 Height: 5
 Weight: 10
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 60
 E
 I глаза,1:5
 I кости,5:7
 I крылья,4:5
-$
 $
