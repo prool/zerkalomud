@@ -29,6 +29,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: m0 
+Skill: 136 45
 E
 I мелкие_твари,7:10
 #60901
@@ -64,6 +65,7 @@ Weight: 85
 Special_Bitvector: y0b1c1C3 
 Skill: 12 100
 Skill: 22 100
+Skill: 136 75
 Skill: 137 100
 Spell: 15
 Spell: 15
@@ -99,6 +101,7 @@ Height: 5
 Weight: 5
 Special_Bitvector: v0B3 
 Skill: 21 5
+Skill: 136 45
 E
 I чешуя,5:5
 $

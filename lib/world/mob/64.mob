@@ -28,6 +28,7 @@ Class: 103
 Height: 198
 Weight: 2
 Special_Bitvector: l0 
+Skill: 136 21
 E
 #6401
 сороконожка ~
@@ -58,6 +59,7 @@ Class: 100
 Height: 198
 Weight: 5
 Special_Bitvector: m0 
+Skill: 136 18
 E
 #6402
 ящерица~
@@ -89,6 +91,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: p0 
+Skill: 136 24
 E
 #6403
 пустырная крыса~
@@ -119,6 +122,7 @@ Class: 103
 Height: 198
 Weight: 11
 Special_Bitvector: p0 
+Skill: 136 30
 E
 #6404
 седой старичок~
@@ -148,6 +152,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 6404
 T 6412
@@ -180,6 +185,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 6400
 T 6402
@@ -213,6 +219,7 @@ Class: 103
 Height: 198
 Weight: 25
 Special_Bitvector: i0p0 
+Skill: 136 27
 Spell: 15
 Spell: 15
 Spell: 75
@@ -252,6 +259,7 @@ Height: 198
 Weight: 50
 Special_Bitvector: p0 
 Skill: 134 50
+Skill: 136 36
 E
 T 6408
 #6408
@@ -283,6 +291,7 @@ Class: 103
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 33
 E
 #6409
 стайка комаров~
@@ -292,7 +301,7 @@ E
 стайку комаров~
 стайкой комаров~
 стайке комаров~
-Стайка комаров жужжит над ухом
+Стайка комаров жужжит над ухом.
 ~
 Комары... 
 ~
@@ -313,6 +322,7 @@ Class: 100
 Height: 198
 Weight: 4
 Special_Bitvector: l0 
+Skill: 136 21
 Spell: 76
 E
 #6410
@@ -343,6 +353,7 @@ Class: 103
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
+Skill: 136 36
 Spell: 15
 Spell: 15
 Spell: 77
@@ -366,7 +377,7 @@ c0d0g0 k0x0 0 E
 8 13 8 2d8+150 2d4+2
 0d0+0 2000
 8 8 2
-BareHandAttack: 4
+BareHandAttack: 15
 Str: 10
 Dex: 10
 Int: 3
@@ -378,6 +389,7 @@ Class: 100
 Height: 198
 Weight: 10
 Special_Bitvector: l0 
+Skill: 136 24
 E
 #6412
 жабаглот огромный~
@@ -420,6 +432,7 @@ Spell: 33
 E
 T 6406
 T 6401
+L 1726 4 0 0
 #6413
 большая жаба~
 большая жаба~
@@ -449,6 +462,7 @@ Class: 103
 Height: 198
 Weight: 15
 Special_Bitvector: n0 
+Skill: 136 33
 E
 #6414
 болотная лягушка~
@@ -478,6 +492,7 @@ Class: 100
 Height: 198
 Weight: 4
 Special_Bitvector: n0 
+Skill: 136 24
 E
 #6415
 красный москит~
@@ -508,6 +523,7 @@ Class: 100
 Height: 198
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 18
 E
 #6416
 большая ондатра~
@@ -541,6 +557,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: c0 
 Skill: 132 50
+Skill: 136 36
 E
 #6417
 серая мышь~
@@ -570,6 +587,7 @@ Class: 100
 Height: 198
 Weight: 5
 Special_Bitvector: p0 
+Skill: 136 18
 E
 T 6407
 #6418
@@ -601,6 +619,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 6410
 T 6411

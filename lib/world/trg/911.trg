@@ -57,7 +57,7 @@ end
 wait 1
 calcuid apple 91106 obj
 if %apple%
-   wpurge наливн.яблоч
+*  wpurge наливн.яблоч
 *   wsend %actor% Похоже, его уже сорвали...
    halt
 end

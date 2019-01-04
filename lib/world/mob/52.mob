@@ -22,6 +22,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 15
 E
 #5201
 собиратель трав~
@@ -52,6 +53,7 @@ Class: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 Spell: 10
 Spell: 30
 Spell: 33
@@ -88,6 +90,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 134 40
+Skill: 136 18
 E
 #5203
 белка~
@@ -119,6 +122,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 133 70
+Skill: 136 21
 Spell: 37
 Spell: 37
 E
@@ -150,6 +154,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #5205
 лягушка квакушка~
@@ -180,6 +185,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #5206
 рысь пятнистая~
@@ -210,6 +216,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 36
 Skill: 157 80
 E
 $

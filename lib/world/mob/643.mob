@@ -31,6 +31,7 @@ Weight: 85
 Special_Bitvector: a0b0c0d0j0b1c1 
 Skill: 4 50
 Skill: 131 120
+Skill: 136 75
 Skill: 137 120
 Skill: 150 100
 Skill: 156 100
@@ -75,6 +76,7 @@ Weight: 85
 Special_Bitvector: a0b0c0d0i0j0b1c1 
 Skill: 4 50
 Skill: 131 120
+Skill: 136 75
 Skill: 137 120
 Skill: 150 100
 Skill: 156 100
@@ -118,6 +120,7 @@ Weight: 85
 Special_Bitvector: a0b0c0d0i0j0b1c1 
 Skill: 4 50
 Skill: 131 120
+Skill: 136 75
 Skill: 137 120
 Skill: 150 100
 Skill: 156 100
@@ -129,8 +132,8 @@ Spell: 8
 Spell: 15
 E
 #64303
-конокрад ~
-конокрад ~
+конокрад~
+конокрад~
 конокрада~
 конокраду~
 конокрада~
@@ -142,7 +145,7 @@ E
 Прибился в шайку басурманина и грабит честной народ.
 ~
 b0c0d0f0l0m0A0 f0k0t0A0 -600 E
-25 0 -10 20d20+1500 5d5+15
+25 0 -2 20d20+1500 5d5+15
 0d0+10 130000
 8 8 1
 Str: 21
@@ -162,6 +165,7 @@ Skill: 4 25
 Skill: 12 100
 Skill: 22 100
 Skill: 132 100
+Skill: 136 75
 Skill: 137 120
 Spell: 23
 Spell: 33
@@ -169,7 +173,7 @@ Spell: 64
 Spell: 64
 E
 #64304
-конокрад ~
+конокрад~
 конокрад ~
 конокрада~
 конокраду~
@@ -182,7 +186,7 @@ E
 Прибился в шайку басурманина и грабит честной народ.
 ~
 c0d0f0l0m0A0 f0k0t0A0 -600 E
-25 0 -10 20d20+1500 5d5+15
+25 0 -2 20d20+1500 5d5+15
 0d0+10 130000
 8 8 1
 Str: 21
@@ -202,6 +206,7 @@ Skill: 4 25
 Skill: 12 100
 Skill: 22 100
 Skill: 132 100
+Skill: 136 75
 Skill: 137 120
 Spell: 23
 Spell: 33
@@ -209,8 +214,8 @@ Spell: 64
 Spell: 64
 E
 #64305
-конокрад ~
-конокрад ~
+конокрад~
+конокрад~
 конокрада~
 конокраду~
 конокрада~
@@ -222,7 +227,7 @@ E
 Прибился в шайку басурманина и грабит честной народ.
 ~
 c0d0f0l0m0A0 f0k0t0A0 -600 E
-25 0 -10 20d20+1500 5d5+15
+25 0 -2 20d20+1500 5d5+15
 0d0+10 130000
 8 8 1
 Str: 21
@@ -242,6 +247,7 @@ Skill: 4 25
 Skill: 12 100
 Skill: 22 100
 Skill: 132 100
+Skill: 136 75
 Skill: 137 120
 Spell: 23
 Spell: 33
@@ -279,6 +285,7 @@ Weight: 85
 Special_Bitvector: i0 
 Skill: 4 15
 Skill: 134 80
+Skill: 136 75
 Skill: 137 50
 Spell: 28
 Spell: 28
@@ -327,6 +334,7 @@ Weight: 85
 Special_Bitvector: 0 
 Skill: 4 15
 Skill: 134 80
+Skill: 136 75
 Skill: 137 50
 Spell: 28
 Spell: 28
@@ -376,6 +384,7 @@ Weight: 85
 Special_Bitvector: i0 
 Skill: 4 15
 Skill: 134 80
+Skill: 136 75
 Skill: 137 50
 Spell: 28
 Spell: 28
@@ -406,7 +415,7 @@ E
 За поимку этого стервеца вышгородский боярин обещал большую награду.
 ~
 c0d0f0l0m0A0 f0k0t0A0 -600 E
-25 0 -10 20d20+1500 5d5+9
+25 0 -3 20d20+1500 5d5+9
 0d0+10 130000
 8 8 1
 Str: 21
@@ -426,6 +435,7 @@ Skill: 4 25
 Skill: 12 100
 Skill: 22 100
 Skill: 132 100
+Skill: 136 75
 Skill: 137 120
 Spell: 23
 Spell: 33

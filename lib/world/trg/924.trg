@@ -13,9 +13,10 @@ end
 триггер создания саламандр~
 2 ab 100
 ~
-if %world.curmobs(92400)%<15 && %random.3%==1
+if %world.curmobs(92400)%<9 && %random.3%==1
 wecho Огненная саламандра вылезла из дыры!
 wload mob 92400
+wait 30s
 end
 ~
 #92402
@@ -42,14 +43,11 @@ end
 0 k 100
 ~
 dg_cast 'обж хватк'
-dg_cast 'обж хватк' 
-dg_cast 'обж хватк'
 ~
 #92405
 батлетригг черта~
 0 k 100
 ~
-dg_cast 'гор рук'
 dg_cast 'гор рук' 
 ~
 #92406
@@ -337,10 +335,10 @@ dg_cast 'огненный шар' %actor.name%
 ~
 eval numer 92401+%random.3%
 eval altnum 92404+%random.3%
-if %random.10% == 1 && %world.curobjs(%numer%)% < 15
+if %random.10% == 1 && %world.curobjs(%numer%)% < 3
 mload obj %numer%
 end
-if %random.10% == 1 && %world.curobjs(%altnum%)% < 15
+if %random.10% == 1 && %world.curobjs(%altnum%)% < 3
 mload obj %altnum%
 end
 ~
@@ -350,10 +348,10 @@ end
 ~
 eval numer 92407+%random.4%
 eval altnum 92411+%random.4%
-if %random.11% == 1 && %world.curobjs(%numer%)% < 15
+if %random.11% == 1 && %world.curobjs(%numer%)% < 3
 mload obj %numer%
 end
-if %random.11% == 1 && %world.curobjs(%altnum%)% < 15
+if %random.11% == 1 && %world.curobjs(%altnum%)% < 3
 mload obj %altnum%
 end
 ~
@@ -363,10 +361,10 @@ end
 ~
 eval numer 92415+%random.2%
 eval altnum 92417+%random.2%
-if %random.7% == 1 && %world.curobjs(%numer%)% < 15
+if %random.7% == 1 && %world.curobjs(%numer%)% < 3
 mload obj %numer%
 end
-if %random.7% == 1 && %world.curobjs(%altnum%)% < 15
+if %random.7% == 1 && %world.curobjs(%altnum%)% < 3
 mload obj %altnum%
 end
 ~
@@ -374,10 +372,10 @@ end
 умер великан~
 0 f 100
 ~
-if %random.7% == 1 && %world.curobjs(92420)% < 15
+if %random.7% == 1 && %world.curobjs(92420)% < 3
 mload obj 92420
 end
-if %random.7% == 1 && %world.curobjs(92421)% < 15
+if %random.7% == 1 && %world.curobjs(92421)% < 3
 mload obj 92421
 end
 ~
@@ -403,7 +401,7 @@ end
 if %random.10% < 3
 mload obj 563
 end
-if (%world.curobjs(1217)% < 1) & (%random.100% <= 1)
+if %world.curobjs(1217)% < 1 && %world.curobjs(1224)% < 1 && %random.100% == 1
 mload obj 1217
 end
 ~

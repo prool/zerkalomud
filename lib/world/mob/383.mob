@@ -30,6 +30,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 84
 Skill: 150 100
 Spell: 68
 Spell: 68
@@ -64,6 +65,7 @@ Class: 102
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1 
+Skill: 136 81
 Spell: 94
 Spell: 94
 E
@@ -96,6 +98,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: b1c1 
+Skill: 136 60
 Spell: 30
 Spell: 30
 Spell: 30
@@ -126,6 +129,7 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 93
 Spell: 30
 Spell: 30
 Spell: 30
@@ -141,6 +145,7 @@ Spell: 54
 Spell: 54
 E
 T 38307
+L 1727 8 0 0
 #38304
 палач~
 палач~
@@ -170,6 +175,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 21 40
+Skill: 136 66
 E
 #38305
 белочка~
@@ -199,6 +205,7 @@ Class: 103
 Height: 30
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 57
 Spell: 28
 Spell: 28
 E
@@ -234,6 +241,7 @@ Class: 102
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1d1 
+Skill: 136 75
 E
 T 38308
 #38307
@@ -262,6 +270,7 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1d1 
+Skill: 136 75
 E
 #38308
 писарь~
@@ -291,6 +300,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 131 80
+Skill: 136 60
 E
 #38309
 дворцовый страж молодой~
@@ -322,6 +332,7 @@ Height: 198
 Weight: 160
 Special_Bitvector: b1c1d1 
 Skill: 22 100
+Skill: 136 66
 E
 #38310
 карлик~
@@ -352,6 +363,7 @@ Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
 Skill: 131 80
+Skill: 136 108
 E
 #38311
 библиотекарь~
@@ -384,6 +396,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
+Skill: 136 78
 Spell: 54
 Spell: 68
 Spell: 68
@@ -423,6 +436,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: y0b1c1 
 Skill: 132 100
+Skill: 136 72
 E
 #38313
 гончар~
@@ -450,6 +464,7 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #38314
 кузнец~
@@ -481,8 +496,8 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 100
+Skill: 136 66
 E
-T 1306
 #38315
 священник~
 священник~
@@ -509,6 +524,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 81
 Spell: 54
 Spell: 54
 Spell: 75
@@ -545,6 +561,7 @@ Class: 102
 Height: 198
 Weight: 180
 Special_Bitvector: b1c1 
+Skill: 136 87
 Spell: 68
 Spell: 68
 E
@@ -575,6 +592,7 @@ Class: 102
 Height: 198
 Weight: 120
 Special_Bitvector: a1b1c1 
+Skill: 136 39
 Skill: 139 10
 Spell: 114
 Spell: 114
@@ -611,6 +629,7 @@ Height: 198
 Weight: 160
 Special_Bitvector: b1c1 
 Skill: 5 60
+Skill: 136 75
 E
 #38319
 звонарь~
@@ -639,6 +658,7 @@ Height: 198
 Weight: 140
 Special_Bitvector: b1c1 
 Skill: 4 100
+Skill: 136 60
 E
 #38320
 нищий~
@@ -662,6 +682,7 @@ Class: 102
 Height: 198
 Weight: 130
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #38321
 купец~
@@ -689,6 +710,7 @@ Height: 198
 Weight: 140
 Special_Bitvector: y0b1c1 
 Skill: 132 50
+Skill: 136 66
 E
 #38322
 купец~
@@ -717,6 +739,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 4 60
 Skill: 134 60
+Skill: 136 60
 E
 T 38301
 #38323
@@ -746,6 +769,7 @@ Height: 198
 Weight: 160
 Special_Bitvector: b1c1 
 Skill: 134 60
+Skill: 136 63
 E
 T 38301
 #38324
@@ -773,6 +797,7 @@ Height: 198
 Weight: 140
 Special_Bitvector: y0b1c1 
 Skill: 134 100
+Skill: 136 60
 E
 #38325
 горожанин~
@@ -800,6 +825,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: y0b1c1 
+Skill: 136 63
 Skill: 137 50
 E
 #38326
@@ -830,6 +856,7 @@ Class: 102
 Height: 198
 Weight: 130
 Special_Bitvector: b1c1 
+Skill: 136 54
 E
 #38327
 дворцовый слуга~
@@ -856,6 +883,7 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 63
 Skill: 137 100
 E
 #38328
@@ -881,6 +909,7 @@ Class: 102
 Height: 198
 Weight: 20
 Special_Bitvector: m0a1 
+Skill: 136 24
 Skill: 139 10
 E
 #38329
@@ -913,6 +942,7 @@ Height: 198
 Weight: 160
 Special_Bitvector: n0b1c1 
 Skill: 5 80
+Skill: 136 87
 Spell: 56
 E
 T 38313
@@ -945,6 +975,7 @@ Class: 102
 Height: 30
 Weight: 90
 Special_Bitvector: b1c1 
+Skill: 136 60
 Skill: 150 100
 E
 #38331
@@ -978,6 +1009,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 4 100
+Skill: 136 84
 E
 T 38300
 #38332
@@ -1014,6 +1046,7 @@ Weight: 80
 Special_Bitvector: b1c1 
 Skill: 131 100
 Skill: 133 100
+Skill: 136 60
 Skill: 156 100
 E
 #38333
@@ -1039,6 +1072,7 @@ Class: 102
 Height: 30
 Weight: 140
 Special_Bitvector: y0b1c1 
+Skill: 136 60
 E
 #38334
 купец~
@@ -1068,6 +1102,7 @@ Height: 30
 Weight: 140
 Special_Bitvector: y0b1c1 
 Skill: 132 50
+Skill: 136 66
 E
 #38335
 вольный смерд~
@@ -1093,6 +1128,7 @@ Class: 102
 Height: 198
 Weight: 140
 Special_Bitvector: y0b1c1 
+Skill: 136 60
 E
 #38336
 иноземный торговец~
@@ -1123,6 +1159,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 5 80
+Skill: 136 87
 Spell: 56
 E
 #38337
@@ -1156,6 +1193,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 100
+Skill: 136 72
 E
 #38338
 страж~
@@ -1190,6 +1228,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 100
+Skill: 136 72
 E
 #38339
 ночной гуляка~
@@ -1220,6 +1259,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 21 40
 Skill: 131 40
+Skill: 136 66
 E
 #38340
 фокусник~
@@ -1252,6 +1292,7 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 72
 Spell: 26
 Spell: 26
 Spell: 26
@@ -1259,6 +1300,7 @@ Spell: 26
 Spell: 26
 E
 T 38305
+L 1725 12 0 0
 #38341
 каменщик~
 каменщик~
@@ -1288,6 +1330,7 @@ Class: 102
 Height: 30
 Weight: 90
 Special_Bitvector: b1c1 
+Skill: 136 60
 E
 #38342
 скупщик краденого~
@@ -1320,6 +1363,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: a1b1c1 
 Skill: 5 80
+Skill: 136 87
 Skill: 139 80
 Spell: 56
 E
@@ -1354,6 +1398,7 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 87
 Spell: 26
 Spell: 26
 Spell: 26
@@ -1363,6 +1408,7 @@ Spell: 54
 Spell: 54
 E
 T 38306
+L 1752 20 0 0
 #38344
 змея~
 змея~
@@ -1386,6 +1432,7 @@ Class: 103
 Height: 30
 Weight: 100
 Special_Bitvector: g0 
+Skill: 136 57
 Spell: 28
 Spell: 28
 Helper: 38343
@@ -1421,6 +1468,7 @@ Class: 102
 Height: 30
 Weight: 70
 Special_Bitvector: 0 
+Skill: 136 60
 Spell: 10
 Spell: 10
 Spell: 10

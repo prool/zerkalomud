@@ -3,9 +3,9 @@
 2 c 0
 выломать разломать ломать~
 if !(%arg.contains(камень)%) 
-    wsend %actor% Что это Вы хотите выломать???
-   return 0
-   halt
+  wsend %actor% Что это Вы хотите выломать???
+  return 0
+  halt
 end
 wsend %actor% Вы выбрали валун побольше и сильно ударили по нему!
 wechoaround %actor% %actor.name% сильно ударил%actor.g% по самому большому камню ногой!
@@ -20,36 +20,35 @@ detach 6700 %kamen.id%
 2 c 0
 лезть пролезть влезть~
 if !(%arg.contains(нора)%) 
-   wsend %actor% Куда это Вы хотите пролезть???
-   return 0
-   halt
+  wsend %actor% Куда это Вы хотите пролезть???
+  return 0
+  halt
 end
-  wsend %actor% Вы как тот змей пролезли в нору..
-  wechoaround %actor% %actor.name% полез%actor.q% в нору.
-  wait 1s
-  wsend %actor% Странно, но вы не застряли в лазе и благополучно оказались где то.
-  wteleport %actor.name% 6771
-  calcuid norkau 6771 room
-  attach 6702 %norkau.id%
-  calcuid norkad 6719 room
-  detach 6701 %norkad.id%
-  
+wsend %actor% Вы как тот змей пролезли в нору..
+wechoaround %actor% %actor.name% полез%actor.q% в нору.
+wait 1s
+wsend %actor% Странно, но вы не застряли в лазе и благополучно оказались где то.
+wteleport %actor.name% 6771
+calcuid norkau 6771 room
+attach 6702 %norkau.id%
+calcuid norkad 6719 room
+detach 6701 %norkad.id%
 ~
 #6702
 пролезть в норку вверх~
 2 c 0
 выбраться лезть пролезть влезть~
 if !(%arg.contains(нора)%) 
-   wsend %actor% Куда это Вы хотите пролезть???
-   return 0
-   halt
+  wsend %actor% Куда это Вы хотите пролезть???
+  return 0
+  halt
 end
-  wsend %actor% Вы с как тот змей пролезли в нору..
-  wechoaround %actor% %actor.name% полез%actor.q% в нору.
-  wait 1s
-  wsend %actor% Странно, но вы не застряли в лазе и благополучно выбрались на свежий вздух.
-  wteleport %actor.name% 6719
-  wat 6719 wechoaround %actor% Кто то пролез сюда снизу.
+wsend %actor% Вы с как тот змей пролезли в нору..
+wechoaround %actor% %actor.name% полез%actor.q% в нору.
+wait 1s
+wsend %actor% Странно, но вы не застряли в лазе и благополучно выбрались на свежий вздух.
+wteleport %actor.name% 6719
+wat 6719 wechoaround %actor% Кто-то пролез сюда снизу.
 ~
 #6703
 репоп тригеров~
@@ -74,11 +73,11 @@ detach 6710 %medwed.id%
 ~
 wait 1
 if %random.20%<4
-wsend %actor% Вы соскользнули с бревна и с криком полетели вниз!
-wait 1
-wsend %actor% Оказались вы на дне этого гнилого оврага.
-wteleport %actor.name% 6740
-wat 6740 wechoaround %actor% Кто то свалился сюда с бревна.
+  wsend %actor% Вы соскользнули с бревна и с криком полетели вниз!
+  wait 1
+  wsend %actor% Оказались вы на дне этого гнилого оврага.
+  wteleport %actor.name% 6740
+  wechoaround %actor% Кто-то свалился сюда с бревна.
 end
 ~
 #6705
@@ -86,39 +85,43 @@ end
 2 c 0
 вылезти лезть ~
 if !(%arg.contains(вверх)%) 
-   wsend %actor% Куда это Вы хотите вылезти???
-   return 0
-   halt
+  wsend %actor% Куда это Вы хотите вылезти???
+  return 0
+  halt
 end
-  wsend %actor% Схватившись за ветви дерева, вы полезли вверх.
-  wechoaround %actor% %actor.name% полез%actor.q% вверх по стволу дерева.
-  wait 1s
-  wsend %actor% Вы легко выбрались из оврага на широкие просторы.
-  wteleport %actor.name% 6743
-  wat 6743 wechoaround %actor% Кто-то пролез сюда снизу.
+wsend %actor% Схватившись за ветви дерева, вы полезли вверх.
+wechoaround %actor% %actor.name% полез%actor.q% вверх по стволу дерева.
+wait 1s
+wsend %actor% Вы легко выбрались из оврага на широкие просторы.
+wteleport %actor.name% 6743
+wat 6743 wechoaround %actor% Кто-то пролез сюда снизу.
 ~
 #6706
 залезть в муравейник~
 2 c 0
 залезть лезть пролезть~
 if !(%arg.contains(муравейник)%) 
-   wsend %actor% Куда это Вы хотите залезть???
-   return 0
-   halt
+  wsend %actor% Куда это Вы хотите залезть???
+  return 0
+  halt
 end
 context 67 
 if !(%qwestik67% == %actor.name%)
-wsend %actor% Чтобы пролезть в муравейник надо сначала превратиться в муравья!
-return 0
-halt
+  wsend %actor% Чтобы пролезть в муравейник надо сначала превратиться в муравья!
+  return 0
+  halt
+end
+if !%actor.rentable%
+  wsend %actor% Кровь на ваших лапах не дает вам сделать этого!
+  halt
 end
 context 67 
 wsend %actor% Будучи очень маленьким, вы пролезли в муравейник.
 wechoaround %actor% %actor.name% полез%actor.q% в маленькое отверстие муравейника.
-  wait 1s
-  wsend %actor% Вы в душной и тесной норке.
-  wteleport %actor.name% 6774
-  wat 6774 wechoaround %actor% Кто-то пролез сюда сверху.
+wait 1s
+wsend %actor% Вы в душной и тесной норке.
+wteleport %actor.name% 6774
+wat 6774 wechoaround %actor% Кто-то пролез сюда сверху.
 unset %qwestik67% 
 calcuid norkam 6717 room
 detach 6706 %norkam.id%
@@ -128,14 +131,14 @@ detach 6706 %norkam.id%
 2 c 0
 превратиться~
 if !(%arg.contains(муравей)%) 
-   wsend %actor% В кого вы хотите превратиться???
-   return 0
-   halt
+  wsend %actor% В кого вы хотите превратиться???
+  return 0
+  halt
 end
- context 67 
- eval qwestik67 %actor.name%
- calcuid norkam 6717 room
- remote qwestik67 %norkam.id%
+context 67 
+eval qwestik67 %actor.name%
+calcuid norkam 6717 room
+remote qwestik67 %norkam.id%
 wsend %actor% Вы стали меньше букашки-таракашки. Зачем вам это!?
 wechoaround %actor% %actor.name% сказал%actor.q% магические слова и стал%actor.q% размером с букашку.
 calcuid norkam 6717 room
@@ -146,9 +149,9 @@ detach 6707 %norkam.id%
 0 k 100
 ~
 if  (%random.25% < 3)
-msend %actor% Медведь изогнул щепу и отпустил ее прямо Вам в голову!
-mechoaround %actor% %actor.name% получил%actor.q% удар щепой по лбу. 
-mdamage %actor% 15
+  msend %actor% Медведь изогнул щепу и отпустил ее прямо Вам в голову!
+  mechoaround %actor% %actor.name% получил%actor.q% удар щепой по лбу. 
+  mdamage %actor% 15
 end
 ~
 #6709
@@ -174,21 +177,22 @@ mecho "Ну попробуй..." - грустно взревел медведь.
 mecho "Дело в том, что пчелы меня закусали, не дают медом полакомиться..." - сказал медведь
 пла
 wait 2s
-mecho "А все из-за того, что у ихнего друга шмеля, кто то украл жало" - простонал медведь.
+mecho "А все из-за того, что у ихнего друга шмеля, кто-то украл жало" - простонал медведь.
 mecho "При чем тут я? Не понимаю..." - сказал медведь.
 mecho "Помоги, и я тебе скажу спасибо!" - проревел медведь.
 wait 2s
 mecho "Но учти, что шмеля просто так не найдешь, он от горя спрятался и сидит в улье"
 mecho "Его надо выманить" - подсказал медведь.
+detach 6710 %self.id%
 ~
 #6711
 беспокоить улей~
 2 c 0
 беспокоить ломать лезть тревожить шурудить~
 if !(%arg.contains(улей)%) 
-   wsend %actor% Что вы хотите беспокоить???
-   return 0
-   halt
+  wsend %actor% Что вы хотите беспокоить???
+  return 0
+  halt
 end
 wsend %actor% Вы схватили палку и начали грубо беспокоить пчелок! Зачем, они ж вас не трогают.
 wechoaround %actor% %actor.name% начал%actor.g% беспокоить пчелок. Они ему мешали?
@@ -214,9 +218,9 @@ attach 6713 %uleizimnii.id%
 2 c 0
 выманить привлечь~
 if !(%arg.contains(шмель)%) 
-   wsend %actor% Кого вы хотите выманить???
-   return 0
-   halt
+  wsend %actor% Кого вы хотите выманить???
+  return 0
+  halt
 end
 wsend %actor% Вы сказали "Жжж. Жжж."
 wechoaround %actor% %actor.name% сказал%actor.g% : "Жжж. Жжж."
@@ -236,19 +240,19 @@ detach 6713 %uleizimnii.id%
 ~
 if %object.vnum%==6707
   wait 2s
-mecho "Жжжжжжжж." - благодарно протянул шмель.
+  mecho "Жжжжжжжж." - благодарно протянул шмель.
   wait 2s
-mecho "Жжжачем мне это? Жжжж. Я жжж не прижжью себе снова жжжало!"
-mpurge жало
-wait 5s
-mecho "Жжжж. Но спасибо всежжжж."- прожужжал щмель.
-mecho Шмель дунул на жало, и оно осветилось легким светом.
-wait 3s
-if %world.curobjs(6713)% < 100
-mload obj 6713
-дат жало %actor.name%
-mecho "Держжжи и не жужжии."- прожужжал щмель.
-end
+  mecho "Жжжачем мне это? Жжжж. Я жжж не прижжью себе снова жжжало!"
+  mpurge жало
+  wait 5s
+  mecho "Жжжж. Но спасибо всежжжж."- прожужжал щмель.
+  mecho Шмель дунул на жало, и оно осветилось легким светом.
+  wait 3s
+  if %world.curobjs(6713)% < 100
+    mload obj 6713
+    дат жало %actor.name%
+    mecho "Держжжи и не жужжии."- прожужжал щмель.
+  end
 end
 ~
 #6715
@@ -256,13 +260,13 @@ end
 2 c 0
 вылезти лезть пролезть~
 if !(%arg.contains(муравейник)%) 
-   wsend %actor% Куда это Вы хотите вылезти???
-   return 0
-   halt
+  wsend %actor% Куда это Вы хотите вылезти???
+  return 0
+  halt
 end
 wsend %actor% Будучи очень маленьким, вы вылезли из муравейника.
-  wait 1s
-  wsend %actor% Вы наруже.
+wait 1s
+wsend %actor% Вы наруже.
 wat 6774 wecho Кто-то пролез сюда снизу.
 wteleport %actor.name% 6717
 ~

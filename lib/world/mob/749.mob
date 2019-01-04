@@ -1,0 +1,1503 @@
+#74900
+ журавель~
+журавль~
+журавля~
+журавлю~
+журавля~
+журавлем~
+журавле~
+Дивная птица стоит здесь на одной ноге.
+~
+Чудесный представитель своей породы. Может украсить любой стол своим 
+присутствием в приготовленном виде.
+~
+b0d0g0h0n0o0p0u0x0y0e2g2h2u2 c0d0e0f0k0m0n0r0A0a1c1l1r1u1c2 -600 E
+31 2 -8 10d10+3333 12d12+2
+0d0+150 300000
+8 8 1
+Resistances: 0 0 0 0 0 0 10
+Armour: 20
+CastSuccess: 15
+Success: 15
+Absorbe: 15
+BareHandAttack: 12
+Str: 10
+Dex: 24
+Int: 35
+Wis: 35
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 50
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Feat: 2
+Feat: 3
+Skill: 12 100
+Skill: 136 100
+Skill: 157 100
+Spell: 63
+Spell: 68
+Spell: 68
+Spell: 113
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Helper: 74904
+E
+T 74905
+T 74906
+T 74907
+T 74912
+T 74928
+I крылья,15:25
+#74901
+серый волк~
+серый волк~
+серого волка~
+серому волку~
+серого волка~
+серым волком~
+сером волке~
+Оскалившись, волк смотрит на Вас.
+~
+Серый хищник аукается по лесам.
+~
+d0f0g0j0m0s0x0 c0e0f0k0s0C0c1 -600 E
+27 0 0 10d10+700 10d10+4
+0d0+10 120000
+8 8 1
+BareHandAttack: 4
+Str: 25
+Dex: 25
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 60
+LikeWork: 85
+ExtraAttack: 1
+Class: 103
+Height: 80
+Weight: 60
+Special_Bitvector: 0 
+Feat: 1
+Feat: 29
+Skill: 132 50
+Skill: 136 100
+E
+I шерсть,10:10
+#74902
+ каргота~
+каргота~
+карготы~
+карготе~
+карготу~
+карготой~
+карготе~
+Дряхлая бабуля стоит здесь.
+~
+Злобная старушенция корчит Вам рожи! Дать бы ей промеж рогов┘ кстати говоря
+самых настоящих козлиных рогов. Видимо не повезло бабке с мужиком, вот и 
+озверела бедняга.
+~
+b0c0d0f0n0o0x0g2u2 b0c0d0e0k0m0r0x0A0C0b1c1l1t1e2 -600 E
+31 0 -10 10d10+2333 4d4+9
+0d0+150 250000
+8 8 2
+Saves: 30 30 30 0
+Resistances: 30 30 30 30 0 0 0
+HPreg: 30
+PlusMem: 30
+CastSuccess: 30
+BareHandAttack: 14
+Str: 25
+Dex: 26
+Int: 40
+Wis: 40
+Con: 20
+Cha: 3
+Size: 100
+LikeWork: 50
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: g0b1c1d1 
+Feat: 1
+Feat: 3
+Skill: 2 111
+Skill: 134 111
+Skill: 136 111
+Skill: 145 111
+Skill: 166 111
+Skill: 167 50
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 136
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Helper: 74917
+Helper: 74903
+E
+T 74920
+#74903
+дух селянина~
+дух селянина~
+духа селянина~
+духу селянина~
+дух селянина~
+духом селянина~
+духе селянина~
+Дух умершего парит не высоко над землей.
+~
+Дух простого крестьяшки, попавшего в не милость местной ведьмы. Он жил 
+подневольным, и даже мертвым не обрел покой.
+~
+d0f0n0o0p0r0u0y0z0A0g2 b0c0e0j0k0m0p0s0x0A0C0b1c1r1t1w1 -600 E
+30 0 10 10d10+1666 12d14+6
+0d0+0 200000
+8 8 1
+Saves: 30 30 30 0
+Resistances: 10 10 10 10 0 0 0
+PlusMem: 20
+Absorbe: 20
+BareHandAttack: 11
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 10
+LikeWork: 80
+ExtraAttack: 1
+Class: 101
+Height: 165
+Weight: 50
+Special_Bitvector: b1c1 
+Skill: 131 100
+Skill: 136 100
+Skill: 157 100
+Skill: 160 100
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 98
+E
+T 74927
+#74904
+ лесомыка~
+лесомыка~
+лесомыки~
+лесомыке~
+лесомыку~
+лесомыкой~
+лесомыке~
+Лесомыка рассеяно озирается по сторонам.
+~
+Дедушка, похожий на старенький пенек, покрытый мхом, с добрыми глазами 
+помогает местным жителям не заплутать в лесу.
+~
+d0g0m0n0o0A0g2 c0d0e0k0n0r0C0l1r1t1u1b2 -600 E
+30 0 -6 10d10+2222 13d14+3
+0d0+100 200000
+8 8 1
+Str: 10
+Dex: 30
+Int: 30
+Wis: 30
+Con: 10
+Cha: 30
+Size: 80
+LikeWork: 75
+ExtraAttack: 1
+Class: 102
+Height: 145
+Weight: 50
+Special_Bitvector: g0b1c1 
+Feat: 3
+Feat: 6
+Skill: 4 100
+Skill: 136 100
+Skill: 147 100
+Skill: 150 80
+Skill: 160 100
+Skill: 167 100
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 48
+Helper: 74901
+E
+T 74910
+T 74929
+#74905
+ старик~
+старик~
+старика~
+старику~
+старика~
+стариком~
+старике~
+Дедушка отдыхает на лаве.
+~
+Старичок, бывший в самом расцвете сил пол века назад. Ныне пребывает в 
+недвижимом состоянии.
+~
+b0d0o1 c0d0e0f0k0m0n0p0r0z0A0C0c1n1 600 E
+31 0 0 10d10+9999 99d99+99
+0d0+9999 10000
+6 6 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: i3 
+E
+T 74900
+T 74901
+T 74902
+T 74903
+T 74904
+T 74913
+T 74914
+#74906
+ старушка~
+старушка~
+старушки~
+старушке~
+старушку~
+старушкой~
+старушке~
+Бабушка сидит у дедушки на коленях.
+~
+Даже в свои много-много лет женщина выглядит в общем то ничего┘ для своих 
+лет.
+~
+b0d0o1 c0d0e0f0k0m0n0 600 E
+30 0 0 10d10+2 0d0+0
+0d0+0 10000
+6 6 2
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: i3 
+E
+#74907
+ травница~
+травница~
+травницы~
+травнице~
+травницу~
+травницей~
+травнице~
+Хуторская ведунья развешивает полезные травки.
+~
+Молодая девушка увлечена своей работой. Она дружит с травками и частенько 
+играет с разными лесными зверушками.
+~
+b0d0o1 c0d0e0f0k0 0 E
+30 0 0 10d10+2 0d0+0
+0d0+0 10000
+8 8 2
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 74908
+T 74909
+T 74911
+T 74914
+#74908
+ молотобоец~
+молотобоец~
+молотобойца~
+молотобойцу~
+молотобойца~
+молотобойцом~
+молотобойце~
+Подмастерье помогает ковалю.
+~
+Белесые волосы, глаза цвета голубых озер,
+статная фигура и дюжинная сила в ручищах.
+~
+b0c0d0g0m0o0p0A0 d0h0k0r0t1 -600 E
+29 10 -10 10d10+2222 12d13+5
+0d0+50 200000
+8 8 1
+Armour: 20
+Absorbe: 20
+Str: 35
+Dex: 35
+Int: 18
+Wis: 18
+Con: 35
+Cha: 35
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 183
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 3
+Feat: 33
+Feat: 75
+Feat: 81
+Skill: 4 100
+Skill: 132 70
+Skill: 134 100
+Skill: 136 100
+Skill: 147 100
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 93
+E
+T 74923
+I кости,10:10
+#74909
+ коваль~
+коваль~
+коваля~
+ковалю~
+коваля~
+ковалем~
+ковале~
+Кузнец ловко орудует большущим молотом.
+~
+Статный дядька, с большими и умелыми руками. Он сжимает молот. Наверняка 
+и в бою проявит себя с ним как настоящий воин.
+~
+b0c0d0g0o0p0A0g2 c0r0C0c1t1 -600 E
+30 0 -10 10d10+3333 13d13+9
+0d0+555 250000
+8 8 1
+Resistances: 0 0 0 0 0 0 30
+HPreg: 30
+Armour: 30
+Absorbe: 30
+BareHandAttack: 6
+Str: 50
+Dex: 30
+Int: 25
+Wis: 25
+Con: 50
+Cha: 25
+Size: 100
+LikeWork: 35
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 99
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 3
+Feat: 7
+Feat: 35
+Feat: 65
+Feat: 66
+Skill: 4 111
+Skill: 5 111
+Skill: 132 90
+Skill: 134 111
+Skill: 136 111
+Skill: 143 111
+Skill: 146 111
+Skill: 150 80
+Skill: 158 111
+Skill: 164 111
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 42
+Spell: 130
+Spell: 130
+E
+T 74923
+I глаза,10:10
+#74910
+селянин~
+селянин~
+селянина~
+селянину~
+селянина~
+селянином~
+селянине~
+Житель Белой Руси проходит мимо.
+~
+Мирные люди, живущие размеренно и спокойно. Но если случится напасть какая,
+или супротив ворога лютого выступить надобно будет, то берегись недруг! 
+Ярость крестьянина, загнанного в угол скалы сметет.
+~
+c0d0g0m0o0p0A0 c0k0r0t1 -600 E
+29 0 -7 10d10+1022 14d14+6
+0d0+20 150000
+8 8 1
+Saves: 10 10 10 10
+Resistances: 15 15 15 15 10 5 5
+HPreg: 15
+Armour: 10
+PlusMem: 10
+CastSuccess: 10
+Success: 5
+Initiative: 5
+Absorbe: 15
+Str: 35
+Dex: 35
+Int: 18
+Wis: 18
+Con: 35
+Cha: 35
+Size: 100
+LikeWork: 50
+ExtraAttack: 1
+Class: 102
+Height: 183
+Weight: 85
+Special_Bitvector: y0b1c1 
+Skill: 4 100
+Skill: 132 70
+Skill: 134 100
+Skill: 136 100
+Skill: 137 100
+Skill: 147 100
+Spell: 28
+E
+T 74923
+T 74926
+I зубы,5:5
+#74911
+молодая девушка~
+молодая девушка~
+молодой девушки~
+молодой девушке~
+молодую девушку~
+молодой девушкой~
+молодой девушке~
+Жительница Белой Руси проходит мимо.
+~
+Девушка с русыми косами и небесно-голубыми глазами. Всем известно что много 
+славянка  может терпеть, но коль взбунтуется душа, то уже за дешево не 
+откупишься.
+~
+c0d0g0o0p0A0 d0k0r0r1t1 -600 E
+29 0 0 10d10+1022 7d7+7
+0d0+50 150000
+8 8 2
+Saves: 10 10 10 0
+Resistances: 20 20 20 20 10 10 10
+HPreg: 30
+Armour: 5
+PlusMem: 30
+CastSuccess: 15
+Success: 3
+Absorbe: 5
+Str: 35
+Dex: 35
+Int: 18
+Wis: 18
+Con: 35
+Cha: 35
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 102
+Height: 183
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 134 90
+Skill: 136 90
+Skill: 145 90
+Skill: 147 90
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+E
+T 74923
+T 74921
+I кожа,5:15
+#74912
+ гайдук~
+гайдук~
+гайдука~
+гайдуку~
+гайдука~
+гайдуком~
+гайдуке~
+Панский слуга прохаживается здесь.
+~
+Тунеядец не захотел обрабатывать свою землю и решил пойти на службу в 
+панский надел. Теперь в деревне ему лучше не показываться.
+~
+c0d0g0m0o0p0A0 d0k0r0t1 -600 E
+29 7 -7 10d10+1022 10d13+7
+0d0+100 150000
+8 8 1
+Str: 35
+Dex: 35
+Int: 18
+Wis: 18
+Con: 35
+Cha: 35
+Size: 100
+LikeWork: 50
+ExtraAttack: 1
+Class: 102
+Height: 183
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 3
+Feat: 12
+Feat: 13
+Skill: 4 100
+Skill: 132 70
+Skill: 134 100
+Skill: 136 100
+Skill: 147 100
+Spell: 28
+E
+T 74931
+I кости,5:5
+#74913
+ гость мещанин~
+гость~
+гостя~
+гостю~
+гостя~
+гостем~
+госте~
+Богатый мещанин стоит здесь.
+~
+Хорошо одетый человек рассматривает Вас с надменным видом.
+~
+c0d0g0o0 c0d0e0h0r0t1x1 -600 E
+29 0 0 10d10+1111 11d11+7
+0d0+150 150000
+8 8 1
+Saves: 5 5 5 5
+HPreg: 40
+Armour: 10
+PlusMem: 10
+CastSuccess: 10
+Absorbe: 10
+Str: 25
+Dex: 25
+Int: 28
+Wis: 28
+Con: 30
+Cha: 25
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 3
+Feat: 33
+Feat: 68
+Feat: 75
+Feat: 78
+Feat: 79
+Skill: 4 60
+Skill: 130 80
+Skill: 134 80
+Skill: 136 80
+Skill: 150 50
+Skill: 157 80
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 98
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+E
+T 74936
+I глаза,10:10
+#74914
+ охранник поместья~
+охранник поместья~
+охранника поместья~
+охраннику поместья~
+охранника поместья~
+охранником поместья~
+охраннике поместья~
+Крестьянин в доспехах прохлождается здесь.
+~
+На этот парне не плохие доспехи, а в руках он держит добротный клинок.
+~
+b0c0d0g0m0o0A0 c0d0e0k0r0t1 -600 E
+29 0 -10 10d10+2222 12d13+10
+0d0+50 190000
+8 8 1
+Saves: 10 10 10 10
+Resistances: 25 25 25 25 0 0 0
+HPreg: 25
+Armour: 25
+Absorbe: 25
+Str: 35
+Dex: 35
+Int: 18
+Wis: 18
+Con: 35
+Cha: 35
+Size: 100
+LikeWork: 75
+ExtraAttack: 1
+Class: 102
+Height: 183
+Weight: 85
+Special_Bitvector: y0b1c1 
+Feat: 3
+Feat: 29
+Feat: 65
+Feat: 66
+Feat: 68
+Feat: 75
+Feat: 78
+Feat: 79
+Skill: 4 100
+Skill: 132 70
+Skill: 134 100
+Skill: 136 100
+Skill: 147 100
+Spell: 28
+Spell: 71
+E
+T 74932
+I кожа,10:6
+#74915
+забулдыга~
+забулдыга~
+забулдыги~
+забулдыге~
+забулдыгу~
+забулдыгой~
+забулдыге~
+Пьяница спит здесь.
+~
+Синее лицо, и глаза как у кролика. Жаль бабу, которая его в мужья взяла.
+~
+b0c0d0g0o0A0 d0k0r0C0c1t1 -600 E
+30 5 -5 10d10+3333 14d15+9
+0d0+25 200000
+4 4 1
+Saves: 15 15 15 0
+Armour: 15
+Absorbe: 5
+Str: 50
+Dex: 30
+Int: 10
+Wis: 10
+Con: 50
+Cha: 10
+Size: 100
+LikeWork: 75
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 99
+Special_Bitvector: b1c1 
+Feat: 3
+Skill: 4 111
+Skill: 132 90
+Skill: 134 111
+Skill: 136 111
+Skill: 143 111
+Skill: 146 111
+Skill: 150 80
+Spell: 144
+Spell: 147
+Spell: 147
+Spell: 147
+E
+I зубы,10:10
+#74916
+ ашуканец~
+ашуканец~
+ашуканца~
+ашуканцу~
+ашуканца~
+ашуканцом~
+ашуканце~
+Тать спрятался в кустах.
+~
+Его тело скрывает оборванная накидка, лицо закрыто черным капюшоном. 
+В руках длинный узкий кинжал. 
+Жизнь заставила его уйти в лес и красть у людей. Вы не ошиблись, это 
+разбойник с большой дороги.
+~
+b0c0d0f0g0m0n0o0p0A0t1 c0d0e0f0k0m0n0s0t0z0A0c1j1m1t1 -600 E
+29 10 -10 10d10+2222 12d13+10
+0d0+50 200000
+8 8 1
+Saves: 5 5 5 5
+Resistances: 5 5 5 5 5 5 5
+HPreg: 5
+Armour: 5
+PlusMem: 5
+CastSuccess: 5
+Success: 5
+Initiative: 5
+Absorbe: 5
+BareHandAttack: 11
+Str: 35
+Dex: 35
+Int: 18
+Wis: 18
+Con: 35
+Cha: 35
+Size: 100
+LikeWork: 95
+ExtraAttack: 1
+Class: 102
+Height: 183
+Weight: 85
+Special_Bitvector: a1b1c1 
+Feat: 3
+Feat: 4
+Feat: 5
+Feat: 6
+Feat: 33
+Feat: 68
+Feat: 75
+Skill: 131 150
+Skill: 136 100
+Skill: 147 100
+Skill: 160 100
+Spell: 56
+E
+T 74935
+#74917
+ страхоцце~
+страхоцце~
+страхоцця~
+страхоццю~
+страхоцце~
+страхоццем~
+страхоцце~
+Нечто этакое бесплотное находится рядом.
+~
+Что-то страшное и не понятное обволакивает Вас с ног до головы. Не к добру 
+это.
+~
+d0k0m0n0o0y0z0A0e2g2h2 b0c0e0j0k0m0p0s0x0A0C0b1c1r1t1u1w1d2 -600 E
+30 0 10 10d10+1666 12d13+3
+0d0+0 220000
+8 8 0
+Saves: 15 15 15 15
+Resistances: 15 15 15 15 15 15 15
+HPreg: 15
+Armour: 15
+PlusMem: 15
+CastSuccess: 15
+Success: 15
+Initiative: 15
+Absorbe: 15
+BareHandAttack: 2
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 10
+LikeWork: 50
+Class: 101
+Height: 165
+Weight: 50
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 3
+Feat: 6
+Feat: 8
+Feat: 10
+Skill: 132 80
+Skill: 136 100
+Skill: 157 100
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 98
+E
+#74918
+пан~
+пан~
+пана~
+пану~
+пана~
+паном~
+пане~
+Пан прохаживается здесь, думая думу тяжкую.
+~
+Лысый старик с покрытым шрамами лицом, но все еще крепкий, словно столетний 
+дуб. Стоит в шитой золотом одежде, с накинутой на плечи собольей шубой. 
+Из-под кустистых седых бровей тяжело смотрят на Вас.
+
+~
+b0d0g0l0o0p0x0y0s1t1g2 c0d0e0f0k0r0z0A0C0c1r1t1w1x1y1z1d2e2 -600 E
+50 25 10 10d10+9999 20d20+20
+100d100+100 1000000
+8 8 1
+Saves: 40 40 40 40
+Resistances: 50 50 50 50 50 50 50
+HPreg: 50
+Armour: 50
+PlusMem: 50
+CastSuccess: 50
+Success: 50
+Initiative: 50
+Absorbe: 50
+Str: 50
+Dex: 35
+Int: 35
+Wis: 35
+Con: 50
+Cha: 35
+Size: 100
+LikeWork: 100
+ExtraAttack: 3
+Class: 102
+Height: 175
+Weight: 120
+Special_Bitvector: b1c1C3 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 5
+Feat: 6
+Feat: 10
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 16
+Feat: 17
+Feat: 19
+Feat: 20
+Feat: 21
+Feat: 22
+Feat: 24
+Feat: 25
+Feat: 27
+Feat: 28
+Feat: 29
+Feat: 41
+Feat: 42
+Feat: 43
+Feat: 44
+Feat: 45
+Feat: 46
+Feat: 47
+Feat: 48
+Feat: 49
+Feat: 50
+Feat: 51
+Feat: 52
+Feat: 53
+Feat: 54
+Feat: 55
+Feat: 56
+Feat: 57
+Feat: 58
+Feat: 59
+Feat: 60
+Feat: 61
+Feat: 62
+Feat: 63
+Feat: 64
+Feat: 65
+Feat: 66
+Feat: 67
+Feat: 68
+Feat: 78
+Feat: 79
+Skill: 4 50
+Skill: 136 150
+Skill: 151 150
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 82
+Spell: 82
+Spell: 96
+Spell: 111
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 150
+Spell: 151
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 153
+Spell: 153
+Spell: 153
+Helper: 74912
+Helper: 74913
+Helper: 74914
+E
+T 74916
+T 74917
+T 74918
+T 74934
+I кожа,17:80
+#74919
+ избитый пан~
+избитый пан~
+избитого пана~
+избитому пану~
+избитого пана~
+избитым паном~
+избитом пане~
+Пан опасливо озирается.
+~
+Вот это да! Стоит только прописать двадцать бизунов и из любого пана 
+человека можно сделать. Вся спесь пропала, и смотрит он теперь не надменно, 
+а как обычный мужик, но с опаской, и обрывки золотых одеяний ему более 
+подходят, к теперь уже синему, лицу.
+~
+b0d0f0l0m0n0o0x0g2 c0d0e0k0C0l1t1 -600 E
+50 0 0 10d10+5555 20d15+10
+0d0+200 350000
+8 8 1
+Saves: 10 10 10 10
+Resistances: 20 20 20 20 20 20 20
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 20
+Success: 20
+Initiative: 20
+Absorbe: 20
+Str: 50
+Dex: 35
+Int: 35
+Wis: 35
+Con: 50
+Cha: 35
+Size: 100
+LikeWork: 75
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 120
+Special_Bitvector: b1c1 
+Skill: 4 50
+Skill: 136 120
+Skill: 151 120
+Skill: 157 50
+Spell: 15
+Spell: 23
+Spell: 28
+Spell: 68
+Spell: 72
+Spell: 83
+Spell: 128
+Spell: 151
+Spell: 152
+Spell: 153
+Helper: 74912
+E
+T 74919
+I кожа,10:33
+#74920
+ огромный паук~
+огромный паук~
+огромного паука~
+огромному пауку~
+огромного паука~
+огромным пауком~
+огромном пауке~
+Черный паук плетет паутину.
+~
+Обычный паук, только невероятных размеров, обосновался в пустующей хате.
+~
+b0d0f0g0l0m0o0t0u0x0t1i2 c0d0e0k0m0n0p0t0A0C0r1 -600 E
+29 5 -8 10d10+1111 9d13+7
+0d0+0 150000
+8 8 1
+BareHandAttack: 2
+Str: 20
+Dex: 40
+Int: 20
+Wis: 20
+Con: 35
+Cha: 10
+Size: 60
+LikeWork: 40
+ExtraAttack: 3
+Class: 103
+Height: 100
+Weight: 60
+Special_Bitvector: 0 
+Skill: 136 100
+Skill: 165 100
+Skill: 166 100
+Skill: 167 100
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 147
+Spell: 147
+Spell: 147
+Spell: 147
+Spell: 147
+Spell: 147
+Spell: 147
+Spell: 147
+Spell: 147
+Spell: 147
+E
+I чешуя,10:10
+#74921
+ охранник деревни~
+охранник деревни~
+охранника деревни~
+охраннику деревни~
+охранника деревни~
+охранником деревни~
+охраннике деревни~
+Крестьянин в доспехах прохлождается здесь.
+~
+Раззудись плечо, наших бьют!
+Сбитых, сваленных -- оттаскивай!
+Я пред боем -- тих, я в атаке -- лют,
+Ну, а после боя -- ласковый!
+~
+c0d0g0m0o0p0A0 c0d0e0k0r0r1t1x1 -600 E
+29 0 -10 10d10+2222 15d15+10
+0d0+10 160000
+8 8 1
+Str: 35
+Dex: 35
+Int: 18
+Wis: 18
+Con: 35
+Cha: 35
+Size: 100
+LikeWork: 50
+ExtraAttack: 1
+Class: 102
+Height: 183
+Weight: 85
+Special_Bitvector: y0b1c1 
+Feat: 1
+Feat: 2
+Feat: 3
+Skill: 4 100
+Skill: 132 70
+Skill: 134 100
+Skill: 136 100
+Skill: 147 100
+Spell: 28
+E
+T 74923
+I кости,10:10
+#74922
+ казанова~
+казанова~
+казановы~
+казанове~
+казанову~
+казановой~
+казанове~
+Местный любовник развращает панскую кухарку!
+~
+Сын одного из гостей забавляется с кухаркой барина. Ужас! Куда катится 
+молодежь?
+~
+b0c0d0g0m0o0p0A0 c0k0r0t1 -600 E
+30 5 -7 10d10+1022 10d13+10
+0d0+50 150000
+6 6 1
+Str: 35
+Dex: 35
+Int: 18
+Wis: 18
+Con: 35
+Cha: 35
+Size: 100
+LikeWork: 13
+ExtraAttack: 1
+Class: 102
+Height: 183
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 4 100
+Skill: 132 70
+Skill: 134 100
+Skill: 136 100
+Skill: 147 100
+Spell: 28
+E
+T 74933
+#74923
+ молодая кухарка~
+молодая кухарка~
+молодой кухарки~
+молодой кухарке~
+молодую кухарку~
+молодой кухаркой~
+молодой кухарке~
+Девушка лежит под каким то парнем.
+~
+Как эта девушка будет теперь целовать этим ртом своих детей?!
+~
+b0c0d0g0m0o0A0 d0k0r0t1 -600 E
+29 0 0 10d10+1022 7d7+7
+0d0+10 150000
+5 5 2
+Saves: 10 10 10 10
+Resistances: 10 10 10 10 10 10 10
+HPreg: 10
+Armour: 10
+PlusMem: 10
+CastSuccess: 10
+Success: 10
+Initiative: 10
+Absorbe: 10
+Str: 35
+Dex: 35
+Int: 18
+Wis: 18
+Con: 35
+Cha: 35
+Size: 100
+LikeWork: 65
+ExtraAttack: 1
+Class: 102
+Height: 183
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 134 90
+Skill: 136 90
+Skill: 145 90
+Skill: 147 90
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 56
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+E
+T 74922
+I кожа,10:10
+$

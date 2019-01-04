@@ -9,10 +9,16 @@
 Шестиглавый змей летает тут.
 ~
 неопределен~
-d0f0g0l0m0n0o0p0t0x0b1r1 d0f0k0r0x0 -600 E
-40 0 -10 1d1+15000 9d7+25
+d0f0g0l0m0n0o0p0x0b1 d0f0k0r0x0 -600 E
+40 -14 -12 1d1+15000 9d7+25
 90d90+5000 4500000
 8 8 1
+Saves: -40 0 0 -70
+Resistances: 70 70 70 70 135 120 0
+Armour: 50
+CastSuccess: 55
+Success: 40
+AResist: 70
 BareHandAttack: 4
 Destination: 91849
 Destination: 91846
@@ -23,12 +29,12 @@ Wis: 30
 Con: 36
 Cha: 3
 Size: 100
-LikeWork: 25
+LikeWork: 30
 ExtraAttack: 5
 Class: 102
 Height: 30
 Weight: 150
-Special_Bitvector: a0b0c0d0l0w0 
+Special_Bitvector: a0b0c0d0l0 
 Skill: 5 120
 Skill: 134 140
 Skill: 136 100
@@ -78,10 +84,16 @@ T 91820
 Трехглавый змей летает тут.
 ~
 неопределен~
-d0f0g0l0m0n0o0p0t0x0b1r1 d0f0k0r0x0m1 -600 E
-40 0 -10 1d1+17000 27d7+25
+d0f0g0l0m0n0o0p0x0b1 d0f0k0r0x0m1 -600 E
+40 -14 -10 1d1+17000 27d7+25
 90d90+3000 4000000
 8 8 1
+Saves: -40 -10 -10 -80
+Resistances: 70 70 70 70 130 120 0
+Armour: 50
+CastSuccess: 40
+Success: 60
+AResist: 70
 BareHandAttack: 4
 Str: 36
 Dex: 27
@@ -95,7 +107,7 @@ ExtraAttack: 2
 Class: 102
 Height: 30
 Weight: 150
-Special_Bitvector: l0w0 
+Special_Bitvector: l0 
 Skill: 132 130
 Skill: 134 140
 Skill: 136 100
@@ -223,14 +235,19 @@ T 91821
 Усатый змей летает тут.
 ~
 неопределен~
-d0f0g0l0m0n0o0p0t0x0b1r1 d0f0k0r0x0m1 -600 E
-40 0 -10 1d1+19000 27d7+90
-90d90+1000 3500000
+d0f0g0l0m0n0o0p0x0b1 d0f0k0r0x0m1 -600 E
+40 -14 -10 1d1+19000 27d7+90
+90d90+1000 4000000
 8 8 1
+Saves: -60 -60 -60 -60
+Resistances: 50 50 50 50 50 150 0
+Armour: 50
+Initiative: 50
+AResist: 70
 BareHandAttack: 4
 Str: 36
-Dex: 27
-Int: 25
+Dex: 30
+Int: 10
 Wis: 30
 Con: 36
 Cha: 3
@@ -240,11 +257,11 @@ ExtraAttack: 1
 Class: 102
 Height: 30
 Weight: 150
-Special_Bitvector: l0w0C3 
-Skill: 12 100
+Special_Bitvector: l0C3 
 Skill: 22 100
 Skill: 136 100
-Skill: 151 100
+Skill: 137 100
+Skill: 157 150
 Spell: 14
 Spell: 14
 Spell: 43
@@ -295,6 +312,10 @@ b0d0f0g0l0m0n0o0p0t0x0b1r1 d0f0h0k0r0x0m1 -600 E
 40 0 -10 30d30+9000 30d7+7
 90d90+0 5000000
 8 8 2
+Saves: 0 0 0 -60
+Resistances: 0 0 0 0 50 0 0
+Armour: 50
+AResist: 60
 BareHandAttack: 8
 Str: 36
 Dex: 27
@@ -408,6 +429,7 @@ d0f0m0n0o0p0q0x0z0b1a2 d0f0k0x0p1 -600 E
 37 0 -5 0d0+6000 8d9+100
 0d0+0 740000
 8 8 1
+Resistances: 0 0 0 0 100 0 0
 Int: 25
 Wis: 24
 Cha: 14
@@ -417,6 +439,7 @@ Class: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 111
 Spell: 23
 Spell: 23
 Spell: 23
@@ -450,6 +473,7 @@ d0f0g0m0n0o0p0x0z0 d0f0k0m1 -600 E
 25 3 -6 0d0+450 9d9+11
 0d0+0 30000
 8 8 2
+Resistances: 0 0 0 0 60 0 0
 BareHandAttack: 3
 Str: 18
 Dex: 18
@@ -479,6 +503,7 @@ d0f0g0m0n0o0p0x0z0b1 d0f0k0x0m1 -600 E
 28 2 -6 7d7+1100 9d9+19
 0d0+0 120000
 8 8 1
+Resistances: 0 0 0 0 65 0 0
 BareHandAttack: 6
 Str: 23
 Dex: 20
@@ -515,6 +540,7 @@ d0f0g0m0n0o0p0x0z0 d0f0k0m1 -600 E
 31 1 -7 7d7+3500 17d9+19
 0d0+0 230000
 8 8 1
+Resistances: 0 0 0 0 70 0 0
 BareHandAttack: 6
 Str: 23
 Dex: 20
@@ -555,6 +581,7 @@ b0d0f0g0m0n0o0p0x0z0 d0f0k0m1 -600 E
 34 1 -7 7d7+5000 22d9+19
 0d0+0 590000
 8 8 1
+Resistances: 0 0 0 0 85 0 0
 BareHandAttack: 6
 Str: 21
 Dex: 20

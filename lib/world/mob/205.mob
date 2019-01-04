@@ -1,0 +1,1462 @@
+#20500
+ старый охотник~
+старый охотник~
+старого охотника~
+старому охотнику~
+старого охотника~
+старым охотником~
+старом охотнике~
+Пожилой мужик топчется здесь на месте.
+~
+Этот человек за свою жизнь не мало повидал, и до сих пор твердо держит 
+лук в руках. Судя по глазам, он не прочь заработать.
+~
+b0d0o0t0 d0f0k0r1 -600 E
+27 -20 5 10d10+1500 13d11+0
+12d15+1245 10000
+8 8 1
+BareHandAttack: 9
+Str: 34
+Dex: 37
+Int: 42
+Wis: 42
+Con: 36
+Cha: 37
+Size: 100
+LikeWork: 99
+ExtraAttack: 3
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 137 200
+Skill: 154 200
+Skill: 155 200
+Skill: 167 200
+E
+T 20511
+T 20512
+#20501
+ оржавник~
+оржавник~
+оржавника~
+оржавнику~
+оржавника~
+оржавником~
+оржавнике~
+Страшный скрюченный старик злобно махает своими тощими ручонками.
+~
+Самый страшный Болотник, покрытый грязно-рыжей шерстью, с толстым животом и тонкими ногами.
+~
+b0d0f0n0o0x0a1b1d2g2h2 d0g0k0m0x0A0C0c1k1t1x1 -600 E
+40 0 10 10d10+9999 17d16+6
+0d0+0 2000000
+8 8 1
+Saves: -80 -30 -80 -50
+Resistances: 20 20 20 20 100 50 50
+HPreg: 100
+Armour: 50
+PlusMem: 200
+CastSuccess: 35
+Success: 10
+Initiative: 10
+Absorbe: 45
+BareHandAttack: 2
+Str: 30
+Dex: 20
+Int: 30
+Wis: 30
+Con: 20
+Cha: 10
+Size: 100
+LikeWork: 100
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 1
+Skill: 136 200
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Helper: 20320
+E
+T 20504
+T 20509
+T 20520
+#20502
+ моховик~
+моховик~
+моховика~
+моховику~
+моховика~
+моховиком~
+моховике~
+Щетинистая клыкастая свинья копошится здесь в тине.
+~
+Дух мшистых болот питается растениями, но иногда заедает и детей. Это самый 
+маленький из лесных духов по сравнению с боровиком и лешим, но не следует 
+его недооценивать. Как и вся нечисть, заманивает в глушь, чтобы там погубить.
+~
+b0d0f0n0o0x0a1g2 d0g0k0m0A0C0c1k1w1 -600 E
+40 1 7 10d10+9999 17d17+20
+0d0+0 2000000
+8 8 1
+Saves: -50 -35 -90 -10
+Resistances: 35 35 35 35 60 35 35
+HPreg: 90
+Armour: 90
+PlusMem: 50
+CastSuccess: 95
+Success: 10
+Initiative: 5
+Absorbe: 95
+BareHandAttack: 4
+Str: 20
+Dex: 20
+Int: 50
+Wis: 50
+Con: 20
+Cha: 20
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 136 200
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 150
+Spell: 150
+Spell: 150
+E
+T 20506
+T 20521
+#20503
+ зыбочник~
+зыбочник~
+зыбочника~
+зыбочнику~
+зыбочника~
+зыбочником~
+зыбочнике~
+Леший качается здесь на трясине.
+~
+Зыбочником его называют, потому что он постоянно качается то на ветвях 
+деревьев, то на трясине, то просто на ветру зыбается.
+~
+b0d0f0n0o0x0a1b1g2 d0g0k0m0x0A0C0m1q1t1x1 -600 E
+40 1 5 10d10+9999 17d17+20
+0d0+0 2000000
+8 8 1
+Saves: -65 -50 -50 -40
+Resistances: 30 30 30 30 100 10 10
+HPreg: 100
+Armour: 90
+PlusMem: 100
+CastSuccess: 35
+Success: 5
+Initiative: 5
+Absorbe: 90
+BareHandAttack: 2
+Str: 30
+Dex: 50
+Int: 25
+Wis: 25
+Con: 35
+Cha: 20
+Size: 100
+LikeWork: 100
+ExtraAttack: 3
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 5 200
+Skill: 136 200
+Skill: 167 100
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 93
+Spell: 93
+Spell: 111
+Spell: 111
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+E
+T 20508
+T 20510
+T 20522
+#20504
+ ичетик~
+ичетик~
+ичетика~
+ичетику~
+ичетика~
+ичетиком~
+ичетике~
+Маленький мохнатый человечек бегает по болоту.
+~
+Загубленный собственной матерью ребенок, живущий в болотах, душу которого
+приютил моховик, ставший для него родным.
+~
+b0d0f0m0n0o0g2h2 h0k0m0n0z0C0k1r1t1 -600 E
+36 5 0 10d10+4000 15d15+0
+0d0+0 451000
+8 8 0
+Saves: -35 -21 -15 -5
+Resistances: 5 15 8 25 33 5 10
+HPreg: 10
+Armour: 90
+PlusMem: 150
+Success: 5
+Initiative: 5
+Absorbe: 95
+Str: 18
+Dex: 18
+Int: 19
+Wis: 40
+Con: 19
+Cha: 21
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Feat: 1
+Skill: 136 125
+Skill: 165 125
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 94
+E
+T 20539
+#20505
+ анцыбал~
+анцыбал~
+анцыбала~
+анцыбалу~
+анцыбала~
+анцыбалом~
+анцыбале~
+Мускулистый черт зло осматривает округу.
+~
+Волосатый болотный черт, с красными глазенками и характерным пятачком вместо носа.
+~
+b0d0f0m0n0o0x0g2 k0m0n0C0k1r1w1 -600 E
+36 3 -5 10d10+5500 16d16+0
+0d0+0 551000
+8 8 1
+Saves: -40 0 -65 -15
+Resistances: 5 3 5 7 25 15 15
+HPreg: 45
+Armour: 90
+Absorbe: 90
+Str: 40
+Dex: 30
+Int: 20
+Wis: 30
+Con: 36
+Cha: 15
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 1
+Skill: 4 135
+Skill: 136 135
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 62
+Spell: 62
+Spell: 62
+E
+#20506
+ медуза~
+медуза~
+медузы~
+медузе~
+медузу~
+медузой~
+медузе~
+Ужасное создание нервно подергивает конечностями.
+~
+Женщина со змеями вместо волос, ядовитой кровью и обращающим все живое в камень взглядом. 
+~
+b0d0f0m0n0o0x0g2h2 k0m0n0C0k1r1w1 -600 E
+37 3 -3 10d10+4500 16d16+0
+0d0+0 551000
+8 8 2
+Saves: -56 -10 -60 -15
+Resistances: -50 0 200 0 35 5 15
+HPreg: 100
+Armour: 90
+PlusMem: 100
+CastSuccess: 60
+Success: 5
+Initiative: 5
+Absorbe: 95
+Str: 29
+Dex: 30
+Int: 23
+Wis: 40
+Con: 34
+Cha: 16
+Size: 100
+LikeWork: 80
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 4 135
+Skill: 136 135
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+E
+I чешуя,10:10
+#20507
+ погибалец~
+погибалец~
+погибальца~
+погибальцу~
+погибальца~
+погибальцем~
+погибальце~
+Синий утопленник, изрядно обросший тиной, стоит здесь.
+~
+Этот человек умер внезапной и неестественной смертью, и теперь его не 
+упокоенная душа творит темные дела.
+~
+c0d0f0m0n0o0x0A0g2 k0m0n0C0k1t1y1 -600 E
+33 4 0 10d10+6500 16d16+0
+0d0+0 650000
+8 8 1
+Saves: -40 0 -40 0
+Resistances: 0 0 0 0 20 0 0
+Armour: 90
+Absorbe: 95
+Str: 38
+Dex: 25
+Int: 22
+Wis: 28
+Con: 38
+Cha: 15
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 4 135
+Skill: 136 135
+E
+T 20534
+#20508
+ болотный хмырь~
+болотный хмырь~
+болотного хмыря~
+болотному хмырю~
+болотного хмыря~
+болотным хмырем~
+болотном хмыре~
+Злой дух парит над болотом.
+~
+Злой дух, живущий в болоте и заманивающий людей в омуты.
+~
+d0f0m0n0o0t0x0z0q1g2h2 d0k0m0n0C0k1w1x1 -600 E
+35 3 -3 10d10+4500 16d16+0
+0d0+0 551000
+8 8 1
+Saves: 0 -15 -40 -3
+Resistances: 0 50 0 0 0 0 0
+Armour: 90
+CastSuccess: 30
+Absorbe: 90
+Str: 29
+Dex: 30
+Int: 23
+Wis: 40
+Con: 34
+Cha: 16
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 5 125
+Skill: 7 130
+Skill: 132 125
+Skill: 136 125
+Skill: 140 130
+Skill: 167 100
+E
+#20509
+ кикимора~
+кикимора~
+кикиморы~
+кикиморе~
+кикимору~
+кикиморой~
+кикиморе~
+Болотный дух парит над трясиной.
+~
+Болотный дух, живущий в трясине и заманивающий людей в омуты.
+~
+d0f0m0n0o0t0x0z0q1d2g2h2 d0k0m0n0C0k1x1 -600 E
+35 3 -3 10d10+4500 16d16+0
+0d0+0 551000
+8 8 2
+Saves: 0 -25 -35 -15
+Resistances: 0 40 0 0 25 0 15
+Armour: 95
+CastSuccess: 90
+Absorbe: 95
+Str: 29
+Dex: 30
+Int: 23
+Wis: 40
+Con: 34
+Cha: 16
+Size: 100
+LikeWork: 80
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3 
+Skill: 7 130
+Skill: 22 115
+Skill: 136 135
+Skill: 140 130
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+E
+I чешуя,10:10
+#20510
+ караконджал~
+караконджал~
+караконджала~
+караконджалу~
+караконджала~
+караконджалом~
+караконджале~
+Чудное существо бредет сквозь болота.
+~
+Рогатое, косматое, безобразное, существо, нападающее на людей в болотах и 
+ездящая на них верхом до первых петухов. 
+~
+c0d0f0m0n0o0x0A0g2h2 k0m0n0C0k1w1 -600 E
+34 3 -3 10d10+4500 16d16+0
+0d0+0 551000
+8 8 1
+Saves: -37 -40 -29 -19
+Resistances: 0 0 0 50 5 5 5
+Armour: 45
+Success: 5
+Initiative: 5
+Absorbe: 15
+Str: 29
+Dex: 30
+Int: 23
+Wis: 40
+Con: 34
+Cha: 16
+Size: 100
+LikeWork: 80
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 4 135
+Skill: 136 135
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+E
+#20511
+ бабай~
+Бабай~
+Бабая~
+Бабаю~
+Бабая~
+Бабаем~
+Бабае~
+Кривобокий старик бредет куда-то по деревенской улице.
+~
+Страшный кривобокий старик. Он бродит по улицам с мешком, складывает в 
+него непослушных детей и уносит их на болото. 
+~
+c0d0n0o0x0A0g2j2 d0k0m0n0r0s0t0A0C0j1k1r1w1 -600 E
+36 3 -3 10d10+4500 16d16+0
+15d13+1234 551000
+8 8 1
+Saves: -60 -5 -65 -15
+Resistances: -20 45 50 20 0 0 0
+Armour: 95
+CastSuccess: 60
+Success: 5
+Initiative: 5
+Absorbe: 95
+BareHandAttack: 9
+Destination: 20521
+Destination: 20520
+Destination: 20519
+Destination: 20516
+Destination: 20514
+Destination: 20512
+Destination: 20510
+Destination: 20507
+Destination: 20508
+Str: 31
+Dex: 32
+Int: 20
+Wis: 42
+Con: 37
+Cha: 14
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: a1b1c1 
+Skill: 4 135
+Skill: 133 200
+Skill: 136 135
+Skill: 138 200
+Skill: 139 135
+Skill: 156 200
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+E
+T 20517
+#20512
+ злыдня~
+злыдня~
+злыдни~
+злыдне~
+злыдню~
+злыдней~
+злыдне~
+Изуродованная женщина оперлась на сучковатую палочку.
+~
+Женщина без глаз, ушей и языка, которая в прошлой жизни была змеей. 
+Ее прокляли жители деревни, за черную магию, притягивающую нечисть со всей 
+округе, и теперь она живет на болоте.
+~
+b0c0d0f0m0n0o0x0A0g2 b0d0k0m0n0C0k1r1 -600 E
+37 3 -3 10d10+4500 16d16+0
+0d0+0 551000
+8 8 2
+Saves: -40 -20 -50 -15
+Resistances: -20 0 0 40 0 0 0
+Armour: 30
+PlusMem: 200
+CastSuccess: 60
+Success: 5
+Initiative: 5
+Absorbe: 5
+Str: 29
+Dex: 30
+Int: 23
+Wis: 40
+Con: 34
+Cha: 16
+Size: 100
+LikeWork: 95
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 136 125
+Skill: 150 125
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 94
+E
+T 20536
+#20513
+ лихо одноглазое~
+Лихо Одноглазое~
+Лиха Одноглазого~
+Лиху Одноглазому~
+Лихо Одноглазое~
+Лихом Одноглазого~
+Лихе Одноглазом~
+Комок злобы и несчастья перекатывается здесь, отбрасывая черную тень на весь островок.
+~
+Коли слаб человек, да не может противостоять повседневным трудностям, 
+привяжется до него Лихо Одноглазое, и будет до конца жизни пакости сотворять.
+~
+b0d0m0n0o0x0z0g2 c0d0e0f0h0k0m0n0r0x0z0A0C0b1m1o1t1x1 -600 E
+42 -30 -4 10d10+15000 17d17+0
+0d0+0 2500000
+8 8 0
+Saves: -85 -35 -85 -35
+Resistances: -15 40 40 40 50 50 50
+HPreg: 200
+Armour: 90
+PlusMem: 200
+CastSuccess: 70
+Success: 5
+Initiative: 5
+Absorbe: 90
+BareHandAttack: 12
+Str: 50
+Dex: 22
+Int: 26
+Wis: 27
+Con: 23
+Cha: 26
+Size: 100
+LikeWork: 99
+ExtraAttack: 5
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: a0b0c0d0e0f0 
+Feat: 1
+Skill: 136 140
+Skill: 151 130
+Skill: 165 130
+Helper: 20503
+Helper: 20502
+Helper: 20501
+E
+T 20523
+T 20538
+I копыта,10:10
+#20514
+ деревенский староста~
+деревенский староста~
+деревенского старосты~
+деревенскому старосте~
+деревенский старосту~
+деревенским старостой~
+деревенском старосте~
+Резвый старикан ходит по избе.
+~
+Тщедушный мужичек с очень хитрыми глазенками.
+~
+b0d0o0t0 d0f0k0r1 -600 E
+29 0 -5 10d10+2500 13d13+0
+20d20+5000 250000
+8 8 1
+Str: 32
+Dex: 27
+Int: 41
+Wis: 42
+Con: 31
+Cha: 46
+Size: 100
+LikeWork: 99
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: y0b1c1 
+Skill: 132 150
+Skill: 136 150
+Spell: 28
+Spell: 28
+Spell: 28
+E
+T 20513
+#20515
+ старая бабушка~
+старая бабушка~
+старой бабушки~
+старой бабушке~
+старую бабушку~
+старой бабушкой~
+старой бабушке~
+Добрая бабушка примостилась у печки.
+~
+У этой женщины видно множество морщин от нелегкой жизни, но до сих пор лицо
+сохранило то доброе выражение, с каким пестят и лелеют внуков, а глаза так 
+и светятся добротой.
+~
+b0d0o0t0 d0f0k0r1 -600 E
+30 0 0 10d10+1000 5d13+0
+15d20+13 100000
+8 8 2
+CastSuccess: 80
+Str: 18
+Dex: 13
+Int: 43
+Wis: 48
+Con: 17
+Cha: 35
+Size: 100
+LikeWork: 99
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: y0b1c1 
+Skill: 136 110
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 94
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+E
+T 20519
+#20516
+ деревенский охотник~
+деревенский охотник~
+деревенского охотника~
+деревенскому охотнику~
+деревенского охотника~
+деревенским охотником~
+деревенском охотнике~
+Ловкий охотник топчется здесь на месте.
+~
+Ловкий охотник жаждет действия. Его руки крепко сжимают лук, а глаза горят 
+в поисках приключений.
+~
+d0l0m0n0o0u2 d0f0k0r1 -600 E
+25 -30 -4 10d10+1000 9d11+0
+10d12+12 150000
+8 8 1
+Saves: -85 -50 -95 -60
+Resistances: 25 25 25 25 50 50 50
+HPreg: 100
+Armour: 60
+Success: 20
+Initiative: 20
+Absorbe: 60
+BareHandAttack: 9
+Str: 39
+Dex: 39
+Int: 39
+Wis: 39
+Con: 39
+Cha: 39
+Size: 100
+LikeWork: 99
+ExtraAttack: 4
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 3
+Feat: 7
+Feat: 12
+Feat: 13
+Feat: 17
+Feat: 19
+Feat: 20
+Feat: 21
+Feat: 38
+Feat: 41
+Feat: 42
+Feat: 77
+Feat: 80
+Skill: 137 200
+Skill: 154 200
+Skill: 155 200
+Skill: 157 200
+Skill: 167 200
+E
+#20517
+ пата кабуся~
+Пата-кабуся~
+Пата-кабуси~
+Пата-кабусе~
+Пата-кабусю~
+Пата-кабусей~
+Пата-кабусе~
+Летучая нечисть мечется здесь взад-вперед.
+~
+Живет в большом моховом болоте. Если умершего насильственной смертью не 
+хоронят, прилетает в виде Летающих огней и забирает для какой-то 
+загадочной битвы с неким "врагом в конце Времен". 
+~
+d0f0m0n0o0x0z0q1g2 d0k0m0n0r0s0t0A0C0j1k1r1w1 -600 E
+37 3 -3 10d10+4500 16d16+0
+0d0+0 551000
+8 8 2
+Saves: -95 0 -50 0
+Resistances: -60 0 0 99 0 0 0
+Armour: 60
+CastSuccess: 50
+Absorbe: 25
+BareHandAttack: 9
+Str: 17
+Dex: 27
+Int: 18
+Wis: 42
+Con: 40
+Cha: 14
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 135
+Spell: 45
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 85
+E
+#20518
+ молодая ведьмочка~
+молодая ведьмочка~
+молодой ведьмочки~
+молодой ведьмочке~
+молодую ведьмочку~
+молодой ведьмочкой~
+молодой ведьмочке~
+Симпатичная девушка возится по хозяйству.
+~
+Красивая черноволосая девушка, с карими, чуть раскосыми глазами. 
+Местная травница и знахарка, поселившаяся поодаль от остальных, дабы не 
+волновать темный люд.
+~
+b0d0o0t0 d0f0k0r1 -600 E
+28 0 0 10d10+1000 9d13+0
+15d20+1350 150000
+8 8 2
+Str: 21
+Dex: 16
+Int: 38
+Wis: 37
+Con: 22
+Cha: 39
+Size: 100
+LikeWork: 99
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: y0b1c1 
+Skill: 136 100
+Skill: 156 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+E
+T 20530
+T 20529
+I кожа,10:10
+#20519
+ упырь~
+упырь~
+упыря~
+упырю~
+упыря~
+упырем~
+упыре~
+Мертвец с красными глазами бредет по земле.
+~
+Колдуны и ведьмы, которых не принимает земля после смерти, вынуждены 
+скитаться в ночи, выходя из своих могил и высасывая кровь, у неосторожных 
+прохожих. Сюда их притягивают знакомые запахи магических зелий.
+~
+d0f0m0n0o0i1g2 h0k0m0n0C0w1 -600 E
+32 5 0 10d10+4000 15d15+0
+0d0+0 401000
+8 8 1
+Str: 34
+Dex: 20
+Int: 17
+Wis: 17
+Con: 30
+Cha: 16
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 125
+Skill: 165 125
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+E
+#20520
+ зеленая тварь~
+зеленая тварь~
+зеленой твари~
+зеленой тварью~
+зеленую тварь~
+зеленой тварью~
+зеленой тваре~
+Бесформенная темно-зеленая масса расползлась перед Вами.
+~
+Е-мое! Живое болото!
+~
+c0d0f0m0n0o0x0A0q1g2h2 d0k0m0n0C0k1t1 -600 E
+32 4 0 10d10+4500 16d16+0
+0d0+0 450000
+8 8 2
+Saves: -70 0 -130 0
+Armour: 60
+Absorbe: 50
+BareHandAttack: 2
+Str: 50
+Dex: 50
+Int: 10
+Wis: 10
+Con: 50
+Cha: 10
+Size: 100
+LikeWork: 80
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 135
+Skill: 157 135
+E
+#20521
+ тинник~
+тинник~
+тинника~
+тиннику~
+тинника~
+тинником~
+тиннике~
+Бесформенная темно-зеленая масса расползлась перед Вами.
+~
+Этот зверь выросший в болоте, и укрывающийся в тине, был оставлен на болоте 
+еще совсем маленьким, но умудрился выжить.
+~
+c0d0f0m0n0o0x0A0g2 d0k0k1m1t1 -600 E
+34 4 10 10d10+6000 17d20+0
+0d0+0 600000
+8 8 2
+Saves: -45 -45 -45 -45
+Resistances: -35 50 40 60 0 0 0
+HPreg: 200
+Armour: 40
+CastSuccess: 65
+Success: 5
+BareHandAttack: 4
+Str: 35
+Dex: 40
+Int: 16
+Wis: 30
+Con: 40
+Cha: 16
+Size: 100
+LikeWork: 90
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 5 135
+Skill: 134 135
+Skill: 136 135
+Skill: 150 135
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+E
+#20522
+ усатый таракан~
+усатый таракан~
+усатого таракана~
+усатому таракану~
+усатого таракана~
+усатым тараканом~
+усатом таракане~
+Маленький таракан с длинными усищами бегает по полу.
+~
+Насекомое чем-то очень не довольно. Видимо раздавили его собрата.
+~
+b0d0f0o0 d0f0k0r0A0m1r1 -600 E
+10 -10 -10 5d10+5 5d4+0
+0d0+0 1000
+8 8 1
+BareHandAttack: 4
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Feat: 1
+Skill: 136 100
+E
+T 20532
+I глаза,10:10
+#20523
+ большой усатый таракан~
+большой усатый таракан~
+большого усатого таракана~
+большому усатому таракану~
+большого усатого таракана~
+большим усатым тараканом~
+большом усатом таракане~
+Маленький таракан с длинными усищами бегает по полу.
+~
+Насекомое чем-то очень не довольно. Видимо раздавили его собрата.
+~
+b0d0f0o0 d0f0k0r0A0m1r1t1 -600 E
+12 -10 -10 10d10+20 7d7+0
+0d0+0 5000
+8 8 1
+BareHandAttack: 14
+Str: 15
+Dex: 15
+Int: 10
+Wis: 10
+Con: 15
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 125
+E
+T 20533
+#20524
+ молодая девушка~
+молодая девушка~
+молодой девушки~
+молодой девушке~
+молодую девушку~
+молодой девушкой~
+молодой девушке~
+Красивая девчина идет по своим делам.
+~
+У девушки довольно милое личико. Да и фигурка ничего.
+~
+c0d0o0A0 d0k0 -600 E
+25 0 -5 10d10+1000 9d11+0
+10d12+12 100000
+8 8 1
+BareHandAttack: 8
+Str: 32
+Dex: 33
+Int: 31
+Wis: 40
+Con: 20
+Cha: 50
+Size: 100
+LikeWork: 80
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 2 100
+Skill: 136 100
+Spell: 28
+E
+T 20535
+I кожа,10:10
+#20525
+ бабка~
+бабка~
+бабки~
+бабке~
+бабку~
+бабкой~
+бабке~
+Бабушка с клюкой тихонько бредет к соседке посплетничать.
+~
+Пожилай деревенская женщина.
+~
+c0d0o0A0 d0k0 -600 E
+27 0 -5 10d10+1000 9d11+0
+10d12+1250 100000
+8 8 1
+Str: 26
+Dex: 29
+Int: 33
+Wis: 43
+Con: 18
+Cha: 24
+Size: 100
+LikeWork: 95
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 2 100
+Skill: 136 100
+Spell: 48
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+E
+I зубы,10:10
+$

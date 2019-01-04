@@ -19,9 +19,11 @@ Destination: 15905
 Size: 50
 LikeWork: 20
 Class: 102
+Race: 101
 Height: 180
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #15901
 Сухонький дядечка~
@@ -41,9 +43,11 @@ b0d0g0n0o0p0B0f2 c0d0e0f0k0 0 E
 8 8 1
 Size: 60
 Class: 102
+Race: 101
 Height: 90
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #15902
 Зверовод Геша~
@@ -63,10 +67,13 @@ b0d0g0n0o0p0B0f2 c0d0e0f0k0 0 E
 8 8 1
 Size: 60
 Class: 102
+Race: 101
 Height: 90
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 75
 E
+T 15971
 #15903
 Мудрый дед~
 Мудрый дед~
@@ -80,15 +87,17 @@ E
 Старый мудрый дед с пронзительным взглядом и окладистой бородкой
 заглядывает тебе прямо в душу.
 ~
-b0d0g0n0o0p0B0f2 c0d0e0f0k0 0 E
+b0d0g0n0o0p0B0f2u2 c0d0e0f0k0 0 E
 26 10 3 0d0+100 0d0+0
 0d0+0 0
 8 8 1
 Size: 40
 Class: 102
+Race: 101
 Height: 180
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 78
 E
 #15904
 Кухарка Клуша~
@@ -108,9 +117,11 @@ b0d0g0o0p0q0B0f2 c0d0e0k0 0 E
 8 8 2
 Size: 100
 Class: 102
+Race: 101
 Height: 170
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #15905
 Седенькая старушка~
@@ -126,22 +137,24 @@ E
 ~
 b0d0g0o0p0q0B0f2 d0e0f0k0 0 E
 25 2 -5 0d0+100 1d1+10
-0d0+0 0
+0d0+150000 0
 8 8 2
 Size: 42
 Class: 102
+Race: 101
 Height: 160
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #15906
 Наемница Конни~
 Наемница Конни~
-Наемница Конни~
-Наемница Конни~
-Наемница Конни~
-Наемница Конни~
-Наемница Конни~
+Наемницы Конни~
+Наемнице Конни~
+Наемницу Конни~
+Наемницей Конни~
+Наемнице Конни~
 Зеленоглазая Наемница охраняет ворота.
 ~
 Зеленоглазая Девушка охраняет ворота. Ее лицо скрывает черный платок,
@@ -166,32 +179,59 @@ Size: 52
 LikeWork: 14
 ExtraAttack: 3
 Class: 104
+Race: 104
 Height: 190
 Weight: 120
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 12 100
 Skill: 21 100
 Skill: 132 100
+Skill: 136 117
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
 Spell: 79
 Spell: 79
 Spell: 79
 Spell: 79
 Spell: 79
-Spell: 82
-Spell: 82
-Spell: 82
-Spell: 82
-Spell: 82
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 94
-Spell: 94
-Spell: 94
-Spell: 94
-Spell: 94
 E
 #15907
 тушканчик лупоглазый~
@@ -207,19 +247,28 @@ E
   на солнышке и слегка колышется.....так и хочеться  его погладить! Но стоило Вам 
 протнуть руку чтобы осуществить данное намериние, как его маленькие острые зубки
  впились Вам в палец....этот зверек верно служит лишь своему хозяину, а именно 
-Лесной Дружине.
+Дружине Отшельников.
 ~
-b0d0h0n0o0s0a1f2 0 0 E
-25 10 0 1d1+120 2d2+2
+b0d0h0n0o0p0s0t0a1f2 0 0 E
+20 15 0 1d1+120 2d2+2
 0d0+0 0
 8 8 1
 BareHandAttack: 4
-Size: 50
+Str: 12
+Dex: 12
+Int: 10
+Wis: 10
+Con: 12
+Cha: 10
+Size: 100
 Class: 103
-Height: 170
-Weight: 50
+Race: 104
+Height: 100
+Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 E
+T 15972
 #15908
 Ямщик Федя~
 Ямщик Федя~
@@ -248,9 +297,11 @@ Size: 100
 LikeWork: 5
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
+Skill: 136 84
 E
 #15909
 Охранитель~
@@ -284,9 +335,11 @@ Size: 50
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 78
 E
 #15910
 Наемник Ерема~
@@ -317,8 +370,579 @@ Size: 60
 LikeWork: 11
 ExtraAttack: 3
 Class: 104
+Race: 101
 Height: 180
 Weight: 200
 Special_Bitvector: a1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 90
 E
+#15911
+смотритель зверинца~
+смотритель зверинца~
+смотрителя зверинца~
+смотрителю зверинца~
+смотрителя зверинца~
+смотрителем зверинца~
+смотрителе зверинца~
+Смотритель зверинца смотрит на вас, сложив на груди мускулистые ручищи.
+~
+Приземистый звероподобный детина с непомерной ширины плечами, 
+огромными, перевитыми узловатыми мускулами руками и невыразительной
+физиономией. Облачен он в поношенные кожаные штаны и высокие сапоги со шнурокой.
+~
+b0d0g0n0o0x0f2 d0f0k0 0 E
+30 0 0 1d100+1100 10d10+10
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 20
+Int: 23
+Wis: 12
+Con: 31
+Cha: 3
+Size: 55
+LikeWork: 90
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 185
+Weight: 189
+Special_Bitvector: 0 
+Skill: 136 90
+E
+T 15987
+#15912
+черноперый грифон~
+черноперый грифон~
+черноперого грифона~
+черноперому грифону~
+черноперого грифона~
+черноперым грифоном~
+чернопером грифоне~
+Огромный черноперый грифон злобно глядит на вас.
+~
+Огромное чудище с головой и крыльями орла и телом льва.
+Его красные глаза взирают на вас удивительно умным, но пылающим яростью
+и злобой взором.
+~
+d0f0l0m0n0o0z0b1t1f2 d0k0x0m1r1 -500 E
+30 -2 0 1d100+3500 10d11+20
+0d0+0 0
+8 8 1
+BareHandAttack: 15
+Str: 28
+Dex: 27
+Int: 21
+Wis: 18
+Con: 27
+Cha: 18
+Size: 60
+LikeWork: 75
+ExtraAttack: 2
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Skill: 4 100
+Skill: 21 30
+Skill: 22 90
+Skill: 132 120
+Skill: 136 100
+Skill: 150 50
+Skill: 157 140
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 83
+Spell: 83
+Spell: 83
+E
+T 15980
+T 15979
+#15913
+див~
+див~
+дива~
+диву~
+дива~
+дивом~
+диве~
+Страшная черная птица летает здесь.
+~
+Жуткого вида громадная черная птица, клюв которой украшен острыми зубами.
+Дивы - птицы войны, смерти и разрушения.
+~
+d0f0m0n0o0z0b1c2f2 d0f0k0A0m1q1 -500 E
+29 20 8 1d100+2500 5d5+5
+0d0+0 0
+8 8 1
+PlusMem: 100
+CastSuccess: 80
+BareHandAttack: 1
+Str: 28
+Dex: 35
+Int: 29
+Wis: 45
+Con: 16
+Cha: 19
+Size: 55
+LikeWork: 90
+Class: 105
+Race: 105
+Height: 198
+Weight: 120
+Special_Bitvector: l0 
+Skill: 4 60
+Skill: 22 90
+Skill: 136 87
+Skill: 157 70
+Skill: 158 100
+Skill: 167 50
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 68
+Spell: 68
+Spell: 79
+Spell: 79
+Spell: 94
+Spell: 94
+Spell: 113
+Spell: 113
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 137
+Spell: 137
+Spell: 137
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+E
+T 15980
+T 15979
+#15914
+огромный зверь альфин~
+альфин~
+альфина~
+альфину~
+альфина~
+альфином~
+альфиное~
+Огромный зверь в пестрой шкуре припал к земле, готовясь к прыжку.
+~
+Похожий на тигра зверь, но более густой шерстью, короткой гривой и вытянутыми ушами.
+Передние лапы его в точности походят на орлиные.
+~
+d0f0m0n0o0z0f2 d0f0k0m1 -400 E
+29 -10 -5 1d100+2000 4d9+12
+0d0+0 100000
+8 8 1
+BareHandAttack: 1
+Str: 25
+Dex: 40
+Int: 21
+Wis: 16
+Con: 42
+Cha: 16
+Size: 70
+LikeWork: 100
+ExtraAttack: 1
+Class: 103
+Race: 104
+Height: 198
+Weight: 180
+Special_Bitvector: 0 
+Skill: 22 180
+Skill: 132 100
+Skill: 136 87
+Skill: 137 120
+Skill: 158 110
+Spell: 124
+Spell: 144
+E
+T 15980
+T 15979
+#15915
+нага~
+нага~
+наги~
+наге~
+нагу~
+нагой~
+наге~
+Шестирукий змеечеловек сжимает шесть сверкающих клинков.
+~
+Прекрасная женщина, чье тело ниже пояса представлет собой извиваюющееся
+змеиное туловище. Глаза у нее тоже змеиные, а волосы похожи на живых змей.
+~
+d0f0m0n0o0z0p1f2 d0f0k0A0m1x1y1 -500 E
+30 -15 4 1d100+5000 10d13+20
+0d0+0 0
+8 8 2
+BareHandAttack: 3
+Str: 36
+Dex: 40
+Int: 30
+Wis: 32
+Con: 28
+Cha: 21
+Size: 55
+LikeWork: 70
+ExtraAttack: 5
+Class: 104
+Race: 104
+Height: 160
+Weight: 180
+Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 21 100
+Skill: 22 100
+Skill: 132 90
+Skill: 136 100
+Skill: 137 80
+Skill: 149 90
+Skill: 150 120
+Skill: 157 100
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+T 15980
+T 15979
+#15916
+куролиск~
+куролиск~
+куролиска~
+куролиску~
+куролиска~
+куролиском~
+куролиске~
+Куролиск кинулся на вас, целясь тонким клювом в горло.
+~
+Поджарое тело ящерицы оканчивается птичьей головой с тонким,
+острым как шило клювом. Просторные крылья нетопыря удерживают
+это создание в воздухе.
+~
+d0f0h0l0m0n0o0z0b1f2 d0f0k0p0s0t0x0z0A0x1y1z1 -500 E
+30 -5 -2 1d100+2000 8d10+20
+0d0+0 0
+8 8 1
+Resistances: 0 0 0 0 150 0 0
+BareHandAttack: 11
+Str: 35
+Dex: 42
+Int: 36
+Wis: 28
+Con: 27
+Cha: 18
+Size: 40
+LikeWork: 80
+ExtraAttack: 2
+Class: 103
+Race: 104
+Height: 120
+Weight: 80
+Special_Bitvector: g0i0l0u0 
+Skill: 6 100
+Skill: 22 100
+Skill: 131 90
+Skill: 136 90
+Skill: 138 120
+Skill: 157 180
+Skill: 167 80
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 28
+Spell: 28
+Spell: 28
+E
+T 15980
+T 15979
+T 15974
+T 15990
+#15917
+сильф создание тумана~
+сильф~
+сильфа~
+сильфу~
+сильфа~
+сильфом~
+сильфе~
+Похожее на клубок густого синего тумана создание летает здесь.
+~
+Клубок синего тумана размером с рослого человека, в котором
+вилнеются прозрачные голубые глаза, плоский широкий рот и
+множество похожих на крылья летучих мышей дллинных и тонких
+отростков.
+~
+d0f0m0n0o0z0c2f2 d0f0k0n0r0A0m1x1z1 -400 E
+30 20 -9 1d100+5000 5d5+5
+0d0+0 0
+8 8 1
+AResist: 50
+BareHandAttack: 2
+Dex: 30
+Int: 32
+Wis: 35
+Con: 35
+Cha: 19
+Size: 70
+LikeWork: 80
+Class: 105
+Race: 105
+Height: 198
+Weight: 100
+Special_Bitvector: l0u0 
+Skill: 22 80
+Skill: 31 100
+Skill: 136 90
+Skill: 157 90
+Skill: 166 100
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 96
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+E
+T 15980
+T 15979
+#15918
+arenmob159 хмурый богатырь~
+хмурый богатырь~
+хмурого богатыря~
+хмурому богатырю~
+хмурого богатыря~
+хмурым богатырем~
+хмуром богатыре~
+Громадный богатырь отдыхает тут.
+~
+Громадныого размеру детинушка, шириной с дверь вместительного сарая.
+Судя по его огромным, покрытым каменными мозолями кулачищам любому оружию 
+он предпочитает собственные руки.
+~
+b0d0o0z0f2 k0r0v0m1v1 0 E
+28 -4 0 1d1+1100 18d6+5
+0d0+0 0
+8 8 1
+Str: 27
+Dex: 25
+Int: 19
+Wis: 14
+Con: 30
+Cha: 12
+Size: 60
+LikeWork: 90
+ExtraAttack: 2
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: y0b1c1 
+Skill: 4 80
+Skill: 22 100
+Skill: 136 100
+Skill: 137 100
+Skill: 142 100
+Skill: 143 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 149 80
+Skill: 154 100
+Skill: 158 100
+E
+T 15988
+T 15979
 $

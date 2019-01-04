@@ -3,8 +3,8 @@
 2 c 0
 раскопать разгрести расширить~
 if !%arg.contains(лаз)%
-   return 1
-   halt
+  return 1
+  halt
 end
 wait 1
 wsend       %actor% Вы начали расширять лаз.
@@ -21,8 +21,8 @@ detach 14500 %self.id%
 убитадуша~
 0 f 100
 ~
-    calcuid qroom 14525 room
-    attach  14502 %qroom.id%
+calcuid qroom 14525 room
+attach  14502 %qroom.id%
 mecho   Душа со сдавленным стоном растворилась в пустоте...
 ~
 #14502
@@ -31,17 +31,17 @@ mecho   Душа со сдавленным стоном растворилась в пустоте...
 воткнуть вонзить~
 calcuid corpse 14500 obj
 if !%corpse% || !%arg.contains(меч)%
-halt
+  halt
 end
 if %exist.obj(14507)%
-calcuid gladius 14507 obj
+  calcuid gladius 14507 obj
 else
-%send% %actor% У вас этого нет!
-halt
+  %send% %actor% У вас этого нет!
+  halt
 end
 set sword  %actor.eq(16)%
 if %sword.vnum% != 14507
-halt
+  halt
 end
 wait 1
 wsend %actor% Вы воткнули старинный меч в полуразвалившийся костяк...
@@ -52,50 +52,56 @@ wpurge %corpse%
 wait 1
 wpurge %gladius%
 if (%actor.class% == 13)
-if (%world.curobjs(230)% < 50 & %random.2%==2)
-wecho На этом месте осталась лишь древняя руна...
-wload obj 230
-detach 14502 %self.id%
-halt
+  if (%world.curobjs(230)% < 100 && %random.1000% <= 450)
+    wecho На этом месте осталась лишь древняя руна...
+    wload obj 230
+    detach 14502 %self.id%
+    halt
+  end
 end
-end
-switch %random.6%
-case 1
-if (%world.gameobs(14501)% < 10)
-wecho На этом месте остался лишь потрескавший от времени щит...
-wload obj 14501 
-end
-break
-case 2
-if (%world.gameobs(14502)% < 10)
-wecho На этом месте осталось лишь почерневшее от времени лезвие...
-wload obj 14502 
-end
-break
-case 3
-if (%world.curobjs(14503)% < 15)
-wecho На этом месте осталось лишь темное колечко...
-wload obj 14503 
-end
-break
-case 4
-if (%world.curobjs(14504)% < 15)
-wecho На этом месте осталась лишь обугленная кость...
-wload obj 14504
-end
-break
-case 5
-if (%world.curobjs(14505)% < 15)
-wecho На этом месте осталась лишь погнутая железная пластина...
-wload obj 14505
-end
-break
-case 6
-if (%world.curobjs(230)% < 50)
-wecho На этом месте осталась лишь древняя руна...
-wload obj 230
-end
-break
+switch %random.7%
+  case 1
+    if (%world.gameobs(14501)% < 10)
+      wecho На этом месте остался лишь потрескавшийся от времени щит...
+      wload obj 14501 
+    end
+  break
+  case 2
+    if (%world.gameobs(14502)% < 10)
+      wecho На этом месте осталось лишь почерневшее от времени лезвие...
+      wload obj 14502 
+    end
+  break
+  case 3
+    if (%world.curobjs(14503)% < 15)
+      wecho На этом месте осталось лишь темное колечко...
+      wload obj 14503 
+    end
+  break
+  case 4
+    if (%world.curobjs(14504)% < 15)
+      wecho На этом месте осталась лишь обугленная кость...
+      wload obj 14504
+    end
+  break
+  case 5
+    if (%world.curobjs(14505)% < 15)
+      wecho На этом месте осталась лишь погнутая железная пластина...
+      wload obj 14505
+    end
+  break
+  case 6
+    if (%world.curobjs(230)% < 50)
+      wecho На этом месте осталась лишь древняя руна...
+      wload obj 230
+    end
+  break
+  case 7
+    if %random.1000% <= 460
+      wload obj 1704
+      wecho На этом месте осталась лишь старая книга...
+    end
+  break
 done
 detach 14502 %self.id%
 ~
@@ -113,11 +119,12 @@ wpurge  %spirit%
 ~
 wait 1
 if %self.haveobj(14507)%
-  mpurge старинный
+  calcuid sword 14507 obj
+  mpurge %sword%
 end
 if (%exist.obj(14507)% == 1)
-   msend %actor% Старик осенил Вас размашистым крестом.
-   halt
+  msend %actor% Старик осенил Вас размашистым крестом.
+  halt
 end
 msend %actor% - Здраве буде, %actor.name%, да будет твой путь по земле долгим.
 msend %actor% Священник наклонил голову, приветствуя Вас.
@@ -139,7 +146,7 @@ msend %actor% Старик замолк.
 0 d 1
 слушаю продолжай~
 if %actor.vnum% != -1
-   halt
+  halt
 end
 wait 1
 msend %actor% - Было это давно, городища почитай не было.
@@ -160,7 +167,7 @@ msend %actor% Старик осенил себя размашистым крестом.
 wait 1s
 msend %actor% - Вот и выходит его душа ночами, прибежища ищет.
 msend %actor% - Упокоить душу можно только вот этим мечом.
-msend %actor% (старик достал из-за божицы проржавевшее лезвие)
+msend %actor% (старик достал из-за божницы проржавевшее лезвие)
 msend %actor% - Просто воткни его в костяк, душа сама путь найдет.
 msend %actor% - Только лаз сперва раскопай, чтобы к колоде пройти.
 mload obj 14507

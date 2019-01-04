@@ -1,0 +1,1712 @@
+#89900
+патрульный рыцарь ливонец~
+патрульный рыцарь~
+патрульного рыцаря~
+патрульному рыцарю~
+патрульного рыцаря~
+патрульным рыцарем~
+патрульном рыцаре~
+Патрульный рыцарь внимательно смотрит на вас.
+~
+Здоровый немецкий мужик, белокурые волосы 
+выбиваются из-под шлема. На лице написано
+желание отведать местной самогоночки, нежели 
+шататься по периметру лагеря.
+~
+c0d0j0m0n0o0x0A0 k0r0 0 E
+26 3 -6 20d10+1200 7d12+18
+5d5+50 196000
+8 8 1
+BareHandAttack: 7
+Str: 21
+Dex: 17
+Int: 14
+Wis: 16
+Con: 23
+Cha: 10
+Size: 50
+LikeWork: 75
+MaxFactor: 6
+ExtraAttack: 1
+Class: 104
+Height: 199
+Weight: 145
+Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 132 50
+Skill: 136 80
+Skill: 143 80
+Skill: 150 50
+Spell: 28
+Spell: 93
+Spell: 93
+Spell: 93
+E
+T 89927
+T 89937
+T 89940
+#89901
+патрульный рыцарь ливонец~
+ливонский рыцарь~
+ливонского рыцаря~
+ливонскому рыцарю~
+ливонского рыцаря~
+ливонским рыцарем~
+ливонском рыцаре~
+Ливонский рыцарь дышит свежим воздухом, гуляя по лагерю.
+~
+Суровый рыцарь, просто млеет от местных просторов.
+~
+d0l0n0o0p0A0 k0r0 0 E
+30 4 -3 10d30+1500 6d8+22
+10d5+50 200000
+8 8 1
+Saves: 0 0 0 20
+BareHandAttack: 3
+Str: 25
+Dex: 21
+Int: 16
+Wis: 12
+Con: 23
+Cha: 13
+Size: 55
+LikeWork: 80
+ExtraAttack: 1
+Class: 104
+Height: 190
+Weight: 110
+Special_Bitvector: C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 5 80
+Skill: 22 40
+Skill: 136 80
+Skill: 137 100
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 40
+Spell: 93
+Spell: 93
+E
+T 89940
+#89902
+Магистр ордена~
+магистр ордена~
+магистра ордена~
+магистру ордена~
+магистра ордена~
+магистром ордена~
+магистре ордена~
+Магистр ордена восседает здесь.
+~
+Седой вояка, суровое лицо, надменный взгляд и 
+непоколебимая уверенность в превосходстве над
+варварами.
+~
+b0c0d0m0n0o0t0x0A0p1 r0 0 E
+29 5 -4 20d30+1100 4d2+2
+10d10+500 300000
+8 8 1
+Str: 16
+Dex: 14
+Int: 25
+Wis: 22
+Con: 19
+Cha: 13
+Size: 50
+LikeWork: 80
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 22 80
+Skill: 132 30
+Skill: 136 87
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 48
+Spell: 48
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 94
+Helper: 89900
+E
+T 89902
+T 89919
+#89903
+шведский посол~
+посол~
+посла~
+послу~
+посла~
+послом~
+после~
+Шведский посол неторопливо шагает здесь.
+~
+Одетый по последней европейской моде, с надменным видом
+прогуливается по лагерю: "мол, и чего это меня сюда занесло?"
+И впрямь, чего?
+~
+d0g0h0m0n0o0p0r0t0u0x0 d0f0k0 0 E
+24 5 -2 20d10+900 8d8+10
+10d5+200 165000
+8 8 1
+Str: 23
+Dex: 18
+Int: 15
+Wis: 16
+Con: 16
+Cha: 14
+Size: 50
+LikeWork: 40
+ExtraAttack: 1
+Class: 102
+Height: 160
+Weight: 60
+Special_Bitvector: 0 
+Skill: 4 60
+Skill: 136 50
+Skill: 141 80
+Skill: 143 80
+Skill: 148 80
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 93
+Spell: 94
+Spell: 137
+Spell: 137
+E
+#89904
+рыцарь охранник~
+рыцарь-охранник~
+рыцаря-охранника~
+рыцарю-охраннику~
+рыцаря-охранника~
+рыцарем-охранником~
+рыцаре-охраннике~
+Рыцарь внимательно уставился на вас.
+~
+Верный телохранитель магистра, не моргнув глазом сложит
+голову за него.
+~
+b0c0d0l0m0n0o0A0 r0C0 0 E
+26 8 -3 10d10+1200 6d8+16
+20d5+20 195000
+8 8 1
+BareHandAttack: 3
+Str: 23
+Dex: 14
+Int: 16
+Wis: 12
+Con: 21
+Cha: 7
+Size: 55
+LikeWork: 95
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 1 80
+Skill: 4 60
+Skill: 21 20
+Skill: 132 70
+Skill: 136 78
+Skill: 137 80
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+E
+T 89940
+#89905
+лекарь иоганн~
+лекарь Иоганн~
+лекаря Иоганна~
+лекарю Иоганну~
+лекаря Иоганна~
+лекарем Иоганном~
+лекаре Иоганне~
+Лекарь Иоганн читает какую-то рукопись.
+~
+Измученный подагрой и алкоголем старикашка.
+~
+b0c0d0e0l0n0o0u0 0 -600 E
+30 4 -4 10d10+1200 9d8+9
+10d10+120 142000
+8 8 1
+Str: 18
+Dex: 14
+Int: 22
+Wis: 27
+Con: 15
+Cha: 12
+Size: 50
+LikeWork: 70
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 5 60
+Skill: 22 40
+Skill: 134 100
+Skill: 136 90
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 33
+Spell: 33
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 93
+Spell: 93
+Spell: 94
+Helper: 89909
+E
+#89906
+папский легат~
+легат~
+легата~
+легату~
+легата~
+легатом~
+легате~
+Папский легат холодно оглядывает вас взглядом прозрачных выкаченных глазок.
+~
+Маленькие бегающие глазки, нервные пальцы, неприятный запах изо рта.
+По виду легата видно, что он не пренебрегает многими грехами - чревоугодием,
+красным рейнским вином и непотребными девками.
+
+~
+b0c0d0e0g0l0m0n0o0A0b2 k0 -600 E
+28 3 -5 21d11+1400 8d6+10
+10d10+400 250000
+8 8 1
+Str: 19
+Dex: 12
+Int: 23
+Wis: 24
+Con: 23
+Cha: 6
+Size: 50
+LikeWork: 80
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: f0m3 
+Skill: 4 40
+Skill: 22 50
+Skill: 136 84
+Skill: 166 50
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 82
+Spell: 82
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 111
+Helper: 89908
+E
+T 89933
+T 89914
+#89907
+германский рыцарь ливонец~
+германский рыцарь~
+германского рыцаря~
+германскому рыцарю~
+германского рыцаря~
+германским рыцарем~
+германском рыцаре~
+Свободный от работ по лагерю, рыцарь отдыхает здесь.
+~
+Молодой рыцарь наслаждается ничегониделанием.
+~
+b0d0l0m0n0o0A0 d0r0 0 E
+25 2 -5 10d10+1000 8d18+22
+6d5+120 123000
+5 5 1
+BareHandAttack: 7
+Str: 24
+Dex: 18
+Int: 13
+Wis: 14
+Con: 23
+Cha: 7
+Size: 50
+LikeWork: 65
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 150
+Special_Bitvector: b1c1C3 
+Skill: 5 80
+Skill: 22 20
+Skill: 134 80
+Skill: 136 75
+Skill: 150 60
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+E
+T 89935
+T 89940
+#89908
+караульный рыцарь~
+караульный~
+караульного~
+караульному~
+караульного~
+караульным~
+караульном~
+Личный караульный легата, охраняет покой священной особы.
+~
+Здоровый рыцарь, со следами разложения на лице,
+от него идет явственный запах гнили. Да он, кажется,
+и не дышит вовсе!
+~
+b0d0g0l0m0n0o0z0i2 d0k0 -600 E
+24 4 -4 10d5+750 8d8+12
+0d0+20 85000
+8 8 1
+BareHandAttack: 3
+Str: 23
+Dex: 18
+Int: 12
+Wis: 12
+Con: 21
+Cha: 3
+Size: 60
+LikeWork: 75
+ExtraAttack: 1
+Class: 102
+Height: 185
+Weight: 95
+Special_Bitvector: 0 
+Skill: 132 50
+Skill: 136 72
+Skill: 151 80
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 69
+Spell: 69
+Spell: 69
+Spell: 69
+E
+T 89940
+#89909
+больной рыцарь ливонец~
+больной рыцарь~
+больного рыцаря~
+больному рыцарю~
+больного рыцаря~
+больным рыцарем~
+больном рыцаре~
+Рыцарь мучающийся расстройством желудка жалобно постанывает.
+~
+Покрытый испариной лоб, мутные глаза, дурной запах - 
+сразу и не разберешь несварение у него или похмелье
+с сурового деревенского самогона.
+~
+b0d0h0l0m0n0o0b2 k0 0 E
+22 20 10 1d1+850 7d6+14
+0d0+40 86000
+6 6 1
+Str: 18
+Dex: 12
+Int: 5
+Wis: 5
+Con: 15
+Cha: 3
+Size: 30
+LikeWork: 20
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 134 80
+Skill: 136 66
+E
+T 89940
+#89910
+мертвый ятвяг труп~
+мертвый ятвяг~
+мертвого ятвяга~
+мертвому ятвягу~
+мертвого ятвяга~
+мертвым ятвягом~
+мертвом ятвяге~
+Мертвый ятвяг жаждет человечины.
+~
+Голый остов того, что когда-то было человеком. Сквозь разлагающуюся
+плоть видны кости скелета. По нему в изобилии ползают черви и другие
+малоприятные гады.
+~
+b0d0f0g0n0o0p0r0z0a2i2 d0k0t0 -600 E
+25 20 -8 40d10+1000 8d12+18
+0d0+0 120000
+8 8 1
+BareHandAttack: 1
+Str: 22
+Dex: 12
+Int: 13
+Wis: 10
+Con: 15
+Cha: 3
+Size: 50
+LikeWork: 50
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 4 80
+Skill: 136 75
+Skill: 157 70
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+E
+#89911
+мертвый ятвяг труп~
+мертвый эст~
+мертвого эста~
+мертвому эсту~
+мертвого эста~
+мертвым эстом~
+мертвом эсте~
+Мертвый эст жаждет человечины.
+~
+Голый остов того, что когда-то было человеком. Сквозь разлагающуюся
+плоть видны кости скелета. По нему в изобилии ползают черви и другие
+малоприятные гады.
+~
+b0d0g0n0o0p0r0z0i2 c0d0k0t0 -600 E
+25 5 -3 40d10+1000 8d9+18
+0d0+0 120000
+8 8 1
+BareHandAttack: 11
+Str: 25
+Dex: 24
+Int: 12
+Con: 20
+Cha: 3
+Size: 50
+LikeWork: 80
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 131 50
+Skill: 136 75
+Skill: 160 60
+Skill: 167 40
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 28
+Spell: 28
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 69
+Spell: 69
+Spell: 69
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+E
+#89912
+мертвый ливонец труп~
+мертвый ливонец~
+мертвого ливонца~
+мертвому ливонцу~
+мертвого ливонца~
+мертвым ливонцем~
+мертвом дивонце~
+Мертвый ливонец жаждет человечины.
+~
+Голый остов того, что когда-то было человеком. Сквозь разлагающуюся
+плоть видны кости скелета. По нему в изобилии ползают черви и другие
+малоприятные гады.
+~
+b0d0f0g0n0o0p0r0z0i2 c0k0 -600 E
+26 2 -7 40d10+1000 9d9+15
+0d0+0 135000
+8 8 1
+BareHandAttack: 1
+Str: 25
+Dex: 15
+Int: 15
+Wis: 12
+Con: 20
+Cha: 3
+Size: 50
+LikeWork: 80
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 4 70
+Skill: 21 30
+Skill: 136 78
+Spell: 28
+Spell: 28
+Spell: 82
+Spell: 82
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 114
+E
+#89913
+мертвый росич труп~
+мертвый росич~
+мертвого росича~
+мертвому росичу~
+мертвого росича~
+мертвым росичем~
+мертвом росиче~
+Мертвый росич жаждет человечины.
+~
+Голый остов того, что когда-то было человеком. Сквозь разлагающуюся
+плоть видны кости скелета. По нему в изобилии ползают черви и другие
+малоприятные гады.
+~
+b0d0g0n0o0p0r0z0i2 0 -600 E
+28 4 -10 30d10+900 7d6+6
+0d0+0 125000
+8 8 1
+BareHandAttack: 1
+Str: 19
+Dex: 14
+Int: 24
+Wis: 18
+Con: 15
+Cha: 3
+Size: 50
+LikeWork: 80
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 22 50
+Skill: 136 84
+Skill: 157 60
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 36
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 90
+Spell: 90
+Spell: 90
+Spell: 90
+Spell: 90
+Spell: 113
+Spell: 113
+E
+#89914
+дозорный арбалетчик ливонец~
+дозорный арбалетчик~
+дозорного арбалетчика~
+дозорному арбалетчику~
+дозорного арбалетчика~
+дозорным арбалетчиком~
+дозорном арбалетчике~
+Дозорный ливонец любуется живописным пейзажем.
+~
+Суровый германец, всегда готов пустить стрелу в лоб непрошенному гостю.
+~
+b0c0d0g0l0m0n0o0A0 f0k0 -600 E
+28 2 -4 20d10+900 9d10+28
+30d1+10 110000
+8 8 1
+BareHandAttack: 9
+Str: 22
+Dex: 21
+Wis: 12
+Con: 19
+Cha: 5
+Size: 40
+LikeWork: 90
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 132 60
+Skill: 134 90
+Skill: 136 84
+Skill: 137 80
+Skill: 154 50
+Skill: 155 140
+Spell: 28
+E
+T 89928
+#89915
+повар здоровяк~
+повар-здоровяк~
+повара-здоровяка~
+повару-здоровяку~
+повара-здоровяка~
+поваром-здоровяком~
+поваре-здоровяке~
+Повар-здоровяк приветливо улыбается вам.
+~
+Здоровый мужик, с приветливого лица которого, не сходит улыбка.
+Так и хочется улыбнуться в ответ.
+~
+b0d0g0n0o0 d0f0k0r0 600 E
+22 4 -7 60d10+900 5d6+22
+0d0+0 1
+8 8 1
+Str: 25
+Dex: 20
+Int: 10
+Wis: 10
+Con: 25
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 4 100
+Skill: 136 66
+E
+T 89900
+T 89916
+#89916
+пехотинец~
+пехотинец~
+пехотинца~
+пехотинцу~
+пехотинца~
+пехотинцем~
+пехотинце~
+Пехотинец неторопливо проходит мимо, лязгая доспехами.
+~
+Рядовой воин ордена.
+~
+c0d0g0l0m0n0g2 d0k0m0r0z1 -600 E
+30 2 -7 10d35+1100 6d8+26
+5d10+100 180000
+8 8 1
+BareHandAttack: 3
+Str: 24
+Dex: 20
+Int: 19
+Wis: 12
+Con: 25
+Cha: 16
+Size: 30
+LikeWork: 90
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 12 90
+Skill: 22 80
+Skill: 136 80
+Skill: 137 140
+Skill: 157 80
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+E
+T 89940
+#89917
+лучник ливонец~
+лучник~
+лучника~
+лучнику~
+лучника~
+лучником~
+лучнике~
+Лучник прищурясь смотрит на Вас.
+~
+Воин в легких доспехах и луком за спиной.
+~
+d0g0l0m0n0g2 0 -600 E
+30 18 4 10d30+900 9d9+26
+10d10+200 230000
+8 8 1
+BareHandAttack: 9
+Str: 25
+Dex: 19
+Int: 13
+Wis: 13
+Con: 20
+Cha: 4
+Size: 60
+LikeWork: 90
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 132 60
+Skill: 136 90
+Skill: 154 80
+Skill: 155 140
+Skill: 157 80
+Spell: 14
+Spell: 14
+Spell: 79
+Spell: 89
+E
+#89918
+плюгавый конюх мужичонка~
+конюх~
+конюха~
+конюху~
+конюха~
+конюхом~
+конюхе~
+Плюгавый мужичонка ухаживает за конями.
+~
+Грязный вонючий конюх. Так и тянет двинуть ему в морду.
+~
+b0d0n0o0j2 d0f0k0 0 E
+23 4 -3 0d0+400 5d5+6
+5d5+5 1000
+8 8 1
+BareHandAttack: 2
+Str: 17
+Dex: 16
+Int: 8
+Wis: 5
+Con: 12
+Cha: 7
+Size: 10
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 69
+Skill: 157 100
+E
+T 89903
+T 89904
+T 89905
+T 89931
+#89919
+рыцарский конь жеребец~
+рыцарский конь~
+рыцарского коня~
+рыцарскому коню~
+рыцарского коня~
+рыцарским конем~
+рыцарском коне~
+Рыцарский конь стоит здесь.
+~
+   Мощный жеребец.
+~
+b0d0s0x0 C0 0 E
+18 3 -5 10d10+400 5d8+8
+0d0+0 1
+8 8 1
+BareHandAttack: 13
+Str: 25
+Dex: 13
+Int: 3
+Wis: 5
+Con: 27
+Cha: 12
+Size: 100
+ExtraAttack: 1
+Class: 103
+Height: 130
+Weight: 150
+Special_Bitvector: 0 
+Skill: 132 30
+Skill: 136 54
+E
+#89920
+officer899 командир охранник рыцарь ливонец~
+командир охраны~
+командира охраны~
+командиру охраны~
+командира охраны~
+командиром охраны~
+командире охраны~
+Командир охраны магистра стоит здесь.
+~
+Высокий, статный рыцарь.
+~
+b0d0g0l0m0n0o0x0 d0f0k0r0 0 E
+30 2 -7 0d0+1200 6d6+25
+0d0+1200 156000
+8 8 1
+BareHandAttack: 5
+Str: 30
+Dex: 17
+Int: 14
+Wis: 10
+Con: 24
+Cha: 8
+Size: 80
+LikeWork: 75
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 1 100
+Skill: 12 100
+Skill: 22 60
+Skill: 136 80
+Skill: 137 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 47
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+E
+T 89909
+T 89910
+T 89912
+T 89940
+L 89917 100 0 0
+#89921
+темный дух легат душа~
+темный дух~
+темного духа~
+темному духу~
+темного духа~
+темным духом~
+темном духе~
+Темная душа легата витает в воздухе.
+~
+Сгусток темной энергии. От него веет сверхъестественным холодом.
+~
+b0d0f0l0m0n0p0q0t0z0i2 d0f0k0A0 0 E
+33 14 -10 0d0+1500 4d5+12
+0d0+0 220000
+8 8 1
+Str: 20
+Dex: 19
+Int: 26
+Wis: 29
+Con: 12
+Cha: 20
+Size: 30
+LikeWork: 80
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 80
+Skill: 133 100
+Skill: 136 99
+Skill: 157 100
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 137
+Spell: 137
+Helper: 89924
+Helper: 89923
+Helper: 89922
+Helper: 89913
+Helper: 89912
+Helper: 89911
+Helper: 89910
+E
+T 89918
+L 3004 10 0 1
+#89922
+умертвие волк труп~
+умертвие волка~
+умертвия волка~
+умертвию волка~
+умертвие волка~
+умертвием волка~
+умертвие волка~
+Огромный разлагающийся волк, готов разорвать любого.
+~
+Порождение чудовищных экспериментов. На скелете еще остались
+куски разлагающегося мяса и свалявшейся шерсти.
+~
+d0f0g0n0o0z0b2 d0k0 -600 E
+30 6 -8 10d10+800 10d6+6
+0d0+0 85000
+8 8 0
+BareHandAttack: 4
+Str: 21
+Dex: 17
+Wis: 8
+Con: 17
+Cha: 3
+Size: 70
+LikeWork: 70
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 132 100
+Skill: 136 90
+Skill: 157 80
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+E
+#89923
+умертвие медведя труп~
+умертвие медведя~
+умертвия медведя~
+умертвию медведя~
+умертвие медведя~
+умертвием медведя~
+умертвие медведя~
+Полуразложившийся медведь рычит в бессильной тоске.
+~
+Порождение чудовищных экспериментов. На скелете еще остались
+куски разлагающегося мяса и свалявшейся шерсти.
+~
+d0f0g0 d0k0 -600 E
+30 1 -4 10d10+1000 0d0+50
+0d0+0 90000
+8 8 0
+BareHandAttack: 1
+Str: 24
+Dex: 14
+Int: 5
+Wis: 4
+Con: 21
+Cha: 7
+Size: 100
+LikeWork: 70
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 5 80
+Skill: 132 100
+Skill: 136 90
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+E
+#89924
+труп рыцарь мертвый~
+мертвый рыцарь~
+мертвого рыцаря~
+мертвому рыцарю~
+мертвого рыцаря~
+мертвым рыцарем~
+мертвым рыцаре~
+Мертвый рыцарь в остатках ржавых доспехов размахивает мечом.
+~
+Голый остов того, что когда-то было человеком. Сквозь разлагающуюся
+плоть видны кости скелета. По нему в изобилии ползают черви и другие
+малоприятные гады.
+~
+d0n0o0 d0f0k0 -600 E
+31 15 3 10d10+1000 8d8+15
+0d0+0 100000
+8 8 1
+Str: 23
+Dex: 16
+Int: 12
+Wis: 12
+Con: 23
+Cha: 3
+Size: 80
+LikeWork: 60
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 4 50
+Skill: 22 40
+Skill: 132 60
+Skill: 136 93
+Skill: 158 50
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+#89925
+монах доминиканец~
+доминиканец~
+доминиканца~
+доминиканцу~
+доминиканца~
+доминиканцем~
+доминиканце~
+Облаченный в белую рясу монах-доминиканец торопливо идет между шатров.
+~
+Крепкий монах в белой рясе из грубой шерстяной ткани.
+~
+d0g0l0m0n0t0A0g2 c0d0e0f0k0A0 -600 E
+31 8 4 10d40+900 8d6+18
+0d0+300 165000
+8 8 1
+CastSuccess: 50
+Str: 18
+Dex: 12
+Int: 28
+Wis: 30
+Con: 10
+Cha: 16
+Size: 50
+LikeWork: 70
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 4 60
+Skill: 136 80
+Skill: 160 50
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 28
+Spell: 28
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 94
+E
+T 89929
+T 89926
+T 89936
+#89926
+ландмейстер~
+ландмейстер~
+ландмейстера~
+ландмейстеру~
+ландмейстера~
+ландмейстером~
+ландмейстере~
+Ландмейстер ливонского ордена твердой походкой идет по лагерю.
+~
+Один из старших рыцарей в ордене,
+облаченный в черный испанский доспех.
+~
+c0d0l0m0n0o0A0 d0k0r0 0 E
+28 3 -4 10d10+1400 8d9+22
+11d5+180 185000
+8 8 1
+BareHandAttack: 3
+Str: 25
+Dex: 21
+Int: 18
+Wis: 13
+Con: 26
+Cha: 14
+Size: 50
+LikeWork: 75
+ExtraAttack: 2
+Class: 104
+Height: 175
+Weight: 150
+Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 21 30
+Skill: 22 85
+Skill: 132 60
+Skill: 136 84
+Skill: 137 140
+Skill: 143 80
+Skill: 148 80
+Skill: 158 50
+Spell: 28
+Spell: 35
+Spell: 35
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+E
+T 89930
+T 89940
+#89927
+монах~
+монах~
+монаха~
+монаху~
+монаха~
+монахом~
+монахе~
+Монах торопливо шагает следом за рыцарем.
+~
+Худой и длинный монах с выбритой на макушке тонзурой.
+~
+d0l0m0n0o0 d0f0k0 0 E
+25 0 0 10d15+900 6d6+6
+0d0+0 165000
+8 8 1
+CastSuccess: 40
+BareHandAttack: 5
+Str: 18
+Dex: 15
+Int: 20
+Wis: 28
+Con: 15
+Cha: 15
+Size: 50
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 145
+Special_Bitvector: 0 
+Skill: 22 30
+Skill: 136 75
+Skill: 157 60
+Skill: 160 80
+Spell: 14
+Spell: 14
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 79
+Spell: 79
+Spell: 88
+Spell: 88
+Spell: 89
+Spell: 89
+E
+T 89926
+#89928
+комтур~
+комтур~
+комтура~
+комтуру~
+комтура~
+комтуром~
+комтуре~
+Комтур обходит лагерь, приглядываясь к повседневной его жизни.
+~
+Пожилой суровый рыцарь, управляющий
+хозяйством ливонского лагеря.
+~
+c0d0j0l0m0n0o0A0 d0 0 E
+26 3 -6 10d15+1200 0d0+0
+10d5+230 168000
+8 8 1
+Str: 23
+Dex: 16
+Int: 12
+Wis: 12
+Con: 22
+Cha: 8
+Size: 50
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 5 80
+Skill: 12 50
+Skill: 22 50
+Skill: 136 78
+Skill: 143 80
+Skill: 150 60
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 150
+Spell: 150
+Spell: 150
+E
+T 89927
+T 89940
+#89929
+швед телохранитель рыцарь~
+швед-телохранитель~
+шведа-телохранителя~
+шведу-телохранителю~
+шведа-телохранителя~
+шведом-телохранителем~
+шведе-телохранителе~
+Шведский рыцарь - телохранитель посла поспешает следом за своим господином.
+~
+Крепкий воин готовый к бою для защиты
+жизни посланца шведского короля.
+~
+d0l0m0n0o0 d0r0 0 E
+25 2 -5 10d10+1000 8d12+22
+6d5+120 110000
+8 8 1
+BareHandAttack: 7
+Str: 24
+Dex: 18
+Int: 13
+Wis: 14
+Con: 23
+Cha: 7
+Size: 50
+LikeWork: 65
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 150
+Special_Bitvector: b1c1C3 
+Skill: 5 80
+Skill: 22 20
+Skill: 134 80
+Skill: 136 75
+Skill: 150 60
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 28
+Spell: 28
+Spell: 89
+Spell: 89
+E
+T 89940
+#89930
+фогт ливонец рыцарь~
+фогт~
+фогта~
+фогту~
+фогта~
+фогтом~
+фогте~
+Ливонец-фогт прохаживается по лагерю.
+~
+Высокий худой рыцарь, с носом, напоминающим клюв хищной
+птицы, и ветвистым шрамом на левой щеке.
+Это один из высших чинов в ордене, подчиненных самому магистру.
+Неизвестно, что он делает в лагере - возможно прибыл на совет.
+~
+c0d0l0m0n0o0A0 d0 0 E
+27 4 -3 10d15+1300 12d12+22
+0d0+450 250000
+8 8 1
+BareHandAttack: 3
+Str: 24
+Dex: 21
+Int: 14
+Wis: 14
+Con: 21
+Cha: 13
+Size: 50
+LikeWork: 80
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 150
+Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 4 40
+Skill: 22 60
+Skill: 132 80
+Skill: 136 81
+Skill: 141 80
+Skill: 143 80
+Skill: 144 80
+Skill: 148 80
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 38
+Spell: 38
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 82
+Spell: 82
+Spell: 88
+E
+T 89930
+T 89940
+#89931
+кнехт~
+кнехт~
+кнехта~
+кнехту~
+кнехта~
+кнехтом~
+кнехте~
+Вооруженный гизармой кнехт обходит лагерь.
+~
+Здоровенный мужик в тяжелой, но не особо прочной броне
+с двуручной гизармой на плече - воин пешего войска.
+~
+c0d0l0m0n0o0A0t1 d0 0 E
+27 -2 0 20d6+960 8d8+28
+20d3+20 122000
+8 8 1
+BareHandAttack: 3
+Str: 26
+Dex: 16
+Int: 24
+Wis: 12
+Con: 22
+Cha: 4
+Size: 50
+LikeWork: 80
+ExtraAttack: 1
+Height: 168
+Weight: 140
+Special_Bitvector: b1 
+Skill: 5 80
+Skill: 21 30
+Skill: 134 100
+Skill: 136 81
+Skill: 137 60
+Skill: 142 50
+Skill: 143 60
+Skill: 146 90
+Skill: 148 90
+Spell: 14
+Spell: 14
+Spell: 79
+Spell: 79
+E
+T 89938
+#89932
+маркитантка~
+маркитантка~
+маркитантки~
+маркитантке~
+маркитантку~
+маркитанткой~
+маркитантке~
+Маркитантка проходит мимо, игриво улыбаясь вам.
+~
+Пышнотелая девка в простом, но явно тесноватом для ее
+фигуры платье. Глаза ее подведены тонкими линиями сажи.
+~
+c0d0l0A0 d0f0k0z0 0 E
+23 2 0 5d40+400 4d4+6
+5d5+30 85000
+8 8 2
+CastSuccess: 40
+BareHandAttack: 8
+Str: 12
+Dex: 18
+Int: 17
+Wis: 16
+Con: 13
+Cha: 21
+Size: 45
+LikeWork: 35
+ExtraAttack: 1
+Height: 165
+Weight: 122
+Special_Bitvector: y0a1 
+Skill: 21 60
+Skill: 22 100
+Skill: 136 69
+Skill: 139 40
+Skill: 157 60
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 38
+Spell: 38
+Spell: 40
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 82
+Spell: 82
+Spell: 93
+Spell: 93
+E
+$

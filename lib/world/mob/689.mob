@@ -29,6 +29,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: y0B3 
 Skill: 21 5
+Skill: 136 75
 Skill: 157 100
 Spell: 93
 E
@@ -55,6 +56,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 45
 E
 I крылья,5:5
 #68902
@@ -68,7 +70,7 @@ I крылья,5:5
 Красноголовый дятел сидит здесь на дереве, вытаскивая из-под коры жучков.
 ~
    Красноголовый дятел является санитаром леса, и защищается ДХЛ, так что
-лучше не трожьте его, а то придет злой Евстафий и сделает вам бо-бо)
+лучше не трожьте его, а то придет злой Евстафий и сделает вам бо-бо.
 ~
 d0g0h0 0 -600 E
 15 5 3 1d10+60 4d3+2
@@ -80,6 +82,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 45
 E
 I зубы,5:2
 #68903
@@ -113,6 +116,7 @@ Height: 200
 Weight: 150
 Special_Bitvector: 0 
 Skill: 4 100
+Skill: 136 75
 E
 I шерсть,7:7
 #68904
@@ -145,6 +149,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 4 60
+Skill: 136 75
 Skill: 157 100
 E
 I зубы,10:2
@@ -177,6 +182,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0 
+Skill: 136 75
 Skill: 157 100
 E
 #68906
@@ -211,6 +217,7 @@ Weight: 85
 Special_Bitvector: y0b1c1C3 
 Skill: 22 100
 Skill: 132 100
+Skill: 136 75
 Skill: 137 33
 Skill: 157 100
 E
@@ -244,6 +251,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: g0i0b1c1 
 Skill: 131 100
+Skill: 136 75
 Skill: 157 100
 Skill: 160 100
 Spell: 111
@@ -278,6 +286,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: y0 
 Skill: 2 100
+Skill: 136 75
 Spell: 93
 E
 #68909
@@ -312,6 +321,7 @@ Weight: 85
 Special_Bitvector: y0b1c1d1C3 
 Skill: 22 100
 Skill: 132 100
+Skill: 136 75
 Skill: 137 33
 Skill: 157 100
 E

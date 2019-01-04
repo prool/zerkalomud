@@ -28,6 +28,7 @@ Class: 103
 Height: 100
 Weight: 20
 Special_Bitvector: g0i0l0d3 
+Skill: 136 60
 Skill: 138 80
 Spell: 33
 Spell: 76
@@ -66,6 +67,7 @@ Class: 103
 Height: 75
 Weight: 50
 Special_Bitvector: p0d3 
+Skill: 136 75
 E
 #63302
 вожак волков~
@@ -98,8 +100,10 @@ Height: 90
 Weight: 70
 Special_Bitvector: i0p0d3 
 Skill: 132 100
+Skill: 136 81
 Skill: 138 100
 Helper: 63301
+Skill: 136 81
 E
 I шерсть,25:3
 $

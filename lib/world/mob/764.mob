@@ -1,0 +1,472 @@
+#76400
+Гадюка~
+Гадюка~
+гадюки~
+гадюке~
+гадюку~
+гадюкой~
+гадюке~
+Большая черная гадюка свернулась здесь клубком.
+~
+Огромная змея с умными глазками медленно переползает в тень
+~
+d0g0j0n0o0p0q0r0y0d2 d0f0k0 0 E
+22 7 -4 10d10+400 5d5+7
+0d0+0 7000
+8 6 2
+BareHandAttack: 4
+Str: 16
+Dex: 20
+Int: 9
+Wis: 7
+Con: 17
+Cha: 6
+Size: 100
+LikeWork: 60
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: m0 
+Skill: 136 66
+Skill: 160 40
+Skill: 167 5
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 33
+Spell: 33
+Spell: 38
+Spell: 38
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 114
+Spell: 114
+Spell: 147
+E
+#76401
+Жирный суслик~
+жирный суслик~
+жирного суслика~
+жирному суслику~
+жирного суслика~
+жирным сусликом~
+жирном суслике~
+Жирный суслик с трудом вылезает из своей норки.
+~
+Жирный жующий грызун бездумно уставился на Вас.
+~
+d0 k0r1 0 E
+24 6 -3 10d10+300 3d3+4
+0d0+0 3000
+8 8 1
+BareHandAttack: 1
+Str: 14
+Dex: 8
+Int: 3
+Wis: 3
+Con: 23
+Cha: 9
+Size: 100
+LikeWork: 60
+ExtraAttack: 2
+Class: 103
+Height: 120
+Weight: 100
+Special_Bitvector: 0 
+Skill: 136 40
+E
+#76402
+Рябчик~
+Рябчик~
+рябчика~
+рябчику~
+рябчика~
+рябчиком~
+рябчике~
+Осторожный рябчик вспорхнул из кустов.
+~
+Серая птаха затаилась в кустах
+~
+d0b1 0 0 E
+16 0 0 10d10+150 3d3+4
+0d0+0 1600
+8 8 1
+BareHandAttack: 11
+Str: 12
+Dex: 13
+Int: 3
+Wis: 3
+Con: 15
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: l0 
+Skill: 136 48
+E
+#76403
+Старая ведьма~
+Старая ведьма~
+старой ведьмы~
+старой ведьме~
+старую ведьму~
+старой ведьмой~
+старой ведьме~
+Старая ведьма расположилась возле жертвенного камня.
+~
+Дряхлая ведьма готовится совершить кровавый ритуал
+~
+b0c0d0e0g0l0m0n0o0p0A0 d0f0k0A0z1 -600 E
+35 13 -6 0d0+6000 6d6+6
+0d0+0 220000
+8 8 2
+BareHandAttack: 8
+Str: 23
+Dex: 12
+Int: 33
+Wis: 32
+Con: 17
+Cha: 7
+Size: 100
+LikeWork: 70
+ExtraAttack: 3
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 120
+Skill: 136 105
+Skill: 150 100
+Skill: 157 90
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 93
+Spell: 93
+Spell: 127
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Helper: 76404
+Helper: 76404
+Helper: 76404
+E
+#76404
+Ведьмак~
+Ведьмак~
+ведьмака~
+ведьмаку~
+ведьмака~
+ведьмаком~
+ведьмаке~
+Молодой ведьмак притаился здесь.
+~
+Молодой ведьмак с усердием усваивает уроки черной магии
+~
+b0d0l0m0n0o0r0v0 d0f0k0t0C0l1t1 0 E
+26 8 0 0d0+2000 5d7+15
+0d0+0 150000
+8 8 1
+Str: 25
+Dex: 22
+Int: 17
+Wis: 19
+Con: 16
+Cha: 13
+Size: 100
+LikeWork: 50
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 5 80
+Skill: 136 78
+Skill: 137 150
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 79
+Spell: 79
+Spell: 89
+E
+#76405
+Безумный старик~
+Безумный старик~
+безумного старика~
+безумному старику~
+безумного старика~
+безумным стариком~
+безумном старике~
+Странного вида старикашка присел тут отдохнуть.
+~
+Безумного вида старикашка смотрит на вас из под густых бровей
+~
+b0d0k0l0p0t0x0A0 b0d0e0k0x0z0 0 E
+30 0 0 10d0+600 5d4+5
+0d0+0 50000
+5 5 1
+BareHandAttack: 2
+Str: 15
+Dex: 12
+Int: 27
+Wis: 25
+Con: 12
+Cha: 15
+Size: 100
+LikeWork: 60
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: b0p0a1b1c1 
+Skill: 136 90
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 40
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 67
+Spell: 67
+Spell: 68
+Spell: 68
+Spell: 78
+Spell: 78
+Spell: 78
+Spell: 78
+Spell: 78
+Spell: 124
+Spell: 128
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 152
+Spell: 152
+E
+T 76402
+#76406
+Острожник~
+острожник~
+острожника~
+острожнику~
+острожника~
+острожником~
+острожнике~
+Беглый острожник притаился тут.
+~
+Оборванный и потрепанный уже не молодой
+человек со впалыми от голода щеками
+~
+c0d0f0g0A0 d0k0 0 E
+25 0 8 10d10+300 4d4+5
+20d0+0 30000
+8 8 1
+BareHandAttack: 11
+Str: 22
+Dex: 24
+Con: 15
+Cha: 12
+Size: 100
+LikeWork: 50
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 75
+Skill: 157 40
+Skill: 160 30
+E
+#76407
+Злобный муравей~
+Злобный муравей~
+злобного муравья~
+злобному муравью~
+злобного муравья~
+злобным муравьем~
+злобном муравье~
+Злобный муравей воинственно шевелит усами.
+~
+Маленький, но очень злобный муравей принюхивается к следам на земле
+~
+b0d0f0g0 d0f0k0A0 -600 E
+25 4 0 10d10+200 3d5+8
+0d0+0 90000
+8 8 1
+BareHandAttack: 4
+Str: 18
+Dex: 14
+Int: 13
+Wis: 13
+Con: 13
+Cha: 10
+Size: 100
+LikeWork: 20
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 60
+Spell: 77
+E
+#76408
+Россыпь камней~
+большой камень~
+большого камня~
+большому камню~
+большого камня~
+большим камнем~
+большом камне~
+&YБольшой камень врос здесь в землю.
+~
+Большой, поросший мхом валун. Так и тянет присесть на него, отдохнуть...
+~
+b0d0g0B0o1f2g2 d0f0k0 0 E
+50 20 -10 0d0+1 0d0+1
+0d0+0 0
+8 8 1
+Str: 3
+Dex: 3
+Int: 3
+Wis: 3
+Con: 3
+Cha: 3
+Size: 100
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 150
+E
+T 76401
+#76409
+Сохатый~
+Сохатый~
+сохатого~
+сохатому~
+сохатого~
+сохатым~
+сохатом~
+Сохатый напролом бежит через лес.
+~
+Огромный лось с ветвистыми рогами
+~
+b0d0e0g0n0q0s0g2i2 k0C0 0 E
+29 4 -5 10d10+400 5d4+4
+0d0+0 22000
+8 8 1
+BareHandAttack: 13
+Str: 22
+Dex: 18
+Int: 7
+Wis: 6
+Con: 14
+Cha: 10
+Size: 100
+LikeWork: 60
+ExtraAttack: 1
+Class: 103
+Height: 200
+Weight: 150
+Special_Bitvector: p0 
+Skill: 5 80
+Skill: 136 80
+E
+#76410
+Ежик~
+Ежик~
+ежика~
+ежику~
+ежика~
+ежиком~
+ежике~
+Шустрый ежик топает по полю.
+~
+Колючий ежик бегает по полю в поиске мышей
+~
+d0g0e1f1g1 k0 0 E
+16 5 -3 10d10+300 3d4+3
+0d0+0 1800
+8 8 1
+BareHandAttack: 4
+Str: 14
+Dex: 10
+Int: 15
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 70
+E
+#76411
+Зяблик~
+Зяблик~
+зяблика~
+зяблику~
+зяблика~
+зябликом~
+зяблике~
+Маленький зяблик прыгает тут.
+~
+Маленькая птичка старается упорхнуть при первой опасности
+~
+d0 k0 0 E
+7 3 -5 10d10+150 2d2+2
+0d0+0 1200
+8 8 1
+BareHandAttack: 8
+Str: 14
+Dex: 16
+Int: 14
+Wis: 14
+Con: 12
+Cha: 7
+Size: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 60
+E
+$

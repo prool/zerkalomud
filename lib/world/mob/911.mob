@@ -25,7 +25,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 15
 ExtraAttack: 1
-Class: 105
+Class: 103
 Height: 50
 Weight: 50
 Special_Bitvector: l0 
@@ -53,6 +53,7 @@ Spell: 79
 Spell: 124
 Spell: 124
 Helper: 91104
+Skill: 136 90
 E
 T 91103
 L 1417 25 0 0
@@ -88,6 +89,16 @@ Class: 104
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 80
 Skill: 31 100
 Skill: 134 100
@@ -130,6 +141,7 @@ Spell: 156
 Spell: 156
 Spell: 156
 Helper: 91103
+Skill: 136 96
 E
 T 91100
 L 1483 50 0 0
@@ -161,7 +173,7 @@ Size: 55
 LikeWork: 100
 MaxFactor: 15
 ExtraAttack: 2
-Class: 104
+Class: 103
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -193,6 +205,7 @@ Spell: 62
 Spell: 94
 Spell: 118
 Helper: 91110
+Skill: 136 96
 E
 T 91101
 #91103

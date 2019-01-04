@@ -26,6 +26,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #69001
 знахарь старый~
@@ -55,7 +56,9 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
+T 69000
 #69002
 ямщик~
 ямщик~
@@ -84,6 +87,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #69003
 кабатчик красноносый~
@@ -113,6 +117,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #69004
 скорняк~
@@ -142,6 +147,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #69005
 холоп рыжебородый~
@@ -171,6 +177,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
+Skill: 136 3
 E
 #69006
 конюх~
@@ -200,6 +207,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #69007
 подручный кузнеца~
@@ -229,6 +237,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #69008
 казначей княжеский~
@@ -258,6 +267,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #69009
 дружинник князя~
@@ -289,6 +299,7 @@ Weight: 85
 Special_Bitvector: y0b1c1C3 
 Skill: 12 100
 Skill: 22 100
+Skill: 136 84
 Skill: 137 100
 E
 #69010
@@ -301,7 +312,7 @@ E
 Любеческом лучнике~
 Любеческий лучник стоит здесь.
 ~
-Воин вооруженный огромным луком.
+Воин, вооруженный огромным луком.
 ~
 c0d0m0 k0 -600 E
 29 0 0 10d10+800 7d6+8
@@ -320,6 +331,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
+Skill: 136 87
 Skill: 155 100
 Skill: 157 100
 E
@@ -352,6 +364,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
+Skill: 136 75
 Skill: 137 33
 Spell: 93
 E
@@ -387,6 +400,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
+Skill: 136 78
 Spell: 111
 E
 #69013
@@ -422,6 +436,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1 
+Skill: 136 75
 E
 #69014
 наемник~
@@ -437,7 +452,7 @@ E
 ~
 c0d0A0 k0 -600 E
 27 0 -6 10d10+600 5d5+8
-0d0+5 1
+0d0+10 1
 8 8 1
 BareHandAttack: 11
 Str: 20
@@ -453,9 +468,10 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
+Skill: 21 40
+Skill: 136 81
 Skill: 137 100
 Skill: 150 100
-Skill: 167 100
 E
 #69015
 нищий грязный~
@@ -486,6 +502,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0a1b1c1 
+Skill: 136 75
 Skill: 139 100
 E
 #69016
@@ -517,6 +534,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #69017
 монах~
@@ -546,6 +564,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #69018
 старшина охраны~
@@ -575,5 +594,6 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 $

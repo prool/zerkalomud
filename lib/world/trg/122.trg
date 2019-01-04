@@ -3,27 +3,27 @@
 2 c 1
 стучать колотить ломиться стукнуть треснуть постучать~
 if %actor.vnum% != -1
-halt
+  halt
 end
 wait 1
 if !%arg.contains(ворота)%
-if %actor.sex% == 1
-wsend %actor% И куда ж ты ломишься, добрый молодец?
-else
-wsend %actor% И куда ж ты ломишься, красна девица?
-end
-halt
+  if %actor.sex% == 1
+    wsend %actor% И куда ж ты ломишься, добрый молодец?
+  else
+    wsend %actor% И куда ж ты ломишься, красна девица?
+  end
+  halt
 end 
 if (%actor.class% != 3 ) || !%actor.rentable%
-wsend %actor% Постучали вы в ворота, но ответа не дождалися - видно нет в доме ни хозяина, ни жены его.
-wechoaround %actor% %actor.name% постучал%actor.g%  в ворота - но ответа так и не было.
-halt
+  wsend %actor% Постучали вы в ворота, но ответа не дождалися - видно нет в доме ни хозяина, ни жены его.
+  wechoaround %actor% %actor.name% постучал%actor.g%  в ворота - но ответа так и не было.
+  halt
 end
 if %actor.quested(12200)% == 1
-wsend %actor% И куда же вы ломитесь? 
-wsend %actor% Это же хоромы вашего друга старого, богатыря достославного Добрыни!
-wsend %actor% Сами знаете - нет дома его, в гости к князю уехал со супругою.
-halt
+  wsend %actor% И куда же вы ломитесь? 
+  wsend %actor% Это же хоромы вашего друга старого, богатыря достославного Добрыни!
+  wsend %actor% Сами знаете - нет дома его, в гости к князю уехал со супругою.
+  halt
 end
 set questor122 %actor%
 global questor122
@@ -47,13 +47,13 @@ detach 12200 %self.id%
 сп спа спать sl sle slee sleep~
 return 0
 if %actor.id% != %questor122.id%
-halt
+  halt
 end
-wait 2
-wsend %actor% Крепким сном тут спится - богатырским...
-wait 6s
+wait 1
+wecho Крепким сном тут спится - богатырским...
+wait 3s
 if %actor.position% != 4
-halt
+  halt
 end
 wload mob 12200
 wait 1
@@ -91,51 +91,51 @@ detach 12202 %self.id%
 #12203
 Квестор соглашается/отказывается~
 0 d 0
-согласен да сослужу нет ~
+согласен согласна да сослужу нет ~
 if %actor.id% != %questor122.id%
-halt
+  halt
 end
 wait 1
 if %speech.contains(дурак)% || %speech.contains(козел)% || %speech.contains(мудак)% 
-say Ну, невежа, получай, что просил%actor.g%!
-msend %actor% Добрыня-богатырь ухватил батог и погнал вас со двора вон.
-mechoaround %actor% Добрыня-богатырь ухватил батог и погнал %actor.vname% со двора вон.
-eval dmg %actor.hitp%-10
-mdamage %actor% %dmg%
-mteleport %actor% 12100 horse
-mdoor 12202 e purge
-mdoor 12202 e room 12203
-mdoor 12202 e flags abcd
-mdoor 12202 e name ворота
-mdoor 12202 e description ворота
-mdoor 12203 w purge
-mdoor 12203 w room 12202
-mdoor 12203 w flags abcd
-mdoor 12203 w name ворота
-mdoor 12203 w description ворота
-detach 12203 %self.id%
-halt
+  say Ну, невежа, получай, что просил%actor.g%!
+  msend %actor% Добрыня-богатырь ухватил батог и погнал вас со двора вон.
+  mechoaround %actor% Добрыня-богатырь ухватил батог и погнал %actor.vname% со двора вон.
+  eval dmg %actor.hitp%-10
+  mdamage %actor% %dmg%
+  mteleport %actor% 12100 horse
+  mdoor 12202 e purge
+  mdoor 12202 e room 12203
+  mdoor 12202 e flags abcd
+  mdoor 12202 e name ворота
+  mdoor 12202 e description ворота
+  mdoor 12203 w purge
+  mdoor 12203 w room 12202
+  mdoor 12203 w flags abcd
+  mdoor 12203 w name ворота
+  mdoor 12203 w description ворота
+  detach 12203 %self.id%
+  halt
 end
 if %speech% == нет
-say Не хватило того, что невежа ты, так еще и труса ты спраздновал%actor.g%!
-say Убирайся вон с глаз моих, да и более не показывайся!
-msend %actor% Добрыня-богатырь ухватил батог и погнал вас со двора вон.
-mechoaround %actor% Добрыня-богатырь ухватил батог и погнал %actor.vname% со двора вон.
-eval dmg %actor.hitp%/3
-mdamage %actor% %dmg%
-mteleport %actor% 12100 horse
-mdoor 12202 e purge
-mdoor 12202 e room 12203
-mdoor 12202 e flags abcd
-mdoor 12202 e name ворота
-mdoor 12202 e description ворота
-mdoor 12203 w purge
-mdoor 12203 w room 12202
-mdoor 12203 w flags abcd
-mdoor 12203 w name ворота
-mdoor 12203 w description ворота
-detach 12203 %self.id%
-halt
+  say Не хватило того, что невежа ты, так еще и труса ты спраздновал%actor.g%!
+  say Убирайся вон с глаз моих, да и более не показывайся!
+  msend %actor% Добрыня-богатырь ухватил батог и погнал вас со двора вон.
+  mechoaround %actor% Добрыня-богатырь ухватил батог и погнал %actor.vname% со двора вон.
+  eval dmg %actor.hitp%/3
+  mdamage %actor% %dmg%
+  mteleport %actor% 12100 horse
+  mdoor 12202 e purge
+  mdoor 12202 e room 12203
+  mdoor 12202 e flags abcd
+  mdoor 12202 e name ворота
+  mdoor 12202 e description ворота
+  mdoor 12203 w purge
+  mdoor 12203 w room 12202
+  mdoor 12203 w flags abcd
+  mdoor 12203 w name ворота
+  mdoor 12203 w description ворота
+  detach 12203 %self.id%
+  halt
 end
 wait 1
 say Вот же первая служба тебе - ты доставь-ка мне соли, и не много, и не мало,
@@ -164,35 +164,35 @@ Cдали мешки Добрыне~
 ~
 wait 1
 if %actor.vnum% != -1
-бросить все
-halt
+  бросить все
+  halt
 end
 if %actor.id% != %questor122.id%
-if %actor.sex% == 1
-say А ты кто будешь, добрый молодец? Не припомню тебя...
-else
-say А ты кто будешь, красна девица? Не припомню тебя...
-end
-бросить все
-halt
+  if %actor.sex% == 1
+    say А ты кто будешь, добрый молодец? Не припомню тебя...
+  else
+    say А ты кто будешь, красна девица? Не припомню тебя...
+  end
+  бросить все
+  halt
 end
 if %object.vnum% != 12206
-say Я просил тебя не о том, поди!
-mecho _-Сделал%actor.g% ты, что было сказано?
-mecho _-Аль мотал%actor.u% ты без толку, по лесам да полям неприкаянно?
-хмур
-брос все
-halt
+  say Я просил тебя не о том, поди!
+  mecho _-Сделал%actor.g% ты, что было сказано?
+  mecho _-Аль мотал%actor.u% ты без толку, по лесам да полям неприкаянно?
+  хмур
+  брос все
+  halt
 end
 wait 1
 eval num %num%+1
 global num
 if %num% < 3
-say Хорошо же ты послужил%actor.g% мне.
-mecho _- Но всего мешков три должно три же быть, а не менее.
-*mecho _- Прочие - доставил%actor.g% ли?
-mjunk all
-halt
+  say Хорошо же ты послужил%actor.g% мне.
+  mecho _- Но всего мешков три должно же быть, а не менее.
+  *mecho _- Прочие - доставил%actor.g% ли?
+  mjunk all
+  halt
 end
 mjunk all
 say Хорошо же ты послужил%actor.g% мне!
@@ -211,25 +211,25 @@ detach 12204 %self.id%
 ~
 wait 1
 if %actor.vnum% != -1
-бросить все
-halt
+  бросить все
+  halt
 end
 if %actor.id% != %questor122.id%
-if %actor.sex% == 1
-say А ты кто будешь, добрый молодец? Не припомню тебя...
-else
-say А ты кто будешь, красна девица? Не припомню тебя...
-end
-бросить все
-halt
+  if %actor.sex% == 1
+    say А ты кто будешь, добрый молодец? Не припомню тебя...
+  else
+    say А ты кто будешь, красна девица? Не припомню тебя...
+  end
+  бросить все
+  halt
 end
 if %object.vnum% != 12212
-say Я просил тебя не о том, поди!
-mecho _-Сделал%actor.g% ты, что было сказано?
-mecho _-Аль мотал%actor.u% ты без толку по лесам да полям неприкаянно?
-хмур
-брос все
-halt
+  say Я просил тебя не о том, поди!
+  mecho _-Сделал%actor.g% ты, что было сказано?
+  mecho _-Аль мотал%actor.u% ты без толку по лесам да полям неприкаянно?
+  хмур
+  брос все
+  halt
 end
 mjunk all
 say Вот спасибо за службу верную!
@@ -240,7 +240,7 @@ wait 1s
 say Слышал я, что во краю чужом, краю дальнем-басурманском,
 mecho _- Есть царевна, чья краса - словно солнышко ранним утречком.
 mecho _- Для меня ты присватайся к ней, да не силою, а вольной волею.
-emot сказав так, Добрыня указал вам к дорогу в басурманские земли
+emot сказав так, указал вам дорогу в басурманские земли
 mteleport %actor% 12289 horse
 *attach 12206 %self.id%
 *detach 12205 %self.id%
@@ -251,7 +251,7 @@ mteleport %actor% 12289 horse
 ~
 wait 1
 if %actor.id% != %questor122.id%
-halt
+  halt
 end
 msend %actor% _Рассказали вы Добрыне-богатырю про дорогу свою,
 msend %actor% _про Змея поганого, да ответ Дивнокрасы.
@@ -265,21 +265,21 @@ mecho _- А врагов твоих ужасает, да и силу дает богатырским рукам!
 mskillturn %questor122.name% ярость set
 %actor.setquest(12200)%
 if ((%world.curobjs(12218)% < 5 ) && (%random.100% < 45 ))
-mload obj 12218
-give шапка %actor.name%
+  mload obj 12218
+  give шапка %actor.name%
 elseif ((%world.curobjs(12219)% < 5 ) && (%random.100% < 45 ))
-mload obj 12219
-give рукавиц %actor.name%
+  mload obj 12219
+  give рукавиц %actor.name%
 elseif ((%world.curobjs(12220)% < 5 ) && (%random.100% < 45 ))
-mload obj 12220
-give пояс %actor.name%
+  mload obj 12220
+  give пояс %actor.name%
 else
-%self.gold(1500)%
-give 1500 кун %actor.name%
+  %self.gold(1500)%
+  give 1500 кун %actor.name%
 end
 switch %random.5%
-case 1
-break
+  case 1
+  break
 done
 прощай %questor122.name%
 detach 12206 %self.id%
@@ -288,10 +288,10 @@ detach 12206 %self.id%
 Блокирующий триггер на наградном шмоте~
 1 j 100
 ~
-if  ((%actor.level% > 18 ) || (%actor.str% > 25 ) || (%actor.vnum% != -1 ))
-return 0
-osend %actor% Эх, не годится вам эта одежка! Видать, сильномогучий уже богатырь вы.
-halt
+if  ((%actor.level% > 19 ) || (%actor.str% > 25 ) || (%actor.vnum% != -1 ))
+  return 0
+  osend %actor% Эх, не годится вам эта одежка! Видать, сильномогучий уже богатырь вы.
+  halt
 end
 ~
 #12208
@@ -300,18 +300,18 @@ end
 ~
 wait 1
 if %questor122.sex% == 1
-say Поздорову, добрый молодец!
+  say Поздорову, добрый молодец!
 else
-say Поздорову, красна девица!
+  say Поздорову, красна девица!
 end
 mecho _- Куда путь держишь, от дела, али по делу?
 mforce %questor122% say К городам трем - Ореховцу, Гурчовцу да Крестьяновцу.
 wait 1s
 взд
 if %questor122.sex% == 1
-say А не ходил бы ты туда, добрый молодец!
+  say А не ходил бы ты туда, добрый молодец!
 else
-say А не ходила бы ты туда, красна девица!
+  say А не ходила бы ты туда, красна девица!
 end
 mecho _- Там живут-то мужички, да все разбойнички.
 mecho _- Они с тебя грошей подорожных повытребуют,
@@ -330,9 +330,9 @@ detach 12208 %self.id%
 wait 1
 shou А гляди-ка, кто тут к нам припожаловал!
 if %questor122.sex% == 1
-say А давай-ка ты, добрый молодец,
+  say А давай-ка ты, добрый молодец,
 else
-say А давай-ка ты, красна девица,
+  say А давай-ка ты, красна девица,
 end
 mecho _- Нам гроши свои подорожные, да кафтан вместе с шапкою,
 mecho _- Да коня богатырского со сбруею.
@@ -357,9 +357,9 @@ wait 1
 *mecho Калика перехожий пришел с севера.
 wait 1
 if %questor122.sex% == 1
-say Говорил же я тебе, добрый молодец.
+  say Говорил же я тебе, добрый молодец.
 else
-say Говорил же я тебе, красна девица.
+  say Говорил же я тебе, красна девица.
 end
 mecho _- Не по силам тебе те дороженьки.
 mecho _- Тут уж силушку надо немалую,
@@ -379,14 +379,19 @@ detach 12210 %self.id%
 2 c 1
 поклон поклониться~
 if !%arg.contains(земле)%
-return 0
-halt
+  if %actor.sex% == 1
+    wsend %actor% И кому ж ты кланяешься, добрый молодец?
+  else
+    wsend %actor% И кому ж ты кланяешься, красна девица?
+  end
+  return 1
+  halt
 end
 wait 1
 wsend %actor% Поклонились вы земле-матушке, попросили у нее силушки богатырской,
 wsend %actor% Да уж хоть половину ее.
 wsend %actor% Пожалела вас мать-земля сыра, дала дала вам, что прошено,
-wsend %actor% Разгулялась по жилам у вас сила богатысркая - просит дела себе под стать.
+wsend %actor% Разгулялась по жилам у вас сила богатырская - просит дела себе под стать.
 wait 2
 eval heal %actor.maxhitp%
 eval buf %actor.hitp(%heal%)%
@@ -406,9 +411,9 @@ detach 12211 %self.id%
 ~
 wait 1
 if %actor.sex% == 1
-say Гой еси, добрый молодец!
+  say Гой еси, добрый молодец!
 else
-say Гой еси, красна девица!
+  say Гой еси, красна девица!
 end
 mecho _- Как же путь прошел по дороге во град?
 mecho _- Там сидят мужички-то все разбойнички.
@@ -435,11 +440,12 @@ emot кликнул людей городских.
 mecho _Вынесли они мех с солью, немалый мех - во сорок пуд.
 поклон %actor.name%
 mload obj 12206
+wait 1
 give мех %actor.name%
 wait 1s
 if %world.curobjs(12206)% > 2
-mecho Отправились вы в обратный путь - ко двору Добрыни-богатыря.
-mteleport %actor% 12202
+  mecho Отправились вы в обратный путь - ко двору Добрыни-богатыря.
+  mteleport %actor% 12202
 end
 detach 12213 %self.id%
 ~
@@ -449,7 +455,7 @@ detach 12213 %self.id%
 ~
 return 0
 wait 1
-oecho Наклонились вы, поднатужиллись - не смогли шапку малую поднять.
+oecho Наклонились вы, поднатужились - не смогли шапку малую поднять.
 oecho Лежит она, не сшевелится
 wait 1
 oecho Калика перехожий пришел с севера.
@@ -466,9 +472,9 @@ detach 12214 %self.id%
 wait 1s
 set selfquestor %random.pc%
 if %selfquestor.sex% == 1
-say Эх ты, %selfquestor.name%, детинушка!
+  say Эх ты, %selfquestor.name%, детинушка!
 else
-say Эх ты, %selfquestor.name%, девица!
+  say Эх ты, %selfquestor.name%, девица!
 end
 mecho _- Что же шапку поднять, с места стронуть не можешь?
 ул
@@ -496,18 +502,19 @@ wait 1
 Выпили воды из ковшика~
 1 c 2
 пи~
-if %cmd.mudcommand% != пить
-return 0
-halt
+if ( %cmd.mudcommand% != пить )
+  return 0
+  halt
 end
+set rodnik родник
 set kovshik ковшик
-if !%kovshik.contains(%arg%)%
-return 0
-halt
+if (!%kovshik.contains(%arg%)% && !%rodnik.contains(%arg%)%)
+  return 0
+  halt
 end
 if %cmd% != пить 
-return 1
-halt
+  return 1
+  halt
 end
 oecho _Осушили вы ковшик маленький, каликой перехожего рукой поданый.
 oecho _Полной мерою отмерена сила в нем была богатырская.
@@ -533,9 +540,9 @@ eval source %arg.cdr%
 set kovshik ковшик
 set rodnik родник
 if !%kovshik.contains(%container%)% || !%rodnik.contains(%source%)%
-wsend %actor% Вы за этим сюда шли?
-return 1
-halt
+  wsend %actor% Вы за этим сюда шли?
+  return 1
+  halt
 end
 return 0
 calcuid ladles 12213 obj
@@ -544,8 +551,8 @@ wecho Вы зачерпнули ковшиком воды из родника.
 wait 1 
 %purge% %ladles%
 wload obj 12214
-set target %random.pc%
-wforce %target% get ковшик
+*set target %random.pc%
+wforce %actor% get ковшик
 detach 12217 %self.id%
 ~
 #12218
@@ -554,8 +561,8 @@ detach 12217 %self.id%
 пи пит пить dr dri drin drink~
 set rodnik родник
 if !%rodnik.contains(%arg%)%
-return 0
-halt
+  return 0
+  halt
 end
 dg_cast 'исцеление' %actor.name%
 dg_cast 'восстановление' %actor.name%
@@ -577,7 +584,7 @@ wait 1
 return 0
 wait 3
 oecho _Вот теперь-то тебе без труда великого
-oecho _Шапку богатрскую, шапку золота литого увесисту
+oecho _Шапку богатырскую, шапку золота литого увесисту
 oecho _Со сырой земли поднять.
 *calcuid room1 %self.room%
 *attach 12234 %room1.id%
@@ -602,7 +609,7 @@ mecho _- Ты чего это тут вокруг бродишь-высматриваешь!
 mecho _- А проваливай-ка ты своею дорогою, ждем мы сегодня посольство великое.
 mecho _- Самого Змея Великого сватовство к царевне.
 wait 1
-mecho _- Набросились тут на вас богатырь-змеевич с басурманами, начали бить-колотить да вон гнать
+mecho _Набросились тут на вас богатырь-змеевич с басурманами, начали бить-колотить да вон гнать
 mecho _Хоть силушка-то у вас и богатырская, да один вы богатырь супротив троих.
 mecho _Прогнали они вас далеко в чисто поле.
 mteleport %actor% 12283 horse
@@ -625,11 +632,11 @@ set item2 %actor.eq(6)%
 set item3 %actor.eq(8)%
 set item4 %actor.eq(9)%
 if ((%item1.vnum% == 12203 ) && (%item2.vnum% == 12201 ) && (%item3.vnum% == 12202 ) && (%item4.vnum% == 12200 ))
-calcuid guard2 12204 mob
-ужас %actor.name%
-exec 12225 %guard2.id%
-detach 12222 %self.id%
-halt
+  calcuid guard2 12204 mob
+  ужас %actor.name%
+  exec 12225 %guard2.id%
+  detach 12222 %self.id%
+  halt
 end
 say Эй, ты, деревенщина-бездельщина!
 mecho _- Ты чего это тут вокруг бродишь-высматриваешь!
@@ -649,11 +656,11 @@ wait 1
 emot осмотрел Вас с ног до головы
 взд
 if %actor.sex% == 1
-say Эх ты, %selfquestor.name%, детинушка!
+  say Эх ты, %actor.name%, детинушка!
 else
-say Эх ты, %selfquestor.name%, девица!
+  say Эх ты, %actor.name%, девица!
 end
-mecho _- Коль пошел к царевне свататься, разузнал бы уж, вести здешние
+mecho _- Коль пош%actor.y% к царевне свататься, разузнал%actor.u% бы уж вести здешние
 mecho _- А посватался к ней красавице, Змей поганый рода змиева
 mecho _- Пригрозил, что страну разору предаст, да всех людей в полон уведет,
 mecho _- Коль не пойдет за него Дивнокраса, откажется
@@ -706,9 +713,9 @@ wait 1
 вста
 mtransform 12209
 if %actor.sex% == 1
-say Здраве будь, добрый молодец!
+  say Здраве будь, добрый молодец!
 else
-say Здраве будь, красна девица!
+  say Здраве будь, красна девица!
 end
 mecho _- Знаю я, зачем припожаловал%actor.g%!
 mecho _- По всему видать - удалой богатырь Добрыня-свет Евсеевич,
@@ -732,8 +739,8 @@ detach 12226 %self.id%
 2 c 1
 поклон поклониться~
 if !%arg.contains(земле)%
-return 0
-halt
+  return 0
+  halt
 end
 wait 1
 wsend %actor% Поклонились вы земле-матушке, попросили у нее силушки богатырской,
@@ -859,9 +866,9 @@ set objectname %string.car%
 wait 1
 shou А гляди-ка, кто тут к нам припожаловал!
 if %questor122.sex% == 1
-say А давай-ка ты, добрый молодец,
+  say А давай-ка ты, добрый молодец,
 else
-say А давай-ка ты, красна девица,
+  say А давай-ка ты, красна девица,
 end
 mecho - Нам гроши свои подорожные, да кафтан вместе с шапкою,
 mecho - Да коня богатырского со сбруею.

@@ -25,6 +25,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 87
 Skill: 150 100
 E
 #34401
@@ -56,9 +57,11 @@ Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 21 100
+Skill: 136 81
 Skill: 137 100
-Helper: 34404
 Helper: 34402
+Helper: 34404
+Skill: 136 81
 E
 #34402
 княжий тиун~
@@ -87,6 +90,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 21 100
+Skill: 136 75
 Spell: 28
 Spell: 28
 E
@@ -118,6 +122,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 132 80
+Skill: 136 78
 Skill: 150 80
 E
 #34404
@@ -148,6 +153,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 81
 Spell: 28
 Spell: 28
 E
@@ -178,6 +184,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: y0b1c1 
 Skill: 132 80
+Skill: 136 63
 Skill: 150 80
 E
 #34406
@@ -207,6 +214,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 132 80
+Skill: 136 63
 Skill: 150 80
 E
 #34407
@@ -236,6 +244,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 132 80
+Skill: 136 63
 Skill: 150 80
 E
 #34408
@@ -266,6 +275,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #34409
 молодая служанка~
@@ -294,6 +304,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
+Skill: 136 75
 E
 #34410
 торговец~
@@ -324,6 +335,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #34411
 Ждан-коваль~
@@ -354,6 +366,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #34412
 меняла~
@@ -384,6 +397,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 81
 E
 #34413
 несколько стражей группа воинов~
@@ -412,6 +426,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 87
 Skill: 150 100
 E
 #34414
@@ -443,9 +458,10 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #34415
-мудрый иноземец~
+мудрый иноземец седой фряг~
 мудрый иноземец~
 мудрого иноземца~
 мудрому иноземцу~
@@ -474,7 +490,9 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 63
 E
+T 34408
 #34416
 группа стражей Галицких ворот~
 группа стражей Галицких ворот~
@@ -502,6 +520,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 87
 Skill: 150 100
 E
 #34417
@@ -525,6 +544,7 @@ Class: 102
 Height: 198
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 21
 E
 T 34400
 T 34402
@@ -558,6 +578,7 @@ Class: 103
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #34419
 конюх~
@@ -587,6 +608,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 36
 E
 #34420
 иноземный купец~
@@ -615,6 +637,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
+Skill: 136 81
 E
 #34421
 иноземный купец~
@@ -643,6 +666,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
+Skill: 136 81
 E
 T 34406
 T 34407
@@ -660,7 +684,7 @@ T 34407
 ~
 d0g0j2 k0 0 E
 30 0 -2 30d20+700 7d6+8
-0d0+0 1
+0d0+0 0
 8 8 1
 Str: 20
 Dex: 18
@@ -669,17 +693,18 @@ Wis: 3
 Con: 19
 Cha: 3
 Size: 50
-LikeWork: 50
+LikeWork: 80
 ExtraAttack: 2
 Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1d1 
+Skill: 12 100
 Skill: 22 100
+Skill: 136 100
 Skill: 137 80
 Skill: 142 100
 Skill: 143 100
 Skill: 146 100
 Skill: 148 100
-Skill: 157 80
 E
 $

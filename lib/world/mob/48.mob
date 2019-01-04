@@ -9,7 +9,7 @@
 Шмель жужжит у Вас над головой.
 ~
 Крупный полосатый шмель.~
-d0g0 x0 0 E
+d0g0l1m1n1 x0 0 E
 3 19 7 3d3+60 1d3+2
 0d0+0 300
 8 8 1
@@ -55,6 +55,7 @@ Class: 103
 Height: 198
 Weight: 1
 Special_Bitvector: p0 
+Skill: 136 6
 E
 #4802
 муравей~
@@ -84,6 +85,7 @@ Class: 103
 Height: 198
 Weight: 1
 Special_Bitvector: p0 
+Skill: 136 9
 E
 #4803
 пчела~
@@ -112,6 +114,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: l0 
+Skill: 136 9
 E
 #4804
 маленькая змея~
@@ -141,6 +144,7 @@ Class: 102
 Height: 198
 Weight: 12
 Special_Bitvector: m0 
+Skill: 136 15
 E
 #4805
 мышка~
@@ -169,6 +173,7 @@ Class: 103
 Height: 198
 Weight: 1
 Special_Bitvector: p0 
+Skill: 136 12
 E
 #4806
 медвежонок~
@@ -181,7 +186,7 @@ E
 Довольный медвежонок лопает здесь малину.
 ~
 Маленький пушистый медвежонок.~
-b0d0g0l1m1n1 k0 0 E
+b0d0g0l1m1n1f2 k0 0 E
 11 10 6 4d4+225 2d1+3
 0d0+0 4000
 5 5 1
@@ -212,7 +217,7 @@ E
 ~
 Множество комаров как один жужжат и кусаются.
 ~
-b0d0l1m1n1 x0 0 E
+b0d0z0l1m1n1 x0 0 E
 6 18 5 3d3+90 1d1+1
 0d0+0 1000
 8 8 1
@@ -229,5 +234,6 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 18
 E
 $

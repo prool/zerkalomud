@@ -18,7 +18,7 @@ b0c0d0g0n0o0p0u0A0i1 d0k0 -600 E
 Str: 22
 Dex: 20
 Int: 18
-Wis: 18
+Wis: 27
 Con: 23
 Cha: 14
 Size: 45
@@ -29,7 +29,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
-Skill: 136 100
+Skill: 136 84
 Skill: 141 80
 Skill: 147 80
 Skill: 157 75
@@ -57,9 +57,9 @@ Spell: 66
 Spell: 66
 Spell: 66
 Spell: 66
-Helper: 10418
-Helper: 10416
 Helper: 10409
+Helper: 10416
+Helper: 10418
 E
 T 10400
 T 10401
@@ -137,7 +137,7 @@ BareHandAttack: 2
 Str: 21
 Dex: 22
 Int: 17
-Wis: 17
+Wis: 25
 Con: 27
 Cha: 12
 Size: 40
@@ -149,7 +149,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 1 60
-Skill: 136 100
+Skill: 136 81
 Skill: 141 80
 Skill: 145 80
 Skill: 157 80
@@ -171,8 +171,8 @@ Spell: 54
 Spell: 54
 Spell: 54
 Spell: 54
-Helper: 10415
 Helper: 10411
+Helper: 10415
 E
 #10403
 болтливая кумушка~
@@ -195,7 +195,7 @@ BareHandAttack: 8
 Str: 21
 Dex: 15
 Int: 13
-Wis: 14
+Wis: 24
 Con: 23
 Cha: 12
 Size: 35
@@ -378,7 +378,7 @@ c0d0g0l0m0n0o0q0A0 d0k0 -600 E
 Str: 20
 Dex: 20
 Int: 14
-Wis: 14
+Wis: 24
 Con: 22
 Cha: 10
 Size: 35
@@ -391,7 +391,7 @@ Weight: 200
 Special_Bitvector: b1c1 
 Skill: 1 80
 Skill: 132 80
-Skill: 136 90
+Skill: 136 81
 Skill: 141 90
 Skill: 145 90
 Skill: 157 75
@@ -420,8 +420,8 @@ Spell: 114
 Spell: 114
 Spell: 114
 Spell: 114
-Helper: 10414
 Helper: 10412
+Helper: 10414
 E
 T 10403
 T 10402
@@ -455,7 +455,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: a0b0c0d0e0f0g0 
-Skill: 136 80
+Skill: 136 75
 Skill: 157 80
 Spell: 55
 Spell: 55
@@ -638,7 +638,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 132 60
-Skill: 136 80
+Skill: 136 75
 Skill: 137 80
 Skill: 141 75
 Skill: 142 75
@@ -730,7 +730,7 @@ BareHandAttack: 8
 Str: 21
 Dex: 15
 Int: 13
-Wis: 14
+Wis: 24
 Con: 23
 Cha: 12
 Size: 35
@@ -829,7 +829,7 @@ Spell: 89
 Spell: 89
 E
 #10414
-дворовая девка бойкая~
+дворовая девка~
 дворовая девка~
 дворовой девки~
 дворовой девке~
@@ -897,7 +897,7 @@ Spell: 127
 Spell: 127
 E
 #10415
-дворовая девка бойкая~
+дворовая девка~
 дворовая девка~
 дворовой девки~
 дворовой девке~
@@ -965,7 +965,7 @@ Spell: 127
 Spell: 127
 E
 #10416
-кумушка сватья помогает купчихе~
+кумушка сватья~
 кумушка-сватья~
 кумушки-сватьи~
 кумушке-сватье~
@@ -985,7 +985,7 @@ c0d0g0l0m0n0o0q0A0 d0k0 -600 E
 Str: 20
 Dex: 20
 Int: 14
-Wis: 14
+Wis: 25
 Con: 22
 Cha: 10
 Size: 35
@@ -1194,6 +1194,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 10408
 $

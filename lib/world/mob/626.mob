@@ -27,6 +27,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: a0a1b1c1 
 Skill: 131 70
+Skill: 136 75
 Skill: 139 60
 Skill: 145 60
 Skill: 150 60
@@ -65,6 +66,7 @@ Weight: 70
 Special_Bitvector: a1b1c1 
 Skill: 131 80
 Skill: 133 100
+Skill: 136 60
 Skill: 138 100
 Skill: 147 80
 Skill: 157 80
@@ -102,6 +104,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 131 50
+Skill: 136 51
 Skill: 139 60
 E
 #62603
@@ -183,6 +186,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 75
 E
 T 62602
 #62605
@@ -198,7 +202,7 @@ T 62602
 молодой парень с простоватым рябым лицом растерянно озирается вокруг.
 ~
 c0d0l0m0n0o0A0 k0r0 -600 E
-15 0 -10 10d10+1000 5d5+10
+15 -4 -10 10d10+1000 5d5+10
 2d2+15 90000
 8 8 1
 BareHandAttack: 11
@@ -217,6 +221,7 @@ Height: 170
 Weight: 72
 Special_Bitvector: b1c1 
 Skill: 131 60
+Skill: 136 45
 Skill: 139 80
 Skill: 160 25
 Skill: 167 50
@@ -252,6 +257,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 131 100
+Skill: 136 75
 Skill: 137 100
 Skill: 139 120
 Skill: 167 100
@@ -289,6 +295,7 @@ Height: 155
 Weight: 65
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 72
 Skill: 137 110
 Skill: 139 50
 Skill: 150 100
@@ -326,6 +333,7 @@ Height: 180
 Weight: 79
 Special_Bitvector: a1b1c1 
 Skill: 131 100
+Skill: 136 75
 Skill: 139 100
 Skill: 157 100
 Skill: 160 100
@@ -363,6 +371,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 131 100
+Skill: 136 75
 Skill: 160 100
 E
 #62610
@@ -396,6 +405,7 @@ Height: 185
 Weight: 105
 Special_Bitvector: 0 
 Skill: 131 100
+Skill: 136 75
 Skill: 139 100
 E
 #62611
@@ -431,6 +441,7 @@ Special_Bitvector: j0B3
 Skill: 4 25
 Skill: 21 5
 Skill: 132 120
+Skill: 136 81
 Skill: 157 100
 Skill: 167 120
 E
@@ -464,6 +475,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 69
 Skill: 137 100
 Skill: 138 50
 Skill: 150 100
@@ -501,6 +513,7 @@ Height: 170
 Weight: 81
 Special_Bitvector: 0 
 Skill: 131 80
+Skill: 136 75
 Skill: 137 50
 Skill: 160 50
 Skill: 167 50
@@ -538,6 +551,7 @@ Special_Bitvector: 0
 Skill: 5 20
 Skill: 22 100
 Skill: 132 25
+Skill: 136 60
 Skill: 137 50
 Skill: 166 100
 E
@@ -573,6 +587,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 75
 Spell: 15
 Spell: 15
 Spell: 82
@@ -612,6 +627,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 131 80
+Skill: 136 75
 Skill: 137 100
 Skill: 150 100
 Skill: 157 100
@@ -647,6 +663,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 84
 Skill: 150 100
 Spell: 56
 E
@@ -682,6 +699,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 131 100
+Skill: 136 84
 Skill: 137 100
 Skill: 139 100
 E
@@ -718,6 +736,7 @@ Weight: 85
 Special_Bitvector: 0 
 Skill: 4 100
 Skill: 132 100
+Skill: 136 87
 Skill: 158 100
 E
 I кожа,10:10
@@ -739,7 +758,7 @@ I кожа,10:10
 ~
 b0d0l0m0n0o0 d0k0r0 -600 E
 30 0 0 10d10+1500 5d5+12
-0d0+300 500000
+0d0+300 200000
 8 6 1
 BareHandAttack: 11
 Str: 30
@@ -755,18 +774,29 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 12 100
 Skill: 22 100
 Skill: 131 180
+Skill: 136 90
 Skill: 137 100
 Skill: 139 100
 Skill: 157 100
 Spell: 93
-Helper: 62618
-Helper: 62619
-Helper: 62622
-Helper: 62621
 Helper: 62617
+Helper: 62621
+Helper: 62622
+Helper: 62619
+Helper: 62618
 E
 T 62605
 T 62610
@@ -801,6 +831,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 84
 Spell: 15
 Spell: 15
 Spell: 26
@@ -839,6 +870,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 87
 Spell: 23
 Spell: 23
 Spell: 72
@@ -891,6 +923,7 @@ Weight: 85
 Special_Bitvector: 0 
 Skill: 5 100
 Skill: 132 100
+Skill: 136 105
 Skill: 167 100
 E
 T 62608
@@ -931,7 +964,9 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 75
 E
+T 62681
 #62625
 неудачливый воришка~
 воришка~
@@ -961,6 +996,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 62630
 #62626
@@ -995,6 +1031,7 @@ Weight: 85
 Special_Bitvector: 0 
 Skill: 130 100
 Skill: 134 100
+Skill: 136 69
 E
 #62627
 знатный отпрыск~
@@ -1024,6 +1061,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #62628
 помощник наставника~
@@ -1086,6 +1124,8 @@ b0c0d0f0l0n0o0p0A0 d0e0k0r0A0a1 -600 E
 25 4 -5 10d50+1000 5d7+7
 10d20+0 90000
 5 5 1
+CastSuccess: 50
+AResist: 20
 BareHandAttack: 4
 Str: 23
 Dex: 16
@@ -1126,7 +1166,7 @@ E
 пленный кузнец~
 пленного кузнеца~
 пленному кузнецу~
-пленный кузнец~
+пленного кузнеца~
 пленным кузнецом~
 пленном кузнеце~
 Кузнец сидит тут, прикованный за ногу к стене.
@@ -1311,6 +1351,16 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0d0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 136 70
 Skill: 157 50
 Skill: 160 100

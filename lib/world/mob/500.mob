@@ -435,6 +435,7 @@ Special_Bitvector: b1c1d1
 Skill: 4 100
 Skill: 20 100
 Skill: 21 100
+Skill: 136 81
 Spell: 55
 Spell: 55
 Spell: 55
@@ -488,6 +489,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
 Skill: 2 100
+Skill: 136 75
 E
 #50006
 страж~
@@ -525,6 +527,7 @@ Skill: 2 100
 Skill: 4 100
 Skill: 21 100
 Skill: 22 100
+Skill: 136 75
 E
 #50007
 охранник пьяный~
@@ -556,6 +559,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 60
 Helper: 50004
 Helper: 50005
 E
@@ -637,6 +641,7 @@ Weight: 200
 Special_Bitvector: j0b1c1d1 
 Skill: 1 100
 Skill: 132 100
+Skill: 136 90
 Skill: 150 100
 E
 #50010
@@ -727,6 +732,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 60
 E
 #50012
 пекарь~
@@ -756,6 +762,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 15
 E
 #50013
 банкирша баба~
@@ -785,6 +792,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 45
 E
 #50014
 торговец~
@@ -817,6 +825,7 @@ Class: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 75
 Spell: 40
 Spell: 40
 Spell: 40
@@ -858,6 +867,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: p0b1 
+Skill: 136 15
 Helper: 50005
 Helper: 50004
 E
@@ -887,6 +897,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 45
 Helper: 50004
 Helper: 50005
 E
@@ -916,6 +927,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 45
 Helper: 50004
 Helper: 50005
 E
@@ -945,6 +957,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 45
 Helper: 50004
 Helper: 50005
 E
@@ -975,6 +988,7 @@ Class: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 3
 Spell: 40
 Spell: 40
 Spell: 40
@@ -1023,6 +1037,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 3
 E
 #50021
 старушка~
@@ -1049,6 +1064,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 3
 E
 #50022
 охранник пьяный~
@@ -1080,6 +1096,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: e0b1c1d1 
+Skill: 136 60
 Helper: 50004
 Helper: 50005
 E
@@ -1146,6 +1163,7 @@ d0j0l0n0A0s1 d0f0k0m1x1y1z1 0 E
 30 -5 -7 5d5+1000 5d3+8
 0d0+0 30000
 8 8 1
+MResist: 100
 BareHandAttack: 11
 Str: 25
 Dex: 25
@@ -1158,6 +1176,7 @@ ExtraAttack: 1
 Height: 198
 Weight: 200
 Special_Bitvector: f0g0 
+Skill: 136 90
 E
 #50025
 душегуб злобный~
@@ -1191,6 +1210,7 @@ Weight: 200
 Special_Bitvector: b1 
 Skill: 4 120
 Skill: 22 60
+Skill: 136 93
 Skill: 138 100
 Skill: 157 120
 Spell: 26
@@ -1225,6 +1245,7 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #50027
 упыренок маленький мальчик милый~
@@ -1260,6 +1281,7 @@ Special_Bitvector: 0
 Skill: 2 100
 Skill: 4 60
 Skill: 7 150
+Skill: 136 75
 Skill: 140 150
 Spell: 40
 Spell: 40
@@ -1281,7 +1303,7 @@ T 50076
 корчмаре Миколе~
 Корчмарь Микола угощается свежим пивом.
 ~
-Крепкий парень, сметя которого уже который год держит корчму у городских стен.
+Крепкий парень, семья которого уже который год держит корчму у городских стен.
 Помимо торговли съестным, он берет за плату на хранение ценные вещи.
 ~
 b0d0e0n0o0p0B0 d0f0k0 300 E
@@ -1297,6 +1319,29 @@ Cha: 17
 Size: 30
 LikeWork: 70
 ExtraAttack: 1
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Skill: 136 90
+E
+T 50048
+#50048
+неоконченный моб~
+неоконченный моб~
+неоконченного моба~
+неоконченному мобу~
+неоконченного моба~
+неоконченным мобом~
+неоконченном мобе~
+Неоконченный моб стоит тут.
+~
+Выглядит достаточно незавершенно.
+~
+d0 0 0 E
+0 20 0 1d100+1 1d1+0
+0d0+0 0
+8 8 0
+Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

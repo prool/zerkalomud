@@ -14,6 +14,7 @@ b0d0f0g0h0 k0 -600 E
 10 2 8 0d0+150 3d3+4
 0d0+0 7500
 8 8 1
+BareHandAttack: 4
 Dex: 13
 Int: 3
 Wis: 3
@@ -22,8 +23,10 @@ Cha: 3
 Size: 25
 LikeWork: 95
 Class: 103
+Height: 198
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #4501
 взрослый разбойник~
@@ -50,8 +53,10 @@ Cha: 3
 Size: 30
 ExtraAttack: 1
 Class: 102
+Height: 198
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 39
 E
 #4502
 разбойная девка~
@@ -79,8 +84,10 @@ Size: 80
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Height: 198
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 39
 Spell: 15
 E
 $

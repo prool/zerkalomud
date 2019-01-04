@@ -3,7 +3,7 @@
 0 f 0
 ~
 if (%world.curobjs(93202)% < 5)
- mload obj 93202
+  mload obj 93202
 end
 ~
 #93201
@@ -11,23 +11,23 @@ end
 2 c 1
 снять спустить вынести~
 if (%exist.mob(93203)%) && (%actor.vnum% == -1)
- if (%arg%==медвежонка)
-  wait 1s
-  wsend %actor% Вы сняли медвежонка с дерева и вынесли его из огня.
-  wait 1s
-  calcuid malmedv 93203 mob
-  wpurge %malmedv%
-  wteleport %actor.name% 93246
-  wechoaround %actor% ~~%actor.name% снял%actor.g% медвежонка с дерева и вынес%actor.q% его из огня.
-  makeuid malmkvestor %actor.id%
-  calcuid gdemedv 93269 room
-  remote malmkvestor %gdemedv.id%
-  calcuid uskaly 93250 room
-  remote malmkvestor %uskaly.id%
-  halt
- else
-  wsend %actor% Кого вы хотите снять?
- end
+  if (%arg%==медвежонка)
+    wait 1s
+    wsend %actor% Вы сняли медвежонка с дерева и вынесли его из огня.
+    wait 1s
+    calcuid malmedv 93203 mob
+    wpurge %malmedv%
+    wteleport %actor.name% 93246
+    wechoaround %actor% ~~%actor.name% снял%actor.g% медвежонка с дерева и вынес%actor.q% его из огня.
+    makeuid malmkvestor %actor.id%
+    calcuid gdemedv 93269 room
+    remote malmkvestor %gdemedv.id%
+    calcuid uskaly 93250 room
+    remote malmkvestor %uskaly.id%
+    halt
+  else
+    wsend %actor% Кого вы хотите снять?
+  end
 end
 ~
 #93202
@@ -43,13 +43,16 @@ wecho - Кар-кар! - отозвался другой ворон.
 2 c 1
 пить выпить испить слизнуть~
 if (%arg%==росинки) && (%actor.position%==5) && (%actor.vnum%==-1)
- wait 1s
- wsend %actor% Вы выпили две светлые росинки.
- calcuid gdevorony 93250 room
- attach 93204 %gdevorony.id%
- run 93204 %gdevorony.id%
-detach 93202 %self.id%
-detach 93203 %self.id%
+  wait 1s
+  wsend %actor% Вы выпили две светлые росинки.
+  calcuid gdevorony 93250 room
+  attach 93204 %gdevorony.id%
+  run 93204 %gdevorony.id%
+  detach 93202 %self.id%
+  detach 93203 %self.id%
+else
+  wait 1
+  wsend %actor% Низко-низко росинки висят, у земли самой, не достать...
 end
 ~
 #93204
@@ -68,10 +71,10 @@ wecho - Карр, много теперь поживы нам, воронам.
 wecho - Кар-кар, люди прошли, лес подожгли, реку взбаламутили, много зверей побили.
 wecho - Карр, а медведя желто-черного не нашли.
 if %malmkvestor%
- wecho - Кар-кар, да, а слышал ли ты, брат мой, %malmkvestor.name% медвежонка из огня спас%malmkvestor.q%?
- wecho - Карр, как же. То ведь не просто медвежонок, а сын желто-черного медведя.
- wecho - Кар-кар, медведь теперь %malmkvestor.vname% хорошо примет, только дороги к нему не найти.
- wecho - Карр, дорога-то рядом. Стоит только у завала с южной стороны камень вытащить...
+  wecho - Кар-кар, да, а слышал ли ты, брат мой, %malmkvestor.name% медвежонка из огня спас%malmkvestor.q%?
+  wecho - Карр, как же. То ведь не просто медвежонок, а сын желто-черного медведя.
+  wecho - Кар-кар, медведь теперь %malmkvestor.vname% хорошо примет, только дороги к нему не найти.
+  wecho - Карр, дорога-то рядом. Стоит только у завала с южной стороны камень вытащить...
 end
 wait 1s
 wecho - Кар-кар, если ты не объелся еще, брат мой, поспешим на болото.
@@ -86,18 +89,18 @@ wpurge %voron2%
 #93205
 Вытащить камень~
 2 c 1
-вытащить убрать~
+вытащить убрать сдвинуть отодвинуть вынуть~
 if (%arg%==камень)
- wait 1s
- wsend %actor% Вы вытащили камень из дыры, он оказался тонким как пластинка.
- wechoaround %actor% %actor.name% вытащил камень из дыры, он оказался тонким как пластинка.
- wait 1
- wecho Теперь можно пролезть на ту сторону.
- wdoor 93253 west room 93252
- wdoor 93252 east room 93253
-detach 93205 %self.id%
+  wait 1s
+  wsend %actor% Вы вытащили камень из дыры, он оказался тонким как пластинка.
+  wechoaround %actor% %actor.name% вытащил камень из дыры, он оказался тонким как пластинка.
+  wait 1
+  wecho Теперь можно пролезть на ту сторону.
+  wdoor 93253 west room 93252
+  wdoor 93252 east room 93253
+  detach 93205 %self.id%
 else
- wsend %actor% Что вы хотите вытащить?
+  wsend %actor% Что вы хотите вытащить?
 end
 ~
 #93206
@@ -111,7 +114,7 @@ wecho Старичок Танзаган сказал : 'Куда путь держите?'
 wload mob 93200
 wait 20s
 if %exist.mob(93200)%
- wecho Старичок прутиком своего каурого конька стегнул, и нет его, будто и не было.
+  wecho Старичок прутиком своего каурого конька стегнул, и нет его, будто и не было.
 end
 calcuid tanzagan 93200 mob
 detach 93207 %tanzagan.id%
@@ -123,33 +126,33 @@ detach 93206 %self.id%
 0 d 1
 *~
 if (%actor.vnum% != -1)
-halt
+  halt
 end
 if (%speech.contains(далеко)%) || (%speech.contains(туда)%) || (%speech.contains(каан)%)
- calcuid poyavl 93206 room
- detach 93206 %poyavl.id%
- wait 1s
- г Живет на холмистом Алтае Ер-боко-каан.
- г Скота у него - хоть три дня считай, не сосчитаешь.
- г Добро его ни в какой шатер не спрячешь.
- г Думал он, что нет на земле никого сильнее его.
- wait 2
- г Но... я видать не видал, а слыхать слыхал:
- г У истока семи рек, на подоле семи гор есть глубокая, в семьдесят сажен, пещера.
- г В той пещере живет, спереди желтый, сзади черный, медведь.
- г Вот кто силен, говорят, вот кто могуч!
- wait 2s
- mecho Сказал - и нет старика. Где стоял каурый конь - трава примята, куда ускакал - следа не видно.
- makeuid tanzkvestor %actor.id%
- if %exist.mob(93201)%
-  calcuid kaan1 93201 mob
-  remote tanzkvestor %kaan1.id%
- end
- if %exist.mob(93235)%
-  calcuid kaan2 93235 mob
-  remote tanzkvestor %kaan2.id% 
- end
- mpurge %self%
+  calcuid poyavl 93206 room
+  detach 93206 %poyavl.id%
+  wait 1s
+  г Живет на холмистом Алтае Ер-боко-каан.
+  г Скота у него - хоть три дня считай, не сосчитаешь.
+  г Добро его ни в какой шатер не спрячешь.
+  г Думал он, что нет на земле никого сильнее его.
+  wait 2
+  г Но... я видать не видал, а слыхать слыхал:
+  г У истока семи рек, на подоле семи гор есть глубокая, в семьдесят сажен, пещера.
+  г В той пещере живет, спереди желтый, сзади черный, медведь.
+  г Вот кто силен, говорят, вот кто могуч!
+  wait 2s
+  mecho Сказал - и нет старика. Где стоял каурый конь - трава примята, куда ускакал - следа не видно.
+  makeuid tanzkvestor %actor.id%
+  if %exist.mob(93201)%
+    calcuid kaan1 93201 mob
+    remote tanzkvestor %kaan1.id%
+  end
+  if %exist.mob(93235)%
+    calcuid kaan2 93235 mob
+    remote tanzkvestor %kaan2.id% 
+  end
+  mpurge %self%
 end
 ~
 #93208
@@ -157,15 +160,15 @@ end
 0 b 100
 ~
 switch %random.3%
- case 1
-  mecho \&YМа-аш! - заревел медведь.\&n
- break
- case 2
-  mecho \&YМа! Мааш! - заревел медведь.\&n
- break
- default
-  mecho \&YМмааш! - заревел медведь.\&n
- break
+  case 1
+    mecho \&YМа-аш! - заревел медведь.\&n
+  break
+  case 2
+    mecho \&YМа! Мааш! - заревел медведь.\&n
+  break
+  default
+    mecho \&YМмааш! - заревел медведь.\&n
+  break
 done
 ~
 #93209
@@ -177,61 +180,61 @@ wait 1
 * После разговора нужно следовать за медведем, он прибежит прямо в шатер к каану.
 set igr %self.people%
 while %igr%
-if (%igr% == %malmkvestor%)
-wait 2s
-wload mob 93233
-wload mob 93202
-wecho Семьдесят медведей вышли из пещеры.
-wecho У каждого в лапах берестяной поднос с едой, на голове кожаный ташаур с питьем.
-wecho Впереди них медленно выступал огромный желто-черный зверь.
-wait 4s
-wsend %igr% Близко-близко он к вам подошел, низко-низко свою голову склонил.
-wechoaround %igr% Близко-близко он к %igr.dname% подошел, низко-низко свою голову склонил.
-wait 3s
-wecho - Ты для меня, %igr.name%, утреннее солнце, вечерняя луна, - сказал желто-черный медведь.
-wait 3s
-wecho - Ты моего сына из огня спас.
-wait 3s
-wecho - Ешь и пей, что хочешь, проси и требуй, чего пожелаешь, подарок выбирай, какой нравится.
-if (%igr% != %kaankvestor%)
- detach 93209 %self.id%
- halt
-end
-wait 4s
-wsend %igr% Вы сказали : 'Угощенья вашего отведать не смею, подарка принять не могу.'
-wechoaround %igr% %igr.name% сказал%igr.g% : 'Угощенья вашего отведать не смею, подарка принять не могу.'
-wait 2s
-wsend %igr% Вы сказали : 'Ер-боко-каан меня за вами послал.'
-wechoaround %igr% %igr.name% сказал%igr.g% : 'Ер-боко-каан меня за вами послал.'
-wait 2s
-wsend %igr% Вы сказали : 'Он вас на цепь посадит, вокруг костра бегать заставит, на огне изжарит.'
-wechoaround %igr% %igr.name% сказал%igr.g% : 'Он вас на цепь посадит, вокруг костра бегать заставит, на огне изжарит.'
-wait 3s
-wecho У медведей на густых ресницах слезы повисли.
-wait 2s
-wecho Побросали они свои подносы с едой, ташауры с питьем и заревели:
-wecho - Разорвем Ер-боко-каана!
-wait 3s
-wecho Большой медведь поднял правую переднюю лапу - все медведи разом смолкли.
-wait 3s
-wecho - Я пойду в шатер Ер-боко-каана, - сказал великан.
-wait 4s
-wecho Спорить с большим медведем звери не посмели. Осушили они с горя все ташауры,
-wecho сьели все угощение и, утирая лапами слезы, пошли в свою глубокую пещеру.
-calcuid medvedi 93233 mob
-wpurge %medvedi%
-wait 4s
-wsend %igr% - Следуй за мной! - приказал вам большой медведь.
-wechoaround %igr% - Следуйте за мной! - приказал большой медведь.
-wait 8s
-wecho Быстрее воды помчался желто-черный медведь к стойбищу каана.
-calcuid bolmedv 93202 mob
-attach 93218 %bolmedv.id%
-run 93218 %bolmedv.id%
-detach 93209 %self.id%
-halt
-end
-set igr %igr.next_in_room%
+  if (%igr% == %malmkvestor%)
+    wait 2s
+    wload mob 93233
+    wload mob 93202
+    wecho Семьдесят медведей вышли из пещеры.
+    wecho У каждого в лапах берестяной поднос с едой, на голове кожаный ташаур с питьем.
+    wecho Впереди них медленно выступал огромный желто-черный зверь.
+    wait 4s
+    wsend %igr% Близко-близко он к вам подошел, низко-низко свою голову склонил.
+    wechoaround %igr% Близко-близко он к %igr.dname% подошел, низко-низко свою голову склонил.
+    wait 3s
+    wecho - Ты для меня, %igr.name%, утреннее солнце, вечерняя луна, - сказал желто-черный медведь.
+    wait 3s
+    wecho - Ты моего сына из огня спас.
+    wait 3s
+    wecho - Ешь и пей, что хочешь, проси и требуй, чего пожелаешь, подарок выбирай, какой нравится.
+    if (%igr% != %kaankvestor%)
+      detach 93209 %self.id%
+      halt
+    end
+    wait 4s
+    wsend %igr% Вы сказали : 'Угощенья вашего отведать не смею, подарка принять не могу.'
+    wechoaround %igr% %igr.name% сказал%igr.g% : 'Угощенья вашего отведать не смею, подарка принять не могу.'
+    wait 2s
+    wsend %igr% Вы сказали : 'Ер-боко-каан меня за вами послал.'
+    wechoaround %igr% %igr.name% сказал%igr.g% : 'Ер-боко-каан меня за вами послал.'
+    wait 2s
+    wsend %igr% Вы сказали : 'Он вас на цепь посадит, вокруг костра бегать заставит, на огне изжарит.'
+    wechoaround %igr% %igr.name% сказал%igr.g% : 'Он вас на цепь посадит, вокруг костра бегать заставит, на огне изжарит.'
+    wait 3s
+    wecho У медведей на густых ресницах слезы повисли.
+    wait 2s
+    wecho Побросали они свои подносы с едой, ташауры с питьем и заревели:
+    wecho - Разорвем Ер-боко-каана!
+    wait 3s
+    wecho Большой медведь поднял правую переднюю лапу - все медведи разом смолкли.
+    wait 3s
+    wecho - Я пойду в шатер Ер-боко-каана, - сказал великан.
+    wait 4s
+    wecho Спорить с большим медведем звери не посмели. Осушили они с горя все ташауры,
+    wecho сьели все угощение и, утирая лапами слезы, пошли в свою глубокую пещеру.
+    calcuid medvedi 93233 mob
+    wpurge %medvedi%
+    wait 4s
+    wsend %igr% - Следуй за мной! - приказал вам большой медведь.
+    wechoaround %igr% - Следуйте за мной! - приказал большой медведь.
+    wait 8s
+    wecho Быстрее воды помчался желто-черный медведь к стойбищу каана.
+    calcuid bolmedv 93202 mob
+    attach 93218 %bolmedv.id%
+    run 93218 %bolmedv.id%
+    detach 93209 %self.id%
+    halt
+  end
+  set igr %igr.next_in_room%
 done
 ~
 #93210
@@ -240,17 +243,17 @@ done
 ~
 wait 1
 if %exist.mob(93201)%
-foreach igr %self.pc%
- if %igr.eq(6)%
-  wsend %igr% Ер-боко-каан даже не взглянул на вас.
-  wsend %igr% Два свирепых палача схватили вас за ноги и вышвырнули из шатра.
-  wechoaround %igr% Два свирепых палача схватили %igr.vname% за ноги и вышвырнули ^%igr.name% из шатра.
-  wdamage %igr% 100
-  wteleport %igr% 93225
-  %igr.position(6)%
-  wechoaround %igr% %igr.name% вылетел%igr.g% из шатра и упал%igr.g% на землю.
- end
-done
+  foreach igr %self.pc%
+    if %igr.eq(6)%
+      wsend %igr% Ер-боко-каан даже не взглянул на вас.
+      wsend %igr% Два свирепых палача схватили вас за ноги и вышвырнули из шатра.
+      wechoaround %igr% Два свирепых палача схватили %igr.vname% за ноги и вышвырнули ^%igr.name% из шатра.
+      wdamage %igr% 100
+      wteleport %igr% 93225
+      %igr.position(6)%
+      wechoaround %igr% %igr.name% вылетел%igr.g% из шатра и упал%igr.g% на землю.
+    end
+  done
 end
 ~
 #93211
@@ -260,10 +263,10 @@ end
 wait 1
 foreach igr %self.pc%
   if (%igr.id% == %polnkvestor.id%)
-if  %polnkvestor.level% < 25 
-detach 93211 %self.id%
-halt
-end
+    if  %polnkvestor.level% < 25 
+      detach 93211 %self.id%
+      halt
+    end
     wait 1
     wecho Вдруг навстречу вам выехал старичок Танзаган на маленьком кауром коне.
     wload mob 93251
@@ -272,85 +275,85 @@ end
     wecho - За дело это доброе не забудут тебя люди никогда.
     wait 1s
     if (%igr.level% < 27)
-     wecho - Становись же опытнее день ото дня.
-     %igr.exp(+100000)%
-    else
-    switch %igr.class%
-     case 2
-      wecho - Но вот нехорошее ты выбрал себе ремесло... Уходи лучше с Алтая.
-     break
-     case 3
-      wecho - В бою поможет тебе ярость справиться с врагом.
-      if !%igr.skill(ярость)%
-       wskillturn %igr.name% ярость set
-      elseif %igr.skill(ярость)% < 110
-       wskilladd %igr.name% ярость 3
-      end
-     break
-     case 4
-      wecho - Но вот нехорошее ты выбрал себе ремесло... Уходи лучше с Алтая.
-     break
-     case 5
-      wecho - Спасти товарища умей.
-      if !%igr.skill(спасти)%
-       wskillturn %igr.name% спасти set
-      elseif %igr.skill(спасти)% < 110
-       wskilladd %igr.name% спасти 3
-      end
-     break
-     case 7
-      wecho - Волшебством твори меж землями небесные врата.
-      if !%igr.skill(врата)%
-       wskillturn %igr.name% врата set
-      elseif %igr.skill(врата)% < 110
-       wskilladd %igr.name% врата 3
-      end
-     break
-     case 9
-      wecho - Пусть верным помощником будет тебе меч твой.
-      if !%igr.skill(длинные лезвия)%
-       wskillturn %igr.name% длинные.лезвия set
-      elseif %igr.skill(длинные лезвия)% < 110
-       wskilladd %igr.name% длинные.лезвия 3
-      end
-     break
-     case 10
-      wecho - Пусть стрелы, рукой твоей пущенные, как молнии летят.
-      if !%igr.skill(дополнительный выстрел)%
-       wskillturn %igr.name% дополнительный.выстрел set
-      elseif %igr.skill(дополнительный.выстрел)% < 110
-       wskilladd %igr.name% дополнительный.выстрел 3
-      end
-     break
-     case 11
-      wecho - Крепчайшую броню умей сковать.
-     if !%igr.skill(укрепить)%
-       wskillturn %igr.name% укрепить set
-      elseif %igr.skill(укрепить)% < 110
-       wskilladd %igr.name% укрепить 3
-      end
-     break
-     case 12
-      wecho  - Пусть рука твоя промаха не знает, когда метнешь ты во врага свое оружие.
-      if !%igr.skill(метнуть)%
-       wskillturn %igr.name% метнуть set
-      elseif %igr.skill(метнуть)% < 110
-       wskilladd %igr.name% метнуть 3
-      end
-     break
-     case 13
-      wecho - Бери силу волшебную от врагов своих в бою.
-      if !%igr.skill(сглазить)%
-       wskillturn %igr.name% сглазить set
-      elseif %igr.skill(сглазить)% < 110
-       wskilladd %igr.name% сглазить 3
-     end
-     break
-     default
       wecho - Становись же опытнее день ото дня.
       %igr.exp(+100000)%
-     break
-    done
+    else
+      switch %igr.class%
+        case 2
+          wecho - Но вот нехорошее ты выбрал себе ремесло... Уходи лучше с Алтая.
+        break
+        case 3
+          wecho - В бою поможет тебе ярость справиться с врагом.
+          if !%igr.skill(ярость)%
+            wskillturn %igr.name% ярость set
+          elseif %igr.skill(ярость)% < 110
+            wskilladd %igr.name% ярость 3
+          end
+        break
+        case 4
+          wecho - Но вот нехорошее ты выбрал себе ремесло... Уходи лучше с Алтая.
+        break
+        case 5
+          wecho - Спасти товарища умей.
+          if !%igr.skill(спасти)%
+            wskillturn %igr.name% спасти set
+          elseif %igr.skill(спасти)% < 110
+            wskilladd %igr.name% спасти 3
+          end
+        break
+        case 7
+          wecho - Волшебством твори меж землями небесные врата.
+          if !%igr.skill(врата)%
+            wskillturn %igr.name% врата set
+          elseif %igr.skill(врата)% < 110
+            wskilladd %igr.name% врата 3
+          end
+        break
+        case 9
+          wecho - Пусть верным помощником будет тебе меч твой.
+          if !%igr.skill(длинные лезвия)%
+            wskillturn %igr.name% длинные.лезвия set
+          elseif %igr.skill(длинные лезвия)% < 110
+            wskilladd %igr.name% длинные.лезвия 3
+          end
+        break
+        case 10
+          wecho - Пусть стрелы, рукой твоей пущенные, как молнии летят.
+          if !%igr.skill(дополнительный выстрел)%
+            wskillturn %igr.name% дополнительный.выстрел set
+          elseif %igr.skill(дополнительный.выстрел)% < 110
+            wskilladd %igr.name% дополнительный.выстрел 3
+          end
+        break
+        case 11
+          wecho - Крепчайшую броню умей сковать.
+          if !%igr.skill(укрепить)%
+            wskillturn %igr.name% укрепить set
+          elseif %igr.skill(укрепить)% < 110
+            wskilladd %igr.name% укрепить 3
+          end
+        break
+        case 12
+          wecho  - Пусть рука твоя промаха не знает, когда метнешь ты во врага свое оружие.
+          if !%igr.skill(метнуть)%
+            wskillturn %igr.name% метнуть set
+          elseif %igr.skill(метнуть)% < 110
+            wskilladd %igr.name% метнуть 3
+          end
+        break
+        case 13
+          wecho - Бери силу волшебную от врагов своих в бою.
+          if !%igr.skill(сглазить)%
+            wskillturn %igr.name% сглазить set
+          elseif %igr.skill(сглазить)% < 110
+            wskilladd %igr.name% сглазить 3
+          end
+        break
+        default
+          wecho - Становись же опытнее день ото дня.
+          %igr.exp(+100000)%
+        break
+      done
     end
     wait 2s
     wecho Старичок прутиком своего каурого конька стегнул, и нет его, будто и не было.
@@ -365,32 +368,32 @@ done
 2 ab 100
 ~
 foreach kogo %self.pc%
-switch %random.6%
- case 1
-  wsend %kogo% До вас долетели искры пламени.
-  wdamage %kogo% 30
- break
- case 2
-  wsend %kogo% Удушливый дым проник вам в легкие.
-  wdamage %kogo% 50
- break
- case 3
-  wsend %kogo% Жар от горящих деревьев доходит до вас.
-  wdamage %kogo% 80
- break
- case 4
-  wsend %kogo% Языки пламени обожгли вас.
-  wdamage %kogo% 100
- break
- case 5
-  wsend %kogo% Отлетевшая головешка ударила вас по голове.
-  wdamage %kogo% 150
- break
- default
-  wsend %kogo% Обгоревшая сосенка подломилась и рухнула прямо на вас.
-  wdamage %kogo% 300
- break
-done
+  switch %random.6%
+    case 1
+      wsend %kogo% До вас долетели искры пламени.
+      wdamage %kogo% 30
+    break
+    case 2
+      wsend %kogo% Удушливый дым проник вам в легкие.
+      wdamage %kogo% 50
+    break
+    case 3
+      wsend %kogo% Жар от горящих деревьев доходит до вас.
+      wdamage %kogo% 80
+    break
+    case 4
+      wsend %kogo% Языки пламени обожгли вас.
+      wdamage %kogo% 100
+    break
+    case 5
+      wsend %kogo% Отлетевшая головешка ударила вас по голове.
+      wdamage %kogo% 150
+    break
+    default
+      wsend %kogo% Обгоревшая сосенка подломилась и рухнула прямо на вас.
+      wdamage %kogo% 300
+    break
+  done
 done
 ~
 #93213
@@ -399,30 +402,30 @@ done
 ~
 wait 1
 foreach igr %self.pc%
-set item %igr.eq(6)%
- if %item%
-  msend %igr% Ер-боко-каан даже не взглянул на вас.
-  msend %igr% Два свирепых палача схватили вас за ноги и вышвырнули из шатра.
-  mechoaround %igr% Два свирепых палача схватили %igr.vname% за ноги и вышвырнули ^%igr.name% из шатра.
-  mteleport %igr% 93225
-wait 1
-  *mdamage %igr% 100
-  %igr.position(6)%
-  mechoaround %igr% %igr.name% вылетел%igr.g% из шатра и упал%igr.g% на землю.
- end
+  set item %igr.eq(6)%
+  if %item%
+    msend %igr% Ер-боко-каан даже не взглянул на вас.
+    msend %igr% Два свирепых палача схватили вас за ноги и вышвырнули из шатра.
+    mechoaround %igr% Два свирепых палача схватили %igr.vname% за ноги и вышвырнули ^%igr.name% из шатра.
+    mteleport %igr% 93225
+    wait 1
+    *mdamage %igr% 100
+    %igr.position(6)%
+    mechoaround %igr% %igr.name% вылетел%igr.g% из шатра и упал%igr.g% на землю.
+  end
 done
 wait 5s
 if !%bylpoklon%
- foreach char %self.pc%
-  mecho Ер-боко-каан приказал : 'Выкиньте этого невежу прочь!'
-  msend %char% Два свирепых палача схватили вас за ноги и вышвырнули из шатра.
-  mechoaround %char% Два свирепых палача схватили %char.vname% за ноги и вышвырнули ^%char.name% из шатра.
-  mteleport %char% 93225
-wait 1
-  *mdamage %char% 100
-  %igr.position(6)%
-  mechoaround %char% %char.name% вылетел%char.g% из шатра и упал%char.g% на землю.
- done
+  foreach char %self.pc%
+    mecho Ер-боко-каан приказал : 'Выкиньте этого невежу прочь!'
+    msend %char% Два свирепых палача схватили вас за ноги и вышвырнули из шатра.
+    mechoaround %char% Два свирепых палача схватили %char.vname% за ноги и вышвырнули ^%char.name% из шатра.
+    mteleport %char% 93225
+    wait 1
+    *mdamage %char% 100
+    %igr.position(6)%
+    mechoaround %char% %char.name% вылетел%char.g% из шатра и упал%char.g% на землю.
+  done
 end
 ~
 #93214
@@ -460,38 +463,38 @@ remote kaankvestor %gdemedv.id%
 ~
 wait 1
 if (%actor.vnum%==93202)
-wecho Ма-аш! - рявкнул медведь.
-wecho Храбрые воины, богатыри, алыпы и силачи, побежали, кто куда попрятались от страха.
-wecho Волосы поднялись на голове Ер-боко-каана, сердце чуть не треснуло, печень чуть не лопнула.
-wecho - Ма! Мааш!
-wecho Ер-боко-каан кинулся под топчан, его верные жены влезли в сундуки, крышками прикрылись.
-calcuid bogatyr 93216 mob
-calcuid alyp 93217 mob
-calcuid palatch1 93215 mob
-calcuid palatch2 93242 mob
-calcuid zhena1 93207 mob
-calcuid zhena2 93208 mob
-calcuid erbokokaan 93201 mob
-exec 93223 %bogatyr.id%
-exec 93224 %alyp.id%
-calcuid nbogatyr 93249 mob
-calcuid nalyp 93250 mob
-wteleport %nbogatyr% 93224
-wteleport %nalyp% 93224
-wpurge %palatch1%
-wpurge %palatch2%
-exec 93225 %zhena1.id%
-exec 93226 %zhena2.id%
-calcuid nzhena1 93247 mob
-calcuid nzhena2 93248 mob
-wteleport %nzhena1% 93290
-wteleport %nzhena2% 93290
-exec 93222 %erbokokaan.id%
-wat 93223 wload mob 93246
-wat 93223 wload mob 93246
-attach 93216 %self.id%
-calcuid bear 93202 mob
-attach 93227 %bear.id%
+  wecho Ма-аш! - рявкнул медведь.
+  wecho Храбрые воины, богатыри, алыпы и силачи, побежали, кто куда попрятались от страха.
+  wecho Волосы поднялись на голове Ер-боко-каана, сердце чуть не треснуло, печень чуть не лопнула.
+  wecho - Ма! Мааш!
+  wecho Ер-боко-каан кинулся под топчан, его верные жены влезли в сундуки, крышками прикрылись.
+  calcuid bogatyr 93216 mob
+  calcuid alyp 93217 mob
+  calcuid palatch1 93215 mob
+  calcuid palatch2 93242 mob
+  calcuid zhena1 93207 mob
+  calcuid zhena2 93208 mob
+  calcuid erbokokaan 93201 mob
+  exec 93223 %bogatyr.id%
+  exec 93224 %alyp.id%
+  calcuid nbogatyr 93249 mob
+  calcuid nalyp 93250 mob
+  wteleport %nbogatyr% 93224
+  wteleport %nalyp% 93224
+  wpurge %palatch1%
+  wpurge %palatch2%
+  exec 93225 %zhena1.id%
+  exec 93226 %zhena2.id%
+  calcuid nzhena1 93247 mob
+  calcuid nzhena2 93248 mob
+  wteleport %nzhena1% 93290
+  wteleport %nzhena2% 93290
+  exec 93222 %erbokokaan.id%
+  wat 93223 wload mob 93246
+  wat 93223 wload mob 93246
+  attach 93216 %self.id%
+  calcuid bear 93202 mob
+  attach 93227 %bear.id%
 end
 ~
 #93216
@@ -500,13 +503,13 @@ end
 открыть~
 wait 1
 if %arg.contains(сундуки)%
-wsend %actor% Вы откинули крышки у сундуков и обнаружили там жен каана.
-wechoaround %actor% %actor.name% откинул%actor.g% крышки у сундуков и вы увидели там жен каана.
-calcuid nzhena1 93247 mob
-calcuid nzhena2 93248 mob
-wteleport %nzhena1% 93226
-wteleport %nzhena2% 93226
-detach 93216 %self.id%
+  wsend %actor% Вы откинули крышки у сундуков и обнаружили там жен каана.
+  wechoaround %actor% %actor.name% откинул%actor.g% крышки у сундуков и вы увидели там жен каана.
+  calcuid nzhena1 93247 mob
+  calcuid nzhena2 93248 mob
+  wteleport %nzhena1% 93226
+  wteleport %nzhena2% 93226
+  detach 93216 %self.id%
 end
 ~
 #93217
@@ -532,25 +535,25 @@ attach 93209 %gdemedv.id%
 calcuid gdekaan 93226 room
 detach 93216 %gdekaan.id%
 if %exist.mob(93200)%
-calcuid tanzagan 93200 mob
-attach 93207 %tanzagan.id%
+  calcuid tanzagan 93200 mob
+  attach 93207 %tanzagan.id%
 end
 if %exist.mob(93202)%
-calcuid bolmedv 93202 mob
-detach 93208 %bolmedv.id%
+  calcuid bolmedv 93202 mob
+  detach 93208 %bolmedv.id%
 end
 if %exist.mob(93201)%
- calcuid erbokokaan 93201 mob
- detach 93213 %erbokokaan.id%
- attach 93213 %erbokokaan.id%
- detach 93214 %erbokokaan.id%
- attach 93214 %erbokokaan.id%
- rdelete tanzkvestor %erbokokaan.id%
- rdelete bylpoklon %erbokokaan.id%
+  calcuid erbokokaan 93201 mob
+  detach 93213 %erbokokaan.id%
+  attach 93213 %erbokokaan.id%
+  detach 93214 %erbokokaan.id%
+  attach 93214 %erbokokaan.id%
+  rdelete tanzkvestor %erbokokaan.id%
+  rdelete bylpoklon %erbokokaan.id%
 end
 if %exist.mob(93235)%
- calcuid erbokokaan2 93235 mob
- rdelete tanzkvestor %erbokokaan2.id%
+  calcuid erbokokaan2 93235 mob
+  rdelete tanzkvestor %erbokokaan2.id%
 end
 calcuid plyushki 93213 room
 attach 93211 %plyushki.id%
@@ -586,10 +589,10 @@ wait 3
 з
 calcuid zazavalom 93253 room
 if !%zazavalom.west%
- wait 1s
- mecho Медведь подцепил камень когтями и вытащил его.
- mdoor 93253 west room 93252
- mdoor 93252 east room 93253
+  wait 1s
+  mecho Медведь подцепил камень когтями и вытащил его.
+  mdoor 93253 west room 93252
+  mdoor 93252 east room 93253
 end
 wait 3
 з
@@ -636,11 +639,11 @@ detach 93209 %gdemedv.id%
 * Звери нападают, если в комнате нет желто-черного медведя
 wait 1
 if !%exist.mob(93202)%
-halt
+  halt
 end
 calcuid bear 93202 mob
 if %bear.realroom% == %self.realroom%
-halt
+  halt
 end
 set kto %random.pc%
 атаковать %kto.name%
@@ -652,27 +655,22 @@ set kto %random.pc%
 * Этот триггер нужен, чтобы желто-черный медведь мог пройти от своей пещеры
 * до шатра каана, а другие мобы не лезли куда не следует (кроме чармисов).
 if (%actor.vnum%==93218) || (%actor.vnum%==93219) || (%actor.vnum%==93220)
- if !%actor.leader%
-  return 0
- end
+  if !%actor.leader%
+    return 0
+  end
 end
 ~
 #93221
 Смерть каана~
 0 f 1
 ~
-if %world.curobjs(1240)% < 1
-if %random.100% < 3
-mload obj 1240
-end
-end
 foreach igr %self.pc%
- if (%igr% == %tanzkvestor%)
-  set polnkvestor %tanzkvestor%
-  calcuid plyushki 93213 room
-  remote polnkvestor %plyushki.id%
-  halt
- end
+  if (%igr% == %tanzkvestor%)
+    set polnkvestor %tanzkvestor%
+    calcuid plyushki 93213 room
+    remote polnkvestor %plyushki.id%
+    halt
+  end
 done
 ~
 #93222

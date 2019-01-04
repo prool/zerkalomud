@@ -12,7 +12,7 @@
 уложат, лишь бы потешил душу песней.
 ~
 d0 k0 -600 E
-25 0 0 10d10+1000 4d4+4
+25 0 3 10d10+1000 4d4+4
 0d0+0 10000
 8 8 1
 BareHandAttack: 11
@@ -31,6 +31,7 @@ Weight: 150
 Special_Bitvector: y0B3 
 Skill: 21 15
 Skill: 131 100
+Skill: 136 75
 Skill: 160 100
 E
 T 62501
@@ -63,6 +64,7 @@ Height: 150
 Weight: 150
 Special_Bitvector: y0 
 Skill: 4 30
+Skill: 136 75
 Skill: 137 100
 Skill: 150 100
 Skill: 158 100
@@ -100,6 +102,7 @@ Height: 150
 Weight: 150
 Special_Bitvector: i0 
 Skill: 131 60
+Skill: 136 75
 Skill: 160 60
 E
 I кости,10:5
@@ -133,6 +136,7 @@ Height: 180
 Weight: 150
 Special_Bitvector: C3 
 Skill: 22 100
+Skill: 136 75
 E
 T 62500
 $

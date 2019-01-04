@@ -72,6 +72,7 @@ Class: 103
 Height: 198
 Weight: 30
 Special_Bitvector: p0 
+Skill: 136 9
 E
 T 9101
 T 9102
@@ -110,6 +111,7 @@ Class: 103
 Height: 198
 Weight: 30
 Special_Bitvector: p0 
+Skill: 136 9
 E
 T 9101
 T 9102
@@ -189,6 +191,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 120
 E
 T 9109
 T 9110
@@ -319,7 +322,7 @@ T 9112
 ~
 b0d0g0o0x0f2 k0C0 0 E
 1 15 -10 2d2+20 1d2+0
-0d0+0 1
+0d0+0 0
 8 8 2
 BareHandAttack: 4
 Str: 6

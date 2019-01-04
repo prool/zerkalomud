@@ -117,6 +117,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 134 100
+Skill: 136 93
 Skill: 137 100
 Skill: 138 100
 Skill: 140 100
@@ -230,6 +231,7 @@ Spell: 72
 Spell: 72
 Spell: 72
 Helper: 91704
+Skill: 136 81
 E
 I кожа,15:5
 #91704
@@ -271,6 +273,7 @@ Spell: 67
 Spell: 67
 Spell: 67
 Helper: 91703
+Skill: 136 102
 E
 T 91707
 #91705
@@ -330,6 +333,7 @@ Spell: 72
 Spell: 72
 Spell: 72
 Helper: 91706
+Skill: 136 81
 E
 #91706
 ползучий змей~
@@ -370,6 +374,7 @@ Spell: 67
 Spell: 67
 Spell: 67
 Helper: 91705
+Skill: 136 102
 E
 T 91707
 #91707
@@ -429,6 +434,7 @@ Spell: 72
 Spell: 72
 Spell: 72
 Helper: 91708
+Skill: 136 81
 E
 #91708
 ползучий змей~
@@ -469,6 +475,7 @@ Spell: 67
 Spell: 67
 Spell: 67
 Helper: 91707
+Skill: 136 102
 E
 T 91707
 I чешуя,15:5
@@ -528,6 +535,7 @@ Spell: 55
 Spell: 55
 Spell: 55
 Helper: 91710
+Skill: 136 84
 E
 #91710
 василиск~
@@ -565,6 +573,7 @@ Skill: 157 100
 Spell: 56
 Spell: 56
 Helper: 91709
+Skill: 136 105
 E
 T 91709
 #91711
@@ -623,6 +632,7 @@ Spell: 55
 Spell: 55
 Spell: 55
 Helper: 91712
+Skill: 136 84
 E
 #91712
 василиск~
@@ -660,6 +670,7 @@ Skill: 157 100
 Spell: 56
 Spell: 56
 Helper: 91711
+Skill: 136 105
 E
 T 91709
 #91713
@@ -718,6 +729,7 @@ Spell: 28
 Spell: 28
 Spell: 28
 Helper: 91714
+Skill: 136 87
 E
 #91714
 белый грифон~
@@ -760,6 +772,7 @@ Spell: 66
 Spell: 66
 Spell: 66
 Helper: 91713
+Skill: 136 108
 E
 T 91708
 I зубы,17:7
@@ -820,6 +833,7 @@ Spell: 28
 Spell: 28
 Spell: 28
 Helper: 91716
+Skill: 136 87
 E
 #91716
 белый грифон~
@@ -862,6 +876,7 @@ Spell: 66
 Spell: 66
 Spell: 66
 Helper: 91715
+Skill: 136 108
 E
 T 91708
 #91717
@@ -874,7 +889,9 @@ T 91708
 златорогом туре~
 Златорогий тур пасется на поляне.
 ~
-неопределен~
+
+Огромный тур с золотыми рогами.
+~
 b0c0d0l0n0o0p0x0A0r1 d0f0h0k0 -600 E
 40 0 -9 0d0+18000 40d9+25
 0d0+0 1520000

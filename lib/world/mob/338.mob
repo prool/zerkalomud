@@ -30,6 +30,7 @@ Weight: 50
 Special_Bitvector: b1 
 Skill: 20 100
 Skill: 132 100
+Skill: 136 75
 Skill: 137 100
 Skill: 150 100
 Skill: 151 100
@@ -45,14 +46,13 @@ Spell: 6
 Spell: 6
 Spell: 38
 Spell: 54
-Helper: 33807
-Helper: 33805
 Helper: 33804
+Helper: 33805
+Helper: 33807
 E
 T 80809
 T 33819
 T 33813
-T 33830
 #33801
 дозорный~
 дозорный~
@@ -82,6 +82,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
 Skill: 132 100
+Skill: 136 60
 Skill: 150 100
 Skill: 151 100
 E
@@ -98,7 +99,7 @@ E
 Воин средних лет занимается отточкой стрел и прочими
 обыденными делами.
 ~
-d0g0m0o0l1m1n1 f0k0 0 E
+d0g0m0o0l1m1n1 k0 0 E
 19 6 -3 9d9+400 5d5+0
 5d5+0 29000
 8 8 1
@@ -115,6 +116,7 @@ Class: 102
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
+Skill: 136 57
 Skill: 137 100
 Skill: 154 100
 Skill: 155 100
@@ -151,6 +153,7 @@ Class: 102
 Height: 198
 Weight: 110
 Special_Bitvector: b1c1 
+Skill: 136 63
 Skill: 137 100
 Spell: 26
 Spell: 26
@@ -187,6 +190,7 @@ Special_Bitvector: p0b1c1
 Skill: 131 50
 Skill: 132 50
 Skill: 134 50
+Skill: 136 69
 Skill: 151 50
 Spell: 27
 Spell: 27
@@ -224,6 +228,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: y0b1c1 
+Skill: 136 66
 Skill: 150 100
 E
 #33806
@@ -256,6 +261,7 @@ Weight: 110
 Special_Bitvector: p0y0b1c1 
 Skill: 132 40
 Skill: 134 40
+Skill: 136 51
 Skill: 150 40
 Skill: 151 40
 Skill: 154 50
@@ -290,6 +296,7 @@ Class: 102
 Height: 198
 Weight: 140
 Special_Bitvector: y0b1c1 
+Skill: 136 57
 Skill: 150 80
 Skill: 151 80
 E
@@ -323,6 +330,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: b1c1 
+Skill: 136 66
 Spell: 10
 Spell: 10
 Spell: 10
@@ -366,6 +374,7 @@ Spell: 72
 Spell: 72
 E
 T 33806
+L 1723 6 0 0
 #33809
 конь боевой скакун черный~
 боевой конь~
@@ -396,6 +405,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 134 100
+Skill: 136 36
 E
 #33810
 игривый жеребенок~
@@ -426,6 +436,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 134 80
+Skill: 136 30
 E
 #33811
 стряпуха толстая~
@@ -456,12 +467,14 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: p0y0 
+Skill: 136 60
 Skill: 150 90
 Spell: 4
 Spell: 33
 Spell: 75
 Spell: 77
 E
+T 33807
 #33812
 рослый воин~
 рослый воин~
@@ -492,6 +505,7 @@ Class: 102
 Height: 198
 Weight: 140
 Special_Bitvector: y0b1c1 
+Skill: 136 57
 Skill: 150 80
 Skill: 151 80
 E
@@ -524,6 +538,7 @@ Class: 102
 Height: 198
 Weight: 110
 Special_Bitvector: p0y0b1c1 
+Skill: 136 51
 Skill: 155 50
 E
 #33814
@@ -554,6 +569,7 @@ Class: 102
 Height: 198
 Weight: 140
 Special_Bitvector: f0b1c1 
+Skill: 136 69
 Skill: 150 100
 Skill: 151 100
 Spell: 26
@@ -594,6 +610,7 @@ Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
 Skill: 131 50
+Skill: 136 57
 Skill: 150 50
 Skill: 151 50
 E
@@ -628,6 +645,7 @@ Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
 Skill: 131 50
+Skill: 136 66
 E
 #33817
 гадкая змея~
@@ -656,6 +674,7 @@ Class: 102
 Height: 198
 Weight: 10
 Special_Bitvector: g0 
+Skill: 136 45
 Spell: 27
 Spell: 27
 Spell: 27
@@ -689,6 +708,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 132 50
+Skill: 136 69
 E
 #33819
 сотник~
@@ -721,6 +741,7 @@ Weight: 100
 Special_Bitvector: b1c1 
 Skill: 5 50
 Skill: 131 100
+Skill: 136 72
 Skill: 137 100
 Skill: 151 100
 Spell: 27
@@ -760,6 +781,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 78
 Skill: 150 100
 Spell: 6
 Spell: 6
@@ -797,8 +819,8 @@ Spell: 28
 Spell: 54
 Spell: 54
 Spell: 54
-Helper: 33823
 Helper: 33821
+Helper: 33823
 E
 T 33821
 T 33820
@@ -835,6 +857,7 @@ Weight: 170
 Special_Bitvector: p0b1c1 
 Skill: 12 100
 Skill: 22 100
+Skill: 136 72
 Skill: 151 100
 Spell: 54
 Spell: 64
@@ -880,6 +903,7 @@ Height: 198
 Weight: 140
 Special_Bitvector: b1c1 
 Skill: 132 50
+Skill: 136 69
 Skill: 154 100
 Skill: 155 100
 E
@@ -914,6 +938,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: m0y0a1b1c1 
 Skill: 134 50
+Skill: 136 54
 E
 #33824
 багатур~
@@ -945,6 +970,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: y0a1b1c1 
+Skill: 136 69
 Skill: 139 100
 Skill: 150 100
 Skill: 151 100
@@ -993,6 +1019,7 @@ Weight: 140
 Special_Bitvector: b1c1 
 Skill: 131 50
 Skill: 132 50
+Skill: 136 54
 Skill: 150 100
 Skill: 151 100
 E
@@ -1027,6 +1054,7 @@ Class: 100
 Height: 198
 Weight: 105
 Special_Bitvector: b1c1 
+Skill: 136 66
 E
 #33827
 черный пес~
@@ -1058,6 +1086,7 @@ Class: 103
 Height: 198
 Weight: 58
 Special_Bitvector: p0 
+Skill: 136 69
 E
 T 33805
 T 33808
@@ -1088,6 +1117,7 @@ Class: 103
 Height: 198
 Weight: 10
 Special_Bitvector: n0 
+Skill: 136 12
 E
 #33829
 длинноухий осел~
@@ -1114,6 +1144,7 @@ Class: 103
 Height: 198
 Weight: 25
 Special_Bitvector: p0 
+Skill: 136 15
 E
 #33830
 священник~
@@ -1140,6 +1171,7 @@ Class: 102
 Height: 198
 Weight: 1
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #33831
 десятник Горбун~
@@ -1174,6 +1206,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 100
 Skill: 134 100
+Skill: 136 66
 Skill: 150 50
 Skill: 151 100
 Skill: 160 100
@@ -1213,6 +1246,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
+Skill: 136 66
 Spell: 28
 Spell: 28
 Spell: 28
@@ -1275,6 +1309,7 @@ Height: 198
 Weight: 170
 Special_Bitvector: p0b1c1 
 Skill: 12 100
+Skill: 136 72
 Spell: 54
 Spell: 64
 Spell: 64
@@ -1314,6 +1349,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: p0y0a1b1c1 
 Skill: 134 100
+Skill: 136 54
 Skill: 139 50
 E
 $

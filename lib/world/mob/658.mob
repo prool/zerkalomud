@@ -333,7 +333,7 @@ T 65807
 ~
 d0d1 d0f0k0s0A0 -600 E
 22 2 -6 7d8+840 4d4+24
-0d0+0 222000
+0d0+0 55000
 8 8 2
 BareHandAttack: 8
 Str: 19
@@ -656,6 +656,7 @@ Height: 40
 Weight: 50
 Special_Bitvector: p0 
 Skill: 20 50
+Skill: 136 36
 Skill: 157 50
 E
 #65820

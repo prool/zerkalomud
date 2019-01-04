@@ -1,0 +1,278 @@
+* BRusMUD trigger file v1.0
+#7600
+приветствие лесничего~
+0 r0 100
+~
+wait 1
+if %questor76% == %actor.id%
+say %actor.name%, ты уже выполнил мою просьбу?
+вопр
+halt
+end
+if %questor76%
+halt
+end
+wait 1s
+say Приветствую тебя, %actor.name%!
+ул
+say Не сможешь ли ты мне помочь?
+
+~
+#7601
+соглашаемся помочь лесничему~
+0 d0 0
+могу смогу~
+ wait 1s
+set questor76 %actor%
+global  questor76
+ say Чудесно! Вот, послушай.
+ say Было хорошо, значиться, в лесу-то моем. Птички, цветочки. Было, да быльем поросло!
+ say Поселился у нас кто-то и с тех пор лес не тот что раньше.
+ взд
+ say Зверья мало стало, деревья погибают...! Им же жить надо!
+ wait 1s
+ say Попробуй отыскать виновников этой беды да образумить... да чтоб кровь не проливать!
+ say А я уж в долгу не останусь...
+ wait 1s
+ эм задумчиво поскреб в бороде
+ dg_cast 'защита' %actor.name%
+ wait 1s
+ say Вот, это единственные чары, которые я могу на тебя наложить...
+ say А теперь ступай!
+detach 7601 %self.id%
+
+~
+#7602
+лезем в кусты~
+2 c0 1
+лезть пролезть~
+if !%arg.contains(кусты)%
+wsend %actor% _Куда лезем?
+halt
+end
+wait 1
+%actor.wait(2)%
+wsend %actor% Вы полезли в кусты...
+wechoaround %actor% _%actor.name% полез%actor.q% в кусты. Ну точно, чокнут%actor.w%!
+wteleport %actor% 7663 horse
+wait 1s
+wsend %actor% ...и вылезли на какой-то поляне.
+
+~
+#7603
+лезем обратно~
+2 c0 0
+лезть пролезть~
+if !%arg.contains(кусты)%
+wsend %actor% _Куда лезем?
+halt
+end
+wait 1
+%actor.wait(2)%
+wsend %actor% Вы полезли в кусты...
+wechoaround %actor% _%actor.name% полез%actor.q% в кусты.
+wait 2s
+wteleport %actor% 7662 horse
+wsend %actor% ...и вылезли на какой-то поляне.
+
+~
+#7604
+получаем награду~
+0 d0 1
+да выполнил выполнила сделал сделала готово угу~
+wait 1
+if (%questor76.id% != %actor.id%)
+halt
+end
+if %exist.mob(7609)% || %exist.mob(7610)% || %exist.mob(7611)% || %exist.mob(7612)%
+wait 1s
+  say Что-то подсказывает мне, что ты мне врешь! 
+  эм отвернулся от Вас
+halt
+end 
+if !%exist.obj(7610)%
+wait 1s
+  взд
+  say Отлично! Молодец! Ты спас наш лес, и это не пустые слова!
+  wait 1s
+   eval chanse %random.100%
+   if ( %chanse% < 20 ) && ( %world.curobjs(7607)% < 4 )
+   mload obj 7607
+   г Возми мой старый посох, с ним ты не потеряешся даже самой темной ночью.
+   дат посох %actor.name%
+   elseif ( %chanse% < 40 ) && ( %world.curobjs(7614)% < 4 )
+   say Забирай мои перчатки, с ними ты даже без оружия будешь раскидывать своих врагов.
+   mload obj 7614
+   дать перчат .%actor.name%
+  elseif ( %chanse% < 60 ) && ( %world.curobjs(7615)% < 4 )
+   say Прими в дар этот топор, наверное его в лесу позабыл дровосек, вот я и прихватил..
+   mload obj 7615
+   дать топор .%actor.name%
+   else
+   %self.gold(+300)%
+   дат 300 кун %actor.name%
+  end
+else
+say Жаль, что не удалось избежать кровопролития... Ну уж как вышло.
+end
+   wait 1s
+   say Давай-ка глянем, как бы наградить тебя.
+   wait 1s
+   say Ты, верно, понял%actor.g% - не всегда я простым лесничим был да за лесом следил.
+   say Был я некогда воем дружинным - служил в самом славном Новгороде.
+   say А стар стал - поселился тут лесником.
+   wait 2
+   switch %actor.class%
+   case 2
+   say Научу я тебя воинской хитрости одной, в честной битве может и не сгодится
+   say Но вот караульного тихо убрать, так чтоб и крикнуть не успел - это да.
+   mskillturn %actor.name% подножка set
+   break
+   case 3
+   say Научу я тебя удару особому, против которого никто не устоит!
+   mskillturn %actor.name% богатырский.молот set
+   break
+   case 4
+   say Научу я тебя как зелье составить, так что даже и малая рана от оружия твоего насмерть разить будет.
+   mskillturn %actor.name% отравить set
+   break
+   case 5
+   say Научу я тебя, как в бою от хитростей вражьей и магии злой защищаться.
+   mskillturn %actor.name% осторожный.стиль set
+   break
+   case 9
+   say Научу я тебя мечом владеть так, чтоб с одного удара мог недругу голову снять!
+   mskillturn %actor.name% точный.стиль set
+   break
+   case 10
+   say Научу я тебя, как друзей да воинов своих в бою и походе вести без потери и с легкостью.
+   mskillturn %actor.name% лидерство set
+   break
+   case 11
+   say Научу я тебя удару, после которого супротивник твой не сразу и вспомнит, кто он, да откуда родом.
+   mskillturn %actor.name% оглушить set
+   break
+   case 12
+   say Научу я тебя, как нож да копье в ворога метать следует, так что, бывает, боле и стараться не придется.
+   say Коли попадешь верно.
+   ул
+   mskillturn %actor.name% метнуть set
+   done
+   mechoaround %actor% Старик-лесничий дал %actor.dname% несколько наставлений по боевому искуству.
+   msend %actor% Старик-лесничий дал вам несколько наставлений по боевому искуству.
+unset questor76
+detach 7601 %self.id%
+detach 7600 %self.id%
+detach 7604 %self.id%
+
+~
+#7605
+зашли к цыганам~
+0 q0 100
+~
+wait 1s
+mecho _Усатый цыган раздраженно пнул сломанную телегу.
+wait 1s
+г Какая-то тварь ночью утащила чеку из колеса 
+г Теперь не можем уехать из этих дебрей!
+упрек
+detach 7605 %self.id%
+
+~
+#7606
+усатому дали ось~
+0 j0 100
+~
+wait 1
+if (%object.vnum% != 7610)
+г И не стыдно мусор совать честным людям?
+ухм
+halt
+end
+wait 1
+mpurge %object%
+благ
+wait 1s
+г Наконец-то мы покинем этот чертов лес!
+wait 1s
+eval chanse %random.100%
+   if ( %chanse% < 20 ) && ( %world.curobjs(512)% < 1 )
+   say Возми вот эту книжку, прихватили в каком-то селе, да нам она без надобности.
+   mload obj 512
+   дать книг .%actor.name%
+   elseif ( %chanse% < 35 ) && ( %world.curobjs(4413)% < 1 )
+   say Возми вот этот свиток, нашли как-то по пути, да купец тот все равно читать не умел.
+   mload obj 4413
+   дать свит .%actor.name%
+   else
+say Возьми, вот, за помощь.
+%self.gold(+150)% 
+give 150 кун .%actor.name%
+   end
+wait 1s
+mecho _Цыгане шумно собрали телегу, запрягли коней и унеслись прочь.
+exec 7607 %world.mob(7609)%
+exec 7607 %world.mob(7610)%
+exec 7607 %world.mob(7612)%
+mteleport %self% 7699
+сня все
+mjunk all
+wait 1
+mpurge %self%
+
+~
+#7607
+цыгане пуржатся~
+0 z0 100
+~
+mteleport %self% 7699
+сня все
+mjunk all
+wait 1
+mpurge %self%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+#7608
+репоп тригов~
+2 f0 100
+~
+calcuid star 7600 mob
+detach 7600 %star%
+detach 7601 %star%
+detach 7604 %star%
+attach 7600 %star%
+attach 7601 %star%
+attach 7604 %star%
+calcuid us 7611 mob
+detach 7605 %us%
+detach 7606 %us%
+attach 7605 %us%
+attach 7606 %us%
+
+
+
+~
+#7609
+Убит омутник~
+0 0 12
+~
+if %world.curobjs(210)% < 50
+mload obj 210
+end
+
+~
+$
+$

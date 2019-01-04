@@ -1,3 +1,4 @@
+* BRusMUD mob file v1.0
 #12400
 черный нетопырь~
 нетопырь~
@@ -8,7 +9,7 @@
 нетопыре~
 Большой черный нетопырь летает здесь.
 ~
-   Большой, черный как уголь, нетопырь кружится вокруг вас, скаля
+   Большой, черный как уголь, нетопырь кружится вокруг вас скаля
 острые зубы.
 ~
 d0g0n0o0x0 f0k0s0x0m1 -600 E
@@ -17,18 +18,19 @@ d0g0n0o0x0 f0k0s0x0m1 -600 E
 8 8 1
 BareHandAttack: 4
 Str: 15
-Dex: 22
 Int: 13
 Wis: 14
+Dex: 22
 Con: 15
 Cha: 10
-Size: 15
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 100
+Size: 15
 Height: 198
 Weight: 40
-Special_Bitvector: l0 
+Special_Bitvector: l0
 Skill: 136 80
 Spell: 76
 Spell: 76
@@ -54,18 +56,19 @@ b0d0g0m0n0o0x0 d0f0k0t0x0 0 E
 5 5 2
 BareHandAttack: 8
 Str: 15
-Dex: 30
 Int: 9
 Wis: 12
+Dex: 30
 Con: 50
 Cha: 10
-Size: 15
 LikeWork: 60
+MaxFactor: 0
 ExtraAttack: 1
 Class: 100
+Size: 15
 Height: 198
 Weight: 40
-Special_Bitvector: l0 
+Special_Bitvector: l0
 Skill: 136 60
 Spell: 76
 Spell: 76
@@ -88,18 +91,19 @@ d0g0h0n0o0x0 d0f0k0s0x0 0 E
 5 8 2
 BareHandAttack: 1
 Str: 15
-Dex: 30
 Int: 9
 Wis: 12
+Dex: 30
 Con: 15
 Cha: 10
-Size: 15
 LikeWork: 60
+MaxFactor: 0
 ExtraAttack: 1
 Class: 100
+Size: 15
 Height: 198
 Weight: 60
-Special_Bitvector: l0 
+Special_Bitvector: l0
 Skill: 136 60
 E
 #12403
@@ -121,18 +125,19 @@ b0d0f0g0n0o0t0 d0f0k0t0 -600 E
 5 8 2
 BareHandAttack: 8
 Str: 20
-Dex: 25
 Int: 15
 Wis: 18
+Dex: 25
 Con: 18
 Cha: 12
-Size: 50
 LikeWork: 90
+MaxFactor: 0
 ExtraAttack: 1
 Class: 100
+Size: 50
 Height: 198
 Weight: 150
-Special_Bitvector: g0b1c1 
+Special_Bitvector: g0b1c1
 Skill: 136 90
 Spell: 55
 Spell: 76
@@ -155,17 +160,19 @@ d0g0 a0 0 E
 8 8 1
 BareHandAttack: 12
 Str: 10
-Dex: 13
 Int: 8
 Wis: 7
+Dex: 13
 Con: 9
 Cha: 3
-Size: 5
 LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 0
 Class: 100
+Size: 5
 Height: 198
 Weight: 15
-Special_Bitvector: m0 
+Special_Bitvector: m0
 Skill: 136 40
 E
 #12405
@@ -187,18 +194,19 @@ d0g0l0m0n0o0x0 d0f0k0s0x0A0 -600 E
 8 8 2
 BareHandAttack: 4
 Str: 15
-Dex: 19
 Int: 22
 Wis: 21
+Dex: 19
 Con: 15
 Cha: 10
-Size: 15
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
+Size: 15
 Height: 198
 Weight: 10
-Special_Bitvector: i0l0 
+Special_Bitvector: i0l0
 Skill: 136 80
 Spell: 40
 Spell: 55
@@ -223,18 +231,19 @@ d0g0l0n0o0x0 d0f0k0A0 -600 E
 8 8 1
 BareHandAttack: 4
 Str: 15
-Dex: 19
 Int: 22
 Wis: 21
+Dex: 19
 Con: 15
 Cha: 10
-Size: 15
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
+Size: 15
 Height: 198
 Weight: 10
-Special_Bitvector: i0l0 
+Special_Bitvector: i0l0
 Skill: 136 80
 Spell: 40
 Spell: 55
@@ -260,18 +269,19 @@ d0f0g0l0 d0f0k0s0 0 E
 8 8 1
 BareHandAttack: 4
 Str: 12
-Dex: 9
 Int: 3
 Wis: 18
+Dex: 9
 Con: 13
 Cha: 3
-Size: 50
 LikeWork: 99
+MaxFactor: 0
 ExtraAttack: 1
 Class: 103
+Size: 50
 Height: 198
 Weight: 25
-Special_Bitvector: m0 
+Special_Bitvector: m0
 Skill: 136 40
 Spell: 33
 Spell: 33
@@ -287,7 +297,7 @@ E
 каменного скелета~
 каменным скелетом~
 каменном скелете~
-Каменный скелет, хрустя костями, стоит здесь.
+Каменный скелет хрустя костями стоит здесь.
 ~
    Наложенное заклятье не позволяет умершему покинуть этот мир.
 ~
@@ -297,19 +307,20 @@ d0g0A0 d0f0k0 -600 E
 8 8 1
 BareHandAttack: 2
 Str: 17
-Dex: 21
 Int: 30
 Wis: 12
+Dex: 21
 Con: 18
 Cha: 23
-Size: 40
 LikeWork: 75
 MaxFactor: 30
 ExtraAttack: 1
 Class: 103
+Size: 40
 Height: 198
 Weight: 200
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1
+Skill: 136 78
 Skill: 141 75
 Skill: 142 75
 Skill: 143 75
@@ -324,4 +335,5 @@ Spell: 72
 Spell: 72
 E
 T 12407
+$
 $

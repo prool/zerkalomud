@@ -26,6 +26,7 @@ Class: 103
 Height: 198
 Weight: 10
 Special_Bitvector: p0 
+Skill: 136 30
 E
 #33901
 крестьянин~
@@ -92,6 +93,7 @@ Special_Bitvector: b1c1d1
 Skill: 2 30
 Skill: 21 10
 Skill: 132 10
+Skill: 136 42
 Skill: 145 60
 Spell: 4
 Spell: 15
@@ -111,7 +113,7 @@ E
 ~
 Старая скотина с торчащими костями уставилась в одну точку.
 ~
-b0d0g0s0 C0l1 0 E
+b0d0g0s0f2 C0l1 0 E
 14 9 -2 10d10+150 5d5+0
 0d0+0 11000
 8 8 2
@@ -129,6 +131,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 42
 E
 T 33903
 L 1499 12 0 0
@@ -159,8 +162,9 @@ Size: 20
 LikeWork: 85
 Class: 103
 Height: 198
-Weight: 50
+Weight: 10
 Special_Bitvector: p0 
+Skill: 136 39
 Spell: 4
 E
 T 33900
@@ -196,6 +200,7 @@ Weight: 80
 Special_Bitvector: p0 
 Skill: 1 50
 Skill: 21 12
+Skill: 136 42
 Skill: 157 90
 E
 #33906
@@ -227,6 +232,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 30
 Skill: 140 90
 E
 #33907
@@ -261,6 +267,7 @@ Weight: 150
 Special_Bitvector: p0 
 Skill: 1 30
 Skill: 134 80
+Skill: 136 48
 E
 T 33902
 #33908
@@ -293,6 +300,7 @@ Height: 198
 Weight: 50
 Special_Bitvector: l0 
 Skill: 21 10
+Skill: 136 42
 E
 T 33901
 #33909
@@ -325,6 +333,7 @@ Height: 198
 Weight: 50
 Special_Bitvector: p0 
 Skill: 132 80
+Skill: 136 30
 Skill: 157 80
 E
 T 33905
@@ -358,6 +367,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
+Skill: 136 60
 Skill: 150 80
 Skill: 157 80
 Spell: 8
@@ -381,6 +391,8 @@ Spell: 75
 Spell: 93
 Spell: 110
 E
+T 33938
+T 33942
 #33911
 гусь~
 гусь~
@@ -412,6 +424,7 @@ Weight: 50
 Special_Bitvector: 0 
 Skill: 1 30
 Skill: 132 50
+Skill: 136 45
 Skill: 137 80
 Skill: 157 80
 E
@@ -445,6 +458,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: a1b1c1d1 
 Skill: 2 20
+Skill: 136 36
 Skill: 139 47
 Spell: 17
 Spell: 25
@@ -483,11 +497,13 @@ Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
 Skill: 134 40
+Skill: 136 48
 Skill: 160 40
 Spell: 4
 Spell: 15
 Spell: 27
 E
+T 33932
 #33914
 знахарь~
 знахарь~
@@ -501,7 +517,7 @@ E
 Человек, умудренный жизненным опытом, готов обслужить любого путника.
 ~
 a0b0d0g0l0n0 d0e0f0h0k0A0C0m1 0 E
-22 2 -3 30d5+600 3d8+5
+22 2 10 30d5+600 3d8+5
 5d10+120 82000
 8 8 1
 Str: 18
@@ -517,6 +533,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
+Skill: 136 66
 Skill: 141 80
 Spell: 10
 Spell: 10
@@ -535,7 +552,10 @@ Spell: 75
 Spell: 75
 Spell: 88
 E
-T 33931
+T 33933
+T 33940
+T 33945
+T 33944
 #33915
 убогий~
 убогий~
@@ -564,6 +584,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: b1c1d1 
+Skill: 136 30
 E
 T 33914
 #33916
@@ -580,7 +601,7 @@ T 33914
 ~
 b0d0g0n0x0 e0h0C0m1 0 E
 15 8 -3 30d3+200 3d5+0
-2d10+0 11444
+2d10+0 0
 6 6 1
 Str: 19
 Dex: 3
@@ -593,6 +614,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 45
 Spell: 5
 Spell: 5
 Spell: 5
@@ -601,6 +623,9 @@ Spell: 15
 Spell: 15
 Spell: 15
 Spell: 15
+Spell: 25
+Spell: 25
+Spell: 25
 Spell: 26
 Spell: 26
 Spell: 26
@@ -639,6 +664,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 39
 Spell: 5
 Spell: 5
 Spell: 5
@@ -675,7 +701,7 @@ Destination: 33997
 Str: 20
 Dex: 3
 Int: 20
-Wis: 19
+Wis: 22
 Con: 3
 Cha: 3
 Size: 21
@@ -732,6 +758,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 131 100
+Skill: 136 57
 Skill: 157 90
 E
 #33920
@@ -764,6 +791,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: p0 
+Skill: 136 39
 E
 T 33904
 #33921
@@ -795,6 +823,7 @@ Class: 103
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #33922
 кошка~
@@ -824,6 +853,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: i0 
+Skill: 136 30
 E
 #33923
 questor3391 слепой лучник~
@@ -856,6 +886,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 21 50
+Skill: 136 60
 Skill: 154 120
 Skill: 155 120
 Skill: 160 75
@@ -901,7 +932,7 @@ T 33925
 Более чем упитанный крестьянин, выглядящий лет на сорок, пробежал по
 Вам глазами в поисках кошелька.
 ~
-b0c0d0g0n0o0x0 h0 0 E
+b0c0d0g0n0o0x0 d0h0 0 E
 21 6 -4 100d1+1750 10d2+0
 100d3+0 100000
 8 8 1
@@ -909,7 +940,7 @@ Str: 24
 Dex: 18
 Int: 3
 Wis: 3
-Con: 3
+Con: 26
 Cha: 3
 Size: 100
 LikeWork: 99
@@ -919,11 +950,14 @@ Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
 Skill: 12 90
+Skill: 136 63
 Spell: 28
 Spell: 28
 Spell: 28
 E
 T 33928
+T 33937
+T 33941
 #33925
 седой воин~
 седой воин~
@@ -986,9 +1020,10 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #33927
-мрачный призрак~
+мрачный призрак восставшая душа~
 мрачный призрак~
 мрачного призрака~
 мрачному призраку~
@@ -1007,7 +1042,7 @@ BareHandAttack: 1
 Str: 3
 Dex: 3
 Int: 3
-Wis: 3
+Wis: 25
 Con: 3
 Cha: 3
 Size: 2
@@ -1017,6 +1052,7 @@ Class: 101
 Height: 198
 Weight: 10
 Special_Bitvector: l0 
+Skill: 136 54
 Skill: 157 90
 Spell: 23
 Spell: 54
@@ -1027,6 +1063,7 @@ Spell: 75
 Spell: 75
 Spell: 75
 Helper: 33918
+Skill: 136 54
 E
 #33928
 Сварог~
@@ -1056,6 +1093,7 @@ Class: 105
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 150
 Spell: 36
 Spell: 36
 Spell: 36
@@ -1165,4 +1203,79 @@ Spell: 82
 Spell: 82
 E
 T 33924
+#33929
+batrak339_1 мрачный мужик~
+мрачный мужик~
+мрачного мужика~
+мрачному мужику~
+мрачного мужика~
+мрачным мужиком~
+мрачном мужике~
+Мрачный мужик прислонился к забору.
+~
+Здоровенный мрачный детина, в годах и шириной с хорошую дверь.
+Одет он в полотняную рубаху и порты и сапоги-поршни.
+~
+b0d0m0n0p0r0 d0f0k0r0C0 -50 E
+22 2 5 20d7+650 7d8+6
+0d0+12 42000
+8 8 1
+Saves: 70 40 0 50
+Str: 22
+Dex: 21
+Int: 16
+Wis: 12
+Con: 25
+Cha: 12
+Size: 50
+LikeWork: 90
+ExtraAttack: 1
+Class: 102
+Height: 168
+Weight: 167
+Special_Bitvector: 0 
+Skill: 5 70
+Skill: 22 70
+Skill: 136 66
+Skill: 137 100
+Skill: 157 80
+E
+T 33936
+#33930
+плечистый молодец~
+плечистый молодец~
+плечистого молодца~
+плечистому молодцу~
+плечистого молодца~
+плечистым молодцем~
+плечистом молодце~
+Крепкий плечистый молодец прохаживается тут.
+~
+Молодой крепкий парень, в простой одежде.
+~
+b0d0m0n0p0r0 d0f0k0r0C0 -10 E
+22 2 0 20d6+600 5d7+5
+0d0+2 43000
+8 8 1
+HPreg: 40
+Success: 5
+Str: 25
+Dex: 14
+Int: 15
+Wis: 12
+Con: 25
+Cha: 12
+Size: 50
+LikeWork: 75
+ExtraAttack: 1
+Class: 102
+Height: 185
+Weight: 170
+Special_Bitvector: 0 
+Skill: 4 70
+Skill: 132 50
+Skill: 136 66
+Skill: 137 50
+Skill: 157 70
+E
 $

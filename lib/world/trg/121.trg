@@ -4,21 +4,21 @@
 ~
 wait 1
 switch %random.5%
-case 1
- say А Руслан то, смелее был.
- break
-case 2
-  say Иди сюда, урод!
- break
-case 3
-   say Да я тебя .... одним ударом
- break
-case 4
+  case 1
+    say А Руслан то, смелее был.
+  break
+  case 2
+    say Иди сюда, урод!
+  break
+  case 3
+    say Да я тебя .... одним ударом
+  break
+  case 4
     say Какие слабые герои пошли!
- break
-default
+  break
+  default
     say Давай биться, кто кого! В очередь, сукины дети!
- break
+  break
 done
 ~
 #12101
@@ -33,12 +33,12 @@ wait 1
 0 d 0
 корыто~
 if %random.10%==1
-ск %actor.name% Вот, возьми, да отдай своей старухе! 
-ск %actor.name% И что она у тебя с ними делает в таком количестве?
-mload obj 12108
-дат корыт %actor.name%
+  ск %actor.name% Вот, возьми, да отдай своей старухе! 
+  ск %actor.name% И что она у тебя с ними делает в таком количестве?
+  mload obj 12108
+  дат корыт %actor.name%
 else
-ск %actor.name% Все, достал ты меня своими корытами, нет больше! 
+  ск %actor.name% Все, достал ты меня своими корытами, нет больше! 
 end
 detach 12101 %self.id%
 detach 12102 %self.id%
@@ -67,6 +67,8 @@ if %object.vnum% == 12108
   say Засунь его лучше себе... На голову!
 end
 if %object.vnum% == 12100
+  wait 1
+  mpurge %object%
   wait 8
   say Вот спасибо странник, выручил!!!!
   wait 8
@@ -76,8 +78,8 @@ if %object.vnum% == 12100
   wait 8
   %self.gold(+100)%
   дать 100 кун %actor.name%
-  calcuid var 12100 obj
-  mpurge %var.name%
+  wait 1
+  *mpurge %var%
 end
 if %object.vnum% == 12101
   wait 8
@@ -99,9 +101,8 @@ if %object.vnum% == 12108
   улы %actor.name%
   wait 8
   say Принесли бы лучше цветы или шоколадку!
-  calcuid var 12108 obj
-wait 1
-  mpurge %var%
+  wait 1
+  mpurge %object%
 end
 if %object.vnum% == 12100
   wait 8
@@ -114,11 +115,10 @@ if %object.vnum% == 12101
   wait 8
   %self.gold(+100)%
   дать 100 кун %actor.name%
-  calcuid var 12101 obj
-wait 1
-  mpurge %var%
+  wait 1
+  mpurge %object.iname%
   wait 8
-  msend %actor% Бабка сьела колобка.
+  msend %actor% Бабка съела колобка.
   wait 8
   улы
   say Семья у нас бедная, каждая корка хлеба на счету.
@@ -130,7 +130,7 @@ end
 ~
 wait 1
 if %actor.vnum%==12102
- щупать русалка
+  щупать русалка
 end
 ~
 #12106

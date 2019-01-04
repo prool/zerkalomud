@@ -12,7 +12,7 @@
 
 ~
 d0 0 0 E
-10 6 6 0d0+200 5d2+2
+6 6 6 0d0+200 5d2+2
 0d0+0 2000
 8 8 1
 BareHandAttack: 4
@@ -25,10 +25,12 @@ LikeWork: 100
 MaxFactor: 20
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 3
 Weight: 3
 Special_Bitvector: 0 
 Skill: 2 70
+Skill: 136 30
 E
 #5401
 тетерев косач~
@@ -45,7 +47,7 @@ E
 
 ~
 d0g0o0 0 0 E
-10 6 5 2d10+200 2d3+5
+11 6 5 2d10+200 2d3+5
 0d0+0 7500
 8 8 1
 BareHandAttack: 4
@@ -57,10 +59,12 @@ LikeWork: 100
 MaxFactor: 20
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 3
 Weight: 3
 Special_Bitvector: l0 
 Skill: 2 80
+Skill: 136 30
 E
 #5402
 рябчик~
@@ -76,7 +80,7 @@ E
 
 ~
 d0g0o0 0 0 E
-6 13 7 1d10+80 1d4+5
+4 13 7 1d10+80 1d4+5
 0d0+0 1000
 8 8 1
 BareHandAttack: 4
@@ -88,9 +92,11 @@ Cha: 3
 Size: 2
 MaxFactor: 20
 Class: 103
+Race: 100
 Height: 3
 Weight: 1
 Special_Bitvector: l0 
+Skill: 136 18
 Skill: 157 30
 E
 #5403
@@ -106,7 +112,7 @@ E
 Перепел птица такая, это не перепИл, как многим покажется.
 ~
 d0g0o0 0 0 E
-6 8 7 1d5+100 1d6+3
+5 8 7 1d5+100 1d6+3
 0d0+0 1500
 8 8 1
 BareHandAttack: 4
@@ -118,10 +124,13 @@ Cha: 4
 Size: 2
 MaxFactor: 20
 Class: 103
+Race: 100
 Height: 2
 Weight: 2
 Special_Bitvector: l0 
+Skill: 136 18
 E
+L 5414 75 0 0
 #5404
 утка~
 утка~
@@ -136,7 +145,7 @@ E
 
 ~
 b0d0l0m0n0o0h1i1l1m1n1 0 0 E
-6 13 7 1d10+80 1d5+2
+7 13 7 1d10+80 1d5+2
 0d0+0 2500
 8 8 2
 BareHandAttack: 4
@@ -149,9 +158,11 @@ Cha: 3
 Size: 2
 MaxFactor: 20
 Class: 103
+Race: 100
 Height: 2
 Weight: 2
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #5405
 дупель~
@@ -166,7 +177,7 @@ E
 Одна из самых шустрых птиц русского леса.
 ~
 d0g0o0 x0 0 E
-8 10 5 1d10+80 1d7+2
+5 10 5 1d10+80 1d7+2
 0d0+0 1500
 8 8 1
 BareHandAttack: 15
@@ -178,9 +189,11 @@ Cha: 3
 Size: 2
 MaxFactor: 20
 Class: 103
+Race: 100
 Height: 2
 Weight: 1
 Special_Bitvector: l0 
+Skill: 136 24
 E
 #5406
 охотник~
@@ -195,7 +208,7 @@ E
 Суровый охотник высматривает следы птиц. Лучше ему не мешать.
 ~
 d0g0h0n0o0 0 0 E
-15 5 5 0d0+500 2d5+10
+18 5 5 0d0+500 2d5+10
 10d10+100 30000
 8 8 1
 BareHandAttack: 6
@@ -205,10 +218,12 @@ LikeWork: 90
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
 Skill: 132 90
+Skill: 136 45
 Skill: 150 90
 Skill: 154 90
 Spell: 5
@@ -229,7 +244,7 @@ T 5400
    Быстрый юркий хорек бегает в поисках пищи.
 ~
 d0g0h0m0o0 s0 0 E
-8 10 8 0d0+100 1d5+3
+6 10 8 0d0+100 1d5+3
 0d0+0 2000
 8 8 1
 BareHandAttack: 12
@@ -242,9 +257,11 @@ Cha: 5
 Size: 3
 MaxFactor: 20
 Class: 103
+Race: 100
 Height: 2
-Weight: 2
+Weight: 11
 Special_Bitvector: m0 
+Skill: 136 24
 E
 #5408
 кукушка~
@@ -261,7 +278,7 @@ E
 
 ~
 d0g0o0 0 0 E
-12 5 5 1d20+250 1d9+3
+9 5 5 1d20+250 1d9+3
 0d0+0 5000
 8 8 2
 BareHandAttack: 12
@@ -274,10 +291,12 @@ Cha: 5
 Size: 4
 MaxFactor: 20
 Class: 103
+Race: 100
 Height: 3
 Weight: 2
 Special_Bitvector: l0 
 Skill: 2 40
+Skill: 136 36
 E
 #5409
 заяц-русак~
@@ -293,7 +312,7 @@ E
 
 ~
 d0g0h0o0 0 0 E
-5 16 7 1d2+75 1d4+2
+4 16 7 1d2+75 1d4+2
 0d0+0 750
 8 8 1
 BareHandAttack: 12
@@ -306,9 +325,11 @@ Cha: 3
 Size: 3
 MaxFactor: 20
 Class: 103
+Race: 100
 Height: 2
-Weight: 2
+Weight: 11
 Special_Bitvector: n0 
+Skill: 136 15
 E
 #5410
 пес охотничий~
@@ -332,10 +353,12 @@ Dex: 20
 Size: 10
 MaxFactor: 20
 Class: 103
+Race: 100
 Height: 50
 Weight: 10
 Special_Bitvector: p0 
 Skill: 132 80
+Skill: 136 36
 Skill: 137 80
 Skill: 150 80
 Helper: 5406
@@ -353,8 +376,8 @@ E
    Куропатка спряталась в траве здесь, ждет что вы будете дальше делать,
 если подойти близко птица явно спорхнет и постарается улететь.
 ~
-d0g0 0 0 E
-7 7 6 0d0+150 2d2+2
+d0g0f2 0 0 E
+6 7 6 0d0+150 2d2+2
 0d0+0 2000
 8 8 2
 BareHandAttack: 15
@@ -364,8 +387,34 @@ Size: 5
 MaxFactor: 20
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 198
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 21
+E
+#5484
+жучок~
+жучок~
+жучка~
+жучку~
+жучка~
+жучке~
+жучке~
+Жучок жужжит тут
+~
+Выглядит достаточно незавершенно.
+Жучок жучит!
+~
+d0 0 0 E
+1 -30 0 5d100+700 3d1+3
+0d0+0 10
+6 8 1
+Size: 30
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
 E
 $

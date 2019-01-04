@@ -28,6 +28,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
+Skill: 136 54
 E
 #67601
 хозяин притона~
@@ -58,6 +59,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1d1 
+Skill: 136 60
 E
 T 67603
 #67602
@@ -90,6 +92,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #67603
 угрский купец~
@@ -122,6 +125,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #67604
 купец~
@@ -153,6 +157,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #67605
 пьяный варяг~
@@ -186,6 +191,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: y0 
 Skill: 132 100
+Skill: 136 60
 E
 #67606
 пьяный ромей~
@@ -201,11 +207,11 @@ E
 
 ~
 d0g0o0 0 0 E
-23 5 0 5d5+400 5d4+0
+23 5 6 5d5+400 5d4+0
 5d5+5 55000
 8 8 1
 Str: 27
-Dex: 33
+Dex: 30
 Int: 16
 Wis: 17
 Con: 14
@@ -217,6 +223,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: y0 
+Skill: 136 69
 Skill: 137 100
 Skill: 150 100
 E
@@ -234,11 +241,11 @@ E
 
 ~
 d0g0o0 0 0 E
-25 0 -5 5d5+500 5d5+0
+25 0 2 5d5+500 5d5+0
 0d0+0 95000
 8 8 1
 Str: 28
-Dex: 34
+Dex: 30
 Int: 19
 Wis: 20
 Con: 16
@@ -251,6 +258,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: y0 
 Skill: 21 20
+Skill: 136 75
 Skill: 137 100
 E
 #67608
@@ -268,11 +276,11 @@ E
 
 ~
 d0g0o0 0 0 E
-26 0 -10 5d5+600 5d5+2
+26 0 2 5d5+600 5d5+2
 0d0+0 99999
 8 8 1
 Str: 29
-Dex: 35
+Dex: 30
 Int: 20
 Wis: 21
 Con: 17
@@ -285,6 +293,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: y0 
 Skill: 21 20
+Skill: 136 78
 Skill: 137 100
 E
 #67609
@@ -302,7 +311,7 @@ E
 
 ~
 d0g0l0m0n0o0A0 0 0 E
-27 0 -10 5d5+700 5d5+6
+27 0 0 5d5+700 5d5+6
 5d5+5 99999
 8 8 1
 BareHandAttack: 3
@@ -310,7 +319,7 @@ Destination: 67601
 Destination: 67605
 Destination: 67619
 Str: 36
-Dex: 35
+Dex: 30
 Int: 20
 Wis: 21
 Con: 17
@@ -322,6 +331,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 81
 Skill: 137 100
 E
 #67610
@@ -335,8 +345,8 @@ E
 Раб на продажу уныло сидит здесь.
 ~
 Раб-доходяга с загорелой смуглой кожей.
-Спина хранит следы плетки, а глаза полны болью
-и страданием.
+Спина хранит следы плетки, а глаза полны боли
+и страдания.
 ~
 d0g0o0 0 0 E
 17 7 0 5d5+200 6d4+0
@@ -356,6 +366,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: y0 
 Skill: 132 100
+Skill: 136 51
 E
 T 67601
 #67611
@@ -388,6 +399,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: y0 
 Skill: 132 100
+Skill: 136 57
 E
 T 67602
 #67612
@@ -408,7 +420,7 @@ T 67602
 b0d0g0l0m0n0o0 0 0 E
 27 0 -10 5d5+700 5d5+6
 5d5+5 99999
-8 8 0
+8 8 1
 BareHandAttack: 3
 Str: 36
 Dex: 35
@@ -423,6 +435,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 81
 Skill: 137 100
 E
 #67613
@@ -458,6 +471,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 57
 E
 T 67609
 #67614
@@ -490,6 +504,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 57
 E
 T 67605
 T 67606
@@ -525,6 +540,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: a0c0 
+Skill: 136 42
 E
 T 67604
 #67616
@@ -557,6 +573,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: y0 
+Skill: 136 54
 E
 #67617
 раб~
@@ -588,6 +605,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: y0 
+Skill: 136 54
 E
 #67618
 вольнонаемный смерд~
@@ -619,6 +637,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: y0 
+Skill: 136 66
 Skill: 150 50
 E
 #67619
@@ -651,6 +670,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: y0 
+Skill: 136 66
 Skill: 150 50
 E
 #67620
@@ -684,6 +704,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: a0c0 
+Skill: 136 42
 E
 #67621
 надсмотрщик~
@@ -716,6 +737,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: b1 
 Skill: 132 100
+Skill: 136 75
 E
 T 67600
 $

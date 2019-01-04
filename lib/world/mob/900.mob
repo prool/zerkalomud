@@ -165,6 +165,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 75
 Skill: 157 60
 Spell: 26
 Spell: 26
@@ -220,6 +221,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #90005
 дрожащий мужик~
@@ -254,6 +256,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 84
 E
 T 90007
 #90006
@@ -271,7 +274,7 @@ T 90007
 состояние, в ней определенно чувствуется "голубая" кровь.
 
 ~
-b0d0g0n0o0p0 0 600 E
+b0d0g0n0o0p0g2 0 600 E
 10 20 10 10d5+150 1d5+5
 0d0+0 0
 8 8 2
@@ -288,6 +291,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #90007
 юная девушка принцесса~
@@ -306,7 +310,7 @@ E
 она достаточно по-королевски.
 
 ~
-b0d0g0n0o0 d0f0k0 600 E
+b0d0g0n0o0g2 d0f0k0 600 E
 15 10 5 10d10+400 5d1+5
 0d0+0 0
 8 8 2
@@ -325,6 +329,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 90013
 #90008
@@ -368,6 +373,7 @@ Skill: 4 50
 Skill: 5 50
 Skill: 21 30
 Skill: 132 80
+Skill: 136 75
 Skill: 151 60
 E
 T 90014
@@ -406,6 +412,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #90010
 русалка~
@@ -440,6 +447,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: d0o0 
+Skill: 136 90
 Skill: 157 40
 Spell: 17
 Spell: 17
@@ -484,12 +492,13 @@ Size: 35
 LikeWork: 50
 MaxFactor: 15
 ExtraAttack: 1
-Class: 116
+Class: 104
 Height: 180
 Weight: 150
 Special_Bitvector: g0 
 Skill: 4 100
 Skill: 132 100
+Skill: 136 87
 Skill: 157 80
 Spell: 56
 Spell: 56
@@ -504,12 +513,13 @@ Spell: 84
 Spell: 84
 Spell: 114
 Spell: 114
-Helper: 90012
-Helper: 90013
 Helper: 90015
+Helper: 90013
+Helper: 90012
 E
 T 90018
 T 90019
+L 90036 8 0 0
 #90012
 светловолосая вампирша подруга блондинка~
 вампирша-блондинка~
@@ -545,6 +555,7 @@ Class: 116
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 75
 Skill: 157 80
 Spell: 48
 Spell: 48
@@ -593,6 +604,7 @@ Height: 180
 Weight: 150
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 75
 Skill: 157 60
 Spell: 28
 Spell: 28
@@ -645,6 +657,7 @@ Class: 116
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 Spell: 33
 Spell: 33
 Spell: 114
@@ -684,6 +697,7 @@ Class: 116
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 Spell: 33
 Spell: 33
 Spell: 77
@@ -725,6 +739,7 @@ Class: 116
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #90017
 седой волшебник~
@@ -763,6 +778,7 @@ Class: 116
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 48
 Spell: 48
 Spell: 48
@@ -808,6 +824,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #90019
 жулик личность~
@@ -841,6 +858,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 75
 Helper: 90019
 E
 #90020
@@ -876,6 +894,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #90021
 толстая официантка~
@@ -910,6 +929,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 54
 E
 #90022
 старший разбойник Вырвиглаз~
@@ -944,6 +964,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 90
 Helper: 90023
 E
 T 90027
@@ -980,6 +1001,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 54
 Helper: 90022
 E
 #90024
@@ -997,7 +1019,7 @@ E
 круглые маленькие глаза, выражающие безграничную тупость. 
 _Довершает картину огромный шнобель, похожий на буровую установку.
 ~
-b0d0g0f2 d0f0k0l1 -600 E
+b0d0g0n0 d0f0k0l1 -600 E
 25 10 -10 20d20+5000 8d8+20
 0d0+0 200000
 8 8 1
@@ -1036,7 +1058,7 @@ T 90029
 низкого лба глядят круглые маленькие глаза, выражающие безграничную тупость. 
  Довершает картину огромный шнобель, похожий на буровую установку.
 ~
-b0c0d0g0A0f2 d0f0k0l1 -600 E
+b0d0g0n0 d0f0k0l1 -600 E
 25 10 -10 20d10+3000 7d5+15
 0d0+0 200000
 8 8 1
@@ -1091,6 +1113,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 84
 E
 T 90036
 #90027
@@ -1124,6 +1147,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 81
 E
 T 90037
 #90028
@@ -1145,7 +1169,7 @@ b0c0d0f0g0n0o0p0A0 d0f0k0 -600 E
 Str: 20
 Dex: 15
 Int: 20
-Wis: 20
+Wis: 28
 Con: 20
 Cha: 10
 Size: 45
@@ -1158,6 +1182,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 4 100
 Skill: 132 100
+Skill: 136 90
 Skill: 150 150
 E
 T 90040
@@ -1193,6 +1218,7 @@ Class: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #90030
 девушка~
@@ -1223,6 +1249,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #90031
 барон мужчина~
@@ -1256,6 +1283,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 90
 E
 T 90066
 #90032
@@ -1292,6 +1320,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 66
 E
 T 90048
 T 90051
@@ -1328,6 +1357,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 90
 Spell: 28
 Spell: 28
 Spell: 28
@@ -1340,6 +1370,7 @@ Spell: 135
 Helper: 90114
 E
 T 90049
+L 1707 2 0 0
 #90034
 мерзкое чудовище~
 мерзкое чудовище~
@@ -1385,6 +1416,7 @@ Class: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 90050
 T 90052
@@ -1421,6 +1453,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 90052
 #90036
@@ -1456,6 +1489,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 90
 E
 T 90054
 #90037
@@ -1489,6 +1523,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 90043
 #90038
@@ -1522,6 +1557,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #90039
 старый черт вохровец~
@@ -1560,8 +1596,10 @@ Class: 101
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 78
 E
 T 90056
+I копыта:8
 #90040
 мускулистый черт~
 мускулистый черт~
@@ -1594,9 +1632,11 @@ Class: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 75
 E
 T 90058
 T 90062
+I копыта:8
 #90041
 здоровый черт~
 здоровый черт~
@@ -1632,8 +1672,10 @@ Class: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 75
 E
 T 90058
+I копыта:8
 #90042
 накачанный черт~
 накачанный черт~
@@ -1672,9 +1714,11 @@ Class: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 75
 E
 T 90058
 T 90063
+I копыта:8
 #90043
 потрепанный черт~
 потрепанный черт~
@@ -1709,8 +1753,10 @@ Class: 101
 Height: 180
 Weight: 150
 Special_Bitvector: a1b1c1 
+Skill: 136 75
 E
 T 90058
+I копыта:8
 #90044
 здоровенный волосатый черт~
 здоровенный черт~
@@ -1748,8 +1794,10 @@ Class: 101
 Height: 180
 Weight: 150
 Special_Bitvector: a1b1 
+Skill: 136 75
 E
 T 90058
+I копыта:8
 #90045
 Арнольд черт~
 Арнольд~
@@ -1785,7 +1833,9 @@ Class: 101
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 90
 E
 T 90058
 T 90059
+I копыта:8
 $

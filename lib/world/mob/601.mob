@@ -22,6 +22,7 @@ Class: 103
 Height: 198
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #60101
 мельник~
@@ -47,6 +48,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
+Skill: 136 75
 E
 #60102
 пивовар~
@@ -72,6 +74,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
+Skill: 136 75
 E
 #60103
 охранник дюжий~
@@ -98,6 +101,7 @@ Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
 Skill: 132 100
+Skill: 136 84
 Skill: 137 100
 E
 #60104
@@ -124,6 +128,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: b0b1c1 
+Skill: 136 90
 Spell: 88
 Spell: 94
 Spell: 94
@@ -152,6 +157,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
+Skill: 136 81
 E
 L 1489 14 0 0
 $

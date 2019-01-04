@@ -29,7 +29,9 @@ Class: 103
 Height: 10
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 6
 E
+T 5302
 #5301
 дятел~
 дятел~
@@ -60,6 +62,7 @@ Class: 103
 Height: 20
 Weight: 2
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #5302
 стрекоза~
@@ -91,6 +94,7 @@ Class: 103
 Height: 10
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 9
 E
 #5303
 капустница белая~
@@ -122,6 +126,7 @@ Class: 103
 Height: 3
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 6
 E
 #5304
 майский жук~
@@ -154,6 +159,7 @@ Class: 103
 Height: 2
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 15
 E
 #5305
 гусеница~
@@ -185,6 +191,7 @@ Class: 103
 Height: 2
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 9
 E
 #5306
 шмель~
@@ -214,6 +221,7 @@ Class: 103
 Height: 1
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 15
 E
 #5307
 лесной паук~
@@ -244,6 +252,7 @@ Class: 103
 Height: 10
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 24
 Skill: 137 50
 Spell: 37
 Spell: 37
@@ -283,6 +292,7 @@ Class: 103
 Height: 2
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #5309
 медведь-шатун~
@@ -314,6 +324,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 20
+Skill: 136 36
 E
 T 5301
 $

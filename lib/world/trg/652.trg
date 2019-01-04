@@ -11,7 +11,7 @@ wait 3
 mecho Богатырь наклонился к старшине и прошептал ему: "А давай я его ...[не расслышали]"
 wait 1
 mecho Старшина с укоризной посмотрел на богатыря и покачал головой.     
-detach 65200 %self.id
+detach 65200 %self.id%
 ~
 #65201
 приветствие калики~
@@ -29,7 +29,7 @@ say давно я в Чернигове не был! А город-то красивый!
 0 f 100
 ~
 if (%world.curobjs(65200)% < 10) && (%random.100% <= 5)
-   mload obj 65200
+  mload obj 65200
 end
 ~
 #65203
@@ -37,7 +37,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(65202)% < 10) && (%random.100% <= 5)
-   mload obj 65202
+  mload obj 65202
 end
 ~
 #65204
@@ -45,9 +45,9 @@ end
 0 f 100
 ~
 if %world.curobjs(65203)% < 12
-if %random.100% <= 5
-mload obj 65203
-end
+  if %random.100% <= 5
+    mload obj 65203
+  end
 end
 ~
 $~

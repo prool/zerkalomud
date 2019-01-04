@@ -130,21 +130,24 @@ Destination: 25460
 Destination: 25463
 Str: 24
 Dex: 24
-Int: 7
+Int: 18
 Wis: 3
 Con: 24
 Cha: 10
 Size: 100
+LikeWork: 80
 ExtraAttack: 1
 Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1d1 
+Skill: 136 60
 Skill: 137 150
 Skill: 141 70
 Skill: 142 70
 Skill: 146 70
 Skill: 148 70
+Skill: 149 60
 Skill: 158 75
 E
 #25404
@@ -180,6 +183,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: a1b1c1 
+Skill: 136 72
 Skill: 139 30
 Skill: 157 50
 Spell: 26
@@ -256,6 +260,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: n0 
+Skill: 136 69
 E
 #25407
 изверг бродяга~
@@ -290,6 +295,7 @@ Weight: 85
 Special_Bitvector: i0b1c1 
 Skill: 131 50
 Skill: 133 100
+Skill: 136 63
 E
 #25408
 оголодавший волк~
@@ -322,6 +328,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 57
 E
 #25409
 сокол~
@@ -353,6 +360,7 @@ Class: 103
 Height: 175
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 57
 E
 #25410
 степная лиса~
@@ -384,6 +392,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 63
 E
 T 25407
 L 1491 16 0 0
@@ -417,6 +426,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 134 10
+Skill: 136 51
 E
 #25412
 заяц~
@@ -445,6 +455,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 27
 E
 #25413
 сайгак~
@@ -510,6 +521,8 @@ Weight: 85
 Special_Bitvector: l0 
 Skill: 136 50
 E
+I крылья:6
+I глаза:6
 #25415
 суслик~
 суслик~
@@ -539,6 +552,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 36
 Skill: 157 150
 E
 #25416
@@ -570,6 +584,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 36
 Skill: 157 150
 E
 #25417
@@ -598,6 +613,7 @@ Class: 103
 Height: 60
 Weight: 60
 Special_Bitvector: l0 
+Skill: 136 63
 E
 #25418
 стрепет птица~
@@ -694,5 +710,6 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 36
 E
 $

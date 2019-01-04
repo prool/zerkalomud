@@ -27,6 +27,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #5001
 жена старейшины госпожа~
@@ -56,6 +57,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 E
 #5002
 дочка старейшины~
@@ -87,6 +89,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 5005
 #5003
@@ -121,6 +124,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #5004
 иноземец~
@@ -153,6 +157,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 75
 Skill: 150 90
 Spell: 28
 Spell: 28
@@ -189,6 +194,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #5006
 старуха~
@@ -218,6 +224,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #5007
 знахарь~
@@ -232,21 +239,22 @@ E
 Седой старик лечит только ему известными способами.
 ~
 b0d0n0o0p0B0 0 -600 E
-20 5 5 10d10+300 3d3+6
+30 5 5 10d10+300 3d3+6
 10d10+9999 0
 8 8 1
-Str: 50
-Dex: 50
-Int: 22
-Wis: 25
-Con: 50
-Cha: 20
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
 Size: 50
 MaxFactor: 10
 Class: 102
 Height: 180
-Weight: 150
+Weight: 100
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #5008
 гадалка~
@@ -276,6 +284,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #5009
 трактирщик~
@@ -305,6 +314,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #5010
 парень молодой~
@@ -332,6 +342,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: y0b1 
+Skill: 136 15
 E
 #5011
 лавочник~
@@ -361,6 +372,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #5012
 старый охотник~
@@ -390,6 +402,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 5003
 #5013
@@ -421,6 +434,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #5014
 конь~
@@ -448,10 +462,11 @@ Cha: 10
 Size: 30
 LikeWork: 100
 MaxFactor: 10
-Class: 100
+Class: 103
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #5015
 старик~
@@ -481,6 +496,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #5016
 коза белый~
@@ -508,10 +524,11 @@ Con: 10
 Cha: 10
 Size: 15
 MaxFactor: 10
-Class: 100
+Class: 103
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #5017
 молотобоец~
@@ -544,6 +561,7 @@ Class: 103
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #5018
 местный житель~
@@ -571,6 +589,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 42
 Helper: 5018
 E
 #5019
@@ -601,6 +620,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 24
 Helper: 5018
 E
 #5020
@@ -632,6 +652,7 @@ Class: 103
 Height: 180
 Weight: 150
 Special_Bitvector: g0 
+Skill: 136 3
 E
 #5021
 мышь~
@@ -662,6 +683,7 @@ Class: 103
 Height: 180
 Weight: 150
 Special_Bitvector: i0 
+Skill: 136 12
 E
 #5022
 хозяйка постоялый двор~
@@ -691,6 +713,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #5023
 конюх~
@@ -720,6 +743,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 36
 E
 #5024
 рыбак печальный~
@@ -749,6 +773,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #5025
 ворожея~
@@ -778,6 +803,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #5026
 r2guard помощник деревенского старосты пожилой широкоплечий крестьянин~
@@ -826,7 +852,7 @@ E
 T 5006
 T 5007
 #5027
-ученик знахаря~
+ученик знахаря помошник деревенский парнишка~
 ученик знахаря~
 ученика знахаря~
 ученику знахаря~
@@ -848,6 +874,78 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 54
 E
 T 5002
+#5028
+нищий странник~
+нищий странник~
+нищего странника~
+нищему страннику~
+нищего странника~
+нищим странником~
+нищем страннике~
+Нищий странник отдыхает здесь, притулившись под забором.  ..Слеп.
+~
+Лишь присмотревшись, можно понять, что это еще не старый в общем-то человек,
+но в волосах и бороде его изрядная седина, а лицо избороздили морщины. Заметив 
+его неподвижные прозрачные глаза вы поняли, что странник слеп.
+~
+b0d0n0p0t0u0f2 0 300 E
+20 2 2 10d15+300 4d4+3
+0d0+0 0
+5 5 1
+Str: 20
+Dex: 14
+Int: 21
+Wis: 15
+Con: 15
+Cha: 17
+Size: 30
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Skill: 4 20
+Skill: 136 60
+Spell: 30
+Spell: 30
+E
+T 5008
+T 5010
+#5029
+Ефимий~
+Ефимий~
+Ефимия~
+Ефимию~
+Ефимия~
+Ефимием~
+Ефимии~
+Ефимий, брат деревенского старосты, стоит здесь.
+~
+Здоровенный детина, косая сажень в плечах.
+~
+b0d0 d0f0k0 0 E
+30 -10 0 1d100+1000 1d1+0
+0d0+0 0
+8 8 1
+Str: 26
+Dex: 14
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Class: 100
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 4 80
+Skill: 136 90
+E
+T 5015
 $

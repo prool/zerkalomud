@@ -14,7 +14,7 @@
 b0c0d0f0g0n0o0p0r0x0A0 d0k0r0 -600 E
 25 2 -3 4d50+800 5d4+2
 4d3+245 80000
-6 6 1
+8 8 1
 BareHandAttack: 5
 Str: 20
 Dex: 20
@@ -64,9 +64,11 @@ Class: 102
 Height: 198
 Weight: 35
 Special_Bitvector: b1c1 
+Skill: 136 51
 Skill: 145 90
 Skill: 160 90
 E
+L 1721 15 0 0
 #28702
 степная гадюка~
 степная гадюка~
@@ -97,6 +99,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: m0 
+Skill: 136 45
 Skill: 157 80
 Spell: 33
 Spell: 33
@@ -132,6 +135,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: m0 
+Skill: 136 45
 Skill: 157 80
 Spell: 33
 E
@@ -167,7 +171,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
 Skill: 134 90
-Skill: 136 90
+Skill: 136 75
 Skill: 155 90
 Skill: 157 90
 Spell: 75
@@ -209,6 +213,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 22 90
+Skill: 136 75
 Skill: 157 90
 Spell: 64
 Spell: 64
@@ -244,6 +249,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 Spell: 54
 Spell: 54
 Spell: 54
@@ -269,7 +275,7 @@ E
 b0c0d0f0g0n0o0p0q0r0x0A0 d0k0r0 -600 E
 25 1 -3 4d50+800 5d6+2
 4d3+245 150000
-6 6 1
+8 8 1
 BareHandAttack: 5
 Str: 20
 Dex: 20
@@ -286,7 +292,7 @@ Weight: 75
 Special_Bitvector: a0b1c1d1 
 Skill: 12 90
 Skill: 22 90
-Skill: 136 100
+Skill: 136 75
 Spell: 40
 Spell: 40
 Helper: 28706
@@ -321,6 +327,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
+Skill: 136 45
 Spell: 4
 E
 #28709
@@ -352,6 +359,7 @@ Class: 102
 Height: 198
 Weight: 75
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 28705
 #28710
@@ -382,6 +390,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 Spell: 54
 Spell: 54
 Spell: 54
@@ -420,6 +429,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 28704
 #28712
@@ -453,6 +463,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 22 90
+Skill: 136 75
 Skill: 157 90
 Spell: 64
 Spell: 64

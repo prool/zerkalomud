@@ -39,26 +39,26 @@ say Мне нужно продолжить поиск рецепта...
 смерть черного князя~
 0 f 100
 ~
-if %world.curobjs(1251)% < 1 && %random.100% < 3 && %world.curobjs(1252)% < 1
-mload obj 1251
+if %world.curobjs(1251)% < 1 && %random.100% < 3 && %world.curobjs(1252)% < 1 && %world.curobjs(1290)% < 1
+  mload obj 1251
 end
 mecho Призрак черного князя исчез в ослепительной вспышке!
 mecho И в тот же миг откуда-то сверху раздался голос:
 mecho Возьми в благодарность за помощь!
 mecho Что-то сверкнуло на месте падение призрака.
- switch %random.4%
-case 1
- mload obj 68203
-break
-case 2
- mload obj 68204
-break
-case 3
- mload obj 218
-break
-default 
- mload obj 68205
-break
+switch %random.4%
+  case 1
+    mload obj 68203
+  break
+  case 2
+    mload obj 68204
+  break
+  case 3
+    mload obj 218
+  break
+  default 
+    mload obj 68205
+  break
 done
 ~
 #68202
@@ -66,7 +66,7 @@ done
 0 f 100
 ~
 if (%world.curobjs(68206)% < 10) && (%random.100% <= 5)
-   mload obj 68206
+  mload obj 68206
 end
 ~
 #68203
@@ -74,11 +74,11 @@ end
 0 j 100
 ~
 if !(%object.vnum% == 754)
-say Наивный! Неужель ты думаешь, что я не попробывал вот это для своего дела?
-say Нет! это вещь совершенно бесполезная. Мне нужно нечто совершенно иное!!!
-emot грозно нахмурился
-drop %object.name%
-halt
+  say Наивный! Неужель ты думаешь, что я не попробывал вот это для своего дела?
+  say Нет! это вещь совершенно бесполезная. Мне нужно нечто совершенно иное!!!
+  emot грозно нахмурился
+  drop %object.name%
+  halt
 end
 wait 1    
 say Клянусь тьмой! Такие кости я вижу в первый раз!
@@ -89,7 +89,7 @@ say Теперь, используя их, я смогу сварить эликсир бессмертия!
 say Теперь мне не нужна душа черного князя
 say Если хочешь можешь отпустить ее с земли
 wait 2
-say Только врядли вы даже доберетесь до его могилы
+say Только вряд ли вы даже доберетесь до его могилы
 say Я так думаю, что вашим костям, тоже смогу найти применение
 ухм
 wait 1
@@ -113,9 +113,9 @@ mecho Тьма окутала призрак и полностью восстановила его силы.
 1 h 100
 ~
 if (%actor.realroom% == 68232)
- oecho Кольцо! Ты нашел его! Я сдержал слово! Я могу теперь умереть!
- calcuid prizrak 68200 mob
- detach 68204 %prizrak.id%
+  oecho Кольцо! Ты нашел его! Я сдержал слово! Я могу теперь умереть!
+  calcuid prizrak 68200 mob
+  detach 68204 %prizrak.id%
 end
 wait 1
 opurge %self%
@@ -125,15 +125,15 @@ opurge %self%
 0 g 70
 ~
 if %actor.vnum% == -1
-then
+  then
   say Ты не спасешь душу князя!
   say Ухо-ди-и-и...
-wait 1
-хох
-wait 1
+  wait 1
+  хох
+  wait 1
   say Живым здесь не место!!! 
-wait 1
-mkill .%actor.name%
+  wait 1
+  mkill .%actor.name%
 end
 ~
 #68207
@@ -141,7 +141,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(68207)% < 10) && (%random.100% <= 5)
-   mload obj 68207
+  mload obj 68207
 end
 ~
 #68208
@@ -149,7 +149,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(68208)% < 10) && (%random.100% <= 5)
-   mload obj 68208
+  mload obj 68208
 end
 ~
 #68209
@@ -157,7 +157,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(68209)% < 10) && (%random.100% <= 5)
-   mload obj 68209
+  mload obj 68209
 end
 ~
 #68210
@@ -165,7 +165,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(68210)% < 10) && (%random.100% <= 5)
-   mload obj 68210
+  mload obj 68210
 end
 ~
 $~

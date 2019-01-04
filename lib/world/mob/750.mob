@@ -30,6 +30,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #75001
 трактирщик~
@@ -45,7 +46,7 @@ E
 ~
 b0d0n0o0p0q0r0t0u0x0y0B0f2 d0f0k0 600 E
 15 5 5 10d10+50 3d3+10
-0d0+1000 0
+0d0+10000 0
 6 6 1
 Str: 20
 Dex: 15
@@ -60,6 +61,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #75002
 меняла~
@@ -92,6 +94,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #75003
 усатый трактирщик~
@@ -124,6 +127,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #75004
 ямщик~
@@ -154,6 +158,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #75005
 цыган~
@@ -184,6 +189,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #75006
 девушка дочка рыжая~
@@ -214,7 +220,10 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
+T 75006
+T 75008
 #75007
 девушка дочка черноволосая~
 черноволосая девушка~
@@ -244,9 +253,12 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
+T 75005
+T 75007
 #75008
-торговец~
+торговец_75008~
 торговец~
 торговца~
 торговцу~
@@ -274,6 +286,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #75009
 купчишка~
@@ -305,6 +318,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #75010
 умелец~
@@ -335,6 +349,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #75011
 кузнец~
@@ -366,6 +381,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #75012
 ученик кузнеца~
@@ -396,6 +412,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #75013
 старушка бабушка платочке~
@@ -429,6 +446,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 75001
 #75014
@@ -463,6 +481,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 75000
 #75015
@@ -498,6 +517,7 @@ Skill: 12 100
 Skill: 22 100
 Skill: 132 30
 Skill: 134 30
+Skill: 136 87
 Skill: 137 100
 Skill: 150 50
 E
@@ -531,6 +551,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
+Skill: 136 90
 Skill: 137 50
 Skill: 154 100
 Skill: 155 100
@@ -568,6 +589,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
+Skill: 136 87
 Skill: 154 100
 Skill: 155 100
 Skill: 157 100
@@ -603,6 +625,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
+Skill: 136 72
 Skill: 157 150
 Skill: 160 150
 Spell: 147
@@ -638,6 +661,7 @@ Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 1 60
 Skill: 4 15
+Skill: 136 75
 Skill: 137 60
 Spell: 4
 E
@@ -671,6 +695,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 134 50
+Skill: 136 75
 Skill: 157 50
 Spell: 27
 Spell: 28
@@ -706,6 +731,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 132 30
+Skill: 136 75
 Skill: 137 30
 Spell: 38
 E
@@ -740,6 +766,7 @@ Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 5 80
 Skill: 132 10
+Skill: 136 75
 Skill: 137 20
 Skill: 150 100
 Spell: 88
@@ -774,6 +801,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
+Skill: 136 75
 Skill: 157 120
 Skill: 160 100
 E
@@ -808,5 +836,6 @@ Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1B3 
 Skill: 21 15
+Skill: 136 75
 E
 $

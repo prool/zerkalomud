@@ -36,6 +36,7 @@ Height: 80
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 25
+Skill: 136 27
 E
 T 22604
 T 22606
@@ -72,6 +73,7 @@ Class: 101
 Height: 20
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 21
 E
 #22602
 лягушка~
@@ -108,6 +110,7 @@ Class: 101
 Height: 5
 Weight: 3
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #22603
 небольшой слизняк~
@@ -142,6 +145,7 @@ Class: 102
 Height: 15
 Weight: 5
 Special_Bitvector: m0 
+Skill: 136 18
 E
 #22604
 нечто Адамантовское~
@@ -179,6 +183,7 @@ Class: 102
 Height: 180
 Weight: 200
 Special_Bitvector: f0 
+Skill: 136 30
 Spell: 32
 Spell: 32
 Spell: 32
@@ -197,7 +202,7 @@ E
 большого москита~
 большим москитом~
 большом моските~
-Большой москит летает тут
+Большой москит летает тут.
 ~
    Все таки экологическая ситуация еще во времена гоблинов-тролей-хоббитов-
 орков оставляла желать лучшего - иначе каким бы образом в среднюю полосу 
@@ -226,6 +231,7 @@ Class: 102
 Height: 5
 Weight: 2
 Special_Bitvector: g0 
+Skill: 136 15
 E
 #22606
 летучая мышь~
@@ -247,6 +253,7 @@ d0g0l0o0 k0 0 E
 8 12 6 1d10+150 2d6+1
 0d0+0 3000
 4 4 2
+BareHandAttack: 4
 Str: 14
 Dex: 14
 Int: 3
@@ -260,6 +267,7 @@ Class: 102
 Height: 20
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #22607
 Божественный~
@@ -279,7 +287,7 @@ E
 игроков.
 ~
 d0e0g0o0p0q0r0t0u0B0o1 d0f0k0n1o1p1q1r1 600 E
-50 0 -10 10d50+30000 25d2+-106
+50 0 -10 10d50+30000 2d2+2
 0d0+0 0
 8 8 1
 BareHandAttack: 6
@@ -297,6 +305,16 @@ Class: 104
 Height: 20
 Weight: 10
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 1 100
 Skill: 2 100
 Skill: 4 100

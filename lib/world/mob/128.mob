@@ -22,6 +22,7 @@ Class: 105
 Height: 198
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 12809
 #12801
@@ -50,6 +51,7 @@ Class: 105
 Height: 198
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 12808
 #12802
@@ -78,6 +80,17 @@ Class: 104
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 3
 E
 T 12800
 T 12801
@@ -105,6 +118,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 15
 E
 T 12802
 #12810
@@ -132,6 +146,7 @@ Class: 103
 Height: 198
 Weight: 4
 Special_Bitvector: 0 
+Skill: 136 15
 E
 #12820
 голем целитель~
@@ -156,6 +171,7 @@ Class: 100
 Height: 198
 Weight: 9
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 12820
 #12821
@@ -181,6 +197,7 @@ Class: 100
 Height: 198
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 12821
 #12822
@@ -206,6 +223,7 @@ Class: 100
 Height: 198
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 12821
 #12823
@@ -220,7 +238,7 @@ T 12821
 ~
 Вроде как и человек на вид, а ведь весь из железа.  Про такое только
 старики рассказывали. Говорили, что десяток их, любое войско разбить
-смогут. Видать сильные маги здешние обитатели, если такую штуку себе
+смогут. Видать, сильные маги здешние обитатели, если такую штуку себе
 на службу поставили. 
 ~
 b0d0g0n0p0r0t0x0 d0f0k0 0 E
@@ -238,6 +256,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: a0 
+Skill: 136 3
 E
 T 12823
 T 12822
@@ -254,7 +273,7 @@ T 12824
 ~
 Вроде как и человек на вид, а ведь весь из железа.  Про такое только
 старики рассказывали. Говорили, что десяток их, любое войско разбить
-смогут. Видать сильные маги здешние обитатели, если такую штуку себе
+смогут. Видать, сильные маги здешние обитатели, если такую штуку себе
 на службу поставили. 
 ~
 b0d0g0n0p0r0t0x0 d0f0k0 0 E
@@ -272,6 +291,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 12823
 $

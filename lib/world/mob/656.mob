@@ -27,6 +27,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: n0 
+Skill: 136 15
 E
 I крылья,10:10
 #65601
@@ -58,6 +59,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: g0 
+Skill: 136 30
 E
 I кожа,10:10
 #65602
@@ -65,7 +67,7 @@ I кожа,10:10
 лесной хорек~
 лесного хорька~
 лесному хорьку~
-лесной хорька~
+лесного хорька~
 лесным хорьком~
 лесном хорьке~
 Юркий лесной хорек выскочил прямо из-под ваших ног.
@@ -89,6 +91,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 36
 E
 I шерсть,10:10
 #65603
@@ -122,6 +125,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 132 100
+Skill: 136 75
 Skill: 160 100
 E
 #65604
@@ -155,6 +159,7 @@ Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 12 100
 Skill: 22 100
+Skill: 136 84
 Skill: 137 100
 E
 #65605
@@ -191,6 +196,7 @@ Special_Bitvector: b1c1B3
 Skill: 21 10
 Skill: 132 120
 Skill: 134 120
+Skill: 136 87
 Skill: 137 120
 Skill: 150 120
 Skill: 151 120
@@ -236,6 +242,7 @@ Special_Bitvector: b1c1
 Skill: 1 120
 Skill: 4 120
 Skill: 134 120
+Skill: 136 84
 Skill: 137 120
 Skill: 150 120
 Skill: 165 120
@@ -276,6 +283,7 @@ Skill: 1 120
 Skill: 4 10
 Skill: 21 15
 Skill: 134 120
+Skill: 136 84
 Skill: 137 120
 Skill: 150 120
 Skill: 165 120
@@ -311,6 +319,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
+Skill: 136 87
 Skill: 154 100
 Skill: 155 100
 Skill: 157 100
@@ -353,6 +362,7 @@ Special_Bitvector: i0j0b1c1
 Skill: 4 50
 Skill: 131 100
 Skill: 134 120
+Skill: 136 78
 Skill: 137 120
 Skill: 150 120
 Skill: 156 100

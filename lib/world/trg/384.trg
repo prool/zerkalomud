@@ -9,7 +9,7 @@ mload obj 33111
 0 h 100
 ~
 if (%actor.vnum%>0) || !( %exist.mob(38408)% || %exist.mob(38419)% )
-halt
+  halt
 end
 wait 1s
 emote оторвался от дум и тяжело взглянул на вас..
@@ -45,7 +45,7 @@ wait 2s
 say ...Да, вот еще что, коли не обманывает меня память,
 say живет где-то неподалеку один маг...
 say Правда, может быть он уже умер, ведь столько лет прошло с нашей
- say последней встречи, да и врагов у него было немало...
+say последней встречи, да и врагов у него было немало...
 say Ну дык дело не в этом... он мог бы помочь тебе справиться с 
 say чудищем, коли не под силу оно тебе окажется.
 say Разыщи его, если будет нужда, да скажи слова заветные
@@ -58,13 +58,10 @@ wait 1s
 0 j 100
 ~
 wait 1
-if %object.vnum% != 38420
-if %object.vnum% != 38421
-wait 1
-%purge% %object%
-вопр
-halt
-end
+if ( %object.vnum% != 38420 ) && ( %object.vnum% != 38421 )
+  вопр
+  give %object.name% .%actor.name%
+  halt
 end
 wait 1
 %purge% %object%
@@ -75,15 +72,15 @@ say Вот так дела. Глазам своим не верю! Неужто и впрямь одолел
 say ты врага нашего... Зря сомневался я в тебе. За спасение
 say острова славного, Буяна награжу я тебя, как обещал, ничего
 say не пожалею.
-if (%actor.class% == 1 ) && (%random.5% == 1 ) 
-if !%actor.spelltype(переход)%
-%spellturn% %actor.name% переход set
-halt
-end
+eval rnd 5+%actor.remort%*3
+if ( %actor.class% == 1 ) && ( %random.100% <= %rnd% ) 
+  if !%actor.spelltype(переход)%
+    %spellturn% %actor.name% переход set
+    halt
+  end
 end
 %actor.gold(+20000)%
-%send% %actor% Дядька Черномор дал вам огромную кучу кун.
-end
+%send% %actor% Дядька Чернномор дал вам огромную кучу кун.
 ~
 #38404
 речь мага1~
@@ -112,8 +109,8 @@ wait 1s
 wait 4s
 %echo% Через пару секунд призрак начал медленно исчезать...
 if %exist.mob(38420)%
-calcuid mage 38420 mob
-%purge% %mage%
+  calcuid mage 38420 mob
+  %purge% %mage%
 end
 ~
 #38405
@@ -121,16 +118,16 @@ summon~
 2 d 100
 смерть владыке морскому~
 if !%exist.mob(38420)%
-%echo% Призрак мага медленно появился из пустоты.
-%load% mob 38420
-wait 1s
-calcuid mage 38420 mob
-calcuid weapon 33300 obj
-if %weapon.room%!=33384
-%force% %mage% дум
-halt
-end
-exec 38404 %mage.id%
+  %echo% Призрак мага медленно появился из пустоты.
+  %load% mob 38420
+  wait 1s
+  calcuid mage 38420 mob
+  calcuid weapon 33300 obj
+  if %weapon.room%!=33384
+    %force% %mage% дум
+    halt
+  end
+  exec 38404 %mage.id%
 end
 ~
 #38406
@@ -138,8 +135,8 @@ purge рыбы на репопе~
 0 n 100
 ~
 if %exist.mob(38419)%
-calcuid tmp 38419 mob
-%purge% %tmp%
+  calcuid tmp 38419 mob
+  %purge% %tmp%
 end
 ~
 #38407
@@ -153,8 +150,8 @@ purge мага на репопе~
 2 f 100
 ~
 if %exist.mob(38420)%
-calcuid tmp 38420 mob
-%purge% %tmp%
+  calcuid tmp 38420 mob
+  %purge% %tmp%
 end
 ~
 #38409
@@ -162,8 +159,8 @@ end
 0 j 100
 ~
 if %object.vnum% != 33300
-спл
-halt
+  спл
+  halt
 end
 wait 1
 %purge% морской.трезубец
@@ -180,34 +177,34 @@ wait 1s
 wait 2s
 say Теперь ступай, наша сделка закончена. Да передай привет Черномору...
 if !%exist.mob(38419)%
-if %exist.mob(38408)%
-calcuid lfish 38408 mob
-attach 38407 %lfish.id%
-exec 38407 %lfish.id%
-detach 38407 %lfish.id%
-end
+  if %exist.mob(38408)%
+    calcuid lfish 38408 mob
+    attach 38407 %lfish.id%
+    exec 38407 %lfish.id%
+    detach 38407 %lfish.id%
+  end
 end
 ~
 #38410
 отрезать вещдок~
 2 c 0
 отре отрез отреза отрезат отрезать отру отруб отруби отрубит отрубить выр вырв вырва вырват вырвать~
-  if !(%arg.contains(зуб)% || %arg.contains(плавник)%) 
-%send% %actor% Что вы точно собираетесь делать?
-     halt
-  end
+if !(%arg.contains(зуб)% || %arg.contains(плавник)%) 
+  %send% %actor% Что вы точно собираетесь делать?
+  halt
+end
 if %arg.contains(зуб)%
-%send% %actor% Вы отделили огромный осколок зуба от туши.
-%echoaround% %actor% %actor.name% отделил%actor.g% огромный осколок зуба от туши.
-calcuid body 38422 obj
-%purge% %body%
-wload obj 38420
+  %send% %actor% Вы отделили огромный осколок зуба от туши.
+  %echoaround% %actor% %actor.name% отделил%actor.g% огромный осколок зуба от туши.
+  calcuid body 38422 obj
+  %purge% %body%
+  wload obj 38420
 else
-%send% %actor% Вы отделили огромный кусок плавника от туши.
-%echoaround% %actor% %actor.name% отделил%actor.g% огромный кусок плавника от туши.
-calcuid body 38422 obj
-%purge% %body%
-wload obj 38421
+  %send% %actor% Вы отделили огромный кусок плавника от туши.
+  %echoaround% %actor% %actor.name% отделил%actor.g% огромный кусок плавника от туши.
+  calcuid body 38422 obj
+  %purge% %body%
+  wload obj 38421
 end
 detach 38410 %self.id%
 ~
@@ -218,6 +215,9 @@ detach 38410 %self.id%
 %load% obj 38422
 calcuid deathroom %self.realroom% room
 attach 38410 %deathroom.id%
+if ((%world.curobjs(3333)% < 1) && (%world.curobjs(3332)% < 1) && (%random.1000% < 90))
+  mload obj 3332
+end
 ~
 #38412
 death2~
@@ -229,8 +229,8 @@ deadbody~
 помер Черномор - лоад сетшмотки~
 0 f 100
 ~
-if %world.curobjs(3318)% < 1 && %random.100% < 3
-mload obj 3318
+if (%world.curobjs(3318)% < 1 && (%random.1000% <= 20))
+  mload obj 3318
 end
 ~
 $~

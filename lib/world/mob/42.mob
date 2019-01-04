@@ -27,6 +27,7 @@ Class: 103
 Height: 40
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 6
 E
 #4201
 белка~
@@ -55,8 +56,9 @@ Cha: 8
 Size: 8
 Class: 103
 Height: 30
-Weight: 4
+Weight: 11
 Special_Bitvector: n0 
+Skill: 136 6
 E
 #4202
 еж ежик~
@@ -89,6 +91,7 @@ Class: 103
 Height: 180
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 6
 E
 #4203
 дрозд~
@@ -120,6 +123,7 @@ Class: 103
 Height: 30
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 6
 E
 #4204
 заяц~
@@ -148,8 +152,9 @@ Cha: 9
 Size: 4
 Class: 103
 Height: 30
-Weight: 5
+Weight: 11
 Special_Bitvector: n0 
+Skill: 136 9
 E
 #4205
 дятел~
@@ -181,6 +186,7 @@ Class: 103
 Height: 30
 Weight: 3
 Special_Bitvector: l0 
+Skill: 136 9
 E
 #4206
 сойка~
@@ -211,6 +217,7 @@ Class: 103
 Height: 20
 Weight: 3
 Special_Bitvector: l0 
+Skill: 136 9
 E
 #4207
 сорока~
@@ -241,6 +248,7 @@ Class: 103
 Height: 30
 Weight: 5
 Special_Bitvector: l0a1 
+Skill: 136 9
 E
 #4208
 норка~
@@ -270,8 +278,9 @@ Size: 5
 LikeWork: 10
 Class: 103
 Height: 30
-Weight: 5
+Weight: 11
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #4209
 тетерев~
@@ -302,6 +311,7 @@ Class: 103
 Height: 30
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #4210
 сова~
@@ -332,6 +342,7 @@ Class: 103
 Height: 30
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 12
 E
 #4211
 колонок~
@@ -360,8 +371,9 @@ Cha: 9
 Size: 10
 Class: 103
 Height: 30
-Weight: 5
+Weight: 11
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #4212
 глухарь~
@@ -392,6 +404,7 @@ Class: 103
 Height: 40
 Weight: 7
 Special_Bitvector: 0 
+Skill: 136 15
 E
 #4213
 филин~
@@ -422,6 +435,7 @@ Class: 103
 Height: 30
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 15
 E
 #4214
 куница~
@@ -451,8 +465,9 @@ Size: 8
 ExtraAttack: 1
 Class: 103
 Height: 50
-Weight: 10
+Weight: 11
 Special_Bitvector: 0 
+Skill: 136 15
 E
 #4215
 барсук~
@@ -483,9 +498,11 @@ Size: 8
 ExtraAttack: 1
 Class: 103
 Height: 40
-Weight: 8
+Weight: 60
 Special_Bitvector: 0 
+Skill: 136 18
 E
+L 5517 75 0 0
 #4216
 косуля~
 косуля~
@@ -514,8 +531,9 @@ Size: 15
 ExtraAttack: 1
 Class: 103
 Height: 100
-Weight: 30
+Weight: 60
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #4217
 изюбр пятнистый олень~
@@ -547,6 +565,7 @@ Class: 103
 Height: 100
 Weight: 45
 Special_Bitvector: 0 
+Skill: 136 21
 E
 #4218
 лиса рыжая плутовка~
@@ -577,6 +596,7 @@ Class: 103
 Height: 50
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #4219
 лось~
@@ -608,6 +628,7 @@ Class: 103
 Height: 180
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 27
 E
 #4220
 волк~
@@ -639,6 +660,7 @@ Class: 103
 Height: 100
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #4221
 медведь~
@@ -672,5 +694,6 @@ Class: 103
 Height: 120
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 E
 $

@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #71200
 родянин душегуб~
 родянин-душегуб~
@@ -12,30 +11,29 @@
 Ввалившиеся глаза, впалые щеки создают обманчивое впечатление слабого, 
 усталого человека.
 ~
-c0m0v0A0 r0s0t0z0 -600 E
+c0d0m0v0A0 r0s0t0z0 -600 E
 27 0 -4 1d10+800 7d4+7
 0d5+0 80000
 8 8 1
 BareHandAttack: 11
 Str: 26
+Dex: 9
 Int: 13
 Wis: 12
-Dex: 9
 Con: 24
 Cha: 12
+Size: 80
 LikeWork: 65
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 80
 Height: 175
 Weight: 50
-Special_Bitvector: g0i0j0C3
-Spell: 15
+Special_Bitvector: g0i0j0C3 
+Skill: 4 33
+Skill: 22 35
 Skill: 131 80
 Skill: 136 65
-Skill: 22 35
-Skill: 4 33
+Spell: 15
 E
 #71201
 Жирный кабан~
@@ -49,25 +47,26 @@ E
 ~
 Жирный кабан похрюкивая роется в земле в поиске желудей и кореньев.
 ~
-j0l0m0n0d1 z0 -600 E
+d0j0l0m0n0d1 z0 -600 E
 25 8 -6 10d10+1000 3d7+13
 0d0+0 90000
 8 8 1
 BareHandAttack: 1
 Str: 27
+Dex: 15
 Int: 8
 Wis: 6
-Dex: 15
 Con: 28
 Cha: 7
+Size: 100
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 2
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 132 30
+Skill: 136 75
 E
 I копыта,10:5
 #71202
@@ -78,34 +77,33 @@ I копыта,10:5
 трусливого холопа~
 трусливым холопом~
 трусливом холопе~
-Трусивый холоп нападает на всех подряд со спины.
+Трусливый холоп нападает на всех подряд со спины.
 ~
 Трусливый холоп прибился к родянину и теперь занимается грабежами.
 ~
-c0l0m0 r0s0t0A0C0j1 -600 E
+c0d0l0m0 r0s0t0A0C0j1 -600 E
 25 0 -5 10d10+550 5d4+6
 0d0+0 75000
 8 8 1
 BareHandAttack: 11
 Str: 22
+Dex: 22
 Int: 12
 Wis: 10
-Dex: 22
 Con: 15
-Cha: 11
+Size: 100
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: i0j0
-Spell: 77
-Spell: 77
-Spell: 77
+Special_Bitvector: i0j0 
 Skill: 131 30
+Skill: 136 75
 Skill: 160 100
+Spell: 77
+Spell: 77
+Spell: 77
 E
 #71203
 Лосенок~
@@ -119,25 +117,25 @@ E
 ~
 Маленький лосенок испуганно глядит на вас.
 ~
-0 k0z0A0 -600 E
+d0 k0z0A0 -600 E
 19 2 3 10d10+300 6d3+4
 0d0+0 15000
 8 8 1
 BareHandAttack: 13
 Str: 15
+Dex: 17
 Int: 10
 Wis: 7
-Dex: 17
 Con: 16
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 2
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: p0
+Special_Bitvector: p0 
+Skill: 136 57
 Skill: 157 20
 E
 I шерсть,5:8
@@ -153,25 +151,24 @@ I шерсть,5:8
 ~
 Маленькая лиса пытается поймать мышку или суслика.
 ~
-0 s0 -600 E
+d0 s0 -600 E
 19 0 0 10d10+250 3d6+2
 0d0+0 8000
 8 8 2
 BareHandAttack: 4
 Str: 21
+Dex: 17
 Int: 12
 Wis: 12
-Dex: 17
 Con: 20
 Cha: 12
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: p0
+Special_Bitvector: p0 
+Skill: 136 57
 E
 I когти,5:5
 #71205
@@ -187,28 +184,28 @@ I когти,5:5
 Старая гадюка с облезлой шкурой. Ее яд уже не способен убить, только вызывать
 помутнение сознания. 
 ~
-e0f0l1m1n1 t0 -600 E
+d0e0f0l1m1n1 t0 -600 E
 23 4 3 10d10+150 3d3+5
 0d0+0 7000
 8 6 2
 BareHandAttack: 4
 Str: 19
+Dex: 15
 Int: 15
 Wis: 12
-Dex: 15
 Con: 15
 Cha: 7
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
 Height: 175
 Weight: 50
-Special_Bitvector: g0m0
+Special_Bitvector: g0m0 
+Skill: 5 50
+Skill: 136 69
 Spell: 114
 Spell: 131
-Skill: 5 50
 E
 #71206
 Сазан~
@@ -222,25 +219,24 @@ E
 ~
 Большой сазан сгодится на хороший ужин.
 ~
-h0l0y0c1l1m1n1 0 -600 E
+d0h0l0y0c1l1m1n1 0 -600 E
 23 5 -7 10d10+150 2d2+7
 0d0+0 5000
 8 8 1
 BareHandAttack: 12
 Str: 25
+Dex: 17
 Int: 15
 Wis: 14
-Dex: 17
 Con: 14
 Cha: 22
-LikeWork: 80
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 100
+LikeWork: 80
+Class: 103
 Height: 100
 Weight: 100
-Special_Bitvector: v0
+Special_Bitvector: v0 
+Skill: 136 69
 Skill: 157 30
 E
 I чешуя,10:5
@@ -256,31 +252,31 @@ I чешуя,10:5
 ~
 Рязанский мужик с окладистой бородой. По всему видать - опытный воин.
 ~
-g0l0m0n0A0 k0r0z0A0 -600 E
+d0g0l0m0n0A0 k0r0z0A0 -600 E
 30 0 -10 10d10+2000 4d4+12
 0d0+15 110000
 8 8 1
 BareHandAttack: 3
 Str: 17
+Dex: 30
 Int: 17
 Wis: 17
-Dex: 30
 Con: 24
 Cha: 10
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1C3
-Spell: 154
-Spell: 75
-Spell: 75
-Skill: 132 100
-Skill: 137 100
+Special_Bitvector: b1c1C3 
 Skill: 22 100
+Skill: 132 100
+Skill: 136 90
+Skill: 137 100
+Spell: 75
+Spell: 75
+Spell: 154
 E
 #71208
 витязь рязанского дозора~
@@ -294,30 +290,30 @@ E
 ~
 Высокий статный воин на гнедой кобыле.
 ~
-g0l0m0n0A0 k0r0z0A0 -600 E
+d0g0l0m0n0A0 k0r0z0A0 -600 E
 29 0 -10 10d10+1600 8d8+18
 0d0+15 95000
 8 8 1
 BareHandAttack: 7
 Str: 24
+Dex: 24
 Int: 17
 Wis: 18
-Dex: 24
 Con: 18
 Cha: 17
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1B3
-Spell: 15
-Spell: 15
-Skill: 132 100
-Skill: 137 100
+Special_Bitvector: b1c1B3 
 Skill: 21 10
+Skill: 132 100
+Skill: 136 87
+Skill: 137 100
+Spell: 15
+Spell: 15
 E
 #71209
 богатырь рязанского дозора~
@@ -331,27 +327,25 @@ E
 ~
 Здоровенный дядька - поперек себя шире.
 ~
-g0l0m0n0A0 k0r0z0A0 -600 E
+d0g0l0m0n0A0 k0r0z0A0 -600 E
 29 0 -10 10d10+1600 6d8+22
 0d0+15 105000
 8 8 1
-BareHandAttack: 0
 Str: 31
+Dex: 24
 Int: 17
 Wis: 18
-Dex: 24
 Con: 18
 Cha: 17
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
-Skill: 137 100
+Special_Bitvector: b1c1 
 Skill: 4 100
+Skill: 136 87
+Skill: 137 100
 E
-$
 $

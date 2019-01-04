@@ -1,0 +1,2327 @@
+* BRusMUD mob file v1.0
+#20300
+ великий хан~
+великий Хан~
+великого Хана~
+великому Хану~
+великого Хана~
+великим Ханом~
+великом Хане~
+Повелитель Золотой Орды, щурясь, пьет зеленый чай.
+~
+Могучий воин и великий  монгольский полководец.
+~
+b0n0o0x0q2u2 d0k0m0r0D0r1 -600 E
+37 0 -8 10d10+10000 19d15+8
+0d0+9000 2000000
+8 8 1
+Saves: -65 -65 -65 -65
+Resistances: 25 25 25 25 45 45 45
+HPreg: 100
+Armour: 60
+PlusMem: 0
+CastSuccess: 80
+Success: 15
+Initiative: 15
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 45
+Int: 36
+Wis: 36
+Dex: 40
+Con: 41
+Cha: 43
+LikeWork: 99
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Skill: 1 150
+Skill: 136 150
+Helper: 20301
+Helper: 20302
+Helper: 20304
+E
+T 20327
+T 20339
+T 20345
+I кости,50:10
+#20301
+визирь~
+визирь~
+визиря~
+визирю~
+визиря~
+визирем~
+визире~
+Хлюпенький дедушка внимательно слушает своего вождя.
+~
+Ближайший советник Великого Хана.
+~
+b0c0m0n0o0A0q2 d0n0A0C0l1o1u1x1 -600 E
+34 5 0 10d10+3500 14d13+8
+0d0+3000 400000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 30
+PlusMem: 200
+CastSuccess: 100
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 23
+Int: 33
+Wis: 38
+Dex: 20
+Con: 32
+Cha: 30
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 56
+Spell: 94
+Skill: 136 120
+Helper: 20313
+Helper: 20308
+E
+T 20345
+I глаза,10:10
+#20302
+ улем~
+улем~
+улема~
+улему~
+улема~
+улемом~
+улеме~
+Духовник ковыряется у себя в носу.
+~
+Высшее духовное лицо орды.
+~
+b0m0n0o0q2 d0h0n0m0r0C0D0p1 -600 E
+33 5 0 10d10+3333 16d15+25
+0d0+1000 400000
+8 8 1
+Saves: -35 0 -10 -5
+Resistances: 35 15 30 30 50 25 29
+HPreg: 50
+Armour: 40
+PlusMem: 150
+CastSuccess: 80
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 6
+Str: 17
+Int: 36
+Wis: 36
+Dex: 17
+Con: 36
+Cha: 17
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Skill: 136 135
+Skill: 141 135
+Skill: 5 135
+Helper: 20303
+E
+T 20321
+T 20337
+T 20338
+T 20345
+#20303
+ имам~
+имам~
+имама~
+имаму~
+имама~
+имамом~
+имаме~
+Азиатский священник бродит здесь.
+~
+Обычный исламский священник.
+~
+l0m0n0o0v0w0q1q2 d0k0n0r0A0r1y1 -600 E
+32 6 0 10d10+3333 14d14+15
+0d0+550 350000
+8 8 1
+Saves: -20 -20 -20 -20
+Resistances: 20 20 20 20 0 0 0
+HPreg: 0
+Armour: 35
+PlusMem: 100
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 6
+Str: 23
+Int: 32
+Wis: 35
+Dex: 27
+Con: 26
+Cha: 20
+LikeWork: 75
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Spell: 91
+Skill: 136 110
+Skill: 141 110
+Skill: 179 110
+E
+T 20320
+#20304
+ темник~
+темник~
+темника~
+темнику~
+темника~
+темником~
+темнике~
+Худощавый татарин стоит здесь в раздумьях.
+~
+У этого узкоглазого в подчинении находится десять тысяч монгольских войнов.
+Целая тьма...
+~
+b0l0m0n0o0q2 d0D0 -600 E
+35 2 -6 10d10+6000 18d18+0
+0d0+5000 700000
+8 8 1
+Saves: -75 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 90
+PlusMem: 0
+CastSuccess: 50
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 42
+Int: 29
+Wis: 30
+Dex: 41
+Con: 34
+Cha: 32
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 137
+Spell: 137
+Spell: 137
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 82
+Spell: 82
+Spell: 82
+Skill: 136 135
+Skill: 146 135
+Helper: 20318
+Helper: 20317
+E
+T 20319
+T 20340
+T 20345
+#20305
+ лубчитэн~
+лубчитэн~
+лубчитэна~
+лубчитэну~
+лубчитэна~
+лубчитэном~
+лубчитэне~
+Всадник сидит здесь верхом на коне.
+~
+Воин средневооруженной конницы.
+~
+l0m0n0o0q2 k0m1 -600 E
+31 1 -3 10d10+4500 18d17+0
+0d0+100 440000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 95
+PlusMem: 0
+CastSuccess: 20
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 11
+Str: 36
+Int: 14
+Wis: 16
+Dex: 24
+Con: 34
+Cha: 16
+LikeWork: 75
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 56
+Spell: 56
+Spell: 56
+Skill: 136 135
+Skill: 148 135
+Skill: 5 135
+E
+T 20318
+#20306
+ дуулгат~
+дуулгат~
+дуулгата~
+дуулгату~
+дуулгата~
+дуулгатом~
+дуулгате~
+Азиатский воин прохаживается здесь.
+~
+Воин, голова которого покрыта шлемом.
+~
+l0m0n0o0q2 k0A0 -600 E
+30 3 -8 10d10+3800 16d16+30
+0d0+321 400000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 90
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 95
+AResist: 0
+MResist: 0
+BareHandAttack: 7
+Str: 34
+Int: 17
+Wis: 16
+Dex: 34
+Con: 28
+Cha: 15
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Skill: 136 120
+Skill: 143 120
+Skill: 144 120
+Skill: 157 120
+E
+T 20317
+#20307
+ дэгэлэй хуягт~
+дэгэлэй хуягт~
+дэгэлэя хуягт~
+дэгэлэю хуягт~
+дэгэлэя хуягт~
+дэгэлэем хуягт~
+дэгэлэе хуягт~
+Полностью закованный в броню человек томится в ожидании атаки.
+~
+Воин с ног до головы закован в броню.
+~
+l0m0n0o0q1q2r2 d0h0k0l1q1t1 -600 E
+31 3 0 10d10+4102 19d19+0
+0d0+195 455000
+8 8 1
+Saves: -25 0 0 -10
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 60
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 42
+Int: 27
+Wis: 17
+Dex: 18
+Con: 44
+Cha: 16
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Skill: 132 130
+Skill: 136 130
+Skill: 146 130
+E
+T 20316
+#20308
+ кэкэритэн~
+кэкэритэн~
+кэкэритэна~
+кэкэритэну~
+кэкэритэна~
+кэкэритэном~
+кэкэритэне~
+Опытный воин несет караульную службу.
+~
+На затылочной части шлема у него болтается ленточка.
+~
+b0l0m0n0o0q2r2 d0k0t1 -600 E
+32 0 -5 10d10+4000 17d17+0
+0d0+251 450000
+8 8 1
+Saves: -40 0 0 0
+Resistances: 15 15 15 15 20 20 20
+HPreg: 0
+Armour: 95
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 95
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 40
+Int: 23
+Wis: 26
+Dex: 31
+Con: 34
+Cha: 20
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 1 135
+Skill: 132 135
+Skill: 136 135
+Skill: 142 135
+E
+T 20315
+#20309
+ кыштым~
+кыштым~
+кыштыма~
+кыштыму~
+кыштыма~
+кыштымом~
+кыштыме~
+Легковооруженный воин наслаждается затишьем.
+~
+Воин, несколько отличающийся от остальных татар, экипированный в легкий 
+кожаный нагрудник, сжимает в одной руке  загнутый меч.
+~
+l0m0n0o0q1q2 k0t1 -600 E
+30 5 -5 10d10+4000 16d16+0
+0d0+111 410000
+8 8 1
+Saves: -10 -5 -9 -8
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 95
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 95
+AResist: 0
+MResist: 0
+BareHandAttack: 7
+Str: 34
+Int: 18
+Wis: 18
+Dex: 28
+Con: 34
+Cha: 18
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 1 135
+Skill: 132 135
+Skill: 136 135
+Skill: 143 135
+E
+T 20303
+#20310
+ мэргэн~
+мэргэн~
+мэргэна~
+мэргэну~
+мэргэна~
+мэргэном~
+мэргэне~
+Меткий стрелок проверяет свой лук.
+~
+Это особенно меткий лучник среди монгольских воинов. Дабы выделить среди 
+остальных как снайпера его величают Мэргэн. 
+~
+l0m0n0o0q1q2r2 d0k0m1 -600 E
+31 5 -5 10d10+4000 16d17+0
+0d0+545 450000
+8 8 1
+Saves: -19 -19 -19 -19
+Resistances: 9 9 9 9 18 18 18
+HPreg: 60
+Armour: 95
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 9
+Absorbe: 99
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 43
+Int: 25
+Wis: 24
+Dex: 43
+Con: 38
+Cha: 24
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 3
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Skill: 136 135
+Skill: 154 135
+Skill: 155 135
+E
+T 20314
+#20311
+ оролук~
+оролук~
+оролука~
+оролуку~
+оролука~
+оролуком~
+оролуке~
+Узкоглазый витязь идет по лагерю.
+~
+Узкоглазый татарин хорошо подготовился к походу, и совсем не просто 
+будет с ним справиться.
+~
+l0m0n0o0q1q2r2 d0k0t1 -600 E
+31 5 -5 10d10+4000 16d16+9
+0d0+412 450000
+8 8 1
+Saves: -30 -30 -30 -30
+Resistances: 5 5 5 5 25 25 25
+HPreg: 0
+Armour: 95
+PlusMem: 0
+CastSuccess: 25
+Success: 0
+Initiative: 3
+Absorbe: 99
+AResist: 0
+MResist: 0
+BareHandAttack: 7
+Str: 41
+Int: 41
+Wis: 20
+Dex: 23
+Con: 37
+Cha: 35
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1B3
+Spell: 148
+Spell: 148
+Spell: 148
+Spell: 148
+Spell: 148
+Skill: 132 135
+Skill: 136 135
+Skill: 143 135
+Skill: 21 135
+E
+T 20313
+#20312
+ баатур~
+баатур~
+баатура~
+баатуру~
+баатура~
+баатуром~
+баатуре~
+Подготовленный воин томится в ожидании штурма.
+~
+Особо хорошо подготовленный воин специального отряда в составе кэшиктэна, 
+способный решать многоцелевые задачи.
+~
+l0m0n0o0q1q2r2 d0h0k0m1t1 -600 E
+32 5 -5 10d10+4000 18d18+20
+0d0+615 450000
+8 8 1
+Saves: -45 -45 -45 -45
+Resistances: 25 25 25 25 39 39 39
+HPreg: 90
+Armour: 90
+PlusMem: 0
+CastSuccess: 15
+Success: 15
+Initiative: 5
+Absorbe: 95
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 46
+Int: 31
+Wis: 31
+Dex: 46
+Con: 43
+Cha: 24
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 135
+Spell: 135
+Spell: 48
+Spell: 96
+Skill: 136 135
+Skill: 150 135
+Skill: 160 135
+Skill: 4 135
+E
+T 20312
+#20313
+ цагхада~
+цагхада~
+цагхады~
+цагхаде~
+цагхаду~
+цагхадой~
+цагхаде~
+Часовой стоит на своем посту.
+~
+Узкоглазый татарин внимательно следит за всем происходящим близ лагеря.
+Если ему предложить пару тысяч кун он наверняка сделает вид, что отошел по нужному делу.
+~
+b0l0n0o0q2 d0k0t1 -600 E
+32 5 -5 10d10+4000 17d17+0
+0d0+495 430000
+8 8 1
+Saves: -30 -30 -30 -30
+Resistances: 20 20 20 20 15 15 15
+HPreg: 0
+Armour: 50
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 5
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 38
+Int: 27
+Wis: 27
+Dex: 33
+Con: 36
+Cha: 21
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b0c0d0b1c1
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 1 135
+Skill: 136 135
+Skill: 142 135
+E
+T 20311
+T 20336
+#20314
+ нукур~
+нукур~
+нукура~
+нукуру~
+нукура~
+нукуром~
+нукуре~
+Узкоглазый дружинник идет по лагерю.
+~
+Узкоглазый татарин хорошо подготовился к походу, и совсем не просто 
+будет его убить.
+~
+l0m0n0o0q1q2 d0h0k0r0z0A0C0t1 -600 E
+31 5 -5 10d10+4000 16d16+0
+0d0+367 450000
+8 8 1
+Saves: -40 -40 -40 -40
+Resistances: 20 20 20 20 15 15 15
+HPreg: 0
+Armour: 80
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 7
+Str: 38
+Int: 22
+Wis: 24
+Dex: 35
+Con: 41
+Cha: 22
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Spell: 28
+Skill: 1 135
+Skill: 132 135
+Skill: 136 135
+Skill: 137 135
+Skill: 143 135
+Skill: 22 100
+E
+T 20309
+#20315
+ хабуту~
+хабуту~
+хабуту~
+хабуту~
+хабуту~
+хабуту~
+хабуту~
+Монгольский стрелок осматривает свой лук.
+~
+Молодой ловкий стрелок из лука.
+~
+l0m0n0o0q2 k0 -600 E
+30 5 -5 10d10+4000 16d16+0
+0d0+216 420000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 95
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 95
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 35
+Int: 25
+Wis: 24
+Dex: 35
+Con: 35
+Cha: 24
+LikeWork: 75
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Skill: 1 135
+Skill: 136 135
+Skill: 154 135
+Skill: 155 100
+E
+T 20308
+#20316
+дунгчи~
+дунгчи~
+дунгчи~
+дунгчи~
+дунгчи~
+дунгчи~
+дунгчи~
+Молодой татарин сидит в раздумьях.
+~
+Молодой раскосый парень вертит трубу в руках. Ей он обозначит начало атаки.
+~
+b0l0m0n0o0q2 d0k0t1 -600 E
+30 5 -5 10d10+3000 15d15+29
+0d0+197 350000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 90
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 10
+Str: 27
+Int: 27
+Wis: 32
+Dex: 37
+Con: 23
+Cha: 38
+LikeWork: 75
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 1 135
+Skill: 136 135
+Skill: 145 135
+E
+T 20307
+#20317
+ сэнгун~
+сэнгун~
+сэнгуна~
+сэнгуну~
+сэнгуна~
+сэнгуном~
+сэнгуне~
+Полководец внимает речам Хана.
+~
+Восточный мужик, лицо которого испещрено шрамами и морщинами, производит 
+впечатление бывалого вояки.
+~
+b0m0n0o0q2 d0k0t1 -600 E
+34 5 -5 10d10+4000 17d17+0
+0d0+999 550000
+8 8 1
+Saves: -65 -54 -59 -25
+Resistances: 25 25 25 25 50 50 50
+HPreg: 0
+Armour: 90
+PlusMem: 100
+CastSuccess: 90
+Success: 10
+Initiative: 10
+Absorbe: 95
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 45
+Int: 26
+Wis: 27
+Dex: 33
+Con: 38
+Cha: 24
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 56
+Skill: 1 135
+Skill: 136 135
+Skill: 146 135
+Helper: 20318
+Helper: 20312
+Helper: 20311
+Helper: 20310
+E
+T 20304
+#20318
+ тушимэл~
+тушимэл~
+тушимэла~
+тушимэлу~
+тушимэла~
+тушимэлом~
+тушимэле~
+Восточный командир внимательно слушает Хана.
+~
+Не старый монголец очень напряжен. Ему предстоит донести приказ Хана 
+до рядовых воинов.
+~
+b0m0n0o0q2 d0k0t1 -600 E
+33 5 -5 10d10+4000 17d16+25
+0d0+999 510000
+8 8 1
+Saves: -50 -50 -20 -20
+Resistances: 20 20 20 20 10 10 10
+HPreg: 0
+Armour: 90
+PlusMem: 50
+CastSuccess: 20
+Success: 5
+Initiative: 5
+Absorbe: 95
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 42
+Int: 26
+Wis: 25
+Dex: 36
+Con: 39
+Cha: 23
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Skill: 1 135
+Skill: 136 135
+Skill: 145 135
+Helper: 20316
+Helper: 20315
+Helper: 20314
+Helper: 20309
+Helper: 20307
+Helper: 20305
+Helper: 20306
+E
+T 20305
+#20319
+чэрби~
+чэрби~
+чэрби~
+чэрби~
+чэрби~
+чэрби~
+чэрби~
+Толстый монгол рассматривает содержимое ящиков.
+~
+Колобкообразный мужичонка в добротном хатагу дэгэл.
+~
+b0m0n0o0q2 d0k0q1t1 -600 E
+32 5 -5 10d10+4000 15d15+0
+0d0+1500 400000
+8 8 1
+Saves: -20 0 0 0
+Resistances: 0 5 5 5 5 5 0
+HPreg: 0
+Armour: 95
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 95
+AResist: 0
+MResist: 0
+BareHandAttack: 6
+Str: 35
+Int: 24
+Wis: 22
+Dex: 29
+Con: 42
+Cha: 25
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Skill: 1 135
+Skill: 136 135
+Skill: 141 135
+Skill: 144 135
+E
+T 20306
+#20320
+ багник~
+багник ~
+багника~
+багнику~
+багник~
+багником~
+багнике~
+Болотник парит над багной.
+~
+Коричнево-зеленый болотник будет драться за свой дом. А болотные черти ему 
+помогут.
+~
+b0c0f0g0n0o0x0 d0k0x0 -600 E
+33 -30 0 10d10+1350 4d20+0
+0d0+0 250000
+8 8 1
+Saves: -80 -80 -80 -80
+Resistances: -50 100 100 100 100 -50 100
+HPreg: 100
+Armour: 100
+PlusMem: 100
+CastSuccess: 100
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 30
+Int: 30
+Wis: 25
+Dex: 30
+Con: 25
+Cha: 25
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 9
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Skill: 136 200
+Helper: 20335
+E
+T 20335
+#20321
+ тушимэл~
+тушимэл~
+тушимэла~
+тушимэлу~
+тушимэла~
+тушимэлом~
+тушимэле~
+Восточный командир ведет войско Хана в атаку.
+~
+Не старый монголец очень напряжен. Ему предстоит донести приказ Хана 
+до рядовых воинов.
+~
+f0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
+33 2 -8 10d10+4000 17d16+25
+0d0+999 510000
+8 8 1
+Saves: -65 -25 -25 -25
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 95
+PlusMem: 0
+CastSuccess: 0
+Success: 5
+Initiative: 5
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 41
+Int: 24
+Wis: 24
+Dex: 34
+Con: 39
+Cha: 22
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 1 135
+Skill: 136 135
+Skill: 145 135
+E
+T 20305
+#20322
+ сэнгун~
+сэнгун~
+сэнгуна~
+сэнгуну~
+сэнгуна~
+сэнгуном~
+сэнгуне~
+Полководец ведет войско Хана в атаку.
+~
+Восточный мужик, лицо которого испещрено шрамами и морщинами, производит 
+впечатление бывалого вояки.
+~
+f0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
+34 2 -8 10d10+4000 17d17+0
+0d0+999 550000
+8 8 1
+Saves: -75 -25 -35 -35
+Resistances: 15 15 15 15 30 30 30
+HPreg: 100
+Armour: 90
+PlusMem: 0
+CastSuccess: 50
+Success: 10
+Initiative: 10
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 44
+Int: 25
+Wis: 26
+Dex: 36
+Con: 39
+Cha: 23
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 1 135
+Skill: 136 135
+Skill: 146 135
+E
+T 20304
+#20323
+ мэргэн~
+мэргэн~
+мэргэна~
+мэргэну~
+мэргэна~
+мэргэном~
+мэргэне~
+Меткий стрелок натягивает тетиву.
+~
+Это особенно меткий лучник среди монгольских воинов. Дабы выделить среди 
+остальных как снайпера его величают Мэргэн. 
+~
+m0n0o0q1g2k2q2r2 d0k0m1 -600 E
+31 0 -5 10d10+4000 16d17+0
+0d0+545 450000
+8 8 1
+Saves: -20 -15 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 90
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 95
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 43
+Int: 25
+Wis: 24
+Dex: 43
+Con: 38
+Cha: 24
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 3
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 136 135
+Skill: 154 135
+Skill: 155 135
+E
+T 20314
+#20324
+ оролук~
+оролук~
+оролука~
+оролуку~
+оролука~
+оролуком~
+оролуке~
+Узкоглазый витязь стоит с мечом на изготовку.
+~
+Узкоглазый татарин хорошо подготовился к походу, и совсем не просто 
+будет с ним справиться.
+~
+m0n0o0q1g2k2q2r2 d0k0t1 -600 E
+31 2 -7 10d10+4000 16d16+9
+0d0+412 450000
+8 8 1
+Saves: -15 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 90
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 95
+AResist: 0
+MResist: 0
+BareHandAttack: 7
+Str: 41
+Int: 41
+Wis: 20
+Dex: 23
+Con: 37
+Cha: 35
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1B3
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 132 135
+Skill: 136 135
+Skill: 143 135
+Skill: 21 135
+E
+T 20313
+#20325
+ баатур~
+баатур~
+баатура~
+баатуру~
+баатура~
+баатуром~
+баатуре~
+Подготовленный воин свирепо орет здесь.
+~
+Особо хорошо подготовленный воин специального отряда в составе кэшиктэна, 
+способный решать многоцелевые задачи.
+~
+m0n0o0q1g2k2q2r2 d0h0k0m1t1 -600 E
+32 0 -6 10d10+4000 18d18+20
+0d0+615 450000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 40 40 40 40 50 50 50
+HPreg: 80
+Armour: 90
+PlusMem: 100
+CastSuccess: 100
+Success: 15
+Initiative: 15
+Absorbe: 95
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 46
+Int: 31
+Wis: 31
+Dex: 46
+Con: 43
+Cha: 24
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 136 135
+Skill: 150 135
+Skill: 160 135
+Skill: 4 135
+E
+T 20312
+#20326
+ лубчитэн~
+лубчитэн~
+лубчитэна~
+лубчитэну~
+лубчитэна~
+лубчитэном~
+лубчитэне~
+Всадник сидит здесь верхом на коне, с копьем на перевес.
+~
+Воин средневооруженной конницы.
+~
+m0n0o0q1g2k2q2r2 k0m1 -600 E
+31 1 -3 10d10+4500 18d17+0
+0d0+100 440000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 95
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 11
+Str: 36
+Int: 14
+Wis: 16
+Dex: 24
+Con: 34
+Cha: 16
+LikeWork: 75
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Skill: 136 135
+Skill: 148 135
+Skill: 5 135
+E
+T 20318
+#20327
+ дуулгат~
+дуулгат~
+дуулгата~
+дуулгату~
+дуулгата~
+дуулгатом~
+дуулгате~
+Азиатский воин оглядывается по сторонам в поисках врага.
+~
+Воин, голова которого покрыта шлемом.
+~
+m0n0o0q1g2k2q2r2 k0A0 -600 E
+30 3 -8 10d10+3800 16d16+30
+0d0+321 400000
+8 8 1
+Saves: -5 0 0 -5
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 35
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 7
+Str: 34
+Int: 17
+Wis: 16
+Dex: 34
+Con: 28
+Cha: 15
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Skill: 136 120
+Skill: 143 120
+Skill: 144 120
+Skill: 157 120
+E
+T 20317
+#20328
+ дэгэлэй хуягт~
+дэгэлэй хуягт~
+дэгэлэя хуягт~
+дэгэлэю хуягт~
+дэгэлэя хуягт~
+дэгэлэем хуягт~
+дэгэлэе хуягт~
+Полностью закованный в броню человек неспешно передвигается вперед.
+~
+Воин с ног до головы закован в броню.
+~
+m0n0o0q1g2k2q2r2 h0k0l1q1t1 -600 E
+31 3 0 10d10+4102 19d19+0
+0d0+195 455000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 90
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 42
+Int: 27
+Wis: 17
+Dex: 18
+Con: 44
+Cha: 16
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Skill: 132 130
+Skill: 136 130
+Skill: 146 130
+E
+T 20316
+#20329
+ кыштым~
+кыштым~
+кыштыма~
+кыштыму~
+кыштыма~
+кыштымом~
+кыштыме~
+Легковооруженный воин кромсает всех подряд.
+~
+Воин, несколько отличающийся от остальных татар, экипированный в легкий 
+кожаный нагрудник, сжимает в одной руке  загнутый меч.
+~
+m0n0o0q1g2k2q2r2 d0k0t1 -600 E
+30 2 -5 10d10+4000 16d16+0
+0d0+111 410000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 90
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 7
+Str: 34
+Int: 18
+Wis: 18
+Dex: 28
+Con: 34
+Cha: 18
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 1 135
+Skill: 132 135
+Skill: 136 135
+E
+T 20303
+#20330
+ нукур~
+нукур~
+нукура~
+нукуру~
+нукура~
+нукуром~
+нукуре~
+Узкоглазый дружинник проходит по городу.
+~
+Узкоглазый татарин хорошо подготовился к походу, и совсем не просто 
+будет его убить.
+~
+m0n0o0q1g2k2q2r2 d0h0k0r0z0A0C0t1 -600 E
+31 4 -5 10d10+4000 16d16+0
+0d0+367 450000
+8 8 1
+Saves: -45 -30 -5 -15
+Resistances: 15 35 25 9 50 45 50
+HPreg: 50
+Armour: 90
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 7
+Str: 38
+Int: 22
+Wis: 24
+Dex: 35
+Con: 41
+Cha: 22
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 1 135
+Skill: 132 135
+Skill: 136 135
+Skill: 137 135
+Skill: 143 135
+Skill: 22 100
+E
+T 20309
+#20331
+хабуту~
+хабуту~
+хабуту~
+хабуту~
+хабуту~
+хабуту~
+хабуту~
+Монгольский стрелок достает очередную стрелу.
+~
+Молодой ловкий стрелок из лука.
+~
+m0n0o0q1g2k2q2r2 k0 -600 E
+30 3 -5 10d10+4000 16d16+0
+0d0+216 420000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 95
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 35
+Int: 25
+Wis: 24
+Dex: 35
+Con: 35
+Cha: 24
+LikeWork: 75
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 1 135
+Skill: 136 135
+Skill: 154 135
+Skill: 155 100
+E
+T 20308
+#20332
+дунгчи~
+дунгчи~
+дунгчи~
+дунгчи~
+дунгчи~
+дунгчи~
+дунгчи~
+Молодой татарин первый раз атакует город.
+~
+Молодой раскосый парень вертит трубу в руках. Ей он обозначит начало атаки.
+~
+b0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
+30 3 -5 10d10+3000 15d15+29
+0d0+197 350000
+8 8 1
+Saves: -5 -5 -5 -5
+Resistances: 8 8 8 8 12 12 12
+HPreg: 25
+Armour: 90
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 10
+Str: 27
+Int: 27
+Wis: 32
+Dex: 37
+Con: 23
+Cha: 38
+LikeWork: 75
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 1 135
+Skill: 136 135
+Skill: 145 135
+E
+T 20307
+#20333
+ посыльный микула русич~
+посыльный Микула~
+посыльного Микулы~
+посыльному Микуле~
+посыльный Микулу~
+посыльным Микулой~
+посыльном Микуле~
+Раненный русич лежит здесь.
+~
+Весь израненный, в порванной одежде и гнутых доспехах, с мечем, запачканном 
+кровью человек.
+~
+b0n0o0x0o2 d0f0k0r0 -600 E
+30 6 -2 10d10+2500 12d13+50
+0d0+1 250000
+6 6 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 35
+Int: 25
+Wis: 28
+Dex: 26
+Con: 37
+Cha: 16
+LikeWork: 75
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+E
+T 20310
+#20334
+ басурманин~
+басурманин~
+басурманина~
+басурманину~
+басурманина~
+басурманином~
+басурманине~
+Узкоглазый воин зло оглядывается по сторонам.
+~
+Басурманин возмущен тем, что ему попали стрелой в... попу. 
+~
+b0l0m0n0o0q2 d0k0t1 -600 E
+30 5 -5 10d10+4000 16d16+0
+0d0+111 410000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 90
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 80
+AResist: 5
+MResist: 5
+BareHandAttack: 7
+Str: 34
+Int: 18
+Wis: 18
+Dex: 28
+Con: 34
+Cha: 18
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: a0b0c0d0b1c1
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Skill: 1 135
+Skill: 132 135
+Skill: 136 135
+Skill: 143 135
+E
+#20335
+ анчутка~
+анчутка~
+анчутки~
+анчутке~
+анчутку~
+анчуткой~
+анчутке~
+Черт выполз из ближайшего болота, дабы поживиться свежей плотью.
+~
+Водяной бес, с пятками утки и свиным пятачком. Он обжил близлежащие болота 
+и сейчас бедакурит у Китежа.
+~
+f0g0n0o0x0i1l2u2 d0k0r1w1 -600 E
+32 6 0 10d10+1650 12d20+35
+0d0+0 200000
+8 8 1
+Saves: -40 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 200
+Armour: 90
+PlusMem: 0
+CastSuccess: 30
+Success: 5
+Initiative: 0
+Absorbe: 95
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Destination: 20319
+Destination: 20318
+Destination: 20316
+Destination: 20315
+Destination: 20314
+Destination: 20320
+Destination: 20322
+Destination: 20323
+Destination: 20324
+Destination: 20325
+Destination: 20326
+Destination: 20327
+Destination: 20328
+Destination: 20329
+Destination: 20330
+Destination: 20331
+Destination: 20333
+Destination: 20335
+Destination: 20336
+Destination: 20337
+Str: 28
+Int: 27
+Wis: 23
+Dex: 29
+Con: 24
+Cha: 24
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 3
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Feat: 1
+Special_Bitvector: b1c1
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Skill: 136 120
+Skill: 160 120
+E
+#20336
+ цагхада~
+цагхада~
+цагхады~
+цагхаде~
+цагхаду~
+цагхадой~
+цагхаде~
+Часовой стоит на своем посту.
+~
+Узкоглазый татарин внимательно следит за всем происходящим близ лагеря.
+~
+b0l0m0n0o0q2 d0k0t1 -600 E
+32 5 -5 10d10+4000 17d17+0
+0d0+495 430000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 95
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 95
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 38
+Int: 27
+Wis: 27
+Dex: 33
+Con: 36
+Cha: 21
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b0c0b1c1
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Spell: 52
+Skill: 1 135
+Skill: 136 135
+Skill: 142 135
+E
+T 20311
+#20337
+хя телохранитель~
+хя~
+хя~
+хя~
+хя~
+хя~
+хя~
+Телохранитель прикрывает собой хозяина.
+~
+Опытный воин готов умереть, чтобы защитить.
+~
+b0f0l0m0n0o0q2r2 d0k0r1t1 -600 E
+33 1 -10 10d10+4000 17d17+0
+0d0+995 450000
+8 8 1
+Saves: -60 -25 -40 -15
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 90
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 34
+Int: 27
+Wis: 27
+Dex: 40
+Con: 40
+Cha: 21
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 1 135
+Skill: 136 135
+Skill: 137 135
+Skill: 4 135
+E
+#20338
+ багник~
+багник ~
+багника~
+багнику~
+багник~
+багником~
+багнике~
+Болотник парит над багной.
+~
+Коричнево-зеленый болотник будет драться за свой дом. А болотные черти ему 
+помогут.
+~
+b0c0f0g0n0o0x0 d0k0x0 -600 E
+33 0 0 10d10+1350 4d20+0
+0d0+0 250000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 90
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 90
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 30
+Int: 30
+Wis: 25
+Dex: 30
+Con: 25
+Cha: 25
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 9
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Skill: 136 200
+Helper: 20335
+E
+T 20335
+$
+$

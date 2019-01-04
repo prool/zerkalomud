@@ -11,7 +11,7 @@
 Здоровый мужик с очень красивой, но в тоже время устрашающей секирой.
 ~
 b0c0d0e0g0l0n0o0p0r0x0A0B0f2 0 -600 E
-15 10 -5 5d10+20 5d5+5
+15 10 -5 5d10+20 2d2+2
 0d0+2 30000
 8 8 1
 BareHandAttack: 6
@@ -24,9 +24,11 @@ Size: 70
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 35600
 #35601
@@ -52,9 +54,11 @@ Size: 80
 LikeWork: 10
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #35602
 ключница старушка~
@@ -79,9 +83,11 @@ Size: 80
 LikeWork: 10
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #35603
 оружейник~
@@ -106,9 +112,11 @@ Size: 80
 LikeWork: 10
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #35604
 старик алхимик~
@@ -132,9 +140,11 @@ Size: 80
 LikeWork: 10
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #35605
 старый скряга~
@@ -156,9 +166,11 @@ Size: 80
 LikeWork: 10
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #35606
 голубятник~
@@ -184,6 +196,7 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #35620
 волк~
@@ -197,8 +210,8 @@ E
 ~
 Огромный хищный зверь зло смотрит на всех проходящих.
 ~
-b0d0n0o0p0r0s0t0u0x0z0a1b1f2 0 0 E
-6 10 8 5d10+80 2d2+2
+b0d0n0o0p0s0t0z0a1b1f2 0 0 E
+20 15 0 5d10+80 2d2+2
 0d0+0 2000
 8 8 1
 BareHandAttack: 13
@@ -206,5 +219,6 @@ Size: 70
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 E
 $

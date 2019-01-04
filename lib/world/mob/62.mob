@@ -24,8 +24,10 @@ Cha: 3
 Size: 10
 ExtraAttack: 1
 Class: 100
+Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 21
 E
 T 6200
 #6201
@@ -53,8 +55,10 @@ Con: 3
 Cha: 3
 Size: 5
 Class: 100
+Height: 198
 Weight: 1
 Special_Bitvector: p0 
+Skill: 136 3
 E
 #6202
 длинный червяк~
@@ -81,8 +85,10 @@ Con: 3
 Cha: 3
 Size: 5
 Class: 100
+Height: 198
 Weight: 1
 Special_Bitvector: m0 
+Skill: 136 12
 E
 #6203
 маленький паучок~
@@ -109,8 +115,10 @@ Con: 3
 Cha: 3
 Size: 5
 Class: 100
+Height: 198
 Weight: 1
 Special_Bitvector: p0 
+Skill: 136 9
 E
 #6204
 агрессивная плесень~
@@ -138,8 +146,10 @@ Cha: 3
 Size: 10
 ExtraAttack: 1
 Class: 100
+Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 27
 E
 T 6201
 #6205
@@ -168,8 +178,10 @@ Con: 3
 Cha: 3
 Size: 5
 Class: 100
+Height: 198
 Weight: 1
 Special_Bitvector: m0 
+Skill: 136 12
 E
 #6206
 маленькая мошка~
@@ -196,8 +208,10 @@ Con: 3
 Cha: 3
 Size: 5
 Class: 100
+Height: 198
 Weight: 1
 Special_Bitvector: l0 
+Skill: 136 6
 E
 #6207
 маленькая букашка~
@@ -224,8 +238,10 @@ Con: 3
 Cha: 3
 Size: 5
 Class: 100
+Height: 198
 Weight: 1
 Special_Bitvector: p0 
+Skill: 136 6
 E
 #6208
 улитка~
@@ -252,8 +268,10 @@ Con: 3
 Cha: 3
 Size: 5
 Class: 100
+Height: 198
 Weight: 1
 Special_Bitvector: m0 
+Skill: 136 15
 E
 T 6204
 #6209
@@ -281,8 +299,10 @@ Con: 3
 Cha: 3
 Size: 5
 Class: 100
+Height: 198
 Weight: 1
 Special_Bitvector: m0 
+Skill: 136 9
 E
 #6210
 маленький комар~
@@ -310,7 +330,9 @@ Con: 3
 Cha: 3
 Size: 5
 Class: 100
+Height: 198
 Weight: 1
 Special_Bitvector: l0 
+Skill: 136 6
 E
 $

@@ -29,6 +29,7 @@ Height: 175
 Weight: 150
 Special_Bitvector: i0a1b1c1 
 Skill: 131 120
+Skill: 136 75
 Skill: 137 100
 Skill: 138 100
 Skill: 139 100
@@ -68,6 +69,7 @@ Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 2 100
 Skill: 132 60
+Skill: 136 75
 Skill: 137 25
 Skill: 158 120
 Spell: 56
@@ -106,6 +108,7 @@ Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 2 100
 Skill: 132 60
+Skill: 136 75
 Skill: 137 25
 Skill: 158 120
 Spell: 56
@@ -144,6 +147,7 @@ Weight: 150
 Special_Bitvector: g0i0b1c1 
 Skill: 5 30
 Skill: 131 120
+Skill: 136 75
 Skill: 137 100
 Skill: 138 100
 Skill: 150 100
@@ -182,6 +186,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: n0 
+Skill: 136 30
 Skill: 157 150
 E
 I крылья,5:5

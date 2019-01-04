@@ -1,6 +1,6 @@
 #11700
 Девочка-припевочка плачет~
-0 r 100
+0 q 100
 ~
 wait 1
 плак
@@ -31,38 +31,41 @@ calcuid devochka 11700 mob
 detach 11700 %devochka.id%
 attach 11702 %devochka.id%
 if %world.curobjs(11703)% <5
-   mload obj 11703
+  mload obj 11703
 end
 ~
 #11702
 благодарность припевочки~
 0 j 100
 ~
+wait 1
 if (%object.vnum% != 11703)
- брос все
- halt
+  брос все
+  halt
 end
 wait 1
-mpurge крест.кам
+mpurge %object%
 wait 1
 switch %random.4%
-case 1
-    say Спасибо Вам огромное, а теперь я, как и обещала, отблагадарю Вас!
+  case 1
+    say Спасибо Вам огромное, а теперь я, как и обещала, отблагодарю Вас!
     mload obj 11702
     дать все %actor.name%
-    break
-case 2
+  break
+  case 2
     say Спасибо большое, я теперь Ваша вечная должница!
-    mload obj 11704
-    дать все %actor.name%
-    break
-case 3
+    if %random.7% > %world.curobjs(11704)%
+      mload obj 11704
+      дать все %actor.name%
+    end
+  break
+  case 3
     say Спасибо большое-пребольшое! Теперь все мои родные спасены!
     mload obj 11705
     дать все %actor.name%
-    break
-default
-    if %random.10% == 4
+  break
+  default
+    if %random.1000% <= 100
       msend %actor% Спасибо тебе!
       msend %actor% За это я покажу тебе как варить чудесное зелье, меня этому бабушка научила.
       msend %actor% Оно сделает тебя легче перышка.
@@ -75,9 +78,9 @@ default
     say Спасибо Вам!
     wait 10
     say Для всего нашего села - ты теперь желанный гость!
-set %self.gold(+500)%
+    set %self.gold(+500)%
     дать 500 кун %actor.name%
-    break
+  break
 done
 detach 11702 %self.id%
 ~
@@ -93,9 +96,9 @@ mecho Ветви деревьев наклонились к Хозяину леса и отдали ему свою энергию.
 1 h 100
 ~
 if (%actor.realroom% == 11717)
- oecho "Нет! Только не муравьи!!!",- закричал Хозяин Леса..
- calcuid hozyain 11701 mob
- detach 11704 %hozyain.id%
+  oecho "Нет! Только не муравьи!!!",- закричал Хозяин Леса..
+  calcuid hozyain 11701 mob
+  detach 11704 %hozyain.id%
 end
 wait 1
 opurge %self%
@@ -105,16 +108,50 @@ opurge %self%
 0 g 40
 ~
 if %actor.vnum% == -1
-then
+  then
   say О! Еще один искатель Крест-Камня!
   say Нет! тебе никогда до него не добраться!
-wait 1
-хох
-wait 1
-  say Наш хозяин ничего не боиться! 
-wait 1
-дум
+  wait 1
+  хох
+  wait 1
+  say Наш хозяин ничего не боится!
+  wait 1
+  дум
   say Ну... или почти ничего! Хотя эти мелкие твари...
 end
+~
+#11707
+Сопелку нельзя использовать на 24+~
+1 j 100
+~
+if %actor.level% > 24
+  osend %actor% _В вашем-то возрасте на дудочках играть? 
+  osend %actor% ___Совсем с ума спятили...
+  return 0
+  halt
+end
+~
+#11708
+Лоад книги !онгенная стрела! по квесту~
+2 d 0
+Словом крепким, правильным заклинаю - покажись потаенное.~
+wait 1
+set text Словом крепким, правильным заклинаю - покажись потаенное. 
+if %speech% != %text%
+  halt
+end
+if !%actor.haveobj(33940)%
+  wsend %actor% По вершинам елей пронесся порыв ветра, но спустя мгновение все стихло, и ничего не произошло.
+  halt
+end
+wait 1s
+wecho _Внезапно по ельнику пронесся ветер.
+wait 2
+wecho _Земля в колдовском круге заволновалась, расступилась и вытолкнула на поверхность странный темный камень.
+wload obj 563
+calcuid scroll 33940 obj
+wait 1
+wpurge %scroll%
+wsend %actor% Кожаный свиток мгновенно истлел и рассыпался в ваших руках.
 ~
 $~

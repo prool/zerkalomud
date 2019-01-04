@@ -1,0 +1,1710 @@
+#49700
+дряхлый старикашка~
+Дряхлый Старикашка~
+Дряхлого Старикашки~
+Дряхлому Старикашке~
+Дряхлый Старикашку~
+Дряхлым Старикашкой~
+Дряхлом Старикашке~
+Старичек небольшого роста что-то пишет за огрмным столом
+~
+   неопределен
+~
+b0d0g0o1 0 0 E
+30 0 0 10d10+20 1d1+20
+0d0+0 10000
+8 8 1
+Str: 5
+Dex: 5
+Int: 25
+Wis: 30
+Con: 5
+Cha: 8
+Size: 100
+ExtraAttack: 1
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 90
+E
+T 49700
+T 49705
+#49701
+граф Дракула вампир~
+Дракула~
+Дракулы~
+Дракуле~
+Дракулу~
+Дракулой~
+Дракуле~
+Граф Дракула сидит в кресле, отдыхая после сытного обеда.
+~
+   Высокий крепкий старик с хищными чертами, мертвенно бледным лицом и 
+красными глазами. При улыбке губы вампира приоткрываются, демонстрируя 
+пару ужасного вида клыков, покрытых алой кровью.
+~
+b0d0f0g0l0m0n0o0z0f2 d0f0k0 -600 E
+29 5 -5 15d10+1700 15d10+20
+0d0+0 0
+5 5 1
+BareHandAttack: 4
+Str: 25
+Dex: 15
+Int: 30
+Wis: 20
+Con: 24
+Cha: 10
+Size: 35
+LikeWork: 50
+MaxFactor: 15
+ExtraAttack: 1
+Class: 101
+Height: 180
+Weight: 150
+Special_Bitvector: g0 
+Skill: 4 100
+Skill: 132 100
+Skill: 136 87
+Skill: 157 80
+Spell: 56
+Spell: 56
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 78
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 114
+Spell: 114
+E
+#49702
+великан Усыня сын Виевич~
+великан Усыня~
+великана Усыни~
+великану Усыне~
+великан Усыню~
+великаном Усыней~
+великане Усыне~
+Великан Усыня, сын Виевич, охраняет вершину мира от простых смертных.
+~
+   Один из младших сыновей владыки подземного Царства Вия, поставлен на
+охрану одной из трех Вершин Мира своим отцом.
+~
+b0d0e0f0g0n0o0p0q0r0t0x0z0f2 d0f0k0r0t1 -600 E
+32 0 -10 60d10+4000 5d4+25
+0d0+0 0
+8 8 1
+BareHandAttack: 6
+Str: 30
+Dex: 25
+Int: 25
+Wis: 18
+Con: 30
+Cha: 3
+Size: 100
+LikeWork: 100
+MaxFactor: 15
+ExtraAttack: 1
+Class: 104
+Height: 198
+Weight: 90
+Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 4 80
+Skill: 134 100
+Skill: 136 110
+Skill: 137 150
+Skill: 141 110
+Skill: 150 110
+Skill: 151 100
+Skill: 158 110
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 30
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 48
+Spell: 48
+Spell: 68
+Spell: 68
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 82
+Spell: 124
+Spell: 127
+Helper: 49702
+Skill: 136 96
+E
+#49703
+хранитель Усыня созданный~
+хранитель Усыни~
+хранителя Усыниа~
+хранителю Усыниу~
+хранителя Усыни~
+хранителем Усыниом~
+хранителе Усыние~
+Хранитель Усыни, созданный Вием, готов прийти на помощь господину.
+~
+   Создание Вия, правителя подземного царства, посланный на помощь своему
+сыну Усыне.
+~
+b0d0f0g0m0n0o0p0x0z0f2 a0d0f0k0m0n0 -600 E
+30 0 -10 30d10+2000 10d2+20
+0d0+0 0
+8 8 1
+BareHandAttack: 6
+Str: 24
+Dex: 25
+Int: 30
+Wis: 30
+Con: 35
+Cha: 3
+Size: 45
+LikeWork: 95
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 50
+Special_Bitvector: 0 
+Skill: 1 100
+Skill: 5 80
+Skill: 132 80
+Skill: 136 100
+Skill: 150 100
+Skill: 151 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 68
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 94
+Spell: 94
+Spell: 115
+Spell: 127
+E
+#49704
+хранитель Дубыня созданный~
+хранитель Дубыни~
+хранителя Дубыниа~
+хранителю Дубыниу~
+хранителя Дубыни~
+хранителем Дубыниом~
+хранителе Дубыние~
+Хранитель Дубыни, созданный Вием, готов прийти на помощь господину.
+~
+   Создание Вия, правителя подземного царства, посланный на помощь своему
+сыну Дубыне.
+~
+b0d0f0g0m0n0o0p0x0z0f2 a0d0k0m0 -600 E
+30 0 -8 30d10+2000 10d2+20
+0d0+0 0
+8 8 1
+BareHandAttack: 6
+Str: 24
+Dex: 25
+Int: 30
+Wis: 30
+Con: 35
+Cha: 3
+Size: 45
+LikeWork: 95
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 150
+Special_Bitvector: 0 
+Skill: 1 100
+Skill: 5 80
+Skill: 132 80
+Skill: 136 100
+Skill: 150 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 68
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 94
+Spell: 94
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 127
+Spell: 127
+Spell: 127
+E
+#49705
+великан Дубыня сын Виевич~
+великан Дубыня~
+великана Дубыни~
+великану Дубыне~
+великан Дубыню~
+великаном Дубыней~
+великане Дубыне~
+Великан Дубыня, сын Виевич, охраняет покой вершины мира от простых смертных.
+~
+  Один из младших сыновей владыки подземного Царства Вия, поставлен на
+охрану одной из трех Вершин Мира своим отцом.
+~
+b0d0e0f0g0m0n0o0p0q0r0x0z0f2g2 d0f0k0r0t1 -600 E
+32 0 -10 60d10+4000 5d4+25
+0d0+0 0
+8 8 1
+BareHandAttack: 6
+Str: 30
+Dex: 25
+Int: 25
+Wis: 18
+Con: 30
+Cha: 3
+Size: 100
+LikeWork: 100
+MaxFactor: 15
+ExtraAttack: 1
+Class: 104
+Height: 198
+Weight: 150
+Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 96
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 48
+Spell: 68
+Spell: 68
+Spell: 78
+Spell: 79
+Spell: 79
+Spell: 88
+Spell: 88
+Spell: 124
+Spell: 127
+Helper: 49704
+Skill: 136 96
+E
+#49706
+хранитель Горыни созданный~
+хранитель Горыни~
+хранителя Горыниа~
+хранителю Горыниу~
+хранителя Горыни~
+хранителем Горыниом~
+хранителе Горыние~
+Хранитель Горыни, созданный Вием, готов прийти на помощь господину.
+~
+   Создание Вия, правителя подземного царства, посланный на помощь своему
+сыну Горыне.
+
+~
+b0d0e0f0g0m0n0o0p0x0z0f2 a0d0f0k0m0 -600 E
+30 0 -8 30d10+2000 10d2+20
+0d0+0 0
+8 8 1
+Str: 24
+Dex: 25
+Int: 30
+Wis: 30
+Con: 35
+Cha: 3
+Size: 45
+LikeWork: 95
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 150
+Special_Bitvector: 0 
+Skill: 1 100
+Skill: 5 80
+Skill: 132 80
+Skill: 136 100
+Skill: 150 100
+Skill: 151 100
+Skill: 158 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 68
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+E
+#49707
+великан Горыня сын Виевич~
+великан Горыня~
+великана Горыни~
+великану Горыне~
+великан Горыню~
+великаном Горыней~
+великане Горыне~
+Великан Горыня, сын Виевич, охраняет покой вершины мира от простых смертных.
+~
+   Один из младших сыновей владыки подземного Царства Вия, поставлен на
+охрану одной из трех Вершин Мира своим отцом.
+
+~
+b0d0e0f0g0m0n0o0p0q0r0t0u0x0z0f2 d0f0k0r0t1 0 E
+32 0 -10 60d10+4500 5d4+25
+0d0+0 0
+8 8 1
+BareHandAttack: 6
+Str: 30
+Dex: 25
+Int: 25
+Wis: 25
+Con: 30
+Cha: 3
+Size: 100
+LikeWork: 100
+MaxFactor: 15
+ExtraAttack: 1
+Class: 104
+Height: 198
+Weight: 90
+Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 4 100
+Skill: 134 100
+Skill: 136 96
+Skill: 151 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 113
+Spell: 113
+Spell: 124
+Spell: 124
+Spell: 127
+Helper: 49706
+Skill: 136 96
+E
+#49708
+горыня змеевич шестиглавый~
+Горыня Змеевич~
+Горыни Змеевича~
+Горыне Змеевичу~
+Горыню Змеевич~
+Горыней Змеевичем~
+Горыне Змеевиче~
+Шестиглавый змей летает тут.
+~
+   Огромный Шестиглавй змей.
+ 
+~
+b0d0f0g0l0m0n0o0p0t0x0z0b1r1f2 d0f0k0r0x0 -600 E
+40 0 -10 1d1+15000 9d7+25
+0d0+0 0
+8 8 1
+BareHandAttack: 4
+Str: 36
+Dex: 30
+Int: 25
+Wis: 25
+Con: 36
+Cha: 3
+Size: 100
+LikeWork: 25
+ExtraAttack: 5
+Class: 102
+Height: 30
+Weight: 150
+Special_Bitvector: a0b0c0d0l0w0 
+Skill: 136 100
+Skill: 150 100
+Spell: 14
+Spell: 14
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 43
+Spell: 43
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 89
+Spell: 89
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 128
+Spell: 128
+Spell: 128
+E
+#49709
+дубыня змеевич трехглавый~
+Дубыня Змеевич~
+Дубыни Змеевича~
+Дубыне Змеевичу~
+Дубыню Змеевич~
+Дубыней Змеевичем~
+Дубыне Змеевиче~
+Трехглавый змей летает тут.
+~
+   Огромный трехголовй змей.
+~
+b0d0f0g0l0m0n0o0p0t0x0z0b1r1f2 d0f0k0r0x0m1 -600 E
+40 0 -10 1d1+17000 27d7+25
+0d0+0 0
+8 8 1
+Str: 36
+Dex: 27
+Int: 25
+Wis: 30
+Con: 36
+Cha: 3
+Size: 100
+LikeWork: 35
+ExtraAttack: 1
+Class: 102
+Height: 30
+Weight: 150
+Special_Bitvector: l0w0 
+Skill: 136 100
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 14
+Spell: 14
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 43
+Spell: 43
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 82
+Spell: 89
+Spell: 89
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+E
+#49710
+усыня змеевич усатый~
+Усыня Змеевич~
+Усыни Змеевича~
+Усыне Змеевичу~
+Усыню Змеевич~
+Усыней Змеевичем~
+Усыне Змеевиче~
+Усатый змей летает тут.
+~
+ Большой усатый змей.
+~
+b0d0f0g0l0m0o0p0t0x0z0b1r1f2 d0f0k0r0x0m1 -600 E
+40 0 -10 1d1+19000 27d7+90
+0d0+0 0
+8 8 1
+BareHandAttack: 4
+Str: 36
+Dex: 27
+Int: 25
+Wis: 30
+Con: 36
+Cha: 3
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Height: 30
+Weight: 150
+Special_Bitvector: l0w0 
+Skill: 12 100
+Skill: 22 100
+Skill: 136 100
+Skill: 151 100
+Spell: 14
+Spell: 14
+Spell: 43
+Spell: 43
+Spell: 82
+Spell: 89
+Spell: 89
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+E
+#49711
+великанша~
+великанша~
+великанши~
+великанше~
+великаншу~
+великаншей~
+великанше~
+Очень большая женщина что-то варит в котле.
+~
+   Сподобил же Господь на старости лет увидеть ТАКУЮ бабу!
+Эх, десяток годков бы скинуть!!!
+~
+b0d0l0n0o0p0q0r0t0u0z0f2i2 d0f0k0r0t1 -600 E
+32 3 -3 30d30+7500 8d8+8
+0d0+0 0
+8 8 2
+Str: 24
+Dex: 20
+Int: 25
+Wis: 18
+Con: 22
+Cha: 8
+Size: 100
+LikeWork: 30
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 4 120
+Skill: 22 60
+Skill: 134 80
+Skill: 136 70
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 82
+Spell: 89
+Spell: 89
+Helper: 49714
+Helper: 49713
+Helper: 49712
+Skill: 136 96
+E
+#49712
+младшего сына~
+младшего сына~
+младшега сына~
+младшегу сына~
+младшего сына~
+младшегом сына~
+младшеге сына~
+Коренастый великан стоит здесь.
+~
+   Младший сын всегда в сказках дурак. Хотя ведь в семье не без урода.
+~
+b0d0f0g0m0n0o0p0q0t0z0f2 c0d0k0r0 -600 E
+29 3 -6 1d1+3500 10d14+35
+0d0+0 0
+8 8 1
+Str: 30
+Dex: 16
+Int: 8
+Wis: 9
+Con: 26
+Cha: 8
+Size: 70
+LikeWork: 100
+ExtraAttack: 2
+Class: 102
+Height: 150
+Weight: 100
+Special_Bitvector: 0 
+Skill: 1 100
+Skill: 2 80
+Skill: 5 70
+Skill: 22 50
+Skill: 134 100
+Skill: 136 100
+Skill: 167 60
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+E
+#49713
+средний сын~
+средний сын~
+среднего сына~
+среднему сыну~
+средний сын~
+средним сыном~
+среднем сыне~
+Толстый великан стоит здесь.
+~
+   Средний сын по обыкновению - и так и сяк.
+
+~
+b0d0f0g0m0n0o0z0f2 c0d0k0 -600 E
+30 2 -7 1d1+3000 12d12+20
+0d0+0 0
+8 8 1
+Str: 31
+Dex: 13
+Int: 8
+Wis: 9
+Con: 27
+Cha: 8
+Size: 80
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 100
+Special_Bitvector: 0 
+Skill: 1 90
+Skill: 5 80
+Skill: 22 60
+Skill: 136 100
+Skill: 167 60
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+E
+#49714
+старший сын~
+старший сын~
+старшего сына~
+старшему сыну~
+старший сын~
+старшим сыном~
+старшем сыне~
+Высокий и плечистый великан стоит здесь.
+~
+   Старший сын обычно самый любимый. Он же и самым умным считается.
+~
+b0d0f0g0n0o0z0f2 c0d0k0 0 E
+31 1 -8 1d1+6000 20d14+15
+0d0+0 0
+8 8 1
+Str: 32
+Dex: 14
+Int: 8
+Wis: 9
+Con: 28
+Cha: 8
+Size: 90
+LikeWork: 100
+ExtraAttack: 2
+Class: 102
+Height: 200
+Weight: 100
+Special_Bitvector: 0 
+Skill: 5 90
+Skill: 22 70
+Skill: 136 100
+Skill: 137 100
+Skill: 167 60
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+E
+#49715
+царь владыка хозяин господин~
+владыка морей~
+владыки морея~
+владыке морею~
+владыку морея~
+владыкой мореем~
+владыке морее~
+Настоящий Царь Морской решает важные задачи.
+~
+   Высокий человекоподобный монстр. Его лицо отмечено печатью Силы, Ума и 
+Власти. Седые длинные волосы внушают уважение.
+~
+b0d0e0f0g0l0m0n0o0p0q0r0t0u0y0z0f2 d0f0h0k0r0m1 0 E
+35 0 0 1d1+8500 9d9+16
+0d0+0 0
+8 8 1
+Str: 36
+Dex: 32
+Int: 36
+Wis: 36
+Con: 36
+Cha: 26
+Size: 100
+LikeWork: 100
+ExtraAttack: 2
+Class: 103
+Height: 198
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 105
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 111
+E
+#49716
+шторм~
+шторм~
+шторма~
+шторму~
+шторм~
+штормом~
+шторме~
+Морской шторм визжит и завывает.
+~
+   Могучая и свирепая стихия бушует,
+ужасая Вас.
+~
+b0d0f0g0l0n0o0p0q0r0u0x0y0z0c2f2 c0d0f0k0r0k1m1q1 0 E
+26 0 -9 1d1+900 9d9+9
+0d0+0 0
+8 8 1
+BareHandAttack: 6
+Str: 32
+Dex: 15
+Int: 36
+Wis: 22
+Con: 3
+Cha: 25
+Size: 90
+LikeWork: 100
+Class: 101
+Height: 198
+Weight: 150
+Special_Bitvector: l0 
+Skill: 136 78
+Spell: 54
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+E
+#49717
+ураган морской стихия~
+морской ураган~
+морского урагана~
+морскому урагану~
+морской ураган~
+морскым ураганом~
+морском урагане~
+Водная стихия беснуется здесь.
+~
+   Огромный столб воды кружится перед Вами!
+Он выше и толще гор земных, вода 
+~
+b0d0e0f0g0n0o0p0q0r0t0u0x0z0r1c2f2h2i2 b0c0d0e0f0p0r0m1 0 E
+32 1 -10 1d1+5000 10d16+15
+0d0+0 0
+8 8 1
+BareHandAttack: 6
+Str: 36
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 100
+Class: 101
+Height: 198
+Weight: 150
+Special_Bitvector: j0l0v0 
+Skill: 136 96
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+E
+#49718
+огромный горный орел~
+огромный горный орел~
+огромного горного орела~
+огромному горному орелу~
+огромный горный орел~
+огромным горным орелом~
+огромном горном ореле~
+Величественный горный орел парит над скалами.
+~
+   Царь-птица с размахом крыльеы в три аршина.
+
+~
+b0d0f0g0h0l0m0n0z0b1f2 d0f0h0k0x0 -600 E
+35 0 0 0d0+5500 20d9+55
+0d0+0 0
+8 8 1
+BareHandAttack: 1
+Str: 30
+Dex: 24
+Int: 28
+Wis: 28
+Con: 24
+Cha: 3
+Size: 100
+LikeWork: 30
+ExtraAttack: 1
+Class: 103
+Height: 198
+Weight: 150
+Special_Bitvector: l0 
+Skill: 136 105
+Spell: 88
+Spell: 88
+Spell: 88
+E
+#49719
+алконост зоревая птица~
+Алконост~
+Алконоста~
+Алконосту~
+Алконост~
+Алконостом~
+Алконосте~
+Зоревая птица - Алконост летает тут.
+~
+   Величественная птица зари. Ей подвластно солнце 
+и рассвет. Глаза птицы напоминают небольшие
+~
+b0d0f0m0n0o0p0r0z0b1r1f2 d0f0h0k0r0x0a1m1 -600 E
+39 0 -10 0d0+11000 19d15+80
+0d0+0 0
+8 8 2
+Str: 32
+Dex: 36
+Int: 36
+Wis: 36
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 30
+ExtraAttack: 1
+Class: 100
+Height: 30
+Weight: 150
+Special_Bitvector: l0 
+Skill: 5 120
+Skill: 22 120
+Skill: 136 100
+Skill: 137 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 124
+E
+#49720
+большой пес~
+Большой пес~
+Большого песа~
+Большому песу~
+Большой пес~
+Большим песом~
+Большом песе~
+Большой пес бесстрашно рычит на Вас.
+~
+    Несмотря на свой размер - этот пес может при необходимости причинить немалый 
+вред противнику.
+~
+b0d0o0z0f2 f0k0 0 E
+25 10 5 0d0+350 3d4+3
+0d0+0 0
+8 8 1
+BareHandAttack: 4
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+Size: 50
+LikeWork: 20
+ExtraAttack: 1
+Class: 103
+Height: 50
+Weight: 50
+Special_Bitvector: p0 
+Skill: 136 60
+E
+#49721
+огромный медведь~
+Огромный медведь~
+Огромного медведя~
+Огромному медведю~
+Огромный медведя~
+Огромным медведем~
+Огромном медведе~
+Огромный медведь смотрит на Вас голодными глазами.
+~
+   Это очень сильное и ловкое животное.
+~
+b0d0o0z0f2 f0k0 0 E
+26 13 3 0d0+550 4d4+4
+0d0+0 0
+8 8 1
+Str: 22
+Dex: 22
+Int: 22
+Wis: 22
+Con: 22
+Cha: 22
+Size: 60
+LikeWork: 40
+ExtraAttack: 1
+Class: 103
+Height: 60
+Weight: 60
+Special_Bitvector: p0 
+Skill: 136 70
+E
+#49722
+разъяренный лев~
+Разъяренный лев~
+Разъяренного лева~
+Разъяренному леву~
+Разъяренный лев~
+Разъяренным левом~
+Разъяренном леве~
+Разъяренный лев мечтает порвать Вас на куски
+~
+   Огромный лев.
+~
+b0d0o0z0f2 f0k0 0 E
+28 5 1 0d0+800 6d10+11
+0d0+0 0
+8 8 1
+Str: 26
+Dex: 26
+Int: 26
+Wis: 26
+Con: 26
+Cha: 26
+Size: 70
+LikeWork: 60
+ExtraAttack: 1
+Class: 103
+Height: 70
+Weight: 70
+Special_Bitvector: 0 
+Skill: 136 80
+E
+#49723
+слабый наемник~
+Слабый наемник~
+Слабого наемника~
+Слабому наемнику~
+Слабый наемник~
+Слабым наемником~
+Слабом наемнике~
+Слабый наемник зорко глядит по сторонам, не позовет ли его кто на бой.
+~
+   Совсем еще юный, этот парень, однако, с легкостью убьет быка голыми руками.
+~
+b0d0g0o0z0f2 d0k0 0 E
+25 10 5 0d0+500 3d3+3
+0d0+0 0
+8 8 1
+Str: 18
+Dex: 18
+Int: 18
+Wis: 18
+Con: 18
+Cha: 18
+Size: 50
+ExtraAttack: 1
+Class: 102
+Height: 50
+Weight: 50
+Special_Bitvector: y0b1c1 
+Skill: 136 60
+Skill: 137 60
+Skill: 146 60
+E
+#49724
+Средний наемник~
+Средний наемник~
+Среднего наемника~
+Среднему наемнику~
+Средний наемник~
+Средним наемником~
+Среднем наемнике~
+Средний наемник гордо стоит в сторонке ожидая своего господина.
+~
+   Бравый вояка выглыдит очень опытным и сильным.
+~
+b0d0g0o0z0f2 d0k0 0 E
+26 13 3 0d0+600 4d4+4
+0d0+0 0
+8 8 1
+Str: 22
+Dex: 22
+Int: 22
+Wis: 22
+Con: 22
+Cha: 22
+Size: 60
+LikeWork: 40
+ExtraAttack: 1
+Class: 102
+Height: 60
+Weight: 60
+Special_Bitvector: y0b1c1 
+Skill: 136 70
+Skill: 137 70
+Skill: 146 70
+E
+#49725
+Сильный наемник~
+Сильный наемник~
+Сильного наемника~
+Сильному наемнику~
+Сильный наемник~
+Сильным наемником~
+Сильном наемнике~
+Сильный наемник готов помочь Вам в бою.
+~
+   Достаточно старый, но еще ловкий и подвижный, - этот мужчина - идеальный
+наемник.
+~
+b0d0g0o0z0f2 d0k0 0 E
+28 5 1 0d0+800 8d10+11
+0d0+0 0
+8 8 1
+Str: 26
+Dex: 26
+Int: 26
+Wis: 26
+Con: 26
+Cha: 26
+Size: 70
+LikeWork: 60
+ExtraAttack: 1
+Class: 102
+Height: 70
+Weight: 70
+Special_Bitvector: y0b1c1 
+Skill: 136 80
+Skill: 137 80
+Skill: 146 80
+E
+#49726
+огромный раб~
+огромный раб~
+огромного раба~
+огромному рабу~
+огромного раба~
+огромным рабом~
+огромном рабе~
+Огромный подневольный раб стоит тут.
+~
+ раб.
+~
+b0d0e0z0f2u2 f0k0r0r1 -600 E
+34 1 -7 100d10+1000 25d5+20
+0d0+0 0
+8 8 1
+Str: 35
+Dex: 20
+Int: 14
+Wis: 16
+Con: 23
+Cha: 15
+Size: 100
+LikeWork: 55
+ExtraAttack: 2
+Class: 102
+Height: 190
+Weight: 100
+Special_Bitvector: b1c1 
+Skill: 5 100
+Skill: 136 140
+Skill: 137 100
+Skill: 142 160
+Skill: 158 100
+Skill: 165 150
+E
+#49727
+сильная рабыня~
+сильная рабыня~
+сильной рабыни~
+сильной рабыне~
+сильную рабыню~
+сильной рабыней~
+сильной рабыне~
+Сильная рабыня стоит тут, грусно смотря вам в глаза.
+~
+   Сильная рабыня.
+ 
+~
+b0d0g0o0p0x0y0z0f2 f0k0z0t1 0 E
+35 0 3 9d16+1900 5d6+25
+0d0+0 0
+8 8 2
+Str: 35
+Dex: 25
+Int: 33
+Wis: 30
+Con: 35
+Cha: 36
+Size: 45
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 195
+Weight: 90
+Special_Bitvector: y0b1c1 
+Skill: 4 140
+Skill: 5 140
+Skill: 132 145
+Skill: 136 200
+Skill: 137 100
+Skill: 141 80
+Skill: 142 100
+Skill: 143 80
+Skill: 144 140
+Skill: 145 80
+Skill: 146 140
+Skill: 147 80
+Skill: 148 140
+Skill: 154 80
+Skill: 155 140
+Skill: 160 140
+E
+#49728
+Темнокожий  раб~
+Темнокожий раб~
+Темнокожего раба~
+Темнокожему рабу~
+Темнокожий раб~
+Темнокожим рабом~
+Темнокожем рабе~
+Темнокожий раб стоит тут.
+~
+   Темнокожий раб.
+ 
+~
+b0d0g0o0z0f2 f0k0r0 0 E
+30 0 0 60d15+350 8d9+25
+0d0+0 0
+8 8 1
+BareHandAttack: 9
+Str: 35
+Dex: 34
+Int: 33
+Wis: 22
+Con: 25
+Cha: 30
+Size: 55
+LikeWork: 70
+ExtraAttack: 1
+Class: 102
+Height: 160
+Weight: 95
+Special_Bitvector: y0b1c1 
+Skill: 136 90
+Skill: 154 155
+Skill: 155 155
+E
+#49729
+мускулистый раб~
+мускулистый раб~
+мускулистого раба~
+мускулистому рабу~
+мускулистый раб~
+мускулистым рабом~
+мускулистом рабе~
+Мускулистый раб стоит тут.
+~
+   Чернокожий амбал, привезенный работорговцами откуда-то с юга
+~
+b0d0z0f2 d0k0z0 0 E
+29 2 -5 6d40+1050 10d7+11
+0d0+0 0
+8 8 1
+Str: 28
+Dex: 25
+Int: 18
+Wis: 18
+Con: 26
+Cha: 17
+Size: 100
+LikeWork: 70
+ExtraAttack: 2
+Class: 102
+Height: 190
+Weight: 120
+Special_Bitvector: y0b1c1 
+Skill: 132 90
+Skill: 136 100
+Skill: 157 80
+E
+#49730
+удалой раб~
+удалой раб~
+удалого раба~
+удалому рабу~
+удалой раб~
+удалым рабом~
+удалом рабе~
+Раб удалой понурившись сидит здесь.
+~
+   молодой парень, промышлявший разбоем по окрестным дорогам
+и схваченный стражей, а может и княжеским караульным разъездом. 
+
+~
+b0d0z0f2 k0 0 E
+30 0 -3 10d50+1000 8d8+12
+0d0+0 0
+8 8 1
+Str: 25
+Dex: 30
+Int: 21
+Wis: 14
+Con: 24
+Cha: 20
+Size: 100
+LikeWork: 85
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: y0b1c1 
+Skill: 5 70
+Skill: 136 90
+Skill: 137 80
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 157 80
+E
+#49731
+раб~
+раб~
+раба~
+рабу~
+раб~
+рабом~
+рабе~
+Раб стоит тут.
+~
+    Раб.
+~
+b0d0l0n0p0t0x0z0f2 a0c0d0e0f0k0p0z1 -600 E
+32 0 -10 8d6+1000 8d12+33
+0d0+0 0
+8 8 1
+BareHandAttack: 3
+Str: 24
+Dex: 30
+Int: 30
+Wis: 32
+Con: 27
+Cha: 22
+Size: 70
+LikeWork: 95
+MaxFactor: 4
+ExtraAttack: 2
+Class: 104
+Height: 190
+Weight: 70
+Special_Bitvector: y0b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 21 100
+Skill: 136 120
+Skill: 142 90
+Skill: 143 110
+Skill: 146 100
+Skill: 150 100
+Skill: 157 100
+Spell: 28
+Spell: 28
+Spell: 36
+Spell: 55
+Spell: 55
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 118
+Spell: 136
+Spell: 137
+Spell: 137
+Spell: 137
+Spell: 137
+E
+$

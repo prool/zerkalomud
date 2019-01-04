@@ -1,0 +1,1629 @@
+#25700
+мятежный жрец~
+мятежный жрец~
+мятежного жреца~
+мятежному жрецу~
+мятежного жреца~
+мятежным жрецом~
+мятежном жреце~
+Мятежный жрец прошедший сквозь врата между мирами.
+~
+Древний Чародей.
+~
+c0d0g0l0n0o0p0q0r0t0u0x0B0o1c2f2g2h2i2 d0f0k0x0z0A0a1t1w1x1y1z1 0 E
+50 7 -7 150d150+9999 30d30+100
+0d100+0 10000
+8 8 1
+Destination: 25761
+Destination: 25762
+Destination: 25763
+Str: 33
+Dex: 33
+Int: 33
+Wis: 33
+Con: 33
+Cha: 33
+Size: 100
+LikeWork: 75
+MaxFactor: 1
+ExtraAttack: 5
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: m3 
+Skill: 136 150
+Skill: 167 100
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+E
+T 25700
+T 25701
+#25701
+боец-силач~
+боец-силач~
+бойца-силача~
+бойцу-силачу~
+бойца-силача~
+бойцом-силачем~
+бойце-силаче~
+Старый боец в необычной экипировке.
+~
+Сильный воин.
+~
+d0e0g0m0p0r0 c0d0f0r0x0z0A0 0 E
+25 5 -2 10d30+2000 9d2+30
+50d10+50 250000
+8 8 1
+Str: 27
+Dex: 17
+Int: 17
+Wis: 17
+Con: 17
+Cha: 17
+Size: 100
+LikeWork: 13
+MaxFactor: 30
+ExtraAttack: 2
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: a1b1c1m3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 4 80
+Skill: 136 75
+Skill: 160 80
+Skill: 165 80
+Spell: 55
+Spell: 55
+Spell: 66
+Spell: 93
+E
+T 25719
+#25702
+старик колдун~
+старик~
+старика~
+старику~
+старика~
+стариком~
+старике~
+Древний колдун смотрит на Вас с надеждой.
+~
+Колдун с огоньком в глазах.
+~
+b0c0d0e0g0l0m0n0o1 d0r0n1o1p1q1r1 0 E
+35 7 -5 10d30+2500 15d5+10
+0d50+0 200000
+8 8 1
+Str: 13
+Dex: 13
+Int: 13
+Wis: 13
+Con: 13
+Cha: 13
+Size: 100
+LikeWork: 15
+MaxFactor: 15
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1m3B3C3 
+Skill: 4 70
+Skill: 136 105
+Skill: 139 30
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 63
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 140
+Spell: 147
+Spell: 153
+E
+T 25702
+T 25716
+#25703
+наемник~
+наемник~
+наемника~
+наемнику~
+наемника~
+наемником~
+наемнике~
+Мужик с хитрецой разглядывает окружающих его воинов.
+~
+Опасный мужик.
+~
+d0e0l0m0n0o0p0q0a1i2 g0k0m0n0r0x0z0A0C0a1k1m1t1 0 E
+25 10 -3 30d15+2200 10d3+19
+0d3+0 180000
+8 8 1
+Str: 27
+Dex: 27
+Int: 20
+Wis: 20
+Con: 20
+Cha: 20
+Size: 100
+LikeWork: 50
+MaxFactor: 50
+ExtraAttack: 2
+Class: 102
+Height: 200
+Weight: 110
+Special_Bitvector: l0y0b1c1d1m3 
+Skill: 4 80
+Skill: 5 80
+Skill: 12 70
+Skill: 136 80
+Skill: 137 99
+Skill: 146 77
+Skill: 155 80
+Skill: 158 150
+Skill: 165 80
+Spell: 28
+Spell: 28
+Spell: 28
+E
+#25704
+кузнец~
+кузнец~
+кузнеца~
+кузнецу~
+кузнеца~
+кузнецом~
+кузнеце~
+Наемник, понимающий толк в любом виде оружия работает здесь.
+~
+Очень хороший кузнец.
+~
+b0c0d0l0m0n0i2 d0h0k0r0 0 E
+37 3 -5 10d10+3700 30d3+10
+20d20+200 250000
+8 8 1
+Str: 27
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 50
+MaxFactor: 17
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: m3B3C3 
+Skill: 5 70
+Skill: 132 80
+Skill: 136 111
+Skill: 146 80
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 76
+Spell: 141
+E
+T 25721
+#25705
+скорняк~
+скорняк~
+скорняка~
+скорняку~
+скорняка~
+скорняком~
+скорняке~
+Наемник, понимающий толк в экипировке любого война, занимается здесь своим делом.
+~
+Очень хороший скорняк.
+~
+b0d0l0m0t0i2 d0h0k0m1z1 0 E
+37 3 -3 10d10+3700 30d3+10
+0d2+0 250000
+8 8 1
+Str: 27
+Dex: 17
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 80
+MaxFactor: 17
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: B3C3 
+Skill: 4 90
+Skill: 136 90
+Skill: 160 70
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 62
+Spell: 136
+Spell: 140
+Spell: 140
+Spell: 140
+E
+T 25721
+#25706
+чародей наемник~
+чародей ~
+чародея~
+чародею~
+чародея~
+чародеем~
+чародее~
+Наемник, понимающий толк в магическом слове и деле, стоит здесь.
+~
+Воин с магическими навыками.
+~
+b0c0d0n0o0i2 d0h0k0r0z0 0 E
+30 7 3 10d10+3700 10d10+10
+50d20+2 270000
+8 8 1
+Str: 17
+Dex: 20
+Int: 27
+Wis: 25
+Con: 17
+Cha: 17
+Size: 100
+LikeWork: 90
+MaxFactor: 30
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3 
+Skill: 22 40
+Skill: 134 100
+Skill: 136 90
+Skill: 150 55
+Skill: 157 80
+Skill: 165 80
+Spell: 1
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 38
+Spell: 55
+Spell: 63
+Spell: 66
+Spell: 66
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 83
+Spell: 111
+Spell: 113
+Spell: 124
+Spell: 124
+Spell: 128
+Spell: 140
+Spell: 140
+Spell: 140
+Spell: 144
+E
+#25707
+стражник~
+стражник~
+стражника~
+стражнику~
+стражника~
+стражником~
+стражнике~
+Стражник, охраняющий лагерь, внимательно осматривает окрестности.
+~
+Внимательный воин.
+~
+b0c0d0e0l0m0n0i2 r0x0z0C0t1 0 E
+28 3 3 10d10+1100 19d3+20
+0d0+0 1
+8 8 1
+Str: 28
+Dex: 25
+Int: 10
+Wis: 10
+Con: 17
+Cha: 10
+Size: 100
+LikeWork: 65
+MaxFactor: 15
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: y0b1c1m3C3 
+Skill: 4 120
+Skill: 134 150
+Skill: 136 150
+Skill: 137 90
+Skill: 142 100
+Skill: 146 170
+Skill: 157 150
+Skill: 158 80
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+E
+#25708
+наемник~
+наемник~
+наемника~
+наемнику~
+наемника~
+наемником~
+наемнике~
+Наемник с Востока прохаживается тут.
+~
+Узкоглазый воин.
+~
+d0h0l0m0n0 c0d0k0r0z0l1 0 E
+30 7 -3 10d50+2500 12d3+10
+50d3+2 260000
+8 8 1
+Str: 24
+Dex: 21
+Int: 17
+Wis: 17
+Con: 19
+Cha: 17
+Size: 100
+LikeWork: 35
+MaxFactor: 17
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: l0C3 
+Skill: 12 150
+Skill: 132 70
+Skill: 136 90
+Skill: 166 70
+Spell: 26
+Spell: 27
+Spell: 33
+Spell: 36
+Spell: 38
+Spell: 66
+Spell: 69
+Spell: 75
+Spell: 76
+Spell: 93
+Spell: 114
+Spell: 128
+Spell: 130
+Spell: 138
+Spell: 140
+Spell: 141
+Spell: 142
+Spell: 147
+E
+#25709
+кашевар~
+кашевар~
+кашевара~
+кашевару~
+кашевара~
+кашеваром~
+кашеваре~
+Седой кашевар варит здесь еду для своих соратников.
+~
+Воин, умеющий делать превосходные блюда.
+~
+b0c0d0n0o0i2 x0z0t1 0 E
+25 10 -5 10d30+3700 50d1+10
+30d10+4 350000
+8 8 1
+Str: 27
+Dex: 21
+Int: 17
+Wis: 17
+Con: 17
+Cha: 17
+Size: 100
+LikeWork: 15
+MaxFactor: 15
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1m3C3 
+Skill: 4 100
+Skill: 22 40
+Skill: 134 100
+Skill: 136 75
+Skill: 157 100
+Spell: 113
+Spell: 113
+Spell: 113
+E
+#25710
+воин~
+воин~
+воина~
+воину~
+воина~
+воином~
+воине~
+Суровый воин прохаживается по лагерю.
+~
+Мрачный воин.
+~
+d0l0m0n0i2 z0C0u1 0 E
+27 3 -3 20d50+2500 19d4+20
+33d20+3 210000
+8 8 1
+Str: 27
+Dex: 17
+Int: 17
+Wis: 17
+Con: 17
+Cha: 17
+Size: 100
+LikeWork: 80
+MaxFactor: 10
+ExtraAttack: 2
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1m3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 4 100
+Skill: 5 100
+Skill: 12 100
+Skill: 132 100
+Skill: 134 100
+Skill: 136 100
+Skill: 143 100
+Skill: 146 100
+Skill: 150 100
+Skill: 157 100
+Skill: 165 100
+Spell: 54
+Spell: 63
+Spell: 68
+Spell: 113
+Spell: 140
+Spell: 144
+Spell: 152
+E
+T 25719
+#25711
+могучий боец~
+могучий боец~
+могучего бойца~
+могучему бойцу~
+могучего бойца~
+могучим бойцом~
+могучем бойце~
+Могучий боец в необычной экипировке.
+~
+Могучий воин.
+~
+d0l0m0 h0r0x0z0A0j1 0 E
+27 7 -2 33d10+1800 10d10+20
+0d0+0 180000
+8 8 1
+Str: 34
+Dex: 17
+Int: 17
+Wis: 17
+Con: 17
+Cha: 17
+Size: 100
+LikeWork: 90
+MaxFactor: 30
+ExtraAttack: 2
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: y0a1b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 4 150
+Skill: 12 150
+Skill: 134 100
+Skill: 136 81
+Skill: 139 150
+Spell: 17
+Spell: 64
+Spell: 75
+E
+T 25719
+#25712
+яростный боец~
+яростный боец~
+яростного бойца~
+яростному бойцу~
+яростного бойца~
+яростным бойцом~
+яростном бойце~
+Яростный боец в необычной экипировке.
+~
+Яростный воин.
+~
+d0l0m0 h0r0x0z0A0j1 0 E
+27 7 -2 33d10+2300 10d10+20
+50d5+100 400000
+8 8 1
+Str: 34
+Dex: 17
+Int: 17
+Wis: 17
+Con: 17
+Cha: 17
+Size: 100
+LikeWork: 90
+MaxFactor: 30
+ExtraAttack: 2
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: a1b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 12 150
+Skill: 132 150
+Skill: 134 100
+Skill: 136 81
+Spell: 17
+Spell: 64
+Spell: 75
+Spell: 109
+Spell: 140
+E
+T 25719
+#25713
+узник колдун~
+узник~
+узника~
+узнику~
+узника~
+узником~
+узнике~
+Колдун, проведший много лет в заточении, смотрит на Вас.
+~
+Опытный чародей.
+~
+b0c0d0e0l0m0 d0h0r0 600 E
+25 1 1 10d10+1999 10d9+21
+0d0+0 140000
+6 6 1
+Str: 17
+Dex: 16
+Int: 25
+Wis: 28
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 15
+MaxFactor: 7
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: m3B3C3 
+Skill: 22 50
+Skill: 136 75
+Skill: 139 150
+Spell: 23
+Spell: 28
+Spell: 93
+Spell: 113
+Spell: 128
+Spell: 152
+E
+T 25704
+T 25706
+#25714
+узник колдун~
+узник~
+узника~
+узнику~
+узника~
+узником~
+узнике~
+Колдун, проведший много лет в заточении, смотрит на Вас.
+~
+Опытнее чародея вряд ли встретишь.
+~
+b0c0d0e0l0m0 d0r0u1 -600 E
+7 1 1 10d10+1999 10d10+19
+0d0+100 140000
+6 6 1
+Str: 17
+Dex: 10
+Int: 39
+Wis: 21
+Con: 20
+Cha: 10
+Size: 100
+LikeWork: 80
+MaxFactor: 7
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: m3B3C3 
+Skill: 136 21
+Skill: 139 150
+Spell: 23
+Spell: 28
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 93
+Spell: 113
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 152
+E
+T 25705
+T 25707
+#25715
+гадюка~
+гадюка~
+гадюки~
+гадюке~
+гадюку~
+гадюкой~
+гадюке~
+Мерзкое создание стремится забрать Вашу бесценную жизнь.
+~
+Чешуйчатый клубок яда.
+~
+b0d0f0g0m0x0p1i2 r0s0x0z0A0j1 -600 E
+20 -2 0 33d10+1300 12d9+20
+0d0+0 120000
+6 6 2
+BareHandAttack: 4
+Str: 19
+Dex: 17
+Int: 12
+Wis: 17
+Con: 17
+Cha: 17
+Size: 100
+LikeWork: 75
+MaxFactor: 30
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: j0a1o3B3 
+Skill: 5 50
+Skill: 134 100
+Skill: 136 60
+Spell: 33
+Spell: 33
+Spell: 33
+E
+#25716
+страж огненный~
+страж из мира Нави~
+стража из мира Нави~
+стражу из мира Нави~
+стража из мира Нави~
+стражем из мира Нави~
+страже из мира Нави~
+Страж, окруженный огнем, ищет врагов.
+~
+Опаснейший воин.
+~
+b0c0d0e0f0g0l0m0n0x0y0z0p1a2g2i2 b0d0k0x0C0a1p1y1 -600 E
+27 3 2 10d10+2700 4d14+18
+10d10+50 300000
+8 8 1
+CastSuccess: 60
+AResist: 20
+BareHandAttack: 8
+Str: 15
+Dex: 10
+Int: 15
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 80
+MaxFactor: 7
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: x0m3 
+Skill: 5 100
+Skill: 22 70
+Skill: 136 81
+Skill: 158 100
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+E
+#25717
+страж воздушный~
+страж из мира Нави~
+стража из мира Нави~
+стражу из мира Нави~
+стража из мира Нави~
+стражем из мира Нави~
+страже из мира Нави~
+Страж, окруженный упругим слоем воздуха, ищет врагов.
+~
+Опаснейший воин.
+~
+b0c0d0e0f0g0l0m0n0x0y0z0c2g2i2 b0d0k0x0C0a1o1x1 -600 E
+20 3 2 10d10+2700 3d3+3
+10d10+50 300000
+8 8 1
+CastSuccess: 60
+AResist: 20
+BareHandAttack: 8
+Str: 15
+Dex: 30
+Int: 19
+Wis: 24
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 78
+MaxFactor: 7
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: u0m3C3 
+Skill: 5 100
+Skill: 22 50
+Skill: 136 60
+Skill: 158 80
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 104
+Spell: 104
+Spell: 104
+E
+#25718
+страж гранитный~
+страж из мира Нави~
+стража из мира Нави~
+стражу из мира Нави~
+стража из мира Нави~
+стражем из мира Нави~
+страже из мира Нави~
+Страж, созданный древней магией из огромного куска гранита, ищет врагов.
+~
+Опаснейший воин.
+~
+b0c0d0e0f0g0l0m0n0x0y0z0p1g2i2 b0d0k0x0C0a1r1t1 -600 E
+20 3 2 10d10+2700 10d5+18
+10d10+50 150000
+8 8 1
+CastSuccess: 60
+AResist: 20
+BareHandAttack: 8
+Str: 36
+Dex: 10
+Int: 15
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 10
+MaxFactor: 7
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: w0m3 
+Skill: 5 10
+Skill: 22 40
+Skill: 136 60
+Skill: 158 20
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 142
+Spell: 142
+Spell: 142
+Spell: 153
+Spell: 153
+Spell: 153
+E
+#25719
+страж водный~
+страж из мира Нави~
+стража из мира Нави~
+стражу из мира Нави~
+стража из мира Нави~
+стражем из мира Нави~
+страже из мира Нави~
+Страж, созданный из воды подземного озера, ищет врагов.
+~
+Опаснейший воин.
+~
+b0c0d0e0f0g0l0m0n0x0y0z0p1d2g2i2 b0d0k0x0C0a1q1 -600 E
+20 3 2 10d10+2700 5d8+18
+10d10+50 300000
+8 8 1
+CastSuccess: 60
+AResist: 20
+BareHandAttack: 8
+Str: 36
+Dex: 30
+Int: 15
+Wis: 23
+Con: 30
+Cha: 10
+Size: 100
+LikeWork: 80
+MaxFactor: 7
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: v0m3C3 
+Skill: 22 100
+Skill: 136 60
+Skill: 158 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+E
+#25720
+костяной рабочий костяк скелет~
+рабочий скелет~
+рабочего скелета~
+рабочему скелету~
+рабочий скелет~
+рабочим скелетом~
+рабочем скелете~
+Костяк, поднятый древней магией, работает на раскопках.
+~
+Создание темной магии.
+~
+c0d0e0g0l0m0n0y0z0p1g2i2 k0x0A0C0b1m1w1 -600 E
+20 3 2 10d10+2000 5d12+22
+10d10+50 160000
+8 8 1
+BareHandAttack: 4
+Str: 22
+Dex: 27
+Int: 17
+Wis: 10
+Con: 20
+Cha: 10
+Size: 100
+LikeWork: 95
+MaxFactor: 7
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 4 70
+Skill: 5 35
+Skill: 136 60
+E
+T 25724
+#25721
+призрак~
+призрак~
+призрака~
+призраку~
+призрака~
+призраком~
+призраке~
+Еле видимая, дрожащая фигура висит в воздухе.
+~
+Создание темной магии.
+~
+b0c0d0e0f0g0l0m0n0x0y0z0b2g2i2 b0h0j0k0m0n0t0x0z0C0a1l1w1 -600 E
+20 3 2 10d10+2000 7d10+22
+10d10+50 250000
+8 8 1
+BareHandAttack: 8
+Str: 15
+Dex: 30
+Int: 20
+Wis: 25
+Con: 28
+Cha: 10
+Size: 100
+LikeWork: 80
+MaxFactor: 7
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: v0 
+Skill: 5 10
+Skill: 136 60
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 82
+Spell: 82
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 131
+Spell: 131
+Spell: 131
+E
+#25722
+темный жрец~
+темный жрец~
+темного жреца~
+темному жрецу~
+темного жреца~
+темным жрецом~
+темном жреце~
+Высокая фигура в балахоне укутана тьмой.
+~
+Страшнее мага вряд ли встретишь.
+~
+b0c0d0e0f0g0l0m0n0x0y0z0g2i2 d0f0h0j0k0m0n0x0z0A0C0a1l1t1w1x1z1 -600 E
+27 0 0 10d70+5500 5d11+20
+5d30+40 600000
+8 8 1
+BareHandAttack: 8
+Str: 22
+Dex: 14
+Int: 21
+Wis: 26
+Con: 30
+Cha: 10
+Size: 100
+LikeWork: 80
+MaxFactor: 10
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1d1m3C3 
+Skill: 5 50
+Skill: 136 81
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 82
+Spell: 82
+Spell: 94
+Spell: 94
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 152
+Spell: 152
+Spell: 153
+Spell: 153
+E
+#25723
+паук переросток~
+паук ~
+паука~
+пауку~
+паука~
+пауком~
+пауке~
+Паук-переросток плетет здесь свою паутину, поджидая добычу.
+~
+Опаснейшее создание.
+~
+b0c0d0e0f0n0x0p1i2 d0k0z0A0C0t1 0 E
+25 0 0 10d50+1900 4d7+10
+0d0+0 110000
+8 8 1
+BareHandAttack: 4
+Str: 17
+Dex: 24
+Int: 18
+Wis: 20
+Con: 20
+Cha: 10
+Size: 100
+LikeWork: 70
+MaxFactor: 10
+ExtraAttack: 3
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: g0c1 
+Skill: 4 50
+Skill: 136 75
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+E
+#25724
+муха переросток~
+муха~
+мухи~
+мухе~
+муху~
+мухой~
+мухе~
+Муха-переросток летает здесь, выискивая добычу.
+~
+Опаснейшее создание.
+~
+b0c0d0e0m0n0x0i2 z0A0C0t1 0 E
+25 -4 0 10d50+1900 4d7+12
+0d0+0 110000
+8 8 2
+BareHandAttack: 4
+Str: 17
+Dex: 23
+Int: 17
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 15
+MaxFactor: 10
+ExtraAttack: 3
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: c1 
+Skill: 4 50
+Skill: 136 75
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+E
+#25725
+дракон маг~
+дракон~
+дракона~
+дракону~
+дракона~
+драконом~
+драконе~
+Огромный дракон, постаревший, но не утративший свою силу, отдыхает здесь.
+~
+Огромное существо с нечеловеческой силой.
+~
+b0c0d0f0g0l0m0n0o0t0x0i2u2 c0d0e0f0A0 -400 E
+27 -9 3 30d100+11000 12d14+25
+10d20+500 2800000
+5 5 1
+Resistances: 0 0 0 0 80 0 50
+Str: 36
+Dex: 21
+Int: 21
+Wis: 36
+Con: 35
+Cha: 17
+Size: 100
+LikeWork: 60
+ExtraAttack: 3
+Class: 105
+Height: 200
+Weight: 150
+Special_Bitvector: m3 
+Skill: 4 100
+Skill: 22 80
+Skill: 132 100
+Skill: 136 81
+Skill: 157 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 81
+Spell: 81
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 136
+E
+T 25729
+#25726
+лошадь кляча~
+лошадь~
+лошади~
+лошади~
+лошадь~
+лошадью~
+лошади~
+Просто старая кляча.
+~
+Унылое создание.
+~
+b0d0 0 0 E
+8 0 0 10d10+700 3d4+3
+0d0+10 1
+8 8 2
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 2
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 24
+E
+#25727
+старший наемник глава~
+наемник~
+наемника~
+наемнику~
+наемника~
+наемником~
+наемнике~
+Глава наемников стоит здесь оглядывая лагерь.
+~
+Очень опасный человек с задатками лидера.
+~
+b0c0d0e0g0l0m0n0o0p1 d0f0h0 0 E
+29 -2 3 10d10+3500 10d7+50
+0d0+500 200000
+8 8 1
+Str: 25
+Dex: 21
+Int: 21
+Wis: 18
+Con: 26
+Cha: 10
+Size: 100
+LikeWork: 15
+MaxFactor: 7
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 1 70
+Skill: 4 70
+Skill: 136 87
+Helper: 25708
+Helper: 25703
+E
+T 25711
+T 25713
+#25728
+убийца~
+убийца~
+убийцы~
+убийце~
+убийцу~
+убийцей~
+убийце~
+Убийца скрывает свое лицо за страшной маской.
+~
+Убийца, забирающий чужие жизни.
+~
+c0d0f0l0m0n0o0 d0r0z0m1 0 E
+30 7 -3 10d50+2500 12d5+10
+50d3+100 200000
+8 8 1
+Str: 23
+Dex: 21
+Int: 21
+Wis: 17
+Con: 20
+Cha: 17
+Size: 100
+LikeWork: 35
+MaxFactor: 17
+ExtraAttack: 2
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 4 90
+Skill: 22 50
+Skill: 132 70
+Skill: 136 90
+Skill: 140 60
+Skill: 158 100
+Skill: 166 70
+E
+T 25728
+#25729
+оживший дух~
+оживший дух~
+ожившего духа~
+ожившему духу~
+ожившего духа~
+ожившим духом~
+ожившем духе~
+Огромная фигура замотанная в обрывки некогда дорогих тканей.
+~
+Ужасное существо не поддающееся описанию.
+~
+b0c0d0e0f0g0l0m0n0x0y0z0p1g2i2 d0f0h0k0m0n0x0z0A0C0a1x1z1 -600 E
+27 5 7 10d80+8500 7d7+20
+4d30+50 2000000
+8 8 1
+CastSuccess: 100
+Initiative: 10
+AResist: 30
+BareHandAttack: 8
+Str: 22
+Dex: 10
+Int: 26
+Wis: 26
+Con: 21
+Cha: 10
+Size: 100
+LikeWork: 90
+MaxFactor: 10
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1d1m3C3 
+Skill: 5 50
+Skill: 22 40
+Skill: 136 50
+Skill: 160 10
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 82
+Spell: 82
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 131
+Spell: 131
+Spell: 131
+E
+T 25715
+#25730
+молодой колдун~
+молодой колдун~
+молодого колдуна~
+молодому колдуну~
+молодого колдуна~
+молодым колдуном~
+молодом колдуне~
+Молодой колдун смотрит на Вас с усмешкой.
+~
+Человек с ужасными манерами.
+~
+b0c0d0e0g0l0m0n0 d0r0 0 E
+27 7 -5 10d30+2500 15d5+10
+0d0+500 300000
+8 8 1
+Str: 13
+Dex: 13
+Int: 13
+Wis: 36
+Con: 13
+Cha: 13
+Size: 100
+LikeWork: 15
+MaxFactor: 15
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: a0b0c0d0e0f0b1c1m3B3C3 
+Skill: 4 70
+Skill: 136 81
+Skill: 139 30
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 94
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 140
+Spell: 147
+Spell: 152
+Spell: 153
+E
+#25731
+разъяренный костяк скелет~
+разъяренный скелет~
+разъяренного скелета~
+разъяренному скелету~
+разъяренного скелета~
+разъяренным скелетом~
+разъяренном скелете~
+Страшный скелет стоит тут,  сверкая призрачными огоньками в пустых глазницах черепа.
+~
+Создание темной магии.
+~
+c0d0e0f0g0l0m0n0o0y0z0A0g2i2 d0k0C0b1w1 -600 E
+20 -3 2 10d10+2000 8d12+22
+10d10+50 180000
+8 8 1
+CastSuccess: 40
+BareHandAttack: 4
+Str: 22
+Dex: 20
+Int: 21
+Wis: 22
+Con: 20
+Cha: 10
+Size: 100
+LikeWork: 95
+MaxFactor: 7
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 4 70
+Skill: 5 35
+Skill: 22 40
+Skill: 131 40
+Skill: 136 60
+Skill: 140 100
+Spell: 156
+Spell: 156
+E
+T 25724
+T 25727
+$

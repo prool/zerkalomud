@@ -6,7 +6,7 @@
 дорожного разбойника~
 дорожным разбойником~
 дорожном разбойнике~
-Дорожный разбойник, ухмылясь, направляется к вам.
+Дорожный разбойник, ухмыляясь, направляется к вам.
 ~
 Беглый раб или обедневший купец? Много времени минуло с тех пор, как он стал промышлять разбоем.
 ~
@@ -26,6 +26,7 @@ Class: 102
 Height: 170
 Weight: 150
 Special_Bitvector: a0b0c0d0e0f0a1b1c1d1 
+Skill: 136 75
 Skill: 150 120
 Skill: 157 120
 Skill: 160 120
@@ -48,12 +49,12 @@ T 60601
 Высокий дородный мужчина с откормленной физиономией.
 ~
 b0c0d0f0g0l0m0n0o0A0 d0k0z0A0 -600 E
-27 0 -6 10d10+2000 6d6+10
+27 0 -1 10d10+2000 6d6+10
 0d0+5 60000
 8 8 1
 BareHandAttack: 11
 Str: 22
-Dex: 27
+Dex: 28
 Wis: 12
 Con: 25
 Cha: 12
@@ -67,6 +68,7 @@ Special_Bitvector: a0b0c0d0e0f0b1c1d1
 Skill: 4 80
 Skill: 131 100
 Skill: 132 100
+Skill: 136 81
 Spell: 15
 E
 #60602
@@ -82,11 +84,11 @@ E
 Здоровенный мужик, наверное, бывший камнетес, страшные мышцы бугрятся под одеждой.
 ~
 b0c0d0l0m0n0o0A0 d0k0A0t1 -600 E
-29 0 -10 20d20+2500 7d7+12
+29 0 -1 20d20+2500 7d7+12
 0d0+30 300000
 8 8 1
 Str: 29
-Dex: 33
+Dex: 28
 Int: 13
 Wis: 14
 Con: 25
@@ -99,12 +101,14 @@ Height: 200
 Weight: 190
 Special_Bitvector: b1c1d1 
 Skill: 132 100
+Skill: 136 87
 Skill: 137 120
 Skill: 150 70
 Skill: 157 100
 Spell: 137
 Helper: 60600
 Helper: 60601
+Skill: 136 87
 E
 T 60602
 #60603
@@ -120,11 +124,11 @@ T 60602
 Невысокий сгорбленный от длительной работы мужик.
 ~
 b0c0d0h1 k0 600 E
-26 0 -5 0d0+800 5d5+6
+26 0 -1 0d0+800 5d5+6
 0d0+0 20000
 8 8 1
 Str: 20
-Dex: 19
+Dex: 33
 Int: 10
 Wis: 10
 Con: 22
@@ -137,6 +141,7 @@ Height: 140
 Weight: 100
 Special_Bitvector: y0b1C3 
 Skill: 22 100
+Skill: 136 78
 Skill: 137 120
 Skill: 157 100
 E
@@ -170,10 +175,11 @@ Height: 140
 Weight: 100
 Special_Bitvector: y0b1B3 
 Skill: 22 25
+Skill: 136 75
 Skill: 137 120
 E
 #60605
-молодой постушок~
+молодой пастушок~
 молодой пастушок~
 молодого пастушка~
 молодому пастушку~
@@ -203,6 +209,7 @@ Height: 160
 Weight: 120
 Special_Bitvector: y0b1c1d1 
 Skill: 22 100
+Skill: 136 84
 Skill: 137 110
 Skill: 151 100
 Skill: 157 100
@@ -245,7 +252,9 @@ Height: 120
 Weight: 170
 Special_Bitvector: 0 
 Skill: 134 100
+Skill: 136 45
 Helper: 60605
+Skill: 136 45
 E
 #60607
 старуха безутешная~
@@ -276,6 +285,7 @@ Class: 105
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
+Skill: 136 90
 Spell: 2
 Spell: 2
 Spell: 2
@@ -365,6 +375,7 @@ Class: 105
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
+Skill: 136 90
 Spell: 3
 Spell: 3
 Spell: 4
@@ -444,6 +455,16 @@ Class: 104
 Height: 190
 Weight: 170
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 132 80
 Skill: 136 80
 Skill: 137 80
@@ -480,9 +501,20 @@ Class: 104
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 1 80
 Skill: 5 80
 Skill: 21 80
+Skill: 136 72
 Skill: 150 80
 E
 #60611
@@ -513,6 +545,7 @@ Height: 170
 Weight: 140
 Special_Bitvector: b1c1 
 Skill: 22 50
+Skill: 136 66
 Spell: 14
 Spell: 14
 Spell: 14
@@ -557,7 +590,7 @@ E
 дорожного разбойника~
 дорожным разбойником~
 дорожном разбойнике~
-Дорожный разбойник, ухмылясь, направляется к вам.
+Дорожный разбойник, ухмыляясь, направляется к вам.
 ~
 Беглый раб или обедневший купец? Много времени минуло с тех пор, как он стал промышлять разбоем.
 ~
@@ -578,6 +611,7 @@ Height: 170
 Weight: 150
 Special_Bitvector: i0y0b1c1d1B3 
 Skill: 21 30
+Skill: 136 75
 Skill: 150 120
 Skill: 157 120
 Skill: 160 120

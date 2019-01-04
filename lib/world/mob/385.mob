@@ -40,6 +40,7 @@ Class: 102
 Height: 30
 Weight: 140
 Special_Bitvector: b1c1 
+Skill: 136 75
 Spell: 48
 Spell: 104
 Spell: 104
@@ -54,6 +55,7 @@ Spell: 104
 E
 T 38530
 T 38508
+L 3002 50 0 1
 #38501
 веселая чертовка-ведьма~
 веселая чертовка-ведьма~
@@ -96,6 +98,7 @@ Class: 102
 Height: 30
 Weight: 100
 Special_Bitvector: l0b1c1 
+Skill: 136 87
 Spell: 26
 Spell: 26
 Spell: 26
@@ -134,9 +137,11 @@ Size: 40
 LikeWork: 99
 ExtraAttack: 1
 Class: 101
+Height: 198
 Weight: 120
 Special_Bitvector: b1 
 Skill: 4 150
+Skill: 136 66
 E
 T 38504
 T 38517
@@ -167,9 +172,11 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 21 30
+Skill: 136 78
 Skill: 137 100
 E
 T 38503
@@ -196,8 +203,10 @@ Int: 18
 Size: 40
 LikeWork: 99
 Class: 101
+Height: 198
 Weight: 140
 Special_Bitvector: b1c1 
+Skill: 136 57
 Spell: 26
 Spell: 26
 E
@@ -225,8 +234,10 @@ Wis: 18
 Size: 40
 LikeWork: 99
 Class: 101
+Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 63
 Spell: 6
 Spell: 6
 E
@@ -255,8 +266,10 @@ Size: 20
 LikeWork: 99
 ExtraAttack: 1
 Class: 101
+Height: 198
 Weight: 40
 Special_Bitvector: p0 
+Skill: 136 75
 Spell: 30
 Spell: 30
 E
@@ -287,8 +300,10 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
+Skill: 136 87
 Spell: 76
 Spell: 76
 Spell: 76
@@ -332,6 +347,7 @@ Class: 101
 Height: 30
 Weight: 150
 Special_Bitvector: g0 
+Skill: 136 120
 Spell: 33
 E
 T 38517
@@ -361,8 +377,10 @@ Size: 10
 LikeWork: 99
 ExtraAttack: 1
 Class: 101
+Height: 198
 Weight: 10
 Special_Bitvector: l0 
+Skill: 136 60
 Spell: 26
 Spell: 26
 Spell: 26
@@ -387,7 +405,7 @@ E
 d0g0n0o0q0z0 k0x0 0 E
 21 0 0 5d5+555 5d5+0
 0d0+0 70000
-8 8 2
+8 8 1
 Str: 18
 Dex: 18
 Int: 25
@@ -396,8 +414,10 @@ Size: 10
 LikeWork: 45
 ExtraAttack: 1
 Class: 101
+Height: 198
 Weight: 10
 Special_Bitvector: l0 
+Skill: 136 63
 Spell: 6
 Spell: 6
 Spell: 6
@@ -441,6 +461,7 @@ Class: 101
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 120
 Spell: 6
 Spell: 6
 Spell: 6
@@ -460,6 +481,8 @@ Helper: 38605
 E
 T 38516
 T 38518
+L 3003 15 0 1
+L 1724 6 0 0
 #38512
 страж башни~
 страж башни~
@@ -487,9 +510,11 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
+Height: 198
 Weight: 150
 Special_Bitvector: l0b1c1 
 Skill: 21 50
+Skill: 136 66
 Spell: 6
 Spell: 38
 E
@@ -519,8 +544,10 @@ Con: 18
 Size: 50
 LikeWork: 80
 Class: 100
+Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 66
 Spell: 30
 Spell: 30
 Spell: 30
@@ -554,8 +581,10 @@ Con: 18
 Cha: 13
 Size: 50
 Class: 101
+Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 81
 Spell: 76
 Spell: 76
 Spell: 76
@@ -614,8 +643,10 @@ Size: 40
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Height: 198
 Weight: 140
 Special_Bitvector: y0 
+Skill: 136 24
 E
 T 38539
 #38516
@@ -645,9 +676,11 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 21 30
+Skill: 136 78
 Skill: 137 100
 E
 T 38517
@@ -679,6 +712,7 @@ Height: 30
 Weight: 120
 Special_Bitvector: b1 
 Skill: 4 150
+Skill: 136 66
 E
 T 38506
 T 38512
@@ -706,8 +740,10 @@ Wis: 18
 Size: 40
 LikeWork: 99
 Class: 101
+Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 63
 Spell: 6
 Spell: 30
 Spell: 30
@@ -736,8 +772,10 @@ Int: 18
 Size: 40
 LikeWork: 99
 Class: 101
+Height: 198
 Weight: 140
 Special_Bitvector: b1c1 
+Skill: 136 57
 Spell: 26
 Spell: 26
 E
@@ -767,8 +805,10 @@ Size: 20
 LikeWork: 99
 ExtraAttack: 1
 Class: 101
+Height: 198
 Weight: 40
 Special_Bitvector: p0 
+Skill: 136 75
 Spell: 30
 E
 T 38507
@@ -796,8 +836,10 @@ d0g0o0p0q0r0t0u0 d0f0k0 0 E
 Size: 50
 ExtraAttack: 1
 Class: 102
+Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 66
 E
 T 38520
 T 38521
@@ -820,8 +862,10 @@ b0d0g0n0o0q0r0t0u0 k0 0 E
 8 8 2
 Size: 10
 Class: 103
+Height: 198
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 38522
 #38523
@@ -852,8 +896,10 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 87
 Skill: 160 100
 Spell: 6
 Spell: 6
@@ -892,8 +938,10 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 87
 Skill: 160 100
 Spell: 6
 Spell: 6
@@ -904,7 +952,6 @@ Spell: 33
 Spell: 33
 Helper: 38521
 E
-T 38524
 T 38540
 #38525
 маленький зеленый демон~
@@ -935,6 +982,7 @@ Class: 101
 Height: 30
 Weight: 150
 Special_Bitvector: p0 
+Skill: 136 78
 Skill: 140 100
 E
 #38526
@@ -963,8 +1011,10 @@ Size: 40
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Height: 198
 Weight: 140
 Special_Bitvector: l0b1c1 
+Skill: 136 75
 Spell: 54
 Spell: 104
 Spell: 104
@@ -1003,6 +1053,7 @@ Class: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 38507
 T 38517
@@ -1035,6 +1086,7 @@ Class: 101
 Height: 30
 Weight: 50
 Special_Bitvector: m0 
+Skill: 136 45
 E
 T 38517
 T 38548
@@ -1064,6 +1116,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: p0 
 Skill: 134 100
+Skill: 136 12
 E
 T 38517
 T 38544
@@ -1089,6 +1142,7 @@ Class: 101
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
+Skill: 136 24
 E
 T 38517
 #38531
@@ -1117,6 +1171,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
 Skill: 21 30
+Skill: 136 60
 E
 T 38517
 T 38548
@@ -1133,9 +1188,9 @@ T 38547
 ~
 Густой черный ветер...
 ~
-b0d0m0n0o0p0q0r0u0c2 d0k0 0 E
+b0d0m0n0o0p0q0r0u0c2f2 d0k0 0 E
 19 3 3 5d5+100 5d5+0
-0d0+0 50000
+0d0+0 0
 8 8 1
 BareHandAttack: 5
 Str: 18
@@ -1150,6 +1205,7 @@ Class: 101
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
+Skill: 136 57
 Spell: 15
 Spell: 15
 Spell: 104
@@ -1190,6 +1246,7 @@ Class: 101
 Height: 30
 Weight: 150
 Special_Bitvector: l0 
+Skill: 136 69
 E
 T 38543
 T 38517
@@ -1222,6 +1279,7 @@ Class: 101
 Height: 30
 Weight: 50
 Special_Bitvector: m0 
+Skill: 136 45
 E
 T 38517
 T 38548

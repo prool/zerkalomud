@@ -405,6 +405,7 @@ Class: 102
 Height: 65
 Weight: 75
 Special_Bitvector: 0 
+Skill: 136 15
 E
 T 63800
 T 63801
@@ -437,6 +438,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 63809
 T 63810

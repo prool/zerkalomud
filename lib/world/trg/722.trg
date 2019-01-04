@@ -20,10 +20,10 @@ wait 1
 mecho Старик медленно поднял голову и посмотрел на Вас.
 mecho Рассмотрев Вас своими подслеповатыми глазами он улыбнулся Вам.
 if !%questor7221%
-say - Здраве будь %actor.name%!
-mecho _- Думал не увижу на своем веку уж болше живого человека.
-mecho _- Помоги мне вещь найти одну а я уж тебе все расскажу...
-   attach 72202 %self.id%
+  say - Здраве будь %actor.name%!
+  mecho _- Думал не увижу на своем веку уж болше живого человека.
+  mecho _- Помоги мне вещь найти одну а я уж тебе все расскажу...
+  attach 72202 %self.id%
 end
 ~
 #72202
@@ -32,18 +32,18 @@ end
 какую согласен пойду помогу принесу~
 wait 1
 if %actor.vnum% != -1
-halt
+  halt
 end
 if !%questor7221%
-say В деревушке нашей жил мастер один по камню резал... 
-mecho _- Данилой его звали... Сделал он каменный цветок...
-mecho _- Хочу на него взглянуть перед смертью. Найди его пожалуйста
-mecho _- и принеси мне благодарен буду.
-   set questor7221 %actor%
-   global questor7221
-attach 72204 %self.id%
-detach 72201 %self.id%
-detach 72202 %self.id%
+  say В деревушке нашей жил мастер один по камню резал... 
+  mecho _- Данилой его звали... Сделал он каменный цветок...
+  mecho _- Хочу на него взглянуть перед смертью. Найди его пожалуйста
+  mecho _- и принеси мне благодарен буду.
+  set questor7221 %actor%
+  global questor7221
+  attach 72204 %self.id%
+  detach 72201 %self.id%
+  detach 72202 %self.id%
 end
 ~
 #72203
@@ -63,38 +63,38 @@ detach 72203 %self.id%
 ~
 wait 1
 if %object.vnum% != 72252
-   say - Зачем мне это?
-   брос %object.name%
-halt
+  say - Зачем мне это?
+  брос %object.name%
+  halt
 end
 wait 1s
 mjunk all
 say - Спасибо тебе, %actor.name%!
 say - Утешил%actor.g% старика напоследок! 
-   unset questor7221
-   if (%world.curobjs(72205)% < 5) && (%random.100% < 25 )
-wait 3
-say - Тут у меня одна вещица завалялась, мне она уже не надобна,
-say - А тебе может пригодиться...
-      mload obj 72205
-      дать чекан %actor.name%
-   else
-      %self.gold(+500)%
-give 500 кун .%actor.name%
-   end
-   wait 1s
-   say - Также открою тебе тайну нашей деревни...
-   вздох
-   эмоц смахнул дрожащей рукой слезу.
-   wait 2s
-   say Угнала в полон всех жителей хозяйка медной горы. Чтоб не скучно
-   mecho _- было Даниле-мастеру, который сам к ней и ушел. Оставалась правда
-   mecho _- девица красная Катя, что любила Данилу. Но ушла она к Змеинной горе
-   mecho _- да и не вернулась.
-   вздох
-   wait 1s
-   mecho _- Видно нашла вход в рудник - царство хозяйки медной горы.
-   mecho _- Может и поможет чем тебе моя история...
+unset questor7221
+if (%world.curobjs(72205)% < 5) && (%random.100% < 25 )
+  wait 3
+  say - Тут у меня одна вещица завалялась, мне она уже не надобна,
+  say - А тебе может пригодиться...
+  mload obj 72205
+  дать чекан %actor.name%
+else
+  %self.gold(+500)%
+  give 500 кун .%actor.name%
+end
+wait 1s
+say - Также открою тебе тайну нашей деревни...
+вздох
+эмоц смахнул дрожащей рукой слезу.
+wait 2s
+say Угнала в полон всех жителей хозяйка медной горы. Чтоб не скучно
+mecho _- было Даниле-мастеру, который сам к ней и ушел. Оставалась правда
+mecho _- девица красная Катя, что любила Данилу. Но ушла она к Змеинной горе
+mecho _- да и не вернулась.
+вздох
+wait 1s
+mecho _- Видно нашла вход в рудник - царство хозяйки медной горы.
+mecho _- Может и поможет чем тебе моя история...
 calcuid enter 72297 room
 attach 72208 %enter.id%
 detach 72204 %self.id%
@@ -139,8 +139,8 @@ detach 72207 %self.id%
 2 c 1
 сдвинуть ~
 if !%arg.contains(камень)%
-%send% %actor% _Что вы хотите сдвинуть?
-halt
+  %send% %actor% _Что вы хотите сдвинуть?
+  halt
 end
 wait 2
 wsend %actor% Вы сдвинули камень. И почуствовали что-то неладное...
@@ -186,11 +186,11 @@ detach 72210 %self.id%
 0 c 1
 освободить расковать~
 if %actor.vnum% != -1
-halt
+  halt
 end
 if !%arg.contains(узника)%
-%send% %actor% Кого освобождаем?
-halt
+  %send% %actor% Кого освобождаем?
+  halt
 end
 wait 1
 эмоц поднял голову и взглянул на Вас усталыми подслеповатыми глазами
@@ -205,9 +205,9 @@ mecho _- Держит ее в заточении Хозяйка в своих личных покоях.
 mecho _- Освободи ее, может поможет она тебе,
 mecho _- Расскажет как хозяйку одолеть...
 while %exist.mob(72252)%
-calcuid uznik 72252 mob
-mechoaround %uznik% _Узник отбросил в сторону инструмент, поднялся и направился к выходу из пещеры.
-%purge% %uznik%
+  calcuid uznik 72252 mob
+  mechoaround %uznik% _Узник отбросил в сторону инструмент, поднялся и направился к выходу из пещеры.
+  %purge% %uznik%
 done
 mecho _Узник отбросил в сторону инструмент, поднялся и направился к выходу из пещеры.
 calcuid katja 72255 mob
@@ -221,19 +221,19 @@ mpurge %self%
 привет здравствуй~
 wait 1
 if %actor.vnum% != -1
-halt
+  halt
 end
 set string1 %speech.cdr%
 if !%string1.contains(Катя)%
-msend %actor% С кем здороваетесь?
-halt
+  msend %actor% С кем здороваетесь?
+  halt
 end
 if %string1.contains(дура)%
-say Это кто дура?! Я вот тебе сейчас!!!
-втстать
-kill .%actor.name%
-detach 72212 %self.id%
-halt
+  say Это кто дура?! Я вот тебе сейчас!!!
+  втстать
+  kill .%actor.name%
+  detach 72212 %self.id%
+  halt
 end
 wait 1
 эмоц увидав Вас, зарыдала от радости.
@@ -266,8 +266,8 @@ mpurge %self%
 ~
 wait 1
 if %object.vnum% != 72214
-say - Зачем мне это?
-дать %object.name% %actor.name%
+  say - Зачем мне это?
+  дать %object.name% %actor.name%
 end
 mjunk all
 дум
@@ -280,9 +280,9 @@ say Спасибо тебе, %actor.name%!
 mecho _- Рад что ты смог%actor.q% освободить возлюбленную мою. 
 mecho _- Значит жива она. Расскажу я тебе секрет хозяйки...
 mecho _- Стражи у нее люто злые - берегись их, а лучше ежели сможешь убей.
-   wait 1
+wait 1
 say - Да и не забудь разбить каменный цветок - в нем сила хозяйки...
-   вздох
+вздох
 mecho _- Пока цел цветок - нет избыву колдовской силе хозяйки.
 mecho _- Даже коли одолеешь ты ее - оживет она, и снова заберет себе людей в полон...
 mecho _- Я не знаю, где укрыт потаенный каменный сад хозяйки,
@@ -298,19 +298,23 @@ wait 1
 убийство хозяйки~
 0 f 100
 ~
-if %random.100% < 15
-* пока никаких книг (Землетряс сюда, имхо)
-mload obj 72210
+if %random.100% <= 10
+  mload obj 72268
+  * пока никаких книг (Землетряс сюда, имхо)
+  mload obj 72210
 end
 mload obj 72254
+if (%world.curobjs(230)% < 50) && (%random.100% <= 20)
+  mload obj 230
+end
 ~
 #72215
 смерть каменной змеи~
 0 f 100
 ~
 if (%world.curobjs(72213)% < 3 ) && (%random.100% < 40 )
-   msend %actor% И тут Вы неожиданно заметили, что перед смертью змея что-то уронила на землю.
-   mload obj 72213
+  msend %actor% И тут Вы неожиданно заметили, что перед смертью змея что-то уронила на землю.
+  mload obj 72213
 end
 ~
 #72216
@@ -318,11 +322,11 @@ end
 2 c 1
 обшарить обыскать~
 if %actor.vnum% != -1
-halt
+  halt
 end
 if !%arg.contains(стеллажи)%
-wsend %actor% Что вы хотите обыскать?
-halt
+  wsend %actor% Что вы хотите обыскать?
+  halt
 end
 wait 1
 wsend %actor% - Вы начали осматривать оружие и доспехи лежащие на стеллажах.
@@ -331,18 +335,24 @@ wsend %actor% - на гигантов.
 wait 1
 wsend %actor% - Но что это? Пока Вы копались среди всего этого хлама, из под огромного
 wsend %actor% - щита на пол выскользнуло с шумом что-то небольшое...
-if %random.100% < 11
-if %world.curobjs(72211)% < 5
-wload obj 72211
-else
-wload obj 72210
-end
+eval rnd %random.100%
+if %rnd% < 11
+  if %world.curobjs(72211)% < 5
+    wload obj 72211
+  else
+    wload obj 72210
+  end
 elseif %rnd% < 18
-if %world.curobjs(72212)% < 5
-wload 72212
+  if %world.curobjs(72212)% < 5
+    wload obj 72212
+  else
+    wload obj 72210
+  end
 else
-wload 72210
+  wload obj 72210
 end
+if %world.curobjs(3340)% < 1 & %world.curobjs(3341)% < 1 & %random.100% < 6
+  wload obj 3340
 end
 detach 72216 %self.id%
 ~
@@ -370,19 +380,19 @@ eval buffer %self.hitp(%self.maxhitp%)%
 2 c 1
 сдвинуть отодвинуть подвинуть~
 if %actor.vnum% != -1
-halt
+  halt
 end
 if !%arg.contains(трон)%
-wsend %actor% Что двигаем?
-halt
+  wsend %actor% Что двигаем?
+  halt
 end
 eval val1 %actor.int%
 eval val2 %actor.intadd%
 eval sumint %val1%+%val2%
 if %sumint% < 23
-wsend %actor% Да как вы собрались этакую тяжесть двигать?
-wsend %actor% Как бы вы сильны не были - человеку такую махину даже не пошевелить.
-halt
+  wsend %actor% Да как вы собрались этакую тяжесть двигать?
+  wsend %actor% Как бы вы сильны не были - человеку такую махину даже не пошевелить.
+  halt
 end
 wait 1
 wechoaround %actor% %actor.name% осмотрел%actor.g% трон хозяйки и задумал%actor.u%.
@@ -397,7 +407,7 @@ detach 72219 %self.id%
 0 f 100
 ~
 if %self.realroom% = 72230
-mload obj 72256
+  mload obj 72256
 end 
 ~
 #72221
@@ -412,11 +422,11 @@ mkill %actor%
 2 c 1
 разбить расколоть расколотить~
 if %actor.vnum% != -1
-halt
+  halt
 end
 if !%arg.contains(цветок)%
-wsend %actor% Что вы хотите разбить?
-halt
+  wsend %actor% Что вы хотите разбить?
+  halt
 end
 wait 1
 wechoaround %actor% %actor.name% нанес%actor.q% удар по цветку от которого тот рассыпался в пыль.
@@ -429,7 +439,7 @@ calcuid flower 72261 obj
 wait 1
 wpurge %flower%
 if %world.curobjs(72262)% < 5
-   wload obj 72262
+  wload obj 72262
 end
 calcuid hozayka1 72299 mob
 detach 72218 %hozayka1.id%
@@ -444,7 +454,7 @@ detach 72208 %room1.id%
 wdoor 72221 s purge
 calcuid room2 72265 room
 detach 72219 %room2.id%
-wdoor 72219 d purge
+wdoor 72265 d purge
 calcuid room3 72257 room
 detach 72253 %room3.id%
 *if %exist.mob(72200)%

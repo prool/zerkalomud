@@ -27,6 +27,7 @@ Class: 103
 Height: 198
 Weight: 40
 Special_Bitvector: g0 
+Skill: 136 39
 E
 T 11500
 L 1490 9 0 0
@@ -59,6 +60,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 63
 E
 T 11501
 #11502
@@ -90,6 +92,7 @@ Class: 103
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #11503
 подсвинок~
@@ -119,6 +122,7 @@ Class: 103
 Height: 198
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #11504
 благородный олень~
@@ -149,6 +153,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 39
 E
 T 11502
 #11505
@@ -180,5 +185,6 @@ Class: 103
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 39
 E
 $

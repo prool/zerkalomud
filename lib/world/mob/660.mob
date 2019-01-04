@@ -12,7 +12,7 @@
 ~
 b0d0g0n0o0 d0f0k0 0 E
 20 0 0 0d0+700 3d3+2
-0d0+19999 0
+0d0+99999 0
 8 8 1
 Str: 20
 Dex: 20
@@ -25,6 +25,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #66001
 кузнец~
@@ -53,6 +54,7 @@ Class: 102
 Height: 198
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #66002
 ямщик~
@@ -81,6 +83,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #66003
 меняла~
@@ -109,6 +112,7 @@ Class: 102
 Height: 198
 Weight: 45
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #66004
 пекарь~
@@ -124,7 +128,7 @@ E
 ~
 b0d0g0n0o0 d0k0 0 E
 24 0 0 0d0+800 1d1+1
-0d0+0 0
+0d0+99999 0
 8 8 1
 Str: 22
 Dex: 21
@@ -137,6 +141,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 72
 E
 #66005
 волшебник~
@@ -152,7 +157,7 @@ E
 ~
 b0d0g0n0o0 d0f0k0 0 E
 25 0 0 0d0+500 0d0+0
-0d0+0 0
+0d0+100000 0
 8 8 1
 Str: 18
 Dex: 17
@@ -165,7 +170,9 @@ Class: 105
 Height: 198
 Weight: 45
 Special_Bitvector: 0 
+Skill: 136 75
 E
+T 66000
 #66006
 сын волшебника~
 сын волшебника~
@@ -174,7 +181,7 @@ E
 сына волшебника~
 сыном волшебника~
 сыне волшебника~
-Сын волшебника усердно старается понять, что говорит отец
+Сын волшебника усердно старается понять, что говорит отец.
 ~
 Мальчик лет 14, а то и 15, с коричневыми волосами и голубыми глазами.
 ~
@@ -193,7 +200,11 @@ Class: 102
 Height: 198
 Weight: 40
 Special_Bitvector: 0 
+Skill: 136 45
 E
+T 66001
+T 66002
+T 66003
 #66007
 конюх~
 конюх~
@@ -221,6 +232,7 @@ Class: 102
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #66008
 монах~
@@ -249,6 +261,7 @@ Class: 102
 Height: 198
 Weight: 47
 Special_Bitvector: p0 
+Skill: 136 63
 E
 #66009
 монах~
@@ -278,6 +291,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #66010
 отрок~
@@ -338,9 +352,10 @@ ExtraAttack: 2
 Class: 102
 Height: 198
 Weight: 80
-Special_Bitvector: 0 
+Special_Bitvector: y0b1c1 
 Skill: 22 100
 Skill: 132 80
+Skill: 136 84
 Skill: 137 100
 Skill: 143 80
 E
@@ -407,6 +422,7 @@ Class: 102
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #66014
 лучник~
@@ -438,6 +454,7 @@ Class: 102
 Height: 100
 Weight: 51
 Special_Bitvector: 0 
+Skill: 136 69
 Skill: 154 80
 Skill: 155 50
 Skill: 157 30
@@ -483,7 +500,7 @@ E
 холопа~
 холопом~
 холопе~
-Княжеский холоп идет здесь. 
+Княжеский холоп идет здесь.
 ~
 Немолодой мужичок с бородой, да усами.
 ~
@@ -536,6 +553,7 @@ Class: 102
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 90
 Spell: 28
 Spell: 28
 E
@@ -568,6 +586,7 @@ Class: 102
 Height: 198
 Weight: 69
 Special_Bitvector: 0 
+Skill: 136 84
 Spell: 28
 E
 #66019
@@ -599,15 +618,16 @@ Class: 102
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
+Skill: 136 69
 E
 #66020
 дитя~
 дитя~
-дитя~
-дитя~
-дитя~
-дитя~
-дитя~
+дити~
+дитю~
+дите~
+дитем~
+дите~
 Малое дитя бежит здесь.
 ~
 Веселое дитя со светлыми глазами и широкой улыбкой
@@ -629,6 +649,7 @@ Class: 102
 Height: 198
 Weight: 35
 Special_Bitvector: p0 
+Skill: 136 42
 E
 #66021
 старейшина~
@@ -658,6 +679,7 @@ Class: 100
 Height: 198
 Weight: 47
 Special_Bitvector: 0 
+Skill: 136 72
 E
 #66022
 десятник~
@@ -667,7 +689,7 @@ E
 десятника~
 десятником~
 десятнике~
-Десятник идет по делам. 
+Десятник идет по делам.
 ~
 Опытный десятник широк в плечах и очень высок.
 ~
@@ -688,6 +710,7 @@ Class: 102
 Height: 198
 Weight: 55
 Special_Bitvector: 0 
+Skill: 136 84
 E
 #66023
 всадник~
@@ -697,7 +720,7 @@ E
 всадника~
 всадником~
 всаднике~
-Брянский всадник едет по улице
+Брянский всадник едет по улице.
 ~
 Всадник в темной одежде с капюшоном.
 ~
@@ -719,6 +742,7 @@ Class: 102
 Height: 198
 Weight: 70
 Special_Bitvector: n0y0b1c1 
+Skill: 136 90
 Skill: 137 100
 Skill: 158 60
 E
@@ -730,7 +754,7 @@ E
 отряд~
 отрядом~
 отряде~
-Сторожевой отряд идет здесь. 
+Сторожевой отряд идет здесь.
 ~
 Отряд из 2-3 человек, в полном обмундировании.
 ~
@@ -751,6 +775,7 @@ Class: 102
 Height: 198
 Weight: 90
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #66025
 собака~
@@ -768,7 +793,7 @@ E
 d0g0n0o0 0 0 E
 12 0 0 0d0+150 1d1+2
 0d0+0 0
-8 8 1
+8 8 2
 BareHandAttack: 4
 Str: 15
 Dex: 22
@@ -782,6 +807,7 @@ Class: 102
 Height: 198
 Weight: 20
 Special_Bitvector: p0 
+Skill: 136 36
 E
 #66026
 пес~
@@ -813,6 +839,7 @@ Class: 102
 Height: 198
 Weight: 18
 Special_Bitvector: p0 
+Skill: 136 33
 E
 #66027
 хозяин двора~
@@ -841,6 +868,7 @@ Class: 102
 Height: 198
 Weight: 73
 Special_Bitvector: 0 
+Skill: 136 66
 E
 #66028
 купец~
@@ -869,6 +897,7 @@ Class: 102
 Height: 198
 Weight: 78
 Special_Bitvector: 0 
+Skill: 136 69
 E
 #66029
 купец~
@@ -897,6 +926,7 @@ Class: 102
 Height: 198
 Weight: 76
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #66030
 дружинник~
@@ -929,6 +959,7 @@ Height: 198
 Weight: 130
 Special_Bitvector: y0b1c1d1 
 Skill: 132 95
+Skill: 136 81
 Skill: 137 95
 E
 #66031
@@ -961,6 +992,7 @@ Class: 102
 Height: 198
 Weight: 75
 Special_Bitvector: y0b1c1d1 
+Skill: 136 81
 Skill: 137 90
 Skill: 154 90
 Skill: 155 90
@@ -994,6 +1026,7 @@ Class: 102
 Height: 198
 Weight: 66
 Special_Bitvector: 0 
+Skill: 136 72
 Spell: 17
 Spell: 17
 Spell: 28
@@ -1028,6 +1061,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #66034
 староста~
@@ -1056,6 +1090,7 @@ Class: 100
 Height: 198
 Weight: 87
 Special_Bitvector: 0 
+Skill: 136 69
 E
 #66035
 юродивый~
@@ -1079,6 +1114,7 @@ Class: 102
 Height: 198
 Weight: 39
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #66036
 князь~
@@ -1109,6 +1145,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 96
 E
 #66037
 Прихожанин~
@@ -1138,6 +1175,7 @@ Class: 102
 Height: 100
 Weight: 79
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #66038
 прихожанка~
@@ -1167,9 +1205,10 @@ Class: 102
 Height: 100
 Weight: 75
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #66039
-язычник~
+человек язычник~
 язычник~
 язычника~
 язычнику~
@@ -1178,7 +1217,7 @@ E
 язычнике~
 Человек жертвует что-то языческим богам.
 ~
-Человек в черной робе и черными глазами.
+Человек в черной робе и с черными глазами.
 ~
 b0d0g0n0o0 k0n0 -600 E
 22 0 4 0d0+800 4d4+5
@@ -1196,6 +1235,7 @@ Class: 102
 Height: 100
 Weight: 67
 Special_Bitvector: 0 
+Skill: 136 66
 E
 #66040
 боярин~
@@ -1224,6 +1264,7 @@ Class: 102
 Height: 100
 Weight: 90
 Special_Bitvector: 0 
+Skill: 136 69
 E
 #66041
 богатырь~
@@ -1254,6 +1295,7 @@ Class: 102
 Height: 100
 Weight: 83
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #66042
 девушка~
@@ -1284,5 +1326,32 @@ Class: 102
 Height: 100
 Weight: 45
 Special_Bitvector: 0 
+Skill: 136 66
 E
+#66050
+ворожея~
+ворожея~
+ворожеи~
+ворожее~
+ворожею~
+ворожеей~
+ворожее~
+Ворожея гордо восседает среди идолов.
+~
+Большой знаток ингредиентной магии.
+~
+b0d0B0o1 d0f0k0 0 E
+1 0 0 10d10+2 0d0+2
+0d0+0 10000
+6 6 2
+Wis: 25
+Size: 90
+Class: 102
+Height: 180
+Weight: 90
+Special_Bitvector: 0 
+E
+T 66010
+T 66011
+T 66012
 $

@@ -21,6 +21,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 87
 E
 #16001
 Кузнец~
@@ -45,6 +46,7 @@ Class: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 87
 E
 #16002
 Продавец~
@@ -69,6 +71,7 @@ Class: 102
 Height: 198
 Weight: 72
 Special_Bitvector: 0 
+Skill: 136 87
 E
 #16003
 Шут~
@@ -95,6 +98,7 @@ Height: 198
 Weight: 120
 Special_Bitvector: 0 
 Skill: 4 15
+Skill: 136 66
 Skill: 151 10
 Skill: 157 10
 Spell: 10
@@ -124,6 +128,7 @@ Class: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 54
 E
 #16005
 Поп~
@@ -148,6 +153,7 @@ Class: 102
 Height: 198
 Weight: 78
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #16006
 Трактирщик~
@@ -172,6 +178,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 78
 E
 #16007
 Ратник~
@@ -200,6 +207,7 @@ Weight: 100
 Special_Bitvector: y0 
 Skill: 131 100
 Skill: 132 50
+Skill: 136 87
 Skill: 141 100
 Skill: 142 100
 Skill: 143 110
@@ -244,6 +252,7 @@ Weight: 200
 Special_Bitvector: 0 
 Skill: 1 100
 Skill: 5 50
+Skill: 136 81
 E
 #16009
 Страж~
@@ -297,6 +306,7 @@ Class: 102
 Height: 198
 Weight: 87
 Special_Bitvector: 0 
+Skill: 136 72
 E
 #16011
 Крестьянка~
@@ -329,6 +339,7 @@ Class: 102
 Height: 198
 Weight: 67
 Special_Bitvector: 0 
+Skill: 136 81
 E
 #16012
 надсмотрщик~
@@ -354,6 +365,7 @@ Class: 102
 Height: 198
 Weight: 130
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #16013
 Кошка~
@@ -385,6 +397,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 57
 E
 #16014
 злобный страж~
@@ -412,6 +425,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #16015
 Алкаш~
@@ -436,5 +450,6 @@ Class: 102
 Height: 198
 Weight: 79
 Special_Bitvector: 0 
+Skill: 136 81
 E
 $

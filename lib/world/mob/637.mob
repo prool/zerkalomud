@@ -28,6 +28,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 99
 E
 T 63700
 #63701
@@ -35,7 +36,7 @@ T 63700
 темный призрак~
 темного призрака~
 темному призраку~
-темный призрак~
+темного призрака~
 темным призраком~
 темном призраке~
 Огромная черная тень нависла над вами...  вы почувствовали себя неуютно.
@@ -63,6 +64,7 @@ Class: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 150
 E
 T 63703
 T 63704
@@ -100,6 +102,16 @@ Class: 104
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 12 100
 Skill: 22 50
 Skill: 132 80
@@ -152,6 +164,16 @@ Class: 104
 Height: 199
 Weight: 134
 Special_Bitvector: b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 60
 Skill: 132 70
 Skill: 136 100
@@ -189,7 +211,7 @@ T 63723
 ~
 Странное семикрылое существо.
 ~
-a0b0c0d0f0g0l0m0n0o0x0A0c2h2 d0e0f0k0m0n0r0x0z0A0C0a1m1x1y1z1 -600 E
+a0b0c0d0f0g0l0m0n0o0x0A0c2h2u2 d0e0f0k0m0n0r0x0z0A0C0a1m1x1y1z1 -600 E
 43 2 -5 3d10+4000 9d7+25
 7d7+5200 220000
 8 8 1
@@ -209,7 +231,7 @@ Height: 200
 Weight: 100
 Special_Bitvector: 0 
 Skill: 5 30
-Skill: 136 100
+Skill: 136 129
 Spell: 23
 Spell: 23
 Spell: 26
@@ -220,9 +242,9 @@ Spell: 66
 Spell: 66
 Spell: 88
 Spell: 128
-Helper: 63705
-Helper: 63706
 Helper: 63707
+Helper: 63706
+Helper: 63705
 E
 T 63707
 #63705
@@ -541,7 +563,17 @@ Class: 104
 Height: 200
 Weight: 130
 Special_Bitvector: b0b1c1d1 
-Skill: 136 120
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 123
 Skill: 141 120
 Skill: 142 120
 Skill: 143 120
@@ -571,9 +603,9 @@ Spell: 104
 Spell: 104
 Spell: 104
 Spell: 124
-Helper: 63708
-Helper: 63709
 Helper: 63710
+Helper: 63709
+Helper: 63708
 E
 L 1483 12 0 0
 #63712
@@ -609,8 +641,18 @@ Class: 104
 Height: 199
 Weight: 90
 Special_Bitvector: b1c1d1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 22 30
-Skill: 136 100
+Skill: 136 150
 Skill: 141 100
 Skill: 142 100
 Skill: 143 100
@@ -685,6 +727,16 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 90
 Skill: 136 100
 Spell: 27
@@ -706,8 +758,8 @@ E
 приземистое, но очень толстое дерево. Из-за торчащих во все стороны
 крючковатых колючек его ветви кажутся вчетверо толще, чем на самом деле.
 ~
-b0c0d0e0f0n0o0p0q0r0u0x0A0l1m1n1g2h2 c0d0f0k0r0C0 -600 E
-32 3 -10 50d20+2000 8d8+10
+b0c0d0e0f0n0o0p0q0r0u0x0A0l1m1n1g2h2u2 c0d0f0k0r0C0 -600 E
+32 -4 -10 50d20+2000 8d8+10
 0d0+0 410000
 8 8 0
 BareHandAttack: 1
@@ -793,8 +845,8 @@ E
 приземистое, но очень толстое дерево. Из-за торчащих во все стороны
 крючковатых колючек его ветви кажутся вчетверо толще, чем на самом деле.
 ~
-b0c0d0e0f0n0o0p0q0r0u0x0A0k1g2h2 c0d0f0k0r0C0 -600 E
-32 3 -10 50d20+2000 8d8+10
+b0c0d0e0f0n0o0p0q0r0u0x0A0k1g2h2u2 c0d0f0k0r0C0 -600 E
+32 -4 -10 50d20+2000 8d8+10
 0d0+0 200000
 4 4 0
 BareHandAttack: 1
@@ -900,6 +952,16 @@ Class: 104
 Height: 175
 Weight: 150
 Special_Bitvector: a0b0c0d0b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 120
 Skill: 21 50
 Skill: 22 120
@@ -991,7 +1053,7 @@ Weight: 150
 Special_Bitvector: g0i0j0l0u0b1c1 
 Skill: 21 10
 Skill: 22 150
-Skill: 136 100
+Skill: 136 99
 Skill: 138 200
 Skill: 141 100
 Skill: 142 100
@@ -1084,11 +1146,12 @@ Spell: 153
 Spell: 153
 Spell: 153
 Spell: 153
-Helper: 63702
 Helper: 63703
+Helper: 63702
 E
 T 63734
 T 63723
+T 63739
 #63718
 чудо юдо лесное~
 лесное чудо-юдо~
@@ -1104,7 +1167,7 @@ T 63723
 где ноги, где голова,  где крылья...
 Всего тут хватает, а кое-чему и слова в человечьем языке нету.
 ~
-b0c0d0e0l0n0o0p0q0r0s0t0u0A0f2 c0d0e0f0k0m0n0p0r0z0A0C0a1m1t1x1 0 E
+b0d0e0l0n0o0p0q0r0s0t0u0f2 c0d0e0f0k0m0n0p0r0z0A0C0a1m1t1x1 0 E
 50 0 -10 90d90+5000 20d20+20
 95d90+0 1000000
 8 8 0
@@ -1227,6 +1290,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: i0 
 Skill: 133 200
+Skill: 136 102
 Skill: 138 200
 E
 T 63730
@@ -1298,6 +1362,7 @@ Class: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 87
 Skill: 150 100
 Spell: 28
 Spell: 28

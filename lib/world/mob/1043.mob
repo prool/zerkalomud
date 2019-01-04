@@ -1,0 +1,1838 @@
+* BRusMUD mob file v1.0
+#104300
+печальный странник~
+печальный странник~
+печального странника~
+печальному страннику~
+печального странника~
+печальным странником~
+печальном страннике~
+Печальный странник сидит здесь на голой земле.
+~
+Молодой степняк, одетый в когда-то богатый кафтан (превратившийся в тряпье),
+явно знавал лучшие времена.
+~
+b0g0o1q2 d0f0k0D0n1B1 0 E
+34 0 0 10d10+2 0d0+0
+0d0+0 10000
+8 6 0
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 100
+Size: 100
+Height: 175
+Weight: 85
+E
+T 104300
+T 104301
+T 104302
+T 104305
+#104301
+младший нукер~
+младший нукер~
+младшего нукера~
+младшему нукеру~
+младшего нукера~
+младшим нукером~
+младшем нукере~
+Молодой нукер в кожанный доспехах стоит здесь.
+~
+Безусый юнец только взявший в руки оружие.
+~
+c0g0m0A0q2 k0r0 -600 E
+13 12 0 200d1+1 3d4+7
+0d0+10 15000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 12
+Con: 10
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: y0
+Spell: 16
+Skill: 136 50
+Skill: 157 25
+E
+T 104313
+#104302
+нукер~
+нукер~
+нукера~
+нукеру~
+нукера~
+нукером~
+нукере~
+Рослый нукер уверенно проходит мимо.
+~
+Повидавший не одно сражение воин.
+~
+g0l0m0q2 k0r0 -600 E
+15 10 0 250d1+1 4d4+8
+0d0+20 20000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 16
+Con: 10
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 52
+Skill: 158 40
+E
+T 104312
+#104303
+ ветеран~
+ветеран~
+ветерана~
+ветерану~
+ветерана~
+ветераном~
+ветеране~
+Убеленный сединой ветеран.
+~
+Воин в летах, закаленный множеством битв, но еще не растерявший былую силу.
+~
+g0l0m0q2 k0r0z0 -600 E
+15 9 -1 230d1+1 4d4+8
+0d0+20 22000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 12
+Wis: 12
+Dex: 17
+Con: 10
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 92
+Skill: 137 30
+E
+T 104311
+I кости,10:4
+#104304
+копейщик~
+копейщик~
+копейщика~
+копейщику~
+копейщика~
+копейщиком~
+копейщике~
+Хмурый копейщик стоит здесь.
+~
+Внимательный воин с длинным копьем.
+~
+b0g0m0q2 k0r0 -600 E
+15 10 0 220d1+2 3d4+7
+0d0+5 15000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 10
+Str: 10
+Int: 10
+Wis: 10
+Dex: 14
+Con: 10
+Cha: 10
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: y0
+Skill: 134 25
+E
+T 104318
+#104305
+лучник~
+лучник~
+лучника~
+лучнику~
+лучника~
+лучником~
+лучнике~
+Зоркий лучник натягивает длинный лук.
+~
+Зоркий взгляд, сильные руки - что еще нужно лучнику? 
+~
+b0g0l0m0q2 k0r0 -600 E
+15 10 0 250d1+1 2d3+6
+1d1+6 18000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 13
+Con: 10
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 3
+Skill: 155 30
+Skill: 160 30
+E
+T 104322
+I глаза,10:4
+#104306
+десятник бравый~
+бравый десятник~
+бравого десятника~
+бравому десятнику~
+бравого десятника~
+бравым десятником~
+бравом десятнике~
+Бравый десятник осматривается вокруг.
+~
+Рослый степняк умом и отвагой заслуживший свой чин.
+~
+b0g0l0m0q2 k0r0A0 -600 E
+15 8 -2 10d10+2 4d4+10
+2d2+16 35000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 21
+Con: 10
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 3
+Feat: 65
+Feat: 66
+Feat: 68
+Spell: 150
+Spell: 4
+Skill: 4 35
+E
+T 104315
+I зубы,10:5
+#104307
+часовой~
+часовой~
+часового~
+часовому~
+часового~
+часовым~
+часовом~
+Бдительный часовой стоит на своем посту.
+~
+Не робкого десятка взрослый мужчина.
+~
+b0g0m0x0q2 d0k0p0 -600 E
+15 12 0 200d1+1 3d3+7
+0d0+6 12000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 3
+E
+I глаза,10:4
+#104308
+страж внутреннего круга~
+страж внутреннего круга~
+стража внутреннега круга~
+стражу внутреннегу круга~
+стража внутреннего круга~
+стражем внутреннегом круга~
+страже внутреннеге круга~
+Гордый стражник обводит Вас взглядом.
+~
+Только лучшие из лучших доспускаются к несению службы во внутреннем 
+круге, а это о многом говорит.
+~
+b0f0g0l0m0x0q2 d0k0r0 -600 E
+15 10 0 10d10+170 3d3+6
+2d2+8 18000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 16
+Con: 10
+Cha: 10
+LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: a0b0c0d0
+Spell: 90
+Spell: 90
+Skill: 137 25
+E
+T 104320
+#104309
+сотник~
+сотник~
+сотника~
+сотнику~
+сотника~
+сотником~
+сотнике~
+Пожилой сотник внимательно смотрит на  Вас.
+~
+Командир выигравший не одно сражение не даром есть свой хлеб.
+~
+b0g0l0m0q2 d0k0r0 -600 E
+20 5 -3 10d10+250 4d4+12
+4d4+30 40000
+8 6 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 17
+Int: 10
+Wis: 10
+Dex: 23
+Con: 16
+Cha: 10
+LikeWork: 50
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 1
+Feat: 3
+Feat: 55
+Spell: 156
+Spell: 156
+Skill: 132 60
+Helper: 104303
+Helper: 104333
+E
+T 104325
+#104310
+шаман~
+шаман~
+шамана~
+шаману~
+шамана~
+шаманом~
+шамане~
+Мудрый шаман стоит здесь.
+~
+Степняк весь увешанный амулетами.
+~
+b0f0g0l0m0q2 d0k0 -600 E
+17 16 -1 1d1+280 2d2+6
+4d4+16 35000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 40
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 14
+Int: 16
+Wis: 17
+Dex: 15
+Con: 16
+Cha: 10
+LikeWork: 75
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 28
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 82
+Spell: 82
+Skill: 165 50
+E
+T 104316
+I кожа,10:5
+#104311
+ученик шамана~
+ученик шамана~
+ученика шамана~
+ученику шамана~
+ученика шамана~
+учеником шамана~
+ученике шамана~
+Молодой ученик шамана мило улыбается Вам.
+~
+Юноша решивший стать шаманом.
+~
+b0g0m0q2 k0r0 -600 E
+14 11 0 10d10+100 3d3+6
+2d2+2 18000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 13
+Wis: 14
+Dex: 15
+Con: 10
+Cha: 10
+LikeWork: 50
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 4
+Feat: 5
+Feat: 6
+Spell: 54
+Skill: 137 45
+E
+T 104317
+#104312
+хан~
+хан~
+хана~
+хану~
+хана~
+ханом~
+хане~
+Хан вальяжно развалился на подушках.
+~
+Немолодой тучный степняк, с нежными халеными руками не знавшими тяжелой 
+работы.
+~
+b0g0m0n0q2 d0k0r0A0 -600 E
+25 6 -4 10d10+300 4d4+10
+2d2+40 50000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 17
+Con: 17
+Cha: 10
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 3
+Feat: 11
+Spell: 15
+Spell: 93
+Skill: 5 50
+Helper: 104302
+Helper: 104303
+Helper: 104331
+Helper: 104332
+Helper: 104339
+Helper: 104309
+E
+T 104303
+T 104308
+#104313
+ночной дозорный~
+ночной дозорный~
+ночного дозорного~
+ночному дозорному~
+ночного дозорнова~
+ночным дозорным~
+ночном дозорном~
+Дозорный внимательно смотрит по сторонам.
+~
+Нукер с горящими глазами - наверняка тут не обошлось без снадобий шамана.
+~
+g0j0m0i1q2 f0k0r0 -600 E
+18 10 -1 10d10+200 3d4+7
+4d2+6 20000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 11
+Str: 10
+Int: 13
+Wis: 13
+Dex: 15
+Con: 10
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 64
+Spell: 64
+Skill: 131 50
+Skill: 160 50
+E
+T 104324
+#104314
+старший дозора~
+старший дозора~
+старшего дозоры~
+старшему дозоре~
+старшего дозора~
+старшим дозорой~
+старшем дозоре~
+Опытный дозорный проходит рядом.
+~
+Опытный дозорный отстоявший уже не одну ночную смену.
+~
+f0g0m0i1q2 d0k0r0 -600 E
+22 5 -1 10d10+260 4d4+8
+4d4+16 35000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 16
+Int: 19
+Wis: 16
+Dex: 17
+Con: 17
+Cha: 10
+LikeWork: 50
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 131
+Spell: 131
+Spell: 131
+E
+T 104306
+T 104319
+#104315
+слуга~
+слуга~
+слуги~
+слуге~
+слугу~
+слугой~
+слуге~
+Немолодой слуга  бежит с поручением.
+~
+Немолодой сломленный годами степняк.
+~
+c0g0m0q2 0 -600 E
+10 15 0 10d10+150 2d2+2
+1d1+2 10000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 12
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 136 30
+E
+#104316
+служанка~
+служанка~
+служанки~
+служанке~
+служанку~
+служанкой~
+служанке~
+Молодая служанка подметает ковры.
+~
+Молодая красивя женщина.
+~
+g0m0A0q2 0 -600 E
+10 10 0 10d10+90 2d2+1
+2d1+1 9000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 14
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+#104317
+спящий нукер~
+спящий нукер~
+спящего нукера~
+спящему нукеру~
+спящего нукера~
+спящим нукером~
+спящем нукере~
+Нукер безмятежно спить на лежанке.
+~
+Сопящий мужик.
+~
+b0g0i1q2 0 -600 E
+12 10 0 10d10+100 3d3+3
+2d2+2 10000
+4 4 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 14
+Con: 10
+Cha: 10
+LikeWork: 25
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+#104318
+ Прачка~
+прачка~
+прачки~
+прачке~
+прачку~
+прачкой~
+прачке~
+Молодая прачка стирает одежду.
+~
+Красивая молодая девушка.
+~
+b0g0q2 0 -600 E
+10 10 0 10d10+60 2d1+1
+1d1+2 80000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: y0
+E
+T 104323
+#104319
+странствующий сказитель акын~
+странствующий сказитель~
+странствующего сказителя~
+странствующему сказителю~
+странствующего сказителя~
+странствующим сказителем~
+странствующем сказителе~
+Акын поет здесь песни.
+~
+Пожилой степняк с ярких одеждах.
+~
+b0g0k0l0m0q2 0 0 E
+10 10 0 10d10+180 3d3+2
+2d2+8 20000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 17
+Wis: 17
+Dex: 17
+Con: 10
+Cha: 17
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 2
+Feat: 3
+Feat: 62
+Spell: 154
+Spell: 56
+Skill: 136 30
+E
+T 104321
+#104320
+ Мятельник~
+мятельник~
+мятельника~
+мятельнику~
+мятельника~
+мятельником~
+мятельнике~
+Пропахший дубниной мятельник занят своим делом.
+~
+Немолодой мастер по выделке кожи.
+~
+b0g0q2 k0 -600 E
+12 10 0 10d10+200 4d4+3
+4d3+6 15000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: y0
+Skill: 137 40
+E
+#104321
+ Мастер кузнец~
+мастер - кузнец~
+мастера - кузнеца~
+мастеру - кузнецу~
+мастера - кузнеца~
+мастером - кузнецом~
+мастере - кузнеце~
+Мастер кузнец машет здесь молотом.
+~
+Огромный степняк недюжей силы.
+~
+b0g0q2 k0r0 -600 E
+20 10 0 10d10+180 4d4+7
+4d4+4 20000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 16
+Con: 10
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 5 40
+E
+T 104307
+#104322
+ Мастер стрельщик~
+мастер - стрельщик~
+мастера - стрельщика~
+мастеру - стрельщику~
+мастера - стрельщика~
+мастером - стрельщиком~
+мастере - стрельщике~
+Мастер - стрельщик мастерит стрелы.
+~
+Весь вытянутый как и его стрелы степняк.
+~
+b0g0q2 k0r0 -600 E
+10 10 0 10d10+180 4d4+4
+4d2+4 16000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 10
+Int: 10
+Wis: 10
+Dex: 16
+Con: 10
+Cha: 10
+LikeWork: 50
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: y0
+Skill: 137 40
+Skill: 157 50
+E
+T 104309
+#104323
+конюший~
+конюший~
+конюшего~
+конюшему~
+конюшего~
+конюшим~
+конюшем~
+Конюший роется в своих мешках.
+~
+Пропахший конским духом степняк.
+~
+b0g0q2 0 -600 E
+15 19 0 10d10+180 2d2+5
+2d2+5 12000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 16
+Con: 10
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 132 40
+E
+#104324
+мастер щитник~
+мастер - щитник~
+мастера - щитника~
+мастеру - щитнику~
+мастера - щитника~
+мастером - щитником~
+мастере - щитнике~
+Мастер - щитник готовит делает щит.
+~
+Степняк весь исцарапанный своими инструментами.
+~
+b0g0q2 0 -600 E
+12 10 0 10d10+180 2d2+8
+2d4+6 14000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 17
+Con: 10
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: y0
+Skill: 132 40
+Skill: 137 40
+E
+T 104310
+#104325
+ Ленивый нукер~
+ленивый нукер~
+ленивого нукера~
+ленивому нукеру~
+ленивый нукер~
+ленивым нукером~
+ленивом нукере~
+Лениво развалясь на земле нукер слушает басни сказителя.
+~
+Лентяй - вот имя этого война, вместо того чтобы заниматься 
+сказки слушать пришел.
+~
+b0g0m0 k0r0 0 E
+15 10 0 10d10+200 2d2+7
+2d2+8 16000
+5 5 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 17
+Con: 10
+Cha: 10
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 3
+Skill: 137 60
+E
+#104326
+ сторожевой~
+сторожевой пес~
+сторожевого пса~
+сторожевому псу~
+сторожевого пса~
+сторожевым псом~
+сторожевом псе~
+Небольшой пес вынюхивает землю.
+~
+Коротконогая степная собаченка.
+~
+g0j0m0 d0f0k0r0 -600 E
+15 20 0 10d10+80 2d2+2
+0d0+0 8000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 0
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Skill: 2 30
+E
+I шерсть,10:5
+#104327
+копейщик~
+копейщик~
+копейщика~
+копейщику~
+копейщика~
+копейщиком~
+копейщике~
+Хмурый копейщик стоит здесь.
+~
+Внимательный воин с длинным копьем.
+~
+b0g0m0q2 k0r0 -600 E
+15 10 0 220d1+2 3d4+7
+0d0+5 15000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 10
+Str: 10
+Int: 10
+Wis: 10
+Dex: 14
+Con: 10
+Cha: 10
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: y0
+Skill: 134 25
+E
+T 104318
+#104328
+лучник~
+лучник~
+лучника~
+лучнику~
+лучника~
+лучником~
+лучнике~
+Зоркий лучник натягивает длинный лук.
+~
+Зоркий взгляд, сильные руки - что еще нужно лучнику? 
+~
+b0g0l0m0q2 k0r0 -600 E
+15 10 0 250d1+1 2d3+6
+1d1+6 18000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 13
+Con: 10
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 155 30
+Skill: 160 30
+E
+T 104322
+#104329
+часовой~
+часовой~
+часового~
+часовому~
+часового~
+часовым~
+часовом~
+Бдительный часовой стоит на своем посту.
+~
+Не робкого десятка взрослый мужчина.
+~
+b0g0m0x0q2 d0k0p0 -600 E
+15 12 0 200d1+1 3d3+7
+0d0+6 12000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+#104330
+спящий нукер~
+спящий нукер~
+спящего нукера~
+спящему нукеру~
+спящего нукера~
+спящим нукером~
+спящем нукере~
+Нукер безмятежно спить на лежанке.
+~
+Сопящий мужик.
+~
+b0g0i1q2 0 -600 E
+12 10 0 10d10+100 3d3+3
+2d2+2 10000
+4 4 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 14
+Con: 10
+Cha: 10
+LikeWork: 25
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+#104331
+младший нукер~
+младший нукер~
+младшего нукера~
+младшему нукеру~
+младшего нукера~
+младшим нукером~
+младшем нукере~
+Молодой нукер в кожанный доспехах стоит здесь.
+~
+Безусый юнец только взявший в руки оружие.
+~
+c0g0m0A0q2 k0r0 -600 E
+13 12 0 200d1+1 3d4+7
+0d0+10 15000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 12
+Con: 10
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: y0
+Spell: 16
+Skill: 136 50
+Skill: 157 25
+E
+T 104313
+#104332
+нукер~
+нукер~
+нукера~
+нукеру~
+нукера~
+нукером~
+нукере~
+Рослый нукер уверенно проходит мимо.
+~
+Повидавший не одно сражение воин.
+~
+g0l0m0q2 k0r0 -600 E
+15 10 0 250d1+1 4d4+8
+0d0+20 20000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 16
+Con: 10
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 52
+Skill: 158 40
+E
+T 104312
+#104333
+ ветеран~
+ветеран~
+ветерана~
+ветерану~
+ветерана~
+ветераном~
+ветеране~
+Убеленный сединой ветеран.
+~
+Воин в летах, закаленный множеством битв, но еще не растерявший былую силу.
+~
+g0l0m0q2 k0r0z0 -600 E
+15 9 -1 230d1+1 4d4+8
+0d0+20 22000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 17
+Con: 10
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 92
+Skill: 137 30
+E
+T 104311
+#104334
+десятник бравый~
+бравый десятник~
+бравого десятника~
+бравому десятнику~
+бравого десятника~
+бравым десятником~
+бравом десятнике~
+Бравый десятник осматривается вокруг.
+~
+Рослый степняк умом и отвагой заслуживший свой чин.
+~
+g0l0m0q2 k0r0A0 -600 E
+15 8 -2 10d10+2 4d4+10
+2d2+16 35000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 21
+Con: 10
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 150
+Spell: 4
+Skill: 4 35
+E
+T 104314
+#104335
+младший нукер~
+младший нукер~
+младшего нукера~
+младшему нукеру~
+младшего нукера~
+младшим нукером~
+младшем нукере~
+Молодой нукер в кожанный доспехах стоит здесь.
+~
+Безусый юнец только взявший в руки оружие.
+~
+c0g0m0A0q2 k0r0 -600 E
+13 12 0 200d1+1 3d4+7
+0d0+10 15000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 12
+Con: 10
+Cha: 10
+LikeWork: 45
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: y0
+Spell: 16
+Skill: 136 50
+Skill: 137 60
+Skill: 157 25
+E
+#104336
+спящий нукер~
+спящий нукер~
+спящего нукера~
+спящему нукеру~
+спящего нукера~
+спящим нукером~
+спящем нукере~
+Нукер безмятежно спить на лежанке.
+~
+Сопящий мужик.
+~
+b0g0i1q2 0 -600 E
+12 10 0 10d10+100 3d3+3
+2d2+2 10000
+4 4 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 14
+Con: 10
+Cha: 10
+LikeWork: 25
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+#104337
+прачка~
+прачка~
+прачки~
+прачке~
+прачку~
+прачкой~
+прачке~
+Молодая прачка складывает грязные вещи в плетеную корзину.
+~
+Красивая молодая девушка.
+~
+b0g0q2 0 -600 E
+10 10 0 10d10+60 2d1+1
+1d1+2 80000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: y0
+E
+#104338
+страж внутреннего круга~
+страж внутреннего круга~
+стража внутреннега круга~
+стражу внутреннегу круга~
+стража внутреннего круга~
+стражем внутреннегом круга~
+страже внутреннеге круга~
+Гордый стражник обводит Вас взглядом.
+~
+Только лучшие из лучших доспускаются к несению службы во внутреннем 
+круге, а это о многом говорит.
+~
+b0f0g0l0m0x0q2 d0k0r0 -600 E
+15 10 0 10d10+170 3d3+6
+2d2+8 18000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 16
+Con: 10
+Cha: 10
+LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: a0b0c0d0
+Spell: 90
+Spell: 90
+Skill: 137 25
+E
+T 104320
+#104339
+нукер~
+нукер~
+нукера~
+нукеру~
+нукера~
+нукером~
+нукере~
+Рослый нукер уверенно проходит мимо.
+~
+Повидавший не одно сражение воин.
+~
+g0l0m0q2 k0r0 -600 E
+15 10 0 250d1+1 4d4+8
+0d0+20 20000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 16
+Con: 10
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 52
+Skill: 158 40
+Skill: 137 60
+E
+I кости,10:5
+$
+$

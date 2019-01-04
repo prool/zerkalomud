@@ -28,6 +28,7 @@ Height: 198
 Weight: 2
 Special_Bitvector: 0 
 Skill: 134 90
+Skill: 136 42
 E
 #27601
 крестьянка~
@@ -58,6 +59,7 @@ Class: 102
 Height: 198
 Weight: 2
 Special_Bitvector: 0 
+Skill: 136 36
 Skill: 157 90
 E
 #27602
@@ -89,6 +91,7 @@ Class: 103
 Height: 198
 Weight: 2
 Special_Bitvector: 0 
+Skill: 136 42
 Skill: 157 90
 E
 #27603
@@ -120,6 +123,7 @@ Class: 103
 Height: 198
 Weight: 2
 Special_Bitvector: l0 
+Skill: 136 30
 Skill: 157 90
 E
 #27604
@@ -152,6 +156,7 @@ Height: 198
 Weight: 2
 Special_Bitvector: y0 
 Skill: 134 90
+Skill: 136 54
 Skill: 145 90
 E
 #27605
@@ -184,6 +189,7 @@ Height: 198
 Weight: 2
 Special_Bitvector: 0 
 Skill: 134 90
+Skill: 136 60
 E
 #27606
 корова~
@@ -215,6 +221,7 @@ Height: 198
 Weight: 50
 Special_Bitvector: 0 
 Skill: 132 40
+Skill: 136 42
 E
 L 1499 25 0 0
 L 1429 20 0 0
@@ -248,6 +255,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 48
 Skill: 140 90
 Skill: 157 90
 E
@@ -280,6 +288,7 @@ Class: 103
 Height: 198
 Weight: 15
 Special_Bitvector: 0 
+Skill: 136 36
 E
 #27609
 землемер~
@@ -300,7 +309,7 @@ c0d0g0n0o0A0 k0 0 E
 Str: 20
 Dex: 5
 Int: 15
-Wis: 5
+Wis: 23
 Con: 20
 Cha: 10
 Size: 20
@@ -310,6 +319,7 @@ Class: 102
 Height: 198
 Weight: 25
 Special_Bitvector: b1c1 
+Skill: 136 75
 Skill: 150 95
 Spell: 26
 Spell: 26
@@ -356,6 +366,7 @@ Height: 198
 Weight: 20
 Special_Bitvector: 0 
 Skill: 134 90
+Skill: 136 54
 Skill: 145 90
 E
 #27611
@@ -388,6 +399,7 @@ Class: 103
 Height: 198
 Weight: 10
 Special_Bitvector: b0 
+Skill: 136 60
 Spell: 6
 Spell: 6
 Spell: 6
@@ -432,6 +444,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 45
 Spell: 6
 E
 #27613
@@ -444,7 +457,7 @@ E
 усталом человеке~
 Усталый человек сидит здесь.
 ~
-Весь грязный, заросший, худущий. Видно давно здесь находится в лишениях.
+Весь грязный, заросший, худющий. Видно давно здесь находится в лишениях.
 ~
 b0d0g0n0o0 k0 600 E
 30 0 0 0d0+2000 5d10+50
@@ -462,6 +475,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 Spell: 124
 E
 #27614
@@ -480,6 +494,7 @@ b0d0g0l0m0n0o0k1 k0 -600 E
 17 4 4 0d0+300 4d2+2
 0d0+0 18000
 8 8 1
+BareHandAttack: 4
 Str: 20
 Dex: 10
 Int: 3
@@ -494,6 +509,7 @@ Height: 198
 Weight: 20
 Special_Bitvector: 0 
 Skill: 132 90
+Skill: 136 51
 Skill: 157 90
 E
 T 27608
@@ -528,6 +544,7 @@ Class: 103
 Height: 198
 Weight: 1
 Special_Bitvector: l0 
+Skill: 136 36
 E
 #27616
 белый заяц~
@@ -559,6 +576,7 @@ Class: 103
 Height: 198
 Weight: 1
 Special_Bitvector: n0 
+Skill: 136 36
 E
 #27617
 злой волк~
@@ -590,6 +608,7 @@ Height: 198
 Weight: 2
 Special_Bitvector: 0 
 Skill: 132 90
+Skill: 136 51
 Skill: 157 90
 E
 $

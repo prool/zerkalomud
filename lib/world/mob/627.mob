@@ -11,7 +11,7 @@
 Серый санитар леса, который если оголодает, то чертовски опасен.
 ~
 d0f0l0m0 k0z0A0m1 -600 E
-25 0 -6 10d10+500 8d3+10
+25 0 0 10d10+500 8d3+10
 0d0+0 10000
 8 8 1
 BareHandAttack: 4
@@ -27,7 +27,7 @@ Class: 103
 Height: 150
 Weight: 120
 Special_Bitvector: 0 
-Skill: 132 50
+Skill: 136 75
 Skill: 137 40
 E
 #62701
@@ -187,6 +187,7 @@ Height: 140
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 50
+Skill: 136 81
 Skill: 157 60
 E
 I зубы,6:5
@@ -223,6 +224,7 @@ Weight: 140
 Special_Bitvector: 0 
 Skill: 5 70
 Skill: 132 100
+Skill: 136 84
 E
 I когти,6:5
 #62706
@@ -257,6 +259,7 @@ Height: 170
 Weight: 60
 Special_Bitvector: a1b1 
 Skill: 131 80
+Skill: 136 84
 Skill: 137 100
 Spell: 15
 E
@@ -292,6 +295,7 @@ Weight: 85
 Special_Bitvector: y0 
 Skill: 5 10
 Skill: 134 80
+Skill: 136 87
 Skill: 137 100
 Skill: 150 100
 E
@@ -325,6 +329,7 @@ Class: 103
 Height: 50
 Weight: 50
 Special_Bitvector: g0m0 
+Skill: 136 72
 Spell: 33
 Spell: 33
 Spell: 33

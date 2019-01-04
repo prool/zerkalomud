@@ -30,6 +30,7 @@ Weight: 70
 Special_Bitvector: p0 
 Skill: 4 50
 Skill: 134 80
+Skill: 136 75
 Skill: 160 30
 Spell: 27
 Spell: 27
@@ -50,9 +51,9 @@ E
 Рваная телогрейка с воткнувшимися ветками висит на голых плечах крепкого
 лесоруба. Теплые, добротные сапоги из шкуры медведя обуты на ноги.
 ~
-c0d0h1o1 k0m0r0k1 -600 E
+c0d0h1 k0m0r0k1 -600 E
 25 0 -4 10d10+1000 7d2+7
-0d0+0 100000
+0d0+0 20000
 8 8 1
 BareHandAttack: 3
 Str: 26
@@ -69,6 +70,7 @@ Height: 170
 Weight: 90
 Special_Bitvector: y0b1c1 
 Skill: 5 80
+Skill: 136 75
 Skill: 142 80
 E
 T 86403
@@ -130,7 +132,7 @@ E
 ~
 d0g0m0n0o0v0x0A0 k0n0r0z0A0z1 -600 E
 29 14 -5 10d10+2200 3d7+6
-10d2+20 200000
+10d2+20 124000
 8 8 1
 BareHandAttack: 3
 Str: 27
@@ -170,15 +172,15 @@ T 86407
 мечей. Длинные усы, лихо закручены дугой.
 ~
 d0m0n0o0v0A0 m0 -600 E
-27 2 -3 10d10+2000 3d7+4
-0d0+0 100000
-8 8 0
+27 2 -3 10d10+1200 3d7+4
+0d0+0 80000
+8 8 1
 BareHandAttack: 10
-Str: 10
-Dex: 10
-Int: 10
-Wis: 10
-Con: 10
+Str: 25
+Dex: 18
+Int: 16
+Wis: 12
+Con: 22
 Cha: 10
 Size: 100
 LikeWork: 15
@@ -207,7 +209,7 @@ E
 ~
 c0d0m0n0o0v0x0A0 c0d0f0k0m0r0x1z1 -600 E
 30 3 0 10d10+1500 2d6+3
-5d5+5 150000
+5d5+5 110000
 8 8 1
 BareHandAttack: 3
 Str: 28
@@ -285,14 +287,14 @@ T 86400
 ~
 c0d0m0n0o0v0x0A0 f0k0n0r0s0t0z0 -600 E
 30 0 -7 10d10+1500 2d6+3
-5d5+5 150000
+5d5+5 110000
 8 8 1
 BareHandAttack: 11
 Str: 28
 Dex: 12
 Int: 13
 Wis: 16
-Con: 27
+Con: 20
 Cha: 14
 Size: 100
 LikeWork: 35
@@ -318,9 +320,9 @@ E
 ~
 Польский дворянин, видимо состоящий на службе у тевтонцев.
 ~
-c0d0m0n0o0v0x0A0 f0k0n0r0s0t0z0 -600 E
+c0d0m0n0o0v0x0A0 f0k0n0r0z0 -600 E
 30 0 -10 10d10+1500 5d12+20
-5d5+5 150000
+5d5+5 110000
 8 8 1
 BareHandAttack: 7
 Str: 28
@@ -336,7 +338,7 @@ ExtraAttack: 1
 Class: 102
 Height: 195
 Weight: 95
-Special_Bitvector: i0j0a1b1c1 
+Special_Bitvector: a1b1c1 
 Skill: 5 80
 Skill: 136 80
 Skill: 137 100
@@ -379,6 +381,7 @@ Height: 140
 Weight: 70
 Special_Bitvector: p0 
 Skill: 134 80
+Skill: 136 75
 Skill: 160 30
 Spell: 27
 Spell: 27
@@ -400,7 +403,7 @@ T 86406
 ~
 b0c0d0m0n0o0x0A0 k0n0r0x1z1 -600 E
 30 2 0 10d10+1500 2d6+3
-5d5+5 150000
+5d5+5 110000
 8 8 1
 BareHandAttack: 3
 Str: 28
@@ -436,7 +439,7 @@ E
 ~
 b0c0d0m0n0o0x0A0 k0n0r0x1z1 -600 E
 30 1 0 10d10+1500 2d6+3
-5d5+5 150000
+5d5+5 110000
 8 8 1
 BareHandAttack: 9
 Str: 28
@@ -474,7 +477,7 @@ E
 ~
 b0c0d0m0n0o0x0A0 k0n0r0x1z1 -600 E
 30 2 0 10d10+1500 2d6+3
-5d5+5 150000
+5d5+5 110000
 8 8 1
 BareHandAttack: 3
 Str: 28
@@ -510,7 +513,7 @@ E
 ~
 b0c0d0m0n0o0x0A0 k0n0r0x1z1 -600 E
 30 1 0 10d10+1500 2d6+3
-5d5+5 150000
+5d5+5 110000
 8 8 1
 BareHandAttack: 9
 Str: 28

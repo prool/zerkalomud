@@ -3,7 +3,7 @@
 0 f 100
 ~
 if (%world.curobjs(91408)% < 4) && (%random.8% == 1)
-   mload obj 91408
+  mload obj 91408
 end
 ~
 #91401
@@ -11,10 +11,10 @@ end
 0 f 100
 ~
 if (%world.curobjs(91413)% < 4) && (%random.9% == 1)
-   mload obj 91413
+  mload obj 91413
 end
 if (%random.10% == 1)
-mload obj 590
+  mload obj 590
 end
 ~
 #91402
@@ -22,7 +22,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(91411)% < 21) && (%random.11% == 1)
-   mload obj 91411
+  mload obj 91411
 end
 ~
 #91403
@@ -30,15 +30,18 @@ end
 0 f 100
 ~
 if (%world.curobjs(91414)% < 5) && (%random.14% == 1)
-   mload obj 91414
+  mload obj 91414
 end
 ~
 #91404
 умер дикобраз~
 0 f 100
 ~
+if %random.100% < 3 && %world.curobjs(3360)% < 1 && %world.curobjs(3361)% < 1 
+  mload obj 3360
+end
 if (%world.curobjs(91415)% < 15) && (%random.6% == 1)
-   mload obj 91415
+  mload obj 91415
 end
 ~
 #91405
@@ -46,10 +49,10 @@ end
 0 f 100
 ~
 if (%world.curobjs(91416)% == 0) 
-   mload obj 91416
+  mload obj 91416
 end
 if %world.curobjs(1280)% < 1 && %world.curobjs(1281)% < 1 && %random.100% < 3
-mload obj 1280
+  mload obj 1280
 end
 ~
 #91406
@@ -57,7 +60,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(91408)% < 4) && (%random.20% == 1)
-   mload obj 91408
+  mload obj 91408
 end
 ~
 #91407
@@ -65,7 +68,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(91422)% < 10) && (%random.18% == 1)
-   mload obj 91422
+  mload obj 91422
 end
 ~
 #91408
@@ -73,23 +76,28 @@ end
 2 c 1
 нырнуть~
 if !(%arg.contains(дыра)%)
-wsend %actor% Куда это Вы хотите нырнуть???
-return 0
-halt
+  wsend %actor% Куда это Вы хотите нырнуть???
+  return 0
+  halt
 else
-if %actor.fighting%
-wsend %actor% Вы не можете нырнуть пока сражаетесь.
-end
-wsend %actor% Вы нырнули в болото и начали  протискиваться в дыру.
-wechoaround %actor% %actor.name%, нырнул в болото.
-wait 1s
-if %random.3% == 1
-wteleport невиданное_91433 91421
-end
-wsend %actor.name% .- Похоже Вы проплыли под островом...
-wteleport %actor.name% 91421
-wat 91421 wechoaround %actor% Кто-то вынырнул из болота.
-%actor.wait(2)%
+  if %actor.fighting%
+    wsend %actor% Вы не можете нырнуть пока сражаетесь.
+  end
+  wsend %actor% Вы нырнули в болото и начали  протискиваться в дыру.
+  wechoaround %actor% %actor.name%, нырнул в болото.
+  wait 1s
+  if %random.3% == 1
+    wteleport невиданное_91433 91421
+  elseif %random.3% == 1
+    wteleport невиданное_91432 91421
+  elseif %random.3% == 1
+    wteleport невиданное_91431 91421
+  end
+  wsend %actor.name% .- Похоже Вы проплыли под островом...
+  wteleport %actor% 91421
+  wat 91421 wforce невиданное_ уб %actor.name%
+  wat 91421 wechoaround %actor% Кто-то вынырнул из болота.
+  %actor.wait(8)%
 end
 ~
 #91409
@@ -97,7 +105,7 @@ end
 0 q 100
 ~
 mecho _Великанша посмотрела на Вас и зловеще улыбнулась.
-  wait 1s
+wait 1s
 say Еще один герой пришел
 say Ну говори, что тебе надобно
 attach 91410 %self.id%
@@ -132,25 +140,25 @@ detach 91410 %self.id%
 0 j 100
 ~
 if %object.vnum% == 91401 then
-wait 2s
+  wait 2s
   mecho _Великанша внимательно осмотрела ключ
-wait 1s
+  wait 1s
   say Надо же. Тот самый. 
-wait 1s
+  wait 1s
   say Эх... Договор есть договор...
   дать знак %actor.name%
   say А красивая безделушка была
-wait 1s
-mecho _Великанша вздохнула и отвернулась к костру.
-calcuid znak 91401 obj
-mpurge %znak.name%
-detach 91411 %self.id%
+  wait 1s
+  mecho _Великанша вздохнула и отвернулась к костру.
+  calcuid znak 91401 obj
+  mpurge %znak%
+  detach 91411 %self.id%
 else
-wait 1s
+  wait 1s
   say Ты обмануть меня хотел!!!
-wait 2s
- mkill %actor.name%
- detach 91411 %self.id%
+  wait 2s
+  mkill %actor.name%
+  detach 91411 %self.id%
 end
 ~
 #91412
@@ -176,23 +184,23 @@ wait 1s
 mecho _Огромная гранитная глыба перед вами зашевелилась.
 wait 1s
 say Приветствую Вас!
-say Давно никто не приходил сюда с этой стороны прохода
+say Давно никто не приходил сюда с этой стороны прохода.
 wait 1s
-say С другой стороы недавно проходил один молодец
+say А вот с другой стороны недавно проходил один молодец...
 say Вы его часом не встречали?
 wait 2s
 mecho _Страж пошевелился и пристально посмотрел на вас.
-say Похоже что не встречался - тот еще пройдоха
-say Я его поначалу за богатыря принял, а он ворюгой обыкновенным оказался
-say Схватил символ, открывающий путь и сбежал...
+say Похоже, что не встречался - тот еще пройдоха.
+say Я его поначалу за богатыря принял, а он ворюгой обыкновенным оказался.
+say Схватил символ, открывающий путь, и сбежал...
 wait 1s
 say А без него открыть проход невозможно.
 wait 3s
-say Хотя погоди, он семью великанов тут искал, что в Древнем лесу живут
-say И коли вы его не встречали наверное к ним на обед как раз и пришел
+say Хотя погоди, он семью великанов тут искал, что в Древнем лесу живут.
+say И коли вы его не встречали, наверное, к ним на обед как раз и пришел.
 wait 1s
-say Если хочешь %actor.name% сходи поищи, может символ у них
-say Они не такие уж и злые, если хорошо попросить, может сразу и не съедят
+say Если хочешь, %actor.name%, сходи поищи, может, символ у них.
+say Они не такие уж и злые, если хорошо попросить, может, сразу и не съедят.
 wait 1s
 say Если принесешь символ, я проход открою.
 attach 91414 %self.id%
@@ -203,40 +211,43 @@ detach 91413 %self.id%
 0 j 100
 ~
 if %object.vnum% == 91400 then
-wait 1s
-msend %actor% Вы показали гранитный символ Стражу.
-wait 1s
-say Да, это он
-wait 1s
-say Приготовься, сейчас я открою проход
-wait 2s
+  wait 1s
+  msend %actor% Вы показали гранитный символ Стражу.
+  wait 1s
+  say Да, это он
+  wait 1s
+  say Приготовься, сейчас я открою проход
+  wait 2s
   mecho Гладкая стена медленно растворилась.
   mecho Резко изменивший направление ветер подхватил Вас и понес вперед.
-mdoor 91497 east room 91550
-wait 1s
-  mteleport all 91550 
-detach 91414 %self.id%
+  mdoor 91497 east room 91550
+  wait 1s
+  mteleport all 91550 horse
+  detach 91414 %self.id%
 else
   wait 2s
   say Нет, этим я проход открыть не смогу
   wait 1s
   say Принеси что-нибудь другое
-бро все
-mjunk all
+  бро все
+  mjunk all
 end
 ~
 #91415
 триггер паука ловчего~
 0 q 100
 ~
+wait 1
 mecho _Паук спрыгнул с паутины и бросился на Вас.
 mkill %actor.name%
 wait 14s
-mechoaround %actor.name% Паук вдруг прыгнул на %actor.vname%, схватил %actor.vname% передними лапами, и убежал в лес
-msend %actor.name% Паук вдруг прыгнул на Вас и укусил.
-msend %actor.name% Вы потеряли сознание.
-mteleport %actor.name% 91457
-mteleport моб_91418 91456
+if (%actor.realroom% == %self.realroom%)
+  mechoaround %actor.name% Паук вдруг прыгнул на %actor.vname%, схватил %actor.vname% передними лапами, и убежал в лес
+  msend %actor.name% Паук вдруг прыгнул на Вас и укусил.
+  msend %actor.name% Вы потеряли сознание.
+  mteleport %actor% 91457
+  mteleport моб_91418 91456
+end
 detach 91415 %self.id%
 ~
 #91416
@@ -244,7 +255,57 @@ detach 91415 %self.id%
 0 f 100
 ~
 if (%world.curobjs(91400)% == 0)
-mload obj 91400
+  mload obj 91400
+end
+~
+#91493
+триггер открытия врат в комнате~
+2 z 100
+~
+log &Rоткрылся триггерный портал из %self.vnum% в %eroom% !!!&n
+wecho ________ &C Божественные врата открылись в [ &W%eroom%&C] !!! &n
+wdoor %self.vnum% down room %eroom%
+wait 7s
+wdoor %self.vnum% down purge
+unset eroom
+detach 91493 %self.id%
+~
+#91494
+триггер суперпутешествий~
+1 c 1
+портал~
+if !%actor.name%
+  oecho Имминвиз выключи, да ?
+  halt
+end
+log &R%actor.name% воспользовался триггерным порталом!&n
+set sroom %actor.realroom%
+calcuid rum %sroom% room
+set eroom %arg% 
+remote eroom %rum.id%
+attach 91493 %rum.id%
+exec 91493 %rum.id%
+wait 7s
+halt
+set staff 110310
+set i 2000
+while %staff% < 110366
+  while %i% > 1
+    eval i %i% - 1
+    wait 2
+    calcuid stf %staff% obj
+    opurge stf
+  done
+  eval staff %staff%+1
+done
+~
+#91495
+эйнира адвансим~
+2 c 100
+адвансить~
+halt
+if %actor.name% == Эйнир
+  %actor.exp(+400000)%
 end
 ~
 #91496
@@ -252,9 +313,9 @@ end
 1 c 4
 *~
 if %actor.name% == %caster.name%
-oforce %actor% %cmd%
+  oforce %actor% %cmd%
 else
-halt
+  halt
 end
 ~
 #91497
@@ -265,9 +326,9 @@ set caster %actor%
 remote caster %self.id%
 attach 91496 %self.id%
 if %victim%
-log &r%actor.name% использовал%actor.g% &WОСТАНОВКУ ВРЕМЕНИ&r на %victim.name%!&g
+  log &r%actor.name% использовал%actor.g% &WОСТАНОВКУ ВРЕМЕНИ&r на %victim.name%!&g
 else
-log &r %actor.name% использовал%actor.g% &WОСТАНОВКУ ВРЕМЕНИ&r в комнате %caster.realroom%!&g
+  log &r %actor.name% использовал%actor.g% &WОСТАНОВКУ ВРЕМЕНИ&r в комнате %caster.realroom%!&g
 end
 wait 30s
 opurge %self%
@@ -288,7 +349,7 @@ exec 91534 %blakraid.id%
 0 c 1
 читинг~
 if %cmd% == читинг
-%arg%
+  %arg%
 end
 ~
 $~

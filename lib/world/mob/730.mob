@@ -25,6 +25,7 @@ Height: 30
 Weight: 120
 Special_Bitvector: y0 
 Skill: 4 50
+Skill: 136 75
 Skill: 151 50
 Skill: 157 50
 E
@@ -57,6 +58,7 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: y0 
+Skill: 136 75
 E
 #73002
 Рязанский богатырь~
@@ -119,6 +121,7 @@ Class: 102
 Height: 180
 Weight: 100
 Special_Bitvector: y0b1c1 
+Skill: 136 87
 Skill: 137 80
 Skill: 154 80
 Skill: 155 85
@@ -154,6 +157,7 @@ Weight: 50
 Special_Bitvector: y0b1c1C3 
 Skill: 12 80
 Skill: 22 80
+Skill: 136 84
 Skill: 137 80
 Skill: 141 80
 Skill: 143 80
@@ -191,6 +195,7 @@ Height: 30
 Weight: 80
 Special_Bitvector: i0a1 
 Skill: 131 70
+Skill: 136 51
 Skill: 139 50
 Spell: 15
 E
@@ -210,13 +215,14 @@ I глаза,10:5
 c0d0g0 0 -600 E
 20 5 3 50d7+300 4d4+4
 0d0+0 1
-8 8 1
+8 8 2
 Size: 50
 ExtraAttack: 1
 Class: 102
 Height: 30
 Weight: 100
 Special_Bitvector: y0 
+Skill: 136 60
 E
 #73007
 Князь~
@@ -246,6 +252,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 22 20
 Skill: 136 75
 Skill: 160 33
@@ -263,6 +279,7 @@ Spell: 68
 Spell: 93
 Spell: 93
 Helper: 73004
+Skill: 136 96
 E
 #73008
 Слепой ведун~
@@ -285,7 +302,9 @@ Class: 105
 Height: 30
 Weight: 80
 Special_Bitvector: i3 
+Skill: 136 90
 E
+T 73000
 #73009
 Батюшка~
 батюшка~
@@ -399,6 +418,7 @@ Class: 102
 Height: 30
 Weight: 80
 Special_Bitvector: i3 
+Skill: 136 3
 E
 #73012
 Рязанский горожанин~
@@ -421,9 +441,10 @@ Class: 102
 Height: 30
 Weight: 120
 Special_Bitvector: y0 
+Skill: 136 3
 E
 #73013
-ремесленник~
+ремесленник_73013~
 ремесленник~
 ремесленника~
 ремесленнику~
@@ -443,6 +464,7 @@ Class: 102
 Height: 30
 Weight: 80
 Special_Bitvector: i3 
+Skill: 136 3
 E
 #73014
 Трактирщик~
@@ -465,6 +487,7 @@ Class: 102
 Height: 30
 Weight: 50
 Special_Bitvector: i3 
+Skill: 136 3
 E
 #73015
 Усатый мужичок~
@@ -487,6 +510,7 @@ Class: 102
 Height: 30
 Weight: 100
 Special_Bitvector: i3 
+Skill: 136 3
 E
 #73016
 Молодая деваха~
@@ -509,6 +533,7 @@ Class: 102
 Height: 30
 Weight: 100
 Special_Bitvector: i3 
+Skill: 136 3
 E
 #73017
 Пастух~
@@ -542,13 +567,14 @@ Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
 Skill: 4 60
+Skill: 136 81
 Skill: 157 50
 Skill: 160 33
 E
 #73018
 Грустная корова~
 грустная корова~
-грустную корову~
+грустной коровы~
 грустной корове~
 грустную корову~
 грустной коровой~
@@ -557,13 +583,11 @@ E
 ~
 Грустная корова щиплет пожухлую травку.
 ~
-d0s0a1l1m1n1 0 -600 E
+d0s0y0a1l1m1n1 0 -600 E
 15 3 0 10d10+500 7d2+12
 0d0+0 32000
 8 8 2
 BareHandAttack: 14
-Destination: 73067
-Destination: 73065
 Str: 10
 Dex: 10
 Int: 10
@@ -579,6 +603,7 @@ Weight: 85
 Special_Bitvector: 0 
 Skill: 5 50
 Skill: 132 70
+Skill: 136 45
 Skill: 158 50
 E
 I копыта,10:2
@@ -610,6 +635,7 @@ Class: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 54
 Spell: 26
 Spell: 26
 Spell: 26
@@ -699,6 +725,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
+Skill: 136 81
 Skill: 160 33
 E
 #73022
@@ -732,6 +759,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
+Skill: 136 81
 Skill: 160 33
 E
 $

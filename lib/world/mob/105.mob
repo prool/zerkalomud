@@ -59,6 +59,7 @@ Class: 102
 Height: 198
 Weight: 70
 Special_Bitvector: c1 
+Skill: 136 57
 Spell: 6
 Spell: 15
 Spell: 17
@@ -97,6 +98,7 @@ Class: 102
 Height: 198
 Weight: 160
 Special_Bitvector: b1c1 
+Skill: 136 60
 Spell: 15
 Spell: 15
 Spell: 15
@@ -136,6 +138,7 @@ Class: 102
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 6
 E
 T 10502
 #10504
@@ -191,6 +194,7 @@ Spell: 76
 Spell: 76
 E
 T 10501
+T 10505
 #10505
 злой людоед~
 злой людоед~
@@ -280,6 +284,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 54
 E
 #10508
 цепной пес~

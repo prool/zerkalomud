@@ -29,6 +29,7 @@ Class: 102
 Height: 198
 Weight: 190
 Special_Bitvector: b1c1 
+Skill: 136 66
 Skill: 137 40
 Skill: 151 50
 E
@@ -73,6 +74,7 @@ Skill: 4 30
 Skill: 5 5
 Skill: 132 10
 Skill: 134 50
+Skill: 136 66
 E
 #34202
 корова~
@@ -102,6 +104,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 134 7
+Skill: 136 45
 E
 #34203
 крестьянин сторож~
@@ -135,6 +138,7 @@ Class: 102
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
+Skill: 136 66
 Skill: 160 20
 E
 T 34204
@@ -171,9 +175,11 @@ Weight: 200
 Special_Bitvector: 0 
 Skill: 22 50
 Skill: 132 45
+Skill: 136 69
 Skill: 151 60
 E
 T 34206
+T 34216
 #34205
 лучник~
 лучник~
@@ -204,6 +210,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: a0b0c0d0e0f0 
+Skill: 136 66
 Skill: 157 30
 E
 #34206
@@ -238,6 +245,7 @@ Height: 198
 Weight: 190
 Special_Bitvector: b1c1 
 Skill: 132 75
+Skill: 136 75
 Skill: 137 70
 Skill: 150 50
 Skill: 151 80
@@ -274,6 +282,7 @@ Class: 102
 Height: 198
 Weight: 70
 Special_Bitvector: y0b1c1d1 
+Skill: 136 42
 E
 T 34208
 #34208
@@ -308,6 +317,7 @@ Height: 198
 Weight: 85
 Special_Bitvector: 0 
 Skill: 22 75
+Skill: 136 75
 Skill: 151 80
 Spell: 15
 Spell: 15
@@ -351,6 +361,7 @@ Height: 198
 Weight: 85
 Special_Bitvector: 0 
 Skill: 22 75
+Skill: 136 75
 Skill: 151 80
 Spell: 28
 Spell: 82
@@ -392,6 +403,7 @@ Height: 198
 Weight: 85
 Special_Bitvector: 0 
 Skill: 22 75
+Skill: 136 75
 Skill: 151 80
 Spell: 82
 Spell: 82
@@ -416,8 +428,8 @@ E
 что он в замешательстве от вашего появления.
 ~
 b0d0e0g0m0n0o0x0A0 d0e0f0k0 0 E
-28 0 -9 10d10+800 2d5+20
-5d100+4 60000
+28 0 -9 10d10+800 6d5+20
+5d100+4 95000
 8 8 1
 BareHandAttack: 3
 Str: 25
@@ -433,7 +445,18 @@ Class: 104
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 132 90
+Skill: 136 84
 Skill: 150 75
 Skill: 151 80
 Spell: 82
@@ -481,6 +504,7 @@ Height: 198
 Weight: 130
 Special_Bitvector: i0b1c1 
 Skill: 131 60
+Skill: 136 66
 Skill: 138 60
 Skill: 157 70
 E
@@ -526,6 +550,7 @@ Class: 102
 Height: 198
 Weight: 70
 Special_Bitvector: b1c1d1 
+Skill: 136 63
 Spell: 15
 Spell: 15
 Spell: 15
@@ -572,6 +597,7 @@ Class: 105
 Height: 198
 Weight: 80
 Special_Bitvector: l0b1c1 
+Skill: 136 81
 Spell: 6
 Spell: 23
 Spell: 23
@@ -624,6 +650,7 @@ Height: 198
 Weight: 180
 Special_Bitvector: a1b1c1d1 
 Skill: 131 80
+Skill: 136 75
 Skill: 157 70
 Skill: 160 70
 E
@@ -658,6 +685,17 @@ Class: 104
 Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 84
 Skill: 157 80
 Skill: 160 70
 Spell: 23
@@ -704,6 +742,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
+Skill: 136 84
 Spell: 15
 Spell: 15
 Spell: 15
@@ -765,6 +804,7 @@ Height: 198
 Weight: 180
 Special_Bitvector: y0b1c1 
 Skill: 132 90
+Skill: 136 84
 Skill: 137 90
 Skill: 142 100
 Skill: 148 100
@@ -809,6 +849,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: b1c1 
+Skill: 136 75
 Spell: 15
 Spell: 15
 Spell: 15
@@ -876,6 +917,7 @@ Class: 102
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 160 100
 E
 #34221
@@ -919,6 +961,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 81
 Skill: 150 100
 E
 T 34208
@@ -963,6 +1006,7 @@ Height: 198
 Weight: 180
 Special_Bitvector: y0b1c1 
 Skill: 132 90
+Skill: 136 72
 Skill: 137 90
 E
 T 34208
@@ -1009,6 +1053,7 @@ Skill: 4 30
 Skill: 5 5
 Skill: 132 10
 Skill: 134 50
+Skill: 136 66
 E
 L 1430 18 0 0
 $

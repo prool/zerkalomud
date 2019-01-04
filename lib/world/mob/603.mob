@@ -1,3 +1,195 @@
-* BRusMUD mob file v1.0
-$
+#60300
+главный мародер~
+главный мародер~
+главного мародера~
+главному мародеру~
+главного мародера~
+главным мародером~
+главном мародере~
+Здоровенный бородатый мужик насмешливо смотрит на Вас.
+~
+Выглядит достаточно незавершенно.
+~
+c0d0f0A0g2 f0k0z0A0m1 -800 E
+25 2 -3 10d10+950 5d5+12
+20d25+100 55000
+8 8 1
+Str: 23
+Dex: 25
+Int: 21
+Con: 22
+Size: 70
+LikeWork: 100
+ExtraAttack: 1
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 22 80
+Skill: 136 80
+Skill: 137 70
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 154 80
+Skill: 155 50
+Skill: 157 90
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 156
+E
+#60301
+худой мародер~
+худой мародер~
+худого мародера~
+худому мародеру~
+худого мародера~
+худым мародером~
+худом мародере~
+Высокий, но тощий как жердь мужик, осматривается вокруг.
+~
+Выглядит достаточно незавершенно.
+~
+c0d0f0l0A0g2 h0k0a1x1y1 -800 E
+24 5 -1 10d14+700 5d5+8
+10d10+40 45000
+8 8 1
+Str: 19
+Dex: 17
+Int: 21
+Wis: 35
+Con: 18
+Size: 50
+LikeWork: 30
+ExtraAttack: 1
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 5 75
+Skill: 136 90
+Skill: 141 90
+Skill: 144 90
+Skill: 145 90
+Skill: 167 50
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 35
+Spell: 35
+Spell: 35
+Spell: 42
+Spell: 43
+Spell: 43
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 96
+E
+#60302
+озлобленный мародер~
+озлобленный мародер~
+озлобленного мародера~
+озлобленному мародеру~
+озлобленного мародера~
+озлобленным мародером~
+озлобленном мародере~
+Злой бородатый мужик стоит здесь.
+~
+Выглядит достаточно незавершенно.
+~
+c0d0f0l0A0g2 k0r0A0m1 -800 E
+24 2 0 20d20+600 6d7+16
+12d12+70 50000
+8 8 1
+Str: 23
+Dex: 13
+Int: 23
+Wis: 20
+Con: 19
+Size: 80
+LikeWork: 20
+ExtraAttack: 1
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 132 80
+Skill: 136 90
+Skill: 141 90
+Skill: 142 90
+Skill: 143 90
+Skill: 144 90
+Skill: 145 90
+Skill: 146 90
+Skill: 147 90
+Skill: 148 90
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 10
+Spell: 55
+Spell: 55
+Spell: 72
+Spell: 79
+Spell: 89
+E
+#60303
+шустрый мародер~
+шустрый мародер~
+шустрого мародера~
+шустрому мародеру~
+шустрого мародера~
+шустрым мародером~
+шустром мародере~
+Шустрый парень спрятался в тени.
+~
+Выглядит достаточно незавершенно.
+~
+c0d0f0q0A0g2 f0k0t0z0A0m1 -800 E
+23 0 -7 10d10+550 6d5+15
+5d8+40 47000
+8 8 1
+BareHandAttack: 11
+Str: 22
+Dex: 26
+Int: 19
+Con: 15
+Cha: 25
+Size: 30
+LikeWork: 100
+ExtraAttack: 1
+Height: 198
+Weight: 200
+Special_Bitvector: a1b1c1 
+Skill: 22 70
+Skill: 130 90
+Skill: 131 80
+Skill: 136 90
+Skill: 139 60
+Skill: 144 90
+Skill: 145 90
+Skill: 147 90
+Skill: 167 50
+E
 $

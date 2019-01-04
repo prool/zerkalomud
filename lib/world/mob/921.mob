@@ -8,9 +8,10 @@
 летучем змее~
 Большой змей летает тут.
 ~
-undefined~
+undefined
+~
 c0d0f0g0m0n0o0p0t0A0b1r1 d0f0k0q1 -600 E
-37 0 -10 20d30+3200 25d9+10
+37 -9 -10 20d30+3200 25d9+10
 50d100+3000 950000
 8 8 1
 BareHandAttack: 1
@@ -590,7 +591,7 @@ T 92118
 ~
 undefined~
 b0d0e0f0n0o0p0q0 d0f0k0 -600 E
-34 0 -7 0d0+7000 10d9+9
+34 -13 -7 0d0+7000 10d9+9
 0d0+0 840000
 8 8 0
 BareHandAttack: 2
@@ -691,9 +692,12 @@ T 92120
 ~
 неопределен~
 c0d0f0l0m0n0o0p0x0A0 d0f0k0 -600 E
-38 0 -5 0d0+14000 30d11+40
+38 -10 -5 0d0+14000 30d11+40
 0d0+0 1200000
 8 8 1
+Saves: 0 0 0 -50
+Armour: 50
+AResist: 40
 Str: 36
 Dex: 25
 Int: 16
@@ -706,11 +710,22 @@ ExtraAttack: 1
 Class: 104
 Height: 30
 Weight: 150
-Special_Bitvector: C3 
+Special_Bitvector: x0b1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 22 100
 Skill: 134 100
+Skill: 136 110
 Skill: 137 100
-Skill: 146 100
+Skill: 146 150
 Skill: 151 100
 E
 T 92121
@@ -741,6 +756,7 @@ Class: 100
 Height: 198
 Weight: 1
 Special_Bitvector: a0b0c0d0j0 
+Skill: 136 87
 Skill: 150 100
 Skill: 156 100
 E
@@ -756,18 +772,23 @@ T 92123
 Великанша Усоньша Виевна стоит тут.
 ~
 неопределен~
-b0c0d0f0l0m0n0o0p0u0x0A0r1 d0f0h0k0n0a1 -600 E
-40 0 -10 1d1+19000 30d12+20
+b0c0d0f0l0m0n0o0p0x0A0 d0f0k0n0a1 -600 E
+40 -14 -10 30d3+30000 30d12+20
 100d200+5000 3000000
 8 8 2
+Saves: -20 -20 -20 -40
+Resistances: 50 50 50 50 50 150 0
+CastSuccess: 80
+Success: 50
+AResist: 75
 Str: 36
 Dex: 18
 Int: 50
-Wis: 50
+Wis: 36
 Con: 36
 Cha: 16
 Size: 100
-LikeWork: 45
+LikeWork: 50
 ExtraAttack: 1
 Class: 102
 Height: 30
@@ -785,8 +806,35 @@ Skill: 146 120
 Skill: 147 120
 Skill: 148 120
 Skill: 150 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 36
+Spell: 36
 Spell: 56
 Spell: 56
+Spell: 78
+Spell: 78
+Spell: 78
+Spell: 78
+Spell: 78
 Spell: 82
 Spell: 82
 Spell: 88
@@ -794,6 +842,8 @@ Spell: 88
 Spell: 128
 Spell: 128
 Spell: 128
+Spell: 144
+Spell: 144
 Spell: 151
 Spell: 151
 Spell: 151
@@ -803,4 +853,27 @@ Helper: 92118
 E
 T 92126
 T 92128
+#92125
+неоконченный моб~
+неоконченный моб~
+неоконченного моба~
+неоконченному мобу~
+неоконченного моба~
+неоконченным мобом~
+неоконченном мобе~
+Неоконченный моб стоит тут.
+~
+Выглядит достаточно незавершенно.
+~
+d0 0 0 E
+0 20 0 1d100+1 1d1+0
+0d0+0 0
+8 8 0
+Size: 30
+Class: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Helper: 92118
+E
 $

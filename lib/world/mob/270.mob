@@ -27,6 +27,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 45
 Skill: 157 80
 Skill: 160 80
 Helper: 27000
@@ -62,6 +63,7 @@ Class: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #27002
 помощник~
@@ -93,7 +95,18 @@ Class: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 132 80
+Skill: 136 60
 Skill: 137 100
 Skill: 151 80
 E
@@ -124,6 +137,7 @@ Class: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #27004
 рыжий трактирщик~
@@ -152,6 +166,7 @@ Class: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #27005
 владелец двора корсунь~
@@ -181,6 +196,7 @@ Class: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #27006
 конюх~
@@ -210,6 +226,7 @@ Class: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #27007
 конь~
@@ -231,14 +248,15 @@ BareHandAttack: 13
 Str: 30
 Dex: 22
 Int: 3
-Con: 30
-Cha: 18
+Con: 3
+Cha: 3
 Size: 100
 MaxFactor: 15
-Class: 102
+Class: 103
 Height: 198
 Weight: 100
 Special_Bitvector: n0 
+Skill: 136 45
 E
 #27008
 воротный сторож~
@@ -273,6 +291,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 Skill: 157 80
 Skill: 160 80
 E
@@ -305,7 +324,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
-Skill: 136 80
+Skill: 136 69
 Helper: 27009
 E
 #27010
@@ -318,9 +337,9 @@ E
 хитром лавочнике~
 Хитрый лавочник стоит за прилавком здесь.
 ~
-Маленький плюгавенький мужичек с бегающими глазками.
+Маленький плюгавенький мужичок с бегающими глазками.
 ~
-b0d0g0n0o0 c0d0e0f0z0 0 E
+b0d0g0n0o0 c0d0e0f0z0D0 0 E
 30 2 -2 0d0+2000 2d20+10
 0d0+9999 0
 8 8 1
@@ -334,6 +353,7 @@ Class: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #27011
 кузнец~
@@ -364,6 +384,7 @@ Class: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #27012
 купец дородный~
@@ -393,6 +414,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #27013
 скоморох~
@@ -424,6 +446,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 137 90
 Skill: 157 80
 Skill: 160 80
@@ -458,7 +481,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
-Skill: 136 80
+Skill: 136 69
 Helper: 27009
 E
 #27015
@@ -490,6 +513,7 @@ Class: 105
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #27016
 ворожея~
@@ -511,6 +535,7 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 27011
 T 27012
@@ -545,6 +570,7 @@ ExtraAttack: 1
 Height: 180
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 Spell: 28
 Spell: 28
 Spell: 28
@@ -717,6 +743,7 @@ Size: 30
 Height: 170
 Weight: 75
 Special_Bitvector: 0 
+Skill: 136 51
 E
 T 27017
 #27021
@@ -754,6 +781,7 @@ Special_Bitvector: f0b1
 Skill: 4 120
 Skill: 22 100
 Skill: 132 90
+Skill: 136 105
 Skill: 137 200
 Skill: 158 120
 Spell: 23
@@ -805,6 +833,7 @@ Weight: 200
 Special_Bitvector: f0b1 
 Skill: 5 60
 Skill: 21 30
+Skill: 136 75
 Skill: 150 100
 Skill: 157 100
 Spell: 28
@@ -839,6 +868,7 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 27024
 T 27035
@@ -855,23 +885,26 @@ beggary нищий попрошайка~
 Тощий придурковатый мужичонка с грязной жидкой бороденкой.
 Немыслимо грязных и завшивленных лохмотьев постыдилась бы и болотная кикимора
 ~
-d0h0n0p0t0f2g2 d0f0k0 0 E
-15 5 0 20d10+420 4d8+5
+c0d0h0n0p0t0f2g2j2u2 d0f0k0 0 E
+15 -1 0 20d10+420 4d8+5
 0d0+2 2000
 8 8 1
 Str: 18
 Dex: 25
-Int: 18
+Int: 20
 Wis: 21
 Con: 14
 Cha: 3
 Size: 35
 LikeWork: 100
 ExtraAttack: 1
+Class: 102
 Height: 160
 Weight: 50
-Special_Bitvector: 0 
+Special_Bitvector: b1c1 
 Skill: 22 140
+Skill: 134 30
+Skill: 136 45
 Skill: 157 120
 Spell: 4
 Spell: 4
@@ -922,6 +955,7 @@ T 27019
 T 27020
 T 27021
 T 27022
+T 27052
 #27025
 korsguard городской стражник~
 городской стражник~
@@ -938,7 +972,7 @@ korsguard городской стражник~
 d0m0o0p0s1f2g2k2m2 d0e0f0k0m0n0z0m1 0 E
 30 -5 0 25d20+6000 8d15+8
 0d0+40 0
-8 8 1
+8 0 1
 BareHandAttack: 5
 Str: 26
 Dex: 31
@@ -953,8 +987,8 @@ Weight: 140
 Special_Bitvector: b1 
 Skill: 4 50
 Skill: 22 140
-Skill: 132 50
 Skill: 136 60
+Skill: 140 180
 Skill: 158 80
 Spell: 28
 Spell: 28
@@ -989,10 +1023,13 @@ Con: 25
 Cha: 24
 Size: 30
 ExtraAttack: 1
+Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 E
+T 27050
 #27027
 лоточник~
 лоточник~
@@ -1025,6 +1062,7 @@ ExtraAttack: 1
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 E
 T 27031
 #27028
@@ -1040,7 +1078,7 @@ T 27031
 Пожилой мастер с изрядной сединой в волосах и мозолистыми, натруженными руками.
 Это лучший мастер в городе - оттого и работу свою ценит недешево.
 ~
-b0d0n0o0B0f2 f0k0D0 600 E
+b0d0n0o0B0f2 d0f0k0D0 600 E
 28 15 0 1d100+1000 5d5+0
 0d0+0 0
 8 8 1
@@ -1055,8 +1093,10 @@ LikeWork: 1
 Height: 175
 Weight: 140
 Special_Bitvector: 0 
+Skill: 136 84
 E
-T 27034
+T 27038
+T 27039
 #27029
 молодая травница~
 молодая травница~
@@ -1083,7 +1123,8 @@ Cha: 23
 Size: 40
 Height: 160
 Weight: 70
-Special_Bitvector: b0 
+Special_Bitvector: 0 
+Skill: 136 54
 E
 T 27036
 #27030
@@ -1115,5 +1156,168 @@ Size: 50
 Height: 178
 Weight: 120
 Special_Bitvector: 0 
+Skill: 136 75
+E
+T 27041
+T 27042
+T 27043
+#27031
+завсегдатай трактира~
+завсегдатай трактира~
+завсегдатая трактира~
+завсегдатаю трактира~
+завсегдатая трактира~
+завсегдатаем трактира~
+завсегдатае трактира~
+Приткнувшийся в углу трактирный завсегдатай попивает пиво.
+~
+Мужичонка средних лет в крепком, но поношенном армяке.
+По виду - средней руки ремесленник или приказчик у небогатого
+торговца.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+5 5 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 90
+E
+#27072
+молодой горожанин парень~
+молодой горожанин~
+молодого горожанина~
+молодому горожанину~
+молодого горожанина~
+молодым горожаниным~
+молодом горожанине~
+Крепкий молодой парень потягивает заморское вино из чарки.
+~
+Молодой парень в красивой крашеной рубахе и высоких сапогах.
+На воина дружины или городского стража он похож мало - скорей
+доверенный слуга богатого купца или боярина.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+6 6 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 90
+E
+#27073
+базарный зазывала~
+базарный зазывала~
+базарного зазывалы~
+базарному зазывале~
+базарного зазывалу~
+базарным зазывалой~
+базарном зазывале~
+Базарный зазывала стоит здесь, зычным голосом расхваливая выставленный товар.
+~
+Дородный чернобородый мужик в красном кафтане,
+подпоясанном широким поясом, хороших сапогах
+и крашеных шароварах.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 90
+E
+#27074
+важный купчина~
+важный купчина~
+важного купчины~
+важному купчине~
+важного купчину~
+важным купчиной~
+важном купчине~
+Важный дородный купчина прогуливается здесь.
+~
+Дородный, в дорогом кафтане купец с окладистой бородой.
+По договору с воеводой он ведет торговлю от имени дружины.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 134 30
+Skill: 136 90
+E
+#27075
+подмастерье~
+подмастерье~
+подмастерья~
+подмастерью~
+подмастерья~
+подмастерьем~
+подмастерье~
+Подмастерье скорняка скупает шкуры у охотников.
+~
+Молодой парень, пошедший в ученики к мастеру.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+500000 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Class: 102
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 90
 E
 $

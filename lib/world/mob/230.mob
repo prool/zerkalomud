@@ -1,0 +1,440 @@
+* BRusMUD mob file v1.0
+#23000
+заяц~
+заяц~
+зайца~
+зайцу~
+зайца~
+зайцем~
+зайце~
+Пугливый заяц притаился под кустом
+~
+
+хороша дичь, да изловить еще нужно
+~
+h0p1 f0k0 0 E
+10 7 -2 3d5+150 2d4+1
+0d0+0 2500
+8 8 1
+BareHandAttack: 0
+Str: 12
+Int: 8
+Wis: 8
+Dex: 18
+Con: 10
+Cha: 6
+LikeWork: 15
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Size: 20
+Height: 30
+Weight: 50
+Special_Bitvector: n0
+E
+#23001
+матерый волк~
+волк~
+волка~
+волку~
+волка~
+волком~
+волке~
+Матерый волк предупреждающе оскалился на Вас
+~
+
+Взрослый сильный волк
+~
+e1 f0k0 0 E
+13 10 2 2d5+250 3d4+0
+0d0+0 7000
+8 8 1
+BareHandAttack: 4
+Str: 20
+Int: 10
+Wis: 10
+Dex: 13
+Con: 16
+Cha: 7
+LikeWork: 40
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Size: 50
+Height: 60
+Weight: 50
+Special_Bitvector: p0
+E
+#23002
+белка пушистая~
+пушистая белка~
+пушистой белки~
+пушистой белке~
+пушистую белку~
+пушистой белкой~
+пушистой белке~
+Шустрая белка скачет по ветвям
+~
+
+маленкьий пушистый зверек
+~
+0 f0k0 0 E
+12 10 -5 5d5+140 1d10+0
+0d0+0 7500
+8 8 2
+BareHandAttack: 4
+Str: 10
+Int: 9
+Wis: 9
+Dex: 20
+Con: 10
+Cha: 13
+LikeWork: 65
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Size: 20
+Height: 30
+Weight: 50
+Special_Bitvector: n0
+E
+#23003
+кабан секач~
+секач~
+секача~
+секачу~
+секача~
+секачем~
+секаче~
+Крупный кабан-секач роет носом землю
+~
+
+лучше у него на пути не стоять
+~
+e1 0 0 E
+16 11 3 10d10+350 10d3+2
+0d0+0 20000
+8 8 1
+BareHandAttack: 14
+Str: 25
+Int: 7
+Wis: 7
+Dex: 12
+Con: 20
+Cha: 7
+LikeWork: 15
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: p0
+Skill: 132 30
+E
+#23004
+рыжая лиса~
+лиса~
+лисы~
+лисе~
+лису~
+лисой~
+лисе~
+Рыжая лиса кого-то выслеживает в кустах
+~
+
+и вовсе она не такая хитрая как вы думали
+~
+0 d0f0k0 0 E
+14 10 0 10d2+200 2d4+1
+0d0+0 8000
+8 8 2
+BareHandAttack: 4
+Str: 13
+Int: 11
+Wis: 11
+Dex: 15
+Con: 14
+Cha: 13
+LikeWork: 13
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Size: 40
+Height: 30
+Weight: 50
+Special_Bitvector: p0
+E
+#23005
+кабаниха~
+кабаниха~
+кабанихи~
+кабанихе~
+кабаниху~
+кабанихой~
+кабанихе~
+Кабаниха учит подсвинков добывать пищу
+~
+
+Большая дикая свинья
+~
+m0l1m1n1 0 0 E
+15 10 4 50d2+300 4d3+0
+0d0+0 10000
+8 8 2
+BareHandAttack: 14
+Str: 19
+Int: 8
+Wis: 8
+Dex: 10
+Con: 18
+Cha: 6
+LikeWork: 20
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Size: 60
+Height: 80
+Weight: 80
+Special_Bitvector: p0
+E
+#23006
+меленький полосатый подсвинок~
+подсвинок~
+подсвинка~
+подсвинку~
+подсвинка~
+подсвинком~
+подсвинке~
+Маленький полосатый подсвинок семенит за матерью
+~
+
+маленький полосатый вечнохрюкающий волосатый бочонок вкуснейшего мяса
+~
+l1m1n1 0 0 E
+10 3 3 2d10+120 2d10+1
+0d0+0 3000
+8 8 1
+BareHandAttack: 4
+Str: 12
+Int: 5
+Wis: 5
+Dex: 11
+Con: 10
+Cha: 7
+LikeWork: 13
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Size: 20
+Height: 40
+Weight: 50
+Special_Bitvector: p0
+E
+#23007
+дятел~
+дятел~
+дятла~
+дятлу~
+дятла~
+дятлом~
+дятле~
+Красноголовый дятел стучит клювом по дереву
+~
+
+Средних размеров птица способная задолбать кого угодно за пять минут
+~
+g0 f0k0 0 E
+12 6 0 2d10+130 3d3+1
+0d0+0 3000
+8 8 1
+BareHandAttack: 12
+Str: 10
+Int: 6
+Wis: 6
+Dex: 20
+Con: 6
+Cha: 6
+LikeWork: 5
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Size: 20
+Height: 30
+Weight: 50
+Special_Bitvector: l0
+Skill: 157 20
+E
+#23008
+клест~
+клест~
+клеста~
+клесту~
+клеста~
+клестом~
+клесте~
+Клест повис на шишке вниз головой
+~
+
+небольшая птица с сильно изогнутым клювом
+~
+0 k0 0 E
+10 3 0 5d5+130 3d3+1
+0d0+0 3000
+8 8 1
+BareHandAttack: 12
+Str: 12
+Int: 10
+Wis: 10
+Dex: 17
+Con: 9
+Cha: 8
+LikeWork: 10
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Size: 20
+Height: 30
+Weight: 50
+Special_Bitvector: l0
+E
+#23009
+дровосек мужик хмурый~
+дровосек~
+дровосека~
+дровосеку~
+дровосека~
+дровосеком~
+дровосеке~
+Хмурого вида мужик с топором осматривает деревья
+~
+
+Обычный бородатый мужик с топором
+~
+0 0 0 E
+16 9 -2 10d5+250 5d2+1
+2d5+20 16000
+8 8 1
+BareHandAttack: 3
+Str: 22
+Int: 12
+Wis: 12
+Dex: 13
+Con: 20
+Cha: 11
+LikeWork: 40
+MaxFactor: 50
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1
+Skill: 142 30
+Skill: 5 30
+E
+#23010
+филин~
+филин~
+филина~
+филину~
+филина~
+филином~
+филине~
+Крупный нахохлившийся филин сидит на ветке
+~
+
+ночной пернатый хищник
+~
+i1 k0 0 E
+11 5 1 5d7+150 4d3+0
+0d0+0 6000
+8 8 1
+BareHandAttack: 8
+Str: 13
+Int: 12
+Wis: 12
+Dex: 15
+Con: 11
+Cha: 8
+LikeWork: 15
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Size: 20
+Height: 30
+Weight: 50
+Special_Bitvector: l0
+E
+#23011
+енот~
+енот~
+енота~
+еноту~
+енота~
+енотом~
+еноте~
+Злой енот грозно зашипел на Вас
+~
+
+маленький хищник с довольно неприятным запахом
+~
+b0i1 0 0 E
+14 3 -4 3d10+200 4d4+3
+0d0+0 15000
+8 8 1
+BareHandAttack: 4
+Str: 12
+Int: 8
+Wis: 8
+Dex: 20
+Con: 13
+Cha: 5
+LikeWork: 15
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Size: 30
+Height: 30
+Weight: 50
+Special_Bitvector: p0
+E
+#23012
+охотник~
+охотник~
+охотника~
+охотнику~
+охотника~
+охотником~
+охотнике~
+Охотник выслеживает здесь зверя
+~
+
+Бородатый мужик с луком в руках.
+К ремню привязана заячья тушка.
+~
+0 f0k0 0 E
+20 15 -6 10d5+350 4d4+1
+2d10+30 25000
+8 8 1
+BareHandAttack: 9
+Str: 25
+Int: 11
+Wis: 11
+Dex: 18
+Con: 16
+Cha: 11
+LikeWork: 40
+MaxFactor: 50
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 138 50
+Skill: 154 50
+Skill: 156 50
+Skill: 157 50
+E
+$
+$

@@ -613,6 +613,7 @@ Spell: 93
 Spell: 111
 Spell: 153
 E
+I копыта:6
 #67714
 прародитель огня~
 прародитель огня~
@@ -646,7 +647,7 @@ Weight: 100
 Special_Bitvector: x0b1c1d1C3 
 Skill: 22 45
 Skill: 134 85
-Skill: 136 100
+Skill: 136 144
 Skill: 148 100
 Skill: 158 75
 Spell: 6

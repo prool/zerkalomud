@@ -31,6 +31,7 @@ Class: 103
 Weight: 65
 Special_Bitvector: i0 
 Skill: 20 80
+Skill: 136 84
 Skill: 137 80
 Skill: 138 80
 Skill: 140 80
@@ -67,9 +68,11 @@ Weight: 60
 Special_Bitvector: 0 
 Skill: 1 80
 Skill: 132 80
+Skill: 136 75
 Skill: 157 80
 Helper: 13001
 Helper: 13000
+Skill: 136 75
 E
 T 13001
 #13002
@@ -102,6 +105,7 @@ Weight: 60
 Special_Bitvector: 0 
 Skill: 1 80
 Skill: 132 80
+Skill: 136 75
 Skill: 157 80
 E
 T 13002
@@ -136,6 +140,7 @@ Class: 102
 Weight: 70
 Special_Bitvector: 0 
 Skill: 20 90
+Skill: 136 84
 Skill: 154 90
 Skill: 155 90
 Skill: 157 90

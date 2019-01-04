@@ -29,6 +29,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 132 100
+Skill: 136 75
 Skill: 160 100
 E
 #62904
@@ -62,6 +63,7 @@ Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 12 100
 Skill: 22 100
+Skill: 136 84
 Skill: 137 100
 E
 I кожа,10:3
@@ -99,6 +101,7 @@ Special_Bitvector: b1c1B3
 Skill: 21 10
 Skill: 132 120
 Skill: 134 120
+Skill: 136 87
 Skill: 137 120
 Skill: 150 120
 Skill: 151 120
@@ -144,6 +147,7 @@ Special_Bitvector: b1c1
 Skill: 1 120
 Skill: 4 120
 Skill: 134 120
+Skill: 136 84
 Skill: 137 120
 Skill: 150 120
 Skill: 165 120
@@ -185,6 +189,7 @@ Skill: 1 120
 Skill: 4 10
 Skill: 21 15
 Skill: 134 120
+Skill: 136 84
 Skill: 137 120
 Skill: 150 120
 Skill: 165 120
@@ -203,12 +208,12 @@ E
 Прокормиться своим трудом конечно сложно!
 Вот и приходиться на большую дорогу выходить...
 ~
-c0d0f0g0A0 k0r0s0t0j1 -600 E
-26 20 -10 10d10+2000 6d6+8
-0d0+10 40000
+c0d0f0g0A0 d0k0r0s0t0j1 -600 E
+26 20 -10 10d10+500 5d5+5
+0d0+10 24000
 8 8 1
 BareHandAttack: 11
-Str: 26
+Str: 23
 Dex: 21
 Int: 13
 Wis: 13
@@ -222,12 +227,11 @@ Height: 175
 Weight: 85
 Special_Bitvector: i0j0b1c1 
 Skill: 4 50
-Skill: 131 100
 Skill: 134 120
+Skill: 136 78
 Skill: 137 120
 Skill: 150 120
 Skill: 156 100
-Skill: 160 100
 Spell: 54
 Spell: 72
 Spell: 72

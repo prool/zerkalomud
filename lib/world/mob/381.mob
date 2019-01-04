@@ -29,6 +29,7 @@ Weight: 200
 Special_Bitvector: 0 
 Skill: 2 60
 Skill: 132 60
+Skill: 136 48
 E
 #38101
 заяц косой~
@@ -58,6 +59,7 @@ Class: 103
 Height: 198
 Weight: 29
 Special_Bitvector: n0y0 
+Skill: 136 33
 E
 #38102
 кабаниха~
@@ -88,6 +90,7 @@ Class: 103
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 42
 E
 #38103
 кабанчик~
@@ -118,6 +121,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: y0 
+Skill: 136 30
 E
 #38104
 волк серый~
@@ -149,6 +153,7 @@ Height: 198
 Weight: 140
 Special_Bitvector: p0 
 Skill: 132 50
+Skill: 136 36
 E
 #38105
 волчица~
@@ -178,6 +183,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 42
 E
 #38106
 волчонок-малыш~
@@ -202,6 +208,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #38107
 сорока белобока~
@@ -233,6 +240,7 @@ Class: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0 
+Skill: 136 36
 E
 #38108
 белка~
@@ -258,6 +266,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: p0y0 
+Skill: 136 27
 E
 #38109
 белка~
@@ -284,6 +293,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 30
 E
 #38110
 лисенок~
@@ -309,6 +319,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: p0 
+Skill: 136 24
 E
 #38111
 ворона~
@@ -335,6 +346,7 @@ Class: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0y0 
+Skill: 136 45
 E
 #38112
 главарь ватаги~
@@ -363,8 +375,9 @@ ExtraAttack: 1
 Class: 102
 Height: 198
 Weight: 150
-Special_Bitvector: b1c1 
+Special_Bitvector: a0c0b1c1 
 Skill: 132 50
+Skill: 136 42
 E
 T 38114
 #38113
@@ -395,6 +408,7 @@ Class: 102
 Height: 198
 Weight: 140
 Special_Bitvector: b1c1 
+Skill: 136 39
 Skill: 150 100
 E
 T 38113
@@ -427,6 +441,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
 Skill: 131 70
+Skill: 136 39
 Skill: 160 70
 E
 #38115
@@ -452,6 +467,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 24
 E
 #38116
 зеленый змий~
@@ -484,6 +500,7 @@ Class: 101
 Height: 198
 Weight: 130
 Special_Bitvector: g0 
+Skill: 136 45
 Spell: 38
 E
 T 38116
@@ -520,6 +537,7 @@ Height: 198
 Weight: 160
 Special_Bitvector: y0 
 Skill: 132 50
+Skill: 136 54
 Skill: 150 50
 E
 #38118
@@ -553,6 +571,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 134 100
+Skill: 136 48
 E
 #38119
 старичок болотник~
@@ -570,11 +589,10 @@ b0d0g0l0n0o0p0q0r0t0u0b1 c0d0f0h0k0C0r1 400 E
 30 1 -10 5d5+5000 6d15+3
 0d0+0 50000
 8 8 1
-BareHandAttack: 1
 Str: 26
 Dex: 18
 Int: 36
-Wis: 36
+Wis: 50
 Con: 32
 Size: 30
 LikeWork: 100
@@ -583,6 +601,7 @@ Class: 101
 Height: 198
 Weight: 110
 Special_Bitvector: 0 
+Skill: 136 90
 Skill: 150 100
 Skill: 160 100
 Skill: 167 80
@@ -657,6 +676,10 @@ Spell: 55
 Spell: 55
 Spell: 55
 Spell: 55
+Spell: 58
+Spell: 58
+Spell: 58
+Spell: 58
 Spell: 68
 Spell: 68
 Spell: 68
@@ -672,6 +695,14 @@ Spell: 83
 Spell: 83
 Spell: 98
 Spell: 98
+Spell: 113
+Spell: 113
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 143
+Spell: 143
+Spell: 143
 Spell: 144
 Spell: 144
 E
@@ -707,6 +738,7 @@ Class: 101
 Height: 198
 Weight: 110
 Special_Bitvector: 0 
+Skill: 136 90
 Skill: 150 100
 Spell: 10
 Spell: 10
@@ -772,6 +804,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: g0n0 
+Skill: 136 24
 E
 #38122
 змея~
@@ -799,6 +832,7 @@ Class: 103
 Height: 198
 Weight: 25
 Special_Bitvector: g0m0o0 
+Skill: 136 30
 E
 #38123
 зеленая кикимора~
@@ -827,6 +861,7 @@ Class: 101
 Height: 198
 Weight: 100
 Special_Bitvector: l0 
+Skill: 136 48
 E
 #38124
 вурнака~
@@ -857,10 +892,114 @@ Height: 198
 Weight: 150
 Special_Bitvector: m0 
 Skill: 134 50
+Skill: 136 60
 Skill: 150 50
 Spell: 10
 Spell: 10
 Spell: 28
 E
 T 38115
+#38125
+купец заезжий купчина Бдигост ~
+Бдигост~
+Бдигоста~
+Бдигосту~
+Бдигоста~
+Бдигостом~
+Бдигосте~
+Заезжий купчина Бдигост отдыхает тут с дороги.
+~
+В годах, с изрядной сединой в бороде, но все еще крепкий
+и плечистый купец, облаченный в хорошего шитья кафтан и дорогие
+сапоги. На груди его поблескивает серебряная цепь.
+~
+b0d0l0m0n0A0i1 d0h0 200 E
+21 8 6 5d10+500 5d6+0
+7d5+100 110000
+8 8 1
+Saves: 80 20 0 0
+Resistances: 20 0 -40 0 0 0 0
+Str: 21
+Dex: 18
+Int: 21
+Wis: 24
+Con: 24
+Cha: 17
+Size: 50
+LikeWork: 60
+ExtraAttack: 1
+Class: 102
+Height: 170
+Weight: 180
+Special_Bitvector: b1 
+Skill: 4 40
+Skill: 136 63
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 75
+Spell: 75
+Spell: 75
+Helper: 38126
+E
+T 38119
+T 38120
+T 38121
+#38126
+охранник крепкий мужик~
+охранник~
+охранника~
+охраннику~
+охранника~
+охранником~
+охраннике~
+Крепкий мужик с топориком в поясном чехле прохаживается тут.
+~
+Крепкий плечистый парень, явно не новичок в драке.
+Судя по дорожной одежде, толстой кожаной куртке, и
+оружию - это охранник одного остановившихся в корчме купцов.
+~
+b0d0l0m0n0 d0z0 120 E
+20 2 0 20d6+600 5d6+5
+3d4+30 85000
+8 8 1
+Saves: 10 0 0 15
+BareHandAttack: 3
+Str: 24
+Dex: 20
+Int: 16
+Wis: 12
+Con: 24
+Cha: 12
+Size: 50
+LikeWork: 60
+ExtraAttack: 1
+Class: 102
+Height: 180
+Weight: 170
+Special_Bitvector: 0 
+Skill: 132 50
+Skill: 136 70
+Skill: 137 80
+Skill: 141 70
+Skill: 142 70
+Skill: 143 30
+Skill: 148 70
+Skill: 151 60
+Skill: 157 50
+E
 $

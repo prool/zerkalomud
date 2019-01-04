@@ -1,0 +1,2661 @@
+#87700
+царь~
+Царь~
+Царя~
+Царю~
+Царя~
+Царем~
+Царе~
+Печальный царь смотрит вдаль, кручинится.
+~
+Перед Вами самый настоящий сказочный Царь.
+Убеленный сединой, статный, в роскошных одеждах.
+Однако на челе его безутешная грусть.
+~
+b0d0n0o0B0 d0f0k0 600 E
+30 0 0 10d10+400 0d0+0
+0d0+0 0
+8 8 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 90
+E
+T 87700
+#87701
+добрый конь златогрив~
+добрый конь~
+доброго коня~
+доброму коню~
+доброго коня~
+добрым конем~
+добром коне~
+Конь златогривый, бьет копытом, рвется в путь.
+~
+Добрый конь златогривый, копытом землю роет
+на вас глазами блестящими косит.
+Вскочить бы на него молодцу, да отправиться 
+в земли дальние, дела вершить ратные.
+~
+d0n0o0p0s0x0g2 c0f0k0 600 E
+20 0 -8 10d10+2000 1d1+1
+0d0+0 0
+8 8 1
+Str: 24
+Dex: 33
+Int: 10
+Wis: 10
+Con: 25
+Cha: 25
+Size: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 1 100
+Skill: 136 60
+E
+T 87702
+#87702
+страж стеклянных ворот врат~
+страж стеклянных врат~
+стража стеклянных врат~
+стражу стеклянных врат~
+стража стеклянных врат~
+стражем стеклянных врат~
+страже стеклянных врат~
+Страж стеклянных ворот мрачно улыбается Вам.
+~
+Ростом десяти локтей, здоровенная детина.
+~
+b0d0l0m0t0g2i2 d0f0h0k0A0x1y1z1 -600 E
+29 20 -4 50d50+9000 10d9+1
+20d10+200 1000000
+8 8 1
+Str: 16
+Dex: 17
+Int: 20
+Wis: 35
+Con: 20
+Cha: 15
+Size: 100
+LikeWork: 100
+ExtraAttack: 2
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: b0C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 12 120
+Skill: 22 200
+Skill: 136 120
+Skill: 137 150
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 144
+Spell: 144
+Spell: 144
+Spell: 144
+Spell: 144
+E
+T 87705
+T 87706
+T 87739
+#87703
+осколок~
+осколок~
+осколка~
+осколку~
+осколок~
+осколком~
+осколке~
+Оживший осколок метит вам в горло!
+~
+Острый кусок стекла подрагивая висит в воздухе.
+~
+d0f0m0n0r0t0z0g2 d0f0k0m0n0r0t0x0A0m1x1y1z1 -600 E
+27 20 -6 0d0+900 8d8+8
+0d0+0 10000
+8 8 1
+BareHandAttack: 11
+Str: 20
+Dex: 35
+Int: 20
+Wis: 5
+Con: 15
+Cha: 3
+Size: 50
+LikeWork: 35
+ExtraAttack: 2
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: b0C3 
+Skill: 22 100
+Skill: 131 100
+Skill: 136 81
+Skill: 157 100
+E
+T 87734
+#87704
+медный змей огнедыш охран~
+медный змей~
+медного змея~
+медному змею~
+медного змея~
+медным змеем~
+медном змее~
+Огнедышащий змей охраняет медные ворота.
+~
+Тело змеиное медной чешуей сверкает,
+извивами коваными струится, а из
+пастей пламя пышет.
+~
+b0d0f0n0o0p0d2 d0f0k0A0C0m1 0 E
+30 20 -8 10d10+4000 10d10+30
+0d0+0 1200000
+8 8 1
+BareHandAttack: 4
+Str: 30
+Dex: 25
+Int: 23
+Wis: 25
+Con: 22
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: b0C3 
+Skill: 1 100
+Skill: 22 100
+Skill: 132 100
+Skill: 136 125
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 26
+Spell: 26
+Spell: 48
+Spell: 48
+E
+#87705
+серебряный змей ~
+серебряный змей~
+серебряного змея~
+серебряному змею~
+серебряного змея~
+серебряным змеем~
+серебряном змее~
+Серебряный змей о двух головах охраняет ворота.
+~
+Тело змеиное серебряной чешуей сверкает,
+извивами коваными струится, а из
+пастей пламя пышет.
+~
+b0d0f0n0o0p0t0c2 d0f0k0A0C0m1x1y1z1 -600 E
+30 20 -7 10d10+5000 12d10+35
+0d0+0 1200000
+8 8 1
+Str: 31
+Dex: 26
+Int: 25
+Wis: 27
+Con: 24
+Cha: 10
+Size: 100
+LikeWork: 60
+ExtraAttack: 3
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: a0C3 
+Skill: 1 120
+Skill: 22 120
+Skill: 136 140
+Skill: 167 20
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 48
+Spell: 48
+Spell: 48
+E
+#87706
+золотой змей огнедыш охран~
+золотой змей~
+золотого змея~
+золотому змею~
+золотого змея~
+золотым змеем~
+золотом змее~
+Золотой змей о четырех головах охраняет ворота.
+~
+Тело золотой медной чешуей сверкает,
+извивами коваными струится, а из
+пастей пламя пышет.
+~
+b0d0f0n0o0p0t0i2 d0f0k0C0o1x1y1z1 -600 E
+30 -3 -10 10d10+6000 12d12+35
+0d0+0 1350000
+8 8 1
+BareHandAttack: 1
+Str: 33
+Dex: 27
+Int: 30
+Wis: 30
+Con: 25
+Cha: 10
+Size: 100
+LikeWork: 60
+ExtraAttack: 3
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: c0C3 
+Skill: 22 150
+Skill: 136 150
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+E
+#87707
+царевна медн велич~
+царевна медного царства~
+царевны медного царства~
+царевне медного царства~
+царевну медного царства~
+царевной медного царства~
+царевне медного царства~
+Величавая царица медного царства стоит здесь.
+~
+Царевная высокая, в одеждах драгоценных.
+Солнце кожу ее румянцем напоило, волосы -
+как крыло воронье, глаза же зеленью светятся.
+
+~
+d0B0 c0d0e0f0k0c1 600 E
+29 0 0 10d10+1000 0d0+1
+0d0+0 0
+8 8 2
+BareHandAttack: 12
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 30
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 87
+E
+T 87707
+#87708
+царевна серебрянн приветл~
+царевна серебрянного царства~
+царевны серебрянного царства~
+царевне серебрянного царства~
+царевну серебрянного царства~
+царевной серебрянного царства~
+царевне серебрянного царства~
+Приветливая царица серебряного царства стоит здесь.
+~
+Краса-девица, коса пепельная, глаза серые
+приветливо вам улыбается.
+~
+b0d0B0 c0d0e0f0k0c1 600 E
+29 0 0 10d10+1000 0d0+1
+0d0+0 0
+8 8 2
+BareHandAttack: 12
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 30
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 87
+E
+T 87715
+#87709
+царевна золотог прекрас~
+царевна золотого царства~
+царевны золотого царства~
+царевне золотого царства~
+царевну золотого царства~
+царевной золотого царства~
+царевне золотого царства~
+Прекрасная царица золотого царства стоит здесь.
+~
+Словно солнце ясное краса царицы
+царства золотого, и глаз не отвесть.
+
+~
+b0d0B0 c0d0e0f0k0c1 600 E
+29 0 0 10d10+1000 0d0+1
+0d0+0 0
+8 8 2
+BareHandAttack: 12
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 30
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 87
+E
+T 87719
+#87710
+вытьянка тоск душа~
+вытьянка~
+вытьянки~
+вытьянке~
+вытьянку~
+вытьянкой~
+вытьянке~
+Вытьянка мечется в бессильной тоске здесь.
+~
+Тоскующая душа непогребенных костей
+мечется, желая обрести покой.
+~
+b0c0d0f0n0o0q0t0A0c2i2 d0f0k0z0A0m1q1r1x1y1z1 -600 E
+40 1 -7 10d10+2300 6d6+6
+20d20+20 1400000
+8 8 2
+Str: 13
+Dex: 22
+Int: 20
+Wis: 36
+Con: 36
+Cha: 14
+Size: 50
+LikeWork: 30
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: v0 
+Skill: 136 120
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 48
+Spell: 48
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 153
+E
+T 87743
+#87711
+игоша~
+игоша~
+игоши~
+игоше~
+игошу~
+игошой~
+игоше~
+Игоша летает кругами здесь.
+~
+Непонятное существо без рук, без ног,
+но с зубастой пастью, рогами и множеством крыльев.
+~
+b0d0f0n0o0p0r0u0A0g2 d0f0k0x0o1 -600 E
+30 0 -10 20d120+6100 12d12+12
+0d0+0 1000000
+8 8 0
+BareHandAttack: 4
+Str: 30
+Dex: 27
+Int: 17
+Wis: 36
+Con: 36
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 2
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: u0C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 22 200
+Skill: 136 150
+Skill: 137 100
+Skill: 167 100
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+E
+T 87756
+#87712
+златогривый конь волшебн~
+златогривый конь~
+златогривого коня~
+златогривому коню~
+златогривого коня~
+златогривым конем~
+златогривом коне~
+Волшебный конь, потряхивая золотой гривой, бьет копытом здесь.
+~
+Конь - что огонь, шерсть рыжая, грива золотая.
+~
+b0d0s0 d0f0k0 0 E
+22 0 0 10d10+1000 0d0+2
+0d0+0 10000
+8 8 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 66
+E
+T 87723
+#87713
+молодой цыган~
+молодой цыган~
+молодого цыгана~
+молодому цыгану~
+молодого цыгана~
+молодым цыганом~
+молодом цыгане~
+Молодой цыган стоит здесь.
+~
+Молодой, кучерявый паренек со смышлеными глазами.
+~
+b0d0 d0f0k0 600 E
+20 0 0 10d10+50 1d1+1
+0d0+0 0
+8 8 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 60
+E
+T 87724
+#87714
+соглядатай~
+соглядатай~
+соглядатая~
+соглядатаю~
+соглядатая~
+соглядатаем~
+соглядатае~
+Соглядатай черного колдуна что-то вынюхивает тут.
+~
+Небольшой жилистый человечишко.
+~
+d0f0m0n0o0A0g2 c0d0e0f0k0s0t0z0A0r1 -600 E
+28 0 -10 10d10+1200 6d9+10
+0d0+400 150000
+8 8 1
+BareHandAttack: 11
+Str: 25
+Dex: 31
+Int: 17
+Wis: 15
+Con: 17
+Cha: 3
+Size: 60
+LikeWork: 30
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 60
+Skill: 131 100
+Skill: 133 100
+Skill: 136 84
+Skill: 137 80
+Skill: 167 50
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 28
+Spell: 79
+Spell: 88
+Spell: 89
+Spell: 130
+Spell: 130
+E
+T 87745
+#87715
+зачарованный цыган мутны~
+зачарованный цыган~
+зачарованного цыгана~
+зачарованному цыгану~
+зачарованного цыгана~
+зачарованным цыганом~
+зачарованном цыгане~
+Цыган с мутным взглядом бредет мимо.
+~
+Здоровенный детина-цыган смотрит сквозь вас.
+~
+c0d0l0m0n0A0 d0k0 -600 E
+29 0 -4 10d10+1900 10d15+10
+0d0+500 100000
+8 8 1
+Str: 25
+Dex: 20
+Int: 20
+Wis: 15
+Con: 22
+Cha: 3
+Size: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 1 100
+Skill: 4 150
+Skill: 22 120
+Skill: 136 100
+Spell: 5
+Spell: 5
+Spell: 48
+Spell: 54
+Spell: 54
+Spell: 66
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+E
+#87716
+зачарованная цыганка бесноват~
+зачарованная цыганка~
+зачарованной цыганки~
+зачарованной цыганке~
+зачарованную цыганку~
+зачарованной цыганкой~
+зачарованной цыганке~
+Цыганка, вся в лохмотьях, с бесноватым взглядом стоит здесь.
+~
+Когда-то была симпатичной цыганкой.
+Сейчас это грязное и оборванное существо
+с безумным взглядом.
+~
+d0f0m0n0t0A0q1 d0h0k0o1r1x1y1z1 -600 E
+28 0 -3 10d10+1700 4d4+10
+0d0+0 180000
+8 8 2
+Str: 20
+Dex: 18
+Int: 21
+Wis: 17
+Con: 17
+Cha: 3
+Size: 40
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 200
+Skill: 134 80
+Skill: 136 80
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+E
+#87717
+зачарованный цыганенок~
+зачарованный цыганенок~
+зачарованного цыганенка~
+зачарованному цыганенку~
+зачарованного цыганенка~
+зачарованным цыганенком~
+зачарованном цыганенке~
+Цыганенок бесцельно бредет куда-то.
+~
+Маленький цыганенок, бледная кожа, большие глазищи.
+~
+c0d0l0m0n0t0A0 d0k0z0A0 -600 E
+26 0 -10 10d10+1100 7d7+10
+0d0+0 90000
+8 8 1
+BareHandAttack: 9
+Str: 15
+Dex: 28
+Int: 15
+Wis: 15
+Con: 15
+Cha: 36
+Size: 30
+LikeWork: 30
+ExtraAttack: 3
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 80
+Skill: 138 80
+Skill: 156 100
+Skill: 160 100
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 79
+Spell: 79
+E
+#87718
+цыганский барон старый~
+цыганский барон~
+цыганского барона~
+цыганскому барону~
+цыганского барона~
+цыганским бароном~
+цыганском бароне~
+Старый цыган с благородной осанкой смотрит мимо вас.
+~
+Старый цыган. Нос крючком, глаза мутные. 
+На подбородок капает слюна из приоткрытой пасти.
+А когда-то был уважаемым человеком!!!
+~
+b0d0l0m0n0o0t0u0A0 c0d0e0f0k0r0p1 -600 E
+30 0 -6 10d10+4500 10d10+12
+0d0+1000 300000
+8 8 1
+Str: 17
+Dex: 15
+Int: 30
+Wis: 35
+Con: 17
+Cha: 36
+Size: 80
+LikeWork: 35
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 21 50
+Skill: 132 150
+Skill: 136 150
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 64
+Spell: 64
+Spell: 66
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 83
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 94
+Helper: 87717
+Helper: 87716
+Helper: 87715
+Helper: 87714
+Skill: 136 90
+E
+T 87737
+#87719
+черный колдун~
+черный колдун~
+черного колдуна~
+черному колдуну~
+черного колдуна~
+черным колдуном~
+черном колдуне~
+Черный колдун прохаживается по пещере.
+~
+Невысокий коренастый мужичок.
+Очень смахивает на высокомерного гнома.
+Гневно смотрит на Вас. Пытается пыхтеть какие-то заклинания.
+Премерзкий тип.
+~
+b0c0d0f0g0l0m0n0t0u0A0 c0d0e0f0h0k0m0n0r0p1r1 -600 E
+30 0 -8 100d200+6000 9d9+20
+50d20+1000 3500000
+8 8 1
+Str: 30
+Dex: 20
+Int: 30
+Wis: 30
+Con: 20
+Cha: 3
+Size: 100
+LikeWork: 75
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 200
+Skill: 136 150
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 40
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 94
+Spell: 113
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Helper: 87718
+Helper: 87714
+Skill: 136 90
+E
+T 87746
+#87720
+седой сторож~
+седой сторож~
+седого сторожа~
+седому сторожу~
+седого сторожа~
+седым сторожем~
+седом стороже~
+Седовласый старец с лицом перекошенным от злобы.
+~
+Видимо он постоянно испытывает какие-то муки.
+Ненавидит всех вокруг. Готов убивать. 
+Любит только деревья, за которыми готов ухаживать
+до последнего вздоха.
+~
+d0f0t0b2 d0f0h0k0A0C0q1r1x1y1z1 -600 E
+30 0 -4 100d20+3000 5d5+5
+0d0+0 380000
+8 8 1
+BareHandAttack: 6
+Str: 20
+Dex: 15
+Int: 19
+Wis: 14
+Con: 18
+Cha: 3
+Size: 60
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 12 120
+Skill: 22 150
+Skill: 136 90
+Skill: 137 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+E
+T 87749
+#87721
+серебряный сокол~
+серебряный сокол~
+серебряного сокола~
+серебряному соколу~
+серебряного сокола~
+серебряным соколом~
+серебряном соколе~
+Сокол с серебряным оперением пикирует на Вас.
+~
+Благородная птица с серебряными перьями.
+Чудо продвинутой магии.
+~
+d0f0m0n0p0r0x0b1 d0e0f0h0n0r0z0A0x1y1z1 -600 E
+28 0 -10 50d10+1000 10d10+10
+0d0+0 400000
+8 8 1
+BareHandAttack: 1
+Str: 23
+Dex: 30
+Int: 8
+Wis: 10
+Con: 14
+Cha: 36
+Size: 40
+LikeWork: 30
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 150
+Skill: 131 100
+Skill: 136 150
+Skill: 137 100
+E
+T 87755
+#87722
+рыжеволосый сторож~
+рыжеволосый сторож~
+рыжеволосого сторожа~
+рыжеволосому сторожу~
+рыжеволосого сторожа~
+рыжеволосым сторожем~
+рыжеволосом стороже~
+Рыжий сторож волшебного сада, желает набить Вам морду.
+~
+Здоровый рыжеволосый мужик. 
+На лице его блуждающая улыбка.
+Не от большого ума, вероятно.
+~
+d0f0m0p0q0r0s0t0u0 d0f0h0r0z0A0x1y1z1 -600 E
+29 0 -4 100d10+4500 18d19+18
+0d0+0 350000
+8 8 1
+Str: 25
+Dex: 25
+Int: 9
+Wis: 4
+Con: 30
+Cha: 35
+Size: 100
+LikeWork: 20
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 4 150
+Skill: 136 150
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 113
+E
+T 87750
+T 87755
+#87723
+медноперый орел~
+медноперый орел~
+медноперого орла~
+медноперому орлу~
+медноперого орла~
+медноперым орлом~
+меднопером орле~
+Орел сверкая медным опереньем летит на вас.
+~
+Чудная птица, вроде орел, а перья медные.
+~
+d0f0m0t0i2 d0h0k0z0A0o1 -600 E
+28 0 -9 10d10+900 12d9+20
+0d0+0 218000
+8 8 1
+Str: 20
+Dex: 35
+Int: 6
+Wis: 6
+Con: 14
+Cha: 14
+Size: 100
+LikeWork: 35
+ExtraAttack: 2
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: B3 
+Skill: 21 50
+Skill: 136 150
+Skill: 137 100
+Skill: 167 100
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+E
+T 87755
+#87724
+злобный садовник~
+злобный садовник~
+злобного садовника~
+злобному садовнику~
+злобного садовника~
+злобным садовником~
+злобном садовнике~
+Злобный садовник желает поскорей учинить вам расправу.
+~
+Злобный старикашка. Никто его не любит.
+Все пытаются обокрасть деревья, которые он выращивает.
+Вихор грозиться превратить его в пень, если кражи
+не будут остановлены.
+~
+d0f0m0t0 d0f0k0m0n0r0z0A0b1m1r1x1y1z1 -600 E
+33 0 -10 100d200+2000 10d9+10
+0d0+0 600000
+8 8 1
+BareHandAttack: 11
+Str: 24
+Dex: 36
+Int: 27
+Wis: 28
+Con: 17
+Cha: 10
+Size: 70
+LikeWork: 40
+ExtraAttack: 3
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 100
+Skill: 131 150
+Skill: 136 180
+Skill: 167 100
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+E
+T 87751
+T 87755
+#87725
+садовый охранник~
+садовый охранник~
+садового охранника~
+садовому охраннику~
+садового охранника~
+садовым охранником~
+садовом охраннике~
+Злобный охранник возмущен вашим браконьерством.
+~
+Высокий мускулистый человек, в зеленом плаще.
+~
+d0f0g0l0m0n0o0t0 d0e0f0h0k0 -600 E
+34 0 -6 50d50+5000 11d11+10
+0d0+0 500000
+8 8 1
+Str: 28
+Dex: 20
+Int: 15
+Wis: 28
+Con: 24
+Cha: 14
+Size: 100
+LikeWork: 50
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 80
+Skill: 136 140
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 94
+Spell: 94
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 132
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 151
+Spell: 152
+Spell: 152
+Spell: 152
+E
+T 87752
+T 87755
+#87726
+хранитель деревьев~
+хранитель деревьев~
+хранителя деревьев~
+хранителю деревьев~
+хранителя деревьев~
+хранителем деревьев~
+хранителе деревьев~
+Хранитель деревьев волшебного сада стоит здесь.
+~
+Высокий человек, в зеленом плаще.
+~
+d0f0g0l0m0n0o0t0 d0e0f0h0k0 -600 E
+34 0 -6 50d50+5000 11d11+10
+0d0+0 500000
+8 8 1
+Str: 28
+Dex: 20
+Int: 15
+Wis: 28
+Con: 24
+Cha: 14
+Size: 100
+LikeWork: 50
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 80
+Skill: 136 140
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 132
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 151
+Spell: 152
+Spell: 152
+Spell: 152
+E
+T 87753
+T 87755
+#87727
+золотой ястреб~
+золотой ястреб~
+золотого ястреба~
+золотому ястребу~
+золотого ястреба~
+золотым ястребом~
+золотом ястребе~
+Ястреб с золотым оперением пролетает мимо.
+~
+Ястреб с золотыми перьями.
+Дорого.
+~
+d0f0m0n0o0 d0e0f0h0z0 -600 E
+31 0 -10 20d20+1200 10d10+10
+0d0+0 400000
+8 8 1
+BareHandAttack: 1
+Str: 22
+Dex: 29
+Int: 10
+Wis: 10
+Con: 14
+Cha: 36
+Size: 40
+LikeWork: 40
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 4 150
+Skill: 22 80
+Skill: 136 130
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 94
+E
+T 87755
+#87728
+огромная псина~
+огромная псина~
+огромной псины~
+огромной псине~
+огромную псину~
+огромной псиной~
+огромной псине~
+Огромная псина мчится на Вас.
+~
+Громадных размеров собака.
+Из пасти каплет слюна.
+Если бы на вашем месте был
+герой попроще, ему бы наверняка
+захотелось побыстрей убраться отсюда.
+~
+d0f0m0 d0f0k0 0 E
+28 0 -7 100d10+2300 30d9+30
+0d0+0 240000
+8 8 2
+BareHandAttack: 4
+Str: 27
+Dex: 27
+Int: 14
+Wis: 12
+Con: 21
+Cha: 36
+Size: 70
+LikeWork: 40
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 60
+Skill: 132 160
+Skill: 136 120
+Skill: 137 100
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 93
+Spell: 93
+E
+T 87755
+#87729
+подручный садовника~
+подручный садовника~
+подручного садовника~
+подручному садовника~
+подручного садовника~
+подручным садовника~
+подручном садовника~
+Подручный садовника стоит здесь.
+~
+Был бы умнее, был бы садовником.
+А так помогает по черной работе.
+~
+d0f0m0 d0h0k0 -600 E
+27 0 -8 100d10+5700 14d9+10
+0d0+0 280000
+8 8 1
+Str: 22
+Dex: 14
+Wis: 10
+Con: 35
+Cha: 30
+Size: 90
+LikeWork: 35
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 120
+Skill: 132 120
+Skill: 136 81
+Skill: 137 100
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 48
+Spell: 48
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 127
+E
+T 87755
+#87730
+вихрь~
+Вихрь~
+Вихря~
+Вихрю~
+Вихря~
+Вихрем~
+Вихре~
+Огромный летающий колдун грозно смотрит на Вас.
+~
+Могущественный колдун. Любит быстро летать и
+похищать красивых девок. Редкостная сволочь и
+подлец. Хотя, безусловно, очень одаренный маг. 
+
+~
+d0f0n0o0p0q0r0t0u0c2h2 d0f0h0k0q1r1 -600 E
+35 0 -10 10d10+9000 10d9+50
+0d0+0 4000000
+8 8 1
+Str: 30
+Dex: 20
+Int: 17
+Wis: 35
+Con: 25
+Cha: 15
+Size: 100
+LikeWork: 70
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: C3 
+Skill: 22 100
+Skill: 136 105
+Skill: 157 100
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+E
+T 87748
+#87731
+Настасья-царевна~
+Настасья-царевна~
+Настасьи-царевны~
+Настасье-царевне~
+Настасью-царевну~
+Настасьей-царевной~
+Настасье-царевне~
+Настасья-царевна стоит здесь.
+~
+Краса ее - словно поля колосистого, золотом переливающегося,
+словно солнца вечернего, свой свет миру дарящего.
+~
+d0B0 c0d0e0f0k0c1 600 E
+29 0 0 10d10+1000 0d0+1
+0d0+0 0
+8 8 2
+BareHandAttack: 12
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 30
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 87
+E
+T 87732
+#87732
+цыганский боец~
+цыганский боец~
+цыганского бойца~
+цыганскому бойцу~
+цыганского бойца~
+цыганским бойцом~
+цыганском бойце~
+Мускулистый цыган стоит здесь.
+~
+Ладно скроенный и очень здоровый цыган.
+~
+d0 e0f0k0r0 -600 E
+25 0 -10 100d100+1500 5d5+15
+0d0+0 10000
+8 8 1
+Str: 29
+Dex: 25
+Int: 15
+Wis: 15
+Con: 27
+Cha: 3
+Size: 100
+LikeWork: 90
+ExtraAttack: 3
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: y0b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 100
+Skill: 137 100
+Skill: 141 100
+Skill: 142 100
+Skill: 144 100
+Skill: 145 100
+Skill: 146 100
+Skill: 147 100
+Skill: 148 100
+Skill: 154 100
+E
+#87733
+серебряный звон~
+серебряный звон~
+серебряного звона~
+серебряному звону~
+серебряный звон~
+серебряным звоном~
+серебряном звоне~
+Серебряный звон обращен коварным волшебством против Вас!
+~
+Стебли серебряной травы тихо позванивают на ветру.
+~
+d0f0m0n0o0p0r0u0z0 b0d0k0s0 -600 E
+25 0 -5 10d10+1500 3d3+16
+0d0+0 180000
+8 8 1
+Str: 23
+Dex: 27
+Int: 17
+Wis: 10
+Con: 35
+Cha: 15
+Size: 60
+LikeWork: 100
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 75
+Skill: 137 100
+Skill: 157 100
+Spell: 28
+Spell: 28
+Spell: 79
+Spell: 79
+E
+#87734
+серебряный лучик~
+серебряный лучик~
+серебряного лучика~
+серебряному лучику~
+серебряный лучик~
+серебряным лучиком~
+серебряном лучике~
+Серебряный лучик обращен коварным волшебством против Вас!
+~
+Дрожащий лучик пляшет на стеблях
+серебряной травы.
+~
+d0f0g0m0n0o0r0t0z0q1g2 d0k0s0 -600 E
+25 0 -5 50d10+800 4d10+10
+0d0+0 120000
+8 8 1
+BareHandAttack: 11
+Str: 23
+Dex: 24
+Int: 16
+Wis: 10
+Con: 35
+Cha: 15
+Size: 40
+LikeWork: 45
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 131 60
+Skill: 136 75
+Skill: 157 50
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 79
+Spell: 79
+Spell: 79
+E
+T 87744
+#87735
+серебряное сияние~
+серебряное сияние~
+серебряного сияния~
+серебряному сиянию~
+серебряное сияние~
+серебряном сиянием~
+серебряном сиянии~
+Серебряное сияние обращено коварным волшебством против Вас!
+~
+Серебряное сияние мягко переливается
+по стеблям серебряной травы.
+~
+d0f0g0m0n0o0r0u0z0e2g2 b0d0k0m0s0 -600 E
+27 0 -5 20d20+800 3d3+3
+0d0+0 140000
+8 8 0
+Str: 23
+Dex: 15
+Int: 14
+Wis: 10
+Con: 35
+Cha: 15
+Size: 40
+LikeWork: 50
+ExtraAttack: 1
+Class: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 81
+Skill: 157 50
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 56
+E
+#87736
+седой водяной злобный~
+седой водяной~
+седого водяного~
+седому водяному~
+седого водяного~
+седым водяным~
+седом водяном~
+Злобный водяной жаждет полакомиться человечиной.
+~
+Совершенно седой, очень старый водяной.
+~
+d0 d0f0k0 -600 E
+33 0 0 40d40+5000 8d8+10
+0d0+0 10000
+8 8 1
+Str: 28
+Dex: 15
+Int: 8
+Wis: 22
+Con: 16
+Cha: 3
+Size: 100
+LikeWork: 50
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 132 80
+Skill: 134 80
+Skill: 136 99
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 88
+Spell: 127
+Spell: 127
+Spell: 127
+Spell: 128
+E
+#87737
+месяц~
+Месяц~
+Месяца~
+Месяцу~
+Месяца~
+Месяцем~
+Месяце~
+Месяц со звездного неба сошедший улыбается Вам.
+~
+Ну что вы - за всю жизнь ни разу на небо не глядели, месяца не видели?
+~
+d0g0n0o0p0q0r0t0u0B0f2i2 d0f0k0 600 E
+45 0 0 10d10+1000 10d10+50
+0d0+0 0
+8 8 1
+Str: 20
+Dex: 20
+Int: 25
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+ExtraAttack: 3
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: i3 
+Skill: 136 135
+E
+T 87757
+#87738
+Петр-царевич~
+Петр-царевич~
+Петра-царевича~
+Петру-царевичу~
+Петра-царевича~
+Петром-царевичем~
+Петре-царевиче~
+Старший царский сын бьет баклуши.
+~
+Немалого роста детинушка, шириною с добрый стог
+да с курчавой черной бородою.
+~
+b0d0g2 d0f0k0 -600 E
+25 0 -10 20d20+2000 8d7+10
+0d0+0 10000
+8 8 1
+Str: 28
+Dex: 18
+Int: 18
+Wis: 21
+Con: 24
+Cha: 21
+Size: 100
+LikeWork: 90
+ExtraAttack: 3
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 80
+Skill: 137 100
+Skill: 141 100
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 157 80
+E
+#87739
+Василий царевич~
+Василий-царевич~
+Василия-царевича~
+Василию-царевичу~
+Василия-царевича~
+Василием-царевичем~
+Василие-царевиче~
+Младший царский сын мается от скуки.
+~
+Долговязый детина, с осоловелым от безделья взглядом.
+~
+b0d0g2 d0f0k0 -600 E
+25 0 -10 20d20+2000 8d7+10
+0d0+0 10000
+8 8 1
+Str: 28
+Dex: 18
+Int: 18
+Wis: 21
+Con: 24
+Cha: 21
+Size: 100
+LikeWork: 90
+ExtraAttack: 3
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 80
+Skill: 137 100
+Skill: 141 100
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 157 80
+E
+#87740
+индрик подземное чудище~
+индрик~
+индрика~
+индрику~
+индрика~
+индриком~
+индрике~
+Разъяренное подземное чудище желает полакомиться Вами!
+~
+Чудище громадное, аки десять лошадей, с рогом
+во лбу в сажень длинной, копытами топочет - земля
+трясется, глазами сверкает - ноги сами бужеать прочь хотят.
+~
+b0d0f0g0m0n0o0x0 d0f0k0 -600 E
+28 0 -10 50d30+2500 11d10+25
+0d0+0 350000
+8 8 1
+BareHandAttack: 14
+Str: 33
+Dex: 24
+Int: 16
+Wis: 13
+Con: 30
+Cha: 4
+Size: 90
+LikeWork: 80
+ExtraAttack: 2
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: f0 
+Skill: 4 80
+Skill: 22 50
+Skill: 132 100
+Skill: 136 110
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 88
+Spell: 88
+Spell: 154
+Spell: 154
+Spell: 154
+Spell: 154
+E
+T 87747
+#87741
+медный змей огнедыш охран~
+медный змей~
+медного змея~
+медному змею~
+медного змея~
+медным змеем~
+медном змее~
+Огнедышащий змей охраняет медные ворота.
+~
+Тело змеиное медной чешуей сверкает,
+извивами коваными струится, а из
+пастей пламя пышет.
+~
+b0d0f0n0o0p0d2 d0f0k0A0C0m1y1 0 E
+30 20 -8 10d10+7000 5d5+5
+0d0+0 1000000
+8 8 1
+BareHandAttack: 4
+Str: 30
+Dex: 25
+Int: 23
+Wis: 25
+Con: 22
+Cha: 10
+Size: 100
+LikeWork: 100
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: b0 
+Skill: 12 100
+Skill: 22 150
+Skill: 136 90
+Skill: 137 100
+E
+T 87740
+#87742
+золотой змей огнедыш охран~
+золотой змей~
+золотого змея~
+золотому змею~
+золотого змея~
+золотым змеем~
+золотом змее~
+Золотой змей о четырех головах охраняет ворота.
+~
+Тело змеиное золотой чешуей сверкает,
+извивами коваными струится, а из
+пастей пламя пышет.
+~
+b0d0f0n0o0p0t0a2i2 d0f0k0C0o1x1y1z1 -600 E
+30 20 -10 100d20+9000 6d6+6
+0d0+0 1800000
+8 8 1
+BareHandAttack: 1
+Str: 19
+Dex: 27
+Int: 15
+Wis: 30
+Con: 25
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: c0C3 
+Skill: 12 150
+Skill: 22 170
+Skill: 136 90
+Skill: 137 100
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+E
+T 87742
+#87743
+серебрянный змей огнедыш охран~
+серебряный змей~
+серебряного змея~
+серебряному змею~
+серебряного змея~
+серебряным змеем~
+серебряном змее~
+Серебряный змей о двух головах охраняет ворота.
+~
+Тело змеиное серебряной чешуей сверкает,
+извивами коваными струится, а из
+пастей пламя пышет.
+~
+b0d0f0n0o0p0t0c2 d0f0k0A0C0m1x1y1z1 -600 E
+30 20 -7 10d10+9000 6d6+6
+0d0+0 1350000
+8 8 1
+Str: 31
+Dex: 26
+Int: 25
+Wis: 27
+Con: 24
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: a0C3 
+Skill: 1 120
+Skill: 22 120
+Skill: 136 140
+Skill: 167 20
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 48
+Spell: 48
+Spell: 48
+E
+T 87741
+#87744
+златогривый конь волшебн~
+златогривый конь~
+златогривого коня~
+златогривому коню~
+златогривого коня~
+златогривым конем~
+златогривом коне~
+Волшебный конь, потряхивая золотой гривой, бьет копытом здесь.
+~
+Конь - что огонь, шерсть рыжая, грива золотая.
+~
+b0d0s0 d0f0k0 0 E
+22 0 0 10d10+1000 0d0+2
+0d0+0 10000
+8 8 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 66
+E
+#87745
+игоша~
+игоша~
+игоши~
+игоше~
+игошу~
+игошой~
+игоше~
+Игоша летает кругами здесь.
+~
+Непонятное существо без рук, без ног,
+но с зубастой пастью, рогами и множеством крыльев.
+~
+d0f0n0o0p0r0u0g2 d0f0k0x0o1 -600 E
+30 0 -10 20d120+6100 10d10+10
+0d0+0 650000
+8 8 0
+BareHandAttack: 4
+Str: 30
+Dex: 27
+Int: 17
+Wis: 36
+Con: 36
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 2
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: u0C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 22 200
+Skill: 136 150
+Skill: 137 100
+Skill: 167 100
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+E
+T 87756
+#87746
+старый садовник~
+старый садовник~
+старого садовника~
+старому садовнику~
+старого садовника~
+старым садовником~
+старом садовнике~
+Старый садовник ухаживает за садом.
+~
+Совсем старик, полуслепой уже - аж песок сыплется!
+~
+c0d0h0n0o0t0u0A0 d0f0k0z0A0r1 0 E
+30 0 -10 10d10+1000 5d7+12
+0d0+0 90000
+8 8 1
+Str: 20
+Dex: 20
+Int: 16
+Wis: 14
+Con: 14
+Cha: 14
+Size: 50
+LikeWork: 70
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+E
+$

@@ -3,21 +3,20 @@
 0 n 100
 ~
 if (%world.curobjs(14200)% < 10) && (%random.5% == 1)
-   mload obj 14200
+  mload obj 14200
 end
 воор сабля
 if (%world.curobjs(14202)% < 10) && (%random.5% == 1)
-   mload obj 14202
+  mload obj 14202
 end
 од перст
-mload obj 14205
 ~
 #14201
 лоад абориген~
 0 n 100
 ~
 if (%world.curobjs(14201)% < 10) && (%random.5% == 1)
-   mload obj 14201
+  mload obj 14201
 end
 од повязка
 ~
@@ -25,13 +24,17 @@ end
 плыть остров~
 2 c 100
 плыть~
+if !%actor.rentable%
+  return 0
+  halt
+end
 if !(%arg.contains(остров)%) 
-wsend %actor% Куда это Вы хотите плыть???
-   return 0
-   halt
+  wsend %actor% Куда это Вы хотите плыть???
+  return 0
+  halt
 end
 wsend %actor.name% _Вы встали за штурвал.
-wechoaround %actor% %actor.name% встал%actor.q% за штурвал.
+wechoaround %actor% %actor.name% встал%actor.g% за штурвал.
 wait 3
 wecho _Ладья тронулась и поплыла в открытое море.
 wteleport all 14250
@@ -40,7 +43,6 @@ attach 14203 %more.id%
 exec 14203 %more.id%
 detach 14202 %self.id%
 end
- 
 ~
 #14203
 на море~
@@ -86,21 +88,18 @@ end
 2 f 100
 ~
 attach 14202 %self.id%
- 
 ~
 #14207
-пробуют плыть на остров после отправления коробля~
+пробуют плыть на остров после отправления корабля~
 2 c 100
 плыть~
-if !(%arg.contains(остров)%) 
-wsend %actor% Куда это Вы хотите плыть???
-return 0
-halt
-e
-n
-d
+if !(%arg.contains(остров)%)
+  wsend %actor% Куда это Вы хотите плыть???
+  return 0
+  halt
+end
 wait 5
-wecho Видно корабль уже отошел ..
+wecho Видно корабль уже отошел...
 ~
 #14208
 резет зоны~

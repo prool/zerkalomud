@@ -21,6 +21,7 @@ Class: 100
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #68001
 черниговский купчина~
@@ -44,6 +45,7 @@ Class: 100
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #68003
 черниговский дружинник~
@@ -75,6 +77,7 @@ Special_Bitvector: y0b1c1
 Skill: 12 100
 Skill: 22 100
 Skill: 132 100
+Skill: 136 90
 Skill: 137 100
 Skill: 143 100
 Skill: 150 100
@@ -108,6 +111,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1 
 Skill: 132 100
+Skill: 136 87
 Skill: 154 100
 Skill: 155 100
 Skill: 157 100
@@ -143,6 +147,7 @@ Weight: 100
 Special_Bitvector: y0b1c1 
 Skill: 21 33
 Skill: 132 100
+Skill: 136 90
 Skill: 143 100
 Skill: 150 100
 Skill: 151 100
@@ -179,6 +184,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
+Skill: 136 78
 E
 #68008
 грязная нищенка~
@@ -206,6 +212,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
+Skill: 136 69
 E
 #68009
 красивая прихожанка~
@@ -230,6 +237,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
+Skill: 136 63
 E
 #68010
 черниговский крестьянин~
@@ -257,6 +265,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: y0b1c1 
+Skill: 136 75
 E
 #68012
 хозяин заведения~
@@ -281,6 +290,7 @@ Class: 100
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #68013
 черниговский ведун~
@@ -308,7 +318,9 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
+Skill: 136 81
 E
+T 68001
 #68014
 конюх~
 конюх~
@@ -335,6 +347,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
+Skill: 136 87
 E
 #68016
 монах чернец~
@@ -358,6 +371,7 @@ Class: 100
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #68017
 монах чернец~
@@ -383,6 +397,7 @@ Class: 100
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #68018
 сотник черниговской дружины~
@@ -410,6 +425,7 @@ Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
 Skill: 21 10
+Skill: 136 123
 E
 #68019
 черниговский кузнец~
@@ -436,6 +452,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
+Skill: 136 93
 E
 #68020
 черниговский меняла~
@@ -459,6 +476,7 @@ Class: 100
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #68021
 ворожея~
@@ -480,6 +498,7 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #68022
 важный купчина Гостосмысл~
@@ -505,6 +524,7 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #68023
 знатный боярин~
@@ -536,6 +556,7 @@ ExtraAttack: 1
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 Spell: 28
 Spell: 28
 Spell: 28
@@ -555,4 +576,27 @@ Spell: 42
 Spell: 42
 E
 T 68000
+#68024
+скорняк~
+скорняк~
+скорняка~
+скорняку~
+скорняка~
+скорняком~
+скорняке~
+Скорняк вышел на звон колокольчика.
+~
+Низенький мужичок с рыжими усами. Он явно слегка навеселе, но торговать ему это не мешает.
+~
+b0d0 d0f0k0d1 0 E
+30 20 0 1d100+1 1d1+0
+0d0+100000 0
+8 8 1
+Size: 30
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Skill: 136 90
+E
 $

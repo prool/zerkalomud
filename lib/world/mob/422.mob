@@ -28,6 +28,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 39
 E
 T 42210
 #42201
@@ -57,6 +58,7 @@ Class: 103
 Height: 198
 Weight: 35
 Special_Bitvector: p0y0 
+Skill: 136 24
 E
 #42202
 кобылка зеленая~
@@ -83,6 +85,7 @@ Class: 100
 Height: 198
 Weight: 35
 Special_Bitvector: p0 
+Skill: 136 36
 Spell: 1
 E
 #42203
@@ -112,6 +115,7 @@ Class: 103
 Height: 198
 Weight: 85
 Special_Bitvector: m0y0 
+Skill: 136 42
 E
 #42204
 перепелка~
@@ -142,6 +146,7 @@ Class: 103
 Height: 198
 Weight: 95
 Special_Bitvector: l0y0 
+Skill: 136 42
 E
 #42205
 птенец~
@@ -172,6 +177,7 @@ Class: 103
 Height: 198
 Weight: 35
 Special_Bitvector: 0 
+Skill: 136 21
 E
 #42206
 орел степной~
@@ -202,7 +208,9 @@ Class: 103
 Height: 198
 Weight: 180
 Special_Bitvector: l0y0 
+Skill: 136 54
 E
+I крылья:5
 #42207
 берегиня хозяйка~
 берегиня~
@@ -277,6 +285,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: p0 
+Skill: 136 57
 E
 #42209
 полевик мужиченка ~
@@ -336,9 +345,9 @@ E
 ~
 Крупное растение, в несколько раз больше всех своих собратьев по полю.
 ~
-b0d0f0g0m0n0o0q0r0u0x0l1m1n1 0 0 E
+b0d0f0g0m0n0o0q0r0u0x0z0l1m1n1 0 0 E
 8 13 7 5d5+30 3d2+0
-0d0+30 2500
+0d0+0 2500
 8 8 1
 BareHandAttack: 8
 Str: 9
@@ -351,6 +360,7 @@ Class: 100
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 24
 Spell: 38
 E
 #42211
@@ -379,6 +389,7 @@ Class: 100
 Height: 198
 Weight: 80
 Special_Bitvector: l0y0 
+Skill: 136 24
 E
 #42212
 белка ручная~
@@ -455,6 +466,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: p0 
+Skill: 136 51
 E
 T 42208
 #42214
@@ -471,7 +483,7 @@ T 42208
 ~
 b0c0d0g0l0m0n0o0p0q0u0x0A0 d0f0g0k0z0 0 E
 24 0 -7 50d70+400 5d4+0
-50d20+100 40000
+50d20+100 120000
 8 8 2
 Str: 17
 Dex: 17

@@ -134,6 +134,7 @@ Height: 198
 Weight: 15
 Special_Bitvector: 0 
 Skill: 132 90
+Skill: 136 60
 Spell: 17
 Spell: 17
 Spell: 17
@@ -203,6 +204,7 @@ Class: 103
 Height: 198
 Weight: 10
 Special_Bitvector: l0 
+Skill: 136 30
 E
 #50506
 хищная лиса~
@@ -233,6 +235,7 @@ Class: 103
 Height: 198
 Weight: 10
 Special_Bitvector: i0p0 
+Skill: 136 30
 Skill: 157 70
 E
 #50507
@@ -264,6 +267,7 @@ Height: 198
 Weight: 75
 Special_Bitvector: p0 
 Skill: 132 50
+Skill: 136 30
 E
 #50508
 гадюка~
@@ -318,7 +322,7 @@ b0d0e0g0l0n0o0p0q0r0x0i1 c0d0e0f0k0C0m1 -600 E
 6 6 1
 Str: 15
 Int: 25
-Wis: 25
+Wis: 33
 Con: 36
 Size: 30
 LikeWork: 90
@@ -331,6 +335,7 @@ Skill: 136 100
 Skill: 157 100
 E
 T 50502
+I копыта:6
 #50510
 крестьянин~
 крестьянин~
@@ -487,13 +492,14 @@ Cha: 15
 Size: 25
 LikeWork: 90
 ExtraAttack: 1
-Class: 102
+Class: 101
 Height: 198
 Weight: 5
-Special_Bitvector: y0b1c1 
+Special_Bitvector: b1c1 
 Skill: 134 100
 Skill: 136 100
 E
+I копыта:6
 #50515
 болотная плесень~
 болотная плесень~
@@ -524,6 +530,7 @@ Class: 101
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 157 90
 Spell: 59
 Spell: 59
@@ -557,10 +564,11 @@ ExtraAttack: 1
 Class: 102
 Height: 198
 Weight: 5
-Special_Bitvector: y0b1c1 
+Special_Bitvector: b1c1 
 Skill: 134 90
 Skill: 136 100
 E
+I копыта:6
 #50517
 шинкарь уродец~
 шинкарь~
@@ -621,14 +629,15 @@ Cha: 15
 Size: 25
 LikeWork: 90
 ExtraAttack: 1
-Class: 102
+Class: 101
 Height: 198
 Weight: 5
-Special_Bitvector: y0b1c1 
+Special_Bitvector: b1c1 
 Skill: 132 80
 Skill: 136 100
 Skill: 142 100
 E
+I копыта:6
 #50519
 бес~
 бес~
@@ -654,10 +663,10 @@ Cha: 15
 Size: 25
 LikeWork: 90
 ExtraAttack: 1
-Class: 102
+Class: 101
 Height: 198
 Weight: 200
-Special_Bitvector: y0b1c1 
+Special_Bitvector: b1c1 
 Skill: 1 90
 Skill: 2 90
 Skill: 132 80
@@ -665,6 +674,7 @@ Skill: 136 100
 Skill: 141 100
 Skill: 142 100
 E
+I копыта:6
 #50520
 ведьмак~
 ведьмак~
@@ -694,6 +704,7 @@ Class: 102
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 141 100
 Spell: 25
 Spell: 40
@@ -719,7 +730,7 @@ c0d0f0g0l0m0i1c2 b0d0e0f0k0x0 0 E
 Str: 15
 Dex: 20
 Int: 19
-Wis: 15
+Wis: 33
 Con: 20
 Cha: 15
 Size: 30
@@ -728,6 +739,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 66
 Spell: 17
 Spell: 17
 E
@@ -762,10 +774,12 @@ Weight: 150
 Special_Bitvector: 0 
 Skill: 5 80
 Skill: 21 20
+Skill: 136 90
 Skill: 137 80
 Skill: 146 100
 E
 T 50524
+I копыта:8
 #50523
 упырь чудовище~
 упырь~
@@ -797,6 +811,7 @@ Class: 101
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 147 100
 Skill: 157 75
 E

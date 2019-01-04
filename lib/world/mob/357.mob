@@ -11,8 +11,8 @@
    Могучий воин, который еще с пеленок научился воевать! Если Вы хотите
 его убить, то лучше даже и не пробуйте - он расколет Ваш череп как орех!
 ~
-b0d0e0g0l0n0o0p0q0r0t0u0x0y0B0o1f2g2h2i2 c0d0e0f0h0k0m0n0p0r0z0C0a1c1m1n1o1p1q1r1s1t1u1w1x1y1z1 600 E
-30 20 -10 50d50+10000 30d30+50
+b0d0e0g0n0o0p0q0r0t0u0x0y0B0o1f2g2h2i2 c0d0e0f0h0k0m0n0p0r0z0C0a1c1m1n1o1p1q1r1s1t1u1w1x1y1z1 600 E
+30 20 -10 50d50+10000 2d2+2
 0d0+0 -50000000
 8 8 1
 Str: 36
@@ -25,16 +25,13 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 100
 Special_Bitvector: B3 
-Skill: 4 200
 Skill: 12 200
-Skill: 21 200
-Skill: 132 200
 Skill: 136 200
 Skill: 137 200
-Skill: 150 200
 Skill: 154 200
 Skill: 155 200
 Skill: 157 200
@@ -58,26 +55,6 @@ Spell: 28
 Spell: 28
 Spell: 28
 Spell: 28
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 40
 E
 #35701
 воин дружины~
@@ -119,6 +96,7 @@ LikeWork: 100
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: B3 
@@ -134,15 +112,15 @@ E
 кузнец воин старый~
 старый кузнец~
 старого кузнеца~
-старым кузнецом~
-старом кузнеце~
+старому кузнецу~
+старого кузнеца~
 старым кузнецом~
 старом кузнеце~
 Старый кузнец стоит здесь, выковывая что-то.
 ~
    Старый воин, который теперь занимается кузнечеством.
 ~
-b0d0g0B0o1f2 c0d0f0k0 600 E
+b0d0g0n0o0B0o1f2 c0d0f0k0 600 E
 30 0 0 0d0+100 22d22+22
 0d0+250000 0
 8 8 1
@@ -155,9 +133,11 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #35703
 торговец заморский~
@@ -185,9 +165,11 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #35704
 конюх~
@@ -218,9 +200,11 @@ LikeWork: 100
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 90
 E
 T 35700
 T 35701
@@ -250,9 +234,11 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #35706
 хозяин~
@@ -267,7 +253,7 @@ E
    Человек из Казахстана.
 
 ~
-b0d0g0B0o1f2 c0d0f0k0 600 E
+b0d0g0n0B0o1f2u2 c0d0f0k0 600 E
 30 0 0 0d0+100 22d22+22
 0d0+0 0
 8 8 1
@@ -280,9 +266,11 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #35707
 воин дозорный~
@@ -310,9 +298,11 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #35708
 охранник подземелья~
@@ -326,9 +316,9 @@ E
 ~
  ....
 ~
-b0d0g0m0n0o0p0q0r0s0t0u0x0A0B0f2g2i2 c0d0e0f0g0h0k0m0n0r0r1t1w1y1 600 E
+b0d0g0m0o0p0q0r0s0t0u0x0B0f2g2i2 c0d0e0f0g0h0k0m0n0r0r1t1w1y1 600 E
 28 20 -10 10d10+1110 20d20+20
-0d0+0 -500000
+0d0+0 0
 8 8 1
 Str: 34
 Dex: 33
@@ -341,13 +331,13 @@ LikeWork: 100
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
 Skill: 22 200
 Skill: 132 200
 Skill: 136 200
-Skill: 165 200
 Spell: 23
 Spell: 23
 Spell: 23
@@ -426,9 +416,11 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #35710
 скатерть самобранка~
@@ -438,28 +430,30 @@ E
 скатерть самобранку~
 скатертью самобранкой~
 скатерти самобранке~
-Скатерть самобранка СолнецПоклонников летает тут.
+Скатерть самобранка СолнцеПоклонников летает тут.
 ~
 
 ~
-b0d0s0f2 x0 1000 E
-30 19 0 1d1+120 2d2+2
+b0d0p0s0t0f2 x0 1000 E
+20 15 0 1d1+120 2d2+2
 0d0+0 0
 8 8 2
 BareHandAttack: 14
-Str: 10
-Dex: 10
+Str: 12
+Dex: 12
 Int: 10
 Wis: 10
-Con: 10
+Con: 12
 Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 100
+Race: 100
 Height: 150
 Weight: 85
 Special_Bitvector: l0 
 Skill: 22 100
+Skill: 136 60
 E
 T 35706
 #35711
@@ -488,9 +482,11 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #35712
 трактирщик~
@@ -518,9 +514,11 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #35713
 священник~
@@ -540,9 +538,12 @@ b0d0f2 d0f0k0 600 E
 0d0+0 0
 8 8 1
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 T 35703
 $

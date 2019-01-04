@@ -65,6 +65,7 @@ Spell: 135
 Spell: 135
 Spell: 156
 Helper: 91209
+Skill: 136 90
 E
 T 91208
 L 1450 50 0 0
@@ -99,6 +100,16 @@ Class: 104
 Height: 198
 Weight: 90
 Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 3 110
 Skill: 4 100
 Skill: 31 100
@@ -149,6 +160,7 @@ Spell: 156
 Spell: 156
 Spell: 156
 Helper: 91203
+Skill: 136 96
 E
 T 91204
 T 91205
@@ -187,6 +199,16 @@ Class: 104
 Height: 198
 Weight: 90
 Special_Bitvector: l0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 80
 Skill: 132 80
 Skill: 136 100
@@ -223,6 +245,7 @@ Spell: 110
 Spell: 118
 Spell: 118
 Helper: 91210
+Skill: 136 96
 E
 T 91207
 #91203
@@ -803,7 +826,7 @@ T 91104
 Великий Перун стоит здесь.
 ~
 Великий Бог.~
-b0d0g0n0 h0o1 600 E
+b0d0g0n0 d0f0h0k0o1 600 E
 29 0 -10 10d10+10000 10d5+20
 0d0+0 0
 8 8 1
@@ -820,8 +843,19 @@ Class: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 100
 Skill: 5 100
+Skill: 136 87
 Skill: 141 150
 Skill: 142 150
 Skill: 143 150

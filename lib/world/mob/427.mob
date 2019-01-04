@@ -27,6 +27,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 42700
 T 42701
@@ -37,7 +38,7 @@ T 42701
 мукомолу~
 мукомола~
 мукомолом~
-мукомолу~
+мукомоле~
 Кряжистый мукомол, во всем белом стоит здесь.
 ~
 Мукомол занимается обмолотом зерна.
@@ -55,6 +56,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 42704
 #42702
@@ -87,6 +89,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 9
 E
 T 42707
 #42703
@@ -115,6 +118,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 42702
 #42704
@@ -142,11 +146,13 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 45
 Helper: 42708
 E
 T 42703
 T 42705
 T 42708
+L 1708 6 0 0
 #42705
 воришка отрок~
 воришка~
@@ -157,7 +163,8 @@ T 42708
 воришке~
 Вороватого вида отрок, в рваных обносках стоит здесь.
 ~
-Ловкий юркий малый с повадками вора.~
+Ловкий юркий малый с повадками вора.
+~
 c0d0g0 p0s0C0 0 E
 15 7 5 5d10+130 2d3+3
 2d2+5 9000
@@ -171,6 +178,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #42706
 летучая мышь~
@@ -201,6 +209,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 27
 E
 #42707
 черная крыса~
@@ -231,6 +240,7 @@ Class: 103
 Height: 198
 Weight: 10
 Special_Bitvector: p0 
+Skill: 136 39
 E
 #42708
 амбарный сторож~
@@ -293,6 +303,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 15
 E
 T 42707
 #42710
@@ -324,6 +335,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 15
 E
 T 42707
 #42711
@@ -355,6 +367,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 30
 E
 T 42707
 #42712
@@ -389,9 +402,10 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #42713
-хавун человечек маленкий~
+хавун человечек маленький~
 хавун~
 хавуна~
 хавуну~
@@ -418,8 +432,10 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: a1 
+Skill: 136 51
 Skill: 139 80
 E
+T 42710
 #42714
 распряженный конь~
 распряженный конь~
@@ -449,6 +465,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 134 80
+Skill: 136 36
 E
 L 1434 12 0 0
 #42715
@@ -480,6 +497,7 @@ Height: 198
 Weight: 50
 Special_Bitvector: 0 
 Skill: 134 80
+Skill: 136 48
 E
 #42716
 черный паук~
@@ -510,6 +528,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 36
 Spell: 54
 Spell: 64
 E
@@ -541,6 +560,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 39
 Skill: 145 90
 Skill: 157 90
 E

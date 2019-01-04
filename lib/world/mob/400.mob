@@ -1,0 +1,1751 @@
+* BRusMUD mob file v1.0
+#40000
+охранник стрелец стражник~
+охранник-стрелец~
+охранника-стрельца~
+охраннику-стрельцу~
+охранника-стрельца~
+охранником-стрельцом~
+охраннике-стрельце~
+Cтражник стоит здесь, проверяя свой самострел.
+~
+   Хозян этого дома нанял стражу после того, как 
+пару раз его пытались обокрасть. Этот молодой 
+парень - из числа нанятых.
+~
+b0l0m0n0 k0r0z0A0 -600 E
+25 0 -30 5d6+2000 5d8+10
+7d10+5 200000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 100 100 100 100 100 100 100
+HPreg: 0
+Armour: 100
+PlusMem: 0
+CastSuccess: 50
+Success: 0
+Initiative: 0
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 27
+Int: 17
+Wis: 17
+Dex: 35
+Con: 24
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1
+Spell: 15
+Spell: 15
+Spell: 156
+Skill: 137 150
+Skill: 154 100
+Skill: 155 100
+Helper: 40022
+E
+T 40016
+I глаза,10:5
+#40001
+охранник стрелец стражник~
+охранник-стрелец~
+охранника-стрельца~
+охраннику-стрельцу~
+охранника-стрельца~
+охранником-стрельцом~
+охраннике-стрельце~
+Cтражник стоит здесь, проверяя свой самострел.
+~
+   Хозян этого дома нанял стражу после того, как 
+пару раз его пытались обокрасть. Этот молодой 
+парень - из числа нанятых.
+~
+b0l0m0n0 k0r0z0A0 -600 E
+25 0 -30 5d6+2000 5d8+10
+7d10+5 200000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 27
+Int: 17
+Wis: 17
+Dex: 35
+Con: 24
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1
+Spell: 15
+Spell: 15
+Spell: 156
+Skill: 137 150
+Skill: 154 100
+Skill: 155 100
+E
+#40002
+охранник стрелец стражник~
+охранник-стрелец~
+охранника-стрельца~
+охраннику-стрельцу~
+охранника-стрельца~
+охранником-стрельцом~
+охраннике-стрельце~
+Cтражник стоит здесь, проверяя свой самострел.
+~
+   Хозян этого дома нанял стражу после того, как 
+пару раз его пытались обокрасть. Этот молодой 
+парень - из числа нанятых.
+~
+b0l0m0 k0r0z0A0 -600 E
+25 0 -30 5d6+2000 5d8+10
+7d10+5 200000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 27
+Int: 17
+Wis: 17
+Dex: 35
+Con: 24
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: y0b1c1
+Spell: 15
+Spell: 15
+Spell: 156
+Skill: 137 150
+Skill: 154 100
+Skill: 155 100
+E
+#40003
+охранник стрелец стражник~
+охранник-стрелец~
+охранника-стрельца~
+охраннику-стрельцу~
+охранника-стрельца~
+охранником-стрельцом~
+охраннике-стрельце~
+Cтражник стоит здесь, проверяя свой самострел.
+~
+   Хозян этого дома нанял стражу после того, как 
+пару раз его пытались обокрасть. Этот молодой 
+парень - из числа нанятых.
+~
+b0l0m0 k0r0z0A0 -600 E
+25 0 -30 5d6+2000 5d8+10
+7d10+5 200000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 27
+Int: 17
+Wis: 17
+Dex: 35
+Con: 24
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: y0b1c1
+Spell: 15
+Spell: 15
+Spell: 156
+Skill: 137 150
+Skill: 154 100
+Skill: 155 100
+E
+#40004
+ десятник стражи~
+десятник стражи~
+десятника стражи~
+десятнику стражи~
+десятника стражи~
+десятником стражи~
+десятнике стражи~
+Десятник стражи обходит вверенный ему участок поместья.
+~
+Мужчина, уже в годах. По его суровому взгляду видно,
+что он немало повидал в этой жизни. Такого не 
+обведешь вокруг пальца, да и не проживешь долго, 
+если станешь врагом его.
+~
+c0j0l0m0n0 d0k0r0z0A0 -600 E
+30 0 -30 4d20+2800 10d8+10
+5d10+19 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 100 100 100 100 100 100 100
+HPreg: 0
+Armour: 100
+PlusMem: 0
+CastSuccess: 100
+Success: 0
+Initiative: 0
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 30
+Int: 21
+Wis: 11
+Dex: 38
+Con: 29
+Cha: 14
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1
+Spell: 28
+Spell: 28
+Spell: 93
+Skill: 132 180
+Skill: 143 100
+Skill: 151 180
+Skill: 157 180
+Helper: 40021
+E
+T 40022
+I зубы,10:10
+#40005
+ десятник стражи~
+десятник стражи~
+десятника стражи~
+десятнику стражи~
+десятника стражи~
+десятником стражи~
+десятнике стражи~
+Десятник стражи обходит вверенный ему участок поместья.
+~
+Мужчина, уже в годах. По его суровому взгляду видно,
+что он немало повидал в этой жизни. Такого не 
+обведешь вокруг пальца, да и не проживешь долго, 
+если станешь врагом его.
+~
+c0j0l0m0n0 d0k0r0z0A0 -600 E
+30 0 -30 4d20+2800 10d8+10
+5d10+19 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 30
+Int: 21
+Wis: 11
+Dex: 38
+Con: 29
+Cha: 14
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1
+Spell: 28
+Spell: 28
+Spell: 93
+Skill: 132 180
+Skill: 143 100
+Skill: 151 180
+Skill: 157 180
+Helper: 40027
+Helper: 40028
+E
+T 40023
+#40006
+ десятник стражи~
+десятник стражи~
+десятника стражи~
+десятнику стражи~
+десятника стражи~
+десятником стражи~
+десятнике стражи~
+Десятник стражи обходит вверенный ему участок поместья.
+~
+Мужчина, уже в годах. По его суровому взгляду видно,
+что он немало повидал в этой жизни. Такого не 
+обведешь вокруг пальца, да и не проживешь долго, 
+если станешь врагом его.
+~
+c0j0l0m0n0 d0k0r0z0A0 -600 E
+30 0 -30 4d20+2800 10d8+10
+5d10+19 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 30
+Int: 21
+Wis: 11
+Dex: 38
+Con: 29
+Cha: 14
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1
+Spell: 28
+Spell: 28
+Spell: 93
+Skill: 132 180
+Skill: 143 100
+Skill: 151 180
+Skill: 157 180
+Helper: 40029
+Helper: 40030
+E
+T 40024
+#40007
+ начальник стражи~
+начальник стражи~
+начальника стражи~
+начальнику стражи~
+начальника стражи~
+начальником стражи~
+начальнике стражи~
+Начальник стражи обходит выставленные караулы.
+~
+Он постоянно хмурится и бормочет: "Ясна... Ясна... кто такая Ясна?,
+...развелось потаскух в городе..."
+
+
+
+~
+j0l0m0n0 c0d0e0k0 -600 E
+30 0 -30 4d20+3100 10d10+14
+10d5+10 330000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 100 100 100 100 100 100 100
+HPreg: 0
+Armour: 100
+PlusMem: 100
+CastSuccess: 100
+Success: 100
+Initiative: 100
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 33
+Int: 18
+Wis: 16
+Dex: 39
+Con: 33
+Cha: 20
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Feat: 1
+Feat: 2
+Feat: 3
+Special_Bitvector: b1c1B3
+Spell: 28
+Spell: 28
+Spell: 56
+Skill: 132 100
+Skill: 157 150
+Skill: 21 25
+Helper: 40004
+Helper: 40005
+Helper: 40006
+E
+T 40027
+I кости,10:10
+#40008
+повар~
+повар~
+повара~
+повару~
+повара~
+поваром~
+поваре~
+Повар бегает тут, следя за обедом.
+~
+   Этот мужик давно уже работает поваром. Вон какое
+пузо отрастил.
+
+
+
+~
+c0h0l0m0A0 f0k0r0z0 -600 E
+25 0 -1 5d6+1200 6d6+8
+2d4+5 125000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 50 50 50 50 50 50 50
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 50
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 30
+Int: 15
+Wis: 15
+Dex: 29
+Con: 15
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 90
+Height: 160
+Weight: 150
+Special_Bitvector: y0b1c1
+Spell: 148
+Spell: 25
+Skill: 160 180
+Skill: 4 180
+E
+T 40012
+I кожа,10:10
+#40009
+стражник мечник~
+стражник-мечник~
+стражника-мечника~
+стражнику-мечнику~
+стражника-мечника~
+стражником-мечником~
+стражнике-мечнике~
+Статный мужчина стоит здесь, рассматирвая клинок
+~
+Мужчина с длинным клинком. Немало лет провел он на службе, 
+прежде чем попал в этот дом охранником.
+~
+b0j0l0A0 d0k0z0A0 -600 E
+26 0 -30 10d6+2000 8d9+11
+3d6+2 220000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 100 100 100 100 100 100 100
+HPreg: 0
+Armour: 100
+PlusMem: 0
+CastSuccess: 100
+Success: 0
+Initiative: 0
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 25
+Int: 18
+Wis: 18
+Dex: 31
+Con: 26
+Cha: 19
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 100
+Weight: 100
+Feat: 2
+Feat: 3
+Special_Bitvector: b1c1B3
+Spell: 111
+Skill: 132 180
+Skill: 21 10
+Helper: 40023
+E
+T 40017
+#40010
+старательный слуга~
+старательный слуга~
+старательного слуги~
+старательному слуге~
+старательного слугу~
+старательным слугой~
+старательном слуге~
+Согнувшийся в поклоне слуга семенит тут.
+~
+   Вычуро одетый лакей - именно он является лицом 
+дома - ведь гости сначала видят его, а уж затем 
+хозяев.
+~
+m0 d0k0r0z0A0 -600 E
+25 0 -10 16d6+1000 4d8+8
+1d1+12 100000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 100
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 25
+Wis: 50
+Dex: 25
+Con: 25
+Cha: 25
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Special_Bitvector: a1b1c1
+Spell: 82
+Skill: 139 180
+Skill: 160 180
+E
+#40011
+ старый~
+старый вор~
+старого вора~
+старому вору~
+старого вора~
+старым вором~
+старом воре~
+Старый вор хитро улыбается здесь.
+~
+   Старикашка в неприметных одеждах. Руки его ловко обчистят любой карман, 
+да так, что никто и не почувствует
+~
+b0B0 d0f0k0 0 E
+34 1 1 10d10+2 1d11+11
+1d11+11 10000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 100
+Size: 100
+Height: 175
+Weight: 85
+E
+T 40000
+T 40001
+#40012
+ брянский боярин щекастый~
+брянский боярин~
+брянского боярина~
+брянскому боярину~
+брянского боярина~
+брянским боярином~
+брянском боярине~
+Щекастый брянский боярин ходит здесь.
+~
+   Толстый щекастый боярин в красном одеянии. Пузо его выпирает, но в ногах
+и руках видна сила недужинная.
+~
+b0c0A0 d0f0k0z0A0e2 -600 E
+28 0 -30 10d10+3200 10d5+15
+6d6+19 320000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 100 100 100 100 100 100 100
+HPreg: 0
+Armour: 100
+PlusMem: 0
+CastSuccess: 100
+Success: 0
+Initiative: 100
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 35
+Int: 35
+Wis: 45
+Dex: 45
+Con: 35
+Cha: 35
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 2
+Feat: 3
+Feat: 4
+Special_Bitvector: b1c1
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Skill: 132 180
+Skill: 134 200
+Helper: 40007
+E
+T 40013
+T 40011
+#40013
+ боярыня~
+боярыня~
+боярыни~
+боярыне~
+боярыню~
+боярыней~
+боярыне~
+Боярыня величаво ступает здесь.
+~
+   Красавица-жена хозяина этого дома. Волосы ее собраны в тугую косу,
+на теле красивое шелковое платье.
+~
+b0j0b2h2 d0k0 -600 E
+30 0 -11 10d10+1000 5d10+5
+2d2+18 180000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 100 100 100 100 100 100 100
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 100
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 25
+Wis: 25
+Dex: 31
+Con: 25
+Cha: 25
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 28
+Spell: 28
+Spell: 68
+Spell: 68
+Skill: 134 120
+Skill: 160 120
+Helper: 40031
+Helper: 40032
+E
+T 40014
+I кожа,10:10
+#40014
+ девка чернявка служанка~
+девка - чернявка~
+девки - чернявки~
+девке - чернявке~
+девку - чернявку~
+девкой - чернявкой~
+девке - чернявке~
+Служанка бежит за боярыней.
+~
+   Молодая девка, помогающая боярыне вести хозяйство и следить за собой.
+  
+~
+l0m0A0 d0f0h0 -600 E
+25 0 -12 10d10+700 5d10+5
+2d2+4 120000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 100
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 35
+Int: 35
+Wis: 35
+Dex: 35
+Con: 35
+Cha: 35
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Skill: 1 100
+Skill: 137 100
+E
+T 40029
+I шерсть,10:3
+#40015
+ ловкач~
+ловкач~
+ловкача~
+ловкачу~
+ловкача~
+ловкачом~
+ловкаче~
+Ловкач притаился здесь.
+~
+   Человек в неприметных серых одеждах. Его разящий удар надежно защищает 
+хозяйское имущество.
+~
+b0c0f0A0 b0c0f0k0s0t0z0A0 0 E
+30 0 -20 10d10+1500 5d7+21
+5d2+10 220000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 45 45 45 45 45 45 45
+HPreg: 45
+Armour: 100
+PlusMem: 45
+CastSuccess: 45
+Success: 100
+Initiative: 100
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 11
+Str: 40
+Int: 40
+Wis: 40
+Dex: 50
+Con: 40
+Cha: 40
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 27
+Feat: 53
+Special_Bitvector: i0j0b1c1
+Spell: 71
+Skill: 131 200
+Skill: 160 200
+Skill: 167 200
+E
+T 40026
+I кости,10:10
+#40016
+ цепной~
+цепной пес~
+цепного пса~
+цепному псу~
+цепного пса~
+цепным псом~
+цепном псе~
+Пес сидит здесь на цепи.
+~
+   Лохматая псина с грустными глазами сидит на огромной цепи. 
+~
+b0m0 d0f0k0 -600 E
+25 0 -10 10d10+400 11d4+11
+1d1+11 70000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 40
+Int: 40
+Wis: 40
+Dex: 40
+Con: 40
+Cha: 40
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: y0
+Skill: 132 180
+E
+T 40028
+I шерсть,10:10
+#40017
+ грустный~
+грустный вор ~
+грустного вора~
+грустному вору~
+грустного вора~
+грустным вором~
+грустном воре~
+Грустный вор спит здесь.
+~
+   Грустный вор спит здесь. Одежда на нем порвана, на теле видны следы 
+побоя. Незавидная судьба ждет воришек..
+~
+b0 d0f0k0 0 E
+34 0 -13 10d10+3000 11d10+21
+1d2+5 350000
+6 6 1
+Saves: 0 0 0 0
+Resistances: 100 100 100 100 100 100 100
+HPreg: 0
+Armour: 100
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 40
+Int: 40
+Wis: 40
+Dex: 40
+Con: 40
+Cha: 40
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 1
+Feat: 2
+Feat: 3
+Special_Bitvector: b1c1
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Skill: 160 150
+Skill: 167 150
+Skill: 179 150
+Skill: 5 150
+E
+T 40006
+T 40015
+I глаза,10:10
+#40018
+стражник мечник~
+стражник-мечник~
+стражника-мечника~
+стражнику-мечнику~
+стражника-мечника~
+стражником-мечником~
+стражнике-мечнике~
+Статный мужчина стоит здесь, рассматирвая клинок.
+~
+Мужчина с длинным клинком. Немало лет провел он на службе, 
+прежде чем попал в этот дом охранником.
+~
+b0j0l0 d0k0z0A0 -600 E
+26 0 -30 10d6+2000 8d9+11
+3d6+2 220000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 25
+Int: 18
+Wis: 18
+Dex: 31
+Con: 26
+Cha: 19
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 100
+Weight: 100
+Special_Bitvector: b1c1B3
+Spell: 111
+Skill: 132 180
+Skill: 21 10
+Helper: 40024
+E
+T 40018
+#40019
+стражник мечник~
+стражник-мечник~
+стражника-мечника~
+стражнику-мечнику~
+стражника-мечника~
+стражником-мечником~
+стражнике-мечнике~
+Статный мужчина стоит здесь, рассматирвая клинок.
+~
+Мужчина с длинным клинком. Немало лет провел он на службе, 
+прежде чем попал в этот дом охранником.
+~
+b0j0l0 d0k0z0A0 -600 E
+26 0 -30 10d6+2000 8d9+11
+3d6+2 220000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 25
+Int: 18
+Wis: 18
+Dex: 31
+Con: 26
+Cha: 19
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 100
+Weight: 100
+Special_Bitvector: b1c1B3
+Spell: 111
+Skill: 132 180
+Skill: 21 10
+Helper: 40025
+E
+T 40019
+#40020
+стражник мечник~
+стражник-мечник~
+стражника-мечника~
+стражнику-мечнику~
+стражника-мечника~
+стражником-мечником~
+стражнике-мечнике~
+Статный мужчина стоит здесь, рассматирвая клинок.
+~
+Мужчина с длинным клинком. Немало лет провел он на службе, 
+прежде чем попал в этот дом охранником.
+~
+b0j0l0 d0k0z0A0 -600 E
+26 0 -30 10d6+2000 8d9+11
+3d6+2 220000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 25
+Int: 18
+Wis: 18
+Dex: 31
+Con: 26
+Cha: 19
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 100
+Weight: 100
+Special_Bitvector: b1c1B3
+Spell: 111
+Skill: 132 180
+Skill: 21 10
+Helper: 40026
+E
+T 40020
+#40021
+стражник мечник~
+стражник-мечник~
+стражника-мечника~
+стражнику-мечнику~
+стражника-мечника~
+стражником-мечником~
+стражнике-мечнике~
+Статный мужчина стоит здесь, рассматирвая клинок.
+~
+Мужчина с длинным клинком. Немало лет провел он на службе, 
+прежде чем попал в этот дом охранником.
+~
+b0j0l0 d0k0z0A0 -600 E
+26 0 -30 10d6+2000 8d9+11
+3d6+2 220000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 25
+Int: 18
+Wis: 18
+Dex: 31
+Con: 26
+Cha: 19
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 100
+Weight: 100
+Special_Bitvector: b1c1B3
+Spell: 111
+Skill: 132 180
+Skill: 21 10
+E
+T 40021
+#40022
+охранник стрелец стражник~
+охранник-стрелец~
+охранника-стрельца~
+охраннику-стрельцу~
+охранника-стрельца~
+охранником-стрельцом~
+охраннике-стрельце~
+Cтражник стоит здесь, проверяя свой самострел.
+~
+   Хозян этого дома нанял стражу после того, как 
+пару раз его пытались обокрасть. Этот молодой 
+парень - из числа нанятых.
+~
+b0l0m0n0 k0r0z0A0 -600 E
+25 0 -30 5d6+2000 5d8+10
+7d10+5 200000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 27
+Int: 17
+Wis: 17
+Dex: 35
+Con: 24
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1
+Spell: 15
+Spell: 15
+Spell: 156
+Skill: 137 150
+Skill: 154 100
+Skill: 155 100
+E
+T 40025
+#40023
+ дворовый дьячок~
+дворовый дьячок~
+дворового дьячка~
+дворовому дьячку~
+дворового дьячка~
+дворовым дьячком~
+дворовом дьячке~
+Дворовый дьячок бубнит что-то под нос.
+~
+Пожалуй единственный грамотный (ну кроме боярина) человек в доме.
+  
+~
+l0m0 d0f0h0 -600 E
+25 0 -12 10d10+700 5d10+5
+2d2+4 150000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 100
+CastSuccess: 100
+Success: 100
+Initiative: 100
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 35
+Int: 35
+Wis: 35
+Dex: 35
+Con: 35
+Cha: 35
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 56
+Spell: 56
+Skill: 131 100
+Skill: 160 120
+E
+#40024
+ дворовый дьячок~
+дворовый дьячок~
+дворового дьячка~
+дворовому дьячку~
+дворового дьячка~
+дворовым дьячком~
+дворовом дьячке~
+Дворовый дьячок бубнит что-то под нос.
+~
+Пожалуй единственный грамотный (ну кроме боярина) человек в доме.
+  
+~
+l0m0 d0f0h0 -600 E
+25 0 -12 10d10+700 5d10+5
+2d2+4 150000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 35
+Int: 35
+Wis: 35
+Dex: 35
+Con: 35
+Cha: 35
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 56
+Spell: 56
+Skill: 131 100
+Skill: 160 120
+E
+T 40032
+#40025
+ дворовый дьячок~
+дворовый дьячок~
+дворового дьячка~
+дворовому дьячку~
+дворового дьячка~
+дворовым дьячком~
+дворовом дьячке~
+Дворовый дьячок бубнит что-то под нос.
+~
+Пожалуй единственный грамотный (ну кроме боярина) человек в доме.
+  
+~
+l0m0 d0f0h0 -600 E
+25 0 -12 10d10+700 5d10+5
+2d2+4 150000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 35
+Int: 35
+Wis: 35
+Dex: 35
+Con: 35
+Cha: 35
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 56
+Spell: 56
+Skill: 131 100
+Skill: 160 120
+E
+#40026
+ дворовый дьячок~
+дворовый дьячок~
+дворового дьячка~
+дворовому дьячку~
+дворового дьячка~
+дворовым дьячком~
+дворовом дьячке~
+Дворовый дьячок бубнит что-то под нос.
+~
+Пожалуй единственный грамотный (ну кроме боярина) человек в доме.
+  
+~
+l0m0 d0f0h0 -600 E
+25 0 -12 10d10+700 5d10+5
+2d2+4 150000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 35
+Int: 35
+Wis: 35
+Dex: 35
+Con: 35
+Cha: 35
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 56
+Spell: 56
+Skill: 131 100
+Skill: 160 120
+E
+#40027
+охранник стрелец стражник~
+охранник-стрелец~
+охранника-стрельца~
+охраннику-стрельцу~
+охранника-стрельца~
+охранником-стрельцом~
+охраннике-стрельце~
+Cтражник стоит здесь, проверяя свой самострел.
+~
+   Хозян этого дома нанял стражу после того, как 
+пару раз его пытались обокрасть. Этот молодой 
+парень - из числа нанятых.
+~
+b0l0m0n0 k0r0z0A0 -600 E
+25 0 -30 5d6+2000 5d8+10
+7d10+5 200000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 27
+Int: 17
+Wis: 17
+Dex: 35
+Con: 24
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1
+Spell: 15
+Spell: 15
+Spell: 156
+Skill: 137 150
+Skill: 154 100
+Skill: 155 100
+E
+T 40031
+#40028
+охранник стрелец стражник~
+охранник-стрелец~
+охранника-стрельца~
+охраннику-стрельцу~
+охранника-стрельца~
+охранником-стрельцом~
+охраннике-стрельце~
+Cтражник стоит здесь, проверяя свой самострел.
+~
+   Хозян этого дома нанял стражу после того, как 
+пару раз его пытались обокрасть. Этот молодой 
+парень - из числа нанятых.
+~
+b0l0m0n0 k0r0z0A0 -600 E
+25 0 -30 5d6+2000 5d8+10
+7d10+5 200000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 27
+Int: 17
+Wis: 17
+Dex: 35
+Con: 24
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1
+Spell: 15
+Spell: 15
+Spell: 156
+Skill: 137 150
+Skill: 154 100
+Skill: 155 100
+E
+#40029
+охранник стрелец стражник~
+охранник-стрелец~
+охранника-стрельца~
+охраннику-стрельцу~
+охранника-стрельца~
+охранником-стрельцом~
+охраннике-стрельце~
+Cтражник стоит здесь, проверяя свой самострел.
+~
+   Хозян этого дома нанял стражу после того, как 
+пару раз его пытались обокрасть. Этот молодой 
+парень - из числа нанятых.
+~
+b0l0m0n0 k0r0z0A0 -600 E
+25 0 -30 5d6+2000 5d8+10
+7d10+5 200000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 27
+Int: 17
+Wis: 17
+Dex: 35
+Con: 24
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1
+Spell: 15
+Spell: 15
+Spell: 156
+Skill: 137 150
+Skill: 154 100
+Skill: 155 100
+E
+T 40031
+#40030
+охранник стрелец стражник~
+охранник-стрелец~
+охранника-стрельца~
+охраннику-стрельцу~
+охранника-стрельца~
+охранником-стрельцом~
+охраннике-стрельце~
+Cтражник стоит здесь, проверяя свой самострел.
+~
+   Хозян этого дома нанял стражу после того, как 
+пару раз его пытались обокрасть. Этот молодой 
+парень - из числа нанятых.
+~
+b0l0m0n0 k0r0z0A0 -600 E
+25 0 -30 5d6+2000 5d8+10
+7d10+5 200000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 27
+Int: 17
+Wis: 17
+Dex: 35
+Con: 24
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: b1c1
+Spell: 15
+Spell: 15
+Spell: 156
+Skill: 137 150
+Skill: 154 100
+Skill: 155 100
+E
+#40031
+ девка чернявка служанка~
+девка - чернявка~
+девки - чернявки~
+девке - чернявке~
+девку - чернявку~
+девкой - чернявкой~
+девке - чернявке~
+Служанка бежит за боярыней.
+~
+   Молодая девка, помогающая боярыне вести хозяйство и следить за собой.
+  
+~
+l0m0 d0f0h0 -600 E
+25 0 -12 10d10+700 5d10+5
+2d2+4 150000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 100
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 35
+Int: 35
+Wis: 35
+Dex: 35
+Con: 35
+Cha: 35
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 56
+Skill: 1 100
+Skill: 137 100
+E
+T 40030
+#40032
+ девка чернявка служанка~
+девка - чернявка~
+девки - чернявки~
+девке - чернявке~
+девку - чернявку~
+девкой - чернявкой~
+девке - чернявке~
+Служанка бежит за боярыней.
+~
+   Молодая девка, помогающая боярыне вести хозяйство и следить за собой.
+  
+~
+l0m0 d0f0h0 -600 E
+25 0 -12 10d10+700 5d10+5
+2d2+4 150000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 35
+Int: 35
+Wis: 35
+Dex: 35
+Con: 35
+Cha: 35
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 56
+Skill: 1 100
+Skill: 137 100
+E
+$
+$

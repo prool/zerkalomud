@@ -134,6 +134,7 @@ Class: 103
 Height: 30
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #28304
 кровосос~
@@ -166,6 +167,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: l0 
 Skill: 133 30
+Skill: 136 30
 Skill: 137 45
 E
 #28305
@@ -239,7 +241,7 @@ Height: 30
 Weight: 100
 Special_Bitvector: b0b1c1 
 Skill: 134 30
-Skill: 136 21
+Skill: 136 42
 Skill: 137 30
 Skill: 141 21
 Skill: 142 65
@@ -391,7 +393,7 @@ Skill: 155 21
 E
 T 28308
 #28310
-помощник главаря разбойник~
+помощник главаря тощий разбойник~
 помощник главаря~
 помощника главаря~
 помощнику главаря~
@@ -438,7 +440,7 @@ T 28308
 #28311
 воришка~
 воришка~
-воришку~
+воришки~
 воришке~
 воришку~
 воришкой~
@@ -510,7 +512,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 60
-Skill: 136 50
+Skill: 136 60
 Skill: 141 50
 Skill: 142 50
 Skill: 143 65
@@ -525,11 +527,11 @@ Spell: 4
 Spell: 64
 Spell: 75
 Spell: 75
-Helper: 28307
-Helper: 28306
-Helper: 28308
-Helper: 28309
 Helper: 28310
+Helper: 28309
+Helper: 28308
+Helper: 28306
+Helper: 28307
 E
 T 28309
 #28313
@@ -587,7 +589,7 @@ E
 Закованный в латы воин может выдержать серьезные удары почти без вреда
 для своего здоровья. Не стоит затевать драку с ним.
 ~
-b0c0d0g0l0m0A0l1m1 k0 -600 E
+b0c0d0g0l0m0n0A0l1m1 d0k0 -600 E
 16 1 -7 20d12+420 7d4+10
 5d5+10 20000
 4 4 1
@@ -778,7 +780,7 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
-Skill: 136 60
+Skill: 136 66
 Skill: 137 40
 Skill: 141 50
 Skill: 142 50
@@ -790,12 +792,13 @@ Skill: 147 50
 Skill: 148 50
 Skill: 150 35
 Skill: 158 90
-Helper: 28313
-Helper: 28314
-Helper: 28315
 Helper: 28316
+Helper: 28315
+Helper: 28314
+Helper: 28313
 E
 T 28323
+L 1738 7 0 0
 #28319
 конь~
 конь~
@@ -804,7 +807,7 @@ T 28323
 коня~
 конем~
 коне~
-Конь резвится на лугу. 
+Конь резвится на лугу.
 ~
 Вороной конь.
 ~
@@ -828,6 +831,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: 0 
 Skill: 134 20
+Skill: 136 15
 E
 I копыта,5:5
 #28320
@@ -903,6 +907,7 @@ Height: 30
 Weight: 140
 Special_Bitvector: b1c1 
 Skill: 1 50
+Skill: 136 45
 Skill: 141 21
 Skill: 142 70
 Skill: 143 21
@@ -942,6 +947,7 @@ Class: 102
 Height: 30
 Weight: 130
 Special_Bitvector: b1c1 
+Skill: 136 45
 Spell: 38
 Spell: 38
 Spell: 38
@@ -975,6 +981,7 @@ Class: 102
 Height: 30
 Weight: 145
 Special_Bitvector: b1c1 
+Skill: 136 60
 Spell: 1
 Spell: 3
 Spell: 15
@@ -987,8 +994,8 @@ Spell: 62
 Spell: 78
 Spell: 136
 Spell: 136
-Helper: 28322
 Helper: 28321
+Helper: 28322
 E
 T 28316
 #28324
@@ -1022,7 +1029,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 60
-Skill: 136 50
+Skill: 136 60
 Skill: 141 50
 Skill: 142 50
 Skill: 143 65
@@ -1037,11 +1044,11 @@ Spell: 4
 Spell: 64
 Spell: 75
 Spell: 75
-Helper: 28307
-Helper: 28306
-Helper: 28308
-Helper: 28309
 Helper: 28310
+Helper: 28309
+Helper: 28308
+Helper: 28306
+Helper: 28307
 E
 T 28314
 $

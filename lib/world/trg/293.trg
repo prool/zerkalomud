@@ -107,9 +107,11 @@ end
 птенцу дали мясо~
 0 j 100
 ~
+wait 1
 if %object.vnum% == 29301
+wait 1
+mpurge %object%
   wait 1s
-  mpurge мясо
   mecho Птенец с визгом набросился на змеиное мясо.
   wait 3s
   msend %actor% - Вкуснотища! А еще есть??? Надо тебя чем-нибудь отблагодарить.
@@ -146,9 +148,11 @@ end
 пауку дали лук без тетивы~
 0 j 100
 ~
+wait 1
 if %object.vnum% == 29309
+wait 1
+mpurge %object%
   wait 2s
-  mpurge лук
   msend %actor% - И что я должен с ним сделать?
   wait 1s
   mecho Паук задумался и начал изучать лук.
@@ -226,9 +230,11 @@ msend %actor% - я бы помог тебе сделать лук не хуже чем у меня.
 охотнику дали ветку~
 0 j 100
 ~
+wait 1
 if %object.vnum% == 29305
+wait 1
+mpurge %object%
   wait 2s
-  mpurge ветка
   msend %actor% - О, какая хорошая ветка, из нее выйдет отличный лук.
   wait 2s
   mecho Охотник принялся строгать ветку.

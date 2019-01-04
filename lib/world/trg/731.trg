@@ -5,16 +5,16 @@
 wait 2s
 emot внимательно взглянул на Вас из-под кустистых бровей
 if (%actor.class% != 13 ) || (%actor.level% < 28 )
-wait 3
-emot усмехнулся в бороду и принялся помешивать в костре тонкой веточкой
-wait 3s
-say Зря ты сюда зашел...
-mecho _- Это древнее место - странные силы дремлют тут... 
-mecho _- Тем, кто не знаком им, лучше держаться подальше отсюда.
-wait 2s
-say А ты едва ли понимаешь язык рун, звезд и древних камней.
-attach 73122 %self.id%
-halt
+  wait 3
+  emot усмехнулся в бороду и принялся помешивать в костре тонкой веточкой
+  wait 3s
+  say Зря ты сюда зашел...
+  mecho _- Это древнее место - странные силы дремлют тут... 
+  mecho _- Тем, кто не знаком им, лучше держаться подальше отсюда.
+  wait 2s
+  say А ты едва ли понимаешь язык рун, звезд и древних камней.
+  attach 73122 %self.id%
+  halt
 end
 emot едва заметно улыбнулся
 wait 1s
@@ -37,9 +37,9 @@ mechoaround %damager% %damager.name% не смог%damager.g% причинить вреда каменном
 2 c 1
 шагнуть войти~
 if !%arg.contains(огонь)% && !%arg.contains(пламя)%
-wsend %actor% _Куда это Вы шагнуть собрались?
-return 0
-halt 
+  wsend %actor% _Куда это Вы шагнуть собрались?
+  return 0
+  halt 
 end
 wait 1
 wsend %actor% _Вы шагнули в круг огня!
@@ -66,13 +66,13 @@ mdamage %target% 50
 2 c 100
 перепрыгнуть~
 if !%arg.contains(валун)% 
-wsend %actor% _Что это вы перепрыгнуть собрались!?
-return 0
-halt 
+  wsend %actor% _Что это вы перепрыгнуть собрались!?
+  return 0
+  halt 
 end
 if %exist.mob(73101)%
-wsend %actor% Вы попытались прыгнуть через валун, но резкий порыв ветра отбросил вас назад!
-halt
+  wsend %actor% Вы попытались прыгнуть через валун, но резкий порыв ветра отбросил вас назад!
+  halt
 end
 wsend %actor% _Разбежавшись Вы прыгнули через валун.
 wechoaround %actor% _%actor.name% прыгнул%actor.q% через валун.
@@ -86,9 +86,9 @@ end
 2 c 100
 перепрыгнуть~
 if !%arg.contains(валун)% 
-wsend %actor% _Что это вы перепрыгнуть собрались!?
-return 0
-halt 
+  wsend %actor% _Что это вы перепрыгнуть собрались!?
+  return 0
+  halt 
 end
 wsend %actor% _Разбежавшись Вы прыгнули через валун.
 wechoaround %actor% _%actor.name% прыгнул%actor.q% через валун.
@@ -103,13 +103,13 @@ end
 ~
 *если у чара ловкости меньше 23, падаем в дт
 if %actor.dex% > 22
-wait 1
-wsend %actor% _Порыв ветра сильно покачнул мостик, какое чудо, что вы не сорвались!
+  wait 1
+  wsend %actor% _Порыв ветра сильно покачнул мостик, какое чудо, что вы не сорвались!
 else
-wait 1
-wsend %actor% _Порыв ветра стал раскачивать мостик!
-wsend %actor% _Размахивая руками, вы полетили в бездонную пропасть!
-wteleport all 73132
+  wait 1
+  wsend %actor% _Порыв ветра стал раскачивать мостик!
+  wsend %actor% _Размахивая руками, вы полетили в бездонную пропасть!
+  wteleport all 73132
 end
 ~
 #73107
@@ -118,9 +118,9 @@ end
 привязать~
 *Убираем предыдущий триг, теперь по мосту все могут пройти.
 if !%arg.contains(мостик)% 
-wsend %actor% _Что это вы привязать собираетесь!?
-return 0
-halt 
+  wsend %actor% _Что это вы привязать собираетесь!?
+  return 0
+  halt 
 end
 wsend %actor% _Вы крепко привязали мостик, теперь он не будет так раскачиваться!
 wechoaround %actor% _%actor.name% крепко привязал%actor.q% мостик.
@@ -138,12 +138,12 @@ detach 73107 %self%
 2 c 100
 прыгнуть~
 if !%arg.contains(облако)% 
-wsend %actor% _Что это вы прыгнуть собрались!?
-return 0
-halt 
+  wsend %actor% _Что это вы прыгнуть собрались!?
+  return 0
+  halt 
 end
 wsend %actor% _Разбежавшись Вы прыгнули в неизвестность.
-wechoaround %actor% _%actor.name% прыгнул%actor.q% на облако.
+wechoaround %actor% _%actor.name% прыгнул%actor.g% на облако.
 wteleport %actor% 73138
 wsend %actor% _Вы перепрыгнули на облако.
 wechoaround %actor%  _Кто-то прыгнул сюда. 
@@ -154,9 +154,9 @@ end
 2 c 100
 прыгнуть~
 if !%arg.contains(скала)% 
-wsend %actor% _Что это вы прыгнуть собрались!?
-return 0
-halt 
+  wsend %actor% _Что это вы прыгнуть собрались!?
+  return 0
+  halt 
 end
 wsend %actor% _Разбежавшись Вы прыгнули в неизвестность.
 wechoaround %actor% _%actor.name% прыгнул%actor.q% с облака.
@@ -175,7 +175,7 @@ if %self.hitp% < 500
   mecho _Небесный витязь исчез.
   mteleport %self% 73147
   detach 73110 %self.id%
-dg_cast 'исцелен' %self.name%
+  dg_cast 'исцелен' %self.name%
 end
 ~
 #73111
@@ -188,7 +188,7 @@ if %self.hitp% < 750
   mecho _Небесный знахарь исчез.
   mteleport %self% 73147
   detach 73111 %self.id%
-dg_cast 'исцелен' %self.name%
+  dg_cast 'исцелен' %self.name%
 end
 ~
 #73112
@@ -196,9 +196,9 @@ end
 0 f 100
 ~
 if %world.curobjs(73132)% < 50
-mload obj 73132
-mload obj 73132
-mload obj 73132
+  mload obj 73132
+  mload obj 73132
+  mload obj 73132
 end
 ~
 #73113
@@ -223,7 +223,7 @@ if %self.hitp% < 550
   mecho _Могучий небесный воин исчез.
   mteleport %self% 73147
   detach 73114 %self.id%
-dg_cast 'исцелен' %self.name%
+  dg_cast 'исцелен' %self.name%
 end
 ~
 #73115
@@ -236,7 +236,7 @@ if %self.hitp% < 780
   mecho _Заклинатель небес исчез.
   mteleport %self% 73147
   detach 73115 %self.id%
-dg_cast 'исцелен' %self.name%
+  dg_cast 'исцелен' %self.name%
 end
 ~
 #73116
@@ -244,18 +244,18 @@ end
 2 c 100
 прыгнуть~
 if !%arg.contains(вниз)% 
-wsend %actor% _Куда это Вы прыгнуть собрались!?
-return 0
-halt 
+  wsend %actor% _Куда это Вы прыгнуть собрались!?
+  return 0
+  halt 
 end
 wsend %actor% _Перекрестившись и помолившись своим богам, вы прыгнули в неизвестность.
 wechoaround %actor% _%actor.name% спрыгнул%actor.q% с облака в неизвестность.
 wteleport %actor% 73153
 wsend %actor% _Пролетев огромное растояние, вы упали сильно ударившись о камни!
 wechoaround %actor% _Кто-то свалился рядом с вами!
-  if %actor.hitp% > 10 
-    %actor.hitp(10)%
-  end
+if %actor.hitp% > 10 
+  %actor.hitp(10)%
+end
 end
 ~
 #73117
@@ -278,8 +278,8 @@ done
 ~
 set char %random.pc%
 msend %char% _Окаменевший воин с силой ударил по земле!
-  %char.position(6)%
-  %char.wait(4)%
+%char.position(6)%
+%char.wait(4)%
 mechoaround %char% _&WОкаменевший воин ударил по земле и земля вздыбилась под ногами %actor.rname%!&n
 ~
 #73119
@@ -287,7 +287,7 @@ mechoaround %char% _&WОкаменевший воин ударил по земле и земля вздыбилась под но
 0 f 100
 ~
 if (%random.4% == 2) && (%world.curobjs(73192)% < 1)
-mload obj 73192
+  mload obj 73192
 end
 ~
 #73120
@@ -296,7 +296,7 @@ end
 ~
 calcuid deletetrig 73109 mob
 detach 73110 %deletetrig.id% 
-attach 73110 %deletetri.idg% 
+attach 73110 %deletetrig.id% 
 calcuid deletetrig 73110 mob
 detach 73111 %deletetrig.id%
 attach 73111 %deletetrig.id%
@@ -347,8 +347,8 @@ rdelete qoestor731 %druid.id%
 да хочу согласен конечно~
 wait 1
 if ( %actor.class% != 13 || %actor.level% < 28 ) && (%actor.id% != %questor731.id%)
-emot искоса взглянул на вас и снова уставился в огонь
-halt
+  emot искоса взглянул на вас и снова уставился в огонь
+  halt
 end
 %actor.wait(10)%
 wait 1s
@@ -378,9 +378,9 @@ wait 2
 say Здесь дремлют и сами эти силы
 mecho ___________ \&C==== \&Wяркая вспышка ослепила вас и все вокруг исчезло \&C====\&n
 foreach ch %self.pc%
-if %ch.rentable%
-mteleport %ch% 73105 horse
-end
+  if %ch.rentable%
+    mteleport %ch% 73105 horse
+  end
 done
 detach 73100 %self.id%
 detach 73121 %self.id%
@@ -392,39 +392,38 @@ detach 73122 %self.id%
 ~
 wait 1
 if %object.vnum% < 200
-дум
-drop all
-halt
+  дум
+  drop all
+  halt
 elseif (%object.vnum% > 221 ) && (%object.vnum% < 226 )
-emot посмотрел на %object.vname%
-wait 3
-смех
-дать рун .%actor.name%
-say Забавная игрушка...
-взд
-emot подбросил в костер пару веток
-halt
-elseif (%object.vnum% > 200 ) && (%object.vnum% < 244 )
-wait 1
-emot посмотрел на %object.vname% и слегка улыбнулся
-wait 1
-mpurge %object%
-wait 2s
-say Как видно, и ты что-то понимаешь в языке рун...
-wait 2s
-mecho _- Хочешь услышать мой рассказ об этом месте?
-emot указал взмахом руки на замершие вокруг менгиры
-set questor731 %actor%
-global questor731
-attach 73121 %self.id%
-detach 73122 %self.id%
+  emot посмотрел на %object.vname%
+  wait 3
+  смех
+  дать рун .%actor.name%
+  say Забавная игрушка...
+  взд
+  emot подбросил в костер пару веток
+  halt
+elseif (%object.vnum% > 200 ) && (%object.vnum% < 245 )
+  wait 1
+  emot посмотрел на %object.vname% и слегка улыбнулся
+  wait 1
+  mpurge %object%
+  wait 2s
+  say Как видно, и ты что-то понимаешь в языке рун...
+  wait 2s
+  mecho _- Хочешь услышать мой рассказ об этом месте?
+  emot указал взмахом руки на замершие вокруг менгиры
+  set questor731 %actor%
+  global questor731
+  attach 73121 %self.id%
+  detach 73122 %self.id%
 ~
 #73123
 rогненный поток~
-0 k 20
+0 k 15
 ~
 set target %random.pc%
-dg_cast 'огн поток' target
 dg_cast 'огн поток' target
 ~
 #73124
@@ -433,15 +432,15 @@ dg_cast 'огн поток' target
 ~
 mecho Владыка стихий воздел руки и проревел заклинание!
 switch %random.3%
-case 1
-mload mob 73126
-break
-case 2
-mload mob 73127
-break
-case 3
-mload mob 73128
-break
+  case 1
+    mload mob 73126
+  break
+  case 2
+    mload mob 73127
+  break
+  case 3
+    mload mob 73128
+  break
 done
 ~
 #73125
@@ -455,7 +454,7 @@ mload mob 73130
 ~
 #73126
 В бою с повелителем ветров.~
-0 k 20
+0 k 25
 ~
 set target %random.pc%
 mechoaround %actor% Повелитель ветров взмахнул рукой и бешеный вихрь снес %target.vname% в сторону!

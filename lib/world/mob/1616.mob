@@ -1,0 +1,909 @@
+* BRusMUD mob file v1.0
+#161600
+стражник чигиль~
+стражник-чигиль~
+стражника-чигиля~
+стражнику-чигилю~
+стражника-чигиля~
+стражником-чигилем~
+стражнике-чигиле~
+Стражник племени Чигиль стоит на посту.
+~
+Высокий, широкий в плечах воин с узким разрезом глаз. Он готов любой ценой
+защитить свои земли.
+~
+b0d0g0l0m0r0x0A0 c0d0f0k0m1 -600 E
+27 0 -4 30d30+1500 5d4+10
+0d0+40 100000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 10
+MResist: 10
+BareHandAttack: 0
+Str: 26
+Int: 5
+Wis: 5
+Dex: 20
+Con: 22
+Cha: 5
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 50
+Height: 198
+Weight: 50
+Special_Bitvector: b1c1d1
+Skill: 136 80
+Skill: 137 80
+Skill: 4 130
+E
+T 161615
+#161601
+стражник ягма~
+стражник~
+стражника~
+стражнику~
+стражника~
+стражником~
+стражнике~
+Стражник племени Ягма охраняет лагерь.
+~
+Небольшого роста узкоглазый воин, вооруженных до зубов.
+~
+b0d0f0g0l0n0r0u0A0 c0d0f0k0m0r0 -600 E
+26 1 -9 30d30+1500 5d4+10
+0d0+100 120000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 10
+MResist: 10
+BareHandAttack: 3
+Str: 24
+Int: 3
+Wis: 3
+Dex: 20
+Con: 20
+Cha: 3
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 65
+Height: 168
+Weight: 60
+Special_Bitvector: b1c1d1
+Skill: 132 130
+Skill: 150 80
+E
+T 161614
+#161602
+илекхан тамгачхан Богра~
+Богра~
+Богра~
+Богра~
+Богра~
+Богра~
+Богра~
+Тамгачхан Богра возглавляет караханидов.
+~
+Узкоглазый пузатый человек, с хитрым взглядом и длинными волосами. Это и есть
+верховный правитель караханидов.
+~
+b0d0g0l0n0o0p0x0A0 d0f0h0k0z0q1z1 -600 E
+32 0 -4 30d30+2000 5d3+5
+1d50+2500 290000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 25
+MResist: 25
+BareHandAttack: 2
+Str: 20
+Int: 24
+Wis: 26
+Dex: 16
+Con: 17
+Cha: 14
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 105
+Size: 50
+Height: 198
+Weight: 70
+Special_Bitvector: b0d0b1c1d1C3
+Spell: 113
+Spell: 17
+Spell: 17
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 55
+Spell: 55
+Spell: 66
+Spell: 67
+Spell: 67
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Skill: 158 40
+Skill: 22 40
+Helper: 161607
+Helper: 161608
+Helper: 161609
+Helper: 161610
+E
+#161603
+карлукский воин~
+карлукский воин~
+карлукского воина~
+карлукскому воину~
+карлукского воина~
+карлукским воином~
+карлукском воине~
+Сильный карлукский воин проходит по лагерю.
+~
+Это воин одного из самых могущественных племен степи - карлуков.
+~
+d0g0l0m0u0x0y0A0 d0f0r0m1 -600 E
+26 0 -10 60d10+2000 10d5+14
+0d0+35 250000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 10
+MResist: 10
+BareHandAttack: 6
+Destination: 161601
+Destination: 161602
+Destination: 161603
+Destination: 161604
+Destination: 161605
+Destination: 161606
+Destination: 161607
+Destination: 161611
+Destination: 161612
+Destination: 161613
+Destination: 161614
+Destination: 161615
+Destination: 161616
+Destination: 161638
+Destination: 161639
+Destination: 161640
+Destination: 161641
+Destination: 161642
+Destination: 161642
+Destination: 161644
+Destination: 161646
+Destination: 161647
+Destination: 161648
+Destination: 161649
+Destination: 161650
+Destination: 161652
+Destination: 161653
+Destination: 161655
+Destination: 161657
+Destination: 161658
+Destination: 161659
+Destination: 161660
+Destination: 161661
+Destination: 161662
+Destination: 161664
+Destination: 161665
+Destination: 161666
+Destination: 161667
+Destination: 161680
+Destination: 161668
+Destination: 161669
+Destination: 161671
+Destination: 161673
+Destination: 161674
+Destination: 161675
+Destination: 161676
+Destination: 161677
+Destination: 161678
+Destination: 161679
+Destination: 161682
+Destination: 161683
+Destination: 161684
+Destination: 161685
+Destination: 161686
+Destination: 161687
+Destination: 161688
+Str: 28
+Int: 3
+Wis: 3
+Dex: 14
+Con: 26
+Cha: 8
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 2
+Class: 102
+Size: 70
+Height: 188
+Weight: 90
+Special_Bitvector: b1c1d1
+Spell: 136
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Skill: 1 80
+Skill: 132 100
+E
+T 161618
+I зубы,10:5
+#161604
+ловкий степной наемник~
+степной наемник~
+степного наемника~
+степному наемнику~
+степного наемника~
+степным наемником~
+степном наемнике~
+Ловкий степной наемник подкрадывается сзади.
+~
+Вы видите перед собой ловкого наемника. Этот воин очень точно наносит удары
+в спину.
+~
+d0f0g0m0x0y0 b0d0k0s0t0C0j1 -600 E
+30 0 -8 10d10+1800 9d8+10
+0d0+130 175000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 10
+MResist: 10
+BareHandAttack: 11
+Str: 26
+Int: 20
+Wis: 20
+Dex: 25
+Con: 20
+Cha: 20
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 30
+Height: 175
+Weight: 70
+Special_Bitvector: B3
+Skill: 131 100
+Skill: 144 100
+Skill: 145 100
+Skill: 147 100
+Skill: 160 100
+Skill: 21 25
+E
+T 161612
+T 161620
+#161605
+чигильский стрелок~
+чигильский стрелок~
+чигильского стрелка~
+чигильскому стрелку~
+чигильского стрелка~
+чигильским стрелком~
+чигильском стрелке~
+Чигильский стрелок готов поразить любого врага.
+~
+Высокий худощавый воин с луком в руках.
+~
+d0g0l0m0q0x0y0A0 d0f0k0z0 -600 E
+28 0 -5 20d20+1200 7d7+20
+0d0+50 120000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 10
+MResist: 10
+BareHandAttack: 9
+Destination: 161601
+Destination: 161602
+Destination: 161603
+Destination: 161604
+Destination: 161605
+Destination: 161606
+Destination: 161607
+Destination: 161611
+Destination: 161612
+Destination: 161613
+Destination: 161614
+Destination: 161615
+Destination: 161616
+Destination: 161639
+Destination: 161640
+Destination: 161641
+Destination: 161642
+Destination: 161644
+Destination: 161646
+Destination: 161647
+Destination: 161650
+Destination: 161652
+Destination: 161657
+Destination: 161658
+Destination: 161659
+Destination: 161660
+Destination: 161661
+Destination: 161662
+Destination: 161664
+Destination: 161665
+Destination: 161666
+Destination: 161667
+Destination: 161668
+Destination: 161669
+Destination: 161671
+Destination: 161672
+Destination: 161670
+Destination: 161675
+Destination: 161676
+Destination: 161677
+Destination: 161678
+Destination: 161679
+Destination: 161682
+Destination: 161683
+Destination: 161684
+Destination: 161687
+Str: 25
+Int: 15
+Wis: 15
+Dex: 20
+Con: 23
+Cha: 15
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 50
+Height: 198
+Weight: 70
+Special_Bitvector: b1c1d1
+Skill: 137 100
+Skill: 154 100
+Skill: 155 100
+Skill: 157 100
+E
+T 161616
+#161606
+яргинский воин степняк~
+воин-степняк~
+воина-степняка~
+воину-степняку~
+воина-степняка~
+воином-степняком~
+воине-степняке~
+Степной воин племени Яргу смотрит по сторонам.
+~
+Среднего роста воин, имеющий некоторые колдовские знания.
+~
+c0d0g0l0m0n0o0A0 b0d0f0k0o1 -600 E
+27 0 -4 14d15+1800 6d7+15
+0d0+60 230000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 80
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 10
+MResist: 10
+BareHandAttack: 0
+Destination: 161675
+Destination: 161614
+Destination: 161640
+Destination: 161639
+Destination: 161644
+Destination: 161652
+Destination: 161662
+Destination: 161669
+Destination: 161675
+Destination: 161671
+Destination: 161670
+Str: 27
+Int: 19
+Wis: 22
+Dex: 26
+Con: 21
+Cha: 15
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 194
+Weight: 88
+Special_Bitvector: b1c1d1
+Spell: 152
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 48
+Spell: 48
+Spell: 56
+Spell: 88
+Spell: 88
+Spell: 88
+E
+T 161617
+#161607
+али тегин~
+Али-Тегин~
+Али-Тегина~
+Али-Тегину~
+Али-Тегина~
+Али-Тегином~
+Али-Тегине~
+Младший хан Али-Тегин развалился на подушках.
+~
+Здоровенный толстый хан.
+~
+b0c0d0g0l0m0n0o0x0A0 d0f0h0k0 -600 E
+28 0 -10 10d10+2000 8d8+15
+0d0+180 250000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 90
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 33
+MResist: 33
+BareHandAttack: 0
+Str: 25
+Int: 7
+Wis: 7
+Dex: 34
+Con: 21
+Cha: 7
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 104
+Size: 60
+Height: 188
+Weight: 90
+Special_Bitvector: b1c1C3
+Spell: 82
+Skill: 134 100
+Skill: 137 100
+Skill: 150 100
+Skill: 22 100
+E
+T 161624
+#161608
+абд ад мелик кашгар хан~
+Абд Ал Мерик~
+Абд Ал Мерика~
+Абд Ал Мерику~
+Абд Ал Мерика~
+Абд Ал Мериком~
+Абд Ал Мерике~
+Хан Кашгарии Абд Ал Мерик стоит здесь.
+~
+Узкоглазый человек с хитрым взглядом.
+~
+b0c0d0g0l0m0x0A0 d0f0h0k0q1 -600 E
+26 0 -6 50d10+2000 5d2+9
+0d0+1000 270000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 33
+MResist: 33
+BareHandAttack: 0
+Str: 14
+Int: 32
+Wis: 32
+Dex: 19
+Con: 7
+Cha: 25
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 105
+Size: 40
+Height: 178
+Weight: 79
+Special_Bitvector: c1C3
+Spell: 113
+Spell: 113
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Skill: 20 100
+Skill: 22 55
+E
+T 161623
+#161609
+хан наср молодой~
+Наср~
+Насра~
+Насру~
+Насра~
+Насром~
+Насре~
+Наср - молодой хан караханидов стоит здесь.
+~
+Молодой человек лет 20, но огромный в плечах и высокого роста.
+~
+b0c0d0g0m0n0o0x0 c0d0h0k0r0m1 -600 E
+30 0 -7 90d10+3000 12d6+12
+0d0+50 220000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 20
+MResist: 20
+BareHandAttack: 0
+Str: 35
+Int: 5
+Wis: 5
+Dex: 18
+Con: 35
+Cha: 28
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 104
+Size: 100
+Height: 200
+Weight: 100
+Special_Bitvector: b1c1
+Skill: 132 150
+Skill: 4 150
+E
+T 161621
+#161610
+военачальник сабук~
+Сабук~
+Сабука~
+Сабуку~
+Сабук~
+Сабуком~
+Сабуке~
+Военачальник Сабук руководит войском караханидов.
+~
+Военачальник караханидов стоит, опершись на огромную секиру.
+~
+b0c0d0f0g0l0m0p0r0x0A0 d0f0k0n0m0A0 -600 E
+29 10 -10 70d40+2000 7d7+13
+0d0+500 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 30
+Int: 5
+Wis: 5
+Dex: 30
+Con: 30
+Cha: 5
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 104
+Size: 90
+Height: 199
+Weight: 99
+Special_Bitvector: b1c1
+Spell: 56
+Skill: 141 140
+Skill: 142 140
+Skill: 143 140
+Skill: 146 140
+Skill: 5 140
+Helper: 161603
+Helper: 161604
+Helper: 161605
+Helper: 161606
+E
+T 161619
+#161611
+сармат сарматский воин~
+сарматский воин~
+сарматского воина~
+сарматскому воину~
+сарматского воина~
+сарматским воином~
+сарматском воине~
+Сарматский воин томится в плену караханидов.
+~
+Этот воин один из самых опытных наемников степных земель.
+~
+c0d0l0n0p0t0x0A0 d0e0f0k0p0A0C0m1 -600 E
+32 20 -10 10d10+1000 8d12+35
+6d2+0 100000
+6 6 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 10
+MResist: 10
+BareHandAttack: 6
+Str: 36
+Int: 15
+Wis: 34
+Dex: 36
+Con: 30
+Cha: 15
+LikeWork: 100
+MaxFactor: 2
+ExtraAttack: 2
+Class: 104
+Size: 75
+Height: 170
+Weight: 50
+Special_Bitvector: y0b1c1C3
+Skill: 136 140
+Skill: 137 140
+Skill: 141 140
+Skill: 146 140
+Skill: 22 140
+E
+T 161622
+#161612
+огромный страшный зверь~
+страшный зверь~
+страшного зверя~
+страшному зверю~
+страшного зверя~
+страшным зверем~
+страшном звере~
+Огромный страшный зверь оооочень голоден на вид.
+~
+Диковинный зверь, пойманный в степях, наводит на Вас ужас.
+~
+c0d0e0f0n0o0p0q0r0u0x0g2 c0d0f0k0r0C0 -600 E
+32 0 -10 50d20+2000 8d8+10
+0d0+0 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 25
+MResist: 25
+BareHandAttack: 4
+Destination: 161618
+Destination: 161621
+Destination: 161622
+Destination: 161623
+Destination: 161624
+Destination: 161625
+Destination: 161626
+Destination: 161627
+Destination: 161628
+Destination: 161629
+Destination: 161630
+Destination: 161631
+Destination: 161632
+Destination: 161633
+Str: 35
+Int: 20
+Wis: 20
+Dex: 35
+Con: 35
+Cha: 20
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 5
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: C3
+Spell: 156
+Skill: 132 140
+Skill: 136 100
+Skill: 22 100
+Skill: 5 100
+E
+T 161606
+I шерсть,10:10
+#161613
+степной лучник пленный~
+степной лучник~
+степного лучника~
+степному лучнику~
+степного лучника~
+степным лучником~
+степном лучнике~
+Степной лучник закован в цепи.
+~
+Меткий степной воин.
+~
+b0d0e0g0n0o0p0q0r0t0u0f2g2i2 d0f0h0k0 600 E
+26 0 2 10d10+1000 1d10+10
+0d0+0 0
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 22
+Int: 17
+Wis: 17
+Dex: 30
+Con: 21
+Cha: 17
+LikeWork: 20
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 60
+Height: 176
+Weight: 90
+Special_Bitvector: i3
+E
+T 161603
+#161614
+степной лучник свободный~
+степной лучник~
+степного лучника~
+степному лучнику~
+степного лучника~
+степным лучником~
+степном лучнике~
+Степной лучник стоит здесь.
+~
+Узкоглазый человек с сильными руками и орлиным взором.
+~
+b0d0l0m0 f0k0 0 E
+30 0 0 60d15+400 8d9+25
+0d0+0 2
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 35
+Int: 15
+Wis: 15
+Dex: 35
+Con: 25
+Cha: 20
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 104
+Size: 55
+Height: 170
+Weight: 85
+Special_Bitvector: y0b1c1
+Skill: 137 100
+Skill: 138 160
+Skill: 154 160
+E
+T 161605
+$
+$

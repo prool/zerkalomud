@@ -51,6 +51,7 @@ Class: 102
 Height: 198
 Weight: 25
 Special_Bitvector: 0 
+Skill: 136 39
 Spell: 15
 Spell: 15
 Spell: 15
@@ -122,6 +123,7 @@ Height: 198
 Weight: 25
 Special_Bitvector: 0 
 Skill: 134 100
+Skill: 136 36
 E
 T 12105
 #12104
@@ -149,6 +151,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 24
 Skill: 157 80
 E
 #12105
@@ -178,6 +181,7 @@ Weight: 5
 Special_Bitvector: l0a1 
 Skill: 132 50
 Skill: 134 50
+Skill: 136 30
 Skill: 139 50
 Skill: 157 65
 E
@@ -204,6 +208,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: o0 
+Skill: 136 36
 Skill: 150 80
 Skill: 157 80
 Spell: 52
@@ -228,7 +233,7 @@ T 12102
 ~
 Представьте себе, какой был витязь целиком, если его голова таких размеров.
 ~
-b0d0g0n0o0p0q0r0t0u0z0d2 C0 -600 E
+b0d0e0g0n0o0p0q0r0t0u0z0d2 C0 -600 E
 12 2 2 10d10+400 4d5+0
 0d0+0 8000
 8 8 2
@@ -243,6 +248,7 @@ Class: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 36
 Spell: 6
 Spell: 6
 Spell: 6
@@ -271,6 +277,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 36
 E
 #12109
 волк серый~
@@ -297,6 +304,7 @@ Class: 103
 Height: 198
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 36
 Skill: 160 50
 E
 #12110
@@ -362,6 +370,7 @@ Class: 101
 Height: 198
 Weight: 50
 Special_Bitvector: n0v0y0b1 
+Skill: 136 39
 Spell: 77
 Spell: 77
 Spell: 90
@@ -395,6 +404,7 @@ Height: 198
 Weight: 80
 Special_Bitvector: a0b0c0d0b1c1 
 Skill: 132 15
+Skill: 136 42
 Skill: 137 50
 E
 #12113
@@ -423,6 +433,7 @@ Class: 103
 Height: 198
 Weight: 60
 Special_Bitvector: a1 
+Skill: 136 42
 Skill: 137 50
 E
 #12114
@@ -455,6 +466,7 @@ Class: 103
 Height: 198
 Weight: 30
 Special_Bitvector: d1 
+Skill: 136 30
 Skill: 157 80
 Skill: 160 75
 Spell: 36
@@ -482,6 +494,7 @@ Class: 103
 Height: 198
 Weight: 3
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 12107
 #12116
@@ -506,6 +519,7 @@ Class: 103
 Height: 198
 Weight: 30
 Special_Bitvector: n0v0 
+Skill: 136 30
 Skill: 157 50
 Helper: 12108
 E
@@ -531,6 +545,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: n0b1c1d1 
+Skill: 136 30
 Helper: 12108
 E
 #12118
@@ -555,6 +570,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 12106
 $

@@ -3,13 +3,13 @@
 0 r 100
 ~
 if %time.hour% > 8 && %time.hour% < 20
-mecho %self.iname% угрожающе сдвинул темные брови, но вдруг ласково похлопал кошелек. 
-wait 1s
-say Шляются тут всякие, чего ты хочешь путник?        
+  mecho %self.iname% угрожающе сдвинул темные брови, но вдруг ласково похлопал кошелек. 
+  wait 1s
+  say Шляются тут всякие, чего ты хочешь путник?
 else
-mecho Стражник нервно потянулся к мечу.
-wait 1s
-say Ночью велено не пускать!
+  mecho Стражник нервно потянулся к мечу.
+  wait 1s
+  say Ночью велено не пускать!
 end
 ~
 #68601
@@ -45,45 +45,47 @@ detach 68602 %self.id%
 0 m 100
 ~
 if %time.hour% < 9 || %time.hour% > 19
-halt
+  halt
 end
 if %amount% < 50 then
-say Нищим здесь не место , проваливай!
-halt
+  say Нищим здесь не место , проваливай!
+  halt
 end
 if %amount% >= 100 then
-say Живо проходи пока не передумал!
-mecho Страж отворил двери.
-mdoor 68609 north purge
-mdoor 68609 north room 68646
-wait 10s
-mecho Страж закрыл ворота.
-mdoor 68609 north purge
-mdoor 68609 north room 68646 flags abdc
+  say Живо проходи пока не передумал!
+  mecho Страж отворил двери.
+  mdoor 68609 north purge
+  mdoor 68609 north room 68646
+  wait 10s
+  mecho Страж закрыл ворота.
+  mdoor 68609 north purge
+  mdoor 68609 north room 68646 flags abdc
 end
 ~
 #68604
 Принесли живую сиделке~
 0 j 100
 ~
-if %object.vnum% == 68702 then
- wait 2s
- say Нельзя терять ни секунды,скорее !
- wait 1s
- mecho _Сиделка осторожно поднесла живую воду к губам девушки...
- wait 2s
- mecho _Старшая дочь Демидова ловко поднялась с постели, как ни в чем не бывало.
- wait 2s 
- say Спасибо тебе за помошь.
- if (%world.curobjs(68612)% < 3) && (%random.10% == 1)
-  mecho _Няня неохотно достала фамильное кольцо семьи Демидовых и протянула вам.
-  mload obj 68612
-  дать кольц %actor.name%    
- else
-  %actor.exp(+200000)%
- end
+wait 1
+if (%object.vnum% == 68702)
+  wait 1
+  mpurge %object%
+  wait 2s
+  say Нельзя терять ни секунды,скорее !
+  wait 1s
+  mecho _Сиделка осторожно поднесла живую воду к губам девушки...
+  wait 2s
+  mecho _Старшая дочь Демидова ловко поднялась с постели, как ни в чем не бывало.
+  wait 2s 
+  say Спасибо тебе за помошь.
+  if (%world.curobjs(68612)% < 3) && (%random.10% == 1)
+    mecho _Няня неохотно достала фамильное кольцо семьи Демидовых и протянула вам.
+    mload obj 68612
+    дать кольц %actor.name%    
+  else
+    %actor.exp(+200000)%
+  end
 end
-  
 ~
 #68605
 Демидов~
@@ -105,24 +107,23 @@ say голова. Много времени прошло, но мы так и не смогли ее разыскать.
 say Найди ведьму, забери у нее голову и избавь нас от монстра, отблагодарю тебя
 say по царски! 
 wait 10s
-halt
+detach 68605 %self.id%
 ~
 #68606
 старая  ведьма  мертва~
 0 f 100
 ~
 if %world.curobjs(68611)% < 1
-mload obj 68611
+  mload obj 68611
 end
 ~
 #68607
 репоп квеста демидова~
 2 f 100
 ~
-wait 2s
 calcuid demid 68613 mob
+detach 68605 %demid.id%
 attach 68605 %demid.id%
-detach 68607 %self.id%
 ~
 #68608
 Сиделка ответ~

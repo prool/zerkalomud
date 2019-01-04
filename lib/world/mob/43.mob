@@ -26,6 +26,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: m0 
+Skill: 136 9
 E
 #4301
 полоз~
@@ -55,6 +56,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: m0 
+Skill: 136 9
 E
 #4302
 чайка~
@@ -85,6 +87,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 9
 E
 #4303
 чибис~
@@ -114,6 +117,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 9
 E
 #4304
 гадюка~
@@ -144,6 +148,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: g0m0 
+Skill: 136 12
 E
 I чешуя:5
 #4305
@@ -174,6 +179,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 12
 E
 #4306
 огарь утка~
@@ -203,6 +209,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #4307
 бобер~
@@ -232,6 +239,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #4308
 гусь~
@@ -261,6 +269,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 15
 E
 #4309
 ондатра крыса~
@@ -290,6 +299,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: m0 
+Skill: 136 15
 E
 #4310
 выдра~
@@ -321,6 +331,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: p0 
+Skill: 136 15
 E
 #4311
 выпь~
@@ -351,6 +362,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #4312
 лунь~
@@ -381,6 +393,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 18
 E
 #4313
 цапля~
@@ -411,6 +424,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 21
 E
 #4314
 кот камышовый~
@@ -441,6 +455,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: i0 
+Skill: 136 24
 E
 I когти:7
 #4315
@@ -471,6 +486,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 9
 E
 #4316
 стриж~
@@ -500,6 +516,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 9
 E
 #4317
 медянка ящерица~
@@ -530,6 +547,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: m0 
+Skill: 136 12
 E
 #4318
 бекас~
@@ -560,6 +578,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #4319
 лебедь~
@@ -591,6 +610,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 18
 E
 I крылья:5
 #4320
@@ -625,6 +645,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 21
 E
 #4321
 журавль~
@@ -638,7 +659,7 @@ E
 ~
 Большая птица.
 ~
-d0h1 0 0 E
+d0h1f2 0 0 E
 7 12 4 5d4+150 2d2+2
 0d0+0 2000
 8 8 1
@@ -655,6 +676,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 21
 E
 #4322
 старец старик~
@@ -683,6 +705,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 4300
 T 4301

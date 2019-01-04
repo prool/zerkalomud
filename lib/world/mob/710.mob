@@ -22,12 +22,12 @@ Con: 10
 Cha: 10
 Size: 30
 LikeWork: 15
-MaxFactor: -31
 ExtraAttack: 1
 Class: 102
 Height: 125
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 Spell: 6
 Spell: 6
 Spell: 6
@@ -68,6 +68,7 @@ Height: 130
 Weight: 90
 Special_Bitvector: 0 
 Skill: 4 100
+Skill: 136 45
 Spell: 28
 Spell: 28
 Spell: 28
@@ -111,6 +112,7 @@ Class: 101
 Height: 175
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 60
 Spell: 131
 Spell: 131
 Spell: 131
@@ -159,6 +161,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: n0 
+Skill: 136 48
 E
 #71004
 сова~
@@ -187,6 +190,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
+Skill: 136 48
 E
 #71005
 волк~
@@ -247,6 +251,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
+Skill: 136 69
 E
 #71007
 дрозд~
@@ -276,6 +281,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
+Skill: 136 3
 Spell: 150
 E
 #71008
@@ -320,8 +326,7 @@ E
 туре~
 Огромный тур проходит мимо, ломая ветви.
 ~
-Громадный леной бык-тур с увенчаной парой страшных
-рогов головой.
+Громадный лесой бык-тур с увенчаной парой страшных рогов головой.
 ~
 d0l0n0 k0r0 0 E
 30 0 0 10d80+1200 7d8+12
@@ -340,6 +345,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: B3C3 
+Skill: 136 90
 E
 #71010
 заяц трусливый~
@@ -370,18 +376,19 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
+Skill: 136 54
 E
 #71011
 кабан лесной~
 кабан~
 кабана~
 кабану~
-кабан~
+кабана~
 кабаном~
 кабане~
-Здоровенный кабан свирепо сопит глядя на вас.
+Здоровенный кабан свирепо сопит, глядя на вас.
 ~
-Матерый кабан с клыками длинною
+Матерый кабан с клыками длиною
 больше пальца и завитым коротким хвостиком.
 ~
 d0g0l0 k0r0 -600 E

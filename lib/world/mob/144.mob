@@ -62,6 +62,7 @@ Height: 198
 Weight: 20
 Special_Bitvector: n0 
 Skill: 132 70
+Skill: 136 48
 E
 #14402
 протухший труп~
@@ -94,6 +95,7 @@ Height: 198
 Weight: 25
 Special_Bitvector: b1c1 
 Skill: 132 40
+Skill: 136 60
 Spell: 4
 Spell: 4
 Spell: 4
@@ -128,6 +130,7 @@ Class: 103
 Height: 198
 Weight: 40
 Special_Bitvector: m0 
+Skill: 136 75
 E
 #14404
 ворюга~
@@ -159,6 +162,7 @@ Height: 198
 Weight: 10
 Special_Bitvector: y0a1b1c1 
 Skill: 4 60
+Skill: 136 75
 E
 #14405
 помощник вора~
@@ -190,6 +194,7 @@ Height: 198
 Weight: 15
 Special_Bitvector: y0a1b1c1 
 Skill: 134 70
+Skill: 136 51
 E
 #14406
 ворон~
@@ -222,6 +227,7 @@ Height: 198
 Weight: 70
 Special_Bitvector: l0 
 Skill: 132 40
+Skill: 136 90
 Skill: 151 50
 Spell: 4
 Spell: 4
@@ -304,6 +310,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 105
 E
 T 14402
 T 14403
@@ -338,6 +345,7 @@ Height: 198
 Weight: 15
 Special_Bitvector: m0 
 Skill: 4 80
+Skill: 136 96
 E
 #14410
 кости~
@@ -369,6 +377,7 @@ Height: 198
 Weight: 30
 Special_Bitvector: p0 
 Skill: 134 70
+Skill: 136 30
 E
 #14411
 старикашка~
@@ -394,12 +403,14 @@ Class: 100
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 60
 Spell: 15
 Spell: 15
 Spell: 15
 Spell: 30
 Spell: 30
 Helper: 14412
+Skill: 136 60
 E
 T 14406
 #14412
@@ -428,6 +439,7 @@ Class: 100
 Height: 198
 Weight: 12
 Special_Bitvector: 0 
+Skill: 136 51
 Spell: 15
 Spell: 15
 Spell: 15
@@ -436,6 +448,7 @@ Spell: 67
 Spell: 67
 Spell: 67
 Helper: 14411
+Skill: 136 51
 E
 T 14406
 #14437
@@ -469,6 +482,7 @@ Weight: 30
 Special_Bitvector: m0a1 
 Skill: 132 80
 Skill: 134 80
+Skill: 136 96
 Skill: 139 100
 Skill: 150 80
 Skill: 160 80

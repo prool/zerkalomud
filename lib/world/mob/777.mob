@@ -11,7 +11,7 @@
 Огромный мужик родом из деревни близ Великого Новгорода.
 ~
 b0d0n0o0p0q0r0t0u0r1b2f2g2h2i2 d0f0k0 0 E
-30 0 0 10d10+7000 10d10+10
+30 0 0 10d10+7000 2d2+2
 0d0+0 1
 8 8 1
 Str: 30
@@ -27,17 +27,10 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
-Skill: 5 100
-Skill: 132 100
+Skill: 136 90
 Spell: 28
 Spell: 28
 Spell: 28
-Spell: 67
-Spell: 67
-Spell: 67
-Spell: 67
-Spell: 67
-Spell: 67
 Spell: 113
 E
 #77701
@@ -69,6 +62,7 @@ Class: 102
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 105
 E
 #77702
 дружинный казначей~
@@ -98,6 +92,7 @@ Class: 102
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 105
 Spell: 15
 Spell: 15
 Spell: 15
@@ -138,6 +133,7 @@ Class: 102
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 105
 E
 #77704
 дружинный знахарь~
@@ -167,6 +163,7 @@ Class: 102
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 105
 Spell: 15
 Spell: 15
 Spell: 15
@@ -207,6 +204,7 @@ Class: 102
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #77706
 кузнец~
@@ -236,6 +234,7 @@ Class: 102
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 105
 E
 #77707
 оруженосец~
@@ -264,6 +263,7 @@ Class: 102
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 105
 Spell: 28
 Spell: 28
 Spell: 28
@@ -325,6 +325,7 @@ Class: 102
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #77709
 берсерк~
@@ -361,6 +362,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: 0 
 Skill: 4 60
+Skill: 136 81
 E
 #77710
 ямщик~
@@ -389,6 +391,7 @@ Class: 102
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 105
 Spell: 15
 Spell: 15
 Spell: 15
@@ -431,6 +434,7 @@ Class: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 Spell: 28
 Spell: 28
 Spell: 28

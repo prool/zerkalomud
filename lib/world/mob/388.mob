@@ -32,6 +32,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 21 30
+Skill: 136 90
 Spell: 43
 Spell: 43
 Spell: 43
@@ -59,7 +60,7 @@ T 38826
 ~
 d0f0g0n0o0p0t0A0 d0f0k0 0 E
 30 0 -6 9d9+800 8d8+18
-9d9+9 400000
+9d9+9 200000
 8 8 1
 BareHandAttack: 6
 Str: 25
@@ -76,6 +77,7 @@ Height: 198
 Weight: 180
 Special_Bitvector: b1c1 
 Skill: 21 20
+Skill: 136 90
 Spell: 74
 Spell: 74
 Spell: 75
@@ -96,7 +98,7 @@ E
 ~
 d0f0g0n0o0p0r0t0A0 d0f0k0 0 E
 30 0 -6 9d9+500 4d8+18
-9d9+9 400000
+9d9+9 200000
 8 8 1
 BareHandAttack: 6
 Str: 25
@@ -113,6 +115,7 @@ Height: 198
 Weight: 180
 Special_Bitvector: b1c1 
 Skill: 131 80
+Skill: 136 90
 Skill: 160 100
 Spell: 43
 Spell: 74
@@ -135,7 +138,7 @@ E
 ~
 d0f0g0n0o0p0t0u0A0 d0f0k0 0 E
 30 0 -6 9d9+1500 8d12+12
-9d9+9 550000
+9d9+9 240000
 8 8 1
 BareHandAttack: 6
 Str: 33
@@ -151,6 +154,7 @@ Height: 198
 Weight: 180
 Special_Bitvector: b1c1 
 Skill: 132 100
+Skill: 136 90
 Skill: 160 100
 Spell: 43
 E
@@ -169,7 +173,7 @@ E
 ~
 d0f0g0n0o0p0t0A0 d0f0k0 0 E
 30 0 -6 9d9+600 8d2+2
-9d9+9 690000
+9d9+9 310000
 8 8 1
 BareHandAttack: 6
 Str: 15
@@ -184,6 +188,7 @@ Class: 101
 Height: 198
 Weight: 180
 Special_Bitvector: b1c1 
+Skill: 136 90
 Skill: 157 100
 Spell: 30
 Spell: 30
@@ -232,6 +237,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: g0 
+Skill: 136 114
 Spell: 43
 Spell: 43
 E
@@ -265,6 +271,7 @@ Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
 Skill: 134 100
+Skill: 136 60
 E
 #38807
 окрепший скелет~
@@ -295,6 +302,7 @@ Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
 Skill: 132 100
+Skill: 136 72
 Skill: 150 100
 E
 #38808
@@ -326,6 +334,7 @@ Weight: 120
 Special_Bitvector: b1c1 
 Skill: 21 40
 Skill: 131 20
+Skill: 136 81
 Skill: 151 100
 Skill: 160 100
 E
@@ -356,6 +365,7 @@ Class: 101
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
+Skill: 136 90
 Spell: 54
 Spell: 54
 Spell: 54
@@ -387,7 +397,7 @@ E
 ~
 b0c0d0f0g0n0o0p0A0 d0k0C0o1 0 E
 30 0 -7 9d9+900 6d6+16
-0d0+0 390000
+0d0+0 190000
 8 8 1
 BareHandAttack: 2
 Str: 25
@@ -404,6 +414,7 @@ Height: 198
 Weight: 160
 Special_Bitvector: b1c1 
 Skill: 132 100
+Skill: 136 90
 Spell: 72
 Spell: 72
 Spell: 72
@@ -426,7 +437,7 @@ E
 ~
 b0c0d0f0g0n0o0p0A0 d0k0C0o1 0 E
 30 0 -7 9d9+500 6d6+11
-0d0+0 490000
+0d0+0 220000
 8 8 1
 BareHandAttack: 3
 Str: 25
@@ -442,6 +453,7 @@ Class: 102
 Height: 198
 Weight: 160
 Special_Bitvector: b1c1 
+Skill: 136 90
 Spell: 75
 Spell: 75
 Spell: 76
@@ -467,9 +479,9 @@ E
 Свирепый скелет одет в легкие кожаные 
 доспехи.
 ~
-d0f0g0l0n0p0q0t0 d0k0 0 E
+d0f0g0l0n0p0q0t0z0 d0k0 0 E
 28 0 -6 8d8+600 7d7+17
-0d0+0 390000
+0d0+0 180000
 8 8 1
 BareHandAttack: 5
 Str: 24
@@ -484,6 +496,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: p0b1c1 
 Skill: 131 10
+Skill: 136 84
 Skill: 138 100
 Skill: 140 100
 Skill: 150 100
@@ -506,7 +519,7 @@ T 38829
 ~
 b0d0g0m0n0o0p0z0A0 d0k0 0 E
 29 0 -8 8d8+500 4d4+10
-0d0+0 440000
+0d0+0 210000
 8 8 1
 Str: 18
 Dex: 25
@@ -520,6 +533,7 @@ Class: 101
 Height: 198
 Weight: 60
 Special_Bitvector: b1c1 
+Skill: 136 87
 Spell: 1
 Spell: 1
 Spell: 1
@@ -612,6 +626,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: g0p0 
+Skill: 136 90
 E
 #38815
 прозрачная тень~
@@ -628,7 +643,7 @@ E
 ~
 d0f0g0n0o0p0q0r0t0u0z0 d0k0 0 E
 30 0 -10 5d5+1900 9d9+9
-0d0+0 480000
+0d0+0 195000
 8 8 2
 BareHandAttack: 12
 Str: 30
@@ -644,6 +659,7 @@ Weight: 1
 Special_Bitvector: m0u0 
 Skill: 21 20
 Skill: 134 100
+Skill: 136 90
 Skill: 150 100
 E
 #38816
@@ -661,7 +677,7 @@ E
 ~
 d0f0g0n0o0p0q0r0t0u0z0 d0k0 0 E
 30 0 -10 5d5+900 9d13+0
-0d0+0 320000
+0d0+0 120000
 8 8 2
 BareHandAttack: 12
 Str: 23
@@ -676,6 +692,7 @@ Height: 198
 Weight: 1
 Special_Bitvector: m0u0 
 Skill: 22 100
+Skill: 136 90
 Spell: 28
 Spell: 28
 Spell: 28
@@ -724,6 +741,7 @@ Height: 198
 Weight: 1
 Special_Bitvector: m0u0 
 Skill: 132 100
+Skill: 136 90
 E
 #38818
 оживший богатырь~
@@ -739,7 +757,7 @@ E
 ~
 d0f0g0n0o0A0 d0f0k0 0 E
 30 1 -5 8d8+999 7d7+7
-0d0+0 260000
+0d0+0 130000
 8 8 1
 BareHandAttack: 3
 Str: 31
@@ -755,6 +773,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 4 100
+Skill: 136 90
 E
 #38819
 оживший странник~
@@ -770,7 +789,7 @@ E
 ~
 d0f0g0n0o0A0 d0f0k0 0 E
 30 1 -5 8d8+899 7d7+17
-0d0+0 360000
+0d0+0 170000
 8 8 1
 BareHandAttack: 3
 Str: 31
@@ -786,6 +805,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 100
+Skill: 136 90
 Spell: 81
 Spell: 81
 Spell: 81
@@ -812,7 +832,7 @@ E
 ~
 d0f0g0l0n0p0q0t0z0 d0k0 0 E
 28 0 -6 8d8+600 7d7+7
-0d0+0 290000
+0d0+0 134000
 8 8 1
 BareHandAttack: 5
 Str: 24
@@ -827,6 +847,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: p0b1c1 
 Skill: 131 10
+Skill: 136 84
 Skill: 138 100
 Skill: 140 100
 Skill: 150 100
@@ -861,6 +882,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
+Skill: 136 66
 E
 T 38819
 #38822
@@ -890,6 +912,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
+Skill: 136 66
 Skill: 150 100
 Spell: 26
 E
@@ -920,6 +943,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
+Skill: 136 12
 E
 T 38812
 #38824
@@ -953,6 +977,7 @@ Class: 101
 Height: 198
 Weight: 100
 Special_Bitvector: l0x0 
+Skill: 136 102
 Spell: 54
 Spell: 54
 Spell: 64
@@ -989,6 +1014,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1d1 
+Skill: 136 12
 E
 T 38812
 #38826
@@ -1006,7 +1032,7 @@ T 38812
 ~
 b0d0f0g0n0o0p0q0r0s0b1 d0k0x0 0 E
 22 0 -6 6d6+2001 6d6+6
-0d0+0 200000
+0d0+0 130000
 8 8 1
 BareHandAttack: 2
 Str: 30
@@ -1019,6 +1045,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
+Skill: 136 66
 Skill: 150 100
 Spell: 26
 E
@@ -1040,7 +1067,7 @@ T 38824
 ~
 b0d0f0g0n0o0p0q0r0s0b1 d0k0x0 0 E
 22 0 -6 6d6+12001 6d6+56
-0d0+0 1100000
+0d0+0 540000
 8 8 1
 BareHandAttack: 2
 Str: 30
@@ -1053,10 +1080,12 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
+Skill: 136 66
 E
 T 38824
 T 38831
 T 38832
+L 1411 18 0 0
 #38828
 дракон величественный черный~
 величественный черный дракон~
@@ -1074,7 +1103,7 @@ T 38832
 ~
 b0d0f0g0n0o0p0q0r0s0b1 d0k0x0 0 E
 22 1 -6 6d6+12001 6d6+56
-0d0+0 1200000
+0d0+0 570000
 8 8 1
 BareHandAttack: 2
 Str: 30
@@ -1087,10 +1116,12 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
+Skill: 136 66
 E
 T 38824
 T 38831
 T 38833
+L 1411 18 0 0
 #38829
 черный василиск~
 черный василиск~
@@ -1106,7 +1137,7 @@ T 38833
 ~
 b0d0f0g0n0o0p0q0r0s0b1 d0k0x0 0 E
 22 0 -6 6d6+6001 6d6+56
-0d0+0 1900000
+0d0+0 1000000
 8 8 1
 BareHandAttack: 2
 Str: 30
@@ -1120,6 +1151,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: g0l0 
+Skill: 136 66
 E
 T 38830
 #38830
@@ -1139,7 +1171,7 @@ T 38830
 ~
 b0d0f0g0n0o0p0t0u0A0 d0f0k0 0 E
 30 0 -6 9d9+1500 8d12+12
-9d9+9 550000
+9d9+9 230000
 8 8 1
 BareHandAttack: 6
 Str: 33
@@ -1155,6 +1187,7 @@ Height: 198
 Weight: 180
 Special_Bitvector: b1c1 
 Skill: 132 100
+Skill: 136 90
 Skill: 160 100
 Spell: 43
 E
@@ -1173,7 +1206,7 @@ E
 ~
 d0f0g0n0o0p0t0A0 d0f0k0 0 E
 30 0 -6 9d9+600 8d2+2
-9d9+9 390000
+9d9+9 180000
 8 8 1
 BareHandAttack: 6
 Str: 15
@@ -1188,6 +1221,7 @@ Class: 101
 Height: 198
 Weight: 180
 Special_Bitvector: b1c1 
+Skill: 136 90
 Skill: 157 100
 Spell: 25
 Spell: 43

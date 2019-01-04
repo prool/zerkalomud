@@ -140,8 +140,8 @@ if (%actor.clan%==сп)
 mechoaround %actor% %actor.name% аккуратно сложил%actor.g% скатерть.
 msend %actor% Вы аккуратно сложили скатерть.
 mload obj 35727
-calcuid target 35710 mob 
-mpurge %target%
+wait 1
+mpurge %self%
 else
 mechoaround %actor% %actor.name% попытал%actor.u% сложить скатерть, но та вырвалась из рук.
 msend %actor% Вы попытались сложить скатерть, но она вырвалась из ваших рук.

@@ -3,46 +3,46 @@
 1 c 4
 перевернуть~
 if (%arg% == колоду)
-osend %actor% Вы поднатужились и перевернули колоду...
-oechoaround %actor% %actor.iname% поднатужил%actor.u% и перевернуло колоду.
-eval number %random.7%
-switch %number%
-case 7
-wait 1
-oecho Там, где лежала колода, вы увидели несколько монет!
-oload obj 61602
-break
-case 6
-break
-case 5
-break
-default
-oload mob 61600
-wait 1
-osend %actor% Огромная змея выскочила из-под колоды и бросилась на Вас!
-oechoaround %actor% Огромная змея выскочила из-под колоды и бросилась на %actor.vname%!
-oforce змея убить %actor.iname%
-done 
-oecho Колода тяжело ударилась о землю и рассыпалась в щепу. 
-opurge %self.iname%
-end
+  osend %actor% Вы поднатужились и перевернули колоду...
+  oechoaround %actor% %actor.iname% поднатужил%actor.u% и перевернуло колоду.
+  eval number %random.7%
+  switch %number%
+    case 7
+      wait 1
+      oecho Там, где лежала колода, Вы увидели несколько монет!
+      oload obj 61602
+    break
+    case 6
+    break
+    case 5
+    break
+    default
+      oload mob 61600
+      wait 1
+      osend %actor% Огромная змея выскочила из-под колоды и бросилась на Вас!
+      oechoaround %actor% Огромная змея выскочила из-под колоды и бросилась на %actor.vname%!
+      oforce змея убить %actor.iname%
+    done 
+    oecho Колода тяжело ударилась о землю и рассыпалась в щепу. 
+    opurge %self.iname%
+  end
 ~
 #61601
 триггер завала~
 2 c 0
 перелезть~
 if (%arg% == завал)
-wsend %actor% Вы принялись карабкаться через завал.
-wsend %actor% Вы благополучно его преодолели.
-if (%self.vnum% == 61609)
-wteleport %actor% 61610
+  wsend %actor% Вы принялись карабкаться через завал.
+  wsend %actor% Вы благополучно его преодолели.
+  if (%self.vnum% == 61609)
+    wteleport %actor% 61610
+  else
+    wteleport %actor% 61609
+  end
+  wechoaround %actor% %actor.iname% спрыгнул%actor.g% рядом с вами с завала.
+  wecho %actor.iname% полез%actor.q% через завал и скрылся из виду
 else
-wteleport %actor% 61609
-end
-wechoaround %actor% %actor.iname% спрыгнул%actor.g% рядом с вами с завала.
-wecho %actor.iname% полез%actor.g% через завал и скрылся из виду
-else
-wsend %actor% Куда вы лезете-то?
+  wsend %actor% Куда вы лезете-то?
 end
 ~
 #61602
@@ -51,13 +51,13 @@ end
 ~
 return 0
 if ((%world.curmobs(61602)% == 0) && (%actor.id% == %questor616.id%))
-oload mob 61602
-oecho Неупокоенный дух явился посреди комнаты!
-oecho Неупокоенный дух взревел: "Ты осмелился нарушить мой покой?!! Так умри же!!!"
-calcuid ghost 61602 mob
-oforce  %ghost% убить %actor.iname%
+  oload mob 61602
+  oecho Неупокоенный дух явился посреди комнаты!
+  oecho Неупокоенный дух взревел: "Ты осмелился нарушить мой покой?!! Так умри же!!!"
+  calcuid ghost 61602 mob
+  oforce  %ghost% убить %actor.iname%
 else
-osend %actor% Вы протянули руку к посоху, но так и не решились к нему прикоснуться.
+  osend %actor% Вы протянули руку к посоху, но так и не решились к нему прикоснуться.
 end
 ~
 #61603
@@ -66,24 +66,24 @@ end
 ~
 return 0
 if (%actor.hitp% > 30)
-odamage %actor% 30
+  odamage %actor% 30
 else
-odamage %actor% %actor.hitp%
+  odamage %actor% %actor.hitp%
 end
 osend %actor% Вы сдуру сунули руку в костер  - это действительно БОЛЬНО!!!
-oechoaround %actor% %actor.iname% сунул%actor.g% руку в костер и взвыла от боли.
+oechoaround %actor% %actor.iname% сунул%actor.g% руку в костер и взвыл%actor.g% от боли.
 ~
 #61604
 триггер железного ключа~
 1 g 100
 ~
 if (%actor.id% == %questor616.id%)
-oecho Налетевший порыв ветра внезапно развернул повешенного к вам лицом
-oecho Мороз прошел по вашей коже.
-detach 61604 %self.id%
+  oecho Налетевший порыв ветра внезапно развернул повешенного к вам лицом
+  oecho Мороз прошел по вашей коже.
+  detach 61604 %self.id%
 else
-return 0
-osend %actor% "Зачем он мне?" - подумали вы и оставили ключ лежать на полу. 
+  return 0
+  osend %actor% "Зачем он мне?" - подумали вы и оставили ключ лежать на полу. 
 end
 ~
 #61605
@@ -109,11 +109,11 @@ mecho С протяжным воплем неупокоенный дух растворился во тьме.
 1 c 4
 отодвинуть~
 if (%arg% == сундук)
-oechoaround %actor% %actor.iname%,  побагровев от натуги, отодвинул%actor.g% сундук от стены. 
-osend %actor% Вы с трудом отодвинули тяжелый сундук в сторону.
-oecho Под сундуком в полу открылся спуск вниз.
-odoor 61647 d room 61687
-detach 61607 %self.id%
+  oechoaround %actor% %actor.iname%,  побагровев от натуги, отодвинул%actor.g% сундук от стены. 
+  osend %actor% Вы с трудом отодвинули тяжелый сундук в сторону.
+  oecho Под сундуком в полу открылся спуск вниз.
+  odoor 61647 d room 61687
+  detach 61607 %self.id%
 end
 ~
 #61608
@@ -121,16 +121,16 @@ end
 2 c 0
 перепрыгнуть~
 if (%arg% == плиту)
-wsend %actor% Вы разбежались и прыгнули изо всех сил, едва не разбив голову о свод коридора.
-wechoaround %actor% %actor.iname% разбежал%actor.u% и прыгнул%actor.g% вглубь коридора.
-if (%self.vnum% == 61689)
-wteleport %actor% 61691
+  wsend %actor% Вы разбежались и прыгнули изо всех сил, едва не разбив голову о свод коридора.
+  wechoaround %actor% %actor.iname% разбежал%actor.u% и прыгнул%actor.g% вглубь коридора.
+  if (%self.vnum% == 61689)
+    wteleport %actor% 61691
+  else
+    wteleport %actor% 61689
+  end
+  wechoaround %actor% %actor.iname%  вылетел%actor.g% из темноты и тяжело упал%actor.g% рядом с вами.
 else
-wteleport %actor% 61689
-end
-wechoaround %actor% %actor.iname%  вылетел%actor.g% из темноты и тяжело упал%actor.g% рядом с вами.
-else
-wsend %actor% Куды прыгаем?
+  wsend %actor% Куды прыгаем?
 end
 ~
 #61609
@@ -145,16 +145,16 @@ say Чего тебе здесь надо?!!
 0 r 100
 ~
 if ((%world.gameobjs(61615)% == 0) || (%world.gameobjs(61614)% == 0))
-halt
+  halt
 end
 wait 1
 msend %actor% Мудрец пристально посмотрел на Вас.
 msend %actor% - Поздорову, %actor.name%! - сказал мудрец.
 if !%questor616%
-   msend %actor% - Зачем пожаловал? Хочешь спросить, отчего заброшена эта крепость?
-   msend %actor% - Или же хочешь помочь мне? 
-   attach 61611 %self.id%
-   attach 61612 %self.id%
+  msend %actor% - Зачем пожаловал? Хочешь спросить, отчего заброшена эта крепость?
+  msend %actor% - Или же хочешь помочь мне? 
+  attach 61611 %self.id%
+  attach 61612 %self.id%
 end
 ~
 #61611
@@ -187,24 +187,23 @@ msend %actor% крепость - все бежали отсюда в страхе..." - мудрец смолк и глубоко
 помочь~
 wait 1
 if  %actor.vnum%  !=  -1
-halt
+  halt
 end
 if (%actor.id% == %questor616.id%)
-say Я и так вот жду, когда ты мне поможешь, как обещано...
-halt
+  say Я и так вот жду, когда ты мне поможешь, как обещано...
+  halt
 end
 if %questor616% 
   if %questor616.sex% == 1
-     say  Взялся уже помочь мне один добрый молодец - %questor616.name%.
-     say Ушел он и сгинул - не иначе как не по силам оказался ему этот подвиг...
-     halt
+    say  Взялся уже помочь мне один добрый молодец - %questor616.name%.
+    say Ушел он и сгинул - не иначе как не по силам оказался ему этот подвиг...
+    halt
   else
-     say  Взялась уже помочь мне одна добрая девица  - %questor616.name%.
-     say Ушла она и сгинула - не иначе как не по силам оказался ей этот подвиг...
-     halt
+    say  Взялась уже помочь мне одна добрая девица  - %questor616.name%.
+    say Ушла она и сгинула - не иначе как не по силам оказался ей этот подвиг...
+    halt
   end
 end
- 
 makeuid questor616 %actor.id%
 global  questor616
 msend %actor% Мудрец сказал:
@@ -219,7 +218,7 @@ msend %actor% а коготь хранился в сокровищнице, тайный ход в которую начинается 
 msend %actor% покоях. Ключ же от нее князь всегда держал при себе.
 msend %actor% Принеси мне их, и я щедро вознагражу тебя!" 
 wait 1
-msend %actor% Мудрец сделал несколько пассов. Вы почувствовали волну тепла прошедшую по вашей коже.
+msend %actor% Мудрец сделал несколько пассов. Вы почувствовали волну тепла прошедшую по Вашей коже.
 dg_cast 'защита от тьм' %actor.name% 
 calcuid stick 61614 obj
 remote questor616 %stick.id%
@@ -234,57 +233,58 @@ detach 61610 %self.id%
 ~
 return 1
 if  (!(%object.vnum% == 61615) && !(%object.vnum% == 61614))
-wait 2
-say Зачем мне это?
-mpurge %object%
-halt
+  wait 2
+  say Зачем мне это?
+  mpurge %object%
+  halt
 end
 if  (%actor.id% == %questor616.id%)
-if  !(%quest616_objects%  == ok)
-eval quest616_objects ok
-global quest616_objects
-wait 1
-if  (%object.vnum% == 61614)
-say Очень хорошо, но еще мне нужен железный коготь... 
-elseif  (%object.vnum% == 61615)
-say Очень хорошо, но еще мне нужен резной посох первого князя...
-end
-вопр %actor.name%
-mpurge %object%
-halt
-end
-wait 2
-say О! Ты выполнил мою просьбу!
-say Что ж... Вот и твоя награда... 
-eval chanse %random.100%
-if     ( %chanse% < 3) && (%world.curobjs(61618)% < 7)
-   mload obj 61618
-   дать самоцвет %actor.name%
-elseif  %chanse% < 10
-   mload obj 583
-   дать слово %actor.name%
-elseif %chanse% < 20
-   mload obj 61613
-   дать брас %actor.name%
-elseif (%chanse% < 35) && (%world.curobjs(61623)% < 20)
-   mload obj 61623
-   дать перстень %actor.name%
-else
-msend %actor% Старик вручил вам увесистый кошель.
-mechoaround %actor% Мудрец вручил %actor.dname% увесистый кошель.
-%actor.gold(+500)%
-end
-unset %quest616_objects%
-detach 61612 %self.id%
-detach 61611 %self.id%
-mpurge %object%
-detach 61613 %self.id%
-halt
+  if  !(%quest616_objects%  == ok)
+    eval quest616_objects ok
+    global quest616_objects
+    wait 1
+    if  (%object.vnum% == 61614)
+      say Очень хорошо, но еще мне нужен железный коготь... 
+    elseif  (%object.vnum% == 61615)
+      say Очень хорошо, но еще мне нужен резной посох первого князя...
+    end
+    вопр %actor.name%
+    mpurge %object%
+    halt
+  end
+  wait 2
+  say О! Ты выполнил мою просьбу!
+  say Что ж... Вот и твоя награда... 
+  eval chanse %random.100%
+  if     ( %chanse% < 3) && (%world.curobjs(61618)% < 7)
+    mload obj 61618
+    дать самоцвет %actor.name%
+  elseif  %chanse% < 10
+    mload obj 583
+    дать слово %actor.name%
+  elseif %chanse% < 20
+    mload obj 61613
+    дать брас %actor.name%
+  elseif (%chanse% < 35) && (%world.curobjs(61623)% < 20)
+    mload obj 61623
+    дать перстень %actor.name%
+  else
+    msend %actor% Старик вручил вам увесистый кошель.
+    mechoaround %actor% Мудрец вручил %actor.dname% увесистый кошель.
+    %actor.gold(+500)%
+  end
+  unset %quest616_objects%
+  detach 61612 %self.id%
+  detach 61611 %self.id%
+  mpurge %object%
+  detach 61613 %self.id%
+  halt
 end
 wait 1
 say О! Спасибо! 
 улыб
 цел %actor.name%
+%actor.gold(+5000)%
 ~
 #61614
 загрузка стража сокровищницы~
@@ -313,27 +313,27 @@ calcuid treasor 61692 room
 attach 61605 %treasor.id%
 rdelete questor616 %treasor.id%
 if %questor%
-   attach  61610      %questor.id%
-   detach  61611      %questor.id%
-   detach  61612     %questor.id%
-   detach  61613      %questor.id%
-   rdelete questor616 %questor.id%
-   unset questor616
+  attach  61610      %questor.id%
+  detach  61611      %questor.id%
+  detach  61612     %questor.id%
+  detach  61613      %questor.id%
+  rdelete questor616 %questor.id%
+  unset questor616
 end
 calcuid stick1 61614 obj
 calcuid claw1 61615 obj
 calcuid key1 61617 obj
 if %stick1%
-attach 61619 %stick1.id% 
-exec 61619 %stick1.id%
+  attach 61619 %stick1.id% 
+  exec 61619 %stick1.id%
 end
 if %claw1%
-attach 61619 %claw1.id% 
-exec 61619 %claw1.id%
+  attach 61619 %claw1.id% 
+  exec 61619 %claw1.id%
 end
 if %key1%
-attach 61619 %key1.id% 
-exec 61619 %key1.id%
+  attach 61619 %key1.id% 
+  exec 61619 %key1.id%
 end
 calcuid room1 61666 room
 calcuid room2 61692 room
@@ -344,6 +344,7 @@ attach 61621 %room3.id%
 exec 61621 %room1.id%
 exec 61621 %room2.id%
 exec 61621 %room3.id%
+wdoor 61647 down purge
 ~
 #61617
 триггер старого слуги~
@@ -361,20 +362,20 @@ say Помоги мне, %actor.iname%, сделай доброе дело...
 ~
 return 1
 if  (%object.vnum% == 61619)
-wait 1
-say Ох, спасибо, %actor.iname% !
-рад
-say Возьми вот... не отказывайся, уважь старика.
-if (%actor.level% < 15)
-msend %actor% Старик дал вам немного денег.
-mechoaround %actor% Старик дал %actor.dname% немного денег.
-%actor.gold(+400)%
-else
-mload obj 103
-дать водк %actor.name%
-end
-detach 61617 %self.id%
-mpurge %object%
+  wait 1
+  say Ох, спасибо, %actor.iname% !
+  рад
+  say Возьми вот... не отказывайся, уважь старика.
+  if (%actor.level% < 15)
+    msend %actor% Старик дал вам немного денег.
+    mechoaround %actor% Старик дал %actor.dname% немного денег.
+    %actor.gold(+400)%
+  else
+    mload obj 103
+    дать водк %actor.name%
+  end
+  detach 61617 %self.id%
+  mpurge %object%
 end
 ~
 #61619
@@ -390,17 +391,18 @@ opurge %self.name%
 mechoaround %actor% Упырь уставился на %actor.vname%. 
 msend %actor% Упырь посмотрел прямо на Вас!
 mecho Упырь заорал: "СВЕЖЕЕ МЯСО!!!"
+kill .%actor.name%
 ~
 #61621
 загрузка квестовых предметов~
 2 z 0
 ~
 if (%self.vnum% == 61666)
-wload obj 61614
+  wload obj 61614
 elseif (%self.vnum% == 61648)
-wload obj 61617
+  wload obj 61617
 elseif (%self.vnum% == 61692)
-wload obj 61615
+  wload obj 61615
 end
 detach 61621 %self.id%
 ~

@@ -46,6 +46,11 @@ end
 Убили владыку нечести~
 0 f 100
 ~
+if %world.curobjs(3362)% < 1 && %world.curobjs(3363)% < 1  && %random.100% < 5
+mload obj 3362
+elseif %world.curobjs(3364)% < 1 && %world.curobjs(3365)% < 1  && %random.100% < 4
+mload obj 3364
+end
 mload obj 66633
 ~
 #66605
@@ -133,7 +138,7 @@ switch %random.9%
     г Это кольцо поможет тебе в борьбе со злом.
   break
   default 
-    mecho _Светлый ангел дал Вам большую кучу драгоценных камней.
+mecho Светлый ангел взмахнул крылом, и перед вами появилась большая куча драгоценных камней.
     wait 1s
     mload obj 66637
 дать драгоц %actor.name%

@@ -27,6 +27,7 @@ Class: 103
 Height: 198
 Weight: 2
 Special_Bitvector: l0 
+Skill: 136 45
 Skill: 157 90
 E
 #29001
@@ -58,6 +59,7 @@ Class: 102
 Height: 198
 Weight: 2
 Special_Bitvector: 0 
+Skill: 136 45
 Skill: 157 90
 Spell: 55
 Spell: 55
@@ -65,14 +67,15 @@ Spell: 55
 Spell: 55
 Helper: 29002
 E
+L 1715 7 0 0
 #29002
 змея~
 змея~
 змеи~
-змеи~
+змее~
 змею~
 змеей~
-змеи~
+змее~
 Змея свернулась в калачик здесь.
 ~
 Черная гадина.~
@@ -92,6 +95,7 @@ Class: 103
 Height: 198
 Weight: 2
 Special_Bitvector: g0m0 
+Skill: 136 36
 Skill: 137 90
 E
 #29003
@@ -179,6 +183,7 @@ Height: 200
 Weight: 200
 Special_Bitvector: j0A0B0 
 Skill: 132 150
+Skill: 136 48
 E
 #29006
 орлан белохвост~
@@ -201,5 +206,6 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 45
 E
 $

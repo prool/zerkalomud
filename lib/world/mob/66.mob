@@ -90,6 +90,7 @@ Class: 103
 Height: 198
 Weight: 75
 Special_Bitvector: a1 
+Skill: 136 27
 Skill: 139 100
 E
 #6603
@@ -105,7 +106,7 @@ E
 Ну, прямо как живое! В рваном зипуне и с тыквой вместо головы.
 Только вот, похоже, что птицы всерьез его уже не воспринимают.
 ~
-b0d0g0n0 C0 -600 E
+b0d0g0n0l2 C0 -600 E
 10 7 5 4d4+175 3d2+1
 1d1+1 3000
 8 8 0
@@ -122,6 +123,7 @@ Class: 100
 Height: 198
 Weight: 20
 Special_Bitvector: a1b1c1 
+Skill: 136 30
 E
 #6604
 злая собака~
@@ -152,6 +154,7 @@ Class: 103
 Height: 198
 Weight: 110
 Special_Bitvector: 0 
+Skill: 136 33
 E
 #6605
 грач~
@@ -182,6 +185,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 27
 E
 #6606
 воробей~
@@ -212,6 +216,7 @@ Class: 103
 Height: 198
 Weight: 2
 Special_Bitvector: l0 
+Skill: 136 21
 E
 #6607
 заяц~
@@ -242,6 +247,7 @@ Class: 103
 Height: 198
 Weight: 4
 Special_Bitvector: n0 
+Skill: 136 30
 E
 #6608
 крот~
@@ -273,6 +279,7 @@ Class: 103
 Height: 198
 Weight: 2
 Special_Bitvector: 0 
+Skill: 136 36
 Skill: 157 50
 E
 #6609
@@ -304,5 +311,6 @@ Class: 103
 Height: 198
 Weight: 2
 Special_Bitvector: p0 
+Skill: 136 21
 E
 $

@@ -1,0 +1,335 @@
+#76700
+Лис~
+Лис~
+Лиса~
+Лису~
+Лиса~
+Лисом~
+Лисе~
+Огненно-красный лис пробегает здесь.
+~
+Рыжий лис с умной мордой пробегает почти мимо вас, и все равно вы замечаете
+его только в последний момент.
+~
+d0g0h0l0 d0z0 0 E
+14 10 4 10d10+129 0d0+8
+0d0+0 14000
+8 8 1
+BareHandAttack: 4
+Destination: 76700
+Destination: 76701
+Destination: 76702
+Destination: 76703
+Destination: 76704
+Destination: 76705
+Destination: 76706
+Destination: 76707
+Destination: 76708
+Destination: 76709
+Str: 16
+Dex: 25
+Int: 10
+Wis: 10
+Con: 16
+Cha: 10
+Size: 100
+LikeWork: 30
+ExtraAttack: 1
+Class: 103
+Height: 150
+Weight: 70
+Special_Bitvector: p0 
+Skill: 136 42
+Skill: 160 40
+E
+#76701
+Волк~
+Волк~
+Волка~
+Волку~
+Волка~
+Волком~
+Волке~
+Серый волк осторожно крадется мимо.
+~
+Волк почти незаметен среди кустов и деревьев, благодаря чему он успешно
+охотится на мелких зверей.
+~
+d0j0 d0z0 0 E
+18 12 2 10d10+1767 0d0+12
+0d0+0 24000
+8 8 1
+BareHandAttack: 4
+Destination: 76706
+Destination: 76707
+Destination: 76708
+Destination: 76709
+Destination: 76710
+Destination: 76711
+Destination: 76712
+Destination: 76713
+Destination: 76714
+Destination: 76715
+Destination: 76716
+Destination: 76717
+Str: 18
+Dex: 24
+Int: 10
+Wis: 10
+Con: 18
+Cha: 10
+Size: 100
+LikeWork: 40
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: p0 
+Skill: 132 60
+Skill: 136 54
+E
+#76702
+Барсук~
+Барсук~
+Барсука~
+Барсуку~
+Барсука~
+Барсуком~
+Барсуке~
+Небольшой барсук ищет себе еду.
+~
+Барсук снует по кустам, ища себе пропитание.
+~
+d0 0 0 E
+12 10 0 0d0+100 0d0+5
+0d0+0 76700
+8 8 1
+BareHandAttack: 8
+Destination: 76769
+Destination: 76770
+Destination: 76771
+Destination: 76772
+Destination: 76773
+Destination: 76774
+Destination: 76775
+Destination: 76776
+Destination: 76777
+Str: 14
+Dex: 24
+Int: 10
+Wis: 10
+Con: 12
+Cha: 10
+Size: 60
+ExtraAttack: 1
+Class: 103
+Height: 100
+Weight: 50
+Special_Bitvector: i0p0 
+Skill: 136 36
+Skill: 138 50
+E
+#76703
+Старый медведь~
+Старый медведь~
+Старого медведя~
+Старому медведю~
+Старого медведя~
+Старым медведем~
+Старом медведе~
+Старый медведь злобно рычит на вас.
+~
+Медведь уже явно стар и далеко не так силен, как в молодости, но даже сейчас
+он вполне способен постоять за себя
+~
+b0d0f0x0 d0f0k0m1 0 E
+24 16 0 10d10+400 0d0+22
+0d0+0 70000
+5 5 1
+BareHandAttack: 1
+Str: 24
+Dex: 20
+Int: 10
+Wis: 10
+Con: 24
+Cha: 10
+Size: 100
+LikeWork: 40
+ExtraAttack: 2
+Class: 103
+Height: 175
+Weight: 150
+Special_Bitvector: C3 
+Skill: 22 40
+Skill: 132 70
+Skill: 136 72
+E
+L 76702 50 0 2
+#76704
+кабан~
+кабан~
+кабана~
+кабану~
+кабана~
+кабаном~
+кабане~
+Огромный кабан бежит на вас.
+~
+Здоровенный кабан явно намерен отучить вас бродить где попало.
+~
+d0f0m0 0 -600 E
+21 12 4 10d10+300 0d0+16
+0d0+0 30000
+8 8 1
+BareHandAttack: 1
+Destination: 76729
+Destination: 76730
+Destination: 76731
+Destination: 76728
+Destination: 76727
+Destination: 76726
+Destination: 76725
+Destination: 76724
+Destination: 76723
+Destination: 76720
+Str: 22
+Dex: 22
+Int: 10
+Wis: 10
+Con: 22
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 140
+Special_Bitvector: p0 
+Skill: 136 63
+E
+#76705
+Белка~
+Белка~
+Белки~
+Белке~
+Белку~
+Белкой~
+Белке~
+Маленькая белка сидит на ветке дерева.
+~
+Рыжая белка, еще совсем бельчонок, сидит на ветке дерева и держит в лапках
+то ли орех, то ли гриб.
+~
+d0 f0s0 0 E
+6 10 2 10d10+50 0d0+3
+0d0+0 5000
+8 8 2
+BareHandAttack: 8
+Destination: 76736
+Destination: 76737
+Destination: 76738
+Destination: 76739
+Destination: 76740
+Destination: 76741
+Destination: 76742
+Destination: 76743
+Destination: 76744
+Destination: 76745
+Str: 12
+Dex: 20
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 20
+Class: 103
+Height: 60
+Weight: 50
+Special_Bitvector: n0 
+Skill: 136 18
+E
+#76706
+Лось~
+Лось~
+Лося~
+Лосю~
+Лося~
+Лосем~
+Лосе~
+Высокий лось объедает кору с деревьев.
+~
+Здоровяк сохатый легко дотягивается до веток, обгладывая с них кору.
+~
+d0 0 0 E
+20 10 4 10d10+300 0d0+12
+0d0+0 10000
+8 8 0
+BareHandAttack: 5
+Destination: 76740
+Destination: 76741
+Destination: 76742
+Destination: 76743
+Destination: 76744
+Destination: 76745
+Destination: 76746
+Destination: 76747
+Destination: 76748
+Destination: 76749
+Destination: 76750
+Destination: 76751
+Destination: 76752
+Destination: 76753
+Destination: 76754
+Destination: 76755
+Destination: 76756
+Destination: 76758
+Str: 22
+Dex: 20
+Int: 10
+Wis: 10
+Con: 22
+Cha: 10
+Size: 100
+LikeWork: 20
+ExtraAttack: 1
+Class: 100
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 60
+E
+#76707
+Заяц~
+Заяц~
+Зайца~
+Зайцу~
+Зайца~
+Зайцем~
+Зайце~
+Заяц мелькает среди деревьев.
+~
+Лопоухий зверек прячется от постороннего взора за стволами деревьев, правда
+иногда это ему и не удается.
+~
+d0 0 0 E
+8 10 0 10d10+20 0d0+4
+0d0+0 4000
+8 8 1
+BareHandAttack: 8
+Destination: 76718
+Destination: 76739
+Destination: 76746
+Destination: 76758
+Str: 12
+Dex: 20
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 30
+Class: 103
+Height: 40
+Weight: 50
+Special_Bitvector: p0 
+Skill: 136 24
+E
+$

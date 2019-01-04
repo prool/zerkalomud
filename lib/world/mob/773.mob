@@ -1,0 +1,814 @@
+#77300
+наемный охранник~
+наемный охранник~
+наемного охранника~
+наемному охраннику~
+наемного охранника~
+наемным охранником~
+наемном охраннике~
+Огромный детина следит за порядком.
+~
+Одного взгляда хватает, что бы понять: с ним шутить не надо.
+~
+b0d0m0x0y0g2 e0k0n0C0 -600 E
+30 0 -7 10d10+2000 10d15+10
+10d10+2 200000
+8 8 1
+AResist: 10
+MResist: 10
+BareHandAttack: 3
+Str: 35
+Dex: 35
+Int: 5
+Wis: 5
+Con: 35
+Cha: 5
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: e0g0y0b1c1 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 4 30
+Skill: 132 80
+Skill: 136 80
+Skill: 137 100
+E
+I кости,10:5
+#77301
+наемный чароплет девушка~
+наемный чароплет~
+наемного чароплета~
+наемному чароплету~
+наемного чароплета~
+наемным чароплетом~
+наемном чароплете~
+Девушка в черной накидке подозрительно смотрит на Вас.
+~
+Легкая накидка подчеркивает ее миниатюрную фигурку. 
+~
+b0d0l0n0o0x0y0i1g2 b0d0e0k0n0x0C0 -600 E
+30 5 2 10d10+1333 5d5+5
+10d10+2 250000
+8 8 2
+CastSuccess: 80
+AResist: 33
+MResist: 33
+BareHandAttack: 8
+Str: 16
+Dex: 16
+Int: 30
+Wis: 30
+Con: 8
+Cha: 26
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: a0b1c1 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 157 80
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 48
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Helper: 77300
+E
+I кожа,10:10
+#77302
+драный пес~
+драный пес~
+драного пса~
+драному псу~
+драного пса~
+драным псом~
+драном псе~
+Ободраная собака не дает Вам пройти.
+~
+Бедное животное! 
+~
+b0d0k0l0n0o0x0y0g2i2 c0f0k0r0C0c1l1t1 -600 E
+25 3 -5 10d10+500 5d15+2
+0d0+0 35000
+8 8 1
+AResist: 5
+MResist: 5
+BareHandAttack: 4
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 50
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 157 80
+E
+I когти,10:10
+#77303
+мелкий попрошайка~
+мелкий попрошайка~
+мелкого попрошайки~
+мелкому попрошайке~
+мелкого попрошайку~
+мелким попрошайкой~
+мелком попрошайке~
+Ребенок, обделенный жизнью, стоит здесь.
+~
+Малолетний преступник. Такой не признает авторитета старших, и спиной к нему лучше не становиться.
+~
+c0d0g0h0m0n0o0y0A0g2 c0d0j0k0c1t1 -600 E
+31 2 -7 10d10+700 10d10+2
+0d0+0 100000
+8 8 1
+BareHandAttack: 11
+Destination: 77321
+Destination: 77322
+Destination: 77323
+Destination: 77324
+Destination: 77325
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 45
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: a1b1c1 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 131 80
+Skill: 139 50
+Skill: 147 80
+Skill: 157 80
+Skill: 160 50
+Skill: 167 80
+E
+#77304
+командир наемного отряда~
+командир наемного отряда~
+командира наемнога отряда~
+командиру наемногу отряда~
+командира наемного отряда~
+командиром наемногом отряда~
+командире наемноге отряда~
+Воин в годах зло зыркнул в Вашу сторону.
+~
+Видавший виды меченосец. Не смотря на почтенный возраст, легко ударом меча может перерубить Вас пополам. 
+~
+b0d0m0n0o0x0y0g2 d0k0m0n0r0z0C0c1 -600 E
+34 0 -7 10d10+3000 10d17+9
+10d10+4 300000
+8 8 1
+AResist: 15
+MResist: 15
+BareHandAttack: 3
+Str: 35
+Dex: 35
+Int: 10
+Wis: 10
+Con: 35
+Cha: 10
+Size: 100
+LikeWork: 99
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1B3 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 21 25
+Skill: 132 85
+Skill: 136 100
+Skill: 146 100
+Spell: 47
+Spell: 53
+Spell: 136
+Spell: 136
+Spell: 136
+Spell: 136
+Spell: 145
+Helper: 77312
+Helper: 77301
+Helper: 77300
+E
+T 77301
+I кости,10:10
+#77305
+хозяин трактира~
+хозяин трактира~
+хозяина трактира~
+хозяину трактира~
+хозяина трактира~
+хозяином трактира~
+хозяине трактира~
+Скрюченный жизнью старик стоит здесь.
+~
+Пожилой мужик доживает свой век в этой таверне.
+~
+b0d0m0n0o0x0y0o1g2 d0f0m0n0C0c1 -600 E
+34 0 -3 10d10+2500 10d10+2
+10d10+2 200000
+8 8 1
+CastSuccess: 80
+AResist: 5
+MResist: 5
+Str: 30
+Dex: 30
+Int: 20
+Wis: 20
+Con: 30
+Cha: 20
+Size: 100
+LikeWork: 50
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 2 80
+Skill: 130 80
+Skill: 136 80
+Skill: 166 80
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+E
+T 77303
+T 77304
+T 77305
+T 77306
+T 77307
+T 77309
+I зубы,10:10
+#77306
+серая крыса~
+серая крыса~
+серой крысы~
+серой крысе~
+серую крысу~
+серой крысой~
+серой крысе~
+Что-то серое прошмыгнуло у Вас между ног.
+~
+Мерзкая крыса уставилась на Вас своими глазенками.
+~
+d0f0g0l0n0o0y0 c0e0f0k0m0r0s0A0c1l1 -600 E
+29 3 -10 10d111+10 10d11+3
+0d0+0 50000
+8 8 2
+AResist: 5
+MResist: 5
+BareHandAttack: 4
+Destination: 77332
+Destination: 77333
+Destination: 77334
+Destination: 77335
+Str: 25
+Dex: 25
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 50
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: g0 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 1 80
+Skill: 136 80
+Skill: 160 80
+Spell: 156
+E
+I шерсть,10:6
+#77307
+черная крыса~
+черная крыса~
+черной крысы~
+черной крысе~
+черную крысу~
+черной крысой~
+черной крысе~
+Большой черный комок вразвалочку топает куда то в угол.
+~
+Эта тварь сожрала бы даже кота!
+~
+d0f0g0l0n0o0y0 c0e0f0h0k0m0r0s0A0c1l1 -600 E
+30 2 -10 13d111+10 10d13+3
+0d0+0 100000
+8 8 2
+CastSuccess: 60
+AResist: 10
+MResist: 10
+BareHandAttack: 8
+Destination: 77332
+Destination: 77333
+Destination: 77334
+Destination: 77335
+Destination: 77339
+Str: 30
+Dex: 30
+Int: 15
+Wis: 15
+Con: 15
+Cha: 15
+Size: 100
+LikeWork: 75
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: g0 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 1 85
+Skill: 136 85
+Skill: 160 85
+Spell: 93
+Helper: 77306
+E
+I шерсть,10:10
+#77308
+местный забулдыга~
+местный забулдыга~
+местного забулдыги~
+местному забулдыге~
+местного забулдыгу~
+местным забулдыгой~
+местном забулдыге~
+Местный пьянчужка расположился на полу.
+~
+Дрожащие руки, красные глаза, беззубый рот┘ Жаль мужичонка.
+~
+c0d0g0m0n0o0y0A0 c0h0j0k0c1t1 -600 E
+31 10 10 10d10+1000 14d15+2
+0d0+5 70000
+2 6 1
+BareHandAttack: 11
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 2 80
+Skill: 4 80
+Skill: 136 80
+Skill: 145 80
+Helper: 77311
+E
+#77309
+постоянный клиент~
+постоянный клиент~
+постоянного клиента~
+постоянному клиенту~
+постоянного клиента~
+постоянным клиентом~
+постоянном клиенте~
+Завсегдатай сидит за столиком.
+~
+Типичный для этого местечка посетитель.
+~
+b0c0d0n0o0y0A0 c0k0c1 -600 E
+31 2 -5 10d10+1200 12d12+2
+0d0+19 70000
+6 6 1
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 35
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 132 80
+Skill: 145 80
+Spell: 28
+E
+#77310
+разносчик пищи~
+разносчик пищи~
+разносчика пищи~
+разносчику пищи~
+разносчика пищи~
+разносчиком пищи~
+разносчике пищи~
+Молодой парень суетиться вокруг столиков.
+~
+Юнец, ловко шмыгая между столиками, разносит заказы.
+~
+c0d0g0m0n0o0y0A0 c0d0e0r0c1 -600 E
+31 4 -7 10d10+1100 12d12+0
+0d0+70 70000
+8 8 1
+Str: 25
+Dex: 30
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 15
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 132 50
+Skill: 136 100
+Skill: 145 100
+Skill: 157 100
+Spell: 62
+E
+#77311
+дебошир~
+дебошир~
+дебошира~
+дебоширу~
+дебошира~
+дебоширом~
+дебошире~
+Пьяный здоровяк машет здесь кулаками.
+~
+Хмельное вино ударило ему в голову, и вокруг мерещатся одни черти.
+~
+c0d0f0g0m0n0o0y0A0g2i2 c0h0j0k0A0c1l1 -600 E
+31 2 0 10d10+1000 13d14+5
+0d0+22 70000
+8 8 1
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 45
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 132 50
+Skill: 136 100
+Skill: 145 100
+Skill: 165 50
+Spell: 131
+Spell: 131
+E
+#77312
+наемный ключник~
+наемный ключник~
+наемного ключника~
+наемному ключнику~
+наемного ключника~
+наемным ключником~
+наемном ключнике~
+Толстый охранник бряцает здесь ключами.
+~
+Он не создает впечатления грозного наемника. Скорее торгаш с рынка, но на рожон лезть все же не стоит.
+~
+b0d0l0m0n0o0p0r0x0y0A0g2i2 c0d0e0f0k0m0n0r0C0c1l1 -600 E
+31 0 2 10d10+3000 10d10+5
+10d10+2 250000
+8 8 1
+AResist: 5
+MResist: 5
+BareHandAttack: 8
+Str: 36
+Dex: 16
+Int: 20
+Wis: 20
+Con: 36
+Cha: 36
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: a0c0b1c1 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 4 100
+Skill: 136 100
+Skill: 146 100
+Skill: 150 60
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 47
+Spell: 53
+Spell: 96
+Spell: 112
+Helper: 77300
+E
+#77313
+столетний волшебник~
+столетний волшебник~
+столетнего волшебника~
+столетнему волшебнику~
+столетнего волшебника~
+столетним волшебником~
+столетнем волшебнике~
+Старый маг рассматривает полку с древними фолиантами.
+~
+Можно подумать что это обычный дряхлый старик, но глаза светятся вековой мудростью.
+~
+b0d0g0m0n0o0x0 b0c0d0e0f0k0m0n0r0C0a1c1t1x1y1z1e2 -600 E
+31 7 0 10d10+999 10d10+2
+0d0+10 200000
+8 8 1
+AResist: 22
+MResist: 22
+Str: 20
+Dex: 20
+Int: 36
+Wis: 36
+Con: 20
+Cha: 36
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 105
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 141 120
+Skill: 166 100
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 113
+Spell: 113
+Spell: 128
+Spell: 144
+Spell: 151
+E
+T 77308
+T 77310
+I крылья,10:3
+#77314
+вороватый постоялец~
+вороватый постоялец~
+вороватого постояльца~
+вороватому постояльцу~
+вороватого постояльца~
+вороватым постояльцем~
+вороватом постояльце~
+Ворюга прячет деньги за пазуху.
+~
+Матерый вор. Может украсть Ваше добро из Ваших рук!
+~
+b0c0d0f0g0l0m0n0o0v0w0x0y0A0 c0d0e0f0k0r0s0t0A0C0c1j1t1 -600 E
+31 0 -10 10d10+1500 13d13+9
+0d0+1000 180000
+8 8 1
+BareHandAttack: 11
+Str: 36
+Dex: 36
+Int: 20
+Wis: 20
+Con: 20
+Cha: 20
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: i0j0a1b1c1 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 131 100
+Skill: 136 100
+Skill: 144 100
+Skill: 145 100
+Skill: 147 100
+Skill: 157 100
+Skill: 160 100
+Helper: 77303
+E
+T 77302
+#77315
+девица легкого поведения~
+девица легкого поведения~
+девицы легкого поведения~
+девице легкого поведения~
+девицу легкого поведения~
+девицей легкого поведения~
+девице легкого поведения~
+Молодая девка тешит мужиков.
+~
+Ночная фея предлагает вам отдохнуть в верхней комнатке не за дорого.
+~
+c0d0l0m0n0o0y0A0 c0k0c1 -600 E
+29 13 0 10d10+1200 12d12+2
+0d0+25 70000
+8 8 2
+Str: 25
+Dex: 25
+Int: 25
+Wis: 25
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 90
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 17
+Feat: 29
+Feat: 54
+Feat: 65
+Feat: 66
+Feat: 68
+Skill: 136 80
+Skill: 157 80
+Skill: 160 50
+Skill: 167 50
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+E
+I кожа,10:5
+$

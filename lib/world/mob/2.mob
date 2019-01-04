@@ -20,6 +20,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #201
 моб первого уровня~
@@ -43,6 +44,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #202
 моб второго уровня~
@@ -66,6 +68,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 6
 E
 #203
 моб третьего уровня~
@@ -89,6 +92,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 9
 E
 #204
 моб четвертого уровня~
@@ -112,6 +116,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #205
 чармис пятого уровня~
@@ -134,6 +139,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 15
 E
 #206
 чармис шестого уровня~
@@ -156,6 +162,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 18
 Skill: 137 10
 E
 #207
@@ -179,6 +186,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 21
 E
 #208
 чармис восьмого уровня~
@@ -201,6 +209,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 24
 Skill: 137 16
 E
 #209
@@ -225,6 +234,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 27
 E
 #210
 чармис десятого уровня~
@@ -248,6 +258,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 Skill: 137 22
 E
 #211
@@ -272,6 +283,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 33
 E
 #212
 чармис двенадцатого уровня~
@@ -295,6 +307,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 36
 Skill: 137 28
 E
 #213
@@ -319,6 +332,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 E
 #214
 чармис четырнадцатого уровня~
@@ -342,6 +356,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 42
 Skill: 137 34
 E
 #215
@@ -366,6 +381,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #216
 чармис шестнадцатого уровня~
@@ -389,6 +405,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 48
 Skill: 137 40
 E
 #217
@@ -413,6 +430,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 51
 E
 #218
 чармис восемнадцатого уровня~
@@ -436,6 +454,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 54
 Skill: 137 46
 E
 #219
@@ -460,6 +479,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 57
 E
 #220
 чармис двадцатого уровня~
@@ -483,6 +503,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 137 52
 E
 #221
@@ -507,6 +528,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #222
 чармис двадцать второго уровня~
@@ -530,6 +552,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 137 58
 E
 #223
@@ -554,6 +577,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 69
 E
 #224
 чармис двадцать четвертого уровня~
@@ -577,6 +601,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 72
 Skill: 137 64
 E
 #225
@@ -601,6 +626,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #226
 чармис двадцать шестого уровня~
@@ -624,6 +650,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 78
 Skill: 137 70
 E
 #227
@@ -648,6 +675,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 81
 E
 #228
 чармис двадцать восьмого уровня~
@@ -671,6 +699,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 84
 Skill: 137 76
 E
 #229
@@ -695,6 +724,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 87
 E
 #230
 чармис тридцатого уровня~
@@ -719,6 +749,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 90
 Skill: 137 82
 E
 #231
@@ -743,6 +774,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 93
 E
 #232
 чармис тридцать воторого уровня_танк~
@@ -766,6 +798,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 96
 Skill: 137 88
 E
 #233
@@ -790,6 +823,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 99
 E
 #234
 чармис тридцать четвертого уровня_танк~
@@ -813,6 +847,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 102
 Skill: 137 94
 E
 #235
@@ -837,6 +872,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 105
 E
 #236
 чармис тридцать шестого уровня_танк~
@@ -860,6 +896,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 108
 Skill: 137 100
 E
 #237
@@ -884,6 +921,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 111
 E
 #238
 чармис тридцать восьмого уровня_танк~
@@ -907,6 +945,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 114
 Skill: 137 106
 E
 #239
@@ -931,6 +970,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 117
 E
 #240
 чармис сорокового уровня_танк~
@@ -954,6 +994,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 120
 Skill: 137 112
 E
 #241
@@ -978,6 +1019,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 123
 E
 #242
 чармис сорок второго  уровня_танк~
@@ -1001,6 +1043,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 126
 Skill: 137 118
 E
 #243
@@ -1025,6 +1068,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 129
 E
 #244
 чармис сорок четвертого  уровня_танк~
@@ -1048,6 +1092,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 132
 Skill: 137 124
 E
 #245
@@ -1072,6 +1117,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 135
 E
 #246
 чармис сорок шестого уровня_танк~
@@ -1095,6 +1141,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 138
 Skill: 137 130
 E
 #247
@@ -1119,6 +1166,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 141
 E
 #248
 чармис сорок восьмого уровня_танк~
@@ -1142,6 +1190,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 144
 Skill: 137 136
 E
 #249
@@ -1166,6 +1215,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 147
 E
 #250
 чармис пятидесятого уровня_танк~
@@ -1189,6 +1239,7 @@ Class: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 150
 Skill: 137 142
 E
 $

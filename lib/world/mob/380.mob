@@ -29,6 +29,7 @@ Weight: 200
 Special_Bitvector: 0 
 Skill: 2 60
 Skill: 132 50
+Skill: 136 45
 E
 L 1491 14 0 0
 #38001
@@ -59,6 +60,7 @@ Class: 103
 Height: 198
 Weight: 29
 Special_Bitvector: n0y0 
+Skill: 136 30
 E
 #38002
 кабаниха~
@@ -88,6 +90,7 @@ Class: 103
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 42
 E
 #38003
 кабанчик~
@@ -118,6 +121,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: y0 
+Skill: 136 30
 E
 #38004
 волк серый~
@@ -148,6 +152,7 @@ Height: 198
 Weight: 140
 Special_Bitvector: p0 
 Skill: 132 40
+Skill: 136 36
 E
 #38005
 волчица~
@@ -178,6 +183,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 36
 E
 #38006
 волченок-малыш~
@@ -203,6 +209,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #38007
 сорока белобока~
@@ -233,6 +240,7 @@ Class: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0 
+Skill: 136 33
 E
 #38008
 белка~
@@ -260,6 +268,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: p0y0 
+Skill: 136 27
 E
 #38009
 белка~
@@ -286,6 +295,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 30
 E
 #38010
 лисенок~
@@ -311,6 +321,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: p0 
+Skill: 136 24
 E
 #38011
 ворона~
@@ -338,6 +349,7 @@ Class: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0y0 
+Skill: 136 45
 E
 #38012
 девка одноглазка~
@@ -368,6 +380,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 39
 Spell: 4
 Spell: 4
 Spell: 4
@@ -410,6 +423,7 @@ Class: 102
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
+Skill: 136 42
 Spell: 8
 Spell: 8
 Spell: 8
@@ -462,6 +476,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 Spell: 37
 Spell: 37
 Spell: 37
@@ -506,6 +521,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 48
 Skill: 160 100
 Spell: 15
 Spell: 15
@@ -519,6 +535,7 @@ Spell: 15
 Spell: 28
 Spell: 54
 E
+T 38008
 #38016
 хозяйка~
 хозяйка~
@@ -540,6 +557,7 @@ Class: 102
 Height: 198
 Weight: 180
 Special_Bitvector: b1c1 
+Skill: 136 15
 E
 #38017
 скиталец~
@@ -578,6 +596,7 @@ Class: 102
 Height: 198
 Weight: 140
 Special_Bitvector: b1c1 
+Skill: 136 42
 Skill: 150 50
 E
 #38018
@@ -618,6 +637,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: p0b1c1 
+Skill: 136 60
 Skill: 160 100
 Spell: 54
 Spell: 64
@@ -652,6 +672,7 @@ Height: 198
 Weight: 180
 Special_Bitvector: 0 
 Skill: 132 50
+Skill: 136 60
 Skill: 150 100
 E
 T 38002
@@ -681,6 +702,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: p0 
+Skill: 136 24
 E
 #38021
 осел~
@@ -708,6 +730,7 @@ Class: 103
 Height: 198
 Weight: 140
 Special_Bitvector: 0 
+Skill: 136 30
 E
 L 1429 20 0 0
 #38022
@@ -739,6 +762,7 @@ Height: 198
 Weight: 180
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 60
 Skill: 150 100
 E
 T 38007
@@ -767,6 +791,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: p0 
+Skill: 136 36
 E
 #38024
 лиса Патрикеевна~
@@ -797,6 +822,7 @@ Class: 103
 Height: 198
 Weight: 40
 Special_Bitvector: p0a1 
+Skill: 136 39
 Skill: 139 50
 E
 $

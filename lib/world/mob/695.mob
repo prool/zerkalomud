@@ -26,6 +26,7 @@ Class: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 15
 E
 T 69500
 T 69501
@@ -345,6 +346,16 @@ Class: 104
 Height: 200
 Weight: 200
 Special_Bitvector: b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 100
 Skill: 132 80
 Skill: 136 155
@@ -371,7 +382,7 @@ I кожа,25:5
 творца магии~
 творцом магии~
 творце магии~
-Творец магии стоит здесь, размышля о новом заклинании.
+Творец магии стоит здесь, размышляя о новом заклинании.
 ~
    Этот человек в темно-черных одеждах создает новые заклинания и 
 совершенствует уже существующие.
@@ -422,8 +433,9 @@ Spell: 82
 Spell: 88
 Spell: 113
 Spell: 135
-Helper: 69508
 Helper: 69506
+Helper: 69508
+Skill: 136 87
 E
 I глаза,25:5
 #69508
@@ -544,12 +556,13 @@ Spell: 32
 Spell: 32
 Spell: 32
 Spell: 54
-Helper: 69502
-Helper: 69521
-Helper: 69522
-Helper: 69523
-Helper: 69505
 Helper: 69518
+Helper: 69505
+Helper: 69523
+Helper: 69522
+Helper: 69521
+Helper: 69502
+Skill: 136 90
 E
 T 69510
 T 69511
@@ -633,12 +646,13 @@ Spell: 76
 Spell: 93
 Spell: 128
 Spell: 132
-Helper: 69525
-Helper: 69516
-Helper: 69519
-Helper: 69504
-Helper: 69512
 Helper: 69513
+Helper: 69512
+Helper: 69504
+Helper: 69519
+Helper: 69516
+Helper: 69525
+Skill: 136 93
 E
 T 69505
 #69511
@@ -671,6 +685,16 @@ Class: 104
 Height: 200
 Weight: 141
 Special_Bitvector: b1c1d1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 110
 Skill: 12 150
 Skill: 22 140
@@ -701,7 +725,7 @@ E
    Этот воин - порождение черного шара магии. Его силы просто огромны.
 ~
 b0d0f0g0m0n0o0p0u0 c0f0h0k0n0r0z0A0C0m1r1w1y1 -600 E
-33 0 -10 20d25+3500 15d15+25
+31 0 -10 20d25+3500 12d10+25
 0d0+500 900000
 8 8 1
 BareHandAttack: 2
@@ -714,7 +738,7 @@ Cha: 35
 Size: 100
 LikeWork: 95
 MaxFactor: 2
-ExtraAttack: 2
+ExtraAttack: 4
 Class: 100
 Height: 200
 Weight: 200
@@ -1620,12 +1644,13 @@ Spell: 32
 Spell: 32
 Spell: 32
 Spell: 54
-Helper: 69503
-Helper: 69520
-Helper: 69524
-Helper: 69517
-Helper: 69526
 Helper: 69527
+Helper: 69526
+Helper: 69517
+Helper: 69524
+Helper: 69520
+Helper: 69503
+Skill: 136 90
 E
 #69529
 творец магии~
@@ -1635,7 +1660,7 @@ E
 творца магии~
 творцом магии~
 творце магии~
-Творец магии стоит здесь, размышля о новом заклинании.
+Творец магии стоит здесь, размышляя о новом заклинании.
 ~
    Этот человек в темно-черных одеждах создает новые заклинания и 
 совершенствует уже существующие.
@@ -1686,8 +1711,9 @@ Spell: 82
 Spell: 88
 Spell: 113
 Spell: 135
-Helper: 69530
 Helper: 69531
+Helper: 69530
+Skill: 136 87
 E
 #69530
 ученик творца магии~
@@ -1775,6 +1801,16 @@ Class: 104
 Height: 200
 Weight: 200
 Special_Bitvector: b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 100
 Skill: 132 80
 Skill: 136 155

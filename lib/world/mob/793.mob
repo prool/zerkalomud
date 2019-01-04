@@ -1,0 +1,1049 @@
+#79300
+ дозорный страж~
+дозорный страж~
+дозорного стража~
+дозорному стражу~
+дозорного стража~
+дозорным стражем~
+дозорном страже~
+Душегуб осматривает окрестности вокруг.
+~
+Мастер гильдии душегубов, в совершенстве владеющий луками.
+~
+c0d0o0x0A0u2 k0r0A0m1 -600 E
+35 0 -4 10d10+1900 13d13+9
+0d0+40 150000
+8 8 1
+Armour: 30
+BareHandAttack: 9
+Str: 50
+Dex: 45
+Int: 30
+Wis: 30
+Con: 45
+Cha: 30
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: y0b1c1 
+Feat: 38
+Feat: 77
+Feat: 78
+Feat: 79
+Feat: 80
+Skill: 21 120
+Skill: 134 100
+Skill: 154 120
+Skill: 157 100
+E
+#79301
+ смотритель  гильдии~
+смотритель гильдии~
+смотрителя гильдии~
+смотрителю гильдии~
+смотрителя гильдии~
+смотрителем гильдии~
+смотрителе гильдии~
+Мастер наблюдает за учениками.
+~
+Этот человек прошел обучение в аналогичном лагере, и теперь он мастер своего 
+дела. Сейчас он тренирует других.
+~
+b0d0l0m0n0o0x0g2 c0d0e0k0r0A0C0t1 -600 E
+28 5 9 10d10+3000 13d14+10
+0d0+80 300000
+8 8 1
+Saves: -20 0 0 0
+Armour: 40
+Success: 5
+Initiative: 5
+Absorbe: 5
+Str: 35
+Dex: 40
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3 
+Feat: 33
+Feat: 75
+Feat: 76
+Skill: 22 130
+Skill: 132 130
+Skill: 136 130
+Skill: 144 130
+Skill: 145 130
+Skill: 147 130
+Skill: 148 130
+Skill: 150 130
+Skill: 167 130
+Helper: 79317
+Helper: 79318
+E
+T 79309
+#79302
+ старейшина гильдии~
+старейшина гильдии~
+старейшины гильдии~
+старейшине гильдии~
+старейшину гильдии~
+старейшиной гильдии~
+старейшине гильдии~
+Дедушка думает о чем-то возвышенном.
+~
+Лысый старик в черном кимано мастера гильдии прививает молодым ученикам 
+кодекс чести профессионального киллера.
+~
+b0d0m0n0o0x0 c0d0e0h0k0r0A0C0m1r1 -600 E
+30 8 11 10d10+3300 14d13+10
+0d0+80 330000
+5 5 1
+HPreg: 50
+Armour: 20
+CastSuccess: 50
+BareHandAttack: 11
+Str: 30
+Dex: 35
+Int: 38
+Wis: 38
+Con: 30
+Cha: 38
+Size: 100
+LikeWork: 90
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3 
+Feat: 3
+Skill: 22 100
+Skill: 130 100
+Skill: 136 100
+Skill: 144 100
+Skill: 145 100
+Skill: 147 100
+Skill: 148 100
+Skill: 157 100
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 94
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Helper: 79304
+Helper: 79306
+E
+T 79311
+#79303
+ оружейник~
+оружейник~
+оружейника~
+оружейнику~
+оружейника~
+оружейником~
+оружейнике~
+Мастер следит здесь за сохранностью экипировки.
+~
+Этот человек прошел обучение в аналогичном лагере, и теперь он мастер своего 
+дела. Кроме того, он отлично владеет всеми видами оружия и способен 
+выковать любое.
+
+~
+b0d0l0m0n0o0x0g2 c0d0e0h0k0r0A0C0t1 -600 E
+28 4 10 10d10+3000 12d11+30
+0d0+60 300000
+8 8 1
+HPreg: 30
+Armour: 55
+Absorbe: 30
+BareHandAttack: 6
+Str: 36
+Dex: 39
+Int: 29
+Wis: 29
+Con: 33
+Cha: 30
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 3
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 5 130
+Skill: 136 130
+Skill: 142 130
+Skill: 144 130
+Skill: 145 130
+Skill: 146 130
+Skill: 147 130
+Skill: 148 130
+Skill: 150 130
+Skill: 154 130
+Skill: 155 130
+E
+#79304
+ мастер гильдии~
+мастер гильдии~
+мастера гильдии~
+мастеру гильдии~
+мастера гильдии~
+мастером гильдии~
+мастере гильдии~
+Мастер гильдии стоит здесь.
+~
+Основатель лагеря облачен в смолянисто-черное кимано. У Вас не вызывает 
+сомнения, что этот человек многое умеет, и сразиться с ним в поединке 
+отважится не каждый.
+~
+b0d0l0n0o0x0g2 c0d0e0k0r0A0C0t1 -600 E
+30 0 7 10d10+3500 14d14+25
+0d0+60 400000
+8 8 1
+Saves: -60 0 0 0
+HPreg: 50
+Armour: 50
+Success: 7
+Initiative: 7
+Absorbe: 10
+AResist: 10
+BareHandAttack: 11
+Str: 40
+Dex: 45
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 100
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: g0b1c1C3 
+Feat: 1
+Feat: 3
+Feat: 4
+Feat: 5
+Feat: 6
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 17
+Feat: 20
+Feat: 21
+Feat: 22
+Feat: 23
+Feat: 27
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Feat: 41
+Feat: 42
+Feat: 43
+Feat: 53
+Feat: 55
+Feat: 56
+Feat: 58
+Feat: 66
+Feat: 75
+Feat: 78
+Feat: 79
+Skill: 22 150
+Skill: 131 150
+Skill: 136 150
+Skill: 144 150
+Skill: 145 150
+Skill: 147 150
+Skill: 148 150
+Skill: 160 150
+Skill: 167 150
+Helper: 79303
+Helper: 79317
+Helper: 79318
+Helper: 79305
+E
+T 79326
+#79305
+ смотритель  гильдии~
+смотритель гильдии~
+смотрителя гильдии~
+смотрителю гильдии~
+смотрителя гильдии~
+смотрителем гильдии~
+смотрителе гильдии~
+Мастер наблюдает за учениками.
+~
+Этот человек прошел обучение в аналогичном лагере, и теперь он мастер своего 
+дела. Сейчас он тренирует других.
+~
+c0d0l0m0n0o0x0g2 c0d0e0k0r0A0C0t1 -600 E
+28 5 9 10d10+3000 13d14+10
+0d0+60 300000
+8 8 1
+Str: 35
+Dex: 40
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 80
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3 
+Skill: 22 130
+Skill: 132 130
+Skill: 136 130
+Skill: 144 130
+Skill: 145 130
+Skill: 147 130
+Skill: 148 130
+Skill: 150 130
+Skill: 167 130
+Spell: 28
+E
+#79306
+ адепт гильдии~
+адепт гильдии~
+адепта гильдии~
+адепту гильдии~
+адепта гильдии~
+адептом гильдии~
+адепте гильдии~
+Чародей тренируется здесь.
+~
+Молодой парень, владеющий тайной боевой магии.
+~
+b0d0k0m0n0o0x0 c0d0e0h0k0r0A0C0m1r1 -600 E
+29 10 -12 10d10+2800 11d11+15
+0d0+50 250000
+8 8 1
+Saves: -30 0 0 0
+CastSuccess: 50
+Initiative: 10
+Str: 20
+Dex: 35
+Int: 38
+Wis: 38
+Con: 20
+Cha: 28
+Size: 100
+LikeWork: 90
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3 
+Feat: 69
+Skill: 22 90
+Skill: 136 90
+Skill: 141 90
+Skill: 144 90
+Skill: 145 90
+Skill: 147 90
+Skill: 157 90
+Skill: 167 90
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+E
+T 79321
+#79307
+ телохранитель~
+телохранитель~
+телохранителя~
+телохранителю~
+телохранителя~
+телохранителем~
+телохранителе~
+Мастер гильдии следит за спокойствием.
+~
+Один из мастеров гильдии охраняет спокойствие и порядок в этом лагере.
+~
+b0c0d0l0m0n0o0x0A0g2 c0d0e0k0r0A0C0t1 -600 E
+30 0 8 10d10+3400 14d14+15
+0d0+40 380000
+8 8 1
+HPreg: 50
+Armour: 35
+Success: 8
+Initiative: 8
+Absorbe: 8
+BareHandAttack: 11
+Str: 40
+Dex: 45
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 90
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3 
+Feat: 1
+Feat: 3
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 22 130
+Skill: 136 150
+Skill: 144 150
+Skill: 145 150
+Skill: 147 150
+Skill: 148 150
+Skill: 160 150
+Skill: 167 150
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 62
+E
+#79308
+ страж пещеры~
+страж пещеры~
+стража пещеры~
+стражу пещеры~
+стража пещеры~
+стражем пещеры~
+страже пещеры~
+Душегуб осматривает окрестности вокруг.
+~
+Мастер гильдии душегубов, в совершенстве владеющий луками.
+~
+b0d0m0o0x0u2 c0d0e0f0h0k0r0A0m1r1t1 -600 E
+27 5 9 10d10+2600 13d13+30
+0d0+80 240000
+8 8 1
+Saves: -50 0 0 0
+Armour: 55
+Success: 1
+Initiative: 1
+Absorbe: 20
+BareHandAttack: 11
+Str: 35
+Dex: 45
+Int: 30
+Wis: 30
+Con: 45
+Cha: 30
+Size: 100
+LikeWork: 85
+ExtraAttack: 3
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: a0y0b1c1 
+Feat: 1
+Feat: 3
+Feat: 4
+Feat: 5
+Feat: 29
+Feat: 33
+Feat: 75
+Skill: 134 120
+Skill: 136 120
+Skill: 147 120
+Skill: 157 120
+Skill: 167 120
+Spell: 48
+Spell: 68
+Spell: 68
+E
+#79309
+ зупатар~
+зупатар~
+зупатара~
+зупатару~
+зупатара~
+зупатаром~
+зупатаре~
+Шипастый монстр скалится здесь.
+~
+Здоровенная тварь, сплошь покрытая шипами и колючками. Огромные лапы 
+заканчиваются метровыми когтями. С пасти постоянным потоком валит слюна.
+~
+b0c0d0f0n0o0A0u2 c0e0f0r0C0p1w1 -600 E
+30 10 -5 10d10+4444 15d15+30
+0d0+0 410000
+8 8 1
+Saves: -45 -30 -30 -5
+Resistances: 30 30 30 30 55 0 0
+HPreg: 55
+Armour: 55
+Success: 5
+Initiative: 5
+Absorbe: 30
+BareHandAttack: 8
+Str: 40
+Dex: 40
+Int: 10
+Wis: 10
+Con: 40
+Cha: 3
+Size: 100
+LikeWork: 75
+ExtraAttack: 4
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 132 130
+Skill: 136 130
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 153
+E
+T 79317
+#79310
+ скалозуб~
+скалозуб~
+скалозуба~
+скалозубу~
+скалозуба~
+скалозубом~
+скалозубе~
+Живой осколок скалы навис над Вами.
+~
+Часть древней скалы ожила, и вряд ли кто-нибудь избежит гнева этого 
+полубога, если встретится с ним.
+~
+b0c0d0f0n0o0p0q0r0u0x0A0i2 d0k0m0n0r0C0l1t1x1y1z1 -600 E
+31 10 0 10d10+9999 17d19+20
+0d0+0 1000000
+8 8 1
+Saves: -75 0 0 0
+Resistances: 60 60 60 60 60 60 60
+Armour: 60
+CastSuccess: 60
+Absorbe: 60
+BareHandAttack: 6
+Str: 50
+Dex: 20
+Int: 25
+Wis: 40
+Con: 50
+Cha: 20
+Size: 100
+LikeWork: 90
+ExtraAttack: 2
+Class: 100
+Height: 200
+Weight: 150
+Special_Bitvector: 0 
+Feat: 3
+Skill: 4 140
+Skill: 136 140
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 56
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Helper: 79311
+E
+T 79328
+#79311
+ вертопрах~
+вертопрах~
+вертопраха~
+вертопраху~
+вертопраха~
+вертопрахом~
+вертопрахе~
+Древнее животное копошится в своем причудливом гнезде.
+~
+Длинный крылатый ящер появился с самим зарождением этих пещер.
+~
+b0d0f0n0o0 c0e0f0k0m0n0r0t0A0t1w1 -600 E
+31 4 9 10d10+6666 15d15+30
+0d0+0 800000
+8 8 1
+HPreg: 70
+Armour: 35
+CastSuccess: 40
+Initiative: 10
+Absorbe: 10
+AResist: 10
+BareHandAttack: 4
+Str: 43
+Dex: 50
+Int: 40
+Wis: 40
+Con: 49
+Cha: 20
+Size: 100
+LikeWork: 80
+ExtraAttack: 3
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 150
+Skill: 160 150
+Skill: 167 150
+Spell: 111
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Helper: 79312
+Helper: 79313
+Helper: 79314
+E
+T 79318
+#79312
+ коготун~
+коготун~
+коготуна~
+коготуну~
+коготуна~
+коготуном~
+коготуне~
+Ужасный зверь рыщет здесь.
+~
+Страшная зверюга со здоровенными когтями недружелюбно облизывается при виде 
+всего живого.
+~
+d0f0n0o0y0u2 c0f0m0n0r0C0t1 -600 E
+30 10 -5 10d10+4444 14d15+25
+0d0+0 410000
+8 8 1
+BareHandAttack: 8
+Str: 38
+Dex: 36
+Int: 10
+Wis: 10
+Con: 37
+Cha: 10
+Size: 100
+LikeWork: 75
+ExtraAttack: 3
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Skill: 132 130
+Skill: 134 130
+Skill: 136 130
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+E
+#79313
+ кипцюр~
+кипцюр~
+кипцюра~
+кипцюру~
+кипцюра~
+кипцюром~
+кипцюре~
+Неведомое создание обнюхивает стены.
+~
+Странная безглазая тварюга шарится вдоль стен, ориентируюсь с помощью нюха 
+и здоровенных когтей на всех конечностях.
+~
+d0f0n0o0r0y0u2 c0e0f0h0m0n0r0s0C0t1 -600 E
+30 10 -5 10d10+4300 13d13+23
+0d0+0 400000
+8 8 1
+Absorbe: 60
+BareHandAttack: 10
+Str: 36
+Dex: 36
+Int: 18
+Wis: 18
+Con: 37
+Cha: 10
+Size: 100
+LikeWork: 75
+ExtraAttack: 4
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Skill: 4 130
+Skill: 134 130
+Skill: 136 130
+Spell: 28
+Spell: 94
+E
+#79314
+ черный змееныш~
+черный змееныш~
+черного змееныша~
+черному змеенышу~
+черного змееныша~
+черным змеенышем~
+черном змееныше~
+Змей извивается здесь.
+~
+Длинная черная ящерица извивается у Ваших ног.
+~
+d0f0n0o0y0d2h2u2 c0d0e0m0n0r0s0C0x1 -600 E
+30 10 -5 10d10+4000 13d13+5
+0d0+0 400000
+8 8 1
+BareHandAttack: 10
+Str: 37
+Dex: 38
+Int: 20
+Wis: 20
+Con: 36
+Size: 100
+LikeWork: 75
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Feat: 3
+Skill: 136 130
+Skill: 160 130
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 137
+Spell: 156
+E
+#79315
+ сбежавший ученик~
+сбежавший ученик~
+сбежавшего ученика~
+сбежавшему ученику~
+сбежавшего ученика~
+сбежавшим учеником~
+сбежавшем ученике~
+Ученик гильдии ползает по земле.
+~
+Бедного парня так замучили, что он решил сбежать. Но ему кто-то сильно 
+покалечил ноги, и он еле передвигается. Как бы он делов не натворил...
+~
+b0d0g0n0o0p0q0r0t0x0i2 c0d0e0k0m0n0r0C0c1t1 -600 E
+26 8 -4 10d10+1000 10d10+7
+0d0+0 100000
+8 8 1
+Str: 30
+Dex: 30
+Int: 20
+Wis: 20
+Con: 30
+Cha: 20
+Size: 100
+LikeWork: 50
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b0 
+E
+T 79313
+#79316
+ телохранитель~
+телохранитель~
+телохранителя~
+телохранителю~
+телохранителя~
+телохранителем~
+телохранителе~
+Мастер гильдии следит за спокойствием.
+~
+Один из мастеров гильдии охраняет спокойствие и порядок в этом лагере.
+~
+b0d0l0m0n0o0x0g2 c0d0e0k0r0A0C0t1 -600 E
+30 0 8 10d10+3400 14d14+15
+0d0+0 380000
+8 8 1
+HPreg: 50
+Armour: 35
+BareHandAttack: 11
+Str: 40
+Dex: 45
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 90
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: a0b1c1C3 
+Feat: 1
+Feat: 3
+Feat: 27
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 22 130
+Skill: 136 150
+Skill: 137 150
+Skill: 144 150
+Skill: 145 150
+Skill: 147 150
+Skill: 148 150
+Skill: 160 150
+Skill: 167 150
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 62
+E
+#79317
+ старший ученик~
+старший ученик~
+старшего ученика~
+старшему ученику~
+старшего ученика~
+старшим учеником~
+старшем ученике~
+Ученик оттачивает здесь свои умения.
+~
+Взрослый парень в поте лица тренируется здесь. От его стараний будет 
+зависеть вся его жизнь.
+~
+d0l0m0n0o0x0g2 c0d0e0k0r0C0 -600 E
+27 6 10 10d10+2600 13d13+9
+0d0+0 230000
+8 8 1
+HPreg: 50
+Armour: 40
+Success: 5
+Initiative: 5
+BareHandAttack: 11
+Str: 35
+Dex: 40
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 80
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3 
+Feat: 33
+Feat: 68
+Feat: 75
+Skill: 22 110
+Skill: 136 110
+Skill: 145 110
+Skill: 147 110
+Skill: 160 110
+Skill: 167 110
+E
+T 79323
+#79318
+ младший ученик~
+младший ученик~
+младшего ученика~
+младшему ученику~
+младшего ученика~
+младшим учеником~
+младшем ученике~
+Ученик оттачивает здесь свои умения.
+~
+Взрослый парень в поте лица тренируется здесь. От его стараний будет 
+зависеть вся его жизнь.
+~
+d0n0o0x0g2 c0d0e0k0r0C0 -600 E
+27 8 11 10d10+2300 13d13+0
+0d0+0 210000
+8 8 1
+HPreg: 30
+Armour: 30
+BareHandAttack: 10
+Str: 35
+Dex: 40
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3 
+Feat: 68
+Feat: 75
+Skill: 22 95
+Skill: 136 95
+Skill: 145 95
+Skill: 147 95
+Skill: 160 95
+Skill: 167 95
+E
+T 79325
+$

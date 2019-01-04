@@ -1,0 +1,713 @@
+* BRusMUD mob file v1.0
+#26600
+ хозяин лесных троп дух~
+хозяин лесных троп~
+хозяина лесных троп~
+хозяину лесных троп~
+хозяина лесных троп~
+хозяином лесных троп~
+хозяине лесных троп~
+Дух - Хозяин лесных троп едва мерещется между деревьями.
+~
+Ближайший родственник лешего. Только в отличие от последнего - 
+существо бесплотное.
+~
+c0j0m0A0 c0d0e0f0k0A0C0t1 -600 E
+33 0 -20 10d10+2500 13d10+4
+3d3+10 250000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 5 45 45 66 45 40 45
+HPreg: 45
+Armour: 60
+PlusMem: 0
+CastSuccess: 100
+Success: 0
+Initiative: 45
+Absorbe: 99
+AResist: 10
+MResist: 10
+BareHandAttack: 8
+Str: 38
+Int: 38
+Wis: 38
+Dex: 38
+Con: 38
+Cha: 38
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 101
+Size: 100
+Height: 175
+Weight: 150
+Special_Bitvector: b1c1
+Spell: 56
+Spell: 71
+Skill: 132 140
+Skill: 136 149
+Skill: 4 159
+E
+T 26610
+I чешуя,10:10
+#26601
+ черный медведь~
+черный медведь~
+черного медведя~
+черному медведю~
+черного медведя~
+черным медведем~
+черном медведе~
+Черный медведь рычит, готовясь к атаке.
+~
+   Черная животина, с блестящей черной черстью. Глаза так и горят, изо рта 
+течет слюна.
+
+  
+~
+f0m0q1 f0z0A0C0 -600 E
+30 0 -25 15d10+2000 20d5+8
+1d1+10 220000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 100 100 100 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 100
+Success: 0
+Initiative: 0
+Absorbe: 100
+AResist: 5
+MResist: 5
+BareHandAttack: 1
+Str: 40
+Int: 40
+Wis: 10
+Dex: 40
+Con: 40
+Cha: 40
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 123
+Feat: 1
+Feat: 3
+Spell: 156
+Spell: 156
+Spell: 156
+Skill: 132 200
+Skill: 5 200
+E
+I шерсть,10:10
+#26602
+ охотник~
+охотник~
+охотника~
+охотнику~
+охотника~
+охотником~
+охотнике~
+Охотник варит здесь грибочки
+~
+   Старый, но еще крепкий мужчина с луком за спиной и кинжалом у пояса. В 
+руках его чувствуется сила
+ 
+~
+b0B0 c0d0e0f0g0h0k0 0 E
+34 12 -2 10d10+2 1d1+1
+11d11+1111 10000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 100
+Size: 100
+Height: 175
+Weight: 85
+E
+T 26600
+T 26601
+#26603
+ хозяйка гатей~
+хозяйка гатей~
+хозяйки гатей~
+хозяйке гатей~
+хозяйку гатей~
+хозяйкой гатей~
+хозяйке гатей~
+Хозяйка гатей перепрыгивает с кочки на кочку.
+~
+Бесплотный дух хозяйки болотных троп и топких мест беззвучно 
+парит над трясиной.
+~
+k0l0m0n0A0 c0d0e0f0k0 -600 E
+33 0 -24 10d10+2200 20d20+4
+2d8+12 250000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 40 40 40 40 40 40 40
+HPreg: 50
+Armour: 40
+PlusMem: 40
+CastSuccess: 70
+Success: 40
+Initiative: 40
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 40
+Int: 40
+Wis: 40
+Dex: 40
+Con: 40
+Cha: 40
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 101
+Size: 100
+Height: 175
+Weight: 109
+Special_Bitvector: b1c1
+Spell: 128
+Spell: 128
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 157 200
+Skill: 160 180
+E
+T 26611
+#26604
+ зловоние трясины~
+зловоние трясины~
+зловония трясины~
+зловонию трясины~
+зловоние трясины~
+зловонием трясины~
+зловонии трясины~
+Зловоние трясины заполнило собой все вокруг.
+~
+Ужасный смрад стоит в этом месте.
+
+   
+~
+f0z0b2h2 c0d0e0f0g0k0 -600 E
+33 0 -25 40d40+100 8d8+15
+0d0+0 150000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 45 45 45 45 45 45 45
+HPreg: 45
+Armour: 45
+PlusMem: 45
+CastSuccess: 45
+Success: 45
+Initiative: 45
+Absorbe: 45
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 45
+Int: 45
+Wis: 45
+Dex: 45
+Con: 45
+Cha: 45
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 100
+Size: 100
+Height: 175
+Weight: 122
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Skill: 132 180
+E
+#26605
+ каменный истукан~
+каменный истукан~
+каменного истукана~
+каменному истукану~
+каменного истукана~
+каменным истуканом~
+каменном истукане~
+Истукан с телом из камня стоит здесь
+~
+   Существо ростом с два человека помахивает копьем. Тело и руки его 
+сделаны из камня, что нажедно защищает его от повреждений.
+ 
+~
+k0m0n0x0 b0c0d0e0f0k0z0 -600 E
+33 0 -27 10d10+3000 14d10+7
+10d2+10 320000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 47 47 47 47 47 47 47
+HPreg: 47
+Armour: 47
+PlusMem: 47
+CastSuccess: 47
+Success: 47
+Initiative: 47
+Absorbe: 47
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 47
+Int: 47
+Wis: 47
+Dex: 47
+Con: 47
+Cha: 47
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 100
+Size: 100
+Height: 175
+Weight: 124
+Special_Bitvector: b1
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 98
+Skill: 132 180
+Skill: 134 200
+Skill: 148 200
+E
+T 26609
+I кожа,10:10
+#26606
+ горный орел~
+горный орел~
+горного орла~
+горному орлу~
+горного орла~
+горным орлом~
+горном орле~
+Горный орел летает здесь.
+~
+   Величественная птица со стальными когтями размером с палец человека.
+~
+q0x0b1 e0f0g0k0x0m1 -600 E
+30 0 -30 34d34+1000 14d14+2
+1d1+5 120000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 45 45 45 45 45 45 45
+HPreg: 45
+Armour: 45
+PlusMem: 45
+CastSuccess: 45
+Success: 45
+Initiative: 45
+Absorbe: 45
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 43
+Int: 43
+Wis: 43
+Dex: 43
+Con: 43
+Cha: 43
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Feat: 1
+Feat: 3
+Special_Bitvector: l0u0
+Spell: 131
+Spell: 131
+Spell: 131
+Skill: 132 200
+E
+I крылья,10:10
+#26607
+ крылан летучая мышь~
+крылан~
+крылана~
+крылану~
+крылана~
+крыланом~
+крылане~
+Летучая мышь летает здесь.
+~
+   Огромная летучая мышь с красными глазами и острыми зубами-ножами.
+~
+m0b1 c0d0f0k0 -600 E
+28 0 -23 25d25+800 10d10+6
+1d1+10 120000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 37 37 37 37 37 37 37
+HPreg: 37
+Armour: 37
+PlusMem: 37
+CastSuccess: 200
+Success: 35
+Initiative: 35
+Absorbe: 35
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 34
+Int: 34
+Wis: 34
+Dex: 34
+Con: 34
+Cha: 34
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: u0
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Skill: 132 200
+E
+T 26606
+T 26612
+I зубы,10:10
+#26608
+ толстый паук~
+толстый паук~
+толстого паука~
+толстому пауку~
+толстого паука~
+толстым пауком~
+толстом пауке~
+Толстый паук ползет здесь
+~
+   Толстенный паучина плетет паутину. Шерстяной покров надежно защищает его
+от атак, а крепкие челюсти могут перемолоть камень
+
+~
+j0m0 s0t0C0j1r1e2 -600 E
+37 0 -30 10d10+1000 12d12+8
+1d1+10 120000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 45 45 45 45 54 5 45
+HPreg: 45
+Armour: 45
+PlusMem: 45
+CastSuccess: 45
+Success: 45
+Initiative: 45
+Absorbe: 45
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 50
+Int: 50
+Wis: 50
+Dex: 50
+Con: 50
+Cha: 50
+LikeWork: 75
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: g0w0
+Spell: 82
+Spell: 33
+Spell: 33
+Spell: 33
+Skill: 2 200
+E
+I глаза,10:10
+#26609
+ господин горных дорог~
+господин горных дорог~
+господина горных дорог~
+господину горных дорог~
+господина горных дорог~
+господином горных дорог~
+господине горных дорог~
+Дух - Господин горных дорог скользит по склону.
+~
+Говорят, что это бой-френд Хозяйки Медной горы.
+~
+c0m0n0A0a2h2 b0d0e0f0k0s0t0z0A0C0m1r1 -600 E
+33 0 -30 50d50+3500 15d5+4
+2d30+10 390000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 45 45 45 45 45 45 45
+HPreg: 45
+Armour: 45
+PlusMem: 45
+CastSuccess: 45
+Success: 45
+Initiative: 45
+Absorbe: 45
+AResist: 5
+MResist: 5
+BareHandAttack: 0
+Str: 50
+Int: 50
+Wis: 50
+Dex: 50
+Con: 50
+Cha: 50
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 100
+Size: 100
+Height: 175
+Weight: 150
+Special_Bitvector: i3
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 160 200
+E
+T 26607
+T 26608
+$
+$

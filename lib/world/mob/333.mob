@@ -28,6 +28,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: o0 
 Skill: 5 100
+Skill: 136 75
 Skill: 137 50
 E
 #33301
@@ -62,6 +63,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 75
 Skill: 151 100
 Spell: 75
 Spell: 75
@@ -80,7 +82,7 @@ L 1471 19 0 0
 спрута охранника~
 спрутом охранником~
 спруте охраннике~
-Спрут-охранник агрессивно крутит кольца щупалец
+Спрут-охранник агрессивно крутит кольца щупалец.
 ~
 Мощное животное с длинными прочными щупальцами. Тупой взгляд, приоткрытый
 оскаленный рот - все говорит о силе животного.
@@ -104,6 +106,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 78
 Skill: 151 100
 Spell: 66
 E
@@ -142,6 +145,7 @@ Skill: 4 50
 Skill: 131 50
 Skill: 132 50
 Skill: 133 100
+Skill: 136 75
 Skill: 151 100
 Spell: 15
 Spell: 15
@@ -178,6 +182,7 @@ Height: 198
 Weight: 80
 Special_Bitvector: o0 
 Skill: 4 80
+Skill: 136 72
 E
 #33305
 рыба меч~
@@ -209,6 +214,7 @@ Height: 198
 Weight: 80
 Special_Bitvector: o0 
 Skill: 134 100
+Skill: 136 78
 E
 #33306
 мурена огромная~
@@ -244,6 +250,7 @@ Skill: 4 100
 Skill: 131 100
 Skill: 132 100
 Skill: 133 100
+Skill: 136 90
 Spell: 54
 Spell: 77
 E
@@ -278,6 +285,7 @@ Class: 103
 Height: 198
 Weight: 150
 Special_Bitvector: o0y0 
+Skill: 136 66
 E
 T 33315
 #33308
@@ -310,6 +318,7 @@ Class: 103
 Height: 198
 Weight: 150
 Special_Bitvector: o0y0 
+Skill: 136 69
 E
 #33309
 русалка золотая~
@@ -341,6 +350,7 @@ Class: 103
 Height: 198
 Weight: 120
 Special_Bitvector: o0y0b1 
+Skill: 136 75
 Skill: 154 100
 Skill: 155 100
 Spell: 8
@@ -379,6 +389,7 @@ Height: 198
 Weight: 80
 Special_Bitvector: j0m0y0a1 
 Skill: 133 100
+Skill: 136 66
 E
 #33311
 слизняк~
@@ -409,6 +420,7 @@ Class: 103
 Height: 198
 Weight: 80
 Special_Bitvector: g0m0 
+Skill: 136 66
 E
 #33312
 моллюск~
@@ -440,6 +452,7 @@ Height: 198
 Weight: 90
 Special_Bitvector: g0 
 Skill: 5 70
+Skill: 136 66
 E
 #33313
 моллюск~
@@ -471,6 +484,7 @@ Height: 198
 Weight: 90
 Special_Bitvector: g0 
 Skill: 5 90
+Skill: 136 75
 E
 #33314
 моллюск~
@@ -503,6 +517,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: g0 
 Skill: 5 60
+Skill: 136 78
 Skill: 151 100
 E
 #33315
@@ -535,6 +550,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
+Skill: 136 78
 Spell: 54
 Spell: 104
 Spell: 104
@@ -582,6 +598,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: a0b0d0b1c1 
 Skill: 22 110
+Skill: 136 105
 Spell: 43
 Spell: 43
 Spell: 43
@@ -633,6 +650,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: l0 
 Skill: 2 100
+Skill: 136 75
 Skill: 150 100
 Spell: 54
 Spell: 55
@@ -674,6 +692,7 @@ Height: 198
 Weight: 90
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 75
 Skill: 151 80
 Spell: 10
 Spell: 10
@@ -698,7 +717,7 @@ Spell: 10
 Spell: 54
 E
 #33319
-призрак~
+призрак летописца~
 призрак летописца~
 призрака летописца~
 призраку летописца~
@@ -726,6 +745,7 @@ Class: 101
 Height: 198
 Weight: 90
 Special_Bitvector: 0 
+Skill: 136 87
 Spell: 8
 Spell: 8
 Spell: 8
@@ -758,6 +778,7 @@ Spell: 55
 Helper: 33317
 E
 T 33341
+L 1737 4 0 0
 #33320
 молодая наложница~
 молодая наложница~
@@ -788,6 +809,7 @@ Class: 102
 Height: 198
 Weight: 90
 Special_Bitvector: l0y0 
+Skill: 136 66
 Spell: 10
 Spell: 10
 Spell: 10
@@ -843,6 +865,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 9
 E
 T 33303
 T 33306
@@ -873,6 +896,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 9
 E
 T 33304
 T 33307
@@ -903,6 +927,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 9
 E
 T 33305
 T 33308
@@ -937,6 +962,7 @@ Class: 103
 Height: 198
 Weight: 90
 Special_Bitvector: o0 
+Skill: 136 51
 E
 #33325
 молодая черепаха~
@@ -968,6 +994,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: o0y0 
+Skill: 136 48
 E
 T 33315
 #33326
@@ -997,6 +1024,7 @@ Class: 103
 Height: 198
 Weight: 1
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 33300
 #33327
@@ -1016,10 +1044,11 @@ T 33300
 будь он не ладен. Судя по всему, он очень рад
 Вашему появлению.
 ~
-b0d0e0g0l0m0n0o0t0u0 c0d0f0k0c1k1 0 E
+b0d0e0g0l0m0n0o0t0u0B0o1g2 c0d0f0k0c1k1 0 E
 13 18 0 4d4+400 4d4+4
 4d4+4 4
 8 8 1
+Resistances: 0 0 300 300 0 0 0
 BareHandAttack: 1
 Str: 20
 Dex: 20
@@ -1034,6 +1063,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 39
 E
 T 33324
 T 33323

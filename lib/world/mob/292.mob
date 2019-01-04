@@ -30,6 +30,7 @@ Class: 101
 Height: 198
 Weight: 8
 Special_Bitvector: 0 
+Skill: 136 27
 E
 #29201
 старичок лесовичок~
@@ -64,6 +65,7 @@ Height: 198
 Weight: 9
 Special_Bitvector: b1c1 
 Skill: 134 50
+Skill: 136 21
 E
 #29202
 старичок моховичок~
@@ -96,6 +98,7 @@ Class: 101
 Height: 198
 Weight: 8
 Special_Bitvector: y0b1c1 
+Skill: 136 27
 Spell: 109
 E
 #29203
@@ -128,6 +131,7 @@ Class: 101
 Height: 198
 Weight: 8
 Special_Bitvector: b1c1 
+Skill: 136 33
 Spell: 5
 Spell: 5
 E
@@ -162,6 +166,7 @@ Class: 101
 Height: 198
 Weight: 7
 Special_Bitvector: 0 
+Skill: 136 21
 Spell: 69
 E
 #29205
@@ -195,6 +200,7 @@ Class: 101
 Height: 198
 Weight: 8
 Special_Bitvector: 0 
+Skill: 136 18
 Spell: 52
 Spell: 52
 E
@@ -229,6 +235,7 @@ Class: 103
 Height: 198
 Weight: 14
 Special_Bitvector: 0 
+Skill: 136 33
 E
 #29207
 лесной шишига~
@@ -261,6 +268,7 @@ Height: 198
 Weight: 9
 Special_Bitvector: i0 
 Skill: 133 60
+Skill: 136 24
 Skill: 150 60
 E
 #29208
@@ -294,6 +302,7 @@ Class: 101
 Height: 198
 Weight: 8
 Special_Bitvector: 0 
+Skill: 136 21
 Skill: 157 60
 E
 #29209
@@ -325,6 +334,7 @@ Class: 103
 Height: 198
 Weight: 8
 Special_Bitvector: p0 
+Skill: 136 18
 E
 #29210
 косолапый мишка~
@@ -356,6 +366,7 @@ Class: 103
 Height: 198
 Weight: 15
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 29207
 #29211
@@ -387,6 +398,7 @@ Class: 103
 Height: 198
 Weight: 13
 Special_Bitvector: 0 
+Skill: 136 36
 E
 #29212
 кикимора болотная~
@@ -419,6 +431,7 @@ Class: 101
 Height: 198
 Weight: 7
 Special_Bitvector: a1b1c1 
+Skill: 136 27
 Spell: 17
 Spell: 77
 E
@@ -452,6 +465,7 @@ Class: 101
 Height: 198
 Weight: 9
 Special_Bitvector: b1c1 
+Skill: 136 24
 Skill: 160 40
 Spell: 16
 Spell: 16
@@ -487,6 +501,7 @@ Class: 101
 Height: 198
 Weight: 8
 Special_Bitvector: b1c1 
+Skill: 136 21
 Spell: 75
 E
 #29215
@@ -518,6 +533,7 @@ Class: 101
 Height: 198
 Weight: 11
 Special_Bitvector: 0 
+Skill: 136 36
 Spell: 54
 Spell: 64
 E
@@ -551,6 +567,7 @@ Class: 102
 Height: 198
 Weight: 11
 Special_Bitvector: 0 
+Skill: 136 39
 E
 T 29200
 T 29202
@@ -584,6 +601,7 @@ Class: 102
 Height: 198
 Weight: 12
 Special_Bitvector: 0 
+Skill: 136 36
 Skill: 157 90
 E
 T 29208
@@ -616,6 +634,7 @@ Class: 102
 Height: 198
 Weight: 25
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 29204
 T 29205
@@ -647,6 +666,7 @@ Class: 102
 Height: 198
 Weight: 25
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 29203
 T 29206

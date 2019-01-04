@@ -1,0 +1,1240 @@
+* BRusMUD mob file v1.0
+#14300
+царь~
+царь~
+царя~
+царю~
+царя~
+царем~
+царе~
+Низенький толстенький царь сидитн на троне.
+~
+Пузатый мужичок с небольшой бородкой постоянно дергается и поправляет плохо 
+сидящую на челе корону.
+~
+b0g0n0x0 c0d0e0f0a1 -600 E
+30 0 0 0d0+1100 6d6+20
+5d5+5 125000
+6 6 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 17
+Int: 20
+Wis: 26
+Dex: 13
+Con: 16
+Cha: 17
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+T 14304
+T 14305
+T 14332
+#14301
+ царская дочка~
+царская дочка~
+царской дочки~
+царской дочке~
+царскую дочку~
+царской дочкой~
+царской дочке~
+Царская дочка печально вздыхает, сидя у окошка.
+~
+Чуть полноватая молодая девушка с очень милым личиком и длинной русой косой.
+~
+b0g0n0o0x0 c0d0e0a1 -600 E
+25 10 0 10d10+800 5d6+15
+2d2+10 80000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 15
+Int: 17
+Wis: 26
+Dex: 13
+Con: 11
+Cha: 38
+LikeWork: 65
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: p0
+Helper: 14322
+E
+T 14321
+T 14331
+I кожа,10:10
+#14302
+ трусливый страж~
+трусливый страж~
+трусливого стража~
+трусливому стражу~
+трусливого стража~
+трусливым стражем~
+трусливом страже~
+Страж прохаживается робко глядя по сторонам.
+~
+Горе-стражник трясется от страха, как только его осмотрит первый встречный. 
+А коли нахмуриться на него -- все отдаст.
+~
+c0g0h0n0A0 0 -600 E
+24 5 0 20d10+600 5d5+10
+2d2+3 50000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 17
+Wis: 15
+Dex: 22
+Con: 25
+Cha: 15
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 12 50
+Skill: 136 80
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 154 80
+Skill: 22 50
+E
+T 14301
+T 14300
+I зубы,10:10
+#14303
+ отважный страж~
+отважный страж~
+отважного стража~
+отважному стражу~
+отважного стража~
+отважным стражем~
+отважном страже~
+Страж прохаживается сурово глядя по сторонам.
+~
+Крепкий молодец, сжимающий алебарду будет защищать своего хозяина до 
+последнего.
+С таки лучше не связываться.
+~
+c0g0m0n0x0A0 0 -600 E
+25 4 -3 20d10+800 5d5+15
+5d5+6 80000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 27
+Int: 14
+Wis: 17
+Dex: 23
+Con: 24
+Cha: 16
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 12 50
+Skill: 136 80
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 154 80
+Skill: 22 50
+E
+T 14302
+T 14303
+T 14333
+T 14300
+I кости,10:10
+#14304
+драный медведь~
+драный медведь~
+драного медведя~
+драному медведю~
+драного медведя~
+драным медведем~
+драном медведе~
+Медведь с драной шерстью шатаясь бредет куда-то.
+~
+Бедного мишку изрядно потрепала жизнь. И по ночам, вспоминая молодость, 
+он так и норовит кого-нибудь задрать.
+~
+g0j0l0m0y0 f0k0 -600 E
+23 4 0 10d10+500 7d7+15
+0d0+0 50000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 1
+Str: 28
+Int: 10
+Wis: 11
+Dex: 23
+Con: 27
+Cha: 11
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Skill: 132 50
+Skill: 136 70
+E
+T 14330
+I шерсть,10:10
+#14305
+худой медведь~
+худой медведь~
+худого медведя~
+худому медведю~
+худого медведя~
+худым медведем~
+худом медведе~
+Худощавый медведь облизывается глядя на Вас.
+~
+Бедное животное совсем исхудало.
+~
+g0j0l0m0y0 f0k0 -600 E
+23 6 0 20d10+450 6d7+15
+0d0+0 35000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 1
+Str: 24
+Int: 11
+Wis: 13
+Dex: 22
+Con: 20
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Spell: 75
+Skill: 136 70
+E
+I когти,10:10
+#14306
+толстый медведь~
+толстый медведь~
+толстого медведя~
+толстому медведю~
+толстого медведя~
+толстым медведем~
+толстом медведе~
+Толстый медведь лениво развалился под деревом.
+~
+Нагулявший жирок медведь, совсем не кажется удовлетворенным жизнью. Лучше 
+его не беспокоить.
+~
+b0c0f0g0l0m0x0A0 f0k0 -600 E
+27 3 0 20d20+800 7d5+16
+0d0+0 65000
+5 5 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 1
+Str: 30
+Int: 12
+Wis: 15
+Dex: 24
+Con: 30
+Cha: 11
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Skill: 132 90
+Skill: 137 100
+Helper: 14304
+Helper: 14305
+E
+I шерсть,10:10
+#14307
+водяной~
+водяной~
+водяного~
+водяному~
+водяного~
+водяным~
+водяном~
+Водяной развалился на пне посреди озера.
+~
+Очень необычный водяной, с смолянисто черной бородой, имеет дивный акцент. 
+Видать не из местных.
+~
+b0g0n0x0 c0d0e0k0 0 E
+28 6 0 10d10+2000 7d7+15
+2d2+4 170000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 26
+Int: 31
+Wis: 20
+Dex: 24
+Con: 22
+Cha: 25
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 80
+Height: 175
+Weight: 85
+Spell: 127
+Spell: 144
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Skill: 1 70
+Skill: 136 80
+Helper: 14308
+Helper: 14319
+E
+T 14306
+T 14311
+T 14310
+I чешуя,10:10
+#14308
+русалка~
+русалка~
+русалки~
+русалке~
+русалку~
+русалкой~
+русалке~
+Обнаженнная русалка игриво смотрит на Вас.
+~
+Как известно девушки имеют две стороны: некрасивую, и прекрасную. 
+И это яркое тому подтверждение.
+~
+b0c0g0m0n0x0A0 d0 -600 E
+27 7 0 10d10+900 4d5+8
+0d0+0 75000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 22
+Int: 29
+Wis: 30
+Dex: 27
+Con: 18
+Cha: 23
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 60
+Height: 175
+Weight: 85
+Spell: 113
+Spell: 113
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 70
+Helper: 14307
+E
+T 14309
+I чешуя,10:10
+#14309
+бритый лешый brleshak~
+бритый леший~
+бритого лешего~
+бритому лешему~
+бритого лешего~
+бритым лешим~
+бритом лешем~
+Бритый налысо леший нагло смотрит на Вас.
+~
+Подозрительный мужичок с блестящей макушкой и разрисованными руками. 
+~
+b0g0l0m0n0g2 c0d0e0f0k0z0 -600 E
+24 5 0 10d10+900 5d5+19
+0d0+25 85000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 24
+Wis: 20
+Dex: 27
+Con: 24
+Cha: 26
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 20
+Height: 175
+Weight: 85
+Special_Bitvector: b0d0a1b1c1
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 136
+Skill: 136 80
+Skill: 137 70
+Skill: 139 30
+Skill: 147 50
+Helper: 14310
+Helper: 14311
+E
+T 14317
+I глаза,10:10
+#14310
+вальяжный леший valeshak~
+вальяжный леший~
+вальяжного лешего~
+вальяжному лешему~
+вальяжного лешего~
+вальяжным лешим~
+вальяжном лешем~
+Здоровенный леший вальяжно привалился к дереву.
+~
+Этот не постесняется обобрать даже старушку, заблудившуюся в лесу.
+~
+g0l0m0n0g2l2 c0d0e0f0k0n0m0 -600 E
+27 3 0 10d10+2000 5d7+16
+5d5+10 170000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Destination: 14368
+Destination: 14369
+Destination: 14370
+Str: 30
+Int: 31
+Wis: 29
+Dex: 22
+Con: 30
+Cha: 34
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Spell: 148
+Spell: 148
+Spell: 148
+Spell: 148
+Spell: 148
+Spell: 148
+Spell: 148
+Spell: 148
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 28
+Skill: 136 90
+Skill: 147 90
+Skill: 167 30
+Skill: 22 30
+Helper: 14311
+E
+T 14320
+T 14350
+I чешуя,10:10
+#14311
+лохматый леший~
+лохматый леший~
+лохматого лешего~
+лохматому лешему~
+лохматого лешего~
+лохматым лешим~
+лохматом лешем~
+Лохматый, небритый леший шатается здесь.
+~
+Полуголый мужичонка, со странным рисунком на груди "ВАСЯ", весь оброс 
+волосами.
+~
+g0m0n0o0y0g2 k0 -600 E
+25 3 -6 20d20+1500 5d7+15
+5d5+10 125000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 11
+Str: 28
+Int: 22
+Wis: 19
+Dex: 30
+Con: 20
+Cha: 17
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Skill: 136 80
+Skill: 137 50
+Skill: 157 80
+Skill: 160 80
+E
+T 14312
+T 14313
+T 14349
+#14312
+ бабушка яга~
+бабушка Яга~
+бабушки Яги~
+бабушке Яге~
+бабушку Ягу~
+бабушкой Ягой~
+бабушке Яге~
+Старенькая бабушка суетиться у печки.
+~
+Бабушка с добрым лицом не вызывает никакой неприязни. И чего ее так в сказках хаяли?
+~
+b0g0n0o0 d0e0f0k0 -600 E
+28 5 0 20d10+1200 5d5+20
+5d5+10 100000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 20
+Int: 23
+Wis: 30
+Dex: 18
+Con: 11
+Cha: 20
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 105
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Skill: 132 80
+Skill: 136 80
+E
+T 14327
+I зубы,10:10
+#14313
+ рыжая лиса~
+рыжая лиса~
+рыжей лисы~
+рыжей лисе~
+рыжую лису~
+рыжей лисой~
+рыжей лисе~
+Большая лиса бежит в поисках пищи.
+~
+Юркий зверек, с веселым рыжим окрасом.
+~
+c0g0i0l0m0y0A0 k0 -600 E
+23 5 0 20d10+500 3d8+10
+0d0+0 32000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 24
+Int: 11
+Wis: 13
+Dex: 22
+Con: 20
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Skill: 136 70
+Skill: 160 60
+E
+I шерсть,10:10
+#14314
+ рыжая лиса~
+рыжая лиса~
+рыжей лисы~
+рыжей лисе~
+рыжую лису~
+рыжей лисой~
+рыжей лисе~
+Рыжая красавица мелькает по лесу.
+~
+Юркий зверек, с веселым рыжим окрасом.
+~
+c0g0l0m0y0A0 d0f0k0 -600 E
+23 7 0 20d10+450 3d8+10
+0d0+0 35000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 24
+Int: 11
+Wis: 13
+Dex: 22
+Con: 20
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Skill: 136 70
+Skill: 160 60
+E
+T 14347
+I шерсть,10:10
+#14315
+ крестьянин~
+крестьянин~
+крестьянина~
+крестьянину~
+крестьянина~
+крестьянином~
+крестьянине~
+Крестьянин идет по своим делам.
+~
+Трудолюбивый житель близ лежащей деревеньки.
+~
+c0g0n0A0 k0 -600 E
+24 6 0 20d10+600 5d5+16
+2d5+10 35000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 17
+Wis: 15
+Dex: 22
+Con: 25
+Cha: 15
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 15
+Skill: 132 80
+Skill: 136 80
+E
+#14316
+ крестьянка~
+крестьянка~
+крестьянки~
+крестьянке~
+крестьянку~
+крестьянкой~
+крестьянке~
+Крестьянка идет по своим делам.
+~
+Трудолюбивая жительница близ лежащей деревеньки.
+~
+c0g0n0A0 k0 -600 E
+24 6 0 20d10+600 5d5+12
+2d5+100 35000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 17
+Wis: 15
+Dex: 22
+Con: 25
+Cha: 15
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 15
+Skill: 136 80
+Skill: 157 80
+E
+#14317
+ начальник стражи~
+начальник стражи~
+начальника стражиа~
+начальнику стражиу~
+начальника стражи~
+начальником стражиом~
+начальнике стражие~
+Начальник стражи задумчиво стоит у стены.
+~
+Крепкий молодец, сжимающий алебарду будет защищать своего хозяина до 
+последнего.
+С таки лучше не связываться.
+~
+b0g0m0n0x0 d0k0 -600 E
+25 3 -3 20d10+1300 5d5+14
+3d5+10 120000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 27
+Int: 14
+Wis: 17
+Dex: 23
+Con: 24
+Cha: 16
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 136 90
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 154 80
+Skill: 22 60
+Helper: 14303
+E
+T 14322
+T 14333
+#14318
+ здоровый дядька~
+здоровый дядька~
+здорового дядьки~
+здоровому дядьке~
+здорового дядьку~
+здоровым дядькой~
+здоровом дядьке~
+Здоровенный мужик прохаживается взад-вперед.
+~
+Недобрый у него взгляд какой-то. 
+И огромная дубина в лапищах слегка настораживает. 
+~
+g0n0o0 d0h0k0 -600 E
+28 4 0 20d10+1000 7d5+15
+2d20+100 100000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 30
+Int: 17
+Wis: 13
+Dex: 22
+Con: 27
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 104
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: c0b1c1
+Spell: 28
+Skill: 132 80
+Skill: 136 80
+Skill: 4 80
+E
+T 14351
+T 14352
+#14319
+ болотный черт~
+болотный черт~
+болотного черта~
+болотному черту~
+болотного черта~
+болотным чертом~
+болотном черте~
+Шерстяной рогатик прыгает по болоту.
+~
+Мелкий болотный черт, с длинным хвостом и крохотными рожками, непрерывно
+корчит Вам рожи.
+~
+f0g0l0m0x0y0 f0k0 -600 E
+24 4 -2 20d10+750 3d8+16
+0d0+0 75000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 24
+Int: 11
+Wis: 13
+Dex: 22
+Con: 20
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: n0b1c1
+Skill: 132 35
+Skill: 136 75
+Skill: 5 35
+E
+T 14348
+I копыта,10:20
+#14320
+ ожившее дерево~
+ожившее дерево~
+ожившего дерева~
+ожившему дереву~
+ожившее дерево~
+ожившим деревом~
+ожившем дереве~
+&YОжившее дерево шевелит корявыми ветками.&n
+~
+Кривое перекошенное дерево тянется к Вас своими корявыми ветвями.
+~
+b0c0f0g0l0n0o0x0y0z0A0 d0k0C0l1y1 -600 E
+23 3 0 10d10+1000 5d5+6
+0d0+0 100000
+8 8 0
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 24
+Int: 10
+Wis: 10
+Dex: 10
+Con: 35
+Cha: 10
+LikeWork: 65
+MaxFactor: 0
+ExtraAttack: 3
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Skill: 136 80
+Skill: 151 50
+E
+#14321
+ страшная коряга~
+страшная коряга~
+страшной коряги~
+страшной коряге~
+страшную корягу~
+страшной корягой~
+страшной коряге~
+&YСтрашная коряга издает скрипучие звуки.&n
+~
+Вся покоцанная, кое-где облезлая полу деревянная змея.
+~
+f0g0l0n0o0x0y0z0 d0k0C0 -600 E
+23 1 -5 10d10+1000 7d5+11
+0d0+0 100000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 20
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 30
+Int: 10
+Wis: 10
+Dex: 20
+Con: 11
+Cha: 10
+LikeWork: 65
+MaxFactor: 0
+ExtraAttack: 0
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: m0
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 75
+Spell: 75
+Spell: 75
+Skill: 136 80
+Skill: 151 50
+E
+#14322
+ чумазый трубочист~
+чумазый трубочист~
+чумазого трубочиста~
+чумазому трубочисту~
+чумазого трубочиста~
+чумазым трубочистом~
+чумазом трубочисте~
+Трубочист воинственно сжимает щетку в руках.
+~
+Молодой парень, с запачканным сажей лицом.
+~
+f0g0n0 k0m1 -600 E
+25 5 -2 20d10+1600 5d6+16
+2d20+100 150000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 5
+Str: 25
+Int: 17
+Wis: 15
+Dex: 22
+Con: 25
+Cha: 15
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Spell: 131
+Spell: 131
+Spell: 131
+Skill: 131 65
+Skill: 160 65
+E
+T 14329
+I кожа,10:10
+#14323
+ черный волк~
+черный волк~
+черного волка~
+черному волку~
+черного волка~
+черным волком~
+черном волке~
+Черный волк рыщет здесь в поисках добычи.
+~
+Смолянисто черный хищник зыркает на Вас голодными глазами и злобно скалится.
+~
+b0c0f0g0l0m0x0 f0k0 -600 E
+27 3 -2 20d20+1000 7d5+13
+0d0+0 90000
+5 5 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 27
+Int: 12
+Wis: 15
+Dex: 27
+Con: 28
+Cha: 11
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Skill: 136 80
+Skill: 167 10
+E
+$
+$

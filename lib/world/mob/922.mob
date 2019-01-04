@@ -15,6 +15,10 @@ c0d0f0l0m0n0o0p0z0b1 d0f0k0n0x0b1m1 -600 E
 35 0 -7 0d0+2400 10d11+25
 200d200+1000 2500000
 8 8 1
+Saves: 0 0 0 -70
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Destination: 92228
 Destination: 92223
 Str: 22
@@ -30,7 +34,7 @@ Class: 105
 Height: 30
 Weight: 50
 Special_Bitvector: l0b1c1 
-Skill: 136 130
+Skill: 136 105
 Spell: 23
 Spell: 23
 Spell: 23
@@ -80,6 +84,10 @@ c0d0f0l0m0n0o0p0z0b1 d0f0k0n0x0b1m1 -600 E
 35 0 -7 0d0+2400 10d11+25
 200d200+1000 2500000
 8 8 1
+Saves: 0 0 0 -70
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Destination: 92229
 Destination: 92230
 Str: 22
@@ -95,7 +103,7 @@ Class: 105
 Height: 30
 Weight: 50
 Special_Bitvector: l0b1c1 
-Skill: 136 130
+Skill: 136 105
 Spell: 23
 Spell: 23
 Spell: 23
@@ -142,6 +150,10 @@ c0d0f0l0m0n0o0p0z0b1 d0f0k0n0x0b1m1 -600 E
 35 0 -7 0d0+2400 10d11+25
 200d200+1000 2500000
 8 8 1
+Saves: 0 0 0 -70
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Destination: 92224
 Destination: 92227
 Str: 22
@@ -157,7 +169,7 @@ Class: 105
 Height: 30
 Weight: 50
 Special_Bitvector: l0b1c1 
-Skill: 136 130
+Skill: 136 105
 Spell: 23
 Spell: 23
 Spell: 23
@@ -207,6 +219,10 @@ c0d0f0l0m0n0o0p0z0b1 d0f0k0n0x0b1m1 -600 E
 35 0 -7 0d0+2400 10d11+25
 200d200+1000 2500000
 8 8 1
+Saves: 0 0 0 -70
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Destination: 92219
 Destination: 92218
 Destination: 92220
@@ -224,7 +240,7 @@ Class: 105
 Height: 30
 Weight: 50
 Special_Bitvector: l0b1c1 
-Skill: 136 130
+Skill: 136 105
 Spell: 23
 Spell: 23
 Spell: 23
@@ -272,6 +288,7 @@ d0g0m0n0o0p0x0z0b1 d0f0k0 -600 E
 30 0 -10 0d0+1600 15d11+50
 0d0+0 350000
 8 8 1
+Resistances: 0 0 0 0 105 110 0
 Str: 32
 Dex: 25
 Int: 10
@@ -306,6 +323,7 @@ d0g0m0n0o0p0x0z0b1 d0f0k0 -600 E
 30 0 -10 0d0+1600 15d11+50
 0d0+0 350000
 8 8 1
+Resistances: 0 0 0 0 105 110 0
 Str: 32
 Dex: 25
 Int: 10
@@ -340,6 +358,7 @@ d0g0m0n0o0p0x0z0b1 d0f0k0 -600 E
 30 0 -10 0d0+1600 15d11+50
 0d0+0 350000
 8 8 1
+Resistances: 0 0 0 0 105 110 0
 Str: 32
 Dex: 25
 Int: 10
@@ -374,6 +393,7 @@ d0g0m0n0o0p0z0a2 d0f0k0m1 -600 E
 30 0 -10 0d0+1400 30d14+40
 0d0+0 350000
 8 8 2
+Resistances: 0 0 0 0 105 110 0
 BareHandAttack: 4
 Str: 30
 Dex: 30
@@ -405,6 +425,7 @@ d0g0m0n0o0p0z0a2 d0f0k0m1 -600 E
 30 0 -10 0d0+1400 30d14+40
 0d0+0 350000
 8 8 2
+Resistances: 0 0 0 0 105 110 0
 BareHandAttack: 4
 Str: 30
 Dex: 30
@@ -436,6 +457,7 @@ d0g0m0n0o0p0z0a2 d0f0k0m1 -600 E
 30 0 -10 0d0+1400 30d14+40
 0d0+0 350000
 8 8 2
+Resistances: 0 0 0 0 105 110 0
 BareHandAttack: 4
 Str: 30
 Dex: 30
@@ -467,6 +489,7 @@ d0g0m0n0o0p0x0z0 d0f0k0 -600 E
 30 0 -10 0d0+5000 10d10+20
 0d0+0 350000
 8 8 1
+Resistances: 0 0 0 0 105 110 0
 Str: 32
 Dex: 25
 Int: 16
@@ -503,6 +526,7 @@ d0g0l0m0n0o0p0x0z0 d0f0k0j1 -600 E
 30 0 -10 0d0+1300 20d9+20
 0d0+0 350000
 8 8 1
+Resistances: 0 0 0 0 105 110 0
 BareHandAttack: 11
 Str: 32
 Dex: 25
@@ -539,6 +563,7 @@ d0g0l0m0n0o0p0x0z0 d0f0k0j1 -600 E
 30 0 -10 0d0+1300 20d9+20
 0d0+0 350000
 8 8 1
+Resistances: 0 0 0 0 105 110 0
 BareHandAttack: 11
 Str: 32
 Dex: 25
@@ -575,6 +600,10 @@ c0d0f0g0m0n0o0p0x0z0A0 d0f0k0 -600 E
 30 0 -10 0d0+5000 40d10+20
 0d0+0 570000
 8 8 1
+Saves: 0 0 0 -70
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 BareHandAttack: 3
 Str: 32
 Dex: 25
@@ -618,9 +647,13 @@ T 92205
 Злой кузнец Заберь, проклят богами и вынужден служить повелителю Зла.
 ~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 0 -9 0d0+2800 17d9+20
+30 -16 -9 0d0+2800 17d9+20
 100d100+9000 2000000
 8 8 1
+Saves: 0 0 0 -70
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Str: 35
 Dex: 27
 Int: 21
@@ -635,6 +668,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 130
 Skill: 134 130
 Skill: 136 130
@@ -664,9 +707,13 @@ T 92247
 ~
 undefined~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 0 -9 0d0+2800 17d9+20
+30 -16 -9 0d0+2800 17d9+20
 100d100+9000 2000000
 8 8 1
+Saves: 0 0 0 -70
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Str: 35
 Dex: 27
 Int: 21
@@ -681,6 +728,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 130
 Skill: 134 130
 Skill: 136 130
@@ -713,6 +770,10 @@ c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
 30 0 -10 0d0+3800 15d9+10
 100d100+9000 3000000
 8 8 1
+Saves: 0 0 0 -70
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Destination: 92245
 Destination: 92239
 Destination: 92235
@@ -733,6 +794,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1d1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 12 130
 Skill: 22 130
 Skill: 136 130
@@ -766,6 +837,7 @@ b0c0d0f0n0o0p0x0A0 d0f0k0 -600 E
 40 0 0 0d0+2000 7d7+7
 0d0+0 50000
 8 8 1
+Resistances: 0 0 0 0 105 110 0
 Str: 25
 Dex: 20
 Int: 10
@@ -817,6 +889,10 @@ c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
 30 0 -10 0d0+3800 15d9+10
 100d100+9000 3000000
 8 8 1
+Saves: 0 0 0 -70
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Destination: 92250
 Destination: 92247
 Destination: 92235
@@ -836,6 +912,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1d1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 12 130
 Skill: 22 130
 Skill: 136 130
@@ -865,9 +951,13 @@ T 92251
 ~
 undefined~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 0 -9 0d0+3000 15d9+15
+30 -11 -9 0d0+3000 15d9+15
 100d100+9000 2000000
 8 8 1
+Saves: 0 0 0 -70
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Str: 32
 Dex: 27
 Int: 21
@@ -882,6 +972,16 @@ Class: 104
 Height: 130
 Weight: 150
 Special_Bitvector: b1c1d1B3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 21 130
 Skill: 132 130
 Skill: 134 130
@@ -909,9 +1009,13 @@ T 92248
 ~
 неопределен~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 0 -9 0d0+2500 15d9+15
+30 -8 -9 0d0+2500 15d9+15
 100d100+9000 2000000
 8 8 1
+Saves: 0 0 0 -70
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Str: 31
 Dex: 27
 Int: 21
@@ -926,6 +1030,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: j0b1c1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 22 130
 Skill: 130 130
 Skill: 136 130
@@ -995,6 +1109,10 @@ c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
 30 0 -10 0d0+3800 15d9+10
 100d100+9000 3000000
 8 8 2
+Saves: 0 0 0 -70
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Str: 34
 Dex: 27
 Int: 21
@@ -1009,6 +1127,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 12 130
 Skill: 22 130
 Skill: 136 130
@@ -1039,9 +1167,13 @@ T 92251
 ~
 undefined~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 0 -10 0d0+4500 18d9+15
+30 -16 -10 0d0+4500 18d9+15
 100d100+9000 2500000
 8 8 1
+Saves: 0 0 0 -30
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Str: 36
 Dex: 21
 Int: 21
@@ -1056,6 +1188,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 130
 Skill: 5 130
 Skill: 134 130
@@ -1079,6 +1221,10 @@ c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
 30 0 -10 0d0+4500 18d9+15
 100d100+9000 2500000
 8 8 1
+Saves: 0 0 0 -30
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Str: 36
 Dex: 21
 Int: 21
@@ -1093,6 +1239,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 2 130
 Skill: 136 130
 Skill: 137 130
@@ -1113,9 +1269,13 @@ T 92250
 ~
 undefined~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
-30 0 -10 0d0+4500 18d9+15
+30 -16 -10 0d0+4500 18d9+15
 100d100+9000 2500000
 8 8 1
+Saves: 0 0 0 -30
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Str: 36
 Dex: 21
 Int: 21
@@ -1130,6 +1290,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 130
 Skill: 5 130
 Skill: 134 130
@@ -1153,6 +1323,10 @@ c0d0f0l0m0n0o0p0z0A0 d0f0k0C0m1q1 -600 E
 30 0 -10 0d0+4500 18d9+15
 100d100+9000 2500000
 8 8 1
+Saves: 0 0 0 -30
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Str: 36
 Dex: 21
 Int: 21
@@ -1167,6 +1341,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 2 130
 Skill: 136 130
 Skill: 137 130
@@ -1187,9 +1371,13 @@ T 92250
 ~
 неопределен~
 c0d0f0h0l0m0n0o0p0z0A0 d0f0k0A0m1q1 -600 E
-30 -30 -10 0d0+2900 15d9+11
+30 -8 -10 0d0+2900 15d9+11
 100d100+9000 2100000
 8 8 1
+Saves: 0 0 0 -30
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Str: 36
 Dex: 21
 Int: 21
@@ -1204,6 +1392,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: j0b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 131 130
 Skill: 134 130
 Skill: 136 130
@@ -1227,10 +1425,14 @@ T 92252
 Рута стоит здесь.
 ~
 неопределен~
-c0d0f0l0m0n0o0p0r0t0u0z0A0 d0f0k0C0m1q1 -600 E
+c0d0f0l0m0n0o0p0r0u0z0A0 d0f0k0C0m1q1 -600 E
 30 0 -10 0d0+2200 9d9+5
 100d100+9000 3800000
 8 8 2
+Saves: 0 0 0 -30
+Resistances: 0 0 0 0 105 110 0
+CastSuccess: 50
+AResist: 60
 Destination: 92250
 Destination: 92243
 Str: 24
@@ -1246,6 +1448,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 7 100
 Skill: 136 130
 Spell: 14

@@ -115,6 +115,7 @@ Spell: 77
 Spell: 77
 Spell: 77
 Helper: 61617
+Skill: 136 75
 E
 T 61606
 #61603
@@ -260,6 +261,7 @@ Skill: 136 25
 Helper: 61605
 Helper: 61604
 Helper: 61605
+Skill: 136 87
 E
 #61607
 старик слуга~
@@ -436,6 +438,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 69
 E
 #61612
 конокрад мужик~
@@ -774,7 +777,7 @@ Cha: 18
 Size: 20
 LikeWork: 13
 ExtraAttack: 1
-Class: 102
+Class: 103
 Height: 198
 Weight: 110
 Special_Bitvector: p0 
@@ -839,7 +842,7 @@ ExtraAttack: 1
 Class: 103
 Height: 198
 Weight: 70
-Special_Bitvector: p0a1 
+Special_Bitvector: l0a1 
 Skill: 136 20
 Skill: 139 30
 Spell: 16
@@ -848,7 +851,7 @@ E
 волчица~
 волчица~
 волчицы~
-волчицу~
+волчице~
 волчицу~
 волчицей~
 волчице~
@@ -873,6 +876,7 @@ Class: 103
 Height: 198
 Weight: 140
 Special_Bitvector: 0 
+Skill: 136 63
 Skill: 160 50
 E
 #61625
@@ -905,6 +909,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 132 50
+Skill: 136 75
 E
 #61626
 проповедник~

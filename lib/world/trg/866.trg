@@ -11,30 +11,30 @@ wecho  &yВзрываясь тысячами молний портал ярко вспыхнул в непроглядной мгле.&n
 2 c 0
 лезть пролезть ползти~
 if !(%arg.contains(дыра)%) 
-   wsend       %actor% _Куда это Вы хотите пролезть?
-   wechoaround %actor% _%actor.name% начал%actor.g% ползать вокруг стен.
-   return 0
-   halt
+  wsend       %actor% _Куда это Вы хотите пролезть?
+  wechoaround %actor% _%actor.name% начал%actor.g% ползать вокруг стен.
+  return 0
+  halt
 end
 wsend       %actor% _Вы осторожно протиснулись в узкую дыру в стене.
 wechoaround %actor% _%actor.name% пролез%actor.q% через узкую дыру в стене внутрь поместья.
-  wteleport %actor% 86611
-  wat 86611 wechoaround %actor% _%actor.name% пролез%actor.q% сюда снаружи.
+wteleport %actor% 86611
+wat 86611 wechoaround %actor% _%actor.name% пролез%actor.q% сюда снаружи.
 ~
 #86602
 лезть в дыру обратно~
 2 c 0
 лезть пролезть ползти~
 if !(%arg.contains(дыра)%) 
-   wsend       %actor% _Куда это Вы хотите пролезть?
-   wechoaround %actor% _%actor.name% начал%actor.g% ползать вокруг стен.
-   return 0
-   halt
+  wsend       %actor% _Куда это Вы хотите пролезть?
+  wechoaround %actor% _%actor.name% начал%actor.g% ползать вокруг стен.
+  return 0
+  halt
 end
 wsend       %actor% _Вы осторожно протиснулись в узкую дыру в стене.
 wechoaround %actor% _%actor.name% вылез%actor.q% через узкую дыру в стене из поместья.
-  wteleport %actor% 86607
-  wat 86607 wechoaround %actor% _%actor.name% пролез%actor.q% сюда из поместья.
+wteleport %actor% 86607
+wat 86607 wechoaround %actor% _%actor.name% пролез%actor.q% сюда из поместья.
 ~
 #86603
 стоит на перешейке~
@@ -42,8 +42,8 @@ wechoaround %actor% _%actor.name% вылез%actor.q% через узкую дыру в стене из пом
 ~
 wait 3s
 foreach victim %self.pc%
-     wecho _&rНе в силах более держаться на перешейке, вы полетели вниз.&n
-     wteleport %victim% 86672
+  wecho _&rНе в силах более держаться на перешейке, вы полетели вниз.&n
+  wteleport %victim% 86672
 done
 end
 ~
@@ -52,9 +52,9 @@ end
 2 c 0
 разобрать разгрести~
 if !%arg.contains(завал)%
-   wsend   %actor% _Что вы хотите тут разобрать?
-   return 0
-   halt
+  wsend   %actor% _Что вы хотите тут разобрать?
+  return 0
+  halt
 end
 wait 1
 wsend       %actor% _Вы начали потихоньку камень за камнем разгребать завал.
@@ -72,10 +72,10 @@ detach 86604 %self.id%
 2 c 0
 запрыгнуть залезть лезть~
 if !(%arg.contains(окно)%) 
-   wsend       %actor% _Куда это Вы хотите залезть?
-   wechoaround %actor% _%actor.name% начал%actor.g% прыгать на стены. Пожалуй, пора бы кому-то отдохнуть...
-   return 0
-   halt
+  wsend       %actor% _Куда это Вы хотите залезть?
+  wechoaround %actor% _%actor.name% начал%actor.g% прыгать на стены. Пожалуй, пора бы кому-то отдохнуть...
+  return 0
+  halt
 end
 wsend       %actor% _\&RВы стали пролезать сквозь окно, но старая рама, не выдержав такого веса, обрушилась на Вас.\&n
 wechoaround %actor% _\&R%actor.name% стал%actor.g% пролезать сквозь окно, но старая рама, не выдержав такого веса, обрушилась.\&n
@@ -88,8 +88,8 @@ detach 86605 %self.id%
 ~
 wait 3s
 eval victim %random.pc%
-     wecho _&rОгромная балка, покачнувшись, полетела прямо на Вас!&n
-     wdamage %victim% 285
+wecho _&rОгромная балка, покачнувшись, полетела прямо на Вас!&n
+wdamage %victim% 285
 done
 detach 86606 %self.id%
 end
@@ -103,19 +103,18 @@ wecho _&MКакая-то тварь медленно выползла из озера.&n
 wload mob 86618
 detach 86607 %self.id%
 end
-  
 ~
 #86608
 сорняк вылезает~
 2 e 100
 ~
 if %random.10% <= 6
- wait 2s
- wecho _&gГигантский сорняк появился из-под земли !&n
- wload mob 86604
- detach 86608 %self.id%
+  wait 2s
+  wecho _&gГигантский сорняк появился из-под земли !&n
+  wload mob 86604
+  detach 86608 %self.id%
 else
- detach 86608 %self.id%
+  detach 86608 %self.id%
 ~
 #86609
 сорняк атакует~
@@ -128,7 +127,7 @@ mkill %random.pc%
 0 f 100
 ~
 if (%world.curobjs(86604)% < 6) && (%random.100% <= 20)
-   mload obj 86604
+  mload obj 86604
 end
 ~
 #86611
@@ -146,9 +145,9 @@ end
 2 c 0
 листать прочитать пролистать~
 if !%arg.contains(фолиант)%
-wsend       %actor% _И что же вы хотите здесь прочитать?
-return 0
-   halt
+  wsend       %actor% _И что же вы хотите здесь прочитать?
+  return 0
+  halt
 end
 wsend       %actor% _Вы начали осторожно листать первые главы древнего фолианта...
 wechoaround %actor% _%actor.name% стал%actor.g% осторожно перелистывать первые главы древнего фолианта...
@@ -168,29 +167,29 @@ end
 2 c 0
 листать прочитать пролистать~
 if !%arg.contains(фолиант)%
-wsend       %actor% _И что же вы хотите здесь прочитать?
-return 0
-   halt
+  wsend       %actor% _И что же вы хотите здесь прочитать?
+  return 0
+  halt
 end
 if %random.100% <= 85
-wsend       %actor% _Вы начали изучать главы из середины фолианта.
-wechoaround %actor% _%actor.name% начал%actor.g% изучать главы из середины фолианта.
-wait 2s
-wecho _Диковинные, но правдивые истории прошлого возникли в памяти всех присутствующих.
-wecho _Изображения на пожелтевших страницах стали принимать отчетливые очертания.
-wait 1s
-wecho _Охотник за дьявольскими порождениями внезапно возник посреди комнаты, сражаясь с каким-то чудищем...
-wait 1s
-wload mob 86609
-wload mob 86606
-detach 86613 %self.id%
+  wsend       %actor% _Вы начали изучать главы из середины фолианта.
+  wechoaround %actor% _%actor.name% начал%actor.g% изучать главы из середины фолианта.
+  wait 2s
+  wecho _Диковинные, но правдивые истории прошлого возникли в памяти всех присутствующих.
+  wecho _Изображения на пожелтевших страницах стали принимать отчетливые очертания.
+  wait 1s
+  wecho _Охотник за дьявольскими порождениями внезапно возник посреди комнаты, сражаясь с каким-то чудищем...
+  wait 1s
+  wload mob 86609
+  wload mob 86606
+  detach 86613 %self.id%
 else 
-wsend       %actor% _Вы начали изучать главы из середины фолианта.
-wechoaround %actor% _%actor.name% начал%actor.g% изучать главы из середины фолианта.
-wait 2s
-wecho _Древний фолиант, не выдержав приложенных к нему усилий, рассыпался в прах.
-wpurge фолиант
-detach 86613 %self.id%
+  wsend       %actor% _Вы начали изучать главы из середины фолианта.
+  wechoaround %actor% _%actor.name% начал%actor.g% изучать главы из середины фолианта.
+  wait 2s
+  wecho _Древний фолиант, не выдержав приложенных к нему усилий, рассыпался в прах.
+  wpurge фолиант
+  detach 86613 %self.id%
 end
 ~
 #86614
@@ -209,7 +208,10 @@ end
 ~
 mload obj 86601
 if (%world.curobjs(86614)% < 4) && (%random.100% <= 20)
-   mload obj 86614
+  mload obj 86614
+end
+if ((%world.curobjs(3358)% < 1) && (%world.curobjs(3359)% < 1) && (%random.1000% < 90))
+  mload obj 3358
 end
 ~
 #86616
@@ -227,12 +229,14 @@ end
 0 f 100
 ~
 if (%world.curobjs(86625)% < 5) && (%random.100% <= 20)
-   mload obj 86625
+  mload obj 86625
 end
-if %random.100% <= 15
-mecho _\&RОхраняемый мощной черной магией, вампир восстал из мертвых !\&n
-mload mob 86610
-detach 86617 %self.id%
+eval rnd %random.100%
+if %rnd% <= 15
+  mecho _\&RОхраняемый мощной черной магией, вампир восстал из мертвых !\&n
+  mload mob 86610
+elseif (( %rnd% <= 30 ) && ( %world.curobjs(1058)% < 1 ))
+  mload obj 1058
 end
 ~
 #86618
@@ -240,15 +244,15 @@ end
 0 ab 40
 ~
 if !%self.fighting%
-eval son %random.2%
+  eval son %random.2%
   if %son% > 1
-храп
-masound _Чей-то рокочущий храп донесся из соседних помещений.
-calcuid troom 86697 room
-exec 86619 %troom%
+    храп
+    masound _Чей-то рокочущий храп донесся из соседних помещений.
+    calcuid troom 86697 room
+    exec 86619 %troom%
   elseif %son% > 0
-кошм
-end
+    кошм
+  end
 end
 ~
 #86619
@@ -258,7 +262,7 @@ end
 wait 1s
 wecho _&rОстрые, как пики, сталактиты посыпались сверху от чьего-то громкого храпа.&n
 foreach victim %self.char%
-wdamage %victim% 85
+  wdamage %victim% 85
 done
 end
 ~
@@ -286,8 +290,8 @@ mkill %random.pc%
 ~
 eval victim %random.pc%
 if %victim%
-     wecho _&RМощная молния попала прямо в Вас !&n
-     wdamage %victim% 165
+  wecho _&RМощная молния попала прямо в Вас !&n
+  wdamage %victim% 165
 end
 done
 end
@@ -297,10 +301,10 @@ end
 0 f 100
 ~
 if (%world.curobjs(86602)% < 3) && (%random.100% <= 15)
-   mload obj 86602
+  mload obj 86602
 end
 if (%world.curobjs(86612)% < 5) && (%random.100% <= 20)
-   mload obj 86612
+  mload obj 86612
 end
 ~
 #86624
@@ -308,9 +312,9 @@ end
 0 f 100
 ~
 if (%world.curobjs(86603)% < 4)
-if (%random.100% <= 20 )
-   mload obj 86603
-end
+  if (%random.100% <= 20 )
+    mload obj 86603
+  end
 end
 ~
 #86625
@@ -318,7 +322,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(86603)% < 2) && (%random.100% <= 15)
-   mload obj 86607
+  mload obj 86607
 end
 ~
 #86626
@@ -338,14 +342,17 @@ end
 0 f 100
 ~
 if (%world.curobjs(86609)% < 3)
-if (%random.100% <= 10 )
-   mload obj 86609
-end
+  if (%random.100% <= 10 )
+    mload obj 86609
+  end
 end
 if (%world.curobjs(86627)% < 3)
-if (%random.100% <= 10 )
-   mload obj 86627
+  if (%random.100% <= 10 )
+    mload obj 86627
+  end
 end
+if ((%world.curobjs(406)% < 1 ) && (%random.1000% <= 200))
+  mload obj 406
 end
 ~
 #86628
@@ -353,7 +360,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(86613)% < 4) && (%random.100% <= 25)
-   mload obj 86613
+  mload obj 86613
 end
 ~
 #86629
@@ -361,9 +368,12 @@ end
 0 f 100
 ~
 if (%world.curobjs(86615)% < 4 )
-if ( %random.100% <= 14)
-   mload obj 86615
+  if ( %random.100% <= 14)
+    mload obj 86615
+  end
 end
+if (%world.curobjs(221)% < 50) && (%random.100% <= 10)
+  mload obj 221
 end
 ~
 #86630
@@ -371,9 +381,9 @@ end
 0 f 100
 ~
 if (%world.curobjs(86617)% < 4 )
-if ( %random.100% <= 14)
-   mload obj 86617
-end
+  if ( %random.100% <= 14)
+    mload obj 86617
+  end
 end
 ~
 #86631
@@ -381,9 +391,9 @@ end
 0 f 100
 ~
 if (%world.curobjs(86618)% < 5 )
-if ( %random.100% <= 12 )
-   mload obj 86618
-end
+  if ( %random.100% <= 12 )
+    mload obj 86618
+  end
 end
 ~
 #86632
@@ -391,9 +401,9 @@ end
 0 f 100
 ~
 if (%world.curobjs(86619)% < 5 )
-if (%random.100% <= 15 )
-   mload obj 86619
-end
+  if (%random.100% <= 15 )
+    mload obj 86619
+  end
 end
 ~
 #86633
@@ -401,9 +411,9 @@ end
 0 f 100
 ~
 if (%world.curobjs(86620)% < 6 )
-if (%random.100% <= 18 )
-   mload obj 86620
-end
+  if (%random.100% <= 18 )
+    mload obj 86620
+  end
 end
 ~
 #86634
@@ -411,10 +421,10 @@ end
 0 f 100
 ~
 if (%world.curobjs(86621)% < 5) && (%random.100% <= 20)
-   mload obj 86621
+  mload obj 86621
 end
 if (%world.curobjs(506)% < 1) && (%random.100% <= 15)
-   mload obj 506
+  mload obj 506
 end
 ~
 #86635
@@ -488,7 +498,7 @@ mload obj 86624
 Вампир убит~
 0 f 100
 ~
-if %world.curobjs(1058)% < 1
+*if ( %world.curobjs(1058)% < 1 ) && ( %random.6% ==  3 )
 mload obj 1058
 end
 ~

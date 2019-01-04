@@ -3,17 +3,30 @@
 2 e 95
 ~
 wait 1
-%echo% _Наверху послышался резкий хруст и шорок разматывающейся веревки...
-wait 8s
+%echo% Наверху послышался резкий хруст и шорох разматывающейся веревки...
+wait 2
 foreach victim %self.pc%
-if %random.4% != 2
-eval dmg %victim.hitp%-1
-%send% %victim% _Огромное бревно обрушилось сверху, попереломав Вам половину костей!
-%echoaround% %victim% _Огромное бревно обрушилось сверху, попереломав %victim.dname% половину костей!
-%send% %victim% _Как это грустно все...
-%damage% %victim% %dmg%
-end
+  if %random.4% != 2
+    eval dmg %victim.hitp%-1
+    %send% %victim%  Огромное бревно обрушилось сверху, попереломав Вам половину костей!
+    %echoaround% %victim%  Огромное бревно обрушилось сверху, попереломав %victim.dname% половину костей!
+    %send% %victim%  Как это грустно все...
+    %damage% %victim% %dmg%
+    %victim.wait(30)%
+    wsend %victim% Вы мертвы!  Hам очень жаль...
+    wsend Вы потеряли 6666666 очков опыта.
+    wsend %victim% _
+    wsend %victim% 0) Отсоединиться.
+    wsend %victim% 1) Начать игру.
+    wsend %victim% 2) Ввести описание Вашего персонажа.
+    wsend %victim% 3) Узнать историю.
+    wsend %victim% 4) Изменить пароль.
+    wsend %victim% 5) Удалить персонаж.
+    *%victim.wait(30)%
+  end
 done
+wait 30s
+wecho Вы пришли в себя...
 ~
 #25501
 у волка~
@@ -22,7 +35,7 @@ done
 wait 1
 облиз %actor.name%
 if %random.7% == 3
-kill %actor.name%
+  kill %actor.name%
 end
 ~
 #25502
@@ -30,24 +43,24 @@ end
 1 p 100
 ~
 if %exist.mob(25504)%
-calcuid smith1 25502 mob 
+  calcuid smith1 25502 mob 
 end
 if %exist.mob(25504)%
-calcuid smith2 25504 mob 
+  calcuid smith2 25504 mob 
 end
 if %smith1%
-if %smith1.realroom% == 25531
-exec 25508 %smith1.id%
-return 0
-halt
-end
+  if %smith1.realroom% == 25531
+    exec 25508 %smith1.id%
+    return 0
+    halt
+  end
 end
 if %smith2%
-if %smith2.realroom% == 25531
-exec 25508 %smith2.id%
-return 0
-halt
-end
+  if %smith2.realroom% == 25531
+    exec 25508 %smith2.id%
+    return 0
+    halt
+  end
 end
 return 1
 ~
@@ -75,16 +88,16 @@ attach 25504 %self.id%
 0 d 1
 "я схожу" "я разберусь"~
 if (%actor.vnum% != -1)
-halt
+  halt
 end
 wait 3
 вопр %actor.name%
 дум
 wait 1s
 if (%actor.sex% ==  1)
-say Ты бы, парень, не шумел понапрасну
+  say Ты бы, парень, не шумел понапрасну
 else
-say Ты бы, девка, не шумела понапрасну
+  say Ты бы, девка, не шумела понапрасну
 end
 say Волхв этот, пень старый - из ума, верно, выжил давно...
 wait 1s
@@ -106,8 +119,8 @@ emot зыркнул на Вас и произнес : '... и воспламенится гнев Господа, и Он скоро и
 mecho \&RВелесов волхв опалил Вас своим гневным взглядом.\&n
 mecho _Это действительно БОЛЬНО !
 foreach victim %self.pc%
-eval dmg %victim.hitp%/2
-mdamage %victim% %dmg%
+  eval dmg %victim.hitp%/2
+  mdamage %victim% %dmg%
 done
 wait 1
 плюн
@@ -121,7 +134,7 @@ detach 25505 %self.id%
 0 d 1
 "от кузнеца" "кузнец прислал" ~
 if (%actor.vnum%!= -1)
-halt
+  halt
 end
 wait 1
 say От какого кузнеца еще?
@@ -183,37 +196,37 @@ detach 25507 %self.id%
 0 z 0
 ~
 switch %random.3%
-case 1
-wait 1
-emot грозно нахмурился
-say Ты куда это лезешь, а?!
-break
-case 2
-wait 1
-хмур 
-руг
-say Убери-ка лапы! Ходят тут всякие...
-break
-default
-say А ну-ка вон отсель!
-set target %random.pc%
-%send% %target% _Кузнец Верхослав выставил Вас за порог при помощи хорошего пинка.
-%teleport% %target% 25510
-emot выставил %target.vname% за порог при помощи хорошего пинка
-%echoaround% %target% _%target.name% с воплем вылетел%actor.g% из дверей кузницы и растянул%actor.u% на земле.
-%damage% %target% %random.50%
-done
+  case 1
+    wait 1
+    emot грозно нахмурился
+    say Ты куда это лезешь, а?!
+  break
+  case 2
+    wait 1
+    хмур 
+    руг
+    say Убери-ка лапы! Ходят тут всякие...
+  break
+  default
+    say А ну-ка вон отсель!
+    set target %random.pc%
+    %send% %target% _Кузнец Верхослав выставил Вас за порог при помощи хорошего пинка.
+    %teleport% %target% 25510
+    emot выставил %target.vname% за порог при помощи хорошего пинка
+    %echoaround% %target% _%target.name% с воплем вылетел%actor.g% из дверей кузницы и растянул%actor.u% на земле.
+    %damage% %target% %random.50%
+  done
 ~
 #25509
 двигать камень~
 1 c 4
 отодвинуть~
 if !%arg.contains(камень)%
-%send% %actor% _Чего двигаем-то?
-halt
+  %send% %actor% _Чего двигаем-то?
+  halt
 end
 if %actor.vnum% != -1
-halt
+  halt
 end
 wait 1
 %send% %actor% _Вы поднатужились, пытаясь сдвинуть валун.
@@ -281,7 +294,7 @@ attach 25512 %smith255.id%
 0 q 100
 ~
 if %actor.id% != %questor255.id%
-halt
+  halt
 end
 wait 3
 say Опять ты?
@@ -295,27 +308,29 @@ detach 25512 %self.id%
 приковать сковать заковать~
 calcuid snake 25507 mob
 if !%snake% || !%arg.contains(змея)%
-return  1
-halt
+  msend %actor% Кого вы хотите сковать?
+  return 1
+  halt
 end
 if !%exist.obj(25509)%
-%send% %actor% А чем вы хотите его сковать?
-halt
+  msend %actor% А чем вы хотите его сковать?
+  halt
 end
 calcuid chain 25509 obj
 if %actor.eq(16)% != %chain%
-return  1
-halt
+  msend %actor% А чем вы хотите его сковать?
+  return 1
+  halt
 end
 wait 1
 emot покорно подставил шею под цепь.
 плак
-%load% mob 25508
-%purge% %chain%
+mload mob 25508
+mpurge %chain%
 calcuid leshiy 25510 mob
 attach 25515 %leshiy.id%
 wait 1
-%purge% %self%
+mpurge %self%
 ~
 #25514
 выдаем цепочку у кузнеца~
@@ -348,18 +363,18 @@ detach 25514 %self.id%
 0 q 100
 ~
 if %actor.id% != %questor255.id%
-halt
+  halt
 end
 wait 2
 if (!%exist.mob(25506)% && !%exist.mob(25507)% && !%exist.mob(25508)%)
-say Я тебе что сказал - змея не убивать!
-say А ты?
-say Эххххх
-досада
-wait 1
-%echo% _Леший повернулся и исчез в зарослях.
-%purge% %self%
-halt
+  say Я тебе что сказал - змея не убивать!
+  say А ты?
+  say Эххххх
+  досада
+  wait 1
+  %echo% _Леший повернулся и исчез в зарослях.
+  %purge% %self%
+  halt
 end
 рад
 say Эх, молодец - совладал%actor.g%-таки со змеем!
@@ -377,9 +392,9 @@ attach 25517 %smith.id%
 %load% obj 25500
 wait 1s
 if (%random.100% < 6)
-say Да, вот завалялась тут у меня эта штуковина - возьми, может тебе пригодится.
-%load% obj 243
-give рун %actor.name%
+  say Да, вот завалялась тут у меня эта штуковина - возьми, может тебе пригодится.
+  %load% obj 243
+  give рун %actor.name%
 end
 пока
 %echo% _Леший повернулся и исчез в зарослях.
@@ -399,54 +414,54 @@ wait 2
 0 q 100
 ~
 if %actor.id% != %questor255.id%
-halt
+  halt
 end
 wait 8s
 emot наконец-то заметил Вас
 say А, это ты! Справил%actor.u%, значит, уломал%actor.g%-таки волхва?
 say Ну здорово...
 if ((%actor.class% == 11) && (%actor.skill(укрепить)% < 100))
-wait 1s
-say Ты, как видно, тоже к делу кузнечному способный... ну что же, глянь-ка сюда.
-emot снял со стены великолепной работы кольчугу и принялся объяснять особенности проковки стали
-%skilladd% %actor.name% укрепить %random.3%
-wait 2
-%send% %actor% _Вы узнали нечто новое...
-wait 2
-say Ну вот, кое-чему ты научил%actor.u%, а дальше сам%actor.g% думай.
-улыб
-detach 25517 %self.id%
-halt
+  wait 1s
+  say Ты, как видно, тоже к делу кузнечному способный... ну что же, глянь-ка сюда.
+  emot снял со стены великолепной работы кольчугу и принялся объяснять особенности проковки стали
+  %skilladd% %actor.name% укрепить %random.3%
+  wait 2
+  %send% %actor% _Вы узнали нечто новое...
+  wait 2
+  say Ну вот, кое-чему ты научил%actor.u%, а дальше сам%actor.g% думай.
+  улыб
+  detach 25517 %self.id%
+  halt
 end
 switch %random.3%
-case 3
-if ((%world.curobjs(25515)% < 5) && (%randorm.100% <12))
-say Ну что ж, возьми вот за службу. 
-%load% obj 25515
-give обручье %actor.name%
-end
-break
-case 2
-if ((%world.curobjs(25516)% < 5) && (%randorm.100% <12))
-say Ну что ж, возьми вот за службу. 
-%load% obj 25516
-give перстень %actor.name%
-end
-break
-default
-say Ну что ж, возьми вот за службу. 
-%send% %actor% _Кузнец Верхослав дал Вам небольшой кошелек с монетами.
-%echoaround% %actor% _Кузнец Верхослав дал %actor.dname% небольшой кошелек с монетами.
-%actor.gold(+3000)% 
-done
-if %random.400% == 345
-wait 1s
-дум
-say Вот что, дай-ка мне меч какой, али топор или копье - перекую я его.
-say Лучше не сыщешь тогда.
-attach 25518 %self.id%
-end
-detach 25517 %self.id%
+  case 3
+    if ((%world.curobjs(25515)% < 5) && (%randorm.100% <12))
+      say Ну что ж, возьми вот за службу. 
+      %load% obj 25515
+      give обручье %actor.name%
+    end
+  break
+  case 2
+    if ((%world.curobjs(25516)% < 5) && (%randorm.100% <12))
+      say Ну что ж, возьми вот за службу. 
+      %load% obj 25516
+      give перстень %actor.name%
+    end
+  break
+  default
+    say Ну что ж, возьми вот за службу. 
+    %send% %actor% _Кузнец Верхослав дал Вам небольшой кошелек с монетами.
+    %echoaround% %actor% _Кузнец Верхослав дал %actor.dname% небольшой кошелек с монетами.
+    %actor.gold(+3000)% 
+  done
+  if %random.400% == 345
+    wait 1s
+    дум
+    say Вот что, дай-ка мне меч какой, али топор или копье - перекую я его.
+    say Лучше не сыщешь тогда.
+    attach 25518 %self.id%
+  end
+  detach 25517 %self.id%
 ~
 #25518
 кузнец апает оружие~
@@ -454,10 +469,10 @@ detach 25517 %self.id%
 ~
 wait 1
 if (%obj.type% != 5)
-say Что-то ты мне не то дал%actor.g%!
-eval getobject %object.name%
-give %getobject.car%.%getobject.cdr% %actor.name%
-halt
+  say Что-то ты мне не то дал%actor.g%!
+  eval getobject %object.name%
+  give %getobject.car%.%getobject.cdr% %actor.name%
+  halt
 end
 emot внимательно осмотрел %object.vname% и хмыкнул
 wait 2s
@@ -496,35 +511,35 @@ detach 25507 %druid2.id%
 0 t 100
 ~
 switch %random.4%
-case 1
-s
-w
-s
-break
-case 2
-n
-e
-n
-break
-case 3
-e
-n
-e
-break
-default
-w
-s
-s
-done
+  case 1
+    s
+    w
+    s
+  break
+  case 2
+    n
+    e
+    n
+  break
+  case 3
+    e
+    n
+    e
+  break
+  default
+    w
+    s
+    s
+  done
 ~
 #25521
 зайчик помер :о(~
 0 f 40
 ~
 if (%world.curobjs(25511)% < 5) 
-%load% obj 25511
-%send% %actor% _Вы умело содрали шкурку с заячьего трупика.
-%echoaround% %actor% %actor.iname% _ЖЕСТОКО содрал%actor.g% шкуру с бедного зайчишки... 
+  %load% obj 25511
+  %send% %actor% _Вы умело содрали шкурку с заячьего трупика.
+  %echoaround% %actor% %actor.iname% _ЖЕСТОКО содрал%actor.g% шкуру с бедного зайчишки... 
 end
 ~
 #25522
@@ -532,8 +547,8 @@ end
 2 c 1
 лезть залезть забраться пролезть~
 if !%arg.contains(дупло)%
-%send% %actor% _Не лезь, куда не просят!
-halt
+  %send% %actor% _Не лезь, куда не просят!
+  halt
 end
 %send% %actor% _Вы пригнулись, и полезли в темный лаз.
 %echoaround% %actor% %actor.name% пригнул%actor.u%, и полез%actor.q% в темный лаз у корней ели.
@@ -545,8 +560,8 @@ end
 2 c 1
 лезть залезть забраться пролезть~
 if !%arg.contains(наружу)%
-%send% %actor% _Не лезь, куда не просят!
-halt
+  %send% %actor% _Не лезь, куда не просят!
+  halt
 end
 %send% %actor% _Вы пригнулись, и полезли в тесный лаз.
 %echoaround% %actor% %actor.name% пригнул%actor.u%, и полез%actor.q% наружу.
@@ -559,15 +574,15 @@ end
 ~
 wait 1
 if %actor.affect(верхом или под седлом)%
-%send% %actor% _Ваш скакун оступился, и вы полетели прямо в глубокий овраг!
-%echoaround% %actor% _%actor.name% упал%actor.g% с коня в овраг!
-%send% %actor% _Вы больно ушиблись!
-%echoaround% %actor% _Кто-то с криком упал с мостика!
-wteleport %actor% 25592
-%send% %actor% _Вы больно ушиблись!
-%echoaround% %actor% _Кто-то с криком упал с мостика!
-wdamage %actor% 50
-halt
+  %send% %actor% _Ваш скакун оступился, и вы полетели прямо в глубокий овраг!
+  %echoaround% %actor% _%actor.name% упал%actor.g% с коня в овраг!
+  %send% %actor% _Вы больно ушиблись!
+  %echoaround% %actor% _Кто-то с криком упал с мостика!
+  wteleport %actor% 25592
+  %send% %actor% _Вы больно ушиблись!
+  %echoaround% %actor% _Кто-то с криком упал с мостика!
+  wdamage %actor% 50
+  halt
 end
 ~
 #25525
@@ -575,19 +590,27 @@ end
 2 c 1
 лезть карабкаться залезть взобраться~
 if !%arg.contains()%
-%send% %actor% _Куда вы хотите залезть?
-halt
+  %send% %actor% _Куда вы хотите залезть?
+  halt
 end
 %send% %actor% _Вы вцепились в торчащие отовсюду корни и попытались вылезть из оврага...
 if ( %random.100% < 50 )
-%send% %actor% ...но силенок Вам не хватило - вы упали обратно и ушиблись!
-%damage% %actor% %random.100%
-%echoaround% %actor% %actor.name% попытал%actor.u% вылезти наверх, но сорвал%actor.u% и упал%actor.g%!
+  %send% %actor% ...но силенок Вам не хватило - вы упали обратно и ушиблись!
+  %damage% %actor% %random.100%
+  %echoaround% %actor% %actor.name% попытал%actor.u% вылезти наверх, но сорвал%actor.u% и упал%actor.g%!
 else
-%send% %actor% _Вы взобрались наверх.
-%echoaround% %actor% _%actor.name% ухватил%actor.u% за торчащие отовсюду корни и взобрал%actor.u% наверх.
-%teleport% %actor% 25525
-%echoaround% %actor% _Кто-то вылез из оврага.
+  %send% %actor% _Вы взобрались наверх.
+  %echoaround% %actor% _%actor.name% ухватил%actor.u% за торчащие отовсюду корни и взобрал%actor.u% наверх.
+  %teleport% %actor% 25525
+  %echoaround% %actor% _Кто-то вылез из оврага.
+end
+~
+#25526
+помер пущевик~
+0 f 100
+~
+if %world.curobjs(3368)% < 1 & %random.10000% < 50
+  mload obj 3368
 end
 ~
 $~

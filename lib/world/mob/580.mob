@@ -13,7 +13,7 @@
 и не дышать.
 ~
 b0d0g0l0n0o0p0q0r0t0u0B0f2 d0f0k0m1 0 E
-30 20 -10 5d100+10000 30d3+20
+30 20 -4 5d100+10000 2d2+2
 0d0+0 0
 8 8 1
 BareHandAttack: 6
@@ -25,68 +25,20 @@ Con: 25
 Cha: 15
 Size: 100
 LikeWork: 100
-ExtraAttack: 5
+ExtraAttack: 1
 Class: 105
+Race: 
 Height: 200
-Weight: 180
-Special_Bitvector: w0 
-Skill: 4 100
+Weight: 150
+Special_Bitvector: w0C3 
 Skill: 22 100
-Skill: 132 100
 Skill: 136 100
-Skill: 150 80
 Skill: 157 80
 Spell: 28
 Spell: 28
 Spell: 28
 Spell: 28
 Spell: 36
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 54
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 82
-Spell: 82
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 94
-Spell: 94
-Spell: 94
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
 E
 #58001
 привратник~
@@ -101,8 +53,8 @@ E
 Старый, но не сгорбленный воин в походной кожаной одежде внимательно 
 осматривает всех входящих.
 ~
-b0d0g0o0f2 d0f0k0 0 E
-30 20 -9 2d100+2000 5d5+5
+b0d0g0n0o0B0f2 d0f0k0 0 E
+30 20 -4 2d100+2000 5d5+5
 0d0+0 0
 6 6 1
 Str: 26
@@ -115,8 +67,9 @@ Size: 70
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 80
-Weight: 180
+Weight: 150
 Special_Bitvector: 0 
 Skill: 22 80
 Skill: 136 80
@@ -139,9 +92,9 @@ E
 ~
 Высокий молодой мужик с сильными жилистыми руками и могучими плечами.
 ~
-a0b0d0g0o0f2 d0f0k0 0 E
-30 12 -10 4d100+10000 10d5+5
-100d100+100000 0
+a0b0d0g0n0o0B0f2 d0f0k0 0 E
+30 12 -4 4d100+10000 10d5+5
+100d100+10000 0
 8 8 1
 Str: 34
 Dex: 35
@@ -153,8 +106,9 @@ Size: 90
 LikeWork: 85
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
-Weight: 180
+Weight: 150
 Special_Bitvector: 0 
 Skill: 132 100
 Skill: 136 100
@@ -179,8 +133,8 @@ E
 Немолодой мастер. Глубокие морщинки у глаз придают его лицу добродушное
 выражение.
 ~
-a0b0d0o0f2 d0f0h0k0 0 E
-30 13 -5 5d100+1000 5d5+5
+a0b0d0n0o0B0f2 d0f0h0k0 0 E
+30 13 -4 5d100+1000 5d5+5
 100d100+2000 0
 8 8 1
 Str: 16
@@ -193,8 +147,9 @@ Size: 70
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
-Weight: 160
+Weight: 150
 Special_Bitvector: 0 
 Skill: 22 100
 Skill: 136 80
@@ -217,8 +172,8 @@ E
 ~
 Старый мастер-усмарь. Белая окладистая борода свисает почти до пояса.
 ~
-a0b0d0o0f2 d0f0k0 0 E
-30 6 -5 5d100+1000 5d5+5
+a0b0d0n0o0B0f2 d0f0k0 0 E
+30 6 -4 5d100+1000 5d5+5
 100d100+2000 0
 6 6 1
 Str: 24
@@ -231,8 +186,9 @@ Size: 90
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
-Weight: 180
+Weight: 150
 Special_Bitvector: 0 
 Skill: 4 100
 Skill: 136 80
@@ -256,9 +212,9 @@ E
 Широкий румяный дядька с большой поварешкой в руке и задумчивым выражением
 лица.
 ~
-b0d0o0f2 d0f0h0k0 0 E
-25 12 -5 5d100+1500 5d5+2
-100d100+2000 0
+b0d0n0o0B0f2 d0f0h0k0 0 E
+25 12 -4 5d100+1500 5d5+2
+0d0+0 0
 8 8 1
 Str: 25
 Dex: 24
@@ -270,8 +226,9 @@ Size: 90
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
-Weight: 190
+Weight: 150
 Special_Bitvector: 0 
 Skill: 136 80
 Skill: 157 80
@@ -295,8 +252,8 @@ E
 ~
 Шустрый ловкий мальчонка.
 ~
-b0d0o0f2 d0f0k0 0 E
-25 6 -6 5d100+1400 5d5+2
+b0d0n0o0B0f2 d0f0k0 0 E
+25 6 -4 5d100+1400 5d5+2
 0d0+0 0
 8 8 1
 Str: 21
@@ -309,8 +266,9 @@ Size: 70
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
-Weight: 160
+Weight: 150
 Special_Bitvector: 0 
 Skill: 136 70
 Skill: 157 80
@@ -336,8 +294,8 @@ E
 ~
 Седобородый, осанистый, исполненный достоинства старый слуга.
 ~
-b0d0o0f2 c0d0f0h0k0 0 E
-27 10 -10 2d100+1800 5d5+5
+b0d0n0o0B0f2 c0d0f0h0k0 0 E
+27 10 -4 2d100+1800 5d5+5
 0d0+0 0
 8 8 1
 Str: 23
@@ -350,8 +308,9 @@ Size: 80
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
-Weight: 180
+Weight: 150
 Special_Bitvector: 0 
 Skill: 136 80
 Skill: 157 60
@@ -378,8 +337,8 @@ E
 ~
 Молодой смуглый парень с темными вьющимися волосами.
 ~
-a0b0d0o0f2 d0f0k0 0 E
-30 16 -9 5d100+5000 5d5+5
+a0b0d0n0o0B0f2 d0f0k0 0 E
+30 16 -4 5d100+5000 5d5+5
 0d0+0 0
 8 8 1
 Str: 22
@@ -392,8 +351,9 @@ Size: 90
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
-Weight: 180
+Weight: 150
 Special_Bitvector: 0 
 Skill: 136 100
 Skill: 157 100
@@ -426,8 +386,8 @@ E
 ~
 Высокий седобородый старик с молодыми голубыми глазами.
 ~
-a0b0d0o0f2 c0d0f0h0k0 0 E
-30 19 -9 3d100+5000 5d5+5
+a0b0d0n0o0B0f2 c0d0f0h0k0 0 E
+30 19 -4 3d100+5000 5d5+5
 100d100+2000 0
 8 8 1
 Str: 22
@@ -440,8 +400,9 @@ Size: 90
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
-Weight: 180
+Weight: 150
 Special_Bitvector: 0 
 Skill: 136 100
 Skill: 157 100
@@ -468,8 +429,8 @@ E
 ~
 Шустрый ловкий мальчишка.
 ~
-a0b0d0o0f2 d0f0k0 0 E
-30 18 -10 4d100+1000 5d5+5
+a0b0d0n0o0B0f2 d0f0k0 0 E
+30 18 -4 4d100+1000 5d5+5
 100d100+2000 0
 8 8 1
 Str: 22
@@ -482,8 +443,9 @@ Size: 90
 LikeWork: 90
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
-Weight: 180
+Weight: 150
 Special_Bitvector: 0 
 Skill: 136 80
 Skill: 157 80
@@ -503,8 +465,8 @@ E
 ~
 Высокий хмурый воин в простом кожаном доспехе.
 ~
-b0d0m0o0f2 d0f0h0k0 0 E
-27 20 -6 3d100+1500 5d5+20
+b0d0n0o0B0f2 d0f0h0k0 0 E
+27 20 -4 3d100+1500 5d5+20
 0d0+0 0
 8 8 1
 BareHandAttack: 7
@@ -518,9 +480,10 @@ Size: 70
 LikeWork: 75
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
-Weight: 180
-Special_Bitvector: r1 
+Weight: 150
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 157 80
 Skill: 160 80
@@ -545,8 +508,8 @@ E
 ~
 Красивая молодая девушка с длинной русой косой ниже пояса.
 ~
-a0b0d0m0n0o0f2 d0f0k0 0 E
-30 12 -6 5d100+1000 5d5+5
+a0b0d0n0o0B0f2 d0f0k0 0 E
+30 12 -4 5d100+1000 5d5+5
 0d0+0 0
 8 8 2
 BareHandAttack: 8
@@ -560,8 +523,9 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
-Weight: 160
+Weight: 150
 Special_Bitvector: 0 
 Skill: 136 90
 Skill: 157 100
@@ -597,8 +561,8 @@ E
 ~
 Молодой парень с очень широкими плечами и сильными руками.
 ~
-d0g0l0m0n0o0f2 d0f0h0k0 0 E
-26 13 -6 5d100+1600 5d5+5
+d0g0n0o0B0f2 d0f0h0k0 0 E
+26 13 0 5d100+1600 5d5+5
 0d0+0 0
 8 8 1
 BareHandAttack: 9
@@ -612,9 +576,10 @@ Size: 70
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 160
-Weight: 160
-Special_Bitvector: r1 
+Weight: 150
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 155 80
 Skill: 157 90
@@ -640,8 +605,8 @@ E
 ~
 Огромная черная крыса с красными бегающими глазками.
 ~
-d0g0n0o0f2 d0f0k0s0 0 E
-20 12 -5 2d100+400 2d3+2
+d0g0n0o0B0f2 d0f0k0s0 0 E
+20 12 0 2d100+400 2d3+2
 0d0+0 0
 8 8 2
 BareHandAttack: 4
@@ -655,8 +620,9 @@ Size: 60
 LikeWork: 80
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 160
-Weight: 180
+Weight: 150
 Special_Bitvector: 0 
 Skill: 136 60
 Spell: 28
@@ -677,8 +643,8 @@ E
 ~
 Маленький неопределенного возраста человек.
 ~
-a0b0d0g0n0o0f2 d0f0k0 0 E
-29 12 -6 5d100+1000 5d5+5
+a0b0d0g0n0o0B0f2 d0f0k0 0 E
+29 12 0 5d100+1000 5d5+5
 0d0+0 0
 6 6 1
 Str: 20
@@ -691,8 +657,9 @@ Size: 80
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 160
-Weight: 180
+Weight: 150
 Special_Bitvector: 0 
 Skill: 136 80
 Spell: 28
@@ -721,8 +688,8 @@ E
 ~
 Серый ничем не примечательный голубь.
 ~
-b0d0g0n0o0f2 c0d0f0k0 0 E
-19 12 -7 2d100+200 2d3+4
+b0d0g0n0o0B0f2 c0d0f0k0 0 E
+19 12 -1 2d100+200 2d3+4
 0d0+0 0
 8 8 1
 BareHandAttack: 8
@@ -736,7 +703,8 @@ Size: 50
 LikeWork: 65
 ExtraAttack: 1
 Class: 103
-Height: 20
+Race: 104
+Height: 30
 Weight: 120
 Special_Bitvector: 0 
 Skill: 136 60
@@ -757,8 +725,8 @@ E
 что упав с него вполне возможно сломать себе что-нибудь или вообще головы ли-
 шится...
 ~
-c0d0e0n0o0s0f2 m1 600 E
-30 5 0 40d60+300 2d2+5
+d0e0n0o0p0s0t0f2 0 600 E
+30 5 5 0d0+300 2d2+2
 0d0+0 0
 8 8 1
 Str: 26
@@ -769,12 +737,12 @@ Con: 26
 Cha: 18
 Size: 100
 Class: 103
+Race: 104
 Height: 180
-Weight: 160
+Weight: 150
 Special_Bitvector: p0C3 
-Skill: 5 100
 Skill: 22 50
-Skill: 136 60
+Skill: 136 90
 E
 T 58004
 T 58006
@@ -792,8 +760,8 @@ T 58009
 ~
    Сурового вида мужик с зорким взглядом. Глава стрельцов и их учитель.
 ~
-d0e0g0l0m0n0o0p0q0r0t0u0x0y0f2 d0f0k0p0t0z0A0C0a1m1q1r1 600 E
-30 20 -10 50d100+600 6d8+20
+d0e0g0n0o0p0q0r0t0u0x0y0B0f2 d0f0k0p0z0A0C0a1m1q1 600 E
+30 20 -4 50d100+600 2d2+4
 0d0+0 0
 8 8 1
 Str: 30
@@ -806,13 +774,21 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 5
 Class: 104
+Race: 101
 Height: 180
 Weight: 120
-Special_Bitvector: r1 
+Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 1 200
-Skill: 4 200
-Skill: 5 200
-Skill: 132 100
 Skill: 134 200
 Skill: 136 200
 E
@@ -833,7 +809,7 @@ E
 ~
 b0d0g0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0D0a1m1 0 E
 30 10 -6 30d30+3000 5d5+55
-60d60+100 0
+0d0+0 0
 8 8 1
 Str: 15
 Dex: 10
@@ -844,9 +820,11 @@ Cha: 20
 Size: 50
 LikeWork: 10
 Class: 102
+Race: 101
 Height: 125
 Weight: 80
 Special_Bitvector: i3 
+Skill: 136 90
 E
 #58020
 помощница знахаря~
@@ -862,15 +840,23 @@ E
 Но милая улыбка не сходит с ее лица... Старый знахарь обращается к ней ласково: "Машенька,
 принеси мне следующий отвар".
 ~
-b0d0o0q0r0f2 d0f0k0C0x1 600 E
-26 15 -5 30d100+100 1d1+5
+b0d0n0o0q0r0B0f2 d0f0k0C0x1 600 E
+26 15 0 30d100+100 1d1+5
 0d0+0 0
 8 8 2
+Str: 3
+Dex: 3
+Int: 3
+Wis: 3
+Con: 3
+Cha: 3
 Size: 30
+Class: 102
+Race: 101
 Height: 198
-Weight: 200
-Special_Bitvector: B0i3 
+Weight: 150
+Special_Bitvector: i3 
+Skill: 136 78
 E
-T 58002
 T 58001
 $

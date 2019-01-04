@@ -6,7 +6,7 @@
 грозного стражника~
 грозным стражником~
 грозном стражнике~
-Угрожающего вида страж стоит на охране подступов к Кремлю
+Угрожающего вида страж стоит на охране подступов к Кремлю.
 ~
    Молодой детина, с ручищами как кувалды, грозный на вид. Его лицо не выдает
 ни одна эмоция, он беспристрастен. Но пропустит в кремль он только тех, кто
@@ -277,6 +277,7 @@ Class: 102
 Height: 150
 Weight: 200
 Special_Bitvector: r1 
+Skill: 136 120
 Skill: 157 50
 Spell: 28
 Spell: 28
@@ -328,6 +329,7 @@ Class: 102
 Height: 150
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #72504
 кабатчик~
@@ -359,6 +361,7 @@ Class: 102
 Height: 150
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #72505
 оружейник~
@@ -389,6 +392,7 @@ Class: 102
 Height: 150
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #72506
 седой знахарь~
@@ -420,6 +424,7 @@ Class: 102
 Height: 150
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #72507
 старый ведун~
@@ -451,6 +456,7 @@ Class: 102
 Height: 150
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 T 72502
 #72508
@@ -484,6 +490,7 @@ Class: 102
 Height: 150
 Weight: 200
 Special_Bitvector: i3 
+Skill: 136 90
 E
 #72509
 казначей кремля~
@@ -516,6 +523,7 @@ Class: 102
 Height: 150
 Weight: 200
 Special_Bitvector: i3 
+Skill: 136 90
 E
 #72510
 хранитель сокровищницы~
@@ -548,6 +556,7 @@ Class: 102
 Height: 150
 Weight: 200
 Special_Bitvector: i3 
+Skill: 136 90
 E
 #72511
 охранник кремля~

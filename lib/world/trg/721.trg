@@ -24,7 +24,7 @@ say Ну - пожалуйте на паром.
 foreach target %self.pc%
 msend %target% Вы поднялись на паром.
 msend %target% Подготовивсшись к отплытию, паромщик вместе с помощником принялся тянуть канат.
-mteleport %actor% 72105 horse
+mteleport %target% 72105 horse
 done
 mechoaround %target% Тяжело нагружденый паром причалил к берегу.
 ~

@@ -22,7 +22,7 @@ WORLDS golova842
 0 f 100
 ~
 if (%random.10% == 1)
- mload obj 84230
+  mload obj 84230
 end
 ~
 #84202
@@ -30,7 +30,7 @@ end
 0 f 100
 ~
 if (%random.10% == 1) && (%world.curobjs(84231)% < 2)
- mload obj 84231
+  mload obj 84231
 end
 ~
 #84203
@@ -38,7 +38,7 @@ end
 0 f 100
 ~
 if (%random.10% == 1)
- mload obj 84241
+  mload obj 84241
 end
 ~
 #84204
@@ -46,7 +46,7 @@ end
 0 f 100
 ~
 if %world.curobjs(84243)% < 5 && %random.100% < 15
- mload obj 84243
+  mload obj 84243
 end
 ~
 #84205
@@ -54,7 +54,7 @@ end
 0 f 100
 ~
 if (%random.10% == 1)
- mload obj 84248
+  mload obj 84248
 end
 ~
 #84210
@@ -99,7 +99,7 @@ say  Есть у меня тут идея - снова в мир живых вернуться.
 say Это легко вобще-то. Но, без помощника никак.
 wait 1s
 say  Раз уж ты такой хороший человек, что помочь решил добровольно, то поищи 
-say подходящие  части для моего будующего тела. Голову же принеси только
+say подходящие  части для моего будущего тела. Голову же принеси только
 say от принца. Или от короля на крайний случай. Там внутри места много, 
 say а мне только того и надо.
 wait 1s
@@ -163,8 +163,8 @@ if ((%nogi842%==1) && (%ruki842%==1) && (%glaza842%==1) && (%telo842%==1) && (%g
   mecho Части тела лежавшие в углублении начали срастаться.
   mecho Дух озарился нестерпимо ярким светом и слился с мертвым телом воедино.
   mload mob 84217
-dg_affect %actor% интеллект подчинить_разум -5 0
-   dg_affect %actor% сила подчинить_разум -5 0
+  dg_affect %actor% интеллект подчинить_разум -5 0
+  dg_affect %actor% сила подчинить_разум -5 0
   mecho Прекрасный принц встал на ноги.
   mpurge %self% 
   halt
@@ -173,8 +173,8 @@ if ((%nogi842%==1) && (%ruki842%==1) && (%glaza842%==1) && (%telo842%==1) && (%g
   mecho Части тела лежавшие в углублении начали срастаться.
   mecho Дух дьявольски захохотал, и в клубах красного дыма вошел в мертвое тело.
   mload mob 84218
-dg_affect %actor% интеллект подчинить_разум -5 0
-   dg_affect %actor% сила подчинить_разум -5 0
+  dg_affect %actor% интеллект подчинить_разум -5 0
+  dg_affect %actor% сила подчинить_разум -5 0
   mecho Ужасный принц встал на ноги.
   mpurge %self% 
   halt
@@ -217,7 +217,8 @@ wait 2s
 г А заодно избавь мир от великого зла!
 улы
 wait 1s
-mteleport все 84257
+mteleport all 84257 horse
+wait 1
 mpurge %self%
 ~
 #84215
@@ -233,7 +234,8 @@ wait 2s
 г А по дороге убей всех кого встретишь.
 хох
 wait 1s
-mteleport все 84260
+mteleport all 84260 horse
+wait 1
 mpurge %self%
 ~
 #84220
@@ -242,7 +244,7 @@ mpurge %self%
 ~
 wait 1
 if (%world.curmobs(84203)% > 0 )
- halt
+  halt
 end
 wportal 84244 2
 wecho Наступила могильная тишина и могильный воздух заставил Вас передернуться.
@@ -272,13 +274,13 @@ mload obj 84215
 ~
 wait 1
 if (%world.curmobs(84211)% > 0 )
- halt
+  halt
 end
 if (%world.curmobs(84212)% > 0 )
- halt
+  halt
 end
 if (%world.curmobs(84213)% > 0 )
- halt
+  halt
 end
 wportal 84244 2
 wecho Наступила могильная тишина и могильный воздух заставил Вас передернуться.
@@ -287,16 +289,11 @@ eval portal842 3
 WORLDS portal842
 ~
 #84231
-ангелы - убили серафима~
+убили джинна-охранника~
 0 f 100
 ~
 mecho Только руки из воздуха остались на месте монстра.
 mload obj 84225
-if %random.100% < 3
-if %world.curobjs(1238)% < 1
-mload obj 1238
-end
-end
 ~
 #84232
 ангелы - убили хранителя~
@@ -311,13 +308,13 @@ mload obj 84226
 ~
 wait 1
 if (%world.curmobs(84214)% > 0 )
- halt
+  halt
 end
 if (%world.curmobs(84215)% > 0 )
- halt
+  halt
 end
 if (%world.curmobs(84216)% > 0 )
- halt
+  halt
 end
 wportal 84244 2
 wecho Наступила могильная тишина и могильный воздух заставил Вас передернуться.
@@ -350,17 +347,14 @@ wportal 84243 2
 Настоятельница храма RIP~
 0 f 100
 *~
-if %world.curobjs(1248)% < 1 && %random.100% < 3
-mload obj 1248
-end
 *if (%world.curobjs(579)% < 10) & (%random.10% <= 1)
 *mload obj 579
 *end
 if (%world.curobjs(84232)% < 5) && (%random.10% <= 2)
-   mload obj 84232
+  mload obj 84232
 end
 if (%world.curobjs(84233)% < 5) && (%random.10% <= 2)
-   mload obj 84233
+  mload obj 84233
 end
 ~
 #84260
@@ -374,19 +368,14 @@ wportal 84243 2
 маги - лоад буки~
 0 f 100
 *~
-if %world.curobjs(1273)% < 2
-if %random.100% < 3
-mload obj 1273
-end
-end
 if (%world.curobjs(582)% < 10) && (%random.10% <= 1)
-   mload obj 582
+  mload obj 582
 end
 if (%world.curobjs(84234)% < 5) && (%random.10% <= 2)
-   mload obj 84234
+  mload obj 84234
 end
 if (%world.curobjs(84235)% < 5) && (%random.10% <= 2)
-   mload obj 84235
+  mload obj 84235
 end
 ~
 $~

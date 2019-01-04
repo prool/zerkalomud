@@ -43,9 +43,9 @@ E
 летучую мышь~
 летучей мышью~
 летучей мыши~
-Большая летучая мышь висит под потолком
+Большая летучая мышь висит под потолком.
 ~
-Дальний родственик вампиров.
+Дальний родственник вампиров.
 ~
 d0f0g0o0x0b1 d0k0t0x0 -600 E
 20 0 0 0d0+1000 5d6+5
@@ -65,6 +65,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: l0 
+Skill: 136 60
 Spell: 25
 E
 #84202
@@ -75,7 +76,7 @@ E
 летунов~
 летунами~
 летунах~
-Громандное количество летунов хочет наброситься на вас.
+Громадное количество летунов хочет наброситься на вас.
 ~
 Огромная стая кожистокрылых тварей.
 ~
@@ -97,6 +98,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: l0 
+Skill: 136 45
 E
 #84203
 мудрый дракон~
@@ -130,6 +132,7 @@ Class: 100
 Height: 198
 Weight: 200
 Special_Bitvector: l0x0 
+Skill: 136 120
 Spell: 10
 Spell: 10
 Spell: 10
@@ -180,6 +183,7 @@ Class: 100
 Height: 198
 Weight: 10
 Special_Bitvector: c0 
+Skill: 136 120
 E
 T 84210
 T 84211
@@ -196,7 +200,7 @@ T 84212
 ~
 Членистоногая тварь огромных размеров.
 ~
-b0d0e0f0g0n0o0x0 k0 -600 E
+b0d0e0f0g0n0o0x0f2 k0 -600 E
 25 0 -6 0d0+2000 5d5+8
 0d0+0 100000
 8 8 1
@@ -214,6 +218,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: a0b0c0d0g0 
 Skill: 132 100
+Skill: 136 75
 Spell: 25
 Spell: 25
 Spell: 37
@@ -251,6 +256,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 75
 Skill: 137 50
 Skill: 146 100
 Spell: 33
@@ -285,6 +291,7 @@ Class: 101
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 28
 Spell: 28
 Spell: 48
@@ -326,6 +333,7 @@ Special_Bitvector: a0b0c0d0b1c1
 Skill: 12 100
 Skill: 22 100
 Skill: 134 100
+Skill: 136 90
 Skill: 137 100
 Skill: 143 100
 Skill: 144 100
@@ -359,6 +367,7 @@ Class: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 90
 Spell: 5
 Spell: 5
 Spell: 5
@@ -405,6 +414,7 @@ Height: 198
 Weight: 145
 Special_Bitvector: j0 
 Skill: 132 70
+Skill: 136 75
 Skill: 154 100
 Skill: 155 100
 Skill: 156 100
@@ -439,15 +449,25 @@ Class: 104
 Height: 198
 Weight: 200
 Special_Bitvector: x0b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 12 100
 Skill: 22 100
-Skill: 136 100
+Skill: 136 90
 Skill: 137 100
 Skill: 143 100
 Skill: 144 100
-Helper: 84234
-Helper: 84233
 Helper: 84229
+Helper: 84233
+Helper: 84234
 E
 #84212
 огненный ифрит~
@@ -477,6 +497,17 @@ Class: 104
 Height: 198
 Weight: 80
 Special_Bitvector: u0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 75
 Spell: 28
 Spell: 28
 Spell: 48
@@ -500,7 +531,7 @@ T 84232
 ~
 Шестилапая огненная тварь, изрыгающая пламя.
 ~
-b0d0g0m0o0z0a2 k0p1 -600 E
+b0d0g0m0n0o0a2 k0p1 -600 E
 25 0 -2 0d0+1400 5d3+7
 0d0+50 160000
 8 8 1
@@ -519,9 +550,10 @@ Height: 198
 Weight: 100
 Special_Bitvector: x0 
 Skill: 132 80
+Skill: 136 75
 Skill: 146 100
-Helper: 84212
 Helper: 84211
+Helper: 84212
 E
 T 84203
 L 1241 25 0 0
@@ -532,7 +564,7 @@ L 1421 12 0 0
 красавицы~
 красавице~
 красавицу~
-красавицой~
+красавицей~
 красавице~
 Очень бледная девушка в белом платье играет на арфе.
 ~
@@ -555,6 +587,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: a0b0c0d0e0f0b1c1 
+Skill: 136 84
 Spell: 28
 Spell: 28
 Spell: 33
@@ -566,9 +599,9 @@ Spell: 67
 Spell: 67
 Spell: 94
 Spell: 113
-Helper: 84232
-Helper: 84231
 Helper: 84230
+Helper: 84231
+Helper: 84232
 E
 T 84241
 #84215
@@ -629,7 +662,7 @@ b0c0d0g0m0o0 k0 -600 E
 Str: 25
 Dex: 25
 Int: 18
-Wis: 18
+Wis: 32
 Con: 25
 Cha: 18
 Size: 100
@@ -679,6 +712,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 66
 E
 T 84214
 #84218
@@ -709,6 +743,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 87
 Spell: 56
 Spell: 56
 E
@@ -742,6 +777,7 @@ Class: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 28
 Spell: 28
 Spell: 28
@@ -783,6 +819,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 12 100
+Skill: 136 90
 Skill: 137 100
 E
 T 84201
@@ -814,6 +851,7 @@ Class: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 28
 Spell: 28
 Spell: 28
@@ -855,6 +893,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: u0 
+Skill: 136 90
 Spell: 23
 Spell: 23
 Spell: 23
@@ -897,11 +936,12 @@ Weight: 200
 Special_Bitvector: 0 
 Skill: 12 100
 Skill: 132 50
+Skill: 136 90
 Skill: 137 150
 Spell: 82
-Helper: 84227
-Helper: 84226
 Helper: 84221
+Helper: 84226
+Helper: 84227
 E
 T 84261
 #84224
@@ -910,7 +950,7 @@ T 84261
 настоятельницы храма Сатаны~
 настоятельнице храма Сатаны~
 настоятельницу храма Сатаны~
-настоятельницой храма Сатаны~
+настоятельницей храма Сатаны~
 настоятельнице храма Сатаны~
 Настоятельница Храма Сатаны готова испепелить живую плоть.
 ~
@@ -933,6 +973,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 10
 Spell: 10
 Spell: 10
@@ -943,9 +984,9 @@ Spell: 67
 Spell: 67
 Spell: 67
 Spell: 93
-Helper: 84219
-Helper: 84225
 Helper: 84220
+Helper: 84225
+Helper: 84219
 E
 T 84251
 #84225
@@ -977,6 +1018,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 23
 Spell: 54
 Spell: 54
@@ -1015,6 +1057,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 10
 Spell: 10
 Spell: 10
@@ -1056,6 +1099,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 23
 Spell: 54
 Spell: 54
@@ -1095,6 +1139,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 66
 Spell: 30
 Spell: 30
 Spell: 30
@@ -1127,6 +1172,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 137 100
 Spell: 10
 Spell: 10
@@ -1161,6 +1207,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 137 100
 Skill: 154 100
 Skill: 155 100
@@ -1197,6 +1244,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 137 100
 Skill: 154 100
 Skill: 155 100
@@ -1233,6 +1281,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 137 100
 Skill: 154 100
 Skill: 155 100
@@ -1267,6 +1316,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 137 100
 Spell: 10
 Spell: 10
@@ -1299,6 +1349,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 137 100
 Spell: 10
 Spell: 10
@@ -1332,6 +1383,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 66
 Spell: 30
 Spell: 30
 Spell: 30
@@ -1365,6 +1417,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 66
 Spell: 30
 Spell: 30
 Spell: 30
@@ -1398,6 +1451,7 @@ Class: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b0u0 
+Skill: 136 87
 Spell: 27
 Spell: 27
 Spell: 76
@@ -1436,6 +1490,7 @@ Class: 100
 Height: 198
 Weight: 80
 Special_Bitvector: c0u0 
+Skill: 136 90
 Spell: 15
 Spell: 56
 Spell: 94
@@ -1474,6 +1529,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: b0c0u0b1c1 
+Skill: 136 147
 Skill: 157 100
 Skill: 160 100
 Spell: 17
@@ -1488,16 +1544,17 @@ Spell: 88
 Spell: 93
 Spell: 124
 Spell: 132
-Helper: 84236
-Helper: 84235
 Helper: 84228
+Helper: 84235
+Helper: 84236
 E
 T 84231
+L 1745 7 0 0
 #84245
 гурия~
 гурия~
 гурии~
-гурие~
+гурии~
 гурию~
 гурией~
 гурии~
@@ -1524,6 +1581,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: b0c0l0u0 
+Skill: 136 75
 Skill: 150 120
 Skill: 157 100
 Skill: 160 100
@@ -1568,27 +1626,29 @@ Class: 103
 Height: 198
 Weight: 100
 Special_Bitvector: x0 
+Skill: 136 75
 Skill: 137 80
 Spell: 37
 Spell: 56
 Spell: 75
 Spell: 124
 E
+I крылья:8
 #84247
-огненая птица~
-огненая птица~
-огненой птицы~
-огненой птице~
-огненую птицу~
-огненой птицой~
-огненой птице~
+огненная птица~
+огненная птица~
+огненной птицы~
+огненной птице~
+огненную птицу~
+огненной птицой~
+огненной птице~
 Птица размером с теленка и перьями из огня сидит на гнезде.
 ~
-Каждое перо этой птички представляет собой 
+Каждое перо этой птички представляет собой
 язычек алого пламени, рядом находиться
 просто невозможно - обдает нестерпимым жаром.
 ~
-b0d0f0g0l0m0o0x0 d0k0 -600 E
+b0d0f0g0l0m0o0x0f2 d0k0 -600 E
 28 0 -10 4d4+6000 5d5+9
 0d0+0 400000
 8 8 2
@@ -1605,12 +1665,14 @@ Class: 103
 Height: 198
 Weight: 100
 Special_Bitvector: l0x0 
+Skill: 136 84
 Skill: 137 120
 Skill: 157 100
 Spell: 88
 Spell: 93
 Helper: 84246
 E
+I крылья:4
 #84248
 огненный птах~
 огненный птах~
@@ -1644,6 +1706,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: l0x0 
 Skill: 132 30
+Skill: 136 90
 Spell: 16
 Spell: 16
 Spell: 16
@@ -1653,4 +1716,5 @@ Spell: 26
 Spell: 67
 Spell: 67
 E
+I крылья:2
 $

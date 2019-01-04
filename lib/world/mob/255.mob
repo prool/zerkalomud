@@ -31,6 +31,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: i0j0b1c1 
+Skill: 136 54
 E
 #25502
 кузнец верхослав~
@@ -65,6 +66,7 @@ Weight: 150
 Special_Bitvector: 0 
 Skill: 5 100
 Skill: 132 150
+Skill: 136 102
 Skill: 141 100
 Skill: 142 100
 Skill: 143 100
@@ -85,7 +87,6 @@ Spell: 89
 E
 T 25508
 T 25503
-T 1304
 #25503
 велесов волхв~
 велесов волхв~
@@ -116,6 +117,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 135
 E
 #25504
 кузнец верхослав~
@@ -148,6 +150,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 5 100
 Skill: 132 150
+Skill: 136 102
 Skill: 141 100
 Skill: 142 100
 Skill: 143 100
@@ -167,7 +170,6 @@ Spell: 38
 Spell: 89
 E
 T 25508
-T 1303
 #25505
 перунов волхв~
 перунов волхв~
@@ -200,6 +202,7 @@ Class: 102
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 135
 E
 #25506
 зловредный змей~
@@ -231,6 +234,7 @@ Class: 101
 Height: 30
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 105
 Spell: 72
 Spell: 72
 Spell: 72
@@ -271,6 +275,7 @@ Class: 101
 Height: 30
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 105
 E
 T 25513
 #25508
@@ -303,6 +308,7 @@ Class: 101
 Height: 30
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 105
 Helper: 25509
 E
 #25509
@@ -336,6 +342,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 78
 E
 #25510
 молодой леший~
@@ -368,6 +375,7 @@ Class: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 105
 E
 T 25510
 #25511
@@ -431,6 +439,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
+Skill: 136 30
 E
 #25513
 шустрая белка~
@@ -460,6 +469,7 @@ Class: 103
 Height: 30
 Weight: 20
 Special_Bitvector: n0 
+Skill: 136 24
 E
 #25514
 лесной зайчишка заяц~
@@ -489,6 +499,7 @@ Class: 103
 Height: 40
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 36
 E
 T 25600
 T 25521
@@ -521,6 +532,7 @@ Class: 103
 Height: 100
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 3
 E
 #25516
 медведь~
@@ -584,6 +596,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 132 50
+Skill: 136 57
 Skill: 157 60
 E
 L 1481 10 0 0
@@ -616,6 +629,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
+Skill: 136 30
 E
 #25519
 пущевик~
@@ -634,7 +648,7 @@ E
 сверкают горящие уголья глаз.
 ~
 b0d0f0l0n0o0A0 d0f0k0m1 -600 E
-25 4 -4 10d25+400 5d7+11
+25 4 -4 10d25+400 5d30+11
 0d0+400 73000
 8 8 1
 BareHandAttack: 2
@@ -670,4 +684,5 @@ Spell: 54
 Spell: 54
 Spell: 64
 E
+T 25526
 $

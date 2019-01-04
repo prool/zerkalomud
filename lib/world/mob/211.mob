@@ -1,0 +1,829 @@
+#21100
+ Помощница воеводы~
+Помощница воеводы~
+Помощницы воеводыа~
+Помощнице воеводыу~
+Помощницу воеводы~
+Помощницей воеводыом~
+Помощнице воеводые~
+Девчина подготавливает ваши покои.
+~
+Дородная девчина, помогающая по хозяйству воеводе.
+~
+b0d0g0n0o0p0r0u0x0B0o1f2g2i2u2 0 0 E
+10 0 10 10d10+100 0d0+0
+0d0+0 0
+8 8 2
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#21101
+ Воевода~
+Воевода~
+Воеводы~
+Воеводе~
+Воеводу~
+Воеводой~
+Воеводе~
+Величественный хозяин замка наблюдает за присходящим.
+~
+Высокий мужчина, зрелого возраста, с большим шрамом на щеке. 
+Постоянно контролирующий свои владения, держа все в ежевых
+рукавицах. Если бы не он, то в замке была бы разруха.
+~
+b0d0g0n0o0p0r0u0x0B0o1s1t1f2i2u2 0 0 E
+20 5 5 10d10+1000 0d1+0
+0d0+0 0
+8 8 1
+Str: 15
+Dex: 15
+Int: 15
+Wis: 15
+Con: 15
+Cha: 15
+Size: 100
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#21102
+ Кашевар Пафнутий~
+Кашевар Пафнутий~
+Кашевара Пафнутого~
+Кашевару Пафнутому~
+Кашевар Пафнутий~
+Кашеваром Пафнутим~
+Кашеваре Пафнутом~
+Кашевар Пафнутий варит кашу.
+~
+Среднего роста человек. Одет в чистый белый фартук, 
+на голове поварской колпак. Варит гречнивую кашу с мясом.
+~
+a0b0d0B0f2 0 0 E
+15 0 0 10d100+2 0d0+0
+0d0+15000 0
+8 8 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#21103
+ Молодая деваха~
+Молодая деваха~
+Молодой девахи~
+Молодой девахе~
+Молодую деваху~
+Молодой девахой~
+Молодой девахе~
+Молодая деваха печет хлеб.
+~
+Среднего роста девушка. Своими тонкими, но и в тоже самое время крепкими
+ручками месит тесто, что бы испеч ароматный хлеб и 
+накормить им защитников дружины.
+~
+d0n0o0f2u2 0 0 E
+15 0 0 10d100+1000 0d0+0
+0d0+0 0
+8 8 2
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#21104
+ Кузнец Никола~
+Кузнец Никола~
+Кузнеца Никола~
+Кузнецу Никола~
+Кузнец Никола~
+Кузнецом Никола~
+Кузнеце Никола~
+Кузнец стоит у наковальни
+~
+Огромного вида мужчина с огромными руками 
+в которых держит кузнечный молот.
+~
+b0d0g0n0o0p0r0u0t1f2g2i2 d0k0n1o1p1q1r1x1y1z1 0 E
+25 4 -3 0d0+1000 3d4+10
+0d0+30000 0
+8 8 1
+Str: 50
+Dex: 17
+Int: 10
+Wis: 10
+Con: 34
+Cha: 29
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 175
+Weight: 100
+Special_Bitvector: 0 
+E
+#21105
+ Старый алхимик~
+Старый алхимик~
+Старого алхимика~
+Старому алхимику~
+Старый алхимик~
+Старым алхимиком~
+Старом алхимике~
+Старый алхимик варит зелье.
+~
+Маленький человек, с длинной бородой. 
+Варит свои зелья для доблестных воинов.
+~
+b0d0g0n0o0p0r0u0x0o1s1f2g2 0 0 E
+25 0 0 10d100+2 0d0+0
+0d0+15000 0
+8 8 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#21106
+ Главный конюх~
+Главный конюх~
+Главного конюха~
+Главному конюху~
+Главный конюх~
+Главным конюхом~
+Главном конюхе~
+Главный конюх отдыхает здесь.
+~
+
+~
+b0d0n0o0f2u2 0 0 E
+10 1 0 10d10+100 0d0+0
+0d0+0 0
+8 8 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#21107
+ Молодой конюх~
+Молодой конюх~
+Молодого конюха~
+Молодому конюху~
+Молодой конюх~
+Молодым конюхом~
+Молодом конюхе~
+Молодой конюх уберает навоз.
+~
+Молодой высокорослый парень убирает какашки за лошадками.
+~
+b0d0n0o0f2u2 0 0 E
+5 0 0 10d10+2 0d0+0
+0d0+0 0
+8 8 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#21108
+поп~
+Поп~
+Попа~
+Попу~
+Поп~
+Попом~
+Попе~
+Поп, стоя на коленях, читает молитву.
+~
+Высокий человек одет в длинную рясу, 
+стоит на коленях перед огромным идолом и молиться.
+~
+d0n0o0f2u2 0 0 E
+8 0 0 10d10+2 0d0+0
+0d0+0 0
+8 8 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#21109
+ Толстый страж~
+Толстый страж~
+Толстого стража~
+Толстому стражу~
+Толстый страж~
+Толстым стражем~
+Толстом страже~
+Толстый страж сидит тут на стуле.
+~
+Толстый страж сидит тут охраняя связку ключей от потайной двери в замке
+~
+a0b0d0e0g0l0n0o0p0q0r0t0u0x0z0B0a1b1s1t1d2f2g2h2i2u2 c0d0e0f0g0h0k0m0n0r0z0A0C0D0c1k1m1r1t1u1w1x1y1z1c2d2e2 0 E
+50 30 0 20d20+10000 20d20+50
+0d0+0 0
+6 6 1
+Saves: 200 200 200 200
+Resistances: 200 200 200 200 200 200 200
+HPreg: 200
+Armour: 100
+PlusMem: 200
+CastSuccess: 200
+Success: 200
+Initiative: 200
+Absorbe: 200
+BareHandAttack: 9
+Str: 50
+Dex: 50
+Int: 50
+Wis: 50
+Con: 50
+Cha: 50
+Size: 100
+LikeWork: 5
+ExtraAttack: 8
+Class: 105
+Race: 105
+Height: 175
+Weight: 85
+Special_Bitvector: g0B3 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 5
+Feat: 6
+Feat: 7
+Feat: 8
+Feat: 9
+Feat: 10
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 15
+Feat: 16
+Feat: 17
+Feat: 18
+Feat: 19
+Feat: 20
+Feat: 21
+Feat: 22
+Feat: 23
+Feat: 24
+Feat: 25
+Feat: 26
+Feat: 27
+Feat: 28
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Feat: 39
+Feat: 40
+Feat: 41
+Feat: 42
+Feat: 43
+Feat: 44
+Feat: 45
+Feat: 46
+Feat: 47
+Feat: 48
+Feat: 49
+Feat: 50
+Feat: 51
+Feat: 52
+Feat: 53
+Feat: 54
+Feat: 55
+Feat: 56
+Feat: 57
+Feat: 58
+Feat: 59
+Feat: 60
+Feat: 61
+Feat: 62
+Feat: 63
+Feat: 64
+Feat: 65
+Feat: 66
+Feat: 67
+Feat: 68
+Feat: 69
+Feat: 70
+Feat: 71
+Feat: 72
+Feat: 73
+Feat: 74
+Feat: 75
+Feat: 76
+Feat: 77
+Feat: 78
+Feat: 79
+Feat: 80
+Feat: 81
+Skill: 21 200
+Skill: 155 200
+Skill: 167 200
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+E
+#21110
+ Большая подвальная крыса~
+Большая подвальная крыса~
+Большей подвальной крысы~
+Большей подвальной крысе~
+Большую подвальную крысу~
+Большей подвальной крысой~
+Большей подвальной крысе~
+Большая подвальная крыса ишет бегает тут.
+~
+
+~
+d0n0o0f2u2 0 0 E
+50 0 0 100d100+1000 1d1+1
+0d0+0 0
+8 8 2
+BareHandAttack: 4
+Destination: 21191
+Destination: 21192
+Destination: 21193
+Destination: 21194
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 50
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 103
+Race: 104
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#21111
+ Средняя кладовая мышь~
+Средняя кладовая мышь~
+Средней кладовой мышьа~
+Средней кладовой мышю~
+Среднюю кладовую мышя~
+Средней кладовой мышем~
+Средней кладовой мыше~
+Средних размеров мышь бегает тут.
+~
+
+~
+d0n0o0f2u2 0 0 E
+25 0 0 100d100+500 0d0+0
+0d0+0 0
+8 8 2
+BareHandAttack: 4
+Destination: 21191
+Destination: 21192
+Destination: 21193
+Destination: 21194
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 16
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 103
+Race: 104
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#21112
+ Маленькая кладовая мышка~
+Маленькая кладовая мышка~
+Маленькой кладовой мышки~
+Маленькой кладовой мышке~
+Маленькую кладовую мышку~
+Маленькой кладовой мышкой~
+Маленькой кладовой мышке~
+Маленькая кладовая мышка бегает тут.
+~
+
+~
+d0n0o0f2u2 0 0 E
+15 0 0 10d10+100 1d1+1
+0d0+0 0
+8 8 2
+BareHandAttack: 4
+Destination: 21191
+Destination: 21192
+Destination: 21193
+Destination: 21194
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 103
+Race: 104
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#21113
+ Большой дозорный воин~
+Большой дозорный воин~
+Большого дозорного воина~
+Большому дозорному воину~
+Большой дозорный воин~
+Большим дозорным воином~
+Большом дозорном воине~
+Большой дозорный воин стоит тут.
+~
+
+~
+b0d0n0o0B0f2u2 c0d0e0f0p0z0c1k1 0 E
+30 1 -5 10d10+1200 1d2+2
+0d0+0 0
+8 8 1
+Str: 35
+Dex: 44
+Int: 14
+Wis: 16
+Con: 24
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: i3 
+E
+T 21111
+#21114
+ Средний дозорный воин~
+Средний дозорный воин~
+Среднего дозорного воина~
+Среднему дозорному воину~
+Средний дозорный воин~
+Средним дозорным воином~
+Среднем дозорном воине~
+Средних размеров воин прячется тут.
+~
+
+~
+b0d0n0o0f2u2 b0c0d0e0f0g0p0s0t0z0A0j1 0 E
+39 0 0 10d10+2 0d0+0
+0d0+0 0
+8 8 0
+Str: 47
+Dex: 23
+Int: 30
+Wis: 27
+Con: 22
+Cha: 30
+Size: 100
+ExtraAttack: 1
+Class: 100
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: i3 
+E
+T 21119
+#21115
+ Маленький дозорный воин~
+Маленький дозорный воин~
+Маленького дозорного воина~
+Маленькому дозорному воину~
+Маленький дозорный воин~
+Маленьким дозорным воином~
+Маленьком дозорном воине~
+Маленький дозорный воин учится прятаться.
+~
+
+~
+b0d0n0o0f2u2 b0c0d0e0f0g0p0t0z0A0j1k1 0 E
+17 0 0 10d10+2 0d0+0
+0d0+0 0
+8 8 0
+Str: 24
+Dex: 14
+Int: 24
+Wis: 14
+Con: 15
+Cha: 16
+Size: 100
+ExtraAttack: 1
+Class: 100
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: i3 
+E
+T 21120
+#21116
+шут гороховый~
+Шут гороховый~
+Шута горохового~
+Шуту гороховому~
+Шут гороховый~
+Шутом гороховым~
+Шуте гороховом~
+Царский Шут бегает тут, надоедая всем подряд.
+~
+
+~
+d0n0o0f2u2 0 0 E
+1 0 0 10d10+2 0d0+0
+0d0+0 0
+8 8 1
+Destination: 21100
+Destination: 21101
+Destination: 21102
+Destination: 21103
+Destination: 21104
+Destination: 21105
+Destination: 21106
+Destination: 21107
+Destination: 21108
+Destination: 21109
+Destination: 21110
+Destination: 21111
+Destination: 21112
+Destination: 21113
+Destination: 21114
+Destination: 21115
+Destination: 21116
+Destination: 21117
+Destination: 21120
+Destination: 21121
+Destination: 21122
+Destination: 21127
+Destination: 21129
+Destination: 21130
+Destination: 21132
+Destination: 21140
+Destination: 21141
+Destination: 21142
+Destination: 21143
+Destination: 21144
+Destination: 21145
+Destination: 21146
+Destination: 21147
+Destination: 21148
+Destination: 21149
+Destination: 21150
+Destination: 21151
+Destination: 21152
+Destination: 21153
+Destination: 21154
+Destination: 21155
+Destination: 21156
+Destination: 21157
+Destination: 21158
+Destination: 21159
+Destination: 21160
+Destination: 21161
+Destination: 21162
+Destination: 21163
+Destination: 21164
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 100
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: i3 
+E
+T 21102
+#21117
+ Высокий лучник~
+Высокий лучник~
+Высокого лучника~
+Высокому лучнику~
+Высокий лучник~
+Высоким лучником~
+Высоком лучнике~
+Высокий лучник с луком на изготове.
+~
+Высокий лучник, в кожаных доспехах, с эмблемой Тотьмемской Заставы.
+Держа лук на изготове наблюдает с вышки.
+~
+b0d0n0o0f2u2 0 0 E
+15 10 -10 10d10+2 0d0+0
+0d0+0 0
+8 8 1
+BareHandAttack: 9
+Str: 15
+Dex: 10
+Int: 10
+Wis: 15
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#21118
+ Мускулистый десятник~
+Мускулистый десятник~
+Мускулистого десятника~
+Мускулистому десятнику~
+Мускулистый десятник~
+Мускулистым десятником~
+Мускулистом десятнике~
+Мускулистый десятник в элитных доспехах.
+~
+Мускулистый десятник в элитных доспехах, с эмблемой Тотьмемской Заставы, 
+прогуливается по улицам замка. Глядя на него, все понимают, что у него за
+плечами не одна сотня битв. 
+~
+d0n0o0f2u2 0 0 E
+20 15 -5 10d10+1000 -56d0+0
+0d0+0 0
+8 8 1
+BareHandAttack: 3
+Str: 22
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+$

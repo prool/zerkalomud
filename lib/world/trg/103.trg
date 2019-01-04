@@ -131,7 +131,6 @@ global weapon
 <103 Смерть рыцаря>~
 0 f 100
 ~
-mpurge копье
 if  (%world.curobjs(10325)% < 10) && (%random.100% <= 4)
     mload obj 10325
 elseif (%world.curobjs(10317)% < 10) && (%random.100% <= 4)

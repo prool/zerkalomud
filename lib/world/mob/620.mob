@@ -31,6 +31,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
+Skill: 136 99
 E
 #62001
 молоденькая служаночка~
@@ -61,6 +62,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #62002
 золотых дел мастер~
@@ -93,6 +95,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 99
 E
 #62003
 молодой охранник~
@@ -165,6 +168,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
+Skill: 136 99
 E
 T 62020
 #62005
@@ -196,6 +200,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 99
 E
 #62006
 коваль~
@@ -228,6 +233,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
+Skill: 136 99
 E
 #62007
 хромой приказчик~
@@ -259,6 +265,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
+Skill: 136 99
 E
 #62008
 старик~
@@ -293,7 +300,9 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 99
 E
+T 62034
 #62009
 старый волхв~
 старый волхв~
@@ -326,6 +335,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 102
 E
 T 62001
 #62010
@@ -358,6 +368,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 102
 E
 T 62002
 #62011
@@ -390,6 +401,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 87
 E
 #62012
 распорядитель турниров~
@@ -421,6 +433,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 102
 E
 T 62003
 T 62005
@@ -477,7 +490,7 @@ b0d0g0m0n0o0p0r0f2 d0f0k0a1 0 E
 0d0+200 100000
 8 8 1
 Str: 26
-Dex: 29
+Dex: 35
 Int: 15
 Wis: 16
 Con: 24
@@ -491,6 +504,7 @@ Weight: 85
 Special_Bitvector: C3 
 Skill: 22 100
 Skill: 132 150
+Skill: 136 87
 Skill: 157 100
 E
 T 62009
@@ -527,6 +541,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1C3 
 Skill: 22 80
+Skill: 136 66
 Skill: 137 100
 Skill: 151 80
 E
@@ -564,6 +579,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 75
 Skill: 150 80
 Helper: 62016
 Helper: 62016
@@ -601,6 +617,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 21 20
+Skill: 136 75
 Skill: 157 100
 Helper: 62017
 Helper: 62017
@@ -638,6 +655,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 78
 E
 #62019
 кликуша~
@@ -704,7 +722,18 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 70
+Skill: 136 75
 Skill: 142 80
 Skill: 144 80
 Skill: 158 80
@@ -739,8 +768,19 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 80
 Skill: 132 90
+Skill: 136 75
 E
 #62022
 городской стражник~
@@ -774,6 +814,17 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 81
 Skill: 151 100
 E
 T 62006
@@ -794,7 +845,7 @@ T 62011
 приставленный князем охранять поруб.
 ~
 b0d0l0n0p0 d0f0k0r0a1 0 E
-29 3 -8 10d20+5000 6d25+12
+29 3 -8 10d20+5000 14d25+12
 0d0+0 50000
 8 8 1
 Str: 27
@@ -810,7 +861,20 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 100
+Skill: 21 50
+Skill: 22 150
+Skill: 136 87
 Skill: 150 100
 Skill: 160 100
 Spell: 4
@@ -863,7 +927,18 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 134 80
+Skill: 136 75
 Skill: 143 70
 Skill: 151 70
 E
@@ -897,6 +972,17 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 75
 Skill: 157 70
 Skill: 160 80
 Skill: 167 70
@@ -930,6 +1016,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: i0 
+Skill: 136 75
 Skill: 138 200
 Skill: 156 80
 Skill: 160 80
@@ -964,6 +1051,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #62028
 малое дите~
@@ -997,6 +1085,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
+Skill: 136 60
 E
 #62029
 старик~
@@ -1029,6 +1118,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 4 150
+Skill: 136 60
 Skill: 150 100
 Spell: 81
 E
@@ -1064,6 +1154,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 134 100
+Skill: 136 60
 E
 #62031
 холоп~
@@ -1094,6 +1185,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 150 100
 E
 #62032
@@ -1125,8 +1217,19 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: i0a1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 131 100
 Skill: 133 60
+Skill: 136 63
 Skill: 138 100
 Skill: 139 20
 Skill: 140 200
@@ -1162,7 +1265,18 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: i0a1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 131 80
+Skill: 136 63
 Skill: 139 20
 Skill: 140 200
 Skill: 157 70
@@ -1197,6 +1311,17 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 63
 Skill: 160 100
 E
 #62035
@@ -1227,6 +1352,7 @@ Class: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #62036
 крестьянский битюг~
@@ -1260,6 +1386,7 @@ Class: 102
 Height: 175
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 81
 E
 #62037
 гнедой конь~
@@ -1292,6 +1419,7 @@ Height: 175
 Weight: 150
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 84
 E
 #62038
 заморский купец~
@@ -1321,7 +1449,18 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 200
+Skill: 136 60
 E
 T 62025
 #62039
@@ -1351,6 +1490,17 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 60
 Skill: 157 200
 E
 #62040
@@ -1382,6 +1532,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 57
 E
 #62041
 городской стражник~
@@ -1415,6 +1566,17 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 81
 Skill: 151 100
 E
 T 62006
@@ -1454,6 +1616,16 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 100
 Skill: 5 100
 Skill: 134 90
@@ -1492,8 +1664,19 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: B3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 21 100
 Skill: 132 100
+Skill: 136 81
 Skill: 150 80
 Skill: 151 100
 Spell: 4
@@ -1556,9 +1739,20 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 12 100
 Skill: 22 120
 Skill: 134 80
+Skill: 136 81
 Skill: 137 200
 Skill: 150 70
 Skill: 151 100
@@ -1595,7 +1789,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 20 200
-Skill: 136 100
+Skill: 136 78
 Skill: 166 150
 Spell: 6
 Spell: 6
@@ -1719,9 +1913,20 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: p0C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 12 100
 Skill: 22 120
 Skill: 134 80
+Skill: 136 81
 Skill: 137 200
 Skill: 150 70
 Skill: 151 100
@@ -1759,7 +1964,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 20 200
-Skill: 136 100
+Skill: 136 78
 Skill: 166 150
 Spell: 6
 Spell: 6
@@ -1846,8 +2051,8 @@ Spell: 149
 Spell: 149
 Spell: 149
 Spell: 151
-Helper: 62046
 Helper: 62048
+Helper: 62046
 E
 #62048
 дружинник~
@@ -1881,9 +2086,20 @@ Class: 104
 Height: 175
 Weight: 150
 Special_Bitvector: p0C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 120
 Skill: 132 120
 Skill: 134 80
+Skill: 136 81
 Skill: 137 100
 Skill: 150 70
 Skill: 158 80
@@ -1908,7 +2124,7 @@ T 62022
 
 ~
 d0f0n0o0r0f2g2 c0d0e0f0k0r0z0A0x1 0 E
-40 0 -10 50d50+7000 20d25+25
+40 -8 -10 50d50+7000 20d25+25
 0d0+0 300000
 8 8 1
 BareHandAttack: 14
@@ -1930,6 +2146,7 @@ Skill: 21 50
 Skill: 22 200
 Skill: 132 200
 Skill: 134 200
+Skill: 136 120
 Skill: 157 150
 Spell: 23
 Spell: 23
@@ -2026,7 +2243,7 @@ T 62023
 Может и вам спеть - коли не жалко с полсотни кун.
 ~
 d0n0o0h1g2 d0f0k0 600 E
-10 0 -10 0d0+200 4d4+0
+10 0 -10 0d0+200 4d5+6
 0d0+0 0
 8 8 2
 BareHandAttack: 8
@@ -2043,12 +2260,16 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 22 140
+Skill: 136 30
+Skill: 157 100
 Spell: 42
 Spell: 42
 Spell: 42
 E
 T 62015
 T 62016
+T 62028
 #62051
 мастеровой~
 мастеровой~
@@ -2081,6 +2302,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 134 200
+Skill: 136 60
 E
 #62052
 тюремщик~
@@ -2113,13 +2335,14 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 134 200
+Skill: 136 60
 E
 #62053
 важный боярин~
 важный боярин~
 важного боярина~
 важному боярину~
-важный боярин~
+важного боярина~
 важным боярином~
 важном боярине~
 Важный дородный боярин сидит здесь, думая думу державную.
@@ -2145,7 +2368,18 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 100
+Skill: 136 87
 Skill: 150 100
 Skill: 160 100
 E
@@ -2164,7 +2398,7 @@ T 62018
 и схваченный стражей, а может и княжеским караульным разъездом. 
 ~
 b0d0f2 k0 0 E
-29 -2 -3 10d50+1000 8d8+12
+30 -2 -3 10d50+1000 8d8+12
 0d0+0 10000
 8 8 1
 Str: 25
@@ -2174,13 +2408,14 @@ Wis: 14
 Con: 24
 Cha: 20
 Size: 100
-LikeWork: 75
+LikeWork: 85
 ExtraAttack: 2
 Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1d1 
 Skill: 5 70
+Skill: 136 90
 Skill: 137 80
 Skill: 141 80
 Skill: 142 80
@@ -2211,7 +2446,7 @@ b0d0o0r0 0 0 E
 0d0+0 12000
 8 8 1
 Str: 25
-Dex: 14
+Dex: 17
 Int: 19
 Wis: 14
 Con: 24
@@ -2224,9 +2459,9 @@ Height: 175
 Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 4 100
+Skill: 136 57
 Skill: 141 80
 Skill: 146 80
-Skill: 148 80
 E
 #62056
 боец фемистоклис~
@@ -2259,6 +2494,16 @@ Class: 104
 Height: 175
 Weight: 150
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 120
 Skill: 21 150
 Skill: 22 160
@@ -2298,7 +2543,7 @@ T 62024
 опечаленного стражника~
 опечаленным стражником~
 опечаленном стражнике~
-Опечаленный стражник почему-то кручиниться.
+Опечаленный стражник почему-то кручинится.
 ~
 крепкий молодой воин в казенной кольчуге и шеломе.
 ~
@@ -2321,9 +2566,126 @@ Weight: 85
 Special_Bitvector: C3 
 Skill: 22 100
 Skill: 132 150
+Skill: 136 87
 Skill: 157 100
 E
 T 62612
 T 62613
 T 62614
+#62058
+мастер скорняк ефимий~
+мастер Ефимий~
+мастера Ефимия~
+мастеру Ефимию~
+мастера Ефимия~
+мастером Ефимием~
+мастере Ефимие~
+Мастер-скорняк Ефимий разглядывает шкуру, ворча что-то под нос.
+~
+Седоусый но крепкий мужик, с мозолистыми от работы руками
+и твердым взглядом серых глаз.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Class: 100
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 90
+E
+T 62029
+T 62031
+T 62032
+#62059
+старый торговец Коган~
+старый торговец Коган~
+старого торговца Когана~
+старому торговцу Когану~
+старого торговца Когана~
+старом торговцем Коганом~
+старом торговце Когане~
+Старый торговей Коган нетерпеливо смотрит на вас.
+~
+Сухонкий горбоносый старикашка с копной полуседых волос.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Class: 100
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 90
+E
+T 62030
+T 62033
+#62068
+пленный воин~
+пленный воин~
+пленного воина~
+пленному воину~
+пленного воина~
+пленным воином~
+пленном воине~
+Крепкий воин-славянин сидит в темном трюме.
+~
+Крепкий воин, избитый, в изорваной одежде, но не сломленый.
+У его ног лежат обрывки веревок, видимо он сумел освободиться
+и поджидал подходящего момента, чтобы выбраться из трюма.
+~
+b0d0n0o0p0r0t0f2u2 0 400 E
+25 -2 0 4d5+800 8d12+15
+0d0+0 35000
+8 8 1
+Saves: 50 0 0 50
+Str: 24
+Dex: 18
+Int: 14
+Wis: 14
+Con: 23
+Cha: 14
+Size: 30
+LikeWork: 75
+ExtraAttack: 1
+Class: 104
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 5 80
+Skill: 132 60
+Skill: 136 75
+Skill: 157 60
+Skill: 167 40
+E
 $

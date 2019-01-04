@@ -19,24 +19,24 @@ detach 66100 %self.id%
 ~
 wait 2s
 switch %object.name% 
-case труп осквернителя могил
-ул
-%self.gold(200)% 
-say - Вот и славненько, теперь могилы некому будет тревожить...
-say %actor.name% - Вот получи подарок от моего господина.
-wait 1s
-да 200 кун %actor.name%
-mecho Сторож что-то проборматал про себя и занялся своими делами.
-mpurge труп 
-break
-default
-  say - А ну иди от сюда, иш че захотел, не буду я те платить за всякое фуфло.
-  eval getobject %object.name%
-  if  %getobject.car% == труп
-     mpurge труп
-  else
-     броси %getobject.car%.%getobject.cdr%
-  end
+  case труп осквернителя могил
+    ул
+    %self.gold(200)% 
+    say - Вот и славненько, теперь могилы некому будет тревожить...
+    say %actor.name% - Вот получи подарок от моего господина.
+    wait 1s
+    да 200 кун %actor.name%
+    mecho Сторож что-то проборматал про себя и занялся своими делами.
+    mpurge труп 
+  break
+  default
+    say - А ну иди от сюда, иш че захотел, не буду я те платить за всякое фуфло.
+    eval getobject %object.name%
+    if  %getobject.car% == труп
+      mpurge труп
+    else
+      броси %getobject.car%.%getobject.cdr%
+    end
   break
 done 
 ~
@@ -45,17 +45,17 @@ done
 0 q 100
 ~
 if %exist.mob(66111)% && %exist.mob(66112)%
-   say - Спасибо тебе большое, Добрый странник 
-   say - завтра же поставлю за твое здравие свечку. 
-wait 1s
-   say - Погоди, у меня найдется для тебя и награда. 
-wait 1s
-   дат 2000 кун %actor.name%
-mecho Старик и ребенок ушли в свои комнаты..
-wait 1
-mpurge старик
-mpurge пацаненок
-   halt
+  say - Спасибо тебе большое, Добрый странник 
+  say - завтра же поставлю за твое здравие свечку. 
+  wait 1s
+  say - Погоди, у меня найдется для тебя и награда. 
+  wait 1s
+  дат 2000 кун %actor.name%
+  mecho Старик и ребенок ушли в свои комнаты..
+  wait 1
+  mpurge старик
+  mpurge пацаненок
+  halt
 end
 msend %actor.name%  - Не поможешь ли ты мне найти моего сыночка с муженьком?
 msend %actor.name%  - А я тебя отблагодарю как смогу...
@@ -86,15 +86,15 @@ msend %actor% - лечить, выхаживать.
 wait 1
 osend %actor.name% Вокруг все зашевелилось....
 if %actor.haveobj(66104)%
-osend %actor% Вдруг камни начали рассыпаться и появились два человека...
-oload mob 66111
-oload mob 66112
-wait 2s
-oforce %actor% осуш кол
-opurge камни
+  osend %actor% Вдруг камни начали рассыпаться и появились два человека...
+  oload mob 66111
+  oload mob 66112
+  wait 2s
+  oforce %actor% осуш кол
+  opurge камни
 end
 default
-oecho Но ничего не вышло
+  oecho Но ничего не вышло
 ~
 #66105
 триг на змее~
@@ -125,7 +125,7 @@ wait 1
 0 f 100
 ~
 if (%world.curobjs(66100)% < 6) && (%random.100% <= 10)
-   mload obj 66100
+  mload obj 66100
 end
 ~
 #66109
@@ -133,7 +133,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(66110)% < 6) && (%random.100% <= 10)
-   mload obj 66110
+  mload obj 66110
 end
 ~
 #66110
@@ -141,7 +141,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(66108)% < 6) && (%random.100% <= 10)
-   mload obj 66108
+  mload obj 66108
 end
 ~
 #66111
@@ -149,7 +149,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(66107)% < 6) && (%random.100% <= 10)
-   mload obj 66107
+  mload obj 66107
 end
 ~
 #66112
@@ -163,18 +163,15 @@ mload obj 66104
 0 f 100
 ~
 if (%world.curobjs(66103)% < 6) && (%random.100% <= 10)
-   mload obj 66103
+  mload obj 66103
 end
 ~
 #66114
 убили тварь~
 0 f 100
 ~
-if %world.curobjs(1250)% < 1 && %random.100% < 3
-mload obj 1250
-end
 if (%world.curobjs(66109)% < 6) && (%random.100% <= 10)
-   mload obj 66109
+  mload obj 66109
 end
 ~
 $~

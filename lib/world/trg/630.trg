@@ -3,11 +3,11 @@ cтражи приветствуют~
 0 r 100
 ~
 if %actor.clan% == рп
-switch %random.5%
-case 1
-  поклон %actor.iname%
-break
-done 
+  switch %random.5%
+    case 1
+      поклон %actor.iname%
+    break
+  done 
 end
 ~
 #63001
@@ -22,7 +22,7 @@ end
 ~
 wait 10
 сказ %actor.iname% Привет тебе %actor.iname%!
-сказ %actor.iname% Я практиеуюсь в магии и могу произнести для тебя заклинания.
+сказ %actor.iname% Я практикуюсь в магии и могу произнести для тебя заклинания.
 сказ %actor.iname% Если ты в этом заинтересован%actor.g% в этом, дай мне знать.
 ~
 #63003
@@ -34,7 +34,7 @@ wait 10
 сказ %actor.iname% Доблесть будет стоит тебе 200 кун.
 сказ %actor.iname% Защита обойдется всего в 300 кун.
 сказ %actor.iname% Свет можешь получить, всего-то за 150 кун.
-сказ %actor.iname% А вот за освящение придется выложить 800 кун.
+*сказ %actor.iname% А вот за освящение придется выложить 800 кун.
 сказ %actor.iname% Тебе выбирать.
 ~
 #63004
@@ -42,11 +42,11 @@ wait 10
 0 m 1
 ~
 wait 1s
-if %amount% < 200 
-сказ %actor.iname% Ну за эти деньги, я тебе ни чего делать не буду!
-сказ %actor.iname% На. Забери их обратно!
-дать %amount% кун %actor.iname%
-halt
+if %amount% < 150 
+  сказ %actor.iname%  Ну за эти деньги, я тебе ни чего делать не буду!
+  сказ %actor.iname% На. Забери их обратно!
+  дать %amount% кун %actor.iname%
+  halt
 end  
 switch %amount%
   case 200
@@ -59,13 +59,13 @@ switch %amount%
     dg_cast 'защита' %actor.iname%
   break 
   case 150
-    msend %actor.iname% _Божанка взяла свечу и глядя на пламя что-то зашеплтала.
+    msend %actor.iname% _Божанка взяла свечу и глядя на пламя что-то зашептала.
     dg_cast 'свет' %actor.iname%
   break                         
-  case 800
-    msend %actor.iname% _Божанка начала читать молитву, постоянно упоминая Ваше имя.
-    dg_cast 'освящение' %actor.iname%
-  break
+  *case 800
+  *msend %actor.iname% _Божанка начала читать молитву, постоянно упоминая Ваше имя.
+  *dg_cast 'освящение' %actor.iname%
+break
 done
 ~
 #63005
@@ -100,14 +100,15 @@ wecho _Вам показалось, что они готовы упасть на вас!
 2 e 10
 ~
 wait 10
-wecho _От куда-то сверху донеслись завывающие звуки молитвы.
+wecho  Откуда-то сверху донеслись завывающие звуки молитвы.
 ~
 #63009
 спотыкаемся~
 2 e 5
 ~
+wait 1
 wecho _Вы споткнулись о небольшой камешек и немного разодрали локти.
-wecho _От куда от вообще тут взялся?!
+wecho  Откуда он вообще тут взялся?!
 wdamage %actor% 50
 ~
 #63010
@@ -122,15 +123,15 @@ wecho _Или вам это показалось?
 2 e 5
 ~
 %actor.wait(3)%
-wsend %actor.iname% _Вам показалось, что мост пошатнулся под вашими ногами.
-wsend %actor.iname% _Ваше сознание снова вернулось к вам, только тогда
-wsend %actor.iname% _Когда местные жители вытащили ваше безсознательное и покусанное
-wsend %actor.iname% _Мелкими гадами туло из городского рва.
-wechoaround  %actor.iname% _%actor.iname% вдруг сильно закачал%actor.u% и с размаху бросил%actor.u% в городской ров.
-wechoaround  %actor.iname% _Проходящие мимо местные жители быстро вытащили из рва 
-wechoaround  %actor.iname% _бессознательное тело %actor.rname%.
-wechoaround  %actor.iname% _Через несколько минут %actor.iname% пришел в себя
-wechoaround  %actor.iname% _и с непониминием посмотрел%actor.g% по сторонам.
+wsend %actor% Вам показалось, что мост пошатнулся под вашими ногами.
+wsend %actor% Ваше сознание снова вернулось к вам, только тогда
+wsend %actor% Когда местные жители вытащили ваше безсознательное и покусанное
+wsend %actor% Мелкими гадами тело из городского рва.
+wechoaround %actor% %actor.iname% вдруг сильно закачал%actor.u% и с размаху бросил%actor.u% в городской ров.
+wechoaround %actor% Проходящие мимо местные жители быстро вытащили из рва
+wechoaround %actor% бессознательное тело %actor.rname%.
+wechoaround %actor% Через несколько минут %actor.name% пришел в себя
+wechoaround %actor% и с непониминием посмотрел%actor.g% по сторонам.
 wdamage %actor% 100
 ~
 #63012
@@ -140,106 +141,116 @@ wdamage %actor% 100
 wait 1s
 сказ %actor.iname% Привет странник.
 сказ %actor.iname% Я практикуюсь в приготовлении отваров и если ты принесешь мне
-сказ %actor.iname% ингридиенты, то я смогу сварить тебе некоторые простые отвары.
+сказ %actor.iname% ингредиенты, то я смогу сварить тебе некоторые простые отвары.
 ~
 #63013
 лекарь (варит)~
 0 j 100
 ~
 wait 1
-if (%object.val1%<8)
-%echo% Ты эту штуку на помойке нашел?
-морщ
-wait 1
-%echo% Нет, не подойдет, слишком низкое качество.
-брос %object.name%
-halt
+if (( %object.vnum% < 700 ) || ( %object.vnum% > 799 ))
+  say Это мне не нужно...
+  брос %object.name%
+  halt
 end
-switch %object.vnum%
- 
+eval ovnum %object.vnum%
+wait 1
+mpurge %object%
+if (%object.val1%<8)
+  say Ты эту штуку на помойке нашел?
+  морщ
+  wait 1
+  say Нет, не подойдет, слишком низкое качество.
+  брос %object.name%
+  halt
+end
+if %number% < 5
+  eval number %number%+1
+  global number
+  say У меня нет всего, что нужно для этого зелья, может быть, ты принесешь еще что-нибудь?
+  halt
+else
+  eval number 0
+  global number
+end
+if ( %random.25% < %random.50% )
+  взд
+  say Ничего не получилось, как видно, я то-то напутал с рецептом...
+  eval number 0
+  global number
+  halt
+end
+switch %ovnum%
   case 700
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63052
     дать отвар %actor.iname%
-  break  
- 
+  break
   case 701
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63042
     дать отвар %actor.iname%
-  break 
- 
+  break
   case 705
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63052
     дать отвар %actor.iname%
-  break 
-  
+  break
   case 751
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63051
     дать отвар %actor.iname%
-  break 
-  
+  break
   case 752
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63043
     дать отвар %actor.iname%
-  break 
-         
+  break
   case 754
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63049
     дать отвар %actor.iname%
-  break  
-  
+  break
   case 755
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63053
     дать отвар %actor.iname%
-  break  
-  
+  break
   case 756
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63046
     дать отвар %actor.iname%
-  break   
-  
+  break
   case 757
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63047
     дать отвар %actor.iname%
-  break            
-  
+  break
   case 758
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63050
     дать отвар %actor.iname%
-  break  
-  
+  break
   case 721
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63045
     дать отвар %actor.iname%
-  break 
-  
+  break
   case 722
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63048
     дать отвар %actor.iname%
-  break   
-  
+  break
   case 724
-    mecho _Вот держи. Это все, что смог сделать.
+    mecho Вот держи. Это все, что смог сделать.
     mload obj 63044
     дать отвар %actor.iname%
-  break 
-default
-г Мне это не надо.
-брос %object.iname%
-halt
-done
-mpurge %object%
+  break
+  default
+    г Мне это не надо.
+    брос %object.iname%
+    halt
+  done
 ~
 #63014
 приветствие ворожеи~
@@ -248,7 +259,7 @@ mpurge %object%
 wait 1
 msend %actor% Ворожея сказала тебе:
 msend %actor% - Да защитит тебя Белобог от всякого зла, %actor.name%!
-msend %actor% - Вижу что не просто так ты сюда зашел! Могу тебе помочь!
+msend %actor% - Вижу, что не просто так ты сюда заглянул%actor.g%! Могу тебе помочь!
 msend %actor% - Коли ты дашь мне немного кун для жертвы Яриле
 msend %actor% - Я помогу тебе мигом добраться до нужного русского города.
 ~
@@ -257,8 +268,8 @@ msend %actor% - Я помогу тебе мигом добраться до нужного русского города.
 0 m 1
 ~
 if (%amount% < 200)
-say За такую лепту сам%actor.g% Ярило разгневай. А я не рискну!
-halt
+  say За такую лепту сам%actor.g% Ярило разгневай. А я не рискну!
+  halt
 end
 wait 1
 msend %actor% - Ворожея сказала тебе:
@@ -272,64 +283,64 @@ msend %actor% - А захочешь во Владимир попасть - дай мне зубы и грибы.
 ~
 wait 1
 If (%object.vnum%==713)
- If (%object.val1%>5)
-   Say Отличная ветка! Подойдет для сотворения заклятья!
-   If  !(%self.haveobj(60067)%)
+  If (%object.val1%>5)
+    Say Отличная ветка! Подойдет для сотворения заклятья!
+    If  !(%self.haveobj(60067)%)
       Mload obj 60067
-   Else 
+    Else 
       Say Не... ветка у меня уже есть. Вторая не нужна пока.
-   End
- Else
-   Say Не... ветка не достаточна длинная! Такая не подойдет.
- end 
+    End
+  Else
+    Say Не... ветка не достаточна длинная! Такая не подойдет.
+  end 
 End
 If (%object.vnum%==754)
- If (%object.val1%>5)
-   Say Замечательная белая кость! В самый раз для заклинания!
-   If  !(%self.haveobj(60066)%)
+  If (%object.val1%>5)
+    Say Замечательная белая кость! В самый раз для заклинания!
+    If  !(%self.haveobj(60066)%)
       Mload obj 60066
-   Else 
+    Else 
       Say У меня уже есть кость! Еще одна пока не нужна!
-   End
- Else
-   Say Нет! Эти кости не достаточно белые! Такие не подойдут.
- end 
+    End
+  Else
+    Say Нет! Эти кости не достаточно белые! Такие не подойдут.
+  end 
 End
 If (%object.vnum%==700)
- If (%object.val1%>5)
-   Say Уу-у! Замечательные грибы!
-   If  !(%self.haveobj(60060)%)
+  If (%object.val1%>5)
+    Say Уу-у! Замечательные грибы!
+    If  !(%self.haveobj(60060)%)
       Mload obj 60060
-   Else 
+    Else 
       Say У меня уже есть гриб! Мне второй не нужен!
-   End
- Else
-   Say Не-е-ет! Этот грибок маленький и червивый. Такой не годиться!
- end 
+    End
+  Else
+    Say Не-е-ет! Этот грибок маленький и червивый. Такой не годиться!
+  end 
 End    
 If (%object.vnum%==751)
- If (%object.val1%>10)
-   Say Отличные белые зубы!
-   If  !(%self.haveobj(60068)%)
+  If (%object.val1%>10)
+    Say Отличные белые зубы!
+    If  !(%self.haveobj(60068)%)
       Mload obj 60068
-   Else 
+    Else 
       Say Зубы у меня уже есть! Вторая челюсть пока не нужна!
-   End
- Else
-   Say Не..этот гнилой зуб не годиться для заклинания! Ищи те, что получше!
- end 
+    End
+  Else
+    Say Не..этот гнилой зуб не годиться для заклинания! Ищи те, что получше!
+  end 
 End  
 If (%object.vnum%==722)
- If (%object.val1%>5)
-   Say Замечательный метал! В самый раз для заклинания!
-   If  !(%self.haveobj(60065)%)
-      Mload obj 60061
-   Else 
+  If (%object.val1%>5)
+    Say Замечательный метал! В самый раз для заклинания!
+    If  !(%self.haveobj(60065)%)
+      Mload obj 60065
+    Else 
       Say У меня уже есть метал! Еще один пока не нужен!
-   End
- Else
-   Say Нет! Этот метал недостаточно прочен! Такой не подойдет.
- end 
+    End
+  Else
+    Say Нет! Этот метал недостаточно прочен! Такой не подойдет.
+  end 
 End
 Mpurge %object%
 if (%self.haveobj(60067)% && %self.haveobj(60066)%)
@@ -353,5 +364,43 @@ if (%self.haveobj(60068)% && %self.haveobj(60060)%)
   брос все
   say Я перенесу вас туда чуть позже. Когда Владимир появиться на карте.
 end
+~
+#63017
+Лоад знахаря~
+0 n 100
+~
+wait 1
+eval number 0
+global number
+~
+#63018
+Платный портал у волхва~
+0 m 1
+~
+wait 1
+emot пересчитал%self.g% монеты
+eval target 0
+switch %amount%
+  * Муром
+  case 2600
+    eval target 76083
+  break
+  * Меньск
+  case 4900
+    eval target 77040
+  break
+  default
+    дум
+    say И чего же ты за эти деньги хочешь?
+    give %amount% кун .%actor.name%
+    halt
+  done
+  кив
+  emot сделал%self.g% несколько странных жестов
+  mechoaround %actor% %actor.name% исчез%actor.q% в клубах дыма.
+  msend %actor% У вас закружилась голова, и на миг вы потеряли сознание...
+  msend %actor% 
+  mteleport %actor% %target% horse
+  mechoaround %actor% %actor.name% появил%actor.u% здесь в клубах дыма.
 ~
 $~

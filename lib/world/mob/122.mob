@@ -9,9 +9,9 @@
 Богатырь Добрыня не на шутку разгневан невежей-гостем.
 ~
 Богатырь великославный, коими крепка Земля Русская,
-во плечах - сажень косая, силушка в руках не мерянная.
+во плечах - сажень косая, силушка в руках немерянная.
 ~
-b0d0n0o0p0q0r0t0u0x0B0f2g2i2 c0f0k0r0a1 600 E
+b0d0n0o0p0q0r0t0u0x0B0f2g2i2 c0d0f0k0r0a1 600 E
 30 0 -8 10d10+1000 10d10+30
 0d0+0 0
 8 8 1
@@ -28,6 +28,16 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: f0d3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 150
 Skill: 5 150
 Skill: 136 150
@@ -48,7 +58,7 @@ T 12202
 Богатырь Добрыня посреди палат светлых ждет чего-то - дожидается.
 ~
 Богатырь великославный, коими крепка Земля Русская,
-во плечах - сажень косая, силушка в руках не мерянная.
+во плечах - сажень косая, силушка в руках немерянная.
 ~
 b0d0n0o0p0q0r0t0u0x0B0f2g2i2 c0f0k0r0a1 600 E
 30 0 -8 10d10+1000 10d10+30
@@ -67,6 +77,16 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: d0d3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 150
 Skill: 5 150
 Skill: 136 150
@@ -106,6 +126,17 @@ Class: 104
 Height: 30
 Weight: 150
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 90
 E
 T 12223
 #12203
@@ -124,7 +155,7 @@ T 12223
 шапка золота змеиного, а кафтан-то весь серебряный.
 ~
 b0d0n0o0 c0f0k0 -600 E
-12 17 8 5d5+210 4d2+7
+12 17 8 5d5+210 4d3+8
 10d20+20 25000
 8 8 0
 BareHandAttack: 2
@@ -176,6 +207,17 @@ Class: 104
 Height: 180
 Weight: 140
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 75
 E
 T 12225
 #12205
@@ -209,6 +251,16 @@ Class: 104
 Height: 180
 Weight: 140
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 70
 Skill: 136 70
 E
@@ -245,6 +297,16 @@ Class: 104
 Height: 180
 Weight: 140
 Special_Bitvector: c0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 50
 Skill: 136 50
 E
@@ -284,6 +346,7 @@ Height: 160
 Weight: 50
 Special_Bitvector: 0 
 Skill: 22 200
+Skill: 136 69
 Spell: 38
 Spell: 38
 Spell: 38
@@ -328,6 +391,16 @@ Class: 104
 Height: 180
 Weight: 140
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 50
 Skill: 136 50
 E
@@ -365,6 +438,7 @@ Height: 160
 Weight: 50
 Special_Bitvector: 0 
 Skill: 22 200
+Skill: 136 69
 Spell: 38
 Spell: 38
 Spell: 38
@@ -377,7 +451,7 @@ Spell: 42
 Spell: 42
 E
 #12210
-калика прехожий~
+калика перехожий~
 калика перехожий~
 калики перехожего~
 калике перехожему~
@@ -390,7 +464,7 @@ E
 коли хочешь слова мудрого, слова вещего, утешливого,
 у него спроси совета, да за помощь благодарствуй.
 ~
-b0d0n0o0p0q0r0t0u0B0 d0f0k0a1 600 E
+b0d0n0o0p0q0r0t0u0B0u2 d0f0k0a1 600 E
 21 5 -3 10d10+300 4d6+12
 0d0+0 0
 8 8 1
@@ -407,6 +481,7 @@ Class: 105
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 63
 Spell: 42
 Spell: 42
 Spell: 42
@@ -446,6 +521,16 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: a0c0d0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 136 20
 E
 T 12209
@@ -482,6 +567,16 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0d0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 136 20
 E
 T 12229
@@ -517,13 +612,23 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: a0b0c0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 136 20
 E
 T 12230
 #12214
 витязь стражник~
 княжий витязь~
-княжьего витяз~
+княжьего витязя~
 княжьему витязю~
 княжьего витязя~
 княжьим витязем~
@@ -550,6 +655,17 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 90
 E
 #12215
 витязь стражник~
@@ -581,6 +697,17 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 90
 E
 #12216
 витязь стражник~
@@ -612,6 +739,17 @@ Class: 104
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 90
 E
 #12217
 серый селезень~
@@ -701,6 +839,7 @@ Class: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 150
 E
 #12220
 змееныш~

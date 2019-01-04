@@ -29,6 +29,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: m0 
+Skill: 136 54
 Spell: 33
 E
 #26002
@@ -106,7 +107,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
 Skill: 132 90
-Skill: 136 100
+Skill: 136 84
 Skill: 141 90
 Skill: 142 90
 Skill: 143 90
@@ -125,6 +126,7 @@ Spell: 47
 Helper: 26002
 E
 T 26010
+L 26018 100 0 0
 #26004
 старик старичок~
 старичок~
@@ -220,6 +222,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: g0l0 
+Skill: 136 54
 E
 #26006
 кикимора~
@@ -252,6 +255,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: a0b0d0b1c1 
+Skill: 136 78
 Skill: 141 75
 Skill: 142 75
 Skill: 143 75
@@ -267,6 +271,8 @@ Spell: 72
 Spell: 82
 Spell: 82
 E
+I кожа:3
+I глаза:2
 #26007
 охотник~
 охотник~
@@ -345,7 +351,9 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: o0 
+Skill: 136 60
 E
+I кожа:3
 #26009
 зубр~
 зубр~
@@ -381,9 +389,12 @@ Special_Bitvector: 0
 Skill: 3 150
 Skill: 4 200
 Skill: 132 150
+Skill: 136 84
 Skill: 149 150
 Skill: 157 100
 E
+I копыта:3
+I шерсть:3
 #26010
 лось~
 лось~
@@ -417,6 +428,7 @@ Weight: 200
 Special_Bitvector: 0 
 Skill: 21 100
 Skill: 132 200
+Skill: 136 60
 E
 #26011
 кабан~
@@ -453,6 +465,7 @@ Skill: 21 100
 Skill: 132 100
 Skill: 136 75
 E
+I копыта:3
 #26012
 пиявка~
 пиявка~
@@ -483,6 +496,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 63
 E
 #26013
 рябчик~
@@ -548,6 +562,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 54
 E
 #26015
 дикий вепрь~
@@ -583,10 +598,13 @@ Weight: 200
 Special_Bitvector: 0 
 Skill: 5 150
 Skill: 132 150
+Skill: 136 87
 Skill: 149 150
 Skill: 157 90
 E
 T 26054
+I копыта:6
+I глаза:4
 #26016
 старик седой~
 старик~
@@ -619,6 +637,7 @@ Weight: 200
 Special_Bitvector: b1c1 
 Skill: 4 100
 Skill: 5 100
+Skill: 136 84
 Skill: 142 85
 Skill: 143 85
 Skill: 144 85

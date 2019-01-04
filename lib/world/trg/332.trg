@@ -2,9 +2,9 @@
 у 5 русалок~
 0 q 100
 ~
-  wait 1
-  say Мы охраняем вход в Подводное царство от нашествия мерзких спрутов!
-  say и Вас мы тоже не пропустим!
+wait 1
+say Мы охраняем вход в Подводное царство от нашествия мерзких спрутов!
+say и Вас мы тоже не пропустим!
 ~
 #33201
 дал утробу русалке~
@@ -12,18 +12,18 @@
 ~
 wait 1
 if %object.vnum% == 33105 
-wait 1
-%purge% %object%
-wait 2s
-say Ты отомстил за мою сестру?!! Молодец...
-wait 2s
-mecho Русалка кинулась Вам на шею и горячо отблагодарила.
-say Проходи, добрый путник, пусть тебя омывают только теплые течения!
-foreach char %self.char%
-mechoaround %char% %char.name% был%char.g% пропущен%char.g% дальше!!! 
-mteleport %char% 33202
-msend %char% .- Вы пропущены дальше!
-done
+  wait 1
+  %purge% %object%
+  wait 2s
+  say Ты отомстил за мою сестру?!! Молодец...
+  wait 2s
+  mecho Русалка кинулась Вам на шею и горячо отблагодарила.
+  say Проходи, добрый путник, пусть тебя омывают только теплые течения!
+  foreach char %self.char%
+    mechoaround %char% %char.name% был%char.g% пропущен%char.g% дальше!!! 
+    mteleport %char% 33202
+    msend %char% .- Вы пропущены дальше!
+  done
 end
 ~
 #33202
@@ -41,73 +41,73 @@ end
 2 c 0
 нырнуть занырнуть~
 if !(%arg.contains(грот)%) 
-   wsend       %actor% Куда это Вы хотите нырнуть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите нырнуть???
+  return 0
+  halt
 end
 if %actor.fighting%
-   wsend %actor% Вы не можете нырнуть пока сражаетесь.
+  wsend %actor% Вы не можете нырнуть пока сражаетесь.
 end
 wsend       %actor% Вы бесстрашно нырнули в пещеру.
 wechoaround %actor% %actor.name%, превратившись в рыбу, уплыл%actor.g% по течению вниз.
-  wait 1s
-  wsend %actor.name% .- Вы оказались в странной пещере...
-  wat 33300 wecho Кто-то приплыл сюда.
-  wteleport %actor.name% 33300
+wait 1s
+wsend %actor.name% .- Вы оказались в странной пещере...
+wat 33300 wecho Кто-то приплыл сюда.
+wteleport %actor.name% 33300
 end
 ~
 #33204
 у призрака торговца~
 0 q 100
 ~
-  wait 1
-  mecho _Призрак торговца нагнулся, встал на колени и стал старательно обнюхивать землю
-  wait 1s
-  say Где же вы мои денежки... Где же вы мои лапоньки...
-  плак
-  wait 2s 
-  mecho _Призрак торговца увидел Вас, поднялся
-  wait 1s
-  say Ах, если бы ты принес мне мой мешок с деньгами, я наконец-то смог бы упокоиться.
-  wait 2s
-  say И может быть, открыл бы тебе тайный вход к Царю морскому!
-  wait 1s
-  mecho _Призрак торговца снова встал на колени и стал старательно обнюхивать палубу
+wait 1
+mecho _Призрак торговца нагнулся, встал на колени и стал старательно обнюхивать землю
+wait 1s
+say Где же вы мои денежки... Где же вы мои лапоньки...
+плак
+wait 2s 
+mecho _Призрак торговца увидел Вас, поднялся
+wait 1s
+say Ах, если бы ты принес мне мой мешок с деньгами, я наконец-то смог бы упокоиться.
+wait 2s
+say И может быть, открыл бы тебе тайный вход к Царю морскому!
+wait 1s
+mecho _Призрак торговца снова встал на колени и стал старательно обнюхивать палубу
 ~
 #33205
 у капитана~
 0 q 100
 ~
-  wait 1
-  mecho  _Призрак капитана Николаидиса задумался, посмотрел на Вас, снова задумался
-  wait 1s
-  say "Венеция"...? - нет, "Иди к черту"..? - нет,
-  вздох
-  wait 2s 
-  mecho _Призрак капитана стал загибать пальцы, считая что-то
-  wait 1s
-  say "Бог с вами"...? - нет, "Виктория"...?  - нет...
-  wait 2s
-  say Ну как же назывался мой корабль....
-  calcuid konek 33215 mob
-  detach 33205 %konek.id%
+wait 1
+mecho  _Призрак капитана Николаидиса задумался, посмотрел на Вас, снова задумался
+wait 1s
+say "Венеция"...? - нет, "Иди к черту"..? - нет,
+вздох
+wait 2s 
+mecho _Призрак капитана стал загибать пальцы, считая что-то
+wait 1s
+say "Бог с вами"...? - нет, "Виктория"...?  - нет...
+wait 2s
+say Ну как же назывался мой корабль....
+calcuid konek 33215 mob
+detach 33205 %konek.id%
 ~
 #33206
 в бою со скелетом~
 0 q 100
 ~
-  wait 4s
-  mecho _От Вашего мощного удара скелет рассыпался по косточкам
-  mecho _Однако кости быстро собрались в кучу и скелет продолжил бой
+wait 4s
+mecho _От Вашего мощного удара скелет рассыпался по косточкам
+mecho _Однако кости быстро собрались в кучу и скелет продолжил бой
 ~
 #33207
 прыгнуть~
 2 c 0
 прыгнуть перепрыгнуть~
 if !(%arg.contains(разлом)%) 
-   wsend       %actor% Куда это Вы хотите прыгнуть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите прыгнуть???
+  return 0
+  halt
 end
 wsend       %actor% Разогнавшись, вы с трудом прыгнули через разлом.
 wechoaround %actor% %actor.name% с трудом перепрыгнул%actor.g% разлом!
@@ -122,9 +122,9 @@ end
 2 c 0
 плыть переплыть~
 if !(%arg.contains(борт)%) 
-    wsend       %actor% Куда это Вы хотите плыть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите плыть???
+  return 0
+  halt
 end
 wsend       %actor% Вспомнив любимую рыбку, вы быстро начали барахтаться...
 wechoaround %actor% %actor.name% поплыл%actor.g% к другой части корабля.
@@ -139,15 +139,15 @@ end
 2 c 0
 карабкаться~
 if !(%arg.contains(вверх)%) 
-   wsend       %actor% Куда это Вы хотите карабкаться???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите карабкаться???
+  return 0
+  halt
 end
 wsend       %actor% Как краб, вы ловко вскарабкались вверх.
 wechoaround %actor% %actor.name% двинул%actor.g% вверх.
 wait 1s
 wsend %actor.name% .- Вы лихо вскарабкались к обломкам корабля!
-wteleport %actor.name% 33246
+wteleport %actor.name% 33246 horse
 wechoaround %actor% Кто-то вскарабкался сюда.
 end
 ~
@@ -156,9 +156,9 @@ end
 2 c 0
 спуститься опуститься держаться~
 if !(%arg.contains(мачта)%) 
-   wsend       %actor% Куда это Вы хотите спуститься???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите спуститься???
+  return 0
+  halt
 end
 wsend       %actor% Держась за мачту, вы поплыли к кораблю.
 wechoaround %actor% %actor.name% поплыл%actor.g% к кораблю, держась за мачту.
@@ -173,19 +173,19 @@ end
 2 c 0
 нырнуть занырнуть~
 if !(%arg.contains(рея)%) 
-   wsend       %actor% Куда это Вы хотите нырнуть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите нырнуть???
+  return 0
+  halt
 end
 wsend       %actor% Отодвинув рею, вы нырнули в неизвестность.
 wechoaround %actor% %actor.name% отодвинул%actor.g% рею и нырнул%actor.g% в неизвестность
 calcuid brat 33213 mob
-  detach 33215 %brat.id%
-  attach 33214 %brat.id%
- wait 1s
- wsend %actor.name% .- Вы оказались в нешироком уютном лазе.
-  wteleport %actor.name% 33307
-  wechoaround %actor% Кто-то занырнул сюда.
+detach 33215 %brat.id%
+attach 33214 %brat.id%
+wait 1s
+wsend %actor.name% .- Вы оказались в нешироком уютном лазе.
+wteleport %actor.name% 33307 horse
+wechoaround %actor% Кто-то занырнул сюда.
 end
 ~
 #33212
@@ -227,24 +227,24 @@ end
 в бою с змеем~
 0 r 100
 ~
-  mecho _Змей Раздулся у Вас на глазах, высунул раздвоенный язычок и ринулся в атаку
-  убить %actor.name%
+mecho _Змей Раздулся у Вас на глазах, высунул раздвоенный язычок и ринулся в атаку
+убить %actor.name%
 ~
 #33214
 помер ураган~
 0 f 100
 ~
-if (%world.curobjs(506)% < 1) && (%random.4% == 1)
-   mload obj 506
+if (%world.curobjs(506)% < 2) && (%random.1000% <= 250)
+  mload obj 506
 end
 ~
 #33215
 у седого война c кольцoм~
 0 q 100
 ~
-  mecho _Седой воин недовольно взглянул на Вас
-  wait 1s
-  say Ну, сказывай быстро, зачем пришел! Какое дело ко мне есть?
+mecho _Седой воин недовольно взглянул на Вас
+wait 1s
+say Ну, сказывай быстро, зачем пришел! Какое дело ко мне есть?
 ~
 #33216
 дал седому кольцо~
@@ -262,14 +262,13 @@ if %object.vnum% == 33206 then
   detach 33211 %wchod.id%
   halt
 end
- 
 ~
 #33217
 сказал "GOOD LUCK"~
 0 d 1
 Good Luck~
 if (%actor.vnum% != -1)
-   halt
+  halt
 end
 wait 1
 say Точно! Именно "Good Luck"
@@ -284,10 +283,10 @@ say Может быть ты найдешь его? Да... Ты выглядишь достаточно крепким...
 say Я могу послать тебя в прошлое, что бы ты предотвратил предательство и мою смерть...
 say За себя я не беспокоюсь... А вот жена!
 say Хочешь ли ты помочь мне?
-calcuid teleporter 33215 mob
-attach 33218 %teleporter.id%
-calcuid t1eleporter 33215 mob
-detach 33217 %t1eleporter.id%
+*calcuid teleporter 33215 mob
+attach 33218 %self.id%
+*calcuid t1eleporter 33215 mob
+detach 33217 %self.id%
 end
 ~
 #33218
@@ -295,7 +294,7 @@ end
 0 d 1
 да конечно готов хочу~
 if (%actor.vnum% != -1)
-   halt
+  halt
 end
 wait 1
 say Ну что-ж, лети! Только вернуться ты сможешь лишь сказав возле вечного камня магические слова возврата...
@@ -304,21 +303,21 @@ wait  1s
 eval  firstchar %self.people%
 eval  num 0
 while %firstchar% && (%num% < 5)
-      set pc %firstchar.next_in_room%
-      if %firstchar.vnum% == -1
-         mechoaround %firstchar% %firstchar.name% был%actor.g% отправлен%actor.g% в ПРОШЛОЕ!!! 
-         mteleport %firstchar% 33483
-         wait 1
-         if %firstchar.realroom% == 33483
-            msend %firstchar% .- Вы уже в прошлом! Как интересно!
-            eval  num %num%+1
-         end 
-      end
-      if %pc%
-         makeuid firstchar %pc.id%
-      else
-         set firstchar 0
-      end
+  set pc %firstchar.next_in_room%
+  if %firstchar.vnum% == -1
+    mechoaround %firstchar% %firstchar.name% был%actor.g% отправлен%actor.g% в ПРОШЛОЕ!!! 
+    mteleport %firstchar% 33483
+    wait 1
+    if %firstchar.realroom% == 33483
+      msend %firstchar% .- Вы уже в прошлом! Как интересно!
+      eval  num %num%+1
+    end 
+  end
+  if %pc%
+    makeuid firstchar %pc.id%
+  else
+    set firstchar 0
+  end
 done
 calcuid varru 33414 room
 attach 33400 %varru.id%
@@ -328,8 +327,8 @@ calcuid wdowa 33486 room
 attach 33407 %wdowa.id%
 calcuid tract 33401 mob
 attach 33402 %tract.id%
-calcuid teleporter 33215 mob
-detach 33218 %teleporter.id%
+*calcuid teleporter 33215 mob
+detach 33218 %self.id%
 end
 ~
 #33219
@@ -337,16 +336,16 @@ end
 2 c 0
 прыгнуть перепрыгнуть~
 if !(%arg.contains(разлом)%) 
-   wsend       %actor% Куда это Вы хотите прыгнуть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите прыгнуть???
+  return 0
+  halt
 end
 wsend       %actor% Разогнавшись, вы с трудом прыгнули через разлом.
 wechoaround %actor% %actor.name% с трудом перепрыгнул%actor.g% разлом.
 wait 1s
-  wsend %actor.name% .- Вы с огромным трудом перепрыгнули на другую половину корабля
-  wteleport %actor.name% 33270
-  wat 33270 wechoaround %actor% Кто-то появился здесь .
+wsend %actor.name% .- Вы с огромным трудом перепрыгнули на другую половину корабля
+wteleport %actor.name% 33270
+wat 33270 wechoaround %actor% Кто-то появился здесь .
 end
 ~
 #33220
@@ -354,9 +353,9 @@ end
 2 c 0
 плыть переплыть~
 if !(%arg.contains(борт)%) 
-   wsend       %actor% Куда это Вы хотите плыть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите плыть???
+  return 0
+  halt
 end
 wsend       %actor% Вспомнив любимую рыбку, вы быстро начали барахтаться...
 wechoaround %actor% %actor.name% поплыл%actor.g% к другой части корабля.
@@ -371,16 +370,16 @@ end
 2 c 0
 карабкаться ~
 if !(%arg.contains(вниз)%) 
-   wsend       %actor% Куда это Вы хотите карабкаться???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите карабкаться???
+  return 0
+  halt
 end
 wsend       %actor% Как краб, вы ловко опустились вниз.
 wechoaround %actor% %actor.name% двинул%actor.g% вниз.
 wait 1s
 wsend %actor.name% .- Вы лихо спустились вниз!
 wteleport %actor.name% 33245
-  wat 33245 wechoaround %actor% Кто-то вскарабкался сюда.
+wat 33245 wechoaround %actor% Кто-то вскарабкался сюда.
 end
 ~
 #33222
@@ -388,27 +387,27 @@ end
 2 c 0
 проплыть плыть двигаться ~
 if !(%arg.contains(мачта)%) 
-   wsend       %actor% Куда это Вы хотите плыть???
-   return 0
-   halt
+  wsend       %actor% Куда это Вы хотите плыть???
+  return 0
+  halt
 end
 wsend       %actor% Держась за мачту, вы поплыли вверх.
 wechoaround %actor% %actor.name% поплыл%actor.g% вверх, держась за мачту.
 wait 1s
 wsend %actor.name% .- Как гибкий уж, вы быстро поднялись вдоль мачты.
 wteleport %actor.name% 33262
-  wat 33262 wechoaround %actor% Кто-то поднялся сюда.
+wat 33262 wechoaround %actor% Кто-то поднялся сюда.
 end
 ~
 #33223
 вход в квест ДОРОГА В ПЦ 2~
 2 f 100
 ~
-  calcuid brat 33213 mob
-  detach 33215 %brat.id%
-  attach 33214 %brat.id%
-  calcuid konek 33215 mob
-  attach 33205 %konek.id%
+calcuid brat 33213 mob
+detach 33215 %brat.id%
+attach 33214 %brat.id%
+calcuid konek 33215 mob
+attach 33205 %konek.id%
 calcuid t1eleporter 33215 mob
 attach 33217 %t1eleporter.id%
 calcuid teleporter 33215 mob
@@ -418,22 +417,23 @@ attach 33218 %teleporter.id%
 дал карту призраку~
 0 j 100
 ~
+wait 1
 if %object.vnum% == 33417 then
   wait 2s
   say Ага! Это карта рифов, с неуказанными несколькими из них, и именно благодаря ей мой корабль пошел ко дну!!!
   say Каков молодец! Все разгадали. Хорошо... А кто ж виновник моей смерти?
   calcuid vari 33417 obj
-wait 1
-  mpurge %vari%
+  wait 1
+  mpurge %object%
   wait 2s
   calcuid prizr 33215 mob
   attach 33230 %prizr.id%
   detach 33224 %prizr.id%
-  end
+end
 else
-  say  Что то ты не то мне принес...
-  eval getobject %object.name%
-  брос %getobject.car%.%getobject.cdr%
+say  Что то ты не то мне принес...
+eval getobject %object.name%
+брос %getobject.car%.%getobject.cdr%
 end
 ~
 #33225
@@ -441,7 +441,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(33207)% < 5) && (%random.2% == 1)
-   mload obj 33207
+  mload obj 33207
 end
 ~
 #33226
@@ -449,7 +449,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(33208)% < 5) && (%random.3% == 1)
-   mload obj 33208
+  mload obj 33208
 end
 ~
 #33227
@@ -457,9 +457,9 @@ end
 2 c 0
 дернуть вытащить тащить выдернуть~
 if !(%arg.contains(меч)%) 
-   wsend       %actor% Что ж вы хотите дернуть???
-   return 0
-   halt
+  wsend       %actor% Что ж вы хотите дернуть???
+  return 0
+  halt
 end
 wsend       %actor% Крепко взявшись за рукоять, вы с силой выхватили меч из дна.
 wechoaround %actor% %actor.name%, поднатужившись, вытащил%actor.g% меч из земли.
@@ -478,9 +478,9 @@ end
 меч атакует~
 0 z 100
 ~
-  wait 5s
-  mecho _Меч атакует Вас!!!
-  mkill %actor%
+wait 5s
+mecho _Меч атакует Вас!!!
+mkill %actor%
 ~
 #33229
 меч помер~
@@ -488,14 +488,14 @@ end
 ~
 context 332 
 if %qwestik334% == 1
-if (%world.curobjs(33209)% < 1) && (%random.2% == 1)
+  if (%world.curobjs(33209)% < 1) && (%random.2% == 1)
     mload obj 33209
     unset %qwestik334% 
-end
-context 332 
-calcuid mechikr 33220 room
-attach  33231 %mechikr.id%
-exec     33231 %mechikr.id%
+  end
+  context 332 
+  calcuid mechikr 33220 room
+  attach  33231 %mechikr.id%
+  exec     33231 %mechikr.id%
 end
 ~
 #33230
@@ -503,19 +503,19 @@ end
 0 d 100
 София~
 if (%actor.vnum% != -1)
-   halt
+  halt
 end
 wait 1
 say Очень умно... Нда... Прими же это в знак награды!
 if (%world.curobjs(33202)% < 4) && (%random.3%==1)
-    mload obj 33202
-    wait 1
-    дат меч %actor.name%
+  mload obj 33202
+  wait 1
+  дат меч %actor.name%
 end
 if (%world.curobjs(531)%==0) && (%random.2%==1)
-    mload obj 531
-    wait 1
-    дат книг %actor.name%
+  mload obj 531
+  wait 1
+  дат книг %actor.name%
 end
 say Она предала меня!!! Как она могла??!! Это должно быть напутствием вам: "Никогда не верить этим бесовкам-бабам!!!"
 вздох
@@ -566,6 +566,7 @@ context 332
 unset qwestik334
 calcuid prizr 33215 mob
 attach 33224 %prizr.id%
+detach 33218 %prizr.id%
 ~
 #33235
 да капитану~
@@ -574,41 +575,49 @@ attach 33224 %prizr.id%
 wait 5
 say Хорошо, иди и отомсти ей за меня!!
 attach 33236 %self.id%
-end
+detach 33235 %self.id%
 ~
 #33236
 дали косынку капитану~
 0 j 100
 ~
-if %object.vnum% == 33402
+wait 1
+if %object.vnum% != 33402
   wait 5
-  mpurge косынка
- say Ты отомстил за меня?
- say Молодец!
- say Получи награду!
+  say Зачем мне это?
+  drop all
+  halt
+end
+wait 1
+mpurge %object%
+say Ты отомстил за меня?
+say Молодец!
+say Получи награду!
 wait 1s
-if (%world.curobjs(33210)% <= 5) && (%random.4%==1)
- mload obj 33210
- say Вот возьми это..
- дать поножи.капитана .%actor.name%
-elseif (%world.curobjs(33211)% <= 5) && (%random.4%==1)
- mload obj 33211
- say Вот возьми это..
- дать браслет.капитана .%actor.name%
-elseif (%world.curobjs(33212)% <= 3) && (%random.4%==1)
- mload obj 33212
- say Вот возьми это..
- дать жезл.капитана .%actor.name%
-else
- %actor.gold(+10000)%
- msend %actor% Призрак капитана дал Вам 10000 кун!
+if (%world.curobjs(33210)% <= 5) & (%random.4%==1)
+  mload obj 33210
+  say Вот возьми это..
+  дать поножи.капитана .%actor.name%
+  halt
+elseif %world.curobjs(3385)% < 1 && %world.curobjs(3384)% < 1 && %random.7% == 1
+  mload obj 3384
+  дать нож .%actor.name%
+  say Вот возьми это...
+  halt
+elseif (%world.curobjs(33211)% <= 5) & (%random.4%==1)
+  mload obj 33211
+  say Вот возьми это..
+  дать браслет.капитана .%actor.name%
+  halt
+elseif (%world.curobjs(33212)% <= 3) & (%random.4%==1)
+  mload obj 33212
+  say Вот возьми это..
+  дать жезл.капитана .%actor.name%
+  halt
 end
-else
- wait 5
- say Зачем мне это?
- drop all
-end
-detach 33236 %self.id%
-end
+%actor.gold(+5000)%
+msend %actor% Призрак капитана дал Вам 5000 кун!
+вст
+вст
 ~
 $~

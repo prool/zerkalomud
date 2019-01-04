@@ -30,6 +30,7 @@ Weight: 100
 Special_Bitvector: 0 
 Skill: 4 100
 Skill: 132 100
+Skill: 136 90
 E
 T 49918
 T 91536
@@ -60,6 +61,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #49902
 хозяин двора киев~
@@ -88,6 +90,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: A0B0b1 
+Skill: 136 60
 E
 T 49905
 #49903
@@ -105,7 +108,7 @@ T 49905
 ~
 b0d0g0n0 0 0 E
 30 0 0 0d0+1000 1d1+1
-0d0+9999 0
+0d0+250000 0
 8 8 1
 Str: 30
 Dex: 30
@@ -118,6 +121,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #49904
 стражник~
@@ -138,7 +142,7 @@ b0d0g0m0n0 0 0 E
 8 8 1
 Str: 20
 Dex: 15
-Int: 10
+Int: 19
 Wis: 10
 Con: 20
 Cha: 15
@@ -150,6 +154,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 60
 Skill: 137 80
 Skill: 151 80
 E
@@ -182,11 +187,12 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #49906
 старший стражник~
 старший стражник~
-старшого стражника~
+старшего стражника~
 старшему стражнику~
 старшего стражника~
 старшим стражником~
@@ -213,6 +219,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 90
+Skill: 136 84
 Skill: 150 90
 E
 #49907
@@ -244,6 +251,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 137 80
 Skill: 151 80
 Skill: 157 80
@@ -277,6 +285,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 54
 Skill: 151 90
 Skill: 160 90
 E
@@ -307,6 +316,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #49910
 дружинник~
@@ -340,6 +350,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 75
 Skill: 137 80
 Skill: 151 80
 E
@@ -372,6 +383,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 Spell: 17
 Spell: 17
 Spell: 28
@@ -407,6 +419,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 60
+Skill: 136 60
 Skill: 137 80
 Skill: 151 60
 E
@@ -422,7 +435,7 @@ E
 ~
 Высокий мужчина, идет посматривая по сторонам.
 ~
-d0g0m0n0h1 0 0 E
+d0g0n0h1 0 0 E
 20 4 4 0d0+500 5d5+5
 5d5+150 0
 8 8 1
@@ -439,12 +452,12 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 157 80
 Spell: 17
 Spell: 17
 Spell: 28
 Spell: 28
-Helper: 49914
 E
 #49914
 горожанка красивая ~
@@ -458,7 +471,7 @@ E
 ~
 Высокая женщина, идет посматривая по сторонам.
 ~
-d0g0m0n0h1 0 0 E
+d0g0n0h1 0 0 E
 20 4 4 0d0+500 5d5+5
 5d5+150 0
 8 8 2
@@ -475,6 +488,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 151 80
 Spell: 17
 Spell: 17
@@ -509,6 +523,7 @@ Class: 102
 Height: 198
 Weight: 60
 Special_Bitvector: p0 
+Skill: 136 36
 Skill: 150 95
 Skill: 160 95
 Helper: 49914
@@ -542,6 +557,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 36
 Skill: 150 95
 Skill: 157 95
 Helper: 49914
@@ -577,6 +593,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 75
 E
 #49918
 раб~
@@ -606,6 +623,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 36
 Skill: 150 95
 Skill: 157 95
 E
@@ -621,7 +639,7 @@ E
 ~
 Не собака-князь, а просто собака.
 ~
-d0g0n0 0 0 E
+d0g0n0j2 0 0 E
 12 3 5 0d0+300 3d5+5
 0d0+0 1000
 8 8 2
@@ -637,6 +655,7 @@ Class: 102
 Height: 198
 Weight: 30
 Special_Bitvector: i0p0 
+Skill: 136 36
 E
 #49920
 монах~
@@ -666,6 +685,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #49921
 старик~
@@ -696,6 +716,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #49922
 пожилая женщина~
@@ -726,6 +747,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 Spell: 28
 Spell: 28
 Spell: 131
@@ -761,6 +783,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 Spell: 28
 Spell: 28
 Spell: 28
@@ -776,7 +799,7 @@ E
 иноземце~
 Черноволосый грек внимательно осматривает город.
 ~
-С раскрытым от удивления ртом важный дородный мужчина.
+Дородный важный мужчина с раскрытым от удивления ртом.
 ~
 d0g0n0o0p0A0h1 0 0 E
 25 0 0 10d10+1000 4d4+5
@@ -797,6 +820,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 75
 Skill: 150 90
 Spell: 28
 Spell: 28
@@ -830,6 +854,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #49926
 охотник~
@@ -897,6 +922,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 150 80
 Skill: 157 80
 Skill: 160 80
@@ -907,7 +933,7 @@ E
 коня~
 коню~
 коня~
-коне~
+конём~
 коне~
 Конь стоит здесь.
 ~
@@ -931,6 +957,7 @@ Class: 103
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #49929
 юродивый~
@@ -962,6 +989,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 54
 Spell: 15
 Spell: 15
 Spell: 15
@@ -1002,6 +1030,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 36
 E
 #49931
 волхв старый~
@@ -1031,6 +1060,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 108
 Spell: 134
 Spell: 134
 Spell: 134
@@ -1042,7 +1072,8 @@ Spell: 134
 Spell: 134
 Spell: 134
 E
-T 49903
+T 49953
+T 49954
 #49932
 хозяин~
 хозяин~
@@ -1071,6 +1102,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 105
 Spell: 76
 Spell: 76
 Spell: 76
@@ -1080,6 +1112,7 @@ Spell: 76
 Spell: 76
 Spell: 76
 E
+T 3798
 #49933
 заморский гость~
 заморский гость~
@@ -1108,6 +1141,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #49934
 высокий смерд~
@@ -1137,6 +1171,7 @@ Class: 102
 Height: 198
 Weight: 140
 Special_Bitvector: b1c1 
+Skill: 136 57
 E
 #49935
 холоп~
@@ -1166,6 +1201,7 @@ Class: 102
 Height: 198
 Weight: 140
 Special_Bitvector: 0 
+Skill: 136 54
 E
 #49936
 гонец~
@@ -1195,6 +1231,7 @@ Class: 102
 Height: 198
 Weight: 140
 Special_Bitvector: 0 
+Skill: 136 66
 E
 #49937
 юродивый~
@@ -1227,6 +1264,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 54
 Spell: 15
 Spell: 15
 Spell: 15
@@ -1270,6 +1308,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 15
 Spell: 15
 Spell: 15
@@ -1326,6 +1365,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 54
 Spell: 15
 Spell: 15
 Spell: 15
@@ -1368,6 +1408,7 @@ Class: 103
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #49941
 дружинник~
@@ -1399,6 +1440,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 75
 Skill: 137 80
 Skill: 151 80
 E
@@ -1414,7 +1456,7 @@ E
 ~
 Высокий мужчина, идет посматривая по сторонам.
 ~
-d0g0m0n0h1 0 0 E
+d0g0n0h1 0 0 E
 22 4 4 0d0+500 5d5+5
 9d9+250 0
 8 8 1
@@ -1431,13 +1473,12 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 157 80
 Spell: 17
 Spell: 17
 Spell: 28
 Spell: 28
-Helper: 49914
-Helper: 49913
 E
 #49943
 горожанин бедный~
@@ -1451,7 +1492,7 @@ E
 ~
 Высокий мужчина, идет посматривая по сторонам.
 ~
-d0g0m0n0h1 0 0 E
+d0g0n0h1 0 0 E
 20 4 4 0d0+500 5d5+5
 9d9+250 0
 8 8 1
@@ -1468,13 +1509,12 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 157 80
 Spell: 17
 Spell: 17
 Spell: 28
 Spell: 28
-Helper: 49914
-Helper: 49913
 E
 #49944
 горожанка молодая~
@@ -1488,7 +1528,7 @@ E
 ~
 Молодая женщина, идет посматривая по сторонам.
 ~
-d0g0m0n0h1 0 0 E
+d0g0n0h1 0 0 E
 20 4 4 0d0+500 5d5+5
 5d5+150 0
 8 8 2
@@ -1505,13 +1545,12 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 151 80
 Spell: 17
 Spell: 17
 Spell: 28
 Spell: 28
-Helper: 49914
-Helper: 49913
 E
 #49945
 горожанка пожилая~
@@ -1525,7 +1564,7 @@ E
 ~
 Пожилая женщина, идет посматривая по сторонам.
 ~
-d0g0m0n0h1 0 0 E
+d0g0n0h1 0 0 E
 20 4 4 0d0+500 5d5+5
 5d5+150 0
 8 8 2
@@ -1542,13 +1581,12 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 151 80
 Spell: 17
 Spell: 17
 Spell: 28
 Spell: 28
-Helper: 49914
-Helper: 49913
 E
 #49946
 отрок малый~
@@ -1578,10 +1616,9 @@ Class: 102
 Height: 198
 Weight: 60
 Special_Bitvector: p0 
+Skill: 136 36
 Skill: 150 95
 Skill: 160 95
-Helper: 49914
-Helper: 49913
 E
 #49947
 чадо~
@@ -1603,6 +1640,7 @@ Class: 102
 Height: 198
 Weight: 12
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #49948
 горожанка молодая~
@@ -1616,7 +1654,7 @@ E
 ~
 Молодая женщина, идет посматривая по сторонам.
 ~
-d0g0m0n0h1 0 0 E
+d0g0n0h1 0 0 E
 20 4 4 0d0+500 5d5+5
 5d5+150 0
 8 8 2
@@ -1633,13 +1671,12 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 151 80
 Spell: 17
 Spell: 17
 Spell: 28
 Spell: 28
-Helper: 49914
-Helper: 49913
 E
 #49949
 горожанка пожилая~
@@ -1653,7 +1690,7 @@ E
 ~
 Пожилая женщина, идет посматривая по сторонам.
 ~
-d0g0m0n0h1 0 0 E
+d0g0n0h1 0 0 E
 20 4 4 0d0+500 5d5+5
 5d5+150 0
 8 8 2
@@ -1670,13 +1707,12 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 151 80
 Spell: 17
 Spell: 17
 Spell: 28
 Spell: 28
-Helper: 49914
-Helper: 49913
 E
 #49950
 горожанин богатый~
@@ -1690,7 +1726,7 @@ E
 ~
 Высокий мужчина, идет посматривая по сторонам.
 ~
-d0g0m0n0h1 0 0 E
+d0g0n0h1 0 0 E
 22 4 4 0d0+500 5d5+5
 9d9+250 0
 8 8 1
@@ -1707,6 +1743,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 157 80
 Spell: 17
 Spell: 17
@@ -1741,6 +1778,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #49952
 раб~
@@ -1770,6 +1808,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 36
 Skill: 150 95
 Skill: 157 95
 E
@@ -1803,6 +1842,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 75
 E
 #49954
 дружинник конный ~
@@ -1834,6 +1874,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 75
 Skill: 137 80
 Skill: 151 80
 E
@@ -1868,6 +1909,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 75
 Skill: 150 90
 Spell: 28
 Spell: 28
@@ -1904,6 +1946,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 81
 Skill: 150 90
 Spell: 28
 Spell: 28
@@ -1937,6 +1980,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 66
 E
 #49958
 ремесленник~
@@ -1967,6 +2011,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 157 80
 Spell: 17
 Spell: 17
@@ -2004,6 +2049,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 157 80
 Spell: 17
 Spell: 17
@@ -2041,6 +2087,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 157 80
 Spell: 17
 Spell: 17
@@ -2078,6 +2125,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 151 80
 Spell: 17
 Spell: 17
@@ -2102,10 +2150,13 @@ b0d0n0B0o1 d0f0k0 0 E
 1 19 0 1d100+1 1d1+0
 0d1+0 0
 8 8 2
+Str: 50
+Dex: 50
 Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 49911
 T 49912
@@ -2122,7 +2173,7 @@ tiff1 чумазый мальчуган~
 ~
 босоногая чумазая мелочь.
 ~
-d0g0n0o0p0s1f2g2 d0f0k0m0n0z0m1 0 E
+d0g0n0o0p0s1f2g2k2 d0f0k0m0n0z0m1 0 E
 21 -2 0 15d20+900 1d10+6
 0d0+3 5000
 8 8 1
@@ -2141,6 +2192,7 @@ Special_Bitvector: p0b1c1
 Skill: 4 40
 Skill: 22 150
 Skill: 28 200
+Skill: 136 63
 Skill: 139 150
 Skill: 157 120
 Spell: 4
@@ -2171,7 +2223,7 @@ T 49915
 старик благообразный~
 благообразный старик~
 благообразного старика~
-благообразном старику~
+благообразному старику~
 благообразного старика~
 благообразным стариком~
 благообразном старике~
@@ -2193,13 +2245,14 @@ Wis: 20
 Con: 16
 Cha: 28
 Size: 30
-LikeWork: 50
+LikeWork: 75
 ExtraAttack: 1
 Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 
 Skill: 22 120
-Skill: 139 5
+Skill: 136 78
+Skill: 139 50
 Skill: 158 120
 Skill: 167 30
 Spell: 4
@@ -2216,26 +2269,161 @@ Spell: 42
 Spell: 42
 E
 #49965
-шайка синих лысых~
-шайка &bсиних&n и лысых~
-шайки синих и лысых~
-шайке синих и лысых~
-шайку синих и лысых~
-шайкой синих и лысых~
-шайке синих и лысых~
-Шайка синих и &bлысых&R и воплями носится по кругу.
+лазурная пентаграмма~
+лазурная пентаграмма~
+лазурной пентаграммы~
+лазурной пентаграмме~
+лазурную пентаграмму~
+лазурной пентаграммой~
+лазурной пентаграмме~
+&BЛазурная пентаграмма переливается ярко сверкает здесь.&n
 ~
-Выглядит достаточно незавершенно.
+&CИрий сад&n
+___Все вокруг сияет ярким светом. Тихо шелестит мягкая, шелковая
+на ощупь травка у Вас под ногами. Лазоревые цветочки рассыпаны по
+зеленому травяному ковру. Молодые яблони манят Вас своими золотыми
+плодами.
+___&R
+Молодая на вид женщина тихонько плачет около дерева.
+...окутана сверкающим коконом ...светится ярким сиянием &n
 ~
-b0d0 0 0 E
-29 20 0 1d100+10000 20d20+20
+d0z0l2 0 0 E
+30 -10 0 1d100+10000 20d20+20
 0d0+0 0
 8 8 2
+Saves: 150 150 150 150
+Resistances: 300 300 300 300 300 300 300
+CastSuccess: 80
+Str: 50
+Dex: 50
+Int: 50
+Wis: 50
+Con: 50
+Cha: 50
 Size: 30
+LikeWork: 75
+ExtraAttack: 1
+Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
+Spell: 9
+Spell: 9
+Spell: 9
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
 E
+T 49998
+T 49997
 #49966
 охранник~
 охранник~
@@ -2263,6 +2451,464 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: e0 
+Skill: 136 72
 E
 T 49917
+#49967
+мастера Ефраима~
+мастер Ефраим~
+мастера Ефраима~
+мастеру Ефраиму~
+мастера Ефраима~
+мастером Ефраимом~
+мастере Ефраиме~
+Золотых дел мастер Ефраим перебирает какие-то свитки с записями.
+~
+Несмотря на седые волосы, он все еще крепок и не
+собирается уступать свое место главы гильдии золотых
+дел мастеров. Одет он в не слишком дорогую, но добротную
+одежду, хотя по слухам, мало кто из киевских купцов и мастеровых 
+людей может поспорить с ним богатством.
+~
+b0d0e0n0o0B0 d0f0k0 200 E
+28 -1 0 1d100+500 5d5+5
+0d0+0 0
+8 8 1
+Str: 21
+Dex: 15
+Int: 28
+Wis: 24
+Con: 20
+Cha: 21
+Size: 50
+LikeWork: 100
+ExtraAttack: 1
+Height: 178
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 84
+E
+T 49920
+T 49919
+#49968
+золотых дел мастер Саватей~
+мастер Саватей~
+мастера Саватея~
+мастеру Саватею~
+мастера Саватея~
+мастером Саватеем~
+мастере Саватее~
+Золотых дел мастер Саватей разглядывает тонкий узор на паре серебряных височных колец.
+~
+Жилистый и чернявый мужичонка с пронзительным взглядом
+черных же глаз. Руки его попятнаны мозолями и ожогами.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 90
+E
+#49969
+золотых дел мастер Кишеня~
+мастер Кишеня~
+мастера Кишени~
+мастеру Кишене~
+мастера Кишеню~
+мастером Кишеней~
+мастере Кишене~
+Мастер Кишеня взвешивает на небольших весах ладожский жемчуг.
+~
+Высокий, крепко сбитый, но уже начинающий седеть мастер,
+одетый в полотняную рубаху и порты с крепкими кожаными сапогами.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 90
+E
+#49970
+золотых дел мастер Онуфрий~
+мастер Онуфрий~
+мастера Онуфрия~
+мастеру Онуфрию~
+мастера Онуфрия~
+мастером Онуфрием~
+мастере Онуфрии~
+Мастер Онуфрий разглядывает разложенные на куске черного бархата самоцветные каменья.
+~
+Важный дородный муж в дорогом кафтане.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 90
+E
+T 49921
+T 49927
+T 49928
+#49971
+приказчик елфим~
+приказчик Елфим~
+приказчика Елфима~
+приказчику Елфиму~
+приказчика Елфима~
+приказчиком Елфимом~
+приказчике Елфиме~
+Приказчик Елфим с легким испугом поглядывает на Вас.
+~
+Крепкий парень лет двадцати пяти, в простой одежде и с
+сильными, мозолистыми руками.
+~
+b0c0d0l0p0t0A0 k0r0z0 -300 E
+28 0 -8 4d120+2000 6d13+20
+3d45+1 250000
+8 8 1
+Str: 22
+Dex: 18
+Int: 15
+Wis: 12
+Con: 21
+Size: 30
+LikeWork: 20
+ExtraAttack: 1
+Height: 198
+Weight: 200
+Special_Bitvector: b1c1 
+Skill: 132 110
+Skill: 136 84
+Skill: 137 80
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 150 80
+Skill: 154 80
+Spell: 19
+Spell: 19
+Spell: 19
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 36
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 93
+Spell: 144
+E
+T 49922
+T 49923
+T 50112
+L 49960 100 0 0
+#49972
+лихой парень калинка лапоть~
+Калинка Лапоть~
+Калинки Лаптя~
+Калинке Лаптю~
+Калинку Лаптя~
+Калинкой Лаптем~
+Калинке Лапте~
+Лихой парень, ухмыляясь, поигрывает заточкой.
+~
+Крепкий мужик с ухмылкой поглядывает на вас, поигрывая острым шилом.
+На столе около него красуется череда пустых кружек из-под пива.
+По слухам, Калинка промышляет воровством, да и кровь за ним водится,
+да только видоков против него найти сложно - всякому свой живот дорог,
+вот и ходит он по Киеву, не боясь стражи.
+Откуда же прозвище его взялось - никому не ведомо, да и звать его в глаза Лаптем
+даже пьяным в дым в голову не придет.
+~
+b0c0d0l0p0t0A0 f0k0m0r0A0m1x1y1z1 -400 E
+30 0 -10 4d120+2500 7d13+20
+10d50+120 300000
+8 8 1
+BareHandAttack: 11
+Str: 23
+Dex: 28
+Int: 17
+Con: 17
+Size: 30
+LikeWork: 100
+ExtraAttack: 1
+Class: 102
+Height: 198
+Weight: 200
+Special_Bitvector: g0a1b1c1 
+Skill: 22 100
+Skill: 131 100
+Skill: 136 100
+Skill: 147 100
+Skill: 157 100
+Skill: 167 100
+Spell: 67
+Spell: 67
+Spell: 67
+E
+T 49924
+T 49925
+T 49926
+L 49959 100 0 0
+#49973
+questmob499_01_00 Белян подмастерье~
+Белян-подмастерье~
+Беляна-подмастерья~
+Беляну-подмастерью~
+Беляна-подмастерья~
+Беляном-подмастерьем~
+Беляне-подмастерье~
+Подмастерье Белян стоит тут с дорожной котомкой на плече.
+~
+Молодой парень лет двадцати в дорожной одежде.
+~
+b0d0n0o0r0l2 0 200 E
+23 8 0 20d3+520 5d6+5
+12d10+25 25000
+8 8 1
+Str: 22
+Dex: 18
+Int: 16
+Wis: 19
+Con: 21
+Cha: 14
+Size: 30
+LikeWork: 74
+ExtraAttack: 1
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Skill: 3 60
+Skill: 21 20
+Skill: 134 60
+Skill: 136 69
+Skill: 157 30
+E
+#49974
+охранник Вячерад~
+охранник Вячерад~
+охранника Вячерада~
+охраннику Вячераду~
+охранника Вячерада~
+охранником Вячерадом~
+охраннике Вячераде~
+Охранник Вячерад стоит здесь, внимательно оглядываясь по сторонам.
+~
+Крепкий широкоплечий воин с тонким шрамом через правую щеку,
+облаченный в кольчугу до колен, шлем и вооруженный копьем.
+~
+b0d0f0m0n0o0p0r0l2 d0f0k0D0 -50 E
+27 -2 0 20d6+950 9d10+8
+20d6+50 120000
+8 8 1
+BareHandAttack: 3
+Str: 25
+Dex: 18
+Int: 14
+Con: 25
+Cha: 12
+Size: 50
+LikeWork: 80
+ExtraAttack: 1
+Height: 182
+Weight: 168
+Special_Bitvector: 0 
+Skill: 3 80
+Skill: 5 90
+Skill: 22 60
+Skill: 132 80
+Skill: 136 81
+Skill: 158 100
+E
+#49975
+questmob499_01_01 охранник Вячерад~
+охранник Вячерад~
+охранника Вячерада~
+охраннику Вячераду~
+охранника Вячерада~
+охранником Вячерадом~
+охраннике Вячераде~
+Охранник Вячерад стоит здесь, внимательно оглядываясь по сторонам.
+~
+Крепкий широкоплечий воин с тонким шрамом через правую щеку,
+облаченный в кольчугу до колен, шлем и вооруженный копьем.
+~
+b0d0n0o0p0r0l2 d0f0k0D0 -50 E
+27 -2 0 20d6+950 9d10+8
+20d6+50 0
+8 8 1
+BareHandAttack: 3
+Str: 25
+Dex: 18
+Int: 14
+Con: 25
+Cha: 12
+Size: 50
+LikeWork: 80
+ExtraAttack: 1
+Height: 182
+Weight: 168
+Special_Bitvector: 0 
+Skill: 3 60
+Skill: 5 90
+Skill: 22 60
+Skill: 132 80
+Skill: 136 81
+Skill: 158 60
+E
+T 49929
+#49976
+охранник Вячерад~
+охранник Вячерад~
+охранника Вячерада~
+охраннику Вячераду~
+охранника Вячерада~
+охранником Вячерадом~
+охраннике Вячераде~
+Охранник Вячерад стоит здесь, ожидающе глядя на вас.
+~
+Крепкий широкоплечий воин с тонким шрамом через правую щеку,
+облаченный в кольчугу до колен, шлем и вооруженный копьем.
+~
+b0d0l0o0l2 d0f0k0D0 -50 E
+27 -2 0 20d6+950 9d10+8
+20d6+50 0
+8 8 1
+Str: 25
+Dex: 18
+Int: 14
+Con: 25
+Cha: 12
+Size: 50
+LikeWork: 80
+ExtraAttack: 1
+Height: 182
+Weight: 168
+Special_Bitvector: a0b0c0d0 
+Skill: 3 60
+Skill: 5 90
+Skill: 22 70
+Skill: 136 81
+Skill: 149 60
+Skill: 158 80
+E
+#49977
+хмурый детина~
+хмурый детина~
+хмурого детины~
+хмурому детине~
+хмурого детину~
+хмурым детиной~
+хмуром детине~
+Здоровенный хмурый детина переминается с ноги на ногу.
+~
+Здоровенный детинушка с рябой рожей сжимает в руке
+шипастый кистень, недобро глядя на вас.
+~
+d0l0m0n0o0 d0 -100 E
+25 2 0 20d6+860 8d8+7
+5d10+30 95000
+8 8 1
+Str: 25
+Dex: 14
+Int: 12
+Wis: 12
+Con: 26
+Cha: 12
+Size: 55
+LikeWork: 75
+ExtraAttack: 1
+Height: 183
+Weight: 178
+Special_Bitvector: 0 
+Skill: 3 80
+Skill: 4 90
+Skill: 22 60
+Skill: 136 75
+Skill: 149 80
+Skill: 150 50
+Skill: 151 80
+E
+#49999
+базарный зазывала~
+базарный зазывала~
+базарного зазывалы~
+базарному зазывале~
+базарного зазывалу~
+базарным зазывалой~
+базарном зазывале~
+Базарный зазывала стоит здесь, зычным голосом расхваливая выставленный товар.
+~
+Дородный чернобородый мужик в красном кафтане,
+подпоясанном широким поясом, хороших сапогах
+и крашеных шароварах.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+0 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 90
+E
 $

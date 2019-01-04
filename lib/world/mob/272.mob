@@ -29,6 +29,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 51
 Skill: 151 80
 E
 #27201
@@ -63,6 +64,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 51
 E
 #27202
 повелитель душ~
@@ -95,7 +97,7 @@ Class: 101
 Height: 198
 Weight: 1
 Special_Bitvector: 0 
-Skill: 136 90
+Skill: 136 75
 Skill: 141 90
 Spell: 42
 Spell: 42
@@ -173,6 +175,7 @@ Class: 103
 Height: 198
 Weight: 2
 Special_Bitvector: 0 
+Skill: 136 30
 Skill: 157 50
 E
 #27205
@@ -204,6 +207,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 90
 Skill: 151 80
 E
 T 27200
@@ -239,6 +243,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 Spell: 4
 Spell: 4
 Spell: 15
@@ -280,5 +285,7 @@ Class: 102
 Height: 198
 Weight: 3
 Special_Bitvector: 0 
+Skill: 136 60
 E
+T 27203
 $

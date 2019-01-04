@@ -4,21 +4,21 @@
 ~
 wait 1
 if %actor.clan% != null
-halt
+  halt
 end
 set item1 %actor.eq(16)%
 set item2 %actor.eq(17)%
 set item3 %actor.eq(18)%
 set weapon 0
 if (%item1.type% == 4 ) || (%item1.type% == 5 )
-set weapon 1
+  set weapon 1
 elseif (%item2.type% == 4 ) || (%item2.type% == 5 )
-set weapon 1
+  set weapon 1
 elseif (%item3.type% == 4 ) || (%item3.type% == 5 )
-set weapon 1
+  set weapon 1
 end
 if %weapon% == 0
-halt
+  halt
 end
 гнев .%actor.name%
 say В нашем городе княжим приказом воспрещено по улицам бродить оружным,
@@ -31,31 +31,31 @@ mkill %actor%
 2 e 100
 ~
 if %actor.clan% != null
-halt
+  halt
 end
 if %direction% != south
-halt
+  halt
 end
 set item1 %actor.eq(16)%
 set item2 %actor.eq(17)%
 set item3 %actor.eq(18)%
 set weapon 0
 if (%item1.type% == 4 ) || (%item1.type% == 5 )
-eval weapon 1
+  eval weapon 1
 end
 if (%item2.type% == 4 ) || (%item2.type% == 5 )
-eval weapon 1
+  eval weapon 1
 end
 if (%item3.type% == 4 ) || (%item3.type% == 5 )
-eval weapon 1
+  eval weapon 1
 end
 if ( %weapon% == 1 )
-calcuid guardroom 18226 room
-set victim %actor%
-remote victim %guardroom%
-exec 18205 %guardroom%
-return 0
-halt
+  calcuid guardroom 18226 room
+  set victim %actor%
+  remote victim %guardroom%
+  exec 18205 %guardroom%
+  return 0
+  halt
 end
 ~
 #18202
@@ -64,41 +64,41 @@ end
 ~
 wait 2
 if %actor.clan% == рк
-emot выпрямился и перехватил протазан "на караул"
-mload obj 18232
-отпереть ворота
-открыть ворота
-wait 5s
-закрыть ворота
-запереть ворота
-mjunk all
-halt
+  emot выпрямился и перехватил протазан "на караул"
+  mload obj 18232
+  отпереть ворота
+  открыть ворота
+  wait 5s
+  закрыть ворота
+  запереть ворота
+  mjunk all
+  halt
 end
 set item1 %actor.eq(16)%
 set item2 %actor.eq(17)%
 set item3 %actor.eq(18)%
 set weapon 0
 if (%item1.type% == 4 ) || (%item1.type% == 5 )
-set weapon 1
+  set weapon 1
 elseif (%item2.type% == 4 ) || (%item2.type% == 5 )
-set weapon 1
+  set weapon 1
 elseif (%item3.type% == 4 ) || (%item3.type% == 5 )
-set weapon 1
+  set weapon 1
 end
 if (%weapon% == 1 ) &&  (%actor.clan% == null )
-msend %actor% Воротный стражник преградил вам дорогу протазаном.
-mechoaround %actor% Воротный стражник преградил %actor.dname% дорогу протазаном.
-say В наш город запрещено входить оружным и по улицам расхаживать!
-say Убери-ка ты железки, пока не порезал%actor.u%.
-say Городским стражам попадешься - у них разговор с тобой короткий выйдет.
-wait 2
-say Кроме того, на починку городских стен введен сбор за вход в город
-say Полсотни кун серебром.
+  msend %actor% Воротный стражник преградил вам дорогу протазаном.
+  mechoaround %actor% Воротный стражник преградил %actor.dname% дорогу протазаном.
+  say В наш город запрещено входить оружным и по улицам расхаживать!
+  say Убери-ка ты железки, пока не порезал%actor.u%.
+  say Городским стражам попадешься - у них разговор с тобой короткий выйдет.
+  wait 2
+  say Кроме того, на починку городских стен введен сбор за вход в город
+  say Полсотни кун серебром.
 else
-emot выпрямился и перехватил поудобней протазан
-say На починку городских стен введен сбор за вход в город
-say Полста кун серебром.
-ухм
+  emot выпрямился и перехватил поудобней протазан
+  say На починку городских стен введен сбор за вход в город
+  say Полста кун серебром.
+  ухм
 end
 ~
 #18203
@@ -108,17 +108,17 @@ end
 wait 1
 emot пересчитал монеты
 if %amount% < 50
-say Пошлина за вход в город пять десятков кун. Не больше, но никак не меньше!
-хмур
-give %amount% кун %actor.name% 
+  say Пошлина за вход в город пять десятков кун. Не больше, но никак не меньше!
+  хмур
+  give %amount% кун %actor.name% 
 else
-mload obj 18232
-отпереть ворота
-открыть ворота
-wait 5s
-закрыть ворота
-запереть ворота
-mjunk all
+  mload obj 18232
+  отпереть ворота
+  открыть ворота
+  wait 5s
+  закрыть ворота
+  запереть ворота
+  mjunk all
 end
 ~
 #18204
@@ -126,6 +126,10 @@ end
 0 d 0
 "открой ворота"~
 wait 1
+if %self.fighting%
+  послать .%actor.name%
+  halt
+end
 emot осмотрел Вас с ног до головы
 взд
 wait 2
@@ -153,31 +157,31 @@ wecho Воротный стражник сказал : 'Городским стражам попадешься - у них разговор 
 2 e 100
 ~
 if %actor.clan% != null
-halt
+  halt
 end
 if %direction% != north
-halt
+  halt
 end
 set item1 %actor.eq(16)%
 set item2 %actor.eq(17)%
 set item3 %actor.eq(18)%
 set weapon 0
 if (%item1.type% == 4 ) || (%item1.type% == 5 )
-eval weapon 1
+  eval weapon 1
 end
 if (%item2.type% == 4 ) || (%item2.type% == 5 )
-eval weapon 1
+  eval weapon 1
 end
 if (%item3.type% == 4 ) || (%item3.type% == 5 )
-eval weapon 1
+  eval weapon 1
 end
 if ( %weapon% == 1 )
-calcuid guardroom 18216 room
-set victim %actor%
-remote victim %guardroom%
-exec 18205 %guardroom%
-return 0
-halt
+  calcuid guardroom 18216 room
+  set victim %actor%
+  remote victim %guardroom%
+  exec 18205 %guardroom%
+  return 0
+  halt
 end
 ~
 #18207
@@ -185,31 +189,61 @@ end
 2 e 100
 ~
 if %actor.clan% != null
-halt
+  halt
 end
 if %direction% != west
-halt
+  halt
 end
 set item1 %actor.eq(16)%
 set item2 %actor.eq(17)%
 set item3 %actor.eq(18)%
 set weapon 0
 if (%item1.type% == 4 ) || (%item1.type% == 5 )
-eval weapon 1
+  eval weapon 1
 end
 if (%item2.type% == 4 ) || (%item2.type% == 5 )
-eval weapon 1
+  eval weapon 1
 end
 if (%item3.type% == 4 ) || (%item3.type% == 5 )
-eval weapon 1
+  eval weapon 1
 end
 if ( %weapon% == 1 )
-calcuid guardroom 18242 room
-set victim %actor%
-remote victim %guardroom%
-exec 18205 %guardroom%
-return 0
-halt
+  calcuid guardroom 18242 room
+  set victim %actor%
+  remote victim %guardroom%
+  exec 18205 %guardroom%
+  return 0
+  halt
 end
+~
+#18208
+Платные порталы~
+0 m 1
+~
+wait 1
+emot пересчитал%self.g% монеты
+eval target 0
+switch %amount%
+  * Киев
+  case 3200
+    eval target 49947
+  break
+  * Ладога
+  case 5200
+    eval target 30224
+  break
+  default
+    дум
+    say И чего же ты за эти деньги хочешь?
+    give %amount% кун .%actor.name%
+    halt
+  done
+  кив
+  emot сделал%self.g% несколько странных жестов
+  mechoaround %actor% %actor.name% исчез%actor.q% в клубах дыма.
+  msend %actor% У вас закружилась голова, и на миг вы потеряли сознание...
+  msend %actor% 
+  mteleport %actor% %target% horse
+  mechoaround %actor% %actor.name% появил%actor.u% здесь в клубах дыма.
 ~
 $~

@@ -25,6 +25,7 @@ ExtraAttack: 1
 Class: 102
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 6503
 T 6500
@@ -56,6 +57,7 @@ ExtraAttack: 1
 Class: 102
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 6501
 T 6502

@@ -27,6 +27,7 @@ Class: 103
 Height: 40
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 9
 E
 #4601
 белка~
@@ -55,8 +56,9 @@ Cha: 8
 Size: 8
 Class: 103
 Height: 40
-Weight: 10
+Weight: 60
 Special_Bitvector: n0 
+Skill: 136 6
 E
 #4602
 дрозд~
@@ -87,6 +89,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 6
 E
 #4603
 заяц~
@@ -116,8 +119,9 @@ Cha: 9
 Size: 9
 Class: 103
 Height: 40
-Weight: 5
+Weight: 11
 Special_Bitvector: n0 
+Skill: 136 9
 E
 #4604
 дятел~
@@ -148,6 +152,7 @@ Class: 103
 Height: 40
 Weight: 10
 Special_Bitvector: l0 
+Skill: 136 12
 E
 #4605
 сойка~
@@ -178,6 +183,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 9
 E
 #4606
 сорока~
@@ -208,6 +214,7 @@ Class: 103
 Height: 40
 Weight: 10
 Special_Bitvector: l0a1 
+Skill: 136 12
 E
 #4607
 норка~
@@ -237,8 +244,9 @@ Size: 10
 LikeWork: 10
 Class: 103
 Height: 40
-Weight: 5
+Weight: 11
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #4608
 тетерев~
@@ -270,6 +278,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 12
 E
 #4609
 сова~
@@ -301,6 +310,7 @@ Class: 103
 Height: 40
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 12
 E
 #4610
 колонок~
@@ -330,8 +340,9 @@ Size: 10
 LikeWork: 10
 Class: 103
 Height: 40
-Weight: 5
+Weight: 60
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #4611
 глухарь~
@@ -362,6 +373,7 @@ Class: 103
 Height: 40
 Weight: 10
 Special_Bitvector: l0 
+Skill: 136 15
 E
 #4612
 филин~
@@ -392,6 +404,7 @@ Class: 103
 Height: 40
 Weight: 10
 Special_Bitvector: l0 
+Skill: 136 18
 E
 #4613
 куница~
@@ -421,8 +434,9 @@ Size: 14
 ExtraAttack: 1
 Class: 103
 Height: 40
-Weight: 10
+Weight: 11
 Special_Bitvector: 0 
+Skill: 136 15
 E
 #4614
 барсук~
@@ -454,7 +468,9 @@ Class: 103
 Height: 40
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 18
 E
+L 5517 75 0 0
 #4615
 косуля~
 косуля~
@@ -483,8 +499,9 @@ Size: 20
 ExtraAttack: 1
 Class: 103
 Height: 100
-Weight: 40
+Weight: 60
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #4616
 тур~
@@ -498,7 +515,7 @@ E
 ~
 Крупный лесной бык.
 ~
-d0g0 0 0 E
+d0g0f2 0 0 E
 11 8 2 8d5+260 3d2+3
 0d0+0 7500
 8 8 1
@@ -515,6 +532,7 @@ Class: 103
 Height: 140
 Weight: 140
 Special_Bitvector: 0 
+Skill: 136 33
 E
 #4617
 лиса рыжая плутовка~
@@ -545,6 +563,7 @@ Class: 103
 Height: 60
 Weight: 12
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #4618
 лось~
@@ -576,6 +595,7 @@ Class: 103
 Height: 200
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 27
 E
 #4619
 волк~
@@ -607,6 +627,7 @@ Class: 103
 Height: 100
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #4620
 медведь~
@@ -638,5 +659,6 @@ Class: 103
 Height: 140
 Weight: 140
 Special_Bitvector: 0 
+Skill: 136 39
 E
 $

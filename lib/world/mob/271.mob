@@ -96,6 +96,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: g0 
 Skill: 2 80
+Skill: 136 45
 E
 #27103
 сторож~
@@ -127,6 +128,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 134 100
+Skill: 136 54
 Skill: 148 100
 E
 #27104
@@ -159,6 +161,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 134 100
+Skill: 136 54
 Skill: 148 100
 E
 #27105
@@ -192,6 +195,7 @@ Weight: 200
 Special_Bitvector: 0 
 Skill: 132 80
 Skill: 134 100
+Skill: 136 66
 Spell: 64
 E
 #27106
@@ -225,6 +229,7 @@ Weight: 200
 Special_Bitvector: 0 
 Skill: 132 80
 Skill: 134 80
+Skill: 136 66
 E
 #27107
 пес маленький~
@@ -256,6 +261,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #27108
 толстый кот~
@@ -288,6 +294,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: i0j0 
+Skill: 136 45
 Skill: 157 80
 E
 #27109
@@ -316,10 +323,11 @@ Cha: 8
 Size: 8
 LikeWork: 100
 ExtraAttack: 1
-Class: 103
+Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 36
 Skill: 160 80
 Spell: 15
 Spell: 15
@@ -372,6 +380,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: y0b1c1 
 Skill: 132 100
+Skill: 136 66
 Skill: 141 100
 Skill: 158 100
 E
@@ -440,6 +449,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 45
 E
 #27113
 старый козел~
@@ -471,5 +481,6 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 45
 E
 $

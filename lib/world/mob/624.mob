@@ -28,6 +28,7 @@ Height: 175
 Weight: 150
 Special_Bitvector: b1c1d1d3 
 Skill: 134 100
+Skill: 136 75
 Skill: 157 120
 Spell: 15
 Spell: 15
@@ -73,6 +74,7 @@ Height: 140
 Weight: 130
 Special_Bitvector: b1c1d1d3 
 Skill: 1 50
+Skill: 136 75
 Spell: 28
 Spell: 28
 Spell: 28
@@ -116,6 +118,7 @@ Class: 102
 Height: 175
 Weight: 150
 Special_Bitvector: b1c1d1d3 
+Skill: 136 75
 Spell: 67
 Spell: 67
 Spell: 93
@@ -154,6 +157,7 @@ Weight: 140
 Special_Bitvector: b1c1d1d3 
 Skill: 5 120
 Skill: 134 100
+Skill: 136 84
 Skill: 137 100
 Skill: 160 100
 Skill: 167 100
@@ -163,7 +167,7 @@ E
 охранник обоза~
 охранника обоза~
 охраннику обоза~
-охранник обоза~
+охранника обоза~
 охранником обоза~
 охраннике обоза~
 Охранник обоза оглядывается здесь, как бы вороги не напали.
@@ -191,6 +195,7 @@ Skill: 1 50
 Skill: 12 120
 Skill: 22 100
 Skill: 132 50
+Skill: 136 81
 Skill: 137 100
 E
 T 62403
@@ -224,6 +229,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: B3 
 Skill: 21 5
+Skill: 136 60
 E
 I крылья,10:5
 #62406
@@ -255,6 +261,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: v0 
+Skill: 136 45
 E
 I кожа,10:3
 $

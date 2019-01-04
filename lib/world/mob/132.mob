@@ -101,6 +101,7 @@ Spell: 69
 Spell: 72
 Spell: 72
 Helper: 13212
+Skill: 136 66
 E
 T 13203
 #13202
@@ -452,6 +453,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 13213
 #13212
@@ -736,6 +738,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 13212
 T 13214

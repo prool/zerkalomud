@@ -6,7 +6,7 @@
 запуганного смерда~
 запуганным смердом~
 запуганном смерде~
-Смерд из близлежащей деревушки вжался от страха к кусту.
+Смерд из близлежащей деревушки вжался от страха в кусты.
 ~
 Дрожащий мужичонка что-то бормочет будто бы в бреду.
 ~
@@ -27,6 +27,7 @@ Class: 102
 Height: 180
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 157 50
 Spell: 52
 Spell: 52
@@ -71,6 +72,7 @@ Special_Bitvector: b1c1C3
 Skill: 22 100
 Skill: 131 130
 Skill: 133 100
+Skill: 136 84
 Skill: 157 90
 Spell: 1
 Spell: 1
@@ -109,6 +111,7 @@ Special_Bitvector: b1c1B3
 Skill: 21 20
 Skill: 131 60
 Skill: 132 95
+Skill: 136 87
 Skill: 150 65
 Spell: 124
 E
@@ -127,7 +130,7 @@ E
 один-единственный смертельный удар из засады.
 ~
 c0d0f0m0p0q0x0A0b1r1 d0e0f0k0n0r0t0x0z0A0C0m1z1 -600 E
-38 0 -9 30d12+9600 2d22+50
+38 -4 -9 30d12+9600 2d22+50
 34d8+4000 1800000
 8 8 1
 BareHandAttack: 4
@@ -216,6 +219,7 @@ Height: 150
 Weight: 80
 Special_Bitvector: g0m0 
 Skill: 5 100
+Skill: 136 81
 Spell: 28
 Spell: 33
 Spell: 33
@@ -296,6 +300,16 @@ Class: 104
 Height: 190
 Weight: 70
 Special_Bitvector: y0b1c1B3C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 21 100
 Skill: 22 100
 Skill: 136 120
@@ -360,6 +374,8 @@ Spell: 72
 Spell: 72
 Spell: 137
 E
+I кости:6
+I когти:6
 #86608
 опасная бестия мантикора~
 мантикора~
@@ -400,6 +416,8 @@ Spell: 4
 Spell: 4
 E
 T 86628
+I когти:7
+I шерсть:7
 #86609
 страшенное существо куролиск~
 куролиск~
@@ -434,12 +452,15 @@ Weight: 50
 Special_Bitvector: i0j0l0B3 
 Skill: 5 120
 Skill: 21 60
+Skill: 136 81
 Skill: 156 100
 Skill: 167 80
 Spell: 27
 Spell: 27
 Spell: 27
 E
+I кости:7
+I глаза:7
 #86610
 вампир потревоженный~
 потревоженный вампир~
@@ -500,7 +521,6 @@ E
 T 86617
 T 86621
 I зубы,12:5
-L 1058 10 0 0
 #86611
 шкодливый стучак~
 стучак~
@@ -598,7 +618,7 @@ E
 Заколдованный еще при жизни могущественным чернокнижником, барон не может
 обрести покой даже после смерти.
 ~
-c0d0f0m0p0z0e2h2 d0e0f0k0p1r1 -600 E
+d0f0m0p0z0e2h2 d0e0f0k0p1r1 -600 E
 31 1 -7 14d9+6000 6d9+30
 0d0+0 580000
 8 8 1
@@ -619,6 +639,7 @@ Weight: 90
 Special_Bitvector: h0l0b1c1C3 
 Skill: 5 80
 Skill: 22 100
+Skill: 136 93
 Spell: 23
 Spell: 55
 Spell: 55
@@ -787,6 +808,7 @@ Height: 100
 Weight: 100
 Special_Bitvector: h0l0u0C3 
 Skill: 22 90
+Skill: 136 99
 Skill: 157 90
 Spell: 38
 Spell: 38
@@ -885,6 +907,7 @@ Skill: 12 90
 Skill: 21 50
 Skill: 22 150
 Skill: 131 100
+Skill: 136 96
 Spell: 28
 Spell: 28
 Spell: 56
@@ -931,6 +954,16 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b0c0x0b1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 22 60
 Skill: 136 100
 Skill: 137 60
@@ -958,6 +991,7 @@ Spell: 135
 E
 T 86631
 I кожа,15:5
+L 1746 5 0 0
 #86621
 облачный титан~
 облачный титан~
@@ -1057,6 +1091,16 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b0c0w0b1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 120
 Skill: 132 130
 Skill: 136 120
@@ -1111,6 +1155,7 @@ Spell: 56
 Spell: 144
 E
 T 86633
+L 1747 5 0 0
 #86624
 сонный титан~
 сонный титан~
@@ -1140,6 +1185,16 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 120
 Skill: 12 90
 Skill: 22 80
@@ -1219,8 +1274,18 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: l0b1c1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 1 100
-Skill: 136 100
+Skill: 136 120
 Skill: 150 60
 Skill: 157 90
 Spell: 10
@@ -1371,6 +1436,9 @@ Spell: 66
 Spell: 66
 Spell: 66
 Spell: 66
+Spell: 143
+Spell: 143
+Spell: 143
 E
 T 86627
 L 1487 14 0 0

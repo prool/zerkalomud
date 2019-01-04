@@ -26,11 +26,13 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
 Skill: 2 200
 Skill: 4 200
+Skill: 136 120
 E
 #25301
 заморский колдун~
@@ -44,8 +46,8 @@ E
 ~
 Высокий человек, облаченный в серую монашескую рясу, с высоким капюшоном
 ~
-b0d0e0g0l0m0n0o0p0q0r0t0u0x0z0B0e2f2 d0e0f0g0h0k0m0n0p0r0s0z0A0C0m1n1o1p1q1r1t1x1y1z1 0 E
-50 0 -10 10d50+5000 10d10+100
+b0d0e0g0l0m0n0o0p0q0r0t0u0x0z0B0e2f2 d0e0f0g0h0k0m0n0p0r0s0z0A0C0m1n1o1q1t1x1y1z1 0 E
+50 0 -10 10d50+5000 2d2+2
 0d0+0 0
 8 8 1
 Destination: 25300
@@ -59,84 +61,13 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 100
 Class: 105
+Race: 
 Height: 190
 Weight: 90
 Special_Bitvector: h0i0j0p0b1c1m3B3C3 
-Skill: 132 95
 Skill: 133 95
-Skill: 136 90
 Skill: 151 95
 Skill: 156 95
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 81
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 93
-Spell: 111
-Spell: 111
-Spell: 111
-Spell: 111
-Spell: 111
-Spell: 111
-Spell: 111
-Spell: 111
-Spell: 111
-Spell: 111
 Spell: 113
 Spell: 113
 Spell: 113
@@ -185,11 +116,13 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 90
 Special_Bitvector: 0 
 Skill: 2 200
 Skill: 4 200
+Skill: 136 24
 E
 #25303
 заморский кузнец~
@@ -218,11 +151,13 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 100
 Special_Bitvector: 0 
 Skill: 4 200
 Skill: 5 200
+Skill: 136 93
 E
 #25304
 заморский волшебник~
@@ -256,6 +191,7 @@ Cha: 32
 Size: 100
 LikeWork: 100
 Class: 105
+Race: 
 Height: 175
 Weight: 85
 Special_Bitvector: g0h0i0j0u0m3B3C3 
@@ -484,11 +420,13 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
 Skill: 2 200
 Skill: 4 200
+Skill: 136 120
 E
 #25306
 ямщик~
@@ -517,11 +455,13 @@ Cha: 10
 Size: 100
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
 Skill: 4 200
 Skill: 5 200
+Skill: 136 120
 E
 #25307
 ключник~
@@ -550,11 +490,13 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 100
 Class: 102
+Race: 101
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
 Skill: 4 200
 Skill: 5 200
+Skill: 136 120
 Spell: 28
 Spell: 28
 Spell: 28
@@ -636,6 +578,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 100
 Class: 105
+Race: 
 Height: 190
 Weight: 90
 Special_Bitvector: g0h0i0j0p0B3C3 
@@ -791,6 +734,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 103
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: i0o0 
@@ -798,6 +742,7 @@ Skill: 5 200
 Skill: 21 200
 Skill: 132 200
 Skill: 133 200
+Skill: 136 150
 Skill: 138 200
 Skill: 150 200
 Skill: 157 200
@@ -900,9 +845,11 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 102
 E
 #25311
 старый ведун ~
@@ -919,7 +866,7 @@ E
 ~
 b0d0n0o0p0q0r0t0u0x0o1f2g2i2 c0d0e0f0h0 600 E
 34 0 -10 10d10+2000 25d25+25
-100d100+30000 0
+100d100+1 0
 8 8 1
 Str: 35
 Dex: 36
@@ -931,11 +878,14 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 102
 E
 T 25304
+T 25315
 #25312
 белоснежный грифон~
 белоснежный грифон~
@@ -950,8 +900,8 @@ T 25304
 покрытое снежно-белым оперением. Такие звери водятся лишь
 на самых вершинах поднебесных гор.
 ~
-d0n0o0p0q0r0s0t0u0x0z0f2g2i2 d0f0k0x0 0 E
-30 10 -4 1d1+120 2d2+2
+d0n0o0p0s0t0z0f2g2 d0f0k0x0 0 E
+20 15 0 1d1+120 2d2+2
 0d0+0 0
 8 8 1
 BareHandAttack: 4
@@ -961,11 +911,13 @@ Int: 10
 Wis: 10
 Con: 20
 Cha: 10
-Size: 30
+Size: 100
 Class: 103
+Race: 104
 Height: 175
-Weight: 150
+Weight: 50
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 25306
 #25313
@@ -996,9 +948,11 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 102
 E
 #25314
 отрок~
@@ -1027,9 +981,11 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
+Skill: 136 102
 E
 #25315
 гридень~
@@ -1058,9 +1014,11 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 102
 E
 T 25312
 #25316
@@ -1090,14 +1048,16 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 102
 E
 T 25308
 T 25314
 #25317
-боярин~
+боярин дзп~
 боярин~
 боярина~
 боярину~
@@ -1110,7 +1070,7 @@ T 25314
 но все еще крепкий, словно столетний дуб.
 ~
 d0n0o0p0q0r0t0u0x0y0B0o1r1f2g2i2 d0f0k0 600 E
-50 0 -10 50d90+20000 15d15+15
+30 0 -10 50d90+20000 15d15+15
 0d0+0 0
 8 8 1
 BareHandAttack: 6
@@ -1123,9 +1083,11 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 90
 E
 T 25312
 #25318
@@ -1156,9 +1118,11 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 102
 E
 T 25310
 #25319
@@ -1184,8 +1148,41 @@ ExtraAttack: 1
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 96
 E
 T 25311
+#25320
+резиновая баба~
+резиновая баба~
+резиновой бабы~
+резиновой бабе~
+резиновую бабу~
+резиновой бабой~
+резиновой бабе~
+Резиновая баба висит тут в воздухе. (покачивается)
+~
+Натурально резиновая. Во всех местах баба.
+Отдельно следует отметить явную приспособленность к траханью, особенно моска.
+~
+d0n0o0p0q0r0t0u0z0B0 d0f0k0x0 0 E
+30 20 0 1d100+1 1d1+1
+0d0+0 0
+8 8 2
+Str: 3
+Dex: 3
+Int: 3
+Wis: 3
+Con: 40
+Cha: 40
+Size: 30
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: l0 
+E
+T 25322
+T 25323
 #25398
 демон разрушения~
 &Rдемон разрушения&n~
@@ -1220,6 +1217,7 @@ Special_Bitvector: j0
 Skill: 4 100
 Skill: 22 150
 Skill: 132 80
+Skill: 136 105
 Skill: 140 200
 Skill: 158 50
 Spell: 28

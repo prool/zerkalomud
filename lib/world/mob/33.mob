@@ -1,0 +1,1277 @@
+* BRusMUD mob file v1.0
+#3300
+оборванец~
+оборванец~
+оборванеца~
+оборванецу~
+оборванец~
+оборванецом~
+оборванеце~
+стабер - использовать группой из 3-5ти однаковых мобов
+~
+
+~
+d0n0o0A0 d0f0k0r0t0A0 -600 E
+25 0 -5 10d10+580 4d4+12
+2d2+7 60000
+8 8 1
+BareHandAttack: 11
+Str: 22
+Int: 19
+Wis: 13
+Dex: 25
+Con: 24
+Cha: 15
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 50
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 22 65
+Skill: 131 90
+Skill: 133 50
+Skill: 136 100
+Skill: 137 50
+Skill: 157 80
+Skill: 167 40
+E
+#3301
+здоровяк~
+здоровяк~
+здоровяка~
+здоровяку~
+здоровяк~
+здоровяком~
+здоровяке~
+танкетки использовать группой по 2-4 одинаковых
+~
+
+~
+d0n0o0A0 d0f0k0r0 -600 E
+26 3 4 10d10+890 6d5+10
+4d4+7 75000
+8 8 0
+BareHandAttack: 0
+Str: 26
+Int: 17
+Wis: 12
+Dex: 18
+Con: 27
+Cha: 12
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Skill: 1 100
+Skill: 4 70
+Skill: 136 100
+Skill: 137 30
+Spell: 48
+Spell: 48
+Spell: 64
+E
+#3302
+секач~
+секач~
+секача~
+секачу~
+секач~
+секачем~
+секаче~
+танк группы свиней (с кабанихой и 2+ поросенка)
+~
+
+~
+n0o0 d0f0k0r0 -600 E
+25 0 0 10d10+1300 8d8+10
+0d0+0 80000
+8 8 1
+BareHandAttack: 14
+Str: 28
+Int: 17
+Wis: 13
+Dex: 14
+Con: 31
+Cha: 10
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 0
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: C3
+Skill: 22 80
+Skill: 136 90
+Skill: 137 80
+Skill: 150 90
+E
+#3303
+кабаниха~
+кабаниха~
+кабанихи~
+кабанихе~
+кабаниху~
+кабанихой~
+кабанихе~
+лекарь группы  свиней
+~
+
+~
+n0o0t0 d0f0k0r0A0 -600 E
+23 0 0 10d10+871 7d7+7
+0d0+0 90000
+8 8 2
+BareHandAttack: 14
+Str: 25
+Int: 21
+Wis: 13
+Dex: 14
+Con: 31
+Cha: 10
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 0
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Skill: 136 90
+Spell: 14
+Spell: 14
+Spell: 14
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 93
+Spell: 114
+Spell: 114
+E
+#3304
+поросенок~
+поросенок~
+поросенка~
+поросенку~
+поросенок~
+поросенком~
+поросенке~
+дамагеры группы свиней
+~
+
+~
+n0o0 d0f0k0r0 -600 E
+25 0 0 10d10+520 9d9+10
+0d0+0 65000
+8 8 1
+BareHandAttack: 14
+Str: 27
+Int: 17
+Wis: 13
+Dex: 19
+Con: 16
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 0
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Skill: 132 75
+Skill: 136 115
+Skill: 167 30
+E
+#3305
+разбойник~
+разбойник - стабер~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник стабер
+~
+
+~
+d0n0o0A0 d0f0k0r0 -600 E
+25 0 -6 10d10+590 5d5+12
+2d2+7 52000
+8 8 1
+BareHandAttack: 11
+Str: 22
+Int: 19
+Wis: 13
+Dex: 26
+Con: 24
+Cha: 15
+LikeWork: 55
+MaxFactor: 0
+ExtraAttack: 1
+Class: 104
+Size: 50
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 22 65
+Skill: 131 90
+Skill: 133 50
+Skill: 136 100
+Skill: 167 60
+E
+#3306
+разбойник~
+разбойник -  танк~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник танк
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+27 0 -8 10d10+850 5d5+7
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 24
+Int: 17
+Wis: 13
+Dex: 14
+Con: 27
+Cha: 10
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 22 80
+Skill: 136 90
+Skill: 137 80
+Skill: 150 90
+E
+#3307
+разбойник~
+разбойник -  дамагер-башер~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник дамагер-башер
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+26 0 5 10d10+650 7d7+5
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 24
+Int: 17
+Wis: 13
+Dex: 21
+Con: 27
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 104
+Size: 70
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 132 80
+Skill: 136 90
+Skill: 141 90
+Skill: 142 90
+Skill: 143 90
+Skill: 144 90
+Skill: 145 90
+Skill: 146 90
+Skill: 147 90
+Skill: 148 90
+Skill: 150 90
+Skill: 154 90
+E
+#3308
+разбойник~
+разбойник -  маг фрагер~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник маг фрагер
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+28 6 -8 10d10+590 5d5+1
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 14
+Int: 23
+Wis: 32
+Dex: 14
+Con: 22
+Cha: 10
+LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 136 90
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 128
+E
+#3309
+разбойник~
+разбойник -  лекарь~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник лекарь
+~
+
+~
+n0o0t0A0 d0f0k0r0 -600 E
+23 9 -8 10d10+590 5d5+1
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 14
+Int: 23
+Wis: 32
+Dex: 14
+Con: 22
+Cha: 10
+LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 136 90
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 93
+E
+#3310
+разбойник~
+разбойник -  маг-   обсиратель~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник маг -обсиратель
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+28 6 -8 10d10+590 5d5+1
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 14
+Int: 23
+Wis: 32
+Dex: 14
+Con: 22
+Cha: 10
+LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 136 90
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 33
+Spell: 33
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 93
+Spell: 111
+Spell: 111
+Spell: 128
+E
+#3311
+разбойник~
+разбойник 2 - стабер~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник стабер
+~
+
+~
+d0n0o0A0 d0f0k0r0 -600 E
+25 0 -6 10d10+591 5d5+12
+2d2+7 52000
+8 8 1
+BareHandAttack: 11
+Str: 22
+Int: 19
+Wis: 13
+Dex: 26
+Con: 24
+Cha: 15
+LikeWork: 55
+MaxFactor: 0
+ExtraAttack: 1
+Class: 104
+Size: 50
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 22 65
+Skill: 131 90
+Skill: 133 50
+Skill: 136 100
+Skill: 167 60
+E
+#3312
+разбойник~
+разбойник 2 -  танк~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник танк
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+27 0 -8 10d10+851 5d5+7
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 24
+Int: 17
+Wis: 13
+Dex: 14
+Con: 27
+Cha: 10
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 22 80
+Skill: 136 90
+Skill: 137 80
+Skill: 150 90
+E
+#3313
+разбойник~
+разбойник  2 -  дамагер-башер~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник дамагер-башер
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+26 0 5 10d10+651 7d7+5
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 24
+Int: 17
+Wis: 13
+Dex: 21
+Con: 27
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 104
+Size: 70
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 132 80
+Skill: 136 90
+Skill: 141 90
+Skill: 142 90
+Skill: 143 90
+Skill: 144 90
+Skill: 145 90
+Skill: 146 90
+Skill: 147 90
+Skill: 148 90
+Skill: 150 90
+Skill: 154 90
+E
+#3314
+разбойник~
+разбойник 2 -  маг фрагер~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник маг фрагер
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+28 6 -8 10d10+591 5d5+1
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 14
+Int: 23
+Wis: 32
+Dex: 14
+Con: 22
+Cha: 10
+LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 136 90
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 128
+E
+#3315
+разбойник~
+разбойник 2-  лекарь~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник лекарь
+~
+
+~
+n0o0t0A0 d0f0k0r0 -600 E
+23 9 -8 10d10+591 5d5+1
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 14
+Int: 23
+Wis: 32
+Dex: 14
+Con: 22
+Cha: 10
+LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 136 90
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 93
+E
+#3316
+разбойник~
+разбойник - 2 маг-   обсиратель~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник маг -обсиратель
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+28 6 -8 10d10+591 5d5+1
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 14
+Int: 23
+Wis: 32
+Dex: 14
+Con: 22
+Cha: 10
+LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 136 90
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 33
+Spell: 33
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 93
+Spell: 111
+Spell: 111
+Spell: 128
+E
+#3317
+разбойник~
+разбойник 3 - стабер~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник стабер
+~
+
+~
+d0n0o0A0 d0f0k0r0 -600 E
+25 0 -6 10d10+592 5d5+12
+2d2+7 52000
+8 8 1
+BareHandAttack: 11
+Str: 22
+Int: 19
+Wis: 13
+Dex: 26
+Con: 24
+Cha: 15
+LikeWork: 55
+MaxFactor: 0
+ExtraAttack: 1
+Class: 104
+Size: 50
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 22 65
+Skill: 131 90
+Skill: 133 50
+Skill: 136 100
+Skill: 167 60
+E
+#3318
+разбойник~
+разбойник 3 -  танк~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник танк
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+27 0 -8 10d10+852 5d5+7
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 24
+Int: 17
+Wis: 13
+Dex: 14
+Con: 27
+Cha: 10
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 22 80
+Skill: 136 90
+Skill: 137 80
+Skill: 150 90
+E
+#3319
+разбойник~
+разбойник  3 -  дамагер-башер~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник дамагер-башер
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+26 0 5 10d10+652 7d7+5
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 24
+Int: 17
+Wis: 13
+Dex: 21
+Con: 27
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 104
+Size: 70
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 132 80
+Skill: 136 90
+Skill: 141 90
+Skill: 142 90
+Skill: 143 90
+Skill: 144 90
+Skill: 145 90
+Skill: 146 90
+Skill: 147 90
+Skill: 148 90
+Skill: 150 90
+Skill: 154 90
+E
+#3320
+разбойник~
+разбойник 3 -  маг фрагер~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник маг фрагер
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+28 6 -8 10d10+592 5d5+1
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 14
+Int: 23
+Wis: 32
+Dex: 14
+Con: 22
+Cha: 10
+LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 136 90
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 79
+Spell: 79
+Spell: 89
+Spell: 89
+Spell: 128
+E
+#3321
+разбойник~
+разбойник 3-  лекарь~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник лекарь
+~
+
+~
+n0o0t0A0 d0f0k0r0 -600 E
+23 9 -8 10d10+592 5d5+1
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 14
+Int: 23
+Wis: 32
+Dex: 14
+Con: 22
+Cha: 10
+LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 136 90
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 93
+E
+#3322
+разбойник~
+разбойник - 3маг-   обсиратель~
+разбойника~
+разбойнику~
+разбойник~
+разбойником~
+разбойнике~
+разбойник маг -обсиратель
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+28 6 -8 10d10+592 5d5+1
+0d0+0 67000
+8 8 1
+BareHandAttack: 0
+Str: 14
+Int: 23
+Wis: 32
+Dex: 14
+Con: 22
+Cha: 10
+LikeWork: 35
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 136 90
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 33
+Spell: 33
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 93
+Spell: 111
+Spell: 111
+Spell: 128
+E
+#3323
+стражник~
+стражник витяз-хилер и хз кто в общем~
+стражника~
+стражнику~
+стражник~
+стражником~
+стражнике~
+стражник -  прикрывает и Гхиляется, типа  витязя(молча,слепь прокла)
+~
+
+~
+d0n0o0A0 d0f0k0r0 -600 E
+26 3 4 10d10+890 6d5+10
+4d4+7 83000
+8 8 0
+BareHandAttack: 0
+Str: 26
+Int: 17
+Wis: 12
+Dex: 18
+Con: 27
+Cha: 12
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1
+Skill: 1 100
+Skill: 4 70
+Skill: 136 100
+Skill: 137 30
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 48
+Spell: 48
+Spell: 64
+Spell: 75
+Spell: 75
+Spell: 79
+Spell: 79
+Spell: 81
+Spell: 81
+Spell: 83
+Spell: 83
+Spell: 89
+Spell: 89
+Spell: 93
+E
+#3324
+стражник~
+стражник дамагер~
+стражника дамагера~
+стражнику дамагеру~
+стражник дамагер~
+стражником дамагером~
+стражнике дамагере~
+ну обычный дамагер - пнуть да сбашить посильнее бы
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+27 0 5 10d10+830 7d7+7
+0d0+0 84000
+8 8 1
+BareHandAttack: 0
+Str: 26
+Int: 17
+Wis: 13
+Dex: 21
+Con: 24
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 104
+Size: 70
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 132 80
+Skill: 134 90
+Skill: 136 90
+Skill: 141 90
+Skill: 142 90
+Skill: 143 90
+Skill: 144 90
+Skill: 145 90
+Skill: 146 90
+Skill: 147 90
+Skill: 148 90
+Skill: 150 90
+Skill: 154 90
+E
+#3325
+стражник танк~
+стражник танк~
+стражника танка~
+стражнику танку~
+стражник танк~
+стражником танком~
+стражнике танке~
+стражник танк
+~
+
+~
+n0o0A0 d0f0k0r0 -600 E
+27 0 -8 10d10+1125 5d5+7
+0d0+0 79000
+8 8 1
+BareHandAttack: 0
+Str: 24
+Int: 17
+Wis: 13
+Dex: 14
+Con: 27
+Cha: 10
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1C3
+Skill: 22 80
+Skill: 136 90
+Skill: 137 80
+Skill: 150 90
+E
+$
+$

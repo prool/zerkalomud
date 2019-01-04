@@ -29,7 +29,9 @@ Height: 198
 Weight: 120
 Special_Bitvector: b0 
 Skill: 132 90
+Skill: 136 72
 E
+T 28807
 #28801
 гранитный голем~
 гранитный голем~
@@ -60,7 +62,9 @@ Height: 198
 Weight: 200
 Special_Bitvector: c0 
 Skill: 4 20
+Skill: 136 69
 E
+T 28806
 #28802
 сторожевой ночи~
 сторожевой ночи~
@@ -74,13 +78,13 @@ E
 Существо, созданное темной магией.
 ~
 d0f0g0n0o0e2 d0k0t0 -600 E
-20 4 2 0d0+450 4d2+5
+20 20 2 0d0+450 4d7+14
 4d5+59 25000
 8 8 1
 Str: 18
 Dex: 15
 Int: 4
-Wis: 4
+Wis: 25
 Con: 18
 Cha: 3
 Size: 50
@@ -91,6 +95,7 @@ Height: 198
 Weight: 120
 Special_Bitvector: 0 
 Skill: 134 80
+Skill: 136 60
 Skill: 137 100
 E
 #28803
@@ -109,7 +114,7 @@ E
 ~
 d0f0g0n0o0 b0d0k0p1 -600 E
 25 0 0 0d0+600 3d3+4
-3d3+1 0
+3d3+1 55000
 8 8 1
 Destination: 28811
 Destination: 28812
@@ -134,6 +139,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 4
 Spell: 4
 Spell: 4
@@ -197,7 +203,7 @@ E
 ~
 d0f0g0m0n0o0 b0d0k0p1 -600 E
 25 0 0 0d0+600 3d3+4
-0d0+0 0
+0d0+0 56000
 8 8 1
 Destination: 28824
 Destination: 28823
@@ -222,6 +228,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 4
 Spell: 4
 Spell: 4
@@ -339,6 +346,7 @@ Skill: 150 30
 Spell: 28
 E
 T 28801
+T 28810
 #28809
 элитный сторожевой ночи~
 элитный сторожевой ночи~
@@ -353,13 +361,13 @@ T 28801
 создать злые колдуны.
 ~
 d0f0g0n0o0A0e2 d0k0t0 -600 E
-25 4 2 0d0+600 6d3+5
+25 9 2 0d0+600 6d3+12
 5d6+4 35000
 8 8 1
 Str: 18
 Dex: 15
 Int: 4
-Wis: 4
+Wis: 25
 Con: 18
 Cha: 3
 Size: 50
@@ -371,6 +379,7 @@ Weight: 120
 Special_Bitvector: b1c1 
 Skill: 132 60
 Skill: 134 80
+Skill: 136 75
 Skill: 137 100
 Skill: 157 60
 Skill: 167 100
@@ -389,13 +398,13 @@ E
 его тело покрыто доспехами.
 ~
 b0d0f0g0n0o0A0e2 d0k0 -600 E
-24 4 2 0d0+900 5d3+5
+24 4 2 0d0+900 5d3+7
 3d67+5 75000
 8 8 1
 Str: 18
 Dex: 15
 Int: 10
-Wis: 4
+Wis: 25
 Con: 18
 Cha: 3
 Size: 50
@@ -406,6 +415,7 @@ Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
 Skill: 134 80
+Skill: 136 72
 Skill: 137 100
 Skill: 146 80
 E
@@ -519,4 +529,40 @@ Spell: 28
 Spell: 28
 E
 T 28804
+#28814
+богиня ночи~
+богиня ночи~
+богини ночи~
+богине ночи~
+богиню ночи~
+богиней ночи~
+богине ночи~
+Богиня Ночи восседает на троне здесь.
+~
+В черной одежде с белой маской на лице трудно понять кто это, важно что
+он здесь главный и победить его главная задача.
+~
+b0c0d0f0g0n0o0x0z0 d0e0f0k0r0p1 -600 E
+30 0 -8 0d0+2000 5d3+4
+0d0+0 0
+8 8 2
+Str: 20
+Dex: 15
+Int: 20
+Wis: 20
+Con: 20
+Cha: 10
+Size: 100
+LikeWork: 99
+ExtraAttack: 4
+Class: 101
+Height: 198
+Weight: 50
+Special_Bitvector: 0 
+Skill: 4 30
+Skill: 136 100
+Skill: 150 30
+E
+T 28808
+T 28809
 $

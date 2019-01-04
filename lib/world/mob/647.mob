@@ -29,6 +29,7 @@ Class: 100
 Height: 30
 Weight: 50
 Special_Bitvector: n0d3 
+Skill: 136 12
 Skill: 157 100
 E
 I шерсть,2:5
@@ -62,6 +63,7 @@ Class: 100
 Height: 30
 Weight: 50
 Special_Bitvector: n0d3 
+Skill: 136 3
 Skill: 157 100
 E
 I шерсть,2:5
@@ -97,6 +99,7 @@ Weight: 50
 Special_Bitvector: p0d3B3 
 Skill: 21 5
 Skill: 132 100
+Skill: 136 45
 Skill: 138 60
 Skill: 156 70
 Skill: 157 40
@@ -128,6 +131,7 @@ Height: 70
 Weight: 80
 Special_Bitvector: a0d3 
 Skill: 132 120
+Skill: 136 48
 Skill: 157 120
 E
 #64704
@@ -161,6 +165,7 @@ Weight: 100
 Special_Bitvector: p0d3 
 Skill: 5 100
 Skill: 132 10
+Skill: 136 60
 Skill: 137 30
 E
 I копыта,10:5

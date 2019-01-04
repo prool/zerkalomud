@@ -29,6 +29,7 @@ Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 4 100
 Skill: 132 100
+Skill: 136 75
 E
 #65301
 расстроенный возчик~
@@ -43,7 +44,7 @@ E
 Здоровенный детина, простое открытое лицо, такие не блещут умом, но
 дураками их никто почему-то не зовет.
 ~
-b0d0x0 d0f0k0 0 E
+b0d0n0x0u2 d0f0k0 0 E
 22 5 4 10d10+600 1d1+1
 0d0+0 1000
 8 8 1
@@ -63,6 +64,7 @@ Special_Bitvector: b1c1d1d3
 Skill: 4 70
 Skill: 132 70
 Skill: 134 70
+Skill: 136 66
 Skill: 145 90
 E
 T 65300
@@ -99,6 +101,7 @@ Special_Bitvector: 0
 Skill: 4 70
 Skill: 132 70
 Skill: 134 70
+Skill: 136 66
 Skill: 145 90
 E
 #65303
@@ -113,9 +116,9 @@ E
 ~
 Он озлоблен и испуган. Страх и злость толкают его на преступления.
 ~
-c0d0f0 k0r0s0t0 -600 E
-25 0 -10 10d10+1000 5d5+12
-0d0+2 100000
+c0d0f0 d0k0r0s0t0 -600 E
+25 0 -3 10d10+400 5d5+8
+0d0+2 26000
 8 8 1
 BareHandAttack: 11
 Str: 17
@@ -132,10 +135,9 @@ Height: 175
 Weight: 85
 Special_Bitvector: i0b1c1 
 Skill: 4 10
-Skill: 131 100
 Skill: 133 100
+Skill: 136 75
 Skill: 157 100
-Skill: 160 100
 E
 #65304
 черниговский лесничий~
@@ -150,8 +152,8 @@ E
 В его обязанности входит следить за тем, чтобы никто не рубил леса и не
 стрелял дичь в угодьях черниговского князя.
 ~
-c0d0f0 k0r0 -600 E
-25 0 -10 10d10+1000 5d5+10
+c0d0 k0r0 -600 E
+25 0 -3 10d10+1000 5d5+10
 0d0+30 150000
 8 8 1
 BareHandAttack: 9
@@ -170,6 +172,7 @@ Weight: 85
 Special_Bitvector: i0b1c1 
 Skill: 4 10
 Skill: 134 100
+Skill: 136 75
 Skill: 154 100
 Skill: 155 100
 Skill: 157 100
@@ -183,7 +186,7 @@ E
 черниговского егеря~
 черниговскому егерю~
 черниговского егеря~
-черниговским егере~
+черниговским егерем~
 черниговском егере~
 Черниговский егерь организовывает княжескую охоту.
 ~
@@ -191,7 +194,7 @@ E
 остался доволен охотой.
 ~
 c0d0m0 k0r0 -600 E
-25 0 -10 10d10+1000 5d5+10
+25 0 -3 10d10+1000 5d5+10
 0d0+30 150000
 8 8 1
 BareHandAttack: 9
@@ -210,6 +213,7 @@ Weight: 85
 Special_Bitvector: i0b1c1 
 Skill: 4 10
 Skill: 134 100
+Skill: 136 75
 Skill: 154 100
 Skill: 155 100
 Skill: 157 100
@@ -230,12 +234,12 @@ E
 Его задача согнать зверя с лежки и погнать на охотников.
 ~
 c0d0m0 k0r0 -600 E
-25 0 -10 10d10+1000 5d5+10
+25 0 10 10d10+500 5d5+10
 0d0+30 150000
 8 8 1
 BareHandAttack: 9
 Str: 17
-Dex: 30
+Dex: 20
 Int: 10
 Wis: 10
 Con: 10
@@ -249,6 +253,7 @@ Weight: 85
 Special_Bitvector: i0b1c1 
 Skill: 4 10
 Skill: 134 100
+Skill: 136 75
 Skill: 154 100
 Skill: 155 100
 Skill: 157 100
@@ -265,13 +270,13 @@ I зубы,5:5
 северянина-изгоя~
 северянином-изгоем~
 северянине-изгое~
-Северянин изгой понуро бредет, не разбирая дороги.
+Северянин-изгой понуро бредет, не разбирая дороги.
 ~
 За какие грехи и преступления был изгнан он из своих родных мест?
 ~
-c0d0f0 k0r0s0t0 -600 E
-25 0 -10 10d10+1000 5d5+12
-0d0+2 100000
+c0d0f0 d0k0r0 -600 E
+25 0 10 10d10+300 5d5+4
+0d0+2 30000
 8 8 1
 BareHandAttack: 11
 Str: 17
@@ -288,9 +293,160 @@ Height: 175
 Weight: 85
 Special_Bitvector: i0b1c1 
 Skill: 4 10
-Skill: 131 100
-Skill: 133 100
+Skill: 136 75
 Skill: 157 100
-Skill: 160 100
+E
+#65310
+шар неизвестного металла~
+Шар неизвестного металла~
+Шара неизвестного металла~
+Шару неизвестного металла~
+Шар неизвестного металла~
+Шаром неизвестного металла~
+Шаре неизвестного металла~
+Колобок из неизвестного металла поблескивает тут шипастыми боками.
+~
+Он от бабушки ушел,
+Он от дедушки ушел,
+Он переехал шипами мышку,
+Он задавил насмерть жучку,
+Внучка еле-еле убежала от него в замок к прекрасному принцу,
+Кровавые ошметки лисички можно найти у деревни,
+Волчек вставший у него на дороге больше не будет стоят на лапках,
+Медведь до сих пор трясется вспоминая гул валимых сзади деревьев.
+~
+d0 u1 0 E
+50 5 1 30d10+30000 10d10+15
+0d0+0 0
+8 8 1
+Str: 40
+Dex: 40
+Int: 40
+Wis: 40
+Con: 40
+Cha: 40
+Size: 30
+LikeWork: 100
+Class: 100
+Height: 198
+Weight: 200
+Special_Bitvector: m0 
+Skill: 4 100
+Skill: 132 1
+Skill: 136 100
+Skill: 178 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 111
+Spell: 132
+Spell: 132
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
 E
 $

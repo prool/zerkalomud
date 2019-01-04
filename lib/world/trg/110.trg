@@ -1,8 +1,9 @@
 #11000
 зашел к атаману~
-0 r 100
+0 q 100
 ~
 wait 1
+stand
 msend %actor% Атаман схватил кочергу и с криком набросился на Вас!
 убить .%actor.name%
 ~
@@ -90,10 +91,10 @@ mpurge  девка
 2 d 100
 сезам откройся~
 wait 1
-wechoaround %actor% %actor.name% исчез.
+wechoaround %actor% %actor.name% исчез%actor.q%.
 wteleport %actor% 11062
 wsend %actor% Что-то утащило вас вниз.
-wat 11062 wechoaround %actor% %actor.name% с криком упал сверху.
+wat 11062 wechoaround %actor% %actor.name% с криком упал%actor.g% сверху.
 ~
 #11007
 Пленник на дыбе.~

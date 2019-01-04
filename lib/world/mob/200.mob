@@ -24,6 +24,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: l0a1 
+Skill: 136 21
 Skill: 139 30
 E
 #20001
@@ -57,6 +58,7 @@ Class: 102
 Height: 198
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #20002
 ящерица ~
@@ -88,6 +90,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: m0 
+Skill: 136 33
 Spell: 28
 E
 #20003
@@ -130,6 +133,7 @@ Class: 103
 Height: 198
 Weight: 11
 Special_Bitvector: l0 
+Skill: 136 30
 Spell: 82
 Spell: 92
 E
@@ -160,6 +164,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 20001
 #20005
@@ -186,6 +191,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: n0 
+Skill: 136 45
 E
 T 20000
 T 20002
@@ -219,6 +225,7 @@ Class: 100
 Height: 198
 Weight: 25
 Special_Bitvector: i0p0 
+Skill: 136 27
 Spell: 15
 Spell: 15
 Spell: 75
@@ -255,6 +262,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 21
 Spell: 4
 Spell: 23
 E
@@ -293,6 +301,7 @@ Class: 101
 Height: 198
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 33
 Spell: 32
 Spell: 32
 E
@@ -325,6 +334,7 @@ Class: 100
 Height: 198
 Weight: 4
 Special_Bitvector: 0 
+Skill: 136 21
 Spell: 76
 E
 #20010
@@ -355,6 +365,7 @@ Class: 100
 Height: 198
 Weight: 70
 Special_Bitvector: 0 
+Skill: 136 27
 Spell: 88
 Spell: 92
 Spell: 92
@@ -388,6 +399,7 @@ Class: 100
 Height: 198
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #20012
 жабоглот огромный~

@@ -29,6 +29,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 90
 E
 T 66803
 T 66804
@@ -102,6 +103,7 @@ Class: 102
 Height: 175
 Weight: 120
 Special_Bitvector: b1c1 
+Skill: 136 84
 Skill: 160 90
 Spell: 23
 Spell: 23
@@ -163,10 +165,11 @@ Skill: 142 80
 Skill: 143 60
 Skill: 144 60
 Skill: 167 50
-Helper: 66807
-Helper: 66808
-Helper: 66809
 Helper: 66810
+Helper: 66809
+Helper: 66808
+Helper: 66807
+Skill: 136 120
 E
 T 66806
 #66804
@@ -201,6 +204,7 @@ Height: 145
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 134 100
+Skill: 136 93
 Skill: 137 120
 Spell: 23
 Spell: 23
@@ -325,7 +329,7 @@ T 66809
 Пьяного налетчика~
 Пьяным налетчиком~
 Пьяном налетчике~
-Сильно пьяный человек в черном плаще шатается по комнате
+Сильно пьяный человек в черном плаще шатается по комнате.
 ~
 Человек полностью одетый в черные одежды. Его лицо скрыто под большим капюшоном.
 Он сильно пьян, но все так же очень опасен.
@@ -348,6 +352,7 @@ Class: 102
 Height: 160
 Weight: 150
 Special_Bitvector: g0b1c1 
+Skill: 136 96
 Skill: 137 100
 Skill: 150 40
 Skill: 157 100
@@ -394,6 +399,7 @@ Special_Bitvector: b1c1
 Skill: 1 150
 Skill: 4 150
 Skill: 132 15
+Skill: 136 102
 Skill: 137 75
 Spell: 23
 Spell: 28
@@ -484,6 +490,7 @@ Class: 102
 Height: 185
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 87
 Skill: 137 120
 Skill: 138 50
 Skill: 157 50
@@ -523,6 +530,7 @@ Height: 155
 Weight: 190
 Special_Bitvector: b1c1 
 Skill: 5 25
+Skill: 136 96
 Skill: 137 120
 Skill: 160 100
 Spell: 1
@@ -592,6 +600,7 @@ Skill: 1 100
 Skill: 12 100
 Skill: 22 100
 Skill: 132 25
+Skill: 136 111
 Skill: 137 100
 E
 T 66801
@@ -628,6 +637,7 @@ Special_Bitvector: b1c1
 Skill: 1 100
 Skill: 4 40
 Skill: 132 20
+Skill: 136 93
 Skill: 137 100
 Spell: 28
 E

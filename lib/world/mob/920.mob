@@ -24,7 +24,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: l0v0 
-Skill: 136 100
+Skill: 136 96
 Skill: 137 60
 Spell: 28
 Spell: 28
@@ -99,7 +99,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: l0x0 
-Skill: 136 100
+Skill: 136 96
 Skill: 137 60
 Spell: 26
 Spell: 26
@@ -151,7 +151,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: l0u0 
-Skill: 136 100
+Skill: 136 96
 Skill: 137 60
 Spell: 6
 Spell: 6
@@ -208,7 +208,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: l0u0 
-Skill: 136 100
+Skill: 136 96
 Skill: 137 60
 Spell: 28
 Spell: 28
@@ -265,7 +265,7 @@ Class: 101
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
-Skill: 136 100
+Skill: 136 96
 Skill: 137 60
 Spell: 28
 Spell: 28
@@ -328,7 +328,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
-Skill: 136 100
+Skill: 136 96
 Skill: 137 60
 Spell: 27
 Spell: 27
@@ -374,7 +374,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: l0w0 
-Skill: 136 100
+Skill: 136 96
 Skill: 137 60
 Spell: 23
 Spell: 23
@@ -416,7 +416,7 @@ Weight: 200
 Special_Bitvector: l0 
 Skill: 5 80
 Skill: 132 80
-Skill: 136 100
+Skill: 136 96
 Skill: 137 60
 Spell: 28
 Spell: 28
@@ -432,14 +432,21 @@ E
 Рарог~
 Сокол Рарог летает тут.
 ~
-неопределен~
+*огромная злобная птица.
+~
 b0d0m0n0o0p0x0b1r1 d0f0k0a1m1o1 0 E
 40 0 -10 25d25+11000 25d9+50
 0d0+0 1640000
 8 8 1
+Saves: -100 -100 -100 -100
+Resistances: 80 80 80 80 80 80 0
+Armour: 50
+CastSuccess: 100
+Success: 30
+Absorbe: 50
 BareHandAttack: 8
 Str: 30
-Dex: 18
+Dex: 35
 Int: 25
 Wis: 25
 Con: 30
@@ -480,6 +487,7 @@ E
 T 92002
 T 92003
 I когти,17:7
+L 1705 2 0 0
 #92009
 призрак времени~
 призрак времени~
@@ -490,7 +498,8 @@ I когти,17:7
 призраке времени~
 Полупрозрачная фигура, следит за заточенными внутри города.
 ~
-undefined~
+undefined
+~
 d0f0m0n0o0p0q0z0b1 d0f0k0x0 0 E
 33 0 -9 20d20+4000 20d9+20
 0d0+0 700000
@@ -506,7 +515,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
-Skill: 136 100
+Skill: 136 99
 Skill: 137 60
 Spell: 28
 Spell: 28
@@ -541,7 +550,7 @@ E
 Шаровая молния летает тут.
 ~
 undefined~
-b0d0f0m0n0o0p0q0r0t0u0x0b1a2 d0f0k0p1 0 E
+b0d0f0m0n0o0p0q0r0t0u0x0z0b1a2 d0f0k0p1 0 E
 25 0 -7 10d10+200 19d9+3
 0d0+0 10000
 8 8 2
@@ -585,6 +594,16 @@ Class: 104
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 22 100
 Skill: 136 100
 Skill: 141 100
@@ -628,6 +647,16 @@ Class: 104
 Height: 30
 Weight: 100
 Special_Bitvector: a0b1c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 132 120
 Skill: 136 120
 Skill: 141 100
@@ -689,7 +718,7 @@ Height: 30
 Weight: 100
 Special_Bitvector: C3 
 Skill: 22 80
-Skill: 136 90
+Skill: 136 102
 Spell: 66
 Spell: 66
 Spell: 66
@@ -741,7 +770,7 @@ Height: 30
 Weight: 100
 Special_Bitvector: C3 
 Skill: 22 80
-Skill: 136 90
+Skill: 136 102
 Spell: 28
 Spell: 28
 Spell: 28
@@ -801,7 +830,7 @@ Height: 30
 Weight: 100
 Special_Bitvector: C3 
 Skill: 22 80
-Skill: 136 90
+Skill: 136 102
 Spell: 28
 Spell: 28
 Spell: 28
@@ -979,6 +1008,16 @@ Class: 104
 Height: 30
 Weight: 100
 Special_Bitvector: b1c1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 22 100
 Skill: 136 100
 Skill: 141 100

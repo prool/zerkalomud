@@ -3,12 +3,12 @@
 2 c 100
 карабкаться~
 if !%arg.contains(вверх)% 
-wsend %actor% _Куда это Вы карабкаться собрались!?
-return 0
-halt 
+  wsend %actor% _Куда это Вы карабкаться собрались!?
+  return 0
+  halt 
 end
 wsend %actor%  Вы начали карабкаться вверх, цепляясь за камни.
-wechoaround %actor% _%actor.name% начал карабкаться%actor.q% и изчез из виду.
+wechoaround %actor%  %actor.name% начал%actor.g% карабкаться и изчез из виду.
 wteleport %actor% 69151
 wsend %actor% _Вы вылезли на поверхность.
 wechoaround %actor%  Кто-то поднялся сюда из провала.
@@ -34,8 +34,8 @@ done
 mecho  Окаменевший скелет выкрикнул древнее заклинание, вызвав жгучий огонь!
 foreach char %self.char%
   if %random.2% == 1
-msend %char%  В Вас попал жгучий огонь, вызванный скелетом!!!
-mechoaround %actor%  Жгучий огонь угодил прямо в %actor.rname%, сильно поранив его!
+    msend %char%  В Вас попал жгучий огонь, вызванный скелетом!!!
+    mechoaround %actor%  Жгучий огонь угодил прямо в %actor.rname%, сильно поранив его!
     mdamage %char% 100
   end
 done
@@ -53,8 +53,8 @@ mload obj 67727
 mecho  Прародитель огня плюнул огненным шаром в Вашу сторону!
 foreach char %self.char%
   if %random.2% == 1
-msend %char%  В Вас попал огненный шар Прародителя огня!
-mechoaround %actor%  Огненный шар Прародителя огня угодил прямо в лицо%actor.rname%
+    msend %char%  В Вас попал огненный шар Прародителя огня!
+    mechoaround %actor%  Огненный шар Прародителя огня угодил прямо в лицо %actor.rname%
     mdamage %char% 125
   end
 done

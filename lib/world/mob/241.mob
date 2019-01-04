@@ -29,6 +29,7 @@ Weight: 50
 Special_Bitvector: i0l0C3 
 Skill: 5 10
 Skill: 22 100
+Skill: 136 81
 Spell: 40
 Spell: 75
 Spell: 75
@@ -64,6 +65,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: i0p0 
+Skill: 136 75
 Skill: 157 90
 E
 T 24112
@@ -101,6 +103,7 @@ Weight: 50
 Special_Bitvector: b1c1 
 Skill: 4 100
 Skill: 132 100
+Skill: 136 90
 Spell: 23
 Spell: 23
 Spell: 42
@@ -140,6 +143,7 @@ Class: 102
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
+Skill: 136 87
 Spell: 15
 Spell: 15
 Spell: 15
@@ -156,6 +160,7 @@ Spell: 88
 Spell: 88
 Spell: 94
 Helper: 24100
+Skill: 136 87
 E
 #24104
 черный кот~
@@ -187,6 +192,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: a1 
+Skill: 136 69
 Skill: 150 100
 E
 I когти,10:10
@@ -221,6 +227,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 72
 Skill: 137 100
 Skill: 140 100
 Skill: 150 80
@@ -256,6 +263,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 75
 Skill: 137 100
 Skill: 157 100
 E
@@ -265,7 +273,7 @@ E
 молодого кабанчика~
 молодому кабанчику~
 молодого кабанчика~
-молодому кабанчику~
+молодым кабанчиком~
 молодом кабанчике~
 Молодой кабанчик весело бежит сквозь лесную чащу.
 ~
@@ -289,6 +297,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 51
 E
 #24108
 бурый медведь~
@@ -323,6 +332,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: C3 
 Skill: 22 90
+Skill: 136 81
 Skill: 150 80
 Skill: 157 80
 E
@@ -358,6 +368,7 @@ Class: 102
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 45
 Skill: 137 70
 Skill: 154 70
 Skill: 155 80
@@ -396,6 +407,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: C3 
 Skill: 22 90
+Skill: 136 78
 Skill: 157 90
 Spell: 76
 Spell: 76
@@ -438,6 +450,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: i0j0p0 
 Skill: 132 85
+Skill: 136 57
 E
 #24112
 волколак~
@@ -472,6 +485,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: i0 
 Skill: 4 70
+Skill: 136 81
 Spell: 28
 Spell: 38
 Spell: 38
@@ -520,6 +534,7 @@ Class: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 87
 Spell: 23
 Spell: 23
 Spell: 23
@@ -528,6 +543,7 @@ Spell: 23
 Spell: 94
 Spell: 94
 Helper: 24105
+Skill: 136 87
 E
 T 24105
 T 24107
@@ -565,7 +581,9 @@ Height: 30
 Weight: 50
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 69
 Helper: 24115
+Skill: 136 69
 E
 T 24103
 #24115
@@ -598,6 +616,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 36
 Spell: 15
 Spell: 15
 E
@@ -633,6 +652,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: b0 
 Skill: 132 100
+Skill: 136 75
 E
 T 24100
 #24117
@@ -667,6 +687,7 @@ Class: 101
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 4
 Spell: 4
 Spell: 15
@@ -716,6 +737,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 36
 E
 #24119
 зеленая лягушка~
@@ -747,6 +769,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: n0 
+Skill: 136 21
 E
 #24120
 опухший утопленник~
@@ -778,6 +801,7 @@ Class: 101
 Height: 30
 Weight: 50
 Special_Bitvector: a1c1 
+Skill: 136 72
 Skill: 137 100
 Skill: 160 100
 Spell: 25
@@ -820,6 +844,7 @@ Class: 101
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
+Skill: 136 93
 Skill: 137 90
 Skill: 160 90
 Spell: 28
@@ -828,6 +853,7 @@ Spell: 56
 Spell: 56
 Spell: 132
 Helper: 24120
+Skill: 136 93
 E
 T 24106
 T 24108
@@ -849,7 +875,7 @@ I чешуя,10:10
 b0d0g0 0 -600 E
 18 3 5 4d4+330 2d3+2
 0d0+0 15000
-8 8 1
+8 8 2
 BareHandAttack: 4
 Str: 13
 Dex: 5
@@ -863,6 +889,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 54
 Spell: 26
 Spell: 26
 Spell: 26

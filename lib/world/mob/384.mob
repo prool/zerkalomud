@@ -134,6 +134,7 @@ Height: 198
 Weight: 10
 Special_Bitvector: o0 
 Skill: 135 90
+Skill: 136 48
 E
 #38404
 красная рыбка~
@@ -296,6 +297,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: o0 
 Skill: 4 100
+Skill: 136 90
 E
 T 38406
 T 38411
@@ -330,6 +332,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: o0 
 Skill: 132 100
+Skill: 136 84
 Skill: 150 100
 E
 #38410
@@ -363,6 +366,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: o0b1c1d1 
 Skill: 132 100
+Skill: 136 66
 E
 #38411
 удалой великан~
@@ -395,6 +399,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: o0b1c1d1 
 Skill: 4 80
+Skill: 136 75
 E
 #38412
 дядька Черномор~
@@ -404,7 +409,7 @@ E
 дядьку Черномора~
 дядькой Черномором~
 дядьке Черноморе~
-Поседевший воевода Черномор отдыхает от ратных дел..
+Поседевший воевода Черномор отдыхает от ратных дел.
 ~
 Сильный приземистый постаревший воин. В молодости ему
 не было равных ни в одном из морей-окиянов. Сейчас он
@@ -429,6 +434,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: o0b1c1d1 
 Skill: 12 100
+Skill: 136 90
 Skill: 150 100
 Spell: 55
 Spell: 55
@@ -441,7 +447,6 @@ E
 T 38401
 T 38402
 T 38403
-T 38413
 L 1418 12 0 0
 #38413
 молодой богатырь морской~
@@ -476,6 +481,7 @@ Weight: 150
 Special_Bitvector: o0b1c1d1 
 Skill: 5 80
 Skill: 132 100
+Skill: 136 66
 E
 #38414
 витязь морской~
@@ -508,6 +514,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: o0b1c1d1 
 Skill: 21 30
+Skill: 136 66
 Skill: 137 100
 E
 #38415
@@ -546,6 +553,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: o0 
 Skill: 5 80
+Skill: 136 66
 E
 #38416
 морской еж~
@@ -576,6 +584,7 @@ Class: 103
 Height: 198
 Weight: 10
 Special_Bitvector: g0o0 
+Skill: 136 45
 E
 #38417
 витязь морской~
@@ -608,6 +617,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: o0b1c1d1 
 Skill: 132 80
+Skill: 136 87
 Spell: 4
 Spell: 28
 Spell: 28
@@ -647,6 +657,7 @@ Class: 101
 Height: 198
 Weight: 40
 Special_Bitvector: 0 
+Skill: 136 66
 Spell: 33
 Spell: 33
 Spell: 33
@@ -683,6 +694,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 4 50
+Skill: 136 90
 E
 T 38411
 #38420
@@ -715,6 +727,7 @@ Class: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 T 38404
 T 38409

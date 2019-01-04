@@ -67,17 +67,17 @@ Weight: 200
 Special_Bitvector: b0c0d0b1c1 
 Skill: 20 50
 Skill: 132 50
-Skill: 136 100
+Skill: 136 60
 Skill: 142 100
 Skill: 143 100
 Skill: 144 100
 Skill: 145 100
 Skill: 151 90
 Skill: 158 80
-Helper: 11015
-Helper: 11008
-Helper: 11008
 Helper: 11006
+Helper: 11008
+Helper: 11008
+Helper: 11015
 E
 T 11000
 #11002
@@ -581,7 +581,7 @@ Skill: 145 80
 Skill: 150 80
 E
 #11015
-хромой разбойник~
+одноглазый разбойник~
 одноглазый разбойник~
 одноглазого разбойника~
 одноглазому разбойнику~
@@ -613,7 +613,7 @@ Weight: 200
 Special_Bitvector: f0b1c1 
 Skill: 5 50
 Skill: 134 70
-Skill: 136 100
+Skill: 136 42
 Skill: 145 80
 Skill: 150 80
 Helper: 11015
@@ -694,6 +694,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 51
 E
 T 11003
 #11018
@@ -724,6 +725,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 11002
 #11019
@@ -756,6 +758,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: b0 
 Skill: 134 70
+Skill: 136 60
 E
 #11020
 девка утех~
@@ -785,6 +788,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 11004
 T 11005
@@ -802,7 +806,7 @@ T 11005
 одну сплошную рану. Страшно даже было представить, что такое можно сделать 
 из живого человека.
 ~
-b0d0g0n0 0 0 E
+b0d0g0n0f2 0 0 E
 1 20 10 0d0+2 0d0+1
 0d0+0 5
 8 8 1
@@ -817,6 +821,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 11007
 #11022
@@ -831,7 +836,7 @@ T 11007
 ~
 Веселый мужик глупо озирается по сторонам.
 ~
-d0g0n0 0 -600 E
+d0g0n0f2 0 -600 E
 17 7 4 20d14+290 3d4+5
 0d0+14 16300
 8 8 1
@@ -846,6 +851,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 51
 E
 #11023
 здоровый живодер~
@@ -875,6 +881,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 51
 E
 #11024
 черный призрак~
@@ -904,6 +911,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 63
 Spell: 17
 Spell: 17
 Spell: 17

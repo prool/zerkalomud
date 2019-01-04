@@ -1,0 +1,496 @@
+* BRusMUD mob file v1.0
+#71900
+ угрюмый дровосек~
+угрюмый дровосек~
+угрюмого дровосека~
+угрюмому дровосеку~
+угрюмого дровосека~
+угрюмым дровосеком~
+угрюмом дровосеке~
+Мужик с топором в руках стоит не далеко от дерева.
+~
+Странный лохматый мужик-нелюдим облюбовал себе эту полянку.
+~
+b0d0e0f0o0i1 k0 0 E
+25 0 0 10d10+2000 5d5+150
+0d0+0 200000
+8 8 1
+Saves: -30 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 40
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 5
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 25
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 5
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 31
+Feat: 70
+Special_Bitvector: b1c1
+Skill: 142 100
+E
+T 71902
+#71901
+ микола~
+Микола~
+Миколы~
+Миколе~
+Миколу~
+Миколой~
+Миколе~
+Лесной разбойник Микола стоит здесь.
+~
+Косматый молодец, к рубахе которого пришит красный клочок ткани.
+~
+b0d0f0g0l0A0 k0 -600 E
+25 0 0 10d10+500 5d5+55
+5d5+55 110000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 23
+Wis: 18
+Dex: 25
+Con: 27
+Cha: 17
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 132 80
+Skill: 136 80
+Helper: 71905
+E
+T 71904
+#71902
+ данила~
+Данила~
+Данилы~
+Даниле~
+Данилу~
+Данилой~
+Даниле~
+Лесной разбойник Данила стоит здесь.
+~
+Лохматый молодец, к рубахе которого пришит черный клочок ткани.
+~
+b0d0f0g0l0A0 k0 -600 E
+25 0 0 10d10+500 5d5+55
+5d5+55 110000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 23
+Int: 25
+Wis: 23
+Dex: 19
+Con: 30
+Cha: 16
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 132 80
+Skill: 136 80
+Helper: 71906
+E
+T 71904
+#71903
+ пилипка~
+Пилипка~
+Пилипки~
+Пилипке~
+Пилипку~
+Пилипкой~
+Пилипке~
+Лесной разбойник Пилипка стоит здесь.
+~
+Бородатый молодец, к рубахе которого пришит синий клочок ткани.
+~
+b0d0f0g0l0A0 k0 -600 E
+25 0 0 10d10+500 5d5+55
+5d5+55 110000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 25
+Wis: 25
+Dex: 27
+Con: 18
+Cha: 17
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 132 80
+Skill: 136 80
+Helper: 71908
+E
+T 71904
+#71904
+алесь~
+Алесь~
+Алеся~
+Алесю~
+Алеся~
+Алесем~
+Алесе~
+Лесной разбойник Алесь стоит здесь.
+~
+Бородатый молодец, к рубахе которого пришит зеленый клочок ткани.
+~
+b0d0f0g0l0A0 k0 -600 E
+25 0 0 10d10+500 5d5+55
+5d5+55 110000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 19
+Wis: 24
+Dex: 25
+Con: 25
+Cha: 20
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 132 80
+Skill: 136 80
+Helper: 71907
+E
+T 71904
+#71905
+косматый бандит~
+косматый бандит~
+косматого бандита~
+косматому бандиту~
+косматого бандита~
+косматым бандитом~
+косматом бандите~
+Косматый бандит подбирается к Вам.
+~
+Нелегкая судьба толкнула эту заблудшую душу на грешный путь. Теперь же, 
+наставить его на верную стезю можно только хорошим ударом кистеня по голове.
+~
+d0f0g0l0 k0 -600 E
+25 0 0 10d10+350 5d5+30
+5d5+25 50000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 20
+Int: 20
+Wis: 21
+Dex: 26
+Con: 20
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+#71906
+лохматый бандит~
+лохматый бандит~
+лохматого бандита~
+лохматому бандиту~
+лохматого бандита~
+лохматым бандитом~
+лохматом бандите~
+Лохматый бандит крадется здесь.
+~
+Нелегкая судьба толкнула эту заблудшую душу на грешный путь. Теперь же, 
+наставить его на верную стезю можно только хорошим ударом кистеня по голове.
+
+~
+d0f0g0l0 k0 -600 E
+25 0 0 10d10+350 5d5+30
+5d5+25 50000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 19
+Int: 20
+Wis: 20
+Dex: 17
+Con: 22
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+#71907
+щербатый бандит~
+щербатый бандит~
+щербатого бандита~
+щербатому бандиту~
+щербатого бандита~
+щербатым бандитом~
+щербатом бандите~
+Щербатый бандит задумчиво смотрит на Вас.
+~
+Нелегкая судьба толкнула эту заблудшую душу на грешный путь. Теперь же, 
+наставить его на верную стезю можно только хорошим ударом кистеня по голове.
+~
+d0f0g0l0 k0 -600 E
+25 0 0 10d10+350 5d5+30
+5d5+25 50000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 18
+Wis: 20
+Dex: 20
+Con: 25
+Cha: 19
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+#71908
+бородатый бандит~
+бородатый бандит~
+бородатого бандита~
+бородатому бандиту~
+бородатого бандита~
+бородатым бандитом~
+бородатом бандите~
+Бородатый бандит присел под кустиком здесь.
+~
+Нелегкая судьба толкнула эту заблудшую душу присесть под кустиком. Теперь 
+же, наставить его на верную стезю можно только хорошим ударом кистеня по 
+голове.
+~
+d0f0g0l0 k0 -600 E
+25 0 0 10d10+350 5d5+30
+5d5+25 50000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 23
+Int: 17
+Wis: 14
+Dex: 20
+Con: 20
+Cha: 21
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+#71909
+молодой лесник~
+молодой лесник~
+молодого лесника~
+молодому леснику~
+молодого лесника~
+молодым лесником~
+молодом леснике~
+Молодой лесник прохаживается здесь
+~
+Потрепанная одежка свободно болтается на его нескладном теле. Совсем юнец, 
+а уже подрядился на эту нелегкую службу. 
+~
+b0d0 d0k0 -600 E
+25 0 0 10d10+300 5d5+75
+5d5+5 10000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 10
+Int: 10
+Wis: 15
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+T 71900
+T 71901
+#71910
+филин~
+филин~
+филина~
+филину~
+филина~
+филином~
+филине~
+Филин грузно перелетает с ветки на ветку.
+~
+Своими огромными глазами, филин завораживающе смотрит на Вас.
+~
+g0 d0k0 -600 E
+15 0 0 10d10+200 5d5+35
+0d0+0 10000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 10
+Int: 16
+Wis: 17
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 10
+Height: 75
+Weight: 50
+E
+T 71903
+$
+$

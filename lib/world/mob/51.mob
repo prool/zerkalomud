@@ -26,6 +26,7 @@ Class: 103
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #5101
 блоха~
@@ -55,6 +56,7 @@ Class: 103
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 6
 E
 #5102
 светлячок~
@@ -85,6 +87,7 @@ Class: 103
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #5103
 белый паук~
@@ -116,9 +119,11 @@ Height: 50
 Weight: 50
 Special_Bitvector: 0 
 Skill: 2 70
+Skill: 136 36
 Spell: 15
 Spell: 54
 E
+T 5114
 #5104
 муха~
 муха~
@@ -147,6 +152,7 @@ Class: 103
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 6
 E
 #5105
 мышь серая~
@@ -176,6 +182,7 @@ Class: 103
 Height: 50
 Weight: 1
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #5106
 клоп~
@@ -207,6 +214,7 @@ Height: 50
 Weight: 50
 Special_Bitvector: 0 
 Skill: 131 30
+Skill: 136 6
 E
 #5107
 моль~
@@ -236,6 +244,7 @@ Class: 103
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 6
 E
 #5108
 комар~
@@ -250,7 +259,7 @@ E
 Обычный комар-кровопийца.
 ~
 d0f0g0 x0 0 E
-2 18 8 0d0+25 4d1+1
+2 18 10 0d0+25 4d1+1
 0d0+0 60
 8 8 1
 BareHandAttack: 4
@@ -261,9 +270,10 @@ Wis: 3
 Con: 3
 Cha: 3
 Size: 1
-Class: 103
+Class: 100
 Height: 50
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 6
 E
 $

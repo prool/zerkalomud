@@ -26,6 +26,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 84
 E
 #33601
 вольный смерд~
@@ -56,6 +57,7 @@ Height: 198
 Weight: 120
 Special_Bitvector: b1c1 
 Skill: 134 100
+Skill: 136 60
 E
 #33602
 купец~
@@ -83,6 +85,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 84
 E
 #33603
 ночной вор~
@@ -113,6 +116,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: a1b1c1 
 Skill: 131 100
+Skill: 136 81
 Skill: 139 100
 Skill: 156 100
 Skill: 157 100
@@ -184,6 +188,7 @@ Class: 103
 Height: 198
 Weight: 10
 Special_Bitvector: p0 
+Skill: 136 21
 Skill: 140 100
 E
 T 33601
@@ -217,6 +222,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1 
 Skill: 134 100
+Skill: 136 69
 E
 T 33605
 #33607
@@ -247,6 +253,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: c1 
+Skill: 136 60
 E
 #33608
 баба крестьянка взрослая крестьянка~
@@ -276,6 +283,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 50
+Skill: 136 78
 E
 #33609
 веселая девка~
@@ -306,6 +314,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: a1c1 
+Skill: 136 69
 Skill: 139 100
 E
 T 33602
@@ -339,9 +348,9 @@ Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
 Skill: 132 50
+Skill: 136 90
 E
 T 33600
-T 1306
 #33611
 подручный отрок~
 подручный~
@@ -373,6 +382,7 @@ Weight: 80
 Special_Bitvector: y0b1c1 
 Skill: 132 80
 Skill: 134 50
+Skill: 136 60
 E
 #33612
 бортник~
@@ -406,6 +416,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 50
 Skill: 134 50
+Skill: 136 81
 E
 #33613
 толстый кабатчик~
@@ -458,8 +469,8 @@ E
 ~
 Житель одной из деревень, расположенных  рядом с Киевом.
 ~
-b0d0g0A0h1 0 0 E
-22 5 6 1d1+500 6d2+-1
+b0d0g0m0A0h1 0 0 E
+22 5 6 1d1+500 6d2+2
 15d15+0 9000
 6 6 1
 Str: 25
@@ -476,6 +487,7 @@ Height: 198
 Weight: 120
 Special_Bitvector: y0b1c1 
 Skill: 134 100
+Skill: 136 66
 E
 #33615
 крестьянин мертвецки подсушинка~
@@ -507,6 +519,7 @@ Height: 198
 Weight: 120
 Special_Bitvector: y0b1c1 
 Skill: 134 100
+Skill: 136 60
 E
 #33616
 девка~
@@ -535,6 +548,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: a1c1 
+Skill: 136 75
 Skill: 139 100
 E
 #33617
@@ -569,6 +583,7 @@ Weight: 120
 Special_Bitvector: b1c1 
 Skill: 132 100
 Skill: 134 100
+Skill: 136 84
 E
 #33618
 пекарь~
@@ -604,6 +619,7 @@ Weight: 100
 Special_Bitvector: b1c1 
 Skill: 132 50
 Skill: 134 50
+Skill: 136 81
 E
 #33619
 кожемяка~
@@ -615,7 +631,7 @@ E
 кожемяке~
 Местный кожемяка продает здесь кожаные изделия.
 ~
-Здоровенный детина мнет кожи а затем их продает.
+Здоровенный детина мнет кожи, а затем их продает.
 ~
 b0d0g0m0n0A0h1 0 0 E
 28 6 -3 1d1+950 7d9+0
@@ -637,6 +653,7 @@ Special_Bitvector: b1c1
 Skill: 21 50
 Skill: 132 50
 Skill: 134 50
+Skill: 136 84
 E
 L 1439 20 0 0
 #33620
@@ -650,7 +667,7 @@ L 1439 20 0 0
 Черноволосый гончар-грек с улыбкой предлагает купить посуду.
 ~
 Этот гончар прибыл в Киев из Ромеи, из Царьграда,
-дабы сбывать здесь свой товар и своих друзей.
+дабы сбывать здесь свой товар.
 ~
 b0d0g0m0n0A0h1 d0k0 0 E
 25 2 -6 1d1+650 7d9+0
@@ -671,6 +688,7 @@ Special_Bitvector: b1c1
 Skill: 21 50
 Skill: 132 50
 Skill: 134 50
+Skill: 136 75
 E
 #33621
 лекарь~
@@ -702,6 +720,7 @@ Class: 105
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
+Skill: 136 93
 Spell: 27
 Spell: 27
 Spell: 27
@@ -841,6 +860,7 @@ Special_Bitvector: b1c1
 Skill: 21 50
 Skill: 132 50
 Skill: 134 50
+Skill: 136 78
 Skill: 150 50
 E
 #33624
@@ -876,6 +896,7 @@ Special_Bitvector: p0b1c1
 Skill: 21 50
 Skill: 132 50
 Skill: 134 50
+Skill: 136 60
 Skill: 150 50
 E
 #33625
@@ -901,6 +922,7 @@ Class: 103
 Height: 198
 Weight: 2
 Special_Bitvector: p0 
+Skill: 136 12
 E
 #33626
 молодая баба~
@@ -931,6 +953,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: y0 
+Skill: 136 54
 E
 L 1433 18 0 0
 #33627
@@ -962,6 +985,7 @@ Class: 102
 Height: 198
 Weight: 90
 Special_Bitvector: y0 
+Skill: 136 66
 E
 #33628
 коваль кузнец~
@@ -991,6 +1015,7 @@ Special_Bitvector: b1c1
 Skill: 1 50
 Skill: 5 50
 Skill: 132 50
+Skill: 136 90
 E
 #33629
 мельник~
@@ -1024,6 +1049,7 @@ Special_Bitvector: b1c1
 Skill: 21 50
 Skill: 132 50
 Skill: 134 50
+Skill: 136 78
 Skill: 150 100
 E
 #33630
@@ -1058,6 +1084,7 @@ Special_Bitvector: b1c1
 Skill: 21 50
 Skill: 132 50
 Skill: 134 50
+Skill: 136 84
 E
 L 1439 20 0 0
 #33631
@@ -1075,7 +1102,7 @@ L 1439 20 0 0
 b0d0g0m0A0i1 d0f0z0w1x1 0 E
 30 1 -9 1d1+1550 9d9+0
 10d10+0 20000
-8 8 1
+4 4 1
 Str: 36
 Dex: 35
 Int: 18
@@ -1186,6 +1213,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1 
 Skill: 134 100
+Skill: 136 63
 E
 #33634
 беловолосый смерд белобрысый~
@@ -1217,6 +1245,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
 Skill: 134 100
+Skill: 136 60
 E
 #33635
 усталый холоп~
@@ -1248,6 +1277,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
 Skill: 134 100
+Skill: 136 78
 Skill: 137 100
 E
 #33636
@@ -1278,6 +1308,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 27
 Spell: 27
 Spell: 27

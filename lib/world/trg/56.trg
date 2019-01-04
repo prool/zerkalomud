@@ -3,20 +3,20 @@
 0 q 100
 ~
 if %world.curmobs(5611)% > 0
-wait 5
-say Здраве тебе, %actor.name%!
-say Не поможешь ли ты мне в одном деле?
+  wait 5
+  say Здраве тебе, %actor.name%!
+  say Не поможешь ли ты мне в одном деле?
 else
-attach 5606 %self.id%
-detach 5601 %self.id%
-detach 5603 %self.id%
-detach 5600 %self.id%
+  attach 5606 %self.id%
+  detach 5601 %self.id%
+  detach 5603 %self.id%
+  detach 5600 %self.id%
 end
 ~
 #5601
 сказал хорошо~
 0 d 100
-хорошо~
+помогу~
 detach 5600 %self.id%
 wait 5
 say Вот и хорошо!
@@ -37,21 +37,21 @@ mload obj 5600
 ~
 wait 1
 if  %object.name% == филе
-mpurge филе
-mecho Рыбак съел филе.
-wait 3
-облиз
-say Вот спасибо тебе %actor.name%!
-wait 3
-say Спас ты меня от голода!
-say Вот возьми денег в награду!
-%self.gold(+50)%
-дать 50 кун %actor.name%
-detach 5601 %self.id%
-detach 5603 %self.id%
+  mpurge филе
+  mecho Рыбак съел филе.
+  wait 3
+  облиз
+  say Вот спасибо тебе %actor.name%!
+  wait 3
+  say Спас%actor.q% ты меня от голода!
+  say Вот возьми денег в награду!
+  %self.gold(+50)%
+  дать 50 кун %actor.name%
+  detach 5601 %self.id%
+  detach 5603 %self.id%
 else 
-say Мне это не нужно!
-drop all
+  say Мне это не нужно!
+  drop all
 end
 ~
 #5604
@@ -87,7 +87,7 @@ end
 0 f 10
 ~
 if %world.curobjs(5601)% < 100
-   mload obj 5601
+  mload obj 5601
 end
 ~
 $~

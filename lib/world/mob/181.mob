@@ -24,6 +24,7 @@ Size: 30
 Class: 103
 Weight: 30
 Special_Bitvector: p0a1 
+Skill: 136 30
 Skill: 139 80
 E
 #18101
@@ -54,6 +55,7 @@ ExtraAttack: 1
 Class: 102
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #18102
 стражник~
@@ -83,7 +85,9 @@ Class: 102
 Weight: 30
 Special_Bitvector: 0 
 Skill: 4 80
+Skill: 136 75
 Helper: 18108
+Skill: 136 75
 E
 #18103
 кашевар~
@@ -111,6 +115,7 @@ Size: 50
 Class: 102
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #18104
 шаман~
@@ -139,6 +144,7 @@ Size: 45
 Class: 102
 Weight: 12
 Special_Bitvector: 0 
+Skill: 136 69
 Spell: 15
 Spell: 15
 Spell: 15
@@ -178,6 +184,7 @@ Size: 34
 Class: 102
 Weight: 43
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #18106
 кузнец~
@@ -206,6 +213,7 @@ Size: 50
 Class: 102
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 66
 E
 #18107
 старикашка~
@@ -235,6 +243,7 @@ Size: 60
 Class: 102
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 78
 Spell: 28
 Spell: 28
 Spell: 28
@@ -295,6 +304,7 @@ ExtraAttack: 1
 Class: 102
 Weight: 12
 Special_Bitvector: 0 
+Skill: 136 21
 E
 #18109
 берсерк~
@@ -330,6 +340,7 @@ Class: 102
 Weight: 25
 Special_Bitvector: 0 
 Skill: 4 60
+Skill: 136 81
 E
 #18110
 раб~
@@ -358,5 +369,6 @@ Size: 40
 Class: 102
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 45
 E
 $

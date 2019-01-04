@@ -26,6 +26,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 5900
 T 5902
@@ -41,7 +42,7 @@ T 5902
 ~
 Молодой парень с серьгами в ушах.
 ~
-b0d0g0n0 d0k0 0 E
+b0d0g0n0 d0f0k0 0 E
 20 5 5 0d0+500 3d5+10
 10d10+100 30000
 8 8 1
@@ -57,6 +58,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 5901
 T 5903

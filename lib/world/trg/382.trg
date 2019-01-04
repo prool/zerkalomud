@@ -3,7 +3,7 @@
 0 f 100
 ~
 if %world.curobjs(38214)% == 0
-mload obj 38214
+  mload obj 38214
 end
 ~
 #38201
@@ -11,20 +11,20 @@ end
 0 f 100
 ~
 if %world.curobjs(38215)% == 0
-mload obj 38215
+  mload obj 38215
 end
 ~
 #38202
 топить печь~
 2 c 0
-топить разтопить~
+топить растопить~
 if !(%arg.contains(печь)%) 
-   wsend       %actor% Что вы хотите растопить???
-   return 0
-   halt
+  wsend       %actor% Что вы хотите растопить???
+  return 0
+  halt
 end
-wsend       %actor% Вы подкинули дровишек в печь и огонь запылал ярче.
-wechoaround %actor% %actor.name% подкинул%actor.q% дровишек в печь. Огонь запылал ярче.
+wsend %actor% Вы подкинули дровишек в печь и огонь запылал ярче.
+wechoaround %actor% %actor.name% подкинул%actor.g% дровишек в печь. Огонь запылал ярче.
 wait 1
 wecho _С диким криком из печи вывалился ошпаренный трубочист.
 wload mob 38231
@@ -51,12 +51,12 @@ attach 38206 %qstoql.id%
 2 c 0
 двигать двинуть~
 if !(%arg.contains(стол)%) 
-   wsend       %actor% Что вы хотите сдвинуть???
-   return 0
-   halt
+  wsend %actor% Что вы хотите сдвинуть???
+  return 0
+  halt
 end
-wsend       %actor% Вы пододвинули стол к стене...
-wechoaround %actor% %actor.name% пододвинул%actor.q% стол к стене.
+wsend %actor% Вы пододвинули стол к стене...
+wechoaround %actor% %actor.name% пододвинул%actor.g% стол к стене.
 wait 1
 wdoor   38245 up flags ab
 wdoor   38245 up room  38291 
@@ -68,11 +68,11 @@ detach 38204 %stol.id%
 помер волхв~
 0 f 100
 ~
-if (%world.curobjs(611)% < 20) && (%random.3% == 1)
-   mload obj 611
+if ( %world.curobjs(211)% < 20 ) && ( %random.5% == 1 )
+  mload obj 211
 end
 if (%random.10% == 1)
-   mload obj 549
+  mload obj 549
 end
 ~
 #38206
@@ -85,7 +85,7 @@ if %object.vnum% == 38218
   wait 2s
   say Спасибо. Выручил%actor.g%! Я давно искал свою шапку...
   msend       %actor% _За доброе дело Вы получили 5000 очков опыта...
-     %actor.exp(+5000)%  
+  %actor.exp(+5000)%  
   wait 2s
   say В нонешние времена не легко найти хорошего человека.
   wait 2s
@@ -97,11 +97,11 @@ if %object.vnum% == 38218
   say Сможешь мне помочь? Отблагодарю..
   calcuid stoql 38233 mob
   attach 38207 %stoql.id%
-  end
-  else
-  say  Зачем мне это? 
-  eval getobject %object.name%
-  брос %getobject.car%.%getobject.cdr%
+end
+else
+say  Зачем мне это? 
+eval getobject %object.name%
+брос %getobject.car%.%getobject.cdr%
 end
 ~
 #38207
@@ -118,8 +118,8 @@ say Отправился он с кораблем на большой остров, что в Окияне, с тамошними торгов
 say Да , не вернулся что-то. Вот если бы ты его разыскал%actor.g% и вот эту весточку передал%actor.g%.
 wait 1s
 mecho _Купец быстро начеркал что-то на куске кожи..
-  mload obj 38222
-  дат весточк %actor.name%
+mload obj 38222
+дат весточк %actor.name%
 wait 1s
 say Вот бы мы тебя и отблагодарили.
 жда
@@ -131,21 +131,21 @@ detach 38207 %stoql.id%
 0 c 0
 развязать освободить~
 if !(%arg.contains(купец)%) 
-   msend       %actor% Кого Вы хотите освободить???
-   return 0
-   halt
+  msend %actor% Кого Вы хотите освободить???
+  return 0
+  halt
 end
 wait 1
-msend       %actor% Вы развязали купца и выкинули веревки.
-mechoaround %actor% %actor.name% развязал%actor.q% купца.
+msend %actor% Вы развязали купца и выкинули веревки.
+mechoaround %actor% %actor.name% развязал%actor.g% купца.
 mecho Купчина очень обрадовался и стал Вас благодарить!
 if %actor.level% > 20
- msend       %actor% _За доброе дело Вы получили 80000 очков опыта...
- %actor.exp(+80000)%  
+  msend %actor%  За доброе дело Вы получили 80000 очков опыта...
+  %actor.exp(+80000)%  
 end
-say Я пойду расскажу хозяйке что Вы меня освободили!!!
+say Я пойду, расскажу хозяйке, что Вы меня освободили!!!
 mecho Купчина еще раз поклонился и ушел.
-calcuid dikow 38237 mob
-mpurge  %dikow%
+wait 1
+mpurge %self%
 ~
 $~

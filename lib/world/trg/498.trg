@@ -169,4 +169,58 @@ wsend %actor% И Вы оказались в тюрьме.
 wait 1s
 wsend %actor% Вот так вот. Не нужно ходить куда не следует!.
 ~
+#49808
+Лоад льва~
+1 c 2
+подбросить~
+wait 1
+if !%arg.contains(шерсть)%
+osend %actor% Что бросить хотите?
+halt
+end
+if %actor.clan% != днз
+halt
+end
+if %world.curmobs(49870)% > 50
+osend %actor% ...и ничего не произошло!
+halt
+end
+oload mob 49870
+osend %actor% Вы подбросили клок рыжей шерсти.
+oechoaround %actor% %actor.name% подбросил%actor.g% в воздух клочок шерсти.
+oecho _Клок рыжей шерсти исчез в яркой вспышке.
+oecho _Крылатый лев спустился с небес, наводя ужас на Вас!
+oforce %actor% оседлать лев
+wait 1
+opurge %self%
+~
+#49809
+Погладить льва~
+0 c 100
+погладить~
+wait 1
+if %self.fighting%
+halt
+end
+if !%arg.contains(льва)%
+msend %actor% _Кого вы хотите погладить?
+halt
+end
+if %actor.clan% != днз
+msend %actor% _Вы попытались погладить льва! С ума вы сошли что ли?
+msend %actor% _Лев едва не откусил вам всю руку!
+mechoaround %actor% %actor.name% попытал%actor.u% погладить льва! Точно - шариков не хватает...
+mechoaround %actor% _Лев едва не откусил  %actor.dname% руку!
+eval dmg %actor.hitp%/5
+mdamage %actor% %dmg%
+halt
+end
+msend %actor% Вы погладили льва по густой гриве.
+mload obj 49851
+give клок .%actor.name%
+wait 1
+mecho _Лев взмахнул крыльями и улетел.
+wait 1
+mpurge %self%
+~
 $~

@@ -11,7 +11,7 @@
 Мужчина в богатых одеждах, с украшенной огромными брильянтами шапкой-короной
 внимательно выслушивает своих советников.
 ~
-b0d0g0m0n0o0q0r0t0u0f2 d0k0u0n1t1 0 E
+b0d0g0m0n0o0q0r0t0u0f2u2 d0k0u0n1t1 0 E
 30 0 -10 0d0+3000 50d3+50
 0d0+500 0
 8 8 1
@@ -25,9 +25,11 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 3
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #49801
 ратник~
@@ -57,10 +59,12 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 66
 Skill: 137 80
 Skill: 140 80
 Skill: 150 80
@@ -93,10 +97,12 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 132 90
+Skill: 136 90
 Skill: 137 90
 Skill: 140 90
 Skill: 150 90
@@ -130,9 +136,11 @@ Cha: 15
 Size: 50
 LikeWork: 95
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 54
 E
 #49804
 дворский толстый~
@@ -161,9 +169,11 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 56
 Spell: 56
 Helper: 49813
@@ -197,10 +207,12 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 4
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 105
 Skill: 137 100
 Skill: 150 100
 Spell: 54
@@ -234,9 +246,11 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 105
 Special_Bitvector: 0 
+Skill: 136 75
 Spell: 56
 Spell: 56
 E
@@ -266,10 +280,12 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 5 90
+Skill: 136 45
 E
 #49808
 стражник~
@@ -284,7 +300,7 @@ E
 Высокий мужчина в расцвете лет.
 Оружие держит легко и уверено - опытный воин.
 ~
-b0d0g0m0n0r0x0f2 c0d0e0f0k0r0z0C0 0 E
+b0d0g0m0n0r0x0f2u2 c0d0e0f0k0r0z0C0 0 E
 30 1 -6 0d0+2000 6d8+10
 1d10+5 0
 8 8 1
@@ -299,18 +315,19 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 100
-Skill: 136 100
+Skill: 136 90
 Skill: 137 100
 Skill: 150 100
 Helper: 49817
 E
 T 49800
 #49809
-старший стражник~
+старший стражник DNZguard~
 старший стражник~
 старшего стражника~
 старшему стражнику~
@@ -323,7 +340,7 @@ T 49800
 и надменному выражению лица в нем узнается наемный викинг.
 ~
 b0d0g0m0n0r0t0x0B0f2 f0r0z0 0 E
-30 3 3 0d0+1500 5d8+20
+30 3 3 0d0+1500 2d2+2
 1d10+300 0
 8 8 1
 BareHandAttack: 6
@@ -337,11 +354,12 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
-Skill: 132 100
-Skill: 150 100
+Skill: 136 90
+Skill: 150 20
 Skill: 151 100
 E
 #49810
@@ -370,9 +388,11 @@ Size: 40
 LikeWork: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #49811
 монах~
@@ -398,9 +418,11 @@ Con: 13
 Cha: 20
 Size: 50
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #49812
 работник~
@@ -428,10 +450,12 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 4 90
+Skill: 136 75
 E
 #49813
 лучник~
@@ -450,16 +474,6 @@ d0g0m0n0o0r0t0x0f2 d0f0k0p0z0 0 E
 1d10+5 0
 8 8 1
 BareHandAttack: 6
-Destination: 49857
-Destination: 49848
-Destination: 49839
-Destination: 49801
-Destination: 49807
-Destination: 49828
-Destination: 49844
-Destination: 49871
-Destination: 49872
-Destination: 49874
 Str: 30
 Dex: 15
 Int: 15
@@ -470,9 +484,11 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 154 90
 Skill: 155 90
 E
@@ -503,10 +519,12 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 66
 Skill: 137 80
 Skill: 150 80
 E
@@ -537,6 +555,7 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -558,9 +577,9 @@ T 49801
 ~
 С большой до пояса бородой боярин слушает великого князя.
 ~
-b0d0g0m0n0q0r0t0x0f2 0 0 E
-35 0 -5 0d0+2000 2d8+30
-1d10+456 0
+b0d0g0m0n0x0f2u2 0 0 E
+2 0 -5 0d0+1100 8d8+12
+1d10+0 0
 8 8 1
 BareHandAttack: 6
 Str: 35
@@ -570,13 +589,15 @@ Wis: 5
 Con: 30
 Cha: 15
 Size: 50
-LikeWork: 99
+LikeWork: 60
 ExtraAttack: 4
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 6
 Skill: 137 100
 Skill: 150 100
 Spell: 6
@@ -621,7 +642,7 @@ E
 ~
 Невысокий мужчина все время вжимает голову в плечи боясь наказания.
 ~
-d0g0m0f2 0 0 E
+d0g0m0n0o0f2 0 0 E
 30 3 3 0d0+550 2d3+17
 1d10+2 0
 8 8 1
@@ -636,9 +657,11 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1d1 
+Skill: 136 90
 Skill: 150 80
 Skill: 157 90
 Skill: 160 90
@@ -655,7 +678,7 @@ E
 ~
 Средних лет муж.
 ~
-b0d0g0o0f2 d0k0n1r1s1 0 E
+b0d0g0n0o0f2 d0k0n1r1s1 0 E
 25 3 3 0d0+250 2d3+20
 10d200+10000 1
 8 8 1
@@ -670,9 +693,11 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: i3 
+Skill: 136 75
 Skill: 150 80
 Skill: 157 90
 Skill: 160 90
@@ -705,10 +730,12 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 21 100
+Skill: 136 60
 Skill: 150 80
 Skill: 157 90
 Skill: 160 90
@@ -747,9 +774,11 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 154 90
 Skill: 155 90
 E
@@ -774,9 +803,91 @@ Con: 35
 Cha: 3
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 136 10
 E
+#49822
+манекен~
+манекен~
+манекена~
+манекену~
+манекен~
+манекеном~
+манекене~
+Пошарпанный манекен стоит посреди арены.
+~
+Манекен. Чего вам еще нужно то?
+~
+b0d0 h0 0 E
+10 10 0 1d100+3000 1d1+0
+0d0+0 0
+8 8 1
+Size: 30
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
+#49823
+манекен~
+манекен~
+манекена~
+манекену~
+манекен~
+манекеном~
+манекене~
+Потрепанный манекен с тоской в глазах-камушках смотрит на Вас.
+~
+Манекен, чтоб воинам неопытным тренироваться.
+~
+b0d0 u1 0 E
+0 20 0 1d100+4000 1d1+0
+0d0+0 0
+8 8 1
+Size: 30
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
+#49870
+крылатый лев~
+крылатый лев~
+крылатого льва~
+крылатому льву~
+крылатого льва~
+крылатым львом~
+крылатом льве~
+Громадный крылатый лев грозно смотрит на вас прозрачно-желтыми глазами.
+~
+Огромный зверь. покрытый рыжевато-желтой шерстью.
+Пара громадных черноопереных крыла готовы поднять его в воздух.
+~
+b0d0n0o0p0s0t0f2 x0 0 E
+20 15 0 5d10+200 2d2+2
+0d0+0 0
+8 8 1
+BareHandAttack: 4
+Str: 12
+Dex: 12
+Int: 10
+Wis: 10
+Con: 12
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 180
+Weight: 150
+Special_Bitvector: l0 
+Skill: 136 20
+E
+T 49809
 $

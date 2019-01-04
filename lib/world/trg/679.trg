@@ -18,13 +18,13 @@ mload obj 67903
 2 h 100
 ~
 if (%object.iname% == темный камень)
-wait 1s
-wecho _Стена вспыхнула темным светом и чтала медленно растворяться.
-wait 1s
-wdoor 67904 north room 67912
-wdoor 67912 south room 67904 
-wait 1s
-wecho _Вот стена полностью растворилась, и сейчас уже можно пройти дальше. 
+  wait 1s
+  wecho  Стена вспыхнула темным светом и стала медленно растворяться.
+  wait 1s
+  wdoor 67904 north room 67912
+  wdoor 67912 south room 67904 
+  wait 1s
+  wecho _Вот стена полностью растворилась, и сейчас уже можно пройти дальше. 
 end
 ~
 #67903
@@ -41,9 +41,9 @@ mload mob 67910
 0 f 100
 ~
 return 0
-mecho _Огненный морок ярко вспыхнул, распростроняя жар по всей пещере и пропал.
-msend %actor% _Жар, идущий от огненного морока, Сильно повредил вас!
-mechoaround %actor% _%actor.name% закрычал когда жар идущий от морока опалил его!
+mecho  Огненный морок ярко вспыхнул, опалив жаром всю пещеру, и пропал.
+msend %actor%  Жар от огненного морока сильно повредил вас.
+mechoaround %actor%  %actor.name% закричал%actor.g%, обожженн%actor.w% мороком!
 eval damage %actor.hitp%/5
 mdamage %actor% %damage%
 ~
@@ -53,7 +53,7 @@ mdamage %actor% %damage%
 ~
 mecho  &g Вонючий скелет разлетелся на множество костей, оставив после себя нестерпимую вонь! &n
 foreach victim %self.char%
-mdamage %victim% 75 
+  mdamage %victim% 75 
 done
 ~
 #67906
@@ -62,8 +62,8 @@ done
 ~
 set char %random.pc%
 msend %char% _Трехглавый цербер взмахнул своим огромным хвостом!
-  %char.position(6)%
-  %char.wait(2)%
+%char.position(6)%
+%char.wait(2)%
 mechoaround %char% _Трехглавый цербер ударил своим хвостом %actor.rname% 
 уронив его на землю!
 ~
@@ -113,22 +113,24 @@ detach 67910 %self.id%
 2 c 100
 разобрать~
 if !%arg.contains(завал)% 
-wsend %actor% _Что разобрать то вы хотите?!
-return 0
-halt 
+  wsend %actor% _Что разобрать то вы хотите?!
+  return 0
+  halt 
 end
 wsend %actor% _Крехтя и отплевывоясь Вы разобрали зовал, освободив путь.
 wechoaround %actor% _%actor.name% разобрал%actor.q% завал.
 wdoor 67971 north room 67973
 wdoor 67973 south room 67971
 end
+e7 wechoaround %actor%  %actor.name% разобрал%actor.g% завал.
 ~
 #67912
 Убили ледяного демона~
-0 f 100
+0 z 100
 ~
+halt
 if (%random.7% == 1) && (%world.curobjs(67931)% < 1)
-mload obj 1218
+  mload obj 1218
 end
 ~
 #67913
@@ -139,5 +141,7 @@ wdoor 67904 north purge
 wdoor 67912 south purge
 wdoor 67971 north purge
 wdoor 67973 south purge
+calcuid demonroom 67909 room
+attach 67900 %demonroom.id%
 ~
 $~

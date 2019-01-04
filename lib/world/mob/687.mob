@@ -30,8 +30,19 @@ Class: 104
 Height: 140
 Weight: 70
 Special_Bitvector: w0c1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 85
 Skill: 132 90
+Skill: 136 84
 Skill: 157 80
 Spell: 28
 Spell: 33
@@ -83,6 +94,7 @@ Class: 100
 Height: 120
 Weight: 50
 Special_Bitvector: v0 
+Skill: 136 75
 Skill: 137 30
 Skill: 157 50
 Skill: 160 75
@@ -113,7 +125,7 @@ E
 #68702
 юркая лесавка~
 юркая лесавка~
-юркую лесавку~
+юркой лесавки~
 юркой лесавке~
 юркую лесавку~
 юркой лесавкой~
@@ -140,6 +152,7 @@ Class: 100
 Height: 140
 Weight: 50
 Special_Bitvector: l0u0 
+Skill: 136 69
 Skill: 160 70
 Spell: 28
 Spell: 52
@@ -180,6 +193,7 @@ Height: 120
 Weight: 50
 Special_Bitvector: 0 
 Skill: 21 30
+Skill: 136 78
 Spell: 10
 Spell: 15
 Spell: 15
@@ -224,6 +238,7 @@ Class: 102
 Height: 160
 Weight: 70
 Special_Bitvector: 0 
+Skill: 136 78
 Skill: 157 50
 Spell: 28
 Spell: 28
@@ -262,6 +277,7 @@ Height: 180
 Weight: 80
 Special_Bitvector: o0v0 
 Skill: 21 30
+Skill: 136 69
 Skill: 150 45
 Spell: 127
 E
@@ -295,6 +311,7 @@ Class: 100
 Height: 150
 Weight: 60
 Special_Bitvector: h0i0a1b1c1 
+Skill: 136 75
 Skill: 139 60
 Skill: 157 75
 Spell: 93
@@ -329,6 +346,7 @@ Class: 101
 Height: 120
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 78
 Skill: 150 40
 Spell: 1
 Spell: 15
@@ -375,6 +393,7 @@ Class: 100
 Height: 130
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 81
 Skill: 137 80
 Skill: 157 60
 Spell: 38
@@ -451,6 +470,7 @@ Height: 130
 Weight: 50
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 81
 Skill: 157 80
 Spell: 28
 Spell: 28
@@ -490,6 +510,7 @@ Class: 100
 Height: 136
 Weight: 66
 Special_Bitvector: 0 
+Skill: 136 84
 Skill: 157 80
 Spell: 23
 Spell: 28
@@ -533,6 +554,7 @@ Class: 100
 Height: 150
 Weight: 70
 Special_Bitvector: 0 
+Skill: 136 81
 Skill: 157 88
 Spell: 28
 Spell: 33
@@ -551,7 +573,7 @@ E
 сгорбленный отшельник~
 сгорбленного отшельника~
 сгорбленному отшельнику~
-сгорбленный отшельник~
+сгорбленного отшельника~
 сгорбленным отшельником~
 сгорбленном отшельнике~
 Сгорбленный отшельник ищет, чем бы поживиться.
@@ -576,6 +598,7 @@ Height: 155
 Weight: 75
 Special_Bitvector: 0 
 Skill: 132 110
+Skill: 136 81
 Spell: 76
 Spell: 76
 Spell: 76
@@ -587,7 +610,7 @@ E
 пущевик~
 пущевика~
 пущевику~
-пущевик~
+пущевика~
 пущевиком~
 пущевике~
 Пущевик готов предсказать вашу жалкую участь.
@@ -612,6 +635,7 @@ Class: 100
 Height: 110
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 75
 Skill: 157 100
 Spell: 83
 Spell: 83
@@ -649,6 +673,7 @@ Class: 100
 Height: 110
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 81
 Skill: 157 90
 Skill: 160 85
 Spell: 6
@@ -696,6 +721,7 @@ Height: 140
 Weight: 55
 Special_Bitvector: 0 
 Skill: 132 100
+Skill: 136 84
 Skill: 157 75
 Spell: 28
 Spell: 28
@@ -736,6 +762,7 @@ Height: 140
 Weight: 80
 Special_Bitvector: C3 
 Skill: 22 70
+Skill: 136 78
 Skill: 157 90
 Spell: 15
 Spell: 15
@@ -780,6 +807,7 @@ Class: 101
 Height: 30
 Weight: 50
 Special_Bitvector: v0 
+Skill: 136 3
 Spell: 94
 Spell: 94
 E
@@ -813,6 +841,7 @@ Class: 103
 Height: 90
 Weight: 50
 Special_Bitvector: i0 
+Skill: 136 75
 Skill: 150 50
 Skill: 157 100
 E
@@ -846,6 +875,7 @@ Class: 103
 Height: 50
 Weight: 50
 Special_Bitvector: g0 
+Skill: 136 75
 Skill: 157 80
 Spell: 33
 E
@@ -882,6 +912,7 @@ Weight: 60
 Special_Bitvector: i0b1c1C3 
 Skill: 22 70
 Skill: 131 100
+Skill: 136 84
 Spell: 82
 E
 #68723
@@ -914,8 +945,19 @@ Class: 104
 Height: 170
 Weight: 50
 Special_Bitvector: b1c1B3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 21 50
 Skill: 131 140
+Skill: 136 120
 Skill: 137 80
 Skill: 157 100
 Spell: 25
@@ -1084,6 +1126,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: g0B3 
 Skill: 22 40
+Skill: 136 72
 E
 #68725
 восставший герой~
@@ -1115,5 +1158,16 @@ Class: 104
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 78
 E
 $

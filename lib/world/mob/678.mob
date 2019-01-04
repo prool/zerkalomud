@@ -116,6 +116,16 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1d1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 22 100
 Skill: 134 50
 Skill: 136 100
@@ -216,7 +226,7 @@ Height: 200
 Weight: 100
 Special_Bitvector: l0b1c1d1C3 
 Skill: 22 80
-Skill: 136 100
+Skill: 136 120
 Skill: 141 100
 Skill: 142 100
 Skill: 143 100
@@ -246,8 +256,8 @@ Spell: 128
 Spell: 128
 Spell: 128
 Spell: 144
-Helper: 67805
 Helper: 67806
+Helper: 67805
 E
 #67805
 гром дух ~
@@ -396,6 +406,7 @@ Spell: 66
 Spell: 111
 Spell: 153
 E
+I крылья:5
 #67808
 горный орел~
 горный орел~
@@ -436,6 +447,7 @@ Spell: 66
 Spell: 152
 Spell: 152
 E
+I крылья:5
 #67809
 ледяной страж~
 ледяной страж~
@@ -448,7 +460,7 @@ E
 ~
    Ужасный страж гор.
 ~
-b0d0f0g0l0m0n0o0t0x0 c0d0f0h0k0m0n0r0q1z1 -600 E
+b0d0f0g0l0m0n0o0p0t0x0i2 c0d0f0h0k0m0n0r0q1z1 -600 E
 40 0 0 9d10+7000 30d30+25
 9d9+5000 700000
 8 8 1
@@ -466,10 +478,19 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 50
 Skill: 22 100
-Skill: 131 20
-Skill: 136 100
+Skill: 136 120
 Skill: 143 100
 Skill: 144 100
 Skill: 145 100
@@ -499,9 +520,10 @@ Spell: 144
 Spell: 151
 Spell: 152
 Spell: 153
-Helper: 67810
 Helper: 67811
+Helper: 67810
 E
+L 1736 4 0 0
 #67810
 холод~
 холод~

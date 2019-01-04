@@ -14,12 +14,12 @@
 путничков.
 ~
 d0f0m0A0 k0r0s0t0A0j1 -600 E
-25 10 -10 10d10+1500 5d5+14
-0d0+0 50000
+25 10 -1 10d10+700 5d5+7
+0d0+0 30000
 8 8 1
 BareHandAttack: 11
 Str: 22
-Dex: 30
+Dex: 18
 Int: 10
 Wis: 10
 Con: 16
@@ -33,6 +33,7 @@ Weight: 85
 Special_Bitvector: g0i0j0a1 
 Skill: 5 20
 Skill: 131 100
+Skill: 136 75
 Skill: 137 120
 Skill: 150 100
 Skill: 156 100
@@ -59,12 +60,12 @@ I глаза,15:5
 путничков.
 ~
 d0f0m0A0 k0r0s0t0A0j1 -600 E
-25 10 -10 10d10+1500 5d5+14
-0d0+0 50000
+25 10 -1 10d10+700 5d5+7
+0d0+0 30000
 8 8 1
 BareHandAttack: 11
 Str: 22
-Dex: 30
+Dex: 18
 Int: 10
 Wis: 10
 Con: 16
@@ -78,6 +79,7 @@ Weight: 85
 Special_Bitvector: g0i0j0a1 
 Skill: 5 20
 Skill: 131 100
+Skill: 136 75
 Skill: 137 120
 Skill: 150 100
 Skill: 156 100
@@ -103,12 +105,12 @@ E
 путничков.
 ~
 d0f0m0A0 k0r0s0t0A0j1 -600 E
-25 10 -10 10d10+1500 5d5+14
-0d0+0 50000
+25 10 -1 10d10+700 5d5+7
+0d0+0 26000
 8 8 1
 BareHandAttack: 11
 Str: 22
-Dex: 30
+Dex: 18
 Int: 14
 Wis: 14
 Con: 16
@@ -122,6 +124,7 @@ Weight: 85
 Special_Bitvector: g0i0j0a1 
 Skill: 5 20
 Skill: 131 100
+Skill: 136 75
 Skill: 137 120
 Skill: 150 100
 Skill: 156 100
@@ -139,7 +142,7 @@ E
 пахаря~
 пахарем~
 пахаре~
-Пахарь усердно орает здесь поле.
+Пахарь усердно работает здесь на поле.
 ~
 Мужик, привыкший с детства к работе на земле. Руки огромные, мозолистые.
 ~
@@ -162,6 +165,7 @@ Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 5 100
 Skill: 132 100
+Skill: 136 75
 Skill: 137 100
 Spell: 5
 Spell: 5
@@ -199,6 +203,7 @@ Weight: 85
 Special_Bitvector: y0b1c1 
 Skill: 5 100
 Skill: 132 100
+Skill: 136 75
 Skill: 137 100
 Spell: 5
 Spell: 5
@@ -217,13 +222,13 @@ E
 ~
 В этой местности волков называют - бирюками. Их тут целые стаи!
 ~
-d0f0m0 k0r0s0t0 -600 E
-23 10 -10 10d10+400 6d6+7
-0d0+0 60000
+d0f0 k0r0s0 -600 E
+23 10 -1 10d10+400 5d5+7
+0d0+0 25000
 8 8 1
 BareHandAttack: 4
 Str: 17
-Dex: 30
+Dex: 18
 Int: 10
 Wis: 10
 Con: 24
@@ -235,7 +240,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: i0 
 Skill: 4 10
-Skill: 132 100
+Skill: 136 69
 Skill: 137 100
 Skill: 157 120
 E
@@ -251,10 +256,11 @@ E
 ~
 Жужжащая масса пчел.
 ~
-d0e0f0g0n0p0q0r0t0u0x0y0z0h1l1m1 r0m1 -600 E
+d0e0f0g0n0p0q0r0t0u0x0y0z0h1l1m1g2 r0m1 -600 E
 22 3 0 10d10+250 2d2+5
 0d0+0 50000
 8 8 1
+BareHandAttack: 4
 Str: 15
 Dex: 30
 Int: 10
@@ -267,6 +273,29 @@ ExtraAttack: 5
 Class: 103
 Height: 175
 Weight: 85
-Special_Bitvector: g0 
+Special_Bitvector: g0l0 
+Skill: 136 66
+E
+#65009
+неоконченный моб~
+неоконченный моб~
+неоконченного моба~
+неоконченному мобу~
+неоконченного моба~
+неоконченным мобом~
+неоконченном мобе~
+Неоконченный моб стоит тут.
+~
+Выглядит достаточно незавершенно.
+~
+d0 0 0 E
+0 20 -1 1d100+1 1d1+0
+0d0+0 0
+8 8 0
+Dex: 30
+Size: 30
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
 E
 $

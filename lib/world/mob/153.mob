@@ -36,6 +36,7 @@ Class: 101
 Weight: 70
 Special_Bitvector: 0 
 Skill: 5 60
+Skill: 136 60
 Skill: 137 50
 Spell: 4
 Spell: 4
@@ -72,6 +73,7 @@ ExtraAttack: 3
 Class: 103
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 15300
 #15302
@@ -106,6 +108,7 @@ Class: 103
 Weight: 40
 Special_Bitvector: 0 
 Skill: 132 60
+Skill: 136 81
 E
 #15303
 кабан~
@@ -137,6 +140,7 @@ ExtraAttack: 1
 Class: 103
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 60
 Skill: 137 70
 E
 T 15302
@@ -166,6 +170,7 @@ Size: 40
 Class: 101
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 90
 Spell: 28
 Spell: 28
 Spell: 28
@@ -208,6 +213,7 @@ ExtraAttack: 1
 Class: 101
 Weight: 40
 Special_Bitvector: a0 
+Skill: 136 84
 Spell: 23
 Spell: 28
 Spell: 28
@@ -247,6 +253,7 @@ LikeWork: 60
 ExtraAttack: 2
 Class: 103
 Special_Bitvector: 0 
+Skill: 136 36
 E
 #15307
 старый рыбак~
@@ -275,6 +282,7 @@ LikeWork: 12
 Class: 102
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 75
 E
 T 15306
 #15308
@@ -304,6 +312,7 @@ ExtraAttack: 1
 Class: 102
 Weight: 15
 Special_Bitvector: 0 
+Skill: 136 36
 Skill: 160 60
 E
 #15309
@@ -335,6 +344,7 @@ ExtraAttack: 3
 Class: 103
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 84
 Spell: 33
 Spell: 33
 Spell: 33
@@ -374,6 +384,7 @@ Size: 40
 Class: 102
 Weight: 15
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 15304
 #15311
@@ -406,6 +417,7 @@ Class: 102
 Weight: 20
 Special_Bitvector: 0 
 Skill: 132 50
+Skill: 136 69
 Skill: 137 60
 E
 #15312
@@ -436,6 +448,7 @@ ExtraAttack: 1
 Class: 102
 Weight: 30
 Special_Bitvector: b1 
+Skill: 136 78
 Spell: 28
 Spell: 28
 Spell: 75
@@ -470,6 +483,7 @@ ExtraAttack: 1
 Class: 101
 Weight: 20
 Special_Bitvector: b1 
+Skill: 136 84
 Spell: 72
 Spell: 72
 Spell: 72
@@ -511,6 +525,7 @@ ExtraAttack: 1
 Class: 103
 Weight: 12
 Special_Bitvector: 0 
+Skill: 136 36
 Skill: 160 40
 E
 T 15301

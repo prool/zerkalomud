@@ -10,8 +10,8 @@
 ~
 Дружинник, нанятый воеводой для охраны замка.
 ~
-b0d0g0f2 d0f0k0 1 E
-30 0 -3 100d7+10000 9d9+9
+b0d0g0B0f2 d0f0k0 1 E
+30 0 -3 100d7+10000 2d2+2
 0d0+0 0
 8 8 1
 Str: 30
@@ -23,26 +23,16 @@ Cha: 12
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
+Skill: 136 90
 Spell: 26
 Spell: 26
 Spell: 26
 Spell: 26
 Spell: 26
-Spell: 40
-Spell: 40
-Spell: 40
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 56
-Spell: 56
 E
 #71301
 богатырь~
@@ -67,11 +57,13 @@ Cha: 12
 Size: 50
 ExtraAttack: 3
 Class: 100
+Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
 Skill: 4 100
 Skill: 132 100
+Skill: 136 75
 E
 #71302
 охотник~
@@ -96,10 +88,12 @@ Cha: 12
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
 Skill: 134 100
+Skill: 136 90
 Skill: 150 100
 E
 #71303
@@ -127,10 +121,12 @@ Cha: 20
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
 Skill: 22 100
+Skill: 136 90
 E
 #71304
 лучник~
@@ -157,9 +153,11 @@ Cha: 20
 Size: 60
 ExtraAttack: 3
 Class: 100
+Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #71305
 повар~
@@ -181,9 +179,11 @@ Str: 36
 Dex: 36
 Size: 31
 Class: 100
+Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #71306
 знахарь~
@@ -204,9 +204,11 @@ b0d0g0B0f2 d0f0k0 0 E
 8 8 1
 Size: 31
 Class: 100
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #71307
 оружейник~
@@ -226,9 +228,11 @@ b0d0g0B0f2 d0f0k0 0 E
 8 8 1
 Size: 31
 Class: 100
+Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #71308
 хранитель~
@@ -248,9 +252,11 @@ b0d0g0B0f2 d0f0k0 0 E
 8 8 1
 Size: 31
 Class: 100
+Race: 114
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #71309
 мастер~
@@ -270,9 +276,11 @@ b0d0g0B0f2 d0f0k0 0 E
 8 8 1
 Size: 31
 Class: 100
+Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #71310
 девушка~
@@ -286,15 +294,17 @@ E
 ~
 Милая девушка, очаровавшая воеводу своим доброжелательным видом.
 ~
-b0d0g0B0f2 d0f0k0 0 E
+b0d0g0n0B0f2u2 d0f0k0 0 E
 1 20 10 5d3+5 1d3+0
 0d0+0 30
 8 8 2
 Size: 31
 Class: 100
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #71311
 говорящее чучело~
@@ -314,9 +324,11 @@ b0d0g0f2 0 1 E
 8 8 1
 Size: 31
 Class: 100
+Race: 109
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 3
 Spell: 52
 Spell: 52
 Spell: 52
@@ -352,8 +364,8 @@ T 71301
 Здоровенная сивая коняга с гербом Рязанской дружины в окрестности хвоста.
 Сивка выглядит основательно укуренным, и неторопливо летает по воздуху, лениво помахивая хвостом.
 ~
-d0s0f2 d0f0k0x0 0 E
-21 10 0 1d1+140 2d2+3
+d0p0s0t0f2 d0f0k0x0 0 E
+20 15 0 1d1+120 2d2+2
 0d0+0 0
 8 8 1
 BareHandAttack: 4
@@ -363,13 +375,55 @@ Int: 10
 Wis: 10
 Con: 12
 Cha: 12
-Size: 30
+Size: 100
 ExtraAttack: 1
+Class: 100
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 71305
+#71313
+кожаное чучело~
+кожаное чучело~
+кожаного чучела~
+кожаному чучелу~
+кожаное чучело~
+кожаным чучелом~
+кожаном чучеле~
+Потрепаное кожаное чучело для отработки ударов укреплено на столбе.
+~
+Кожаное чучело, покрытое швами и рубцами, и набитое
+внутри всяческим хламом и тряпками.
+Ходят слухи, что некоторые ратники находят ему нестандартное применение.
+~
+b0d0n0o0z0u2 0 -600 E
+30 20 -2 1d100+15000 4d3+4
+0d0+0 0
+8 8 0
+Str: 30
+Dex: 15
+Int: 30
+Wis: 20
+Con: 40
+Cha: 15
+Size: 30
+LikeWork: 75
+ExtraAttack: 3
+Class: 102
+Race: 109
+Height: 198
+Weight: 1
+Special_Bitvector: 0 
+Skill: 150 150
+Spell: 172
+Spell: 172
+Spell: 172
+Spell: 172
+Spell: 172
+E
 #71399
 грум~
 грум~
@@ -392,9 +446,12 @@ Dex: 21
 Con: 23
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 E
 T 71304
 $

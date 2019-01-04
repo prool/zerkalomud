@@ -33,7 +33,7 @@ detach 70700 %self.id%
 0 q 100
 ~
 wait 2s
-say Приветствую тебя путник, хочешь послушать одну старую историю ?
+say Приветствую тебя, путник, хочешь послушать одну старую историю?
 ~
 #70703
 слушаем  скальда~
@@ -110,7 +110,7 @@ detach 70703 %self.id%
 wait 1s
 отд
 wait 1s
-say Ну чтоже - тогда слушай:
+say Ну что же, тогда слушай:
 wait 3s
 say Есть о том такое сказание. Один отправился в путь и пришел на луг,
 say где девять рабов косили сено.
@@ -234,10 +234,10 @@ detach 70707 %self.id%
 ~
 wait 1s
 if %random.5% == 1
-set hero %random.pc%
-remote hero %self.id%
-exec 70707 %self.id%
-detach 70708 %self.id%
+  set hero %random.pc%
+  remote hero %self.id%
+  exec 70707 %self.id%
+  detach 70708 %self.id%
 end
 ~
 #70709
@@ -245,25 +245,25 @@ end
 2 c 1
 долбить~
 if !%arg.contains(скал)%
-wsend %actor% И что же вы хотите долбить ?
-halt
+  wsend %actor% И что же вы хотите долбить ?
+  halt
 end
 set kirk %actor.eq(18)%
 if %kirk.vnum% != 70715
-wsend %actor% И чем вы собираетесь долбить СКАЛУ ?
-halt
+  wsend %actor% И чем вы собираетесь долбить СКАЛУ ?
+  halt
 end
 if !%num%
-set num 1
+  set num 1
 end
 eval plus %actor.str% - 10
 if %num% <20
-wsend %actor% Вы начали упорно долбить скалу!
-wechoaround %actor% %actor.name% начал%actor.g% упорно долбить скалу!
+  wsend %actor% Вы начали упорно долбить скалу!
+  wechoaround %actor% %actor.name% начал%actor.g% упорно долбить скалу!
 elseif  %num% < 100
-wsend %actor% Вы упорно долбите проход в скале!
-wechoaround %actor% %actor.name% упорно долбит проход в скале!
-wait 1s
+  wsend %actor% Вы упорно долбите проход в скале!
+  wechoaround %actor% %actor.name% упорно долбит проход в скале!
+  wait 1s
 elseif  %num% < 200
   wsend %actor% Вы упорно долбите проход в скале!
   wechoaround %actor% %actor.name% упорно долбит проход в скале!
@@ -309,151 +309,152 @@ remote num %self.id%
 1 g 100
 ~
 if %world.curmobs(70706)%
-* если гуннлед есть то она агрит
-wait 1
+  * если гуннлед есть то она агрит
+  wait 1
   calcuid gunled 70706 mob
   set hero %actor%
   remote hero %gunled.id%
   exec 70707 %gunled.id%
-return 0
+  return 0
 else
-* если гуннлед нету и  все три капли у чара, то телепортим к скальду.
+  * если гуннлед нету и  все три капли у чара, то телепортим к скальду.
   calcuid ca1 70705 obj
   calcuid ca2 70716 obj
   calcuid ca3 70717 obj
   wait 1s
-if %ca1.carried_by% == %ca2.carried_by% && %ca1.carried_by% == %ca3.carried_by%
+  if %ca1.carried_by% == %ca2.carried_by% && %ca1.carried_by% == %ca3.carried_by%
     oecho _В глазах у Вас потемнело!
     calcuid skald 70703 mob
     attach 70711 %skald.id%
     oteleport all %skald.realroom%
-end
+  end
 end
 ~
 #70711
 дали каплю скальду~
 0 j 100
 ~
+wait 1
 set i  0
 %actor.wait(2)%
 switch %object.vnum%
-case 70705
-case 70716
-case 70717
-calcuid ca1 70705 obj
-calcuid ca2 70716 obj
-calcuid ca3 70717 obj
-wait 1s
-mecho %self.name% Внимательно оглядел каплю меда.
-if %ca1.carried by% == %ca2.carried by% & %ca1.carried by% == %ca3.carried by%
-set i 1
-else
-say И правда мед поэзии, значит я был прав, а где остальные капли ?
-end
-break
-case 70704
-mecho %self.name% Внимательно оглядел каплю меда.
-say Где ты ее взял%actor.g% %actor.name%?
-wait 1s
-say Подобрал где нибудь на стороне и за мед поэзии хочешь выдать ?
-say С обманщиками я и разговаривать не буду!
-mecho %self.name% взмахнул рукой исчез!
-wait 1s
-mpurge %self%
-break
-default
-say Это по-твоему похоже на мед ?
-хих
-return 0
-break
-done
-if !%i%
-halt
-end
-mpurge %ca1%
-mpurge %ca2%
-mpurge %ca3%
-say Я обещал тебя наградить?
-wait 1s
-осм %actor.name%
-wait 1s
-*награду как хатите меняйте, счас это три шмотки из наемовского сета :-)
-* а так можно и руны  и книги и скиллы  тут  положить :-)
-eval stuff 1235+%random.2%
-if %random.2% == 1
-eval stuff 1257+%random.2%
-end
-if !%world.curobjs(%stuff%)%
-mload obj %stuff%
-дать все %actor.name%
-elseif %random.10% == 7
-mload obj 579
-say Вот эту шкатулку со словами взял я у одного черного жреца, из тех, что молятся кресту.
-say Мне в ней нет проку - возьми, коли хочешь.
-give книг .%actor.name%
-elseif %actor.level% > 25
-wait 1s
-msend %actor% За доброе деяние вы получили 300000 очков опыта!
-%actor.exp(+300000)%
-else
-%self.gold(+12000)%
-дать 12000 кун %actor.name%
-end
-detach 70711 %self.id%
+  case 70705
+    case 70716
+      case 70717
+        calcuid ca1 70705 obj
+        calcuid ca2 70716 obj
+        calcuid ca3 70717 obj
+        wait 1s
+        mecho %self.name% Внимательно оглядел каплю меда.
+        if (( %ca1.carried_by% == %ca2.carried_by% ) && ( %ca1.carried_by% == %ca3.carried_by% ))
+          set i 1
+        else
+          say И правда мед поэзии, значит я был прав, а где остальные капли ?
+        end
+      break
+      case 70704
+        mecho %self.name% Внимательно оглядел каплю меда.
+        say Где ты ее взял%actor.g% %actor.name%?
+        wait 1s
+        say Подобрал где нибудь на стороне и за мед поэзии хочешь выдать ?
+        say С обманщиками я и разговаривать не буду!
+        mecho %self.name% взмахнул рукой исчез!
+        wait 1s
+        mpurge %self%
+      break
+      default
+        say Это по-твоему похоже на мед ?
+        хих
+        return 0
+      break
+    done
+    if !%i%
+      halt
+    end
+    mpurge %ca1%
+    mpurge %ca2%
+    mpurge %ca3%
+    say Я обещал тебя наградить?
+    wait 1s
+    осм %actor.name%
+    wait 1s
+    *награду как хатите меняйте, счас это три шмотки из наемовского сета :-)
+    * а так можно и руны  и книги и скиллы  тут  положить :-)
+    eval stuff 1235+%random.2%
+    if %random.100% <= 50
+      eval stuff 1257+%random.2%
+    end
+    if !%world.curobjs(%stuff%)%
+      mload obj %stuff%
+      дать все %actor.name%
+    elseif ( %random.100% <= 10 )
+      mload obj 579
+      say Вот эту шкатулку со словами взял я у одного черного жреца, из тех, что молятся кресту.
+      say Мне в ней нет проку - возьми, коли хочешь.
+      give книг .%actor.name%
+    elseif %actor.level% > 25
+      wait 1s
+      msend %actor% За доброе деяние вы получили 300000 очков опыта!
+      %actor.exp(+300000)%
+    else
+      %self.gold(+12000)%
+      дать 12000 кун %actor.name%
+    end
+    detach 70711 %self.id%
 ~
 #70712
 последняя  стенка~
 2 c 1
 долбить~
 if !%arg.contains(скал)%
-wsend %actor% И что же вы хотите долбить ?
-halt
+  wsend %actor% И что же вы хотите долбить ?
+  halt
 end
 set kirk %actor.eq(18)%
 if %kirk.vnum% != 70715
-wsend %actor% И чем вы собираетесь долбить СКАЛУ ?
-halt
+  wsend %actor% И чем вы собираетесь долбить СКАЛУ ?
+  halt
 end
 wait 1s
-  wechoaround %actor% %actor.name% ударил%actor.g% киркой.
-  wsend %actor% Вы ударили киркой.
-  %actor.wait(3)%
-  wait 1s
-  wecho Стена прорубленного туннеля обрушилась.
-  wecho Порыв свежего воздуха влетел в пещеру.
-  wait 1s
-  wecho Большая змея промелькнула мимо вас из пещеры.
-  calcuid gunled 70706 mob
-  wpurge %gunled%
-  wait 1s
-  wecho Вы услышали грохот падающих камней,
-  wecho заваливших прорубленный с таким трудом выход.
-  detach 70712 %self.id%
+wechoaround %actor% %actor.name% ударил%actor.g% киркой.
+wsend %actor% Вы ударили киркой.
+%actor.wait(3)%
+wait 1s
+wecho Стена прорубленного туннеля обрушилась.
+wecho Порыв свежего воздуха влетел в пещеру.
+wait 1s
+wecho Большая змея промелькнула мимо вас из пещеры.
+calcuid gunled 70706 mob
+wpurge %gunled%
+wait 1s
+wecho Вы услышали грохот падающих камней,
+wecho заваливших прорубленный с таким трудом выход.
+detach 70712 %self.id%
 ~
 #70713
 долбим  скалу -2~
 2 c 1
 долбить~
 if !%arg.contains(скал)%
-wsend %actor% И что же вы хотите долбить ?
-halt
+  wsend %actor% И что же вы хотите долбить ?
+  halt
 end
 set kirk %actor.eq(18)%
 if %kirk.vnum% != 70715
-wsend %actor% И чем вы собираетесь долбить СКАЛУ ?
-halt
+  wsend %actor% И чем вы собираетесь долбить СКАЛУ ?
+  halt
 end
 if !%num%
-set num 1
+  set num 1
 end
 eval plus %actor.str% - 10
 if %num% <20
-wsend %actor% Вы начали упорно долбить скалу!
-wechoaround %actor% %actor.name% начал%actor.g% упорно долбить скалу!
+  wsend %actor% Вы начали упорно долбить скалу!
+  wechoaround %actor% %actor.name% начал%actor.g% упорно долбить скалу!
 elseif  %num% < 100
-wsend %actor% Вы упорно долбите проход в скале!
-wechoaround %actor% %actor.name% упорно долбит проход в скале!
-wait 1s
+  wsend %actor% Вы упорно долбите проход в скале!
+  wechoaround %actor% %actor.name% упорно долбит проход в скале!
+  wait 1s
 elseif  %num% < 200
   wsend %actor% Вы упорно долбите проход в скале!
   wechoaround %actor% %actor.name% упорно долбит проход в скале!

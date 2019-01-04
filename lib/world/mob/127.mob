@@ -61,6 +61,7 @@ Class: 103
 Height: 70
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 45
 Skill: 157 80
 Spell: 72
 E
@@ -285,7 +286,7 @@ BareHandAttack: 4
 Str: 22
 Dex: 20
 Int: 15
-Wis: 15
+Wis: 30
 Con: 20
 Cha: 10
 Size: 40
@@ -295,6 +296,7 @@ Height: 70
 Weight: 60
 Special_Bitvector: 0 
 Skill: 4 25
+Skill: 136 48
 Spell: 92
 E
 #12709
@@ -327,6 +329,7 @@ Height: 80
 Weight: 70
 Special_Bitvector: 0 
 Skill: 12 30
+Skill: 136 36
 Spell: 130
 E
 #12710
@@ -527,6 +530,7 @@ Height: 120
 Weight: 70
 Special_Bitvector: B3 
 Skill: 21 5
+Skill: 136 36
 Spell: 114
 Spell: 114
 E
@@ -626,6 +630,7 @@ Class: 103
 Height: 60
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 27
 Skill: 157 15
 Spell: 114
 E
@@ -725,6 +730,7 @@ Class: 103
 Height: 150
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 48
 Skill: 150 15
 E
 T 12714
@@ -928,6 +934,7 @@ Height: 100
 Weight: 60
 Special_Bitvector: C3 
 Skill: 22 80
+Skill: 136 45
 E
 #12728
 тритон~
@@ -1100,6 +1107,7 @@ Height: 110
 Weight: 50
 Special_Bitvector: 0 
 Skill: 4 10
+Skill: 136 45
 Spell: 27
 Spell: 27
 Spell: 27
@@ -1136,6 +1144,7 @@ Height: 120
 Weight: 60
 Special_Bitvector: 0 
 Skill: 4 10
+Skill: 136 81
 Spell: 140
 E
 #12734
@@ -1168,6 +1177,7 @@ Class: 103
 Height: 170
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 90
 Skill: 158 10
 Spell: 140
 E
@@ -1206,6 +1216,7 @@ Spell: 5
 Spell: 5
 Spell: 124
 Helper: 12731
+Skill: 136 72
 E
 T 12707
 I зубы,3:5

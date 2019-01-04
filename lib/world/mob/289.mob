@@ -64,6 +64,7 @@ Class: 101
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #28902
 девочка~
@@ -86,6 +87,7 @@ Class: 102
 Height: 198
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 30
 Spell: 64
 E
 #28903
@@ -98,25 +100,26 @@ E
 проклятии~
 Проклятие Угров желает отомстить каждому русичу.
 ~
-Толи навет, толи дух.
+То ли навет, то ли дух.
 ~
-b0d0f0g0n0o0b1e2 b0d0k0 -600 E
+b0d0f0g0n0o0z0b1e2 b0d0k0 -600 E
 15 4 4 0d0+400 5d4+3
 0d0+0 12000
 8 8 0
 Str: 15
 Dex: 15
-Int: 10
-Wis: 4
+Int: 20
+Wis: 25
 Con: 15
-Cha: 3
+Cha: 15
 Size: 100
 LikeWork: 95
 ExtraAttack: 1
-Class: 100
+Class: 101
 Height: 198
 Weight: 100
 Special_Bitvector: l0 
+Skill: 136 45
 Skill: 157 80
 Spell: 17
 Spell: 17
@@ -154,6 +157,7 @@ Weight: 100
 Special_Bitvector: i0j0a1b1c1d1 
 Skill: 131 40
 Skill: 133 80
+Skill: 136 45
 Skill: 139 40
 Skill: 157 60
 E
@@ -186,6 +190,7 @@ Class: 103
 Height: 198
 Weight: 25
 Special_Bitvector: p0 
+Skill: 136 42
 Skill: 157 75
 E
 #28906
@@ -218,6 +223,7 @@ Class: 103
 Height: 198
 Weight: 25
 Special_Bitvector: p0 
+Skill: 136 36
 Skill: 157 75
 E
 #28907
@@ -241,12 +247,14 @@ d0f0g0m0k1n1 f0s0t0u0z0 -20 E
 BareHandAttack: 1
 Size: 30
 ExtraAttack: 1
+Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 3 50
 Skill: 4 20
 Skill: 133 80
+Skill: 136 54
 Skill: 138 80
 Skill: 149 90
 Skill: 165 50

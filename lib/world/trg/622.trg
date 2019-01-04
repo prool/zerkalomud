@@ -4,20 +4,20 @@
 ~
 mechoaround %actor% _Корчмарь что-то тихо прошептал %actor.dname%.
 if %amount% < 10
-msend %actor% _Корчмарь доверительно шепнул Вам: "Скупой платит дважды!" 
-halt
+  msend %actor% _Корчмарь доверительно шепнул Вам: "Скупой платит дважды!" 
+  halt
 end
 if %random.2% == 1
-сказ %actor.name% Охотник Зорень ведает все тайные тропки.
-сказ %actor.name% Ежели ты ищешь пути к урманскому лагерю - заплати ему кун этак пятьдесят.
-сказ %actor.name% А сам дороги вовек не найдешь! 
-calcuid ranger 62201 mob
-detach 62211 %ranger.id%
-attach 62211 %ranger.id%
+  сказ %actor.name% Охотник Зорень ведает все тайные тропки.
+  сказ %actor.name% Ежели ты ищешь пути к урманскому лагерю - заплати ему кун этак пятьдесят.
+  сказ %actor.name% А сам дороги вовек не найдешь! 
+  calcuid ranger 62201 mob
+  detach 62211 %ranger.id%
+  attach 62211 %ranger.id%
 else
-сказ %actor.name% Олгинь - колдунья.
-сказ %actor.name% Она знает все про травы и снадобья.
-сказ %actor.name% Если ищешь мудрого совета - иди к ней, да поклониться не забудь.
+  сказ %actor.name% Олгинь - колдунья.
+  сказ %actor.name% Она знает все про травы и снадобья.
+  сказ %actor.name% Если ищешь мудрого совета - иди к ней, да поклониться не забудь.
 end
 ~
 #62201
@@ -39,14 +39,14 @@ msend %actor% - Помоги нам, а мы уж в долгу не останемся...
 1 c 4
 отломить~
 if  !%arg.contains(ветк)%
-osend %actor% _Что вы хотите сломать?!
-halt
+  osend %actor% _Что вы хотите сломать?!
+  halt
 end
 osend %actor% _Вы вцепились в ветку и принялсиь ее раскачивать.
 oechoaround %actor% _%actor.name% вцепил%actor.u% в ветку и начал%actor.g% яростно ее дергать.
 oecho _Ветка внезапно хрустнула и обломилась. 
 osend %actor% _Вы потеряли равновесие и рухнули с дуба!
-oechoaround %actor% _%actor.name% потерял%actor.g% равновесие и полетел с дуба вниз!
+oechoaround %actor%  %actor.name% потерял%actor.g% равновесие и полетел%actor.g% с дуба вниз!
 odamage %actor% 70
 %actor.position(6)%
 %actor.wait(4)%
@@ -60,16 +60,16 @@ opurge %self%
 2 c 1
 шуровать шуметь ворошить сунуть ~
 if !%arg.contains(дупло)%
-wsend %actor% _Где вы хотите пошуровать? 
-return 0
-halt
+  wsend %actor% _Где вы хотите пошуровать? 
+  return 0
+  halt
 end
 eval weapon %actor.eq(16)%
 if !(%weapon.vnum% == 62208)
-wsend %actor% _Вы сунули руку в дупло... Кто-то БОЛЬНО укусил Вас!
-wdamage %actor% 50
-wechoaround %actor% _%actor.name% сунул%actor.g% было руку в дупло, но тут же с воплем выдернул%actor.g% ее обратно.
-halt
+  wsend %actor% _Вы сунули руку в дупло... Кто-то БОЛЬНО укусил Вас!
+  wdamage %actor% 50
+  wechoaround %actor% _%actor.name% сунул%actor.g% было руку в дупло, но тут же с воплем выдернул%actor.g% ее обратно.
+  halt
 end
 wsend %actor% _Вы сунули сухую ветку в дупло и принялись ворочать ею во все стороны.
 wechoaround %actor% _%actor.name% сунул%actor.g% сухую ветку в дупло и принял%actor.u% шуровать ею. 
@@ -82,72 +82,76 @@ detach 62203 %self.id%
 2 f 100
 ~
 switch %random.3%
-case 1
-calcuid ship 62238 room
-break
-case 2
-calcuid ship 62239 room
-break
-case 3
-calcuid ship 62254 room
-done
-wload mob 62253
-wteleport questmob6221 %ship.vnum%
-calcuid duplo 62280 room
-detach 62203 %duplo%
-attach 62203 %duplo%
-calcuid vetka 62207 obj
-detach 62202 %vetka%
-attach 62202 %vetka%
-calcuid ouk 62285 room
-detach 62216 %ouk%
-attach 62216 %ouk%
-calcuid olgin 62204 mob
-detach 62219 %olgin%
-attach 62212 %olgin%
-calcuid viking 62216 mob
-wteleport %viking% 62286
-calcuid skald 62217 mob
-wteleport %skald% 62286
-calcuid viking 62235 mob
-wteleport %viking% 62245
-calcuid viking 62240 mob
-wteleport %viking% 62247
-calcuid viking 62225 mob
-wteleport %viking% 62293
-calcuid viking 62241 mob
-wteleport %viking% 62258
-calcuid viking 62242 mob
-wteleport %viking% 62215
-calcuid viking 62218 mob
-wteleport %viking% 62257
-calcuid viking 62247 mob
-wteleport %viking% 62216
-calcuid viking 62245 mob
-wteleport %viking% 62291
-calcuid imrah 62200 mob
-attach 62201 %imrah%
-attach 62207 %imrah%
-detach 62230 %imrah%
-rdelete questor622 %imrah%
-calcuid hunter 62201 mob
-rdelete questor622 %hunter%
-calcuid konung 62215 mob
-rdelete questor622 %konung%
-calcuid daughter 62253 mob
-rdelete questor622 %daughter% 
-wdoor 62227 e purge
-wdoor 62221 w purge
-wdoor 62248 w purge
-wdoor 62247 e purge
-wdoor 62210 s purge
-wdoor 62215 n purge 
-detach 62237 %world.room(62227)%
-detach 62237 %world.room(62248)%
-detach 62237 %world.room(62210)%
-attach 62237 %world.room(62227)%
-attach 62237 %world.room(62248)%
-attach 62237 %world.room(62210)%
+  case 1
+    calcuid ship 62238 room
+  break
+  case 2
+    calcuid ship 62239 room
+  break
+  case 3
+    calcuid ship 62254 room
+  done
+  wload mob 62253
+  wteleport questmob6221 %ship.vnum%
+  calcuid duplo 62280 room
+  detach 62203 %duplo%
+  attach 62203 %duplo%
+  calcuid vetka 62207 obj
+  detach 62202 %vetka%
+  attach 62202 %vetka%
+  calcuid ouk 62285 room
+  detach 62216 %ouk%
+  attach 62216 %ouk%
+  calcuid olgin 62204 mob
+  detach 62219 %olgin%
+  attach 62212 %olgin%
+  calcuid viking 62216 mob
+  wteleport %viking% 62286
+  calcuid skald 62217 mob
+  wteleport %skald% 62286
+  calcuid viking 62235 mob
+  wteleport %viking% 62245
+  calcuid viking 62240 mob
+  wteleport %viking% 62247
+  calcuid viking 62225 mob
+  wteleport %viking% 62293
+  calcuid viking 62241 mob
+  wteleport %viking% 62258
+  calcuid viking 62242 mob
+  wteleport %viking% 62215
+  calcuid viking 62218 mob
+  wteleport %viking% 62257
+  calcuid viking 62247 mob
+  wteleport %viking% 62216
+  calcuid viking 62245 mob
+  wteleport %viking% 62291
+  calcuid imrah 62200 mob
+  attach 62201 %imrah%
+  attach 62207 %imrah%
+  detach 62230 %imrah%
+  rdelete questor622 %imrah%
+  calcuid hunter 62201 mob
+  rdelete questor622 %hunter%
+  calcuid konung 62215 mob
+  rdelete questor622 %konung%
+  calcuid daughter 62253 mob
+  rdelete questor622 %daughter% 
+  wdoor 62227 e purge
+  wdoor 62221 w purge
+  wdoor 62248 w purge
+  wdoor 62247 e purge
+  wdoor 62210 s purge
+  wdoor 62215 n purge 
+  detach 62237 %world.room(62227)%
+  detach 62237 %world.room(62248)%
+  detach 62237 %world.room(62210)%
+  attach 62237 %world.room(62227)%
+  attach 62237 %world.room(62248)%
+  attach 62237 %world.room(62210)%
+  calcuid alhemist 62204 mob
+  rdelete ing1 %alhemist.id%
+  rdelete ing2 %alhemist.id%
+  rdelete ing3 %alhemist.id%
 ~
 #62205
 убит волхв Орлуг~
@@ -155,11 +159,11 @@ attach 62237 %world.room(62210)%
 ~
 mload obj 62209 
 if %random.100% < 30
-mload obj 62243
+  mload obj 62243
 elseif %random.100% < 20
-mload obj 62241
+  mload obj 62241
 elseif %random.100% < 8
-mload obj 62242
+  mload obj 62242
 end 
 ~
 #62206
@@ -178,13 +182,13 @@ exec 62234 %world.room(62279)%
 0 d 1
 да конечно помогу согласен~
 if %questor622%
-halt
+  halt
 end
 if ((%actor.level% < 22) || (%actor.vnum% != -1) || !%exist.mob(62215)%)
-msend %actor% _Старейшина внимательно осмотрел Вас с ног до головы.
-say Нет, боюсь не по силам это тебе...
-вздох
-halt
+  msend %actor% _Старейшина внимательно осмотрел Вас с ног до головы.
+  say Нет, боюсь не по силам это тебе...
+  вздох
+  halt
 end
 makeuid questor622 %actor.id%
 global questor622
@@ -215,10 +219,12 @@ detach 62201 %self.id%
 ~
 wait 1
 if %actor.hitp% < 99
-mecho _Внезапно  берсерк испустил оглушительный боевой клич!
-msend %actor% _Берсерк Хальфдан нанес Вам СТРАШНЫЙ удар!!!
-mechoaround %actor%  _Берсерк Хальфдан нанес %actor.dname% СТРАШНЫЙ удар!!!
-mdamage %actor% %actor.hitp%
+  mecho _Внезапно берсерк испустил оглушительный боевой клич!
+  msend %actor% _Берсерк Хальфдан нанес Вам СТРАШНЫЙ удар!!!
+  mechoaround %actor% _Берсерк Хальфдан нанес %actor.dname% СТРАШНЫЙ удар!!!
+  eval dmg %actor.hitp%+10
+  mdamage %actor% %dmg%
+  wait 5
 end
 ~
 #62209
@@ -238,9 +244,9 @@ mkill %trup%
 2 c 0
 идти пройти уйти уходить~
 if !%arg.contains(троп)% && !%arg.contains(запад)%
-wsend %actor% _Камо грядеши?
-return 0
-halt 
+  wsend %actor% _Камо грядеши?
+  return 0
+  halt 
 end
 wsend %actor% _Вы пригнулись и нырнули в густые заросли на западе.
 wsend %actor% _Вы долго петляли по лесу и вот, наконец, вышли к деревне.
@@ -253,8 +259,8 @@ wechoaround %actor% Кто-то выбрался из леса на дорогу.
 0 m 1
 ~
 if (%amount% < 50)
-say За эти гроши иди сам%actor.g% куда хошь.
-halt
+  say За эти гроши иди сам%actor.g% куда хошь.
+  halt
 end
 вздох
 say Ну что ж... Пошли.
@@ -280,9 +286,9 @@ mecho _Охотник Зорень пришел с запада.
 0 c 0
 поклониться~
 if (!%arg.contains(весянк)% && !%arg.contains(Олгинь)%)
-msend %actor% Так и лоб расшибить недолго!
-return 0
-halt 
+  msend %actor% Так и лоб расшибить недолго!
+  return 0
+  halt 
 end
 wait 2
 msend %actor% _Вы низко поклонились весянке Олгинь
@@ -304,11 +310,11 @@ detach 62212 %self.id%
 2 c 0
 лезть залезть забраться взобраться~
 if !%arg.contains(дуб)% 
-wsend %actor% _Куда это Вы лезете?!
-return 0
-halt 
+  wsend %actor% _Куда это Вы лезете?!
+  return 0
+  halt 
 end
-wsend %actor% _Обдираясь о сучья, вы полезли на дуб.
+wsend %actor%  Обдираясь о сучья, Вы полезли на дуб.
 wechoaround %actor% _%actor.name% полез%actor.q% на дуб.
 wteleport %actor% 62280
 wsend %actor% _Вы забрались на широкую прочную ветку.
@@ -320,14 +326,14 @@ wechoaround %actor% _Кто-то взобрался на дерево.
 ~
 eval fang %random.3%
 if (%fang% == 1)
-mload obj 62230
-mload obj 62231
+  mload obj 62230
+  mload obj 62231
 elseif (%fang% == 2)
-mload obj 62231
-mload obj 62232
+  mload obj 62231
+  mload obj 62232
 elseif (%fang% == 3)
-mload obj 62232
-mload obj 62230
+  mload obj 62232
+  mload obj 62230
 end
 ~
 #62215
@@ -336,14 +342,14 @@ end
 ~
 eval plume %random.3%
 if (%plume% == 1)
-mload obj 62233
-mload obj 62234
+  mload obj 62233
+  mload obj 62234
 elseif (%plume% == 2)
-mload obj 62234
-mload obj 62235
+  mload obj 62234
+  mload obj 62235
 elseif (%plume% == 3)
-mload obj 62235
-mload obj 62233
+  mload obj 62235
+  mload obj 62233
 end
 ~
 #62216
@@ -351,7 +357,7 @@ end
 2 c 1
 свистеть свистать засвистать~
 wsend %actor% _Вы сунули пальцы в рот и засвистали во всю мочь.
-wechoaround %actor% _%actor.iname% сунул%actor.q% пальцы в рот и оглушительно засвистал%actor.q%.
+wechoaround %actor% %actor.iname% сунул%actor.g% пальцы в рот и оглушительно засвистал%actor.g%.
 wecho _Внезапно послышался страшный свист и гром.
 wecho _Огромный крылатый змей примчался прямо сюда! 
 wload mob 62212
@@ -382,8 +388,8 @@ mkill %questor.iname%
 wait 1
 eval meat %object.name%
 if !%meat.contains(труп)%
-return 0
-halt
+  return 0
+  halt
 end
 say  О! Закуска!
 mecho _Крылатый змей дыхнул на %meat.vname% огнем, хорошо его прожарив.
@@ -393,14 +399,14 @@ mecho Крылатый змей взмахнул крыльями и умчался.
 mecho Несколько чешуек сорвались с хвоста змея и кружась опуститились на ветви дуба.   
 eval scales %random.3%
 if (%scales% == 1)
-mload obj 62236
-mload obj 62237
+  mload obj 62236
+  mload obj 62237
 elseif (%scales% == 2)
-mload obj 62237
-mload obj 62238
+  mload obj 62237
+  mload obj 62238
 elseif (%scales% == 3)
-mload obj 62238
-mload obj 62236
+  mload obj 62238
+  mload obj 62236
 end
 mpurge %object%
 mpurge %self%
@@ -410,113 +416,116 @@ mpurge %self%
 0 j 100
 ~
 wait 1
-if %object.vnum% == 62230
-eval ing1 0
-global ing1
-elseif %object.vnum% == 62231
-eval ing1 1 
-global ing1
-elseif %object.vnum% == 62232
-eval ing1 2
-global ing1
-elseif %object.vnum% == 62233
-eval ing2 0
-global ing2
-elseif %object.vnum% == 62234 
-eval ing2 1
-global ing2
-elseif %object.vnum% == 62235
-eval ing2 2 
-global ing2
-elseif %object.vnum% == 62236
-eval ing3 0 
-global ing3
-elseif %object.vnum% == 62237
-eval ing3 3 
-global ing3
-elseif %object.vnum% == 62238
-eval ing3 4
-global ing3
-else
-emot недоуменно посмотрела на %object.vname%
-say Это-то мне зачем?
-drop %object.name%
-halt
-end 
-say О! Как раз то, что нужно!
-mecho _Олгинь бросила %object.vname% в висящий над очагом котелок и принялась помешивать кипящее варево.
-if !%ing1% || !%ing2% || !%ing3%
-say Кажется, еще чего-то не хватает...
-say Ничего не забыл?
-mpurge %object%
-halt
-end  
-say Ну вот, все готово.
-wecho _Весянка Олгинь налила готовое зелье в какую-то склянку.
-eval sum %ing1%+%ing2%+%ing3%
-switch %sum%
-case 0
-mload obj 62220
-give склянка %actor.iname%
-mpurge %object%
-halt
-case 1
-mload obj 62221
-give пузырек %actor.iname%
-mpurge %object%
-halt
-case 2
-mload obj 62222
-give  колба %actor.iname%
-mpurge %object%
-halt
-case 3
-mload obj 62223
-give пузырек %actor.iname%
-mpurge %object%
-halt
-case 4
-mload obj 62224
-give зелье %actor.iname%
-mpurge %object%
-halt
-case 5
-mload obj 62225
-give склянка %actor.iname%
-mpurge %object%
-halt
-case 6
-mload obj 62226
-give  пузырек %actor.iname%
-mpurge %object%
-halt
-case 7
-mload obj 62227
-give плошка %actor.iname%
-mpurge %object%
-halt
-case 8
-mload obj 62228
-give колба %actor.iname%
-mpurge %object%
-halt
-done
+switch %object.vnum%
+  case 62230
+    set ing1 1
+    global ing1
+  break
+  case 62231
+    set ing1 2 
+    global ing1
+  break
+  case 62232
+    set ing1 3
+    global ing1
+  break
+  case 62233
+    set ing2 1
+    global ing2
+  break
+  case 62234
+    set ing2 2
+    global ing2
+  break
+  case 62235
+    set ing2 3 
+    global ing2
+  break
+  case 62236
+    set ing3 1 
+    global ing3
+  break
+  case 62237
+    set ing3 4 
+    global ing3
+  break
+  case 62238
+    set ing3 5
+    global ing3
+  break
+  default
+    emot недоуменно посмотрела на %object.vname%
+    say Это-то мне зачем?
+    drop %object.iname%
+    halt
+  done
+  wait 1
+  mpurge %object%
+  say О! Как раз то, что нужно!
+  mecho Олгинь бросила %object.vname% в висящий над очагом котелок и принялась помешивать кипящее варево.
+  wait 2s
+  if !%ing1% || !%ing2% || !%ing3%
+    дум
+    say Кажется, еще чего-то не хватает...
+    say Ничего не забыл?
+    halt
+  end
+  say Ну вот, что-то получилось...
+  wecho Весянка Олгинь налила готовое зелье в какую-то склянку.
+  eval sum %ing1%+%ing2%+%ing3%
+  switch %sum%
+    case 3
+      mload obj 62220
+      give все .%actor.name%
+    break
+    case 4
+      mload obj 62221
+      give все .%actor.name%
+    break
+    case 5
+      mload obj 62222
+      give все .%actor.name%
+    break
+    case 6
+      mload obj 62223
+      give все .%actor.name%
+    break
+    case 7
+      mload obj 62224
+      give все .%actor.name%
+    break
+    case 8
+      mload obj 62225
+      give все .%actor.name%
+    break
+    case 9
+      mload obj 62226
+      give все .%actor.name%
+    break
+    case 10
+      mload obj 62227
+      give все .%actor.name%
+    break
+    case 11
+      mload obj 62228
+      give все .%actor.name%
+    break
+  done
 ~
 #62220
 змей убит~
 0 f 100
 ~
-wait 1
 eval scales %random.3%
 if (%scales% == 1)
-mload obj 62236
-mload obj 62237
+  mload obj 62236
+  mload obj 62237
 elseif (%scales% == 2)
-mload obj 62237
-mload obj 62238
+  mload obj 62237
+  mload obj 62238
 elseif (%scales% == 3)
-mload obj 62238
-mload obj 62236
+  mload obj 62238
+  mload obj 62236
 end
 ~
 #62221
@@ -524,11 +533,11 @@ end
 2 c 0
 прыгнуть~
 if !%arg.contains(вниз)%
-wsend %actor% _Куда прыгаем-то?
-return 0
-halt
+  wsend %actor% _Куда прыгаем-то?
+  return 0
+  halt
 end
-wsend %actor% _С криком "Не поминайте лихом" вы сиганули вниз с дуба.
+wsend %actor%  С криком "Не поминайте лихом" Вы сиганули вниз с дуба.
 wechoaround %actor% _%actor.iname% завопил%actor.g%: "Не поминайте лихом" и ринул%actor.u% вниз с дуба.
 wdamage %actor% 20
 wteleport %actor% 62269
@@ -539,11 +548,11 @@ wechoaround %actor% Кто-то с нечленораздельным криком свалился с дуба.
 0 c 0
 освободить расковать развязать ~
 if !%arg.contains(пленник)%
-msend %actor% _Кого вы так страстно желаете освободить?
-return 0
-halt
+  msend %actor% Кого Вы так страстно желаете освободить?
+  return 0
+  halt
 end
-msend %actor% _Мощным ударом вы разбили оковы несчастного пленника.
+msend %actor% Мощным ударом Вы разбили оковы несчастного пленника.
 mechoaround %actor% _%actor.iname% сильным ударом разбил%actor.g% оковы пленника.
 wait 4
 mecho _Пленник встал, раправляя сведенные плечи.
@@ -561,10 +570,10 @@ mpurge %self%
 0 j 100
 ~
 if !(%object.vnum% == 62209)
-say Да ты, никак, смеешься надо мной?!
-emot грозно нахмурился
-drop %object.name%
-halt
+  say Да ты, никак, смеешься надо мной?!
+  emot грозно нахмурился
+  drop %object.name%
+  halt
 end
 wait 1
 say О, мой посох! Моя сила снова при мне!
@@ -573,10 +582,10 @@ dg_cast 'полет' %self.name%
 say Что ж, я вознагражу тебя как и обещал. 
 mechoaround %actor% _Чародей дал %actor.dname% несколько мудрых советов.
 if (%actor.level% > 20) && (%actor.level% < 26)                         
-msend %actor% _Чародей дал вам несколько мудрых советов, добавивших вам 40000 очков опыта.
-%actor.exp(+40000)%
+  msend %actor% Чародей дал Вам несколько мудрых советов, добавивших вам 40000 очков опыта. 
+  %actor.exp(+40000)%
 else
-msend %actor% Чародей дал Вам несколько советов... но все они в одно Ваше ухо влетели, да в другое и вылетели.
+  msend %actor% Чародей дал Вам несколько советов... но все они в одно Ваше ухо влетели, да в другое и вылетели.
 end
 dg_cast 'освящение' %actor.name%
 dg_cast 'полет' %actor.name%
@@ -591,23 +600,23 @@ mpurge %self%
 2 c 0
 лезть залезть карабкаться взобраться~
 if !%arg.contains(корабль)%
-wsend %actor% Куда вы лезете?
-return 0
-halt
+  wsend %actor% Куда вы лезете?
+  return 0
+  halt
 end
 if %actor.fighting%
-eval enemy %actor.fighting%
-wsend %actor% _Вы попытались залезть на корабль, но %enemy.name% схватил%enemy.g% Вас за ногу и сдернул вниз!
-halt
+  eval enemy %actor.fighting%
+  wsend %actor% _Вы попытались залезть на корабль, но %enemy.name% схватил%enemy.g% Вас за ногу и сдернул вниз!
+  halt
 end
 wsend %actor% Вы принялись карабкаться на борт корабля.
 wechoaround %actor%  %actor.iname% полез%actor.q% на корабль.
 if %self.vnum% == 62221
-wteleport %actor% 62227
+  wteleport %actor% 62227
 elseif %self.vnum% == 62247
-wteleport %actor% 62248
+  wteleport %actor% 62248
 else
-wteleport %actor% 62210
+  wteleport %actor% 62210
 end
 wechoaround %actor% _%actor.iname% забрал%actor.u% сюда.
 ~
@@ -616,37 +625,37 @@ wechoaround %actor% _%actor.iname% забрал%actor.u% сюда.
 2 c 0
 прыгнуть спрыгнуть соскочить~
 if (!%arg.contains(вниз)% && !%arg.contains(берег)%) 
-wsend %actor% _Куда вы хотите прыгнуть?
-return 0
-halt
+  wsend %actor% _Куда вы хотите прыгнуть?
+  return 0
+  halt
 end
 if %actor.fighting%
-eval enemy %actor.fighting%
-wsend %actor% _Вы попытались спрыгнуть на берег, но %enemy.name% схватил%enemy.g% Вас за шиворот и втащил%enemy.g% обратно!
-halt
+  eval enemy %actor.fighting%
+  wsend %actor% _Вы попытались спрыгнуть на берег, но %enemy.name% схватил%enemy.g% Вас за шиворот и втащил%enemy.g% обратно!
+  halt
 end
 wsend %actor% _Вы спрыгнули с корабля на берег.
 wechoaround %actor% _%actor.iname% спрыгнул%actor.g% на берег. 
 if %self.vnum% == 62227
-wteleport %actor% 62221
+  wteleport %actor% 62221
 elseif %self.vnum% == 62248
-wteleport %actor% 62247
+  wteleport %actor% 62247
 else
-wteleport %actor% 62215
+  wteleport %actor% 62215
 end
 wechoaround %actor%  %actor.iname% спрыгнул%actor.g% с борта корабля.
 foreach dochka %self.npc%
-if (%dochka.vnum% == 62253)
-wechoaround %dochka%  Ивушка спрыгнула на берег.
-if %self.vnum% == 62227
-wteleport %dochka% 62221
-elseif %self.vnum% == 62248
-wteleport %dochka% 62247
-else
-wteleport %dochka% 62215
-end
-wechoaround %dochka%  Ивушка спрыгнула на берег.
-end
+  if (%dochka.vnum% == 62253)
+    wechoaround %dochka%  Ивушка спрыгнула на берег.
+    if %self.vnum% == 62227
+      wteleport %dochka% 62221
+    elseif %self.vnum% == 62248
+      wteleport %dochka% 62247
+    else
+      wteleport %dochka% 62215
+    end
+    wechoaround %dochka%  Ивушка спрыгнула на берег.
+  end
 done
 ~
 #62226
@@ -654,7 +663,7 @@ done
 0 q 100
 ~
 if !(%actor.id% == %questor622.id%)
-halt
+  halt
 end 
 wait 1s
 say Имрах уж сказал мне про тебя, %actor.iname%...
@@ -674,10 +683,10 @@ detach 62226 %self.id%
 ~
 wait 1
 if (%questor622.sex% == 1)
-say Спасибо тебе, добрый молодец!  
-*elseif (%questor622.sex% == 2) 
+  say Спасибо тебе, добрый молодец!  
+  *elseif (%questor622.sex% == 2) 
 else
-say Спасибо тебе, красна девица!            
+  say Спасибо тебе, красна девица!            
 end 
 say Я и мой отец не останемся в долгу...
 say Теперь я и сама до дому доберусь.
@@ -693,8 +702,14 @@ mpurge %self.name%
 конунг убит~
 0 f 100
 ~
+if (%random.100% <= 12) && (%world.curobjs(216)% < 50) 
+  mload obj 216
+end
+if %random.100% < 3 && %world.curobjs(3336)% < 1 && %world.curobjs(3337)% < 1
+  mload obj 3336
+end
 if %questor622.realroom% != 62279
-halt
+  halt
 end
 mload obj 62205
 ~
@@ -703,24 +718,25 @@ mload obj 62205
 0 q 100
 ~
 if !(%actor.id% == %questor622.id%)
-halt
+  return 0
+  halt
 end
 wait 1s
 emot испуганно взглянула на Вас
 emot присмотрелась к вам и вскочила, радостно вскрикнув
 wait 3
 if (%actor.sex% == 1)
-say Спасибо тебе, добрый молодец!  
-цел  %actor.name%
+  say Спасибо тебе, добрый молодец!  
+  цел  %actor.name%
 elseif (%actor.sex% == 2) 
-say Спасибо тебе, красна девица!            
-поклон %actor.name%
+  say Спасибо тебе, красна девица!            
+  поклон %actor.name%
 end 
 say Спас%actor.q% ты меня, вовек не забуду.
 wait 1s
 say Только как же я до дому доберусь?
 say Схватили-то они меня в лесу, от деревни недалече, да в мешке сюда притащили.
-say Раз уж освободи%actor.q% ты меня, то не бросай тут.
+say Раз уж освободил%actor.g% ты меня, то не бросай тут.
 *say Теперь я и сама до дому доберусь.
 *mecho Ивушка вскочила и убежала наверх.
 *calcuid father 62200 mob
@@ -740,7 +756,7 @@ mpurge %self.name%
 0 q 100
 ~
 if !(%actor.id% == %questor622.id%)
-halt
+  halt
 end   
 wait 1s
 улыб
@@ -750,174 +766,174 @@ msend %actor% Старейшина крепко пожал Вам руку.
 mechoaround %actor% Старейшина Имрах крепко пожал руку %actor.dname%.
 wait 2s
 if (%questor622.quested(62200)% == 0)
-%questor622.setquest(62200)%
-switch %actor.class%
-case 0
-  say Нелегкое это дело - людей лечить. За труд твой благородный... 
-  say Прими в награду вот это!
-mload obj 552
-  дат свиток %actor.name%
-break
-case 1
-  say Да я понимаю, что колдуны - это боевые маги, но
-  say Ломать это не строить, так что возьми-ка вот это
- mload obj 578 
-  дать книг %actor.name%
-break
-case 2
-  say Воровством ты промышляешь.
-  emot смущенно закашлялся  
-  say Что ж, научу я тебя хитрости одной, для вора наиважнейшей.
-  msend %actor% Старейшина Имрах подробно описал Вам способы наилучшего удара со спины.
-  mechoaround %actor% Старейшина что-то долго и терпеливо растолковывал %actor.iname%.
-  if !%actor.skill(заколоть)%
-   msend %actor% Вы теперь поняли, как надо пользоваться умением "заколоть".
-   mskillturn %actor.name% заколоть set
-  else
-   msend %actor% Вы стали значительно опытнее в умении "заколоть".
-   mskilladd %actor.name% заколоть 10
-  end
-break
-case 3
-  say Научу я тебя, как силушку свою с толком в дело пустить.
-  msend %actor% Старейшина подробно разъяснил Вам некоторые особенности богатырского удара.
-  mechoaround %actor% Старейшина принялся что-то разьяснять %actor.dname% для пущей    убедительности размахивая кулаками.
-  if !%actor.skill(богатырский молот)%
-   msend %actor% Теперь вы владеете умением "богатырский молот"!
-   mskillturn %actor.name% богатырский.молот set
-  else
-   msend %actor% Теперь вы гораздо лучше умеете наносить богатырские удары!
-   mskilladd %actor.name% богатырский.молот 10
-  end
-break 
-case 4
-  say Ясно мне, что наемник ты по крови, да и по духу.
-  msend %actor% Старейшина стал показывать как осторожно подобраться к жертве.
-  mechoaround %actor% Старейшина принялся что-то разьяснять %actor.dname% , осторожно подкрадываясь.
-  if !%actor.skill(осторожный стиль)%
-   msend %actor% Теперь вы владеете умением "осторожный стиль"!
-   mskillturn %actor.name% осторожный.стиль set
-  else
-   msend %actor% Теперь вы гораздо лучше умеете осторожно подкрадываться к жертве!
-   mskilladd %actor.name% осторожный.стиль 10
-  end
-break
-case 5
-  say С первого взгляда дружинника в тебе видать.
-  say И я когда-то искал славы воинской, дела ратного...
-  emot призадумался
-  mecho Старейшина вытащил из сундука меч и принялся вертеть его вокруг себя, да так, что и не подойдешь к нему.
-  if !%actor.skill(веерная защита)%
-   msend %actor% Теперь вы владеете умением "веерная защита"!
-   mskillturn %actor.name% веерная.защита set
-  else
-   msend %actor% Теперь вы гораздо лучше умеете отражать удары!
-   mskilladd %actor.name% веерная.защита 10
-  end
-break
-case 6
-  say Для кудесника есть у меня чудный дар
-  say Вот смотри - с этим ты будешь нужен в любой компании
-mload obj 558
-  дать книг %actor.name%
-break 
-case 7
-  say Есть у волшебника Дар особый - видеть, то, что другим не видно
-  say И за дело твое доброе - обучу я тебя этому дару.
-  mecho Старейшина начал показывать в пустоту и многозначительно кивать.
-  if !%actor.skill(врата)%
-   msend %actor% Теперь вы владеете умением "врата"!
-   mskillturn %actor.name% врата set
-  else
-   msend %actor% Теперь вы гораздо лучше умеете открывать врата!
-   mskilladd %actor.name% врата 10
-end
-break 
-case 8
-  say Я так считаю... небудь на земле Зла, кто бы тогда Добро заметил?
-  say Ты чернокнижник, стало быть тебе пригодиться вот эта вещь...
-mload obj 568
-  дать книг %actor.name%
-break
-case 9
-  say Когда-то и я искал славы воинской... Покажу я тебе, как следует удары наносить, чтоб не бестолку мечом-то тыкать...
-  mecho Старейшина вытащил из сундука меч и принялся вертеть его вокруг себя, нанося  внезапные удары и выпады.
-  if !%actor.skill(точный стиль)%
-   msend %actor% Теперь вы владеете умением "точный стиль"!
-   mskillturn %actor.name% точный.стиль set
-  else
-   msend %actor% Теперь вы гораздо лучше знаете все уязвимые места всевозможных противников!
-   mskilladd %actor.name% точный.стиль 10
-  end
-break
-case 10
-  say Охотник ты, как я погляжу.
-  say Покажу я тебе, как быстрее из лука стрелять, дабы никто от стрел твоих уйти не смог.
-  msend %actor% Старейшина снял со стены колчан и стал демонстрировать Вам различные способы, коими можно удерживать в руке сразу несколько стрел, изготовленных к стрельбе.
-  mechoaround %actor% Старейшина снял со стены тул со стрелами и стал что-то обьяснять   %actor.name% хватая стрелу то так, то этак.                                               
-  if !%actor.skill(дополнительный выстрел)%
-   msend %actor% Теперь вы владеете умением "дополнительный выстрел"!
-   mskillturn %actor.name% дополнительный.выстрел set
-  else 
-   msend %actor% Теперь вы гораздо лучше знаете как стрелять быстро и точно!
-   mskilladd %actor.name% дополнительный.выстрел 10
-  end
-break 
-case 11
-  say Вижу я, кузнец ты справный.
-  say Обучу я тебя, как в бою супротивника с ног сбивать следует, чтоб и голосу подать не мог...
-  mecho Старейшина снял со стены посеченный в битвах щит и надел его на руку.
-  msend %actor% Старейшина стал показывать Вам как нужно наносить удары щитом.
-  msend %actor% _Одним ударом старейшина сбил Вас с ног!
-  mechoaround %actor% _Одним ударом Старейшина завалил %actor.vname% на землю!
-  %actor.position(6)%
-  %actor.wait(3)%
-  if !%actor.skill(сбить)%
-   msend %actor% Теперь вы владеете умением "сбить"!
-   mskillturn %actor.name% сбить set
-  else
-   msend %actor% Теперь вы гораздо лучше знаете как надо сбивать противников!
-   mskilladd %actor.name% сбить 10
-  end
-break
-case 12
-  say Знаю, что для купца важнее прибыли, только честь
-  say Да времена нынче такие, что и купцам приходиться 
-  say Не о деле думать, а в бою удаль проявлять
-  mecho Старейшина снял со стены превосходный метательный нож и вооружился им.
-  msend %actor% Старейшина стал показывать Вам как нужно метко метать оружие.
-  msend %actor% _Незаметным движением руки старейшина ловко метнул нож!
-  mechoaround %actor% _Незаметным движением руки старейшина ловко метнул нож!
-  if !%actor.skill(метнуть)%
-   msend %actor% Теперь вы владеете умением "метнуть"!
-   mskillturn %actor.name% метнуть set
-  else
-   msend %actor% Теперь вы гораздо лучше знаете как надо метать ножи!
-   mskilladd %actor.name% метнуть 10   
-  end
-break  
-case 13
-  say Знаю, что все вы, волхвы, себе на уме
-  say Лишний раз даже не хочется вам на глаза и попадаться. 
-  say Да вот знаю слово гадкое, что способно человеку все настроение испортить
-  mecho Старейшина хитро подмигнул и на секундц задумался
-  msend %actor% Старейшина прошептал Вам такую мерзость, что Вас аж передернуло.
-  mechoaround %actor% _Старейшина стал что-то нашептывать.
-  if !%actor.skill(сглазить)%
-   msend %actor% Теперь вы владеете умением "сглазить"!
-   mskillturn %actor.name% сглазить set
-  else
-   msend %actor% Теперь вы гораздо лучше знаете как сглазить человека!
-   mskilladd %actor.name% сглазить 10 
-end
-break
-done  
+  %questor622.setquest(62200)%
+  switch %actor.class%
+    case 0
+      say Нелегкое это дело - людей лечить. За труд твой благородный... 
+      say Прими в награду вот это!
+      mload obj 552
+      дат свиток %actor.name%
+    break
+    case 1
+      say Да я понимаю, что колдуны - это боевые маги, но
+      say Ломать это не строить, так что возьми-ка вот это
+      mload obj 578 
+      дать книг %actor.name%
+    break
+    case 2
+      say Воровством ты промышляешь.
+      emot смущенно закашлялся  
+      say Что ж, научу я тебя хитрости одной, для вора наиважнейшей.
+      msend %actor% Старейшина Имрах подробно описал Вам способы наилучшего удара со спины.
+      mechoaround %actor% Старейшина что-то долго и терпеливо растолковывал %actor.iname%.
+      if !%actor.skill(заколоть)%
+        msend %actor% Вы теперь поняли, как надо пользоваться умением "заколоть".
+        mskillturn %actor.name% заколоть set
+      else
+        msend %actor% Вы стали значительно опытнее в умении "заколоть".
+        mskilladd .%actor.name% заколоть 10
+      end
+    break
+    case 3
+      say Научу я тебя, как силушку свою с толком в дело пустить.
+      msend %actor% Старейшина подробно разъяснил Вам некоторые особенности богатырского удара.
+      mechoaround %actor% Старейшина принялся что-то разьяснять %actor.dname% для пущей    убедительности размахивая кулаками.
+      if !%actor.skill(богатырский молот)%
+        msend %actor% Теперь Вы владеете умением "богатырский молот"!
+        mskillturn %actor.name% богатырский.молот set
+      else
+        msend %actor% Теперь вы гораздо лучше умеете наносить богатырские удары!
+        mskilladd .%actor.name% богатырский.молот 10
+      end
+    break 
+    case 4
+      say Ясно мне, что наемник ты по крови, да и по духу.
+      msend %actor% Старейшина стал показывать как осторожно подобраться к жертве.
+      mechoaround %actor% Старейшина принялся что-то разьяснять %actor.dname% , осторожно подкрадываясь.
+      if !%actor.skill(осторожный стиль)%
+        msend %actor% Теперь Вы владеете умением "осторожный стиль"!
+        mskillturn %actor.name% осторожный.стиль set
+      else
+        msend %actor% Теперь Вы гораздо лучше умеете осторожно подкрадываться к жертве!
+        mskilladd .%actor.name% осторожный.стиль 10
+      end
+    break
+    case 5
+      say С первого взгляда дружинника в тебе видать.
+      say И я когда-то искал славы воинской, дела ратного...
+      emot призадумался
+      mecho Старейшина вытащил из сундука меч и принялся вертеть его вокруг себя, да так, что и не подойдешь к нему.
+      if !%actor.skill(веерная защита)%
+        msend %actor% Теперь Вы владеете умением "веерная защита"!
+        mskillturn %actor.name% веерная.защита set
+      else
+        msend %actor% Теперь Вы гораздо лучше умеете отражать удары!
+        mskilladd .%actor.name% веерная.защита 10
+      end
+    break
+    case 6
+      say Для кудесника есть у меня чудный дар
+      say Вот смотри - с этим ты будешь нужен в любой компании
+      mload obj 558
+      дать книг %actor.name%
+    break 
+    case 7
+      say Есть у волшебника Дар особый - видеть, то, что другим не видно
+      say И за дело твое доброе - обучу я тебя этому дару.
+      mecho Старейшина начал показывать в пустоту и многозначительно кивать.
+      if !%actor.skill(врата)%
+        msend %actor% Теперь Вы владеете умением "врата"!
+        mskillturn %actor.name% врата set
+      else
+        msend %actor% Теперь Вы гораздо лучше умеете открывать врата!
+        mskilladd .%actor.name% врата 10
+      end
+    break 
+    case 8
+      say Я так считаю... небудь на земле Зла, кто бы тогда Добро заметил?
+      say Ты чернокнижник, стало быть тебе пригодиться вот эта вещь...
+      mload obj 568
+      дать книг %actor.name%
+    break
+    case 9
+      say Когда-то и я искал славы воинской... Покажу я тебе, как следует удары наносить, чтоб не бестолку мечом-то тыкать...
+      mecho Старейшина вытащил из сундука меч и принялся вертеть его вокруг себя, нанося  внезапные удары и выпады.
+      if !%actor.skill(точный стиль)%
+        msend %actor% Теперь Вы владеете умением "точный стиль"!
+        mskillturn %actor.name% точный.стиль set
+      else
+        msend %actor% Теперь Вы гораздо лучше знаете все уязвимые места всевозможных противников!
+        mskilladd .%actor.name% точный.стиль 10
+      end
+    break
+    case 10
+      say Охотник ты, как я погляжу.
+      say Покажу я тебе, как быстрее из лука стрелять, дабы никто от стрел твоих уйти не смог.
+      msend %actor% Старейшина снял со стены колчан и стал демонстрировать Вам различные способы, коими можно удерживать в руке сразу несколько стрел, изготовленных к стрельбе.
+      mechoaround %actor% Старейшина снял со стены тул со стрелами и стал что-то обьяснять   %actor.name% хватая стрелу то так, то этак.                                               
+      if !%actor.skill(дополнительный выстрел)%
+        msend %actor% Теперь Вы владеете умением "дополнительный выстрел"!
+        mskillturn %actor.name% дополнительный.выстрел set
+      else 
+        msend %actor% Теперь Вы гораздо лучше знаете как стрелять быстро и точно!
+        mskilladd .%actor.name% дополнительный.выстрел 10
+      end
+    break 
+    case 11
+      say Вижу я, кузнец ты справный.
+      say Обучу я тебя, как в бою супротивника с ног сбивать следует, чтоб и голосу подать не мог...
+      mecho Старейшина снял со стены посеченный в битвах щит и надел его на руку.
+      msend %actor% Старейшина стал показывать Вам как нужно наносить удары щитом.
+      msend %actor% _Одним ударом старейшина сбил Вас с ног!
+      mechoaround %actor% _Одним ударом Старейшина завалил %actor.vname% на землю!
+      %actor.position(6)%
+      %actor.wait(3)%
+      if !%actor.skill(сбить)%
+        msend %actor% Теперь Вы владеете умением "сбить"!
+        mskillturn %actor.name% сбить set
+      else
+        msend %actor% Теперь Вы гораздо лучше знаете как надо сбивать противников!
+        mskilladd .%actor.name% сбить 10
+      end
+    break
+    case 12
+      say Знаю, что для купца важнее прибыли, только честь
+      say Да времена нынче такие, что и купцам приходиться 
+      say Не о деле думать, а в бою удаль проявлять
+      mecho Старейшина снял со стены превосходный метательный нож и вооружился им.
+      msend %actor% Старейшина стал показывать Вам как нужно метко метать оружие.
+      msend %actor% _Незаметным движением руки старейшина ловко метнул нож!
+      mechoaround %actor% _Незаметным движением руки старейшина ловко метнул нож!
+      if !%actor.skill(метнуть)%
+        msend %actor% Теперь Вы владеете умением "метнуть"!
+        mskillturn %actor.name% метнуть set
+      else
+        msend %actor% Теперь Вы гораздо лучше знаете как надо метать ножи!
+        mskilladd .%actor.name% метнуть 10   
+      end
+    break  
+    case 13
+      say Знаю, что все вы, волхвы, себе на уме
+      say Лишний раз даже не хочется вам на глаза и попадаться. 
+      say Да вот знаю слово гадкое, что способно человеку все настроение испортить
+      mecho Старейшина хитро подмигнул и на секундц задумался
+      msend %actor% Старейшина прошептал Вам такую мерзость, что Вас аж передернуло.
+      mechoaround %actor% _Старейшина стал что-то нашептывать.
+      if !%actor.skill(сглазить)%
+        msend %actor% Теперь Вы владеете умением "сглазить"!
+        mskillturn %actor.name% сглазить set
+      else
+        msend %actor% Теперь Вы гораздо лучше знаете как сглазить человека!
+        mskilladd .%actor.name% сглазить 10 
+      end
+    break
+  done  
 else
-say Нечем мне наградить тебя...
-say Нет у меня сокровищ - вот возьми немного кун.
-%actor.gold(+5000)%
-mecoaround %actor% Старейшина передал из рук в руки %actor.dname% набитый золотом пояс.
-msend %actor% Старейшина сунул Вам в руки набитый золотом пояс.
+  say Нечем мне наградить тебя...
+  say Нет у меня сокровищ - вот возьми немного кун.
+  %actor.gold(+5000)%
+  mecoaround %actor% Старейшина передал из рук в руки %actor.dname% набитый золотом пояс.
+  msend %actor% Старейшина сунул Вам в руки набитый золотом пояс.
 end
 detach 62230 %self.id%
 ~
@@ -926,10 +942,10 @@ detach 62230 %self.id%
 0 j 100
 ~
 if !(%object.vnum% == 62209)
-say Да ты, никак, смеешься надо мной?!
-emot грозно нахмурился
-drop %object.name%
-halt
+  say Да ты, никак, смеешься надо мной?!
+  emot грозно нахмурился
+  drop %object.name%
+  halt
 end
 wait 1
 say О, мой посох! Моя сила снова при мне!
@@ -952,10 +968,10 @@ detach 62231 %self.id%
 0 d 0
 да конечно хочу нет~
 if (%speech% == нет)
-say Что ж, прощай.
-mecho Чародей взвился в воздух и исчез.
-mpurge %self%          
-halt
+  say Что ж, прощай.
+  mecho Чародей взвился в воздух и исчез.
+  mpurge %self%          
+  halt
 end
 say Прекрасно!
 emot взмахнул своим волшебным посохом и могучий вихрь подхватьил Вас!
@@ -987,9 +1003,9 @@ wzoneecho 62279 &Y "KOMIT UT, TRU WARE!!!" - взревел Атли-конунг.&n
 0 d 0
 следуй пойдем пошли~
 if %actor.id% == %questor622.id% 
-say Спасибо тебе...
-wait 2
-follow %actor.name%
+  say Спасибо тебе...
+  wait 2
+  follow %actor.name%
 end
 ~
 #62236
@@ -997,7 +1013,7 @@ end
 2 g 100
 ~
 if (%actor.vnum% == 62255)   
-exec 62227 %world.mob(62255)%
+  exec 62227 %world.mob(62255)%
 end
 ~
 #62237
@@ -1005,8 +1021,8 @@ end
 2 c 0
 опустить перекинуть спустить~
 if !%arg.contains(сходн)%
-wsend %actor% _Что вы хотите опустить?
-halt
+  wsend %actor% _Что вы хотите опустить?
+  halt
 end                                            
 wsend %actor% Вы взяли сходню и опустили ее одним концом на берег.
 wechoaround %actor% _%actor.name% взял%actor.q% сходню и опустил ее одним концом на берег.
@@ -1014,17 +1030,17 @@ wecho _Теперь можно спокойно пройти.
 wpurge сходня
 wload obj 62239 
 if %self.vnum% == 62227
-wdoor 62227 e room 62221
-wdoor 62221 w room 62227
-exec 62238 %world.room(62221)%
+  wdoor 62227 e room 62221
+  wdoor 62221 w room 62227
+  exec 62238 %world.room(62221)%
 elseif %self.vnum% == 62248
-wdoor 62248 w room 62247
-wdoor 62247 e room 62248
-exec 62238 %world.room(62247)%
+  wdoor 62248 w room 62247
+  wdoor 62247 e room 62248
+  exec 62238 %world.room(62247)%
 else
-wdoor 62210 s room 62215
-wdoor 62215 n room 62210
-exec 62238 %world.room(62215)%
+  wdoor 62210 s room 62215
+  wdoor 62215 n room 62210
+  exec 62238 %world.room(62215)%
 end 
 detach 62237 %self.id%
 ~
@@ -1048,8 +1064,8 @@ follow викинг
 0 g 100
 ~
 if %actor.vnum% == 62255
-отступить
-kill %actor.name%
+  отступить
+  kill %actor.name%
 end
 ~
 #62241
@@ -1061,12 +1077,12 @@ end
 *end
 eval actorvnum %actor.vnum%-62200
 if (%actorvnum% == 55)
-return 1
-halt
+  return 1
+  halt
 end
 if ((%actorvnum% >= 0) && (%actorvnum% < 99))
-return 0
-halt
+  return 0
+  halt
 end
 ~
 #62242
@@ -1099,10 +1115,10 @@ wload mob 62261
 0 s 100
 ~
 foreach target %self.npc%
-if %target.vnum% == 62255
-отступить
-kill %target.name%
-end
+  if %target.vnum% == 62255
+    отступить
+    kill %target.name%
+  end
 done
 ~
 #62246
@@ -1110,38 +1126,38 @@ done
 0 k 30
 ~
 switch %self.realroom%
-case 62263
-flee n
-flee n
-break
-case 62261
-flee n
-flee n
-wait 2
-if (%self.realroom% == 62260)
-exec 62247 %world.room(62288)%
-mecho _Несколько урманских воев прибыло на зов караульного.
-mload mob 62262
-mload mob 62267
-mload mob 62264
-end
-break
-case 62264
-flee n
-flee n
-wait 2
-if (%self.realroom% == 62241)
-exec 62247 %world.room(62288)%
-mecho _Несколько урманских воев прибыло на зов караульного.
-mload mob 62263
-mload mob 62265
-mload mob 62266
-end
-break
-case 62265
-flee n
-flee n
-break
+  case 62263
+    flee n
+    flee n
+  break
+  case 62261
+    flee n
+    flee n
+    wait 2
+    if (%self.realroom% == 62260)
+      exec 62247 %world.room(62288)%
+      mecho _Несколько урманских воев прибыло на зов караульного.
+      mload mob 62262
+      mload mob 62267
+      mload mob 62264
+    end
+  break
+  case 62264
+    flee n
+    flee n
+    wait 2
+    if (%self.realroom% == 62241)
+      exec 62247 %world.room(62288)%
+      mecho _Несколько урманских воев прибыло на зов караульного.
+      mload mob 62263
+      mload mob 62265
+      mload mob 62266
+    end
+  break
+  case 62265
+    flee n
+    flee n
+  break
 done
 ~
 #62247
@@ -1149,5 +1165,30 @@ done
 2 z 0
 ~
 wzoneecho 62288 &R Караульный урманин завопил что есть мочи, созывая подмогу! &n
+~
+#62248
+На вход к пленному воину~
+0 q 100
+~
+wait 1
+mecho Воин пригнулся, готовясь кинуться на вас.
+wait 2
+mecho ...но внезапно остановился и прищурив отвыкшие от света глаза осмотрел вас с ног до головы.
+say Так ты не один из этих?
+emot махнул рукой в сторону выхода
+say Что же, благодарю за спасения.
+say Коли ты воин, могу тебя в благодарность научить паре ухваток.
+attach 62249 %self.id%
+detach 62248 %self.id%
+~
+#62249
+Воин уходит~
+0 q 100
+~
+wait 1
+emot посмотрел на Вас и что-то недовольно проворчал в усы
+mecho Воин поднялся, направился к выходу из трюма и исчез.
+wait 1
+mpurge %self%
 ~
 $~

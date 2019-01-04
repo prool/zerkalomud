@@ -28,6 +28,17 @@ Class: 104
 Height: 200
 Weight: 200
 Special_Bitvector: 0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
+Skill: 136 150
 E
 T 69200
 T 69201
@@ -40,7 +51,7 @@ T 69212
 темного чародея~
 темным чародеем~
 темном чародее~
-Человек в темных одеждах, со странным посохом в руках, склонился над огромной темной книгой.  
+Человек в темных одеждах, со странным посохом в руках, склонился над огромной темной книгой.
 ~
    Странный человек, одетый во все черное, на вид и не скажешь сколько ему 
 лет, видно без магии и тут не обошлось.
@@ -65,7 +76,7 @@ Weight: 100
 Special_Bitvector: b1c1C3 
 Skill: 5 50
 Skill: 22 40
-Skill: 136 100
+Skill: 136 135
 Skill: 141 100
 Skill: 142 100
 Skill: 143 100
@@ -269,6 +280,16 @@ Class: 104
 Height: 187
 Weight: 149
 Special_Bitvector: l0u0b1c1B3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 70
 Skill: 12 70
 Skill: 21 50
@@ -307,7 +328,7 @@ E
    Вот как выглядят люди после смерти...
 ~
 c0d0e0f0g0l0m0n0o0p0r0y0z0A0i2 b0d0k0m0r0x0A0z1 -600 E
-35 1 0 10d10+2190 11d10+11
+30 1 0 10d10+2190 11d10+11
 0d0+0 400000
 8 8 2
 Str: 28
@@ -372,7 +393,7 @@ E
 ожившего валуна~
 ожившим валуном~
 ожившем валуне~
-Оживший булыжник шатается туда - суда.
+Оживший булыжник шатается туда-сюда.
 ~
    Вот это да, камень, а живой!
 ~
@@ -394,6 +415,16 @@ Class: 104
 Height: 156
 Weight: 150
 Special_Bitvector: w0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 50
 Skill: 5 50
 Skill: 136 100
@@ -561,10 +592,20 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 50
 Skill: 22 80
 Skill: 132 50
-Skill: 136 100
+Skill: 136 120
 Skill: 141 100
 Skill: 142 100
 Skill: 143 100
@@ -619,10 +660,20 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 50
 Skill: 22 30
 Skill: 132 70
-Skill: 136 100
+Skill: 136 105
 Skill: 141 100
 Skill: 142 100
 Skill: 143 100
@@ -748,6 +799,16 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 50
 Skill: 132 50
 Skill: 136 100

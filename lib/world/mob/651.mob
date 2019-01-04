@@ -28,6 +28,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: n0 
 Skill: 133 100
+Skill: 136 60
 E
 I шерсть,15:15
 #65101
@@ -64,6 +65,7 @@ Special_Bitvector: B3
 Skill: 4 100
 Skill: 21 15
 Skill: 132 100
+Skill: 136 84
 Spell: 26
 Spell: 26
 Spell: 26
@@ -106,6 +108,7 @@ Special_Bitvector: y0a1
 Skill: 4 15
 Skill: 132 100
 Skill: 134 100
+Skill: 136 75
 Skill: 137 100
 Skill: 157 120
 Spell: 8

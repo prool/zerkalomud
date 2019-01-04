@@ -27,6 +27,7 @@ Class: 103
 Height: 40
 Weight: 10
 Special_Bitvector: a1 
+Skill: 136 9
 E
 #4401
 тетерев~
@@ -58,6 +59,7 @@ Class: 103
 Height: 40
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 12
 E
 #4402
 сова~
@@ -89,6 +91,7 @@ Class: 103
 Height: 40
 Weight: 10
 Special_Bitvector: l0 
+Skill: 136 12
 E
 #4403
 филин~
@@ -119,6 +122,7 @@ Class: 103
 Height: 40
 Weight: 10
 Special_Bitvector: l0 
+Skill: 136 15
 E
 #4404
 барсук~
@@ -150,7 +154,9 @@ Class: 103
 Height: 40
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 18
 E
+L 5517 75 0 0
 #4405
 косуля~
 косуля~
@@ -181,6 +187,7 @@ Class: 103
 Height: 100
 Weight: 40
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #4406
 изюбр пятнистый олень~
@@ -212,6 +219,7 @@ Class: 103
 Height: 110
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 27
 E
 #4407
 олень~
@@ -243,6 +251,7 @@ Class: 103
 Height: 100
 Weight: 40
 Special_Bitvector: 0 
+Skill: 136 21
 E
 #4408
 лиса рыжая плутовка~
@@ -274,6 +283,7 @@ Class: 103
 Height: 50
 Weight: 12
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #4409
 марал~
@@ -305,6 +315,7 @@ Class: 103
 Height: 95
 Weight: 40
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #4410
 росомаха~
@@ -336,6 +347,7 @@ Class: 103
 Height: 50
 Weight: 12
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #4411
 кабан~
@@ -368,8 +380,8 @@ Class: 103
 Height: 100
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 27
 E
-L 1492 14 0 0
 #4412
 лось~
 лось~
@@ -400,6 +412,7 @@ Class: 103
 Height: 180
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 27
 E
 #4413
 волк~
@@ -432,6 +445,7 @@ Class: 103
 Height: 100
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #4414
 зубр~
@@ -463,6 +477,7 @@ Class: 103
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #4415
 рысь кошка лесная~
@@ -497,6 +512,7 @@ Class: 103
 Height: 60
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 36
 E
 #4416
 медведь~
@@ -529,6 +545,7 @@ Class: 103
 Height: 150
 Weight: 120
 Special_Bitvector: 0 
+Skill: 136 39
 E
 #4417
 старик отшельник~
@@ -560,6 +577,7 @@ Class: 102
 Height: 140
 Weight: 70
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 4400
 #4418
@@ -591,6 +609,7 @@ Class: 102
 Height: 170
 Weight: 80
 Special_Bitvector: i0a1 
+Skill: 136 36
 E
 #4419
 разбойник ~
@@ -622,16 +641,17 @@ Class: 102
 Height: 180
 Weight: 80
 Special_Bitvector: 0 
+Skill: 136 39
 E
 #4420
-главарь атаман батька~
+главарь разбойников атаман батька~
 главарь разбойников~
 главаря разбойников~
 главарю разбойников~
 главаря разбойников~
 главарем разбойников~
 главаре разбойников~
-Главарь разбойников стоит здесь
+Главарь разбойников стоит здесь.
 ~
 Огромный одноглазый детина, за свою немерянную силу и крутой нрав выбранный
 главарем шайки.
@@ -655,6 +675,7 @@ Height: 200
 Weight: 50
 Special_Bitvector: 0 
 Helper: 4419
+Skill: 136 45
 E
 T 4403
 #4421
@@ -698,5 +719,6 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 87
 E
 $

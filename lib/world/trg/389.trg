@@ -3,19 +3,19 @@
 0 n 100
 ~
 if (%world.curobjs(38942)% < 10) && (%random.5% == 1)
-   mload obj 38942
+  mload obj 38942
 end
 if (%world.curobjs(38943)% < 10) && (%random.5% == 1)
-   mload obj 38943
+  mload obj 38943
 end
 if (%world.curobjs(38944)% < 10) && (%random.5% == 1)
-   mload obj 38944
+  mload obj 38944
 end
 if (%world.curobjs(38945)% < 5) && (%random.8% == 1)
-   mload obj 38945
+  mload obj 38945
 end
 if (%world.curobjs(38946)% < 5) && (%random.9% == 1)
-   mload obj 38946
+  mload obj 38946
 end
 од все
 воор грубый
@@ -26,16 +26,16 @@ end
 0 n 100
 ~
 if (%world.curobjs(38930)% < 10) && (%random.12% == 1)
-   mload obj 38930
+  mload obj 38930
 end
 if (%world.curobjs(38931)% < 10) && (%random.12% == 1)
-   mload obj 38931
+  mload obj 38931
 end
 if (%world.curobjs(38932)% < 10) && (%random.12% == 1)
-   mload obj 38932
+  mload obj 38932
 end
 if (%world.curobjs(38933)% < 10) && (%random.12% == 1)
-   mload obj 38933
+  mload obj 38933
 end
 од все
 воор меч
@@ -46,22 +46,22 @@ end
 0 n 100
 ~
 if (%world.curobjs(38937)% < 10) && (%random.5% == 1)
-   mload obj 38937
+  mload obj 38937
 end
 if (%world.curobjs(38950)% < 5) && (%random.5% == 1)
-   mload obj 38950
+  mload obj 38950
 end
 if (%world.curobjs(38939)% < 10) && (%random.5% == 1)
-   mload obj 38939
+  mload obj 38939
 end
 if (%world.curobjs(38940)% < 10) && (%random.5% == 1)
-   mload obj 38940
+  mload obj 38940
 end
 if (%world.curobjs(38941)% < 10) && (%random.5% == 1)
-   mload obj 38941
+  mload obj 38941
 end
 if (%world.curobjs(38951)% < 5) && (%random.5% == 1)
-   mload obj 38951
+  mload obj 38951
 end
 од все
 ~
@@ -70,22 +70,22 @@ end
 0 n 200
 ~
 if (%world.curobjs(38938)% < 10) && (%random.5% == 1)
-   mload obj 38938
+  mload obj 38938
 end
 if (%world.curobjs(38951)% < 5) && (%random.5% == 1)
-   mload obj 38951
+  mload obj 38951
 end
 if (%world.curobjs(38939)% < 10) && (%random.5% == 1)
-   mload obj 38939
+  mload obj 38939
 end
 if (%world.curobjs(38940)% < 10) && (%random.5% == 1)
-   mload obj 38940
+  mload obj 38940
 end
 if (%world.curobjs(38941)% < 10) && (%random.5% == 1)
-   mload obj 38941
+  mload obj 38941
 end
 if (%world.curobjs(38952)% < 5) && (%random.5% == 1)
-   mload obj 38952
+  mload obj 38952
 end
 од все
 end
@@ -95,25 +95,25 @@ end
 0 n 100
 ~
 if (%world.curobjs(38937)% < 10) && (%random.5% == 1)
-   mload obj 38937
+  mload obj 38937
 end
 if (%world.curobjs(38938)% < 10) && (%random.10% == 1)
-   mload obj 38938
+  mload obj 38938
 end
 if (%world.curobjs(38950)% < 5) && (%random.5% == 1)
-   mload obj 38950
+  mload obj 38950
 end
 if (%world.curobjs(38939)% < 10) && (%random.5% == 1)
-   mload obj 38939
+  mload obj 38939
 end
 if (%world.curobjs(38940)% < 10) && (%random.5% == 1)
-   mload obj 38940
+  mload obj 38940
 end
 if (%world.curobjs(38941)% < 10) && (%random.5% == 1)
-   mload obj 38941
+  mload obj 38941
 end
 if (%world.curobjs(38952)% < 5) && (%random.5% == 1)
-   mload obj 38952
+  mload obj 38952
 end
 од все
 ~
@@ -122,19 +122,19 @@ end
 0 n 100
 ~
 if (%world.curobjs(38934)% < 10) && (%random.5% == 1)
-   mload obj 38934
+  mload obj 38934
 end
 if (%world.curobjs(38935)% < 10) && (%random.5% == 1)
-   mload obj 38935
+  mload obj 38935
 end
 if (%world.curobjs(38936)% < 10) && (%random.5% == 1)
-   mload obj 38936
+  mload obj 38936
 end
 if (%world.curobjs(38949)% < 5) && (%random.5% == 1)
-   mload obj 38949
+  mload obj 38949
 end
 if (%world.curobjs(38953)% < 5) && (%random.5% == 1)
-   mload obj 38953
+  mload obj 38953
 end
 од все
 воор молот
@@ -144,10 +144,10 @@ end
 0 n 100
 ~
 if (%world.curobjs(38947)% < 5) && (%random.5% == 1)
-   mload obj 38947
+  mload obj 38947
 end
 if (%world.curobjs(38934)% < 10) && (%random.15% == 1)
-   mload obj 38934
+  mload obj 38934
 end
 од все
 воор дрын
@@ -158,7 +158,7 @@ end
 0 n 100
 ~
 if (%world.curobjs(38948)% < 5) && (%random3% == 1)
-   mload obj 38948
+  mload obj 38948
 end
 воор кол
 ~
@@ -167,7 +167,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(38906)% < 10) && (%random.3% == 1)
-   mload obj 38906
+  mload obj 38906
 end
 ~
 #38909
@@ -175,7 +175,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(38905)% < 10) && (%random.3% == 1)
-   mload obj 38905
+  mload obj 38905
 end
 ~
 #38910
@@ -183,7 +183,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(38907)% < 10) && (%random.2% == 1)
-   mload obj 38907
+  mload obj 38907
 end
 ~
 #38911
@@ -191,10 +191,10 @@ end
 0 f 100
 ~
 if (%world.curobjs(38908)% < 10) && (%random.2% == 1)
-   mload obj 38908
+  mload obj 38908
 end
 if (%world.curobjs(38910)% < 10) && (%random.2% == 1)
-   mload obj 38910
+  mload obj 38910
 end
 ~
 #38912
@@ -202,17 +202,18 @@ end
 0 f 100
 ~
 if (%world.curobjs(38909)% < 10) && (%random.5% == 1)
-   mload obj 38909
+  mload obj 38909
 end
 ~
 #38913
 помер карась~
 0 f 100
 ~
-if (%world.curobjs(38911)% < 10) && (%random.2% == 1)
+if ( %world.curobjs(38911)% < 10 ) && ( %random.100% <= 50 )
+  mload obj 38911
 end
-if (%world.curobjs(38912)% < 10) && (%random.2% == 1)
-   mload obj 38912
+if ( %world.curobjs(38912)% < 10 ) && ( %random.100% <= 50 )
+  mload obj 38912
 end
 ~
 #38914
@@ -220,13 +221,13 @@ end
 0 f 100
 ~
 if (%world.curobjs(38912)% < 10) && (%random.1% == 1)
-   mload obj 38912
+  mload obj 38912
 end
 if (%world.curobjs(38913)% < 10) && (%random.1% == 1)
-   mload obj 38913
+  mload obj 38913
 end
 if (%world.curobjs(38914)% < 10) && (%random.1% == 1)
-   mload obj 38914
+  mload obj 38914
 end
 ~
 #38915
@@ -234,10 +235,10 @@ end
 0 f 100
 ~
 if (%world.curobjs(38915)% < 10) && (%random.1% == 1)
-   mload obj 38915
+  mload obj 38915
 end
 if (%world.curobjs(38916)% < 10) && (%random.1% == 1)
-   mload obj 38916
+  mload obj 38916
 end
 ~
 #38916
@@ -245,13 +246,13 @@ end
 0 f 100
 ~
 if (%world.curobjs(38917)% < 10) && (%random.1% == 1)
-   mload obj 38917
+  mload obj 38917
 end
 if (%world.curobjs(38918)% < 10) && (%random.1% == 1)
-   mload obj 38918
+  mload obj 38918
 end
 if (%world.curobjs(38919)% < 10) && (%random.1% == 1)
-   mload obj 38919
+  mload obj 38919
 end
 ~
 #38917
@@ -259,10 +260,10 @@ end
 0 f 100
 ~
 if (%world.curobjs(38920)% < 10) && (%random.1% == 1)
-   mload obj 38920
+  mload obj 38920
 end
 if (%world.curobjs(38921)% < 10) && (%random.1% == 1)
-   mload obj 38921
+  mload obj 38921
 end
 ~
 #38918
@@ -270,7 +271,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(38922)% < 10) && (%random.1% == 1)
-   mload obj 38922
+  mload obj 38922
 end
 ~
 #38919
@@ -278,7 +279,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(38923)% < 10) && (%random.1% == 1)
-   mload obj 38923
+  mload obj 38923
 end
 ~
 #38920
@@ -286,10 +287,10 @@ end
 0 f 100
 ~
 if (%world.curobjs(38924)% < 10) && (%random.1% == 1)
-   mload obj 38924
+  mload obj 38924
 end
 if (%world.curobjs(38925)% < 10) && (%random.1% == 1)
-   mload obj 38925
+  mload obj 38925
 end
 ~
 #38921
@@ -297,7 +298,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(38926)% < 10) && (%random.1% == 1)
-   mload obj 38926
+  mload obj 38926
 end
 ~
 #38922
@@ -305,7 +306,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(38927)% < 10) && (%random.1% == 1)
-   mload obj 38927
+  mload obj 38927
 end
 ~
 #38923
@@ -315,7 +316,7 @@ end
 mecho Дикий крик вырвался из груди зверя и он упал безжизненно у Ваших ног.
 mload obj 38955
 if (%world.curobjs(38928)% < 10) && (%random.10% == 1)
-   mload obj 38928
+  mload obj 38928
 end
 ~
 #38924
@@ -323,7 +324,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(38929)% < 10) && (%random.1% == 1)
-   mload obj 38929
+  mload obj 38929
 end
 ~
 #38925
@@ -331,9 +332,9 @@ end
 2 g 100
 ~
 if %actor.vnum% == -1 then
-wload mob 38923
-calcuid sokol 38902 room
-detach 38925 %sokol.id%
+  wload mob 38923
+  calcuid sokol 38902 room
+  detach 38925 %sokol.id%
 end
 ~
 #38926
@@ -341,18 +342,18 @@ end
 2 g 100
 ~
 if %actor.vnum% == -1 then
-wload mob 38923
-calcuid sokol 38927 room
-detach 38926 %sokol.id%
+  wload mob 38923
+  calcuid sokol 38927 room
+  detach 38926 %sokol.id%
 end
 ~
 #38927
 старик рефрешер~
 0 c 0
-отдых отдыхать рест~
+отдых отдыхать~
 if !(%arg.contains%) 
-dg_cast 'fly' %actor.name%
-пока %actor.name%
+  dg_cast 'fly' %actor.name%
+  пока %actor.name%
 end
 ~
 #38928
@@ -360,8 +361,8 @@ end
 0 c 0
 лодка~
 if !(%arg.contains%)
-say Что "лодка"? Тебе нужна лодка? Тогда так прямо и скажи! 
-mecho Старик недовольно заворчал и начал жаловаться на старость.
+  say Что "лодка"? Тебе нужна лодка? Тогда так прямо и скажи! 
+  mecho Старик недовольно заворчал и начал жаловаться на старость.
 end
 ~
 #38929
@@ -369,9 +370,9 @@ end
 0 c 0
 нужна нада дай нуна~
 if !(%arg.contains(лодка)%) 
-   say Что?
-   return 0
-   halt
+  say Что?
+  return 0
+  halt
 end
 смеять %actor.name%
 say Лодки стоят денег! 200, 250 и 300 кун!
@@ -390,10 +391,10 @@ detach 38929 %self.id%
 ~
 wait 3s
 if %world.curmobs(38922)% < 1
-wecho Что-то заворочалось в темном углу - Вы невольно отшатнулись!
-wload mob 38922
-calcuid zverv 38941 room
-detach 38930 %zverv.id%
+  wecho Что-то заворочалось в темном углу - Вы невольно отшатнулись!
+  wload mob 38922
+  calcuid zverv 38941 room
+  detach 38930 %zverv.id%
 end
 ~
 #38931
@@ -403,13 +404,13 @@ end
 if %object.vnum% == 38955 then
   say Спасибо. Выручил%actor.g%!
   wait 2s
-  mecho Старик взял почти доделаную лодку и парой движений топора привел ее в порядок.
+  mecho Старик взял почти доделанную лодку и парой движений топора привел ее в порядок.
   mload obj 38903
   wait 2s
   дать лодочка %actor.name%
   calcuid var 38955 obj
   mpurge %var.name%
-  else
+else
   say  Зачем мне это? 
   eval getobject %object.name%
   брос %getobject.car%.%getobject.cdr%
@@ -433,7 +434,7 @@ else
     mload obj 38901
     дат лод %actor.name%
   else
-     if %amount% < 300 then
+    if %amount% < 300 then
       wait 1s
       say - Сделаем, одну минуточку.
       wait 1s
@@ -468,7 +469,7 @@ if %object.vnum% == 38912 then
   calcuid starik 38932 mob
   attach 38934 %starik.id%
   detach 38933 %starik.id%
-  else
+else
   if %object.vnum% == 38917 then
     say Из этого пожалуй можно что-нибудь сделать!
     mecho Старик начал вертеть в руках чешуйку сома, внимательно осматривая.
@@ -477,7 +478,7 @@ if %object.vnum% == 38912 then
     calcuid starik 38932 mob
     attach 38935 %starik.id%
     detach 38933 %starik.id%
-    else
+  else
     if %object.vnum% == 38928 then
       say Из этого пожалуй можно что-нибудь сделать!
       mecho Старик начал вертеть в руках шкуру, внимательно осматривая.
@@ -486,12 +487,12 @@ if %object.vnum% == 38912 then
       calcuid starik 38932 mob
       attach 38936 %starik.id%
       detach 38933 %starik.id%
-      else
+    else
       calcuid starik 38932 mob
       run 38931 %starik.id%
-      end
     end
   end
+end
 end
 ~
 #38934
@@ -507,7 +508,7 @@ if %object.vnum% == 38917 then
   calcuid starik 38932 mob
   attach 38940 %starik.id%
   detach 38934 %starik.id% 
-  else
+else
   if %object.vnum% == 38928 then
     say Не хватает еще чего-то!
     mecho Старик начал вертеть в руках шкуру зверя, внимательно осматривая.
@@ -516,9 +517,9 @@ if %object.vnum% == 38917 then
     calcuid starik 38932 mob
     attach 38941 %starik.id%
     detach 38934 %starik.id%
-    else
-      calcuid starik 38932 mob
-      run 38931 %starik.id%
+  else
+    calcuid starik 38932 mob
+    run 38931 %starik.id%
   end
 end
 ~
@@ -535,7 +536,7 @@ if %object.vnum% == 38912 then
   calcuid starik 38932 mob
   attach 38942 %starik.id%
   detach 38935 %starik.id%
-  else
+else
   if %object.vnum% == 38928 then
     say Не хватает еще чего-то!
     mecho Старик начал вертеть в руках шкуру зверя, внимательно осматривая.
@@ -544,9 +545,9 @@ if %object.vnum% == 38912 then
     calcuid starik 38932 mob
     attach 38943 %starik.id%
     detach 38935 %starik.id%
-    else
-     calcuid starik 38932 mob
-     run 38931 %starik.id%
+  else
+    calcuid starik 38932 mob
+    run 38931 %starik.id%
   end
 end
 ~
@@ -563,7 +564,7 @@ if %object.vnum% == 38912 then
   calcuid starik 38932 mob
   attach 38944 %starik.id%
   detach 38936 %starik.id%
-  else
+else
   if %object.vnum% == 38917 then
     say Не хватает еще чего-то!
     mecho Старик начал вертеть в руках чешуйку сома, внимательно осматривая.
@@ -572,9 +573,9 @@ if %object.vnum% == 38912 then
     calcuid starik 38932 mob
     attach 38945 %starik.id%
     detach 38936 %starik.id%
-    else
-      calcuid starik 38932 mob
-      run 38931 %starik.id%
+  else
+    calcuid starik 38932 mob
+    run 38931 %starik.id%
   end
 end
 ~
@@ -591,9 +592,9 @@ end
 0 c 0
 осм осмо осмот осмотр осмотре осмотреть~
 if (%arg.contains(к ку куп купе купец тру трус трусл трусли труслив трусливы трусливый)%) 
-   say Что?
-   return 0
-   halt
+  say Что?
+  return 0
+  halt
 end
 say А у меня ничего нету... Я бедный... совсем...
 mecho Трусливый купец спрятал кошелек за спину.
@@ -607,14 +608,14 @@ detach 38939 %star.id%
 0 g 100
 ~
 if %actor.vnum% == -1 then
-if %exist.mob(38935)% == 1 then
-wait 1s
-say Да не печалься ты! Все будет хорошо!
-утеш труслив
-calcuid kup 38935 mob
-attach 38946 %kup.id%
-run 38946 %kup.id%
-end
+  if %exist.mob(38935)% == 1 then
+    wait 1s
+    say Да не печалься ты! Все будет хорошо!
+    утеш труслив
+    calcuid kup 38935 mob
+    attach 38946 %kup.id%
+    run 38946 %kup.id%
+  end
 end
 ~
 #38940
@@ -756,9 +757,9 @@ end
 wait 1s
 say Ну ты можешь найти другого провожатого.
 if %exist.mob(38935)%
-calcuid kup 38935 mob
-attach 38948 %kup.id%
-run 38948 %kup.id%
+  calcuid kup 38935 mob
+  attach 38948 %kup.id%
+  run 38948 %kup.id%
 end
 end
 ~
@@ -767,7 +768,7 @@ end
 0 z 100
 ~
 wait 1s
-say Да гдеж я его теперь-то найду?
+say Да где ж я его теперь-то найду?
 гру
 calcuid star 38900 mob
 attach 38949 %star.id%
@@ -804,18 +805,18 @@ end
 0 d 0
 помогу провожу~
 if !(%arg.contains%) 
-wait 1s
-say Ну ладно, мне нужно за мост, там меня встретят, я надеюсь. 
-say Там я тебе и заплачу.
-след %actor.name%
-set questplr %actor.name%
-worlds questplr
-calcuid star 38900 mob
-detach 38939 %star.id%
-calcuid kup 38935 mob
-detach 38938 %kup.id% 
-calcuid kup 38935 mob
-detach 38951 %kup.id% 
+  wait 1s
+  say Ну ладно, мне нужно за мост, там меня встретят, я надеюсь. 
+  say Там я тебе и заплачу.
+  след %actor.name%
+  set questplr %actor.name%
+  worlds questplr
+  calcuid star 38900 mob
+  detach 38939 %star.id%
+  calcuid kup 38935 mob
+  detach 38938 %kup.id% 
+  calcuid kup 38935 mob
+  detach 38951 %kup.id% 
 end
 ~
 #38952
@@ -828,9 +829,9 @@ switch %myvar%
     global myvar 
   break
   case 2
-  calcuid bog 38993 room
-  attach 38956  %bog.id%
-  run 38956 %bog.id%
+    calcuid bog 38993 room
+    attach 38956  %bog.id%
+    run 38956 %bog.id%
   break
   default 
     set myvar 1
@@ -843,11 +844,11 @@ done
 2 g 100
 ~
 if %actor.vnum% == 38935 then
-calcuid rasb 38980 room
-attach 38957 %rasb.id%
-exec 38957 %rasb.id%
-calcuid rans 38923 room
-detach 38953 %rans.id%
+  calcuid rasb 38980 room
+  attach 38957 %rasb.id%
+  exec 38957 %rasb.id%
+  calcuid rans 38923 room
+  detach 38953 %rans.id%
 end
 ~
 #38954
@@ -855,8 +856,8 @@ end
 0 h 100
 ~
 if %actor.vnum% == 38935 then
-закол трусл
-mkill трус
+  закол трусл
+  mkill трус
 end
 ~
 #38955
@@ -864,8 +865,8 @@ end
 0 h 100
 ~
 if %actor.vnum% == 38935 then
-eval name %room.people%
-убить %name.name%
+  eval name %room.people%
+  убить %name.name%
 end
 ~
 #38956
@@ -873,12 +874,12 @@ end
 2 g 100
 ~
 if %actor.vnum% == 38935 then
-wload mob 38939
-calcuid kup 38935 mob
-attach 38958 %kup.id%
-exec 38958 %kup.id%
-calcuid bog 38993 room
-detach 38956 %bog.id%
+  wload mob 38939
+  calcuid kup 38935 mob
+  attach 38958 %kup.id%
+  exec 38958 %kup.id%
+  calcuid bog 38993 room
+  detach 38956 %bog.id%
 end
 ~
 #38957
@@ -927,10 +928,10 @@ run 38961 %bog.id%
 ~
 wait 1s
 см %questplr%
-msend  %questplr% Вы невольно уклонились, когда Кусыня замахнулся на Вас!!!
-mechoaround %questplr% %questplr% отшатнулся, когда Кусыня замахнулся на него!!! 
+msend  %questplr% Вы невольно уклонились, когда Кусыня замахнулся на Вас!
+mechoaround %questplr% %questplr% отшатнул%questplr.u%, когда Кусыня замахнулся кулаком.
 wait 1s
-mdamadge %questplr% == 100
+mdamage %questplr% 100
 calcuid kup 38935 mob
 attach 38962 %kup.id%
 run 38962 %kup.id%
@@ -988,18 +989,18 @@ end
 2 f 100
 ~
 if %world.curmobs% (38935) == 0 then
-calcuid kup 39001 room
-attach 38937 %kup.id%
-calcuid sokol 38902 room
-attach 38925 %sokol.id%
-calcuid sokoll 38927 room
-attach 38926 %sokoll.id%
-calcuid bog 38993 room
-attact 38956 %bog.id%
-calcuid ras 38923 room
-attach 38953 %ras.id%
-calcuid kup 38935 mob
-attach 38951 %kup.id% 
+  calcuid kup 39001 room
+  attach 38937 %kup.id%
+  calcuid sokol 38902 room
+  attach 38925 %sokol.id%
+  calcuid sokoll 38927 room
+  attach 38926 %sokoll.id%
+  calcuid bog 38993 room
+  attact 38956 %bog.id%
+  calcuid ras 38923 room
+  attach 38953 %ras.id%
+  calcuid kup 38935 mob
+  attach 38951 %kup.id% 
 end
 calcuid zverv 38941 room
 detach 38930 %zverv.id%

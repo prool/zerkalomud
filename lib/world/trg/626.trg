@@ -3,11 +3,11 @@
 1 c 1
 нажать~
 if (%actor.vnum% != -1)
-halt
+  halt
 end
 if !%arg.contains(светильник)% 
-wsend %actor% _Что вы хотите нажать?
-halt
+  wsend %actor% _Что вы хотите нажать?
+  halt
 end
 wsend %actor% _Вы аккуратно надавили на светильник.
 wechoaround %actor% _~~%actor.name% аккуратно надавил%actor.g% на медный светильник.
@@ -20,14 +20,14 @@ detach 62601 %world.room(62603)%
 2 e 100
 ~
 *Если в предыдущей комнате не отрубить ловушку, то:
-wait 1
+wait 2
 %actor.wait(2)%
 wecho _Как только вы вошли в комнату из-за ковров вырвался рой арбалетных стрел.
 wecho _Вы попытались увернуться...
 wecho _...но в таком ограниченном пространстве большая часть стрел все же достигла цели.
 wecho &R Несколько стрел вонзилось в ваше тело! &n                                       
-foreach victim %self.all%
-wdamage %victim% 200
+foreach victim %self.char%
+  wdamage %victim% 200
 done
 ~
 #62602
@@ -40,37 +40,32 @@ say А впрочем, мне все равно, давай показывай что принес.
 ~
 #62603
 метнуть~
-2 b 15
+2 b 20
 ~
 if !%self.npc%
-halt                             
+  halt
 end
-eval damage %random.100%+50
-eval victim %random.pc% 
-if !%victim%
-halt
+eval dmg %random.100%+50
+set target %random.pc% 
+if !%target%
+  halt
 end
-if (%victim.hitp% > %damage%)
-wdamage %victim% %damage%
-else
-eval damage2 %victim.hitp%+9
-wdamage %victim% %damage2%
-end
-wsend %victim% _Неожиданно вам в плечо вонзился метательный нож!
-wechoaround %victim% _Неожиданно в плечо %victim.rname% вонзился метательный нож!
-wecho _Нечего стоять перед мишенью. 
-wsend %victim% _Ай как БОЛЬНО! 
+wsend %target%  Неожиданно вам в плечо вонзился метательный нож!
+wechoaround %target%  Неожиданно в плечо %target.rname% вонзился метательный нож!
+wecho Нечего стоять перед мишенью. 
+wsend %target%  Ай как БОЛЬНО! 
+wdamage %target% %dmg%
 ~
 #62604
 картина~
 2 c 1
 нажать~
 if (%actor.vnum% != -1)
-halt
+  halt
 end
 if !%arg.contains(завитушк)% 
-wsend %actor% _Что вы хотите нажать?
-halt
+  wsend %actor% _Что вы хотите нажать?
+  halt
 end
 wsend %actor% _Вы надавили пальцами на одну из завитушек.
 wechoaround %actor.name% _%actor.name% надавил%actor.g% пальцами на одну из завитушек на раме картины.
@@ -85,12 +80,12 @@ wdoor 62607 w purge
 0 r 100
 ~
 wait 1s
-say Эй, ты вроде не из наших! Как ты сюда попал?! Прощайся с жизнью смерд!
+say Эй, ты вроде не из наших! Как ты сюда попал?! Прощайся с жизнью, смерд!
 рыч 
 wait 2s
 дум
 say Мммм... А впрочем не буду пока тебя убивать.
-say Раз ты смог%actor.q% меня добраться, то пожалуй сгодишься мне для одного дела.
+say Раз ты смог%actor.q% меня добраться, то, пожалуй, сгодишься мне для одного дела.
 wait 2
 say Итак, что ты выбираешь - смерть или службу?
 ~
@@ -99,15 +94,15 @@ say Итак, что ты выбираешь - смерть или службу?
 1 c 2
 соединить~
 if (%actor.vnum% != -1)
-halt
+  halt
 end
 if !%arg.contains(обломки)%
-osend %actor% _Что вы хотите соединить?
-halt
+  osend %actor% _Что вы хотите соединить?
+  halt
 end 
 if (%actor.realroom% != 62654)
-osend %actor% _Вы соединили обломки пентаграммы... Но ничего не произошло!
-halt
+  osend %actor% _Вы соединили обломки пентаграммы... Но ничего не произошло!
+  halt
 end
 osend %actor% _Вы положили обломки пентаграммы на постамент и соединили их. 
 oechoaround %actor% _%actor.name% положил обломки пентаграммы на постамент и соединил%actor.g% их.
@@ -144,9 +139,9 @@ opurge обломки
 2 c 2
 обыскать~
 if !%arg.contains(останки)%
-wsend %actor% _Вы начали судорожно обыскивать свои карманы - вдруг что пропало?
-wechoaround %actor% _%actor.name% начал%actor.g% судорожно шарить по карманам.
-halt
+  wsend %actor% _Вы начали судорожно обыскивать свои карманы - вдруг что пропало?
+  wechoaround %actor% _%actor.name% начал%actor.g% судорожно шарить по карманам.
+  halt
 end
 wsend %actor% _Вы начали ворошить останки тюремщика своим сапогом. 
 wechoaround %actor% _%actor.name% начал%actor.g% ворошить останки тюремщика своим сапогом.
@@ -207,41 +202,44 @@ attach 62614 %guard.id
 0 d 1
 смерть службу~
 if (%actor.vnum% != -1)
-halt
+  halt
 end
 wait 1
 switch %speech%
-case службу
-detach 62605 %self.id%  
-eval questor626 %actor.id%
-say Правильный выбор!
-mecho - Слушай меня внимательно.
-mecho - Мои колдуны перемудрили с заклинаниями и создали зверюгу, которая оказалась сильнее их.
-mecho - Зверь перебил охрану и бродит где-то в тюремных подземельях.
-mecho - Ну а колдуны остались заперты в своих лабораториях, куда без специального магического предмета никто войти не может.
-mecho - Я не могу отвлечься от дел гильдии и решить эту проблему.
-mecho - Коли сумеешь мне помочь - я пожалуй сохраню твою никчемную жизнь и даже вознагражу.
-mload obj 62619
-wait 1s
-give ключ %actor.name%
-say Вот тебе ключ - убей зверя и освободи моих магов!
-break
-case смерть
-say Что ж, ты сам%actor.g% выбрал%actor.g%!
-exec 62616 %world.room(62652)%
-stand
-kill %actor.name%
-foreach helpervnum 62617 62618 62619 62621 62622
-unset helper
-calcuid helper %helpervnum% mob
-if (%helper% && (%helper.position% != 7))
-mteleport %helper% 62652
-mecho _%helper.name% прибыл на зов главы гильдии.
-mforce %helper.name% kill %actor.name%
-end
-done
-detach 62610 %self.id%
-break
+  case службу
+    if %world.curobjs(62619)% >= 1
+      halt
+    end
+    detach 62605 %self.id%  
+    eval questor626 %actor.id%
+    say Правильный выбор!
+    mecho - Слушай меня внимательно.
+    mecho - Мои колдуны перемудрили с заклинаниями и создали зверюгу, которая оказалась сильнее их.
+    mecho - Зверь перебил охрану и бродит где-то в тюремных подземельях.
+    mecho - Ну а колдуны остались заперты в своих лабораториях, куда без специального магического предмета никто войти не может.
+    mecho - Я не могу отвлечься от дел гильдии и решить эту проблему.
+    mecho - Коли сумеешь мне помочь - я, пожалуй, сохраню твою никчемную жизнь и даже вознагражу.
+    mload obj 62619
+    wait 1s
+    give ключ %actor.name%
+    say Вот тебе ключ - убей зверя и освободи моих магов!
+  break
+  case смерть
+    say Что ж, ты сам%actor.g% выбрал%actor.g%!
+    exec 62616 %world.room(62652)%
+    stand
+    kill %actor.name%
+    foreach helpervnum 62617 62618 62619 62621 62622
+      unset helper
+      calcuid helper %helpervnum% mob
+      if (%helper% && (%helper.position% != 7))
+        mteleport %helper% 62652
+        mecho _%helper.name% прибыл на зов главы гильдии.
+        mforce %helper.name% kill %actor.name%
+      end
+    done
+    detach 62610 %self.id%
+  break
 done  
 ~
 #62611
@@ -249,46 +247,46 @@ done
 0 d 0
 готово сделано выполнено~
 if (%quest% != ok)
-say Со зверем-то ты справил%actor.u%, молодец... 
-say Но надо ж еще и магов из их подземелий выпустить
-say Я в энтой магической дребедени ничего не знаю и знать не желаю.
-say Иди-ка сам голову поломай.
-halt
+  say Со зверем-то ты справил%actor.u%, молодец... 
+  say Но надо ж еще и магов из их подземелий выпустить
+  say Я в энтой магической дребедени ничего не знаю и знать не желаю.
+  say Иди-ка сам голову поломай.
+  halt
 end  
 *тут награда за квест
-say Хм.. ну, награду ты заслужил!
+say Хм.. ну, награду ты заслужил%actor.g%!
 wait 1s
 say Уж какую ни есть.
 ухм
 wait 1s 
 if     (%actor.class% == 0)
-   mspellturn %actor.name% полная.слепота set
+  mspellturn %actor.name% полная.слепота set
 elseif (%actor.class% == 1)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 elseif (%actor.class% == 2)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 elseif (%actor.class% == 3)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 elseif (%actor.class% == 4)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 elseif (%actor.class% == 5)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 elseif (%actor.class% == 6)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 elseif (%actor.class% == 7)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 elseif (%actor.class% == 8)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 elseif (%actor.class% == 9)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 elseif (%actor.class% == 10)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 elseif (%actor.class% == 11)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 elseif (%actor.class% == 12)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 elseif (%actor.class% == 13)
-   mskillturn %actor.name% лидерство set
+  mskillturn %actor.name% лидерство set
 end
 say Ну вот и все, а теперь - проваливай! 
 detach 62611 %self.id%
@@ -305,8 +303,8 @@ emot посмотрел на Вас и тяжело вздохнул
 0 c 1
 утешить~
 if !%arg.contains(стражник)%
-return 0
-halt
+  return 0
+  halt
 end
 вздох 
 wait 1s
@@ -323,10 +321,10 @@ say Если до завтра не поймаю их главаря плакала моя головушка.
 ~
 wait 1
 if %object.vnum% != 62627
-say И так дела хуже и некуда, так еще издеваются!
-drop %object.name%
-брысь %actor.name%
-halt
+  say И так дела хуже и некуда, так еще издеваются!
+  drop %object.name%
+  брысь %actor.name%
+  halt
 end
 say Ты нашел логово этого ворья!
 mecho - Да еще и самого Ваньку-Каина убил!
@@ -334,36 +332,36 @@ mecho - Да еще и самого Ваньку-Каина убил!
 say Ты заслужил награду...
 mecho - Вот, прими это. 
 switch %random.4%
-case 1
-if (%world.curobjs(62628)% < 10)
-mload obj 62628
-give гривн %actor.name%
-break
-end
-mload obj 62632 
-give грамот %actor.name%
+  case 1
+    if (%world.curobjs(62628)% < 10)
+      mload obj 62628
+      give гривн %actor.name%
+    break
+  end
+  mload obj 62632 
+  give грамот %actor.name%
 break 
 case 2
-if (%world.curobjs(62629)% < 10)
-mload obj 62629
-give гривн %actor.name%
-break
+  if (%world.curobjs(62629)% < 10)
+    mload obj 62629
+    give гривн %actor.name%
+  break
 end
 mload obj 62632 
 give грамот %actor.name%
 break
 case 3
-if (%world.curobjs(62630)% < 10)
-mload obj 62630
-give гривн %actor.name%
-break
+  if (%world.curobjs(62630)% < 10)
+    mload obj 62630
+    give гривн %actor.name%
+  break
 end
 mload obj 62632 
 give грамот %actor.name%
 break 
 case 4
-mload obj 62631
-give кошель %actor.name%
+  mload obj 62631
+  give кошель %actor.name%
 break
 default
 done
@@ -378,11 +376,6 @@ detach 62613 %self.id%
 0 f 100
 ~
 mload obj 62627
-if %random.100% < 3
-if %world.curobjs(1239)% < 1
-mload obj 1239
-end
-end
 ~
 #62616
 орет глава~
@@ -395,23 +388,23 @@ wzoneecho 62652 &Y "Ко мне, мои люди!!!" - заорал Ванька-Каин. &n
 2 c 0
 лезть залезть ~
 if (%self.vnum% == 62613)
-if !%arg.contains(бочк)%
-wsend %actor% _Куды лезем?
-halt
-end
-wsend %actor% _Вы перелезли через край бочки и бултыхнулись в воду.
-wechoaround %actor% _~~%actor.name% с пыхтением перелез%actor.q% через край бочки и плюхнул%actor.u% в воду.
-wteleport %actor% 62602
-wechoaround %actor% _~~%actor.name% залез%actor.q% в бочку.
+  if !%arg.contains(бочк)%
+    wsend %actor% _Куды лезем?
+    halt
+  end
+  wsend %actor% _Вы перелезли через край бочки и бултыхнулись в воду.
+  wechoaround %actor% _~~%actor.name% с пыхтением перелез%actor.q% через край бочки и плюхнул%actor.u% в воду.
+  wteleport %actor% 62602
+  wechoaround %actor% _~~%actor.name% залез%actor.q% в бочку.
 else
-if !%arg.contains(наружу)%
-wsend %actor% _Куды лезем?
-halt
-end
-wsend %actor% _Вы перелезли через край бочки и спрыгнули на пол.
-wechoaround %actor% _~~%actor.name% вылез%actor.q% из бочки.
-wteleport %actor% 62613 
-wechoaround %actor% _~~%actor.name% вылез%actor.q% из бочки.
+  if !%arg.contains(наружу)%
+    wsend %actor% _Куды лезем?
+    halt
+  end
+  wsend %actor% _Вы перелезли через край бочки и спрыгнули на пол.
+  wechoaround %actor% _~~%actor.name% вылез%actor.q% из бочки.
+  wteleport %actor% 62613 
+  wechoaround %actor% _~~%actor.name% вылез%actor.q% из бочки.
 end 
 ~
 #62618
@@ -419,29 +412,29 @@ end
 2 c 0
 лезть залезть~
 if !%arg.contains(веревк)%
-wsend %actor% _Куда вы хотите залезть?
-halt
+  wsend %actor% _Куда вы хотите залезть?
+  halt
 end 
 if (!%arg.contains(первой)% && !%arg.contains(второй)% && !%arg.contains(третьей)%)
-wsend %actor% _По какой веревке лезть желаете? Их тут ажно целых три!
-halt
+  wsend %actor% _По какой веревке лезть желаете? Их тут ажно целых три!
+  halt
 end
 if ( %arg.contains(первой)% || %arg.contains(третьей)%)
-wsend %actor% _Вы ухватились за веревку и полезли наверх.
-wechoaround %actor% _~~%actor.name% полез%actor.q% вверх по веревке.
-wsend %actor% _Внезапно веревка оборвалась.
-wechoaround %actor% _Веревка оборвалась и ~~%actor.name% рухнулactor.q% на землю.
-eval damage %actor.hitp%/3
-wdamage %actor% %damage%
-wsend %actor% _Вы БОЛЬНО ушиблись
-wecho _Тотчас же наверху послышался шорох и вниз спустилась новая веревка.     
+  wsend %actor% _Вы ухватились за веревку и полезли наверх.
+  wechoaround %actor% _~~%actor.name% полез%actor.q% вверх по веревке.
+  wsend %actor% _Внезапно веревка оборвалась.
+  wechoaround %actor%  Веревка оборвалась и  %actor.name% рухнул%actor.q% на землю.
+  eval damage %actor.hitp%/3
+  wdamage %actor% %damage%
+  wsend %actor% _Вы БОЛЬНО ушиблись
+  wecho _Тотчас же наверху послышался шорох и вниз спустилась новая веревка.     
 end 
 if %arg.contains(второй)% 
-wsend %actor% _Вы ухватились за вторую веревку и полезли наверх.
-wechoaround %actor% _~~%actor.name% полез вверх по веревке.
-wteleport %actor% 62679
-wecho _~~%actor.name% скрыл%actor.u% где-то в темноте под потолком.
-wechoaround %actor% __~~%actor.name% залез сюда по веревке.
+  wsend %actor% _Вы ухватились за вторую веревку и полезли наверх.
+  wechoaround %actor%   %actor.name% полез%actor.q% вверх по веревке.
+  wteleport %actor% 62679
+  wecho %actor.name% скрыл%actor.u% где-то в темноте под потолком.
+  wechoaround %actor%    %actor.name% залез%actor.q% сюда по веревке.
 end
 ~
 #62619
@@ -472,53 +465,53 @@ mechoaround %victim% _~~%victim.name% вывалил%victim.u% откуда-то из-под потолка
 ~
 wait 1
 switch %object.vnum%
-case 62643
-emot хмуро посмотрел на вас
-stand
-вздох
-mecho _Кузнец расплавил свинец в тигле и залил расплавленный металл в форму.
-wait 1s
-mecho _Кузнец вынул свинцовый шарик из формы и кинул в воду - охладится.
-wait 2s
-mload obj 62652 
-give шарик %actor.name%
-mpurge %object%
-break
-case 62642
-хму
-say Все вам ножи да кинжалы!
-say Воры, душегубы проклятые!
-stand
-emot сунул нож в горн          
-wait 1s
-emot бросил раскаленный нож на наковальню и принялся плющить и перековывать его молотом
-emot сунул готовый кинжал в бадейку с маслом - для закала
-rest 
-if ((%random.100% < 90) (%world.curobj(62649)% < 25))
-mload obj 62649
-emot начал точить и полировать кинжал
-wait 2s
-emot закончил работу и принялся довольно разглядывать творение своих рук
-улы
-give длинный.кинжал %actor.name%
-say Вот! Кто лучше может - пущай в меня первый камень кинет!
-say А впрочем - сходи к оружейнику. может он еще чего присоветует.
-emot неожиданно вспомнил для каких таких дел вам потребна его работа
-морщ
-say Ну все - получил%actor.g%, чего хотел%actor.g%? Теперь проваливай!
-тоска
-else                        
-emot принялся разглядывать безнадежно испорченный нож
-руг
-say Не получится их этого ничего путного!
-emot бросил испорченный нож в груду мусора
-end
-mpurge %object%
-break
-default
-say _Мне это не нужно, положь где росло.
-give %object.name% %actor.name%
-done
+  case 62643
+    mpurge %object%
+    emot хмуро посмотрел на вас
+    stand
+    вздох
+    mecho Кузнец расплавил свинец в тигле и залил расплавленный металл в форму.
+    wait 1s
+    mecho Кузнец вынул свинцовый шарик из формы и кинул в воду - охладиться.
+    wait 2s
+    mload obj 62652 
+    give шарик %actor.name%
+  break
+  case 62642
+    mpurge %object%
+    хму
+    say Все вам ножи да кинжалы!
+    say Воры, душегубы проклятые!
+    stand
+    emot сунул нож в горн          
+    wait 1s
+    emot бросил раскаленный нож на наковальню и принялся плющить и перековывать его молотом
+    emot сунул готовый кинжал в бадейку с маслом - для закала
+    rest
+    if ((%random.100% < 90) && (%world.curobj(62649)% < 25))
+      mload obj 62649
+      emot начал точить и полировать кинжал
+      wait 2s
+      emot закончил работу и принялся довольно разглядывать творение своих рук
+      улы
+      give длинный.кинжал %actor.name%
+      say Вот! Кто лучше может - пущай в меня первый камень кинет!
+      say А впрочем - сходи к оружейнику, может, он еще чего присоветует.
+      emot неожиданно вспомнил, для каких дел вам потребна его работа
+      морщ
+      say Ну все - получил%actor.g%, чего хотел%actor.g%? Теперь проваливай!
+      тоска
+    else
+      emot принялся разглядывать безнадежно испорченный нож
+      руг
+      say Не получится из этого ничего путного!
+      emot бросил испорченный нож в груду мусора
+    end
+  break
+  default
+    say Мне это не нужно, положь где росло.
+    give %object.name% %actor.name%
+  done
 ~
 #62622
 вход к отравителю~
@@ -559,50 +552,50 @@ say После такой отравы точно никто не выживет!
 ~
 wait 1
 switch %object.vnum%
-case 62645
-say Агась... как раз травушка подойдет! 
-emot бросил %object.vname% в бадейку с какой-то отравой и принялся помешивать
-mpurge %object%
-eval ing1 1
-global ing1
-if ((%ing1% == 1) && (%ing2% == 1) && (%ing3% == 1))
-break
-end
-halt
+  case 62645
+    say Агась... как раз травушка подойдет! 
+    emot бросил %object.vname% в бадейку с какой-то отравой и принялся помешивать
+    mpurge %object%
+    eval ing1 1
+    global ing1
+    if ((%ing1% == 1) && (%ing2% == 1) && (%ing3% == 1))
+    break
+  end
+  halt
 break 
 case 62646
-say Во! Именно та отрава, которую давешний купчишка нам притащил.
-emot бросил %object.vname% в бадейку с какой-то отравой и принялся помешивать
-mpurge %object%
-eval ing2 1
-global ing2
-if ((%ing1% == 1) && (%ing2% == 1) && (%ing3% == 1))
-break
+  say Во! Именно та отрава, которую давешний купчишка нам притащил.
+  emot бросил %object.vname% в бадейку с какой-то отравой и принялся помешивать
+  mpurge %object%
+  eval ing2 1
+  global ing2
+  if ((%ing1% == 1) && (%ing2% == 1) && (%ing3% == 1))
+  break
 end
 halt          
 break
 case 62647
-if ((%object.val2% != 5) or ( %object.val1% < 10 ))
-say Я ж сказал, самогон нужен! Наш! И полную бутыль! А ты что принес?!!
-give %object.name% %actor.name%
-halt
-end
-emot отхлебнул из бутыли
-say Уффффффффффххх!!! Да... э-этто им-то... ИК!
-emot опустошил %object.vname% в бадейку с какой-то отравой и принялся помешивать
-mpurge %object%
-eval ing3 1
-global ing3
-if ((%ing1% == 1) && (%ing2% == 1) && (%ing3% == 1))
-break
+  if ((%object.val2% != 5) or ( %object.val1% < 10 ))
+    say Я ж сказал, самогон нужен! Наш! И полную бутыль! А ты что принес?!!
+    give %object.name% %actor.name%
+    halt
+  end
+  emot отхлебнул из бутыли
+  say Уффффффффффххх!!! Да... э-этто им-то... ИК!
+  emot опустошил %object.vname% в бадейку с какой-то отравой и принялся помешивать
+  mpurge %object%
+  eval ing3 1
+  global ing3
+  if ((%ing1% == 1) && (%ing2% == 1) && (%ing3% == 1))
+  break
 end
 halt
 break
 default
-say Хм... Этого я не просил вроде... ну да ничего - тоже сгодится.
-emot бросил %object.name% в варево и принялся помешивать
-mpurge %object%
-halt
+  say Хм... Этого я не просил вроде... ну да ничего - тоже сгодится.
+  emot бросил %object.name% в варево и принялся помешивать
+  mpurge %object%
+  halt
 done 
 wait 1s
 emot принюхался к вареву и медленно позеленел
@@ -618,114 +611,114 @@ give злое %actor.name%
 ~
 wait 1
 switch %object.vnum%
-case 62643
-say Неплохой материал... сгодится для кинжала.
-say Только ты его кузнецу сначала покажи.
-give кусоч %actor.name%
-break
-case 62652
-say Хороша штучка! Как раз к кинжалу какому-нибудь подойдет.
-emot сунул свинцовый шарик в карман
-eval shar 1
-global shar
-mpurge %object%
-break
-case 62649
-say Хорош кинжалище!
-if (%shar% != 1)
-say Можно бы и еще лучше сделать, да только свинца немного надо.
-give кинжал %actor.name%
-halt
-end
-say Как раз у меня доля него кое-что есть.
-emot достал из кармана свинцовый шарик и пару раз подкинул его в руке.
-emot принялся откручивать рукоять кинжала.
-if (%random.100% < 80)
-emot вложил в рукоять свинцовый шарик и прикрутил рукоять на место
-emot пару раз взмахнул кинжалом, демонстрируя. насколько резче стал удар
-mload obj 62650 
-give кинжал %actor.name%
-say Вот, володей на здоровье!
-else
-mecho рукоять кинжала с треском обломилась.
-руг
-say Эх, не вышло....
-end
-mpurge %object%
-break 
-case 62641
-say Хорошая вещь! Пригодится для фокуса одного... Я его тебе как-нибудь покажу
-ухм
-emot сложил платок и сунул его в карман.
-eval platok 1
-global platok
-mpurge %object%
-break
-case 62650
-if (%platok% != 1)
-say Да... Вот оружие стоящее!
-say К нему бы еще платок подходящий - цены бы не было!
-give кинжал %actor.name%
-halt
-end 
-say Прекрасное оружие! и как раз у меня к нему кое-что есть.
-emot достал из кармана широкий черный платок и взмахнул им пару раз.
-if (%random.100% < 50)
-emot накрепко привязал платок к рукояти кинжала
-emot взмахнул кинжалом, демонстрирую, как платок скрывает движения руки
-mload obj 62651
-give кинжал %actor.name%
-say Его бы еще зельем колдовским смазать - цены бы не было!
-say Ну это ты к мастеру по зельям иди - тут рядом.
-else
-emot попытался привязать платок к рукоятке кинжала, но слишком сильно потянул и платок порвался
-руг
-emot с такой силой ткнул кинжалом в мишень, что тот переломился пополам
-руг
-руг
-say Вот ведь незадача...
-вздох
-end
-mpurge %object%
-break
-case 62644
-emot аккуратно взял склянку
-emot рассмотрел зелье на просвет
-say Да... Ядреная вещь... Как раз кинжал смазать.
-emot осторожно поставил склянку на дальнюю полицу 
-eval poison 1
-global poison
-mpurge %object%
-break
-case 62651
-if (%poison% != 1)
-say Хорошая вещь! Еще бы зелье к нему стоящее... 
-say Ну по поводу отравы - это ты к отравителю зайди.. или к кабатчику!
-give кинжал %actor.name%
-halt
-end
-say Да... немного я видел на своем веку таких кинжалов.
-say Но можно и еще лучше его сделать... есть у меня для него зелье колдовское.
-emot достал с дальней полицы какую-то склянку
-emot аккуратно нанес зелье на лезвие кинжала
-if (%random.100% < 15)
-if %world.curobjs(62640)% < 2
-mecho _Кинжал вспыхнул ослепительным голубым светом и погас.
-say Вот теперь лучше этого кинжала сыскать будет мудрено.
-mload obj 62640
-give кинжал %actor.name%
-end
-else
-mecho _Кинжал вспыхнул багровым сиянием и сгорел
-челю
-say Бывает же...
-end 
-mpurge %object%
-break
-default
-say Это оставь себе, не видишь - я?!
-give %object.name% %actor.name%
-done
+  case 62643
+    say Неплохой материал... сгодится для кинжала.
+    say Только ты его кузнецу сначала покажи.
+    give кусоч %actor.name%
+  break
+  case 62652
+    say Хороша штучка! Как раз к кинжалу какому-нибудь подойдет.
+    emot сунул свинцовый шарик в карман
+    eval shar 1
+    global shar
+    mpurge %object%
+  break
+  case 62649
+    say Хорош кинжалище!
+    if (%shar% != 1)
+      say Можно бы и еще лучше сделать, да только свинца немного надо.
+      give кинжал %actor.name%
+      halt
+    end
+    say Как раз у меня для него кое-что есть.
+    emot достал из кармана свинцовый шарик и пару раз подкинул его в руке.
+    emot принялся откручивать рукоять кинжала.
+    if (%random.100% < 80)
+      emot вложил в рукоять свинцовый шарик и прикрутил рукоять на место
+      emot пару раз взмахнул кинжалом, демонстрируя. насколько резче стал удар
+      mload obj 62650 
+      give кинжал %actor.name%
+      say Вот, владей на здоровье!
+    else
+      mecho рукоять кинжала с треском обломилась.
+      руг
+      say Эх, не вышло....
+    end
+    mpurge %object%
+  break 
+  case 62641
+    say Хорошая вещь! Пригодится для фокуса одного... Я его тебе как-нибудь покажу
+    ухм
+    emot сложил платок и сунул его в карман.
+    eval platok 1
+    global platok
+    mpurge %object%
+  break
+  case 62650
+    if (%platok% != 1)
+      say Да... Вот оружие стоящее!
+      say К нему бы еще платок подходящий - цены бы не было!
+      give кинжал %actor.name%
+      halt
+    end 
+    say Прекрасное оружие! и как раз у меня к нему кое-что есть.
+    emot достал из кармана широкий черный платок и взмахнул им пару раз.
+    if (%random.100% < 50)
+      emot накрепко привязал платок к рукояти кинжала
+      emot взмахнул кинжалом, демонстрирую, как платок скрывает движения руки
+      mload obj 62651
+      give кинжал %actor.name%
+      say Его бы еще зельем колдовским смазать - цены бы не было!
+      say Ну это ты к мастеру по зельям иди - тут рядом.
+    else
+      emot попытался привязать платок к рукоятке кинжала, но слишком сильно потянул и платок порвался
+      руг
+      emot с такой силой ткнул кинжалом в мишень, что тот переломился пополам
+      руг
+      руг
+      say Вот ведь незадача...
+      вздох
+    end
+    mpurge %object%
+  break
+  case 62644
+    emot аккуратно взял склянку
+    emot рассмотрел зелье на просвет
+    say Да... Ядреная вещь... Как раз кинжал смазать.
+    emot осторожно поставил склянку на дальнюю полицу 
+    eval poison 1
+    global poison
+    mpurge %object%
+  break
+  case 62651
+    if (%poison% != 1)
+      say Хорошая вещь! Еще бы зелье к нему стоящее... 
+      say Ну по поводу отравы - это ты к отравителю зайди.. или к кабатчику!
+      give кинжал %actor.name%
+      halt
+    end
+    say Да... немного я видел на своем веку таких кинжалов.
+    say Но можно и еще лучше его сделать... есть у меня для него зелье колдовское.
+    emot достал с дальней полицы какую-то склянку
+    emot аккуратно нанес зелье на лезвие кинжала
+    if (%random.100% < 15)
+      if %world.curobjs(62640)% < 2
+        mecho _Кинжал вспыхнул ослепительным голубым светом и погас.
+        say Вот теперь лучше этого кинжала сыскать будет мудрено.
+        mload obj 62640
+        give кинжал %actor.name%
+      end
+    else
+      mecho _Кинжал вспыхнул багровым сиянием и сгорел
+      челю
+      say Бывает же...
+    end 
+    mpurge %object%
+  break
+  default
+    say Это оставь себе, не видишь - я?!
+    give %object.name% %actor.name%
+  done
 ~
 #62626
 взяли стрелу~
@@ -738,15 +731,14 @@ oecho _Сердитый вор сказал: Эй! Это мои стрелы! Отдавай сейчас же!
 oload mob 62633
 oforce сердитый.вор kill %actor.name%
 detach 62626 %self.id%
-                     
 ~
 #62627
 лезть вниз~
 2 c 1
 лезть слезть~
 if !%arg.contains(вниз)%
-wsend %actor% _Куда лезем?
-halt
+  wsend %actor% _Куда лезем?
+  halt
 end
 wsend %actor% _Вы ухватились за веревку и полезли вниз.
 wechoaround %actor% _%actor.name% схватил%actor.u% и полез%actor.q% вниз.
@@ -757,9 +749,7 @@ wechoaround %actor% _%actor.name% спустил%actor.u% сверху по веревке.
 забили охранника у дверей~
 0 f 100
 ~
-if %world.curobjs(62600%) < 1
 mload obj 62600
-end
 ~
 #62629
 трактирщик помер~
@@ -772,5 +762,36 @@ mload obj 62647
 0 f 100
 ~
 mload obj 62620
+~
+#62680
+Делаем ловушку~
+2 c 1
+смастерить, сделать, изготовить~
+if char.class==2
+  %send% Ну чтож, начнем мастерить...
+else
+  %send% Вы же не тать что бы заниматься этим...
+  halt
+end
+if !%arg.contains(ловушку)%
+  %send% А что вы собственно собираетесь изготавливать?
+  halt
+else
+  %send% Ловушку, интересно... А какую?
+end
+if !%arg.contains(усыпляющую)%
+  %send% Ой, и где же вы такие ловушки то видели?
+  halt
+else
+  %send% Хорошо, будем делать усыпляющую ловушку.
+end
+~
+#62681
+Убит старик-отшельник~
+0 f 100
+~
+if (%world.curobjs(214)% < 50) && (%random.100% <= 15)
+  mload obj 214
+end
 ~
 $~

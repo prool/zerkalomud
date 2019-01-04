@@ -59,14 +59,14 @@ end
 *тригер не отрабатывает. Должен отработать тригер крестьянина
 if (%arg.contains(внутр)%)||(%arg.contains(шалаш)%)
   if %exist.mob(34203)%
-   return 0
+    return 0
   else
-   wsend       %actor% - Вы присели и вошли в шалаш.
-   wechoaround %actor% %actor.name% присел%actor.g% и полез%actor.q% в шалаш.
-   wait 1s
-   wsend %actor% - Вы в шалаше, интересно стоило сюда лезть?
-   wteleport %actor% 34252
-   wat 34252 wechoaround %actor% %actor.name% пробрал%actor.u% сюда.
+    wsend       %actor% - Вы присели и вошли в шалаш.
+    wechoaround %actor% %actor.name% присел%actor.g% и полез%actor.q% в шалаш.
+    wait 1s
+    wsend %actor% - Вы в шалаше, интересно стоило сюда лезть?
+    wteleport %actor% 34252
+    wat 34252 wechoaround %actor% %actor.name% пробрал%actor.u% сюда.
   end
 end
 ~
@@ -80,15 +80,15 @@ if (%arg.contains(внутр)%)||(%arg.contains(шалаш)%)
   г Ты куда лезешь?
   г А ну, иди отсюда! Пока по шее не дал!
   wait 2s
-убрать все
-if !%self.haveobj(34208)%
-  if %world.curobjs(34208)%<4
-     mecho Крестьянин достал из-за пазухи острой нож.
-     %load% obj 34208
-     вооруж нож
-     держ нож
-  endif
-end
+  убрать все
+  if !%self.haveobj(34208)%
+    if %world.curobjs(34208)%<4
+      mecho Крестьянин достал из-за пазухи острой нож.
+      %load% obj 34208
+      вооруж нож
+      держ нож
+    endif
+  end
   wait 2s
   г Иди от сюда по добру, по здорову...
   wait 2s
@@ -121,10 +121,10 @@ endif
 *Надо проверить будет ли проходить повреждения по игроку, наносимые этим тригером
 *а именно  %damage% %actor% 50. У меня в локальном маде повреждения не наносились
 if %exist.mob(34205)%
- msend %actor% Стрела, выпущенная из бойницы, острога попала Вам в грудь!
- msend %actor% Это было БОЛЬНО!
- mechoaround %actor% Стрела, выпущенная из бойницы острога, вонзилась %actor.dname% в грудь.
- mdamage %actor% 50
+  msend %actor% Стрела, выпущенная из бойницы, острога попала Вам в грудь!
+  msend %actor% Это было БОЛЬНО!
+  mechoaround %actor% Стрела, выпущенная из бойницы острога, вонзилась %actor.dname% в грудь.
+  mdamage %actor% 50
 end
 ~
 #34207
@@ -132,7 +132,7 @@ end
 0 f 0
 ~
 *эээ... не используемый тригер 
- msend %actor% Вы убили %self.iname% убийцу завут %actor.iname%
+msend %actor% Вы убили %self.iname% убийцу завут %actor.iname%
 ~
 #34208
 в случае нападение на Тракте вызывает подмогу~
@@ -146,44 +146,44 @@ halt
 eval komnata %self.realroom%
 set temp %komnata.name%
 if !(%temp.contains(тракт)%)
-halt
+  halt
 end
 *проверяем живы ли наблюдателыи на вышках
 *на тракте 3 вышки с наблюдателями, каждый наблюдатель просматривает свой участок тракта
 * и если его убить то участок дороги останестя без помощи патруля :)
 if (%self.realroom%>34246)
-* mecho !!!!! участок 1
-if !%exist.mob(34210)%
-halt
-end
+  * mecho !!!!! участок 1
+  if !%exist.mob(34210)%
+    halt
+  end
 elseif (%self.realroom%<34223)&(%self.realroom%>34213)
-* mecho !!!! участок 2
-if !%exist.mob(34209)%
-* mecho !!!!! Моб 34209 не существует выходим из тригера.
-halt
-end
+  * mecho !!!! участок 2
+  if !%exist.mob(34209)%
+    * mecho !!!!! Моб 34209 не существует выходим из тригера.
+    halt
+  end
 elseif (%self.realroom%<34214)
-* mecho !!!! участок 3
-if !%exist.mob(34208)%
-halt
-end
+  * mecho !!!! участок 3
+  if !%exist.mob(34208)%
+    halt
+  end
 end
 *собственно непосредственно процедура переброски дружинников из острога 
 *в комнату где происходит драка
 *дружинники патруля должны сами вступить в бой, так как они хэлперы
 if !%exist.mob(34206)% 
-attach 34210 %self.id%
-detach 34208 %self.id%
-halt
+  attach 34210 %self.id%
+  detach 34208 %self.id%
+  halt
 end
 calcuid drugin 34206 mob
 set target %self.fighting%
 foreach char %drugin.npc%
-mechoaround %drugin% %drugin.name% схватился за оружие и выскочил из комнаты
-if %char.vnum% == 34206
-mteleport %char% %self.realroom%
-%force% %char% kill %target.name%
-end
+  mechoaround %drugin% %drugin.name% схватился за оружие и выскочил из комнаты
+  if %char.vnum% == 34206
+    mteleport %char% %self.realroom%
+    %force% %char% kill %target.name%
+  end
 done
 mteleport %drugin% %self.realroom%
 %force% %drugin% kill %target.name%
@@ -197,14 +197,14 @@ attach 34210 %self.id%
 * дружинники после боя, должны вернуться назад в барак...
 *%echo% _тригер!!!
 if (%self.realroom%==34292)
-* %echo% _я на базе!!!
- halt
+  * %echo% _я на базе!!!
+  halt
 endif
 if (%self.fighting%)
-* %echo% _Дерусь!!!!!!!!!!!
+  * %echo% _Дерусь!!!!!!!!!!!
 else
- %echo% %self.iname% сел на коня и ускакал в острог...
- %teleport% %self% 34292
+  %echo% %self.iname% сел на коня и ускакал в острог...
+  %teleport% %self% 34292
 endif
 ~
 #34210
@@ -214,7 +214,7 @@ endif
 *какаято фигня... сделал чтобы тригер вызова патруля не запускался каждый 
 *раунгд боя, дабы неперегружать сервер.
 if (%self.fighting%)
- halt
+  halt
 endif
 detach 34210 %self.id%
 attach 34208 %self.id%
@@ -228,24 +228,24 @@ attach 34208 %self.id%
 *с укзазнием трех вышек. Посмотрев ее игрок должен догадаться что есть более 
 *простой способ обезвредить патруль, вырезав наблюдателей на вышках
 if (%arg.contains(карт)%)
- if %exist.mob(34211)%
-   %send% %actor% _Командир заслонил от Вас карту.
-   halt	
- endif
-%send% %actor% _Вы внимательно осмотрели карту.
-%send% %actor% _на ней изображены окрестности и пометки, сделанные красными чернилами.
-%send% %actor% _               
-%send% %actor% _                дозорная  Разбойники 
-%send% %actor% _    дозорная     вышка      Х
-%send% %actor% _     вышка         П           дозорная   +
-%send% %actor% _       П    ===========         вышка     П
-%send% %actor% _    ========   тракт   ========== П    ! !=!
-%send% %actor% _  ==                   _   _     ======# КИЕВ
-%send% %actor% _                       ШШПШШ           !
-%send% %actor% _                       острог
-%send% %actor% _
+  if %exist.mob(34211)%
+    %send% %actor% _Командир заслонил от Вас карту.
+    halt	
+  endif
+  %send% %actor% _Вы внимательно осмотрели карту.
+  %send% %actor% _на ней изображены окрестности и пометки, сделанные красными чернилами.
+  %send% %actor% _               
+  %send% %actor% _                дозорная  Разбойники 
+  %send% %actor% _    дозорная     вышка      Х
+  %send% %actor% _     вышка         П           дозорная   +
+  %send% %actor% _       П    ===========         вышка     П
+  %send% %actor% _    ========   тракт   ========== П    ! !=!
+  %send% %actor% _  ==                   _   _     ======# КИЕВ
+  %send% %actor% _                       ШШПШШ           !
+  %send% %actor% _                       острог
+  %send% %actor% _
 else
-%send% %actor% _Осмотреть что?
+  %send% %actor% _Осмотреть что?
 endif 
 ~
 #34212
@@ -269,13 +269,13 @@ wait 1
 бросить все
 взять труп
 if %self.haveobj(труп)%
-бросить все
- dg_cast 'подн труп' труп
-attach 34214 %self.id%
+  бросить все
+  dg_cast 'подн труп' труп
+  attach 34214 %self.id%
 end
 ~
 #34214
-приказывает помоч себе в бою~
+приказывает помочь себе в бою~
 0 k 100
 ~
 *тригер относится к черноку.
@@ -286,29 +286,41 @@ detach 34214 %self.id%
 ~
 #34215
 Разговаривающий череп~
-1 j 0
+1 j 100
 ~
 *и так понятно что делает тригер
 *вооружиться может только Чернокнижник.
-%echoaround% %actor% Череп сверкнул пустыми глазницами и что-то пробормотал %actor.dname%
-%Send% %actor% Череп повернулся к вам на посохе и сверкнул пустыми глазницами.
-*%Send% %actor% Череп сказал Вам : 'Твой класс %actor.class%!!!'
-if (%actor.class%==8)
- if (%actor.sex%==1)
-  %Send% %actor% Череп прошипел Вам : 'Пливештвую тебя челный блат %actor.iname%!'
- elseif (%actor.sex%==2)
-  %Send% %actor% Череп прошипел Вам : 'Пливештвую тебя челная сестла %actor.iname%!'
- else
-  %Send% %actor% Череп прошипел Вам : 'Пливештвую тебя челная душа %actor.iname%!'
- endif
-  %Send% %actor% Череп прошипел Вам : 'Я буду шлужить тебе, пока ты не покинеш меня.'
-else
-  %Send% %actor% Череп прошипел Вам : 'Кто ты такой чтобы тлевожить меня пошле шмерти?'
-  %Send% %actor% Череп прошипел Вам : 'А ну убели свои лученки от моего нашешта, а то пожелееш!'
-  %Send% %actor% Череп сделал попытку укусить Вас за палец! Подлец!
-  %Send% %actor% Какой-то нервный тип. Лучше оставить его в покое.
+oechoaround %actor% Череп сверкнул пустыми глазницами и что-то пробормотал %actor.dname%.
+osend %actor% Череп повернулся к вам на посохе и сверкнул пустыми глазницами.
+if (%actor.class% != 8)
+  osend %actor% Череп прошипел Вам : 'Кто ты такой чтобы тлевожить меня пошле шмерти?'
+  osend %actor% Череп прошипел Вам : 'А ну убели свои лученки от моего нашешта, а то пожелееш!'
+  osend %actor% Череп сделал попытку укусить Вас за палец! Подлец!
+  osend %actor% Какой-то нервный тип. Лучше оставить его в покое.
   %echoaround% %actor% Череп укусил %actor.vname% за палец.
- Return 0
-endif
+  return 0
+  halt
+end
+if %self.worn_by%
+  return 1
+  halt
+end
+wait 1
+if (%actor.sex% == 1)
+  osend %actor% Череп прошипел Вам : 'Пливештвую тебя челный блат %actor.iname%!'
+elseif (%actor.sex% == 2)
+  osend %actor% Череп прошипел Вам : 'Пливештвую тебя челная сестла %actor.iname%!'
+else
+  osend %actor% Череп прошипел Вам : 'Пливештвую тебя челная душа %actor.iname%!'
+end
+osend %actor% Череп прошипел Вам : 'Я буду шлужить тебе, пока ты не покинеш меня.'
+~
+#34216
+Убили стражника (лоад ключа)~
+0 f 100
+~
+if %world.curmobs(34204)% < 2
+  mload obj 34201
+end
 ~
 $~

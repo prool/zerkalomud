@@ -30,6 +30,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 5 15
+Skill: 136 75
 Skill: 137 50
 E
 #27401
@@ -40,7 +41,7 @@ E
 медвежонка~
 медвежонком~
 медвежонке~
-Молодой медвежонок довольно урчит над едой. 
+Молодой медвежонок довольно урчит над едой.
 ~
 Неуклюжий маленький медведь.
 ~
@@ -62,6 +63,7 @@ Class: 103
 Height: 198
 Weight: 120
 Special_Bitvector: m0 
+Skill: 136 51
 Skill: 160 50
 E
 #27402
@@ -92,6 +94,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #27403
 каторжник~
@@ -122,6 +125,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 
 Skill: 131 15
+Skill: 136 48
 Spell: 59
 Spell: 59
 Spell: 59
@@ -157,6 +161,7 @@ Weight: 200
 Special_Bitvector: 0 
 Skill: 132 80
 Skill: 133 80
+Skill: 136 90
 Spell: 23
 Spell: 23
 Spell: 28

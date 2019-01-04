@@ -30,6 +30,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
+Skill: 136 60
 E
 T 30701
 #30701
@@ -63,6 +64,7 @@ Class: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 66
 E
 T 30702
 T 30703
@@ -85,7 +87,7 @@ T 30703
 по животу особым образом, тогда она, подумав, что это ее
 детеныш, сплевывает часть сока.
 ~
-d0g0m0y0 k0 -600 E
+d0g0m0y0f2 k0 -600 E
 17 5 -4 10d5+480 4d4+3
 0d0+0 50000
 8 8 2
@@ -102,9 +104,11 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 51
 E
 T 30707
 T 30712
+T 30736
 #30703
 детеныш тли~
 детеныш тли~
@@ -119,7 +123,7 @@ T 30712
 Он еще не превратился в неповоротливое насекомое, как его
 мама с папой, и потому может прыгать на далекие расстояния.
 ~
-d0g0y0 k0 -600 E
+d0g0y0f2 k0 -600 E
 14 4 -4 10d5+280 4d3+3
 0d0+0 15000
 8 8 1
@@ -137,6 +141,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: n0 
+Skill: 136 42
 Skill: 160 30
 E
 T 30708
@@ -154,7 +159,7 @@ T 30708
 мехом. Судя по тому, как обвис ее некогда толстый живот,
 она недавно кормила детеныша или какого-то муравья.
 ~
-d0g0s0y0 k0 -600 E
+d0g0s0y0f2 k0 -600 E
 14 3 -6 10d5+370 3d3+3
 0d0+0 30000
 8 8 2
@@ -171,6 +176,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 42
 E
 T 30709
 T 30712
@@ -208,6 +214,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: p0 
 Skill: 132 50
+Skill: 136 51
 E
 #30706
 черный муравей всадник~
@@ -244,6 +251,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 4 50
+Skill: 136 54
 E
 T 30727
 #30707
@@ -278,6 +286,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 48
 E
 T 30710
 #30708
@@ -310,6 +319,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 42
 E
 T 30711
 #30709
@@ -345,6 +355,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 132 40
+Skill: 136 57
 E
 T 30713
 #30710
@@ -377,6 +388,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 54
 E
 T 30714
 #30711
@@ -410,6 +422,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 27
 E
 T 30715
 #30712
@@ -443,6 +456,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 54
 E
 I кожа,10:2
 #30713
@@ -476,6 +490,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 54
 Skill: 137 30
 E
 L 1406 23 0 0
@@ -517,6 +532,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 54
 E
 T 30717
 #30715
@@ -555,6 +571,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 54
 E
 T 30717
 #30716
@@ -589,6 +606,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
+Skill: 136 57
 E
 #30717
 толстый пятнистый клоп~
@@ -623,6 +641,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 132 20
+Skill: 136 63
 Spell: 54
 Spell: 75
 Spell: 75
@@ -659,6 +678,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 57
 Spell: 23
 Spell: 33
 E
@@ -696,6 +716,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 132 50
+Skill: 136 54
 E
 #30720
 груженый желудями кузнечик огромный~
@@ -729,6 +750,7 @@ Class: 103
 Height: 175
 Weight: 120
 Special_Bitvector: 0 
+Skill: 136 63
 E
 T 30728
 #30721
@@ -760,6 +782,7 @@ Class: 103
 Height: 175
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #30722
 черный муравей ~
@@ -793,6 +816,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 54
 Skill: 137 30
 E
 #30723
@@ -828,6 +852,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 72
 Skill: 160 40
 Spell: 27
 Spell: 27
@@ -839,6 +864,7 @@ Helper: 30722
 E
 T 30729
 T 30730
+L 245 10 0 1
 #30724
 черная муравьиха~
 черная муравьиха~
@@ -869,6 +895,7 @@ Class: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 45
 E
 L 1473 35 0 0
 #30725
@@ -904,6 +931,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 132 50
+Skill: 136 54
 Skill: 150 50
 E
 T 30732

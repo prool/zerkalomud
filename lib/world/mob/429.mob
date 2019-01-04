@@ -29,6 +29,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 22 100
+Skill: 136 87
 Skill: 150 100
 Spell: 36
 E
@@ -57,6 +58,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: p0y0b1c1 
 Skill: 132 100
+Skill: 136 72
 Skill: 137 100
 E
 #42902
@@ -84,6 +86,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: p0y0b1c1 
 Skill: 132 100
+Skill: 136 72
 Skill: 137 100
 E
 #42903
@@ -124,6 +127,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 
 Skill: 132 100
+Skill: 136 87
 Skill: 139 50
 E
 T 42904
@@ -153,6 +157,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 5 100
+Skill: 136 87
 E
 T 42900
 #42905
@@ -183,8 +188,11 @@ Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 
 Skill: 132 100
+Skill: 136 87
 Skill: 139 50
 E
+T 42905
+L 1729 4 0 0
 #42906
 страж купеческого лагеря~
 страж купеческого лагеря~
@@ -212,6 +220,7 @@ Height: 198
 Weight: 80
 Special_Bitvector: p0b1c1 
 Skill: 131 80
+Skill: 136 75
 Skill: 140 100
 Skill: 160 100
 Helper: 42905
@@ -247,6 +256,7 @@ Height: 198
 Weight: 160
 Special_Bitvector: b1c1 
 Skill: 4 100
+Skill: 136 78
 E
 #42908
 лошадь~
@@ -272,6 +282,7 @@ Class: 103
 Height: 198
 Weight: 160
 Special_Bitvector: n0 
+Skill: 136 66
 E
 #42909
 бык~
@@ -298,6 +309,7 @@ Class: 103
 Height: 198
 Weight: 160
 Special_Bitvector: n0 
+Skill: 136 66
 E
 #42910
 торговый смерд~
@@ -334,6 +346,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: a1b1c1 
 Skill: 132 100
+Skill: 136 87
 Skill: 139 50
 E
 T 42903
@@ -368,6 +381,7 @@ Weight: 200
 Special_Bitvector: 0 
 Skill: 2 60
 Skill: 132 50
+Skill: 136 45
 E
 #42912
 заяц косой~
@@ -397,6 +411,7 @@ Class: 103
 Height: 198
 Weight: 29
 Special_Bitvector: n0y0 
+Skill: 136 30
 E
 #42913
 кабаниха~
@@ -426,6 +441,7 @@ Class: 103
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 42
 E
 #42914
 кабанчик~
@@ -456,6 +472,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: y0 
+Skill: 136 30
 E
 #42915
 волк серый~
@@ -486,6 +503,7 @@ Height: 198
 Weight: 140
 Special_Bitvector: p0 
 Skill: 132 40
+Skill: 136 36
 E
 #42916
 волчица~
@@ -516,9 +534,10 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 36
 E
 #42917
-волченок-малыш~
+волчонок-малыш~
 волчонок~
 волчонка~
 волчонку~
@@ -541,6 +560,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #42918
 сорока белобока~
@@ -571,6 +591,7 @@ Class: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0 
+Skill: 136 33
 E
 #42919
 белка~
@@ -598,6 +619,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: p0y0 
+Skill: 136 27
 E
 #42920
 белка~
@@ -624,6 +646,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
+Skill: 136 30
 E
 #42921
 лисенок~
@@ -649,6 +672,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: p0 
+Skill: 136 24
 E
 #42922
 ворона~
@@ -676,6 +700,7 @@ Class: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0y0 
+Skill: 136 45
 E
 #42923
 корчемщик Славута~
@@ -704,6 +729,7 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #42924
 конюх Сидор~
@@ -729,5 +755,6 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 69
 E
 $

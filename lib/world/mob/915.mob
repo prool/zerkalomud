@@ -10,7 +10,7 @@
 ~
 Огромный крылатый змей, чешуя которого отливает всеми отттенками
 красного: переливается розовым и малиновым, ярко вспыхивает кармином,
-отсвечивает багровыми языками пламени. Черные узкие зрачки глаз окружены
+отсвечивает багровыми языками огня. Черные узкие зрачки глаз окружены
 клубящимся багровым пламенем.
 ~
 c0d0f0m0n0o0p0t0u0x0A0b1q1s1g2m2 c0d0f0k0x0m1 -600 E
@@ -35,7 +35,6 @@ Destination: 49961
 Destination: 49977
 Destination: 49978
 Destination: 49975
-Destination: 49974
 Destination: 49969
 Destination: 49959
 Destination: 49973
@@ -201,7 +200,6 @@ Destination: 49961
 Destination: 49977
 Destination: 49978
 Destination: 49975
-Destination: 49974
 Destination: 49969
 Destination: 49959
 Destination: 49973
@@ -527,6 +525,7 @@ Class: 103
 Height: 198
 Weight: 170
 Special_Bitvector: l0 
+Skill: 136 105
 Spell: 6
 Spell: 6
 Spell: 6
@@ -619,9 +618,16 @@ E
 броню, неуязвимую для обычного оружия, и отражающую вражеские заклятия.
 ~
 c0d0f0l0o0p0t0y0A0b1q1g2k2 f0k0z0A0C0m1r1 -400 E
-33 -10 -1 30d10+30000 20d8+50
+32 -10 -1 30d10+30000 20d8+50
 0d0+0 10000000
 8 8 1
+Saves: -100 -100 -100 -100
+HPreg: 150
+Armour: 50
+CastSuccess: 40
+Success: 20
+Absorbe: 25
+AResist: 50
 BareHandAttack: 1
 Destination: 49961
 Destination: 49900
@@ -643,7 +649,7 @@ LikeWork: 100
 ExtraAttack: 3
 Height: 198
 Weight: 200
-Special_Bitvector: l0 
+Special_Bitvector: d0l0 
 Skill: 21 50
 Skill: 132 200
 Skill: 136 200
@@ -751,7 +757,7 @@ T 91537
 двухголовый черный змей моб_91510~
 двухголовый черный змей~
 двухголовому черному змею~
-неоконченному мобу~
+двухголовому черному змею~
 двухголового черного змея~
 двухголовым черным змеем~
 двухголовом черном змее~
@@ -783,6 +789,7 @@ Weight: 200
 Special_Bitvector: l0 
 Skill: 12 200
 Skill: 22 200
+Skill: 136 90
 Skill: 140 200
 E
 T 91533
@@ -810,6 +817,7 @@ LikeWork: 100
 Height: 198
 Weight: 200
 Special_Bitvector: l0x0 
+Skill: 136 60
 E
 T 91530
 #91514
@@ -827,7 +835,7 @@ T 91530
 ползать среди камней и бултыхаться в огненном озере.
 ~
 d0f0q0t1a2 d0f0k0A0 -400 E
-31 20 -7 10d100+1500 8d6+12
+30 20 -7 10d100+1500 8d6+12
 0d0+0 400000
 8 8 1
 BareHandAttack: 8
@@ -842,7 +850,8 @@ LikeWork: 60
 ExtraAttack: 2
 Height: 198
 Weight: 170
-Special_Bitvector: m0 
+Special_Bitvector: a0b0c0d0m0 
+Skill: 136 90
 Spell: 28
 Spell: 28
 Spell: 75

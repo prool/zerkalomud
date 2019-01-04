@@ -28,6 +28,7 @@ Class: 103
 Height: 5
 Weight: 3
 Special_Bitvector: 0 
+Skill: 136 30
 Skill: 151 40
 Skill: 157 60
 E
@@ -60,6 +61,7 @@ Height: 150
 Weight: 50
 Special_Bitvector: 0 
 Skill: 134 80
+Skill: 136 66
 Skill: 151 80
 Skill: 157 80
 Skill: 160 80
@@ -102,6 +104,7 @@ Height: 150
 Weight: 90
 Special_Bitvector: y0 
 Skill: 134 80
+Skill: 136 30
 E
 #5503
 лентяй~
@@ -132,6 +135,7 @@ Class: 102
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
+Skill: 136 24
 Skill: 150 80
 E
 T 5505
@@ -197,6 +201,7 @@ Class: 103
 Height: 7
 Weight: 2
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #5506
 курица~
@@ -226,6 +231,7 @@ Class: 103
 Height: 6
 Weight: 2
 Special_Bitvector: 0 
+Skill: 136 15
 Helper: 5505
 E
 #5507
@@ -256,6 +262,7 @@ Class: 103
 Height: 1
 Weight: 1
 Special_Bitvector: 0 
+Skill: 136 6
 Spell: 15
 Spell: 15
 Spell: 15
@@ -289,6 +296,7 @@ Class: 103
 Height: 200
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #5509
 теленок~
@@ -318,6 +326,7 @@ Class: 103
 Height: 100
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 15
 Helper: 5508
 E
 #5510
@@ -351,6 +360,7 @@ Height: 70
 Weight: 150
 Special_Bitvector: 0 
 Skill: 132 40
+Skill: 136 30
 E
 #5511
 баран~
@@ -380,6 +390,7 @@ Class: 103
 Height: 80
 Weight: 70
 Special_Bitvector: 0 
+Skill: 136 30
 Skill: 137 80
 E
 #5512
@@ -410,6 +421,7 @@ Class: 103
 Height: 70
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 18
 Helper: 5511
 E
 #5513
@@ -443,6 +455,7 @@ Height: 200
 Weight: 190
 Special_Bitvector: 0 
 Skill: 132 70
+Skill: 136 30
 E
 #5514
 хозяин~
@@ -473,6 +486,7 @@ Weight: 90
 Special_Bitvector: 0 
 Skill: 132 90
 Skill: 134 90
+Skill: 136 66
 Skill: 141 90
 Skill: 151 90
 Spell: 15
@@ -487,4 +501,5 @@ Helper: 5502
 Helper: 5501
 E
 T 5507
+T 5508
 $

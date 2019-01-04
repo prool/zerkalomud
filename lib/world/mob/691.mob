@@ -64,13 +64,13 @@ T 69107
 которые помрачают разум человека, заставляя видеть то, чего нет на самом 
 деле. 
 ~
-c0d0f0g0l0m0n0o0p0q0r0x0y0z0A0 b0d0h0k0m0n0p0r0x0z0C0x1 -600 E
-40 0 -10 8d10+5000 19d9+22
-0d0+0 400000
+c0d0f0g0l0m0n0o0p0q0r0t0x0z0A0q1 b0d0h0k0m0n0p0r0x0z0C0x1 -600 E
+40 0 -10 8d10+5000 12d9+22
+0d0+0 580000
 8 8 1
 Str: 30
 Dex: 30
-Int: 36
+Int: 19
 Wis: 36
 Con: 25
 Cha: 16
@@ -81,14 +81,14 @@ ExtraAttack: 1
 Class: 101
 Height: 145
 Weight: 100
-Special_Bitvector: l0c1C3 
+Special_Bitvector: l0C3 
 Skill: 22 40
 Skill: 136 100
 Skill: 157 50
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
 Spell: 55
 Spell: 55
 Spell: 55
@@ -199,11 +199,12 @@ Spell: 114
 Spell: 114
 Spell: 153
 Helper: 69104
+Skill: 136 120
 E
 T 69109
 #69104
 омутник~
-омутник ~
+омутник~
 омутника~
 омутнику~
 омутника~
@@ -298,8 +299,9 @@ Spell: 111
 Spell: 153
 Spell: 153
 Spell: 153
-Helper: 69106
 Helper: 69107
+Helper: 69106
+Skill: 136 123
 E
 #69106
 темный призрак~
@@ -364,7 +366,7 @@ Spell: 153
 E
 #69107
 призрак~
-призрак ~
+призрак~
 призрака~
 призраку~
 призрака~
@@ -445,6 +447,16 @@ Class: 104
 Height: 169
 Weight: 123
 Special_Bitvector: m0b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 136 100
 Spell: 27
 Spell: 27
@@ -587,6 +599,16 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: c1d1d3C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 5 50
 Skill: 22 50
 Skill: 136 100

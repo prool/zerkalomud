@@ -3,7 +3,7 @@ Tree <Начало квеста>~
 0 q 100
 1~
 if (%actor.vnum% != -1)
-   halt
+  halt
 end
 wait  1
 msend %actor% _- Приветствую тебя, почтенн%actor.w% !
@@ -20,7 +20,7 @@ Tree <Ответили ДА>~
 0 d 1
 да yes jar~
 if (%actor.vnum% != -1)
-halt
+  halt
 end
 wait 1
 mecho ____Старик тяжело поднялся и, кряхтя, открыл сундук.
@@ -37,13 +37,13 @@ mecho "xochucha"...
 wait  2s
 eval num 0
 foreach pc %self.pc%
-if %pc.rentable%
-mteleport %pc% 90001 horse
-msend %pc% Вы очнулись посреди какой-то вонючей лужи...
-eval num %num%+1
-end
-if %num% > 2
-break
+  if %pc.rentable%
+    mteleport %pc% 90001 horse
+    msend %pc% Вы очнулись посреди какой-то вонючей лужи...
+    eval num %num%+1
+  end
+  if %num% > 2
+  break
 end
 done
 attach 90002 %self.id%
@@ -55,7 +55,7 @@ Tree <Кто-то что-то сказал>~
 0 d 0
 *~
 if (%actor.vnum% != -1)
-   halt
+  halt
 end
 wait  1
 msend %actor% "Я ошень пльохо тебя понимай" - сказал старик.
@@ -65,12 +65,12 @@ Tree <Установить дверь в комнату 90013>~
 2 c 1
 стучать колотить ломиться~
 if (%actor.vnum% != -1)
-   return 0
-   halt
+  return 0
+  halt
 end
 if !(%arg.contains(двер)%)
-   return 0
-   halt
+  return 0
+  halt
 end
 wait  1
 wecho _- Войди, о человече, в свой последний приют, - послышался торжественный
@@ -96,17 +96,17 @@ Tree <Зачитан старик в красной халамиде>~
 1~
 wait  5s
 if !%self.fighting%
-   mecho _- Готовься принять смерть на черном алтаре, в честь Великого и Ужасного
-   mecho демона преисподней, имя которого Абавул, - торжественно протянул старик.
-   wait  5s
+  mecho _- Готовься принять смерть на черном алтаре, в честь Великого и Ужасного
+  mecho демона преисподней, имя которого Абавул, - торжественно протянул старик.
+  wait  5s
 end
 if !%self.fighting%
-   mecho Изо рта у старика вылезли клыки, кожа стала зеленовато пятнистой, а руки
-   mecho начали вытягиваться, как резиновые.
-   mecho Выхватив здоровенный ржавый тесак он ринулся вперед.
-   set FirstEnter %random.pc%
-   mkill %FirstEnter%
-   halt
+  mecho Изо рта у старика вылезли клыки, кожа стала зеленовато пятнистой, а руки
+  mecho начали вытягиваться, как резиновые.
+  mecho Выхватив здоровенный ржавый тесак он ринулся вперед.
+  set FirstEnter %random.pc%
+  mkill %FirstEnter%
+  halt
 end
 ~
 #90006
@@ -114,37 +114,37 @@ Tree <РАЗБИТЬ БУТЫЛЬ>~
 2 c 1
 разбить расколоть~
 if (%actor.vnum% != -1)
-   return 0
-   halt
+  return 0
+  halt
 end
 if !%arg.contains(бутыль)%
-   return 0
-   halt
+  return 0
+  halt
 end
 calcuid target 90002 obj
 if !%target%
-   return 0
-   halt
+  return 0
+  halt
 end
 wait    1
 wpurge  %target%
 wecho   Бутыль с грохотом раскололась.
 if %exist.mob(90003)% 
-calcuid mob 90003 mob
+  calcuid mob 90003 mob
 end
 if %mob%
-   wecho Старик охнул, весь сжался и исчез в клубах смрадного дыма.
-   wpurge %mob%
+  wecho Старик охнул, весь сжался и исчез в клубах смрадного дыма.
+  wpurge %mob%
 end
 wdoor 90013 east flags a
 wdoor 90013 east room  90014
 set     mob 0
 calcuid mob 90004 mob
 if %mob%
-   wpurge %mob%
-   wait   1
-   wecho  В тот же миг пес превратился в дрожащего, абсолютно голого мужика.
-   wload  mob 90005
+  wpurge %mob%
+  wait   1
+  wecho  В тот же миг пес превратился в дрожащего, абсолютно голого мужика.
+  wload  mob 90005
 end
 detach 90006 %self.id%
 ~
@@ -164,10 +164,10 @@ Tree <Старик в красной халамиде убит>~
 0 f 100
 0~
 if %world.curobjs(90003)% < 10 && %random.100% < 10
-   mload obj 90003
+  mload obj 90003
 end
 if %world.curobjs(90004)% < 10 && %random.100% < 10
-   mload obj 90004
+  mload obj 90004
 end
 *mdoor 90013 east flags a
 *mdoor 90013 east room 90014
@@ -177,16 +177,16 @@ Tree <Кто-то что-то сказал старику>~
 0 d 2
 *~
 if (%actor.vnum% != -1)
-   halt
+  halt
 end
 wait 1
 if !(%self.fighting%)
-   mecho _- Молчи, червь ! - взвизгнул старик фальцетом, моментально утратив
-   mecho всю торжественность.
-   mecho Изо рта у старика вылезли клыки, кожа стала зеленовато пятнистой, а руки
-   mecho начали вытягиваться, как резиновые.
-   mecho Выхватив здоровенный ржавый тесак он ринулся вперед.
-   mkill %actor%
+  mecho _- Молчи, червь ! - взвизгнул старик фальцетом, моментально утратив
+  mecho всю торжественность.
+  mecho Изо рта у старика вылезли клыки, кожа стала зеленовато пятнистой, а руки
+  mecho начали вытягиваться, как резиновые.
+  mecho Выхватив здоровенный ржавый тесак он ринулся вперед.
+  mkill %actor%
 end
 detach 90009 %self.id%
 ~
@@ -195,21 +195,21 @@ Tree <РАЗГРЕСТИ ТРЯПЬЕ>~
 2 c 0
 разгрести отбросить отшвырнуть~
 if (%actor.vnum% != -1)
-   return 0
-   halt
+  return 0
+  halt
 end
 if !(%arg.contains(тряпь)%) && !(%arg.contains(куч)%)
-   return 0
-   halt
+  return 0
+  halt
 end
 wait 1
 calcuid trap 90005 obj
 if %trap%
-   wpurge %trap%
-   wsend %actor% Вы разгребли кучу тряпья... 
-   wsend %actor% Под ней Вы обнаружили связанную девушку.
-   wechoaround %actor% %actor.name% разгреб%actor.q% кучу тряпья...
-   wload  mob 90006
+  wpurge %trap%
+  wsend %actor% Вы разгребли кучу тряпья... 
+  wsend %actor% Под ней Вы обнаружили связанную девушку.
+  wechoaround %actor% %actor.name% разгреб%actor.q% кучу тряпья...
+  wload  mob 90006
 end
 calcuid room 90014 room
 detach  90010 %room.id%
@@ -219,17 +219,17 @@ Tree <ОСВОБОДИТЬ ПРИНЦЕССУ>~
 2 c 0
 развязать освободить~
 if (%actor.vnum% != -1)
-   return 0
-   halt
+  return 0
+  halt
 end
 if !(%arg.contains(принцесс)%) && !(%arg.contains(девушк)%)
-   return 0
-   halt
+  return 0
+  halt
 end
 wait 1
 calcuid target 90006 mob
 if !%target%
-   halt
+  halt
 end
 wpurge %target%
 wsend %actor% Вы развязали юное создание...
@@ -251,7 +251,7 @@ else
   wecho Но тебе, о бесстрашная амазонка, победительница колдуна, не страшны
   wecho никакие опасности.
 end
-wforce %target% follow %actor.name%
+wforce %target% follow .%actor.name%
 makeuid Keeper %actor.id%
 remote Keeper %target.id%
 calcuid room 90017 room
@@ -263,7 +263,7 @@ Tree <Вышли на поляну к демону>~
 2 g 100
 0~
 if %actor.vnum% != 90007
-   halt
+  halt
 end
 wait 1
 wecho ___Внезапно завыл ветер, захлопали огромные крылья, и на тропинку приземлился
@@ -279,10 +279,10 @@ Tree <PC пытался повредить принцессу>~
 0 p 100
 0~
 if %damager.vnum% == -1
-   return 1
-   wait   1
-   msend  %damager% - Не бей меня ! - взмолилась принцесса и залилась слезами.
-   halt
+  return 1
+  wait   1
+  msend  %damager% - Не бей меня ! - взмолилась принцесса и залилась слезами.
+  halt
 end
 return 0
 ~
@@ -291,10 +291,10 @@ Tree <Абавул убит>~
 0 f 100
 0~
 if %world.curobjs(90007)% < 10 && %random.100% < 10
-   mload obj 90007
+  mload obj 90007
 end
 if %world.curobjs(90008)% < 10 && %random.100% < 10
-   mload obj 90008
+  mload obj 90008
 end
 calcuid House 90018 room
 attach  90016 %House.id%
@@ -304,8 +304,8 @@ Tree <ОГРЕТЬ по БАШКЕ>~
 0 c 1
 огреть ударить навернуть вмазать оглушить треснуть~
 if !%arg.contains(голов)% && !%arg.contains(башк)%
-   return 0
-   halt
+  return 0
+  halt
 end
 wait    1
 mecho   _- Только не по голове,- простонал Абавул, и повалился на землю.
@@ -319,8 +319,8 @@ Tree <КОПАТЬСЯ МУСОР>~
 2 c 0
 копаться разгрести рыться~
 if !(%arg.contains(мусор)%) && !(%arg.contains(куч)%)
-   return 0
-   halt
+  return 0
+  halt
 end
 wsend %actor% Вы запустили руку по самый локоть в кучу мусора...
 wsend %actor% и нащупали что-то круглое и скользкое!
@@ -334,7 +334,7 @@ Tree <Принцесса пришла к леснику с востока>~
 2 g 100
 0~
 if (%actor.vnum% != 90007) || !(%direction.contains(east)%)
-   halt
+  halt
 end
 wait  1
 wecho Окно со звоном распахнулось и в комнату влетели 2 огромные летучие мыши.
@@ -342,9 +342,9 @@ wecho Их глаза горели адским пламенем.
 wecho Мыши захохотали дьявольскими голосами, смерчем закружились по комнате, и,
 wecho подхватив юную принцессу, вылетели в окно. 
 if %random.2% == 1
-   eval roomis 90041+%random.2%
+  eval roomis 90041+%random.2%
 else
-   eval roomis 90044+%random.2%
+  eval roomis 90044+%random.2%
 end
 wteleport %actor% %roomis%
 wdoor 90022 west flags a
@@ -358,22 +358,21 @@ Tree <Граф Дракула убит>~
 0 f 100
 0~
 mload obj 90001
-if (%world.curobjs(216)%) < 50 && (%random.5% == 4)
-   mload obj 216
+if (%world.curobjs(216)% < 50 && %random.10% == 1 )
+  mload obj 216
 end
 if (%world.curobjs(90012)%) < 10 && (%random.10% < 2)
-   * mload obj 90012
-   halt
+  mload obj 90012
 end
-if (%world.curobjs(571)%) < 1 && (%random.10% < 2)
-   mload obj 571
+if (%world.curobjs(571)%) < 1 && (%random.1000% <= 250)
+  mload obj 571
 end
 if %world.curobjs(1232)% < 1
-if %world.curobjs(1231)% < 1
-if %random.100% < 3
-mload obj 1232
-end
-end
+  if %world.curobjs(1231)% < 1
+    if %random.10000% < 50
+      mload obj 1232
+    end
+  end
 end
 ~
 #90019
@@ -381,14 +380,14 @@ Tree <Граф Дракула сражается>~
 0 k 100
 0~
 if !%exist.mob(90012)%
-detach 90019 %self.id%
-halt
+  detach 90019 %self.id%
+  halt
 end
 calcuid  blondies 90012 mob
-   if (%blondies.room% == %self.room%)
-     halt
-   end
-   exec 90024 %blondies.id%
+if (%blondies.room% == %self.room%)
+  halt
+end
+exec 90024 %blondies.id%
 detach 90019 %self.id%
 ~
 #90020
@@ -451,7 +450,7 @@ Tree <Убита русалка>~
 0 f 100
 0~
 if %world.curobjs(90009)% < 15 && %random.100% < 10
-   mload obj 90009
+  mload obj 90009
 end
 ~
 #90022
@@ -459,7 +458,7 @@ Tree <Убита блондинка>~
 0 f 100
 0~
 if %world.curobjs(90010)% < 4 && %random.100% < 10
-   mload obj 90010
+  mload obj 90010
 end
 ~
 #90023
@@ -467,7 +466,7 @@ Tree <Убита брюнетка>~
 0 f 100
 0~
 if %world.curobjs(90011)% < 10 && %random.100% < 10
-   mload obj 90011
+  mload obj 90011
 end
 ~
 #90024
@@ -475,7 +474,7 @@ Tree <Блондинка встала и телепортнулась на помощь>~
 0 z 100
 0~
 if %self.fighting%
-   halt
+  halt
 end
 stand
 mteleport %self% 90039
@@ -496,26 +495,26 @@ Tree <Вырвиглаз обижает старика>~
 0 b 100
 0~
 wait 1
-       if !%self.fighting%
-         switch %random.8%
-         case 1
-         mecho   - Гы, ты, старая вонючка, - проревел Вырвиглаз  и запустил в старика костью.
-         masound - Гы, ты, старая вонючка, - послышалось из соседней комнаты.
-         break
-         case 2
-         mecho   - Че расселся здесь, старый козел ? - прорычал Вырвиглаз, и запустил в старика
-         mecho   костью, которая больно ударила того в голову. Старик горько заплакал.
-         masound - Че расселся здесь, старый козел ? - послышалось из соседней комнаты. Затем
-         masound раздался чей-то тихий плач.
-         break
-         case 3
-         mecho   - Ну ты, барон вшивый, вылижи-ка мне сапоги ! - проскрипел Вырвиглаз и пнул
-         mecho   старика в бок. Старик застонал и отполз в угол.
-         masound - Ну ты, барон вшивый, вылижи-ка мне сапоги ! - послышалось из соседней комнаты.
-         break
-         done
-       end
-       wait 4s
+if !%self.fighting%
+  switch %random.8%
+    case 1
+      mecho   - Гы, ты, старая вонючка, - проревел Вырвиглаз  и запустил в старика костью.
+      masound - Гы, ты, старая вонючка, - послышалось из соседней комнаты.
+    break
+    case 2
+      mecho   - Че расселся здесь, старый козел ? - прорычал Вырвиглаз, и запустил в старика
+      mecho   костью, которая больно ударила того в голову. Старик горько заплакал.
+      masound - Че расселся здесь, старый козел ? - послышалось из соседней комнаты. Затем
+      masound раздался чей-то тихий плач.
+    break
+    case 3
+      mecho   - Ну ты, барон вшивый, вылижи-ка мне сапоги ! - проскрипел Вырвиглаз и пнул
+      mecho   старика в бок. Старик застонал и отполз в угол.
+      masound - Ну ты, барон вшивый, вылижи-ка мне сапоги ! - послышалось из соседней комнаты.
+    break
+  done
+end
+wait 4s
 ~
 #90027
 Tree <Вырвиглаз убит>~
@@ -523,13 +522,13 @@ Tree <Вырвиглаз убит>~
 ~
 mload obj 90021
 if %world.curobjs(90017)% < 10 && %random.10% < 2
-   mload obj 90017
+  mload obj 90017
 end
 if %world.curobjs(90018)% < 10 && %random.10% < 2
-   mload obj 90018
+  mload obj 90018
 end
 if %world.curobjs(90020)% < 10 && %random.10% < 2
-   mload obj 90020
+  mload obj 90020
 end
 calcuid Baron 90020 mob
 attach  90028 %Baron.id%
@@ -539,15 +538,15 @@ Tree <Нищему старику дали кошель>~
 0 j 100
 0~
 if %object.vnum% != 90021
-   return 0
-   halt
+  return 0
+  halt
 end
 return 1
 wait   1
 if %actor.sex% == 2
-   mecho - Спасибо тебе, сиятельная леди.
+  mecho - Спасибо тебе, сиятельная леди.
 else
-   mecho - Благодарствую тебя, великодушный рыцарь.
+  mecho - Благодарствую тебя, великодушный рыцарь.
 end
 mecho - Был я когда-то влиятельным бароном, и мой замок располагался неподалеку
 mecho отсюда.
@@ -567,7 +566,7 @@ mdoor  90050 west flags a
 mdoor  90050 west room  90054
 mdoor  90054 east flags a
 mdoor  90054 east room 90050
-follow %actor.name%
+follow .%actor.name%
 detach 90028 %self.id%
 ~
 #90029
@@ -583,8 +582,8 @@ Tree <г ОХОТИМСЯ НА ВЕЛИКАНОВ>~
 0 d 0
 охотимся убиваем бьем~
 if !%speech.contains(великан)%
-   return 0
-   halt
+  return 0
+  halt
 end
 wait  1
 mecho На физиономии великана отразилась лихорадочная работа извилин.
@@ -602,24 +601,24 @@ Tree <г ТАЩИ ВТОРОГО>~
 0 d 0
 веди приведи тащи~
 if (!%speech.contains(второго)% && !%speech.contains(брат)%) || (%actor.id% != %Hero.id%)
-   halt
+  halt
 end
 calcuid second 90025 mob
 if %second%
-   calcuid room 90056 room
-   attach  90032 %room.id%
-   exec    90032 %room.id%
-   detach  90032 %room.id%
-   if (%second.room% == %self.room%)
-      wait 1
-      attach  90033 %self.id%
-      mecho - Щас !- обрадованно закивал громила и поплелся на запад.
-      mecho Вскоре он показался, таща за руку хнычущего и упирающего
-      mecho великана, только абсолютно белого.
-      mecho - Не ешьте нас, - заревели братья, и принялись размазывать
-      mecho грязные потоки по щекам.- Мы будем послушными, - продолжали
-      mecho они, истекая слезами.
-   end
+  calcuid room 90056 room
+  attach  90032 %room.id%
+  exec    90032 %room.id%
+  detach  90032 %room.id%
+  if (%second.room% == %self.room%)
+    wait 1
+    attach  90033 %self.id%
+    mecho - Щас !- обрадованно закивал громила и поплелся на запад.
+    mecho Вскоре он показался, таща за руку хнычущего и упирающего
+    mecho великана, только абсолютно белого.
+    mecho - Не ешьте нас, - заревели братья, и принялись размазывать
+    mecho грязные потоки по щекам.- Мы будем послушными, - продолжали
+    mecho они, истекая слезами.
+  end
 end
 detach  90031 %self.id%
 ~
@@ -635,7 +634,7 @@ Tree <г ДЕРИТЕСЬ>~
 0 d 0
 деритесь бейтесь~
 if %actor.id% != %Hero.id%
-   halt
+  halt
 end
 mkill   белый
 detach  90033 %self.id%
@@ -645,8 +644,8 @@ Tree <ТРЕСНУТЬ ВОРОТА>~
 2 c 1
 колотить треснуть стукнуть~
 if !%arg.contains(ворота)% && !%arg.contains(створк)%
-   return 0
-   halt
+  return 0
+  halt
 end
 wecho Створки с грохотом упали на землю, открывая проход.
 wdoor   90057 west purge
@@ -667,12 +666,12 @@ wload   mob 90026
 calcuid Tengis 90026 mob
 set     Target %random.pc%
 if %Tengis% && %Target%
-   wecho  На двор выпрыгнул здоровенный восточного вида парень в кимоно, подпоясанный
-   wecho  коричневым поясом.
-   wecho  Присев в низком "кибадучи" он сделал несколько приседаний и прыгнул вперед,
-   wecho  выбросив голую пятку...
-   wait   3s
-   wforce %Tengis% attack %Target.name%
+  wecho  На двор выпрыгнул здоровенный восточного вида парень в кимоно, подпоясанный
+  wecho  коричневым поясом.
+  wecho  Присев в низком "кибадучи" он сделал несколько приседаний и прыгнул вперед,
+  wecho  выбросив голую пятку...
+  wait   3s
+  wforce %Tengis% attack %Target.name%
 end
 detach  90035 %self.id%
 ~
@@ -681,7 +680,7 @@ Tree <Тенгиза замочили>~
 0 f 100
 ~
 if %world.curobjs(90022)% < 10 && %random.10% < 2
-   mload obj 90022
+  mload obj 90022
 end
 mecho   -Нарбек, убэй их,-истерично завопил Ибн-Налим.
 mload   mob 90027
@@ -689,10 +688,10 @@ calcuid Narbek 90027 mob
 set     Target %random.pc%
 return  0
 if %Narbek% && %Target%
-   mecho  Во дворе показался следующий боец, на этот раз в черном поясе.
-   mecho  - Я твой ишак... - завопил он, увидев распростертое тело брата,
-   mecho  и нанес вполне сносный "макиваши"
-   mforce %Narbek% attack %Target.name%
+  mecho  Во дворе показался следующий боец, на этот раз в черном поясе.
+  mecho  - Я твой ишак... - завопил он, увидев распростертое тело брата,
+  mecho  и нанес вполне сносный "макиваши"
+  mforce %Narbek% attack %Target.name%
 end
 ~
 #90037
@@ -700,10 +699,10 @@ Tree <Нарбека замочили>~
 0 f 100
 ~
 if %world.curobjs(90023)% < 10 && %random.10% < 2
-   mload obj 90023
+  mload obj 90023
 end
 if %world.curobjs(90024)% < 10 && %random.10% < 2
-   mload obj 90024
+  mload obj 90024
 end
 mdoor 90058 west flags a
 mdoor 90058 west room  90059
@@ -713,34 +712,34 @@ Tree <PC вошел в замок>~
 2 e 100
 0~
 if %started%
-   halt
+  halt
 end
 wait  1
 set   started 1
 while %IbnNalim%
-      set     IbnNalim 0
-      calcuid IbnNalim 90028 mob
-      if !(%IbnNalim%)
-         halt
-      end
-      if !%IbnNalim.fighting%
-         wait   1
-         switch %random.4%
-         case 1
-         wecho   -Слюшай, танэц живата хачу, да, - послышался противный голос, а затем
-         wecho   всхлипывание.
-         wasound -Слюшай, танэц живата хачу, да, - послышался противный голос, а затем
-         wasound всхлипывание.
-         break
-         case 2
-         wecho   -Я тивой мама в гроб видэл, да, разиве эта танэц живата. - раздался истошный
-         wecho   визг.
-         wasound -Я тивой мама в гроб видэл, да, разиве эта танэц живата. - раздался истошный
-         wasound визг.
-         break
-         done
-      end
-      wait 6s
+  set     IbnNalim 0
+  calcuid IbnNalim 90028 mob
+  if !(%IbnNalim%)
+    halt
+  end
+  if !%IbnNalim.fighting%
+    wait   1
+    switch %random.4%
+      case 1
+        wecho   -Слюшай, танэц живата хачу, да, - послышался противный голос, а затем
+        wecho   всхлипывание.
+        wasound -Слюшай, танэц живата хачу, да, - послышался противный голос, а затем
+        wasound всхлипывание.
+      break
+      case 2
+        wecho   -Я тивой мама в гроб видэл, да, разиве эта танэц живата. - раздался истошный
+        wecho   визг.
+        wasound -Я тивой мама в гроб видэл, да, разиве эта танэц живата. - раздался истошный
+        wasound визг.
+      break
+    done
+  end
+  wait 6s
 done
 detach  90038 %self.id%
 ~
@@ -754,12 +753,12 @@ wecho - Сатан мутанто ! - нараспев проревел Ибн-Налим.
 wload   mob 90029
 calcuid monstr 90029 mob
 if %monstr%
-   wecho Но похоже, мозги у старого обкуренного Ибн-Налима че-то там напутали, и
-   wecho вызванное "сатан мутанто" оказалось на редкость болезненным и худосочным.
-   wecho С кряхтеньем и стонами оно поползло в Вашу сторону.
-   wait   3s
-   set    Target %random.pc%
-   wforce %monstr% attack %Target.name%
+  wecho Но похоже, мозги у старого обкуренного Ибн-Налима че-то там напутали, и
+  wecho вызванное "сатан мутанто" оказалось на редкость болезненным и худосочным.
+  wecho С кряхтеньем и стонами оно поползло в Вашу сторону.
+  wait   3s
+  set    Target %random.pc%
+  wforce %monstr% attack %Target.name%
 end
 wdoor   90061 west flags a
 wdoor   90061 west room  90060
@@ -772,47 +771,47 @@ Tree <ИбнНалима замочили>~
 0 f 100
 ~
 if %world.curobjs(90025)% < 10
-if %random.10% == 1
-mload obj 90025
-end
+  if %random.10% == 1
+    mload obj 90025
+  end
 end
 if %world.curobjs(90026)% < 10
-if %random.10% == 1
-mload obj 90026
-end
+  if %random.10% == 1
+    mload obj 90026
+  end
 end
 if %world.curobjs(90027)% < 10
-if %random.10% == 1
-mload obj 90027
-end
+  if %random.10% == 1
+    mload obj 90027
+  end
 end
 if %world.curobjs(90028)% < 10
-if %random.10% == 1
-mload obj 90028
-end
+  if %random.10% == 1
+    mload obj 90028
+  end
 end
 if !%actor% || %actor.vnum% != -1
-halt
+  halt
 end
 calcuid Girl 90030 mob
 if %Girl%
-if %actor.sex% == 2
-mecho - Спасибо тебе, тетечка, дай Бог тебе здоровья и жениха
-mecho не кривого.
-else
-mecho -Ой, дядечку, век помнить буду.
-end
-%actor.exp(+50000)
-mecho Обрадованная девчонка быстро прошмыгнула мимо Вас и скрылась во дворе...
-mpurge %Girl%
+  if %actor.sex% == 2
+    mecho - Спасибо тебе, тетечка, дай Бог тебе здоровья и жениха
+    mecho не кривого.
+  else
+    mecho -Ой, дядечку, век помнить буду.
+  end
+  %actor.exp(+50000)
+  mecho Обрадованная девчонка быстро прошмыгнула мимо Вас и скрылась во дворе...
+  mpurge %Girl%
 end
 calcuid Older 90020 mob
 if %Older%
-if %Older.realroom% == %actor.realroom%
-mpurge %Older%
-mecho Старик растворился. На его месте оказался стройный молодой мужчина
-mecho с орлиным взором.
-end
+  if %Older.realroom% == %actor.realroom%
+    mpurge %Older%
+    mecho Старик растворился. На его месте оказался стройный молодой мужчина
+    mecho с орлиным взором.
+  end
 end
 return 0
 set Hero %actor%
@@ -826,7 +825,7 @@ Tree <Принцесса вошла в зону 901>~
 2 g 100
 0~
 if %actor.vnum% != 90007
-   halt
+  halt
 end
 wait    1
 calcuid room   90073 room   
@@ -851,14 +850,14 @@ Tree <г ЖДИ>~
 0 d 1
 стой жди отстань сядь~
 if %actor.id% != %Keeper.id%
-   halt
+  halt
 end
 wait 1
 if %actor.sex% == 2
-   mecho - О, моя спасительница, я подожду тебя, - сказала принцесса.
+  mecho - О, моя спасительница, я подожду тебя, - сказала принцесса.
 else
-   mecho - О, отважный рыцарь, мой спаситель, я готова ждать тебя целую вечность, -
-   mecho кокетливо протянула принцесса.
+  mecho - О, отважный рыцарь, мой спаситель, я готова ждать тебя целую вечность, -
+  mecho кокетливо протянула принцесса.
 end
 mtransform 90038
 сесть
@@ -870,14 +869,14 @@ Tree <г ПОШЛИ>~
 0 d 1
 встань пошли следуй вперед~
 if %actor.id% != %Keeper.id%
-   halt
+  halt
 end
 wait 1
 if %actor.sex% == 2
-   mecho - Я готова, - покорно прошептала принцесса.
+  mecho - Я готова, - покорно прошептала принцесса.
 else
-   mecho - Пойдем, о прекрасный рыцарь,- не сводя с Вас влюбленного
-   mecho взгляда пропела принцесса.
+  mecho - Пойдем, о прекрасный рыцарь,- не сводя с Вас влюбленного
+  mecho взгляда пропела принцесса.
 end
 mtransform 90037
 встать
@@ -889,7 +888,7 @@ Tree <Принцесса вошла в последнюю комнату зоны>~
 2 g 100
 0~
 if (%actor.vnum% != 90007)
-   halt
+  halt
 end
 wait 1
 wecho Ветви деревьев расступились, открыв путь на юг.
@@ -901,7 +900,7 @@ Tree <Принцесса вошла в лес>~
 2 g 100
 0~
 if (%actor.vnum% != 90037)
-   halt
+  halt
 end
 wait   1
 attach 90047 %actor.id%
@@ -936,11 +935,11 @@ attack %target.name%
 Tree <Шамана убили>~
 0 f 100
 0~
-if %world.curobjs(90031)% < 10 && %random.10% < 2
-   mload obj 90031
+if ((%world.curobjs(90031)%) < 3 && (%random.1000% < 80))
+  mload obj 90031
 end
 if %world.curobjs(90032)% < 10 && %random.10% < 2
-   mload obj 90032
+  mload obj 90032
 end
 mload  mob 90034
 return 0
@@ -952,38 +951,38 @@ Tree <Зачитан принц>~
 mecho Внезапно на поляну выскочило ужасного вида чудовище.
 wait 1
 foreach next %self.npc%
-if %next.vnum% == 90032
-mecho При виде чудовища оборванец завизжал "Ой, мамочка !" и скрылся в кустах.
-set oborvanec %next%
-wait 1
-mpurge %oborvanec%
-end
+  if %next.vnum% == 90032
+    mecho При виде чудовища оборванец завизжал "Ой, мамочка !" и скрылся в кустах.
+    set oborvanec %next%
+    wait 1
+    mpurge %oborvanec%
+  end
 done
 if %exist.mob(90037)%
-calcuid princess 90037 mob
+  calcuid princess 90037 mob
 end
 if !%princess%
-if %exist.mob(90038)%
-calcuid princess 90038 mob
-attach 90042 %princess.id%
-exec 90042 %princess.id%
-attach 90043 %princess.id%
-detach 90044 %princess.id%
-detach 90042 %princess.id%
-end
+  if %exist.mob(90038)%
+    calcuid princess 90038 mob
+    attach 90042 %princess.id%
+    exec 90042 %princess.id%
+    attach 90043 %princess.id%
+    detach 90044 %princess.id%
+    detach 90042 %princess.id%
+  end
 end
 if %princess%
-mecho -Тетя ! - радостно завизжало чудовище и бросилось к принцессе.
-follow принцесса
+  mecho -Тетя ! - радостно завизжало чудовище и бросилось к принцессе.
+  follow принцесса
 else
-set princess %random.pc%
-follow %princess.name%
+  set princess %random.pc%
+  follow %princess.name%
 end
 attach 90052 %self.id%
 attach 90053 %self.id%
 if %exist.mob(90036)%
-calcuid sorceress 90036 mob
-attach 90054 %sorceress.id%
+  calcuid sorceress 90036 mob
+  attach 90054 %sorceress.id%
 end
 exec 90053 %self.id%
 mdoor 90076 east flags a
@@ -997,10 +996,10 @@ Tree <Оборванца убили>~
 0 f 100
 0~
 if %world.curobjs(90029)% < 10 && %random.10% == 1
-   mload obj 90029
+  mload obj 90029
 end
 if %world.curobjs(90030)% < 10 && %random.10% == 1
-   mload obj 90030
+  mload obj 90030
 end
 ~
 #90052
@@ -1008,14 +1007,14 @@ Tree <Дамаджнули принца>~
 0 p 100
 0~
 if %damager.vnum% == -1
-   if %damager.sex% == 2
-      mecho - Не надо, тетечка, я буду хорошим. - разревел%self.u% %self.name%.
-   else
-      mecho - Если ты еще раз меня тронешь, я пожалуюсь папе, и он прикажет
-      mecho тебя казнить. - заревел%self.g% %self.name%.
-   end
-   return 1
-   halt
+  if %damager.sex% == 2
+    mecho - Не надо, тетечка, я буду хорошим. - разревел%self.u% %self.name%.
+  else
+    mecho - Если ты еще раз меня тронешь, я пожалуюсь папе, и он прикажет
+    mecho тебя казнить. - заревел%self.g% %self.name%.
+  end
+  return 1
+  halt
 end
 return 0
 ~
@@ -1024,35 +1023,35 @@ Tree <Prince goes>~
 0 b 100
 0~
 wait 1s
-      switch %random.8%
-      case 1
-      mecho - Какать хочу-у-у, - протянул%self.g% %self.name%.
-      break
-      case 2
-      set  pc %random.pc%
-      if %pc.sex% == 2
-          mecho - Тетенька, дай конфетку-у-у ! - заревел%self.g% %self.name%.
-      else
-          mecho - Дяденька, хочу конфетку-у-у ! - заревел%self.g% %self.name%.
-      end
-      break
-      case 3
-      mecho - У-у-у, мороженого хочу-у-у ! - заскулил%self.g% %self.name%.
-      break
-      case 4
-      mecho - Возьми на ручки-и-и ! - забасил%self.g% %self.name%.
-      break
-      case 5
-      mecho - Я спать хочу-у-у ! - захныкал%self.g% %self.name%.
-      break
-      done
+switch %random.8%
+  case 1
+    mecho - Какать хочу-у-у, - протянул%self.g% %self.name%.
+  break
+  case 2
+    set  pc %random.pc%
+    if %pc.sex% == 2
+      mecho - Тетенька, дай конфетку-у-у ! - заревел%self.g% %self.name%.
+    else
+      mecho - Дяденька, хочу конфетку-у-у ! - заревел%self.g% %self.name%.
+    end
+  break
+  case 3
+    mecho - У-у-у, мороженого хочу-у-у ! - заскулил%self.g% %self.name%.
+  break
+  case 4
+    mecho - Возьми на ручки-и-и ! - забасил%self.g% %self.name%.
+  break
+  case 5
+    mecho - Я спать хочу-у-у ! - захныкал%self.g% %self.name%.
+  break
+done
 ~
 #90054
 Tree <Принц зашел к фее>~
 0 h 100
 0~
 if %actor.vnum% != 90034
-   halt
+  halt
 end
 wait 1
 mecho - Бедный ребенок ! - заголосила %self.name% и начала рвать
@@ -1061,15 +1060,15 @@ mecho - О, если кто-нибудь бы согласился найти этого ужасного Арнольда,
 mecho чтоб ему серы не хватило, я бы ничего не пожалела для этого героя.
 set   menno 0
 foreach tpc %self.pc%
-if %tpc.sex% == 1
-if !%menno%
-mecho Фея многозначительно взглянула на кровать в углу (шикарный надо сказать
-mecho сексодромчик), затем кинула многообещающий взгляд на
-set menno 1
-end
-mecho %tpc.rname%
-msend %tpc.name% (А хороша, стерва, -подумали Вы, оценив фигурку под прозрачным пеньюаром)
-end
+  if %tpc.sex% == 1
+    if !%menno%
+      mecho Фея многозначительно взглянула на кровать в углу (шикарный надо сказать
+      mecho сексодромчик), затем кинула многообещающий взгляд на
+      set menno 1
+    end
+    mecho %tpc.rname%
+    msend %tpc.name% (А хороша, стерва, -подумали Вы, оценив фигурку под прозрачным пеньюаром)
+  end
 done
 attach 90055 %self.id%
 ~
@@ -1078,17 +1077,17 @@ Tree <г СОГЛАСЕН>~
 0 d 1
 готов согласен иду~
 if %actor.vnum% != -1
-   halt
+  halt
 end
 wait  1
 mecho - Вот и чудесно ! - захлопала в ладоши фея.
 mecho - Возьми этот амулет ! Если ты его оденешь - то черти примут тебя за своего.
 mload obj 90033
-give  амулет %actor.name%
+give амулет .%actor.name%
 wait  2s
 foreach tpc %self.pc%
-mteleport %tpc% 90081
-msend %tpc% Вы очутились на дороге, ведущей к черной пещере.
+  mteleport %tpc% 90081
+  msend %tpc% Вы очутились на дороге, ведущей к черной пещере.
 done
 detach 90054 %self.id%
 detach 90055 %self.id%
@@ -1098,80 +1097,80 @@ Tree <Старый черт разгадывает кроссворд>~
 0 h 100
 0~
 if %actor.vnum% != -1 || %answer% || %self.fighting%
-   halt
+  halt
 end
 wait 1
 attach 90057 %self.id%
-      if !%self.fighting%
-         switch %random.3%
-         case 1
-         mecho - Грешник, торгующий блудницами, семь букв, вторая "у", шестая "е", -
-         mecho нараспев проскрипел черт и надолго задумался.
-         set    answer сутенер
-         global answer
-         break
-         case 2
-         mecho - Игривое название шприца у наркоманов, семь букв, вторая "а", седьмая "а", -
-         mecho пробормотал старик и замолк.
-         set    answer машинка
-         global answer
-         break
-         case 3
-         mecho - Блатной хулиган, шесть букв, первая "б", пятая "а", -
-         mecho прошепелявил охранник и начал скрести копытом в затылке.
-         set    answer баклан
-         global answer
-         break
-         done
-      end
-      wait  20s
+if !%self.fighting%
+  switch %random.3%
+    case 1
+      mecho - Грешник, торгующий блудницами, семь букв, вторая "у", шестая "е", -
+      mecho нараспев проскрипел черт и надолго задумался.
+      set    answer сутенер
+      global answer
+    break
+    case 2
+      mecho - Игривое название шприца у наркоманов, семь букв, вторая "а", седьмая "а", -
+      mecho пробормотал старик и замолк.
+      set    answer машинка
+      global answer
+    break
+    case 3
+      mecho - Блатной хулиган, шесть букв, первая "б", пятая "а", -
+      mecho прошепелявил охранник и начал скрести копытом в затылке.
+      set    answer баклан
+      global answer
+    break
+  done
+end
+wait  20s
 ~
 #90057
 Tree <Сказали что-то охраннику>~
 0 d 0
 *~
 if %actor.vnum% != -1
-   halt
+  halt
 end
 wait 1
 if (%speech%==%answer%)
-   set okquest 1
+  set okquest 1
 else
-   set okquest 0
+  set okquest 0
 end
 mecho   Старый черт удивленно поднял глаза.
 calcuid amuletObj 90033 obj
 foreach target %self.pc%
-set amulet 0
-if %target.eq(4)%==%amuletObj%
-set amulet 1
-end
-if %target.eq(3)%==%amuletObj%
-set amulet 1
-end
-if %amulet%
-break
+  set amulet 0
+  if %target.eq(4)%==%amuletObj%
+    set amulet 1
+  end
+  if %target.eq(3)%==%amuletObj%
+    set amulet 1
+  end
+  if %amulet%
+  break
 end
 done
 if !%amulet%
-mecho -Бей чужаков ! - завизжал он подсевшим голосом.
-stand
-set target %random.pc%
-attack %target.name%
-detach 90056  %self.id%
-detach 90057  %self.id%
-halt
+  mecho -Бей чужаков ! - завизжал он подсевшим голосом.
+  stand
+  set target %random.pc%
+  attack %target.name%
+  detach 90056  %self.id%
+  detach 90057  %self.id%
+  halt
 end
 if !%okquest%
-mecho - Эх, молодежь нынче пошла, ничего не знает ! - сокрушенно пробормотал
-mecho он, и опять уткнулся в кроссворд.
-halt
+  mecho - Эх, молодежь нынче пошла, ничего не знает ! - сокрушенно пробормотал
+  mecho он, и опять уткнулся в кроссворд.
+  halt
 end
 if %actor.sex% == 2
-mecho - Какая смазливая чертовочка, - пропел охранник, пожирая %actor.vname% похотливым
-mecho взглядом, - и неглупа, к тому-же.
+  mecho - Какая смазливая чертовочка, - пропел охранник, пожирая %actor.vname% похотливым
+  mecho взглядом, - и неглупа, к тому-же.
 else
-mecho - Правильно, - удивленно пробормотал он, - Какой умный молодой черт.
+  mecho - Правильно, - удивленно пробормотал он, - Какой умный молодой черт.
 end
 wait 1s
 mecho - Проходи уж, - продолжил старый черт и открыл турникет.
@@ -1186,28 +1185,28 @@ Tree <Черт не видит амулета на PC>~
 0 q 100
 0~
 if %actor.vnum% != -1
-   halt
+  halt
 end
 calcuid amuletObj 90033 obj
 foreach target %self.pc%
-set amulet 0
-if %target.eq(4)%==%amuletObj%
-set amulet 1
-end
-if %target.eq(3)%==%amuletObj%
-set amulet 1
-end
-if %amulet%
-break
+  set amulet 0
+  if %target.eq(4)%==%amuletObj%
+    set amulet 1
+  end
+  if %target.eq(3)%==%amuletObj%
+    set amulet 1
+  end
+  if %amulet%
+  break
 end
 done
 if !%amulet%
-wait 1
-mecho - Бей чужаков ! - заревел%self.g% %self.name%.
-stand
-set target %random.pc%
-attack %target.name%
-halt
+  wait 1
+  mecho - Бей чужаков ! - заревел%self.g% %self.name%.
+  stand
+  set target %random.pc%
+  attack %target.name%
+  halt
 end
 ~
 #90059
@@ -1216,13 +1215,13 @@ Tree <Арнольда убили>~
 0~
 calcuid prince 90034 mob
 if !%prince%
-   halt
+  halt
 end
 attach  90060 %prince.id%
 exec    90060 %prince.id%
 detach  90060 %prince.id%
 if %actor.vnum% != -1
-   halt
+  halt
 end
 calcuid sorceress 90036 mob
 attach  90061 %sorceress.id%
@@ -1241,115 +1240,116 @@ return     0
 Tree <Вернулись к принцессе>~
 0 q 100
 *~
+eval skl %actor.remort%*5+79
 if %actor.name% != %Killer.name%
-   halt
+  halt
 end
 wait   1
 mecho  - Я очень благодарна тебе, %actor.name% ! - обрадовано закричала фея.
 if %actor.sex% == 1
-   msend %actor% Она бросилась к Вам на шею и Ваши губы встретились. Вы обняли ее...
-   msend %actor% (Что было дальше - Вы можете придумать сами. В общем эту, интимную,
-   msend %actor% часть обещанной награды, она, будем считать, отдала)
+  msend %actor% Она бросилась к Вам на шею и Ваши губы встретились. Вы обняли ее...
+  msend %actor% (Что было дальше - Вы можете придумать сами. В общем эту, интимную,
+  msend %actor% часть обещанной награды, она, будем считать, отдала)
 end
 wait 2
 mecho Фея весело засмеялась, посмотрев на %actor.rname% и хлопнув в ладоши произнесла мудреное заклинание.
 wait 1
 switch %actor.class%
-*лекарь
+  *лекарь
   case 1
-   if %actor.skill(лидерство)% < 100
+    if %actor.skill(лидерство)% <= %skl%
       mskilladd %actor.name% лидерство %random.3%
-   else 
+    else 
       дум %actor.name%
       mecho Фея глядя на %actor.rname% сказала: "Hепонятно, или заклинание слабое, или твоя тупая бошка не воспринимает знания!"
       вздох
-   end
+    end
   break
-*вор
+  *вор
   case 2
-if %actor.skill(заколоть)% < 100
-mskilladd %actor.name% заколоть %random.3%
-   else 
+    if %actor.skill(заколоть)% <= %skl%
+      mskilladd %actor.name% заколоть %random.3%
+    else 
       дум %actor.name%
       mecho Фея сказала: Я научу тебя, %actor.name%, лучше владеть некоторыми видами оружия.
       вздох
-   end
+    end
   break
-*богатырь
+  *богатырь
   case 3
-   if %actor.skill(богатырский молот)% < 100
+    if %actor.skill(богатырский молот)% <= %skl%
       mskilladd %actor.name% богатырский.молот %random.3%
-   else 
+    else 
       дум %actor.name%
       mecho Фея глядя на %actor.rname% сказала: "Hепонятно, или заклинание слабое, или твоя тупая бошка не воспринимает знания!"
       вздох
-   end
+    end
   break
-*наемник
+  *наемник
   case 4
-if %actor.skill(подножка)% < 100
-mskilladd %actor.name% подножка %random.3%
-   else 
+    if %actor.skill(подножка)% <= %skl%
+      mskilladd %actor.name% подножка %random.3%
+    else 
       дум %actor.name%
       mecho Фея сказала: Я научу тебя, %actor.name%, лучше владеть некоторыми видами оружия.
       вздох
-   end
+    end
   break
-*друж
+  *друж
   case 5
-   if %actor.skill(осторожный стиль)% < 100
+    if %actor.skill(осторожный стиль)% <= %skl%
       mskilladd %actor.name% осторожный.стиль %random.3%
-   else 
+    else 
       дум %actor.name%
       mecho Фея глядя на %actor.rname% сказала: "Hепонятно, или заклинание слабое, или твоя тупая бошка не воспринимает знания!"
       вздох
-   end
+    end
   break
-*витязь
+  *витязь
   case 9
-   if %actor.skill(точный стиль)% < 100
+    if %actor.skill(точный стиль)% <= %skl%
       mskilladd %actor.name% точный.стиль %random.3%
-   else 
+    else 
       дум %actor.name%
       mecho Фея глядя на %actor.rname% сказала: "Hепонятно, или заклинание слабое, или твоя тупая бошка не воспринимает знания!"
       вздох
-   end
+    end
   break
-*охотник
+  *охотник
   case 10
-   if %actor.skill(луки)% < 100
+    if %actor.skill(луки)% <= %skl%
       mskilladd %actor.name% луки %random.3%
-   else 
+    else 
       дум %actor.name%
       mecho Фея глядя на %actor.rname% сказала: "Hепонятно, или заклинание слабое, или твоя тупая бошка не воспринимает знания!"
       вздох
-   end
+    end
   break
-*кузнец
+  *кузнец
   case 11
-   if %actor.skill(ремонт)% < 100
+    if %actor.skill(ремонт)% <= %skl%
       mskilladd %actor.name% ремонт %random.3%
-   else 
+    else 
       дум %actor.name%
       mecho Фея глядя на %actor.rname% сказала: "Hепонятно, или заклинание слабое, или твоя тупая бошка не воспринимает знания!"
       вздох
-   end
+    end
   break
-*купец
+  *купец
   case 12
-   if %actor.skill(метнуть)% < 100
+    if %actor.skill(метнуть)% <= %skl%
       mskilladd %actor.name% метнуть %random.3%
-   else 
+    else 
       дум %actor.name%
       mecho Фея глядя на %actor.rname% сказала: "Hепонятно, или заклинание слабое, или твоя тупая бошка не воспринимает знания!"
       вздох
-   end
+    end
   break
   default
-   дум
-   wait 3
-   say Что-то или подустала я, или руки потные, не получилось ничего....
-   вздох
+    дум
+    wait 3
+    say Что-то или подустала я, или руки потные, не получилось ничего....
+    вздох
   break
 done   
 detach 90061 %self.id%
@@ -1360,7 +1360,7 @@ Tree <Убит черт с дубинкой>~
 0 f 100
 0~
 if (%world.curobjs(90035)% < 10) && (%random.10% < 2)
-   mload obj 90035
+  mload obj 90035
 end
 ~
 #90063
@@ -1368,7 +1368,7 @@ Tree <Убит черт в кожанке>~
 0 f 100
 0~
 if (%world.curobjs(90034)% < 10) && (%random.10% < 2)
-   mload obj 90034
+  mload obj 90034
 end
 ~
 #90065
@@ -1376,42 +1376,42 @@ Tree <Принцесса попала в последнюю комнату зоны>~
 2 g 100
 0~
 if %actor.vnum% != 90037
-   halt
+  halt
 end
 wait    1
 wforce  %actor% follow me
 wpurge  %actor%
 switch %random.10%
-case 1
- if %world.curobjs(544)%==0
-  wecho Прими за помощь эту книгу.
-  wload obj 544
- end
- break
-* контроль погоды
-case 2
- if %world.curobjs(545)%==0
-  wecho Прими за помощь эту книгу.
-  wload obj 545
- end
- break
-* свет
-case 3
- if %world.curobjs(546)%==0
-  wecho Прими за помощь эту книгу.
-  wload obj 546
- end
- break
- default
-wecho На земле прямо под вашими ногами вдруг проступила надпись: Спасибо.
-wecho Хоть бы налили, ну да ладно, хоть не скучно было, подумали вы.
-  wait 1s
-wecho Только вы об этом подумали откудато сверху что-то упало.
-  wload obj 101
-  wload obj 102
-  wload obj 103
- end
- break
+  case 1
+    if %world.curobjs(544)%==0
+      wecho Прими за помощь эту книгу.
+      wload obj 544
+    end
+  break
+  * контроль погоды
+  case 2
+    if %world.curobjs(545)%==0
+      wecho Прими за помощь эту книгу.
+      wload obj 545
+    end
+  break
+  * свет
+  case 3
+    if %world.curobjs(546)%==0
+      wecho Прими за помощь эту книгу.
+      wload obj 546
+    end
+  break
+  default
+    wecho На земле прямо под вашими ногами вдруг проступила надпись: Спасибо.
+    wecho Хоть бы налили, ну да ладно, хоть не скучно было, подумали вы.
+    wait 1s
+    wecho Только вы об этом подумали откудато сверху что-то упало.
+    wload obj 101
+    wload obj 102
+    wload obj 103
+  end
+break
 done
 ~
 #90066
@@ -1420,26 +1420,26 @@ tree <Барон выдает награду>~
 ~
 wait 1
 switch %Hero.class%
-case 2
-if %Hero.skill(проникающее оружие)% < 100
-mskilladd %Hero.name% проникающ.оруж %random.3%
-дум %Hero.name%
-mecho Барон сказал: Я научу тебя, %Hero.name%, лучше владеть некоторыми видами оружия.
-вздох
-end
-break
-case 4
-if %Hero.skill(отравить)% < 100
-mskilladd %Hero.name% отравить %random.3%
-дум %Hero.name%
-mecho Барон сказал: Я научу тебя, %Hero.name%, новым, более сильным рецептам ядов.
-вздох
-end
-break
-default
-mecho Молодой мужчина сказал: Прими за помощь немного денег.
-%Hero.gold(+1500)%
-done
+  case 2
+    if %Hero.skill(проникающее оружие)% < 100
+      mskilladd %Hero.name% проникающ.оруж %random.3%
+      дум %Hero.name%
+      mecho Барон сказал: Я научу тебя, %Hero.name%, лучше владеть некоторыми видами оружия.
+      вздох
+    end
+  break
+  case 4
+    if %Hero.skill(отравить)% < 100
+      mskilladd %Hero.name% отравить %random.3%
+      дум %Hero.name%
+      mecho Барон сказал: Я научу тебя, %Hero.name%, новым, более сильным рецептам ядов.
+      вздох
+    end
+  break
+  default
+    mecho Молодой мужчина сказал: Прими за помощь немного денег.
+    %Hero.gold(+1500)%
+  done
 ~
 #90067
 загрузка барона~
@@ -1451,5 +1451,101 @@ calcuid Baron 90031 mob
 remote Hero %baron.id%
 exec 90066  %baron.id%
 rdelete Hero %self.id%
+~
+#90068
+Блокировка выхода концом с плащом~
+1 c 1
+*~
+if %actor.class% == 8
+  return 0
+  halt
+end
+set str конец
+set str2 quit
+if %str.contains(%cmd%)% || %str2.contains(%cmd%)%
+  return 1
+  osend %actor% Клыки &Kплаща &Rвампира&n намертво вцепились в Вашу нежную плоть и не желают отпускать!
+  halt
+end
+return 0
+~
+#90069
+Нельзя снять плащ вампира~
+1 l 100
+~
+if %actor.class% != 8
+  return 0
+  osend %actor% _Клыки &Kплаща &Rвампира&n намертво впились в вашу шею!
+  oechoaround %actor%  %actor.name% попытал%actor.u% снять &Kплащ &Rвампира&n, но лишь взвыл%actor.g% от боли.
+end
+~
+#90070
+Плащ высысывает кровушку~
+1 bg 100
+~
+wait 1
+set target %self.worn_by%
+if (!%target% || (%target.class% == 8))
+  set target %self.carried_by%
+  if (%target% && (%target.class% != 8))
+    if %target.vnum% != -1
+      oecho &KПлащ &Rвампира&n презрительно сплюнул и вырвался из рук %target.rname%.
+      oforce %target% drop плащ.вамп
+      halt
+    end
+    osend %target% &KПлащ &Rвампира&n вдруг завозился и попытался взобраться к Вам на плечи.
+    set trash %target.eq(12)%
+    if %trash%
+      set trashname %trash.name%
+      oforce %target% снять %trashname.car%.%trashname.cdr%
+    end
+    oforce %target% одеть плащ.вампира
+  end
+  halt
+end
+eval dmg %target.maxhitp%/12
+if ((%target.hitp% < %dmg%) && (%target.vnum% == -1))
+  osend %target%  &KПлащ &Rвампира&n в последний раз с гнусным причмокиванием присосался к Вашей шее.
+  eval dmg %target.hitp%+2
+  set empty 1
+end
+osend %target% Вы чувствуете страшный упадок сил!
+eval erg %target.move%-15
+if %erg% > 0
+  eval buf %target.move(-%erg%)%
+end
+if ((%target.maxhitp% < 100) || (%target.vnum% != -1) || (%empty% == 1))
+  osend %target% &KПлащ &Rвампира&n недовольно поморщился и сползл с Ваших плеч.
+  osend %target% Последние капли крови вытекают из ужасных ран.
+  oechoaround %target% &KПлащ &Rвампира&n недовольно поморщился и сполз с плеч %target.rname%.
+  detach 90069 %self.id%
+  oforce %target% снять плащ.вампира
+  oforce %target% drop плащ.вампира
+  wait 1
+  if (%target.vnum% == -1)
+    odamage %target% %dmg%
+  end
+  attach 90069 %self.id%
+  halt
+end
+odamage %target% %dmg%
+switch %random.4%
+  case 1
+    osend %target% &KПлащ &Rвампира&n впился в вашу шею и высасывает из вас кровушку!
+    oechoaround %target% %target.name% захрипел%target.g%, пытаясь сорвать с шеи высасывающий кровь плащ!
+  break
+  case 2
+    osend %target% &Kплащ &Rвампира&n с глухим урчанием терзает вашу шею клыками!
+    oechoaround %target% &Kплащ &Rвампира&n с утробным урчанием сосет КРОВЬ из %target.rname%!
+  break
+  case 3
+    osend %target% &KПлащ &Rвампира&n с гнусным сопением присосался к вашей шее и сосет КРОВЬ!
+    oechoaround %target% &KПлащ &Rвампира&n гнусно сопит, высасывая КРОВЬ из %target.rname%!
+  break
+  case 4
+    osend %target% В вашу шею впились клыки &Kплаща &Rвампира&n!!! БОЛЬНО!!!
+    oechoaround %target% &KПлащ &Rвампира&n с урчанием запустил клыки в глотку %target.rname%!
+  break
+done
 ~
 $~

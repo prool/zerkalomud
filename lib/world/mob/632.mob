@@ -24,6 +24,7 @@ Weight: 60
 Special_Bitvector: 0 
 Skill: 4 150
 Skill: 132 150
+Skill: 136 75
 Skill: 157 150
 Spell: 75
 Spell: 75
@@ -54,6 +55,7 @@ Weight: 50
 Special_Bitvector: i0j0a1b1c1 
 Skill: 131 120
 Skill: 133 100
+Skill: 136 69
 Skill: 138 100
 Skill: 139 150
 Skill: 160 100
@@ -82,6 +84,7 @@ Weight: 50
 Special_Bitvector: i0j0a1b1c1 
 Skill: 131 120
 Skill: 133 100
+Skill: 136 69
 Skill: 138 100
 Skill: 139 150
 Skill: 160 100

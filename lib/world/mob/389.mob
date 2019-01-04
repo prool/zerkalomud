@@ -28,6 +28,7 @@ Weight: 80
 Special_Bitvector: 0 
 Skill: 12 100
 Skill: 22 100
+Skill: 136 48
 Spell: 5
 Spell: 5
 Spell: 6
@@ -102,6 +103,7 @@ Class: 103
 Height: 198
 Weight: 25
 Special_Bitvector: l0o0 
+Skill: 136 33
 E
 T 38909
 #38902
@@ -141,6 +143,7 @@ Class: 103
 Height: 198
 Weight: 17
 Special_Bitvector: l0 
+Skill: 136 33
 E
 T 38908
 #38903
@@ -157,11 +160,11 @@ T 38908
 стремительно проносится мимо.
 ~
 d0g0h0y0b1 x0z0A0m1 0 E
-12 15 -9 10d5+150 2d5+0
+12 15 3 10d5+150 2d5+0
 0d0+0 2000
 8 8 1
 Str: 10
-Dex: 24
+Dex: 23
 Int: 8
 Wis: 8
 Con: 8
@@ -172,6 +175,7 @@ Class: 103
 Height: 198
 Weight: 8
 Special_Bitvector: l0 
+Skill: 136 36
 E
 T 38910
 #38904
@@ -201,8 +205,10 @@ Class: 103
 Height: 198
 Weight: 36
 Special_Bitvector: o0 
+Skill: 136 45
 Skill: 137 100
 Helper: 38905
+Skill: 136 45
 E
 T 38911
 #38905
@@ -235,6 +241,7 @@ Height: 198
 Weight: 18
 Special_Bitvector: o0 
 Helper: 38904
+Skill: 136 27
 E
 T 38912
 #38906
@@ -259,6 +266,7 @@ Class: 103
 Height: 198
 Weight: 6
 Special_Bitvector: o0 
+Skill: 136 33
 E
 T 38913
 #38907
@@ -287,6 +295,7 @@ Class: 103
 Height: 198
 Weight: 15
 Special_Bitvector: o0 
+Skill: 136 42
 E
 #38908
 таранька~
@@ -316,6 +325,7 @@ Class: 103
 Height: 198
 Weight: 12
 Special_Bitvector: o0 
+Skill: 136 42
 E
 #38909
 стайка мальков~
@@ -345,6 +355,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: o0 
+Skill: 136 18
 E
 #38910
 щука~
@@ -368,6 +379,7 @@ Class: 103
 Height: 198
 Weight: 21
 Special_Bitvector: o0 
+Skill: 136 48
 E
 T 38915
 #38911
@@ -399,6 +411,7 @@ Class: 103
 Height: 198
 Weight: 68
 Special_Bitvector: o0 
+Skill: 136 60
 E
 #38912
 сом~
@@ -429,6 +442,7 @@ Class: 103
 Height: 198
 Weight: 82
 Special_Bitvector: o0 
+Skill: 136 63
 E
 T 38916
 #38913
@@ -453,6 +467,7 @@ Class: 103
 Height: 198
 Weight: 8
 Special_Bitvector: m0 
+Skill: 136 39
 E
 T 38918
 #38914
@@ -479,6 +494,7 @@ Class: 103
 Height: 198
 Weight: 7
 Special_Bitvector: l0a1 
+Skill: 136 42
 E
 #38915
 степная мышь~
@@ -502,6 +518,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: p0 
+Skill: 136 24
 E
 #38916
 суслик~
@@ -526,6 +543,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 27
 E
 #38917
 заяц степной комочек~
@@ -550,6 +568,7 @@ Class: 103
 Height: 198
 Weight: 9
 Special_Bitvector: n0 
+Skill: 136 33
 E
 T 38919
 #38918
@@ -574,6 +593,7 @@ Class: 103
 Height: 198
 Weight: 8
 Special_Bitvector: p0 
+Skill: 136 33
 E
 T 38919
 #38919
@@ -603,6 +623,7 @@ Class: 103
 Height: 198
 Weight: 12
 Special_Bitvector: g0m0 
+Skill: 136 33
 E
 T 38920
 L 1490 12 0 0
@@ -635,6 +656,7 @@ Class: 103
 Height: 198
 Weight: 21
 Special_Bitvector: p0 
+Skill: 136 39
 Skill: 140 100
 E
 T 38921
@@ -664,6 +686,7 @@ Class: 103
 Height: 198
 Weight: 28
 Special_Bitvector: p0 
+Skill: 136 36
 E
 T 38922
 #38922
@@ -695,6 +718,7 @@ Special_Bitvector: a1c1
 Skill: 2 100
 Skill: 132 70
 Skill: 134 20
+Skill: 136 63
 E
 T 38923
 #38923
@@ -720,6 +744,7 @@ Class: 103
 Height: 198
 Weight: 24
 Special_Bitvector: l0 
+Skill: 136 45
 E
 T 38924
 #38924
@@ -751,6 +776,7 @@ Weight: 120
 Special_Bitvector: y0b1c1d1 
 Skill: 1 30
 Skill: 132 40
+Skill: 136 60
 Skill: 137 100
 E
 T 38901
@@ -783,6 +809,7 @@ Weight: 120
 Special_Bitvector: y0b1c1d1 
 Skill: 1 30
 Skill: 132 60
+Skill: 136 60
 Skill: 137 100
 E
 T 38901
@@ -815,6 +842,7 @@ Weight: 120
 Special_Bitvector: y0b1c1d1 
 Skill: 1 30
 Skill: 132 60
+Skill: 136 60
 Skill: 137 100
 E
 T 38901
@@ -843,6 +871,7 @@ Class: 102
 Height: 198
 Weight: 96
 Special_Bitvector: 0 
+Skill: 136 42
 E
 #38928
 мальчишка~
@@ -866,6 +895,7 @@ Class: 102
 Height: 198
 Weight: 58
 Special_Bitvector: 0 
+Skill: 136 39
 E
 #38929
 дородный купец~
@@ -902,8 +932,10 @@ Class: 102
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1d1 
+Skill: 136 54
 Spell: 131
 Helper: 38924
+Skill: 136 54
 E
 T 38902
 #38930
@@ -941,8 +973,10 @@ Class: 102
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1d1 
+Skill: 136 54
 Spell: 131
 Helper: 38925
+Skill: 136 54
 E
 T 38903
 #38931
@@ -979,8 +1013,10 @@ Class: 102
 Height: 198
 Weight: 120
 Special_Bitvector: b1c1d1 
+Skill: 136 54
 Spell: 131
 Helper: 38926
+Skill: 136 54
 E
 T 38904
 #38932
@@ -1013,6 +1049,7 @@ Height: 198
 Weight: 68
 Special_Bitvector: b1c1d1 
 Skill: 134 100
+Skill: 136 45
 E
 T 38900
 T 38928
@@ -1049,8 +1086,10 @@ Class: 102
 Height: 198
 Weight: 59
 Special_Bitvector: a1b1c1d1 
+Skill: 136 36
 Skill: 139 50
 Helper: 38934
+Skill: 136 36
 E
 T 38906
 T 38952
@@ -1084,8 +1123,10 @@ Height: 198
 Weight: 73
 Special_Bitvector: a1b1c1d1 
 Skill: 131 100
+Skill: 136 48
 Skill: 139 100
 Helper: 38933
+Skill: 136 48
 E
 T 38907
 T 38952
@@ -1121,7 +1162,9 @@ Weight: 82
 Special_Bitvector: b1c1d1 
 Skill: 5 10
 Skill: 134 50
+Skill: 136 33
 Helper: 38939
+Skill: 136 33
 E
 T 38938
 #38936

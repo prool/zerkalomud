@@ -66,6 +66,7 @@ Class: 102
 Height: 22
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #62202
 корчмарь Бакул~
@@ -99,6 +100,7 @@ Class: 102
 Height: 22
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 90
 E
 T 62200
 #62203
@@ -144,7 +146,7 @@ E
 T 62209
 L 1439 20 0 0
 #62204
-хозяка весянка Олгинь~
+хозяйка весянка олгинь~
 весянка Олгинь~
 весянки Олгинь~
 весянке Олгинь~
@@ -156,7 +158,7 @@ L 1439 20 0 0
 Невысокая женщина в красиво вышитой рубахе до пят
 и поневе в сине-белую клетку. 
 ~
-b0d0g0l0m0n0o0r0t0u0x0y0A0 c0d0h0k0r0 -600 E
+b0d0g0l0m0n0o0r0t0u0x0y0 c0d0h0k0r0 -600 E
 27 5 -7 20d10+870 4d5+10
 0d0+0 110000
 8 8 2
@@ -221,13 +223,15 @@ T 62212
 На его работу не нахвалятся - но сейчас бондарь явно чем-то 
 встревожен и торопится домой.
 ~
-c0d0g0l0m0n0p0A0 k0r0 -600 E
-20 7 0 10d5+820 4d5+10
+c0d0g0n0p0A0 k0r0 -600 E
+29 -4 0 10d5+1200 15d10+10
 0d0+0 90000
 8 8 1
-Str: 23
-Dex: 18
-Int: 14
+Resistances: 0 0 0 0 20 0 0
+Success: 5
+Str: 29
+Dex: 22
+Int: 18
 Wis: 14
 Con: 21
 Cha: 16
@@ -237,11 +241,22 @@ ExtraAttack: 1
 Class: 102
 Height: 23
 Weight: 160
-Special_Bitvector: y0b1c1 
-Skill: 5 100
+Special_Bitvector: y0b1c1d1 
+Feat: 1
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 35
+Feat: 37
+Skill: 4 100
+Skill: 22 100
 Skill: 136 100
 Skill: 137 100
-Skill: 150 90
+Skill: 141 80
+Skill: 142 80
+Skill: 146 80
+Skill: 148 80
 Skill: 151 60
 Skill: 157 100
 E
@@ -278,6 +293,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: y0b1c1 
 Skill: 22 50
+Skill: 136 60
 Skill: 137 100
 Skill: 157 70
 E
@@ -297,9 +313,15 @@ E
 себе оказался поблизости.
 ~
 b0c0d0f0g0l0m0n0o0p0t0x0y0A0 d0f0k0r0z0C0m1 -600 E
-24 2 -7 10d5+1000 5d9+15
+24 -4 -7 30d20+1200 8d9+15
 15d20+42 134455
 8 8 1
+Saves: 25 0 0 50
+Resistances: 0 0 0 0 30 0 0
+Armour: 40
+Success: 20
+AResist: 20
+MResist: 20
 Str: 28
 Dex: 18
 Int: 16
@@ -313,6 +335,9 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1d1 
+Feat: 1
+Feat: 29
+Feat: 31
 Skill: 5 100
 Skill: 136 75
 Skill: 137 100
@@ -330,8 +355,8 @@ T 62208
 караульном урманине~
 Викинг Снорги стоит здесь в карауле.
 ~
-Молодой воин в кожаной куртке обшитой стальными
-пластинами охраняет лагерь от незваных гостей.
+Молодой воин в кожаной куртке, обшитой стальными
+пластинами, охраняет лагерь от незваных гостей.
 ~
 b0c0d0f0g0n0o0p0u0y0A0 d0f0k0r0z0m1 -600 E
 25 4 -6 8d9+900 4d6+15
@@ -394,6 +419,7 @@ Class: 102
 Height: 23
 Weight: 140
 Special_Bitvector: 0 
+Skill: 136 90
 E
 T 62222
 #62210
@@ -426,6 +452,7 @@ Class: 102
 Height: 23
 Weight: 140
 Special_Bitvector: 0 
+Skill: 136 90
 Spell: 38
 Spell: 38
 Spell: 38
@@ -457,7 +484,7 @@ c0d0f0g0l0m0n0o0p0x0A0 d0k0r0m1 0 E
 8 8 1
 Str: 26
 Dex: 18
-Int: 14
+Int: 18
 Wis: 14
 Con: 25
 Cha: 12
@@ -469,9 +496,13 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 22 100
+Skill: 136 72
 Skill: 137 200
 Skill: 143 80
 Skill: 151 100
+Spell: 79
+Spell: 79
+Spell: 89
 E
 #62212
 крылатый змей~
@@ -488,7 +519,7 @@ E
 валит как из трубы печной.
 ~
 b0c0d0e0g0l0n0o0p0q0r0t0u0x0y0A0b1a2 d0f0h0k0r0x0m1 -600 E
-27 4 -8 8d12+1000 7d7+15
+27 4 -8 8d12+1000 7d12+15
 20d25+0 97800
 8 8 1
 BareHandAttack: 2
@@ -506,6 +537,7 @@ Height: 50
 Weight: 150
 Special_Bitvector: f0u0 
 Skill: 132 50
+Skill: 136 81
 Skill: 150 100
 Skill: 157 50
 Spell: 10
@@ -558,6 +590,7 @@ Class: 103
 Height: 12
 Weight: 140
 Special_Bitvector: n0 
+Skill: 136 75
 E
 T 62214
 #62214
@@ -573,7 +606,7 @@ T 62214
 Худой старик в пластинчатой броне
 и темной накидке, расшитой рунами.
 Только он, да еще сам конунг может
-внимать словам Одина, и нести их 
+внимать словам Одина и нести их 
 людям.
 ~
 b0c0d0g0l0m0n0o0p0u0x0y0A0 d0f0h0k0r0c1 -600 E
@@ -628,7 +661,7 @@ T 62205
 берегах холодного моря.
 ~
 b0d0f0g0l0m0n0o0p0u0x0y0r1 d0e0f0k0r0m1 0 E
-28 2 -8 10d10+1100 6d8+10
+28 -4 -8 10d10+1100 6d8+10
 35d20+20 169999
 8 8 1
 Str: 26
@@ -644,19 +677,22 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1d1 
+Feat: 1
+Feat: 2
 Skill: 12 200
 Skill: 20 200
 Skill: 22 100
+Skill: 136 84
 Skill: 137 200
 Skill: 143 100
 Skill: 150 100
 Spell: 93
 Spell: 131
-Helper: 62216
-Helper: 62217
-Helper: 62235
-Helper: 62241
 Helper: 62245
+Helper: 62241
+Helper: 62235
+Helper: 62217
+Helper: 62216
 E
 T 62206
 T 62228
@@ -678,7 +714,7 @@ T 62228
 ~
 b0c0d0f0g0l0m0n0o0p0x0A0 d0e0h0k0r0c1 -600 E
 22 5 -6 10d4+880 4d6+10
-20d12+20 11900
+20d12+20 92000
 8 8 1
 Str: 20
 Dex: 13
@@ -693,6 +729,7 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 66
 Skill: 150 80
 Spell: 15
 Spell: 15
@@ -716,6 +753,8 @@ Spell: 64
 Spell: 79
 Spell: 104
 Spell: 113
+Spell: 143
+Spell: 143
 E
 #62217
 хирдманн Торд~
@@ -733,7 +772,7 @@ E
 ему сходство с лисицей.
 ~
 b0c0d0f0g0l0m0n0o0x0A0 d0f0r0 -600 E
-25 4 -6 10d20+950 6d7+5
+25 -1 -6 10d20+950 6d7+5
 10d25+20 128677
 8 8 1
 Str: 26
@@ -751,6 +790,7 @@ Weight: 150
 Special_Bitvector: 0 
 Skill: 5 80
 Skill: 132 100
+Skill: 136 75
 Skill: 137 100
 Spell: 33
 E
@@ -856,6 +896,7 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 72
 Skill: 137 200
 Skill: 154 80
 Skill: 155 100
@@ -880,6 +921,7 @@ c0d0f0g0l0m0n0o0p0x0A0 d0f0h0r0A0 -600 E
 24 7 -4 8d9+880 5d5+10
 15d22+0 92999
 8 8 1
+CastSuccess: 40
 Destination: 62252
 Destination: 62249
 Str: 18
@@ -895,6 +937,7 @@ Class: 102
 Height: 30
 Weight: 130
 Special_Bitvector: b1c1 
+Skill: 136 72
 Skill: 150 100
 Spell: 8
 Spell: 8
@@ -921,17 +964,17 @@ Spell: 79
 Spell: 88
 Spell: 104
 Spell: 104
-Helper: 62211
 Helper: 62220
+Helper: 62211
 E
 #62222
 кормщик Пиг молодой~
 кормщик Пиг~
-кормщик Пига~
-кормщик Пигу~
-кормщик Пига~
-кормщик Пигом~
-кормщик Пиге~
+кормщика Пига~
+кормщику Пигу~
+кормщика Пига~
+кормщиком Пигом~
+кормщике Пиге~
 Молодой кормщик Пиг мечтательно глядит вдаль.
 ~
 Молодой викинг, лишь недавно сам
@@ -958,9 +1001,12 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 22 100
+Skill: 136 75
 Skill: 137 200
 Skill: 143 80
 Skill: 151 100
+Spell: 79
+Spell: 89
 E
 #62223
 викинг Эйольф вонючий~
@@ -975,7 +1021,7 @@ E
 Огромного роста и силы урманин.
 Интересно, за что он получил свое прозвище? 
 ~
-b0c0d0f0g0l0m0n0o0x0A0b2h2 r0 -600 E
+b0c0d0f0g0l0m0n0o0x0A0b2h2u2 r0 -600 E
 24 6 -5 10d3+910 5d7+10
 20d7+0 76888
 8 8 1
@@ -994,6 +1040,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 4 100
 Skill: 132 100
+Skill: 136 72
 Skill: 137 100
 Skill: 150 80
 Spell: 93
@@ -1029,6 +1076,7 @@ Weight: 150
 Special_Bitvector: i0b1c1 
 Skill: 133 200
 Skill: 134 100
+Skill: 136 60
 Skill: 137 100
 Skill: 138 200
 Skill: 140 100
@@ -1067,6 +1115,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 131 100
+Skill: 136 69
 Skill: 137 100
 Skill: 157 80
 Spell: 93
@@ -1076,7 +1125,7 @@ E
 старый воин Хроллауг~
 старого воина Хроллауга~
 старому воину Хроллаугу~
-старого воина Хроллауг~
+старого воина Хроллауга~
 старым воином Хроллаугом~
 старом воине Хроллауге~
 Старый воин Хроллауг учит молодых викингов владеть оружием.
@@ -1103,6 +1152,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 80
+Skill: 136 72
 Skill: 150 100
 Skill: 151 100
 Spell: 75
@@ -1141,6 +1191,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 5 100
+Skill: 136 72
 Skill: 137 100
 Skill: 150 100
 Skill: 157 100
@@ -1179,6 +1230,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 21 20
 Skill: 132 100
+Skill: 136 78
 Skill: 150 50
 Skill: 151 100
 Spell: 40
@@ -1213,6 +1265,7 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 75
 Skill: 137 100
 Skill: 154 100
 Skill: 155 200
@@ -1252,6 +1305,7 @@ Weight: 150
 Special_Bitvector: a0b1c1 
 Skill: 2 100
 Skill: 4 100
+Skill: 136 75
 Skill: 137 100
 Spell: 33
 E
@@ -1289,6 +1343,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 2 100
 Skill: 4 100
+Skill: 136 75
 Spell: 150
 E
 #62232
@@ -1303,6 +1358,7 @@ E
 ~
 Быстрый как рыба в воде, подвижный воин.
 Сейчас он глубоко задумался над игрой.
+Быстрый, как рыба в воде, подвижный воин.
 ~
 b0c0d0f0g0l0m0n0o0p0A0 d0k0 -600 E
 25 5 -5 8d6+920 6d7+10
@@ -1323,6 +1379,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 22 80
 Skill: 132 80
+Skill: 136 75
 Skill: 137 100
 Skill: 143 80
 Skill: 151 80
@@ -1361,6 +1418,7 @@ Weight: 145
 Special_Bitvector: b1c1 
 Skill: 5 100
 Skill: 132 100
+Skill: 136 75
 Skill: 137 100
 Skill: 150 60
 Spell: 15
@@ -1411,6 +1469,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: 0 
 Skill: 134 100
+Skill: 136 72
 Skill: 137 100
 Skill: 158 80
 E
@@ -1447,13 +1506,14 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 22 100
 Skill: 132 80
+Skill: 136 75
 Skill: 151 100
 Skill: 157 50
 Spell: 37
 Spell: 37
 Spell: 37
-Helper: 62225
 Helper: 62240
+Helper: 62225
 E
 #62236
 караульный урманин викинг Торфи~
@@ -1465,8 +1525,8 @@ E
 караульном урманине~
 Викинг Торфи стоит здесь в карауле.
 ~
-Молодой воин в кожаной куртке обшитой стальными
-пластинами охраняет лагерь от незваных гостей.
+Молодой воин в кожаной куртке, обшитой стальными
+пластинами, охраняет лагерь от незваных гостей.
 ~
 b0c0d0f0g0n0o0p0r0t0u0y0A0 d0f0k0r0z0m1 -600 E
 23 4 -6 8d9+800 4d6+10
@@ -1503,8 +1563,8 @@ T 62246
 караульном урманине~
 Викинг Дретт стоит здесь в карауле.
 ~
-Молодой воин в кожаной куртке обшитой стальными
-пластинами охраняет лагерь от незваных гостей.
+Молодой воин в кожаной куртке, обшитой стальными
+пластинами, охраняет лагерь от незваных гостей.
 ~
 b0c0d0f0g0n0o0p0r0t0u0y0A0 d0f0k0r0z0m1 -600 E
 23 4 -6 8d9+800 4d6+10
@@ -1538,7 +1598,7 @@ T 62246
 викинга Эйнара~
 викингом Эйнаром~
 викинге Эйнаре~
-Викинг Эйнар проходит дозором по лагерю
+Викинг Эйнар проходит дозором по лагерю.
 ~
 Крепкий воин в расцвете лет, он уже
 немало повидал на своем веку и готов
@@ -1668,12 +1728,13 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 22 80
 Skill: 132 80
+Skill: 136 75
 Skill: 151 80
 Spell: 8
 Spell: 8
 Spell: 8
-Helper: 62247
 Helper: 62218
+Helper: 62247
 E
 #62242
 кормщик Рауд~
@@ -1695,7 +1756,7 @@ c0d0f0g0l0m0n0o0p0x0A0 k0r0 -600 E
 8 8 1
 Str: 23
 Dex: 13
-Int: 17
+Int: 19
 Wis: 17
 Con: 25
 Cha: 15
@@ -1707,7 +1768,11 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 21 10
+Skill: 136 66
 Skill: 137 80
+Spell: 79
+Spell: 79
+Spell: 89
 E
 #62243
 варяг Бертгор~
@@ -1742,6 +1807,7 @@ Height: 200
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 21 10
+Skill: 136 66
 Skill: 137 80
 Skill: 151 80
 E
@@ -1777,6 +1843,7 @@ Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 66
 Skill: 137 80
 Skill: 150 80
 Skill: 151 80
@@ -1823,6 +1890,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 21 25
 Skill: 22 100
+Skill: 136 72
 Spell: 26
 Spell: 26
 Spell: 37
@@ -1862,6 +1930,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 80
+Skill: 136 69
 Skill: 137 80
 E
 #62247
@@ -1895,6 +1964,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 80
+Skill: 136 69
 Skill: 137 80
 E
 #62248
@@ -1929,6 +1999,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 80
+Skill: 136 75
 Skill: 150 50
 Skill: 151 80
 Spell: 64
@@ -1967,6 +2038,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: g0i0 
 Skill: 131 80
+Skill: 136 69
 Skill: 138 100
 Skill: 140 100
 Skill: 157 60
@@ -1983,10 +2055,11 @@ T 62210
 викинге Ругги~
 Молодой викинг Ругги устраивается на ночлег.
 ~
-Молодой викинг смертельно устал,
+Молодой викинг смертельно устал
 после долгой дороги по морю и борьбы
 с бешеной бурей - сейчас он думает только
 о том, как бы хорошо было прилечь и отдохнуть.
+с бешеной бурей. Сейчас он думает только
 ~
 b0c0d0f0g0l0m0n0o0x0A0 k0r0C0 -600 E
 23 5 -5 10d5+850 6d6+10
@@ -2006,6 +2079,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 134 100
+Skill: 136 69
 Skill: 145 80
 Skill: 150 50
 E
@@ -2040,6 +2114,7 @@ Class: 103
 Height: 30
 Weight: 150
 Special_Bitvector: p0 
+Skill: 136 60
 Skill: 151 30
 E
 #62252
@@ -2106,6 +2181,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 62229
 #62254
@@ -2116,7 +2192,7 @@ T 62229
 дочку старейшины~
 дочкой старейшины~
 дочке старейшины~
-Ивушка - дочка старейшины приветливо вам улыбается..
+Ивушка - дочка старейшины приветливо вам улыбается.
 ~
 Статная красивая девка в клетчатой
 поневе и полотняной рубашке с вышивкой.
@@ -2138,6 +2214,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #62255
 дочка старейшины Ивушка~
@@ -2169,6 +2246,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 60
 E
 T 62235
 T 62227
@@ -2205,6 +2283,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 12 80
 Skill: 22 100
+Skill: 136 72
 Skill: 137 200
 Skill: 143 80
 Skill: 151 100
@@ -2244,6 +2323,7 @@ Class: 102
 Height: 30
 Weight: 130
 Special_Bitvector: b1c1 
+Skill: 136 72
 Skill: 150 100
 Spell: 8
 Spell: 8
@@ -2277,8 +2357,8 @@ Spell: 111
 Spell: 137
 Spell: 137
 Spell: 137
-Helper: 62258
 Helper: 62256
+Helper: 62258
 E
 #62258
 ирландец сельви~
@@ -2312,6 +2392,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 134 100
+Skill: 136 69
 Skill: 145 80
 Skill: 150 50
 Spell: 147
@@ -2354,6 +2435,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 12 80
 Skill: 22 100
+Skill: 136 72
 Skill: 137 200
 Skill: 143 80
 Skill: 151 100
@@ -2391,6 +2473,7 @@ Class: 102
 Height: 30
 Weight: 130
 Special_Bitvector: b1c1 
+Skill: 136 72
 Skill: 150 100
 Spell: 8
 Spell: 8
@@ -2420,8 +2503,8 @@ Spell: 79
 Spell: 104
 Spell: 104
 Spell: 104
-Helper: 62261
 Helper: 62259
+Helper: 62261
 E
 #62261
 викинг Хиди~
@@ -2458,6 +2541,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 21 30
 Skill: 134 100
+Skill: 136 69
 Skill: 145 80
 Skill: 150 50
 Spell: 28
@@ -2499,6 +2583,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: g0i0 
 Skill: 131 80
+Skill: 136 69
 Skill: 138 100
 Skill: 140 100
 Skill: 157 60
@@ -2540,6 +2625,7 @@ Height: 30
 Weight: 150
 Special_Bitvector: g0i0 
 Skill: 131 80
+Skill: 136 69
 Skill: 138 100
 Skill: 140 100
 Skill: 157 60
@@ -2581,6 +2667,7 @@ Weight: 150
 Special_Bitvector: g0i0 
 Skill: 132 80
 Skill: 134 80
+Skill: 136 69
 Skill: 138 100
 Skill: 140 100
 Skill: 157 60
@@ -2676,7 +2763,7 @@ E
 урманине Халльварде~
 Халльвард-урманин поглаживает лезвие секиры.
 ~
-широченный как сарайная дверь урманин
+Широченный, как сарайная дверь урманин
 с могучими ручищами, привычными к веслу
 и боевому топору.
 ~
@@ -2705,4 +2792,43 @@ Spell: 92
 Spell: 92
 Spell: 92
 E
+#62268
+пленный воин~
+пленный воин~
+пленного воина~
+пленному воину~
+пленного воина~
+пленным воином~
+пленном воине~
+Крепкий воин-славянин сидит в темном трюме.
+~
+Крепкий воин, избитый, в изорваной одежде, но не сломленый.
+У его ног лежат обрывки веревок, видимо он сумел освободиться
+и поджидал подходящего момента, чтобы выбраться из трюма.
+~
+b0d0n0o0p0r0t0f2u2 d0f0k0 400 E
+27 20 0 30d50+800 8d12+12
+0d0+0 35000
+8 8 1
+Saves: 50 0 0 50
+Str: 24
+Dex: 18
+Int: 13
+Wis: 15
+Con: 24
+Cha: 14
+Size: 50
+LikeWork: 78
+ExtraAttack: 1
+Class: 100
+Height: 198
+Weight: 176
+Special_Bitvector: 0 
+Skill: 4 80
+Skill: 132 90
+Skill: 136 81
+Skill: 157 60
+Skill: 167 50
+E
+T 62248
 $

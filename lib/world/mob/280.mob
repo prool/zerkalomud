@@ -35,6 +35,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 Skill: 143 48
 Skill: 151 35
 E
@@ -72,6 +73,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 Skill: 154 48
 Skill: 155 48
 E
@@ -107,6 +109,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: c0b1c1d1 
+Skill: 136 45
 Skill: 143 55
 E
 #28003
@@ -140,6 +143,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: j0b1c1d1 
+Skill: 136 51
 Skill: 137 25
 Skill: 143 63
 E
@@ -206,6 +210,7 @@ Spell: 110
 Spell: 111
 Spell: 111
 Helper: 2803
+Skill: 136 51
 E
 T 28000
 #28005
@@ -239,6 +244,7 @@ Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 132 30
+Skill: 136 57
 Skill: 143 70
 Skill: 150 25
 Spell: 69
@@ -248,6 +254,7 @@ Spell: 69
 Spell: 69
 E
 T 28003
+L 28021 100 0 0
 #28006
 половец охранник~
 охранник~
@@ -279,6 +286,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: f0 
+Skill: 136 45
 Skill: 143 55
 E
 #28007
@@ -312,6 +320,7 @@ Height: 180
 Weight: 150
 Special_Bitvector: a0b0c0d0e0f0b1c1 
 Skill: 132 30
+Skill: 136 54
 Skill: 143 63
 E
 #28008
@@ -344,6 +353,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 84
 Spell: 5
 Spell: 15
 Spell: 64
@@ -383,6 +393,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 Skill: 143 48
 E
 #28010
@@ -400,7 +411,7 @@ E
 b0d0g0m0n0 0 -600 E
 13 11 0 200d1+0 3d3+4
 0d0+50 12000
-4 5 1
+4 4 1
 BareHandAttack: 7
 Str: 20
 Dex: 18
@@ -416,6 +427,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 Skill: 143 48
 E
 #28011
@@ -449,6 +461,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 Skill: 143 48
 E
 #28012
@@ -487,6 +500,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 Skill: 143 48
 E
 #28013
@@ -520,6 +534,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 Skill: 143 48
 E
 #28014
@@ -556,6 +571,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 Skill: 154 48
 Skill: 155 48
 E
@@ -593,6 +609,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 Skill: 154 48
 Skill: 155 48
 E
@@ -630,6 +647,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 Skill: 154 48
 Skill: 155 48
 E
@@ -673,6 +691,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 Skill: 143 48
 E
 $

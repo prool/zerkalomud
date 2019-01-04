@@ -3,27 +3,27 @@
 1 c 100
 прикоснуться~
 if !%arg.contains(камень)%
-msend %actor% _И что Вы хотите так любезно облапать?
-halt
+  msend %actor% _И что Вы хотите так любезно облапать?
+  halt
 end
 if %actor.class% == 4
-wait 5
-osend %actor% _Прикоснувшись к камню Вы почувствовали легкое головокружение.
-oechoaround _%actor% %actor.iname% прикоснул%actor.u% к камню и пошатнул%actor.u%,
-wait 4
-oecho _С юга донесся оглушающий грохот.
-odoor 95105 east room 95110 
-odoor 95110 west room 95105  
-oat 95105 oecho _С оглушающим грохотом, ворота стремительно распахнулись.
-detach 95100 %self.id%
+  wait 5
+  osend %actor% _Прикоснувшись к камню Вы почувствовали легкое головокружение.
+  oechoaround _%actor% %actor.iname% прикоснул%actor.u% к камню и пошатнул%actor.u%,
+  wait 4
+  oecho _С юга донесся оглушающий грохот.
+  odoor 95105 east room 95110 
+  odoor 95110 west room 95105  
+  wat 95105 oecho _С оглушительным грохотом, ворота стремительно распахнулись.
+  detach 95100 %self.id%
 else 
-osend %actor% _Вы прикоснулись к камню и все вокруг потускнело!
-osend %actor% _Внезапно камень ослепительно сверкнул и 
-osend %actor% _ваше тело пронзила ужасная боль.
-oechoaround %actor% _%actor.iname% прикоснул%actor.u% камню.
-oechoaround %actor% _Письмена на камне внезапно ослепительно вспыхнули!
-oechoaround %actor% _%actor.iname% упал%actor.g% и забил%actor.u% в судорогах!
-odamage %actor% 200
+  osend %actor% _Вы прикоснулись к камню и все вокруг потускнело!
+  osend %actor% _Внезапно камень ослепительно сверкнул и 
+  osend %actor% _ваше тело пронзила ужасная боль.
+  oechoaround %actor% _%actor.iname% прикоснул%actor.u% камню.
+  oechoaround %actor% _Письмена на камне внезапно ослепительно вспыхнули!
+  oechoaround %actor% _%actor.iname% упал%actor.g% и забил%actor.u% в судорогах!
+  odamage %actor% 200
 end
 ~
 #95101
@@ -63,7 +63,7 @@ wait 2s
 mecho _- Хм.
 mecho _- Ладно.
 mecho _- Ты не похож%actor.g% на воришек, которых я уже устал отгонять от этого места.
-mecho _- Но ни чего не поделаешь, такова моя судьба.
+mecho  - Но ничего не поделаешь, такова моя судьба.
 mecho _- Тогда чего ты хочешь?
 ~
 #95103
@@ -76,10 +76,10 @@ mecho _- Ох. Гости пожаловали.
 mecho _- Не вовремя, очень не вовремя.
 mecho _- У нас сейчас дел и без вас хватает.
 wait 5
-mecho _- Хотя, если поможете по быстрому их уладить, может и уделим вам немного времени.
+mecho  - Хотя, если поможете по-быстрому их уладить, может и уделим вам немного времени.
 mecho _- Если хотите помочь, идите к нашему новому колдуну, что живет на северо-востоке.
 mecho _- Он Вам все скажет.
-mecho _- Еще можете главного стража повидать, на юго-восточном посту.
+mecho  - Еще можете главного стража повидать в юго-восточном посту.
 calcuid fromid 95112 mob
 detach 95104 %fromid.id%
 attach 95105 %fromid.id%
@@ -145,54 +145,49 @@ detach 95106 %self.id%
 ~
 wait 5
 if (!%exist.mob(95109)%) && (%actor.id% == %quester.id%)
-mecho _Колдун:
-mecho _- Я поражен твоей прытью, %actor.iname%.
-mecho _- Шайка больше нас не побеспокоит, и за это тебе огромное спасибо.
-if %actor.class% == 4
-msend %actor% _Колдун внимательно осмотрел Вас.
-mechoaround %actor% _Колдун внимательно осмотрел %actor.rname%.
-mecho _- Я вижу, %actor.iname%, ты хороший наемник.
-mecho _- Думаю, тебе стоит посетить наш новый храм.
-mecho _- И если ты проявишь себя и старейшины тебя заметят.
-mecho _- То у тебя будет шанс получить тайные знания наемников храма.
-wait 5
-mecho _- Давай я напишу тебе записку.
-mecho _- Отнеси ее седому колдуну, что охраняет пентаграмму в задней части старого храма.
-mecho _- Он знает что делать.
-mecho _Колдун взял чистый кусок бересты и начал быстро выскребать на нем какие-то знаки.
-mecho _- Вот, держи.
-mload obj 95123
-дать берест %actor.iname%
-detach 95107 %self.id%
-end
-mecho _- Как я и обещал, вот твоя награда.
-switch %random.4%
-case 1
-mload obj 95121
-дать кольц %actor.iname%
-break
-case 2
-mload obj 95122
-дать брасл %actor.iname%
-break
-default
-mechoaround %actor% _Колдун дал %actor.dname% небольшую кучку кун.
-msend %actor% _Колдун дал вам небольшую кучку кун.
-%actor.gold(+5000)%
-break
-done
-detach 95107 %self.id%
+  mecho _Колдун:
+  mecho _- Я поражен твоей прытью, %actor.iname%.
+  mecho _- Шайка больше нас не побеспокоит, и за это тебе огромное спасибо.
+  if %actor.class% == 4
+    msend %actor% _Колдун внимательно осмотрел Вас.
+    mechoaround %actor% _Колдун внимательно осмотрел %actor.rname%.
+    mecho _- Я вижу, %actor.iname%, ты хороший наемник.
+    mecho _- Думаю, тебе стоит посетить наш новый храм.
+    mecho _- И если ты проявишь себя и старейшины тебя заметят.
+    mecho _- То у тебя будет шанс получить тайные знания наемников храма.
+    wait 5
+    mecho _- Давай я напишу тебе записку.
+    mecho _- Отнеси ее седому колдуну, что охраняет пентаграмму в задней части старого храма.
+    mecho _- Он знает что делать.
+    mecho _Колдун взял чистый кусок бересты и начал быстро выскребать на нем какие-то знаки.
+    mecho _- Вот, держи.
+    mload obj 95123
+    дать берест %actor.iname%
+    detach 95107 %self.id%
+  end
+  mecho _- Как я и обещал, вот твоя награда.
+  switch %random.4%
+    case 1
+      mload obj 95121
+      дать кольц %actor.iname%
+    break
+    case 2
+      mload obj 95122
+      дать брасл %actor.iname%
+    break
+    default
+      mechoaround %actor% _Колдун дал %actor.dname% небольшую кучку кун.
+      msend %actor% _Колдун дал вам небольшую кучку кун.
+      %actor.gold(+5000)%
+    break
+  done
+  detach 95107 %self.id%
 end
 ~
 #95108
 убили главаря шайки~
 0 f 50
 ~
-if %world.curobjs(1230)% < 1
-if %random.100% < 3
-mload obj 1230
-end
-end
 mload obj 95120
 ~
 #95109
@@ -200,26 +195,26 @@ mload obj 95120
 0 j 100
 ~
 if %object.vnum% == 95123
-wait 1
-mpurge %object.iname%
-mecho _Седой колдун:
-mecho _- А.
-mecho _- Мой ученик нашел еще одного кандидата.
-mecho _- Хорошо.
-mecho _- Я помогу тебе попасть в восточный лес.
-mecho _- Через него идет дорога к новому храму.
-mecho _- Но будь осторожен, теперь там очень опасно.
-mecho _- Держись дороги, и рано или поздно ты придешь на место.
-wait 5
-mecho _Старый колдун что-то пробормотал и взмахнул рукой.
-mecho _Вы еле смогли устоять на ногах.
-mecho _Где это теперь Вы?
-mecho _Что это за глушь?!
-mteleport все 95200
+  wait 1
+  mpurge %object%
+  mecho _Седой колдун:
+  mecho _- А.
+  mecho _- Мой ученик нашел еще одного кандидата.
+  mecho _- Хорошо.
+  mecho _- Я помогу тебе попасть в восточный лес.
+  mecho _- Через него идет дорога к новому храму.
+  mecho _- Но будь осторожен, теперь там очень опасно.
+  mecho _- Держись дороги, и рано или поздно ты придешь на место.
+  wait 5
+  mecho _Старый колдун что-то пробормотал и взмахнул рукой.
+  mecho _Вы еле смогли устоять на ногах.
+  mecho _Где это теперь Вы?
+  mecho _Что это за глушь?!
+  mteleport все 95200
 else
-mecho _Седой колдун:
-mecho _- Зачем мне эта дрянь?
-брос %object.iname%
+  mecho _Седой колдун:
+  mecho _- Зачем мне эта дрянь?
+  брос %object.iname%
 end
 ~
 #95110
@@ -227,7 +222,7 @@ end
 2 c 100
 пролезть~
 if !%arg.contains(завал)%  
-halt
+  halt
 end
 wechoaround %actor% _%actor.name% полез%actor.q% через завал..
 wsend %actor% _Вы полезли через завал на юг.
@@ -268,32 +263,32 @@ detach 95112 %self.id%
 0 r 100
 ~
 if (!%exist.mob(95119)%) && (!%exist.mob(95120)%) && (%actor.id% == %quester2.id%)
-wait 3
-mecho _Главный страж:
-mecho _- Мне уже доложили о том, что у стен стало опять чисто.
-mecho _- Отличная работа!
-switch %random.5%
-case 1
-if %world.curobjs(95124)% < 2
-mecho _- Вот тебе за твои труды.
-mload obj 95124
-дать клино %actor.name%
-end
-break
-case 2
-if %world.curobjs(95125)% < 2
-mecho _- Вот тебе за твои труды.
-mload obj 95125
-дать лук %actor.name%
-end
-break
-default
-mechoaround _Главный страж дал %actor.dname% большую кучку кун.
-msend %actor% _Главный страж дал вам большую кучку кун.
-%actor.golg(+10000)%
-break
-done
-detach 95113 %self.id%
+  wait 3
+  mecho _Главный страж:
+  mecho _- Мне уже доложили о том, что у стен стало опять чисто.
+  mecho _- Отличная работа!
+  switch %random.5%
+    case 1
+      if %world.curobjs(95124)% < 2
+        mecho _- Вот тебе за твои труды.
+        mload obj 95124
+        дать клино %actor.name%
+      end
+    break
+    case 2
+      if %world.curobjs(95125)% < 2
+        mecho _- Вот тебе за твои труды.
+        mload obj 95125
+        дать лук %actor.name%
+      end
+    break
+    default
+      mechoaround _Главный страж дал %actor.dname% большую кучку кун.
+      msend %actor% _Главный страж дал вам большую кучку кун.
+      %actor.gold(+7000)%
+    break
+  done
+  detach 95113 %self.id%
 end
 ~
 #95114
@@ -314,15 +309,15 @@ wsend %actor% _Вас выбросило на берег.
 0 f 10
 ~
 if %world.curobjs(95129)% < 8
-mload obj 95129
+  mload obj 95129
 end
 ~
 #95116
 убили чернокнижника~
 0 f 100
 ~
-if (%world.curobjs(1219)% < 1) & (%random.100% <= 1)
-mload obj 1219
+if (%world.curobjs(1219)% < 1) && (%random.100% <= 1)
+  mload obj 1219
 end
 ~
 $~

@@ -134,6 +134,7 @@ Height: 198
 Weight: 10
 Special_Bitvector: o0 
 Skill: 135 90
+Skill: 136 48
 E
 #33104
 разноцветная рыбка~
@@ -294,6 +295,7 @@ Class: 103
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 90
 Spell: 54
 Spell: 66
 Spell: 66
@@ -339,6 +341,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: o0 
 Skill: 5 50
+Skill: 136 84
 E
 T 33104
 T 33112
@@ -374,6 +377,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: a0m0 
+Skill: 136 72
 Skill: 137 100
 Skill: 150 100
 Skill: 151 100
@@ -513,6 +517,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: m0y0 
+Skill: 136 72
 Skill: 150 100
 Skill: 151 90
 E
@@ -546,6 +551,7 @@ Class: 103
 Height: 198
 Weight: 100
 Special_Bitvector: c1 
+Skill: 136 87
 Skill: 151 100
 Spell: 55
 Spell: 55
@@ -582,6 +588,7 @@ Class: 103
 Height: 198
 Weight: 10
 Special_Bitvector: g0o0 
+Skill: 136 45
 E
 #33117
 коралл~
@@ -615,6 +622,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: h0 
 Skill: 1 100
+Skill: 136 69
 Spell: 38
 Spell: 38
 Spell: 38
@@ -649,6 +657,7 @@ Class: 101
 Height: 198
 Weight: 40
 Special_Bitvector: 0 
+Skill: 136 66
 Spell: 33
 E
 #33119
@@ -679,6 +688,7 @@ Class: 100
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 33100
 T 33120
@@ -715,6 +725,7 @@ Weight: 120
 Special_Bitvector: 0 
 Skill: 21 100
 Skill: 132 100
+Skill: 136 87
 Skill: 151 100
 Spell: 16
 Spell: 16

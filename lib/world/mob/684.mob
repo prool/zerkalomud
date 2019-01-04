@@ -226,7 +226,7 @@ Weight: 95
 Special_Bitvector: b1c1d1C3 
 Skill: 5 110
 Skill: 22 115
-Skill: 136 155
+Skill: 136 117
 Skill: 141 155
 Skill: 142 155
 Skill: 143 155
@@ -292,8 +292,8 @@ Spell: 152
 Spell: 152
 Spell: 153
 Spell: 153
-Helper: 68401
 Helper: 68402
+Helper: 68401
 E
 T 68412
 #68404
@@ -324,6 +324,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 15
 E
 T 68406
 T 68407
@@ -363,7 +364,7 @@ Weight: 150
 Special_Bitvector: c1B3 
 Skill: 21 10
 Skill: 132 150
-Skill: 136 150
+Skill: 136 87
 Skill: 157 125
 Skill: 164 100
 Spell: 23
@@ -392,9 +393,9 @@ Spell: 152
 Spell: 152
 Spell: 153
 Spell: 153
-Helper: 68406
-Helper: 68407
 Helper: 68408
+Helper: 68407
+Helper: 68406
 E
 T 68410
 I чешуя,12:7
@@ -586,6 +587,16 @@ Class: 104
 Height: 195
 Weight: 115
 Special_Bitvector: b1c1d1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 12 100
 Skill: 22 125
 Skill: 132 100
@@ -712,6 +723,16 @@ Class: 104
 Height: 155
 Weight: 150
 Special_Bitvector: e0b1c1d1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 12 100
 Skill: 22 100
 Skill: 132 115
@@ -780,6 +801,16 @@ Class: 104
 Height: 200
 Weight: 115
 Special_Bitvector: b1c1d1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 155
 Skill: 12 100
 Skill: 22 55
@@ -854,6 +885,16 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1d1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 12 100
 Skill: 22 145
 Skill: 132 100
@@ -908,6 +949,7 @@ Class: 103
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 90
 E
 I копыта,12:7
 #68415
@@ -1134,11 +1176,11 @@ T 68432
 ему просто некуда пойти. В лагерь по каким-то причинам 
 его жить не взяли.
 ~
-b0c0d0g0l0m0o0r0A0 c0f0k0 600 E
-28 0 -8 55d25+1000 6d11+10
+b0c0d0g0l0m0o0r0A0 c0k0 600 E
+28 0 5 55d25+1000 6d10+15
 10d5+5 0
 6 6 1
-Str: 35
+Str: 30
 Dex: 30
 Int: 27
 Wis: 30
@@ -1164,7 +1206,6 @@ Skill: 146 85
 Skill: 147 85
 Skill: 148 85
 Skill: 154 85
-Skill: 155 85
 Skill: 167 55
 E
 T 68413
@@ -1382,6 +1423,16 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1d1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 125
 Skill: 22 100
 Skill: 132 95
@@ -1451,6 +1502,16 @@ Class: 104
 Height: 200
 Weight: 150
 Special_Bitvector: b1c1d1C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 4 125
 Skill: 22 100
 Skill: 132 95
@@ -1501,8 +1562,8 @@ E
 Раненый дружинник сидит здесь и тихо постанывает.
 ~
    Это небольших размеров человек, одетый в простые стальные 
-доспехи. Его тело сильно изодрано. Таких ран Вы раньше ни 
-когда не видели.
+доспехи. Его тело сильно изодрано. Таких ран Вы раньше
+никогда не видели.
 ~
 b0d0g0 c0f0k0 600 E
 28 5 5 15d10+150 6d7+5
@@ -1599,7 +1660,7 @@ I глаза,12:6
    Довольно странный тип в темных одеждах с большим капюшоном.
 ~
 b0c0d0e0f0g0n0o0u0A0 d0k0p0r0t0A0C0z1 -600 E
-49 0 -10 95d45+3285 9d9+18
+31 0 -10 95d45+3285 9d9+18
 5d75+100 250000
 8 8 1
 Str: 35
@@ -1615,6 +1676,16 @@ Class: 104
 Height: 195
 Weight: 135
 Special_Bitvector: b1c1d1 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 131 25
 Skill: 136 145
 Skill: 140 100
@@ -1692,8 +1763,6 @@ Spell: 67
 Spell: 82
 Spell: 82
 E
-T 68428
-T 68429
 #68431
 охотник искусный~
 охотник~
@@ -1747,7 +1816,7 @@ T 68420
 старого пса~
 старым псом~
 старом псе~
-Старый пес, склонив голову, бредет мемо.
+Старый пес, склонив голову, бредет мимо.
 ~
    Это животное давно уже забыло лучшие дни и теперь
 ищет места, где можно спокойно отдохнуть.
@@ -1769,6 +1838,7 @@ Class: 103
 Height: 85
 Weight: 60
 Special_Bitvector: p0 
+Skill: 136 54
 E
 I зубы,10:7
 #68433
@@ -1800,6 +1870,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 68423
 T 68424
@@ -1950,7 +2021,7 @@ E
 ~
    Это невиданное существо зеленой окраски имеет целых восемь рук!
 ~
-b0c0d0f0g0n0o0u0A0d2h2 b0k0n0r0z0A0C0 -600 E
+b0c0d0f0g0n0o0u0A0d2h2u2 b0k0n0r0z0A0C0 -600 E
 47 0 -10 65d50+3050 5d8+10
 3d10+50 350000
 8 8 1
@@ -2295,7 +2366,7 @@ I крылья,16:3
 скелета змея~
 скелетом змея~
 скелете змея~
-Скелет змея ползает здесь, охраня своего хозяина.
+Скелет змея ползает здесь, охраняя своего хозяина.
 ~
    Скелет змея был поднят темной силой, дабы охранять своего хозяина.
 ~

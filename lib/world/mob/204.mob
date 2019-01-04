@@ -1,0 +1,1234 @@
+#20400
+ баскак~
+баскак~
+баскака~
+баскаку~
+баскак~
+баскаком~
+баскаке~
+Баскак важно прохаживается здесь.
+~
+Басурманский командир оставлен в городе Великим Ханом собирать дань с горожан.
+~
+b0d0l0m0n0o0x0q2 d0h0k0r1 -600 E
+37 0 -9 10d10+10000 15d18+40
+0d0+0 1500000
+8 8 1
+Saves: -50 -34 -50 -34
+Resistances: 15 15 15 15 0 0 0
+HPreg: 50
+Armour: 60
+CastSuccess: 50
+Absorbe: 20
+BareHandAttack: 3
+Str: 45
+Dex: 31
+Int: 31
+Wis: 35
+Con: 45
+Cha: 17
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 4 110
+Skill: 136 150
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 98
+Spell: 98
+Spell: 98
+Helper: 20423
+Helper: 20402
+E
+T 20415
+T 20439
+#20401
+ степной волк~
+степной волк~
+степного волка~
+степному волку~
+степного волка~
+степным волком~
+степном волке~
+Степной волк бежит куда-то поджав хвост.
+~
+Преодолев много верст, эта псина прибежала из степи поближе к городу, 
+где можно побаловаться свежей падалью в связи с осадой.
+~
+d0f0h0m0n0o0 d0k0s0m1 -600 E
+30 2 -4 10d10+3000 15d18+40
+0d0+0 300000
+8 8 1
+BareHandAttack: 4
+Str: 30
+Dex: 35
+Int: 15
+Wis: 16
+Con: 28
+Size: 100
+LikeWork: 85
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 120
+Skill: 157 120
+E
+I шерсть,10:10
+#20402
+ часовой~
+часовой~
+часового~
+часовому~
+часового~
+часовым~
+часовом~
+Часовой уныло ходит вокруг костра.
+~
+Узкоглазый воин смотрит по сторонам голодными глазами.
+~
+b0d0m0n0o0x0q2 d0k0 -600 E
+36 2 -6 10d10+4500 15d15+35
+10d10+452 500000
+8 8 1
+Saves: -60 0 0 0
+Resistances: 25 25 25 25 0 0 0
+HPreg: 100
+Armour: 40
+CastSuccess: 60
+Absorbe: 5
+BareHandAttack: 3
+Str: 36
+Dex: 29
+Int: 24
+Wis: 26
+Con: 36
+Cha: 21
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: e0b1c1 
+Skill: 132 135
+Skill: 136 135
+Spell: 56
+Spell: 56
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 111
+Spell: 111
+Spell: 150
+Spell: 150
+Helper: 20423
+Helper: 20410
+Helper: 20408
+E
+T 20410
+T 20422
+#20403
+ осетр рыба~
+осетр~
+осетра~
+осетру~
+осетр~
+осетром~
+осетре~
+Огромная рыба плавает у поверхности.
+~
+Огромный осетр, старый как сама Итиль.
+У рыбы сильно рассечен хвост, и вряд ли она сможет куда-нибудь уплыть.
+~
+b0d0n0o0t0x0s1i2 c0d0e0f0h0k0C0k1m1t1 -600 E
+36 9 12 10d10+8000 8d8+0
+0d0+0 10000
+8 8 1
+HPreg: 200
+PlusMem: 200
+Absorbe: 200
+BareHandAttack: 4
+Str: 20
+Dex: 16
+Int: 36
+Wis: 36
+Con: 17
+Cha: 17
+Size: 100
+LikeWork: 90
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: o0v0 
+Spell: 47
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 53
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 77
+Spell: 96
+Spell: 112
+Helper: 20405
+E
+T 20424
+T 20436
+T 20437
+T 20438
+I чешуя,10:10
+#20404
+ осетр рыба~
+осетр~
+осетра~
+осетру~
+осетр~
+осетром~
+осетре~
+Огромная рыба плавает у поверхности вверх пузом.
+~
+Огромный осетр, старый как сама Итиль.
+
+~
+b0d0n0o0t0x0s1i2 c0d0e0f0h0k0C0k1m1t1 -600 E
+36 9 12 10d10+1 8d8+0
+0d0+0 10000
+2 2 1
+HPreg: 200
+PlusMem: 200
+Absorbe: 100
+BareHandAttack: 4
+Str: 20
+Dex: 16
+Int: 36
+Wis: 36
+Con: 17
+Cha: 17
+Size: 100
+LikeWork: 90
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: o0v0 
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+E
+T 20424
+I чешуя,10:10
+#20405
+ пестрая рыбка~
+пестрая рыбка~
+пестрой рыбки~
+пестрой рыбке~
+пеструю рыбку~
+пестрой рыбкой~
+пестрой рыбке~
+Рыбка плыпет, переливаясь всеми цветами радуги.
+~
+Очень яркая рыба, вряд ли ее можно съесть, не отравившись.
+~
+c0d0m0n0o0A0 k0k1w1 -600 E
+33 9 -6 10d10+2500 8d8+0
+0d0+0 250000
+8 8 2
+HPreg: 80
+PlusMem: 100
+Absorbe: 30
+BareHandAttack: 4
+Str: 25
+Dex: 21
+Int: 25
+Wis: 35
+Con: 13
+Cha: 14
+Size: 100
+LikeWork: 90
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: o0v0 
+Skill: 136 110
+Skill: 160 110
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+E
+T 20444
+I чешуя,10:10
+#20406
+ рыбак~
+рыбак~
+рыбака~
+рыбаку~
+рыбака~
+рыбаком~
+рыбаке~
+Унылый рыбак забился в угол.
+~
+Испуганный дедушка с трясущимися руками настороженно смотрит на Вас.
+~
+b0d0n0o0x0o2 d0h0k0 -600 E
+36 4 -3 10d10+2000 13d12+30
+10d10+5 250000
+8 8 1
+Resistances: -25 0 50 50 0 0 0
+HPreg: 50
+Armour: 30
+Success: 5
+Initiative: 5
+Absorbe: 5
+BareHandAttack: 2
+Str: 23
+Dex: 27
+Int: 25
+Wis: 33
+Con: 26
+Cha: 16
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 136 110
+Skill: 160 110
+Spell: 28
+Spell: 28
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+E
+T 20404
+T 20411
+T 20414
+#20407
+ кузнец~
+кузнец~
+кузнеца~
+кузнецу~
+кузнеца~
+кузнецом~
+кузнеце~
+Здоровенный детина топчется на месте, почесывая руки.
+~
+Довольно крепкий мужик слегка бледен от недоедания. Коли его покормить, 
+наверняка делов наворотить сможет.
+~
+b0d0n0o0t0u0x0o2t2 d0h0k0 -600 E
+36 0 -7 10d10+3000 15d15+35
+10d10+5 400000
+8 8 1
+Saves: 0 0 0 -40
+Resistances: 20 20 20 20 0 0 0
+HPreg: 70
+Armour: 70
+Success: 10
+Absorbe: 50
+BareHandAttack: 2
+Str: 37
+Dex: 36
+Int: 20
+Wis: 33
+Con: 37
+Cha: 23
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Feat: 1
+Skill: 5 135
+Skill: 136 135
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+E
+T 20412
+#20408
+ басурманин~
+басурманин~
+басурманина~
+басурманину~
+басурманина~
+басурманином~
+басурманине~
+Узкоглазый воин по-хозяйски идет по городу.
+~
+Это один из тех монгольских воинов, которые разграбили город.
+~
+d0m0n0o0q2 k0 -600 E
+34 3 -5 10d10+3500 14d15+25
+10d10+352 350000
+8 8 1
+BareHandAttack: 3
+Str: 34
+Dex: 28
+Int: 22
+Wis: 24
+Con: 37
+Cha: 19
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 136 130
+Skill: 157 130
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+E
+T 20441
+#20409
+ шаман~
+шаман~
+шамана~
+шаману~
+шаман~
+шаманом~
+шамане~
+Пожилой мужик, не спеша, куда-то бредет.
+~
+Этот дедушка в молодости любил смотреть в бесконечную степь. Вдоволь 
+насмотревшись, он шел к  своим собратьям, брал бубен и плясал вокруг костра. 
+Все думали, что он так общается с природой, вызывает дождь, или прекращает 
+бурю и называли его шаманом.
+~
+d0m0n0o0q2 d0k0r1 -600 E
+35 3 -2 10d10+3300 16d16+23
+10d10+652 350000
+8 8 1
+BareHandAttack: 6
+Str: 26
+Dex: 25
+Int: 22
+Wis: 37
+Con: 30
+Cha: 26
+Size: 100
+LikeWork: 90
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 134 130
+Skill: 136 130
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 94
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 151
+E
+T 20440
+I глаза,10:10
+#20410
+ эре сайид~
+эре сайид ~
+эре сайида~
+эре сайиду~
+эре сайида~
+эре сайидом~
+эре сайиде~
+Бывалый вояка настороженно озирается.
+~
+Привилегированный воин.
+~
+b0d0m0n0o0q2r2 d0k0t1u1 -600 E
+36 3 -9 10d10+5000 16d16+25
+10d10+800 550000
+8 8 1
+Saves: -75 -10 -5 -5
+Resistances: 20 15 2 45 55 0 0
+HPreg: 35
+Armour: 60
+CastSuccess: 40
+Success: 5
+Initiative: 5
+Absorbe: 60
+BareHandAttack: 3
+Str: 39
+Dex: 35
+Int: 22
+Wis: 23
+Con: 40
+Cha: 21
+Size: 100
+LikeWork: 80
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 5 140
+Skill: 132 140
+Skill: 136 140
+Spell: 48
+Spell: 48
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+E
+T 20423
+T 20445
+#20411
+ тощий горожанин~
+тощий горожанин~
+тощего горожанина~
+тощему горожанину~
+тощего горожанина~
+тощим горожанином~
+тощем горожанине~
+Исхудавший горожанин рассеяно озирается.
+~
+Некоторые жители до сих пор еще не могут поверить, что они теперь стали 
+заложниками степняков.
+~
+c0d0n0o0A0j2o2 k0l1t1 -600 E
+33 6 0 10d10+2000 13d12+30
+10d10+5 200000
+8 8 1
+Str: 26
+Dex: 27
+Int: 25
+Wis: 25
+Con: 18
+Cha: 21
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 132 100
+Skill: 136 100
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+E
+#20412
+ женщина~
+женщина~
+женщины~
+женщине~
+женщину~
+женщиной~
+женщине~
+Славянская женщина уставилась на Вас заплаканными глазами.
+~
+Много горя пришлось ей перенести, и ничем ее теперь не утешить.
+~
+c0d0n0o0A0j2o2 k0l1o1 -600 E
+33 6 0 10d10+2000 12d12+40
+10d10+5 200000
+8 8 2
+Str: 22
+Dex: 20
+Int: 27
+Wis: 26
+Con: 19
+Cha: 22
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 1 100
+Skill: 136 100
+Spell: 68
+Spell: 68
+Spell: 68
+Helper: 20425
+E
+I кожа,10:10
+#20413
+ вдова~
+вдова~
+вдовы~
+вдове~
+вдову~
+вдовой~
+вдове~
+Овдовевшая женщина плачет над мужем.
+~
+Убитая горем женщина ничего и никого не замечает.
+~
+b0c0d0n0o0A0j2o2 h0k0r1w1 -600 E
+33 6 0 10d10+2000 12d12+40
+10d10+5 200000
+8 8 2
+Saves: -50 0 0 0
+CastSuccess: 80
+Str: 22
+Dex: 20
+Int: 27
+Wis: 50
+Con: 19
+Cha: 22
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 132 100
+Skill: 136 100
+Spell: 68
+Spell: 68
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+E
+T 20442
+#20414
+ матерый крыс~
+матерый крыс~
+матерого крыса~
+матерому крысу~
+матерого крыса~
+матерым крысом~
+матером крысе~
+Огромный крыс притаился в тени.
+~
+Здоровенный черный крыс, озлобленный от многодневного голодания.
+~
+b0c0d0f0g0o0x0A0 b0d0k0C0r1w1 -600 E
+31 5 -10 10d10+4000 15d15+15
+0d0+0 400000
+8 8 1
+BareHandAttack: 4
+Str: 36
+Dex: 36
+Int: 17
+Wis: 17
+Con: 36
+Cha: 14
+Size: 100
+LikeWork: 95
+ExtraAttack: 3
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 21 130
+Skill: 136 130
+Skill: 167 130
+Spell: 28
+Spell: 28
+Spell: 28
+E
+T 20443
+#20415
+ дегеремчин~
+дегеремчин~
+дегеремчина~
+дегеремчину~
+дегеремчина~
+дегеремчином~
+дегеремчине~
+Разбойник прячется среди болот.
+~
+Мужик с длинными, собранными в косу черными волосами, сжимает лук
+покоцаными руками. Ими он уже раздел не одного путника.
+~
+c0d0f0g0m0n0o0A0q1q2 k0r0 -600 E
+34 4 -5 10d10+3500 14d14+50
+10d10+914 350000
+8 8 1
+Armour: 55
+Absorbe: 90
+BareHandAttack: 9
+Str: 35
+Dex: 31
+Int: 22
+Wis: 24
+Con: 27
+Cha: 21
+Size: 100
+LikeWork: 80
+ExtraAttack: 3
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: j0b1c1 
+Skill: 134 125
+Skill: 136 125
+Skill: 154 125
+Skill: 155 125
+Skill: 156 125
+Skill: 157 125
+E
+T 20425
+#20416
+ свирепый пес~
+свирепый пес~
+свирепого пса~
+свирепому псу~
+свирепого пса~
+свирепым псом~
+свирепом псе~
+Клыкастый пес охраняет хозяина.
+~
+Клыкастый пес, с постоянно текущей изо рта пеной, непрерывно рычит.
+~
+d0f0g0m0n0o0q1 d0k0r0 -600 E
+32 4 -5 10d10+2500 14d14+50
+10d10+914 250000
+8 8 1
+BareHandAttack: 4
+Str: 37
+Dex: 35
+Int: 18
+Wis: 21
+Con: 31
+Cha: 14
+Size: 100
+LikeWork: 80
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: j0b1c1 
+Skill: 136 125
+Skill: 137 125
+Skill: 150 125
+E
+T 20426
+I зубы,10:10
+#20417
+ разбойник с большой дороги~
+разбойник с большой дороги~
+разбойника с большой дороги~
+разбойнику с большой дороги~
+разбойника с большой дороги~
+разбойником с большой дороги~
+разбойнике с большой дороги~
+Человек в пыльных одеяниях бредет по своим делам.
+~
+Этот видать из русичей. Решил поживиться в чужых краях.
+~
+c0d0f0g0m0n0o0A0q1o2 k0r0 -600 E
+34 2 -8 10d10+3500 17d17+25
+10d10+784 350000
+8 8 1
+Saves: -60 0 0 0
+Armour: 50
+Absorbe: 90
+BareHandAttack: 7
+Str: 36
+Dex: 38
+Int: 26
+Wis: 26
+Con: 31
+Cha: 23
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: j0b1c1 
+Skill: 136 125
+Skill: 138 125
+Skill: 143 125
+Skill: 144 125
+Skill: 151 125
+Skill: 160 125
+Spell: 28
+E
+#20418
+ старый степной волк~
+старый степной волк~
+старого степного волка~
+старому степному волку~
+старого степного волка~
+старым степным волком~
+старом степном волке~
+Матерый степной волк бежит куда-то поджав хвост.
+~
+Преодолев много верст и набравшись изрядно опыта, эта псина прибежала из 
+степи поближе к городу, где можно побаловаться свежей падалью в связи с осадой.
+~
+d0f0h0m0n0o0 d0k0s0m1 -600 E
+31 2 -5 10d10+3100 15d18+55
+0d0+0 320000
+8 8 1
+Armour: 20
+CastSuccess: 5
+Absorbe: 95
+BareHandAttack: 4
+Str: 31
+Dex: 35
+Int: 15
+Wis: 16
+Con: 30
+Size: 100
+LikeWork: 85
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 136 120
+Skill: 157 120
+Spell: 131
+Spell: 131
+Spell: 131
+E
+I шерсть,10:10
+#20419
+ падальщик~
+падальщик~
+падальщика~
+падальщику~
+падальщика~
+падальщиком~
+падальщике~
+Черная птица кружит над останками людей.
+~
+Он только и ждет, когда закроются Ваши глаза.
+~
+d0f0h0m0n0o0 k0s0x0w1 -600 E
+30 2 -4 10d10+3100 14d13+30
+0d0+0 320000
+8 8 1
+Armour: 90
+CastSuccess: 50
+Absorbe: 25
+BareHandAttack: 8
+Str: 23
+Dex: 24
+Int: 15
+Wis: 30
+Con: 18
+Cha: 16
+Size: 100
+LikeWork: 85
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: l0 
+Skill: 2 120
+Skill: 136 120
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+E
+I крылья,10:10
+#20420
+ вожак степных волков~
+вожак степных волков~
+вожака степных волков~
+вожаку степных волков~
+вожака степных волков~
+вожаком степных волков~
+вожаке степных волков~
+Огромная черная псина скалится здесь.
+~
+Огромный степной волхв обосновал на границе степи и мещеры свое логово.
+~
+b0d0f0h0m0n0o0 d0h0k0s0m1r1w1 -600 E
+31 1 -6 10d10+3500 15d18+55
+0d0+0 400000
+8 8 1
+Saves: -70 -30 -65 -20
+Armour: 50
+CastSuccess: 50
+Success: 5
+Initiative: 5
+Absorbe: 90
+BareHandAttack: 4
+Str: 33
+Dex: 39
+Int: 17
+Wis: 18
+Con: 32
+Cha: 13
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 132 130
+Skill: 136 130
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Helper: 20401
+Helper: 20418
+E
+T 20429
+T 20430
+I когти,10:10
+#20421
+ израненный воин~
+израненный воин~
+израненного воина~
+израненному воину~
+израненного воина~
+израненным воином~
+израненном воине~
+Истекающий кровью воин лежит на полу.
+~
+Удивительно как этот воин еще жив с такими ранениями.
+~
+b0d0n0o0o2 d0k0 -600 E
+34 3 -5 10d10+54 14d15+25
+10d10+352 10000
+6 6 1
+BareHandAttack: 3
+Str: 37
+Dex: 32
+Int: 26
+Wis: 29
+Con: 23
+Cha: 21
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 136 130
+E
+T 20432
+#20422
+ десятник~
+десятник~
+десятника~
+десятнику~
+десятника~
+десятником~
+десятнике~
+Еле живой русский командир лежит здесь.
+~
+Его лицо искажено мучительной досадой. Не из-за боли от переломанных рук и 
+ног, а из-за собственной беспомощности и невозможности что-либо сделать с 
+басурманами, захватившими город.
+~
+b0d0n0o0o2 d0k0 -600 E
+35 3 -5 10d10+67 17d15+25
+10d10+352 10000
+6 6 1
+Saves: -90 0 0 0
+Armour: 90
+Absorbe: 90
+BareHandAttack: 3
+Str: 37
+Dex: 32
+Int: 26
+Wis: 29
+Con: 23
+Cha: 21
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 136 130
+E
+T 20434
+#20423
+ раскосый охранник~
+раскосый охранник ~
+раскосого охранника~
+раскосому охраннику~
+раскосого охранника~
+раскосым охранником~
+раскосом охраннике~
+Раскосый воин охраняет терем.
+~
+Воин, сжимающий в руке узкий нож, не будет медлить, если заметит врага.
+~
+b0d0m0n0o0q2r2 d0k0t1 -600 E
+34 2 -7 10d10+4500 15d15+25
+10d10+352 500000
+8 8 1
+Saves: -15 -15 -15 -15
+Resistances: 35 35 35 35 0 0 0
+Armour: 90
+Success: 5
+Initiative: 5
+Absorbe: 95
+BareHandAttack: 11
+Str: 37
+Dex: 30
+Int: 21
+Wis: 25
+Con: 33
+Cha: 20
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: b1c1 
+Skill: 136 130
+Skill: 144 130
+Skill: 147 130
+Skill: 160 130
+Spell: 68
+Spell: 68
+Spell: 68
+E
+#20424
+ чумазый ребенок~
+чумазый ребенок~
+чумазого ребенка~
+чумазому ребенку~
+чумазого ребенка~
+чумазым ребенком~
+чумазом ребенке~
+Чумазый мальчишка бегает по улице.
+~
+На мальчугане с измазанным в саже лицом одеты заляпанные грязью лохмотья 
+вместо нормальных одежд.
+~
+c0d0n0o0A0j2o2 k0t1 -600 E
+32 6 -6 10d10+2000 13d13+40
+10d10+5 200000
+8 8 1
+Str: 17
+Dex: 26
+Int: 14
+Wis: 14
+Con: 14
+Cha: 20
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: a1b1c1 
+Skill: 136 100
+Skill: 138 100
+Skill: 139 100
+Skill: 160 100
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+E
+#20425
+ маленькая девочка~
+маленькая девочка~
+маленькой девочки~
+маленькой девочке~
+маленькую девочку~
+маленькой девочкой~
+маленькой девочке~
+Эта малютка хочет к своей маме.
+~
+Маленькая девочка тихонько плачет.
+~
+d0n0o0j2o2 k0r1 -600 E
+32 6 -6 10d10+2000 10d10+10
+10d10+5 200000
+8 8 2
+Str: 13
+Dex: 17
+Int: 12
+Wis: 12
+Con: 13
+Cha: 27
+Size: 100
+LikeWork: 85
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: a1b1c1 
+Skill: 136 100
+Skill: 150 150
+Skill: 166 150
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 25
+E
+I кости,10:10
+$

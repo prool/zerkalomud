@@ -23,6 +23,7 @@ Class: 102
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 61100
 T 61101
@@ -43,6 +44,7 @@ b0d0g0l0n0o0x0c1c2h2 c0d0e0f0h0k0r0z0A0k1m1r1t1 -600 E
 36 0 -10 10d7+11000 7d6+8
 0d0+1500 1500000
 6 6 1
+Resistances: -300 0 100 0 0 0 0
 BareHandAttack: 6
 Str: 36
 Dex: 34
@@ -57,10 +59,20 @@ Class: 104
 Height: 198
 Weight: 150
 Special_Bitvector: o0v0 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 1 100
 Skill: 22 60
 Skill: 134 100
-Skill: 136 150
+Skill: 136 108
 Skill: 150 100
 Skill: 151 90
 Spell: 23
@@ -121,7 +133,7 @@ Class: 100
 Height: 198
 Weight: 160
 Special_Bitvector: o0v0b1c1 
-Skill: 136 100
+Skill: 136 84
 Spell: 23
 Spell: 23
 Spell: 26
@@ -225,6 +237,7 @@ Spell: 56
 Spell: 72
 Spell: 72
 E
+L 1475 12 0 0
 #61105
 русалка-страж~
 русалка-страж~
@@ -258,6 +271,7 @@ Weight: 100
 Special_Bitvector: o0v0b1c1 
 Skill: 22 60
 Skill: 132 100
+Skill: 136 84
 Skill: 137 100
 Skill: 150 50
 Skill: 157 90
@@ -292,6 +306,7 @@ Class: 103
 Height: 198
 Weight: 160
 Special_Bitvector: o0v0 
+Skill: 136 87
 Skill: 137 100
 Skill: 157 80
 Skill: 160 80
@@ -333,6 +348,7 @@ Weight: 20
 Special_Bitvector: a1b1c1 
 Skill: 131 100
 Skill: 133 100
+Skill: 136 81
 Skill: 138 100
 Skill: 139 100
 Skill: 156 100
@@ -450,6 +466,7 @@ Class: 103
 Height: 100
 Weight: 100
 Special_Bitvector: o0v0 
+Skill: 136 84
 Spell: 6
 Spell: 6
 Spell: 6
@@ -589,6 +606,7 @@ Class: 102
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #61113
 старый колдун~
@@ -613,6 +631,7 @@ Class: 102
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 61116
 T 61120
@@ -637,6 +656,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 24
 E
 #61115
 акула-убийца~
@@ -668,6 +688,7 @@ Height: 100
 Weight: 160
 Special_Bitvector: o0v0 
 Skill: 132 100
+Skill: 136 87
 Skill: 137 100
 Skill: 157 80
 Skill: 160 80
@@ -702,6 +723,7 @@ Height: 100
 Weight: 160
 Special_Bitvector: o0v0 
 Skill: 132 100
+Skill: 136 87
 Skill: 137 100
 Skill: 157 80
 Spell: 75
@@ -736,6 +758,7 @@ Class: 103
 Height: 100
 Weight: 160
 Special_Bitvector: o0v0 
+Skill: 136 87
 Skill: 137 100
 Skill: 157 80
 Skill: 160 80

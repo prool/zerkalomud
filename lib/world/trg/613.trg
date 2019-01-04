@@ -6,8 +6,8 @@ wait 1s
 mecho Упырь закричал:'Стойте! Не надо драться! Выслушайте меня сначала!'
 wait 3s
 if !%self.fighting%
-say Готовы ли вы меня выслушать?
-attach 61301 %self.id%
+  say Готовы ли вы меня выслушать?
+  attach 61301 %self.id%
 end
 wait 2s
 halt
@@ -48,32 +48,32 @@ detach 61301 %self.id%
 0 q 100
 ~
 if %actor.id% != %hero.id%
-halt
+  halt
 end
 wait 1s  
 say Спасибо тебе, %hero.name%!
 if (( %random.100% < 25 ) && !%actor.skill(смастерить.лук)% && (%actor.class% == 10 ))
-*say Научу я тебя одому полезному умению.
-*mskillturn %actor.name% 'смастерить.лук' set                                     
+  *say Научу я тебя одому полезному умению.
+  *mskillturn %actor.name% 'смастерить.лук' set                                     
 elseif ((%random.5% == 1 ) && (%world.curobjs(597)% < 1 ))
-%load% obj 597
-say Возьми вот эту книгу в помощь.
-дать книг %actor.name%
+  %load% obj 597
+  say Возьми вот эту книгу в помощь.
+  дать книг %actor.name%
 else 
-say Возьми вот немного денег что у меня с  собой имеются. 
-%self.gold(7000)%
-дать 7000 кун %actor.name%
+  say Возьми вот немного денег, что у меня с собой имеются.
+  %self.gold(7000)%
+  дать 7000 кун %actor.name%
 end
 wait 1s
 say Если согласишься тут подождать немного, пару минут.
-say Я сейчас к себе в трясину еще-кое зачем схожу. 
+say Я сейчас к себе в трясину еще кое зачем схожу.
 wait 1s                                            
 mecho Упырь скрылся в трясине.   
 eval rum 61350+%random.2%
 mteleport %self% %rum%
 wait 15s
 if %self.fighting%
-halt
+  halt
 end
 mload mob 61316
 calcuid dovol 61316 mob 
@@ -87,10 +87,10 @@ mpurge %self%
 0 f 100
 ~
 if %actor.vnum% == -1
-set Hero %actor%
+  set hero %actor%
 else
-*я не уверен что такое поле есть - но если работает - слава богу
-set Hero %actor.master%
+  *я не уверен что такое поле есть - но если работает - слава богу
+  set hero %actor.leader%
 end
 calcuid upyr 61314 mob
 remote hero %upyr.id%  
@@ -129,13 +129,15 @@ elseif %target% && %random.3% == 1
   wait 1
   say Упырята мои проголодались, а кроме тебя никого поблизости не осталось.
   say А виноват я в том, что хочется мне кушать...
-mkill %target%
+  mkill %target%
 end
 ~
 #61305
 довольный упырь умер~
 0 f 100
 ~
-*хз - тут тоже могешь награду какую-нить повесить тоже - подумайте может будет вдохновение.
+if (%random.1000% <= 50)
+  mload obj 1702
+end
 ~
 $~

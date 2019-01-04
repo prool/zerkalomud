@@ -1,5 +1,99 @@
+* BRusMUD mob file v1.0
+#70200
+ свирепое животное~
+свирепое животное~
+свирепого животного~
+свирепому животному~
+свирепое животное~
+свирепым животным~
+свирепом животном~
+Огромный шипастый монстр дремлет на куче трупов.
+~
+Создание, пришедшее из самых темных и страшных глубин тартара. Это 
+действительно то зло, кровь которого может принести покой даже жаждущей 
+мести душе.
+~
+b0c0f0g0m0n0o0A0 c0d0e0k0w1 -600 E
+32 0 -9 10d10+9999 17d17+0
+0d0+0 1000000
+5 5 0
+Saves: -70 -35 -35 -20
+Resistances: 40 40 40 40 44 43 41
+HPreg: 66
+Armour: 55
+PlusMem: 100
+CastSuccess: 35
+Success: 9
+Initiative: 9
+Absorbe: 55
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 45
+Int: 35
+Wis: 38
+Dex: 45
+Con: 45
+Cha: 16
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 3
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Feat: 1
+Feat: 3
+Feat: 29
+Feat: 68
+Feat: 78
+Feat: 79
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 82
+Spell: 93
+Skill: 132 130
+Skill: 136 130
+E
+T 70214
 #70201
-муравей~
+лесной муравей~
 лесной муравей~
 лесного муравья~
 лесному муравью~
@@ -8,29 +102,45 @@
 лесном муравье~
 Огромный лесной муравей бегает тут на коленчатых ножках.
 ~
-Настоящий гигант, длиной в руку человека. Его крепкие челюсти весьма
+   Настоящий гигант, длиной в руку человека. Его крепкие челюсти весьма
 ясно дают понять, что ссориться с ним не следует.
 ~
-c0d0g0h1l1m1n1 s0 0 E
-10 17 8 20d5+20 2d4+2
-0d0+0 8000
+b0c0g0m0n0o0A0 k0r0 -600 E
+28 5 -4 20d5+2222 15d15+30
+0d0+0 200000
 8 8 1
-BareHandAttack: 8
-Str: 18
-Dex: 15
-Con: 15
-Size: 30
-LikeWork: 65
+Saves: -40 -12 -12 -12
+Resistances: 33 33 33 33 33 33 33
+HPreg: 0
+Armour: 40
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 10
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 30
+Int: 17
+Wis: 17
+Dex: 30
+Con: 30
+Cha: 19
+LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 3
 Class: 103
+Size: 30
 Height: 198
-Weight: 30
-Special_Bitvector: g0p0 
-Skill: 134 50
-Skill: 136 50
+Weight: 50
+Special_Bitvector: g0
+Spell: 28
+Skill: 134 100
+Skill: 136 100
 E
 #70202
-медведь~
+бурый медведь~
 бурый медведь~
 бурого медведя~
 бурому медведю~
@@ -43,24 +153,39 @@ E
 трофеем в охотничьей коллекции. А его зубы могут с той же легкостью 
 полакомиться человечиной. 
 ~
-d0g0l0x0l1m1n1 f0 0 E
-15 13 6 20d20+50 6d2+4
-0d0+0 20000
+g0l0m0n0o0A0 f0t1 -600 E
+29 4 0 20d20+2550 16d16+30
+0d0+0 230000
 8 8 1
+Saves: -20 -5 -5 -5
+Resistances: 6 6 6 6 6 6 6
+HPreg: 0
+Armour: 30
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 20
+AResist: 0
+MResist: 0
 BareHandAttack: 1
-Str: 21
-Dex: 8
-Con: 22
-Size: 50
-LikeWork: 95
+Str: 35
+Int: 20
+Wis: 20
+Dex: 35
+Con: 35
+Cha: 26
+LikeWork: 85
+MaxFactor: 0
 ExtraAttack: 1
 Class: 103
+Size: 50
 Height: 198
 Weight: 50
-Special_Bitvector: 0 
-Skill: 132 80
-Skill: 136 60
-Skill: 140 80
+Feat: 1
+Skill: 132 100
+Skill: 136 100
+Skill: 4 100
 E
 #70203
 бурый медведь~
@@ -70,53 +195,100 @@ E
 бурого медведя~
 бурым медведем~
 буром медведе~
-Огромный медведь спит здесь.
+Огромный медведь спит посреди поляны.
 ~
-Крупный бурый медведь выглядит несколько сонно.~
-d0f0g0l0m0x0k1 f0 0 E
-15 10 6 40d8+50 6d2+6
-0d0+0 25000
-4 4 1
+Крупный бурый медведь выглядит несколько сонно.
+~
+g0l0m0n0o0A0 f0t1 -600 E
+29 4 -2 20d20+2550 16d16+30
+0d0+0 230000
+8 8 1
+Saves: -25 -6 -6 -6
+Resistances: 16 16 16 16 15 15 15
+HPreg: 0
+Armour: 35
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 22
+AResist: 0
+MResist: 0
 BareHandAttack: 1
-Str: 22
-Dex: 9
-Con: 22
-Size: 50
+Str: 35
+Int: 20
+Wis: 20
+Dex: 35
+Con: 35
+Cha: 26
 LikeWork: 85
+MaxFactor: 0
 ExtraAttack: 1
 Class: 103
+Size: 50
 Height: 198
 Weight: 50
-Special_Bitvector: 0 
-Skill: 5 60
-Skill: 132 80
-Skill: 136 60
+Feat: 1
+Skill: 132 100
+Skill: 136 100
+Skill: 4 100
 E
+T 70218
 #70204
 клест птичка птица~
 клест~
 клеста~
 клесту~
 клеста~
-клесте~
 клестом~
+клесте~
 Небольшая птичка с загнутым клювом весело летает от дерева к дереву.
 ~
 Клест. Обожает шишки и мелких насекомых. Оставьте в покое защитника леса.
 ~
-d0g0h0 x0 0 E
-5 19 9 0d0+80 4d2+0
-0d0+0 3000
+g0h0m0n0o0 h0k0x0 -600 E
+28 6 -3 0d0+1580 11d13+5
+0d0+0 150000
 8 8 1
-BareHandAttack: 15
-Size: 30
+Saves: -9 -9 -9 -9
+Resistances: 6 6 6 6 6 6 6
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 5
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 20
+Int: 28
+Wis: 30
+Dex: 25
+Con: 20
+Cha: 35
+LikeWork: 60
+MaxFactor: 0
+ExtraAttack: 0
 Class: 103
+Size: 30
 Height: 198
-Weight: 30
-Special_Bitvector: l0 
+Weight: 50
+Special_Bitvector: l0
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 48
+Spell: 56
+Skill: 136 100
+Skill: 157 100
 E
+T 70224
 #70205
-белка~
+ белка~
 белка~
 белки~
 белке~
@@ -128,17 +300,49 @@ E
 Объевшаяся шишек белка уже не знает чем бы ей заняться. Она сыто икает и 
 держится лапками за живот.
 ~
-d0g0h0 0 0 E
-10 15 7 10d6+30 8d1+4
-0d0+0 4000
+g0h0m0n0o0 h0k0x0 -600 E
+28 4 -4 0d0+1600 12d13+5
+5d5+0 150000
 8 8 2
+Saves: -11 -11 -11 -11
+Resistances: 14 14 14 14 14 14 1
+HPreg: 0
+Armour: 15
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 5
+AResist: 0
+MResist: 0
 BareHandAttack: 4
-Dex: 20
+Str: 23
+Int: 26
+Wis: 27
+Dex: 30
+Con: 23
+Cha: 32
+LikeWork: 65
+MaxFactor: 0
+ExtraAttack: 0
 Class: 103
+Size: 30
 Height: 198
-Weight: 200
-Special_Bitvector: n0 
+Weight: 50
+Special_Bitvector: l0
+Spell: 111
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 100
+Skill: 157 100
 E
+T 70225
 #70206
 страж словен~
 словенин~
@@ -147,36 +351,54 @@ E
 словенина~
 словенином~
 словенине~
-Словенский страж кургана стоит на пути.
+Словенин стоит здесь.
 ~
-Весьма крепкий светловолосый воин, который не собирается пускать путников
-дальше. Место то для них священно.
+Весьма крепкий светловолосый воин, всегда готовый взять оружие, и стать на 
+защиту своей Родины.
 ~
-b0d0g0l0x0A0 d0C0 600 E
-17 10 6 30d5+100 4d5+0
-20d5+0 15000
+c0g0l0o0A0 c0d0e0k0A0t1x1 -600 E
+30 0 -6 30d5+3100 15d13+20
+20d5+0 285000
 8 8 1
-Str: 18
-Dex: 17
-Con: 18
-Size: 50
+Saves: -30 -20 -9 -9
+Resistances: 6 6 6 6 0 0 0
+HPreg: 0
+Armour: 40
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 20
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 37
+Int: 29
+Wis: 29
+Dex: 37
+Con: 37
+Cha: 37
 LikeWork: 70
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
+Size: 50
 Height: 198
 Weight: 50
-Special_Bitvector: a0b1c1d1 
-Skill: 22 40
-Skill: 148 50
-Skill: 150 40
-Skill: 154 50
-Skill: 155 50
-Skill: 158 60
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
+Special_Bitvector: b1c1
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 68
+Skill: 136 100
+Skill: 148 100
+Skill: 150 100
+Skill: 154 100
+Skill: 155 100
+Skill: 157 100
+Skill: 22 100
 E
+T 70219
 #70207
 старик~
 старик~
@@ -189,37 +411,63 @@ E
 ~
 Убеленный сединами старик. Какая-то хитрость видна в его глазах.
 ~
-b0d0g0l0n0x0A0 d0 -600 E
-15 15 3 0d0+400 1d30+0
-20d10+0 25000
+b0g0n0o0x0 c0d0e0k0n0m0r0C0x1 -600 E
+30 5 0 0d0+3000 10d30+10
+20d10+0 270000
 8 8 1
-Dex: 15
-Int: 23
-Wis: 23
-LikeWork: 99
+Saves: -40 -20 -20 -20
+Resistances: 25 25 25 25 25 25 25
+HPreg: 0
+Armour: 35
+PlusMem: 0
+CastSuccess: 25
+Success: 0
+Initiative: 0
+Absorbe: 20
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 27
+Int: 37
+Wis: 37
+Dex: 24
+Con: 26
+Cha: 17
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
 Class: 102
+Size: 10
 Height: 198
-Weight: 200
-Special_Bitvector: 0 
-Spell: 6
-Spell: 6
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
+Weight: 150
+Special_Bitvector: b1c1
 Spell: 23
 Spell: 23
-Spell: 30
-Spell: 30
-Spell: 32
-Spell: 32
-Spell: 32
-Spell: 32
+Spell: 23
+Spell: 23
+Spell: 23
 Spell: 38
 Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 82
+Spell: 82
+Spell: 82
 Spell: 92
 Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Skill: 132 110
+Skill: 136 110
 E
+T 70200
+T 70201
+T 70220
 #70208
 ворон~
 ворон~
@@ -232,103 +480,819 @@ E
 ~
 Большой черный ворон. Ищет себе поживу.
 ~
-d0g0b1 x0 -600 E
-10 15 5 0d0+200 4d4+0
-0d0+0 6000
+g0k0m0b1 k0n0m0r0x0 -600 E
+28 5 -3 0d0+1900 17d17+5
+0d0+0 175000
 8 8 1
-BareHandAttack: 15
-Size: 30
+Saves: -30 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 15
+PlusMem: 0
+CastSuccess: 0
+Success: 5
+Initiative: 5
+Absorbe: 9
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 22
+Int: 22
+Wis: 22
+Dex: 22
+Con: 22
+Cha: 22
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 0
 Class: 103
+Size: 30
 Height: 198
-Weight: 30
-Special_Bitvector: l0 
+Weight: 50
+Special_Bitvector: l0
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 114
+Spell: 114
+Spell: 114
+Skill: 136 100
+Skill: 150 100
 E
 #70209
 дух словенин~
-дух~
-духа~
-духу~
-духа~
-духом~
-духе~
+дух словенина~
+духа словенина~
+духу словенина~
+духа словенина~
+духом словенина~
+духе словенина~
 Дух словенина скитается по пустырю.
 ~
-Дух словенина, павшего в бою. Нет ему покоя и вынужден он служить норманнам.
+Дух словенина, павшего в бою. Нет ему покоя и вынужден он вечно скитаться 
+над полем боя.
 ~
-d0g0j0p0q0x0z0b1i1 d0e0f0k0 0 E
-13 13 8 10d5+200 6d2+2
-0d0+0 10000
+f0g0n0o0p0q0r0x0z0b1g2 c0d0e0k0x0C0r1 -600 E
+30 0 -6 10d5+2800 16d16+35
+0d0+0 250000
 8 8 1
-Dex: 22
-Size: 40
-ExtraAttack: 1
-Class: 101
-Height: 198
-Weight: 40
-Special_Bitvector: l0 
-E
-#70210
-дух словенин~
-дух~
-духа~
-духу~
-духа~
-духом~
-духе~
-Слабо мерцающий дух неторопливо летает тут.
-~
-Дух погибшего словенина, охраняющий покой своего хозяина.
-~
-d0f0g0z0b1 d0f0k0x0 0 E
-15 12 5 0d0+300 4d4+2
-0d0+0 14000
-8 8 1
-Str: 16
-Dex: 21
-Int: 24
-Size: 40
-ExtraAttack: 1
-Class: 101
-Height: 198
-Weight: 40
-Special_Bitvector: l0 
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 114
-Spell: 114
-E
-#70211
-конунг скелет~
-скелет~
-скелета~
-скелету~
-скелета~
-скелетом~
-скелете~
-Высохший скелет конунга сидит здесь на троне.
-~
-Когда-то это был могучий воин. Теперь от него осталась лишь груда костей.
-~
-b0d0f0g0m0x0 d0e0k0z0 -600 E
-20 10 5 50d5+200 5d3+2
-10d10+0 30000
-6 8 1
-Str: 24
-Int: 18
-Wis: 18
-Con: 24
-Size: 50
+Saves: -70 -30 -30 -30
+Resistances: 30 30 30 30 30 30 30
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 50
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 32
+Int: 32
+Wis: 32
+Dex: 32
+Con: 32
+Cha: 32
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
+Size: 40
 Height: 198
 Weight: 50
-Special_Bitvector: e0 
-Skill: 5 70
-Skill: 136 70
-Skill: 142 70
-Skill: 158 70
+Feat: 3
+Feat: 29
+Feat: 37
+Feat: 68
+Feat: 76
+Feat: 78
+Feat: 79
+Special_Bitvector: l0b1c1B3
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Skill: 136 110
+Skill: 148 110
+Skill: 157 110
+Skill: 21 110
 E
+T 70227
+#70210
+дух викинга~
+дух викинга~
+духа викинга~
+духу викинга~
+духа викинга~
+духом викинга~
+духе викинга~
+Слабо мерцающий дух неторопливо летает тут.
+~
+Дух погибшего викинга, жаждет мести.
+~
+f0g0n0o0p0q0r0x0z0b1g2 c0d0e0k0x0A0C0r1 -600 E
+30 0 -6 0d0+3300 17d17+40
+0d0+0 300000
+8 8 1
+Saves: -65 -40 -40 -40
+Resistances: 50 50 50 50 50 50 50
+HPreg: 0
+Armour: 55
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 20
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 36
+Int: 28
+Wis: 28
+Dex: 29
+Con: 36
+Cha: 25
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 101
+Size: 40
+Height: 198
+Weight: 50
+Feat: 1
+Feat: 3
+Feat: 29
+Feat: 31
+Feat: 35
+Feat: 68
+Feat: 70
+Feat: 74
+Special_Bitvector: l0b1c1
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Skill: 1 110
+Skill: 136 110
+Skill: 142 110
+Skill: 146 110
+Skill: 5 110
+E
+T 70221
+#70211
+дух жреца~
+дух жреца~
+духа жреца~
+духу жреца~
+духа жреца~
+духом жреца~
+духе жреца~
+Дух казненного жреца парит над палубой драккара.
+~
+Дух погибшего скандинава, жаждет мести.
+~
+b0f0g0n0o0p0r0x0z0b1g2 c0d0e0k0x0n1r1 -600 E
+31 0 -5 0d0+8000 16d16+22
+0d0+0 1000000
+8 8 1
+Saves: -60 -60 -60 -30
+Resistances: 45 45 45 45 45 45 45
+HPreg: 0
+Armour: 55
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 20
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 30
+Int: 38
+Wis: 38
+Dex: 30
+Con: 25
+Cha: 30
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 101
+Size: 40
+Height: 198
+Weight: 50
+Feat: 3
+Special_Bitvector: l0
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 94
+Skill: 136 110
+Skill: 4 110
+E
+#70212
+  рогатый лось~
+лось~
+лося~
+лосю~
+лося~
+лосем~
+лосе~
+Рогатый лось бредет между деревьев.
+~
+Обладатель огромных рогов, кои могут стать грозным оружием в борьбе за 
+выживание.
+~
+g0m0n0o0 k0r0 -600 E
+28 4 0 10d10+2100 13d13+6
+0d0+0 180000
+8 8 1
+Saves: -15 -9 -9 -9
+Resistances: 14 14 14 14 14 14 14
+HPreg: 0
+Armour: 32
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 20
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 28
+Int: 23
+Wis: 26
+Dex: 32
+Con: 25
+Cha: 20
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 100
+Size: 100
+Height: 175
+Weight: 85
+Skill: 132 100
+Skill: 136 100
+Skill: 151 100
+E
+#70213
+ подземная змея~
+подземная змея~
+подземной змеи~
+подземной змее~
+подземную змею~
+подземной змеей~
+подземной змее~
+Огромная змея ловко скользит между костями.
+~
+Черная ядовитая змея, с двумя острыми зубами, торчащими из пасти.
+~
+f0g0m0o0A0g2 c0d0k0n0m0m1 -600 E
+30 0 -5 10d10+3000 14d14+0
+6d6+0 300000
+8 8 2
+Saves: -60 -20 -20 -20
+Resistances: 33 33 33 33 22 22 22
+HPreg: 55
+Armour: 30
+PlusMem: 0
+CastSuccess: 22
+Success: 5
+Initiative: 5
+Absorbe: 30
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 29
+Int: 24
+Wis: 24
+Dex: 40
+Con: 33
+Cha: 23
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 2
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: g0m0
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 58
+Skill: 136 115
+Skill: 160 115
+E
+T 70223
+#70214
+ тролль~
+тролль~
+тролля~
+троллю~
+тролля~
+троллем~
+тролле~
+Троль кровожадно облизывается здесь.
+~
+Зеленый получеловек полузверь, вечно живущий в подземельях, не видавших 
+солнечного света.
+~
+f0g0m0n0o0A0 c0d0k0c1t1 -600 E
+30 0 -5 10d10+3333 16d16+16
+7d7+0 300000
+8 8 1
+Saves: -40 -9 -9 -9
+Resistances: 25 25 25 25 0 0 0
+HPreg: 0
+Armour: 40
+PlusMem: 0
+CastSuccess: 15
+Success: 0
+Initiative: 0
+Absorbe: 15
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 40
+Int: 19
+Wis: 19
+Dex: 35
+Con: 39
+Cha: 20
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Feat: 1
+Feat: 3
+Special_Bitvector: b1c1
+Spell: 54
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Skill: 136 110
+Skill: 5 110
+E
+T 70226
+#70215
+ двухголовый тролль~
+двухголовый тролль~
+двухголового тролля~
+двухголовому троллю~
+двухголового тролля~
+двухголовым троллем~
+двухголовом тролле~
+Троль с двумя головами кровожадно облизывается здесь.
+~
+Зеленый получеловек полузверь с двумя головами никогда не выходит из 
+подземелья на дневной свет.
+~
+f0g0m0n0o0A0 c0d0k0c1t1 -600 E
+31 0 -7 10d10+3500 16d16+26
+8d8+0 350000
+8 8 1
+Saves: -50 -15 -15 -15
+Resistances: 35 35 35 35 0 0 0
+HPreg: 0
+Armour: 50
+PlusMem: 0
+CastSuccess: 20
+Success: 0
+Initiative: 0
+Absorbe: 15
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 43
+Int: 23
+Wis: 23
+Dex: 38
+Con: 42
+Cha: 20
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Feat: 1
+Feat: 3
+Special_Bitvector: b1c1
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 56
+Skill: 136 115
+Skill: 5 115
+E
+T 70226
+#70216
+ трехголовый тролль~
+трехголовый тролль~
+трехголового тролля~
+трехголовому троллю~
+трехголового тролля~
+трехголовым троллем~
+трехголовом тролле~
+Троль с тремя головами кровожадно облизывается здесь.
+~
+Черный получеловек полузверь с тремя головами никогда не выходит из 
+подземелья на дневной свет.
+~
+f0g0m0n0o0A0 c0d0k0c1t1 -600 E
+31 0 -8 10d10+3700 16d17+30
+8d8+0 400000
+8 8 1
+Saves: -56 -18 -18 -18
+Resistances: 40 40 40 40 20 20 20
+HPreg: 0
+Armour: 55
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 25
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 45
+Int: 26
+Wis: 26
+Dex: 42
+Con: 47
+Cha: 24
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Feat: 1
+Feat: 3
+Special_Bitvector: b1c1
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Skill: 132 120
+Skill: 136 120
+Skill: 5 120
+E
+T 70222
+#70217
+ хуторянин~
+хуторянин~
+хуторянина~
+хуторянину~
+Хуторянина~
+хуторянином~
+хуторянине~
+Хуторянин стоит здесь.
+~
+   Трудолюбивый старик многое повидал на своем веку. Многое он знает, и обо
+всем поведает хорошему человеку.
+~
+b0g0l0n0o0 c0d0e0k0A0t1x1 -600 E
+30 0 -6 30d5+3000 15d13+20
+20d5+0 280000
+8 8 1
+Saves: -50 0 0 0
+Resistances: 0 15 15 15 0 0 0
+HPreg: 0
+Armour: 40
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 20
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 37
+Int: 29
+Wis: 29
+Dex: 37
+Con: 37
+Cha: 37
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 50
+Height: 198
+Weight: 50
+Special_Bitvector: b1c1
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 68
+Spell: 68
+Spell: 68
+Skill: 132 100
+Skill: 136 100
+Skill: 150 100
+E
+#70218
+ словенский кузнец~
+словенский кузнец~
+словенского кузнеца~
+словенскому кузнецу~
+словенского кузнеца~
+словенским кузнецом~
+словенском кузнеце~
+Массивный мужик стоит перед наковальней.
+~
+Здоровенный детина с молотом в руках кует что-то нужное хуторскому населению.
+~
+b0g0l0n0o0 c0d0e0k0A0t1x1 -600 E
+30 0 -6 30d5+3000 15d15+20
+20d5+0 300000
+8 8 1
+Saves: -50 -10 -5 0
+Resistances: 6 6 6 6 6 6 6
+HPreg: 0
+Armour: 60
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 40
+AResist: 0
+MResist: 0
+BareHandAttack: 6
+Str: 40
+Int: 29
+Wis: 29
+Dex: 40
+Con: 40
+Cha: 37
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 50
+Height: 198
+Weight: 50
+Feat: 1
+Feat: 29
+Feat: 30
+Special_Bitvector: b1c1
+Skill: 136 110
+Skill: 141 110
+Skill: 150 110
+Skill: 22 110
+Skill: 4 110
+E
+#70219
+ старый мельник~
+старый мельник~
+старого мельника~
+старому мельнику~
+старого мельника~
+старым мельником~
+старом мельнике~
+Старый мельник стоит здесь.
+~
+   Старый мельник довольно крупных размеров. Он легко справляется с
+тяжеленными мешками муки. Все движения у него точны и быстры, как у
+охотника...
+~
+b0g0l0n0o0 c0d0e0k0A0t1x1 -600 E
+30 0 -3 10d5+3000 13d15+20
+20d5+0 300000
+8 8 1
+Saves: -40 -55 -5 -5
+Resistances: 8 8 8 8 8 8 8
+HPreg: 0
+Armour: 45
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 20
+AResist: 0
+MResist: 0
+BareHandAttack: 6
+Str: 38
+Int: 26
+Wis: 29
+Dex: 37
+Con: 36
+Cha: 33
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 50
+Height: 198
+Weight: 50
+Special_Bitvector: b1c1
+Spell: 150
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 56
+Spell: 88
+Skill: 132 120
+Skill: 136 120
+Skill: 4 120
+E
+#70220
+ муравей охранник~
+муравей-охранник~
+муравья-охранника~
+муравью-охраннику~
+муравья-охранника~
+муравьем-охранником~
+муравье-охраннике~
+Огромный муравей-охранник готовится к нападению.
+~
+   Настоящий гигант, длиной в руку человека. Его крепкие челюсти весьма
+ясно дают понять, что ссориться с ним не следует. Он готов умереть ради
+своих сородичей.
+~
+b0f0g0n0o0 d0k0r0 -600 E
+28 5 -4 20d5+2222 15d15+30
+0d0+0 210000
+8 8 1
+Saves: -50 -19 -19 -19
+Resistances: 40 40 40 40 40 40 40
+HPreg: 0
+Armour: 55
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 20
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 30
+Int: 17
+Wis: 17
+Dex: 30
+Con: 30
+Cha: 19
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 2
+Class: 103
+Size: 30
+Height: 198
+Weight: 50
+Feat: 1
+Feat: 3
+Special_Bitvector: g0
+Spell: 28
+Skill: 132 110
+Skill: 136 110
+Skill: 4 110
+E
+#70221
+дух жреца~
+дух жреца~
+духа жреца~
+духу жреца~
+духа жреца~
+духом жреца~
+духе жреца~
+Дух казненного жреца парит над палубой драккара.
+~
+Дух погибшего скандинава, жаждет мести.
+~
+b0f0g0n0o0p0r0x0z0b1g2 c0d0e0k0x0r1 -600 E
+31 0 -5 0d0+8000 16d16+22
+0d0+0 1000000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 30
+Int: 38
+Wis: 38
+Dex: 30
+Con: 25
+Cha: 30
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 101
+Size: 40
+Height: 198
+Weight: 50
+Special_Bitvector: l0
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 94
+Skill: 136 110
+Skill: 4 110
+E
+T 70217
+$
 $

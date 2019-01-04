@@ -33,11 +33,13 @@ Height: 198
 Weight: 120
 Special_Bitvector: b0 
 Skill: 21 100
+Skill: 136 75
 Skill: 137 100
 Skill: 150 100
-Spell: 6
 E
 T 33202
+I чешуя:8
+I глаза:6
 #33201
 русалка охранница~
 русалка-охранница~
@@ -75,6 +77,7 @@ Height: 198
 Weight: 120
 Special_Bitvector: b0b1c1 
 Skill: 132 100
+Skill: 136 81
 Spell: 54
 Spell: 55
 Spell: 66
@@ -92,6 +95,8 @@ E
 T 33200
 T 33201
 T 33202
+I глаза:6
+I чешуя:8
 #33202
 медуза~
 медуза~
@@ -123,6 +128,7 @@ Class: 103
 Height: 198
 Weight: 10
 Special_Bitvector: g0o0 
+Skill: 136 54
 E
 #33203
 змей~
@@ -156,6 +162,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: g0o0 
 Skill: 132 90
+Skill: 136 60
 Spell: 6
 Spell: 6
 Spell: 6
@@ -164,6 +171,9 @@ Spell: 6
 E
 T 33213
 T 33226
+I чешуя:7
+I зубы:7
+I глаза:7
 L 1424 10 0 0
 L 1446 10 0 0
 #33204
@@ -194,6 +204,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: o0 
+Skill: 136 54
 E
 #33205
 пятнистый краб~
@@ -228,6 +239,7 @@ Weight: 100
 Special_Bitvector: m0y0 
 Skill: 5 50
 Skill: 132 60
+Skill: 136 69
 E
 #33206
 маленькая акула~
@@ -259,7 +271,10 @@ Weight: 50
 Special_Bitvector: o0 
 Skill: 4 50
 Skill: 132 80
+Skill: 136 66
 E
+I кожа:7
+I глаза:6
 #33207
 скелет раб~
 скелет раба~
@@ -293,6 +308,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
 Skill: 4 80
+Skill: 136 84
 Skill: 137 50
 Skill: 150 50
 Spell: 27
@@ -337,6 +353,7 @@ Class: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 69
 Spell: 72
 Spell: 72
 Spell: 72
@@ -376,6 +393,7 @@ Weight: 150
 Special_Bitvector: b1c1 
 Skill: 21 50
 Skill: 131 50
+Skill: 136 81
 Spell: 27
 Spell: 27
 Spell: 27
@@ -421,6 +439,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 4 100
+Skill: 136 81
 Skill: 151 100
 Spell: 56
 Spell: 67
@@ -467,6 +486,7 @@ Special_Bitvector: a1b1c1
 Skill: 4 60
 Skill: 5 60
 Skill: 22 60
+Skill: 136 75
 Skill: 151 60
 E
 #33212
@@ -498,6 +518,7 @@ Class: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 75
 Skill: 151 100
 Spell: 26
 Spell: 26
@@ -508,6 +529,7 @@ Spell: 55
 E
 T 33204
 T 33212
+L 1732 30 0 0
 #33213
 седой воин призрак~
 седой воин~
@@ -541,6 +563,7 @@ Weight: 100
 Special_Bitvector: b1c1d1 
 Skill: 21 100
 Skill: 132 100
+Skill: 136 87
 Skill: 150 100
 Skill: 151 100
 Spell: 75
@@ -581,6 +604,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: y0 
 Skill: 132 60
+Skill: 136 66
 Skill: 150 60
 Skill: 151 60
 Spell: 54
@@ -617,6 +641,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
 Skill: 132 100
+Skill: 136 81
 Skill: 150 100
 Skill: 151 100
 Spell: 43
@@ -627,7 +652,7 @@ T 33205
 T 33224
 #33216
 большая черепаха~
-большая черпаха~
+большая черепаха~
 большой черепахи~
 большой черепахе~
 большую черепаху~
@@ -655,6 +680,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: o0c1 
 Skill: 4 80
+Skill: 136 75
 E
 #33217
 меч кладенец меч-кладенец~
@@ -686,6 +712,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: a0b0c0d0e0f0 
 Skill: 21 50
+Skill: 136 81
 Skill: 157 100
 Spell: 3
 Spell: 10
@@ -716,7 +743,7 @@ BareHandAttack: 6
 Str: 36
 Dex: 36
 Int: 36
-Wis: 36
+Wis: 25
 Con: 36
 Cha: 36
 Size: 100
@@ -725,6 +752,7 @@ Class: 101
 Height: 198
 Weight: 200
 Special_Bitvector: j0l0v0 
+Skill: 136 96
 Spell: 104
 Spell: 104
 Spell: 104

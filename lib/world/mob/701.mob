@@ -11,8 +11,8 @@
 Обглоданная временем и червями груда самоходных костей.
 ~
 b0c0d0e0f0m0n0o0p0r0t0x0z0 c0d0e0f0j0k0z0m1 -600 E
-27 0 -10 10d10+2000 8d8+10
-0d0+0 1000000
+27 0 -10 10d10+2000 9d14+10
+0d0+0 220000
 8 8 1
 BareHandAttack: 8
 Str: 17
@@ -28,7 +28,8 @@ ExtraAttack: 1
 Class: 101
 Height: 170
 Weight: 80
-Special_Bitvector: b1c1 
+Special_Bitvector: b0d0b1c1 
+Skill: 136 81
 Skill: 137 120
 Skill: 150 100
 Skill: 160 100
@@ -67,8 +68,8 @@ T 70109
 ~
 Пожилой дяденька с густой холеной бородой.
 ~
-b0c0d0g0l0m0n0o0x0 d0f0h0k0m1o1r1 -600 E
-27 0 -10 0d0+3500 5d5+10
+b0c0d0g0l0n0o0x0j2 d0f0h0k0m1o1r1 -600 E
+27 0 9 0d0+3500 5d5+10
 0d0+0 1200000
 8 8 1
 Str: 21
@@ -85,6 +86,7 @@ Class: 105
 Height: 170
 Weight: 120
 Special_Bitvector: a1b1c1 
+Skill: 136 81
 Skill: 157 100
 Skill: 160 100
 Spell: 28
@@ -130,6 +132,7 @@ Class: 103
 Height: 30
 Weight: 50
 Special_Bitvector: l0 
+Skill: 136 90
 Skill: 157 50
 Spell: 28
 Spell: 28
@@ -236,6 +239,7 @@ Skill: 4 20
 Skill: 5 20
 Skill: 21 10
 Skill: 131 100
+Skill: 136 60
 Skill: 150 100
 Spell: 6
 Spell: 6
@@ -307,6 +311,7 @@ Height: 30
 Weight: 50
 Special_Bitvector: m0a1b1c1d1 
 Skill: 1 100
+Skill: 136 75
 Skill: 139 100
 Spell: 33
 E
@@ -323,7 +328,7 @@ T 70113
 ~
 Это самый обычный ходячий скелет.
 ~
-d0f0l0m0n0o0 d0f0 -600 E
+d0f0l0m0n0o0z0 d0f0 -600 E
 15 18 -5 20d5+100 5d5+1
 0d0+0 10000
 8 8 1
@@ -341,6 +346,7 @@ Class: 101
 Height: 120
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #70107
 восставший вампир~
@@ -373,6 +379,7 @@ Height: 150
 Weight: 50
 Special_Bitvector: 0 
 Skill: 22 40
+Skill: 136 51
 Spell: 76
 Spell: 76
 Spell: 76

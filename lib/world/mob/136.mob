@@ -1,0 +1,249 @@
+#13600
+дозорный~
+дозорный~
+дозорного~
+дозорному~
+дозорного~
+дозорным~
+дозорном~
+Дозорный искоростеньский дружинник наблюдает за происходящим.
+~
+ Жилистый воин с зоркими глазами, саадаком за плечами и коротким мечем на
+поясе. Легкие доспехи скрыты под грубой, на первый взгляд, накидкой.
+~
+d0f2 d0k0 -600 E
+30 10 -10 10d50+1200 6d8+12
+0d0+0 10000
+8 8 1
+Saves: 5 10 10 20
+HPreg: 5
+Armour: 15
+Absorbe: 15
+Str: 30
+Dex: 25
+Int: 12
+Wis: 12
+Con: 24
+Cha: 7
+Size: 100
+LikeWork: 90
+ExtraAttack: 2
+Class: 102
+Height: 175
+Weight: 150
+Special_Bitvector: y0b1c1d1C3 
+Feat: 12
+Feat: 38
+Feat: 52
+Feat: 66
+Feat: 77
+Skill: 22 80
+Skill: 137 80
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 154 80
+Skill: 157 80
+E
+#13601
+матерый волк~
+волк~
+волка~
+волку~
+волка~
+волком~
+волке~
+Матерый волк поднял морду оскалился Вам.
+~
+Серый матерый разбойник.
+~
+d0f0g0e1 f0k0 -600 E
+20 10 1 2d5+350 3d4+3
+0d0+0 15000
+8 8 1
+BareHandAttack: 4
+Str: 20
+Dex: 15
+Int: 10
+Wis: 10
+Con: 16
+Cha: 7
+Size: 50
+LikeWork: 40
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Height: 60
+Weight: 50
+Special_Bitvector: p0 
+Feat: 12
+Feat: 38
+Feat: 52
+Feat: 66
+Feat: 77
+E
+I шерсть,5:5
+#13602
+белка шустрая~
+белка~
+белки~
+белке~
+белку~
+белкой~
+белке~
+Шустрая белка скачет грызет здесь орехи.
+~
+Маленький зверек.
+~
+d0g0 f0k0 -600 E
+17 10 -7 5d5+240 1d10+1
+0d0+0 6000
+8 8 2
+BareHandAttack: 4
+Str: 10
+Dex: 20
+Int: 9
+Wis: 9
+Con: 10
+Cha: 13
+Size: 20
+LikeWork: 65
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Height: 30
+Weight: 50
+Special_Bitvector: n0 
+Feat: 12
+Feat: 38
+Feat: 52
+Feat: 66
+Feat: 77
+E
+I когти,5:5
+#13603
+кабан секач~
+секач~
+секача~
+секачу~
+секача~
+секачем~
+секаче~
+Крупный кабан роет носом землю
+~
+ Гора мяса.
+Но его неповоротливость только кажущаяся.
+~
+d0f0g0e1 k0 -600 E
+25 12 2 10d10+550 10d4+5
+0d0+0 15000
+8 8 1
+BareHandAttack: 14
+Str: 25
+Dex: 12
+Int: 7
+Wis: 7
+Con: 20
+Cha: 7
+Size: 100
+LikeWork: 15
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Height: 175
+Weight: 85
+Special_Bitvector: p0 
+Feat: 12
+Feat: 38
+Feat: 52
+Feat: 66
+Feat: 77
+Skill: 132 30
+E
+#13604
+рыжая лиса~
+лиса~
+лисы~
+лисе~
+лису~
+лисой~
+лисе~
+Рыжая лиса кого-то выслеживает в кустах
+~
+ Тонкая рыжая морда и пушистый хвост.
+~
+d0g0 d0f0k0 0 E
+17 10 1 10d2+350 2d4+3
+0d0+0 8000
+8 8 2
+BareHandAttack: 4
+Str: 13
+Dex: 15
+Int: 3
+Wis: 3
+Con: 14
+Cha: 13
+Size: 40
+LikeWork: 13
+MaxFactor: 50
+ExtraAttack: 1
+Class: 103
+Height: 30
+Weight: 50
+Special_Bitvector: p0 
+Feat: 12
+Feat: 38
+Feat: 52
+Feat: 66
+Feat: 77
+E
+I зубы,5:5
+#13605
+охотник ~
+опытный охотник~
+опытного охотника~
+опытному охотнику~
+опытного охотника~
+опытным охотником~
+опытном охотнике~
+Опытный охотник из Искоростеня выслеживает добычу.
+~
+Зоркий, наметанный глаз. Бесшумная потсупь.
+Без сомнения, опытный стрелок да и рогатиной владеет не хуже.
+~
+d0 f0k0 -600 E
+26 1 -9 10d20+750 3d5+10
+2d2+5 10000
+8 8 1
+Saves: 10 10 10 10
+Resistances: 0 0 0 0 10 0 0
+HPreg: 10
+Success: 5
+Initiative: 10
+Str: 26
+Dex: 26
+Int: 10
+Wis: 10
+Con: 19
+Cha: 8
+Size: 100
+LikeWork: 90
+ExtraAttack: 1
+Class: 102
+Height: 175
+Weight: 85
+Special_Bitvector: y0b1c1 
+Feat: 12
+Feat: 38
+Feat: 52
+Feat: 66
+Feat: 77
+Skill: 148 60
+Skill: 154 60
+E
+$

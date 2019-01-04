@@ -3,7 +3,7 @@
 0 f 100
 ~
 if (%world.curobjs(30312)% < 5) && (%random.5% == 1)
-   mload obj 30312
+  mload obj 30312
 end
 ~
 #30301
@@ -11,7 +11,7 @@ end
 0 r 100
 ~
 mecho _Нога скелета запрыгала от радости.
-wait 1s
+wait 1
 msend %actor% _Нога скелета изогнулась и отвесила Вам смачный пинок.
 mechoaround %actor% _Нога скелета изогнулась и отвесила %actor.dname% смачный пинок.
 mdamage %actor% 150
@@ -44,7 +44,7 @@ mkill %actor%
 зашли в клетку к амбарщику~
 0 r 100
 ~
-mecho _Старичок-амбарщик перестал наводить порядок и пресмотрелся к Вам.
+mecho  Старичок-амбарщик перестал наводить порядок и присмотрелся к Вам.
 wait 1s
 mecho _Старичок-амбарщик разгневано топнул ногой.
 говор Повадились в чужие амбары лазить! Пора бы вас уже проучить!
@@ -81,12 +81,13 @@ mechoaround %actor% _Толстый мельник подмигнул %actor.dname% и похлопал по кошел
 толстому мельнику дали голову водяного~
 0 j 100
 ~
+wait 1
 if %object.vnum% == 30700 then
+  wait 1
+  mpurge %object%
   wait 1s
-  mpurge голова
   mecho _Толстый мельник улыбнулся и спрятал голову за пазуху.
   wait 1s
-  mpurge голова
   tell %actor.name% Продам на ярмарке!
   хих
   wait 1s
@@ -95,26 +96,30 @@ if %object.vnum% == 30700 then
   дат коше %actor.name%
   wait 1s
   mecho _Толстый мельник захихикал и выбежал из дома.
-  mpurge self
+  wait 1
+  mpurge %self%
 end
 ~
 #30308
 зашли к рыжему волхву~
 0 r 100
 ~
+wait 1
 mecho _Рыжий волхв обрадовался Вашему приходу.
 wait 1s
 говор Вас послал сам Перун, дабы я принес Вас ему жертву.
 msend %actor% _Рыжий волхв выхватил ритуальный нож и с криком набросился на Вас.
 mechoaround %actor% _Рыжий волхв выхватил ритуальный нож и с криком набросился на %actor.rname%.
-mload obj 30316
+if (!%self.haveobj(30316) && (%world.curobjs(30316) < 30))
+  mload obj 30316
+end
 mkill %actor%
 ~
 #30309
 зашли к волхву Ящера~
 0 r 100
 ~
-mecho _Волхв Ящера расхохатался и перед ним разверзлась земля.
+mecho Волхв Ящера расхохотался и перед ним разверзлась земля.
 wait 1s
 говор Вот кто отправится на обед моему повелителю!
 msend %actor% _Волхв Ящера указал посохом в Вашу сторону.
@@ -125,29 +130,29 @@ mkill %actor%
 веселые ручки~
 0 ab 50
 ~
- if %random.5%==1 then
-      mecho _Одна из костлявых рук показала Вам Кукиш.
- else
+if %random.5%==1 then
+  mecho _Одна из костлявых рук показала Вам Кукиш.
+else
   if %random.4%==1 then
-      mecho _Одна из костлявых рук поманила Вас пальцем.
+    mecho _Одна из костлявых рук поманила Вас пальцем.
   else
     if %random.3%==1 then
-      mecho _Одна из костлявых рук сложила пальцы в кулочок и погрозила Вам.
-   else
-     if %random.2%==1 then
-foreach i %self.pc%
-msend %i.name%  Одна из костлявых рук удлинилась, больно хватанув Вас за нос.
-mechoaround %i.name%  Одна из костлявых рук удлинилась, больно хватанув %i.rname% за нос.
-mdamage %i.name% 50
-done
+      mecho _Одна из костлявых рук сложила пальцы в кулачок и погрозила Вам.
     else
-      if %world.curmobs(30348)% <2
-    mecho _Похоже одному из скелетов удалось всетаки выбраться. 
-    mload mob 30348
-     end
-     end
+      if %random.2%==1 then
+        foreach i %self.pc%
+          msend %i.name%  Одна из костлявых рук удлинилась, больно хватанув Вас за нос.
+          mechoaround %i.name%  Одна из костлявых рук удлинилась, больно хватанув %i.rname% за нос.
+          mdamage %i.name% 50
+        done
+      else
+        if %world.curmobs(30348)% <2
+          mecho  Похоже одному из скелетов удалось все-таки выбраться.
+          mload mob 30348
+        end
+      end
     end
-   end
+  end
 end   
 ~
 #30311
@@ -155,7 +160,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(30305)% < 1)
-mload obj 30305
+  mload obj 30305
 end
 ~
 #30312
@@ -178,22 +183,22 @@ mkill %actor%
 2 c 100
 закопать~
 if !(%arg.contains(останки)%) 
-   wsend       %actor% Что это вы хотите здесь закопать???
-   return 0
-   halt
+  wsend       %actor% Что это вы хотите здесь закопать???
+  return 0
+  halt
 end
 if %actor.haveobj(30305)%
-wsend %actor% _Вы начали раскапывать могилу.
-wechoaround %actor% _%actor.name% начал%actor.g% раскапывать могилу.
-wait 1s
-wpurge останки
-wsend %actor% _Вы положили человеческии останки в могилу и закопали ее.
-wechoaround %actor% _%actor.name% положил%actor.g% человеческии останки в могилу и закопали ее.
-wait 1s
-wsend  %actor% _Тонкий луч света осветил Вас и могилу.
-wechoaround %actor% _Тонкий луч света осветил %actor.rname% и могилу.
-wsend       %actor% _За доброе дело Вы получили 5000 очков опыта...
-%actor.exp(+5000)%  
+  wsend %actor% _Вы начали раскапывать могилу.
+  wechoaround %actor% _%actor.name% начал%actor.g% раскапывать могилу.
+  wait 1s
+  wpurge останки
+  wsend %actor%  Вы положили человеческие останки в могилу и закопали ее.
+  wechoaround %actor%  %actor.name% положил%actor.g% человеческие останки в могилу и закопали ее.
+  wait 1s
+  wsend  %actor% _Тонкий луч света осветил Вас и могилу.
+  wechoaround %actor% _Тонкий луч света осветил %actor.rname% и могилу.
+  wsend       %actor% _За доброе дело Вы получили 5000 очков опыта...
+  %actor.exp(+5000)%  
 end
 ~
 $~

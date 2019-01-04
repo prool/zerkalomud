@@ -24,6 +24,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: n0 
+Skill: 136 30
 Skill: 157 100
 E
 #33501
@@ -51,6 +52,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: n0 
+Skill: 136 36
 Skill: 157 100
 E
 T 33527
@@ -79,6 +81,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: n0 
+Skill: 136 39
 Skill: 157 100
 E
 T 33528
@@ -108,6 +111,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: n0 
+Skill: 136 45
 Skill: 157 100
 E
 T 33526
@@ -135,6 +139,7 @@ Class: 103
 Height: 198
 Weight: 2
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 33518
 #33505
@@ -163,6 +168,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: 0 
+Skill: 136 15
 E
 T 33519
 #33506
@@ -191,6 +197,7 @@ Class: 103
 Height: 198
 Weight: 10
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 33520
 #33507
@@ -220,6 +227,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: 0 
+Skill: 136 42
 E
 #33508
 орлица~
@@ -247,8 +255,10 @@ Height: 198
 Weight: 50
 Special_Bitvector: l0 
 Skill: 132 50
+Skill: 136 51
 E
 T 33529
+I крылья:6
 #33509
 орел~
 орел~
@@ -275,7 +285,9 @@ Height: 198
 Weight: 50
 Special_Bitvector: l0 
 Skill: 132 50
+Skill: 136 54
 E
+I крылья:6
 #33510
 ласточка~
 ласточка~
@@ -301,8 +313,10 @@ Class: 103
 Height: 198
 Weight: 15
 Special_Bitvector: l0a1 
+Skill: 136 36
 Skill: 139 50
 E
+I крылья:8
 #33511
 лиса~
 лиса~
@@ -329,6 +343,7 @@ Class: 103
 Height: 198
 Weight: 15
 Special_Bitvector: p0a1 
+Skill: 136 39
 Skill: 139 50
 E
 #33512
@@ -343,7 +358,7 @@ E
 ~
 Старый потертый худой лис.
 ~
-d0f0g0 f0 0 E
+d0f0g0f2 f0 0 E
 15 8 6 1d1+200 3d5+0
 0d0+0 9500
 8 8 1
@@ -357,6 +372,7 @@ Class: 103
 Height: 198
 Weight: 20
 Special_Bitvector: p0 
+Skill: 136 45
 Skill: 139 50
 E
 T 33530
@@ -383,6 +399,7 @@ Class: 103
 Height: 198
 Weight: 10
 Special_Bitvector: l0 
+Skill: 136 27
 E
 #33514
 волк~
@@ -413,6 +430,7 @@ Class: 103
 Height: 198
 Weight: 25
 Special_Bitvector: p0 
+Skill: 136 42
 E
 #33515
 кукушка~
@@ -438,6 +456,7 @@ Class: 103
 Height: 198
 Weight: 25
 Special_Bitvector: l0 
+Skill: 136 36
 E
 T 33513
 T 33515
@@ -472,9 +491,11 @@ Height: 198
 Weight: 120
 Special_Bitvector: b1c1d1 
 Skill: 131 100
+Skill: 136 51
 Skill: 157 50
 Skill: 160 50
 E
+L 1718 8 0 0
 #33517
 куст малина~
 куст малины~
@@ -499,6 +520,7 @@ Class: 101
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 33531
 #33518
@@ -525,6 +547,7 @@ Class: 100
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 33532
 #33519
@@ -553,6 +576,7 @@ Class: 100
 Height: 198
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0 
+Skill: 136 51
 Spell: 6
 Spell: 6
 Spell: 6
@@ -614,6 +638,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: b1c1 
+Skill: 136 72
 Spell: 23
 Spell: 23
 Spell: 23
@@ -663,6 +688,7 @@ Weight: 150
 Special_Bitvector: 0 
 Skill: 12 100
 Skill: 132 100
+Skill: 136 72
 Skill: 150 100
 Spell: 23
 Spell: 23
@@ -718,6 +744,7 @@ Height: 198
 Weight: 50
 Special_Bitvector: p0 
 Skill: 4 50
+Skill: 136 39
 E
 T 33533
 L 1492 14 0 0
@@ -729,7 +756,7 @@ L 1492 14 0 0
 гада~
 гадом~
 гаде~
-Юркий змей быстро ползет по камням
+Юркий змей быстро ползет по камням.
 ~
 Длинный тонкий змей черного цвета.~
 d0g0q0r0e1l1m1n1 f0C0 0 E
@@ -745,6 +772,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: g0m0 
+Skill: 136 33
 E
 L 1490 10 0 0
 #33524
@@ -771,6 +799,7 @@ Class: 103
 Height: 198
 Weight: 5
 Special_Bitvector: l0 
+Skill: 136 36
 E
 T 33514
 T 33515
@@ -801,5 +830,6 @@ Height: 198
 Weight: 40
 Special_Bitvector: p0 
 Skill: 132 80
+Skill: 136 54
 E
 $

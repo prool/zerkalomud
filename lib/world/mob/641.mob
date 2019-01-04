@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #64100
 новый ~
 новый ~
@@ -7,28 +6,26 @@
 новый~
 новым~
 новом~
-Моб среднего уровня прохаживается здесь
+Моб среднего уровня прохаживается здесь.
 ~
 
 ~
-0 0 0 E
+d0 0 0 E
 1 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 101
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
+Skill: 136 3
 E
-$
 $

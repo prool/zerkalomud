@@ -30,6 +30,7 @@ Height: 198
 Weight: 3
 Special_Bitvector: o0 
 Skill: 5 90
+Skill: 136 36
 E
 #33001
 чудо рыба~
@@ -66,6 +67,7 @@ Height: 198
 Weight: 10
 Special_Bitvector: o0 
 Skill: 134 100
+Skill: 136 57
 E
 #33002
 рак отшельник~
@@ -101,6 +103,7 @@ Height: 198
 Weight: 5
 Special_Bitvector: m0 
 Skill: 134 90
+Skill: 136 45
 Skill: 138 50
 E
 #33003
@@ -134,6 +137,7 @@ Height: 198
 Weight: 200
 Special_Bitvector: 0 
 Skill: 132 80
+Skill: 136 78
 E
 #33004
 медвежонок~
@@ -198,6 +202,7 @@ Height: 198
 Weight: 20
 Special_Bitvector: m0 
 Skill: 132 80
+Skill: 136 57
 Skill: 160 90
 E
 #33006
@@ -604,6 +609,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: a0b0c0e0f0 
 Skill: 132 50
+Skill: 136 78
 Skill: 151 100
 E
 T 33003
@@ -638,6 +644,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: a0b0c0d0e0f0b1 
+Skill: 136 66
 Spell: 10
 Spell: 10
 Spell: 10
@@ -661,10 +668,10 @@ E
 одинокой рыбачке~
 Одинокая вдовая рыбачка стоит, грустно посматривая на прохожих.
 ~
-Симпатичная деваха. Когда-то она потеряла мужа на войне. Теперь она постоянно
-скучает, ведь у нее даже нет детей!
+Симпатичная деваха. Не столь давно она потеряла мужа.
+Теперь она постоянно скучает, ведь у нее даже нет детей!
 ~
-b0d0g0 0 600 E
+b0d0g0 d0 600 E
 24 1 2 50d15+100 6d4+0
 0d0+0 35000
 8 8 2
@@ -708,6 +715,7 @@ Spell: 77
 Spell: 77
 E
 T 33009
+T 33030
 #33016
 мальчишка сорванец~
 мальчишка~
@@ -833,6 +841,7 @@ Class: 102
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 90
 E
 T 33004
 T 33020
@@ -867,6 +876,7 @@ Height: 198
 Weight: 150
 Special_Bitvector: a0b0b1 
 Skill: 1 100
+Skill: 136 81
 Skill: 151 100
 Skill: 160 50
 E
@@ -934,6 +944,7 @@ Height: 198
 Weight: 50
 Special_Bitvector: e0 
 Skill: 1 100
+Skill: 136 45
 E
 #33023
 старик несчастный~
@@ -948,7 +959,7 @@ E
 Старик когда-то был опытным рыбаком. Много повидал и имел большую семью.
 У него было 3 дочери. Так говорят все в округе. Они пропали.
 ~
-b0d0g0 0 0 E
+b0d0g0 d0f0k0 0 E
 1 1 1 1d1+1 1d1+1
 0d0+0 1
 8 8 1
@@ -964,6 +975,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 33006
 T 33011
@@ -1069,6 +1081,7 @@ Class: 102
 Height: 198
 Weight: 80
 Special_Bitvector: y0 
+Skill: 136 57
 Spell: 5
 Spell: 5
 Spell: 5
@@ -1109,6 +1122,7 @@ Special_Bitvector: 0
 Skill: 2 70
 Skill: 5 70
 Skill: 132 70
+Skill: 136 84
 Skill: 151 50
 E
 T 33001
@@ -1177,12 +1191,14 @@ Height: 198
 Weight: 120
 Special_Bitvector: j0a1b1 
 Skill: 135 90
+Skill: 136 72
 Skill: 138 90
 Skill: 139 100
 Skill: 156 90
 Skill: 157 90
 Skill: 160 90
 E
+T 33037
 #33030
 домовой злыдень~
 злыдень~
@@ -1203,7 +1219,7 @@ b0d0e0f0g0l0o0q0 d0e0f0k0r0 0 E
 Str: 18
 Dex: 19
 Int: 18
-Wis: 18
+Wis: 25
 Con: 18
 Cha: 3
 Size: 20
@@ -1214,6 +1230,7 @@ Class: 103
 Height: 198
 Weight: 50
 Special_Bitvector: a0b0c0d0e0f0 
+Skill: 136 66
 Spell: 26
 Spell: 26
 Spell: 26
@@ -1261,6 +1278,7 @@ Weight: 150
 Special_Bitvector: b1 
 Skill: 131 100
 Skill: 132 100
+Skill: 136 72
 Skill: 137 100
 Skill: 140 100
 Skill: 150 100
@@ -1270,6 +1288,7 @@ Spell: 77
 Spell: 77
 E
 T 33015
+L 1722 5 0 0
 #33032
 купеческая жинка жена~
 купеческая жинка~
@@ -1367,7 +1386,112 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 75
 E
 T 33027
 T 33028
+#33034
+водяной~
+водяной~
+водяного~
+водяному~
+водяного~
+водяным~
+водяном~
+Водяной сердито сопит, глядя на вас.
+~
+Страшный старик с зеленоватой кожей, копной седых волос,
+и длинной бородой, в которой запутались водоросли и мелкая рыбешка.
+С широких портов и с левой полы его кафтана постоянно капает вода.
+~
+b0d0l0n0o0r0c2 d0f0k0n0 -200 E
+25 20 -6 30d15+1000 15d12+24
+0d0+0 185000
+8 8 1
+Saves: 50 0 0 0
+Resistances: 0 0 200 0 0 30 0
+Str: 21
+Dex: 19
+Int: 24
+Wis: 28
+Con: 25
+Cha: 3
+Size: 55
+LikeWork: 80
+Class: 101
+Height: 168
+Weight: 150
+Special_Bitvector: v0 
+Skill: 4 60
+Skill: 22 40
+Skill: 134 80
+Skill: 136 75
+Skill: 157 60
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 93
+Spell: 93
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+E
+T 33031
+T 33032
+T 33033
+T 33034
+#33035
+пьяный рыбак~
+пьяный рыбак~
+пьяного рыбака~
+пьяному рыбаку~
+пьяного рыбака~
+пьяным рыбаком~
+пьяном рыбаке~
+Пьяный рыбак пытается удержаться на ногах, размахивая руками.
+~
+Рыбак из местной деревушки, напившийся в корчме после неудачной ловли,
+а может наоборот пропивая выручку от продажи добычи.
+~
+b0d0l0m0n0o0p0r0 d0f0k0 200 E
+23 3 0 20d15+500 7d6+12
+0d0+23 32000
+8 8 1
+Str: 22
+Dex: 14
+Int: 12
+Wis: 5
+Con: 18
+Cha: 8
+Size: 50
+LikeWork: 60
+ExtraAttack: 1
+Height: 163
+Weight: 140
+Special_Bitvector: 0 
+Skill: 4 30
+Skill: 136 50
+E
+T 33036
 $

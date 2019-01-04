@@ -28,6 +28,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #25001
 хозяйский сын~
@@ -60,8 +61,10 @@ Height: 198
 Weight: 100
 Special_Bitvector: 0 
 Skill: 21 75
+Skill: 136 75
 Skill: 157 75
 Helper: 25001
+Skill: 136 75
 E
 #25002
 хозяйская дочь~
@@ -77,7 +80,7 @@ E
 приковывает к себе всякий взгляд. Не неженка, что строит глазки всякому
 дородному купцу, а крепкая девица, смотрящая прямо, как будто бросая вызов.
 ~
-b0d0g0 0 600 E
+b0d0g0 d0f0k0 600 E
 30 0 0 0d0+350 8d8+8
 4d4+45 0
 8 8 2
@@ -93,9 +96,10 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #25003
-торговец~
+торговец_25003~
 торговец~
 торговца~
 торговцу~
@@ -125,6 +129,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #25004
 кузнец~
@@ -156,6 +161,7 @@ Class: 102
 Height: 198
 Weight: 175
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #25005
 травник~
@@ -184,7 +190,9 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 75
 E
+T 25013
 #25006
 переяславский князь~
 переяславский князь~
@@ -214,6 +222,7 @@ Class: 102
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 90
 E
 #25007
 лодочник~
@@ -243,6 +252,7 @@ Class: 102
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 75
 E
 T 25000
 T 25001
@@ -277,6 +287,7 @@ Class: 102
 Height: 198
 Weight: 95
 Special_Bitvector: d0 
+Skill: 136 75
 E
 T 25002
 T 25005
@@ -382,6 +393,7 @@ Weight: 95
 Special_Bitvector: 0 
 Skill: 4 80
 Skill: 132 100
+Skill: 136 75
 Skill: 151 100
 E
 #25012
@@ -662,6 +674,7 @@ Class: 102
 Height: 198
 Weight: 95
 Special_Bitvector: 0 
+Skill: 136 75
 E
 T 25003
 #25020
@@ -732,6 +745,7 @@ Special_Bitvector: 0
 Skill: 4 150
 Skill: 12 150
 Skill: 22 150
+Skill: 136 90
 E
 T 25004
 T 25008
@@ -761,6 +775,7 @@ ExtraAttack: 1
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #25023
 толстый меняла купец~
@@ -791,6 +806,7 @@ Size: 30
 Height: 140
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 E
 #25024
 мастер лучник~
@@ -823,6 +839,7 @@ Size: 50
 Height: 160
 Weight: 120
 Special_Bitvector: 0 
+Skill: 136 75
 E
 T 25006
 T 25009
@@ -840,7 +857,7 @@ T 25007
 Крепкий воин в кольчуге и с боевым луком.
 ~
 c0d0g0A0j2 k0r0 0 E
-30 0 -2 30d25+600 7d6+8
+30 -6 -2 30d25+600 7d6+8
 0d0+0 1
 8 8 1
 BareHandAttack: 9
@@ -857,6 +874,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: y0b1c1d1 
 Skill: 22 100
+Skill: 136 90
 Skill: 137 100
 Skill: 146 100
 Skill: 148 100
@@ -894,6 +912,7 @@ Height: 160
 Weight: 90
 Special_Bitvector: j0b1c1 
 Skill: 131 30
+Skill: 136 54
 Skill: 156 100
 Skill: 157 30
 E

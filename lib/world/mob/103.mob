@@ -20,7 +20,7 @@ b0c0d0g0l0m0n0o0A0 c0d0f0h0k0 -600 E
 Str: 22
 Dex: 15
 Int: 22
-Wis: 22
+Wis: 26
 Con: 18
 Cha: 3
 Size: 40
@@ -62,11 +62,12 @@ Spell: 88
 Spell: 113
 Spell: 113
 Helper: 10321
+Skill: 136 90
 E
 T 10300
 T 10301
 #10301
-отец персвитер~
+отец пресвитер~
 отец-пресвитер~
 отца-пресвитера~
 отцу-пресвитеру~
@@ -89,7 +90,7 @@ BareHandAttack: 5
 Str: 21
 Dex: 15
 Int: 21
-Wis: 21
+Wis: 26
 Con: 21
 Cha: 3
 Size: 40
@@ -125,6 +126,7 @@ Spell: 67
 Spell: 67
 Helper: 10319
 Helper: 10316
+Skill: 136 75
 E
 T 10304
 T 10305
@@ -150,7 +152,7 @@ BareHandAttack: 3
 Str: 25
 Dex: 17
 Int: 17
-Wis: 17
+Wis: 25
 Con: 22
 Cha: 3
 Size: 45
@@ -200,6 +202,7 @@ Spell: 124
 Spell: 127
 Helper: 10318
 Helper: 10315
+Skill: 136 90
 E
 T 10305
 #10303
@@ -225,7 +228,7 @@ BareHandAttack: 2
 Str: 21
 Dex: 21
 Int: 21
-Wis: 21
+Wis: 26
 Con: 21
 Cha: 3
 Size: 40
@@ -316,6 +319,7 @@ Spell: 114
 Spell: 114
 Spell: 114
 Helper: 10305
+Skill: 136 75
 E
 #10305
 отец эконом~
@@ -340,7 +344,7 @@ BareHandAttack: 6
 Str: 23
 Dex: 14
 Int: 13
-Wis: 13
+Wis: 27
 Con: 28
 Cha: 3
 Size: 45
@@ -369,6 +373,7 @@ Spell: 42
 Spell: 42
 Spell: 94
 Helper: 10304
+Skill: 136 75
 E
 #10306
 латинский рыцарь~
@@ -384,7 +389,7 @@ E
    Спина - как аршин проглотил.
 ~
 c0d0g0l0m0n0o0p0A0 h0k0 -600 E
-28 1 -9 20d15+1000 5d4+20
+28 1 -9 20d15+1000 5d4+23
 5d60+100 180000
 8 8 1
 BareHandAttack: 7
@@ -817,6 +822,7 @@ Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: n0 
+Skill: 136 30
 E
 #10314
 отец настоятель~
@@ -839,7 +845,7 @@ d0g0n0p0 d0k0 -600 E
 Str: 22
 Dex: 18
 Int: 18
-Wis: 18
+Wis: 26
 Con: 20
 Cha: 3
 Size: 35
@@ -891,6 +897,7 @@ Spell: 124
 Spell: 124
 Helper: 10320
 Helper: 10317
+Skill: 136 81
 E
 T 10302
 T 10303
@@ -1254,7 +1261,7 @@ BareHandAttack: 2
 Str: 21
 Dex: 21
 Int: 21
-Wis: 21
+Wis: 26
 Con: 21
 Cha: 3
 Size: 40
@@ -1380,7 +1387,9 @@ T 10306
 оруженосце~
 Оруженосец рыцаря стоит здесь.
 ~
-undefined
+_______Молод, да не удал, из хороших битв
+_______еще не бегивал, оружие и полуживого господина
+_______не нашивал.
 ~
 c0d0g0h0m0n0o0A0 k0 -600 E
 22 5 -5 20d15+600 5d3+10

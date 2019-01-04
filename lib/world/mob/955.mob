@@ -28,6 +28,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 12 100
+Skill: 136 105
 Skill: 146 125
 Skill: 150 50
 Spell: 28
@@ -148,6 +149,7 @@ Class: 101
 Height: 180
 Weight: 90
 Special_Bitvector: b1c1d1C3 
+Skill: 136 123
 Spell: 26
 Spell: 26
 Spell: 26
@@ -199,6 +201,7 @@ Skill: 5 150
 Skill: 12 100
 Skill: 21 10
 Skill: 132 150
+Skill: 136 105
 Skill: 137 150
 E
 #95505
@@ -551,6 +554,7 @@ Class: 101
 Height: 190
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 117
 Spell: 23
 Spell: 23
 Spell: 23
@@ -652,6 +656,7 @@ Skill: 5 150
 Skill: 12 100
 Skill: 21 10
 Skill: 132 150
+Skill: 136 120
 Skill: 137 150
 E
 #95515
@@ -687,6 +692,7 @@ Skill: 5 150
 Skill: 12 100
 Skill: 21 10
 Skill: 132 150
+Skill: 136 120
 Skill: 137 150
 E
 #95516
@@ -722,6 +728,7 @@ Skill: 5 150
 Skill: 12 100
 Skill: 21 10
 Skill: 132 150
+Skill: 136 120
 Skill: 137 150
 E
 #95517
@@ -839,6 +846,7 @@ Skill: 5 150
 Skill: 12 100
 Skill: 21 10
 Skill: 132 150
+Skill: 136 120
 Skill: 137 150
 E
 #95520
@@ -914,6 +922,7 @@ Height: 160
 Weight: 90
 Special_Bitvector: b1c1d1C3 
 Skill: 22 160
+Skill: 136 141
 E
 T 95502
 #95522
@@ -946,6 +955,7 @@ Class: 101
 Height: 180
 Weight: 90
 Special_Bitvector: b1c1d1 
+Skill: 136 123
 Spell: 26
 Spell: 26
 Spell: 26
@@ -997,6 +1007,7 @@ Skill: 5 150
 Skill: 12 100
 Skill: 21 10
 Skill: 132 150
+Skill: 136 105
 Skill: 137 150
 E
 #95524
@@ -1081,6 +1092,7 @@ Weight: 110
 Special_Bitvector: C3 
 Skill: 4 120
 Skill: 22 100
+Skill: 136 129
 Skill: 146 160
 E
 #95526
@@ -1114,6 +1126,7 @@ Weight: 110
 Special_Bitvector: C3 
 Skill: 4 120
 Skill: 22 100
+Skill: 136 108
 Skill: 146 160
 E
 #95527
@@ -1189,6 +1202,7 @@ Height: 175
 Weight: 85
 Special_Bitvector: 0 
 Skill: 132 130
+Skill: 136 120
 E
 #95529
 призрак стражника~
@@ -1261,6 +1275,16 @@ Class: 104
 Height: 200
 Weight: 125
 Special_Bitvector: b1c1d1m3C3 
+Feat: 29
+Feat: 30
+Feat: 31
+Feat: 32
+Feat: 33
+Feat: 34
+Feat: 35
+Feat: 36
+Feat: 37
+Feat: 38
 Skill: 22 150
 Skill: 136 100
 Skill: 157 160
@@ -1306,6 +1330,7 @@ Helper: 95536
 Helper: 95535
 Helper: 95534
 Helper: 95533
+Skill: 136 150
 E
 T 95509
 T 95510
@@ -1337,6 +1362,7 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
+Skill: 136 3
 E
 T 95508
 #95532
@@ -1414,6 +1440,7 @@ Weight: 85
 Special_Bitvector: C3 
 Skill: 22 150
 Skill: 132 140
+Skill: 136 120
 Skill: 137 140
 Spell: 56
 Spell: 56
@@ -1450,6 +1477,7 @@ Weight: 85
 Special_Bitvector: C3 
 Skill: 22 150
 Skill: 132 140
+Skill: 136 120
 Skill: 137 140
 Spell: 56
 Spell: 56
@@ -1486,6 +1514,7 @@ Weight: 85
 Special_Bitvector: C3 
 Skill: 22 150
 Skill: 132 140
+Skill: 136 120
 Spell: 56
 Spell: 56
 Spell: 68
@@ -1521,6 +1550,7 @@ Weight: 85
 Special_Bitvector: C3 
 Skill: 22 150
 Skill: 132 140
+Skill: 136 120
 Spell: 56
 Spell: 56
 Spell: 68
@@ -1557,6 +1587,7 @@ Weight: 110
 Special_Bitvector: C3 
 Skill: 4 120
 Skill: 22 100
+Skill: 136 129
 Skill: 146 160
 E
 #95538
@@ -1590,11 +1621,13 @@ Weight: 85
 Special_Bitvector: b1c1d1C3 
 Skill: 22 150
 Skill: 132 140
+Skill: 136 120
 Spell: 56
 Spell: 56
 Spell: 68
 Spell: 68
 Helper: 95537
+Skill: 136 120
 E
 #95539
 одноногий скелет~
@@ -1670,6 +1703,7 @@ Height: 160
 Weight: 90
 Special_Bitvector: b1c1d1C3 
 Skill: 22 160
+Skill: 136 141
 Spell: 28
 Spell: 28
 Spell: 56

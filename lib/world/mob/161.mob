@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #16100
 ямабуси монах нищенствующий~
 ямабуси~
@@ -16,21 +15,19 @@ b0d0g0B0o1 c0d0e0f0g0h0k0m0n0p0r0z0A0C0c1k1m1n1o1p1q1r1s1t1 600 E
 30 0 -10 30d30+3333 3d3+33
 0d0+0 -333333
 6 6 1
-BareHandAttack: 0
 Str: 25
+Dex: 20
 Int: 30
 Wis: 30
-Dex: 20
 Con: 20
 Cha: 20
+Size: 45
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 45
 Height: 198
 Weight: 140
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 100
 E
 T 16100
@@ -54,21 +51,20 @@ b0d0n0o0y0B0o1g2 b0p0t0z0A0C0t1 -600 E
 35 0 -10 1d1+6000 5d5+25
 0d0+150 1
 8 8 1
-BareHandAttack: 0
 Str: 25
+Dex: 30
 Int: 30
 Wis: 30
-Dex: 30
 Con: 30
 Cha: 30
+Size: 60
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 60
 Height: 198
 Weight: 100
-Special_Bitvector: h0j0i3
+Special_Bitvector: h0j0i3 
+Skill: 136 105
 Spell: 23
 Spell: 23
 Spell: 23
@@ -91,24 +87,23 @@ T 16102
 харакири, если не сможет отомстить.
 ~
 b0c0d0g0m0 k0 -600 E
-35 0 -10 1d1+6000 9d9+10
+35 0 -6 1d1+6000 9d9+10
 0d0+60 350000
 8 8 1
-BareHandAttack: 0
 Str: 30
-Int: 0
-Wis: 0
 Dex: 30
+Int: 3
+Wis: 3
 Con: 30
 Cha: 35
+Size: 60
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 60
 Height: 198
 Weight: 100
-Special_Bitvector: a0b0c0d0g0b1c1
+Special_Bitvector: a0b0c0d0g0b1c1 
+Skill: 136 105
 Skill: 157 100
 Skill: 160 50
 E
@@ -128,28 +123,27 @@ c0d0f0g0 d0k0s0j1 -600 E
 29 0 -10 1d1+2000 6d6+9
 0d0+100 250000
 8 8 1
-BareHandAttack: 0
 Str: 30
+Dex: 25
 Int: 18
 Wis: 12
-Dex: 25
 Con: 34
 Cha: 18
+Size: 59
 LikeWork: 99
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 59
 Height: 198
 Weight: 100
-Special_Bitvector: b1c1
-Spell: 15
+Special_Bitvector: b1c1 
 Skill: 131 140
 Skill: 133 100
+Skill: 136 87
 Skill: 138 140
 Skill: 156 100
 Skill: 157 150
 Skill: 160 150
+Spell: 15
 E
 T 16182
 #16138
@@ -160,33 +154,32 @@ T 16182
 досина~
 досином~
 досине~
-Досин стоит на  посту, выполняя свое гири.
+Досин стоит на посту, выполняя свое гири.
 ~
 Воин-стражник, в обязанности которого вменяется охрана
 наиболее важных объектов.
 ~
 b0c0d0g0m0 d0k0 -600 E
-30 0 -10 1d1+4000 7d6+8
+30 0 -6 1d1+4000 7d6+8
 0d0+60 360000
 8 8 1
-BareHandAttack: 0
 Str: 30
-Int: 0
-Wis: 0
 Dex: 30
+Int: 3
+Wis: 3
 Con: 30
-Cha: 0
+Cha: 3
+Size: 60
 LikeWork: 65
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 60
 Height: 198
 Weight: 100
-Special_Bitvector: a0b0c0d0g0b1c1
+Special_Bitvector: a0b0c0d0g0b1c1 
+Skill: 22 100
+Skill: 136 90
 Skill: 150 100
 Skill: 157 150
-Skill: 22 100
 E
 T 16185
 #16139
@@ -205,24 +198,24 @@ d0f0g0m0o0x0y0 b0d0k0n0s0t0C0j1 -600 E
 31 0 -9 1d1+2000 9d8+10
 0d0+0 240000
 8 8 2
-BareHandAttack: 0
 Str: 24
+Dex: 27
 Int: 21
 Wis: 21
-Dex: 27
 Con: 21
 Cha: 21
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
+Skill: 21 5
 Skill: 131 100
+Skill: 136 93
 Skill: 138 100
 Skill: 160 80
-Skill: 21 5
 E
 T 16181
 #16140
@@ -241,21 +234,19 @@ b0d0f0g0m0o0p0x0y0 b0d0k0n0x0 -600 E
 30 0 -8 7d7+2000 8d9+7
 0d0+0 280000
 8 8 1
-BareHandAttack: 0
 Str: 25
+Dex: 25
 Int: 14
 Wis: 14
-Dex: 25
 Con: 21
 Cha: 13
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 2
 Class: 101
-Size: 50
 Height: 198
 Weight: 100
-Spell: 48
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 141 80
 Skill: 142 80
@@ -265,6 +256,7 @@ Skill: 145 80
 Skill: 146 80
 Skill: 147 80
 Skill: 148 80
+Spell: 48
 E
 T 16187
 #16141
@@ -283,20 +275,19 @@ b0d0f0g0m0o0x0y0 b0d0f0k0n0 -600 E
 30 5 -2 7d7+2000 8d9+7
 0d0+80 200000
 8 8 1
-BareHandAttack: 0
 Str: 25
+Dex: 25
 Int: 21
 Wis: 14
-Dex: 25
 Con: 21
 Cha: 21
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
 Skill: 131 150
 Skill: 136 80
 E
@@ -317,20 +308,19 @@ b0d0f0g0m0o0x0y0 b0d0f0k0n0 -600 E
 30 5 -2 7d7+2000 8d9+7
 0d0+80 200000
 8 8 1
-BareHandAttack: 0
 Str: 25
+Dex: 25
 Int: 21
 Wis: 14
-Dex: 25
 Con: 21
 Cha: 20
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
 Skill: 131 150
 Skill: 132 150
 Skill: 136 80
@@ -352,20 +342,19 @@ b0d0f0g0m0o0p0x0y0 b0d0f0k0n0x0 -600 E
 30 5 -2 7d7+2000 8d9+7
 0d0+0 200000
 8 8 0
-BareHandAttack: 0
 Str: 25
+Dex: 25
 Int: 22
 Wis: 21
-Dex: 25
 Con: 21
 Cha: 21
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
 Skill: 131 150
 Skill: 132 150
 Skill: 136 80
@@ -388,24 +377,23 @@ b0d0f0g0m0o0x0y0 b0d0f0k0n0x0 -600 E
 30 5 -2 7d7+2000 8d9+7
 0d0+0 200000
 8 8 1
-BareHandAttack: 0
 Str: 25
+Dex: 25
 Int: 13
 Wis: 14
-Dex: 25
 Con: 27
 Cha: 16
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
-Spell: 16
-Spell: 27
+Special_Bitvector: 0 
 Skill: 131 150
 Skill: 136 80
+Spell: 16
+Spell: 27
 E
 T 16187
 #16145
@@ -422,27 +410,23 @@ T 16187
 сделает себе харакири - третьего для него не дано.
 ~
 b0d0e0f0g0n0p0u0x0y0 b0d0k0n0C0 -600 E
-31 0 -10 1d1+9000 8d8+10
+31 0 -1 1d1+9000 8d8+10
 0d0+200 450000
 8 8 1
-BareHandAttack: 0
 Str: 25
+Dex: 30
 Int: 21
 Wis: 21
-Dex: 29
 Con: 27
 Cha: 18
+Size: 80
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 80
 Height: 198
 Weight: 150
-Special_Bitvector: g0
-Spell: 15
-Spell: 56
-Spell: 67
+Special_Bitvector: g0 
+Skill: 5 80
 Skill: 136 80
 Skill: 141 80
 Skill: 142 80
@@ -453,7 +437,9 @@ Skill: 146 80
 Skill: 147 80
 Skill: 148 80
 Skill: 157 50
-Skill: 5 80
+Spell: 15
+Spell: 56
+Spell: 67
 E
 T 16178
 T 16187
@@ -465,36 +451,36 @@ T 16187
 буси~
 буси~
 буси~
-Буси в красном кимано бросился на Вас.
+Буси в красном кимоно бросился на Вас.
 ~
 Благородный воин в красном кимано и с двуручным мечем.
 ~
 d0f0g0m0o0u0x0y0 b0d0k0n0s0t0C0j1 -600 E
-31 0 -10 1d1+2000 9d8+10
+31 0 -1 1d1+2000 9d8+10
 0d0+0 340000
 8 8 2
-BareHandAttack: 0
 Str: 24
+Dex: 30
 Int: 21
 Wis: 13
-Dex: 27
 Con: 21
 Cha: 15
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 50
 Height: 198
 Weight: 100
-Spell: 48
+Special_Bitvector: 0 
+Skill: 21 10
 Skill: 131 80
+Skill: 136 93
 Skill: 144 80
 Skill: 145 80
 Skill: 147 80
 Skill: 148 80
 Skill: 160 80
-Skill: 21 10
+Spell: 48
 E
 T 16181
 T 16187
@@ -506,35 +492,35 @@ T 16187
 буси~
 буси~
 буси~
-Буси в красном кимано бросился на Вас.
+Буси в красном кимоно бросился на Вас.
 ~
 Благородный воин в красном кимано и с двуручным мечем.
 ~
 d0f0g0m0o0x0y0 b0d0k0n0s0t0C0j1 -600 E
-31 0 -8 1d1+2000 9d8+10
+31 0 -4 1d1+2000 9d8+10
 0d0+0 260000
 8 8 2
-BareHandAttack: 0
 Str: 24
+Dex: 27
 Int: 21
 Wis: 20
-Dex: 27
 Con: 19
 Cha: 20
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
+Skill: 21 10
 Skill: 131 80
+Skill: 136 93
 Skill: 144 80
 Skill: 145 80
 Skill: 147 80
 Skill: 148 80
 Skill: 160 80
-Skill: 21 10
 E
 T 16181
 T 16187
@@ -546,35 +532,35 @@ T 16187
 буси~
 буси~
 буси~
-Буси в красном кимано бросился на Вас.
+Буси в красном кимоно бросился на Вас.
 ~
 Благородный воин в красном кимано и с двуручным мечем.
 ~
 d0f0g0m0o0u0x0y0 b0d0k0n0s0t0C0j1 -600 E
-31 0 -9 1d1+2000 9d8+10
+31 0 -4 1d1+2000 9d8+10
 0d0+0 260000
 8 8 2
-BareHandAttack: 0
 Str: 24
+Dex: 27
 Int: 21
 Wis: 21
-Dex: 27
 Con: 21
 Cha: 21
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
+Skill: 21 10
 Skill: 131 80
+Skill: 136 93
 Skill: 144 80
 Skill: 145 80
 Skill: 147 80
 Skill: 148 80
 Skill: 160 80
-Skill: 21 10
 E
 T 16187
 #16149
@@ -585,35 +571,35 @@ T 16187
 буси~
 буси~
 буси~
-Буси в красном кимано бросился на Вас.
+Буси в красном кимоно бросился на Вас.
 ~
 Благородный воин в красном кимано и с двуручным мечем.
 ~
 d0f0g0m0o0x0y0 b0d0k0n0s0t0C0j1 -600 E
-31 0 -9 1d1+2000 9d8+10
+31 0 -4 1d1+2000 9d8+10
 0d0+0 260000
 8 8 2
-BareHandAttack: 0
 Str: 24
+Dex: 27
 Int: 21
 Wis: 21
-Dex: 27
 Con: 21
 Cha: 21
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
+Skill: 21 10
 Skill: 131 80
+Skill: 136 93
 Skill: 144 80
 Skill: 145 80
 Skill: 147 80
 Skill: 148 80
 Skill: 160 80
-Skill: 21 10
 E
 T 16181
 T 16187
@@ -631,24 +617,23 @@ T 16187
 право носить мечи в присутствии господина. 
 ~
 d0f0g0m0o0u0x0y0 b0d0k0n0x0A0C0 -600 E
-32 0 -10 1d1+2000 8d10+15
+32 0 -3 1d1+2000 8d10+15
 0d0+0 380000
 8 8 1
-BareHandAttack: 0
 Str: 28
+Dex: 27
 Int: 21
 Wis: 21
-Dex: 31
 Con: 21
 Cha: 21
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 50
 Height: 198
 Weight: 100
-Spell: 48
+Special_Bitvector: 0 
+Skill: 4 100
 Skill: 132 100
 Skill: 136 100
 Skill: 141 100
@@ -659,7 +644,7 @@ Skill: 145 100
 Skill: 146 100
 Skill: 147 100
 Skill: 148 100
-Skill: 4 100
+Spell: 48
 E
 T 16184
 T 16187
@@ -677,23 +662,22 @@ T 16187
 право носить мечи в присутствии господина. 
 ~
 d0f0g0m0o0u0x0y0 b0d0k0n0A0C0 -600 E
-32 0 -10 1d1+2000 8d10+15
+32 0 -4 1d1+2000 8d10+15
 0d0+100 300000
 8 8 1
-BareHandAttack: 0
 Str: 28
+Dex: 28
 Int: 15
 Wis: 14
-Dex: 31
 Con: 21
 Cha: 14
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
 Skill: 132 100
 Skill: 136 100
 Skill: 141 100
@@ -721,23 +705,22 @@ T 16187
 право носить мечи в присутствии господина. 
 ~
 d0f0g0m0o0u0x0y0 b0d0k0n0A0C0 -600 E
-32 0 -10 1d1+2000 8d10+15
+32 0 -4 1d1+2000 8d10+15
 0d0+100 300000
 8 8 1
-BareHandAttack: 0
 Str: 28
+Dex: 27
 Int: 13
 Wis: 14
-Dex: 30
 Con: 21
 Cha: 14
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
 Skill: 132 100
 Skill: 136 100
 Skill: 141 100
@@ -764,23 +747,22 @@ T 16187
 право носить мечи в присутствии господина. 
 ~
 d0f0g0m0o0u0x0y0 b0d0k0n0A0C0 -600 E
-32 0 -10 1d1+2000 8d10+15
+32 0 -4 1d1+2000 8d10+15
 0d0+100 300000
 8 8 1
-BareHandAttack: 0
 Str: 28
+Dex: 28
 Int: 14
 Wis: 14
-Dex: 30
 Con: 21
 Cha: 14
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
 Skill: 132 100
 Skill: 136 100
 Skill: 141 100
@@ -808,24 +790,22 @@ T 16187
 право носить мечи в присутствии господина. 
 ~
 d0f0g0m0o0u0x0y0 b0d0k0n0A0C0 -600 E
-32 0 -10 1d1+2000 8d10+15
+32 0 -5 1d1+2000 8d10+15
 0d0+100 380000
 8 8 1
-BareHandAttack: 0
 Str: 28
+Dex: 30
 Int: 14
 Wis: 14
-Dex: 28
 Con: 21
 Cha: 14
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 50
 Height: 198
 Weight: 100
-Spell: 48
+Special_Bitvector: 0 
 Skill: 132 100
 Skill: 136 100
 Skill: 141 100
@@ -836,6 +816,7 @@ Skill: 145 100
 Skill: 146 100
 Skill: 147 100
 Skill: 148 100
+Spell: 48
 E
 T 16187
 #16155
@@ -852,23 +833,22 @@ T 16187
 право носить мечи в присутствии господина. 
 ~
 d0f0g0m0o0u0x0y0 b0d0k0n0A0C0 -600 E
-32 0 -10 1d1+2000 8d10+15
+32 0 -4 1d1+2000 8d10+15
 0d0+100 300000
 8 8 1
-BareHandAttack: 0
 Str: 28
+Dex: 30
 Int: 14
 Wis: 12
-Dex: 28
 Con: 21
 Cha: 21
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
 Skill: 132 100
 Skill: 136 100
 Skill: 141 100
@@ -896,23 +876,22 @@ T 16187
 право носить мечи в присутствии господина. 
 ~
 d0f0g0m0o0u0x0y0 b0d0k0n0A0C0 -600 E
-32 0 -10 1d1+2000 8d10+15
+32 0 -4 1d1+2000 8d10+15
 0d0+100 300000
 8 8 1
-BareHandAttack: 0
 Str: 28
+Dex: 31
 Int: 21
 Wis: 16
-Dex: 29
 Con: 21
 Cha: 21
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
 Skill: 132 100
 Skill: 136 100
 Skill: 141 100
@@ -939,23 +918,23 @@ T 16187
 право носить мечи в присутствии господина. 
 ~
 d0f0g0m0o0u0x0y0 b0d0k0n0x0A0C0 -600 E
-32 0 -10 1d1+2000 8d10+15
+32 0 -5 1d1+2000 8d10+15
 0d0+100 300000
 8 8 1
-BareHandAttack: 0
 Str: 28
+Dex: 31
 Int: 17
 Wis: 12
-Dex: 29
 Con: 21
 Cha: 20
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
+Special_Bitvector: 0 
+Skill: 4 100
 Skill: 132 100
 Skill: 136 100
 Skill: 141 100
@@ -966,7 +945,6 @@ Skill: 145 100
 Skill: 146 100
 Skill: 147 100
 Skill: 148 100
-Skill: 4 100
 E
 T 16184
 T 16187
@@ -987,25 +965,19 @@ d0e0f0g0m0o0u0x0y0 b0d0k0n0x0z0 -600 E
 32 0 -8 1d1+2000 3d3+3
 0d0+0 430000
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 21
 Int: 28
 Wis: 18
-Dex: 21
 Con: 21
 Cha: 21
-LikeWork: 75
-MaxFactor: 0
-ExtraAttack: 0
-Class: 101
 Size: 50
+LikeWork: 75
+Class: 101
 Height: 198
 Weight: 100
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
+Special_Bitvector: 0 
+Skill: 136 80
 Spell: 23
 Spell: 28
 Spell: 28
@@ -1021,7 +993,11 @@ Spell: 66
 Spell: 66
 Spell: 68
 Spell: 68
-Skill: 136 80
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
 E
 T 16180
 T 16187
@@ -1042,25 +1018,19 @@ d0e0f0g0m0o0r0u0x0y0 b0d0k0n0x0z0 -600 E
 32 0 -10 1d1+2000 3d3+3
 0d0+30 350000
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 21
 Int: 28
 Wis: 18
-Dex: 21
 Con: 21
 Cha: 17
-LikeWork: 50
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 50
+Class: 102
 Height: 198
 Weight: 100
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
+Special_Bitvector: 0 
+Skill: 136 80
 Spell: 15
 Spell: 15
 Spell: 33
@@ -1076,7 +1046,11 @@ Spell: 66
 Spell: 66
 Spell: 67
 Spell: 67
-Skill: 136 80
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
 E
 T 16180
 T 16187
@@ -1097,25 +1071,19 @@ d0e0f0g0m0o0r0u0x0y0 b0d0k0n0x0z0 -600 E
 32 0 -10 1d1+2000 3d3+3
 0d0+30 350000
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 21
 Int: 28
 Wis: 18
-Dex: 21
 Con: 21
 Cha: 21
-LikeWork: 50
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 50
+Class: 102
 Height: 198
 Weight: 100
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
+Special_Bitvector: 0 
+Skill: 136 80
 Spell: 33
 Spell: 33
 Spell: 33
@@ -1129,7 +1097,11 @@ Spell: 66
 Spell: 67
 Spell: 67
 Spell: 88
-Skill: 136 80
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
 E
 T 16187
 #16161
@@ -1149,25 +1121,19 @@ d0e0f0g0m0o0r0u0x0y0 b0d0k0n0x0z0 -600 E
 32 0 -10 1d1+2000 3d3+3
 0d0+30 350000
 8 8 1
-BareHandAttack: 0
 Str: 10
+Dex: 21
 Int: 28
 Wis: 18
-Dex: 21
 Con: 21
 Cha: 21
-LikeWork: 50
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 50
+Class: 102
 Height: 198
 Weight: 100
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
+Special_Bitvector: 0 
+Skill: 136 80
 Spell: 33
 Spell: 33
 Spell: 33
@@ -1181,7 +1147,11 @@ Spell: 66
 Spell: 67
 Spell: 67
 Spell: 94
-Skill: 136 80
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
 E
 T 16187
 #16162
@@ -1201,25 +1171,19 @@ d0e0f0g0m0o0r0u0x0y0 b0d0k0n0x0z0 -600 E
 32 0 -10 1d1+2000 3d3+3
 0d0+250 350000
 8 8 1
-BareHandAttack: 0
 Str: 24
+Dex: 21
 Int: 28
 Wis: 18
-Dex: 21
 Con: 21
 Cha: 21
-LikeWork: 50
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 50
+Class: 102
 Height: 198
 Weight: 100
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
+Special_Bitvector: 0 
+Skill: 136 80
 Spell: 33
 Spell: 33
 Spell: 33
@@ -1231,7 +1195,11 @@ Spell: 55
 Spell: 66
 Spell: 66
 Spell: 68
-Skill: 136 80
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
 E
 T 16180
 T 16187
@@ -1252,25 +1220,19 @@ d0e0f0g0m0o0x0y0 b0d0k0n0x0z0 -600 E
 32 0 -10 1d1+2000 3d3+3
 0d0+30 350000
 8 8 1
-BareHandAttack: 0
 Str: 15
+Dex: 24
 Int: 28
 Wis: 18
-Dex: 24
 Con: 21
 Cha: 21
-LikeWork: 50
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 50
+Class: 102
 Height: 198
 Weight: 100
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
+Special_Bitvector: 0 
+Skill: 136 80
 Spell: 33
 Spell: 33
 Spell: 33
@@ -1286,7 +1248,11 @@ Spell: 67
 Spell: 68
 Spell: 75
 Spell: 75
-Skill: 136 80
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
 E
 T 16180
 T 16187
@@ -1301,7 +1267,7 @@ T 16187
 Кайсяку уже обнажил свой меч и готов посмотреть Смерти в лицо.
 ~
 Кайсяку призван следить за точностью исполнения харакири.
-Когда самурай вспорит себе живот, кайсяку должен отрубить
+Когда самурай вспорет себе живот, кайсяку должен отрубить
 ему голову, но очень аккуратно, так чтобы она осталась
 висеть на коже, и не дай Бог не покатилась - ведь это
 так уродливо!
@@ -1310,22 +1276,20 @@ b0d0e0f0g0m0n0u0x0y0 b0d0k0n0C0 -600 E
 31 0 -10 1d1+2000 10d9+10
 0d0+0 330000
 8 8 1
-BareHandAttack: 0
 Str: 27
+Dex: 25
 Int: 21
 Wis: 21
-Dex: 25
 Con: 21
 Cha: 21
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 50
 Height: 198
 Weight: 100
-Spell: 48
-Spell: 93
+Special_Bitvector: 0 
+Skill: 4 80
 Skill: 136 100
 Skill: 141 100
 Skill: 142 100
@@ -1336,7 +1300,8 @@ Skill: 146 100
 Skill: 147 100
 Skill: 148 100
 Skill: 151 50
-Skill: 4 80
+Spell: 48
+Spell: 93
 E
 T 16183
 T 16187
@@ -1351,7 +1316,7 @@ T 16187
 Кайсяку уже обнажил свой меч и готов посмотреть Смерти в лицо.
 ~
 Кайсяку призван следить за точностью исполнения харакири.
-Когда самурай вспорит себе живот, кайсяку должен отрубить
+Когда самурай вспорет себе живот, кайсяку должен отрубить
 ему голову, но очень аккуратно, так чтобы она осталась
 висеть на коже, и не дай Бог не покатилась - ведь это
 так уродливо!
@@ -1360,21 +1325,20 @@ d0e0f0g0m0n0x0y0 b0d0k0n0C0 -600 E
 31 0 -10 1d1+2000 10d9+10
 0d0+0 250000
 8 8 1
-BareHandAttack: 0
 Str: 27
+Dex: 25
 Int: 18
 Wis: 14
-Dex: 25
 Con: 21
 Cha: 20
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
-Spell: 93
+Special_Bitvector: 0 
+Skill: 4 80
 Skill: 136 100
 Skill: 141 100
 Skill: 142 100
@@ -1385,7 +1349,7 @@ Skill: 146 100
 Skill: 147 100
 Skill: 148 100
 Skill: 151 50
-Skill: 4 80
+Spell: 93
 E
 T 16183
 T 16187
@@ -1400,7 +1364,7 @@ T 16187
 Кайсяку уже обнажил свой меч и готов посмотреть Смерти в лицо.
 ~
 Кайсяку призван следить за точностью исполнения харакири.
-Когда самурай вспорит себе живот, кайсяку должен отрубить
+Когда самурай вспорет себе живот, кайсяку должен отрубить
 ему голову, но очень аккуратно, так чтобы она осталась
 висеть на коже, и не дай Бог не покатилась - ведь это
 так уродливо!
@@ -1409,21 +1373,20 @@ d0e0f0g0m0n0u0x0y0 b0d0k0n0C0 -600 E
 31 0 -10 1d1+2000 10d9+10
 0d0+0 250000
 8 8 1
-BareHandAttack: 0
 Str: 27
+Dex: 25
 Int: 20
 Wis: 14
-Dex: 25
 Con: 22
 Cha: 19
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
-Spell: 93
+Special_Bitvector: 0 
+Skill: 4 80
 Skill: 136 100
 Skill: 141 100
 Skill: 142 100
@@ -1434,7 +1397,7 @@ Skill: 146 100
 Skill: 147 100
 Skill: 148 100
 Skill: 151 50
-Skill: 4 80
+Spell: 93
 E
 T 16187
 #16167
@@ -1448,7 +1411,7 @@ T 16187
 Кайсяку уже обнажил свой меч и готов посмотреть Смерти в лицо.
 ~
 Кайсяку призван следить за точностью исполнения харакири.
-Когда самурай вспорит себе живот, кайсяку должен отрубить
+Когда самурай вспорет себе живот, кайсяку должен отрубить
 ему голову, но очень аккуратно, так чтобы она осталась
 висеть на коже, и не дай Бог не покатилась - ведь это
 так уродливо!
@@ -1457,22 +1420,20 @@ b0d0e0f0g0m0n0u0x0y0 b0d0k0n0C0 -600 E
 31 0 -10 1d1+2000 10d9+10
 0d0+0 330000
 8 8 1
-BareHandAttack: 0
 Str: 27
+Dex: 25
 Int: 21
 Wis: 14
-Dex: 25
 Con: 20
 Cha: 17
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 50
 Height: 198
 Weight: 100
-Spell: 48
-Spell: 93
+Special_Bitvector: 0 
+Skill: 4 80
 Skill: 136 100
 Skill: 141 100
 Skill: 142 100
@@ -1483,7 +1444,8 @@ Skill: 146 100
 Skill: 147 100
 Skill: 148 100
 Skill: 151 50
-Skill: 4 80
+Spell: 48
+Spell: 93
 E
 T 16183
 T 16187
@@ -1498,7 +1460,7 @@ T 16187
 Кайсяку уже обнажил свой меч и готов посмотреть Смерти в лицо.
 ~
 Кайсяку призван следить за точностью исполнения харакири.
-Когда самурай вспорит себе живот, кайсяку должен отрубить
+Когда самурай вспорет себе живот, кайсяку должен отрубить
 ему голову, но очень аккуратно, так чтобы она осталась
 висеть на коже, и не дай Бог не покатилась - ведь это
 так уродливо!
@@ -1507,21 +1469,20 @@ d0e0f0g0m0n0p0u0x0y0 b0d0k0n0C0 -600 E
 31 0 -10 1d1+2000 10d9+10
 0d0+40 250000
 8 8 1
-BareHandAttack: 0
 Str: 27
+Dex: 25
 Int: 14
 Wis: 21
-Dex: 25
 Con: 21
 Cha: 14
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
-Spell: 93
+Special_Bitvector: 0 
+Skill: 4 80
 Skill: 136 100
 Skill: 141 100
 Skill: 142 100
@@ -1532,7 +1493,7 @@ Skill: 146 100
 Skill: 147 100
 Skill: 148 100
 Skill: 151 50
-Skill: 4 80
+Spell: 93
 E
 T 16187
 #16169
@@ -1546,7 +1507,7 @@ T 16187
 Кайсяку уже обнажил свой меч и готов посмотреть Смерти в лицо.
 ~
 Кайсяку призван следить за точностью исполнения харакири.
-Когда самурай вспорит себе живот, кайсяку должен отрубить
+Когда самурай вспорет себе живот, кайсяку должен отрубить
 ему голову, но очень аккуратно, так чтобы она осталась
 висеть на коже, и не дай Бог не покатилась - ведь это
 так уродливо!
@@ -1555,21 +1516,20 @@ d0e0f0g0m0n0u0x0y0 b0d0k0n0C0 -600 E
 31 0 -10 1d1+2000 10d9+10
 0d0+0 250000
 8 8 1
-BareHandAttack: 0
 Str: 27
+Dex: 25
 Int: 21
 Wis: 21
-Dex: 25
 Con: 21
 Cha: 21
+Size: 50
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
-Spell: 93
+Special_Bitvector: 0 
+Skill: 4 80
 Skill: 136 100
 Skill: 141 100
 Skill: 142 100
@@ -1580,7 +1540,7 @@ Skill: 146 100
 Skill: 147 100
 Skill: 148 100
 Skill: 151 50
-Skill: 4 80
+Spell: 93
 E
 T 16183
 T 16187
@@ -1598,25 +1558,23 @@ T 16187
 к господину врага.
 ~
 d0e0f0g0m0o0u0x0 b0d0k0p0x0z0C0 -600 E
-33 0 -10 1d1+3000 10d10+10
+33 0 -5 1d1+3000 10d10+10
 0d0+0 350000
 8 8 1
-BareHandAttack: 0
 Str: 30
+Dex: 27
 Int: 21
 Wis: 21
-Dex: 27
 Con: 21
 Cha: 21
+Size: 50
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 2
 Class: 101
-Size: 50
 Height: 198
 Weight: 100
-Special_Bitvector: b1c1
-Spell: 93
+Special_Bitvector: b1c1 
+Skill: 22 80
 Skill: 132 100
 Skill: 134 100
 Skill: 136 100
@@ -1630,7 +1588,7 @@ Skill: 147 100
 Skill: 148 100
 Skill: 150 80
 Skill: 151 100
-Skill: 22 80
+Spell: 93
 E
 T 16179
 T 16187
@@ -1648,25 +1606,23 @@ T 16187
 к господину врага.
 ~
 c0d0e0f0g0m0o0u0x0 b0d0k0p0x0z0C0 -600 E
-33 0 -10 1d1+3000 10d10+10
+33 0 -5 1d1+3000 10d10+10
 0d0+0 350000
 8 8 1
-BareHandAttack: 0
 Str: 30
+Dex: 27
 Int: 21
 Wis: 21
-Dex: 27
 Con: 28
 Cha: 14
+Size: 50
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
-Special_Bitvector: b1c1
-Spell: 93
+Special_Bitvector: b1c1 
+Skill: 22 80
 Skill: 132 100
 Skill: 134 100
 Skill: 136 100
@@ -1680,7 +1636,7 @@ Skill: 147 100
 Skill: 148 100
 Skill: 150 80
 Skill: 151 100
-Skill: 22 80
+Spell: 93
 E
 T 16179
 T 16187
@@ -1698,25 +1654,23 @@ T 16187
 к господину врага.
 ~
 c0d0e0f0g0m0o0u0x0 b0d0k0p0x0z0C0 -600 E
-33 0 -10 1d1+3000 10d10+10
+33 0 -5 1d1+3000 10d10+10
 0d0+0 350000
 8 8 1
-BareHandAttack: 0
 Str: 30
+Dex: 27
 Int: 22
 Wis: 21
-Dex: 27
 Con: 21
 Cha: 21
+Size: 50
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
-Special_Bitvector: b1c1
-Spell: 93
+Special_Bitvector: b1c1 
+Skill: 22 80
 Skill: 132 100
 Skill: 134 100
 Skill: 136 100
@@ -1730,7 +1684,7 @@ Skill: 147 100
 Skill: 148 100
 Skill: 150 80
 Skill: 151 100
-Skill: 22 80
+Spell: 93
 E
 T 16179
 T 16187
@@ -1748,25 +1702,23 @@ T 16187
 к господину врага.
 ~
 c0d0e0f0g0m0o0u0x0 b0d0k0p0x0z0C0 -600 E
-33 0 -10 1d1+3000 10d10+10
+33 0 -5 1d1+3000 10d10+10
 0d0+100 350000
 8 8 1
-BareHandAttack: 0
 Str: 30
+Dex: 27
 Int: 21
 Wis: 21
-Dex: 27
 Con: 21
 Cha: 20
+Size: 50
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 50
 Height: 198
 Weight: 100
-Special_Bitvector: b1c1
-Spell: 93
+Special_Bitvector: b1c1 
+Skill: 22 80
 Skill: 132 100
 Skill: 134 100
 Skill: 136 100
@@ -1780,7 +1732,7 @@ Skill: 147 100
 Skill: 148 100
 Skill: 150 80
 Skill: 151 100
-Skill: 22 80
+Spell: 93
 E
 T 16179
 T 16187
@@ -1801,21 +1753,34 @@ b0d0f0g0n0x0y0 b0d0h0k0p0r0x0z0A0C0c1m1t1 -600 E
 35 0 -10 1d1+8000 5d5+25
 0d0+150 900000
 6 6 1
-BareHandAttack: 0
 Str: 25
+Dex: 30
 Int: 30
 Wis: 30
-Dex: 30
 Con: 30
 Cha: 30
+Size: 60
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 60
 Height: 198
 Weight: 100
-Special_Bitvector: a0b0c0d0
+Special_Bitvector: a0b0c0d0 
+Skill: 4 80
+Skill: 22 80
+Skill: 136 105
+Skill: 141 80
+Skill: 142 80
+Skill: 143 80
+Skill: 144 80
+Skill: 145 80
+Skill: 146 80
+Skill: 147 80
+Skill: 148 80
+Skill: 150 80
+Skill: 151 80
+Skill: 154 80
+Skill: 155 80
 Spell: 23
 Spell: 23
 Spell: 23
@@ -1841,32 +1806,16 @@ Spell: 88
 Spell: 93
 Spell: 93
 Spell: 94
-Skill: 136 80
-Skill: 141 80
-Skill: 142 80
-Skill: 143 80
-Skill: 144 80
-Skill: 145 80
-Skill: 146 80
-Skill: 147 80
-Skill: 148 80
-Skill: 150 80
-Skill: 151 80
-Skill: 154 80
-Skill: 155 80
-Skill: 22 80
-Skill: 4 80
-Helper: 16170
-Helper: 16171
-Helper: 16172
-Helper: 16173
-Helper: 16164
-Helper: 16168
-Helper: 16154
-Helper: 16150
-Helper: 16146
 Helper: 16140
+Helper: 16146
+Helper: 16150
+Helper: 16154
+Helper: 16168
+Helper: 16164
+Helper: 16173
+Helper: 16172
+Helper: 16171
+Helper: 16170
 E
 T 16177
-$
 $

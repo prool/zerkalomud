@@ -28,6 +28,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #4001
 жена старейшина дородная женщина~
@@ -37,7 +38,7 @@ E
 жену старейшины~
 женой старейшины~
 жене старейшины~
-Дородная стройная женщина стоит здесь.
+Дородная румяная женщина стоит здесь.
 ~
 Почтенная хозяйка дома.
 ~
@@ -57,6 +58,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 39
 E
 #4002
 сын старейшины~
@@ -87,6 +89,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 36
 E
 T 4003
 #4003
@@ -121,6 +124,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #4004
 подмастерье помощник подручный~
@@ -150,6 +154,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 36
 E
 T 4003
 #4005
@@ -181,6 +186,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #4006
 ведунья колдунья старуха~
@@ -210,6 +216,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #4007
 травник лекарь старик~
@@ -239,6 +246,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #4008
 старец седой~
@@ -268,6 +276,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 60
 E
 #4009
 трактирщик~
@@ -298,6 +307,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #4010
 пьяный мужчина~
@@ -324,10 +334,11 @@ Con: 20
 Cha: 3
 Size: 30
 MaxFactor: 10
-Class: 100
+Class: 102
 Height: 170
 Weight: 120
 Special_Bitvector: y0 
+Skill: 136 15
 E
 #4011
 скорняк продавец~
@@ -337,7 +348,7 @@ E
 скорняка~
 скорняком~
 скорняке~
-Скорняк стоит тут, продавая свои изделия.
+Скорняк кроит шапку из шкуры бобра.
 ~
 Плотный мужчина с задубевшей от растворов кожей.
 ~
@@ -357,6 +368,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
+Skill: 136 90
 E
 T 4000
 #4012
@@ -387,6 +399,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 4003
 #4013
@@ -418,6 +431,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #4014
 конь~
@@ -431,7 +445,7 @@ E
 ~
 Просто конь.
 ~
-b0d0n0o0p0f2 0 0 E
+b0d0n0o0p0t0f2 0 0 E
 6 10 8 5d10+80 2d2+2
 0d0+0 2000
 8 8 1
@@ -449,6 +463,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 18
 E
 #4015
 дурачок юродивый~
@@ -480,6 +495,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #4016
 коза белый~
@@ -510,6 +526,7 @@ Class: 100
 Height: 110
 Weight: 50
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #4017
 пес дворняжка~
@@ -525,7 +542,7 @@ E
 ~
 d0m0n0o0 y0 0 E
 5 18 10 5d5+40 1d3+2
-0d0+0 700
+0d0+0 50000
 8 8 1
 BareHandAttack: 4
 Str: 10
@@ -536,10 +553,11 @@ Con: 7
 Cha: 10
 Size: 15
 MaxFactor: 10
-Class: 103
+Class: 101
 Height: 80
 Weight: 25
 Special_Bitvector: 0 
+Skill: 136 15
 E
 #4018
 крестьянин~
@@ -570,6 +588,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 30
 E
 T 4003
 #4019
@@ -600,6 +619,7 @@ Class: 102
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 24
 E
 T 4003
 #4020
@@ -631,6 +651,7 @@ Class: 103
 Height: 1
 Weight: 1
 Special_Bitvector: g0 
+Skill: 136 3
 E
 #4021
 мышь~
@@ -644,7 +665,7 @@ E
 ~
 Обычная домовая мышь.
 ~
-d0g0n0p0i1 m1 0 E
+d0g0n0p0i1f2 m1 0 E
 3 18 9 5d3+20 1d3+1
 0d0+0 100
 8 8 2
@@ -661,6 +682,7 @@ Class: 103
 Height: 4
 Weight: 1
 Special_Bitvector: i0 
+Skill: 136 9
 E
 I шерсть:5
 #4022
@@ -691,6 +713,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: b1c1 
+Skill: 136 45
 E
 #4023
 конюх~
@@ -720,6 +743,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 36
 E
 #4024
 трактирщик хитрый~
@@ -749,6 +773,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #4025
 ремесленник умелец~
@@ -778,6 +803,7 @@ Class: 100
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
+Skill: 136 45
 E
 #4026
 дочка ведуньи~
@@ -808,6 +834,7 @@ Class: 102
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 3
 E
 #4027
 вдова мельника немолодая женщина~
@@ -838,6 +865,7 @@ Class: 102
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
+Skill: 136 39
 E
 T 4001
 T 4003
@@ -863,37 +891,77 @@ Weight: 200
 Special_Bitvector: 0 
 E
 #4053
-опытный кролик~
-опытный кролик~
-опытного кролика~
-опытному кролику~
-опытного кролика~
-опытным кроликом~
-опытном кролике~
-Огромный жирный кролик сидит здесь.
+Делан моб~
+Делан~
+Делана~
+Делану~
+Делана~
+Деланом~
+Делане~
+Дух восставшего из делета Опытного Кайсяку Делана (бывшего боярина НД) летает здесь.
 ~
-Огроменый длинноухий и (по слухам) очень опытный кролик
+Над Ленгом, где скалистые вершины
+Штурмуют неприступный небосвод,
+С приходом ночи зарево встает,
+Вселяя ужас в жителей долины.
+Легенда намекает на маяк,
+Где в скорбном одиночестве тоскует
+И с Хаосом о вечности толкует
+Последний из Древнейших, миру враг.
+Лицо его закрыто желтой маской,
+Чьи шелковые складки выдают
+Черты столь фантастичные, что люд
+Издревле говорит о них с опаской.
+_
+Делан одет :
+<в правой руке>             призрачный кинжал
+<в левой руке>              заточка
 ~
-b0d0 0 0 E
-30 0 0 1d1+1 2d1+1
+b0d0n0f2j2l2m2u2 c0d0k0m0n0r0s0z0A0k1m1r1 -800 E
+30 -10 -3 0d0+1200 10d12+25
 0d0+0 0
 8 8 1
-BareHandAttack: 4
-Str: 35
-Dex: 15
-Int: 10
-Wis: 10
-Con: 15
-Cha: 10
+Saves: 60 60 60 60
+Resistances: 0 0 200 200 150 150 0
+HPreg: 175
+Armour: 100
+Success: 30
+Initiative: 20
+Absorbe: 60
+BareHandAttack: 11
+Str: 36
+Dex: 50
+Int: 20
+Wis: 20
+Con: 25
+Cha: 25
 Size: 30
+LikeWork: 100
 ExtraAttack: 1
+Class: 102
 Height: 198
 Weight: 200
-Special_Bitvector: n0 
+Special_Bitvector: 0 
+Skill: 3 140
+Skill: 5 200
+Skill: 22 200
+Skill: 133 125
+Skill: 136 90
+Skill: 138 125
+Skill: 140 120
+Skill: 141 120
+Skill: 142 120
+Skill: 143 120
+Skill: 144 120
+Skill: 145 120
+Skill: 146 120
+Skill: 147 120
+Skill: 148 120
+Skill: 149 90
+Skill: 157 125
 E
 T 4005
-L 1053 10000 0 0
-L 1470 100 0 0
+L 1720 100 0 0
 #4054
 r1guard помощник деревенского старосты~
 помощник деревенского старосты~
@@ -920,6 +988,7 @@ Cha: 19
 Size: 40
 LikeWork: 30
 ExtraAttack: 1
+Class: 104
 Height: 180
 Weight: 180
 Special_Bitvector: 0 
@@ -932,6 +1001,99 @@ Spell: 28
 E
 T 4006
 T 4007
+#4055
+подмастерье~
+подмастерье~
+подмастерья~
+подмастерью~
+подмастерья~
+подмастерьем~
+подмастерье~
+Подмастерье скорняка торгует здесь товаром.
+~
+Деревенский парнишка - ученик скорняка.
+~
+b0d0n0o0f2 d0f0k0 200 E
+26 8 0 1d100+300 5d6+5
+0d0+50000 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 14
+Wis: 15
+Con: 18
+Cha: 14
+Size: 45
+LikeWork: 30
+ExtraAttack: 1
+Height: 160
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 78
+E
+#4056
+скупщик купец~
+скупщик~
+скупщика~
+скупщику~
+скупщика~
+скупщиком~
+скупщике~
+Заезжий купец скупает звериные шкурки у охотников.
+~
+Крепкий жилистый мужик, облаченный в отороченный мехом кафтан.
+~
+b0d0n0o0B0 d0f0k0 200 E
+30 -1 0 1d100+600 5d5+5
+0d0+500000 0
+8 8 1
+Str: 50
+Dex: 50
+Int: 23
+Wis: 24
+Con: 23
+Cha: 17
+Size: 50
+LikeWork: 1
+ExtraAttack: 1
+Class: 100
+Height: 168
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 90
+E
+#4057
+жирная крыса bigrat~
+жирная крыса~
+жирной крысы~
+жирной крысе~
+жирную крысу~
+жирной крысой~
+жирной крысе~
+Жирная крыса сидит здесь. (нагло ухмыляется)
+~
+СПАЙ!!!
+~
+b0d0 d0f0k0 -100 E
+30 -10 -2 3d20+1000 8d15+14
+0d0+0 0
+8 8 2
+Str: 20
+Dex: 35
+Int: 30
+Wis: 20
+Con: 14
+Cha: 3
+Size: 30
+LikeWork: 100
+ExtraAttack: 1
+Class: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
+T 4016
+T 4017
 #4070
 ямщик~
 ямщик~
@@ -953,5 +1115,6 @@ Size: 30
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 75
 E
 $

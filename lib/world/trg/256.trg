@@ -38,42 +38,42 @@ set objname %object.name%
 drop %objname.car%
 halt
 end
-mjunk all
+wait 1
+%purge% %object%
 say Ну-ка, что ты тут принес%actor.q%...
-emot Принялся кроить и выделывать заячью шкурку
+emot принялся кроить и выделывать заячью шкурку
 wait 10s
 switch %random.3%
 case 1
-if (%random.10% < 6 )  (%world.curobjs(25600)% < 3)
+if (( %random.10% < 6 ) && ( %world.curobjs(25600)% < 3 ))
 wait 1
-%purge% шкур
 mload obj 25600
 say Ну вот - неплохая вещь получилась
 ул
 give рукав %actor.name%
 else
-%purge% %object%
 say Не получилось ничего, дрянной нынче мех у зайца пошел...
 вздох
 end
+detach 25601 %self.id%
 halt
 break
 case 2
-if (%random.10% < 6 ) && (%world.curobjs(25601)% < 3)
+if ( %random.10% < 6 ) && ( %world.curobjs(25601)% < 3 )
 mload obj 25601
 say Ну вот - неплохая вещь получилась
 ул
 give шапка %actor.name%
 else
-%purge% %object%
 say Не получилось ничего, дрянной нынче мех у зайца пошел...
 вздох
 end
+detach 25601 %self.id%
 halt
 done
-%purge% %object%
 say Не получилось ничего, дрянной нынче мех у зайца пошел...
 вздох
+detach 25601 %self.id%
 ~
 #25602
 вошли к охотнику~

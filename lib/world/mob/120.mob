@@ -29,6 +29,7 @@ Height: 198
 Weight: 80
 Special_Bitvector: a0b0c0d0b1c1 
 Skill: 132 15
+Skill: 136 42
 Skill: 137 50
 Spell: 6
 Spell: 91
@@ -62,6 +63,7 @@ Class: 103
 Height: 198
 Weight: 30
 Special_Bitvector: 0 
+Skill: 136 36
 Skill: 160 50
 E
 #12002
@@ -92,6 +94,7 @@ Class: 103
 Height: 198
 Weight: 3
 Special_Bitvector: 0 
+Skill: 136 30
 E
 #12003
 средняя сестрица~
@@ -123,6 +126,7 @@ Height: 198
 Weight: 80
 Special_Bitvector: a0b0c0d0b1c1 
 Skill: 132 15
+Skill: 136 42
 Skill: 137 50
 Spell: 26
 Spell: 62
@@ -157,6 +161,7 @@ Class: 103
 Height: 198
 Weight: 30
 Special_Bitvector: d1 
+Skill: 136 30
 Skill: 157 80
 Skill: 160 75
 Spell: 36
@@ -192,6 +197,7 @@ Class: 103
 Height: 198
 Weight: 60
 Special_Bitvector: a1 
+Skill: 136 42
 Skill: 137 50
 E
 #12006
@@ -225,6 +231,7 @@ Height: 198
 Weight: 25
 Special_Bitvector: 0 
 Skill: 6 50
+Skill: 136 36
 E
 #12007
 солнечный зайчик~
@@ -304,6 +311,7 @@ Height: 198
 Weight: 80
 Special_Bitvector: a0b0c0d0b1c1 
 Skill: 132 15
+Skill: 136 42
 Skill: 137 50
 Spell: 32
 Spell: 32
@@ -341,6 +349,7 @@ Class: 101
 Height: 198
 Weight: 50
 Special_Bitvector: n0v0y0b1 
+Skill: 136 39
 Spell: 77
 Spell: 77
 Spell: 90
@@ -653,6 +662,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: u0 
 Skill: 132 150
+Skill: 136 18
 Skill: 156 100
 Skill: 160 100
 E
@@ -685,6 +695,7 @@ Height: 198
 Weight: 100
 Special_Bitvector: u0 
 Skill: 132 150
+Skill: 136 18
 Skill: 156 100
 Skill: 160 100
 E
@@ -757,6 +768,7 @@ Weight: 30
 Special_Bitvector: b1c1 
 Skill: 132 50
 Skill: 133 100
+Skill: 136 15
 Skill: 156 100
 Skill: 157 130
 Spell: 15
@@ -799,6 +811,7 @@ Class: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1 
+Skill: 136 18
 Skill: 157 100
 Skill: 160 100
 Spell: 1
@@ -884,6 +897,7 @@ Class: 100
 Height: 198
 Weight: 100
 Special_Bitvector: c0d0 
+Skill: 136 36
 Spell: 15
 Spell: 15
 Spell: 91
@@ -1067,6 +1081,7 @@ Class: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 15
 E
 T 12001
 #12029
@@ -1097,6 +1112,7 @@ Class: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
+Skill: 136 45
 E
 T 12002
 #12030

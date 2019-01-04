@@ -6,7 +6,7 @@ wait 1
 say Аааа. мелюзга. Что, хочешь к нам в гости зайти?
 wait 10
 if %self.fighting%
- halt
+  halt
 end
 say Тогда сначала поработай - убей бродячих собак около частокола, 
 say а то совсем от них житья нет. Если убьешь - отрежь им.. гммм.. 
@@ -15,14 +15,14 @@ wait 10
 mecho Где-то вдалеке послышался надрывный собачий лай.
 wait 10
 if %self.fighting%
- halt
+  halt
 end
 say  ..отрежь хвост и принеси его мне - тогда пропущу.
 wait 10
 mecho Где-то вдалеке послышался надрывный собачий лай.
 wait 10
 if %self.fighting%
- halt
+  halt
 end
 ~
 #70001
@@ -73,22 +73,22 @@ end
 100~
 wait 1
 if %object.vnum% !=70015
- брос все
- halt
+  брос все
+  halt
 end
+wait 1
+mpurge %object%
 wait 5
 рад
 say Герой! Ты достоин быть нашим гостем, и я отблагодарю тебя!
 wait 5
-mecho _Вальгрим склонился над куском бересты и что-то быстро написал на нем..
+mecho Вальгрим склонился над куском бересты и что-то быстро написал на нем..
 wait 5
 mload obj 70052
 дать кусок %actor.name%
 wait 1
 say Отнеси этот кусок бересты Торвину, нашему кузнецу, и он выкует тебе награду.
-mpurge шкура
 detach 70003 %self.id%
-end
 ~
 #70004
 Кузнец 1.~
@@ -96,9 +96,11 @@ end
 100~
 wait 1
 if %object.vnum% !=70052
- брос все
- halt
+  брос все
+  halt
 end
+wait 1
+mpurge %object%
 rdelete abuse %self.id%
 wait 1
 осм %actor.name%
@@ -128,7 +130,6 @@ wait 6
 say Бальдр - самый прекрасный из богов, любимый сын Одина.
 wait 12
 say Так какому богу и ремеслу ты бы предпочел служить?
-mpurge кусок
 attach 70004 %self.id%
 attach 70005 %self.id%
 attach 70006 %self.id%
@@ -150,7 +151,7 @@ mecho - Торвин усмехнуля в усы, на секунду задумался и подошел к горну.
 mecho - Ну раз ты выбрал%actor.g% этого бога - вот сейчас выкую во славу его тебе награду.
 if (%world.curobjs(70040)% < 3) && (%random.100% <= 10)
   mecho - Торвин принялся за работу.
-wait 10
+  wait 10
   mecho - Вот, смотри, получился отличный амулет!
   mload obj 70040
   give  амулет %actor.name%
@@ -180,7 +181,7 @@ mecho - Торвин усмехнуля в усы, на секунду задумался и подошел к горну.
 mecho - Ну раз ты выбрал%actor.g% этого бога - вот сейчас выкую во славу его тебе награду.
 if (%world.curobjs(70041)% < 3) && (%random.100% <= 10)
   mecho - Торвин принялся за работу.
-wait 10
+  wait 10
   mecho - Вот, смотри, получился отличный амулет!
   mload obj 70041
   give  амулет %actor.name%
@@ -210,7 +211,7 @@ mecho - Торвин усмехнуля в усы, на секунду задумался и подошел к горну.
 mecho - Ну раз ты выбрал%actor.g% этого бога - вот сейчас выкую во славу его тебе награду.
 if (%world.curobjs(70045)% < 3) && (%random.100% <= 10)
   mecho - Торвин принялся за работу.
-wait 10
+  wait 10
   mecho - Вот, смотри, получился отличный амулет!
   mload obj 70045
   give  амулет %actor.name%
@@ -240,7 +241,7 @@ mecho - Торвин усмехнуля в усы, на секунду задумался и подошел к горну.
 mecho - Ну раз ты выбрал%actor.g% этого бога - вот сейчас выкую во славу его тебе награду.
 if (%world.curobjs(70046)% < 3) && (%random.100% <= 10)
   mecho - Торвин принялся за работу.
-wait 10
+  wait 10
   mecho - Вот, смотри, получился отличный амулет!
   mload obj 70046
   give  амулет %actor.name%
@@ -270,7 +271,7 @@ mecho - Торвин усмехнуля в усы, на секунду задумался и подошел к горну.
 mecho - Ну раз ты выбрал%actor.g% этого бога - вот сейчас выкую во славу его тебе награду.
 if (%world.curobjs(70047)% < 3) && (%random.100% <= 10)
   mecho - Торвин принялся за работу.
-wait 10
+  wait 10
   mecho - Вот, смотри, получился отличный амулет!
   mload obj 70047
   give  амулет %actor.name%
@@ -300,7 +301,7 @@ mecho - Торвин усмехнуля в усы, на секунду задумался и подошел к горну.
 mecho - Ну раз ты выбрал%actor.g% этого бога - вот сейчас выкую во славу его тебе награду.
 if (%world.curobjs(70048)% < 3) && (%random.100% <= 10)
   mecho - Торвин принялся за работу.
-wait 10
+  wait 10
   mecho - Вот, смотри, получился отличный амулет!
   mload obj 70048
   give  амулет %actor.name%
@@ -330,7 +331,7 @@ mecho - Торвин усмехнуля в усы, на секунду задумался и подошел к горну.
 mecho - Ну раз ты выбрал%actor.g% этого бога - вот сейчас выкую во славу его тебе награду.
 if (%world.curobjs(70049)% < 3) && (%random.100% <= 10)
   mecho - Торвин принялся за работу.
-wait 10
+  wait 10
   mecho - Вот, смотри, получился отличный амулет!
   mload obj 70049
   give  амулет %actor.name%
@@ -360,7 +361,7 @@ mecho - Торвин усмехнуля в усы, на секунду задумался и подошел к горну.
 mecho - Ну раз ты выбрал%actor.g% этого бога - вот сейчас выкую во славу его тебе награду.
 if (%world.curobjs(70050)% < 3) && (%random.100% <= 10)
   mecho - Торвин принялся за работу.
-wait 10
+  wait 10
   mecho - Вот, смотри, получился отличный амулет!
   mload obj 70050
   give  амулет %actor.name%
@@ -390,7 +391,7 @@ mecho - Торвин усмехнуля в усы, на секунду задумался и подошел к горну.
 mecho - Ну раз ты выбрал%actor.g% этого бога - вот сейчас выкую во славу его тебе награду.
 if (%world.curobjs(70051)% < 3) && (%random.100% <= 10)
   mecho - Торвин принялся за работу.
-wait 10
+  wait 10
   mecho - Вот, смотри, получился отличный амулет!
   mload obj 70051
   give  амулет %actor.name%
@@ -416,27 +417,27 @@ detach 70013 %self.id%
 100~
 wait 1
 if %self.fighting%
- halt
+  halt
 end
 if %object.vnum% !=70031
- брос все
- halt
+  брос все
+  halt
 end
 mecho Варяг крякнул от удовольствия рассматривая собачий хвост.
 mpurge хвост
 wait 10
 if %self.fighting%
- halt
+  halt
 end
 улы
 wait 10
 if %self.fighting%
- halt
+  halt
 end
 say Молодец, справился! Ну что ж можешь проходить!
 wait 5
 if %self.fighting%
- halt
+  halt
 end
 mload mob 70003
 mpurge злой
@@ -446,7 +447,7 @@ mpurge злой
 2 e 100
 ~
 wait 1
-wecho _Колючие ветви вмести с одеждой довольно сильно разодрали Вашу кожу.
+wecho  Колючие ветви вместе с одеждой, довольно сильно разодрали Вашу кожу.
 set fchar %self.people%
 wdamage %fchar% 50
 ~
@@ -460,7 +461,7 @@ if !%arg.contains(бревно)%
 end
 wait 1s
 wsend %actor% Приложив максимум усилий, Вы вынули бревно.
-wechoaround %actor% Побагровев от натуги, %actor.name% вынул%actor.q% бревно.
+wechoaround %actor% Побагровев от натуги, %actor.name% вынул%actor.g% бревно.
 wdoor 70017 north flags a
 wdoor 70017 north room 70072
 wdoor 70072 south flags a
@@ -481,19 +482,19 @@ attach 70016 %self.id%
 0 f 100
 *~
 if (%world.curobjs(70023)% < 30) && (%random.100% <= 5)
-   mload obj 70023
+  mload obj 70023
 end
 if (%world.curobjs(70026)% < 30) && (%random.100% <= 5)
-   mload obj 70026
+  mload obj 70026
 end
-if (%world.curobjs(70027)% < 30) && (%random.100% <= 5)
-   mload obj 70027
+if (%world.curobjs(70027)% < 10) && (%random.100% <= 5)
+  mload obj 70027
 end
 if (%world.curobjs(70032)% < 30) && (%random.100% <= 5)
-   mload obj 70032
+  mload obj 70032
 end
-if (%world.curobjs(70033)% < 30) && (%random.100% <= 5)
-   mload obj 70033
+if (%world.curobjs(70033)% < 10) && (%random.100% <= 5)
+  mload obj 70033
 end
 ~
 #70019
@@ -501,28 +502,28 @@ end
 0 f 100
 *~
 if (%world.curobjs(70001)% < 30) && (%random.100% <= 5)
-   mload obj 70001
+  mload obj 70001
 end
 if (%world.curobjs(70002)% < 30) && (%random.100% <= 5)
-   mload obj 70002
+  mload obj 70002
 end
-if (%world.curobjs(70005)% < 30) && (%random.100% <= 5)
-   mload obj 70005
+if (%world.curobjs(70005)% < 10) && (%random.100% <= 5)
+  mload obj 70005
 end
-if (%world.curobjs(70006)% < 30) && (%random.100% <= 5)
-   mload obj 70006
+if (%world.curobjs(70006)% < 5) && (%random.100% <= 5)
+  mload obj 70006
 end
-if (%world.curobjs(70007)% < 30) && (%random.100% <= 5)
-   mload obj 70007
+if (%world.curobjs(70007)% < 20) && (%random.100% <= 5)
+  mload obj 70007
 end
 if (%world.curobjs(70018)% < 30) && (%random.100% <= 5)
-   mload obj 70018
+  mload obj 70018
 end
 if (%world.curobjs(70019)% < 30) && (%random.100% <= 5)
-   mload obj 70019
+  mload obj 70019
 end
-if (%world.curobjs(70036)% < 30) && (%random.100% <= 5)
-   mload obj 70036
+if (%world.curobjs(70036)% < 10) && (%random.100% <= 5)
+  mload obj 70036
 end
 ~
 #70020
@@ -530,19 +531,19 @@ end
 0 f 100
 *~
 if (%world.curobjs(70001)% < 30) && (%random.100% <= 5)
-   mload obj 70001
+  mload obj 70001
 end
 if (%world.curobjs(70004)% < 30) && (%random.100% <= 5)
-   mload obj 70004
+  mload obj 70004
 end
 if (%world.curobjs(70018)% < 30) && (%random.100% <= 5)
-   mload obj 70018
+  mload obj 70018
 end
 if (%world.curobjs(70034)% < 30) && (%random.100% <= 5)
-   mload obj 70034
+  mload obj 70034
 end
 if (%world.curobjs(70035)% < 30) && (%random.100% <= 5)
-   mload obj 70035
+  mload obj 70035
 end
 ~
 #70021
@@ -550,16 +551,58 @@ end
 0 f 100
 *~
 if (%world.curobjs(70002)% < 30) && (%random.100% <= 5)
-   mload obj 70002
+  mload obj 70002
 end
 if (%world.curobjs(70037)% < 30) && (%random.100% <= 5)
-   mload obj 70037
+  mload obj 70037
 end
-if (%world.curobjs(70038)% < 30) && (%random.100% <= 5)
-   mload obj 70038
+if (%world.curobjs(70038)% < 10) && (%random.100% <= 5)
+  mload obj 70038
 end
-if (%world.curobjs(70039)% < 30) && (%random.100% <= 5)
-   mload obj 70039
+if (%world.curobjs(70039)% < 10) && (%random.100% <= 5)
+  mload obj 70039
+end
+~
+#70022
+помер Вальгрим~
+0 f 100
+~
+if %world.curobjs(3370)% < 2 && %random.10000% < 100
+  mload obj 3370
+end
+~
+#70023
+плывем в лапландию~
+2 c 100
+плыть~
+if !(%arg.contains(драккар)%)
+  wsend %actor% Куда это Вы хотите плыть???
+  return 0
+  halt
+end
+wsend %actor.name% _Подняв парус, Вы налягли с друзьями на весла.
+wechoaround %actor% %actor.name% приказал%actor.q% всем взяться за весла.
+wait 3
+wecho _Драккар тронулся и поплыл в открытое море.
+wait 10
+wteleport all 79200
+end
+~
+#70024
+плывем в словенскую~
+2 c 100
+плыть~
+if !(%arg.contains(драккар)%)
+  wsend %actor% Куда это Вы хотите плыть???
+  return 0
+  halt
+end
+wsend %actor.name%  Подняв парус, Вы налягли с друзьями на весла.
+wechoaround %actor% %actor.name% приказал%actor.q% всем взяться за весла.
+wait 3
+wecho Драккар тронулся и поплыл в открытое море.
+wait 10
+wteleport all 70200
 end
 ~
 $~
