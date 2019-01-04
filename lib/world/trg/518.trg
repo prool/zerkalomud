@@ -213,6 +213,7 @@ if %object.vnum% != 51807
 end
 wait 1
 mpurge %object%
+log &CСдали посох старику - %actor.name%&n
 wait 1s
 say О, мой посох! Спасибо огромное, но помочь мне тебе особенно нечем, вот, возьми немного денег.
 %actor.gold(+2000)%
@@ -469,18 +470,6 @@ wait 1
 mload obj 51814
 switch %random.10%
   case 1
-    * руна разобщения
-    if %world.curobjs(218)% < 50 
-      mload obj 218
-    end
-  break
-  case 2
-    * руна покоя
-    if %world.curobjs(211)% < 50  
-      mload obj 211
-    end
-  break
-  case 3
     mload obj 1755
   break
   default
@@ -503,9 +492,9 @@ say Да-а-а... не ожидал я, что простой смертный сможет убить этакое чудище
 say Я беден, могу только передать тебе часть своих знаний...
 %actor.exp(+70000)%
 msend %actor% %self.iname% что-то шепнул Вам на ушко, вы даже и не запомнили толком, но почувствовали себя намного опытнее...
-if %world.curobjs(3351)% < 2 && %random.8% == 1
+if %world.curobjs(3334)% < 2 && %random.8% == 1
   wait 1s
-  mload obj  3351
+  mload obj  3334
   say Да и возьми еще это колечко, и откуда оно у меня взялось? Пригодится тебе наверное.
   дать коль .%actor.name%
 end

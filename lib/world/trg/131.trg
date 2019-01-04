@@ -15,7 +15,7 @@ if %actor.clan% == дмз
   *osend %actor% всадник на Погоне подмигнул Вам
   halt
 endif
-osend %actor% %self.name% сгорел%self.g% в ваших руках, в очертаниях огня вы увидели буквы ДМЗ
+osend %actor% %self.iname% сгорел%self.g% в ваших руках, в очертаниях огня вы увидели буквы ДМЗ
 oechoaround %actor% в очертаниях огня, охватившего %self.name%, Вы разобрали буквы ДМЗ.
 wait 1
 opurge %self%
@@ -35,6 +35,10 @@ if %actor.clan% != дмз
   wait 1
   opurge %self%
 else
+  if %world.curmobs(13103)% > 2
+    osend %actor% ...и ничего не произошло!
+    halt
+  end
   osend %actor% вспыхнув синим пламенем и сильно опалив Вам руки фигурка исчезла,а из-за ближайшего облачка прилетела горгулья
   oechoaround %actor% вспыхнув синим пламенем фигурка исчезла а из-за ближайшего облачка прилетела горгулья
   oload mob 13108
@@ -122,6 +126,7 @@ wteleport %actor.name% 13152
 Переход5~
 2 c 0
 перешагнуть~
+log &R%actor.name% запустил триггерер 13109 в комнате %actor.realroom%!&n
 if !(%arg.contains(трясина)%) 
   wsend       %actor% Куда это Вы собрались прыгать???
   return 0

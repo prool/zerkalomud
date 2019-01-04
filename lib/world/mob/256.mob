@@ -43,6 +43,7 @@ d0g0h0y0 k0 0 E
 16 9 -2 10d2+200 2d4+2
 0d0+0 4500
 8 8 2
+BareHandAttack: 1
 Str: 16
 Dex: 13
 Wis: 10
@@ -300,6 +301,7 @@ d0g0l0 k0r0 -600 E
 21 5 -3 10d10+500 5d6+9
 0d0+0 14000
 8 8 1
+BareHandAttack: 10
 Str: 27
 Dex: 8
 Int: 15

@@ -11,13 +11,13 @@ if %random.3% == 2
   msend %actor.name% Немного повозившись, Вы сняли шкуру с трупа.
   mechoaround %actor.name% %actor.iname% кряхтя и ворча, снял%actor.g% с трупа шкуру.             
   switch %self.vnum%
-    case 66911        
+    case 66911
       mload obj 66908
     break
-    case 66910        
+    case 66910
       mload obj 66909
     break
-    case 66912        
+    case 66912
       mload obj 66910
     break
   done
@@ -88,6 +88,7 @@ end
 if (%actor.name% == %quest669.name%)
   if (%object.iname% == Ожерелье из клыков кабана)
     wait 1s
+    %mpurge% %object%
     г Вот спасибо тебе!
     г Мой сынок теперь в безопасности.
     радов

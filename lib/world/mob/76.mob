@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #7600
 лесничий дряхлый старик~
 старик-лесничий~
@@ -13,24 +12,23 @@
 покрыто морщинами, но в нем читается доброта и мудрость. Телосложением дед
 не выдался, да и возраст уж не тот.
 ~
-b0g0 h0k0n0m0D0 600 E
+b0d0g0 h0k0m0n0D0 600 E
 30 0 0 10d10+300 3d5+10
 10d5+700 0
 6 6 1
-BareHandAttack: 0
 Str: 12
+Dex: 14
 Int: 16
 Wis: 22
-Dex: 14
 Con: 8
 Cha: 16
+Size: 60
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 60
 Height: 160
 Weight: 85
+Special_Bitvector: 0 
 Skill: 132 40
 Skill: 136 90
 Spell: 15
@@ -52,25 +50,24 @@ T 7604
    Огромный бурый медведь. Шерсть правда скатана, ну да с чего бы ей быть
 шикарной, в эдаких то условиях?
 ~
-b0f0q0 c0f0k0 0 E
-15 17 -20 4d5+200 2d4+4
+b0d0f0q0 c0f0k0 0 E
+15 17 5 4d5+200 2d4+4
 0d0+0 10000
 5 5 1
 BareHandAttack: 1
 Str: 22
+Dex: 10
 Int: 10
 Wis: 12
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 45
-MaxFactor: 0
 ExtraAttack: 2
 Class: 103
-Size: 100
 Height: 125
 Weight: 150
-Special_Bitvector: a0d0
+Special_Bitvector: a0d0 
 Skill: 4 35
 Skill: 136 45
 E
@@ -86,25 +83,23 @@ E
 ~
    Рыжая плутовка-лисица. Со скуки любит беситься.
 ~
-g0m0 f0 0 E
-11 18 -20 4d5+160 2d3+2
+d0g0m0 f0 0 E
+11 18 5 4d5+160 2d3+2
 0d0+0 1700
 8 8 2
 BareHandAttack: 4
 Str: 10
+Dex: 13
 Int: 8
 Wis: 8
-Dex: 13
 Con: 8
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 40
 ExtraAttack: 1
 Class: 103
-Size: 40
 Height: 110
 Weight: 65
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 33
 E
 #7603
@@ -119,25 +114,22 @@ E
 ~
    Тощий серый волк, он в путниках знает толк!
 ~
-f0g2 f0k0 0 E
-12 18 -20 10d3+250 2d4+2
+d0f0g2 f0k0 0 E
+12 18 5 10d3+250 2d4+2
 0d0+0 2500
 8 8 1
 BareHandAttack: 1
-Str: 11
+Dex: 10
 Int: 8
 Wis: 8
-Dex: 10
 Con: 9
 Cha: 5
-LikeWork: 0
-MaxFactor: 0
+Size: 50
 ExtraAttack: 1
 Class: 103
-Size: 50
 Height: 90
 Weight: 50
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 36
 E
 #7604
@@ -154,25 +146,23 @@ E
 Бурундук, говорят, любит фундук.
 Зверь, с озорными бусинками-глазами, совсем Вас не боится.
 ~
-g0g2 p0 0 E
-9 19 -16 4d2+50 1d3+1
+d0g0g2 p0 0 E
+9 19 9 4d2+50 1d3+1
 0d0+0 500
 8 8 1
 BareHandAttack: 4
 Str: 8
+Dex: 9
 Int: 6
 Wis: 8
-Dex: 9
 Con: 8
 Cha: 9
-LikeWork: 0
-MaxFactor: 0
+Size: 15
 ExtraAttack: 1
 Class: 103
-Size: 15
 Height: 30
 Weight: 50
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 27
 E
 #7605
@@ -187,25 +177,24 @@ E
 ~
    Серая пузатая птица.
 ~
-g0g2 p0x0 0 E
-9 19 -16 10d2+50 2d2+1
+d0g0g2 p0x0 0 E
+9 19 9 10d2+50 2d2+1
 0d0+0 550
 8 8 1
 BareHandAttack: 12
 Str: 9
+Dex: 9
 Int: 9
 Wis: 8
-Dex: 9
 Con: 9
 Cha: 10
+Size: 10
 LikeWork: 5
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 27
 E
 #7606
@@ -221,25 +210,23 @@ E
    Упитаный глухарь. Перья у него на спине пепельно-серые, на груди плавно
 переходят в коричневые.
 ~
-g0g2 p0x0 0 E
-9 19 -16 2d3+60 2d3+1
+d0g0g2 p0x0 0 E
+9 19 9 2d3+60 2d3+1
 0d0+0 600
 8 8 1
 BareHandAttack: 12
 Str: 10
+Dex: 9
 Int: 9
 Wis: 10
-Dex: 9
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 10
 ExtraAttack: 1
 Class: 103
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: l0
+Special_Bitvector: l0 
 Skill: 136 27
 E
 #7607
@@ -254,25 +241,23 @@ E
 ~
    Серый заяц, очень пушистый, с хвостиком-обрубком.
 ~
-g0h0 0 0 E
-10 19 -16 6d5+50 2d3+1
+d0g0h0 0 0 E
+10 19 9 6d5+50 2d3+1
 0d0+0 550
 8 8 1
 BareHandAttack: 13
 Str: 10
+Dex: 9
 Int: 9
 Wis: 9
-Dex: 9
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 10
 ExtraAttack: 1
 Class: 103
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 136 30
 E
 #7608
@@ -287,25 +272,22 @@ E
 ~
 Колючий ежик, ни головы, ни ножек.
 ~
-g0 f0 0 E
-9 2 -16 3d5+80 3d2+1
+d0g0 f0 0 E
+9 2 9 3d5+80 3d2+1
 0d0+0 670
 8 8 1
 BareHandAttack: 11
-Str: 11
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 10
 ExtraAttack: 1
 Class: 103
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 136 27
 E
 #7609
@@ -321,25 +303,23 @@ E
 Такое впечатление, что в детстве родители этого цаган
 основное время посвящали тяганию отпрысков за уши.
 ~
-b0g0 k0 -600 E
-15 15 -16 5d5+250 2d5+3
+b0d0g0 k0 -600 E
+15 15 9 5d5+250 2d5+3
 10d5+50 13000
 6 6 1
-BareHandAttack: 0
 Str: 15
+Dex: 17
 Int: 10
 Wis: 10
-Dex: 17
 Con: 10
 Cha: 10
+Size: 45
 LikeWork: 55
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 45
 Height: 160
 Weight: 65
-Special_Bitvector: b1
+Special_Bitvector: b1 
 Skill: 136 30
 E
 T 7607
@@ -356,25 +336,23 @@ T 7607
    Грузный, даже толстый бородатый мужик. Видимо, в детстве его не очень
 любили, вот и стал он таким молчаливым и угрюмым.
 ~
-b0g0m0 k0 -600 E
-15 16 -15 5d5+300 4d3+3
+b0d0g0m0 k0 -600 E
+15 16 10 5d5+300 4d3+3
 5d6+65 19000
 5 5 1
-BareHandAttack: 0
 Str: 17
+Dex: 13
 Int: 10
 Wis: 10
-Dex: 13
 Con: 10
 Cha: 10
+Size: 60
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 60
 Height: 160
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 132 20
 Skill: 136 45
 Skill: 137 25
@@ -392,25 +370,22 @@ T 7607
 ~
    Усатый черноволосый высокий дядька с вытянутым лицом.
 ~
-b0g0m0 d0k0 -600 E
-15 9 -15 6d10+350 4d2+10
+b0d0g0m0 d0k0 -600 E
+15 9 10 6d10+350 4d2+10
 40d2+20 25000
 8 8 1
-BareHandAttack: 0
 Str: 15
+Dex: 15
 Int: 10
 Wis: 10
-Dex: 15
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 50
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 175
 Weight: 60
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 45
 E
 T 7605
@@ -427,25 +402,22 @@ T 7606
 ~
    В лице его виден страх... неведомо чего он боится, но боится искренне.
 ~
-g0h0g2 k0 -600 E
-15 13 -15 5d10+180 2d3+5
+d0g0h0g2 k0 -600 E
+15 13 10 5d10+180 2d3+5
 2d15+15 15000
 8 8 1
-BareHandAttack: 0
 Str: 12
+Dex: 12
 Int: 10
 Wis: 10
-Dex: 12
 Con: 10
 Cha: 10
-LikeWork: 0
-MaxFactor: 0
+Size: 50
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 165
 Weight: 65
-Special_Bitvector: d1
+Special_Bitvector: d1 
 Skill: 136 45
 E
 T 7607
@@ -462,25 +434,24 @@ T 7607
 Шерсть в клочках, хвост ободран,
 но даже это забитое животное не даст себя в обиду.
 ~
-b0f0g0 d0f0k0C0 0 E
-12 12 -20 5d4+250 3d4+4
+b0d0f0g0 d0f0k0C0 0 E
+12 12 5 5d4+250 3d4+4
 0d0+0 25000
 8 8 2
 BareHandAttack: 8
 Str: 10
+Dex: 20
 Int: 10
 Wis: 10
-Dex: 20
 Con: 10
 Cha: 10
+Size: 50
 LikeWork: 40
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 50
 Height: 80
 Weight: 50
-Special_Bitvector: b0i0p0
+Special_Bitvector: b0i0p0 
 Skill: 136 36
 Skill: 157 50
 E
@@ -496,24 +467,24 @@ E
 ~
 Чем же он вам так напоминает свинью?
 ~
-0 f0k0C0 0 E
-8 18 -14 4d8+200 2d3+2
+d0 f0k0C0 0 E
+8 18 11 4d8+200 2d3+2
 0d0+0 2300
 8 8 1
 BareHandAttack: 4
 Str: 10
+Dex: 8
 Int: 8
 Wis: 9
-Dex: 8
 Con: 13
 Cha: 12
+Size: 60
 LikeWork: 15
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 60
 Height: 80
 Weight: 100
+Special_Bitvector: 0 
 Skill: 136 24
 E
 #7615
@@ -528,29 +499,27 @@ E
 ~
 Обросшее старыми гнилыми водорослями, это существо лишь изредка выходит из своей норы.
 ~
-b0f0c2 c0d0k0 0 E
-15 5 -14 6d6+250 3d3+5
+b0d0f0c2 c0d0k0 0 E
+15 5 11 6d6+250 3d3+5
 0d0+0 30000
 5 5 1
 BareHandAttack: 2
 Str: 15
+Dex: 12
 Int: 22
 Wis: 28
-Dex: 12
 Con: 12
 Cha: 3
+Size: 60
 LikeWork: 45
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 60
 Height: 150
 Weight: 60
+Special_Bitvector: 0 
 Skill: 136 45
 Spell: 54
 Spell: 104
 Spell: 104
 E
-T 7609
-$
 $

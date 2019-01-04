@@ -2305,7 +2305,7 @@ Skill: 134 200
 Skill: 136 60
 E
 #62052
-тюремщик~
+молодой тюремщик prisonguard620~
 молодой тюремщик~
 молодого тюремщика~
 молодому тюремщику~
@@ -2333,7 +2333,7 @@ ExtraAttack: 1
 Class: 102
 Height: 175
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: b1c1 
 Skill: 134 200
 Skill: 136 60
 E

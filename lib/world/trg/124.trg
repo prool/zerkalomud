@@ -2,17 +2,20 @@
 Вход в подземелье~
 2 c 0
 произнести~
-if  !%arg.contains(дозор)% || !%actor.rentable% || ( %actor.clan% != нд ) 
+if  !%arg.contains(дозор)% || !%actor.rentable%
   wechoaround %actor% %actor.name% начал%actor.g% шептать разные слова, да все понапрасну.
   wsend %actor.name% Не стоит не стоит болтать всякую всячину по пустякам.
   halt
+else
+  if %actor.clan% == нд || %actor.clan% == нво || %actor.clan% == дмз || %actor.clan% == вд
+    wechoaround %actor% %actor.name% приложил%actor.g% ладонь к рисунку, тихо сказал%actor.g% несколько слов и исчез%actor.a%.
+    wsend %actor% Вы притронулись к гербу, произнесли заветное слово, и Вас подхватил магический вихрь.
+    wteleport %actor% 12645 horse
+    wait 1s
+    wsend %actor% Спустя несколько мгновений вы очнулись под землей.
+    wechoaround %actor% %actor.name% внезапно появил%actor.u%.
+  end
 end
-wechoaround %actor% %actor.name% приложил%actor.g% ладонь к рисунку, тихо сказал%actor.g% несколько слов и исчез%actor.a%.
-wsend %actor.name% Вы притронулись к гербу, произнесли заветное слово, и Вас подхватил магический вихрь.
-wait 2s
-wteleport %actor.name% 12645
-wsend %actor.name% Спустя несколько мгновений вы очнулись под землей.
-wechoaround %actor% %actor.name% внезапно появил%actor.u%.
 ~
 #12401
 Знак на камне~
@@ -33,7 +36,7 @@ wsend %actor.name% колдовским светом.
 2 e 100
 мост~
 wait 1
-if ( %random.99% <= 55 )
+if %random.99% <= 40
   wechoaround %actor% %actor.name% оступился и с криком ужаса провалил%actor.u% вниз.
   wsend %actor% Вдруг вы оступились и с криком ужаса полетели вниз.
   wsend %actor% Ааа... Плюх!!!
@@ -41,7 +44,7 @@ if ( %random.99% <= 55 )
   wsend %actor% Вас вниз по течению. Но не долго - со всего размаха Вы ударились о каменный
   wsend %actor% выступ. Ох как БОЛЬНО...
   wteleport %actor% 12429
-  eval    dam124  %actor.hitp%*17/20
+  eval dam124 %actor.hitp%*1/2
   wait 1
   wdamage %actor% %dam124%
   wsend %actor% Но жить то хочется и поэтому хоть как, а вылезать надо.
@@ -98,18 +101,18 @@ if (%object.vnum% == 12400)
   сесть
   tell %actor.name% Наверное мне не суждено туда пройти, ноги парализовало от старости.
   взд
-  __if %world.curobjs(12404)% < 15
-  mload obj 12404
-  tell %actor.name% Возми этот знак себе, может он тебе пригодится.
-  дать знак %actor.name%
-end
+  if %world.curobjs(12404)% < 15
+    mload obj 12404
+    tell %actor.name% Возми этот знак себе, может он тебе пригодится.
+    дать знак %actor.name%
+  end
 else
-wait 1
-tell %actor.name% Конечно мне понятно, что ты хочешь мне помочь в моих поисках.
-tell %actor.name% Но это не то что я ищу.
-eval getobject %object.name%
-броси %getobject.car%.%getobject.cdr%
-halt
+  wait 1
+  tell %actor.name% Конечно мне понятно, что ты хочешь мне помочь в моих поисках.
+  tell %actor.name% Но это не то что я ищу.
+  eval getobject %object.name%
+  броси %getobject.car%.%getobject.cdr%
+  halt
 end
 ~
 #12406
@@ -137,8 +140,9 @@ wdoor 12403 north purge
 атака~
 0 r 100
 ~
+halt
 eval agr %random.50%+%random.50%
-if ( %actor.clan% != НД ) & ( %agr% <= 25 )
+if ( %actor.clan% != НД ) && ( %agr% <= 25 )
   mkill %actor%
 elseif %agr% <= 10 
   mkill %actor%

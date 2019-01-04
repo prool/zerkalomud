@@ -16,6 +16,9 @@ if !%arg.contains(камень)%
   halt
 end
 calcuid kamen379 37915 obj
+if !%kamen379%
+  halt
+end
 if %actor.eq(19)%==%kamen379%
   wecho Как?
   halt
@@ -35,7 +38,9 @@ if (%arg.contains(камень)%) && (%actor.eq(17)%==%kamen379%)
   wait 4s
   wecho Вдруг стена разделилась пополам и разъехалась в стороны, образовав проход на юг.
   wdoor 37926 south room 37940
-  wpurge %kamen379%
+  if %kamen379%
+    wpurge %kamen379%
+  end
 else
   wecho Куда вставить?
   halt
@@ -65,6 +70,9 @@ if !%arg.contains(камень)%
   halt
 end
 calcuid kamen379 37907 obj
+if !%kamen379%
+  halt
+end
 if %actor.eq(19)%==%kamen379%
   wecho Как?
   halt
@@ -84,7 +92,9 @@ if (%arg.contains(камень)%) && (%actor.eq(17)%==%kamen379%)
   wait 4s
   wecho Вдруг стена разделилась пополам и разъехалась в стороны, образовав проход на восток.
   wdoor 37940 east room 37966
-  wpurge %kamen379%
+  if %kamen379%
+    wpurge %kamen379%
+  end
 else
   wecho Куда вставить?
   halt
@@ -117,6 +127,9 @@ if !%arg.contains(камень)%
   halt
 end
 calcuid kamen379 37918 obj
+if !%kamen379%
+  halt
+end
 if %actor.eq(19)%==%kamen379%
   wecho Как?
   halt
@@ -136,7 +149,9 @@ if (%arg.contains(камень)%) && (%actor.eq(17)%==%kamen379%)
   wait 4s
   wecho Вдруг стена разделилась пополам и разъехалась в стороны, образовав проход на юг.
   wdoor 37966 south room 37949
-  wpurge %kamen379%
+  if %kamen379%
+    wpurge %kamen379%
+  end
 else
   wecho Куда вставить?
   halt
@@ -169,6 +184,9 @@ if !%arg.contains(камень)%
   halt
 end
 calcuid kamen379 37919 obj
+if !%kamen379%
+  halt
+end
 if %actor.eq(19)%==%kamen379%
   wecho Как?
   halt
@@ -188,7 +206,9 @@ if (%arg.contains(камень)%) && (%actor.eq(17)%==%kamen379%)
   wait 4s
   wecho Вдруг стена разделилась пополам и разъехалась в стороны, образовав проход на юг.
   wdoor 37949 south room 37913
-  wpurge %kamen379%
+  if %kamen379%
+    wpurge %kamen379%
+  end
 else
   wecho Куда вставить?
   halt
@@ -225,8 +245,8 @@ if (%exist.mob(37925)% || %exist.mob(37925)%)
   halt
 else
   mecho О, змеи всетаки были убиты. Здорово!
-  if ((%world.curobjs(3344)% < 1) && (%world.curobjs(3345)% < 1) && (%random.1000% < 100))
-    mload obj 3344
+  if ((%world.curobjs(3328)% < 1) && (%random.1000% < 100))
+    mload obj 3328
     mecho Вот, возьми. Мне она уже не потребуется.
     взд
     wait 1

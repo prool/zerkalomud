@@ -475,7 +475,9 @@ if (%arg.contains(рычаг)%)||(%arg.contains(рычажок)%)
   calcuid pqervi 38852 room
   exec 38825 %pqervi.id%
   calcuid j145skejvi 38828 mob
-  wpurge %j145skejvi%
+  if %j145skejvi%
+    wpurge %j145skejvi%
+  end
   calcuid sqervi 38819 room
   exec 38825 %sqervi.id%
   calcuid rqervi 38818 room
@@ -494,8 +496,9 @@ if (%arg.contains(рычаг)%)||(%arg.contains(рычажок)%)
   calcuid pqwervi 38870 room
   exec 38825 %pqwervi.id%
   calcuid j14skejvi 38827 mob
-  wpurge %j14skejvi%
-  
+  if %j14skejvi%
+    wpurge %j14skejvi%
+  end
   calcuid tqervi 38869 room
   exec 38825 %tqervi.id%
   calcuid yqervi 38868 room
@@ -528,12 +531,9 @@ done
 помер кащей~
 0 f 100
 ~
-if %world.curobjs(1254)% <1 &&  %world.curobjs(1291)% <1
-  if %world.curobjs(1255)% <1
-    if %random.100% < 3
-      mload obj 1254
-    end
-  end
+*лоад сундука с 20к . вероятность 30%
+if (%random.1000% < 301)
+  mload obj 38809
 end
 if (%world.curobjs(38819)% <1) && (%random.1000% <= 200)
   mload obj 38819
@@ -549,9 +549,6 @@ if (%world.curobjs(565)%==0) && (%random.1000% <= 160)
 end
 if (%world.curobjs(38822)% <2) && (%random.1000% <= 200)
   mload obj 38822
-end
-if (%world.curobjs(226)% <20) && (%random.1000% <= 200)
-  mload obj 226
 end
 ~
 #38827

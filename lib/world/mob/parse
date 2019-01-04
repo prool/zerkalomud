@@ -1,0 +1,2 @@
+#!/bin/sh
+pcregrep -f parse.set *.mob > 00sys_parse

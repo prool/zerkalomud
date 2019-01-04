@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #20200
 молодой князь русичь~
 молодой князь~
@@ -11,15 +10,13 @@
 ~
 Это высокий юноша с не по годам строгим задумчивым лицом.
 ~
-b0g0n0o0x0o2t2 c0d0e0k0C0r1t1x1y1z1 -600 E
+b0d0g0n0o0x0o2t2 c0d0e0k0C0r1t1x1y1z1 -600 E
 40 2 -5 0d0+8500 25d10+15
 0d0+1000 1000000
 8 8 1
 Saves: -70 0 0 0
 Resistances: 15 15 15 15 0 0 33
-HPreg: 0
 Armour: 65
-PlusMem: 0
 CastSuccess: 30
 Success: 10
 Initiative: 3
@@ -28,34 +25,33 @@ AResist: 5
 MResist: 5
 BareHandAttack: 6
 Str: 40
+Dex: 20
 Int: 37
 Wis: 37
-Dex: 20
 Con: 40
 Cha: 40
+Size: 50
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 30
 Weight: 150
+Special_Bitvector: b1c1 
 Feat: 35
-Special_Bitvector: b1c1
-Spell: 127
-Spell: 127
-Spell: 127
-Spell: 25
-Spell: 25
-Spell: 25
-Spell: 48
-Spell: 48
-Spell: 48
+Skill: 5 150
 Skill: 136 150
 Skill: 146 150
 Skill: 158 150
 Skill: 165 150
-Skill: 5 150
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 127
+Spell: 127
+Spell: 127
 Helper: 20201
 Helper: 20202
 Helper: 20204
@@ -73,58 +69,53 @@ T 20208
 ~
 Это пожилой мужчина с толстым брюшком и обрюзгшим лицом, но с ясным взглядом.
 ~
-b0g0n0o0o2t2 d0k0t1 -600 E
+b0d0g0n0o0o2t2 d0k0t1 -600 E
 35 5 -5 5d5+6000 16d14+8
 0d0+3000 700000
 8 8 1
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 40
-PlusMem: 0
 CastSuccess: 50
 Success: 5
 Initiative: 5
 Absorbe: 15
 AResist: 5
 MResist: 5
-BareHandAttack: 0
 Str: 30
+Dex: 15
 Int: 35
 Wis: 35
-Dex: 15
 Con: 29
 Cha: 40
+Size: 50
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 30
 Weight: 150
-Special_Bitvector: b1c1
-Spell: 111
-Spell: 111
-Spell: 111
-Spell: 111
-Spell: 111
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 82
-Spell: 82
-Spell: 82
-Spell: 82
-Spell: 82
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 88
+Special_Bitvector: b1c1 
 Skill: 132 100
 Skill: 136 133
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
 E
 #20202
 тысяцкий хмурый русичь~
@@ -138,15 +129,12 @@ E
 ~
 Этот человек на все имеет свое мнение, к которому нельзя ни прислушаться.
 ~
-b0g0n0o0o2t2 d0k0 -600 E
+b0d0g0n0o0o2t2 d0k0 -600 E
 37 5 -2 10d10+3200 12d15+25
 0d0+1000 400000
 8 8 1
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 90
-PlusMem: 0
 CastSuccess: 85
 Success: 5
 Initiative: 5
@@ -155,36 +143,35 @@ AResist: 5
 MResist: 5
 BareHandAttack: 3
 Str: 38
+Dex: 30
 Int: 34
 Wis: 34
-Dex: 30
 Con: 37
 Cha: 20
+Size: 50
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 30
 Weight: 150
-Special_Bitvector: b1c1
-Spell: 124
-Spell: 124
-Spell: 124
-Spell: 124
-Spell: 124
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
+Special_Bitvector: b1c1 
 Skill: 136 139
 Skill: 137 135
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
+Spell: 124
 Helper: 20206
 Helper: 20214
 Helper: 20216
@@ -201,7 +188,7 @@ E
 ~
 Седой муж с руками, спрятанными в широкие рукава.
 ~
-b0g0n0o0o2 c0d0e0k0A0C0m1q1r1t1 -600 E
+b0d0g0n0o0o2 c0d0e0k0A0C0m1q1r1t1 -600 E
 37 5 0 0d0+3500 13d14+10
 1d1+1300 420000
 8 8 1
@@ -211,26 +198,37 @@ HPreg: 55
 Armour: 30
 PlusMem: 50
 CastSuccess: 50
-Success: 0
-Initiative: 0
 Absorbe: 80
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 35
 Int: 38
 Wis: 40
-Dex: 11
 Con: 32
 Cha: 32
-LikeWork: 85
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 10
+LikeWork: 85
+Class: 102
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
+Skill: 136 100
+Skill: 166 130
+Skill: 179 130
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 58
+Spell: 58
+Spell: 58
+Spell: 58
+Spell: 58
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 86
+Spell: 86
+Spell: 86
 Spell: 113
 Spell: 113
 Spell: 113
@@ -270,25 +268,6 @@ Spell: 151
 Spell: 151
 Spell: 151
 Spell: 151
-Spell: 48
-Spell: 48
-Spell: 48
-Spell: 48
-Spell: 48
-Spell: 58
-Spell: 58
-Spell: 58
-Spell: 58
-Spell: 58
-Spell: 68
-Spell: 68
-Spell: 68
-Spell: 86
-Spell: 86
-Spell: 86
-Skill: 136 100
-Skill: 166 130
-Skill: 179 130
 E
 #20204
 боярин русичь~
@@ -302,54 +281,47 @@ E
 ~
 Длиннобородый муж в роскошных одеждах.
 ~
-b0g0n0o0o2 d0k0 -600 E
+b0d0g0n0o0o2 d0k0 -600 E
 37 5 -4 10d5+3500 13d13+50
 0d0+1000 400000
 8 8 1
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
 HPreg: 30
 Armour: 85
-PlusMem: 0
 CastSuccess: 70
 Success: 3
 Initiative: 3
 Absorbe: 85
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Destination: 20255
 Str: 32
+Dex: 23
 Int: 30
 Wis: 30
-Dex: 23
 Con: 26
 Cha: 30
-LikeWork: 75
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 75
+Class: 102
 Height: 30
 Weight: 150
-Special_Bitvector: b1c1
-Spell: 143
-Spell: 143
-Spell: 143
-Spell: 143
-Spell: 143
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Skill: 136 130
+Special_Bitvector: b1c1 
 Skill: 2 130
+Skill: 136 130
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
 E
 T 20226
 #20205
@@ -364,45 +336,35 @@ T 20226
 ~
 Старик в пыльном потертом кафтане и свяхкой ключей в руках.
 ~
-b0g0n0o0t0o2t2 c0d0e0f0k0n0m0z0 -600 E
+b0d0g0n0o0t0o2t2 c0d0e0f0k0m0n0z0 -600 E
 35 2 -5 1d1+3000 10d10+15
 0d0+0 350000
 8 8 1
 Saves: -20 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 50
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 50
-AResist: 0
-MResist: 0
 BareHandAttack: 5
 Str: 38
+Dex: 21
 Int: 18
 Wis: 18
-Dex: 21
 Con: 37
-Cha: 11
+Size: 10
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 111
-Spell: 111
-Spell: 111
-Spell: 48
-Spell: 48
-Spell: 48
+Special_Bitvector: b1c1 
 Skill: 136 130
 Skill: 150 130
 Skill: 157 130
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 111
+Spell: 111
+Spell: 111
 E
 T 20217
 T 20290
@@ -418,49 +380,41 @@ T 20290
 ~
 Высокий бородайтый воин с цепким взглядом.
 ~
-g0o0o2t2 d0k0t1 -600 E
+d0g0o0o2t2 d0k0t1 -600 E
 34 2 -7 0d0+3645 13d16+7
 0d0+190 400000
 8 8 1
 Saves: -20 -20 -20 -20
 Resistances: 5 5 5 5 5 5 5
-HPreg: 0
 Armour: 95
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 40
+Dex: 37
 Int: 17
 Wis: 13
-Dex: 37
 Con: 35
 Cha: 25
+Size: 10
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 15
-Spell: 15
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 67
-Spell: 67
-Spell: 67
-Spell: 67
-Spell: 67
+Special_Bitvector: b1c1 
 Skill: 132 135
 Skill: 136 135
 Skill: 146 135
+Spell: 15
+Spell: 15
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
 E
 T 20223
 #20207
@@ -475,48 +429,37 @@ T 20223
 ~
 Тщедушный молодой человек с чуть слезящимися глазами.
 ~
-b0g0n0o0o2 d0k0 -600 E
+b0d0g0n0o0o2 d0k0 -600 E
 34 9 -4 0d0+3000 11d10+13
 0d0+1000 300000
 8 8 1
 Saves: -10 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
 CastSuccess: 40
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 20
+Dex: 25
 Int: 30
 Wis: 30
-Dex: 25
 Con: 27
 Cha: 33
+Size: 10
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 88
+Special_Bitvector: b1c1 
 Skill: 134 100
 Skill: 136 100
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
 E
 T 20229
 T 20236
@@ -533,7 +476,7 @@ T 20236
 Широкая полуседая борода ниспадает на грудь, глаза зорко смотрят из под
 нависших темных бровей.
 ~
-b0g0n0o0 c0d0e0k0n0m0l1r1u1 -600 E
+b0d0g0n0o0u2 c0d0e0k0m0n0l1n1r1u1 -600 E
 40 4 -2 1d99+31000 5d5+8
 0d0+3000 666
 8 8 1
@@ -543,32 +486,25 @@ HPreg: 155
 Armour: 70
 PlusMem: 200
 CastSuccess: 100
-Success: 0
-Initiative: 0
 Absorbe: 50
 AResist: 5
 MResist: 5
-BareHandAttack: 0
 Str: 25
 Int: 38
 Wis: 38
-Dex: 11
-Con: 11
 Cha: 25
-LikeWork: 90
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 10
+LikeWork: 90
+Class: 102
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 48
-Spell: 48
-Spell: 48
-Spell: 48
-Spell: 48
+Special_Bitvector: b1c1 
 Skill: 136 70
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
 E
 T 20209
 T 20206
@@ -584,53 +520,40 @@ T 20206
 ~
 Худая изможденная фигура, с тонкими руками, будто что-то прячущими в рукавах.
 ~
-g0o0o2 k0A0 -600 E
+d0g0o0o2 k0A0 -600 E
 30 7 0 0d0+2600 12d9+15
 0d0+22 260000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 18
+Dex: 15
 Int: 20
 Wis: 20
-Dex: 15
 Con: 22
 Cha: 16
+Size: 10
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 147
-Spell: 147
-Spell: 147
-Spell: 147
-Spell: 147
-Spell: 6
-Spell: 6
-Spell: 6
-Spell: 6
-Spell: 6
-Spell: 6
-Spell: 6
-Spell: 6
-Spell: 6
-Spell: 6
-Skill: 136 100
+Special_Bitvector: b1c1 
 Skill: 1 100
+Skill: 136 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 147
+Spell: 147
+Spell: 147
+Spell: 147
+Spell: 147
 E
 #20210
 нищий голодранец русичь~
@@ -645,46 +568,36 @@ E
 Грязные спутанные волосы сплетены в косицу на затылке, дурой запах, идущий
 от него бьет в нос.
 ~
-c0g0o0A0o2 k0m1 -600 E
+c0d0g0o0A0o2 k0m1 -600 E
 29 5 -5 0d0+2100 13d10+15
 0d0+11 210000
 8 8 1
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 70
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 70
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 20
+Dex: 23
 Int: 17
 Wis: 18
-Dex: 23
 Con: 15
 Cha: 20
+Size: 10
 LikeWork: 55
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 38
-Spell: 38
-Spell: 38
+Special_Bitvector: b1c1 
 Skill: 136 120
 Skill: 160 120
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
 E
 #20211
 мародер русичь~
@@ -698,46 +611,39 @@ E
 ~
 Плечистый, но худой мужик с злющими глазами.
 ~
-b0g0o0o2 b0k0 -600 E
+b0d0g0o0o2 b0k0 -600 E
 32 4 -4 0d0+2990 12d13+22
 0d0+444 300000
 8 8 1
 Saves: -90 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 90
-PlusMem: 0
 CastSuccess: 80
-Success: 0
-Initiative: 0
 Absorbe: 90
 AResist: 5
 MResist: 5
-BareHandAttack: 0
 Str: 30
+Dex: 27
 Int: 18
 Wis: 17
-Dex: 27
 Con: 27
 Cha: 22
+Size: 10
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: a1b1c1
-Spell: 83
-Spell: 83
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 56
+Special_Bitvector: a1b1c1 
 Skill: 136 110
 Skill: 139 110
+Spell: 56
+Spell: 83
+Spell: 83
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
 E
 T 20228
 #20212
@@ -752,54 +658,44 @@ T 20228
 ~
 Худющий мужик в лохмотьях и с голодными глазами.
 ~
-c0g0o0A0o2 k0A0 -600 E
+c0d0g0o0A0o2 k0A0 -600 E
 29 5 -5 0d0+2100 11d12+10
 0d0+5 210000
 8 8 1
 Saves: -40 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 70
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 18
+Dex: 24
 Int: 15
 Wis: 12
-Dex: 24
 Con: 20
 Cha: 14
+Size: 10
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 83
-Spell: 83
-Spell: 83
-Spell: 83
-Spell: 83
+Special_Bitvector: b1c1 
 Skill: 136 125
 Skill: 150 100
 Skill: 160 110
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 83
 E
 #20213
 клыкастый пес русичь~
@@ -814,109 +710,90 @@ E
 Впалые бока покрыты грязной короткой шерстью, ребра можно хоть 
 пересчитывать.
 ~
-f0g0o0t2 k0A0 -600 E
+d0f0g0o0t2 k0A0 -600 E
 29 7 -6 0d0+2000 15d15+9
 0d0+0 200000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 27
-Int: 11
-Wis: 11
 Dex: 18
 Con: 26
 Cha: 15
-LikeWork: 50
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 10
+LikeWork: 50
+Class: 103
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 131
+Special_Bitvector: b1c1 
 Skill: 136 100
+Spell: 131
 E
 #20214
  суровый стражник русичь~
 суровый стражник~
 сурового стражника~
 суровому стражнику~
-суровый стражник~
+сурового стражника~
 суровым стражником~
 суровом стражнике~
 Суровый стражник внимательно смотрит по сторонам.
 ~
 Рослый статный воин в кольчужной рубахе и блестящем шеломце.
 ~
-b0g0o0o2t2 d0k0t1 -600 E
+b0d0g0o0o2t2 d0k0t1 -600 E
 34 2 -7 1d1+3500 14d14+20
 0d0+500 400000
 8 8 1
 Saves: -20 -20 -20 -20
 Resistances: 10 10 10 10 10 10 10
-HPreg: 0
 Armour: 90
-PlusMem: 0
 CastSuccess: 30
-Success: 0
-Initiative: 0
 Absorbe: 90
 AResist: 5
 MResist: 5
 BareHandAttack: 3
 Str: 40
+Dex: 36
 Int: 26
 Wis: 28
-Dex: 36
 Con: 37
 Cha: 27
+Size: 10
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
+Special_Bitvector: b1c1 
 Skill: 136 140
 Skill: 137 100
 Skill: 146 140
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
 E
 T 20201
 T 20223
@@ -932,40 +809,34 @@ T 20223
 ~
 Плечистый здоровенный воин с осунувшимся лицом от недосыпания и недоедания.
 ~
-b0g0o0o2t2 k0t1 -600 E
+b0d0g0o0o2t2 k0t1 -600 E
 34 2 -7 1d1+3700 13d13+25
 0d0+250 400000
 8 8 1
 Saves: -25 -25 -28 -25
 Resistances: 15 15 15 15 15 15 15
-HPreg: 0
 Armour: 95
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 95
 AResist: 5
 MResist: 5
 BareHandAttack: 3
 Str: 40
+Dex: 40
 Int: 18
 Wis: 18
-Dex: 40
 Con: 40
 Cha: 29
+Size: 10
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 144
-Spell: 48
+Special_Bitvector: b1c1 
 Skill: 132 100
 Skill: 136 125
+Spell: 48
+Spell: 144
 E
 #20216
 молодой дружинник русичь~
@@ -979,98 +850,85 @@ E
 ~
 Высокий молодец.
 ~
-b0g0o0o2t2 d0k0t1 -600 E
+b0d0g0o0o2t2 d0k0t1 -600 E
 34 2 -7 0d0+3600 14d15+15
 0d0+350 400000
 8 8 1
 Saves: -18 -18 -18 -18
 Resistances: 16 16 16 16 16 16 16
-HPreg: 0
 Armour: 95
-PlusMem: 0
 CastSuccess: 50
-Success: 0
 Initiative: 30
 Absorbe: 95
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 37
+Dex: 37
 Int: 14
 Wis: 14
-Dex: 37
 Con: 36
 Cha: 28
+Size: 10
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 153
-Spell: 153
-Spell: 153
+Special_Bitvector: b1c1 
 Skill: 136 110
 Skill: 150 110
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 153
+Spell: 153
+Spell: 153
 E
 T 20223
 #20217
 тщедушный монах русичь~
 тщедушный монах~
 тщедушного монаха~
+тщедушному монаху~
 тщедушного монаха~
-тщедушного монаха~
-тщедушного монаха~
-тщедушного монаха~
+тщедушным монахом~
+тщедушном монахе~
 Тщедушный монах идет по своим делам.
 ~
 Тощий мужичок, утопающий в широкой поношенной рясе.
 ~
-g0n0o0o2t2 d0k0n0m0 -600 E
+d0g0n0o0o2t2 d0k0m0n0 -600 E
 31 10 0 0d0+2600 10d10+5
 0d0+350 260000
 8 8 1
 Saves: -35 0 0 0
 Resistances: -40 50 50 50 35 35 35
-HPreg: 0
 Armour: 95
 PlusMem: 50
 CastSuccess: 35
-Success: 0
-Initiative: 0
 Absorbe: 90
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Destination: 20239
 Destination: 20241
 Destination: 20242
 Str: 18
+Dex: 18
 Int: 35
 Wis: 35
-Dex: 18
 Con: 21
 Cha: 23
+Size: 10
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
+Skill: 136 120
 Spell: 28
 Spell: 56
 Spell: 56
 Spell: 56
-Skill: 136 120
 E
 #20218
 дьяк русичь~
@@ -1084,39 +942,38 @@ E
 ~
 Пожелой человек с сутулыми плечами и впавшей грудью.
 ~
-g0n0o0o2t2 d0k0n0m0 -600 E
+d0g0n0o0o2t2 d0k0m0n0 -600 E
 34 10 -1 0d0+2999 10d10+5
 0d0+1111 350000
 8 8 1
 Saves: -50 0 0 0
 Resistances: -60 45 45 45 40 40 40
-HPreg: 0
 Armour: 98
-PlusMem: 0
 CastSuccess: 50
 Success: 3
 Initiative: 3
 Absorbe: 95
 AResist: 5
 MResist: 5
-BareHandAttack: 0
 Destination: 20241
 Destination: 20239
 Destination: 20242
 Str: 26
+Dex: 26
 Int: 38
 Wis: 38
-Dex: 26
 Con: 26
 Cha: 27
+Size: 10
 LikeWork: 65
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
+Skill: 136 110
+Skill: 141 110
+Skill: 151 110
 Spell: 28
 Spell: 28
 Spell: 28
@@ -1128,9 +985,6 @@ Spell: 40
 Spell: 86
 Spell: 86
 Spell: 94
-Skill: 136 110
-Skill: 141 110
-Skill: 151 110
 Helper: 20217
 E
 #20219
@@ -1145,47 +999,41 @@ E
 ~
 Здоровенный воин с огромным мечом в руке.
 ~
-b0g0n0o0o2t2 d0k0n0t1 -600 E
+b0d0g0n0o0o2t2 d0k0n0t1 -600 E
 34 2 -7 0d0+3600 14d14+20
 0d0+350 370000
 8 8 1
 Saves: -26 -26 -26 -26
 Resistances: 19 19 19 19 22 22 22
-HPreg: 0
 Armour: 90
-PlusMem: 0
-CastSuccess: 0
 Success: 30
 Initiative: 3
 Absorbe: 95
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 40
+Dex: 40
 Int: 26
 Wis: 26
-Dex: 40
 Con: 37
 Cha: 30
+Size: 10
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 15
-Spell: 15
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 26
+Special_Bitvector: b1c1 
 Skill: 132 125
 Skill: 136 125
 Skill: 137 125
 Skill: 146 125
+Spell: 15
+Spell: 15
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
 E
 T 20223
 #20220
@@ -1200,49 +1048,39 @@ T 20223
 ~
 Худенькая молодая девушка.
 ~
-g0n0o0o2t2 c0d0e0k0m1 -600 E
+d0g0n0o0o2t2 c0d0e0k0m1 -600 E
 31 6 -5 0d0+2900 11d11+25
 0d0+500 320000
 8 8 2
 Saves: -40 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 90
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 90
-AResist: 0
-MResist: 0
 BareHandAttack: 8
 Destination: 20247
 Destination: 20248
 Destination: 20246
 Destination: 20258
 Str: 25
+Dex: 37
 Int: 33
 Wis: 33
-Dex: 37
 Con: 35
 Cha: 40
-LikeWork: 65
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 10
+LikeWork: 65
+Class: 102
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 112
+Special_Bitvector: b1c1 
+Skill: 136 99
+Skill: 160 105
+Skill: 166 99
 Spell: 47
 Spell: 48
 Spell: 48
 Spell: 53
 Spell: 96
-Skill: 136 99
-Skill: 160 105
-Skill: 166 99
+Spell: 112
 Helper: 20221
 E
 T 20227
@@ -1258,44 +1096,34 @@ T 20227
 ~
 Молодой парень.
 ~
-g0o0o2 d0k0 -600 E
+d0g0o0o2 d0k0 -600 E
 30 7 -3 0d0+2700 13d12+25
 0d0+50 270000
 8 8 1
 Saves: -15 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Destination: 20245
 Destination: 20246
 Destination: 20247
 Destination: 20248
 Str: 33
+Dex: 33
 Int: 22
 Wis: 22
-Dex: 33
 Con: 33
 Cha: 24
+Size: 10
 LikeWork: 60
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 111
-Spell: 66
+Special_Bitvector: b1c1 
 Skill: 136 95
 Skill: 137 100
+Spell: 66
+Spell: 111
 E
 #20222
 худой горожанин русичь~
@@ -1309,42 +1137,30 @@ E
 ~
 Этот человек уже давно не доедает и на чем до сих держится не понятно.
 ~
-g0o0o2 k0A0 -600 E
+d0g0o0o2 k0A0 -600 E
 30 0 0 0d0+2600 12d12+25
 0d0+45 260000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 26
+Dex: 28
 Int: 18
 Wis: 15
-Dex: 28
 Con: 26
 Cha: 16
+Size: 10
 LikeWork: 55
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: c1d1
+Special_Bitvector: c1d1 
+Skill: 1 100
+Skill: 136 95
 Spell: 26
 Spell: 26
 Spell: 26
 Spell: 28
-Skill: 1 100
-Skill: 136 95
 E
 #20223
 изможденная женщина русичь~
@@ -1358,39 +1174,26 @@ E
 ~
 Это худая как тростинка женщина с впалыми щеками на бледном лице.
 ~
-g0o0o2 k0A0 -600 E
+d0g0o0o2 k0A0 -600 E
 30 10 0 0d0+2500 10d10+30
 0d0+5 250000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 17
+Dex: 22
 Int: 21
 Wis: 17
-Dex: 22
 Con: 28
 Cha: 17
-LikeWork: 55
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 10
+LikeWork: 55
+Class: 102
 Height: 30
 Weight: 50
-Special_Bitvector: c1d1
+Special_Bitvector: c1d1 
+Skill: 136 90
 Spell: 28
 Spell: 66
-Skill: 136 90
 E
 #20224
 церковный смотритель русичь~
@@ -1405,65 +1208,61 @@ E
 Высокий человек в черной рясе со связкой кючей на поясе и с дубиной, 
 заткнутой за него же.
 ~
-g0n0o0o2t2 d0k0r1 -600 E
+d0g0n0o0o2t2 d0k0r1 -600 E
 32 4 -6 0d0+3000 12d13+25
 0d0+300 350000
 8 8 1
 Saves: -40 0 0 0
 Resistances: -40 26 26 26 25 25 25
-HPreg: 0
 Armour: 90
-PlusMem: 0
 CastSuccess: 40
 Success: 2
 Initiative: 2
 Absorbe: 90
 AResist: 5
 MResist: 5
-BareHandAttack: 0
 Destination: 20260
 Destination: 20261
 Destination: 20262
 Destination: 20263
 Str: 34
+Dex: 35
 Int: 23
 Wis: 26
-Dex: 35
 Con: 37
 Cha: 26
+Size: 10
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 25
-Spell: 25
-Spell: 25
-Spell: 25
-Spell: 25
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 98
-Spell: 98
-Spell: 98
+Special_Bitvector: b1c1 
 Skill: 132 120
 Skill: 136 120
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
 Helper: 20217
 E
 T 20225
@@ -1479,69 +1278,65 @@ T 20225
 ~
 Толстый мужичек с сальными прилизанными волосами в поношенной рясе.
 ~
-g0n0o0o2t2 d0h0k0t1 -600 E
+d0g0n0o0o2t2 d0h0k0t1 -600 E
 33 4 -3 10d20+3100 12d16+20
 0d0+1250 380000
 8 8 1
 Saves: -65 0 0 -50
 Resistances: -80 95 95 95 88 88 88
-HPreg: 0
 Armour: 95
 PlusMem: 55
 CastSuccess: 55
-Success: 0
-Initiative: 0
 Absorbe: 93
 AResist: 5
 MResist: 5
 BareHandAttack: 6
 Str: 35
+Dex: 25
 Int: 18
 Wis: 18
-Dex: 25
 Con: 41
 Cha: 18
+Size: 10
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 130
-Spell: 130
-Spell: 130
-Spell: 130
-Spell: 130
-Spell: 130
-Spell: 130
-Spell: 130
-Spell: 130
-Spell: 130
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 68
-Spell: 68
-Spell: 68
-Spell: 68
-Spell: 68
+Special_Bitvector: b1c1 
 Skill: 1 130
-Skill: 136 130
 Skill: 4 130
+Skill: 136 130
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
 E
 #20226
 узник~
@@ -1556,36 +1351,23 @@ E
 Измученный костлявый человек с лицом, похожим на обтянутый грязной кожей 
 череп.
 ~
-b0g0n0o0q2 d0k0C0 -600 E
+b0d0g0n0o0q2 d0k0C0 -600 E
 30 5 -5 1d1+2500 9d15+15
 0d0+0 250000
 6 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 24
+Dex: 24
 Int: 23
 Wis: 19
-Dex: 24
 Con: 26
 Cha: 18
+Size: 10
 LikeWork: 65
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: a1b1c1
+Special_Bitvector: b1c1 
 Skill: 136 125
 Skill: 139 125
 Skill: 157 125
@@ -1596,46 +1378,38 @@ T 20233
 тщедушный монах русичь~
 тщедушный монах~
 тщедушного монаха~
+тщедушному монаху~
 тщедушного монаха~
-тщедушного монаха~
-тщедушного монаха~
-тщедушного монаха~
+тщедушным монахом~
+тщедушном монахе~
 Тщедушный монах идет по своим делам.
 ~
 Тощий мужичок, утопающий в широкой поношенной рясе.
 ~
-b0g0n0o0o2t2 d0h0k0n0m0 -600 E
+b0d0g0n0o0o2t2 d0h0k0m0n0 -600 E
 32 5 -5 10d10+2999 10d20+5
 0d0+155 300000
 8 8 1
 Saves: -50 0 0 0
 Resistances: -40 50 50 50 40 40 40
-HPreg: 0
 Armour: 98
-PlusMem: 0
 CastSuccess: 98
-Success: 0
-Initiative: 0
 Absorbe: 90
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 18
+Dex: 18
 Int: 35
 Wis: 35
-Dex: 18
 Con: 21
 Cha: 23
+Size: 10
 LikeWork: 65
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 111
-Spell: 150
+Special_Bitvector: b1c1 
+Skill: 136 125
+Skill: 157 125
 Spell: 48
 Spell: 55
 Spell: 55
@@ -1643,8 +1417,8 @@ Spell: 55
 Spell: 82
 Spell: 88
 Spell: 93
-Skill: 136 125
-Skill: 157 125
+Spell: 111
+Spell: 150
 E
 T 20230
 #20228
@@ -1659,64 +1433,54 @@ T 20230
 ~
 Уже не молодой охотник, сжимающий золоченый составной лук.
 ~
-b0g0o0o2t2 d0k0t1 -600 E
+b0d0g0o0o2t2 d0k0t1 -600 E
 34 2 -7 1d1+3500 14d14+20
 0d0+500 450000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 100
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 100
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 40
+Dex: 35
 Int: 19
 Wis: 21
-Dex: 35
 Con: 37
 Cha: 26
+Size: 10
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 3
 Class: 102
-Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 15
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
+Special_Bitvector: b1c1 
 Skill: 136 120
 Skill: 154 120
 Skill: 155 120
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
 E
 #20229
 архидьякон~
@@ -1730,44 +1494,31 @@ E
 ~
 Еле живой старик.
 ~
-b0g0n0o0j2 c0d0e0k0n0m0l1r1u1 -600 E
+b0d0g0n0o0j2 c0d0e0k0m0n0l1r1u1 -600 E
 40 4 -2 1d1+99 5d5+8
 0d0+3000 666
 1 1 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 90
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 90
 AResist: 5
 MResist: 5
-BareHandAttack: 0
 Str: 25
 Int: 38
 Wis: 38
-Dex: 11
-Con: 11
 Cha: 25
-LikeWork: 90
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 10
+LikeWork: 90
+Class: 102
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 48
-Spell: 48
-Spell: 48
-Spell: 48
-Spell: 48
+Special_Bitvector: b1c1 
 Skill: 136 70
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
 Helper: 20218
 E
 T 20235
-$
 $

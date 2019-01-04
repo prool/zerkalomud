@@ -335,9 +335,6 @@ say с помощью него я смогу тебе помочь выбраться отсюда.
 if (%world.curobjs(61122)% < 1) 
   mload obj 61122
 end
-if (%world.curobjs(1205)% < 1) && (%random.100% <= 3)
-  mload obj 1205
-end
 ~
 #61118
 все готовы~

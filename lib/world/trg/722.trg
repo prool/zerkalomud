@@ -304,9 +304,6 @@ if %random.100% <= 10
   mload obj 72210
 end
 mload obj 72254
-if (%world.curobjs(230)% < 50) && (%random.100% <= 20)
-  mload obj 230
-end
 ~
 #72215
 смерть каменной змеи~
@@ -351,8 +348,8 @@ elseif %rnd% < 18
 else
   wload obj 72210
 end
-if %world.curobjs(3340)% < 1 & %world.curobjs(3341)% < 1 & %random.100% < 6
-  wload obj 3340
+if ((%world.curobjs(3326)% < 1) && (%random.100% < 6))
+  wload obj 3326
 end
 detach 72216 %self.id%
 ~

@@ -170,7 +170,7 @@ end
 0 f 100
 ~
 if (%random.3% == 1)
-  msend %actor.iname% Вы увидели, как погибая, скелет выронил кусок застывшей лавы.
+  msend %actor.iname% Вы увидели, как, погибая, скелет выронил кусок застывшей лавы.
   mechoaround %actor.iname% %actor.iname% сильнейшим ударом расколол%actor.g% кости этой твари. 
   mload obj 61919
 end

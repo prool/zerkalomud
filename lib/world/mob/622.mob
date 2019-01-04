@@ -688,11 +688,11 @@ Skill: 143 100
 Skill: 150 100
 Spell: 93
 Spell: 131
-Helper: 62245
-Helper: 62241
-Helper: 62235
-Helper: 62217
 Helper: 62216
+Helper: 62217
+Helper: 62235
+Helper: 62241
+Helper: 62245
 E
 T 62206
 T 62228
@@ -772,7 +772,7 @@ E
 ему сходство с лисицей.
 ~
 b0c0d0f0g0l0m0n0o0x0A0 d0f0r0 -600 E
-25 -1 -6 10d20+950 6d7+5
+25 -2 -6 10d20+950 6d7+5
 10d25+20 128677
 8 8 1
 Str: 26
@@ -782,13 +782,13 @@ Wis: 20
 Con: 18
 Cha: 14
 Size: 50
-LikeWork: 99
+LikeWork: 70
 ExtraAttack: 1
 Class: 102
 Height: 30
 Weight: 150
 Special_Bitvector: 0 
-Skill: 5 80
+Skill: 5 100
 Skill: 132 100
 Skill: 136 75
 Skill: 137 100
@@ -921,7 +921,7 @@ c0d0f0g0l0m0n0o0p0x0A0 d0f0h0r0A0 -600 E
 24 7 -4 8d9+880 5d5+10
 15d22+0 92999
 8 8 1
-CastSuccess: 40
+CastSuccess: 50
 Destination: 62252
 Destination: 62249
 Str: 18
@@ -964,8 +964,8 @@ Spell: 79
 Spell: 88
 Spell: 104
 Spell: 104
-Helper: 62220
 Helper: 62211
+Helper: 62220
 E
 #62222
 кормщик Пиг молодой~
@@ -1400,9 +1400,10 @@ E
 не убивал сдавшегося врага.
 ~
 b0c0d0g0l0m0n0o0p0u0A0 d0k0c1 -600 E
-25 5 -5 8d6+950 5d5+10
+25 0 -5 8d6+950 5d5+10
 20d7+0 78585
 8 8 1
+CastSuccess: 30
 Str: 20
 Dex: 18
 Int: 25
@@ -1512,8 +1513,8 @@ Skill: 157 50
 Spell: 37
 Spell: 37
 Spell: 37
-Helper: 62240
 Helper: 62225
+Helper: 62240
 E
 #62236
 караульный урманин викинг Торфи~
@@ -1733,8 +1734,8 @@ Skill: 151 80
 Spell: 8
 Spell: 8
 Spell: 8
-Helper: 62218
 Helper: 62247
+Helper: 62218
 E
 #62242
 кормщик Рауд~
@@ -2357,8 +2358,8 @@ Spell: 111
 Spell: 137
 Spell: 137
 Spell: 137
-Helper: 62256
 Helper: 62258
+Helper: 62256
 E
 #62258
 ирландец сельви~
@@ -2503,8 +2504,8 @@ Spell: 79
 Spell: 104
 Spell: 104
 Spell: 104
-Helper: 62259
 Helper: 62261
+Helper: 62259
 E
 #62261
 викинг Хиди~

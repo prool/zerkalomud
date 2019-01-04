@@ -38,7 +38,6 @@ wdoor 12202 e purge
 wdoor 12202 e room 12203
 wdoor 12203 w purge
 wdoor 12203 w room 12202
-wat 12203 wload obj 12204
 detach 12200 %self.id%
 ~
 #12201
@@ -49,6 +48,7 @@ return 0
 if %actor.id% != %questor122.id%
   halt
 end
+wsend %actor% Улеглись вы на ложе богатырское, и дела вам нет, чей сей терем, да кто тут поживает...
 wait 1
 wecho Крепким сном тут спится - богатырским...
 wait 3s

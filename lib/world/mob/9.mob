@@ -384,7 +384,7 @@ BareHandAttack: 1
 Str: 24
 Dex: 20
 Int: 24
-Wis: 24
+Wis: 29
 Con: 20
 Cha: 7
 Size: 55
@@ -438,7 +438,7 @@ BareHandAttack: 2
 Str: 22
 Dex: 22
 Int: 24
-Wis: 24
+Wis: 30
 Con: 22
 Cha: 12
 Size: 50

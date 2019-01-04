@@ -59,6 +59,11 @@ if %actor.iname% == переплут
   дать пенек переплут
   halt
 end
+if %actor.iname% == коляда
+  mload obj 1144
+  дать лапти коляда
+  halt
+end
 if %actor.level% > 30
   say Господь Бог, %actor.iname%, не чуди, для чего тебе это ???
   halt
@@ -96,6 +101,10 @@ elseif (%actor.class% == 3)
   mload obj 1106
   mload obj 1107
   mload obj 1108
+  mload obj 1117
+  mload obj 1125
+  mload obj 1123
+  mload obj 1124
   дать меч %actor.name%
   дать топор %actor.name%
   дать нож %actor.name%
@@ -104,6 +113,9 @@ elseif (%actor.class% == 3)
   дать булава %actor.name%
   дать двуручник %actor.name%
   дать копье %actor.name%
+  дать секир %actor.name%
+  дать алеб %actor.name%
+  дать молот %actor.name%
   mload obj 1116
   mload obj 1109
   mload obj 1126
@@ -140,7 +152,7 @@ elseif (%actor.class% == 5)
   дать нож %actor.name%
   дать кинжал %actor.name%
   дать крюк %actor.name%
-  дать булава %actor.name%
+  дать дубин %actor.name%
   mload obj 1109
   дать доспех %actor.name%
   mload obj 1118
@@ -157,7 +169,9 @@ elseif (%actor.class% == 9)
   mload obj 1105
   mload obj 1107
   mload obj 1108
-  дать булав %actor.iname%
+  mload obj 1123
+  mload obj 1124
+  дать дубин %actor.iname%
   дать меч %actor.name%
   дать топор %actor.name%
   дать нож %actor.name%
@@ -165,6 +179,8 @@ elseif (%actor.class% == 9)
   дать крюк %actor.name%
   дать двуручник %actor.name%
   дать копье %actor.name%
+  дать молот %actor.name%
+  дать булав %actor.name%
   mload obj 1109
   дать доспех %actor.name%
   mload obj 1118
@@ -175,6 +191,8 @@ elseif (%actor.class% == 10)
   say Ты охотник, это оружие для тебя.
   mload obj 1102
   дать лук %actor.name%
+  mload obj 1142
+  дать самостр %actor.name%
   mload obj 1100
   mload obj 1101
   mload obj 1103
@@ -186,7 +204,7 @@ elseif (%actor.class% == 10)
   дать нож %actor.name%
   дать кинжал %actor.name%
   дать крюк %actor.name%
-  дать булава %actor.name%
+  дать дубин %actor.name%
   mload obj 1109
   дать доспех %actor.name%
   mload obj 1118
@@ -203,6 +221,9 @@ elseif (%actor.class% == 11)
   mload obj 1106
   mload obj 1107
   mload obj 1108
+  mload obj 1125
+  mload obj 1123
+  mload obj 1124
   дать меч %actor.name%
   дать топор %actor.name%
   дать нож %actor.name%
@@ -211,9 +232,14 @@ elseif (%actor.class% == 11)
   дать булава %actor.name%
   дать двуручник %actor.name%
   дать копье %actor.name%
+  дать алеб %actor.name%
+  дать молот %actor.name%
+  дать дубин %actor.name%
   mload obj 1117
   дать секир %actor.iname%
-  шепт %actor.iname% Секира  - была сделана специально для любителей оглушить противника. Используй ее с умом.
+  шепт %actor.iname% Секира тяжелее топора, но легче алебарды.
+  шепт %actor.iname% Молот тяжелее дубинки, но легче булавы.
+  шепт %actor.iname% Эти оружия были сделаны специально для любителей оглушить противника.
   mload obj 1109
   дать доспех %actor.name%
   mload obj 1118
@@ -234,11 +260,11 @@ elseif (%actor.class% == 12)
   mload obj 1104
   mload obj 1104
   mload obj 1104
+  дать дубин %actor.iname%
   дать булав %actor.iname%
   дать нож %actor.name%
-  дать кинжал %actor.name%
   шепт %actor.iname% Турнирный кинжал специально для метания имеет обтекаемые формы. Используй это с умом.
-  дать кинжал %actor.name%
+  дать все.кинжал %actor.name%
   дать крюк %actor.name%
   дать копье %actor.name%
   mload obj 1109
@@ -253,6 +279,7 @@ else
   mload obj 1112
   дать посох .%actor.iname%
   дать плащ .%actor.iname%
+  дать лук .%actor.iname%
 end
 wait 1
 say Удачи, тебе, %actor.iname%
@@ -467,7 +494,7 @@ end
 if %actor.level% > 30
   halt
 end
-if %actor.class% != 12
+if ((%actor.class% != 12) && (%actor.class% != 6))
   halt
 end
 wait 1s
@@ -746,6 +773,11 @@ log &r %actor% призвал %arg% на Арену!
 Выдача турнирных рун~
 0 d 1
 дай руны~
+wait 1
+if ((%actor.class% != 13) && (%actor.level% < 31))
+  say Тебе оно без надобности.
+  halt
+end
 set text дай руны
 if %speech% != %text%
   say Ты сперва реши, что тебе надобно, а потом уже меня тревожь!
@@ -1020,7 +1052,7 @@ say My trigger commandlist is not complete!
 %self.gold(-8000)%
 ~
 #1160
-креш триг :)~
+триг на пеньке (исполнение команд)~
 1 c 1
 триг~
 wait 1
@@ -1037,7 +1069,8 @@ mforce %actor.name% say Слезами горю не поможешь, а вдруг с ним все в порядке.
 тест Руевита~
 2 c 100
 поехали~
-wecho %world.curobjs(200)%
+eval dam %actor.maxhitp% / 10
+%echo% %dam%
 ~
 #1180
 непускаем волхваря~
@@ -1048,7 +1081,7 @@ osend %actor% фик
 ~
 #1181
 Памятник~
-1 bz 100
+1 bz 20
 ~
 wait 1
 switch %random.12%
@@ -1137,18 +1170,42 @@ done
 ~
 #1183
 ёлка мигает огоньками.~
-1 b 8
+0 b 5
 ~
 wait 1
-switch %random.3%
+switch %random.10%
   case 1
-    oecho &GНовогодняя ёлка&n весело подмигнула Вам &Rкрасным&n огоньком гирлянд.
+    mecho &GНовогодняя ёлка &nвесело подмигнула Вам &Rкрасным &nогоньком гирлянд.
   break
   case 2
-    oecho &GНовогодняя ёлка&n весело подмигнула Вам &Gзелёным&n огоньком гирлянд.
+    mecho &GНовогодняя ёлка &nвесело подмигнула Вам &Gзелёным &nогоньком гирлянд.
   break
   case 3
-    oecho &GНовогодняя ёлка&n весело подмигнула Вам &Cголубым&n огоньком гирлянд.
+    mecho &GНовогодняя ёлка &nвесело подмигнула Вам &Cголубым &nогоньком гирлянд.
+  break
+  case 4
+    say &WНовый год приходит к нам - все расселись по домам. Дед мороз спешит с мешком - не забудет ни о ком!&n
+  break
+  case 5
+    say йо ! йа йолко ! с зелеными иголко ! тыц-тыц !
+  break
+  case 6
+    say &WПраздник странный Новый год - С ночи до утра идет. А потом - весь пол в иголках И поваленная елка!&n
+  break
+  case 7
+    say &Wнооооооооооовыыыыыыыый год к нам мчится! скоро все случится )) рипнутся все кому неспится!&n
+  break
+  case 8
+    mecho &GНовогодняя ёлка&n весело подмигнула Вам &Yжелтым &nогоньком гирлянд.
+  break
+  case 9
+    mecho &GНовогодняя ёлка&n весело подмигнула Вам &Bсиним &nогоньком гирлянд.
+  break
+  case 10
+    mecho &GНовогодняя ёлка&n весело подмигнула Вам &Mфиолетовым &nогоньком гирлянд.
+  break
+  case 11
+    mecho &GНовогодняя ёлка&n весело подмигнула Вам &Wбелым &nогоньком гирлянд.
   break
 done
 ~
@@ -1397,7 +1454,7 @@ elseif %actor.name% == квасир
   if %world.curobjs(1159)% < 1
     mload obj 1159
   end
-elseif %actor.name% == Авось
+elseif %actor.name% == Ньерд
   if %world.curobjs(1048)% < 1
     mload obj 1048
   end

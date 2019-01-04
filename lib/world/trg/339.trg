@@ -513,7 +513,7 @@ else
   switch %actor.class%
     *лекарь
     case 0
-      if (!%actor.spelltype(изгнать зло)%) & (%actor.level%>=10)
+      if (!%actor.spelltype(изгнать зло)%) && (%actor.level%>=10)
         mspellturn %actor.name% изгнать.зло set
         say О, %actor.name%. Познай заклинание изгнать зло!
       else
@@ -529,7 +529,7 @@ else
     break
     *тать
     case 2
-      if (!%actor.skill(подкрасться)%) & (%actor.level%>9)
+      if (!%actor.skill(подкрасться)%) && (%actor.level%>9)
         mskillturn %actor.name% подкрасться set
         say Вот знай теперь, как подкрадываться, %actor.name%.
       else
@@ -586,7 +586,7 @@ else
       break
       *Волшебники!
       case 7
-        if (!%actor.spelltype(защитник)%) & (%actor.level%>=14)
+        if (!%actor.spelltype(защитник)%) && (%actor.level%>=14)
           mspellturn %actor.name% защитник set
           say О, %actor.name%. Теперь ты сможешь призывать защитника!
         else
@@ -595,7 +595,8 @@ else
       break
       *чернок
       case 8
-        if (!%actor.spelltype(увеличить жизнь)%) & (%actor.level%>=13)
+        eval lev8 13-%actor.remort%/3
+        if (!%actor.spelltype(увеличить жизнь)%) && (%actor.level% >= %lev8%)
           mspellturn %actor.name% увеличить.жизнь set
           say О, %actor.name%. Теперь ты будешь знать увеличение жизни!
         else
@@ -634,7 +635,7 @@ else
       break
       *купец
       case 12
-        if (!%actor.spelltype(починка)%) & (%actor.level%>=25)
+        if (!%actor.spelltype(починка)%) && (%actor.level%>=25)
           mspellturn %actor.name% починка set
           say Вот знай теперь магическую починку, %actor.name%.
         else
@@ -845,7 +846,7 @@ if (%direction% == south) && %actor.haveobj(38105)% && !%actor.quested(33904)%
   mkill %actor%
   halt
 end
-if (((%direction% == west) || (%direction% == north)) && %actor.quested(33902)% && !%actor.quested(33904)%
+if (((%direction% == west) || (%direction% == north)) && %actor.quested(33902)% && !%actor.quested(33904)%)
   %actor.setquest(33903)%
   say Стой!
   say Торопиться после будешь, а сейчас с тобой поговорить хочет человек уважаемый.

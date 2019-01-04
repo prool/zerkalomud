@@ -126,20 +126,23 @@ wait 40s
 у городских стражников~
 0 k 60
 ~
-if %actor.vnum% != -1
+if (%actor.vnum% == -1)
+  set target %actor%
+else
+  set target %actor.leader%
+end
+if (!%target% || (%target.clan% == тв) || (%target.vnum% != -1))
   halt
 end
-if %actor.clan% == тв
-  halt
-end
-if %actor.hitp% < 160
-  mechoaround %actor% _%actor.name% потерял%actor.g% сознание от сильнейшего удара и стражники уволокли бесчувственное тело в городской поруб.
-  msend %actor% _Вы потеряли сознание от сильнейшего удара городского стражника. 
-  mteleport %actor% 62060
+if ((%actor.vnum% != -1) || (%actor.hitp% < 160))
+  mechoaround %target% _%target.name% потерял%actor.g% сознание от сильнейшего удара.
+  mechoaround %target% _Стражники уволокли бесчувственное тело в городской поруб.
+  msend %target%  Вы потеряли сознание от сильнейшего удара городского стражника. 
+  mteleport %target% 62060
   %actor.position(6)%
-  %actor.wait(4)%                                                         
-  msend %actor% _Вы очнулись в каком-то подземелье.
-  eval buffer %actor.loadroom(62060)%
+  %actor.wait(4)%
+  msend %target%  Вы очнулись в каком-то подземелье.
+  eval buffer %target.loadroom(62060)%
 end
 ~
 #62007

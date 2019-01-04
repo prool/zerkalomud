@@ -203,7 +203,7 @@ end
 ~
 wait 1
 context 276
-if (%actor.name% == %hero276%) & (%actor.realroom%==27663)
+if (%actor.name% == %hero276%) && (%actor.realroom%==27663)
   wait 1
   дать 150 кун %actor.name%
   г Добрый день!

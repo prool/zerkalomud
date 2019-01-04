@@ -238,9 +238,9 @@ wait 1s
 set i 0
 switch %objvnum%
   case 33309
-    if ((%world.curobjs(3381)% < 2) && (%random.10000% <= 50))
+    if ((%world.curobjs(3354)% < 2) && (%random.1000% <= 70))
       say Прими вот это кольцо!
-      mload obj 3381
+      mload obj 3354
       wait 10
       дать коль .%actor.name%
     else
@@ -255,7 +255,7 @@ switch %objvnum%
       mload obj 33307
       wait 10
       say Прими вот это кольцо!
-      дать коль.мудр %actor.name%
+      дать коль.мудр .%actor.name%
     else
       set i 1
     end
@@ -268,7 +268,7 @@ switch %objvnum%
       mload obj 33308
       wait 10
       say Прими вот это кольцо!
-      дать коль.бог %actor.name%
+      дать коль.бог .%actor.name%
     else
       set i 1
     end
@@ -328,20 +328,9 @@ mload obj 33036
 убкупжена~
 0 f 20
 ~
-switch %random.2%
-  case 1
-    if %world.curobjs(504)% == 0
-      mload obj 504
-    end
-  break
-  case 2
-    if ((%world.curobjs(219)%<50) && (%random.5% == 1))
-      mload obj 219
-    end
-  break
-  default
-  break
-done
+if ((%world.curobjs(504)% == 0) %% (%random.100% < 51))
+  mload obj 504
+end
 ~
 #33017
 убподслепрыбак~

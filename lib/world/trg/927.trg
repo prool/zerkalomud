@@ -88,6 +88,8 @@ end
 0 j 100
 ~
 if %object.vnum% == 92635
+  wait 1
+  mpurge %object%
   say Небесное молоко?
   wait 2s
   say Давненько я его не пробовал.

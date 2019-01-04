@@ -110,7 +110,7 @@ mpurge %self%
 0 q 100
 ~
 wait 1
-if %actor.id% != %questor277.id%
+if ((%actor.id% != %questor277.id%) && !%exist.mob(27700)%)
   halt
 end
 say Спасибо тебе, %actor.name%, за внучку. Натерпелась она, бедная, от извергов этих.

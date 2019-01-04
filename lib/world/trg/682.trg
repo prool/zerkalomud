@@ -39,9 +39,7 @@ say Мне нужно продолжить поиск рецепта...
 смерть черного князя~
 0 f 100
 ~
-if %world.curobjs(1251)% < 1 && %random.100% < 3 && %world.curobjs(1252)% < 1 && %world.curobjs(1290)% < 1
-  mload obj 1251
-end
+return 0
 mecho Призрак черного князя исчез в ослепительной вспышке!
 mecho И в тот же миг откуда-то сверху раздался голос:
 mecho Возьми в благодарность за помощь!
@@ -60,6 +58,9 @@ switch %random.4%
     mload obj 68205
   break
 done
+if ((%world.curobjs(1208)% < 2) && (%random.100% <= 5))
+  mload obj 1208
+end
 ~
 #68202
 убили волхва~
@@ -133,7 +134,7 @@ if %actor.vnum% == -1
   wait 1
   say Живым здесь не место!!! 
   wait 1
-  mkill .%actor.name%
+  mkill %actor%
 end
 ~
 #68207

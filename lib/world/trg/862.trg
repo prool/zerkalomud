@@ -3,9 +3,6 @@
 0 f 100
 *~
 mload obj 86123
-if (%world.curobjs(1203)% < 1) && (%random.100% <= 3)
-  mload obj 1203
-end
 ~
 #86201
 баттлтриг луча света~

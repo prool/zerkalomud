@@ -2,9 +2,6 @@
 <101 - Marja killed~
 0 f 100
 ~
-if %world.curobjs(1276)% < 1 && %world.curobjs(1277)% < 1 && %random.100% < 3
-  mload obj 1276
-end
 mload   obj 10111
 calcuid Temnica 10125 room
 attach  10108 %Temnica.id%
@@ -102,22 +99,28 @@ end
 if %actor.vnum% != -1
   halt
 end
-makeuid Hero %actor.id%
-global  Hero
-switch %random.5%
-  case 1
-    wload    mob    10108
-    calcuid  target 10108 mob
-    attach   10109 %target.id%
-    remote   Hero  %target.id%
-    case 2
-      wload    mob 10109
-      calcuid  target 10109 mob
-      attach   10110 %target.id% 
-      remote   Hero  %target.id%
-    done
-    wait 1
-    detach  10108 %self.id%
+set Hero %actor%
+eval rV %random.1000%
+wecho ----- %rV% ------
+if %rV% < 901
+  *90% на оба положительных исхода
+  if %rV% < 351
+    *делим на 2 ветки благополучный исход
+    *1 ветка моб 1109
+    wload mob 10109
+    calcuid target 10109 mob
+    attach 10110 %target%
+    remote Hero %target%
+  else
+    *2 ветка моб 1108
+    wload mob 10108
+    calcuid target 10108 mob
+    attach 10109 %target%
+    remote Hero %target%
+  end
+end
+wait 1
+detach 10108 %self%
 ~
 #10109
 <101 - PC enter to temnica when Kniese Sun~
@@ -145,8 +148,11 @@ detach 10109 %self.id%
 ~
 #10110
 <101 - PC enter to temnica when Merchant~
-0 i 100
+0 h 100
 ~
+if %actor.id% != %Hero.id%
+  halt
+end
 wait 1s
 if !%self.fighting%
   mecho - Спасибо, что освободил%actor.g% меня, %actor.name%.
@@ -154,10 +160,10 @@ if !%self.fighting%
     mload obj 534
     mecho - Я хотел ее продать, но пусть это будет твоей наградой.
     give книг %actor.name%
-  elseif %world.curobjs(3367)% < 1 && %random.10000% < 50
+  elseif %world.curobjs(3344)% < 1 && %random.1000% < 250
     say Возьми эти сапоги, их ценность намного выше, чем кажется на первый  взгляд.
     wait 1
-    mload obj 3367
+    mload obj 3344
     дать сапог %actor.name%
   else
     mechoaround %actor% Заморский купец дал груду монет %actor.dname%.
@@ -175,7 +181,7 @@ detach 10110 %self.id%
 ~
 calcuid room 10131 room
 attach  10106 %room.id%
-calcuid room 10125 room
-detach  10108 %room.id%
+calcuid room1 10125 room
+attach 10108 %room1%
 ~
 $~

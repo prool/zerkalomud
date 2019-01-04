@@ -11,7 +11,7 @@
 Ядовитое земноводное.
 ~
 d0g0j0n0 f0k0j1 -600 E
-9 18 1 5d2+330 2d1+10
+18 18 1 5d2+330 2d1+10
 0d0+0 5000
 8 8 2
 BareHandAttack: 4
@@ -26,7 +26,6 @@ LikeWork: 10
 MaxFactor: 50
 ExtraAttack: 1
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: m0 
@@ -47,7 +46,7 @@ E
 огромных ветви дерева, густо поросших листьями.
 ~
 b0d0g0l0m0n0 d0f0k0 -600 E
-21 13 4 10d5+550 5d10+15
+23 13 4 10d5+550 5d10+15
 5d5+50 50000
 6 6 1
 BareHandAttack: 6
@@ -62,7 +61,6 @@ LikeWork: 12
 MaxFactor: 30
 ExtraAttack: 1
 Class: 101
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -90,10 +88,9 @@ T 26001
 Необычное порождение воды, дальний родственник повелителя морей Нептуна.
 ~
 b0d0f0g0l0m0n0A0 d0f0k0A0m1 -600 E
-31 8 6 15d15+880 9d8+20
+28 8 6 15d15+880 9d8+20
 5d20+100 400000
 8 8 1
-Saves: -10 -10 -10 -10
 BareHandAttack: 1
 Str: 24
 Dex: 18
@@ -106,7 +103,6 @@ LikeWork: 95
 MaxFactor: 30
 ExtraAttack: 3
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -145,7 +141,7 @@ L 26018 100 0 0
 мешает ему справляться с обычной работой. 
 ~
 b0d0e0g0l0n0q0u0A0 d0f0k0 0 E
-29 6 2 20d15+1100 6d6+10
+27 6 2 20d15+1100 6d6+10
 10d10+90 200000
 8 8 1
 Str: 22
@@ -159,7 +155,6 @@ LikeWork: 90
 MaxFactor: 20
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -209,7 +204,7 @@ T 26053
 Мелкое, но противное насекомое семейства комариных.
 ~
 d0g0j0n0i1l1m1n1 f0k0x0 -600 E
-9 2 2 1d1+150 4d3+10
+18 2 2 1d1+150 4d3+10
 0d0+0 5000
 8 8 1
 BareHandAttack: 4
@@ -224,7 +219,6 @@ LikeWork: 10
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: g0l0 
@@ -243,7 +237,7 @@ E
 Одичавшая девушка, любящая делать пакости заблудившимся путникам.
 ~
 b0d0g0m0n0A0 d0f0k0 -600 E
-18 4 2 1d1+500 6d6+15
+26 4 2 1d1+500 6d6+15
 5d5+100 30000
 8 8 2
 BareHandAttack: 2
@@ -258,7 +252,6 @@ LikeWork: 75
 MaxFactor: 30
 ExtraAttack: 1
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: a0b0d0b1c1 
@@ -281,7 +274,7 @@ E
 I кожа:3
 I глаза:2
 #26007
-охотник~
+охотник blackswampranger260~
 охотник~
 охотника~
 охотнику~
@@ -293,7 +286,7 @@ I глаза:2
 Молодой коренастый мужчина.
 ~
 d0g0p0t0A0 f0k0r0m1 0 E
-25 -30 3 5d10+650 7d10+50
+28 -10 3 5d10+650 7d10+15
 10d10+60 100000
 8 8 1
 BareHandAttack: 10
@@ -308,7 +301,6 @@ LikeWork: 65
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1C3 
@@ -342,7 +334,7 @@ E
 Зеленая покрытая бородавками жаба.
 ~
 d0g0m0n0a1e1 d0f0k0 0 E
-10 3 1 1d1+290 2d3+10
+20 3 1 1d1+290 2d3+10
 0d0+0 6000
 8 8 2
 BareHandAttack: 8
@@ -356,7 +348,6 @@ Size: 30
 LikeWork: 5
 MaxFactor: 30
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: o0 
@@ -377,7 +368,7 @@ I кожа:3
 Его мощный торс и острые рога заставляют задуматься о его силе.
 ~
 d0g0i0m0n0 d0f0k0 -600 E
-25 4 5 10d15+750 5d10+25
+28 4 5 10d15+750 5d10+25
 0d0+0 100000
 8 8 1
 BareHandAttack: 14
@@ -392,7 +383,6 @@ LikeWork: 75
 MaxFactor: 40
 ExtraAttack: 1
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -403,7 +393,6 @@ Skill: 136 84
 Skill: 149 150
 Skill: 157 100
 E
-I копыта:3
 I шерсть:3
 #26010
 лось~
@@ -418,7 +407,7 @@ I шерсть:3
 Дикое парнокопытное животное.
 ~
 d0g0m0n0e1 c0f0k0 0 E
-25 7 7 10d10+550 4d8+13
+20 7 7 10d10+550 4d8+13
 0d0+0 100000
 8 8 1
 BareHandAttack: 14
@@ -433,7 +422,6 @@ LikeWork: 75
 MaxFactor: 40
 ExtraAttack: 1
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -469,7 +457,6 @@ LikeWork: 75
 MaxFactor: 40
 ExtraAttack: 1
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -477,7 +464,6 @@ Skill: 21 100
 Skill: 132 100
 Skill: 136 75
 E
-I копыта:3
 #26012
 пиявка~
 пиявка~
@@ -491,7 +477,7 @@ I копыта:3
 Кровососущий червь.
 ~
 d0f0g0m0n0 d0f0k0 -600 E
-11 3 2 1d1+240 2d10+14
+21 3 2 1d1+240 2d10+14
 0d0+0 8000
 8 8 2
 BareHandAttack: 4
@@ -505,7 +491,6 @@ Size: 30
 LikeWork: 5
 MaxFactor: 40
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -525,7 +510,7 @@ E
 В народе - лесная курица. Мясо его нежное и вкусное.
 ~
 d0g0h0m0n0 0 0 E
-12 17 1 1d1+250 3d3+8
+20 17 1 1d1+250 3d3+8
 0d0+0 10000
 8 8 1
 BareHandAttack: 2
@@ -540,7 +525,6 @@ LikeWork: 5
 MaxFactor: 20
 ExtraAttack: 1
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: p0 
@@ -559,7 +543,7 @@ E
 Мелкая болотная птичка.
 ~
 d0g0m0n0 0 0 E
-11 18 1 1d1+160 3d8+8
+18 18 1 1d1+160 3d8+8
 0d0+0 8000
 8 8 1
 BareHandAttack: 2
@@ -573,7 +557,6 @@ Size: 20
 LikeWork: 5
 MaxFactor: 15
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -593,7 +576,7 @@ E
 так и с охотниками.
 ~
 b0d0f0g0l0n0t0i1 d0f0k0r0t0 -600 E
-30 3 6 10d15+950 9d9+20
+29 3 6 10d15+950 9d9+20
 0d0+0 300000
 8 8 1
 BareHandAttack: 10
@@ -608,7 +591,6 @@ LikeWork: 75
 MaxFactor: 30
 ExtraAttack: 1
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -619,7 +601,6 @@ Skill: 149 150
 Skill: 157 90
 E
 T 26054
-I копыта:6
 I глаза:4
 #26016
 старик седой~
@@ -634,7 +615,7 @@ I глаза:4
 Дряхлый старичок, одетый в грязные лохмотья подмастерья с мельницы.
 ~
 c0d0g0l0n0A0 d0k0 -600 E
-29 5 5 10d10+1000 6d5+5
+28 5 5 10d10+1000 6d5+5
 10d10+150 250000
 8 8 1
 Str: 24
@@ -648,7 +629,6 @@ LikeWork: 90
 MaxFactor: 30
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 

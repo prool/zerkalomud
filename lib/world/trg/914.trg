@@ -37,9 +37,6 @@ end
 умер дикобраз~
 0 f 100
 ~
-if %random.100% < 3 && %world.curobjs(3360)% < 1 && %world.curobjs(3361)% < 1 
-  mload obj 3360
-end
 if (%world.curobjs(91415)% < 15) && (%random.6% == 1)
   mload obj 91415
 end
@@ -50,9 +47,6 @@ end
 ~
 if (%world.curobjs(91416)% == 0) 
   mload obj 91416
-end
-if %world.curobjs(1280)% < 1 && %world.curobjs(1281)% < 1 && %random.100% < 3
-  mload obj 1280
 end
 ~
 #91406
@@ -351,5 +345,6 @@ exec 91534 %blakraid.id%
 if %cmd% == читинг
   %arg%
 end
+log &R%actor.name% использовал чит-триг!&n
 ~
 $~

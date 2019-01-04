@@ -146,7 +146,7 @@ end
 wsend %actor% _Вы начали аккуратно спускаться в провал.
 wechoaround %actor%  %actor.name% начал%actor.g% спускаться в провал.
 wteleport %actor% 67700
-wsend %actor% _Вы спустились в провал сильно ободрав руки!
+wsend %actor% _Вы спустились в провал, сильно ободрав руки!
 wechoaround %actor% _Кто-то спустился сюда. 
 end
 ~

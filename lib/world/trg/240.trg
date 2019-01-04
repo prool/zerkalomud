@@ -59,6 +59,7 @@ switch %amount%
     say И чего ж ты за эти деньги желаешь?
     дат %amount% кун %actor.name%
   done
+  set buf %self.gold(0)%
 ~
 #24004
 клянчим_монетку~

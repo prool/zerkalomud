@@ -1148,7 +1148,7 @@ Spell: 153
 E
 #25723
 паук переросток~
-паук ~
+паук~
 паука~
 пауку~
 паука~
@@ -1246,15 +1246,16 @@ E
 ~
 Огромное существо с нечеловеческой силой.
 ~
-b0c0d0f0g0l0m0n0o0t0x0i2u2 c0d0e0f0A0 -400 E
+b0c0d0f0g0l0m0n0o0t0x0i2u2 c0d0e0f0A0t1 -400 E
 27 -9 3 30d100+11000 12d14+25
-10d20+500 2800000
+100d20+500 2800000
 5 5 1
 Resistances: 0 0 0 0 80 0 50
+CastSuccess: 50
 Str: 36
 Dex: 21
 Int: 21
-Wis: 36
+Wis: 40
 Con: 35
 Cha: 17
 Size: 100
@@ -1264,6 +1265,7 @@ Class: 105
 Height: 200
 Weight: 150
 Special_Bitvector: m3 
+Feat: 1
 Skill: 4 100
 Skill: 22 80
 Skill: 132 100
@@ -1275,6 +1277,10 @@ Spell: 26
 Spell: 26
 Spell: 26
 Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
 Spell: 55
 Spell: 55
 Spell: 55
@@ -1309,7 +1315,6 @@ Spell: 88
 Spell: 88
 Spell: 88
 Spell: 88
-Spell: 136
 E
 T 25729
 #25726
@@ -1354,7 +1359,7 @@ E
 ~
 Очень опасный человек с задатками лидера.
 ~
-b0c0d0e0g0l0m0n0o0p1 d0f0h0 0 E
+b0c0d0e0g0l0m0n0o0t0p1 d0f0h0 0 E
 29 -2 3 10d10+3500 10d7+50
 0d0+500 200000
 8 8 1

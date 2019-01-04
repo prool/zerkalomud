@@ -584,7 +584,7 @@ say Просил я руки твоей дочери у отца ее, Сварога небесного.
 say И дал он свое согласие.
 wait 2s 
 say А ты, %quester.name%, честно заслужил%quester.g% награду!
-if  %random.10% == 1 && !%actor.quested(926)%
+if  %random.10% == 1 && !%actor.quested(926)% && %actor.level% > 25
   wait 2s
   say Я могу помочь тебе %quester%, достичь совершенства в любом твоем навыке.
   msend %quester% В каком умении ты хотел%quester.g% бы стать мастером ?

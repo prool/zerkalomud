@@ -117,7 +117,7 @@ if !%arg.contains(камень)%
   halt 
 end
 wsend %actor% _Упершись ногами в землю, вы сдвинули камень, освобождая проход.
-wechoaround %actor% _%actor.name% сдвинул%actor.q% камень, освобождая проход.
+wechoaround %actor% _%actor.name% сдвинул%actor.g% камень, освобождая проход.
 wdoor 69228 east room 69229
 wdoor 69229 west room 69228
 wecho _Вот теперь и пройти можно.

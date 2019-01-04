@@ -50,8 +50,7 @@ wait 1s
 умер купец - лоад сетшмотки~
 0 f 100
 ~
-if %random.10000% < 50 && %world.curobjs(3373)% < 1 && %world.curobjs(3374)% < 1 
-  mload obj 3373
-end
+return 0
+%self.name% захрипел, плюясь кровавой пеной, и испустил дух.
 ~
 $~

@@ -132,7 +132,7 @@ if %object.vnum% == 38222
   msend %actor% _Казначей начал душить Вас в объятиях..
   mechoaround %actor% _Казначей начал душить %actor.vname% в объятиях.
   say Спасибо! Спасибо! Век не забуду...
-  if (%world.curobjs(215)% < 60) && (%random.4% == 1)
+  if ((%world.curobjs(215)% < 60) && (%random.100% < 26))
     wait 2s
     say У меня есть для тебя еще награда. Возьми - говорят, что она дорого стоит.
     mload obj 215

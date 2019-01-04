@@ -605,6 +605,18 @@ mecho -  если силой отбирать надумаешь то сразу готовься... к схватке....  лютой
 wait 1s
 mecho  Дряхлый старик, говоривший все тише и тише, совсем замолчал и впал в дрему.
 ~
+#165
+тест~
+0 d 0
+секс~
+
+~
+#166
+Тестим oecho~
+1 j 100
+~
+oecho Это тест-тест-тест...
+~
 #180
 LAAAAAAAAG~
 0 f 100
@@ -614,11 +626,12 @@ if %random.1000% < 10
 end
 mload mob 191
 return 0
-if %actor.vnum% == -1
-  set target2 %actor%
-else
-  set target2 %actor.leader%
-end
+*if %actor.vnum% == -1
+* set target2 %actor%
+*else
+* set target2 %actor.leader%
+*end
+set target2 Такурусаву
 global target2
 calcuid lag 191 mob
 remote target2 %lag%
@@ -629,9 +642,9 @@ mforce lag1 хохот .%actor.name%
 0 b 30
 ~
 wait 1
-if %random.100% < 25
-  follow я
-end
+*if %random.100% < 25
+* follow я
+*end
 if %target2%
   set gde %target2.realroom%
   if %self.realroom% != %gde%
@@ -640,16 +653,38 @@ if %target2%
   end
   if %self.realroom% != %gde%
     mgoto %target2.realroom%
-    mecho Умертиве Янтиса появился из пентаграммы.
+    mecho Предупреждение Такурусаву появился из пентаграммы.
   end
 end
 if !%self.leader%
-  set target %random.pc%
+  * set target %random.pc%
+  set target Такурусаву
   if %target%
     set target2 %target%
     global target2
     follow .%target.name%
   end
+end
+~
+#182
+LAG loaded~
+0 n 100
+~
+if %target2%
+  follow .%target2.name%
+else
+  follow .Такурусаву
+end
+~
+#183
+НИИИИИЗЯ!~
+0 c 0
+зак зако закол заколо заколот заколоть b ba bac back backs backst nacksta backstab~
+if ((%cmd.mudcommand% == backstab) || (%cmd.mudcommand% == заколоть))
+  крича НИИИИЗЯ!!!
+  упрек .%actor.name%
+  return 0
+  halt
 end
 ~
 #189
@@ -771,7 +806,6 @@ done
 ~
 wait 1
 if ( %actor.name% == %target1%)
-  mhunt %actor%
   появ
   say %actor.name%, cледуйте за мной!
   force %actor% follow княжеский.палач
@@ -929,5 +963,12 @@ return 0
 wechoaround %actor% %actor.name% не смог%actor.q% открыть Врата.
 wsend %actor% Вы приложили максимум усилий, но ничего не произошло.
 log &R %actor.name% пытался поставить врата из комнаты %self.vnum% !!!
+~
+#199
+выдача чешуи триглаву~
+0 c 100
+дай~
+mload obj 91499
+дать чешуя триглав
 ~
 $~

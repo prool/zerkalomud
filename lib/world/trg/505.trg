@@ -169,7 +169,7 @@ wait 3s
 г мои два сына, да дочка... если бы ты был так добр и нашел их...
 г Чует мое сердце, что-то с ними неладно...
 msend %actor.name% Крестьянин посмотрел на Вас взглядом, полным мольбы.
-mechoaround %actor% Крестьянин посмотрел на %actor.rname% взглядом, полным мольбы.
+mechoaround %actor% Крестьянин посмотрел на %actor.vname% взглядом, полным мольбы.
 ~
 #50504
 помощь~
@@ -560,11 +560,8 @@ switch %random.20%
     end
   break
   default
-    if (%world.curobjs(529)% == 0) && (%random.2% <= 1)
+    if (%world.curobjs(529)% == 0) && (%random.100% < 51)
       mload obj 529
-    end
-    if (%world.curobjs(217)% < 50) && (%random.3% == 3)
-      mload obj 217
     end
   break
 done

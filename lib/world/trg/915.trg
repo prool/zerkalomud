@@ -66,17 +66,17 @@ end
 ~
 #91502
 Вылет зеленого змея~
-2 z 100
+2 ab 100
 ~
-*if (%random.500% == 1)
-*wait 10s
-calcuid zelen 91502 mob
-attach 91503 %zelen.id%
-exec 91503 %zelen.id%
-wait 5s
-calcuid glashat 27017 mob
-attach 91525 %glashat.id%
-exec 91525 %glashat.id%
+if (%random.500% == 1)
+  wait 10s
+  calcuid zelen 91502 mob
+  attach 91503 %zelen.id%
+  exec 91503 %zelen.id%
+  wait 5s
+  *calcuid glashat 27017 mob
+  *attach 91525 %glashat.id%
+  *exec 91525 %glashat.id%
 end
 ~
 #91503
@@ -85,7 +85,7 @@ end
 ~
 wait 1s
 if (%random.4% != 1)
-  mteleport моб_91502 27016
+  mteleport моб_91502 80266
   unset greendragonraid915
   set greendragonraid915 1
   worlds greendragonraid915
@@ -169,7 +169,7 @@ end
 Налет белого змея (отсчет времени)~
 0 z 100
 ~
-%teleport% %self% 49908
+%teleport% %self% 91500
 set whitedragonraid915 1
 worlds whitedragonraid915
 set raid499 1
@@ -260,7 +260,7 @@ end
 Налет красного змея (отсчет времени)~
 0 z 100
 ~
-%teleport% %self% 49915
+%teleport% %self% 91500
 set reddragonraid915 1
 worlds reddragonraid915
 set raid499 1
@@ -532,6 +532,17 @@ if %random.100% <= 12
     break
   done
 end
+if (%self.fighting% || (%self.realroom% != 91589) || (%random.1000% <= 900))
+  halt
+end
+stand
+north
+поло все 1.сундук зем
+поло все 2.сундук зем
+поло все 3.сундук зем
+поло все 4.сундук зем
+поло все 5.сундук зем
+south
 ~
 #91534
 таймер набега двухголового черного змея~
@@ -578,7 +589,7 @@ mteleport моб_91510 91589
 0 b 12
 ~
 calcuid blacksnake 91510 mob
-if %blacksnake.realroom% < 90000 & %blacksnake%
+if %blacksnake.realroom% < 90000 && %blacksnake%
   mshou Вижу зарево багровое и дымы в небе!
   wait 2s
   mshou Крылья черные веют над нами - змей огненный явился зорить земли Русские!
@@ -594,53 +605,85 @@ end
 if %object.vnum% == 91522
   чел
   wait 1
+  mpurge %object%
   say Ну вы герои! Убили аж самого черного змея!
   say Возьмите эту вещь в награду! Из моих личных сокровищ!
-  %self.gold(+10000)%
-  wait 1
-  say  Ну и 10000 кун от города. 
-  дать  10000 кун %actor.name%
-  mpurge %object%
   switch %actor.class%
-    case 2
-      case 4
-        mload obj 91523
+    case 0
+      case 9
+        if (%world.curobjs(91529)% < 2)
+          mload obj 91529
+        else
+          mload obj 91528
+        end
       break
-      case 6
-        case 8
-          mload obj 91526
+      case 2
+        case 4
+          if (%world.curobjs(91523)% < 2)
+            mload obj 91523
+          else
+            mload obj 91528
+          end
         break
-        case 5
-          case 10
-            mload obj 91521
-          break
-          case 3
-            case 11
-              mload obj 91524
-            break
-            case 7
-              case 12
-                mload obj 91525
-              break
-              case 1
-                case 13
-                  mload obj 91527
-                break
-                default
-                  mload obj 91525
-                break
-              done
-              wait 1s
-              дать все %actor.name%
+        case 6
+          case 8
+            if (%world.curobjs(91526)% < 2)
+              mload obj 91526
+            else
+              mload obj 91528
             end
+          break
+          case 5
+            case 10
+              if (%world.curobjs(91521)% < 2)
+                mload obj 91521
+              else
+                mload obj 91528
+              end
+            break
+            case 3
+              case 11
+                if (%world.curobjs(91524)% < 2)
+                  mload obj 91524
+                else
+                  mload obj 91528
+                end
+              break
+              case 7
+                case 12
+                  if (%world.curobjs(91525)% < 2)
+                    mload obj 91525
+                  else
+                    mload obj 91528
+                  end
+                break
+                case 1
+                  case 13
+                    if (%world.curobjs(91527)% < 2)
+                      mload obj 91527
+                    else
+                      mload obj 91528
+                    end
+                  break
+                  default
+                    mload obj 91528
+                  break
+                done
+                wait 1s
+                дать все %actor.name%
+              end
+              %self.gold(+10000)%
+              wait 1
+              say Ну и 10000 кун от города. 
+              дать 10000 кун .%actor.name%
 ~
 #91537
 умер черный змей  в набеге~
 0 f 100
 ~
-if %self.realroom% < 90000
-  mload obj 91522
-end
+*if %self.realroom% < 90000
+mload obj 91522
+*end
 ~
 #91538
 Рандом набега черного змИя!~
@@ -851,5 +894,11 @@ if !%exist.mob(91505)% && %exist.mob(91502)%
   wecho _Маленький зеленый змееныш выполз из осколков скорлупы.
   wload mob 91505
 end
+~
+#91548
+лОжим стафф в сундуки~
+0 ab 100
+~
+nop
 ~
 $~

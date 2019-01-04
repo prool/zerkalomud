@@ -549,9 +549,6 @@ rescue %caster.name%
 if (%world.curobjs(584)% < 30) && (%random.10% <= 2)
   mload obj 584
 end
-if (%world.curobjs(236)% < 75) && (%random.1000% <= 200)
-  mload obj 236
-end
 ~
 #61521
 умер знахарь~

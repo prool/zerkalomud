@@ -754,18 +754,18 @@ if !%arg.contains(озеро)%
   halt
 end
 wechoaround %actor% %actor.name% разбежал%actor.u% и нырнул в озеро.
-wteleport %actor.name% 77434
+wteleport %actor.name% 77434 horse
 wsend %actor% Вы нырнули в озеро.
-wechoaround %actor% %actor.name% тыжело плюхнул%actor.u% в озеро рядом с вами.
+wechoaround %actor% %actor.name% тяжело плюхнул%actor.u% в озеро рядом с вами.
 ~
 #77439
 вынырнутьозеро~
 2 c 100
 вынырнуть~
-wechoaround %actor% Взбаламучивая воду %actor.name% полез%actor.y% на берег.
-wteleport %actor.name% 77488
+wechoaround %actor% Взбаламучивая воду, %actor.name% полез%actor.q% на берег.
+wteleport %actor.name% 77488 horse
 wsend %actor% Вы взобрались на берег.
-wechoaround %actor% %actor.name% сопя и отдуваясь вылез%actor.y% на берег.
+wechoaround %actor% %actor.name% сопя и отдуваясь вылез%actor.q% на берег.
 ~
 #77440
 выловилибочку~

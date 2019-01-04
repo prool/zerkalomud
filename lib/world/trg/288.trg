@@ -70,11 +70,6 @@ mecho Убей меня, я тебе за это расскажу одну тайну. Но смерть вперед!
 смертьбогини~
 0 f 100
 ~
-if %random.3%==2
-  if %world.curobjs(215)%<50
-    mload obj 215
-  end
-end
 switch %random.8%
   * медлительность
   case 1

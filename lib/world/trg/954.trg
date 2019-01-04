@@ -9,7 +9,7 @@ end
 wait 1
 if %actor.move% < 80
   wsend %actor% _Вы начали карабкаться по скале, но на полпути силы оставили Вас, и вы сорвались вниз.
-  wechoaround %actor% %actor.name% полез%actor.q% вверх по столе, но сорвал%actor.u% и руннул%actor.g% на камни.
+  wechoaround %actor% %actor.name% полез%actor.q% вверх по скале, но сорвал%actor.u% и рухнул%actor.g% на камни.
   %actor.position(2)%
   %actor.move(0)%
   wdamage %actor% 100
@@ -269,7 +269,7 @@ wechoaround %actor% _Кто-то с диким ревом упал сверху.
 ~
 #95416
 Боевой триг пронырливого скелета~
-0 k 25
+0 k 40
 ~
 flee
 flee
@@ -482,7 +482,7 @@ wait 2
 восторг
 хохот
 wait 2
-emot снова захохотал, и не оглядываясь ушел по тропе вниз
+emot снова захохотал, и, не оглядываясь, ушел по тропе вниз
 убра все
 mjunk all
 wait 1
@@ -780,5 +780,18 @@ mload obj 95405
 calcuid key 95405 obj
 mpurge %key%
 mjunk all
+~
+#95442
+Тест стаба~
+0 ab 100
+~
+say Ща накуканю!
+set target %random.pc%
+backstab Зарон
+wait 1
+if !%self.fighting%
+  say Не получилось :(
+  рыда
+end
 ~
 $~

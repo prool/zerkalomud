@@ -97,12 +97,15 @@ end
 *~
 return 0
 mecho Умертвие исчезло в ослепительной вспышке.
-if (%world.curobjs(6307)% < 12) && (%random.10% <= 2)
+if (%world.curobjs(6307)% < 12) && (%random.100% <= 20)
   mload obj 6307
-  mecho А на его месте остался лежать какой-то предмет.
+  set load 1
 end
-if ( %world.curobjs(6308)% < 4 ) & ( %random.25% <= 2 )
+if ( %world.curobjs(6308)% < 4 ) && ( %random.100% <= 8 )
   mload obj 6308
+  set load 1
+end
+if (%load% == 1)
   mecho А на его месте остался лежать какой-то предмет.
 end
 ~

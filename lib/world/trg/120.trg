@@ -28,7 +28,7 @@ wait 5
 say А теперь твоя голова еще более пуста, чем при жизни.
 эмоц задумчиво достал из-за пояса тесак и принялся строгать череп.
 wait 30
-mecho и через 5 минут произведение искусства было готово.
+mecho и через 5 минут произведение исскуства было готово.
 if %random.2%==1
   mload obj 12019
 else
@@ -124,9 +124,14 @@ done
 убийство спящего~
 0 p 100
 ~
+return 0
 mecho Хрустальный гроб принял удар на себя.
 %self.hitp(%self.maxhitp%)%
-mdamage %actor% 30
+if %actor.vnum% == -1
+  mdamage .%actor.name% 30
+  mdamage %actor% 30
+  mdamage %actor% 80
+end
 ~
 #12007
 изнасиловали царевну~
@@ -139,16 +144,17 @@ wait 30
 mecho Внезапно гроб со звоном разлетелся на мелкие осколки.
 mecho Не в силах вынести такого позора труп встал на ноги.
 wait 10
-г Вот сволочь, теперь все стирать придется.
+г Кто это меня всю обслюнявил?
 wait 10
 mload mob 12030
-mpurge спящая
+wait 1
+mpurge %self%
 ~
 #12008
 убили бесенка~
 0 f 100
 ~
-if (%world.curobjs(10210)%) < 10 && (%random.5%==3)
+if (%world.curobjs(10210)%) < 10 && (%random.5%==2)
   mload obj 12010
 end
 ~
@@ -156,7 +162,7 @@ end
 Убили чертенка~
 0 f 100
 ~
-if (%world.curobjs(10209)%) < 10 && (%random.5%==3)
+if (%world.curobjs(10209)%) < 10 && (%random.5%==2)
   mload obj 12009
 end
 ~
@@ -170,22 +176,19 @@ switch %object.name%
     say  Какой подарок! Знали бы вы как меня эта тварь достала! Вот Вам за труды!
     %self.gold(+100)%
     дать 100 кун %actor.name%
-    wait 1
-    mpurge %object% 
+    mpurge труп 
   break
   case труп бесенка
     say    О! И на эту мразь управа нашлась! Молодцы! Заслужили награду! 
     %self.gold(+110)%
     дать   110 кун %actor.name%
-    wait 1
-    mpurge %object% 
+    mpurge труп 
   break
   default
     say  Что это Вы обо мне возомнили? А ну кыш отсюда... ходят тут, понимаешь ли!
     eval getobject %object.name%
     if  %getobject.car% == труп
-      wait 1
-      mpurge %object%
+      mpurge труп
     else
       броси %getobject.car%.%getobject.cdr%
     end
@@ -201,11 +204,136 @@ if (%world.curobjs(12002)%) < 10 && (%random.5%==3)
 end
 ~
 #12012
-убили деда мороза~
+убили снежную бабу~
 0 f 100
 ~
-if %world.curobjs(12005)% < 2
+if (%random.1000% < 80) && (%world.curobjs(12000)% < 6)
+  mload obj 12000
+end 
+~
+#12013
+убили белку~
+0 f 100
+~
+if (%random.1000% < 100) && (%world.curobjs(12021)% < 6)
+  mload obj 12021
+end 
+if (%random.1000% < 75) && (%world.curobjs(12022)% < 6)
+  mload obj 12022
+end 
+~
+#12014
+убили старшую сестру~
+0 f 100
+~
+if (%random.1000% < 100) && (%world.curobjs(12013)% < 6)
+  mload obj 12013
+end 
+if (%random.1000% < 75) && (%world.curobjs(12024)% < 6)
+  mload obj 12024
+end 
+~
+#12015
+убили среднюю сестру~
+0 f 100
+~
+if (%random.1000% < 100) && (%world.curobjs(12012)% < 6)
+  mload obj 12012
+end 
+if (%random.1000% < 75) && (%world.curobjs(12026)% < 6)
+  mload obj 12026
+end 
+~
+#12016
+убили хозяина~
+0 f 100
+~
+if (%random.1000% < 100) && (%world.curobjs(12025)% < 6)
+  mload obj 12025
+end 
+~
+#12017
+убили младшую~
+0 f 100
+~
+if (%random.1000% < 100) && (%world.curobjs(12027)% < 6)
+  mload obj 12027
+end 
+~
+#12018
+убили шарика~
+0 f 100
+~
+if (%random.1000% < 50) && (%world.curobjs(12028)% < 6)
+  mload obj 12028
+end 
+~
+#12019
+убили червяка~
+0 f 100
+~
+if (%random.1000% < 50) && (%world.curobjs(12029)% < 6)
+  mload obj 12029
+end 
+~
+#12020
+убили МЕЛЬНИКА~
+0 f 100
+~
+if (%random.1000% < 80) && (%world.curobjs(12014)% < 6)
+  mload obj 12014
+end 
+if (%random.1000% < 120) && (%world.curobjs(12030)% < 9)
+  mload obj 12030
+end 
+~
+#12021
+убили Емелю~
+0 f 100
+~
+if (%random.1000% < 80) && (%world.curobjs(12008)% < 6)
+  mload obj 12008
+end 
+~
+#12022
+убили дядьку~
+0 f 100
+~
+if (%random.1000% < 80) && (%world.curobjs(12015)% < 6)
+  mload obj 12015
+end 
+~
+#12023
+убили ягу~
+0 f 100
+~
+if (%random.1000% < 80) && (%world.curobjs(12017)% < 6)
+  mload obj 12017
+end 
+~
+#12024
+убили деда мороза~
+0 f 100
+*~
+if (%random.1000% < 80) && (%world.curobjs(12001)% < 6)
+  mload obj 12001
+end 
+if (%random.1000% < 80) && (%world.curobjs(12003)% < 6)
+  mload obj 12003
+end 
+if (%random.1000% < 80) && (%world.curobjs(12006)% < 6)
+  mload obj 12006
+end 
+if (%random.1000% < 80) && (%world.curobjs(12005)% < 2)
   mload obj 12005
-end
+end 
+~
+#12025
+убили снегурочку~
+0 f 100
+~
+if (%random.1000% < 50) && (%world.curobjs(12004)% < 4)
+  mload obj 12004
+end 
 ~
 $~

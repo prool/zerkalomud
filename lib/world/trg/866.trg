@@ -120,7 +120,8 @@ else
 сорняк атакует~
 0 n 100
 ~
-mkill %random.pc%
+eval victim %random.pc%
+mkill %victim%
 ~
 #86610
 сорняк рип~
@@ -210,9 +211,6 @@ mload obj 86601
 if (%world.curobjs(86614)% < 4) && (%random.100% <= 20)
   mload obj 86614
 end
-if ((%world.curobjs(3358)% < 1) && (%world.curobjs(3359)% < 1) && (%random.1000% < 90))
-  mload obj 3358
-end
 ~
 #86616
 у саркофага~
@@ -235,8 +233,8 @@ eval rnd %random.100%
 if %rnd% <= 15
   mecho _\&RОхраняемый мощной черной магией, вампир восстал из мертвых !\&n
   mload mob 86610
-elseif (( %rnd% <= 30 ) && ( %world.curobjs(1058)% < 1 ))
-  mload obj 1058
+elseif (( %rnd% <= 30 ) && ( %world.curobjs(400)% < 1 ))
+  mload obj 400
 end
 ~
 #86618
@@ -367,13 +365,8 @@ end
 д'йин рип~
 0 f 100
 ~
-if (%world.curobjs(86615)% < 4 )
-  if ( %random.100% <= 14)
-    mload obj 86615
-  end
-end
-if (%world.curobjs(221)% < 50) && (%random.100% <= 10)
-  mload obj 221
+if ((%world.curobjs(86615)% < 4) && (%random.100% <= 14))
+  mload obj 86615
 end
 ~
 #86630
@@ -498,6 +491,7 @@ mload obj 86624
 Вампир убит~
 0 f 100
 ~
+halt
 *if ( %world.curobjs(1058)% < 1 ) && ( %random.6% ==  3 )
 mload obj 1058
 end

@@ -201,8 +201,9 @@ d0f0 d0f0k0r0x0 -20 E
 15 14 -1 1d100+100 4d5+6
 0d0+0 10000
 8 8 1
-BareHandAttack: 4
+BareHandAttack: 15
 Size: 30
+Class: 103
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

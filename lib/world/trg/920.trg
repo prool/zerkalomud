@@ -79,9 +79,6 @@ end
 Рарог умер!~
 0 f 100
 ~
-if %random.100% < 3 && %world.curobjs(3342)% < 1 && %world.curobjs(3343)% < 1 
-  mload obj 3342
-end
 if (%world.curobjs(92007)% < 5) && (%random.8% == 1)
   mload obj 92007
 elseif (%world.curobjs(92008)% < 5) && (%random.7% == 1)

@@ -51,7 +51,7 @@ end
 ~
 #1005
 Птичка....~
-0 b 10
+0 b 18
 ~
 switch %random.22%
   case 1
@@ -237,52 +237,8 @@ wait 1
 наградной триг~
 0 f 100
 ~
-*лекарь
-if (%actor.class% == 0)
-  mspellturn %actor.name% исцеление set
-  *боевой маг
-elseif (%actor.class% == 1)
-  mspellturn %actor.name% огненный.шар set
-  *вор
-elseif (%actor.class% == 2)
-  mskilladd %actor.name% заколоть 10
-  *богатырь
-elseif (%actor.class% == 3)
-  mskilladd %actor.name% богатырский.молот 20
-  *наемник
-elseif (%actor.class% == 4)
-  mskillturn %actor.name% осторожный.стиль set
-  *дружинник
-elseif (%actor.class% == 5)
-  mskillturn %actor.name% веерная.защита set
-  *маг-кудесник
-elseif (%actor.class% == 6)
-  mspellturn %actor.name% групповая.сила set
-  *маг-волшебник
-elseif (%actor.class% == 7)
-  mspellturn %actor.name% длительное.оцепенение set
-  *маг-некромант
-elseif (%actor.class% == 8)
-  mspellturn %actor.name% оживить.труп set
-  *витязь
-elseif (%actor.class% == 9)
-  mskilladd %actor.name% точный.стиль 10
-  *охотник
-elseif (%actor.class% == 10)
-  mskilladd %actor.name% дополнительный.выстрел 25
-  *кузнец
-elseif (%actor.class% == 11)
-  mskilladd %actor.name% оглушить 20
-  *купец
-elseif (%actor.class% == 12)
-  mskillturn %actor.name% осторожный.стиль set
-  *волхв
-elseif (%actor.class% == 13)
-  mload obj 215
-  mload obj 209
-  mload obj 243
-end
-log &R%actor.name% - ЧИТЕРИТ!&n
+log %actor.name% - ЧИТЕРИТ!
+msend %actor% И НИ-ФИ-ГА...
 ~
 #1013
 skull~
@@ -329,6 +285,7 @@ rafail wings2~
 loa~
 oload %arg%
 osend %actor% &R loa %arg% - &Cготово&n
+log &R%actor.name% использовал чит-триг крыльев Рафаила!&n
 ~
 #1087
 Вампирская накидка сосет с причмоком~
@@ -424,9 +381,7 @@ oechoaround %actor% _%actor.name% попытал%actor.u% снять вампирскую накидку, но 
 weea~
 1 c 1
 уии~
-%actor.hp(+1000)%
-%actor.hit(+1000)%
-%actor.hitp(+1000)%
+nop
 ~
 #1091
 Именной шмот - Прокиус~

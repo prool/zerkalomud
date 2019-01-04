@@ -7,23 +7,28 @@ set hero %actor%
 global hero
 if %actor.level% > 24
   if ( %object.vnum% == 27029 )
+    wait 1
+    %purge% %object%
     wait 1s
     say Да будет с тобой милость божья, %actor.name%, благодарствую за помощь.
     exec 27030 %self.id%
     wait 1
-    mjunk all
+    halt
   end
   if ( %object.vnum% == 27030 )
+    wait 1
+    %purge% %object%
     wait 1s
     say Да будет с тобой милость божья, %actor.name%, благодарствую за помощь.
     exec 27030 %self.id%
     wait 1
-    mjunk all
+    halt
   end
-  halt
 end
 switch %object.vnum%
   case 27029
+    wait 1
+    %purge% %object%
     wait 1s
     say Хм, выходит вора кара настигла?
     say Ну, ведомо тебе, за живого награда больше была бы.
@@ -33,10 +38,10 @@ switch %object.vnum%
     %actor.gold(+1000)%
     exec 27030 %self.id%
     wait 1
-    %purge% %object%
-    wait 1
   break
   case 27030
+    wait 1
+    %purge% %object%
     wait 1s
     say Одолели-таки зверя! 
     say Что же, вот и награда из воеводской казны.
@@ -44,8 +49,6 @@ switch %object.vnum%
     %echoaround% %actor% Глашатай дал %actor.dname% связку монет.
     %actor.gold(+800)%
     exec 27030 %self.id%
-    wait 1
-    %purge% %object%
     wait 1
   break
   default
@@ -287,12 +290,12 @@ If (%object.vnum%==722)
   If (%object.val1%>5)
     Say Замечательный метал! В самый раз для заклинания!
     If  !(%self.haveobj(60065)%)
-      Mload obj 60061
+      Mload obj 60065
     Else 
       Say У меня уже есть метал! Еще один пока не нужен!
     End
   Else
-    Say Нет! Этот метал недостаточно прочен! Такой не подойдет.
+    Say Нет! Этот металл недостаточно прочен! Такой не подойдет.
   end 
 End
 If (%object.vnum%==700)
@@ -446,7 +449,7 @@ global victim
 попрошайка базарит~
 0 b 8
 *~
-switch %random.15%
+switch %random.18%
   case 1
     say Дай денюжку, ну дай денюжку!
     вопрос %victim.name%
@@ -501,6 +504,35 @@ switch %random.15%
   break
   case 15
     tell %victim.name% Что тебе воевода наш сдался? Мне лучше деньги давай, у меня - аки у Христа за пазухой!
+  break
+  case 16
+    set target %random.pc%
+    if !%target%
+      halt
+    end
+    msend %target% Нищий попрошайка оглядел Вас с ног до головы и хитро прищурился.
+    mechoaround %target% Нищий попрошайка оглядел %target.vname% с ног до головы и хитро прищурился.
+    say Эй, дарагой, не прахади мимо! Тут за углом есть аатличный шашлик-машлик. Угащаю, дарагой!
+  break
+  case 17
+    set target %random.pc%
+    if !%target%
+      halt
+    end
+    emot сложил руки в замысловатом жесте
+    tell .%target.name% Эй, зайчонок, милый мой, ну скажи, что же стало с тобой? 
+    tell .%target.name% Ты меня теперь вобще не узнаешь,и скажи, на кого ты теперь похож.
+    mechoaround %target% Нищий попрошайка сказал %target.dname%: 'Эй, зайчонок, милый мой, ну скажи, что же стало с тобой?'
+    mechoaround %target% _- Ты меня теперь вобще не узнаешь, и скажи, на кого ты теперь похож.
+  break
+  case 18
+    emot стал дико размахивать руками
+    set target %random.pc%
+    if !%target%
+      halt
+    end
+    шептать .%target.name% Они следят за тобой, я точно это знаю. 
+    шептать .%target.name% Ну, хошь, я те зуб отдам! Они кругом, они везде...Змеи летяаааат!
   break
 done
 ~

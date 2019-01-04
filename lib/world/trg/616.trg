@@ -109,7 +109,7 @@ mecho С протяжным воплем неупокоенный дух растворился во тьме.
 1 c 4
 отодвинуть~
 if (%arg% == сундук)
-  oechoaround %actor% %actor.iname%,  побагровев от натуги, отодвинул%actor.g% сундук от стены. 
+  oechoaround %actor% %actor.iname%, побагровев от натуги, отодвинул%actor.g% сундук от стены. 
   osend %actor% Вы с трудом отодвинули тяжелый сундук в сторону.
   oecho Под сундуком в полу открылся спуск вниз.
   odoor 61647 d room 61687
@@ -231,13 +231,12 @@ detach 61610 %self.id%
 триггер мудреца (оплата квеста)~
 0 j 100
 ~
-return 1
 if  (!(%object.vnum% == 61615) && !(%object.vnum% == 61614))
-  wait 2
   say Зачем мне это?
-  mpurge %object%
+  return 0
   halt
 end
+wait 1
 if  (%actor.id% == %questor616.id%)
   if  !(%quest616_objects%  == ok)
     eval quest616_objects ok
@@ -291,7 +290,7 @@ say О! Спасибо!
 2 z 100
 ~
 calcuid corp 61605 obj
-wpurge %corp.name% 
+wpurge %corp% 
 wload mob 61628
 calcuid knez 61628 mob
 wteleport %knez%  61647

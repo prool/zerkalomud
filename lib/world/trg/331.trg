@@ -39,18 +39,18 @@ mpurge %object%
 wait 2s
 say Не может быть! Ты смог сделать это! Вот молодец!
 wait 2s
-if (%world.curobjs(33110)% < 5) && (%random.4% == 1)
+if (%world.curobjs(33110)% < 5) && (%random.100% < 26)
   mecho Краб ловко разрезал клешней утробу и достал от туда водянистый лук..
   mload obj 33110
   wait 2s
-  дат лук %actor.name%
+  дат лук .%actor.name%
 end
-if (%world.curobjs(206)% < 50) && (%random.3% == 3)
+if (%world.curobjs(206)% < 50) && (%random.100% < 34)
   say Один знакомый утопленник оставил мне эту вещь. Может тебе пригодится?  
   mecho Краб достал из под панциря руну света.
   mload obj 206
   wait 2s
-  дат рун %actor.name%
+  дат рун .%actor.name%
 end
 ~
 #33103

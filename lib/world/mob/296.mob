@@ -1,0 +1,2478 @@
+* BRusMUD mob file v1.0
+#29600
+ крыса шушара~
+крыса Шушара~
+крысы Шушара~
+крысе Шушара~
+крысу Шушара~
+крысой Шушара~
+крысе Шушара~
+Серая крыса с маленькими злобными глазками смотрит на Вас.
+~
+ Это серое животное на низких лапах и с большой головой не кто иной, как 
+старая крыса Шушара, живущая под полом каморки.
+~
+b0f0l0n0o0 d0f0k0A0C0c1 -600 E
+22 0 -5 10d10+750 5d5+10
+9d5+15 65000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 15
+Int: 13
+Wis: 13
+Dex: 30
+Con: 13
+Cha: 10
+LikeWork: 55
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 10
+Height: 30
+Weight: 50
+Spell: 27
+Spell: 27
+Spell: 27
+Skill: 131 60
+Skill: 136 100
+Skill: 160 100
+E
+#29601
+ говорящий сверчок~
+говорящий сверчок~
+говорящего сверчока~
+говорящему сверчоку~
+говорящий сверчок~
+говорящим сверчоком~
+говорящем сверчоке~
+Странное насекомое, с на удивление мудрым видом, мелодично поскрипывает над Вами.
+~
+ Существо, немного похожее на таракана, но с головой, как у кузнечика. Оно 
+тихо и печально потрескивает, - крри-кри - и глядит на вас выпуклыми, как 
+из стекла, радужными глазами.
+~
+b0n0o0 d0f0k0x0A0C0c1 -600 E
+20 15 0 10d10+300 5d5+10
+9d5+15 30000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 15
+Int: 20
+Wis: 20
+Dex: 25
+Con: 13
+Cha: 20
+LikeWork: 65
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 60
+Skill: 157 60
+E
+T 29628
+#29602
+ джузеппе~
+Джузеппе~
+Джузеппе~
+Джузеппе~
+Джузеппе~
+Джузеппе~
+Джузеппе~
+Пьяный старик с большим синим носом тихо плачет в углу.
+~
+ Старый столяр Джузеппе, сильно любящий выпить, за что и получил свое 
+нехитрое прозвище Сизый Нос.
+~
+b0n0o0 C0 -600 E
+23 15 0 10d10+1000 5d5+10
+4d5+15 90000
+8 5 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 12
+Wis: 11
+Dex: 19
+Con: 20
+Cha: 14
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 132 100
+Skill: 136 100
+E
+T 29605
+T 29606
+#29603
+ бульдог полицейский~
+бульдог-полицейский~
+бульдога-полицейского~
+бульдогу-полицейскому~
+бульдога-полицейского~
+бульдогом-полицейским~
+бульдогу-полицейскому~
+Бульдог-полицейский внимательно озирается вокруг.
+~
+ Это свирепый бульдог-полицейский в треугольной шляпе и в колючем ошейнике. 
+Местные жители побаиваются и стараются обойти стороной. 
+Так, от греха подальше.
+~
+b0n0o0 d0k0C0c1 -600 E
+21 0 0 10d10+800 6d5+10
+9d5+15 70000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 24
+Int: 9
+Wis: 9
+Dex: 20
+Con: 19
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 80
+Skill: 150 80
+Skill: 4 80
+E
+T 29618
+T 29648
+#29604
+ сторож~
+сторож~
+сторожа~
+сторожу~
+сторожа~
+сторожем~
+стороже~
+Местный сторож ходит кругами и осматривается по сторонам.
+~
+ Старик, специально поставленный отгонять всяких хулиганов вроде вас.
+~
+b0n0o0 k0C0 -600 E
+18 30 0 10d10+400 5d5+5
+9d5+15 30000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 20
+Int: 13
+Wis: 13
+Dex: 15
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 85
+Skill: 151 85
+E
+#29605
+ продавец лимонада~
+продавец лимонада~
+продавца лимонада~
+продавцу лимонада~
+продавца лимонада~
+продавцом лимонада~
+продавце лимонада~
+Продавец лимонада призывно зовет покупателей.
+~
+ Мужчина с улыбкой предлагает вам свой ассортимент. 
+~
+b0n0o0 0 -600 E
+18 30 0 10d10+400 5d5+5
+9d5+15 30000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 16
+Int: 13
+Wis: 13
+Dex: 10
+Con: 16
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 50
+E
+#29606
+ кассирша~
+кассирша~
+кассирши~
+кассирше~
+кассиршу~
+кассиршей~
+кассирше~
+Толстая кассирша жизнерадостно протягивает Вам билетик.
+~
+ Пышная тетка, явно страдающая одышкой, продает синие билетики всем желающим 
+увидеть представление.
+~
+b0n0o0 C0 -600 E
+19 15 0 10d10+650 5d5+10
+9d5+15 50000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 20
+Int: 11
+Wis: 11
+Dex: 10
+Con: 17
+Cha: 18
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Spell: 15
+Spell: 15
+Spell: 15
+Skill: 136 65
+E
+#29607
+ карабас барабас~
+Карабас-Барабас~
+Карабаса-Барабаса~
+Карабасу-Барабасу~
+Карабаса-Барабаса~
+Карабасом-Барабасом~
+Карабасе-Барабасе~
+Тучный мужик с достоинством поглаживает свою гигантскую бороду.
+~
+ Человек, такой страшный с виду, что можно окоченеть от ужаса при одном 
+взгляде на него. Густая нечесаная борода волочится по полу, выпученные 
+глаза вращаются, огромный рот лязгает зубами, будто это не человек, а 
+крокодил. В руке у него вы видите семихвостую плетку.
+~
+b0l0n0o0x0 d0k0r0C0c1t1 -600 E
+25 8 -6 10d10+2500 5d5+15
+9d5+165 250000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 26
+Int: 19
+Wis: 19
+Dex: 26
+Con: 26
+Cha: 15
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Spell: 135
+Spell: 26
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 132 100
+Skill: 136 100
+Helper: 29643
+Helper: 29642
+Helper: 29641
+E
+T 29645
+T 29658
+#29608
+ разноцветный петух~
+разноцветный петух~
+разноцветного петуха~
+разноцветному петуху~
+разноцветного петуха~
+разноцветным петухом~
+разноцветном петухе~
+Разноцветный петух бродит по двору.
+~
+ Петух с пышным разноцветным хвостом горделиво смотрит вокруг. 
+Красный гребешок воинственно поднят, острые шпоры готовы разорвать любого 
+противника.
+~
+b0f0n0o0 k0A0C0 -600 E
+17 15 0 10d10+400 5d5+10
+0d0+0 30000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 15
+Int: 7
+Wis: 7
+Dex: 19
+Con: 11
+Cha: 20
+LikeWork: 50
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 10
+Height: 30
+Weight: 50
+Feat: 1
+Skill: 136 70
+Skill: 165 100
+E
+#29609
+ хозяин харчевни~
+хозяин харчевни~
+хозяина харчевниа~
+хозяину харчевниу~
+хозяина харчевни~
+хозяином харчевниом~
+хозяине харчевние~
+Хозяин харчевни покорно кланяется Вам.
+~
+ У добродушного на вид хозяина неожиданно цепкий холодный взгляд.
+~
+b0m0n0o0 d0k0z0C0 -600 E
+22 9 0 10d10+900 6d5+10
+9d5+95 80000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 15
+Int: 13
+Wis: 13
+Dex: 19
+Con: 20
+Cha: 17
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Spell: 64
+Spell: 64
+Spell: 64
+Skill: 136 85
+Skill: 4 50
+E
+#29610
+ странствующий торговец~
+странствующий торговец~
+странствующего торговца~
+странствующему торговцу~
+странствующего торговца~
+странствующим торговцом~
+странствующем торговце~
+Странствующий торговец неторопливо расправляется со своим ужином.
+~
+ Купить в одном городе, продать в другом. Что может быть проще? 
+~
+b0n0o0 d0k0C0c1 -600 E
+20 10 -4 10d10+800 5d5+10
+9d5+105 70000
+8 5 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 3
+Str: 15
+Int: 23
+Wis: 23
+Dex: 16
+Con: 17
+Cha: 25
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Spell: 136
+Spell: 136
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 62
+Spell: 62
+Skill: 136 80
+Skill: 139 80
+E
+T 29650
+#29611
+ слуга торговца~
+слуга торговца~
+слуги торговца~
+слуге торговца~
+слугу торговца~
+слугой торговца~
+слуге торговца~
+Слуга торговца в надежде поглядывает на хозяина. 
+~
+ Главный и единственный помощник торговца. Надо же кому-то разгружать тюки 
+с товаром.
+~
+b0m0n0o0 C0 -600 E
+19 15 0 10d10+550 5d5+10
+9d5+15 45000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 8
+Wis: 8
+Dex: 16
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 75
+Skill: 137 75
+Skill: 5 75
+E
+T 29649
+#29612
+ непонятная личность~
+непонятная личность~
+непонятной личности~
+непонятной личности~
+непонятную личность~
+непонятной личностем~
+непонятной личносте~
+Черт-знает-кто подозрительно косится в вашу сторону.
+~
+ Маленький человек, весь закутанный в темный брезентовый плащ.
+~
+b0n0o0 d0f0h0k0r0z0A0C0c1t1 -600 E
+15 4 -8 10d10+700 5d5+15
+9d5+15 70000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 10
+Str: 19
+Int: 14
+Wis: 14
+Dex: 25
+Con: 16
+Cha: 17
+LikeWork: 65
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 131 60
+Skill: 136 80
+Skill: 160 80
+E
+T 29643
+#29613
+ огромная жаба~
+огромная жаба~
+огромной жабы~
+огромной жабе~
+огромную жабу~
+огромной жабой~
+огромной жабе~
+Огромная жаба сидит тут.
+~
+ Отвратительное создание. Интересно, от нее действительно появляются 
+бородавки? В любом случае проверять вы это не собираетесь.
+~
+b0f0n0o0 f0k0A0C0c1 -600 E
+18 15 0 10d10+400 5d5+10
+9d5+15 30000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 15
+Int: 13
+Wis: 13
+Dex: 25
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 10
+Height: 30
+Weight: 50
+Spell: 27
+Spell: 27
+Skill: 136 50
+E
+#29614
+ мудрая черепаха~
+мудрая черепаха~
+мудрой черепахи~
+мудрой черепахе~
+мудрую черепаху~
+мудрой черепахой~
+мудрой черепахе~
+Исполинская черепаха с темным потрескавшимся панцирем  лениво плавает в болоте.
+~
+ Это никому не страшная, пожилая черепаха Тортила с подслеповатыми глазами.
+~
+b0n0o0 d0f0k0C0c1 -600 E
+21 15 0 10d10+850 5d5+10
+9d6+15 70000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 15
+Int: 15
+Wis: 22
+Dex: 16
+Con: 13
+Cha: 14
+LikeWork: 50
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 10
+Height: 30
+Weight: 50
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Skill: 136 65
+Skill: 166 69
+E
+T 29603
+#29615
+ лягушка~
+лягушка~
+лягушки~
+лягушке~
+лягушку~
+лягушкой~
+лягушке~
+Лягушка громко квакает на всю округу.
+~
+ Обычная большеротая лягушка. Такую можно найти на любом болоте.
+~
+b0n0o0 k0C0 -600 E
+17 15 0 10d10+400 5d5+10
+0d0+0 30000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 15
+Int: 13
+Wis: 13
+Dex: 11
+Con: 13
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 35
+E
+#29616
+ ежик~
+ежик~
+ежика~
+ежику~
+ежика~
+ежиком~
+ежике~
+Маленький ежик торопливо пробегает мимо.
+~
+ Ежик √ ни головы, ни ножек. 
+~
+b0n0o0 f0k0C0c1 -600 E
+15 15 0 10d10+400 5d5+10
+0d0+0 30000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 15
+Int: 13
+Wis: 13
+Dex: 12
+Con: 13
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 65
+Skill: 150 65
+E
+#29617
+ буратино burat~
+Буратино~
+Буратино~
+Буратино~
+Буратино~
+Буратино~
+Буратино~
+Деревянный паренек с ненормально длинным носом с любопытством разглядывает Вас.
+~
+ Вы увидели перед собой маленькую деревянную куклу ну с очень длинным и 
+острым носом. Мдя... бедняга, как же он с таким носом будет целоваться?
+На нем надета курточка из коричневой бумаги и ярко-зеленые штанишки. 
+Картину довершала шапочка с колпачком и кисточкой. Судя по виду и 
+доносившемуся запаху, сделана она из старого поношенного носка.
+~
+b0g0n0o0t0u0g2 c0d0f0k0C0c1 -600 E
+20 13 -7 10d10+700 5d5+10
+9d5+55 65000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 17
+Int: 13
+Wis: 13
+Dex: 25
+Con: 17
+Cha: 20
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Spell: 3
+Skill: 136 80
+E
+T 29619
+T 29638
+#29618
+ пьеро pero~
+Пьеро~
+Пьеро~
+Пьеро~
+Пьеро~
+Пьеро~
+Пьеро~
+Бледный мальчишка бормочет про себя стихи.
+~
+ Это маленький  грустный человечек в длинной белой рубашке с длинными 
+рукавами. Все его лицо обсыпано пудрой, белой, как зубной порошок.
+~
+b0g0n0o0g2 d0f0k0C0 -600 E
+15 30 0 10d10+500 5d5+10
+9d5+15 60000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 11
+Int: 17
+Wis: 17
+Dex: 14
+Con: 14
+Cha: 22
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Spell: 112
+Spell: 96
+Skill: 136 35
+E
+#29619
+ мальвина malvina~
+Мальвина~
+Мальвины~
+Мальвине~
+Мальвину~
+Мальвиной~
+Мальвине~
+Красивая девочка со странными волосами вопросительно смотрит на Вас.
+~
+ Хорошенькая кудрявая девочка с прелестным приподнятым носиком и голубыми 
+волосами ... Хм, а разве бывают девочки с голубыми волосами?
+~
+b0g0n0o0g2 d0f0k0C0 -600 E
+20 30 0 10d10+500 4d5+10
+9d5+15 60000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 5
+Wis: 13
+Dex: 10
+Con: 10
+Cha: 30
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Spell: 55
+Spell: 55
+Spell: 55
+E
+#29620
+ артемон artemon~
+Артемон~
+Артемона~
+Артемону~
+Артемона~
+Артемоном~
+Артемоне~
+Белый пуделек предупреждающе порыкивает на Вас.
+~
+ Благородный пудель Артемон. Кудрявая шерсть на передней половине туловища 
+аккуратно расчесана, кисточка на конце хвоста перевязана черным бантом. 
+На передней лапе - серебряные часы.
+~
+b0g0n0o0g2 d0f0k0C0 -600 E
+20 6 -4 10d10+600 6d5+10
+0d0+0 50000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 19
+Int: 10
+Wis: 10
+Dex: 20
+Con: 13
+Cha: 14
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 132 85
+Skill: 136 85
+Skill: 167 15
+E
+T 29637
+#29621
+ начальник полиции~
+начальник полиции~
+начальника полиции~
+начальнику полиции~
+начальника полиции~
+начальником полиции~
+начальнике полиции~
+Начальник полиции скучающе глядит в окно.
+~
+ Усы гордо топорщатся, надменный взгляд будто окатывает ледяной волной. 
+В его подчинении находятся десятки лучших розыскных собак.
+~
+b0n0o0 f0k0C0 -600 E
+22 10 -5 10d10+900 5d5+10
+9d5+75 80000
+8 5 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 22
+Int: 26
+Wis: 19
+Dex: 25
+Con: 18
+Cha: 19
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 132 85
+Skill: 136 85
+E
+#29622
+ помощник начальника полиции~
+помощник начальника полиции~
+помощника начальника полиции~
+помощнику начальника полиции~
+помощника начальника полиции~
+помощником начальника полиции~
+помощнике начальника полиции~
+Помощник подобострастно смотрит на своего начальника.
+~
+ Помощник начальника полиции. Это звучит гордо!
+~
+b0m0n0o0 d0k0A0C0 -600 E
+20 15 0 10d10+700 5d5+10
+9d5+45 60000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 18
+Int: 13
+Wis: 13
+Dex: 18
+Con: 16
+Cha: 15
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 80
+Skill: 137 80
+E
+#29623
+мэр лис~
+мэр~
+мэра~
+мэру~
+мэра~
+мэром~
+мэре~
+Мэр Лис важно восседает здесь.
+~
+ Должность мэра города получают не самые лучшие или самые храбрые, а самые 
+хитрые из всех хитрых, которые знают когда на лапу дать, когда подмазать, 
+ну а когда и просто подкупить.
+~
+b0n0o0 f0k0C0 -600 E
+22 5 -5 10d10+1000 8d7+10
+9d5+115 90000
+8 5 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 21
+Int: 28
+Wis: 15
+Dex: 25
+Con: 16
+Cha: 22
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 80
+Skill: 157 80
+Skill: 160 80
+E
+#29624
+ писарь~
+писарь~
+писаря~
+писарю~
+писаря~
+писарем~
+писаре~
+Писарь склонился над бумагами.
+~
+ Клерк, занимающийся всеми бумажными вопросами. 
+~
+b0n0o0 f0k0A0C0c1 -600 E
+20 30 0 10d10+400 5d5+10
+9d5+15 30000
+8 5 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 15
+Int: 13
+Wis: 23
+Dex: 11
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Spell: 30
+Spell: 30
+Spell: 36
+Spell: 36
+Spell: 48
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 54
+E
+#29625
+ карп~
+карп~
+карпа~
+карпу~
+карпа~
+карпом~
+карпе~
+Серебристый карп проплывает мимо.
+~
+ Бока жирного карпа переливаются серебром. 
+~
+b0n0o0 A0C0 -600 E
+18 15 0 10d10+400 5d5+10
+0d0+0 30000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 15
+Int: 13
+Wis: 13
+Dex: 15
+Con: 13
+Cha: 10
+LikeWork: 30
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 35
+E
+#29626
+ доберман~
+доберман~
+добермана~
+доберману~
+добермана~
+доберманом~
+добермане~
+Доберман-пинчер подозрительно вас обнюхивает.
+~
+ Доберман-пинчер, сыщик, который никогда не спит, никому не верит и даже сам 
+себя подозревает в преступных намерениях.
+~
+b0l0n0o0 d0f0k0A0C0c1 -600 E
+21 9 -4 10d10+800 7d5+10
+9d5+15 75000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 24
+Int: 19
+Wis: 13
+Dex: 25
+Con: 19
+Cha: 15
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 90
+Skill: 150 90
+E
+T 29651
+#29627
+ летучая мышь~
+летучая мышь~
+летучей мыши~
+летучей мыше~
+летучую мышь~
+летучей мыше~
+летучей мыше~
+Летучая мышь висит вниз головой.
+~
+ У летучих мышей нет хвоста, поэтому она летает не прямо, как птицы, а вверх 
+и вниз - на перепончатых крыльях, вверх и вниз, похожая на чертика; 
+рот у нее всегда открыт, чтобы, не теряя времени, по пути ловить, кусать, 
+глотать живьем комаров и ночных бабочек.
+~
+b0f0n0o0 f0k0A0C0 -600 E
+18 10 0 10d10+650 5d5+10
+0d0+0 55000
+4 4 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 15
+Int: 13
+Wis: 13
+Dex: 15
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Skill: 136 60
+E
+#29628
+ облезлая собака~
+облезлая собака~
+облезлой собаки~
+облезлой собаке~
+облезлую собаку~
+облезлой собакой~
+облезлой собаке~
+Облезлая собака жалобно скулит здесь.
+~
+ Сквозь облезлую шкуру просвечиваются острые штыки ребер. Хвост, весь 
+покрытый цепкими колючими репьями, бессильно тащится по земле.
+~
+b0f0n0o0 k0 -600 E
+17 20 0 10d10+600 5d5+10
+0d0+0 50000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 15
+Int: 13
+Wis: 13
+Dex: 20
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 50
+E
+#29629
+ лиса алиса~
+лиса Алиса~
+лисы Алиса~
+лисе Алиса~
+лису Алиса~
+лисой Алиса~
+лисе Алиса~
+Огненно рыжая лиса вертит хвостом перед Вами.
+~
+ Вы видите перед собой рыжую лису Алису, ковыляющую на трех лапах.
+~
+b0n0o0 d0f0k0A0C0c1 -600 E
+23 0 -5 10d10+950 5d5+10
+9d5+95 100000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 19
+Int: 22
+Wis: 19
+Dex: 25
+Con: 19
+Cha: 25
+LikeWork: 75
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Special_Bitvector: d0
+Skill: 131 80
+Skill: 136 80
+Skill: 160 80
+Skill: 167 50
+E
+T 29635
+T 29639
+#29630
+ базилио~
+Базилио~
+Базилио~
+Базилио~
+Базилио~
+Базилио~
+Базилио~
+Кот в черных очках машет белой тростью, притворяясь слепым.
+~
+ Слепой кот Базилио в темных очках. Вы с завистью замечаете, что слепота 
+ничуть не мешает ему ориентироваться в обстановке. Эх, вам бы такой нюх.
+~
+b0n0o0 d0f0k0A0C0c1 -600 E
+23 0 -4 10d10+900 5d5+10
+9d5+85 90000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 24
+Int: 16
+Wis: 17
+Dex: 24
+Con: 18
+Cha: 11
+LikeWork: 70
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Special_Bitvector: d0
+Skill: 136 80
+Skill: 157 80
+Skill: 5 80
+E
+T 29636
+T 29646
+#29631
+ дуремар~
+Дуремар~
+Дуремара~
+Дуремару~
+Дуремара~
+Дуремаром~
+Дуремаре~
+Длинный как жердь человек что-то напряженно считает в жестяной банке.
+~
+ Длинный, мокрый-мокрый человек с маленьким-маленьким лицом, сморщенным, 
+как гриб-сморчок. На нем надето старое зеленое пальто, на поясе болтаются 
+щипцы, крючки и шпильки. В руках он держит жестяную банку и сачок. 
+От него явственно тянет болотом. 
+~
+b0n0o0 d0f0k0C0 -600 E
+23 9 -2 10d10+850 5d5+10
+9d5+15 85000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 23
+Int: 16
+Wis: 22
+Dex: 17
+Con: 22
+Cha: 13
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Special_Bitvector: C3
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Skill: 136 80
+Skill: 22 80
+E
+T 29647
+T 29610
+#29632
+ карло~
+Карло~
+Карла~
+Карлу~
+Карло~
+Карлом~
+Карле~
+Старый мужчина с заплаканным лицом сидит на единственном в каморке стуле.
+~
+ Старый шарманщик Карло в широкополой шляпе, скрывающей его лысину. Всю 
+жизнь он ходил с прекрасной шарманкой по городам, и пением и музыкой 
+добывал себе на хлеб.
+~
+b0n0o0 d0f0k0C0 -600 E
+22 13 0 10d10+800 5d5+10
+9d5+5 80000
+8 6 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 24
+Int: 15
+Wis: 16
+Dex: 20
+Con: 20
+Cha: 17
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 100
+Skill: 4 50
+E
+T 29600
+#29633
+ карабас барабас~
+Карабас-Барабас~
+Карабаса-Барабаса~
+Карабасу-Барабасу~
+Карабаса-Барабаса~
+Карабасом-Барабасом~
+Карабасе-Барабасе~
+Тучный мужик с достоинством поглаживает свою гигантскую бороду.
+~
+ Человек, такой страшный с виду, что можно окоченеть от ужаса при одном 
+взгляде на него. Густая нечесаная борода волочится по полу, выпученные 
+глаза вращаются, огромный рот лязгает зубами, будто это не человек, а 
+крокодил. В руке у него вы видите семихвостую плетку.
+~
+b0f0l0n0o0x0 d0f0k0C0 -600 E
+25 9 0 10d10+2500 5d5+15
+9d5+155 250000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 25
+Int: 16
+Wis: 16
+Dex: 20
+Con: 20
+Cha: 15
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 132 95
+Skill: 136 95
+Helper: 29641
+Helper: 29642
+Helper: 29643
+E
+T 29645
+#29634
+ юродивый~
+юродивый~
+юродивого~
+юродивому~
+юродивого~
+юродивым~
+юродивом~
+Юродивый жалобно тянет к Вам руку.
+~
+ Оборванный старик, весь покрытый заскорузлыми язвами и рубцами. 
+По мнению некоторых, такие люди обладают даром прорицания - но вот стоит ли 
+этому верить...
+~
+b0n0o0 k0C0 -600 E
+19 30 0 10d10+500 5d5+10
+9d5+0 45000
+8 6 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 15
+Int: 13
+Wis: 13
+Dex: 15
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+E
+#29635
+ детвора~
+детвора~
+детворы~
+детворе~
+детвору~
+детворой~
+детворе~
+Толпа мальчишек радостно пинает тряпичный мячик.
+~
+ Куча чумазых ребят с пронзительными криками гоняют бедный мячик, 
+умело сделанный соседом из различных тряпок, и перевязанный крепкой 
+веревкой.
+~
+b0n0o0 k0A0C0c1 -600 E
+19 14 0 10d10+600 5d5+10
+9d5+15 50000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 15
+Int: 13
+Wis: 13
+Dex: 28
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 7
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+E
+#29636
+ прохожий~
+прохожий~
+прохожего~
+прохожему~
+прохожего~
+прохожим~
+прохожем~
+Местный житель торопливо семенит по дороге.
+~
+ Простой парень в простой одежде просто идет по своим простым делам.
+~
+g0n0o0 C0 -600 E
+20 22 0 10d10+500 5d5+10
+9d5+25 40000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 15
+Int: 13
+Wis: 13
+Dex: 18
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 50
+E
+#29637
+ дворник~
+дворник~
+дворника~
+дворнику~
+дворника~
+дворником~
+дворнике~
+Дворник энергично подметает двор школы.
+~
+ Усатый мужик старательно очищает пришкольный участок от кучи мусора, 
+ежедневно оставляемой нерадивыми учениками. 
+~
+b0g0n0o0 k0C0 -600 E
+20 20 0 10d10+500 5d5+10
+9d5+15 40000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 18
+Int: 13
+Wis: 13
+Dex: 18
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 65
+E
+#29638
+ пожарный~
+пожарный~
+пожарного~
+пожарному~
+пожарного~
+пожарным~
+пожарном~
+Грузный пожарный со смущением дожидается своей очереди.
+~
+ Вроде бы давно не ребенок, и уже десятки раз ходил на подобные 
+представления, ан нет все равно не терпится узнать, что на сей раз 
+приготовили местные артисты взволнованной публике.
+~
+b0g0m0n0o0 k0C0 -600 E
+20 15 0 10d10+550 5d5+10
+9d5+19 50000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 20
+Int: 13
+Wis: 13
+Dex: 18
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 132 80
+Skill: 136 80
+E
+#29639
+ почтальон~
+почтальон~
+почтальона~
+почтальону~
+почтальона~
+почтальоном~
+почтальоне~
+Веселый парень, с широкой сумкой на плече, из которой выглядывают уголки писем, терпеливо дожидается своей очереди.
+~
+ Даже почтальон, и тот, бросив свои почтальонные дела, устремился к кассе. 
+Ведь письма могут и подождать, а вот театр ждать не будет!
+~
+b0g0m0n0o0 C0 -600 E
+19 20 0 10d10+500 5d5+10
+9d5+15 40000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 16
+Int: 13
+Wis: 13
+Dex: 15
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 53
+Skill: 136 70
+E
+#29640
+ зритель~
+зритель~
+зрителя~
+зрителю~
+зрителя~
+зрителем~
+зрителе~
+Зритель нетерпеливо ерзает на скамье в ожидании начала представления.
+~
+ Только одно представление?! Количество мест ограничено?! Очередь тянется на 
+пол-улицы?! Ха! Перед Вами счастливчик, которому удалось заранее, всеми 
+правдами и неправдами, заполучить билет, и теперь он радостно общается с 
+соседом, обсуждая ожидаемый спектакль.
+~
+b0g0n0o0 C0 -600 E
+19 30 0 10d10+400 5d5+10
+9d5+15 30000
+6 6 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 15
+Int: 13
+Wis: 13
+Dex: 17
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+E
+#29641
+ кукла~
+кукла~
+куклы~
+кукле~
+куклу~
+куклой~
+кукле~
+Одноногая кукла одиноко пылится у стены.
+~
+ Мда-а-а-а... Печальное зрелище. Левая нога оторвана с мясом, вместо ушей два 
+темных пятна, единственный глаз пришит там где должен быть нос... 
+Одним словом - эта кукла уже не жилец. Может добить, чтобы не мучалась?
+~
+b0g0l0m0n0o0 d0k0C0 -600 E
+17 10 0 10d10+600 5d5+10
+0d0+0 50000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 13
+Str: 15
+Int: 7
+Wis: 7
+Dex: 10
+Con: 13
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Spell: 27
+Spell: 27
+Spell: 27
+Skill: 136 80
+E
+#29642
+ плюшевое деревцо~
+плюшевое деревцо~
+плюшевого деревца~
+плюшевому деревцу~
+плюшевое деревцо~
+плюшевым деревцом~
+плюшевом деревце~
+Плюшевое деревцо грустно покачивается.
+~
+ О плюшевых мишках Вы еще слышали, а вот о плюшевых деревьях...
+~
+b0g0l0n0o0 d0k0C0 -600 E
+18 20 0 10d10+600 5d5+10
+0d0+0 50000
+8 8 0
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 20
+Int: 5
+Wis: 5
+Dex: 5
+Con: 25
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 132 80
+Skill: 136 80
+E
+#29643
+ поваренок~
+поваренок~
+поваренка~
+поваренку~
+поваренка~
+поваренком~
+поваренке~
+Щуплый подросток в замызганном фартуке бегает вокруг стола.
+~
+ Маленький, красненький, шустренький. И все что-то бегает, бегает, вертится, 
+вертится. И что ему на месте не сидится?!
+~
+b0g0l0n0o0 f0k0A0C0 -600 E
+20 17 -3 10d10+700 5d5+10
+9d5+15 60000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 18
+Int: 16
+Wis: 16
+Dex: 22
+Con: 15
+Cha: 18
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 80
+Skill: 157 80
+Skill: 160 80
+E
+#29644
+ бульдог полицейский~
+бульдог-полицейский~
+бульдога-полицейского~
+бульдогу-полицейскому~
+бульдога-полицейского~
+бульдогом-полицейским~
+бульдогу-полицейскому~
+Бульдог-полицейский внимательно озирается вокруг.
+~
+ Это свирепый бульдог-полицейский в треугольной шляпе и в колючем ошейнике. 
+Местные жители побаиваются и стараются обойти стороной. 
+Так, от греха подальше.
+~
+b0n0o0 d0k0C0c1 -600 E
+21 0 0 10d10+800 6d5+10
+9d5+15 70000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 24
+Int: 9
+Wis: 9
+Dex: 20
+Con: 19
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 80
+Skill: 150 80
+Skill: 4 80
+E
+T 29618
+T 29648
+#29645
+ бульдог полицейский~
+бульдог-полицейский~
+бульдога-полицейского~
+бульдогу-полицейскому~
+бульдога-полицейского~
+бульдогом-полицейским~
+бульдогу-полицейскому~
+Бульдог-полицейский внимательно озирается вокруг.
+~
+ Это свирепый бульдог-полицейский в треугольной шляпе и в колючем ошейнике. 
+Местные жители побаиваются и стараются обойти стороной. 
+Так, от греха подальше.
+~
+b0n0o0 d0k0C0c1 -600 E
+21 0 0 10d10+800 6d5+10
+9d5+15 70000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 24
+Int: 9
+Wis: 9
+Dex: 20
+Con: 19
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 80
+Skill: 150 80
+Skill: 4 80
+E
+T 29618
+T 29648
+#29646
+ бульдог полицейский~
+бульдог-полицейский~
+бульдога-полицейского~
+бульдогу-полицейскому~
+бульдога-полицейского~
+бульдогом-полицейским~
+бульдогу-полицейскому~
+Бульдог-полицейский внимательно озирается вокруг.
+~
+ Это свирепый бульдог-полицейский в треугольной шляпе и в колючем ошейнике. 
+Местные жители побаиваются и стараются обойти стороной. 
+Так, от греха подальше.
+~
+b0n0o0 d0k0C0c1 -600 E
+21 0 0 10d10+800 6d5+10
+9d5+15 70000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 24
+Int: 9
+Wis: 9
+Dex: 20
+Con: 19
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 80
+Skill: 150 80
+Skill: 4 80
+E
+T 29618
+T 29648
+#29647
+ бульдог полицейский~
+бульдог-полицейский~
+бульдога-полицейского~
+бульдогу-полицейскому~
+бульдога-полицейского~
+бульдогом-полицейским~
+бульдогу-полицейскому~
+Бульдог-полицейский внимательно озирается вокруг.
+~
+ Это свирепый бульдог-полицейский в треугольной шляпе и в колючем ошейнике. 
+Местные жители побаиваются и стараются обойти стороной. 
+Так, от греха подальше.
+~
+b0n0o0 d0k0C0c1 -600 E
+21 0 0 10d10+800 6d5+10
+9d5+15 70000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 24
+Int: 9
+Wis: 9
+Dex: 20
+Con: 19
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 80
+Skill: 150 80
+Skill: 4 80
+E
+T 29618
+T 29648
+#29648
+ бульдог полицейский~
+бульдог-полицейский~
+бульдога-полицейского~
+бульдогу-полицейскому~
+бульдога-полицейского~
+бульдогом-полицейским~
+бульдогу-полицейскому~
+Бульдог-полицейский внимательно озирается вокруг.
+~
+ Это свирепый бульдог-полицейский в треугольной шляпе и в колючем ошейнике. 
+Местные жители побаиваются и стараются обойти стороной. 
+Так, от греха подальше.
+~
+b0n0o0 d0k0C0c1 -600 E
+21 0 0 10d10+800 6d5+10
+9d5+15 70000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 24
+Int: 9
+Wis: 9
+Dex: 20
+Con: 19
+Cha: 10
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 80
+Skill: 150 80
+Skill: 4 80
+E
+T 29618
+T 29648
+#29649
+ доберман~
+доберман~
+добермана~
+доберману~
+добермана~
+доберманом~
+добермане~
+Доберман-пинчер подозрительно вас обнюхивает.
+~
+ Доберман-пинчер, сыщик, который никогда не спит, никому не верит и даже сам 
+себя подозревает в преступных намерениях.
+~
+b0l0n0o0 d0f0k0A0C0c1 -600 E
+21 9 -4 10d10+800 7d5+10
+9d5+15 75000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 24
+Int: 19
+Wis: 13
+Dex: 25
+Con: 19
+Cha: 15
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 90
+Skill: 150 90
+E
+T 29651
+#29650
+ доберман~
+доберман~
+добермана~
+доберману~
+добермана~
+доберманом~
+добермане~
+Доберман-пинчер подозрительно вас обнюхивает.
+~
+ Доберман-пинчер, сыщик, который никогда не спит, никому не верит и даже сам 
+себя подозревает в преступных намерениях.
+~
+b0l0n0o0 d0f0k0A0C0c1 -600 E
+21 9 -4 10d10+800 7d5+10
+9d5+15 75000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 24
+Int: 19
+Wis: 13
+Dex: 25
+Con: 19
+Cha: 15
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 90
+Skill: 150 90
+E
+T 29651
+#29651
+ доберман~
+доберман~
+добермана~
+доберману~
+добермана~
+доберманом~
+добермане~
+Доберман-пинчер подозрительно вас обнюхивает.
+~
+ Доберман-пинчер, сыщик, который никогда не спит, никому не верит и даже сам 
+себя подозревает в преступных намерениях.
+~
+b0l0n0o0 d0f0k0A0C0c1 -600 E
+21 9 -4 10d10+800 7d5+10
+9d5+15 75000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 24
+Int: 19
+Wis: 13
+Dex: 25
+Con: 19
+Cha: 15
+LikeWork: 40
+MaxFactor: 0
+ExtraAttack: 0
+Class: 102
+Size: 10
+Height: 30
+Weight: 50
+Skill: 136 90
+Skill: 150 90
+E
+T 29651
+$
+$

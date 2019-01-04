@@ -196,9 +196,6 @@ mpurge %self%
 if %world.gameobjs(13301)% <5
   mload obj 13301
 end
-if (%world.curobjs(1202)% < 1) && (%random.100% <= 3)
-  mload obj 1202
-end
 ~
 #13308
 после побега~

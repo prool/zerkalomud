@@ -1,3 +1,4 @@
+* BRusMUD mob file v1.0
 #64700
 серый заяц~
 серый заяц~
@@ -15,20 +16,32 @@ d0l1m1n1g2 z0A0 -600 E
 4 3 -10 10d10+2 1d1+1
 0d0+0 1000
 8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
 BareHandAttack: 13
 Str: 3
-Dex: 19
 Int: 4
 Wis: 4
+Dex: 19
 Con: 3
 Cha: 17
-Size: 10
 LikeWork: 99
+MaxFactor: 0
 ExtraAttack: 1
-Class: 100
+Class: 103
+Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: n0d3 
+Special_Bitvector: n0d3
 Skill: 136 12
 Skill: 157 100
 E
@@ -49,20 +62,32 @@ d0k1 z0A0 -600 E
 1 14 -9 10d10+2 1d1+1
 0d0+0 1000
 8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
 BareHandAttack: 13
 Str: 3
-Dex: 20
 Int: 6
 Wis: 3
+Dex: 20
 Con: 5
 Cha: 17
-Size: 10
 LikeWork: 99
+MaxFactor: 0
 ExtraAttack: 1
-Class: 100
+Class: 103
+Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: n0d3 
+Special_Bitvector: n0d3
 Skill: 136 3
 Skill: 157 100
 E
@@ -83,26 +108,38 @@ d0f0x0 k0s0t0z0m1 -600 E
 15 6 3 10d10+200 3d3+3
 0d0+0 20000
 8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
 BareHandAttack: 4
 Str: 14
-Dex: 13
 Int: 7
 Wis: 7
+Dex: 13
 Con: 15
 Cha: 12
-Size: 30
 LikeWork: 15
+MaxFactor: 0
 ExtraAttack: 1
-Class: 100
+Class: 103
+Size: 30
 Height: 60
 Weight: 50
-Special_Bitvector: p0d3B3 
-Skill: 21 5
+Special_Bitvector: p0d3B3
 Skill: 132 100
 Skill: 136 45
 Skill: 138 60
 Skill: 156 70
 Skill: 157 40
+Skill: 21 5
 E
 I зубы,3:5
 #64703
@@ -121,15 +158,32 @@ b0d0l0 k0C0 -600 E
 16 10 6 10d10+300 2d2+2
 0d0+0 20000
 8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
 BareHandAttack: 4
 Str: 13
+Int: 0
+Wis: 0
 Dex: 7
 Con: 17
+Cha: 0
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
+Class: 103
 Size: 50
-Class: 100
 Height: 70
 Weight: 80
-Special_Bitvector: a0d3 
+Special_Bitvector: a0d3
 Skill: 132 120
 Skill: 136 48
 Skill: 157 120
@@ -150,23 +204,234 @@ d0f0g0s0g2 k0 -600 E
 20 5 4 10d10+700 5d5+5
 0d0+0 50000
 8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
 BareHandAttack: 12
 Str: 22
-Dex: 17
 Int: 6
 Wis: 5
+Dex: 17
 Con: 21
-Size: 40
+Cha: 0
 LikeWork: 10
+MaxFactor: 0
 ExtraAttack: 1
-Class: 100
+Class: 103
+Size: 40
 Height: 70
 Weight: 100
-Special_Bitvector: p0d3 
-Skill: 5 100
+Special_Bitvector: p0d3
 Skill: 132 10
 Skill: 136 60
 Skill: 137 30
+Skill: 5 100
 E
 I копыта,10:5
+#64705
+ полоцкий дозорный стражник~
+полоцкий дозорный~
+полоцкого дозорного~
+полоцкому дозорному~
+полоцкий дозорный~
+полоцким дозорным~
+полоцком дозорном~
+Полоцкий стражник несет здесь дозор.
+~
+Обычный воин из дружины полоцкого князя.
+~
+l0m0 k0r0z0A0 -600 E
+29 -1 -2 10d10+1000 5d7+9
+2d8+8 100000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 17
+Int: 17
+Wis: 17
+Dex: 24
+Con: 24
+Cha: 10
+LikeWork: 99
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 132 150
+E
+T 64703
+I глаза,10:10
+#64706
+ полоцкий дозорный стражник~
+полоцкий дозорный~
+полоцкого дозорного~
+полоцкому дозорному~
+полоцкий дозорный~
+полоцким дозорным~
+полоцком дозорном~
+Полоцкий стражник настороженно прислушивается к шуму леса.
+~
+Обычный воин из дружины полоцкого князя.
+~
+l0m0 k0r0z0A0 -600 E
+29 -1 -2 10d10+1000 5d7+9
+2d8+8 100000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 17
+Int: 17
+Wis: 17
+Dex: 24
+Con: 24
+Cha: 10
+LikeWork: 99
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 4 150
+E
+T 64701
+I кости,10:10
+#64707
+ полоцкий дозорный стражник~
+полоцкий дозорный~
+полоцкого дозорного~
+полоцкому дозорному~
+полоцкий дозорный~
+полоцким дозорным~
+полоцком дозорном~
+Полоцкий стражник что-то говорит своим товарищам.
+~
+Видимо этот старший из дозорного отряда.
+~
+l0m0 k0r0z0A0 -600 E
+30 -1 -2 10d10+1500 5d7+9
+2d8+8 150000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 100 100 100
+HPreg: 0
+Armour: 100
+PlusMem: 0
+CastSuccess: 100
+Success: 100
+Initiative: 100
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 17
+Int: 24
+Wis: 24
+Dex: 24
+Con: 24
+Cha: 10
+LikeWork: 99
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: g0B3
+Spell: 148
+Spell: 48
+Spell: 48
+Skill: 137 150
+Skill: 21 100
+E
+T 64702
+I зубы,10:10
+#64708
+ полоцкий лесник~
+полоцкий лесник~
+полоцкого лесника~
+полоцкому леснику~
+полоцкий лесник~
+полоцким лесником~
+полоцком леснике~
+Полоцкий лесник отдыхает под деревом.
+~
+Мужик этот видно чем-то очень опечален.
+~
+b0l0 d0f0k0 -600 E
+29 -11 -30 10d10+2000 9d9+14
+6d1+8 200000
+8 8 1
+Saves: -5 -5 -5 -5
+Resistances: 0 0 0 0 100 100 100
+HPreg: 0
+Armour: 100
+PlusMem: 0
+CastSuccess: 100
+Success: 100
+Initiative: 0
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 17
+Int: 17
+Wis: 17
+Dex: 17
+Con: 17
+Cha: 10
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 156
+Spell: 156
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 5 150
+E
+T 64700
+T 64704
+I глаза,10:10
+$
 $

@@ -331,7 +331,7 @@ end
 1 j 100
 ~
 wait 1s
-if (%actor.class% == 10) & (%actor.level% > 20)
+if (%actor.class% == 10) && (%actor.level% > 20)
   switch %self.vnum%
     case 78916
       wait 1s
@@ -689,8 +689,8 @@ if %arg.contains(колокольчик)%
   wait 1s 
   wecho Кто-то сказал: 'Ты победил опасного зверя, снежного человека'
   wait 1s       
-  *************  Доспех девы марии *************
-  if %world.curobjs(3308)% < 1 && %world.curobjs(3309)% < 1 && %random.5% == 1
+  *************  Доспех Валькирии *************
+  if (%world.curobjs(3308)% < 1) && (%random.100% <= 20))
     wload obj 3308
     wecho Кто-то сказал: 'Я хотел наградить тебя великим доспехом, который сам я когда-то носил'
     wecho Кто-то сказал: 'Но кажется ты достоин даже большего'
@@ -730,7 +730,7 @@ end
 load set on snow child~
 0 f 100
 ~
-if %world.curobjs(3350)% < 1 & %random.100% < 4
+if %world.curobjs(3350)% < 1 && %random.100% < 4
   mload obj 3350
 end
 ~

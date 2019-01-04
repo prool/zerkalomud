@@ -13,7 +13,7 @@ d0g0l1m1n1 x0 0 E
 3 19 7 3d3+60 1d3+2
 0d0+0 300
 8 8 1
-BareHandAttack: 11
+BareHandAttack: 16
 Str: 3
 Dex: 3
 Int: 4
@@ -102,7 +102,7 @@ d0g0l1m1n1 x0 0 E
 3 19 7 2d1+53 1d2+2
 0d0+0 300
 8 8 2
-BareHandAttack: 8
+BareHandAttack: 16
 Str: 3
 Dex: 4
 Int: 4
@@ -221,7 +221,7 @@ b0d0z0l1m1n1 x0 0 E
 6 18 5 3d3+90 1d1+1
 0d0+0 1000
 8 8 1
-BareHandAttack: 4
+BareHandAttack: 16
 Str: 4
 Dex: 8
 Int: 4

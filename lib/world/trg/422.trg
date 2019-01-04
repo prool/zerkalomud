@@ -8,9 +8,7 @@ if (%actor.level% =< 24)
   mecho _Берегиня нежно улыбнулась и предложила тебе отдохновение или пищу.
   calcuid beregina 42207 mob
   attach 42201 %beregina.id%
-  calcuid beregina 42207 mob
   attach 42202 %beregina.id%
-  calcuid beregina 42207 mob
   detach 42200 %beregina.id%
 end
 ~
@@ -24,7 +22,6 @@ if %actor.level% <= 24
   DG_CAST 'насыщение' %actor.name%
   calcuid beregina 42207 mob
   attach 42203 %beregina.id%
-  calcuid beregina 42207 mob
   detach 42201 %beregina.id%
 end
 ~
@@ -38,7 +35,6 @@ if %actor.level% <= 24
   DG_CAST 'восстановление' %actor.name%
   calcuid beregina 42207 mob
   attach 42203 %beregina.id%
-  calcuid beregina 42207 mob
   detach 42202 %beregina.id%
 end
 ~
@@ -60,7 +56,6 @@ wait 2s
 say_Окажи мне услугу, добудь травушку целебную.
 calcuid beregina 42207 mob
 attach 42204 %beregina.id%
-calcuid beregina 42207 mob
 detach 42203 %beregina.id%
 ~
 #42204
@@ -83,7 +78,6 @@ attach 42207 %polewik.id%
 сест
 отд
 mecho _Берегиня сомкнула очи и погрузилась в легкий сон.
-calcuid beregina 42207 mob
 detach 42204 %beregina.id%
 end
 ~
@@ -97,7 +91,6 @@ mecho _Берегиня сладко потянулась, разминая косточки...
 say _Ну что?
 calcuid beregina 42207 mob
 attach 42206 %beregina.id%
-calcuid beregina 42207 mob
 detach 42205 %beregina.id%
 ~
 #42206
@@ -207,5 +200,13 @@ calcuid polewik 42209 mob
 detach 42207 %polewik.id%
 calcuid homiak 42213 mob
 detach 42208 %homiak.id%
+calcuid beregin 42207 mob
+detach 42201 %beregin.id%
+detach 42202 %beregin.id%
+detach 42203 %beregin.id%
+detach 42204 %beregin.id%
+detach 42205 %beregin.id%
+detach 42206 %beregin.id%
+attach 42200 %beregin.id%
 ~
 $~

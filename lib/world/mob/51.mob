@@ -44,7 +44,7 @@ d0g0 0 0 E
 2 20 9 0d0+15 4d1+1
 0d0+0 50
 8 8 2
-BareHandAttack: 4
+BareHandAttack: 16
 Str: 3
 Dex: 4
 Int: 3
@@ -105,7 +105,7 @@ b0d0f0g0l0m0 d0f0 0 E
 12 20 9 0d0+200 1d10+2
 0d0+0 4000
 8 8 1
-BareHandAttack: 4
+BareHandAttack: 16
 Str: 10
 Dex: 4
 Int: 10
@@ -262,7 +262,7 @@ d0f0g0 x0 0 E
 2 18 10 0d0+25 4d1+1
 0d0+0 60
 8 8 1
-BareHandAttack: 4
+BareHandAttack: 16
 Str: 3
 Dex: 4
 Int: 3

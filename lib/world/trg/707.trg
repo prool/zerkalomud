@@ -378,11 +378,11 @@ switch %object.vnum%
     wait 1s
     осм %actor.name%
     wait 1s
-    *награду как хатите меняйте, счас это три шмотки из наемовского сета :-)
+    * вобщем щас тут вместо трех падает 1230 (кольцо нс) и 1231 (талисман нс)
     * а так можно и руны  и книги и скиллы  тут  положить :-)
-    eval stuff 1235+%random.2%
+    eval stuff 1229+%random.2%
     if %random.100% <= 50
-      eval stuff 1257+%random.2%
+      eval stuff 1245+%random.2%
     end
     if !%world.curobjs(%stuff%)%
       mload obj %stuff%

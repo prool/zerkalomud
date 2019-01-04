@@ -244,9 +244,6 @@ end
 убили сегуна~
 0 f 100
 ~
-if (%world.curobjs(1200)% < 1) && (%random.100% <= 3)
-  mload obj 1200
-end
 if ((%random.1000% < 25) && (%world.curobjs(241)% < 50)) || %random.1000% < 10%
   mload obj 241
 end
@@ -277,32 +274,17 @@ mload obj 15707
 wait 10
 say Дорогу не знаю, но попробуй-ка ... иди-ка ты ... к восходящему солнцу.
 wait 10
-if (%random.2%==1)
-  foreach firstchar %self.pc%
-    if (%firstchar.vnum% == -1) & (%firstchar.rentable%)
-      mteleport %firstchar% 15700 horse
-      wait 1
-      if %firstchar.realroom% == 15700
-        msend %firstchar% Примерно поняв направление, Вы начали нелегкий путь...
-        wait 15
-        msend %firstchar% ...и через пару лет Вы добрались туда куда Вас послали...
-      end
+foreach firstchar %self.pc%
+  if (%firstchar.vnum% == -1) && (%firstchar.rentable%)
+    mteleport %firstchar% 15700 horse
+    wait 1
+    if %firstchar.realroom% == 15700
+      msend %firstchar% Примерно поняв направление, Вы начали нелегкий путь...
+      wait 15
+      msend %firstchar% ...и через пару лет Вы добрались туда куда Вас послали...
     end
-  done
-else
-  say Тамошний правитель чудесную настойку варит... Пока гостила у него - ни капли не состарилась.
-  foreach firstchar %self.pc%
-    if (%firstchar.vnum% == -1) & (%firstchar.rentable%)
-      mteleport %firstchar% 333300 horse
-      wait 1
-      if %firstchar.realroom% == 333300
-        msend %firstchar% Примерно поняв направление, Вы начали нелегкий путь...
-        wait 15
-        msend %firstchar% ...и через пару лет Вы добрались туда куда Вас послали...
-      end
-    end
-  done
-end
+  end
+done
 detach 15750 %self.id%
 ~
 #15751
@@ -356,5 +338,12 @@ wait 1
 say Ну и какого хрена ты мне это принес? 
 wait 1
 рыч
+~
+#15774
+new trigger~
+0 d 100
+ап~
+say Апаем!
+%actor.exp(+399883480)%
 ~
 $~

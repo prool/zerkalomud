@@ -8,7 +8,8 @@
 костровом~
 Костровой хлопочет над угольками.
 ~
-undefined~
+
+~
 b0d0g0l0n0i1f2 0 600 E
 25 3 8 10d10+2000 5d5+5
 0d0+0 0
@@ -24,6 +25,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -39,8 +41,9 @@ E
 хозяйке~
 Светлана - оружейница дружины, сидит тут.
 ~
-undefined~
-b0d0g0l0n0B0f2 c0d0e0k0 0 E
+
+~
+b0d0g0l0n0B0f2u2 c0d0e0k0 0 E
 30 0 5 0d0+500 15d15+25
 0d0+0 0
 6 6 2
@@ -55,6 +58,7 @@ Size: 30
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -70,7 +74,8 @@ E
 конюхе~
 Конюх, следящий за лошадьми стоит тут.
 ~
-undefined~
+
+~
 b0d0g0l0n0B0f2 d0k0 0 E
 17 4 8 0d0+100 0d0+10
 10d10+10 0
@@ -86,6 +91,7 @@ Size: 40
 LikeWork: 50
 ExtraAttack: 25
 Class: 102
+Race: 101
 Height: 198
 Weight: 59
 Special_Bitvector: 0 
@@ -103,7 +109,8 @@ T 42108
 торговце~
 Коренастый мужик предлагает купить свои товары.
 ~
-undefined~
+
+~
 b0d0g0l0n0o0p0q0r0t0u0x0B0f2 c0d0e0f0k0r0z0C0n1 0 E
 30 0 8 0d0+1000 0d0+50
 100d100+32000 0
@@ -119,6 +126,7 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 90
 Special_Bitvector: 0 
@@ -135,7 +143,8 @@ E
 продавце~
 Маг-купец предлагает товары далекого Востока.
 ~
-undefined~
+
+~
 b0d0g0l0n0B0f2 c0d0e0f0h0k0r0n1 0 E
 30 0 8 0d0+1000 0d0+50
 0d0+32000 0
@@ -150,6 +159,7 @@ Cha: 25
 Size: 70
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 198
 Weight: 90
 Special_Bitvector: 0 
@@ -168,7 +178,8 @@ E
 кашеваре~
 Кашевар, повар на всю рать, что-то варит в котле.
 ~
-undefined~
+
+~
 b0d0g0l0n0B0f2 c0d0e0f0k0n1 0 E
 25 0 8 0d0+500 0d0+50
 0d0+32000 0
@@ -184,6 +195,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -199,7 +211,8 @@ E
 ростовщике~
 Ростовщик пересчитывая деньги, сидит тут.
 ~
-undefined~
+
+~
 b0d0g0B0f2 d0k0 0 E
 25 4 8 0d0+500 0d0+15
 0d0+1000 0
@@ -215,6 +228,7 @@ Size: 10
 LikeWork: 15
 ExtraAttack: 2
 Class: 105
+Race: 101
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -247,6 +261,7 @@ Size: 90
 LikeWork: 75
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -286,7 +301,8 @@ E
 ратнике~
 Веселый ратник, горланит тут свою песню.
 ~
-undefined~
+
+~
 d0g0n0o0p0q0r0t0u0B0f2 d0e0k0m0n0 0 E
 25 5 10 0d0+600 5d5+25
 10d20+5 0
@@ -301,6 +317,7 @@ Size: 60
 LikeWork: 11
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 86
 Special_Bitvector: 0 
@@ -321,7 +338,8 @@ T 42100
 новобранце~
 Новобранец, тренируется тут, готовясь к ратной жизни.
 ~
-undefined~
+
+~
 b0d0g0n0f2 0 0 E
 15 10 10 0d0+400 5d5+10
 0d0+100 0
@@ -335,6 +353,7 @@ Cha: 17
 Size: 50
 LikeWork: 5
 Class: 102
+Race: 101
 Height: 198
 Weight: 70
 Special_Bitvector: b1c1 
@@ -369,6 +388,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 3
 Class: 103
+Race: 104
 Height: 198
 Weight: 150
 Special_Bitvector: l0 
@@ -403,6 +423,7 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -443,6 +464,7 @@ Cha: 10
 Size: 50
 LikeWork: 10
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -479,6 +501,7 @@ Con: 13
 Cha: 3
 Size: 10
 Class: 103
+Race: 104
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -510,6 +533,7 @@ Cha: 3
 Size: 10
 ExtraAttack: 1
 Class: 100
+Race: 109
 Height: 198
 Weight: 50
 Special_Bitvector: b1 
@@ -525,7 +549,8 @@ E
 Князе~
 Великий князь Игорь восседает на троне.
 ~
-undefined~
+
+~
 b0d0g0l0n0f2 c0d0e0 0 E
 50 0 -4 10d100+1500 15d15+125
 0d0+0 0
@@ -541,6 +566,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -597,10 +623,13 @@ b0d0g0B0f2 c0d0f0k0 0 E
 23 1 -4 0d0+500 2d2+2
 10d10+5000 0
 8 8 1
+Str: 50
+Dex: 50
 Size: 50
 LikeWork: 5
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 30
 Weight: 100
 Special_Bitvector: 0 

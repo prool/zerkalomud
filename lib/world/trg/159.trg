@@ -1,3 +1,100 @@
+#15900
+Ставим печать~
+1 c 2
+поставить~
+if !%arg.contains(печать)%
+  osend %actor% Что вы хотите поставить?
+  halt
+end
+if (%actor.clan% !=сб)
+  return 0
+  halt
+end
+if %world.curobjs(15945)% > 4
+  osend %actor% Вы думаете, что игра только для вас одних?
+  halt
+end
+osend %actor% Вы поставили тут печать Северного Братства.
+oechoaround %actor% %actor.name% поставил%actor.g% тут печать Северного Братства.
+oload obj 15945
+~
+#15901
+затераем печать~
+1 c 4
+стереть~
+if !%arg.contains(печать)%
+  osend %actor% Что вы хотите стереть?
+  halt
+end
+if (%actor.clan% !=сб)
+  return 0
+  halt
+end
+oecho Ярко вспыхнув, печать Северного Братства исчезла.
+opurge %self%
+~
+#15902
+дикей клан шмота~
+1 ghj 100
+~
+if %actor.vnum% != -1
+  halt
+end
+if (%actor.clan% !=сб)
+  wait 1
+  oecho Яркая вспышка ослепила вас!
+  osend %actor% Этой вещью может пользоваться только ратник Северного Братства!
+  opurge %self%
+end
+~
+#15903
+разрешить носить клан экипировку не клановым~
+1 c 2
+разрешить~
+if (%actor.clan% !=сб)
+  return 0
+  halt
+end
+osend %actor% Теперь %self.iname% может носить любой игрок.
+detach 15902 %self%
+detach 15903 %self%
+~
+#15904
+Клан Стаф~
+0 c 0
+доспехи~
+drop all
+if %actor.bank% < 250
+  брык %actor.name%
+  wait 1
+  говор %actor.name%, у тебя нехватает денег на экипировку
+  halt
+end
+говор Сейчас, погоди минутку я соберу все что тебе необходимо
+wait 1s
+eval buffer %actor.bank(-250)%
+mload obj 15901
+mload obj 15902
+mload obj 15903
+mload obj 15904
+mload obj 15905
+mload obj 15906
+mload obj 15906
+mload obj 15907
+mload obj 15907
+mload obj 15908
+mload obj 15909
+mload obj 15910
+mload obj 15912
+mload obj 15912
+mload obj 15913
+mload obj 15919
+mload obj 15935
+put all сум
+give сум .%actor.name%
+говор Вот, держи
+ул .%actor.name%
+~
 #15967
 Смена ренты~
 0 q 100
@@ -24,7 +121,7 @@ log %actor.name%
 слезть спуститься соскользнуть~
 wait 1
 wsend %actor%  Вы ухватились за свисающую с ветки сосны веревку и соскользнули вниз.
-wechoaround %actor% _  %actor.name% ухватил%actor.u% за свисающую с ветки сосны веревку и сосокользнул%actor.g% вниз.
+wechoaround %actor% _  %actor.name% ухватил%actor.u% за свисающую с ветки сосны веревку и соскользнул%actor.g% вниз.
 wteleport %actor% 15903
 wechoaround %actor% _  %actor.name% спустил%actor.u% с дерева.
 ~
@@ -78,11 +175,11 @@ if !%arg.contains(тушканчика)%
   msend %actor% Что вы хотите сделать?
   halt
 end
-if %actor.clan% != зао
+if %actor.clan% != сб
   msend %actor%  Не ваш зверь - вот и не троньте!
   halt
 end
-msend %actor% Вы решили пронать тушканчика.
+msend %actor% Вы решили прогнать тушканчика.
 mechoaround %actor% %actor.name% решил%actor.g% прогнать своего ручного тушканчика.
 wait 1
 рыда
@@ -102,7 +199,7 @@ if !%arg.contains(хвост)%
   osend %actor% Вы начали ожесточенно трясти головой.
   halt
 end
-if %actor.clan% != зао
+if %actor.clan% != сб
   return 0
   halt
 end
@@ -128,20 +225,10 @@ flee
 hide
 camouf
 ~
-#15975
-Делет на арене~
-2 c 1
-delete~
-if %actor.fighting%
-  halt
-end
-wait 1
-wpurge
-~
 #15977
 Удаление мобов~
 2 c 1
-delete~
+удалить~
 wait 1
 calcuid smotr 15911 mob
 detach 15987 %smotr.id%
@@ -192,8 +279,7 @@ wait 1
 if %actor.vnum% != -1
   halt
 end
-*wforce arenmob159 follow .%actor.name%
-wsend %actor% &KХмурый богатырь предложил Вам совершить трехдневный пеший переход.&n
+wforce arenmob159 follow .%actor.name%
 ~
 #15979
 Делет зверей~

@@ -7,13 +7,13 @@ if !(%arg.contains(завал)%)
   return 1
   halt
 end
-wsend       %actor% Кряхтя и охая, вы полезли через завалы. Ох и высота же тут!
+wsend %actor% Кряхтя и охая, вы полезли через завалы. Ох и высота же тут!
 wechoaround %actor% %actor.name% полез%actor.q% через завалы.
 wait 1s
 wsend %actor% Вы на северной стороне завала.
 wteleport %actor% 70306
 %actor.wait(1)%
-wat 70306  wechoaround %actor% Кто-то пролез сюда.
+wechoaround %actor% Кто-то пролез сюда.
 ~
 #70301
 Лезть завалы юг~
@@ -64,34 +64,34 @@ wait 1
 switch %random.5%
   case 1
     wsend       %actor% Вдруг сверху прилетело что-то и БОЛЬНО ударило вас по голове. Это было чудно!
-    wat 70306 wechoaround %actor% _%actor.name% получил%actor.g% горшком по голове! 
+    wechoaround %actor% _%actor.name% получил%actor.g% горшком по голове! 
     wdamage %actor% 60
     wait 1
     wecho Лиса флиртует сверху:"Простите! Извините! Я не хотела!"
   break
   case 2
     wsend       %actor% Вдруг ваш нос УЖАСНО обожгло чем-то, прилетевшим сверху. Вам даже понравилось!
-    wat 70306 wechoaround %actor% %actor.name% словил%actor.g% носом горстку табака из табакерки волка. 
+    wechoaround %actor% %actor.name% словил%actor.g% носом горстку табака из табакерки волка. 
     wdamage %actor% 50
     wait 1
     wecho Волк крикнул сверху:"Извините! Ветер понимаешь.."
   break
   case 3
     wsend       %actor% Вдруг на вас сверху свалилось нечто большое... Дальше вы ничего не помните...
-    wat 70306  wechoaround %actor% _%actor.name% получил%actor.g% пнем по голове. 
+    wechoaround %actor% _%actor.name% получил%actor.g% пнем по голове. 
     wdamage %actor% 100
     wait 5
     wecho Медведь пробасил сверху:"Ну.. Э-Э-Э Простите, что ли!"
   break
   case 4
     wsend       %actor% Вдруг вас накрыло тучей шелухи, прилетевшей сверху. О! Как приятно!
-    wat 70306  wechoaround %actor% _%actor.name% скрылся%actor.g% в туче шелухи от семечек. 
+    wechoaround %actor% _%actor.name% скрылся%actor.g% в туче шелухи от семечек. 
     wdamage %actor% 30
     wait 5
     wecho Заяц промямлил сверху:"Иззввинните други.. Яяя неччаянно!"
   break
   case 5
-    wecho Мимо вас пролетела деревянная вилка с огурцом."Каким добром раскидываются!",-подумали Вы. 
+    wecho _Мимо вас пролетела деревянная вилка с огурцом."Каким добром раскидываются!",-подумали Вы. 
   break
 done
 ~
@@ -129,32 +129,32 @@ end
 2 c 0
 лезть пролезть~
 if !(%arg.contains(лаз)%) 
-  wsend       %actor% Куда это Вы хотите пролезть???
+  wsend %actor% Куда это Вы хотите пролезть???
   return 0
   halt
 end
-wsend       %actor% Вы полезли в узкий лаз.
-wechoaround %actor% %actor.name% полез%actor.g% в лаз. 
+wsend %actor% Вы полезли в узкий лаз.
+wechoaround %actor% %actor.name% полез%actor.q% в лаз. 
 wait 2s
 wsend %actor% Вы вылезли на поверхность.
 wteleport %actor.name% 70350
-wat 70350 wechoaround %actor% Кто-то пролез сюда
+wechoaround %actor% Кто-то пролез сюда
 ~
 #70306
 Лезем из грота~
 2 c 0
 лезть пролезть~
 if !(%arg.contains(лаз)%) 
-  wsend       %actor% Куда это Вы хотите пролезть???
+  wsend  %actor% Куда это Вы хотите пролезть???
   return 0
   halt
 end
-wsend       %actor% Вы полезли в узкий лаз.
-wechoaround %actor% %actor.name% полез%actor.g% в лаз. 
+wsend  %actor% Вы полезли в узкий лаз.
+wechoaround %actor% %actor.name% полез%actor.q% в лаз. 
 wait 2s
 wsend %actor% Вы вылезли на поверхность.
 wteleport %actor.name% 70333
-wat 70333 wechoaround %actor% Кто-то пролез сюда.
+wechoaround %actor% Кто-то пролез сюда.
 ~
 #70307
 Лезть из грота в щель~
@@ -169,13 +169,13 @@ if (%actor.move%<200)
   wsend %actor% _У Вас не хватит сил для этого.
   return 0
 else
-  wsend       %actor% Вы полезли в узкую щель. Ох и тяжело же тут ползти!
-  wechoaround %actor% %actor.name% полез%actor.g% в лазейку. 
+  wsend %actor% Вы полезли в узкую щель. Ох и тяжело же тут ползти!
+  wechoaround %actor% %actor.name% полез%actor.q% в лазейку. 
   wait 1s
   %actor.move(-100)%
   wsend %actor% Ваши старания были не напрасны? Вы пролезли в расширение длинной щели из известняка.
   wteleport %actor.name% 70386
-  wat 70386 wechoaround %actor% Кто-то пролез сюда.
+  wechoaround %actor% Кто-то пролез сюда.
 end
 ~
 #70308
@@ -197,7 +197,7 @@ else
   %actor.move(-200)%
   wsend %actor% Вы пролезли в грот.
   wteleport %actor.name% 70351
-  wat 70351 wechoaround %actor% Кто-то пролез сюда.
+  wechoaround %actor% Кто-то пролез сюда.
 end
 ~
 #70309
@@ -205,7 +205,7 @@ end
 2 c 0
 надавить давить нажать вдавить~
 if !(%arg.contains(кирпич)%) 
-  wsend       %actor% Что это вы хотите вдавить???
+  wsend %actor% Что это вы хотите вдавить???
   return 1
   halt
 end
@@ -236,7 +236,7 @@ wechoaround %actor% %actor.name% полез%actor.q% под гобелен.
 wait 2s
 wsend %actor% Вы пролезли на другую сторону гобелена.
 wteleport %actor.name% 70371
-wat 70371 wechoaround %actor% Кто-то пролез сюда
+wechoaround %actor% Кто-то пролез сюда
 ~
 #70311
 Лезем за гобелен обратно~
@@ -252,7 +252,7 @@ wechoaround %actor% %actor.name% полез%actor.g% под гобелен.
 wait 2s
 wsend %actor% Вы пролезли на другую сторону гобелена.
 wteleport %actor.name% 70363
-wat 70363 wechoaround %actor% Кто-то пролез сюда
+wechoaround %actor% Кто-то пролез сюда
 ~
 #70312
 Воробей1~
@@ -287,6 +287,7 @@ mecho Воробей взлетел и выпорхнул в образовавшуюся щель.
 calcuid tolst 70371 room
 attach 70314 %tolst.id%
 run 70314 %tolst.id%
+%purge% %self%
 ~
 #70313
 таракан мертв~
@@ -300,7 +301,6 @@ end
 Лоадим стража~
 2 z 100
 ~
-wpurge худой
 wload mob 70318
 calcuid gavrur 70363 room
 detach 70310 %tolst.id%
@@ -309,6 +309,8 @@ detach 70311 %gavrur.id%
 calcuid tolst 70318 mob
 attach 70315 %tolst.id%
 run 70315 %tolst.id%
+calcuid vorobey 70317 mob
+%purge% %vorobey%
 ~
 #70315
 Толстый идет сажать в тюрьму~
@@ -323,7 +325,7 @@ say РУСИШ ШВАЙНЦ!!!
 mecho Толстый стражник схватил вас за шиворот и поволок в камеру.
 eval  zekchar %self.people%
 eval  numer 0
-while %zekchar% & (%num% < 20)
+while %zekchar% && (%num% < 20)
   set komp %zekchar.next_in_room%
   if %zekchar.vnum% == -1
     mechoaround %zekchar% %zekchar.name% отправлен%actor.g% в камеру! 
@@ -420,7 +422,8 @@ calcuid gobelen 70363 room
 attach 70310 %gobelen.id%
 calcuid gobelen 70371 room
 attach 70311 %gobelen.id%
-wpurge толст
+calcuid strag 70318 mob
+wpurge %strag%
 calcuid zveri 70370 room
 attach 70316 %zveri.id%
 run 70316 %zveri.id%
@@ -545,10 +548,11 @@ end
 REPOP~
 2 f 100
 *~
-calcuid vorob1 70371 mob
+log &C ***** Репоп 703 *****&n
+calcuid vorob1 70317 mob
 attach 70312 %vorob1.id%
-calcuid vorob2 70371 mob
-detach 70328 %vorob2.id%
+*calcuid vorob2 70317 mob
+detach 70328 %vorob1.id%
 calcuid zverk 70307 room
 attach 70302 %zverk.id%
 calcuid rasx 70355 room
@@ -577,14 +581,16 @@ calcuid zveriyug2 70306 room
 detach 70345 %zveriyug2.id%
 calcuid mish703 70316 mob
 detach 70355 %mish703.id%
-calcuid marb703 70352 mob
-detach 70349 %marb703.id%
-calcuid marb703 70352 mob
-detach 70356 %marb703.id%
-calcuid marb703 70352 mob
-detach 70357 %marb703.id%
-calcuid marb703 70352 mob
-detach 70358 %marb703.id%
+if %exist.mob(70352)%
+  calcuid marb703 70352 mob
+  detach 70349 %marb703.id%
+  *calcuid marb703 70352 mob
+  detach 70356 %marb703%
+  *calcuid marb703 70352 mob
+  detach 70357 %marb703%
+  *calcuid marb703 70352 mob
+  detach 70358 %marb703%
+end
 wdoor  70339 north purge
 wdoor  70357 south purge
 wdoor  70371 west purge
@@ -611,7 +617,7 @@ else
   %actor.move(-200)%
   wsend %actor% Вы тихо вылезли рядом за печкой.
   wteleport %actor.name% 70396
-  wat 70396 wechoaround %actor% Кто-то тихо пролез сюда.
+  wechoaround %actor% Кто-то тихо пролез сюда.
 end
 ~
 #70327
@@ -632,7 +638,7 @@ else
   %actor.move(-200)%
   wsend %actor% Вы пролезли в узкую комнатушку.
   wteleport %actor.name% 70355
-  wat 70355 wechoaround %actor% Кто-то пролез сюда.
+  wechoaround %actor% Кто-то пролез сюда.
 end
 ~
 #70328
@@ -665,15 +671,19 @@ mload obj 70302
 wait 5
 mecho %actor.name% открыл окошко в двери.
 mecho Воробей взлетел и выпорхнул в него.
-calcuid vorob2 70371 room
-attach 70329 %vorob2.id%
-run 70329 %vorob2.id%
+*непонимаю зачем так сложно удалять воробьья да еще и по имени
+*calcuid vorob2 70371 room
+*attach 70329 %vorob2.id%
+*run 70329 %vorob2.id%
+%purge% %self%
 ~
 #70329
 последствия воробей2~
 2 z 100
 ~
-wpurge худой
+*вызывался из 70328 
+* зачем так сложно непонятно, да еще и по имени
+* *wpurge худой
 ~
 #70330
 родился толстый~
@@ -682,10 +692,10 @@ wpurge худой
 if %world.curobjs(70303)% == 0
   mload obj 70303
 end
-calcuid vorob1 70371 mob
+calcuid vorob1 70317 mob
 detach 70312 %vorob1.id%
-calcuid vorob2 70371 mob
-attach 70328 %vorob2.id%
+*calcuid vorob2 70317 mob
+attach 70328 %vorob1.id%
 ~
 #70331
 Повариха померла~
@@ -774,9 +784,10 @@ if (%world.curobjs(70354)% < 3) && (%random.10% == 1)
 end
 if (%world.curobjs(70355)% < 3) && (%random.10% == 1)
   mload obj 70355
-  if (%world.curobjs(70361)% < 3) && (%random.10% == 1)
-    mload obj 70361
-  end
+end
+if (%world.curobjs(70361)% < 3) && (%random.10% == 1)
+  mload obj 70361
+end
 ~
 #70337
 Помер ловчий~
@@ -905,7 +916,7 @@ detach 70340 %rasx.id%
 switch %object.vnum%
   case 70301
     wait 1
-    mpurge %object.name%
+    mpurge %object%
     wait 8
     say Ух ты! Одолел%actor.g% таракана?!!
     wait 8
@@ -933,14 +944,14 @@ switch %object.vnum%
   end
   case 70302
     wait 1
-    mpurge %object.name%
+    mpurge %object%
     г Ах да! Воробей отыскался... Я помню!
     wait 8
     г Молодчина!
     wait 8
     улы %actor.name%
     wait 1
-    mpurge перо
+    *mpurge перо
     wait 8
     if (%actor.class% == 4) && (%actor.level% > 22) && (%actor.skill(осторожный.стиль)% == -1)
       wait 1    
@@ -977,7 +988,7 @@ switch %object.vnum%
   end
   case 70368
     wait 1
-    mpurge %object.name%
+    mpurge %object%
     if (%actor.class% == 4) && (%actor.level% > 22) && (%actor.skill(осторожный.стиль)% == -1)
       сказ %actor.name% Ух ты! Какой ужас ты приволок!
       сказ %actor.name% Похоже, что эта летучая мышь убивала наших зверей.
@@ -993,7 +1004,7 @@ switch %object.vnum%
   end
   case 70362
     wait 1
-    mpurge %object.name%
+    mpurge %object%
     wait 8
     г Это что такое?
     wait 8
@@ -1002,7 +1013,7 @@ switch %object.vnum%
     wait 8
     г Спасибо тебе за то, что избавил нас от этого злодея!
     улы %actor.name%
-    mpurge план
+    *mpurge план
     wait 8
     switch %actor.class%
       *лекарь
@@ -1119,6 +1130,7 @@ switch %object.vnum%
         г Зверям деньги не нужны,а тебе пригодятся...
       break
     done
+  done
 ~
 #70344
 Открываем ворота~
@@ -1134,7 +1146,7 @@ wsend       %actor% Вы опустили рычаг в стене.
 wechoaround %actor% %actor.name% опустил%actor.u% рычаг в стене.
 wait 1s
 wecho    Снизу донесся звон цепей и грохот упавшей створки ворот замка.
-wat 70339 wechoaround %actor% Вдруг с грохотом перед вами упала створка ворот замка, чуть не придавив.
+wechoaround %actor% Вдруг с грохотом перед вами упала створка ворот замка, чуть не придавив.
 wdoor  70339 north flags a
 wdoor  70339 north room  70357
 wdoor  70357 south   flags a
@@ -1156,27 +1168,15 @@ wechoaround %actor% %actor.name% полез%actor.g% через завалы.
 wait 1s
 wsend %actor% Вы благополучно перебрались через заставу зверей.
 wteleport %actor.name% 70305
-wat 70305 wechoaround %actor% Кто-то пролез сюда.
+wechoaround %actor% Кто-то пролез сюда.
 ~
 #70346
 Старичек приветствует~
 0 r 100
 *~
 wait 1
-if player.name="Урик"
-  ик
-  wait 15
-  г Урик-укурик!
-  Ржа
-  wait 15
-  Г лан, не обижайся мужик
-  Ул
-  wait 15
-  Г хош дунуть?
-  Вопр .урик
-Else
-  Г здарова мужик!
-  Г хош дунуть?
+Г здарова мужик!
+Г хош дунуть?
 ~
 #70347
 Триггер коричневого клочка бересты~
@@ -1197,17 +1197,21 @@ end
 Замена марба~
 2 z 100
 ~
-if %world.curmobs(62108)% == 1 then
-  wpurge марб
-  wait 5
-  wpurge зуб
-  wpurge шкур
+if %world.curmobs(62108)% == 1
+  *убираем марбендила из варягов
+  calcuid marb2 62108 mob 
+  wpurge %marb2%
+  *хз что же за зуб пуржится по имени
+  *в 621 перенесу лоад зуба и шкуры на триг чтоб не падали после удаления моба 
+  *  wait 5
+  *  wpurge зуб
+  *  wpurge шкур
   wload mob 70352
   calcuid marb703 70352 mob
-  attach 70349 %marb703.id%
+  attach 70349 %marb703%
   calcuid mslug703 62143 room
-  attach 70351 %mslug703.id%
-  run 70351 %mslug703.id%
+  attach 70351 %mslug703%
+  run 70351 %mslug703%
 end
 ~
 #70349
@@ -1260,18 +1264,33 @@ detach 70350 %self.id%
 Убираем слуг1~
 2 z 100
 ~
+*помоему автор хотел убрать моба 62113 
+*для этого на каждой клетке вызывается 
+*мобов в мире 2
+*  
+if %exist.mob(62113)%
+  calcuid m703 62113 mob
+  %purge% %m703%
+end
+if %exist.mob(62113)%
+  calcuid m703 62113 mob
+  %purge% %m703%
+end
 calcuid m703 62163 room
 detach 70348 %m703.id%
-wpurge слуг
-wpurge слуг
-calcuid mslug703 62144 room
-attach 70352 %mslug703.id%
-run 70352 %mslug703.id%
+*wpurge слуг
+*wpurge слуг
+*calcuid mslug703 62144 room
+*attach 70352 %mslug703.id%
+*run 70352 %mslug703.id%
 ~
 #70352
 Убираем слуг2~
 2 z 100
 ~
+*ненужен (см 51)
+halt
+* 
 calcuid mslug703 62143 room
 detach 70351 %mslug703.id%
 wpurge слуг
@@ -1284,6 +1303,9 @@ run 70353 %mslug703.id%
 Убираем слуг3~
 2 z 100
 ~
+*ненужен (см 51)
+halt
+*
 calcuid mslug703 62144 room
 detach 70352 %mslug703.id%
 wpurge слуг
@@ -1296,6 +1318,9 @@ run 70354 %mslug703.id%
 Убираем слуг4~
 2 z 100
 ~
+*ненужен (см 51)
+halt
+*
 calcuid mslug703 62145 room
 detach 70353 %mslug703.id%
 wpurge слуг
@@ -1400,7 +1425,7 @@ if (%actor.class% == 4) && (%actor.level% > 23) && (%actor.skill(Cкрытый удар)% 
   msend %actor% Марбендилл навеселе побежал охотиться и, чуть не сломав пару сосен у пещеры, исчез из видимости.
   calcuid marb703 70352 mob
   detach 70349 %marb703.id%
-  mpurge марб
+  mpurge %marb703%
 else
   у %actor.name%
 end
@@ -1626,7 +1651,7 @@ wait 1
 mecho Как только Вы раскурили косяк все поплыло перед глазами.
 wait 10
 mecho Через несколько мгновений Вы почувствовали сильную головную боль и протерли свои зенки.
-mteleport %actor.name% 70397
+mteleport %actor% 70397
 ~
 #70376
 Лев вознаграждает~
@@ -1645,7 +1670,8 @@ switch %object.vnum%
     mecho Лев отвернулся, что-то дернул и издал душераздирающий вопль.
     mecho Лев повернулся обратно со счастливым лицом и выпученными сумашедшими глазами.
     г Держи обещанную награду!
-    mpurge ус
+    wait 1
+    mpurge %object%
     switch %random.3%
       case 1
         mload obj 70363
@@ -1852,14 +1878,14 @@ switch %object.vnum%
 switch %object.vnum%
   case 70302
     wait 1
-    mpurge %object.name%
+    mpurge %object%
     г Ах да! Воробей отыскался... Я помню!
     wait 8
     г Молодчина!
     wait 8
     улы %actor.name%
     wait 1
-    mpurge перо
+    *mpurge перо
     wait 8
     if (%actor.class% == 4) && (%actor.level% > 22) && (%actor.skill(осторожный.стиль)% == -1)
       wait 1    
@@ -1897,7 +1923,7 @@ switch %object.vnum%
   switch %object.vnum%
     case 70368
       wait 1
-      mpurge %object.name%
+      mpurge %object%
       if (%actor.class% == 4) && (%actor.level% > 22) && (%actor.skill(осторожный.стиль)% == -1)
         сказ %actor.name% Ух ты! Какой ужас ты приволок!
         сказ %actor.name% Похоже, что эта летучая мышь убивала наших зверей.
@@ -1914,7 +1940,7 @@ switch %object.vnum%
     switch %object.vnum%
       case 70362
         wait 1
-        mpurge %object.name%
+        mpurge %object%
         wait 8
         г Это что такое?
         wait 8
@@ -1923,7 +1949,7 @@ switch %object.vnum%
         wait 8
         г Спасибо тебе за то, что избавил нас от этого злодея!
         улы %actor.name%
-        mpurge план
+        *mpurge план
         wait 8
         switch %actor.class%
           *лекарь

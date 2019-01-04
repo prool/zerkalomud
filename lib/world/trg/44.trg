@@ -149,7 +149,7 @@ switch %actor.class%
     mspellturn %actor.name% насыщение set
   break
   case 13
-    if ((%random.2% == 1) & (%world.curobjs(214)% < 50))
+    if ((%random.2% == 1) && (%world.curobjs(214)% < 50))
       mload obj 214
       дать рун %actor.name%
     end
@@ -167,7 +167,7 @@ elseif %rnd% < 7
 elseif %rnd% < 10
   mload obj 4412
   дать свиток %actor.name%
-elseif (%rnd% < 30) & (%world.curobjs(4407)% < 30)
+elseif (%rnd% < 30) && (%world.curobjs(4407)% < 30)
   mload obj 4407
   дать тесак %actor.name%
 else

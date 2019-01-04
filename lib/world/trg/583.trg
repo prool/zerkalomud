@@ -148,11 +148,18 @@ remote sockergate1id %actor.id%
 exec 58305 %actor.id%
 wait 2
 кричать &W%sockerpinalter1name% забивает %sockergoal1counter% гол в ворота команды '&K%sockercommand1name%&W'!&n
+*болтать &W%sockerpinalter1name% забивает %sockergoal1counter% гол в ворота команды '&K%sockercommand1name%&W'!&y
 mpurge %actor%
 if %ballloadroom%
+  set ballbackroom %self.realroom%
+  global ballbackroom
   eval pause 3+%random.3%
   wait %pause%s
-  mat %ballloadroom% mload mob 58300
+  * т.к. не работает mat команда пришлось извращаться
+  *mat %ballloadroom% mload mob 58300
+  mteleport %self% %ballloadroom%
+  mload mob 58300
+  mteleport %self% %ballbackroom%
 end
 ~
 #58304

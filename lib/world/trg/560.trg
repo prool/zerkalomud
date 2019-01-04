@@ -276,40 +276,8 @@ if (%actor.level% <= 24)
   *if (%actor.quested(560)% || %actor.level% >= 24)
   %actor.exp(+700000)%
   mecho Сказав эти слова Калиника и Ивасек исчезли в неизвестном направлении.
-  wait 1s
-  mpurge %ivas%
-  mpurge %self%
 end
 wait 1s
-*switch %random.7%
-* case 1
-* %actor.wis(+1)%                 
-* say Стань же мудрее за это деяние.
-* break
-* case 2
-* %actor.int(+1)%                
-* say Стань же умнее за это деяние.
-* break
-* case 3
-* %actor.dex(+1)%                    
-* say Стань же более ловким за это деяние.
-* break
-* case 4
-* %actor.con(+1)%
-* say Стань же крепче за это деяние.
-* break
-* case 5
-* %actor.cha(+1)%
-* say Стань же красивее за это деяние.
-* break
-* case 6
-* %actor.str(+1)%
-* say Стань же сильнее за это деяние.
-* break
-* default
-* %actor.exp(+2000000)%
-* break
-*done
 %actor.setquest(560)%
 mecho Сказав эти слова Калиника и Ивасек исчезли в неизвестном направлении.
 wait 1s

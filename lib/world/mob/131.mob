@@ -25,6 +25,7 @@ Cha: 14
 Size: 50
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -42,7 +43,7 @@ E
 Эта красавица помогает ратникам чем может, но не смотрите что она так молода,
 из лука стреляет не хуже отца, а от пощечины вы явно свалитесь
 ~
-b0d0n0o0p0q0r0s0t0u0x0B0f2g2i2 d0f0k0r0C0a1 0 E
+b0d0n0o0p0q0r0t0u0x0B0f2g2i2u2 d0f0k0r0C0a1 0 E
 34 0 0 0d0+800 2d2+2
 0d0+0 0
 8 8 2
@@ -55,6 +56,7 @@ Cha: 12
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1d1i3 
@@ -86,6 +88,7 @@ Cha: 12
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -115,6 +118,7 @@ Cha: 12
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -144,6 +148,7 @@ Cha: 12
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -173,6 +178,7 @@ Cha: 12
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -202,6 +208,7 @@ Cha: 12
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -231,6 +238,7 @@ Cha: 12
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -249,7 +257,7 @@ E
 разберешься, на боку горгульи стоит клеймо с буквами РБЗ и Погоней.
 ~
 d0n0o0p0s0t0z0a1b1f2g2 d0f0k0x0a1 0 E
-10 10 10 0d0+600 2d2+-2
+10 10 10 0d0+600 2d2+2
 0d0+0 0
 8 8 2
 BareHandAttack: 4
@@ -261,9 +269,10 @@ Con: 12
 Cha: 10
 Size: 50
 Class: 103
+Race: 104
 Height: 180
 Weight: 100
-Special_Bitvector: l0b1c1d1 
+Special_Bitvector: l0 
 E
 T 13103
 #13109
@@ -292,6 +301,7 @@ Cha: 12
 Size: 50
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -322,6 +332,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 2
 Class: 103
+Race: 104
 Height: 120
 Weight: 85
 Special_Bitvector: 0 
@@ -371,6 +382,7 @@ Cha: 14
 Size: 50
 ExtraAttack: 2
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: i3 

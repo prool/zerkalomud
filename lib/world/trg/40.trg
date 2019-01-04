@@ -73,21 +73,26 @@ done
 триггер на хозяйке мельницы ~
 0 q 100
 ~
-if %actor.level% >= 10 || (%actor.gold% >= 20) || (%actor.bank% >= 20) 
-  halt
+wait 1
+foreach victim %actor.group%
+  if (%victim.level% < 10 && (%victim.gold% < 20) && (%victim.bank% < 20) && (%actor% != %victim%))
+    msend %victim% Хозяйка сказала Вам:
+    msend %victim% - Эх ты горемычн%victim.w%, голодн%victim.w% наверное, %victim.name%.
+    взд
+    msend %victim% - У меня для голодного всегда кус хлеба найдется...
+    msend %victim% - Сейчас, подожди...
+    dg_cast 'насыщение' %victim.name%
+  end
+done
+*интересно какой мудаг поломал списки... актор груп пуста, если группы нет :(
+if (%actor.level% < 10 && (%actor.gold% < 20) && (%actor.bank% < 20))
+  msend %actor% Хозяйка сказала Вам:
+  msend %actor% - Эх ты горемычн%actor.w%, голодн%actor.w% наверное, %actor.name%.
+  взд
+  msend %actor% - У меня для голодного всегда кус хлеба найдется...
+  msend %actor% - Сейчас, подожди...
+  dg_cast 'насыщение' %actor.name%
 end
-wait  1
-msend %actor% Хозяйка сказала Вам:
-if %actor.sex% == 1
-  msend %actor% - Эх ты горемычный, голодный наверное, %actor.name%.
-elseif
-  %actor.sex% == 2
-  msend %actor% - Эх ты горемычная, голодная наверное, %actor.name%.
-end
-msend %actor% - Что мы нехристи чтоли, чтоб не накормить. 
-*  msend %actor% - всегда найду чем накормить, 
-msend   %actor% - Сейчас, подожди...
-dg_cast 'насыщение' %actor.name%
 ~
 #4002
 входнапостой~
@@ -196,19 +201,18 @@ end
 ~
 #4005
 призовой триг на лисе~
-0 d 1
+0 c 100
 тест~
 wait 1
-say q - %actor.q%
-say g - %actor.g%
-say y - %actor.y%
-say w - %actor.w%
-say u - %actor.u%
-say Ваш класс - %actor.class%
-say Ваш клан - %actor.clan%
-if (%actor.clan% == null)
-  say Это совпадает с null
+%actor.setquest(4001)%
+say метка поставлена
+if %actor.quested(4001)%
+  say Метка проверена!
+else
+  say Метка не проверена!
 end
+c
+%actor.unsetquest(4001)%
 ~
 #4006
 ПКиллер заходит к помощникам~
@@ -291,7 +295,7 @@ mkill %target%
 Пьянка~
 0 b 25
 ~
-switch %random.28%
+switch %random.29%
   case 1
     пук
   break
@@ -389,22 +393,20 @@ switch %random.28%
     петь
     хохот
   break
+  case 29
+    eval drgold %self.gold%/10
+    drop %drgold% кун
+    г Берите! Все берите!!! 
+    emot истово рванул%actor.q% рубаху на груди
+  break
 done
 ~
 #4009
 Скиллы~
 1 c 1
 скилл~
-wait 1
-set target %arg.car%
-eval skill %arg.cdr%
-foreach char %self.pc%
-  if %char.name% ==  %target%
-    eval valueskill %char.skill(%skill%)%
-    global valueskill
-    halt
-  end
-done
+log &CСработал триг на выдачу скиллов - %actor.name% - %actor.realroom%&n
+oecho Чититят только колзы и педерасты.
 ~
 #4010
 Подключение ПЬЯНКИ~
@@ -445,8 +447,8 @@ log вызван читерный триггер на прибавление экспы, юзавший %actor.name%
 0 q 100
 ~
 wait 1
-%actor.loadroom(63671)%
-teleport %actor% 63671
+%actor.loadroom(60036)%
+mteleport %actor% 60036
 log Рента - %actor.name%
 ~
 #4016
@@ -499,5 +501,11 @@ done
 0 b 15
 ~
 крича Ууууууууу!!!
+~
+#4041
+refrefrg~
+0 bcdghi 100
+*~
+
 ~
 $~

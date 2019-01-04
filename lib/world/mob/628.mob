@@ -1,3 +1,4 @@
+* BRusMUD mob file v1.0
 #62800
 дикий степняк~
 дикий степняк~
@@ -15,27 +16,39 @@ c0d0f0h0l0m0A0 k0r0s0 -600 E
 26 18 -3 5d36+900 4d4+10
 0d0+100 45000
 8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
 BareHandAttack: 11
 Str: 18
-Dex: 22
 Int: 20
 Wis: 20
+Dex: 22
 Con: 14
 Cha: 9
-Size: 50
 LikeWork: 75
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
+Size: 50
 Height: 160
 Weight: 60
-Special_Bitvector: b1c1 
-Skill: 131 60
-Skill: 136 78
-Skill: 167 100
+Special_Bitvector: b1c1
 Spell: 5
 Spell: 5
 Spell: 56
 Spell: 137
+Skill: 131 60
+Skill: 136 78
+Skill: 167 100
 E
 I кости,5:5
 #62801
@@ -56,31 +69,43 @@ c0d0f0l0m0A0 k0r0z0 -600 E
 25 18 -5 4d40+1400 2d6+15
 0d0+50 52000
 8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
 BareHandAttack: 11
 Str: 23
-Dex: 17
 Int: 12
 Wis: 14
+Dex: 17
 Con: 16
 Cha: 10
-Size: 60
 LikeWork: 60
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
+Size: 60
 Height: 150
 Weight: 80
-Special_Bitvector: 0 
-Skill: 131 100
-Skill: 136 75
-Skill: 151 70
-Skill: 157 100
-Skill: 160 100
+Special_Bitvector: 0
 Spell: 15
 Spell: 15
 Spell: 15
 Spell: 62
 Spell: 64
 Spell: 64
+Skill: 131 100
+Skill: 136 75
+Skill: 151 70
+Skill: 157 100
+Skill: 160 100
 E
 #62802
 степной орел~
@@ -98,19 +123,32 @@ b0d0f0q0b1 k0x0A0 -600 E
 25 0 0 10d10+400 5d5+8
 0d0+0 10000
 8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
 BareHandAttack: 2
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 103
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: l0 
+Special_Bitvector: l0
 Skill: 2 100
 Skill: 136 75
 E
@@ -130,28 +168,524 @@ I крылья,6:6
 ~
 b0d0 k0r0 -600 E
 26 0 0 10d10+600 6d6+12
-0d0+5 10000
+2d2+3 100000
 8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
 Str: 24
-Dex: 22
 Int: 10
 Wis: 10
+Dex: 22
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 99
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: y0 
+Special_Bitvector: y0
+Spell: 16
+Spell: 16
+Spell: 16
 Skill: 132 50
 Skill: 136 78
 Skill: 137 100
 Skill: 150 100
 Skill: 157 100
 Skill: 158 100
-Spell: 16
-Spell: 16
-Spell: 16
 E
+#62804
+ витко рыбачий~
+витко - рыбачий сын~
+витко - рыбачьего сына~
+витко - рыбачьему сыну~
+витко - рыбачьего сына~
+витко - рыбачьим сыном~
+витко - рыбачьем сыне~
+Витко - рыбачий сын возится со старой удочкой.
+~
+Мальчик лет четырнадцати со смышлеными синими глазами и белокурыми 
+волосами. Сколько он себя помнит, вот так сидел он и ждал пока
+отец придет с рыбалки. Отец, как и все его односельчане, рыбачили 
+много, а потому жили в достатке, да и рыба водилась здесь такая
+какой нигде не сыскать. Приезжали за ней из самых дальних краев.
+~
+b0 d0k0 0 E
+29 -2 -5 10d10+150 3d3+2
+0d0+0 10000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 16
+Int: 16
+Wis: 10
+Dex: 16
+Con: 16
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+T 62801
+#62805
+велко рыбачий сын~
+велко - рыбачий сын~
+велко - рыбачьего сына~
+велко - рыбачьему сыну~
+велко - рыбачьего сына~
+велко - рыбачьим сыном~
+велко - рыбачьем сыне~
+Велко - рыбачий сын стоит руки в брюки.
+~
+Мальчик лет четырнадцати со смышлеными синими глазами и белокурыми 
+волосами. В отличии от трудолюбивого брата больно любит лентяйничать.
+Все делает с неохотой и зевая так, что кажется вот-вот треснет его 
+детская еще, челюсть.
+~
+b0 d0k0 0 E
+29 -3 -4 10d10+245 2d3+4
+0d0+0 10000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 17
+Int: 17
+Wis: 17
+Dex: 17
+Con: 16
+Cha: 17
+LikeWork: 99
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 132 100
+E
+T 62805
+#62806
+ беглый татарин~
+беглый татарин~
+беглого татарина~
+беглому татарину~
+беглого татарина~
+беглым татарином~
+беглом татарине~
+Худощавый татарин невысокого роста расчесывает гриву лошадям.
+~
+Непривычно видеть на русской земле мирно живущего татарина. Но 
+всяко бывает! Никто не знает-не ведает отчего покинул этот
+человек землю прадедов своих. Видно так и унесет с собой в 
+могилу эту тайну. 
+~
+b0 k0 -600 E
+25 -2 -4 10d10+800 4d4+4
+2d4+5 120000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 17
+Int: 17
+Wis: 17
+Dex: 17
+Con: 17
+Cha: 17
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 4 100
+E
+T 62806
+T 62807
+T 62809
+#62807
+лошадка повозкой~
+лошадка с повозкой~
+лошадки с повозкой~
+лошадке с повозкой~
+лошадку с повозкой~
+лошадкой с повозкой~
+лошадке с повозкой~
+Рыжая с коричневыми пятнами лошадка везет груженую рыбой повозку.
+~
+Рыжая, словно опутанная солнечными нитями, лошадка спокойно
+спокойно ждет приказания хозяина. Шелковая грива опускается 
+почти до земли.
+~
+l2 d0f0k0 600 E
+5 -1 0 10d10+100 2d2+2
+0d0+0 10000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 13
+Str: 17
+Int: 17
+Wis: 10
+Dex: 16
+Con: 17
+Cha: 10
+LikeWork: 45
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+E
+T 62820
+I копыта,10:10
+#62808
+ лошадка повозкой~
+лошадка с повозкой~
+лошадки с повозкой~
+лошадке с повозкой~
+лошадку с повозкой~
+лошадкой с повозкой~
+лошадке с повозкой~
+Рыжая с коричневыми пятнами лошадка везет пустую повозку.
+~
+Рыжая, словно опутанная солнечными нитями, лошадка спокойно
+спокойно ждет приказания хозяина. Шелковая грива опускается 
+почти до земли.
+~
+l2 d0f0k0 600 E
+6 -2 -3 10d10+100 2d2+2
+0d0+0 10000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 13
+Str: 17
+Int: 16
+Wis: 17
+Dex: 17
+Con: 17
+Cha: 17
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+E
+T 62820
+I копыта,10:10
+#62809
+ златоперый карп рыба солнце~
+златоперый карп~
+златоперого карпа~
+златоперому карпу~
+златоперого карпа~
+златоперым карпом~
+златопером карпе~
+Сияющая словно солнце рыба плещется в воде.
+~
+Всем рыбам рыба! Блестит, словно солнце, золотая чешуя. 
+Плавники - как из горного хрусталя ! А глаза - огромные
+аметисты!
+~
+l0m0a1 k0 -600 E
+26 -4 -22 10d10+400 3d3+3
+0d0+0 100000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 100
+PlusMem: 0
+CastSuccess: 100
+Success: 0
+Initiative: 100
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 12
+Str: 16
+Int: 17
+Wis: 17
+Dex: 17
+Con: 17
+Cha: 17
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: o0v0
+Spell: 56
+E
+T 62821
+T 62822
+I чешуя,10:10
+#62810
+ малек златоперого карпа~
+малек златоперого карпа~
+малька златоперого карпа~
+мальку златоперого карпа~
+малька златоперого карпа~
+мальком златоперого карпа~
+мальке златоперого карпа~
+Малек златоперого карпа носится по мелководью.
+~
+Всем рыбам рыба! Хоть и еще маленькая. Блестит, словно 
+солнце, золотая чешуя. Плавники - как из горного хрусталя ! 
+А глаза - огромные аметисты!
+~
+m0a1 0 -600 E
+15 -1 -5 10d10+200 2d3+3
+0d0+0 10000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 100
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 12
+Str: 17
+Int: 17
+Wis: 17
+Dex: 17
+Con: 17
+Cha: 17
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: o0v0
+Skill: 160 150
+Skill: 167 150
+E
+T 62821
+T 62822
+#62811
+ рыбак велезар~
+рыбак Велезар~
+рыбака Велезара~
+рыбаку Велезару~
+рыбака Велезара~
+рыбаком Велезаром~
+рыбаке Велезаре~
+Рыбак Велезар склонился над костром.
+~
+Статный мужчина средних лет. Видно, что успешен его промысел
+уже на протяжении многих лет. Говорят знает он слова заветные, 
+чтобы рыба сама в руки шла. Да не признается он.
+~
+0 d0k0 0 E
+1 0 0 10d10+2 0d0+0
+0d0+0 10000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+E
+T 62818
+T 62819
+#62812
+ белая баба~
+белая баба~
+белой бабы~
+белой бабе~
+белую бабу~
+белой бабой~
+белой бабе~
+Женщина во всем белом стоит посреди тропы.
+~
+Высокая женщина одетая в белую ткань с головы до ног. 
+Она внезапно появляется чаще всего из лесу на дороге. 
+Белая Баба обычно стоит молча с закрытыми глазами или 
+плачет и причитает. Иногда она просит купить ей белую 
+ткань, а взамен предсказывает будующее. Исчезает 
+также внезапно, как и появляется. Своим появлением она 
+предвещает несчастье, войну, болезнь или смерть.
+~
+b0 0 -600 E
+28 -2 -5 10d10+500 4d3+2
+0d0+0 100000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 100
+PlusMem: 0
+CastSuccess: 30
+Success: 30
+Initiative: 30
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 17
+Int: 17
+Wis: 17
+Dex: 17
+Con: 16
+Cha: 17
+LikeWork: 75
+MaxFactor: 0
+ExtraAttack: 1
+Class: 105
+Size: 100
+Height: 175
+Weight: 85
+Spell: 98
+Spell: 98
+E
+T 62824
+#62813
+ водяной шишок женщина~
+водяной шишок~
+водяного шишка~
+водяному шишку~
+водяного шишка~
+водяным шишком~
+водяном шишке~
+Женщина с длинными распущенными волосами показалась из воды.
+~
+Женщина с длинными распущенными волосами, обитающая в 
+воде и показывающаяся из нее.
+~
+b0f0 0 -600 E
+26 -3 -21 10d10+700 3d3+5
+0d0+0 100000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 100
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 100
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 17
+Int: 16
+Wis: 16
+Dex: 17
+Con: 16
+Cha: 16
+LikeWork: 95
+MaxFactor: 0
+ExtraAttack: 1
+Class: 100
+Size: 100
+Height: 175
+Weight: 85
+Special_Bitvector: v0
+Spell: 144
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Skill: 132 150
+E
+$
 $

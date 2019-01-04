@@ -51,7 +51,7 @@ end
 switch %random.3%
   case 1
     oload mob 11802
-    oecho ...и ужасный зомби вылез из раскрывшейся ямы.
+    oecho ...и ужасный мертвяк вылез из раскрывшейся ямы.
   break
   case 2
     oload mob 11803
@@ -142,15 +142,14 @@ mecho %actor.name%, убив ворона позабыл%actor.g% об осторожности
 mecho и не успел%actor.g% вовремя отскочить.
 mdamage %actor% 200
 calcuid monah 11800 mob
+If (%actor.leader% && (%actor.vnum% != -1))
+  eval myhero %actor.leader%
+else
+  eval myhero %actor%
+end
 detach 11800 %monah.id%
 attach 11808 %monah.id%
-if %world.curobjs(1242)% < 1
-  if %world.curobjs(1241)% < 1
-    if %random.10000% < 50
-      mload obj 1242
-    end
-  end
-end
+remote myhero %world.mob(11800)%
 ~
 #11806
 ворон хиляется~
@@ -176,9 +175,13 @@ opurge %self%
 0 r 100
 ~
 wait 1
+if (%actor.id% != %myhero.id%)
+  say Пусть войдет ко мне %myhero.name%, мой герой !
+  halt
+end
 switch %random.20%
   case 1
-    if %world.curobjs(11804)% < %random.3% || %random.100% == 1
+    if %world.curobjs(11804)% < 3
       say Спасибо путник, теперь я отблагодарю тебя!
       mload obj 11804
       дать все %actor.name%
@@ -221,7 +224,8 @@ switch %random.20%
           say Спасибо путник!
           wait 10
           say Отныне ты в любой момент желанный гость в нашей скромной обители!
-          дать 5000 кун %actor.name%
+          %self.gold(+2500)%
+          дать 2500 кун .%actor.name%
         done
         detach 11808 %self.id%
 ~

@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #70200
  свирепое животное~
 свирепое животное~
@@ -13,7 +12,7 @@
 действительно то зло, кровь которого может принести покой даже жаждущей 
 мести душе.
 ~
-b0c0f0g0m0n0o0A0 c0d0e0k0w1 -600 E
+b0c0d0f0g0m0n0o0A0 c0d0e0k0w1 -600 E
 32 0 -9 10d10+9999 17d17+0
 0d0+0 1000000
 5 5 0
@@ -26,31 +25,28 @@ CastSuccess: 35
 Success: 9
 Initiative: 9
 Absorbe: 55
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 45
+Dex: 45
 Int: 35
 Wis: 38
-Dex: 45
 Con: 45
 Cha: 16
+Size: 100
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 3
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 1
 Feat: 3
 Feat: 29
 Feat: 68
 Feat: 78
 Feat: 79
-Spell: 156
-Spell: 156
-Spell: 156
+Skill: 132 130
+Skill: 136 130
 Spell: 23
 Spell: 23
 Spell: 23
@@ -88,8 +84,9 @@ Spell: 76
 Spell: 76
 Spell: 82
 Spell: 93
-Skill: 132 130
-Skill: 136 130
+Spell: 156
+Spell: 156
+Spell: 156
 E
 T 70214
 #70201
@@ -105,39 +102,31 @@ T 70214
    Настоящий гигант, длиной в руку человека. Его крепкие челюсти весьма
 ясно дают понять, что ссориться с ним не следует.
 ~
-b0c0g0m0n0o0A0 k0r0 -600 E
+b0c0d0g0m0n0o0A0 k0r0 -600 E
 28 5 -4 20d5+2222 15d15+30
 0d0+0 200000
 8 8 1
 Saves: -40 -12 -12 -12
 Resistances: 33 33 33 33 33 33 33
-HPreg: 0
 Armour: 40
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 10
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 30
+Dex: 30
 Int: 17
 Wis: 17
-Dex: 30
 Con: 30
 Cha: 19
+Size: 30
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 3
 Class: 103
-Size: 30
 Height: 198
 Weight: 50
-Special_Bitvector: g0
-Spell: 28
+Special_Bitvector: g0 
 Skill: 134 100
 Skill: 136 100
+Spell: 28
 E
 #70202
 бурый медведь~
@@ -153,39 +142,32 @@ E
 трофеем в охотничьей коллекции. А его зубы могут с той же легкостью 
 полакомиться человечиной. 
 ~
-g0l0m0n0o0A0 f0t1 -600 E
+d0g0l0m0n0o0A0 f0t1 -600 E
 29 4 0 20d20+2550 16d16+30
 0d0+0 230000
 8 8 1
 Saves: -20 -5 -5 -5
 Resistances: 6 6 6 6 6 6 6
-HPreg: 0
 Armour: 30
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 35
+Dex: 35
 Int: 20
 Wis: 20
-Dex: 35
 Con: 35
 Cha: 26
+Size: 50
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 50
 Height: 198
 Weight: 50
+Special_Bitvector: 0 
 Feat: 1
+Skill: 4 100
 Skill: 132 100
 Skill: 136 100
-Skill: 4 100
 E
 #70203
 бурый медведь~
@@ -199,39 +181,32 @@ E
 ~
 Крупный бурый медведь выглядит несколько сонно.
 ~
-g0l0m0n0o0A0 f0t1 -600 E
+d0g0l0m0n0o0A0 f0t1 -600 E
 29 4 -2 20d20+2550 16d16+30
 0d0+0 230000
 8 8 1
 Saves: -25 -6 -6 -6
 Resistances: 16 16 16 16 15 15 15
-HPreg: 0
 Armour: 35
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 22
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 35
+Dex: 35
 Int: 20
 Wis: 20
-Dex: 35
 Con: 35
 Cha: 26
+Size: 50
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 50
 Height: 198
 Weight: 50
+Special_Bitvector: 0 
 Feat: 1
+Skill: 4 100
 Skill: 132 100
 Skill: 136 100
-Skill: 4 100
 E
 T 70218
 #70204
@@ -246,45 +221,35 @@ T 70218
 ~
 Клест. Обожает шишки и мелких насекомых. Оставьте в покое защитника леса.
 ~
-g0h0m0n0o0 h0k0x0 -600 E
+d0g0h0m0n0o0 h0k0x0 -600 E
 28 6 -3 0d0+1580 11d13+5
 0d0+0 150000
 8 8 1
 Saves: -9 -9 -9 -9
 Resistances: 6 6 6 6 6 6 6
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
 Initiative: 5
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 20
+Dex: 25
 Int: 28
 Wis: 30
-Dex: 25
 Con: 20
 Cha: 35
-LikeWork: 60
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 30
+LikeWork: 60
+Class: 103
 Height: 198
 Weight: 50
-Special_Bitvector: l0
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 48
-Spell: 56
+Special_Bitvector: l0 
 Skill: 136 100
 Skill: 157 100
+Spell: 48
+Spell: 56
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
 E
 T 70224
 #70205
@@ -300,47 +265,38 @@ T 70224
 Объевшаяся шишек белка уже не знает чем бы ей заняться. Она сыто икает и 
 держится лапками за живот.
 ~
-g0h0m0n0o0 h0k0x0 -600 E
+d0g0h0m0n0o0 h0k0x0 -600 E
 28 4 -4 0d0+1600 12d13+5
 5d5+0 150000
 8 8 2
 Saves: -11 -11 -11 -11
 Resistances: 14 14 14 14 14 14 1
-HPreg: 0
 Armour: 15
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 5
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 23
+Dex: 30
 Int: 26
 Wis: 27
-Dex: 30
 Con: 23
 Cha: 32
-LikeWork: 65
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 30
+LikeWork: 65
+Class: 103
 Height: 198
 Weight: 50
-Special_Bitvector: l0
-Spell: 111
-Spell: 26
-Spell: 26
-Spell: 26
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
+Special_Bitvector: l0 
 Skill: 136 100
 Skill: 157 100
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 111
 E
 T 70225
 #70206
@@ -356,47 +312,38 @@ T 70225
 Весьма крепкий светловолосый воин, всегда готовый взять оружие, и стать на 
 защиту своей Родины.
 ~
-c0g0l0o0A0 c0d0e0k0A0t1x1 -600 E
+c0d0g0l0o0A0 c0d0e0k0A0t1x1 -600 E
 30 0 -6 30d5+3100 15d13+20
 20d5+0 285000
 8 8 1
 Saves: -30 -20 -9 -9
 Resistances: 6 6 6 6 0 0 0
-HPreg: 0
 Armour: 40
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 37
+Dex: 37
 Int: 29
 Wis: 29
-Dex: 37
 Con: 37
 Cha: 37
+Size: 50
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 68
+Special_Bitvector: b1c1 
+Skill: 22 100
 Skill: 136 100
 Skill: 148 100
 Skill: 150 100
 Skill: 154 100
 Skill: 155 100
 Skill: 157 100
-Skill: 22 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 68
 E
 T 70219
 #70207
@@ -411,59 +358,51 @@ T 70219
 ~
 Убеленный сединами старик. Какая-то хитрость видна в его глазах.
 ~
-b0g0n0o0x0 c0d0e0k0n0m0r0C0x1 -600 E
+b0d0g0n0o0x0 c0d0e0k0m0n0r0C0x1 -600 E
 30 5 0 0d0+3000 10d30+10
 20d10+0 270000
 8 8 1
 Saves: -40 -20 -20 -20
 Resistances: 25 25 25 25 25 25 25
-HPreg: 0
 Armour: 35
-PlusMem: 0
 CastSuccess: 25
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 27
+Dex: 24
 Int: 37
 Wis: 37
-Dex: 24
 Con: 26
 Cha: 17
+Size: 10
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
 Height: 198
 Weight: 150
-Special_Bitvector: b1c1
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 48
-Spell: 48
-Spell: 48
-Spell: 82
-Spell: 82
-Spell: 82
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
+Special_Bitvector: b1c1 
 Skill: 132 110
 Skill: 136 110
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
 E
 T 70200
 T 70201
@@ -480,51 +419,42 @@ T 70220
 ~
 Большой черный ворон. Ищет себе поживу.
 ~
-g0k0m0b1 k0n0m0r0x0 -600 E
+d0g0k0m0b1 k0m0n0r0x0 -600 E
 28 5 -3 0d0+1900 17d17+5
 0d0+0 175000
 8 8 1
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 15
-PlusMem: 0
-CastSuccess: 0
 Success: 5
 Initiative: 5
 Absorbe: 9
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 22
+Dex: 22
 Int: 22
 Wis: 22
-Dex: 22
 Con: 22
 Cha: 22
-LikeWork: 70
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 30
+LikeWork: 70
+Class: 103
 Height: 198
 Weight: 50
-Special_Bitvector: l0
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 114
-Spell: 114
-Spell: 114
+Special_Bitvector: l0 
 Skill: 136 100
 Skill: 150 100
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 114
+Spell: 114
+Spell: 114
 E
 #70209
 дух словенин~
@@ -539,35 +469,27 @@ E
 Дух словенина, павшего в бою. Нет ему покоя и вынужден он вечно скитаться 
 над полем боя.
 ~
-f0g0n0o0p0q0r0x0z0b1g2 c0d0e0k0x0C0r1 -600 E
+d0f0g0n0o0p0q0r0x0z0b1g2 c0d0e0k0x0C0r1 -600 E
 30 0 -6 10d5+2800 16d16+35
 0d0+0 250000
 8 8 1
 Saves: -70 -30 -30 -30
 Resistances: 30 30 30 30 30 30 30
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 50
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 32
+Dex: 32
 Int: 32
 Wis: 32
-Dex: 32
 Con: 32
 Cha: 32
+Size: 40
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 40
 Height: 198
 Weight: 50
+Special_Bitvector: l0b1c1B3 
 Feat: 3
 Feat: 29
 Feat: 37
@@ -575,26 +497,25 @@ Feat: 68
 Feat: 76
 Feat: 78
 Feat: 79
-Special_Bitvector: l0b1c1B3
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
+Skill: 21 110
 Skill: 136 110
 Skill: 148 110
 Skill: 157 110
-Skill: 21 110
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
 E
 T 70227
 #70210
@@ -609,35 +530,28 @@ T 70227
 ~
 Дух погибшего викинга, жаждет мести.
 ~
-f0g0n0o0p0q0r0x0z0b1g2 c0d0e0k0x0A0C0r1 -600 E
+d0f0g0n0o0p0q0r0x0z0b1g2 c0d0e0k0x0A0C0r1 -600 E
 30 0 -6 0d0+3300 17d17+40
 0d0+0 300000
 8 8 1
 Saves: -65 -40 -40 -40
 Resistances: 50 50 50 50 50 50 50
-HPreg: 0
 Armour: 55
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 36
+Dex: 29
 Int: 28
 Wis: 28
-Dex: 29
 Con: 36
 Cha: 25
+Size: 40
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 40
 Height: 198
 Weight: 50
+Special_Bitvector: l0b1c1 
 Feat: 1
 Feat: 3
 Feat: 29
@@ -646,26 +560,25 @@ Feat: 35
 Feat: 68
 Feat: 70
 Feat: 74
-Special_Bitvector: l0b1c1
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 114
-Spell: 114
-Spell: 114
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
-Spell: 75
 Skill: 1 110
+Skill: 5 110
 Skill: 136 110
 Skill: 142 110
 Skill: 146 110
-Skill: 5 110
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 114
+Spell: 114
+Spell: 114
 E
 T 70221
 #70211
@@ -680,56 +593,30 @@ T 70221
 ~
 Дух погибшего скандинава, жаждет мести.
 ~
-b0f0g0n0o0p0r0x0z0b1g2 c0d0e0k0x0n1r1 -600 E
+b0d0f0g0n0o0p0r0x0z0b1g2 c0d0e0k0x0n1r1 -600 E
 31 0 -5 0d0+8000 16d16+22
 0d0+0 1000000
 8 8 1
 Saves: -60 -60 -60 -30
 Resistances: 45 45 45 45 45 45 45
-HPreg: 0
 Armour: 55
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 30
+Dex: 30
 Int: 38
 Wis: 38
-Dex: 30
 Con: 25
 Cha: 30
+Size: 40
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 40
 Height: 198
 Weight: 50
+Special_Bitvector: l0 
 Feat: 3
-Special_Bitvector: l0
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 156
-Spell: 156
-Spell: 156
+Skill: 4 110
+Skill: 136 110
 Spell: 56
 Spell: 56
 Spell: 56
@@ -739,8 +626,25 @@ Spell: 68
 Spell: 68
 Spell: 68
 Spell: 94
-Skill: 136 110
-Skill: 4 110
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 156
+Spell: 156
+Spell: 156
 E
 #70212
   рогатый лось~
@@ -755,35 +659,28 @@ E
 Обладатель огромных рогов, кои могут стать грозным оружием в борьбе за 
 выживание.
 ~
-g0m0n0o0 k0r0 -600 E
+d0g0m0n0o0 k0r0 -600 E
 28 4 0 10d10+2100 13d13+6
 0d0+0 180000
 8 8 1
 Saves: -15 -9 -9 -9
 Resistances: 14 14 14 14 14 14 14
-HPreg: 0
 Armour: 32
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
 BareHandAttack: 14
 Str: 28
+Dex: 32
 Int: 23
 Wis: 26
-Dex: 32
 Con: 25
 Cha: 20
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 100
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 132 100
 Skill: 136 100
 Skill: 151 100
@@ -800,7 +697,7 @@ E
 ~
 Черная ядовитая змея, с двумя острыми зубами, торчащими из пасти.
 ~
-f0g0m0o0A0g2 c0d0k0n0m0m1 -600 E
+d0f0g0m0o0A0g2 c0d0k0m0n0m1 -600 E
 30 0 -5 10d10+3000 14d14+0
 6d6+0 300000
 8 8 2
@@ -808,28 +705,26 @@ Saves: -60 -20 -20 -20
 Resistances: 33 33 33 33 22 22 22
 HPreg: 55
 Armour: 30
-PlusMem: 0
 CastSuccess: 22
 Success: 5
 Initiative: 5
 Absorbe: 30
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 29
+Dex: 40
 Int: 24
 Wis: 24
-Dex: 40
 Con: 33
 Cha: 23
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 2
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: g0m0
+Special_Bitvector: g0m0 
+Skill: 136 115
+Skill: 160 115
 Spell: 23
 Spell: 23
 Spell: 23
@@ -839,8 +734,6 @@ Spell: 33
 Spell: 33
 Spell: 33
 Spell: 58
-Skill: 136 115
-Skill: 160 115
 E
 T 70223
 #70214
@@ -856,38 +749,32 @@ T 70223
 Зеленый получеловек полузверь, вечно живущий в подземельях, не видавших 
 солнечного света.
 ~
-f0g0m0n0o0A0 c0d0k0c1t1 -600 E
+d0f0g0m0n0o0A0 c0d0k0c1t1 -600 E
 30 0 -5 10d10+3333 16d16+16
 7d7+0 300000
 8 8 1
 Saves: -40 -9 -9 -9
 Resistances: 25 25 25 25 0 0 0
-HPreg: 0
 Armour: 40
-PlusMem: 0
 CastSuccess: 15
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 40
+Dex: 35
 Int: 19
 Wis: 19
-Dex: 35
 Con: 39
 Cha: 20
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: b1c1 
 Feat: 1
 Feat: 3
-Special_Bitvector: b1c1
+Skill: 5 110
+Skill: 136 110
 Spell: 54
 Spell: 92
 Spell: 92
@@ -895,8 +782,6 @@ Spell: 92
 Spell: 92
 Spell: 92
 Spell: 92
-Skill: 136 110
-Skill: 5 110
 E
 T 70226
 #70215
@@ -912,49 +797,41 @@ T 70226
 Зеленый получеловек полузверь с двумя головами никогда не выходит из 
 подземелья на дневной свет.
 ~
-f0g0m0n0o0A0 c0d0k0c1t1 -600 E
+d0f0g0m0n0o0A0 c0d0k0c1t1 -600 E
 31 0 -7 10d10+3500 16d16+26
 8d8+0 350000
 8 8 1
 Saves: -50 -15 -15 -15
 Resistances: 35 35 35 35 0 0 0
-HPreg: 0
 Armour: 50
-PlusMem: 0
 CastSuccess: 20
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 43
+Dex: 38
 Int: 23
 Wis: 23
-Dex: 38
 Con: 42
 Cha: 20
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: b1c1 
 Feat: 1
 Feat: 3
-Special_Bitvector: b1c1
+Skill: 5 115
+Skill: 136 115
 Spell: 26
 Spell: 26
 Spell: 26
 Spell: 26
 Spell: 56
-Skill: 136 115
-Skill: 5 115
 E
 T 70226
 #70216
- трехголовый тролль~
+трехголовый тролль~
 трехголовый тролль~
 трехголового тролля~
 трехголовому троллю~
@@ -966,47 +843,38 @@ T 70226
 Черный получеловек полузверь с тремя головами никогда не выходит из 
 подземелья на дневной свет.
 ~
-f0g0m0n0o0A0 c0d0k0c1t1 -600 E
+d0f0g0m0n0o0A0 c0d0k0c1t1 -600 E
 31 0 -8 10d10+3700 16d17+30
 8d8+0 400000
 8 8 1
 Saves: -56 -18 -18 -18
 Resistances: 40 40 40 40 20 20 20
-HPreg: 0
 Armour: 55
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 25
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 45
+Dex: 42
 Int: 26
 Wis: 26
-Dex: 42
 Con: 47
 Cha: 24
+Size: 100
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: b1c1 
 Feat: 1
 Feat: 3
-Special_Bitvector: b1c1
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
+Skill: 5 120
 Skill: 132 120
 Skill: 136 120
-Skill: 5 120
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
 E
 T 70222
 #70217
@@ -1022,45 +890,36 @@ T 70222
    Трудолюбивый старик многое повидал на своем веку. Многое он знает, и обо
 всем поведает хорошему человеку.
 ~
-b0g0l0n0o0 c0d0e0k0A0t1x1 -600 E
+b0d0g0l0n0o0 c0d0e0k0A0t1x1 -600 E
 30 0 -6 30d5+3000 15d13+20
 20d5+0 280000
 8 8 1
 Saves: -50 0 0 0
 Resistances: 0 15 15 15 0 0 0
-HPreg: 0
 Armour: 40
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 37
+Dex: 37
 Int: 29
 Wis: 29
-Dex: 37
 Con: 37
 Cha: 37
+Size: 50
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 50
-Special_Bitvector: b1c1
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 68
-Spell: 68
-Spell: 68
+Special_Bitvector: b1c1 
 Skill: 132 100
 Skill: 136 100
 Skill: 150 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 68
+Spell: 68
+Spell: 68
 E
 #70218
  словенский кузнец~
@@ -1074,44 +933,36 @@ E
 ~
 Здоровенный детина с молотом в руках кует что-то нужное хуторскому населению.
 ~
-b0g0l0n0o0 c0d0e0k0A0t1x1 -600 E
+b0d0g0l0n0o0 c0d0e0k0A0t1x1 -600 E
 30 0 -6 30d5+3000 15d15+20
 20d5+0 300000
 8 8 1
 Saves: -50 -10 -5 0
 Resistances: 6 6 6 6 6 6 6
-HPreg: 0
 Armour: 60
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 40
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 40
+Dex: 40
 Int: 29
 Wis: 29
-Dex: 40
 Con: 40
 Cha: 37
+Size: 50
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 50
+Special_Bitvector: b1c1 
 Feat: 1
 Feat: 29
 Feat: 30
-Special_Bitvector: b1c1
+Skill: 4 110
+Skill: 22 110
 Skill: 136 110
 Skill: 141 110
 Skill: 150 110
-Skill: 22 110
-Skill: 4 110
 E
 #70219
  старый мельник~
@@ -1127,47 +978,39 @@ E
 тяжеленными мешками муки. Все движения у него точны и быстры, как у
 охотника...
 ~
-b0g0l0n0o0 c0d0e0k0A0t1x1 -600 E
+b0d0g0l0n0o0 c0d0e0k0A0t1x1 -600 E
 30 0 -3 10d5+3000 13d15+20
 20d5+0 300000
 8 8 1
 Saves: -40 -55 -5 -5
 Resistances: 8 8 8 8 8 8 8
-HPreg: 0
 Armour: 45
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 38
+Dex: 37
 Int: 26
 Wis: 29
-Dex: 37
 Con: 36
 Cha: 33
+Size: 50
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 50
 Height: 198
 Weight: 50
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
+Skill: 4 120
+Skill: 132 120
+Skill: 136 120
+Spell: 56
+Spell: 88
 Spell: 150
 Spell: 152
 Spell: 152
 Spell: 152
 Spell: 152
 Spell: 152
-Spell: 56
-Spell: 88
-Skill: 132 120
-Skill: 136 120
-Skill: 4 120
 E
 #70220
  муравей охранник~
@@ -1183,42 +1026,34 @@ E
 ясно дают понять, что ссориться с ним не следует. Он готов умереть ради
 своих сородичей.
 ~
-b0f0g0n0o0 d0k0r0 -600 E
+b0d0f0g0n0o0 d0k0r0 -600 E
 28 5 -4 20d5+2222 15d15+30
 0d0+0 210000
 8 8 1
 Saves: -50 -19 -19 -19
 Resistances: 40 40 40 40 40 40 40
-HPreg: 0
 Armour: 55
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 30
+Dex: 30
 Int: 17
 Wis: 17
-Dex: 30
 Con: 30
 Cha: 19
+Size: 30
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 2
 Class: 103
-Size: 30
 Height: 198
 Weight: 50
+Special_Bitvector: g0 
 Feat: 1
 Feat: 3
-Special_Bitvector: g0
-Spell: 28
+Skill: 4 110
 Skill: 132 110
 Skill: 136 110
-Skill: 4 110
+Spell: 28
 E
 #70221
 дух жреца~
@@ -1232,55 +1067,25 @@ E
 ~
 Дух погибшего скандинава, жаждет мести.
 ~
-b0f0g0n0o0p0r0x0z0b1g2 c0d0e0k0x0r1 -600 E
+b0d0f0g0n0o0p0r0x0z0b1g2 c0d0e0k0x0r1 -600 E
 31 0 -5 0d0+8000 16d16+22
 0d0+0 1000000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 30
+Dex: 30
 Int: 38
 Wis: 38
-Dex: 30
 Con: 25
 Cha: 30
+Size: 40
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 40
 Height: 198
 Weight: 50
-Special_Bitvector: l0
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 156
-Spell: 156
-Spell: 156
+Special_Bitvector: l0 
+Skill: 4 110
+Skill: 136 110
 Spell: 56
 Spell: 56
 Spell: 56
@@ -1290,9 +1095,25 @@ Spell: 68
 Spell: 68
 Spell: 68
 Spell: 94
-Skill: 136 110
-Skill: 4 110
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 156
+Spell: 156
+Spell: 156
 E
 T 70217
-$
 $

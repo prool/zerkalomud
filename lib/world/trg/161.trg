@@ -182,8 +182,7 @@ end
 дали ключ старику~
 0 j 100
 ~
-eval vnum %random.2%*2+3312
-eval vnum1 %vnum%+1
+eval vnum %random.2%+3310
 wait 1
 if %object.vnum% !=16105
   wait 6
@@ -191,7 +190,7 @@ if %object.vnum% !=16105
   брос все
   halt
 end
-mpurge ключ
+mpurge %object%
 say О! Ключ от сокровищницы Черного Дайме! Я же говорил, что это Ваша карма!
 wait 1
 дум
@@ -222,7 +221,7 @@ if (%random.10%==1)
   г критическая неудача, а это в свою очередь означает, что я тебе 
   г ничего не дам в благодарность за работу. Считай что тебя просто кинули.
   halt
-elseif %world.curobjs(%vnum%)% < 1 && %world.curobjs(%vnum1%)% < 1
+elseif (%world.curobjs(%vnum%)% < 1)
   wait 5
   mecho Ямабуси достал из кармана двадцатигранный кубик и кинул.
   wait 5

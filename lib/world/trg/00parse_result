@@ -1,0 +1,6 @@
+143.trg:%teleport% %actor.name% 14339
+143.trg:  %teleport% %actor.name% 14339
+143.trg:%teleport% %name2.name% 14339
+283.trg:  %teleport% %actor.name%  28375
+283.trg:  %teleport% %actor.name%  28343
+312.trg:  %teleport% %actor.name% 31239

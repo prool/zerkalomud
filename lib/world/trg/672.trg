@@ -147,7 +147,7 @@ end
 wait 2s
 if %object.vnum% == 67207
   mjunk all
-  if (%world.curobjs(67221)% <5) & (%random.4% == 1)
+  if (%world.curobjs(67221)% <5) && (%random.100% < 26)
     wait 2s
     mload obj 67221
     дат меч %actor.name%
@@ -158,7 +158,7 @@ end
 wait 2s
 if %object.vnum% ==67216 
   mjunk all
-  if (%world.curobjs(67224)% < 5) & (%random.3% == 1)
+  if (%world.curobjs(67224)% < 5) && (%random.100% < 34)
     wait 2s
     mload obj 67224
     дат перевязь %actor.name%
@@ -169,7 +169,7 @@ end
 wait 2s
 if %object.vnum% ==67217 
   mjunk all
-  if (%world.curobjs(67218)% < 5) & (%random.3% == 1)
+  if (%world.curobjs(67218)% < 5) && (%random.100% < 34)
     wait 2s
     mload obj 67218
     дат амулет %actor.name%
@@ -430,7 +430,7 @@ say Вы бы тоже время за зря не теряли, да в те страны южные далекие отправлялись
 say Одно токо прошу - передайте весточку мому тяте.
 wait 1s
 mload obj 67204
-дать вест %actor.name%
+дать вест .%actor.name%
 mecho Матюша помахал булавой и быстро ушел на запад.
 wait 1
 %purge% %self%

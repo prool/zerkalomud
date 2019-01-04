@@ -218,7 +218,7 @@ detach 62201 %self.id%
 0 k 100
 ~
 wait 1
-if %actor.hitp% < 99
+if ((%actor.hitp% < 99) && (%actor.realroom% == %self.realroom%))
   mecho _Внезапно берсерк испустил оглушительный боевой клич!
   msend %actor% _Берсерк Хальфдан нанес Вам СТРАШНЫЙ удар!!!
   mechoaround %actor% _Берсерк Хальфдан нанес %actor.dname% СТРАШНЫЙ удар!!!
@@ -702,12 +702,6 @@ mpurge %self.name%
 конунг убит~
 0 f 100
 ~
-if (%random.100% <= 12) && (%world.curobjs(216)% < 50) 
-  mload obj 216
-end
-if %random.100% < 3 && %world.curobjs(3336)% < 1 && %world.curobjs(3337)% < 1
-  mload obj 3336
-end
 if %questor622.realroom% != 62279
   halt
 end

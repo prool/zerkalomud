@@ -87,7 +87,7 @@ d0f0g0m0z0 b0k0 -600 E
 Str: 13
 Dex: 13
 Int: 20
-Wis: 17
+Wis: 25
 Con: 14
 Cha: 12
 Size: 25
@@ -208,11 +208,11 @@ E
 ~
 Огромное скопище жалящих крылатых паразитов.
 ~
-d0f0g0z0 k0x0C0 -600 E
+d0e0f0g0q0z0t1 k0x0C0 -600 E
 14 17 3 5d4+200 2d2+2
 0d0+0 14000
 8 8 1
-BareHandAttack: 4
+BareHandAttack: 16
 Str: 13
 Dex: 16
 Int: 8

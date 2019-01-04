@@ -166,7 +166,7 @@ switch %random.4%
     wsend %char% _Которая с силой вцепилась Вам в горло.
     wsend %char% _От такой хватки, вы на мгновение потеряли сознание.
     %char.wait(3)%
-    wechoaround %char% _Которая в туже секунду схватила %char.vname% за горло
+    wechoaround %char% _Которая в ту же секунду схватила %char.vname% за горло
     if %char.sex% == 1 
       wechoaround %char% _И стремительно исчезла с ним за дверью!
     else
@@ -360,7 +360,7 @@ mload obj 95201
 ~
 wait 5
 msend %actor% _Худой дозорный тоскливо посмотрел на Вас.
-mechoaround %actor% _Ходой дозорный тоскливо посмотрел на %actor.rname%.
+mechoaround %actor% _Худой дозорный тоскливо посмотрел на %actor.vname%.
 wait 3s
 mecho _Худой дозорный:
 mecho _- Тоже пришел потешаться на до мной?!
@@ -433,7 +433,7 @@ mecho _Большой орел взмахнул крыльями из которых полетели мелкие стальные иглы!
 foreach char %self.char%
   if %random.2% == 1
     msend %char% _В Вас попала одна из игл, вылетевшая из крыла орла!
-    mechoaround %actor% _Одна из игл, выпущенная орлом, угодила прямо в %actor.rname%!
+    mechoaround %actor% _Одна из игл, выпущенная орлом, угодила прямо в %actor.vname%!
     mdamage %char% 150
   end
 done
@@ -487,7 +487,7 @@ wait 1
 if %object.vnum% == 95232
   mpurge %object%
   msend %actor% _Главный страж удивленно посмотрел на Вас.
-  mechoaround %actor% _Главный страж удивленно посмотрел на %actor.rname%.
+  mechoaround %actor% _Главный страж удивленно посмотрел на %actor.vname%.
   wait 15
   mecho _Главный страж:
   mecho _- Не ожидал... не ожидал.
@@ -565,7 +565,7 @@ detach 95224 %self.id%
 ~
 wait 3
 msend %actor% _Хранитель храма с презрением посмотрел на Вас.
-mechoaround %actor% _Хранитель храма с презрением посмотрел на %actor.rname%.
+mechoaround %actor% _Хранитель храма с презрением посмотрел на %actor.vname%.
 wait 15
 mecho _Хранитель храма:
 mecho _- Что ты здесь делаешь... смертный!

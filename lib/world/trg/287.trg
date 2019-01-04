@@ -137,7 +137,9 @@ end
 ~
 if %actor.vnum% == 28709
   wait 2s
-  if %world.curmobs(28705)% ==1
+  if (%world.curmobs(28705)% == 1)
+    set victim %actor.leader%
+    %victim.wait(6)%
     wait 2s
     wecho Следопыт увидел пленника и встал как вкопанный.
     wait 1s
@@ -156,7 +158,9 @@ if %actor.vnum% == 28709
     wecho и отнести тебя к нашей богине - ей нужна свежая кровь.
     calcuid nastor 28705 mob
     wait 1
-    wpurge %nastor%
+    if %nastor%
+      wpurge %nastor%
+    end
     wload mob 28712
     detach 28708 %self.id%
   end

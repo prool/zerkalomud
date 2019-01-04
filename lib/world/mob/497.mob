@@ -10,7 +10,7 @@
 ~
    неопределен
 ~
-b0d0g0o1 0 0 E
+b0d0g0o1 d0f0k0 0 E
 30 0 0 10d10+20 1d1+20
 0d0+0 10000
 8 8 1
@@ -125,7 +125,7 @@ Feat: 37
 Feat: 38
 Skill: 4 80
 Skill: 134 100
-Skill: 136 110
+Skill: 136 96
 Skill: 137 150
 Skill: 141 110
 Skill: 150 110
@@ -151,7 +151,6 @@ Spell: 82
 Spell: 124
 Spell: 127
 Helper: 49702
-Skill: 136 96
 E
 #49703
 хранитель Усыня созданный~
@@ -354,7 +353,6 @@ Spell: 88
 Spell: 124
 Spell: 127
 Helper: 49704
-Skill: 136 96
 E
 #49706
 хранитель Горыни созданный~
@@ -515,7 +513,6 @@ Spell: 124
 Spell: 124
 Spell: 127
 Helper: 49706
-Skill: 136 96
 E
 #49708
 горыня змеевич шестиглавый~
@@ -823,40 +820,39 @@ Special_Bitvector: 0
 Skill: 4 120
 Skill: 22 60
 Skill: 134 80
-Skill: 136 70
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 36
-Spell: 36
-Spell: 36
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 55
-Spell: 79
-Spell: 79
-Spell: 79
-Spell: 79
-Spell: 79
-Spell: 82
-Spell: 82
-Spell: 89
-Spell: 89
-Helper: 49714
-Helper: 49713
-Helper: 49712
 Skill: 136 96
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 82
+Spell: 82
+Spell: 89
+Spell: 89
+Helper: 49712
+Helper: 49713
+Helper: 49714
 E
 #49712
 младшего сына~

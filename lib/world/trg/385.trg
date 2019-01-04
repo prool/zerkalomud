@@ -278,7 +278,7 @@ if !(%arg.contains(паук)%)
   halt
 end
 osend       %actor% _Вы попытались освежевать труп паука , но мяса не нашли, а увидели лишь ключик.
-oechoaround %actor%  %actor.name% немного освежевал%actor.g% труп паука но мяса не нашел.
+oechoaround %actor%  %actor.name% немного освежевал%actor.g% труп паука, но мяса не наш%actor.y%.
 oecho _Маленький ключик звонко упал на каменный пол.
 oload obj 38515
 wait 1
@@ -318,7 +318,7 @@ mpurge %self%
 0 k 100
 ~
 wait 1s   
-if %random.2% == 1 && %world.curmobs(38532)% < 3
+if ((%random.100% < 51) && (%world.curmobs(38532)% < 3))
   mecho _Проклятый ветер влетел в окно!
   mload mob 38532                                 
 end
@@ -392,7 +392,9 @@ wait 1s
 рад
 mload mob 38523
 calcuid miska 38522 mob
-mpurge %miska%
+if %miska%
+  mpurge %miska%
+end
 mecho _Влюбленные обнялись, поцеловались троекратно (во все места)... и собрались уже уходить..
 mecho _Но тут муж вспомнил о своем спасителе-избавителе!
 mecho _Поклонился троекратно, радостно попрощался (им надо так много рассказать друг другу)..
@@ -404,30 +406,42 @@ say Прими же его, как награду за труды!!
 mload obj 38502
 дать напит %actor.name%
 calcuid a2mfor 38523 mob
-mpurge %a2mfor%
-if (%world.curobjs(566)%==0) && (%random.10%==1)
-  mload obj 566
-  say Ну и вот еще что возьми, совсем забыл, может пригодится...
-  дать книг %actor.name%
-elseif (%world.curobjs(540)%==0) && (%random.9%==1)
-  mload obj 540
-  say Ну и вот еще что возьми, совсем забыл, может пригодится...
-  дать книг %actor.name%
-elseif (%world.curobjs(573)%==0) && (%random.8%==1)
-  mload obj 573
-  say Ну и вот еще что возьми, совсем забыл, может пригодится...
-  дать книг %actor.name%
+if %a2mfor%
+  mpurge %a2mfor%
 end
+switch %random.10%
+  case 1
+    if (%world.curobjs(566)% < 1)
+      mload obj 566
+      say Ну и вот еще что возьми, совсем забыл, может пригодится...
+      дать книг .%actor.name%
+    end
+  break
+  case 2
+    if (%world.curobjs(540)% < 1)
+      mload obj 540
+      say Ну и вот еще что возьми, совсем забыл, может пригодится...
+      дать книг .%actor.name%
+    end
+  break
+  case 3
+    if (%world.curobjs(573)% < 1)
+      mload obj 573
+      say Ну и вот еще что возьми, совсем забыл, может пригодится...
+      дать книг .%actor.name%
+    end
+  break
+done
 пока
-mpurge  %self%
+wait 1
+mpurge %self%
 ~
 #38524
 помер высокая красавица~
 0 f 100
 ~
-if ((%world.curobjs(209)% < 50) && (%random.1000% <= 250))
-  mload obj 209
-end
+*пуста тута
+nop
 ~
 #38527
 открываем стол~
@@ -505,14 +519,8 @@ end
 помер красавица~
 0 f 100
 *~
-if ((%world.curobjs(209)% < 50) && (%random.1000% <= 250))
-  mload obj 209
-end
 if (%world.curobjs(38522)% < 10) && (%random.2% == 1)
   mload obj 38522
-end
-if (%world.curobjs(1204)% < 1) && (%random.100% <= 3)
-  mload obj 1204
 end
 ~
 #38542

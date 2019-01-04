@@ -155,9 +155,6 @@ otransform 7415
 Помер водяной~
 0 f 100
 ~
-if (( %world.curobjs(201)% < 50) && (%random.1000% <= 120 ))
-  mload obj 201
-end
 foreach killer %self.pc%
   if %killer.id% == %questor74.id%
     mload obj 7400

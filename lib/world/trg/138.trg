@@ -9,11 +9,11 @@ if !%arg.contains(зеркало)%
   halt
 end
 wsend %actor% _ Вы сделали шаг вперед. Зеркало расступилось перед Вами и Ваше сознание помутилось.
-wechoaround %actor% _%actor.name% сделал шаг вперед и пропал за зеркальной гладью.
+wechoaround %actor% _%actor.name% сделал%actor.g% шаг вперед и пропал%actor.g% за зеркальной гладью.
 wait 1s
 wteleport %actor% 13792
 wsend %actor% _Вы пришли в себя, оказавшись в каком-то доме.
-wechoaround %actor% _%actor.name% вылетел%actor.g% из зеркала и приземлился рядом с Вами.
+wechoaround %actor% _%actor.name% вылетел%actor.g% из зеркала и упал%actor.g% рядом с Вами.
 ~
 #13801
 проваливайте~
@@ -71,7 +71,7 @@ wsend %actor% _Вы подошли к одной из полок и достали красивую книгу в черном пер
 wechoaround %actor% _%actor.name% достал%actor.g% книгу с одной из полок.
 wait 1s
 wsend %actor% _Вы открыли книгу и попытались хоть что-то прочитать, однако этот язык Вам совершенно незнаком.
-wechoaround %actor% _%actor.name% полистал%actor.g% книгу и, вздохнув, снова закрыл.
+wechoaround %actor% _%actor.name% полистал%actor.g% книгу и, вздохнув, снова закрыл%actor.g%.
 wait 1s
 wsend %actor% _Вы поставили книгу на ее место.
 wechoaround %actor% _%actor.name% поставил%actor.g% книгу обратно на полку.
@@ -152,6 +152,7 @@ end
 if (%world.curobjs(13801)% < 2) && (%random.1000% <= 60)
   mload obj 13801
 end
+mload obj 13708
 ~
 #13812
 сальвия добровольно даст перстень~

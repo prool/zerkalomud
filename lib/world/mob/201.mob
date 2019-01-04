@@ -1,3 +1,4 @@
+* BRusMUD mob file v1.0
 #20101
 огромный черный паук~
 огромный черный паук~
@@ -12,23 +13,23 @@
 злобой глаз.
 ~
 b0c0d0f0g0n0o0r0x0 k0c1j1m1 -600 E
-22 2 3 66d10+100 2d2+1
+30 2 3 66d10+100 2d2+1
 7d8+50 60000
 8 8 1
 BareHandAttack: 12
 Str: 16
-Dex: 20
 Int: 25
 Wis: 25
+Dex: 20
 Con: 10
-Size: 80
+Cha: 11
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 5
 Class: 103
-Race: 100
+Size: 80
 Height: 30
 Weight: 150
-Special_Bitvector: 0 
 Spell: 17
 Spell: 33
 Spell: 72
@@ -53,21 +54,23 @@ I кожа,10:5
 Огромный склизский вонючий червь
 ~
 b0d0f0g0q0r0 f0k0 -600 E
-14 2 3 5d20+350 5d3+1
+20 2 3 5d20+350 5d3+1
 0d0+0 15000
 8 8 1
 BareHandAttack: 12
 Str: 17
+Int: 11
+Wis: 11
+Dex: 11
 Con: 28
 Cha: 12
-Size: 50
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Race: 100
+Size: 50
 Height: 30
 Weight: 100
-Special_Bitvector: 0 
 Skill: 5 50
 E
 I чешуя,10:5
@@ -83,27 +86,28 @@ I чешуя,10:5
 ~
 Отвратительный мерзкий смердящий упырь
 ~
-d0f0g0h0m0n0A0 k0 -600 E
-17 3 4 5d40+230 5d3+1
+f0g0h0m0n0A0 k0 -600 E
+21 3 4 5d40+230 5d3+1
 8d8+20 25000
 8 8 1
 BareHandAttack: 1
 Str: 18
-Dex: 18
 Int: 18
 Wis: 16
+Dex: 18
+Con: 11
 Cha: 6
-Size: 50
 LikeWork: 70
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Race: 100
+Size: 50
 Height: 30
 Weight: 50
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1
+Spell: 17
+Spell: 17
 Skill: 134 80
-Spell: 17
-Spell: 17
 E
 I шерсть,10:5
 #20105
@@ -119,30 +123,30 @@ I шерсть,10:5
 Здоровенный змей, покрытый твердой зеленой чешуей и множеством шипов.
 ~
 b0d0f0g0l0n0o0x0 d0k0r0C0 -600 E
-21 1 1 10d20+700 5d5+1
+26 1 1 10d20+700 5d5+1
 10d30+50 50000
 8 8 1
 BareHandAttack: 4
 Str: 17
-Dex: 15
 Int: 20
 Wis: 18
+Dex: 15
 Con: 20
 Cha: 6
-Size: 100
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 100
-Race: 100
+Size: 120
+Height: 0
 Weight: 200
-Special_Bitvector: 0 
-Skill: 137 100
-Skill: 157 20
 Spell: 10
 Spell: 10
 Spell: 43
 Spell: 72
 Spell: 72
+Skill: 137 100
+Skill: 157 20
 Helper: 20113
 E
 T 20109
@@ -158,23 +162,24 @@ T 20109
 ~
 Пожилой сухонький мужичок с внешностью, внушающей доверие
 ~
-b0d0e0g0l0n0o0p0q0r0t0u0x0B0C0 c0d0e0f0k0m0n0r0m1n1o1p1q1r1 600 E
+b0d0e0g0l0n0o0p0q0r0t0u0x0B0C0 c0d0e0f0k0n0m0r0m1n1o1p1q1r1 600 E
 25 0 0 0d0+1000 8d8+10
 0d0+5000 0
 8 8 1
+BareHandAttack: 0
 Str: 25
-Dex: 25
 Int: 25
 Wis: 25
+Dex: 25
 Con: 25
 Cha: 25
-Size: 50
 LikeWork: 100
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Race: 100
+Size: 50
+Height: 0
 Weight: 120
-Special_Bitvector: 0 
 E
 T 20102
 T 20106
@@ -193,29 +198,28 @@ T 20111
 Страшный упырь щелкает клыками
 ~
 b0d0f0g0m0n0A0 k0 -600 E
-17 3 3 7d30+300 3d5+1
+19 3 3 7d30+300 3d5+1
 10d2+30 27000
 6 8 1
 BareHandAttack: 1
 Str: 20
-Dex: 12
 Int: 18
 Wis: 16
+Dex: 12
 Con: 15
 Cha: 6
-Size: 50
 LikeWork: 70
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Race: 100
+Size: 50
 Height: 30
 Weight: 100
-Special_Bitvector: 0 
-Skill: 134 50
+Spell: 17
+Spell: 17
+Spell: 17
 Spell: 4
-Spell: 17
-Spell: 17
-Spell: 17
+Skill: 134 50
 E
 T 20100
 #20108
@@ -231,23 +235,24 @@ T 20100
 Пожилой бородатый мужчина с уродливым шрамом на лице
 ~
 b0c0d0f0g0l0m0A0 f0k0c1 -600 E
-21 2 2 15d20+500 4d4+1
+22 2 2 15d20+500 4d4+1
 10d12+100 50000
 5 8 1
+BareHandAttack: 0
 Str: 20
-Dex: 25
+Int: 11
 Wis: 12
+Dex: 25
+Con: 11
 Cha: 16
-Size: 50
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Race: 100
+Size: 50
 Height: 30
 Weight: 150
-Special_Bitvector: a1b1c1 
-Skill: 137 50
-Skill: 157 30
+Special_Bitvector: a1b1c1
 Spell: 16
 Spell: 16
 Spell: 16
@@ -257,6 +262,8 @@ Spell: 36
 Spell: 38
 Spell: 38
 Spell: 43
+Skill: 137 50
+Skill: 157 30
 E
 T 20112
 #20109
@@ -272,27 +279,28 @@ T 20112
 Здоровенный бугай с огромными кулачищами
 ~
 b0c0d0g0m0A0B0 d0f0 -600 E
-18 2 3 10d50+300 0d0+0
+20 2 3 10d50+300 0d0+0
 6d30+1 30000
 6 8 1
+BareHandAttack: 0
 Str: 15
-Dex: 15
 Int: 10
 Wis: 12
+Dex: 15
 Con: 25
 Cha: 12
-Size: 60
 LikeWork: 60
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Race: 100
+Size: 60
 Height: 30
 Weight: 150
-Special_Bitvector: b0y0 
-Skill: 4 70
+Special_Bitvector: b0y0
 Skill: 134 50
 Skill: 136 70
 Skill: 137 60
+Skill: 4 70
 E
 T 20103
 T 20104
@@ -309,24 +317,23 @@ T 20104
 Большая серая крыса с длинным голым хвостом
 ~
 d0g0h0m0 k0 -600 E
-11 4 5 6d10+150 2d3+1
+14 4 5 6d10+150 2d3+1
 5d8+0 8000
 8 8 2
 BareHandAttack: 4
 Str: 20
-Dex: 23
 Int: 15
 Wis: 15
+Dex: 23
 Con: 18
 Cha: 12
-Size: 50
 LikeWork: 60
+MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Race: 100
+Size: 50
 Height: 30
 Weight: 90
-Special_Bitvector: 0 
 E
 I кости,10:5
 #20111
@@ -342,20 +349,24 @@ I кости,10:5
 Крепкий мужчина с перевязанным черной лентой глазом.
 ~
 b0c0d0g0h0l0m0A0 f0k0 -600 E
-17 3 3 12d18+320 3d4+1
+18 3 3 12d18+320 3d4+1
 8d7+90 23000
 8 8 1
+BareHandAttack: 0
 Str: 17
+Int: 11
+Wis: 11
 Dex: 25
+Con: 11
 Cha: 14
-Size: 50
 LikeWork: 70
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Race: 100
+Size: 50
 Height: 30
 Weight: 150
-Special_Bitvector: a1 
+Special_Bitvector: a1
 Skill: 131 80
 Skill: 139 80
 Skill: 157 80
@@ -373,23 +384,24 @@ T 20114
 ~
 Маленький крысеныш с красными глазками-бусинками
 ~
-d0g0 0 -600 E
-9 5 6 5d7+50 3d2+1
+g0 0 -600 E
+10 5 6 5d7+50 3d2+1
 0d0+1 5000
 6 6 1
 BareHandAttack: 4
 Str: 18
+Int: 11
+Wis: 11
 Dex: 18
 Con: 16
 Cha: 16
-Size: 10
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Race: 100
+Size: 10
 Height: 30
 Weight: 50
-Special_Bitvector: 0 
 E
 T 20108
 #20113
@@ -409,24 +421,26 @@ b0c0d0f0g0l0m0n0o0A0 d0k0 -600 E
 23 2 2 8d10+500 4d5+1
 13d13+13 66666
 8 8 1
+BareHandAttack: 0
 Str: 20
-Dex: 20
 Int: 15
 Wis: 15
+Dex: 20
 Con: 23
-Size: 50
+Cha: 11
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Race: 100
+Size: 50
 Height: 30
 Weight: 150
-Special_Bitvector: b1c1 
-Skill: 5 20
+Special_Bitvector: b1c1
 Spell: 28
 Spell: 28
 Spell: 28
 Spell: 64
+Skill: 5 20
 Helper: 20114
 E
 I копыта,10:5
@@ -444,23 +458,23 @@ I копыта,10:5
 Жить под одной крышей с родителем - это не дело!
 ~
 c0d0g0h0m0 d0k0 -600 E
-12 3 5 6d8+190 2d3+1
+16 3 5 6d8+190 2d3+1
 6d6+6 9666
 8 8 1
+BareHandAttack: 0
 Str: 20
-Dex: 20
 Int: 14
 Wis: 14
+Dex: 20
 Con: 15
 Cha: 12
-Size: 50
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Race: 100
+Size: 50
 Height: 30
 Weight: 110
-Special_Bitvector: 0 
 Spell: 16
 Spell: 16
 E
@@ -478,27 +492,29 @@ E
 в лабиринте, человеческому телу.
 ~
 d0e0g0l0m0n0z0c2 d0f0k0 0 E
-17 2 3 15d9+440 2d7+1
+21 2 3 15d9+440 2d7+1
 0d0+0 25000
 8 8 2
+BareHandAttack: 0
 Str: 20
-Dex: 18
 Int: 20
 Wis: 16
-Size: 50
+Dex: 18
+Con: 11
+Cha: 11
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Race: 100
+Size: 50
 Height: 30
 Weight: 150
-Special_Bitvector: 0 
-Spell: 6
-Spell: 6
-Spell: 6
 Spell: 30
 Spell: 30
 Spell: 30
+Spell: 6
+Spell: 6
+Spell: 6
 Spell: 64
 Spell: 66
 Spell: 75
@@ -516,22 +532,24 @@ E
 Молодой человек с хитрой рожей
 ~
 b0d0g0m0A0 k0 -600 E
-12 4 3 5d8+200 4d4+0
+15 4 3 5d8+200 4d4+0
 5d5+50 9000
 8 8 1
 BareHandAttack: 11
 Str: 20
-Dex: 25
 Int: 13
 Wis: 12
+Dex: 25
+Con: 11
 Cha: 14
-Size: 50
 LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 0
 Class: 102
-Race: 100
+Size: 50
 Height: 30
 Weight: 150
-Special_Bitvector: a1 
+Special_Bitvector: a1
 Skill: 139 50
 E
 #20118
@@ -547,20 +565,24 @@ E
 Пожилая располневшая женщина с поварешкой в руках
 ~
 b0d0g0l0m0q0 r0 -600 E
-17 3 6 7d7+600 3d4+1
+20 3 6 7d7+600 3d4+1
 8d8+0 24000
 8 8 1
+BareHandAttack: 0
 Str: 14
+Int: 11
+Wis: 11
 Dex: 12
 Con: 25
 Cha: 14
-Size: 60
 LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 0
 Class: 102
-Race: 100
+Size: 60
 Height: 30
 Weight: 150
-Special_Bitvector: b1 
+Special_Bitvector: b1
 Skill: 134 90
 E
 #20119
@@ -576,22 +598,23 @@ E
 Пьяный человек с раскосыми глазами
 ~
 b0d0g0m0 0 -600 E
-18 5 3 50d7+300 3d4+1
+20 5 3 50d7+300 3d4+1
 7d7+50 29000
 5 8 1
 BareHandAttack: 11
 Str: 19
+Int: 11
+Wis: 11
 Dex: 25
 Con: 15
 Cha: 15
-Size: 50
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Race: 100
+Size: 50
 Height: 30
 Weight: 150
-Special_Bitvector: 0 
 Skill: 139 60
 E
 T 20105
@@ -608,27 +631,26 @@ T 20105
 Мерзкое порождение темных сил, чьи острые клыки внушают страх.
 ~
 c0d0f0g0l0m0n0 d0e0k0 -600 E
-18 3 2 20d18+480 4d5+1
+23 3 2 20d18+480 4d5+1
 0d0+0 32500
 8 8 1
 BareHandAttack: 1
 Str: 18
-Dex: 20
 Int: 20
 Wis: 14
+Dex: 20
 Con: 17
 Cha: 10
-Size: 52
 LikeWork: 90
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Race: 100
+Size: 52
 Height: 30
 Weight: 150
-Special_Bitvector: 0 
-Skill: 22 80
 Spell: 54
 Spell: 75
+Skill: 22 80
 E
 T 20115
 #20121
@@ -644,25 +666,27 @@ T 20115
 Маленький мальчик, весь измазанный в саже
 ~
 c0d0g0h0A0 k0 -600 E
-14 8 5 10d25+270 3d4+1
+16 8 5 10d25+270 3d4+1
 0d0+0 15000
 8 8 1
+BareHandAttack: 0
 Destination: 20193
 Destination: 20194
 Destination: 20195
 Str: 19
-Dex: 25
 Int: 13
 Wis: 13
+Dex: 25
+Con: 11
 Cha: 20
-Size: 45
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Race: 100
+Size: 45
 Height: 30
 Weight: 130
-Special_Bitvector: p0a1 
+Special_Bitvector: p0a1
 Skill: 139 60
 E
 I глаза,10:5
@@ -679,17 +703,24 @@ I глаза,10:5
 Крупная желтая оса жужжит над ухом
 ~
 b0d0f0g0m0n0o0q0 d0f0k0x0 -600 E
-9 18 9 10d4+50 1d4+1
+5 18 9 10d4+50 1d4+1
 0d0+0 4000
-8 8 2
+8 8 1
 BareHandAttack: 4
-Size: 33
+Str: 11
+Int: 11
+Wis: 11
+Dex: 11
+Con: 11
+Cha: 11
 LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 0
 Class: 103
-Race: 100
+Size: 33
 Height: 30
 Weight: 50
-Special_Bitvector: g0l0 
+Special_Bitvector: g0l0
 E
 #20123
 полуразложившийся скелет~
@@ -704,19 +735,24 @@ E
 Полуразложившийся скелет с лысым черепом и пустыми глазницами
 ~
 b0d0f0g0m0z0 k0C0 -600 E
-18 5 3 20d7+300 3d6+1
+20 5 3 20d7+300 3d6+1
 0d0+0 30100
 8 8 1
+BareHandAttack: 0
 Str: 19
+Int: 11
+Wis: 11
 Dex: 15
-Size: 50
+Con: 11
+Cha: 11
 LikeWork: 80
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Race: 100
+Size: 50
 Height: 30
 Weight: 80
-Special_Bitvector: 0 
 E
 T 20116
+$
 $

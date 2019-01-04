@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #79400
  емельян купец~
 Емельян~
@@ -9,38 +8,24 @@
 Емельяне~
 Известный купец-мореплаватель Емельян сидит за столиком.
 ~
-Этот человек известен на всю округу своим уменьем продать что угодно кому угодно. 
+Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
-b0 d0k0 -600 E
+b0d0 d0k0 -600 E
 31 0 0 10d10+2 0d0+0
 0d0+0 10000
 6 6 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 50
-LikeWork: 0
-MaxFactor: 0
+Size: 100
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: i3
+Special_Bitvector: i3 
 E
 T 79401
 T 79402
@@ -53,41 +38,29 @@ T 79453
 тощему гребцу~
 тощего гребца~
 тощим гребцом~
-тощем гребеце~
+тощем гребце~
 Гребец сидит на лавке, ничего не делая.
 ~
 Гребец доволен, что ветер крепок и не надо грести. Он заразительно хохочет 
 и лузгает семечки прямо за борт.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 5 5 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -103,37 +76,25 @@ E
 ~
 Мужик с крепкими жилистыми руками легко тягает канаты, чуть ворочая парус.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 30 5 3 10d10+2300 14d11+25
 0d0+0 230000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 27
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Skill: 136 100
+Special_Bitvector: 0 
 Skill: 4 100
+Skill: 136 100
 E
 #79403
  плечистый рулевой~
@@ -145,39 +106,27 @@ E
 плечистом рулевом~
 Плечистый рулевой играючи ворочает здоровенное правило.
 ~
-мускулистый мужик
+Мускулистый мужик.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 30 5 3 10d10+2300 14d11+25
 0d0+0 230000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 27
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Skill: 136 100
+Special_Bitvector: 0 
 Skill: 4 100
+Skill: 136 100
 E
 #79404
  Емельян~
@@ -189,42 +138,30 @@ E
 Емельяне~
 Купец Емельян зорко вглядывается в набегающую волну.
 ~
-Этот человек известен на всю округу своим уменьем продать что угодно кому угодно. 
+Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
-b0 d0k0 -600 E
+b0d0 d0k0 -600 E
 31 5 3 10d10+2300 12d11+20
 0d0+0 230000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 20
+Dex: 18
 Int: 34
 Wis: 21
-Dex: 18
 Con: 15
 Cha: 50
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Spell: 28
-Spell: 28
-Spell: 28
+Special_Bitvector: 0 
 Skill: 130 100
 Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
 E
 #79405
  худой гребец~
@@ -239,35 +176,23 @@ E
 Гребец доволен, что ветер крепок и не надо грести. Он заразительно хохочет 
 и лузгает семечки прямо за борт.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 5 5 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -284,35 +209,23 @@ E
 Гребец доволен, что ветер крепок и не надо грести. Он заразительно хохочет 
 и лузгает семечки прямо за борт.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 5 5 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -329,35 +242,23 @@ E
 Гребец доволен, что ветер крепок и не надо грести. Он заразительно хохочет 
 и лузгает семечки прямо за борт.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 5 5 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -373,35 +274,23 @@ E
 ~
 Обычный гребец.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -418,35 +307,23 @@ T 79409
 ~
 Замученный гребец.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -464,35 +341,23 @@ T 79406
 ~
 Гребец-матершинник.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -509,35 +374,23 @@ T 79408
 ~
 Гребец-матершинник.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -555,37 +408,25 @@ T 79407
 ~
 Мускулистый мужик.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 30 5 3 10d10+2300 14d11+25
 0d0+0 230000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 27
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Skill: 136 100
+Special_Bitvector: 0 
 Skill: 4 100
+Skill: 136 100
 E
 T 79412
 #79413
@@ -598,47 +439,34 @@ T 79412
 тяжеловозе~
 Испуганный тяжеловоз нервно бьет копытом и прядает ушами.
 ~
-Конь в предынфарктном состоянии. 
-Напуган дикими зверьми. 
-Требуется срочная ветеринарная помощь! 
+Конь в предынфарктном состоянии.
+Напуган дикими зверьми.
+Требуется срочная ветеринарная помощь!
 
-Переведите пожалуйста Эрбиану 15000 кун на лечение коня и разошлите это 
-письмо 20 вашим друзьям. За это будет вам на Руси счастье и известность. 
-Один колдун прочитал это письмо и только посмеялся, и на следующий день 
-упал с моста в рыбацкой веси со всем своим имуществом из рипейских гор.
-А другой тать пожалел коня и перевел куны на лечение и через месяц 
+Переведите, пожалуйста, Эрбиану 15000 кун на лечение коня и разошлите это
+письмо 20 вашим друзьям. За это будет вам на Руси счастье и известность.
+Один колдун прочитал это письмо и только посмеялся, и на следующий день
+упал с моста в рыбацкой веси со всем своим имуществом из Рипейских гор.
+А другой тать пожалел коня и перевел куны на лечение и через месяц
 перевоплотился 22 раза, став богатым и известным.
-
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -652,39 +480,27 @@ E
 деревенском мужике~
 Деревенский мужик пытается успокоить коня.
 ~
-Одной рукой держит коня за узду, а второй то гладит по голове, то сует коню морковку.
+Одной рукой держит коня за узду, а второй, то гладит по голове, то сует коню морковку.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 30 5 3 10d10+2300 14d11+25
 0d0+0 230000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 27
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Skill: 136 100
+Special_Bitvector: 0 
 Skill: 4 100
+Skill: 136 100
 E
 #79415
  Емельян~
@@ -698,40 +514,28 @@ E
 ~
 Ах, туды вашу растуды! Итить налево через плечо! 
 ~
-b0 d0k0 -600 E
+b0d0 d0k0 -600 E
 31 5 3 10d10+2300 12d11+20
 0d0+0 230000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 20
+Dex: 18
 Int: 34
 Wis: 21
-Dex: 18
 Con: 15
 Cha: 50
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Spell: 28
-Spell: 28
-Spell: 28
+Special_Bitvector: 0 
 Skill: 130 100
 Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
 E
 T 79414
 T 79418
@@ -739,49 +543,38 @@ T 79418
  рысь~
 рысь~
 рыси~
-рысе~
+рыси~
 рысь~
 рысью~
-рысе~
+рыси~
 Больная рысь прыгнула с ветки прямо тебе на плечи.
 ~
 Мех зверя тусклый, шкура в проплешинах. Движения очень быстрые, но какие-то 
 неуклюжие и дерганые, будто одна лапа не знает, что хочет сделать другая. 
 В глазах горит нездоровый красный огонь.
 ~
-f0n0o0A0 d0k0w1y1 -600 E
+d0f0n0o0A0 d0k0w1y1 -600 E
 30 10 0 10d10+700 5d5+3
 0d0+0 70000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 27
+Dex: 28
 Int: 16
 Wis: 16
-Dex: 28
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 10
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
-Spell: 143
+Special_Bitvector: 0 
 Skill: 136 125
 Skill: 157 125
 Skill: 160 25
+Spell: 143
 E
 #79417
  вепрь~
@@ -797,43 +590,30 @@ E
 неуклюжие и дерганые, будто одна лапа не знает, что хочет сделать другая. 
 В глазах горит нездоровый красный огонь.
 ~
-f0n0o0A0 d0k0w1y1 -600 E
+d0f0n0o0A0 d0k0w1y1 -600 E
 30 10 0 10d10+800 5d6+3
 0d0+0 80000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 12
 Str: 34
+Dex: 28
 Int: 16
 Wis: 16
-Dex: 28
 Con: 20
 Cha: 10
-LikeWork: 25
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 100
+LikeWork: 25
+Class: 103
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Feat: 1
-Spell: 152
-Spell: 152
-Spell: 152
 Skill: 132 25
 Skill: 136 125
+Spell: 152
+Spell: 152
+Spell: 152
 E
-I копыта,10:10
 #79418
  медведь~
 медведь~
@@ -848,35 +628,24 @@ I копыта,10:10
 неуклюжие и дерганые, будто одна лапа не знает, что хочет сделать другая. 
 В глазах горит нездоровый красный огонь.
 ~
-c0f0n0o0A0 d0h0k0l1t1w1y1 -600 E
+c0d0f0n0o0A0 d0h0k0l1t1w1y1 -600 E
 30 10 0 10d10+900 5d6+2
 0d0+0 90000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 34
+Dex: 28
 Int: 16
 Wis: 16
-Dex: 28
 Con: 30
 Cha: 10
+Size: 100
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 125
 Skill: 165 125
 E
@@ -895,35 +664,24 @@ I шерсть,10:10
 неуклюжие и дерганые, будто одна лапа не знает, что хочет сделать другая. 
 В глазах горит нездоровый красный огонь.
 ~
-c0f0n0o0A0 d0k0l1t1 -600 E
+c0d0f0n0o0A0 d0k0l1t1 -600 E
 30 10 0 10d10+900 5d6+2
 0d0+0 90000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 34
+Dex: 28
 Int: 16
 Wis: 16
-Dex: 28
 Con: 30
 Cha: 10
+Size: 100
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 125
 Skill: 165 125
 E
@@ -941,40 +699,29 @@ I шерсть,10:10
 Огромных размеров пчелы со странно искаженными пропорциями. Больше похожи 
 на жирных волосатых пауков с крыльями. Фффу мерзость, какая, тебя аж передернуло.
 ~
-b0c0e0f0n0o0q0A0t1 b0d0k0p0C0m1r1w1 -600 E
+b0c0d0e0f0n0o0q0z0A0t1 b0d0k0p0C0m1r1w1 -600 E
 25 12 3 10d10+800 5d5+1
 0d0+0 90000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 4
+BareHandAttack: 16
 Str: 20
+Dex: 35
 Int: 16
 Wis: 16
-Dex: 35
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 10
-MaxFactor: 0
 ExtraAttack: 4
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
-Spell: 143
-Spell: 143
+Special_Bitvector: 0 
 Skill: 136 125
 Skill: 157 30
 Skill: 160 25
+Spell: 143
+Spell: 143
 E
 T 79415
 #79421
@@ -991,37 +738,30 @@ T 79415
 силу. К его услугам частенько прибегают завистники, хотящие сжить со свету 
 более удачливого соседа или напакостить молодому и богатому боярину.
 ~
-b0f0n0o0 d0k0 -600 E
+b0d0f0n0o0 d0k0 -600 E
 25 13 3 10d10+500 5d5+5
 0d0+400 60000
 8 8 1
 Saves: -45 -5 -15 -10
 Resistances: 15 15 15 15 0 0 0
-HPreg: 0
 Armour: 35
-PlusMem: 0
 CastSuccess: 45
-Success: 0
 Initiative: 5
 Absorbe: 5
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 20
+Dex: 18
 Int: 35
 Wis: 35
-Dex: 18
 Con: 15
 Cha: 14
-LikeWork: 5
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 50
+LikeWork: 5
+Class: 102
 Height: 175
 Weight: 85
-Spell: 26
+Special_Bitvector: 0 
 Skill: 150 25
+Spell: 26
 E
 T 79417
 T 79420
@@ -1037,37 +777,25 @@ T 79420
 ~
 Сильный гребец.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 30 5 3 10d10+2300 14d11+25
 0d0+0 230000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 27
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Skill: 136 100
+Special_Bitvector: 0 
 Skill: 4 100
+Skill: 136 100
 E
 #79423
  Емельян~
@@ -1079,127 +807,93 @@ E
 Емельяне~
 Купец Емельян в обеих руках держит по небольшому цепу.
 ~
-Этот человек известен на всю округу своим уменьем продать что угодно кому угодно. 
+Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
-b0 d0k0 -600 E
+b0d0 d0k0 -600 E
 31 5 3 10d10+2300 12d11+20
 0d0+0 230000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 20
+Dex: 18
 Int: 34
 Wis: 21
-Dex: 18
 Con: 15
 Cha: 50
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Spell: 28
-Spell: 28
-Spell: 28
+Special_Bitvector: 0 
 Skill: 130 100
 Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
 E
 T 79424
 #79424
  худой гребец~
 худой гребец~
-худого гребеца~
-худому гребецу~
 худого гребца~
-худым гребецом~
-худом гребеце~
+худому гребцу~
+худого гребца~
+худым гребцом~
+худом гребце~
 Гребец из легкого лука поливает стрелами вражеский струг.
 ~
-~
-b0 0 -600 E
+undefined~
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
 #79425
  тонкий гребец~
 тонкий гребец~
-тонкого гребеца~
-тонкому гребецу~
 тонкого гребца~
-тонким гребецом~
-тонком гребеце~
+тонкому гребцу~
+тонкого гребца~
+тонким гребцом~
+тонком гребце~
 Гребец из тугого лука поливает стрелами вражеский струг.
 ~
-~
-b0 0 -600 E
+undefined~
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -1213,38 +907,26 @@ E
 помощнике купца~
 Помощник купца заряжает стальным болтом тяжелый самострел.
 ~
-~
-b0 0 -600 E
+undefined~
+b0d0 0 -600 E
 30 5 3 10d10+2300 14d11+25
 0d0+0 230000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 27
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Skill: 136 100
+Special_Bitvector: 0 
 Skill: 4 100
+Skill: 136 100
 E
 #79427
  ушкуйник~
@@ -1259,39 +941,29 @@ E
 Однако отличная выучка у нынешних разбойников, да и доспехи не из дешевых. 
 Эмблема на кольчуге замазана свежей краской.
 ~
-b0c0f0n0o0A0 d0t1 -600 E
+b0c0d0f0n0o0A0 d0t1 -600 E
 29 12 2 10d10+900 5d6+1
 5d5+5 90000
 8 8 1
 Saves: -35 -35 -20 -20
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 40
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 30
+Dex: 30
 Int: 16
 Wis: 14
-Dex: 30
 Con: 30
 Cha: 20
+Size: 100
 LikeWork: 5
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
-Spell: 92
+Special_Bitvector: b1c1 
 Skill: 136 130
 Skill: 151 10
+Spell: 92
 E
 #79428
  вожак ушкуйников~
@@ -1306,129 +978,96 @@ E
 Однако отличная выучка у нынешних разбойников, да и доспехи не из дешевых. 
 Эмблема на кольчуге замазана свежей краской.
 ~
-b0c0f0n0o0A0 d0k0r1 -600 E
+b0c0d0f0n0o0A0 d0k0r1 -600 E
 31 11 2 10d10+1100 5d6+3
 5d5+100 110000
 8 8 1
 Saves: -56 -30 -30 -30
 Resistances: 5 5 5 5 0 0 0
-HPreg: 0
 Armour: 50
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 35
+Dex: 35
 Int: 25
 Wis: 25
-Dex: 35
 Con: 30
 Cha: 30
+Size: 100
 LikeWork: 10
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
-Spell: 96
+Special_Bitvector: b1c1 
 Skill: 136 130
 Skill: 143 130
 Skill: 144 130
 Skill: 151 20
+Spell: 96
 E
 T 79423
 I кости,10:10
 #79429
  тонкий гребец~
 тонкий гребец~
-тонкого гребеца~
-тонкому гребецу~
 тонкого гребца~
-тонким гребецом~
-тонком гребеце~
+тонкому гребцу~
+тонкого гребца~
+тонким гребцом~
+тонком гребце~
 Гребец во всю орудует веслами.
 ~
 Весь вспотел бедняга.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 6 6 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
 #79430
  худой гребец~
 худой гребец~
-худого гребеца~
-худому гребецу~
 худого гребца~
-худым гребецом~
-худом гребеце~
+худому гребцу~
+худого гребца~
+худым гребцом~
+худом гребце~
 Гребец во всю орудует веслами.
 ~
 Весь вспотел бедняга.
 ~
-b0 0 -600 E
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 6 6 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -1442,42 +1081,30 @@ E
 Емельяне~
 Купец Емельян с трудом ворочает веслом, силушка еще есть, но годы уже не те.
 ~
-Этот человек известен на всю округу своим уменьем продать что угодно кому угодно. 
+Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
-b0 d0k0 -600 E
+b0d0 d0k0 -600 E
 31 5 3 10d10+2300 12d11+20
 0d0+0 230000
 6 6 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 20
+Dex: 18
 Int: 34
 Wis: 21
-Dex: 18
 Con: 15
 Cha: 50
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Spell: 28
-Spell: 28
-Spell: 28
+Special_Bitvector: 0 
 Skill: 130 100
 Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
 E
 #79432
  помощник купца~
@@ -1489,122 +1116,88 @@ E
 помощнике купца~
 Помощник купца задал концы и тоже сел на весла.
 ~
-~
-b0 0 -600 E
+undefined~
+b0d0 0 -600 E
 30 5 3 10d10+2300 14d11+25
 0d0+0 230000
 6 6 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 27
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Skill: 136 100
+Special_Bitvector: 0 
 Skill: 4 100
+Skill: 136 100
 E
 #79433
  худой гребец~
 худой гребец~
-худого гребеца~
-худому гребецу~
 худого гребца~
-худым гребецом~
-худом гребеце~
+худому гребцу~
+худого гребца~
+худым гребцом~
+худом гребце~
 Гребец из легкого лука поливает стрелами вражескую шняку.
 ~
-~
-b0 0 -600 E
+undefined~
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
 #79434
  тонкий гребец~
 тонкий гребец~
-тонкого гребеца~
-тонкому гребецу~
 тонкого гребца~
-тонким гребецом~
-тонком гребеце~
+тонкому гребцу~
+тонкого гребца~
+тонким гребцом~
+тонком гребце~
 Гребец из тугого лука поливает стрелами вражескую шняку.
 ~
-~
-b0 0 -600 E
+undefined~
+b0d0 0 -600 E
 29 8 3 10d10+2000 10d10+30
 0d0+0 200000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -1620,36 +1213,24 @@ E
 ~
 Варяжская морда.
 ~
-b0c0f0n0o0A0 k0t1 -600 E
+b0c0d0f0n0o0A0 k0t1 -600 E
 30 11 3 10d10+900 5d6+2
 5d5+100 90000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 30
+Dex: 33
 Int: 16
 Wis: 18
-Dex: 33
 Con: 30
 Cha: 20
+Size: 100
 LikeWork: 10
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 130
 Skill: 151 10
 E
@@ -1665,40 +1246,28 @@ E
 ~
 Варяг.
 ~
-b0c0f0n0o0A0 d0k0t1 -600 E
+b0c0d0f0n0o0A0 d0k0t1 -600 E
 31 10 2 10d10+1000 5d6+2
 6d6+100 100000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 30
+Dex: 33
 Int: 16
 Wis: 22
-Dex: 33
 Con: 30
 Cha: 20
+Size: 100
 LikeWork: 55
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
+Skill: 5 20
 Skill: 136 130
 Skill: 142 130
 Skill: 146 130
-Skill: 5 20
 E
 #79437
  варяжский маг~
@@ -1712,39 +1281,26 @@ E
 ~
 Варяг-чародей.
 ~
-b0c0m0n0o0A0p2 d0k0r1y1 -600 E
+b0c0d0m0n0o0A0p2 d0k0r1y1 -600 E
 20 15 6 10d10+500 5d7+1
 6d6+100 70000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 22
+Dex: 22
 Int: 28
 Wis: 30
-Dex: 22
 Con: 20
 Cha: 20
-LikeWork: 5
-MaxFactor: 0
-ExtraAttack: 0
-Class: 105
 Size: 100
+LikeWork: 5
+Class: 105
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
-Spell: 26
+Special_Bitvector: b1c1 
 Skill: 136 110
 Skill: 157 25
+Spell: 26
 E
 #79438
  боевой лекарь~
@@ -1758,47 +1314,35 @@ E
 ~
 Варяжский знахарь.
 ~
-b0c0m0n0o0A0p2 d0a1x1 -600 E
+b0c0d0m0n0o0A0p2 d0a1x1 -600 E
 25 14 7 10d10+500 4d4+1
 6d6+10 70000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 22
+Dex: 22
 Int: 28
 Wis: 35
-Dex: 22
 Con: 20
 Cha: 20
+Size: 100
 LikeWork: 10
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
-Spell: 112
-Spell: 145
+Special_Bitvector: b1c1 
+Skill: 2 25
+Skill: 136 110
+Skill: 150 110
 Spell: 28
 Spell: 28
 Spell: 47
 Spell: 48
 Spell: 53
 Spell: 96
-Skill: 136 110
-Skill: 150 110
-Skill: 2 25
+Spell: 112
+Spell: 145
 E
 #79439
  хевдинг~
@@ -1812,42 +1356,30 @@ E
 ~
 Командир варягов.
 ~
-b0c0f0n0o0A0t1 d0t1 -600 E
+b0c0d0f0n0o0A0t1 d0t1 -600 E
 31 11 4 10d10+700 5d5+1
 6d6+10 70000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 30
+Dex: 33
 Int: 16
 Wis: 23
-Dex: 33
 Con: 30
 Cha: 20
+Size: 100
 LikeWork: 5
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
+Skill: 5 25
 Skill: 136 130
 Skill: 142 130
 Skill: 146 130
-Skill: 5 25
-Helper: 79438
 Helper: 79437
+Helper: 79438
 E
 #79440
  бонд~
@@ -1861,38 +1393,26 @@ E
 ~
 Варяг мастеровой.
 ~
-b0c0f0n0o0A0p2 k0t1 -600 E
+b0c0d0f0n0o0A0p2 k0t1 -600 E
 30 10 3 10d10+900 5d2+2
 6d6+8 90000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 30
+Dex: 33
 Int: 16
 Wis: 28
-Dex: 33
 Con: 30
 Cha: 20
+Size: 100
 LikeWork: 5
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
-Skill: 136 135
+Special_Bitvector: b1c1 
 Skill: 4 25
+Skill: 136 135
 E
 T 79427
 #79441
@@ -1907,35 +1427,24 @@ T 79427
 ~
 Пленник.
 ~
-b0 k0 -600 E
+b0d0 k0 -600 E
 29 11 3 10d10+2000 2d5+3
 0d0+0 200000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Skill: 136 80
 Skill: 145 80
 E
@@ -1949,38 +1458,25 @@ E
 Емельяне~
 Купец Емельян приплыл с тобой в варяжский лагерь.
 ~
-Этот человек известен на всю округу своим уменьем продать что угодно кому угодно. 
+Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
-b0n0o0o2 d0k0 -600 E
+b0d0n0o0o2 d0k0 -600 E
 31 5 3 10d10+2300 12d11+20
 10d15+555 230000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 20
+Dex: 18
 Int: 34
 Wis: 21
-Dex: 18
 Con: 15
 Cha: 50
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 130 100
 Skill: 136 100
 Skill: 139 110
@@ -1999,41 +1495,29 @@ T 79433
 ~
 Вождь варягов.
 ~
-b0c0f0n0o0A0 k0t1 -600 E
+b0c0d0f0n0o0A0 k0t1 -600 E
 31 11 0 10d10+1300 5d6+2
 6d6+8 100000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 30
+Dex: 33
 Int: 16
 Wis: 28
-Dex: 33
 Con: 30
 Cha: 20
+Size: 100
 LikeWork: 11
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
-Spell: 28
+Special_Bitvector: b1c1 
+Skill: 5 130
 Skill: 136 130
 Skill: 142 130
 Skill: 146 130
-Skill: 5 130
+Spell: 28
 E
 #79444
  херсир~
@@ -2047,40 +1531,28 @@ E
 ~
 Варяжский воин.
 ~
-b0c0f0n0o0A0 t1 -600 E
+b0c0d0f0n0o0A0 t1 -600 E
 31 10 1 10d10+900 5d6+2
 6d6+10 100000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 30
+Dex: 33
 Int: 16
 Wis: 28
-Dex: 33
 Con: 30
 Cha: 20
+Size: 100
 LikeWork: 10
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
+Skill: 5 25
 Skill: 136 130
 Skill: 142 130
 Skill: 146 130
-Skill: 5 25
 E
 #79445
  скальд~
@@ -2094,36 +1566,24 @@ E
 ~
 Варяжский сказитель.
 ~
-b0c0f0n0o0A0 t1 -600 E
+b0c0d0f0n0o0A0 t1 -600 E
 30 10 3 10d10+800 5d6+2
 6d6+10 80000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 30
+Dex: 33
 Int: 16
 Wis: 28
-Dex: 33
 Con: 30
 Cha: 20
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 130
 Skill: 151 25
 E
@@ -2137,37 +1597,25 @@ E
 бонде~
 Бонд-копейщик спит прямо на гальке.
 ~
-~
-b0c0f0n0o0A0 k0t1 -600 E
+undefined~
+b0c0d0f0n0o0A0 k0t1 -600 E
 30 12 0 10d10+900 5d6+2
 6d6+6 90000
 4 4 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 30
+Dex: 33
 Int: 16
 Wis: 28
-Dex: 33
 Con: 30
 Cha: 20
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
+Special_Bitvector: b1c1 
 Skill: 136 130
 Skill: 151 130
 E
@@ -2183,41 +1631,29 @@ E
 ~
 Предводитель варягов.
 ~
-b0c0n0o0A0 d0h0k0t1 -600 E
+b0c0d0n0o0A0 d0h0k0t1 -600 E
 31 7 -1 10d10+1100 6d6+4
 6d6+10 120000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 3
 Str: 34
+Dex: 37
 Int: 16
 Wis: 28
-Dex: 37
 Con: 30
 Cha: 20
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1
-Spell: 28
+Special_Bitvector: 0 
+Skill: 5 130
 Skill: 136 130
 Skill: 142 130
 Skill: 146 130
-Skill: 5 130
+Spell: 28
 E
 T 79430
 T 79431
@@ -2232,38 +1668,25 @@ T 79432
 Емельяне~
 Купец Емельян сидит на причале с удочкой.
 ~
-Этот человек известен на всю округу своим уменьем продать что угодно кому угодно. 
+Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
-b0n0o0o2 d0k0 -600 E
+b0d0n0o0o2 d0k0 -600 E
 31 5 3 10d10+2300 12d11+20
 10d15+555 230000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 20
+Dex: 18
 Int: 34
 Wis: 21
-Dex: 18
 Con: 15
 Cha: 50
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1i3
+Special_Bitvector: b1c1i3 
 Skill: 130 100
 Skill: 136 100
 Skill: 139 110
@@ -2283,38 +1706,25 @@ T 79435
 на разбойников? Они ведь не самые плохие парни. Не лезь к ним и они тебя не тронут.
 Но такова моя судьба и от нее никуда не денешься. Зачем было сажать в тюрьму?
 ~
-b0n0o0 d0k0 -600 E
+b0d0n0o0 d0k0 -600 E
 30 5 3 10d10+2300 14d11+25
 0d0+0 230000
 6 6 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 27
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: i3
-Skill: 136 100
+Special_Bitvector: i3 
 Skill: 4 100
+Skill: 136 100
 E
 T 79437
 T 79445
@@ -2330,36 +1740,23 @@ T 79445
 ~
 Куда зенки вытаращил, пьянь? Я призрак, нет меня. Совсем!
 ~
-b0f0n0o0p0q0r0t0u0z0d2 c0d0e0f0k0n0m0p0r0z0A0C0c1l1o1r1t1w1x1 -600 E
-29 -50 -30 10d10+29999 1d1+30
+b0d0f0n0o0p0q0r0t0u0z0d2 c0d0e0f0k0m0n0p0r0z0A0C0c1l1o1r1t1w1x1 -600 E
+29 -50 -4 10d10+29999 1d1+30
 0d0+0 200000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 25
+Dex: 18
 Int: 16
 Wis: 16
-Dex: 18
 Con: 15
 Cha: 10
-LikeWork: 70
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 100
+LikeWork: 70
+Class: 102
 Height: 175
 Weight: 85
-Special_Bitvector: a0b0c0d0e0f0g0C3
+Special_Bitvector: a0b0c0d0e0f0g0C3 
 Skill: 22 200
 E
 T 79443
@@ -2371,46 +1768,32 @@ T 79443
 Емельяна~
 Емельяном~
 Емельяне~
-Купец Емельян прохаживается по Ладожской пристане.
+Купец Емельян прохаживается по Ладожской пристани.
 ~
-Этот человек известен на всю округу своим уменьем продать что угодно кому угодно. 
+Этот человек известен на всю округу своим уменьем продать, что угодно и кому угодно.
 ~
-b0 d0k0 -600 E
+b0d0 d0k0 -600 E
 31 5 3 10d10+2300 12d11+20
 0d0+0 230000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 20
+Dex: 18
 Int: 34
 Wis: 21
-Dex: 18
 Con: 15
 Cha: 50
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: i3
-Spell: 28
-Spell: 28
-Spell: 28
+Special_Bitvector: i3 
 Skill: 130 100
 Skill: 136 100
+Spell: 28
+Spell: 28
+Spell: 28
 E
 T 79448
-$
 $

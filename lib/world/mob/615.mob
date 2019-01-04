@@ -22,6 +22,7 @@ Size: 35
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -55,6 +56,7 @@ Size: 30
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: b1 
@@ -88,6 +90,7 @@ Size: 35
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 180
 Special_Bitvector: 0 
@@ -129,6 +132,7 @@ Size: 35
 LikeWork: 65
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 160
 Special_Bitvector: 0 
@@ -162,6 +166,7 @@ Size: 30
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 100
 Special_Bitvector: 0 
@@ -197,6 +202,7 @@ Size: 40
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1 
@@ -230,6 +236,7 @@ Size: 35
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -265,6 +272,7 @@ Size: 40
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -295,13 +303,14 @@ BareHandAttack: 10
 Str: 19
 Dex: 22
 Int: 19
-Wis: 19
+Wis: 28
 Con: 15
 Cha: 18
 Size: 40
 LikeWork: 45
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 160
 Special_Bitvector: 0 
@@ -348,13 +357,14 @@ b0d0g0l0n0o0 d0h0k0r1 -600 E
 BareHandAttack: 7
 Str: 18
 Int: 17
-Wis: 19
+Wis: 28
 Con: 20
 Cha: 18
 Size: 30
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 145
 Special_Bitvector: 0 
@@ -379,10 +389,10 @@ Spell: 52
 Spell: 72
 Spell: 72
 Spell: 72
-Helper: 61531
-Helper: 61530
-Helper: 61529
 Helper: 61528
+Helper: 61529
+Helper: 61530
+Helper: 61531
 E
 T 61500
 T 61521
@@ -411,6 +421,7 @@ Size: 35
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 180
 Special_Bitvector: 0 
@@ -446,6 +457,7 @@ Size: 30
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 155
 Special_Bitvector: 0 
@@ -482,6 +494,7 @@ Size: 30
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 155
 Special_Bitvector: 0 
@@ -491,7 +504,7 @@ Spell: 66
 Spell: 66
 E
 #61513
-здоровенный цыган~
+здоровенный буйный цыган~
 буйный цыган~
 буйного цыгана~
 буйному цыгану~
@@ -516,6 +529,7 @@ Size: 40
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 170
 Special_Bitvector: b0b1c1 
@@ -549,6 +563,7 @@ Size: 25
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 90
 Special_Bitvector: p0a1 
@@ -584,6 +599,7 @@ Size: 40
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 180
 Special_Bitvector: b1c1 
@@ -621,6 +637,7 @@ Size: 36
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 165
 Special_Bitvector: 0 
@@ -653,6 +670,7 @@ Size: 35
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -689,6 +707,7 @@ Size: 35
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 160
 Special_Bitvector: 0 
@@ -721,11 +740,13 @@ Size: 50
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 190
 Special_Bitvector: 0 
+Feat: 29
 Skill: 132 45
-Skill: 136 60
+Skill: 136 90
 Skill: 137 120
 E
 T 61522
@@ -756,6 +777,7 @@ Size: 45
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 180
 Special_Bitvector: b1 
@@ -769,13 +791,13 @@ Spell: 54
 Spell: 72
 Spell: 72
 Spell: 72
-Helper: 61519
-Helper: 61518
-Helper: 61506
-Helper: 61505
-Helper: 61500
-Helper: 61501
 Helper: 61521
+Helper: 61501
+Helper: 61500
+Helper: 61505
+Helper: 61506
+Helper: 61518
+Helper: 61519
 E
 T 61520
 #61521
@@ -804,6 +826,7 @@ Size: 35
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 160
 Special_Bitvector: c0b1c1 
@@ -835,6 +858,7 @@ Size: 30
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 160
 Special_Bitvector: b1 
@@ -879,6 +903,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 160
 Special_Bitvector: b1 
@@ -920,6 +945,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 160
 Special_Bitvector: 0 
@@ -953,13 +979,14 @@ c0d0f0g0m0n0o0x0A0g2 d0k0m1 -600 E
 Str: 8
 Dex: 17
 Int: 24
-Wis: 25
+Wis: 28
 Con: 13
 Cha: 13
 Size: 30
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 160
 Special_Bitvector: h0 
@@ -991,8 +1018,8 @@ Spell: 66
 Spell: 72
 Spell: 72
 Spell: 72
-Helper: 61524
 Helper: 61523
+Helper: 61524
 E
 T 61504
 T 61508
@@ -1025,6 +1052,7 @@ Size: 40
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 170
 Special_Bitvector: b1c1 
@@ -1060,6 +1088,7 @@ Size: 35
 LikeWork: 35
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 155
 Special_Bitvector: b1 
@@ -1093,6 +1122,7 @@ Size: 40
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 170
 Special_Bitvector: 0 
@@ -1126,6 +1156,7 @@ Size: 35
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 170
 Special_Bitvector: a0b1c1 
@@ -1160,6 +1191,7 @@ Size: 35
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 170
 Special_Bitvector: c0b1c1 
@@ -1194,6 +1226,7 @@ Size: 35
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 170
 Special_Bitvector: d0b1c1 
@@ -1227,6 +1260,7 @@ Size: 50
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 165
 Special_Bitvector: 0 
@@ -1270,6 +1304,7 @@ Size: 65
 LikeWork: 65
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 198
 Weight: 190
 Special_Bitvector: 0 
@@ -1302,6 +1337,7 @@ Size: 35
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 
@@ -1334,6 +1370,7 @@ Size: 40
 LikeWork: 30
 ExtraAttack: 2
 Class: 103
+Race: 100
 Height: 198
 Weight: 120
 Special_Bitvector: 0 
@@ -1364,6 +1401,7 @@ Size: 35
 LikeWork: 15
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1 

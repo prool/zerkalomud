@@ -182,6 +182,7 @@ if (%self.haveobj(60067)% && %self.haveobj(60061)%)
   mecho Ворожея что-то пошептала над ингредиентами и поднесла их к идолу.
   брос все
   mteleport all 63670
+  mjunk all
 End
 if (%self.haveobj(60064)% && %self.haveobj(60060)%)
   say Отлично! Сейчас я принесу жертву и сотворю заклятье!
@@ -189,6 +190,7 @@ if (%self.haveobj(60064)% && %self.haveobj(60060)%)
   mecho Ворожея что-то пошептала над ингредиентами и поднесла их к идолу.
   брос все
   mteleport all 34405
+  mjunk all
 End
 if (%self.haveobj(60062)% && %self.haveobj(60063)%)
   say Отлично! Сейчас я принесу жертву и сотворю заклятье!
@@ -196,6 +198,7 @@ if (%self.haveobj(60062)% && %self.haveobj(60063)%)
   mecho Ворожея что-то пошептала над ингредиентами и поднесла их к идолу.
   брос все
   mteleport all 60001
+  mjunk all
 End
 ~
 $~

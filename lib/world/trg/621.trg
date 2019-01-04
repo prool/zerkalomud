@@ -207,6 +207,12 @@ end
 msend %actor.name% Мощным ударом Вы выбили у марбендилла правый клык!
 mechoaround %actor% Мощным ударом %actor.name% выбил%actor.g% у марбендилла правый клык!
 mload obj 62104
+if (( %random.1000% < 401 ) && ( %world.curobjs(62109)% < 6 ))
+  mload obj 62109
+end
+if (( %random.1000% < 401 ) && ( %world.curobjs(62108)% < 11 ))
+  mload obj 62108
+end
 ~
 #62110
 Телепорт из зала испытаний~

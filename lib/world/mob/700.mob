@@ -12,7 +12,7 @@
 так просто он не умрет.
 ~
 b0d0g0l0m0r0x0A0 c0d0f0k0z0 -600 E
-25 0 -6 30d30+1500 5d4+10
+27 0 -6 30d30+1500 5d4+10
 0d0+20 100000
 8 8 1
 Str: 24
@@ -25,7 +25,6 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1d1C3 
@@ -55,10 +54,9 @@ E
 ночью не выживали.
 ~
 d0f0g0h0j0l0n0x0i1 d0f0k0p0s0t0z0m1 -600 E
-35 0 -7 100d6+7000 20d5+10
+30 0 -7 100d6+7000 20d5+10
 0d0+0 820000
 8 8 1
-Saves: -26 -26 -26 -26
 BareHandAttack: 8
 Str: 35
 Dex: 35
@@ -70,7 +68,6 @@ Size: 50
 LikeWork: 95
 ExtraAttack: 2
 Class: 101
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: g0i0p0 
@@ -96,6 +93,7 @@ Spell: 76
 Spell: 76
 Helper: 70002
 E
+T 70025
 #70002
 дикая собака~
 дикая собака~
@@ -109,7 +107,7 @@ E
 Дикая и голодная собака с облезлым хвостом.
 ~
 d0f0g0h0l0 d0f0k0z0 -600 E
-23 0 -7 10d8+300 8d2+8
+22 0 -7 10d8+300 8d2+8
 0d0+0 70000
 8 8 2
 BareHandAttack: 4
@@ -122,7 +120,6 @@ Cha: 5
 Size: 30
 LikeWork: 95
 Class: 103
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: p0 
@@ -155,7 +152,6 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1d1C3 
@@ -181,7 +177,7 @@ E
 держит правую руку на рукояти меча.
 ~
 b0d0g0l0m0n0o0v0x0A0 d0k0 -600 E
-30 0 -10 10d10+2000 8d8+15
+28 0 -10 10d10+2000 8d8+15
 0d0+100 300000
 8 8 1
 Str: 24
@@ -194,7 +190,6 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -230,10 +225,9 @@ E
 Вальгрим - главный жрец поселения норманнов, избравший своим богом Одина.
 ~
 b0d0g0l0m0n0o0p0v0x0A0 d0f0k0r0o1 -600 E
-31 0 -3 30d30+2000 5d3+5
+30 0 -3 30d30+2000 5d3+5
 10d0+0 400000
 8 8 1
-Saves: -10 -10 -10 -10
 Str: 18
 Dex: 18
 Int: 30
@@ -244,7 +238,6 @@ Size: 50
 LikeWork: 50
 ExtraAttack: 1
 Class: 105
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: C3 
@@ -305,7 +298,7 @@ T 70022
 знающий человек. Поклоняется Индуне.
 ~
 b0d0g0l0m0n0o0v0x0A0 d0h0k0r0q1 -600 E
-29 6 -7 50d10+2000 5d2+9
+26 6 -7 50d10+2000 5d2+9
 0d0+100 250000
 8 8 1
 Str: 13
@@ -318,7 +311,6 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 105
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: c1C3 
@@ -369,7 +361,7 @@ E
 оружия. Тор - покровитель и наставник всех кузнецов.
 ~
 b0d0g0l0m0n0o0t0v0x0i2q2 d0f0k0 -600 E
-30 0 -10 20d100+2500 10d2+15
+34 0 -10 20d100+2500 10d2+15
 0d0+100 280000
 8 8 1
 Str: 30
@@ -382,7 +374,6 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: C3 
@@ -420,7 +411,7 @@ L 1475 7 0 0
 И все деньги носит с собой!
 ~
 b0d0e0g0l0m0n0o0v0x0A0 c0d0e0 -600 E
-26 4 -7 100d5+500 4d6+5
+25 4 -7 100d5+500 4d6+5
 0d0+200 110000
 8 8 1
 Str: 22
@@ -432,7 +423,6 @@ Cha: 3
 Size: 10
 LikeWork: 99
 Class: 102
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -468,7 +458,7 @@ E
 Вас своей красотой. 
 ~
 b0d0g0x0 0 600 E
-9 20 9 20d5+100 2d1+2
+5 20 9 20d5+100 2d1+2
 0d0+0 5000
 8 8 2
 Str: 14
@@ -479,7 +469,6 @@ Con: 3
 Cha: 22
 Size: 50
 Class: 102
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: 0 
@@ -499,10 +488,9 @@ E
 Один из четырех могучих братьев.
 ~
 b0d0g0l0m0n0o0v0x0A0 d0k0r0 -600 E
-31 0 -10 80d10+2500 5d9+10
+28 0 -10 80d10+2500 5d9+10
 0d0+150 360000
 8 8 1
-Saves: -10 -10 -10 -10
 Str: 24
 Dex: 19
 Int: 29
@@ -513,7 +501,6 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -553,7 +540,7 @@ E
 Один из четырех могучих братьев.
 ~
 b0d0e0g0l0m0v0x0A0 c0d0e0k0r0s0t0 -600 E
-30 0 -10 20d20+1500 8d8+10
+29 0 -10 20d20+1500 8d8+10
 0d0+200 320000
 8 8 1
 Str: 21
@@ -566,7 +553,6 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: a1b1c1C3 
@@ -604,7 +590,7 @@ E
 Один из четверых могучих братьев.
 ~
 b0d0e0g0l0m0n0o0p0v0x0A0 f0k0r0 -600 E
-30 0 -10 50d50+2000 4d6+10
+27 0 -10 50d50+2000 4d6+10
 0d0+100 280000
 8 8 1
 Str: 23
@@ -617,7 +603,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -649,7 +634,7 @@ E
 Старший из братьев.
 ~
 b0d0g0l0m0v0x0A0 c0d0e0k0r0z0 -600 E
-30 0 -10 70d40+2000 6d6+10
+29 0 -10 70d40+2000 6d6+10
 0d0+100 310000
 8 8 1
 Str: 25
@@ -662,7 +647,6 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 104
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: C3 
@@ -699,10 +683,9 @@ E
 из-под кольчуги. Лучший способ самоубийства - это напасть на него.
 ~
 b0d0e0g0m0n0o0v0x0 c0d0h0k0r0 -600 E
-31 0 -8 90d1000+9000 12d6+12
+30 0 -8 90d10+3000 12d6+12
 0d0+150 330000
 8 8 1
-Saves: -10 -10 -10 -10
 Str: 35
 Dex: 18
 Int: 3
@@ -713,7 +696,6 @@ Size: 10
 LikeWork: 100
 ExtraAttack: 2
 Class: 104
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: C3 
@@ -763,7 +745,6 @@ Size: 50
 LikeWork: 70
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -790,7 +771,7 @@ T 70018
 свою веру и теперь жестоко мстят всем христианам.
 ~
 c0d0g0h0l0m0v0A0 d0f0 -600 E
-26 0 -6 20d10+1200 6d6+8
+25 0 -6 20d10+1200 6d6+8
 0d0+10 110000
 8 8 1
 Str: 24
@@ -802,7 +783,6 @@ Cha: 9
 Size: 50
 LikeWork: 85
 Class: 102
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -830,7 +810,7 @@ T 70020
 странах. Их король - Хрорик - берет совсем небольшие налоги с продаж.
 ~
 c0d0g0l0m0v0A0 d0f0 -600 E
-29 0 -4 25d10+1800 7d5+12
+25 0 -4 25d10+1800 7d5+12
 0d0+50 200000
 8 8 1
 Str: 30
@@ -843,7 +823,6 @@ Size: 50
 LikeWork: 80
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -877,7 +856,7 @@ T 70019
 их и не лишает жизни. Правда после боя они чаще всего умирают от полученых ран.
 ~
 d0e0g0l0m0n0o0p0v0x0A0 c0d0e0f0r0m1 -600 E
-30 0 -5 50d10+2200 10d5+14
+26 0 -5 50d10+2200 10d5+14
 0d0+10 280000
 8 8 1
 Str: 26
@@ -890,7 +869,6 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 2
 Class: 102
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -927,10 +905,9 @@ T 70021
 Бог-воитель, убийца гигантов, громовержец. 
 ~
 d0e0g0m0n0o0p0r0v0x0u2 b0c0d0e0f0k0r0x0C0p1u1 -600 E
-32 0 -10 50d50+800 15d5+10
+50 0 -10 50d50+800 15d5+10
 10d10+150 460000
 8 8 1
-Saves: -14 -14 -14 -14
 Str: 36
 Dex: 35
 Int: 33
@@ -941,7 +918,6 @@ Size: 80
 LikeWork: 50
 ExtraAttack: 3
 Class: 104
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: b1c1C3 
@@ -1028,7 +1004,7 @@ L 1477 23 0 0
 Испугать его можно только морским троллем или женщиной на корабле.
 ~
 b0c0d0g0l0m0v0A0 h0o1 -600 E
-25 3 -8 20d20+1800 6d8+12
+27 3 -8 20d20+1800 6d8+12
 0d0+100 100000
 8 8 1
 Str: 18
@@ -1041,7 +1017,6 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: b1c1C3 
@@ -1085,7 +1060,6 @@ Size: 30
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: l0C3 
@@ -1165,7 +1139,6 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 198
 Weight: 50
 Special_Bitvector: a0b1c1d1C3 

@@ -242,6 +242,18 @@ if !%pause%
   wat 50002 wload mob 50001
 end
 ~
+#50013
+Трусы волонда~
+1 j 100
+~
+if %actor.name% != Волонд
+  osend %actor% Да туда трех таких как вы засунуть можно...
+  return 0
+  halt
+else
+  oechoaround %actor% %actor.name% напялил шикарные семейные трусы и засветился от счастья, прикрывая прореху на заднице.
+end
+~
 #50020
 добавить_слава_5~
 1 j 100
@@ -249,10 +261,10 @@ end
 
 ~
 #50021
-торт Задига~
+торт Волонда~
 1 g 100
 ~
-if %actor.name% != Осин
+if %actor.name% != Волонд
   osend %actor% ___&RПоложь, где росло!&n
   return 0
   halt
@@ -286,12 +298,152 @@ if ((%cmd% == %str1%) || (%cmd% == %str2%))
     halt
   end
   osend %actor% Вы надавили пальцами на глаза игрушечного дракончика и его клыки временно ослабили хватку.
+  attach 50024 %self.id%
   detach 50022 %self.id%
   wait 5s
   attach 50022 %self.id%
+  detach 50024 %self.id%
   halt
 end
 return 0
+~
+#50024
+Сняли китайскую игрушку~
+1 l 100
+~
+wait 1
+if !%self.worn_by%
+  otransform 51819
+  attach 50025 %self.id%
+end
+~
+#50025
+Надели китайскую игрушку~
+1 j 100
+~
+if %actor.vnum% != -1
+  return 0
+  halt
+end
+wait 1
+if ((%self.vnum% == 51819) && %self.worn_by%)
+  otransform 51820
+end
+detach 50025 %self.id%
+~
+#50030
+ВстречаетМетель~
+0 q 100
+~
+wait 1s
+г Зона на реставрации!
+г Велено никого не пускать!
+wait 1s
+mecho _&WЗашумели ветры буйные, застлали очи колючими снежинками.&n
+mecho _&WНе пройти, не проехати!
+~
+#50031
+ТригМетели~
+0 d 0
+*~
+wait 1s
+if %actor.name% == морена
+  switch %speech%
+    case следуй
+      кив
+      wait 1s
+      след .морена
+    break
+    case исчезни
+      взд
+      wait 1s
+      лиз .морена
+      %purge% %self%
+    break
+    default
+      пож
+      вопрос .морена
+    break
+  done
+else
+  рыч .%actor.name%
+end
+~
+#50040
+Триггер серебряной свирели~
+1 c 1
+сыграть~
+wait 1
+if !%arg.contains(мелодию)%
+  osend %actor% Что вы хотите сыграть?
+  halt
+end
+oecho %actor.name% поднес%actor.q% свирель к губам и слегка подул в нее.
+if (%world.curmobs(50049)% < 1)
+  wait 1s
+  oecho Послышалась переливчатая зовущая мелодия.
+  wait 1s
+  oecho Лунный зверь медленно сгустился из воздуха, зачарованно глядя на вас.
+  oechoaround %actor% Лунный зверь медленно сгустился из воздуха, зачарованно глядя на %actor.vname%
+  oload mob 50049
+  halt
+end
+calcuid moonanimal 50049 mob
+if ((%moonanimal.realroom% == %actor.realroom%) && !%moonanimal.leader%)
+  wait 1s
+  oecho Послышалась грустная прощальная мелодия.
+  oecho Лунный зверь тоскливо взывыл и растаял в воздухе.
+  wait 1
+  opurge %moonanimal%
+  halt
+end
+if ((%moonanimal.realroom% == %actor.realroom%) && (%moonanimal.leader% == %actor%))
+  oecho Послышалась переливчатая прозрачная мелодия.
+  wait 1s
+  oechoaround %actor% Лунный зверь танцует в воздухе, зачарованно глядя на %actor.vname%
+  oecho Лунный зверь танцует в воздухе, зачарованно глядя на вас.
+  halt
+end
+if ((%moonanimal.realroom% == %actor.realroom%) && (%moonanimal.leader% != %actor%))
+  oecho Послышалась тонкая звенящая мелодия.
+  wait 1s
+  oecho Лунный зверь беспокойно взвыл.
+  oforce %moonanimal% follow я
+  wait 3
+  oechoaround %actor% Лунный зверь подлетел ближе к %actor.dname%
+  oecho Лунный зверь подлетел поближе к вам.
+  halt
+end
+if (%moonanimal.realroom% != %actor.realroom%)
+  oecho Послышалась настойчивая зовущая мелодия.
+  wait 1s
+  oechoaround %moonanimal% Лунный зверь вдруг беспокойно взвыл и растаял в воздухе.
+  oecho Лунный зверь со свистом причался откуда-то, и подлетел к вам.
+  oteleport %moonanimal% %actor.realroom%
+end
+~
+#50041
+именной шмот бодрича~
+1 ghijopqrs 100
+~
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
+  halt
+end
+if %actor.name% != бодрич && %actor.name% != итан
+  osend %actor%  &gЧереп вспыхнул зеленоватым светом, и Вам стало плохо&n
+  odamage %actor% 1000000
+  return 0
+  halt
+end
+~
+#50042
+триг на сумку бодрича~
+1 b 100
+~
+if (%random.100%<5)
+  oecho Из-сумки вылетел белый ЧеРеп, пронесся мимо Вас и взорвался в воздухе, оставив после себя множество осколовков
+  halt
+end
 ~
 #50047
 Именной шмот пуржится~
@@ -323,7 +475,7 @@ switch %self.vnum%
     end
   break
   case 50053
-    if %owner.name% != Ерихон && %owner.name% != Катарина
+    if %owner.name% != Амрина
       wait 1
       oforce %owner% бросить %objname.car%.%objname.cdr%
     end
@@ -359,7 +511,7 @@ switch %self.vnum%
     end
   break
   case 50059
-    if ((%owner.name% != Женя) && (%owner.name% != Ивица))
+    if ((%owner.name% != Женя) && (%owner.name% != Тарам) && (%owner.name% != Ивица))
       wait 1
       oforce %owner% бросить %objname.car%.%objname.cdr%
     end
@@ -383,7 +535,7 @@ switch %self.vnum%
     end
   break
   case 50063
-    if %owner.name% != Удал && %owner.name% != Стойко && %owner.clan% != вд
+    if %owner.name% != Удал && %owner.name% != Стойко && %owner.clan% != вд && %owner.clan% != гд && %owner.clan% != нд
       wait 1
       oforce %owner% бросить %objname.car%.%objname.cdr%
     end
@@ -401,7 +553,7 @@ switch %self.vnum%
     end
   break
   case 50066
-    if ((%owner.name% != Вика) && (%owner.name% != Сулеман) && (%owner.name% != Вианэт))
+    if ((%owner.name% != Регина) && (%owner.name% != Вианэт) && (%owner.name% != Кондратий) && (%owner.name% != Эриман))
       wait 1
       oforce %owner% бросить %objname.car%.%objname.cdr%
     end
@@ -456,7 +608,7 @@ switch %self.vnum%
   break
   case 50075
     wait 1
-    if %owner.name% != Владэк
+    if ((%owner.name% != Владэк) && (%owner.name% != Чарва) && (%owner.name% != Мергана))
       oforce %owner% бросить %objname.car%.%objname.cdr%
     end
   break
@@ -467,7 +619,7 @@ switch %self.vnum%
     end
   break
   case 50076
-    if ((%owner.name% != Добря ) && (%owner.name% != Наталья ))
+    if ((%owner.name% != Аладори ) && (%owner.name% != Наталья ) && (%owner.name% != Обида ))
       oforce %owner% бросить %objname.car%.%objname.cdr%
     end
   break
@@ -509,7 +661,7 @@ elseif (%actor.name% == Рианда)
     mload obj 50065
     дать сумка .рианда
   end
-elseif (%actor.name% == Вианэт) || (%actor.name% == Сулеман)
+elseif (%actor.name% == Феклуша)
   if (%world.curobjs(50066)% == 0)
     ул
     mload obj 50066
@@ -584,7 +736,7 @@ elseif (%actor.name% == Глузд)
     mload obj 50088
     дать сумка .Глузд
   end
-elseif ((%actor.name% == Добря) || (%actor.name% == Наталья ))
+elseif ((%actor.name% == Добря) || (%actor.name% == Наталья ) || (%actor.name% == Обида ))
   if ( %world.curobjs(50076)% == 0 )
     mload obj 50076
     дать торба .%actor.name%
@@ -606,7 +758,7 @@ elseif (%actor.name% == Делан)
     бледн
     дать саквояж .делан
   end
-elseif ((%actor.name% == Огалай) || (%actor.name% == Разий))
+elseif ((%actor.name% == Огалай) || (%actor.name% == Илья))
   if ( %world.curobjs(50082)% == 0 )
     mload obj 50082
     emot почесал чучело камышового кота за ухом.
@@ -657,11 +809,11 @@ elseif %actor.name% == Лешко
     mload obj 50052
     д авось.лешк .лешко
   end
-elseif (%actor.name% == Ерихон || %actor.name% == Катарина)
+elseif (%actor.name% == Амрина)
   if %world.curobjs(50053)% == 0
-    say Ааа, пришел за своим вещь мешком ? Да в него наверное пол НК влезет, забирай, он тут у меня кучу места жрет.
+    say Ааа, пришла за своим мешком ? Да в него наверное пол НК влезет, забирай, он тут у меня кучу места жрет.
     mload obj 50053
-    д сум.ери .%actor.name%
+    give сума .%actor.name%
   end
 elseif ( %actor.name% == Некрас ) || ( %actor.name% == Лихья )
   if %world.curobjs(50055)% == 0
@@ -684,13 +836,13 @@ elseif %actor.name% == Далим
     mload obj 50057
     give сума .Далим
   end
-elseif ((%actor.name% == Женя) || (%actor.name% == Ивица))
+elseif ((%actor.name% == Женя) || (%actor.name% == Тарам) || (%actor.name% == Ивица))
   if %world.curobjs(50059)% == 0
     say Явился, наконец, жулик!
     ворч
     say Вот твоя котомка - забирай. Орет без конца, да еще и подмигивает, скотина!
     mload obj 50059
-    give котом .Женя
+    give котом .%actor.name%
   end
 elseif %actor.name% == Илерий
   if %world.curobjs(50058)% == 0
@@ -778,21 +930,22 @@ else
 end
 ~
 #50053
-именной шмот Ерихон~
-1 ghjp 100
+Именной шмот - Амрина~
+1 gjp 100
 ~
 if (%actor.level% > 30 )  (%actor.vnum% == -1 )
   halt
 end
-if %actor.name% == Ерихон || %actor.name% == Катарина
+if %actor.name% == Амрина
   wait 1
-  oechoaround %actor% Сума Ерихона начала раздуваться в предвкушении сладостей.
+  oechoaround %actor% Сума Амрины начала раздуваться в предвкушении сладостей.
   osend %actor% Ваша сума проголодалась и требует сладких плюшек.
   halt
 else
-  osend %actor% Сума Ерихона брезгливо осмотрела Вас в поисках вкусного, не найдя ничего интересного тяпнула Вас за нос.
+  osend %actor% Сума Амрины брезгливо осмотрела Вас в поисках вкусного, не найдя ничего интересного тяпнула Вас за нос.
   osend %actor% &RЭто действительно БОЛЬНО!&n
-  oechoaround %actor% %actor.name% вздумал%actor.g% присвоить добро Ерихона, но преданная сума откусила обидчику нос. Поделом!
+  oechoaround %actor% %actor.name% вздумал%actor.g% присвоить добро Амрины, но преданная сума откусила обидчику нос. Поделом!
+  otransform 50053
   return 0
   halt
 end
@@ -890,15 +1043,15 @@ end
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if ((%actor.name% != Женя) && (%actor.name% != Ивица))
+if ((%actor.name% != Женя) && (%actor.name% != Тарам) && (%actor.name% != Ивица))
   return 0
   oechoaround %actor% %actor.name% попытался взять котомку.
   oecho ___Нарисованный на котомке драконий глаз едва не испепелил %actor.vname% дотла!
   halt
 else
   wait 1
-  *oecho _Глаз на котомке Иакима вдруг засветился и подмигнул Вам.
-  *oecho ___Неожиданно раздался ЖУТКИЙ вопль и глаз полыхнул кровавым огнем!
+  oecho _Глаз на котомке Жени вдруг засветился и подмигнул Вам.
+  oecho ___Неожиданно раздался ЖУТКИЙ вопль и глаз полыхнул кровавым огнем!
 end
 ~
 #50060
@@ -943,6 +1096,7 @@ if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
 if %actor.name% != Феосий
+  otransform 50062
   return 0
   oechoaround %actor% %actor.name% наклонил%actor.u% чтобы взять узелок...
   oechoaround %actor% __...но откуда-то появился вор, выхватил узелок и был таков.
@@ -961,7 +1115,7 @@ end
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if %actor.name% != Удал && %actor.name% != Стойко
+if %actor.name% != Удал && %actor.name% != Стойко && %actor.clan% != нд && %actor.clan% != вд && %actor.clan% != гд
   otransform 50063
   oechoaround %actor% %actor.name% наклонил%actor.u% и протянул руку к акульей голове.
   oechoaround %actor% Зубы акулы впились в руку %actor.rname%!
@@ -980,7 +1134,7 @@ end
 Именной шмот - Ювеналий~
 1 gjp 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
 if ( %actor.name% != Ювеналий ) && ( %actor.name% != Шмуэль )
@@ -995,7 +1149,7 @@ end
 ~
 #50065
 Именной шмот - Рианда~
-1 ghjp 100
+1 gjp 100
 ~
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
@@ -1017,23 +1171,18 @@ end
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if %actor.name% != Вика &&  %actor.name% != Сулеман &&  %actor.name% != Вианэт
-  oechoaround %actor% _%actor.name% наклонил%actor.u% и попытал%actor.u% поднять рюкзак.
-  oechoaround %actor% _Так ничего и не получилось... Видимо в дестве %actor.name% ел%actor.q% мало каши.
-  oforce %actor% пук
-  osend %actor% _Вам не под силу поднять этот рюкзак, видимо вы в детстве ели мало каши...
+if ((%actor.name% != Эриман) && (%actor.name% != Кондратий) && (%actor.name% != Регина) && (%actor.name% != Вианэт))
+  osend %actor% Походный мешок бродяги: Вы не в состоянии нести еще и его !
+  otransform 50066
   return 0
   halt
-else
-  wait 1
-  oecho   %actor.name% взял%actor.g% в руки свой любимый старый рюкзак.
 end
 ~
 #50067
 Именной шмот - Ильмо~
 1 ghj 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
 if %actor.name% != Ильмо
@@ -1046,10 +1195,10 @@ else
 end
 ~
 #50068
-Именной шмот - Яснолик~
+Именной шмот - Орина~
 1 ghjp 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
 if %actor.name% != орина
@@ -1078,7 +1227,7 @@ end
 Именной шмот - Эльвуд~
 1 gjp 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
 if %actor.name% != Чино
@@ -1094,7 +1243,7 @@ end
 Именной шмот - Шостак~
 1 gj 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
 if %actor.name% != Урик
@@ -1112,10 +1261,10 @@ end
 Именной шмот - Сердитко~
 1 gjp 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if ((%actor.name% != Хромунд) && (%actor.name% != Акся))
+if %actor.name% != Хромунд && %actor.name% != Акся && %actor.name% != Олеша && %actor.name% !=  Весняна
   osend %actor% _Дорожная сумка проворно осткочила в сторону, избежав ваших пальцев.
   return 0
   halt
@@ -1127,7 +1276,7 @@ end
 Именной шмот - Волимир~
 1 gjp 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
 if %actor.name% != Волимир
@@ -1143,7 +1292,7 @@ end
 Именной шмот - Курлан~
 1 gjp 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
 if %actor.name% != Курлан
@@ -1159,10 +1308,10 @@ end
 Именной шмот - Владэк~
 1 gjp 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if %actor.name% != Владэк
+if ((%actor.name% != Владэк) && (%actor.name% != Чарва) && (%actor.name% != Мергана))
   otransform 50075
   osend %actor% _Лукошко проворно отскочило от вашей руки.
   return 0
@@ -1175,21 +1324,23 @@ end
 Именной шмот - Добря~
 1 gjp 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if ((%actor.name% != Добря ) && (%actor.name% != Наталья ))
+if ((%actor.name% != Аладори ) && (%actor.name% != Наталья ) && (%actor.name% != Обида ))
   osend %actor%  Торба из лепестков сакуры протекла у вас между пальцев и снова мирно улеглась на земле.
   return 0
   halt
 else
+  wait 1
+  oecho ___&KПорыв ветра&n сорвал с торбы несколько &Wлепестков&n.
 end
 ~
 #50077
 Сумка Рогнеды - Огромадный баул~
 1 gjp 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
 if %actor.name% != Рогнеда && %actor.name% != Гинор
@@ -1230,7 +1381,7 @@ osend %actor%  _Магический знак на %self.pname% на мгновение засветился тусклым 
 if ((%actor.level% > 30) && (%actor.level% == -1))
   halt
 end
-if %actor.name% != Делан
+if %actor.name% != Делан && %actor.name% != Нелад
   otransform 50079
   osend %actor%  Саквояж потрошителя приоткрылся.
   osend %actor%  Вас передернуло от страха и вы передумали подбирать чужое...
@@ -1240,7 +1391,7 @@ if %actor.name% != Делан
   end
 else
   set owner %self.worn_by%
-  if %owner.name% == Делан
+  if %owner.name% == Делан || %owner.name% == Нелад
     halt
   end
   wait 1
@@ -1348,7 +1499,7 @@ return 0
 Именной шмот - Яснолик~
 1 gjp 100
 ~
-if (%actor.level% > 30 ) & (%actor.vnum% == -1 )
+if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
 if %actor.name% != Яснолик

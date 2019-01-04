@@ -834,7 +834,7 @@ d0g0g1l1m1n1 x0 0 E
 2 14 9 5d5+30 1d3+0
 0d0+0 120
 8 8 2
-BareHandAttack: 4
+BareHandAttack: 16
 Str: 5
 Size: 1
 LikeWork: 12
@@ -912,7 +912,7 @@ d0f0g0l1m1n1 x0 0 E
 2 11 9 5d5+30 1d3+0
 0d0+0 120
 8 8 2
-BareHandAttack: 4
+BareHandAttack: 16
 Str: 5
 Size: 1
 LikeWork: 12

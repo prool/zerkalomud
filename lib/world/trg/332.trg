@@ -53,7 +53,7 @@ wechoaround %actor% %actor.name%, превратившись в рыбу, уплыл%actor.g% по течени
 wait 1s
 wsend %actor.name% .- Вы оказались в странной пещере...
 wat 33300 wecho Кто-то приплыл сюда.
-wteleport %actor.name% 33300
+wteleport %actor.name% 33300 horse
 end
 ~
 #33204
@@ -130,7 +130,7 @@ wsend       %actor% Вспомнив любимую рыбку, вы быстро начали барахтаться...
 wechoaround %actor% %actor.name% поплыл%actor.g% к другой части корабля.
 wait 1s
 wsend %actor.name% - Вам не пришлось долго плыть до корабля, и вот вы уже там!
-wteleport %actor.name% 33290
+wteleport %actor.name% 33290 horse
 wat 33290 wechoaround %actor% Кто-то приплыл сюда.
 end
 ~
@@ -147,7 +147,7 @@ wsend       %actor% Как краб, вы ловко вскарабкались вверх.
 wechoaround %actor% %actor.name% двинул%actor.g% вверх.
 wait 1s
 wsend %actor.name% .- Вы лихо вскарабкались к обломкам корабля!
-wteleport %actor.name% 33246 horse
+wteleport %actor% 33246 horse
 wechoaround %actor% Кто-то вскарабкался сюда.
 end
 ~
@@ -594,22 +594,17 @@ say Ты отомстил за меня?
 say Молодец!
 say Получи награду!
 wait 1s
-if (%world.curobjs(33210)% <= 5) & (%random.4%==1)
+if (%world.curobjs(33210)% <= 5) && (%random.4%==1)
   mload obj 33210
   say Вот возьми это..
   дать поножи.капитана .%actor.name%
   halt
-elseif %world.curobjs(3385)% < 1 && %world.curobjs(3384)% < 1 && %random.7% == 1
-  mload obj 3384
-  дать нож .%actor.name%
-  say Вот возьми это...
-  halt
-elseif (%world.curobjs(33211)% <= 5) & (%random.4%==1)
+elseif (%world.curobjs(33211)% <= 5) && (%random.4%==1)
   mload obj 33211
   say Вот возьми это..
   дать браслет.капитана .%actor.name%
   halt
-elseif (%world.curobjs(33212)% <= 3) & (%random.4%==1)
+elseif (%world.curobjs(33212)% <= 3) && (%random.4%==1)
   mload obj 33212
   say Вот возьми это..
   дать жезл.капитана .%actor.name%

@@ -215,9 +215,6 @@ detach 38410 %self.id%
 %load% obj 38422
 calcuid deathroom %self.realroom% room
 attach 38410 %deathroom.id%
-if ((%world.curobjs(3333)% < 1) && (%world.curobjs(3332)% < 1) && (%random.1000% < 90))
-  mload obj 3332
-end
 ~
 #38412
 death2~

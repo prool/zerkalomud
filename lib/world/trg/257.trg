@@ -36,6 +36,7 @@ set i 0
 eval rem %random.30%
 eval cha %random.20%
 if %amount% > 100
+  log !!!! Чародею %actor.name% дал%actor.g% %amount% кун.
   set i 1
   if %rem% < %actor.remort% && %amount% > 80000
     say Такой умный а людям наслово веришь! А они обманывать умеют!     
@@ -63,49 +64,49 @@ switch %amount%
     mteleport %actor% 25700
     halt
   break
-  case 90000
-    mload obj 513
-    give книг %actor.name%
-  break
-  case 100000
-    mload obj 515
-    give книг %actor.name%
-  break
-  case 150000
-    mload obj 571
-    give книг %actor.name%
-  break
-  case 180000
-    mload obj 555
-    give книг %actor.name%
-  break
-  case 500000
-    mload obj 567
-    give книг %actor.name%
-  break
-  case 400000
-    mload obj 566
-    give книг %actor.name%
-  break
-  case 300000
-    mload obj 569
-    give книг %actor.name%
-  break
-  case 550000
-    mload obj 532
-    give книг %actor.name%
-  break
-  default
-    say И чего же ты за эти деньги хочешь?
-    say Решайся быстрее -- время дорого, еще столько надо успеть сделать!
-    give %amount% кун %actor.name%
-  done 
-  wait 1s          
-  if %i%           
-    say А теперь прощай!
-    mecho %self.name% исчез в яркой вспышке!
-    mpurge %self%
-  end
+  *mload obj 513
+  mload obj 513
+  give книг %actor.name%
+break
+*mload obj 515
+mload obj 515
+give книг %actor.name%
+break
+*mload obj 571
+mload obj 571
+give книг %actor.name%
+break
+*mload obj 555
+mload obj 555
+give книг %actor.name%
+break
+*mload obj 567
+mload obj 567
+give книг %actor.name%
+break
+*mload obj 566
+mload obj 566
+give книг %actor.name%
+break
+*mload obj 569
+mload obj 569
+give книг %actor.name%
+break
+*mload obj 532
+mload obj 532
+give книг %actor.name%
+break
+default
+  say И чего же ты за эти деньги хочешь?
+  say Решайся быстрее -- время дорого, еще столько надо успеть сделать!
+  give %amount% кун %actor.name%
+done 
+wait 1s          
+if %i%           
+  say А теперь прощай!
+  mecho %self.name% исчез в яркой вспышке!
+  mpurge %self%
+end
 ~
 #25702
 Зашли к старику, охраняющему темницу.~
@@ -508,9 +509,6 @@ end
 Дракон убит~
 0 f 100
 ~
-if %world.curobjs(3355)% < 1 && %world.curobjs(3354)% < 1  && %random.100% < 3
-  mload obj  3354
-end
 if ( %random.100% < 20 ) && ( %world.curobjs(25739)% < 5 )
   mload obj 25739
 end

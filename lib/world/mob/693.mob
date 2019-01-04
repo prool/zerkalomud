@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #69300
 двенадцатиглавый змей страж~
 двенадцатиглавый змей~
@@ -9,59 +8,51 @@
 двенадцатиглавом змее~
 Двенадцатиглавый змей замер на страже Мариного Чертога.
 ~
-Змей о двенадцати головах, каждая из которых смотрит мертвым, ледяным 
-взглядом на тонкой, изящной шее. Чешуя на брюхе светится иссине-белым 
-светом, становясь более темной по направлению к спине. Хребет увенчен 
+   Змей о двенадцати головах, каждая из которых смотрит мертвым, ледяным
+взглядом на тонкой, изящной шее. Чешуя на брюхе светится иссине-белым
+светом, становясь более темной по направлению к спине. Хребет увенчан
 острыми алмазными иглами, которые словно звезды мерцают во мраке.
 ~
-b0c0m0n0o0p0x0y0A0c2h2 d0f0k0x0q1z1 -600 E
+b0c0d0m0n0o0p0x0y0A0c2h2 d0f0k0x0q1z1 -600 E
 33 0 -9 10d10+6000 15d16+19
 30d3+500 800000
 8 8 1
 Saves: -40 -50 -65 -30
 Resistances: -40 60 60 -10 0 0 0
-HPreg: 0
 Armour: 90
-PlusMem: 0
 CastSuccess: 60
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 35
+Dex: 30
 Int: 21
 Wis: 30
-Dex: 30
 Con: 40
 Cha: 18
-LikeWork: 85
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 100
+LikeWork: 85
+Class: 103
 Height: 198
 Weight: 100
-Special_Bitvector: c1
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 68
-Spell: 68
-Spell: 68
-Spell: 68
-Spell: 68
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 88
-Spell: 88
+Special_Bitvector: c1 
 Skill: 136 130
 Skill: 137 130
 Skill: 160 130
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
 E
 I крылья,10:10
 #69301
@@ -72,78 +63,70 @@ I крылья,10:10
 черного врана~
 черным враном~
 черном вране~
-Черная как ночь птица застыла в безмолвии
+Черная как ночь птица застыла в безмолвии.
 ~
-У воронов лапы медны, а клювы железны, перья как ножи востры, 
-грозны очи по всей ночи ясны. 
+   У воронов лапы медны, а клювы железны, перья как ножи востры,
+грозны очи по всей ночи ясны.
 ~
-b0k0l0n0o0p0r0x0A0g2 b0c0d0e0f0k0x0z0A0q1w1z1 -600 E
+b0d0k0l0n0o0p0r0x0A0g2 b0c0d0e0f0k0x0z0A0q1w1z1 -600 E
 32 4 0 3d10+4000 12d15+10
 0d0+0 500000
 8 8 1
 Saves: -50 -40 -50 -35
 Resistances: -25 50 40 0 0 0 0
-HPreg: 0
 Armour: 30
-PlusMem: 0
 CastSuccess: 70
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 20
+Dex: 35
 Int: 25
 Wis: 35
-Dex: 35
 Con: 25
 Cha: 15
+Size: 35
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 4
 Class: 103
-Size: 35
 Height: 66
 Weight: 50
-Special_Bitvector: c0
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
+Special_Bitvector: c0 
 Skill: 136 130
 Skill: 157 130
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
 E
 I крылья,10:10
 #69302
@@ -156,49 +139,35 @@ I крылья,10:10
 деве-Печали~
 Дева-Печаль раскинула покрывала здесь.
 ~
-Над полями среди грома боев крылья ее распущены. Кличет зовет Дева-Печаль 
+   Над полями среди грома боев крылья ее распущены. Кличет-зовет Дева-Печаль
 за собою мертвых воинов. Власы с проседью кровью испачканы. Глаза темные
 смотрят недвижимо.
 ~
-b0c0n0o0y0A0 b0d0f0k0n0m0x0C0 -600 E
+b0c0d0n0o0y0A0 b0d0f0k0m0n0x0C0 -600 E
 30 0 -8 10d10+6500 20d20+6
 20d20+1000 650000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 35
+Dex: 24
 Int: 25
 Wis: 30
-Dex: 24
 Con: 41
 Cha: 31
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 105
-Size: 100
 Height: 175
 Weight: 50
-Spell: 48
-Spell: 48
-Spell: 48
-Spell: 48
-Spell: 48
+Special_Bitvector: 0 
 Skill: 132 100
 Skill: 157 100
-Helper: 69303
-Helper: 69304
-Helper: 69306
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
 E
 T 69303
 T 69352
@@ -212,45 +181,35 @@ T 69352
 деве-Скорби~
 Дева-Скорбь ждет мертвых в своих покоях.
 ~
-Вестница смерти, коя извещает о сородичах, вдалеке от дома сгинувших. 
+   Вестница смерти, коя извещает о сородичах, вдалеке от дома сгинувших.
 По пропащим слезы льет, по покинутым. Власы ветром развеяны, а в глазах
 скорбь Великая.
 ~
-b0n0o0 b0k0x0 -600 E
+b0d0n0o0 b0k0x0 -600 E
 30 4 -10 10d10+6500 18d19+14
 0d0+0 650000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
 CastSuccess: 90
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 34
+Dex: 37
 Int: 36
 Wis: 36
-Dex: 37
 Con: 33
 Cha: 36
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 2
 Class: 105
-Size: 100
 Height: 189
 Weight: 77
+Special_Bitvector: 0 
+Skill: 136 100
+Spell: 56
+Spell: 56
 Spell: 150
 Spell: 152
 Spell: 152
-Spell: 56
-Spell: 56
-Skill: 136 100
 E
 T 69352
 #69304
@@ -263,48 +222,38 @@ T 69352
 деве-Обиде~
 Дева с лебедиными крылами летает здесь призраком.
 ~
-Колышатся крылья белые, сеят пухом на землю стылую. Руки нежные мечом скованы. 
-А в глазах ее застыла омутом - тьма глубокая белым беленая. 
+   Колышатся крылья белые, сеят пухом на землю стылую. Руки нежные мечом скованы.
+А в глазах ее застыла омутом - тьма глубокая, белым беленая.
 ~
-b0n0o0 b0k0x0 -600 E
+b0d0n0o0 b0k0x0 -600 E
 29 4 -10 10d10+6500 18d18+14
 0d0+0 650000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
 CastSuccess: 90
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 36
+Dex: 31
 Int: 33
 Wis: 33
-Dex: 31
 Con: 31
 Cha: 20
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 105
-Size: 100
 Height: 160
 Weight: 77
-Spell: 127
-Spell: 127
-Spell: 55
-Spell: 55
-Spell: 88
-Spell: 88
-Spell: 88
+Special_Bitvector: 0 
 Skill: 12 100
 Skill: 132 100
 Skill: 151 100
+Spell: 55
+Spell: 55
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 127
+Spell: 127
 E
 T 69352
 #69305
@@ -317,82 +266,77 @@ T 69352
 Маре-Морене~
 Хозяйка зимы лютой расстилает метели.
 ~
-Вихрями снежными укутана Ледяная Дева - Мара-Морена, Зимы и Смерти 
+   Вихрями снежными укутана Ледяная Дева - Мара-Морена, Зимы и Смерти
 грозноокая владычица. Белее мела точеное тело ее, мертвы очи - что омуты
-бездонные, брови ее - что соболя, и черны как Нощь распущенные власы, по 
-плечам и спине Ее змеящиеся. В руках череп человечий колдовским металллом -
-серебром окованный. Блестит во власах Серп Лунный коим Смерти Володычица 
+бездонные, брови ее - что соболя, и черны как Нощь распущенные власы, по
+плечам и спине Ее змеящиеся. В руках череп человечий, колдовским металллом -
+серебром окованный. Блестит во власах Серп Лунный коим Смерти Володычица
 во Срок свой Нити жизни людей подрезает.
 ~
-b0c0f0n0o0p0z0A0c2h2 c0d0f0k0n0m0r0x0z0q1r1w1x1z1 -600 E
+b0c0d0f0n0o0p0z0A0c2h2 c0d0f0k0m0n0r0x0z0q1r1w1x1z1 -600 E
 37 2 -7 10d10+15000 18d19+50
 0d0+5000 2000000
 8 8 2
 Saves: -65 -65 -65 -65
 Resistances: -100 100 100 50 0 0 0
-HPreg: 0
 Armour: 90
-PlusMem: 0
 CastSuccess: 95
 Success: 5
 Initiative: 5
 Absorbe: 40
-AResist: 0
-MResist: 0
 BareHandAttack: 8
 Str: 42
+Dex: 39
 Int: 31
 Wis: 50
-Dex: 39
 Con: 43
 Cha: 38
+Size: 79
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 105
-Size: 79
 Height: 198
 Weight: 67
-Special_Bitvector: C3
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 152
-Spell: 94
+Special_Bitvector: C3 
 Skill: 132 130
 Skill: 165 130
-Helper: 69321
-Helper: 69322
-Helper: 69323
-Helper: 69324
-Helper: 69325
+Spell: 94
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
 Helper: 69326
+Helper: 69325
+Helper: 69324
+Helper: 69323
+Helper: 69322
+Helper: 69321
 E
 T 69319
 #69306
@@ -405,44 +349,34 @@ T 69319
 деве-Мсте~
 Темная ликом дева расправляет черные крылья.
 ~
-Темноокая, чернокрылая. Небо затмила - по земле ходила. Кто в глаза ей
-зрит навеки душу ей продаст.
+   Темноокая, чернокрылая. Небо затмила - по земле ходила. Кто в глаза ей
+зрит, навеки душу ей продаст.
 ~
-b0n0o0 b0k0x0 -600 E
+b0d0n0o0 b0k0x0 -600 E
 28 4 -5 10d10+6500 20d23+14
 0d0+0 650000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
 CastSuccess: 90
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 35
+Dex: 18
 Int: 19
 Wis: 23
-Dex: 18
 Con: 34
 Cha: 24
+Size: 44
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 105
-Size: 44
 Height: 150
 Weight: 70
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
+Special_Bitvector: 0 
 Skill: 132 80
 Skill: 157 70
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
 E
 T 69352
 #69307
@@ -455,45 +389,30 @@ T 69352
 огненном всаднике~
 Огненный всадник спит здесь.
 ~
-Можно лишь различить темный силуэт, приникший к лошади. 
+   Можно лишь различить темный силуэт, приникший к лошади.
 Огненный ореол стекает с его спины шлейфом и растворяется
 в темноте.
 ~
-b0h1 d0f0k0y1 -600 E
+b0d0h1 d0f0k0y1 -600 E
 28 1 -8 10d10+4200 16d11+11
 0d0+0 400000
 4 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 35
+Dex: 30
 Int: 24
 Wis: 30
-Dex: 30
 Con: 25
-Cha: 11
+Size: 75
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 75
 Height: 175
 Weight: 87
-Special_Bitvector: b1c1d1
+Special_Bitvector: b1c1d1 
+Skill: 22 100
 Skill: 137 100
 Skill: 146 100
-Skill: 22 100
 E
-T 69317
 #69308
 полудница~
 полудница~
@@ -504,9 +423,9 @@ T 69317
 полуднице~
 Полудница жнет урожай людских голов.
 ~
-Статная девушка в белом одеянии, в полдень появляющаяся посредь хлебов
-зреющих. Кого заставала она в поле, должен был в течении часа рассказывать 
-ей одно и тоже. Иначе подсекала она жизнь его Серпом своим и складывала 
+   Статная девушка в белом одеянии, в полдень появляющаяся посредь хлебов
+зреющих. Кого заставала она в поле, должен был в течении часа рассказывать
+ей одно и тоже. Иначе подсекала она жизнь его Серпом своим и складывала
 снопы из голов людских.
 ~
 c0d0g0i0l0m0q0r0z0A0 d0f0n0s0x0z0A0a1u1y1 -600 E
@@ -514,31 +433,25 @@ c0d0g0i0l0m0q0r0z0A0 d0f0n0s0x0z0A0a1u1y1 -600 E
 20d20+500 300000
 8 8 2
 Saves: -80 -10 -10 -10
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 30
-PlusMem: 0
 CastSuccess: 50
-Success: 0
-Initiative: 0
 Absorbe: 30
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 28
+Dex: 18
 Int: 20
 Wis: 35
-Dex: 18
 Con: 25
 Cha: 15
+Size: 98
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 2
 Class: 101
-Size: 98
 Height: 190
 Weight: 85
-Special_Bitvector: l0
+Special_Bitvector: l0 
+Skill: 136 125
+Skill: 160 125
 Spell: 26
 Spell: 26
 Spell: 26
@@ -550,8 +463,6 @@ Spell: 67
 Spell: 67
 Spell: 67
 Spell: 67
-Skill: 136 125
-Skill: 160 125
 E
 T 69348
 #69309
@@ -564,41 +475,28 @@ T 69348
 седобородом отшельнике~
 Седобородый старец сидит на скамье.
 ~
-Высокий старик с длинной белой бородой спускающейся почти до пола. 
-Его волосы также белы как снег и спускаются на плечи инеем. 
-Сутулая спина еще крепка и гордая осанка до сих пор хранит там
+   Высокий старик с длинной белой бородой, спускающейся почти до пола.
+Его волосы также белы как снег, и спускаются на плечи инеем.
+Сутулая спина еще крепка, и гордая осанка до сих пор хранит там
 свою печать.
 ~
-b0 d0f0k0n1 -600 E
+b0d0 d0f0k0n1 -600 E
 1 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: i3
+Special_Bitvector: i3 
 E
 T 69305
 #69310
@@ -611,43 +509,32 @@ T 69305
 вещем лучнике~
 Вещий лучник мастерит из пламени огненные стрелы.
 ~
-Грозны стрелы его, коими разит он сердца людей, поселяя в них
+   Грозны стрелы его, коими разит он сердца людей, поселяя в них
 огонь битв Великих.
 ~
-b0n0o0r0 d0f0h0k0r1 -600 E
+b0d0n0o0r0 d0f0h0k0r1 -600 E
 30 3 -9 10d10+4000 16d16+10
 0d0+1000 400000
 8 8 1
 Saves: -20 -20 -20 -20
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 9
 Str: 35
+Dex: 31
 Int: 20
 Wis: 20
-Dex: 31
 Con: 31
 Cha: 15
+Size: 78
 LikeWork: 65
-MaxFactor: 0
 ExtraAttack: 3
 Class: 104
-Size: 78
 Height: 180
 Weight: 80
-Special_Bitvector: b1c1d1
-Spell: 28
+Special_Bitvector: b1c1d1 
 Skill: 137 120
 Skill: 154 120
 Skill: 155 120
+Spell: 28
 E
 T 69331
 #69311
@@ -660,39 +547,25 @@ T 69331
 огненном всаднике~
 Огненный всадник вихрем мчится мимо.
 ~
-Можно лишь различить темный силуэт, заетрявшийся во мраке. 
+   Можно лишь различить темный силуэт, затерявшийся во мраке.
 Огненный ореол окружает его шлейфом и растворяется в темноте.
 ~
-i1 f0k0y1 -600 E
+d0i1 f0k0y1 -600 E
 28 1 -9 10d10+4500 16d16+11
 0d0+0 450000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 35
+Dex: 30
 Int: 24
 Wis: 30
-Dex: 30
 Con: 25
-Cha: 11
+Size: 75
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 3
 Class: 104
-Size: 75
 Height: 175
 Weight: 87
-Special_Bitvector: y0b1c1d1
+Special_Bitvector: y0b1c1d1 
 Skill: 137 100
 Skill: 146 100
 E
@@ -707,41 +580,28 @@ T 69317
 снежном барсе~
 Огромная белая кошка почти сливается со снегом.
 ~
-Чтобы не замерзнуть среди снегов барсу пришлось обзавестись густой длинной 
-шерстью. Дымчатым облаком носится он по белой равнине пугая тишину. 
-Небольшая и изящная голова урашена совсем черными пятнами, которые легко
-принять за черную ветку упавшую с дерева.
+   Чтобы не замерзнуть среди снегов, барсу пришлось обзавестись густой длинной
+шерстью. Дымчатым облаком носится он по белой равнине, пугая тишину.
+Небольшая и изящная голова украшена совсем черными пятнами, которые легко
+принять за черную ветку, упавшую с дерева.
 ~
-h0j0l0m0p0 f0k0r0s0m1 -600 E
+d0h0j0l0m0p0 f0k0r0s0m1 -600 E
 24 4 0 10d10+1000 11d11+4
 0d0+0 100000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 8
-Str: 11
+Dex: 18
 Int: 4
 Wis: 8
-Dex: 18
 Con: 4
 Cha: 9
+Size: 50
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 3
 Class: 103
-Size: 50
 Height: 60
 Weight: 70
-Special_Bitvector: i0
+Special_Bitvector: i0 
 Skill: 157 100
 E
 I шерсть,10:10
@@ -749,49 +609,37 @@ I шерсть,10:10
 рысь кошка пятнистая~
 пятнистая рысь~
 пятнистой рыси~
-пятнистой рысе~
+пятнистой рыси~
 пятнистую рысь~
 пятнистой рысью~
 пятнистой рыси~
 Пятнистая кошка изогнулась перед прыжком.
 ~
-Большие глаза на неподвижной морде устремлены прямо вперед и обеспечивают 
-зверю объемное острое зрение на довольно большое расстояние. Нижнюю часть 
-морды обрамляют относительно длинные баки, которые у других кошек едва 
-обозначены. Пятна в виде точек или полосок покрывают спину, бока и 
-спускаются вниз к ногам. Хвост имеет такой же рисунок, а конец хвоста 
-черный и тупо закругляется
+   Большие глаза на неподвижной морде устремлены прямо вперед, и обеспечивают
+зверю объемное острое зрение на довольно большое расстояние. Нижнюю часть
+морды обрамляют относительно длинные баки, которые у других кошек едва
+обозначены. Пятна в виде точек или полосок покрывают спину, бока и
+спускаются вниз к ногам. Хвост имеет такой же рисунок, а конец хвоста
+черный и тупо закругляется.
 ~
-0 f0k0s0z0C0j1 -600 E
+d0 f0k0s0z0C0j1 -600 E
 25 1 -2 10d10+1000 11d11+5
 0d0+0 100000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 8
 Str: 8
+Dex: 20
 Int: 18
 Wis: 4
-Dex: 20
 Con: 10
 Cha: 10
+Size: 50
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 50
 Height: 60
 Weight: 55
-Special_Bitvector: i0
+Special_Bitvector: i0 
 Skill: 150 100
 Skill: 157 120
 E
@@ -806,40 +654,27 @@ I когти,10:10
 знахарке~
 Пожилая женщина с черными как смоль волосами стоит у очага.
 ~
-Годы посыпали серебром голову ее, но волосы кажутся черными как смоль
-чуть прикрытые проседью-снежинками белыми. Взгляд наполнен уверенностью 
+   Годы посыпали серебром голову ее, но волосы кажутся черными как смоль
+чуть прикрытые проседью-снежинками белыми. Взгляд наполнен уверенностью
 и спокойствием, силой древней тишины глубокой.
 ~
-b0 d0f0k0a1n1 -600 E
+b0d0 d0f0k0a1n1 -600 E
 1 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 99
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: i3
+Special_Bitvector: i3 
 E
 T 69302
 T 69301
@@ -851,57 +686,45 @@ T 69301
 духа погибшего в бою~
 духом погибшего в бою~
 духе погибшего в бою~
-Дух воина погибшего на бранном поле стоит здесь.
+Дух воина, погибшего на бранном поле, стоит здесь.
 ~
-Порвана кольчуга стрелами. Еще струится кровь по стальным кольцам. Глаза
+   Порвана кольчуга стрелами. Еще струится кровь по стальным кольцам. Глаза
 глядят сумеречно, по ту сторону. Пал воин смертью лютой на полях сражений.
 Теперь смотрит Смерть глазами Его.
 ~
-b0m0q0z0 d0f0h0k0w1 -600 E
+b0d0f0m0q0z0 d0f0h0k0w1 -600 E
 28 0 -5 10d10+6000 16d17+8
 0d0+230 600000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 36
+Dex: 23
 Int: 16
 Wis: 22
-Dex: 23
 Con: 28
 Cha: 16
+Size: 88
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 88
 Height: 176
 Weight: 78
-Spell: 127
-Spell: 127
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 27
-Spell: 3
-Spell: 83
-Spell: 83
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Skill: 132 100
+Special_Bitvector: 0 
 Skill: 4 100
+Skill: 132 100
+Spell: 3
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 83
+Spell: 83
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 127
+Spell: 127
 E
 T 69333
 #69316
@@ -912,45 +735,33 @@ T 69333
 духа усопшего купца~
 духом усопшего купца~
 духе усопшего купца~
-Бледный человек покачиваясь стоит здесь.
+Бледный человек, покачиваясь, стоит здесь.
 ~
-Седой человек, почти старец. Спокойное лицо хранит отпечаток отрешенности 
-прошедшего путь Марин. Расшитые халаты развеваются, словно по ветру в 
-бездвижимом воздухе. Только ему одному ведом ветер странника, что 
+   Седой человек, почти старец. Спокойное лицо хранит отпечаток отрешенности
+прошедшего путь Марин. Расшитые халаты развеваются, словно по ветру в
+бездвижимом воздухе. Только ему одному ведом ветер странника, что
 сопровождает его и после Смерти.
 ~
-b0m0z0 c0d0f0h0k0x0A0C0t1 -600 E
+b0d0j0m0z0 c0d0f0h0k0x0A0C0t1 -600 E
 28 3 -7 10d10+3600 14d15+8
 1d100+900 350000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 36
+Dex: 18
 Int: 16
 Wis: 17
-Dex: 18
 Con: 33
 Cha: 15
+Size: 100
 LikeWork: 70
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
 Height: 175
 Weight: 85
-Spell: 1
-Spell: 1
+Special_Bitvector: 0 
 Skill: 5 100
+Spell: 1
+Spell: 1
 E
 T 69334
 #69317
@@ -963,44 +774,33 @@ T 69334
 духе заблудшего в Нави~
 Призрачная тень колышется в воздухе.
 ~
-Призрачный облик едва выдает человека. Теперь это только тень
+   Призрачный облик едва выдает человека. Теперь это только тень,
 бесконечно странствующая по нави в поисках себя самого.
 Долог путь его по бесконечным коридорам Мариного Чертога.
 ~
-b0m0z0e2h2 e0f0k0x0u1 -600 E
+b0d0f0m0z0e2h2 e0f0k0x0u1 -600 E
 29 0 0 10d10+2000 10d12+12
 20d20+300 200000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
 CastSuccess: 90
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 35
+Dex: 36
 Int: 33
 Wis: 38
-Dex: 36
 Con: 36
 Cha: 13
-LikeWork: 80
-MaxFactor: 0
-ExtraAttack: 0
-Class: 101
 Size: 100
+LikeWork: 80
+Class: 101
 Height: 175
 Weight: 85
-Spell: 56
-Spell: 56
+Special_Bitvector: 0 
 Skill: 134 100
 Skill: 150 100
 Skill: 160 100
+Spell: 56
+Spell: 56
 E
 T 69332
 #69318
@@ -1013,41 +813,30 @@ T 69332
 звере рыскучем~
 Черный волк застыл в ожидании.
 ~
-Зверь, просто зверь. Рыскает.
+   Зверь, просто зверь. Рыскает.
 ~
-b0m0 f0k0r0q1 -600 E
+b0d0i0m0 f0k0r0q1 -600 E
 29 3 -7 10d10+3200 14d15+8
 0d0+0 350000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 16
+Dex: 20
 Int: 16
 Wis: 16
-Dex: 20
 Con: 33
 Cha: 10
+Size: 53
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 53
 Height: 88
 Weight: 59
-Spell: 28
-Spell: 28
-Spell: 28
+Special_Bitvector: 0 
 Skill: 167 110
+Spell: 28
+Spell: 28
+Spell: 28
 E
 #69319
 безымянный~
@@ -1059,45 +848,33 @@ E
 безымянном~
 Невзрачного вида получеловек-полузверь стоит здесь.
 ~
-И не Человек и не Зверь. От своего имени отринутый на века долгие -
+   И не Человек и не Зверь. От своего имени отринутый на века долгие -
 века вечные. хранит лицо печали человеческие, но взгляд кидает
 из под лба звериный.
 ~
-b0m0 d0f0k0r0o1 -600 E
+b0d0f0m0 d0f0k0r0o1 -600 E
 29 0 0 10d10+3020 15d14+7
 50d20+200 30000
 8 8 0
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 15
+Dex: 38
 Int: 20
 Wis: 37
-Dex: 38
 Con: 31
 Cha: 14
+Size: 100
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Size: 100
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
+Spell: 48
+Spell: 48
+Spell: 48
 Spell: 122
 Spell: 122
 Spell: 144
-Spell: 48
-Spell: 48
-Spell: 48
 E
 #69320
 ночница~
@@ -1107,56 +884,39 @@ E
 ночницу~
 ночницей~
 ночнице~
-Девушка в полурозрачной накидке растворяется в темноте.
+Девушка в полупрозрачной накидке растворяется в темноте.
 ~
-Иногда темнота оживает и причудливые тени рождают в воображении 
-призрачный образ  девушки, чье нагое тело едва прикрыто полупрозрачной
-накидкой. Ее походка словно походка крадущейся рыси. Она скользит
-по ночному воздуху через моря, через луга, через сны. Она исчезает и 
+   Иногда темнота оживает, и причудливые тени рождают в воображении
+призрачный образ девушки, чье нагое тело едва прикрыто полупрозрачной
+накидкой. Ее походка, словно походка крадущейся рыси. Она скользит
+по ночному воздуху через моря, через луга, через сны. Она исчезает и
 только ее глаза, темные и бездонные, всегда остаются за левым плечом.
 ~
-c0j0l0m0n0o0z0A0 d0f0k0m0s0x0z0A0r1w1 -600 E
+c0d0j0l0m0n0o0z0A0 d0f0k0m0s0x0z0A0r1w1 -600 E
 27 2 -4 10d10+3000 4d4+8
 25d55+0 300000
 8 8 2
 Saves: -80 -10 -10 -10
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 20
-PlusMem: 0
 CastSuccess: 50
-Success: 0
-Initiative: 0
 Absorbe: 35
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 28
+Dex: 20
 Int: 20
 Wis: 35
-Dex: 20
 Con: 25
 Cha: 30
+Size: 100
 LikeWork: 75
-MaxFactor: 0
 ExtraAttack: 2
 Class: 101
-Size: 100
 Height: 180
 Weight: 96
-Special_Bitvector: l0
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 137
-Spell: 137
+Special_Bitvector: l0 
+Skill: 132 125
+Skill: 136 125
+Skill: 150 125
 Spell: 25
 Spell: 25
 Spell: 48
@@ -1170,9 +930,18 @@ Spell: 76
 Spell: 76
 Spell: 76
 Spell: 76
-Skill: 132 125
-Skill: 136 125
-Skill: 150 125
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 137
+Spell: 137
 E
 T 69349
 #69321
@@ -1185,45 +954,37 @@ T 69349
 знобее~
 Бледноликая дева сеет по Миру дрожь и непогоду.
 ~
-Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком 
+   Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком
 облитая. Власы черными змеями по спине до пят спускаются. Бродит
 она по Миру духом, насылает на род людской озноб.
-
 ~
-l0m0 d0f0k0x0z0u1z1 -600 E
+d0l0m0 d0f0k0x0z0u1z1 -600 E
 29 0 -2 10d10+4693 14d19+8
 5d6+500 450000
 8 8 2
 Saves: -40 -40 -40 -40
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 30
-PlusMem: 0
 CastSuccess: 40
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 20
+Dex: 24
 Int: 15
 Wis: 21
-Dex: 24
 Con: 32
 Cha: 15
+Size: 65
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 2
 Class: 101
-Size: 65
 Height: 176
 Weight: 54
-Spell: 127
-Spell: 127
-Spell: 127
+Special_Bitvector: 0 
 Skill: 136 120
 Skill: 150 120
+Spell: 127
+Spell: 127
+Spell: 127
 E
 #69322
 огнея дева~
@@ -1235,40 +996,30 @@ E
 огнее~
 Огнегривая дева жгет души огнем.
 ~
-Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком 
+   Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком
 облитая. Ярко-рыжие волосы стянуты в хвост белоснежной бечевкой. Бродит
 она по Миру духом, насылает на род людской огонь, изнутри сжигающий.
 И называют ее - жар насылающая.
 ~
-l0m0a2 c0d0e0k0x0A0C0y1 -600 E
+d0l0m0a2 c0d0e0k0x0A0C0y1 -600 E
 28 0 -4 10d10+4400 15d16+8
 6d6+250 450000
 8 8 2
 Saves: -70 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
 CastSuccess: 60
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 28
+Dex: 28
 Int: 14
 Wis: 31
-Dex: 28
 Con: 30
 Cha: 16
-LikeWork: 90
-MaxFactor: 0
-ExtraAttack: 0
-Class: 101
 Size: 100
+LikeWork: 90
+Class: 101
 Height: 175
 Weight: 85
+Special_Bitvector: 0 
 Spell: 26
 Spell: 26
 Spell: 26
@@ -1326,82 +1077,71 @@ T 69351
 заморе~
 Бледноликая дева сеет по Миру мор и голод.
 ~
-Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком 
+   Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком
 облитая. Власы черными змеями по спине до пят спускаются. Бродит
 она по Миру духом, насылает на род мор да голод.
 ~
-l0m0 d0e0f0k0x0t1u1 -600 E
+d0l0m0 d0e0f0k0x0t1u1 -600 E
 28 3 -2 10d10+4160 13d15+8
 50d60+0 450000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 15
+Dex: 24
 Int: 19
 Wis: 23
-Dex: 24
 Con: 31
 Cha: 13
+Size: 100
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 2
 Class: 101
-Size: 100
 Height: 175
 Weight: 85
-Spell: 131
-Spell: 131
-Spell: 131
-Spell: 131
-Spell: 131
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 76
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
+Special_Bitvector: 0 
 Skill: 134 120
 Skill: 136 120
 Skill: 157 120
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
 E
 #69324
 знобея дева бледноликая~
@@ -1413,82 +1153,73 @@ E
 Знобее~
 Бледноликая дева сеет по Миру дрожь и непогоду.
 ~
-Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком 
+   Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком
 облитая. Власы черными змеями по спине до пят спускаются. Бродит
 она по Миру духом, насылает на род людской озноб.
-
 ~
-f0l0m0h2 d0f0k0x0z0q1u1z1 -600 E
+d0f0l0m0h2 d0f0k0x0z0q1u1z1 -600 E
 30 0 -2 10d10+6093 19d18+8
 5d6+1500 700000
 8 8 2
 Saves: -50 -50 -50 -50
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 60
-PlusMem: 0
 CastSuccess: 80
-Success: 0
-Initiative: 0
 Absorbe: 25
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 25
+Dex: 34
 Int: 33
 Wis: 32
-Dex: 34
 Con: 30
 Cha: 16
-LikeWork: 90
-MaxFactor: 0
-ExtraAttack: 0
-Class: 101
 Size: 65
+LikeWork: 90
+Class: 101
 Height: 176
 Weight: 54
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Spell: 128
-Skill: 136 130
+Special_Bitvector: 0 
 Skill: 2 130
+Skill: 136 130
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
 Helper: 69321
 E
 #69325
@@ -1499,72 +1230,64 @@ E
 грудицу~
 грудицей~
 грудице~
-Грудица отрешенно бродит по чертогу укутавшись в белое покрывало.
+Грудица отрешенно бродит по чертогу, укутавшись в белое покрывало.
 ~
-Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком 
+   Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком
 облитая. Власы черными змеями по спине до пят спускаются. Бродит
 она по Миру духом, насылает на род людской кашель и хрипоту.
 ~
-m0n0o0 d0f0k0x0u1 -600 E
+d0m0n0o0 d0f0k0x0u1 -600 E
 28 3 -2 10d10+4000 14d14+10
 20d25+236 450000
 8 8 2
 Saves: -40 -40 -40 -40
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
 CastSuccess: 50
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 30
+Dex: 25
 Int: 15
 Wis: 24
-Dex: 25
 Con: 25
 Cha: 10
+Size: 45
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 2
 Class: 101
-Size: 45
 Height: 175
 Weight: 66
-Spell: 111
-Spell: 111
-Spell: 111
-Spell: 82
-Spell: 82
-Spell: 82
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 92
-Spell: 93
-Spell: 93
-Spell: 93
-Skill: 136 120
+Special_Bitvector: 0 
 Skill: 5 120
+Skill: 136 120
+Spell: 82
+Spell: 82
+Spell: 82
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 92
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 111
+Spell: 111
+Spell: 111
 E
 #69326
 ледяница дева~
@@ -1576,48 +1299,40 @@ E
 ледянице~
 Дева в белоснежном покрывале кличет морозы-метели.
 ~
-Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком 
-облитая. Власы черными змеями по спине до пят спускаются. Собирает, 
+   Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком
+облитая. Власы черными змеями по спине до пят спускаются. Собирает,
 кличет она морозы-метели и насылает на землю стылую.
 ~
-l0m0c2 d0f0k0x0A0z1 -600 E
+d0l0m0c2 d0f0k0x0A0z1 -600 E
 28 0 -3 10d10+4600 16d15+8
 20d1+450 450000
 8 8 2
 Saves: -30 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 60
-PlusMem: 0
 CastSuccess: 50
-Success: 0
-Initiative: 0
 Absorbe: 40
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 27
+Dex: 23
 Int: 17
 Wis: 32
-Dex: 23
 Con: 32
 Cha: 17
-LikeWork: 90
-MaxFactor: 0
-ExtraAttack: 0
-Class: 101
 Size: 45
+LikeWork: 90
+Class: 101
 Height: 160
 Weight: 56
+Special_Bitvector: 0 
+Spell: 55
+Spell: 55
+Spell: 62
 Spell: 104
 Spell: 104
 Spell: 104
 Spell: 127
 Spell: 128
 Spell: 128
-Spell: 55
-Spell: 55
-Spell: 62
 E
 T 69350
 #69327
@@ -1630,91 +1345,84 @@ T 69350
 вихровике-встречнике~
 Вихровик-встречник охотится за ветрами.
 ~
-Чуть сутулый старик с белоснежной длинной бородой, спускающейся до самой
-земли. В глазах словно собралась вся синь небес, взгляд дружелюбен и 
-спокоен. Шея увешаена уздечками из золотых нитей, как будто сплетенных 
-из лучей лунного света. 
+   Чуть сутулый старик с белоснежной длинной бородой, спускающейся до самой
+земли. В глазах словно собралась вся синь небес, взгляд дружелюбен и
+спокоен. Шея увешана уздечками из золотых нитей, как будто сплетенных
+из лучей лунного света.
 ~
-b0c0z0 d0f0k0r0o1x1 -600 E
+b0c0d0z0 d0f0k0r0o1x1 -600 E
 29 3 -7 7d10+7000 17d19+8
 20d5+1000 600000
 8 8 1
 Saves: -65 -40 -50 -35
 Resistances: 0 99 0 0 0 0 0
-HPreg: 0
 Armour: 40
-PlusMem: 0
 CastSuccess: 90
-Success: 0
-Initiative: 0
 Absorbe: 40
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 16
+Dex: 16
 Int: 16
 Wis: 37
-Dex: 16
 Con: 36
 Cha: 15
+Size: 100
 LikeWork: 99
-MaxFactor: 0
 ExtraAttack: 2
 Class: 104
-Size: 100
 Height: 175
 Weight: 85
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 38
+Special_Bitvector: 0 
 Skill: 136 130
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
 E
 T 69310
 #69328
@@ -1725,80 +1433,73 @@ T 69310
 тень-навию~
 тенью-навией~
 тени-навии~
-Призрак напоминающий девушку встает из воды.
+Призрак, напоминающий девушку, встает из воды.
 ~
-Мерцающая тень на поверхности воды. Ее легко принять за клочья тумана
-или отражение звезды. Но если смотреть долго неясные контуры принимают
-силуэт девушки грациозной как лань с большими глазами полными тоски и 
+   Мерцающая тень на поверхности воды. Ее легко принять за клочья тумана
+или отражение звезды. Но если смотреть долго, неясные контуры принимают
+силуэт девушки, грациозной как лань, с большими глазами, полными тоски и
 печали.
 ~
-c0f0n0o0z0A0 b0c0d0e0f0g0k0n0m0s0q1u1 -600 E
+c0d0f0n0o0z0A0 b0c0d0e0f0g0k0m0n0s0q1u1 -600 E
 29 2 0 10d10+3060 16d16+10
 15d10+0 300000
 8 8 2
 Saves: -40 -40 -40 -40
 Resistances: -50 30 80 0 0 0 0
-HPreg: 0
 Armour: 35
-PlusMem: 0
 CastSuccess: 50
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
 BareHandAttack: 2
 Str: 30
+Dex: 28
 Int: 22
 Wis: 22
-Dex: 28
 Con: 28
 Cha: 15
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 2
 Class: 101
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: o0
-Spell: 150
-Spell: 150
-Spell: 150
-Spell: 150
-Spell: 150
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
-Spell: 72
+Special_Bitvector: o0 
 Skill: 132 125
 Skill: 136 125
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
 E
 T 69330
 #69329
@@ -1809,55 +1510,43 @@ T 69330
 ведогоня-охранителя~
 ведогонем-охранителем~
 ведогоне-охранителе~
-Ведогонь-охранитель оберегая хозяина летает здесь.
+Ведогонь-охранитель, оберегая хозяина, летает здесь.
 ~
-Незримый дух сопутсвующий людям до смерти. Во время сна они исхродят
-из человека и охраняют-оберегают кго имущество от воров, а жизнь от
+   Незримый дух, сопутствующий людям до смерти. Во время сна они исходят
+из человека и охраняют-оберегают его имущество от воров, а жизнь от
 неприятелей или других, недобрых, ведогоней.
 ~
-b0l0m0r0 d0f0k0x0 -600 E
+b0d0l0m0r0 d0f0k0x0 -600 E
 30 2 -9 10d10+2501 15d16+10
 0d0+0 120000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 35
+Dex: 30
 Int: 33
 Wis: 33
-Dex: 30
 Con: 28
 Cha: 12
+Size: 90
 LikeWork: 90
-MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Size: 90
 Height: 190
 Weight: 120
-Special_Bitvector: b1c1d1
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
+Special_Bitvector: b1c1d1 
 Skill: 136 125
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
 E
 #69330
 вамфири~
@@ -1869,69 +1558,61 @@ E
 Вамфири~
 Вамфири тихо поет песнь спящего моря.
 ~
-Существо созданное из дымки предрассветного тумана. Бесконечно прекрасное
+   Существо, созданное из дымки предрассветного тумана. Бесконечно прекрасное
 и бесконечно далекое. Огромные глаза цвета волн смотрят печально и
-задумчиво. Синяя кожа покрыта золотыми нитями из мерцающих в свете 
-заката чешуйками.
+задумчиво. Синяя кожа покрыта золотыми нитями из мерцающих в свете
+заката чешуек.
 ~
-b0c0g0k0l0u0x0z0A0e2h2 b0d0f0g0k0x0A0u1 -600 E
+b0c0d0g0k0l0u0x0z0A0e2h2 b0d0f0g0k0x0A0u1 -600 E
 30 0 -7 10d10+10000 10d13+10
 0d0+9000 1000000
 8 8 2
 Saves: -70 0 -70 0
 Resistances: -25 0 40 0 0 0 0
-HPreg: 0
 Armour: 30
-PlusMem: 0
 CastSuccess: 75
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 36
+Dex: 32
 Int: 24
 Wis: 40
-Dex: 32
 Con: 36
 Cha: 31
+Size: 35
 LikeWork: 95
-MaxFactor: 0
 ExtraAttack: 2
 Class: 105
-Size: 35
 Height: 180
 Weight: 68
-Special_Bitvector: b1c1
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 135
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 153
-Spell: 94
-Skill: 132 130
+Special_Bitvector: b1c1 
 Skill: 4 130
+Skill: 132 130
+Spell: 94
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
 E
 T 69347
 #69331
@@ -1944,79 +1625,72 @@ T 69347
 могучем ящере~
 Могучий ящер сторожит клады несметные.
 ~
-Огромный зверь о трех головах, старый как само время. Оскалены пасти
+   Огромный зверь о трех головах, старый как само время. Оскалены пасти
 белоснежными клыками. В дыхании его огненные стрелы. В глазах
 играет пламя пекла.
 ~
-b0c0f0n0o0A0 c0d0f0k0x0A0C0p1 -600 E
+b0c0d0f0n0o0A0 c0d0f0k0x0A0C0p1 -600 E
 31 4 -10 10d10+5600 8d8+14
 0d0+0 600000
 8 8 1
 Saves: -45 -5 -45 -35
 Resistances: 50 0 30 0 0 0 0
-HPreg: 0
 Armour: 40
-PlusMem: 0
 CastSuccess: 30
-Success: 0
-Initiative: 0
 Absorbe: 15
-AResist: 0
-MResist: 0
 BareHandAttack: 1
 Str: 45
+Dex: 33
 Int: 36
 Wis: 36
-Dex: 33
 Con: 33
 Cha: 35
+Size: 100
 LikeWork: 80
-MaxFactor: 0
 ExtraAttack: 3
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: g0b1c1
-Spell: 33
-Spell: 33
-Spell: 33
-Spell: 33
-Spell: 33
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
-Spell: 84
+Special_Bitvector: g0b1c1 
 Skill: 130 130
 Skill: 136 130
 Skill: 148 130
 Skill: 160 130
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
+Spell: 84
 E
 T 69315
 T 69345
@@ -2026,53 +1700,40 @@ T 69345
 ведогоня-охранителя~
 ведогоню-охранителю~
 ведогоня-охранителя~
-ведогоннем-охранителем~
+ведогонем-охранителем~
 ведогоне-охранителе~
 Ведогонь-охранитель стоит на страже.
 ~
-Незримый дух сопутсвующий людям до смерти. Во время сна они исхродят
+   Незримый дух, сопутствующий людям до смерти. Во время сна они исходят
 из человека и охраняют-оберегают его имущество от воров, а жизнь от
 неприятелей или других, недобрых, ведогоней.
 ~
-a0b0n0o0z0 d0f0h0n0m0x0r1 -600 E
-30 3 -10 10d10+3501 25d25+10
+a0b0d0o0z0l2 f0k0m0n0x0r1t1 -600 E
+30 0 -10 10d10+2001 6d25+10
 0d0+0 400000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
 BareHandAttack: 6
 Str: 40
+Dex: 35
 Int: 15
 Wis: 20
-Dex: 35
 Con: 35
 Cha: 35
-LikeWork: 95
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 90
+LikeWork: 95
+Class: 104
 Height: 190
 Weight: 120
-Special_Bitvector: y0b1c1d1
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
+Special_Bitvector: y0b1c1d1C3 
+Skill: 22 100
 Skill: 137 100
 Skill: 154 120
 Skill: 155 120
-Skill: 22 100
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
 E
 #69333
 вихровик встречник~
@@ -2084,91 +1745,79 @@ E
 вихровике-встречнике~
 Вихровик-встречник охотится за ветрами.
 ~
-Чуть сутулый старик с белоснежной длинной бородой, спускающейся до самой
-земли. В глазах словно собралась вся синь небес, взгляд дружелюбен и 
-спокоен. Шея увешаена уздечками из золотых нитей, как будто сплетенных 
-из лучей лунного света. 
+   Чуть сутулый старик с белоснежной длинной бородой, спускающейся до самой
+земли. В глазах словно собралась вся синь небес, взгляд дружелюбен и
+спокоен. Шея увешаена уздечками из золотых нитей, как будто сплетенных
+из лучей лунного света.
 ~
-b0z0 d0f0k0r0o1x1 -600 E
+b0d0z0 d0f0k0r0o1x1 -600 E
 29 3 -7 7d10+7000 17d19+8
 20d5+1000 600000
 8 8 1
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 23
+Dex: 22
 Int: 23
 Wis: 38
-Dex: 22
 Con: 40
 Cha: 15
+Size: 100
 LikeWork: 85
-MaxFactor: 0
 ExtraAttack: 2
 Class: 104
-Size: 100
 Height: 175
 Weight: 85
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 104
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 23
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 28
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 38
+Special_Bitvector: 0 
 Skill: 136 130
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
 E
 T 69311
 #69334
@@ -2179,74 +1828,65 @@ T 69311
 Грудицу~
 Грудицей~
 Грудице~
-Грудица отрешенно бродит по чертогу укутавшись в белое покрывало.
+Грудица отрешенно бродит по чертогу, укутавшись в белое покрывало.
 ~
-Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком 
+   Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком
 облитая. Власы черными змеями по спине до пят спускаются. Бродит
 она по Миру духом, насылает на род людской кашель и хрипоту.
 ~
-b0f0l0n0o0x0h2 d0f0k0x0u1 -600 E
+b0d0f0l0n0o0x0h2 d0f0k0x0u1 -600 E
 30 2 -6 10d10+6000 18d18+10
 20d25+2360 700000
 8 8 2
 Saves: -50 -50 -50 -50
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 40
-PlusMem: 0
 CastSuccess: 100
-Success: 0
-Initiative: 0
 Absorbe: 20
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 34
+Dex: 31
 Int: 17
 Wis: 35
-Dex: 31
 Con: 25
 Cha: 14
-LikeWork: 80
-MaxFactor: 0
-ExtraAttack: 0
-Class: 101
 Size: 45
+LikeWork: 80
+Class: 101
 Height: 175
 Weight: 66
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
-Spell: 8
+Special_Bitvector: 0 
+Skill: 5 130
 Skill: 136 130
 Skill: 165 130
-Skill: 5 130
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
 Helper: 69325
 E
 #69335
@@ -2259,81 +1899,72 @@ E
 Заморе~
 Бледноликая дева сеет по Миру мор и голод.
 ~
-Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком 
+   Бледноликая дева в белом одеянии. Кожа белее снега, словно молоком
 облитая. Власы черными змеями по спине до пят спускаются. Бродит
 она по Миру духом, насылает на род мор да голод.
 ~
-f0l0m0h2 d0e0f0k0x0t1u1 -600 E
+d0f0l0m0h2 d0e0f0k0x0t1u1 -600 E
 30 0 -2 10d10+6560 18d17+8
 50d60+870 700000
 8 8 2
 Saves: -50 -50 -50 -50
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 45
-PlusMem: 0
 CastSuccess: 75
-Success: 0
-Initiative: 0
 Absorbe: 35
-AResist: 0
-MResist: 0
 BareHandAttack: 7
 Str: 31
+Dex: 24
 Int: 25
 Wis: 35
-Dex: 24
 Con: 31
-Cha: 11
-LikeWork: 90
-MaxFactor: 0
-ExtraAttack: 0
-Class: 101
 Size: 100
+LikeWork: 90
+Class: 101
 Height: 175
 Weight: 85
-Spell: 170
-Spell: 170
-Spell: 170
-Spell: 170
-Spell: 170
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 56
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Spell: 66
-Skill: 136 130
+Special_Bitvector: 0 
 Skill: 4 130
+Skill: 136 130
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 170
+Spell: 170
+Spell: 170
+Spell: 170
+Spell: 170
 Helper: 69323
 E
 #69336
@@ -2346,38 +1977,25 @@ E
 лебедушке~
 &WСияющая птица&R с крыльями &Wцвета снега&R летает здесь.
 ~
-Белая птица-лебедь с сияющими крылами. 
+   Белая птица-лебедь с сияющими крылами.
 ~
-e0n0p0q0r0t0u0 c0d0f0k0x0a1n1 -600 E
+d0e0n0p0q0r0t0u0 c0d0f0k0x0a1n1 -600 E
 28 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 99
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: i3
+Special_Bitvector: i3 
 E
 I крылья,5:5
 #69337
@@ -2390,41 +2008,30 @@ I крылья,5:5
 безликом человеке~
 Человек с &Cсиней кожей&R, истекающий &rкрасной кровью&R бежит по огненной пустыне.
 ~
-Голубая, почти синяя кожа идеально отражает попадающий на нее свет, 
-от чего кажется что она светится своим светом. У них нет лиц. 
+   Голубая, почти синяя кожа идеально отражает попадающий на нее свет,
+от чего кажется что она светится своим светом. У них нет лиц.
 Идеальной формы голова, без лиц. Наверно и никогда не было.
 ~
-b0l0m0n0o0p0q0r0t0x0z0e2g2h2 k0m1r1 -600 E
-25 0 -30 10d10+1500 15d15+5
-0d0+1000 200000
+b0d0l0m0n0o0p0x0z0e2g2h2 k0m1r1 -600 E
+25 0 -4 10d10+1500 15d15+5
+0d0+1000 500000
 8 8 1
 Saves: -40 -40 -40 -40
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
 Armour: 20
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 25
+Dex: 35
 Int: 10
 Wis: 10
-Dex: 35
 Con: 30
 Cha: 10
-LikeWork: 70
-MaxFactor: 0
-ExtraAttack: 0
-Class: 100
 Size: 45
+LikeWork: 70
+Class: 100
 Height: 175
 Weight: 65
-Skill: 150 100
+Special_Bitvector: 0 
 Skill: 2 100
+Skill: 150 100
 E
 I зубы,10:10
 #69338
@@ -2432,44 +2039,158 @@ I зубы,10:10
 &Bдух вселенной&n~
 &Bдуха вселенной&n~
 &Bдуху вселенной&n~
-духа вселенной~
-духом вселенной~
-духе вселенной~
+&Bдуха вселенной&n~
+&Bдухом вселенной&n~
+&Bдухе вселенной&n~
 &kДух вселенной витает повсюду&n.
 ~
-Нечто, что недоступно Вашему пониманию.
+   Нечто, что недоступно Вашему пониманию.
 ~
-b0z0f2g2 0 -600 E
+b0d0z0f2g2 0 -600 E
 50 0 0 10d10+2 0d0+0
 0d0+0 10000
-8 8 0
-Saves: 0 0 0 0
-Resistances: 0 0 0 0 0 0 0
-HPreg: 0
-Armour: 0
-PlusMem: 0
-CastSuccess: 0
-Success: 0
-Initiative: 0
-Absorbe: 0
-AResist: 0
-MResist: 0
-BareHandAttack: 0
+8 8 1
 Str: 10
+Dex: 10
 Int: 10
 Wis: 10
-Dex: 10
 Con: 10
 Cha: 10
+Size: 100
 LikeWork: 100
-MaxFactor: 0
 ExtraAttack: 1
 Class: 100
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: d3i3
+Special_Bitvector: d3i3 
 E
 T 69346
-$
+#69339
+ незримый страж священной земли~
+незримый страж священной земли~
+незримого стража священной земли~
+незримому стражу священной земли~
+незримого стража священной земли~
+незримым стражем священной земли~
+незримом страже священной земли~
+Незримый страж земель древних богов витает в воздухе.
+~
+С виду густое облако тумана, наделенное разумом и
+божьим благословением. Охраняет страж незримый землю 
+священную от гостей незванных - убийц кровожадных.
+~
+b0d0g0n0o0p0q0r0t0u0x0y0B0c2g2j2 b0c0d0e0f0k0t0x0z0C0n1 0 E
+35 0 0 10d10+2 0d0+0
+0d0+0 10000
+8 8 1
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 69353
+#69340
+ незримый страж священной земли~
+незримый страж священной земли~
+незримого стража священной земли~
+незримому стражу священной земли~
+незримого стража священной земли~
+незримым стражем священной земли~
+незримом страже священной земли~
+Незримый страж земель древних богов витает в воздухе.
+~
+С виду густое облако тумана, наделенное разумом и
+божьим благословением. Охраняет страж незримый землю 
+священную от гостей незванных - убийц кровожадных.
+~
+b0d0g0n0o0p0q0r0t0u0x0y0B0c2g2j2 b0c0d0e0f0k0t0x0z0C0n1 0 E
+35 0 0 10d10+2 0d0+0
+0d0+0 10000
+8 8 1
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 69354
+#69341
+ незримый страж священной земли~
+незримый страж священной земли~
+незримого стража священной земли~
+незримому стражу священной земли~
+незримого стража священной земли~
+незримым стражем священной земли~
+незримом страже священной земли~
+Незримый страж земель древних богов витает в воздухе.
+~
+С виду густое облако тумана, наделенное разумом и
+божьим благословением. Охраняет страж незримый землю 
+священную от гостей незванных - убийц кровожадных.
+~
+b0d0g0n0o0p0q0r0t0u0x0y0B0c2g2j2 b0c0d0e0f0k0t0x0z0C0n1 0 E
+35 0 0 10d10+2 0d0+0
+0d0+0 10000
+8 8 1
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 69355
+#69342
+ незримый страж священной земли~
+незримый страж священной земли~
+незримого стража священной земли~
+незримому стражу священной земли~
+незримого стража священной земли~
+незримым стражем священной земли~
+незримом страже священной земли~
+Незримый страж земель древних богов витает в воздухе.
+~
+С виду густое облако тумана, наделенное разумом и
+божьим благословением. Охраняет страж незримый землю 
+священную от гостей незванных - убийц кровожадных.
+~
+b0d0g0n0o0p0q0r0t0u0x0y0B0c2g2j2 b0c0d0e0f0k0t0x0z0C0n1 0 E
+35 0 0 10d10+2 0d0+0
+0d0+0 10000
+8 8 1
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+ExtraAttack: 1
+Class: 104
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 69356
 $

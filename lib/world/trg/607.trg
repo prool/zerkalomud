@@ -240,11 +240,12 @@ mecho Царь рухнул наземь, и Вам почудился радостный возглас старухи
 calcuid staruha2 60607 mob
 attach 60605 %staruha2.id%
 calcuid sons 60621 room
-attach 60608 %sons.id%                    
+attach 60608 %sons.id%  
+*лоад кошеля с 10к 50%
+if (%random.1000% < 501)  
+  mload obj 60719
+end                 
 mload obj 60716
-if ((%world.curobjs(3303)% < 1) && (%random.1000% <= 100))
-  mload obj 3303
-end
 ~
 #60715
 Ответ на Загадку2~

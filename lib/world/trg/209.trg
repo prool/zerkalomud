@@ -34,7 +34,7 @@ if %cmd% == позвать
     wsend %actor% Зачем его звать, он уже здесь.
     halt
   end
-  if %actor.clanrank% != 0
+  if %actor.clanrank% != 0 && %actor.name% != Наталья
     wsend %actor% Волхв не услышал Вас.
     halt
   end
@@ -47,7 +47,7 @@ if %cmd% == позвать
   wecho  и увидели человека, с улыбкой на лице и смотрящего в вашу сторону.
   wload mob 20950
 elseif %cmd% == отпустить
-  if %actor.clanrank% != 0
+  if %actor.clanrank% != 0 && %actor.name% != Наталья
     wsend %actor% Волхв не услышал Вас.
     halt
   end
@@ -140,9 +140,6 @@ end
 if %actor.vnum% != -1
   halt
 end
-tell %actor.name% Нечем мне тебя сегодня кормить. Пойди, поищи еду в другом месте.
-return 0
-halt
 if %amount% < 20
   tell %actor.name% За такие деньги иди ищи сам себе еду
 else
@@ -615,11 +612,20 @@ end
 дать все %actor.name%
 бро все
 ~
+#20932
+Ники кричит~
+0 q 100
+~
+if %actor.clan% == рсп
+  halt
+end
+крич &YРазве ты не знаешь, &W%actor.name%&Y, что это место лучше обходить дальней дорогой?&n
+~
 #20950
 [г прими] воевода волхву~
 0 d 100
 прими~
-if %actor.clanrank% == 0
+if %actor.clanrank% == 0 || %actor.name% == Наталья
   attach 20951 %self.id%
   кивн
   say Пусть войдет
@@ -1141,16 +1147,42 @@ while %i% < 18
     global equiped
 ~
 #20973
-Блокировка на входе~
-2 e 100
+Охотник выпинывает левых~
+0 r 100
 ~
-if %direction% != north
+wait 1
+if (%actor.clan% == рсп)
   halt
 end
-if ((%actor.clan% != рсп) && (%actor.clan% != рк))
-  wsend %actor% Воительница Ники преградила Вам дорогу, выразительно поднеся огромный кулачище к Вашему носу.
-  return 0
-  halt
-end
+msend %actor% Охотник хмуро взглянул на вас.
+mechoaround %actor% Охотник хмуро взглянул на %actor.vname%.
+say Чего надобно? Проваривай, откуда явил%actor.u%.
+msend %actor% Вы почувствовали себя неловко, и поспешили оставить Велизара в покое.
+mforce %actor% east
+~
+#20974
+Иноземиец выпинывает афкеров в тьме~
+0 b 20
+~
+foreach victim %self.pc%
+  if %victim.affect(затемнение)%
+    say %victim.name%, многовато тьмы в твоей головушке!
+    say Иди-кось, проветрись!
+    msend %actor% Тут же дюжие парни схватили вас за бока и сволокли в поруб.
+    mechoaround %actor% Тут же дюжие парни схватили %victim.vname% за бока и сволокли в поруб.
+    mforce %victim% wake
+    mforce %victim% stand
+    mforce %victim% w
+    mforce %victim% n
+    mforce %victim% w
+    mforce %victim% w
+    mforce %victim% w
+    mforce %victim% w
+    mforce %victim% w
+    mforce %victim% w
+    mforce %victim% w
+    *mforce %victim% n
+  end
+done
 ~
 $~

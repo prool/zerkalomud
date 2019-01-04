@@ -438,7 +438,7 @@ msend %actor% -Если ты принесешь мне одну такую, я с радостью ее займусь.
 ~
 if %object.vnum% == 68437
   wait 1
-  mpurge шкура
+  mpurge %object%
   msend %actor% - Какая хорошая шкура.
   msend %actor% - Я попробую что-нибудь сделать, но ни чего не обещаю.
   msend %actor% - Могу и поломать.
@@ -950,7 +950,7 @@ switch %random.5%
       mload obj 68479
     end
   break
-  case 2 
+  case 2
     if %world.curobjs(68480)% < 5 
       mload obj 68480
     end

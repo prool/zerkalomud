@@ -28,6 +28,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 105
+Race: 100
 Height: 195
 Weight: 85
 Special_Bitvector: 0 
@@ -62,6 +63,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -97,6 +99,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -143,6 +146,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 105
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -178,6 +182,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 105
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -215,6 +220,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -240,7 +246,7 @@ E
 тверском кольчужном воине~
 Тверской кольчужный воин следит за порядком в городе.
 ~
-Местный тверской мужик с детства пошел к князи в дружину. Пока он рос,
+Местный тверской мужик с детства пошел к князю в дружину. Пока он рос,
 в нем воспитывали привычку к оружию, силу и навык. Теперь это взрослый
 опытный воин, принимавший участие в боях и войнах. Никакая сейчас его
 не испугает, никакой противник не приведет в смятение.
@@ -260,6 +266,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 104
+Race: 100
 Height: 150
 Weight: 70
 Special_Bitvector: y0b1c1d3C3 
@@ -310,6 +317,7 @@ LikeWork: 80
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 100
 Height: 175
 Weight: 115
 Special_Bitvector: y0b1c1d1 
@@ -362,6 +370,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: d3 
@@ -421,6 +430,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 2
 Class: 104
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: p0b1c1d3C3 
@@ -476,6 +486,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 175
 Weight: 150
 Special_Bitvector: n0 
@@ -512,6 +523,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -537,7 +549,7 @@ E
 b0d0g0n0o0y0o1 c0d0e0f0k0 600 E
 1 0 0 10d10+2 1d1+1
 0d0+1 10000
-8 8 2
+8 8 1
 Str: 10
 Dex: 10
 Int: 10
@@ -547,6 +559,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 105
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -584,6 +597,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 104
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -628,6 +642,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 105
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -663,6 +678,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 3
 Class: 104
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
@@ -728,6 +744,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -760,6 +777,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -794,6 +812,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -828,6 +847,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 3
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -843,8 +863,8 @@ E
 купеческой жене Милице~
 Красивая и стройная женщина в самом расцвете сил.
 ~
-Купеческая жена, Милица, женщина хоть уже и не юная, но красивая особой 
-красой, характерной для взрослых, сформировавшихся женщин. Е╦ движения и
+Купеческая жена, Милица, женщина хоть уже и не юная, но красивая особой
+красой, характерной для взрослых, сформировавшихся женщин. Ее движения и
 жесты полны женственности и шарма, покоряющего мужчин.
 ~
 d0 0 0 E
@@ -861,6 +881,7 @@ Cha: 35
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -884,7 +905,7 @@ E
 b0d0g0 0 0 E
 20 0 0 10d10+2 0d0+0
 0d0+0 10000
-8 8 0
+8 8 1
 Str: 10
 Dex: 10
 Int: 10
@@ -894,6 +915,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -916,7 +938,7 @@ E
 d0g0h1 0 0 E
 15 0 0 10d10+2 0d0+0
 0d0+0 10000
-8 8 0
+8 8 1
 Str: 10
 Dex: 10
 Int: 10
@@ -926,6 +948,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -934,11 +957,11 @@ E
 #60223
 взрослый горожанин Твери~
 Взрослый горожанин Твери~
-взрослого горожанина Твериа~
-взрослому горожанину Твериу~
 взрослого горожанина Твери~
-взрослым горожанином Твериом~
-взрослом горожанине Тверие~
+взрослому горожанину Твери~
+взрослого горожанина Твери~
+взрослым горожанином Твери~
+взрослом горожанине Твери~
 Взрослый мужчина неторопливо идет по улице.
 ~
 Взрослый мужик, хорошо одетый, явно живет здесь. Горожан отличает не только
@@ -959,6 +982,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 2
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -993,6 +1017,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1016,7 +1041,7 @@ E
 d0g0y0h1 0 0 E
 25 0 0 10d10+2 0d0+0
 0d0+0 10000
-8 8 0
+8 8 1
 Str: 10
 Dex: 10
 Int: 10
@@ -1026,6 +1051,7 @@ Cha: 25
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1044,12 +1070,13 @@ E
 Крепкий молодой парень из городских,
 нанятый хозяином для прислуги.
 ~
-b0d0n0o0B0f2 d0f0k0 200 E
+b0d0n0o0B0f2u2 d0f0k0 200 E
 30 0 0 1d100+500 5d5+5
 0d0+0 0
 8 8 1
 Size: 30
 Class: 102
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

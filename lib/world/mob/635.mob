@@ -26,6 +26,7 @@ Size: 75
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -62,6 +63,7 @@ Size: 75
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -96,6 +98,7 @@ Cha: 5
 Size: 45
 LikeWork: 20
 Class: 103
+Race: 100
 Height: 95
 Weight: 110
 Special_Bitvector: p0 
@@ -131,6 +134,7 @@ Cha: 5
 Size: 45
 LikeWork: 20
 Class: 103
+Race: 100
 Height: 95
 Weight: 110
 Special_Bitvector: p0 
@@ -155,7 +159,7 @@ E
 d0f0g0j0 f0h0k0r0z0j1 -600 E
 23 5 -4 80d10+350 5d6+11
 0d0+0 95000
-8 8 0
+8 8 1
 BareHandAttack: 8
 Str: 30
 Dex: 18
@@ -165,6 +169,7 @@ Size: 75
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -198,6 +203,7 @@ Size: 75
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -212,7 +218,7 @@ E
 крупного златобрюха~
 крупным златобрюхом~
 крупном златобрюхе~
-Крупное животное с золотистым обгладывает чьи-то останки.
+Крупное животное с золотистым брюхом обгладывает чьи-то останки.
 ~
    Это животное очень похоже на большую собаку, только вот размерами
 побольше. Длинные и острые когти угрожающе торчат из лап. Длинная
@@ -232,6 +238,7 @@ Size: 75
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: p0C3 
@@ -248,7 +255,7 @@ E
 крупного златобрюха~
 крупным златобрюхом~
 крупном златобрюхе~
-Крупное животное с золотистым обгладывает чьи-то останки.
+Крупное животное с золотистым брюхом обгладывает чьи-то останки.
 ~
    Это животное очень похоже на большую собаку, только вот размерами
 побольше. Длинные и острые когти угрожающе торчат из лап. Длинная
@@ -268,6 +275,7 @@ Size: 75
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: p0C3 
@@ -304,6 +312,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 4
 Class: 100
+Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: p0 
@@ -346,6 +355,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 4
 Class: 100
+Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: p0 
@@ -388,6 +398,7 @@ Cha: 13
 Size: 65
 LikeWork: 15
 Class: 103
+Race: 100
 Height: 75
 Weight: 100
 Special_Bitvector: p0 
@@ -421,6 +432,7 @@ Cha: 13
 Size: 65
 LikeWork: 15
 Class: 103
+Race: 100
 Height: 75
 Weight: 100
 Special_Bitvector: p0 
@@ -454,6 +466,7 @@ Size: 75
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -488,6 +501,7 @@ Size: 75
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -520,6 +534,7 @@ Cha: 5
 Size: 45
 LikeWork: 20
 Class: 103
+Race: 100
 Height: 95
 Weight: 110
 Special_Bitvector: p0 
@@ -553,6 +568,7 @@ Cha: 5
 Size: 45
 LikeWork: 20
 Class: 103
+Race: 100
 Height: 95
 Weight: 110
 Special_Bitvector: p0 
@@ -586,6 +602,7 @@ Size: 75
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -619,6 +636,7 @@ Size: 75
 LikeWork: 35
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: p0 
@@ -653,6 +671,7 @@ Size: 75
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: p0C3 
@@ -687,6 +706,7 @@ Size: 75
 LikeWork: 45
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 200
 Special_Bitvector: p0C3 
@@ -722,6 +742,7 @@ Cha: 20
 Size: 75
 LikeWork: 14
 Class: 103
+Race: 100
 Height: 200
 Weight: 97
 Special_Bitvector: B3 
@@ -763,6 +784,7 @@ Cha: 20
 Size: 30
 LikeWork: 5
 Class: 103
+Race: 100
 Height: 25
 Weight: 30
 Special_Bitvector: m0 
@@ -796,6 +818,7 @@ Size: 55
 LikeWork: 95
 ExtraAttack: 6
 Class: 103
+Race: 100
 Height: 50
 Weight: 100
 Special_Bitvector: 0 
@@ -838,6 +861,7 @@ Cha: 3
 Size: 45
 LikeWork: 20
 Class: 103
+Race: 100
 Height: 56
 Weight: 68
 Special_Bitvector: i0j0p0 
@@ -873,6 +897,7 @@ Size: 35
 LikeWork: 30
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 45
 Weight: 145
 Special_Bitvector: 0 
@@ -906,6 +931,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -942,6 +968,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 5
 Class: 103
+Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: 0 
@@ -990,6 +1017,7 @@ Cha: 35
 Size: 100
 LikeWork: 95
 Class: 103
+Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: 0 

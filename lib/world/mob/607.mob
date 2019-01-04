@@ -83,7 +83,7 @@ LikeWork: 100
 MaxFactor: 1
 Class: 103
 Height: 30
-Weight: 35
+Weight: 50
 Special_Bitvector: o0 
 Skill: 132 100
 Skill: 136 75
@@ -97,7 +97,8 @@ Spell: 88
 E
 T 60701
 T 60707
-L 1441 18 0 0
+I чешуя,10:10
+L 1441 8 0 0
 #60702
 средня рыба златы перья~
 средня рыба златы перья~
@@ -144,6 +145,7 @@ Spell: 93
 E
 T 60711
 T 60708
+L 1441 5 0 0
 #60703
 маленькая рыба златы перья~
 маленькая рыба златы перья~
@@ -193,6 +195,7 @@ Spell: 132
 E
 T 60712
 T 60709
+L 1441 1 0 0
 #60704
 морской царь первый~
 морской царь~
@@ -207,7 +210,7 @@ T 60709
 ~
 b0d0g0n0o0g2 d0f0h0k0A0k1m1r1 -600 E
 30 0 -10 10d10+7000 10d10+10
-1d1+9999 1000000
+0d0+0 1000000
 8 8 1
 Str: 28
 Dex: 14
@@ -221,7 +224,7 @@ MaxFactor: 1
 ExtraAttack: 1
 Class: 102
 Height: 190
-Weight: 170
+Weight: 150
 Special_Bitvector: b1c1d1 
 Skill: 132 100
 Skill: 136 90
@@ -237,6 +240,7 @@ E
 T 60713
 T 60720
 T 60723
+I глаза,10:10
 #60705
 угрюмый водяной~
 угрюмый водяной~
@@ -256,6 +260,7 @@ b0c0d0f0g0n0o0d2h2u2 d0k0z0A0q1 -600 E
 Str: 19
 Dex: 30
 Int: 14
+Wis: 3
 Con: 30
 Cha: 10
 Size: 60
@@ -347,6 +352,7 @@ Dex: 18
 Int: 14
 Wis: 15
 Con: 20
+Cha: 3
 Size: 50
 LikeWork: 40
 ExtraAttack: 1
@@ -454,6 +460,7 @@ Spell: 93
 Spell: 128
 E
 T 60704
+I кожа,10:10
 #60710
 мудрая щука~
 мудрая щука~
@@ -476,6 +483,7 @@ Dex: 18
 Int: 10
 Wis: 28
 Con: 25
+Cha: 3
 Size: 100
 LikeWork: 40
 ExtraAttack: 2
@@ -559,7 +567,7 @@ LikeWork: 50
 ExtraAttack: 2
 Class: 103
 Height: 200
-Weight: 200
+Weight: 150
 Special_Bitvector: 0 
 Skill: 5 70
 Skill: 134 60
@@ -573,6 +581,7 @@ Spell: 76
 Spell: 76
 Helper: 60715
 E
+I чешуя,10:10
 #60713
 стайка мальков щуки~
 стайка мальков щуки~
@@ -624,6 +633,7 @@ d0e0m0n0o0q0z0c1i2 k0A0C0 -600 E
 20 4 0 0d0+1000 1d1+3
 0d0+0 100000
 8 8 2
+Str: 3
 Dex: 16
 Int: 3
 Wis: 7
@@ -689,7 +699,7 @@ E
 ~
 b0d0g0n0o0g2 d0f0h0k0A0k1m1r1 -600 E
 30 0 -10 10d10+7000 10d10+10
-1d1+9999 1000000
+0d0+0 1000000
 8 8 1
 Str: 28
 Dex: 14
@@ -703,7 +713,7 @@ MaxFactor: 1
 ExtraAttack: 1
 Class: 102
 Height: 190
-Weight: 170
+Weight: 150
 Special_Bitvector: b1c1d1 
 Skill: 132 100
 Skill: 136 90
@@ -732,7 +742,7 @@ T 60721
 ~
 b0d0g0n0o0g2 d0f0h0k0A0k1m1r1 -600 E
 30 0 -10 10d10+7000 10d10+10
-1d1+9999 1000000
+0d0+0 1000000
 8 8 1
 Str: 28
 Dex: 14
@@ -746,7 +756,7 @@ MaxFactor: 1
 ExtraAttack: 1
 Class: 102
 Height: 190
-Weight: 170
+Weight: 150
 Special_Bitvector: b1c1d1 
 Skill: 132 100
 Skill: 136 90
@@ -782,6 +792,7 @@ Dex: 18
 Int: 14
 Wis: 15
 Con: 20
+Cha: 3
 Size: 50
 LikeWork: 40
 ExtraAttack: 1
@@ -818,6 +829,7 @@ Dex: 18
 Int: 14
 Wis: 15
 Con: 20
+Cha: 3
 Size: 50
 LikeWork: 40
 ExtraAttack: 1

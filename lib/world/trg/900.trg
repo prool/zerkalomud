@@ -358,21 +358,11 @@ Tree <Граф Дракула убит>~
 0 f 100
 0~
 mload obj 90001
-if (%world.curobjs(216)% < 50 && %random.10% == 1 )
-  mload obj 216
-end
-if (%world.curobjs(90012)%) < 10 && (%random.10% < 2)
+if (%world.curobjs(90012)% < 10) && (%random.100% <= 20)
   mload obj 90012
 end
-if (%world.curobjs(571)%) < 1 && (%random.1000% <= 250)
+if (%world.curobjs(571)% < 1) && (%random.1000% <= 250)
   mload obj 571
-end
-if %world.curobjs(1232)% < 1
-  if %world.curobjs(1231)% < 1
-    if %random.10000% < 50
-      mload obj 1232
-    end
-  end
 end
 ~
 #90019
@@ -521,13 +511,13 @@ Tree <Вырвиглаз убит>~
 0 f 100
 ~
 mload obj 90021
-if %world.curobjs(90017)% < 10 && %random.10% < 2
+if ((%world.curobjs(90017)% < 10) && (%random.1000% <= 200))
   mload obj 90017
 end
-if %world.curobjs(90018)% < 10 && %random.10% < 2
+if ((%world.curobjs(90018)% < 10) && (%random.1000% <= 200))
   mload obj 90018
 end
-if %world.curobjs(90020)% < 10 && %random.10% < 2
+if ((%world.curobjs(90020)% < 10) && (%random.1000% <= 200))
   mload obj 90020
 end
 calcuid Baron 90020 mob
@@ -1066,7 +1056,7 @@ foreach tpc %self.pc%
       mecho сексодромчик), затем кинула многообещающий взгляд на
       set menno 1
     end
-    mecho %tpc.rname%
+    mecho %tpc.vname%
     msend %tpc.name% (А хороша, стерва, -подумали Вы, оценив фигурку под прозрачным пеньюаром)
   end
 done
@@ -1252,7 +1242,7 @@ if %actor.sex% == 1
   msend %actor% часть обещанной награды, она, будем считать, отдала)
 end
 wait 2
-mecho Фея весело засмеялась, посмотрев на %actor.rname% и хлопнув в ладоши произнесла мудреное заклинание.
+mecho Фея весело засмеялась, посмотрев на %actor.vname% и хлопнув в ладоши произнесла мудреное заклинание.
 wait 1
 switch %actor.class%
   *лекарь

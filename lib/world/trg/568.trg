@@ -49,10 +49,11 @@ msend %actor% _- Готов ли ты отправиться в этот далекий путь ?
 msend %actor% Старый воин задумался.....
 wait  3s
 msend %actor% Подошел к Вам ближе и стал Вас разглядывать...
-if %actor.level% >29
+eval minlev 30-%actor.remort%/2
+if (%actor.level% >= %minlev%)
   msend %actor% Вы отправились следом за опытным воином в глубь лесных болот..
   msend %actor% .- Старый воин провел Вас через болота к лесной чаще и быстро ушел в обратном направлении.
-  mteleport %actor.name% 56889
+  mteleport %actor% 56889
   mecho Старый воин повел %actor.name% в лесную чащу.
   mechoaround %actor% Старый воин вывел кого-то из лесных болот и скрался в обратном направлении
 else  

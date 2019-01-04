@@ -12,7 +12,7 @@
 
 ~
 d0g0 0 0 E
-2 19 9 5d3+20 1d2+0
+1 19 9 5d3+20 1d2+0
 0d0+0 50
 8 8 1
 BareHandAttack: 4
@@ -24,6 +24,7 @@ Con: 8
 Cha: 8
 Size: 5
 Class: 103
+Race: 100
 Height: 40
 Weight: 10
 Special_Bitvector: 0 
@@ -43,7 +44,7 @@ E
 
 ~
 d0g0 0 0 E
-2 19 8 5d3+25 1d3+1
+1 19 8 5d3+25 1d3+1
 0d0+0 60
 8 8 2
 BareHandAttack: 4
@@ -55,6 +56,7 @@ Con: 8
 Cha: 8
 Size: 8
 Class: 103
+Race: 100
 Height: 30
 Weight: 11
 Special_Bitvector: n0 
@@ -76,7 +78,7 @@ E
 
 ~
 d0g0 0 0 E
-2 19 8 5d3+20 1d4+1
+1 19 8 5d3+20 1d4+1
 0d0+0 60
 8 8 1
 BareHandAttack: 11
@@ -88,6 +90,7 @@ Con: 8
 Cha: 8
 Size: 8
 Class: 103
+Race: 100
 Height: 180
 Weight: 5
 Special_Bitvector: 0 
@@ -108,7 +111,7 @@ E
 
 ~
 d0g0 x0 0 E
-2 19 9 5d3+20 1d3+1
+1 19 9 5d3+20 1d3+1
 0d0+0 60
 8 8 1
 BareHandAttack: 2
@@ -120,6 +123,7 @@ Con: 8
 Cha: 8
 Size: 8
 Class: 103
+Race: 100
 Height: 30
 Weight: 5
 Special_Bitvector: l0 
@@ -139,7 +143,7 @@ E
 
 ~
 d0g0 0 0 E
-3 18 8 5d1+35 2d2+2
+1 18 8 5d1+35 2d2+2
 0d0+0 100
 8 8 1
 BareHandAttack: 13
@@ -151,6 +155,7 @@ Con: 9
 Cha: 9
 Size: 4
 Class: 103
+Race: 100
 Height: 30
 Weight: 11
 Special_Bitvector: n0 
@@ -171,7 +176,7 @@ E
 
 ~
 d0g0 0 0 E
-3 17 8 5d1+35 2d3+0
+1 17 8 5d1+35 2d3+0
 0d0+0 100
 8 8 1
 BareHandAttack: 12
@@ -183,6 +188,7 @@ Con: 9
 Cha: 9
 Size: 9
 Class: 103
+Race: 100
 Height: 30
 Weight: 3
 Special_Bitvector: l0 
@@ -202,7 +208,7 @@ E
 
 ~
 d0g0 0 0 E
-3 18 8 5d1+40 1d3+1
+1 18 8 5d1+40 1d3+1
 0d0+0 100
 8 8 2
 BareHandAttack: 2
@@ -214,6 +220,7 @@ Con: 9
 Cha: 9
 Size: 9
 Class: 103
+Race: 100
 Height: 20
 Weight: 3
 Special_Bitvector: l0 
@@ -233,7 +240,7 @@ E
 
 ~
 c0d0g0A0h1 x0 0 E
-3 18 8 5d3+45 2d2+2
+2 18 8 5d3+45 2d2+2
 1d5+0 120
 8 8 2
 BareHandAttack: 8
@@ -245,6 +252,7 @@ Con: 9
 Cha: 9
 Size: 9
 Class: 103
+Race: 100
 Height: 30
 Weight: 5
 Special_Bitvector: l0a1 
@@ -264,7 +272,7 @@ E
 
 ~
 d0g0 k0 0 E
-4 17 7 5d3+35 3d2+1
+2 17 7 5d3+35 3d2+1
 0d0+0 200
 8 8 2
 BareHandAttack: 4
@@ -277,6 +285,7 @@ Cha: 9
 Size: 5
 LikeWork: 10
 Class: 103
+Race: 100
 Height: 30
 Weight: 11
 Special_Bitvector: 0 
@@ -296,7 +305,7 @@ E
 
 ~
 d0g0 x0 0 E
-4 17 7 5d3+60 2d2+1
+2 17 7 5d3+60 2d2+1
 0d0+0 250
 8 8 1
 BareHandAttack: 2
@@ -308,6 +317,7 @@ Con: 12
 Cha: 9
 Size: 12
 Class: 103
+Race: 100
 Height: 30
 Weight: 5
 Special_Bitvector: 0 
@@ -327,7 +337,7 @@ E
 
 ~
 d0g0i1 k0 0 E
-4 17 7 5d3+40 2d2+2
+2 17 7 5d3+40 2d2+2
 0d0+0 200
 8 8 2
 BareHandAttack: 1
@@ -339,6 +349,7 @@ Con: 3
 Cha: 9
 Size: 11
 Class: 103
+Race: 100
 Height: 30
 Weight: 5
 Special_Bitvector: l0 
@@ -358,7 +369,7 @@ E
 
 ~
 d0g0 k0 0 E
-4 17 7 5d3+40 1d6+2
+2 17 7 5d3+40 1d6+2
 0d0+0 200
 8 8 1
 BareHandAttack: 4
@@ -370,6 +381,7 @@ Con: 9
 Cha: 9
 Size: 10
 Class: 103
+Race: 100
 Height: 30
 Weight: 11
 Special_Bitvector: 0 
@@ -389,7 +401,7 @@ E
 
 ~
 d0g0 0 0 E
-5 16 6 5d3+80 2d2+2
+3 16 6 5d3+80 2d2+2
 0d0+0 400
 8 8 1
 BareHandAttack: 12
@@ -401,6 +413,7 @@ Con: 12
 Cha: 9
 Size: 5
 Class: 103
+Race: 100
 Height: 40
 Weight: 7
 Special_Bitvector: 0 
@@ -420,7 +433,7 @@ E
 
 ~
 d0g0i1 k0 0 E
-5 16 6 5d4+80 2d2+2
+3 16 6 5d4+80 2d2+2
 0d0+0 400
 8 8 1
 BareHandAttack: 1
@@ -432,6 +445,7 @@ Con: 12
 Cha: 9
 Size: 15
 Class: 103
+Race: 100
 Height: 30
 Weight: 5
 Special_Bitvector: l0 
@@ -451,7 +465,7 @@ E
 
 ~
 d0g0 k0s0 0 E
-5 16 6 5d3+70 1d4+1
+4 16 6 5d3+70 1d4+1
 0d0+0 750
 8 8 2
 BareHandAttack: 4
@@ -464,6 +478,7 @@ Cha: 9
 Size: 8
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 50
 Weight: 11
 Special_Bitvector: 0 
@@ -484,7 +499,7 @@ E
 
 ~
 d0g0 k0 0 E
-6 14 5 5d3+100 2d2+2
+4 14 5 5d3+100 2d2+2
 0d0+0 750
 8 8 1
 BareHandAttack: 4
@@ -497,6 +512,7 @@ Cha: 10
 Size: 8
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 40
 Weight: 60
 Special_Bitvector: 0 
@@ -517,7 +533,7 @@ L 5517 75 0 0
 
 ~
 d0g0 0 0 E
-6 14 5 5d3+120 2d2+1
+5 14 5 5d3+120 2d2+1
 0d0+0 1500
 8 8 2
 BareHandAttack: 13
@@ -530,6 +546,7 @@ Cha: 10
 Size: 15
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 60
 Special_Bitvector: 0 
@@ -549,7 +566,7 @@ E
 
 ~
 d0g0 0 0 E
-7 12 4 5d4+150 2d3+2
+6 12 4 5d4+150 2d3+2
 0d0+0 2000
 8 8 1
 BareHandAttack: 13
@@ -562,6 +579,7 @@ Cha: 10
 Size: 23
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 45
 Special_Bitvector: 0 
@@ -580,7 +598,7 @@ E
 Небольшая рыжая лисичка-сестричка.
 ~
 d0g0 k0 0 E
-8 13 3 5d3+150 4d2+2
+6 13 3 5d3+150 4d2+2
 0d0+0 2000
 8 8 2
 BareHandAttack: 4
@@ -593,6 +611,7 @@ Cha: 10
 Size: 5
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 50
 Weight: 10
 Special_Bitvector: 0 
@@ -612,7 +631,7 @@ E
 
 ~
 d0g0 0 0 E
-9 10 1 5d6+220 3d2+2
+8 10 1 5d6+220 3d2+2
 0d0+0 3000
 8 8 1
 BareHandAttack: 14
@@ -625,6 +644,7 @@ Cha: 3
 Size: 23
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 180
 Weight: 200
 Special_Bitvector: 0 
@@ -644,7 +664,7 @@ E
 
 ~
 d0g0 k0 0 E
-10 10 0 5d3+180 4d2+3
+8 10 0 5d3+180 4d2+3
 0d0+0 3000
 8 8 1
 BareHandAttack: 4
@@ -657,6 +677,7 @@ Cha: 3
 Size: 30
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 100
 Weight: 50
 Special_Bitvector: 0 
@@ -678,7 +699,7 @@ E
 
 ~
 d0g0m0 d0k0 0 E
-13 8 -2 5d5+250 5d2+4
+12 8 -2 5d5+250 5d2+4
 0d0+0 10000
 8 8 1
 BareHandAttack: 4
@@ -691,9 +712,33 @@ Cha: 3
 Size: 20
 ExtraAttack: 1
 Class: 103
+Race: 100
 Height: 120
 Weight: 150
 Special_Bitvector: 0 
 Skill: 136 39
+E
+#4222
+старушка~
+старушка~
+старушки~
+старушке~
+старушку~
+старушкой~
+старушке~
+Старушка стоит тут.
+~
+Выглядит достаточно незавершенно.
+~
+b0d0 0 0 E
+20 20 0 1d100+1 1d1+0
+0d0+0 0
+8 8 2
+Size: 30
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
 E
 $

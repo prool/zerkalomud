@@ -121,7 +121,7 @@ switch %object.vnum%
     end
     %actor.setquest(27008)%
     say Ну что же, выручил%actor.g% ты меня, теперь мой черед.
-    mecho _- Только сам я на мевдедя не пойду - стар уже.
+    mecho _- Только сам я на медведя не пойду - стар уже.
     mecho _- Есть тут рядом в лесу берлога медвежья  - вот тебе и медведь.
     mecho _- Принесешь мне его шкуру, а уж сало я сам срежу.
     mecho _- А то знаю я вас, молодых,  ничегошеньки-то сами не умеете
@@ -150,13 +150,13 @@ switch %object.vnum%
     mecho Старый охотник полез в сундук и что-то достал из него.
     wait 5
     eval rand %random.100%
-    if (%rand% < 10) & (%world.curobjs(11401)% < 10)
+    if (%rand% < 10) && (%world.curobjs(11401)% < 10)
       mload obj 11401
       дать сапоги %actor.name%
-    elseif (%rand% < 20) & (%world.curobjs(11402)% < 10)
+    elseif (%rand% < 20) && (%world.curobjs(11402)% < 10)
       mload obj 11402
       дать шапка %actor.name%
-    elseif (%rand% < 30) & (%world.curobjs(11403)% < 10)
+    elseif (%rand% < 30) && (%world.curobjs(11403)% < 10)
       mload obj 11403
       дать рукавицы %actor.name%
     else

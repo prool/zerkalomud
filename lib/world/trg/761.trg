@@ -52,7 +52,7 @@ wait 1s
 г Уж я тебя то отблагодарю.
 mecho _Портной сделал жалостливое лицо, умоляя ему помочь. 
 wait 1s
-г Возмешся ли ты за эту непростую задачу?
+г Возьмешься ли ты за эту непростую задачу?
 attach 76104 %self.id%
 ~
 #76104
@@ -294,9 +294,6 @@ mload obj 76102
 Вирява убита~
 0 f 100
 ~
-if %random.10000% < 50 && %world.curobjs(3375)% < 1 && %world.curobjs(3376)% < 1 
-  mload obj 3375
-end
 mload obj 76101
 if (%world.curobjs(76137)% < 8 ) && (%random.100% < 10)
   mload obj 76137
@@ -385,6 +382,10 @@ wait 1s
 wait 1
 if !%arg.contains(нор)%
   wsend %actor% _Куды лезешь?!
+  halt
+end
+if !%actor.rentable%
+  wsend %actor% Эвакуация временно прекращена.
   halt
 end
 calcuid cavern 76114 room

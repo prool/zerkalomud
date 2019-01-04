@@ -274,13 +274,18 @@ switch %object.vnum%
           %self.gold(+300)%
           дать 300 кун %actor.name%
         end
-      done
-      say Это все, чем я смогу тебя отблагодарить, так что извини.
-    break
-    default
-      eval getobject %object.name%
-      drop %getobject.car%.%getobject.cdr%
+      break
+      default
+        mload obj 16023
+        дать чекушк %actor.name%
+      break
     done
+    say Это все, чем я смогу тебя отблагодарить, так что извини.
+  break
+  default
+    eval getobject %object.name%
+    drop %getobject.car%.%getobject.cdr%
+  done
 ~
 #5508
 Хозяин дает письмо~

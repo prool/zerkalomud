@@ -9,7 +9,8 @@ if %fchar.vnum% != 0
   wsend %fchar% Град стрел обрушился на Вас причиняя страшную боль.
   wechoaround %fchar% Град стрел обрушился вокруг Вас.
   wechoaround %fchar% Несколько из них попало в %fchar.vname%.
-  wdamage %fchar% 150
+  eval dam %fchar.maxhitp% / 10
+  wdamage %fchar% %dam%
 end
 ~
 $~

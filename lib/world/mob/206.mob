@@ -1,0 +1,5644 @@
+* BRusMUD mob file v1.0
+#20600
+ ученик русичь~
+ученик~
+ученика~
+ученику~
+ученика~
+учеником~
+ученике~
+Молодой парень бродит среди опустевших стилажей склада.
+~
+Молодой, но очень шустрый парнишка за секунду сможет обшарить карманы 
+любого прохожего!
+~
+b0c0g0n0o0p0q0r0A0 b0d0k0r0z0A0u1 -600 E
+40 0 -10 10d10+3500 14d15+1
+0d0+15 350000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 35
+Int: 33
+Wis: 15
+Dex: 28
+Con: 22
+Cha: 22
+LikeWork: 85
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Skill: 136 125
+Skill: 139 139
+Skill: 157 125
+E
+T 20601
+#20601
+ князь~
+князь~
+князя~
+князю~
+князя~
+князем~
+князе~
+Великий князь стоит здесь, опираясь на меч.
+~
+Мужественное лицо князя несет отпечаток былых лет. 
+Князь уже не молод - за спиной многие годы справедливого 
+управления княжеством. Через весь лоб тянется широкий шрам, 
+говорящий о том, что князь пережил и немало сражений, в 
+которых принял личое участие.
+~
+b0B0 d0f0k0 0 E
+1 0 0 10d10+2 0d0+0
+0d0+0 10000
+8 8 0
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 10
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 1
+Class: 100
+Size: 100
+Height: 175
+Weight: 85
+E
+T 20602
+#20602
+ старик   хуторянин hutor~
+старик~
+старика~
+старику~
+старик~
+стариком~
+старике~
+Старый хуторянин прохаживается здесь.
+~
+По четким движениям, пронизанных мастерской точностью, видно, что у этого 
+мощного старика было нескучное прошлое.
+~
+b0n0o0g2 d0f0k0t1 -600 E
+41 0 0 10d10+9999 50d50+0
+0d0+0 10000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 42
+Int: 25
+Wis: 25
+Dex: 45
+Con: 36
+Cha: 25
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Feat: 1
+Feat: 3
+Feat: 12
+Feat: 13
+Feat: 17
+Feat: 19
+Feat: 21
+Feat: 22
+Feat: 25
+Feat: 29
+Feat: 41
+Feat: 42
+Feat: 55
+Feat: 56
+Feat: 57
+Feat: 58
+Feat: 61
+Feat: 65
+Feat: 66
+Feat: 68
+Special_Bitvector: C3
+Skill: 136 200
+Skill: 167 200
+Skill: 22 200
+Skill: 4 200
+E
+T 20603
+T 20604
+#20603
+ жена хуторянина~
+жена хуторянина~
+жены хуторянина~
+жене хуторянина~
+жену хуторянина~
+женой хуторянина~
+жене хуторянина~
+Жена хуторянина ходит взад-вперед.
+~
+Настоящая русская баба, которая и коня на скоку, и в горящей избе...
+~
+b0o0p0 d0e0f0h0k0r0r1t1 -600 E
+40 0 0 10d10+3595 15d15+0
+0d0+25 10000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 100
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 30
+Int: 20
+Wis: 39
+Dex: 30
+Con: 30
+Cha: 31
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+E
+T 20606
+#20604
+ старший мастер~
+старший мастер~
+старшего мастера~
+старшему мастеру~
+старшего мастера~
+старшим мастером~
+старшем мастере~
+Высокий крепкий мужик брезгливо посматривает на Вас.
+~
+Это один из сильнейших мастеров гильдии убийц, пришедший сюда за наживой.
+~
+b0n0o0p0q0r0t0u0x0y0s1g2i2 d0h0k0r0C0m1r1t1x1 -600 E
+50 -1 -30 10d10+18000 20d19+0
+0d0+25 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 11
+Str: 50
+Int: 30
+Wis: 30
+Dex: 30
+Con: 45
+Cha: 25
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 155
+Skill: 150 130
+Skill: 157 150
+E
+T 20610
+T 20615
+#20605
+ мастер следопыт~
+мастер следопыт~
+мастера следопыта~
+мастеру следопыту~
+мастера следопыта~
+мастером следопытом~
+мастере следопыте~
+Светловолосый парень, прохаживается возле сухого дерева, чуть прихрамывая на одну ногу.
+~
+Через легкую черную куртку, причудливого покроя, можно разглядеть узкий 
+белесый шрам, рваные края которого тянулись от запястья к локтю
+левой руки. Он довольно сильно бросался в глаза на загорелой коже.
+Наметанный глаз быстро углядел бы и второй шрам √ прямо над ключицей, такой 
+же рваный и какой-то нехороший, нечестный, а когда парень останавливался 
+смахнуть коротким своим рукавом пот со лба, и светлые пряди волос 
+цеплялись на миг за ухо, открывался еще один косой белый рубец √ на правом 
+виске, где под загорелой кожей пульсировала синяя жилка. 
+Обладатель умной головы наверняка смекнул бы, что под одеждой у путника 
+есть и другие шрамы и отметины, да и шел он какой-то странной походкой - не 
+поймешь сразу, чем именно странной.
+~
+b0n0o0p0q0r0t0u0x0y0s1g2i2 d0h0k0r0C0m1r1t1x1 -600 E
+50 -1 -30 10d10+15000 16d16+0
+0d0+25 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 9
+Str: 45
+Int: 28
+Wis: 28
+Dex: 27
+Con: 50
+Cha: 22
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 3
+Class: 102
+Size: 100
+Height: 175
+Weight: 86
+Special_Bitvector: b1
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 155
+Skill: 154 155
+Skill: 155 155
+E
+T 20612
+T 20615
+#20606
+ болотянник нечисть~
+болотяник~
+болотяника~
+болотянику~
+болотяника~
+болотяником~
+болотянике~
+Какое то озлобленное существо протягивает к Вам множество отростков.
+~
+Угрюмое малоподвижное существо, поднялось со дна болота, дабы утащить Вас 
+на дно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1d2g2h2i2u2 d0k0n0m0p0C0b1c1q1r1t1y1 -600 E
+50 -1 -10 10d10+25000 8d8+8
+0d0+24 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 45
+Int: 20
+Wis: 20
+Dex: 25
+Con: 38
+Cha: 0
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 4
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Skill: 136 130
+Skill: 157 130
+E
+#20607
+ болотный дедко нечисть~
+болотный дедок~
+болотного дедка~
+болотному дедку~
+болотного дедка~
+болотным дедком~
+болотном дедке~
+Небольшого роста старикашка ловко бегает по узкой тропке, так и норовя столкнуть Вас в топь.
+~
+Мелкий толстяк,  покрытый слоем грязи, с налипшими водорослями, улитками и 
+рыбьей чешуей явно не доволен Вашим присутствием здесь.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1d2g2h2i2u2 d0k0n0m0p0C0c1q1r1t1x1 -600 E
+50 -1 -12 10d10+23000 8d8+8
+0d0+25 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 5
+Str: 41
+Int: 23
+Wis: 25
+Dex: 25
+Con: 33
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 145
+Spell: 145
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 134 130
+Skill: 136 130
+Skill: 157 130
+E
+#20608
+ болотный леший нечисть~
+болотный леший~
+болотного лешего~
+болотному лешему~
+болотного лешего~
+болотным лешим~
+болотном лешем~
+Болотный леший так и норовит цапнуть Вас за ногу!
+~
+Человек, поросший шерстью, с длинными руками и закрученным хвостом люто 
+уставился на Вас мерцающими глазами.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1e2g2h2i2u2 d0k0n0m0p0C0c1q1r1y1 -600 E
+50 -1 -13 10d10+23000 9d9+9
+0d0+100 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 39
+Int: 23
+Wis: 27
+Dex: 29
+Con: 25
+Cha: 7
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 122
+Spell: 122
+Spell: 122
+Spell: 122
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 136 130
+Skill: 157 130
+E
+#20609
+ кикимора болотная нечисть~
+кикимора болотная~
+кикиморы болотной~
+кикиморе болотной~
+кикимору болотную~
+кикиморой болотной~
+кикиморе болотной~
+Жуткая старуха прячется в трясине.
+~
+Старуха, закутавшаяся в ряднину, сотканную из мха и водорослей, криком 
+зазывает путников вглубь трясины.
+~
+b0c0f0g0n0o0q0r0t0u0x0y0A0s1b2g2h2i2u2 d0k0m0p0C0b1c1j1q1r1y1 -600 E
+50 -3 -7 10d10+16000 8d8+8
+0d0+100 590000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 43
+Int: 25
+Wis: 21
+Dex: 25
+Con: 29
+Cha: 6
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 5
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 96
+Spell: 96
+Spell: 96
+Spell: 96
+Skill: 136 130
+Skill: 157 130
+E
+#20610
+ крыкса нечисть~
+крыкса~
+крыксы~
+крыксе~
+крыксу~
+крыксой~
+крыксе~
+Причудливая зверушка озирается по сторонам.
+~
+Странного вида зверек исподтишка скалится на Вас. Не стоит ждать от него добра.
+~
+b0c0f0g0n0o0q0r0t0u0x0y0A0s1g2i2u2 d0k0p0C0c1p1 -600 E
+45 -1 -5 10d10+13000 15d15+0
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 25
+Int: 26
+Wis: 26
+Dex: 25
+Con: 27
+Cha: 16
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 111
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 1 120
+E
+#20611
+ злыдень нечисть~
+злыдень~
+злыдня~
+злыдню~
+злыдня~
+злыднем~
+злыдне~
+Странное животное ковыляет с тропки в болото и обратно.
+~
+Отсутствующий взгляд и слюна, вытекающая изо рта через редкие зубы, явно 
+намекают на некоторую отрешенность от всего сущего у данного обитателя 
+болота.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2i2u2 d0f0k0m0p0C0o1t1 -600 E
+45 -2 -9 10d10+16000 16d16+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 23
+Int: 25
+Wis: 26
+Dex: 26
+Con: 26
+Cha: 5
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 28
+Spell: 58
+Spell: 58
+Spell: 58
+Spell: 58
+Spell: 58
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 88
+Spell: 88
+Skill: 151 140
+E
+#20612
+ хмырь болотный нечисть~
+хмырь болотный~
+хмыря болотного~
+хмырю болотному~
+хмыря болотного~
+хмырем болотным~
+хмыре болотном~
+Косматая тварь тянется к Вам своими лапами.
+~
+Болотный дух, приходящий на зов кикимор помогает им губить людей.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1b2g2h2i2u2 d0k0p0s0t0C0c1o1t1 -600 E
+45 -6 -8 10d10+14000 9d9+9
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 33
+Int: 22
+Wis: 18
+Dex: 26
+Con: 35
+Cha: 4
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 156
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 136 130
+Skill: 157 130
+E
+#20613
+ нечистик нечисть~
+нечистик~
+нечистика~
+нечистику~
+нечистика~
+нечистиком~
+нечистике~
+Мохнатый человечек с небольшими рожками на голове с любопытством уставился на Вас.
+~
+Болотный черт, живущий в самом глубоком болоте, под самым густым кустом 
+лозы, вылез, чтобы посмотреть, что здесь происходит.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1b2g2h2i2u2 d0f0k0m0p0C0b1c1p1t1 -600 E
+45 -1 -15 10d10+12000 8d8+8
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 31
+Int: 13
+Wis: 23
+Dex: 19
+Con: 29
+Cha: 27
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 118
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 88
+Skill: 136 130
+Skill: 157 130
+E
+#20614
+шиш нечисть~
+шиш~
+шиша~
+шишу~
+шиша~
+шишем~
+шише~
+Человек, покрытый черной шерстью, скачет по поверхности болота.
+~
+Человек с дыбом стоящими волосами и вертлявым хвостом недобро зыркает на Вас.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1b2g2h2i2u2 d0f0k0m0p0C0c1o1r1 -600 E
+49 -1 -15 10d10+20000 8d8+9
+0d0+100 900000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 13
+Str: 23
+Int: 17
+Wis: 24
+Dex: 17
+Con: 18
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 150
+Spell: 53
+Spell: 53
+Spell: 53
+Spell: 78
+Spell: 96
+Spell: 96
+Spell: 96
+Spell: 96
+Spell: 96
+Skill: 136 130
+Skill: 151 140
+Skill: 157 10
+E
+#20615
+ водовик нечисть~
+водовик~
+водовика~
+водовику~
+водовика~
+водовиком~
+водовике~
+Страшный дед наполовину приподнялся из черной болотной воды.
+~
+Безобразный старик, опутанный тиной, с большой бородой и зелеными усами 
+выплыл из черной воды за свежими утопленниками.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1c2g2h2i2u2 d0k0m0p0C0b1c1q1r1y1 -600 E
+50 0 -10 10d10+20000 8d8+9
+0d0+100 900000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 12
+Str: 43
+Int: 20
+Wis: 20
+Dex: 18
+Con: 30
+Cha: 13
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 86
+Spell: 88
+Skill: 12 100
+Skill: 136 120
+E
+#20616
+ водяница нечисть~
+водяница~
+водяницы~
+водянице~
+водяницу~
+водяницей~
+водянице~
+Светящееся зеленовато-голубое облако парит невысоко над топью.
+~
+Женский дух воды, обрученный с водяным, окружен зеленовато-голубым холодным 
+свечением.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1g2i2u2 d0k0n0m0p0C0c1q1r1z1 -600 E
+48 0 -18 10d10+17000 16d16+0
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 36
+Int: 20
+Wis: 24
+Dex: 12
+Con: 19
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 147
+Spell: 147
+Spell: 147
+Spell: 147
+Spell: 147
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 136 130
+Skill: 157 130
+E
+#20617
+ вуташ нечисть~
+вуташ ~
+вуташа~
+вуташу~
+вуташа~
+вуташем~
+вуташе~
+Человек нездорово синего цвета проплывает мимо.
+~
+Этот человек произошел из утопленников, и теперь, в полдень, утаскивает 
+купающихся в омут.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2i2u2 d0k0n0p0C0b1c1o1r1t1z1 -600 E
+50 -1 -15 10d10+23000 17d17+0
+0d0+100 450000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 5
+Str: 47
+Int: 22
+Wis: 20
+Dex: 23
+Con: 41
+Cha: 11
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+Skill: 137 100
+Skill: 151 130
+E
+#20618
+ каркаладил нечисть~
+каркаладил~
+каркаладила~
+каркаладилу~
+каркаладила~
+каркаладилом~
+каркаладиле~
+Темно-коричневого цвета ящер высунул продолговатую зубастую морду из зеленой воды.
+~
+Страшное животное, выходящее из воды, затворяет путь и пожирает людей. 
+Больше про него ничего не известно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2i2u2 d0f0k0m0p0C0b1c1p1y1 -600 E
+49 -9 -15 10d10+23000 17d18+0
+0d0+100 350000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 43
+Int: 17
+Wis: 17
+Dex: 17
+Con: 31
+Cha: 0
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 144
+Spell: 144
+Spell: 144
+Spell: 144
+Spell: 144
+Spell: 63
+Spell: 63
+Skill: 136 130
+Skill: 157 130
+E
+#20619
+ окаяшка нечисть~
+окаяшка~
+окаяшки~
+окаяшке~
+окаяшку~
+окаяшкой~
+окаяшке~
+Молодой чертенок выполз сюда вслед за старшими братьями.
+~
+Очередной представитель нечистой фауны.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1a2g2h2i2u2 d0f0k0m0p0C0c1o1r1t1 -600 E
+49 0 -15 10d10+25000 7d7+7
+0d0+10 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 48
+Int: 23
+Wis: 16
+Dex: 21
+Con: 26
+Cha: 25
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 111
+Spell: 127
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+Skill: 157 130
+E
+#20620
+ шишига нечисть~
+шишига~
+шишиги~
+шишиге~
+шишигу~
+шишигой~
+шишиге~
+Не вдалеке сидит тщедушное существо, расчесывающее свои длинные черные волосы.
+~
+Это маленькое, горбатое существо, брюхатое и холодное, с сучковатыми руками, 
+обитающее в камышах. Набрасывается на зазевавшихся путников и тащит их в 
+воду, а уж пьяницам всяко беда будет.
+~
+b0c0e0f0g0m0n0o0q0r0t0u0x0y0A0s1t1g2i2u2 d0f0k0n0m0p0C0b1c1o1r1y1 -600 E
+50 0 -6 10d10+17000 16d15+0
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 31
+Int: 33
+Wis: 39
+Dex: 21
+Con: 22
+Cha: 27
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Skill: 136 130
+Skill: 2 100
+E
+#20621
+ болотянник нечисть~
+болотяник~
+болотяника~
+болотянику~
+болотяника~
+болотяником~
+болотянике~
+Какое то озлобленное существо протягивает к Вам множество отростков.
+~
+Угрюмое малоподвижное существо, поднялось со дна болота, дабы утащить Вас 
+на дно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1d2g2h2i2u2 d0k0n0m0p0C0b1c1q1r1t1y1 -600 E
+50 -1 -15 10d10+25000 8d8+9
+0d0+100 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 48
+Int: 24
+Wis: 23
+Dex: 14
+Con: 38
+Cha: 0
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 4
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 1
+Spell: 1
+Spell: 1
+Spell: 1
+Spell: 1
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Skill: 1 130
+Skill: 136 130
+E
+#20622
+ болотный дедко нечисть~
+болотный дедок~
+болотного дедка~
+болотному дедку~
+болотного дедка~
+болотным дедком~
+болотном дедке~
+Небольшого роста старикашка ловко бегает по узкой тропке, так и норовя столкнуть Вас в топь.
+~
+Мелкий толстяк,  покрытый слоем грязи, с налипшими водорослями, улитками и 
+рыбьей чешуей явно не доволен Вашим присутствием здесь.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1d2g2h2i2u2 d0k0n0m0p0C0c1q1r1 -600 E
+50 0 -15 10d10+24000 8d8+9
+0d0+100 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 5
+Str: 38
+Int: 27
+Wis: 23
+Dex: 25
+Con: 34
+Cha: 12
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 134 100
+Skill: 136 130
+Skill: 157 130
+E
+#20623
+ болотный леший нечисть~
+болотный леший~
+болотного лешего~
+болотному лешему~
+болотного лешего~
+болотным лешим~
+болотном лешем~
+Болотный леший так и норовит цапнуть Вас за ногу!
+~
+Человек, поросший шерстью, с длинными руками и закрученным хвостом люто 
+уставился на Вас мерцающими глазами.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1e2g2h2i2u2 d0k0m0p0C0b1c1q1r1t1y1 -600 E
+50 -12 -15 10d10+23000 8d8+9
+0d0+100 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 48
+Int: 20
+Wis: 20
+Dex: 20
+Con: 29
+Cha: 19
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 134 100
+Skill: 136 130
+Skill: 157 130
+E
+#20624
+ кикимора болотная нечисть~
+кикимора болотная~
+кикиморы болотной~
+кикиморе болотной~
+кикимору болотную~
+кикиморой болотной~
+кикиморе болотной~
+Жуткая старуха прячется в трясине.
+~
+Старуха, закутавшаяся в ряднину, сотканную из мха и водорослей, криком 
+зазывает путников вглубь трясины.
+~
+b0c0f0g0n0o0q0r0t0u0x0y0A0s1b2g2h2i2u2 d0k0m0p0C0c1j1q1r1y1 -600 E
+50 -8 -15 10d10+22000 8d8+9
+0d0+100 600000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 39
+Int: 25
+Wis: 26
+Dex: 16
+Con: 30
+Cha: 7
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 5
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 136 130
+Skill: 157 130
+E
+#20625
+ крыкса нечисть~
+крыкса~
+крыксы~
+крыксе~
+крыксу~
+крыксой~
+крыксе~
+Причудливая зверушка озирается по сторонам.
+~
+Странного вида зверек исподтишка скалится на Вас. Не стоит ждать от него добра.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1g2h2i2u2 d0f0k0m0p0C0c1p1 -600 E
+47 0 -15 10d10+17000 16d17+0
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 31
+Int: 24
+Wis: 13
+Dex: 10
+Con: 20
+Cha: 13
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 137 120
+E
+#20626
+ злыдень нечисть~
+злыдень~
+злыдня~
+злыдню~
+злыдня~
+злыднем~
+злыдне~
+Странное животное ковыляет с тропки в болото и обратно.
+~
+Отсутствующий взгляд и слюна, вытекающая изо рта через редкие зубы, явно 
+намекают на некоторую отрешенность от всего сущего у данного обитателя болота.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1t1 -600 E
+48 0 -15 10d10+18000 16d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 6
+Str: 37
+Int: 17
+Wis: 15
+Dex: 15
+Con: 23
+Cha: 13
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 137 120
+E
+#20627
+ хмырь болотный нечисть~
+хмырь болотный~
+хмыря болотного~
+хмырю болотному~
+хмыря болотного~
+хмырем болотным~
+хмыре болотном~
+Косматая тварь тянется к Вам своими лапами.
+~
+Болотный дух, приходящий на зов кикимор помогает им губить людей.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0k0m0p0C0c1o1t1y1 -600 E
+47 0 -15 10d10+18000 17d18+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 47
+Int: 11
+Wis: 12
+Dex: 10
+Con: 45
+Cha: 19
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 137 125
+E
+#20628
+ нечистик нечисть~
+нечистик~
+нечистика~
+нечистику~
+нечистика~
+нечистиком~
+нечистике~
+Мохнатый человечек с небольшими рожками на голове с любопытством уставился на Вас.
+~
+Болотный черт, живущий в самом глубоком болоте, под самым густым кустом 
+лозы, вылез, чтобы посмотреть, что здесь происходит.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1t1y1 -600 E
+49 -2 -15 10d10+17000 18d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 37
+Int: 24
+Wis: 23
+Dex: 18
+Con: 31
+Cha: 21
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 156
+Spell: 156
+Skill: 1 125
+E
+#20629
+шиш нечисть~
+шиш~
+шиша~
+шишу~
+шиша~
+шишем~
+шише~
+Человек, покрытый черной шерстью, скачет по поверхности болота.
+~
+Человек с дыбом стоящими волосами и вертлявым хвостом недобро зыркает на Вас.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1r1t1y1 -600 E
+49 0 -15 10d10+19000 17d16+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 13
+Str: 42
+Int: 22
+Wis: 29
+Dex: 18
+Con: 33
+Cha: 22
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 63
+Spell: 63
+Skill: 134 130
+Skill: 136 130
+E
+#20630
+ водовик нечисть~
+водовик~
+водовика~
+водовику~
+водовика~
+водовиком~
+водовике~
+Страшный дед наполовину приподнялся из черной болотной воды.
+~
+Безобразный старик, опутанный тиной, с большой бородой и зелеными усами 
+выплыл из черной воды за свежими утопленниками.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1c2g2h2i2u2 d0k0m0p0C0c1q1r1t1y1 -600 E
+50 0 -13 10d10+21000 18d19+0
+0d0+100 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 12
+Str: 47
+Int: 27
+Wis: 25
+Dex: 16
+Con: 29
+Cha: 13
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 12 100
+E
+#20631
+ водяница нечисть~
+водяница~
+водяницы~
+водянице~
+водяницу~
+водяницей~
+водянице~
+Светящееся зеленовато-голубое облако парит невысоко над топью.
+~
+Женский дух воды, обрученный с водяным, окружен зеленовато-голубым холодным 
+свечением.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1g2h2i2u2 d0k0n0m0p0C0c1q1r1x1 -600 E
+50 0 -19 10d10+17500 16d16+0
+0d0+100 350000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 28
+Int: 38
+Wis: 14
+Dex: 11
+Con: 30
+Cha: 23
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 111
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Skill: 136 130
+E
+#20632
+ вуташ нечисть~
+вуташ ~
+вуташа~
+вуташу~
+вуташа~
+вуташем~
+вуташе~
+Человек нездорово синего цвета проплывает мимо.
+~
+Этот человек произошел из утопленников, и теперь, в полдень, утаскивает 
+купающихся в омут.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1b2g2h2i2u2 d0k0n0p0C0c1o1r1t1z1 -600 E
+50 -3 -15 10d10+19000 18d18+0
+0d0+100 400000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 5
+Str: 49
+Int: 20
+Wis: 20
+Dex: 25
+Con: 33
+Cha: 25
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 134 100
+Skill: 137 125
+Skill: 151 125
+E
+#20633
+ каркаладил нечисть~
+каркаладил~
+каркаладила~
+каркаладилу~
+каркаладила~
+каркаладилом~
+каркаладиле~
+Темно-коричневого цвета ящер высунул продолговатую зубастую морду из зеленой воды.
+~
+Страшное животное, выходящее из воды, затворяет путь и пожирает людей. 
+Больше про него ничего не известно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0p0C0c1p1t1 -600 E
+48 -5 -15 10d10+18000 18d18+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 43
+Int: 15
+Wis: 11
+Dex: 15
+Con: 23
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+E
+#20634
+ окаяшка нечисть~
+окаяшка~
+окаяшки~
+окаяшке~
+окаяшку~
+окаяшкой~
+окаяшке~
+Молодой чертенок выполз суда вслед за старшими братьями.
+~
+Очередной представитель нечистой фауны.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1r1y1 -600 E
+47 0 -15 10d10+17000 16d16+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 28
+Int: 23
+Wis: 23
+Dex: 20
+Con: 23
+Cha: 26
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 136 130
+E
+#20635
+ шишига нечисть~
+шишига~
+шишиги~
+шишиге~
+шишигу~
+шишигой~
+шишиге~
+Не вдалеке сидит тщедушное существо, расчесывающее свои длинные черные волосы.
+~
+Это маленькое, горбатое существо, брюхатое и холодное, с сучковатыми руками, 
+обитающее в камышах. Набрасывается на зазевавшихся путников и тащит их в 
+воду, а уж пьяницам всяко беда будет.
+~
+b0c0e0f0g0m0n0o0q0r0t0u0x0y0A0s1t1g2h2i2u2 d0f0k0n0m0p0C0b1c1o1r1z1 -600 E
+49 0 -10 10d10+20000 16d17+0
+0d0+100 300000
+8 8 0
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 27
+Int: 26
+Wis: 26
+Dex: 15
+Con: 27
+Cha: 21
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 156
+Spell: 156
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 1 100
+E
+#20636
+ шишига нечисть~
+шишига~
+шишиги~
+шишиге~
+шишигу~
+шишигой~
+шишиге~
+Не вдалеке сидит тщедушное существо, расчесывающее свои длинные черные волосы.
+~
+Это маленькое, горбатое существо, брюхатое и холодное, с сучковатыми руками, 
+обитающее в камышах. Набрасывается на зазевавшихся путников и тащит их в 
+воду, а уж пьяницам всяко беда будет.
+~
+b0c0e0f0g0m0n0o0q0r0t0u0x0y0A0s1t1g2h2i2u2 d0f0k0n0m0p0C0c1o1r1t1y1 -600 E
+50 -3 -14 10d10+18500 17d15+0
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 23
+Int: 37
+Wis: 33
+Dex: 25
+Con: 26
+Cha: 24
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 53
+Spell: 53
+Spell: 53
+Spell: 53
+Spell: 53
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 136 130
+E
+#20637
+ окаяшка нечисть~
+окаяшка~
+окаяшки~
+окаяшке~
+окаяшку~
+окаяшкой~
+окаяшке~
+Молодой чертенок выполз суда вслед за старшими братьями.
+~
+Очередной представитель нечистой фауны.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0n0m0p0C0c1o1t1y1 -600 E
+48 -4 -15 10d10+17000 14d15+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 29
+Int: 33
+Wis: 25
+Dex: 19
+Con: 30
+Cha: 10
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+E
+#20638
+ окаяшка нечисть~
+окаяшка~
+окаяшки~
+окаяшке~
+окаяшку~
+окаяшкой~
+окаяшке~
+Молодой чертенок выполз суда вслед за старшими братьями.
+~
+Очередной представитель нечистой фауны.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0n0m0p0C0o1t1y1 -600 E
+48 -4 -12 10d10+18000 16d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 29
+Int: 22
+Wis: 20
+Dex: 19
+Con: 33
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 134 120
+Skill: 136 130
+E
+#20639
+ каркаладил нечисть~
+каркаладил~
+каркаладила~
+каркаладилу~
+каркаладила~
+каркаладилом~
+каркаладиле~
+Темно-коричневого цвета ящер высунул продолговатую зубастую морду из зеленой воды.
+~
+Страшное животное, выходящее из воды, затворяет путь и пожирает людей. 
+Больше про него ничего не известно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2i2u2 d0f0k0p0C0c1p1t1 -600 E
+49 -13 -10 10d10+19000 17d18+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 45
+Int: 18
+Wis: 15
+Dex: 15
+Con: 38
+Cha: 6
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+E
+#20640
+ каркаладил нечисть~
+каркаладил~
+каркаладила~
+каркаладилу~
+каркаладила~
+каркаладилом~
+каркаладиле~
+Темно-коричневого цвета ящер высунул продолговатую зубастую морду из зеленой воды.
+~
+Страшное животное, выходящее из воды, затворяет путь и пожирает людей. 
+Больше про него ничего не известно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2i2u2 d0f0k0p0C0b1c1p1t1 -600 E
+49 -13 -8 10d10+18500 19d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 44
+Int: 16
+Wis: 16
+Dex: 14
+Con: 29
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+E
+#20641
+ крыкса нечисть~
+крыкса~
+крыксы~
+крыксе~
+крыксу~
+крыксой~
+крыксе~
+Причудливая зверушка озирается по сторонам.
+~
+Странного вида зверек исподтишка скалится на Вас. Не стоит ждать от него добра.
+~
+b0c0e0f0g0m0n0o0q0r0t0u0x0y0A0s1t1g2h2i2u2 d0k0p0C0c1p1t1y1 -600 E
+47 0 -7 10d10+17000 15d18+0
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 26
+Int: 22
+Wis: 28
+Dex: 19
+Con: 28
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 137 100
+E
+#20642
+ крыкса нечисть~
+крыкса~
+крыксы~
+крыксе~
+крыксу~
+крыксой~
+крыксе~
+Причудливая зверушка озирается по сторонам.
+~
+Странного вида зверек исподтишка скалится на Вас. Не стоит ждать от него добра.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1g2h2i2u2 d0k0p0C0b1c1p1y1 -600 E
+47 0 -13 10d10+18000 16d16+0
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 27
+Int: 26
+Wis: 24
+Dex: 20
+Con: 20
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 150
+Spell: 150
+Spell: 150
+Skill: 1 100
+Skill: 136 130
+E
+#20643
+ злыдень нечисть~
+злыдень~
+злыдня~
+злыдню~
+злыдня~
+злыднем~
+злыдне~
+Странное животное ковыляет с тропки в болото и обратно.
+~
+Отсутствующий взгляд и слюна, вытекающая изо рта через редкие зубы, явно 
+намекают на некоторую отрешенность от всего сущего у данного обитателя болота.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0o1t1y1 -600 E
+48 -7 -14 10d10+19000 15d17+4
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 38
+Int: 30
+Wis: 20
+Dex: 15
+Con: 30
+Cha: 10
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 88
+Spell: 88
+Skill: 137 125
+E
+#20644
+ злыдень нечисть~
+злыдень~
+злыдня~
+злыдню~
+злыдня~
+злыднем~
+злыдне~
+Странное животное ковыляет с тропки в болото и обратно.
+~
+Отсутствующий взгляд и слюна, вытекающая изо рта через редкие зубы, явно 
+намекают на некоторую отрешенность от всего сущего у данного обитателя болота.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0o1t1y1 -600 E
+48 -5 -13 10d10+18000 17d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 35
+Int: 33
+Wis: 19
+Dex: 10
+Con: 34
+Cha: 10
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 150
+Spell: 150
+Spell: 47
+Skill: 136 130
+E
+#20645
+ хмырь болотный нечисть~
+хмырь болотный~
+хмыря болотного~
+хмырю болотному~
+хмыря болотного~
+хмырем болотным~
+хмыре болотном~
+Косматая тварь тянется к Вам своими лапами.
+~
+Болотный дух, приходящий на зов кикимор помогает им губить людей.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2i2u2 d0f0k0m0p0s0t0C0c1o1r1y1 -600 E
+48 -4 -13 10d10+19000 17d18+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 5
+Str: 44
+Int: 3
+Wis: 15
+Dex: 8
+Con: 33
+Cha: 6
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 134 100
+Skill: 151 100
+E
+#20646
+ хмырь болотный нечисть~
+хмырь болотный~
+хмыря болотного~
+хмырю болотному~
+хмыря болотного~
+хмырем болотным~
+хмыре болотном~
+Косматая тварь тянется к Вам своими лапами.
+~
+Болотный дух, приходящий на зов кикимор помогает им губить людей.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1b2g2h2i2u2 d0f0k0m0p0s0t0C0c1o1t1y1 -600 E
+49 -5 -14 10d10+20000 8d8+8
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 41
+Int: 22
+Wis: 22
+Dex: 16
+Con: 30
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 142
+Spell: 142
+Spell: 142
+Spell: 142
+Spell: 142
+Spell: 156
+Spell: 156
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+E
+#20647
+ хмырь болотный нечисть~
+хмырь болотный~
+хмыря болотного~
+хмырю болотному~
+хмыря болотного~
+хмырем болотным~
+хмыре болотном~
+Косматая тварь тянется к Вам своими лапами.
+~
+Болотный дух, приходящий на зов кикимор помогает им губить людей.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0s0t0C0b1c1o1r1y1 -600 E
+49 -5 -10 10d10+18500 19d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 42
+Int: 20
+Wis: 20
+Dex: 20
+Con: 30
+Cha: 11
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 96
+Spell: 96
+Spell: 96
+Spell: 96
+Spell: 96
+Skill: 134 100
+Skill: 136 130
+E
+#20648
+ нечистик нечисть~
+нечистик~
+нечистика~
+нечистику~
+нечистика~
+нечистиком~
+нечистике~
+Мохнатый человечек с небольшими рожками на голове с любопытством уставился на Вас.
+~
+Болотный черт, живущий в самом глубоком болоте, под самым густым кустом 
+лозы, вылез, чтобы посмотреть, что здесь происходит.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1t1y1 -600 E
+47 -5 -15 10d10+17000 16d16+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 26
+Int: 23
+Wis: 21
+Dex: 19
+Con: 32
+Cha: 19
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 39
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Skill: 136 130
+E
+#20649
+ нечистик нечисть~
+нечистик~
+нечистика~
+нечистику~
+нечистика~
+нечистиком~
+нечистике~
+Мохнатый человечек с небольшими рожками на голове с любопытством уставился на Вас.
+~
+Болотный черт, живущий в самом глубоком болоте, под самым густым кустом 
+лозы, вылез, чтобы посмотреть, что здесь происходит.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1t1y1 -600 E
+47 0 -17 10d10+18000 16d16+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 29
+Int: 21
+Wis: 21
+Dex: 16
+Con: 30
+Cha: 20
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 96
+Skill: 136 130
+E
+#20650
+ каркаладил нечисть~
+каркаладил~
+каркаладила~
+каркаладилу~
+каркаладила~
+каркаладилом~
+каркаладиле~
+Темно-коричневого цвета ящер высунул продолговатую зубастую морду из зеленой воды.
+~
+Страшное животное, выходящее из воды, затворяет путь и пожирает людей. 
+Больше про него ничего не известно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0p0C0c1p1 -600 E
+49 -5 -9 10d10+20000 18d18+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 45
+Int: 18
+Wis: 18
+Dex: 11
+Con: 30
+Cha: 9
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+E
+#20651
+ каркаладил нечисть~
+каркаладил~
+каркаладила~
+каркаладилу~
+каркаладила~
+каркаладилом~
+каркаладиле~
+Темно-коричневого цвета ящер высунул продолговатую зубастую морду из зеленой воды.
+~
+Страшное животное, выходящее из воды, затворяет путь и пожирает людей. 
+Больше про него ничего не известно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0p0C0c1p1 -600 E
+49 -7 -11 10d10+23000 18d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 44
+Int: 22
+Wis: 21
+Dex: 18
+Con: 29
+Cha: 14
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 140
+Spell: 140
+Spell: 140
+Spell: 140
+Spell: 140
+Spell: 48
+Spell: 48
+Skill: 137 150
+E
+#20652
+ каркаладил нечисть~
+каркаладил~
+каркаладила~
+каркаладилу~
+каркаладила~
+каркаладилом~
+каркаладиле~
+Темно-коричневого цвета ящер высунул продолговатую зубастую морду из зеленой воды.
+~
+Страшное животное, выходящее из воды, затворяет путь и пожирает людей. 
+Больше про него ничего не известно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0p0C0c1p1 -600 E
+49 -5 -17 10d10+23500 19d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 40
+Int: 20
+Wis: 20
+Dex: 20
+Con: 31
+Cha: 10
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 122
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 1 100
+Skill: 136 130
+E
+#20653
+ болотянник нечисть~
+болотяник~
+болотяника~
+болотянику~
+болотяника~
+болотяником~
+болотянике~
+Какое то озлобленное существо протягивает к Вам множество отростков.
+~
+Угрюмое малоподвижное существо, поднялось со дна болота, дабы утащить Вас 
+на дно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0k0m0p0C0b1c1q1r1t1y1 -600 E
+50 0 -10 10d10+25000 17d16+0
+0d0+100 600000
+8 8 0
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 44
+Int: 21
+Wis: 26
+Dex: 10
+Con: 35
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 4
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 12 140
+E
+#20654
+ болотянник~
+болотяник~
+болотяника~
+болотянику~
+болотяника~
+болотяником~
+болотянике~
+Какое то озлобленное существо протягивает к Вам множество отростков.
+~
+
+Угрюмое малоподвижное существо, поднялось со дна болота, дабы утащить Вас 
+на дно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0k0m0p0C0c1q1r1t1y1 -600 E
+50 0 -7 10d10+24000 18d16+0
+0d0+100 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 49
+Int: 29
+Wis: 28
+Dex: 10
+Con: 34
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 4
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 47
+Spell: 47
+Spell: 47
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 12 140
+Skill: 136 130
+E
+#20655
+ водовик нечисть~
+водовик~
+водовика~
+водовику~
+водовика~
+водовиком~
+водовике~
+Страшный дед наполовину приподнялся из черной болотной воды.
+~
+
+Безобразный старик, опутанный тиной, с большой бородой и зелеными усами 
+выплыл из черной воды за свежими утопленниками.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1c2g2h2i2u2 d0k0m0p0C0b1c1q1r1 -600 E
+49 0 -14 10d10+21000 9d9+9
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 12
+Str: 38
+Int: 12
+Wis: 25
+Dex: 10
+Con: 29
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 136 130
+E
+#20656
+ кикимора болотная нечисть~
+кикимора болотная~
+кикиморы болотной~
+кикиморе болотной~
+кикимору болотную~
+кикиморой болотной~
+кикиморе болотной~
+Жуткая старуха прячется в трясине.
+~
+
+Старуха, закутавшаяся в ряднину, сотканную из мха и водорослей, криком 
+зазывает путников вглубь трясины.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1g2h2i2u2 d0k0n0m0p0C0j1q1r1t1 -600 E
+49 0 -15 10d10+23000 18d15+0
+0d0+100 600000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 36
+Int: 25
+Wis: 24
+Dex: 18
+Con: 33
+Cha: 16
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 5
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 127
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 12 130
+Skill: 136 130
+Skill: 151 150
+E
+#20657
+ нечистик нечисть~
+нечистик~
+нечистика~
+нечистику~
+нечистика~
+нечистиком~
+нечистике~
+Мохнатый человечек с небольшими рожками на голове с любопытством уставился на Вас.
+~
+
+Болотный черт, живущий в самом глубоком болоте, под самым густым кустом 
+лозы, вылез, чтобы посмотреть, что здесь происходит.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1t1y1 -600 E
+48 0 -16 10d10+17000 16d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 34
+Int: 21
+Wis: 26
+Dex: 18
+Con: 29
+Cha: 16
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 156
+Spell: 156
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+E
+#20658
+шиш нечисть~
+шиш~
+шиша~
+шишу~
+шиша~
+шишем~
+шише~
+Человек, покрытый черной шерстью, скачет по поверхности болота.
+~
+
+Человек с дыбом стоящими волосами и вертлявым хвостом недобро зыркает на Вас.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1t1y1 -600 E
+49 0 -17 10d10+19000 18d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 13
+Str: 38
+Int: 20
+Wis: 20
+Dex: 19
+Con: 25
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 109
+Spell: 109
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+E
+#20659
+шиш нечисть~
+шиш~
+шиша~
+шишу~
+шиша~
+шишем~
+шише~
+Человек, покрытый черной шерстью, скачет по поверхности болота.
+~
+
+Человек с дыбом стоящими волосами и вертлявым хвостом недобро зыркает на Вас.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1t1y1 -600 E
+49 0 -17 10d10+19000 18d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 13
+Str: 37
+Int: 21
+Wis: 26
+Dex: 17
+Con: 26
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 156
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+Skill: 137 120
+E
+#20660
+ окаяшка нечисть~
+окаяшка~
+окаяшки~
+окаяшке~
+окаяшку~
+окаяшкой~
+окаяшке~
+Молодой чертенок выполз суда вслед за старшими братьями.
+~
+
+Очередной представитель нечистой фауны.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1r1y1 -600 E
+47 0 -14 10d10+18500 18d16+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 28
+Int: 19
+Wis: 22
+Dex: 17
+Con: 30
+Cha: 10
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 88
+Spell: 88
+Skill: 134 100
+Skill: 136 130
+E
+#20661
+ окаяшка нечисть~
+окаяшка~
+окаяшки~
+окаяшке~
+окаяшку~
+окаяшкой~
+окаяшке~
+Молодой чертенок выполз суда вслед за старшими братьями.
+~
+
+Очередной представитель нечистой фауны.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1r1y1 -600 E
+47 0 -14 10d10+18500 18d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 32
+Int: 22
+Wis: 19
+Dex: 15
+Con: 30
+Cha: 10
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 1
+Spell: 1
+Spell: 1
+Spell: 1
+Spell: 1
+Spell: 1
+Spell: 1
+Spell: 1
+Spell: 1
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 88
+Spell: 88
+Skill: 1 120
+Skill: 136 130
+E
+#20662
+ окаяшка нечисть~
+окаяшка~
+окаяшки~
+окаяшке~
+окаяшку~
+окаяшкой~
+окаяшке~
+Молодой чертенок выполз суда вслед за старшими братьями.
+~
+
+Очередной представитель нечистой фауны.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1r1y1 -600 E
+47 0 -14 10d10+18000 16d16+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 31
+Int: 19
+Wis: 22
+Dex: 17
+Con: 31
+Cha: 10
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 136 130
+E
+#20663
+ кикимора болотная нечисть~
+кикимора болотная~
+кикиморы болотной~
+кикиморе болотной~
+кикимору болотную~
+кикиморой болотной~
+кикиморе болотной~
+Жуткая старуха прячется в трясине.
+~
+
+Старуха, закутавшаяся в ряднину, сотканную из мха и водорослей, криком 
+зазывает путников вглубь трясины.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1g2h2i2u2 d0k0n0m0p0C0c1j1q1r1 -600 E
+50 0 -11 10d10+23000 18d14+0
+0d0+100 600000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 45
+Int: 22
+Wis: 4
+Dex: 16
+Con: 25
+Cha: 7
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 5
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 136 130
+E
+#20664
+ мелкая водяница нечисть~
+мелкая водяница~
+мелкой водяницы~
+мелкой водянице~
+мелкую водяницу~
+мелкой водяницей~
+мелкой водянице~
+Светящееся зеленовато-голубое облако парит невысоко над топью.
+~
+
+Женский дух воды, обрученный с водяным, окружен зеленовато-голубым холодным 
+свечением.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1c2g2h2i2u2 d0k0n0m0p0x0C0c1q1r1x1 -600 E
+48 0 -19 10d10+17000 9d9+7
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 12
+Str: 22
+Int: 11
+Wis: 11
+Dex: 11
+Con: 22
+Cha: 20
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+E
+#20665
+ старый каркаладил нечисть~
+старый каркаладил~
+старого каркаладила~
+старому каркаладилу~
+старого каркаладила~
+старым каркаладилом~
+старом каркаладиле~
+Огромный серый  ящер уставился на Вас немигающим взглядом.
+~
+
+Страшное животное огромных размеров, выходящее из воды, затворяет путь и 
+пожирает людей. Больше про него ничего не известно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0p0C0c1p1r1t1 -600 E
+50 -4 -6 10d10+25000 18d18+0
+0d0+100 350000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 44
+Int: 18
+Wis: 16
+Dex: 4
+Con: 35
+Cha: 11
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 1 80
+Skill: 136 130
+E
+#20666
+ старый каркаладил нечисть~
+старый каркаладил~
+старого каркаладила~
+старому каркаладилу~
+старого каркаладила~
+старым каркаладилом~
+старом каркаладиле~
+Огромный серый  ящер уставился на Вас немигающим взглядом.
+~
+
+Страшное животное огромных размеров, выходящее из воды, затворяет путь и 
+пожирает людей. Больше про него ничего не известно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0p0C0c1o1r1t1 -600 E
+50 -5 -8 10d10+24500 18d18+0
+0d0+100 350000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 49
+Int: 14
+Wis: 16
+Dex: 4
+Con: 33
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 136 130
+E
+#20667
+ мелкая водяница нечисть~
+мелкая водяница~
+мелкой водяницы~
+мелкой водянице~
+мелкую водяницу~
+мелкой водяницей~
+мелкой водянице~
+Светящееся зеленовато-голубое облако парит невысоко над топью.
+~
+
+Женский дух воды, обрученный с водяным, окружен зеленовато-голубым холодным 
+свечением.
+~
+b0c0f0g0h0n0o0q0r0t0u0x0y0A0s1t1c2g2h2i2u2 d0k0n0m0p0x0C0c1q1r1x1 -600 E
+48 0 -17 10d10+17000 9d9+7
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 12
+Str: 25
+Int: 14
+Wis: 9
+Dex: 8
+Con: 25
+Cha: 18
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+Skill: 137 130
+E
+#20668
+ мелкая водяница нечисть~
+мелкая водяница~
+мелкой водяницы~
+мелкой водянице~
+мелкую водяницу~
+мелкой водяницей~
+мелкой водянице~
+Светящееся зеленовато-голубое облако парит невысоко над топью.
+~
+
+Женский дух воды, обрученный с водяным, окружен зеленовато-голубым холодным 
+свечением.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1c2g2h2i2u2 d0k0n0m0p0x0C0c1q1r1x1 -600 E
+48 0 -15 10d10+18000 9d9+7
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 12
+Str: 25
+Int: 12
+Wis: 9
+Dex: 10
+Con: 24
+Cha: 19
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+E
+#20669
+ мелкая водяница нечисть~
+мелкая водяница~
+мелкой водяницы~
+мелкой водянице~
+мелкую водяницу~
+мелкой водяницей~
+мелкой водянице~
+Светящееся зеленовато-голубое облако парит невысоко над топью.
+~
+
+Женский дух воды, обрученный с водяным, окружен зеленовато-голубым холодным 
+свечением.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1c2g2h2i2u2 d0k0n0m0p0x0C0c1q1r1x1 -600 E
+48 0 -20 10d10+17500 9d9+7
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 12
+Str: 19
+Int: 15
+Wis: 8
+Dex: 16
+Con: 19
+Cha: 23
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 136 130
+E
+#20670
+ крупная водяница нечисть~
+крупная водяница~
+крупной водяницы~
+крупной водянице~
+крупную водяницу~
+крупной водяницей~
+крупной водянице~
+Светящееся зеленовато-голубое облако парит невысоко над топью.
+~
+
+Женский дух воды, обрученный с водяным, окружен зеленовато-голубым холодным 
+свечением.
+~
+b0c0e0f0g0n0o0q0r0t0u0x0y0A0s1t1c2g2h2i2u2 d0k0n0m0p0x0C0c1q1r1t1y1 -600 E
+50 0 -15 10d10+23000 9d9+9
+0d0+100 600000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 35
+Int: 26
+Wis: 20
+Dex: 10
+Con: 25
+Cha: 20
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 136 130
+Skill: 151 120
+Skill: 157 130
+E
+#20671
+ вуташ нечисть~
+вуташ~
+вуташа~
+вуташу~
+вуташа~
+вуташем~
+вуташе~
+Человек нездорово синего цвета проплывает мимо.
+~
+
+Этот человек произошел из утопленников, и теперь, в полдень, утаскивает 
+купающихся в омут.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2i2u2 d0f0k0n0m0p0C0c1o1r1t1z1 -600 E
+50 0 -15 10d10+22000 19d18+0
+0d0+100 400000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 5
+Str: 49
+Int: 24
+Wis: 18
+Dex: 20
+Con: 30
+Cha: 20
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 134 120
+Skill: 137 100
+Skill: 151 120
+E
+#20672
+ вуташ нечисть~
+вуташ~
+вуташа~
+вуташу~
+вуташа~
+вуташем~
+вуташе~
+Человек нездорово синего цвета проплывает мимо.
+~
+
+Этот человек произошел из утопленников, и теперь, в полдень, утаскивает 
+купающихся в омут.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2i2u2 d0f0k0n0m0p0C0c1o1r1t1z1 -600 E
+50 0 -14 10d10+22500 19d18+0
+0d0+100 400000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 5
+Str: 46
+Int: 27
+Wis: 18
+Dex: 17
+Con: 31
+Cha: 19
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 48
+Spell: 48
+Spell: 48
+Skill: 137 120
+Skill: 157 130
+E
+#20673
+ вуташ нечисть~
+вуташ~
+вуташа~
+вуташу~
+вуташа~
+вуташем~
+вуташе~
+Человек нездорово синего цвета проплывает мимо.
+~
+
+Этот человек произошел из утопленников, и теперь, в полдень, утаскивает 
+купающихся в омут.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2i2u2 d0f0k0n0m0p0C0c1o1r1t1z1 -600 E
+50 0 -17 10d10+23000 19d18+0
+0d0+100 400000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 5
+Str: 50
+Int: 21
+Wis: 18
+Dex: 17
+Con: 34
+Cha: 17
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 53
+Spell: 53
+Spell: 53
+Skill: 134 125
+Skill: 157 130
+E
+#20674
+ вуташ нечисть~
+вуташ~
+вуташа~
+вуташу~
+вуташа~
+вуташем~
+вуташе~
+Человек нездорово синего цвета проплывает мимо.
+~
+
+Этот человек произошел из утопленников, и теперь, в полдень, утаскивает 
+купающихся в омут.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2i2u2 d0f0k0n0m0p0C0c1o1r1t1z1 -600 E
+50 0 -13 10d10+21500 17d18+0
+0d0+100 400000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 5
+Str: 47
+Int: 26
+Wis: 18
+Dex: 25
+Con: 32
+Cha: 19
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 47
+Spell: 47
+Spell: 47
+Skill: 137 135
+Skill: 157 130
+E
+#20675
+ вуташ нечисть~
+вуташ~
+вуташа~
+вуташу~
+вуташа~
+вуташем~
+вуташе~
+Человек нездорово синего цвета проплывает мимо.
+~
+
+Этот человек произошел из утопленников, и теперь, в полдень, утаскивает 
+купающихся в омут.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2i2u2 d0f0k0n0m0p0C0c1o1r1t1z1 -600 E
+50 0 -15 10d10+22000 19d18+0
+0d0+100 400000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 5
+Str: 47
+Int: 27
+Wis: 20
+Dex: 18
+Con: 28
+Cha: 16
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 157 130
+E
+#20676
+ синий утопленник нечисть~
+синий утопленник~
+синего утопленника~
+синему утопленнику~
+синего утопленника~
+синим утопленником~
+синем утопленнике~
+Всплывшее на поверхность тело бьется в конвульсиях.
+~
+Намокший и раздутый от грязной воды жмурик не сделает Вам ничего хорошего.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1b2g2i2u2 d0k0p0C0o1t1 -600 E
+49 -6 -7 10d10+19000 3d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 36
+Int: 20
+Wis: 18
+Dex: 11
+Con: 26
+Cha: 5
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 101
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 1 100
+E
+#20677
+ полуголая девушка нечисть~
+полуголая девушка~
+полуголой девушки~
+полуголой девушке~
+полуголую девушку~
+полуголой девушкой~
+полуголой девушке~
+Размякшее женское тело, переваливаясь, приближается к Вам.
+~
+Платье, некогда вытканное заботливыми руками, теперь превратилось в обрывки 
+и еле прикрывает срам.
+~
+b0c0f0g0n0o0q0r0t0u0x0y0A0s1b2g2i2u2 d0k0p0C0o1r1 -600 E
+48 0 -4 10d10+17000 3d15+0
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 28
+Int: 26
+Wis: 21
+Dex: 9
+Con: 30
+Cha: 10
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 101
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 137 100
+E
+#20678
+ полуголая девушка нечисть~
+полуголая девушка~
+полуголой девушки~
+полуголой девушке~
+полуголую девушку~
+полуголой девушкой~
+полуголой девушке~
+Размякшее женское тело, переваливаясь, приближается к Вам.
+~
+Платье, некогда вытканное заботливыми руками, теперь превратилось в обрывки 
+и еле прикрывает срам.
+~
+b0c0f0g0n0o0q0r0t0u0x0y0A0s1b2g2i2u2 d0k0p0C0o1r1 -600 E
+48 -2 -4 10d10+17000 3d15+0
+0d0+100 300000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 8
+Str: 33
+Int: 28
+Wis: 21
+Dex: 10
+Con: 22
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 101
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 134 120
+E
+#20679
+ синий утопленник нечисть~
+синий утопленник~
+синего утопленника~
+синему утопленнику~
+синего утопленника~
+синим утопленником~
+синем утопленнике~
+Всплывшее на поверхность тело бьется в конвульсиях.
+~
+
+Намокший и раздутый от грязной воды жмурик не сделает Вам ничего хорошего.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1b2g2i2u2 d0k0p0C0o1t1 -600 E
+49 -3 -7 10d10+19500 3d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 39
+Int: 18
+Wis: 21
+Dex: 13
+Con: 23
+Cha: 7
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 101
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Skill: 136 130
+Skill: 137 130
+E
+#20680
+ синий утопленник нечисть~
+синий утопленник~
+синего утопленника~
+синему утопленнику~
+синего утопленника~
+синим утопленником~
+синем утопленнике~
+Всплывшее на поверхность тело бьется в конвульсиях.
+~
+Намокший и раздутый от грязной воды жмурик не сделает Вам ничего хорошего.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1b2g2i2u2 d0k0p0C0o1t1 -600 E
+49 -2 -6 10d10+19000 2d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 0
+Str: 38
+Int: 18
+Wis: 21
+Dex: 9
+Con: 29
+Cha: 9
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 101
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+Skill: 137 125
+E
+#20681
+ старуха косой~
+старуха с косой~
+старухи с косой~
+старухе с косой~
+старуху с косой~
+старухой с косой~
+старухе с косой~
+Остов старухи, обтянутый черным балахоном, направил косу в Вашу сторону.
+~
+Через широкий капюшон на Вас уставились две пустые глазницы белесого черепа.
+~
+b0c0f0g0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0n0m0p0x0C0b1c1m1p1r1w1x1y1z1 -600 E
+50 -4 -30 10d10+30000 21d23+0
+0d0+100 800000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 13
+Str: 50
+Int: 50
+Wis: 25
+Dex: 5
+Con: 50
+Cha: 0
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 0
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 28
+Skill: 136 130
+E
+T 20619
+#20682
+ болотный дедко нечисть~
+болотный дедок~
+болотного дедка~
+болотному дедку~
+болотного дедка~
+болотным дедком~
+болотном дедке~
+Небольшого роста старикашка ловко бегает по узкой тропке, так и норовя столкнуть Вас в топь.
+~
+Мелкий толстяк,  покрытый слоем грязи, с налипшими водорослями, улитками и 
+рыбьей чешуей явно не доволен Вашим присутствием здесь.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0k0n0m0p0C0c1q1r1 -600 E
+50 -4 -15 10d10+23000 17d17+0
+0d0+100 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 5
+Str: 40
+Int: 26
+Wis: 25
+Dex: 24
+Con: 35
+Cha: 11
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 96
+Skill: 134 130
+Skill: 136 130
+Skill: 157 130
+E
+#20683
+ болотный леший нечисть~
+болотный леший~
+болотного лешего~
+болотному лешему~
+болотного лешего~
+болотным лешим~
+болотном лешем~
+Болотный леший так и норовит цапнуть Вас за ногу!
+~
+Человек, поросший шерстью, с длинными руками и закрученным хвостом люто 
+уставился на Вас мерцающими глазами.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0k0m0p0C0b1c1q1r1t1y1 -600 E
+50 -3 -15 10d10+25000 17d18+0
+0d0+110 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 48
+Int: 20
+Wis: 20
+Dex: 20
+Con: 29
+Cha: 19
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 137 130
+E
+#20684
+ болотянник нечисть~
+болотяник~
+болотяника~
+болотянику~
+болотяника~
+болотяником~
+болотянике~
+Какое то озлобленное существо протягивает к Вам множество отростков.
+~
+Угрюмое малоподвижное существо, поднялось со дна болота, дабы утащить Вас 
+на дно.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0k0n0m0p0C0b1c1q1r1t1y1 -600 E
+50 -4 -15 10d10+28000 16d17+0
+0d0+100 600000
+8 8 0
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 48
+Int: 24
+Wis: 23
+Dex: 14
+Con: 38
+Cha: 0
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 4
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 12 130
+Skill: 136 130
+E
+#20685
+ кикимора болотная нечисть~
+кикимора болотная~
+кикиморы болотной~
+кикиморе болотной~
+кикимору болотную~
+кикиморой болотной~
+кикиморе болотной~
+Жуткая старуха прячется в трясине.
+~
+Старуха, закутавшаяся в ряднину, сотканную из мха и водорослей, криком 
+зазывает путников вглубь трясины.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0k0n0m0p0C0c1j1q1r1 -600 E
+50 -5 -11 10d10+23000 18d14+0
+0d0+100 600000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 45
+Int: 22
+Wis: 4
+Dex: 16
+Con: 25
+Cha: 7
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 5
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 1 125
+Skill: 136 130
+E
+#20686
+ берендей нечисть~
+берендей ~
+берендея~
+берендею~
+берендея~
+берендеем~
+берендее~
+Человек, обернувшийся медведем, обжил спасительную сушу у болот.
+~
+Человек, поросший шерстью, с длинными руками и закрученным хвостом люто 
+уставился на Вас мерцающими глазами.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0p0C0c1o1t1 -600 E
+48 -5 -9 10d10+23000 18d18+0
+0d0+100 400000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 1
+Str: 49
+Int: 28
+Wis: 29
+Dex: 25
+Con: 33
+Cha: 20
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 0
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+E
+#20687
+ старый берендей нечисть~
+старый берендей ~
+старого берендея~
+старому берендею~
+старого берендея~
+старым берендеем~
+старом берендее~
+Старый человек, обернувшийся медведем, обжил спасительную сушу у болот.
+~
+Человек, поросший шерстью, с длинными руками и закрученным хвостом люто 
+уставился на Вас мерцающими глазами.
+~
+b0c0f0g0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0n0m0p0C0c1o1r1t1 -600 E
+50 -4 -15 10d10+28000 19d19+0
+0d0+100 500000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 1
+Str: 50
+Int: 33
+Wis: 33
+Dex: 20
+Con: 35
+Cha: 20
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 0
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 62
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Skill: 137 130
+E
+#20688
+ берендей нечисть~
+берендей ~
+берендея~
+берендею~
+берендея~
+берендеем~
+берендее~
+Человек, обернувшийся медведем, обжил спасительную сушу у болот.
+~
+Человек, поросший шерстью, с длинными руками и закрученным хвостом люто 
+уставился на Вас мерцающими глазами.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0p0C0c1o1t1 -600 E
+48 -6 -9 10d10+23500 18d18+0
+0d0+100 400000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 1
+Str: 47
+Int: 30
+Wis: 28
+Dex: 26
+Con: 31
+Cha: 22
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 0
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 1 130
+E
+#20689
+ берендей нечисть~
+берендей ~
+берендея~
+берендею~
+берендея~
+берендеем~
+берендее~
+Человек, обернувшийся медведем, обжил спасительную сушу у болот.
+~
+Человек, поросший шерстью, с длинными руками и закрученным хвостом люто 
+уставился на Вас мерцающими глазами.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0p0C0c1o1t1 -600 E
+48 -6 -9 10d10+23000 18d18+0
+0d0+100 400000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 1
+Str: 48
+Int: 29
+Wis: 27
+Dex: 27
+Con: 31
+Cha: 18
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 0
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+E
+#20690
+ кикимора болотная нечисть~
+кикимора болотная~
+кикиморы болотной~
+кикиморе болотной~
+кикимору болотную~
+кикиморой болотной~
+кикиморе болотной~
+Жуткая старуха прячется в трясине.
+~
+Старуха, закутавшаяся в ряднину, сотканную из мха и водорослей, криком 
+зазывает путников вглубь трясины.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0n0m0p0C0c1j1q1r1 -600 E
+50 -4 -11 10d10+25000 18d14+0
+0d0+100 600000
+8 8 2
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 2
+Str: 47
+Int: 21
+Wis: 6
+Dex: 17
+Con: 23
+Cha: 8
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 5
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 112
+Spell: 112
+Spell: 112
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 62
+Spell: 62
+Spell: 62
+Skill: 136 130
+E
+#20691
+ болотный леший нечисть~
+болотный леший~
+болотного лешего~
+болотному лешему~
+болотного лешего~
+болотным лешим~
+болотном лешем~
+Болотный леший так и норовит цапнуть Вас за ногу!
+~
+Человек, поросший шерстью, с длинными руками и закрученным хвостом люто 
+уставился на Вас мерцающими глазами.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0k0m0p0C0b1c1q1r1t1y1 -600 E
+50 -10 -14 10d10+23500 17d18+0
+0d0+100 600000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 46
+Int: 18
+Wis: 22
+Dex: 17
+Con: 30
+Cha: 18
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Skill: 136 130
+Skill: 157 130
+E
+#20692
+ окаяшка нечисть~
+окаяшка~
+окаяшки~
+окаяшке~
+окаяшку~
+окаяшкой~
+окаяшке~
+Молодой чертенок выполз суда вслед за старшими братьями.
+~
+Очередной представитель нечистой фауны.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1r1y1 -600 E
+47 0 -14 10d10+18500 18d16+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 30
+Int: 17
+Wis: 24
+Dex: 15
+Con: 32
+Cha: 9
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 156
+Spell: 156
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Skill: 136 130
+E
+#20693
+ окаяшка нечисть~
+окаяшка~
+окаяшки~
+окаяшке~
+окаяшку~
+окаяшкой~
+окаяшке~
+Молодой чертенок выполз суда вслед за старшими братьями.
+~
+Очередной представитель нечистой фауны.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1r1y1 -600 E
+47 0 -16 10d10+18500 18d16+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 26
+Int: 21
+Wis: 23
+Dex: 18
+Con: 28
+Cha: 12
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 130
+Skill: 137 135
+E
+#20694
+шиш нечисть~
+шиш~
+шиша~
+шишу~
+шиша~
+шишем~
+шише~
+Человек, покрытый черной шерстью, скачет по поверхности болота.
+~
+Человек с дыбом стоящими волосами и вертлявым хвостом недобро зыркает на Вас.
+~
+b0c0f0g0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1t1y1 -600 E
+49 0 -17 10d10+19000 18d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 13
+Str: 36
+Int: 18
+Wis: 18
+Dex: 20
+Con: 23
+Cha: 13
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0
+Spell: 150
+Spell: 150
+Spell: 47
+Spell: 47
+Spell: 48
+Spell: 48
+Spell: 48
+Skill: 134 135
+E
+#20695
+ нечистик нечисть~
+нечистик~
+нечистика~
+нечистику~
+нечистика~
+нечистиком~
+нечистике~
+Мохнатый человечек с небольшими рожками на голове с любопытством уставился на Вас.
+~
+Болотный черт, живущий в самом глубоком болоте, под самым густым кустом 
+лозы, вылез, чтобы посмотреть, что здесь происходит.
+~
+b0c0f0g0m0n0o0q0r0t0u0x0y0A0s1g2h2i2u2 d0f0k0m0p0C0c1o1t1y1 -600 E
+48 -1 -16 10d10+17000 16d17+0
+0d0+100 300000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 14
+Str: 33
+Int: 23
+Wis: 28
+Dex: 16
+Con: 32
+Cha: 15
+LikeWork: 80
+MaxFactor: 0
+ExtraAttack: 1
+Class: 103
+Size: 100
+Height: 200
+Weight: 150
+Special_Bitvector: a0d0n0
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Spell: 111
+Skill: 136 130
+Skill: 137 125
+E
+#20696
+ мастер душегуб~
+мастер душегуб~
+мастера душегуба~
+мастеру душегубу~
+мастера душегуба~
+мастером душегубом~
+мастере душегубе~
+Бородатый мужчина прячет изъеденное язвами лицо под черным платком.
+~
+Стоит только взглянуть в его глаза, чтобы понять, чем он занимается.
+~
+b0c0m0n0o0p0q0r0t0u0x0y0A0s1g2i2 d0h0k0r0C0m1t1 -600 E
+50 -1 -25 10d10+17000 18d18+0
+0d0+100 500000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 11
+Str: 44
+Int: 23
+Wis: 25
+Dex: 27
+Con: 36
+Cha: 15
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 136 155
+Skill: 137 150
+E
+T 20615
+#20697
+ молодой душегубец~
+молодой душегубец~
+молодого душегубца~
+молодому душегубцу~
+молодого душегубца~
+молодым душегубцом~
+молодом душегубце~
+Молодой парень в причудливых черных одеждах внимательно следит за Вами.
+~
+Еще не имеющий много опыта, но отлично подготовленный мастер готов 
+сразиться с любым противником.
+~
+b0c0m0n0o0p0q0r0t0u0x0y0A0s1g2i2 d0h0k0r0C0m1t1 -600 E
+50 0 -25 10d10+17000 18d18+0
+0d0+100 500000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 11
+Str: 40
+Int: 26
+Wis: 27
+Dex: 25
+Con: 32
+Cha: 27
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Skill: 1 155
+Skill: 134 130
+Skill: 136 155
+E
+T 20615
+#20698
+ мастер охранитель~
+мастер охранитель~
+мастера охранителя~
+мастеру охранителю~
+мастером охранителем~
+мастером охранителем~
+мастере охранителе~
+Молодой парень в причудливых черных одеждах внимательно следит за Вами.
+~
+Еще не имеющий много опыта, но отлично подготовленный мастер готов 
+сразиться с любым противником.
+~
+b0c0m0n0o0p0q0r0t0u0x0y0A0s1g2i2 d0h0k0r0C0m1t1 -600 E
+50 -1 -25 10d10+25500 18d18+0
+0d0+100 500000
+8 8 1
+Saves: 0 0 0 0
+Resistances: 0 0 0 0 0 0 0
+HPreg: 0
+Armour: 0
+PlusMem: 0
+CastSuccess: 0
+Success: 0
+Initiative: 0
+Absorbe: 0
+AResist: 0
+MResist: 0
+BareHandAttack: 11
+Str: 37
+Int: 28
+Wis: 28
+Dex: 27
+Con: 50
+Cha: 25
+LikeWork: 90
+MaxFactor: 0
+ExtraAttack: 1
+Class: 102
+Size: 100
+Height: 175
+Weight: 85
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 47
+Spell: 47
+Spell: 47
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 96
+Skill: 1 200
+Skill: 136 155
+Skill: 137 200
+E
+T 20615
+#20699
+ серая кулебяка~
+серая кулебяка~
+серой кулебяки~
+серой кулебяке~
+серую кулебяку~
+серой кулебякой~
+серой кулебяке~
+Какая-то тварь почти сливается с туманом.
+~
+Маленькое юркое существо, о котором ничего не известно. 
+Большинство встретившихся с ним, не успевали даже понять что произошло.
+~
+b0d0e0f0g0n0o0p0x0y0z0s1g2 c0d0e0f0k0r0s0t0A0C0c1j1m1q1r1w1 -600 E
+45 0 0 10d10+3000 21d21+30
+0d0+0 300000
+8 8 2
+Saves: -60 -60 -60 -60
+Resistances: 99 -99 0 99 60 0 0
+HPreg: 200
+Armour: 60
+PlusMem: 0
+CastSuccess: 0
+Success: 60
+Initiative: 60
+Absorbe: 60
+AResist: 0
+MResist: 0
+BareHandAttack: 4
+Str: 50
+Int: 10
+Wis: 10
+Dex: 50
+Con: 30
+Cha: 10
+LikeWork: 100
+MaxFactor: 0
+ExtraAttack: 0
+Class: 103
+Size: 10
+Height: 30
+Weight: 50
+Feat: 1
+Feat: 12
+Feat: 13
+Feat: 17
+Feat: 19
+Feat: 21
+Feat: 29
+Feat: 68
+Special_Bitvector: g0i0j0w0B3
+Skill: 131 200
+Skill: 136 200
+Skill: 167 200
+Skill: 21 200
+E
+$
+$

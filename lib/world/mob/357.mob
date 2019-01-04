@@ -25,6 +25,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 200
 Weight: 100
 Special_Bitvector: B3 
@@ -95,6 +96,7 @@ LikeWork: 100
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 198
 Weight: 200
 Special_Bitvector: B3 
@@ -131,6 +133,7 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
@@ -162,6 +165,7 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
@@ -196,6 +200,7 @@ LikeWork: 100
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
@@ -229,6 +234,7 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
@@ -247,7 +253,7 @@ E
    Человек из Казахстана.
 
 ~
-b0d0g0B0o1f2 c0d0f0k0 600 E
+b0d0g0n0B0o1f2u2 c0d0f0k0 600 E
 30 0 0 0d0+100 22d22+22
 0d0+0 0
 8 8 1
@@ -260,6 +266,7 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
@@ -291,6 +298,7 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
@@ -308,9 +316,9 @@ E
 ~
  ....
 ~
-b0d0g0m0n0o0p0q0r0s0t0u0x0A0B0f2g2i2 c0d0e0f0g0h0k0m0n0r0r1t1w1y1 600 E
+b0d0g0m0o0p0q0r0s0t0u0x0B0f2g2i2 c0d0e0f0g0h0k0m0n0r0r1t1w1y1 600 E
 28 20 -10 10d10+1110 20d20+20
-0d0+0 -500000
+0d0+0 0
 8 8 1
 Str: 34
 Dex: 33
@@ -323,13 +331,13 @@ LikeWork: 100
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: C3 
 Skill: 22 200
 Skill: 132 200
 Skill: 136 200
-Skill: 165 200
 Spell: 23
 Spell: 23
 Spell: 23
@@ -408,6 +416,7 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
@@ -439,6 +448,7 @@ Cha: 10
 Size: 100
 ExtraAttack: 1
 Class: 100
+Race: 100
 Height: 150
 Weight: 85
 Special_Bitvector: l0 
@@ -472,6 +482,7 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
@@ -503,6 +514,7 @@ Cha: 33
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 150
 Weight: 60
 Special_Bitvector: 0 
@@ -526,6 +538,8 @@ b0d0f2 d0f0k0 600 E
 0d0+0 0
 8 8 1
 Size: 30
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

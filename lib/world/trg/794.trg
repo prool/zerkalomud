@@ -8,7 +8,8 @@ calcuid pit65 79447 room
 detach 79440 %pit65.id%
 detach 79441 %pit65.id%
 detach 79442 %pit65.id%
-detach 79416
+calcuid e1room 79413 room
+detach 79416 %e1room.id%
 calcuid ots45 79449 mob
 detach 79446 %ots45.id%
 wdoor  79446 west purge
@@ -16,6 +17,11 @@ wait 2
 calcuid loadem 67633 room
 attach 79450 %loadem.id%
 exec 79450 %loadem.id%
+wait 1
+calcuid konung 79447 mob
+attach 79430 %konung.id%
+attach 79431 %konung.id%
+attach 79432 %konung.id%
 ~
 #79401
 заходимккупцу~
@@ -704,7 +710,7 @@ detach 79439 %self.id%
 #79440
 пьемизкружчки1~
 2 c 1
-пить пит пи~
+пи пит пить пить!~
 if !%arg.contains(ч)%
   halt
 end
@@ -716,7 +722,7 @@ end
 calcuid qqqq 79415 obj
 *Если емкость не пустая
 if (%qqqq.val1% > 0)
-  %send% %actor% Ты выпил%actor.q% треть кружки. Емае, вот это табуретовка! 
+  %send% %actor% Ты выпил%actor.g% треть кружки. Емае, вот это табуретовка! 
   %send% %actor% Из глаз хлынули слезы, взор помутился 
   calcuid pit65 79447 room
   attach 79441 %pit65.id%
@@ -767,7 +773,7 @@ end
 calcuid qqqq 79415 obj
 *Если емкость не пустая
 if %qqqq.val1%>0
-  %send% %actor% Ты допил%actor.q% остатки водки, будто молотом по затылку. 
+  %send% %actor% Ты допил%actor.g% остатки водки, будто молотом по затылку. 
   %send% %actor% Но вдруг перед глазами прояснилось. БЕЛКА!!!
   wload mob 79450   
   calcuid pit65 79447 room
@@ -795,7 +801,7 @@ wait 10
 %pman.wait(6)%
 wsend %actor% Выхватив оружие, ты бросил%actor.q% на белку, но, проскочив сквозь нее, 
 wsend %actor% &Rврезал%actor.q% головой в угол стола и упал%actor.q% без сознания.&n
-mdamage %actor% 250
+wdamage %actor% 250
 %actor.position(5)%
 wait 3s
 wecho Прошло время.
@@ -827,7 +833,8 @@ if (%speech.contains(от)%) && ((%speech.contains(водки)%) || (%speech.contains(п
   wait 10
   г А тебя за помощь научу умению на Руси главному!
   %pman.setquest(79401)% 
-  if %actor.kill(опохмелиться)% < 200
+  eval maxskl %actor.remort%*5+90
+  if %actor.skill(опохмелиться)% < %maxskl%
     mskilladd %actor.name% опохмелиться 10
   else
     дум %actor.name%
@@ -967,7 +974,9 @@ if %actor% != %pman%
   halt
 end
 wait 1
-if (%speech.contains(мастер)% && (%speech.contains(кулачного)% && %pman.can_get_feat(мастер кулачного)%)
+if (%speech.contains(мастер)% && (%speech.contains(меча)% && %pman.can_get_feat(мастер меча)%)
+  set feat 0
+elseif (%speech.contains(мастер)% && (%speech.contains(кулачного)% && %pman.can_get_feat(мастер кулачного)%)
   set feat 1
 elseif (%speech.contains(мастер)% && (%speech.contains(палицы)% && %pman.can_get_feat(мастер палицы)%)
   set feat 2
@@ -983,6 +992,8 @@ elseif (%speech.contains(мастер)% && (%speech.contains(лучник)% && %pman.can_get
   set feat 7
 elseif (%speech.contains(мастер)% && (%speech.contains(секиры)% && %pman.can_get_feat(мастер секиры)%)
   set feat 8
+elseif (%speech.contains(мастер)% && (%speech.contains(двуручник)% && %pman.can_get_feat(мастер двуручник)%)
+  set feat 9
 else
   set feat -1
   эм внимательно осмотрел Вас
@@ -995,6 +1006,9 @@ msend %pman% Через час беготни он оставил Вас у небольшого ветхого домика, к кот
 msend %pman% седой старик. Проведя два дня в напряженных тренировках, Вы стали мастером в любимом 
 msend %pman% оружии.
 switch %feat%
+  case 0
+    mfeatturn %pman.name% мастер.меча set
+  break
   case 1
     mfeatturn %pman.name% мастер.кулачного set
   break
@@ -1019,6 +1033,9 @@ switch %feat%
   case 8
     mfeatturn %pman.name% мастер.секиры set
   break
+  case 9
+    mfeatturn %pman.name% мастер.двуручника set
+  break
 done
 %pman.setquest(79402)%
 detach 79452 %self.id%
@@ -1028,7 +1045,6 @@ detach 79452 %self.id%
 0 n 100
 ~
 wait 3
-mecho В корчму зашел какой-то мужик, и заказав кружку пива, сел за
-свободный столик.
+mecho В корчму зашел какой-то мужик, и заказав кружку пива, сел за свободный столик.
 ~
 $~

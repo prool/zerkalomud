@@ -31,8 +31,8 @@ Skill: 4 70
 Skill: 134 70
 Skill: 136 96
 Skill: 150 100
-Helper: 35102
 Helper: 35104
+Helper: 35102
 E
 #35101
 лесомыка охотник~
@@ -128,8 +128,8 @@ Spell: 38
 Spell: 55
 Spell: 55
 Spell: 56
-Helper: 35104
 Helper: 35101
+Helper: 35104
 E
 T 35100
 #35103

@@ -25,6 +25,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Height: 198
 Weight: 160
 Special_Bitvector: 0 
 Skill: 22 80
@@ -62,6 +63,7 @@ Size: 30
 LikeWork: 100
 ExtraAttack: 3
 Class: 103
+Height: 198
 Weight: 120
 Special_Bitvector: 0 
 Skill: 136 80
@@ -98,6 +100,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Height: 198
 Weight: 155
 Special_Bitvector: 0 
 Skill: 136 90
@@ -132,6 +135,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 22 50
@@ -167,6 +171,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 22 50
@@ -220,6 +225,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Height: 198
 Weight: 155
 Special_Bitvector: 0 
 Skill: 136 90
@@ -257,6 +263,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 136 80
@@ -291,6 +298,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 103
+Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 136 80
@@ -324,6 +332,7 @@ Size: 56
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Height: 198
 Weight: 15
 Special_Bitvector: 0 
 Skill: 22 50
@@ -347,14 +356,14 @@ Spell: 78
 Spell: 110
 E
 #37709
-зомби разъяренный~
-разъяренный зомби~
-разъяренного зомби~
-разъяренному зомби~
-разъяренного зомби~
-разъяренным зомби~
-разъяренном зомби~
-Разъяренный зомби вылез из гроба!
+разъяренный мертвец~
+разъяренный мертвец~
+разъяренного мертвеца~
+разъяренному мертвецу~
+разъяренного мертвеца~
+разъяренным мертвецом~
+разъяренном мертвеце~
+Разъяренный мертвец вылез из гроба!
 ~
 Существо, подчиняющееся силам зла!
 ~
@@ -372,6 +381,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Height: 198
 Weight: 150
 Special_Bitvector: 0 
 Skill: 132 150
@@ -403,6 +413,7 @@ Size: 70
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
+Height: 198
 Weight: 180
 Special_Bitvector: 0 
 Skill: 136 80

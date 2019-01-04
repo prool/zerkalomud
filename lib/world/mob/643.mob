@@ -28,7 +28,7 @@ ExtraAttack: 1
 Class: 102
 Height: 175
 Weight: 85
-Special_Bitvector: a0b0c0d0j0b1c1 
+Special_Bitvector: j0b1c1 
 Skill: 4 50
 Skill: 131 120
 Skill: 136 75
@@ -73,7 +73,7 @@ ExtraAttack: 1
 Class: 102
 Height: 175
 Weight: 85
-Special_Bitvector: a0b0c0d0i0j0b1c1 
+Special_Bitvector: i0j0b1c1 
 Skill: 4 50
 Skill: 131 120
 Skill: 136 75
@@ -117,7 +117,7 @@ ExtraAttack: 1
 Class: 102
 Height: 175
 Weight: 85
-Special_Bitvector: a0b0c0d0i0j0b1c1 
+Special_Bitvector: i0j0b1c1 
 Skill: 4 50
 Skill: 131 120
 Skill: 136 75
@@ -174,7 +174,7 @@ Spell: 64
 E
 #64304
 конокрад~
-конокрад ~
+конокрад~
 конокрада~
 конокраду~
 конокрада~

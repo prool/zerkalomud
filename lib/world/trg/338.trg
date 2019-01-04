@@ -97,8 +97,8 @@ detach 33805 %piosik.id%
 помер знахарь 1~
 0 f 100
 ~
-if (%world.curobjs(524)% == 0) && (%random.5% == 1)
-  *mload obj 524
+if ((%world.curobjs(524)% < 1) && (%random.1000% <= 200))
+  mload obj 524
 end
 if %world.curobjs(33821)% < 2
   mload obj 33821
@@ -235,7 +235,7 @@ detach 33813 %rorikk.id%
 wait 6s
 msend %actor%  Воевода внимательно взглянул на вас.
 mechoaround %actor% Воевода одарил %actor.vname% взглядом.
-if (%world.curobjs(33800)% < 1) & (%random.15% == 1)
+if (%world.curobjs(33800)% < 1) && (%random.100% < 10)
   say Священник много говорил мне про тебя.
   say У меня есть к тебе поручение.
   say Необходимо срочно доставить святую хоругвь в полки.
@@ -245,7 +245,7 @@ if (%world.curobjs(33800)% < 1) & (%random.15% == 1)
   mload obj 33800
   дать хоруг %actor.name%
   detach 33814 %self.id%
-elseif ( %world.curobjs(3306)% < 1 ) & (%random.10%  == 1 )
+elseif ( %world.curobjs(3306)% < 1 ) && (%random.100%  < 11 )
   mload obj 3306
   say Священник много говорил мне про тебя.
   say И, я думаю, ты достоин доверия.
@@ -253,6 +253,7 @@ elseif ( %world.curobjs(3306)% < 1 ) & (%random.10%  == 1 )
   дать амул %actor.name%
   detach 33814 %self.id%
 end
+detach 33814 %self.id%
 ~
 #33815
 лоад священника у воеводы~
@@ -271,17 +272,26 @@ end
 лезеш в яму с медведем~
 2 c 0
 лезть пролезть залезть прыгнуть~
-if !(%arg.contains(яма)%) 
-  wsend       %actor% Куда это Вы хотите пролезть???
+if (!%arg.contains(плит)% && !%arg.contains(решет)%) 
+  wsend %actor% Куда это Вы хотите пролезть???
   return 0
   halt
 end
-wsend       %actor% Подняв решетку вы прыгнули в яму.
-wechoaround %actor% %actor.name% прыгнул%actor.g% в яму.
-wait 1s
-wsend %actor% .- Вы почувствовали запах гнили.
-wteleport %actor.name% 33884
-wat 33884 wechoaround %actor% Кто-то спрыгнул сюда сверху.
+if %arg.contains(решетк)%
+  wsend %actor% Подняв решетку вы прыгнули в яму.
+  wechoaround %actor% %actor.name% прыгнул%actor.g% в яму.
+  wait 1s
+  wsend %actor% .- Вы почувствовали запах гнили.
+  wteleport %actor.name% 33884
+  wechoaround %actor% Кто-то спрыгнул сюда сверху.
+else
+  wsend %actor% Отодвинув плиту вы прыгнули в яму.
+  wechoaround %actor% %actor.name% прыгнул%actor.g% в яму.
+  wait 1s
+  wsend %actor% .- Вы почувствовали запах гнили.
+  wteleport %actor.name% 33897
+  wechoaround %actor% Кто-то спрыгнул сюда сверху.
+end
 ~
 #33817
 вылезаеш из ямы с медведем~

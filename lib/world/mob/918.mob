@@ -10,10 +10,10 @@
 ~
 неопределен~
 d0f0g0l0m0n0o0p0x0b1 d0f0k0r0x0 -600 E
-43 -14 -12 1d1+15000 9d7+25
+40 -14 -12 1d1+15000 9d7+25
 90d90+5000 4500000
 8 8 1
-Saves: -58 -58 -58 -70
+Saves: -40 0 0 -70
 Resistances: 70 70 70 70 135 120 0
 Armour: 50
 CastSuccess: 55
@@ -32,7 +32,6 @@ Size: 100
 LikeWork: 30
 ExtraAttack: 5
 Class: 102
-Race: 100
 Height: 30
 Weight: 150
 Special_Bitvector: a0b0c0d0l0 
@@ -86,10 +85,10 @@ T 91820
 ~
 неопределен~
 d0f0g0l0m0n0o0p0x0b1 d0f0k0r0x0m1 -600 E
-42 -14 -10 1d1+17000 27d7+25
+40 -14 -10 1d1+17000 27d7+25
 90d90+3000 4000000
 8 8 1
-Saves: -54 -54 -54 -80
+Saves: -40 -10 -10 -80
 Resistances: 70 70 70 70 130 120 0
 Armour: 50
 CastSuccess: 40
@@ -106,7 +105,6 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 2
 Class: 102
-Race: 100
 Height: 30
 Weight: 150
 Special_Bitvector: l0 
@@ -238,7 +236,7 @@ T 91821
 ~
 неопределен~
 d0f0g0l0m0n0o0p0x0b1 d0f0k0r0x0m1 -600 E
-42 -14 -10 1d1+19000 27d7+90
+40 -14 -10 1d1+19000 27d7+90
 90d90+1000 4000000
 8 8 1
 Saves: -60 -60 -60 -60
@@ -257,7 +255,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 30
 Weight: 150
 Special_Bitvector: l0C3 
@@ -312,10 +309,10 @@ T 91822
 ~
 undefined~
 b0d0f0g0l0m0n0o0p0t0x0b1r1 d0f0h0k0r0x0m1 -600 E
-43 0 -10 30d30+9000 30d7+7
+40 0 -10 30d30+9000 30d7+7
 90d90+0 5000000
 8 8 2
-Saves: -58 -58 -58 -60
+Saves: 0 0 0 -60
 Resistances: 0 0 0 0 50 0 0
 Armour: 50
 AResist: 60
@@ -330,7 +327,6 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 102
-Race: 100
 Height: 30
 Weight: 150
 Special_Bitvector: a0b0c0d0l0u0 
@@ -353,10 +349,9 @@ I крылья,17:7
 ~
 undefined~
 b0d0f0g0l0m0n0o0p0x0b1 d0f0k0r0x0m1 -600 E
-36 0 -10 30d30+6000 25d7+17
+35 0 -10 30d30+6000 25d7+17
 0d0+0 1000000
 8 8 1
-Saves: -30 -30 -30 -30
 BareHandAttack: 8
 Str: 31
 Dex: 27
@@ -368,7 +363,6 @@ Size: 90
 LikeWork: 30
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: l0u0 
@@ -432,10 +426,9 @@ T 91809
 ~
 undefined~
 d0f0m0n0o0p0q0x0z0b1a2 d0f0k0x0p1 -600 E
-34 0 -5 0d0+6000 8d9+100
+37 0 -5 0d0+6000 8d9+100
 0d0+0 740000
 8 8 1
-Saves: -22 -22 -22 -22
 Resistances: 0 0 0 0 100 0 0
 Int: 25
 Wis: 24
@@ -443,7 +436,6 @@ Cha: 14
 Size: 50
 LikeWork: 30
 Class: 101
-Race: 100
 Height: 198
 Weight: 60
 Special_Bitvector: 0 
@@ -478,7 +470,7 @@ T 91810
 ~
 undefined~
 d0f0g0m0n0o0p0x0z0 d0f0k0m1 -600 E
-18 3 -6 0d0+450 9d9+11
+25 3 -6 0d0+450 9d9+11
 0d0+0 30000
 8 8 2
 Resistances: 0 0 0 0 60 0 0
@@ -489,7 +481,6 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 100
 Height: 30
 Weight: 50
 Special_Bitvector: p0 
@@ -509,7 +500,7 @@ I кости,14:7
 ~
 undefined~
 d0f0g0m0n0o0p0x0z0b1 d0f0k0x0m1 -600 E
-27 2 -6 7d7+1100 9d9+19
+28 2 -6 7d7+1100 9d9+19
 0d0+0 120000
 8 8 1
 Resistances: 0 0 0 0 65 0 0
@@ -521,7 +512,6 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 2
 Class: 101
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
@@ -547,7 +537,7 @@ E
 ~
 undefined~
 d0f0g0m0n0o0p0x0z0 d0f0k0m1 -600 E
-29 1 -7 7d7+3500 17d9+19
+31 1 -7 7d7+3500 17d9+19
 0d0+0 230000
 8 8 1
 Resistances: 0 0 0 0 70 0 0
@@ -561,7 +551,6 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
-Race: 100
 Height: 30
 Weight: 50
 Special_Bitvector: 0 
@@ -589,10 +578,9 @@ I зубы,17:7
 ~
 undefined~
 b0d0f0g0m0n0o0p0x0z0 d0f0k0m1 -600 E
-33 1 -7 7d7+5000 22d9+19
+34 1 -7 7d7+5000 22d9+19
 0d0+0 590000
 8 8 1
-Saves: -18 -18 -18 -18
 Resistances: 0 0 0 0 85 0 0
 BareHandAttack: 6
 Str: 21
@@ -604,7 +592,6 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 1
 Class: 101
-Race: 100
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -639,7 +626,6 @@ Size: 100
 LikeWork: 25
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

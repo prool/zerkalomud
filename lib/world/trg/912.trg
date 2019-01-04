@@ -15,7 +15,7 @@ if !%actor.rentable%
 end
 wait 1
 wsend %actor% Встав на корточки, Вы протиснулись в лаз...
-wechoaround %actor% %actor.name% встал%actor.g% на четвереньки и полез в лаз...
+wechoaround %actor% %actor.name% встал%actor.g% на четвереньки и полез%actor.q% в лаз...
 wteleport %actor% 91200
 wechoaround %actor% %actor.name% приполз%actor.q% с юга...
 ~
@@ -402,8 +402,8 @@ switch %actor.class%
     break
     *кузнец
     case 11
-      if    !%actor.skill(ярость)%
-        wskillturn %actor.name% ярость set
+      if !%actor.skill(железный ветер)%
+        wskillturn %actor.name% железный.ветер set
       elseif %actor.skill(перековать)% < %skl%
         wskilladd  %actor.name% перековать 5
       else

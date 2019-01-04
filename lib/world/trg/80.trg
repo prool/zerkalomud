@@ -57,7 +57,7 @@ give %gold% кун .%actor.name%
 #8003
 Доска на чердаке~
 2 c 1
-дернуть потянуть тянуть дергать~
+дернуть потянуть тянуть дергать оторвать~
 wait 1
 if !%arg.contains(доск)%
   wsend %actor% Тянем-потянем, вытянуть не можем...
@@ -67,6 +67,7 @@ end
 wsend %actor% Вы с силой потянули доску на себя и она отошла от стены.
 wechoaround %actor% ~~%actor.name% с силой потянул%actor.a% на себя одну из досок.
 wait 2
+attach 8009 %self.id%
 if ((%actor.level% > 10) || (%random.1000% <= 500))
   wsend %actor% Доска вырвалась из ваших рук и едва не прищемила вам пальцы!
   detach 8003 %self.id%
@@ -82,6 +83,7 @@ detach 8003 %self.id%
 ~
 calcuid cherdak 8084 room
 attach 8003 %cherdak.id%
+detach 8009 %cherdak.id%
 ~
 #8005
 Котяра агрит крыс~
@@ -154,5 +156,18 @@ end
 появ
 mforce %target.name% трепет
 mkill %target% 
+~
+#8009
+Фейл доски~
+2 c 1
+дернуть потянуть тянуть дергать оторвать~
+wait 1
+if !%arg.contains(доск)%
+  wsend %actor% Тянем-потянем, вытянуть не можем...
+  wsend %actor% Да оно и немудрено, коли сами не знаем чего тянем.
+  halt
+end
+wsend %actor% Доску плотно зажало бревно, и вы не смогли ее пошевелить.
+wsend %actor% Видать каши мало ели...
 ~
 $~

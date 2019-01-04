@@ -265,7 +265,8 @@ detach 30612 %self.id%
 подобрали ковчег~
 1 g 100
 ~
-if  (%actor.vnum% != -1)
+if  ((%actor.vnum% != -1) || (%actor.realroom% < 30600) || (%actor.realroom% > 30699))
+  osend %actor% Ковчег вспыхнул ярким светом, заставившим вас отдернуть руку.
   return 0
   halt                   
 end
@@ -294,15 +295,12 @@ say Ты нечист%actor.g%, %target.name%!
 say Как ты посмел%actor.g% притронуться к святыне!
 dg_cast 'длит оц' .%target.name%
 dg_cast 'гнев бог'.%target.name%
-kill .%target.name%
+mkill %target%
 ~
 #30615
 запинали ангела~
 0 f 100
 ~
-if %world.curobjs(3319)% < 1 && %world.curobjs(3320)% < 1 && %random.100% < 3
-  mload obj 3319
-end
 return 0
 mecho Небесный ангел грустно взглянул на Вас.
 if ((%random.12% == 5) && (%world.curobjs(30625)% < 1)) 
@@ -318,13 +316,6 @@ end
 ~
 mload obj 30624  
 mload obj 30626
-if %world.curobjs(1234)% < 1
-  if %world.curobjs(1235)% < 1
-    if %random.10000% < 50
-      mload obj 1234
-    end
-  end
-end
 ~
 #30617
 дали предмет игумену~

@@ -112,7 +112,7 @@ detach 30700 %vhod.id%
 if %questor307%
   halt
 end
-if %actor.level% < 10
+if ((%actor.level% < 10) || (%actor.vnum% != -1))
   msend %actor% _Лохматый Леший внимательно осмотрел Вас с ног до головы.
   говор Нет, боюсь не по силам тебе... съедят тебя муравьи...
   вздох
@@ -420,7 +420,7 @@ wait 1s
 mecho  С диким криком тля родила маленького мохнатого тленка. 
 mload mob 30703
 end   
-if %random.100% < 40
+if (%random.100% < 75)
   detach 30712 %self.id%
 end
 ~
@@ -833,7 +833,7 @@ if (%world.curobjs(1710)% < 1) && (%random.1000% <= 100)
   mload obj 1710
   mecho Леший вытащил откуда-то толстую замызганную книгу и протянул Вам.
   give трактат .%actor.name%
-elseif (%world.curobjs(404)% < 1) && (%random.1000% <= 200)
+elseif (%world.curobjs(404)% < 1) && (%random.1000% <= 451)
   mload obj 404
   mecho Леший вытащил откуда-то связку замызганых кусков бересты и протянул Вам.
   дать берест .%actor.name%
@@ -854,9 +854,11 @@ detach 30735 %self.id%
 ~
 #30736
 Убираем триг с толстой тли~
-0 n 50
+0 n 100
 ~
-detach 30707 %self.id%
-detach 30712 %self.id%
+if (%random.100% < 51)
+  detach 30707 %self.id%
+  detach 30712 %self.id%
+end
 ~
 $~

@@ -1,0 +1,605 @@
+#72400
+ оживший рудокоп~
+оживший рудокоп~
+ожившего рудокопа~
+ожившему рудокопу~
+ожившего рудокопа~
+ожившим рудокопом~
+ожившем рудокопе~
+Дамным-давно умерший рудокоп ищет живую плоть
+~
+Был он при жизни великим специалистом горного дела...
+~
+d0f0g0l0m0u2 d0f0k0s0a1 -600 E
+30 -3 -10 60d60+3000 8d8+5
+70d1+2 500000
+8 8 1
+Saves: -40 -30 -60 -70
+Resistances: 0 0 0 0 0 0 100
+Armour: 45
+PlusMem: 50
+CastSuccess: 50
+Success: 20
+BareHandAttack: 4
+Str: 35
+Dex: 10
+Int: 17
+Wis: 34
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 3
+Class: 101
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 134 100
+Skill: 160 100
+Spell: 4
+Spell: 4
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 74
+Spell: 74
+E
+T 72408
+#72401
+старатель~
+старатель~
+старателя~
+старателю~
+старателя~
+старателем~
+старателе~
+Ошалевший искатель драгоценностей шляется по пещере
+~
+Все что нашел - никому не отдаст!
+~
+d0f0l0m0t0 d0f0h0 -600 E
+30 -2 1 40d40+1300 0d0+80
+40d1+2 250000
+8 8 1
+Resistances: -200 0 0 0 0 0 55
+PlusMem: 150
+CastSuccess: 120
+Str: 26
+Dex: 10
+Int: 34
+Wis: 45
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 101
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: a0b0c0d0 
+Spell: 94
+Spell: 94
+Spell: 94
+E
+#72402
+ призрак мертвого рудокопа~
+призрак мертвого рудокопа~
+призрака мертвого рудокопа~
+призраку мертвого рудокопа~
+призрак мертвого рудокопа~
+призраком мертвого рудокопа~
+призраке мертвого рудокопа~
+Светлое облачко с человеческими чертами плавает по проходу
+~
+Ну призрак! Призрака никогда не видели?
+~
+d0f0l0m0z0 d0f0k0r0s0t0z0 -600 E
+30 -4 1 60d60+3000 8d8+50
+77d1+2 500000
+8 8 1
+Saves: -40 -30 -60 -70
+Armour: 40
+PlusMem: 50
+CastSuccess: 50
+Success: 100
+BareHandAttack: 11
+Str: 36
+Dex: 50
+Int: 17
+Wis: 17
+Con: 10
+Cha: 10
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 101
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 131 200
+Skill: 167 175
+Spell: 88
+E
+T 72409
+#72403
+ жирная серая крыса~
+жирная серая крыса~
+жирной серой крысы~
+жирной серой крысе~
+жирную серую крысу~
+жирной серой крысой~
+жирной серой крысе~
+Огромная крыса семенит вразвалку
+~
+Крыса! Просто в детстве хорошо кушала!
+~
+b0c0d0f0g0l0m0u2 d0e0f0k0s0A0C0a1m1p1t1 -600 E
+48 -6 -4 60d60+9000 8d8+50
+7d1+22 1800000
+8 8 2
+Saves: -140 -130 -160 -170
+Resistances: 120 120 120 120 150 150 200
+HPreg: 100
+Armour: 100
+PlusMem: 50
+CastSuccess: 150
+Success: 20
+Initiative: 30
+Absorbe: 100
+BareHandAttack: 4
+Str: 45
+Dex: 43
+Int: 46
+Wis: 48
+Con: 10
+Cha: 39
+Size: 100
+LikeWork: 100
+ExtraAttack: 5
+Class: 101
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: a0b0c0d0p0b1c1C3 
+Skill: 22 180
+Skill: 160 200
+Spell: 23
+Spell: 23
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+E
+T 72404
+T 72406
+#72404
+больная серая крыса~
+больная серая крыса~
+больной серой крысы~
+больной серой крысе~
+больную серую крысу~
+больной серой крысой~
+больной серой крысе~
+Больная крыса затравленно озирается по сторонам
+~
+Красные глаза - вот что отличает это существо от многих, подобных ему
+~
+b0d0f0g0l0m0 d0f0k0m0 -600 E
+30 -5 -10 60d60+3000 8d8+5
+70d1+2 500000
+8 8 2
+Saves: -40 -30 -60 -70
+Resistances: 0 0 0 0 0 0 100
+PlusMem: 50
+CastSuccess: 50
+Success: 20
+BareHandAttack: 4
+Str: 36
+Dex: 10
+Int: 17
+Wis: 17
+Con: 10
+Cha: 33
+Size: 100
+LikeWork: 100
+ExtraAttack: 2
+Class: 103
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 134 100
+E
+#72405
+ зеленый подколодный змей~
+зеленый подколодный змей~
+зеленого подколодного змея~
+зеленому подколодному змею~
+зеленый подколодный змея~
+зеленым подколодным змеем~
+зеленом подколодном змее~
+Большая гадина ползет мимо
+~
+Такой набор зубов - предмет зависти любого дантиста
+~
+d0f0l0m0b2 d0f0k0s0a1 -600 E
+30 -4 -10 60d60+3000 8d8+5
+70d1+2 500000
+8 8 1
+Saves: -40 -30 -60 -80
+Resistances: 0 0 0 0 0 0 120
+Armour: 45
+PlusMem: 50
+CastSuccess: 50
+Success: 20
+BareHandAttack: 4
+Str: 33
+Dex: 10
+Int: 20
+Wis: 30
+Con: 10
+Cha: 32
+Size: 100
+LikeWork: 100
+ExtraAttack: 1
+Class: 103
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 134 100
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+E
+T 72411
+#72406
+ медной жилы~
+дух медной жилы~
+духа медной жилы~
+духу медной жилы~
+дух медной жилы~
+духом медной жилы~
+духе медной жилы~
+Медно-зеленоватое  существо пролетает мимо
+~
+Вы когда нибудь видели медную жилу?
+А ее духа?
+~
+d0f0g0l0m0 d0f0k0s0a1 -600 E
+30 -6 -10 50d50+3000 8d8+5
+70d1+2 500000
+8 8 1
+Saves: -40 -30 -60 -80
+Armour: 70
+PlusMem: 100
+CastSuccess: 45
+Success: 20
+BareHandAttack: 8
+Str: 33
+Dex: 17
+Int: 17
+Wis: 17
+Con: 17
+Cha: 33
+Size: 100
+LikeWork: 100
+ExtraAttack: 2
+Class: 103
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Skill: 160 130
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 58
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+E
+T 72412
+#72407
+пещерный паук~
+пещерный паук~
+пещерного паука~
+пещерному пауку~
+пещерный паук~
+пещерным пауком~
+пещерном пауке~
+Паук пробегает мимо
+~
+Паук, живущий в пещере - обычно называется "пещерным пауком"
+~
+d0f0g0l0m0 d0e0f0a1e2 -600 E
+30 -7 -10 60d60+3000 8d8+40
+70d1+2 500000
+8 8 1
+Saves: -40 -30 -60 -70
+Resistances: 0 0 0 0 0 0 20
+HPreg: 20
+CastSuccess: 40
+Success: 20
+Initiative: 20
+BareHandAttack: 1
+Str: 33
+Dex: 25
+Int: 15
+Wis: 20
+Con: 32
+Cha: 36
+Size: 100
+LikeWork: 100
+ExtraAttack: 3
+Class: 103
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+Spell: 82
+Spell: 82
+E
+T 72413
+#72408
+ смотритель~
+смотритель~
+смотрителя~
+смотрителю~
+смотрителя~
+смотрителем~
+смотрителе~
+Смотритель проходит по выработками, проверяя порядок
+~
+Вы чувствуете разницу между терминами "смотрящий" и "смотритель"?
+~
+b0c0d0f0g0m0 c0d0f0k0a1q1 -600 E
+30 -4 0 60d60+9000 8d8+5
+70d1+2 1800000
+8 8 1
+Saves: -80 -80 -80 -100
+Resistances: 0 0 0 0 0 0 100
+HPreg: 10
+Armour: 50
+PlusMem: 50
+CastSuccess: 80
+Success: 10
+Initiative: 10
+Str: 33
+Dex: 10
+Int: 17
+Wis: 40
+Con: 10
+Cha: 33
+Size: 100
+LikeWork: 100
+ExtraAttack: 4
+Class: 100
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: j0 
+Skill: 4 130
+Spell: 28
+Spell: 28
+Spell: 36
+Spell: 67
+Spell: 67
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 152
+Spell: 152
+Spell: 152
+E
+T 72414
+#72409
+ наемник~
+наемник~
+наемника~
+наемнику~
+наемник~
+наемником~
+наемнике~
+Обычный мастер удара в спину
+~
+Он вам никого не напоминает?
+~
+b0d0B0o1 f0k0 0 E
+1 0 0 10d10+2 3d0+0
+0d0+0 0
+8 8 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 102
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+T 72402
+#72411
+ привратник~
+привратник~
+привратника~
+привратнику~
+привратник~
+привратником~
+привратнике~
+Стражник у ворот хитро прищурился
+~
+Подувная бестия.
+Разорил многих купцов.
+Характер скверный.
+Не женат.
+~
+b0d0e0g0p0q0x0u2 d0f0h0k0p1 -600 E
+40 -8 -4 200d30+5000 6d6+100
+0d0+0 1800000
+8 8 1
+Saves: -170 -160 -180 -170
+Resistances: -200 150 150 150 150 150 150
+HPreg: 100
+Armour: 100
+PlusMem: 100
+CastSuccess: 100
+Success: 100
+Initiative: 30
+Absorbe: 100
+Str: 45
+Dex: 30
+Int: 32
+Wis: 40
+Con: 10
+Cha: 45
+Size: 100
+LikeWork: 100
+ExtraAttack: 2
+Class: 105
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: b0 
+Feat: 3
+Skill: 22 180
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+E
+T 72400
+T 72401
+#72412
+ тверди~
+дух тверди~
+духа тверди~
+духу тверди~
+дух тверди~
+духом тверди~
+духе тверди~
+Дух тверди, торжествуя, глядит на Вас.
+~
+Чтол тверже всего на свете?
+Вы уверены?
+А теперь представьте, что у этого есть - дух!
+~
+b0d0B0 d0f0g0k0n1 600 E
+1 0 0 10d10+2 0d0+0
+0d0+0 0
+8 8 1
+Str: 10
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Cha: 10
+Size: 100
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: 0 
+E
+#72413
+ больная серая крыса~
+больная серая крыса~
+больной серой крысы~
+больной серой крысе~
+больную серую крысу~
+больной серой крысой~
+больной серой крысе~
+Огромная жирная крыса идет вразвалку
+~
+Крыса в детстве хорошо питалась, но тем не менее все равно заболела!
+~
+b0c0d0f0g0l0m0 d0f0k0s0z0C0a1m1q1 -600 E
+36 -6 -4 60d60+8000 8d8+50
+7d7+300 1200000
+8 8 2
+Saves: -140 -140 -160 -200
+Resistances: 120 120 120 120 200 200 200
+HPreg: 100
+Armour: 100
+PlusMem: 100
+CastSuccess: 130
+Success: 100
+Initiative: 32
+Absorbe: 100
+BareHandAttack: 4
+Str: 33
+Dex: 45
+Int: 17
+Wis: 45
+Con: 10
+Cha: 33
+Size: 100
+LikeWork: 100
+ExtraAttack: 3
+Class: 103
+Race: 100
+Height: 175
+Weight: 85
+Special_Bitvector: a0b0c0d0g0b1c1C3 
+Feat: 29
+Skill: 22 180
+Skill: 160 200
+Spell: 23
+Spell: 23
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+E
+$

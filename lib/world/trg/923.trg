@@ -22,6 +22,7 @@ detach 92300 %self.id%
 с осколка слетает ЗБ~
 0 kn 100
 ~
+halt
 eval wait %random.30%+20
 wait %wait%s
 mtransform 92313
@@ -244,17 +245,17 @@ foreach next %self.pc%
   dg_cast 'кислот' %next.name%
   dg_cast 'кислот' %next.name%
 done
-mecho Маические стрелы разлетелись во все стороны!   
+mecho Магические стрелы разлетелись во все стороны!   
 set target %random.pc%     
-dg_cast 'волш стрел' %target.name%
+dg_cast 'маг стрел' %target.name%
 set target %random.pc%     
-dg_cast 'волш стрел' %target.name%
+dg_cast 'маг стрел' %target.name%
 set target %random.pc%     
-dg_cast 'волш стрел' %target.name%
+dg_cast 'маг стрел' %target.name%
 set target %random.pc%     
-dg_cast 'волш стрел' %target.name%
+dg_cast 'маг стрел' %target.name%
 set target %random.pc%     
-dg_cast 'волш стрел' %target.name%
+dg_cast 'маг стрел' %target.name%
 wait 2s
 mecho Кувшин разлетелся на осколки обрызгав все остатками кислоты! 
 set i 0
@@ -578,14 +579,16 @@ attach 92320 %lada.id%
 ~
 if %object.vnum% != 92300
   return 0
+  halt
 end       
+wait 1
+mpurge %object%
 eval maxskl %actor.remort%*5+101
 if %maxskl% > 141
   set maxskl 141
 end
 wait 1s
 mecho Лада посмотрела на перышко, и бросила его в воду молочной реки.   
-mpurge %object%
 wait 2s
 mecho Три белых лебедушки спустились с небес и нырнули в молочную реку.
 wait 5s
@@ -599,6 +602,10 @@ wait 1s
 say Спасибо %actor.name%, что помог спасти дочерей моих.
 *НАГРАДА* 
 say В благодарность, получи этот дар от сына моего Перуна.
+if %actor.level% < 21
+  %actor.exp(+100000)%
+  detach 92320 %self.id%
+end
 wait 1s
 switch %actor.class%
   *маги и лекари
@@ -743,18 +750,18 @@ switch %actor.class%
             if !%actor.skill(оглушить)%
               mskillturn %actor.name% оглушить set
             end
-            if !%actor.skill(ярость)%       
-              mskillturn %actor.name% ярость set
+            if !%actor.skill(железный ветер)%
+              mskillturn %actor.name% железный.ветер set
             end
             if !%actor.skill(заточить)%             
               mskillturn %actor.name% заточить set
             end
             if %actor.skill(оглушить)% < %maxskl%
               mskilladd %actor.name% оглушить 10
-            elseif if %actor.skill(ярость)% < %maxskl%
-              mskilladd %actor.name% ярость 10
             elseif %actor.skill(пнуть)% < %maxskl%
               mskilladd %actor.name% пнуть 10 
+            elseif %actor.skill(железный)% < %maxskl%
+              mskilladd %actor.name% железный.ветер 10 
             end
           break                        
           *купец
@@ -799,13 +806,12 @@ switch %actor.class%
         wait 2s
         say А этот дар от дочерей моих.
         set i 0 
-        set staff 1266 1264 1256 1245 1243 1282 1284 92726 92718    
+        set staff 1253 1252 1245 1237 1236 1265 1266 92726 92718    
         while %i% < 4 
           set num %random.9%  
           set  j 1
           foreach prize %staff%
-            eval vnum %prize%+1        
-            if %j%==%num% && !%world.curobjs(%prize%)% && !%world.curobjs(%vnum%)%
+            if %j%==%num% && !%world.curobjs(%prize%)%
               mload obj %prize%
               дать все %actor.name% 
               wait 1s

@@ -91,7 +91,7 @@ if (%object.vnum% == 80319)
   detach 80302 %self.id%
   halt
 end
-if ((%object.vnum% == 80318) && !%exist.mob(80321)%)
+if ((%object.vnum% == 80318) && !%exist.mob(80312)%)
   wait 1
   mpurge %object%
   wait 2s
@@ -155,26 +155,18 @@ set quest803 %nil%
 worlds quest803
 set side803 %nil%
 worlds side803
-calcuid form_mb 80312 mob
-detach 80305 %form_mb.id%
-detach 80306 %form_mb.id%
-detach 80307 %form_mb.id%
-detach 80308 %form_mb.id%
-detach 80309 %form_mb.id%
-attach 80305 %form_mb.id%
-attach 80306 %form_mb.id%
-attach 80307 %form_mb.id% 
-attach 80309 %form_mb.id%
-calcuid form_mb 80300 mob
-detach 80300 %form_mb.id%
-detach 80301 %form_mb.id%
-detach 80302 %form_mb.id%
-detach 80303 %form_mb.id%
-detach 80310 %form_mb.id%
-attach 80300 %form_mb.id%
-attach 80301 %form_mb.id%
-attach 80302 %form_mb.id%
-attach 80310 %form_mb.id%
+calcuid strateg 80312 mob
+detach 80308 %strateg.id%
+attach 80305 %strateg.id%
+attach 80306 %strateg.id%
+attach 80307 %strateg.id% 
+attach 80309 %strateg.id%
+calcuid voevoda 80300 mob
+detach 80303 %voevoda.id%
+attach 80300 %voevoda.id%
+attach 80301 %voevoda.id%
+attach 80302 %voevoda.id%
+attach 80310 %voevoda.id%
 ~
 #80305
 Стратег дает маин квест_1~
@@ -325,9 +317,6 @@ mload obj 80318
 Смерть воеводы~
 0 f 100
 ~
-if %world.curobjs(3334)% < 1 && %world.curobjs(3335)% < 1  && %random.100% < 3
-  mload obj  3334
-end
 calcuid form_mb 80312 mob
 detach 80309 %form_mb.id%
 ~

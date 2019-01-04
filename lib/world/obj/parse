@@ -1,0 +1,2 @@
+#!/bin/sh
+pcregrep -f parse.set *.trg > 00sys_parse

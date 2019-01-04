@@ -1,4 +1,3 @@
-* BRusMUD mob file v1.0
 #100200
 взрослый кречет сокол большой~
 взрослый кречет~
@@ -11,29 +10,24 @@
 ~
 Очень большой сокол, его загнутый
 клюв приоткрыт, глаза красные.
-Похоже он чем-то сильно разгневан. 
+Похоже, он чем-то сильно разгневан.
 ~
-b0f0g0m0b1 d0k0r0x0z0C0 -600 E
-25 13 -5 20d20+1000 5d5+10
+b0d0f0g0m0b1 d0k0r0x0z0C0 -600 E
+29 13 -5 20d20+1000 5d5+10
 0d0+10 200000
 8 8 1
-BareHandAttack: 0
 Str: 18
-Int: 11
-Wis: 11
 Dex: 18
-Con: 11
-Cha: 11
+Size: 50
 LikeWork: 20
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 50
+Race: 100
 Height: 30
 Weight: 50
-Special_Bitvector: l0
-Spell: 15
+Special_Bitvector: l0 
 Skill: 4 100
+Spell: 15
 E
 #100201
 финист ясный сокол~
@@ -45,32 +39,31 @@ E
 Финисте ясном соколе~
 Огромный сокол бешено размахивает крыльями.
 ~
-Таких соколов еще ниразу не видели.
-Он действтельно огромен и в гневе
+Таких соколов Вы еще ни разу не видели.
+Он действительно огромен и в гневе
 своем подобен богам.
 ~
-b0f0g0b1 d0f0k0r0x0z0A0m1t1 -600 E
-30 15 -10 10d10+2100 5d10+5
+b0d0f0g0b1 d0f0k0r0x0z0A0m1t1 -600 E
+31 15 -10 10d10+2100 5d10+5
 5d10+20 350000
 8 8 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 8
 Str: 23
-Int: 16
-Wis: 11
 Dex: 23
+Int: 16
 Con: 17
-Cha: 11
+Size: 65
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 2
 Class: 103
-Size: 65
+Race: 100
 Height: 30
 Weight: 120
-Special_Bitvector: l0
-Spell: 28
+Special_Bitvector: l0 
 Skill: 12 120
 Skill: 137 100
+Spell: 28
 E
 #100202
 паук степной тарантул~
@@ -82,31 +75,25 @@ E
 степном тарантуле~
 Большой паук ползет по земле.
 ~
-Большуший ядовитый паук
+Большущий ядовитый паук
 Наверняка у такого крепкая паутина...
 ~
-f0g0 k0 -600 E
-25 9 -5 5d6+400 5d5+10
+d0f0g0 k0 -600 E
+27 9 -5 5d6+400 5d5+10
 1d1+10 120000
 8 8 1
 BareHandAttack: 4
-Str: 11
-Int: 11
-Wis: 11
 Dex: 15
-Con: 11
-Cha: 11
-LikeWork: 15
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 10
+LikeWork: 15
+Class: 103
+Race: 100
 Height: 30
 Weight: 50
-Special_Bitvector: g0m0
-Spell: 33
-Spell: 33
+Special_Bitvector: g0m0 
 Skill: 160 100
+Spell: 33
+Spell: 33
 E
 T 100208
 I глаза,5:5
@@ -122,28 +109,30 @@ I глаза,5:5
 ~
 Рожа разбойничья! Глаза раскосые! Косая сажень в плечах!
 ~
-g0 r0s0 -600 E
-26 11 -7 5d10+1600 5d10+15
+d0g0 r0s0 -600 E
+29 11 -7 5d10+25000 5d10+15
 1d1+25 200000
 8 8 1
+CastSuccess: 200
 BareHandAttack: 11
-Str: 11
-Int: 11
-Wis: 11
-Dex: 11
-Con: 11
-Cha: 11
+Str: 50
+Dex: 50
+Int: 50
+Wis: 50
+Con: 50
+Cha: 50
+Size: 10
 LikeWork: 35
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
+Race: 100
 Height: 30
 Weight: 50
-Special_Bitvector: i0a1b1c1
+Special_Bitvector: i0a1b1c1 
 Skill: 131 33
 Skill: 138 100
 E
+T 2140
 #100204
 злобный степняк потомок жужаней~
 злобный степняк~
@@ -156,25 +145,21 @@ E
 ~
 Глаза злющие, колючие. Так и сверлят Вас насквозь.
 ~
-g0 k0 -600 E
-25 14 -7 10d10+1600 5d10+20
+d0g0 k0 -600 E
+29 14 -7 10d10+1600 5d10+20
 1d1+25 200000
 8 8 1
 BareHandAttack: 7
 Str: 18
-Int: 11
-Wis: 11
 Dex: 18
-Con: 11
-Cha: 11
+Size: 10
 LikeWork: 35
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
+Race: 100
 Height: 30
 Weight: 50
-Special_Bitvector: B3
+Special_Bitvector: B3 
 Skill: 21 25
 E
 I кости,5:5
@@ -191,27 +176,23 @@ I кости,5:5
 Степной стрелок - хороший стрелок. Испытывать на себе остроту его зрения
 крайне не рекомендуется.
 ~
-g0m0 k0 -600 E
-25 19 -5 10d5+1000 5d5+12
+d0g0m0 k0 -600 E
+28 19 -5 10d5+1000 5d5+12
 1d1+20 180000
 8 8 1
 BareHandAttack: 9
 Destination: 100203
 Destination: 100204
 Destination: 100212
-Str: 11
-Int: 11
-Wis: 11
 Dex: 18
-Con: 11
-Cha: 11
+Size: 10
 LikeWork: 10
-MaxFactor: 0
 ExtraAttack: 2
 Class: 102
-Size: 10
+Race: 100
 Height: 30
 Weight: 50
+Special_Bitvector: 0 
 Skill: 154 100
 Skill: 155 120
 Skill: 160 100
@@ -228,58 +209,50 @@ E
 ~
 Отличный всадник. Такого в степи догонит только стрела!
 ~
-g0m0 r0A0 -600 E
-25 15 -6 5d10+1000 6d10+18
+d0g0m0 r0A0 -600 E
+28 15 -6 5d10+1000 6d10+18
 1d1+30 190000
 8 8 1
-BareHandAttack: 0
 Str: 18
-Int: 11
-Wis: 11
 Dex: 18
-Con: 11
-Cha: 11
+Size: 10
 LikeWork: 35
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
+Race: 100
 Height: 30
 Weight: 50
-Special_Bitvector: C3
-Skill: 132 100
+Special_Bitvector: C3 
 Skill: 22 120
+Skill: 132 100
 E
 #100207
 хан тирах~
-Хан-Тирах~
-Хана-Тираха~
-Хану-Тираху~
-Хана-Тираха~
-Ханом-Тирахом~
-Хане-Тирахе~
-Печенежский хан - Тирах восидает посреди шатра.
+хан Тирах~
+хана Тираха~
+хану Тираху~
+хана Тираха~
+ханом Тирахом~
+хане Тирахе~
+Печенежский хан - Тирах восседает посреди шатра.
 ~
 Он Солнце и Луна в степи! Мудрец умудренный мудростью мудрых!
 ~
-b0g0l0n0 r0A0 -600 E
-35 20 -10 10d10+2500 10d10+10
+b0d0g0l0n0 r0A0 -600 E
+31 20 -10 10d10+2500 10d10+10
 5d10+40 330000
 6 6 1
+Saves: -10 -10 -10 -10
 BareHandAttack: 6
 Str: 18
-Int: 11
-Wis: 11
 Dex: 18
 Con: 18
-Cha: 11
-LikeWork: 0
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 10
+Class: 102
+Race: 100
 Height: 30
 Weight: 50
+Special_Bitvector: 0 
 Skill: 132 120
 E
 T 100200
@@ -294,26 +267,23 @@ T 100212
 печенеге-страже~
 Элитный богатырь хана не пропускает никого без особого разрешения.
 ~
-Личный телохранитель великого Хана. Спокойный и уверенный в себе.
+Личный телохранитель великого хана. Спокойный и уверенный в себе.
 ~
-b0g0m0 k0 -600 E
-25 14 -6 5d5+1000 10d5+10
+b0d0g0m0 k0 -600 E
+28 14 -6 5d5+1000 10d5+10
 1d1+20 150000
 8 8 1
 BareHandAttack: 10
 Str: 18
-Int: 11
-Wis: 11
 Dex: 18
-Con: 11
-Cha: 11
+Size: 10
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
-Size: 10
+Race: 100
 Height: 30
 Weight: 50
+Special_Bitvector: 0 
 Skill: 137 120
 E
 #100209
@@ -328,25 +298,20 @@ E
 ~
 Степной конек, с длинной мордой.
 ~
-b0g0s0 f0z0 -600 E
-22 9 -4 5d5+500 5d5+4
+b0d0g0s0 f0z0 -600 E
+25 9 -4 5d5+500 5d5+4
 1d1+1 100000
 8 8 1
 BareHandAttack: 13
-Str: 11
-Int: 11
-Wis: 11
 Dex: 18
-Con: 11
-Cha: 11
+Size: 60
 LikeWork: 30
-MaxFactor: 0
 ExtraAttack: 1
 Class: 103
-Size: 60
+Race: 100
 Height: 30
 Weight: 150
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 5 15
 E
 I кости,5:5
@@ -362,28 +327,22 @@ I кости,5:5
 ~
 Степная антилопа. Не так грациозна, но зато сильна и вынослива!
 ~
-g0 0 -600 E
-24 10 -4 4d8+500 5d3+4
+d0g0 0 -600 E
+25 10 -4 4d8+500 5d3+4
 1d1+2 100000
 8 8 1
 BareHandAttack: 14
 Destination: 100245
 Destination: 100244
 Destination: 100242
-Str: 11
-Int: 11
-Wis: 11
 Dex: 17
-Con: 11
-Cha: 11
-LikeWork: 15
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 50
+LikeWork: 15
+Class: 103
+Race: 100
 Height: 30
 Weight: 100
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 131 30
 E
 I копыта,10:5
@@ -399,25 +358,19 @@ I копыта,10:5
 ~
 Степная антилопа. Не так грациозна, но зато сильна и вынослива!
 ~
-g0m0 0 -600 E
-22 5 -3 2d2+500 3d3+8
+d0g0m0 0 -600 E
+25 5 -3 2d2+500 3d3+8
 0d0+2 102000
 8 8 2
 BareHandAttack: 13
-Str: 11
-Int: 11
-Wis: 11
 Dex: 14
-Con: 11
-Cha: 11
-LikeWork: 15
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 45
+LikeWork: 15
+Class: 103
+Race: 100
 Height: 30
 Weight: 80
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 5 25
 E
 #100212
@@ -432,24 +385,19 @@ E
 ~
 Красивая хищная птица.
 ~
-g0b1 k0r0x0 -600 E
-21 4 -2 2d2+350 2d2+5
+d0g0b1 k0r0x0 -600 E
+25 4 -2 2d2+350 2d2+5
 1d1+10 95000
 8 8 1
 BareHandAttack: 2
-Str: 11
-Int: 11
-Wis: 11
 Dex: 14
-Con: 11
-Cha: 11
-LikeWork: 15
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 45
+LikeWork: 15
+Class: 103
+Race: 100
 Height: 30
 Weight: 50
+Special_Bitvector: 0 
 Skill: 157 100
 E
 I крылья,10:5
@@ -465,25 +413,19 @@ I крылья,10:5
 ~
 Красивый и сильный зверь. Достойный противник для охотничьей схватки!
 ~
-g0m0x0e1 k0 -600 E
-24 4 -4 2d2+750 5d5+3
+d0g0m0x0e1 k0 -600 E
+25 4 -4 2d2+750 5d5+3
 1d1+2 101000
 8 8 2
 BareHandAttack: 4
-Str: 11
-Int: 11
-Wis: 11
 Dex: 18
-Con: 11
-Cha: 11
-LikeWork: 14
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 50
+LikeWork: 14
+Class: 103
+Race: 100
 Height: 30
 Weight: 80
-Special_Bitvector: p0
+Special_Bitvector: p0 
 Skill: 132 100
 E
 I шерсть,10:5
@@ -494,30 +436,24 @@ I шерсть,10:5
 волчонку~
 волчонка~
 волчонком~
-волчоноке~
+волчонке~
 Маленький волчонок прячется за маму-волчиху.
 ~
-Щенок-волченок. Пушистый комочек серебристого меха.
+Щенок-волчонок. Пушистый комочек серебристого меха.
 ~
-g0h0m0l1m1 0 -600 E
-15 2 -2 2d3+120 2d2+2
+d0g0h0m0l1m1 0 -600 E
+22 2 -2 2d3+120 2d2+2
 1d1+1 61000
 8 8 1
 BareHandAttack: 8
-Str: 11
-Int: 11
-Wis: 11
 Dex: 17
-Con: 11
-Cha: 11
-LikeWork: 30
-MaxFactor: 0
-ExtraAttack: 0
-Class: 103
 Size: 30
+LikeWork: 30
+Class: 103
+Race: 100
 Height: 30
 Weight: 50
-Special_Bitvector: n0
+Special_Bitvector: n0 
 Skill: 150 50
 E
 I зубы,5:3
@@ -529,29 +465,22 @@ I зубы,5:3
 печенежскую красу~
 печенежской красой~
 печенежской красе~
-Молодая полуголая печенежская краса стоит потупив взгляд.
+Молодая полуголая печенежская краса стоит, потупив взгляд.
 ~
-Ну баба как баба! Что уставился? Голой бабы не видел?
+Ну, баба как баба! Что уставился? Голой бабы не видел?
 ~
-b0g0 0 600 E
-26 15 -10 3d3+1000 2d2+5
+b0d0g0 0 600 E
+1 15 -10 3d3+1000 2d2+5
 1d1+100 1
 8 8 2
 BareHandAttack: 8
-Str: 11
-Int: 11
-Wis: 11
-Dex: 11
-Con: 11
-Cha: 11
-LikeWork: 15
-MaxFactor: 0
-ExtraAttack: 0
-Class: 102
 Size: 10
+LikeWork: 15
+Class: 102
+Race: 100
 Height: 30
 Weight: 50
+Special_Bitvector: 0 
 Spell: 68
 E
-$
 $

@@ -321,7 +321,7 @@ d0g0 0 0 E
 2 18 8 0d0+35 1d4+0
 0d0+0 75
 8 8 1
-BareHandAttack: 4
+BareHandAttack: 16
 Str: 3
 Dex: 10
 Int: 3

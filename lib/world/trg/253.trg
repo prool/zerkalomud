@@ -219,7 +219,7 @@ done
 if %actor.clan% != дзп
   halt
 end
-if %actor.clanrank% < 2
+if %actor.clanrank% >= 2
   halt
 end
 wait 1
@@ -320,7 +320,7 @@ if %actor.clan% != дзп
   послать %actor.name%
   halt
 end
-if %actor.clanrank% < 9
+if %actor.clanrank% > 0
   хмур %actor.name%
   halt
 end
@@ -371,13 +371,13 @@ if %arg.cdr% == разрушить
 if %actor.vnum% != -1
   halt
 end
-if (%actor.clan% == дзп ) && (%actor.clanrank% == 9 )
+if (%actor.clan% == дзп ) && (%actor.clanrank% == 0 )
   oecho Знак мягко засветился синим светом.
   set owner %victim%
   global owner
   halt
 end
-if (%victim.clan% != дзп ) || (%victim.clanrank% < 9 )
+if (%victim.clan% != дзп ) || (%victim.clanrank% > 0 )
   osend %actor% Знак вдруг вспыхнул синим огнем!
   return 0
   halt
@@ -409,7 +409,7 @@ if %actor.clan% != дзп
   return 0
   halt
 end
-if ( %actor% != %owner% ) && (%actor.clanrank% < 9 )
+if ( %actor% != %owner% ) && (%actor.clanrank% > 0 )
   osend %actor% Знак полыхнул нестерпимым синим светом!
   return 0
   halt
@@ -438,6 +438,55 @@ say Ты еще кто такой?!
 msend %actor% Несколько здоровенных гридней выставили вас вон.
 mteleport %actor% 25300 horse
 mecho Несколько здоровенных гридней выставили %actor.vname% вон.
+~
+#25322
+Триг резиновой бабы~
+0 qt 100
+~
+wait 1
+set igva Игвовед
+if (%igva.realroom% != %self.realroom%)
+  halt
+end
+восторг
+wait 2
+switch %random.6%
+  case 1
+    ласк .ивгвов
+  break
+  case 2
+    любовь .игвове
+  break
+  case 3
+    say О, мой кумир! Мой Гуру! Мой сэнсей! Мой.. мой... Мойдодоры!
+    восторг .игвовед
+  break
+  case 4
+    петь .игвовед
+  break
+  case 5
+    щип .игвовед
+  break
+  case 6
+    say ООоо! Игвоведушка! Иди же ко мне мая лубоффьь!
+  break
+done
+follow .Игвовед
+~
+#25323
+Баба пуржится~
+0 b 10
+~
+set igva Игвовед
+if ((%self.realroom% != %igva.realroom%) && (%self.realroom% > 25399) && (%self.realroom% < 25300))
+  искать
+  рыд
+  say Пропаал-потерялся мой Игвоведушко! Пойду искать...
+  рыд
+  : поспешно удалилась
+  wait 1
+  mpurge %self%
+end
 ~
 #25385
 Пугалка~

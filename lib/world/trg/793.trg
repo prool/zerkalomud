@@ -82,7 +82,9 @@ if !(%arg.contains(яма)%)
    halt
 else
 wait 1
-wteleport %actor.name% 79306
+wsend %actor% Ловко извернувшись, Вы проскользнули в черную дыру.
+wechoaround %actor% Причудливо скривившись, %actor.name% проскользнул%actor.g% в черную дыру.
+wteleport %actor% 79306
 end
 
 
@@ -126,6 +128,7 @@ calcuid room5 79303 room
 calcuid room6 79305 room
 detach 79303 %room5.id%
 detach 79303 %room6.id%
+detach 79329 %room6.id%
 attach 79306 %room5.id%
 attach 79306 %room6.id%
 end
@@ -372,10 +375,10 @@ wait 5
 say Кроме того, ты заслужил награду.
 wait 5
 eval rand %random.100%
-if (%rand% < 30) & (%world.curobjs(79310)% < 3)
+if (%rand% < 30) && (%world.curobjs(79310)% < 3)
 mload obj 79310
 дать символ %actor.name%
-elseif (%rand% < 25) & (%world.curobjs(79311)% < 2)
+elseif ((30 <= %rand%) && (%rand% < 60) && (%world.curobjs(79311)% < 2))
 mload obj 79311
 дать стилет %actor.name%
 else
@@ -406,7 +409,7 @@ calcuid room6 79305 room
 detach 79306 %room5.id%
 detach 79306 %room6.id%
 attach 79303 %room5.id%
-attach 79303 %room6.id%
+attach 79329 %room6.id%
 
 
 ~
@@ -463,6 +466,27 @@ end
 if (%world.curobjs(79313)% < 2) && (%random.1000% <= 50)
    mload obj 79313
 end
+
+
+~
+#79329
+лезтьяма~
+2 c0 1
+пролезть~
+if !(%arg.contains(яма)%) 
+   wsend %actor% Куда это Вы хотите пролезть?
+   return 1
+   halt
+else
+wait 1
+wsend %actor% Ловко извернувшись, Вы проскользнули в черную дыру.
+wechoaround %actor% Причудливо скривившись, %actor.name% проскользнул%actor.g% в черную дыру.
+wteleport %actor% 79309
+end
+
+
+
+
 
 
 ~

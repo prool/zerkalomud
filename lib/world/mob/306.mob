@@ -584,10 +584,12 @@ b0d0g0m0n0w0A0 d0f0h0k0 0 E
 33 3 -5 10d10+3200 5d6+5
 50d50+50 710000
 8 8 1
+CastSuccess: 60
+AResist: 10
 Str: 27
 Dex: 21
 Int: 26
-Wis: 29
+Wis: 32
 Con: 24
 Cha: 13
 Size: 100
@@ -619,7 +621,6 @@ E
 T 30603
 T 30604
 T 30618
-T 30626
 L 30619 100 0 0
 #30614
 старший архидьякон~
@@ -1977,7 +1978,7 @@ E
 богатыри-монахи, далеко слава о них идет.
 ~
 b0d0g0l0m0n0o0w0A0 d0f0k0t1 0 E
-30 1 -8 10d50+2900 7d8+8
+30 -3 -8 10d50+2900 7d8+8
 20d30+50 200000
 8 8 1
 Str: 32
@@ -1993,12 +1994,12 @@ Class: 102
 Height: 175
 Weight: 85
 Special_Bitvector: b1c1 
+Feat: 1
+Feat: 29
 Skill: 4 100
 Skill: 5 40
 Skill: 136 90
 Skill: 137 120
-Skill: 151 80
-Skill: 165 100
 Spell: 75
 Spell: 75
 Spell: 75

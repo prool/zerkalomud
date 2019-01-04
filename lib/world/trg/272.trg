@@ -57,10 +57,11 @@ if %object.vnum% != 27202
 end
 wait 1
 mpurge %object%
+eval minlevel  24-%actor.remort%
 say Спасибо %actor.name%, попробую отблагодарить тебя.
 * друж
 if (%actor.class% == 5) && (!%actor.skill(веерная защита)%)
-  if (%actor.level%>=24)
+  if (%actor.level%>=%minlevel%)
     mecho 
     wait 1
     msend %actor% Я передам тебе свои умения.
@@ -77,7 +78,7 @@ if (%actor.class% == 5) && (!%actor.skill(веерная защита)%)
 end
 * витязь
 if (%actor.class% == 9) && (!%actor.spelltype(освящение)%)
-  if (%actor.level%>24)
+  if (%actor.level%>=%minlevel%)
     mecho 
     wait 1
     msend %actor% Я передам тебе свои знания.
@@ -94,7 +95,7 @@ if (%actor.class% == 9) && (!%actor.spelltype(освящение)%)
 end
 * купец
 if (%actor.class% == 12) && (!%actor.spelltype(длительное оцепенение)%)
-  if (%actor.level%>24)
+  if (%actor.level%>=%minlevel%)
     mecho 
     wait 1
     msend %actor% Я передам тебе свои знания.
@@ -107,23 +108,6 @@ if (%actor.class% == 12) && (!%actor.spelltype(длительное оцепенение)%)
     msend %actor% Старик посмотрел на Вас.
     mechoaround %actor% Старик посмотрел на %actor.vname%.
     msend %actor% Ты еще мал чтобы получить данное умение, но я отблагодарю тебя.
-  end
-end
-* волхв
-if (%actor.class% == 13)
-  if (%world.curobjs(211)% < 50) && (%random.3% == 3)
-    mecho Вот, возьми. Думаю тебе сгодится.
-    wait 1
-    msend %actor% .
-    mload obj 211
-    дать рун %actor.name%
-    wait 1
-    msend %actor% Называется это руна покоя. Вещь ценная, но мне она не к чему.
-    halt
-  else
-    msend %actor% Старик посмотрел на Вас.
-    mechoaround %actor% Старик посмотрел на %actor.vname%.
-    msend %actor% Ничего сейчас для волхва ценного у меня нет, но я все равно отблагодарю тебя.
   end
 end
 if (%world.curobjs(27208)%<4) && (%random.3%==1)

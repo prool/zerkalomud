@@ -330,7 +330,7 @@ if !(%cmd.mudcommand% == колдовать) || !(%cmd.mudcommand% == cast) || !(%cmd.mud
 end
 if %random.100% < 75
   отступить
-  bash %actor.name%
+  mkill %actor%
 end
 ~
 #80411

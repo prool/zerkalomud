@@ -606,7 +606,7 @@ if ((%time.month% > 11) || (%time.month% < 3))
   mechoaround %actor% _%actor.name% разбил %actor.g% лед, покрывающий поверхность ручья.
 end
 msend %actor% _Вы напоили лесное чудо-юдо.
-mechoaround %actor% _%actor.name% напоил лесное%actor.g% чудо-юдо.
+mechoaround %actor% _%actor.name% напоил%actor.g% лесное чудо-юдо.
 say Вот спасибо!
 улы
 say Прям-таки всем спасибам спасибо...
@@ -710,9 +710,7 @@ wportal 63765 2
 load set on master of clouds~
 0 f 100
 ~
-if %world.curobjs(3338)% < 1 & %world.curobjs(3339)% < 1 & %random.100% < 9
-  mload obj 3338
-end
+mload obj 63733
 ~
 #63740
 load set on great sevenwings~

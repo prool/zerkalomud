@@ -12,25 +12,24 @@
 вред противнику, хотя, разумеется, уступит по силе волку и медведю.
 ~
 b0d0o0 f0k0 0 E
-25 10 5 0d0+350 3d4+3
+25 7 0 0d0+500 3d4+5
 0d0+0 0
 8 8 1
 BareHandAttack: 4
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
+Str: 20
+Dex: 20
+Int: 20
+Wis: 20
+Con: 20
+Cha: 20
 Size: 50
 LikeWork: 20
 ExtraAttack: 1
 Class: 103
-Race: 100
 Height: 50
 Weight: 50
 Special_Bitvector: p0 
-Skill: 136 60
+Skill: 136 80
 E
 T 1159
 #1101
@@ -59,7 +58,6 @@ Con: 20
 Cha: 20
 Size: 60
 Class: 103
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: p0 
@@ -78,25 +76,24 @@ E
    Огромный косолапый мишка без труда справится с волком или псом, просто задавив его массой.
 ~
 b0d0 f0k0 0 E
-28 5 1 0d0+800 6d10+11
+28 2 0 0d0+800 6d10+11
 0d0+0 0
 8 8 1
 BareHandAttack: 6
-Str: 26
-Dex: 26
-Int: 26
-Wis: 26
-Con: 26
-Cha: 26
+Str: 28
+Dex: 28
+Int: 28
+Wis: 28
+Con: 28
+Cha: 28
 Size: 70
 LikeWork: 60
 ExtraAttack: 1
 Class: 103
-Race: 100
 Height: 70
 Weight: 70
 Special_Bitvector: 0 
-Skill: 136 80
+Skill: 136 100
 E
 #1103
 молодой парнишка~
@@ -113,26 +110,25 @@ E
 за себя он сумеет.
 ~
 b0d0g0o0 d0k0 0 E
-25 10 5 0d0+500 3d3+3
+25 7 0 0d0+500 3d3+5
 0d0+0 0
 8 8 1
-Str: 18
-Dex: 18
-Int: 18
-Wis: 18
-Con: 18
-Cha: 18
+Str: 20
+Dex: 20
+Int: 20
+Wis: 20
+Con: 20
+Cha: 20
 Size: 50
 LikeWork: 20
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 50
 Weight: 50
 Special_Bitvector: y0b1c1 
-Skill: 136 60
-Skill: 137 60
-Skill: 146 60
+Skill: 136 80
+Skill: 137 80
+Skill: 146 80
 E
 T 1113
 #1104
@@ -149,26 +145,25 @@ T 1113
 мальчишку, но уступит в честном бою воеводе мудрому.
 ~
 b0d0g0o0 d0k0 0 E
-26 13 3 0d0+600 4d4+4
+26 5 -2 0d0+600 4d4+10
 0d0+0 0
 8 8 1
-Str: 22
-Dex: 22
-Int: 22
-Wis: 22
-Con: 22
-Cha: 22
+Str: 24
+Dex: 24
+Int: 24
+Wis: 24
+Con: 24
+Cha: 24
 Size: 60
 LikeWork: 40
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 60
 Weight: 60
 Special_Bitvector: y0b1c1 
-Skill: 136 70
-Skill: 137 70
-Skill: 146 70
+Skill: 136 90
+Skill: 137 90
+Skill: 146 90
 E
 T 1113
 #1105
@@ -186,26 +181,25 @@ T 1113
 он Вам недешево!
 ~
 b0d0g0o0 d0k0 0 E
-28 5 1 0d0+800 8d10+11
+28 2 0 0d0+800 8d10+11
 0d0+0 0
 8 8 1
-Str: 26
-Dex: 26
-Int: 26
-Wis: 26
-Con: 26
-Cha: 26
+Str: 28
+Dex: 28
+Int: 28
+Wis: 28
+Con: 28
+Cha: 28
 Size: 70
 LikeWork: 60
 ExtraAttack: 1
 Class: 102
-Race: 100
 Height: 70
 Weight: 70
 Special_Bitvector: y0b1c1 
-Skill: 136 80
-Skill: 137 80
-Skill: 146 80
+Skill: 136 100
+Skill: 137 100
+Skill: 146 100
 E
 T 1113
 #1106
@@ -222,10 +216,9 @@ T 1113
 взмахами маленьких крыльев и не очень то музыкальным чириканьем :)
 ~
 b0d0l0n0o0p0q0r0t0u0x0y0b1 d0f0x0 0 E
-36 0 10 50d50+5000 30d50+50
-0d0+0 1000000
+40 0 10 50d50+5000 30d50+50
+0d0+0 0
 8 8 2
-Saves: -30 -30 -30 -30
 BareHandAttack: 2
 Str: 30
 Dex: 30
@@ -237,15 +230,12 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 10
 Class: 101
-Race: 100
 Height: 198
 Weight: 150
-Special_Bitvector: l0y0b1c1 
+Special_Bitvector: l0 
 Skill: 21 200
 Skill: 132 200
 Skill: 136 200
-Skill: 154 200
-Skill: 155 200
 E
 T 1108
 #1107
@@ -262,25 +252,24 @@ T 1108
 вряд ли выстоит против медведя. Но зато заставить его служить Вам намного проще.
 ~
 b0d0 f0k0 0 E
-26 13 3 0d0+550 4d4+4
+26 5 -2 0d0+600 4d4+10
 0d0+0 0
 8 8 1
 BareHandAttack: 4
-Str: 22
-Dex: 22
-Int: 22
-Wis: 22
-Con: 22
-Cha: 22
+Str: 24
+Dex: 24
+Int: 24
+Wis: 24
+Con: 24
+Cha: 24
 Size: 60
 LikeWork: 40
 ExtraAttack: 1
 Class: 103
-Race: 100
 Height: 60
 Weight: 60
 Special_Bitvector: p0 
-Skill: 136 70
+Skill: 136 90
 E
 #1108
 большая зеленая собака~
@@ -307,7 +296,6 @@ Con: 3
 Cha: 3
 Size: 30
 Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
@@ -340,7 +328,6 @@ Cha: 3
 Size: 60
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: p0b1c1d1 
@@ -481,7 +468,7 @@ Spell: 119
 Spell: 119
 E
 #1110
-боевой.маг~
+боевой маг~
 Боевой маг~
 Боевого мага~
 Боевому магу~
@@ -493,7 +480,7 @@ E
 Человек с уверенным взглядом и усмешкой на губах.
 ~
 b0d0b1 d0f0k0z0m1r1 0 E
-27 14 -5 1d100+200 1d1+0
+50 14 -5 1d100+200 1d1+0
 0d0+60 120000
 8 8 1
 BareHandAttack: 2
@@ -506,7 +493,6 @@ Cha: 16
 Size: 50
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1c1 
@@ -573,10 +559,9 @@ T 101
 Некогда благороднейший воин теперь на стороне злой силы.
 ~
 c0d0f0m0n0o0q0x0A0q1r1g2 d0f0h0k0z0m1w1 -1 E
-39 -30 -10 6d5+4600 7d10+30
-0d0+1300 2000000
+50 -30 -10 6d5+4600 7d10+30
+0d0+1300 0
 8 8 1
-Saves: -42 -42 -42 -42
 BareHandAttack: 10
 Str: 35
 Dex: 35
@@ -587,7 +572,6 @@ Cha: 35
 Size: 100
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: b1c1 
@@ -639,7 +623,6 @@ Cha: 3
 Size: 50
 LikeWork: 100
 Class: 102
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -670,7 +653,6 @@ Cha: 3
 Size: 50
 LikeWork: 100
 Class: 102
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -701,7 +683,6 @@ Cha: 3
 Size: 50
 LikeWork: 100
 Class: 102
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -721,10 +702,9 @@ E
 быстро и без труда выбирая подходящие Вам вещи.
 ~
 b0d0n0o0p0q0r0t0u0x0y0 d0f0 0 E
-36 0 10 50d50+5000 30d50+50
-0d0+0 1000000
+30 0 10 50d50+5000 30d50+50
+0d0+0 0
 8 8 1
-Saves: -30 -30 -30 -30
 Str: 30
 Dex: 30
 Int: 30
@@ -735,7 +715,6 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -760,10 +739,9 @@ T 1189
 экспериментом, раз так спешит.
 ~
 b0d0n0o0p0q0r0t0u0x0y0 d0f0 0 E
-36 0 10 50d50+5000 30d50+50
-0d0+0 1000000
+30 0 10 50d50+5000 30d50+50
+0d0+0 0
 8 8 1
-Saves: -30 -30 -30 -30
 Str: 30
 Dex: 30
 Int: 30
@@ -774,7 +752,6 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -797,10 +774,9 @@ T 1103
 фруктами с подноса.
 ~
 b0d0n0o0p0q0r0t0u0x0y0 d0f0 0 E
-36 0 10 50d50+5000 30d50+50
-0d0+0 1000000
+30 0 10 50d50+5000 30d50+50
+0d0+0 0
 8 8 2
-Saves: -30 -30 -30 -30
 Str: 30
 Dex: 30
 Int: 30
@@ -811,7 +787,6 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -835,10 +810,9 @@ T 1106
 мысли.
 ~
 b0d0n0o0p0q0r0t0u0x0y0 d0f0 0 E
-36 0 10 50d50+5000 30d50+50
-0d0+0 1000000
+30 0 10 50d50+5000 30d50+50
+0d0+0 0
 8 8 1
-Saves: -30 -30 -30 -30
 Str: 30
 Dex: 30
 Int: 30
@@ -849,7 +823,6 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -883,7 +856,6 @@ Cha: 3
 Size: 50
 LikeWork: 100
 Class: 102
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -915,7 +887,6 @@ Cha: 3
 Size: 50
 LikeWork: 100
 Class: 102
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -938,10 +909,9 @@ T 1114
 и кляксы.
 ~
 b0d0n0o0p0q0r0t0u0x0y0 d0f0k0 0 E
-36 0 10 50d50+5000 30d50+50
-0d0+0 1000000
+30 0 10 50d50+5000 30d50+50
+0d0+0 0
 8 8 1
-Saves: -30 -30 -30 -30
 Str: 30
 Dex: 30
 Int: 30
@@ -952,7 +922,6 @@ Size: 80
 LikeWork: 100
 ExtraAttack: 1
 Class: 101
-Race: 100
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -982,7 +951,6 @@ Saves: 50 50 50 50
 BareHandAttack: 1
 Size: 100
 Class: 103
-Race: 100
 Height: 50
 Weight: 200
 Special_Bitvector: 0 
@@ -1005,8 +973,6 @@ b0d0f2 c0d0f0h0k0a1 100 E
 0d0+0 0
 8 8 1
 Size: 30
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1030,8 +996,6 @@ b0d0 h0r1 1000 E
 8 8 2
 Str: 30
 Size: 30
-Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: b1 
@@ -1049,11 +1013,11 @@ E
 ~
 Мелкый хищный зверь
 ~
-d0f0l0z0f2g2l2m2 x0 -600 E
-1 5 0 0d0+1 0d1+0
+d0f0l0z0f2g2j2l2m2 x0 -600 E
+5 5 0 0d0+1 0d1+0
 0d0+0 1
 8 8 1
-BareHandAttack: 4
+BareHandAttack: 16
 Str: 3
 Dex: 3
 Int: 3
@@ -1063,7 +1027,6 @@ Cha: 3
 Size: 1
 LikeWork: 100
 Class: 103
-Race: 100
 Height: 50
 Weight: 50
 Special_Bitvector: l0 
@@ -1089,7 +1052,6 @@ d0h0n0o0p0t0j2l2 d0k0 500 E
 BareHandAttack: 4
 Size: 20
 Class: 103
-Race: 100
 Height: 50
 Weight: 50
 Special_Bitvector: l0 
@@ -1124,7 +1086,6 @@ Cha: 30
 Size: 10
 ExtraAttack: 1
 Class: 103
-Race: 100
 Height: 200
 Weight: 50
 Special_Bitvector: p0 
@@ -1157,7 +1118,6 @@ Con: 50
 Cha: 50
 Size: 30
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1187,7 +1147,6 @@ Con: 50
 Cha: 50
 Size: 30
 Class: 103
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1222,7 +1181,6 @@ Size: 50
 LikeWork: 1
 ExtraAttack: 1
 Class: 100
-Race: 100
 Height: 168
 Weight: 150
 Special_Bitvector: 0 
@@ -1258,7 +1216,6 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 3
 Class: 103
-Race: 100
 Height: 200
 Weight: 200
 Special_Bitvector: 0 
@@ -1325,7 +1282,6 @@ d0 0 0 E
 8 8 1
 Size: 30
 Class: 100
-Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 

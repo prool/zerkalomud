@@ -1136,7 +1136,7 @@ if !%arg.contains(замок)%
   wsend %actor% И что же вы так внимательно осматриваете?
   halt
 end
-if %actor.class% != 2 && !%actor.haveobj(92103)%
+if ((%actor.class% != 2) && !%actor.haveobj(92103)%)
   wsend %actor% Вы считаете себя большим специалистом по замкам?
   wechoaround %actor% %actor.name% посмотрел%actor.g% на замок, как баран на новые ворота!
   halt

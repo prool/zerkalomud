@@ -526,8 +526,8 @@ Special_Bitvector: p0
 Skill: 136 36
 Skill: 150 95
 Skill: 160 95
-Helper: 49914
 Helper: 49913
+Helper: 49914
 E
 #49916
 девчушка~
@@ -560,8 +560,8 @@ Special_Bitvector: p0
 Skill: 136 36
 Skill: 150 95
 Skill: 157 95
-Helper: 49914
 Helper: 49913
+Helper: 49914
 E
 #49917
 всадник~
@@ -2017,8 +2017,8 @@ Spell: 17
 Spell: 17
 Spell: 28
 Spell: 28
-Helper: 49914
 Helper: 49913
+Helper: 49914
 E
 #49959
 ремесленник~
@@ -2055,8 +2055,8 @@ Spell: 17
 Spell: 17
 Spell: 28
 Spell: 28
-Helper: 49914
 Helper: 49913
+Helper: 49914
 E
 #49960
 ремесленник~
@@ -2093,8 +2093,8 @@ Spell: 17
 Spell: 17
 Spell: 28
 Spell: 28
-Helper: 49914
 Helper: 49913
+Helper: 49914
 E
 #49961
 горожанка молодая киевлянка~
@@ -2131,8 +2131,8 @@ Spell: 17
 Spell: 17
 Spell: 28
 Spell: 28
-Helper: 49914
 Helper: 49913
+Helper: 49914
 E
 #49962
 ворожея~
@@ -2237,6 +2237,7 @@ c0d0g0h0n0o0p0A0s1f2j2 d0f0k0m0n0m1 0 E
 26 -4 -3 2d100+1200 1d12+8
 0d0+200 10000
 8 8 1
+CastSuccess: 90
 BareHandAttack: 6
 Str: 24
 Dex: 23
@@ -2245,7 +2246,7 @@ Wis: 20
 Con: 16
 Cha: 28
 Size: 30
-LikeWork: 75
+LikeWork: 85
 ExtraAttack: 1
 Height: 198
 Weight: 200

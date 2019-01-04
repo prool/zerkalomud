@@ -54,7 +54,6 @@ done
 attach 93601 %self.id%
 attach 93602 %self.id%
 detach 93600 %self.id%
-end
 ~
 #93601
 сказали нет~
@@ -63,11 +62,10 @@ end
 say А жаль... 
 взд
 detach 93601 %self.id%
-end
 ~
 #93602
 сказали да первый раз~
-0 d 0
+0 d 1
 да ессно конечно ато дык~
 switch %actor.class%
   case 0
@@ -96,7 +94,6 @@ say Тут вот какая проблема у меня, отец поручил воды набрать.
 say Не поможешь?
 attach 93603 %self.id% 
 detach 93602 %self.id%
-end
 ~
 #93603
 первый квест~
@@ -118,12 +115,14 @@ detach 93603 %self.id%
 0 j 100
 ~
 if %object.vnum% != 93601
+  say Зачем мне эта дрянь?
   return 0
   halt
 end
-return 1
-wait   1
-if %object.val1% != 1
+set water %object.val1%
+wait 1
+mpurge %object%
+if %water% != 1
   say Так я и думал, что ничего не получится...
 else 
   say Ты смог!

@@ -1388,8 +1388,8 @@ switch %random.5%
     end
   break
   case 5
-    if ((%world.curobjs(3312)% == 0 ) && (%world.curobjs(3313)% == 0 ))
-      mload obj 3312
+    if (%world.curobjs(3310)% == 0)
+      mload obj 3310
     else
       mload obj 87759
     end

@@ -100,9 +100,6 @@ end
 if (%world.curobjs(10014)% < 10) && (%random.10% <= 2)
   mload obj 10014
 end
-if (%world.curobjs(1201)% < 1) && (%random.100% <= 3)
-  mload obj 1201
-end
 ~
 #10005
 <100 Oldest sun killed>~

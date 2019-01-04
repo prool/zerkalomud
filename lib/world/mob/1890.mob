@@ -288,10 +288,11 @@ E
 Однако же по его виду и характерному "выхлопу" становится понятно,
 что пропитываться он собирается брагой в ближайшей асхане.
 ~
-c0d0A0 k0 -600 E
-25 0 2 10d10+300 2d2+5
-0d0+1 30000000
+c0d0A0B0 k0 -600 E
+25 -30 2 10d10+300 30d20+20
+0d0+1 1
 8 8 1
+CastSuccess: 200
 Str: 10
 Dex: 10
 Int: 10
@@ -306,6 +307,96 @@ Height: 175
 Weight: 85
 Special_Bitvector: a1 
 Skill: 139 25
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 81
 E
 #189009
 шикарная красавица~
@@ -982,7 +1073,7 @@ E
 обезьянке~
 Маймил дико закричал, увидев Вас.
 ~
-Где е╦ подобрали - неизвестно, но она, похоже, недовольна вашим визитом.
+Где ее подобрали - неизвестно, но она, похоже, недовольна вашим визитом.
 ~
 d0k0j2 k0 -600 E
 22 0 0 10d10+189 4d4+10

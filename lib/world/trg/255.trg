@@ -609,7 +609,7 @@ end
 помер пущевик~
 0 f 100
 ~
-if %world.curobjs(3368)% < 1 & %random.10000% < 50
+if %world.curobjs(3368)% < 1 && %random.10000% < 50
   mload obj 3368
 end
 ~

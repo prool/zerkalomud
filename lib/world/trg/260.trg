@@ -2,6 +2,10 @@
 старику дали желудь~
 0 j 100
 ~
+if (%actor.vnum% != -1)
+  return 0
+  halt
+end
 context 260
 wait 1
 switch %object.vnum%
@@ -86,10 +90,16 @@ switch %object.vnum%
 триггер леших~
 0 j 100
 ~
+if (%actor.vnum% != -1)
+  return 0
+  halt
+end
 context 260
 wait 1
 switch %object.vnum%
   case 26001
+    wait 1
+    mpurge %object%
     wait 1s
     if !%self.fighting%
       mecho  Установив желудь на пенек, лешие впали в транс от его завораживающего сияния.
@@ -99,6 +109,8 @@ switch %object.vnum%
   break
   case 26002
     case 26003
+      wait 1
+      mpurge %object%
       wait 1s
       рад
       say    Наконец-то, что-то полезное принесли, теперь будет чем заняться.
@@ -108,9 +120,9 @@ switch %object.vnum%
     break
     default
       say  О! Это мне пригодится.
+      mjunk all
     break
   done
-  mpurge %object%
 end
 ~
 #26002
@@ -136,6 +148,10 @@ oteleport %actor% 26027 horse
 (желудь)~
 1 c 4
 установить~
+if (%actor.vnum% != -1)
+  return 0
+  halt
+end
 context 260
 wait 1
 if !(%arg.contains(золотой)%) && !(%arg.contains(изумрудный)%) && !(%arg.contains(малахитовый)%)
@@ -231,7 +247,8 @@ wechoaround %actor% %actor.name% начал%actor.g% рубить дрова, щепки полетели во 
 wsend %actor.name% Обнажив свое оружие, Вы начали колоть полено.
 wsend %actor.name% После нескольких мастерских выпадов, трухлявое полено разлетелось на мелкие щепки.
 wload obj 26005
-wpurge полено
+calcuid poleno 26004 obj
+wpurge %poleno%
 set shalash260 1
 worlds shalash260
 ~
@@ -256,7 +273,10 @@ wsend %actor.name% Пламя костра вознеслось высоко над деревьями.
 wsend %actor.name% Сквозь мглу, в северном направлении, Вы увидели узенькую тропинку.
 wdoor 26016 north flags a
 wdoor 26016 north room 26017
-wpurge дрова
+calcuid drova 26005 obj
+if %drova%
+  wpurge %drova%
+end
 set shalash260 2
 worlds shalash260
 wait 30s
@@ -264,6 +284,7 @@ wecho Костер погас.
 wdoor 26016 north purge
 wdoor 26016 north flags a
 wdoor 26016 north room 26010
+calcuid drova 26005 obj
 ~
 #26008
 Начало квеста~
@@ -347,16 +368,21 @@ end
 принесли ключ мельника~
 0 j 100
 ~
+if (%actor.vnum% != -1)
+  return 0
+  halt
+end
 context 260
 wait 1
 if (%object.vnum% != 26025)
   if (%object.vnum% == 26018)
+    wait 1
+    mpurge %object%
     mecho Старик начал усердно рассматривать ключ.
     взд
     say Извини, %actor.name%, но этот ключ не мой.
     wait 1s
     say Хотя спасибо, я найду ему применение.
-    mpurge %object%
     halt
   elseif (%object.type% == 18)
     mecho Старик начал усердно рассматривать %object.vname%.
@@ -373,6 +399,8 @@ if (%object.vnum% != 26025)
     halt
   end
 end
+wait 1
+mpurge %object%
 wait 1s
 say Спасибо тебе, %actor.name%, что б я без тебя делал!
 wait 1s
@@ -382,7 +410,6 @@ say Возьми это перо, оно поможет тебе найти путь к мельнице.
 mload obj 26026
 wait 2
 дать перо %actor.name%
-mpurge %object%
 ~
 #26014
 путь к мельне~
@@ -471,9 +498,6 @@ end
 ~
 if %world.curobjs(515)% == 0
   mload obj 515
-end
-if (%world.curobjs(205)% < 50) && ( %random.20% == 7 )
-  mload obj 205
 end
 ~
 #26055

@@ -29,8 +29,8 @@ end
 say Неужели тебе это удалось ?
 say Никогда не думал что у кого нибудь получится прогнать этого демона.
 say Держи, честно заслужил!
-if %world.curobjs(3366)% < 1 && %random.10000% < 50
-  mload obj 3366
+if %world.curobjs(3343)% < 1 && %random.1000% < 50
+  mload obj 3343
   дать наруч .%actor.name%
 else
   msend %actor% %self.name% дал вам увесистый кошелек.

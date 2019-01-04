@@ -458,6 +458,19 @@ detach 20427 %self.id%
 *~
 calcuid room1 20483 room
 attach 20427 %room1.id%
+*атачим триги вылова рыбы
+calcuid room2 20419 room
+attach 20401 %room2%
+wait 1
+calcuid room3 20436 room
+attach 20401 %room3%
+calcuid room4 20453 room
+attach 20401 %room4%
+wait 1
+calcuid room5 20454 room
+attach 20401 %room5%
+calcuid room6 20455 room
+attach 20401 %room6%
 ~
 #20429
 шакалагрит~
@@ -677,4 +690,3 @@ if (%world.curobjs(20417)% < 4) && (%random.1000% <= 150)
 end
 ~
 $~
-

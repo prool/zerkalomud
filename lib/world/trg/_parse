@@ -1,0 +1,2 @@
+#!/bin/sh
+pcregrep -f _parse.set *.trg > 00parse_result

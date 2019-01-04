@@ -14,7 +14,7 @@ d0f0q0b1 k0x0 -600 E
 15 6 -10 5d5+220 3d1+2
 0d0+0 8000
 8 8 1
-BareHandAttack: 11
+BareHandAttack: 16
 Str: 30
 Dex: 25
 Int: 20
@@ -212,7 +212,7 @@ b0d0f0q0x0b1 k0x0 -600 E
 17 5 -10 7d7+200 3d1+2
 0d0+0 9000
 8 8 2
-BareHandAttack: 11
+BareHandAttack: 16
 Str: 22
 Dex: 22
 Int: 20
@@ -920,7 +920,7 @@ b0d0f0q0x0b1 d0f0k0 -600 E
 15 6 -10 7d7+260 3d2+2
 0d0+0 14000
 8 8 2
-BareHandAttack: 4
+BareHandAttack: 16
 Str: 22
 Dex: 22
 Int: 25
@@ -1211,12 +1211,11 @@ Class: 105
 Height: 140
 Weight: 70
 Special_Bitvector: 0 
-Skill: 136 40
+Skill: 136 72
 Spell: 5
 Spell: 5
 Spell: 124
 Helper: 12731
-Skill: 136 72
 E
 T 12707
 I зубы,3:5

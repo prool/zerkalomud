@@ -224,10 +224,10 @@ switch %object.vnum%
     эм заплакал от радасти.
     say Дзякую чалавеча! Добры ты, а для добрых людзей нiчога не жалка.
     eval rand %random.100%
-    if (%rand% < 10) & (%world.curobjs(74922)% < 4)
+    if (%rand% < 10) && (%world.curobjs(74922)% < 4)
       mload obj 74922
       дать оберег %actor.name%
-    elseif (%rand% < 20) & (%world.curobjs(74923)% < 10)
+    elseif (%rand% < 20) && (%world.curobjs(74923)% < 10)
       mload obj 74923
       дать колечко %actor.name%
     else
@@ -365,7 +365,7 @@ calcuid pan 74918 mob
 calcuid ved 74902 mob
 global qroom
 global ded
-global jur 
+global jur
 global trav
 global les
 global pan
@@ -373,7 +373,7 @@ global ved
 attach 74900 %ded.id%
 attach 74901 %ded.id%
 attach 74920 %ved.id%
-detach 74915 %groom.id%
+detach 74915 %qroom.id%
 detach 74902 %ded.id%
 detach 74903 %ded.id%
 detach 74904 %ded.id%

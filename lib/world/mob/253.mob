@@ -26,6 +26,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
@@ -60,6 +61,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 100
 Class: 105
+Race: 
 Height: 190
 Weight: 90
 Special_Bitvector: h0i0j0p0b1c1m3B3C3 
@@ -114,6 +116,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 180
 Weight: 90
 Special_Bitvector: 0 
@@ -148,6 +151,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 100
 Special_Bitvector: 0 
@@ -187,6 +191,7 @@ Cha: 32
 Size: 100
 LikeWork: 100
 Class: 105
+Race: 
 Height: 175
 Weight: 85
 Special_Bitvector: g0h0i0j0u0m3B3C3 
@@ -415,6 +420,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
@@ -449,6 +455,7 @@ Cha: 10
 Size: 100
 LikeWork: 100
 Class: 102
+Race: 101
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
@@ -483,6 +490,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 100
 Class: 102
+Race: 101
 Height: 170
 Weight: 120
 Special_Bitvector: 0 
@@ -570,6 +578,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 100
 Class: 105
+Race: 
 Height: 190
 Weight: 90
 Special_Bitvector: g0h0i0j0p0B3C3 
@@ -725,6 +734,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 3
 Class: 103
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: i0o0 
@@ -835,6 +845,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -867,6 +878,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -901,6 +913,7 @@ Con: 20
 Cha: 10
 Size: 100
 Class: 103
+Race: 104
 Height: 175
 Weight: 50
 Special_Bitvector: 0 
@@ -935,6 +948,7 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -967,6 +981,7 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: p0 
@@ -999,6 +1014,7 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1032,6 +1048,7 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1066,6 +1083,7 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1100,6 +1118,7 @@ Cha: 36
 Size: 100
 ExtraAttack: 1
 Class: 102
+Race: 101
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -1132,6 +1151,38 @@ Special_Bitvector: 0
 Skill: 136 96
 E
 T 25311
+#25320
+резиновая баба~
+резиновая баба~
+резиновой бабы~
+резиновой бабе~
+резиновую бабу~
+резиновой бабой~
+резиновой бабе~
+Резиновая баба висит тут в воздухе. (покачивается)
+~
+Натурально резиновая. Во всех местах баба.
+Отдельно следует отметить явную приспособленность к траханью, особенно моска.
+~
+d0n0o0p0q0r0t0u0z0B0 d0f0k0x0 0 E
+30 20 0 1d100+1 1d1+1
+0d0+0 0
+8 8 2
+Str: 3
+Dex: 3
+Int: 3
+Wis: 3
+Con: 40
+Cha: 40
+Size: 30
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: l0 
+E
+T 25322
+T 25323
 #25398
 демон разрушения~
 &Rдемон разрушения&n~

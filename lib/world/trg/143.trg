@@ -123,7 +123,7 @@ else
 end
 г Заходи попозже! Все будет, а теперь давай давай, проваливай потихоньку!
 %echo% Вытолкал Вас в кусты.
-%teleport% %actor.name% 14339
+mteleport %actor% 14339
 %echoaround% %actor% %actor.iname% приш%actor.y% с запада.                           
 ~
 #14307
@@ -173,7 +173,7 @@ if (%speech.contains(корабль)%)
   wait 15
   г И давай давай проваливай отсюды!
   %echo% Выталкал Вас в кусты.
-  %teleport% %actor.name% 14339
+  mteleport %actor% 14339
   %echoaround% %actor% %actor.iname% приш%actor.y% с запада
   calcuid vod 14307 mob
   attach 14306 %vod.id%
@@ -206,6 +206,7 @@ else
       halt
     end
   end
+end
 ~
 #14310
 водяной реакция1~
@@ -234,7 +235,7 @@ eval hp (%name2.hitp% - %name2.maxhitp% / 10)
 %name2.hitp(%hp%)%
 wait 20
 %send% %actor% Водяной пинком вышвырнул Вас!
-%teleport% %name2.name% 14339
+mteleport %name2% 14339
 %echoaround% %actor% %actor.iname% приш%actor.y% с запада
 крич Я тебе предупреждал? Предупреждал!
 крич Так что теперь нэ обижайся!
@@ -324,7 +325,7 @@ makeuid kvman %actor.id%
 worlds kvman
 wait 1
 calcuid istr 14305 obj 
-wpurge %istr.name%
+wpurge %istr%
 wait 5
 wecho Туча разнообразных инструментов вылетело из ящика и принялось лихо валить деревья вокруг, 
 wecho так, что только щепки летели в стороны.
@@ -482,137 +483,147 @@ end
 сдаемщеткуохру~
 0 j 100
 *~
-switch %object.vnum%
-  case 14326
-    wait 1
-    mpurge %object.name%
-    wait 5
-    say Ага! Значит прогнал таки этого чумазого. 
-    wait 10
-    say Хвалю!
-    say Получи награду!
-    eval rand %random.1000%
-    if ((%rand% < 361) && (%world.curobjs(14327)% < 6))
-      mload obj 14327
-      дать все %actor.name%
-    elseif ((362 <= %rand%) && (%rand% < 700) && (%world.curobjs(14327)% < 6))
-      mload obj 14327
-      дать все %actor.name%
-    else
-      %actor.exp(+50000)%
+if (%object.vnum% != 14326)
+  say Зачем мне это?
+  нет
+  halt
+end
+wait 1
+mpurge %object%
+wait 5
+say Ага! Значит прогнал таки этого чумазого. 
+wait 10
+say Хвалю!
+say Получи награду!
+eval rand %random.1000%
+if ((%rand% < 361) && (%world.curobjs(14327)% < 6))
+  mload obj 14327
+  дать все %actor.name%
+elseif ((362 <= %rand%) && (%rand% < 700) && (%world.curobjs(14328)% < 6))
+  mload obj 14328
+  дать все %actor.name%
+else
+  %actor.exp(+50000)%
+end
 ~
 #14324
 наградадочки~
 0 j 100
 *~
-if %actor.id% == %kvman.id%
-  switch %object.vnum%
-    case 14308
-      wait 5
-      say Ой подружка, не оставила ты любящее сердце в беде, выручила!
-      обня %actor.name%
-      wait 25
-      eval rand %random.1000%
-      if ((%rand% < 250) && (%world.curobjs(14316)% < 6))
-        эм порылась в куче одежды, лежащей у кровати
-        say Пожалуйста, возьми это себе за доброе дело, да смотри стражам не попадайся. 
-        mload obj 14316
-        дать все %actor.name%
-      elseif ((250 <= %rand%) && (%rand% < 500) && (%world.curobjs(14317)% < 6))
-        mload obj 14317
-        эм порылась в куче одежды, лежащей у кровати
-        say Пожалуйста, возьми это себе за доброе дело, да смотри стражам не попадайся. 
-        дать все %actor.name%
-      elseif ((500 <= %rand%) && (%rand% < 750) && (%world.curobjs(14318)% < 6))
-        mload obj 14318
-        эм порылась в куче одежды, лежащей у кровати
-        say Пожалуйста, возьми это себе за доброе дело, да смотри стражам не попадайся. 
-        дать все %actor.name%
-      elseif ((750 <= %rand%) && (%rand% < 1000) && (%world.curobjs(14319)% < 6))
-        mload obj 14319
-        эм порылась в куче одежды, лежащей у кровати
-        say Пожалуйста, возьми это себе за доброе дело, да смотри стражам не попадайся. 
-        дать все %actor.name%
-      else
-        say Спасибо за помощь!
-      end
-      Эм быстро хватануло несколько лукошек заполненных всякой дребеденью, и выскочила в дубовые палаты.
-      makeuid kil %actor.id%
-      worlds kil
-      calcuid str 14317 mob
-      detach 14323 %str.id%
-      calcuid trub 14322 mob
-      mpurge %trub%
-      calcuid kora 14309 obj
-      mpurge %kora%
-      mpurge %self%
-    end
+if ((%object.vnum% != 14308) || ( %actor.id% != %kvman.id%))
+  say Какой кикиморы ты это притащил?
+  return 0
+  halt
+end
+wait 1
+mpurge %object%
+wait 5
+say Ой подружка, не оставила ты любящее сердце в беде, выручила!
+обня %actor.name%
+wait 25
+eval rand %random.1000%
+if ((%rand% < 250) && (%world.curobjs(14316)% < 6))
+  эм порылась в куче одежды, лежащей у кровати
+  say Пожалуйста, возьми это себе за доброе дело, да смотри стражам не попадайся. 
+  mload obj 14316
+  дать все %actor.name%
+elseif ((250 <= %rand%) && (%rand% < 500) && (%world.curobjs(14317)% < 6))
+  mload obj 14317
+  эм порылась в куче одежды, лежащей у кровати
+  say Пожалуйста, возьми это себе за доброе дело, да смотри стражам не попадайся. 
+  дать все %actor.name%
+elseif ((500 <= %rand%) && (%rand% < 750) && (%world.curobjs(14318)% < 6))
+  mload obj 14318
+  эм порылась в куче одежды, лежащей у кровати
+  say Пожалуйста, возьми это себе за доброе дело, да смотри стражам не попадайся. 
+  дать все %actor.name%
+elseif ((750 <= %rand%) && (%rand% < 1000) && (%world.curobjs(14319)% < 6))
+  mload obj 14319
+  эм порылась в куче одежды, лежащей у кровати
+  say Пожалуйста, возьми это себе за доброе дело, да смотри стражам не попадайся. 
+  дать все %actor.name%
+else
+  say Спасибо за помощь!
+end
+Эм быстро хватануло несколько лукошек заполненных всякой дребеденью, и выскочила в дубовые палаты.
+makeuid kil %actor.id%
+worlds kil
+calcuid str 14317 mob
+detach 14323 %str.id%
+calcuid trub 14322 mob
+mpurge %trub%
+calcuid kora 14309 obj
+mpurge %kora%
+mpurge %self%
+end
 ~
 #14325
 наградацаря~
 0 j 100
 *~
-if %actor.id% == %kvman.id%
-  switch %object.vnum%
-    case 14308
-      wait 1
-      mpurge %object.name%
-      wait 5
-      say Ой, таки посмотрите что принесли!
-      wait 5
-      Эм обрадовался как ребенок
-      wait 5
-      say Таки угодили Вы Изе по самое немогу, и надо бы наградить добра-молодца.
-      wait 15
-      eval rand %random.1000%
-      if ((%rand% < 166) && (%world.curobjs(14310)% < 6))
-        mload obj 14310
-        mecho Немного порывшись за деревянным троном, царь достал поношенный сюртук, и, глядя на 
-        mecho него жалобными глазами, как будто от сердца отрывает, протянул Вам
-        wait 5
-        say С царского плеча!
-        дать все %actor.name%
-      elseif ((166 <= %rand%) && (%rand% < 333) && (%world.curobjs(14311)% < 6))
-        mload obj 14310
-        mecho Немного порывшись за деревянным троном, царь достал поношенную шапку, и, глядя на 
-        mecho нее жалобными глазами, как будто от сердца отрывает, протянул Вам
-        wait 5
-        say С царского плеча!
-        дать все %actor.name%
-      elseif ((333 <= %rand%) && (%rand% < 499) && (%world.curobjs(14312)% < 6))
-        mload obj 14312
-        mecho Немного порывшись за деревянным троном, царь достал поношенные нарукавники, и, глядя на 
-        mecho них жалобными глазами, как будто от сердца отрывает, протянул Вам
-        wait 5
-        say С царского плеча!
-        дать все %actor.name%
-      elseif ((499 <= %rand%) && (%rand% < 665) && (%world.curobjs(14313)% < 6))
-        mload obj 14313
-        mecho Немного порывшись за деревянным троном, царь достал поношенные рукавицы, и, глядя на 
-        mecho них жалобными глазами, как будто от сердца отрывает, протянул Вам
-        wait 5
-        say С царского плеча!
-        дать все %actor.name%
-      elseif ((665 <= %rand%) && (%rand% < 830) && (%world.curobjs(14314)% < 6))
-        mload obj 14314
-        mecho Немного порывшись за деревянным троном, царь достал поношенные штаны, и, глядя на 
-        mecho них жалобными глазами, как будто от сердца отрывает, протянул Вам
-        wait 5
-        say С царского плеча!
-        дать все %actor.name%
-      elseif ((830 <= %rand%) && (%rand% < 1000) && (%world.curobjs(14315)% < 6))
-        mload obj 14315
-        mecho Немного порывшись за деревянным троном, царь достал поношенные сапоги, и, глядя на 
-        mecho них жалобными глазами, как будто от сердца отрывает, протянул Вам
-        wait 5
-        say С царского плеча!
-        дать все %actor.name%
-      else
-        mechoaround %actor% Царь дал небольшую кучку кун _%actor.name%.
-        msend %actor% Царь дал Вам небольшую кучку кун.
-        %actor.gold(+1000)%
-      end
-    end
+if ((%object.vnum% != 14308) || ( %actor.id% != %kvman.id%))
+  say Зачем мне это?!
+  return 0
+  halt
+end
+wait 1
+mpurge %object%
+wait 5
+say Ой, таки посмотрите что принесли!
+wait 5
+Эм обрадовался как ребенок
+wait 5
+say Таки угодили Вы Изе по самое немогу, и надо бы наградить добра-молодца.
+wait 15
+eval rand %random.1000%
+if ((%rand% < 166) && (%world.curobjs(14310)% < 6))
+  mload obj 14310
+  mecho Немного порывшись за деревянным троном, царь достал поношенный сюртук, и, глядя на 
+  mecho него жалобными глазами, как будто от сердца отрывает, протянул Вам
+  wait 5
+  say С царского плеча!
+  дать все %actor.name%
+elseif ((166 <= %rand%) && (%rand% < 333) && (%world.curobjs(14311)% < 6))
+  mload obj 14310
+  mecho Немного порывшись за деревянным троном, царь достал поношенную шапку, и, глядя на 
+  mecho нее жалобными глазами, как будто от сердца отрывает, протянул Вам
+  wait 5
+  say С царского плеча!
+  дать все %actor.name%
+elseif ((333 <= %rand%) && (%rand% < 499) && (%world.curobjs(14312)% < 6))
+  mload obj 14312
+  mecho Немного порывшись за деревянным троном, царь достал поношенные нарукавники, и, глядя на 
+  mecho них жалобными глазами, как будто от сердца отрывает, протянул Вам
+  wait 5
+  say С царского плеча!
+  дать все %actor.name%
+elseif ((499 <= %rand%) && (%rand% < 665) && (%world.curobjs(14313)% < 6))
+  mload obj 14313
+  mecho Немного порывшись за деревянным троном, царь достал поношенные рукавицы, и, глядя на 
+  mecho них жалобными глазами, как будто от сердца отрывает, протянул Вам
+  wait 5
+  say С царского плеча!
+  дать все %actor.name%
+elseif ((665 <= %rand%) && (%rand% < 830) && (%world.curobjs(14314)% < 6))
+  mload obj 14314
+  mecho Немного порывшись за деревянным троном, царь достал поношенные штаны, и, глядя на 
+  mecho них жалобными глазами, как будто от сердца отрывает, протянул Вам
+  wait 5
+  say С царского плеча!
+  дать все %actor.name%
+elseif ((830 <= %rand%) && (%rand% < 1000) && (%world.curobjs(14315)% < 6))
+  mload obj 14315
+  mecho Немного порывшись за деревянным троном, царь достал поношенные сапоги, и, глядя на 
+  mecho них жалобными глазами, как будто от сердца отрывает, протянул Вам
+  wait 5
+  say С царского плеча!
+  дать все %actor.name%
+else
+  mechoaround %actor% Царь дал небольшую кучку кун _%actor.name%.
+  msend %actor% Царь дал Вам небольшую кучку кун.
+  %actor.gold(+1000)%
+end
+end
 ~
 #14326
 зашлиповтыкатьнакорабль~
@@ -686,7 +697,6 @@ if %actor.id% == %kvman.id%
   detach 14327 %self.id%
 end
 detach 14327 %self.id%
-
 ~
 #14328
 даемкотаБабке~
@@ -805,14 +815,18 @@ eval rand %random.1000%
 if (%rand% < 433) 
   wecho Завидев Вас подлый кошак скрылся на севере.
   calcuid kot 14325 obj 
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom76 14376 room
   attach 14338 %rom76.id%
   exec 14336 %rom76.id%
 elseif ((433 <= %rand%) && (%rand% < 796))
   wecho Завидев Вас подлый кошак скрылся на западе.
   calcuid kot 14325 obj
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom73 14373 room
   attach 14339 %rom73.id%
   exec 14336 %rom73.id%
@@ -830,14 +844,18 @@ eval rand %random.1000%
 if (%rand% < 433) 
   wecho Завидев Вас подлый кошак скрылся на юге.
   calcuid kot 14325 obj 
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom75 14375 room
   attach 14337 %rom75.id%
   exec 14336 %rom76.id%
 elseif ((433 <= %rand%) && (%rand% < 796))
   wecho Завидев Вас подлый кошак скрылся на западе.
   calcuid kot 14325 obj
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom65 14365 room
   attach 14340 %rom65.id%
   exec 14336 %rom65.id%
@@ -855,28 +873,36 @@ eval rand %random.1000%
 if (%rand% < 200) 
   wecho Завидев Вас подлый кошак скрылся на севере.
   calcuid kot 14325 obj 
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom65 14365 room
   attach 14340 %rom65.id%
   exec 14336 %rom65.id%
 elseif ((200 <= %rand%) && (%rand% < 400))
   wecho Завидев Вас подлый кошак скрылся на западе.
   calcuid kot 14325 obj
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom72 14372 room
   attach 14341 %rom72.id%
   exec 14336 %rom72.id%
 elseif ((400 <= %rand%) && (%rand% < 600))
   wecho Завидев Вас подлый кошак скрылся на юге.
   calcuid kot 14325 obj
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom77 14377 room
   attach 14342 %rom77.id%
   exec 14336 %rom77.id%
 elseif ((600 <= %rand%) && (%rand% < 800))
   wecho Завидев Вас подлый кошак скрылся на востоке.
   calcuid kot 14325 obj
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom75 14375 room
   attach 14337 %rom75.id%
   exec 14336 %rom75.id%
@@ -894,21 +920,24 @@ eval rand %random.1000%
 if (%rand% < 433) 
   wecho Завидев Вас подлый кошак скрылся на юге.
   calcuid kot 14325 obj 
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom73 14373 room
   attach 14339 %rom73.id%
   exec 14336 %rom73.id%
 elseif ((433 <= %rand%) && (%rand% < 796))
   wecho Завидев Вас подлый кошак скрылся на востоке.
   calcuid kot 14325 obj
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom76 14376 room
   attach 14338 %rom76.id%
   exec 14336 %rom76.id%
 else
   wecho Завидев Вас черный кот замурлыкал и подошел поближе.
 end
-detach 14340 %self.id%
 ~
 #14341
 котсбег72~
@@ -919,7 +948,9 @@ eval rand %random.1000%
 if (%rand% < 700) 
   wecho Завидев Вас подлый кошак скрылся на востоке.
   calcuid kot 14325 obj 
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom73 14373 room
   attach 14339 %rom73.id%
   exec 14336 %rom73.id%
@@ -937,14 +968,18 @@ eval rand %random.1000%
 if (%rand% < 433) 
   wecho Завидев Вас подлый кошак скрылся на севере.
   calcuid kot 14325 obj 
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom73 14373 room
   attach 14339 %rom73.id%
   exec 14336 %rom73.id%
 elseif ((433 <= %rand%) && (%rand% < 796))
   wecho Завидев Вас подлый кошак скрылся на востоке.
   calcuid kot 14325 obj
-  wpurge %kot%
+  if %kot%
+    wpurge %kot%
+  end
   calcuid rom75 14375 room
   attach 14337 %rom75.id%
   exec 14336 %rom75.id%
@@ -959,7 +994,7 @@ detach 14340 %self.id%
 Избушка, избушка! Повернись, ко мне передом, к лесу задом!~
 wecho Изба со скрипом повернулась к Вам передом, к лесу задом, и теперь в нее свободно можно войти.
 calcuid isb 14306 obj 
-wpurge %isb.name%
+wpurge %isb%
 wload obj 14307
 wdoor  14375 up room 14379
 detach 14343 %self.id%
@@ -1135,4 +1170,3 @@ wait 10
 г Заходи на чай, порезвимся! Не пожалешь мамой клянусь!
 ~
 $~
-

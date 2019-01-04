@@ -64,7 +64,7 @@ opurge %self%
 load set on witch~
 0 f 100
 ~
-if %world.curobjs(3326)% < 1 & %random.100% < 4
+if ((%world.curobjs(3326)% < 1) && (%random.100% < 4))
   mload obj 3326
 end
 ~

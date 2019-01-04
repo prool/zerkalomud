@@ -26,7 +26,7 @@ end
 С дерева~
 2 c 0
 слезть спрыгнуть спуститься~
-if !%arg.contains(дерево)% 
+if !%arg.contains(дерев)% && !%arg.contains(земл)%  && !%arg.contains(вниз)%
   wsend %actor%  Откуда вы хотите спуститься ?!
   return 0
   halt 

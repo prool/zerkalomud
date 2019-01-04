@@ -673,33 +673,36 @@ wload mob 20334
 сдаемквестХану~
 0 j 100
 *~
-switch %object.vnum%
-  case 20331
-    wait 5
-    mpurge %object.name%
-    wait 20
-    say Этой копной волос я украшу свой щит.
-    eval rand %random.1000%
-    if ((%rand% < 100) && (%world.curobjs(20332)% < 3))
-      say Ти заслужил награду.
-      mload obj 20332
-      дать кольц %actor.name%
-      wait 10
-      say Теперь ухади!
-    elseif ((100 <= %rand%) && (%rand% < 250) && (%world.curobjs(20338)% < 3))
-      say Ти заслужил награду.
-      mload obj 20338
-      дать перев %actor.name%
-      wait 10
-      say Теперь ухади!
-    else
-      %actor.exp(+300000)%
-      wait 5
-      say Ти выполнил мое поручение, и можеш бить свободен.
-    end 
-    calcuid tem 20304 mob
-    attach 20341 %tem.id%
-    detach 20340 %tem.id%
+if (%object.vnum% !=  20331)
+  return 0
+  say Зачем мне это?
+  halt
+end
+wait 1
+mpurge %object%
+wait 20
+say Этой копной волос я украшу свой щит.
+eval rand %random.1000%
+if ((%rand% < 100) && (%world.curobjs(20332)% < 3))
+  say Ти заслужил награду.
+  mload obj 20332
+  дать кольц %actor.name%
+  wait 10
+  say Теперь ухади!
+elseif ((100 <= %rand%) && (%rand% < 250) && (%world.curobjs(20338)% < 3))
+  say Ти заслужил награду.
+  mload obj 20338
+  дать перев %actor.name%
+  wait 10
+  say Теперь ухади!
+else
+  %actor.exp(+300000)%
+  wait 5
+  say Ти выполнил мое поручение, и можеш бить свободен.
+end 
+calcuid tem 20304 mob
+attach 20341 %tem.id%
+detach 20340 %tem.id%
 ~
 #20335
 сдохМонстр~
@@ -807,6 +810,7 @@ mload obj 20335
 дать доск %actor.name%
 wait 10
 say Коли добрые вести от него пиренесешь, награжу подобающе.
+attach 20344 %self.id%
 detach 20341 %self.id%
 ~
 #20342
@@ -848,10 +852,11 @@ end
 сдаемквестТемнику~
 0 j 100
 *~
+wait 1
 switch %object.vnum%
   case 20404
-    wait 5
-    mpurge %object.name%
+    wait 1
+    mpurge %object%
     wait 20
     Ул
     wait 20
@@ -868,19 +873,25 @@ switch %object.vnum%
       дать нагруд %actor.name%
       say Теперь ухади долой с моих глаз, и симотри не попадайся моим воинам!
     else
-      %self.gold(+50000)%
-      give 50000 кун .%actor.name%
+      %self.gold(+10000)%
+      give 10000 кун .%actor.name%
       say Теперь ухади долой с моих глаз, и симотри не попадайся моим воинам!
     end
-    case 20405 
-      wait 5
-      mpurge %object.name%
-      wait 20
-      Рыч
-      say Эм стал похож на разъяренного буйвола.
-      say Кричать Ти сиволачь посимел мине пиренести отказ от баскака?! Убию обоих!!!
-      wait 10
-      Убить %actor.name%
+  break
+  case 20405 
+    wait 1
+    mpurge %object%
+    Рыч
+    emote стал похож на разъяренного буйвола.
+    крича Ти сиволачь посимел мине пиренести отказ от баскака?! Убию обоих!!!
+    wait 10
+    mkill %actor%
+  break
+  default
+    wait 1
+    say Ти чего мне принес, аслиный башка?!
+    drop %object.name
+  done
 ~
 #20345
 сумонтелохов~

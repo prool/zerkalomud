@@ -140,7 +140,7 @@ done
 триггер на дочке~
 0 q 100
 ~
-if %actor.level% >= 10 || %actor.bank% >= 20
+if ((%actor.level% >= 10) || (%actor.bank% >= 20))
   halt
 end
 wait  1
