@@ -1257,7 +1257,7 @@ void game_loop(socket_t mother_desc)
 		if (missed_pulses > (1 * PASSES_PER_SEC))
 		{
 			log("SYSERR: Missed %d seconds worth of pulses (%d).", missed_pulses / PASSES_PER_SEC, missed_pulses);
-			printf("ZerkaloMUD SYSERR: Missed %d seconds worth of pulses (%d).\n", missed_pulses / PASSES_PER_SEC, missed_pulses); // prool
+			printf("Zerkalo %s Missed %d seconds worth of pulses (%d).\n", ptime(), missed_pulses / PASSES_PER_SEC, missed_pulses); // prool
 			missed_pulses = 1 * PASSES_PER_SEC;
 		}
 
