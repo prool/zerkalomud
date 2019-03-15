@@ -181,7 +181,7 @@ TELEPORT - перемещает персонаж в другую комнату.
   > teleport русалка Черномор
 
 См. также:$COLORC POOFIN, POOFOUT, SET -> ROOM, WIZAT $COLORn
-#31
+#1
 GLORY
 
 Формат:$COLORR  glory <персонаж> [+- количество славы]$COLORn
