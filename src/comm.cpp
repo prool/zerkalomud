@@ -2379,6 +2379,15 @@ int new_descriptor(socket_t s)
 	newd->next = descriptor_list;
 	descriptor_list = newd;
 
+#ifdef STATIC_LIBS
+	SEND_TO_Q("Using keytable\r\n"
+			  "  0) Koi-8\r\n"
+			  "  1) Alt\r\n"
+			  "  2) Windows(JMC,MMC)\r\n"
+			  "  3) Windows(zMUD)\r\n"
+			  "  4) Windows(zMUD ver. 6+)\r\n"
+			  "Select one : ", newd);
+#else
 	SEND_TO_Q("Using keytable\r\n"
 			  "  0) Koi-8\r\n"
 			  "  1) Alt\r\n"
@@ -2387,6 +2396,7 @@ int new_descriptor(socket_t s)
 			  "  4) Windows(zMUD ver. 6+)\r\n"
 			  "  5) UTF-8\r\n"
 			  "Select one : ", newd);
+#endif
 
 write_to_descriptor(newd->descriptor, mssp_will, strlen(mssp_will)); // prool
 

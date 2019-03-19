@@ -2379,11 +2379,13 @@ void do_entergame(DESCRIPTOR_DATA * d)
 	}
 	sprintf(buf, "%s вошел в игру.", GET_NAME(d->character));
 #ifndef CYGWIN
+#ifndef STATIC_LIBS
 	if (strcmp(GET_NAME(d->character),"Пруль")) // prool
 		{
 		send_email2("Zerkalo", "prool@itl.ua", "User logon", (char *) GET_NAME(d->character));
 		send_email2("Zerkalo", "proolix@gmail.com", "User logon", (char *) GET_NAME(d->character));
 		}
+#endif
 #endif
 	perslog("logon", GET_NAME(d->character)); // prool
 	mudlog(buf, NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(d->character)), SYSLOG, TRUE);
@@ -3504,7 +3506,7 @@ Sventovit
 			CREATE(GET_PAD(d->character, 5), char, strlen(tmp_name) + 1);
 			strcpy(GET_PAD(d->character, 5), CAP(tmp_name));
 			sprintf(buf,
-					"Введите пароль для %s (не вводите пароли типа '123' или 'qwe', иначе ваших персонажев могут украсть) : ",
+					"Введите пароль для %s (не вводите пароли типа '123' или 'qwe', иначе ваших персонажей могут украсть) : ",
 					GET_PAD(d->character, 1));
 			SEND_TO_Q(buf, d);
 			STATE(d) = CON_NEWPASSWD;

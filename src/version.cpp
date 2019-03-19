@@ -19,7 +19,11 @@ void show_code_date(CHAR_DATA *ch)
 #ifdef CYGWIN
 	send_to_char(ch, "Зеркало-НВО, версия для Windows от %s %s\r\nСделано Прулём http://mud.kharkov.org\r\n", __DATE__, __TIME__);
 #else
+#ifdef STATIC_LIBS
+	send_to_char(ch, "Зеркало-НВО, версия со статическими библиотеками, %s %s\r\nСделано Прулём http://mud.kharkov.org\r\n", __DATE__, __TIME__);
+#else
 	send_to_char(ch, "Зеркало-НВО, версия от %s %s\r\nСделано Прулём http://mud.kharkov.org\r\n", __DATE__, __TIME__);
+#endif
 #endif
 
 	if (mudname[0])
