@@ -100,6 +100,8 @@ extern struct set_struct set_fields[];
 extern struct show_struct show_fields[];
 extern BanList *ban;
 
+extern int total_players; // prool
+
 /* external functions */
 void do_start(CHAR_DATA * ch, int newbie);
 int parse_class(char arg);
@@ -2559,6 +2561,12 @@ void nanny(DESCRIPTOR_DATA * d, char *arg)
 		};
 		d->keytable = (ubyte) * arg - (ubyte) '0';
 		ip_log(d->host);
+
+		// prool:
+		char buf0 [512];
+		sprintf(buf0,"\r\nZerkalo MUD. Online players = %i\r\n", total_players);
+		SEND_TO_Q(buf0, d);
+
 		SEND_TO_Q(GREETINGS, d);
 		STATE(d) = CON_GET_NAME;
 		break;

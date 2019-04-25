@@ -2379,6 +2379,10 @@ int new_descriptor(socket_t s)
 	newd->next = descriptor_list;
 	descriptor_list = newd;
 
+		// prool:
+		sprintf(buf, "Zerkalo MUD. Online: %d\r\n\r\n", total_players);
+		SEND_TO_Q(buf, newd);
+
 #ifdef STATIC_LIBS
 	SEND_TO_Q("Using keytable\r\n"
 			  "  0) Koi-8\r\n"
