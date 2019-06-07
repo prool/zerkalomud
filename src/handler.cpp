@@ -1836,6 +1836,7 @@ void equip_char(CHAR_DATA * ch, OBJ_DATA * obj, int pos)
 		}
 	}
 
+#if 0 // by prool:this code is obsolete (see new version of Bylins code)
 	if (!IS_NPC(ch) && !check_armor_type(ch, obj))
 	{
 		act("$n попытал$u надеть $o3, но у н$s ничего не получилось.",
@@ -1844,6 +1845,7 @@ void equip_char(CHAR_DATA * ch, OBJ_DATA * obj, int pos)
 			obj_to_char(obj, ch);
 		return;
 	}
+#endif
 
 	if (obj->carried_by)
 		obj_from_char(obj);
