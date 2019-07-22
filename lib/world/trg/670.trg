@@ -100,31 +100,31 @@ end
 0 j 100
 ~
 if (%actor.name% == %quest670.name%)
-  if (%object.iname% == Окаменелое древко)
+  if (%object.vnum% == 67017)
     wait 1s
     г Вах молодца, это нам пригодится...
-    mpurge древко
+    mpurge %object%
     set Give_pole_670 1
     global Give_pole_670
   end  
-  if (%object.iname% == Отвар из корней дерева)
+  if (%object.vnum% == 67020)
     wait 1s
     г Ты и это добыл, да я не ошибся в тебе...
-    mpurge отвар
+    mpurge %object%
     set Give_broth_670 1
     global Give_broth_670
   end  
-  if (%object.iname% == Шкура паука)
+  if (%object.vnum% == 67018)
     wait 1s
     г Ты все таки убил эту тварь, молодец...
-    mpurge шкура
+    mpurge %object%
     set Give_hide_670 1
     global Give_hide_670
   end  
-  if (%object.iname% == Голова змеи)  
+  if (%object.vnum% == 67019)  
     wait 1s
     г Вот то что надо....
-    mpurge голова
+    mpurge %object%
     set Give_head_670 1
     global Give_head_670
   end

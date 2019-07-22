@@ -527,7 +527,7 @@ if %object.vnum% == 33501
   wait 2s
   mecho Охотник начал ловко отделывать шкурку.
   calcuid varriro 33501 obj
-  mpurge %varriro.name%
+  mpurge %varriro%
   mload obj 33511
   wait 2s
   дат шкурк %actor.name%
@@ -538,7 +538,7 @@ if %object.vnum% == 33502
   wait 2s
   mecho Охотник начал ловко отделывать шкурку.
   calcuid varri 33502 obj
-  mpurge %varri.name%
+  mpurge %varri%
   mload obj 33512
   wait 2s
   дат шкурк %actor.name%
@@ -549,7 +549,7 @@ if %object.vnum% == 33504
   wait 2s
   mecho Охотник начал ловко отделывать шкурку.
   calcuid varro 33504 obj
-  mpurge %varro.name%
+  mpurge %varro%
   mload obj 33513
   wait 2s
   дат лис %actor.name%

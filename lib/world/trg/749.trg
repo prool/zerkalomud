@@ -133,8 +133,10 @@ say Ступай да яе. Пагутары па свойску, па геройскi.
 say А каб у заброшаную веску папасць, знайдзi лесавiка, што за полем у лесе жыве.
 say Ен усе тайныя тропкi у нашых месцах ведае.
 attach 74909 %self.id%
-calcuid lesh 74904 mob
-attach 74910 %lesh.id%
+if (%exist.mob(74904)%)
+  calcuid lesh 74904 mob
+  attach 74910 %lesh.id%
+end
 attach 74911 %self.id%
 detach 74908 %self.id%
 end
@@ -176,7 +178,6 @@ switch %object.vnum%
     mload obj 74901
     дать варево %actor.name%
     say Ды хутчэй да журауля бягi!
-    attach 74915 %self.id%
     attach 74914 %self.id%
     detach 74909 %self.id%
     detach 74911 %self.id%
@@ -186,7 +187,6 @@ switch %object.vnum%
 даемсэмжуравлю~
 0 j 100
 *~
-
 if (%object.vnum% == 74901)
   wait 10
   эм принюхался к зелью.

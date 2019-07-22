@@ -1,0 +1,2181 @@
+<?xml version="1.0"?>
+
+<shop_item_sets>
+	<!-- Стекло для вплавки -->
+	<shop_item_set id="GEMS">
+	        <item vnum="909" price="100" />
+        	<item vnum="910" price="100" />
+	        <item vnum="911" price="100" />
+        	<item vnum="912" price="100" />
+	        <item vnum="913" price="100" />
+        	<item vnum="914" price="100" />
+	        <item vnum="915" price="100" />
+	        <item vnum="916" price="100" />
+        	<item vnum="917" price="100" />
+	</shop_item_set> 
+
+	<!-- Бинты -->
+	<shop_item_set id="BANDAGE">
+		<item vnum="1913" price="500" />
+		<item vnum="1914" price="1000" />
+		<item vnum="1915" price="4000" />
+		<item vnum="1916" price="8000" />
+		<item vnum="1917" price="16000" />
+		<item vnum="1918" price="50000" />
+	</shop_item_set>
+
+	<!-- Базовые ингры для смастерить лук -->
+	<shop_item_set id="BASE_BOW_MATERIALS">
+	    <item vnum="1400" price="0" />
+	    <item vnum="1428" price="0" />
+	    <item vnum="1496" price="0" />
+	<!-- Пусть тут будет ключик от сундуков -->
+	<!--	    <item vnum="4094" price="0" /> -->
+	</shop_item_set>
+
+	<!-- Базовые предметы для ювелирного дела -->
+	<shop_item_set id="BASE_JEWELRY_TOOLS">
+	    <item vnum="996" price="0" />
+	    <item vnum="997" price="0" />
+	    <item vnum="998" price="0" />
+	    <item vnum="999" price="0" />
+	</shop_item_set>
+
+	<!-- Базовые предметы для горного дела -->
+	<shop_item_set id="BASE_MINING_TOOLS">
+	    <item vnum="918" price="0" />
+	    <item vnum="921" price="0" />
+	</shop_item_set>
+
+	<!-- Базовые предметы для кузнецов -->
+	<!-- Металл взят из Искоростеня и Турова. Это все как обычно временно. ж) 16.04.12 -->
+	<shop_item_set id="BASE_BLACKSMITHING_TOOLS">
+	    <item vnum="311" price="0" />
+	    <item vnum="13539" price="0" />
+	    <item vnum="13540" price="0" />
+	    <item vnum="13541" price="0" />
+	    <item vnum="13542" price="0" />
+	    <item vnum="13543" price="0" />
+	    <item vnum="13544" price="0" />
+	    <item vnum="13545" price="0" />
+	    <item vnum="13546" price="0" />
+	    <item vnum="13547" price="0" />
+	    <item vnum="13548" price="0" />
+	    <item vnum="32400" price="0" />
+	    <item vnum="32401" price="0" />
+	    <item vnum="32402" price="0" />
+	    <item vnum="32403" price="0" />
+	</shop_item_set>
+
+	<!-- Ингры для спеллов -->
+	<shop_item_set id="BASE_SPELLINGRS">
+		<item vnum="3000" price="0" />
+		<!--		<item vnum="3006" price="50000" /> -->
+	</shop_item_set>
+
+	<!-- Стандартные зелья - детект, всевидение, фреш и т.п. -->
+	<shop_item_set id="BASE_POTIONS">
+            <item vnum="140" price="0" />
+            <item vnum="141" price="0" />
+            <item vnum="142" price="0" />
+            <item vnum="143" price="0" />
+            <item vnum="144" price="0" />
+            <item vnum="145" price="0" />
+            <item vnum="147" price="0" />
+	</shop_item_set>
+
+	<!-- Добавочыные зелья - пока только полет -->
+	<shop_item_set id="ADDITIONAL_POTIONS">
+            <item vnum="177" price="5000" />
+	</shop_item_set>
+
+	<!-- Базовые свитки - возврат, починка и опознание  -->
+	<shop_item_set id="BASE_SCROLLS">
+            <item vnum="1865" price="110" />
+            <item vnum="1341" price="25" />
+	    <item vnum="1372" price="5000" />
+	</shop_item_set>
+
+	<!-- Добавочные свитки - снятия прокляти, слепоты и т.п.  -->
+	<shop_item_set id="ADDITIONAL_SCROLLS">
+            <item vnum="1334" price="2000" />
+            <item vnum="1313" price="2000" />
+	    <item vnum="1378" price="15000" />
+	    <item vnum="1839" price="12000" />
+	</shop_item_set>
+
+	<!-- Стартовые руны - огня, воды, воздуха и земли  -->
+	<shop_item_set id="BASE_RUNES">
+            <item vnum="222" price="0" />
+            <item vnum="223" price="0" />
+            <item vnum="224" price="0" />
+            <item vnum="225" price="0" />
+	</shop_item_set>
+
+	<!-- Яды для наемников -->
+	<shop_item_set id="BASE_POISONS">
+            <item vnum="1901" price="300" />
+            <item vnum="1904" price="300" />
+            <item vnum="1907" price="300" />
+            <item vnum="1910" price="300" />
+	</shop_item_set>
+
+	<!-- Емкости со стандартными зельями  -->
+	<shop_item_set id="BASE_POTION_BOTTLES">
+            <item vnum="153" price="0" />
+            <item vnum="149" price="0" />
+            <item vnum="150" price="0" />
+            <item vnum="151" price="0" />
+            <item vnum="154" price="0" />
+	</shop_item_set>
+
+	<!-- заморский стаф -->
+	<shop_item_set id="ELITE_ITEMS_1">
+            <item vnum="76052" price="75000" />
+            <item vnum="76053" price="125000" />
+            <item vnum="76054" price="87000" />
+            <item vnum="76055" price="92000" />
+            <item vnum="76056" price="96000" />
+            <item vnum="76057" price="90000" />
+            <item vnum="76058" price="110000" />
+            <item vnum="76067" price="82000" />
+	</shop_item_set>
+
+    <!-- =======  СТАНДАРТНАЯ ЕДА В МАГАЗИНАХ ========  -->
+
+	<shop_item_set id="STANDART_FOOD_-_BREAD">
+	    <item vnum="2001" price="0" />
+	    <item vnum="2002" price="0" />
+	    <item vnum="2003" price="0" />
+	    <item vnum="2004" price="0" />
+	    <item vnum="2005" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_PONE">
+	    <item vnum="2006" price="0" />
+	    <item vnum="2007" price="0" />
+	    <item vnum="2008" price="0" />
+	    <item vnum="2009" price="0" />
+	    <item vnum="2010" price="0" />
+	    <item vnum="2011" price="0" />
+	    <item vnum="2012" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_CONFECTIONERY">
+	    <item vnum="2013" price="0" />
+	    <item vnum="2014" price="0" />
+	    <item vnum="2015" price="0" />
+	    <item vnum="2016" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_PIES">
+	    <item vnum="2017" price="0" />
+	    <item vnum="2018" price="0" />
+	    <item vnum="2019" price="0" />
+	    <item vnum="2020" price="0" />
+	    <item vnum="2021" price="0" />
+	    <item vnum="2022" price="0" />
+	    <item vnum="2023" price="0" />
+	    <item vnum="2024" price="0" />
+	    <item vnum="2025" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_PANCAKES">
+	    <item vnum="2026" price="0" />
+	    <item vnum="2027" price="0" />
+	    <item vnum="2028" price="0" />
+	    <item vnum="2029" price="0" />
+	    <item vnum="2030" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_MEAT">
+	    <item vnum="2031" price="0" />
+	    <item vnum="2032" price="0" />
+	    <item vnum="2033" price="0" />
+	    <item vnum="2034" price="0" />
+	    <item vnum="2035" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_FISH">
+	    <item vnum="2036" price="0" />
+	    <item vnum="2037" price="0" />
+	    <item vnum="2038" price="0" />
+	    <item vnum="2039" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_BERRIES">
+	    <item vnum="2040" price="0" />
+	    <item vnum="2041" price="0" />
+	    <item vnum="2042" price="0" />
+	    <item vnum="2043" price="0" />
+	    <item vnum="2044" price="0" />
+	    <item vnum="2045" price="0" />
+	    <item vnum="2046" price="0" />
+	    <item vnum="2047" price="0" />
+	    <item vnum="2048" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_VEGETABLES">
+	    <item vnum="2049" price="0" />
+	    <item vnum="2050" price="0" />
+	    <item vnum="2051" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_FRUITS">
+	    <item vnum="2052" price="0" />
+	    <item vnum="2053" price="0" />
+	    <item vnum="2054" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_MUSHROOMS">
+	    <item vnum="2055" price="0" />
+	    <item vnum="2056" price="0" />
+	    <item vnum="2057" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_CHEAP_MEALS">
+	    <item vnum="2058" price="0" />
+	    <item vnum="2059" price="0" />
+	    <item vnum="2060" price="0" />
+	    <item vnum="2061" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_CEREALS">
+	    <item vnum="2062" price="0" />
+	    <item vnum="2063" price="0" />
+	    <item vnum="2064" price="0" />
+	    <item vnum="2065" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_MEALS_1">
+	    <item vnum="2030" price="0" />
+	    <item vnum="2066" price="0" />
+	    <item vnum="2068" price="0" />
+	    <item vnum="2069" price="0" />
+	    <item vnum="2070" price="0" />
+	    <item vnum="2075" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_MEALS_2">
+	    <item vnum="2067" price="0" />
+	    <item vnum="2071" price="0" />
+	    <item vnum="2072" price="0" />
+	    <item vnum="2073" price="0" />
+	    <item vnum="2074" price="0" />
+	    <item vnum="2076" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_ELITE_MEALS">
+	    <item vnum="2077" price="0" />
+	    <item vnum="2078" price="0" />
+	    <item vnum="2079" price="0" />
+	    <item vnum="2080" price="0" />
+	    <item vnum="2081" price="0" />
+	    <item vnum="2082" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_BEVERAGES">
+	    <item vnum="2083" price="0" />
+	    <item vnum="2085" price="0" />
+	    <item vnum="2086" price="0" />
+	    <item vnum="2088" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_ALCOHOLIC_BEVERAGES">
+	    <item vnum="2084" price="0" />
+	    <item vnum="2087" price="0" />
+	    <item vnum="2089" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_SPIRITS">
+	    <item vnum="2094" price="0" />
+	    <item vnum="2090" price="0" />
+	    <item vnum="2091" price="0" />
+	    <item vnum="2092" price="0" />
+	    <item vnum="2093" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_SNACKS">
+	    <item vnum="2001" price="0" />
+	    <item vnum="2034" price="0" />
+	    <item vnum="2036" price="0" />
+	    <item vnum="2038" price="0" />
+	    <item vnum="2055" price="0" />
+	</shop_item_set>
+	<shop_item_set id="STANDART_FOOD_-_SMOKED">
+	    <item vnum="2033" price="0" />
+	    <item vnum="2035" price="0" />
+	    <item vnum="2036" price="0" />
+	    <item vnum="2037" price="0" />
+	    <item vnum="2095" price="0" />
+	</shop_item_set>
+
+    <!-- =======  СТАНДАРТНАЯ ЭКИПИРОВКА В МАГАЗИНАХ ========  -->
+
+    <!-- Источник света, контейнер, емкость, бумага перо - низкий уровень  -->
+    <shop_item_set id="STANDART_ITEMS_LOW_LEVEL">
+	    <item vnum="2182" price="0" />
+	    <item vnum="2183" price="0" />
+	    <item vnum="2186" price="0" />
+	    <item vnum="2189" price="0" />
+	    <item vnum="2193" price="0" />
+	    <item vnum="2194" price="0" />
+	    <item vnum="2195" price="0" />
+    </shop_item_set>
+
+    <!-- Источник света, контейнер, емкость, бумага перо - средний уровень  -->
+    <shop_item_set id="STANDART_ITEMS_MIDDLE_LEVEL">
+	    <item vnum="2182" price="0" />
+	    <item vnum="2183" price="0" />
+	    <item vnum="2184" price="0" />
+	    <item vnum="2187" price="0" />
+	    <item vnum="2190" price="0" />
+	    <item vnum="2191" price="0" />
+	    <item vnum="2193" price="0" />
+	    <item vnum="2194" price="0" />
+	    <item vnum="2195" price="0" />
+    </shop_item_set>
+
+    <!-- Источник света, контейнер, емкость, бумага перо - высокий уровень  -->
+    <shop_item_set id="STANDART_ITEMS_HIGH_LEVEL">
+	    <item vnum="2182" price="0" />
+	    <item vnum="2183" price="0" />
+	    <item vnum="2184" price="0" />
+	    <item vnum="2185" price="0" />
+	    <item vnum="2197" price="0" />
+	    <item vnum="2188" price="0" />
+	    <item vnum="2191" price="0" />
+	    <item vnum="2192" price="0" />
+	    <item vnum="2196" price="0" />
+	    <item vnum="2193" price="0" />
+	    <item vnum="2194" price="0" />
+	    <item vnum="2195" price="0" />
+    </shop_item_set>
+
+    <!-- Тканевая одежда на низкий уровень -->
+    <shop_item_set id="STANDART_CLOTHING_LOW_LEVEL">
+	    <item vnum="2108" price="0" />
+	    <item vnum="2109" price="0" />
+	    <item vnum="2110" price="0" />
+	    <item vnum="2111" price="0" />
+	    <item vnum="2112" price="0" />
+	    <item vnum="2113" price="0" />
+	    <item vnum="2114" price="0" />
+	    <item vnum="2115" price="0" />
+	    <item vnum="1600" price="0" />
+	    <item vnum="1612" price="0" />
+    </shop_item_set>
+
+    <!-- Тканевая одежда на средний уровень -->
+    <shop_item_set id="STANDART_CLOTHING_MIDDLE_LEVEL">
+	    <item vnum="2132" price="0" />
+	    <item vnum="2133" price="0" />
+	    <item vnum="2134" price="0" />
+	    <item vnum="2135" price="0" />
+	    <item vnum="2136" price="0" />
+	    <item vnum="2137" price="0" />
+	    <item vnum="2138" price="0" />
+	    <item vnum="2139" price="0" />
+	    <item vnum="2148" price="0" />
+	    <item vnum="2149" price="0" />
+	    <item vnum="2150" price="0" />
+    </shop_item_set>
+
+    <!-- Тканевая одежда на высокий уровень -->
+    <shop_item_set id="STANDART_CLOTHING_HIGH_LEVEL">
+	    <item vnum="2160" price="0" />
+	    <item vnum="2161" price="0" />
+	    <item vnum="2162" price="0" />
+	    <item vnum="2163" price="0" />
+	    <item vnum="2164" price="0" />
+	    <item vnum="2165" price="0" />
+	    <item vnum="2166" price="0" />
+	    <item vnum="2167" price="0" />
+	    <item vnum="2176" price="0" />
+	    <item vnum="2177" price="0" />
+	    <item vnum="2178" price="0" />
+    </shop_item_set>
+
+    <!-- Кожаная броня на низкий уровень -->
+    <shop_item_set id="STANDART_LEATHER_LOW_LEVEL">
+	    <item vnum="2100" price="0" />
+	    <item vnum="2101" price="0" />
+	    <item vnum="2102" price="0" />
+	    <item vnum="2103" price="0" />
+	    <item vnum="2104" price="0" />
+	    <item vnum="2105" price="0" />
+	    <item vnum="2106" price="0" />
+	    <item vnum="2107" price="0" />
+	    <item vnum="2181" price="0" />
+    </shop_item_set>
+
+    <!-- Кожаная броня на средний уровень -->
+    <shop_item_set id="STANDART_LEATHER_MIDDLE_LEVEL">
+	    <item vnum="2124" price="0" />
+	    <item vnum="2125" price="0" />
+	    <item vnum="2126" price="0" />
+	    <item vnum="2127" price="0" />
+	    <item vnum="2128" price="0" />
+	    <item vnum="2129" price="0" />
+	    <item vnum="2130" price="0" />
+	    <item vnum="2131" price="0" />
+	    <item vnum="2151" price="0" />
+    </shop_item_set>
+
+    <!-- Кожаная броня на высокий уровень -->
+    <shop_item_set id="STANDART_LEATHER_HIGH_LEVEL">
+	    <item vnum="2152" price="0" />
+	    <item vnum="2153" price="0" />
+	    <item vnum="2154" price="0" />
+	    <item vnum="2155" price="0" />
+	    <item vnum="2156" price="0" />
+	    <item vnum="2157" price="0" />
+	    <item vnum="2158" price="0" />
+	    <item vnum="2159" price="0" />
+	    <item vnum="2179" price="0" />
+    </shop_item_set>
+
+    <!--Металлическая броня на низкий уровень -->
+    <shop_item_set id="STANDART_ARMOR_LOW_LEVEL">
+	    <item vnum="2116" price="0" />
+	    <item vnum="2117" price="0" />
+	    <item vnum="2118" price="0" />
+	    <item vnum="2119" price="0" />
+	    <item vnum="2120" price="0" />
+	    <item vnum="2121" price="0" />
+	    <item vnum="2122" price="0" />
+	    <item vnum="2123" price="0" />
+    </shop_item_set>
+
+    <!-- Металлическая броня на средний уровень -->
+    <shop_item_set id="STANDART_ARMOR_MIDDLE_LEVEL">
+	    <item vnum="2140" price="0" />
+	    <item vnum="2141" price="0" />
+	    <item vnum="2142" price="0" />
+	    <item vnum="2143" price="0" />
+	    <item vnum="2144" price="0" />
+	    <item vnum="2145" price="0" />
+	    <item vnum="2146" price="0" />
+	    <item vnum="2147" price="0" />
+    </shop_item_set>
+
+    <!-- Металлическая броня на высокий уровень -->
+    <shop_item_set id="STANDART_ARMOR_HIGH_LEVEL">
+	    <item vnum="2168" price="0" />
+	    <item vnum="2169" price="0" />
+	    <item vnum="2170" price="0" />
+	    <item vnum="2171" price="0" />
+	    <item vnum="2172" price="0" />
+	    <item vnum="2173" price="0" />
+	    <item vnum="2174" price="0" />
+	    <item vnum="2175" price="0" />
+	    <item vnum="2180" price="0" />
+    </shop_item_set>
+
+    <!-- Оружие - низкий уровень -->
+    <shop_item_set id="STANDART_WEAPON_LOW_LEVEL">
+	    <item vnum="2200" price="0" />
+	    <item vnum="2201" price="0" />
+	    <item vnum="2202" price="0" />
+	    <item vnum="2203" price="0" />
+	    <item vnum="2204" price="0" />
+	    <item vnum="2205" price="0" />
+	    <item vnum="2206" price="0" />
+	    <item vnum="2207" price="0" />
+	    <item vnum="2208" price="0" />
+	    <item vnum="2209" price="0" />
+	    <item vnum="2210" price="0" />
+	    <item vnum="2211" price="0" />
+	    <item vnum="2212" price="0" />
+	    <item vnum="2213" price="0" />
+	    <item vnum="2214" price="0" />
+	    <item vnum="2215" price="0" />
+	    <item vnum="2216" price="0" />
+	    <item vnum="2217" price="0" />
+    </shop_item_set>
+
+    <!-- Оружие - средний уровень -->
+    <shop_item_set id="STANDART_WEAPON_MIDDLE_LEVEL">
+	    <item vnum="2218" price="0" />
+	    <item vnum="2219" price="0" />
+	    <item vnum="2220" price="0" />
+	    <item vnum="2221" price="0" />
+	    <item vnum="2222" price="0" />
+	    <item vnum="2223" price="0" />
+	    <item vnum="2224" price="0" />
+	    <item vnum="2225" price="0" />
+	    <item vnum="2226" price="0" />
+	    <item vnum="2227" price="0" />
+	    <item vnum="2228" price="0" />
+	    <item vnum="2229" price="0" />
+	    <item vnum="2230" price="0" />
+	    <item vnum="2231" price="0" />
+	    <item vnum="2232" price="0" />
+	    <item vnum="2233" price="0" />
+	    <item vnum="2234" price="0" />
+	    <item vnum="2235" price="0" />
+    </shop_item_set>
+
+    <!-- Оружие - высокий уровень -->
+    <shop_item_set id="STANDART_WEAPON_HIGH_LEVEL">
+	    <item vnum="2236" price="0" />
+	    <item vnum="2237" price="0" />
+	    <item vnum="2238" price="0" />
+	    <item vnum="2239" price="0" />
+	    <item vnum="2240" price="0" />
+	    <item vnum="2241" price="0" />
+	    <item vnum="2242" price="0" />
+	    <item vnum="2243" price="0" />
+	    <item vnum="2244" price="0" />
+	    <item vnum="2245" price="0" />
+	    <item vnum="2246" price="0" />
+	    <item vnum="2247" price="0" />
+	    <item vnum="2248" price="0" />
+	    <item vnum="2249" price="0" />
+	    <item vnum="2250" price="0" />
+	    <item vnum="2251" price="0" />
+	    <item vnum="2252" price="0" />
+	    <item vnum="2253" price="0" />
+    </shop_item_set>
+
+    <!-- ======= АССОРТИМЕНТ ДОРОГИХ МАГАЗИНОВ  ========  -->
+
+    <!-- темная кожа  -->
+    <shop_item_set id="ELITE_ITEMS_DARK_LEATHER">
+	    <item vnum="3900" price="0" />
+	    <item vnum="3901" price="0" />
+	    <item vnum="3902" price="0" />
+	    <item vnum="3903" price="0" />
+	    <item vnum="3904" price="0" />
+	    <item vnum="3905" price="0" />
+	    <item vnum="3906" price="0" />
+	    <item vnum="3907" price="0" />
+    </shop_item_set>
+
+    <!-- светлая кожа  -->
+    <shop_item_set id="ELITE_ITEMS_LIGHT_LEATHER">
+	    <item vnum="3908" price="0" />
+	    <item vnum="3909" price="0" />
+	    <item vnum="3910" price="0" />
+	    <item vnum="3911" price="0" />
+	    <item vnum="3912" price="0" />
+	    <item vnum="3913" price="0" />
+	    <item vnum="3914" price="0" />
+	    <item vnum="3915" price="0" />
+    </shop_item_set>
+
+    <!-- волчий мех  -->
+    <shop_item_set id="ELITE_ITEMS_WOLF_SKIN">
+	    <item vnum="3916" price="0" />
+	    <item vnum="3917" price="0" />
+	    <item vnum="3918" price="0" />
+	    <item vnum="3919" price="0" />
+	    <item vnum="3920" price="0" />
+	    <item vnum="3921" price="0" />
+	    <item vnum="3922" price="0" />
+	    <item vnum="3923" price="0" />
+    </shop_item_set>
+
+    <!-- легкий прочный  -->
+    <shop_item_set id="ELITE_ITEMS_LIGHT_STRONG">
+	    <item vnum="3924" price="0" />
+	    <item vnum="3925" price="0" />
+	    <item vnum="3926" price="0" />
+	    <item vnum="3927" price="0" />
+	    <item vnum="3928" price="0" />
+	    <item vnum="3929" price="0" />
+	    <item vnum="3930" price="0" />
+	    <item vnum="3931" price="0" />
+    </shop_item_set>
+
+    <!-- тигровой шкуры  -->
+    <shop_item_set id="ELITE_ITEMS_TIGER_SKIN">
+	    <item vnum="3932" price="0" />
+	    <item vnum="3933" price="0" />
+	    <item vnum="3934" price="0" />
+	    <item vnum="3935" price="0" />
+	    <item vnum="3936" price="0" />
+	    <item vnum="3937" price="0" />
+	    <item vnum="3938" price="0" />
+	    <item vnum="3939" price="0" />
+    </shop_item_set>
+
+    <!-- кожи вепря  -->
+    <shop_item_set id="ELITE_ITEMS_BOAR_SKIN">
+	    <item vnum="3940" price="0" />
+	    <item vnum="3941" price="0" />
+	    <item vnum="3942" price="0" />
+	    <item vnum="3943" price="0" />
+	    <item vnum="3944" price="0" />
+	    <item vnum="3945" price="0" />
+	    <item vnum="3946" price="0" />
+	    <item vnum="3947" price="0" />
+    </shop_item_set>
+
+    <!-- кожаный с шипами  -->
+    <shop_item_set id="ELITE_ITEMS_THORN_LEATHER">
+	    <item vnum="3948" price="0" />
+	    <item vnum="3949" price="0" />
+	    <item vnum="3950" price="0" />
+	    <item vnum="3951" price="0" />
+	    <item vnum="3952" price="0" />
+	    <item vnum="3953" price="0" />
+	    <item vnum="3954" price="0" />
+	    <item vnum="3955" price="0" />
+    </shop_item_set>
+
+    <!-- дамасской стали  -->
+    <shop_item_set id="ELITE_ITEMS_DAMASK_STEEL">
+	    <item vnum="3976" price="0" />
+	    <item vnum="3977" price="0" />
+	    <item vnum="3978" price="0" />
+	    <item vnum="3979" price="0" />
+	    <item vnum="3980" price="0" />
+	    <item vnum="3981" price="0" />
+	    <item vnum="3982" price="0" />
+	    <item vnum="3983" price="0" />
+	    <item vnum="3818" price="0" />
+    </shop_item_set>
+
+    <!-- благородной стали  -->
+    <shop_item_set id="ELITE_ITEMS_RARE_STEEL">
+	    <item vnum="3984" price="0" />
+	    <item vnum="3985" price="0" />
+	    <item vnum="3986" price="0" />
+	    <item vnum="3987" price="0" />
+	    <item vnum="3988" price="0" />
+	    <item vnum="3989" price="0" />
+	    <item vnum="3990" price="0" />
+	    <item vnum="3991" price="0" />
+	    <item vnum="3992" price="0" />
+	    <item vnum="3993" price="0" />
+	    <item vnum="3994" price="0" />
+	    <item vnum="3995" price="0" />
+	    <item vnum="3996" price="0" />
+	    <item vnum="3997" price="0" />
+	    <item vnum="3998" price="0" />
+    </shop_item_set>
+
+    <!-- россыпью  -->
+    <shop_item_set id="ELITE_ITEMS_MISC">
+	    <item vnum="3956" price="0" />
+	    <item vnum="3957" price="0" />
+	    <item vnum="3958" price="0" />
+	    <item vnum="3959" price="0" />
+	    <item vnum="3960" price="0" />
+	    <item vnum="3961" price="0" />
+	    <item vnum="3962" price="0" />
+	    <item vnum="3963" price="0" />
+	    <item vnum="3964" price="0" />
+	    <item vnum="3965" price="0" />
+	    <item vnum="3967" price="0" />
+	    <item vnum="3968" price="0" />
+	    <item vnum="3969" price="0" />
+	    <item vnum="3970" price="0" />
+	    <item vnum="3971" price="0" />
+	    <item vnum="3972" price="0" />
+	    <item vnum="3973" price="0" />
+	    <item vnum="3974" price="0" />
+	    <item vnum="3975" price="0" />
+    </shop_item_set>
+
+    <!-- грубых кожаных пластин  -->
+    <shop_item_set id="ELITE_ITEMS_ROUGH_PLATES">
+	    <item vnum="3802" price="0" />
+	    <item vnum="3803" price="0" />
+	    <item vnum="3804" price="0" />
+	    <item vnum="3805" price="0" />
+	    <item vnum="3806" price="0" />
+	    <item vnum="3807" price="0" />
+	    <item vnum="3808" price="0" />
+	    <item vnum="3809" price="0" />
+	    <item vnum="3810" price="0" />
+    </shop_item_set>
+
+    <!-- вороненой стали  -->
+    <shop_item_set id="ELITE_ITEMS_BLUED_STEEL">
+	    <item vnum="3811" price="0" />
+	    <item vnum="3812" price="0" />
+	    <item vnum="3813" price="0" />
+	    <item vnum="3814" price="0" />
+	    <item vnum="3815" price="0" />
+	    <item vnum="3816" price="0" />
+	    <item vnum="3817" price="0" />
+    </shop_item_set>
+
+    <!-- заморский  -->
+    <shop_item_set id="ELITE_ITEMS_OVERSEAS">
+	    <item vnum="3825" price="0" />
+	    <item vnum="3826" price="0" />
+	    <item vnum="3827" price="0" />
+	    <item vnum="3828" price="0" />
+	    <item vnum="3829" price="0" />
+	    <item vnum="3830" price="0" />
+	    <item vnum="3831" price="0" />
+    </shop_item_set>
+
+    <!-- яркий -->
+    <shop_item_set id="ELITE_ITEMS_BRIGHT">
+	    <item vnum="3832" price="0" />
+	    <item vnum="3833" price="0" />
+	    <item vnum="3834" price="0" />
+    </shop_item_set>
+
+    <!-- харалужный -->
+    <shop_item_set id="ELITE_ITEMS_KHOROLOOG">
+	    <item vnum="3836" price="0" />
+	    <item vnum="3837" price="0" />
+	    <item vnum="3838" price="0" />
+	    <item vnum="3839" price="0" />
+	    <item vnum="3840" price="0" />
+	    <item vnum="3841" price="0" />
+	    <item vnum="3842" price="0" />
+	    <item vnum="3843" price="0" />
+	    <item vnum="3844" price="0" />
+	    <item vnum="3845" price="0" />
+	    <item vnum="3846" price="0" />
+	    <item vnum="3847" price="0" />
+	    <item vnum="3849" price="0" />
+	    <item vnum="3850" price="0" />
+    </shop_item_set>
+
+    <!-- проченой юфти -->
+    <shop_item_set id="ELITE_ITEMS_STRONG_UFT">
+	    <item vnum="3851" price="0" />
+	    <item vnum="3852" price="0" />
+	    <item vnum="3853" price="0" />
+	    <item vnum="3854" price="0" />
+	    <item vnum="3855" price="0" />
+	    <item vnum="3856" price="0" />
+    </shop_item_set>
+
+    <!-- россыпь 2 -->
+    <shop_item_set id="ELITE_ITEMS_MISC_2">
+	    <item vnum="3800" price="0" />
+	    <item vnum="3801" price="0" />
+	    <item vnum="3819" price="0" />
+	    <item vnum="3820" price="0" />
+	    <item vnum="3821" price="0" />
+	    <item vnum="3822" price="0" />
+	    <item vnum="3823" price="0" />
+	    <item vnum="3824" price="0" />
+	    <item vnum="3835" price="0" />
+	    <item vnum="3848" price="0" />
+	    <item vnum="3857" price="0" />
+	    <item vnum="1912" price="0" />
+    </shop_item_set>
+
+    <!-- ======= НАБОРЫ ДЛЯ АНТУРАЖНЫХ МАГАЗИНОВ  ========  -->
+
+    <!-- чашка японского резчика -->
+    <shop_item_set id="JAPANESE_GOODS">
+	    <item vnum="15723" price="0" />
+    </shop_item_set>
+
+    <!-- магазин рыбы в ершовой слободе -->
+    <shop_item_set id="FISH_1">
+	    <item vnum="35302" price="0" />
+	    <item vnum="35301" price="0" />
+            <item vnum="35300" price="0" />
+    </shop_item_set>
+
+    <!-- ключи в магазине в Тотьме -->
+    <shop_item_set id="TOTMA_KEYS">
+	<item vnum="62045" price="0" />
+	<item vnum="62032" price="0" />
+	<item vnum="62030" price="0" />
+	<item vnum="62029" price="0" />
+	<item vnum="62024" price="0" />
+	<item vnum="62026" price="0" />
+	<item vnum="62025" price="0" />
+	<item vnum="62034" price="0" />
+	<item vnum="62033" price="0" />
+	<item vnum="62023" price="0" />
+	<item vnum="62027" price="0" />
+	<item vnum="62031" price="0" />
+	<item vnum="62036" price="0" />
+	<item vnum="62028" price="0" />
+	<item vnum="62022" price="0" />
+	<item vnum="62035" price="0" />
+    </shop_item_set>
+
+    <!-- отвары в марьином чертге -->
+    <shop_item_set id="MARYN_CASTLE_POTIONS">
+	<item vnum="826" price="1000" />
+	<item vnum="69314" price="0" />
+	<item vnum="807" price="1000" />
+	<item vnum="69312" price="0" />
+	<item vnum="69311" price="0" />
+    </shop_item_set>
+
+    <!-- лавка в херсонесе -->
+    <shop_item_set id="KHERSONES_ITEMS_1">
+	<item vnum="189023" price="0" />
+	<item vnum="189018" price="0" />
+	<item vnum="189015" price="0" />
+	<item vnum="189014" price="0" />
+	<item vnum="189013" price="0" />
+	<item vnum="189012" price="0" />
+	<item vnum="189011" price="0" />
+	<item vnum="189010" price="0" />
+	<item vnum="189009" price="0" />
+	<item vnum="189008" price="0" />
+	<item vnum="189007" price="0" />
+	<item vnum="189006" price="0" />
+	<item vnum="189005" price="0" />
+    </shop_item_set>
+
+    <!-- магазин еды в херсонесе -->
+    <shop_item_set id="KHERSONES_FOOD_1">
+        <item vnum="189053" price="0" />
+        <item vnum="189052" price="0" />
+        <item vnum="189051" price="0" />
+        <item vnum="189049" price="0" />
+    </shop_item_set>
+
+    <!-- магазин оружия в херсонесе -->
+    <shop_item_set id="KHERSONES_WEAPONS_1">
+	<item vnum="189032" price="0" />
+	<item vnum="189031" price="0" />
+	<item vnum="189030" price="0" />
+	<item vnum="189029" price="0" />
+	<item vnum="189028" price="0" />
+	<item vnum="189027" price="0" />
+	<item vnum="189026" price="0" />
+	<item vnum="189025" price="0" />
+	<item vnum="189024" price="0" />
+	<item vnum="189023" price="0" />
+	<item vnum="189022" price="0" />
+	<item vnum="189021" price="0" />
+	<item vnum="189020" price="0" />
+    </shop_item_set>
+
+    <!-- Ростовские магазины... Есень чуть погуманней Ладона. чуть. -->
+    <shop_item_set id="ROSTOV_ITEMS_1">
+	<item vnum="85117" price="0" />
+	<item vnum="85116" price="0" />
+	<item vnum="85115" price="0" />
+	<item vnum="85110" price="0" />
+	<item vnum="85109" price="0" />
+	<item vnum="85113" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="ROSTOV_ITEMS_2">
+	<item vnum="85103" price="0" />
+	<item vnum="85104" price="0" />
+	<item vnum="85105" price="0" />
+	<item vnum="85106" price="0" />
+	<item vnum="85111" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="ROSTOV_ITEMS_3">
+	<item vnum="85107" price="0" />
+	<item vnum="85108" price="0" />
+	<item vnum="85112" price="0" />
+	<item vnum="85111" price="0" />
+	<item vnum="85103" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="ROSTOV_ITEMS_4">
+	<item vnum="85137" price="0" />
+	<item vnum="85130" price="0" />
+	<item vnum="85131" price="0" />
+	<item vnum="85132" price="0" />
+	<item vnum="85133" price="0" />
+	<item vnum="85121" price="0" />
+	<item vnum="85122" price="0" />
+	<item vnum="85123" price="0" />
+	<item vnum="85124" price="0" />
+	<item vnum="85129" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="ROSTOV_ITEMS_5">
+	<item vnum="85125" price="0" />
+	<item vnum="85126" price="0" />
+	<item vnum="85127" price="0" />
+	<item vnum="85128" price="0" />
+	<item vnum="85137" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="ROSTOV_ITEMS_6">
+	<item vnum="85137" price="0" />
+    </shop_item_set>
+
+    <!-- китайские магазины... идите нафик, не буду я выяснять, какой что продает -->
+    <shop_item_set id="CHINA_ITEMS_1">
+	<item vnum="333305" price="0" />
+	<item vnum="333300" price="0" />
+	<item vnum="333301" price="0" />
+	<item vnum="333302" price="0" />
+	<item vnum="333331" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_2">
+	<item vnum="333325" price="0" />
+	<item vnum="333326" price="0" />
+	<item vnum="333327" price="0" />
+	<item vnum="333328" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_3">
+	<item vnum="333329" price="0" />
+	<item vnum="333330" price="0" />
+	<item vnum="333332" price="0" />
+	<item vnum="333333" price="0" />
+	<item vnum="333334" price="0" />
+	<item vnum="333335" price="0" />
+	<item vnum="333336" price="0" />
+	<item vnum="333337" price="0" />
+	<item vnum="333338" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_4">
+	<item vnum="333339" price="0" />
+	<item vnum="333340" price="0" />
+	<item vnum="333341" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_5">
+	<item vnum="333342" price="0" />
+	<item vnum="333343" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_6">
+	<item vnum="333344" price="0" />
+	<item vnum="333345" price="0" />
+	<item vnum="333346" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_7">
+	<item vnum="333347" price="0" />
+	<item vnum="333348" price="0" />
+	<item vnum="333349" price="0" />
+	<item vnum="333350" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_8">
+	<item vnum="333351" price="0" />
+	<item vnum="333352" price="0" />
+	<item vnum="333353" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_9">
+	<item vnum="333354" price="0" />
+	<item vnum="333355" price="0" />
+	<item vnum="333356" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_10">
+	<item vnum="333357" price="0" />
+	<item vnum="333358" price="0" />
+	<item vnum="333359" price="0" />
+	<item vnum="333360" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_11">
+	<item vnum="333361" price="0" />
+	<item vnum="333362" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_12">
+	<item vnum="333363" price="0" />
+	<item vnum="333364" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_13">
+	<item vnum="333365" price="0" />
+	<item vnum="333366" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_14">
+	<item vnum="333367" price="0" />
+	<item vnum="333368" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_15">
+	<item vnum="333369" price="0" />
+	<item vnum="333370" price="0" />
+	<item vnum="333371" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_16">
+	<item vnum="333372" price="0" />
+	<item vnum="333373" price="0" />
+	<item vnum="333374" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_17">
+	<item vnum="333375" price="0" />
+	<item vnum="333376" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_18">
+	<item vnum="333377" price="0" />
+	<item vnum="333378" price="0" />
+	<item vnum="333379" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_19">
+	<item vnum="333380" price="0" />
+	<item vnum="333381" price="0" />
+	<item vnum="333382" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_20">
+	<item vnum="333383" price="0" />
+	<item vnum="333384" price="0" />
+	<item vnum="333385" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_21">
+	<item vnum="333386" price="0" />
+	<item vnum="333387" price="0" />
+	<item vnum="333388" price="0" />
+    </shop_item_set>
+
+    <shop_item_set id="CHINA_ITEMS_22">
+	<item vnum="333390" price="0" />
+	<item vnum="333391" price="0" />
+	<item vnum="333392" price="0" />
+    </shop_item_set>
+<!-- Лошадки-->
+    <shop_item_set id="HORSE">
+	<!-- <item vnum="2198" price="5000" /> -->
+    </shop_item_set>
+
+<!-- Наградной магазин на Прадубе у Дитриха. -->
+    <shop_item_set id="PRADUB_PRIZE_1">
+	<item vnum="96519" price="20000" />
+	<item vnum="96501" price="500000" />
+	<item vnum="96502" price="500000" />
+	<item vnum="96503" price="500000" />
+	<item vnum="96504" price="500000" />
+    </shop_item_set>
+
+    <shop_item_set id="PRADUB_PRIZE_2">
+	<item vnum="96519" price="20000" />
+	<item vnum="96503" price="500000" />
+	<item vnum="96504" price="500000" />
+	<item vnum="96505" price="500000" />
+	<item vnum="96506" price="500000" />
+    </shop_item_set>
+
+    <shop_item_set id="PRADUB_PRIZE_3">
+	<item vnum="96519" price="20000" />
+	<item vnum="96505" price="500000" />
+	<item vnum="96506" price="500000" />
+	<item vnum="96507" price="500000" />
+	<item vnum="96508" price="500000" />
+    </shop_item_set>
+
+    <shop_item_set id="PRADUB_PRIZE_4">
+	<item vnum="96519" price="20000" />
+	<item vnum="96507" price="500000" />
+	<item vnum="96508" price="500000" />
+	<item vnum="96509" price="500000" />
+	<item vnum="96510" price="500000" />
+    </shop_item_set>
+
+    <shop_item_set id="PRADUB_PRIZE_5">
+	<item vnum="96519" price="20000" />
+	<item vnum="96509" price="500000" />
+	<item vnum="96510" price="500000" />
+	<item vnum="96511" price="500000" />
+	<item vnum="96512" price="500000" />
+    </shop_item_set>
+
+    <shop_item_set id="PRADUB_PRIZE_6">
+	<item vnum="96519" price="20000" />
+	<item vnum="96511" price="500000" />
+	<item vnum="96512" price="500000" />
+	<item vnum="96513" price="500000" />
+	<item vnum="96514" price="500000" />
+    </shop_item_set>
+	
+<!-- Магазины в Новой Мад-школе-->	
+	<shop_item_set id="MUD_SCOOL_STEPAN">
+	<item vnum="75909" price="0" />
+	<item vnum="75910" price="0" />
+	<item vnum="75911" price="0" />
+	<item vnum="75912" price="0" />
+	<item vnum="75913" price="0" />
+	<item vnum="75914" price="0" />
+	<item vnum="75921" price="0" />
+	<item vnum="75922" price="0" />
+	<item vnum="75923" price="0" />
+	<item vnum="75924" price="0" />
+	<item vnum="75925" price="0" />
+	<item vnum="75926" price="0" />
+	<item vnum="75927" price="0" />
+	<item vnum="75930" price="0" />
+	<item vnum="75931" price="0" />
+	<item vnum="75932" price="0" />
+	<item vnum="75933" price="0" />
+	<item vnum="75934" price="0" />
+	</shop_item_set>
+
+    <shop_item_set id="MUD_SCOOL_ZHIR">
+	<item vnum="75936" price="0" />
+	<item vnum="75937" price="0" />
+	</shop_item_set>
+
+    <shop_item_set id="MUD_SCOOL_KARMA">
+	<item vnum="75966" price="0" />
+	<item vnum="75967" price="0" />
+	<item vnum="75968" price="0" />
+	<item vnum="75969" price="0" />
+	<item vnum="75970" price="0" />
+	<item vnum="75971" price="0" />
+	<item vnum="75972" price="0" />
+	<item vnum="75973" price="0" />
+	<item vnum="75974" price="0" />
+	<item vnum="75975" price="0" />
+	<item vnum="75976" price="0" />
+	<item vnum="75977" price="0" />
+	<item vnum="75978" price="0" />
+	<item vnum="75979" price="0" />
+	<item vnum="75980" price="0" />
+	<item vnum="75981" price="0" />
+	<item vnum="75982" price="0" />
+	<item vnum="75983" price="0" />
+	<item vnum="75984" price="0" />
+	<item vnum="75985" price="0" />
+	<item vnum="75986" price="0" />
+	<item vnum="75987" price="0" />
+	<item vnum="75939" price="0" />
+	<item vnum="75940" price="0" />
+	<item vnum="75941" price="0" />
+    </shop_item_set>
+	<!-- руны -->
+	<shop_item_set id="RUNES_NY_SHOP">
+	<!-- <item vnum="40100" price="3" /> -->
+        <item vnum="40101" price="3" />
+        <item vnum="40102" price="3" />
+        <item vnum="40107" price="3" />
+        <item vnum="40108" price="3" />
+        <item vnum="40110" price="3" />
+        <item vnum="40111" price="3" />
+        <item vnum="40113" price="3" />
+        <item vnum="40114" price="3" />
+        <item vnum="40117" price="3" />
+        <item vnum="40118" price="3" />
+        <item vnum="40119" price="3" />
+        <item vnum="40128" price="3" />
+        <item vnum="40129" price="3" />
+        <item vnum="40130" price="3" />
+        <item vnum="40131" price="3" />
+        <item vnum="40132" price="3" />
+        <item vnum="40134" price="3" />
+        <item vnum="40135" price="3" />
+        <item vnum="40136" price="3" />
+        <item vnum="40143" price="3" />
+        <item vnum="40145" price="3" />
+        <item vnum="40121" price="4" />
+        <item vnum="40104" price="5" />
+        <item vnum="40106" price="5" />   
+        <item vnum="40126" price="5" /> 
+        <item vnum="40138" price="5" /> 
+        <item vnum="40139" price="5" /> 
+        <item vnum="40103" price="6" /> 
+        <item vnum="40112" price="6" /> 
+        <item vnum="40105" price="7" /> 
+        <item vnum="40109" price="7" /> 
+        <item vnum="40115" price="7" /> 
+        <item vnum="40116" price="7" /> 
+        <item vnum="40142" price="7" /> 
+        <item vnum="40140" price="8" /> 
+        <item vnum="40141" price="8" /> 
+        <item vnum="40120" price="10" /> 
+    </shop_item_set>
+	
+	<!-- нг сеты -->
+	<shop_item_set id="NY_SETS">
+		<item vnum="2550" price="5" />
+		<item vnum="2551" price="5" />
+		<item vnum="2552" price="5" />
+		<item vnum="2553" price="5" />
+		<item vnum="2554" price="5" />
+		<item vnum="2555" price="5" />
+		<item vnum="2556" price="5" />
+		<item vnum="2557" price="5" />
+		<item vnum="2558" price="40" />
+		<item vnum="2559" price="40" />
+		<item vnum="2560" price="40" />
+		<item vnum="2561" price="40" />
+		<item vnum="2562" price="40" />
+		<item vnum="2563" price="40" />
+		<item vnum="2564" price="40" />
+		<item vnum="2565" price="40" />
+		<item vnum="2566" price="150" />
+		<item vnum="2567" price="150" />
+		<item vnum="2568" price="150" />
+		<item vnum="2569" price="150" />
+		<item vnum="2570" price="150" />
+		<item vnum="2571" price="150" />
+		<item vnum="2572" price="150" />
+		<item vnum="2573" price="150" />
+		<item vnum="50041" price="25" />
+		<item vnum="2596" price="100" />
+	</shop_item_set>
+		
+	
+	<!-- книги -->
+	<shop_item_set id="SPELLS_BOOK_NY">
+<!-- prool		<item vnum="40201" price="2" /> -->
+        <item vnum="40203" price="2" />
+        <item vnum="40213" price="2" />
+        <item vnum="40215" price="2" />
+        <item vnum="40219" price="2" />
+        <item vnum="40220" price="2" />
+        <item vnum="40301" price="2" />
+        <item vnum="40302" price="2" />
+        <item vnum="40305" price="2" />
+        <item vnum="40309" price="2" />
+        <item vnum="40312" price="2" />
+        <item vnum="40314" price="2" />
+        <item vnum="40316" price="2" />
+        <item vnum="40317" price="2" />
+        <item vnum="40318" price="2" />
+        <item vnum="40322" price="2" />
+        <item vnum="40323" price="2" />
+        <item vnum="40324" price="2" />
+        <item vnum="40327" price="2" />
+        <item vnum="40328" price="2" />
+        <item vnum="40335" price="2" />
+        <item vnum="40336" price="2" />
+        <item vnum="40337" price="2" />
+        <item vnum="40338" price="2" />
+        <item vnum="40339" price="2" />
+        <item vnum="40341" price="2" />
+        <item vnum="40342" price="2" />
+        <item vnum="40343" price="2" />
+        <item vnum="40347" price="2" />
+        <item vnum="40351" price="2" />
+        <item vnum="40353" price="2" />
+        <item vnum="40354" price="2" />
+        <item vnum="40356" price="2" />
+        <item vnum="40357" price="2" />
+        <item vnum="40360" price="2" />
+        <item vnum="40362" price="2" />
+        <item vnum="40363" price="2" />
+        <item vnum="40368" price="2" />
+        <item vnum="40370" price="2" />
+        <item vnum="40373" price="2" />
+        <item vnum="40374" price="2" />
+        <item vnum="40376" price="2" />
+        <item vnum="40384" price="2" />
+        <item vnum="40385" price="2" />
+        <item vnum="40392" price="2" />
+        <item vnum="40398" price="2" />
+        <item vnum="40401" price="2" />
+        <item vnum="40403" price="2" />
+        <item vnum="40404" price="2" />
+        
+        <item vnum="40406" price="2" />
+        <item vnum="40408" price="2" />
+        <item vnum="40410" price="2" />
+        <item vnum="40411" price="2" />
+        <item vnum="40412" price="2" />
+        
+        <item vnum="40414" price="2" />
+        <item vnum="40416" price="2" />
+        <item vnum="40417" price="2" />
+        <item vnum="40418" price="2" />
+        <item vnum="40419" price="2" />
+        
+        <item vnum="40421" price="2" />
+        <item vnum="40429" price="2" />
+        <item vnum="40430" price="2" />
+        <item vnum="40432" price="2" />
+        
+        <item vnum="40435" price="2" />
+        
+        <item vnum="40437" price="2" />
+        <item vnum="40438" price="2" />
+        <item vnum="40439" price="2" />
+        <item vnum="40441" price="2" />
+        <item vnum="40443" price="2" />
+        <item vnum="40445" price="2" />
+        <item vnum="40446" price="2" />
+        
+        <item vnum="40451" price="2" /> 
+        <item vnum="40452" price="2" />
+        <item vnum="40457" price="2" />
+        <item vnum="40460" price="2" />
+        <item vnum="40461" price="2" />
+        <item vnum="40202" price="2" />
+        <item vnum="40300" price="2" />
+        <item vnum="40311" price="2" />
+        <item vnum="40320" price="2" />
+        <item vnum="40204" price="13" />
+        <item vnum="40207" price="13" />
+        <item vnum="40304" price="13" />
+        <item vnum="40303" price="13" />
+        <item vnum="40321" price="13" />
+        <item vnum="40325" price="13" />
+        <item vnum="40326" price="13" />
+        <item vnum="40331" price="13" />
+        <item vnum="40333" price="13" />
+        <item vnum="40349" price="13" />
+        <item vnum="40359" price="13" />
+        <item vnum="40361" price="13" />
+        <item vnum="40372" price="13" />
+        <item vnum="40378" price="13" />
+        <item vnum="40386" price="13" />
+        <item vnum="40387" price="13" />
+        <item vnum="40407" price="13" />
+        <item vnum="40415" price="13" />
+        <item vnum="40427" price="13" />
+        <item vnum="40433" price="13" />
+        <item vnum="40454" price="13" />
+        <item vnum="40313" price="13" />
+        <item vnum="40200" price="14" />
+        <item vnum="40212" price="14" />
+        <item vnum="40221" price="14" />
+        <item vnum="40215" price="14" />
+        <item vnum="40315" price="14" />
+        <item vnum="40319" price="14" />
+        <item vnum="40344" price="14" />
+        <item vnum="40345" price="14" />
+        <item vnum="40346" price="14" />
+        <item vnum="40348" price="14" />
+        <item vnum="40350" price="14" />
+        <item vnum="40352" price="14" />
+        <item vnum="40358" price="14" />
+        <item vnum="40364" price="14" />
+        <item vnum="40365" price="14" />
+        <item vnum="40366" price="14" />
+        <item vnum="40371" price="14" />        
+        <item vnum="40394" price="14" />
+        <item vnum="40397" price="14" />
+        <item vnum="40409" price="14" />
+        <item vnum="40422" price="14" />
+        <item vnum="40423" price="14" />
+        <item vnum="40425" price="14" />
+        <item vnum="40426" price="14" />
+        <item vnum="40447" price="14" />
+        <item vnum="40449" price="14" />
+        <item vnum="40453" price="14" />
+        <item vnum="40455" price="14" />
+        <item vnum="40459" price="14" />
+        <item vnum="40206" price="15" />
+        <item vnum="40329" price="15" />
+        <item vnum="40334" price="15" />
+        <item vnum="40355" price="15" />
+        <item vnum="40367" price="15" />
+        <item vnum="40369" price="15" />
+        <item vnum="40375" price="15" />
+        <item vnum="40428" price="15" />
+        <item vnum="40205" price="26" />
+        <item vnum="40330" price="26" />
+        <item vnum="40332" price="26" />
+        <item vnum="40340" price="26" />
+        <item vnum="40381" price="26" />
+        <item vnum="40357" price="26" />
+        <item vnum="40396" price="26" />
+        <item vnum="40402" price="26" />
+        <item vnum="40431" price="26" />
+        <item vnum="40448" price="26" />
+        <item vnum="40462" price="26" />
+        <item vnum="40218" price="28" />
+        <item vnum="40306" price="28" />
+        <item vnum="40395" price="28" />
+        <item vnum="40216" price="115" />
+        <item vnum="40380" price="115" />
+        <item vnum="40382" price="115" />
+        <item vnum="40424" price="120" />
+        <item vnum="40440" price="120" />
+        <item vnum="40444" price="120" />
+        <item vnum="40307" price="120" />
+        <item vnum="40379" price="120" />
+        <item vnum="40388" price="125" />
+        <item vnum="40389" price="125" />
+        <item vnum="40390" price="125" />
+        <item vnum="40217" price="200" />
+        <item vnum="40310" price="200" />
+        <item vnum="40458" price="200" />
+		<item vnum="40308" price="1200" />
+		<item vnum="40211" price="1200" />
+		<item vnum="40413" price="1250" />
+		<item vnum="40436" price="1300" />
+		<item vnum="40442" price="1300" />
+		<item vnum="40420" price="1300" />
+		<item vnum="40450" price="1300" />
+		<item vnum="40405" price="1300" />
+		<item vnum="40434" price="1500" />
+        <item vnum="40209" price="1575" />
+		<item vnum="40393" price="1800" />
+	</shop_item_set>
+
+	
+</shop_item_sets>
+
+<shop_list>
+
+    <shop currency="куны" id="PROOL_SHOP" profit="40" waste_time_min="0">
+	<mob mob_vnum="2014" />
+        <item vnum="101" price="1"/>
+    </shop>
+    <shop currency="куны" id="GEMS_SHOP" profit="20" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="1900" />
+	<item_set>GEMS</item_set>
+    </shop>
+<!--	 prool
+	<shop currency="лед" id="SPELLBOOKNY_SHOP" profit="20" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="82951" />
+		<item_set>SPELLS_BOOK_NY</item_set>
+    </shop>
+
+	
+	<shop currency="лед" id="RUNES_SHOP" profit="20" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="82908" />
+		<item_set>RUNES_NY_SHOP</item_set>
+    </shop> 
+	
+	<shop currency="лед" id="RUNES_SHOP" profit="20" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="82952" />
+		<item_set>NY_SETS</item_set>
+    </shop>
+-->
+    <shop currency="куны" id="BANDAGE_SHOP" profit="20" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="1901"/>
+	<item_set>BANDAGE</item_set>
+	<item_set>GEMS</item_set>
+    </shop>
+<!-- prool
+    <shop currency="куны" id="HORSE_SHOP" profit="0" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="5004"/>
+	<mob mob_vnum="49921"/>
+	<mob mob_vnum="49954"/>
+	<mob mob_vnum="60013"/>
+	<mob mob_vnum="76005"/>
+	<item_set>HORSE</item_set>
+    </shop>
+-->
+
+    <!-- ========= МАГАЗИНЫ СВИТКОВ И ЗЕЛИЙ ========= -->
+    <shop currency="куны" id="MAGIC_SHOP" profit="30" waste_time_min="0" can_buy="false">
+	    <mob mob_vnum="85607"/>
+	<mob mob_vnum="85502"/>
+	<mob mob_vnum="85110"/>
+	<mob mob_vnum="79006"/>
+	<mob mob_vnum="77704"/>
+	<mob mob_vnum="77605"/>
+	<mob mob_vnum="77507"/>
+	<mob mob_vnum="77033"/>
+	<mob mob_vnum="76607"/>
+	<mob mob_vnum="76033"/>
+	<mob mob_vnum="75006"/>
+	<mob mob_vnum="75007"/>
+	<mob mob_vnum="73008"/>
+	<mob mob_vnum="72013"/>
+	<mob mob_vnum="71306"/>
+	<mob mob_vnum="69001"/>
+	<mob mob_vnum="68013"/>
+	<mob mob_vnum="66005"/>
+	<mob mob_vnum="64024"/>
+	<mob mob_vnum="63015"/>
+	<mob mob_vnum="62008"/>
+	<mob mob_vnum="61010"/>
+	<mob mob_vnum="60203"/>
+	<mob mob_vnum="60002"/>
+	<mob mob_vnum="58106"/>
+	<mob mob_vnum="58009"/>
+	<mob mob_vnum="49909"/>
+	<mob mob_vnum="49818"/>
+	<mob mob_vnum="42104"/>
+	<mob mob_vnum="35711"/>
+	<mob mob_vnum="35604"/>
+	<mob mob_vnum="35009"/>
+	<mob mob_vnum="34415"/>
+	<mob mob_vnum="32416"/>
+	<mob mob_vnum="31206"/>
+	<mob mob_vnum="30405"/>
+	<mob mob_vnum="30215"/>
+	<mob mob_vnum="27003"/>
+	<mob mob_vnum="25613"/>
+	<mob mob_vnum="25301"/>
+	<mob mob_vnum="25005"/>
+	<mob mob_vnum="24005"/>
+	<mob mob_vnum="23710"/>
+	<mob mob_vnum="21307"/>
+	<mob mob_vnum="21207"/>
+	<mob mob_vnum="21105"/>
+	<mob mob_vnum="21000"/>
+	<mob mob_vnum="20903"/>
+	<mob mob_vnum="18207"/>
+	<mob mob_vnum="16002"/>
+	<mob mob_vnum="15905"/>
+	<mob mob_vnum="15801"/>
+	<mob mob_vnum="14601"/>
+	<mob mob_vnum="13907"/>
+	<mob mob_vnum="13518"/>
+	<mob mob_vnum="13401"/>
+	<mob mob_vnum="13107"/>
+	<mob mob_vnum="12606"/>
+	<mob mob_vnum="12510"/>
+	<mob mob_vnum="9019"/>
+	<mob mob_vnum="8019"/>
+	<mob mob_vnum="7015"/>
+	<mob mob_vnum="6030"/>
+	<mob mob_vnum="5007"/>
+	<mob mob_vnum="82909"/>
+	<mob mob_vnum="4026"/>
+	<item_set>BASE_POTIONS</item_set>
+	<item_set>BASE_POTION_BOTTLES</item_set> 
+	<item_set>BASE_SPELLINGRS</item_set>
+	<item_set>BASE_SCROLLS</item_set>
+	<item_set>BASE_RUNES</item_set>
+	<item_set>BASE_POISONS</item_set>
+</shop>
+    <shop currency="куны" id="ADDITIONAL_MAGIC_SHOP" profit="20" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="63600"/>
+	<mob mob_vnum="27029"/>
+	<mob mob_vnum="13525"/>
+	<item_set>BASE_POTIONS</item_set>
+	<item_set>BASE_SPELLINGRS</item_set>
+	<item_set>BASE_SCROLLS</item_set>
+	<item_set>ADDITIONAL_POTIONS</item_set>
+	<item_set>ADDITIONAL_SCROLLS</item_set>
+    </shop>
+
+    <!-- ========= МАГИЗИНЫ С ЕДОЙ ========= -->
+
+    <!-- Базовый городской (клановый) магазин еды -->
+    <shop currency="куны" id="FOOD_SHOP_1" profit="45" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="85608"/>
+	<mob mob_vnum="79003"/>
+	<mob mob_vnum="77703"/>
+	<mob mob_vnum="77000"/>
+	<mob mob_vnum="75003"/>
+	<mob mob_vnum="73014"/>
+	<mob mob_vnum="72007"/>
+	<mob mob_vnum="85508"/>
+	<mob mob_vnum="77509"/>
+	<mob mob_vnum="68012"/>
+	<mob mob_vnum="66004"/>
+	<mob mob_vnum="63606"/>
+	<mob mob_vnum="64006"/>
+	<mob mob_vnum="63009"/>
+	<mob mob_vnum="62001"/>
+	<mob mob_vnum="60012"/>
+	<mob mob_vnum="58010"/>
+	<mob mob_vnum="49901"/>
+	<mob mob_vnum="49806"/>
+	<mob mob_vnum="42105"/>
+	<mob mob_vnum="31204"/>
+	<mob mob_vnum="30408"/>
+	<mob mob_vnum="35712"/>
+	<mob mob_vnum="27077"/>
+	<mob mob_vnum="25308"/>
+	<mob mob_vnum="25000"/>
+	<mob mob_vnum="24057"/>
+	<mob mob_vnum="23717"/>
+	<mob mob_vnum="21209" template="htz"/>
+	<mob mob_vnum="21102" template="tz"/>
+	<mob mob_vnum="21004"/>
+	<mob mob_vnum="18203"/>
+	<mob mob_vnum="16006"/>
+	<mob mob_vnum="16000"/>
+	<mob mob_vnum="15904"/>
+	<mob mob_vnum="15800"/>
+	<mob mob_vnum="14616"/>
+	<mob mob_vnum="13909"/>
+	<mob mob_vnum="13514"/>
+	<mob mob_vnum="13403"/>
+	<mob mob_vnum="13109"/>
+	<mob mob_vnum="12604"/>
+	<mob mob_vnum="12511"/>
+	<item_set>STANDART_FOOD_-_BREAD</item_set>
+	<item_set>STANDART_FOOD_-_PONE</item_set>
+	<item_set>STANDART_FOOD_-_CONFECTIONERY</item_set>
+	<item_set>STANDART_FOOD_-_PIES</item_set>
+	<item_set>STANDART_FOOD_-_PANCAKES</item_set>
+	<item_set>STANDART_FOOD_-_MEAT</item_set>
+	<item_set>STANDART_FOOD_-_MEALS_2</item_set>
+	<item_set>STANDART_FOOD_-_BEVERAGES</item_set>
+	<item_set>STANDART_FOOD_-_ALCOHOLIC_BEVERAGES</item_set>
+	<item_set>STANDART_FOOD_-_SPIRITS</item_set>
+    </shop>
+
+    <!-- Базовый городской (клановый) магазин еды Вариант 2 -->
+    <shop currency="куны" id="FOOD_SHOP_1_2" profit="45" waste_time_min="0" can_buy="false">
+		<mob mob_vnum="20906" template="rsp"/>
+		<item_set>STANDART_FOOD_-_BERRIES</item_set>
+		<item_set>STANDART_FOOD_-_BREAD</item_set>
+		<item_set>STANDART_FOOD_-_PONE</item_set>
+		<item_set>STANDART_FOOD_-_CONFECTIONERY</item_set>
+		<item_set>STANDART_FOOD_-_PIES</item_set>
+		<item_set>STANDART_FOOD_-_PANCAKES</item_set>
+		<item_set>STANDART_FOOD_-_MEAT</item_set>
+		<item_set>STANDART_FOOD_-_MEALS_2</item_set>
+		<item_set>STANDART_FOOD_-_BEVERAGES</item_set>
+		<item_set>STANDART_FOOD_-_ALCOHOLIC_BEVERAGES</item_set>
+    </shop>
+
+    <!-- Деревенская харчевня -->
+    <shop currency="куны" id="FOOD_SHOP_2" profit="20" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="76609"/>
+	<mob mob_vnum="62202"/>
+	<mob mob_vnum="62004"/>
+	<mob mob_vnum="61004"/>
+	<mob mob_vnum="42923"/>
+	<mob mob_vnum="35007"/>
+	<mob mob_vnum="34410"/>
+	<mob mob_vnum="32403"/>
+	<mob mob_vnum="30214"/>
+	<mob mob_vnum="25612"/>
+	<mob mob_vnum="9014"/>
+	<mob mob_vnum="8014"/>
+	<mob mob_vnum="7022"/>
+	<mob mob_vnum="6001"/>
+	<mob mob_vnum="5009"/>
+	<mob mob_vnum="4009"/>
+	<mob mob_vnum="82914"/>
+	<item_set>STANDART_FOOD_-_BREAD</item_set>
+	<item_set>STANDART_FOOD_-_BERRIES</item_set>
+	<item_set>STANDART_FOOD_-_VEGETABLES</item_set>
+	<item_set>STANDART_FOOD_-_MUSHROOMS</item_set>
+	<item_set>STANDART_FOOD_-_FISH</item_set>
+	<item_set>STANDART_FOOD_-_CHEAP_MEALS</item_set>
+	<item_set>STANDART_FOOD_-_CEREALS</item_set>
+	<item_set>STANDART_FOOD_-_BEVERAGES</item_set>
+	<item_set>STANDART_FOOD_-_SPIRITS</item_set>
+    </shop>
+
+    <!-- Притон (только выпивка и закуска)  -->
+    <shop currency="куны" id="FOOD_SHOP_3" profit="30" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="93606"/>
+	<mob mob_vnum="75001"/>
+	<mob mob_vnum="71305"/>
+	<mob mob_vnum="69003"/>
+	<mob mob_vnum="62005"/>
+	<mob mob_vnum="60201"/>
+	<mob mob_vnum="50101"/>
+	<mob mob_vnum="27004"/>
+	<mob mob_vnum="24009"/>
+	<mob mob_vnum="4024"/>
+	<item_set>STANDART_FOOD_-_SNACKS</item_set>
+	<item_set>STANDART_FOOD_-_ALCOHOLIC_BEVERAGES</item_set>
+	<item_set>STANDART_FOOD_-_SPIRITS</item_set>
+    </shop>
+
+    <!-- Дорогая столичная харчевня -->
+    <shop currency="куны" id="FOOD_SHOP_4" profit="50" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="49901"/>
+	<item_set>STANDART_FOOD_-_BREAD</item_set>
+	<item_set>STANDART_FOOD_-_PONE</item_set>
+	<item_set>STANDART_FOOD_-_CONFECTIONERY</item_set>
+	<item_set>STANDART_FOOD_-_PIES</item_set>
+	<item_set>STANDART_FOOD_-_PANCAKES</item_set>
+	<item_set>STANDART_FOOD_-_FRUITS</item_set>
+	<item_set>STANDART_FOOD_-_MEAT</item_set>
+	<item_set>STANDART_FOOD_-_MEALS_1</item_set>
+	<item_set>STANDART_FOOD_-_ELITE_MEALS</item_set>
+	<item_set>STANDART_FOOD_-_BEVERAGES</item_set>
+	<item_set>STANDART_FOOD_-_ALCOHOLIC_BEVERAGES</item_set>
+	<item_set>STANDART_FOOD_-_SPIRITS</item_set>
+    </shop>
+
+    <!-- Пекарня (магазин хлеба) -->
+    <shop currency="куны" id="FOOD_SHOP_BREAD" profit="50" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="27101"/>
+	<item_set>STANDART_FOOD_-_BREAD</item_set>
+	<item_set>STANDART_FOOD_-_PONE</item_set>
+	<item_set>STANDART_FOOD_-_CONFECTIONERY</item_set>
+	<item_set>STANDART_FOOD_-_PIES</item_set>
+    </shop>
+
+    <!-- Магазин пирожков -->
+    <shop currency="куны" id="FOOD_SHOP_PIES" profit="50" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="50115"/>
+	<item_set>STANDART_FOOD_-_PIES</item_set>
+    </shop>
+
+    <!-- ========= МАГАЗИНЫ С БРОНЕЙ И ЭКИПИРОВКОЙ ========= -->
+
+    <!--  магазин кожи и ткани - низкий уровень -->
+    <shop currency="куны" id="CLOTING_SHOP_LOW_LEVEL" profit="20" waste_time_min="0">
+	<mob mob_vnum="9022"/>
+	<mob mob_vnum="8022"/>
+	<mob mob_vnum="7021"/>
+	<mob mob_vnum="7020"/>
+	<mob mob_vnum="6009"/>
+	<mob mob_vnum="5011"/>
+	<mob mob_vnum="4055"/>
+	<mob mob_vnum="4025"/>
+	<item_set>STANDART_CLOTHING_LOW_LEVEL</item_set>
+	<item_set>STANDART_LEATHER_LOW_LEVEL</item_set>
+	<item_set>STANDART_ITEMS_LOW_LEVEL</item_set>
+    </shop>
+
+    <!--  магазин кожи и ткани - средний уровень -->
+    <shop currency="куны" id="CLOTING_SHOP_MIDDLE_LEVEL" profit="40" waste_time_min="0">
+	<mob mob_vnum="93601"/>
+	<mob mob_vnum="76606"/>
+	<mob mob_vnum="60202"/>
+	<mob mob_vnum="27010"/>
+	<mob mob_vnum="24006"/>
+	<mob mob_vnum="24004"/>
+	<item_set>STANDART_CLOTHING_MIDDLE_LEVEL</item_set>
+	<item_set>STANDART_LEATHER_MIDDLE_LEVEL</item_set>
+	<item_set>STANDART_ITEMS_MIDDLE_LEVEL</item_set>
+	<item_set>BASE_BOW_MATERIALS</item_set>
+    </shop>
+    <!--  магазин кожи и ткани - высокий уровень и кланы -->
+    <shop currency="куны" id="CLOTING_SHOP_HIGH_LEVEL" profit="30" waste_time_min="0">
+	<mob mob_vnum="85609"/>
+	<mob mob_vnum="85503" template="bu"/>
+	<mob mob_vnum="79007" template="zao"/>
+	<mob mob_vnum="77705"/>
+	<mob mob_vnum="77602" template="rk"/>
+	<mob mob_vnum="77506"/>
+	<mob mob_vnum="77032"/>
+	<mob mob_vnum="76032"/>
+	<mob mob_vnum="75008"/>
+	<mob mob_vnum="73013"/>
+	<mob mob_vnum="72010"/>
+	<mob mob_vnum="71307"/>
+	<mob mob_vnum="68001"/>
+	<mob mob_vnum="66000"/>
+	<mob mob_vnum="63601"/>
+	<mob mob_vnum="63017"/>
+	<mob mob_vnum="62007"/>
+	<mob mob_vnum="60001"/>
+	<mob mob_vnum="58104"/>
+	<mob mob_vnum="58004"/>
+	<mob mob_vnum="49925"/>
+	<mob mob_vnum="49819"/>
+	<mob mob_vnum="42103"/>
+	<mob mob_vnum="35703"/>
+	<mob mob_vnum="35602"/>
+	<mob mob_vnum="35010"/>
+	<mob mob_vnum="34414"/>
+	<mob mob_vnum="31201"/>
+	<mob mob_vnum="30404" template="lb"/>
+	<mob mob_vnum="30208"/>
+	<mob mob_vnum="25313"/>
+	<mob mob_vnum="25003"/>
+	<mob mob_vnum="23702"/>
+	<mob mob_vnum="21306"/>
+	<mob mob_vnum="21206" template="htz"/>
+	<mob mob_vnum="21119" template="tz"/>
+	<mob mob_vnum="21025" template="vs"/>
+	<mob mob_vnum="20953" template="rsp"/>
+	<mob mob_vnum="18205"/>
+	<mob mob_vnum="15920"/>
+	<mob mob_vnum="15802"/>
+	<mob mob_vnum="13906"/>
+	<mob mob_vnum="14609"/>
+	<mob mob_vnum="13517"/>
+	<mob mob_vnum="13409"/>
+	<mob mob_vnum="13106"/>
+	<mob mob_vnum="25316"/>
+	<mob mob_vnum="12649"/>
+	<mob mob_vnum="12505" template="os"/>
+	<mob mob_vnum="85107"/>
+	<mob mob_vnum="82910"/>
+	<item_set>STANDART_CLOTHING_HIGH_LEVEL</item_set>
+	<item_set>STANDART_LEATHER_HIGH_LEVEL</item_set>
+	<item_set>STANDART_ITEMS_HIGH_LEVEL</item_set>
+	<item_set>BASE_BOW_MATERIALS</item_set>
+    </shop>
+    <!-- магазин металлической брони, оружия и инструментов - низкий уровень -->
+    <shop currency="куны" id="ARMOR_AND_WEAPON_SHOP_LOW_LEVEL" profit="20" waste_time_min="0">
+	<mob mob_vnum="9004"/>
+	<mob mob_vnum="8004"/>
+	<mob mob_vnum="7019"/>
+	<!-- <mob mob_vnum="7018"/> -->
+	<mob mob_vnum="6029"/>
+	<mob mob_vnum="5003"/>
+	<mob mob_vnum="4003"/>
+	<item_set>STANDART_WEAPON_LOW_LEVEL</item_set>
+	<item_set>STANDART_ARMOR_LOW_LEVEL</item_set>
+	<item_set>BASE_BLACKSMITHING_TOOLS</item_set>
+	<item_set>BASE_MINING_TOOLS</item_set>
+    </shop>
+
+    <!-- магазин металлической брони, оружия и инструментов - средний уровень -->
+    <shop currency="куны" id="ARMOR_AND_WEAPON_SHOP_MIDDLE_LEVEL" profit="30" waste_time_min="0">
+	<mob mob_vnum="93600"/>
+	<mob mob_vnum="76605"/>
+	<mob mob_vnum="76037"/>
+	<mob mob_vnum="61009"/>
+	<mob mob_vnum="60205"/>
+	<mob mob_vnum="32406"/>
+	<mob mob_vnum="27011"/>
+	<mob mob_vnum="24002"/>
+	<item_set>STANDART_WEAPON_MIDDLE_LEVEL</item_set>
+	<item_set>STANDART_ARMOR_MIDDLE_LEVEL</item_set>
+	<item_set>BASE_BLACKSMITHING_TOOLS</item_set>
+	<item_set>BASE_MINING_TOOLS</item_set>
+	<item_set>BASE_JEWELRY_TOOLS</item_set>
+    </shop>
+
+    <!-- магазин металлической брони, оружия и инструментов - высокий уровень и кланы -->
+    <shop currency="куны" id="ARMOR_AND_WEAPON_SHOP_HIGH_LEVEL" profit="75" waste_time_min="0">
+	<mob mob_vnum="85605"/>
+	<mob mob_vnum="85504"/>
+	<mob mob_vnum="79005"/>
+	<mob mob_vnum="77706"/>
+	<mob mob_vnum="77606" template="rk"/>
+	<mob mob_vnum="71309"/>
+	<mob mob_vnum="77505"/>
+	<mob mob_vnum="77014"/>
+	<mob mob_vnum="76014"/>
+	<mob mob_vnum="75011"/>
+	<mob mob_vnum="73011"/>
+	<mob mob_vnum="72003"/>
+	<mob mob_vnum="71309"/>
+	<mob mob_vnum="69000"/>
+	<mob mob_vnum="68019"/>
+	<mob mob_vnum="66001"/>
+	<mob mob_vnum="64026"/>
+	<mob mob_vnum="63607"/>
+	<mob mob_vnum="63010"/>
+	<mob mob_vnum="62006"/>
+	<mob mob_vnum="60021"/>
+	<mob mob_vnum="58107"/>
+	<mob mob_vnum="58002"/>
+	<mob mob_vnum="49903"/>
+	<mob mob_vnum="49821"/>
+	<mob mob_vnum="42116"/>
+	<mob mob_vnum="35702"/>
+	<mob mob_vnum="35603"/>
+	<mob mob_vnum="35008"/>
+	<mob mob_vnum="34411"/>
+	<mob mob_vnum="32407"/>
+	<mob mob_vnum="31215"/>
+	<mob mob_vnum="30402"/>
+	<mob mob_vnum="30201"/>
+	<mob mob_vnum="25302"/>
+	<mob mob_vnum="25004"/>
+	<mob mob_vnum="23711"/>
+	<mob mob_vnum="21303"/>
+	<mob mob_vnum="21205" template="htz"/>
+	<mob mob_vnum="21104" template="tz"/>
+	<mob mob_vnum="21003"/>
+	<mob mob_vnum="20902" template="rsp"/>
+	<mob mob_vnum="18206"/>
+	<mob mob_vnum="16001"/>
+	<mob mob_vnum="15900"/>
+	<mob mob_vnum="15803"/>
+	<mob mob_vnum="14606"/>
+	<mob mob_vnum="13905"/>
+	<mob mob_vnum="13516"/>
+	<mob mob_vnum="13406"/>
+	<mob mob_vnum="13105"/>
+	<mob mob_vnum="12603"/>
+	<mob mob_vnum="12504" template="os"/>
+	<mob mob_vnum="82911"/>
+	<item_set>STANDART_WEAPON_HIGH_LEVEL</item_set>
+	<item_set>STANDART_ARMOR_HIGH_LEVEL</item_set>
+	<item_set>BASE_BLACKSMITHING_TOOLS</item_set>
+	<item_set>BASE_MINING_TOOLS</item_set>
+	<item_set>BASE_JEWELRY_TOOLS</item_set>
+    </shop>
+
+    <!-- Магазин только для ковки -->
+    <shop currency="куны" id="BLACSMITHING_SHOP" profit="95" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="14605"/>
+	<item_set>BASE_SCROLLS</item_set>
+	<item_set>BASE_BLACKSMITHING_TOOLS</item_set>
+    </shop>
+
+    <!-- МАГАЗИНЫ ДОРОГОГО СТАФА НА КОРАБЛЯХ -->
+
+    <shop currency="куны" id="ELITE_SHOP_ON_SHIP_1" profit="99" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="3803"/>
+	<item_set>ELITE_ITEMS_DARK_LEATHER</item_set>
+	<item_set>ELITE_ITEMS_LIGHT_LEATHER</item_set>
+    </shop>
+
+    <shop currency="куны" id="ELITE_SHOP_ON_SHIP_2" profit="99" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="3902"/>
+	<item_set>ELITE_ITEMS_THORN_LEATHER</item_set>
+	<item_set>ELITE_ITEMS_ROUGH_PLATES</item_set>
+    </shop>
+
+    <shop currency="куны" id="ELITE_SHOP_ON_SHIP_3" profit="99" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="3900"/>
+	<item_set>ELITE_ITEMS_WOLF_SKIN</item_set>
+	<item_set>ELITE_ITEMS_TIGER_SKIN</item_set>
+    </shop>
+
+    <shop currency="куны" id="ELITE_SHOP_ON_SHIP_4" profit="99" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="3802"/>
+	<item_set>ELITE_ITEMS_BOAR_SKIN</item_set>
+	<item_set>ELITE_ITEMS_LIGHT_STRONG</item_set>
+    </shop>
+
+    <shop currency="куны" id="ELITE_SHOP_ON_SHIP_5" profit="99" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="3801"/>
+	<item_set>ELITE_ITEMS_DAMASK_STEEL</item_set>
+	<item_set>ELITE_ITEMS_KHOROLOOG</item_set>
+    </shop>
+
+    <shop currency="куны" id="ELITE_SHOP_ON_SHIP_6" profit="99" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="3901"/>
+	<item_set>ELITE_ITEMS_BLUED_STEEL</item_set>
+	<item_set>ELITE_ITEMS_RARE_STEEL</item_set>
+    </shop>
+
+    <shop currency="куны" id="ELITE_SHOP_ON_SHIP_7" profit="99" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="13505"/>
+	<mob mob_vnum="3903"/>
+	<item_set>ELITE_ITEMS_STRONG_UFT</item_set>
+	<item_set>ELITE_ITEMS_MISC</item_set>
+    </shop>
+
+    <shop currency="куны" id="ELITE_SHOP_ON_SHIP_8" profit="99" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="3800"/>
+	<item_set>ELITE_ITEMS_OVERSEAS</item_set>
+	<item_set>ELITE_ITEMS_BRIGHT</item_set>
+	<item_set>ELITE_ITEMS_MISC_2</item_set>
+    </shop>
+
+    <!-- АНТУРАЖНЫЕ МАГАЗИНЫ В ЗОНАХ -->
+
+    <!-- магазин резчика в Японии -->
+    <shop currency="куны" id="JAPAN_SHOP" profit="99" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="15708"/>
+        <item_set>JAPANESE_GOODS</item_set>
+    </shop>
+
+    <!-- торговец рыбой в Ершовой Слободе -->
+    <shop currency="куны" id="FISHMANS_VILLAGE_SHOP" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="35300"/>
+        <item_set>FISH_1</item_set>
+    </shop>
+
+    <!-- магазин коптильщика на пристани Корсуни -->
+    <shop currency="куны" id="FISHMANS_VILLAGE_SHOP" profit="99" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="27100"/>
+        <item_set>STANDART_FOOD_-_SMOKED</item_set>
+    </shop>
+
+    <!-- магазин ключей у ворюги в Тотьме -->
+    <shop currency="куны" id="TOTMA_KEYS_SHOP" profit="99" waste_time_min="0" can_buy="false">
+	<mob mob_vnum="62011"/>
+	<item_set>TOTMA_KEYS</item_set>
+    </shop>
+
+    <!-- магазин зелий в марьином чертоге -->
+    <shop currency="куны" id="MARYN_CASTLE_POTIONS_SHOP" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="69309"/>
+        <item_set>MARYN_CASTLE_POTIONS</item_set>
+    </shop>
+
+    <!-- магазин в херсонесе -->
+    <shop currency="куны" id="KHERSONES_SHOP_1" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="189019"/>
+        <item_set>KHERSONES_ITEMS_1</item_set>
+    </shop>
+
+    <!-- асхана в херсонесе -->
+    <shop currency="куны" id="KHERSONES_FOOD_SHOP_1" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="189012"/>
+        <item_set>KHERSONES_FOOD_1</item_set>
+    </shop>
+
+    <!-- кузница в Херсонесе -->
+    <shop currency="куны" id="KHERSONES_WEAPON_SHOP_1" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="189014"/>
+        <item_set>KHERSONES_WEAPONS_1</item_set>
+    </shop>
+
+    <!-- антуражные магазины в Ростове -->
+
+    <shop currency="куны" id="ROSTOV_SHOP_1" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="85128"/>
+        <item_set>ROSTOV_ITEMS_1</item_set>
+    </shop>
+
+    <shop currency="куны" id="ROSTOV_SHOP_2" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="85104"/>
+        <item_set>ROSTOV_ITEMS_2</item_set>
+    </shop>
+
+    <shop currency="куны" id="ROSTOV_SHOP_3" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="85139"/>
+        <item_set>ROSTOV_ITEMS_3</item_set>
+    </shop>
+
+    <shop currency="куны" id="ROSTOV_SHOP_4" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="85109"/>
+        <item_set>ROSTOV_ITEMS_4</item_set>
+    </shop>
+
+    <shop currency="куны" id="ROSTOV_SHOP_5" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="85109"/>
+        <item_set>ROSTOV_ITEMS_5</item_set>
+    </shop>
+
+    <shop currency="куны" id="ROSTOV_SHOP_6" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="85103"/>
+	<item_set>ELITE_ITEMS_STRONG_UFT</item_set>
+        <item_set>ROSTOV_ITEMS_6</item_set>
+    </shop>
+
+    <!-- ===== китайские магазины ==== -->
+
+    <shop currency="куны" id="CHINA_SHOP_1" profit="99" waste_time_min="0" can_buy="false">
+	 <mob mob_vnum="333300"/>
+	<item_set>CHINA_ITEMS_1</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_2" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333306"/>
+        <item_set>CHINA_ITEMS_2</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_3" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333305"/>
+        <item_set>CHINA_ITEMS_3</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_4" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333307"/>
+        <item_set>CHINA_ITEMS_4</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_5" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333308"/>
+        <item_set>CHINA_ITEMS_5</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_6" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333309"/>
+        <item_set>CHINA_ITEMS_6</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_7" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333311"/>
+        <item_set>CHINA_ITEMS_7</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_8" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333313"/>
+        <item_set>CHINA_ITEMS_8</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_9" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333315"/>
+        <item_set>CHINA_ITEMS_9</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_10" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333316"/>
+        <item_set>CHINA_ITEMS_10</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_11" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333317"/>
+        <item_set>CHINA_ITEMS_11</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_12" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333301"/>
+        <item_set>CHINA_ITEMS_12</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_13" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333318"/>
+        <item_set>CHINA_ITEMS_13</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_14" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333319"/>
+        <item_set>CHINA_ITEMS_14</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_15" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333320"/>
+        <item_set>CHINA_ITEMS_15</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_16" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333321"/>
+        <item_set>CHINA_ITEMS_16</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_17" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333322"/>
+        <item_set>CHINA_ITEMS_17</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_18" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333323"/>
+        <item_set>CHINA_ITEMS_18</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_19" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333324"/>
+        <item_set>CHINA_ITEMS_19</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_20" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333325"/>
+        <item_set>CHINA_ITEMS_20</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_21" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333326"/>
+        <item_set>CHINA_ITEMS_21</item_set>
+    </shop>
+
+    <!-- китайские магазины -->
+    <shop currency="куны" id="CHINA_SHOP_22" profit="99" waste_time_min="0" can_buy="false">
+         <mob mob_vnum="333327"/>
+        <item_set>CHINA_ITEMS_22</item_set>
+    </shop>
+
+    <!-- Наградные магазины на прадубе -->
+    <!-- Вариантов шесть, но загружается только один -->
+    <shop currency="куны" id="PRADUB_PRIZES_SHOP_1" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="96533"/>
+        <item_set>PRADUB_PRIZE_1</item_set>
+    </shop>
+
+    <shop currency="куны" id="PRADUB_PRIZES_SHOP_2" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="96534"/>
+        <item_set>PRADUB_PRIZE_2</item_set>
+    </shop>
+
+    <shop currency="куны" id="PRADUB_PRIZES_SHOP_3" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="96535"/>
+        <item_set>PRADUB_PRIZE_3</item_set>
+    </shop>
+
+    <shop currency="куны" id="PRADUB_PRIZES_SHOP_4" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="96536"/>
+        <item_set>PRADUB_PRIZE_4</item_set>
+    </shop>
+
+    <shop currency="куны" id="PRADUB_PRIZES_SHOP_5" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="96537"/>
+        <item_set>PRADUB_PRIZE_5</item_set>
+    </shop>
+
+    <shop currency="куны" id="PRADUB_PRIZES_SHOP_6" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="96538"/>
+        <item_set>PRADUB_PRIZE_6</item_set>
+    </shop>
+    <!-- Магазины новой MUD-школы -->
+    <!--
+	<shop currency="куны" id="NEW_MUD_SCOOL_1" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="75917"/>
+        <item_set>MUD_SCOOL_STEPAN</item_set>
+    </shop>
+	<shop currency="куны" id="NEW_MUD_SCOOL_2" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="75926"/>
+        <item_set>MUD_SCOOL_ZHIR</item_set>
+    </shop>
+	<shop currency="куны" id="NEW_MUD_SCOOL_3" profit="99" waste_time_min="0" can_buy="false">
+        <mob mob_vnum="75925"/>
+        <item_set>MUD_SCOOL_KARMA</item_set>
+    </shop>
+-->
+
+</shop_list>

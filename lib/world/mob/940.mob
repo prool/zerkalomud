@@ -1,0 +1,1874 @@
+#94000
+хранительница аримаспов~
+хранительница аримаспов~
+хранительницы аримаспов~
+хранительнице аримаспов~
+хранительницу аримаспов~
+хранительницой аримаспов~
+хранительнице аримаспов~
+Прекрасная женщина стреляет глазками... ой... глазком.
+~
+Прекрасная воительница с огромным луком подозрительно смотрит на вас одним
+глазом.  
+~
+b0d0e0n0o0p0q0r0t0u0x0y0B0s1t1g2i2j2 c0d0e0f0k0a1n1o1p1q1r1x1y1z1b2c2e2 0 E
+1 20 0 0d0+0 0d0+0
+0d0+0 0
+8 8 2
+Size: 50
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: i3 
+E
+T 94002
+T 94003
+T 94009
+#94001
+караульный аримасп~
+караульный аримасп~
+караульного аримаспа~
+караульному аримаспу~
+караульного аримаспа~
+караульным аримаспом~
+караульном аримаспе~
+Молодой аримасп стоит в карауле.
+~
+Одноглазый парень метит в вас дротиком.
+~
+d0l0m0 0 -600 E
+40 -12 -30 10d10+10000 10d20+33
+500d20+1500 2500000
+8 8 1
+Saves: -100 -100 -100 -100
+Resistances: 60 60 60 60 50 50 50 0
+Armour: 50
+CastSuccess: 47
+Success: 30
+Initiative: 30
+Absorbe: 40
+AResist: 30
+MResist: 25
+PResist: 31
+BareHandAttack: 11
+Str: 50
+Dex: 50
+Int: 40
+Wis: 35
+Con: 50
+Cha: 10
+Size: 100
+MaxFactor: 3
+Class: 100
+Race: 100
+Height: 200
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 100
+Skill: 22 100
+Skill: 154 170
+Helper: 94006
+Helper: 94005
+Helper: 94002
+E
+T 94010
+#94002
+аримасп воин~
+аримасп воин~
+аримаспа воина~
+аримаспу воину~
+аримаспа воина~
+аримаспом воином~
+аримаспе воине~
+Матерый одноглазый воин прохаживается по лагерю.
+~
+Одноглазый воин покрытый буграми мышц и перевязями шрамов плавно передвигается
+по лагерю.  
+~
+d0m0 0 -600 E
+40 -12 -30 10d10+10000 10d20+33
+500d20+1500 2500000
+8 8 1
+Saves: -120 -120 -120 -120
+Resistances: 50 50 50 50 50 50 50 0
+Armour: 40
+CastSuccess: 47
+Success: 30
+Initiative: 100
+Absorbe: 40
+AResist: 20
+PResist: 20
+BareHandAttack: 9
+Str: 50
+Dex: 50
+Int: 40
+Wis: 35
+Con: 50
+Cha: 50
+Size: 100
+MaxFactor: 30
+Class: 100
+Race: 100
+Height: 200
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 150
+Skill: 22 150
+Skill: 132 120
+Skill: 137 100
+Skill: 154 150
+Helper: 94006
+Helper: 94005
+E
+T 94010
+#94003
+вождь дрого мужик~
+вождь Дрого~
+вождя Дрого~
+вождю Дрого~
+вождя Дрого~
+вождем Дрого~
+вожде Дрого~
+Здоровый татуированный мужик стоит здесь.
+~
+Здоровый мужик, весь покрытый татуировками, с длинной косой до пояса(странно,
+не правда ли) глядит на вас как на г... Риб.  
+~
+d0 0 -600 E
+45 -13 -10 10d1+5000 20d30+35
+100d100+0 6600000
+8 8 1
+Saves: -130 -130 -130 -130
+Resistances: 60 60 60 60 50 50 50 0
+Armour: 50
+PlusMem: 50
+CastSuccess: 100
+Success: 30
+Initiative: 30
+Absorbe: 45
+AResist: 15
+MResist: 15
+PResist: 15
+BareHandAttack: 7
+Str: 50
+Dex: 50
+Int: 35
+Wis: 35
+Con: 30
+Cha: 15
+Size: 50
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 12
+Feat: 13
+Feat: 17
+Feat: 25
+Skill: 4 160
+Skill: 5 100
+Skill: 21 100
+Skill: 22 100
+Skill: 132 160
+Skill: 136 200
+Spell: 48
+Spell: 48
+Spell: 48
+Helper: 94023
+Helper: 94024
+Helper: 94025
+Helper: 94001
+Helper: 94002
+Helper: 94006
+Helper: 94005
+E
+T 94012
+#94004
+тощий колдун~
+тощий колдун~
+тощего колдуна~
+тощему колдуну~
+тощего колдуна~
+тощим колдуном~
+тощем колдуне~
+Тощий колдунишка стоит здесь.
+~
+Тощий как щепка колдунишка в красном плаще. Судя по всему в детстве болел, да
+дристал. Оттого и веса не набрал, а без веса какая сила. А без силы не нужен
+оказался. Коли не мудрость, так и выгнали бы. А так живет себе, кофий
+заморский вождю готовит.  
+~
+b0d0l0q0u0b2h2 c0d0e0f0k0r0z0A0a1m1r1 0 E
+41 20 0 1d1+2000 1d1+1
+0d0+0 3500000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 25 20 20 30 50 50 50 0
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 30
+Initiative: 50
+Absorbe: 41
+AResist: 20
+MResist: 20
+PResist: 20
+Str: 20
+Dex: 25
+Int: 40
+Wis: 50
+Con: 10
+Cha: 20
+Size: 50
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 3
+Feat: 10
+Feat: 17
+Feat: 21
+Feat: 24
+Feat: 28
+Feat: 59
+Feat: 60
+Feat: 63
+Feat: 67
+Skill: 22 200
+Spell: 1
+Spell: 9
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 71
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 124
+Helper: 94023
+E
+T 94008
+T 94007
+#94005
+молодой аримасп~
+молодой аримасп~
+молодого аримаспа~
+молодому аримаспу~
+молодого аримаспа~
+молодым аримаспом~
+молодом аримаспе~
+Молодой воин тренируется здесь.
+~
+Мальцы от силы лет девять, но он уже прошел посвящение, добыл детеныша грифона,
+вырвал и съел его печень. А из гривы сделал папке тапки.  
+~
+d0e0m0t0x0t1 0 0 E
+39 -13 -5 1d1+2500 15d20+20
+0d0+0 2000000
+8 8 1
+Saves: -60 -50 -42 -42
+Resistances: 50 50 50 50 50 50 50 0
+Armour: 50
+CastSuccess: 44
+Success: 40
+Initiative: 40
+Absorbe: 39
+PResist: 70
+BareHandAttack: 9
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+ExtraAttack: 5
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 100
+Skill: 22 200
+Skill: 132 150
+Skill: 134 150
+Skill: 137 100
+Skill: 154 180
+E
+T 94010
+#94006
+молодой аримасп~
+молодой аримасп~
+молодого аримаспа~
+молодому аримаспу~
+молодого аримаспа~
+молодым аримаспом~
+молодому аримаспе~
+Молодой аримасп натягивает тетиву на лук.
+~
+Этому мальцу на первый взгляд лет 6, но он уже учится мастерить оружие. 
+Первый лук ему вложил в колыбельку отец. Но воин сам должен научиться делать
+себе оружие, чтобы доверять ему в любых ситуациях.  
+~
+d0m0p0q0u0x0 0 0 E
+40 -15 -10 1d1+2500 17d23+23
+0d0+0 2500000
+8 8 1
+Saves: -46 -70 -60 -100
+Resistances: 30 30 30 30 30 30 30 0
+Armour: 10
+CastSuccess: 47
+Initiative: 150
+Absorbe: 40
+AResist: 100
+MResist: 100
+BareHandAttack: 9
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+ExtraAttack: 5
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 5 150
+Skill: 134 150
+Skill: 154 150
+Skill: 160 150
+E
+T 94010
+#94007
+лысый наставник~
+лысый наставник~
+лысого наставника~
+лысому наставнику~
+лысого наставника~
+лысым наставником~
+лысом наставнике~
+Совершенно лысый воин следит за тренировками.
+~
+Этот аримасп уже стар, если так можно сказать. Прошлой луной ему стукнуло
+целых 20 лет. В одной из схваток грифоны разорвали ему мышцы на руках и он
+больше не в силах натягивать тетиву, вот и передает свои знания и умения
+молодым воинам. Передав - уйдет в закат.  
+~
+d0 c0d0e0f0r0A0C0k1m1d2e2 0 E
+33 -16 -5 10d20+1500 15d12+30
+5d10+5000 3000000
+8 8 1
+Saves: -100 -100 -100 -100
+Resistances: 50 50 50 50 50 50 50 0
+Armour: 50
+CastSuccess: 50
+Success: 50
+Initiative: 50
+Absorbe: 33
+AResist: 10
+MResist: 10
+PResist: 10
+BareHandAttack: 9
+Str: 50
+Dex: 30
+Int: 37
+Wis: 30
+Con: 20
+Cha: 37
+Size: 100
+LikeWork: 80
+MaxFactor: 1
+ExtraAttack: 4
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: g0y0b1c1 
+Feat: 3
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 17
+Skill: 4 150
+Skill: 5 150
+Skill: 154 150
+Skill: 155 120
+Skill: 157 50
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 96
+Spell: 98
+Spell: 151
+E
+#94008
+черный наставник~
+черный наставник~
+черного наставника~
+черному наставнику~
+черного наставника~
+черным наставником~
+черном наставнике~
+Одноногий мужик, черный как головешка, стоит здесь.
+~
+Этот мужик схватился один на один с верховным драконом, который его опалил
+огненным дыхаением. Победить победил, но не добил. Дракон то раны зализал, а
+ногу новую не отрастишь. Вот и передает науку молодым воинам, а как закончит
+уйдет на реванш.  
+~
+d0m0 0 0 E
+44 -13 -10 1d1+6000 20d20+20
+0d0+0 6000000
+8 8 1
+Saves: -150 -90 -62 -70
+Resistances: 50 0 50 50 50 50 50 0
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 30
+Initiative: 30
+Absorbe: 44
+AResist: 20
+MResist: 20
+PResist: 20
+BareHandAttack: 9
+Str: 35
+Dex: 35
+Int: 37
+Wis: 35
+Con: 35
+Cha: 37
+Size: 50
+ExtraAttack: 6
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 200
+Skill: 4 200
+Skill: 22 200
+Skill: 136 200
+Skill: 154 200
+Spell: 94
+Spell: 124
+Spell: 128
+Spell: 132
+Spell: 132
+Spell: 133
+E
+T 94010
+#94009
+пещерный змей~
+пещерный змей~
+пещерного змея~
+пещерному змею~
+пещерного змея~
+пещерным змеем~
+пещерном змее~
+Пещерный змей шипит здесь.
+~
+Склизкая тварь, с дубовой чешуей, так и норовит откусить вам руку, а то и
+голову. Не дай бог такая тварь во сне приснится.  
+~
+b0d0f0l0m0f2 c0d0e0f0k0 0 E
+38 -15 0 1d1+2500 13d20+20
+0d0+0 1500000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 50 0 0 50 50 50 50 0
+Armour: 50
+CastSuccess: 60
+Success: 30
+Initiative: 30
+Absorbe: 38
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+ExtraAttack: 1
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: a0 
+Feat: 1
+Feat: 2
+Skill: 1 60
+Skill: 132 100
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 82
+Spell: 88
+Spell: 104
+Spell: 104
+Spell: 113
+E
+#94010
+темный пещерный змей~
+темный пещерный змей~
+темного пещерного змея~
+темному пещерному змею~
+темного пещерного змея~
+темным пещерным змеем~
+темном пещерном змее~
+Темный змей свился в клубок.
+~
+Эта тварь живет в темноте и расцветка ее позволяет ей оставаться невидимой для
+жертвы. Чуть зазеваешься и ап. Умер. И все, конец. Нам очень жаль. Слезу
+смахнет старик отец.  
+~
+b0d0f0l0m0f2 c0d0e0f0h0k0 0 E
+40 -10 0 1d1+3000 13d20+20
+500d20+0 2500000
+8 8 1
+Saves: -75 -75 -75 -75
+Resistances: 50 0 50 50 50 50 50 0
+Armour: 50
+PlusMem: 20
+CastSuccess: 70
+Success: 35
+Initiative: 80
+Absorbe: 40
+AResist: 30
+MResist: 20
+PResist: 25
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+ExtraAttack: 3
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: a0 
+Feat: 1
+Feat: 3
+Skill: 1 70
+Skill: 5 80
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 93
+Spell: 94
+E
+#94011
+черный змей~
+черный змей~
+черного змея~
+черному змею~
+черного змея~
+черным змеем~
+черном змее~
+Огромная тварь бросилась на вас.
+~
+Хватит ли слов, чтобы описать этот ужас. Хватит ли страха, чтобы испугаться.
+Нет! Даже боги скрываются от страшилища лютого, иначе как объяснить, что оно
+еще живо.  
+~
+b0d0f0l0m0f2 c0d0e0f0h0k0r0 0 E
+42 -10 0 1d1+15000 20d30+25
+0d0+0 4000000
+8 8 1
+Saves: -120 -120 -120 -120
+Resistances: 50 50 50 50 50 50 50 0
+Armour: 50
+PlusMem: 110
+CastSuccess: 100
+Success: 45
+Initiative: 100
+Absorbe: 42
+AResist: 30
+MResist: 30
+PResist: 30
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 80
+ExtraAttack: 3
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: a0c0 
+Feat: 1
+Feat: 3
+Feat: 4
+Feat: 6
+Feat: 17
+Feat: 58
+Skill: 4 100
+Spell: 23
+Spell: 23
+Spell: 48
+Spell: 56
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 71
+Spell: 93
+Spell: 128
+Spell: 128
+Helper: 94029
+E
+T 94004
+#94012
+детеныш грифона~
+детеныш грифона~
+детеныша грифона~
+детенышу грифона~
+детеныша грифона~
+детенышем грифона~
+детеныше грифона~
+Маленький грифон играется здесь.
+~
+Маленькие они совсем не опасны, поэтому в основном становятся жертвами мальцов
+аримаспов, у которых добыча детеныша грифона является посвящением в мужчины и,
+обычно, проходит лет в шесть - семь.
+~
+b0d0f0 c0d0e0f0h0k0 0 E
+38 -10 0 1d1+2500 10d18+20
+0d0+0 1500000
+8 8 1
+Saves: -38 -38 -40 -50
+Resistances: 0 0 0 0 50 50 50 0
+Armour: 30
+PlusMem: 30
+CastSuccess: 41
+Success: 20
+Initiative: 50
+Absorbe: 38
+BareHandAttack: 8
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+ExtraAttack: 2
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: a0 
+Feat: 1
+Feat: 3
+Skill: 145 120
+Spell: 62
+Spell: 63
+Spell: 66
+Spell: 66
+Spell: 66
+E
+#94013
+молодой грифон~
+молодой грифон~
+молодого грифона~
+молодому грифону~
+молодого грифона~
+молодым грифоном~
+молодом грифоне~
+Молодой грифон чистит перья.
+~
+Этот грифон еще не вошел в полную силу, но уже может надрать кому-нибудь ту
+часть тела, что вечно приключений ищет.  
+~
+b0d0f0 c0d0e0f0h0k0 0 E
+40 -10 0 1d1+5000 10d17+20
+0d0+0 2500000
+8 8 1
+Saves: -60 -60 -60 -60
+Resistances: 30 30 30 30 50 50 50 0
+Armour: 50
+PlusMem: 50
+CastSuccess: 47
+Success: 40
+Initiative: 60
+Absorbe: 40
+AResist: 10
+MResist: 10
+PResist: 10
+BareHandAttack: 8
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 60
+ExtraAttack: 3
+Class: 100
+Race: 103
+Height: 175
+Weight: 140
+Special_Bitvector: a0 
+Feat: 1
+Feat: 3
+Skill: 5 100
+Skill: 145 120
+Skill: 160 100
+Spell: 62
+Spell: 63
+Spell: 66
+Spell: 66
+Spell: 66
+E
+#94014
+взрослый грифон~
+взрослый грифон~
+взрослого грифона~
+взрослому грифону~
+взрослого грифона~
+взрослым грифоном~
+взрослом грифоне~
+Взрослый грифон злобно клекочет.
+~
+Этот грифон уже вошел в полную силу и может в одиночку противостоять целой
+княжеской дружине.  
+~
+b0d0f0f2 c0d0e0f0h0k0 0 E
+41 -10 0 1d1+6500 20d22+20
+0d0+0 3000000
+8 8 1
+Saves: -75 -75 -75 -75
+Resistances: 60 60 60 60 50 50 50 0
+Armour: 50
+PlusMem: 100
+CastSuccess: 60
+Success: 40
+Initiative: 70
+Absorbe: 41
+AResist: 10
+MResist: 10
+PResist: 10
+BareHandAttack: 8
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 70
+ExtraAttack: 3
+Class: 100
+Race: 103
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Skill: 4 120
+Skill: 145 120
+Spell: 62
+Spell: 62
+Spell: 63
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 68
+Spell: 68
+E
+#94015
+матерый грифон~
+матерый грифон~
+матерого грифона~
+матерому грифону~
+матерого грифона~
+матерым грифоном~
+матером грифоне~
+Матерый грифон готов порвать любого в клочья.
+~
+Эта тварь невероятно опасна. Даже не думайте сражаться с ней в одиночку.
+~
+b0d0f0f2 c0d0e0f0h0k0 0 E
+42 -10 0 1d1+7000 20d30+20
+0d0+0 4000000
+8 8 1
+Saves: -100 -100 -100 -100
+Resistances: 60 60 60 60 50 50 50 0
+Armour: 50
+PlusMem: 100
+CastSuccess: 80
+Success: 40
+Initiative: 70
+Absorbe: 42
+AResist: 40
+MResist: 40
+PResist: 40
+BareHandAttack: 8
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 70
+ExtraAttack: 3
+Class: 100
+Race: 103
+Height: 175
+Weight: 140
+Special_Bitvector: a0 
+Feat: 1
+Feat: 3
+Skill: 22 120
+Skill: 146 120
+Spell: 62
+Spell: 63
+Spell: 64
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 71
+E
+#94016
+древний грифон~
+древний грифон~
+древнего грифона~
+древнему грифону~
+древнего грифона~
+древним грифоном~
+древнем грифоне~
+Древнее создание созерцает с вершины горы.
+~
+Создание древнее как мир. Сначала Род создал Велетов, но не угодили они ему,
+потом Род создал грифонов, но не угодили они ему, и только после создал Род
+богов. Можно ли победить того, кто был создан на заре веков?  
+~
+b0d0f0 c0d0e0f0h0m0n0r0x0A0C0a1k1l1m1r1t1w1 0 E
+43 -10 0 1d1+15000 30d15+25
+0d0+0 5000000
+8 8 1
+Saves: -130 -130 -130 -130
+Resistances: 75 75 75 75 50 50 50 0
+Armour: 50
+PlusMem: 100
+CastSuccess: 120
+Success: 35
+Initiative: 50
+Absorbe: 43
+AResist: 60
+MResist: 60
+PResist: 60
+BareHandAttack: 8
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 80
+ExtraAttack: 1
+Class: 100
+Race: 103
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Feat: 11
+Feat: 17
+Feat: 58
+Skill: 4 200
+Skill: 134 120
+Skill: 145 200
+Spell: 68
+Spell: 68
+Spell: 86
+Spell: 88
+Spell: 94
+Spell: 113
+Spell: 127
+Spell: 128
+Spell: 130
+Spell: 134
+Helper: 94030
+E
+T 94005
+#94017
+клубок белых змеев~
+клубок белых змеев~
+клубка белых змеев~
+клубку белых змеев~
+клубок белых змеев~
+клубком белых змеев~
+клубке белых змеев~
+Клубок белых змеев шипит здесь.
+~
+Сколько же тут змеев и не сосчитать. Но эти твари невероятно опасны.
+~
+b0d0f0 c0d0e0f0k0A0C0 -600 E
+43 -10 0 1d1+10000 10d10+50
+1d1+25000 5000000
+8 8 1
+Saves: -75 -75 -75 -75
+Resistances: 60 60 60 200 50 50 50 0
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 40
+Initiative: 100
+Absorbe: 43
+AResist: 50
+MResist: 50
+PResist: 50
+BareHandAttack: 4
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 70
+MaxFactor: 1
+ExtraAttack: 15
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 132 150
+Spell: 124
+Spell: 132
+Spell: 135
+E
+#94018
+клубок зеленых змеев~
+клубок зеленых змеев~
+клубка зеленых змеев~
+клубку зеленых змеев~
+клубок зеленых змеев~
+клубком зеленых змеев~
+клубке зеленых змеев~
+Клубок зеленых змеев шипит здесь.
+~
+Сколько же тут змеев и не сосчитать. Но эти твари невероятно опасны.
+~
+b0d0f0d2h2 c0d0e0f0r0A0 -600 E
+43 20 0 0d0+20000 1d1+1
+0d0+0 5000000
+8 8 1
+Saves: -75 -75 -75 -75
+Resistances: 50 50 200 50 50 50 50 0
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 30
+Initiative: 50
+Absorbe: 43
+AResist: 30
+MResist: 30
+PResist: 30
+BareHandAttack: 4
+Str: 30
+Dex: 30
+Int: 30
+Wis: 50
+Con: 30
+Cha: 30
+Size: 50
+LikeWork: 70
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 60
+Skill: 160 100
+Spell: 94
+Spell: 94
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 132
+Spell: 144
+E
+#94019
+клубок желтых змеев~
+клубок желтых змеев~
+клубка желтых змеев~
+клубку желтых змеев~
+клубок желтых змеев~
+клубком желтых змеев~
+клубке желтых змеев~
+Клубок желтых змеев шипит здесь.
+~
+Сколько же тут змеев и не сосчитать. Но эти твари невероятно опасны.
+~
+b0d0e0f0t0t1e2h2i2 c0d0e0f0h0r1 -600 E
+43 20 0 1d1+20000 1d1+1
+0d0+0 5000000
+8 8 1
+Saves: -75 -75 -75 -75
+Resistances: 75 200 75 75 50 50 50 0
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 30
+Initiative: 50
+Absorbe: 43
+AResist: 30
+MResist: 30
+PResist: 30
+BareHandAttack: 4
+Str: 30
+Dex: 30
+Int: 30
+Wis: 50
+Con: 30
+Cha: 30
+Size: 50
+LikeWork: 70
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 60
+Spell: 28
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 135
+E
+#94020
+клубок красных змеев~
+клубок красных змеев~
+клубка красных змеев~
+клубку красных змеев~
+клубок красных змеев~
+клубком красных змеев~
+клубке красных змеев~
+Клубок красных змеев шипит здесь.
+~
+Сколько же тут змеев - и не сосчитать. Но эти твари невероятно опасны.
+~
+b0d0f0q0u0s1a2h2 c0d0e0f0A0a1c1m1p1t1e2 0 E
+43 20 0 1d1+30000 1d1+1
+0d0+0 5000000
+8 8 1
+Saves: -75 -75 -75 -75
+Resistances: 200 70 0 70 50 50 50 0
+Armour: 50
+PlusMem: 50
+CastSuccess: 100
+Success: 30
+Initiative: 50
+Absorbe: 43
+AResist: 50
+MResist: 50
+PResist: 50
+BareHandAttack: 4
+Str: 30
+Dex: 30
+Int: 30
+Wis: 50
+Con: 30
+Cha: 30
+Size: 50
+LikeWork: 70
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: b0d0 
+Feat: 1
+Feat: 3
+Feat: 4
+Feat: 60
+Spell: 25
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 82
+Spell: 128
+Spell: 128
+Spell: 132
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+E
+#94021
+верховный дракон~
+верховный дракон~
+верховного дракона~
+верховному дракону~
+верховного дракона~
+верховным драконом~
+верховном драконе~
+Огромный дракон сияет драгоценной чешуей.
+~
+Крупнее этого дракона вам видывать не приходилось. Интересно, туша здоровая,
+крылья маленькие... Как оно летает.... Да, боги явно не учили аэродинамику...
+Ой, о чем это я.... Это наверное со страху всякая ерунда в голову лезет.  
+~
+b0d0e0f0l0m0n0o0p0q0r0t0u0x0s1b2g2h2u2 c0d0e0f0g0h0k0r0x0A0C0D0a1c1k1m1p1r1t1x1y1z1d2e2 0 E
+46 20 0 1d1+20000 10d10+10
+0d0+15000 8000000
+8 8 1
+Saves: -130 -130 -130 -130
+Resistances: 75 75 75 75 50 50 50 0
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 50
+Initiative: 50
+Absorbe: 46
+AResist: 50
+MResist: 50
+PResist: 50
+BareHandAttack: 6
+Str: 50
+Dex: 50
+Int: 50
+Wis: 50
+Con: 50
+Cha: 50
+Size: 50
+LikeWork: 100
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: c0 
+Feat: 1
+Feat: 3
+Feat: 4
+Feat: 12
+Feat: 13
+Skill: 4 150
+Skill: 5 150
+Skill: 22 150
+Skill: 132 150
+Spell: 40
+Spell: 40
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 98
+Spell: 98
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 143
+Spell: 143
+Spell: 143
+Helper: 94031
+E
+T 94006
+#94022
+пленная знахарка~
+пленная знахарка~
+пленной знахарки~
+пленной знахарке~
+пленную знахарку~
+пленной знахаркой~
+пленной знахарке~
+Пленная знахарка перебирает травки.
+~
+Плененная в походе знахарка нынче заговаривает раны Аримаспам.
+~
+d0e0l0m0q0 c0d0e0f0h0r0x0A0a1c1x1d2e2 0 E
+41 -20 -10 1d1+5000 15d15+20
+0d0+0 3500000
+8 8 2
+Saves: -75 -70 -70 -70
+Resistances: 35 30 30 50 50 50 50 0
+Armour: 10
+PlusMem: 200
+CastSuccess: 100
+Success: 15
+Initiative: 50
+Absorbe: 41
+AResist: 40
+MResist: 40
+BareHandAttack: 12
+Destination: 94016
+Destination: 94015
+Destination: 94017
+Destination: 94014
+Destination: 94013
+Destination: 94012
+Destination: 94018
+Destination: 94010
+Destination: 94011
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Feat: 3
+Feat: 4
+Feat: 10
+Feat: 16
+Feat: 17
+Feat: 21
+Skill: 144 150
+Spell: 3
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 58
+Spell: 93
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+E
+T 94010
+#94023
+древний маг~
+древний маг~
+древнего мага~
+древнему магу~
+древнего мага~
+древним магом~
+древнем маге~
+Древний маг стоит, опершись на посох.
+~
+Маг, древний как Рипейские горы, внемлет вселенной. Не стоит его отвлекать.
+~
+d0l0m0r0t0 b0c0d0e0f0g0h0r0x0A0C0a1y1 0 E
+45 -10 0 1d1+8000 10d50+10
+100d50+0 6500000
+8 8 1
+Saves: -75 -70 -70 -70
+Resistances: 50 50 50 50 50 50 50 0
+PlusMem: 200
+CastSuccess: 90
+Success: 10
+Initiative: 50
+Absorbe: 45
+AResist: 30
+MResist: 30
+PResist: 30
+BareHandAttack: 5
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+ExtraAttack: 2
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 21
+Skill: 5 110
+Skill: 141 170
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 40
+Spell: 40
+Spell: 48
+Spell: 48
+Spell: 56
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+E
+#94024
+дряхлый шаман~
+дряхлый шаман~
+дряхлого шамана~
+дряхлому шаману~
+дряхлого шамана~
+дряхлым шаманом~
+дряхлом шамане~
+Дряхлый шаман трясется от внутреннего холода.
+~
+Как же страшно надо было согрешить. Что же надо было сделать, чтобы прокляли
+сами боги. Теперь ему до конца своих дней предстоит изнывать от холода
+внутренней пустоты.  
+~
+d0e0l0m0p0r0t0 c0d0e0f0j0k1B1e2 0 E
+43 -10 0 1d1+10000 10d10+30
+20d100+0 5000000
+8 8 1
+Saves: -58 -58 -58 -58
+Resistances: 75 70 70 70 50 50 50 0
+Armour: 20
+PlusMem: 200
+CastSuccess: 120
+Success: 10
+Absorbe: 43
+AResist: 50
+MResist: 50
+PResist: 50
+BareHandAttack: 14
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Skill: 1 30
+Skill: 5 50
+Skill: 141 120
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 134
+Spell: 134
+Spell: 151
+Spell: 152
+E
+T 94010
+#94025
+ученик шамана~
+ученик шамана~
+ученика шамана~
+ученику шамана~
+ученика шамана~
+учеником шамана~
+ученике шамана~
+Ученик шамана чертит пальцем в воздухе.
+~
+Судя по блуждающему взгляду и хихиканью - ничему хорошему шаман не научит.
+~
+d0e0l0m0p0r0t0 c0d0e0f0j0k1B1e2 0 E
+43 -10 0 1d1+10000 10d10+24
+20d100+0 5000000
+8 8 1
+Saves: -58 -58 -58 -58
+Resistances: 75 70 70 70 50 50 50 0
+Armour: 20
+PlusMem: 200
+CastSuccess: 120
+Success: 10
+Absorbe: 43
+AResist: 50
+MResist: 50
+BareHandAttack: 14
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Skill: 1 30
+Skill: 5 50
+Skill: 141 120
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 96
+Spell: 112
+Spell: 144
+E
+#94026
+кривой шептун~
+кривой шептун~
+кривого шептуна~
+кривому шептуну~
+кривого шептуна~
+кривым шептуном~
+кривом шептуне~
+Окривевший мужик зашептывает раны.
+~
+Когда ума палата - сила не нужна... Жаль, что змеи об этом не знали и порвали
+жилы. Теперь мужик остался кривым на всю жизнь, хорошо, что боль зашептывать
+научился.  
+~
+d0e0l0m0q0 c0d0e0f0h0r0x0A0a1c1x1d2e2 0 E
+41 -20 -10 1d1+5000 15d15+28
+0d0+0 3500000
+8 8 1
+Saves: -75 -70 -70 -70
+Resistances: 35 30 30 50 50 50 50 0
+Armour: 10
+PlusMem: 200
+CastSuccess: 100
+Success: 15
+Initiative: 50
+Absorbe: 41
+AResist: 40
+MResist: 40
+BareHandAttack: 12
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Feat: 3
+Feat: 4
+Feat: 10
+Feat: 16
+Feat: 17
+Feat: 21
+Skill: 144 150
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 58
+Spell: 93
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+E
+#94027
+наузник~
+наузник~
+наузника~
+наузнику~
+наузника~
+наузником~
+наузнике~
+Одноглазый наузник плетет фенечки.
+~
+Мастер по созданию защитных и боевых амулетов из совершенно ненужных вещей.
+~
+d0l0m0r0t0 b0c0d0e0f0g0h0r0x0A0C0a1y1 0 E
+45 -10 0 1d1+8000 8d50+10
+100d50+0 6500000
+8 8 1
+Saves: -75 -70 -70 -70
+Resistances: 50 50 50 50 50 50 50 0
+PlusMem: 200
+CastSuccess: 90
+Success: 10
+Initiative: 50
+Absorbe: 45
+AResist: 30
+MResist: 30
+BareHandAttack: 5
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+ExtraAttack: 2
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 21
+Skill: 5 110
+Skill: 141 170
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 9
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 40
+Spell: 40
+Spell: 48
+Spell: 48
+Spell: 56
+Spell: 58
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+E
+#94028
+ручной грифон~
+ручной грифон~
+ручного грифона~
+ручному грифону~
+ручного грифона~
+ручным грифоном~
+ручном грифоне~
+Ручной грифон охраняет лагерь от чужаков.
+~
+Пойманый детеныш грифона был приручен мальцами аримаспами и теперь охраняет
+лагерь от чужаков.  
+~
+b0d0f0 c0d0e0f0h0k0 0 E
+40 -10 0 1d1+5000 10d17+20
+0d0+0 2500000
+8 8 1
+Saves: -60 -60 -60 -60
+Resistances: 30 30 30 30 50 50 50 0
+Armour: 50
+PlusMem: 50
+CastSuccess: 47
+Success: 40
+Initiative: 60
+Absorbe: 40
+AResist: 10
+MResist: 10
+BareHandAttack: 8
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+ExtraAttack: 3
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: a0 
+Feat: 1
+Feat: 3
+Skill: 5 100
+Skill: 145 120
+Skill: 160 100
+Spell: 62
+Spell: 63
+Spell: 66
+Spell: 66
+Spell: 66
+E
+#94029
+подколодная змеюка~
+подколодная змеюка~
+подколодной змеюки~
+подколодной змеюке~
+подколодную змеюку~
+подколодной змеюкой~
+подколодной змеюке~
+Пещерный змей шипит здесь.
+~
+Склизкая тварь, с дубовой чешуей, так и норовит откусить вам руку, а то и
+голову. Не дай бог такая тварь во сне приснится.  
+~
+c0d0f0l0m0p0u0A0f2g2i2 c0d0e0f0k0 -600 E
+39 -10 0 1d1+2500 10d20+20
+0d0+0 2000000
+8 8 2
+Saves: -50 -50 -50 -50
+Resistances: 50 0 0 50 50 50 50 0
+Armour: 50
+CastSuccess: 60
+Success: 30
+Initiative: 30
+Absorbe: 39
+BareHandAttack: 8
+Str: 20
+Dex: 20
+Int: 45
+Wis: 45
+Con: 15
+Cha: 20
+Size: 50
+LikeWork: 80
+Class: 103
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: m0 
+Feat: 1
+Feat: 2
+Feat: 17
+Feat: 53
+Feat: 58
+Skill: 131 120
+Skill: 134 100
+Skill: 147 100
+Skill: 160 100
+Spell: 48
+Spell: 48
+Spell: 56
+Spell: 56
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 82
+Spell: 88
+Spell: 104
+Spell: 104
+Spell: 151
+Spell: 151
+Spell: 156
+E
+#94030
+боевой грифон~
+боевой грифон~
+боевого грифона~
+боевому грифону~
+боевого грифона~
+боевым грифоном~
+боевом грифоне~
+Боевой грифон готов порвать любого.
+~
+Эта тварь невероятно опасна. Даже не думайте сражаться с ней в одиночку.
+~
+c0d0e0f0l0m0p0q0A0b1f2 c0d0e0f0h0k0 0 E
+42 -10 0 1d1+4000 20d30+20
+0d0+0 4000000
+8 8 1
+Saves: -100 -100 -100 -100
+Resistances: 60 60 60 60 50 50 50 0
+Armour: 50
+PlusMem: 100
+CastSuccess: 80
+Success: 40
+Initiative: 70
+Absorbe: 42
+AResist: 40
+MResist: 40
+BareHandAttack: 12
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 70
+ExtraAttack: 3
+Class: 100
+Race: 103
+Height: 175
+Weight: 140
+Special_Bitvector: l0 
+Feat: 1
+Feat: 3
+Feat: 6
+Skill: 22 120
+Skill: 132 150
+Skill: 146 120
+E
+#94031
+радужный змей~
+радужный змей~
+радужного змея~
+радужному змею~
+радужного змея~
+радужным змеем~
+радужном змее~
+Радужный змей ползает здесь.
+~
+Змей, переливающийся всеми цветами радуги, стоит на страже своего пращура.  
+~
+c0d0e0f0l0m0t0u0A0b1t1a2g2k2l2 c0d0e0f0A0a1c1m1p1t1e2 0 E
+43 -20 0 1d1+5000 10d10+10
+0d0+0 5000000
+8 8 1
+Saves: -75 -75 -75 -75
+Resistances: 200 70 0 70 50 50 50 0
+Armour: 50
+PlusMem: 50
+CastSuccess: 100
+Success: 30
+Initiative: 50
+Absorbe: 43
+AResist: 50
+MResist: 50
+BareHandAttack: 4
+Str: 30
+Dex: 30
+Int: 30
+Wis: 20
+Con: 30
+Cha: 30
+Size: 50
+LikeWork: 70
+Class: 100
+Race: 114
+Height: 175
+Weight: 140
+Special_Bitvector: l0 
+Feat: 1
+Feat: 3
+Feat: 4
+Feat: 18
+Feat: 25
+Feat: 29
+Feat: 54
+Feat: 57
+Skill: 1 150
+Skill: 4 150
+Skill: 136 150
+Skill: 137 150
+Skill: 160 150
+E
+$

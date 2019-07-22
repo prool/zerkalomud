@@ -472,6 +472,9 @@ wait 1s
 экипировка~
 0 c 100
 экипировка~
+wait 1
+say Для тебя у меня ничего нет, прогуляйся к мятельнику.
+halt
 бро все
 if %arg.contains(броня)%
   if (%actor.bank%<530)
@@ -708,7 +711,7 @@ msend %actor% Винные пары ударили Вам в голову.
 wait 3s
 mforce %actor% бросить чашк
 вз чашк
-mpurge чашк
+mjunk all
 wait 1s
 msend %actor% Сознание медленно покидает Вас.
 msend %actor% Глаза застилает белесый туман.
@@ -1168,8 +1171,8 @@ foreach victim %self.pc%
   if %victim.affect(затемнение)%
     say %victim.name%, многовато тьмы в твоей головушке!
     say Иди-кось, проветрись!
-    msend %actor% Тут же дюжие парни схватили вас за бока и сволокли в поруб.
-    mechoaround %actor% Тут же дюжие парни схватили %victim.vname% за бока и сволокли в поруб.
+    msend %victim% Тут же дюжие парни схватили вас за бока и сволокли в поруб.
+    mechoaround %victim% Тут же дюжие парни схватили %victim.vname% за бока и сволокли в поруб.
     mforce %victim% wake
     mforce %victim% stand
     mforce %victim% w

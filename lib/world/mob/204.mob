@@ -53,8 +53,8 @@ Spell: 48
 Spell: 98
 Spell: 98
 Spell: 98
-Helper: 20402
 Helper: 20423
+Helper: 20402
 E
 T 20415
 T 20439
@@ -141,9 +141,9 @@ Spell: 111
 Spell: 111
 Spell: 150
 Spell: 150
-Helper: 20408
-Helper: 20410
 Helper: 20423
+Helper: 20410
+Helper: 20408
 E
 T 20410
 T 20422
@@ -431,6 +431,7 @@ Saves: -10 -10 -10 -40
 Resistances: 20 20 20 20 0 0 0
 HPreg: 70
 Armour: 70
+CastSuccess: 20
 Success: 10
 Absorbe: 50
 BareHandAttack: 2
@@ -490,6 +491,7 @@ d0m0n0o0q2 k0 -600 E
 10d10+352 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 3
 Str: 34
 Dex: 28
@@ -559,6 +561,7 @@ d0m0n0o0q2 d0k0r1 -600 E
 10d10+652 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 6
 Str: 26
 Dex: 25
@@ -782,6 +785,7 @@ b0c0d0f0g0o0x0A0 b0d0k0C0r1w1 -600 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 4
 Str: 36
 Dex: 36
@@ -824,6 +828,7 @@ c0d0f0g0m0n0o0A0q1q2 d0f0k0r0 -600 E
 8 8 1
 Saves: -10 -10 -10 -10
 Armour: 55
+CastSuccess: 20
 Absorbe: 90
 BareHandAttack: 9
 Str: 35
@@ -902,6 +907,7 @@ c0d0f0g0m0n0o0A0q1o2 d0f0k0r0 -600 E
 8 8 1
 Saves: -60 -10 -10 -10
 Armour: 50
+CastSuccess: 20
 Absorbe: 90
 BareHandAttack: 7
 Str: 36
@@ -1052,8 +1058,8 @@ Spell: 152
 Spell: 152
 Spell: 152
 Spell: 152
-Helper: 20418
 Helper: 20401
+Helper: 20418
 E
 T 20429
 T 20430
@@ -1150,6 +1156,7 @@ b0d0m0n0o0q2r2 d0k0t1 -600 E
 Saves: -15 -15 -15 -15
 Resistances: 35 35 35 35 0 0 0
 Armour: 90
+CastSuccess: 23
 Success: 5
 Initiative: 5
 Absorbe: 95

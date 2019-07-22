@@ -55,6 +55,7 @@ say Я знал, что найдется смельчак!
 say Вот, держи ключ от погреба.
 mload obj 77301
 дать ключ %actor.name%
+брос ключ
 say Он сразу за мной. Ступай же, я в долгу не останусь!
 attach 77305 %self.id%
 detach 77303 %self.id%
@@ -141,7 +142,19 @@ switch %object.vnum%
       msend %actor% Старик дал небольшую кучку кун.
       %actor.gold(+1000)%
     end
+    if (%random.4% <= 2)
+      mload obj 418
+      дать книг %actor.name%
+      say Есть у меня книга с рецептами самых вкусных блюд, теперь она твоя.
+    end
     detach 77307 %self.id%
+  break
+  default
+    нет
+    say Мне это не нужно
+    return 0
+  break
+done
 ~
 #77308
 зашел к волшу~

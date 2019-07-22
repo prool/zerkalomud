@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="koi8-r"?>
-
 <!--  
 <celebrates>
  <celebratesMono> - праздники для христиан
 	....
  </celebratesMono>
-
  <celebratesPoly>  - праздники для язычников
-
   <celebrate day="13" month="06" start="10" end="10" name="Какой-то праздник">  
 -  список плюшек от праздника
    <applies>
@@ -23,12 +20,10 @@
 	...
      </obj>
    </attaches>
-
 - список комнат, куда будут загружены мобы, объекты, приаттачены триггера.
    к мобу и объекту при загрузке можно также присоединить триггера. 
 	можно загрузить в моба или объект-контейнер другой объект, тоже с триггерами.
 	"матрешки" не обрабатываются
-
     <room vnum="">
      <mob vnum="" max="">
        <obj vnum="" max=""> - объект будет загружен в моба
@@ -50,21 +45,15 @@
          	... 
    </room>
   </celebrate>
-
 	  .....
-
  </celebratesPoly>
-
  <celebratesReal>   - праздники в РЛ
 	....
  </celebratesReal>
 </celebrates>
-
 -->
 <celebrates>
-
 <celebratesMono>
-
 <celebrate day="7" month="1" start="240" end="240" name="Рождество Христово"></celebrate>
 <celebrate day="14" month="1" start="0" end="0" name="Обрезание Господне"></celebrate>
 <celebrate day="19" month="1" start="0" end="0" name="Крещение Господне (Святое Богоявление)"></celebrate>
@@ -82,11 +71,8 @@
 <celebrate day="14" month="8" start="0" end="0" name="Происхождение (изнесение) честных древ Животворящего Креста Господня (медовый спас)"></celebrate>
 <celebrate day="27" month="9" start="0" end="0" name="Воздвижение Честного и Животворящего Креста Господня"></celebrate>
 <celebrate day="23" month="11" start="0" end="0" name="День памяти святого Георгия Победоносца"></celebrate>
-
 </celebratesMono>
-
 <celebratesPoly>
-
 <celebrate day="1" month="1" start="240" end="240" name="Новый год"></celebrate>
 <celebrate day="6" month="1" start="0" end="0" name="Турицы"></celebrate>
 <celebrate day="8" month="1" start="0" end="0" name="Бабьи каши"></celebrate>
@@ -128,22 +114,24 @@
 <celebrate day="22" month="12" start="0" end="0" name="Карачун"></celebrate>
 <celebrate day="25" month="12" start="0" end="0" name="Коляда"></celebrate>
 <celebrate day="31" month="12" start="0" end="0" name="Щедрец"></celebrate>
-
 </celebratesPoly>
-
 <celebratesReal>
-
-<celebrate day="1" month="1" start="336" end="168" name="Новый год">
-<!-- летучий корабль -->
+<celebrate day="1" month="1" start="222" end="222" name="Новый год">
+<!-- летучий корабль 
     <room vnum="2501">
-	<trig vnum="2508"/>
+		<trig vnum="2508"/>
     </room>
+-->
 <!-- елка -->
 	<room vnum="100">
 		<obj vnum="11202" max="1">
 		</obj>
 	</room>
 	<room vnum="4056">
+		<obj vnum="2548" max="1">
+		</obj>
+	</room>
+	<room vnum="49819">
 		<obj vnum="2548" max="1">
 		</obj>
 	</room>
@@ -172,6 +160,10 @@
 		</obj>
 	</room>
 	<room vnum="60036">
+		<obj vnum="2548" max="1">
+		</obj>
+	</room>
+	<room vnum="79044">
 		<obj vnum="2548" max="1">
 		</obj>
 	</room>
@@ -343,7 +335,27 @@
 		<obj vnum="2548" max="1">
 		</obj>
 	</room>
+	<room vnum="85146">
+		<obj vnum="2548" max="1">
+		</obj>
+	</room>
 	<room vnum="42103">
+		<obj vnum="2548" max="1">
+		</obj>
+	</room>
+	<room vnum="21211">
+		<obj vnum="2548" max="1">
+		</obj>
+	</room>
+	<room vnum="12662">
+		<obj vnum="2548" max="1">
+		</obj>
+	</room>
+	<room vnum="25327">
+		<obj vnum="2548" max="1">
+		</obj>
+	</room>
+	<room vnum="12510">
 		<obj vnum="2548" max="1">
 		</obj>
 	</room>
@@ -412,11 +424,27 @@
 		<obj vnum="2536" max="1">
 		</obj>
 	</room>
+	<room vnum="82954">
+		<obj vnum="2536" max="1">
+		</obj>
+	</room>
+	<room vnum="85540">
+		<obj vnum="2536" max="1">
+		</obj>
+	</room>
 	<room vnum="15906">
 		<obj vnum="2536" max="1">
 		</obj>
 	</room>
 	<room vnum="23744">
+		<obj vnum="2536" max="1">
+		</obj>
+	</room>
+	<room vnum="21211">
+		<obj vnum="2536" max="1">
+		</obj>
+	</room>
+	<room vnum="12662">
 		<obj vnum="2536" max="1">
 		</obj>
 	</room>
@@ -502,6 +530,10 @@
 		<obj vnum="2538" max="1">
 		</obj>
 	</room>
+	<room vnum="82954">
+		<obj vnum="2548" max="1">
+		</obj>
+	</room>
 	<room vnum="63046">
 		<obj vnum="2538" max="1">
 		</obj>
@@ -547,6 +579,14 @@
 		<obj vnum="2539" max="1">
 		</obj>
 	</room>
+	<room vnum="49819">
+		<obj vnum="2539" max="1">
+		</obj>
+	</room>
+	<room vnum="4056">
+		<obj vnum="2539" max="1">
+		</obj>
+	</room>
 	<room vnum="5031">
 		<obj vnum="2539" max="1">
 		</obj>
@@ -587,11 +627,19 @@
 		<obj vnum="2539" max="1">
 		</obj>
 	</room>
+	<room vnum="82929">
+		<obj vnum="2539" max="1">
+	    </obj>
+	</room>
 	<room vnum="73050">
 		<obj vnum="2539" max="1">
 		</obj>
 	</room>
 	<room vnum="24031">
+		<obj vnum="2539" max="1">
+		</obj>
+	</room>
+	<room vnum="25327">
 		<obj vnum="2539" max="1">
 		</obj>
 	</room>
@@ -612,6 +660,10 @@
 		</obj>
 	</room>
 	<room vnum="71300">
+		<obj vnum="2539" max="1">
+		</obj>
+	</room>
+	<room vnum="85146">
 		<obj vnum="2539" max="1">
 		</obj>
 	</room>
@@ -669,6 +721,10 @@
 		</obj>
 	</room>
 	<room vnum="21186">
+		<obj vnum="2540" max="1">
+		</obj>
+	</room>
+	<room vnum="12510">
 		<obj vnum="2540" max="1">
 		</obj>
 	</room>
@@ -1039,6 +1095,136 @@
 		<obj vnum="2547" max="1">
 		</obj>
 	</room>
+<!-- квесты потушить огни -->
+	<room vnum="4011">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="5004">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="6035">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="7048">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="8031">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="9023">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="13569">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="18244">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="24025">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="25009">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="27015">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="30224">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="32478">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="34420">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="35008">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="49974">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="60034">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="60222">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="62027">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="63029">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="63608">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="64049">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="66027">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="68087">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="69075">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="72008">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="73082">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="75075">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="76035">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="77046">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+	<room vnum="85148">
+		<mob vnum="58310" max="31">
+		</mob>
+	</room>
+<!-- дед мороз, лоадящий снежинки -->
+	<room vnum="2500">
+		<mob vnum="2500" max="1">
+		</mob>
+	</room>
 </celebrate>
 <celebrate day="14" month="1" start="0" end="0" name="Старый Новый год"></celebrate>
 <celebrate day="31" month="1" start="0" end="0" name="День рождения русской водки"></celebrate>
@@ -1057,8 +1243,5 @@
 <celebrate day="1" month="9" start="0" end="0" name="День знаний"></celebrate>
 <celebrate day="30" month="9" start="0" end="0" name="День интернета в России"></celebrate>
 <celebrate day="6" month="11" start="0" end="0" name="Всемирный день мужчин"></celebrate>
-
 </celebratesReal>
-
 </celebrates>
-

@@ -63,6 +63,9 @@ detach 15903 %self%
 Клан Стаф~
 0 c 0
 доспехи~
+wait 1
+say Для тебя у меня ничего нет, прогуляйся к мятельнику.
+halt
 drop all
 if %actor.bank% < 500
   брык %actor.name%
@@ -295,7 +298,7 @@ mpurge %self%
 wait 2
 follow див
 wait 1
-if %self.name% == див
+if (%self.vnum% == 15913)
   group all
 end
 wait 2s

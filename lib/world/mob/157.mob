@@ -15,6 +15,8 @@ b0c0d0g0m0n0t0A0 d0f0k0r0 -600 E
 7d6+50 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
+Absorbe: 31
 Str: 29
 Dex: 21
 Int: 30
@@ -64,6 +66,8 @@ b0c0d0g0n0p0x0 d0k0 0 E
 0d0+0 450000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
+Absorbe: 32
 Str: 17
 Dex: 17
 Int: 30
@@ -122,6 +126,8 @@ b0c0d0g0m0n0t0A0 d0k0r0 -600 E
 7d60+100 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
+Absorbe: 31
 Str: 29
 Dex: 21
 Int: 30
@@ -169,6 +175,8 @@ b0c0d0f0g0l0n0p0q0A0 d0f0k0r0s0t0j1 -600 E
 0d0+0 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
+Absorbe: 32
 Str: 24
 Dex: 31
 Int: 31
@@ -217,6 +225,8 @@ b0c0d0g0n0o0p0t0A0 c0d0f0h0r0 0 E
 5d5+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
+Absorbe: 31
 Str: 25
 Dex: 25
 Int: 28
@@ -264,6 +274,8 @@ b0c0d0g0n0o0p0q0r0t0u0x0A0 d0f0r0A0C0 0 E
 1d1000+150 1500000
 8 8 1
 Saves: -38 -38 -38 -38
+CastSuccess: 41
+Absorbe: 38
 Str: 30
 Dex: 35
 Int: 30
@@ -314,6 +326,8 @@ b0c0d0g0n0p0q0r0t0x0A0 d0f0k0 0 E
 0d400+0 700000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
+Absorbe: 34
 Str: 25
 Dex: 30
 Int: 30
@@ -377,6 +391,7 @@ b0d0g0n0o0A0 0 0 E
 28 3 4 10d1+1000 3d3+0
 8d8+80 180000
 8 8 2
+Absorbe: 28
 Str: 15
 Dex: 18
 Int: 18
@@ -418,6 +433,7 @@ b0c0d0g0n0o0A0u2 d0 0 E
 29 -30 -3 5d5+3500 4d30+6
 8d8+200 250000
 8 8 1
+Absorbe: 29
 Str: 18
 Dex: 30
 Int: 30
@@ -473,6 +489,7 @@ c0d0f0m0p0A0 d0f0k0A0j1 -600 E
 29 -10 -2 1d1+2300 3d10+5
 1d150+1 200000
 8 8 1
+Absorbe: 29
 Str: 20
 Dex: 29
 Int: 30
@@ -512,6 +529,7 @@ c0d0f0m0p0A0 d0f0k0A0j1 -600 E
 29 -10 -2 1d1+2500 3d10+5
 1d150+1 200000
 8 8 1
+Absorbe: 29
 Str: 20
 Dex: 29
 Int: 30
@@ -553,6 +571,7 @@ b0c0d0g0n0p0x0A0 d0f0k0d1 0 E
 0d500+0 327000
 8 8 1
 Saves: -26 -26 -26 -26
+Absorbe: 30
 Str: 25
 Dex: 30
 Int: 30
@@ -566,7 +585,7 @@ Class: 102
 Race: 101
 Height: 198
 Weight: 50
-Special_Bitvector: b0d0A0B0m3C3 
+Special_Bitvector: b0d0 
 Skill: 134 100
 Skill: 136 100
 Skill: 143 100
@@ -611,10 +630,10 @@ Saves: -30 -30 -30 -30
 Resistances: 40 40 40 0 30 34 70
 HPreg: 70
 Armour: 53
-CastSuccess: 25
+CastSuccess: 35
 Success: 30
 Initiative: 10
-Absorbe: 20
+Absorbe: 36
 BareHandAttack: 5
 Str: 40
 Dex: 40

@@ -1,0 +1,2069 @@
+#79600
+старый сивобородый воин~
+сивобородый воин~
+сивобородого воина~
+сивобородому воину~
+сивобородого воина~
+сивобородым воином~
+сивобородом воине~
+Старый воин с изрядно тронутой сединой сивой бородищей сидит тут у костра.
+~
+Сильный воин, хоть и стар уже, голова серебром блестит,
+да и в бороде седины изрядно, но годы еще не согнули его
+совсем. Левая рука его перевязана чистой тряпицей, через
+которую пробиваются кровавые пятна.
+На правой половине лица его виден странный ветвистый
+ожог, словно к нему прижали горящую ветку.
+~
+b0d0n0p0t0u0o1u2 d0f0k0 -600 E
+31 20 0 4d4+10000 20d20+20
+1000d0+0 400000
+8 8 1
+Saves: -40 -40 -20 -20
+Armour: 30
+CastSuccess: 50
+Success: 40
+Initiative: 35
+Absorbe: 31
+AResist: 10
+MResist: 10
+PResist: 10
+BareHandAttack: 3
+Str: 45
+Dex: 40
+Int: 30
+Wis: 30
+Con: 50
+Cha: 35
+Size: 50
+ExtraAttack: 4
+Class: 102
+Race: 101
+Height: 200
+Weight: 200
+Special_Bitvector: 0 
+Feat: 1
+Feat: 6
+Feat: 15
+Spell: 25
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 94
+E
+T 79600
+T 79619
+T 79641
+#79601
+баргест пес собака~
+баргест~
+баргеста~
+баргесту~
+баргеста~
+баргестом~
+баргесте~
+Огромный черный пес с огненными глазами поднял голову, заслышав ваши шаги.
+~
+Громадная черная псина, в глазах которой словно тлеет пара углей, а в пасти
+пляшут языки пламени. Баргест - злобный дух в облике собаки, сулящий горе и беды.
+Конкретно ваши беды, похоже, начнутся прямо сейчас...
+~
+d0f0g0l0m0n0z0A0b2 c0f0k0m1r1t1d2 -600 E
+35 1 -30 12d20+6000 10d18+17
+100d1+2 800000
+8 8 1
+Saves: -30 -30 -30 -30
+HPreg: 40
+CastSuccess: 40
+Initiative: 30
+Absorbe: 35
+AResist: 5
+PResist: 5
+BareHandAttack: 4
+Str: 40
+Dex: 25
+Int: 35
+Wis: 30
+Con: 21
+Size: 50
+MaxFactor: 6
+ExtraAttack: 2
+Class: 103
+Race: 104
+Height: 198
+Weight: 200
+Special_Bitvector: g0i0p0b1c1 
+Feat: 3
+Feat: 4
+Feat: 5
+Feat: 17
+Feat: 43
+Feat: 57
+Feat: 58
+Feat: 65
+Skill: 132 100
+Skill: 157 100
+Skill: 167 60
+E
+#79602
+волколак~
+волколак~
+волколака~
+волколаку~
+волколака~
+волколаком~
+волколаке~
+Огромный волк, яростно рыча, глядит на вас человечьими глазами.
+~
+Черно-серое существо, с огромнейшими клыками и острыми когтями бегает недалеко.
+С таким лучше не связываться, а то ведь можно и отдать Богу душу.
+~
+d0f0h0m0n0o0p0r0s0 c0d0f0r0 -600 E
+34 -6 -2 1d5+4000 10d20+11
+2d3+100 700000
+8 8 1
+Saves: -22 -22 -22 -22
+CastSuccess: 29
+Success: 30
+Initiative: 30
+Absorbe: 34
+AResist: 5
+PResist: 5
+BareHandAttack: 8
+Str: 35
+Dex: 38
+Int: 30
+Wis: 18
+Con: 3
+Cha: 30
+Size: 100
+LikeWork: 15
+MaxFactor: 6
+ExtraAttack: 2
+Class: 103
+Race: 102
+Height: 198
+Weight: 100
+Special_Bitvector: g0c1 
+Feat: 2
+Feat: 3
+Feat: 16
+Feat: 17
+Skill: 5 100
+Skill: 136 75
+Skill: 137 50
+Spell: 25
+Spell: 28
+Spell: 28
+Spell: 55
+Spell: 64
+Spell: 64
+Spell: 64
+E
+T 79606
+#79603
+неуклюжий скелет~
+неуклюжий скелет~
+неуклюжего скелета~
+неуклюжему скелету~
+неуклюжего скелета~
+неуклюжим скелетом~
+неуклюжем скелете~
+Хромой скелет волочит за собой свои кости
+~
+Хромой, кривой, безобразный скелет ходит здесь, спотыкаясь и падая.
+~
+d0f0g0n0y0z0 c0d0f0s0 -600 E
+32 3 -30 12d2+3300 15d20+10
+11d3+25 450000
+8 8 1
+Saves: -14 -14 -14 -14
+CastSuccess: 23
+Success: 30
+Initiative: 30
+Absorbe: 32
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 14
+Str: 23
+Dex: 25
+Int: 35
+Wis: 35
+Con: 21
+Size: 50
+MaxFactor: 6
+ExtraAttack: 2
+Class: 101
+Race: 110
+Height: 198
+Weight: 200
+Special_Bitvector: p0b1c1d1B3 
+Feat: 6
+Feat: 15
+Feat: 19
+Feat: 23
+Skill: 136 50
+Skill: 160 120
+Skill: 165 50
+Spell: 4
+Spell: 4
+Spell: 15
+Spell: 15
+Spell: 134
+Spell: 153
+Spell: 173
+Spell: 173
+E
+T 79648
+#79604
+сильный вурдалак~
+сильный вурдалак~
+сильного вурдалака~
+сильному вурдалаку~
+сильного вурдалака~
+сильным вурдалаком~
+сильном вурдалаке~
+Мускулистый вурдалак злобно ощерил трехвершковые клыки.
+~
+Здоровенный вурдалак бугрится мышцами.
+Такому и клыки не нужны, так шею свернет.
+~
+b0c0d0f0g0l0m0n0p0y0A0w1 d0f0k0s0t0z0A0t1w1d2e2 -600 E
+33 5 -30 10d10+4000 15d20+10
+5d3+100 550000
+8 8 1
+Saves: -20 -18 -20 -20
+Resistances: 0 0 0 0 100 0 0
+CastSuccess: 26
+Initiative: 30
+Absorbe: 33
+AResist: 5
+PResist: 10
+BareHandAttack: 8
+Destination: 79635
+Destination: 79634
+Destination: 79637
+Destination: 79632
+Destination: 79633
+Str: 40
+Dex: 30
+Int: 12
+Wis: 12
+Con: 25
+Cha: 30
+Size: 100
+LikeWork: 40
+MaxFactor: 6
+ExtraAttack: 3
+Class: 101
+Race: 112
+Height: 200
+Weight: 150
+Special_Bitvector: c1C3 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 13
+Feat: 28
+Feat: 53
+Feat: 61
+Feat: 65
+Feat: 66
+Skill: 12 20
+Skill: 22 150
+Skill: 134 40
+Skill: 136 60
+Spell: 76
+Spell: 76
+Spell: 93
+Spell: 111
+Spell: 130
+Spell: 130
+E
+T 79607
+#79605
+вурдалак~
+вурдалак~
+вурдалака~
+вурдалаку~
+вурдалака~
+вурдалаком~
+вурдалаке~
+Вурдалак насторожнно нюхает воздух.
+~
+Бледный мертвяк с здоровенными клыками и вывернутыми
+назад коленями. Подкрадется неслышно, прокусит шею...
+~
+c0d0f0g0l0n0p0t0u0y0A0 d0f0s0z0A0o1r1w1e2 -600 E
+32 5 10 10d10+4000 20d15+11
+1d3+50 500000
+8 8 1
+Saves: -20 -20 -20 -20
+CastSuccess: 23
+Absorbe: 32
+BareHandAttack: 8
+Str: 30
+Dex: 30
+Int: 35
+Wis: 35
+Con: 25
+Cha: 22
+Size: 100
+LikeWork: 40
+MaxFactor: 6
+ExtraAttack: 2
+Class: 101
+Race: 112
+Height: 200
+Weight: 150
+Special_Bitvector: c1C3 
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 56
+Feat: 57
+Feat: 58
+Skill: 12 20
+Skill: 22 30
+Skill: 134 40
+Skill: 136 60
+Spell: 17
+Spell: 17
+Spell: 84
+Spell: 84
+E
+T 79607
+#79606
+темная навья~
+темная навья~
+темной навьи~
+темной навье~
+темную навью~
+темной навьёй~
+темной навье~
+Темная навья поднялась из земли мертвых.
+~
+Темная размытая фигура, окруженная мертвящим холодом.
+Навьи -- злые и беспокойные души умерших нехорошей смертью...
+~
+d0f0g0n0o0z0A0 b0c0d0e0k0m0r0x0A0 -600 E
+32 6 -30 2d2+5000 18d20+11
+4d3+100 500000
+8 8 2
+Saves: -14 -14 -14 -14
+CastSuccess: 23
+Initiative: 20
+Absorbe: 32
+AResist: 4
+MResist: 4
+PResist: 4
+BareHandAttack: 2
+Str: 30
+Dex: 25
+Int: 35
+Wis: 30
+Con: 20
+Cha: 20
+Size: 100
+LikeWork: 15
+MaxFactor: 6
+ExtraAttack: 3
+Class: 101
+Race: 113
+Height: 190
+Weight: 100
+Special_Bitvector: l0y0b1c1C3 
+Feat: 2
+Feat: 4
+Feat: 5
+Feat: 6
+Feat: 8
+Skill: 4 10
+Skill: 136 70
+Skill: 137 100
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 27
+Spell: 27
+Spell: 27
+Spell: 28
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 66
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 75
+Spell: 75
+Spell: 82
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 111
+E
+T 79608
+#79607
+длинный червь~
+длинный червь~
+длинного червя~
+длинному червю~
+длинного червя~
+длинным червем~
+длинном черве~
+Длинный, покрытый шипами и слизью червь извивается здесь
+~
+Существо очень длинное с большими кривыми но очень острыми зубами извивается в канаве
+~
+d0f0g0b2 a0d0k0r0A0k1l1 -600 E
+32 0 -30 3d3+6000 15d20+6
+4d4+30 450000
+8 8 1
+Saves: -14 -14 -14 -14
+CastSuccess: 23
+Initiative: 20
+Absorbe: 32
+AResist: 3
+MResist: 3
+PResist: 3
+BareHandAttack: 4
+Str: 40
+Dex: 29
+Int: 28
+Wis: 40
+Con: 30
+Cha: 6
+Size: 100
+LikeWork: 35
+MaxFactor: 6
+ExtraAttack: 1
+Class: 103
+Race: 105
+Height: 198
+Weight: 100
+Special_Bitvector: g0o0 
+Feat: 6
+Feat: 20
+Feat: 21
+Feat: 22
+Skill: 136 75
+Skill: 137 80
+Spell: 25
+Spell: 33
+Spell: 75
+E
+T 79609
+#79608
+восставший мертвяк~
+восставший мертвяк~
+восставшего мертвяка~
+восставшему мертвяку~
+восставшего мертвяка~
+восставшем мертвяком~
+восставшим мертвяке~
+Кривой мертвяк шагает неспеша мимо могил
+~
+Существо человеческого роста но правда несколько сгорбленое
+ с кривой походкой, хромая, направляется прямиком в Вам.
+~
+d0f0z0t1 f0k0l1d2 -600 E
+32 0 -30 5d5+5300 15d15+10
+0d0+50 450000
+8 8 1
+Saves: -14 -14 -14 -14
+CastSuccess: 23
+Absorbe: 32
+Str: 37
+Dex: 28
+Int: 30
+Wis: 38
+Con: 37
+Cha: 30
+Size: 100
+LikeWork: 40
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Race: 110
+Height: 198
+Weight: 100
+Special_Bitvector: 0 
+Feat: 24
+Feat: 42
+Feat: 43
+Skill: 132 80
+Skill: 136 75
+Skill: 137 50
+Skill: 146 100
+Spell: 8
+Spell: 8
+Spell: 33
+Spell: 53
+E
+T 79610
+#79609
+мелкий бес~
+мелкий бес~
+мелкого беса~
+мелкому бесу~
+мелкого беса~
+мелким бесом~
+мелким бесе~
+Бес с рожками носится вокруг Вас.
+~
+Бес с хвостом и рогами, острыми когтями смотрит на Вас вывалив свои большие глаза
+~
+c0d0f0g0m0o0r0 d0k0m1t1 -600 E
+31 0 -25 0d0+3000 14d20+7
+1d2+100 400000
+8 8 1
+Saves: -10 -10 -10 -10
+CastSuccess: 20
+Absorbe: 31
+Str: 35
+Dex: 35
+Int: 18
+Wis: 18
+Con: 35
+Cha: 25
+Size: 100
+LikeWork: 85
+MaxFactor: 6
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: w0b1c1 
+Feat: 8
+Feat: 15
+Feat: 17
+Feat: 18
+Feat: 20
+Feat: 21
+Skill: 4 80
+Skill: 134 50
+Skill: 136 100
+Skill: 150 50
+Spell: 15
+Spell: 27
+Spell: 83
+E
+T 79611
+#79610
+крупный бес~
+крупный бес~
+крупного беса~
+крупному бесу~
+крупного беса~
+крупным бесом~
+крупном бесе~
+Больших размеров бес, с огромным хвостом ходит здесь
+~
+Огромный бес с длинными клыками и рогами смотрит на вас.
+~
+c0d0f0g0m0o0w1 d0f0k0z0A0t1 -600 E
+33 0 -20 0d0+5000 25d15+11
+1d2+150 550000
+8 8 1
+Saves: -18 -18 -18 -18
+CastSuccess: 26
+Initiative: 20
+Absorbe: 33
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 8
+Str: 27
+Dex: 21
+Int: 22
+Wis: 22
+Con: 22
+Cha: 25
+Size: 100
+LikeWork: 85
+MaxFactor: 6
+ExtraAttack: 1
+Class: 102
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: w0b1c1 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 6
+Feat: 12
+Feat: 13
+Skill: 5 40
+Skill: 134 50
+Skill: 136 100
+Skill: 150 50
+Skill: 151 30
+Spell: 15
+Spell: 27
+Spell: 152
+E
+T 79611
+#79611
+дух чернокнижника~
+дух чернокнижника~
+духа чернокнижника~
+духу чернокнижника~
+духа чернокнижника~
+духом чернокнижника~
+духе чернокнижника~
+Дух чернокнижника парит над алтарем
+~
+Дух чернокнижника летает над алтарем
+~
+b0d0g0 c0d0e0f0k0A0c2e2 -600 E
+32 17 -20 10d11+4500 16d16+2
+13d15+0 500000
+8 8 1
+Saves: -14 -14 -14 -14
+CastSuccess: 23
+Initiative: 20
+Absorbe: 32
+AResist: 4
+MResist: 4
+PResist: 4
+Str: 27
+Dex: 24
+Int: 21
+Wis: 25
+Con: 18
+Cha: 27
+Size: 50
+LikeWork: 100
+MaxFactor: 6
+ExtraAttack: 1
+Class: 105
+Race: 111
+Height: 198
+Weight: 150
+Special_Bitvector: 0 
+Feat: 15
+Feat: 16
+Feat: 23
+Feat: 25
+Feat: 56
+Feat: 57
+Feat: 58
+Skill: 132 100
+Skill: 150 100
+Spell: 82
+Spell: 88
+Spell: 93
+Spell: 111
+Spell: 150
+Spell: 156
+E
+#79612
+оржавник~
+оржавник~
+оржавника~
+оржавнику~
+оржавника~
+оржавником~
+оржавнике~
+Страшный оржавник сидит здесь на толстой коряге и наигрывает заунывную мелодию на костяной дудке.
+~
+
+Болотник, покрытый грязно-рыжей шерстью, с толстым животом и тонкими ногами.
+~
+b0c0d0g0l0m0n0o0x0A0l2 c0d0f0k0m0n0r0z0A0k1r1w1e2 -600 E
+36 2 -30 20d30+15000 20d20+15
+0d0+2500 1000000
+8 8 1
+Saves: -30 -30 -30 -30
+CastSuccess: 35
+Initiative: 40
+Absorbe: 36
+AResist: 10
+MResist: 5
+PResist: 20
+BareHandAttack: 6
+Str: 45
+Dex: 35
+Int: 36
+Wis: 36
+Con: 33
+Cha: 30
+Size: 58
+LikeWork: 50
+MaxFactor: 6
+ExtraAttack: 2
+Class: 100
+Race: 112
+Height: 198
+Weight: 160
+Special_Bitvector: c1 
+Skill: 134 50
+Skill: 136 84
+Spell: 23
+Spell: 23
+Spell: 28
+Spell: 28
+Spell: 33
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 88
+Spell: 93
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 131
+Spell: 131
+Spell: 134
+Spell: 137
+E
+T 79661
+#79613
+старый упырь~
+старый упырь~
+старого упыря~
+старому упырю~
+старого упыря~
+старым упырем~
+старом упыре~
+Упырь покрытый шерстью, в полусогнутом состоянии бродит тут.
+~
+Упырь, уже в приклонном возрасте, слоняется по яру.
+~
+d0e0f0g0n0o0 b0d0f0k0m0n0s0t0z0A0t1w1 -600 E
+32 4 -30 10d11+5200 20d16+13
+5d2+50 500000
+8 8 1
+Saves: -14 -14 -14 -14
+CastSuccess: 23
+Initiative: 30
+Absorbe: 32
+AResist: 4
+MResist: 4
+PResist: 4
+BareHandAttack: 4
+Str: 31
+Dex: 41
+Int: 21
+Wis: 28
+Con: 30
+Cha: 31
+Size: 60
+LikeWork: 30
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Race: 100
+Height: 30
+Weight: 120
+Special_Bitvector: 0 
+Feat: 42
+Feat: 43
+Feat: 65
+Feat: 66
+Skill: 4 40
+Skill: 136 70
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 114
+Spell: 114
+Spell: 114
+E
+#79614
+черный волколак~
+черный волколак~
+черного волколака~
+черному волколаку~
+черного волколака~
+черным волколаком~
+черном волколаке~
+Черный как смоль волк, размером с хорошего телка, ощерил клык.
+~
+Огромный, черный как смоль волчина с густой шубой,
+способной отразить и удар меча. Глаза его горят
+красным светом.
+~
+b0d0f0n0o0 c0d0f0z0A0t1w1b2 -600 E
+33 5 -30 1d5+6800 15d20+20
+2d3+200 550000
+8 8 1
+Saves: -18 -18 -18 -18
+CastSuccess: 26
+Initiative: 30
+Absorbe: 33
+AResist: 4
+MResist: 4
+PResist: 4
+BareHandAttack: 8
+Str: 33
+Dex: 26
+Int: 30
+Wis: 18
+Con: 5
+Cha: 30
+Size: 100
+LikeWork: 15
+MaxFactor: 6
+ExtraAttack: 3
+Class: 103
+Race: 102
+Height: 198
+Weight: 100
+Special_Bitvector: c1 
+Feat: 55
+Feat: 56
+Feat: 57
+Feat: 61
+Feat: 65
+Feat: 66
+Skill: 5 60
+Skill: 136 75
+Skill: 165 55
+Spell: 28
+Spell: 54
+Spell: 93
+E
+#79615
+шипастый длинный червь~
+шипастый длинный червь~
+шипастого длинного червя~
+шипастому длинному червю~
+шипастого длинного червя~
+шипастым длинным червем~
+шипастом длинном черве~
+Длинный червь, покрытый острыми шипами, извивается здесь.
+~
+Червь, покрытый шипами по всему телу, с ядовитыми клыками в пасти.
+~
+b0d0f0g0b2h2 d0j0k0r0A0l1t1 -600 E
+33 0 -30 3d3+7500 20d4+8
+4d4+30 550000
+8 8 1
+Saves: -18 -18 -18 -18
+CastSuccess: 26
+Initiative: 30
+Absorbe: 33
+AResist: 4
+MResist: 4
+PResist: 4
+BareHandAttack: 4
+Str: 35
+Dex: 30
+Int: 27
+Wis: 8
+Con: 40
+Cha: 6
+Size: 100
+LikeWork: 70
+MaxFactor: 6
+ExtraAttack: 1
+Class: 103
+Race: 105
+Height: 198
+Weight: 100
+Special_Bitvector: g0o0 
+Feat: 6
+Feat: 25
+Skill: 21 120
+Skill: 136 75
+Skill: 137 80
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 69
+E
+#79616
+огромный мертвец~
+огромный мертвец~
+огромного мертвеца~
+огромному мертвецу~
+огромного мертвеца~
+огромным мертвецом~
+огромном мертвеце~
+Мертвец огромных размеров, плотный и сильный стоит здесь
+~
+Больше остальных мертвяков, этот мертвец их главарь и выделяется силой и проворностью
+~
+b0d0f0g0n0o0 d0f0k0t1c2d2e2 -600 E
+33 0 -30 5d5+6900 25d5+12
+0d0+150 550000
+8 8 1
+Saves: -18 -18 -18 -18
+CastSuccess: 26
+Initiative: 30
+Absorbe: 33
+AResist: 4
+MResist: 4
+PResist: 4
+Str: 40
+Dex: 40
+Int: 30
+Wis: 18
+Con: 35
+Cha: 30
+Size: 100
+LikeWork: 65
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Race: 110
+Height: 198
+Weight: 100
+Special_Bitvector: 0 
+Feat: 1
+Feat: 25
+Feat: 29
+Feat: 42
+Feat: 43
+Skill: 4 70
+Skill: 134 100
+Skill: 136 75
+Spell: 1
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 39
+Spell: 62
+Spell: 136
+E
+#79617
+древний дух~
+древний дух~
+древнего духа~
+древнему духу~
+древнего духа~
+древнем духом~
+древнем духе~
+Древний дух летает здесь 
+~
+Дух издревна витающий в пространстве, незнающий покоя.
+~
+b0d0f0g0n0o0z0 b0c0d0e0k0m0r0x0z0A0r1t1 -600 E
+33 6 -20 2d2+7000 15d15+11
+4d3+100 550000
+8 8 1
+Saves: -18 -18 -18 -18
+CastSuccess: 26
+Initiative: 30
+Absorbe: 33
+AResist: 4
+MResist: 4
+PResist: 4
+BareHandAttack: 6
+Str: 20
+Dex: 25
+Int: 25
+Wis: 30
+Con: 20
+Cha: 20
+Size: 100
+LikeWork: 35
+MaxFactor: 6
+ExtraAttack: 3
+Class: 101
+Race: 113
+Height: 190
+Weight: 100
+Special_Bitvector: l0c1 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 5
+Feat: 6
+Skill: 136 70
+Skill: 137 100
+Skill: 150 40
+Skill: 151 150
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 54
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 82
+Spell: 111
+E
+#79618
+стрыга~
+стрыга~
+стрыги~
+стрыге~
+стрыгу~
+стрыгой~
+стрыге~
+Ужасное существо с крыльми летает вокруг, пытаясь ухватить Вас своими когтями.
+~
+Жуткая упырица летает над вами, полосуя воздух острыми когтями.
+~
+c0d0f0g0m0 b0c0d0e0k0m0r0x0 -600 E
+32 0 -30 2d2+4700 17d18+11
+3d5+60 450000
+8 8 2
+Saves: -14 -14 -14 -14
+CastSuccess: 23
+Initiative: 20
+Absorbe: 32
+AResist: 4
+MResist: 4
+PResist: 4
+BareHandAttack: 8
+Str: 20
+Dex: 25
+Int: 25
+Wis: 30
+Con: 20
+Cha: 20
+Size: 100
+LikeWork: 20
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Race: 103
+Height: 190
+Weight: 100
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 19
+Feat: 20
+Feat: 21
+Skill: 131 30
+Skill: 157 40
+Skill: 166 150
+Skill: 167 80
+Spell: 38
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 77
+Spell: 77
+E
+T 79622
+#79619
+злыдня~
+злыдня~
+злыдни~
+злыдне~
+злыдню~
+злыдней~
+злыдне~
+Покрытая мхом кособокая злыдня уставилась на вас красными буркалами.
+~
+Покрытое мхом существо похожее на старуху,
+но с носом что твое полено, и все покрытое мхом.
+
+~
+d0f0g0h0l0 d0f0k0m0n0s0t0x0z0A0m1r1t1 -600 E
+31 0 -30 1d3+5000 10d15+10
+0d0+120 400000
+8 8 2
+Saves: -10 -10 -10 -10
+CastSuccess: 20
+Initiative: 30
+Absorbe: 31
+AResist: 4
+MResist: 4
+PResist: 4
+BareHandAttack: 6
+Str: 25
+Dex: 25
+Int: 18
+Wis: 18
+Con: 25
+Cha: 25
+Size: 100
+LikeWork: 45
+MaxFactor: 6
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 198
+Weight: 200
+Special_Bitvector: a1b1c1 
+Feat: 42
+Feat: 43
+Feat: 53
+Skill: 132 120
+Skill: 134 50
+Skill: 136 100
+Skill: 150 50
+Spell: 15
+Spell: 27
+Spell: 56
+E
+T 79625
+#79620
+каменотес щерба здоровенный парень~
+каменотес Щерба~
+каменотеса Щербы~
+каменотесу Щербе~
+каменотеса Щербу~
+каменотесом Щербой~
+каменотесе Щербе~
+Здоровенный парень с мозолистыми руками переминается с ноги на ногу.
+~
+Здоровенный парень с бугрящимися плечами.
+В его кожу въелась каменная пыль, выдавая род занятий.
+~
+d0l0o0p0x0 d0f0k0m0n0r0z0A0t1b2 400 E
+29 -5 -15 1d1+1500 10d11+17
+0d0+0 200000
+8 8 1
+HPreg: 5
+Armour: 5
+PlusMem: 5
+CastSuccess: 5
+Success: 10
+Initiative: 10
+Absorbe: 29
+AResist: 10
+MResist: 10
+PResist: 10
+BareHandAttack: 3
+Str: 33
+Dex: 33
+Int: 15
+Wis: 15
+Con: 30
+Cha: 15
+Size: 60
+LikeWork: 80
+ExtraAttack: 3
+Class: 102
+Race: 101
+Height: 170
+Weight: 60
+Special_Bitvector: y0b1c1d1C3 
+Feat: 2
+Feat: 3
+Skill: 4 140
+Skill: 5 140
+Skill: 22 120
+Skill: 136 200
+Skill: 141 120
+Skill: 142 100
+Skill: 143 80
+Skill: 144 140
+Skill: 145 80
+Skill: 146 140
+Skill: 147 80
+Skill: 148 140
+Skill: 154 120
+Skill: 155 140
+E
+#79621
+мертвое дерево~
+мертвое дерево~
+мертвого дерева~
+мертвому дереву~
+мертвое дерево~
+мертвым деревом~
+мертвом дереве~
+Приземистое дерево выросло прямо на тропе да так и засохло.
+~
+Толстый, в два обхвата свтол, да только ростом не удалось деревце -- едва
+выше человеческой головы. Ветви густо покрыты острыми шипами -- не видали
+вы таких деревьев в здешних лесах. Только вот высохло и это давно, ветви
+голы, кора местами осыпалась, обнажив белесую древесину. Только чу, что это?
+Кажется ветви без ветра, сами собой колышатся в воздухе...
+~
+b0c0d0e0g0l0n0q0r0u0x0z0p1s1t1g2i2u2 d0f0k0r0z0A0C0k2 -600 E
+33 4 -30 3d4+5500 12d20+5
+2d9+200 550000
+8 8 0
+Saves: -18 -18 -18 -18
+CastSuccess: 26
+Absorbe: 33
+PResist: 15
+BareHandAttack: 2
+Str: 20
+Dex: 40
+Int: 32
+Wis: 32
+Con: 20
+Cha: 12
+Size: 100
+LikeWork: 50
+MaxFactor: 6
+ExtraAttack: 5
+Class: 101
+Race: 108
+Height: 177
+Weight: 200
+Special_Bitvector: d0 
+Feat: 15
+Feat: 16
+Feat: 17
+Feat: 21
+Skill: 4 120
+Skill: 6 100
+Skill: 136 80
+Skill: 141 50
+Skill: 142 50
+Skill: 143 50
+Skill: 144 50
+Skill: 145 50
+Skill: 146 50
+Skill: 147 50
+Skill: 148 50
+Skill: 154 50
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 93
+E
+#79622
+нечистюлька~
+нечистюлька~
+нечистюльки~
+нечистюльке~
+нечистюльку~
+нечистюлькой~
+нечистюльке~
+Маленькая вредная нечисть носится здесь, охраняя свои земли.
+~
+
+~
+b0d0f0g0l0 b0d0f0k0s0z0A0j1t1w1b2e2 -600 E
+30 5 -20 4d3+4000 20d13+12
+0d0+120 300000
+8 8 1
+Absorbe: 30
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 6
+Str: 25
+Dex: 40
+Int: 20
+Wis: 30
+Con: 20
+Cha: 15
+Size: 50
+LikeWork: 33
+MaxFactor: 6
+ExtraAttack: 1
+Class: 101
+Race: 112
+Height: 175
+Weight: 120
+Special_Bitvector: c0 
+Skill: 134 60
+Spell: 59
+Spell: 59
+Spell: 170
+Spell: 170
+Spell: 170
+Spell: 172
+Spell: 173
+E
+#79623
+старая ведьма~
+старая ведьма~
+старой ведьмы~
+старой ведьме~
+старую ведьму~
+старой ведьмой~
+старой ведьме~
+Старая ведьма бормочет заклинания над котелком.
+~
+Старая -- лет тридцати -- ведьма в черном платье
+и простоволосая бормочет заклинания и вглядывается
+в клокочущее зелоье.
+~
+b0d0m0n0o1u2 d0e0f0k0q1 0 E
+32 0 -20 20d10+4300 5d15+10
+0d0+0 480000
+8 8 2
+Saves: -14 -14 -14 -14
+PlusMem: 50
+CastSuccess: 60
+Initiative: 10
+Absorbe: 32
+AResist: 3
+MResist: 3
+BareHandAttack: 5
+Str: 35
+Dex: 18
+Int: 27
+Wis: 30
+Con: 20
+Cha: 14
+Size: 50
+LikeWork: 90
+MaxFactor: 6
+ExtraAttack: 1
+Class: 105
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 28
+Skill: 157 100
+Skill: 160 120
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 56
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 88
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 170
+Spell: 170
+Spell: 170
+E
+T 79618
+T 79612
+T 79630
+T 79629
+#79624
+молодая ведьма~
+молодая ведьма~
+молодой ведьмы~
+молодой ведьме~
+молодую ведьму~
+молодой ведьмой~
+молодой ведьме~
+Молодая ведьма подбрасывает щепки в костерок.
+~
+Молодая ведьма -- едва ли тринадцать зим разменяла,
+сидит на бревне, бесстыдно задрав подол до коленей.
+~
+b0d0m0n0o1u2 d0f0k0A0C0d2e2 0 E
+32 0 -27 30d15+5300 15d8+20
+0d0+0 480000
+8 8 2
+Saves: -14 -14 -14 -14
+Resistances: 20 20 20 20 20 20 0
+Armour: 30
+PlusMem: 50
+CastSuccess: 23
+Success: 10
+Initiative: 10
+Absorbe: 32
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 8
+Str: 35
+Dex: 25
+Int: 27
+Wis: 26
+Con: 30
+Cha: 35
+Size: 50
+LikeWork: 90
+MaxFactor: 6
+ExtraAttack: 1
+Class: 105
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: C3 
+Feat: 1
+Feat: 3
+Feat: 25
+Feat: 28
+Skill: 22 100
+Skill: 157 100
+Skill: 167 80
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 58
+Spell: 58
+Spell: 89
+Spell: 89
+Spell: 113
+Spell: 113
+Spell: 127
+Spell: 127
+Spell: 133
+Spell: 144
+E
+T 79618
+T 79612
+T 79630
+T 79629
+#79625
+рыжая ведьма~
+рыжая ведьма~
+рыжой ведьмы~
+рыжой ведьме~
+рыжую ведьму~
+рыжой ведьмой~
+рыжой ведьме~
+Рыжая ведьма пьяно хихикая разглядывает вас.
+~
+Огненно-рыжая девка в белом платье и тоже -- тьфу, стыдобища --
+с распущенными непокрытыми волосами пьяно хихикает, прикладываясь
+к здоровенной бутыли темного стекла.
+~
+b0d0m0n0o1u2 d0f0k0r0m1r1c2 0 E
+32 0 -25 20d10+4300 10d20+10
+0d0+0 480000
+8 8 2
+Saves: -14 -14 -14 -14
+PlusMem: 50
+CastSuccess: 60
+Initiative: 10
+Absorbe: 32
+AResist: 3
+MResist: 3
+BareHandAttack: 5
+Str: 33
+Dex: 28
+Int: 24
+Wis: 34
+Con: 27
+Cha: 13
+Size: 50
+LikeWork: 90
+MaxFactor: 6
+ExtraAttack: 1
+Class: 105
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 24
+Feat: 28
+Skill: 5 100
+Skill: 157 100
+Spell: 23
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 27
+Spell: 27
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 79
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 153
+E
+T 79605
+T 79618
+T 79628
+T 79612
+T 79631
+#79626
+призрак богатыря~
+призрак богатыря~
+призрака богатыря~
+призраку богатыря~
+призрака богатыря~
+призраком богатыря~
+призраке богатыря~
+Ужасный призрак статного воина стоит здесь.
+~
+Призрак могучего, широкого в кости воина
+стоит здесь, сложив руки на груди.
+Страшный взгляд мертвеца продирает морозом.
+~
+b0d0o1 d0f0k0m1t1w1d2e2 -600 E
+30 5 -30 0d0+3000 22d12+30
+0d0+0 0
+8 8 1
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 50
+MaxFactor: 6
+ExtraAttack: 2
+Class: 100
+Race: 111
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 12
+Feat: 13
+Skill: 4 150
+Skill: 165 50
+Spell: 1
+E
+T 79633
+#79627
+призрак лучника~
+призрак лучника~
+призрака лучника~
+призраку лучника~
+призрака лучника~
+призраком лучника~
+призраке лучника~
+Призрак лучника стоит здесь, сжимая сломанный лук.
+~
+Призрак худого и жилистого чернобородого
+стрелка сжимает в руках призрачные остатки
+боевого лука, перерубленного жестоким ударом.
+~
+b0d0o1 d0f0k0z0A0m1t1 -600 E
+30 20 -20 0d0+3000 12d12+30
+0d0+0 0
+8 8 1
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 50
+MaxFactor: 6
+ExtraAttack: 2
+Class: 100
+Race: 111
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Skill: 155 200
+Skill: 160 100
+E
+T 79634
+#79628
+призрак чародея~
+призрак чародея~
+призрака чародея~
+призраку чародея~
+призрака чародея~
+призраком чародея~
+призраке чародея~
+Призрак чародея опирается на сломанный посох.
+~
+Призрак невысокого человека в простой одеже.
+Он опирается на сломанный у навершия посох,
+а с его широченного пояса на цепочке свисает
+пухлая книжица.
+~
+b0d0o1 d0f0k0w1c2e2 -600 E
+30 20 -20 0d0+3000 12d12+30
+0d0+0 0
+8 8 1
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 50
+MaxFactor: 6
+ExtraAttack: 2
+Class: 100
+Race: 111
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 28
+Skill: 139 100
+Skill: 157 100
+Spell: 23
+Spell: 23
+Spell: 42
+Spell: 58
+Spell: 68
+Spell: 68
+E
+T 79635
+#79629
+белоглазый ведун ~
+белоглазый ведун~
+белоглазого ведуна~
+белоглазому ведуну~
+белоглазого ведуна~
+белоглазом ведуне~
+белоглазом ведуне ~
+Ведун злобно щурится на свет божий.
+~
+
+~
+d0f0l0m0s1w1 c0d0e0f0k0m0n0A0t1 -600 E
+33 5 -30 10d10+3000 15d15+10
+0d0+1000 550000
+8 8 1
+Saves: -18 -18 -18 -18
+CastSuccess: 26
+Initiative: 30
+Absorbe: 33
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 2
+Str: 35
+Dex: 35
+Int: 30
+Wis: 40
+Con: 35
+Size: 50
+MaxFactor: 6
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 28
+Skill: 5 70
+Skill: 139 70
+Skill: 166 150
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 151
+Spell: 153
+Spell: 172
+Spell: 172
+E
+#79630
+рыжий варнак~
+рыжий варнак~
+рыжего варнака~
+рыжему варнаку~
+рыжего варнака~
+рыжим варнаком~
+рыжем варнаке~
+Рыжий грабитель стоит здесь.
+~
+
+~
+d0f0g0h0p0q0 c0d0e0k0t0o1t1c2 -600 E
+33 5 -30 5d5+4000 20d17+10
+0d0+500 550000
+8 8 1
+Saves: -18 -18 -18 -18
+CastSuccess: 26
+Initiative: 30
+Absorbe: 33
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 6
+Str: 40
+Dex: 40
+Int: 20
+Wis: 30
+Con: 40
+Size: 50
+MaxFactor: 6
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 25
+Feat: 52
+Feat: 53
+Feat: 54
+Feat: 61
+Skill: 1 150
+Skill: 12 100
+Skill: 160 120
+Spell: 38
+Spell: 38
+Spell: 59
+Spell: 59
+Spell: 82
+E
+#79631
+зловредный лиходей~
+зловредный лиходей~
+зловредного лиходея~
+зловредному лиходею~
+зловредного лиходея~
+зловредным лиходеем~
+зловредном лиходей~
+Зловредный лиходей скалится на Вас.
+~
+
+~
+d0f0g0l0m0 c0d0e0f0k0z0A0q1e2 0 E
+33 5 -30 0d0+5000 20d15+10
+0d0+0 550000
+8 8 1
+Saves: -18 -18 -18 -18
+CastSuccess: 26
+Initiative: 30
+Absorbe: 33
+MResist: 5
+PResist: 5
+Str: 30
+Dex: 35
+Int: 45
+Wis: 45
+Con: 40
+Cha: 30
+Size: 50
+MaxFactor: 6
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 21 120
+Skill: 134 100
+Skill: 137 150
+Spell: 14
+Spell: 14
+Spell: 25
+Spell: 28
+Spell: 52
+Spell: 52
+Spell: 56
+Spell: 56
+Spell: 68
+Spell: 68
+Spell: 68
+E
+#79632
+череп на шесте~
+череп на шесте~
+черепа на шесте~
+черепу на шесте~
+череп на шесте~
+черепом на шесте~
+черепе на шесте~
+Жуткий череп торчит на тонком колу.
+~
+Желтый череп покрытый остатками гниющей кожи и волос
+пялится на вас пустыми глазницами, со скрипом крутясь
+на своем насесте.
+~
+b0d0e0f0m0p0q0x0z0s1a2 d0f0k0r1e2 -600 E
+34 20 -30 50d10+6500 20d20+20
+0d0+0 700000
+8 8 1
+Saves: -60 -60 -60 -60
+Resistances: 50 50 50 50 0 110 0
+CastSuccess: 40
+Success: 5
+Absorbe: 34
+AResist: 10
+MResist: 5
+PResist: 10
+BareHandAttack: 14
+Str: 35
+Dex: 18
+Int: 30
+Wis: 50
+Con: 20
+Cha: 15
+Size: 30
+LikeWork: 75
+MaxFactor: 6
+Class: 105
+Race: 110
+Height: 35
+Weight: 40
+Special_Bitvector: a0b0 
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 82
+Spell: 82
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 156
+Spell: 156
+Spell: 173
+Spell: 173
+Spell: 173
+E
+T 79620
+#79633
+летающий череп~
+летающий череп~
+летающего черепа~
+летающего черепу~
+летающий череп~
+летающим черепом~
+летающем черепе~
+Утробно хохочущий череп летает тут над зарослями.
+~
+Мертвая человеческая голова хохочет, щелкает челюстями,
+и проворно мечется в воздухе, оставляя за собой длинный
+хвост серой хмари. Он улюлюкает и воет, осыпая
+вас последними словами.
+~
+d0e0f0g0l0m0n0p0x0z0b1s1t1w1g2l2m2 d0f0k0m0n0p0x0A0 -600 E
+34 -10 -10 30d10+4300 12d10+15
+0d0+0 700000
+8 8 1
+Saves: -40 -40 -40 -40
+Resistances: 0 0 120 120 120 120 0
+CastSuccess: 70
+Absorbe: 34
+AResist: 5
+MResist: 5
+PResist: 10
+BareHandAttack: 4
+Str: 32
+Dex: 32
+Int: 25
+Wis: 25
+Con: 30
+Cha: 14
+Size: 50
+LikeWork: 90
+MaxFactor: 6
+ExtraAttack: 2
+Class: 101
+Race: 110
+Height: 50
+Weight: 40
+Special_Bitvector: l0 
+Feat: 2
+Feat: 4
+Feat: 17
+Feat: 21
+Skill: 132 160
+Skill: 136 150
+Skill: 140 150
+Skill: 157 120
+Skill: 167 80
+Spell: 55
+Spell: 55
+Spell: 58
+Spell: 79
+Spell: 79
+Spell: 148
+Spell: 148
+Spell: 148
+Spell: 148
+Spell: 172
+E
+T 79651
+T 79652
+T 79653
+#79634
+опьяненный луной волкодлак~
+опьяненный луной волкодлак~
+опьяненного луной волкодлака~
+опьяненному луной волкодлаку~
+опьяненного луной волкодлака~
+опьяненным луной волкодлаком~
+опьяненном луной волкодлакн~
+Огромный волкодлак дико пляшет и беснуется в лунном свете.
+~
+
+~
+d0f0g0l0m0n0j1 d0f0k0A0 -600 E
+37 -5 -3 50d50+15000 25d25+15
+0d0+0 1200000
+8 8 1
+Saves: -34 -34 -34 -34
+Resistances: 0 0 120 120 100 100 0
+CastSuccess: 70
+Absorbe: 37
+AResist: 20
+PResist: 20
+BareHandAttack: 4
+Str: 55
+Dex: 45
+Int: 20
+Wis: 25
+Con: 55
+Cha: 20
+Size: 100
+LikeWork: 80
+ExtraAttack: 1
+Class: 104
+Race: 114
+Height: 198
+Weight: 200
+Special_Bitvector: n0 
+Feat: 1
+Skill: 132 160
+Skill: 136 160
+Skill: 138 200
+Skill: 157 160
+Skill: 167 90
+Spell: 137
+Spell: 137
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 173
+Spell: 173
+Spell: 173
+Spell: 173
+Spell: 173
+E
+T 79663
+T 79664
+T 79665
+#79635
+дух~
+дух~
+дух~
+дух~
+дух~
+дух~
+дух~
+Злой дух бла-бла-бла
+~
+Выглядит достаточно незавершенно.
+~
+d0r0t0a2 0 0 E
+31 0 -3 1d1+900 10d10+20
+0d0+3 400000
+8 8 1
+Saves: -10 -10 -10 -10
+Resistances: 0 0 0 0 50 0 40
+CastSuccess: 20
+Initiative: 30
+Absorbe: 31
+AResist: 30
+MResist: 10
+PResist: 10
+Str: 15
+Dex: 15
+Int: 5
+Wis: 50
+Con: 30
+Cha: 5
+Size: 30
+ExtraAttack: 3
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
+#79636
+призрак~
+призрак~
+призрак~
+призрак~
+призрак~
+призрак~
+призрак~
+призрак бла-бла
+~
+Выглядит достаточно незавершенно.
+~
+d0 0 0 E
+32 -10 0 1d1+900 5d23+15
+0d0+0 450000
+8 8 1
+Saves: -14 -14 -14 -14
+Armour: 20
+CastSuccess: 23
+Absorbe: 32
+MResist: 10
+PResist: 10
+Str: 23
+Dex: 23
+Int: 5
+Wis: 5
+Con: 28
+Cha: 5
+Size: 30
+ExtraAttack: 3
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
+$

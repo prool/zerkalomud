@@ -46,7 +46,6 @@ end
 0 q 100
 ~
 wait 1
-*%actor.wait(4)%
 foreach char %self.pc%
   if %char.haveobj(11407)% && !%char.quested(27015)%
     %char.wait(4)%
@@ -58,8 +57,8 @@ foreach char %self.pc%
     say Это еще что у тебя?!
     msend %char% Ополченец выхватил мешок у вас из рук.
     mechoaround %char% Ополченец выхватил мешок из рук %char.name%.
-    mforce %char% drop questitem11401
-    mpurge questitem11401
+    calcuid bag 11407 obj
+    mpurge %bag%
     say Наш%char.y% чем заниматься! Бери оружие и в бой! Надо дать отпор половцам!
     say Твое барахло я верну не раньше, чем увижу бунчук их сотника!
     halt

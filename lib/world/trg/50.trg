@@ -24,37 +24,37 @@ switch %object.name%
     say  Еще одним гадом меньше! Молодец, продолжай дальше, держи премию.
     %self.gold(+1)%
     дать 1 кун %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   case труп клопа
     say  Еще одним гадом меньше! Молодец, продолжай дальше, держи премию.
     %self.gold(+1)%
     дать 1 кун %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   case труп моли
     say  Еще одним гадом меньше! Молодец, продолжай дальше.
     mload obj 101
     дать ломоть %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   case труп блохи
     say  Еще одним гадом меньше! Молодец, продолжай дальше.
     mload obj 101
     дать ломоть %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   case труп серой мыши
     say  О, грызун, разносчик заразы! Получи премию.
     %self.gold(+5)%
     дать 5 кун %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   default
     say  Зачем мне это?
     eval getobject %object.name%
     if  %getobject.car% == труп
-      mpurge труп
+      mpurge %object%
     else
       броси %getobject.car%.%getobject.cdr%
     end
@@ -87,19 +87,14 @@ switch %object.name%
     mpurge %object%
   break
   case труп волка
-    say  О ты убил волка! Это опасно, их целая стая!
+    say О, ты убил%actor.g% волка! Это опасно, их целая стая!
     %self.gold(+20)%
     дать 20 кун %actor.name%
     mpurge %object%
   break
   default
     say  Зачем мне это?
-    eval getobject %object.name%
-    if  %getobject.car% == труп
-      mpurge %object%
-    else
-      броси %getobject.car%.%getobject.cdr%
-    end
+    броси all
   break
 done
 ~
@@ -145,16 +140,10 @@ if ((%actor.level% >= 10) || (%actor.bank% >= 20))
 end
 wait  1
 msend %actor% Дочка сказала Вам:
-if %actor.sex% == 1
-  msend %actor% - Эх ты горемычный, голодный наверное, %actor.name%.
-elseif
-  %actor.sex% == 2
-  msend %actor% - Эх ты горемычная, голодная наверное, %actor.name%.
-end
+msend %actor% - Эх ты горемычн%actor.w%, голодн%actor.w% наверное, %actor.name%.
 msend %actor% - Что мы нехристи чтобы не накормить. 
-*  msend %actor% - всегда найду чем накормить, 
-msend   %actor% - Сейчас, подожди...
-dg_cast 'насыщение' %actor.name%
+msend %actor% - Сейчас, подожди...
+dg_cast 'насыщение' .%actor.name%
 ~
 #5006
 Стражник заходит к ПКиллеру~
@@ -282,17 +271,17 @@ mpurge %object%
 wait 1s
 say Да, это он! Я чувствую жар его! Благодарю тебя, мой спаситель!
 wait 2s
-if ((%actor.class% == 3 || %actor.class% == 11) && !%actor.feat(предсмертная ярость)% && %actor.can_get_feat(предсмертная ярость)%)
+if (%actor.can_get_feat(предсмертная ярость)% && !%actor.feat(предсмертная ярость)%)
   say Я хоть и слеп, а все же кое-что из воинского мастерства помню. Подойди, покажу тебе одну ухватку. 
   mechoaround %actor% 
-  mfeatturn %actor.name% предсмертная.ярость set
+  mfeatturn %actor% предсмертная.ярость set
   halt
 end
 if %random.1000% < 310
   say Нечем мне тебя отблагодарить, но вот возьми эту книгу, может, ее удастся выгодно продать ?
   wait 5
   mload obj 514
-  дать книг %actor.name%
+  дать книг .%actor.name%
   halt
 end
 msend %actor% За доброе дело вы получили несколько очков опыта!
@@ -464,5 +453,82 @@ remote quest50 %efim.id%
 *attach 5010 %self.id%
 detach 5008 %self.id%
 detach 5018 %self.id%
+~
+#5019
+встречает старый цыган~
+0 g 100
+~
+tell %actor.name% Хочешь довезут тебя до одного места, сам туда ты не проберешься!
+eval needgold %actor.level%
+tell %actor.name% Всего-то кун эдак %needgold% и ты там!
+~
+#5020
+дали куны цыгану5031~
+0 m 1
+~
+if %actor.vnum% != -1
+  halt
+end
+eval needgold %actor.level%
+if %amount% < %needgold%
+  дать %amount% кун %actor.name%
+  tell %actor.name% Маловато будет!
+else
+  mecho Цыган обернулся куда-то к кустам и громко свистнул.
+  mecho Из-за кустов выскочил цыганенок с телегой.
+  msend %actor.name% С ветерком довезут, глазом моргнуть не успеешь!
+  msend %actor% Цыганенок быстро подвел Вам телегу.
+  mechoaround %actor% %actor.iname% влез%actor.q% на телегу.
+  mecho Цыганенок крикнул: А ну залетные!
+  wait 1
+  mteleport %actor.name% 4064 horse
+  wait 1
+  msend %actor% Не успели Вы и глазом моргнуть, уже приехали!
+  msend %actor% Цыганенок быстро развернул телегу и умчался обратно.
+  mechoaround %actor% %actor.iname% слез%actor.q% с подъехавшей телеги.
+  mechoaround %actor% Телега развернулась и умчалась прочь.
+end
+~
+#5021
+встречает старый следопыт~
+0 r 100
+~
+*встречастарый | Mobiles | Great-All PC | 100
+tell %actor.name% Могу провести неизвестными никому дорогами до степной деревни!
+eval needgold %actor.level%
+tell %actor.name% Всего за %needgold% кун!
+~
+#5022
+дать кун старому следопыту~
+0 m 1
+~
+*дать20старому | Mobiles | Bribe | 1
+if %actor.vnum% != -1
+  halt
+end
+eval needgold %actor.level%
+if %amount% < %needgold%
+  дать %amount% кун %actor.name%
+  tell %actor.name% Мало, договор превыше всего!
+else
+  mecho Следопыт коротко крякнул как утка.
+  msend %actor.name% Из-за кустов вылез еще один следопыт и махнул рукой чтобы следовали за ним.
+  if %actor.sex%==1
+    mechoaround %actor% Из-за кустов вылез еще один следопыт и махнул рукой для %actor.name% чтобы следовал за ним.
+    mechoaround %actor% %actor.name% исчез в кустах вместе с проводником.
+  else
+    mechoaround %actor% Из-за кустов вылез еще один следопыт и махнул рукой для %actor.name% чтобы следовала за ним.
+    mechoaround %actor% %actor.name% исчезла в кустах вместе с проводником.
+  endif
+  mteleport %actor.name% 6053 horse
+  msend %actor% Ваше путешествие окончилось.
+  * if %actor.sex%==1
+  *  mat 6053 mechoaround %actor% %actor.name% появился с проводником.
+  * else
+  *  mat 6053 mechoaround %actor% %actor.name% появилась с проводником.
+  * end
+  *  mat 6053 mecho Проводник скрылся под навесом.
+  *end
+end
 ~
 $~

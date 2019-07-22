@@ -156,9 +156,9 @@ if %actor.vnum% == 28709
     wecho скрутил за твоим домом и это мои люди тебя принесли сюда.
     wecho Но смотрю тебя освободили, значит придется разобраться со всеми
     wecho и отнести тебя к нашей богине - ей нужна свежая кровь.
-    calcuid nastor 28705 mob
     wait 1
-    if %nastor%
+    if (%exist.mob(28705)%)
+      calcuid nastor 28705 mob
       wpurge %nastor%
     end
     wload mob 28712

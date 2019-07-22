@@ -325,8 +325,10 @@ mload obj 80318
 Смерть воеводы~
 0 f 100
 ~
-calcuid form_mb 80312 mob
-detach 80309 %form_mb.id%
+if (%exist.mob(80312)%)
+  calcuid form_mb 80312 mob
+  detach 80309 %form_mb.id%
+end
 ~
 #80311
 Умер шаман - лоад сетшмутки~

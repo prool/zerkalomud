@@ -137,6 +137,7 @@ c0d0f0m0p0q0x0A0b1r1 d0e0f0k0n0r0t0x0z0A0C0m1z1 -600 E
 34d8+4000 1800000
 8 8 1
 Saves: -38 -38 -38 -38
+CastSuccess: 41
 BareHandAttack: 4
 Destination: 86655
 Destination: 86656
@@ -252,6 +253,7 @@ c0d0f0m0t0i2 d0f0k0n0r0x0m1o1 -600 E
 0d0+0 390000
 8 8 0
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 8
 Str: 33
 Dex: 27
@@ -404,6 +406,7 @@ d0f0m0q0b1 d0f0k0x0A0m1x1 -600 E
 0d0+0 380000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 2
 Str: 35
 Dex: 26
@@ -473,7 +476,7 @@ Spell: 27
 E
 I глаза:7
 #86610
-вампир потревоженный~
+потревоженный вампир~
 потревоженный вампир~
 потревоженного вампира~
 потревоженному вампиру~
@@ -491,6 +494,7 @@ d0f0m0p0r0x0z0A0 c0d0e0f0k0n0p0r0x0z0A0r1 -600 E
 0d0+0 490000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 BareHandAttack: 4
 Str: 31
 Dex: 28
@@ -595,6 +599,7 @@ d0f0m0p0q0r0t0u0z0i2 d0f0k0A0C0 -600 E
 0d0+0 484000
 8 8 2
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 BareHandAttack: 4
 Destination: 86609
 Destination: 86610
@@ -639,6 +644,7 @@ d0f0m0p0z0e2h2 d0e0f0k0p1r1 -600 E
 0d0+0 580000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 BareHandAttack: 6
 Destination: 86620
 Destination: 86621
@@ -771,6 +777,7 @@ d0f0m0p0r0t0x0z0A0i1 d0f0h0k0n0r0z0m1t1 -600 E
 0d0+0 693000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 BareHandAttack: 3
 Str: 30
 Dex: 26
@@ -815,6 +822,7 @@ d0f0m0p0q0r0t0u0z0b2 b0d0e0f0k0p0r0x0A0m1o1r1x1 -600 E
 0d0+0 385000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 2
 Str: 17
 Dex: 21
@@ -872,6 +880,7 @@ d0f0m0q0t0a1 d0e0f0k0z0k1l1 -600 E
 0d0+0 370000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 2
 Str: 35
 Dex: 16
@@ -962,6 +971,7 @@ d0f0m0p0r0x0z0A0 d0e0f0k0z0a1p1t1y1 -600 E
 0d0+0 610000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 BareHandAttack: 1
 Destination: 86688
 Destination: 86687
@@ -1038,6 +1048,7 @@ d0f0m0p0r0t0x0z0i2 b0c0d0e0f0k0x0m1o1x1 0 E
 0d0+0 420000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 BareHandAttack: 12
 Destination: 86688
 Destination: 86687
@@ -1102,6 +1113,7 @@ d0f0m0p0q0t0x0A0 d0k0l1t1 -600 E
 0d0+0 740000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 BareHandAttack: 6
 Destination: 86685
 Destination: 86683
@@ -1162,6 +1174,7 @@ d0f0m0p0r0u0x0A0c2 d0f0k0r0z0q1z1 -600 E
 0d0+0 580000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 BareHandAttack: 6
 Destination: 86685
 Destination: 86683
@@ -1207,6 +1220,7 @@ d0f0r0t0x0A0 d0f0k0r0z0l1t1 -600 E
 0d0+0 475000
 4 4 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 Str: 33
 Dex: 22
 Int: 15
@@ -1296,6 +1310,7 @@ b0c0d0f0p0t0x0A0e2h2 d0e0f0k0r0x0z0l1r1x1 -600 E
 0d0+6666 2600000
 8 8 0
 Saves: -46 -46 -46 -46
+CastSuccess: 47
 BareHandAttack: 7
 Destination: 86696
 Destination: 86695
@@ -1370,6 +1385,7 @@ c0d0f0m0p0q0A0 d0f0k0l1x1 -600 E
 0d0+0 370000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 Str: 26
 Dex: 17
 Int: 12
@@ -1449,6 +1465,7 @@ d0f0m0p0q0r0A0b1 c0d0f0k0x0A0a1p1 -600 E
 0d0+0 396000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 12
 Str: 16
 Dex: 15
@@ -1503,6 +1520,7 @@ d0e0f0p0q0r0t0u0z0i2 d0e0k0m1 0 E
 0d0+0 395000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 4
 Destination: 86697
 Destination: 86694
@@ -1549,6 +1567,7 @@ c0d0f0m0p0t0A0 b0c0d0e0f0k0r0p1r1 -600 E
 0d0+0 480000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 BareHandAttack: 11
 Str: 14
 Dex: 12

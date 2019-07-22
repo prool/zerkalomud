@@ -9,6 +9,7 @@ if !(%arg.contains(кол)%)
 else
   wait 1
   wecho Как только кол был извлечен из своего местоположения, вся полянка рухнула вниз.
+  wat 79310 wecho Кто-то рухнул сюда вместе с множеством комьев земли.
   wteleport all 79310
   wdoor 79301 north room 79310
 end
@@ -73,6 +74,7 @@ end
 2 z 1
 *~
 wait 1
+wat 79358 wecho Кто-то ещё свалился сюда.
 wteleport all 79358
 end
 ~
@@ -86,6 +88,7 @@ if !(%arg.contains(доску)%)
   halt
 else
   wait 1
+  wat 79361 wecho Кто-то ещё свалился сюда.
   wteleport all 79361
   calcuid room1 79306 room
   exec 79304 %room1.id%
@@ -120,6 +123,7 @@ end
 2 z 1
 *~
 wait 1
+wat 79360 wecho Кто-то ещё свалился сюда.
 wteleport all 79360
 end
 ~
@@ -128,6 +132,7 @@ end
 2 z 1
 *~
 wait 1
+wat 79362 wecho Кто-то ещё свалился сюда.
 wteleport all 79362
 end
 ~

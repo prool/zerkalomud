@@ -50,19 +50,16 @@ switch %random.4%
   case 1
     say Спасибо Вам огромное, а теперь я, как и обещала, отблагодарю Вас!
     mload obj 11702
-    дать все .%actor.name%
   break
   case 2
     say Спасибо большое, я теперь Ваша вечная должница!
     if %random.7% > %world.curobjs(11704)%
       mload obj 11704
-      дать все .%actor.name%
     end
   break
   case 3
     say Спасибо большое-пребольшое! Теперь все мои родные спасены!
     mload obj 11705
-    дать все .%actor.name%
   break
   default
     if %random.1000% <= 100
@@ -72,16 +69,17 @@ switch %random.4%
       эмоц о чем-то задумалась.
       wait 1s
       msend %actor% Только никому об этом не говори, а то она меня сильно накажет.
-      mskillturn .%actor.name% воспаряющий_отвар set
+      mskillturn %actor% воспаряющий_отвар set
       halt
     end
     say Спасибо Вам!
     wait 10
     say Для всего нашего села - ты теперь желанный гость!
-    set %self.gold(+500)%
-    дать 500 кун .%actor.name%
+    %send% %self.iname% протянула Вам немного кун.
+    eval temp %actor.gold(+500)%
   break
 done
+дать all .%actor.name%
 detach 11702 %self.id%
 ~
 #11704

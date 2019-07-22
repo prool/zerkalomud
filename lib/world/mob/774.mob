@@ -24,6 +24,7 @@ Armour: 30
 PlusMem: 50
 CastSuccess: 30
 Initiative: 15
+Absorbe: 30
 BareHandAttack: 8
 Str: 25
 Dex: 35
@@ -79,7 +80,7 @@ Armour: 35
 PlusMem: 50
 CastSuccess: 30
 Success: 40
-Absorbe: 25
+Absorbe: 30
 BareHandAttack: 2
 Str: 23
 Dex: 28
@@ -159,7 +160,7 @@ PlusMem: 30
 CastSuccess: 20
 Success: 5
 Initiative: 5
-Absorbe: 10
+Absorbe: 31
 Str: 35
 Dex: 35
 Int: 30
@@ -248,6 +249,7 @@ HPreg: 35
 Armour: 30
 PlusMem: 35
 CastSuccess: 60
+Absorbe: 32
 BareHandAttack: 1
 Str: 30
 Dex: 30
@@ -317,9 +319,10 @@ Saves: -18 -18 -18 -18
 Resistances: 0 0 30 30 30 0 0
 HPreg: 30
 Armour: 45
+CastSuccess: 26
 Success: 15
 Initiative: 5
-Absorbe: 25
+Absorbe: 33
 BareHandAttack: 9
 Str: 45
 Dex: 45
@@ -429,10 +432,10 @@ Resistances: 0 0 0 0 40 40 40
 HPreg: 40
 Armour: 60
 PlusMem: 40
-CastSuccess: 40
+CastSuccess: 59
 Success: 40
 Initiative: 40
-Absorbe: 20
+Absorbe: 44
 BareHandAttack: 6
 Str: 30
 Dex: 30
@@ -542,6 +545,7 @@ Saves: 45 0 0 0
 Resistances: 0 0 40 40 0 0 0
 HPreg: 100
 Armour: 50
+Absorbe: 30
 BareHandAttack: 4
 Str: 45
 Dex: 45
@@ -596,7 +600,7 @@ Resistances: 0 0 150 150 0 0 0
 Armour: 20
 PlusMem: 30
 CastSuccess: 45
-Absorbe: 5
+Absorbe: 30
 Str: 20
 Dex: 28
 Int: 28
@@ -659,7 +663,8 @@ b0d0f0g0t0x0A0u2 c0d0e0h0k0C0c1j1b2 -600 E
 Saves: -14 -14 -14 -14
 HPreg: 45
 Armour: 45
-Absorbe: 20
+CastSuccess: 23
+Absorbe: 32
 AResist: 30
 BareHandAttack: 7
 Str: 45
@@ -749,7 +754,7 @@ HPreg: 15
 Armour: 35
 PlusMem: 50
 CastSuccess: 50
-Absorbe: 40
+Absorbe: 31
 Str: 27
 Dex: 35
 Int: 35
@@ -861,7 +866,7 @@ HPreg: 50
 Armour: 50
 PlusMem: 50
 CastSuccess: 50
-Absorbe: 20
+Absorbe: 35
 AResist: 20
 BareHandAttack: 4
 Str: 20
@@ -933,6 +938,8 @@ b0c0d0g0m0n0o0A0g2u2 h0k0n0r0C0t1x1 -600 E
 Saves: -22 -22 -22 -22
 HPreg: 30
 Armour: 45
+CastSuccess: 29
+Absorbe: 34
 Str: 45
 Dex: 25
 Int: 25
@@ -983,6 +990,8 @@ Saves: -26 -26 -26 -26
 Resistances: 0 0 0 0 80 0 0
 HPreg: 100
 Armour: 55
+CastSuccess: 32
+Absorbe: 35
 Str: 47
 Dex: 30
 Int: 26
@@ -1050,7 +1059,8 @@ b0c0d0f0g0x0A0g2u2 c0d0e0k0m0n0r0c1r1t1z1e2 -600 E
 Saves: -22 -22 -22 -22
 HPreg: 50
 Armour: 40
-Absorbe: 20
+CastSuccess: 29
+Absorbe: 34
 Str: 40
 Dex: 30
 Int: 36
@@ -1133,6 +1143,7 @@ HPreg: 66
 Armour: 30
 PlusMem: 60
 CastSuccess: 60
+Absorbe: 29
 Str: 22
 Dex: 22
 Int: 45
@@ -1220,7 +1231,8 @@ Saves: -10 -10 -10 -10
 Resistances: 25 25 25 25 0 0 0
 HPreg: 25
 Armour: 50
-Absorbe: 60
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 4
 Str: 45
 Dex: 45
@@ -1286,6 +1298,8 @@ Saves: -34 -34 -34 -34
 Resistances: 0 0 0 0 50 0 0
 HPreg: 100
 Armour: 55
+CastSuccess: 38
+Absorbe: 37
 AResist: 10
 Str: 50
 Dex: 40
@@ -1333,7 +1347,7 @@ b0d0e0g0m0n0o0x0e2h2i2u2 c0d0e0k0m0n0r0C0r1x1 -600 E
 6 6 1
 Armour: 15
 CastSuccess: 100
-Absorbe: 5
+Absorbe: 28
 Str: 15
 Dex: 17
 Int: 47
@@ -1403,6 +1417,7 @@ c0d0g0m0n0o0A0g2 k0n0r0C0x1 -600 E
 8 8 1
 Resistances: 10 10 10 10 0 0 0
 Armour: 30
+Absorbe: 29
 AResist: 15
 Str: 39
 Dex: 25
@@ -1442,6 +1457,7 @@ b0c0d0f0g0m0n0o0A0g2u2 d0k0n0r0C0p1t1x1 -600 E
 0d0+100 300000
 8 8 1
 Armour: 35
+Absorbe: 30
 AResist: 15
 Str: 40
 Dex: 25
@@ -1486,6 +1502,8 @@ d0g0x0A0j2 c0d0e0h0k0C0c1j1e2 -600 E
 Saves: -14 -14 -14 -14
 HPreg: 40
 Armour: 30
+CastSuccess: 23
+Absorbe: 32
 AResist: 25
 BareHandAttack: 9
 Str: 45
@@ -1540,6 +1558,8 @@ b0c0d0g0m0n0o0A0g2u2 d0k0n0r0C0t1x1 -600 E
 8 8 1
 Saves: -14 -14 -14 -14
 Armour: 55
+CastSuccess: 23
+Absorbe: 32
 AResist: 10
 BareHandAttack: 3
 Str: 39
@@ -1587,6 +1607,7 @@ Saves: 50 0 0 0
 Resistances: 0 0 0 0 0 10 0
 Armour: 25
 CastSuccess: 60
+Absorbe: 29
 BareHandAttack: 2
 Str: 23
 Dex: 28
@@ -1658,6 +1679,7 @@ b0d0g0m0n0o0x0A0u2 c0d0e0k0m0n0r0C0r1x1 -600 E
 6 8 1
 Saves: -18 -18 -18 -18
 CastSuccess: 50
+Absorbe: 33
 AResist: 12
 Str: 15
 Dex: 17
@@ -1724,6 +1746,8 @@ b0c0d0g0m0n0o0g2u2 d0k0n0r0C0t1x1 -600 E
 8 8 1
 Saves: -22 -22 -22 -22
 Armour: 35
+CastSuccess: 29
+Absorbe: 34
 Str: 50
 Dex: 25
 Int: 25
@@ -1764,6 +1788,7 @@ b0c0d0f0g0m0n0o0A0g2u2 k0n0r0C0t1x1 -600 E
 0d0+40 320000
 8 8 1
 Armour: 40
+Absorbe: 30
 Str: 50
 Dex: 25
 Int: 25
@@ -1810,6 +1835,7 @@ b0d0g0n0o0A0u2 c0d0e0k0r0t1u1 -600 E
 8 8 2
 Resistances: 20 20 20 20 0 0 0
 CastSuccess: 90
+Absorbe: 29
 BareHandAttack: 8
 Str: 20
 Dex: 20
@@ -1865,7 +1891,7 @@ Resistances: 10 10 10 10 5 5 5
 HPreg: 5
 Armour: 25
 Initiative: 5
-Absorbe: 5
+Absorbe: 26
 BareHandAttack: 10
 Str: 35
 Dex: 45
@@ -1925,6 +1951,7 @@ Resistances: 0 0 100 0 0 0 0
 HPreg: 55
 Armour: 15
 CastSuccess: 50
+Absorbe: 32
 AResist: 30
 BareHandAttack: 4
 Str: 20
@@ -1976,7 +2003,7 @@ c0d0m0n0x0u2 c0d0e0g0k0m0n0C0k1 -600 E
 8 8 2
 HPreg: 15
 Armour: 15
-Absorbe: 3
+Absorbe: 29
 BareHandAttack: 4
 Str: 20
 Dex: 30
@@ -2020,6 +2047,7 @@ d0g0n0o0A0u2 c0d0e0k0m0C0l1w1 -600 E
 8 8 1
 Saves: -14 -14 -14 -14
 CastSuccess: 35
+Absorbe: 32
 Str: 22
 Dex: 22
 Int: 45
@@ -2086,6 +2114,8 @@ b0c0d0g0m0n0o0A0g2u2 c0d0e0k0n0r0C0w1y1 -600 E
 Saves: -22 -22 -22 -22
 Resistances: 100 0 0 0 0 0 0
 Armour: 40
+CastSuccess: 29
+Absorbe: 34
 BareHandAttack: 3
 Str: 40
 Dex: 30
@@ -2143,6 +2173,8 @@ c0d0g0m0n0o0A0s1g2u2 d0k0n0r0C0t1 -600 E
 8 8 1
 Saves: -18 -18 -18 -18
 Armour: 40
+CastSuccess: 26
+Absorbe: 33
 AResist: 10
 Str: 43
 Dex: 26
@@ -2186,6 +2218,8 @@ c0d0g0m0n0o0A0g2u2 d0k0n0r0C0t1 -600 E
 Saves: -18 -18 -18 -18
 Resistances: 0 0 0 0 0 10 0
 Armour: 35
+CastSuccess: 26
+Absorbe: 33
 AResist: 20
 Str: 39
 Dex: 30
@@ -2234,6 +2268,8 @@ b0d0f0g0n0o0x0A0b1d2g2h2u2 c0d0e0k0m0x0C0c1l1r1w1x1e2 -600 E
 0d0+0 800000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
+Absorbe: 35
 BareHandAttack: 4
 Str: 3
 Dex: 3
@@ -2244,7 +2280,7 @@ Cha: 3
 Size: 10
 LikeWork: 50
 Class: 103
-Race: 112
+Race: 105
 Height: 30
 Weight: 50
 Special_Bitvector: b1c1 
@@ -2304,6 +2340,8 @@ d0g0m0x0A0 c0d0e0h0k0C0c1e2 -600 E
 0d0+10 550000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
+Absorbe: 33
 AResist: 15
 BareHandAttack: 9
 Str: 45
@@ -2360,6 +2398,8 @@ b0c0d0g0m0n0o0x0A0g2 h0k0n0r0C0t1x1y1z1 -600 E
 Saves: -10 -10 -10 -10
 Resistances: 5 5 5 5 0 0 5
 Armour: 30
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 7
 Str: 38
 Dex: 27
@@ -2416,7 +2456,9 @@ d0f0g0l0n0o0x0A0i2u2 c0d0e0k0m0n0r0 -600 E
 6 6 1
 Saves: -14 -14 -14 -14
 Armour: 5
+CastSuccess: 23
 Initiative: 15
+Absorbe: 32
 MResist: 10
 Str: 24
 Dex: 30
@@ -2458,6 +2500,7 @@ Saves: -22 -22 -22 -22
 Resistances: 0 0 0 0 50 10 50
 HPreg: 50
 CastSuccess: 50
+Absorbe: 34
 AResist: 10
 Str: 22
 Dex: 22
@@ -2537,6 +2580,7 @@ Saves: -22 -22 -22 -22
 Resistances: 0 0 0 0 40 10 40
 Armour: 40
 CastSuccess: 40
+Absorbe: 34
 AResist: 20
 Str: 22
 Dex: 22
@@ -2576,7 +2620,7 @@ Spell: 151
 Spell: 151
 E
 #77440
- связанная яга~
+связанная старушка яга~
 связанная Яга~
 связанной Яги~
 связанной Яге~
@@ -2600,7 +2644,7 @@ PlusMem: 200
 CastSuccess: 200
 Success: 200
 Initiative: 200
-Absorbe: 200
+Absorbe: 1
 Str: 22
 Dex: 22
 Int: 45
@@ -2638,7 +2682,7 @@ HPreg: 30
 Armour: 55
 PlusMem: 30
 CastSuccess: 30
-Absorbe: 50
+Absorbe: 30
 BareHandAttack: 4
 Str: 45
 Dex: 45

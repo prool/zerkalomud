@@ -18,7 +18,7 @@ b0d0n0u2 d0f0h0k0z0 -600 E
 8 8 1
 Saves: -50 -30 -30 -50
 Resistances: 0 0 0 0 30 0 0
-CastSuccess: 35
+CastSuccess: 30
 Absorbe: 50
 BareHandAttack: 6
 Str: 40
@@ -48,14 +48,14 @@ Spell: 128
 Spell: 128
 Spell: 128
 Spell: 128
-Helper: 32322
-Helper: 32303
-Helper: 32311
-Helper: 32310
-Helper: 32309
-Helper: 32307
-Helper: 32304
 Helper: 32305
+Helper: 32304
+Helper: 32307
+Helper: 32309
+Helper: 32310
+Helper: 32311
+Helper: 32303
+Helper: 32322
 E
 T 32301
 T 32307
@@ -116,9 +116,9 @@ Spell: 88
 Spell: 88
 Spell: 128
 Spell: 128
-Helper: 32305
-Helper: 32304
 Helper: 32302
+Helper: 32304
+Helper: 32305
 E
 #32302
 княгиня калинка~
@@ -138,7 +138,6 @@ b0d0n0 d0f0h0k0 -600 E
 3d4+350 600000
 8 8 2
 Saves: -20 -18 -18 -20
-CastSuccess: 26
 Absorbe: 50
 Str: 25
 Dex: 25
@@ -316,7 +315,6 @@ b0d0e0l0p0q0 d0f0k0z0A0m1 -600 E
 Saves: -30 -22 -22 -30
 Resistances: 0 0 0 0 50 0 40
 Armour: 50
-CastSuccess: 29
 Initiative: 20
 Absorbe: 50
 AResist: 40
@@ -531,8 +529,8 @@ Skill: 136 100
 Skill: 141 100
 Skill: 148 100
 Spell: 28
-Helper: 32307
 Helper: 32311
+Helper: 32307
 E
 #32311
 крестьянин бородатый~
@@ -890,8 +888,8 @@ Spell: 26
 Spell: 28
 Spell: 28
 Spell: 28
-Helper: 32318
 Helper: 32313
+Helper: 32318
 E
 #32320
 корова~
@@ -2777,8 +2775,8 @@ Skill: 148 100
 Spell: 48
 Spell: 53
 Spell: 96
-Helper: 32356
 Helper: 32361
+Helper: 32356
 E
 T 32337
 #32361
@@ -3401,7 +3399,6 @@ b0c0d0l0m0n0A0 d0f0k0C0a1 0 E
 6 6 1
 Saves: -30 -18 -18 -30
 Resistances: 0 0 0 0 30 0 0
-CastSuccess: 26
 BareHandAttack: 6
 Str: 35
 Dex: 35
@@ -3430,14 +3427,14 @@ Spell: 124
 Spell: 124
 Spell: 124
 Spell: 124
-Helper: 32360
-Helper: 32380
-Helper: 32375
-Helper: 32373
-Helper: 32372
-Helper: 32364
-Helper: 32363
 Helper: 32362
+Helper: 32363
+Helper: 32364
+Helper: 32372
+Helper: 32373
+Helper: 32375
+Helper: 32380
+Helper: 32360
 E
 T 32318
 T 32319
@@ -3462,7 +3459,6 @@ b0c0d0l0m0A0 d0f0k0C0d2 0 E
 8 8 2
 Saves: -30 -14 -14 -14
 Resistances: 0 0 0 0 30 0 0
-CastSuccess: 23
 BareHandAttack: 2
 Str: 28
 Dex: 35
@@ -3497,8 +3493,8 @@ Spell: 127
 Spell: 128
 Spell: 128
 Spell: 128
-Helper: 32378
 Helper: 32376
+Helper: 32378
 E
 #32378
 сын старейшины будай~
@@ -3553,7 +3549,7 @@ T 32334
 ~
 b0c0d0l0m0n0A0 d0f0k0C0q1 0 E
 33 -30 -30 5d5+3800 3d10+50
-0d7+200 600000
+4d7+200 600000
 8 8 1
 Saves: -50 -18 -18 -50
 CastSuccess: 40
@@ -3616,9 +3612,9 @@ Spell: 124
 Spell: 124
 Spell: 124
 Spell: 124
-Helper: 32361
-Helper: 32372
 Helper: 32373
+Helper: 32372
+Helper: 32361
 E
 T 32315
 T 32316

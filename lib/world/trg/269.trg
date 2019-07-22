@@ -294,69 +294,65 @@ end
 ~
 #26914
 Крики гостей~
-0 ar 100
+0 br 100
 0~
-while  1
-  wait 1s
-  if !%self.fighting%
-    switch %random.12%
-      case 1
-        г Горько! Почему все такое горькое?! Горько!
-      break
-      case 2
-        г Дак выпьем же за молодых!
-      break
-      case 3
-        см невест
-        г Ух, хороша чертовка!
-      break
-      case 4
-        см жени
-        г Вот это да! Бравый хлопец!
-      break
-      case 5
-        тост
-      break
-      case 6
-        пет
-      break
-      case 7
-        кури
-      break
-      case 8
-        г Счастья Вам, Молодые! Горько!
-        эм осушил кружку
-      break
-      case 9
-        эм выпил чарку и закусил
-        ик
-      break
-      case 10
-        хих поп
-      break
-    done
-  end
-  wait 10s
+wait 1s
+if %self.fighting%
+  halt
+end
+switch %random.10%
+  case 1
+    г Горько! Почему все такое горькое?! Горько!
+  break
+  case 2
+    г Дак выпьем же за молодых!
+  break
+  case 3
+    см невест
+    г Ух, хороша чертовка!
+  break
+  case 4
+    см жени
+    г Вот это да! Бравый хлопец!
+  break
+  case 5
+    тост
+  break
+  case 6
+    пет
+  break
+  case 7
+    кури
+  break
+  case 8
+    г Счастья Вам, Молодые! Горько!
+    эм осушил кружку
+  break
+  case 9
+    эм выпил чарку и закусил
+    ик
+  break
+  case 10
+    хих поп
+  break
 done
+wait 10s
 ~
 #26915
 Поп благословляет~
 0 ar 100
 0~
-while 1
-  wait 1s
-  if !%self.fighting%
-    switch %random.3%
-      case 1
-        благос жени
-      break
-      case 2
-        благос невес
-      break
-    done
-  end
-  wait 10s
-done
+wait 2s
+if !%self.fighting%
+  switch %random.3%
+    case 1
+      благос жени
+    break
+    case 2
+      благос невес
+    break
+  done
+end
 ~
 #26916
 Телепортация девушки~
@@ -496,43 +492,30 @@ if %object.vnum% != 26912
   брос все
   halt
 end
-mpurge лук
+mjunk all
 if (%questor269add.id% == %actor.id%)
   if %actor.sex% == 1
     г Ты все-таки нашел его. Вот здорово! 
-    г Вот порадовал старика на закате лет.
-  end
-  if %actor.sex% == 2
+  else 
     г Ты все-таки нашла его. Вот здорово! 
-    г Вот порадовала старика на закате лет.
   end
-  ул %actor.name%
-  if (%actor.class% == 10) && (!%actor.skill(сбить)%)
-    wait 1s
-    if (%actor.level%>24)
-      г Ну что ж, пожалуй я научу тебя одному умению, 
-      г которое будет помогать тебе в бою.
-      wait 1s
-      mskillturn %actor.name% сбить set
-    end
-    if (%actor.level%<=24)
-      г Молод%actor.g% ты еще, чтобы изучить это умение,
-      г но награду ты заслужил%actor.g%!
-      wait 1s
-      mecho Старик достал мешочек с деньгами.
-      %self.gold(1500)%
-      дать 1500 кун %actor.name%           
-    end
-  else
-    wait 1s
-    г Ну что ж, как и обещал, принимай награду.
-    wait 1s
-    mecho Старик достал мешочек с деньгами.
-    %self.gold(1500)%
-    дать 1500 кун %actor.name%
-  end
+  г Вот порадовал%actor.g% старика на закате лет.
+end
+ул .%actor.name%
+if ((%actor.class% == 10) && !%actor.skill(сбить)% && %actor.can_get_skill(сбить)%)
+  г Ну что ж, пожалуй я научу тебя одному умению, 
+  г которое будет помогать тебе в бою.
+  wait 1s
+  mskillturn %actor% сбить set
 else
-  г Хм.... Я не просил тебя о помощи, но все равно, спасибо.
+  wait 1s
+  г Ну что ж, как и обещал, принимай награду.
+  wait 1s
+  msend %actor% Старик достал мешочек с деньгами и протянул его Вам.
+  eval temp %actor.gold(+1500)%
+end
+else
+г Хм.... Я не просил тебя о помощи, но все равно, спасибо.
 end
 unset questor269add
 detach 26920 %self.id%

@@ -16,12 +16,12 @@ mpurge %self.id%
 if %random.12% == 1
   eval target %random.pc% 
   dg_cast 'огнен шар' %target.name%
-  unset %target%
+  unset target
 else
   if %random.7% == 1
     eval target %random.pc% 
     dg_cast 'огнен пото' %target.name%
-    unset %target%
+    unset target
   end
 end
 ~

@@ -30,8 +30,8 @@ return 1
 ~
 #62001
 у старого волхва~
-0 c 0
-пожертвовать~
+0 m 100
+100~
 if (%actor.vnum% != -1)
   halt
 end
@@ -47,8 +47,8 @@ dg_cast 'доблесть' %actor.name%
 ~
 #62002
 у архиерея~
-0 c 0
-помолиться~
+0 m 100
+~
 if (%actor.vnum% != -1)
   halt
 end
@@ -57,11 +57,9 @@ if (%actor.religion% == 0)
   emot отвернулся и принялся крестится
   halt
 end
-msend %actor% _Вы вознесли молитву.
-mechoaround %actor%  %actor.name% вознес%actor.q% молитву.
-say Да услышит Господь твою молитву...
-кив
-dg_cast 'защита от тьм' %actor.name% 
+say Я помолюсь за Вас, %actor.name%.
+say Да услышит Господь мою молитву...
+dg_cast 'защита от тьмы' %actor.name%
 ~
 #62003
 вход к распорядителю~
@@ -101,6 +99,7 @@ rdelete char %self.id%
 if %amount% < 100
   say За такие деньги иди в кабаке кулаки чеши!
   хох
+  give %amount% кун .%actor.name%
   halt
 end
 exec 62004 %world.room(62012)%
@@ -111,7 +110,7 @@ wait 2s
 if %char%
   say Совсем забыл, на ристалище-то уже бой идет...
   say Придется Вам погодить малость.
-  give %amount% кун %actor.name%
+  give %amount% кун .%actor.name%
   halt
 end
 exec 62013 %world.room(62012)%
@@ -253,8 +252,8 @@ if (%actor.clan% == тв)
   end
 else
   if %random.5% == 2
-    msend %actor% _%self.name% хмуро оглядел Вас с ног до головы 
-    mechoaround %actor%  _%self.name% хмуро оглядел %actor.vname% с ног до головы.
+    msend %actor% %self.name% хмуро оглядел Вас с ног до головы.
+    mechoaround %actor% %self.name% хмуро оглядел %actor.vname% с ног до головы.
   end
   if %actor.level% > 24
     if (%actor.vname% == %char1%) || (%actor.vname% == %char2%) || (%actor.vname% == %char3%) || (%actor.vname% == %char4%) || (%actor.vname% == %char5%)
@@ -300,10 +299,10 @@ global num
 0 d 0
 доложись~
 if (%actor.clan% != тв)
-  msend %actor% _%self.name% презрительно взглянул на Вас
-  mechoaround %actor% _%self.name% презрительно посмотрел на %actor.vname%
+  msend %actor% %self.name% презрительно взглянул на Вас.
+  mechoaround %actor% %self.name% презрительно посмотрел на %actor.vname%.
   морщ
-  вмаз %actor.name%
+  вмаз .%actor.name%
   eval damage %actor.hitp%/10
   mdamage %actor% %damage%
   halt
@@ -349,8 +348,8 @@ if (%actor.clan% == морское.братство)
   end
 else
   if %random.5% == 2
-    msend %actor% _%self.name% хмуро оглядел Вас с ног до головы
-    mechoaround %actor% _%self.name% хмуро оглядел %actor.vname% с ног до головы.
+    msend %actor% %self.name% хмуро оглядел Вас с ног до головы.
+    mechoaround %actor% %self.name% хмуро оглядел %actor.vname% с ног до головы.
   end
   if %actor.level% > 24
     if (%actor.vname% == %char1%) || (%actor.vname% == %char2%) || (%actor.vname% == %char3%) || (%actor.vname% == %char4%) || (%actor.vname% == %char5%)
@@ -563,11 +562,11 @@ if ( %actor.vnum% != -1 )
   makeuid killer %actor.leader%
 end
 if (%killer.sex% == 1)
-  mshou _Помогите! Убивает меня злодей-душегуб - %killer.name%. Спаси...
+  mshou Помогите! Убивает меня злодей-душегуб - %killer.name%. Спаси...
 elseif (%killer.sex% == 2)
-  mshou  Помогите! Убивает меня злодейка - %killer.name%. Спаси...
+  mshou Помогите! Убивает меня злодейка - %killer.name%. Спаси...
 else
-  mshou _Помоги....
+  mshou Помоги....
 end
 mdamage %self% %self.hitp%
 ~
@@ -1245,5 +1244,32 @@ switch %amount%
   msend %actor% 
   mteleport %actor% %target% horse
   mechoaround %actor% %actor.name% появил%actor.u% здесь в клубах дыма.
+~
+#62035
+вход к волхву~
+0 q 100
+~
+wait 1
+if (%actor.religion% == 1)
+  mecho Старый волхв проницательно посмотрел на Вас.
+  бубн
+  halt
+end
+улыб .%actor.name%
+say Здравствуй, путник. Под этим дубом можешь спокойно отдохнуть.
+say А коли жадность не твой порок, могу отблагодарить за твое пожертвование.
+~
+#62036
+вход к архиерею~
+0 q 100
+~
+wait 1
+if (%actor.religion% == 0)
+  mecho Архиерей проницательно посмотрел на Вас.
+  крест
+  halt
+end
+здоровье .%actor.name%
+say Да хранит Вас, Господь! Вы можете оставить Ваши пожертвования на благо церкви.
 ~
 $~

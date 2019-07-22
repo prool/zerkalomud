@@ -10,7 +10,7 @@
 ~
 Он уже сильно запачкался о эту грязную лестницу.
 ~
-a0d0g0m0n0h1 0 0 E
+d0g0m0n0h1 0 0 E
 16 18 -8 10d10+500 3d3+15
 2d2+2 20000
 8 8 1
@@ -2101,7 +2101,7 @@ Size: 100
 LikeWork: 90
 ExtraAttack: 1
 Class: 105
-Race: 112
+Race: 109
 Height: 175
 Weight: 85
 Special_Bitvector: 0 

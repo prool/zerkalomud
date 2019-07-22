@@ -39,8 +39,8 @@ else
   end
 end
 wait 1
-if ((%random.100% <= 2) && (%world.curobjs(3349)% < 1))
-  mload obj 3349
+if (%random.100% <= 2)
+  mload obj 103
   say Ой, это ж запасное колесо от моей телеги!
   say А я думал что его цыгане сперли...
   wait 10

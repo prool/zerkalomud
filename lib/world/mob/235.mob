@@ -1,6 +1,3 @@
-* Сгенерировано BZEditor
-* Количество мобов : 13
-* Сохранено 12.06.2009 19:00:12
 #23500
 возница мужик~
 возница~
@@ -14,35 +11,31 @@
 Мужик лет сорока с косматой бородой.
 ~
 b0c0d0g0l0m0o0A0 0 0 E
-15 10 -5 10d10+200 4d4+7
+16 10 -5 10d10+200 4d4+7
 10d10+10 20000
 8 8 1
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 22
+Dex: 18
 Int: 16
 Wis: 10
-Dex: 18
 Con: 20
 Cha: 10
+Size: 100
 LikeWork: 50
-MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: y0b1c1
-Spell: 17
-Spell: 17
+Special_Bitvector: y0b1c1 
 Skill: 4 30
 Skill: 136 40
 Skill: 137 80
 Skill: 142 60
 Skill: 146 60
 Skill: 157 60
+Spell: 17
+Spell: 17
 E
 #23501
 мерин~
@@ -57,27 +50,24 @@ E
 Старый рабочий мерин гнедой масти.
 ~
 b0d0n0 f0 0 E
-15 11 2 2d10+250 5d2+6
+16 11 2 2d10+250 5d2+6
 0d0+0 20000
 8 8 1
-AResist: 0
-MResist: 0
 BareHandAttack: 13
 Str: 30
+Dex: 16
 Int: 7
 Wis: 6
-Dex: 16
 Con: 22
 Cha: 7
+Size: 100
 LikeWork: 20
-MaxFactor: 0
 ExtraAttack: 2
 Class: 103
 Race: 104
-Size: 100
 Height: 200
 Weight: 150
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 136 45
 E
 #23502
@@ -93,27 +83,24 @@ E
 Крепкий мужик в пыльной одежде и с инструментами в руках.
 ~
 d0g0m0n0 0 0 E
-22 9 0 10d10+250 5d3+6
+16 9 0 10d10+250 5d3+6
 2d10+20 20000
 8 8 1
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 22
+Dex: 18
 Int: 13
 Wis: 12
-Dex: 18
 Con: 25
 Cha: 12
+Size: 100
 LikeWork: 50
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
 Race: 101
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 141 30
 Skill: 145 30
 E
@@ -130,27 +117,24 @@ E
 Умудренный жизнью мастер.
 ~
 b0d0g0n0 d0f0k0 0 E
-29 8 1 10d10+500 3d8+1
+18 8 1 10d10+500 3d8+1
 2d10+110 30000
 8 8 1
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 24
+Dex: 14
 Int: 16
 Wis: 18
-Dex: 14
 Con: 25
 Cha: 12
+Size: 100
 LikeWork: 50
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
 Race: 101
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 141 30
 Skill: 145 30
 E
@@ -169,27 +153,24 @@ T 23501
  Крепкий мужик лет тридцати пяти с опущенной головой.
 ~
 b0d0g0n0 d0f0k0 0 E
-29 8 1 10d10+500 3d8+1
+18 8 1 10d10+500 3d8+1
 2d10+110 30000
 8 8 1
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 24
+Dex: 14
 Int: 16
 Wis: 18
-Dex: 14
 Con: 25
 Cha: 12
+Size: 100
 LikeWork: 50
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
 Race: 101
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 141 30
 Skill: 145 30
 E
@@ -206,27 +187,24 @@ E
  Лохматая русая борода и горделивый взгляд.
 ~
 b0d0g0n0 d0f0k0 0 E
-29 8 1 10d10+500 3d8+1
+18 8 1 10d10+500 3d8+1
 2d10+110 30000
 8 8 1
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 24
+Dex: 14
 Int: 16
 Wis: 18
-Dex: 14
 Con: 25
 Cha: 12
+Size: 100
 LikeWork: 50
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
 Race: 101
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0
+Special_Bitvector: 0 
 Skill: 141 30
 Skill: 145 30
 E
@@ -243,27 +221,24 @@ E
  Исходящий от него холод пробирает Вас до самой кости.
 ~
 b0d0B0 d0f0h0k0 600 E
-34 3 -9 10d10+1000 10d10+20
+1 3 -9 10d10+1000 10d10+20
 0d0+9 1
 8 8 1
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 35
+Dex: 35
 Int: 35
 Wis: 35
-Dex: 35
 Con: 35
 Cha: 35
+Size: 100
 LikeWork: 100
 MaxFactor: 1
 ExtraAttack: 1
 Class: 105
 Race: 105
-Size: 100
 Height: 200
 Weight: 100
-Special_Bitvector: i3
+Special_Bitvector: i3 
 E
 T 23503
 #23507
@@ -279,27 +254,24 @@ T 23503
  В красоте ее вы замечаете что-то неземное...
 ~
 b0d0n0B0o1 d0f0h0k0 600 E
-31 4 3 10d10+300 5d5+5
+18 4 3 10d10+300 5d5+5
 0d0+0 30000
 8 8 2
-AResist: 0
-MResist: 0
-BareHandAttack: 0
 Str: 30
+Dex: 30
 Int: 30
 Wis: 30
-Dex: 30
 Con: 30
 Cha: 35
+Size: 100
 LikeWork: 50
 MaxFactor: 1
 ExtraAttack: 1
 Class: 104
 Race: 114
-Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b0i3
+Special_Bitvector: b0i3 
 E
 T 23506
 #23508
@@ -318,24 +290,21 @@ d0f0q0 f0k0 0 E
 16 5 6 10d10+200 4d5+2
 0d0+0 20000
 8 8 2
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 13
+Dex: 20
 Int: 8
 Wis: 7
-Dex: 20
 Con: 15
 Cha: 3
+Size: 30
 LikeWork: 30
 MaxFactor: 15
-ExtraAttack: 0
 Class: 103
 Race: 105
-Size: 30
 Height: 100
 Weight: 50
-Special_Bitvector: g0m0
+Special_Bitvector: g0m0 
 Skill: 136 48
 Skill: 157 30
 Skill: 160 30
@@ -353,31 +322,29 @@ E
  Не больно то и рассмотришь при такой скорости...
 ~
 d0f0 f0k0x0m1 0 E
-14 4 10 10d10+150 3d3+6
+15 4 10 10d10+150 3d3+6
 0d0+0 17000
 8 8 2
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 12
+Dex: 19
 Int: 5
 Wis: 5
-Dex: 19
 Con: 10
 Cha: 3
+Size: 20
 LikeWork: 30
 MaxFactor: 20
 ExtraAttack: 1
 Class: 103
 Race: 103
-Size: 20
 Height: 30
 Weight: 50
-Special_Bitvector: l0
-Spell: 76
-Spell: 76
+Special_Bitvector: l0 
 Skill: 136 42
 Skill: 157 30
+Spell: 76
+Spell: 76
 E
 #23510
 огромный каменный змей вуивир~
@@ -393,35 +360,32 @@ E
 А во лбу - &Rалый рубин горит ярким пламенем.&n
 ~
 b0d0n0p0q0r0y0z0 d0f0k0 -600 E
-22 5 -1 10d10+300 5d6+10
+24 5 -1 10d10+300 5d6+10
 0d0+0 85000
 8 8 1
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 23
+Dex: 14
 Int: 14
 Wis: 9
-Dex: 14
 Con: 29
 Cha: 3
+Size: 30
 LikeWork: 30
 MaxFactor: 6
-ExtraAttack: 0
 Class: 101
 Race: 105
-Size: 30
 Height: 100
 Weight: 50
-Special_Bitvector: a0m0
-Spell: 23
-Spell: 23
-Spell: 54
-Spell: 54
-Spell: 54
+Special_Bitvector: a0m0 
 Skill: 4 20
 Skill: 136 60
 Skill: 157 30
+Spell: 23
+Spell: 23
+Spell: 54
+Spell: 54
+Spell: 54
 Helper: 23508
 E
 T 23509
@@ -438,30 +402,28 @@ T 23509
    Мохнатый паук с богатырский кулак размером
 ~
 d0m0 f0k0 0 E
-10 4 3 2d10+150 1d8+1
+12 4 3 2d10+150 1d8+1
 0d0+0 10000
 8 8 1
-AResist: 0
-MResist: 0
 BareHandAttack: 4
 Str: 10
+Dex: 18
 Int: 3
 Wis: 3
-Dex: 18
 Con: 8
 Cha: 3
+Size: 20
 LikeWork: 30
 MaxFactor: 20
 ExtraAttack: 1
 Class: 103
 Race: 107
-Size: 20
 Height: 30
 Weight: 50
-Special_Bitvector: m0
+Special_Bitvector: m0 
+Skill: 136 30
 Spell: 72
 Spell: 77
-Skill: 136 30
 E
 #23512
 земляная кошка огоньки~
@@ -476,42 +438,38 @@ E
  Странное создание, похожее на кошку, но с горящими ушами.
 ~
 d0g0k0m0n0x0z0i1 d0k0s0m1 0 E
-16 11 10 3d10+215 5d3+3
+17 11 10 3d10+215 5d3+3
 0d0+0 25000
 8 8 2
-AResist: 0
-MResist: 0
 BareHandAttack: 1
-Str: 11
+Dex: 21
 Int: 8
 Wis: 7
-Dex: 21
 Con: 9
 Cha: 8
+Size: 30
 LikeWork: 20
 MaxFactor: 20
 ExtraAttack: 1
 Class: 101
 Race: 104
-Size: 30
 Height: 50
 Weight: 50
-Special_Bitvector: h0
-Spell: 4
-Spell: 4
-Spell: 4
-Spell: 37
-Spell: 37
-Spell: 37
-Spell: 37
-Spell: 37
-Spell: 67
-Spell: 67
+Special_Bitvector: h0 
 Skill: 4 20
 Skill: 136 45
 Skill: 138 100
 Skill: 157 30
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 67
+Spell: 67
 E
 T 23508
-$
 $

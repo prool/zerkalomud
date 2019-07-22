@@ -148,4 +148,10 @@ if %actor.name% == Ослад
   end
 end
 ~
+#99920
+к obj 99902, создаем воспоминания~
+1 c 100
+развернуть~
+say My trigger commandlist is not complete!
+~
 $~

@@ -462,7 +462,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
-Race: 104
+Race: 102
 Height: 175
 Weight: 150
 Special_Bitvector: 0 
@@ -502,7 +502,7 @@ LikeWork: 100
 MaxFactor: 100
 ExtraAttack: 1
 Class: 103
-Race: 104
+Race: 102
 Height: 175
 Weight: 150
 Special_Bitvector: 0 
@@ -542,7 +542,7 @@ Size: 100
 LikeWork: 80
 ExtraAttack: 3
 Class: 104
-Race: 104
+Race: 102
 Height: 165
 Weight: 90
 Special_Bitvector: b1c1d1 
@@ -1040,7 +1040,7 @@ T 85055
 младший братец в волка черного оборачивается.
 ~
 b0d0r0l2 f0k0r0r1z1 -600 E
-30 -4 -20 25d15+1300 8d12+33
+30 -4 -20 25d15+1300 1d12+35
 5d6+60 327000
 8 8 1
 Saves: -14 -14 -14 -14
@@ -1048,23 +1048,23 @@ Resistances: 0 0 0 0 10 10 0
 BareHandAttack: 3
 Str: 25
 Dex: 31
-Int: 30
+Int: 20
 Wis: 35
 Con: 29
-Cha: 22
+Cha: 18
 Size: 100
 LikeWork: 99
-ExtraAttack: 2
+ExtraAttack: 4
 Class: 102
 Race: 101
 Height: 200
 Weight: 100
 Special_Bitvector: y0b1c1d1C3 
+Skill: 5 150
 Skill: 22 120
 Skill: 136 120
 Skill: 137 150
 Skill: 146 100
-Skill: 157 100
 Spell: 150
 E
 T 85055
@@ -1741,8 +1741,8 @@ T 85066
 человечьим.
 ~
 b0d0l2 d0f0k0r0x0A0r1t1x1 -600 E
-35 -15 -7 0d0+2900 6d25+10
-1d5+5 800000
+32 -15 -7 0d0+2700 6d25+10
+1d5+5 500000
 8 8 1
 Saves: -26 -26 -26 -26
 CastSuccess: 32
@@ -2194,7 +2194,7 @@ Cha: 36
 Size: 58
 ExtraAttack: 1
 Class: 101
-Race: 110
+Race: 104
 Height: 198
 Weight: 100
 Special_Bitvector: p0 
@@ -2575,13 +2575,13 @@ Spell: 27
 Spell: 27
 E
 #85051
-замора дева ~
-замора ~
+замора дева~
+замора~
 заморы~
-заморе ~
-замору ~
-заморой ~
-заморе ~
+заморе~
+замору~
+заморой~
+заморе~
 Бледноликая дева сеет по Миру мор и голод. 
 ~
    Бледноликая дева в белом одеянии. Кожа белее снега, словно молоко

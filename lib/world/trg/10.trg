@@ -35,11 +35,14 @@ log &R%actor.name% - ЧИТЕРИТ!&n
 Триггер хрустального доспеха (1092) - Прокиус~
 1 j 100
 ~
+if (!%actor.canbeseen%)
+  halt
+end
 if (( %actor.level% > 30 ) && (%actor.vnum% == -1))
   return 1
   halt
 end
-if ( %actor.name% == Жупел )
+if ( %actor.name% == Прокиус )
   return 1
   wait 1
   %echoaround% %actor% Лучи света весело засверкали на гранях доспеха, и вы почувствовали как этот свет ободряет и придает сил.
@@ -410,7 +413,7 @@ nop
 ~
 #1091
 Именной шмот - Прокиус~
-1 gj 100
+1 j 100
 ~
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt

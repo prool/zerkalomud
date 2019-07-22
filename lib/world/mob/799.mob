@@ -1,0 +1,1361 @@
+#79900
+рыбак~
+Рыбак~
+Рыбака~
+Рыбаку~
+Рыбака~
+Рыбаком~
+Рыбаке~
+Рыбак чинит снасти, готовясь к очередной рыбалке.
+~
+Пожилой мужчина с длинной бородой чинит свои снасти.
+~
+b0d0g0 d0f0k0 -600 E
+31 -25 -20 8d12+4000 12d11+50
+11d6+100 400000
+8 8 1
+Saves: -10 -50 -50 -50
+Resistances: 15 15 15 15 20 20 20
+Armour: 50
+CastSuccess: 50
+Absorbe: 31
+AResist: 5
+MResist: 5
+PResist: 5
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 20
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 134 200
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+E
+T 79955
+T 79931
+#79901
+конюх~
+Конюх~
+Конюха~
+Конюху~
+Конюха~
+Конюхом~
+Конюхе~
+Конюх следит за своими лошадьми здесь.
+~
+Пожилой мужик весь грязный и в синяках.
+~
+b0d0g0 d0f0k0 -600 E
+31 -25 -20 8d12+4000 12d11+50
+5d7+100 400000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 15 15 15 15 20 20 20
+Armour: 50
+CastSuccess: 50
+Absorbe: 31
+AResist: 5
+MResist: 5
+PResist: 5
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 5 100
+E
+T 79955
+T 79929
+#79902
+мифодий~
+Мифодий~
+Мифодия~
+Мифодию~
+Мифодия~
+Мифодием~
+Мифодии~
+Мифодий, живущий в хлеву, стоит перед Вами.
+~
+Мифодий, работает и живет в хлеву, присматривая за скотом.
+~
+b0d0g0 d0f0k0 -600 E
+31 -25 -20 8d12+4000 11d13+50
+11d6+100 400000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 15 15 15 15 20 20 20
+Armour: 50
+CastSuccess: 50
+Absorbe: 31
+AResist: 5
+MResist: 5
+PResist: 5
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 4 100
+E
+T 79932
+#79903
+поп~
+Поп~
+Попа~
+Попу~
+Попа~
+Попом~
+Попе~
+Старый поп в черной потрепанной ризе смотрит на Вас.
+~
+Старый поп в черной потертой и потрепанной ризе ходит по церквушке.
+~
+b0d0g0 d0f0k0 -600 E
+31 -25 -20 8d12+4000 13d11+50
+11d6+100 400000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 15 15 15 15 20 20 20
+Armour: 50
+CastSuccess: 50
+Absorbe: 31
+AResist: 5
+MResist: 5
+PResist: 5
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 100
+Race: 100
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 94
+Spell: 94
+E
+T 79946
+#79904
+лукьян~
+Лукьян~
+Лукьяна~
+Лукьяну~
+Лукьяна~
+Лукьяном~
+Лукьяне~
+Лукьян, работающий в амбаре, стоит здесь.
+~
+Лукьян, в расписной рубахе и высоких сапогах ходит по амбару.
+~
+b0d0g0 d0f0k0 -600 E
+31 -25 -20 8d12+4000 11d12+50
+11d6+100 400000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 15 15 15 15 20 20 20
+Armour: 50
+CastSuccess: 50
+Absorbe: 31
+AResist: 5
+MResist: 5
+PResist: 5
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 132 100
+E
+T 79930
+#79905
+стрелец удалой~
+Стрелец удалой~
+Стрельца удалого~
+Стрельцу удалому~
+Стрельца удалого~
+Стрельцом удалым~
+Стрельце удалом~
+Стрелец - лихой молодец, смотрит на Вас.
+~
+Высокий и сильный парень стоит в избе и смотрит в окно.
+~
+b0d0g0 d0f0k0 -600 E
+31 -25 -20 8d12+4000 15d13+50
+11d6+100 400000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 15 15 15 15 20 20 20
+Armour: 50
+CastSuccess: 50
+Absorbe: 31
+AResist: 5
+MResist: 5
+PResist: 5
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 4
+Class: 102
+Race: 101
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 1 100
+Skill: 5 100
+Spell: 25
+Spell: 25
+Spell: 59
+Spell: 59
+E
+T 79955
+T 79919
+T 79920
+T 79933
+#79906
+деревенский житель~
+Деревенский житель~
+Деревенского жителя~
+Деревенскому жителю~
+Деревенского жителя~
+Деревенским жителем~
+Деревенском жителе~
+Житель деревни проходит мимо Вас.
+~
+Местный житель в простой одежде смотрит на Вас с удивлением.
+~
+d0g0 d0f0k0 -600 E
+30 -15 -20 8d12+3000 6d8+45
+11d6+50 300000
+8 8 1
+Saves: -30 -30 -30 -30
+Resistances: 15 15 15 15 20 20 20
+Armour: 50
+CastSuccess: 50
+Absorbe: 30
+AResist: 5
+MResist: 5
+PResist: 5
+Str: 30
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 100
+Race: 100
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 150 60
+Skill: 151 40
+Spell: 54
+Spell: 54
+Spell: 54
+E
+T 79955
+T 79922
+#79907
+волчара лютый~
+Волчара лютый~
+Волчары лютого~
+Волчаре лютом~
+Волчару лютого~
+Волчарой лютым~
+Волчаре лютом~
+Лютый волчище с кроваво-красными глазами.
+~
+Огромный серый волчище с острыми клыками и кроваво-красными глазами.
+~
+d0f0g0i1 d0f0k0 -600 E
+35 -25 -20 8d12+6500 11d10+50
+0d0+0 800000
+8 8 1
+Saves: -60 -60 -60 -60
+Resistances: 20 20 20 20 25 25 25
+Armour: 40
+CastSuccess: 50
+Absorbe: 35
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 4
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 3
+Class: 103
+Race: 104
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 132 100
+E
+T 79902
+#79908
+свирепый волчище~
+Свирепый волчище~
+Свирепого волчища~
+Свирепому волчищу~
+Свирепого волчища~
+Свирепым волчищем~
+Свирепом волчище~
+Свирепый волчище собирается броситься на Вас.
+~
+Огромный черный волчара с длинными когтями собирается накинуться на Вас.
+~
+d0f0g0i1 d0f0k0 -600 E
+35 -25 -20 8d12+7000 11d11+50
+0d0+0 850000
+8 8 1
+Saves: -60 -60 -60 -60
+Resistances: 20 20 20 20 20 20 20
+Armour: 40
+CastSuccess: 50
+Absorbe: 35
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 4
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 3
+Class: 103
+Race: 104
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 5 100
+E
+T 79901
+T 79914
+T 79923
+#79909
+волчий дух~
+Волчий дух~
+Волчьего духа~
+Волчьему духу~
+Волчьего духа~
+Волчим духом~
+Волчем духе~
+Жуткий дух волка издает протяжный вой.
+~
+Полупрозрачный дух волка с красными огоньками на месте глаз.
+~
+d0f0g0z0 d0f0k0 -600 E
+34 -25 -20 8d12+5000 11d9+50
+0d0+0 750000
+8 8 1
+Saves: -60 -60 -60 -60
+Resistances: 20 20 20 20 20 20 20
+Armour: 40
+CastSuccess: 50
+Absorbe: 34
+AResist: 15
+MResist: 15
+PResist: 15
+BareHandAttack: 8
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 101
+Race: 104
+Height: 180
+Weight: 160
+Special_Bitvector: g0 
+Skill: 131 140
+Spell: 56
+Spell: 56
+E
+#79910
+волчонок~
+Волчонок~
+Волчонка~
+Волчонку~
+Волчонка~
+Волчонком~
+Волчонке~
+Молодой, но опасный волчонок клацает зубами перед Вами.
+~
+Небольшой, но уже очень свирепый волк, пытается вцепиться Вам в глотку.
+~
+d0f0g0 d0f0k0 -600 E
+32 -25 -20 8d12+3500 7d8+45
+0d0+0 500000
+8 8 1
+Saves: -40 -40 -40 -40
+Resistances: 10 10 10 10 10 10 10
+Armour: 25
+CastSuccess: 35
+Absorbe: 32
+BareHandAttack: 4
+Str: 30
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 103
+Race: 104
+Height: 140
+Weight: 120
+Special_Bitvector: 0 
+Skill: 160 100
+Spell: 172
+Spell: 172
+E
+T 79955
+#79911
+волколак~
+Волколак~
+Волколака~
+Волколаку~
+Волколака~
+Волколаком~
+Волколаке~
+Волколак люто смотрит прямо в Ваши глаза.
+~
+Огромный волк-оборотень с длинными клыками и когтями смотрит прямо в Ваши глаза.
+~
+b0d0f0g0i1 d0f0k0q1 -600 E
+38 -25 -20 8d12+9650 15d15+50
+0d0+0 1500000
+8 8 1
+Saves: -70 -70 -70 -70
+Resistances: 25 25 25 25 25 25 25
+Armour: 50
+CastSuccess: 60
+Absorbe: 38
+AResist: 15
+MResist: 15
+PResist: 15
+BareHandAttack: 5
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 4
+Class: 103
+Race: 104
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 4 100
+Skill: 157 50
+Spell: 1
+Spell: 1
+Helper: 79908
+Helper: 79907
+E
+T 79955
+#79912
+железная птица~
+Железная птица~
+Железной птицы~
+Железной птице~
+Железную птицу~
+Железной птицой~
+Железной птице~
+Большая птица с огромным железным клювом летит прямо на Вас.
+~
+Огромная птица с большим железным клювом и длинными когтями.
+~
+d0f0g0h1e2h2 d0f0k0 -600 E
+35 -25 -20 8d12+6000 11d11+50
+0d0+0 800000
+8 8 2
+Saves: -40 -40 -40 -40
+Resistances: 15 15 15 15 15 15 15
+Armour: 35
+CastSuccess: 45
+Absorbe: 35
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 12
+Str: 20
+Dex: 25
+Int: 20
+Wis: 35
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 103
+Race: 103
+Height: 180
+Weight: 160
+Special_Bitvector: l0 
+Spell: 26
+Spell: 26
+E
+T 79903
+T 79913
+#79913
+птенец железной птицы~
+Птенец железной птицы~
+Птенца железной птицы~
+Птенцу железной птицы~
+Птенца железной птицы~
+Птенцом железной птицы~
+Птенце железной птицы~
+Птенец с железным клювом летает вокруг Вас.
+~
+Птенец птицы с железным клювом летает вокруг Вас, не отдаляясь от своей матери.
+~
+d0f0g0h1e2 d0f0k0 -600 E
+32 -25 -20 8d12+3250 8d8+50
+0d0+0 450000
+8 8 1
+Saves: -40 -40 -40 -40
+Resistances: 5 5 5 5 15 15 15
+Armour: 25
+CastSuccess: 35
+Absorbe: 32
+BareHandAttack: 12
+Str: 20
+Dex: 25
+Int: 20
+Wis: 25
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 103
+Race: 103
+Height: 110
+Weight: 85
+Special_Bitvector: 0 
+Spell: 32
+Spell: 32
+E
+T 79955
+#79914
+дух горы~
+Дух горы~
+Духа горы~
+Духу горы~
+Духа горы~
+Духом горы~
+Духе горы~
+Дух бродит около горы, охраняя ее.
+~
+Летающий дух со сверкающими глазами и длинными призрачными волосами.
+~
+d0f0g0z0c2 d0f0k0r1 -600 E
+36 -25 -20 8d12+5800 9d9+50
+0d0+0 1000000
+8 8 1
+Saves: -55 -55 -55 -55
+Resistances: 25 25 25 25 15 15 15
+Armour: 40
+CastSuccess: 65
+Absorbe: 36
+AResist: 20
+MResist: 20
+PResist: 20
+BareHandAttack: 8
+Str: 20
+Dex: 25
+Int: 20
+Wis: 35
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 101
+Race: 113
+Height: 180
+Weight: 160
+Special_Bitvector: l0 
+Spell: 23
+Spell: 23
+Spell: 23
+E
+T 79905
+#79915
+хранитель стожаргоры~
+Хранитель Стожар-горы~
+Хранителя Стожар-горы~
+Хранителю Стожар-горы~
+Хранителя Стожар-горы~
+Хранителем Стожар-горы~
+Хранителе Стожар-горы~
+Хранитель Стожар-горы летает у ее подножья.
+~
+Величественный и могучий хранитель летает у подножья горы.
+~
+d0g0b1 d0f0k0o1 -600 E
+38 -25 -20 8d12+10000 15d12+50
+11d6+0 1800000
+8 8 1
+Saves: -90 -90 -90 -90
+Resistances: 25 25 25 25 30 30 30
+Armour: 50
+CastSuccess: 100
+Absorbe: 38
+AResist: 30
+MResist: 30
+PResist: 30
+BareHandAttack: 6
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 3
+Class: 104
+Race: 114
+Height: 180
+Weight: 160
+Special_Bitvector: a0b0l0 
+Skill: 165 100
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 93
+Spell: 111
+Spell: 111
+Spell: 150
+Spell: 150
+E
+T 79955
+T 79904
+T 79951
+#79916
+птица сталь~
+Птица-Сталь~
+Птицы-Сталь~
+Птице-Сталь~
+Птицу-Сталь~
+Птицой-Сталь~
+Птице-Сталь~
+Огромная стальная птица стоит перед Вами, преграждая путь.
+~
+Огромная птица со стальными клювом, когтями и перьями
+смотрит на Вас пронизывающим взглядом.
+~
+b0d0f0g0h1 d0f0k0q1 -600 E
+38 -25 -20 8d12+9500 11d14+50
+0d0+0 1500000
+8 8 2
+Saves: -85 -85 -85 -85
+Resistances: 25 25 25 25 25 25 25
+Armour: 55
+CastSuccess: 65
+Absorbe: 38
+AResist: 25
+MResist: 25
+PResist: 25
+BareHandAttack: 11
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 3
+Class: 103
+Race: 103
+Height: 180
+Weight: 160
+Special_Bitvector: d0 
+Skill: 5 100
+Skill: 165 100
+Helper: 79912
+E
+#79917
+каменный велет~
+Каменный велет~
+Каменного велета~
+Каменному велету~
+Каменного велета~
+Каменным велетом~
+Каменном велете~
+Велет, весь из камня стоит здесь.
+~
+Огромный великан, весь из камня.
+Такую глыбу магией повредить невозможно.
+~
+b0d0g0 d0f0h0k0c2 -600 E
+37 -25 -10 8d12+10000 8d8+50
+11d6+50 1300000
+8 8 1
+Saves: -82 -80 -80 -80
+Resistances: 25 25 25 25 20 20 20
+Armour: 50
+CastSuccess: 65
+Absorbe: 37
+AResist: 15
+MResist: 100
+PResist: 15
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 3
+Class: 102
+Race: 101
+Height: 180
+Weight: 160
+Special_Bitvector: a0b0C3 
+Skill: 4 100
+Skill: 22 100
+Spell: 15
+Spell: 15
+Spell: 15
+E
+T 79955
+#79918
+серебряный разбойник~
+Серебряный разбойник~
+Серебряного разбойника~
+Серебряному разбойнику~
+Серебряного разбойника~
+Серебряным разбойником~
+Серебряном разбойнике~
+Разбойник из серебра смотрит на Вас горящими глазами.
+~
+Сделанный из серебра разбойник с горящими глазами смотрит прямо на Вас.
+~
+d0f0g0 d0f0k0 -600 E
+37 -25 -20 8d12+7000 11d12+50
+11d6+100 1200000
+8 8 1
+Saves: -60 -60 -60 -60
+Resistances: 15 15 15 15 15 15 15
+Armour: 45
+CastSuccess: 45
+Absorbe: 37
+AResist: 10
+MResist: 10
+PResist: 10
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 151 100
+Skill: 160 100
+Spell: 152
+E
+T 79906
+#79919
+серебряный клинок~
+Серебряный клинок~
+Серебряного клинка~
+Серебряному клинку~
+Серебряного клинка~
+Серебряным клинком~
+Серебряном клинке~
+Клинок из серебра летает около своего хозяина.
+~
+Длинный и острый клинок, сделанный из серебра.
+~
+b0d0e0f0g0z0 d0f0k0 -600 E
+32 -25 -20 8d12+2500 6d8+45
+0d0+0 450000
+8 8 1
+Saves: -30 -30 -30 -30
+Resistances: 10 10 10 10 10 10 10
+Armour: 30
+CastSuccess: 30
+Absorbe: 32
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 11
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 101
+Race: 114
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 131 80
+Spell: 30
+Spell: 30
+E
+T 79935
+#79920
+серебряный велет~
+Серебряный велет~
+Серебряного велета~
+Серебряному велету~
+Серебряного велета~
+Серебряным велетом~
+Серебряном велете~
+Велет из серебра охраняет проход.
+~
+Огромный великан, весь из серебра, стоит у двери.
+~
+b0d0g0 d0f0k0o1 -600 E
+36 -25 -20 8d12+9200 10d8+50
+11d6+100 1000000
+8 8 1
+Saves: -60 -60 -60 -60
+Resistances: 20 20 20 20 20 20 20
+Armour: 45
+CastSuccess: 55
+Absorbe: 36
+AResist: 10
+MResist: 10
+PResist: 10
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 160
+Special_Bitvector: b0 
+Skill: 5 100
+Spell: 128
+Spell: 128
+Helper: 79918
+E
+T 79907
+#79921
+золотой велет~
+Золотой велет~
+Золотого велета~
+Золотому велету~
+Золотого велета~
+Золотым велетом~
+Золотом велете~
+Огромный велет, сотворенный из золота, стоит здесь.
+~
+Огромный великан, весь из золота, смотрит на Вас.
+~
+d0f0g0 d0f0k0 -600 E
+36 -25 -20 8d12+8500 11d12+50
+11d6+100 1100000
+8 8 1
+Saves: -80 -80 -80 -80
+Resistances: 20 20 20 20 20 20 20
+Armour: 45
+CastSuccess: 65
+Absorbe: 36
+AResist: 15
+MResist: 15
+PResist: 15
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 4 100
+Spell: 23
+Spell: 23
+Spell: 26
+E
+T 79955
+T 79910
+#79922
+золотой головоруб~
+Золотой головоруб~
+Золотого головоруба~
+Золотому головорубу~
+Золотого головоруба~
+Золотым головорубом~
+Золотом головорубе~
+Головоруб из золота летает около своего хозяина.
+~
+Острый топор из золота летает вокруг своего хозяина, помогая ему.
+~
+b0d0f0g0 d0f0k0 -600 E
+34 -25 -20 8d12+4000 6d8+45
+0d0+0 650000
+8 8 1
+Saves: -40 -40 -40 -40
+Resistances: 10 10 10 10 10 10 10
+Armour: 25
+CastSuccess: 35
+Absorbe: 34
+AResist: 5
+MResist: 5
+PResist: 5
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 101
+Race: 114
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 5 80
+Spell: 27
+Spell: 27
+E
+T 79935
+#79923
+дракон ховалы~
+Дракон Ховалы~
+Дракона Ховалы~
+Дракону Ховалы~
+Дракона Ховалы~
+Драконом Ховалы~
+Драконе Ховалы~
+Дракон Ховалы стоит у дверей в его палаты.
+~
+Огромный золотой дракон с большими горящими глазами и огнем из пасти.
+~
+b0d0g0a2h2 d0f0k0p1 -600 E
+39 -25 -20 8d12+12000 11d12+50
+0d0+0 2000000
+8 8 1
+Saves: -90 -90 -90 -90
+Resistances: 20 20 20 20 20 20 20
+Armour: 50
+CastSuccess: 70
+Absorbe: 39
+AResist: 15
+MResist: 15
+PResist: 15
+Str: 20
+Dex: 25
+Int: 20
+Wis: 30
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 103
+Race: 105
+Height: 180
+Weight: 160
+Special_Bitvector: b0C3 
+Skill: 22 100
+Spell: 76
+Spell: 76
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 173
+Spell: 173
+Spell: 173
+Helper: 79921
+E
+T 79911
+#79924
+драгоценный велет~
+Драгоценный велет~
+Драгоценного велета~
+Драгоценному велету~
+Драгоценного велета~
+Драгоценным велетом~
+Драгоценном велете~
+Велет из драгоценных камней и металлов бродит по терему.
+~
+Огромнейший голем из драгоценных металлов и камней охраняет покои Ховалы.
+~
+d0g0z0 d0f0k0 -600 E
+40 -25 -20 8d12+15000 11d12+50
+11d6+200 2500000
+8 8 1
+Saves: -80 -80 -80 -80
+Resistances: 30 30 30 30 30 30 30
+Armour: 50
+CastSuccess: 70
+Absorbe: 40
+AResist: 15
+MResist: 15
+PResist: 15
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 160
+Special_Bitvector: b0c0 
+Skill: 4 100
+Skill: 132 100
+Spell: 23
+Spell: 23
+Spell: 56
+Spell: 56
+Spell: 152
+Spell: 152
+E
+T 79912
+#79925
+осколки драгоценностей~
+Осколки драгоценностей~
+Осколков драгоценностей~
+Осколкам драгоценностей~
+Осколков драгоценностей~
+Осколками драгоценностей~
+Осколках драгоценностей~
+Разлетевшиеся на осколки части велета летают здесь.
+~
+Кусочки металлов и камней, разлетевшиеся после смерти велета.
+~
+b0d0f0g0 d0f0k0 -600 E
+35 -25 -20 8d12+4000 5d8+30
+11d6+0 850000
+8 8 3
+Saves: -26 -26 -26 -26
+Resistances: 10 10 10 10 10 10 10
+Armour: 15
+CastSuccess: 32
+Absorbe: 35
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 101
+Race: 114
+Height: 180
+Weight: 160
+Special_Bitvector: 0 
+Skill: 150 100
+Spell: 37
+Spell: 37
+Spell: 37
+E
+T 79955
+#79926
+ховала~
+Ховала~
+Ховалы~
+Ховале~
+Ховалу~
+Ховалой~
+Ховале~
+Ховала - седобородый старик с клюкой в руках и короной на голове.
+~
+Седобородый старик Ховала с клюкой в руках и короной на голове.
+А вокруг короны двенадцать глаз огненных летают,
+ничего от них не скроется.
+~
+b0d0g0n0o0p0r0x0g2 d0f0k0m0n0C0t1 -600 E
+46 -30 -20 8d12+25000 12d15+50
+11d6+10000 8000000
+8 8 1
+Saves: -130 -130 -130 -130
+Resistances: 45 45 45 45 25 25 25
+Armour: 55
+CastSuccess: 120
+Initiative: 25
+Absorbe: 46
+AResist: 25
+MResist: 25
+BareHandAttack: 5
+Str: 35
+Dex: 25
+Int: 20
+Wis: 20
+Con: 25
+Cha: 35
+Size: 50
+LikeWork: 85
+ExtraAttack: 2
+Class: 105
+Race: 101
+Height: 180
+Weight: 160
+Special_Bitvector: b1c1 
+Skill: 132 150
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 10
+Spell: 56
+Spell: 56
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 93
+Spell: 111
+Spell: 111
+Spell: 150
+Spell: 150
+E
+T 79926
+T 79924
+T 79936
+T 79925
+#79927
+дюжина огненных глаза двенадцать~
+Дюжина огненных глаз~
+Дюжины огненных глаз~
+Дюжине огненных глаз~
+Дюжину огненных глаз~
+Дюжиной огненных глаз~
+Дюжине огненных глаз~
+Двенадцать огненных глаз кружат над короной Ховалы.
+~
+Огненные глаза, летающие вокруг короны Ховалы и испепеляющие все вокруг.
+~
+b0d0g0n0o0p0q0r0t0u0x0z0o1s1t1x1a2g2i2 d0f0k0 -600 E
+45 15 -10 12d10+15000 5d5+5
+0d0+0 0
+8 8 2
+AResist: 100
+MResist: 100
+PResist: 100
+BareHandAttack: 9
+Str: 15
+Dex: 20
+Int: 25
+Wis: 15
+Con: 25
+Cha: 22
+Size: 25
+LikeWork: 85
+ExtraAttack: 11
+Class: 101
+Race: 114
+Height: 100
+Weight: 70
+Special_Bitvector: x0 
+E
+T 79952
+#79928
+столетний старик~
+Столетний старик~
+Столетнего старика~
+Столетнему старику~
+Столетнего старика~
+Столетнем стариком~
+Столетнем старике~
+Столетний старик не спеша направляется домой.
+~
+Старый сгорбленный дедушка, опираясь на палицу, идет домой.
+~
+b0d0g0 d0f0k0r0 -600 E
+30 -25 0 10d2+3930 11d8+40
+12d6+25 300000
+8 8 1
+Saves: -30 -30 -30 -30
+Resistances: 15 15 15 15 15 15 15
+Armour: 45
+CastSuccess: 45
+Absorbe: 30
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 6
+Str: 25
+Dex: 17
+Int: 14
+Wis: 14
+Con: 20
+Cha: 25
+Size: 50
+LikeWork: 95
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: d0 
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+E
+T 79955
+T 79927
+T 79928
+#79929
+разъяренный утопленник~
+разъяренный утопленник~
+разъяренного утопленника~
+разъяренному утопленнику~
+разъяренного утопленника~
+разъяренным утопленником~
+разъяренном утопленнике~
+Разъяренный утопленник люто воет, глядя на Вас.
+~
+Синее тело, похожее на человеческое, с прозрачными глазами и длинными волосами.
+~
+b0d0f0g0l0p0 b0d0f0k0 -600 E
+32 -25 -27 11d11+2500 12d15+50
+0d0+0 450000
+8 8 1
+Saves: -80 -80 -80 -80
+Resistances: 25 25 25 25 25 25 25
+Armour: 45
+CastSuccess: 85
+Absorbe: 32
+AResist: 15
+MResist: 15
+PResist: 15
+Str: 35
+Dex: 15
+Int: 15
+Wis: 25
+Con: 20
+Cha: 10
+Size: 50
+LikeWork: 95
+ExtraAttack: 4
+Class: 100
+Race: 100
+Height: 175
+Weight: 140
+Special_Bitvector: d0 
+Skill: 5 150
+Skill: 136 130
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+E
+T 79949
+$

@@ -1,3 +1,6 @@
+* Сгенерировано BZEditor
+* Количество мобов : 57
+* Сохранено 18.06.2019 20:59:26
 #333300
 старый китайский воин~
 старый китайский воин~
@@ -16,27 +19,29 @@ b0d0n0o1u2 d0f0k0 -600 E
 8 8 1
 Saves: 0 0 0 -5
 Armour: 35
+BareHandAttack: 0
 Str: 17
-Dex: 22
 Int: 17
 Wis: 17
+Dex: 22
 Con: 17
 Cha: 10
-Size: 100
 LikeWork: 70
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: 0
+Spell: 52
+Spell: 52
 Feat: 1
 Feat: 3
 Feat: 4
 Skill: 150 150
 Skill: 157 100
-Spell: 52
-Spell: 52
 E
 #333301
 продавец кореец~
@@ -54,19 +59,22 @@ b0d0n0o1u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333302
  старый китаец~
@@ -84,19 +92,22 @@ b0d0n0o1u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 153
 Weight: 56
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333303
  пожилая китаянка~
@@ -116,20 +127,22 @@ b0d0 0 -600 E
 8 8 2
 Armour: 35
 CastSuccess: 80
+BareHandAttack: 0
 Str: 17
-Dex: 17
 Int: 17
 Wis: 17
+Dex: 17
 Con: 17
 Cha: 18
-Size: 90
 LikeWork: 45
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 90
 Height: 160
 Weight: 60
-Special_Bitvector: 0 
+Special_Bitvector: 0
 Feat: 15
 Skill: 157 150
 Skill: 160 150
@@ -150,19 +163,22 @@ b0d0o1 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 67
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 67
 Height: 150
 Weight: 50
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333305
  дородная китаянка~
@@ -180,19 +196,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 171
 Weight: 98
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333306
  толстый китаец~
@@ -210,19 +229,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 175
 Weight: 105
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333307
  китаец обожженным лицом~
@@ -240,19 +262,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 98
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 98
 Height: 176
 Weight: 78
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333308
  высокий худой китаец~
@@ -270,19 +295,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 78
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 78
 Height: 187
 Weight: 80
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333309
  расфуфыренный китаец~
@@ -300,19 +328,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 171
 Weight: 81
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333310
  испещренный шрамами китаец~
@@ -331,20 +362,22 @@ b0d0m0A0 k0 -600 E
 4d6+2 280000
 8 8 1
 Armour: 50
+BareHandAttack: 0
 Str: 17
-Dex: 30
 Int: 29
 Wis: 17
+Dex: 30
 Con: 17
 Cha: 17
-Size: 100
 LikeWork: 70
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 179
 Weight: 85
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1
 Feat: 1
 Feat: 3
 Feat: 6
@@ -367,19 +400,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 172
 Weight: 82
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333312
  толстая китаянка~
@@ -397,20 +433,22 @@ b0c0d0A0 k0r0t1 -600 E
 29 0 0 10d10+2500 6d6+9
 4d5+3 250000
 8 8 2
+BareHandAttack: 0
 Str: 17
-Dex: 17
 Int: 16
 Wis: 17
+Dex: 17
 Con: 17
 Cha: 10
-Size: 100
 LikeWork: 75
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 165
 Weight: 95
-Special_Bitvector: 0 
+Special_Bitvector: 0
 Feat: 65
 Feat: 66
 Skill: 132 150
@@ -433,19 +471,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 70
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 70
 Height: 166
 Weight: 52
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333314
  одноглазый китаец~
@@ -463,24 +504,25 @@ b0c0d0A0 k0 -600 E
 30 0 -5 10d10+2700 8d9+10
 3d6+8 270000
 8 8 1
+BareHandAttack: 0
 Str: 17
-Dex: 24
 Int: 23
 Wis: 17
+Dex: 24
 Con: 17
 Cha: 10
-Size: 100
 LikeWork: 75
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 172
 Weight: 82
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1
 Feat: 1
 Feat: 3
 E
-I глаза,15:25
 #333315
  стройная китаянка~
 стройная китаянка~
@@ -497,19 +539,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 98
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 98
 Height: 177
 Weight: 70
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333316
  пропахший рыбой китаец~
@@ -528,19 +573,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 176
 Weight: 80
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333317
  узкоглазый китаец~
@@ -559,19 +607,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 0
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333318
  пухленькая китаянка~
@@ -590,19 +641,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 2
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 179
 Weight: 87
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333319
  худенькая китаянка~
@@ -620,19 +674,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 80
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 80
 Height: 160
 Weight: 50
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333320
  жилистый китаец~
@@ -651,19 +708,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 185
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333321
  седой китаец~
@@ -681,19 +741,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 165
 Weight: 58
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333322
  лысый китаец~
@@ -711,19 +774,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 171
 Weight: 81
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333323
  старый китаец~
@@ -741,19 +807,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333324
  молодой китайченок~
@@ -771,19 +840,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 70
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 70
 Height: 141
 Weight: 50
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333325
  убеленый сединами китаец~
@@ -801,19 +873,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 174
 Weight: 84
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333326
  ловкий китаец~
@@ -831,19 +906,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 175
 Weight: 64
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333327
  молодой китаец~
@@ -861,19 +939,22 @@ b0d0n0u2 d0f0k0 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333328
  старый монах~
@@ -895,20 +976,27 @@ Saves: 0 0 0 -10
 Resistances: 50 59 0 0 0 0 0
 Armour: 35
 CastSuccess: 80
+BareHandAttack: 0
 Str: 17
-Dex: 23
 Int: 24
 Wis: 17
+Dex: 23
 Con: 17
 Cha: 17
-Size: 89
 LikeWork: 90
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 89
 Height: 171
 Weight: 67
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 68
+Spell: 113
 Feat: 1
 Feat: 3
 Feat: 6
@@ -916,13 +1004,7 @@ Feat: 15
 Skill: 12 120
 Skill: 22 120
 Skill: 179 100
-Spell: 28
-Spell: 28
-Spell: 56
-Spell: 68
-Spell: 113
 E
-I зубы,10:15
 #333329
  слегка одетая китаянка~
 слегка одетая китаянка~
@@ -940,29 +1022,31 @@ b0d0l0 k0r0c2 -600 E
 28 0 0 10d10+1500 5d5+5
 6d2+4 150000
 8 8 2
+BareHandAttack: 0
 Str: 17
-Dex: 17
 Int: 17
 Wis: 17
+Dex: 17
 Con: 17
 Cha: 17
-Size: 90
 LikeWork: 85
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 90
 Height: 183
 Weight: 79
-Special_Bitvector: 0 
+Special_Bitvector: 0
+Spell: 8
+Spell: 8
+Spell: 8
 Feat: 2
 Feat: 22
 Feat: 56
 Skill: 2 150
 Skill: 139 50
 Skill: 167 100
-Spell: 8
-Spell: 8
-Spell: 8
 E
 #333330
  миллион китайцев~
@@ -985,36 +1069,38 @@ HPreg: 100
 Armour: 90
 CastSuccess: 35
 Absorbe: 80
+BareHandAttack: 0
 Str: 40
-Dex: 42
 Int: 27
 Wis: 19
+Dex: 42
 Con: 50
 Cha: 3
-Size: 100
 LikeWork: 99
+MaxFactor: 0
 ExtraAttack: 10
 Class: 102
 Race: 101
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: B3 
+Special_Bitvector: B3
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 131
 Feat: 2
 Feat: 22
 Feat: 68
 Skill: 21 1
-Spell: 131
-Spell: 131
-Spell: 131
-Spell: 131
-Spell: 131
-Spell: 131
-Spell: 131
-Spell: 131
-Spell: 131
-Spell: 131
-Spell: 131
-Spell: 131
 E
 T 333301
 #333331
@@ -1033,21 +1119,22 @@ c0d0g0m0n0o0A0g2 d0k0r0A0C0m1 -600 E
 30 0 -5 10d10+3000 10d10+10
 5d6+7 300000
 8 8 1
+BareHandAttack: 0
 Str: 24
-Dex: 31
 Int: 15
 Wis: 18
+Dex: 31
 Con: 28
 Cha: 16
-Size: 100
 LikeWork: 90
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 180
 Weight: 90
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1
 Feat: 1
 Feat: 2
 Skill: 12 80
@@ -1074,21 +1161,24 @@ d0 r0z0 -600 E
 Resistances: 0 100 0 0 0 0 0
 Armour: 30
 Absorbe: 30
+BareHandAttack: 0
 Str: 17
-Dex: 17
 Int: 17
 Wis: 17
+Dex: 17
 Con: 17
 Cha: 17
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 171
 Weight: 81
-Special_Bitvector: b1c1 
-Skill: 5 150
+Special_Bitvector: b1c1
 Spell: 150
+Skill: 5 150
 E
 T 333354
 #333333
@@ -1112,25 +1202,27 @@ Resistances: 0 0 100 0 0 0 0
 Armour: 50
 CastSuccess: 60
 Absorbe: 50
+BareHandAttack: 0
 Str: 17
-Dex: 30
 Int: 17
 Wis: 17
+Dex: 30
 Con: 17
 Cha: 17
-Size: 100
 LikeWork: 95
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1
+Spell: 134
 Feat: 2
 Feat: 3
 Skill: 137 150
 Skill: 151 150
-Spell: 134
 E
 #333334
 фу ши~
@@ -1151,28 +1243,30 @@ d0m0 0 -600 E
 Resistances: 0 0 0 100 0 0 0
 Armour: 50
 Absorbe: 50
+BareHandAttack: 0
 Str: 17
-Dex: 23
 Int: 17
 Wis: 17
+Dex: 23
 Con: 17
 Cha: 17
-Size: 100
 LikeWork: 95
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 165
 Weight: 69
-Special_Bitvector: 0 
+Special_Bitvector: 0
+Spell: 156
+Spell: 156
 Feat: 2
 Feat: 3
 Feat: 29
 Feat: 68
 Skill: 137 150
 Skill: 167 150
-Spell: 156
-Spell: 156
 E
 #333335
  хэшан~
@@ -1193,29 +1287,31 @@ d0m0 d0k0 0 E
 Resistances: 0 0 0 33 0 0 0
 Armour: 25
 Absorbe: 25
+BareHandAttack: 0
 Str: 17
-Dex: 17
 Int: 17
 Wis: 17
+Dex: 17
 Con: 17
 Cha: 17
-Size: 100
 LikeWork: 95
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 174
 Weight: 70
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 28
 Feat: 1
 Feat: 2
 Feat: 3
 Feat: 15
 Skill: 179 150
-Spell: 5
-Spell: 5
-Spell: 5
-Spell: 28
 E
 T 333354
 #333336
@@ -1238,27 +1334,29 @@ Resistances: 25 25 25 25 0 0 0
 Armour: 90
 CastSuccess: 30
 Absorbe: 90
+BareHandAttack: 0
 Str: 17
-Dex: 17
 Int: 17
 Wis: 17
+Dex: 17
 Con: 17
 Cha: 17
-Size: 99
 LikeWork: 99
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 99
 Height: 169
 Weight: 56
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1
+Spell: 94
 Feat: 2
 Feat: 3
 Feat: 29
 Feat: 65
 Feat: 68
 Skill: 158 150
-Spell: 94
 E
 #333337
  тинвэй~
@@ -1279,20 +1377,20 @@ d0e0u2 k0 -600 E
 Saves: -10 -10 -10 -10
 BareHandAttack: 12
 Str: 25
-Dex: 35
 Int: 10
 Wis: 10
+Dex: 35
 Con: 45
 Cha: 10
-Size: 100
 LikeWork: 80
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 175
 Weight: 88
-Special_Bitvector: c1d1 
+Special_Bitvector: c1d1
 Feat: 29
 Skill: 4 100
 E
@@ -1314,21 +1412,22 @@ d0e0t0t1 0 -600 E
 2d50+2 500000
 8 8 1
 Saves: -14 -14 -14 -14
+BareHandAttack: 0
 Str: 45
-Dex: 48
 Int: 45
 Wis: 10
+Dex: 48
 Con: 42
 Cha: 10
-Size: 100
 LikeWork: 95
 MaxFactor: 10
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 187
 Weight: 89
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #333339
  булан~
@@ -1346,22 +1445,24 @@ b0d0e0 k0 -600 E
 30 0 -4 10d10+2700 3d3+20
 2d5+100 280000
 8 8 1
+BareHandAttack: 0
 Str: 34
-Dex: 28
 Int: 22
 Wis: 19
+Dex: 28
 Con: 27
 Cha: 10
-Size: 100
 LikeWork: 85
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 190
 Weight: 98
-Special_Bitvector: 0 
-Skill: 150 100
+Special_Bitvector: 0
 Spell: 82
+Skill: 150 100
 Helper: 333351
 Helper: 333350
 Helper: 333349
@@ -1391,20 +1492,22 @@ d0n0x0 k0r0z0 -600 E
 Saves: -14 -14 -14 -14
 Armour: 40
 Absorbe: 40
+BareHandAttack: 0
 Str: 17
-Dex: 17
 Int: 17
 Wis: 17
+Dex: 17
 Con: 10
 Cha: 17
-Size: 100
 LikeWork: 50
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 175
 Weight: 75
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 T 333354
 #333341
@@ -1425,24 +1528,26 @@ b0d0t1 k0z0 -600 E
 8 8 1
 Saves: -22 -22 -22 -22
 CastSuccess: 60
+BareHandAttack: 0
 Str: 36
-Dex: 30
 Int: 15
 Wis: 16
+Dex: 30
 Con: 17
 Cha: 10
-Size: 100
 LikeWork: 85
+MaxFactor: 0
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 179
 Weight: 99
-Special_Bitvector: b1c1 
+Special_Bitvector: b1c1
+Spell: 56
 Feat: 1
 Feat: 2
 Feat: 3
-Spell: 56
 E
 #333342
  пьяный китаец~
@@ -1460,29 +1565,30 @@ d0m0s0 k0z0A0 -600 E
 28 0 0 10d10+2000 10d2+10
 4d4+8 180000
 8 8 1
+BareHandAttack: 0
 Str: 36
-Dex: 29
 Int: 10
 Wis: 10
+Dex: 29
 Con: 10
 Cha: 10
-Size: 98
 LikeWork: 50
 MaxFactor: 70
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 98
 Height: 172
 Weight: 88
-Special_Bitvector: y0b1c1 
+Special_Bitvector: y0b1c1
+Spell: 72
+Spell: 72
+Spell: 72
 Feat: 1
 Feat: 2
 Feat: 3
 Skill: 137 150
 Skill: 160 150
-Spell: 72
-Spell: 72
-Spell: 72
 E
 #333343
  мастер кунг-фу~
@@ -1506,19 +1612,22 @@ Armour: 60
 Success: 50
 BareHandAttack: 11
 Str: 48
-Dex: 40
 Int: 17
 Wis: 17
+Dex: 40
 Con: 29
 Cha: 10
-Size: 100
 LikeWork: 95
+MaxFactor: 0
 ExtraAttack: 2
 Class: 102
 Race: 101
+Size: 100
 Height: 178
 Weight: 72
-Special_Bitvector: B3 
+Special_Bitvector: B3
+Spell: 111
+Spell: 156
 Feat: 1
 Feat: 12
 Feat: 13
@@ -1529,8 +1638,6 @@ Skill: 21 25
 Skill: 136 120
 Skill: 158 120
 Skill: 167 120
-Spell: 111
-Spell: 156
 E
 T 333355
 #333344
@@ -1553,20 +1660,24 @@ Saves: -30 -30 -14 -30
 Resistances: 0 0 0 100 40 100 100
 Armour: 60
 Success: 40
+BareHandAttack: 0
 Str: 36
-Dex: 38
 Int: 17
 Wis: 17
+Dex: 38
 Con: 10
 Cha: 10
-Size: 99
 LikeWork: 85
+MaxFactor: 0
 ExtraAttack: 2
 Class: 102
 Race: 101
+Size: 99
 Height: 175
 Weight: 76
-Special_Bitvector: b1c1B3 
+Special_Bitvector: b1c1B3
+Spell: 111
+Spell: 111
 Feat: 1
 Feat: 12
 Feat: 13
@@ -1579,8 +1690,6 @@ Skill: 21 25
 Skill: 134 120
 Skill: 136 120
 Skill: 167 120
-Spell: 111
-Spell: 111
 E
 T 333355
 #333345
@@ -1603,20 +1712,24 @@ Saves: -20 -14 -14 -20
 Resistances: 0 0 0 100 100 100 100
 Armour: 100
 Success: 50
+BareHandAttack: 0
 Str: 46
-Dex: 23
 Int: 10
 Wis: 10
+Dex: 23
 Con: 10
 Cha: 10
-Size: 100
 LikeWork: 85
+MaxFactor: 0
 ExtraAttack: 2
 Class: 102
 Race: 101
+Size: 100
 Height: 174
 Weight: 78
-Special_Bitvector: B3 
+Special_Bitvector: B3
+Spell: 66
+Spell: 150
 Feat: 1
 Feat: 24
 Feat: 28
@@ -1627,8 +1740,6 @@ Skill: 21 25
 Skill: 134 120
 Skill: 136 120
 Skill: 167 120
-Spell: 66
-Spell: 150
 E
 T 333355
 #333346
@@ -1652,20 +1763,25 @@ Resistances: 0 0 0 100 100 100 100
 Armour: 100
 CastSuccess: 10
 Success: 40
+BareHandAttack: 0
 Str: 23
-Dex: 31
 Int: 24
 Wis: 17
+Dex: 31
 Con: 17
 Cha: 17
-Size: 99
 LikeWork: 100
+MaxFactor: 0
 ExtraAttack: 2
 Class: 102
 Race: 101
+Size: 99
 Height: 176
 Weight: 66
-Special_Bitvector: B3 
+Special_Bitvector: B3
+Spell: 93
+Spell: 136
+Spell: 153
 Feat: 1
 Feat: 24
 Feat: 29
@@ -1678,9 +1794,6 @@ Skill: 136 120
 Skill: 146 120
 Skill: 165 120
 Skill: 167 120
-Spell: 93
-Spell: 136
-Spell: 153
 E
 T 333355
 #333347
@@ -1706,19 +1819,24 @@ CastSuccess: 20
 Success: 40
 BareHandAttack: 9
 Str: 50
-Dex: 35
 Int: 21
 Wis: 29
+Dex: 35
 Con: 15
 Cha: 15
-Size: 99
 LikeWork: 95
+MaxFactor: 0
 ExtraAttack: 2
 Class: 102
 Race: 101
+Size: 99
 Height: 176
 Weight: 66
-Special_Bitvector: B3 
+Special_Bitvector: B3
+Spell: 56
+Spell: 74
+Spell: 88
+Spell: 150
 Feat: 1
 Feat: 2
 Feat: 24
@@ -1731,10 +1849,6 @@ Skill: 134 120
 Skill: 136 120
 Skill: 165 120
 Skill: 167 120
-Spell: 56
-Spell: 74
-Spell: 88
-Spell: 150
 E
 T 333355
 #333348
@@ -1758,20 +1872,25 @@ Resistances: 0 0 0 100 100 100 100
 Armour: 100
 CastSuccess: 30
 Success: 40
+BareHandAttack: 0
 Str: 43
-Dex: 45
 Int: 17
 Wis: 17
+Dex: 45
 Con: 10
 Cha: 10
-Size: 100
 LikeWork: 85
+MaxFactor: 0
 ExtraAttack: 2
 Class: 102
 Race: 101
+Size: 100
 Height: 169
 Weight: 65
-Special_Bitvector: B3 
+Special_Bitvector: B3
+Spell: 59
+Spell: 111
+Spell: 150
 Feat: 1
 Feat: 2
 Feat: 24
@@ -1784,9 +1903,6 @@ Skill: 134 120
 Skill: 136 120
 Skill: 165 120
 Skill: 167 120
-Spell: 59
-Spell: 111
-Spell: 150
 E
 T 333355
 #333349
@@ -1806,20 +1922,22 @@ c0d0e0f0l0t1 b0c0d0e0f0k0p0r0s0t0z0A0j1 -600 E
 2d8+100 400000
 8 8 1
 Saves: -20 -20 -20 -20
+BareHandAttack: 0
 Str: 41
-Dex: 41
 Int: 10
 Wis: 10
+Dex: 41
 Con: 10
 Cha: 10
-Size: 100
 LikeWork: 70
+MaxFactor: 0
 ExtraAttack: 2
 Class: 102
 Race: 101
+Size: 100
 Height: 169
 Weight: 65
-Special_Bitvector: B3 
+Special_Bitvector: B3
 Skill: 4 150
 Skill: 12 150
 Skill: 167 150
@@ -1845,20 +1963,25 @@ Saves: -20 -20 -20 -20
 Resistances: 0 0 100 100 100 100 100
 Armour: 100
 Success: 40
+BareHandAttack: 0
 Str: 50
-Dex: 47
 Int: 17
 Wis: 17
+Dex: 47
 Con: 17
 Cha: 10
-Size: 100
 LikeWork: 75
+MaxFactor: 0
 ExtraAttack: 2
 Class: 102
 Race: 101
+Size: 100
 Height: 169
 Weight: 65
-Special_Bitvector: 0 
+Special_Bitvector: 0
+Spell: 81
+Spell: 93
+Spell: 151
 Feat: 1
 Feat: 2
 Feat: 24
@@ -1871,9 +1994,6 @@ Skill: 132 120
 Skill: 136 120
 Skill: 165 120
 Skill: 167 120
-Spell: 81
-Spell: 93
-Spell: 151
 E
 T 333355
 #333351
@@ -1896,20 +2016,24 @@ Saves: -20 -30 -30 -30
 Resistances: 0 0 100 100 100 100 100
 Armour: 100
 Success: 45
+BareHandAttack: 0
 Str: 45
-Dex: 40
 Int: 17
 Wis: 17
+Dex: 40
 Con: 17
 Cha: 17
-Size: 100
 LikeWork: 75
+MaxFactor: 0
 ExtraAttack: 2
 Class: 102
 Race: 101
+Size: 100
 Height: 169
 Weight: 65
-Special_Bitvector: B3 
+Special_Bitvector: B3
+Spell: 58
+Spell: 150
 Feat: 1
 Feat: 2
 Feat: 24
@@ -1922,8 +2046,6 @@ Skill: 134 120
 Skill: 136 120
 Skill: 165 120
 Skill: 167 120
-Spell: 58
-Spell: 150
 E
 T 333355
 #333352
@@ -1942,26 +2064,26 @@ d0g0h0m0x0g2 0 -600 E
 28 0 0 10d10+2222 6d6+11
 2d8+25 180000
 8 8 1
+BareHandAttack: 0
 Str: 38
-Dex: 49
 Int: 10
 Wis: 39
+Dex: 49
 Con: 17
 Cha: 10
-Size: 100
 LikeWork: 50
 MaxFactor: 60
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 100
 Height: 168
 Weight: 71
-Special_Bitvector: y0b1c1 
+Special_Bitvector: y0b1c1
 Skill: 132 100
 Skill: 137 150
 E
 T 333352
-I зубы,5:2
 #333353
  китаянка~
 китаянка~
@@ -1978,21 +2100,22 @@ d0g0h0m0g2 0 -600 E
 26 0 1 10d10+1482 4d4+10
 5d5+15 110000
 8 8 2
+BareHandAttack: 0
 Str: 35
-Dex: 14
 Int: 15
 Wis: 14
+Dex: 14
 Con: 15
 Cha: 42
-Size: 98
 LikeWork: 75
 MaxFactor: 80
 ExtraAttack: 1
 Class: 102
 Race: 101
+Size: 98
 Height: 168
 Weight: 58
-Special_Bitvector: y0 
+Special_Bitvector: y0
 Spell: 72
 Spell: 72
 Spell: 72
@@ -2031,19 +2154,22 @@ d0g0B0g2 c0d0e0f0k0k1 0 E
 12 0 0 10d10+30000 0d0+0
 0d0+0 10000
 8 8 1
+BareHandAttack: 0
 Str: 10
-Dex: 10
 Int: 10
 Wis: 10
+Dex: 10
 Con: 10
 Cha: 10
-Size: 20
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 100
 Race: 104
+Size: 20
 Height: 54
 Weight: 50
-Special_Bitvector: i3 
+Special_Bitvector: i3
 E
 T 333304
 T 333305
@@ -2065,21 +2191,64 @@ b0d0n0o0B0 d0f0k0 200 E
 30 -1 0 1d100+600 5d5+5
 0d0+0 0
 8 8 1
+BareHandAttack: 0
 Str: 50
-Dex: 50
 Int: 23
 Wis: 24
+Dex: 50
 Con: 23
 Cha: 17
-Size: 50
 LikeWork: 1
+MaxFactor: 0
 ExtraAttack: 1
 Class: 100
 Race: 101
+Size: 50
 Height: 168
 Weight: 150
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 T 333371
 T 333372
+#333356
+могучий китаец~
+могучий китаец~
+могучего китайца~
+могучему китайцу~
+могучего китайца~
+могучим китайцем~
+могучем китайце~
+Могучий китаец поигрывает здесь мускулами.
+~
+Могучий китаец.
+~
+b0d0l2 d0f0k0r0 -600 E
+30 -5 -20 10d10+1800 1d10+40
+10d10+10 200000
+8 8 1
+Saves: -14 -14 -14 -14
+Resistances: 0 0 0 0 10 10 0
+BareHandAttack: 0
+Str: 30
+Int: 25
+Wis: 24
+Dex: 25
+Con: 30
+Cha: 18
+LikeWork: 99
+MaxFactor: 0
+ExtraAttack: 5
+Class: 100
+Race: 101
+Size: 120
+Height: 168
+Weight: 130
+Special_Bitvector: 0y0b1c1d1
+Feat: 74
+Skill: 5 100
+Skill: 22 140
+Skill: 142 100
+Skill: 146 100
+E
+$
 $

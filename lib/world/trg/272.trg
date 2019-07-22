@@ -52,73 +52,72 @@ done
 wait 1
 if %object.vnum% != 27202
   say Зачем мне это?
-  брос %object.name%
+  брос all
   halt
 end
 wait 1
 mpurge %object%
-eval minlevel  24-%actor.remort%
-say Спасибо %actor.name%, попробую отблагодарить тебя.
+say Спасибо, %actor.iname%, попробую отблагодарить тебя.
 * друж
-if (%actor.class% == 5) && (!%actor.skill(веерная защита)%)
-  if (%actor.level%>=%minlevel%)
+if ((%actor.class% == 5) && !%actor.skill(веерная защита)%)
+  if (%actor.can_get_skill(веерная защита)%)
     mecho 
     wait 1
     msend %actor% Я передам тебе свои умения.
     wait 1
-    mskillturn %actor.name% веерная.защита set
+    mskillturn %actor% веерная.защита set
     msend %actor% Называется это веерная защита, теперь ты можешь
     msend %actor% один удерживать удары сразу нескольких врагов.
     halt
   else
     msend %actor% Старик посмотрел на Вас.
     mechoaround %actor% Старик посмотрел на %actor.vname%.
-    msend %actor% Ты еще мал чтобы получить данное умение, но я отблагодарю тебя.
+    msend %actor% Ты еще мал%actor.g% чтобы получить данное умение, но я отблагодарю тебя.
   end
 end
 * витязь
 if (%actor.class% == 9) && (!%actor.spelltype(освящение)%)
-  if (%actor.level%>=%minlevel%)
+  if (%actor.can_get_spell(освящение)%)
     mecho 
     wait 1
     msend %actor% Я передам тебе свои знания.
     wait 1
-    mspellturn %actor.name% освящение set
+    mspellturn %actor% освящение set
     msend %actor% Называется это освящение, теперь ты можешь защитить себя от
     msend %actor% ударов врагов. Но их магия будет наносить по тебе больший урон.
     halt
   else
     msend %actor% Старик посмотрел на Вас.
     mechoaround %actor% Старик посмотрел на %actor.vname%.
-    msend %actor% Ты еще мал чтобы получить данное умение, но я отблогадарю тебя.
+    msend %actor% Ты еще мал%actor.g% чтобы получить данное умение, но я отблогадарю тебя.
   end
 end
 * купец
 if (%actor.class% == 12) && (!%actor.spelltype(длительное оцепенение)%)
-  if (%actor.level%>=%minlevel%)
+  if (%actor.can_get_spell(длительное оцепенение)%)
     mecho 
     wait 1
     msend %actor% Я передам тебе свои знания.
     wait 1
-    mspellturn %actor.name% длительное.оцепенение set
+    mspellturn %actor% длительное.оцепенение set
     msend %actor% Называется это оцепенение, теперь ты можешь врагов ввести
     msend %actor% в состояние оцепенения, когда они не смогут ничего сделать тебе.
     halt
   else
     msend %actor% Старик посмотрел на Вас.
     mechoaround %actor% Старик посмотрел на %actor.vname%.
-    msend %actor% Ты еще мал чтобы получить данное умение, но я отблагодарю тебя.
+    msend %actor% Ты еще мал%actor.g% чтобы получить данное умение, но я отблагодарю тебя.
   end
 end
 if (%world.curobjs(27208)%<4) && (%random.3%==1)
   mload obj 27208
-  дать посох %actor.name%
+  дать посох .%actor.name%
 elseif (%random.1000% <= 100)
   mload obj 1741
   give трактат .%actor.name%
 else
-  %self.gold(+500)%
-  дать 500 кун %actor.name%
+  %send% %actor% %self.iname% протянул вам горстку кун.
+  eval temp %actor.gold(+500)%
 end
 ~
 #27203

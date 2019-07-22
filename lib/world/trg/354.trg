@@ -39,13 +39,19 @@ if (%speech.car% == дело && %speech.cdr% == пытаем)
   wait 1
   г Избавь от него реку, а я отблагодарю за работу!
   set q354 %actor%
-  * q354q1: 1 - квест купца выолнен, 2 - мейн квест взят у старосты, но квест купца не пыполнен *
-  set q354q1 2
-  remote q354q1 %world.mob(35409)%
+  if (%exist.mob(35409)%)
+    * q354q1: 1 - квест купца выполнен, 2 - мейн квест взят у старосты, но квест купца не пыполнен *
+    set q354q1 2
+    calcuid vodyanoy 35409 mob
+    remote q354q1 %vodyanoy.id%
+  end
   global q354
   attach 35402 %self.id%
-  attach 35403 %world.mob(35411)%
-  remote q354 %world.mob(35411)%
+  if (%exist.mob(35411)%)
+    calcuid kupec 35411 mob
+    attach 35403 %kupec.id%
+    remote q354 %kupec.id%
+  end
   detach 35400 %self.id%
   detach 35401 %self.id%
 end
@@ -91,7 +97,7 @@ elseif (%object.vnum% == 35410)
   плак
   wait 1s
   взд
-  %purge% %objstr.car%
+  %purge% %object%
   if (%actor.sex% == 2)
     г Благодарю тебя, странница, что помогла нам с хозяином реки решить все миром.
   else
@@ -366,7 +372,7 @@ if (%objstr.contains(труп)%)
     шеп .%actor.iname% Кажется ты убил не того, кого надо!
     укор .%actor.iname%
   end
-  %purge% %objstr.car%
+  %purge% %object%
 else
   г Сдается мне не это я просил тебя принести
   дать %objstr.car% .%actor.iname%

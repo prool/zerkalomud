@@ -256,7 +256,8 @@ if (%speech% == да) || (%speech% == наливай)
   wait 1s
 end
 wait 1s 
-foreach target %self.pc%
+eval charlist %self.pc%
+foreach target %charlist%
   if %target.rentable%
     mteleport %target% 13760 horse     
     wait 1

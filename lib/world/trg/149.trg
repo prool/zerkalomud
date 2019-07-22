@@ -50,12 +50,18 @@ if (%object.vnum% != 14910)
   drop %object.name%
   halt
 end
+wait 2
+%purge% %object%
 mecho _Старуха тщательно вытерла ключик, что-то бормоча себе под нос.
-mload obj 14913  
-дать чистый %actor.name%
-purge obj 14910
-detach 14902 %self.id%
+mload obj 14913
+wait 1s
+дать all .%actor.name%
 detach 14906 %self.id%
+wait 1s
+say Теперь я могу наконец покинуть это место. Прощай!
+mecho %self.iname% исчезла.
+wait 1
+%purge% %self%
 ~
 #14903
 У старухи 1~
@@ -160,10 +166,11 @@ if %exist.mob(14906)%
   halt 
 end 
 wait 1
-say Отлично, барон убит... Спасибо тебе..
+say Отлично, боярин убит... Спасибо тебе.
 mecho  - Теперь я отблагодарю тебя..
 mecho  - Я знаю, зачем ты здесь, боярыня послала тебя..
 mecho  - Давай сюда ключик, очищу я его..    
+attach 14902 %self.id%
 ~
 #14907
 привратник прогоняет~
@@ -238,6 +245,15 @@ attach 14911 %self.id%
 if (%world.curobjs(14927)% < 4) &&  (%random.25% == 1)
   mload obj 14927
   mecho Маленькие прозрачные сапожки медленно опустились на пол.
+end
+~
+#14914
+Боярин умер~
+0 f 100
+~
+if (%exist.mob(14901)%)
+  calcuid star 14901 mob
+  exec 14906 %star%
 end
 ~
 $~

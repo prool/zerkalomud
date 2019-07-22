@@ -148,10 +148,10 @@ if (%arg.contains(щель)%)||(%arg.contains(пещер)%)
     wsend %actor% _После длительного пути вы выбрались в просторное место.
     if (%actor.realroom%==38806)
       wteleport %actor% 38805 
-      %actor.move(-40)%
+      eval temp %actor.move(-40)%
     elseif (%actor.realroom%==38825)
       wteleport %actor% 38824
-      %actor.move(-40)%
+      eval temp %actor.move(-40)%
     endif
     wat %actor.realroom% wechoaround %actor% _%actor.name% пробрал%actor.u% сюда.
   end
@@ -404,11 +404,13 @@ end
 ~
 if %self.hitp% < 150
   mecho _Кащей Бессмертный сообразил наконец, что продолжать бой бесполезно.
-  calcuid drakon 38821 mob
-  attach 38819 %drakon.id% 
-  exec 38819 %drakon.id%
-  calcuid kawshey 38800 mob
-  detach 38818 %kawshey.id% 
+  if %exist.mob(38821)%
+    calcuid drakon 38821 mob
+    attach 38819 %drakon.id% 
+    exec 38819 %drakon.id%
+  end
+  calcuid kashey 38800 mob
+  detach 38818 %kashey.id% 
 end
 ~
 #38819
@@ -416,7 +418,7 @@ end
 0 z 100
 ~
 wait 1
-if (%self.realroom%==38832)
+if (%self.realroom%==38832) && (%exist.mob(38800)%)
   mecho Дракон взмахом крыльев отворил тайный ход в крыше...
   mecho Дракон подхватил умирающего Кащея на спину и был таков.
   calcuid werdrakon 38800 mob
@@ -497,8 +499,8 @@ if (%arg.contains(рычаг)%)||(%arg.contains(рычажок)%)
   wechoaround %actor% _%actor.name%, напрягшись, сдвинул%actor.g% рычаг.
   calcuid pqwervi 38870 room
   exec 38825 %pqwervi.id%
-  calcuid j14skejvi 38827 mob
-  if %j14skejvi%
+  if (%exist.mob(38827)%)
+    calcuid j14skejvi 38827 mob
     wpurge %j14skejvi%
   end
   calcuid tqervi 38869 room

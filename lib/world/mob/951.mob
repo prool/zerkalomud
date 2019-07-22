@@ -418,6 +418,7 @@ b0c0d0f0g0n0o0i2 k0r0t1w1 -600 E
 15d50+1500 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 Str: 36
 Dex: 32
 Int: 15
@@ -438,9 +439,9 @@ Skill: 132 125
 Skill: 136 102
 Skill: 141 140
 Skill: 165 140
-Helper: 95107
-Helper: 95108
 Helper: 95109
+Helper: 95108
+Helper: 95107
 E
 T 95108
 #95110
@@ -771,6 +772,7 @@ d0f0g0n0o0 d0k0p0r0z0A0m1r1t1w1 -600 E
 0d0+0 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 1
 Str: 36
 Dex: 35
@@ -806,6 +808,7 @@ d0 h0k0 -600 E
 0d0+0 375000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 2
 Str: 30
 Dex: 15
@@ -889,6 +892,7 @@ d0f0g0n0o0 k0p0r0z0A0m1w1 -600 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 1
 Str: 36
 Dex: 35
@@ -929,6 +933,7 @@ b0c0d0g0n0o0A0 k0p1r1 -600 E
 0d0+0 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 BareHandAttack: 1
 Str: 36
 Dex: 36
@@ -1007,6 +1012,7 @@ b0d0f0g0n0o0z0 d0k0n0p0r0z0A0C0b1m1r1t1w1 -600 E
 0d0+0 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 Str: 36
 Dex: 20
 Int: 3
@@ -1044,6 +1050,7 @@ b0c0d0f0g0n0o0p0A0i2 d0k0n0p0r0z0A0C0b1m1q1r1w1 -600 E
 0d0+0 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 Str: 15
 Dex: 21
 Int: 36

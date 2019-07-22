@@ -11,23 +11,34 @@
 Мастер своего дела, камень так и крошится под
 его звонкими ударами.
 ~
-c0d0l0m0A0 d0f0h0k0q1r1 0 E
-38 0 0 20d20+5000 10d10+20
-5d50+999 1500000
+c0d0l0m0A0w1 d0f0h0k0q1r1 0 E
+38 0 -2 20d20+7000 10d10+20
+5d50+900 1500000
 8 8 1
 Saves: -38 -38 -38 -38
-BareHandAttack: 3
+Resistances: 20 20 20 20 30 45 20
+HPreg: 50
+Armour: 30
+PlusMem: 70
+CastSuccess: 70
+Success: 20
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 6
 Destination: 88886
 Destination: 88887
 Str: 35
 Dex: 35
 Int: 35
-Wis: 35
+Wis: 45
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
-ExtraAttack: 1
+LikeWork: 90
+ExtraAttack: 2
 Class: 105
 Race: 100
 Height: 175
@@ -36,6 +47,8 @@ Special_Bitvector: b1c1
 Skill: 22 200
 Skill: 136 200
 Skill: 142 200
+Spell: 28
+Spell: 28
 Spell: 48
 Spell: 48
 Spell: 48
@@ -44,14 +57,22 @@ Spell: 56
 Spell: 56
 Spell: 56
 Spell: 56
+Spell: 58
+Spell: 58
+Spell: 59
 Spell: 68
 Spell: 68
 Spell: 68
 Spell: 68
 Spell: 68
+Spell: 82
+Spell: 82
+Spell: 94
 Spell: 128
 Spell: 128
 Spell: 128
+Spell: 167
+Spell: 167
 Helper: 88801
 E
 T 88815
@@ -70,22 +91,33 @@ T 88815
 не занимать, это вы сразу поняли.
 ~
 c0d0l0m0A0 d0f0h0k0p1r1 0 E
-38 0 0 20d20+4000 10d10+20
+38 0 -1 20d20+5000 10d10+20
 5d50+999 1500000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 40 20
+HPreg: 100
+Armour: 30
+PlusMem: 100
+CastSuccess: 70
+Success: 30
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 3
 Destination: 88888
 Destination: 88889
 Str: 35
 Dex: 35
 Int: 35
-Wis: 35
+Wis: 45
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
-ExtraAttack: 1
+LikeWork: 90
+ExtraAttack: 3
 Class: 105
 Race: 100
 Height: 175
@@ -94,6 +126,9 @@ Special_Bitvector: b1c1
 Skill: 22 200
 Skill: 136 200
 Skill: 142 200
+Skill: 166 50
+Spell: 38
+Spell: 38
 Spell: 48
 Spell: 48
 Spell: 48
@@ -102,6 +137,8 @@ Spell: 56
 Spell: 56
 Spell: 56
 Spell: 56
+Spell: 89
+Spell: 89
 Spell: 94
 Spell: 94
 Spell: 94
@@ -110,6 +147,8 @@ Spell: 94
 Spell: 152
 Spell: 152
 Spell: 152
+Spell: 158
+Spell: 158
 Helper: 88800
 E
 T 88814
@@ -127,10 +166,20 @@ T 88814
 Но дразнить его что-то не хочется...
 ~
 c0d0f0A0j2 d0f0k0 0 E
-38 0 0 20d20+3000 10d10+20
-4d45+999 1500000
+35 0 -1 20d20+4000 10d10+20
+4d4+999 900000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 15 20
+HPreg: 30
+Armour: 30
+CastSuccess: 32
+Success: 30
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 2
 Str: 35
 Dex: 35
@@ -139,7 +188,7 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
+LikeWork: 90
 ExtraAttack: 1
 Class: 104
 Race: 100
@@ -149,6 +198,7 @@ Special_Bitvector: a0b0c0d0b1c1
 Skill: 132 200
 Skill: 136 200
 Skill: 142 200
+Skill: 167 100
 E
 #88803
 здоровенный надсмотрщик~
@@ -164,28 +214,52 @@ E
 в жизни - бить безответных рабов.
 ~
 c0d0f0A0j2 d0f0k0m1 -600 E
-38 0 0 20d20+3400 10d10+20
-30d35+600 1500000
+35 0 -2 20d10+4000 15d9+20
+30d35+500 900000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 15 20
+HPreg: 50
+Armour: 20
+PlusMem: 40
+CastSuccess: 40
+Success: 37
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 2
-Str: 35
+Str: 40
 Dex: 35
 Int: 35
 Wis: 35
-Con: 35
+Con: 40
 Cha: 35
 Size: 50
-LikeWork: 99
-ExtraAttack: 1
+LikeWork: 90
+ExtraAttack: 2
 Class: 104
 Race: 100
 Height: 175
 Weight: 140
 Special_Bitvector: b1c1 
+Skill: 5 100
 Skill: 22 200
 Skill: 136 200
 Skill: 142 200
+Spell: 25
+Spell: 25
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 130
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 194
+Spell: 194
+Spell: 194
 E
 #88804
 одноухий надсмотрщик~
@@ -202,10 +276,17 @@ E
 И почему только он в надсмотрщиках, а не в рабах!
 ~
 c0d0f0A0j2 d0f0k0m1 -600 E
-38 0 0 20d20+2800 10d10+20
-40d40+900 1500000
+36 0 -3 20d20+3500 17d10+20
+40d40+900 950000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 2
 Str: 35
 Dex: 35
@@ -214,13 +295,14 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
-ExtraAttack: 1
+LikeWork: 90
+ExtraAttack: 2
 Class: 104
 Race: 100
 Height: 175
 Weight: 140
 Special_Bitvector: b1c1 
+Skill: 2 120
 Skill: 131 150
 Skill: 136 200
 Skill: 142 200
@@ -228,6 +310,13 @@ Skill: 144 200
 Skill: 147 200
 Skill: 160 120
 Skill: 167 120
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 150
+Spell: 150
+Spell: 151
+Spell: 151
 E
 #88805
 надменный надсмотрщик~
@@ -242,10 +331,17 @@ E
 Эк нос задрал, придурок, за рабами смотри!
 ~
 c0d0f0A0j2 d0f0k0m1 -600 E
-38 0 0 20d20+2100 10d10+20
-40d40+500 1500000
+36 0 -2 20d20+3200 13d10+20
+40d40+500 950000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
 Dex: 35
 Int: 35
@@ -253,7 +349,7 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
+LikeWork: 90
 ExtraAttack: 1
 Class: 104
 Race: 100
@@ -263,6 +359,12 @@ Special_Bitvector: b1c1
 Skill: 4 170
 Skill: 136 200
 Skill: 142 200
+Skill: 150 70
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 58
 E
 #88806
 светловолосый рудокоп~
@@ -279,10 +381,17 @@ E
 быстро подрывает здоровье...
 ~
 c0d0f0A0 d0f0h0k0m1q1r1 -600 E
-38 0 0 20d20+1800 10d10+20
-20d20+200 1700000
+36 0 -2 20d20+1800 14d10+20
+20d20+200 950000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 6
 Str: 35
 Dex: 35
@@ -291,17 +400,26 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
-ExtraAttack: 1
-Class: 104
+LikeWork: 90
+ExtraAttack: 3
+Class: 105
 Race: 100
 Height: 175
 Weight: 140
 Special_Bitvector: b1c1 
+Skill: 3 150
+Skill: 21 150
 Skill: 22 200
 Skill: 136 200
 Skill: 137 100
 Skill: 142 200
+Spell: 131
+Spell: 131
+Spell: 131
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
 E
 #88807
 исхудалый рудокоп~
@@ -316,10 +434,17 @@ E
 Рабов кормят очень плохо...
 ~
 c0d0f0A0 d0f0k0m1q1 -600 E
-37 0 0 20d20+1700 10d10+20
-0d0+0 1200000
+35 0 -2 20d20+1700 15d15+20
+0d0+100 900000
 8 8 1
 Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 6
 Str: 35
 Dex: 35
@@ -328,17 +453,22 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
-ExtraAttack: 1
-Class: 102
+LikeWork: 90
+ExtraAttack: 2
+Class: 104
 Race: 100
 Height: 175
 Weight: 140
 Special_Bitvector: b1c1 
+Feat: 3
+Feat: 12
+Feat: 89
 Skill: 136 200
 Skill: 137 100
 Skill: 142 200
+Skill: 157 200
 Skill: 160 150
+Skill: 180 100
 E
 #88808
 толкальщик измученный~
@@ -354,20 +484,27 @@ E
 немало - на подъемы, пусть и небольшие, "собаку"
 толкать очень тяжело.
 ~
-b0c0d0f0A0 d0f0k0m1 -600 E
-37 0 0 20d20+2100 10d10+20
-0d0+0 1300003
+b0c0d0e0f0A0 d0f0k0u0m1t1 -600 E
+34 0 -2 20d20+3000 14d14+20
+0d0+0 750000
 8 8 1
 Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 29
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
-Dex: 35
+Dex: 40
 Int: 35
 Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
-ExtraAttack: 1
+LikeWork: 90
+ExtraAttack: 2
 Class: 102
 Race: 100
 Height: 175
@@ -376,6 +513,7 @@ Special_Bitvector: b1c1
 Skill: 132 170
 Skill: 136 200
 Skill: 142 200
+Skill: 167 50
 E
 #88809
 прикованный каторжник~
@@ -390,11 +528,18 @@ E
 Сам, словно пес, на цепи, он таскает обломки породы
 и кидает их в "собаку".
 ~
-b0c0d0l0A0 d0f0k0m1 -600 E
-36 0 0 20d20+1700 10d10+20
+b0c0d0l0A0 d0f0k0m1r1 -600 E
+36 0 -2 20d20+2200 10d18+20
 0d0+0 1000000
 8 8 1
 Saves: -30 -30 -30 -30
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 12
 Str: 35
 Dex: 35
@@ -403,7 +548,7 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
+LikeWork: 90
 ExtraAttack: 1
 Class: 102
 Race: 100
@@ -412,6 +557,7 @@ Weight: 140
 Special_Bitvector: a0b0c0d0b1c1 
 Skill: 22 180
 Skill: 137 100
+Skill: 150 100
 E
 T 88817
 #88810
@@ -429,10 +575,17 @@ T 88817
 себе знать - работа каторжнику не по силам.
 ~
 c0d0f0A0 d0f0h0k0m1 -600 E
-37 0 0 20d20+2150 10d10+20
-30d30+100 1300000
+35 0 0 20d20+2700 17d10+20
+30d30+100 850000
 8 8 1
 Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 3
 Str: 35
 Dex: 35
@@ -441,7 +594,7 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
+LikeWork: 90
 ExtraAttack: 1
 Class: 102
 Race: 100
@@ -466,10 +619,17 @@ E
 своей воле. Поэтому и трудится так старательно.
 ~
 c0d0f0A0 d0f0h0k0m1 -600 E
-38 0 0 20d20+20 10d10+20
-10d10+250 1600003
+36 0 -2 20d20+2200 15d11+20
+10d10+250 1000000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 3
 Str: 35
 Dex: 35
@@ -478,9 +638,9 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
-ExtraAttack: 1
-Class: 102
+LikeWork: 90
+ExtraAttack: 2
+Class: 104
 Race: 100
 Height: 175
 Weight: 140
@@ -495,6 +655,12 @@ Spell: 42
 Spell: 42
 Spell: 42
 Spell: 42
+Spell: 93
+Spell: 93
+Spell: 135
+Spell: 135
+Spell: 150
+Spell: 150
 E
 #88812
 обессилевший бойщик~
@@ -511,10 +677,17 @@ E
 ножом по горлу и в отвалы.
 ~
 b0c0d0l0A0 d0f0h0k0m1 -600 E
-36 0 0 20d20+1400 10d10+20
-0d0+0 1000000
+35 0 -2 20d20+2000 14d14+20
+0d0+0 900000
 8 8 1
 Saves: -30 -30 -30 -30
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 3
 Str: 35
 Dex: 35
@@ -523,15 +696,17 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
+LikeWork: 90
 ExtraAttack: 1
 Class: 102
 Race: 100
 Height: 175
 Weight: 140
 Special_Bitvector: b1c1 
+Skill: 132 150
 Skill: 136 170
 Skill: 142 170
+Skill: 179 200
 Spell: 48
 Spell: 48
 Spell: 48
@@ -561,10 +736,17 @@ E
 Скоро его мучения прекратятся...
 ~
 c0d0f0A0 d0f0k0m1r1 -600 E
-35 0 0 20d20+1900 10d10+20
+35 0 0 20d20+2500 10d10+20
 0d0+0 900000
 8 8 1
 Saves: -26 -26 -26 -26
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 5
 Str: 35
 Dex: 35
@@ -573,7 +755,7 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
+LikeWork: 90
 ExtraAttack: 1
 Class: 102
 Race: 100
@@ -587,6 +769,15 @@ Spell: 68
 Spell: 68
 Spell: 68
 Spell: 68
+Spell: 151
+Spell: 151
+Spell: 151
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 173
+Spell: 173
+Spell: 173
 E
 #88814
 смуглый раб~
@@ -602,10 +793,17 @@ E
 Кого тут только не встретишь!
 ~
 c0d0f0A0 d0f0k0m1 -600 E
-38 0 0 20d20+2200 10d10+20
-0d0+0 1500000
+36 0 -2 20d20+2200 15d15+20
+0d0+0 1000000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 5
 Str: 35
 Dex: 35
@@ -614,13 +812,14 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
-ExtraAttack: 1
+LikeWork: 90
+ExtraAttack: 3
 Class: 102
 Race: 100
 Height: 175
 Weight: 140
 Special_Bitvector: b1c1 
+Skill: 2 150
 Skill: 5 150
 Skill: 136 170
 Skill: 142 170
@@ -642,10 +841,17 @@ T 88807
 мучений на рудниках раб возненавидел всех людей.
 ~
 c0d0f0A0 d0f0k0m1r1 -600 E
-36 0 0 20d20+2500 10d10+20
-0d0+0 1000000
+35 0 0 20d20+2500 10d17+20
+0d0+0 900000
 8 8 1
 Saves: -30 -30 -30 -30
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 3
 Str: 35
 Dex: 35
@@ -654,8 +860,8 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
-ExtraAttack: 1
+LikeWork: 90
+ExtraAttack: 3
 Class: 105
 Race: 100
 Height: 175
@@ -686,11 +892,18 @@ E
 С ног до головы в серой пыли,
 грязные волосы спадают на лицо.
 ~
-c0d0l0A0 d0f0k0m1 -600 E
-37 0 0 20d20+800 10d10+20
-10d10+100 1300000
+c0d0l0r0A0w1 d0f0k0m1 -600 E
+35 0 0 20d20+800 10d15+20
+10d10+100 800000
 8 8 1
 Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
 Dex: 35
 Int: 35
@@ -698,8 +911,8 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
-ExtraAttack: 1
+LikeWork: 90
+ExtraAttack: 3
 Class: 102
 Race: 100
 Height: 175
@@ -726,10 +939,17 @@ E
 разбойник.
 ~
 b0c0d0f0A0 d0f0k0m1 -600 E
-37 0 0 20d20+2000 10d10+20
-20d20+200 1300000
+36 0 -2 20d20+2000 18d10+20
+20d20+200 950000
 8 8 1
 Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 3
 Str: 35
 Dex: 35
@@ -738,8 +958,8 @@ Wis: 35
 Con: 35
 Cha: 35
 Size: 50
-LikeWork: 99
-ExtraAttack: 1
+LikeWork: 90
+ExtraAttack: 2
 Class: 102
 Race: 100
 Height: 175
@@ -748,6 +968,10 @@ Special_Bitvector: b1c1
 Skill: 132 150
 Skill: 136 170
 Skill: 142 170
+Spell: 59
+Spell: 76
+Spell: 76
+Spell: 76
 E
 T 88807
 #88818
@@ -764,10 +988,17 @@ T 88807
 обмотанной заскорузлым тряпьем.
 ~
 b0c0d0l0A0 d0f0k0m1r1 -600 E
-36 0 0 20d20+2100 10d10+20
-0d0+0 1000000
+36 0 -2 20d20+3000 15d15+20
+0d0+0 950000
 6 6 1
 Saves: -30 -30 -30 -30
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 3
 Str: 35
 Dex: 35
@@ -777,7 +1008,7 @@ Con: 35
 Cha: 35
 Size: 50
 LikeWork: 99
-ExtraAttack: 1
+ExtraAttack: 2
 Class: 102
 Race: 100
 Height: 175
@@ -785,6 +1016,7 @@ Weight: 140
 Special_Bitvector: m0b1c1 
 Skill: 136 170
 Skill: 142 170
+Skill: 157 130
 Spell: 26
 Spell: 26
 Spell: 26
@@ -810,26 +1042,36 @@ T 88807
 Крупная летучая мышь, обычный обитатель подземелий.
 ~
 d0f0b1g2 f0k0 0 E
-36 0 0 20d20+1400 10d10+20
-0d0+0 1000000
+35 0 0 20d20+2000 10d15+20
+0d0+0 800000
 8 8 1
 Saves: -30 -30 -30 -30
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 4
 Str: 35
-Dex: 35
+Dex: 45
 Int: 35
 Wis: 35
 Con: 35
 Cha: 35
 Size: 50
 LikeWork: 99
-ExtraAttack: 1
+ExtraAttack: 2
 Class: 103
 Race: 100
 Height: 175
 Weight: 140
-Special_Bitvector: 0 
+Special_Bitvector: l0y0 
+Feat: 3
+Feat: 6
 Skill: 136 100
+Skill: 157 150
 Spell: 56
 Spell: 56
 Spell: 56
@@ -840,6 +1082,12 @@ Spell: 76
 Spell: 76
 Spell: 76
 Spell: 76
+Spell: 167
+Spell: 167
+Spell: 167
+Spell: 167
+Spell: 172
+Spell: 172
 E
 #88820
 черная крыса~
@@ -856,10 +1104,17 @@ E
 Просто бросьте кусочек хлеба...
 ~
 d0j2 f0k0 0 E
-37 0 0 20d20+1226 10d10+20
-0d0+0 1200000
+35 0 0 20d20+1700 15d10+20
+0d0+2 800000
 8 8 2
 Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 4
 Str: 35
 Dex: 35
@@ -869,12 +1124,13 @@ Con: 35
 Cha: 35
 Size: 50
 LikeWork: 99
-ExtraAttack: 1
+ExtraAttack: 2
 Class: 103
 Race: 100
 Height: 175
 Weight: 140
 Special_Bitvector: p0 
+Skill: 6 100
 Skill: 136 100
 E
 #88821
@@ -890,11 +1146,18 @@ E
 Весьма ученый человек, и сведущий в таких науках,
 о которых вы и не слыхивали.
 ~
-c0d0l0A0 d0f0h0k0m1p1 -600 E
-37 0 0 20d20+2100 10d10+20
-20d20+800 1200000
+c0d0l0A0w1 d0f0h0k0m1p1 -600 E
+36 0 -2 20d20+2100 10d10+20
+20d20+800 1000000
 8 8 1
 Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
 Dex: 35
 Int: 35
@@ -945,6 +1208,11 @@ Spell: 94
 Spell: 94
 Spell: 94
 Spell: 94
+Spell: 134
+Spell: 153
+Spell: 156
+Spell: 156
+Spell: 156
 E
 #88822
 седой рудознатец~
@@ -962,20 +1230,27 @@ E
 самоцветные камни.
 ~
 b0c0d0l0A0 d0f0h0k0p1 0 E
-38 0 0 20d20+2500 10d10+20
-20d20+400 1500000
+37 0 -2 20d20+3000 10d10+20
+20d20+500 1200000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 130
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 6
 Str: 35
-Dex: 35
+Dex: 1
 Int: 35
 Wis: 35
 Con: 35
 Cha: 35
 Size: 50
 LikeWork: 99
-ExtraAttack: 1
+ExtraAttack: 2
 Class: 105
 Race: 100
 Height: 175
@@ -1000,6 +1275,8 @@ Spell: 28
 Spell: 28
 Spell: 28
 Spell: 28
+Spell: 151
+Spell: 151
 Spell: 152
 Spell: 152
 Spell: 152
@@ -1010,6 +1287,10 @@ Spell: 152
 Spell: 152
 Spell: 152
 Spell: 152
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
 E
 T 88825
 #88823
@@ -1026,11 +1307,18 @@ T 88825
 надсмотрщиков он выглядит совсем хилым, толкни -
 упадет и не поднимется.
 ~
-c0d0f0A0 d0f0k0p1 -600 E
-37 0 0 20d20+1200 10d10+20
-20d20+100 1200000
+c0d0f0A0e2h2u2 d0f0k0p1d2 -600 E
+36 0 0 20d20+2500 16d12+20
+20d20+100 950000
 8 8 1
 Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
 Dex: 35
 Int: 35
@@ -1039,7 +1327,7 @@ Con: 35
 Cha: 35
 Size: 50
 LikeWork: 99
-ExtraAttack: 1
+ExtraAttack: 3
 Class: 105
 Race: 100
 Height: 175
@@ -1100,10 +1388,17 @@ E
 Или все же есть для этого дела другой работник?
 ~
 b0c0d0l0A0 d0f0h0k0m1p1 -600 E
-38 0 0 20d20+5000 10d10+20
-15d15+150 1500000
+36 0 -3 20d20+5000 15d15+20
+15d15+222 950000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 3
 Str: 35
 Dex: 35
@@ -1113,7 +1408,7 @@ Con: 35
 Cha: 35
 Size: 50
 LikeWork: 99
-ExtraAttack: 1
+ExtraAttack: 3
 Class: 104
 Race: 100
 Height: 175
@@ -1141,10 +1436,17 @@ E
 На рабов он смотрит с видимым отвращением.
 ~
 c0d0l0A0 d0f0k0m1p1 -600 E
-36 0 0 20d20+3000 10d10+20
-10d10+200 1000000
+35 0 0 20d20+3700 20d10+20
+10d10+200 850000
 8 8 1
 Saves: -30 -30 -30 -30
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 3
 Str: 35
 Dex: 35
@@ -1161,8 +1463,10 @@ Height: 175
 Weight: 140
 Special_Bitvector: b1c1 
 Skill: 131 150
+Skill: 134 100
 Skill: 136 170
 Skill: 142 170
+Skill: 155 100
 Spell: 28
 Spell: 28
 Spell: 28
@@ -1181,11 +1485,18 @@ E
 бегут в вашу сторону, только блестят бусинки глаз
 да мелькают отвратительные чешуйчатые хвосты.
 ~
-d0e0f0p0t0t1g2 f0k0 0 E
-39 0 0 20d20+2100 5d5+20
-20d20+500 2000000
+d0e0f0p0t0t1g2 f0k0s0 0 E
+36 0 0 20d20+2100 5d5+20
+20d20+500 950000
 8 8 2
 Saves: -42 -42 -42 -42
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 4
 Str: 35
 Dex: 35
@@ -1197,11 +1508,26 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 10
 Class: 103
-Race: 100
+Race: 104
 Height: 175
 Weight: 140
-Special_Bitvector: a0b0c0p0 
+Special_Bitvector: a0b0c0g0p0 
 Skill: 22 170
+Skill: 136 150
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 134
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 172
+Spell: 172
+Spell: 189
+Spell: 190
 E
 #88827
 клубок летучих мышей~
@@ -1217,10 +1543,17 @@ E
 на друга и непрерывно пищат.
 ~
 b0d0e0f0p0t0t1g2 f0k0 0 E
-38 0 0 20d20+700 5d5+20
-0d0+0 1500000
+36 0 0 20d20+2000 20d5+20
+0d0+0 950000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 1
 Str: 35
 Dex: 35
@@ -1266,10 +1599,17 @@ E
 Почему-то это невесомое создание не вызывает у вас страха.
 ~
 d0f0b1a2 d0f0h0k0x0m1p1 0 E
-38 0 0 20d20+1900 10d10+20
-4d40+800 1700000
+37 0 0 20d20+1900 15d10+20
+4d40+800 1200000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 38
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
 Dex: 35
 Int: 35
@@ -1280,7 +1620,7 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 2
 Class: 101
-Race: 100
+Race: 111
 Height: 175
 Weight: 140
 Special_Bitvector: 0 
@@ -1320,10 +1660,17 @@ E
 Наверное, он служил Темной стороне Силы.
 ~
 d0f0b1 d0f0k0x0m1p1 0 E
-38 0 0 20d20+2100 10d10+20
-0d0+0 1500000
+37 0 0 20d20+2100 10d10+20
+0d0+0 1200000
 8 8 1
 Saves: -38 -38 -38 -38
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 38
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
 Dex: 35
 Int: 35
@@ -1334,7 +1681,7 @@ Size: 50
 LikeWork: 99
 ExtraAttack: 2
 Class: 101
-Race: 100
+Race: 111
 Height: 175
 Weight: 140
 Special_Bitvector: 0 
@@ -1369,10 +1716,17 @@ E
 взять с собой и погреться в холодную зимнюю ночь.
 ~
 d0e0f0p0r0t0u0z0b1s1t1a2g2 d0f0k0x0m1p1 0 E
-36 0 0 20d20+1800 10d10+20
-0d0+0 1000000
+37 0 0 20d20+1800 10d10+20
+0d0+0 1200000
 8 8 1
-Saves: -30 -30 -30 -30
+Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 38
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
 Dex: 35
 Int: 35
@@ -1414,10 +1768,17 @@ T 88801
 всосать в себя какую-нибудь часть вашего тела.
 ~
 d0e0f0p0q0r0u0z0b1s1t1b2g2h2 d0f0k0x0p1 0 E
-36 0 0 20d20+3500 10d10+20
-0d0+0 1000000
+37 0 0 20d20+3700 11d11+20
+0d0+0 1200000
 8 8 1
-Saves: -30 -30 -30 -30
+Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 38
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
 Dex: 35
 Int: 35
@@ -1458,10 +1819,17 @@ T 88800
 Висит себе и висит, вам что за дело?
 ~
 d0e0f0p0q0r0t0u0z0b1s1t1b2g2h2 d0f0k0x0p1 0 E
-36 0 0 20d20+1800 10d10+20
-0d0+0 1000000
+35 0 0 20d20+2555 10d10+20
+0d0+0 800000
 8 8 0
 Saves: -30 -30 -30 -30
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
 Dex: 35
 Int: 35
@@ -1503,10 +1871,17 @@ E
 зубов и глотка в виде воронки.
 ~
 d0f0 d0f0k0m1q1 0 E
-36 0 0 20d20+1700 10d10+20
-0d0+0 1100000
+35 0 0 20d20+2700 17d10+20
+0d0+0 800000
 8 8 1
 Saves: -30 -30 -30 -30
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 4
 Str: 35
 Dex: 35
@@ -1516,7 +1891,7 @@ Con: 35
 Cha: 35
 Size: 50
 LikeWork: 99
-ExtraAttack: 1
+ExtraAttack: 4
 Class: 103
 Race: 100
 Height: 175
@@ -1550,10 +1925,17 @@ T 88802
 вообще не заметив.
 ~
 d0f0 d0f0k0m1q1 0 E
-36 0 0 20d20+1800 10d10+20
-0d0+0 1100000
+36 0 0 20d20+1800 17d10+20
+0d0+0 950000
 8 8 1
 Saves: -30 -30 -30 -30
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 4
 Str: 35
 Dex: 35
@@ -1563,7 +1945,7 @@ Con: 35
 Cha: 35
 Size: 50
 LikeWork: 99
-ExtraAttack: 1
+ExtraAttack: 3
 Class: 103
 Race: 100
 Height: 175
@@ -1572,6 +1954,7 @@ Special_Bitvector: m0w0
 Skill: 22 180
 Skill: 136 170
 Skill: 137 100
+Skill: 160 100
 E
 T 88803
 #88835
@@ -1588,11 +1971,17 @@ T 88803
 ведь каждому хочется человеческого общения!
 ~
 b0d0e0f0p0r0u0z0g2 d0f0k0p1r1 -600 E
-36 0 0 20d20+2100 10d10+20
-0d0+0 1000000
+35 0 0 20d20+2700 10d10+20
+0d0+0 900000
 8 8 3
 Saves: -30 -30 -30 -30
+Resistances: 20 20 20 20 20 15 20
 CastSuccess: 150
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 2
 Str: 35
 Dex: 35
@@ -1640,10 +2029,17 @@ T 88824
 От него исходит грибной запах.
 ~
 b0d0f0p0r0u0z0s1d2g2h2 d0f0k0m1p1 0 E
-37 0 0 20d20+1000 10d10+20
-0d0+0 1200000
+36 0 0 20d20+2000 10d10+20
+0d0+0 950000
 8 8 1
 Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 35
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
 Dex: 35
 Int: 35
@@ -1679,10 +2075,17 @@ T 88805
 Невыразимо гадкая плесень!
 ~
 b0d0e0f0p0q0r0u0z0s1t1b2g2 d0f0k0q1 0 E
-36 0 0 20d20+1100 10d10+20
-0d0+0 1100000
+35 0 0 20d20+3000 10d10+20
+0d0+0 900000
 8 8 2
 Saves: -30 -30 -30 -30
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
 Dex: 35
 Int: 35
@@ -1718,11 +2121,18 @@ T 88806
 ~
 Тело в шрамах, спереди выбит один зуб, ухо порвано в драке.
 ~
-c0d0f0A0 d0f0k0m1 -600 E
-37 0 0 20d20+4500 10d10+20
-0d0+0 1300000
+c0d0f0A0w1 d0f0k0m1 -600 E
+35 0 0 20d20+4500 17d15+20
+0d0+0 800000
 8 8 1
 Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 3
 Str: 35
 Dex: 35
@@ -1732,7 +2142,7 @@ Con: 35
 Cha: 35
 Size: 50
 LikeWork: 99
-ExtraAttack: 1
+ExtraAttack: 2
 Class: 102
 Race: 100
 Height: 175
@@ -1758,10 +2168,17 @@ T 88807
 да и только.
 ~
 c0d0f0A0 d0f0k0m1 -600 E
-37 0 0 20d20+5600 10d10+20
-0d0+0 1200000
+35 0 0 20d20+5600 10d10+20
+0d0+0 800000
 8 8 1
 Saves: -34 -34 -34 -34
+Resistances: 20 20 20 20 20 15 20
+CastSuccess: 32
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 BareHandAttack: 3
 Str: 35
 Dex: 35
@@ -1771,7 +2188,7 @@ Con: 35
 Cha: 35
 Size: 50
 LikeWork: 99
-ExtraAttack: 1
+ExtraAttack: 3
 Class: 102
 Race: 100
 Height: 175
@@ -1795,10 +2212,16 @@ E
 Его нет!
 ~
 b0d0r0t0z0i2 d0f0k0x0 -600 E
-1 0 0 100d100+1000 1d1+1
+1 0 0 100d100+2500 1d1+1
 0d0+20000 1
 8 8 1
+Resistances: 20 20 20 20 20 15 20
 CastSuccess: 120
+Initiative: 20
+Absorbe: 40
+AResist: 5
+MResist: 5
+PResist: 5
 Str: 35
 Dex: 35
 Int: 35

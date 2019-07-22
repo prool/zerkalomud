@@ -374,7 +374,7 @@ LikeWork: 30
 MaxFactor: 15
 ExtraAttack: 1
 Class: 100
-Race: 102
+Race: 112
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -504,7 +504,7 @@ LikeWork: 50
 MaxFactor: 15
 ExtraAttack: 1
 Class: 104
-Race: 112
+Race: 101
 Height: 180
 Weight: 150
 Special_Bitvector: g0 
@@ -525,9 +525,9 @@ Spell: 84
 Spell: 84
 Spell: 114
 Spell: 114
-Helper: 90012
-Helper: 90013
 Helper: 90015
+Helper: 90013
+Helper: 90012
 E
 T 90018
 T 90019
@@ -752,7 +752,7 @@ Size: 25
 MaxFactor: 10
 ExtraAttack: 1
 Class: 107
-Race: 115
+Race: 103
 Height: 180
 Weight: 150
 Special_Bitvector: 0 
@@ -1437,7 +1437,7 @@ L 1707 2 0 0
 b0d0g0n0o0 d0f0k0 600 E
 1 20 10 40d40+2000 10d3+20
 0d0+0 0
-8 8 1
+8 8 0
 Str: 20
 Dex: 10
 Int: 10

@@ -262,7 +262,7 @@ run 93513 %mertvec.id%
 ~
 #93513
 мертвец3 атачит~
-0 z 100
+2 z 100
 ~
 wait 1
 wecho Мертвец пришел с севера.
@@ -278,7 +278,7 @@ run 93514 %mertvec.id%
 ~
 #93514
 мертвец4 атачит~
-0 z 100
+2 z 100
 ~
 wait 1
 wecho Мертвец пришел с востока.
@@ -294,7 +294,7 @@ run 93515 %mertvec.id%
 ~
 #93515
 мертвец5 атачит~
-0 z 100
+2 z 100
 ~
 wait 1
 wecho Мертвец пришел с юга.
@@ -646,13 +646,13 @@ end
 2 c 100
 искать~
 if !(%arg.contains(мусор)%) 
-  osend       %actor% Где вы хотите искать?
+  wsend       %actor% Где вы хотите искать?
   return 1
   halt
 end
 wait 1
 wecho Вы перевернули весь мусор, но, кажется, ничего не нашли.
-if (%world.curobjs(93511)% < 10) && (%random.3% == 1)
+if (%world.curobjs(93511)% < %world.maxobj(93511)%) && (%random.100% < 31)
   wload obj 93511
 end
 wait 1

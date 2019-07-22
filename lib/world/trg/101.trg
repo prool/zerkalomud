@@ -11,10 +11,10 @@ end
 if (%world.curobjs(10108)% < 10) && (%random.1000% <= 50)
   mload obj 10108
 end
-if (%world.curobjs(558)% == 0) && (%random.1000% <= 50)
+if (%world.curobjs(558)% == 0) && (%random.5% <= 1)
   mload obj 558
 end
-if (%world.curobjs(529)% == 0) && (%random.1000% <= 50)
+if (%world.curobjs(529)% == 0) && (%random.5% <= 1)
   mload obj 529
 end
 ~
@@ -104,7 +104,7 @@ eval rV %random.1000%
 wecho ----- %rV% ------
 if %rV% < 901
   *90% на оба положительных исхода
-  if %rV% < 351
+  if %rV% < 451
     *делим на 2 ветки благополучный исход
     *1 ветка моб 1109
     wload mob 10109
@@ -156,18 +156,18 @@ end
 wait 1s
 if !%self.fighting%
   mecho - Спасибо, что освободил%actor.g% меня, %actor.name%.
-  if (%world.curobjs(534)% < 10) && (%random.100% <= 25)
+  if (%world.curobjs(534)% < 10) && (%random.4% <= 1)
     mload obj 534
     mecho - Я хотел ее продать, но пусть это будет твоей наградой.
     give книг %actor.name%
-  elseif ((%random.1000% <= 100) && (%world.curobjs(3344)% < 1))
-    say Возьми эти сапоги, их ценность намного выше, чем кажется на первый  взгляд.
+  elseif (%random.1000% <= 100)
+    say Возьми эту чекушку, ее ценность намного выше, чем кажется на первый взгляд.
     wait 1
-    mload obj 3344
-    дать сапог %actor.name%
+    mload obj 103
+    дать чекуш %actor.name%
   else
     mechoaround %actor% Заморский купец дал груду монет %actor.dname%.
-    msend       %actor% Заморский купец дал Вам 1000 монет.
+    msend %actor% Заморский купец дал Вам 1000 монет.
     %actor.gold(+1000)%
   end
   calcuid merch101 10109 mob

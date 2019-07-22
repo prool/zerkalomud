@@ -109,8 +109,8 @@ Skill: 137 120
 Skill: 150 70
 Skill: 157 100
 Spell: 137
-Helper: 60600
 Helper: 60601
+Helper: 60600
 E
 T 60602
 #60603
@@ -195,7 +195,7 @@ E
 Молодой парень каждый день гоняющий скот на выпас.
 ~
 b0d0A0l1m1n1 k0A0 600 E
-28 0 -7 5d5+900 5d5+8
+29 0 -7 5d5+900 5d5+8
 0d0+0 195000
 8 8 1
 BareHandAttack: 2
@@ -370,6 +370,7 @@ b0d0l0m0n0o0 c0d0e0f0k0A0m1 600 E
 0d0+0 700000
 8 8 2
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 Str: 13
 Dex: 12
 Int: 28
@@ -453,6 +454,7 @@ b0d0m0n0o0 f0g0r0C0m1 600 E
 0d0+0 800000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
 Str: 25
 Dex: 13
 Con: 25
@@ -498,6 +500,7 @@ b0d0m0n0o0A0 r0 600 E
 0d0+0 700000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 BareHandAttack: 6
 Str: 25
 Dex: 15
@@ -546,6 +549,7 @@ b0c0d0l0m0n0o0A0 c0d0e0f0h0r0z0A0 600 E
 0d0+0 700000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 BareHandAttack: 8
 Int: 25
 Wis: 25

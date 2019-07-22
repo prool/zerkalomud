@@ -3,6 +3,7 @@
 2 c 0
 раскопать разгрести расширить~
 if !%arg.contains(лаз)%
+  wsend %actor% Что это Вы собираетесь расширить?
   return 1
   halt
 end
@@ -29,18 +30,19 @@ mecho   Душа со сдавленным стоном растворилась в пустоте...
 оплатаквеста~
 2 c 0
 воткнуть вонзить~
-calcuid corpse 14500 obj
-if !%corpse% || !%arg.contains(меч)%
-  halt
-end
-if %exist.obj(14507)%
-  calcuid gladius 14507 obj
-else
-  %send% %actor% У вас этого нет!
+*234567890*234567890*234567890*234567890*234567890*234567890*234567890*234567890
+if !%arg.contains(меч)%
+  wsend %actor% Что это Вы собрались вонзить?
   halt
 end
 set sword  %actor.eq(16)%
 if %sword.vnum% != 14507
+  wsend %actor% Стоит вооружиться чем-нибудь более подходящим!
+  halt
+end
+calcuid corpse 14500 obj
+if !%corpse%
+  wsend %actor% Вы доблестно помахали старинным мечом в воздухе, но ничего не произошло!
   halt
 end
 wait 1
@@ -50,7 +52,7 @@ wecho Меч вспыхнул ярким пламенем и костяк исчез...
 wait 1
 wpurge %corpse%
 wait 1
-wpurge %gladius%
+wpurge %sword%
 if (%actor.class% == 13)
   if (%world.curobjs(230)% < 100 && %random.1000% <= 450)
     wecho На этом месте осталась лишь древняя руна...

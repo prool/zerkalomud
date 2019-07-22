@@ -78,11 +78,15 @@ if (%actor.vnum% != -1)
 end
 set quester35801 %actor.id%
 global quester35801
-calcuid witch 35803 mob
-attach 35806 %witch.id%
-remote quester35801 %witch.id%
-calcuid багник 35809 mob
-remote quester35801 %багник.id%
+if (%exist.mob(35803)%)
+  calcuid witch 35803 mob
+  attach 35806 %witch.id%
+  remote quester35801 %witch.id%
+end
+if (%exist.mob(35809)%)
+  calcuid багник 35809 mob
+  remote quester35801 %багник.id%
+end
 дум
 wait 1s 
 say 
@@ -227,6 +231,7 @@ calcuid swampghost 35809 mob
 attach 35812 %swampghost.id%
 attach 35813 %swampghost.id%
 detach 35811 %self.id%
+attach 35812 %waterghost.id%
 ~
 #35812
 лоад бошки болотника~
@@ -236,6 +241,7 @@ mload obj 35816
 mload obj 35812
 if ((%world.curobjs(35820)% < 4) && (%random.100% < 21))
   mload obj 35821
+  mload obj 35816 
 end
 ~
 #35813

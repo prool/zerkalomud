@@ -3,12 +3,14 @@
 0 p 100
 ~
 wait 2s
-say _Хех...нет... силушкой меряться я  с тобой не буду. 
+say _Хех...нет... силушкой меряться я с тобой не буду. 
 дум
 say Ну разве что за 100 кун... али больше...
 calcuid gorbj 33831 mob
+set victim %actor%
+remote victim %gorbj.id%
 attach 33801 %gorbj.id% 
-exec  33801 %gorbj.id% 
+exec  33801 %gorbj.id%
 ~
 #33801
 дал горбуну более ста кун~
@@ -20,7 +22,7 @@ wait 1
 mecho _Горбун засучил рукава и кинулся в бой!
 calcuid gorbun 33831 mob
 detach 33800 %gorbun.id%
-mkill %actor%
+mkill %victim%
 calcuid gorbun 33831 mob
 detach 33801 %gorbun.id%
 ~
@@ -85,13 +87,14 @@ say _А был я славный слуга Господа нашего бога....
 say _Поставил меня здесь сторожить все и злобу мне дал неописуемую...
 say _Расколдуй меня.. помоги... Христом богом прошу...Не убивай...
 пла
-mkill %actor.name%
-calcuid znachar 33808 mob
-attach 33807 %znachar.id%
-calcuid znachar 33808 mob
-detach 33806 %znachar.id%
-calcuid piosik 33827 mob
-detach 33805 %piosik.id%
+wait 1s
+mkill %actor%
+if %exist.mob(33808)%
+  calcuid znachar 33808 mob
+  attach 33807 %znachar.id%
+  detach 33806 %znachar.id%
+end
+detach 33805 %self.id%
 ~
 #33806
 помер знахарь 1~
@@ -124,7 +127,7 @@ if %object.vnum% == 33821 then
   mecho _Пес схватил порошок зубами и попытался проглотить его.
   mecho _Все вокруг окутал серый дым.
   wait 1
-  mpurge порошок
+  mpurge %object%
   calcuid roompiosi 33893 room
   attach 33809 %roompiosi.id%
   exec 33809 %roompiosi.id%
@@ -134,7 +137,7 @@ if %object.vnum% == 33822 then
   mecho _Пес схватил порошок зубами и попытался проглотить его.
   mecho _Все вокруг окутал белый дым.
   wait 1
-  mpurge порошок
+  mpurge %object%
   calcuid roompiosii 33893 room
   attach 33810 %roompiosii.id%
   exec 33810 %roompiosii.id%
@@ -145,7 +148,7 @@ if %object.vnum% == 33823 then
   mecho _Все вокруг окутал черный дым.
   wait 1
   calcuid varbleiii 33823 obj
-  mpurge порошок
+  mpurge %object%
   wait 1
   calcuid roompiosuu 33893 room
   attach 33822 %roompiosuu.id%
@@ -245,12 +248,12 @@ if (%world.curobjs(33800)% < 1) && (%random.100% < 25)
   mload obj 33800
   дать хоруг %actor.name%
   detach 33814 %self.id%
-elseif ( %world.curobjs(3306)% < 1 ) && (%random.100%  < 4 )
-  mload obj 3306
+elseif ( %random.100%  < 4 )
+  mload obj 103
   say Священник много говорил мне про тебя.
   say И, я думаю, ты достоин доверия.
   wait 1s
-  дать амул %actor.name%
+  дать чекуш %actor.name%
   detach 33814 %self.id%
 end
 detach 33814 %self.id%
@@ -393,7 +396,7 @@ if %actor.hitp% < 59
   say _Слабоват ты еще. Поживи с мое, повоюй.
   say _До встречи, %actor.name%!
   mecho _Горбун с улыбкой убрал меч и ушел.
-  mpurge %self.name%
+  mpurge %self%
 end
 ~
 #33824

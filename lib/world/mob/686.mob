@@ -18,6 +18,7 @@ c0d0g0h0m0n0o0A0h1 d0f0k0 -600 E
 14 14 8 10d8+300 2d2+10
 0d2+50 15000
 8 8 1
+Absorbe: 14
 Str: 18
 Dex: 4
 Int: 12
@@ -49,6 +50,7 @@ b0c0d0g0l0m0A0 d0k0r0z0C0 -600 E
 30 6 3 40d9+1800 4d2+20
 11d6+10 280000
 8 8 1
+Absorbe: 30
 BareHandAttack: 3
 Str: 20
 Dex: 20
@@ -85,6 +87,7 @@ d0e0f0m0r0b1r1i2 d0f0k0s0x0A0 -600 E
 21 2 -10 9d8+500 2d2+10
 0d0+0 50000
 8 8 2
+Absorbe: 21
 BareHandAttack: 12
 Str: 15
 Dex: 30
@@ -120,6 +123,7 @@ b0c0d0g0l0m0n0o0 d0 -600 E
 23 0 -4 0d0+700 4d4+4
 14d4+10 68600
 8 8 1
+Absorbe: 23
 Str: 23
 Dex: 10
 Int: 10
@@ -154,6 +158,7 @@ b0d0g0h0s0 0 -600 E
 6 15 8 10d8+150 3d3+3
 0d0+0 2000
 8 8 2
+Absorbe: 6
 BareHandAttack: 13
 Str: 15
 Con: 15
@@ -183,6 +188,7 @@ b0d0f0g0 d0k0 -600 E
 23 12 5 8d6+444 2d2+4
 0d0+0 70000
 8 8 1
+Absorbe: 23
 BareHandAttack: 14
 Str: 18
 Int: 6
@@ -217,6 +223,7 @@ b0d0g0 0 -600 E
 7 12 7 25d5+686 2d3+3
 0d0+0 2500
 5 5 2
+Absorbe: 7
 Size: 15
 ExtraAttack: 1
 Class: 102
@@ -245,6 +252,7 @@ d0g0m0h1 0 -600 E
 14 8 5 20d12+400 3d4+2
 0d0+10 15000
 8 8 1
+Absorbe: 14
 Str: 19
 Int: 14
 Con: 17
@@ -278,6 +286,7 @@ b0c0d0g0l0m0 C0 -600 E
 22 9 5 20d11+600 2d4+5
 0d0+15 60000
 6 6 1
+Absorbe: 22
 Str: 18
 Con: 18
 Size: 43
@@ -303,7 +312,7 @@ E
 сиделку~
 сиделкой~
 сиделке~
-За столиком, опустив голову на руки,  горько плачет сиделка.
+За столиком, опустив голову на руки, горько плачет сиделка.
 ~
 Невысокая одетая в одежду служанки женщина. У нее длинные черные волосы,
 черные же чуть диковатые глаза и печальная улыбка.
@@ -312,6 +321,7 @@ b0d0g0 0 -600 E
 9 10 6 20d10+190 2d4+4
 0d0+0 5000
 6 6 2
+Absorbe: 9
 Size: 42
 ExtraAttack: 1
 Class: 102
@@ -343,6 +353,7 @@ b0d0g0 0 -600 E
 14 8 5 20d12+230 3d4+2
 0d0+0 13000
 5 5 2
+Absorbe: 14
 Size: 44
 ExtraAttack: 1
 Class: 102
@@ -369,6 +380,7 @@ d0g0h1l1m1 0 -600 E
 9 16 9 5d9+120 3d4+3
 0d0+0 4000
 8 8 2
+Absorbe: 9
 BareHandAttack: 4
 Size: 35
 Class: 103
@@ -396,6 +408,7 @@ b0c0d0g0k0l0m0n0o0 d0k0m1 -600 E
 28 4 -3 20d12+1700 3d8+10
 6d3+150 170000
 8 8 1
+Absorbe: 28
 BareHandAttack: 9
 Str: 24
 Dex: 17
@@ -437,6 +450,7 @@ b0c0d0e0g0h0l0m0n0x0h1 d0k0A0m1 -600 E
 30 0 -10 6d30+2686 9d4+8
 0d0+150 300000
 8 8 1
+Absorbe: 30
 BareHandAttack: 6
 Str: 27
 Dex: 21
@@ -485,6 +499,7 @@ c0d0f0g0m0n0p0r0u0A0 d0C0m1 -600 E
 26 6 4 20d15+900 4d7+5
 8d3+25 115000
 6 6 1
+Absorbe: 26
 BareHandAttack: 13
 Destination: 68652
 Destination: 68666
@@ -521,6 +536,7 @@ c0d0g0h0m0n0A0 d0 -600 E
 27 8 5 10d25+800 3d4+3
 4d6+50 134000
 8 8 2
+Absorbe: 27
 Destination: 68649
 Destination: 68650
 Destination: 68651
@@ -562,6 +578,7 @@ d0g0 k0 -600 E
 23 6 6 20d10+690 3d4+11
 3d3+200 68610
 8 8 1
+Absorbe: 23
 Str: 16
 Dex: 16
 Int: 16
@@ -596,6 +613,7 @@ b0d0g0l0m0n0o0 d0 -600 E
 23 3 2 20d18+580 4d5+4
 1d5+5 68600
 8 8 1
+Absorbe: 23
 BareHandAttack: 7
 Str: 23
 Dex: 18
@@ -636,6 +654,8 @@ c0d0g0l0m0x0A0 d0k0C0m1 -600 E
 5d11+25 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 3
 Destination: 68620
 Destination: 68605
@@ -665,16 +685,16 @@ Spell: 15
 Spell: 15
 Spell: 77
 Spell: 88
-Helper: 68620
 Helper: 68601
+Helper: 68620
 E
 T 68609
 #68619
 помощник начальника стражи~
 помощник~
-помощникa~
+помощника~
 помощнику~
-помощникa~
+помощника~
 помощником~
 помощнике~
 Помощник начальника стражи согласно кивает, выслушивая подробные указания.
@@ -687,6 +707,7 @@ d0g0m0 k0r0 -600 E
 28 7 0 20d14+700 3d4+5
 2d8+15 150000
 8 8 1
+Absorbe: 28
 Str: 23
 Size: 77
 LikeWork: 35
@@ -719,6 +740,7 @@ b0c0d0g0l0m0n0o0h1 k0 -600 E
 27 6 3 40d8+700 7d7+7
 0d0+30 120000
 8 8 1
+Absorbe: 27
 Str: 20
 Dex: 20
 Con: 20
@@ -755,6 +777,7 @@ b0c0d0g0l0m0q0 d0k0C0 -600 E
 25 5 -3 50d7+730 6d4+7
 6d3+15 90000
 8 8 1
+Absorbe: 25
 BareHandAttack: 6
 Str: 25
 Dex: 18
@@ -790,6 +813,7 @@ c0d0g0l0m0n0 0 -600 E
 23 0 -4 7d7+754 3d3+3
 5d5+10 70000
 8 8 1
+Absorbe: 23
 Destination: 68645
 Destination: 68644
 Str: 21
@@ -826,6 +850,7 @@ d0g0j0n0i1 f0k0m1 -600 E
 22 0 0 0d0+300 7d7+1
 0d0+0 60000
 8 8 1
+Absorbe: 22
 BareHandAttack: 4
 Str: 19
 Dex: 19
@@ -858,6 +883,7 @@ d0g0m0 d0f0k0s0 -600 E
 9 7 -6 20d14+190 2d2+2
 0d0+0 5000
 8 8 2
+Absorbe: 9
 BareHandAttack: 8
 Str: 15
 Dex: 15
@@ -893,6 +919,7 @@ b0c0d0g0l0m0A0 d0k0r0z0C0 -600 E
 30 6 3 40d9+1800 4d2+20
 11d6+10 280000
 8 8 1
+Absorbe: 30
 BareHandAttack: 3
 Str: 20
 Dex: 20
@@ -968,6 +995,7 @@ b0c0d0f0g0p0x0A0b1d2 b0d0f0k0n0x0p1 -600 E
 29 0 -8 12d9+945 6d6+2
 23d12+38 250000
 8 8 2
+Absorbe: 29
 BareHandAttack: 4
 Str: 14
 Int: 25
@@ -1026,6 +1054,7 @@ b0d0g0B0h1 0 0 E
 1 0 0 0d0+1 0d0+1
 0d0+0 1
 5 5 1
+Absorbe: 1
 Size: 10
 Class: 102
 Race: 101
@@ -1038,7 +1067,7 @@ T 68612
 #68629
 тяжеловооруженный воин~
 тяжеловооруженный воин~
-тяжеловооруженного война~
+тяжеловооруженного воина~
 тяжеловооруженному воину~
 тяжеловооруженного воина~
 тяжеловооруженным воином~
@@ -1051,6 +1080,7 @@ b0c0d0g0l0m0n0A0h1 d0f0k0z0 -600 E
 27 5 2 40d13+940 5d9+16
 6d3+30 140000
 8 8 1
+Absorbe: 27
 BareHandAttack: 6
 Str: 25
 Dex: 22

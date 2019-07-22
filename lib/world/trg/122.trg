@@ -262,7 +262,7 @@ mecho _- Службу верную сослужил%actor.g% ты мне.
 mecho _- Ну раз так - вот награда моя:
 mecho _- Пусть же ярость твоя в битве честной, не помехой будет тебе со товарищи,
 mecho _- А врагов твоих ужасает, да и силу дает богатырским рукам!
-mskillturn %questor122.name% ярость set
+mskillturn %questor122% ярость set
 %actor.setquest(12200)%
 if ((%world.curobjs(12218)% < 5 ) && (%random.100% < 45 ))
   mload obj 12218
@@ -756,6 +756,7 @@ wsend %actor% Вы почувствовали себя полным сил.
 Убили мужичков 1~
 0 f 100
 ~
+return 0
 calcuid guard 12214 mob
 attach 12212 %guard.id%
 ~
@@ -763,6 +764,7 @@ attach 12212 %guard.id%
 Убили мужичков 2~
 0 f 100
 ~
+return 0
 calcuid guard 12215 mob
 attach 12212 %guard.id%
 ~
@@ -770,6 +772,7 @@ attach 12212 %guard.id%
 Убили мужичков 3~
 0 f 100
 ~
+return 0
 calcuid guard 12216 mob
 attach 12212 %guard.id%
 ~

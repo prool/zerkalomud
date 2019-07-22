@@ -166,11 +166,13 @@ detach 11806 %self.id%
 ~
 if (%actor.realroom% == 11819)
   oecho Святая земля вспыхнула ярким светом и тьма развеялась.
-  calcuid voron 11811 mob
-  attach 11806 %voron.id%
+  if (%exist.mob(11811)%)
+    calcuid voron 11811 mob
+    attach 11806 %voron.id%
+  end
+  wait 1
+  opurge %self%
 end
-wait 1
-opurge %self%
 ~
 #11808
 Приветствие монахини 2~
@@ -202,10 +204,8 @@ switch %random.28%
     дать все %actor.name%
   break
   case 4
-    if %world.curobjs(3305)% < 2  
-      mload obj 3305
-      дать перст %actor.name%
-    end
+    mload obj 103
+    дать чекуш %actor.name%
   break
   case 5
     case 6

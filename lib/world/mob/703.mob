@@ -18,6 +18,8 @@ b0d0g0l0n0o0p0r0t0u0x0i2 d0k0r0C0 0 E
 0d0+1500 600000
 6 6 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
+Absorbe: 33
 BareHandAttack: 8
 Str: 35
 Dex: 35
@@ -76,6 +78,7 @@ d0f0g0m0n0o0r0x0 d0k0r0A0 -600 E
 Saves: -15 0 0 0
 Resistances: 5 5 5 5 5 5 5
 Armour: 15
+Absorbe: 29
 BareHandAttack: 4
 Str: 17
 Dex: 18
@@ -113,6 +116,7 @@ d0f0g0m0n0o0r0 d0k0r0A0 -600 E
 Saves: -13 0 0 0
 Resistances: 4 4 4 4 4 4 4
 Armour: 13
+Absorbe: 29
 BareHandAttack: 4
 Str: 17
 Dex: 17
@@ -150,7 +154,7 @@ d0f0g0m0n0o0r0 d0k0r0A0 -600 E
 Saves: -10 0 0 0
 Resistances: 2 2 2 2 2 2 2
 Armour: 5
-Absorbe: 5
+Absorbe: 27
 BareHandAttack: 4
 Str: 10
 Dex: 10
@@ -188,6 +192,8 @@ b0d0f0g0m0n0o0p0t0x0 d0k0r0A0C0 -600 E
 Saves: -30 -18 -18 -18
 Resistances: 15 15 15 15 15 15 15
 Armour: 35
+CastSuccess: 26
+Absorbe: 33
 Str: 30
 Dex: 13
 Int: 18
@@ -259,6 +265,7 @@ d0f0g0m0n0o0r0x0 d0k0r0A0 -600 E
 Saves: -20 0 0 0
 Resistances: 10 10 10 10 10 10 10
 Armour: 20
+Absorbe: 29
 Str: 25
 Dex: 23
 Int: 17
@@ -295,6 +302,7 @@ d0f0g0m0n0o0r0x0 d0k0r0A0 -600 E
 Saves: -35 0 0 0
 Resistances: 17 17 17 17 17 17 17
 Armour: 36
+Absorbe: 29
 Str: 25
 Dex: 23
 Int: 17
@@ -331,7 +339,7 @@ d0f0g0m0n0o0r0x0 d0k0r0A0 -600 E
 Saves: -30 0 0 0
 Resistances: 20 20 20 20 20 20 20
 Armour: 38
-Absorbe: 5
+Absorbe: 30
 Str: 25
 Dex: 23
 Int: 17
@@ -367,6 +375,7 @@ d0g0h0m0n0o0 d0k0r0 -600 E
 8 8 1
 Saves: -15 0 0 0
 Armour: 35
+Absorbe: 29
 BareHandAttack: 10
 Str: 18
 Dex: 19
@@ -403,6 +412,7 @@ b0d0f0g0n0o0x0c1 d0k0r0 -600 E
 8 8 1
 Saves: -30 0 0 0
 Armour: 20
+Absorbe: 29
 BareHandAttack: 4
 Str: 25
 Dex: 20
@@ -441,7 +451,7 @@ b0d0g0m0n0o0x0 d0k0r0 -600 E
 Saves: -20 0 0 0
 Resistances: 6 6 6 6 6 6 6
 Armour: 40
-Absorbe: 10
+Absorbe: 30
 BareHandAttack: 6
 Str: 25
 Dex: 23
@@ -479,7 +489,7 @@ b0d0g0m0n0o0x0 d0k0r0 -600 E
 Saves: -30 0 0 0
 Resistances: 15 15 15 15 15 15 15
 Armour: 40
-Absorbe: 8
+Absorbe: 30
 BareHandAttack: 6
 Str: 25
 Dex: 22
@@ -517,7 +527,7 @@ b0d0g0m0n0o0x0 d0k0r0 -600 E
 Saves: -30 0 0 0
 Resistances: 6 6 6 6 6 6 6
 Armour: 35
-Absorbe: 5
+Absorbe: 30
 Str: 21
 Dex: 18
 Int: 14
@@ -553,6 +563,7 @@ d0g0h0m0n0o0 d0k0r0 -600 E
 8 8 1
 Saves: -15 0 0 0
 Armour: 15
+Absorbe: 29
 BareHandAttack: 14
 Str: 17
 Dex: 18
@@ -591,6 +602,7 @@ d0g0h0m0n0o0 d0k0r0 -600 E
 8 8 2
 Saves: -25 0 0 0
 Armour: 35
+Absorbe: 29
 BareHandAttack: 13
 Str: 18
 Dex: 20
@@ -629,6 +641,7 @@ Saves: -40 -10 -10 -10
 Resistances: 9 9 9 9 9 9 9
 Armour: 9
 Success: 5
+Absorbe: 30
 Str: 10
 Dex: 10
 Int: 10
@@ -681,7 +694,8 @@ b0d0f0g0n0o0x0 d0f0k0r0x0C0 -600 E
 Saves: -30 -10 -10 -10
 Resistances: 9 9 9 9 9 9 9
 Armour: 20
-Absorbe: 9
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 4
 Str: 25
 Dex: 23
@@ -751,6 +765,7 @@ b0d0g0n0o0p0q0r0t0u0 d0k0x0 -600 E
 12 0 0 10d10+1111 20d20+0
 0d0+0 10000
 6 6 1
+Absorbe: 12
 BareHandAttack: 4
 Str: 10
 Dex: 10
@@ -788,7 +803,8 @@ b0d0f0g0n0o0p0q0r0t0u0 d0k0r0 -600 E
 Saves: -40 -10 -10 -10
 Resistances: 10 10 10 10 5 5 5
 Armour: 40
-Absorbe: 15
+CastSuccess: 20
+Absorbe: 31
 Str: 30
 Dex: 13
 Int: 15
@@ -808,6 +824,7 @@ Skill: 21 90
 Skill: 165 90
 E
 T 70330
+T 70329
 #70319
  смешной медведь~
 смешной медведь~
@@ -825,6 +842,7 @@ b0d0g0l0n0o0x0q1i2 d0k0r0C0 -600 E
 30 2 -6 9d9+3500 18d18+8
 0d0+0 320000
 8 8 1
+Absorbe: 30
 BareHandAttack: 6
 Str: 33
 Dex: 30
@@ -862,6 +880,7 @@ b0d0g0l0n0o0x0q1 d0k0r0C0 -600 E
 30 0 -6 8d8+2900 17d17+0
 0d0+0 270000
 8 8 2
+Absorbe: 30
 BareHandAttack: 8
 Str: 10
 Dex: 10
@@ -898,6 +917,7 @@ b0d0l0n0o0x0q1 d0k0r0C0 -600 E
 30 0 -6 8d8+2900 17d17+5
 0d0+0 270000
 8 8 1
+Absorbe: 30
 BareHandAttack: 4
 Str: 24
 Dex: 20
@@ -933,6 +953,7 @@ b0d0g0l0n0o0x0q1 d0k0r0C0 -600 E
 29 0 -8 8d8+2600 18d17+8
 0d0+0 250000
 8 8 1
+Absorbe: 29
 BareHandAttack: 1
 Str: 30
 Dex: 25
@@ -981,7 +1002,7 @@ d0f0g0h0m0n0o0A0 d0k0r0 -600 E
 Saves: -20 0 0 0
 Resistances: 3 3 3 3 0 0 0
 Armour: 25
-Absorbe: 5
+Absorbe: 29
 BareHandAttack: 7
 Str: 18
 Dex: 18
@@ -1018,7 +1039,7 @@ b0d0f0g0m0n0o0x0A0 d0k0r0C0 -600 E
 8 8 1
 Saves: -20 0 0 0
 Armour: 20
-Absorbe: 10
+Absorbe: 29
 BareHandAttack: 11
 Str: 18
 Dex: 18
@@ -1057,7 +1078,7 @@ b0d0f0g0m0n0o0x0A0 d0k0r0C0 -600 E
 8 8 1
 Saves: -20 0 0 0
 Armour: 20
-Absorbe: 10
+Absorbe: 29
 BareHandAttack: 9
 Str: 18
 Dex: 25
@@ -1097,7 +1118,7 @@ b0d0f0g0m0n0o0x0A0 d0k0r0C0 -600 E
 8 8 1
 Saves: -20 0 0 0
 Armour: 20
-Absorbe: 10
+Absorbe: 29
 BareHandAttack: 7
 Str: 18
 Dex: 18
@@ -1136,7 +1157,7 @@ b0d0f0g0m0n0o0x0A0 d0k0r0C0 -600 E
 8 8 1
 Saves: -20 0 0 0
 Armour: 20
-Absorbe: 10
+Absorbe: 29
 BareHandAttack: 3
 Str: 18
 Dex: 18
@@ -1175,7 +1196,7 @@ b0d0f0g0m0n0o0x0 d0h0k0r0C0 -600 E
 Saves: -25 0 0 0
 Resistances: 1 1 1 1 0 0 0
 Armour: 25
-Absorbe: 11
+Absorbe: 29
 Str: 30
 Dex: 13
 Int: 18
@@ -1215,7 +1236,7 @@ d0f0g0m0n0o0x0 d0k0r0C0 -600 E
 8 8 1
 Saves: -25 0 0 0
 Armour: 25
-Absorbe: 12
+Absorbe: 29
 BareHandAttack: 11
 Str: 20
 Dex: 20
@@ -1254,7 +1275,7 @@ b0d0g0m0n0o0x0 d0k0r0C0 -600 E
 8 8 1
 Saves: -25 0 0 0
 Armour: 25
-Absorbe: 12
+Absorbe: 29
 BareHandAttack: 9
 Str: 20
 Dex: 27
@@ -1293,7 +1314,7 @@ d0f0m0n0o0x0 d0k0r0C0 -600 E
 8 8 1
 Saves: -25 0 0 0
 Armour: 25
-Absorbe: 12
+Absorbe: 29
 BareHandAttack: 7
 Str: 20
 Dex: 20
@@ -1333,7 +1354,7 @@ d0f0m0n0o0x0 d0k0r0C0 -600 E
 8 8 1
 Saves: -25 0 0 0
 Armour: 25
-Absorbe: 12
+Absorbe: 29
 BareHandAttack: 3
 Str: 20
 Dex: 20
@@ -1372,7 +1393,7 @@ b0d0f0m0n0o0x0 d0h0k0r0C0 -600 E
 8 8 1
 Saves: -30 0 0 0
 Armour: 30
-Absorbe: 15
+Absorbe: 30
 Str: 30
 Dex: 15
 Int: 20
@@ -1415,7 +1436,7 @@ d0f0m0n0o0t0x0 d0k0r0C0 -600 E
 8 8 1
 Saves: -30 0 0 0
 Armour: 30
-Absorbe: 15
+Absorbe: 30
 BareHandAttack: 11
 Str: 22
 Dex: 22
@@ -1453,7 +1474,7 @@ d0f0m0n0o0t0x0 d0k0r0C0 -600 E
 8 8 1
 Saves: -30 0 0 0
 Armour: 30
-Absorbe: 15
+Absorbe: 30
 BareHandAttack: 9
 Str: 22
 Dex: 29
@@ -1491,7 +1512,7 @@ d0f0m0n0o0t0x0 d0k0r0C0 -600 E
 8 8 1
 Saves: -30 0 0 0
 Armour: 30
-Absorbe: 15
+Absorbe: 30
 BareHandAttack: 7
 Str: 22
 Dex: 22
@@ -1529,7 +1550,7 @@ d0f0m0n0o0t0x0 d0k0r0C0 0 E
 8 8 1
 Saves: -30 0 0 0
 Armour: 30
-Absorbe: 15
+Absorbe: 30
 BareHandAttack: 3
 Str: 22
 Dex: 22
@@ -1567,7 +1588,8 @@ b0d0f0m0n0o0t0x0 d0h0k0r0C0 -600 E
 8 8 1
 Saves: -40 -10 -10 -10
 Armour: 40
-Absorbe: 25
+CastSuccess: 20
+Absorbe: 31
 Str: 30
 Dex: 17
 Int: 22
@@ -1612,7 +1634,8 @@ b0d0f0l0m0n0o0t0x0 d0h0k0r0C0 -600 E
 Saves: -40 -15 -15 -15
 Resistances: 15 15 15 15 15 15 15
 Armour: 55
-Absorbe: 30
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 6
 Str: 30
 Dex: 21
@@ -1656,7 +1679,7 @@ b0c0d0f0l0m0n0o0x0A0 d0k0r0C0 -600 E
 Saves: -30 -5 -5 -5
 Resistances: 8 8 8 8 8 8 8
 Armour: 35
-Absorbe: 20
+Absorbe: 30
 BareHandAttack: 7
 Str: 30
 Dex: 13
@@ -1695,6 +1718,7 @@ b0d0f0l0m0n0o0x0 d0k0r0C0 -600 E
 8 8 2
 Saves: -15 0 0 0
 Armour: 15
+Absorbe: 29
 Str: 26
 Dex: 18
 Int: 10
@@ -1736,7 +1760,7 @@ b0c0d0f0l0m0n0o0x0A0 d0k0r0C0 -600 E
 8 8 1
 Saves: -15 0 0 0
 Armour: 15
-Absorbe: 15
+Absorbe: 29
 Str: 28
 Dex: 18
 Int: 12
@@ -1772,7 +1796,8 @@ b0d0f0l0m0n0o0t0x0A0 d0h0k0r0C0 -600 E
 8 8 1
 Saves: -50 -18 -18 -18
 Armour: 45
-Absorbe: 25
+CastSuccess: 26
+Absorbe: 33
 Str: 30
 Dex: 19
 Int: 24
@@ -1811,7 +1836,7 @@ b0d0f0l0m0n0o0x0A0 d0k0r0C0 -600 E
 5 5 1
 Saves: -30 0 0 0
 Armour: 30
-Absorbe: 10
+Absorbe: 30
 Str: 23
 Dex: 28
 Int: 13
@@ -1848,7 +1873,7 @@ b0c0d0f0m0n0o0x0 d0k0r0C0 -600 E
 5 5 1
 Saves: -15 0 0 0
 Armour: 15
-Absorbe: 15
+Absorbe: 29
 BareHandAttack: 4
 Str: 22
 Dex: 18
@@ -1885,7 +1910,7 @@ b0c0d0f0l0m0n0o0t0x0A0 d0k0r0C0 -600 E
 5 5 1
 Saves: -25 0 0 0
 Armour: 25
-Absorbe: 15
+Absorbe: 30
 Str: 25
 Dex: 13
 Int: 25
@@ -1940,14 +1965,15 @@ T 70338
 b0d0f0g0l0m0n0o0t0x0 d0k0r0A0C0 -600 E
 33 0 -9 1d1+3900 16d14+15
 0d0+1000 600000
-5 8 1
+5 5 1
 Saves: -45 -20 -20 -20
 Resistances: 15 15 15 15 15 15 15
 HPreg: 55
 Armour: 45
+CastSuccess: 26
 Success: 5
 Initiative: 5
-Absorbe: 15
+Absorbe: 33
 BareHandAttack: 11
 Str: 24
 Dex: 20
@@ -1997,6 +2023,7 @@ Saves: -65 -20 -20 -20
 Resistances: 20 20 20 20 20 20 20
 HPreg: 35
 Armour: 55
+CastSuccess: 26
 Success: 6
 Initiative: 6
 Absorbe: 33
@@ -2018,6 +2045,7 @@ Skill: 136 150
 Skill: 157 150
 Skill: 167 150
 E
+T 70378
 T 70332
 #70349
 наемный молодец Вася~
@@ -2038,7 +2066,8 @@ b0c0d0f0l0m0n0o0t0x0A0g2 d0k0r0C0 -600 E
 8 8 1
 Saves: -25 -10 -10 -10
 Armour: 35
-Absorbe: 10
+CastSuccess: 20
+Absorbe: 31
 Str: 25
 Dex: 13
 Int: 25
@@ -2076,6 +2105,8 @@ b0c0d0f0l0m0n0o0t0x0A0g2 d0k0r0C0 -600 E
 8 8 1
 Saves: -35 -10 -10 -10
 Armour: 35
+CastSuccess: 20
+Absorbe: 31
 Str: 25
 Dex: 13
 Int: 25
@@ -2112,6 +2143,7 @@ b0d0g0 d0f0k0 -600 E
 12 0 0 10d10+10000 0d0+0
 0d0+0 10000
 8 8 1
+Absorbe: 12
 Str: 18
 Dex: 10
 Int: 23
@@ -2148,6 +2180,8 @@ b0d0l0n0o0p0q0r0t0u0x0i2 c0d0e0f0k0n0r0s0z0A0C0a1 -600 E
 0d0+0 1000000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 35
+Absorbe: 36
 BareHandAttack: 6
 Str: 35
 Dex: 25
@@ -2207,7 +2241,7 @@ b0d0n0o0 d0k0 0 E
 8 8 1
 Saves: -25 0 0 0
 Armour: 25
-Absorbe: 16
+Absorbe: 29
 BareHandAttack: 4
 Str: 10
 Dex: 10

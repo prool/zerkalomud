@@ -34,7 +34,7 @@ eval dam %amount%*(100 - %self.level%)/100
 eval dam %dam%-(%self.level%/2)
 eval reg %amount%-%dam%
 if %dam% > 0
-  eval buf %self.hitp(+%reg)%
+  eval buf %self.hitp(+%reg%)%
   return %dam%
 else
   return 0
@@ -187,15 +187,15 @@ if %random.20% < 5
   set naem 0            
   *проверяем если ли в группе наемник 29+ без осторожки
   foreach chr %actor.group%
-    if %chr.class% == 4 && %chr.level% > 28 && !%actor.skill(осторожн)%
+    if (%chr.class% == 4 && %chr.level% > 28 && !%chr.skill(осторожн)%)
       set naem %chr%
     end          
   done   
   *если наемник 29+ без осторожки есть - то он ее получает
-  if %naem%
+  if %naem.iname%
     mechoaround %naem% Божественный свет пролился на %naem.vname%!
     msend %naem% Внутри себя Вы услышали громовой голос Перуна!
-    mskillturn %naem.name% осторожн set 
+    mskillturn %naem% осторожн set 
     *иначе лоадится либо руна власти либо руна погибели с равной вероятностью!
   elseif %random.2% == 1
     mload obj 220

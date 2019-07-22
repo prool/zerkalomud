@@ -216,7 +216,8 @@ if %object.vnum% == 91400 then
   mecho Резко изменивший направление ветер подхватил Вас и понес вперед.
   mdoor 91497 east room 91550
   wait 1s
-  mteleport all 91550 horse
+  mat 91550 mecho Кто-то прилетел сюда на крыльях ветра.
+  mteleport all 91550
   detach 91414 %self.id%
 else
   wait 2s
@@ -288,7 +289,7 @@ while %staff% < 110366
     eval i %i% - 1
     wait 2
     calcuid stf %staff% obj
-    opurge stf
+    opurge %stf%
   done
   eval staff %staff%+1
 done

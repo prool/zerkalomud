@@ -3,8 +3,7 @@
 0 c 0
 спеть~
 if !(%arg.contains(колыбельную)%)
-  wsend        %actor%         _Что будем петь?
-  return 0
+  msend %actor% Что будем петь?
   halt
 else
   wait 1s
@@ -34,14 +33,17 @@ end
 Лезем в подвал~
 2 c 0
 лезть ~
-if !(%arg.contains(в подвал)%)
-  wsend       %actor% _Куда лезть-то собрались?
-  return 0
+if !(%arg.contains(подвал)%)
+  wsend %actor% _Куда лезть-то собрались?
   halt
 else
   %actor.wait(2)%
   wsend %actor% _Отбросив в сторону старые бочки, Вы полезли в подвал.
-  wechoaround %actor% _%actor.name% полез%actor.q% в подвал.
+  wechoaround %actor%  Раскидав старые бочки, %actor.name% полез%actor.q% в подвал.
+  if %exist.obj(50120)%
+    calcuid bochki 50120 obj
+    wpurge %bochki%
+  end
   wait 2s
   wteleport %actor% 50180
 end
@@ -51,8 +53,7 @@ end
 2 c 0
 вылезти~
 if !(%arg.contains(из подвала)%)
-  wsend       %actor% _Куда лезть-то собрались?
-  return 0
+  wsend %actor% _Откуда это вы собираетесь вылазить?
   halt
 else
   %actor.wait(2)%
@@ -211,6 +212,7 @@ switch %random.8%
   calcuid cavern 50180 room
   remote number %cavern.id%
   global exit
+  wat %number% wload obj 50120
 ~
 #50108
 Лоад стражей 2~

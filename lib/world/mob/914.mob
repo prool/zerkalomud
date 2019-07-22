@@ -111,6 +111,7 @@ c0d0f0g0l0m0n0o0t0x0A0b1i2 d0f0k0r0C0m1t1 -600 E
 1d1+100 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 BareHandAttack: 6
 Str: 36
 Dex: 14
@@ -154,10 +155,11 @@ L 1485 14 0 0
 Исполинское порождение льда, припорошенное землей и глиной.
 ~
 c0d0f0g0l0m0n0o0A0b1i2 d0f0k0r0C0m1q1z1 -600 E
-33 1 -8 30d40+3000 20d15+50
+35 1 -8 30d40+3000 20d15+50
 1d1+100 800000
 8 8 1
-Saves: -18 -18 -18 -18
+Saves: -26 -26 -26 -26
+CastSuccess: 32
 BareHandAttack: 6
 Str: 36
 Dex: 14
@@ -203,6 +205,7 @@ b0d0f0l0m0n0o0p0t0 d0f0k0n0r0m1t1 -600 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 1
 Str: 35
 Dex: 18
@@ -251,6 +254,7 @@ d0f0g0m0n0o0p0t0 d0f0k0p0r0m1 -600 E
 0d0+0 400000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 1
 Str: 32
 Dex: 15
@@ -370,6 +374,7 @@ c0d0f0g0n0o0x0A0b1 d0f0k0n0r0C0m1q1z1 -600 E
 1d1+100 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 6
 Str: 34
 Dex: 14
@@ -414,6 +419,7 @@ c0d0f0g0n0o0t0x0A0b1 d0f0k0r0C0m1t1 -600 E
 1d1+100 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 6
 Str: 34
 Dex: 14
@@ -552,6 +558,7 @@ b0d0l0n0o0p0q0t0u0s1i2 d0f0k0r0t1 -600 E
 1d1+100 490000
 8 8 2
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 Str: 24
 Dex: 20
 Int: 40
@@ -599,9 +606,9 @@ Spell: 82
 Spell: 82
 Spell: 89
 Spell: 89
-Helper: 91413
-Helper: 91414
 Helper: 91415
+Helper: 91414
+Helper: 91413
 E
 T 91409
 T 91416
@@ -707,6 +714,7 @@ b0d0f0g0m0n0o0 d0k0C0 -600 E
 1d1+100 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 Str: 32
 Dex: 14
 Int: 8
@@ -749,6 +757,7 @@ b0d0f0n0o0 d0f0k0r0m1 -600 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 7
 Str: 25
 Dex: 18
@@ -894,6 +903,7 @@ b0d0f0n0o0 d0f0k0r0m1 -600 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 7
 Str: 25
 Dex: 18
@@ -991,6 +1001,7 @@ d0f0g0n0o0t0 f0k0r0m1 -600 E
 0d0+0 650000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 BareHandAttack: 9
 Str: 20
 Dex: 24
@@ -1060,6 +1071,7 @@ d0f0g0l0n0o0p0A0 d0f0g0k0r0C0D0m1q1 -600 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 AResist: 30
 Destination: 91409
 Destination: 91420

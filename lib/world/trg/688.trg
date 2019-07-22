@@ -170,7 +170,7 @@ detach 68807 %self.id%
 ~
 if %object.iname% == маленький мешочек
   wait 1
-  mpurge мешочек
+  mpurge %object%
   msend %actor%  Шустрый отрок кивнул.
   msend %actor% _- Отлично!
   msend %actor% _- Как раз вовремя.

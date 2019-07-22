@@ -3,71 +3,72 @@
 0 j 100
 ~
 wait 2
-switch %object.name% 
+switch %object.name%
   case труп мыши
-    say  Благодарствую, ты меня выручаешь, получи плату. 
+    say  Благодарствую, ты меня выручаешь, получи плату.
     %self.gold(+1)%
     дать 1 кун %actor.name%
-    mpurge труп 
+    mpurge %object%
   break
   case труп норки
-    say    Благодарствую, получится хорошая шкурка на шубу, получи плату. 
+    say    Благодарствую, получится хорошая шкурка на шубу, получи плату.
     %self.gold(+20)%
     дать   20 кун %actor.name%
-    mpurge труп 
+    mpurge %object%
   break
   case труп лисы
-    say    Благодарствую, получится хорошая шкурка на шубу, получи плату. 
+    say    Благодарствую, получится хорошая шкурка на шубу, получи плату.
     %self.gold(+30)%
     дать   30 кун %actor.name%
-    mpurge труп 
+    mpurge %object%
   break
   case труп медведя
-    say    Благодарствую, получится превосходный тулуп, получи плату. 
+    say    Благодарствую, получится превосходный тулуп, получи плату.
     %self.gold(+80)%
     дать   80 кун %actor.name%
-    mpurge труп 
+    mpurge %object%
   break
   case труп зайца
-    say    Благодарствую, получится хорошая шапка, получи плату. 
+    say    Благодарствую, получится хорошая шапка, получи плату.
     %self.gold(+10)%
     дать   10 кун %actor.name%
-    mpurge труп 
+    mpurge %object%
   break
   case труп ондатры
-    say    Благодарствую, получится хороший воротник, получи плату. 
+    say    Благодарствую, получится хороший воротник, получи плату.
     %self.gold(+40)%
     дать   40 кун %actor.name%
-    mpurge труп 
+    mpurge %object%
   break
   case труп бобра
-    say    Благодарствую, хороший мех, получи плату. 
+    say    Благодарствую, хороший мех, получи плату.
     %self.gold(+25)%
     дать   25 кун %actor.name%
-    mpurge труп 
+    mpurge %object%
   break
   case труп барсука
-    say    Благодарствую, хороший мех, получи плату. 
+    say    Благодарствую, хороший мех, получи плату.
     %self.gold(+25)%
     дать   25 кун %actor.name%
-    mpurge труп 
+    mpurge %object%
   break
   case труп выдры
-    say    Благодарствую, хороший мех, получи плату. 
+    say    Благодарствую, хороший мех, получи плату.
     %self.gold(+22)%
     дать   22 кун %actor.name%
-    mpurge труп 
+    mpurge %object%
   break
   default
-    say  Зачем мне это? 
+    say  Зачем мне это?
     eval getobject %object.name%
     if  %getobject.car% == труп
-      mpurge труп
+      mpurge %object%
     else
       броси %getobject.car%.%getobject.cdr%
     end
   break
-done 
+done
+
 ~
 #4001
 триггер на хозяйке мельницы ~
@@ -93,6 +94,7 @@ if (%actor.level% < 10 && (%actor.gold% < 20) && (%actor.bank% < 20))
   msend %actor% - Сейчас, подожди...
   dg_cast 'насыщение' %actor.name%
 end
+
 ~
 #4002
 входнапостой~
@@ -131,6 +133,7 @@ while %factor%
     unset factor
   end
 done
+
 ~
 #4003
 нападениежителя~
@@ -163,7 +166,7 @@ if %name2.hitp%>0
   mteleport %name2% 4058
   *mat 4058 mechoaround %name2% Решетка в яме открылась и %name2.name% упал%name2.a% сверху в яму.
   *mat 4058 mechoaround %name2% Кто-то сильно руганулся, помянул всех родственников %actor.rname% до десятого колена.
-  *mat 4058 mechoaround %name2% Кто-то сверху сказал: 
+  *mat 4058 mechoaround %name2% Кто-то сверху сказал:
   *mat 4058 mechoaround %name2% Посиди здесь пока не успокоишься.
   *wait 1
   *if %name2.sex%==1
@@ -172,6 +175,7 @@ if %name2.hitp%>0
   *mat 4058 mechoaround %name2% Да, если хочешь выйти говори: простите меня дуру, может и выпущу.
   *end
 end
+
 ~
 #4004
 выходаизямы~
@@ -198,17 +202,15 @@ else
   wsend %actor% Никто не прореагировал на ваши слова.
   wsend %actor% Наверное не очень искренне все прозвучало, повторите с чувством.
 end
+
 ~
 #4005
-призовой триг на лисе~
-0 j 100
-~
+Тестовый триггер~
+0 c 1
+нан наня нанят нанять нанять!~
 wait 1
-say Владелец предмета - %object.owner%
-set id 0
-%object.owner(%id%)%
-give %object.name% .%actor.name%
-drop all
+say Сработало
+
 ~
 #4006
 ПКиллер заходит к помощникам~
@@ -243,8 +245,9 @@ if %agr% == 1
     крича %actor.name%, мерзавка, хватай ее! Вяжи ее!
   end
   Крича %actor.name% - вот он%actor.g% где, хватай, ребяты!
-  mkill %actor% 
+  mkill %actor%
 end
+
 ~
 #4007
 Помощник заходик к ПКиллеру~
@@ -285,14 +288,15 @@ end
 Крича %target.name% - вот он%target.g% где, хватай, ребяты!
 появ
 mforce %target.name% трепет
-mkill %target% 
+mkill %target%
+
 ~
 #4008
 Пьянка~
 0 b 18
 ~
 stand
-switch %random.36%
+switch %random.38%
   case 1
     пук
   break
@@ -354,7 +358,7 @@ switch %random.36%
     орать Люди злы как прокуроры, дух печального конца. От тоски у всех запоры и землистый цвет лица
   break
   case 16
-    орать Царевич жил с лягушкой, как с женою,- Декомпенсированный извращенец, На сивом мерине катался, параноик, Любил других лягушек, многоженец. 
+    орать Царевич жил с лягушкой, как с женою,- Декомпенсированный извращенец, На сивом мерине катался, параноик, Любил других лягушек, многоженец.
   break
   case 17
     орать Я хожу простой, но гордый, С девальвированной мордой С тягой к чистому искусству, с аллергией на козлов...
@@ -363,7 +367,7 @@ switch %random.36%
     say Здравствуй, моя Мурка, здравствуй, дорогая...
   break
   case 19
-    say Здравствуй, моя Мурка, здравствуй, дорогая, Здравствуй, Мура-Мурочка моя... 
+    say Здравствуй, моя Мурка, здравствуй, дорогая, Здравствуй, Мура-Мурочка моя...
   break
   case 20
     ора Покайтесь  паразиты! Куды рыжего дели?!
@@ -397,7 +401,7 @@ switch %random.36%
   case 29
     eval drgold %self.gold%/10
     drop %drgold% кун
-    г Берите! Все берите!!! 
+    г Берите! Все берите!!!
     emot истово рванул%actor.q% рубаху на груди
   break
   case 30
@@ -419,9 +423,16 @@ switch %random.36%
     гс Если взять того ужа, два заточенных ножа... Впрочм, он помрет наверно - но идея хороша!
   break
   case 36
-    гс Об Йожа! Куда ни падыдешь - так ыть и об йожа! Йожимаффффиа!! Йоожжы запалаонили фсе! 
+    гс Об Йожа! Куда ни падыдешь - так ыть и об йожа! Йожимаффффиа!! Йоожжы запалаонили фсе!
+  break
+  case 37
+    ора Да вы что - с ума сдурели? Там одних реколов тонн десять!!!
+  break
+  case 38
+    ора Есть кто-нить с фликом прокачанным?
   break
 done
+
 ~
 #4009
 Скиллы~
@@ -429,6 +440,7 @@ done
 скилл~
 log &CСработал триг на выдачу скиллов - %actor.name% - %actor.realroom%&n
 oecho Чититят только колзы и педерасты.
+
 ~
 #4010
 Подключение ПЬЯНКИ~
@@ -443,12 +455,14 @@ oechoaround %actor% %actor.name% открыл%actor.g% книгу пьянки - крепкий винный з
 attach 4008 %actor.id%
 wait 1
 opurge %self%
+
 ~
 #4011
 Тест портала~
 2 z 100
 ~
 wportal 50040 2
+
 ~
 #4012
 Подобрали книжку~
@@ -457,12 +471,20 @@ wportal 50040 2
 wait 1
 oforce %actor% прочитать книгу
 osend %actor% Вы принялись читать книгу.
+
+~
+#4013
+новый тригер 4013~
+2 c 100
+сделай~
+%arg%
 ~
 #4014
 Экспа~
 0 f 100
 ~
 log вызван читерный триггер на прибавление экспы, юзавший %actor.name%
+
 ~
 #4015
 Рента~
@@ -472,6 +494,7 @@ wait 1
 %actor.loadroom(60036)%
 mteleport %actor% 60036
 log Рента - %actor.name%
+
 ~
 #4016
 Крысса жретЪ~
@@ -485,6 +508,7 @@ if %item%
   wait 1
   mpurge %item%
 end
+
 ~
 #4017
 Крыса спаит~
@@ -520,12 +544,14 @@ switch %random.8%
     emot достала откуда-то три цветочных горшка и водрузила на подоконник
   break
 done
+
 ~
 #4018
 Падальщик воет~
 0 b 15
 ~
 крича Ууууууууу!!!
+
 ~
 #4019
 Крыса жрет стаф~
@@ -535,6 +561,7 @@ foreach item %self.objs%
   mecho %item.name%
   wait 1
 done
+
 ~
 #4020
 Сказитель рассказывает сказки~
@@ -570,6 +597,7 @@ switch %actor.class%
     say То ли было, то ли не было, толь недавно, толь давнёшенько...
     msend %actor% Вы заслушались сказочника и ваши мысли сами собой побежали за его словами.
     mechoaround %actor% Странный туман скрыл %actor.vname% и сказочника.
+    log %actor.iname% отправил%actor.u% в сказку богатыря (12200)
     mteleport %actor% 12200
     set fighterstory 1
     worlds fighterstory
@@ -591,9 +619,76 @@ switch %actor.class%
     say За лесами, за полями, да за синими морями...
     msend %actor% Вы заслушались сказочника и ваши мысли сами собой побежали за его словами.
     mechoaround %actor% Странный туман скрыл %actor.vname% и сказочника.
+    log %actor.iname% отправил%actor.u% в сказку волшебника (12800)
     mteleport %actor% 12800
     set defendermagestory 1
     worlds defendermagestory
+    halt
+  break
+  case 8
+    if %actor.quested(5900)%
+      say Тебе я уже рассказывал сказку, надо и другим оставить.
+      хих
+      halt
+    end
+    if (%warlockstory% == 1)
+      wait 1s
+      say Устал я... Передохну малость.
+      say Подходи через денек - утро вечера мудренее..
+      halt
+    end
+    say Сказку... Ну что же, слушай.
+    say За лесами, за полями, да за синими морями...
+    msend %actor% Вы заслушались сказочника и ваши мысли сами собой побежали за его словами.
+    mechoaround %actor% Странный туман скрыл %actor.vname% и сказочника.
+    log %actor.iname% отправил%actor.u% в сказку чернокнижника (5900)
+    mteleport %actor% 5900
+    set warlockstory 1
+    worlds warlockstory
+    halt
+  break
+  case 10
+    if %actor.quested(6500)%
+      say Тебе я уже рассказывал сказку, надо и другим оставить.
+      хих
+      halt
+    end
+    if (%hunterstory% == 1)
+      wait 1s
+      say Устал я... Передохну малость.
+      say Подходи через денек - утро вечера мудренее..
+      halt
+    end
+    say Сказку... Ну что же, слушай.
+    say За лесами, за полями, да за синими морями...
+    msend %actor% Вы заслушались сказочника и ваши мысли сами собой побежали за его словами.
+    mechoaround %actor% Странный туман скрыл %actor.vname% и сказочника.
+    log %actor.iname% отправил%actor.u% в сказку охотника (6500)
+    mteleport %actor% 6500
+    set hunterstory 1
+    worlds hunterstory
+    halt
+  break
+  case 11
+    if %actor.quested(14000)%
+      say Тебе я уже рассказывал сказку, надо и другим оставить.
+      хих
+      halt
+    end
+    if (%smithstory% == 1)
+      wait 1s
+      say Устал я... Передохну малость.
+      say Подходи через денек - утро вечера мудренее..
+      halt
+    end
+    say Сказку... Ну что же, слушай.
+    say За лесами, за полями, да за синими морями...
+    msend %actor% Вы заслушались сказочника и ваши мысли сами собой побежали за его словами.
+    mechoaround %actor% Странный туман скрыл %actor.vname% и сказочника.
+    log %actor.iname% отправил%actor.u% в сказку кузнеца (14000)
+    mteleport %actor% 14000
+    set smithstory 1
+    worlds smithstory
     halt
   break
   case 13
@@ -612,6 +707,7 @@ switch %actor.class%
     say Во времена стародавние, в лета былинные...
     msend %actor% Вы заслушались сказочника и ваши мысли сами собой побежали за его словами.
     mechoaround %actor% Странный туман скрыл %actor.vname% и сказочника.
+    log %actor.iname% отправил%actor.u% в сказку волхва (12900)
     mteleport %actor% 12900
     set druidstory 1
     worlds druidstory
@@ -620,117 +716,99 @@ switch %actor.class%
 done
 say Извини, для тебя у меня нет сказки...
 взд
-~
-#4055
-умер дурачок~
-0 f 100
-~
-mload mob 4010
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-%actor.exp(+18000000)%
-~
-#4056
-new trigger~
-0 cg 100
-*~
 
 ~
-$~
+#4021
+дали куны цыгану4028~
+0 m 1
+~
+if %actor.vnum% != -1
+  halt
+end
+eval needgold %actor.level%
+if %amount% < %needgold%
+  дать %amount% кун %actor.name%
+  tell %actor.name% Маловато будет!
+else
+  mecho Цыган обернулся куда-то к кустам и громко свистнул.
+  mecho Из-за кустов выскочил цыганенок с телегой.
+  msend %actor.name% С ветерком довезут, глазом моргнуть не успеешь!
+  msend %actor% Цыганенок быстро подвел Вам телегу.
+  mechoaround %actor% %actor.iname% влез%actor.q% на телегу.
+  mecho Цыганенок крикнул: А ну залетные!
+  wait 1
+  mteleport %actor.name% 5052 horse
+  wait 1
+  msend %actor% Не успели Вы и глазом моргнуть, уже приехали!
+  msend %actor% Цыганенок быстро развернул телегу и умчался обратно.
+  mechoaround %actor% %actor.iname% слез%actor.q% с подъехавшей телеги.
+  mechoaround %actor% Телега развернулась и умчалась прочь.
+end
+
+~
+#4022
+цыган4028 встречает~
+0 g 100
+~
+tell %actor.name% Хочешь довезут тебя до одного места, сам туда ты не проберешься!
+eval needgold %actor.level%
+tell %actor.name% Всего-то кун эдак %needgold% и ты там!
+
+~
+#4023
+Вошли к сказителю~
+0 q 30
+~
+if (!%actor.rentable%)
+  halt
+end
+context 4000
+wait 3
+switch %actor.class%
+  case 3
+    if (!%actor.can_get_skill(ярость)% || %actor.skill(ярость)% || (%fighterstory% == 1) || (%actor.quested(12200)%))
+      halt
+    end
+    set profname Богатырь
+  break
+  case 7
+    if (!%actor.can_get_skill(врата)% || %actor.skill(врата)% || (%defendermagestory% == 1) || (%actor.quested(12800)%))
+      halt
+    end
+    set profname Волшебник
+  break
+  case 8
+    if (!%actor.can_get_spell(поднять труп)% || %actor.spelltype(поднять труп)% || (%warlockstory% == 1) || (%actor.quested(5900)%))
+      halt
+    end
+    set profname Чернокнижник
+  break
+  case 10
+    if (!%actor.can_get_skill(разжечь костер)% || %actor.skill(разжечь костер)% || (%hunterstory% == 1) || (%actor.quested(6500)%))
+      halt
+    end
+    set profname Охотник
+  break
+  case 11
+    if (!%actor.can_get_skill(заточить)% || %actor.skill(заточить)% || (%smithstory% == 1) || (%actor.quested(14000)%))
+      halt
+    end
+    set profname Кузнец
+  break
+  case 13
+    if (!%actor.can_get_skill(сглазить)% || %actor.skill(сглазить)% || (%druidstory% == 1) || (%actor.quested(12900)%))
+      halt
+    end
+    set profname Волхв
+  break
+  default
+    halt
+  break
+done
+%send% %actor% %self.iname%, завидев Вас, широко улыбнулся.
+%send% %actor% %self.iname% сказал : '%profname% - хорошая профессия'
+%send% %actor% %self.iname% сказал : 'Есть у меня одна неплохая сказка про вашего брата'
+
+~
+$
+$

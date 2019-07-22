@@ -15,6 +15,7 @@ b0d0 d0f0k0 0 E
 1 0 0 0d0+100 0d0+10
 0d0+0 1
 8 8 3
+Absorbe: 1
 Size: 50
 Class: 102
 Race: 101
@@ -42,6 +43,7 @@ b0d0 d0f0k0 0 E
 0d0+0 12000
 5 5 1
 HPreg: -30
+Absorbe: 13
 BareHandAttack: 13
 Str: 12
 Dex: 12
@@ -76,6 +78,7 @@ b0d0 d0f0k0 0 E
 0d0+0 15000
 5 5 1
 HPreg: -30
+Absorbe: 14
 BareHandAttack: 4
 Str: 13
 Dex: 13
@@ -110,6 +113,7 @@ b0d0 d0f0k0 0 E
 0d0+0 20000
 5 5 1
 HPreg: -30
+Absorbe: 16
 BareHandAttack: 4
 Str: 15
 Dex: 15
@@ -145,6 +149,7 @@ b0d0 d0f0k0 0 E
 0d0+0 17000
 5 5 2
 HPreg: -30
+Absorbe: 15
 BareHandAttack: 4
 Str: 13
 Dex: 13
@@ -179,6 +184,7 @@ b0d0 d0f0k0 0 E
 1 0 0 0d0+500 1d1+0
 0d0+0 1
 6 6 3
+Absorbe: 1
 Size: 50
 Class: 100
 Race: 100
@@ -203,6 +209,7 @@ d0 0 -600 E
 15 7 2 0d0+350 3d5+0
 3d7+0 17000
 8 8 1
+Absorbe: 15
 Int: 3
 Wis: 3
 Size: 50
@@ -230,6 +237,7 @@ d0 0 -600 E
 15 7 2 0d0+370 3d5+0
 3d6+0 17000
 8 8 1
+Absorbe: 15
 Int: 3
 Wis: 3
 Size: 50
@@ -256,6 +264,7 @@ d0 0 -600 E
 14 5 0 0d0+330 2d4+1
 4d4+0 15000
 8 8 2
+Absorbe: 14
 Str: 12
 Dex: 12
 Int: 5
@@ -287,6 +296,7 @@ b0d0 d0f0k0 -600 E
 4 0 0 0d0+100 1d1+0
 5d8+3000 1000
 8 8 1
+Absorbe: 4
 Size: 50
 ExtraAttack: 1
 Class: 102
@@ -314,6 +324,7 @@ d0 0 -600 E
 16 9 0 0d0+450 4d4+1
 2d8+0 19000
 8 8 1
+Absorbe: 16
 Size: 50
 ExtraAttack: 1
 Class: 102
@@ -339,6 +350,7 @@ d0 0 -600 E
 1d5+0 15000
 8 8 1
 HPreg: -30
+Absorbe: 14
 Size: 50
 Class: 102
 Race: 101
@@ -364,6 +376,7 @@ b0d0f0m0n0q0y0z0t1g2u2 r0 -600 E
 17 7 -1 10d10+300 3d5+4
 0d0+0 25000
 8 8 1
+Absorbe: 17
 BareHandAttack: 14
 Str: 20
 Dex: 22
@@ -405,6 +418,7 @@ b0d0f0m0n0q0y0z0t1g2u2 r0 -600 E
 17 9 -2 10d10+350 3d5+5
 0d0+0 26000
 8 8 1
+Absorbe: 17
 BareHandAttack: 14
 Str: 20
 Dex: 22
@@ -446,6 +460,7 @@ b0d0f0m0n0q0y0z0t1g2u2 r0 -600 E
 17 6 -1 10d10+270 3d5+2
 0d0+0 24000
 8 8 1
+Absorbe: 17
 BareHandAttack: 14
 Str: 20
 Dex: 22
@@ -487,6 +502,7 @@ b0d0f0m0n0q0y0z0t1g2u2 r0 -600 E
 17 6 -1 10d10+250 3d4+0
 0d0+0 24000
 8 8 1
+Absorbe: 17
 BareHandAttack: 14
 Str: 20
 Dex: 22
@@ -535,6 +551,7 @@ d0f0m0n0q0y0z0t1g2u2 r0 -600 E
 17 11 2 10d10+330 3d5+6
 0d0+0 25000
 8 8 1
+Absorbe: 17
 BareHandAttack: 14
 Str: 20
 Dex: 22
@@ -576,6 +593,7 @@ d0f0m0n0q0y0z0t1g2u2 r0 -600 E
 17 6 -1 10d10+275 3d5+0
 0d0+0 23000
 8 8 1
+Absorbe: 17
 BareHandAttack: 14
 Str: 20
 Dex: 22
@@ -617,6 +635,7 @@ d0f0m0n0q0y0z0t1g2u2 r0 -600 E
 16 7 -1 10d10+300 3d5+1
 0d0+0 22000
 8 8 1
+Absorbe: 16
 BareHandAttack: 14
 Str: 20
 Dex: 22
@@ -657,6 +676,7 @@ b0d0n0q0z0t1g2u2 d0f0k0r0 -600 E
 8 1 -5 10d10+100 3d2+0
 0d0+0 3000
 8 8 1
+Absorbe: 8
 BareHandAttack: 14
 Str: 20
 Dex: 22
@@ -695,6 +715,7 @@ b0d0m0n0q0y0z0t1g2u2 d0k0r0 -600 E
 20 9 -3 10d10+400 3d5+3
 0d0+0 40000
 8 8 1
+Absorbe: 20
 BareHandAttack: 14
 Str: 20
 Dex: 22
@@ -734,12 +755,13 @@ T 24820
 колобкобай~
 Колобкобай стоит на помосте, выкрикивает пламенные речи.
 ~
-Это не простой колобок - это духовный и идеалогический рупор главного колобка.
+Это не простой колобок - это духовный и идеологический рупор главного колобка.
 ~
 b0d0n0p0q0x0y0z0t1g2u2 0 -600 E
 16 7 2 10d10+250 4d4+0
 0d0+0 20000
 8 8 1
+Absorbe: 16
 Str: 18
 Dex: 18
 Con: 18
@@ -768,6 +790,7 @@ b0d0e0f0m0n0p0q0z0t1u2 0 -600 E
 19 13 4 15d15+500 3d5+2
 0d0+0 38000
 8 8 1
+Absorbe: 19
 Str: 25
 Dex: 25
 Int: 25
@@ -801,6 +824,7 @@ b0d0 0 0 E
 4 0 0 0d0+100 1d1+0
 0d0+0 1000
 8 8 3
+Absorbe: 4
 Size: 50
 Class: 100
 Race: 100
@@ -824,6 +848,7 @@ b0d0 0 -600 E
 15 7 2 10d1+250 2d6+0
 2d8+0 18000
 6 6 1
+Absorbe: 15
 Int: 15
 Wis: 15
 Size: 50
@@ -851,6 +876,7 @@ d0f0m0n0q0y0z0t1g2u2 r0 -600 E
 17 6 -1 10d10+300 3d5+1
 0d0+0 24000
 8 8 1
+Absorbe: 17
 BareHandAttack: 14
 Str: 20
 Dex: 22

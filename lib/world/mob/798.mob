@@ -1,0 +1,2042 @@
+#79800
+джучи чингизид~
+Джучи~
+Джучи~
+Джучи~
+Джучи~
+Джучи~
+Джучи~
+Чингизид Джучи начищает свой топор.
+~
+Монгольский воин знатной семьи с огромным топором расхаживает здесь.
+~
+b0c0d0f0g0m0n0o0p0x0y0A0 d0f0k0r0z0C0m1 -600 E
+32 -4 -20 30d20+5500 11d9+40
+15d20+42 500000
+8 8 1
+Saves: -14 -14 -14 -14
+Resistances: 0 0 0 0 30 0 0
+Armour: 40
+CastSuccess: 23
+Absorbe: 32
+BareHandAttack: 3
+Str: 28
+Dex: 18
+Int: 16
+Wis: 3
+Con: 25
+Cha: 28
+Size: 70
+LikeWork: 99
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 190
+Weight: 150
+Special_Bitvector: b1c1d1 
+Skill: 5 100
+Skill: 136 75
+Skill: 137 100
+Skill: 142 100
+Skill: 150 80
+Helper: 79802
+Helper: 79803
+Helper: 79805
+Helper: 79806
+E
+T 79803
+T 79837
+T 79840
+#79801
+караульный солдат~
+караульный солдат~
+караульного солдата~
+караульному солдату~
+караульного солдата~
+караульным солдатом~
+караульном солдате~
+Караульный солдат с мечом наперевес ходит здесь.
+~
+Солдат с большим мечом ходит по лагерю и следит за всем происходящим.
+~
+c0d0f0g0A0 d0f0k0r0z0m1 -600 E
+30 4 -20 8d9+3200 4d6+30
+8d4+30 320000
+8 8 1
+Armour: 40
+Absorbe: 30
+BareHandAttack: 7
+Str: 25
+Dex: 25
+Int: 20
+Wis: 22
+Con: 27
+Cha: 25
+Size: 33
+LikeWork: 95
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 190
+Weight: 150
+Special_Bitvector: p0b1c1 
+Skill: 136 75
+Skill: 137 100
+Skill: 151 100
+Skill: 157 80
+Spell: 8
+Spell: 15
+E
+T 79817
+T 79832
+#79802
+орда ежен чингизид~
+Орда-Ежен~
+Орда-Ежена~
+Орда-Ежену~
+Орда-Ежена~
+Орда-Еженом~
+Орда-Ежене~
+Чингизид Орда-Ежен стоит здесь, разминая кулаки.
+~
+Высокий и крепкий татаро-монгол разминает свои огромные кулачищи.
+~
+b0c0d0f0g0m0n0o0p0x0A0 d0k0r0m1 -600 E
+32 4 -20 10d5+4450 10d7+38
+10d20+0 420000
+8 8 1
+Saves: -14 -14 -14 -14
+Armour: 40
+CastSuccess: 23
+Absorbe: 32
+Str: 26
+Dex: 18
+Int: 18
+Wis: 14
+Con: 25
+Cha: 26
+Size: 60
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 190
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 22 100
+Skill: 136 72
+Skill: 137 200
+Skill: 143 80
+Skill: 151 100
+Spell: 79
+Spell: 79
+Spell: 89
+E
+T 79818
+T 79837
+#79803
+шибан чингизид~
+Шибан~
+Шибана~
+Шибану~
+Шибана~
+Шибаном~
+Шибане~
+Чингизид Шибан складывает свои руны.
+~
+Могущественный волхв монгольского народа, знающий свое дело.
+~
+b0c0d0f0g0m0n0o0p0u0x0y0A0 d0f0h0k0r0c1 -600 E
+31 5 -20 10d5+4100 10d4+40
+10d12+20 410000
+8 8 1
+Saves: -10 -10 -10 -10
+Armour: 40
+CastSuccess: 45
+Absorbe: 31
+BareHandAttack: 5
+Str: 18
+Dex: 13
+Int: 26
+Wis: 25
+Con: 20
+Cha: 18
+Size: 35
+LikeWork: 90
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 190
+Weight: 120
+Special_Bitvector: b1c1 
+Skill: 136 80
+Skill: 151 80
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 55
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 88
+Spell: 150
+E
+T 79837
+T 79807
+#79804
+субеетай баатур~
+Субеетай-Баатур~
+Субеетай-Баатура~
+Субеетай-Баатуру~
+Субеетай-Баатура~
+Субеетай-Баатуром~
+Субеетай-Баатуре~
+Предводитель войска монгольского отдыхает в своих палатах.
+~
+Могущественный воин, весь в драгоценном обмундировании
+сидит в своем кресле и раздает указания подчиненным.
+~
+b0d0g0n0o0p0u0x0 d0e0f0k0r0m1 -600 E
+36 -4 -25 10d10+10000 6d8+40
+0d0+5000 1000000
+6 6 1
+Saves: -50 -50 -50 -50
+Resistances: 15 15 15 15 0 0 0
+Armour: 55
+CastSuccess: 85
+Absorbe: 36
+Str: 35
+Dex: 17
+Int: 30
+Wis: 30
+Con: 23
+Cha: 26
+Size: 60
+LikeWork: 85
+ExtraAttack: 3
+Class: 102
+Race: 101
+Height: 200
+Weight: 160
+Special_Bitvector: b1c1d1 
+Feat: 1
+Feat: 2
+Skill: 20 200
+Skill: 22 100
+Skill: 136 84
+Skill: 137 200
+Skill: 150 100
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 131
+Helper: 79800
+Helper: 79813
+Helper: 79802
+Helper: 79803
+Helper: 79805
+Helper: 79806
+Helper: 79807
+Helper: 79808
+Helper: 79809
+Helper: 79810
+Helper: 79811
+Helper: 79812
+Helper: 79814
+Helper: 79815
+Helper: 79816
+Helper: 79817
+Helper: 79823
+Helper: 79825
+Helper: 79826
+Helper: 79828
+Helper: 79829
+Helper: 79830
+Helper: 79831
+Helper: 79832
+Helper: 79833
+Helper: 79834
+Helper: 79835
+Helper: 79836
+Helper: 79837
+Helper: 79838
+Helper: 79839
+E
+T 79806
+T 79819
+T 79820
+T 79821
+T 79836
+T 79838
+#79805
+тангкут чингизид~
+Тангкут~
+Тангкута~
+Тангкуту~
+Тангкута~
+Тангкутом~
+Тангкуте~
+Статный чингизид Тангкут разминается перед боем.
+~
+Статный воин из знатной семьи стоит здесь, разминаясь перед боем.
+~
+b0c0d0f0g0A0 d0e0h0k0r0c1 -600 E
+32 5 -20 10d4+4230 10d6+40
+20d12+20 420000
+8 8 1
+Saves: -20 -20 -20 -20
+Armour: 40
+CastSuccess: 23
+Absorbe: 32
+Str: 20
+Dex: 13
+Int: 27
+Wis: 27
+Con: 18
+Cha: 20
+Size: 30
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 30
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 136 66
+Skill: 150 80
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 104
+Spell: 113
+E
+T 79818
+T 79837
+#79806
+чингизид берке~
+Берке~
+Берке~
+Берке~
+Берке~
+Берке~
+Берке~
+Чингизид Берке держит головоруб на плече.
+~
+Огромный татарин с большим мечом наперевес стоит здесь.
+~
+b0c0d0f0g0 d0f0r0 -600 E
+31 -1 -20 10d20+4200 10d7+40
+10d25+20 400000
+8 8 1
+Saves: -15 -15 -15 -15
+Armour: 40
+CastSuccess: 20
+Absorbe: 31
+Str: 26
+Dex: 17
+Int: 19
+Wis: 20
+Con: 18
+Cha: 26
+Size: 50
+LikeWork: 99
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 5 80
+Skill: 132 100
+Skill: 136 75
+Skill: 137 100
+Spell: 33
+E
+T 79809
+T 79837
+#79807
+чагатай чингизид~
+Чагатай~
+Чагатая~
+Чагатаю~
+Чагатая~
+Чагатаем~
+Чагатай~
+Опытный Чагатай один из предводителей войска.
+~
+Один из немногих Великих предводителей орды уже не молодой, но очень мудр и силен.
+~
+b0c0d0f0g0 d0k0r0t1 -600 E
+32 4 -20 10d4+4850 10d7+40
+10d12+320 450000
+6 6 1
+Saves: -20 -20 -20 -20
+Armour: 40
+CastSuccess: 23
+Absorbe: 32
+Str: 25
+Dex: 12
+Int: 14
+Wis: 13
+Con: 25
+Cha: 25
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 4 100
+Skill: 136 80
+Skill: 137 200
+Skill: 151 80
+Helper: 79808
+Helper: 79809
+E
+T 79814
+T 79837
+T 79840
+#79808
+бури чингизид внук~
+Бури~
+Бури~
+Бури~
+Бури~
+Бури~
+Бури~
+Бури, внук Великого Чагатая точит свой нож.
+~
+Внук великого полководца Чагатая еще молод, но уже с огромным военным опытом за плечами.
+~
+b0c0d0f0g0 k0r0t1 -600 E
+32 4 -20 10d4+4280 10d6+40
+10d8+20 420000
+8 8 1
+Saves: -14 -14 -14 -14
+Armour: 40
+CastSuccess: 23
+Absorbe: 32
+BareHandAttack: 11
+Str: 22
+Dex: 18
+Int: 14
+Wis: 13
+Con: 25
+Cha: 22
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 131 100
+Skill: 136 80
+Skill: 137 200
+Skill: 157 70
+E
+T 79807
+T 79837
+#79809
+байдар чингизид внук~
+Байдар~
+Байдара~
+Байдару~
+Байдара~
+Байдаром~
+Байдаре~
+Байдар, сын Великого Чагатая, натягивает тетиву на своем луке.
+~
+Великий воин среднего возраста с большим самострелом стоит здесь и точит стрелы.
+~
+b0c0d0f0g0 r0 -600 E
+31 5 -20 10d2+3930 10d8+40
+12d6+25 390000
+8 8 1
+Saves: -10 -10 -10 -10
+Armour: 40
+CastSuccess: 20
+Absorbe: 31
+BareHandAttack: 9
+Str: 25
+Dex: 17
+Int: 14
+Wis: 14
+Con: 20
+Cha: 25
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 136 72
+Skill: 137 200
+Skill: 154 80
+Skill: 155 100
+Skill: 157 100
+E
+T 79811
+T 79837
+#79810
+угэдэй чингизид ~
+Угэдэй~
+Угэдэя~
+Угэдэю~
+Угэдэя~
+Угэдэем~
+Угэдэе~
+Один из полководцев войска, по имени Угэдэй.
+~
+Татарин огромных размеров с огромными кулачищами весь в дорогущих латах.
+~
+b0d0f0g0 d0f0h0r0A0 -600 E
+31 7 -20 8d9+3850 10d5+40
+15d22+40 380000
+6 6 1
+Saves: -10 -10 -10 -10
+Armour: 40
+CastSuccess: 40
+Absorbe: 31
+Str: 18
+Dex: 17
+Int: 25
+Wis: 25
+Con: 19
+Cha: 18
+Size: 40
+LikeWork: 99
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 130
+Special_Bitvector: b1c1 
+Skill: 136 72
+Skill: 150 100
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 8
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 15
+Spell: 79
+Spell: 88
+Spell: 104
+Spell: 104
+Helper: 79811
+Helper: 79812
+E
+T 79815
+T 79837
+T 79840
+#79811
+гуюк чингизид сын~
+Гуюк~
+Гуюка~
+Гуюку~
+Гуюка~
+Гуюком~
+Гуюке~
+Гуюк, сын Угэдэя закованный в латы смотрит на Вас.
+~
+Сын славного воина Угэдэя стоит здесь весь в железных латах, привыкший выдерживать повреждения.
+~
+b0d0f0g0 k0r0m1 -600 E
+31 4 -20 10d5+4100 10d7+40
+10d20+30 410000
+8 8 1
+Saves: -10 -10 -10 -10
+Armour: 40
+CastSuccess: 20
+Absorbe: 31
+Str: 26
+Dex: 18
+Int: 14
+Wis: 14
+Con: 25
+Cha: 26
+Size: 60
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: b1c1C3 
+Skill: 22 100
+Skill: 136 75
+Skill: 137 200
+Skill: 143 80
+Skill: 151 100
+Spell: 79
+Spell: 89
+E
+T 79815
+T 79837
+#79812
+кадан чингизид сын~
+Кадан~
+Кадана~
+Кадану~
+Кадана~
+Каданом~
+Кадане~
+Кадан, сын Угэдэя в длинной мантии стоит перед Вами.
+~
+Высокий татарин в длинной мантии разукрашенной бисером стоит здесь.
+~
+b0d0f0g0b2h2 r0 -600 E
+32 6 -20 10d3+4500 10d7+40
+20d7+20 440000
+8 8 1
+Saves: -14 -14 -14 -14
+Armour: 40
+CastSuccess: 23
+Absorbe: 32
+Str: 25
+Dex: 15
+Int: 13
+Wis: 13
+Con: 24
+Cha: 25
+Size: 60
+LikeWork: 90
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 4 100
+Skill: 136 72
+Skill: 137 100
+Skill: 150 80
+Spell: 93
+E
+T 79807
+T 79837
+#79813
+толуй чингизид~
+Толуй~
+Толуя~
+Толую~
+Толуя~
+Толуем~
+Толуй~
+Толуй, один из полководцев лагеря.
+~
+Ловкий пожилой монгол с длинным луком и кинжалом старинной работы сидит здесь.
+~
+b0d0f0g0 k0r0m1 -600 E
+31 4 -20 0d0+3800 10d8+40
+20d6+0 340000
+6 6 1
+Saves: -15 -15 -15 -15
+Armour: 40
+CastSuccess: 20
+Absorbe: 31
+BareHandAttack: 11
+Str: 26
+Dex: 25
+Int: 17
+Wis: 15
+Con: 21
+Cha: 23
+Size: 60
+LikeWork: 99
+ExtraAttack: 3
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 136 69
+Skill: 137 100
+Skill: 154 100
+Skill: 157 80
+Spell: 93
+Helper: 79814
+Helper: 79815
+E
+T 79840
+T 79837
+T 79807
+#79814
+мункэ сын чингизид~
+Мункэ~
+Мункэ~
+Мункэ~
+Мункэ~
+Мункэ~
+Мункэ~
+Мункэ, сын Толуя точит лезвия своего обоюдоострого топора.
+~
+Широкоплечий монгол в латах с огромным топором в руках.
+~
+b0c0d0f0g0 k0r0 -600 E
+32 4 -20 5d8+4500 10d8+40
+20d12+25 430000
+8 8 1
+Saves: -25 -25 -25 -25
+Armour: 25
+CastSuccess: 23
+Absorbe: 32
+BareHandAttack: 3
+Str: 25
+Dex: 18
+Int: 17
+Wis: 15
+Con: 23
+Cha: 25
+Size: 70
+LikeWork: 99
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: b0b1c1 
+Skill: 132 80
+Skill: 136 72
+Skill: 150 100
+Skill: 151 100
+Spell: 75
+Spell: 75
+Spell: 75
+E
+T 79803
+T 79837
+T 79844
+#79815
+бучек чингизид сын~
+Бучек~
+Бучка~
+Бучку~
+Бучка~
+Бучком~
+Бучке~
+Бучек, сын Толуя держит молот в руках.
+~
+Широкоплечий воин монгольского войска в крепких доспехах с огромным молотом в руках.
+~
+b0d0f0g0 k0r0 -600 E
+32 4 -20 5d8+5150 10d8+40
+20d6+20 450000
+8 8 1
+Saves: -25 -25 -25 -25
+Armour: 40
+CastSuccess: 23
+Absorbe: 32
+BareHandAttack: 3
+Str: 22
+Dex: 23
+Int: 17
+Wis: 15
+Con: 23
+Cha: 22
+Size: 70
+LikeWork: 99
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: b0b1c1 
+Skill: 5 100
+Skill: 136 72
+Skill: 137 100
+Skill: 150 100
+Skill: 157 100
+Spell: 4
+E
+T 79812
+T 79837
+#79816
+аргасун чингизид ~
+Аргасун~
+Аргасуна~
+Аргасуну~
+Аргасуна~
+Аргасуном~
+Аргасуне~
+Мастер точного стиля Аргасун, суровый и беспощадный.
+~
+Статный воин в драгоценных доспехах стоит и смотрит на Вас.
+~
+b0d0f0g0 d0r0z0 -600 E
+32 4 -20 10d10+4200 10d10+40
+15d20+50 420000
+8 8 1
+Saves: -20 -20 -20 -20
+Armour: 40
+CastSuccess: 23
+Success: 15
+Absorbe: 32
+Str: 23
+Dex: 18
+Int: 17
+Wis: 16
+Con: 25
+Cha: 23
+Size: 76
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: b1c1B3 
+Skill: 21 80
+Skill: 132 100
+Skill: 136 78
+Skill: 150 50
+Skill: 151 100
+E
+T 79815
+T 79837
+T 79840
+#79817
+кюльхан чингизид~
+Кюльхан~
+Кюльхана~
+Кюльхану~
+Кюльхана~
+Кюльханом~
+Кюльхане~
+Кюльхан, мастер стрельбы с арбалета.
+~
+Высокий худощавый воин, с арбалетом
+по нему видно что он мастер  своего дела, и обучил далеко не одного воина.
+~
+b0c0d0f0g0 d0k0r0C0 -600 E
+33 2 -20 10d6+5830 10d8+40
+20d6+30 550000
+8 8 1
+Saves: -18 -18 -18 -18
+Armour: 40
+CastSuccess: 26
+Absorbe: 33
+BareHandAttack: 9
+Str: 25
+Dex: 22
+Int: 15
+Wis: 14
+Con: 20
+Cha: 25
+Size: 50
+LikeWork: 100
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 136 75
+Skill: 137 100
+Skill: 154 100
+Skill: 155 200
+Skill: 157 100
+E
+T 79811
+T 79837
+T 79840
+#79818
+дозорный солдат~
+дозорный солдат~
+дозорного солдата~
+дозорному солдату~
+дозорного солдата~
+дозорным солдатом~
+дозорном солдате~
+Солдат в кожаных доспехах ходит в дозоре по лагерю.
+~
+Дозорный воин обучен подкрадываться тихо и ходить незаметно, что б всегда можно было выяснить
+все что происходит вокруг и доложить полководцу быстрее, чем угроза приблизится.
+~
+c0d0g0j0m0 f0k0r0 -600 E
+29 6 -20 10d7+2400 10d6+40
+0d0+0 230000
+8 8 1
+Armour: 25
+Absorbe: 29
+Str: 25
+Dex: 18
+Int: 14
+Wis: 13
+Con: 23
+Cha: 25
+Size: 35
+LikeWork: 80
+ExtraAttack: 1
+Class: 102
+Race: 101
+Height: 150
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 134 100
+Skill: 136 60
+Skill: 137 100
+Skill: 140 100
+E
+T 79817
+T 79831
+#79819
+начальник дозора~
+Начальник дозора~
+Начальника дозора~
+Начальнику дозора~
+Начальника дозора~
+Начальником дозора~
+Начальнике дозора~
+Главный дозорный в стальных латах стоит здесь, сжимая в руках свой топор.
+~
+Большой татарин в крепких стальных доспехах стоит здесь и высматривает недоброжелателей.
+~
+b0d0g0l0 d0k0 -600 E
+34 5 -20 8d6+4800 10d7+40
+10d7+0 650000
+8 8 1
+Saves: -22 -22 -22 -22
+Armour: 40
+CastSuccess: 29
+Absorbe: 34
+Str: 23
+Dex: 32
+Int: 16
+Wis: 15
+Con: 23
+Cha: 23
+Size: 45
+LikeWork: 99
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 190
+Weight: 150
+Special_Bitvector: d0b1c1 
+Skill: 22 80
+Skill: 132 80
+Skill: 136 75
+Skill: 137 100
+Skill: 143 80
+Skill: 151 80
+Spell: 81
+Helper: 79818
+E
+T 79817
+#79820
+райковецкий следопыт~
+Райковецкий следопыт~
+Райковецкого следопыта~
+Райковецкому следопыту~
+Райковецкого следопыта~
+Райковецким следопытом~
+Райковецким следопыте~
+Старый и уставший следопыт из райковецкого городища.
+~
+Постаревший от службы следопыт с уставшими глазами смотрим на Вас.
+~
+b0c0d0g0l0 d0f0k0 -600 E
+29 0 -20 1d1+2000 10d5+40
+0d0+30 200000
+8 8 1
+Armour: 40
+Absorbe: 29
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 60
+LikeWork: 90
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 198
+Weight: 88
+Special_Bitvector: 0 
+Skill: 136 135
+E
+T 79801
+T 79802
+#79821
+глава караула~
+Глава караула~
+Главы караула~
+Главе караула~
+Главу караула~
+Главой караула~
+Главе караула~
+Главенствующий караулом, воин в доспехах.
+~
+Высокий, широкоплечий солдат в хорошем обмундировании стоит здесь.
+~
+b0c0d0g0m0n0o0 d0f0k0r0a1m1 -600 E
+32 4 -20 10d5+6150 10d7+40
+10d20+0 500000
+8 8 1
+Saves: -20 -20 -20 -20
+Resistances: 10 10 10 10 10 10 10
+Armour: 40
+CastSuccess: 35
+Absorbe: 32
+BareHandAttack: 7
+Str: 26
+Dex: 18
+Int: 14
+Wis: 14
+Con: 25
+Cha: 26
+Size: 60
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 190
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 12 80
+Skill: 22 100
+Skill: 136 72
+Skill: 137 200
+Skill: 143 80
+Skill: 151 100
+Spell: 14
+Spell: 14
+Spell: 35
+Spell: 35
+Spell: 79
+Spell: 79
+Helper: 79801
+E
+T 79817
+#79822
+сторожевой пес~
+сторожевой пес~
+сторожевого пса~
+сторожевому псу~
+сторожевого пса~
+сторожевым псом~
+сторожевом псе~
+Собака похожая на волка бегает вокруг Вас и лает.
+~
+Собака-волкодав бегает здесь	 с открытой пастью полной острых зубов и лает.
+~
+d0f0g0h0m0 k0 -600 E
+28 0 -20 0d0+1830 10d6+25
+0d0+0 180000
+8 8 1
+Resistances: 0 0 0 0 30 0 0
+Absorbe: 28
+BareHandAttack: 4
+Str: 15
+Dex: 25
+Con: 25
+Size: 100
+LikeWork: 15
+ExtraAttack: 1
+Class: 103
+Race: 104
+Height: 50
+Weight: 100
+Special_Bitvector: 0 
+Skill: 136 81
+Skill: 140 100
+E
+T 79826
+#79823
+джэбэ~
+Джэбэ~
+Джэбэ~
+Джэбэ~
+Джэбэ~
+Джэбэ~
+Джэбэ~
+Помощник полководца, по имени Джэбэ стоит здесь.
+~
+Взрослый, сильный, умный - что еще нужно для того что б стать полководцем.
+~
+b0c0d0f0g0 d0f0k0r0 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 340000
+8 8 1
+Saves: -15 -15 -15 -15
+Resistances: 0 0 0 0 5 5 5
+Armour: 40
+CastSuccess: 25
+Absorbe: 31
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 16
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Skill: 1 50
+Skill: 132 50
+Skill: 165 50
+Spell: 14
+Spell: 14
+Spell: 23
+Spell: 23
+E
+T 79807
+T 79837
+T 79840
+#79824
+воитель~
+Воитель~
+Воителя~
+Воителю~
+Воителя~
+Воителем~
+Воителе~
+Воитель стоит рядом со своим начальником.
+~
+Высокий воин с огромным мечом в руках, выполняет приказы.
+~
+c0d0f0g0m0 d0f0k0 -600 E
+30 4 -20 5d11+3200 8d8+30
+7d5+40 320000
+8 8 1
+Saves: -25 -25 -25 -25
+Resistances: 25 25 25 25 10 10 10
+Armour: 25
+CastSuccess: 10
+Absorbe: 30
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 100
+Skill: 5 50
+Skill: 137 50
+Skill: 146 60
+Spell: 14
+Spell: 14
+Spell: 15
+Spell: 15
+Spell: 15
+E
+T 79809
+#79825
+хубилай~
+Хубилай~
+Хубилая~
+Хубилаю~
+Хубилая~
+Хубилаем~
+Хубилай~
+Великий колдун Хубилай.
+~
+Высокий воин в длинной мантии, тренируется в магии.
+~
+b0c0d0f0g0 d0f0h0k0 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 380000
+8 8 1
+Saves: -10 -10 -10 -10
+Resistances: 25 25 25 25 25 25 25
+Armour: 40
+CastSuccess: 40
+Absorbe: 31
+AResist: 10
+MResist: 10
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Spell: 68
+Spell: 68
+Spell: 94
+Spell: 94
+Spell: 134
+Spell: 143
+Spell: 143
+E
+T 79807
+T 79837
+T 79840
+#79826
+бортэ~
+Бортэ~
+Бортэ~
+Бортэ~
+Бортэ~
+Бортэ~
+Бортэ~
+Мудрая чернокнижница и ведунья Бортэ, варит зелье в своем шалаше.
+~
+Черноволосая женщина одетая в шкуры зверей, варит зелья у котла.
+~
+b0c0d0g0 d0e0f0k0 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 380000
+8 8 2
+Saves: -10 -10 -10 -10
+Armour: 40
+CastSuccess: 35
+Absorbe: 31
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Spell: 23
+Spell: 23
+Spell: 25
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 98
+Helper: 79827
+E
+T 79814
+T 79822
+T 79828
+T 79823
+T 79837
+T 79840
+#79827
+костяной дух~
+Костяной дух~
+Костяного духа~
+Костяному духу~
+Костяного духа~
+Костяным духом~
+Костяном духе~
+Костяной дух, подчиняющийся чернокнижнику.
+~
+Облако из костей со страшными красными огоньками в виде глаз летает вокруг Вас.
+~
+b0c0d0g0m0z0 d0k0w1 -600 E
+29 4 -20 5d11+3000 10d8+24
+7d5+40 250000
+8 8 1
+Armour: 13
+CastSuccess: 5
+Absorbe: 29
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 3
+Class: 101
+Race: 112
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+E
+#79828
+жанибек~
+Жанибек~
+Жанибека~
+Жанибеку~
+Жанибека~
+Жанибеком~
+Жанибеке~
+Мастер копья Жанибек, стоит в своем шалаше.
+~
+Высокий воин с длинным стальным копьем, тренирует свои навыки.
+~
+b0c0d0f0g0 d0e0f0k0r1 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 360000
+8 8 1
+Saves: -25 -25 -25 -25
+Resistances: 0 0 0 0 10 10 10
+Armour: 15
+CastSuccess: 20
+Absorbe: 31
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Skill: 148 80
+Skill: 151 80
+Skill: 160 50
+Spell: 34
+Spell: 39
+Spell: 54
+Spell: 54
+E
+T 79808
+T 79837
+T 79840
+#79829
+урус~
+Урус~
+Уруса~
+Урусу~
+Уруса~
+Урусом~
+Урусе~
+Один из братьев Урус.
+~
+Широкоплечий воин с топором в руках, смотрит на Вас с презрением.
+~
+b0c0d0f0g0 d0e0f0k0 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 350000
+8 8 1
+Saves: -25 -25 -25 -25
+Armour: 40
+CastSuccess: 25
+Absorbe: 31
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Skill: 5 60
+Skill: 142 60
+Skill: 165 40
+Helper: 79830
+Helper: 79831
+E
+T 79803
+T 79837
+T 79840
+#79830
+керей~
+Керей~
+Керея~
+Керею~
+Керея~
+Кереем~
+Керее~
+Один из братьев Керей.
+~
+Мудрый чародей в длинном плаще, подозрительно смотрим на Вас.
+~
+b0c0d0f0g0c2 d0f0k0e2 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 350000
+8 8 1
+Saves: -20 -20 -20 -20
+Armour: 40
+CastSuccess: 25
+Absorbe: 31
+Str: 20
+Dex: 20
+Int: 15
+Wis: 30
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Spell: 82
+Spell: 82
+Helper: 79831
+Helper: 79829
+E
+T 79807
+T 79837
+T 79840
+#79831
+хулаг~
+Хулаг~
+Хулага~
+Хулагу~
+Хулага~
+Хулагом~
+Хулаге~
+Один из братьев Хулаг.
+~
+Хитрый воин, ловко кружит вокруг Вас, пытаясь обокрасть.
+~
+b0c0d0f0g0 d0f0k0s0 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 350000
+8 8 1
+Saves: -15 -15 -15 -15
+Armour: 40
+CastSuccess: 25
+Absorbe: 31
+BareHandAttack: 11
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: a1b1c1 
+Skill: 139 150
+Skill: 160 80
+Helper: 79830
+Helper: 79829
+E
+T 79810
+T 79837
+T 79840
+#79832
+жоши~
+Жоши~
+Жоши~
+Жоши~
+Жоши~
+Жоши~
+Жоши~
+Могучий воин Жоши, смотрит на Вас.
+~
+Воин, весь закованный в сталь, сурово смотрит прямо в Ваши глаза.
+~
+b0c0d0g0 d0f0k0 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 390000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 25 25 25 25 30 30 30
+HPreg: 100
+Armour: 30
+CastSuccess: 25
+Absorbe: 31
+MResist: 50
+PResist: 50
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Skill: 4 100
+Skill: 136 100
+E
+T 79816
+T 79837
+T 79840
+T 79845
+T 79846
+#79833
+касим~
+Касим~
+Касима~
+Касиму~
+Касима~
+Касимом~
+Касиме~
+Касим, искусный охотник.
+~
+Воин с острым ножом освежевает свою добычу.
+~
+b0c0d0g0 d0f0k0z0 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 390000
+8 8 1
+Saves: -10 -10 -10 -10
+Armour: 40
+CastSuccess: 25
+Absorbe: 31
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 3
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Skill: 147 60
+Skill: 154 80
+Skill: 157 40
+Spell: 59
+Spell: 133
+E
+T 79810
+T 79829
+T 79830
+T 79834
+T 79837
+T 79840
+#79834
+мансур~
+Мансур~
+Мансура~
+Мансуру~
+Мансура~
+Мансуром~
+Мансуре~
+Мансур, ловкий и быстрый разведчик.
+~
+Разведчик, для которого нет преград в получении любой информации.
+~
+b0c0d0f0g0 d0f0k0t0 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 390000
+8 8 1
+Saves: -10 -10 -10 -10
+Armour: 40
+CastSuccess: 25
+Absorbe: 31
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Skill: 130 100
+Skill: 133 100
+Skill: 157 100
+Helper: 79822
+E
+T 79810
+T 79837
+T 79840
+#79835
+турсум~
+Турсум~
+Турсума~
+Турсуму~
+Турсума~
+Турсумом~
+Турсуме~
+Турсум, бородатый пьяница, валяется на полу.
+~
+Турсум, славный воин, с плохой привычкой напиваться до беспамятства.
+~
+b0c0d0f0g0 d0e0f0k0 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 380000
+5 5 1
+Saves: -20 -10 -10 -10
+Resistances: 0 0 0 0 -15 5 5
+Armour: 40
+CastSuccess: 25
+Absorbe: 31
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Skill: 2 50
+Skill: 165 50
+Spell: 26
+Spell: 26
+E
+T 79818
+T 79833
+T 79837
+T 79840
+#79836
+абылай~
+Абылай~
+Абылая~
+Абылаю~
+Абылая~
+Абылаем~
+Абылае~
+Абылай, мастер-отравитель.
+~
+Воин, который знает о ядах все, покрывает ими свои клинки.
+~
+b0c0d0f0g0m0 d0f0k0t0 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 380000
+8 8 1
+Saves: -25 -25 -25 -25
+Armour: 40
+CastSuccess: 25
+Absorbe: 31
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: g0b1c1 
+Skill: 144 60
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+E
+T 79810
+T 79837
+#79837
+азьтаукэ~
+Азь-Таукэ~
+Азь-Таукэ~
+Азь-Таукэ~
+Азь-Таукэ~
+Азь-Таукэ~
+Азь-Таукэ~
+Азь-Таукэ, мудрейший в своем роде.
+~
+Величайший мудрец своего народа, изучает книги и рукописи здесь.
+~
+b0c0d0g0 d0f0k0o1d2 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 400000
+8 8 1
+Saves: -10 -10 -10 -10
+Resistances: 10 10 10 10 15 15 15
+Armour: 40
+CastSuccess: 55
+Absorbe: 31
+MResist: 25
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Spell: 75
+Spell: 75
+Spell: 86
+Spell: 114
+Spell: 114
+E
+T 79814
+T 79824
+T 79825
+T 79827
+T 79837
+#79838
+шигай~
+Шигай~
+Шигая~
+Шигаю~
+Шигая~
+Шигаем~
+Шигае~
+Шигай, непробиваемый воин с огромным щитом.
+~
+Воин весь закованный в булат, с огромным щитом в руках смотрит на Вас.
+~
+b0c0d0g0 d0f0h0k0r0e2 -600 E
+31 4 -20 5d11+4000 10d8+40
+7d5+40 400000
+8 8 1
+Saves: -15 -15 -15 -15
+Armour: 35
+CastSuccess: 25
+Absorbe: 31
+AResist: 35
+PResist: 35
+Str: 30
+Dex: 20
+Int: 15
+Wis: 20
+Con: 25
+Cha: 30
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 132 60
+Skill: 158 80
+Spell: 28
+Spell: 34
+Spell: 74
+E
+T 79816
+T 79813
+T 79837
+T 79841
+T 79842
+#79839
+кукуджу~
+Кукуджу~
+Кукуджу~
+Кукуджу~
+Кукуджу~
+Кукуджу~
+Кукуджу~
+Кукуджу, молодая ведунья преданно смотрит на своего наставника.
+~
+Молодая и красивая девушка стоит рядом со своим наставником.
+~
+b0c0d0g0 d0f0k0r0 -600 E
+30 5 -20 10d2+3005 10d8+40
+12d6+25 300000
+8 8 2
+Resistances: 10 10 10 10 5 5 5
+Armour: 40
+CastSuccess: 25
+Absorbe: 30
+AResist: 5
+MResist: 5
+PResist: 5
+BareHandAttack: 11
+Str: 25
+Dex: 17
+Int: 14
+Wis: 25
+Con: 20
+Cha: 25
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: b1c1 
+Skill: 1 100
+Spell: 28
+Spell: 28
+Helper: 79827
+E
+T 79835
+T 79837
+T 79807
+#79840
+джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Велики воин Джэлмэ, стоит посреди лагеря
+~
+Великий воин, высокий и сильный, стоит и зевает от скуки.
+~
+b0d0g0B0o1 d0f0k0r0 -600 E
+30 5 -20 10d2+3930 10d8+40
+12d6+25 300000
+8 8 1
+Armour: 40
+Absorbe: 30
+BareHandAttack: 9
+Str: 25
+Dex: 17
+Int: 14
+Wis: 14
+Con: 20
+Cha: 25
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: 0 
+Skill: 136 72
+Skill: 137 200
+Skill: 154 80
+Skill: 155 100
+Skill: 157 100
+E
+T 79847
+T 79848
+#79841
+джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Великий воин Джэлмэ, неуязвимый для физической силы.
+~
+Великий воин, высокий и сильный, стоит и зевает от скуки.
+~
+b0d0f0g0e2 d0f0k0r0u1 -600 E
+30 5 -20 10d2+3930 10d8+40
+12d6+25 300000
+8 8 1
+Armour: 40
+Absorbe: 30
+PResist: 100
+BareHandAttack: 9
+Str: 25
+Dex: 17
+Int: 14
+Wis: 35
+Con: 20
+Cha: 25
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: a0e0 
+Skill: 150 50
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 94
+Spell: 152
+E
+T 79849
+T 79850
+#79842
+джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Джэлмэ~
+Великий воин Джэлмэ, неуязвимый для магических повреждений.
+~
+Великий воин, высокий и сильный, стоит и зевает от скуки.
+~
+b0d0f0g0 d0f0h0k0r0 -600 E
+30 5 -20 10d2+3930 10d8+40
+12d6+25 300000
+8 8 1
+Armour: 40
+Absorbe: 30
+MResist: 100
+BareHandAttack: 6
+Str: 35
+Dex: 17
+Int: 14
+Wis: 14
+Con: 20
+Cha: 25
+Size: 50
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 101
+Height: 180
+Weight: 150
+Special_Bitvector: a0d0 
+Skill: 5 100
+Skill: 136 72
+Skill: 157 100
+E
+T 79849
+T 79850
+$

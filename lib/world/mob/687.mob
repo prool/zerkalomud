@@ -17,6 +17,7 @@ b0c0d0f0n0o0r0t0x0A0r1d2h2 d0f0k0z0A0q1 -600 E
 4d2+134 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 1
 Str: 28
 Dex: 22
@@ -428,6 +429,7 @@ c0d0f0m0n0o0p0q0x0A0i2 d0f0k0n0s0z0A0m1 -600 E
 0d0+0 380000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 4
 Str: 28
 Dex: 25
@@ -957,6 +959,7 @@ b0d0f0g0n0o0p0r0t0x0z0A0i1g2 d0f0h0k0z0A0C0m1p1r1 -600 E
 6d23+463 2580000
 8 8 1
 Saves: -46 -46 -46 -46
+CastSuccess: 47
 BareHandAttack: 3
 Str: 24
 Dex: 20
@@ -1121,8 +1124,8 @@ Spell: 112
 Spell: 113
 Spell: 137
 Spell: 145
-Helper: 68725
 Helper: 68709
+Helper: 68725
 E
 T 68706
 T 68700

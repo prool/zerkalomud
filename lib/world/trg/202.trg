@@ -13,14 +13,16 @@ end
 *~
 eval item %actor.eq(3)%
 wait 1
-if %item.vnum% != 20301
+if (%item.vnum% != 20301)
   mecho Увидев вас, суровый страж закричал - Тревога
   say  Старик беги за подмогой!
   wait 2
   say Беги, я их задержу!
   wait 5
-  msend %actor.name%  Страж зарычал на Вас - Умри же, лазутчик!
-  attack %actor.name%
+  if (%actor.canbeseen%) && (%actor.realroom% == %self.realroom%)
+    msend %actor.name%  Страж зарычал на Вас - Умри же, лазутчик!
+    attack .%actor.name%
+  end
   calcuid Cluch 20205 mob
   attach 20202 %Cluch.id%
   exec 20202 %Cluch.id%
@@ -42,14 +44,14 @@ if !%self.fighting%
   wait 1s
   say Бегу, бегу
   wait 1s
-  mecho Cтарик умчался вопя во всю глотоку - На помошь!
+  mecho Cтарик умчался, вопя во всю глотоку - На помощь!
   calcuid Temn 20264 room
   attach 20203 %Temn.id%
   exec 20203 %Temn.id%
   calcuid Xram 20263 room
   attach 20216 %Xram.id%
   exec 20216 %Xram.id%
-  mpurge %self.name%
+  mpurge %self%
 else
   wait 1
   mecho   Получив сокрушающий удар, старик охнул - "Не успел я"
@@ -59,7 +61,7 @@ else
 2 z 100
 ~
 wait 1s
-wecho Послышался грохот кованых сапог, и к комнату ворвались дружинники.
+wecho Послышался грохот кованых сапог, и в комнату ворвались дружинники.
 wait 1s
 wload mob 20215
 calcuid Plech 20215 mob
@@ -150,10 +152,11 @@ if %exist.mob(20600)%
   calcuid uchen 20600 mob
   attach 20601 %uchen.id%
 end
-calcuid Knaz 20200 mob
-attach 20214 %Knaz.id%
-calcuid Volxv 20203 mob
-attach 20210 %Volxv.id%
+attach 20214 %self.id%
+if %exist.mob(20203)%
+  calcuid volxv 20203 mob
+  attach 20210 %volxv.id%
+end
 detach 20208 %self.id%
 ~
 #20209
@@ -184,7 +187,7 @@ mecho "что подо судным домом..."
 calcuid  Temnica 20265 room
 attach 20211 %Temnica.id%
 exec 20211 %Temnica.id%
-mpurge %self.name%
+mpurge %self%
 ~
 #20211
 Лоад волхва в темницы и атач тригера к нему на челюсть~
@@ -241,41 +244,43 @@ switch %object.vnum%
     say Вскоре город погрузится в лоно природы и души праведных русичей будут спасены. Никогда 
     say не захватить грязным татарам наши дома!
     wait 10
-    рад %actor.name%
+    рад .%actor.name%
     eval rand %random.1000%
     if ((%rand% < 199) && (%world.curobjs(20218)% < 3))
       say Прими от меня в подарок эти штаны!
       mload obj 20218
-      дать штан %actor.name%
+      дать штан .%actor.name%
     elseif ((199 <= %rand%) && (%rand% < 400) && (%world.curobjs(20219)% < 3))
       mload obj 20219
       say Прими от меня в подарок эти перчатки!
-      дать перчатк %actor.name%
+      дать перчатк .%actor.name%
     elseif ((400 <= %rand%) && (%rand% < 600) && (%world.curobjs(20220)% < 3))
       mload obj 20220
       say Прими от меня в подарок эти лапти!
-      дать лапти %actor.name%
+      дать лапти .%actor.name%
     elseif ((600 <= %rand%) && (%rand% < 800) && (%world.curobjs(20221)% < 3))
       mload obj 20221
       say Прими от меня в подарок эту рубаху!
-      дать рубах %actor.name%
+      дать рубах .%actor.name%
     elseif ((800 <= %rand%) && (%rand% < 900) && (%world.curobjs(20222)% < 3))
       mload obj 20222
       say Прими от меня в подарок эту накидку!
-      дать накидк %actor.name%
+      дать накидк .%actor.name%
     elseif ((150 <= %rand%) && (%rand% < 450) && (%world.curobjs(20223)% < 3))
       mload obj 20223
       say Прими от меня в подарок этот перстень!
-      дать перст %actor.name%
+      дать перст .%actor.name%
     elseif ((450 <= %rand%) && (%rand% < 850) && (%world.curobjs(20224)% < 3))
       mload obj 20224
       say Прими от меня в подарок этот оберег!
-      дать оберег %actor.name%
+      дать оберег .%actor.name%
     else
       say Спасибо за помощь!
       %actor.exp(+1000000)%
       wait 5
-      msend %actor% Вы заметили, что Ваш опыт увеличился.
+      if (%actor.canbeseen%)
+        msend %actor% Вы заметили, что Ваш опыт увеличился.
+      end
     end 
     mdoor 20314 east room 20381
     mdoor 20321 north room 20381
@@ -301,11 +306,14 @@ switch %object.vnum%
     detach 20301 %laz.id%
     attach 20302 %laz.id%
     wait 1s
-    say Как, вы еще тут? Сейчас город будет погребен под водой, и все кто в нем останутся -- погибнут!
+    say Как, вы еще тут? Сейчас город будет погребен под водой, и все кто в нем останутся - погибнут!
     say Вы не должны здесь умирать. Сейчас я Вам помогу.
     wait 10
-    msend Вы очутились за городом.
+    mecho Вы очутились за городом.
+    mat 20311 mecho Кто-то появился здесь в клубах сизого дыма.
     mteleport all 20311
+  break
+done
 ~
 #20214
 тригернасветлогокнязя ~
@@ -424,7 +432,7 @@ attach 20217 %Cluch.id%
 Бьют ключника~
 0 p 95
 *~
-mecho " На помошь!" - закричал старик.
+mecho "На помощь!" - закричал старик.
 mload mob 20215
 calcuid Plech 20215 mob
 attach 20204 %Plech.id%
@@ -581,7 +589,7 @@ end
 загруздевки~
 0 n 100
 *~
-if (%world.curobjs(20203)% < 5) && (%random.1000% <= 35)
+if (%world.curobjs(20203)% < 5) && (%random.1000% <= 85)
   mload obj 20203
 end
 ~

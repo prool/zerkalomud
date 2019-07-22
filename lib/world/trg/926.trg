@@ -106,7 +106,7 @@ switch %self.vnum%
   break
   case 92626
     set sroom 92638
-    set dir nurth   
+    set dir north   
     set troom 92640
   break
   case 92627
@@ -555,7 +555,11 @@ mdoor 92678 east purge
 даем перышко леле~
 1 i 100
 ~
-if %victim.vnum% != 92324 || !%world.curmobs(92631)%
+if (%victim.vnum% != 92324)
+  halt
+end
+if !%world.curmobs(92631)%
+  log ОПЯТЬ КУДА-ТО ВОЛХА ПОДЕВАЛИ ИРОДЫ!!!
   halt
 end
 wait 1s
@@ -630,29 +634,97 @@ detach 92626 %self.id%
 ~
 #92627
 награда скиллами~
-0 c 1
-прикрыть богатырский оглушить веерная точный осторожный метнуть заколоть сбить пнуть кулачный спасти украсть палицы секиры длинные короткие иное двуручники проникающее копья обезоружить луки дополнительный уклониться блокировать подножка ярость скрытый~
-if %actor%==%quester%      
-  if !%actor.skill(%cmd%)%             
-    msend %actor% Как можно достичь совершенства в том, о чем даже не подозреваешь ?
-    wait 5s
+0 d 100
+*~
+*прикрыть богатырский оглушить веерная точный осторожный метнуть заколоть сбить
+*пнуть кулачный спасти украсть палицы секиры длинные короткие иное двуручники
+*проникающее копья обезоружить луки дополнительный уклониться блокировать подножка
+*ярость скрытый врата
+switch %speech.car%
+  case прикрыть
+    case богатырский
+      case оглушить
+        case веерная
+          case точный
+            case осторожный
+              case метнуть
+                case заколоть
+                  case сбить
+                    case пнуть
+                      case кулачный
+                        case спасти
+                          case украсть
+                            case палицы
+                              case секиры
+                                case длинные
+                                  case короткие
+                                    case иное
+                                      case двуручники
+                                        case проникающее
+                                          case копья
+                                            case обезоружить
+                                              case луки
+                                                case дополнительный
+                                                  case уклониться
+                                                    case блокировать
+                                                      case подножка
+                                                        case ярость
+                                                          case скрытый
+                                                            case врата
+                                                              set skill %speech.car%
+                                                            break
+                                                          break
+                                                        break
+                                                      break
+                                                    break
+                                                  break
+                                                break
+                                              break
+                                            break
+                                          break
+                                        break
+                                      break
+                                    break
+                                  break
+                                break
+                              break
+                            break
+                          break
+                        break
+                      break
+                    break
+                  break
+                break
+              break
+            break
+          break
+        break
+      break
+    break
+  break
+  default
     halt
-  elseif %actor.skill(%cmd%)% < 151
-    mskilladd %actor.name% %cmd% 25 
-    %actor.setquest(926)%
-    detach 92627 %self.id%
-  else
-    eval skl %actor.skill(%cmd%)%
-    eval val 200 - %skl%
-    mskilladd %actor.name% %cmd% %val%
-    %actor.setquest(926)%
-    detach 92627 %self.id%
-  end    
-  
-else
-  say Я ценю твою помощь %quester.dname%, но одарить весь род людской не могу.
-  wait 2s
+  break
+done
+wait 3
+if %actor%!=%quester%
+  say Я ценю твою помощь, %quester.iname%, но одарить весь род людской не могу.
   halt
+end
+if !%actor.skill(%skill%)%
+  msend %actor% Как можно достичь совершенства в том, о чем даже не подозреваешь?
+  wait 5s
+  halt
+elseif %actor.skill(%skill%)% < 151
+  mskilladd %actor% %skill% 25
+  %actor.setquest(926)%
+  detach 92627 %self.id%
+else
+  eval skl %actor.skill(%skill%)%
+  eval val 200 - %skl%
+  mskilladd %actor% %skill% %val%
+  %actor.setquest(926)%
+  detach 92627 %self.id%
 end
 ~
 $~

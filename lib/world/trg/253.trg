@@ -186,6 +186,7 @@ mjunk all
 0 q 100
 ~
 wait 1
+halt
 if %actor.clan% != дзп
   хмур
   say Ты еще кто такой?!

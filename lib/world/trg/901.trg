@@ -671,7 +671,7 @@ wait  1
 set   next %self.people%
 while %next%
       if %next.vnum% == 90032
-         mecho  При виде чудовища оборванец завизжал "Ой, мамочка !" и скрылся в кустах.
+         mecho  При виде чудовища оборванец завизжал "Ой, мамочка!" и скрылся в кустах.
          makeuid oborvanec %next.id%
          set     next %next.next_in_room%
          mpurge  %oborvanec%

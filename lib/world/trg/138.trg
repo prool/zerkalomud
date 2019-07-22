@@ -1,6 +1,6 @@
 #13800
 входим в зеркало~
-0 c 100
+2 c 100
 войти~
 wait 1
 if !%arg.contains(зеркало)%
@@ -61,12 +61,15 @@ end
 читаем книгу~
 2 c 1
 достать взять~
-wait 1
-if !%arg.contains(книг)%
-  wsend %actor% _Что Вы хотите взять?
-  return 0
+if (!%arg.contains(книг)%)
+  if (%cmd% == взять)
+    return 0
+  else
+    wsend %actor% _Что Вы хотите %cmd%?
+  end
   halt
 end
+wait 1
 wsend %actor% _Вы подошли к одной из полок и достали красивую книгу в черном переплете с мерцающими надписями.
 wechoaround %actor% _%actor.name% достал%actor.g% книгу с одной из полок.
 wait 1s
@@ -194,7 +197,8 @@ if %exist.mob(13810)%
   say Забери у нее черный перстень и принеси мне
   wait 1s 
   say за это я награжу тебя!
-  foreach pc %self.pc%
+  eval charlist %self.pc%
+  foreach pc %charlist%%
     if %pc.rentable%
       mteleport %pc% 13835 horse     
       wait 1

@@ -18,6 +18,7 @@ b0d0e0l0n0o0p0q0r0t0u0x0y0z0B0s1f2g2i2u2 c0d0e0f0k0r0C0a1l1n1o1p1q1t1 -600 E
 8 8 1
 CastSuccess: 100
 Success: 100
+Absorbe: 1
 Str: 35
 Dex: 35
 Int: 35
@@ -63,6 +64,7 @@ b0d0g0n0o0p0q0r0t0u0x0y0B0o1f2g2 c0d0e0f0k0C0a1 0 E
 1 0 0 10d10+500 0d0+0
 0d0+30000 1
 8 8 1
+Absorbe: 1
 Str: 20
 Dex: 23
 Int: 35
@@ -95,6 +97,7 @@ b0d0e0g0n0o0p0q0r0t0u0x0y0B0o1f2g2u2 c0d0e0f0k0C0a1 0 E
 1 0 0 10d10+500 0d0+100
 0d0+20000 1
 8 8 1
+Absorbe: 1
 Str: 45
 Dex: 45
 Int: 22
@@ -127,6 +130,7 @@ b0d0e0g0n0o0p0q0r0t0u0x0y0B0o1f2g2u2 c0d0e0f0k0C0a1 0 E
 1 0 0 10d10+500 0d0+10
 0d0+30000 1
 8 8 1
+Absorbe: 1
 Str: 34
 Dex: 25
 Int: 35
@@ -148,7 +152,7 @@ T 23717
 двойник Ивана~
 двойника Ивана~
 двойнику Ивана~
-двойник Ивана~
+двойника Ивана~
 двойником Ивана~
 двойнике Ивана~
 Двойник Ивана летает здесь.
@@ -159,6 +163,7 @@ d0g0n0o0p0q0r0t0u0B0f2g2 c0d0e0s0x0 -600 E
 12 20 -4 10d10+2 1d3+10
 0d0+0 10000
 8 8 1
+Absorbe: 12
 BareHandAttack: 4
 Str: 36
 Dex: 28
@@ -170,7 +175,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 2
 Class: 100
-Race: 100
+Race: 114
 Height: 175
 Weight: 85
 Special_Bitvector: i0 
@@ -198,6 +203,7 @@ b0d0g0n0o0p0q0r0t0u0x0y0B0o1f2g2u2 c0d0e0f0k0C0a1 0 E
 1 0 0 10d10+1000 0d0+40
 0d0+0 1
 6 6 1
+Absorbe: 1
 BareHandAttack: 10
 Str: 35
 Dex: 35
@@ -248,6 +254,7 @@ c0d0n0o0q0t0u0A0B0f2g2u2 d0f0k0r0A0C0t1 0 E
 0d0+0 1
 8 8 1
 Saves: 150 0 150 200
+Absorbe: 1
 Destination: 23733
 Destination: 23702
 Destination: 23734
@@ -354,6 +361,7 @@ d0g0m0n0o0r0B0f2g2j2u2 d0k0A0 0 E
 1 15 5 10d10+3000 5d5+35
 0d0+0 1
 8 8 1
+Absorbe: 1
 BareHandAttack: 1
 Destination: 23746
 Destination: 23747
@@ -403,6 +411,7 @@ b0d0e0g0n0o0p0q0r0t0u0x0B0o1f2g2 c0d0e0f0k0C0a1 0 E
 1 0 0 10d10+500 1d1+10
 0d0+10000 1
 8 8 1
+Absorbe: 1
 Str: 10
 Dex: 10
 Int: 10
@@ -436,6 +445,7 @@ b0d0e0g0n0o0p0q0r0t0u0x0B0o1f2g2u2 c0d0e0f0k0C0a1 0 E
 1 0 0 10d10+500 0d0+10
 0d0+20000 1
 8 8 2
+Absorbe: 1
 Str: 30
 Dex: 20
 Int: 40
@@ -469,6 +479,7 @@ b0d0e0g0n0o0p0q0r0t0u0x0B0o1f2g2u2 c0d0e0f0k0C0a1 0 E
 1 0 0 10d10+500 0d0+10
 0d0+20000 1
 8 8 1
+Absorbe: 1
 Str: 40
 Dex: 40
 Int: 30
@@ -502,7 +513,7 @@ b0d0e0g0n0o0p0q0t0u0B0s1f2g2 c0d0e0f0k0r0C0t1 0 E
 8 8 1
 Saves: 100 100 100 100
 HPreg: 100
-Absorbe: 40
+Absorbe: 1
 Str: 35
 Dex: 23
 Int: 10
@@ -547,6 +558,7 @@ PlusMem: 40
 CastSuccess: 80
 Success: 60
 Initiative: 20
+Absorbe: 1
 BareHandAttack: 7
 Destination: 23734
 Destination: 23702
@@ -612,6 +624,7 @@ d0n0o0p0B0f2g2j2u2 c0e0m0n0r0A0C0a1l1q1 0 E
 0d0+0 1
 8 8 1
 Saves: 200 200 200 199
+Absorbe: 1
 BareHandAttack: 3
 Destination: 23702
 Destination: 23743
@@ -656,6 +669,7 @@ d0n0o0p0B0f2g2i2u2 f0k0A0a1j1 0 E
 1 25 -4 10d10+2500 5d5+30
 0d0+0 1
 8 8 1
+Absorbe: 1
 BareHandAttack: 9
 Destination: 23743
 Destination: 23744
@@ -746,6 +760,7 @@ b0d0e0g0n0o0p0q0r0t0u0x0B0o1f2g2u2 c0d0e0f0k0C0a1 0 E
 1 0 0 10d10+500 0d0+4
 0d0+20000 1
 8 8 2
+Absorbe: 1
 Str: 35
 Dex: 25
 Int: 35
@@ -795,7 +810,7 @@ Height: 168
 Weight: 150
 Special_Bitvector: 0 
 E
-T 23705
+T 23737
 #23719
  кожаный манекен~
 кожаный манекен~
@@ -860,6 +875,7 @@ d0o0B0o1f2u2 d0f0k0 600 E
 12 -5 0 10d20+20 5d3+8
 0d0+0 10000
 8 8 1
+Absorbe: 12
 BareHandAttack: 8
 Str: 16
 Dex: 20
@@ -880,4 +896,27 @@ T 23719
 T 23720
 T 23721
 T 23722
+#23727
+неоконченный моб~
+неоконченный моб~
+неоконченного моба~
+неоконченному мобу~
+неоконченного моба~
+неоконченным мобом~
+неоконченном мобе~
+Неоконченный моб стоит тут.
+~
+Выглядит достаточно незавершенно.
+~
+d0 d0f0k0 0 E
+0 20 0 1d100+1 1d1+0
+0d0+0 0
+8 8 0
+Size: 30
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
 $

@@ -96,13 +96,8 @@ if (%quest683_1% == %actor%)
   set vnum 68327   
   eval vnum %vnum% + %Get_item%
   if (%vnum% > 68329)  || (%world.curobjs(%vnum%)% > 4)
-    if ((%world.curobjs(3307)% < 2) && (%random.1000%  <= 35))
-      mload obj 3307
-      дать брас %actor.name%
-    else
-      mload obj 68330
-      дать горсть %actor.iname%
-    end
+    mload obj 68330
+    дать горсть %actor.iname%
   else
     mload obj %vnum%
     дать перст %actor.iname% 

@@ -1,0 +1,190 @@
+<cities>
+    <city>
+        <name value="Лесная деревня"/>
+        <rent_vnum value="4056"/>
+        <zone_vnum value="40"/>
+        <ext_vnum value="4011"/>
+    </city>
+    <city>
+        <name value="Деревня у реки"/>
+        <rent_vnum value="5000"/>
+        <zone_vnum value="50"/>
+        <ext_vnum value="5004"/>
+    </city>
+ <city>
+        <name value="Степная деревня"/>
+        <rent_vnum value="6049"/>
+        <zone_vnum value="60"/>
+        <ext_vnum value="6035"/>
+    </city>
+    <city>
+        <name value="Деревня Беличья Падь"/>
+        <rent_vnum value="8010"/>
+        <zone_vnum value="80"/>
+        <ext_vnum value="8031"/>
+    </city>
+ <city>
+        <name value="Погост Холуй"/>
+        <rent_vnum value="7038"/>
+        <zone_vnum value="70"/>
+        <ext_vnum value="7048"/>
+    </city>
+    <city>
+        <name value="Деревушка Медвежья гора"/>
+        <rent_vnum value="9007"/>
+        <zone_vnum value="90"/>
+        <ext_vnum value="0"/>
+    </city>
+ <city>
+        <name value="Торжок"/>
+        <rent_vnum value="24074"/>
+        <zone_vnum value="240"/>
+        <ext_vnum value="24025"/>
+    </city>
+    <city>
+        <name value="Русса"/>
+        <rent_vnum value="35040"/>
+        <zone_vnum value="350"/>
+        <ext_vnum value="35008"/>
+    </city>
+ <city>
+        <name value="Корсунь"/>
+        <rent_vnum value="27018"/>
+        <zone_vnum value="270"/>
+        <ext_vnum value="27015"/>
+    </city>
+    <city>
+        <name value="Переяславль"/>
+        <rent_vnum value="25076"/>
+        <zone_vnum value="250"/>
+        <ext_vnum value="25009"/>
+    </city>
+ <city>
+        <name value="Галич"/>
+        <rent_vnum value="34404"/>
+        <zone_vnum value="344"/>
+        <ext_vnum value="34420"/>
+    </city>
+    <city>
+        <name value="Киев"/>
+        <rent_vnum value="49987"/>
+        <zone_vnum value="499"/>
+        <ext_vnum value="49974"/>
+    </city>
+ <city>
+         <name value="Вышгород"/>
+        <rent_vnum value="63671"/>
+        <zone_vnum value="636"/>
+        <ext_vnum value="63608"/>
+</city>
+    <city>
+        <name value="Чернигов"/>
+        <rent_vnum value="68051"/>
+        <zone_vnum value="680"/>
+        <ext_vnum value="68087"/>
+    </city>
+    <city>
+        <name value="Любеч"/>
+        <rent_vnum value="69091"/>
+        <zone_vnum value="690"/>
+        <ext_vnum value="0"/>
+    </city>
+     <city>
+        <name value="Путивль"/>
+        <rent_vnum value="64035"/>
+        <zone_vnum value="640"/>
+        <ext_vnum value="0"/>
+    </city>
+    <city>
+        <name value="Брянск"/>
+        <rent_vnum value="66069"/>
+        <zone_vnum value="660"/>
+        <ext_vnum value="66027"/>
+    </city>
+     <city>
+        <name value="Курск"/>
+        <rent_vnum value="63030"/>
+        <zone_vnum value="630"/>
+        <ext_vnum value="63029"/>
+    </city>
+    <city>
+        <name value="Искоростень"/>
+        <rent_vnum value="13589"/>
+        <zone_vnum value="135"/>
+        <ext_vnum value="13569"/>
+    </city>
+     <city>
+        <name value="Туров"/>
+        <rent_vnum value="32480"/>
+        <zone_vnum value="324"/>
+        <ext_vnum value="32478"/>
+    </city>
+    <city>
+        <name value="Меньск"/>
+        <rent_vnum value="77065"/>
+        <rent_vnum value="77053"/>
+        <zone_vnum value="770"/>
+        <ext_vnum value="0"/>
+    </city>
+     <city>
+        <name value="Полоцк"/>
+        <rent_vnum value="72043"/>
+        <zone_vnum value="720"/>
+        <ext_vnum value="72008"/>
+    </city>
+    <city>
+        <name value="Псков"/>
+        <rent_vnum value="75000"/>
+        <zone_vnum value="750"/>
+        <ext_vnum value="75075"/>
+    </city>
+     <city>
+        <name value="Великий Новгород"/>
+        <rent_vnum value="60036"/>
+        <zone_vnum value="600"/>
+        <ext_vnum value="60034"/>
+    </city>
+    <city>
+        <name value="Ладога"/>
+        <rent_vnum value="30266"/>
+        <zone_vnum value="302"/>
+        <ext_vnum value="30224"/>
+    </city>
+     <city>
+        <name value="Тотьма"/>
+        <rent_vnum value="62001"/>
+        <zone_vnum value="620"/>
+        <ext_vnum value="62027"/>
+    </city>
+    <city>
+        <name value="Рязань"/>
+        <rent_vnum value="73050"/>
+        <zone_vnum value="730"/>
+        <ext_vnum value="73082"/>
+    </city>
+     <city>
+        <name value="Муром"/>
+        <rent_vnum value="76088"/>
+        <zone_vnum value="760"/>
+        <ext_vnum value="76035"/>
+    </city>
+    <city>
+        <name value="Владимир"/>
+        <rent_vnum value="18253"/>
+        <zone_vnum value="182"/>
+        <ext_vnum value="18244"/>
+    </city>
+     <city>
+        <name value="Ростов Великий"/>
+        <rent_vnum value="85123"/>
+        <rent_vnum value="85146"/>
+        <zone_vnum value="851"/>
+        <ext_vnum value="85148"/>
+    </city>
+     <city>	
+        <name value="Тверь"/>
+        <rent_vnum value="60288"/>
+        <zone_vnum value="602"/>
+        <ext_vnum value="60222"/>
+    </city>
+</cities>

@@ -1,0 +1,168 @@
+<daily_quest>
+	<!-- trigger: 4301 -->
+	<quest id="1" reward="1" desk="Болото"/>
+	<!-- trigger: 4704 -->
+	<quest id="2" reward="5" desk="Холмы у реки"/>
+	<!-- trigger: 5010 -->
+	<quest id="3" reward="8" desk="Вторая родовая"/>
+	<!-- trigger: 5400 -->
+	<quest id="4" reward="4" desk="Птичий лес"/>
+	<!-- trigger: 5507 -->
+	<quest id="5" reward="7" desk="Дальний хутор"/>
+	<!-- trigger: 6302 -->
+	<quest id="6" reward="10" desk="Сторожевая башня"/>
+	<!-- trigger: 6412 -->
+	<quest id="7" reward="6" desk="Сказочный пустырь"/>
+	<!-- trigger: 7208 -->
+	<quest id="8" reward="7" desk="Заброшенная мельница"/>
+	<!-- trigger: 8914 -->
+	<quest id="9" reward="7" desk="Где-то в лесу"/>
+	<!-- trigger: 9209 -->
+	<quest id="10" reward="6" desk="Домик в деревне"/>
+	<!-- trigger: 9301 -->
+	<quest id="11" reward="6" desk="Два кладбища"/>
+	<!-- trigger: 9303 -->
+	<quest id="12" reward="6" desk="Два кладбища"/>
+	<!-- trigger: 9404 -->
+	<quest id="13" reward="6" desk="Тверские леса"/>
+	<!-- trigger: 9909 -->
+	<quest id="14" reward="9" desk="Жихарка"/>
+	<!-- trigger: 10000 -->
+	<quest id="15" reward="9" desk="Соловей"/>
+	<!-- trigger: 10109 -->
+	<quest id="16" reward="7" desk="Соловоей2"/>	
+	<!-- trigger: 10110 -->
+	<quest id="17" reward="7" desk="Соловоей2"/>	
+	<!-- trigger: 11105 -->
+	<quest id="18" reward="7" desk="Бунтарка"/>	
+	<!-- trigger: 11109 -->
+	<quest id="19" reward="7" desk="Бунтарка"/>	
+	<!-- trigger: 11212 -->
+	<quest id="20" reward="10" desk="Лапландская сказка"/>		
+	<!-- trigger: 11402 -->
+	<quest id="21" reward="6" desk="Охотничьи угодья Князя 2"/>
+	<!-- trigger: 11702 -->
+	<quest id="22" reward="5" desk="Хозяин леса"/>
+	<!-- trigger: 11808 -->
+	<quest id="23" reward="7" desk="Кровавый Ворон"/>	
+	<!-- trigger: 12104 -->
+	<quest id="24" reward="5" desk="Сказочный край"/>
+	<!-- trigger: 12103 -->
+	<quest id="25" reward="5" desk="Сказочный край"/>
+	<!-- trigger: 12113 -->
+	<quest id="26" reward="7" desk="Обезлюдевший хутор"/>		
+	<!-- trigger: 12705 -->
+	<quest id="27" reward="6" desk="Сказка лесных кошмаров"/>
+	<!-- trigger: 13214 -->
+	<quest id="28" reward="6" desk="Избушка на курьих ножках"/>
+	<!-- trigger: 13302 -->
+	<quest id="29" reward="8" desk="Чудская деревня"/>	
+	<!-- trigger: 13305 -->
+	<quest id="30" reward="8" desk="Чудская деревня"/>		
+	<!-- trigger: 13814 -->
+	<quest id="31" reward="10" desk="Зачарованный город 2"/>
+	<!-- trigger: 14225 -->
+	<quest id="32" reward="10" desk="Летучий корабль"/>
+	<!-- trigger: 14502 -->
+	<quest id="33" reward="4" desk="Кладбище"/>		
+	<!-- trigger: 14904 -->
+	<quest id="34" reward="10" desk="Хоромы тверского боярина"/>
+	<!-- trigger: 15314 -->
+	<quest id="35" reward="7" desk="Лесной край"/>	
+	<!-- trigger: 15546 -->
+	<quest id="36" reward="9" desk="В скифской усыпальнице"/>		
+	<!-- trigger: 15751 -->
+	<quest id="37" reward="11" desk="Япония"/>
+	<!-- trigger: 16186 -->
+	<quest id="38" reward="11" desk="Япония 2"/>		
+	<!-- trigger: 17006 -->
+	<quest id="39" reward="6" desk="Сгоревший хутор"/>		
+	<!-- trigger: 20111 -->
+	<quest id="40" reward="5" desk="Склеп"/>
+	<!-- trigger: 20213 -->
+	<quest id="41" reward="18" desk="Китеж-град"/>			
+	<!-- trigger: 20236 -->
+	<quest id="42" reward="17" desk="Китеж-град"/>		
+	<!-- trigger: 20237 -->
+	<quest id="43" reward="17" desk="Китеж-град"/>
+	<!-- trigger: 20338 -->
+	<quest id="44" reward="17" desk="Осада Китеж-града"/>				
+	<!-- trigger: 20344 -->
+	<quest id="45" reward="17" desk="Осада Китеж-града"/>		
+	<!-- trigger: 20334 -->
+	<quest id="46" reward="18" desk="Осада Китеж-града"/>
+	<!-- trigger: 23502 -->
+	<quest id="47" reward="8" desk="Старая каменоломня"/>	
+	<!-- trigger: 23610 -->
+	<quest id="48" reward="8" desk="Купеческий двор у Торжка"/>		
+	<!-- trigger: 24287 -->
+	<quest id="49" reward="9" desk="Посолонь (Времена Года)"/>		
+	<!-- trigger: 24824 -->
+	<quest id="50" reward="6" desk="Лагерь бешеных колобков"/>
+	<!-- trigger: 24825 -->
+	<quest id="51" reward="6" desk="Лагерь бешеных колобков "/>		
+	<!-- trigger: 25109 -->
+	<quest id="52" reward="6" desk="Окрестности Переяславля"/>
+	<!-- trigger: 25110 -->
+	<quest id="53" reward="6" desk="Окрестности Переяславля"/>			
+	<!-- trigger: 25808 -->
+	<quest id="54" reward="11" desk="История о хрустальном шаре"/>
+	<!-- trigger: 26013 -->
+	<quest id="55" reward="10" desk="Черное болото"/>		
+	<!-- trigger: 26520 -->
+	<quest id="56" reward="15" desk="Подвал замка Нежити"/>	
+	<!-- trigger: 26723 -->
+	<quest id="57" reward="20" desk="Замок нежити"/>		
+	<!-- trigger: 26805 -->
+	<quest id="58" reward="15" desk="Логово минотавров"/>			
+	<!-- trigger: 26907 -->
+	<quest id="59" reward="8" desk="Свадьба на хуторе"/>			
+	<!-- trigger: 26923 -->
+	<quest id="60" reward="5" desk="Свадьба на хуторе"/>				
+	<!-- trigger: 27202 -->
+	<quest id="61" reward="5" desk="Проклятая деревня"/>			
+	<!-- trigger: 27706 -->
+	<quest id="62" reward="5" desk="Разбойничий лес"/>		
+	<!-- trigger: 28002 -->
+	<quest id="63" reward="6" desk="Стоянка половцев"/>		
+	<!-- trigger: 28114,28115 -->
+	<quest id="64" reward="7" desk="Боярская застава у Твери"/>		
+	<!-- trigger: 28325, 28313 -->
+	<quest id="65" reward="6" desk="По обе стороны дороги"/>
+	<!-- trigger: 28404 -->
+	<quest id="66" reward="3" desk="Дорога (Корсунь-Рыбацкая 2)"/>			
+	<!-- trigger: 66607 -->
+	<quest id="67" reward="30" desk="Темница демонов (шестая зона ада)"/>		
+	<!-- trigger: 84212 -->
+	<quest id="68" reward="14" desk="Принеси мне голову прекрасного принца"/>		
+	<!-- trigger: 30618 -->
+	<quest id="69" reward="10" desk="Остров Валаам"/>		
+	<!-- trigger: 70711 -->
+	<quest id="70" reward="10" desk="Мед поэзии"/>			
+	<!-- trigger: 77436 -->
+	<quest id="71" reward="12" desk="Лукоморья больше нет"/>				
+	<!-- trigger: 79643 -->
+	<quest id="72" reward="23" desk="Гиблый яр"/>		
+	<!-- trigger: 79933 -->
+	<quest id="73" reward="18" desk="Ховала"/>			
+	<!-- trigger: 80402 -->
+	<quest id="74" reward="15" desk="Детинец в степи"/>		
+	<!-- trigger: 96322 -->
+	<quest id="75" reward="30" desk="Прадуб"/>		
+	<!-- trigger: 96104 -->
+	<quest id="76" reward="15" desk="Баба-Яга 2 (лес)"/>		
+	<!-- trigger: 96525,96526 -->
+	<quest id="77" reward="7" desk="Мидгард - мир людей"/>	
+	<!-- trigger: 96534 -->
+	<quest id="78" reward="7" desk="Мидгард - мир людей"/>		
+	<!-- trigger: 30914 -->
+	<quest id="79" reward="15" desk="Дом Кудесницы Марьи"/>		
+	<!-- trigger: 46123 -->
+	<quest id="80" reward="16" desk="Сожженный лес"/>	
+	<!-- trigger: 47637 -->
+	<quest id="81" reward="7" desk="Дурман-трава"/>		
+	<!-- trigger: 56011 -->
+	<quest id="82" reward="9" desk="Хазарския крепость Саркел 28+"/>
+	<!-- trigger: 56810 -->
+	<quest id="83" reward="9" desk="Подземный город"/>		
+</daily_quest>

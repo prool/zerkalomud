@@ -77,7 +77,7 @@ if (%object.vnum% == 9161)
   else
     mecho Белый котенок съел рыбку.
   end
-  mpurge %object.iname%
+  mpurge %object%
   сесть
   эм принялся умываться
 else
@@ -103,7 +103,8 @@ if (%self.realroom% == 9107)
     else
       mecho Белый котенок съел рыбку.
     end
-    mpurge рыбка
+    calcuid fishy 9161 obj
+    mpurge %fishy%
     сесть
     эм принялся умываться
   else
@@ -117,7 +118,7 @@ end
 ~
 #9106
 лисица готовит~
-0 b 100
+0 b 50
 ~
 if (%random.2% == 1)
   эм приподняла крышку кастрюли и помешала содержимое
@@ -264,7 +265,7 @@ mecho - Там тебе еще пара советов, пригодятся, почитаешь на досуге.
 mecho Дедуля сделал несколько странных пассов.
 msend %actor% У вас закружилась голова, и на миг вы потеряли сознание.
 mechoaround %actor% ~~%actor.name% растворил%actor.u% в воздухе.
-mteleport %actor% 4056
+mteleport %actor.name% %actor.loadroom%
 mechoaround %actor% ~~%actor.name% появил%actor.u%, полн%actor.w% новых впечатлений. Видимо, только что из школы.
 ~
 #9112
@@ -370,15 +371,7 @@ wechoaround %actor% И %actor.name% исчез%actor.q% в ней.
 *присвоение чару той ренты откуда он зашел               
 set start %self.vnum% 
 eval buffer %actor.loadroom(%start%)%  
-*я предпочел бы простой  телепорт, но коли волк у тебя встречает, 
-*приходится ивращатся :)
-wdoor %self.vnum% up room 9100             
-wforce %actor% проснут
-wforce %actor% встать
-wforce %actor% вверх          
-wdoor %self.vnum% up purge
-*wteleport %actor(9100)%
+wteleport %actor% 9055
 wait 2s
-halt
 ~
 $~

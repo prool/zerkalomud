@@ -297,37 +297,28 @@ if (%actor.id% != %quest461.id%)
   halt
 end
 wait 3
-г Ты сделал это!
-г Спасибо тебе %actor.iname%.
+г Ты сделал%actor.g% это!
+г Спасибо тебе, %actor.iname%.
 wait 1s
 switch %random.10%
-break
-case 1
-  wait 1s
-  г Вот возьми, это тебе пригодится!
-  wait 1s
-  mload obj 46137
-  дать книг %actor.name%
-break
-case 2
-  wait 1s
-  г Вот возьми, это тебе пригодится!
-  mload obj 46139
-  дать копье %actor.name%
-break
-case 3
-  wait 1s
-  г Вот возьми, это тебе пригодится!
-  mload obj 46140
-  дать секир %actor.name%
-break
-default
-  wait 1s
-  г Вот возьми, это тебе пригодится!
-  mload obj 46138
-  дать мешок .%actor.name% 
-break
+  case 1
+    set objvnum 46137
+  break
+  case 2
+    set objvnum 46139
+  break
+  case 3
+    set objvnum 46140
+  break
+  default
+    set objvnum 46138
+  break
 done
+wait 1s
+г Вот возьми, это тебе пригодится!
+wait 1s
+mload obj %objvnum%
+дать all .%actor.name%
 detach 46123 %self.id%
 ~
 #46124

@@ -146,7 +146,7 @@ mecho Крестьянин обвел комнату блуждающим взором.
 mecho Крестьянин задумался.
 wait 1s
 г Слава богу... а я уж думал что в деревне из людей только моя семья осталась...
-msend %actor.name% Крестьянин бросился обнимать Вас.
+msend %actor% Крестьянин бросился обнимать Вас.
 mechoaround %actor% Крестьянин бросился обнимать %actor.rname%.
 wait 1s
 г Позвольте позвольте.. вы ведь не местные? 
@@ -167,7 +167,7 @@ wait 3s
 г Вот такие у нас дела, незнакомец,.. из людей остались только я, 
 г мои два сына, да дочка... если бы ты был так добр и нашел их...
 г Чует мое сердце, что-то с ними неладно...
-msend %actor.name% Крестьянин посмотрел на Вас взглядом, полным мольбы.
+msend %actor% Крестьянин посмотрел на Вас взглядом, полным мольбы.
 mechoaround %actor% Крестьянин посмотрел на %actor.vname% взглядом, полным мольбы.
 ~
 #50504
@@ -292,7 +292,7 @@ if (%h505%==%actor.name%) && (%c505%>1)
     remote h505  %quest505.id%
     remote c505  %quest505.id%
   end
-  mpurge %self.name%
+  mpurge %self%
 end
 ~
 #50511
@@ -317,7 +317,7 @@ if (%h505%==%actor.name%) && (%c505%>1)
     remote h505  %quest505.id%
     remote c505  %quest505.id%
   end
-  mpurge %self.name%
+  mpurge %self%
 end
 ~
 #50512
@@ -356,12 +356,12 @@ if (%h505%==%actor.name%) && (%c505%>1)
   г Опоить меня задумали... ну ничего... ща сбегаю за отцом и мы вам покажем...
   mecho Крестьянин убежал.
   if (%exist.mob(50516)%)
-    mforce бес г Ты разбудил его... теперь мы будет развлекаться с тобой, %actor.name%!
     calcuid load_mob 50516 mob
+    mforce %load_mob% г Ты разбудил его... теперь мы будем развлекаться с тобой, %actor.name%!
     attach 50520 %load_mob.id%
     exec 50520 %load_mob.id%
   end
-  mpurge %self.name%
+  mpurge %self%
 end
 ~
 #50514
@@ -412,27 +412,14 @@ if (%exist.mob(50516)%)
 end
 г Пожалуйста, умоляю, не надо убивать меня...
 г Я знаю путь в преисподню...
-г Я знаю ты хочешь попасть туда...
+г Я знаю, ты хочешь попасть туда...
 г Отнекиваться бесполезно... мне лучше известны желания смертных...
 wait 3s
-mecho С этими словами Шинкарь развернулся и пошел по направлению выходя из трактира.
+mecho С этими словами Шинкарь развернулся и пошел по направлению к выходу из трактира.
 mecho Вы невольно последовали за ним.
 wait 3s
-* set firstchar %self.people%
-* while %firstchar%
-* set pc %firstchar.next in room%
-* if %firstchar.vnum% == -1
-mteleport all 50545 horse
-* end
-* if %pc%
-*  makeuid firstchar %pc.id%
-* else
-*  set firstchar 0
-* end
-* eval firstchar %firstchar.next in room%
-* done
-* unset firstchar
-* unset pc
+mat 50545 mecho Кто-то пришел сюда в компании шинкаря.
+mteleport all 50545
 mteleport %self% 50545
 wait 1
 г Вот я вас и довел.. а теперь вам самое время умереть.
@@ -492,30 +479,25 @@ if (%actor.vnum% != -1)
   halt
 end
 if (%actor.class% == 10) || (%actor.class% == 5)
-  if (%actor.level% > 24)
-    if (%actor.class% == 5)
-      mskillturn %actor.name% веерная.защита set
-      г Я рад, что смог поделиться с кем-то своими знаниями.
-      г Веерная защита полезное умение.
-      mecho Крестьянин развернулся и ушел.
-      mpurge %self.name%
-    end
-    if (%actor.class% == 10)
-      mskillturn %actor.name% найти set
-      г Я рад, что смог поделиться с кем-то своими знаниями.
-      г Теперь ты быстро сможешь почувствовать, где находятся другие.
-      mecho Крестьянин развернулся и ушел.
-      mpurge %self.name%
-    end
-  else
-    г Ты еще мал для такого умения.
+  if ((%actor.class% == 5) && %actor.can_get_skill(веерная защита)%)
+    mskillturn %actor% веерная.защита set
+    г Я рад, что смог поделиться с кем-то своими знаниями.
+    г Веерная защита - полезное умение.
+  end
+  if ((%actor.class% == 10) && %actor.can_get_skill(найти)%)
+    mskillturn %actor.name% найти set
+    г Я рад, что смог поделиться с кем-то своими знаниями.
+    г Теперь ты быстро сможешь почувствовать где находятся другие.
+  end
+  if (!%actor.can_get_skill(найти)% && !%actor.can_get_skill(веерная защита)%)
+    г Мал%actor.g% ты еще для моей науки.
+    взд
   end
 else
   г Извини, но я не считаю достойным учить тебя...
-  mecho Крестьянин развернулся и ушел.
-  mpurge %self.name%
-  halt
 end
+mecho Крестьянин развернулся и ушел.
+mpurge %self%
 ~
 #50522
 лоадкрестьянина~

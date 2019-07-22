@@ -32,12 +32,12 @@ say Принеси мне кусочек, и я тебе за это заплачу!
 mload obj 5600
 ~
 #5603
-дал феле рыбаку~
+дал филе рыбаку~
 0 j 100
 ~
 wait 1
-if  %object.name% == филе
-  mpurge филе
+if  %object.vnum% == 5600
+  mpurge %object%
   mecho Рыбак съел филе.
   wait 3
   облиз
@@ -74,10 +74,10 @@ wload mob 5612
 дал что-нить рыбаку~
 0 j 100
 ~
-if %object.name% == филе
+if  %object.vnum% == 5600
   say  Ну это может и пригодиться..
   wait 1
-  mpurge филе
+  mpurge %object%
 else 
   say Зачем мне это?
 end

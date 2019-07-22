@@ -30,7 +30,7 @@ if %actor.vnum% != -1 || !(%exist.mob(4420)%)
   halt
 end
 wait 1
-if %questor44% 
+if %questor44%
   if %questor44sex% == 1
     say Я уже просил тут помочь одного молодца, %questor44tname% кличут, так вот найди его, передай, что нехорошо старых обманывать.
     wait 1
@@ -42,9 +42,8 @@ if %questor44%
     say Обещала помочь и сгинула, бахвалилась, что разбойничков не боится, а ишь как, струсила наверно. Пусть детей рожает, а не подвиги ратные совершает.
     halt
   end
-  
 end 
-*if %actor.quested(4401)% 
+*if %actor.quested(4401)%
 *  msend %actor%  Я тебя уже просил о помощи, и вот жду до сих пор.
 *  вздох
 *  halt
@@ -77,8 +76,10 @@ elseif
 elseif
   msend %actor% - Ступай, принеси мне его труп.
 end
-msend %actor% - Старик воздел глаза к небу и что-то прошептал...
-dg_cast 'освящение' %actor.name%
+if (%actor.realroom% == %self.realroom%)
+  msend %actor% - Старик воздел глаза к небу и что-то прошептал...
+  dg_cast 'освящение' .%actor.name%
+end
 *%actor.setquest(4401)%
 attach 4402 %self.id%
 *detach 4401 %self.id%
@@ -128,30 +129,44 @@ unset questor44sex
 unset killer44
 switch %actor.class%
   case 0
-    mspellturn %actor.name% освящение set
+    if (%actor.can_get_spell(освящение)%)
+      mspellturn %actor% освящение set
+    end
   break
   case 1
-    mspellturn %actor.name% шаров.молн set
+    if (%actor.can_get_spell(шаров молн)%)
+      mspellturn %actor% шаров.молн set
+    end
   break
   case 6
-    mspellturn %actor.name% длит.молч set
+    if (%actor.can_get_spell(длит молч)%)
+      mspellturn %actor% длит.молч set
+    end
   break
   case 7
-    mspellturn %actor.name% оцепенение set
+    if (%actor.can_get_spell(оцепенение)%)
+      mspellturn %actor% оцепенение set
+    end
   break
   case 8
-    mspellturn %actor.name% сеть set
+    if (%actor.can_get_spell(сеть)%)
+      mspellturn %actor% сеть set
+    end
   break
   case 9
-    mskillturn %actor.name% лидерство set
+    if (%actor.can_get_skill(лидерство)%)
+      mskillturn %actor% лидерство set
+    end
   break
   case 12
-    mspellturn %actor.name% насыщение set
+    if (%actor.can_get_spell(насыщение)%)
+      mspellturn %actor% насыщение set
+    end
   break
   case 13
     if ((%random.2% == 1) && (%world.curobjs(214)% < 50))
       mload obj 214
-      дать рун %actor.name%
+      дать рун .%actor.name%
     end
   break
   default
@@ -160,16 +175,16 @@ done
 eval rnd %random.100%
 if %rnd% < 4
   mload obj 4413
-  дать свиток %actor.name%
+  дать свиток .%actor.name%
 elseif %rnd% < 7
   mload obj 4411
-  дать береста %actor.name%
+  дать береста .%actor.name%
 elseif %rnd% < 10
   mload obj 4412
-  дать свиток %actor.name%
+  дать свиток .%actor.name%
 elseif (%rnd% < 30) && (%world.curobjs(4407)% < 30)
   mload obj 4407
-  дать тесак %actor.name%
+  дать тесак .%actor.name%
 else
   msend %actor% Старик дал Вам немного денег.
   %actor.gold(+500)%

@@ -15,6 +15,7 @@ d0f0m0n0o0p0q0z0b1 d0f0k0x0 -600 E
 0d0+0 490000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 Str: 20
 Dex: 13
 Int: 18
@@ -93,6 +94,7 @@ d0f0m0n0o0p0q0z0b1 d0f0k0x0 -600 E
 0d0+0 540000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 Str: 20
 Dex: 13
 Int: 18
@@ -148,6 +150,7 @@ d0f0m0n0o0p0q0z0b1 d0f0k0x0 -600 E
 0d0+0 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 Str: 20
 Dex: 13
 Int: 18
@@ -208,6 +211,7 @@ d0f0m0n0o0p0q0z0b1 d0f0k0x0 -600 E
 0d0+0 610000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 Str: 20
 Dex: 13
 Int: 18
@@ -267,6 +271,7 @@ d0f0m0n0o0p0q0z0b1 d0f0k0x0 -600 E
 0d0+0 490000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 Str: 20
 Dex: 13
 Int: 18
@@ -332,6 +337,7 @@ d0f0m0n0o0p0q0z0b1 d0f0k0x0 0 E
 0d0+0 580000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 Str: 20
 Dex: 13
 Int: 18
@@ -381,6 +387,7 @@ d0f0m0n0o0p0q0z0b1 d0f0k0x0t1 0 E
 0d0+0 570000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 Str: 20
 Dex: 13
 Int: 18
@@ -424,6 +431,7 @@ d0f0m0n0o0p0q0z0b1 d0f0k0x0 0 E
 0d0+0 550000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 Str: 20
 Dex: 13
 Int: 18
@@ -529,6 +537,7 @@ d0f0m0n0o0p0q0z0b1 d0f0k0x0 0 E
 0d0+0 700000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 Str: 20
 Dex: 13
 Int: 18
@@ -611,6 +620,7 @@ c0d0f0l0m0n0o0p0x0z0A0 d0f0k0m1 0 E
 0d0+0 850000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
 BareHandAttack: 3
 Str: 25
 Dex: 18
@@ -667,6 +677,7 @@ b0c0d0f0l0m0n0o0p0x0z0A0 d0f0k0m1 0 E
 20d30+400 710000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 BareHandAttack: 3
 Str: 25
 Dex: 18
@@ -740,6 +751,7 @@ c0d0f0l0m0n0o0p0x0z0A0 d0f0k0m1 0 E
 20d30+400 710000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 Str: 18
 Dex: 18
 Int: 25
@@ -795,6 +807,7 @@ c0d0f0l0m0n0o0p0x0z0A0 d0f0k0m1o1p1q1 0 E
 20d30+400 710000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 Str: 18
 Dex: 18
 Int: 25
@@ -858,6 +871,7 @@ c0d0f0l0m0n0o0p0x0z0A0 d0f0h0k0m1 0 E
 20d30+400 710000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 Str: 18
 Dex: 18
 Int: 25
@@ -940,7 +954,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
-Race: 111
+Race: 114
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
@@ -976,7 +990,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
-Race: 111
+Race: 114
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
@@ -1046,6 +1060,7 @@ c0d0f0l0m0n0o0p0x0z0A0 d0f0k0m1 0 E
 0d0+0 850000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
 BareHandAttack: 3
 Str: 25
 Dex: 18

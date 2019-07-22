@@ -111,9 +111,6 @@ switch %random.8%
     mload obj 28813
   break
 done
-if %world.curobjs(1247)% < 1 && %random.100% < 3
-  mload obj 1247
-end
 ~
 #28802
 смертьдряхлого~

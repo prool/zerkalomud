@@ -384,7 +384,7 @@ emot гикнул, свистнул, и топнул ногой.
 %echo% Белый валун покрылся зеленью и распался в прах.
 %purge% белый.валун
 calcuid magus 25505 mob
-purge %magus%
+%purge% %magus%
 calcuid magus 25503 mob
 attach 25516 %magus.id%
 calcuid smith 25502 mob
@@ -539,7 +539,7 @@ switch %random.4%
 if (%world.curobjs(25511)% < 5) 
   %load% obj 25511
   %send% %actor% _Вы умело содрали шкурку с заячьего трупика.
-  %echoaround% %actor% %actor.iname% _ЖЕСТОКО содрал%actor.g% шкуру с бедного зайчишки... 
+  %echoaround% %actor% %actor.iname% ЖЕСТОКО содрал%actor.g% шкуру с бедного зайчишки...
 end
 ~
 #25522

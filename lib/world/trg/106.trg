@@ -160,10 +160,16 @@ eval i 0
 while (%i% < %limjump%)
   eval rndroom %random.95599%
   %echoaround% %self% %self.iname% залихватски гикнул на оленей, и упряжка полетела дальше.
-  if ((%world.room(%rndroom%)%) && (%rndroom% > 3999) && (!%rndroom.flag(замок)%))
-    %teleport% %self.id% %rndroom%
-    %load% obj 10630
-    брос снеж
+  if (%world.room(%rndroom%)% && (%rndroom% > 3999))
+    set temp %world.room(%rndroom%)%
+    if (!%temp.flag(замок)%)
+      %teleport% %self.id% %rndroom%
+      %load% obj 10630
+      брос снеж
+    else
+      %teleport% %self.id% 4099
+      wait 20s
+    end
   else
     %teleport% %self.id% 4099
     wait 20s
@@ -216,7 +222,7 @@ if ((%cmd% != забрать) || (%arg% != подарок))
   halt
 end
 if (%actor.level% < 25)
-  %send% %actor% - Мал%actor.q% ты еще подарки просить.
+  %send% %actor% - Ма%actor.q% ты еще подарки просить.
   halt
 end
 *получаем метку года
@@ -226,7 +232,7 @@ else
   set nyear %date.year%
 end
 if (%actor.getquest(10600)% == %nyear%)
-  %send% %actor% - Ты уже получал%actor.q% в этом году подарки!
+  %send% %actor% - Ты уже получа%actor.q% в этом году подарки!
   %send% %actor% - Приходи в следующем году.
   %send% %actor% &gЕлочка широко улыбнулась.&n
   halt
@@ -240,13 +246,18 @@ calcuid present %presentvnum% obj
 %send% %actor% &gЕлочка достала для Вас подарок..&n
 %send% %actor% - Тебе, %actor.iname%, Дед Мороз принес %present.vname% на Новый Год.
 %send% %actor% - Счастливого Нового Года, %actor.iname%!
-%echoaround% %actor% %actor.iname% развернул%actor.q% свой подарок и завизжал%actor.q% от радости!
+%echoaround% %actor% %actor.iname% разверну%actor.q% свой подарок и завизжа%actor.q% от радости!
 set buf %actor.setquest(10600 %nyear%)%
 ~
 #10615
 Трансформ крошечной снежинки~
 1 g 100
 ~
+if %snow106flake%
+  halt
+end
+set snow106flake 1
+worlds snow106flake
 wait 1
 set count 0
 foreach items %actor.objs%
@@ -257,7 +268,8 @@ done
 if (%count% < 10)
   halt
 end
-eval count 0
+set count 0
+log %actor.name% трансформирует снежинки!
 foreach snow %actor.objs%
   if ((%snow.vnum% == %self.vnum%) && (%snow% != %self%))
     %purge% %snow%
@@ -272,12 +284,19 @@ oecho &WКрошечные снежинки завертелись в стремительном танце и через мгновение с
 oload obj 10631
 eval t %world.obj(10631)%
 %t.put(%actor.id%)%
+set snow106flake 0
+worlds snow106flake
 opurge %self.id%
 ~
 #10616
 Трансформ мелкой снежинки~
 1 g 100
 ~
+if %snow106flake%
+  halt
+end
+set snow106flake 1
+worlds snow106flake
 wait 1
 set count 0
 foreach items %actor.objs%
@@ -288,7 +307,8 @@ done
 if (%count% < 10)
   halt
 end
-eval count 0
+set count 0
+log %actor.name% трансформирует снежинки!
 foreach snow %actor.objs%
   if ((%snow.vnum% == %self.vnum%) && (%snow% != %self%))
     %purge% %snow%
@@ -303,12 +323,19 @@ oecho &WМаленькие снежинки завертелись в стремительном танце и через мгновение с
 oload obj 10632
 eval t %world.obj(10632)%
 %t.put(%actor.id%)%
+set snow106flake 0
+worlds snow106flake
 opurge %self.id%
 ~
 #10617
 Трансформ небольшой снежинки~
 1 g 100
 ~
+if %snow106flake%
+  halt
+end
+set snow106flake 1
+worlds snow106flake
 wait 1
 set count 0
 foreach items %actor.objs%
@@ -319,7 +346,8 @@ done
 if (%count% < 10)
   halt
 end
-eval count 0
+set count 0
+log %actor.name% трансформирует снежинки!
 foreach snow %actor.objs%
   if ((%snow.vnum% == %self.vnum%) && (%snow% != %self%))
     %purge% %snow%
@@ -334,12 +362,19 @@ oecho &WНебольшие снежинки завертелись в стремительном танце и через мгновение с
 oload obj 10633
 eval t %world.obj(10633)%
 %t.put(%actor.id%)%
+set snow106flake 0
+worlds snow106flake
 opurge %self.id%
 ~
 #10618
 Трансформ просто снежинки~
 1 g 100
 ~
+if %snow106flake%
+  halt
+end
+set snow106flake 1
+worlds snow106flake
 wait 1
 set count 0
 foreach items %actor.objs%
@@ -350,7 +385,8 @@ done
 if (%count% < 10)
   halt
 end
-eval count 0
+set count 0
+log %actor.name% трансформирует снежинки!
 foreach snow %actor.objs%
   if ((%snow.vnum% == %self.vnum%) && (%snow% != %self%))
     %purge% %snow%
@@ -365,6 +401,8 @@ oecho &WСнежинки завертелись в стремительном танце и через мгновение слились в б
 oload obj 10644
 eval t %world.obj(10644)%
 %t.put(%actor.id%)%
+set snow106flake 0
+worlds snow106flake
 opurge %self.id%
 ~
 #10620
@@ -562,5 +600,71 @@ end
 1 n 100
 ~
 %self.val0(1)%
+~
+#10656
+new trig~
+0 f 100
+~
+say My trigger commandlist is not complete!
+~
+#10690
+new trigger~
+0 cfg 0
+~
+
+~
+#10691
+new trigger~
+0 cfg 0
+~
+
+~
+#10692
+new trigger~
+0 cfg 0
+~
+
+~
+#10693
+new trigger~
+0 a 0
+~
+
+~
+#10694
+new trigger~
+0 cfg 0
+~
+
+~
+#10695
+new trigger~
+0 cfg 0
+~
+
+~
+#10696
+new trigger~
+0 cfg 0
+~
+
+~
+#10697
+new trigger~
+0 cfg 0
+~
+
+~
+#10698
+new trigger~
+0 cfg 0
+~
+
+~
+#10699
+new trigger~
+0 cfg 0
+~
+
 ~
 $~

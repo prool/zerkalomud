@@ -40,7 +40,7 @@ wait 2s
 say Не может быть! Ты смог сделать это! Вот молодец!
 wait 2s
 if (%world.curobjs(33110)% < 5) && (%random.100% < 26)
-  mecho Краб ловко разрезал клешней утробу и достал от туда водянистый лук..
+  mecho Краб ловко разрезал клешней утробу и достал оттуда водянистый лук.
   mload obj 33110
   wait 2s
   дат лук .%actor.name%
@@ -238,9 +238,7 @@ wdamage %temp.name% 75
 0 j 100
 ~
 wait 1
-calcuid predmet %object.vnum% obj
-wait 1
-mpurge %predmet%
+mpurge %object%
 wait 2
 say Ну зачем мне это???  Хотя, оставим про запас.
 ~

@@ -32,29 +32,33 @@ end
 0 j 100
 ~
 wait 1
-if (( %object.vnum% == 5500 ) && !%self.fighting%)
+if ((%object.vnum% == 5500) && !%self.fighting%)
   wait 1
   mpurge %object%
   mecho Хозяйка осмотрела окровавленное крыло.
-  say Ух ты, ты убил окаянных!
-  dg_cast 'насыщение' %actor.name%
-  dg_cast 'восстановление' %actor.name%
-  dg_cast 'исцеление' %actor.name%
-  dg_cast 'освящение' %actor.name%
-  calcuid hostr 5514 mob
-  attach 5504 %hostr.id%
-  attach 5507 %hostr.id%
+  say Ух ты, ты убил%actor.g% окаянных!
+  if (%actor.canbeseen%)
+    dg_cast 'насыщение' .%actor.name%
+    dg_cast 'восстановление' .%actor.name%
+    dg_cast 'исцеление' .%actor.name%
+    dg_cast 'освящение' .%actor.name%
+  end
+  if (%exist.mob(5514)%)
+    calcuid hostr 5514 mob
+    attach 5504 %hostr.id%
+    attach 5507 %hostr.id%
+  end
   if ((%random.1000% <= 200) && (%world.curobjs(516)% < 1))
     mload obj 516
-    дать береста %actor.name%
+    дать all %actor.name%
   end
   if (%world.curobjs(234)% < 50) && (%random.1000% <= 100)
     mload obj 234
-    дать рун %actor.name%
+    дать all %actor.name%
   end
   if (%world.curobjs(1731)% < 1) && (%random.1000% <= 50)
     mload obj 1731
-    дать рецепт %actor.name%
+    дать all %actor.name%
   end
   say Благодарю, ты выручаешь нас.
 end

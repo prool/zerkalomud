@@ -61,7 +61,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 100
 Class: 105
-Race: 
+Race: 105
 Height: 190
 Weight: 90
 Special_Bitvector: h0i0j0p0b1c1m3B3C3 
@@ -191,7 +191,7 @@ Cha: 32
 Size: 100
 LikeWork: 100
 Class: 105
-Race: 
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: g0h0i0j0u0m3B3C3 
@@ -475,7 +475,7 @@ E
 ~
 Седой слуга, хранящий ключи от всех комнат замка.
 ~
-b0d0g0l0m0n0o0t0u0x0B0o1f2 d0e0f0k0 600 E
+b0d0g0l0m0n0o0t0u0x0B0o1f2u2 d0e0f0k0 600 E
 40 4 -10 10d90+5000 1d50+100
 0d0+0 0
 8 8 1
@@ -578,7 +578,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 100
 Class: 105
-Race: 
+Race: 105
 Height: 190
 Weight: 90
 Special_Bitvector: g0h0i0j0p0B3C3 
@@ -720,7 +720,7 @@ E
 бесшумно скользят в воде и прикидываются гнилым бревном.
 ~
 d0e0n0o0p0q0r0t0u0x0y0c1r1f2g2i2 c0d0e0f0k0r0s0t0A0C0a1m1w1 -600 E
-50 0 -10 0d0+30000 25d25+125
+1 0 -10 0d0+30000 25d25+125
 0d0+0 1
 8 8 1
 BareHandAttack: 4
@@ -1145,6 +1145,8 @@ b0d0o0p0q0r0t0x0o1s1f2 d0f0k0 100 E
 6 6 1
 Size: 30
 ExtraAttack: 1
+Class: 100
+Race: 100
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -1176,7 +1178,7 @@ Con: 40
 Cha: 40
 Size: 30
 Class: 100
-Race: 100
+Race: 109
 Height: 198
 Weight: 200
 Special_Bitvector: l0 
@@ -1211,6 +1213,8 @@ Con: 25
 Cha: 3
 Size: 70
 ExtraAttack: 3
+Class: 100
+Race: 100
 Height: 170
 Weight: 200
 Special_Bitvector: j0 

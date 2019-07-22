@@ -102,7 +102,7 @@ end
 if (%actor.name% == %quest666.name%)
   if %object.vnum% == 66633
     wait 10
-    mpurge %object.name%
+    mpurge %object%
     г Ты сделал это! Ты победил зло!
     г Спасибо тебе %actor.name%
     г Теперь я вновь обрету свободу!

@@ -14,6 +14,7 @@ a0b0d0g0n0o0o1 d0f0k0 600 E
 1 1 1 1d1+1 1d1+1
 0d0+0 1
 8 8 1
+Absorbe: 1
 BareHandAttack: 6
 Destination: 61447
 Size: 1
@@ -41,6 +42,7 @@ a0b0d0g0n0o1 d0f0k0 600 E
 1 1 1 1d1+1 1d1+1
 0d0+0 1
 5 5 1
+Absorbe: 1
 Size: 1
 Class: 102
 Race: 101
@@ -65,6 +67,7 @@ d0g0l0m0o0A0 d0s0t1 0 E
 27 0 -7 30d20+2000 6d6+12
 30d3+150 125000
 8 8 1
+Absorbe: 27
 BareHandAttack: 9
 Destination: 108
 Destination: 116
@@ -110,6 +113,7 @@ d0g0l0m0y0A0 d0z0k1m1 0 E
 27 0 -5 20d20+2000 6d6+10
 30d3+160 120000
 8 8 1
+Absorbe: 27
 BareHandAttack: 2
 Destination: 123
 Destination: 124
@@ -149,6 +153,7 @@ b0d0g0l0m0n0o0A0 d0h0k0t1a2 0 E
 29 -10 -10 50d20+2000 6d6+20
 40d11+500 250000
 8 8 1
+Absorbe: 29
 Destination: 121
 Str: 22
 Dex: 20
@@ -189,6 +194,7 @@ c0d0g0l0o0 d0 0 E
 25 2 -5 30d10+1600 5d5+10
 5d2+150 100000
 8 8 2
+Absorbe: 25
 BareHandAttack: 8
 Str: 15
 Dex: 18
@@ -228,6 +234,7 @@ c0d0g0l0m0h1 d0m0z0A0a2e2 0 E
 25 0 -7 40d10+1500 6d6+12
 15d2+150 100000
 8 8 2
+Absorbe: 25
 BareHandAttack: 1
 Str: 20
 Dex: 30
@@ -268,6 +275,7 @@ c0d0f0g0m0A0 d0d1 -600 E
 23 0 -5 40d10+1800 7d5+12
 15d2+100 75000
 8 8 1
+Absorbe: 23
 Str: 25
 Dex: 17
 Int: 16
@@ -306,6 +314,7 @@ b0d0f0g0m0n0o0 d0k0t0u0z0A0C0m1a2 -600 E
 0d0+0 300000
 8 8 1
 Saves: -10 -10 -10 -10
+Absorbe: 30
 BareHandAttack: 4
 Str: 24
 Dex: 21
@@ -339,6 +348,7 @@ c0d0g0j0l0m0n0A0 b0f0k0s0z0A0m1 0 E
 25 0 -7 40d10+1200 6d6+6
 10d6+150 90000
 8 8 1
+Absorbe: 25
 BareHandAttack: 11
 Str: 20
 Dex: 24
@@ -376,6 +386,7 @@ b0d0g0j0m0A0 d0 0 E
 29 -3 -5 60d10+1500 5d5+10
 30d2+300 200000
 8 8 1
+Absorbe: 29
 Destination: 61408
 Destination: 61407
 Str: 23
@@ -417,6 +428,7 @@ a0b0d0g0 d0f0k0r0m1t1 600 E
 29 3 -2 50d20+0 4d5+0
 50d10+1 200000
 8 8 1
+Absorbe: 29
 Str: 25
 Dex: 21
 Int: 15
@@ -433,7 +445,6 @@ Special_Bitvector: b1c1d1
 Skill: 4 50
 Skill: 136 60
 E
-T 61405
 #61412
 поддатый выпивоха ~
 поддатый выпивоха~
@@ -450,6 +461,7 @@ c0d0f0g0A0 d0d1 -600 E
 24 5 -3 20d15+1200 5d5+10
 10d3+100 80000
 8 8 1
+Absorbe: 24
 Str: 18
 Dex: 17
 Con: 18
@@ -481,6 +493,7 @@ d0f0g0m0o0 d0f0k0z0m1 -600 E
 27 2 -5 50d12+1500 5d5+12
 0d0+0 120000
 8 8 1
+Absorbe: 27
 BareHandAttack: 4
 Str: 22
 Dex: 20
@@ -521,6 +534,7 @@ d0g0d1e1g1 d0k0m1 -600 E
 27 2 -5 30d10+1500 5d5+10
 0d0+0 120000
 8 8 1
+Absorbe: 27
 BareHandAttack: 4
 Str: 20
 Dex: 20
@@ -551,6 +565,7 @@ d0e0g0j0k0m0q0z0i1 d0k0x0z0A0 -600 E
 25 4 -5 50d10+1500 5d5+10
 0d0+0 100000
 8 8 2
+Absorbe: 25
 BareHandAttack: 15
 Str: 17
 Dex: 15
@@ -580,11 +595,13 @@ E
 ~
 Злобная и уродливая старушенция обдумывает, насколько вкусный выйдет из вас обед
 ~
-b0c0d0f0g0n0o0r0z0A0 d0k0c2 -600 E
+b0c0d0f0g0n0o0r0A0 d0k0c2 -600 E
 32 0 -3 200d5+2500 6d6+12
 0d0+0 500000
 8 8 2
 Saves: -14 -14 -14 -14
+CastSuccess: 23
+Absorbe: 32
 Str: 22
 Dex: 22
 Int: 22
@@ -636,6 +653,7 @@ b0d0g0n0o0o1 d0f0k0x0n1 -600 E
 1 0 0 1d1+1 1d1+1
 0d0+0 4
 8 8 2
+Absorbe: 1
 Size: 1
 Class: 102
 Race: 112
@@ -659,6 +677,7 @@ d0g0 A0m1 0 E
 25 0 -4 20d10+1800 7d5+12
 0d0+0 100000
 8 8 2
+Absorbe: 25
 BareHandAttack: 1
 Str: 20
 Dex: 25
@@ -692,6 +711,7 @@ d0g0a1m1 k0 0 E
 23 0 -10 50d2+1200 5d5+12
 0d0+0 70000
 8 8 2
+Absorbe: 23
 BareHandAttack: 12
 Str: 15
 Dex: 15
@@ -699,7 +719,7 @@ Size: 50
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
-Race: 104
+Race: 105
 Height: 198
 Weight: 50
 Special_Bitvector: n0 
@@ -723,6 +743,7 @@ b0d0g0l0m0A0 d0r0 0 E
 29 0 -5 60d10+2200 7d6+12
 20d10+150 200000
 8 8 1
+Absorbe: 29
 BareHandAttack: 3
 Str: 25
 Dex: 22
@@ -762,7 +783,8 @@ T 61447
 b0c0d0g0A0 0 0 E
 27 5 -5 20d10+700 10d5+10
 20d20+200 120000
-8 8 2
+6 6 2
+Absorbe: 27
 BareHandAttack: 2
 Str: 15
 Dex: 25
@@ -802,6 +824,7 @@ c0d0g0h0j0A0 k0r0A0m1 0 E
 27 2 -5 50d10+1800 6d6+12
 30d5+50 140000
 8 8 1
+Absorbe: 27
 BareHandAttack: 10
 Str: 20
 Dex: 24
@@ -840,6 +863,7 @@ b0d0f0g0m0b1 d0k0z0m1 -600 E
 26 2 -4 30d20+1400 6d6+10
 0d0+0 110000
 8 8 1
+Absorbe: 26
 BareHandAttack: 15
 Str: 20
 Dex: 20
@@ -878,6 +902,7 @@ b0c0d0f0g0A0 d0k0r0 0 E
 28 -3 -5 40d10+1500 6d6+12
 30d3+200 180000
 8 8 1
+Absorbe: 28
 Str: 25
 Dex: 19
 Int: 15
@@ -911,6 +936,7 @@ b0c0d0g0A0 C0m1 0 E
 29 0 -6 100d20+2000 8d5+12
 150d2+300 200000
 8 8 1
+Absorbe: 29
 Str: 22
 Dex: 20
 Int: 18
@@ -950,6 +976,7 @@ b0d0g0 0 0 E
 20 5 -3 25d3+1000 5d5+12
 0d0+0 40000
 8 8 2
+Absorbe: 20
 BareHandAttack: 15
 Str: 16
 Dex: 18
@@ -980,6 +1007,7 @@ b0d0g0 0 0 E
 20 5 -3 30d3+1000 5d5+12
 0d0+0 40000
 8 8 2
+Absorbe: 20
 BareHandAttack: 15
 Str: 16
 Dex: 17
@@ -1009,6 +1037,7 @@ b0d0f0g0 m1 0 E
 23 2 -4 100d3+1200 6d6+12
 0d0+0 75000
 8 8 1
+Absorbe: 23
 BareHandAttack: 15
 Str: 20
 Dex: 20
@@ -1041,7 +1070,8 @@ E
 b0d0g0 d0k0t1 0 E
 28 0 -7 50d20+2000 6d6+12
 30d2+500 150000
-8 8 1
+6 6 1
+Absorbe: 28
 BareHandAttack: 7
 Str: 21
 Dex: 21
@@ -1091,6 +1121,7 @@ d0g0j0 d0f0k0t0x0 -600 E
 26 4 -4 10d20+1500 6d5+12
 0d0+0 110000
 8 8 1
+Absorbe: 26
 BareHandAttack: 8
 Str: 20
 Dex: 20

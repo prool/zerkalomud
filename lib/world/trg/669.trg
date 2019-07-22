@@ -2,14 +2,14 @@
 Добыть глаз и шкуру лесного духа~
 0 f 100
 ~
-if %random.3% == 2
-  msend %actor.name% Немного потрудившись, Вы вырезали из трупа глаз.
-  mechoaround %actor.name% %actor.iname% брезгливо вырезал%actor.g% глаз из трупа.
+if (%random.3% == 2)
+  msend %actor% Немного потрудившись, Вы вырезали из трупа глаз.
+  mechoaround %actor% %actor.iname% брезгливо вырезал%actor.g% глаз из трупа.
   mload obj 66907
 end
-if %random.3% == 2 
-  msend %actor.name% Немного повозившись, Вы сняли шкуру с трупа.
-  mechoaround %actor.name% %actor.iname% кряхтя и ворча, снял%actor.g% с трупа шкуру.             
+if (%random.3% == 2)
+  msend %actor% Немного повозившись, Вы сняли шкуру с трупа.
+  mechoaround %actor% %actor.iname% кряхтя и ворча, снял%actor.g% с трупа шкуру.           
   switch %self.vnum%
     case 66911
       mload obj 66908
@@ -119,35 +119,35 @@ if (%actor.name% == %quest669.name%)
 Страж у ворот_2~
 0 j 100
 ~
-if (%actor.name% == %quest669.name%)
-  if (%object.iname% == Разрешение)
-    wait 1s
-    г Чего ты мне суешь это штуковину?
-    г На кой она мне нужна?!
-    wait 1s
-    г Ну, хотя, обожди чуток.
-    mecho Сторож начал с интересом рассматривать буковки на пергаменте.
-    wait 3s
-    г Ладно, как я понимаю, старейшина дал добро на открытие ворот.
-    хохот
-    г Может оставишь мне свои куны... так, на хранение.
-    хих
-    wait 1s
-    г Все равно, всем кто туда уходил, они уже не понадобятся.
-    ухм
-    wait 1s
-    г Ладно, только смотри, сюда их не замани!
-    дрож
-    wait 2s
-    mecho Сторож подошел к стене и нажал на какой-то камень.
-    mecho Кругом все задрожало, и ворота медленно распахнулись.
-    mdoor 66925 east room 66924
-    mdoor 66924 west room 66925
-    mpurge разрешение
-    calcuid delete_trig 66908 mob
-    detach 66907 %delete_trig.id% 
-    detach 66908 %delete_trig.id% 
-  end 
+wait 1s
+г Чего ты мне суешь это штуковину?
+г На кой она мне нужна?!
+if (%actor.name% == %quest669.name%) && (%object.vnum% == 66901)
+  wait 1s
+  г Ну, хотя, обожди чуток.
+  mecho Сторож начал с интересом рассматривать буковки на пергаменте.
+  wait 3s
+  г Ладно, как я понимаю, старейшина дал добро на открытие ворот.
+  хохот
+  г Может оставишь мне свои куны... так, на хранение.
+  хих
+  wait 1s
+  г Все равно, всем кто туда уходил, они уже не понадобятся.
+  ухм
+  wait 1s
+  г Ладно, только смотри, сюда их не замани!
+  дрож
+  wait 2s
+  mecho Сторож подошел к стене и нажал на какой-то камень.
+  mecho Кругом все задрожало, и ворота медленно распахнулись.
+  mdoor 66925 east room 66924
+  mdoor 66924 west room 66925
+  mpurge %object%
+  calcuid delete_trig 66908 mob
+  detach 66907 %delete_trig.id% 
+  detach 66908 %delete_trig.id% 
+else
+  брос all
 end
 ~
 #66909
@@ -188,14 +188,14 @@ end
 0 j 100
 ~
 if (%actor.name% == %quest669.name%)
-  if (%object.iname% == Клыки кабана)
+  if (%object.vnum% == 66902)
     wait 1s
     г Вот отлично, теперь у меня есть клыки для создания ожерелья.
     улыб
     set Give_tuskes_669 1
     worlds Give_tuskes_669
   end
-  if (%object.iname% == Отрубленный палец с темным перстнем)
+  if (%object.vnum% == 66903)
     wait 1s
     г Так все-таки я был прав, и это она во всем виновата!
     г Ну спасибо тебе, избавил%actor.g% ты нас от беды.
@@ -209,8 +209,10 @@ if (%actor.name% == %quest669.name%)
       г Вот.. Все. Я закончил ожерелье.
       г Держи, отдай сего старейшине.
       г Я, да и жители деревни благодарны тебе за изгнание зла из нашего леса.
-      mpurge клыки
-      mpurge палец
+      calcuid teeth 66902 obj
+      calcuid fings 66903 obj
+      mpurge %teeth%
+      mpurge %fings%
       mload obj 66913
       дать ожерелье %actor.name%
       calcuid delete_trig 66909 mob
@@ -275,7 +277,7 @@ wait 1s
 0 j 100
 ~
 wait 1s
-if (%object.iname% == Красивая кожаная фенечка)
+if (%object.vnum% == 66904)
   рыдать
   г Дурак я, что отпустил ее одну!
   плак
@@ -287,7 +289,7 @@ if (%object.iname% == Красивая кожаная фенечка)
   г Но иди туда ночью, когда лекаря не будет!
   mload obj 66900
   дать ключ %actor.name%
-  mpurge фенечка
+  mpurge %object%
   calcuid delete_trig 66905 mob
   detach 66914 %delete_trig.id% 
   detach 66915 %delete_trig.id% 
@@ -330,7 +332,7 @@ if (%object.iname% == Шкура синего лесного духа)
   set vnum 66913
   set Get_item %random.10%
   eval vnum %vnum% + %Get_Item%
-  mpurge %object.name%
+  mpurge %object%
   if (%vnum% > 66921)  || (%world.curobjs(%vnum%)% > 4)
     г Эх, ничего не вышло. Уж сильно ты это шкуру порубил%actor.g%!
     г Может в следующий раз чего и получится...
@@ -349,7 +351,7 @@ if (%object.iname% == Шкура красного лесного духа)
   set vnum 66927
   set Get_item %random.10%
   eval vnum %vnum% + %Get_Item%
-  mpurge %object.name%
+  mpurge %object%
   if (%vnum% > 66934)  || (%world.curobjs(%vnum%)% > 4)
     г Эх, ничего не вышло. Уж сильно ты это шкуру порубил%actor.g%!
     г Может в следующий раз чего и получится...
@@ -368,7 +370,7 @@ if (%object.iname% == Шкура зеленого лесного духа)
   set vnum 66934
   set Get_item %random.5%
   eval vnum %vnum% + %Get_Item%
-  mpurge %object.name%
+  mpurge %object%
   if (%vnum% > 66937)  || (%world.curobjs(%vnum%)% > 4)
     г Эх, ничего не вышло. Уж сильно ты это шкуру порубил%actor.g%!
     г Может в следующий раз чего и получится...

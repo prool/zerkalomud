@@ -220,7 +220,7 @@ if %arg% != колодец
 end
 eval svertok %actor.eq(17)%
 if %svertok.name% != сверток
-  wsend% %actor% И чем травить собрались?
+  wsend %actor% И чем травить собрались?
   halt
 end
 wsend %actor% Вы незаметно бросили сверток в колодец.

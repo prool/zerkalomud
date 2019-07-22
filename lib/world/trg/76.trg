@@ -32,10 +32,12 @@ wait 1s
 say Попробуй отыскать виновников этой беды да образумить... да чтоб кровь не проливать!
 say А я уж в долгу не останусь...
 wait 1s
-эм задумчиво поскреб в бороде
-dg_cast 'защита' %actor.name%
-wait 1s
-say Вот, это единственные чары, которые я могу на тебя наложить...
+if ((%actor.realroom% == %self.realroom) && (%actor.canbeseen%))
+  эм задумчиво поскреб в бороде
+  dg_cast 'защита' %actor.name%
+  wait 1s
+  say Вот, это единственные чары, которые я могу на тебя наложить...
+end
 say А теперь ступай!
 detach 7601 %self.id%
 ~
@@ -81,7 +83,7 @@ if (%questor76.id% != %actor.id%)
 end
 if %exist.mob(7609)% || %exist.mob(7610)% || %exist.mob(7611)% || %exist.mob(7612)%
   wait 1s
-  say Что-то подсказывает мне, что ты мне врешь! 
+  say Что-то подсказывает мне, что ты врешь! 
   эм отвернулся от Вас
   halt
 end 
@@ -90,16 +92,16 @@ if !%exist.obj(7610)%
   взд
   say Отлично! Молодец! Ты спас наш лес, и это не пустые слова!
   wait 1s
-  eval chanse %random.100%
-  if ( %chanse% < 20 ) && ( %world.curobjs(7607)% < 4 )
+  eval chance %random.100%
+  if ( %chance% < 20 ) && ( %world.curobjs(7607)% < 4 )
     mload obj 7607
     г Возьми мой старый посох, с ним ты не потеряешся даже самой темной ночью.
     дат посох %actor.name%
-  elseif ( %chanse% < 40 ) && ( %world.curobjs(7614)% < 4 )
+  elseif ( %chance% < 40 ) && ( %world.curobjs(7614)% < 4 )
     say Забирай мои перчатки, с ними ты даже без оружия будешь раскидывать своих врагов.
     mload obj 7614
     дать перчат .%actor.name%
-  elseif ( %chanse% < 60 ) && ( %world.curobjs(7615)% < 4 )
+  elseif ( %chance% < 60 ) && ( %world.curobjs(7615)% < 4 )
     say Прими в дар этот топор, наверное его в лесу позабыл дровосек, вот я и прихватил..
     mload obj 7615
     дать топор .%actor.name%
@@ -121,44 +123,45 @@ switch %actor.class%
   case 2
     say Научу я тебя воинской хитрости одной, в честной битве может и не сгодится
     say Но вот караульного тихо убрать, так чтоб и крикнуть не успел - это да.
-    mskillturn %actor.name% подножка set
+    mskillturn %actor% подножка set
   break
   case 3
     say Научу я тебя удару особому, против которого никто не устоит!
-    mskillturn %actor.name% богатырский.молот set
+    mskillturn %actor% богатырский.молот set
   break
   case 4
     say Научу я тебя как зелье составить, так что даже и малая рана от оружия твоего насмерть разить будет.
-    mskillturn %actor.name% отравить set
+    mskillturn %actor% отравить set
   break
   case 5
     say Научу я тебя, как в бою от хитростей вражьей и магии злой защищаться.
-    mskillturn %actor.name% осторожный.стиль set
+    mskillturn %actor% осторожный.стиль set
   break
   case 9
     say Научу я тебя мечом владеть так, чтоб с одного удара мог недругу голову снять!
-    mskillturn %actor.name% точный.стиль set
+    mskillturn %actor% точный.стиль set
   break
   case 10
     say Научу я тебя, как друзей да воинов своих в бою и походе вести без потери и с легкостью.
-    mskillturn %actor.name% лидерство set
+    mskillturn %actor% лидерство set
   break
   case 11
     say Научу я тебя удару, после которого супротивник твой не сразу и вспомнит, кто он, да откуда родом.
-    mskillturn %actor.name% оглушить set
+    mskillturn %actor% оглушить set
   break
   case 12
     say Научу я тебя, как нож да копье в ворога метать следует, так что, бывает, боле и стараться не придется.
     say Коли попадешь верно.
     ул
-    mskillturn %actor.name% метнуть set
-  done
-  mechoaround %actor% Старик-лесничий дал %actor.dname% несколько наставлений по боевому искуству.
-  msend %actor% Старик-лесничий дал вам несколько наставлений по боевому искуству.
-  unset questor76
-  detach 7601 %self.id%
-  detach 7600 %self.id%
-  detach 7604 %self.id%
+    mskillturn %actor% метнуть set
+  break
+done
+mechoaround %actor% Старик-лесничий дал %actor.dname% несколько наставлений по боевому искуству.
+msend %actor% Старик-лесничий дал вам несколько наставлений по боевому искуству.
+unset questor76
+detach 7601 %self.id%
+detach 7600 %self.id%
+detach 7604 %self.id%
 ~
 #7605
 зашли к цыганам~

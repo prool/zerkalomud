@@ -427,7 +427,7 @@ Size: 100
 LikeWork: 20
 MaxFactor: 20
 Class: 103
-Race: 104
+Race: 103
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -739,7 +739,7 @@ E
 ~
    Старый седой испуганный дед.
 ~
-a0b0d0g0B0 d0f0k0 600 E
+b0d0g0B0 d0f0k0 600 E
 12 0 0 10d10+11 1d1+11
 0d0+0 10000
 8 8 1

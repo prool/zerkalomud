@@ -54,19 +54,19 @@ detach 23102 %self.id%
 ~
 wait 1
 if (%object.vnum% != 23103)
-  г ну и накой мне это?
+  г Ну и на кой мне это?
   эм нахмурил брови
   бросить %object.name%
   halt
 else
   г Спасибо. Это то что нужно.
-  if %actor.class% == 11
+  if (%actor.class% == 11)
     wait 1
     г Я смотрю, ты тоже кузнечным делом занимаешься
-    г Может смогу тебе чему-нибудь обучить.
+    г Может смогу тебя чему-нибудь обучить.
     wait 1s
-    if !%actor.skill(перековать)%
-      mskillturn %actor.name% перековать set
+    if ((!%actor.skill(перековать)%) && (%actor.can_get_skill(перековать)%))
+      mskillturn %actor% перековать set
     else
       г Извини, ты уже кузнец не хуже меня.
     end
@@ -75,19 +75,19 @@ else
   eval rnd %random.1000%
   if (%rnd% < 40) && (%world.curobjs(23104)% < 15)
     mload obj 23104
-    дать колечко %actor.name%
+    дать колечко .%actor.name%
   elseif (%rnd% < 70) && (%world.curobjs(23105)% < 20)
     mload obj 23105
-    дать нож %actor.name%
+    дать нож .%actor.name%
   elseif (%rnd% < 100) && (%world.curobjs(23106)% < 30)
     mload obj 23106
-    дать оберег %actor.name%
+    дать оберег .%actor.name%
   elseif (%rnd% < 300) && (%world.curobjs(23107)% < 30)
     mload obj 23107
-    дать браслет %actor.name%
+    дать браслет .%actor.name%
   elseif (%rnd% < 400)
     mload obj 542
-    дать книга %actor.name%
+    дать книга .%actor.name%
   else
     msend %actor% Кузнец дал Вам немного денег.
     %actor.gold(+250)%

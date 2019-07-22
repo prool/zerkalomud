@@ -28,7 +28,7 @@ if %object.vnum% == 8900
   %self.gold(+100)%
   дать 100 кун %actor.name%
   calcuid shkura 8900 obj
-  mpurge %shkura.name%
+  mpurge %shkura%
 end
 wait 1
 if %object.vnum% == 8901
@@ -40,7 +40,7 @@ if %object.vnum% == 8901
   %self.gold(+140)%
   дать 140 кун %actor.name%
   calcuid shkura 8901 obj
-  mpurge %shkura.name%
+  mpurge %shkura%
 end
 wait 1
 if %object.vnum% == 8902
@@ -52,7 +52,7 @@ if %object.vnum% == 8902
   %self.gold(+200)%
   дать 200 кун %actor.name%
   calcuid shkura 8902 obj
-  mpurge %shkura.name%
+  mpurge %shkura%
 end
 wait 1
 if %object.vnum% == 8903
@@ -64,7 +64,7 @@ if %object.vnum% == 8903
   %self.gold(+260)%
   дать 260 кун %actor.name%
   calcuid shkura 8903 obj
-  mpurge %shkura.name%
+  mpurge %shkura%
 end
 wait 1
 if %object.vnum% == 8904
@@ -76,7 +76,7 @@ if %object.vnum% == 8904
   %self.gold(+500)%
   дать 500 кун %actor.name%
   calcuid shkura 8904 obj
-  mpurge %shkura.name%
+  mpurge %shkura%
 end
 wait 1
 if %object.vnum% == 8907
@@ -88,7 +88,7 @@ if %object.vnum% == 8907
   %self.gold(+500)%
   дать 500 кун %actor.name%
   calcuid shkura 8907 obj
-  mpurge %shkura.name%
+  mpurge %shkura%
 end
 wait 1
 if %object.vnum% == 8915
@@ -103,11 +103,11 @@ if %object.vnum% == 8915
     mload obj 8916
     дать беличий.воротник %actor.name%
     calcuid shkura 8915 obj
-    mpurge %shkura.name%
+    mpurge %shkura%
   else
     mecho Старик лесовик испортил беличью шкурку. Вот неудача!
     calcuid shkura 8915 obj
-    mpurge %shkura.name%
+    mpurge %shkura%
   end
 end
 wait 1
@@ -125,11 +125,11 @@ if %object.vnum% == 8905
     mload obj 8906
     дать черная %actor.name%
     calcuid shkura 8905 obj
-    mpurge %shkura.name%
+    mpurge %shkura%
   else
     mecho Старик лесовик стал точить иглу и сломал ее. Вот неудача!
     calcuid shkura 8905 obj
-    mpurge %shkura.name%
+    mpurge %shkura%
   end
 end
 ~
@@ -289,7 +289,7 @@ if %object.vnum% == 8907
   %self.gold(+500)%
   дать 500 кун %actor.name%
   calcuid shkura 8907 obj
-  mpurge %shkura.name%
+  mpurge %shkura%
   wait 1s
   if (%random.100% <= 40) &&  (world.curobjs(8909) < world.maxobj(8908))
     mecho Отшельник прищурился, и полез в шкафчик что-то бормоча.
@@ -313,17 +313,17 @@ end
 Нажать на ручку~
 2 c 100
 нажать~
-if !(%arg.contains(ручка)% || %arg.contains(ручку)% || %arg.contains(на ручку)%)
+if !%arg.contains(ручк)%
   return 1
   wsend       %actor% На что Вы хотите нажать?
   halt
 end
 wait 1
-wsend       %actor% Вы нажали на резную ручку.
+wsend %actor% Вы нажали на резную ручку.
 wechoaround %actor% %actor.name% попытал%actor.u% нажать на резную ручку.
 if %random.1000% <= 70
   wsend %actor% _Вы случайно уронили какую-то книжку на пол, ранее лежавшую на окошке.
-  wechoaround %actor Какая-то книжка, ранее лежавшая на окошке, упала на пол.
+  wechoaround %actor% Какая-то книжка, ранее лежавшая на окошке, упала на пол.
   %load% obj 1738
 end
 wait 2s
@@ -463,9 +463,9 @@ wait 8
 wait 8
 mecho Крестьянин положил узелок в дубовый сундук.
 calcuid yzelok 8917 obj
-mpurge %yzelok.name%
+mpurge %yzelok%
 calcuid yzelok 8928 obj
-mpurge %yzelok.name%
+mpurge %yzelok%
 if (%world.curobjs(8920)% < 5)
   wait 1s
   mecho Крестьянин взял вилы из затемненного угла землянки.

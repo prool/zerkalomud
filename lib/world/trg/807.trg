@@ -190,7 +190,7 @@ detach 80706 %delete_trig.id%
 Старый ведун принимает записку и дает камень~
 0 j 100
 ~
-if (%quest807.name% == %actor.iname%) && (%object.iname% == Записка для старого ведуна)
+if (%quest807.name% == %actor.iname%) && (%object.vnum% == 80726)
   wait 1s
   mecho Старый колдун взял записку и отошел с ней в дальний угол хижины.
   wait 2s
@@ -203,10 +203,10 @@ if (%quest807.name% == %actor.iname%) && (%object.iname% == Записка для старого 
   г Просто уж совсем распоясались эти разбойнички, к моей хижине уже стали приближаться.
   wait 1s
   г Вот, держи и уходи.
-  mpurge %object.name%
+  mpurge %object%
   mload obj 80725
   дать каме %actor.iname%                                     
-elseif (%quest807.name% == %actor.iname%) && (%object.iname% != Записка для старого ведуна)
+elseif (%quest807.name% == %actor.iname%) && (%object.vnum% != 80726)
   wait 1s                                     
   г Хм, и чего ты мне ЭТУ гадость суешь?!
   бросить %object.name%

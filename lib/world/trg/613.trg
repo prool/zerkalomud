@@ -163,23 +163,18 @@ end
 ~
 кив
 wait 1s
-say Спасибо тебе, %n2name.name%!
-if (( %random.100% < 25 ) && !%actor.skill(смастерить.лук)% && (%actor.class% == 10 ))
-  *say Научу я тебя одому полезному умению.
-  *mskillturn %actor.name% 'смастерить.лук' set                                     
-elseif ((%random.5% == 1 ) && (%world.curobjs(597)% < 1 ))
+say Спасибо тебе, %n2name.iname%!
+if ((%random.5% == 1) && (%world.curobjs(597)% < 1))
   %load% obj 597
   say Возьми вот эту книгу в помощь.
-  дать книг %actor.name%
+  дать книг .%actor.name%
 else 
   say Возьми вот немного денег, что у меня с собой имеются.
-  %self.gold(+7000)%
-  дать 7000 кун %n2name.name%
-  *
+  eval temp %actor.gold(+7000)%
 end
 wait 1s
 say Если согласишься тут подождать немного, пару минут.
-say Я сейчас к себе в трясину еще кое зачем схожу.
+say Я сейчас к себе в трясину еще кое за чем схожу.
 wait 1s                                            
 mecho Упырь скрылся в трясине.
 detach 81306 %self%

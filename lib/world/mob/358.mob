@@ -37,9 +37,9 @@ Spell: 26
 Spell: 26
 Spell: 28
 Spell: 172
-Helper: 35836
-Helper: 35802
 Helper: 35835
+Helper: 35802
+Helper: 35836
 E
 T 35802
 #35801
@@ -183,9 +183,9 @@ Spell: 170
 Spell: 172
 Spell: 172
 Spell: 172
-Helper: 35822
-Helper: 35819
 Helper: 35827
+Helper: 35819
+Helper: 35822
 E
 T 35806
 #35804
@@ -778,7 +778,7 @@ BareHandAttack: 16
 Size: 50
 ExtraAttack: 2
 Class: 100
-Race: 100
+Race: 105
 Height: 175
 Weight: 140
 Special_Bitvector: m0 
@@ -1057,7 +1057,7 @@ Wis: 14
 Size: 50
 ExtraAttack: 3
 Class: 100
-Race: 100
+Race: 102
 Height: 175
 Weight: 140
 Special_Bitvector: 0 

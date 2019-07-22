@@ -89,10 +89,10 @@ detach 86605 %self.id%
 wait 3s
 eval victim %random.pc%
 wecho _&rОгромная балка, покачнувшись, полетела прямо на Вас!&n
-wdamage %victim% 285
-done
-detach 86606 %self.id%
+if %victim%
+  wdamage %victim% 285
 end
+detach 86606 %self.id%
 ~
 #86607
 зашли на озеро~
@@ -191,7 +191,8 @@ else
   wechoaround %actor% _%actor.name% начал%actor.g% изучать главы из середины фолианта.
   wait 2s
   wecho _Древний фолиант, не выдержав приложенных к нему усилий, рассыпался в прах.
-  wpurge фолиант
+  calcuid book 86605 obj
+  wpurge %book%
   detach 86613 %self.id%
 end
 ~
@@ -284,7 +285,10 @@ detach 86620 %self.id%
 вампир атакует~
 0 n 100
 ~
-mkill %random.pc%
+eval temp %random.pc%
+if (%temp.canbeseen%)
+  mkill %random.pc%
+end
 ~
 #86622
 молния попадает~

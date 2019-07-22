@@ -1,3 +1,6 @@
+* Сгенерировано BZEditor
+* Количество мобов : 14
+* Сохранено 11.06.2019 21:12:46
 #85500
 древний злой дух~
 Древний злой дух~
@@ -23,20 +26,20 @@ Destination: 85511
 Destination: 85506
 Destination: 85507
 Str: 25
-Dex: 25
 Int: 30
 Wis: 30
+Dex: 25
 Con: 30
 Cha: 30
-Size: 50
 LikeWork: 25
+MaxFactor: 0
 ExtraAttack: 2
 Class: 101
 Race: 111
+Size: 50
 Height: 200
 Weight: 1
-Special_Bitvector: 0 
-Skill: 22 50
+Special_Bitvector: 0
 Spell: 23
 Spell: 28
 Spell: 54
@@ -44,6 +47,7 @@ Spell: 54
 Spell: 76
 Spell: 76
 Spell: 76
+Skill: 22 50
 E
 T 85504
 #85501
@@ -77,18 +81,20 @@ MResist: 50
 PResist: 50
 BareHandAttack: 4
 Str: 50
-Dex: 50
 Int: 50
 Wis: 50
+Dex: 50
 Con: 50
 Cha: 50
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 2
 Class: 101
 Race: 111
+Size: 100
 Height: 200
 Weight: 200
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 T 85505
 #85502
@@ -110,12 +116,22 @@ b0d0n0o0B0f2u2 c0d0e0f0j0k0a1 0 E
 30 20 0 50d100+0 1d2+0
 0d0+0 0
 8 8 1
-Size: 50
+BareHandAttack: 0
+Str: 11
+Int: 11
+Wis: 11
+Dex: 11
+Con: 11
+Cha: 11
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
 Class: 101
 Race: 112
+Size: 50
 Height: 175
 Weight: 140
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #85503
 мародер горбун мерзкий~
@@ -133,12 +149,22 @@ b0d0n0o0B0f2u2 c0d0e0f0j0k0a1 0 E
 30 20 0 50d100+0 1d2+0
 0d0+0 0
 8 8 1
-Size: 50
+BareHandAttack: 0
+Str: 11
+Int: 11
+Wis: 11
+Dex: 11
+Con: 11
+Cha: 11
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
 Class: 102
 Race: 101
+Size: 50
 Height: 175
 Weight: 140
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #85504
 одноглазый взъерошенный черт~
@@ -159,12 +185,22 @@ b0d0n0o0B0f2u2 c0d0e0f0j0k0a1 0 E
 30 20 0 50d100+0 1d2+0
 0d0+0 0
 8 8 1
-Size: 50
+BareHandAttack: 0
+Str: 11
+Int: 11
+Wis: 11
+Dex: 11
+Con: 11
+Cha: 11
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
 Class: 101
 Race: 112
+Size: 50
 Height: 175
 Weight: 140
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #85505
 нетопырь~
@@ -183,12 +219,22 @@ b0d0n0o0f2u2 h0x0 0 E
 30 20 0 10d10+1000 0d0+5
 0d0+0 0
 8 8 1
-Size: 50
+BareHandAttack: 0
+Str: 11
+Int: 11
+Wis: 11
+Dex: 11
+Con: 11
+Cha: 11
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
 Class: 103
 Race: 104
+Size: 50
 Height: 175
 Weight: 140
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #85506
 купчина мертвечина купец~
@@ -209,12 +255,22 @@ b0d0n0o0B0f2u2 c0d0e0f0j0k0a1 0 E
 30 20 0 50d100+0 1d2+0
 0d0+0 0
 8 8 1
-Size: 50
+BareHandAttack: 0
+Str: 11
+Int: 11
+Wis: 11
+Dex: 11
+Con: 11
+Cha: 11
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
 Class: 101
 Race: 112
+Size: 50
 Height: 175
 Weight: 140
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #85507
 умертвие ростовщика~
@@ -232,13 +288,24 @@ b0d0n0o0B0f2u2 c0d0e0f0j0k0a1 0 E
 30 20 0 50d100+0 1d2+0
 0d0+0 0
 8 8 0
-Size: 50
+BareHandAttack: 0
+Str: 11
+Int: 11
+Wis: 11
+Dex: 11
+Con: 11
+Cha: 11
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
 Class: 101
-Race: 112
+Race: 110
+Size: 50
 Height: 175
 Weight: 140
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
+T 85509
 #85508
 трупожер~
 Трупожер~
@@ -257,12 +324,22 @@ b0d0n0o0B0f2u2 c0d0e0f0j0k0a1 0 E
 30 20 0 50d100+0 1d2+0
 0d0+0 0
 8 8 1
-Size: 50
+BareHandAttack: 0
+Str: 11
+Int: 11
+Wis: 11
+Dex: 11
+Con: 11
+Cha: 11
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
 Class: 101
 Race: 112
+Size: 50
 Height: 175
 Weight: 140
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #85509
 мертвый ямщик~
@@ -281,12 +358,22 @@ b0d0n0o0B0f2u2 c0d0e0f0j0k0a1 0 E
 30 20 0 50d100+0 1d2+0
 0d0+0 0
 8 8 1
-Size: 50
+BareHandAttack: 0
+Str: 11
+Int: 11
+Wis: 11
+Dex: 11
+Con: 11
+Cha: 11
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
 Class: 101
 Race: 112
+Size: 50
 Height: 175
 Weight: 140
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
 #85510
 старый лич~
@@ -306,12 +393,22 @@ b0d0n0B0u2 c0d0e0f0j0k0a1 0 E
 30 20 0 50d100+0 1d2+0
 0d0+0 0
 8 8 1
-Size: 50
+BareHandAttack: 0
+Str: 11
+Int: 11
+Wis: 11
+Dex: 11
+Con: 11
+Cha: 11
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 0
 Class: 101
 Race: 112
+Size: 50
 Height: 175
 Weight: 140
-Special_Bitvector: i3 
+Special_Bitvector: i3
 E
 T 85507
 #85511
@@ -332,16 +429,23 @@ b0d0n0p0q0s0t0z0a1f2g2l2u2 c0d0e0f0g0k0p0z0C0 0 E
 0d0+0 0
 8 8 1
 BareHandAttack: 13
-Size: 50
+Str: 11
+Int: 11
+Wis: 11
+Dex: 11
+Con: 11
+Cha: 11
 LikeWork: 100
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
 Race: 111
+Size: 50
 Height: 175
 Weight: 140
-Special_Bitvector: 0 
-Skill: 1 60
+Special_Bitvector: 0
 Spell: 122
+Skill: 1 60
 E
 T 85501
 T 85502
@@ -376,17 +480,52 @@ AResist: 50
 MResist: 50
 BareHandAttack: 4
 Str: 50
-Dex: 50
 Int: 50
 Wis: 50
+Dex: 50
 Con: 50
 Cha: 50
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 2
 Class: 101
 Race: 111
+Size: 100
 Height: 200
 Weight: 200
-Special_Bitvector: 0 
+Special_Bitvector: 0
 E
+#85513
+манекен стрибога~
+манекен Стрибога~
+манекена Стрибога~
+манекену Стрибога~
+манекена Стрибога~
+манекеном Стрибога~
+манекене Стрибога~
+Манекен для отработки ударов установлен тут.
+~
+
+~
+0 h0a0w0 0 E
+30 20 0 0d0+50000 0d0+1
+0d0+0 0
+8 8 1
+BareHandAttack: 0
+Str: 10
+Int: 10
+Wis: 10
+Dex: 10
+Con: 50
+Cha: 10
+LikeWork: 0
+MaxFactor: 0
+ExtraAttack: 6
+Class: 100
+Race: 100
+Size: 50
+Height: 175
+Weight: 140
+E
+$
 $

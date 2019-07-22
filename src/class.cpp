@@ -2365,9 +2365,13 @@ void load_skills_definitions()
 	int i[15], j, sp_num, l;
 	FILE* magic;
 
+#ifdef DEBUG
+printf("load_skills_def L1\n");
+#endif
 	if (!(magic = fopen(LIB_MISC "skills.lst", "r")))
 	{
-		log("Cann't open skills list file...");
+		printf("Can't open skills list file\n");
+		log("Can't open skills list file...");
 		_exit(1);
 	}
 	while (get_line(magic, name))
@@ -2376,6 +2380,7 @@ void load_skills_definitions()
 			continue;
 		if (sscanf(name, "%s %s %d %d %d %d %d", line1, line2, i, i + 1, i + 2, i + 3, i + 4) != 7)
 		{
+			printf("Bad format for skill string !\r\n");
 			log("Bad format for skill string !\r\n"
 				"Format : <skill name (%%s %%s)>  <kin (%%d)> <class (%%d)> <remort (%%d)> <minlevel> <improove (%%d)> !");
 			_exit(1);
@@ -2390,21 +2395,25 @@ void load_skills_definitions()
 		}
 		if ((sp_num = find_skill_num(name)) < 0)
 		{
+			printf("Skill '%s' not found\n", name);
 			log("Skill '%s' not found...", name);
 			_exit(1);
 		}
         if (PlayerRace::GetKinNameByNum(i[0], SEX_MALE) == RACE_NAME_UNDEFINED)
 		{
+			printf("Bad kin type for skill \"%s\"\n", skill_info[sp_num].name);
 			log("Bad kin type for skill \"%s\"...", skill_info[sp_num].name);
 			_exit(1);
 		}
 		if (i[1] < 0 || i[1] >= NUM_CLASSES)
 		{
+			printf("Bad class type for skill \"%s\"\n", skill_info[sp_num].name);
 			log("Bad class type for skill \"%s\"...", skill_info[sp_num].name);
 			_exit(1);
 		}
 		if (i[2] < 0 || i[2] >= MAX_REMORT)
 		{
+			printf("Bad remort type for skill \"%s\"\n", skill_info[sp_num].name);
 			log("Bad remort type for skill \"%s\"...", skill_info[sp_num].name);
 			_exit(1);
 		}
@@ -2424,6 +2433,7 @@ void load_skills_definitions()
 	fclose(magic);
 	if (!(magic = fopen(LIB_MISC "classskill.lst", "r")))
 	{
+		printf("Cann't open classskill list file\n");
 		log("Cann't open classskill list file...");
 		_exit(1);
 	}
@@ -2433,6 +2443,7 @@ void load_skills_definitions()
 			continue;
 		if (sscanf(name, "%s %s %s %s", line1, line2, line3, line4) != 4)
 		{
+			printf("Bad format for skill string !\r\n" "Format : <skill name (%%s %%s)> <kin (%%s)> <skills (%%s)> !\n");
 			log("Bad format for skill string !\r\n" "Format : <skill name (%%s %%s)> <kin (%%s)> <skills (%%s)> !");
 			_exit(1);
 		}
@@ -2446,6 +2457,7 @@ void load_skills_definitions()
 		}
 		if ((sp_num = find_skill_num(name)) < 0)
 		{
+			printf("Skill '%s' not found\n", name);
 			log("Skill '%s' not found...", name);
 			_exit(1);
 		}
@@ -2470,6 +2482,9 @@ void load_skills()
 {
 	const char *CLASS_SKILLS_FILE = LIB_MISC"classskills.xml";
 
+#ifdef DEBUG
+printf("load_skills() L1\n");
+#endif
 	pugi::xml_document doc;
 	pugi::xml_parse_result result = doc.load_file(CLASS_SKILLS_FILE);
 	if (!result)
@@ -2500,7 +2515,9 @@ void load_skills()
 				string name = string(xNodeSkill.attribute("name").value());
 				if ((sk_num = find_skill_num(name.c_str())) < 0)
 					{
+						printf("Skill '%s' not found (2)\n", name.c_str());
 						log("Skill '%s' not found...", name.c_str());
+						fflush(0);
 						_exit(1);
 					}
 				skill_info[sk_num].classknow[j][i] = KNOW_SKILL;
@@ -2515,6 +2532,7 @@ void load_skills()
 					log("Минимальный уровень изучения умения '%s' расы %d класса %d установлен в %d", skill_info[sk_num].name, i, j, value);
 				}else
 				{
+					printf("load_skills ERROR: level error '%s' - %d\n", skill_info[sk_num].name, value);
 					log("ERROR: Недопустимый минимальный уровень изучения умения '%s' - %d", skill_info[sk_num].name, value);
 					_exit(1);
 				}
@@ -2525,6 +2543,7 @@ void load_skills()
 					log("Минимальное количество ремортов для изучения умения '%s' расы %d класса %d установлен в %d", skill_info[sk_num].name, i, j, skill_info[sk_num].min_remort[j][i]);
 				}else
 				{
+					printf("load_skills ERROR: remort error '%s' - %d\n", skill_info[sk_num].name, value);
 					log("ERROR: Недопустимое минимальное количество ремортов для умения '%s' - %d", skill_info[sk_num].name, value);
 					_exit(1);
 				}
@@ -2560,6 +2579,7 @@ printf("init_spell_levels() L2\n");
 			continue;
 		if (sscanf(name, "%s %s %d %d %d %d %d %d", line1, line2, i, i + 1, i + 2, i + 3, i + 4, i + 5) != 8)
 		{
+			printf("Bad format for magic string !\r\n");// by prool
 			log("Bad format for magic string !\r\n"
 				"Format : <spell name (%%s %%s)> <kin (%%d)> <classes (%%d)> <remort (%%d)> <slot (%%d)> <level (%%d)>");
 			_exit(1);
@@ -2576,22 +2596,27 @@ printf("init_spell_levels() L2\n");
 
 		if ((sp_num = find_spell_num(name)) < 0)
 		{
-			log("Spell '%s' not found...", name);
+			printf("Spell '%s' not found :(\n", name);
+			log("Spell '%s' not found :(", name);
+			fflush(0);
 			_exit(1);
 		}
 
 		if (i[0] < 0 || i[0] >= NUM_KIN)
 		{
+			printf("Bad kin type for spell '%s' \"%d\"...\n", name, sp_num);
 			log("Bad kin type for spell '%s' \"%d\"...", name, sp_num);
 			_exit(1);
 		}
 		if (i[1] < 0 || i[1] >= NUM_CLASSES)
 		{
+			printf("Bad class type for spell '%s'  \"%d\"...\n", name, sp_num);
 			log("Bad class type for spell '%s'  \"%d\"...", name, sp_num);
 			_exit(1);
 		}
 		if (i[2] < 0 || i[2] >= MAX_REMORT)
 		{
+			printf("Bad remort type for spell '%s'  \"%d\"...\n", name, sp_num);
 			log("Bad remort type for spell '%s'  \"%d\"...", name, sp_num);
 			_exit(1);
 		}
@@ -2619,6 +2644,7 @@ printf("init_spell_levels() L4\n");
 			continue;
 		if (sscanf(name, "%s %s %s %d %d %d %d %d", line1, line2, line3, i, i + 1, i + 2, i + 3, i + 4) != 8)
 		{
+			printf("Bad format for magic string !\r\n");
 			log("Bad format for magic string !\r\n"
 				"Format : <spell name (%%s %%s)> <type (%%s)> <items_vnum (%%d %%d %%d %%d)>");
 			_exit(1);
@@ -2639,7 +2665,9 @@ printf("init_spell_levels() L4\n");
 		}
 		if ((sp_num = find_spell_num(name)) < 0)
 		{
+			printf("Spell '%s' not found (2)\n", name);
 			log("Spell '%s' not found...", name);
+			fflush(0);
 			_exit(1);
 		}
 		c = strlen(line3);
@@ -2690,6 +2718,7 @@ printf("init_spell_levels() L4\n");
 		}
 		else
 		{
+			printf("Unknown items option : %s\n", line3);
 			log("Unknown items option : %s", line3);
 			_exit(1);
 		}
@@ -2702,7 +2731,8 @@ printf("init_spell_levels() L5\n");
 	/* Load features variables - added by Gorrah */
 	if (!(magic = fopen(LIB_MISC "features.lst", "r")))
 	{
-		log("Cann't open features list file...");
+		printf("Can't open features list file\n");
+		log("Can't open features list file...");
 		_exit(1);
 	}
 #ifdef DEBUG
@@ -2731,10 +2761,9 @@ printf("init_spell_levels() L6a\n");
 		}
 		if ((sp_num = find_feat_num(name)) <= 0)
 		{
+			printf("Feat '%s' not found\n", name);
 			log("Feat '%s' not found...", name);
-#ifdef DEBUG
-printf("init_spell_levels() L6b\n");
-#endif
+			fflush(0);
 			_exit(1);
 		}
 		for (j = 0; j < NUM_KIN; j++)

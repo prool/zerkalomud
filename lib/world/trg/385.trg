@@ -34,8 +34,8 @@ if !%world.curmobs(38511)%
   oload mob 38522
   calcuid mouse 38522 mob
   global mouse
-  calcuid human 38521 mob
-  if %human%
+  if %exist.mob(38521)%
+    calcuid human 38521 mob
     remote mouse %human.id%
   end
 else
@@ -48,16 +48,15 @@ opurge  %self%
 очистка  зоны после смерти  чернока и быстрый репоп~
 2 z 100
 ~
-set fmob 38502 
+set fmob 38502
 while %fmob% < 38535
   set i %world.curmobs(%fmob%)%
   while %i% > 0  
-    calcuid pm %fmob% mob
-    exec 38517 %pm.id%
-    wait 1s 
+    calcuid pm %fmob% mob %i%
+    exec 38517 %pm%
     eval i %i%-1
   done
-  eval fmob %fmob%+1    
+  eval fmob %fmob%+1
 done    
 wait 3t
 if %world.curmobs(38511)%
@@ -221,7 +220,7 @@ if %self.realroom% == 38562
     mecho _Потом чернокнижник одумался и начал искать разорителя склепа.
     if %random.pc%
       set target %random.pc%
-      mkill target
+      mkill %target%
     end
   end
 end

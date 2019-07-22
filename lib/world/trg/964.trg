@@ -48,8 +48,21 @@ end
 Моб пытается рекольнуть чара~
 0 k 100
 ~
-if (%random.10% <= 2) 
-  dg_cast 'слов возв' .%actor.name%
+if (%random.10% <= 2)
+  if (%actor.leader%)
+    eval targ %actor.leader%
+    if (%targ.canbeseen%)
+      dg_cast 'слов возв' .%targ.name%
+    end
+  else
+    if (%actor.canbeseen%)
+      if (%actor.vnum% != -1)
+        dg_cast 'слов возв' %actor.name%
+      else
+        dg_cast 'слов возв' .%actor.name%
+      end
+    end
+  end
 end
 ~
 #96407
@@ -109,9 +122,12 @@ set time рассвет
 if (%weather.sunlight% != %time%)
   halt
 end
-if (%valgenter%>0)
+if (%valgenter% > 0)
   eval valgenter %valgenter%-1
   worlds valgenter
+  if (%valgenter% == 0)
+    log &BВ Вальгалле включились молнии&n
+  end
 end
 set moblist1 96401 96402 96403 96404 96405 96406
 foreach vnum %moblist1%
@@ -213,9 +229,13 @@ set time закат
 if (%weather.sunlight% != %time%)
   halt
 end
-if (%valgenter%>0)
+if (%valgenter% > 0)
   eval valgenter %valgenter%-1
   worlds valgenter
+  if (%valgenter% == 0)
+    log &BВ Вальгалле включились молнии&g
+    *&nзакрываем цвет для красоты сислога
+  end
 end
 set moblist1 96401 96402 96403 96404 96405 96406
 foreach vnum %moblist1%
@@ -353,11 +373,12 @@ if (%actor.level% > 30)
   halt
 end
 if (%valgenter% == -1)
-  set valgenter 4
+  set valgenter 3
   worlds valgenter
 end
 wait 1
 %echo% Помни, смертным нечего делать в чертогах Вальгаллы. Кто задержится здесь - живым не вернется!
+log &B%actor.name% вошел в Вальгаллу&n
 detach 96418 %self.id%
 ~
 #96419

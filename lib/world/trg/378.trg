@@ -5,14 +5,9 @@
 wait 1s
 wecho С криком Вы полетели вниз!
 wait 5s
+wecho Вы упали вниз и сильно ушиблись!
+wat 37821 wecho Кто-то шлепнулся на дно ущелья.
 wteleport all 37821
-wait 1s
-wat 37821 wsend %actor.name% Вы упали вниз и сильно ушиблись!
-if %actor.sex%==1
-wat 37821 wechoaround %actor.name% упал вниз и сильно ушибся!
-else
-wat 37821 wechoaround %actor.name% упала вниз и сильно ушиблась!
-end
 ~
 #37801
 рубим паутину~
@@ -189,7 +184,7 @@ wdoor 37842 east room 37843
 0 f 100
 ~
 if (%world.curobjs(37802)% < 10) && (%random.10% <= 2)
-   mload obj 37802
+  mload obj 37802
 end
 ~
 #37813
@@ -197,7 +192,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(37803)% < 8) && (%random.100% <= 7)
-   mload obj 37803
+  mload obj 37803
 end
 ~
 #37814
@@ -205,7 +200,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(37800)% < 2) && (%random.100% <= 4)
-   mload obj 37800
+  mload obj 37800
 end
 ~
 #37815
@@ -213,7 +208,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(37805)% < 3) && (%random.100% <= 4)
-   mload obj 37805
+  mload obj 37805
 end
 ~
 #37816
@@ -221,7 +216,7 @@ end
 0 f 100
 ~
 if (%world.curobjs(37800)% < 1) && (%random.2% == 1)
-mload obj 37800
+  mload obj 37800
 end
 ~
 $~

@@ -52,7 +52,7 @@ detach 89901 %self.id%
 ~
 #89902
 магистр приветствует~
-0 g 100
+0 q 100
 ~
 wait 1
 %actor.wait(10)%
@@ -194,10 +194,7 @@ attach 89908 %self.id%
 0 d 1
 нож~
 wait 1
-if %actor.vnum% != -1
-  halt
-end
-if %actor.id% != %questor89901.id% 
+if ((%actor.vnum% != -1) || (%actor.id% != %questor89901.id%))
   halt
 end
 wait 1s
@@ -209,11 +206,13 @@ wait 2s
 mkill %actor%
 wait 1s
 %echo% - На том свете!!!
-хохот 
-calcuid qlegat 89906 mob
+хохот
 set questor89902 %actor%
 global questor89902
-remote questor89902 %qlegat.id%
+if (%exist.mob(89906)%)
+  calcuid qlegat 89906 mob
+  remote questor89902 %qlegat.id%
+end
 attach 89924 %self.id% 
 detach 89907 %self.id% 
 detach 89908 %self.id%
@@ -242,8 +241,10 @@ if %actor.vnum% != -1
 end
 set hero899 %actor%
 global  hero899
-calcuid iogann 89905 mob
-attach 89934 %iogann.id%
+if %exist.mob(89905)%
+  calcuid iogann 89905 mob
+  attach 89934 %iogann.id%
+end
 *mat 89941 mload mob 89906
 wait 1s
 улыб
@@ -288,12 +289,16 @@ wait 2s
 mecho Магистр быстро осекся.
 wait 2s
 г Удачи вам воины, удачи... 
-calcuid komandir 89920 mob
-exec 89912 %komandir.id%  
-calcuid legat 89906 mob
-remote hero899 %legat.id%
-attach 89913 %legat.id%
-detach 89915 %legat.id%
+if %exist.mob(89920)%
+  calcuid komandir 89920 mob
+  exec 89912 %komandir.id%  
+end
+if %exist.mob(89906)%
+  calcuid legat 89906 mob
+  remote hero899 %legat.id%
+  attach 89913 %legat.id%
+  detach 89915 %legat.id%
+end
 attach 89920 %self.id%
 detach 89902 %self.id%
 detach 89911 %self.id% 
@@ -399,7 +404,7 @@ detach 89915 %self.id%
 ~
 wait 1
 if %object.vnum% != 89904
-  брос все
+  брос all
   halt
 end
 wait 1
@@ -408,40 +413,40 @@ wait 1s
 say Хы... Мой нож! Ты отыскал его!
 wait 1s
 if %actor.id% != %questor899.id%
-  say Спасибо что вернул%actor.q%.
+  say Спасибо что вернул%actor.g%.
   halt
 end
 if (%actor.class% == 9) && (!%actor.spelltype(увеличение)%)
-  г Ты, %actor%, должен знать, что размер имеет значение... 
-  mspellturn %actor.name% увеличение set 
+  г Ты, %actor.name%, должен знать, что размер имеет значение... 
+  mspellturn %actor% увеличение set 
   halt
 end
 switch %random.2%
   case 1
-    eval chanse %world.curobjs(89922)%+2
-    if ((%random.12% > %chanse%) || ( %random.100% == 68 ))
+    eval chance %world.curobjs(89922)%+2
+    if ((%random.12% > %chance%) || ( %random.100% == 68 ))
       say Этот браслет мне достался от одного знатного рыцаря.
       mload obj 89922
-      дать брас %actor.name%
+      дать брас .%actor.name%
     elseif %random.100% == 45
       say Этот браслет мне достался от одного знатного рыцаря.
       mload obj 89922
-      дать брас %actor.name%
+      дать брас .%actor.name%
     else
       say Вот несколько золотых тебе за помощь.
       %actor.gold(+2000)%
     end
   break
   case 2
-    eval chanse %world.curobjs(89921)%+2
-    if ((%random.12% > %chanse%) || ( %random.100% == 68 ))
+    eval chance %world.curobjs(89921)%+2
+    if ((%random.12% > %chance%) || ( %random.100% == 68 ))
       say Этот браслет мне достался от одного знатного рыцаря.
       mload obj 89921
-      дать брас %actor.name%
+      дать брас .%actor.name%
     elseif %random.100% == 45
       say Этот браслет мне достался от одного знатного рыцаря.
       mload obj 89921
-      дать брас %actor.name%
+      дать брас .%actor.name%
     else
       say Вот несколько золотых тебе за помощь.
       %actor.gold(+2000)%
@@ -462,8 +467,10 @@ if (%actor.id% != %questor89902.id% )
 end
 set questor89903 %actor%
 global questor89903
-calcuid magistr 89902 mob
-remote questor89903 %magistr.id%
+if (%exist.mob(89902)%)
+  calcuid magistr 89902 mob
+  remote questor89903 %magistr.id%
+end
 wait 2s
 г Я так и знал!
 г Видишь ли, я занимаюсь изучением очень древнего знания, и Иоганн весьма помог мне...

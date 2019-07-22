@@ -48,8 +48,8 @@ if %object.vnum% == 86500
   %self.gold(+6000)%
   дать 4000 кун %actor.name%
   calcuid var 86500 obj
-  mpurge %var.name%
-  mpurge %self.name%
+  mpurge %var%
+  mpurge %self%
 end
 ~
 #86503
@@ -129,7 +129,7 @@ wait 1s
 mload obj 86519
 дат записка %actor.name%
 г А я побегу, дел еще очень много.
-mpurge %self.name%
+mpurge %self%
 ~
 #86509
 отроквздыхает~
@@ -147,7 +147,7 @@ wecho Отрок тяжело вздохнул.
 wait 2
 if %object.vnum% == 86519
   calcuid vari 86519 obj
-  mpurge %vari.name%
+  mpurge %vari%
   wait 1s
   г Что это? Хм...
   wait 4s
@@ -172,7 +172,7 @@ if %object.vnum% == 86519
 wait 2
 if %object.vnum% == 86520
   calcuid vari 86520 obj
-  mpurge %vari.name%
+  mpurge %vari%
   wait 1s
   г А? Что ты мне суешь?
   wait 4s
@@ -183,6 +183,6 @@ if %object.vnum% == 86520
   дат связка %actor.name%
   wait 1s
   wecho Сторож резво припустил в сторону тренировочной площадки.
-  mpurge %self.name%
+  mpurge %self%
 ~
 $~

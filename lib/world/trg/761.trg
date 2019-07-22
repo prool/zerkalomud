@@ -122,57 +122,43 @@ end
 0 j 100
 ~
 wait 1
-if %object.vnum% != 76101
+if (%object.vnum% != 76101)
   г Что за дрянь ты мне здесь суешь ??
-  бро %object.name%
+  бро all
   halt
 end
 wait 1
 mpurge %object%
-if %quest761.id% != %actor.id% 
-  хвал %actor.name%
+if (%quest761.id% != %actor.id%)
+  хвал .%actor.name%
   halt
 end
 wait 1s
 detach 76104 %self.id%
 г Глупо было сомневаться в тебе!
 г Сила твоя превзошла все мои ожидания
-покл %actor.iname%
+покл .%actor.name%
 г Вот теперь мы снова заживем как в сказке!
 eval nagrad %random.100%
-if %nagrad% < 20
-  if %world.curobjs(76171)% < 4
-    г Попробую-ка я прошить волосами Вирявы кое-что из своих изделий.
-    mecho _Портной принялся прошивать что-то.
-    mload obj 76171
-    дать шапка .%actor.name%
-    halt
-  end
-elseif %nagrad% < 40
-  if %world.curobjs(76172)% < 4
-    г Попробую-ка я прошить волосами Вирявы кое-что из своих изделий.
-    mecho _Портной принялся прошивать что-то.
-    mload obj 76172
-    дать пояс .%actor.name%
-    halt
-  end
-elseif %nagrad% < 60
-  if %world.curobjs(76174)% < 4
-    г Попробую-ка я прошить волосами Вирявы кое-что из своих изделий.
-    mecho _Портной принялся прошивать что-то.
-    mload obj 76174
-    дать плащ .%actor.name%
-    halt
-  end
-else
-  г Возми-ка немного деньжат, припас я на черный день.
-  %self.gold(+5000)%
-  дат 5000 кун %actor.name%
-  halt
+if ((%nagrad% < 20) && (%world.curobjs(76171)% < 4))
+  eval nagrvnum 76171
+elseif ((%nagrad% < 40) && (%world.curobjs(76172)% < 4))
+  eval nagrvnum 76172
+elseif ((%nagrad% < 60) && (%world.curobjs(76174)% < 4))
+  eval nagrvnum 76174
 end
-г Возми-ка немного деньжат, припас я на черный день.
-%self.gold(+5000)%
-дат 5000 кун %actor.name%
+if (!%nagrvnum%)
+  г Возми-ка немного деньжат, припас я на черный день.
+  eval temp %actor.gold(+5000)%
+  %send% %actor% %self.iname% протянул Вам мешочек с кунами.
+  %echoaround% %actor% %self.iname% протянул %actor.dname% мешочек с кунами.
+else
+  г Попробую-ка я прошить волосами Вирявы кое-что из своих изделий.
+  mecho _Портной принялся прошивать что-то.
+  mload obj %nagrvnum%
+  дать all .%actor.name%
+  брос all
+end
 ~
 #76106
 медведь приветствие~

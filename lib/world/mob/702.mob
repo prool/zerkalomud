@@ -611,6 +611,7 @@ b0d0f0g0n0o0p0r0x0z0b1g2 c0d0e0k0x0n1r1 -600 E
 Saves: -60 -60 -60 -30
 Resistances: 45 45 45 45 45 45 45
 Armour: 55
+CastSuccess: 35
 Absorbe: 20
 Str: 30
 Dex: 30
@@ -866,6 +867,7 @@ d0f0g0m0n0o0A0 c0d0k0c1t1 -600 E
 Saves: -56 -18 -18 -18
 Resistances: 40 40 40 40 20 20 20
 Armour: 55
+CastSuccess: 20
 Absorbe: 25
 Str: 45
 Dex: 42
@@ -1093,6 +1095,7 @@ b0d0f0g0n0o0p0r0x0z0b1g2 c0d0e0k0x0r1 -600 E
 0d0+0 1000000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 35
 Str: 30
 Dex: 30
 Int: 38

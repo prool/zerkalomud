@@ -92,14 +92,14 @@ if %arg% != леденец
   osend %actor% Что это вы лизать собрались?
 else                  
   osend %actor% Вы лизнули леденец. Вку-усно!
-  oechoaround %actor% ~~%actor.iname% с аппетитом лизнул%actor.g% леденец.
+  oechoaround %actor%  %actor.iname% с аппетитом лизнул%actor.g% леденец.
   eval lizalki %lizalki%-1 
   global lizalki
   if %lizalki% == 0
     osend %actor% Вы доели леденец и со вздохом отбросили пустую палочку.
-    oechoaround %actor% ~~%actor.iname% доел%actor.g% леденец и со вздохом отбросил%actor.g% пустую палочку.
+    oechoaround %actor%  %actor.iname% доел%actor.g% леденец и со вздохом отбросил%actor.g% пустую палочку.
     oload obj 75009
-    opurge леденец
+    opurge %self%
   end
 end
 ~

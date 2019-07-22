@@ -58,14 +58,8 @@ end
 wsend %actor% Вы пододвинули стол к стене...
 wechoaround %actor% %actor.name% пододвинул%actor.g% стол к стене.
 wait 1
-wdoor 38245 up flags ab
-wdoor 38245 up room 38291 
-wdoor 38045 up name люк
-wdoor 38045 up description люк
-wdoor 38291 down flags ab
-wdoor 38291 down room 38245
-wdoor 38091 down name люк
-wdoor 38091 down description люк
+wdoor   38245 up flags ab
+wdoor   38245 up room  38291 
 wecho Стало возможно пройти наверх.
 calcuid stol 38245 room
 detach 38204 %stol.id%
@@ -74,8 +68,14 @@ detach 38204 %stol.id%
 помер волхв~
 0 f 100
 ~
-if (%random.100% < 11)
-  mload obj 549
+if ( %world.curobjs(211)% < 20 ) && ( %random.5% == 1 )
+  mload obj 211
+end
+if (%random.10% == 1)
+  if %random.2% == 1
+    mload obj 549
+  else
+    mload obj 529
 end
 ~
 #38206

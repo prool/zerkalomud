@@ -30,10 +30,14 @@ dg_cast 'кислот'
 ~
 eval wait %random.5%+2
 wait %wait%s
+if (!%exist.mob(92507)%)
+  halt
+end
+calcuid snake 92507 mob
 foreach char %self.pc%  
-  if %char.fighting%
+  if ((%snake.realroom% != %self.vnum%) && (%char.fighting%))
     wecho Змей-воин приполз на шум!
-    wteleport змей_92507 %self.vnum%    
+    wteleport %snake% %self.vnum%    
     wait 10s
     halt
   end

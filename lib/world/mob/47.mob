@@ -12,9 +12,10 @@
 
 ~
 d0g0 0 0 E
-2 19 9 5d3+20 1d3+2
+1 19 9 5d3+20 1d3+2
 0d0+0 100
 8 8 1
+Absorbe: 1
 BareHandAttack: 4
 Str: 7
 Dex: 8
@@ -44,9 +45,10 @@ E
 
 ~
 d0g0 0 0 E
-3 17 8 5d3+35 2d2+1
+2 17 8 5d3+35 2d2+1
 0d0+0 120
 8 8 1
+Absorbe: 2
 BareHandAttack: 13
 Str: 9
 Dex: 9
@@ -76,9 +78,10 @@ E
 Небольшая полевая пичужка.
 ~
 d0g0 0 0 E
-3 17 8 5d3+35 1d3+2
+2 17 8 5d3+35 1d3+2
 0d0+0 120
 8 8 2
+Absorbe: 2
 BareHandAttack: 8
 Str: 10
 Dex: 9
@@ -109,9 +112,10 @@ E
 
 ~
 d0g0 0 0 E
-3 17 8 5d3+45 1d2+1
+2 17 8 5d3+45 1d2+1
 0d0+0 200
 8 8 2
+Absorbe: 2
 BareHandAttack: 8
 Str: 9
 Dex: 9
@@ -142,9 +146,10 @@ E
 
 ~
 d0g0 x0 0 E
-4 16 7 5d3+60 1d2+1
+2 16 7 5d3+60 1d2+1
 0d0+0 300
 8 8 2
+Absorbe: 2
 BareHandAttack: 2
 Str: 10
 Dex: 7
@@ -174,9 +179,10 @@ E
 
 ~
 d0g0 k0s0 0 E
-4 15 7 5d3+40 3d2+2
+2 15 7 5d3+40 3d2+2
 0d0+0 300
 8 8 2
+Absorbe: 2
 BareHandAttack: 4
 Str: 10
 Dex: 12
@@ -206,9 +212,10 @@ E
 
 ~
 d0g0f2 x0 0 E
-4 16 7 5d3+60 1d2+1
+2 16 7 5d3+60 1d2+1
 0d0+0 300
 8 8 1
+Absorbe: 2
 BareHandAttack: 2
 Str: 12
 Dex: 7
@@ -238,9 +245,10 @@ E
 
 ~
 d0g0 x0 0 E
-6 15 7 5d3+80 2d2+1
+4 15 7 5d3+80 2d2+1
 0d0+0 800
 8 8 1
+Absorbe: 4
 BareHandAttack: 8
 Str: 3
 Dex: 9
@@ -271,9 +279,10 @@ E
 
 ~
 d0g0i1f2 k0x0 0 E
-6 15 7 5d3+80 1d4+1
+4 15 7 5d3+80 1d4+1
 0d0+0 800
 8 8 2
+Absorbe: 4
 BareHandAttack: 8
 Str: 10
 Dex: 9
@@ -284,7 +293,7 @@ Cha: 8
 Size: 18
 ExtraAttack: 1
 Class: 103
-Race: 104
+Race: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -303,9 +312,10 @@ E
 Крупная полу-хищная птица.
 ~
 d0g0 x0 0 E
-5 15 7 5d3+90 2d2+2
+4 15 7 5d3+90 2d2+2
 0d0+0 750
 8 8 1
+Absorbe: 4
 BareHandAttack: 2
 Str: 3
 Dex: 9
@@ -335,9 +345,10 @@ E
 
 ~
 d0g0 x0 0 E
-5 15 7 5d3+70 1d4+1
+4 15 7 5d3+70 1d4+1
 0d0+0 800
 8 8 1
+Absorbe: 4
 BareHandAttack: 8
 Str: 12
 Dex: 9
@@ -348,7 +359,7 @@ Cha: 8
 Size: 16
 ExtraAttack: 1
 Class: 103
-Race: 104
+Race: 103
 Height: 50
 Weight: 10
 Special_Bitvector: 0 
@@ -368,9 +379,10 @@ E
 
 ~
 d0g0f2 0 0 E
-5 16 7 5d3+80 1d2+1
+4 16 7 5d3+80 1d2+1
 0d0+0 750
 8 8 2
+Absorbe: 4
 BareHandAttack: 13
 Str: 12
 Dex: 9
@@ -401,9 +413,10 @@ E
 
 ~
 d0g0 0 0 E
-6 15 5 5d3+110 3d2+3
+4 15 5 5d3+110 3d2+3
 0d0+0 1000
 8 8 2
+Absorbe: 4
 BareHandAttack: 4
 Str: 12
 Dex: 13
@@ -434,9 +447,10 @@ E
 
 ~
 d0g0f2 x0 0 E
-6 14 5 5d4+110 3d2+2
+4 14 5 5d4+110 3d2+2
 0d0+0 1000
 8 8 1
+Absorbe: 4
 BareHandAttack: 8
 Str: 12
 Dex: 3
@@ -468,9 +482,10 @@ E
 
 ~
 d0g0 x0 0 E
-6 14 5 5d4+100 3d2+3
+4 14 5 5d4+100 3d2+3
 0d0+0 1000
 8 8 1
+Absorbe: 4
 BareHandAttack: 8
 Str: 13
 Dex: 10
@@ -502,9 +517,10 @@ E
 
 ~
 d0g0f2 x0 0 E
-6 15 5 5d3+115 3d2+2
+4 15 5 5d3+115 3d2+2
 0d0+0 1000
 8 8 1
+Absorbe: 4
 BareHandAttack: 8
 Str: 12
 Dex: 12
@@ -515,7 +531,7 @@ Cha: 10
 Size: 19
 ExtraAttack: 1
 Class: 103
-Race: 104
+Race: 103
 Height: 70
 Weight: 7
 Special_Bitvector: 0 
@@ -535,9 +551,10 @@ E
 
 ~
 d0g0 0 0 E
-7 13 4 5d3+115 3d2+3
+6 13 4 5d3+115 3d2+3
 0d0+0 2000
 8 8 2
+Absorbe: 6
 BareHandAttack: 4
 Str: 12
 Dex: 15
@@ -567,9 +584,10 @@ E
 Более мелкий, чем его лесной собрат.
 ~
 d0g0f2 0 0 E
-8 10 4 5d3+140 2d4+3
+6 10 4 5d3+140 2d4+3
 0d0+0 2000
 8 8 1
+Absorbe: 6
 BareHandAttack: 4
 Str: 14
 Dex: 12
@@ -600,9 +618,10 @@ E
 
 ~
 d0g0m0f2 0 0 E
-5 15 7 5d3+60 2d2+1
+4 15 7 5d3+60 2d2+1
 0d0+0 1000
 8 8 1
+Absorbe: 4
 BareHandAttack: 4
 Str: 10
 Dex: 12
@@ -633,10 +652,11 @@ E
 
 ~
 d0g0f2 x0 0 E
-7 13 7 5d3+100 4d2+3
+6 13 7 5d3+100 4d2+3
 0d0+0 2000
 8 8 1
-BareHandAttack: 4
+Absorbe: 6
+BareHandAttack: 15
 Str: 13
 Dex: 14
 Int: 10
@@ -666,9 +686,10 @@ E
 себе нору в холме.
 ~
 b0d0f0g0m0 k0 0 E
-12 8 4 10d5+200 4d2+2
+11 8 4 10d5+200 4d2+2
 0d0+0 7500
 8 8 1
+Absorbe: 11
 BareHandAttack: 4
 Str: 16
 Dex: 17
@@ -770,9 +791,10 @@ T 4700
 Возможно это не волк, а помесь волка с собакой - вдвойне опасный зверь.
 ~
 b0d0f0m0x0f2 f0k0 -600 E
-15 2 9 5d10+270 4d2+10
+16 2 9 5d10+270 4d2+10
 0d0+0 22000
 8 8 1
+Absorbe: 16
 BareHandAttack: 4
 Str: 20
 Dex: 17
@@ -806,6 +828,7 @@ d0f0l0m0 f0k0 -600 E
 13 2 10 5d5+250 3d3+4
 0d0+0 11000
 8 8 1
+Absorbe: 13
 BareHandAttack: 4
 Str: 17
 Dex: 16

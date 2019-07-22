@@ -237,8 +237,10 @@ mecho Усмарь что-то злобно прорычал сквозь зубы.
 say Да что ты тут шляешься? И без того....
 wait 2s
 eval trup %random.pc%
-say Ты еще здесь?! Ну, сам%trup.g% напросил%trup.u%... На, получи-ка промеж глаз!!!
-mkill %trup%
+if (%trup%)
+  say Ты еще здесь?! Ну, сам%trup.g% напросил%trup.u%... На, получи-ка промеж глаз!!!
+  mkill %trup%
+end
 ~
 #62210
 по тропе на запад~
@@ -593,7 +595,7 @@ dg_cast 'полет' %actor.name%
 dg_cast 'исцеление' %actor.name%
 say А теперь мне пора...
 mecho _Чародей взвился в воздух и исчез.
-mpurge %object.iname%
+mpurge %object%
 mpurge %self%
 ~
 #62224
@@ -692,12 +694,12 @@ end
 say Я и мой отец не останемся в долгу...
 say Теперь я и сама до дому доберусь.
 calcuid father 62200 mob
-attach 62234 %father.id%
+*attach 62234 %father.id%
 attach 62230 %father.id%
 exec 62233 %father.id%
 wait 1
 mecho _Ивушка быстро убежала по тропке на запад.
-mpurge %self.name%
+mpurge %self%
 ~
 #62228
 конунг убит~
@@ -744,13 +746,13 @@ remote questor622 %world.mob(62255)%
 mteleport %self% 62286
 exec 62243 %world.room(62241)%
 exec 62244 %world.room(62260)%
-mpurge %self.name%
+mpurge %self%
 ~
 #62230
 у старейшины (награда)~
 0 q 100
 ~
-if !(%actor.id% == %questor622.id%)
+if (%actor.id% != %questor622.id%)
   halt
 end   
 eval level 22-%actor.remort%/2
@@ -760,7 +762,7 @@ end
 wait 1s
 улыб
 say Спасибо тебе, %actor.iname%, спас%actor.q% ты и селение наше, и дочурку мою...
-emot ласково взлянул на Ивушку
+emot ласково взглянул на Ивушку
 msend %actor% Старейшина крепко пожал Вам руку.
 mechoaround %actor% Старейшина Имрах крепко пожал руку %actor.dname%.
 wait 2s
@@ -770,13 +772,13 @@ if (%questor622.quested(62200)% == 0)
       say Нелегкое это дело - людей лечить. За труд твой благородный... 
       say Прими в награду вот это!
       mload obj 552
-      дат свиток %actor.name%
+      дат свиток .%actor.name%
     break
     case 1
       say Да я понимаю, что колдуны - это боевые маги, но
       say Ломать это не строить, так что возьми-ка вот это
       mload obj 578 
-      дать книг %actor.name%
+      дать книг .%actor.name%
     break
     case 2
       say Воровством ты промышляешь.
@@ -786,10 +788,10 @@ if (%questor622.quested(62200)% == 0)
       mechoaround %actor% Старейшина что-то долго и терпеливо растолковывал %actor.iname%.
       if !%actor.skill(заколоть)%
         msend %actor% Вы теперь поняли, как надо пользоваться умением "заколоть".
-        mskillturn %actor.name% заколоть set
+        mskillturn %actor% заколоть set
       else
         msend %actor% Вы стали значительно опытнее в умении "заколоть".
-        mskilladd .%actor.name% заколоть 10
+        mskilladd %actor% заколоть 10
       end
       %questor622.setquest(62200)%
     break
@@ -799,10 +801,10 @@ if (%questor622.quested(62200)% == 0)
       mechoaround %actor% Старейшина принялся что-то разьяснять %actor.dname% для пущей    убедительности размахивая кулаками.
       if !%actor.skill(богатырский молот)%
         msend %actor% Теперь Вы владеете умением "богатырский молот"!
-        mskillturn %actor.name% богатырский.молот set
+        mskillturn %actor% богатырский.молот set
       else
         msend %actor% Теперь вы гораздо лучше умеете наносить богатырские удары!
-        mskilladd .%actor.name% богатырский.молот 10
+        mskilladd %actor% богатырский.молот 10
       end
       %questor622.setquest(62200)%
     break 
@@ -812,10 +814,10 @@ if (%questor622.quested(62200)% == 0)
       mechoaround %actor% Старейшина принялся что-то разьяснять %actor.dname% , осторожно подкрадываясь.
       if !%actor.skill(осторожный стиль)%
         msend %actor% Теперь Вы владеете умением "осторожный стиль"!
-        mskillturn %actor.name% осторожный.стиль set
+        mskillturn %actor% осторожный.стиль set
       else
         msend %actor% Теперь Вы гораздо лучше умеете осторожно подкрадываться к жертве!
-        mskilladd .%actor.name% осторожный.стиль 10
+        mskilladd %actor% осторожный.стиль 10
       end
       %questor622.setquest(62200)%
     break
@@ -826,10 +828,10 @@ if (%questor622.quested(62200)% == 0)
       mecho Старейшина вытащил из сундука меч и принялся вертеть его вокруг себя, да так, что и не подойдешь к нему.
       if !%actor.skill(веерная защита)%
         msend %actor% Теперь Вы владеете умением "веерная защита"!
-        mskillturn %actor.name% веерная.защита set
+        mskillturn %actor% веерная.защита set
       else
         msend %actor% Теперь Вы гораздо лучше умеете отражать удары!
-        mskilladd .%actor.name% веерная.защита 10
+        mskilladd %actor% веерная.защита 10
       end
       %questor622.setquest(62200)%
     break
@@ -837,7 +839,7 @@ if (%questor622.quested(62200)% == 0)
       say Для кудесника есть у меня чудный дар
       say Вот смотри - с этим ты будешь нужен в любой компании
       mload obj 558
-      дать книг %actor.name%
+      дать книг .%actor.name%
     break 
     case 7
       say Есть у волшебника Дар особый - видеть, то, что другим не видно
@@ -845,10 +847,10 @@ if (%questor622.quested(62200)% == 0)
       mecho Старейшина начал показывать в пустоту и многозначительно кивать.
       if !%actor.skill(врата)%
         msend %actor% Теперь Вы владеете умением "врата"!
-        mskillturn %actor.name% врата set
+        mskillturn %actor% врата set
       else
         msend %actor% Теперь Вы гораздо лучше умеете открывать врата!
-        mskilladd .%actor.name% врата 10
+        mskilladd %actor% врата 10
       end
       %questor622.setquest(62200)%
     break 
@@ -856,17 +858,17 @@ if (%questor622.quested(62200)% == 0)
       say Я так считаю... небудь на земле Зла, кто бы тогда Добро заметил?
       say Ты чернокнижник, стало быть тебе пригодиться вот эта вещь...
       mload obj 568
-      дать книг %actor.name%
+      дать книг .%actor.name%
     break
     case 9
       say Когда-то и я искал славы воинской... Покажу я тебе, как следует удары наносить, чтоб не бестолку мечом-то тыкать...
       mecho Старейшина вытащил из сундука меч и принялся вертеть его вокруг себя, нанося  внезапные удары и выпады.
       if !%actor.skill(точный стиль)%
         msend %actor% Теперь Вы владеете умением "точный стиль"!
-        mskillturn %actor.name% точный.стиль set
+        mskillturn %actor% точный.стиль set
       else
         msend %actor% Теперь Вы гораздо лучше знаете все уязвимые места всевозможных противников!
-        mskilladd .%actor.name% точный.стиль 10
+        mskilladd %actor% точный.стиль 10
       end
       %questor622.setquest(62200)%
     break
@@ -877,10 +879,10 @@ if (%questor622.quested(62200)% == 0)
       mechoaround %actor% Старейшина снял со стены тул со стрелами и стал что-то обьяснять   %actor.name% хватая стрелу то так, то этак.                                               
       if !%actor.skill(дополнительный выстрел)%
         msend %actor% Теперь Вы владеете умением "дополнительный выстрел"!
-        mskillturn %actor.name% дополнительный.выстрел set
+        mskillturn %actor% дополнительный.выстрел set
       else 
         msend %actor% Теперь Вы гораздо лучше знаете как стрелять быстро и точно!
-        mskilladd .%actor.name% дополнительный.выстрел 10
+        mskilladd %actor% дополнительный.выстрел 10
       end
       %questor622.setquest(62200)%
     break 
@@ -895,10 +897,10 @@ if (%questor622.quested(62200)% == 0)
       %actor.wait(3)%
       if !%actor.skill(сбить)%
         msend %actor% Теперь Вы владеете умением "сбить"!
-        mskillturn %actor.name% сбить set
+        mskillturn %actor% сбить set
       else
         msend %actor% Теперь Вы гораздо лучше знаете как надо сбивать противников!
-        mskilladd .%actor.name% сбить 10
+        mskilladd %actor% сбить 10
       end
       %questor622.setquest(62200)%
     break
@@ -912,10 +914,10 @@ if (%questor622.quested(62200)% == 0)
       mechoaround %actor% _Незаметным движением руки старейшина ловко метнул нож!
       if !%actor.skill(метнуть)%
         msend %actor% Теперь Вы владеете умением "метнуть"!
-        mskillturn %actor.name% метнуть set
+        mskillturn %actor% метнуть set
       else
         msend %actor% Теперь Вы гораздо лучше знаете как надо метать ножи!
-        mskilladd .%actor.name% метнуть 10   
+        mskilladd %actor% метнуть 10   
       end
       %questor622.setquest(62200)%
     break  
@@ -928,10 +930,10 @@ if (%questor622.quested(62200)% == 0)
       mechoaround %actor% _Старейшина стал что-то нашептывать.
       if !%actor.skill(сглазить)%
         msend %actor% Теперь Вы владеете умением "сглазить"!
-        mskillturn %actor.name% сглазить set
+        mskillturn %actor% сглазить set
       else
         msend %actor% Теперь Вы гораздо лучше знаете как сглазить человека!
-        mskilladd .%actor.name% сглазить 10 
+        mskilladd %actor% сглазить 10 
       end
       %questor622.setquest(62200)%
     break
@@ -939,7 +941,7 @@ if (%questor622.quested(62200)% == 0)
 else
   say Нечем мне наградить тебя...
   say Нет у меня сокровищ - вот возьми немного кун.
-  %actor.gold(+5000)%
+  eval temp %actor.gold(+5000)%
   mecoaround %actor% Старейшина передал из рук в руки %actor.dname% набитый золотом пояс.
   msend %actor% Старейшина сунул Вам в руки набитый золотом пояс.
 end
@@ -967,7 +969,7 @@ say А теперь мне пора...
 say Я возвращаюсь домой - на прекраснейший Остров Чародеев.
 say Обычно, простым смертным нет дороги туда.
 say Но ты спас меня... хочешь ли ты отправиться со мной?
-mpurge %object.iname%
+mpurge %object%
 attach 62232 %self.id%
 detach 62231 %self.id%
 ~

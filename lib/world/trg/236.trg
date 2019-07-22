@@ -119,23 +119,37 @@ if (%exist.mob(23613)% || %exist.mob(23614)% || %exist.mob(23615)%)
 end
 wait 3
 say Чуствую, что поле теперь чисто. Теперь я могу покинуть это место.
-if %questor236%
+if (%questor236.iname%)
   say Уважаю тебя, %questor236.iname%.
-  say Коль помог%actor.g% ты мне справиться с моей ошибкой. Я в долгу не останусь.
-  say На вот возьми немного кун. Тебе они нужнее.
+  say Коль помог%actor.q% ты мне справиться с моей ошибкой, я в долгу не останусь.
+  say На вот, возьми немного кун. Тебе они нужнее.
   wait 1s
-  %self.gold(200)%
-  give 200 кун .%actor.name%
+  set temp %questor236.gold(+200)%
 else
   say Подожду %questor236.vname%. Негоже уходить не поблагодарив.
   halt
 end
 wait 1s
-say Надеюсь купеческая дочка не будет в обиде за мою ошибку.
+say Надеюсь, купеческая дочка не будет в обиде за мою ошибку.
 say А ее отец с братьями мне этого точно никогда не простят.
-say Пойду искать счастья в других местах. Возможно где-то там мне повезет больше.
+say Пойду искать счастья в других местах. Возможно, где-то там мне повезет больше.
 wait 1
 switch %actor.class%
+  * лекарь
+  case 0
+    if (!%actor.spelltype(освящение)%) && (%actor.can_get_spell(освящение)%)
+      mspellturn %actor% освящение set
+      say Вот, знай теперь освящение, %actor.iname%. Пригодится в жизни.
+    end
+  break
+  * колдун
+  case 1
+    if (!%actor.spelltype(оцепенение)%) && (%actor.can_get_spell(оцепенение)%)
+      mspellturn %actor% оцепенение set
+      say Вот, знай теперь оцепенение, %actor.iname%, пригодится как-нибудь.
+    end
+  break
+  * наемник
   case 4
     if %random.1000% <= 150
       say Держи вот еще, вдруг тебе пригодится это рецепт.
@@ -143,58 +157,45 @@ switch %actor.class%
       дать свиток .%actor.name%
     end
   break
-  case 8
-    if (!%actor.spell(поднять труп)% && (%actor.level%>13)
-      say Вот держи, может тебе пригодятся эти знания, только не используй их другим во зло
-      mspellturn %actor.name% поднять.труп set
-    end
-  break
-  * лекарь
-  case 0
-    if (!%actor.spelltype(освящение)%) && (%actor.level%>11)
-      mspellturn .%actor.name% освящение set
-      say Вот, знай теперь освящение, %actor.name%. Пригодится в жизни.
-    end
-  break
-  * колдун
-  case 1
-    if (!%actor.spelltype(оцепенение)%) && (%actor.level%>17)
-      mspellturn .%actor.name% оцепенение set
-      say Вот, знай теперь оцепенение, %actor.name%, пригодится как-нибудь.
-    end
-  break
   * дружинник
   case 5
-    if (!%actor.skill(лидерство)%) && (%actor.level%>11)
-      mskillturn %actor.name% лидерство set
+    if (!%actor.skill(лидерство)%) && (%actor.can_get_skill(лидерство)%)
+      mskillturn %actor% лидерство set
       say Дружинник ты, к магии не приучен. Ну может умение быть везде лидером тебе пригодится.
     end
   break
   * кудесник
   case 6
-    if (!%actor.spelltype(оцепенение)%) && (%actor.level%>11)
-      mspellturn .%actor.name% оцепенение set
+    if (!%actor.spelltype(оцепенение)%) && (%actor.can_get_spell(оцепенение)%)
+      mspellturn %actor% оцепенение set
       say Вот, знай теперь оцепенение, %actor.name%, пригодится когда-нибудь.
     end
   break
   * волшебник
   case 7
-    if (!%actor.spelltype(оцепенение)%) && (%actor.level%>13)
-      mspellturn .%actor.name% оцепенение set
+    if (!%actor.spelltype(оцепенение)%) && (%actor.can_get_spell(оцепенение)%)
+      mspellturn %actor% оцепенение set
       say Вот, знай теперь оцепенение, %actor.name%, пригодится в жизни.
+    end
+  break
+  * чернокнижник
+  case 8
+    if (!%actor.spell(поднять труп)% && (%actor.can_get_spell(поднять труп)%)
+      say Вот держи, может тебе пригодятся эти знания, только не используй их другим во зло
+      mspellturn %actor% поднять.труп set
     end
   break
   * витязь
   case 9
-    if (!%actor.spelltype(ускорение)%) && (%actor.level%>19)
-      mspellturn .%actor.name% ускорение set
+    if (!%actor.spelltype(ускорение)%) && (%actor.can_get_spell(ускорение)%)
+      mspellturn %actor% ускорение set
       say Вот, знай теперь ускорение, %actor.name%, дабы был быстрей врагов своих.
     end
   break
   * купец
   case 12
-    if (!%actor.spelltype(слово возврата)%) && (%actor.level%>18)
-      mspellturn .%actor.name% слово.возврата set
+    if (!%actor.spelltype(слово возврата)%) && (%actor.can_get_spell(слово возврата)%)
+      mspellturn %actor% слово.возврата set
       say Вот, знай теперь слово возврата, %actor.name%. 
     end
   break

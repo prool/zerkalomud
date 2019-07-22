@@ -175,7 +175,7 @@ if ((%object.vnum% != 20401 ) && (%object.vnum% != 20402))
   halt
 end
 wait 5
-mpurge %object.name%
+mpurge %object%
 wait 20
 Рад
 say Ыыыы...!!!
@@ -222,7 +222,7 @@ if ((%object.vnum% != 20401 ) && (%object.vnum% != 20402))
 end
 wait 5
 Рад
-mpurge %object.name%
+mpurge %object%
 wait 20
 Обнять %actor.name%
 say Спасибо тебе, друг. Не дал%actor.g% старику умереть голодной смертью!
@@ -267,11 +267,12 @@ if ((%object.vnum% != 20401 ) && (%object.vnum% != 20402))
 end
 wait 5
 ул
-mpurge %object.name%
+mpurge %object%
 wait 20
 say Гм. Нашел таки рибака. 
 say Ладно, пирапущу я тибя. Тока симатри не задерживаися!
 mecho Часовой провел Вас внутрь терема.
+mat 20489 mecho Часовой привел кого-то в терем.
 mteleport all 20489
 ~
 #20415
@@ -291,7 +292,7 @@ detach 20415 %self.id%
 switch %object.vnum%
   case 20335
     wait 1
-    mpurge %object.name%
+    mpurge %object%
     wait 19
     say Гмм. Это письмо, но читобы его пирочитать мине понадобится котел, читобы разогреть ви нем воду.
     say Пошерсти по терему, наверняка где-нибудь завалялось чито-нибудь подходящае.
@@ -299,7 +300,7 @@ switch %object.vnum%
     detach 20416 %self.id%
     case 20336
       wait 1
-      mpurge %object.name%
+      mpurge %object%
       wait 19
       Эм внимательно посмотрел на доску.
       wait 25
@@ -310,7 +311,7 @@ switch %object.vnum%
       detach 20416 %self.id%
       case 20336
         wait 1
-        mpurge %object.name%
+        mpurge %object%
         wait 19
         say Гмм. Это письмо от темника. Он сичитает чито необходимо выслать подмогу для бистрейшего 
         say захвата городов.
@@ -327,12 +328,15 @@ switch %object.vnum%
 switch %object.vnum%
   case 20403
     wait 1
-    mpurge %object.name%
+    mpurge %object%
     say Карашо! Подйем во двор, пирочитаем чито сидесь написано.
+    mat 20435 mecho Кто-то вышел во двор.
     mteleport all 20435
     calcuid dvor 20435 room
     exec 20418 %dvor.id%
     mpurge %self%
+  break
+done
 ~
 #20418
 лоадБаскака~
@@ -498,7 +502,7 @@ end
 switch %object.vnum%
   case 20406
     wait 1
-    mpurge %object.name%
+    mpurge %object%
     wait 19
     say Пирекрасно! Типерь дорога из ситепи безопасна и ми можем начинать собираться в поход.
     say Пиредай это темнику.

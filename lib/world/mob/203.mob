@@ -21,7 +21,7 @@ Armour: 60
 CastSuccess: 80
 Success: 15
 Initiative: 15
-Absorbe: 90
+Absorbe: 39
 Str: 45
 Dex: 40
 Int: 40
@@ -91,6 +91,7 @@ Saves: -10 -10 -10 -10
 Armour: 30
 PlusMem: 200
 CastSuccess: 100
+Absorbe: 31
 Str: 23
 Dex: 20
 Int: 33
@@ -155,7 +156,7 @@ HPreg: 50
 Armour: 40
 PlusMem: 150
 CastSuccess: 80
-Absorbe: 90
+Absorbe: 31
 BareHandAttack: 6
 Str: 17
 Dex: 17
@@ -240,7 +241,8 @@ Saves: -20 -20 -20 -20
 Resistances: 20 20 20 20 0 0 0
 Armour: 35
 PlusMem: 100
-Absorbe: 90
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 6
 Str: 23
 Dex: 27
@@ -321,7 +323,7 @@ b0d0l0m0n0o0q2 d0D0 -600 E
 Saves: -75 -22 -22 -22
 Armour: 90
 CastSuccess: 50
-Absorbe: 90
+Absorbe: 34
 Str: 42
 Dex: 41
 Int: 29
@@ -391,8 +393,8 @@ d0l0m0n0o0q2 k0m1 -600 E
 8 8 1
 Saves: -14 -14 -14 -14
 Armour: 95
-CastSuccess: 20
-Absorbe: 90
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 11
 Str: 36
 Dex: 24
@@ -437,7 +439,8 @@ d0l0m0n0o0q2 k0A0 -600 E
 8 8 1
 Saves: -10 -10 -10 -10
 Armour: 90
-Absorbe: 95
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 7
 Str: 34
 Dex: 34
@@ -487,7 +490,8 @@ d0f0l0m0n0o0q1q2r2 d0h0k0l1q1t1 -600 E
 8 8 1
 Saves: -25 -14 -14 -14
 Armour: 60
-Absorbe: 90
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 3
 Str: 42
 Dex: 18
@@ -526,7 +530,8 @@ b0d0f0l0m0n0o0q2r2 d0k0t1 -600 E
 Saves: -40 -14 -14 -14
 Resistances: 15 15 15 15 20 20 20
 Armour: 95
-Absorbe: 95
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 3
 Str: 40
 Dex: 31
@@ -572,7 +577,8 @@ d0l0m0n0o0q1q2 k0t1 -600 E
 8 8 1
 Saves: -10 -10 -10 -10
 Armour: 95
-Absorbe: 95
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 7
 Str: 34
 Dex: 28
@@ -620,8 +626,9 @@ Saves: -19 -19 -19 -19
 Resistances: 9 9 9 9 18 18 18
 HPreg: 60
 Armour: 95
+CastSuccess: 23
 Initiative: 9
-Absorbe: 99
+Absorbe: 32
 BareHandAttack: 9
 Str: 43
 Dex: 43
@@ -669,7 +676,7 @@ Resistances: 5 5 5 5 25 25 25
 Armour: 95
 CastSuccess: 25
 Initiative: 3
-Absorbe: 99
+Absorbe: 32
 BareHandAttack: 7
 Str: 41
 Dex: 23
@@ -717,10 +724,10 @@ Saves: -45 -45 -45 -45
 Resistances: 25 25 25 25 39 39 39
 HPreg: 90
 Armour: 90
-CastSuccess: 15
+CastSuccess: 23
 Success: 15
 Initiative: 5
-Absorbe: 95
+Absorbe: 32
 Str: 46
 Dex: 46
 Int: 31
@@ -765,7 +772,8 @@ b0d0l0n0o0q2 d0k0t1 -600 E
 Saves: -30 -30 -30 -30
 Resistances: 20 20 20 20 15 15 15
 Armour: 50
-Absorbe: 5
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 3
 Str: 38
 Dex: 33
@@ -812,7 +820,8 @@ d0l0m0n0o0q1q2 d0h0k0r0z0A0C0t1 -600 E
 Saves: -40 -40 -40 -40
 Resistances: 20 20 20 20 15 15 15
 Armour: 80
-Absorbe: 90
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 7
 Str: 38
 Dex: 35
@@ -855,7 +864,8 @@ d0l0m0n0o0q2 k0 -600 E
 8 8 1
 Saves: -14 -14 -14 -14
 Armour: 95
-Absorbe: 95
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 9
 Str: 35
 Dex: 35
@@ -900,7 +910,8 @@ b0d0l0m0n0o0q2 d0k0t1 -600 E
 8 8 1
 Saves: -10 -10 -10 -10
 Armour: 90
-Absorbe: 90
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 10
 Str: 27
 Dex: 37
@@ -950,7 +961,7 @@ PlusMem: 100
 CastSuccess: 90
 Success: 10
 Initiative: 10
-Absorbe: 95
+Absorbe: 33
 BareHandAttack: 3
 Str: 45
 Dex: 33
@@ -1010,10 +1021,10 @@ Saves: -50 -50 -20 -20
 Resistances: 20 20 20 20 10 10 10
 Armour: 90
 PlusMem: 50
-CastSuccess: 20
+CastSuccess: 23
 Success: 5
 Initiative: 5
-Absorbe: 95
+Absorbe: 32
 BareHandAttack: 2
 Str: 42
 Dex: 36
@@ -1085,7 +1096,8 @@ b0d0m0n0o0q2 d0k0q1t1 -600 E
 Saves: -20 -10 -10 -10
 Resistances: 0 5 5 5 5 5 0
 Armour: 95
-Absorbe: 95
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 6
 Str: 35
 Dex: 29
@@ -1119,10 +1131,10 @@ E
 T 20306
 #20320
  багник~
-багник ~
+багник~
 багника~
 багнику~
-багник~
+багника~
 багником~
 багнике~
 Болотник парит над багной.
@@ -1140,7 +1152,7 @@ HPreg: 100
 Armour: 100
 PlusMem: 100
 CastSuccess: 100
-Absorbe: 90
+Absorbe: 29
 BareHandAttack: 2
 Str: 30
 Dex: 30
@@ -1219,9 +1231,10 @@ d0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
 8 8 1
 Saves: -65 -25 -25 -25
 Armour: 95
+CastSuccess: 23
 Success: 5
 Initiative: 5
-Absorbe: 90
+Absorbe: 32
 BareHandAttack: 2
 Str: 41
 Dex: 34
@@ -1271,7 +1284,7 @@ Armour: 90
 CastSuccess: 50
 Success: 10
 Initiative: 10
-Absorbe: 90
+Absorbe: 33
 BareHandAttack: 3
 Str: 44
 Dex: 36
@@ -1316,7 +1329,9 @@ d0f0m0n0o0q1g2k2q2r2 d0k0m1 -600 E
 8 8 1
 Saves: -20 -15 -14 -14
 Armour: 90
+CastSuccess: 23
 Initiative: 95
+Absorbe: 32
 BareHandAttack: 9
 Str: 43
 Dex: 43
@@ -1361,7 +1376,8 @@ d0f0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
 8 8 1
 Saves: -15 -14 -14 -14
 Armour: 90
-Absorbe: 95
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 7
 Str: 41
 Dex: 23
@@ -1413,7 +1429,7 @@ PlusMem: 100
 CastSuccess: 100
 Success: 15
 Initiative: 15
-Absorbe: 95
+Absorbe: 32
 Str: 46
 Dex: 46
 Int: 31
@@ -1457,7 +1473,8 @@ d0f0m0n0o0q1g2k2q2r2 k0m1 -600 E
 8 8 1
 Saves: -14 -14 -14 -14
 Armour: 95
-Absorbe: 90
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 11
 Str: 36
 Dex: 24
@@ -1496,6 +1513,8 @@ d0f0m0n0o0q1g2k2q2r2 k0A0 -600 E
 8 8 1
 Saves: -10 -10 -10 -10
 Armour: 35
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 7
 Str: 34
 Dex: 34
@@ -1535,7 +1554,8 @@ d0f0m0n0o0q1g2k2q2r2 h0k0l1q1t1 -600 E
 8 8 1
 Saves: -14 -14 -14 -14
 Armour: 90
-Absorbe: 90
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 3
 Str: 42
 Dex: 18
@@ -1574,7 +1594,8 @@ d0f0m0n0o0q1g2k2q2r2 d0k0t1 -600 E
 8 8 1
 Saves: -10 -10 -10 -10
 Armour: 90
-Absorbe: 90
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 7
 Str: 34
 Dex: 28
@@ -1621,7 +1642,8 @@ Saves: -45 -30 -14 -15
 Resistances: 15 35 25 9 50 45 50
 HPreg: 50
 Armour: 90
-Absorbe: 90
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 7
 Str: 38
 Dex: 35
@@ -1668,7 +1690,8 @@ d0f0m0n0o0q1g2k2q2r2 k0 -600 E
 8 8 1
 Saves: -14 -14 -14 -14
 Armour: 95
-Absorbe: 90
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 9
 Str: 35
 Dex: 35
@@ -1715,7 +1738,8 @@ Saves: -10 -10 -10 -10
 Resistances: 8 8 8 8 12 12 12
 HPreg: 25
 Armour: 90
-Absorbe: 90
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 10
 Str: 27
 Dex: 37
@@ -1758,6 +1782,7 @@ b0d0n0o0x0o2 d0f0k0r0 -600 E
 29 6 -2 10d10+2500 12d13+50
 0d0+1 250000
 6 6 1
+Absorbe: 29
 Str: 35
 Dex: 26
 Int: 25
@@ -1792,7 +1817,8 @@ b0d0l0m0n0o0q2 d0k0t1 -600 E
 8 8 1
 Saves: -10 -10 -10 -10
 Armour: 90
-Absorbe: 80
+CastSuccess: 20
+Absorbe: 31
 AResist: 5
 MResist: 5
 BareHandAttack: 7
@@ -1842,7 +1868,7 @@ HPreg: 200
 Armour: 90
 CastSuccess: 30
 Success: 5
-Absorbe: 95
+Absorbe: 29
 BareHandAttack: 2
 Destination: 20319
 Destination: 20318
@@ -1920,7 +1946,8 @@ b0d0l0m0n0o0q2 d0k0t1 -600 E
 8 8 1
 Saves: -14 -14 -14 -14
 Armour: 95
-Absorbe: 95
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 3
 Str: 38
 Dex: 33
@@ -1964,7 +1991,8 @@ b0d0f0l0m0n0o0q2r2 d0k0r1t1 -600 E
 8 8 1
 Saves: -60 -25 -40 -15
 Armour: 90
-Absorbe: 90
+CastSuccess: 23
+Absorbe: 32
 Str: 34
 Dex: 40
 Int: 27
@@ -1989,10 +2017,10 @@ Spell: 28
 E
 #20338
  багник~
-багник ~
+багник~
 багника~
 багнику~
-багник~
+багника~
 багником~
 багнике~
 Болотник парит над багной.
@@ -2005,7 +2033,7 @@ b0c0d0f0g0n0o0x0b1p1 d0k0x0 -600 E
 0d0+0 250000
 8 8 1
 Armour: 90
-Absorbe: 90
+Absorbe: 29
 BareHandAttack: 2
 Str: 30
 Dex: 30

@@ -149,38 +149,48 @@ end
 0 j 100
 ~
 wait 2s
-if %object.vnum% == 67207
-  mjunk all
-  if (%world.curobjs(67221)% <5) && (%random.100% < 26)
-    wait 2s
-    mload obj 67221
-    дат меч %actor.name%
-  else
-    say Эх, не везет... Трудное это дело - чудеса творить. 
-  end
-end
-wait 2s
-if %object.vnum% ==67216 
-  mjunk all
-  if (%world.curobjs(67224)% < 5) && (%random.100% < 34)
-    wait 2s
-    mload obj 67224
-    дат перевязь %actor.name%
-  else
-    say Эх, не везет... Трудное это дело - чудеса творить. 
-  end
-end
-wait 2s
-if %object.vnum% ==67217 
-  mjunk all
-  if (%world.curobjs(67218)% < 5) && (%random.100% < 34)
-    wait 2s
-    mload obj 67218
-    дат амулет %actor.name%
-  else
-    say Эх, не везет... Трудное это дело - чудеса творить. 
-  end
-end
+switch %object.vnum%
+  case 67207
+    * чешуя змеюки
+    %purge% %object%
+    if (%world.curobjs(67221)% < 5) && (%random.100% < 26)
+      wait 2s
+      mload obj 67221
+      дать all .%actor.name%
+      брос all
+    else
+      say Эх, не везет... Трудное это дело - чудеса творить. 
+    end
+  break
+  case 67216
+    * шкура львюки
+    %purge% %object%
+    if (%world.curobjs(67224)% < 5) && (%random.100% < 34)
+      wait 2s
+      mload obj 67224
+      дать all .%actor.name%
+      брос all
+    else
+      say Эх, не везет... Трудное это дело - чудеса творить. 
+    end
+  break
+  case 67217
+    * голова горушки
+    %purge% %object%
+    if (%world.curobjs(67218)% < 5) && (%random.100% < 34)
+      wait 2s
+      mload obj 67218
+      дать all .%actor.name%
+      брос all
+    else
+      say Эх, не везет... Трудное это дело - чудеса творить. 
+    end
+  break
+  default
+    say Что? Зачем мне это?
+    брос all
+  break
+done
 ~
 #67211
 даем шмот2 орлу~
@@ -444,7 +454,8 @@ wait 1
 0 j 100
 ~
 if %object.vnum% != 67204
-  drop %object.name%
+  msend %actor% Ему это не нужно, а вам, глядишь, пригодится.
+  return 0
   halt
 end
 wait 1

@@ -76,11 +76,11 @@ if %object.vnum% == 11205 then
   хих 
 else 
   wait 1s
-  say Зачем мне это? хотя да, подарю детям.
+  say Зачем мне это? Хотя да, подарю детям.
   wait 1s
-  mecho Сатана-Клаус затравленно оглянулся и запихнул %object.iname% за пояс.
+  mecho Сатана-Клаус затравленно оглянулся и запихнул %object.vname% за пояс.
 end
-mpurge %object.iname%
+mpurge %object%
 detach 11205 %self.id%
 ~
 #11204
@@ -210,7 +210,7 @@ if %object.vnum% == 11212
       mload obj 11211
       дать колеч .%actor.iname%
       say Носи, дитятко :)
-      mpurge %object.iname%
+      mpurge %object%
       halt
     break
     case 2
@@ -218,7 +218,7 @@ if %object.vnum% == 11212
       mload obj 11210
       дать плащ .%actor.iname%
       say Носи, дитятко :)
-      mpurge %object.iname%
+      mpurge %object%
       halt
     break
     case 3
@@ -226,7 +226,7 @@ if %object.vnum% == 11212
       mload obj 11209
       дать сап .%actor.iname%
       say Носи, дитятко :)
-      mpurge %object.iname%
+      mpurge %object%
       halt
     break
     case 4
@@ -234,7 +234,7 @@ if %object.vnum% == 11212
       mload obj 11208
       дать трус .%actor.iname%
       say Носи, дитятко :)
-      mpurge %object.iname%
+      mpurge %object%
       halt
     break
     case 5
@@ -242,7 +242,7 @@ if %object.vnum% == 11212
       mload obj 11207
       дать перч .%actor.iname%
       say Носи, дитятко :)
-      mpurge %object.iname%
+      mpurge %object%
       halt
     break
   done
@@ -252,11 +252,11 @@ if %object.vnum% == 11212
   mecho Бедная девочка быстро спрятала за спину испорченную вещь и незаметно выкинула.
   wait 1
   say Бракованный был :)
-  mpurge %object.iname%
+  mpurge %object%
 else
   wait 1
-  say и зачем это мне? хотя да, подарю детям :)
-  mpurge %object.iname%
+  say И зачем это мне? Хотя да, подарю детям :)
+  mpurge %object%
 end
 ~
 #11213

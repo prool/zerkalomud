@@ -5,7 +5,7 @@
 wait 1
 switch %object.vnum%
   case 5402
-    mpurge %object%
+    %purge% %object%
     say - Я так давно его искал, жена говорит не возвращайся из леса,  пока не найдешь глухариное перо!
     say - Спасибо. Вот, возьми.
     %self.gold(+100)%

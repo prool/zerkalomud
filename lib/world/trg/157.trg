@@ -112,34 +112,40 @@ mecho Кровушка стынет от чьего-то пресмертного крика.
 0 j 100
 100~
 wait 1
-if %object.vnum% !=15707
+if (%object.vnum% != 15707)
   брос %object.name%
   halt
 end
 wait 1
 mpurge %object%
-if %self.fighting%
+if (%self.fighting%)
   halt
 end
-mload obj 15715
 mecho Сегун принялся читать свиток.
 wait 10
 say А, русские. Помню вашу княгиню.
 say Вот, передайте ей от меня.
-say Это как бы знак дружбы между народами. Вобщем она поймет.
-wait 15
-взд
-wait 5
-дать хриз %actor.name%
+say Это знак дружбы между народами. Она поймет.
+wait 10
+mload obj 15715
+calcuid flower 15715 obj
+%send% %actor% %self.iname% передал Вам %flower.vname%.
+%echoaround% %actor% %self.iname% передал %actor.dname% %flower.vname%.
+eval temp %flower.put(%actor%)%
+брос хриз
 say А теперь быстрее уходите. 
 say Только пришли к нам, и уже пол страны перебили
-wait 15
-foreach firstchar %self.pc%
-  mteleport %firstchar% 15750 horse
-  msend %firstchar% Эх, весела дорога домой...
-  wait 15
-  msend %firstchar% ...и через пару лет Вы пришли обратно...
-done
+wait 5s
+calcuid atsegun 15725 room
+attach 15711 %atsegun.id%
+exec 15711 %atsegun.id%
+*нижеследующее перенесено в отдельный room триг чтоб тьма не роляла
+*foreach firstchar %self.pc%
+*  mteleport %firstchar% 15750 horse
+*  msend %firstchar% Эх, весела дорога домой...
+*  wait 15
+*  msend %firstchar% ...и через пару лет Вы пришли обратно...
+*done
 ~
 #15705
 дали монаху чашку.~
@@ -247,6 +253,17 @@ end
 if ((%random.1000% < 25) && (%world.curobjs(241)% < 50)) || %random.1000% < 10%
   mload obj 241
 end
+~
+#15711
+Телепорт от сегуна~
+2 z 100
+~
+foreach firstchar %self.pc%
+  %send% %firstchar% Эх, весела дорога домой...
+  wait 15
+  %send% %firstchar% ...и через пару лет Вы пришли обратно...
+  %teleport% %firstchar% 15750 horse
+done
 ~
 #15750
 княгиня послала~

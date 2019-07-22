@@ -109,11 +109,11 @@ wait 1
 say Сегодня ничего не продаю и не покупаю. Иди вон отсюда, бродяга!!!
 wait 1s
 mecho  _Купец потребовал всем удалиться.
-say Иди от сюда, проходимец!!!.
+say Иди отсюда, проходимец!!!.
 msend  %actor%  Купец пригрозил пальцем, повернул Вас к себе задом и БОЛЬНО ударил ниже спины сапогом!
 mechoaround %actor% %actor.name%, получив удар купчишки, с криком вылетел%actor.g% из дома!!! 
 wait 1s
-msend %actor% - Потирая зад, Вы стоите у купеческого дома.
+msend %actor%  Потирая зад, Вы стоите у купеческого дома.
 mteleport %actor% 33043
 calcuid zellroom 33043 room
 attach 33018 %zellroom.id%
@@ -238,11 +238,14 @@ wait 1s
 set i 0
 switch %objvnum%
   case 33309
-    if ((%random.1000% <= 55) && (%world.curobjs(3354)% < 2))
-      say Прими вот это кольцо!
-      mload obj 3354
+    wait 1s
+    if ((%world.curobjs(33319)% < 4) && (%random.1000% <= 333))
+      say Спасибо!
+      wait 1s
+      mload obj 33319
       wait 10
-      дать коль .%actor.name%
+      say Прими вот это кольцо!
+      дать красив.коль .%actor.name%
     else
       set i 1
     end
@@ -310,8 +313,6 @@ calcuid kupez 33013 mob
 detach 33013 %kupez.id%
 calcuid kupez 33013 mob
 attach 33003 %kupez.id%
-calcuid udochkki 33004 room
-attach 33023 %udochkki.id% 
 calcuid udochkl 33004 room
 exec 33026  %udochkl.id%
 ~
@@ -402,113 +403,90 @@ wechoaround %actor% Кто-то прыгнул сюда.
 ~
 #33023
 закинуть удочку~
-2 c 0
-закинуть забросить ловить рыбалить~
-if !(%arg.contains(удочка)%) 
-  wsend       %actor% Что вы хотите закинуть???
+1 c 4
+закинуть~
+if !(%arg.contains(удочка)%) && !(%arg.contains(удочку)%)
+  %send%       %actor% Что вы хотите закинуть???
   return 0
   halt
 end
 wait 1
-wsend       %actor% Проверив наживку и хорошенько размахнувшись, вы закинули удочку.
-wechoaround %actor% Осмотрев наживку и состроив из себя опытного рыбака, %actor.name% закинул%actor.g% удочку в реку.
-wpurge  fishhook330
-wload obj 33033
-calcuid udorchkk 33004 room
-attach 33024 %udorchkk.id% 
-exec  33024 %udorchkk.id% 
-calcuid urdochkki 33004 room
-detach 33023 %urdochkki.id% 
+%send%       %actor% Проверив наживку и хорошенько размахнувшись, Вы закинули удочку.
+%echoaround% %actor% Осмотрев наживку и состроив из себя опытного рыбака, %actor.name% закинул%actor.g% удочку в реку.
+%load% obj 33033
+calcuid udochka 33033 obj
+exec 33024 %udochka%
+%purge% %self%
 ~
 #33024
 клюет~
-2 z 100
+1 z 100
 ~
 switch %random.3%
   case 1
     wait 15s
-    wecho _Клюет. Самое время подсечь.
-    calcuid uqdochkki 33004 room
-    attach 33025 %uqdochkki.id% 
-  end
-break
-case 2
-  wait 10s
-  wecho _Клюет. Самое время подсечь.
-  calcuid uwdochkkii 33004 room
-  attach 33025 %uwdochkkii.id% 
-end
-break
-case 3
-  wait 5s
-  wecho _Клюет. Самое время подсечь.
-  calcuid uedochkkk 33004 room
-  attach 33025 %uedochkkk.id% 
-end
-break
+    %echo% _Клюет. Самое время подсечь.
+    attach 33025 %self% 
+  break
+  case 2
+    wait 10s
+    %echo% _Клюет. Самое время подсечь.
+    attach 33025 %self%
+  break
+  case 3
+    wait 5s
+    %echo% _Клюет. Самое время подсечь.
+    attach 33025 %self%
+  break
 done
 ~
 #33025
 подсечь удочку~
-2 c 0
-подсечь поднять дернуть~
-if !(%arg.contains(удочка)%) 
-  wsend       %actor% Что вы хотите подсечь???
+1 c 4
+подсечь~
+if !(%arg.contains(удочка)%) && !(%arg.contains(удочку)%)
+  %send%       %actor% Что вы хотите подсечь???
   return 0
   halt
 end
-wsend       %actor% Вы осторожно взяли удилище и резко цмыкнули.
-wechoaround %actor% Увидев что клюет, %actor.name%, дрожащими руками дернул%actor.g% удилище.
-calcuid uddochkk 33004 room
-detach 33024 %uddochkk.id% 
+%send%       %actor% Вы осторожно взяли удилище и резко цмыкнули.
+%echoaround% %actor% Увидев что клюет, %actor.name%, дрожащими руками дернул%actor.g% удилище.
 switch %random.3%
   case 1
     wait 1s
-    wsend       %actor% Здоровенная рыбина сорвалась с крючка... Обидно.
-    wechoaround %actor%  %actor.name% крякнул%actor.g% от досады, когда огромная рыбина сорвалась с крючка.
-    calcuid udfochkki 33004 room
-    attach 33023 %udfochkki.id% 
-    wpurge  fishhook330_2
-    wload obj 33028
-    calcuid uhdochkkk 33004 room
-    detach 33025 %uhdochkkk.id% 
-  end
-break
-case 2
-  wait 1s
-  wsend       %actor% Вы успешно подсекли рыбешку.
-  wechoaround %actor%  %actor.name% с ехидной улыбкой вытащил%actor.g% маленькую рыбешку.
-  calcuid ujdochkki 33004 room
-  attach 33023 %ujdochkki.id% 
-  wpurge  fishhook330_2
-  wload obj 33003
-  wload obj 33028
-  calcuid uldochkkk 33004 room
-  detach 33025 %uldochkkk.id% 
+    %send%       %actor% Здоровенная рыбина сорвалась с крючка... Обидно.
+    %echoaround% %actor%  %actor.name% крякнул%actor.g% от досады, когда огромная рыбина сорвалась с крючка.
+    %load% obj 33028
+    %purge% %self%
+  break
+  case 2
+    wait 1s
+    %send%       %actor% Вы успешно подсекли рыбешку.
+    %echoaround% %actor%  %actor.name% с ехидной улыбкой вытащил%actor.g% маленькую рыбешку.
+    %load% obj 33003
+    %load% obj 33028
+    %purge% %self%
+  break
+  case 3
+    wait 1s
+    %send%       %actor% Вы успешно подсекли крупную рыбину.
+    %echoaround% %actor%  %actor.name%, покраснев от натуги, вытащил%actor.g% большую рыбину.
+    %load% obj 33034
+    %load% obj 33028
+    %purge% %self%
+  break
 end
-break
-case 3
-  wait 1s
-  wsend       %actor% Вы успешно подсекли крупную рыбину.
-  wechoaround %actor%  %actor.name%, покраснев от натуги, вытащил%actor.g% большую рыбину.
-  calcuid uxdochkki 33004 room
-  attach 33023 %uxdochkki.id% 
-  wpurge  fishhook330_2
-  wload obj 33034
-  wload obj 33028
-  calcuid udoqwchkkk 33004 room
-  detach 33025 %udoqwchkkk.id% 
-end
-break
-done
 ~
 #33026
 удаляем все с клетки~
 2 z 100
 ~
-wpurge  fishhook330
-wpurge  fishhook330_2
-wload obj 33028
+foreach object %self.objs%
+  if (%object.vnum% == 33028) || (%object.vnum% == 33033)
+    %purge% %object%
+  end
+done
+%load% obj 33028
 ~
 #33027
 приветствие~

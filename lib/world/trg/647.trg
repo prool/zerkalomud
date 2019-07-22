@@ -17,7 +17,7 @@ if %object.vnum% == 72721
 эм стал быстро читать грамоту, шевеля губами.
   wait 1
   calcuid dar 72721 obj
-  mpurge %dar.name%
+  mpurge %dar%
 wait 1
 say За вести от брата - отблагодарю тебя!
 wait 4

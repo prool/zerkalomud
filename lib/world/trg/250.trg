@@ -18,25 +18,15 @@ switch %amount%
     msend %actor.name% Лодочник неторопливо залез в лодку, затем Вам помог разместиться в ней.
     wait 1s
     msend %actor.name% Вы поплыли на лодке через реку на южный берег.
-    if %actor.sex%==1
-      mechoaround %actor% %actor.name% залез в лодку с лодочником.
-      mechoaround %actor% %actor.name% уплыл на лодке с лодочником.
-    else
-      mechoaround %actor% %actor.name% залезла в лодку с лодочником.
-      mechoaround %actor% %actor.name% уплыла на лодке с лодочником.
-    end
+    mechoaround %actor% %actor.name% залез%actor.q% в лодку с лодочником.
+    mechoaround %actor% %actor.name% уплыл%actor.g% на лодке с лодочником.
     wait 1s
     msend %actor.name% Вы приплыли к южному берегу реки.
     msend %actor.name% Лодочник сел в лодку и поплыл назад.
     mteleport %actor% 25120
     wait 1s
-    if %actor.sex%==1
-      %echoaround% %actor% %actor.name% приплыл с лодочником.
-      %echoaround% %actor% %actor.name% вылез из лодки.
-    else
-      %echoaround% %actor% %actor.name% приплыла с лодочником.
-      %echoaround% %actor% %actor.name% вылезла из лодки.
-    end
+    %echoaround% %actor% %actor.name% приплыл%actor.g% с лодочником.
+    %echoaround% %actor% %actor.name% вылез%actor.q% из лодки.
     %echoaround% %actor% Лодочник сел в лодку и поплыл назад.
     wait 1s
     mat 25065 %echo% Лодочник приплыл назад.
@@ -46,25 +36,15 @@ switch %amount%
     wait 1s
     msend %actor.name% Вы поплыли на лодке.
     msend %actor.name% Сначала вдоль берега в устье Днепра, затем и через Днепр. 
-    if %actor.sex%==1
-      mechoaround %actor% %actor.name% залез в лодку с лодочником.
-      mechoaround %actor% %actor.name% уплыл на лодке с лодочником.
-    else
-      mechoaround %actor% %actor.name% залезла в лодку с лодочником.
-      mechoaround %actor% %actor.name% уплыла на лодке с лодочником.
-    end
+    mechoaround %actor% %actor.name% залез%actor.q% в лодку с лодочником.
+    mechoaround %actor% %actor.name% уплыл%actor.g% на лодке с лодочником.
     wait 1s
     msend %actor.name% Вы приплыли к рыбацкой деревне.
     msend %actor.name% Лодочник сел в лодку и поплыл назад.
     mteleport %actor% 33027
     wait 1s
-    if %actor.sex%==1
-      %echoaround% %actor% %actor.name% приплыл с лодочником.
-      %echoaround% %actor% %actor.name% вылез из лодки.
-    else
-      %echoaround% %actor% %actor.name% приплыла с лодочником.
-      %echoaround% %actor% %actor.name% вылезла из лодки.
-    end
+    %echoaround% %actor% %actor.name% приплыл%actor.g% с лодочником.
+    %echoaround% %actor% %actor.name% вылез%actor.q% из лодки.
     %echoaround% %actor% Лодочник сел в лодку и поплыл назад.
     wait 1s
     mat 25065 %echo% Лодочник приплыл назад.
@@ -72,8 +52,8 @@ switch %amount%
   default
     msend %actor% Что-то не то.
     msend %actor% Я называл необходимую сумму, а это непонятно что. 
-    дать %amount% кун %actor.name%
-  break	
+    дать %amount% кун .%actor.name%
+  break    
 done
 ~
 #25002
@@ -245,12 +225,12 @@ if !%actor.quested(25000)%
   дум
   halt
 end
-if (%actor.level% >= 18 && %actor.class%==10 )
+if (%actor.can_get_skill(смастерить лук)% && %actor.class%==10 )
   wait 1s
   say Ну что же, раз воевода ручается за тебя - я возьму тебя в ученики.
   msend %actor% Мастер рассказал вам об изготовлении наиболее простых луков.
   mechoaround %actor% Мастер-лучник принялся что-то втолковывать %actor.dname%.
-  mskillturn %actor.name% смастерить.лук set
+  mskillturn %actor% смастерить.лук set
 else
   взд
   say Тебя я ничему научить не смогу.

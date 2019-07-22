@@ -16,6 +16,8 @@ b0d0e0l0n0p0t0 d0e0f0k0r0A0c2 -600 E
 0d0+0 410000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 3
 Str: 30
 Dex: 15
@@ -68,6 +70,7 @@ d0 d0f0k0 0 E
 12 0 0 10d10+100 3d5+15
 0d0+0 10000
 8 8 2
+Absorbe: 12
 BareHandAttack: 4
 Str: 10
 Dex: 10
@@ -100,6 +103,7 @@ d0g0l0m0n0u0x0 d0f0k0m0n0r0 0 E
 28 -4 -5 5d5+850 8d8+15
 0d0+0 150000
 8 8 1
+Absorbe: 28
 BareHandAttack: 5
 Str: 22
 Dex: 25
@@ -140,6 +144,7 @@ b0d0n0i2 d0e0f0k0 0 E
 25 -6 -9 20d15+1200 8d8+15
 0d0+0 100000
 8 8 2
+Absorbe: 25
 Str: 21
 Dex: 22
 Int: 17
@@ -189,6 +194,8 @@ a0b0d0n0p0t0x0 d0f0k0r0m1q1 0 E
 10d10+3500 1000000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 35
+Absorbe: 36
 Str: 32
 Dex: 31
 Int: 22
@@ -245,6 +252,7 @@ b0d0g0n0B0 d0f0k0n1 600 E
 1 0 0 10d10+10000 0d0+60
 0d0+0 1
 8 8 2
+Absorbe: 1
 Str: 36
 Dex: 36
 Int: 36
@@ -293,6 +301,7 @@ d0f0g0m0n0x0g2 d0f0h0k0m0n0r0C0 0 E
 29 -6 -5 0d0+2000 9d10+12
 0d0+0 200000
 8 8 1
+Absorbe: 29
 BareHandAttack: 7
 Str: 30
 Dex: 22
@@ -341,6 +350,7 @@ d0f0g0m0n0x0 b0d0f0k0x0m1 0 E
 8 8 2
 Saves: 5 0 0 20
 CastSuccess: 40
+Absorbe: 29
 AResist: 30
 BareHandAttack: 5
 Str: 16
@@ -395,6 +405,7 @@ d0f0m0n0 d0f0k0r0t1 0 E
 0d0+0 200000
 8 8 1
 Success: 15
+Absorbe: 29
 Str: 35
 Dex: 20
 Int: 21
@@ -436,6 +447,7 @@ d0f0m0n0x0 d0f0h0k0 0 E
 29 -4 0 10d30+900 15d5+10
 0d0+0 200000
 8 8 1
+Absorbe: 29
 BareHandAttack: 3
 Str: 24
 Dex: 28
@@ -484,6 +496,7 @@ Saves: -54 -54 -54 -54
 Resistances: 20 20 200 200 0 0 0
 PlusMem: 100
 CastSuccess: 100
+Absorbe: 42
 Str: 35
 Dex: 35
 Int: 35
@@ -553,6 +566,7 @@ b0d0f0g0u0y0z0a2 d0f0k0 0 E
 8 8 1
 Saves: -14 -14 -14 -14
 CastSuccess: 60
+Absorbe: 32
 Str: 19
 Dex: 10
 Int: 35
@@ -596,6 +610,7 @@ b0d0g0l0n0p0q0x0t1u2 d0f0k0m0n0x0m1e2 0 E
 Saves: -42 -42 -42 -42
 CastSuccess: 100
 Success: 15
+Absorbe: 39
 AResist: 50
 Str: 30
 Dex: 30
@@ -661,6 +676,8 @@ b0d0f0g0q0r0s0t0u0x0 d0f0k0 0 E
 0d0+0 1500000
 8 8 2
 Saves: -38 -38 -38 -38
+CastSuccess: 41
+Absorbe: 38
 BareHandAttack: 4
 Str: 18
 Dex: 20
@@ -686,8 +703,8 @@ T 13815
 I шерсть,20:50
 I зубы,20:9
 #13814
- молодой волчонок~
-молодой волчонок ~
+молодой волчонок~
+молодой волчонок~
 молодого волчонка~
 молодому волчонку~
 молодого волчонка~
@@ -702,6 +719,7 @@ d0f0g0l0o0x0f2 d0f0k0 0 E
 8 0 -5 0d0+200 5d5+5
 0d0+0 3000
 8 8 1
+Absorbe: 8
 BareHandAttack: 4
 Str: 20
 Dex: 25
@@ -737,6 +755,7 @@ d0e0f0g0s0x0 d0f0k0z0j1 0 E
 29 -3 -5 10d10+900 10d7+10
 0d0+0 200000
 8 8 0
+Absorbe: 29
 Str: 30
 Dex: 20
 Int: 15
@@ -774,6 +793,7 @@ d0g0l0q0x0 d0k0w1 0 E
 25 -2 0 10d80+1200 7d8+12
 0d0+0 90000
 8 8 1
+Absorbe: 25
 Str: 31
 Dex: 20
 Int: 16
@@ -805,6 +825,7 @@ d0f0n0p0r0f2 d0f0k0s0 0 E
 16 -4 -6 10d10+900 5d5+6
 0d0+0 20000
 8 8 1
+Absorbe: 16
 BareHandAttack: 4
 Str: 30
 Dex: 25
@@ -845,6 +866,7 @@ d0f0g0l0f2 d0f0k0r0 0 E
 12 -6 0 10d10+200 8d8+8
 0d0+0 10000
 8 8 1
+Absorbe: 12
 BareHandAttack: 4
 Str: 16
 Dex: 16

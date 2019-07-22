@@ -18,6 +18,8 @@ b0c0d0f0g0n0o0p0q0r0t0u0x0z0 c0d0e0f0k0c1 0 E
 20d10+100 3500000
 8 8 1
 Saves: -50 -50 -50 -50
+CastSuccess: 50
+Absorbe: 41
 BareHandAttack: 3
 Str: 32
 Dex: 32
@@ -64,6 +66,7 @@ d0f0g0n0o0p0t0A0 d0f0k0 0 E
 29 0 -6 9d9+800 8d8+18
 9d9+9 200000
 8 8 1
+Absorbe: 29
 BareHandAttack: 6
 Str: 25
 Dex: 23
@@ -103,6 +106,7 @@ d0f0g0n0o0p0r0t0A0 d0f0k0 0 E
 29 0 -6 9d9+500 4d8+18
 9d9+9 200000
 8 8 1
+Absorbe: 29
 BareHandAttack: 6
 Str: 25
 Dex: 30
@@ -144,6 +148,7 @@ d0f0g0n0o0p0t0u0A0 d0f0k0 0 E
 29 0 -6 9d9+1500 8d12+12
 9d9+9 240000
 8 8 1
+Absorbe: 29
 BareHandAttack: 6
 Str: 33
 Dex: 30
@@ -180,6 +185,7 @@ d0f0g0n0o0p0t0A0 d0f0k0 0 E
 30 0 -6 9d9+600 8d2+2
 9d9+9 310000
 8 8 1
+Absorbe: 30
 BareHandAttack: 6
 Str: 15
 Dex: 36
@@ -232,6 +238,8 @@ b0d0f0g0m0n0o0p0q0r0t0u0 f0k0m0n0c1 0 E
 0d0+0 1900000
 8 8 2
 Saves: -42 -42 -42 -42
+CastSuccess: 44
+Absorbe: 39
 BareHandAttack: 12
 Str: 18
 Dex: 3
@@ -420,6 +428,7 @@ b0c0d0f0g0n0o0p0A0 d0k0C0o1 0 E
 28 0 -7 9d9+900 6d6+16
 0d0+0 190000
 8 8 1
+Absorbe: 28
 BareHandAttack: 2
 Str: 25
 Dex: 25
@@ -461,6 +470,7 @@ b0c0d0f0g0n0o0p0A0 d0k0C0o1 0 E
 29 0 -7 9d9+500 6d6+11
 0d0+0 220000
 8 8 1
+Absorbe: 29
 BareHandAttack: 3
 Str: 25
 Dex: 25
@@ -506,6 +516,7 @@ d0f0g0l0n0p0q0t0z0 d0k0 0 E
 28 0 -6 8d8+600 7d7+17
 0d0+0 180000
 8 8 1
+Absorbe: 28
 BareHandAttack: 5
 Str: 24
 Dex: 32
@@ -547,6 +558,7 @@ b0d0g0m0n0o0p0z0A0 d0k0 0 E
 29 0 -8 8d8+500 4d4+10
 0d0+0 210000
 8 8 1
+Absorbe: 29
 Str: 18
 Dex: 25
 Int: 32
@@ -645,6 +657,7 @@ d0g0n0o0 d0k0 0 E
 6 0 0 5d5+70 2d2+0
 0d0+0 2000
 8 8 2
+Absorbe: 6
 BareHandAttack: 4
 Str: 3
 Dex: 3
@@ -678,6 +691,7 @@ d0f0g0n0o0p0q0r0t0u0z0 d0k0 0 E
 29 0 -10 5d5+1900 9d9+9
 0d0+0 195000
 8 8 2
+Absorbe: 29
 BareHandAttack: 12
 Str: 30
 Dex: 25
@@ -715,6 +729,7 @@ d0f0g0n0o0p0q0r0t0u0z0 d0k0 0 E
 27 0 -10 5d5+900 9d13+0
 0d0+0 120000
 8 8 2
+Absorbe: 27
 BareHandAttack: 12
 Str: 23
 Dex: 25
@@ -767,6 +782,7 @@ d0f0g0n0o0p0q0r0t0u0z0a2 d0k0 0 E
 29 0 -10 5d5+500 9d5+0
 0d0+0 220000
 8 8 2
+Absorbe: 29
 BareHandAttack: 12
 Str: 30
 Dex: 25
@@ -801,6 +817,7 @@ d0f0g0n0o0A0 d0f0k0 0 E
 27 1 -5 8d8+999 7d7+7
 0d0+0 130000
 8 8 1
+Absorbe: 27
 BareHandAttack: 3
 Str: 31
 Dex: 25
@@ -835,6 +852,7 @@ d0f0g0n0o0A0 d0f0k0 0 E
 28 1 -5 8d8+899 7d7+17
 0d0+0 170000
 8 8 1
+Absorbe: 28
 BareHandAttack: 3
 Str: 31
 Dex: 25
@@ -880,6 +898,7 @@ d0f0g0l0n0p0q0t0z0 d0k0 0 E
 27 0 -6 8d8+600 7d7+7
 0d0+0 134000
 8 8 1
+Absorbe: 27
 BareHandAttack: 5
 Str: 24
 Dex: 32
@@ -957,6 +976,7 @@ b0d0f0g0n0o0p0q0r0s0b1 d0k0x0 0 E
 29 0 -6 6d6+2000 6d6+6
 0d0+0 200000
 8 8 1
+Absorbe: 29
 BareHandAttack: 2
 Str: 30
 Dex: 16
@@ -995,6 +1015,7 @@ b0c0d0g0n0o0A0h1 c0d0e0f0k0 0 E
 1 0 0 1d1+1 1d1+1
 0d0+0 1
 8 8 2
+Absorbe: 1
 Str: 3
 Dex: 3
 Int: 3
@@ -1030,6 +1051,8 @@ d0f0g0n0o0z0b1 d0k0x0 0 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 2
 Str: 18
 Dex: 12
@@ -1075,6 +1098,7 @@ b0c0d0g0n0o0A0i1 c0d0e0f0k0 0 E
 1 0 0 1d1+1 1d1+1
 0d0+0 1
 4 4 2
+Absorbe: 1
 Str: 3
 Dex: 3
 Int: 3
@@ -1109,6 +1133,7 @@ b0d0f0g0n0o0p0q0r0s0b1 d0k0x0 0 E
 27 0 -6 6d6+2001 6d6+6
 0d0+0 130000
 8 8 1
+Absorbe: 27
 BareHandAttack: 2
 Str: 30
 Dex: 16
@@ -1149,6 +1174,8 @@ b0d0f0g0n0o0p0q0r0s0b1 d0k0x0 0 E
 0d0+0 540000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
+Absorbe: 33
 BareHandAttack: 2
 Str: 30
 Dex: 16
@@ -1189,6 +1216,8 @@ b0d0f0g0n0o0p0q0r0s0b1 d0k0x0 0 E
 0d0+0 570000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
+Absorbe: 33
 BareHandAttack: 2
 Str: 30
 Dex: 16
@@ -1221,11 +1250,13 @@ T 38833
 Длинный толстый черный Василиск осматривает Вас
 завораживающим взглядом.. 
 ~
-b0d0f0g0n0o0p0q0r0s0b1 d0k0x0 0 E
+b0d0f0g0n0o0p0q0r0s0a1 d0k0k1 0 E
 36 0 -6 6d6+6001 6d6+56
 0d0+0 1000000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 35
+Absorbe: 36
 BareHandAttack: 2
 Str: 30
 Dex: 16
@@ -1240,7 +1271,7 @@ Class: 103
 Race: 104
 Height: 198
 Weight: 150
-Special_Bitvector: g0l0 
+Special_Bitvector: g0o0 
 Skill: 136 66
 E
 T 38830
@@ -1264,6 +1295,7 @@ b0d0f0g0n0o0p0t0u0A0 d0f0k0 0 E
 29 0 -6 9d9+1500 8d12+12
 9d9+9 230000
 8 8 1
+Absorbe: 29
 BareHandAttack: 6
 Str: 33
 Dex: 30
@@ -1300,6 +1332,7 @@ d0f0g0n0o0p0t0A0 d0f0k0 0 E
 28 0 -6 9d9+600 8d2+2
 9d9+9 180000
 8 8 1
+Absorbe: 28
 BareHandAttack: 6
 Str: 15
 Dex: 36

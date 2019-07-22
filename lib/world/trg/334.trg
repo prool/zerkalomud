@@ -76,10 +76,14 @@ wait 2s
 say Торгуем картами ... нда... вот...
 wait 1
 mecho Старик виновато взглянул на вас и заткнулся
-calcuid karta 33413 mob
-attach 33406 %karta.id%
-calcuid kartogr 33417 mob
-detach 33405 %kartogr.id%
+if (%exist.mob(33413)%)
+  calcuid karta 33413 mob
+  attach 33406 %karta.id%
+end
+if (%exist.mob(33417)%)
+  calcuid kartogr 33417 mob
+  detach 33405 %kartogr.id%
+end
 ~
 #33406
 загружаем карту девке~

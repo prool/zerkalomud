@@ -99,7 +99,7 @@ end
 Волхв-отшельник принимает квест~
 0 j 100
 ~
-if (%quest695.name% == %actor.name%) && (%object.name% == хрустальная руна)
+if (%quest695.name% == %actor.name%) && (%object.vnum% == 69525)
   wait 1s
   радов %actor.name%
   г Ты смог%actor.q% вернуть ее!
@@ -108,7 +108,7 @@ if (%quest695.name% == %actor.name%) && (%object.name% == хрустальная руна)
   set Get_item %random.5%
   set vnum 69525   
   eval vnum %vnum% + %Get_item%
-  mpurge %object.name%
+  mpurge %object%
   if (%vnum% > 69528)  || (%world.curobjs(%vnum%)% > 3)
     г Ладно, сейчас вещи соберу и домой побегу.
     г А ты всегда можешь ко мне в деревеньку придти, тебе всегда рад буду.
@@ -124,7 +124,7 @@ if (%quest695.name% == %actor.name%) && (%object.name% == хрустальная руна)
     detach 69501 %delete_trig.id% 
     detach 69502 %delete_trig.id%
   end
-elseif (%object.iname% != хрустальная руна)
+elseif (%object.vnum% != 69525)
   г Зачем мне эта дрянь?
   бросить %object.iname%
 else                
@@ -132,7 +132,7 @@ else
   думать
   г Не помню, чтобы я тебя просил ее мне принести.
   г Не украл%actor.g% ли ты ее случаем?
-  mpurge %object.name%
+  mpurge %object%
   рыч
   wait 1s 
   г Думаю, я ее себе оставлю, а тебе лучше отсюда уходить быстрее, пока я тебя не зажарил!
@@ -264,10 +264,12 @@ detach 69510 %self.id%
 Хранитель мудрости младших классов дает задание~
 0 d 0
 помогу хорошо нет да~
-calcuid delete_trig 69528 mob
-detach 69516 %delete_trig.id%  
-detach 69517 %delete_trig.id%  
-detach 69518 %delete_trig.id%
+if %exist.mob(69528)%
+  calcuid delete_trig 69528 mob
+  detach 69516 %delete_trig.id%  
+  detach 69517 %delete_trig.id%  
+  detach 69518 %delete_trig.id%
+end
 detach 69515 %self.id%
 if (%speech% == да) || (%speech% == помогу) || (%speech% == хорошо)    
   wait 1s
@@ -294,10 +296,12 @@ elseif (%speech% == нет)
   г Думаю, мои ученики и учителя помогут тебе обрести разум!
   mecho Хранитель мудрости взмахнул рукой и в комнате возник один из учителей!
   mload mob 69505
-  calcuid delete_trig 69528 mob
-  detach 69514 %delete_trig.id%
+  if %exist.mob(69528)%
+    calcuid delete_trig 69528 mob
+    detach 69514 %delete_trig.id%
+  end
   detach 69511 %self.id%
-end                       
+end
 ~
 #69512
 Хранитель мудрости младших классов принимает задание~
@@ -377,7 +381,9 @@ detach 69516 %self.id%
 Хранитель мудрости старших классов дает задание~
 0 d 0
 помогу хорошо да нет~
-calcuid delete_trig 69509 mob
+if %exist.mob(69509)%
+  calcuid delete_trig 69509 mob
+end
 wait 1s 
 if (%speech% == да) || (%speech% == помогу) || (%speech% == хорошо)   
   г Так вот, что ты должен сделать для меня!
@@ -398,12 +404,16 @@ elseif (%speech% == нет)
   г Все вы людишки, одинаково глупы!
   mecho Хранитель мудрости взмахнул рукой и в комнате возник один из учителей!
   mload mob 69524
-  detach 69515 %delete_trig.id%
+  if %exist.mob(69509)%
+    detach 69515 %delete_trig.id%
+  end
   detach 69517 %self.id%
 end
-detach 69510 %delete_trig.id%  
-detach 69511 %delete_trig.id%  
-detach 69512 %delete_trig.id%
+if %exist.mob(69509)%
+  detach 69510 %delete_trig.id%  
+  detach 69511 %delete_trig.id%  
+  detach 69512 %delete_trig.id%
+end
 detach 69514 %self.id%
 ~
 #69518

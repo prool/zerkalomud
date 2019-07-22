@@ -18,6 +18,7 @@ d0l0t0a2 d0f0k0m0n0x0a1l1p1r1 0 E
 8 8 2
 Saves: -58 -58 -58 -58
 Resistances: 100 0 -50 0 75 75 75
+CastSuccess: 56
 Initiative: 30
 AResist: 30
 PResist: 30
@@ -71,9 +72,9 @@ Spell: 67
 Spell: 67
 Spell: 67
 Spell: 67
-Helper: 96221
-Helper: 96222
 Helper: 96208
+Helper: 96222
+Helper: 96221
 E
 T 96201
 T 96205
@@ -96,7 +97,7 @@ b0d0f0l0m0 d0f0k0x0 -600 E
 0d0+0 3000000
 8 8 1
 Saves: -50 -50 -50 -50
-CastSuccess: 40
+CastSuccess: 50
 Str: 33
 Dex: 30
 Int: 20
@@ -140,6 +141,7 @@ d0e0f0l0m0 d0f0k0x0 -600 E
 8 8 1
 Saves: -40 -40 -40 -40
 Resistances: 0 50 0 0 50 50 50
+CastSuccess: 26
 Str: 25
 Dex: 25
 Int: 25
@@ -176,6 +178,7 @@ d0f0l0m0 d0k0x0 -600 E
 0d0+0 600000
 8 8 2
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 BareHandAttack: 2
 Str: 25
 Dex: 30
@@ -221,6 +224,7 @@ c0d0l0m0t0A0 d0k0x0 -600 E
 8 8 2
 Saves: -22 -22 -22 -22
 Resistances: 0 100 0 0 50 75 0
+CastSuccess: 29
 BareHandAttack: 2
 Str: 25
 Dex: 25
@@ -259,6 +263,7 @@ d0f0l0m0t0 d0f0k0x0 -600 E
 8 8 1
 Saves: -60 -18 -18 -18
 Resistances: 0 60 0 0 30 50 30
+CastSuccess: 26
 BareHandAttack: 1
 Str: 28
 Dex: 28
@@ -343,6 +348,7 @@ d0f0l0m0t1 d0h0k0x0t1 123 E
 8 8 2
 Saves: -40 -40 -40 -40
 Resistances: 0 0 0 0 15 15 15
+CastSuccess: 35
 Initiative: 20
 BareHandAttack: 15
 Str: 26
@@ -385,6 +391,7 @@ b0d0l0m0 d0f0k0 -600 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 15
 Str: 26
 Dex: 26
@@ -421,6 +428,7 @@ d0f0l0m0t1a2 d0h0k0x0t1 -600 E
 8 8 2
 Saves: -100 -40 -40 -40
 Resistances: 0 0 0 0 -15 -15 -15
+CastSuccess: 35
 Initiative: 20
 BareHandAttack: 15
 Str: 26
@@ -580,7 +588,7 @@ b0c0d0f0g0m0n0o0p0x0A0 d0f0k0x0m1 -600 E
 8 8 2
 Saves: -22 -22 -22 -22
 Resistances: 30 30 30 40 40 40 40
-CastSuccess: 15
+CastSuccess: 29
 Success: 10
 Initiative: 3
 AResist: 50

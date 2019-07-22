@@ -76,11 +76,11 @@ end
 2 c 100
 отколоть~
 if  !%arg.contains(кусок)%
-  wsend %actor.iname% _Что вы хотите отколоть?!
+  wsend %actor% _Что вы хотите отколоть?!
   halt
 end                                              
-wechoaround %actor.iname% _%actor.iname% ударил по одному из кусков льда, отколов его.
-wsend %actor.iname% _Вы откололи один кусок льда.
+wechoaround %actor% _%actor.iname% ударил%actor.g% по одному из кусков льда, отколов его.
+wsend %actor% _Вы откололи один кусок льда.
 wload obj 67825
 ~
 $~

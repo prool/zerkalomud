@@ -53,7 +53,7 @@ wechoaround %actor% %actor.name%, превратившись в рыбу, уплыл%actor.g% по течени
 wait 1s
 wsend %actor.name% .- Вы оказались в странной пещере...
 wat 33300 wecho Кто-то приплыл сюда.
-wteleport %actor.name% 33300 horse
+wteleport %actor% 33300 horse
 end
 ~
 #33204
@@ -113,7 +113,7 @@ wsend       %actor% Разогнавшись, вы с трудом прыгнули через разлом.
 wechoaround %actor% %actor.name% с трудом перепрыгнул%actor.g% разлом!
 wait 1s
 wsend %actor.name% .- Вы с огромным трудом перепрыгнули на другую половину корабля
-wteleport %actor.name% 33271
+wteleport %actor% 33271
 wat 33271 wechoaround %actor% Кто-то приплыл сюда.
 end
 ~
@@ -130,7 +130,7 @@ wsend       %actor% Вспомнив любимую рыбку, вы быстро начали барахтаться...
 wechoaround %actor% %actor.name% поплыл%actor.g% к другой части корабля.
 wait 1s
 wsend %actor.name% - Вам не пришлось долго плыть до корабля, и вот вы уже там!
-wteleport %actor.name% 33290 horse
+wteleport %actor% 33290 horse
 wat 33290 wechoaround %actor% Кто-то приплыл сюда.
 end
 ~
@@ -164,7 +164,7 @@ wsend       %actor% Держась за мачту, вы поплыли к кораблю.
 wechoaround %actor% %actor.name% поплыл%actor.g% к кораблю, держась за мачту.
 wait 1s
 wsend %actor.name% .- Как гибкий уж, вы быстро спустились вдоль мачты.
-wteleport %actor.name% 33287
+wteleport %actor% 33287
 wat 33287 wechoaround %actor% Кто-то спустился сюда.
 end
 ~
@@ -186,7 +186,7 @@ if %exist.mob(33213)%
 end
 wait 1s
 wsend %actor.name% .- Вы оказались в нешироком уютном лазе.
-wteleport %actor.name% 33307 horse
+wteleport %actor% 33307 horse
 wechoaround %actor% Кто-то занырнул сюда.
 end
 ~
@@ -204,7 +204,7 @@ if %object.vnum% == 33204 then
   mecho Купец попытался упокоиться, но у него ничего не получилось...
   взд
   calcuid varo 33204 obj
-  mpurge %varo.name%
+  mpurge %varo%
 end
 if %object.vnum% == 33205 then
   wait 2s
@@ -217,9 +217,9 @@ if %object.vnum% == 33205 then
   дат кол %actor.name%
   mecho Купец по быстренькому упокоился, прихватив с собой мешок с золотом.
   calcuid var 33205 obj
-  mpurge %var.name%
+  mpurge %var%
   calcuid pokoi 33212 mob
-  mpurge %pokoi.name%
+  mpurge %pokoi%
   calcuid brat 33213 mob
   detach 33214 %brat.id%
   attach 33215 %brat.id%
@@ -260,9 +260,9 @@ if %object.vnum% == 33206 then
   wait 1s
   say Открою тебе секрет... Вход в Подводное царство завален реей моего корабля!
   say Попробуй  занырнуть за рею...
-  calcuid wchod 33257 room
-  detach 33211 %wchod.id%
-  halt
+  *calcuid wchod 33257 room
+  *detach 33211 %wchod.id%
+  *halt че это вообще было? - отключение трига "нырнуть рея" когда рассказывает о том что надо нырнуть рея
 end
 ~
 #33217
@@ -346,7 +346,7 @@ wsend       %actor% Разогнавшись, вы с трудом прыгнули через разлом.
 wechoaround %actor% %actor.name% с трудом перепрыгнул%actor.g% разлом.
 wait 1s
 wsend %actor.name% .- Вы с огромным трудом перепрыгнули на другую половину корабля
-wteleport %actor.name% 33270
+wteleport %actor% 33270
 wat 33270 wechoaround %actor% Кто-то появился здесь .
 end
 ~
@@ -363,7 +363,7 @@ wsend       %actor% Вспомнив любимую рыбку, вы быстро начали барахтаться...
 wechoaround %actor% %actor.name% поплыл%actor.g% к другой части корабля.
 wait 1s
 wsend %actor.name% .- Вам не пришлось долго плыть до корабля и вот вы уже там!
-wteleport %actor.name% 33283
+wteleport %actor% 33283
 wat 33283 wechoaround %actor% Кто-то приплыл сюда.
 end
 ~
@@ -380,7 +380,7 @@ wsend       %actor% Как краб, вы ловко опустились вниз.
 wechoaround %actor% %actor.name% двинул%actor.g% вниз.
 wait 1s
 wsend %actor.name% .- Вы лихо спустились вниз!
-wteleport %actor.name% 33245
+wteleport %actor% 33245
 wat 33245 wechoaround %actor% Кто-то вскарабкался сюда.
 end
 ~
@@ -397,7 +397,7 @@ wsend       %actor% Держась за мачту, вы поплыли вверх.
 wechoaround %actor% %actor.name% поплыл%actor.g% вверх, держась за мачту.
 wait 1s
 wsend %actor.name% .- Как гибкий уж, вы быстро поднялись вдоль мачты.
-wteleport %actor.name% 33262
+wteleport %actor% 33262
 wat 33262 wechoaround %actor% Кто-то поднялся сюда.
 end
 ~

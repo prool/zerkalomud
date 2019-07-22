@@ -26,6 +26,8 @@ b0c0d0l0m0n0o0p0t0b1r1 d0f0h0k0x0 0 E
 0d0+0 2400000
 6 6 2
 Saves: -46 -46 -46 -46
+CastSuccess: 47
+Absorbe: 40
 BareHandAttack: 1
 Str: 27
 Dex: 25
@@ -111,11 +113,13 @@ I крылья,17:7
 широкоплечем мужике~
 Здоровый мужик с луком аккуратно крадется сквозь лес
 ~
-неопределен~
+
+~
 d0l0m0o0x0A0 f0k0r0s0 0 E
 28 2 -5 15d15+1500 10d9+50
 0d0+0 150000
 8 8 1
+Absorbe: 28
 BareHandAttack: 9
 Str: 27
 Dex: 30
@@ -159,6 +163,8 @@ d0f0l0m0n0o0p0x0 d0f0k0A0m1 -600 E
 0d0+0 780000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
+Absorbe: 35
 BareHandAttack: 4
 Str: 24
 Dex: 29
@@ -206,6 +212,7 @@ d0f0g0m0o0p0 d0f0k0 -600 E
 25 3 -5 9d9+400 14d9+10
 0d0+0 100000
 8 8 1
+Absorbe: 25
 BareHandAttack: 4
 Str: 19
 Dex: 22
@@ -266,6 +273,8 @@ d0f0g0m0o0p0 d0f0k0 -600 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 4
 Str: 22
 Dex: 20
@@ -308,6 +317,7 @@ d0f0g0m0o0p0 d0f0k0 -600 E
 25 3 -5 9d9+400 14d9+10
 0d0+0 100000
 8 8 1
+Absorbe: 25
 BareHandAttack: 4
 Str: 19
 Dex: 22
@@ -368,6 +378,8 @@ d0f0g0m0o0p0 d0f0k0 -600 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 4
 Str: 22
 Dex: 20
@@ -410,6 +422,7 @@ d0f0g0m0o0p0 d0f0k0 -600 E
 25 3 -5 9d9+400 14d9+10
 0d0+0 100000
 8 8 1
+Absorbe: 25
 BareHandAttack: 4
 Str: 19
 Dex: 22
@@ -470,6 +483,8 @@ d0f0g0m0o0p0 d0f0k0 -600 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
+Absorbe: 31
 BareHandAttack: 4
 Str: 22
 Dex: 20
@@ -513,6 +528,7 @@ d0f0g0m0o0p0d2 d0f0k0 -600 E
 28 3 -5 9d9+450 9d9+10
 0d0+0 150000
 8 8 1
+Absorbe: 28
 BareHandAttack: 4
 Str: 19
 Dex: 22
@@ -572,6 +588,8 @@ d0f0g0m0o0p0 d0f0k0 -600 E
 0d0+0 550000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
+Absorbe: 33
 BareHandAttack: 4
 Str: 23
 Dex: 24
@@ -611,6 +629,7 @@ d0f0g0m0o0p0d2 d0f0k0 -600 E
 28 3 -5 9d9+450 9d9+10
 0d0+0 150000
 8 8 1
+Absorbe: 28
 BareHandAttack: 4
 Str: 19
 Dex: 22
@@ -670,6 +689,8 @@ d0f0g0m0o0p0 d0f0k0 -600 E
 0d0+0 550000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
+Absorbe: 33
 BareHandAttack: 4
 Str: 23
 Dex: 24
@@ -709,6 +730,7 @@ d0f0g0m0o0p0 d0f0k0x0 -600 E
 28 2 -6 9d9+500 9d14+10
 0d0+0 180000
 8 8 1
+Absorbe: 28
 BareHandAttack: 8
 Str: 19
 Dex: 24
@@ -768,6 +790,8 @@ d0f0g0m0o0p0 d0f0k0 -600 E
 0d0+0 680000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
+Absorbe: 34
 BareHandAttack: 1
 Str: 24
 Dex: 24
@@ -814,6 +838,7 @@ d0f0g0m0o0p0 d0f0k0x0 -600 E
 28 2 -6 9d9+500 9d14+10
 0d0+0 180000
 8 8 1
+Absorbe: 28
 BareHandAttack: 8
 Str: 19
 Dex: 24
@@ -873,6 +898,8 @@ d0f0g0m0o0p0 d0f0k0 -600 E
 0d0+0 680000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
+Absorbe: 34
 BareHandAttack: 1
 Str: 24
 Dex: 24
@@ -920,6 +947,8 @@ b0c0d0l0n0o0p0x0A0r1 d0f0h0k0 -600 E
 0d0+0 1520000
 8 8 1
 Saves: -38 -38 -38 -38
+CastSuccess: 41
+Absorbe: 38
 BareHandAttack: 14
 Destination: 91712
 Destination: 91715
@@ -992,11 +1021,13 @@ T 91705
 огненном защитнике~
 Огненный защитник летает тут.
 ~
-undefined~
+
+~
 b0d0f0m0n0o0p0b1a2 d0f0k0x0p1 0 E
 29 0 -10 9d9+2500 11d9+7
 0d0+0 250000
 8 8 1
+Absorbe: 29
 Str: 24
 Dex: 24
 Int: 24

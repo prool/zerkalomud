@@ -20,11 +20,11 @@ if (%mobpozdravitel% && (%mobpozdravitel.position% != 7))
   wait 1 s
   wforce %mobpozdravitel% кивнуть
   wait 3 s
-  wecho Слуга не задерживаясь отправился по другим (менее значимым, но всеже необходимым) поручениям.
+  wecho Слуга не задерживаясь отправился по другим (менее значимым, но все же необходимым) поручениям.
   wpurge %mobpozdravitel%
   %world.zreset(25)%
 else
-  wecho Откуда-то послышались звуки новогодних хлопушек и питард.
+  wecho Откуда-то послышались звуки новогодних хлопушек и петард.
 end
 ~
 #2501
@@ -421,8 +421,8 @@ if ((%cmd% != забрать) || (%arg% != подарок))
   %send% %actor% Чаво-чаво?
   halt
 end
-if (%actor.level% < 2)
-  %send% %actor% - Мал%actor.q% ты еще подарки просить.
+if (%actor.level% < 25)
+  %send% %actor% - Мал%actor.g% ты еще подарки просить.
   halt
 end
 *получаем метку года
@@ -432,7 +432,7 @@ else
   set nyear %date.year%
 end
 if (%actor.getquest(2500)% == %nyear%)
-  %send% %actor% - Ты уже получал%actor.q% в этом году подарки!
+  %send% %actor% - Ты уже получал%actor.g% в этом году подарки!
   %send% %actor% - Приходи в следующем году.
   %send% %actor% &gЕлочка широко улыбнулась.&n
   halt
@@ -446,7 +446,7 @@ calcuid present %presentvnum% obj
 %send% %actor% &gЕлочка достала для Вас подарок..&n
 %send% %actor% - Тебе, %actor.iname%, Дед Мороз принес %present.vname% на Новый Год.
 %send% %actor% - Счастливого Нового Года, %actor.iname%!
-%echoaround% %actor% %actor.iname% развернул%actor.q% свой подарок и завизжал%actor.q% от радости!
+%echoaround% %actor% %actor.iname% развернул%actor.g% свой подарок и завизжал%actor.g% от радости!
 set buf %actor.setquest(2500 %nyear%)%
 log &G%actor.name% получил подарок %present.vname%!&n
 ~
@@ -466,9 +466,13 @@ if (!%target% || (%target.realroom% != %actor.realroom%))
   halt
 end
 %actor.wait(5)%
-oechoaround %actor% &C %actor.name% запустил%actor.g% снежком в %target.vname%!&n
 osend %actor% &CВы метко запустили снежком в %target.vname%!&n
 osend %target% &C %actor.name% метко запустил в вас снежком! Бррр! Холодно!&n
+foreach inroom %self.pc%
+  if (%inroom.name% != %actor.name%) && (%inroom.name% != %target.name%)
+    osend %inroom% &C %actor.name% запустил%actor.g% снежком в %target.vname%!&n
+  end
+done
 oecho &CСнежок рассыпался кучей холодных снежинок...&n
 opurge %self%
 ~
@@ -948,13 +952,13 @@ if (%item% == %itamname%)
   set spherecost 0
   set clustercost 2
 end
-set itamname волшебное зеркальце
-if (%item% == %itamname%)
-  set itemvnum 50024
-  set debriscost 0
-  set spherecost 2
-  set clustercost 0
-end
+*set itamname волшебное зеркальце
+*if (%item% == %itamname%)
+*  set itemvnum 50024
+*  set debriscost 0
+*  set spherecost 2
+*  set clustercost 0
+*end
 set itamname заговоренный манок
 if (%item% == %itamname%)
   set itemvnum 50041
@@ -1083,5 +1087,108 @@ else
 end
 say Носи на здоровье!
 give %objname% .%actor.name%
+~
+#2524
+Медведь трансформирует снежинки~
+0 j 100
+~
+*Медведь трансформирует снежинки : Mobiles : Receive : 100
+if ((%object.vnum% < 10630) || (%object.vnum% > 10633))
+  msend %actor% Вряд ли ему это нужно...
+  return 0
+  halt
+end
+wait 1
+set size0 0
+set size1 0
+set size2 0
+set size3 0
+*лоадим ранее сданные снежинки
+set i 30
+while (%i% < 34)
+  if %actor.quested(25%i%)%
+    set it %actor.getquest(25%i%)%
+    %actor.unsetquest(25%i%)%
+    while (%it% > 0)
+      %load% obj 106%i%
+      eval it %it%-1
+    done
+  end
+  eval i %i%+1
+done
+*считаем все снежинки
+foreach item %self.objs%
+  switch %item.vnum%
+    case 10630
+      eval size0 %size0%+1
+    break
+    case 10631
+      eval size1 %size1%+1
+    break
+    case 10632
+      eval size2 %size2%+1
+    break
+    case 10633
+      eval size3 %size3%+1
+    break
+  done
+done
+wait 1
+*считаем сколько и каких снежинок надо залоадить
+eval amount0 %size0%/10
+eval amount1 %size1%/10
+eval amount2 %size2%/10
+eval amount3 %size3%/10
+*остальные снежинки подлежат немедленному возврату
+eval size0 %size0%-10*%amount0%
+eval size1 %size1%-10*%amount1%
+eval size2 %size2%-10*%amount2%
+eval size3 %size3%-10*%amount3%
+eval tmp %size0%+%size1%+%size2%+%size3%
+if (%tmp% > 0)
+  tell %actor.name% Снежинки принимаю только десятками!
+  if (%size0% > 0)
+    give %size0% крош.снеж .%actor.name%
+  end
+  if (%size1% > 0)
+    give %size1% мале.снеж .%actor.name%
+  end
+  if (%size2% > 0)
+    give %size2% небо.снеж .%actor.name%
+  end
+  if (%size3% > 0)
+    give %size3% прек.снеж .%actor.name%
+  end
+end
+*лишь теперь удаляем все из инвентаря
+mjunk all
+*лоадим нужные более крупные снежинки если надо
+eval tmp %amount0%+%amount1%+%amount2%+%amount3%
+if (%tmp% > 0)
+  while (%amount0% > 0)
+    %load% obj 10631
+    mecho %self.iname% слепил несколько крошечных снежинок в одну маленькую.
+    eval amount0 %amount0%-1
+  done
+  while (%amount1% > 0)
+    %load% obj 10632
+    mecho %self.iname% слепил несколько маленьких снежинок в одну небольшую.
+    eval amount1 %amount1%-1
+  done
+  while (%amount2% > 0)
+    %load% obj 10633
+    mecho %self.iname% слепил несколько небольших снежинок в одну более крупную.
+    eval amount2 %amount2%-1
+  done
+  while (%amount3% > 0)
+    %load% obj 10644
+    mecho %self.iname% слепил несколько средних снежинок в одну большую.
+    eval amount3 %amount3%-1
+  done
+  mecho %self.iname% почесал репу, подсчитывая что-то в уме.
+  give all .%actor.name%
+  tell %actor.name% Итак, мы в рассчёте!
+  tell %actor.name% Приноси еще!
+end
 ~
 $~

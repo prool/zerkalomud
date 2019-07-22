@@ -98,7 +98,7 @@ mecho _- Это старые поселения чернокнижников - тут все пропитано черной магией.
 say Мало того, мерзвец осмелился похитить один из заклинательных камней хозяина!
 ужас
 wait 2s
-say Само-собой, подобная дерзость должна быть нказана...
+say Само-собой, подобная дерзость должна быть наказана...
 mecho _- Несмотря на врожденную скудность человеческих способностей, ты должен был меня понять.
 mecho _- Найди негодяя, и покарай его.
 wait 3
@@ -130,27 +130,27 @@ attach 95436 %conj.id%
 Лезть через лаз~
 2 c 1
 лезть пролезть~
-if !%arg.contains(лаз)%
+if (!%arg.contains(лаз)%)
   wsend %actor% Да бога ради, только куда?
   halt
 end
-if %actor.fighting%
-  wsend %actor% Щаас, вы, батенька, деретесь!
+if (%actor.fighting%)
+  wsend %actor% Щаас, Вы, батенька, деретесь!
   halt
 end
-if %actor.move% < 50
-  wsend %actor% _Вы полезли в узкий лаз, но быстро поняли, что вам не хватит сил пролезть до конца.
+if (%actor.move% < 50)
+  wsend %actor% _Вы полезли в узкий лаз, но быстро поняли, что Вам не хватит сил пролезть до конца.
   wsend %actor% _Вы выбрались назад.
-  wechoaround %actor% %actor.name% полез%actor.q% было в темный лаз, но, чуток повозившись, вылез%actor.q% назад.
-  %actor.move(0)%
+  wechoaround %actor% %actor.iname% полез%actor.q% было в темный лаз, но, чуток повозившись, вылез%actor.q% назад.
+  eval temp %actor.move(0)%
   halt
 end
 wsend %actor% _Вы полезли в узкий лаз.
-wsend %actor% _Обдираясь о камни вы пробрались под завалом.
+wsend %actor% _Обдираясь о камни, Вы пробрались под завалом.
 wechoaround %actor% %actor.name% полез%actor.q% в темный лаз.
-%actor.move(-50)%
-wechoaround %actor% ~~%actor.name% выбрал%actor.u% из темного лаза.
-if %actor.realroom% == 95418
+eval temp %actor.move(-50)%
+wechoaround %actor%  %actor.name% выбрал%actor.u% из темного лаза.
+if (%actor.realroom% == 95418)
   wteleport %actor% 95480
 else
   wteleport %actor% 95418

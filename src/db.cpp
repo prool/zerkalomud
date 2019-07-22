@@ -1723,7 +1723,7 @@ printf("Ld\n");
 	log("Booting basic values");
 	init_basic_values();
 #ifdef DEBUG
-printf("Le\n");
+printf("label Le\n");
 #endif
 
 	log("Booting grouping parameters");

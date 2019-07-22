@@ -114,6 +114,12 @@ switch %random.21%
 done
 г ...или  какую другую. Скажи только ее название.
 ~
+#103
+умирает искра~
+0 f 100
+~
+load obj 1070
+~
 #110
 зеленый самоцвет~
 0 d 100
@@ -597,7 +603,7 @@ mecho  Дряхлый старик, говоривший все тише и тише, совсем замолчал и впал в дрем
 0 d 100
 зеленый камзол~
 wait 1s
-mecho  Дряхлый старец покряхтел поудобнее устраиваясь на завалинке и начал  вещать.
+mecho Дряхлый старец покряхтел поудобнее устраиваясь на завалинке и начал  вещать.
 wait 1s
 mecho -  Окак, да, бывали времена, сам носил я такой, да вот состарился,
 mecho -  ловкость  потерял  сноровку.  
@@ -609,15 +615,54 @@ mecho -  крови жадных. Вот по нему то и ходят охотники могучие в таких  камзолах
 mecho -  Да только делиться ими они ни с кем не намерены, и сильны и ловки они,  так что
 mecho -  если силой отбирать надумаешь то сразу готовься... к схватке....  лютой...  
 wait 1s
-mecho  Дряхлый старик, говоривший все тише и тише, совсем замолчал и впал в дрему.
+mecho Дряхлый старик, говоривший все тише и тише, совсем замолчал и впал в дрему.
 ~
 #131
 В воспитательных целях~
 0 ab 100
 100~
-set charlist Андора
+set charlist Ярмола
 foreach target %charlist%
   tell .%target% &CЕсть кто? Ну, есть кто? Ау!!! Есть кто там! А? Не?!! Не а?! Ну кто-то же есть, а?! Есть кто, не?!&n
+done
+~
+#132
+test Milich~
+1 c 3
+распить~
+osend %actor% cmd:%cmd%, arg.car:%arg.car%
+osend %actor% arg.words:%arg.words%, val0:%self.val0%
+osend %actor% words(1):%arg.words(1)%, words(2):%arg.words(2)%, words(3):%arg.words(3)%, words(4):%arg.words(4)%.
+if !(%arg.car% == чарка)
+  osend %actor% Что же вы хотите распить?!
+  halt
+end
+eval nsobut %arg.words%-1
+if %nsobut% >= 4
+  osend %actor% Жаль маленький сосуд, на всю деревню не хватит!
+  halt
+end
+while %nsobut% >= 1
+  eval slovo %nsobut%+1
+  osend %actor% word:%arg.words(%slovo%)%(%slovo%)
+  if %arg.words(%slovo%)%==%actor.iname%
+    osend %actor% Дааа, я сам себе отличный собутыльник!!! ...ик!
+    halt
+  end
+  set estigrok 0
+  foreach pc %self.pc%
+    if (%pc.iname%==%arg.words(%slovo%)%)
+      set estigrok 1
+      eval sobut %pc%
+    end
+  done
+  if %estigrok%==0
+    osend %actor% Ну и где Вы видите этого собутыльника?! %arg.words(%slovo%)%, аууу!
+    halt
+  else
+    osend %actor% Вот и Ваш собутыльник: %sobut.iname%!
+  end
+  eval nsobut %nsobut%-1
 done
 ~
 #140
@@ -1006,7 +1051,7 @@ return 0
 return 0
 wechoaround %actor% %actor.name% не смог%actor.q% открыть Врата.
 wsend %actor% Вы приложили максимум усилий, но ничего не произошло.
-log &R %actor.name% пытался поставить врата из комнаты %self.vnum% !!!
+log &R %actor.name% пытался поставить врата из комнаты %self.vnum% !!!&g
 ~
 #199
 выдача чешуи триглаву~

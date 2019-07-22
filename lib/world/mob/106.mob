@@ -224,6 +224,7 @@ Saves: 30 30 30 40
 Resistances: 50 50 50 50 50 60 70
 CastSuccess: 100
 Initiative: 50
+Absorbe: 25
 AResist: 50
 MResist: 50
 Str: 30
@@ -386,4 +387,114 @@ Special_Bitvector: 0
 E
 T 10612
 T 10613
+#10690
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб
+~
+
+~
+b0d0B0a1b1o1 D0 0 E
+0 20 0 0d0+1000 1d1+0
+0d0+0 0
+8 8 1
+Size: 30
+Class: 100
+Race: 109
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
+#10691
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб
+~
+
+~
+b0d0n0B0b1o1l2 d0f0k0D0p1y1 0 E
+25 -30 -30 0d0+1000 1d1+200
+0d0+0 0
+8 8 1
+BareHandAttack: 4
+Size: 30
+Class: 103
+Race: 104
+Height: 198
+Weight: 200
+Special_Bitvector: p0 
+E
+#10692
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб
+~
+
+~
+b0d0B0b1o1w1f2l2 d0f0k0p0p1y1 0 E
+43 20 -30 0d0+5000 1d1+0
+0d0+0 0
+8 8 1
+HPreg: 200
+Armour: 100
+CastSuccess: 100
+Str: 50
+Dex: 50
+Int: 50
+Wis: 50
+Con: 50
+Cha: 50
+Size: 100
+ExtraAttack: 3
+Class: 105
+Race: 114
+Height: 200
+Weight: 200
+Special_Bitvector: p0 
+E
+#10693
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб~
+новый моб
+~
+
+~
+b0d0m0z0 k0z0t1 -600 E
+28 1 -7 50d10+1600 1d1+8
+0d0+0 0
+4 4 1
+BareHandAttack: 3
+Str: 5
+Dex: 22
+Con: 27
+Size: 100
+ExtraAttack: 1
+Class: 100
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+Skill: 4 200
+Skill: 136 100
+E
 $

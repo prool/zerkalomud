@@ -129,17 +129,18 @@ foreach pc %actor.pc%
   %pc.position(6)%
   mdamage %pc% 100
 done
+set target %random.pc%
+if (!%target%)
+  halt
+end
+wait 2s
 switch %random.6%
   case 1
-    wait 2s
-    set target %random.pc%
     msend %target% В результате землетрясения потолок пещеры обрушился прямо на Вас
     mechoaround %target% Из-за землетрясения потолок пещеры рухнул, заваливая %target.rname%
     mdamage %target% 200
   break
   case 2
-    wait 2s
-    set target %random.pc%
     msend %target% Огромный каменный кулак обрушился прямо на Вас
     mechoaround %target% Огромный каменный кулак великана раздавил %target.rname%
     mdamage %target% 150
@@ -334,20 +335,20 @@ mload obj 47600
 ломаем палку~
 2 c 1
 сломать выломать срубить~
-if !%arg.contains(палку)%
+if !%arg.contains(палк)%
   wsend %actor% Что вы хотите выломать?
   halt
 else 
-  wsend %actor% Вы поднатужились и выломали длинную палку
-  wechoaround %actor.name% %actor.name% выломал длинную палку из сухого дерева
+  wsend %actor% Вы поднатужились и выломали длинную палку.
+  wechoaround %actor.name% %actor.name% выломал длинную палку из сухого дерева.
   wload obj 47617
-  wforce %actor.name% взять палк
-  wait 1s
+  wforce %actor% взять палк
   if %random.15% == 2
-    wforce %actor.name% г блин, ну че тупим то?
+    wait 1s
+    wforce %actor% г блин, ну че тупим то?
     set target %random.pc%
     wait 5ms
-    wforce %target.name% г я не туплю, чесное слово, ну скажите что не туплю, блин
+    wforce %target% г я не туплю, чесное слово, ну скажите что не туплю, блин
   end
   if %world.curobjs(47617)% == 3
     detach 47618 %self.id%

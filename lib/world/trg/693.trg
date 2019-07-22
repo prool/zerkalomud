@@ -788,6 +788,7 @@ else
     wait 1s
     wecho _Вдруг окружающее стало расплываться и через миг происшедшее казалось Вам уже сном.
     wait 5s
+    wat 69300 wecho Кто-то появился здесь в клубах сизого дыма.
     wteleport all 69300
     wait 1s
     calcuid zn 69314 mob
@@ -866,6 +867,7 @@ else
       wait 1s
       wecho &C_Оглядевшись, Вы поняли, что перешагнули порог Мариного Чертога.&n
       wait 1s 
+      wat 69317 wecho Кто-то появился здесь в клубах сизого дыма.
       wteleport all 69317
       *eval nMaxHit %actor.maxhitp%
       calcuid nTroom 69317 room
@@ -995,6 +997,7 @@ else
   wait 2s
   wecho _&CСошлись Могучие Вихри в одной точке и все потускнело...&n
   wait 5s
+  wat 85217 wecho Кто-то появился здесь в клубах сизого дыма.
   wteleport all 85217
 end
 ~
@@ -1225,16 +1228,18 @@ end
 0 r 100
 *~
 wait 2
-dg_cast 'защита' %actor.name%!
-dg_cast 'сила' %actor.name%!
-dg_cast 'затуманивание' %actor.name%!
-dg_cast 'каменная' %actor.name%!
-dg_cast 'ускорение' %actor.name%!
-dg_cast 'мигание' %actor.name%!
-dg_cast 'ув жи' %actor.name%!
-dg_cast 'ув жи' %actor.name%!
-dg_cast 'ув жи' %actor.name%!
-dg_cast 'ув жи' %actor.name%!
+if %actor.canbeseen%
+  dg_cast 'защита' %actor.name%!
+  dg_cast 'сила' %actor.name%!
+  dg_cast 'затуманивание' %actor.name%!
+  dg_cast 'каменная' %actor.name%!
+  dg_cast 'ускорение' %actor.name%!
+  dg_cast 'мигание' %actor.name%!
+  dg_cast 'ув жи' %actor.name%!
+  dg_cast 'ув жи' %actor.name%!
+  dg_cast 'ув жи' %actor.name%!
+  dg_cast 'ув жи' %actor.name%!
+end
 ~
 #69347
 умерВамфири~

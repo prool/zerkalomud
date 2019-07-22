@@ -15,6 +15,7 @@ b0d0g0j0l0m0n0o0A0 f0k0r0o1 -600 E
 29 15 -10 10d10+3000 5d10+15
 20d2+100 240000
 8 8 1
+Absorbe: 29
 Str: 22
 Dex: 27
 Int: 27
@@ -39,9 +40,9 @@ Spell: 154
 Spell: 154
 Spell: 154
 Spell: 154
-Helper: 64408
-Helper: 64402
 Helper: 64401
+Helper: 64402
+Helper: 64408
 E
 T 64400
 T 64402
@@ -62,6 +63,7 @@ b0c0d0g0h0j0l0m0n0o0u0A0 f0r0m1 -600 E
 29 13 -8 10d10+2000 3d3+16
 20d2+10 200000
 8 8 2
+Absorbe: 29
 BareHandAttack: 8
 Str: 14
 Dex: 35
@@ -110,6 +112,7 @@ b0c0d0g0h0j0l0n0o0 0 -600 E
 24 16 8 10d10+600 2d2+10
 0d0+0 80000
 8 8 2
+Absorbe: 24
 BareHandAttack: 2
 Str: 12
 Dex: 20
@@ -156,6 +159,7 @@ c0d0g0h0m0A0h1 z0A0 -600 E
 25 20 -4 10d10+1000 1d1+20
 0d0+300 95000
 8 8 2
+Absorbe: 25
 Str: 8
 Dex: 24
 Int: 21
@@ -194,6 +198,7 @@ c0d0h0A0h1 l1 -600 E
 25 11 -3 10d10+2000 2d2+20
 0d0+10 100000
 8 8 1
+Absorbe: 25
 Str: 12
 Dex: 10
 Int: 10
@@ -231,6 +236,7 @@ c0d0g0l0m0x0A0h1 r0m1 -600 E
 27 6 -6 10d10+2500 2d2+22
 0d0+5 120000
 8 8 1
+Absorbe: 27
 Str: 28
 Dex: 25
 Wis: 10
@@ -266,6 +272,7 @@ c0d0h0h1 r0 -600 E
 24 15 -3 10d10+1000 1d1+12
 0d0+5 80000
 8 8 2
+Absorbe: 24
 Str: 10
 Dex: 10
 Int: 10
@@ -307,6 +314,7 @@ c0d0g0h0l0m0h1 r0z0 -600 E
 25 15 -3 10d10+1600 1d6+15
 0d0+5 90000
 8 8 2
+Absorbe: 25
 Str: 10
 Dex: 21
 Int: 24
@@ -355,6 +363,7 @@ c0d0g0l0m0x0A0h1g2 z0A0m1 -600 E
 28 14 -9 10d10+2200 5d5+22
 0d0+30 150000
 8 8 1
+Absorbe: 28
 BareHandAttack: 6
 Str: 25
 Dex: 33
@@ -396,6 +405,7 @@ b0c0d0h0m0A0i1 r0l1 -600 E
 21 8 6 10d10+600 2d2+10
 0d0+5 50000
 4 4 1
+Absorbe: 21
 Str: 10
 Dex: 10
 Int: 10
@@ -430,6 +440,7 @@ b0c0d0g0l0m0x0A0i1 m1 -600 E
 24 6 5 10d10+760 2d2+12
 0d0+15 80000
 4 4 1
+Absorbe: 24
 Str: 24
 Dex: 13
 Wis: 10
@@ -465,6 +476,7 @@ b0c0d0g0h0m0A0i1 z0A0 -600 E
 23 20 10 10d10+800 1d1+10
 0d0+100 70000
 4 4 2
+Absorbe: 23
 Str: 8
 Dex: 12
 Int: 21
@@ -510,6 +522,7 @@ b0c0d0h0i1 0 -600 E
 21 19 8 10d10+600 1d1+10
 0d0+5 50000
 4 4 2
+Absorbe: 21
 Str: 10
 Dex: 10
 Int: 10
@@ -550,6 +563,7 @@ b0c0d0g0h0l0m0i1 z0 -600 E
 22 12 7 10d10+550 1d1+10
 0d0+15 60000
 4 4 2
+Absorbe: 22
 Str: 10
 Dex: 10
 Int: 24
@@ -597,6 +611,7 @@ c0d0g0l0m0x0A0h1g2 z0A0m1 -600 E
 28 14 -9 10d10+2200 5d5+22
 0d0+30 150000
 8 8 1
+Absorbe: 28
 BareHandAttack: 6
 Str: 25
 Dex: 33
@@ -637,6 +652,7 @@ c0d0g0j0l0m0x0A0g2 z0A0m1 -600 E
 28 14 -9 10d10+2200 5d5+22
 0d0+30 150000
 8 8 1
+Absorbe: 28
 BareHandAttack: 6
 Str: 25
 Dex: 33
@@ -678,6 +694,7 @@ b0c0d0g0h0j0l0n0o0 0 -600 E
 24 16 8 10d10+600 2d2+10
 0d0+0 80000
 8 8 2
+Absorbe: 24
 BareHandAttack: 2
 Str: 12
 Dex: 20
@@ -725,6 +742,7 @@ b0c0d0g0h0j0l0n0o0 0 -600 E
 23 16 8 10d10+600 2d2+10
 0d0+0 70000
 8 8 2
+Absorbe: 23
 BareHandAttack: 2
 Str: 12
 Dex: 20
@@ -770,6 +788,7 @@ c0d0g0l0m0A0 r0m1 -600 E
 27 6 -6 10d10+2500 2d2+22
 0d0+5 120000
 8 8 1
+Absorbe: 27
 Str: 28
 Dex: 25
 Wis: 10
@@ -806,6 +825,7 @@ b0d0g0l0m0n0A0i1 k0r0o1 -600 E
 25 15 -10 10d10+3000 5d10+15
 20d2+100 100000
 5 5 2
+Absorbe: 25
 Str: 22
 Dex: 27
 Int: 27
@@ -830,9 +850,9 @@ Spell: 154
 Spell: 154
 Spell: 154
 Spell: 154
-Helper: 64408
-Helper: 64402
+Helper: 64425
 Helper: 64401
+Helper: 64402
 E
 #64420
 смазливый холоп~
@@ -850,6 +870,7 @@ b0c0d0g0h0l0m0n0u0A0i1 f0r0m1 -600 E
 25 13 -8 10d10+2000 3d3+16
 20d2+10 100000
 5 5 1
+Absorbe: 25
 BareHandAttack: 8
 Str: 14
 Dex: 35
@@ -895,6 +916,7 @@ b0d0 f0r0t0z0 -600 E
 1 0 0 10d10+2 0d0+5
 0d0+0 100
 8 8 2
+Absorbe: 1
 BareHandAttack: 1
 Str: 10
 Dex: 35
@@ -930,6 +952,7 @@ b0d0s0 f0r0t0z0 -600 E
 1 0 0 10d10+2 0d0+5
 0d0+0 100
 8 8 1
+Absorbe: 1
 BareHandAttack: 13
 Str: 10
 Dex: 35
@@ -966,6 +989,7 @@ b0c0d0g0l0m0x0A0 r0m1 -600 E
 25 6 -6 10d10+2500 2d2+22
 0d0+5 100000
 8 8 1
+Absorbe: 25
 Str: 28
 Dex: 25
 Wis: 10
@@ -1001,6 +1025,7 @@ b0d0f0l0n0o0 f0k0r0 -600 E
 25 16 8 10d10+600 2d2+10
 0d0+0 100000
 8 8 2
+Absorbe: 25
 BareHandAttack: 4
 Str: 12
 Dex: 20
@@ -1038,6 +1063,7 @@ c0d0g0j0l0m0x0A0i1g2 z0A0m1 -600 E
 28 14 -9 10d10+2200 5d5+22
 0d0+30 150000
 8 8 1
+Absorbe: 28
 BareHandAttack: 6
 Str: 25
 Dex: 33
@@ -1079,6 +1105,7 @@ c0d0g0j0l0m0x0A0i1g2 z0A0m1 -600 E
 28 14 -9 10d10+2200 5d5+22
 0d0+30 150000
 8 8 1
+Absorbe: 28
 BareHandAttack: 6
 Str: 25
 Dex: 33
@@ -1119,6 +1146,7 @@ c0d0g0j0l0m0x0A0i1g2 z0A0m1 -600 E
 28 14 -9 10d10+2200 5d5+22
 0d0+30 150000
 8 8 1
+Absorbe: 28
 BareHandAttack: 6
 Str: 25
 Dex: 33
@@ -1159,6 +1187,7 @@ b0c0d0g0j0l0m0x0A0i1g2 z0A0m1 -600 E
 28 14 -9 10d10+2200 5d5+22
 0d0+30 150000
 8 8 1
+Absorbe: 28
 BareHandAttack: 6
 Str: 25
 Dex: 33
@@ -1199,6 +1228,7 @@ b0c0d0g0l0m0x0A0h1g2 z0A0m1 -600 E
 28 14 -9 10d10+2200 5d5+22
 0d0+30 150000
 8 8 1
+Absorbe: 28
 BareHandAttack: 6
 Str: 25
 Dex: 33
@@ -1239,6 +1269,7 @@ c0d0g0l0m0x0A0h1 r0m1 -600 E
 25 6 -6 10d10+2500 2d2+22
 0d0+5 100000
 8 8 1
+Absorbe: 25
 Str: 28
 Dex: 25
 Wis: 10

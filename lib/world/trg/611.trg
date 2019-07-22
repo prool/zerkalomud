@@ -19,44 +19,29 @@ if %amount% < 1000
   дум
   if      %actor.sex% == 1
     say За такую сумму...иди ка ты молодец знаешь куда...
-    msend   %actor% Купец взмахнул руками, и вы оказались невесть где.
-    mechoaround %actor% Купец взмахнул руками, и %actor.name% улетел невесть куда.
-    mteleport .%actor.name% 61180
-    msend   %actor% Вы оказались невесть где.
-    halt
   else 
     say Скупа ты голубка...надо тебя проучить..
-    msend   %actor% Старичок взмахнул руками, и вы оказались невесть где.
-    mechoaround %actor% Старичек взмахнул руками, и %actor.name% улетела невесть куда.
-    mteleport .%actor.name% 61180
-    msend   %actor% Вы оказались невесть где.
-    halt
   end
+  msend   %actor% Купец взмахнул руками, и вы оказались невесть где.
+  mechoaround %actor% Купец взмахнул руками, и %actor.name% улетел%actor.g% невесть куда.
+  mteleport .%actor.name% 61180
+  msend   %actor% Вы оказались невесть где.
+  halt
 end
 wait 1
-if      %actor.sex% == 1
-  msend   %actor%  Важный купец взмахнул рукой и у вас закружилась голова.
-  mechoaround %actor%  Важный купец взмахнул рукой и %actor.name% исчез.
-  mteleport .%actor.name% 61104 horse
-  mechoaround %actor% Кто-то появился здесь.
-  msend   %actor% Вы оказались на дивном корабле.
-  halt
-else
-  msend   %actor%  Важный купец взмахнул рукой и у вас закружилась голова.
-  mechoaround %actor%  Важный купец взмахнул рукой и %actor.name% исчезла.
-  mteleport .%actor.name% 61104 horse
-  mechoaround %actor% Кто-то появился здесь.
-  msend   %actor% Вы оказались на дивном корабле.
-  halt
-end
+msend   %actor%  Важный купец взмахнул рукой и у вас закружилась голова.
+mechoaround %actor%  Важный купец взмахнул рукой и %actor.name% исчез%actor.q%.
+mteleport .%actor.name% 61104 horse
+mechoaround %actor% Кто-то появился здесь.
+msend   %actor% Вы оказались на дивном корабле.
 ~
 #61102
 у предателя~
 0 r 100
 ~
 wait 1
-say А, Посейдон прислал своих шестерок ко мне !!!
-say Умри!!!.
+say А, Посейдон прислал своих шестерок ко мне!!!
+say Умри!!!
 встать
 mkill %actor%
 ~
@@ -355,6 +340,7 @@ wait 3
 wecho Вода мгновенно заполнила все каюты и Вы потеряли сознание..  
 calcuid kupec 61100 mob
 detach 61100 %kupec.id%
+wat 61124 wecho Кто-то появился здесь в клубах сизого дыма.
 wteleport all 61124
 calcuid mor 61124 room
 attach 61119 %mor.id%
@@ -387,6 +373,7 @@ mpurge амулет
 wait 5
 mecho Колдун взял амулет Посейдона, что-то прошептал и вдруг бросил его на землю
 mecho Все померкло вокруг и вы вновь потеряли сознание..
+wat 61102 wecho Кто-то появился здесь в клубах сизого дыма.
 mteleport all 61102
 calcuid mo 61102 room
 attach 61121 %mo.id%

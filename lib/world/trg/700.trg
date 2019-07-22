@@ -585,6 +585,7 @@ wechoaround %actor% %actor.name% приказал%actor.q% всем взяться за весла.
 wait 3
 wecho _Драккар тронулся и поплыл в открытое море.
 wait 10
+wat 79200 wecho Кто-то высадился сюда с драккара.
 wteleport all 79200
 end
 ~
@@ -602,6 +603,7 @@ wechoaround %actor% %actor.name% приказал%actor.q% всем взяться за весла.
 wait 3
 wecho Драккар тронулся и поплыл в открытое море.
 wait 10
+wat 79200 wecho Кто-то высадился сюда с драккара.
 wteleport all 70200
 end
 ~

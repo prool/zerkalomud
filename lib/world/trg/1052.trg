@@ -236,7 +236,6 @@ detach 105205 %syrchan.id%
 detach 105206 %syrchan.id%
 detach 105207 %syrchan.id%
 detach 105208 %syrchan.id%
-
 ~
 #105209
 субсутай приветствует~
@@ -944,14 +943,22 @@ wait 4
 репоп зоны~
 2 f 100
 ~
-calcuid newotrok 105203 mob
-wpurge %newotrok%
-calcuid newsyrchan 105202 mob
-wpurge %newsyrchan%
-calcuid pevec 105205 mob
-exec 105225 %pevec.id%
-calcuid obval 105230 obj
-wpurge %obval%
+if (%exist.mob(105203)%)
+  calcuid newotrok 105203 mob
+  wpurge %newotrok%
+end
+if (%exist.mob(105202)%)
+  calcuid newsyrchan 105202 mob
+  wpurge %newsyrchan%
+end
+if (%exist.mob(105205)%)
+  calcuid pevec 105205 mob
+  exec 105225 %pevec.id%
+end
+if (%exist.obj(105230)%)
+  calcuid obval 105230 obj
+  wpurge %obval%
+end
 wdoor 105235 west room 105241
 wdoor 105235 east room 105234
 wdoor 105234 west room 105235
@@ -959,10 +966,12 @@ wdoor 105241 east room 105235
 wdoor 105241 north purge
 calcuid prohod 105235 room
 attach 105214 %prohod.id%
-calcuid velikan 105273 mob
-attach 105211 %velikan.id%
-attach 105212 %velikan.id%
-detach 105213 %velikan.id%
+if (%exist.mob(105273)%)
+  calcuid velikan 105273 mob
+  attach 105211 %velikan.id%
+  attach 105212 %velikan.id%
+  detach 105213 %velikan.id%
+end
 ~
 #105222
 будя-мерген нападает~

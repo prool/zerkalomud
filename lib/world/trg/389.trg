@@ -409,7 +409,7 @@ if %object.vnum% == 38955 then
   wait 2s
   дать лодочка %actor.name%
   calcuid var 38955 obj
-  mpurge %var.name%
+  mpurge %var%
 else
   say  Зачем мне это? 
   eval getobject %object.name%
@@ -464,8 +464,7 @@ wait 1s
 if %object.vnum% == 38912 then
   say Из этого пожалуй можно что-нибудь сделать!
   mecho Старик начал вертеть в руках плавник карася, внимательно осматривая.
-  calcuid var 38912 obj
-  mpurge %var.name%
+  mpurge %object%
   calcuid starik 38932 mob
   attach 38934 %starik.id%
   detach 38933 %starik.id%
@@ -473,8 +472,7 @@ else
   if %object.vnum% == 38917 then
     say Из этого пожалуй можно что-нибудь сделать!
     mecho Старик начал вертеть в руках чешуйку сома, внимательно осматривая.
-    calcuid var 38917 obj
-    mpurge %var.name%
+    mpurge %object%
     calcuid starik 38932 mob
     attach 38935 %starik.id%
     detach 38933 %starik.id%
@@ -482,8 +480,7 @@ else
     if %object.vnum% == 38928 then
       say Из этого пожалуй можно что-нибудь сделать!
       mecho Старик начал вертеть в руках шкуру, внимательно осматривая.
-      calcuid var 38928 obj
-      mpurge %var.name%
+      mpurge %object%
       calcuid starik 38932 mob
       attach 38936 %starik.id%
       detach 38933 %starik.id%
@@ -504,7 +501,7 @@ if %object.vnum% == 38917 then
   say Не хватает еще чего-то!
   mecho Старик начал вертеть в руках чешуйку сома, внимательно осматривая.
   calcuid var 38912 obj
-  mpurge %var.name%
+  mpurge %var%
   calcuid starik 38932 mob
   attach 38940 %starik.id%
   detach 38934 %starik.id% 
@@ -513,7 +510,7 @@ else
     say Не хватает еще чего-то!
     mecho Старик начал вертеть в руках шкуру зверя, внимательно осматривая.
     calcuid var 38928 obj
-    mpurge %var.name%
+    mpurge %var%
     calcuid starik 38932 mob
     attach 38941 %starik.id%
     detach 38934 %starik.id%
@@ -532,7 +529,7 @@ if %object.vnum% == 38912 then
   say Не хватает еще чего-то!
   mecho Старик начал вертеть в руках плавники, внимательно осматривая.
   calcuid var 38912 obj
-  mpurge %var.name%  
+  mpurge %var%  
   calcuid starik 38932 mob
   attach 38942 %starik.id%
   detach 38935 %starik.id%
@@ -541,7 +538,7 @@ else
     say Не хватает еще чего-то!
     mecho Старик начал вертеть в руках шкуру зверя, внимательно осматривая.
     calcuid var 38928 obj
-    mpurge %var.name%
+    mpurge %var%
     calcuid starik 38932 mob
     attach 38943 %starik.id%
     detach 38935 %starik.id%
@@ -560,7 +557,7 @@ if %object.vnum% == 38912 then
   say Не хватает еще чего-то!
   mecho Старик начал вертеть в руках плавники, внимательно осматривая.
   calcuid var 38912 obj
-  mpurge %var.name%
+  mpurge %var%
   calcuid starik 38932 mob
   attach 38944 %starik.id%
   detach 38936 %starik.id%
@@ -569,7 +566,7 @@ else
     say Не хватает еще чего-то!
     mecho Старик начал вертеть в руках чешуйку сома, внимательно осматривая.
     calcuid var 38917 obj
-    mpurge %var.name%
+    mpurge %var%
     calcuid starik 38932 mob
     attach 38945 %starik.id%
     detach 38936 %starik.id%
@@ -629,7 +626,7 @@ if %object.vnum% == 38928 then
   say Ну вот, одну минуточку, я закончу!
   mecho Старик отвернулся начал кряхтеть и через минуту повернулся с радостным лицом.
   calcuid var 38928 obj
-  mpurge %var.name%
+  mpurge %var%
   mload obj 38956
   дат штан %actor.name%
   calcuid starik 38932 mob
@@ -649,7 +646,7 @@ if %object.vnum% == 38917 then
   say Ну вот, одну минуточку, я закончу!
   mecho Старик отвернулся начал кряхтеть и через минуту повернулся с радостным лицом.
   calcuid var 38917 obj
-  mpurge %var.name%
+  mpurge %var%
   mload obj 38957
   дат штан %actor.name%
   calcuid starik 38932 mob
@@ -669,7 +666,7 @@ if %object.vnum% == 38928 then
   say Ну вот, одну минуточку, я закончу!
   mecho Старик отвернулся начал кряхтеть и через минуту повернулся с радостным лицом.
   calcuid var 38928 obj
-  mpurge %var.name%
+  mpurge %var%
   mload obj 38958
   дат нарук %actor.name%
   calcuid starik 38932 mob
@@ -689,7 +686,7 @@ if %object.vnum% == 38912 then
   say Ну вот, одну минуточку, я закончу!
   mecho Старик отвернулся начал кряхтеть и через минуту повернулся с радостным лицом.
   calcuid var 38912 obj
-  mpurge %var.name%
+  mpurge %var%
   mload obj 38959
   дат амул %actor.name%
   calcuid starik 38932 mob
@@ -709,7 +706,7 @@ if %object.vnum% == 38917 then
   say Ну вот, одну минуточку, я закончу!
   mecho Старик отвернулся начал кряхтеть и через минуту повернулся с радостным лицом.
   calcuid var 38917 obj
-  mpurge %var.name%
+  mpurge %var%
   mload obj 38960
   дат перч %actor.name%
   calcuid starik 38932 mob
@@ -730,7 +727,7 @@ if %object.vnum% == 38912 then
   mecho Старик отвернулся начал кряхтеть и через минуту повернулся с радостным лицом.
   mload obj 38961
   calcuid var 38912 obj
-  mpurge %var.name%
+  mpurge %var%
   дат нарук %actor.name%
   calcuid starik 38932 mob
   attach 38933 %starik.id%

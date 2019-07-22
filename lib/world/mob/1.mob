@@ -226,7 +226,6 @@ Weight: 200
 Special_Bitvector: a0b0c0d0e0f0 
 Skill: 136 33
 E
-T 199
 #107
 Валькирия Valkyre~
 Валькирия~
@@ -647,13 +646,13 @@ T 129
 T 130
 #112
 пес Гарм~
-&Kпес Гарм~
-&Kпса Гарма~
-&Kпсу Гарму~
-&Kпса Гарма~
-&Kпсом Гармом~
-&Kпсе Гарме~
-_&KПес Гарм сидит здесь, охраняя вход в чертог.
+&Kпес Гарм&n~
+&Kпса Гарма&n~
+&Kпсу Гарму&n~
+&Kпса Гарма&n~
+&Kпсом Гармом&n~
+&Kпсе Гарме&n~
+___&KПес Гарм сидит здесь, охраняя вход в чертог.&n
 ~
 ___Огромный четырехглазый пес прикован у входа в Хельхейм.
 ~
@@ -663,6 +662,7 @@ d0s0e2k2 d0f0s0m2 0 E
 6 6 1
 Saves: -30 -30 -30 -30
 CastSuccess: 35
+Absorbe: 36
 BareHandAttack: 4
 Str: 50
 Dex: 50
@@ -695,6 +695,7 @@ d0 d0f0k0 0 E
 20 0 0 1d100+2000 1d1+20
 0d0+0 40000
 8 8 1
+Absorbe: 20
 Size: 30
 Class: 100
 Race: 100
@@ -2486,7 +2487,7 @@ b0d0g0B0 0 1 E
 5 5 1
 Size: 30
 Class: 100
-Race: 100
+Race: 104
 Height: 198
 Weight: 200
 Special_Bitvector: 0 
@@ -2572,6 +2573,7 @@ b0d0e0t0y0r1f2g2i2 d0f0k0s0z0A0m1p1t1 0 E
 25 -30 -1 10d100+4000 30d10+50
 0d0+0 100000
 8 8 1
+Absorbe: 25
 Str: 25
 Dex: 35
 Int: 25
@@ -2821,7 +2823,7 @@ b0d0B0 b0d0f0k0 1 E
 8 8 1
 Size: 30
 Class: 100
-Race: 100
+Race: 111
 Height: 198
 Weight: 200
 Special_Bitvector: a0 
@@ -2845,6 +2847,7 @@ a0b0d0l0r0t0A0f2h2i2 k0t1x1y1 1 E
 25 -30 3 30d400+10 20d15+20
 0d0+5000 100000
 8 8 2
+Absorbe: 25
 BareHandAttack: 12
 Str: 30
 Dex: 30
@@ -2855,7 +2858,7 @@ Cha: 30
 Size: 50
 ExtraAttack: 2
 Class: 100
-Race: 100
+Race: 103
 Height: 100
 Weight: 200
 Special_Bitvector: m3p3 
@@ -3315,7 +3318,7 @@ T 183
 Что-то вроде канарейки... А может жаворонка?
 Черт его знает - орнитология всегда была моим слабым местом.
 ~
-d0o1 d0f0k0x0D0 0 E
+d0o1l2 d0f0k0x0D0 0 E
 1 20 0 1d10+1 1d1+0
 0d0+0 0
 8 8 2
@@ -3499,81 +3502,225 @@ T 195
 T 194
 T 193
 T 192
-#194
-меченый атом~
-меченый атом~
-меченого атома~
-меченому атому~
-меченый атом~
-меченым атомом~
-меченом атоме~
-Меченый атом с меткой Пруля люменисцирует здесь
-~
-Меченый атом с меткой Пруля люменисцирует здесь
-Используется Прулем для проверки топологии мира и психологии мобов
-~
-d0 0 0 E
-1 19 0 1d100+1 1d1+1
-0d0+0 1
-8 8 1
-Str: 1
-Dex: 14
-Wis: 1
-Con: 1
-Cha: 15
-Size: 1
-Class: 100
-Race: 100
-Height: 50
-Weight: 1
-Special_Bitvector: 0 
-E
-#195
-стюард замка Пруля~
-стюард замка Пруля~
-стюарда замка Пруля~
-стюарду замка Пруля~
-стюарда замка Пруля~
-стюардом замка Пруля~
-стюарде замка Пруля~
-Стюард замка Пруля предлагает всем желающим уйти на постой
-~
-Стюард молод, одет во все черное, деловит
-~
-b0d0n0u2 0 0 E
-25 19 0 1d100+1 1d1+1
-0d0+0 0
-8 8 1
-Size: 30
-Class: 100
-Race: 100
-Height: 198
-Weight: 200
-Special_Bitvector: 0 
-E
 #196
-стражник замка Пруля~
-стражник замка Пруля~
-стражника замка Пруля~
-стражнику замка Пруля~
-стражника замка Пруля~
-стражником замка Пруля~
-стражнике замка Пруля~
-Стражник замка Пруля стоит на часах тут
+яркая искра~
+&Bя&Cр&Yк&Mа&Wя&B искра&n~
+&Bя&Cр&Yк&Mо&Wй&B искры&n~
+&Bя&Cр&Yк&Mо&Wй&B искре&n~
+&Bя&Cр&Yк&Mу&Wю&B искру&n~
+&Bя&Cр&Yк&Mо&Wй&B искрой&n~
+&Bя&Cр&Yк&Mо&Wй&B искре&n~
+Очень &Bя&Cр&Yк&Mа&Wя&B искра&n парит в воздухе перед Вами.
 ~
-Стражник замка Пруля усат, суров и бдителен
+Вы ничего не можете разглядеть.
+&WСвет от искры ослепляет Вас.&n
 ~
-b0d0 0 0 E
-29 19 0 1d100+1 1d1+1
-0d0+0 0
-8 8 1
-Size: 30
-Class: 102
-Race: 101
-Height: 198
+c0d0f0l0n0o0p0q0r0t0u0x0y0A0b1s1t1w1a2f2g2h2i2k2l2u2 d0f0g0k0m0n0p0x0z0A0D0m1p1r1x1y1z1a2 0 E
+1 10 -2 50d100+10000 1d1+10
+0d0+0 1
+8 8 2
+Saves: 30 20 50 40
+Resistances: 0 0 0 0 15 15 15
+HPreg: 100
+Armour: 30
+PlusMem: 200
+CastSuccess: 100
+Success: 20
+Absorbe: 1
+BareHandAttack: 8
+Str: 30
+Dex: 20
+Int: 49
+Wis: 35
+Con: 40
+Cha: 40
+Size: 100
+Class: 100
+Race: 114
+Height: 50
 Weight: 200
-Special_Bitvector: 0 
+Special_Bitvector: l0x0 
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 30
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 32
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 40
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 54
+Spell: 54
+Spell: 54
+Spell: 55
+Spell: 55
+Spell: 55
+Spell: 56
+Spell: 59
+Spell: 59
+Spell: 59
+Spell: 62
+Spell: 62
+Spell: 64
+Spell: 64
+Spell: 66
+Spell: 66
+Spell: 66
+Spell: 67
+Spell: 67
+Spell: 67
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 72
+Spell: 75
+Spell: 75
+Spell: 75
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 76
+Spell: 81
+Spell: 81
+Spell: 81
+Spell: 82
+Spell: 83
+Spell: 83
+Spell: 83
+Spell: 85
+Spell: 85
+Spell: 88
+Spell: 88
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 98
+Spell: 111
+Spell: 111
+Spell: 114
+Spell: 114
+Spell: 114
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 115
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 120
+Spell: 132
+Spell: 132
+Spell: 133
+Spell: 134
+Spell: 134
+Spell: 139
+Spell: 150
+Spell: 150
+Spell: 150
+Spell: 152
+Spell: 152
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 170
 E
+T 103
 #197
 горыныч змей~
 &Rзмей &gГорыныч&n~
@@ -3601,7 +3748,7 @@ Cha: 3
 Size: 70
 ExtraAttack: 2
 Class: 100
-Race: 100
+Race: 105
 Height: 200
 Weight: 200
 Special_Bitvector: l0u0x0 
@@ -3692,6 +3839,7 @@ d0f0n0p0q0r0t0x0y0b1s1 c0d0f0k0x0m1 1 E
 8 8 1
 Saves: 50 50 50 50
 Initiative: 100
+Absorbe: 28
 AResist: 80
 MResist: 80
 BareHandAttack: 2
@@ -3704,7 +3852,7 @@ Cha: 3
 Size: 50
 ExtraAttack: 5
 Class: 100
-Race: 100
+Race: 105
 Height: 198
 Weight: 200
 Special_Bitvector: l0u0 

@@ -46,7 +46,7 @@ if (%object.type%==19)
   if %exist.mob(42113)%
     %echo% _Пузатая крыса отдала %object.iname% крысенышу.
     %echo% _Крысеныш быстро съел %object.iname%.
-    %purge% %object.name%
+    %purge% %object%
     halt
   endif
   wait 1s
@@ -64,7 +64,7 @@ if (%object.type%==19)
   %load% mob 42113
   %load% mob 42113
   %load% mob 42113
-  %echo% _Пузатая крыса прибежала из угола в сопровождении нового выводка крыс.
+  %echo% _Пузатая крыса прибежала из угла в сопровождении нового выводка крыс.
 elseif
   %echo% _Пузатая крыса недовольно фыркнула.
   return 0
@@ -158,5 +158,80 @@ wait 2
 say На держи, только аккуратнее, щас городская стража пацанов шмонает... 
 mload obj 42154
 give самокрутка .%actor.name%
+~
+#42109
+спускаемся в подвал~
+2 c 100
+спуститься~
+if (!%arg.contains(подвал)%)
+  %send% %actor% Куда спуститься то?
+  halt
+end
+wait 1
+%send% %actor% Вы открыли неприметный лючок возле стенки шатра и спустились вниз.
+%echoaround% %actor% %actor.iname% вдруг куда-то подевал%actor.u%.
+wait 1
+%teleport% %actor% 42150 horse
+~
+#42110
+пробираемся сквозь пшеницу~
+2 c 1
+пробраться~
+if (%actor.vnum% > 0)
+  halt
+end
+if ((!%arg.contains(сквозь)%) && (!%arg.contains(через)%))
+  %send% %actor% Куда Вы хотите пробраться?
+  halt
+elseif (!%arg.contains(пшениц)%)
+  %send% %actor% И сквозь что же Вы хотите пробраться?
+  halt
+end
+%send% %actor% Вы окунулись в бескрайний океан пшеницы.
+%echoaround% %actor% %actor.iname% скрыл%actor.u% в высокой пшенице.
+wait 3
+%send% %actor% Кажется, Вы достаточно прошли, чтобы перевести дух.
+%teleport% %actor% 42163 horse
+wait 1
+wat 42163 wechoaround %actor% %actor.iname% показал%actor.u% в поле Вашего зрения.
+~
+#42111
+триг дамага в тумане~
+2 b 100
+~
+%echo% Дышать все тяжлее и тяжелее. Срочно выбирайтесь отсюда!
+foreach victim %self.char%
+  eval victdam %victim.maxhitp%/10
+  if (%victim.hitp% > %victdam%)
+    eval temp %victim.hitp(-%victdam%)%
+  end
+done
+~
+#42112
+забраться на башню~
+2 c 100
+забраться~
+if (!%arg.contains(на башн)%)
+  %send% %actor% Куда забираться будем?
+  halt
+  *elseif (!%actor.rentable%)
+  *  %send% %actor% Из-за крови на Ваших руках лучше этого не делать, можно сорваться!
+  *  halt
+end
+%send% %actor% Вы начали карабкаться вверх по башне.
+%echoaround% %actor% %actor.iname% начал%actor.g% взбираться на башню.
+wait 3
+%send% %actor% Наконец, Вы закончили восхождение.
+switch %actor.realroom%
+  case 42160
+    eval targ 42162
+  break
+  default
+    eval targ 42161
+  break
+done
+%teleport% %actor% %targ% horse
+wait 1
+wat %targ% wechoaround %actor% Кто-то забрался сюда.
 ~
 $~

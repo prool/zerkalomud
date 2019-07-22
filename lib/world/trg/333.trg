@@ -46,8 +46,8 @@ say Мой отец отблагодарит Вас, поверьте!
 ~
 wait 3s
 mecho  _Девушка высокомерно взглянула на Вас.
-say Мой отец не пожалеет никаких денег, что бы спасти меня!
-say Сделай это! И Вы не пожалеете!
+say Мой отец не пожалеет никаких денег, чтобы спасти меня!
+say Сделай это! И ты не пожалеешь!
 ~
 #33306
 У красивой невольницы 2~
@@ -186,7 +186,7 @@ end
 0 r 100
 ~
 wait 1
-mecho  _Мурена  взглянула на Вас с презрением.
+mecho  _Мурена взглянула на Вас с презрением.
 mecho Огромная мурена кинулась в атаку!
 mkill .%actor.name%
 ~
@@ -397,19 +397,19 @@ say Воин я старый, опытный.. Научить кое-чему смогу.
 лекарь~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(лидерство)%+5 <= %skl%)
   eval addskl 5
 else
   eval addskl %skl%-%killer.skill(лидерство)%
 end
-if     !%killer.skill(лидерство)%
+if !%killer.skill(лидерство)%
   say Раньше я ходил с одним очень опытным человеком..
   say И он мне показывал все возможные причуды в нашем путешествии
   say И я кое чему у него научился, могу и тебя научить!
   ait 1s
-  mskillturn %killer.name% лидерство set
+  mskillturn %killer% лидерство set
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "лидерство".
 elseif %killer.skill(лидерство)% < %skl%
@@ -417,7 +417,7 @@ elseif %killer.skill(лидерство)% < %skl%
   say И он мне показывал все возможные причуды в нашем путешествии
   say И я кое чему у него научился, могу и тебя научить!
   wait 1s
-  mskilladd %killer.name% лидерство %addskl%
+  mskilladd %killer% лидерство %addskl%
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "лидерство".
 else
@@ -429,19 +429,19 @@ end
 боевой маг~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(опознание)%+5 <= %skl%)
   eval addskl 5
 else
   eval addskl %skl%-%killer.skill(опознание)%
 end
-if     !%killer.skill(опознание)%
+if !%killer.skill(опознание)%
   say В моих путешествиях меня поразил один человек..
   say Он запросто распознавал мои вещи, даже не глядя на них!
   say И я кое чему у него научился, могу и тебя научить!
   ait 1s
-  mskillturn %killer.name% опознание set
+  mskillturn %killer% опознание set
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "опознание".
 elseif %killer.skill(опознание)% < %skl%
@@ -449,7 +449,7 @@ elseif %killer.skill(опознание)% < %skl%
   say Он запросто распознавал мои вещи, даже не глядя на них!
   say И я кое чему у него научился, могу и тебя научить!
   wait 1s
-  mskilladd %killer.name% опознание %addskl%
+  mskilladd %killer% опознание %addskl%
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "опознание".
 else
@@ -461,7 +461,7 @@ end
 вор~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(заколоть)%+5 <= %skl%)
   eval addskl 5
@@ -473,7 +473,7 @@ if (%killer.skill(подножка)%+5 <= %skl%)
 else
   eval addskl2 %skl%-%killer.skill(подножка)%
 end
-if     !%killer.skill(заколоть)%
+if !%killer.skill(заколоть)%
   say В одной из кабацких драк меня поразила быстрота и ловкость, с которой один из
   say местных воров убивал противников. Он делал это с помощью удара в спину.
   say Он мгновенно появлялся у них из-за спины и наносил коварный удар.
@@ -482,7 +482,7 @@ if     !%killer.skill(заколоть)%
   wait 1s
   mecho Старый учитель на мгновение исчез.
   mecho Кто-то нанес Вам УЖАСНЫЙ удар в спину!!!
-  mskillturn %killer.name% заколоть set
+  mskillturn %killer% заколоть set
   mdamage %killer% 200
   mecho Старый учитель появился снова.
   wait 1s
@@ -496,7 +496,7 @@ elseif %killer.skill(заколоть)% < %skl%
   wait 1s
   mecho Старый учитель на мгновение исчез.
   mecho Кто-то нанес Вам УЖАСНЫЙ удар в спину!!!
-  mskilladd %killer.name% заколоть %addskl%
+  mskilladd %killer% заколоть %addskl%
   mdamage %killer% 200
   mecho Старый учитель появился снова.
   wait 1s
@@ -512,7 +512,7 @@ elseif !%killer.skill(подножка)%
   %killer.position(6)%
   %killer.wait(2)%
   mecho Тут же он нанес Вам УЖАСНЫЙ удар!!!
-  mskillturn %killer.name% подножка set
+  mskillturn %killer% подножка set
   mdamage %killer% 50
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "подножка".
@@ -527,7 +527,7 @@ elseif %killer.skill(подножка)% < %skl%
   %killer.position(6)%
   %killer.wait(2)%
   mecho Тут же он нанес Вам УЖАСНЫЙ удар!!!
-  mskilladd %killer.name% подножка %addskl2%
+  mskilladd %killer% подножка %addskl2%
   mdamage %killer% 50
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "подножка".
@@ -540,7 +540,7 @@ end
 богатырь~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(богатырский молот)%+5 <= %skl%)
   eval addskl 5
@@ -552,14 +552,14 @@ if (%killer.skill(кулачный бой)%+5 <= %skl%)
 else
   eval addskl2 %skl%-%killer.skill(кулачный бой)%
 end
-if    !%killer.skill(богатырский молот)%
+if !%killer.skill(богатырский молот)%
   say Богатырская сила в тебе видна могучая.
   say Посему попробую научить тебя приему славному - "богатырский молот".
   say Главное тут, замахнуться со всей дури, да и врезать промеж глаз ворогу.
   say Примерно вот так!
   mecho Учитель подошел к Вам и резко замахнулся!
   mecho Богатырский удар Учителя пришелся Вам по вкусу...
-  mskillturn %killer.name% богатырский.молот set
+  mskillturn %killer% богатырский.молот set
   mdamage %killer% 200
   say Может быть теперь ты поймешь все преимущества богатырского удара.
 elseif %killer.skill(богатырский молот)% < %skl%
@@ -569,7 +569,7 @@ elseif %killer.skill(богатырский молот)% < %skl%
   say Примерно вот так!
   mecho Учитель подошел к Вам и резко замахнулся!
   mecho Богатырский удар Учителя пришелся Вам по вкусу...
-  mskilladd %killer.name% богатырский.молот %addskl%
+  mskilladd %killer% богатырский.молот %addskl%
   mdamage %killer% 200
   say Может быть теперь ты поймешь некоторые особенности богатырского удара.
 elseif !%killer.skill(кулачный бой)%
@@ -579,7 +579,7 @@ elseif !%killer.skill(кулачный бой)%
   say Примерно вот так!
   mecho Учитель подошел к Вам и резко замахнулся здоровым кулаком!
   mecho Удар Учителя оглушил Вас и порадовал весьма...
-  mskillturn %killer.name% кулачный set
+  mskillturn %killer% кулачный set
   mdamage %killer% 200
   say Может быть теперь ты поймешь все преимущества умения "кулачный бой".
 elseif %killer.skill(кулачный бой)% < %skl%
@@ -589,7 +589,7 @@ elseif %killer.skill(кулачный бой)% < %skl%
   say Примерно вот так!
   mecho Учитель подошел к Вам и резко замахнулся здоровым кулаком!
   mecho Удар Учителя оглушил Вас и порадовал весьма...
-  mskilladd %killer.name% кулачный %addskl2%
+  mskilladd %killer% кулачный %addskl2%
   mdamage %killer% 200
   say Может быть теперь ты поймешь все преимущества умения "кулачный бой".
 else
@@ -601,7 +601,7 @@ end
 наемник~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(проникающее)%+5 <= %skl%)
   eval addskl 5
@@ -613,8 +613,8 @@ if (%killer.skill(подножка)%+5 <= %skl%)
 else
   eval addskl2 %skl%-%killer.skill(подножка)%
 end
-if    !%killer.skill(проникающее оружие)%
-  mskillturn %killer.name% проникающее set
+if !%killer.skill(проникающее оружие)%
+  mskillturn %killer% проникающее set
 elseif %killer.skill(проникающее оружие)% < %skl%
   say Вижу я, в жилах у тебя течет кровь наемника.
   дум
@@ -625,7 +625,7 @@ elseif %killer.skill(проникающее оружие)% < %skl%
   mecho Несколько раз он перекладывал его с руки на руку, наносил невидимые удары...
   mecho В какой-то момент Вы уловили и запомнили несколько его движений...
   mecho Вы стали опытнее в умении "проникающее оружие".
-  mskilladd  %killer.name% проникающее %addskl%
+  mskilladd %killer% проникающее %addskl%
 elseif !%killer.skill(подножка)%
   say Знаешь, бывал я во многих переделках, и знаю много всего.
   say Но могу точно сказать тебе следующее.
@@ -637,7 +637,7 @@ elseif !%killer.skill(подножка)%
   %killer.position(6)%
   %killer.wait(2)%
   mecho Тут же он нанес Вам УЖАСНЫЙ удар!!!
-  mskillturn %killer.name% подножка set
+  mskillturn %killer% подножка set
   mdamage %killer% 50
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "подножка".
@@ -652,7 +652,7 @@ elseif %killer.skill(подножка)% < %skl%
   %killer.position(6)%
   %killer.wait(2)%
   mecho Тут же он нанес Вам УЖАСНЫЙ удар!!!
-  mskilladd  %killer.name% подножка %addskl2%
+  mskilladd %killer% подножка %addskl2%
   mdamage %killer% 50
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "подножка".
@@ -665,7 +665,7 @@ end
 друж~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(сбить)%+5 <= %skl%)
   eval addskl 5
@@ -677,7 +677,7 @@ if (%killer.skill(спасти)%+5 <= %skl%)
 else
   eval addskl2 %skl%-%killer.skill(спасти)%
 end
-if    !%killer.skill(сбить)%
+if !%killer.skill(сбить)%
   say Хмм... дружинник ты конечно никудышный....
   say Ну не встречал я еще дружинников без умения "сбить"...
   say А повидал я немало...
@@ -691,7 +691,7 @@ if    !%killer.skill(сбить)%
   %killer.position(6)%
   %killer.wait(2)%
   say Воо... посиди и подумай.. мож научишься чему в этом славном умении "сбить".
-  mskillturn %killer.name% сбить set
+  mskillturn %killer% сбить set
 elseif %killer.skill(сбить)% < %skl%
   say Хмм... дружинник ты что надо....
   say Встречал я правда и посильнее и поумнее чем ты...
@@ -705,7 +705,7 @@ elseif %killer.skill(сбить)% < %skl%
   %killer.position(6)%
   %killer.wait(2)%
   say Воо... посиди и подумай.. мож научишься чему в этом славном умении "сбить".
-  mskilladd  %killer.name% сбить %addskl%
+  mskilladd %killer% сбить %addskl%
 elseif !%killer.skill(спасти)%
   say Вижу я, что с умением "спасти" ты совсем не в ладах.
   say А между тем от него зачастую зависит жизнь не только твоя, но и твоих друзей.
@@ -715,7 +715,7 @@ elseif !%killer.skill(спасти)%
   mecho Рассказал о тех случаях, когда спасал друзей от верной гибели...
   mecho Потом он встал и показал Вам несколько приемов, необходимых для улучшенного спасания
   mecho Кажется, вы познакомились с умением "спасти".
-  mskillturn %killer.name% спасти set
+  mskillturn %killer% спасти set
 elseif %killer.skill(спасти)% < %skl%
   say Вижу я, что с умением "спасти" ты знаком.
   дум
@@ -725,7 +725,7 @@ elseif %killer.skill(спасти)% < %skl%
   mecho Рассказал о тех случаях, когда спасал друзей от верной гибели...
   mecho Потом он встал и показал Вам несколько приемов, необходимых для улучшенного спасания
   mecho Кажется, вы лучше стали разбираться в умении "спасти".
-  mskilladd  %killer.name% спасти %addskl2%
+  mskilladd %killer% спасти %addskl2%
 else
   say Кажется мне, что во всех умениях ты достаточно развит%killer.g%.
   say Нечему мне тебя учить более..
@@ -735,19 +735,19 @@ end
 кудес~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(опознание)%+5 <= %skl%)
   eval addskl 5
 else
   eval addskl %skl%-%killer.skill(опознание)%
 end
-if     !%killer.skill(опознание)%
+if !%killer.skill(опознание)%
   say В моих путешествиях меня поразил один человек..
   say Он запросто распознавал мои вещи, даже не глядя на них!
   say И я кое-чему у него научился, могу и тебя научить!
   wait 1s
-  mskillturn %killer.name% опознание set
+  mskillturn %killer% опознание set
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "опознание".
 elseif %killer.skill(опознание)% < %skl%
@@ -755,7 +755,7 @@ elseif %killer.skill(опознание)% < %skl%
   say Он запросто распознавал мои вещи, даже не глядя на них!
   say И я кое-чему у него научился, могу и тебя научить!
   wait 1s
-  mskilladd %killer.name% опознание %addskl%
+  mskilladd %killer% опознание %addskl%
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "опознание".
 else
@@ -767,19 +767,19 @@ end
 волш~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(опознание)%+5 <= %skl%)
   eval addskl 5
 else
   eval addskl %skl%-%killer.skill(опознание)%
 end
-if     !%killer.skill(опознание)%
+if !%killer.skill(опознание)%
   say В моих путешествиях меня поразил один человек..
   say Он запросто распознавал мои вещи, даже не глядя на них!
   say И я кое-чему у него научился, могу и тебя научить!
   wait 1s
-  mskillturn %killer.name% опознание set
+  mskillturn %killer% опознание set
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "опознание".
 elseif %killer.skill(опознание)% < %skl%
@@ -787,7 +787,7 @@ elseif %killer.skill(опознание)% < %skl%
   say Он запросто распознавал мои вещи, даже не глядя на них!
   say И я кое-чему у него научился, могу и тебя научить!
   wait 1s
-  mskilladd %killer.name% опознание %addskl%
+  mskilladd %killer% опознание %addskl%
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "опознание".
 else
@@ -799,19 +799,19 @@ end
 некрос~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(опознание)%+5 <= %skl%)
   eval addskl 5
 else
   eval addskl %skl%-%killer.skill(опознание)%
 end
-if     !%killer.skill(опознание)%
+if !%killer.skill(опознание)%
   say В моих путешествиях меня поразил один человек..
   say Он запросто распознавал мои вещи, даже не глядя на них!
   say И я кое-чему у него научился, могу и тебя научить!
   wait 1s
-  mskillturn %killer.name% опознание set
+  mskillturn %killer% опознание set
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "опознание".
 elseif %killer.skill(опознание)% < %skl%
@@ -819,7 +819,7 @@ elseif %killer.skill(опознание)% < %skl%
   say Он запросто распознавал мои вещи, даже не глядя на них!
   say И я кое-чему у него научился, могу и тебя научить!
   wait 1s
-  mskilladd %killer.name% опознание %addskl%
+  mskilladd %killer% опознание %addskl%
   wait 1s
   say Вот так.. может быть теперь ты станешь лучше разбираться в умении "опознание".
 else
@@ -831,7 +831,7 @@ end
 витя~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(сбить)%+5 <= %skl%)
   eval addskl 5
@@ -843,7 +843,7 @@ if (%killer.skill(точный стиль)%+5 <= %skl%)
 else
   eval addskl2 %skl%-%killer.skill(точный стиль)%
 end
-if    !%killer.skill(сбить)%
+if !%killer.skill(сбить)%
   say Хмм... витязь ты конечно никудышный....
   say Ну не встречал я еще витязей без умения "сбить"...
   say А повидал я немало...
@@ -857,7 +857,7 @@ if    !%killer.skill(сбить)%
   %killer.position(6)%
   %killer.wait(2)%
   say Воо... посиди и подумай.. мож научишься чему в этом славном умении "сбить".
-  mskillturn %killer.name% сбить set
+  mskillturn %killer% сбить set
 elseif %killer.skill(сбить)% < %skl%
   say Хмм... витязь ты что надо....
   say Встречал я правда и посильнее и поумнее чем ты...
@@ -871,7 +871,7 @@ elseif %killer.skill(сбить)% < %skl%
   %killer.position(6)%
   %killer.wait(2)%
   say Воо... посиди и подумай.. мож научишься чему в этом славном умении "сбить".
-  mskilladd %killer.name% сбить %addskl%
+  mskilladd %killer% сбить %addskl%
 elseif !%killer.skill(точный стиль)%
   say Нда... витязей я повидал немало на своем веку...
   say Но такого тупого, чтоб не знал умения "точный стиль".. встречаю впервые.
@@ -882,7 +882,7 @@ elseif !%killer.skill(точный стиль)%
   mecho Он рассказал Вам о разных видах животных, где у них уязвимые места.
   mecho Учитель детально описал Вам строение человека и указал жизненно важные части тела.
   mecho Вы почувствовали себя несколько более сведущим в умении "точный стиль".
-  mskillturn %killer.name% точный.стиль set
+  mskillturn %killer% точный.стиль set
 elseif %killer.skill(точный стиль)% < %skl%
   say Нда... витязей я повидал немало на своем веку...
   say И знаю отлично, что умение точным ударом поразить противника в жизненно важные места -
@@ -892,7 +892,7 @@ elseif %killer.skill(точный стиль)% < %skl%
   mecho Он рассказал Вам о разных видах животных, где у них уязвимые места.
   mecho Учитель детально описал Вам строение человека и указал жизненно важные части тела.
   mecho Вы почувствовали себя несколько более сведущим в умении "точный стиль".
-  mskilladd %killer.name% точный.стиль %addskl2%
+  mskilladd %killer% точный.стиль %addskl2%
 else
   say Кажется мне, что во всех умениях ты достаточно развит%killer.g%.
   say Нечему мне тебя учить более..
@@ -902,7 +902,7 @@ end
 охот~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(маскировка)%+5 <= %skl%)
   eval addskl 5
@@ -914,7 +914,7 @@ if (%killer.skill(луки)%+5 <= %skl%)
 else
   eval addskl2 %skl%-%killer.skill(луки)%
 end
-if    !%killer.skill(луки)%
+if !%killer.skill(луки)%
   say Хм.. да Вы, гость дорогой, оригинал..
   say Охотника без умения "луки" я еще не встречал...
   хох
@@ -922,7 +922,7 @@ if    !%killer.skill(луки)%
   mecho Учитель быстро описал Вам преимущества использования луков.
   mecho А также описал ряд приемов их удачного использования.
   mecho Вы познакомились с умением "луки".
-  mskillturn %killer.name% луки set
+  mskillturn %killer% луки set
 elseif %killer.skill(луки)% < %skl%
   say Хм.. да ты охотник опытный.
   дум
@@ -931,7 +931,7 @@ elseif %killer.skill(луки)% < %skl%
   mecho Учитель обучил Вас, как учитывать влияние погоды на полет стрелы.
   mecho Учитель рассказал Вам, как надо стрелять с лука, верхом на коне.
   mecho Вы стали гораздо опытнее в умении "луки".
-  mskilladd %killer.name% луки %addskl2%
+  mskilladd %killer% луки %addskl2%
 elseif %killer.skill(маскировка)% < %skl%
   say Расскажу я тебе одну историю, а ты на ус мотай...
   mecho Учитель рассказал Вам о встрече с одним из величайших охотников,
@@ -939,7 +939,7 @@ elseif %killer.skill(маскировка)% < %skl%
   mecho и он мог ловить их руками...
   mecho Учитель поведал Вам несколько приемов, чтобы научиться так маскироваться.
   mecho Возможно, вы стали более опытны в умении "маскировка".
-  mskilladd %killer.name% маскировка %addskl%
+  mskilladd %killer% маскировка %addskl%
 else
   say Кажется мне, что во всех умениях ты достаточно развит%killer.g%.
   say Нечему мне тебя учить более..
@@ -950,7 +950,7 @@ end
 кузя~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(секиры)%+5 <= %skl%)
   eval addskl 5
@@ -962,14 +962,14 @@ if (%killer.skill(короткие лезвия)%+5 <= %skl%)
 else
   eval addskl2 %skl%-%killer.skill(короткие лезвия)%
 end
-if    !%killer.skill(секиры)%
+if !%killer.skill(секиры)%
   say Встретил я однажды кузнеца знатного, в Царе-граде живущего...
   say Тот кузнец большой был мастер по топорам и секирам.
   say Обучил он меня нескольким приемам. Смотри же и запоминай.
   mecho Учитель достал откуда-то огромный топор.
   mecho Учитель принялся очень быстро крутить-вертеть топор, будто соломинку.
   mecho В какой-то момент Вам показалось, что Вы стали опытнее в умении "секиры".
-  mskillturn %killer.name% секиры set
+  mskillturn %killer% секиры set
 elseif %killer.skill(секиры)% < %skl%
   say Встретил я однажды кузнеца знатного, в Царе-граде живущего...
   say Тот кузнец большой был мастер по топорам и секирам.
@@ -977,7 +977,7 @@ elseif %killer.skill(секиры)% < %skl%
   mecho Учитель достал откуда-то огромный топор.
   mecho Учитель принялся очень быстро крутить-вертеть топор, будто соломинку.
   mecho В какой-то момент Вам показалось, что Вы стали опытнее в умении "топоры".
-  mskilladd  %killer.name% секиры %addskl%
+  mskilladd %killer% секиры %addskl%
 elseif !%killer.skill(короткие лезвия)%
   say Встретил я однажды кузнеца знатного, в Царе-граде живущего...
   say Тот кузнец большой был мастер по бою на коротких мечах.
@@ -985,7 +985,7 @@ elseif !%killer.skill(короткие лезвия)%
   mecho Учитель достал откуда-то короткий меч.
   mecho Учитель принялся очень быстро крутить-вертеть меч, будто соломинку.
   mecho В какой-то момент Вам показалось, что Вы стали опытнее в умении "короткие лезвия".
-  mskillturn %killer.name% короткие.лезвия set
+  mskillturn %killer% короткие.лезвия set
 elseif %killer.skill(короткие лезвия)% < %skl%
   say Встретил я однажды кузнеца знатного, в Царе-граде живущего...
   say Тот кузнец большой был мастер по бою на коротких мечах.
@@ -993,7 +993,7 @@ elseif %killer.skill(короткие лезвия)% < %skl%
   mecho Учитель достал откуда-то короткий меч.
   mecho Учитель принялся очень быстро крутить-вертеть меч, будто соломинку.
   mecho В какой-то момент Вам показалось, что Вы стали опытнее в умении "короткие лезвия".
-  mskilladd %killer.name% короткие.лезвия %addskl2%
+  mskilladd %killer% короткие.лезвия %addskl2%
 else
   say Кажется мне, что во всех умениях ты достаточно развит%killer.g%.
   say Нечему мне тебя учить более..
@@ -1003,14 +1003,14 @@ end
 купец~
 0 z 100
 ~
-log &Y%killer.name% апает скилл у владыки морей!&n
+*log &Y%killer.name% апает скилл у владыки морей!&n
 eval skl %actor.remort%*5+90
 if (%killer.skill(метнуть)%+5 <= %skl%)
   eval addskl 5
 else
   eval addskl %skl%-%killer.skill(метнуть)%
 end
-if    !%killer.skill(метнуть)%
+if !%killer.skill(метнуть)%
   say Нда... Не те седня пошли купцы... Купец нынче не тот.
   say Вот помню Гаврило-купец первой гильдии... То был вояка еще тот...
   say Мог метким броском кинжала сразить степняка на скаку.
@@ -1018,7 +1018,7 @@ if    !%killer.skill(метнуть)%
   say Слушай, и запоминай, горе луковое.
   mecho Учитель вкратце описал Вам основы умения "метнуть".
   mecho Вы твердо решили совершенствовать это умение по возможности.
-  mskillturn %killer.name% метнуть set
+  mskillturn %killer% метнуть set
 elseif %killer.skill(метнуть)% < %skl%
   say Нда... Не те седня пошли купцы... Купец нынче не тот.
   say Вот помню Гаврило-купец первой гильдии... То был вояка еще тот...
@@ -1029,7 +1029,7 @@ elseif %killer.skill(метнуть)% < %skl%
   mecho Он описал Вам, как надо метать разные виды оружия.
   mecho Он рассказал Вам, как удобнее метать из разных положений.
   mecho Вы поняли, что в умении "метнуть" прыгнули выше головы!
-  mskilladd %killer.name% метнуть %addskl%
+  mskilladd %killer% метнуть %addskl%
 else
   say Кажется мне, что во всех умениях ты достаточно развит%killer.g%.
   say Нечему мне тебя учить более..

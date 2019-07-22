@@ -74,7 +74,8 @@ if %random.10% == 1
   mecho Правая голова Дубыни произнесла исцеляющее заклинание!
 end
 if %random.7% == 1
-  dg_cast 'масс слеп' 
+  eval tmp %random.pc%
+  dg_cast 'масс слеп' %tmp.name%
   mecho Левая голова Дубыни произнесла ослепляющее заклинание!
 end
 ~
@@ -109,10 +110,14 @@ if (%random.100% < %value%)
 end
 unset value
 unset sniper
-if %random.8% == 1
+if (%random.8% == 1)
   dg_cast 'исцел' дубыня
-  dg_cast 'исцел' усыня
-  dg_cast 'исцел' горыня
+  if (%exist.mob(91802)%)
+    dg_cast 'исцел' усыня
+  end
+  if (%exist.mob(91800)%)
+    dg_cast 'исцел' горыня
+  end
   mecho Правая голова Дубыни произнесла исцеляющее заклинание!
 end
 ~
@@ -464,12 +469,13 @@ if %object.vnum% == 91900
   wait 2s
   mecho Старик повел Вас к лодке. 
   say Как будешь готов - говори.
+  mat 91900 Кто-то ещё уселся в лодку.
   mteleport all 91900
   detach 91813 %self.id%
 else
   wait 1s
   say Эту ерунду оставь себе!
-  бро все
+  бро all
 end
 ~
 #91814

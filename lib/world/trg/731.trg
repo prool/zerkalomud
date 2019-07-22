@@ -74,12 +74,11 @@ if %exist.mob(73101)%
   wsend %actor% Вы попытались прыгнуть через валун, но резкий порыв ветра отбросил вас назад!
   halt
 end
-wsend %actor% _Разбежавшись Вы прыгнули через валун.
-wechoaround %actor% _%actor.name% прыгну%actor.q% через валун.
+wsend %actor% _Разбежавшись, вы прыгнули через валун.
+wechoaround %actor% _%actor.iname% прыгнул%actor.g% через валун.
 wteleport %actor% 73114
-wsend %actor% _Вы перепрыгнули валун и оказались на горной тропке.
-wechoaround %actor%  Кто-то прыгнул сюда. 
-end
+wsend %actor% _Перепрыгнув валун, вы оказались на горной тропке.
+wechoaround %actor% _Кто-то прыгнул сюда.
 ~
 #73105
 Через валун(обратно)~
@@ -109,6 +108,7 @@ else
   wait 1
   wsend %actor% _Порыв ветра стал раскачивать мостик!
   wsend %actor% _Размахивая руками, вы полетили в бездонную пропасть!
+  wat 73132 wecho Кто-то свалился сюда.
   wteleport all 73132
 end
 ~
@@ -195,10 +195,10 @@ end
 Умер знахарь~
 0 f 100
 ~
-if %world.curobjs(73132)% < 50
-  mload obj 73132
-  mload obj 73132
-  mload obj 73132
+if (%random.100% < 21)
+  mload obj 813
+  mload obj 813
+  mload obj 813
 end
 ~
 #73113
@@ -253,9 +253,8 @@ wechoaround %actor% _%actor.name% спрыгнул%actor.q% с облака в неизвестность.
 wteleport %actor% 73153
 wsend %actor% _Пролетев огромное растояние, вы упали сильно ударившись о камни!
 wechoaround %actor% _Кто-то свалился рядом с вами!
-if %actor.hitp% > 10 
-  %actor.hitp(10)%
-end
+if (%actor.hitp% > 10)
+  eval %actor.hitp(10)%
 end
 ~
 #73117

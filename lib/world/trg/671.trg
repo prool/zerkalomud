@@ -212,11 +212,8 @@ switch %random.20%
     %self.gold(3000)%
     дать 3000 кун %actor.name%
   done
-  if ((%random.1000% < 50) && (%world.curobjs(3317)% < 1))
-    mload obj 3317
-    дать все %actor.name%
-  elseif ((%random.1000% < 30) && (%world.curobjs(3329)% < 1))
-    mload obj 3329
+  if (%random.1000% < 50)
+    mload obj 103
     дать все %actor.name%
   end
   detach 67108 %self.id%
@@ -226,16 +223,16 @@ switch %random.20%
 2 c 100
 карабкаться~
 if !(%arg.contains(вверх)%)
-  wsend %actor.name% Куда вы собираетесь карабкаться?
+  wsend %actor.name% Куда Вы собираетесь карабкаться?
   halt
 end
-wsend %actor.name% Цепляясь за корни деревьев торчащих из склона, Вы полезли на верх.
-wechoaround %actor% Цепляясь за корни деревьев торчащих из склона, %actor.name% полез%actor.q% на верх.
+wsend %actor% Цепляясь за корни деревьев, торчащих из склона, Вы полезли наверх.
+wechoaround %actor% Цепляясь за корни деревьев, торчащих из склона, %actor.iname% полез%actor.q% наверх.
 wait 1s
-wteleport %actor% 67154
+wteleport %actor% 67154 horse
 wait 1
-wsend %actor.name% На конец то Вы вылезли из могилы и встали на ровном месте.
-wechoaround %actor% %actor.name% вылез%actor.q% из могилы и встал на ровное место.
+wsend %actor% Наконец-то Вы вылезли из могилы и встали на ровном месте.
+wechoaround %actor% %actor.iname% вылез%actor.q% из могилы и встал%actor.g% на ровное место.
 ~
 #67110
 Включаем дт~

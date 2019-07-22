@@ -49,7 +49,7 @@ msend %actor% палка у них.
 ~
 #5803
 датьжелудьборов~
-1 j 100
+0 j 100
 ~
 if %object.vnum% == 5801
   wait 1
@@ -59,8 +59,8 @@ if %object.vnum% == 5801
   mecho Но успев только проглотить желуди, вепрь вдруг захрипел,
   mecho зашатался и упал. Потом вдруг раздался хлопок и пропал даже его труп.
   mecho Вот это желуди.
-  mpurge %object.name%
-  mpurge %self.name%
+  mpurge %object%
+  mpurge %self%
 end
 ~
 #5804
@@ -72,9 +72,9 @@ if %object.vnum% == 5803
   mecho Спасибо, добрый путник.
   mecho Ну а теперь моя награда.
   ухм
-  mpurge %object.name%
+  mpurge %object%
   mload mob 5805
-  mpurge %self.name%
+  mpurge %self%
 end
 ~
 #5805
@@ -139,9 +139,12 @@ if %object.vnum% == 5802
   mecho Нападает на всех подряд, как будто им леса мало.
   wait 1
   mpurge %object%
-  дать ключ %actor.name%
-  %purge% guard58
-  %purge% guard58
+  дать ключ .%actor.name%
+  foreach mob %self.npc%
+    if %mob.vnum% == 5802
+      mpurge %mob%
+    end
+  done
   wait 1
   mpurge %self%
 end
@@ -172,25 +175,23 @@ endif
 ~
 if %object.vnum% == 5805
   wait 1
-  mecho Следопыт посмотрел на конверт, - быстро его вскрыл.
+  mecho Следопыт посмотрел на конверт, быстро его вскрыл.
   mecho Так! Важное сообщение, его срочно надо доставить князю.
-  mecho Следопыт задумался, затем посмотрел в вашу сторону.
-  mecho Этот конверт мог быть только у вражеского лазутчика. Как ты
-  mecho докажешь что не он. Вы стали быстро рассказывать про бой с незнакомцем
-  mecho в лесу, как нашли у него конверт. Как только вы начали свой рассказ
+  mecho Следопыт задумался, затем посмотрел в Вашу сторону.
+  mecho Этот конверт мог быть только у вражеского лазутчика. Как ты докажешь,
+  mecho что ты - не он. Вы стали быстро рассказывать про бой с незнакомцем
+  mecho в лесу, как нашли у него конверт. Как только Вы начали свой рассказ
   mecho следопыт свистнул и из-за ближайшего куста вышел лучник. Что-то ему
-  mecho приказав, следопыт продолжил вас внимательно слушать. Под конец
+  mecho приказав, следопыт продолжил Вас внимательно слушать. Под конец
   mecho повествования посланный лучник вернулся и что-то сказал на ухо следопыту.
   wait 1
-  mecho Ну что же, вроде все сходится, - сказал следопыт - Ты можешь продолжить
+  mecho Ну что же, вроде все сходится, - сказал следопыт - ты можешь продолжить
   mecho свой путь, а я отнесу конверт.
-  mpurge %object.name%
+  mpurge %object%
   calcuid vmob 5802 mob
-  if %world.curmobs(5802)%=1
-    mpurge %vmob.name%
-  end
-  if %world.curmobs(5802)%=1
-    mpurge %vmob.name%
+  mpurge %vmob%
+  calcuid vmob 5802 mob
+  mpurge %vmob%
   end
   if %actor.class%==13
     mecho Вот нашел среди листьев, может тебе пригодится.
@@ -209,7 +210,8 @@ if %object.vnum% == 5805
     set pc %fchar.next_in_room%
     if %fchar.vnum% == -1
       mteleport %fchar% 27057
-      %fchar.loadroom(27018)%
+      *%fchar.loadroom(27018)% убрал ибо устарело нафиг это уже
+      *раньше служило для того чтобы из корсы было не вернуться в родовые пкашить
       if %fchar.realroom% == 27057
         msend %fchar% Вы вышли на утоптанную дорогу.
         if %fchar.sex% == 1
@@ -227,7 +229,7 @@ if %object.vnum% == 5805
       set fchar 0
     end
   done
-  mpurge %self.name%
+  mpurge %self%
 end
 ~
 #5812
@@ -250,35 +252,35 @@ end
 0 c 100
 готов~
 if %actor.realroom%==5838 && %actor.level%<10
-  msend %actor.name% Мал ты еще из родного дома уходить.
+  msend %actor% Мал ты еще из родного дома уходить.
   halt
 end
 if %actor.realroom%==5838 && %cmd%==готов
-  msend %actor.name% Ну попробуй, но чтобы ты мог всегда вернуться назад
-  msend %actor.name% подойди ко мне и скажи готов.
-  msend %actor.name% Ступай, и да поможет тебе земля русская.
+  msend %actor% Ну попробуй, но чтобы ты мог всегда вернуться назад
+  msend %actor% подойди ко мне и скажи готов.
+  msend %actor% Ступай, и да поможет тебе земля русская.
   крест
   mecho Старушка что-то негромко сказала и все кто был рядом с ней исчезли.
-  msend %actor.name% Вас подхватило воздухом и вы на миг потеряли сознание.
+  msend %actor% Вас подхватило воздухом и вы на миг потеряли сознание.
+  mat 5837 mecho Кто-то появился тут в клубах дыма.
   mteleport all 5837
-  mat 5837 mechoaround %actor% %actor.name% появился тут в клубах дыма.
   halt
 end
 if %actor.realroom%==5837 && %cmd%==готов
-  msend %actor.name% Ну что же, не все сразу.
+  msend %actor% Ну что же, не все сразу.
   вздохн
   mecho Старушка что-то негромко сказала и %actor.name% исчез.
-  msend %actor.name% Вас подхватило воздухом и вы на миг потеряли сознание.
-  mteleport %actor.name% 5838
-  mat 5838 mechoaround %actor% %actor.name% появился тут в клубах дыма.
+  msend %actor% Вас подхватило воздухом и Вы на миг потеряли сознание.
+  mteleport %actor% 5838 horse
+  mat 5838 mechoaround %actor% Кто-то появился тут в клубах дыма.
 end
 ~
 #5814
 выкзнак~
 1 h 100
 ~
-osend Возвращаю вас в безопасное место.
-oteleport %actor.name% 5838
+osend %self.carried_by% Возвращаю Вас в безопасное место.
+oteleport %self.carried_by% 5838 horse
 ~
 #5815
 раснак~

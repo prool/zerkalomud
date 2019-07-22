@@ -58,7 +58,7 @@ wait 1s
 0 j 100
 ~
 wait 1
-if ( %object.vnum% != 38420 ) && ( %object.vnum% != 38421 )
+if (%object.vnum% != 38420 ) && (%object.vnum% != 38421)
   вопр
   give %object.name% .%actor.name%
   halt
@@ -73,11 +73,9 @@ say ты врага нашего... Зря сомневался я в тебе. За спасение
 say острова славного, Буяна награжу я тебя, как обещал, ничего
 say не пожалею.
 eval rnd 5+%actor.remort%*3
-if ( %actor.class% == 1 ) && ( %random.100% <= %rnd% ) 
-  if !%actor.spelltype(переход)%
-    %spellturn% %actor.name% переход set
-    halt
-  end
+if ((%actor.class% == 1) && (%random.100% <= %rnd%) && !%actor.spelltype(переход)%)
+  %spellturn% %actor% переход set
+  halt
 end
 %actor.gold(+20000)%
 %send% %actor% Дядька Черномор дал вам огромную кучу кун.
@@ -120,10 +118,12 @@ summon~
 if !%exist.mob(38420)%
   %echo% Призрак мага медленно появился из пустоты.
   %load% mob 38420
-  wait 1s
   calcuid mage 38420 mob
-  calcuid weapon 33300 obj
-  if %weapon.room%!=33384
+  wait 1s
+  if (%exist.obj(33300)%)
+    calcuid weapon 33300 obj
+  end
+  if (%weapon.room% != 33384)
     %force% %mage% дум
     halt
   end

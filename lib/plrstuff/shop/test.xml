@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<shop_list>
+    <shop mob_vnum="1900" type="0">
+        <item vnum="909" price="100" />
+        <item vnum="910" price="100" />
+        <item vnum="911" price="100" />
+        <item vnum="912" price="100" />
+        <item vnum="913" price="100" />
+        <item vnum="914" price="100" />
+        <item vnum="915" price="100" />
+        <item vnum="916" price="100" />
+        <item vnum="917" price="100" />
+    </shop>
+    <shop mob_vnum="1901" type="0">
+        <item vnum="1913" price="500" />
+        <item vnum="1914" price="1000" />
+        <item vnum="1915" price="2000" />
+        <item vnum="1916" price="4000" />
+        <item vnum="1917" price="8000" />
+        <item vnum="1918" price="16000" />
+        <item vnum="1919" price="25" />
+    </shop>
+</shop_list>

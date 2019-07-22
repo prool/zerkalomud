@@ -208,7 +208,7 @@ mload obj 29307
 дат весточка %actor.name%
 wait 3s
 mecho Старичок улыбаясь вылез из дупла и куда-то ушел.
-mpurge self
+mpurge %self%
 calcuid starichok 29310 mob
 detach 29308 %starichok.id%  
 ~

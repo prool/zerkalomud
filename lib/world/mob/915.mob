@@ -19,6 +19,7 @@ c0d0f0m0n0o0p0t0u0x0A0b1q1s1g2m2 c0d0f0k0x0m1 -900 E
 8 8 1
 Saves: -62 -62 -62 -62
 Resistances: 0 0 0 0 180 100 150
+CastSuccess: 59
 BareHandAttack: 1
 Str: 36
 Dex: 36
@@ -151,6 +152,7 @@ c0d0f0m0n0o0p0t0u0x0A0b1q1g2m2 c0d0f0k0p0x0z0m1 -600 E
 8 8 1
 Saves: -38 -38 -38 -38
 Resistances: 0 0 0 0 180 100 150
+CastSuccess: 41
 BareHandAttack: 1
 Str: 35
 Dex: 35
@@ -244,6 +246,7 @@ c0d0f0m0n0o0p0t0x0A0b1q1g2 c0d0f0k0x0m1 -900 E
 8 8 1
 Saves: -38 -38 -38 -38
 Resistances: 0 0 0 0 170 100 150
+CastSuccess: 41
 BareHandAttack: 1
 Str: 34
 Dex: 34
@@ -453,6 +456,7 @@ d0f0g0h0l0m0n0o0p0b1 d0f0h0k0x0 -600 E
 0d0+0 800000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
 BareHandAttack: 1
 Str: 30
 Dex: 24
@@ -519,6 +523,7 @@ c0d0f0m0n0o0 d0f0k0 -600 E
 0d0+0 420000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 Str: 19
 Int: 21
 Wis: 22
@@ -727,7 +732,7 @@ c0d0f0l0o0p0q0r0t0x0A0b1a2h2k2 f0k0r0x0A0b1m1r1x1y1z1 370 E
 Saves: -90 -90 -90 -90
 Resistances: 0 0 0 0 20 20 20
 Armour: 20
-CastSuccess: 15
+CastSuccess: 71
 Initiative: 15
 Absorbe: 15
 BareHandAttack: 1
@@ -798,6 +803,7 @@ d0f0q0t1a2 d0f0k0A0 -400 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 8
 Str: 30
 Dex: 27
@@ -809,7 +815,7 @@ Size: 100
 LikeWork: 60
 ExtraAttack: 2
 Class: 100
-Race: 100
+Race: 105
 Height: 198
 Weight: 170
 Special_Bitvector: a0b0c0d0m0 

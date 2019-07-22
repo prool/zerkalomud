@@ -28,7 +28,7 @@ Size: 90
 LikeWork: 90
 ExtraAttack: 6
 Class: 100
-Race: 100
+Race: 105
 Height: 198
 Weight: 150
 Special_Bitvector: 0 
@@ -580,7 +580,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 2
 Class: 100
-Race: 100
+Race: 105
 Height: 200
 Weight: 200
 Special_Bitvector: l0 
@@ -708,7 +708,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 2
 Class: 100
-Race: 100
+Race: 105
 Height: 200
 Weight: 200
 Special_Bitvector: l0 
@@ -771,7 +771,7 @@ Size: 100
 LikeWork: 10
 ExtraAttack: 2
 Class: 100
-Race: 100
+Race: 105
 Height: 200
 Weight: 200
 Special_Bitvector: l0 
@@ -1506,7 +1506,7 @@ Size: 100
 LikeWork: 25
 ExtraAttack: 5
 Class: 102
-Race: 112
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: l0w0 
@@ -1574,7 +1574,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 2
 Class: 102
-Race: 101
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: l0w0 
@@ -1720,7 +1720,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 112
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: l0w0C3 
@@ -1846,7 +1846,7 @@ Size: 100
 LikeWork: 30
 ExtraAttack: 1
 Class: 100
-Race: 100
+Race: 103
 Height: 30
 Weight: 150
 Special_Bitvector: l0C3 
@@ -1982,7 +1982,7 @@ Size: 100
 LikeWork: 30
 ExtraAttack: 1
 Class: 100
-Race: 100
+Race: 103
 Height: 30
 Weight: 150
 Special_Bitvector: l0C3 
@@ -2474,7 +2474,7 @@ Cha: 3
 Size: 10
 LikeWork: 100
 Class: 100
-Race: 100
+Race: 108
 Height: 198
 Weight: 50
 Special_Bitvector: j0 
@@ -2592,13 +2592,13 @@ Skill: 136 72
 Skill: 150 100
 E
 #12642
-скелет война~
-скелет война~
-скелета война~
-скелету война~
-скелета война~
-скелетом война~
-скелете война~
+скелет воина~
+скелет воина~
+скелета воина~
+скелету воина~
+скелет воина~
+скелетом воина~
+скелете воина~
 Мощный злобный скелет стоит здесь.
 ~
 Крепкий высокий скелет сильного воина.
@@ -2801,7 +2801,7 @@ LikeWork: 100
 MaxFactor: 5
 ExtraAttack: 4
 Class: 104
-Race: 104
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: x0C3 
@@ -2849,7 +2849,7 @@ Size: 100
 LikeWork: 100
 MaxFactor: 5
 Class: 104
-Race: 104
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: x0C3 

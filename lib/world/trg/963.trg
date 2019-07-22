@@ -146,7 +146,11 @@ end
 0 w 100
 ~
 wait 1
-dg_cast '%castname%' .%actor.name%
+if (%actor.vnum% == -1)
+  dg_cast '%castname%' .%actor.name%
+else
+  dg_cast '%castname%' %actor.name%
+end
 ~
 #96310
 Лякливица сумонит духов~
@@ -270,7 +274,7 @@ end
 if ((%moonanimal.realroom% == %actor.realroom%) && (%moonanimal.leader% == %actor%))
   oecho Послышалась переливчатая прозрачная мелодия.
   wait 1s
-  oechoaround %actor% Лунный зверь танцует в воздухе, зачарованно глядя на %actor.vname%
+  oechoaround %actor% Лунный зверь танцует в воздухе, зачарованно глядя на %actor.vname%.
   oecho Лунный зверь танцует в воздухе, зачарованно глядя на вас.
   halt
 end
@@ -280,7 +284,7 @@ if ((%moonanimal.realroom% == %actor.realroom%) && (%moonanimal.leader% != %acto
   oecho Лунный зверь беспокойно взвыл.
   oforce %moonanimal% follow я
   wait 3
-  oechoaround %actor% Лунный зверь подлетел ближе к %actor.dname%
+  oechoaround %actor% Лунный зверь подлетел ближе к %actor.dname%.
   oecho Лунный зверь подлетел поближе к вам.
   halt
 end
@@ -321,18 +325,18 @@ wait 1
 if %actor.class% == 3
   if !%actor.skill(боевой клич)%
     %send% %actor% Внимательно изучив записки, Вы постигли умение "боевой клич".
-    %skillturn% %actor.name% боев.клич set
+    %skillturn% %actor% боев.клич set
     %purge% %self.id%
   elseif %actor.skill(боевой клич)% < %skl%
     %send% %actor% Внимательно изучив записки, Вы стали намного опытнее в умении "боевой клич".
-    %skilladd% %actor.name% боев.клич 5
+    %skilladd% %actor% боев.клич 5
     %purge% %self.id%
   else
     %send% %actor% Увы, ничего нового в этих записках Вы не обнаружили.
     %purge% %self.id%
   end
 else
-  %send% %actor% Какие-то совершенно не интересные вам записки.
+  %send% %actor% Какие-то совершенно не интересные Вам записки.
 end
 ~
 #96319

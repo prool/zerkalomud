@@ -348,8 +348,8 @@ elseif %rnd% < 18
 else
   wload obj 72210
 end
-if ((%world.curobjs(3326)% < 1) && (%random.1000% < 40))
-  wload obj 3326
+if (%random.1000% < 40)
+  wload obj 103
 end
 detach 72216 %self.id%
 ~
@@ -454,6 +454,14 @@ detach 72219 %room2.id%
 wdoor 72265 d purge
 calcuid room3 72257 room
 detach 72253 %room3.id%
+if %exist.mob(72256)%
+  calcuid prizrak 72256 mob
+  %purge% %prizrak%
+end
+if %exist.mob(72257)%
+  calcuid zmeya 72257 mob
+  %purge% %zmeya%
+end
 *if %exist.mob(72200)%
 *wforce questmob7222 drop all
 calcuid hozayka1 72299 mob

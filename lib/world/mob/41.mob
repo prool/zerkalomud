@@ -12,7 +12,7 @@
 
 ~
 d0g0 0 0 E
-2 18 8 1d1+30 1d2+1
+1 18 8 1d1+30 1d2+1
 0d0+0 50
 8 8 1
 BareHandAttack: 4
@@ -44,7 +44,7 @@ E
 
 ~
 d0g0 0 0 E
-2 19 8 0d0+25 1d2+2
+1 19 8 0d0+25 1d2+2
 0d0+0 50
 8 8 1
 BareHandAttack: 8
@@ -76,7 +76,7 @@ E
 
 ~
 d0g0 s0 0 E
-2 18 8 5d1+30 1d3+2
+1 18 8 5d1+30 1d3+2
 0d0+0 75
 8 8 2
 BareHandAttack: 8
@@ -108,7 +108,7 @@ E
 
 ~
 d0g0 0 0 E
-2 19 9 0d0+20 1d1+2
+1 19 9 0d0+20 1d1+2
 0d0+0 50
 8 8 1
 BareHandAttack: 4
@@ -140,7 +140,7 @@ E
 
 ~
 d0g0 a0 0 E
-2 19 9 5d3+30 1d3+1
+1 19 9 5d3+30 1d3+1
 0d0+0 70
 8 8 1
 Str: 8
@@ -171,7 +171,7 @@ E
 
 ~
 d0g0 0 0 E
-3 17 8 5d3+35 2d2+1
+1 17 8 5d3+35 2d2+1
 0d0+0 90
 8 8 1
 BareHandAttack: 13
@@ -204,7 +204,7 @@ E
 
 ~
 d0g0f2 x0 0 E
-3 17 8 5d3+30 1d4+1
+1 17 8 5d3+30 1d4+1
 0d0+0 90
 8 8 1
 BareHandAttack: 8
@@ -237,7 +237,7 @@ E
 
 ~
 d0g0q0 s0 0 E
-3 17 7 5d3+25 1d2+2
+1 17 7 5d3+25 1d2+2
 0d0+0 90
 8 8 1
 BareHandAttack: 2
@@ -270,7 +270,7 @@ E
 
 ~
 d0g0 x0 0 E
-3 17 8 5d3+35 1d3+2
+1 17 8 5d3+35 1d3+2
 0d0+0 90
 8 8 2
 BareHandAttack: 8
@@ -303,7 +303,7 @@ E
 
 ~
 d0g0 0 0 E
-3 17 8 1d3+45 1d2+1
+1 17 8 1d3+45 1d2+1
 0d0+0 100
 8 8 2
 BareHandAttack: 8
@@ -336,7 +336,7 @@ E
 
 ~
 d0g0 a0 0 E
-2 19 9 1d3+30 1d2+1
+1 19 9 1d3+30 1d2+1
 0d0+0 50
 8 8 2
 BareHandAttack: 4
@@ -368,7 +368,7 @@ E
 
 ~
 d0g0 x0 0 E
-4 16 7 5d3+60 1d2+1
+2 16 7 5d3+60 1d2+1
 0d0+0 200
 8 8 2
 BareHandAttack: 2
@@ -400,7 +400,7 @@ E
 
 ~
 d0g0 k0s0 0 E
-4 15 7 5d3+40 3d2+2
+2 15 7 5d3+40 3d2+2
 0d0+0 200
 8 8 2
 BareHandAttack: 4
@@ -433,7 +433,7 @@ I зубы:4
 
 ~
 d0g0 0 0 E
-4 16 7 5d3+60 2d2+1
+2 16 7 5d3+60 2d2+1
 0d0+0 200
 8 8 1
 BareHandAttack: 1
@@ -465,7 +465,7 @@ E
 
 ~
 d0g0 s0 0 E
-4 16 7 5d3+30 2d2+1
+2 16 7 5d3+30 2d2+1
 0d0+0 200
 8 8 2
 BareHandAttack: 4
@@ -497,7 +497,7 @@ E
 
 ~
 d0g0 x0 0 E
-4 16 7 5d3+60 1d2+1
+2 16 7 5d3+60 1d2+1
 0d0+0 200
 8 8 1
 BareHandAttack: 2
@@ -529,7 +529,7 @@ E
 
 ~
 d0g0 x0 0 E
-5 15 7 5d3+80 2d2+1
+3 15 7 5d3+80 2d2+1
 0d0+0 450
 8 8 1
 BareHandAttack: 8
@@ -562,7 +562,7 @@ E
 
 ~
 d0g0i1 k0x0 0 E
-5 15 7 5d3+80 1d4+1
+3 15 7 5d3+80 1d4+1
 0d0+0 450
 8 8 2
 BareHandAttack: 8
@@ -575,7 +575,7 @@ Cha: 8
 Size: 18
 ExtraAttack: 1
 Class: 103
-Race: 104
+Race: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -594,7 +594,7 @@ E
 Крупная полухищная птица.
 ~
 d0g0 x0 0 E
-5 15 7 5d3+90 2d2+2
+3 15 7 5d3+90 2d2+2
 0d0+0 550
 8 8 1
 BareHandAttack: 2
@@ -626,7 +626,7 @@ E
 
 ~
 d0g0 x0 0 E
-5 15 7 5d3+70 1d4+1
+3 15 7 5d3+70 1d4+1
 0d0+0 450
 8 8 1
 BareHandAttack: 8
@@ -639,7 +639,7 @@ Cha: 8
 Size: 4
 ExtraAttack: 1
 Class: 103
-Race: 104
+Race: 103
 Height: 30
 Weight: 5
 Special_Bitvector: 0 
@@ -659,7 +659,7 @@ E
 
 ~
 d0g0 0 0 E
-5 16 7 5d3+80 1d2+1
+4 16 7 5d3+80 1d2+1
 0d0+0 900
 8 8 2
 BareHandAttack: 13
@@ -692,7 +692,7 @@ E
 
 ~
 d0g0f2 0 0 E
-6 15 5 5d3+110 1d2+2
+4 15 5 5d3+110 1d2+2
 0d0+0 725
 8 8 1
 BareHandAttack: 4
@@ -725,7 +725,7 @@ E
 
 ~
 d0g0 x0 0 E
-6 14 5 5d4+110 1d2+1
+4 14 5 5d4+110 1d2+1
 0d0+0 750
 8 8 1
 BareHandAttack: 8
@@ -759,7 +759,7 @@ E
 
 ~
 d0g0 x0 0 E
-6 14 5 5d4+100 3d2+1
+4 14 5 5d4+100 3d2+1
 0d0+0 1000
 8 8 1
 BareHandAttack: 8
@@ -792,7 +792,7 @@ E
 
 ~
 d0g0 x0 0 E
-6 15 5 5d3+115 2d2+2
+5 15 5 5d3+115 2d2+2
 0d0+0 1500
 8 8 1
 BareHandAttack: 8
@@ -805,7 +805,7 @@ Cha: 10
 Size: 5
 ExtraAttack: 1
 Class: 103
-Race: 104
+Race: 103
 Height: 40
 Weight: 5
 Special_Bitvector: 0 
@@ -825,7 +825,7 @@ E
 
 ~
 d0g0 0 0 E
-7 13 4 5d3+125 1d2+2
+5 13 4 5d3+125 1d2+2
 0d0+0 1500
 8 8 2
 BareHandAttack: 4
@@ -891,7 +891,7 @@ E
 
 ~
 d0g0m0 0 0 E
-5 15 7 5d3+60 2d2+1
+4 15 7 5d3+60 2d2+1
 0d0+0 1000
 8 8 1
 BareHandAttack: 4
@@ -924,7 +924,7 @@ E
 
 ~
 d0g0 x0 0 E
-7 13 7 5d3+120 2d2+3
+6 13 7 5d3+120 2d2+3
 0d0+0 2000
 8 8 1
 BareHandAttack: 4

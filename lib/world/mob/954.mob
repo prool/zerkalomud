@@ -17,6 +17,7 @@ d0f0g0l0m0n0o0 d0k0r0s0t0A0o1x1 -600 E
 0d0+0 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 Str: 34
 Dex: 35
 Int: 21
@@ -106,6 +107,7 @@ d0f0g0n0o0q0 d0k0r0s0t0z0A0 -600 E
 0d0+0 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 4
 Str: 30
 Dex: 26
@@ -117,7 +119,7 @@ Size: 60
 LikeWork: 100
 ExtraAttack: 2
 Class: 103
-Race: 112
+Race: 105
 Height: 85
 Weight: 90
 Special_Bitvector: g0m0C3 
@@ -206,6 +208,7 @@ b0c0d0f0g0n0o0A0 d0k0 -600 E
 20d40+0 850000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
 Str: 36
 Dex: 3
 Int: 3
@@ -250,6 +253,7 @@ c0d0f0g0h0n0q0A0 h0k0p0t0z0q1r1 -600 E
 20d25+2450 850000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
 BareHandAttack: 4
 Str: 35
 Dex: 29
@@ -260,7 +264,7 @@ Cha: 21
 Size: 50
 LikeWork: 40
 Class: 103
-Race: 112
+Race: 105
 Height: 85
 Weight: 90
 Special_Bitvector: C3 
@@ -474,6 +478,7 @@ b0d0f0g0q0q1 d0k0t0z0q1r1z1 -600 E
 15d30+0 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 BareHandAttack: 1
 Str: 33
 Dex: 20
@@ -485,7 +490,7 @@ Size: 50
 LikeWork: 55
 ExtraAttack: 3
 Class: 103
-Race: 112
+Race: 105
 Height: 85
 Weight: 90
 Special_Bitvector: g0l0 
@@ -546,6 +551,7 @@ d0e0f0g0n0o0p0q0t0 d0f0k0r0z0A0C0a1m1o1r1t1 -600 E
 0d0+0 1400000
 8 8 1
 Saves: -34 -34 -34 -34
+CastSuccess: 38
 BareHandAttack: 6
 Str: 36
 Dex: 27
@@ -557,7 +563,7 @@ Size: 100
 LikeWork: 95
 ExtraAttack: 1
 Class: 100
-Race: 109
+Race: 114
 Height: 200
 Weight: 150
 Special_Bitvector: C3 
@@ -680,6 +686,7 @@ b0d0f0n0o0t0 d0f0k0r0A0m1 -600 E
 0d0+0 1200000
 8 8 1
 Saves: -34 -34 -34 -34
+CastSuccess: 38
 BareHandAttack: 1
 Str: 36
 Dex: 30
@@ -750,6 +757,7 @@ d0f0g0 k0 -600 E
 0d0+0 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 4
 Str: 34
 Dex: 20
@@ -784,6 +792,7 @@ b0d0f0g0t0A0 d0k0A0p1y1 -600 E
 0d0+0 680000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 BareHandAttack: 4
 Str: 36
 Dex: 5
@@ -909,6 +918,7 @@ c0d0e0f0g0m0n0o0z0A0 d0f0k0m0z0A0w1 -600 E
 30d10+300 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 3
 Str: 34
 Dex: 23
@@ -1095,6 +1105,7 @@ b0c0d0f0g0n0o0t0A0 d0k0x0A0o1x1 -600 E
 0d0+0 360000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 1
 Str: 33
 Dex: 22
@@ -1147,6 +1158,7 @@ d0f0g0q0i2 d0k0p0r0t0x0A0x1 -600 E
 15d25+120 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 Str: 20
 Dex: 36
 Int: 14
@@ -1200,6 +1212,7 @@ b0d0f0g0q0r0u0b2 k0t0z0z1 -600 E
 15d30+0 550000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 BareHandAttack: 1
 Str: 33
 Dex: 35
@@ -1211,7 +1224,7 @@ Size: 50
 LikeWork: 55
 ExtraAttack: 3
 Class: 103
-Race: 112
+Race: 105
 Height: 85
 Weight: 90
 Special_Bitvector: 0 
@@ -1263,6 +1276,7 @@ b0d0f0g0m0n0o0q1 d0k0x0z0A0 -600 E
 0d0+0 1000000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 35
 BareHandAttack: 1
 Str: 30
 Dex: 35
@@ -1308,6 +1322,7 @@ c0d0f0g0h0A0 d0k0p0t0z0r1x1z1 -600 E
 12d15+90 570000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 AResist: 25
 Str: 34
 Dex: 30
@@ -1363,6 +1378,7 @@ d0f0g0l0m0n0o0t0f2 d0k0s0t0A0m1 -600 E
 0d0+0 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 BareHandAttack: 4
 Str: 34
 Dex: 26
@@ -1411,6 +1427,7 @@ b0d0f0g0n0o0t0A0p1 d0f0k0m0n0r0A0C0r1y1 -600 E
 0d0+0 7000000
 8 8 1
 Saves: -66 -66 -66 -66
+CastSuccess: 62
 BareHandAttack: 1
 Str: 36
 Dex: 30
@@ -1482,6 +1499,7 @@ c0d0f0g0n0o0u0A0 k0s0A0j1x1 -600 E
 15d25+0 750000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 BareHandAttack: 1
 Str: 34
 Dex: 35
@@ -1612,6 +1630,7 @@ b0c0d0f0g0n0o0A0 d0k0 -600 E
 20d40+0 795000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
 Str: 36
 Dex: 3
 Int: 3
@@ -1725,6 +1744,7 @@ d0f0g0 k0 -600 E
 0d0+0 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 BareHandAttack: 14
 Str: 35
 Dex: 35
@@ -1761,6 +1781,7 @@ b0c0d0f0g0n0o0A0 d0k0 -600 E
 20d40+0 795000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
 Str: 36
 Dex: 3
 Int: 3
@@ -1804,6 +1825,7 @@ b0c0d0f0g0n0o0A0 d0k0p1 -600 E
 20d40+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 Str: 36
 Dex: 3
 Int: 3
@@ -1959,6 +1981,7 @@ b0c0d0g0n0o0q0r0u0A0i2 d0f0h0k0r0A0C0m1q1r1t1 -600 E
 20d40+0 1200000
 8 8 1
 Saves: -34 -34 -34 -34
+CastSuccess: 38
 Str: 36
 Dex: 35
 Int: 34
@@ -2025,6 +2048,7 @@ d0e0f0g0m0n0o0z0 d0f0k0m0z0A0w1 -600 E
 30d10+300 1000000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 35
 BareHandAttack: 3
 Str: 22
 Dex: 23
@@ -2183,6 +2207,7 @@ b0d0f0g0m0n0o0t0 d0f0k0x0z0A0 -600 E
 0d0+0 750000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 BareHandAttack: 1
 Str: 18
 Dex: 35

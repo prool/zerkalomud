@@ -4075,7 +4075,13 @@ void mspell_change(char *name, int spell, int kin, int chclass, int class_change
 		spell_info[spell].class_change[chclass][kin] = class_change;
 		log("MODIFIER set '%s' kin '%d' classes %d value %d", name, kin, chclass, class_change);
 
+#ifdef DEBUG
+printf("prooldebug label m00\n");
+#endif
 	}
+#ifdef DEBUG
+printf("prooldebug label m01\n");
+#endif
 }
 
 

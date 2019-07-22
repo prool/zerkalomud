@@ -1378,47 +1378,49 @@ mpurge %self%
 Староста учит~
 0 q 100
 ~
-if %actor.id% == %geroy323.id%
-  wait 2
-  г Приказал мне князь научить тебя, %actor.name%, тому, что знаю. Ну что ж...
-  eval xskill323 82 + %actor.remort% * 5
-  if xskill323 > 142
-    set xskill323 142
-  end
-  if !%actor.skill(изгнать нежить)%
-    msend %actor% Вы изучили умение 'изгнать нежить'.
-    mskillturn %actor.name% изгнать.нежить set
-  elseif %actor.skill(изгнать нежить)% < xskill323
-    msend %actor% _Теперь вы лучше умеете изгонять нежить.
-    mskilladd %actor.name% изгнать.нежить 8
-  else
-    г Э, да ты сам%actor.a% любого научишь!
-  end
-  detach 32335 %self.id%
+if (%actor.id% != %geroy323.id%)
+  halt
 end
+wait 2
+г Приказал мне князь научить тебя, %actor.iname%, тому, что знаю. Ну что ж...
+eval xskill323 82 + %actor.remort% * 5
+if xskill323 > 142
+  set xskill323 142
+end
+if !%actor.skill(изгнать нежить)%
+  msend %actor% Вы изучили умение 'изгнать нежить'.
+  mskillturn %actor% изгнать.нежить set
+elseif %actor.skill(изгнать нежить)% < xskill323
+  msend %actor% _Теперь вы лучше умеете изгонять нежить.
+  mskilladd %actor% изгнать.нежить 8
+else
+  г Э, да ты сам%actor.g% любого научишь!
+end
+detach 32335 %self.id%
 ~
 #32336
 Кузнец учит~
 0 q 100
 ~
-if %actor.id% == %geroy323.id%
-  wait 2
-  г Приказал мне князь научить тебя, %actor.name%, тому, что знаю. Ну что ж...
-  eval xskill323 82 + %actor.remort% * 5
-  if xskill323 > 142
-    set xskill323 142
-  end
-  if !%actor.skill(ремонт)%
-    msend %actor% Вы изучили умение 'ремонт'.
-    mskillturn %actor.name% ремонт set
-  elseif %actor.skill(ремонт)% < xskill323
-    msend %actor% _Теперь вы лучше умеете чинить вещи.
-    mskilladd %actor.name% ремонт 8
-  else
-    г Э, да ты сам%actor.a% любого научишь!
-  end
-  detach 32336 %self.id%
+if (%actor.id% != %geroy323.id%)
+  halt
 end
+wait 2
+г Приказал мне князь научить тебя, %actor.name%, тому, что знаю. Ну что ж...
+eval xskill323 82 + %actor.remort% * 5
+if xskill323 > 142
+  set xskill323 142
+end
+if !%actor.skill(ремонт)%
+  msend %actor% Вы изучили умение 'ремонт'.
+  mskillturn %actor% ремонт set
+elseif %actor.skill(ремонт)% < xskill323
+  msend %actor% _Теперь вы лучше умеете чинить вещи.
+  mskilladd %actor% ремонт 8
+else
+  г Э, да ты сам%actor.g% любого научишь!
+end
+detach 32336 %self.id%
 ~
 #32337
 Лоад стафа с уменьшающимся шансом~
@@ -1426,7 +1428,8 @@ end
 ~
 *из мобов падает стаф со внумом равным внуму моба
 *шанс падает с 20% до 2,5%
-if %random.10% > 1
+*я может трамвай но каким извеняюсь хуем тут должно быть 20% random.10 > 1 это автоматом 90% фейла, опустил шанс фейла в 2 раза вощем
+if %random.10% > 2
   halt
 end
 eval shmotka323 %self.vnum%

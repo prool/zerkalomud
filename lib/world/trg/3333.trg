@@ -1,7 +1,6 @@
-* BRusMUD trigger file v1.0
 #333300
 ресет зоны~
-2 f0 100
+2 f 100
 ~
 attach 333306 %world.mob(333341)%
 attach 333307 %world.mob(333341)%
@@ -9,23 +8,17 @@ detach 333308 %world.mob(333341)%
 detach 333309 %world.mob(333341)%
 detach 333310 %world.mob(333341)%
 detach 333399 %world.mob(333341)%
-
-
-
 ~
 #333301
 китайцы разбегаются~
-0 p0 100
+0 p 100
 ~
 %echo% Толпа китайцев в страхе разбежалась...
 бежать
-
-
-
 ~
 #333302
 загрузим переводчика~
-1 j0 0
+1 j 0
 *~
 wait 2s
 if (%world.curmobs(333354)%==0)
@@ -34,13 +27,10 @@ if (%world.curmobs(333354)%==0)
 else
   %echo% ...и ничего не произошло.
 end
-
-
-
 ~
 #333303
 выгрузим переводчика~
-1 l0 0
+1 l 0
 *~
 wait 1s
 if (%world.curmobs(333354)%==1)
@@ -50,13 +40,10 @@ if (%world.curmobs(333354)%==1)
 else
   %echo% ...и ничего не произошло.
 end
-
-
-
 ~
 #333304
 покемон следует~
-0 n0 100
+0 n 100
 ~
 wait 1
 eval pcs %self.pc%
@@ -70,13 +57,10 @@ done
 сканд
 %echo% Зверек не смог обнаружить своего хозяина и исчез...
 %purge% %world.mob(333354)%
-
-
-
 ~
 #333305
 подстрочный перевод~
-0 d0 0
+0 d 0
 *~
 switch %speech%
   case Шен ми ю йао ву льнаи? Са йи жи ву лун хиши!
@@ -197,24 +181,18 @@ switch %speech%
     пож
   break
 done
-
-
-
 ~
 #333306
 приветствие~
-0 r0 100
+0 r 100
 ~
 wait 1s
 г шеи?
 г Шен йиуйао?
-
-
-
 ~
 #333307
 дали свиток~
-0 j0 100
+0 j 100
 ~
 wait 1s
 if (%object.vnum%==15707)
@@ -245,13 +223,10 @@ else
   %echoaround% %actor% Дафу в гневе швырнул %object.iname% %actor.dname% в лицо.
   %damage% %actor% %random.50%
 end
-
-
-
 ~
 #333308
 квестначало~
-0 d0 1
+0 d 1
 эликсир бессмертие молодость здоровье здоровья красоты молодости~
 г фенльян! Мьян, кьин!
 дум
@@ -269,13 +244,10 @@ Wait 1s
 %echo% Дафу провел рукой в районе шеи и вопросительно посмотрел на Вас.
 attach 333309 %self.id%
 detach 333308 %self.id%
-
-
-
 ~
 #333309
 квест1~
-0 d0 1
+0 d 1
 да согласен помогу~
 wait 1s
 context 3333
@@ -298,13 +270,10 @@ wait 1s
 exec 333311 333390
 attach 333310 %self.id%
 detach 333309 %self.id%
-
-
-
 ~
 #333310
 квест2идалее~
-0 j0 100
+0 j 100
 ~
 wait 1s
 context 3333
@@ -353,13 +322,10 @@ else
   attach 333399 %self.id%
   detach 333310 %self.id%
 end
-
-
-
 ~
 #333311
 лоадмастеровкунфу~
-2 z0 100
+2 z 100
 ~
 eval i 1
 while (%i%<=12)
@@ -368,13 +334,10 @@ while (%i%<=12)
   %teleport% мастер %targetroom%
   eval i %i%+1
 done
-
-
-
 ~
 #333312
 лоадмастеровушу~
-2 z0 100
+2 z 100
 ~
 eval i 1
 while (%i%<=12)
@@ -383,13 +346,10 @@ while (%i%<=12)
   %teleport% мастер %targetroom%
   eval i %i%+1
 done
-
-
-
 ~
 #333313
 лоадмастеровШуайцзяо~
-2 z0 100
+2 z 100
 ~
 eval i 1
 while (%i%<=12)
@@ -398,13 +358,10 @@ while (%i%<=12)
   %teleport% мастер %targetroom%
   eval i %i%+1
 done
-
-
-
 ~
 #333314
 лоадмастеровШаолинь~
-2 z0 100
+2 z 100
 ~
 eval i 1
 while (%i%<=12)
@@ -413,13 +370,10 @@ while (%i%<=12)
   %teleport% мастер %targetroom%
   eval i %i%+1
 done
-
-
-
 ~
 #333315
 лоадмастеровТайцзи~
-2 z0 100
+2 z 100
 ~
 eval i 1
 while (%i%<=12)
@@ -428,13 +382,10 @@ while (%i%<=12)
   %teleport% мастер %targetroom%
   eval i %i%+1
 done
-
-
-
 ~
 #333316
 лоадмастеровБагуачжан~
-2 z0 100
+2 z 100
 ~
 eval i 1
 while (%i%<=12)
@@ -443,13 +394,10 @@ while (%i%<=12)
   %teleport% мастер %targetroom%
   eval i %i%+1
 done
-
-
-
 ~
 #333317
 лоадмастеровСинъицюань~
-2 z0 100
+2 z 100
 ~
 eval i 1
 while (%i%<=12)
@@ -458,13 +406,10 @@ while (%i%<=12)
   %teleport% мастер %targetroom%
   eval i %i%+1
 done
-
-
-
 ~
 #333318
 лоадмастеровИцюань~
-2 z0 100
+2 z 100
 ~
 eval i 1
 while (%i%<=12)
@@ -473,13 +418,10 @@ while (%i%<=12)
   %teleport% мастер %targetroom%
   eval i %i%+1
 done
-
-
-
 ~
 #333319
 лоадмастеровБацзицюань~
-2 z0 100
+2 z 100
 ~
 eval i 1
 while (%i%<=12)
@@ -488,53 +430,38 @@ while (%i%<=12)
   %teleport% мастер %targetroom%
   eval i %i%+1
 done
-
-
-
 ~
 #333350
 оживляем китайцев~
-2 z0 100
+2 z 100
 ~
 %load% mob 333352
 eval targetroom 333300+%random.89%
 %teleport% китаец %targetroom%
-
-
-
 ~
 #333351
 оживляем китаянок~
-2 z0 100
+2 z 100
 ~
 %load% mob 333353
 eval targetroom 333300+%random.89%
 %teleport% китаянк %targetroom%
-
-
-
 ~
 #333352
 умер китаец~
-0 f0 100
+0 f 100
 ~
 exec 333350 333390
-
-
-
 ~
 #333353
 умерла китаянка~
-0 f0 100
+0 f 100
 ~
 exec 333351 333390
-
-
-
 ~
 #333354
 лоад шмота 00-18~
-0 f0 100
+0 f 100
 ~
 eval loadvnum 333299+%random.19%
 if (%random.10%==1)
@@ -542,13 +469,10 @@ if (%random.10%==1)
     %load% obj %loadvnum%
   end
 end
-
-
-
 ~
 #333355
 лоад шмота 93-99~
-0 f0 100
+0 f 100
 ~
 eval loadvnum 333392+%random.7%
 if (%random.10%==1)
@@ -556,24 +480,18 @@ if (%random.10%==1)
     %load% obj %loadvnum%
   end
 end
-
-
-
 ~
 #333370
 test~
-0 p0 100
+0 p 100
 ~
 %echo% %damager.name%
 %echo% %skill%
 return 5
-
-
-
 ~
 #333371
 Отправка посольства~
-0 d0 1
+0 d 1
 да нас конечно разумеется угу~
 wait 1s
 хмур
@@ -585,69 +503,54 @@ wait 2s
 say Ладно, коли явились, так слушайте.
 mecho _- Потребно нам посольство отправить в земли чужедальние, на восход далече.
 mecho _- Зачем - то дело тайное, вам знать не положено
-mecho _- Съездите-вернетесь, мигом обернетсеь
+mecho _- Съездите-вернетесь, мигом обернетесь
 ухм
-say Все увидите, запомните, доложиите.
+say Все увидите, запомните, доложите.
 wait 2s
 say Уяснили?
 say Ну хоть что-то...
 wait 1s
 хмур
 say Что стоите?! Марш!!!
-foreach firstchar %actor.group%
-  if (%firstchar.vnum% == -1) && (%firstchar.rentable%) && (%firstchar.realroom% == 333391))
-    mteleport %firstchar% 333300 horse
-    wait 1
-    if %firstchar.realroom% == 333300
-      msend %firstchar% Примерно поняв направление, Вы начали нелегкий путь...
-      wait 15
-      msend %firstchar% ...и через пару лет Вы добрались туда куда Вас послали...
-    end
-  end
-done
+msend %actor% Примерно поняв направление, Вы начали нелегкий путь...
+wait 1
+mteleport all 333300
+wait 15
+msend %actor% ...и через пару лет Вы добрались туда куда Вас послали...
 detach 333372 %self.id%
 detach 333371 %self.id%
-
-
-
 ~
 #333372
 Вход к боярину~
-0 q0 100
+0 q 100
 ~
 wait 1
 ворч
 say Кто такие? С чем пожаловали?
 say Неужто вас на посольство прислали?
 морщ
-
-
-
 ~
 #333399
 наконецто~
-0 q0 100
+0 q 100
 ~
 wait 1s
 if (%world.curmobs(333339)%==1)
-  г е ши хуо же! Да жанг!
+  г Е ши хуо же! Да жанг!
 else 
-  г вей, во гонк-фу руоже...
-  г кси ду цинйан, суи шуо йи хен.
+  г Вей, во гонк-фу руоже...
+  г Кси ду цинйан, суи шуо йи хен.
   %load% obj 333389
   дать эликсир .%actor.name%
   wait 1s
-  г ванг хоу Юн жу, цай цьен!
-  %teleport% all 15750 horse
+  г Ванг хоу Юн жу, цай цьен!
+  mat 15750 mecho Кто-то явился сюда, явно с дальней дороги.
+  %teleport% all 15750
   if (%world.curmobs(333354)%==1)
-   %teleport% %world.mob(333354)% %self.room%
-   %purge% %world.mob(333354)%
+    %teleport% %world.mob(333354)% %self.room%
+    %purge% %world.mob(333354)%
   end
   detach 333399 %self.id%
 end
-
-
-
 ~
-$
-$
+$~

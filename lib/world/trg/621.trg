@@ -3,7 +3,7 @@
 0 r 100
 ~
 if (%quest621.name% == %nil%)
-  wait 1s 
+  wait 1s
   привет %actor.name%
   г Здравствуй, %actor.name%.
   г Приветствую тебя от имени всей нашей деревни!
@@ -11,19 +11,20 @@ if (%quest621.name% == %nil%)
   грусть
   wait 1s
   г Хотя, теперь нам не до радости.
-  г Беда у нас одна приключилась и не знаем, что и делать то.   
+  г Беда у нас одна приключилась и не знаем, что и делать то.
 elseif (%quest621.name%== %actor.name%)
   wait 1s
   г Ну как продвигаются поиски?
   вопрос %actor.name%
 end
+
 ~
 #62101
 Старый ярл дает квест~
 0 d 0
 продолжай~
 if (%quest621.name% == %nil%)
-  wait 1s 
+  wait 1s
   set quest621 %actor%
   global quest621
   г Ах.
@@ -35,7 +36,7 @@ if (%quest621.name% == %nil%)
   г И тех, кто осмеливается приблизиться к его пещере, он убивает.
   г Вот никто и не хочет туда идти, боятся.
   г Все, кто туда и хотел пойти, в последний момент струсили и отказались.
-  wait 1s                                                          
+  wait 1s
   г Может, ты сходишь, проверишь, как он там?
   г И не бойся ты этих россказней, нет там никакого зверя!
   г Иди же, и да хранят тебя Боги.
@@ -44,6 +45,7 @@ elseif (%quest621.name% == %actor.name%)
   г Чего ты все тут языком лопочешь?
   г Наш%actor.y% мальчугана нашего?
 end
+
 ~
 #62102
 Старый ярл принимает квест~
@@ -55,7 +57,7 @@ if %object.vnum% == 62104 && %quest621.name% == %actor.name%
   msend %actor.name% Вы рассказали о звере в пещере старому ярлу.
   mechoaround %actor.name% %actor.name% рассказал%actor.g% о звере в пещере старому ярлу.
   плак %actor.name%
-  wait 2s 
+  wait 2s
   г Как это грустно.
   г Никто, до самого последнего момента и не думал, что все так может обернуться.
   г Оказывается, все же это было правдой.
@@ -64,7 +66,7 @@ if %object.vnum% == 62104 && %quest621.name% == %actor.name%
   wait 1s
   eval level 24-%actor.remort%/2
   г Ну что же. Ты оказал нам большую услугу, убив его, и теперь уже он не опасен.
-  if %actor.class% == 4 && %actor.level% >= %level% && %actor.skill(Cкрытый удар)% == -1
+  if %actor.class% == 4 && %actor.skill(скрытый удар)% == 0
     wait 1s
     г Я вижу, ты хороший наемник и думаю, ты достоин того, что бы я научил тебя кое чему.
     г В свое время, мой учитель научил меня древнему искусству.
@@ -72,26 +74,26 @@ if %object.vnum% == 62104 && %quest621.name% == %actor.name%
     г Если ты осилишь его, я возьмусь учить тебя.
     wait 1s
     г Приготовься, сейчас я телепортирую тебя в древний зал испытаний!
-    mteleport %actor.name% 62164 
+    mteleport %actor.name% 62164
     calcuid delete_trig 62109 mob
-    detach 62100 %delete_trig.id% 
+    detach 62100 %delete_trig.id%
     detach 62101 %delete_trig.id%
     detach 62102 %delete_trig.id%
-  else   
+  else
     wait 1s
     set Get_item %random.10%
-    set vnum 62117   
-    eval vnum %vnum% + %Get_item%  
+    set vnum 62117
+    eval vnum %vnum% + %Get_item%
     if (%vnum% > 62120)  || (%world.curobjs(%vnum%)% > 2)
       г Ты теперь всегда желанный гость для нас!
       г Мы всегда рады твоему визиту.
     else
       mload obj %vnum%
-      г Вот твоя награда. 
+      г Вот твоя награда.
       дать все %actor.name%
     end
     calcuid delete_trig 62109 mob
-    detach 62100 %delete_trig.id% 
+    detach 62100 %delete_trig.id%
     detach 62101 %delete_trig.id%
     detach 62102 %delete_trig.id%
   end
@@ -106,23 +108,24 @@ if (%exist.mob(62100)% == %nil%)
     if (%exist.mob(62111)% == %nil%)
       if (%exist.mob(62112)% == %nil%)
         if (%actor.id% == %quest621.id%)
-          if (%actor.class% == 4 )
+          if (%actor.class% == 4)
             wait 1s
             г Ты удивил%actor.g% меня %actor.name%.
             г Я научу тебя умению Скрытого удара.
             г Против него не сможет устоять даже самый могущественный воин.
             wait 1s
-            mskillturn %actor.name% скрытый.удар set
-            msend %actor.name% Старый Ярл научил вас умению "Скрытый удар".
-            г А теперь прощай.    
+            mskillturn %actor% скрытый.удар set
+            msend %actor% Старый Ярл показал Вам как нужно скрывать свои намерения ударить.
+            г А теперь прощай.
             calcuid delete_trig 62109 mob
-            detach 62103 %delete_trig.id% 
+            detach 62103 %delete_trig.id%
           end
         end
       end
     end
   end
 end
+
 ~
 #62104
 Сник прошел~
@@ -138,6 +141,7 @@ if (%actor.affect(подкрадывается)% == 1)
   wait 1
   mpurge %self%
 end
+
 ~
 #62105
 Сник не прошел~
@@ -150,6 +154,7 @@ if (%actor.affect(подкрадывается)% == 0)
   msend %actor.iname% Неведомая сила подхватила Вас и куда-то унесла.
   mteleport %actor.iname% 62164
 end
+
 ~
 #62106
 Удалось отравить~
@@ -157,7 +162,7 @@ end
 ~
 if (%self.affect(яд)% == 1)
   wait 5
-  г Да. Тебе это удалось! Ты отравил меня. 
+  г Да. Тебе это удалось! Ты отравил меня.
   set skillquest2 1
   global skillquest2
   wait 1s
@@ -167,8 +172,9 @@ if (%self.affect(яд)% == 1)
   mecho Когда же вы пришли в себя, Вы заметили исчезновение кожаного чучела.
   mecho Это может означать только одно - Вы прошли это испытание!
   wait 1
-  mpurge %self%      
+  mpurge %self%
 end
+
 ~
 #62107
 Удалось заколоть (ОН)~
@@ -181,6 +187,7 @@ mecho Когда же Вы пришли в сознание, Вы заметили, что манекена уже нет на месте!
 mecho Это значит Вы прошли испытание.
 wait 1
 mpurge %self%
+
 ~
 #62108
 Удалось подсечь~
@@ -195,11 +202,12 @@ if (%self.position% == 6)
   set skillquest3 1
   global skillquest3
   wait 1
-  mpurge %self%        
-end 
+  mpurge %self%
+end
 if (%actor.position% == 6)
   г Эх ты неумеха! Чего ты же сюда приш%actor.y%?!
 end
+
 ~
 #62109
 Убит марбендилл~
@@ -214,6 +222,7 @@ end
 if (( %random.1000% < 401 ) && ( %world.curobjs(62108)% < 11 ))
   mload obj 62108
 end
+
 ~
 #62110
 Телепорт из зала испытаний~
@@ -223,18 +232,20 @@ wait 1
 wecho Громкий звук рассек тишину.
 wecho Все началось трястись и яркая вспышка возникшая в воздухе на мгновение ослепила Вас!
 wportal 62116 2
+
 ~
 #62111
 Репоп~
 2 e 0
 ~
 set quest621 %nil%
-global quest621  
+global quest621
 calcuid delete_trig 62109 mob
-attach 62100%delete_trig.id% 
+attach 62100%delete_trig.id%
 attach 62101%delete_trig.id%
-attach 62102%delete_trig.id% 
+attach 62102%delete_trig.id%
 attach 62103 %delete_trig.id%
+
 ~
 #62112
 Удалось заколоть (ОНА)~
@@ -246,5 +257,7 @@ mecho Это поистине чудовищный звук, от которого Ваше сознание начало тускнеть.
 mecho Когда же Вы пришли в сознание, Вы заметили, что манекена уже нет на месте!
 wait 1
 mpurge %self%
+
 ~
-$~
+$
+$

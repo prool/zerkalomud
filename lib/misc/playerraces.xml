@@ -4,7 +4,6 @@
     такой-то бонус -- должна существовать такая способность.
     Номера рас и родов должны быть уникальными!
     Формат:
-
     <races> - корневой тэг
         <kin kinnum="0" enabled="1"> - новая раса, ее номер и флаг доступности для морталов
             <menu>Строка расы для внутриигрового меню</menu>
@@ -31,7 +30,6 @@
             </kinraces>
         <kin>
     </races>
-
 -->
 <?xml version="1.0" encoding="koi8-r"?>
 <races>
@@ -68,7 +66,6 @@
                 <feature featnum="49"/>
                 <birthplace id="2"/>
                 <birthplace id="5"/>
-
             </race>
             <race racenum="2" enabled="1">
                 <menu>Кривичи</menu>
@@ -106,7 +103,6 @@
                 <feature featnum="48"/>
                 <birthplace id="1"/>
                 <birthplace id="4"/>
-
             </race>
             <race racenum="5" enabled="1">
                 <menu>Древляне</menu>

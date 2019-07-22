@@ -153,20 +153,20 @@ detach 40006 %self.id%
 0 j 100
 ~
 wait 1
-if %object.vnum%!=40014
-  say не то это.. 
-  бро все
+if (%object.vnum% != 40014)
+  say Не то это.. 
+  return 0
   halt
 end
 wait 1
 mpurge %object%
 say Да, это то самое!
-say награжу я тебя.
-say ничего у меня нету, только опыт.
-say раньше я был вором маститым и умел украсть из кармана у кого-угодно что-угодно.
-say расскажу тебе, как это сделать
-if ((%actor.skill(украсть)% < 80) & (%actor.class% == 2))
-  eval val 5+%.random.5%
+say Награжу я тебя.
+say Ничего у меня нету, только опыт.
+say Раньше я был вором маститым и умел украсть из кармана у кого-угодно что-угодно.
+say Расскажу тебе как это сделать...
+if ((%actor.skill(украсть)% < 80) && (%actor.class% == 2))
+  eval val 5+%random.5%
   mskilladd %actor% украсть %val%
 else
   eval val %actor.level%*2500
@@ -174,7 +174,7 @@ else
   %actor.exp(+%val2%)%
 end
 wait 1s
-%echo% %self.name% сделал что-то с замком и тихо скрылся из виду.
+%echo% %self.iname% сделал что-то с замком и тихо скрылся из виду.
 mdoor 40077 west purge
 mdoor 40077 west room 40043
 %purge% %self.id%

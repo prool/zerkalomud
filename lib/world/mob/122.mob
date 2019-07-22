@@ -1,3 +1,6 @@
+* Сгенерировано BZEditor
+* Количество мобов : 21
+* Сохранено 05.06.2019 23:18:50
 #12200
 Добрыня богатырь~
 Добрыня-богатырь~
@@ -15,20 +18,22 @@ b0d0n0o0p0q0r0t0u0x0B0f2g2i2 c0d0f0k0r0a1 600 E
 30 0 -8 10d10+1000 10d10+30
 0d0+0 0
 8 8 1
+BareHandAttack: 0
 Str: 36
-Dex: 24
 Int: 23
 Wis: 21
+Dex: 24
 Con: 36
 Cha: 21
-Size: 60
 LikeWork: 99
+MaxFactor: 0
 ExtraAttack: 1
 Class: 104
 Race: 101
+Size: 60
 Height: 200
 Weight: 150
-Special_Bitvector: f0d3 
+Special_Bitvector: f0d3
 Feat: 29
 Feat: 30
 Feat: 31
@@ -61,24 +66,26 @@ T 12202
 Богатырь великославный, коими крепка Земля Русская,
 во плечах - сажень косая, силушка в руках немерянная.
 ~
-b0d0n0o0p0q0r0t0u0x0B0f2g2i2 c0f0k0r0a1 600 E
+b0d0n0o0p0q0r0t0u0x0B0f2g2i2 c0f0k0r0a1d0 600 E
 30 0 -8 10d10+1000 10d10+30
 0d0+0 0
 8 8 1
+BareHandAttack: 0
 Str: 36
-Dex: 24
 Int: 23
 Wis: 21
+Dex: 24
 Con: 36
 Cha: 21
-Size: 60
 LikeWork: 99
+MaxFactor: 0
 ExtraAttack: 1
 Class: 104
 Race: 101
+Size: 60
 Height: 200
 Weight: 150
-Special_Bitvector: d0d3 
+Special_Bitvector: d0d3
 Feat: 29
 Feat: 30
 Feat: 31
@@ -115,20 +122,22 @@ b0d0n0o0B0f2g2 d0e0f0k0a1 0 E
 30 0 -7 10d10+1000 5d5+10
 0d0+0 0
 8 8 1
+BareHandAttack: 0
 Str: 36
-Dex: 25
 Int: 25
 Wis: 25
+Dex: 25
 Con: 25
 Cha: 25
-Size: 10
 LikeWork: 85
+MaxFactor: 0
 ExtraAttack: 1
 Class: 104
 Race: 101
+Size: 10
 Height: 30
 Weight: 150
-Special_Bitvector: 0 
+Special_Bitvector: 0
 Feat: 29
 Feat: 30
 Feat: 31
@@ -158,24 +167,25 @@ T 12223
 шапка золота змеиного, а кафтан-то весь серебряный.
 ~
 b0d0n0o0 c0f0k0 -600 E
-12 17 8 5d5+210 4d3+8
+17 17 8 5d5+210 4d3+8
 10d20+20 25000
 8 8 0
 BareHandAttack: 2
 Str: 18
-Dex: 10
 Int: 13
 Wis: 14
+Dex: 10
 Con: 14
 Cha: 3
-Size: 100
 LikeWork: 25
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Race: 110
+Race: 105
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: d3 
+Special_Bitvector: d3
 Skill: 132 30
 Skill: 136 30
 E
@@ -199,19 +209,22 @@ b0d0n0o0p0r0 d0f0k0a1 0 E
 25 0 -10 10d10+1000 5d5+10
 0d0+0 0
 8 8 1
+BareHandAttack: 0
 Str: 27
-Dex: 16
 Int: 14
 Wis: 14
+Dex: 16
 Con: 27
 Cha: 14
-Size: 55
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 104
 Race: 104
+Size: 55
 Height: 180
 Weight: 140
-Special_Bitvector: 0 
+Special_Bitvector: 0
 Feat: 29
 Feat: 30
 Feat: 31
@@ -245,18 +258,20 @@ b0d0n0o0p0r0 d0f0k0a1 0 E
 8 8 1
 BareHandAttack: 3
 Str: 27
-Dex: 16
 Int: 14
 Wis: 14
+Dex: 16
 Con: 27
 Cha: 14
-Size: 55
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 104
 Race: 104
+Size: 55
 Height: 180
 Weight: 140
-Special_Bitvector: 0 
+Special_Bitvector: 0
 Feat: 29
 Feat: 30
 Feat: 31
@@ -292,18 +307,20 @@ b0d0n0o0p0r0t0u0x0A0 d0f0k0a1 0 E
 8 8 1
 BareHandAttack: 3
 Str: 27
-Dex: 16
 Int: 14
 Wis: 14
+Dex: 16
 Con: 27
 Cha: 14
-Size: 55
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Race: 104
+Race: 105
+Size: 55
 Height: 180
 Weight: 140
-Special_Bitvector: c0 
+Special_Bitvector: c0
 Feat: 29
 Feat: 30
 Feat: 31
@@ -335,36 +352,37 @@ T 12235
 теплым светом всех дарящее.
 ~
 b0d0n0o0p0r0B0 d0f0k0a1 600 E
-23 0 -5 10d10+500 6d6+12
+12 0 -5 10d10+500 6d6+12
 0d0+0 10000
 5 5 2
 BareHandAttack: 8
 Str: 18
-Dex: 16
 Int: 34
 Wis: 34
+Dex: 16
 Con: 14
 Cha: 34
-Size: 35
 LikeWork: 100
+MaxFactor: 0
 ExtraAttack: 1
 Class: 105
 Race: 105
+Size: 35
 Height: 160
 Weight: 50
-Special_Bitvector: 0 
+Special_Bitvector: 0
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
 Skill: 22 200
 Skill: 136 69
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 42
 E
 #12208
 богатырь охранник рода змеева~
@@ -388,18 +406,20 @@ b0d0n0o0p0r0 d0f0k0a1 0 E
 8 8 1
 BareHandAttack: 3
 Str: 27
-Dex: 16
 Int: 14
 Wis: 14
+Dex: 16
 Con: 27
 Cha: 14
-Size: 55
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 104
-Race: 104
+Race: 105
+Size: 55
 Height: 180
 Weight: 140
-Special_Bitvector: 0 
+Special_Bitvector: 0
 Feat: 29
 Feat: 30
 Feat: 31
@@ -429,36 +449,37 @@ E
 теплым светом всех дарящее.
 ~
 b0d0n0o0p0r0B0 d0f0k0a1 600 E
-23 0 -5 10d10+500 6d6+12
+12 0 -5 10d10+500 6d6+12
 0d0+0 10000
 8 8 2
 BareHandAttack: 8
 Str: 18
-Dex: 16
 Int: 34
 Wis: 34
+Dex: 16
 Con: 14
 Cha: 34
-Size: 35
 LikeWork: 100
+MaxFactor: 0
 ExtraAttack: 1
 Class: 105
 Race: 105
+Size: 35
 Height: 160
 Weight: 50
-Special_Bitvector: 0 
+Special_Bitvector: 0
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
 Skill: 22 200
 Skill: 136 69
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 38
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 42
 E
 #12210
 калика перехожий~
@@ -478,26 +499,28 @@ b0d0n0o0p0q0r0t0u0B0u2 d0f0k0a1 600 E
 21 5 -3 10d10+300 4d6+12
 0d0+0 0
 8 8 1
+BareHandAttack: 0
 Str: 16
-Dex: 14
 Int: 26
 Wis: 30
+Dex: 14
 Con: 14
 Cha: 20
-Size: 50
 LikeWork: 100
+MaxFactor: 0
 ExtraAttack: 1
 Class: 105
 Race: 101
+Size: 50
 Height: 175
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: 0
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
+Spell: 42
 Skill: 136 63
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 42
-Spell: 42
 E
 T 12215
 #12211
@@ -516,23 +539,25 @@ T 12215
 и душегуб.
 ~
 b0d0f0m0n0o0r0z0 d0f0k0 -600 E
-10 19 8 5d6+200 1d1+0
+14 19 8 5d6+200 1d1+0
 5d4+50 15000
 8 8 2
+BareHandAttack: 0
 Str: 15
-Dex: 12
 Int: 12
 Wis: 12
+Dex: 12
 Con: 14
 Cha: 4
-Size: 50
 LikeWork: 20
+MaxFactor: 0
 ExtraAttack: 15
 Class: 104
 Race: 101
+Size: 50
 Height: 175
 Weight: 85
-Special_Bitvector: a0c0d0 
+Special_Bitvector: a0c0d0
 Feat: 29
 Feat: 30
 Feat: 31
@@ -563,23 +588,25 @@ T 12228
 и душегуб.
 ~
 b0d0f0m0n0o0r0z0 d0f0k0 -600 E
-7 20 8 5d6+170 1d1+0
+14 20 8 5d6+170 1d1+0
 5d4+50 15000
 8 8 2
+BareHandAttack: 0
 Str: 15
-Dex: 12
 Int: 4
 Wis: 12
+Dex: 12
 Con: 14
 Cha: 4
-Size: 50
 LikeWork: 20
+MaxFactor: 0
 ExtraAttack: 15
 Class: 104
 Race: 101
+Size: 50
 Height: 175
 Weight: 85
-Special_Bitvector: a0b0d0 
+Special_Bitvector: a0b0d0
 Feat: 29
 Feat: 30
 Feat: 31
@@ -609,23 +636,25 @@ T 12229
 и душегуб.
 ~
 b0d0f0m0n0o0r0z0 d0f0k0 -600 E
-10 19 8 5d6+200 1d1+0
+14 19 8 5d6+200 1d1+0
 5d4+50 15000
 8 8 2
+BareHandAttack: 0
 Str: 15
-Dex: 12
 Int: 12
 Wis: 12
+Dex: 12
 Con: 14
 Cha: 4
-Size: 50
 LikeWork: 20
+MaxFactor: 0
 ExtraAttack: 15
 Class: 104
 Race: 101
+Size: 50
 Height: 175
 Weight: 85
-Special_Bitvector: a0b0c0 
+Special_Bitvector: a0b0c0
 Feat: 29
 Feat: 30
 Feat: 31
@@ -657,19 +686,22 @@ b0d0n0o0p0r0f2g2 d0f0k0a1 600 E
 30 4 -5 10d10+1000 5d6+12
 0d0+0 0
 8 8 1
+BareHandAttack: 0
 Str: 27
-Dex: 17
 Int: 17
 Wis: 20
+Dex: 17
 Con: 20
 Cha: 18
-Size: 50
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 104
 Race: 104
+Size: 50
 Height: 175
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: 0
 Feat: 29
 Feat: 30
 Feat: 31
@@ -700,19 +732,22 @@ b0d0n0o0p0r0f2g2 d0f0k0a1 600 E
 30 4 -5 10d10+1000 5d6+12
 0d0+0 0
 8 8 1
+BareHandAttack: 0
 Str: 27
-Dex: 17
 Int: 17
 Wis: 20
+Dex: 17
 Con: 20
 Cha: 18
-Size: 50
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 104
 Race: 104
+Size: 50
 Height: 175
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: 0
 Feat: 29
 Feat: 30
 Feat: 31
@@ -743,19 +778,22 @@ b0d0n0o0p0r0f2g2 d0f0k0a1 600 E
 30 4 -5 10d10+1000 5d6+12
 0d0+0 0
 8 8 1
+BareHandAttack: 0
 Str: 27
-Dex: 17
 Int: 17
 Wis: 20
+Dex: 17
 Con: 20
 Cha: 18
-Size: 50
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 104
 Race: 104
+Size: 50
 Height: 175
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: 0
 Feat: 29
 Feat: 30
 Feat: 31
@@ -782,21 +820,25 @@ E
 в небе вьется, криком кликает.
 ~
 d0 x0 0 E
-7 0 0 10d5+150 3d3+6
+11 0 0 10d5+150 3d3+6
 0d0+0 8000
 8 8 1
 BareHandAttack: 8
 Str: 15
+Int: 11
+Wis: 11
+Dex: 11
 Con: 7
 Cha: 7
-Size: 100
 LikeWork: 12
+MaxFactor: 0
 ExtraAttack: 1
 Class: 103
 Race: 104
+Size: 100
 Height: 40
 Weight: 50
-Special_Bitvector: 0 
+Special_Bitvector: 0
 Skill: 136 14
 E
 #12218
@@ -813,21 +855,25 @@ E
 вьется рядом, словно гонит прочь.
 ~
 d0 x0 0 E
-7 0 0 10d2+150 3d3+4
+11 0 0 10d2+150 3d3+4
 0d0+0 8000
 8 8 1
 BareHandAttack: 10
 Str: 15
+Int: 11
+Wis: 11
+Dex: 11
 Con: 7
 Cha: 7
-Size: 100
 LikeWork: 12
+MaxFactor: 0
 ExtraAttack: 1
 Class: 103
 Race: 103
+Size: 100
 Height: 40
 Weight: 50
-Special_Bitvector: 0 
+Special_Bitvector: 0
 Skill: 136 14
 E
 #12219
@@ -846,19 +892,22 @@ b0d0e0g0n0o0p0q0r0t0u0y0B0o1r1f2g2i2 c0d0e0f0k0a1 600 E
 50 0 -10 10d10+20000 0d0+1
 0d0+0 0
 8 8 1
+BareHandAttack: 0
 Str: 36
-Dex: 36
 Int: 36
 Wis: 36
+Dex: 36
 Con: 36
 Cha: 36
-Size: 100
+LikeWork: 0
+MaxFactor: 0
 ExtraAttack: 1
 Class: 100
 Race: 109
+Size: 100
 Height: 175
 Weight: 85
-Special_Bitvector: 0 
+Special_Bitvector: 0
 Skill: 136 150
 E
 #12220
@@ -874,22 +923,26 @@ E
 Змеиный выкормыш
 ~
 d0 0 0 E
-7 0 0 10d2+150 3d3+4
+11 0 0 10d2+150 3d3+4
 0d0+0 8000
 8 8 1
 BareHandAttack: 10
 Str: 15
+Int: 11
+Wis: 11
+Dex: 11
 Con: 7
 Cha: 7
-Size: 100
 LikeWork: 12
+MaxFactor: 0
 ExtraAttack: 1
 Class: 101
-Race: 110
+Race: 105
+Size: 100
 Height: 40
 Weight: 50
-Special_Bitvector: m0 
+Special_Bitvector: m0
 Skill: 136 14
 E
-I зубы,2:4
+$
 $

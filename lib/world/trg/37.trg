@@ -1663,7 +1663,7 @@ if ((%actor.level% > 30) && (%actor.vnum% == -1))
 end
 if ((%actor.name% != Благомир) && (%actor.name% != Блажич) && (%actor.name% != Ветолик) && (%actor.name% != Эрих) && (%actor.name% != Миломир) && (%actor.name% != Целимир) && (%actor.name% != Левша))
   otransform 3788
-  oecho Из кармана показалась рука, сложенная в фигу,  и тут же спряталась обратно.
+  oecho Из кармана показалась рука, сложенная в фигу, и тут же спряталась обратно.
   return 0
   halt
 end

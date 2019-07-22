@@ -183,8 +183,9 @@ if !%arg.contains(камень)%
   wecho Чего?
   halt
 end
-calcuid kamen379 37919 obj
-if !%kamen379%
+if (%exist.obj(37919)%)
+  calcuid kamen379 37919 obj
+else
   halt
 end
 if %actor.eq(19)%==%kamen379%
@@ -245,8 +246,8 @@ if (%exist.mob(37925)% || %exist.mob(37925)%)
   halt
 else
   mecho О, змеи все-таки были убиты. Здорово!
-  if ((%world.curobjs(3328)% < 1) && (%random.1000% < 60))
-    mload obj 3328
+  if (%random.1000% < 60)
+    mload obj 103
     mecho Вот, возьми. Мне она уже не потребуется.
     взд
     wait 1

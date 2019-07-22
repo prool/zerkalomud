@@ -148,8 +148,8 @@ end
 Померла злая старуха~
 0 f 100
 ~
-if ((%world.curobjs(598)% < 1 ) && (%random.1000% <= 140 ))
-  mload obj 598
+if ((%world.curobjs(535)% < 1 ) && (%random.1000% <= 140 ))
+  mload obj 535
 end
 ~
 $~

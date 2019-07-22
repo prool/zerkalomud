@@ -88,7 +88,7 @@ Size: 35
 LikeWork: 75
 ExtraAttack: 4
 Class: 103
-Race: 104
+Race: 103
 Height: 66
 Weight: 50
 Special_Bitvector: c0 
@@ -150,6 +150,7 @@ b0c0d0n0o0t0y0A0 b0d0f0k0m0n0x0C0 -600 E
 20d20+1000 650000
 8 8 2
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 BareHandAttack: 2
 Str: 35
 Dex: 24
@@ -409,6 +410,7 @@ b0d0h1 d0f0k0y1 -600 E
 0d0+0 400000
 4 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 Str: 35
 Dex: 30
 Int: 24
@@ -480,7 +482,7 @@ Spell: 67
 E
 T 69348
 #69309
-седобородый отшельник~
+седобородый отшельник старец~
 седобородый отшельник~
 седобородого отшельника~
 седобородому отшельнику~
@@ -532,6 +534,7 @@ b0d0n0o0r0 d0f0h0k0r1 -600 E
 0d0+1000 400000
 8 8 1
 Saves: -20 -20 -20 -20
+CastSuccess: 20
 BareHandAttack: 9
 Str: 35
 Dex: 31
@@ -571,6 +574,7 @@ d0i1 f0k0y1 -600 E
 0d0+0 450000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 Str: 35
 Dex: 30
 Int: 24
@@ -718,6 +722,7 @@ b0d0f0m0q0z0 d0f0h0k0w1 -600 E
 0d0+230 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 Str: 36
 Dex: 23
 Int: 16
@@ -770,6 +775,7 @@ b0d0j0m0z0 c0d0f0h0k0x0A0C0t1 -600 E
 1d100+900 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 Str: 36
 Dex: 18
 Int: 16
@@ -846,6 +852,7 @@ b0d0i0m0 f0k0r0q1 -600 E
 0d0+0 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 4
 Str: 16
 Dex: 20
@@ -1118,6 +1125,7 @@ d0l0m0 d0e0f0k0x0t1u1 -600 E
 50d60+0 450000
 8 8 2
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 BareHandAttack: 7
 Str: 15
 Dex: 24
@@ -1755,6 +1763,7 @@ a0b0d0o0z0l2 f0k0m0n0x0r1t1 -600 E
 0d0+0 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 6
 Str: 40
 Dex: 35
@@ -1799,6 +1808,7 @@ b0d0z0 d0f0k0r0o1x1 -600 E
 20d5+1000 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 Str: 23
 Dex: 22
 Int: 23
@@ -2041,7 +2051,7 @@ Size: 100
 LikeWork: 99
 ExtraAttack: 1
 Class: 103
-Race: 104
+Race: 103
 Height: 175
 Weight: 85
 Special_Bitvector: i3 
@@ -2067,6 +2077,7 @@ b0d0l0m0n0o0p0x0z0e2g2h2 k0m1r1 -600 E
 8 8 1
 Saves: -40 -40 -40 -40
 Armour: 20
+CastSuccess: 23
 Str: 25
 Dex: 35
 Int: 10
@@ -2110,7 +2121,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 100
-Race: 111
+Race: 113
 Height: 175
 Weight: 85
 Special_Bitvector: d3i3 

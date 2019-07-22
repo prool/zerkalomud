@@ -39,7 +39,7 @@ end
 Горящий колдун в бою~
 0 k 100
 ~
-dg cast !ледяной шторм!  %target.name%
+dg_cast 'ледян шторм' %actor.name%
 ~
 #26703
 темный страж в бою~
@@ -64,10 +64,17 @@ end
 духи в бою~
 0 k 100
 ~
-dg cast !мас оцеп!
-if %random.100% < 10 
-  mecho Дух издал жуткий крик, пугающий и леденящий душу.
-  mdamage %actor.name% 75
+if (%random.100% < 10)
+  mecho &CДух издал жуткий крик, пугающий и леденящий душу.&n
+  *dg_cast !мас оцеп! во-первых должно быть с ' вместо !, во-вторых массовые не кастуются
+  foreach vict %self.char%
+    if %vict.name%
+      dg_cast 'оцеп' %vict%
+    end
+  done
+  if (%actor.name%)
+    mdamage %actor% 75
+  end
 end
 ~
 #26706
@@ -103,7 +110,7 @@ else
   wsend %actor% Вы превратились в облако пыли, потеряли сознание и пришли в 
   wsend %actor% себя в какой-то пустой темной комнате.
   wechoaround %actor% %actor.name% превратился в облако пыли и исчез из виду.   
-  wteleport %actor.name% 26780
+  wteleport %actor% 26780
 end
 ~
 #26708
@@ -199,10 +206,10 @@ end
 темный маг в бою~
 0 k 100
 ~
-if %random.2% < 2
-  dg cast !камн!
-elseif 
-  dg cast !лед шторм!
+if (%random.2% < 2)
+  dg_cast 'камнепа' %actor.name%
+else
+  dg_cast 'лед шторм' %actor.name%
 end
 ~
 #26717
@@ -222,132 +229,106 @@ if %actor.level% >=28
   switch %actor.class%
     *лекарь
     case 0
-      if (!%actor.spelltype(защита богов)%) && (%actor.level%>=28) && (%random.100% <= 2)
-        mspellturn %actor.name% защита.богов set
+      if (!%actor.spelltype(защита богов)%) && (%actor.can_get_spell(защита богов)%) && (%random.100% <= 2)
+        mspellturn %actor% защита.богов set
         %send% %actor% Отныне умеешь ты ставить щит богов.
-      else
-        msend %actor.name% Вы стали гораздо опытнее.
-        %actor.exp(+1000000)%
+        set bonus 1
       end
     break
     *колдун
     case 1
-      if (!%actor.spelltype(переместиться)%) && (%actor.level%>=28) && (%random.1000% <= 20)
-        mspellturn %actor.name% переместиться set
+      if (%actor.can_get_feat(переместиться)%) && (%random.1000% <= 20)
+        mfeatturn %actor% переместиться set
         say О, %actor.name%. Да сможешь ты переместиться к недругу или другу!
-      else
-        msend %actor.name% Вы стали гораздо опытнее.
-        %actor.exp(+1000000)%
+        set bonus 1
       end            
     break
     *тать
     case 2
-      if (%actor.skill(заколоть)% < 141) && (%actor.level%>28)
-        mskilladd %actor.name% заколоть 10 
-        msend %actor.name% Отныне ты можешь поразить врага своего в спину с большим искусством.
-      else
-        msend %actor.name% Вы стали гораздо опытнее.
-        %actor.exp(+1000000)%
+      if (%actor.skill(заколоть)% < 141)
+        mskilladd %actor% заколоть 10 
+        msend %actor% Отныне ты можешь поразить врага своего в спину с большим искусством.
+        set bonus 1
       end
     break
     *богатырь
     case 3
       if %actor.skill(ярость)% < 141
-        mskilladd %actor.name% ярость 10
-        msend %actor.name% ярость твою не остановить..
-      else
-        msend %actor.name% Вы стали гораздо опытнее.
-        %actor.exp(+1000000)%
+        mskilladd %actor% ярость 10
+        msend %actor% ярость твою не остановить..
+        set bonus 1
       end
     break
     *наемник
     case 4
       if %actor.skill(скрытый)% < 141
-        mskilladd %actor.name% скрытый 10
-        msend %actor.name% Скрытые твои удары отныне всегда найду цель.
-      else
-        msend %actor.name% Вы стали гораздо опытнее.
-        %actor.exp(+1000000)%
+        mskilladd %actor% скрытый 10
+        msend %actor% Скрытые твои удары отныне всегда найду цель.
+        set bonus 1
       end
     break
     *друж
     case 5
       if %actor.skill(осторожный)% < 141
-        mskilladd %actor.name% осторожный 10
-        msend %actor.name% Ворожьи подлые приемчики на тебя более не подействуют.
-      else
-        msend %actor.name% Вы стали гораздо опытнее.
-        %actor.exp(+1000000)%
+        mskilladd %actor% осторожный 10
+        msend %actor% Ворожьи подлые приемчики на тебя более не подействуют.
+        set bonus 1
       end
     break
     *кудесник
     case 6
       if (!%actor.spelltype(зеркало)%) && (%actor.level%>=28) && (%random.100% <= 2)
-        mspellturn %actor.name% зеркало set
-        msend %actor.name%  Теперь вражьи заклинания ничто для тебя.
-      else
-        msend %actor.name% Вы стали гораздо опытнее.
-        %actor.exp(+1000000)%
-      break
-      *Волшебники!
-      case 7
-        if (!%actor.spelltype(массовое оцеп)%) && (%actor.level%>=28) && (%random.100% <= 2)
-          mspellturn %actor.name% масс.оцеп set
-          say О, %actor.name%.  Сможешь остановить всех врагов своих
-        else
-          msend %actor.name% Вы стали гораздо опытнее.
-          %actor.exp(+1000000)%
-        end
-      break
-      *чернок
-      case 8
-        if (!%actor.spelltype(силы зла%) && (%actor.level%>=28) && (%random.100% <= 2)
-          mspellturn %actor.name% силы.зла set
-          say О, %actor.name%. Теперь последователи твои силой злой наполнятся.
-        else
-          msend %actor.name% Вы стали гораздо опытнее.
-          %actor.exp(+1000000)%
-        end
-      break
-      *витязь
-      case 9
-        if %actor.skill(точный)% < 141
-          mskilladd %actor.name% точный 10
-          msend %actor.name% Удары твои точны как никогда!
-        else
-          msend %actor.name% Вы стали гораздо опытнее.
-          %actor.exp(+1000000)%
-        end
-      break
-      *охо
-      case 10
-        if %actor.skill(найти)% < 141
-          mskilladd %actor.name% найти 10
-          msend %actor.name% Любого в этом мире найти ты сможешь
-        else
-          msend %actor.name% Вы стали гораздо опытнее.
-          %actor.exp(+2000000)%
-          
-        end
-      break
-      *кузнец
-      case 11
-        if %actor.skill(оглушить)% < 141
-          mskilladd %actor.name% оглушить 10
-          msend %actor.name% Своими ударами напрочь глушишь ты врага!
-        else
-          msend %actor.name% Вы стали гораздо опытнее.
-          %actor.exp(+1000000)%
-          вздох
-        end
-      break
-      *купец
+        mspellturn %actor% зеркало set
+        msend %actor%  Теперь вражьи заклинания ничто для тебя.
+        set bonus 1
+      end
+    break
+    *Волшебники!
+    case 7
+      if (!%actor.spelltype(массовое оцеп)%) && (%actor.level%>=28) && (%random.100% <= 2)
+        mspellturn %actor% масс.оцеп set
+        say О, %actor.name%.  Сможешь остановить всех врагов своих
+        set bonus 1
+      end
+    break
+    *чернок
+    case 8
+      if (!%actor.spelltype(силы зла%) && (%actor.level%>=28) && (%random.100% <= 2)
+        mspellturn %actor% силы.зла set
+        say О, %actor.name%. Теперь последователи твои силой злой наполнятся.
+        set bonus 1
+      end
+    break
+    *витязь
+    case 9
+      if %actor.skill(точный)% < 141
+        mskilladd %actor% точный 10
+        msend %actor% Удары твои точны как никогда!
+        set bonus 1
+      end
+    break
+    *охо
+    case 10
+      if %actor.skill(найти)% < 141
+        mskilladd %actor% найти 10
+        msend %actor% Любого в этом мире найти ты сможешь
+        set bonus 1
+      end
+    break
+    *кузнец
+    case 11
+      if %actor.skill(оглушить)% < 141
+        mskilladd %actor% оглушить 10
+        msend %actor% Своими ударами напрочь глушишь ты врага!
+        set bonus 1
+      end
+    break
+    *купец
+    case 12
       if %actor.skill(осторожный)% < 141
-        mskilladd %actor.name% осторожный 10
-        msend %actor.name% Воржьи подлые приемчики на тебя не действуют.
-      else
-        msend %actor.name% Вы стали гораздо опытнее.
-        %actor.exp(+1000000)%
+        mskilladd %actor% осторожный 10
+        msend %actor% Воржьи подлые приемчики на тебя не действуют.
+        set bonus 1
       end
     break
     *волхв
@@ -355,18 +336,24 @@ if %actor.level% >=28
       mload obj 226
       say Получи награду... Это очень мощная руна, в которую я вложил все свою энергию
       дать руна %actor.name%
+      set bonus 1
     break   
     default
       %self.gold(+15000)%
       дать 15000 кун %actor.name%
+      set bonus 1
     break
   done
+  if (%bonus% != 1)
+    msend %actor% Вы стали гораздо опытнее.
+    %actor.exp(+1000000)%
+  end
 else
-  say Мал ты еще слишком, расти дальше
-  %actor.exp(+500000)
+  say Мал%actor.g% ты еще слишком, расти дальше!
+  eval temp %actor.exp(+500000)%
 end
+wait 1
 %purge% %self%
-end
 ~
 #26719
 Одеваем дружа~

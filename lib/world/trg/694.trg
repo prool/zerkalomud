@@ -76,6 +76,7 @@ if %actor.haveobj(69400)%
   wecho _И подняли Вас вихри на высоты великие
   wecho _И перенесли через тьму кромешную в Земли Закрайние - Земли Неведомые.
   wait 3s
+  wat 69427 wecho Кто-то появился здесь в клубах сизого дыма.
   wteleport all 69427
 end
 ~
@@ -549,13 +550,14 @@ if (( %flag_vnum11% == 1 ) && ( %flag_vnum03% == 1 ))
   mecho _И через миг перенес во Явь из Мира Иного.
   wait 1s
   ************************
-  mteleport all 69427 
+  mat 69427 mecho Кто-то появился здесь в клубах сизого дыма.
+  mteleport all 69427
   *********************
   *атач трига наградаберегини 
   calcuid ber 69400 mob
   attach 69427 %ber.id% 
   remote quest694 %ber.id%
-end 
+end
 ~
 #69420
 ВстречаетКузнецФома~
@@ -1058,7 +1060,7 @@ detach 69427 %self.id%
 ~
 #69428
 ЛоадКошек~
-0 z 0
+2 z 0
 ~
 wload mob 69430
 wload mob 69430
@@ -1067,7 +1069,7 @@ wload mob 69430
 ~
 #69429
 ЛоадЛихих~
-0 z 0
+2 z 0
 ~
 wload mob 69419
 wload mob 69419
@@ -1075,7 +1077,7 @@ wload mob 69419
 ~
 #69430
 ЛоадДевокПарней~
-0 z 0
+2 z 0
 ~
 wload mob 69423
 wload mob 69423
@@ -1086,7 +1088,7 @@ wload mob 69422
 ~
 #69431
 ЛоадРебятенков~
-0 z 0
+2 z 0
 ~
 wload mob 69427
 wload mob 69427
@@ -1094,7 +1096,7 @@ wload mob 69427
 ~
 #69432
 ЛоадКлетника~
-0 z 0
+2 z 0
 ~
 wload mob 69410
 ~
@@ -1115,6 +1117,7 @@ if %object.vnum% == 69416
   exec 69434 %mpt.id%
   detach 69434 %mpt.id%
   %purge% %object%
+end
 ~
 #69434
 ПентаВолхва~
@@ -1158,7 +1161,7 @@ attach 69469 %nZ5.id%
 ~
 #69437
 ЛоадШутовки~
-0 z 0
+2 z 0
 ~
 wload mob 69435
 wload mob 69443
@@ -1166,7 +1169,7 @@ wload mob 69443
 ~
 #69438
 ЛоадВодяницы~
-0 z 0
+2 z 0
 ~
 wload mob 69436
 wload mob 69436
@@ -1176,13 +1179,13 @@ wload mob 69443
 ~
 #69439
 ЛоадХлевника~
-0 z 0
+2 z 0
 ~
 wload mob 69442
 ~
 #69440
 ЛоадЧердачника~
-0 z 0
+2 z 0
 ~
 wload mob 69441
 ~
@@ -1213,7 +1216,7 @@ end
 ~
 wait 2s
 %send% %actor% _&WВнезапно Вы осознали свою смерть, стоящую за левым плечом.&n
-*%echoaround% %actor% _%actor.vname% побледнел и из уст его полились древние слова.
+*%echoaround% %actor% _%actor.iname% побледнел%actor.g% и из уст его полились древние слова.
 ***********
 wait 1s
 %send% %actor% _&WВаше тело резко выпрямилось и словно окостенело.&n
@@ -1221,10 +1224,10 @@ wait 1s
 ***********
 *wait 1s
 %send% %actor% _&WИ против воли из Ваших уст полились древние слова.&n
-if %actor.sex% == 1 
-  %echoaround% %actor% _&W%actor.vname% побледнел%actor.g%  и из уст его полились древние слова.&n
+if (%actor.sex% == 1)
+  %echoaround% %actor% _&W%actor.vname% побледнел и из уст его полились древние слова.&n
 else
-  %echoaround% %actor% _&W%actor.vname% побледнел%actor.g%  и из уст ее полились древние слова.&n
+  %echoaround% %actor% _&W%actor.vname% побледнела и из уст ее полились древние слова.&n
 end
 ************ 
 wait 1s
@@ -1236,20 +1239,24 @@ foreach i %self.pc%
   *eval r10 %random.pc%
   * 
   *oecho %i.name% --%nbn%------%i.bank%----
-  if %nbn%<%i.bank%
+  if (%nbn%<%i.bank%)
     eval nbn %i.bank%
     eval chnbn %i%
     *oecho %i.name% --%nbn%----88888888------ %chnbn.name% 
   end
 done
 wait 1s
-if %actor.sex% == 1 
-  oecho  _&WПосле долгих раздумий Смерть указала перстом на %chnbn.rname% и ушла забрав его с собой.&n
+if (%actor.sex% == 1)
+  oecho _&WПосле долгих раздумий Смерть указала перстом на %chnbn.vname% и ушла, забрав его с собой.&n
 else
-  oecho  _&WПосле долгих раздумий Смерть указала перстом на %chnbn.rname% и ушла забрав ее с собой.&n
+  oecho _&WПосле долгих раздумий Смерть указала перстом на %chnbn.vname% и ушла, забрав ее с собой.&n
 end
+calcuid curroom %actor.realroom% room
 eval nHit %chnbn.hitp%+11
 odamage %chnbn% %nHit%
+wait 1
+%echo% Весть о смерти выпала из омертвевших рук и плавно опустилась на землю.
+eval temp %self.put(%curroom.id%)%
 ~
 #69444
 УмерлиЛихие~

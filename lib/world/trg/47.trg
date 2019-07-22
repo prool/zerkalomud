@@ -74,7 +74,7 @@ say Не сослужишь ли службу мне, прикончив этого зверя?
 say Чем смогу - отблагодарю, но на сокровища великие не рассчитывай.
 смея
 say Небогат я нынче.
-if (( %actor.quested(4700)% == 0 ) && ( %actor.level% < 15 ))
+if (( %actor.quested(4700)% == 0 ) && ( %actor.level% < 15 ) && (%actor.realroom% == %self.realroom%))
   msend %actor% Старый хуторянин подмигнул Вам и что-то прошептал.
   dg_cast 'освящ' .%actor.name%
 end
@@ -107,13 +107,13 @@ if %object.vnum% != 4704
 end
 wait 1
 mjunk all
-if %actor.id% != %questor47.id%
+if (%actor.id% != %questor47.id%)
   say Я не просил тебя о помощи, но все равно, прими мою благодарность.
   поклон .%actor.name%
   detach 4704 %self.id%
   halt
 end
-if %actor.id% != %killer47.id%
+if (%actor.id% != %killer47.id%)
   say Ну что же, тому, кто с волком управился, спасибо от меня...
   say Да только - это не ты ведь был%actor.g%, не так ли?!
   say Ступай-ка отсель, не терплю лжецов!
@@ -136,43 +136,43 @@ if (%questor47.quested(4700)% == 0)
       if !%actor.skill(подножка)%
         say Научу я тебя воинской хитрости одной, в честной битве может и не сгодится
         say Но вот караульного тихо убрать, так чтоб и крикнуть не успел - это да.
-        mskillturn %actor.name% подножка set
+        mskillturn %actor% подножка set
       end
     break
     case 3
       if !%actor.skill(богатырский молот)%
         say Научу я тебя удару особому, против которого никто не устоит!
-        mskillturn %actor.name% богатырский.молот set
+        mskillturn %actor% богатырский.молот set
       end
     break
     case 4
       if !%actor.skill(отравить)%
         say Научу я тебя как зелье составить, так что даже и малая рана от оружия твоего насмерть разить будет.
-        mskillturn %actor.name% отравить set
+        mskillturn %actor% отравить set
       end
     break
     case 5
       if !%actor.skill(осторожный стиль)%
         say Научу я тебя, как в бою от хитростей вражьей и магии злой защищаться.
-        mskillturn %actor.name% осторожный.стиль set
+        mskillturn %actor% осторожный.стиль set
       end
     break
     case 9
       if !%actor.skill(точный стиль)%
         say Научу я тебя мечом владеть так, чтоб с одного удара мог недругу голову снять!
-        mskillturn %actor.name% точный.стиль set
+        mskillturn %actor% точный.стиль set
       end
     break
     case 10
       if !%actor.skill(лидерство)%
         say Научу я тебя, как друзей да воинов своих в бою и походе вести без потери и с легкостью.
-        mskillturn %actor.name% лидерство set
+        mskillturn %actor% лидерство set
       end
     break
     case 11
       if !%actor.skill(оглушить)%
         say Научу я тебя удару, после которого супротивник твой не сразу и вспомнит, кто он, да откуда родом.
-        mskillturn %actor.name% оглушить set
+        mskillturn %actor% оглушить set
       end
     break
     case 12
@@ -180,49 +180,47 @@ if (%questor47.quested(4700)% == 0)
         say Научу я тебя, как нож да копье в ворога метать следует, так что, бывает, боле и стараться не придется.
         say Коли попадешь верно.
         ул
-        mskillturn %actor.name% метнуть set
+        mskillturn %actor% метнуть set
       end
-    done
-    mechoaround %actor% Старый воин дал %actor.dname% несколько наставлений по боевому искусству.
-    msend %actor% Старый воин дал вам несколько наставлений по боевому искусству.
-    %questor47.setquest(4700)%
-  end
-  eval chanse %random.20%
-  if %chanse% < 2
-    say Вот, возьми эту книгу. Снадобье, секрет которого здесь описан, не раз тебе поможет!
-    mload obj 1706
-    дать книга .%actor.name%
+    break
+  done
+  mechoaround %actor% Старый воин дал %actor.dname% несколько наставлений по боевому искусству.
+  msend %actor% Старый воин дал вам несколько наставлений по боевому искусству.
+  %questor47.setquest(4700)%
+end
+eval chance %random.20%
+if (%chance% < 2)
+  say Вот, возьми эту книгу. Снадобье, секрет которого здесь описан, не раз тебе поможет!
+  mload obj 1706
+  set bonus 1
+elseif (%chance% < 6)
+  if %world.curobjs(4701)% < 10
+    say Возьми-ка вот этот меч. Хотя и не из лучших клинок, но службу верную сослужил он мне.
+    mload obj 4701
     set bonus 1
-  elseif %chanse% < 6
-    if %world.curobjs(4701)% < 10
-      say Возьми-ка вот этот меч. Хотя и не из лучших клинок, но службу верную сослужил он мне.
-      mload obj 4701
-      дать меч .%actor.name%
-      set bonus 1
-    end
-  elseif %chanse% < 9
-    if %world.curobjs(4703)% < 8
-      say Возьми вот лук этот. Хотя и посильней луки бывали, но в руках умелых и этот - оружие верное.
-      mload obj 4703
-      дать лук .%actor.name%
-      set bonus 1
-    end
-  elseif %chanse% < 15
-    if %world.curobjs(4705)% < 8
-      *пока кладем кинжал - потом выложим здесь книгу "страха"
-      say Возьми вот этот кинжал. Из дальнего похода привез я его, в бою взявши.
-      mload obj 4705
-      дать кинжал .%actor.name%
-      set bonus 1
-    end
   end
-  if %bonus% != 1
-    say Прими, вот, за помощь свою немного кун.
-    %self.gold(500)%
-    give 500 кун .%actor.name%
+elseif (%chance% < 9)
+  if %world.curobjs(4703)% < 8
+    say Возьми вот лук этот. Хотя и посильней луки бывали, но в руках умелых и этот - оружие верное.
+    mload obj 4703
+    set bonus 1
   end
-  detach 4702 %self.id%
-  detach 4704 %self.id%
+elseif (%chance% < 15)
+  if %world.curobjs(4705)% < 8
+    *пока кладем кинжал - потом выложим здесь книгу "страха"
+    say Возьми вот этот кинжал. Из дальнего похода привез я его, в бою взявши.
+    mload obj 4705
+    set bonus 1
+  end
+end
+give all .%actor.name%
+if (%bonus% != 1)
+  say Прими, вот, за помощь свою немного кун.
+  %send% %actor% %self.iname% протянул Вам мешочек с кунами.
+  eval temp %actor.gold(+500)%
+end
+detach 4702 %self.id%
+detach 4704 %self.id%
 ~
 #4705
 Репоп зоны "среди холмов"~

@@ -145,8 +145,10 @@ mecho Рыжий тать прошептал : 'Ни за медный грош'
 пока
 mecho Бедняга испустил дух.
 mload obj 7215
-calcuid kopna 7207 obj
-exec 7214 %kopna.id%
+if (%exist.obj(7207)%)
+  calcuid kopna 7207 obj
+  exec 7214 %kopna.id%
+end
 ~
 #7208
 прием серебра~

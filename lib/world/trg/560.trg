@@ -238,25 +238,38 @@ remote hero3 %kalinika.id%
 засада~
 2 e 100
 ~
-if (%direction% == south && %world.curmobs(56010)%)
+if (%direction% == south && %exist.mob(56010)%)
   wait 1
-  wecho Хазарский полководец закричал:'Бей русичей!!!'
-  wforce полк mkill %actor.name%
-  wait 1s 
-  wteleport моб_56004 56060
-  wforce моб_56004 mkill %actor.name%
+  calcuid polkov 56010 mob
+  wecho %polkov.iname% закричал : 'Бей русичей!!!'
+  wforce %polkov% mkill %actor%
+  wait 1s
+  if (%exist.mob(56004)%)
+    calcuid drakon 56004 mob
+    wteleport %drakon% 56060
+    wforce %drakon% mkill %actor%
+  end
   wait 5s
-  set tar %random.pc%      
-  wteleport моб_56013 56060 
-  wforce моб_56013 mkill %tar.name%
+  set tar %random.pc%
+  if (%exist.mob(56013)%)
+    calcuid tisyac 56013 mob
+    wteleport %tisyac% 56060
+    wforce %tisyac% mkill %tar%
+  end
   wait 9s
-  set tar %random.pc%      
-  wteleport моб_56012 56060
-  wforce моб_56012 mkill %tar.name%
+  set tar %random.pc%
+  if (%exist.mob(56012)%)
+    calcuid sotnik 56012 mob
+    wteleport %sotnik% 56060
+    wforce %sotnik% mkill %tar%
+  end
   wait 15s
-  set tar %random.pc%      
-  wteleport моб_56011 56060
-  wforce моб_56011 mkill %tar.name% 
+  set tar %random.pc%
+  if (%exist.mob(56011)%)
+    calcuid desyat 56011 mob
+    wteleport %desyat% 56060
+    wforce %desyat% mkill %tar%
+  end
   wait 5t
 end
 ~

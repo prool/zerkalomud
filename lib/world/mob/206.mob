@@ -16,6 +16,7 @@ b0c0d0g0n0o0p0q0r0A0 b0d0k0r0z0A0u1 -600 E
 0d0+15 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 Str: 35
 Dex: 28
 Int: 33
@@ -186,6 +187,7 @@ b0d0n0o0p0q0t0x0y0g2 d0h0k0r0C0m1r1t1x1 -600 E
 0d0+25 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 BareHandAttack: 11
 Str: 50
 Dex: 30
@@ -239,6 +241,7 @@ b0d0n0o0q0t0x0y0g2 d0h0k0r0C0m1r1t1x1 -600 E
 0d0+25 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 BareHandAttack: 9
 Str: 45
 Dex: 27
@@ -279,10 +282,11 @@ T 20615
 на дно.
 ~
 b0c0d0f0g0m0n0o0t0x0y0A0g2u2 d0k0m0n0p0C0b1c1t1y1 -600 E
-36 -1 -10 10d10+15000 8d8+8
+35 -1 -10 10d10+15000 8d8+8
 0d0+24 800000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 32
 AResist: 30
 BareHandAttack: 2
 Str: 45
@@ -330,7 +334,7 @@ T 20627
 рыбьей чешуей явно не доволен Вашим присутствием здесь.
 ~
 b0c0d0f0g0m0n0o0y0A0g2u2 d0k0m0n0p0C0c1t1x1 -600 E
-35 -1 -12 10d10+16000 8d8+8
+34 -1 -12 10d10+16000 8d8+8
 0d0+25 750000
 8 8 1
 Saves: -26 -26 -26 -26
@@ -383,10 +387,11 @@ T 20627
 уставился на Вас мерцающими глазами.
 ~
 b0c0d0f0g0m0n0o0u0x0y0A0u2 d0k0m0n0p0C0c1y1 -600 E
-35 -1 12 10d10+10000 9d9+9
+33 -1 12 10d10+10000 9d9+9
 0d0+100 600000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 4
 Str: 39
@@ -431,10 +436,11 @@ T 20627
 зазывает путников вглубь трясины.
 ~
 b0c0d0f0g0n0o0x0y0A0g2u2 d0k0m0p0C0b1c1j1y1 -600 E
-35 -3 -7 10d10+9000 8d10+8
+34 -3 -7 10d10+9000 8d10+8
 0d0+100 750000
 8 8 2
 Saves: -26 -26 -26 -26
+CastSuccess: 29
 AResist: 30
 BareHandAttack: 2
 Str: 43
@@ -483,10 +489,11 @@ T 20627
 Странного вида зверек исподтишка скалится на Вас. Не стоит ждать от него добра.
 ~
 b0c0d0f0g0n0o0x0y0A0g2u2 d0k0p0C0c1 -600 E
-33 -1 -5 10d10+8000 15d15+0
+32 -1 -5 10d10+8000 15d15+0
 0d0+100 500000
 8 8 2
 Saves: -18 -18 -18 -18
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 4
 Str: 25
@@ -531,10 +538,11 @@ T 20627
 болота.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0m0p0C0t1 -600 E
-34 -2 -9 10d10+8000 16d16+0
+33 -2 -9 10d10+8000 16d16+0
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 Str: 23
 Dex: 26
@@ -579,10 +587,11 @@ T 20627
 Болотный дух, приходящий на зов кикимор помогает им губить людей.
 ~
 b0c0d0f0g0m0n0o0u0x0y0A0u2 d0k0p0s0t0C0c1t1 -600 E
-34 -6 -8 10d10+10000 9d9+9
+33 -6 -8 10d10+10000 9d9+9
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 2
 Str: 33
@@ -624,10 +633,11 @@ T 20627
 лозы, вылез, чтобы посмотреть, что здесь происходит.
 ~
 b0c0d0f0g0m0n0o0u0y0A0g2u2 d0f0k0m0p0C0b1c1t1 -600 E
-34 -1 10 10d10+8000 8d8+8
+33 -1 10 10d10+8000 8d8+8
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 14
 Str: 31
@@ -661,10 +671,11 @@ T 20627
 Человек с дыбом стоящими волосами и вертлявым хвостом недобро зыркает на Вас.
 ~
 b0c0d0f0g0m0n0o0r0x0y0A0g2u2 d0f0k0m0p0C0c1 -600 E
-38 -1 10 10d10+15000 8d8+14
+36 -1 10 10d10+15000 8d8+14
 0d0+100 1000000
 8 8 1
 Saves: -38 -38 -38 -38
+CastSuccess: 35
 AResist: 30
 BareHandAttack: 13
 Str: 23
@@ -710,10 +721,11 @@ T 20627
 выплыл из черной воды за свежими утопленниками.
 ~
 b0c0d0e0f0g0n0o0u0x0y0A0t1 d0k0m0p0C0c1 -600 E
-35 0 -10 10d10+10000 8d8+9
+34 0 -10 10d10+10000 8d8+9
 0d0+100 700000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 29
 AResist: 30
 BareHandAttack: 12
 Str: 43
@@ -754,6 +766,7 @@ b0c0d0e0f0g0n0o0y0A0t1u2 d0k0m0n0p0C0c1z1 -600 E
 0d0+100 500000
 8 8 2
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 8
 Str: 36
@@ -802,10 +815,11 @@ T 20627
 купающихся в омут.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0k0n0p0C0c1t1z1 -600 E
-35 -1 10 10d10+9000 17d17+0
+34 -1 10 10d10+9000 17d17+0
 0d0+100 700000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 29
 AResist: 30
 BareHandAttack: 5
 Str: 47
@@ -844,6 +858,7 @@ b0c0d0f0g0m0n0o0u0x0y0A0u2 d0f0k0m0p0C0b1c1y1 -600 E
 0d0+100 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 4
 Str: 43
@@ -888,6 +903,7 @@ b0c0d0f0g0m0n0o0q0x0y0A0g2u2 d0f0k0m0p0C0c1t1 -600 E
 0d0+10 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 14
 Str: 48
@@ -927,10 +943,11 @@ T 20627
 воду, а уж пьяницам всяко беда будет.
 ~
 b0c0d0e0f0g0m0n0o0u0x0y0A0u2 d0f0k0m0n0p0C0c1y1 -600 E
-34 0 -6 10d10+7000 16d15+0
+33 0 -6 10d10+7000 16d15+0
 0d0+100 550000
 8 8 2
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 8
 Str: 31
@@ -968,10 +985,11 @@ T 20627
 на дно.
 ~
 b0c0d0f0g0m0n0o0r0u0x0y0A0u2 d0k0m0n0p0C0b1c1t1y1 -600 E
-35 -1 10 10d10+10000 13d8+9
+34 -1 10 10d10+10000 13d8+9
 0d0+100 650000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 29
 AResist: 30
 BareHandAttack: 2
 Str: 48
@@ -1014,7 +1032,7 @@ T 20627
 рыбьей чешуей явно не доволен Вашим присутствием здесь.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0k0m0n0p0C0c1 -600 E
-37 0 10 10d10+14000 8d8+9
+35 0 10 10d10+14000 8d8+9
 0d0+100 800000
 8 8 1
 Saves: -34 -34 -34 -34
@@ -1068,10 +1086,11 @@ T 20627
 уставился на Вас мерцающими глазами.
 ~
 b0c0d0f0g0m0n0o0r0u0x0y0A0g2u2 d0k0m0p0C0b1c1t1y1 -600 E
-36 -12 10 10d10+13000 8d8+9
+34 -12 10 10d10+13000 8d8+9
 0d0+100 750000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 29
 AResist: 30
 BareHandAttack: 4
 Str: 48
@@ -1116,10 +1135,11 @@ T 20627
 зазывает путников вглубь трясины.
 ~
 b0c0d0f0g0n0o0x0y0A0g2u2 d0k0m0p0C0c1j1y1 -600 E
-35 -8 10 10d10+12000 8d8+9
+34 -8 10 10d10+12000 8d8+9
 0d0+100 700000
 8 8 2
 Saves: -26 -26 -26 -26
+CastSuccess: 29
 AResist: 30
 BareHandAttack: 2
 Str: 39
@@ -1164,10 +1184,11 @@ T 20627
 Странного вида зверек исподтишка скалится на Вас. Не стоит ждать от него добра.
 ~
 b0c0d0e0f0g0n0o0y0A0g2i2u2 d0f0k0m0p0C0c1 -600 E
-34 0 10 10d10+8000 16d17+0
+33 0 10 10d10+8000 16d17+0
 0d0+100 600000
 8 8 2
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 8
 Str: 31
@@ -1206,10 +1227,11 @@ T 20627
 намекают на некоторую отрешенность от всего сущего у данного обитателя болота.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0m0p0C0c1t1 -600 E
-34 0 10 10d10+8000 16d17+0
+32 0 10 10d10+8000 16d17+0
 0d0+100 500000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 6
 Str: 37
@@ -1250,10 +1272,11 @@ T 20627
 Болотный дух, приходящий на зов кикимор помогает им губить людей.
 ~
 b0c0d0f0g0m0n0o0u0x0y0A0u2 d0k0m0p0C0c1t1 -600 E
-35 0 10 10d10+10000 17d18+0
+33 0 10 10d10+10000 17d18+0
 0d0+100 600000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 2
 Str: 47
@@ -1297,10 +1320,11 @@ T 20627
 лозы, вылез, чтобы посмотреть, что здесь происходит.
 ~
 b0c0d0f0g0m0n0o0u0x0y0A0u2 d0f0k0m0p0C0c1 -600 E
-35 -2 10 10d10+9000 18d17+0
+33 -2 10 10d10+9000 18d17+0
 0d0+100 600000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 14
 Str: 37
@@ -1341,10 +1365,11 @@ T 20627
 Человек с дыбом стоящими волосами и вертлявым хвостом недобро зыркает на Вас.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0m0p0C0c1t1y1 -600 E
-36 0 10 10d10+10000 17d16+0
+34 0 10 10d10+10000 17d16+0
 0d0+100 750000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 29
 AResist: 30
 BareHandAttack: 13
 Str: 42
@@ -1385,10 +1410,11 @@ T 20627
 выплыл из черной воды за свежими утопленниками.
 ~
 b0c0d0e0f0g0n0o0y0A0t1g2u2 d0k0m0p0C0c1t1 -600 E
-33 0 12 10d10+21000 18d19+0
+32 0 12 10d10+21000 18d19+0
 0d0+100 500000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 12
 Str: 47
@@ -1430,10 +1456,11 @@ T 20627
 свечением.
 ~
 b0c0d0e0f0g0n0o0x0y0A0u2 d0k0m0n0p0C0c1x1 -600 E
-34 0 6 10d10+7500 16d10+0
+33 0 6 10d10+7500 16d10+0
 0d0+100 600000
 8 8 2
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 2
 Str: 28
@@ -1468,10 +1495,11 @@ T 20627
 купающихся в омут.
 ~
 b0c0d0f0g0m0n0o0x0y0A0f2u2 d0k0n0p0C0c1t1z1 -600 E
-34 -3 10 10d10+9000 18d10+0
+33 -3 10 10d10+9000 18d10+0
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 5
 Str: 49
@@ -1513,10 +1541,11 @@ T 20627
 Больше про него ничего не известно.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0p0C0c1t1 -600 E
-35 -5 10 10d10+10000 18d15+0
+34 -5 10 10d10+10000 18d15+0
 0d0+100 700000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 29
 AResist: 30
 BareHandAttack: 4
 Str: 43
@@ -1551,6 +1580,7 @@ b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0m0p0C0c1 -600 E
 0d0+100 550000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 14
 Str: 28
@@ -1599,6 +1629,7 @@ b0c0d0e0f0g0m0n0o0y0A0g2u2 d0f0k0m0n0p0C0b1c1z1 -600 E
 0d0+100 450000
 8 8 0
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 8
 Str: 27
@@ -1641,10 +1672,11 @@ T 20627
 воду, а уж пьяницам всяко беда будет.
 ~
 b0c0d0e0f0g0m0n0o0y0A0g2u2 d0f0k0m0n0p0C0c1t1 -600 E
-35 -3 11 10d10+10000 17d15+0
+33 -3 11 10d10+10000 17d15+0
 0d0+100 600000
 8 8 2
 Saves: -26 -26 -26 -26
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 8
 Str: 23
@@ -1692,6 +1724,7 @@ b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0m0n0p0C0c1t1y1 -600 E
 0d0+100 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 14
 Str: 29
@@ -1731,6 +1764,7 @@ b0c0d0f0g0m0n0y0A0u2 d0f0k0m0n0p0C0t1y1 -600 E
 0d0+100 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 14
 Str: 29
@@ -1770,10 +1804,11 @@ T 20627
 Больше про него ничего не известно.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0p0C0c1t1 -600 E
-35 -13 -10 10d10+9000 17d18+0
+33 -13 -10 10d10+9000 17d18+0
 0d0+100 600000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 4
 Str: 45
@@ -1806,10 +1841,11 @@ T 20627
 Больше про него ничего не известно.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0p0C0b1c1t1 -600 E
-35 -13 -8 10d10+9000 19d17+0
+33 -13 -8 10d10+9000 19d17+0
 0d0+100 600000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 4
 Str: 44
@@ -1846,6 +1882,7 @@ b0c0d0e0f0g0m0n0o0y0A0u2 d0k0p0C0c1t1y1 -600 E
 0d0+100 500000
 8 8 2
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 8
 Str: 26
@@ -1889,6 +1926,7 @@ b0c0d0e0f0g0n0o0x0y0A0g2u2 d0k0p0C0b1c1y1 -600 E
 0d0+100 650000
 8 8 2
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 AResist: 30
 BareHandAttack: 4
 Str: 27
@@ -1926,10 +1964,11 @@ T 20627
 намекают на некоторую отрешенность от всего сущего у данного обитателя болота.
 ~
 b0c0d0f0g0m0n0o0x0y0A0u2 d0f0k0m0p0C0t1y1 -600 E
-34 -7 11 10d10+9000 15d17+4
+33 -7 11 10d10+9000 15d17+4
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 Str: 38
 Dex: 15
@@ -1962,10 +2001,11 @@ T 20627
 намекают на некоторую отрешенность от всего сущего у данного обитателя болота.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0m0p0C0t1y1 -600 E
-34 -5 12 10d10+8000 17d17+0
+33 -5 12 10d10+8000 17d17+0
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 Str: 35
 Dex: 10
@@ -2001,7 +2041,7 @@ T 20627
 Болотный дух, приходящий на зов кикимор помогает им губить людей.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0m0p0s0t0C0c1y1 -600 E
-36 -4 12 10d10+12000 17d18+0
+23 -4 12 10d10+12000 17d18+0
 0d0+100 65000
 8 8 1
 Saves: -30 -30 -30 -30
@@ -2043,10 +2083,11 @@ T 20627
 Болотный дух, приходящий на зов кикимор помогает им губить людей.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0m0p0s0t0C0c1t1y1 -600 E
-36 -5 11 10d10+12000 8d8+8
+34 -5 11 10d10+12000 8d8+8
 0d0+100 750000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 29
 AResist: 30
 BareHandAttack: 2
 Str: 41
@@ -2089,10 +2130,11 @@ T 20627
 Болотный дух, приходящий на зов кикимор помогает им губить людей.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0m0p0s0t0C0b1c1y1 -600 E
-36 -5 -10 10d10+12500 19d17+0
+35 -5 -10 10d10+12500 19d17+0
 0d0+100 800000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 32
 AResist: 30
 BareHandAttack: 8
 Str: 42
@@ -2136,10 +2178,11 @@ T 20627
 лозы, вылез, чтобы посмотреть, что здесь происходит.
 ~
 b0c0d0f0g0m0n0o0q0x0y0A0g2u2 d0f0k0m0p0C0c1t1y1 -600 E
-37 -5 -10 10d10+15000 16d25+0
+36 -5 -10 10d10+15000 16d25+0
 0d0+100 1000000
 8 8 1
 Saves: -34 -34 -34 -34
+CastSuccess: 35
 AResist: 40
 BareHandAttack: 14
 Str: 45
@@ -2178,10 +2221,11 @@ T 20627
 лозы, вылез, чтобы посмотреть, что здесь происходит.
 ~
 b0c0d0f0g0m0n0o0q0x0y0A0u2 d0f0k0m0p0C0c1t1y1 -600 E
-37 0 -8 10d10+15000 16d25+0
+36 0 -8 10d10+15000 16d25+0
 0d0+100 1000000
 8 8 1
 Saves: -34 -34 -34 -34
+CastSuccess: 35
 AResist: 40
 BareHandAttack: 14
 Str: 49
@@ -2220,10 +2264,11 @@ T 20627
 Больше про него ничего не известно.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0p0C0c1 -600 E
-34 -5 -9 10d10+8000 18d10+0
+33 -5 -9 10d10+8000 18d10+0
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 4
 Str: 45
@@ -2255,10 +2300,11 @@ T 20627
 Больше про него ничего не известно.
 ~
 b0c0d0f0g0m0n0o0y0A0u2 d0f0k0p0C0c1 -600 E
-34 -7 -11 10d10+8000 18d10+0
+33 -7 -11 10d10+8000 18d10+0
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 4
 Str: 44
@@ -2297,10 +2343,11 @@ T 20627
 Больше про него ничего не известно.
 ~
 b0c0d0f0g0m0n0o0x0y0A0g2u2 d0f0k0p0C0c1 -600 E
-34 -2 -8 10d10+8500 19d10+0
+33 -2 -8 10d10+8500 19d10+0
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 4
 Str: 40
@@ -2342,10 +2389,11 @@ T 20627
 на дно.
 ~
 b0c0d0f0g0m0n0o0y0A0u2 d0k0m0p0C0b1c1t1y1 -600 E
-36 0 -10 10d10+12000 17d16+0
+35 0 -10 10d10+12000 17d16+0
 0d0+100 800000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 32
 AResist: 30
 BareHandAttack: 2
 Str: 44
@@ -2388,10 +2436,11 @@ T 20627
 на дно.
 ~
 b0c0d0f0g0m0n0o0u0x0y0A0g2u2 d0k0m0p0C0c1t1y1 -600 E
-36 0 -7 10d10+12000 18d16+0
+35 0 -7 10d10+12000 18d16+0
 0d0+100 800000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 32
 AResist: 30
 BareHandAttack: 2
 Str: 49
@@ -2435,10 +2484,11 @@ T 20627
 выплыл из черной воды за свежими утопленниками.
 ~
 b0c0d0e0f0g0n0o0x0y0A0g2u2 d0k0m0p0C0b1c1 -600 E
-37 0 11 10d10+15000 9d9+9
+36 0 11 10d10+15000 9d9+9
 0d0+100 1000000
 8 8 1
 Saves: -34 -34 -34 -34
+CastSuccess: 35
 AResist: 40
 BareHandAttack: 12
 Str: 38
@@ -2482,10 +2532,11 @@ T 20627
 зазывает путников вглубь трясины.
 ~
 b0c0d0f0g0n0o0x0y0A0g2u2 d0k0m0n0p0C0t1 -600 E
-34 0 0 10d10+10000 18d10+0
+33 0 0 10d10+10000 18d10+0
 0d0+100 600000
 8 8 2
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 2
 Str: 36
@@ -2530,10 +2581,11 @@ T 20627
 лозы, вылез, чтобы посмотреть, что здесь происходит.
 ~
 b0c0d0f0g0m0n0o0q0y0A0g2u2 d0f0k0m0p0C0c1t1y1 -600 E
-37 0 -9 10d10+15000 16d17+0
+36 0 -9 10d10+15000 16d17+0
 0d0+100 1000000
 8 8 1
 Saves: -34 -34 -34 -34
+CastSuccess: 35
 AResist: 40
 BareHandAttack: 14
 Str: 34
@@ -2566,10 +2618,11 @@ T 20627
 Человек с дыбом стоящими волосами и вертлявым хвостом недобро зыркает на Вас.
 ~
 b0c0d0f0g0m0n0o0y0A0u2 d0f0k0m0p0C0c1t1y1 -600 E
-35 0 8 10d10+9000 18d10+0
+33 0 8 10d10+9000 18d10+0
 0d0+100 600000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 13
 Str: 38
@@ -2608,10 +2661,11 @@ T 20627
 Человек с дыбом стоящими волосами и вертлявым хвостом недобро зыркает на Вас.
 ~
 b0c0d0f0g0m0n0o0y0A0u2 d0f0k0m0p0C0c1t1y1 -600 E
-35 0 8 10d10+9000 18d10+0
+33 0 8 10d10+9000 18d10+0
 0d0+100 600000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 13
 Str: 37
@@ -2649,6 +2703,7 @@ b0c0d0f0g0m0n0o0y0A0u2 d0f0k0m0p0C0c1y1 -600 E
 0d0+100 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 14
 Str: 28
@@ -2690,6 +2745,7 @@ b0c0d0f0g0m0n0o0y0A0u2 d0f0k0m0p0C0c1y1 -600 E
 0d0+100 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 14
 Str: 32
@@ -2736,6 +2792,7 @@ b0c0d0f0g0m0n0o0y0A0u2 d0f0k0m0p0C0c1y1 -600 E
 0d0+100 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 AResist: 30
 BareHandAttack: 14
 Str: 31
@@ -2778,10 +2835,11 @@ T 20627
 зазывает путников вглубь трясины.
 ~
 b0c0d0e0f0g0n0o0x0y0A0u2 d0k0m0n0p0C0c1 -600 E
-36 0 -11 10d10+13000 18d12+0
+34 0 -11 10d10+13000 18d12+0
 0d0+100 750000
 8 8 2
 Saves: -30 -30 -30 -30
+CastSuccess: 29
 AResist: 30
 BareHandAttack: 2
 Str: 45
@@ -2825,6 +2883,7 @@ b0c0d0e0f0g0n0o0x0y0A0g2u2 d0k0m0n0p0C0c1x1 -600 E
 0d0+100 400000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 12
 Str: 22
 Con: 22
@@ -2854,10 +2913,11 @@ T 20627
 пожирает людей. Больше про него ничего не известно.
 ~
 b0c0d0f0g0m0n0o0q0y0A0g2u2 d0f0k0p0C0c1t1 -600 E
-37 -4 -6 10d10+15000 18d18+0
+36 -4 -6 10d10+15000 18d18+0
 0d0+100 1000000
 8 8 1
 Saves: -34 -34 -34 -34
+CastSuccess: 35
 AResist: 40
 BareHandAttack: 4
 Str: 44
@@ -2899,10 +2959,11 @@ T 20627
 пожирает людей. Больше про него ничего не известно.
 ~
 b0c0d0f0g0m0n0o0q0y0A0g2u2 d0f0k0p0C0c1t1 -600 E
-37 -5 -8 10d10+15000 18d18+0
+36 -5 -8 10d10+15000 18d18+0
 0d0+100 1000000
 8 8 1
 Saves: -34 -34 -34 -34
+CastSuccess: 35
 AResist: 40
 BareHandAttack: 4
 Str: 49
@@ -2953,6 +3014,7 @@ b0c0d0f0g0n0o0x0y0A0t1g2u2 d0k0m0n0p0C0c1x1 -600 E
 0d0+100 400000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 12
 Str: 25
 Dex: 8
@@ -2989,6 +3051,7 @@ b0c0d0e0f0g0n0o0x0y0A0g2u2 d0k0m0n0p0C0c1x1 -600 E
 0d0+100 400000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 12
 Str: 25
 Dex: 10
@@ -3025,6 +3088,7 @@ b0c0d0e0f0g0n0o0x0y0A0g2u2 d0k0m0n0p0C0c1x1 -600 E
 0d0+100 400000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 12
 Str: 19
 Dex: 16
@@ -3057,10 +3121,11 @@ T 20627
 свечением.
 ~
 b0c0d0e0f0g0n0o0p0r0x0y0A0g2u2 d0k0m0n0p0C0c1t1 -600 E
-37 0 10 10d10+14000 9d9+12
+35 0 10 10d10+14000 9d9+12
 0d0+100 900000
 8 8 2
 Saves: -34 -34 -34 -34
+CastSuccess: 32
 AResist: 40
 BareHandAttack: 2
 Str: 35
@@ -3103,10 +3168,11 @@ T 20627
 купающихся в омут.
 ~
 b0c0d0f0g0m0n0o0q0x0y0A0u2 d0f0k0m0n0p0C0c1t1z1 -600 E
-34 0 10 10d10+9000 19d8+0
+33 0 10 10d10+9000 19d8+0
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 5
 Str: 40
@@ -3148,10 +3214,11 @@ T 20627
 купающихся в омут.
 ~
 b0c0d0f0g0m0n0o0q0x0y0A0u2 d0f0k0m0n0p0C0c1z1 -600 E
-34 0 11 10d10+9000 19d18+0
+33 0 11 10d10+9000 19d18+0
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 5
 Str: 46
@@ -3186,10 +3253,11 @@ T 20627
 купающихся в омут.
 ~
 b0c0d0f0g0m0n0o0q0x0y0A0u2 d0f0k0m0n0p0C0c1t1z1 -600 E
-34 0 8 10d10+9000 19d8+0
+33 0 8 10d10+9000 19d8+0
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 5
 Str: 40
@@ -3227,10 +3295,11 @@ T 20627
 купающихся в омут.
 ~
 b0c0d0f0g0m0n0o0q0x0y0A0u2 d0f0k0m0n0p0C0c1t1z1 -600 E
-34 0 12 10d10+9000 17d18+0
+33 0 12 10d10+9000 17d18+0
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 5
 Str: 47
@@ -3268,10 +3337,11 @@ T 20627
 купающихся в омут.
 ~
 b0c0d0f0g0m0n0o0q0y0A0u2 d0f0k0m0n0p0C0c1t1z1 -600 E
-34 0 10 10d10+9000 19d9+0
+33 0 10 10d10+9000 19d9+0
 0d0+100 600000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 5
 Str: 40
@@ -3314,6 +3384,7 @@ b0c0d0f0g0m0n0o0y0A0u2 d0k0p0C0t1 -600 E
 0d0+100 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 Str: 36
 Int: 20
 Wis: 18
@@ -3351,6 +3422,7 @@ b0c0d0f0g0n0o0x0y0A0u2 d0k0p0C0 -600 E
 0d0+100 400000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 8
 Str: 28
 Dex: 9
@@ -3391,6 +3463,7 @@ b0c0d0f0g0n0o0y0A0u2 d0k0p0C0 -600 E
 0d0+100 400000
 8 8 2
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 8
 Str: 33
 Dex: 10
@@ -3430,6 +3503,7 @@ b0c0d0f0g0m0n0o0x0y0A0u2 d0k0p0C0t1 -600 E
 0d0+100 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 Str: 39
 Dex: 13
 Int: 18
@@ -3468,6 +3542,7 @@ b0c0d0f0g0m0n0o0q0y0A0u2 d0k0p0C0t1 -600 E
 0d0+100 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 Str: 38
 Dex: 9
 Int: 18
@@ -3556,7 +3631,7 @@ T 20619
 рыбьей чешуей явно не доволен Вашим присутствием здесь.
 ~
 b0c0d0f0g0m0n0o0u0x0y0A0g2u2 d0k0m0n0p0C0c1 -600 E
-39 -4 10 10d10+12000 17d17+0
+36 -4 10 10d10+12000 17d17+0
 0d0+100 1000000
 8 8 1
 Saves: -42 -42 -42 -42
@@ -3601,10 +3676,11 @@ T 20627
 уставился на Вас мерцающими глазами.
 ~
 b0c0d0f0g0m0n0o0y0A0u2 d0k0m0p0C0b1c1t1 -600 E
-37 -3 10 10d10+15000 17d18+0
+35 -3 10 10d10+15000 17d18+0
 0d0+110 900000
 8 8 1
 Saves: -34 -34 -34 -34
+CastSuccess: 32
 AResist: 40
 BareHandAttack: 4
 Str: 48
@@ -3647,10 +3723,11 @@ T 20627
 на дно.
 ~
 b0c0d0f0g0m0n0o0y0A0u2 d0k0m0n0p0C0b1c1t1y1 -600 E
-38 -4 10 10d10+15000 16d17+0
+36 -4 10 10d10+15000 16d17+0
 0d0+100 1000000
 8 8 0
 Saves: -38 -38 -38 -38
+CastSuccess: 35
 AResist: 40
 BareHandAttack: 2
 Str: 48
@@ -3694,9 +3771,11 @@ T 20627
 зазывает путников вглубь трясины.
 ~
 b0c0d0f0g0m0n0o0y0A0u2 d0k0m0n0p0C0c1j1 -600 E
-25 -5 -11 10d10+13000 18d14+0
+31 -5 -11 10d10+13000 18d14+0
 0d0+100 400000
 8 8 2
+Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 2
 Str: 45
 Dex: 16
@@ -3727,7 +3806,7 @@ E
 T 20627
 #20686
  берендей нечисть~
-берендей ~
+берендей~
 берендея~
 берендею~
 берендея~
@@ -3739,10 +3818,11 @@ T 20627
 уставился на Вас мерцающими глазами.
 ~
 b0c0d0f0g0m0n0o0y0A0u2 d0f0k0p0C0c1t1 -600 E
-35 -5 -9 10d10+10000 18d18+0
+34 -5 -9 10d10+10000 18d18+0
 0d0+100 650000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 29
 AResist: 30
 BareHandAttack: 1
 Str: 40
@@ -3762,7 +3842,7 @@ E
 T 20627
 #20687
  старый берендей нечисть~
-старый берендей ~
+старый берендей~
 старого берендея~
 старому берендею~
 старого берендея~
@@ -3774,10 +3854,11 @@ T 20627
 уставился на Вас мерцающими глазами.
 ~
 b0c0d0f0g0n0o0x0y0A0g2u2 d0f0k0m0n0p0C0c1t1 -600 E
-37 -4 10 10d10+15000 19d19+0
+35 -4 10 10d10+15000 19d19+0
 0d0+100 900000
 8 8 1
 Saves: -34 -34 -34 -34
+CastSuccess: 32
 AResist: 40
 BareHandAttack: 1
 Str: 50
@@ -3809,7 +3890,7 @@ E
 T 20627
 #20688
  берендей нечисть~
-берендей ~
+берендей~
 берендея~
 берендею~
 берендея~
@@ -3821,10 +3902,11 @@ T 20627
 уставился на Вас мерцающими глазами.
 ~
 b0c0d0f0g0m0n0o0y0A0u2 d0f0k0p0C0c1t1 -600 E
-35 -6 -9 10d10+10000 18d18+0
+33 -6 -9 10d10+10000 18d18+0
 0d0+100 600000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 1
 Str: 40
@@ -3845,7 +3927,7 @@ E
 T 20627
 #20689
  берендей нечисть~
-берендей ~
+берендей~
 берендея~
 берендею~
 берендея~
@@ -3857,10 +3939,11 @@ T 20627
 уставился на Вас мерцающими глазами.
 ~
 b0c0d0f0g0m0n0o0y0A0u2 d0f0k0p0C0c1t1 -600 E
-35 -6 -9 10d10+10000 18d18+0
+33 -6 -9 10d10+10000 18d18+0
 0d0+100 600000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 1
 Str: 40
@@ -3893,10 +3976,11 @@ T 20627
 зазывает путников вглубь трясины.
 ~
 b0c0d0f0g0m0n0o0y0A0u2 d0f0k0m0n0p0C0c1j1 -600 E
-34 -4 -11 10d10+8000 18d14+0
+33 -4 -11 10d10+8000 18d14+0
 0d0+100 600000
 8 8 2
 Saves: -22 -22 -22 -22
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 2
 Str: 47
@@ -3936,10 +4020,11 @@ T 20627
 уставился на Вас мерцающими глазами.
 ~
 b0c0d0f0g0m0n0o0y0A0u2 d0k0m0p0C0b1c1t1 -600 E
-36 -10 11 10d10+12000 17d18+0
+35 -10 11 10d10+12000 17d18+0
 0d0+100 800000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 32
 AResist: 30
 BareHandAttack: 4
 Str: 46
@@ -3980,6 +4065,7 @@ b0c0d0f0g0m0n0o0y0A0u2 d0f0k0m0p0C0c1 -600 E
 0d0+100 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 BareHandAttack: 14
 Str: 30
 Dex: 15
@@ -4015,6 +4101,7 @@ b0c0d0f0g0m0n0o0y0A0u2 d0f0k0m0p0C0c1 -600 E
 0d0+100 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 BareHandAttack: 14
 Str: 26
 Dex: 18
@@ -4050,10 +4137,11 @@ T 20627
 Человек с дыбом стоящими волосами и вертлявым хвостом недобро зыркает на Вас.
 ~
 b0c0d0f0g0n0o0y0A0g2u2 d0f0k0m0p0C0c1t1 -600 E
-35 0 8 10d10+9000 18d17+0
+33 0 8 10d10+9000 18d17+0
 0d0+100 600000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 26
 AResist: 30
 BareHandAttack: 13
 Str: 36
@@ -4095,6 +4183,7 @@ b0c0d0f0g0m0n0o0y0A0g2u2 d0f0k0m0p0C0c1 -600 E
 0d0+100 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 BareHandAttack: 14
 Str: 33
 Dex: 16
@@ -4136,6 +4225,7 @@ b0c0d0m0n0o0q0x0y0A0g2 d0h0k0r0C0m1t1 -600 E
 0d0+100 750000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 AResist: 30
 MResist: 30
 BareHandAttack: 11
@@ -4181,6 +4271,7 @@ b0c0d0f0m0n0o0p0q0x0y0A0 d0h0k0r0C0m1t1 -600 E
 0d0+100 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 AResist: 20
 MResist: 20
 BareHandAttack: 11
@@ -4227,6 +4318,7 @@ b0c0d0f0m0n0o0q0y0A0i2 d0h0k0r0C0m1t1 -600 E
 0d0+100 700000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
 BareHandAttack: 11
 Str: 37
 Dex: 27

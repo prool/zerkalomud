@@ -609,7 +609,10 @@ end
 0 n 100
 ~
 wait 10
-mpurge глава 
+if (%exist.mob(68433)%)
+  calcuid glava 68433 mob
+  mpurge %glava%
+end
 mecho _Верховный дух:
 mecho _- Ты все же сильнее чем я предполагал! 
 mecho _- Ты настойчиво не хочешь умирать.
@@ -625,8 +628,13 @@ mload mob 68418
 wait 5
 груп все
 mecho _Дух что-то пошептал и разгневано зыркнул на теней!
-mecho _Теней окутала сверкающая пелена!
-dg_cast 'магическое зеркало'
+*mecho _Теней окутала сверкающая пелена!
+foreach smob %self.npc%
+  if (%smob.vnum% == 68418)
+    dg_cast 'зерк маги' %smob%
+  end
+done
+dg_cast 'зерк маги'
 ~
 #68427
 тени говорят~
@@ -859,7 +867,7 @@ detach 68434 %self.id%
 ~
 wait 5
 if %object.vnum% == 68457  
-  mpurge %object.iname%
+  mpurge %object%
   mecho _Жадный купец:
   mecho _- О-о-о да!
   mecho _- Какая прекрасная вещица!
@@ -929,14 +937,20 @@ attach 68416 %fromid.id%
 1 n 100
 ~
 wait 5
-opurge жертвенный
+if (%exist.obj(68442)%)
+  calcuid stol 68442 obj
+  opurge %stol%
+end
 ~
 #68439
 удаляем сухое дерево при загрузке вырванного~
 1 n 100
 ~
 wait 5
-opurge серое дерево
+if (%exist.obj(68401)%)
+  calcuid tree 68401 obj
+  opurge %tree%
+end
 ~
 #68440
 убили белого земляного цвета~

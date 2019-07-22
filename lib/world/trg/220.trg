@@ -12,6 +12,7 @@ eval healer 0
 global healer
 eval voin 0
 global voin
+%door% 22058 down purge
 attach 22011 %world.room(22058)%
 eval loadroom %random.13%*5+22021
 calcuid rm %loadroom% room
@@ -53,7 +54,7 @@ say Была у меня сумка с лечебныи зельями, подарок одного волхва, да только потер
 wait 1s
 печа
 wait 1s
-say Ну да ладно с твоей помошью и так справимся!
+say Ну да ладно, с твоей помощью и так справимся!
 say Как будешь готов%actor.a% к бою скажи и сразу пойдем.
 wait 1s
 отд
@@ -103,19 +104,20 @@ detach 22004 %warrior.id%
 дали сумку воину~
 0 j 100
 ~
-if (%object.vnum%==22000)
-  say Спасибо тебе, %actor.name%. Теперь я смогу подлечиться немного.
-  %echo% Воин взял из сумки несколько снадобий и смазал ими свои раны.
-  wait 2 s
-  %echo% Воин выглядит намного лучше.
-  eval %self.hitp(1750)%
-  calcuid heal 22000 obj
-  %purge% %heal%
-  eval healer 1
-  global healer
-else
+if (%object.vnum% != 22000)
+  say Зачем мне это?
+  return 0
   halt
 end
+wait 1
+mpurge %object%
+say Спасибо тебе, %actor.name%. Теперь я смогу подлечиться немного.
+mecho Воин взял из сумки несколько снадобий и смазал ими свои раны.
+wait 2s
+mecho Воин выглядит намного лучше.
+eval %self.hitp(1750)%
+eval healer 1
+global healer
 ~
 #22006
 смерть волкодлака~
@@ -183,9 +185,9 @@ if ( %healer%==1)
   полож отвар сумк
   if %random.100% <= 25
     %load% obj 403
-    дать книг %helper.name%
+    дать книг .%helper.name%
   end
-  дать сумка %helper.name%
+  дать сумка .%helper.name%
   wait 1 s
   say Вот, мне она не особенно нужна, а тебе в твоих путешествиях я думаю пригодится.
   calcuid warrior 22003 mob
@@ -207,7 +209,7 @@ global voin
 ~
 #22009
 лоад сумки~
-0 z 100
+2 z 100
 ~
 %load% obj 22000
 ~

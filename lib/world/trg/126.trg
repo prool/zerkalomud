@@ -726,6 +726,9 @@ end
 0 c 1
 закупка~
 wait 1
+say Для тебя у меня ничего нет, прогуляйся к мятельнику.
+halt
+wait 1
 * if %arc.contains(закупка)%
 if %actor.clan%!=нд
   msend %actor.name% Совершай покупки в другом месте!

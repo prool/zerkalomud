@@ -173,11 +173,13 @@ say ну ты овер просто!
 взяли шмот~
 1 g 100
 ~
+halt
+*триг выключен за (временной) ненадобностью
 wait 1
 if %actor.clan% == вс || %actor.clan% == рсп || %actor.clan% == вд 
   halt
 end
-osend %actor% %self.name% рассыпал%self.u% в ваших руках.
+osend %actor% %self.iname% рассыпал%self.u% в ваших руках.
 wait 1
 opurge %self%
 ~
@@ -210,40 +212,43 @@ mechoaround Злой цербер оскалил свои &Rкровавые&n клыки.
 закопаться~
 2 c 0
 закопаться земля~
+* закопаться | Rooms | Command | 0 | закопаться земля
 wait 1
-if !%arg.contains(земля)%
+if (!%arg.contains(земля)%)
   wsend %actor% Куда это вы хотите закопаться?
   return 0
   halt
 end
-if (!%actor.rentable% && !%actor.fighting% && (%actor.clan% == вс ))
-  wsend %actor%  Вы закопались под землю.
-  wechoaround %actor% %actor.name% начал%actor.g% активно копать и вскоре скрыл%actor.u% под землей.
-  switch %random.5%
-    case 5
-      wteleport %actor% 21046
-    break
-    case 4
-      wteleport %actor% 21060
-    break
-    case 3
-      wteleport %actor% 21069
-    break
-    case 2
-      wteleport %actor% 21038
-    break
-    case 1
-      wteleport %actor% 21059
-    break
-  done
-  wechoaround %actor% %actor.name% выкопал%actor.u% откуда-то снизу.
-  halt
-elseif (%actor.rentable% && !%actor.fighting% && (%actor.clan% == вс )) 
-  wteleport %actor% 21017
-  wechoaround %actor% %actor.name% выкопал%actor.u% откуда-то снизу.
-  halt
+if ((!%actor.fighting%) && ((%actor.clan% == вс) || (%actor.clan% == сп) || (%actor.clan% == тдн) || (%actor.level% > 30)))
+  if (!%actor.rentable%)
+    wsend %actor% Вы закопались под землю.
+    wechoaround %actor% %actor.iname% начал%actor.g% активно копать и вскоре скрыл%actor.u% под землей.
+    switch %random.5%
+      case 5
+        wteleport %actor% 21046
+      break
+      case 4
+        wteleport %actor% 21060
+      break
+      case 3
+        wteleport %actor% 21069
+      break
+      case 2
+        wteleport %actor% 21038
+      break
+      case 1
+        wteleport %actor% 21059
+      break
+    done
+    wechoaround %actor% %actor.iname% выкопал%actor.u% откуда-то снизу.
+    halt
+  else
+    wteleport %actor% 21017
+    wechoaround %actor% %actor.iname% выкопал%actor.u% откуда-то снизу.
+  end
 else
-  wsend %actor% Чаво? 
+  return 0
+  halt
 end
 ~
 #21014

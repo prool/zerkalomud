@@ -117,7 +117,7 @@ if %object.vnum% == 12101
   %self.gold(+100)%
   дать 100 кун %actor.name%
   wait 1
-  mpurge %object.iname%
+  mpurge %object%
   wait 8
   msend %actor% Бабка съела колобка.
   wait 8

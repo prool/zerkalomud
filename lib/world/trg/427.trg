@@ -26,26 +26,26 @@ switch %object.name%
         mechoaround %actor% %actor.rname% вышвырнули сюда с севера.
       end
       mecho Даа, не хорошо воровать.
-      mpurge труп
+      поло труп.мыши миска
     else
       say  О!  Грызун! Моему котику будет что покушать.
-      mpurge труп
+      mpurge %object%
       mload obj 42707
       поло труп.мыши миска
       %self.gold(+10)%
-      дать 10 кун %actor.name%
+      дать 10 кун .%actor.name%
       say Возьми, за беспокойство.
     end
   break
   case клочок бересты
     say  Молодец, %actor.name%! Ты славно поработал%actor.g%.
     %self.gold(+100)%
-    дать 100 кун %actor.name%
-    mpurge клочок
+    дать 100 кун .%actor.name%
+    mpurge %object%
   break
   case труп котяры
     say О горе, горе! Ты убил моего любимого котика!
-    mpurge труп
+    mpurge %object%
     msend %actor.name% Управляющий придал вам скорости ногой.
     mechoaround %actor% Управляющий придал %actor.rname% скорости ногой.
     mdamage %actor% 50
@@ -55,12 +55,12 @@ switch %object.name%
     end
   break
   case красивая брошка
-    радов %actor.name%
+    радов .%actor.name%
     say Наконец-то моя брошь нашлась! Как я горевал, когда она пропала.
     say Спасибо тебе, %actor.name%, я ценю таких находчивых людей.
     %self.gold(+200)%
-    дать 200 кун %actor.name%
-    mpurge брошка
+    дать 200 кун .%actor.name%
+    mpurge %object%
   break
   default
     say  Зачем мне это? 
@@ -103,11 +103,11 @@ switch %object.name%
   case мешок зерна
     say  Сейчас, сейчас, %actor.name%! Скоро все будет готово!
     mecho Мукомол высыпал зерно в жернов и подставил пустой мешок для муки.
-    mpurge мешок.зерна
+    mpurge %object%
     wait 3 s
     mload obj 42702
     say  Вот! Уже все готово, забирай.
-    дать мешок %actor.name%
+    дать мешок .%actor.name%
     say  Отнеси его в амбар.
   break
   default
@@ -126,10 +126,10 @@ switch %object.vnum%
   case 42702
     say  Хорошо, %actor.name%. Ты славно поработал%actor.g%.
     oecho Кладовщик начал что-то царапать на кусочке бересты.
-    mpurge мешок.муки
+    mpurge %object%
     wait 1s
     mload obj 42705
-    дать клочок %actor.name%
+    дать клочок .%actor.name%
     say  Можешь идти к управляющему за расчетом.
   break
   default

@@ -757,7 +757,8 @@ eval number 1
 global number
 *если большой змей убит, но маленькие живы - лоадим большого змея )
 if %exist.mob(91503)% && !%exist.mob(91500)%
-  wpurge little_red_snake915
+  calcuid litredsnake 91503 mob
+  wpurge %litredsnake%
   wecho _Маленький красный змееныш вдруг резко дернулся.
   wecho _Шкура и крылья сползли с него и он резко увеличился в размерах!
   wecho _Двухголовый красный змей предстал перед Вами!
@@ -813,7 +814,8 @@ eval number 1
 global number
 *если большой змей убит, но маленькие живы - лоадим большого змея )
 if %exist.mob(91504)% && !%exist.mob(91501)%
-  wpurge little_white_snake915
+  calcuid litwhitsnake 91504 mob
+  wpurge %litwhitsnake%
   wecho _Маленький белый змееныш вдруг резко дернулся.
   wecho _Шкура и крылья сползли с него и он резко увеличился в размерах!
   wecho _Двухголовый белый змей предстал перед Вами!
@@ -869,7 +871,8 @@ eval number 1
 global number
 *если большой змей убит, но маленькие живы - лоадим большого змея )
 if %exist.mob(91505)% && !%exist.mob(91502)%
-  wpurge little_green_snake915
+  calcuid litgresnake 91505 mob
+  wpurge %litgresnake%
   wecho _Маленький белый змееныш вдруг резко дернулся.
   wecho _Шкура и крылья сползли с него и он резко увеличился в размерах!
   wecho _Двухголовый зеленый змей предстал перед Вами!

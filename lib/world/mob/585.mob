@@ -51,6 +51,7 @@ b0d0g0t0x0g2o2 d0h0A0D0 0 E
 10d10+200 350000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 11
 Str: 35
 Dex: 28
@@ -79,13 +80,13 @@ Spell: 28
 Spell: 39
 Spell: 76
 Spell: 76
-Helper: 58508
-Helper: 58507
-Helper: 58506
-Helper: 58505
-Helper: 58504
-Helper: 58503
 Helper: 58502
+Helper: 58503
+Helper: 58504
+Helper: 58505
+Helper: 58506
+Helper: 58507
+Helper: 58508
 E
 T 58516
 #58502
@@ -146,12 +147,12 @@ Spell: 28
 Spell: 28
 Spell: 68
 Spell: 69
-Helper: 58508
-Helper: 58507
-Helper: 58506
-Helper: 58505
-Helper: 58504
 Helper: 58503
+Helper: 58504
+Helper: 58505
+Helper: 58506
+Helper: 58507
+Helper: 58508
 E
 T 58506
 T 58513
@@ -177,7 +178,7 @@ Saves: -10 -10 -10 -10
 Resistances: 5 5 5 5 5 5 5
 HPreg: 5
 Armour: 20
-CastSuccess: 15
+CastSuccess: 20
 Success: 5
 Initiative: 7
 Absorbe: 10
@@ -215,13 +216,13 @@ Spell: 74
 Spell: 114
 Spell: 114
 Spell: 136
-Helper: 58508
-Helper: 58507
-Helper: 58506
-Helper: 58505
-Helper: 58504
-Helper: 58502
 Helper: 58501
+Helper: 58502
+Helper: 58504
+Helper: 58505
+Helper: 58506
+Helper: 58507
+Helper: 58508
 E
 T 58514
 #58504
@@ -240,7 +241,7 @@ T 58514
 опасно, и в трактир потом можно не попасть.
 ~
 b0d0g0l0m0p0r0x0g2o2 d0k0r0C0D0c1r1x1 0 E
-30 -13 -9 10d10+1500 6d20+20
+29 -13 -9 10d10+1500 6d20+20
 10d0+600 200000
 8 8 1
 Saves: 7 7 7 7
@@ -707,7 +708,7 @@ Size: 60
 LikeWork: 40
 ExtraAttack: 2
 Class: 101
-Race: 113
+Race: 111
 Height: 90
 Weight: 55
 Special_Bitvector: l0C3 
@@ -770,7 +771,7 @@ Size: 77
 LikeWork: 33
 ExtraAttack: 2
 Class: 101
-Race: 113
+Race: 111
 Height: 167
 Weight: 70
 Special_Bitvector: 0 
@@ -832,7 +833,7 @@ Size: 80
 LikeWork: 44
 ExtraAttack: 2
 Class: 101
-Race: 113
+Race: 111
 Height: 177
 Weight: 86
 Special_Bitvector: 0 
@@ -881,7 +882,7 @@ Size: 100
 LikeWork: 50
 ExtraAttack: 2
 Class: 101
-Race: 113
+Race: 111
 Height: 175
 Weight: 85
 Special_Bitvector: 0 
@@ -904,9 +905,9 @@ Spell: 76
 Spell: 76
 Spell: 76
 Spell: 76
-Helper: 58513
-Helper: 58512
 Helper: 58511
+Helper: 58512
+Helper: 58513
 E
 T 58509
 T 58522
@@ -1099,7 +1100,7 @@ Size: 50
 LikeWork: 10
 ExtraAttack: 2
 Class: 100
-Race: 113
+Race: 111
 Height: 198
 Weight: 60
 Special_Bitvector: l0 

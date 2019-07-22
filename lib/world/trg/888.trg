@@ -75,7 +75,7 @@ end
 ~
 wait 5s 
 set vkogo %random.pc% 
-if (%vkogo%)
+if ((%vkogo%) && (%self.position% >= 7))
   eval damag %vkogo.hitp%/3 + 150
   msend %vkogo% _&RРаб схватил огромный камень и швырнул его в вас !&n
   mechoaround %vkogo% _Раб схватил огромный камень и швырнул его в %vkogo.vname% !
@@ -199,23 +199,19 @@ attach 88808 %staya51.id%
 wait 2
 calcuid staya53 88853 room
 attach 88808 %staya53.id%
-calcuid tsepi63 88863 room
-attach 88812 %tsepi63.id%
-calcuid tsepi65 88865 room
-attach 88812 %tsepi65.id%
 wait 2
 calcuid osyp 88893 room
 attach 88813 %osyp.id%
 ~
 #88812
 лоад оживших цепей~
-1 t 100
+1 at 100
 ~
 wait 1
-wecho _Цепи зашевелились и поднялись с пола.
-wload mob 88835
+%echo% _Цепи зашевелились и поднялись с пола.
+%load% mob 88835
 wait 1
-wpurge %self%
+%purge% %self%
 ~
 #88813
 у осыпи~
@@ -458,7 +454,7 @@ return 1
 ~
 #88823
 грудка гранок~
-1 j 100
+1 b 5
 ~
 wait 1
 switch %random.4%
@@ -480,10 +476,12 @@ done
 цепи холдят~
 0 n 100
 ~
-eval kogo %random.pc% 
-msend %kogo% _&yЦепи плотно обвили вас !&n
-mechoaround %kogo% _Цепи плотно обвили %kogo.vname% !
-dg_cast 'оцеп' %kogo%
+eval kogo %random.pc%
+if %kogo.name%
+  msend %kogo% _&yЦепи плотно обвили вас !&n
+  mechoaround %kogo% _Цепи плотно обвили %kogo.vname% !
+  dg_cast 'оцеп' %kogo%
+end
 ~
 #88825
 падает истовик~

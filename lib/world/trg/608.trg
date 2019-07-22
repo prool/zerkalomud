@@ -48,10 +48,29 @@ detach 60802 %zasd.id%
 0 r 100
 ~
 wait 1
-mecho Схватила Вас за ноги не пуская на север.
-say  дай миллион.... дай миллион......
-say ну дай миллион......
+switch %direction%
+  case north
+    if (%self.realroom% == 60852)
+      set dontletgo на восток
+    else
+      set dontletgo на юг
+    end
+  break
+  case south
+    set dontletgo на север
+  break
+  case east
+    set dontletgo на север
+  break
+  default
+    set dontletgo куда-либо
+  break
+done
+msend       %actor% %self.iname% схватила Вас за ноги, не позволяя пройти %dontletgo%.
+mechoaround %actor% %self.iname% схватила %actor.vname% за ноги, не позволяя пройти %dontletgo%.
+say Дай миллион... Дай миллион...
+say Ну дай миллион!!!
 wait 1s
-say НЕ ДАЕШЬ ТАК УМРИ !!!!
+say НЕ ДАЕШЬ ТАК УМРИ!!!
 ~
 $~

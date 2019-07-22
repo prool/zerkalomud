@@ -3,8 +3,8 @@
 2 c 0
 надавить нажать вдавить~
 wait 1s
-wsend %actor.iname% Подойдя к стене, Вы с силой вдавили в нее выступающий камень.
-wechoaround %actor.iname% подойдя к стене вдавил%actor.g% в нее камень. 
+wsend %actor% Подойдя к стене, Вы с силой вдавили в нее выступающий камень.
+wechoaround %actor% Подойдя к стене, %actor.iname% вдавил%actor.g% в нее камень. 
 wait 1s
 wat 66801 wecho От куда-то донесся сильный скрежет.
 wat 66802 wecho От куда-то донесся сильный скрежет.
@@ -21,9 +21,9 @@ detach 66800 %delete_item.id%
 0 r 100
 ~
 wait 1s
-msend %actor.name% Телохранитель истошно завопил и бросился на вас!
-mechoaround %actor.name% Телохранитель истошно завопил и бросился на %actor.rname%!
-атак %actor.name%
+msend %actor% Телохранитель истошно завопил и бросился на Вас!
+mechoaround %actor% Телохранитель истошно завопил и бросился на %actor.vname%!
+mkill %actor%
 ~
 #66802
 Охранник_агр~

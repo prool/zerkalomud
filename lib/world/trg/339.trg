@@ -176,7 +176,7 @@ detach 33911 %self.id%
 ~
 wait 1s
 msend %actor% Дьячок перестал писать, на мгновение задумался и продолжил дальше писать, не замечая Вас.
-if %actor.name%==%questor339%
+if (%actor.name%==%questor339%)
   if %exist.mob(33927)%
     wait 1s
     msend %actor% Неожиданно дьячок поднял на Вас глаза и оглядел с головы до пят.
@@ -184,8 +184,10 @@ if %actor.name%==%questor339%
     wait 1s
     msend %actor% - На кладбище появляются духи - избавь нас от них, и тогда я, возможно, помогу тебе.
     msend %actor% Дьяк вновь занялся своими делами.
-    calcuid nichiy 33915 mob
-    attach 33913 %nichiy.id%
+    if %exist.mob(33915)%
+      calcuid nichiy 33915 mob
+      attach 33913 %nichiy.id%
+    end
     attach 33930 %self.id%
     detach 33912 %self.id%
   end
@@ -236,7 +238,7 @@ switch %myvar%
     mecho Убогий замолчал, вдруг изловчился, прыгнул в кусты и пропал.
     set myvar 0
     global myvar
-    mpurge %self.name%
+    mpurge %self%
   break
   default
     say Огромное спасибо, баре, да не отвернется от тебя удача!
@@ -491,187 +493,171 @@ end
 0 j 100
 ~
 wait 1
-if !(%object.vnum% == 33934)
-  msend %actor% Зачем мне это?
-  eval getobject %object.name%
-  броси %getobject.car%.%getobject.cdr%
+if (%object.vnum% != 33934)
+  say Зачем мне это?
+  drop all
   halt
 end
-if !(%actor.name% == %questor339%)
+if (%actor.name% != %questor339%)
   msend %actor% Hе тебе давали задание, но за наконечник спасибо.
-else
-  wait 1
-  mpurge %object%
-  msend %actor% Женщина взглянула на Вас и залилась горькими слезами.
-  mechoaround %actor% Женщина взглянула на %actor.rname% и залилась горькими слезами.
-  msend %actor% Мой муж - сквозь слезы проговорила она, - он мертв!
-  плак
-  wait 2
-  say Ну чтож, теперь я хоть знаю его судьбу, видимо он сам этого захотел.
-  say За это я тебя отблагодарю!
-  switch %actor.class%
-    *лекарь
-    case 0
-      eval lev 10-%actor.remort%/2
-      if (!%actor.spelltype(изгнать зло)%) && (%actor.level% >= %lev%)
-        mspellturn %actor.name% изгнать.зло set
-        say О, %actor.name%. Познай заклинание изгнать зло!
+  halt
+end
+wait 1
+mpurge %object%
+msend %actor% Женщина взглянула на Вас и залилась горькими слезами.
+mechoaround %actor% Женщина взглянула на %actor.rname% и залилась горькими слезами.
+msend %actor% "Мой муж," - сквозь слезы проговорила она, - "он мертв!"
+плак
+wait 2
+say Ну чтож, теперь я хоть знаю его судьбу, видимо он сам этого захотел.
+say За это я тебя отблагодарю!
+switch %actor.class%
+  *лекарь
+  case 0
+    if (!%actor.spelltype(изгнать зло)% && %actor.can_get_spell(изгнать зло)%)
+      mspellturn %actor% изгнать.зло set
+      say О, %actor.iname%. Познай заклинание изгнать зло!
+    else
+      say Извини, но либо ты мал%actor.g% еще, либо уже знаешь как изгонять зло.
+    end
+  break
+  *колдун
+  case 1
+    if (!%actor.spelltype(клонирование)% && %actor.can_get_spell(клонирование)%)
+      mspellturn %actor% клонирование set
+      say О, %actor.iname%. Сможешь ты размножаться без помощи других!
+    else
+      say Извини, но либо ты мал%actor.g% еще, либо уже знаешь как клонировать себя.
+    end
+  break
+  *тать
+  case 2
+    if (!%actor.skill(подкрасться)% && %actor.can_get_skill(подкрасться)%)
+      mskillturn %actor% подкрасться set
+      say Вот знай теперь, как подкрадываться, %actor.name%.
+    else
+      say Извини, но либо ты мал%actor.g% еще, либо уже знаешь подкрасться. 
+    end
+  break
+  *богатырь
+  case 3
+    if ((%actor.skill(ярость)% < 98) && (%actor.skill(ярость)% > 4))
+      mskilladd %actor% ярость %random.3%
+    else
+      mecho Извини, но я не могу тебя научить ничему новому...
+    end
+  break
+  *наемник
+  case 4
+    if (%actor.skill(спрятаться)% < 100)
+      mskilladd %actor% спрятаться %random.3%
+    else
+      дум .%actor.name%
+      mecho Извини, я уже ничему новому тебя не научу...
+      вздох
+    end
+  break
+  *друж
+  case 5
+    if (%actor.skill(пнуть)% < 98)
+      mskilladd %actor% пнуть %random.3%
+    else
+      дум .%actor.name%
+      mecho Извини, я уже ничему новому тебя не научу...
+      вздох
+    end
+  break
+  *кудесник
+  case 6
+    if !%actor.can_get_spell(групповая сила)%
+      say Ты слишком мал%actor.g%, чтоб я учила тебя заклинаниям, возьми-ка лучше кун.
+      eval temp %actor.gold(+1000)%
+    else
+      if !%actor.spelltype(групповая сила)%
+        mspellturn %actor% групп.сила set
+        say О, %actor.iname%. Теперь ты сможешь всех сотоварищей делать сильнее!
       else
-        %self.gold(+4000)%
+        say Ты уже знаешь это заклинание, могу отблагодарить тебя только деньгами. 
+        eval temp %actor.gold(+1000)%
       end
-    break
-    *колдун
-    case 1
-      eval lev 20-%actor.remort%/2
-      if (!%actor.spelltype(клонирование)% && (%actor.level% >= %lev%))
-        mspellturn %actor.name% клонирование set
-        say О, %actor.name%. Пусть же ты сможешь размножаться без помощи других!
-      end
-    break
-    *тать
-    case 2
-      eval lev 9-%actor.remort%/2
-      if (!%actor.skill(подкрасться)%) && (%actor.level%>%lev%)
-        mskillturn %actor.name% подкрасться set
-        say Вот знай теперь, как подкрадываться, %actor.name%.
-      else
-        say Извини, но либо ты мал%actor.g% еще, либо уже знаешь подкрасться. 
-      end
-    break
-    *богатырь
-    case 3
-      eval lev8 13-%actor.remort%/3
-      if %actor.skill(ярость)% < 98
-        if %actor.skill(ярость)% > 4
-          mskilladd %actor.name% ярость %random.3%
-        else
-          mecho Извини, но я не могу тебя научить ничему новому...
-        end
-      else
-        дум %actor.name%
-        mecho Извини, я уже ничему новому тебя не научу...
-        вздох
-      end
-    break
-    *наемник
-    case 4
-      eval lev8 13-%actor.remort%/3
-      if %actor.skill(спрятаться)% < 100
-        mskilladd %actor.name% спрятаться %random.3%
-      else
-        дум %actor.name%
-        mecho Извини, я уже ничему новому тебя не научу...
-        вздох
-      end
-    break
-    *друж
-    case 5
-      eval lev8 13-%actor.remort%/3
-      if %actor.skill(пнуть)% < 98
-        mskilladd %actor.name% пнуть %random.3%
-      else
-        дум %actor.name%
-        mecho Извини, я уже ничему новому тебя не научу...
-        вздох
-      end
-    break
-    *кудесник
-    case 6
-      eval lev 18-%actor.remort%/3
-      if (%actor.level% < %lev%)
-        say Ты слишком мал, чтоб я учил тебя заклинаниям, возьми-ка лучше кун.
-        %actor.gold(+1000)%
-      else
-        if !%actor.spelltype(групповая сила)%
-          mspellturn %actor.name% групп.сила set
-          say О, %actor.name%. Теперь ты сможешь всех сотоварищей делать сильнее!
-        else
-          say Ты уже знаешь это заклинание, могу отблагодарить тебя только деньгами. 
-          %actor.gold(+1000)%
-        end
-      break
-      *Волшебники!
-      case 7
-        eval lev 14-%actor.remort%/3
-        if (!%actor.spelltype(защитник)%) && (%actor.level% >= %lev%)
-          mspellturn %actor.name% защитник set
-          say О, %actor.name%. Теперь ты сможешь призывать защитника!
-        else
-          say Извини, но либо ты мал%actor.g% еще, либо Хранитель может сопровождать тебя. 
-        end
-      break
-      *чернок
-      case 8
-        eval lev8 13-%actor.remort%/3
-        if (!%actor.spelltype(увеличить жизнь)%) && (%actor.level% >= %lev8%)
-          mspellturn %actor.name% увеличить.жизнь set
-          say О, %actor.name%. Теперь ты будешь знать увеличение жизни!
-        else
-          say Извини, но либо ты мал%actor.g% еще, либо увеличение жизни тебе уже известно. 
-        end
-      break
-      *витязь
-      case 9
-        eval lev8 13-%actor.remort%/3
-        if %actor.skill(обезоружить)% < 98
-          mskilladd %actor.name% обезоружить %random.3%
-        else
-          дум %actor.name%
-          mecho Извини, я уже ничему новому тебя не научу...
-          вздох
-        end
-      break
-      *охот
-      case 10
-        eval lev8 13-%actor.remort%/3
-        if %actor.skill(выследить)% < 98
-          mskilladd %actor.name% выследить %random.3%
-        else
-          дум %actor.name%
-          mecho Извини, я уже ничему новому тебя не научу...
-          вздох
-        end
-      break
-      *кузнец
-      case 11
-        eval lev8 13-%actor.remort%/3
-        if %actor.skill(оглушить)% < 98
-          mskilladd %actor.name% оглушить %random.3%
-        else
-          дум %actor.name%
-          mecho Извини, я уже ничему новому тебя не научу...
-          вздох
-        end
-      break
-      *купец
-      case 12
-        eval lev 25-%actor.remort%/2
-        if (!%actor.spelltype(починка)%) && (%actor.level%>=%lev%)
-          mspellturn %actor.name% починка set
-          say Вот знай теперь магическую починку, %actor.name%.
-        else
-          say Извини, но либо ты мал%actor.g% еще, либо уже знаком%actor.g% с магической починкой.
-        end
-      break
-      *волхв
-      case 13
-        if ((%world.curobjs(206)% < 75) && (%random.1000% <= 100))
-          mload obj 206
-          say Получи награду... не очень полезная но....
-          дать рун %actor.name%
-        else
-          %self.gold(+1000)%
-          дать 1000 кун .%actor.name%
-        end
-      break
-      default
-        %self.gold(+1000)%
-        дать 1000 кун %actor.name%
-      break
-    done
-    wait 1
-  end
-  detach 33927 %self.id%
+    end
+  break
+  *Волшебники!
+  case 7
+    eval lev 14-%actor.remort%/3
+    if (!%actor.spelltype(защитник)% && %actor.can_get_spell(защитник)%)
+      mspellturn %actor% защитник set
+      say О, %actor.iname%. Теперь ты сможешь призывать защитника!
+    else
+      say Извини, но либо ты мал%actor.g% еще, либо Хранитель уже может сопровождать тебя.
+    end
+  break
+  *чернок
+  case 8
+    if (!%actor.spelltype(увеличить жизнь)% && %actor.can_get_spell(увеличить жизнь)%)
+      mspellturn %actor% увеличить.жизнь set
+      say О, %actor.iname%. Теперь ты будешь знать увеличение жизни!
+    else
+      say Извини, но либо ты мал%actor.g% еще, либо увеличение жизни тебе уже известно.
+    end
+  break
+  *витязь
+  case 9
+    if (%actor.skill(обезоружить)% < 98)
+      mskilladd %actor% обезоружить %random.3%
+    else
+      дум .%actor.name%
+      mecho Извини, я уже ничему новому тебя не научу...
+      вздох
+    end
+  break
+  *охот
+  case 10
+    if (%actor.skill(выследить)% < 98)
+      mskilladd %actor% выследить %random.3%
+    else
+      дум .%actor.name%
+      mecho Извини, я уже ничему новому тебя не научу...
+      вздох
+    end
+  break
+  *кузнец
+  case 11
+    if (%actor.skill(оглушить)% < 98)
+      mskilladd %actor% оглушить %random.3%
+    else
+      дум %actor.name%
+      mecho Извини, я уже ничему новому тебя не научу...
+      вздох
+    end
+  break
+  *купец
+  case 12
+    if (!%actor.spelltype(починка)% && %actor.can_get_spell(починка)%)
+      mspellturn %actor% починка set
+      say Вот знай теперь магическую починку, %actor.name%.
+    else
+      say Извини, но либо ты мал%actor.g% еще, либо уже знаком%actor.g% с магической починкой.
+    end
+  break
+  *волхв
+  case 13
+    if ((%world.curobjs(206)% < 75) && (%random.1000% <= 100))
+      mload obj 206
+      say Получи награду... не очень полезная но....
+      дать рун .%actor.name%
+    else
+      %send% %actor% %self.iname% протянула Вам горку кун.
+      eval temp %actor.gold(+1000)%
+    end
+  break
+  default
+    %send% %actor% %self.iname% протянула Вам горку кун.
+    eval temp %actor.gold(+1000)%
+  break
+done
+wait 1
+detach 33927 %self.id%
 ~
 #33928
 толстыйпомер~
@@ -898,12 +884,12 @@ emot отвернулся от Вас и хмыкнул.
 mecho Толстый крестьянин пробормотал: "Сколько ж хлопот из-за бабы, да еще и вдовы!"
 wait 1s
 say Все, ступай.
-calcuid batrak1 33929 mob
-calcuid batrak2 33930 mob
-if %batrak1%
+if (%exist.mob(33929)%)
+  calcuid batrak1 33929 mob
   mpurge %batrak1%
 end
-if %batrak2%
+if (%exist.mob(33930)%)
+  calcuid batrak2 33930 mob
   mpurge %batrak2%
 end
 ~
@@ -921,7 +907,7 @@ if %actor.sex% == 1
 else
   say Здрава будь!
 end
-Что привело тебя ко мне?
+say Что привело тебя ко мне?
 attach 33939 %self.id%
 ~
 #33939
@@ -1136,7 +1122,7 @@ if ((%direction% == west ) || (%direction% == north ))
 end
 ~
 #33944
-Убираем проклятие с игрока если знахарь убит~
+Рип знахаря~
 0 f 100
 ~
 foreach target %self.pc%

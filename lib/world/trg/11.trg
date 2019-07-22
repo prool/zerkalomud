@@ -348,6 +348,9 @@ end
 делаем трупы (онли чернок)~
 2 g 100
 ~
+wait 1
+wload mob 1114
+wdamage дракон 100
 if !%actor.name%
   halt
 end
@@ -374,8 +377,7 @@ wload mob 1113
 wdamage собака 100
 wecho Внезапно из мрака выплыла фигура дракона, и тут же упала у ваших ног!
 wload mob 1114
-wdamage дракон.турнирный 100
-end
+wdamage дракон 100
 ~
 #1106
 зашел к девушке (еда)~
@@ -429,6 +431,10 @@ wait 1
 mecho %self.iname% радостно зачирикала, завидев Вас...
 wait 1
 mecho ...и быстро-быстро замахала крылышками, надеясь взлететь повыше
+if (%actor.name% == Свентовит)
+  wait 1
+  msend %actor% Поднявшись у Вас над головой, птичка прицелилась и... прямо на голову!
+end
 ~
 #1109
 отпереть ворота арены (31+)~
@@ -443,18 +449,33 @@ if %actor.level% < 31
 end
 * по идее двухсторонне открытая дверь 
 * без пуржа - она открываться отказывается :РРР
-wdoor  1101 north purge
-wdoor  1101 north flags a 
-wdoor  1101 north room  1103
-wdoor  1101 north description Врата
-wdoor  1103 south purge
-wdoor  1103 south flags a
-wdoor  1103 south room  1101
-wdoor  1103 south description Врата
+wdoor 1168 east purge
+wdoor 1168 east flags a
+wdoor 1168 east room 1167
+wdoor 1168 east description Врата
+wdoor 1168 east name Врата
+wdoor 1167 west purge
+wdoor 1167 west flags a
+wdoor 1167 west room 1168
+wdoor 1167 west description Врата
+wdoor 1167 west name Врата
+wdoor 1101 west purge
+wdoor 1101 west flags a 
+wdoor 1101 west room 1103
+wdoor 1101 west description Врата
+wdoor 1101 west name Врата
+wdoor 1103 east purge
+wdoor 1103 east flags a
+wdoor 1103 east room 1101
+wdoor 1103 east description Врата
+wdoor 1103 east name Врата
 wechoaround %actor% %actor.iname% взмахнул%actor.g% рукой - и ...
 wsend %actor% Вы взмахнули рукой - и ...
 wat 1101 wecho ...Тяжелые врата с &Yзолотой&n гравировкой отворились.
 wat 1103 wecho ...Тяжелые врата с &Yзолотой&n гравировкой отворились.
+wat 1168 wecho ...Тяжелые врата с &Yзолотой&n гравировкой отворились.
+wat 1167 wecho ...Тяжелые врата с &Yзолотой&n гравировкой отворились.
+wat 1178 wecho ...Тяжелые врата с &Yзолотой&n гравировкой отворились.
 ~
 #1110
 запереть ворота арены (31+)~
@@ -468,14 +489,26 @@ if %actor.level% < 31
   halt
 end
 * по идее двухсторонне запертая дверь 
-wdoor  1101 north flags a b c d
-wdoor  1101 north description Врата
-wdoor  1103 south flags a b c d
-wdoor  1103 south description Врата
+wdoor 1168 east flags a b c d
+wdoor 1168 east description Врата
+wdoor 1168 east name Врата
+wdoor 1167 west flags a b c d
+wdoor 1167 west description Врата
+wdoor 1167 west name Врата
+* закрываем двери западного зала
+wdoor 1101 west flags a b c d
+wdoor 1101 west description Врата
+wdoor 1101 west name Врата
+wdoor 1103 east flags a b c d
+wdoor 1103 east description Врата
+wdoor 1103 east name Врата
 wechoaround %actor% %actor.iname% взмахнул%actor.g% рукой - и ...
 wsend %actor% Вы взмахнули рукой - и ...
 wat 1101 wecho ...Тяжелые врата с &Yзолотой&n гравировкой затворились.
 wat 1103 wecho ...Тяжелые врата с &Yзолотой&n гравировкой затворились.
+wat 1168 wecho ...Тяжелые врата с &Yзолотой&n гравировкой затворились.
+wat 1167 wecho ...Тяжелые врата с &Yзолотой&n гравировкой затворились.
+wat 1178 wecho ...Тяжелые врата с &Yзолотой&n гравировкой затворились.
 ~
 #1111
 просить пощады (арг сдаться)~
@@ -484,9 +517,11 @@ wat 1103 wecho ...Тяжелые врата с &Yзолотой&n гравировкой затворились.
 if !%actor.name%
   halt
 end
-wzoneecho 1101 &W%actor.iname% признал себя &Rпроигравшим&W и будет доставлен в залы отдыха.&n
-wsend %actor% Сильный ветер подхватил Вас и унес с арены.
-wechoaround %actor% Сильный ветер подхватил %actor.rname% и унес с арены.
+if %actor.level% < 31
+  wzoneecho 1101 &W%actor.iname% признал себя &Rпроигравшим&W и будет доставлен в залы отдыха.&n
+  wsend %actor% Сильный ветер подхватил Вас и унес с арены.
+  wechoaround %actor% Сильный ветер подхватил %actor.rname% и унес с арены.
+end
 wteleport %actor% 1101
 ~
 #1112
@@ -533,9 +568,9 @@ mload mob 1120
 mecho Новый связанный священник появился из тьмы...
 ~
 #1115
-счетчик~
+запуск подготовки к бою на арене (подготовка)~
 2 c 100
-сч3~
+подготовка~
 if !%actor.name%
   halt
 end
@@ -543,9 +578,26 @@ if %actor.level% < 31
   wsend %actor% Только распорядитель турнира может использовать эту команду!
   halt
 end
-wait 1s
 wzoneecho 1101 &W На подготовку Выделено 3 минуты. &RПриготовиться!!!&n
 wait 2s
+* Открвыаем решетки
+wdoor 1168 west purge
+wdoor 1166 east purge
+wat 1168 wecho Ажурная решетка медленно растворилась в воздухе.
+wat 1166 wecho Ажурная решетка медленно растворилась в воздухе.
+wdoor 1168 west flag a
+wdoor 1168 west room 1166
+wdoor 1166 east flag a
+wdoor 1166 east room 1168
+wdoor 1101 east purge
+wdoor 1106 west purge
+wat 1101 wecho Ажурная решетка медленно растворилась в воздухе.
+wat 1106 wecho Ажурная решетка медленно растворилась в воздухе.
+wdoor 1101 east flag a
+wdoor 1101 east room 1106
+wdoor 1106 west flag a
+wdoor 1106 west room 1101
+wait 1
 wzoneecho 1101 &W На подготовку Выделено 3 минуты. &RВремя пошло!!!&n
 wait 60s
 wzoneecho 1101 &W Осталось &R2&W минуты.&n
@@ -559,11 +611,27 @@ wait 5s
 wzoneecho 1101 &W Осталось &R5&W секунд.&n
 wait 5s
 wzoneecho 1101 &WВремя на подготовку &Rвышло!!!&n
+wdoor 1101 east flag a b c d
+wdoor 1101 east name решетка|решетку
+wdoor 1101 east description решетка
+wdoor 1106 west flag a b c d
+wdoor 1106 west name решетка|решетку
+wdoor 1106 west description решетка
+wdoor 1168 west flag a b c d
+wdoor 1168 west name решетка|решетку
+wdoor 1168 west description решетка
+wdoor 1166 east flag a b c d
+wdoor 1166 east name решетка|решетку
+wdoor 1166 east description решетка
+wat 1168 wecho Воздушные ручейки соткали непроницаемую для глаза ажурную решетку на западе.
+wat 1166 wecho Воздушные ручейки соткали непроницаемую для глаза ажурную решетку на востоке.
+wat 1101 wecho Воздушные ручейки соткали непроницаемую для глаза ажурную решетку на востоке.
+wat 1106 wecho Воздушные ручейки соткали непроницаемую для глаза ажурную решетку на западе.
 ~
 #1116
-обнулить счетчик~
+завершение подготовки к бою на арене (готовы)~
 2 c 100
-сч0~
+готовы~
 if !%actor.name%
   halt
 end
@@ -573,13 +641,37 @@ if %actor.level% < 31
 end
 wait 1s
 wzoneecho 1101 &W Подготовка &Rзакончена&W, все участники готовы!!!&n
-detach 1115 %self.id%
-attach 1115 %self.id%
+wdoor 1101 east flag a b c d
+wdoor 1101 east name решетка|решетку
+*wdoor 1101 east description решетка
+wdoor 1106 west flag a b c d
+wdoor 1106 west name решетка|решетку
+*wdoor 1106 west description решетка
+wdoor 1168 west flag a b c d
+wdoor 1168 west name решетка|решетку
+*wdoor 1168 west description решетка
+wdoor 1166 east flag a b c d
+wdoor 1166 east name решетка|решетку
+*wdoor 1166 east description решетка
+wat 1168 wecho Воздушные ручейки соткали непроницаемую для глаза ажурную решетку на западе.
+wat 1166 wecho Воздушные ручейки соткали непроницаемую для глаза ажурную решетку на востоке.
+wat 1101 wecho Воздушные ручейки соткали непроницаемую для глаза ажурную решетку на востоке.
+wat 1106 wecho Воздушные ручейки соткали непроницаемую для глаза ажурную решетку на западе.
+* останавливаем запущенный отсчет в любой из трех точек : 1168, 1101, 1178
+calcuid komn 1168 room
+detach 1115 %komn%
+attach 1115 %komn%
+calcuid komn 1101 room
+detach 1115 %komn%
+attach 1115 %komn%
+calcuid komn 1178 room
+detach 1115 %komn%
+attach 1115 %komn%
 ~
 #1117
-обратный отсчет~
+обратный отсчет для начала боя (бой)~
 2 c 100
-сч10~
+бой~
 if !%actor.name%
   halt
 end
@@ -663,6 +755,7 @@ end
 wait 1s
 say Приветствую, я служу Богам и могу рассказать Вам о событиях не столь отдаленных,
 say Когда кровь лучших сынов Русских щедро поливала песок турнирной арены, а стоны раненых заглушал гул обезумевшей толпы.
+say Новое сражение на арене будет происходить 05 мая 2012 года.
 say Если же сами захотите попытать счастья - помните, на арене все подчиняются строгим правилам. Познакомьтесь с ними на доске!
 say За 50 кун - напишу Вам результаты турнира 2 на 2, проведенного 12 мая 2004 года в 20.00 по мск!
 say За 70 кун - напишу Вам результаты турнира 4 на 4, проведенного 23 мая 2004 года в 15.00 по мск!
@@ -693,7 +786,7 @@ halt
 end
 ~
 #1122
-Не пускаем.~
+не пускаем кроме волхваря~
 2 e 100
 ~
 if !%actor.name% || %actor.iname% == волхварь
@@ -704,46 +797,50 @@ wsend %actor% Вы легко взмыли вверх, в облака, навстречу новым ощущениям.
 wat 1159 wecho %actor.iname% Легко взлетел сюда и уселся на ближайшем облачке.
 ~
 #1123
-триг памятника~
-1 c 4
-ломать~
-if !%arg.contains(памятник)%
-  osend %actor% Что же Вам здесь так не нравится!?
-  halt
+не пускаем богов в залу для смертных~
+2 g 100
+~
+if %direction% == up
+  return 0
+  wsend %actor% Вы не сможете туда пройти...
 end
-osend %actor% Вы зверски сломали памятник Аватаре Игвоведу! Зачем Вы так!?
-oechoaround %actor% %actor.iname% зверски сломал памятник Аватаре Игвоведу!
-opurge %self%
 ~
 #1124
-укутаться одеялом~
-1 j 100
-~
-if !%actor.name%
-  halt
-end
-oechoaround %actor% %actor.iname% аккуратно закутал%actor.u% в одеяло, и приготовил%actor.u% ко сну.
-osend %actor% Вы аккуратно закутались в одеяло, и приготовились ко сну.
+выдача сообщений в залы подготовки (вещать текст)~
+2 c 100
+вещать~
+wsend %actor% Ваше сообщение в клетках залов подготовки:
+set zaly 1106 1101 1102 1103 1114 1119 1164 1120 1118 1121 1117 1166 1168 1167 1170 1171 1174 1172 1173 1175 1176 1177 1178 1169
+foreach komn %zaly%
+  wat %komn% wecho &G%arg%&n
+done
 ~
 #1125
-лечь на подушку~
-1 j 100
-~
-if !%actor.name%
-  halt
-end
-oechoaround %actor% %actor.iname% положил%actor.g% голову на подушку и блаженно закрыл%actor.g% глаза.
-osend %actor.iname% Вы положили голову на подушку и блаженно закрыли глаза.
+выдача сообщений на арену (вещать текст)~
+2 c 100
+вещать~
+wsend %actor% Ваше сообщение в клетках арены:
+set arena 1149 1150 1111 1151 1153 1148 1112 1107 1104 1144 1110 1105 1115 1116 1139 1147 1113 1108 1109 1141 1146 1145 1140 1143 1142 1179 1169
+foreach komn %arena%
+  wat %komn% wecho &G%arg%&n
+done
 ~
 #1126
-лечь на кровать~
-1 j 100
-~
+окончание боя на арене (окончить)~
+2 c 100
+окончить~
 if !%actor.name%
   halt
 end
-oechoaround %actor% %actor.iname% с размаху запрыгнул%actor.g% на кровать. А Вы чем хуже?
-osend %actor% Вы с размаху запрыгнули на кровать. Наконец-то можно отдохнуть!
+if %actor.level% < 31
+  wecho %actor% Чаво ?
+  halt
+end
+wdoor 1115 up purge
+wdoor 1115 up room 1180
+wdoor 1115 up name мостик
+wat 1115 wecho ...Мостик из переливающегося на ярком солнце хрусталя возник перед Вами.
+wsend %actor% Вы открыли проход с арены для победителей!
 ~
 #1127
 тригер на турнирных посохах~
@@ -760,9 +857,18 @@ osend %actor% &CЛазурный&n набалдашник скипетра у Вас в руках осветился на миг я
 Телепортимся в соседний зал 1~
 2 c 0
 зал~
+if !%actor.name%
+  halt
+end
+if %actor.level% < 31
+  wsend %actor% Чаво ?
+  halt
+end
 %echoaround% %actor% %actor.name% пош%actor.y% проверять как обстоят дела в соседнем зале.
 %send% %actor% Вы успешно прошли в соседний зал.
+wait 1
 wteleport %actor.id% 1168
+wechoaround %actor% %actor.name% пришел с востока.
 ~
 #1129
 невыход из сибири~
@@ -772,15 +878,20 @@ wsend %actor% Какой же тут может быть конец, холодно, однако...
 halt
 ~
 #1130
-телепорт чаров на арену~
+возврат с арены в наблюдательскую (возврат)~
 2 c 100
-призвать~
+возврат~
+if !%actor.name%
+  halt
+end
 if %actor.level% < 31
   halt
 end
-wteleport %arg% 1101
-wecho %arg% перемещен на Арену
-log &r %actor% призвал %arg% на Арену!
+wsend %actor% Поднявшийся в воздух песок арены вихрем закружился вокруг и унес Вас куда-то вверх.
+wechoaround %actor% Песок арены вихрем закружился вокруг %actor.rname% полностью закрыв от Вашего взора.
+wechoaround %actor% Через мгновенье столб песка опал не оставив следов от пребывания %actor.rname% здесь.
+wait 1
+wteleport %actor% 1179
 ~
 #1131
 Выдача турнирных рун~
@@ -845,12 +956,15 @@ mload obj 1138
 бросить все
 ~
 #1132
-Призрак Юрина~
-0 c 1
-триг~
-* Вот интересно, кто и нафига придумал триг, где была лишь одна строчка? (она строчкой ниже этой записи)
-* %arg%
-log &RВНИМАНИЕ!&n &C%actor.name% пытается использовать триг #1132 с аргументом '%arg%'&n
+спускаем лесницу для зрителей~
+2 c 100
+спустить~
+*открываем проход с ренты нк в залу над ареной
+wdoor 49987 up purge
+wdoor 49987 up room  1169
+wdoor 49987 up description Лестница
+wat 49987 wecho ...Вдруг к вам прямо под ноги опустилась &Mхрустальная&n лестница, Вам стало очень интересно что же там наверху?
+wsend %actor% Вы открыли проход зрителям в НК.
 ~
 #1133
 Телепортимся в соседний зал 2~
@@ -858,71 +972,92 @@ log &RВНИМАНИЕ!&n &C%actor.name% пытается использовать триг #1132 с аргументом '
 зал~
 %echoaround% %actor% %actor.name% пош%actor.y% проверять как обстоят дела в соседнем зале.
 %send% %actor% Вы успешно прошли в соседний зал.
+wait 1
 wteleport %actor.id% 1101
 ~
 #1134
-Лоадим тушканчика~
-2 c 0
-тушканчик~
-if %arg.contains(1)%
-  %load% mob 1122
-  %echo% Вдруг из дальнего угла комнаты выполз полосатый тушканчик и начал подозрительно на Вас коситься!
+возврат с залов подготовки в наблюдательскую (возврат)~
+2 c 100
+возврат~
+if (!%actor.name%)
+  halt
 end
-if %arg.contains(2)%
-  %load% mob 1134
-  %echo% Вдруг из дальнего угла комнаты выполз полосатый тушканчик и начал подозрительно на Вас коситься!
+if (%actor.level% < 31)
+  halt
 end
-if %arg.contains(3)%
-  %load% mob 1135
-  %echo% Вдруг из дальнего угла комнаты выполз полосатый тушканчик и начал подозрительно на Вас коситься!
-end
+wsend %actor% Легкое покалывание в кончиках пальцев заставило Вас вздрогнуть.
+wsend %actor% Вы перемещены!
+wechoaround %actor% Непреодолимое желание оглянуться заставило Вас посмотреть назад.
+wechoaround %actor% Ох уж это напряжение перед боем!
+wechoaround %actor% Успокоившись, Вы обнаружили, что %actor.iname% исчез!
+wait 1
+wteleport %actor% 1178
 ~
 #1135
-Отпираем ворота во втором зале~
+призыв игроков на подготовку зал ВОСТОК~
 2 c 100
-отпереть~
-if !%actor.name%
-  halt
-end
+призвать~
 if %actor.level% < 31
-  wsend %actor% Не хватит у Вас пока силенок, чтоб эти врата отпереть!
   halt
 end
-* по идее двухсторонне открытая дверь 
-* без пуржа - она открываться отказывается :РРР
-wdoor 1168 north purge
-wdoor 1168 north flags a 
-wdoor 1168 north room  1167
-wdoor 1168 north description Врата
-wdoor 1167 south purge
-wdoor 1167 south flags a
-wdoor 1167 south room  1168
-wdoor 1167 south description Врата
-wechoaround %actor% %actor.iname% взмахнул%actor.g% рукой - и ...
-wsend %actor% Вы взмахнули рукой - и ...
-wat 1168 wecho ...Тяжелые врата с золотой гравировкой отворились.
-wat 1167 wecho ...Тяжелые врата с золотой гравировкой отворились.
+wteleport %arg% 1101
+wecho %arg% перемещен на Арену
+log &r %actor% призвал %arg% на Арену!
 ~
 #1136
-Закрываем ворота во втором зале~
+призыв игроков на подготовку зал ЗАПАД~
 2 c 100
-запереть~
-if !%actor.name%
-  halt
-end
+призвать~
 if %actor.level% < 31
-  wsend %actor% Не хватит у Вас пока силенок, чтоб эти врата запереть!
   halt
 end
-* по идее двухсторонне запертая дверь 
+eval char %arg%
+wteleport %arg% 1168
+wecho %arg% перемещен на Арену
+log &r %actor% призвал %arg% на Арену!&n
+~
+#1137
+reset зоны, пуржим руны~
+2 f 100
+~
+*закрываем 1ые ворота
+wdoor 1101 north flags a b c d
+wdoor 1101 north description Врата
+wdoor 1103 south flags a b c d
+wdoor 1103 south description Врата
+*закрываем 2ые ворота
 wdoor 1168 north flags a b c d
 wdoor 1168 north description Врата
 wdoor 1167 south flags a b c d
 wdoor 1167 south description Врата
-wechoaround %actor% %actor.iname% взмахнул%actor.g% рукой - и ...
-wsend %actor% Вы взмахнули рукой - и ...
-wat 1168 wecho ...Тяжелые врата с золотой гравировкой затворились.
-wat 1167 wecho ...Тяжелые врата с золотой гравировкой затворились.
+*изврат конешно, но хз как еще сделать руны у нас с другой зоны так что тупо флаг дикей на репоп не канает
+foreach o 600 601 602 603 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 629 630 632 634 635 636 638 639 640 641 642 643 645
+  set i %world.curobjs(%o%)% 
+  while %i% > 0  
+    calcuid obj %o% obj
+    attach 1138 %obj.id%
+    exec 1138 %obj.id%
+    wait 1
+    eval i %i%-1
+  done
+done
+* удаляем выход для победителей с арены (не через zed)
+wdoor 1115 up purge
+~
+#1138
+purge самих рун~
+1 az 100
+~
+%purge% %self%
+~
+#1139
+поднимаем лесницу обратно~
+2 c 100
+поднять~
+*закрываем проход с ренты нк в залу над ареной
+wdoor 49987 up purge
+wat 49987 wecho ...&MХрустальная&n лестница ускользнула в небесную высь.
+wsend %actor% Вход для зрителей из НК убран, но выход из зрительской всегда открыт.
 ~
 #1140
 турнирные доспехи - взять~
@@ -930,14 +1065,74 @@ wat 1167 wecho ...Тяжелые врата с золотой гравировкой затворились.
 ~
 
 ~
-#1144
-random~
+#1141
+возвращение из комнаты победителей (возврат)~
 2 c 100
-ранд~
-set u %random.30%
-set w %random.30%
-set q %random.30%
-wecho %u% %w% %q%
+возврат~
+if %actor.level% > 30
+  wsend %actor% Легкое покалывание в кончиках пальцев заставило Вас вздрогнуть. Вы перемещены!
+  wechoaround %actor% %actor.iname% исчез%actor.q%, оставив ощущение радости за Вашу победу.
+  wait 1
+  wteleport %actor% 1178
+end
+if %actor.level% < 31
+  wsend %actor% Вы зажмурились, а легкое движение воздуха вокруг подсказало, что Вы уже дома!
+  wechoaround %actor% %actor.iname% исчез%actor.q%, оставив ощущение радости за свою победу.
+  wait 1
+  wteleport %actor% %actor.loadroom%
+end
+~
+#1142
+перезагружаем зону перед началом боев (начало)~
+2 c 100
+начало~
+%world.zreset(11)%
+wzoneecho 1101 &RВнимание!&W Арена подготовленна к следующему бою!&n
+wait 1
+* останавливаем запущенный отсчет в любой из трех точек : 1168, 1101, 1178
+calcuid komn 1168 room
+detach 1115 %komn%
+attach 1115 %komn%
+calcuid komn 1101 room
+detach 1115 %komn%
+attach 1115 %komn%
+calcuid komn 1178 room
+detach 1115 %komn%
+attach 1115 %komn%
+~
+#1143
+проверка одет турнирный шмот~
+2 z 1
+тест~
+foreach pc %self.char%
+  set i 0
+  while %i% <= 18
+    eval item %pc.eq(%i%)%
+    * %echo% Одето на %pc.vname% поз: %i%, назв: %item.name%, vnum: %item.vnum%
+    if (%item.vnum% > 0)
+      if ((%item.vnum% < 1100) || (%item.vnum% > 1150))
+        %send% %immort% НАДЕТ НЕ ТУРНИРНЫЙ ШМОТ! на %pc.vname% поз: %i%, назв: %item.name%, vnum: %item.vnum%
+      end
+    end
+    eval i %i%+1
+  done
+done
+~
+#1144
+запуск проверки экипировки (проверка)~
+2 c 100
+проверка~
+set immort %actor%
+set zaly 1106 1101 1102 1103 1114 1119 1164 1120 1118 1121 1117 1166 1168 1167 1170 1171 1174 1172 1173 1175 1176 1177 1149 1150 1111 1151 1153 1148 1112 1107 1104 1144 1110 1105 1115 1116 1139 1147 1113 1108 1109 1141 1146 1145 1140 1143 1142
+foreach komn %zaly%
+  calcuid zapusk %komn% room
+  attach 1143 %zapusk%
+  remote immort %zapusk%
+  exec 1143 %zapusk%
+  rdelete immort %zapusk%
+  detach 1143 %zapusk%
+done
+%send% %actor% Проверка окончена!
 ~
 #1145
 Моск!~
@@ -1151,6 +1346,71 @@ say My trigger commandlist is not complete!
 wait 1
 %arg%
 * %arg%
+~
+#1161
+триг памятника~
+1 c 4
+ломать~
+if !%arg.contains(памятник)%
+  osend %actor% Что же Вам здесь так не нравится!?
+  halt
+end
+osend %actor% Вы зверски сломали памятник Аватаре Игвоведу! Зачем Вы так!?
+oechoaround %actor% %actor.iname% зверски сломал памятник Аватаре Игвоведу!
+opurge %self%
+~
+#1162
+(свободен) решаю что с пирамидой~
+1 c 100
+бах~
+context 999
+oecho wu1hp %wu1hp% 
+if (%actor.vnum% == -1)
+  %echo% Вам даже не стоит пытаться.
+  return 1
+end
+eval wu1hp %wu1hp%-1
+oecho My hp:%wu1hp%
+global wu1hp
+~
+#1163
+(свободен) стартую зону с пирамидой~
+2 cf 100
+бум~
+context 999
+* west|east up|mid|down 0|1|2 Башни
+set wu1hp 100
+set wu2hp 100
+set wm1hp 100
+set wm2hp 100
+set wd1hp 100
+set wd2hp 100
+set wm0hp 300
+%echo% Стартуем!
+worlds wu1hp
+~
+#1164
+(свободный) встречаем непроход~
+1 j 100
+~
+
+~
+#1165
+Лоадим тушканчика~
+2 c 100
+тушканчик~
+if %arg.contains(1)%
+  %load% mob 1122
+  %echo% Вдруг из дальнего угла комнаты выполз полосатый тушканчик и начал подозрительно на Вас коситься!
+end
+if %arg.contains(2)%
+  %load% mob 1134
+  %echo% Вдруг из дальнего угла комнаты выполз полосатый тушканчик и начал подозрительно на Вас коситься!
+end
+if %arg.contains(3)%
+  %load% mob 1135
+  %echo% Вдруг из дальнего угла комнаты выполз полосатый тушканчик и начал подозрительно на Вас коситься!
+end
 ~
 #1166
 тестовый триг на mforce~

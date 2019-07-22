@@ -182,23 +182,24 @@ mkill %actor%
 закапываем останки мельника~
 2 c 100
 закопать~
-if !(%arg.contains(останки)%) 
-  wsend       %actor% Что это вы хотите здесь закопать???
+if !(%arg.contains(останки)%)
+  wsend %actor% Что это Вы хотите здесь закопать???
   return 0
   halt
 end
 if %actor.haveobj(30305)%
   wsend %actor% _Вы начали раскапывать могилу.
-  wechoaround %actor% _%actor.name% начал%actor.g% раскапывать могилу.
+  wechoaround %actor% _%actor.iname% начал%actor.g% раскапывать могилу.
   wait 1s
-  wpurge останки
-  wsend %actor%  Вы положили человеческие останки в могилу и закопали ее.
-  wechoaround %actor%  %actor.name% положил%actor.g% человеческие останки в могилу и закопали ее.
+  calcuid remains 30305 obj
+  wpurge %remains%
+  wsend %actor% Вы положили человеческие останки в могилу и закопали ее.
+  wechoaround %actor% %actor.iname% положил%actor.g% человеческие останки в могилу и закопал%actor.g% ее.
   wait 1s
   wsend  %actor% _Тонкий луч света осветил Вас и могилу.
-  wechoaround %actor% _Тонкий луч света осветил %actor.rname% и могилу.
+  wechoaround %actor% _Тонкий луч света осветил %actor.vname% и могилу.
   wsend       %actor% _За доброе дело Вы получили 5000 очков опыта...
-  %actor.exp(+5000)%  
+  eval temp %actor.exp(+5000)%  
 end
 ~
 #30314

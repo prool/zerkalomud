@@ -566,8 +566,10 @@ mecho Татарин одним большим шагом оказался рядом с русичем.
 say Ага, значит ти билят ситрилял. Получай! 
 wait 5
 убить русич
-calcuid mik 20333 mob
-attach 20330 %mik.id%
+if (%exist.mob(20333)%)
+  calcuid mik 20333 mob
+  attach 20330 %mik.id%
+end
 ~
 #20327
 у хана~
@@ -646,8 +648,9 @@ exec 20331 %tar.id%
 wait 20
 say Ти пайдеш са мной к Великому Хану. Он решит чито делать!
 wait 25
-%echo Басурманин провел Вас под стражей через весь лагерь.
-%echo Вы оказались в богатом шатре.
+%echo% Басурманин провел Вас под стражей через весь лагерь.
+%echo% Вы оказались в богатом шатре.
+mat 20375 mecho Басурманин привёл кого-то в шатер.
 mteleport all 20375
 wait 5
 calcuid han 20300 mob
@@ -760,7 +763,7 @@ detach 20337 %self.id%
 switch %object.vnum%
   case 20226
     wait 5
-    mpurge %object.name%
+    mpurge %object%
     wait 20
     say Ну читоже, ти справился си моей пиросьбой и я дарю тибе самое ценное... Жизнь!
     eval rand %random.1000%
@@ -891,7 +894,7 @@ switch %object.vnum%
   default
     wait 1
     say Ти чего мне принес, аслиный башка?!
-    drop %object.name
+    drop %object.name%
   done
 ~
 #20345
@@ -927,7 +930,7 @@ if !((%arg.contains(по)%) && (%arg.contains(следу)%))
 else
   wait 5
   wsend %actor% Вы вышли на небольшую тропку, судя по всему, ведущую в какую-то деревню.
-  wechoaround %actor% %actor.vname% побрел%actor.g% по следу.
+  wechoaround %actor% %actor.iname% побрел%actor.g% по следу.
   wteleport %actor.name% 20500
 end
 ~

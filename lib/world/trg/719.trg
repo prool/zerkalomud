@@ -20,7 +20,7 @@ detach 71900 %self.id%
 switch %object.vnum%
   case 71901
     wait 10
-    mpurge %object.name%
+    mpurge %object%
     г Спасибо, доблестный воин, ты помог мне, а я награжу тебя за это.
     дум
     ул

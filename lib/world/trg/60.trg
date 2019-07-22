@@ -8,8 +8,9 @@ tell %actor.name% Не подскажете, люди добрые, как добраться до библиотеки?
 #6001
 на чуже1~
 0 d 100
-север~
-if %speech%==запад
+*~
+if %speech.contains(запад)%
+  wait 3
   tell %actor.name% Спасибо!
   умница %actor.name%
 endif
@@ -24,37 +25,37 @@ switch %object.name%
     say  Еще одним гадом меньше! Молодец, продолжай дальше, держи премию.
     %self.gold(+1)%
     дать 1 кун %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   case труп клопа
     say  Еще одним гадом меньше! Молодец, продолжай дальше, держи премию.
     %self.gold(+1)%
     дать 1 кун %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   case труп моли
     say  Еще одним гадом меньше! Молодец, продолжай дальше.
     mload obj 101
     дать ломоть %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   case труп блохи
     say  Еще одним гадом меньше! Молодец, продолжай дальше.
     mload obj 101
     дать ломоть %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   case труп серой мыши
     say  О, грызун, разносчик заразы! Получи премию.
     %self.gold(+5)%
     дать 5 кун %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   default
     say  Зачем мне это?
     eval getobject %object.name%
     if  %getobject.car% == труп
-      mpurge труп
+      mpurge %object%
     else
       броси %getobject.car%.%getobject.cdr%
     end
@@ -72,31 +73,31 @@ switch %object.name%
     улыб
     %self.gold(+10)%
     дать 10 кун %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   case труп бобра
     say  Из бобра шикарная шкурка получится, продам потом иноземцу!
     %self.gold(+75)%
     дать 75 кун %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   case труп рыси
     say  Из рыси шикарная шкурка получится, продам потом иноземцу!
     %self.gold(+100)%
     дать 100 кун %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   case труп волка
     say  О ты убил волка! Это опасно, их целая стая!
     %self.gold(+20)%
     дать 20 кун %actor.name%
-    mpurge труп
+    mpurge %object%
   break
   default
     say  Зачем мне это?
     eval getobject %object.name%
     if  %getobject.car% == труп
-      mpurge труп
+      mpurge %object%
     else
       броси %getobject.car%.%getobject.cdr%
     end
@@ -201,15 +202,43 @@ if ((%actor.level% >= 10) || (%actor.bank% >= 20))
 end
 wait  1
 msend %actor% Женщина сказала Вам:
-if %actor.sex% == 1
-  msend %actor% - Эх ты горемычный, голодный наверное, %actor.name%.
-elseif
-  %actor.sex% == 2
-  msend %actor% - Эх ты горемычная, голодная наверное, %actor.name%.
+msend %actor% - Эх ты горемычн%actor.w%, голодн%actor.w% наверное, %actor.name%.
+msend %actor% - Что мы нехристи чтобы не накормить. 
+msend %actor% - Сейчас, подожди...
+dg_cast 'насыщение' .%actor.name%
+~
+#6008
+встречает молодой следопыт~
+0 r 100
+~
+*встречамолодой | Mobiles | Great-All PC | 100
+tell %actor.name% Если хочешь выбраться отсюда, могу помочь!
+tell %actor.name% Знаю о таких дорогах, что пройдем, никто и не заметит!
+tell %actor.name% Выведу к одной из деревень далеко на севере, у реки!
+eval needgold %actor.level%
+tell %actor.name% Всего за %needgold% кун!
+~
+#6009
+дать кун молодому следопыту~
+0 m 1
+~
+*дать20молодому | Mobiles | Bribe | 1
+if %actor.vnum% != -1
+  halt
 end
-msend %actor% - Что мы нехристи чтобы не накормить, 
-msend %actor% - всегда найду чем накормить, 
-msend   %actor% - Сейчас, подожди...
-dg_cast 'насыщение' %actor.name%
+eval needgold %actor.level%
+if %amount% < %needgold%
+  дать %amount% кун %actor.name%
+  tell %actor.name% Нехорошо обманывать!
+  плюн
+else
+  mecho Следопыт быстро заглянул под навес, кому-то что-то сказал на неизвестном языке.
+  msend %actor%  Из под навеса вышел совсем молодой следопыт, почти мальчишка и повел Вас за собой.
+  mechoaround %actor% Из под навеса вышел совсем молодой следопыт, почти мальчишка и повел %actor.name% за собой.
+  mechoaround %actor% %actor.name% уш%actor.y% вместе с проводником.
+  mteleport %actor% 5054 horse
+  msend %actor% Ваше путешествие окончилось.
+  mechoaround %actor% %actor.name% появил%actor.u% с проводником.
+end
 ~
 $~

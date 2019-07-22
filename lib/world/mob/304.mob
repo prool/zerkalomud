@@ -340,7 +340,7 @@ E
 Мохнатый лось пытается ущипнуть вас за ухо.
 ~
 Это боевой лось Ладожского Братства, его вскормили на болотном мху, поэтому
-он такай мохнатый. На голове лося одет железный шлем с отверстиями для ушей.
+он такой мохнатый. На голове лося одет железный шлем с отверстиями для ушей.
 ~
 b0d0h0n0o0s0f2u2 0 0 E
 20 2 -5 1d1+120 2d2+2
@@ -392,7 +392,6 @@ Height: 175
 Weight: 85
 Special_Bitvector: c0d1 
 E
-T 30401
 #30412
 голодный вой~
 голодный вой~
@@ -453,7 +452,7 @@ Cha: 10
 Size: 70
 ExtraAttack: 1
 Class: 103
-Race: 104
+Race: 105
 Height: 175
 Weight: 85
 Special_Bitvector: l0 
@@ -652,5 +651,284 @@ Race: 104
 Height: 50
 Weight: 5
 Special_Bitvector: 0 
+E
+#30420
+данко молодой парень~
+Данко~
+Данко~
+Данко~
+Данко~
+Данко~
+Данко~
+Молодой парень стоит здесь, держа в руке над головой свое светящееся сердце. 
+~
+Молодой парень держит в руке над головой свое светящееся сердце.
+И не больно ему?
+~
+b0d0 D0a1 0 E
+10 20 0 1d100+300 1d1+0
+0d0+0 0
+8 8 1
+Size: 30
+Class: 102
+Race: 101
+Height: 198
+Weight: 200
+Special_Bitvector: 0 
+E
+#30421
+владыка морей царь хозяин господин~
+владыка морей~
+владыки морей~
+владыке морей~
+владыку морей~
+владыкой морей~
+владыке морей~
+Ненастоящий Царь Морской притворяется настоящим.
+~
+Высокий человекоподобный монстр. Его лицо отмечено печатью Силы, Ума и 
+Власти. Седые длинные волосы внушают уважение.
+~
+b0d0e0f0g0l0m0n0o0p0q0r0t0u0y0z0A0x1f2 d0h0k0r0k1m1 0 E
+40 0 -10 1d1+8500 9d9+16
+0d0+0 0
+8 8 1
+Saves: -46 -46 -46 -46
+CastSuccess: 47
+BareHandAttack: 2
+Str: 36
+Dex: 32
+Int: 36
+Wis: 36
+Con: 36
+Cha: 26
+Size: 100
+LikeWork: 100
+ExtraAttack: 2
+Class: 103
+Race: 104
+Height: 198
+Weight: 150
+Special_Bitvector: a0b0c0d0b1c1 
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 111
+E
+T 30415
+T 30416
+#30422
+шторм~
+шторм~
+шторма~
+шторму~
+шторм~
+штормом~
+шторме~
+Липовый шторм визжит и завывает.
+~
+Могучая и свирепая стихия бушует,
+ужасая Вас.
+~
+b0d0f0g0l0n0o0p0q0r0u0x0y0z0x1c2f2 c0d0f0k0r0k1m1q1 0 E
+33 0 -9 50d1+900 9d9+9
+0d0+0 0
+8 8 1
+Saves: -18 -18 -18 -18
+CastSuccess: 26
+BareHandAttack: 6
+Str: 32
+Dex: 15
+Int: 36
+Wis: 22
+Con: 3
+Cha: 25
+Size: 90
+LikeWork: 100
+Class: 101
+Race: 100
+Height: 198
+Weight: 200
+Special_Bitvector: l0 
+Skill: 136 78
+Spell: 54
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 104
+Spell: 128
+Spell: 128
+Spell: 128
+E
+#30423
+дух ангора~
+Дух Ангора~
+Духа Ангора~
+Духу Ангора~
+Дух Ангора~
+Духом Ангора~
+Духе Ангора~
+Славянский Князь Ангор, Страж Полуденного Неба (боярин ЛБ) парит над землей.
+~
+
+_Юлара сообщила группе : 'ты мой лучший витюзьь))'
+_*
+~
+d0l0n0z0b1x1f2j2o2u2 c0d0e0k0r0x0A0C0D0c1k1 474 E
+30 -7 -20 1d100+1600 1d1+131
+0d0+0 0
+8 8 1
+Saves: -29 0 -19 -30
+Resistances: 11 5 15 5 10 10 16
+HPreg: 60
+Armour: 63
+PlusMem: 8
+CastSuccess: 25
+Success: 25
+Initiative: 25
+Absorbe: 5
+Str: 53
+Dex: 38
+Int: 32
+Wis: 33
+Con: 44
+Cha: 30
+Size: 60
+ExtraAttack: 1
+Class: 104
+Race: 113
+Height: 198
+Weight: 200
+Special_Bitvector: l0b1 
+Feat: 2
+Feat: 3
+Skill: 8 110
+Skill: 20 5
+Skill: 21 195
+Skill: 23 61
+Skill: 30 60
+Skill: 31 41
+Skill: 132 200
+Skill: 134 170
+Skill: 137 170
+Skill: 140 136
+Skill: 142 170
+Skill: 143 63
+Skill: 146 55
+Skill: 148 170
+Skill: 150 12
+Skill: 151 170
+Skill: 179 38
+Spell: 3
+Spell: 3
+Spell: 3
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 4
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 17
+Spell: 34
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 36
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 64
+Spell: 74
+Spell: 74
+Spell: 74
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 88
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 89
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 93
+Spell: 96
+Spell: 112
+Spell: 122
+Spell: 122
+Spell: 122
+Spell: 122
 E
 $

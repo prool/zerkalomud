@@ -90,15 +90,24 @@ wat 34453 %load% mob 50000
 wat 49954 %load% mob 50000
 wat 27030 %load% mob 50000
 wait %pause%s
-wat 27030 %purge% проводник.квест
+calcuid quester 50000 mob
+%purge% %quester%
+calcuid quester 50000 mob
+%purge% %quester%
+calcuid quester 50000 mob
+%purge% %quester%
+calcuid quester 50000 mob
+%purge% %quester%
+calcuid quester 50000 mob
+%purge% %quester%
 wat 27030 wecho Проводник улыбнулся и расстворился в воздухе.
-wat 49954 %purge% проводник.квест
+*wat 49954 %purge% проводник.квест
 wat 49954 wecho Проводник улыбнулся и расстворился в воздухе.
-wat 34453 %purge% проводник.квест
+*wat 34453 %purge% проводник.квест
 wat 34453 wecho Проводник улыбнулся и расстворился в воздухе.
-wat 66001 %purge% проводник.квест
+*wat 66001 %purge% проводник.квест
 wat 66001 wecho Проводник улыбнулся и расстворился в воздухе.
-wat 60050 %purge% проводник.квест
+*wat 60050 %purge% проводник.квест
 wat 60050 wecho Проводник улыбнулся и расстворился в воздухе.
 wdoor 50082 east flags abcd
 ~
@@ -1440,7 +1449,7 @@ end
 if (%actor.level% > 30 ) && (%actor.vnum% == -1 )
   halt
 end
-if ((%actor.name% != Владэк) && (%actor.name% != Чарва) && (%actor.name% != Владух) && (%actor.name% != Мергана))
+if ((%actor.name% != Владэк) && (%actor.name% != Чарва) && (%actor.name% != Владух) && (%actor.name% != Мергана) && (%actor.name% != Просфирий))
   otransform 50075
   osend %actor% _Лукошко проворно отскочило от вашей руки.
   return 0

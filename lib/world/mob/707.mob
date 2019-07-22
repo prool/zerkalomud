@@ -17,6 +17,7 @@ c0d0g0l0m0A0 f0 0 E
 28 6 -5 20d20+1200 7d7+20
 0d0+0 190000
 8 8 1
+Absorbe: 28
 BareHandAttack: 9
 Str: 25
 Dex: 20
@@ -60,6 +61,7 @@ c0d0g0l0m0A0 d0k0 0 E
 27 5 -4 10d10+1600 8d8+30
 0d0+0 145000
 8 8 1
+Absorbe: 27
 BareHandAttack: 3
 Str: 26
 Dex: 16
@@ -103,6 +105,8 @@ d0g0l0m0A0g2 d0f0h0k0z0A0m1 0 E
 0d0+0 650000
 8 8 1
 Saves: -22 -22 -22 -22
+CastSuccess: 29
+Absorbe: 34
 BareHandAttack: 7
 Str: 30
 Dex: 26
@@ -170,6 +174,7 @@ d0g0y0B0 d0f0k0n1 0 E
 12 0 0 10d10+2 0d0+0
 0d0+0 10000
 8 5 1
+Absorbe: 12
 Str: 10
 Dex: 10
 Int: 10
@@ -208,6 +213,8 @@ c0d0f0g0t0A0 d0k0 -600 E
 0d0+0 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
+Absorbe: 33
 Str: 30
 Dex: 10
 Int: 10
@@ -252,6 +259,8 @@ c0d0f0n0o0r0u0 d0k0m1 -600 E
 0d0+0 1000000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 35
+Absorbe: 36
 BareHandAttack: 5
 Str: 30
 Dex: 20
@@ -296,7 +305,7 @@ Helper: 70704
 Helper: 70708
 E
 #70706
-великанша Гуннлед~
+великанша гуннлед дочь суттунга~
 великанша Гуннлед~
 великанши Гуннлед~
 великанше Гуннлед~
@@ -317,6 +326,8 @@ b0d0g0l0n0g2 d0f0k0 -600 E
 0d0+0 1500000
 8 8 2
 Saves: -38 -38 -38 -38
+CastSuccess: 41
+Absorbe: 38
 Str: 20
 Dex: 15
 Int: 20
@@ -376,7 +387,7 @@ T 70707
 T 70700
 T 70708
 #70707
-разгневанная Гуннлед~
+разгневанная великанша гуннлед дочь суттунга~
 разгневанная великанша Гуннлед~
 разгневанной великанши Гуннлед~
 разгневанной великанше Гуннлед~
@@ -394,6 +405,8 @@ b0d0g0l0n0o0p0t0g2 d0f0h0k0 -600 E
 0d0+0 1500000
 8 8 2
 Saves: -38 -38 -38 -38
+CastSuccess: 41
+Absorbe: 38
 Str: 20
 Dex: 15
 Int: 20
@@ -473,6 +486,7 @@ c0d0g0m0A0 d0k0 -600 E
 29 3 -6 10d10+1500 12d9+10
 0d0+0 230000
 8 8 1
+Absorbe: 29
 Str: 30
 Dex: 10
 Int: 19
@@ -522,6 +536,8 @@ c0d0g0m0A0 d0k0 -600 E
 0d0+0 370000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
+Absorbe: 31
 Str: 30
 Dex: 10
 Int: 19
@@ -571,6 +587,7 @@ d0f0m0n0o0q0b1b2 d0f0k0s0t0A0 0 E
 30 5 -8 10d10+1800 8d8+10
 0d0+2 300000
 8 8 1
+Absorbe: 30
 Str: 16
 Dex: 13
 Int: 19
@@ -629,6 +646,8 @@ d0f0n0o0r0t0 0 0 E
 0d0+0 480000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 4
 Str: 33
 Dex: 25
@@ -678,6 +697,8 @@ d0f0n0o0r0t0 0 0 E
 0d0+0 480000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
+Absorbe: 32
 BareHandAttack: 4
 Str: 33
 Dex: 25

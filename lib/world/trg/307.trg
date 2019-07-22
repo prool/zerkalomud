@@ -165,7 +165,7 @@ eval leshiy  %random.7%
 if %leshiy% == 6
   говор Был у меня волк, безобразный и грязный.
   говор И еще он был очень злым и жестоким.
-  говор Hо звери не испытывали к нему ненависти и не били.
+  говор Но звери не испытывали к нему ненависти и не били.
   wait 2s
   говор  Это потому, что Волк умер еще в раннем детстве.
   wait 1s
@@ -467,7 +467,7 @@ exec 30716 %zamena.id%
 ~
 #30716
 заменяем муравья трупом~
-0 z 100
+2 z 100
 ~
 wload obj 30705
 calcuid murovey 30711 mob
@@ -797,7 +797,7 @@ wportal 30815 2
 0 j 100
 ~
 wait 1
-if %object.vnum% != 30809
+if (%object.vnum% != 30809)
   гнев
   drop all
   halt
@@ -818,40 +818,33 @@ mecho Лохматый Леший ласково потрепал их за хвост.
 wait 1s
 говор Ну, а теперь бегите в лес.
 mecho Зубастые белки выбежали из берлоги.
-calcuid belka 30813 mob
-attach 30813 %belka.id%
-exec 30813 %belka.id%
-calcuid belka 30813 mob
-attach 30813 %belka.id%
-exec 30813 %belka.id%
-calcuid belka 30813 mob
-attach 30813 %belka.id%
-exec 30813 %belka.id%
+while (%exist.mob(30813)%)
+  calcuid belka 30813 mob
+  attach 30813 %belka.id%
+  exec 30813 %belka.id%
+done
 wait 2s
 говор Спасибо. Выручил%actor.g% ты меня!
 говор теперь и моя очередь.
 if (%world.curobjs(1710)% < 1) && (%random.1000% <= 100)
   mload obj 1710
   mecho Леший вытащил откуда-то толстую замызганную книгу и протянул Вам.
-  give трактат .%actor.name%
 elseif (%world.curobjs(404)% < 1) && (%random.1000% <= 451)
   mload obj 404
   mecho Леший вытащил откуда-то связку замызганых кусков бересты и протянул Вам.
-  дать берест .%actor.name%
 elseif (%world.curobjs(30717)% < 5) && (%random.1000% <= 500)
   mecho Леший снял с себя старый кафтан и протянул его Вам.
   mload obj 30717
-  дат кафт %actor.name%
 elseif (%world.curobjs(30715)% < 3) && (%random.1000% <= 300)
   mecho Леший вытащил из-за пазухи бересту и протянул ее Вам.
   mload obj 30718
-  дат берест %actor.name%
 else
   mecho Леший вытащил из-за пазухи мешочек и протянул его Вам.
-  mload obj 30716
-  дат мешоч %actor.name%
+  eval temp %actor.gold(+2000)%
 end
-detach 30735 %self.id% 
+дать all .%actor.iname%
+брос all
+detach 30735 %self.id%
 ~
 #30736
 Убираем триг с толстой тли~

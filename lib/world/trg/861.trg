@@ -663,44 +663,39 @@ end
 1 c 2
 изучить~
 if !%arg.contains(трактат)%
+  %send% %actor% Что именно?
   return 0
   halt
 end
 wait 1
 osend %actor% Вы начали перелистывать страницы трактата, надеясь найти что-нибудь полезное.
-oechoaround %actor% %actor.name% начал%actor.g% перелистывать трактат.
+oechoaround %actor% %actor.iname% начал%actor.g% перелистывать трактат.
 switch %actor.class%
   *тать
   case 2
     if !%actor.skill(проникающее оружие)%
-      oskillturn %actor.name% проникающее.оружие set
-    else
-      if ( %actor.skill(проникающее оружие)% < 120 )
-        eval val %random.5%
-        oskilladd %actor.name% проникающее.оружие %val%
-      end
+      oskillturn %actor% проникающее.оружие set
+    elseif (%actor.skill(проникающее оружие)% < 120)
+      eval val %random.5%
+      oskilladd %actor% проникающее.оружие %val%
     end
   break
   *богатырь  
   case 3
     if !%actor.skill(кулачный бой)%
-      oskillturn %actor.name% кулачный.бой set
-    else
-      if ( %actor.skill(кулачный бой)% < 120 )
-        eval val %random.5%
-        oskilladd %actor.name% кулачный.бой %val%
-      end
+      oskillturn %actor% кулачный.бой set
+    elseif (%actor.skill(кулачный бой)% < 120)
+      eval val %random.5%
+      oskilladd %actor% кулачный.бой %val%
     end
   break 
   *наемник
   case 4
     if !%actor.skill(короткие лезвия)%
-      oskillturn %actor.name% короткие.лезвия set
-    else
-      if ( %actor.skill(короткие лезвия)% < 120 )
-        eval val %random.5%
-        oskilladd %actor.name% короткие.лезвия %val%
-      end
+      oskillturn %actor% короткие.лезвия set
+    elseif (%actor.skill(короткие лезвия)% < 120)
+      eval val %random.5%
+      oskilladd %actor% короткие.лезвия %val%
     end
   break
   *дружинник
@@ -708,64 +703,56 @@ switch %actor.class%
     *витязь
     case 9
       if !%actor.skill(длинные лезвия)%
-        oskillturn %actor.name% длинные.лезвия set
-      else
-        if ( %actor.skill(длинные лезвия)% < 120 )
-          eval val %random.5%
-          mskilladd %actor.name% длинные.лезвия %val%
-        end
+        oskillturn %actor% длинные.лезвия set
+      elseif (%actor.skill(длинные лезвия)% < 120)
+        eval val %random.5%
+        mskilladd %actor% длинные.лезвия %val%
       end
     break
-    *охотник
-    case 10
-      if !%actor.skill(луки)%
-        oskillturn %actor.name% луки set
-      else
-        if ( %actor.skill(луки)% < 120 )
-          eval val %random.5%
-          oskilladd %actor.name% луки %val%
-        end
-      end
-    break 
-    *кузнец
-    case 11
-      if !%actor.skill(топоры)%
-        oskillturn %actor.name% топоры set
-      else
-        if ( %actor.skill(топоры)% < 120 )
-          eval val %random.5%
-          oskilladd %actor.name% топоры %val%
-        end
-      end
-    break
-    *купец
-    case 12
-      if !%actor.skill(копья и пики)%
-        oskillturn %actor.name% копья.и.пики set
-      else
-        if ( %actor.skill(копья и пики)% < 120 )
-          eval val %random.5%
-          oskilladd %actor.name% копья.и.пики %val%
-        end
-      end
-    break  
-    *волхв
-    case 13
-      if !%actor.skill(посохи и дубины)%
-        oskillturn %actor.name% посохи.и.дубины set
-      else
-        if ( %actor.skill(посохи и дубины)% < 120 )
-          eval val %random.5%
-          oskilladd %actor.name% посохи.и.дубины %val%
-        end
-      end
-    break
-    default
-      %send% %actor% Вы так и не сумели что-либо прочесть - видно ума маловато.
-    done
-    osend %actor% Вы с изумлением увидели, как книга вдруг вспыхнула и сгорела.
-    wait 1
-    %purge% %self%
+  break
+  *охотник
+  case 10
+    if !%actor.skill(луки)%
+      oskillturn %actor% луки set
+    elseif (%actor.skill(луки)% < 120)
+      eval val %random.5%
+      oskilladd %actor% луки %val%
+    end
+  break 
+  *кузнец
+  case 11
+    if !%actor.skill(топоры)%
+      oskillturn %actor% топоры set
+    elseif (%actor.skill(топоры)% < 120)
+      eval val %random.5%
+      oskilladd %actor% топоры %val%
+    end
+  break
+  *купец
+  case 12
+    if !%actor.skill(копья и пики)%
+      oskillturn %actor% копья.и.пики set
+    elseif (%actor.skill(копья и пики)% < 120)
+      eval val %random.5%
+      oskilladd %actor% копья.и.пики %val%
+    end
+  break  
+  *волхв
+  case 13
+    if !%actor.skill(посохи и дубины)%
+      oskillturn %actor% посохи.и.дубины set
+    elseif (%actor.skill(посохи и дубины)% < 120)
+      eval val %random.5%
+      oskilladd %actor% посохи.и.дубины %val%
+    end
+  break
+  default
+    %send% %actor% Вы так и не сумели что-либо прочесть - видно ума маловато.
+  break
+done
+osend %actor% Вы с изумлением увидели, как книга вдруг вспыхнула и сгорела.
+wait 1
+%purge% %self%
 ~
 #86126
 триг на пленнике~
@@ -803,7 +790,8 @@ wait 1
 if ( %object.vnum% != 86155 )
   emot слегка недоуменно посмотрел на вас, затем быстро шмыгнул за дверь и был таков
   wait 1
-  %purge% questitem861n1
+  calcuid krest 86155 obj
+  %purge% %krest%
   %purge% %self%
 end
 emot бросил на крестик короткий взгляд и повернулся к вам
@@ -828,7 +816,7 @@ wait 5
 say Помоги мне выбраться из их владений и отыскать тайник.
 say Может быть, его еще не разграбили - и тогда я смогу наградить тебя за помощь.
 wait 1
-%purge% questitem861n1
+%purge% %object%
 follow %actor.name%
 mtransform 86120
 detach 86127 %self.id%
@@ -921,9 +909,9 @@ if ( %self.realroom% ==  86120)
   emot достал несколько предметов из тайника
   emot бережно извлек на свет икону и стал заворачивать ее в кусок чистого навощеного полотна
   eval char %random.pc%
-  if ((%random.1000% <= 45) && (%world.curobjs(3300)% < 1))
-    mload obj 3300
-    ____дать валькир %char.name%
+  if (%random.1000% <= 45)
+    mload obj 103
+    дать чекуш %char.name%
   end
   if (( %random.1000% <= 100 ) && ( %world.curobjs(578)% < 1 ))
     *место под лоад буки !групповое освящение! после перекладывания

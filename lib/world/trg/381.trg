@@ -37,24 +37,25 @@ done
 ~
 wait 1
 eval needgold 10+%actor.level%*(%actor.remort%+1)
-if %amount% < %needgold%
+if (%amount% < %needgold%)
   дум
   say Нет, видно не судьба нам походить вместе...
   halt
 end
 wait 1
-msend   %actor%  Мужичок-болотник поднялся и завязал вам глаза тряпицею.
-mechoaround %actor%  Мужичок-болотник поднялся и завязал %actor.dname% глаза тряпицею.
-msend   %actor% Он взял вас за руку и повел неведанными тропками.
-mechoaround %actor%  %actor.name% и болотник ушли на юг.
+msend       %actor% Мужичок-болотник поднялся и завязал Вам глаза тряпицею.
+mechoaround %actor% Мужичок-болотник поднялся и завязал %actor.dname% глаза тряпицею.
+msend       %actor% Он взял Вас за руку и повел неведанными тропками.
+mechoaround %actor% %actor.name% и болотник ушли на юг.
 wait 1
-msend   %actor% В какой-то момент вам показалось, что он ходит кругами.
-msend   %actor% Вы слышали странные крики и неприятные запахи болота.
-msend   %actor% Вам казалось, что твари болотные наблюдают за вами.
+msend       %actor% В какой-то момент Вам показалось, что он ходит кругами.
+msend       %actor% Вы слышали странные крики и неприятные запахи болота.
+msend       %actor% Казалось, что твари болотные наблюдают за Вами.
 mechoaround %actor% Болотник вернулся с юга, довольно подсчитывая барыши.
 mteleport %actor% 38147 horse
-*mat 38147  mechoaround %actor% _Кто-то пришел сюда со стороны болот.
-msend   %actor% Но наконец путь кончился, и вы уже за болотами.
+wait 1
+mat 38147 mechoaround %actor% _Кто-то пришел сюда со стороны болот.
+msend       %actor% Но наконец путь кончился, и Вы уже за болотами.
 ~
 #38103
 дал бабки старичку~
@@ -66,43 +67,27 @@ if %self.fighting%
   give %amount% кун .%actor.name%
   halt
 end
-if %amount% < %needgold%
+if (%amount% < %needgold%)
   wait 1
   дум
-  if      %actor.sex% == 1
+  if      (%actor.sex% == 1)
     say За такую сумму...иди ка ты молодец знаешь куда...
-    msend   %actor% Старичок взмахнул руками, и вы оказались невесть где.
-    mechoaround %actor% Старичок взмахнул руками, и  %actor.name% улетел невесть куда.
-    mteleport %actor% 38168
-    mat 38168  mechoaround %actor% _Кто-то пришел сюда со стороны болот.
-    msend   %actor% Вы оказались на болоте.
-    halt
   else 
     say Жадновата ты голубка...надо тебя проучить..
-    msend   %actor% Старичок взмахнул руками, и вы оказались невесть где.
-    mechoaround %actor% Старичек взмахнул руками, и  %actor.name% улетела невесть куда.
-    mteleport %actor% 38168
-    mat 38168  mechoaround %actor% _Кто-то пришел сюда со стороны болот.
-    msend   %actor% Вы оказались на болоте.
-    halt
   end
+  msend       %actor% Старичок взмахнул руками, и Вы оказались невесть где.
+  mechoaround %actor% Старичок взмахнул руками, и %actor.name% улетел%actor.g% невесть куда.
+  mteleport %actor% 38168
+  mat 38168 mechoaround %actor% _Кто-то пришел сюда со стороны болот.
+  msend       %actor% Вы оказались на болоте.
+  halt
 end
 wait 1
-if      %actor.sex% == 1
-  msend   %actor%  Старик-болотник взмахнул рукой и у вас закружилась голова.
-  mechoaround %actor%  Старик-болотник взмахнул рукой и  %actor.name%  исчез.
-  mteleport %actor% 38143 horse
-  mat 38143  mechoaround %actor% _Кто-то пришел сюда со стороны болот.
-  msend   %actor% Вы оказались на дороге по ту сторону болот.
-  halt
-else
-  msend   %actor%  Старик-болотник взмахнул рукой и у вас закружилась голова.
-  mechoaround %actor%  Старик-болотник взмахнул рукой и  %actor.name%  исчезла.
-  mteleport %actor% 38143 horse
-  mat 38143  mechoaround %actor% _Кто-то пришел сюда со стороны болот.
-  msend   %actor% Вы оказались на дороге по ту сторону болот.
-  halt
-end
+msend       %actor% Старик-болотник взмахнул рукой и у Вас закружилась голова.
+mechoaround %actor% Старик-болотник взмахнул рукой и %actor.name% исчез%actor.q%.
+mteleport %actor% 38143 horse
+mat 38143 mechoaround %actor% _Кто-то пришел сюда со стороны болот.
+msend       %actor% Вы оказались на дороге по ту сторону болот.
 ~
 #38104
 лезть в бочку~
@@ -305,12 +290,13 @@ wait 1
 *%actor.wait(4)%
 foreach char %self.pc%
   if %char.haveobj(11407)% && !%char.quested(27013)%
-    %char.setquest(27012)%
+    eval buf %char.setquest(27012)%
     wecho Страшно уродливый человек вдруг выскочил из кустов!
     wsend %char%  Оторопев от такого зрелища, вы выронили мешок с гостинцами от старого охотника...
     wechoaround %char% %char.name% шарахнул%char.u% в сторону и выронил%char.g% мешок.
     wforce %char% drop questitem11401
-    wpurge questitem11401
+    calcuid bag 11407 obj
+    wpurge %bag%
     wecho Урод подхватил мешок и зайцем припустил по дороге на восток.
     halt
   end

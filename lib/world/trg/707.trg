@@ -194,6 +194,7 @@ detach 70704 %self.id%
 да отправляй~
 wait 1
 mecho Скальд что-то пробурчал.
+mat 70721 mecho Кто-то появился здесь в клубах сизого дыма.
 mteleport all 70721
 wait 2s
 mat %actor.realroom% mecho Вы очутились около незнакомых скал!
@@ -323,10 +324,9 @@ else
   calcuid ca3 70717 obj
   wait 1s
   if %ca1.carried_by% == %ca2.carried_by% && %ca1.carried_by% == %ca3.carried_by%
-    oecho _В глазах у Вас потемнело!
-    calcuid skald 70703 mob
-    attach 70711 %skald.id%
-    oteleport all %skald.realroom%
+    calcuid troom %self.room% room
+    attach 70716 %troom.id%
+    exec 70716 %troom.id%
   end
 end
 ~
@@ -378,16 +378,9 @@ switch %object.vnum%
     wait 1s
     осм %actor.name%
     wait 1s
-    * вобщем щас тут вместо трех падает 1230 (кольцо нс) и 1231 (талисман нс)
     * а так можно и руны  и книги и скиллы  тут  положить :-)
-    eval stuff 1229+%random.2%
-    if %random.100% <= 50
-      eval stuff 1245+%random.2%
-    end
-    if ((!%world.curobjs(%stuff%)%) && (%random.1000% <= 80))
-      mload obj %stuff%
-      дать все %actor.name%
-    elseif ( %random.100% <= 15 )
+    * сеты убраны
+    if ( %random.100% <= 15 )
       mload obj 579
       say Вот эту шкатулку со словами взял я у одного черного жреца, из тех, что молятся кресту.
       say Мне в ней нет проку - возьми, коли хочешь.
@@ -511,5 +504,18 @@ detach 70714  %self.id%
 wdoor 70752 east purge
 wdoor 70756 west purge
 detach 70715  %self.id%
+~
+#70716
+телепорт к скальду~
+2 z 100
+~
+if (%exist.mob(70703)%)
+  calcuid skald 70703 mob
+  attach 70711 %skald.id%
+  wecho _В глазах у Вас потемнело!
+  wat %skald.realroom% wecho Кто-то появился здесь в клубах сизого дыма.
+  wteleport all %skald.realroom%
+end
+detach 70716 %self.id%
 ~
 $~

@@ -17,7 +17,7 @@ d0f0g0l0m0n0o0p0x0b1 d0f0k0r0x0 -600 E
 Saves: -70 -70 -70 -100
 Resistances: 170 170 170 170 170 200 50
 Armour: 50
-CastSuccess: 55
+CastSuccess: 56
 Success: 40
 AResist: 70
 BareHandAttack: 4
@@ -33,7 +33,7 @@ Size: 100
 LikeWork: 30
 ExtraAttack: 5
 Class: 102
-Race: 112
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: a0b0c0d0l0 
@@ -94,7 +94,7 @@ d0f0g0l0m0n0o0p0x0b1 d0f0k0r0x0m1 -600 E
 Saves: -70 -70 -70 -58
 Resistances: 170 170 170 170 170 200 50
 Armour: 50
-CastSuccess: 40
+CastSuccess: 56
 Success: 60
 AResist: 70
 BareHandAttack: 4
@@ -108,7 +108,7 @@ Size: 100
 LikeWork: 35
 ExtraAttack: 2
 Class: 102
-Race: 101
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: l0 
@@ -247,6 +247,7 @@ d0f0g0l0m0n0o0p0x0b1 d0f0k0r0x0m1 -600 E
 Saves: -80 -80 -80 -80
 Resistances: 170 170 170 170 170 200 50
 Armour: 50
+CastSuccess: 56
 Initiative: 50
 AResist: 70
 BareHandAttack: 4
@@ -260,7 +261,7 @@ Size: 100
 LikeWork: 100
 ExtraAttack: 1
 Class: 102
-Race: 112
+Race: 105
 Height: 30
 Weight: 150
 Special_Bitvector: l0C3 
@@ -313,7 +314,8 @@ T 91822
 птице Грифон~
 Птица Грифон летает тут.
 ~
-undefined~
+
+~
 b0d0f0g0l0m0n0o0p0t0x0b1r1 d0f0h0k0r0x0m1 -600 E
 43 0 -10 30d30+9000 30d7+7
 90d90+0 5000000
@@ -321,6 +323,7 @@ b0d0f0g0l0m0n0o0p0t0x0b1r1 d0f0h0k0r0x0m1 -600 E
 Saves: -58 -58 -58 -60
 Resistances: 0 0 0 0 50 0 0
 Armour: 50
+CastSuccess: 56
 AResist: 60
 BareHandAttack: 8
 Str: 36
@@ -360,6 +363,7 @@ b0d0f0g0l0m0n0o0p0x0b1 d0f0k0r0x0m1 -600 E
 0d0+0 1000000
 8 8 1
 Saves: -30 -30 -30 -30
+CastSuccess: 35
 BareHandAttack: 8
 Str: 31
 Dex: 27
@@ -431,15 +435,17 @@ T 91809
 дух чернокнижника~
 духом чернокнижника~
 духе чернокнижника~
-Дух злобного чернокнижника парит в  воздухе.
+Дух злобного чернокнижника парит в воздухе.
 ~
-undefined~
+
+~
 d0f0m0n0o0p0q0x0z0b1a2 d0f0k0x0p1 -600 E
 34 0 -5 0d0+6000 8d9+100
 0d0+0 740000
 8 8 1
 Saves: -22 -22 -22 -22
 Resistances: 0 0 0 0 100 0 0
+CastSuccess: 29
 Int: 25
 Wis: 24
 Cha: 14
@@ -596,6 +602,7 @@ b0d0f0g0m0n0o0p0x0z0 d0f0k0m1 -600 E
 8 8 1
 Saves: -18 -18 -18 -18
 Resistances: 0 0 0 0 85 0 0
+CastSuccess: 26
 BareHandAttack: 6
 Str: 21
 Dex: 20

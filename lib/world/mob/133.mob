@@ -6,7 +6,7 @@
 Торольва~
 Торольвом~
 Торольве~
-Торольв - предводитель варягов,  смотрит Вам прямо в глаза.
+Торольв - предводитель варягов, смотрит Вам прямо в глаза.
 ~
 Судя по шраму на лице - это бывалый вояка.
 ~
@@ -15,6 +15,7 @@ b0d0g0l0m0n0o0 d0f0k0 -600 E
 0d0+30 820000
 8 8 1
 Saves: -26 -26 -26 -26
+CastSuccess: 32
 Str: 24
 Dex: 30
 Con: 18
@@ -38,9 +39,9 @@ Spell: 79
 Spell: 79
 Spell: 82
 Spell: 82
-Helper: 13305
-Helper: 13304
 Helper: 13303
+Helper: 13304
+Helper: 13305
 E
 T 13300
 T 13301
@@ -330,6 +331,7 @@ b0d0g0l0m0n0o0 d0f0k0 -600 E
 0d0+30 500000
 8 8 2
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 Str: 24
 Dex: 30
 Con: 18
@@ -366,9 +368,9 @@ Spell: 89
 Spell: 89
 Spell: 89
 Spell: 89
-Helper: 13308
-Helper: 13307
 Helper: 13306
+Helper: 13307
+Helper: 13308
 E
 T 13303
 T 13304
@@ -503,9 +505,9 @@ Special_Bitvector: 0
 Skill: 136 84
 Skill: 137 100
 Skill: 150 100
-Helper: 13316
-Helper: 13315
 Helper: 13314
+Helper: 13315
+Helper: 13316
 E
 #13314
 охранник темницы~

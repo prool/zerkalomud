@@ -83,6 +83,9 @@ end
 0 c 1
 закупка~
 wait 1
+say Для тебя у меня ничего нет, прогуляйся к мятельнику.
+halt
+wait 1
 if %actor.vnum% != -1
   halt
 elseif %actor.clan% == нво
@@ -314,7 +317,7 @@ wait 1
 wsend %actor% Ловко вскарабкавшись по мощным веткам, вы оказались наверху.
 wteleport %actor% 23780
 wechoaround %actor% %actor.name% забрал%actor.u% сюда хрустя ветками и ругаясь.
-log &k*>->-> %actor.name%&n
+log &W%actor.name%&g
 ~
 #23714
 Тригер двойника~
@@ -833,5 +836,48 @@ set text Спите славные люди Багдадаааа...!
 if (%speech% == %text%)
   say Вы удооооды...!
 end
+~
+#23737
+Выдача лошадок~
+0 m 1
+~
+* Триг висит на рентере
+wait 1
+if %amount% < 50
+  wait 2
+  say Маловато будет!
+  give %amount% кун .%actor.name%
+  halt
+end
+if %world.curobjs(23701)% >= 500
+  wait 2
+  say Нет больше лошадок, кончились!
+  give %amount% кун .%actor.name%
+  halt
+end
+wait 2
+say Вот, извольте.
+mload obj 23701
+give all.лошадка .%actor.name%
+~
+#23738
+Статую тригнули~
+1 c 4
+получить~
+* Триг висит на статуе
+if (!%arg.contains(халв)%)
+  %send% %actor% Что Вы хотите %cmd%?
+  halt
+end
+if (%actor.gold% < 100)
+  %send% %actor% У вас недостаточно денег для этого!
+  halt
+end
+%send% %actor% Лишившись 100 кун, Вы обрели килограмм халвы!
+%echoaround% %actor% %actor.iname% обрел килограмм халвы!
+%load% obj 23772
+calcuid food 23772 obj
+eval temp %food.put(%actor%)%
+eval temp %actor.gold(-100)%
 ~
 $~

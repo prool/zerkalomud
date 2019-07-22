@@ -401,12 +401,21 @@ if !%random.pc%
   exec 92215 %self.id%
   halt
 end
-mforce адская1 вст
-mforce адская2 вст
-mforce адская3 вст
-mteleport адская1 %self.realroom%
-mteleport адская2 %self.realroom%
-mteleport адская3 %self.realroom%
+if (%exist.mob(92207)%)
+  calcuid helldogone 92207 mob
+  eval tmp %helldogone.position(8)%
+  mteleport %helldogone% %self.realroom%
+end
+if (%exist.mob(92208)%)
+  calcuid helldogtwo 92208 mob
+  eval tmp %helldogtwo.position(8)%
+  mteleport %helldogtwo% %self.realroom%
+end
+if (%exist.mob(92209)%)
+  calcuid helldogtri 92209 mob
+  eval tmp %helldogtri.position(8)%
+  mteleport %helldogtri% %self.realroom%
+end
 mecho Адские гончии появились из портала!
 set target1 %random.pc%
 set tnum 1

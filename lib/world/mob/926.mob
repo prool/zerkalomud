@@ -14,12 +14,13 @@
 своего могущества.
 ~
 b0c0d0f0n0o0p0q0t0A0 d0f0h0k0n0A0p1y1 -600 E
-40 0 -10 100d59+9999 20d9+40
+41 0 -10 100d59+9999 20d9+40
 0d0+0 3200000
 8 8 2
 Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 105 105 0
 CastSuccess: 50
+Absorbe: 41
 AResist: 25
 Str: 32
 Dex: 24
@@ -120,13 +121,14 @@ T 92606
 мертвых на пользу живым.
 ~
 c0d0f0l0m0n0o0p0x0A0 d0f0k0r0m1q1 -600 E
-35 0 -10 10d10+2500 10d11+21
+40 0 -10 10d10+2500 10d11+21
 50d50+9582 2500000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 80 80 105 105 0
 Armour: 50
 CastSuccess: 50
+Absorbe: 40
 AResist: 60
 Str: 23
 Dex: 20
@@ -212,13 +214,14 @@ T 92617
 однако, скверным нравом. Считался лучшим в своей сфере.
 ~
 b0c0d0f0l0m0n0o0p0x0A0i2 d0f0k0r0m1q1 -600 E
-35 0 -10 10d10+3800 15d11+21
+40 0 -10 10d10+3800 15d11+21
 50d50+9582 2500000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 80 80 105 105 0
 Armour: 50
 CastSuccess: 50
+Absorbe: 40
 AResist: 60
 BareHandAttack: 9
 Str: 36
@@ -277,13 +280,14 @@ T 92613
 долгую жизнь, и видевший немало войн.
 ~
 b0c0d0f0l0m0n0o0p0x0A0 d0f0k0r0m1q1 -600 E
-35 0 -10 10d10+3500 15d11+30
+40 0 -10 10d10+3500 15d11+30
 50d50+9582 2500000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 80 80 105 105 0
 Armour: 50
 CastSuccess: 50
+Absorbe: 40
 AResist: 60
 Str: 32
 Dex: 31
@@ -371,10 +375,13 @@ E
 этому миру.
 ~
 d0f0n0o0p0q0t0z0g2 d0f0k0r0 -600 E
-40 0 -10 50d15+6000 14d12+50
+43 0 -10 50d15+6000 14d12+50
 0d0+0 5000000
 8 8 1
+Saves: -58 -58 -58 -58
 Resistances: 0 0 0 0 105 105 0
+CastSuccess: 56
+Absorbe: 43
 BareHandAttack: 1
 Str: 36
 Dex: 36
@@ -429,12 +436,13 @@ T 92603
 и чужд этому миру.
 ~
 d0f0n0o0p0q0t0z0d2g2h2 d0f0k0r0 -600 E
-40 0 -10 50d15+6000 25d11+100
+43 0 -10 50d15+6000 25d11+100
 0d0+0 5000000
 8 8 1
-Saves: -50 -50 -50 -70
+Saves: -58 -58 -58 -70
 Resistances: 0 0 0 0 105 105 0
-CastSuccess: 50
+CastSuccess: 56
+Absorbe: 43
 AResist: 25
 BareHandAttack: 1
 Str: 36
@@ -489,13 +497,14 @@ T 92603
 связаны с его именем.
 ~
 c0d0f0l0m0n0o0p0x0A0 d0f0k0r0m1q1 -600 E
-35 0 -10 10d10+2500 10d11+21
+40 0 -10 10d10+2500 10d11+21
 50d50+9582 2500000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 80 80 105 105 0
 Armour: 50
 CastSuccess: 50
+Absorbe: 40
 AResist: 25
 Str: 23
 Dex: 20
@@ -584,13 +593,14 @@ T 92617
 одежду, движения гибкие и изящные.
 ~
 b0c0d0f0l0m0n0o0p0x0A0i2 d0f0k0r0m1q1 -600 E
-35 0 -10 10d10+3800 15d11+21
+40 0 -10 10d10+3800 15d11+21
 50d50+9582 2500000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 80 80 105 105 0
 Armour: 50
 CastSuccess: 50
+Absorbe: 40
 AResist: 25
 BareHandAttack: 9
 Str: 36
@@ -650,13 +660,14 @@ T 92613
 не властен над смертью.
 ~
 c0d0f0l0m0n0o0p0t0u0x0z0A0 d0f0k0m0n0r0q1x1y1z1 -600 E
-34 0 -10 10d10+2500 13d8+5
+41 0 -10 10d10+2500 13d8+5
 50d50+7777 3000000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 80 80 105 105 0
 Armour: 50
 CastSuccess: 50
+Absorbe: 41
 AResist: 25
 Str: 22
 Dex: 23
@@ -786,13 +797,14 @@ T 92618
 долгое время один из сильнейших дружин земли русской.
 ~
 b0c0d0f0l0m0n0o0p0t0u0x0z0A0i2 d0f0k0m0n0r0q1r1x1y1z1 -600 E
-34 0 -8 10d10+3200 13d10+10
+40 0 -8 10d10+3200 13d10+10
 50d50+7777 2500000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 80 80 105 105 0
 Armour: 50
-CastSuccess: 10
+CastSuccess: 47
+Absorbe: 40
 AResist: 75
 Str: 28
 Dex: 23
@@ -890,13 +902,14 @@ T 92311
 средством от всех невзгод для него был ледяной шторм.
 ~
 c0d0f0l0m0n0o0p0t0u0x0z0A0 d0f0k0m0n0r0q1x1y1z1 -600 E
-34 0 -10 10d10+2500 13d8+5
+41 0 -10 10d10+2500 13d8+5
 50d50+7777 3000000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 80 80 105 105 0
 Armour: 50
 CastSuccess: 50
+Absorbe: 41
 AResist: 75
 Str: 22
 Dex: 23
@@ -1027,13 +1040,14 @@ T 92618
 у пьяного боярина - любимое дело.
 ~
 c0d0f0l0m0n0o0p0z0A0 d0f0k0A0C0m1q1r1 -600 E
-30 0 -10 0d0+2900 11d9+11
+39 0 -10 0d0+2900 11d9+11
 100d100+9000 2100000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 80 80 105 105 0
 Armour: 50
 CastSuccess: 50
+Absorbe: 39
 AResist: 75
 Str: 36
 Dex: 21
@@ -1087,12 +1101,13 @@ T 92620
 огненных демонов.
 ~
 b0d0e0f0m0n0o0p0r0u0z0a2h2 d0f0h0k0n0r0x0A0p1y1 -600 E
-31 0 -10 10d10+2500 14d9+9
+35 0 -10 10d10+2500 14d9+9
 0d0+0 900000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 105 105 0
 CastSuccess: 50
+Absorbe: 35
 AResist: 25
 Str: 30
 Dex: 30
@@ -1159,12 +1174,13 @@ T 92611
 был хранителем огня и повелителем огненных демонов.
 ~
 b0d0e0f0m0n0o0p0r0u0z0a2h2 d0f0h0k0n0r0x0A0p1y1 -600 E
-31 0 -10 10d10+2500 14d9+9
+35 0 -10 10d10+2500 14d9+9
 0d0+0 900000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 105 105 0
 CastSuccess: 50
+Absorbe: 35
 AResist: 75
 Str: 30
 Dex: 30
@@ -1230,12 +1246,13 @@ T 92612
 Имеет полное сходство с Кассием.
 ~
 c0d0f0l0m0n0o0p0x0z0A0 d0f0k0m0n0r0t1 -600 E
-30 0 -10 10d10+2500 13d8+5
+31 0 -10 10d10+2500 13d8+5
 0d0+0 340000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 105 105 0
 CastSuccess: 50
+Absorbe: 31
 AResist: 25
 Str: 22
 Dex: 23
@@ -1270,12 +1287,13 @@ E
 Подозрительно похоже на Романиуса.
 ~
 c0d0f0l0m0n0o0p0x0z0A0 d0f0k0m0n0r0t1 -600 E
-30 0 -10 10d10+2500 13d8+5
+31 0 -10 10d10+2500 13d8+5
 0d0+0 340000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 105 105 0
 CastSuccess: 50
+Absorbe: 31
 AResist: 25
 Str: 22
 Dex: 23
@@ -1311,12 +1329,13 @@ E
 страшную опасность. Саламандры славятся огненной душой.
 ~
 b0d0f0m0n0o0 d0f0k0m1p1y1 -600 E
-35 0 -10 30d15+7777 11d11+40
+41 0 -10 30d15+7777 11d11+40
 0d0+0 3500000
 8 8 2
 Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 105 105 0
 CastSuccess: 50
+Absorbe: 41
 AResist: 25
 BareHandAttack: 4
 Str: 31
@@ -1357,12 +1376,13 @@ T 92607
 серебром. Неужто огненное существо может быть седым...
 ~
 b0c0d0f0m0n0o0t0A0r1i2 d0f0k0p1t1y1 -600 E
-35 0 -6 50d39+9000 11d19+50
+40 0 -6 50d39+9000 11d19+50
 0d0+0 2500000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 105 105 0
 CastSuccess: 50
+Absorbe: 40
 AResist: 25
 Str: 36
 Dex: 19
@@ -1477,12 +1497,13 @@ T 92609
 сила великанская тоже не мала.
 ~
 c0d0f0m0n0o0t0A0r1i2 d0f0h0k0p1t1y1 -600 E
-35 0 -5 50d39+6000 11d14+30
+39 0 -5 50d39+6000 11d14+30
 0d0+0 2200000
 8 8 2
 Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 105 105 0
 CastSuccess: 50
+Absorbe: 39
 AResist: 25
 Str: 30
 Dex: 19
@@ -1587,12 +1608,13 @@ T 92608
 Как же может быть слепым дитя стихии?
 ~
 c0d0f0m0n0o0t0A0r1i2 d0f0k0p1t1y1 -600 E
-35 0 -6 50d39+7600 11d17+30
+39 0 -6 50d39+7600 11d17+30
 0d0+0 2300000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 105 105 0
 CastSuccess: 50
+Absorbe: 39
 AResist: 25
 Str: 36
 Dex: 19
@@ -1685,14 +1707,14 @@ T 92610
 необычайно выразительные глаза не оставят равнодушными ни одну девушку.
 ~
 b0d0f0m0n0o0p0r0z0i2 d0f0h0k0x0p1y1 -600 E
-40 0 -10 100d119+9999 14d9+30
+42 0 -10 100d119+9999 14d9+30
 0d0+0 4000000
 8 8 1
-Saves: -50 -50 -50 -50
+Saves: -54 -54 -54 -54
 Resistances: 0 0 0 55 90 110 0
 Armour: 25
-CastSuccess: 50
-Absorbe: 50
+CastSuccess: 53
+Absorbe: 42
 AResist: 75
 BareHandAttack: 8
 Str: 23
@@ -1745,14 +1767,14 @@ T 92615
 девушку. Финист - воплощение бога Волха.
 ~
 b0d0f0m0n0o0p0r0u0z0a2 d0f0h0k0x0p1y1 -600 E
-40 0 -10 100d119+9999 21d9+30
+42 0 -10 100d119+9999 21d9+30
 0d0+0 4000000
 8 8 1
 Saves: -70 -70 -70 -70
 Resistances: 0 0 0 55 90 110 0
 Armour: 25
-CastSuccess: 50
-Absorbe: 50
+CastSuccess: 53
+Absorbe: 42
 AResist: 75
 BareHandAttack: 8
 Str: 23
@@ -1806,14 +1828,14 @@ T 92615
 описать. Огненный змей - воплощение бога Волха.
 ~
 b0d0f0m0n0o0p0r0t0u0z0 d0f0h0k0x0p1y1 -600 E
-40 0 -10 124d124+9999 23d9+30
+46 0 -10 124d124+9999 23d9+30
 0d0+0 7500000
 8 8 1
-Saves: -50 -50 -50 -50
+Saves: -70 -70 -70 -70
 Resistances: 140 0 -50 0 120 70 0
 Armour: 25
-CastSuccess: 50
-Absorbe: 50
+CastSuccess: 65
+Absorbe: 46
 AResist: 75
 BareHandAttack: 8
 Str: 23
@@ -1864,14 +1886,14 @@ T 92616
 мудрость веков. Его величие сложно описать. Огненный змей - воплощение бога Волха.
 ~
 b0d0f0m0n0o0p0r0t0u0z0a2h2 d0f0h0k0x0p1y1 -600 E
-40 0 -10 124d124+9999 23d19+30
+46 0 -10 124d124+9999 23d19+30
 0d0+0 7500000
 8 8 1
-Saves: -50 -50 -50 -50
+Saves: -70 -70 -70 -70
 Resistances: 140 0 -50 0 120 70 0
 Armour: 25
-CastSuccess: 50
-Absorbe: 50
+CastSuccess: 65
+Absorbe: 46
 AResist: 75
 BareHandAttack: 8
 Str: 23
@@ -1921,12 +1943,13 @@ T 92623
 стихии.
 ~
 c0d0f0g0m0n0o0x0A0b1 d0f0k0r0C0m1p1y1 -600 E
-33 2 -9 30d40+5000 15d15+110
+35 2 -9 30d40+5000 15d15+110
 0d0+0 900000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 140 0 -50 0 120 70 0
 CastSuccess: 50
+Absorbe: 35
 AResist: 25
 BareHandAttack: 6
 Str: 34
@@ -1982,12 +2005,13 @@ E
 - шкурка ее излучает ровный и мягкий свет.
 ~
 d0f0m0n0o0p0x0g2 d0f0k0s0p1y1 -600 E
-30 0 -7 10d10+2400 7d7+40
+34 0 -7 10d10+2400 7d7+40
 0d0+0 700000
 8 8 2
 Saves: -50 -50 -50 -70
 Resistances: 140 0 -50 0 120 70 0
 CastSuccess: 50
+Absorbe: 34
 AResist: 25
 BareHandAttack: 4
 Str: 20
@@ -2032,12 +2056,13 @@ E
 и гляди, в тебя полетит огненный шар, а то и чего похуже.
 ~
 b0d0f0n0o0g2 d0f0k0p1x1y1z1 -600 E
-32 4 -8 10d10+3800 12d7+1
+36 4 -8 10d10+3800 12d7+1
 0d0+0 1100000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 140 0 -50 0 120 70 0
 CastSuccess: 50
+Absorbe: 36
 AResist: 25
 Str: 17
 Dex: 15
@@ -2137,12 +2162,13 @@ E
 породила этого воина и наделила великой силой.
 ~
 d0f0m0n0o0p0q0z0b1 d0f0k0x0 -600 E
-32 0 -9 20d20+1800 20d9+20
+33 0 -9 20d20+1800 20d9+20
 0d0+0 540000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 140 0 -50 0 120 70 0
 CastSuccess: 50
+Absorbe: 33
 AResist: 25
 Str: 20
 Dex: 13
@@ -2197,12 +2223,13 @@ E
 принадлежит ни одному из миров.
 ~
 d0g0m0n0o0p0x0z0b1 d0f0k0 -600 E
-30 0 -10 0d0+1600 15d11+50
+31 0 -10 0d0+1600 15d11+50
 0d0+0 350000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 120 70 0
 CastSuccess: 50
+Absorbe: 31
 AResist: 25
 Str: 32
 Dex: 25
@@ -2237,12 +2264,13 @@ E
 фигура, состоящая из гладких белых косточек, выглядит даже забавно.
 ~
 d0g0l0m0n0o0p0x0z0 d0f0k0j1 -600 E
-30 0 -10 0d0+1300 20d9+20
+31 0 -10 0d0+1300 20d9+20
 0d0+0 350000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 150 150 0
 CastSuccess: 50
+Absorbe: 31
 AResist: 25
 BareHandAttack: 11
 Str: 32
@@ -2281,12 +2309,13 @@ E
 его услуги.
 ~
 d0f0m0n0o0p0q0x0z0b1a2 d0f0k0x0p1 -600 E
-30 0 -5 0d0+6000 8d9+100
+35 0 -5 0d0+6000 8d9+100
 0d0+0 890000
 8 8 1
 Saves: -50 -50 -50 -70
 Resistances: 0 0 0 0 150 150 0
 CastSuccess: 50
+Absorbe: 35
 AResist: 25
 Int: 25
 Wis: 24
@@ -2320,7 +2349,7 @@ Spell: 93
 E
 T 91810
 #92631
-волх_моб змеевич~
+волх_моб~
 Волх~
 Волха~
 Волху~

@@ -68,11 +68,18 @@ wait 1
 if %actor.vnum% != -1
   halt
 end
-if %actor% != %hero877%
+if (%actor% != %hero877%)
   msend %actor% Добрый конь только фыркнул, да в сторону шагнул.
   return 1
   halt
 end
+foreach vict %self.pc%
+  if !%vict.rentable%
+    mecho Добрый конь только фыркнул, да в сторону от %vicr.rname% шагнул.
+    return 1
+    halt
+  end
+done
 return 0
 %actor.wait(5)%
 wait 2s 
@@ -85,12 +92,9 @@ wait 7
 wait 9 
 %echo% Да не скоро дело делается. 
 wait 8
-%echo% Долго ли коротко, да доехали вы до стеклянной горы.
-*foreach victim %self.pc% 
-if %actor.rentable%
-  mteleport all 87701
-end
-*done
+%echo% Долго ли коротко, да доехали Вы до стеклянной горы.
+mat 87701 mecho Кто-то приехал сюда на добром коне.
+mteleport all 87701
 mteleport %self% 87701
 *истощить энергию надобно 
 calcuid pered_steklom 87701 room
@@ -1387,11 +1391,7 @@ switch %random.5%
     end
   break
   case 5
-    if (%world.curobjs(3310)% == 0)
-      mload obj 3310
-    else
-      mload obj 87759
-    end
+    mload obj 87759
   break
   default
     mload obj 87759

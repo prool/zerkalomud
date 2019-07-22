@@ -56,7 +56,8 @@ if !%arg.contains(яблочко)% && !%arg.contains(наливное)%
 end
 wait 1
 if %world.curobjs(91106)%
-  *  wpurge наливн.яблоч
+  *   calcuid apple 91106 obj
+  *   wpurge %apple%
   *   wsend %actor% Похоже, его уже сорвали...
   halt
 end

@@ -21,18 +21,17 @@ detach 6700 %kamen.id%
 лезть пролезть влезть~
 if !(%arg.contains(нора)%) 
   wsend %actor% Куда это Вы хотите пролезть???
-  return 0
   halt
 end
-wsend %actor% Вы как тот змей пролезли в нору..
+if (!%actor.rentable%)
+  wsend %actor% Кровь на ваших руках не дает вам сделать этого!
+  halt
+end
+wsend %actor% Вы как тот змей пролезли в нору.
 wechoaround %actor% %actor.name% полез%actor.q% в нору.
 wait 1s
 wsend %actor% Странно, но вы не застряли в лазе и благополучно оказались где то.
 wteleport %actor.name% 6771
-calcuid norkau 6771 room
-attach 6702 %norkau.id%
-calcuid norkad 6719 room
-detach 6701 %norkad.id%
 ~
 #6702
 пролезть в норку вверх~
@@ -40,10 +39,13 @@ detach 6701 %norkad.id%
 выбраться лезть пролезть влезть~
 if !(%arg.contains(нора)%) 
   wsend %actor% Куда это Вы хотите пролезть???
-  return 0
   halt
 end
-wsend %actor% Вы с как тот змей пролезли в нору..
+if (!%actor.rentable%)
+  wsend %actor% Кровь на ваших руках не дает вам сделать этого!
+  halt
+end
+wsend %actor% Вы с как тот змей пролезли в нору.
 wechoaround %actor% %actor.name% полез%actor.q% в нору.
 wait 1s
 wsend %actor% Странно, но вы не застряли в лазе и благополучно выбрались на свежий вздух.
@@ -243,15 +245,15 @@ if %object.vnum%==6707
   mecho "Жжжжжжжж." - благодарно протянул шмель.
   wait 2s
   mecho "Жжжачем мне это? Жжжж. Я жжж не прижжью себе снова жжжало!"
-  mpurge жало
+  mpurge %object%
   wait 5s
-  mecho "Жжжж. Но спасибо всежжжж."- прожужжал щмель.
+  mecho "Жжжж. Но спасибо всежжжж."- прожужжал шмель.
   mecho Шмель дунул на жало, и оно осветилось легким светом.
   wait 3s
   if %world.curobjs(6713)% < 100
     mload obj 6713
     дат жало %actor.name%
-    mecho "Держжжи и не жужжии."- прожужжал щмель.
+    mecho "Держжжи и не жужжии."- прожужжал шмель.
   end
 end
 ~
@@ -259,14 +261,14 @@ end
 вылезть из муравейника~
 2 c 0
 вылезти лезть пролезть~
-if !(%arg.contains(муравейник)%) 
+if !(%arg.contains(наружу)%)
   wsend %actor% Куда это Вы хотите вылезти???
   return 0
   halt
 end
 wsend %actor% Будучи очень маленьким, вы вылезли из муравейника.
 wait 1s
-wsend %actor% Вы наруже.
+wsend %actor% Вы снаружи.
 wat 6774 wecho Кто-то пролез сюда снизу.
 wteleport %actor.name% 6717
 ~

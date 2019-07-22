@@ -209,24 +209,23 @@ wait 4
 прием падалины~
 0 j 100
 ~
-wait 4
-if (%object.vnum% == 7009)
-  wait 1
-  mpurge %object%
-  г Ох, ну зачем ты сюда эту гадость принес%actor.q%!
-  укор %actor.iname%
-  г Забирай вот плату поскорей, да проваливай.
-  гадость
-  %self.gold(+50)%
-  дать 50 кун %actor.iname%
-  if %random.1000% <= 100
-    г Вот еще держи, давно выбросить хотел.
-    %load% obj 1756
-    дать книга %actor.name%
-  end
-else
-  г Это мне и даром не надо.
-  дать %object.name% %actor.name%
+if !(%object.vnum% == 7009)
+  г Это можешь оставить себе, мне и даром не надо.
+  return 0
+  halt
+end
+wait 1
+mpurge %object%
+г Ох, ну зачем ты сюда эту гадость принес%actor.q%!
+укор %actor.iname%
+г Забирай вот плату поскорей, да проваливай.
+гадость
+%self.gold(+50)%
+дать 50 кун .%actor.iname%
+if %random.1000% <= 100
+  г Вот еще держи, давно выбросить хотел.
+  %load% obj 1756
+  дать книга .%actor.iname%
 end
 detach 7007 %self.id%
 detach 7008 %self.id%
@@ -242,7 +241,7 @@ end
 wsend %actor% Задержав дыхание вы полезли в нору.
 wechoaround %actor% %actor.name% задержал дыхание и полез%actor.q% в нору.
 wait 1s
-wteleport %actor.name% 7061
+wteleport %actor% 7061
 wsend %actor% Ну и запашок!
 ~
 #7010

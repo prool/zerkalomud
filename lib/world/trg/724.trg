@@ -83,12 +83,19 @@ mpurge %self%
 1 h 100
 ~
 if (%actor.realroom% != 72401)
-  osend %actor% Вряд ли стоит здесь бросать подобные вещи.
+  %send% %actor% Не стоит рассыпать яд где попало - ведь могут пострадать дети!
   return 0
   halt
 end
-calcuid vspomoga 72400 room
-run 72417 %vspomoga.id%
+wait 1
+%send% %actor% Вы аккуратно рассыпали яд. Пускай крысы полакомятся.
+%echoaround% %actor% %actor.name% аккуратно рассыпал%actor.g% яд.
+while (%exist.mob(72403)% == 1)
+  calcuid bkrisa 72403 mob
+  exec 72406 %bkrisa.id%
+done
+wait 1s
+%echo% Откуда то снизу послышался жалобный писк.
 ~
 #72404
 яд брошен~
@@ -101,12 +108,19 @@ mpurge %self%
 сыплют яд~
 1 c 2
 рассыпать~
-if (%actor.realroom% == 72401)
-  while (%exist.mob(72403)% == 1)
-    calcuid bkrisa 72403 mob
-    exec 72406 %bkrisa.id%
-  done
+if (%actor.realroom% != 72401)
+  %send% %actor% Не стоит рассыпать яд где попало - ведь могут пострадать дети!
+  halt
 end
+wait 1
+%send% %actor% Вы аккуратно рассыпали яд. Пускай крысы полакомятся.
+%echoaround% %actor% %actor.name% аккуратно рассыпал%actor.g% яд.
+while (%exist.mob(72403)% == 1)
+  calcuid bkrisa 72403 mob
+  exec 72406 %bkrisa.id%
+done
+wait 1s
+%echo% Откуда то снизу послышался жалобный писк.
 ~
 #72406
 яд рассыпан~
@@ -274,7 +288,7 @@ wforce all stand
 wforce all north
 ~
 #72417
-вспомогательный триггер~
+вспомогательный триггер (не используется)~
 2 z 0
 ~
 while (%exist.mob(72403)% == 1)

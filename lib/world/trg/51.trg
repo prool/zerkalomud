@@ -4,10 +4,11 @@
 приставить~
 if %arg.contains(лестниц)%
   odoor 5104 up room 5117
-  osend %actor.name% Поднатужившись, вы приставили лестницу и теперь можно подняться наверх.
-  oechoaround %actor% %actor.name% приставил лестницу и теперь можно подняться наверх.
+  osend %actor% Поднатужившись, Вы приставили лестницу и теперь можно подняться наверх.
+  oechoaround %actor% %actor.iname% приставил%actor.g% лестницу и теперь можно подняться наверх.
   oload obj 5105
   calcuid target 5104 obj
+  wait 1
   opurge %target%
 else
   oecho Чаво ?

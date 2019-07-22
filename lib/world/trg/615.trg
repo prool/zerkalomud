@@ -203,7 +203,7 @@ if %exist.mob(61525)%
     exec 61517 %caster.id% 
   end
 end
-if (random.5% == 3)
+if (%random.5% == 3)
   detach 61506 %self.id%
 end
 ~
@@ -298,7 +298,7 @@ else
 end
 rdelete gamer %self.id%
 rdelete gamerresult %self.id%
-opurge %self.name%
+opurge %self%
 ~
 #61511
 триггер повозки игрока (get)~
@@ -645,11 +645,10 @@ end
 1 j 100
 ~
 if (%actor.vnum% != -1)
-  eval actorname %actor.alias%
-  %force% %actorname.car% нет
-  %force% %actorname.car% say Не буду я энту дрянь надевать! Еще заразу подцеплю...
-  %force% %actorname.car% морщ
-  %force% %actorname.car% брос кольц 
+  %force% %actor% нет
+  %force% %actor% say Не буду я энту дрянь надевать! Еще заразу подцеплю...
+  %force% %actor% морщ
+  %force% %actor% брос кольц 
   return 0
   halt
 end
@@ -677,5 +676,21 @@ Test cast~
 2 c 1
 cast!~
 dg cast 'слеп' %actor.name%
+~
+#61582
+Цыган не дает делать что-либо с кунами~
+0 c 100
+*~
+set i 1
+while ((%i% <= %arg.words%) && (%i% < 5))
+  if (%arg.words(%i%)% == кун)
+    say Ты что, обмануть меня хочешь?
+    хмур
+    return 1
+    halt
+  end
+  eval i %i%+1
+done
+return 0
 ~
 $~

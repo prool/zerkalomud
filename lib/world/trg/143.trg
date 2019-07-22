@@ -35,11 +35,14 @@ wait 5
 0 c 1
 осм осмо осмот осмотр осмотре осмотреть ~
 if (%self.position%==7)
+  return 0
   halt
 end
-if (%arg.contains(ст)%
+if (%arg.contains(ст)%)
   хмур
   г Ну и чего ты зыришь?
+else
+  return 0
 end
 ~
 #14303
@@ -61,6 +64,9 @@ waut 10
 зашли к царю~
 0 q 100
 ~
+if (%actor.sex% != 1)
+  halt
+end
 wait 10
 г Нет вы таки гляньте, кто к нам пожаловал.
 wait 20
@@ -71,6 +77,9 @@ wait 20
 сказали царю~
 0 d 100
 *~
+if (%actor.sex% != 1)
+  halt
+end
 wait 5
 г Слушайте, шо вы мене говорите!
 г Вы меня послушайте. Изя Вам сам все скажет.
@@ -90,9 +99,11 @@ wait 10
 wait 10
 г Да, и не пытайтесь подсунуть Изе барахло.
 г Я на этом свете пожил немало и в товаре разобраться смогу!
-calcuid vod 14307 mob
-attach 14307 %vod.id%
-detach 14306 %vod.id%
+if (%exist.mob(14307)%)
+  calcuid vod 14307 mob
+  attach 14307 %vod.id%
+  detach 14306 %vod.id%
+end
 detach 14304 %self.id%
 detach 14305 %self.id%
 ~
@@ -175,10 +186,9 @@ if (%speech.contains(корабль)%)
   %echo% Выталкал Вас в кусты.
   mteleport %actor% 14339
   %echoaround% %actor% %actor.iname% приш%actor.y% с запада
-  calcuid vod 14307 mob
-  attach 14306 %vod.id%
-  detach 14307 %vod.id%
-  detach 14308 %vod.id%
+  attach 14306 %self.id%
+  detach 14307 %self.id%
+  detach 14308 %self.id%
 end
 ~
 #14309
@@ -186,15 +196,16 @@ end
 0 c 1
 ос осм осмо осмот осмотр осмотре осмотреть~
 if (%self.position%==7)
+  return 0
   halt
 end
-if (%actor.sex%==2)
+if (%actor.sex%==2) && (%exist.mob(14307)%)
   calcuid vod 14307 mob
   run 14391 %vod.id%
   halt
-else
+elseif (%exist.mob(14307)%)
   if (%arg.contains(рус)%)
-    if (%lookin%==%actor%)  
+    if (%lookin%==%actor%)
       calcuid vod 14307 mob
       run 14310 %vod.id%
       halt
@@ -207,6 +218,7 @@ else
     end
   end
 end
+return 0
 ~
 #14310
 водяной реакция1~
@@ -265,14 +277,15 @@ if %random.1000% <= 300
   end
   г Опа!
   г И фигли ты сюды приперся?
-  хмур %actor.iname%
+  хмур .%actor.iname%
   wait 5
   г А ну гони по быстрому 10 штук или плохо будет!
   wait 2s
-  г Ну эт ты зря меня не послушал чушка!
+  г Ну эт ты зря меня не послушал, чушка!
   вст
-  mkill %actor.name%
-end
+  if %actor.canbeseen%
+    mkill %actor%
+  end
 end
 ~
 #14313
@@ -511,7 +524,7 @@ end
 0 j 100
 *~
 if ((%object.vnum% != 14308) || ( %actor.id% != %kvman.id%))
-  say Какой кикиморы ты это притащил?
+  say Какой кикиморы ты это притащил%actor.g%?
   return 0
   halt
 end
@@ -519,39 +532,43 @@ wait 1
 mpurge %object%
 wait 5
 say Ой подружка, не оставила ты любящее сердце в беде, выручила!
-обня %actor.name%
+обня .%actor.name%
 wait 25
 eval rand %random.1000%
 if ((%rand% < 250) && (%world.curobjs(14316)% < 6))
   эм порылась в куче одежды, лежащей у кровати
   say Пожалуйста, возьми это себе за доброе дело, да смотри стражам не попадайся. 
   mload obj 14316
-  дать все %actor.name%
+  дать все .%actor.name%
 elseif ((250 <= %rand%) && (%rand% < 500) && (%world.curobjs(14317)% < 6))
   mload obj 14317
   эм порылась в куче одежды, лежащей у кровати
   say Пожалуйста, возьми это себе за доброе дело, да смотри стражам не попадайся. 
-  дать все %actor.name%
+  дать все .%actor.name%
 elseif ((500 <= %rand%) && (%rand% < 750) && (%world.curobjs(14318)% < 6))
   mload obj 14318
   эм порылась в куче одежды, лежащей у кровати
   say Пожалуйста, возьми это себе за доброе дело, да смотри стражам не попадайся. 
-  дать все %actor.name%
+  дать все .%actor.name%
 elseif ((750 <= %rand%) && (%rand% < 1000) && (%world.curobjs(14319)% < 6))
   mload obj 14319
   эм порылась в куче одежды, лежащей у кровати
   say Пожалуйста, возьми это себе за доброе дело, да смотри стражам не попадайся. 
-  дать все %actor.name%
+  дать все .%actor.name%
 else
   say Спасибо за помощь!
 end
 Эм быстро схватила несколько лукошек, заполненных всякой дребеденью, и выскочила в дубовые палаты.
 makeuid kil %actor.id%
 worlds kil
-calcuid str 14317 mob
-detach 14323 %str.id%
-calcuid trub 14322 mob
-mpurge %trub%
+if (%exist.mob(14317)%)
+  calcuid str 14317 mob
+  detach 14323 %str.id%
+end
+if (%exist.mob(14322)%)
+  calcuid trub 14322 mob
+  mpurge %trub%
+end
 calcuid kora 14309 obj
 mpurge %kora%
 mpurge %self%
@@ -825,8 +842,8 @@ if (%rand% < 433)
   exec 14336 %rom76.id%
 elseif ((433 <= %rand%) && (%rand% < 796))
   wecho Завидев Вас подлый кошак скрылся на западе.
-  calcuid kot 14325 obj
-  if %kot%
+  if (%exist.obj(14325)%)
+    calcuid kot 14325 obj
     wpurge %kot%
   end
   calcuid rom73 14373 room
@@ -851,7 +868,7 @@ if (%rand% < 433)
   end
   calcuid rom75 14375 room
   attach 14337 %rom75.id%
-  exec 14336 %rom76.id%
+  exec 14336 %rom75.id%
 elseif ((433 <= %rand%) && (%rand% < 796))
   wecho Завидев Вас подлый кошак скрылся на западе.
   calcuid kot 14325 obj

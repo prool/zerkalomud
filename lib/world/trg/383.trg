@@ -119,7 +119,7 @@ end
 ~
 if %object.vnum% == 38222
   wait 2s
-  mpurge весточк
+  mpurge %object%
   wait 2s
   say Почитаем...так...так... 
   wait 2s

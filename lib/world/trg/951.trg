@@ -9,7 +9,7 @@ end
 if %actor.class% == 4
   wait 1
   osend %actor% _Прикоснувшись к камню Вы почувствовали легкое головокружение.
-  oechoaround _%actor% %actor.iname% прикоснул%actor.u% к камню и пошатнул%actor.u%,
+  oechoaround %actor% _%actor.iname% прикоснул%actor.u% к камню и пошатнул%actor.u%.
   wait 4
   oecho _С юга донесся оглушающий грохот.
   odoor 95105 east room 95110 

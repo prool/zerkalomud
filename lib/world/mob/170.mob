@@ -15,6 +15,7 @@ b0d0f0g0k1 f0k0 -600 E
 14 12 5 20d20+30 5d6+3
 0d0+0 13000
 8 8 1
+Absorbe: 14
 BareHandAttack: 4
 Str: 13
 Int: 3
@@ -49,6 +50,7 @@ b0d0e0f0g0l1m1n1 f0k0m1 -600 E
 13 11 6 15d20+10 4d6+2
 0d0+0 11000
 8 8 1
+Absorbe: 13
 BareHandAttack: 4
 Dex: 14
 Int: 4
@@ -70,7 +72,7 @@ Spell: 77
 Spell: 77
 E
 #17002
-карась~
+небольшая рыбка карась~
 карась~
 карася~
 карасю~
@@ -85,6 +87,7 @@ d0g0n0y0c1l1m1n1 0 0 E
 11 12 5 16d20+0 4d5+2
 0d0+0 7000
 8 8 1
+Absorbe: 11
 BareHandAttack: 4
 Str: 12
 Dex: 10
@@ -119,6 +122,7 @@ d0g0m0n0l1m1n1 0 0 E
 12 9 4 18d27+10 4d8+3
 0d0+0 10000
 8 8 1
+Absorbe: 12
 BareHandAttack: 4
 Str: 12
 Dex: 10
@@ -152,6 +156,7 @@ d0g0n0l1m1n1 k0 0 E
 17 9 2 22d28+25 6d8+3
 5d20+0 25000
 8 8 2
+Absorbe: 17
 BareHandAttack: 4
 Destination: 17071
 Destination: 17072
@@ -193,6 +198,7 @@ d0g0e1l1m1n1 k0 -600 E
 15 11 6 22d29+16 5d6+4
 0d0+0 16000
 8 8 1
+Absorbe: 15
 BareHandAttack: 1
 Str: 14
 Int: 8
@@ -227,6 +233,7 @@ b0d0g0l0k1 k0 0 E
 17 11 2 25d35+35 4d10+4
 0d0+0 25000
 4 4 1
+Absorbe: 17
 BareHandAttack: 1
 Str: 15
 Dex: 8
@@ -263,6 +270,7 @@ d0g0 k0 0 E
 12 14 4 20d20+15 4d7+3
 0d0+0 10000
 8 8 1
+Absorbe: 12
 BareHandAttack: 14
 Str: 13
 Dex: 10
@@ -300,6 +308,7 @@ d0g0 k0r0 0 E
 12 2 2 20d15+5 5d5+4
 0d0+0 10000
 8 8 1
+Absorbe: 12
 BareHandAttack: 4
 Str: 10
 Dex: 12
@@ -334,6 +343,7 @@ d0g0 k0 0 E
 13 13 4 20d22+7 4d7+4
 0d0+0 12000
 8 8 2
+Absorbe: 13
 BareHandAttack: 1
 Str: 12
 Dex: 9
@@ -371,6 +381,7 @@ b0d0g0b1 k0x0 -600 E
 9 16 4 10d35+5 3d7+3
 0d0+0 4000
 8 8 2
+Absorbe: 9
 BareHandAttack: 12
 Str: 10
 Dex: 10
@@ -405,6 +416,7 @@ b0d0g0y0 k0 -600 E
 14 13 3 20d35+25 5d6+4
 10d9+5 13500
 8 8 1
+Absorbe: 14
 Str: 12
 Dex: 10
 Int: 4
@@ -440,6 +452,7 @@ b0d0g0 k0 -600 E
 15 12 2 25d28+30 5d8+3
 10d15+0 16000
 8 8 1
+Absorbe: 15
 Str: 15
 Dex: 9
 Int: 3
@@ -473,6 +486,7 @@ b0d0f0g0 k0 -600 E
 17 11 1 25d35+15 5d9+5
 20d10+0 26000
 8 8 1
+Absorbe: 17
 Str: 15
 Int: 3
 Wis: 3
@@ -493,8 +507,8 @@ Skill: 150 20
 Spell: 3
 Spell: 15
 Spell: 15
-Helper: 17012
 Helper: 17011
+Helper: 17012
 E
 T 17004
 #17014
@@ -513,6 +527,7 @@ d0g0h0b1 k0x0 0 E
 10 17 4 10d24+15 3d6+3
 0d0+0 6000
 8 8 1
+Absorbe: 10
 BareHandAttack: 12
 Str: 10
 Dex: 8
@@ -546,6 +561,7 @@ d0g0l1m1n1 k0 0 E
 7 12 7 10d15+5 3d4+2
 0d0+0 2500
 8 8 2
+Absorbe: 7
 BareHandAttack: 4
 Str: 8
 Dex: 7
@@ -579,6 +595,7 @@ d0g0y0 k0 0 E
 15 12 3 20d35+25 6d6+3
 10d15+10 18000
 8 8 1
+Absorbe: 15
 BareHandAttack: 14
 Str: 13
 Dex: 12
@@ -608,12 +625,13 @@ E
 рыси~
 Большая рысь выслеживает добычу тут.
 ~
-Хищник обитающий в этих лесах.
+Хищник, обитающий в этих лесах.
 ~
 d0g0j0n0 f0k0z0m1 -600 E
 16 12 3 20d35+25 5d7+3
 0d0+0 21000
 8 8 2
+Absorbe: 16
 BareHandAttack: 1
 Str: 13
 Int: 7
@@ -647,6 +665,7 @@ d0g0m0r0y0 k0m1 0 E
 8 14 3 18d10+10 3d6+3
 0d0+0 3000
 8 8 1
+Absorbe: 8
 BareHandAttack: 4
 Str: 12
 Dex: 12
@@ -683,6 +702,7 @@ b0d0g0 c0d0e0f0k0 600 E
 1 0 0 20d20+10 6d6+6
 0d0+0 1
 8 8 1
+Absorbe: 1
 Size: 60
 Class: 102
 Race: 101
@@ -708,6 +728,7 @@ b0d0g0y0 c0d0e0f0k0 600 E
 1 6 0 20d20+20 5d6+4
 0d0+0 1
 8 8 1
+Absorbe: 1
 Size: 50
 Class: 102
 Race: 101

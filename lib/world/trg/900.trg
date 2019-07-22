@@ -473,9 +473,11 @@ mteleport %self% 90039
 Tree <Вошли в трактир>~
 2 e 100
 0~
-calcuid BadGuy 90022 mob
-attach  90026 %BadGuy.id%
-exec    90026 %BadGuy.id%
+if (%exist.mob(90022)%)
+  calcuid BadGuy 90022 mob
+  attach  90026 %BadGuy.id%
+  exec    90026 %BadGuy.id%
+end
 return  1
 calcuid room  90051 room
 detach  90025 %self.id%
@@ -661,11 +663,11 @@ if %Tengis% && %Target%
   wecho  Присев в низком "кибадучи" он сделал несколько приседаний и прыгнул вперед,
   wecho  выбросив голую пятку...
   wait   3s
-  if %Tengis%
+  if %Tengis.hitp%
     wforce %Tengis% attack %Target.name%
   end
 end
-detach  90035 %self.id% 
+detach  90035 %self.id%
 ~
 #90036
 Tree <Тенгиза замочили>~
@@ -743,14 +745,14 @@ wait 1
 wecho - Подлый гяур, ти убил мои сыны, сичас я тибе...
 wecho - Сатан мутанто ! - нараспев проревел Ибн-Налим.
 wload   mob 90029
-calcuid monstr 90029 mob
-if %monstr%
-  wecho Но похоже, мозги у старого обкуренного Ибн-Налима че-то там напутали, и
-  wecho вызванное "сатан мутанто" оказалось на редкость болезненным и худосочным.
-  wecho С кряхтеньем и стонами оно поползло в Вашу сторону.
-  wait   3s
-  set    Target %random.pc%
-  wforce %monstr% attack %Target.name%
+wecho Но похоже, мозги у старого обкуренного Ибн-Налима че-то там напутали, и
+wecho вызванное "сатан мутанто" оказалось на редкость болезненным и худосочным.
+wecho С кряхтеньем и стонами оно поползло в Вашу сторону.
+wait   3s
+set    Target %random.pc%
+if ((%exist.mob(90029)%) && (%Target%))
+  calcuid monstr 90029 mob
+  wforce %monstr% mkill %Target%
 end
 wdoor   90061 west flags a
 wdoor   90061 west room  90060
@@ -762,55 +764,47 @@ detach  90039  %self.id%
 Tree <ИбнНалима замочили>~
 0 f 100
 ~
-if %world.curobjs(90025)% < 10
-  if %random.10% == 1
-    mload obj 90025
+set vnum 90025
+while (%vnum% <= 90028)
+  if ((%world.curobjs(%vnum%)% < 10) && (%random.10% == 1))
+    mload obj %vnum%
   end
-end
-if %world.curobjs(90026)% < 10
-  if %random.10% == 1
-    mload obj 90026
-  end
-end
-if %world.curobjs(90027)% < 10
-  if %random.10% == 1
-    mload obj 90027
-  end
-end
-if %world.curobjs(90028)% < 10
-  if %random.10% == 1
-    mload obj 90028
-  end
-end
-if !%actor% || %actor.vnum% != -1
+  eval vnum %vnum%+1
+done
+if !%actor%
   halt
 end
-calcuid Girl 90030 mob
-if %Girl%
-  if %actor.sex% == 2
-    mecho - Спасибо тебе, тетечка, дай Бог тебе здоровья и жениха
-    mecho не кривого.
-  else
-    mecho -Ой, дядечку, век помнить буду.
-  end
-  %actor.exp(+50000)
-  mecho Обрадованная девчонка быстро прошмыгнула мимо Вас и скрылась во дворе...
-  mpurge %Girl%
+calcuid qroom %self.realroom% room
+if (%actor.vnum% != -1)
+  set Hero %actor.leader%
+else
+  set Hero %actor%
 end
-calcuid Older 90020 mob
-if %Older%
-  if %Older.realroom% == %actor.realroom%
-    mpurge %Older%
-    mecho Старик растворился. На его месте оказался стройный молодой мужчина
-    mecho с орлиным взором.
+global Hero
+remote Hero %qroom.id%
+if %exist.mob(90030)%
+  calcuid Girl 90030 mob
+  if %Girl%
+    if %Hero.sex% == 2
+      mecho - Спасибо тебе, тетечка, дай Бог тебе здоровья и жениха не кривого.
+    else
+      mecho - Ой, дядечку, век помнить буду.
+    end
+    %Hero.exp(+50000)%
+    mecho Обрадованная девчонка быстро прошмыгнула мимо вас и скрылась во дворе...
+    mpurge %Girl%
   end
+end
+if %exist.mob(90020)%
+  calcuid Older 90020 mob
+  if (%Older.realroom% == %Hero.realroom%)
+    mpurge %Older%
+    mecho Старик растворился.
+    mecho На его месте оказался стройный молодой мужчина с орлиным взором.
+  end
+  exec 90067 %qroom.id%
 end
 return 0
-set Hero %actor%
-global Hero
-calcuid qroom %self.realroom% room
-remote Hero %qroom.id%
-exec 90067  %qroom.id%
 ~
 #90041
 Tree <Принцесса вошла в зону 901>~
@@ -944,7 +938,7 @@ mecho Внезапно на поляну выскочило ужасного вида чудовище.
 wait 1
 foreach next %self.npc%
   if %next.vnum% == 90032
-    mecho При виде чудовища оборванец завизжал "Ой, мамочка !" и скрылся в кустах.
+    mecho При виде чудовища оборванец завизжал "Ой, мамочка!" и скрылся в кустах.
     set oborvanec %next%
     wait 1
     mpurge %oborvanec%
@@ -1179,19 +1173,21 @@ Tree <Черт не видит амулета на PC>~
 if %actor.vnum% != -1
   halt
 end
-calcuid amuletObj 90033 obj
-foreach target %self.pc%
-  set amulet 0
-  if %target.eq(4)%==%amuletObj%
-    set amulet 1
+if %exist.obj(90033)%
+  calcuid amuletObj 90033 obj
+  foreach target %self.pc%
+    set amulet 0
+    if %target.eq(4)%==%amuletObj%
+      set amulet 1
+    end
+    if %target.eq(3)%==%amuletObj%
+      set amulet 1
+    end
+    if %amulet%
+    break
   end
-  if %target.eq(3)%==%amuletObj%
-    set amulet 1
-  end
-  if %amulet%
-  break
-end
 done
+end
 if !%amulet%
   wait 1
   mecho - Бей чужаков ! - заревел%self.g% %self.name%.
@@ -1205,20 +1201,20 @@ end
 Tree <Арнольда убили>~
 0 f 100
 0~
-calcuid prince 90034 mob
-if !%prince%
+if (!%exist.mob(90034)%)
   halt
 end
+calcuid prince 90034 mob
 attach  90060 %prince.id%
 exec    90060 %prince.id%
-detach  90060 %prince.id%
-if %actor.vnum% != -1
-  halt
-end
 calcuid sorceress 90036 mob
 attach  90061 %sorceress.id%
-makeuid Killer %actor.id%
-remote  Killer %sorceress.id%
+if (%actor.vnum% != -1)
+  eval Killer %actor.leader%
+else
+  eval Killer %actor.id%
+end
+remote Killer %sorceress.id%
 ~
 #90060
 Tree <Трансформация принца обратно>~
@@ -1227,13 +1223,14 @@ Tree <Трансформация принца обратно>~
 mtransform 90035
 follow     me
 return     0
+detach 90060 %self.id%
 ~
 #90061
 Tree <Вернулись к принцессе>~
 0 q 100
 *~
 eval skl %actor.remort%*5+79
-if %actor.name% != %Killer.name%
+if %actor% != %Killer%
   halt
 end
 wait   1
@@ -1429,9 +1426,10 @@ switch %Hero.class%
     end
   break
   default
-    mecho Молодой мужчина сказал: Прими за помощь немного денег.
+    say Прими за помощь немного денег
     %Hero.gold(+1500)%
-  done
+  break
+done
 ~
 #90067
 загрузка барона~

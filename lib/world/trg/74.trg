@@ -46,7 +46,7 @@ if %questor74%
   say Так что ступай себе, и смотри - не ходи на болота.
   halt
 end
-set questor74 %actor.iname%
+set questor74 %actor%
 global questor74
 calcuid swampghost 7401 mob
 remote questor74 %swampghost.id% 
@@ -123,7 +123,7 @@ wsend %actor% Вы принялись ковырять землю заступом.
 wechoaround %actor% %actor.name% начал%actor.g% ковырять землю заступом.
 wait 2s
 wforce %actor% пот
-%actor.move(10)%
+eval %actor.move(10)%
 wecho Внезапно земля просела, обнажив ход куда-то вглубь земли.
 wdoor 7433 d room 7490
 detach 7403 %self.id%
@@ -145,7 +145,7 @@ set zastup %actor.eq(18)%
 set zastupname2 %zastup.name%
 if !%zastupname.contains(топор)% && !%zastupname2.contains(топор)%
   osend %actor% Вы принялись яростнно пинать ящик ногами.
-  osend %actor% Пожалуй, следовало бы запастись инструментом.
+  osend %actor% Пожалуй, следовало заранее запастись инструментом.
   halt
 end
 osend %actor% Вы сильным ударом сбили замок со ржавого ящика.

@@ -1,6 +1,3 @@
-* Сгенерировано BZEditor
-* Количество триггеров : 14
-* Сохранено 10.09.2009 13:42:11
 #47100
 умирающий~
 0 d 1
@@ -81,7 +78,7 @@ wsend %actor% Вы резко топнули ногой.
 wechoaround %actor%   %actor.name% резко топнул%actor.g% ногой.
 wecho В воздухе появился дух Воина и произнес:
 wecho Да пребудет с тобой сила!
-%actor.hitp(+500)%
+eval %actor.hitp(+500)%
 detach 47104 %self.id%
 ~
 #47105
@@ -165,5 +162,4 @@ attach 47103 %grove.id%
 calcuid master 47176 room
 attach 47104 %master.id%
 ~
-$
-$
+$~

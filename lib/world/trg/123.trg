@@ -79,7 +79,7 @@ if %object.vnum%==12308 && %actor%==%questor123%
   вопр .%actor.name%
   set hasParts 1
   global hasParts
-  %purge% %objname.car%
+  %purge% %object%
 end
 if %object.vnum%==12311
   if %actor%==%questor123% && %hasParts% == 1
@@ -90,7 +90,7 @@ if %object.vnum%==12311
     %echo% и этой амальгамой покрыл остывшую к тому времени железную форму-основу.
     %echo% - Примерно через пару часов он уже любовался на позолоченное яичко.
     %load% obj 12306
-    %purge% %objname.car%
+    %purge% %object%
     дать яйцо .%questor123.name%
     say Вот держи! Волхв и так тупой, а когда золото видит - вообще остатки разума теряет...
     say Ни в жисть он не догадается, что яйцо не целиком золотое.
@@ -395,6 +395,8 @@ if %actor.haveobj(12330)%
   %door% 12346 north room 12345
   %purge% бревно
   %load% obj 12342
+else
+  %send% %actor% Из чего это Вы собираетесь мастерить?
 end
 ~
 #12316

@@ -181,7 +181,7 @@ attach 8508 %world.room(%self.room%)%
 ~
 #8508
 Соглашаемся вернуть птенца~
-3 d 1
+2 d 1
 да хорошу помогу согласен~
 wait 1s
 %echo% Птенец утвердительно кивнул.
@@ -268,12 +268,12 @@ end
 %send% %actor% Решив помочь Вам, сокол столкнул Вас с ветки.
 %echoaround% %actor% %actor.iname% полетел%actor.g% с ветки вниз.
 %send% %actor% Вы полетели вниз.
-%teleport% %actor.name% 8581
+%teleport% %actor% 8581
 if ((%actor.class% == 1)||(%actor.class% == 6)||(%actor.class% == 7))
   %send% %actor% Но когда Вам казалось, Вы вот-вот разобьетесь, падение медленно замедлилось и Вы плавно опустились на землю.
   if (!%actor.spelltype(полет)%)
     %send% %actor% Вы дествительно научились летать!
-    mspellturn %actor.name% полет set
+    mspellturn %actor% полет set
   else
     %send% %actor% Но это Вам не в новинку, летаете Вы уже давно.
   end
@@ -286,7 +286,7 @@ else
   %send% %actor% - Рожденный ползать, летать не может.
   %send% %actor% - Но я должен отблагодарить тебя за спасение моего птенца...
   %send% %actor% - Держи несколько золотых, сорока знакомая в гости залетала да забыла.
-  %actor.gold(+100)%
+  eval temp %actor.gold(+100)%
 end
 detach 8511 %self%
 ~

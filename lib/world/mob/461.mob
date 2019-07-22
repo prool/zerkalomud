@@ -11,7 +11,7 @@
    Старый больной жрец.
 ~
 b0d0g0n0o0t0u0y0o1 d0f0h0k0D0 600 E
-34 0 -4 10d10+1000 10d10+10
+12 0 -4 10d10+1000 10d10+10
 0d0+0 10000
 8 8 1
 Str: 28
@@ -45,9 +45,11 @@ T 46101
    Огромная птица, объятая жгучим пламенем!
 ~
 c0d0f0g0l0m0n0o0p0r0x0a2 d0f0h0k0m0p0r0x0z0A0D0m1y1 -600 E
-35 0 -8 4d10+3500 15d14+17
+31 0 -8 4d10+3500 15d14+17
 12d2+2 400000
 8 8 2
+Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 2
 Str: 29
 Dex: 20
@@ -123,9 +125,11 @@ T 46102
    Небольших размеров огненный птенец.
 ~
 c0d0f0g0l0m0n0o0x0a2g2 d0f0k0m0n0x0A0D0y1 -600 E
-30 3 2 2d10+1980 10d15+12
+31 3 2 2d10+1980 10d15+12
 2d12+2 340000
 8 8 1
+Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 12
 Str: 27
 Dex: 17
@@ -191,9 +195,11 @@ T 46103
    Небольших размеров огненный птенец.
 ~
 c0d0f0g0l0m0n0o0x0a2g2 d0f0k0m0n0x0A0D0y1 -600 E
-30 3 2 4d10+1980 11d14+12
+31 3 2 4d10+1980 11d14+12
 2d12+2 340000
 8 8 1
+Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 12
 Str: 27
 Dex: 17
@@ -259,11 +265,12 @@ T 46104
    Жгучий, яркий огонь! Такой простой водой и не затушишь!
 ~
 b0d0e0f0g0l0m0n0o0p0q0r0u0x0y0z0a2g2h2 d0k0n0r0z0A0D0a1m1y1 -600 E
-30 4 5 7d10+1000 12d15+5
+31 4 5 7d10+1000 12d15+5
 0d0+0 340000
 8 8 1
-Saves: 0 0 0 -50
+Saves: -10 -10 -10 -50
 Armour: 10
+CastSuccess: 20
 Initiative: 10
 Absorbe: 10
 BareHandAttack: 2
@@ -314,7 +321,7 @@ T 46105
    Жаркое, яркое пламя!
 ~
 b0d0e0f0g0l0m0n0o0p0q0r0u0x0y0z0a2g2h2 d0k0m0n0r0z0D0y1 -600 E
-25 0 -10 3d10+777 10d10+4
+29 0 -10 3d10+777 10d10+4
 0d0+0 200000
 8 8 0
 BareHandAttack: 2
@@ -361,11 +368,12 @@ E
    Огромная огненная птаха!
 ~
 c0d0f0g0l0m0n0o0x0a2 d0f0h0k0r0x0A0D0y1 -600 E
-35 0 -4 8d10+4500 15d15+18
+32 0 -4 8d10+4500 15d15+18
 0d0+0 500000
 8 8 2
-Saves: -50 0 0 0
+Saves: -50 -14 -14 -14
 Resistances: 50 0 -50 0 0 200 0
+CastSuccess: 23
 BareHandAttack: 2
 Str: 28
 Dex: 25
@@ -556,7 +564,7 @@ T 46108
    Огонь!
 ~
 d0e0f0g0l0m0n0o0p0q0r0u0x0y0z0a2h2 d0f0k0r0z0A0D0y1 -600 E
-30 0 -7 5d10+1200 19d5+4
+29 0 -7 5d10+1200 19d5+4
 0d0+0 240000
 8 8 1
 Saves: -50 0 0 0
@@ -608,11 +616,12 @@ E
    Огромное огненное чудище.
 ~
 c0d0f0g0l0m0n0o0x0a2 d0f0h0k0n0r0x0z0A0D0m1y1 -600 E
-35 3 -8 5d10+4500 12d18+17
+33 3 -8 5d10+4500 12d18+17
 9d9+8 580000
 8 8 1
-Saves: -50 0 0 0
+Saves: -50 -18 -18 -18
 Resistances: 50 0 -50 0 0 200 0
+CastSuccess: 26
 BareHandAttack: 2
 Str: 24
 Dex: 28
@@ -669,11 +678,12 @@ T 46109
    Крылатый огненный змееныш!
 ~
 c0d0f0g0l0m0n0o0x0a2g2 d0f0k0m0x0z0A0C0D0m1y1 -600 E
-33 3 -6 6d10+2300 12d15+15
+31 3 -6 6d10+2300 12d15+15
 0d0+0 340000
 8 8 1
-Saves: -50 0 0 0
+Saves: -50 -10 -10 -10
 Resistances: 50 0 -50 0 0 200 0
+CastSuccess: 20
 BareHandAttack: 4
 Str: 23
 Dex: 17
@@ -735,11 +745,12 @@ T 46110
    Крылатый огненный змееныш!
 ~
 c0d0f0g0l0m0n0o0x0a2g2 d0f0k0m0x0z0A0C0D0m1y1 -600 E
-33 3 -6 6d10+2300 12d15+15
+31 3 -6 6d10+2300 12d15+15
 0d0+0 340000
 8 8 1
-Saves: -50 0 0 0
+Saves: -50 -10 -10 -10
 Resistances: 50 0 -50 0 0 200 0
+CastSuccess: 20
 BareHandAttack: 4
 Str: 27
 Dex: 24
@@ -811,7 +822,7 @@ T 46111
    Странное существо созданное ярким, жгучим огнем.
 ~
 d0f0g0l0m0n0o0q0t0x0y0a2g2 d0f0k0n0r0z0A0m1y1 -600 E
-27 4 4 5d10+777 12d9+12
+29 4 4 5d10+777 12d9+12
 0d0+0 200000
 8 8 2
 Saves: -50 0 0 0
@@ -875,11 +886,12 @@ E
    Огненный дух.
 ~
 d0f0g0l0m0n0o0q0r0y0z0a2 d0f0k0n0x0A0D0y1 -600 E
-40 0 -5 5d10+3400 17d12+14
+31 0 -5 5d10+3400 17d12+14
 0d0+0 380000
 8 8 1
-Saves: -50 0 0 0
+Saves: -50 -10 -10 -10
 Resistances: 50 0 -50 0 0 200 0
+CastSuccess: 20
 BareHandAttack: 2
 Str: 22
 Dex: 30
@@ -935,11 +947,12 @@ T 46112
    Пес огненный!
 ~
 d0f0g0l0m0n0o0y0a2 d0f0h0k0m0n0r0y1 -600 E
-37 0 -4 5d10+2900 14d15+13
+31 0 -4 5d10+2900 14d15+13
 0d0+0 400000
 8 8 1
-Saves: -50 0 0 0
+Saves: -50 -10 -10 -10
 Resistances: 50 0 -50 0 0 200 0
+CastSuccess: 20
 BareHandAttack: 4
 Str: 29
 Dex: 26
@@ -1011,13 +1024,13 @@ T 46113
    Ужасное создание огня!
 ~
 b0d0f0g0l0m0n0o0x0y0a2 c0d0f0h0k0m0n0p0r0z0A0C0D0y1 -600 E
-45 0 -7 7d10+9000 16d17+15
+39 0 -7 7d10+9000 16d17+15
 11d10+5000 2000000
 8 8 1
-Saves: -100 -30 -30 0
+Saves: -100 -42 -42 -42
 Resistances: 50 0 -50 0 20 200 20
 Armour: 10
-CastSuccess: 15
+CastSuccess: 44
 AResist: 20
 MResist: 20
 BareHandAttack: 2
@@ -1062,25 +1075,25 @@ Spell: 68
 Spell: 94
 Spell: 124
 Spell: 139
-Helper: 46124
-Helper: 46123
-Helper: 46122
-Helper: 46121
-Helper: 46120
-Helper: 46119
-Helper: 46118
-Helper: 46117
-Helper: 46115
-Helper: 46114
-Helper: 46112
-Helper: 46111
-Helper: 46110
-Helper: 46108
-Helper: 46107
-Helper: 46106
-Helper: 46103
-Helper: 46102
 Helper: 46101
+Helper: 46102
+Helper: 46103
+Helper: 46106
+Helper: 46107
+Helper: 46108
+Helper: 46110
+Helper: 46111
+Helper: 46112
+Helper: 46114
+Helper: 46115
+Helper: 46117
+Helper: 46118
+Helper: 46119
+Helper: 46120
+Helper: 46121
+Helper: 46122
+Helper: 46123
+Helper: 46124
 E
 #46117
 дух огня огненный~
@@ -1095,11 +1108,12 @@ E
    Огненный дух.
 ~
 d0f0g0l0m0n0o0q0r0y0z0a2 d0f0k0n0x0A0D0y1 -600 E
-40 0 -5 5d10+3400 17d12+14
+31 0 -5 5d10+3400 17d12+14
 0d0+0 340000
 8 8 1
-Saves: -50 0 0 0
+Saves: -50 -10 -10 -10
 Resistances: 50 0 -50 0 0 200 0
+CastSuccess: 20
 BareHandAttack: 2
 Str: 22
 Dex: 30
@@ -1155,11 +1169,12 @@ T 46115
    Огненный дух.
 ~
 d0f0g0l0m0n0o0q0r0y0z0a2 d0f0k0n0x0A0D0y1 -600 E
-40 0 -5 5d10+3400 17d12+14
+31 0 -5 5d10+3400 17d12+14
 0d0+0 340000
 8 8 1
-Saves: -50 0 0 0
+Saves: -50 -10 -10 -10
 Resistances: 50 0 -50 0 0 200 0
+CastSuccess: 20
 BareHandAttack: 2
 Str: 22
 Dex: 30
@@ -1215,10 +1230,11 @@ T 46116
    Огненный дух.
 ~
 d0f0g0l0m0n0o0q0r0y0z0a2 d0f0k0n0x0A0D0y1 -600 E
-40 0 -5 5d10+3400 17d12+14
+31 0 -5 5d10+3400 17d12+14
 0d0+0 340000
 8 8 1
-Saves: -50 0 0 0
+Saves: -50 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 2
 Str: 22
 Dex: 30
@@ -1274,11 +1290,12 @@ T 46117
    Огненный дух.
 ~
 d0f0g0l0m0n0o0q0r0y0z0a2 d0f0k0n0x0A0D0y1 -600 E
-40 0 -5 5d10+3400 17d12+14
+31 0 -5 5d10+3400 17d12+14
 0d0+0 340000
 8 8 1
-Saves: -50 0 0 0
+Saves: -50 -10 -10 -10
 Resistances: 50 0 -50 0 0 200 0
+CastSuccess: 20
 BareHandAttack: 2
 Str: 22
 Dex: 30
@@ -1334,11 +1351,12 @@ T 46118
    Пес огненный!
 ~
 d0f0g0l0m0n0o0y0a2 d0f0h0k0m0n0r0y1 -600 E
-37 0 -4 5d10+2900 14d15+13
+31 0 -4 5d10+2900 14d15+13
 0d0+0 340000
 8 8 1
-Saves: -50 0 0 0
+Saves: -50 -10 -10 -10
 Resistances: 50 0 -50 0 0 200 0
+CastSuccess: 20
 BareHandAttack: 4
 Str: 29
 Dex: 26
@@ -1410,11 +1428,12 @@ T 46119
    Пес огненный!
 ~
 d0f0g0l0m0n0o0y0a2 d0f0h0k0m0n0r0y1 -600 E
-37 0 -4 5d10+2900 14d15+13
+31 0 -4 5d10+2900 14d15+13
 0d0+0 340000
 8 8 1
-Saves: -50 0 0 0
+Saves: -50 -10 -10 -10
 Resistances: 50 0 -50 0 0 200 0
+CastSuccess: 20
 BareHandAttack: 4
 Str: 29
 Dex: 26
@@ -1486,9 +1505,11 @@ T 46120
    Пес огненный!
 ~
 d0f0g0l0m0n0o0y0a2 d0f0h0k0m0n0r0y1 -600 E
-37 0 -4 5d10+2900 14d15+13
+31 0 -4 5d10+2900 14d15+13
 0d0+0 340000
 8 8 1
+Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 4
 Str: 29
 Dex: 26
@@ -1560,9 +1581,11 @@ T 46121
    Пес огненный!
 ~
 d0f0g0l0m0n0o0y0a2 d0f0h0k0m0n0r0y1 -600 E
-37 0 -4 5d10+2900 14d15+13
+31 0 -4 5d10+2900 14d15+13
 0d0+0 340000
 8 8 1
+Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 4
 Str: 29
 Dex: 26

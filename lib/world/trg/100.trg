@@ -78,10 +78,11 @@ detach 10002 %self.id%
 0 f 100
 *~
 if (%actor.vnum% != -1)
-  halt
+  eval Killer %actor.leader%
+else
+  eval Killer %actor.id%
 end
 calcuid Fisherman 10011 mob
-makeuid Killer %actor.id%
 remote  Killer %Fisherman.id%
 ~
 #10004

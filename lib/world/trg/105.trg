@@ -39,32 +39,33 @@ say А теперь иди, да хранят тебя Боги.
 лезть щель~
 2 c 0
 лезть пролезть~
-if !(%arg.contains(щель)%) 
-  wsend       %actor% Куда это Вы хотите пролезть???
-  return 0
+if ((!%arg.contains(щель)%) || (%actor.vnum% != -1))
+  wsend     %actor% Куда это Вы хотите %cmd%???
   halt
 end
-wsend       %actor% Цепляясь за камни, вы полезли вниз.
+wsend       %actor% Цепляясь за камни, Вы полезли вниз.
 wechoaround %actor% %actor.name% полез%actor.q% вниз, цепляясь за камни.
 wait 1s
-wsend %actor% .- Вы посередине большой комнаты.
-wteleport %actor.name% 10554
-wechoaround %actor% Кто-то пролез сюда снизу.
+wsend %actor% Вы оказались посередине большой комнаты.
+wteleport %actor% 10554 horse
+wait 1
+wechoaround %actor% Кто-то пролез сюда сверху.
 ~
 #10504
 Лезть наружу из тайника~
 2 c 0
 лезть пролезть~
-if !(%arg.contains(щель)%) 
-  wsend %actor% Куда это Вы хотите пролезть???
-  return 0
+if ((!%arg.contains(щель)%) || (%actor.vnum% != -1))
+  wsend     %actor% Куда это Вы хотите %cmd%???
   halt
 end
-wsend %actor% _Цепляясь за камни, вы полезли наверх.
+wsend       %actor% Цепляясь за камни, Вы полезли наверх.
 wechoaround %actor% %actor.name% полез%actor.q% наверх, цепляясь за камни.
+wait 1s
+wsend       %actor% Наконец, Вы выбрались наружу.
+wteleport %actor% 10536 horse
 wait 1
-wteleport %actor.name% 10536
-wechoaround %actor% Кто-то пролез сюда сверху.
+wechoaround %actor% Кто-то пролез сюда снизу.
 ~
 #10505
 Глава семейства R.I.P.~

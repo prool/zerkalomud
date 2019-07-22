@@ -71,6 +71,7 @@ b0d0e0g0l0n0o0p0q0r0t0u0y0o1 c0d0e0f0g0k0m0n0p0z0C0c1k1 600 E
 1d1+501 500000
 8 8 1
 Saves: -14 -14 -14 -14
+CastSuccess: 23
 Str: 33
 Dex: 30
 Int: 30
@@ -268,7 +269,7 @@ E
 прозрачного хранителя~
 прозрачным хранителем~
 прозрачном хранителе~
-Весь светится, едва заметный, периодически скрываясь из вида, Хранитель летает  вокруг вас.
+Весь светится, едва заметный, периодически скрываясь из вида, Хранитель летает вокруг вас.
 ~
 Весь светится, едва заметный, периодически скрываясь с вида.
 Похож на что-то странное и необъяснимое.
@@ -824,7 +825,7 @@ b0c0d0e0f0g0l0m0n0o0p0q0r0u0x0z0A0b1c2 b0c0d0e0f0k0m0p0t0x0z0A0C0c1m1p1q1r1 -600
 5d5+100 750000
 8 8 1
 Saves: -22 -22 -22 -22
-CastSuccess: 25
+CastSuccess: 29
 BareHandAttack: 2
 Str: 35
 Dex: 25
@@ -1077,6 +1078,7 @@ b0c0d0g0k0l0n0o0p0q0r0t0y0z0A0b1 c0d0e0f0h0k0m0n0p0x0A0C0t1 -600 E
 6d10+100 600000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 26
 Str: 27
 Dex: 25
 Int: 35
@@ -1228,6 +1230,7 @@ b0c0d0f0g0l0m0n0o0p0q0r0x0y0A0 c0d0e0k0m0y0C0c1k1l1 -600 E
 90d5+10 400000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 1
 Str: 30
 Dex: 21
@@ -1271,7 +1274,7 @@ b0c0d0g0l0m0n0o0p0q0t0y0A0a1b1a2 c0d0e0k0m0n0x0C0 -600 E
 6d10+60 3000000
 8 8 1
 Saves: -50 -50 -50 -50
-CastSuccess: 35
+CastSuccess: 50
 BareHandAttack: 1
 Str: 35
 Dex: 30
@@ -1369,7 +1372,7 @@ b0c0d0g0l0m0n0o0t0y0A0a1b1a2 c0d0e0k0m0n0x0C0 -600 E
 0d0+0 4000000
 8 8 1
 Saves: -54 -54 -54 -54
-CastSuccess: 35
+CastSuccess: 53
 BareHandAttack: 1
 Str: 36
 Dex: 30

@@ -25,11 +25,12 @@ wait 1s
 лешему дали череп~
 0 j 100
 ~
-if %object.vnum% == 30807
+if (%object.vnum% == 30807)
   wait 1s
   говор Ты сделал%actor.g% это, молодец!
   wait 1s
   mecho _Пучеглазый Леший постучал пальцем по черепу и прислушался к гулу.
+  %purge% %object%
   wait 1s
   говор Без своего Царя дятлы скоро погибнут или уйдут искать себе нового.
   if (%world.curobjs(30808)% < 4) &&  (%random.4% == 2) 
@@ -37,7 +38,7 @@ if %object.vnum% == 30807
     wait 1s
     говор На вот, возьми, мне он ни к чему, а тебе, может быть, и пригодится.
     mload obj 30808
-    дат череп %actor.name%
+    дать череп .%actor.name%
   end
   wait 1s
   говор А теперь, как я и обещал, верну тебе белок.
@@ -55,28 +56,19 @@ if %object.vnum% == 30807
   wait 1s
   mecho _Пучеглазый Леший сделал загадочный жест.
   wait 1s
-  calcuid belka 30813 mob
-  %purge% %belka%
-  *  attach 30813 %belka.id%
-  *  exec 30813 %belka.id%
-  calcuid belka 30813 mob
-  %purge% %belka%
-  *  attach 30813 %belka.id%
-  *  exec 30813 %belka.id%
-  calcuid belka 30813 mob
-  %purge% %belka%
-  *  attach 30813 %belka.id%
-  *  exec 30813 %belka.id%
+  while (%exist.mob(30813)%)
+    calcuid belka 30813 mob
+    %purge% %belka%
+  done
   mecho  Белки стали уменьшаться, пока не превратились в маленькие комочки.
   wait 1s
   mecho _Пучеглазый Леший подобрал белок и связал им хвосты.
   wait 1s
   говор На вот, а теперь прощай...
   mload obj 30809
-  дат связка %actor.name%
+  дать связка .%actor.name%
   mecho _Пучеглазый Леший сделал загадочный жест.
   wait 1s
-  %purge% %object%
   calcuid berlom 30812 room
   attach 30805 %berlom.id%
   exec 30805 %berlom.id%
@@ -184,7 +176,7 @@ end
 убираем белок из берлоги~
 0 z 100
 ~
-mpurge self
+mpurge %self%
 ~
 #30814
 залазим в гнездо~

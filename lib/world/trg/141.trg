@@ -217,77 +217,76 @@ end
 танцы~
 0 q 100
 ~
-wait 1
 if !%exist.mob(14127)%
   halt
 end
 calcuid Fedot 14127 mob
-*eval Fedot %world.mob(14127)%
-if (%Fedot% && %Fedot.room%==%self.room%)
-  wait 3s
-  г Федь, ты здеся, аль не здесь?!
-  г Я ужо извелся весь.
-  г Начинаем состязанья!
-  г Щас собьем с чухонца спесь.
-  mforce %Fedot% след я
-  wait 2s
-  mechoaround %self% Ну, кажись, пляски начались.
-  wait 2s
-  mechoaround %self% Посол со всех ног пустился в прискок.
-  mechoaround %self% А Федька в ответ -- заложил пируэт.
-  wait 2s
-  mechoaround %self% Шведский посол сильно в раж вошел.
-  mechoaround %self% А Федька-стрелец БОЛЬНО ловок, шельмец.
-  wait 2s
-  mechoaround %self% Гляди, у посла носом кровь пошла!
-  mechoaround %self% А Федька вприсядь пустился плясать.
-  wait 2s
-  mforce %questor141% крич Долой шведа! Федота победа!
-  wait 2s
-  хих швед
-  г Что, Альфред, продул пари?!
-  г Ну-кась юшку подотри!
-  г Будешь должен Кемску волость
-  г И чего там в ей внутри
-  wait 2s
-  ласк %Fedot.iname%
-  г Федя, подь ко мне сюда
-  г Как рассейский государь
-  г Я тебе за верну службу
-  г Щас пожалую медаль.
-  wait 2s
-  mechoaround %self% Батюшка-царь полез в инвентарь.
-  wait 2s
-  if ((%random.2% == 1) && (%world.curobjs(14100)% < 3))
-    г Всем медалям медаль!
-    г Кованная сталь!
-    mload obj 14100
-    дать медаль %Fedot.iname%
-  else
-    г Нету, Федя, медали.
-    г Видать все раздали...
-    пожа
-  end
-  if (%questor141.class% == 10 && %questor141.level% > 9)
-    wait 2s
-    mforce %Fedot% пожа %questor141.iname%
-    mforce %Fedot% г Я тебя из лучших чувств
-    mforce %Fedot% г Уклоненьям обучу --
-    mforce %Fedot% г Верткость в жизни пригодится...
-    mforce %Fedot% г Вот, гляди, как я верчусь.
-    mskillturn %questor141.name% уклониться set
-  end
-  wait 2s
-  mforce %Fedot% дать медаль %questor141.iname%
-  mforce %Fedot% г Мне наградою с лихвой
-  mforce %Fedot% г Служит факт, что я живой
-  mforce %Fedot% г Я пойду, покуда снова
-  mforce %Fedot% г Не удумали чаво...
-  mforce %Fedot% пока
-  mteleport %Fedot% 14100
-  detach 14104 %self.id%
+wait 1
+if (!%Fedot% || (%Fedot.realroom%!=%self.realroom%))
+  halt
 end
+wait 3s
+г Федь, ты здеся, аль не здесь?!
+г Я ужо извелся весь.
+г Начинаем состязанья!
+г Щас собьем с чухонца спесь.
+mforce %Fedot% след я
+wait 2s
+mechoaround %self% Ну, кажись, пляски начались.
+wait 2s
+mechoaround %self% Посол со всех ног пустился в прискок.
+mechoaround %self% А Федька в ответ - заложил пируэт.
+wait 2s
+mechoaround %self% Шведский посол сильно в раж вошел.
+mechoaround %self% А Федька-стрелец БОЛЬНО ловок, шельмец.
+wait 2s
+mechoaround %self% Гляди, у посла носом кровь пошла!
+mechoaround %self% А Федька вприсядь пустился плясать.
+wait 2s
+mforce %questor141% крич Долой шведа! Федота победа!
+wait 2s
+хих швед
+г Что, Альфред, продул пари?!
+г Ну-кась юшку подотри!
+г Будешь должен Кемску волость
+г И чего там в ей внутри
+wait 2s
+ласк .%Fedot.name%
+г Федя, подь ко мне сюда
+г Как рассейский государь
+г Я тебе за верну службу
+г Щас пожалую медаль
+wait 2s
+mechoaround %self% Батюшка-царь полез в инвентарь.
+wait 2s
+if ((%random.2% == 1) && (%world.curobjs(14100)% < 3))
+  г Всем медалям медаль!
+  г Кованная сталь!
+  mload obj 14100
+  дать медаль %Fedot.iname%
+else
+  г Нету, Федя, медали
+  г Видать все раздали...
+  пожа
 end
+if (%questor141.class% == 10 && %questor141.can_get_skill(уклониться)%)
+  wait 2s
+  mforce %Fedot% пожа %questor141.iname%
+  mforce %Fedot% г Я тебя из лучших чувств
+  mforce %Fedot% г Уклоненьям обучу --
+  mforce %Fedot% г Верткость в жизни пригодится...
+  mforce %Fedot% г Вот, гляди, как я верчусь.
+  mskillturn %questor141% уклониться set
+end
+wait 2s
+mforce %Fedot% дать медаль %questor141.iname%
+mforce %Fedot% г Мне наградою с лихвой
+mforce %Fedot% г Служит факт, что я живой
+mforce %Fedot% г Я пойду, покуда снова
+mforce %Fedot% г Не удумали чаво...
+mforce %Fedot% пока
+mteleport %Fedot% 14100
+detach 14104 %self.id%
 ~
 #14105
 засада~

@@ -285,9 +285,9 @@ foreach igr %self.pc%
         case 3
           wecho - В бою поможет тебе ярость справиться с врагом.
           if !%igr.skill(ярость)%
-            wskillturn %igr.name% ярость set
+            wskillturn %igr% ярость set
           elseif %igr.skill(ярость)% < 110
-            wskilladd %igr.name% ярость 3
+            wskilladd %igr% ярость 3
           end
         break
         case 4
@@ -296,57 +296,57 @@ foreach igr %self.pc%
         case 5
           wecho - Спасти товарища умей.
           if !%igr.skill(спасти)%
-            wskillturn %igr.name% спасти set
+            wskillturn %igr% спасти set
           elseif %igr.skill(спасти)% < 110
-            wskilladd %igr.name% спасти 3
+            wskilladd %igr% спасти 3
           end
         break
         case 7
           wecho - Волшебством твори меж землями небесные врата.
           if !%igr.skill(врата)%
-            wskillturn %igr.name% врата set
+            wskillturn %igr% врата set
           elseif %igr.skill(врата)% < 110
-            wskilladd %igr.name% врата 3
+            wskilladd %igr% врата 3
           end
         break
         case 9
           wecho - Пусть верным помощником будет тебе меч твой.
           if !%igr.skill(длинные лезвия)%
-            wskillturn %igr.name% длинные.лезвия set
+            wskillturn %igr% длинные.лезвия set
           elseif %igr.skill(длинные лезвия)% < 110
-            wskilladd %igr.name% длинные.лезвия 3
+            wskilladd %igr% длинные.лезвия 3
           end
         break
         case 10
           wecho - Пусть стрелы, рукой твоей пущенные, как молнии летят.
           if !%igr.skill(дополнительный выстрел)%
-            wskillturn %igr.name% дополнительный.выстрел set
+            wskillturn %igr% дополнительный.выстрел set
           elseif %igr.skill(дополнительный выстрел)% < 110
-            wskilladd %igr.name% дополнительный.выстрел 3
+            wskilladd %igr% дополнительный.выстрел 3
           end
         break
         case 11
           wecho - Крепчайшую броню умей сковать.
           if !%igr.skill(укрепить)%
-            wskillturn %igr.name% укрепить set
+            wskillturn %igr% укрепить set
           elseif %igr.skill(укрепить)% < 110
-            wskilladd %igr.name% укрепить 3
+            wskilladd %igr% укрепить 3
           end
         break
         case 12
           wecho  - Пусть рука твоя промаха не знает, когда метнешь ты во врага свое оружие.
           if !%igr.skill(метнуть)%
-            wskillturn %igr.name% метнуть set
+            wskillturn %igr% метнуть set
           elseif %igr.skill(метнуть)% < 110
-            wskilladd %igr.name% метнуть 3
+            wskilladd %igr% метнуть 3
           end
         break
         case 13
           wecho - Бери силу волшебную от врагов своих в бою.
           if !%igr.skill(сглазить)%
-            wskillturn %igr.name% сглазить set
+            wskillturn %igr% сглазить set
           elseif %igr.skill(сглазить)% < 110
-            wskilladd %igr.name% сглазить 3
+            wskilladd %igr% сглазить 3
           end
         break
         default

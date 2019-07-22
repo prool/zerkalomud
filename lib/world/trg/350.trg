@@ -299,4 +299,37 @@ wait 1s
 wait 1s
 %teleport% %actor% 29500
 ~
+#35009
+взаиморасчеты с пентером~
+0 m 1
+~
+wait 1
+emot пересчитал%self.g% куны
+eval target 0
+switch %amount%
+  *НК
+  case 2200
+    eval target 49947
+  break
+  *Ростов
+  case 4500
+    eval target 85175
+  break
+  *Псков
+  case 3900
+    eval target 75063
+  break
+  default
+    say И чего же ты за эти деньги хочешь?
+    give %amount% кун .%actor.name%
+    halt
+  done
+  кив
+  emot хлопнул%self.g% в ладоши
+  mechoaround %actor% %actor.name% исчез%actor.q% в мгновение ока.
+  msend %actor% Вы мгновенно переместились.
+  msend %actor% 
+  mteleport %actor% %target% horse
+  mechoaround %actor% %actor.name% появил%actor.u% здесь в мгновение ока
+~
 $~

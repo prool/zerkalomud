@@ -25,17 +25,17 @@ end
 if %actor% != %hero%
   wait 2s
   halt
-end 
+end
 say Неужели тебе это удалось ?
 say Никогда не думал что у кого-нибудь получится прогнать этого демона.
 say Держи, честно заслужил!
-if (%random.100% < 2) && (%world.curobjs(3343)% < 1)
-  mload obj 3343
-  дать наруч .%actor.name%
+if (%random.100% < 2)
+  mload obj 103
+  дать чекуш .%actor.name%
 else
   msend %actor% %self.name% дал вам увесистый кошелек.
   mechoaround %actor% %self.name% дал %actor.tname% увесистый кошелек.
-  %actor.gold(+10000)%                                
+  %actor.gold(+10000)%
   msend %actor% Это составило 10000 кун.
 end
 detach 68701 %self.id%

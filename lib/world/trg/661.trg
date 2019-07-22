@@ -25,20 +25,20 @@ switch %object.name%
     say - Вот и славненько, теперь могилы некому будет тревожить...
     say %actor.name% - Вот получи подарок от моего господина.
     wait 1s
-    да 200 кун %actor.name%
+    да 200 кун .%actor.name%
     mecho Сторож что-то пробормотал про себя и занялся своими делами.
-    mpurge труп 
+    mpurge %object%
   break
   default
     say - А ну иди от сюда, иш че захотел, не буду я те платить за всякое фуфло.
     eval getobject %object.name%
     if  %getobject.car% == труп
-      mpurge труп
+      mpurge %object%
     else
       броси %getobject.car%.%getobject.cdr%
     end
   break
-done 
+done
 ~
 #66102
 выдача квеста :)~
@@ -53,8 +53,10 @@ if %exist.mob(66111)% && %exist.mob(66112)%
   дат 2000 кун %actor.name%
   mecho Старик и ребенок ушли в свои комнаты..
   wait 1
-  mpurge старик
-  mpurge пацаненок
+  calcuid elder 66112 mob
+  calcuid young 66111 mob
+  mpurge %elder%
+  mpurge %young%
   halt
 end
 msend %actor.name%  - Не поможешь ли ты мне найти моего сыночка с муженьком?
@@ -91,7 +93,7 @@ if %actor.haveobj(66104)%
   oload mob 66112
   wait 2s
   oforce %actor% осуш кол
-  opurge камни
+  opurge %self%
 end
 default
   oecho Но ничего не вышло

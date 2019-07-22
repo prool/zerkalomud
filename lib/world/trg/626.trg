@@ -1,6 +1,6 @@
 #62600
 светильник~
-1 c 1
+2 c 0
 нажать~
 if (%actor.vnum% != -1)
   halt
@@ -35,8 +35,8 @@ done
 0 r 50
 ~
 wait 1
-say Эй что-то я тебя не припомню, новенький что ли?
-say А впрочем, мне все равно, давай показывай что принес.
+say Эй, что-то я тебя не припомню, новичок что ли?
+say А впрочем, мне все равно, давай показывай что принес%actor.q%.
 ~
 #62603
 метнуть~
@@ -260,33 +260,33 @@ say Уж какую ни есть.
 ухм
 wait 1s 
 if     (%actor.class% == 0)
-  mspellturn %actor.name% полная.слепота set
+  mspellturn %actor% полная.слепота set
 elseif (%actor.class% == 1)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 elseif (%actor.class% == 2)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 elseif (%actor.class% == 3)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 elseif (%actor.class% == 4)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 elseif (%actor.class% == 5)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 elseif (%actor.class% == 6)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 elseif (%actor.class% == 7)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 elseif (%actor.class% == 8)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 elseif (%actor.class% == 9)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 elseif (%actor.class% == 10)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 elseif (%actor.class% == 11)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 elseif (%actor.class% == 12)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 elseif (%actor.class% == 13)
-  mskillturn %actor.name% лидерство set
+  mskillturn %actor% лидерство set
 end
 say Ну вот и все, а теперь - проваливай! 
 detach 62611 %self.id%
@@ -449,13 +449,16 @@ mload obj 62606
 0 k 10
 ~
 eval victim %random.pc%
-mechoaround %victim% _Помощник наставника ловко столкнул %victim.vname% вниз! 
-msend %victim% _Помощник наставника ловко подсек вас и скинул вниз с бревна!
+if (!%victim%)
+  halt
+end
+mechoaround %victim% _Помощник наставника ловко столкнул %victim.vname% вниз!
+msend %victim% _Помощник наставника ловко подсек Вас и скинул вниз с бревна!
 mteleport %victim% 62620
 eval damage %victim.hitp%/5
 mdamage %victim% %damage%
 msend %victim% Вы БОЛЬНО ударились! 
-mechoaround %victim% _~~%victim.name% вывалил%victim.u% откуда-то из-под потолка зала и рухнул%victim.g% на пол!
+mechoaround %victim% _%victim.iname% вывалил%victim.u% откуда-то из-под потолка зала и рухнул%victim.g% на пол!
 %victim.position(6)%
 %victim.wait(1)%
 ~
@@ -511,7 +514,8 @@ switch %object.vnum%
   default
     say Мне это не нужно, положь где росло.
     give %object.name% %actor.name%
-  done
+  break
+done
 ~
 #62622
 вход к отравителю~
@@ -558,52 +562,57 @@ switch %object.vnum%
     mpurge %object%
     eval ing1 1
     global ing1
-    if ((%ing1% == 1) && (%ing2% == 1) && (%ing3% == 1))
-    break
-  end
-  halt
-break 
-case 62646
-  say Во! Именно та отрава, которую давешний купчишка нам притащил.
-  emot бросил %object.vname% в бадейку с какой-то отравой и принялся помешивать
-  mpurge %object%
-  eval ing2 1
-  global ing2
-  if ((%ing1% == 1) && (%ing2% == 1) && (%ing3% == 1))
+    if ((%ing1% != 1) || (%ing2% != 1) || (%ing3% != 1))
+      halt
+    end
+  break 
+  case 62646
+    say Во! Именно та отрава, которую давешний купчишка нам притащил.
+    emot бросил %object.vname% в бадейку с какой-то отравой и принялся помешивать
+    mpurge %object%
+    eval ing2 1
+    global ing2
+    if ((%ing1% != 1) || (%ing2% != 1) || (%ing3% != 1))
+      halt
+    end
   break
-end
-halt          
-break
-case 62647
-  if ((%object.val2% != 5) or ( %object.val1% < 10 ))
-    say Я ж сказал, самогон нужен! Наш! И полную бутыль! А ты что принес?!!
-    give %object.name% %actor.name%
+  case 62647
+    if ((%object.val2% != 5) or ( %object.val1% < 10 ))
+      say Я ж сказал, самогон нужен! Наш! И полную бутыль! А ты что принес?!!
+      give %object.name% %actor.name%
+      halt
+    end
+    emot отхлебнул из бутыли
+    say Уффффффффффххх!!! Да... э-этто им-то... ИК!
+    emot опустошил %object.vname% в бадейку с какой-то отравой и принялся помешивать
+    mpurge %object%
+    eval ing3 1
+    global ing3
+    if ((%ing1% != 1) || (%ing2% != 1) || (%ing3% != 1))
+      halt
+    end
+  break
+  default
+    say Хм... Этого я не просил вроде... ну да ничего - тоже сгодится.
+    emot бросил %object.name% в варево и принялся помешивать
+    mpurge %object%
     halt
-  end
-  emot отхлебнул из бутыли
-  say Уффффффффффххх!!! Да... э-этто им-то... ИК!
-  emot опустошил %object.vname% в бадейку с какой-то отравой и принялся помешивать
-  mpurge %object%
-  eval ing3 1
-  global ing3
-  if ((%ing1% == 1) && (%ing2% == 1) && (%ing3% == 1))
   break
-end
-halt
-break
-default
-  say Хм... Этого я не просил вроде... ну да ничего - тоже сгодится.
-  emot бросил %object.name% в варево и принялся помешивать
-  mpurge %object%
-  halt
 done 
 wait 1s
 emot принюхался к вареву и медленно позеленел
-say Уф! Знатное зелье получилось! 
+say Уф! Знатное зелье получилось!
 wait 2s
 emot осторожно набрал готовую отраву в склянку
 mload obj 62644
+give злое .%actor.name%
 give злое %actor.name%
+set ing1 0
+set ing2 0
+set ing3 0
+global ing1
+global ing2
+global ing3
 ~
 #62625
 у оружейника~
@@ -635,7 +644,7 @@ switch %object.vnum%
     emot принялся откручивать рукоять кинжала.
     if (%random.100% < 80)
       emot вложил в рукоять свинцовый шарик и прикрутил рукоять на место
-      emot пару раз взмахнул кинжалом, демонстрируя. насколько резче стал удар
+      emot пару раз взмахнул кинжалом, демонстрируя насколько резче стал удар
       mload obj 62650 
       give кинжал %actor.name%
       say Вот, владей на здоровье!
@@ -645,11 +654,13 @@ switch %object.vnum%
       say Эх, не вышло....
     end
     mpurge %object%
+    eval shar 0
+    global shar
   break 
   case 62641
     say Хорошая вещь! Пригодится для фокуса одного... Я его тебе как-нибудь покажу
     ухм
-    emot сложил платок и сунул его в карман.
+    emot сложил платок и сунул его в карман
     eval platok 1
     global platok
     mpurge %object%
@@ -665,7 +676,7 @@ switch %object.vnum%
     emot достал из кармана широкий черный платок и взмахнул им пару раз.
     if (%random.100% < 50)
       emot накрепко привязал платок к рукояти кинжала
-      emot взмахнул кинжалом, демонстрирую, как платок скрывает движения руки
+      emot взмахнул кинжалом, демонстрируя как платок скрывает движения руки
       mload obj 62651
       give кинжал %actor.name%
       say Его бы еще зельем колдовским смазать - цены бы не было!
@@ -679,13 +690,15 @@ switch %object.vnum%
       say Вот ведь незадача...
       вздох
     end
+    eval platok 0
+    global platok
     mpurge %object%
   break
   case 62644
     emot аккуратно взял склянку
     emot рассмотрел зелье на просвет
     say Да... Ядреная вещь... Как раз кинжал смазать.
-    emot осторожно поставил склянку на дальнюю полицу 
+    emot осторожно поставил склянку на дальнюю полицу
     eval poison 1
     global poison
     mpurge %object%
@@ -701,24 +714,25 @@ switch %object.vnum%
     say Но можно и еще лучше его сделать... есть у меня для него зелье колдовское.
     emot достал с дальней полицы какую-то склянку
     emot аккуратно нанес зелье на лезвие кинжала
-    if (%random.100% < 15)
-      if %world.curobjs(62640)% < 2
-        mecho _Кинжал вспыхнул ослепительным голубым светом и погас.
-        say Вот теперь лучше этого кинжала сыскать будет мудрено.
-        mload obj 62640
-        give кинжал %actor.name%
-      end
+    if ((%random.100% < 15) && (%world.curobjs(62640)% < 2))
+      mecho _Кинжал вспыхнул ослепительным голубым светом и погас.
+      say Вот теперь лучше этого кинжала сыскать будет мудрено.
+      mload obj 62640
+      give кинжал %actor.name%
     else
       mecho _Кинжал вспыхнул багровым сиянием и сгорел
       челю
       say Бывает же...
-    end 
+    end
+    eval poison 0
+    global poison
     mpurge %object%
   break
   default
-    say Это оставь себе, не видишь - я?!
+    say Это оставь себе, не видишь - я занят?!
     give %object.name% %actor.name%
-  done
+  break
+done
 ~
 #62626
 взяли стрелу~

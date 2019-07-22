@@ -18,6 +18,7 @@ b0d0g0n0o0r0t0u0x0o1 d0f0k0n0n1 600 E
 16 12 10 20d10+300 5d5+5
 10d1+1 20000
 6 6 1
+Absorbe: 16
 Str: 15
 Dex: 22
 Int: 18
@@ -54,6 +55,7 @@ b0d0f0g0n0o0x0a1 d0f0k0 -600 E
 17 12 3 10d12+250 5d4+4
 0d0+0 25000
 8 8 1
+Absorbe: 17
 BareHandAttack: 2
 Str: 20
 Dex: 13
@@ -91,18 +93,12 @@ T 7405
 ~
 Огромных размеров членистоногое создание с двумья острыми
 клешнями и мощным хвостом.
-
-
-
-
-
-
-
 ~
 b0d0f0g0n0o0r0a1g2 f0k0 0 E
 9 10 4 5d6+200 2d4+5
 0d0+5 5000
 8 8 1
+Absorbe: 9
 BareHandAttack: 7
 Str: 13
 Dex: 10
@@ -137,6 +133,7 @@ d0f0g0a1 f0 -600 E
 5 15 6 10d5+100 2d3+4
 0d0+0 1400
 8 8 2
+Absorbe: 5
 BareHandAttack: 4
 Str: 12
 Dex: 13
@@ -169,6 +166,7 @@ d0g0j0m0n0q0z0l1m1n1h2 d0f0k0x0 0 E
 4 18 7 3d7+100 2d2+1
 0d0+0 1000
 8 8 2
+Absorbe: 4
 BareHandAttack: 4
 Str: 8
 Dex: 14
@@ -202,6 +200,7 @@ d0g0a1 0 0 E
 5 15 6 40d5+150 4d2+4
 0d0+0 1200
 6 6 2
+Absorbe: 5
 BareHandAttack: 2
 Dex: 15
 Int: 10
@@ -234,6 +233,7 @@ d0g0r0a1 0 0 E
 6 14 9 5d20+150 4d2+3
 0d0+0 2000
 6 6 2
+Absorbe: 6
 BareHandAttack: 2
 Str: 13
 Dex: 13
@@ -267,6 +267,7 @@ d0f0g0n0o0b1l1m1n1 f0k0x0 0 E
 3 7 5 5d5+90 4d2+2
 0d0+0 600
 8 8 1
+Absorbe: 3
 BareHandAttack: 16
 Str: 10
 Dex: 20
@@ -301,6 +302,7 @@ d0g0l0n0o0b1 0 0 E
 9 7 3 5d10+200 5d2+4
 0d0+0 4000
 8 8 1
+Absorbe: 9
 BareHandAttack: 8
 Str: 15
 Dex: 18
@@ -334,6 +336,7 @@ d0g0n0a1 0 0 E
 6 14 5 3d10+200 3d2+2
 0d0+0 2000
 8 8 2
+Absorbe: 6
 BareHandAttack: 12
 Str: 13
 Dex: 13
@@ -368,6 +371,7 @@ d0g0n0x0b1 0 0 E
 7 14 3 5d6+160 4d3+3
 0d0+0 2500
 8 8 1
+Absorbe: 7
 BareHandAttack: 12
 Str: 16
 Dex: 15
@@ -405,6 +409,7 @@ d0g0l0a1b1 0 0 E
 4 16 6 5d3+80 3d3+2
 0d0+0 700
 8 8 2
+Absorbe: 4
 BareHandAttack: 8
 Str: 12
 Dex: 15
@@ -441,6 +446,7 @@ d0g0n0a1b1 0 0 E
 3 17 6 3d5+70 2d3+2
 0d0+0 500
 8 8 1
+Absorbe: 3
 BareHandAttack: 4
 Str: 14
 Dex: 14
@@ -479,6 +485,7 @@ d0g0h0o0a1b1 0 0 E
 3 16 8 4d3+60 1d5+2
 0d0+0 600
 8 8 1
+Absorbe: 3
 BareHandAttack: 2
 Str: 12
 Dex: 5
@@ -515,6 +522,7 @@ d0g0n0a1b1 0 0 E
 8 17 5 3d10+300 4d2+3
 0d0+0 3000
 8 8 1
+Absorbe: 8
 Str: 19
 Dex: 15
 Int: 6
@@ -549,6 +557,7 @@ d0g0k0n0b1 0 0 E
 7 13 6 5d6+250 2d7+2
 0d0+0 2600
 8 8 1
+Absorbe: 7
 BareHandAttack: 4
 Str: 15
 Dex: 10
@@ -581,6 +590,7 @@ d0g0h0n0o0a1b1 f0 0 E
 5 6 6 5d5+150 3d3+2
 0d0+0 1500
 8 8 2
+Absorbe: 5
 BareHandAttack: 2
 Str: 8
 Dex: 3
@@ -616,6 +626,7 @@ d0g0n0o0r0b1 d0f0k0m0x0 -600 E
 9 20 0 20d5+150 4d2+1
 0d0+0 4000
 8 8 1
+Absorbe: 9
 BareHandAttack: 11
 Str: 5
 Dex: 19
@@ -660,6 +671,7 @@ d0g0l0n0o0a1 k0p0 0 E
 11 6 3 8d5+350 4d5+3
 0d0+0 8000
 8 8 1
+Absorbe: 11
 BareHandAttack: 14
 Str: 23
 Dex: 15

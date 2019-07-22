@@ -1,0 +1,3674 @@
+#94100
+червеобразная слепозмейка~
+Червеобразная слепозмейка~
+Червеобразной слепозмейки~
+Червеобразной слепозмейке~
+Червеобразную слепозмейку~
+Червеобразной слепозмейкой~
+Червеобразной слепозмейке~
+Большой червяк ползет тут.
+~
+Мелкая змейка, небольшой длины, по внешнему виду напоминающая дождевого червя.
+~
+b0d0f0 b0c0d0e0f0m0n0r0s0x0A0c1 -600 E
+25 -22 -5 10d10+3450 30d25+40
+20d20+0 500000
+8 8 2
+Saves: -10 -10 -10 -10
+Resistances: 20 20 20 20 20 20 20
+HPreg: 10
+Armour: 10
+PlusMem: 10
+CastSuccess: 10
+Success: 10
+Initiative: 10
+Absorbe: 25
+AResist: 10
+MResist: 10
+PResist: 10
+BareHandAttack: 4
+Str: 34
+Dex: 40
+Int: 16
+Wis: 21
+Con: 34
+Cha: 16
+Size: 50
+MaxFactor: 1
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Feat: 4
+Feat: 17
+Feat: 37
+Skill: 130 50
+Skill: 131 100
+Skill: 133 100
+Skill: 147 100
+Skill: 157 50
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+Spell: 33
+E
+T 94113
+#94101
+песчаный удавчик~
+Песчаный удавчик~
+Песчаного удавчика~
+Песчаному удавчику~
+Песчаного удавчика~
+Песчаным удавчиком~
+Песчаном удавчике~
+Желто-бурая змея сворачивает кольца.
+~
+Мускулистое тело чуть приплюснуто, небольшая голова немного уплощенная.
+У него маленькие глаза, расположенные на возвышении верха головы, направленные
+вверх. Радужная оболочка желто-янтарного цвета, зрачок черный. Во рту острые
+мелкие зубы, которые неприятно кусают, зато не содержат яда. Окрас змеи
+маскировочный - желто-бурый с узором в виде мелкого крапа или небольших
+пятен и полосок коричневого цвета.
+~
+d0f0l0m0t0 b0c0d0e0f0g0h0r0s0x0A0k1 0 E
+35 -22 -5 1d1+7000 20d22+35
+30d50+1 1500000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 40 40 40 40 40 40 40
+HPreg: 40
+Armour: 30
+PlusMem: 30
+CastSuccess: 32
+Success: 30
+Initiative: 30
+Absorbe: 35
+AResist: 15
+MResist: 15
+PResist: 15
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+MaxFactor: 3
+ExtraAttack: 1
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 12
+Feat: 13
+Feat: 17
+Feat: 21
+Feat: 33
+Skill: 2 25
+Skill: 5 75
+Skill: 21 25
+Skill: 131 76
+Skill: 132 75
+Skill: 145 120
+Skill: 156 50
+Skill: 160 100
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 37
+Spell: 43
+Spell: 43
+Spell: 43
+Spell: 56
+E
+T 94113
+#94102
+японский уж~
+Японский уж~
+Японского ужа~
+Японскому ужу~
+Японского ужа~
+Японским ужом~
+Японским уже~
+Змейка коричнего-красного цвета высовывает язык.
+~
+Верхняя сторона туловища и головы тёмно-бурого, коричневого, шоколадного или
+коричнево-красного цвета с зеленоватым оттенком, без рисунка. Брюхо
+светло-зелёного или желтовато-зелёного цвета.
+~
+d0e0f0l0m0 c0d0e0f0g0r0s0z0A0r1u1x1y1z1 0 E
+37 -22 -5 10d1+7800 20d27+50
+30d40+20 1500000
+8 8 1
+Saves: -70 -70 -70 -70
+Resistances: 40 40 40 40 40 40 40
+HPreg: 40
+Armour: 40
+PlusMem: 40
+CastSuccess: 40
+Success: 40
+Initiative: 40
+Absorbe: 37
+AResist: 30
+MResist: 30
+PResist: 30
+BareHandAttack: 12
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+MaxFactor: 3
+ExtraAttack: 1
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 12
+Feat: 13
+Feat: 17
+Feat: 18
+Feat: 21
+Skill: 1 100
+Skill: 4 100
+Skill: 133 100
+Skill: 136 100
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 38
+Spell: 48
+E
+T 94113
+#94103
+медянка~
+Медянка~
+Медянки~
+Медянке~
+Медянку~
+Медянкой~
+Медянке~
+Медянка греется, закрыв глаза от наслаждения.
+~
+Гладкие спинные чешуи имеют ромбовидную или шестиугольную форму.
+ДЛЯ ЧЕЛОВЕКА НЕ ОПАСНА.
+Но может броситься в ответ на нападение.
+~
+b0d0l0 c0d0e0f0g0r0x0z0A0k1 0 E
+37 -22 -5 1d1+12000 20d15+40
+30d40+20 2000000
+8 8 2
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+PResist: 25
+BareHandAttack: 2
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+MaxFactor: 3
+ExtraAttack: 3
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 1 100
+Skill: 12 100
+Spell: 53
+Spell: 56
+Spell: 68
+Spell: 68
+E
+T 94113
+#94104
+оливковый полоз~
+Оливковый полоз~
+Оливкового полоза~
+Оливковому полозу~
+Оливкового полоза~
+Оливковым полозом~
+Оливковом полозе~
+Змейка оливкового цвета ползет здесь.
+~
+Небольшая змейка оливкового цвета.
+~
+d0f0l0 c0d0e0f0g0h0r0x0z0A0k1 0 E
+37 -22 -5 1d1+7600 18d20+38
+30d40+20 1500000
+8 8 1
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 10
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+MaxFactor: 3
+ExtraAttack: 1
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 5 120
+Skill: 132 120
+Skill: 136 120
+Spell: 23
+Spell: 53
+Spell: 56
+Spell: 68
+Spell: 68
+E
+T 94113
+#94105
+разноцветный полоз~
+Разноцветный полоз~
+Разноцветного полоза~
+Разноцветному полозу~
+Разноцветного полоза~
+Разноцветным полозом~
+Разноцветном полозе~
+Серо-бурая змейка готовится к броску.
+~
+Цветастая змейка с тупо закругленной мордой.
+~
+d0f0l0 c0d0e0f0g0r0x0z0A0k1u1 0 E
+37 -22 -5 1d1+6200 18d26+30
+0d0+0 1700000
+8 8 1
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 1
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 2
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 5 120
+Skill: 21 120
+Skill: 132 120
+Skill: 136 120
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 58
+Spell: 82
+Spell: 88
+E
+T 94113
+#94106
+полосатый полоз~
+Полосатый полоз~
+Полосатого полоза~
+Полосатому полозу~
+Полосатого полоза~
+Полосатым полозом~
+Полосатом полозе~
+Полосатая змейка шипит на вас.
+~
+Полосатая змея с тупо закругленной мордой.
+~
+d0f0l0 c0d0e0f0g0h0r0x0z0A0k1q1r1 0 E
+37 -22 -5 1d1+6520 19d29+29
+0d0+0 1400000
+8 8 1
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 1
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 2
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 1 120
+Skill: 12 120
+Skill: 22 120
+Skill: 136 120
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 98
+Spell: 124
+E
+T 94113
+#94107
+смирный эйренис~
+Смирный эйренис~
+Смирного эйрениса~
+Смирному эйренису~
+Смирного эйрениса~
+Смирным эйренисом~
+Смирном эйренисе~
+Змейка с буквой "М" на голове удивленно смотрит на Вас.
+~
+Морда тупая, зрачок округлый. Верхняя сторона тела бежевая, сероватая или
+коричневатая. Хвост немного светлее туловища. Головы молодых особей тёмные
+со светлым пятном за глазами, похожим сверху на букву <М>. С возрастом
+этот рисунок темнеет и окрас головы становится практически таким же,
+как и на всём теле.
+~
+b0d0l0 c0d0e0f0g0r0x0z0A0k1 0 E
+37 -22 -5 1d1+6900 18d23+28
+0d0+0 1560000
+8 8 1
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 2
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 2
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 1 100
+Skill: 12 100
+Spell: 53
+Spell: 56
+Spell: 68
+Spell: 68
+E
+T 94113
+#94108
+восточный динодон~
+Восточный динодон~
+Восточного динодона~
+Восточному динодону~
+Восточного динодона~
+Восточным динодоном~
+Восточном динодоне~
+Красновато-бурая змейка готовится к броску.
+~
+Голова немного приплюснута, есть заметный шейный перехват между нею и
+туловищем. Зрачки вертикально-эллиптические. Окрас верхней стороны тела
+от коричневато-серого до красновато-бурого, с крупными поперечными
+неправильными черноватыми пятнами. Вдоль боков проходит ряд мелких пятен.
+Голова сверху черноватая, брюхо светлое.
+~
+d0f0l0 c0d0e0f0g0h0r0x0z0A0k1 0 E
+37 -22 -5 1d1+6902 19d20+20
+0d0+0 1590000
+8 8 1
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 2
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 5 120
+Skill: 132 120
+Skill: 136 120
+Spell: 23
+Spell: 53
+Spell: 56
+Spell: 68
+Spell: 68
+E
+T 94113
+#94109
+краснопоясный динодон~
+Краснопоясный динодон~
+Краснопоясного динодона~
+Краснопоясному динодону~
+Краснопоясного динодона~
+Краснопоясным динодоном~
+Краснопоясном динодоне~
+Кораллово-красная змея отравляет воздух своим дыханием.
+~
+Голова уплощённая, туловище крепкое, хвост короткий. Окраска верхней стороны
+тела кораллово-красного или жёлтого цвета. Брюхо желтоватое или
+светло-оранжевое.
+~
+d0f0l0b2 c0d0e0f0g0r0x0z0A0k1u1 0 E
+37 -22 -5 1d1+6430 19d20+30
+0d0+0 1700000
+8 8 1
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 2
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 5 120
+Skill: 21 120
+Skill: 132 120
+Skill: 136 120
+Spell: 23
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 58
+Spell: 82
+Spell: 88
+E
+T 94113
+#94110
+узорчатый полоз~
+Узорчатый полоз~
+Узорчатого полоза~
+Узорчатому полозу~
+Узорчатого полоза~
+Узорчатым полозом~
+Узорчатом полозе~
+Узорчатая змейка угрожающе шипит.
+~
+Тело змеи покрыто узорчатыми рисунками разного цвета.
+~
+d0f0l0 c0d0e0f0g0h0r0x0z0A0k1q1r1 0 E
+37 -22 -5 1d1+6800 19d25+24
+0d0+0 1560000
+8 8 1
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 2
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 1 120
+Skill: 12 120
+Skill: 22 120
+Skill: 136 120
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 98
+Spell: 124
+E
+T 94113
+#94111
+тонкохвостый лазающий полоз~
+Тонкохвостый лазающий полоз~
+Тонкохвостого лазающего полоза~
+Тонкохвостому лазающему полозу~
+Тонкохвостого лазающего полоза~
+Тонкохвостым лазающим полозом~
+Тонкохвостом лазающем полозе~
+Желтоватая змейка радуется жизни.
+~
+Голова слабо отграничена от шеи. Хвост короткий. Сверху светло-сиреневого цвета
+с двумя тонкими чёрными продольными линиями, которые соединяются друг с другом
+поперечными полосами, отделёнными друг от друга одинаковыми промежутками. Это
+сочетание линий образует характерный рисунок в виде лестницы, который исчезает
+в задней части спины.
+~
+b0d0l0 c0d0e0f0g0r0x0z0A0k1 0 E
+37 -22 -5 1d1+7000 19d25+24
+0d0+0 1560000
+8 8 1
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 2
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 1 100
+Skill: 12 100
+Spell: 53
+Spell: 56
+Spell: 68
+Spell: 68
+E
+T 94113
+#94112
+двухцветная пеламида~
+Двухцветная пеламида~
+Двухцветной пеламиды~
+Двухцветной пеламиде~
+Двухцветную пеламиду~
+Двухцветной пеламидой~
+Двухцветной пеламиде~
+Морская змея неизвестно как оказалась в пещере.
+~
+Туловище ремневидное, уплощённое с боков, плавно переходит в плоский,
+веслообразный, закруглённый на конце хвост. Тело покрыто мелкой прилегающей
+чешуёй, на верхней части головы щитки крупные.
+~
+d0f0l0 c0d0e0f0g0h0r0x0z0A0k1 0 E
+37 -22 -5 1d1+7460 19d25+24
+0d0+0 1560000
+8 8 2
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 2
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 5 120
+Skill: 132 120
+Skill: 136 120
+Spell: 23
+Spell: 53
+Spell: 56
+Spell: 68
+Spell: 68
+E
+T 94113
+#94113
+каменистый щитомордник~
+Каменистый щитомордник~
+Каменистого щитомордника~
+Каменистому щитоморднику~
+Каменистого щитомордника~
+Каменистым щитомордником~
+Каменистом щитоморднике~
+Темная ядовитая змея прячется среди камней.
+~
+Небольшая змея темного цвета. 
+~
+d0e0f0l0 c0d0e0f0g0h0r0s0z0A0j1k1p1q1r1u1e2 0 E
+37 -22 -5 1d1+8000 25d25+24
+0d0+0 1700000
+8 8 1
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 3
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 22 120
+Skill: 131 120
+Skill: 136 120
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 98
+Spell: 124
+E
+T 94113
+#94114
+гюрза~
+Гюрза~
+Гюрзы~
+Гюрзе~
+Гюрзу~
+Гюрзой~
+Гюрзе~
+Гюрза застыла перед броском. Замрите, все равно умрете.
+~
+Вдоль спины проходит ряд поперечных темно-бурых пятен, а по бокам
+туловища - более мелкие пятна. Брюхо светлое, с мелкими темными пятнышками.
+Голова однотонная или со сложным рисунком в виде дуг и пятен.
+~
+d0f0l0 c0d0e0f0g0h0r0x0z0A0k1q1r1 0 E
+37 -22 -5 1d1+6790 19d25+24
+0d0+0 1560000
+8 8 2
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 2
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 1 120
+Skill: 12 120
+Skill: 22 120
+Skill: 136 120
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 98
+Spell: 124
+E
+T 94113
+#94115
+уж~
+Уж~
+Ужа~
+Ужу~
+Ужа~
+Ужом~
+Уже~
+Обычный уж прямо перед вами.
+~
+Обычный уж, коих на просторах Руси Матушки полно.
+~
+b0d0l0 c0d0e0f0g0r0x0z0A0k1 0 E
+37 -22 -4 1d1+7200 30d25+24
+0d0+0 1560000
+8 8 1
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 4
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 3
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 1 100
+Skill: 12 100
+Spell: 53
+Spell: 56
+Spell: 68
+Spell: 68
+E
+T 94113
+#94116
+темная пелена~
+Темная пелена~
+Темной пелены~
+Темной пелене~
+Темную пелену~
+Темной пеленой~
+Темной пелене~
+Нечто невообразимое обволакивает вас, пытаясь поглотить.
+~
+Кажется воздух и тьма смешались превратившись в нечто.
+И это нечто явно опасно для вас.
+~
+b0d0f0r0t0u0A0s1i2 c0d0e0f0k0p1y1z1e2 -600 E
+40 -22 0 1d1+51030 30d25+40
+0d0+0 6000000
+8 8 2
+Saves: -130 -150 -170 -180
+Resistances: 50 50 50 50 50 50 50
+HPreg: 30
+Armour: 30
+PlusMem: 30
+CastSuccess: 58
+Success: 30
+Initiative: 30
+Absorbe: 50
+AResist: 100
+MResist: 35
+PResist: 10
+BareHandAttack: 2
+Str: 50
+Dex: 35
+Int: 35
+Wis: 50
+Con: 40
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 4
+Class: 100
+Race: 113
+Height: 175
+Weight: 140
+Special_Bitvector: a0b0c0d0e0f0u0 
+Feat: 3
+Feat: 4
+Feat: 12
+Feat: 13
+Feat: 17
+Feat: 19
+Feat: 20
+Feat: 21
+Feat: 24
+Feat: 25
+Feat: 28
+Feat: 29
+Feat: 41
+Feat: 42
+Feat: 43
+Feat: 47
+Feat: 54
+Feat: 55
+Feat: 57
+Feat: 60
+Feat: 65
+Skill: 4 150
+Skill: 5 150
+Skill: 132 150
+Skill: 134 150
+Skill: 136 150
+Skill: 157 150
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 23
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 25
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 56
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 135
+Spell: 151
+Spell: 151
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 153
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+Role: 000000001
+E
+T 94123
+T 94144
+#94117
+бахыт хитрый змей~
+Бахыт - хитрый змей~
+Бахыта - хитрого змея~
+Бахыту - хитрому змею~
+Бахыта - хитрого змея~
+Бахытом - хитрым змеем~
+Бахыте - хитром змее~
+Невысокий мужичок с раскосыми глазами хитро глядит на Вас.
+~
+Невысокий мужичок за небольшую плату выполнит ваши поручения,
+но хитрый взгляд его пугает. Как бы не вышло боком ваше сотрудничество с ним.
+~
+b0d0l0n0 c0e0f0g0k0A0C0 0 E
+28 -22 -20 5d7+2000 5d7+30
+5d8+450 1700000
+8 8 1
+Saves: -20 -20 -20 -20
+Resistances: 20 20 20 20 20 20 20
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 40
+Success: 20
+Initiative: 20
+Absorbe: 28
+AResist: 10
+MResist: 10
+PResist: 10
+BareHandAttack: 10
+Str: 32
+Dex: 30
+Int: 30
+Wis: 25
+Con: 30
+Cha: 32
+Size: 100
+LikeWork: 95
+ExtraAttack: 2
+Class: 102
+Race: 104
+Height: 175
+Weight: 120
+Special_Bitvector: a1b1c1d1 
+Skill: 5 130
+Skill: 136 100
+Skill: 137 110
+Skill: 139 200
+E
+T 94112
+#94118
+караульный змеечеловек~
+Караульный змеечеловек~
+Караульного змеечеловека~
+Караульному змеечеловеку~
+Караульного змеечеловека~
+Караульным змеечеловеком~
+Караульном змеечеловеке~
+Здоровый мужик в сверкающей чешуе стоит здесь.
+~
+Этот мужик голыми руками готов разорвать врага.
+~
+b0d0e0f0l0 c0d0e0f0g0h0r0s0x0z0A0k1q1r1u1e2 0 E
+37 -22 -5 1d1+9650 24d29+30
+30d40+20 3000000
+8 8 1
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 37
+MResist: 37
+PResist: 37
+BareHandAttack: 11
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 3
+Class: 100
+Race: 102
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 22 120
+Skill: 131 120
+Skill: 136 120
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 98
+Spell: 124
+E
+T 94114
+#94119
+горожанин~
+Горожанин~
+Горожанина~
+Горожанину~
+Горожанина~
+Горожанином~
+Горожанине~
+Мужчина в сверкающей чешуе прогуливается по городу.
+~
+Мужчина в сверкающей чешуе неторопясь прогуливается по городу.
+Он удивительно красив, наверное пользуется успехом у дам.
+~
+d0f0m0 c0d0e0f0g0h0 -600 E
+42 -22 -30 10d10+9650 24d29+30
+500d20+100 2500000
+8 8 1
+Saves: -120 -120 -120 -120
+Resistances: 50 50 50 50 50 50 50
+Armour: 40
+CastSuccess: 53
+Success: 30
+Initiative: 100
+Absorbe: 42
+AResist: 20
+BareHandAttack: 9
+Str: 50
+Dex: 50
+Int: 40
+Wis: 35
+Con: 50
+Cha: 50
+Size: 100
+LikeWork: 100
+MaxFactor: 30
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 200
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 150
+Skill: 22 150
+Skill: 132 120
+Skill: 137 100
+Skill: 154 150
+E
+T 94114
+#94120
+горожанка~
+Горожанка~
+Горожанки~
+Горожанке~
+Горожанку~
+Горожанкой~
+Горожанке~
+Женщина в сверкающей чешуе прогуливается по городу.
+~
+Женщина в сверкающей чешуе неторопясь прогуливается по городу.
+Она удивительно красива, наверное пользуется успехом у мужчин.
+~
+d0f0m0 c0d0e0f0g0h0 -600 E
+42 -22 -30 10d10+9650 24d29+30
+500d20+100 2500000
+8 8 2
+Saves: -120 -120 -120 -120
+Resistances: 50 50 50 50 50 50 50
+Armour: 40
+CastSuccess: 53
+Success: 30
+Initiative: 100
+Absorbe: 42
+AResist: 20
+BareHandAttack: 9
+Str: 50
+Dex: 50
+Int: 40
+Wis: 35
+Con: 50
+Cha: 50
+Size: 100
+LikeWork: 100
+MaxFactor: 30
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 200
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 150
+Skill: 22 150
+Skill: 132 120
+Skill: 137 100
+Skill: 154 150
+E
+T 94114
+#94121
+прохожий~
+Прохожий~
+Прохожего~
+Прохожему~
+Прохожего~
+Прохожим~
+Прохожем~
+Мужчина в сверкающей чешуе проходит мимо.
+~
+Мужчина в сверкающей чешуе идет мимо вас.
+Он удивительно красив, наверное пользуется успехом у дам.
+~
+d0f0m0 c0d0e0f0g0h0 -600 E
+42 -22 -30 10d10+9650 24d29+30
+500d20+50 3500000
+8 8 1
+Saves: -120 -120 -120 -120
+Resistances: 50 50 50 50 50 50 50
+Armour: 40
+CastSuccess: 53
+Success: 30
+Initiative: 100
+Absorbe: 42
+AResist: 20
+BareHandAttack: 9
+Str: 50
+Dex: 50
+Int: 40
+Wis: 35
+Con: 50
+Cha: 50
+Size: 100
+LikeWork: 100
+MaxFactor: 30
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 200
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 150
+Skill: 22 150
+Skill: 132 120
+Skill: 137 100
+Skill: 154 150
+E
+T 94114
+#94122
+подмастерье~
+Подмастерье~
+Подмастерья~
+Подмастерью~
+Подмастерье~
+Подмастерьем~
+Подмастерье~
+Паренек спешит доставить заказ.
+~
+Молодой паренек в сверкающей чешуе торопится отнести заказ.
+~
+d0f0m0 c0d0e0f0g0h0x0z0A0m1c2d2 -600 E
+42 -22 -30 10d10+9650 24d29+30
+500d20+1 2000000
+8 8 1
+Saves: -120 -120 -120 -120
+Resistances: 50 50 50 50 50 50 50
+Armour: 40
+CastSuccess: 53
+Success: 30
+Initiative: 100
+Absorbe: 42
+AResist: 20
+Str: 50
+Dex: 50
+Int: 40
+Wis: 35
+Con: 50
+Cha: 50
+Size: 100
+LikeWork: 100
+MaxFactor: 30
+ExtraAttack: 1
+Class: 100
+Race: 101
+Height: 200
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 150
+Skill: 22 150
+Skill: 132 120
+Skill: 137 100
+Skill: 154 150
+E
+T 94136
+#94123
+гадалка~
+Гадалка~
+Гадалки~
+Гадалке~
+Гадалку~
+Гадалкой~
+Гадалке~
+Гадалка раскинула зернь тут.
+~
+Пожилая, но крайне привлекательная, женщина в сверкающей чешуе нагадает
+вам счастье... ну а также дорогу дальнюю, дом казенный, тут уж как фишка ляжет.
+~
+d0e0f0l0m0q0 c0d0e0f0h0r0x0A0a1c1x1d2e2 0 E
+38 -22 -10 1d1+13450 24d29+30
+0d0+0 5000000
+8 8 2
+Saves: -125 -70 -70 -70
+Resistances: 35 30 30 50 50 50 50
+Armour: 10
+PlusMem: 200
+CastSuccess: 100
+Success: 15
+Initiative: 50
+Absorbe: 38
+AResist: 80
+MResist: 40
+BareHandAttack: 12
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 2
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Feat: 3
+Feat: 4
+Feat: 10
+Feat: 16
+Feat: 17
+Feat: 21
+Skill: 144 150
+Spell: 3
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 58
+Spell: 93
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+E
+T 94114
+T 94143
+#94124
+немая ведунья~
+Немая ведунья~
+Немой ведуньи~
+Немой ведунье~
+Немую ведунью~
+Немой ведуньей~
+Немой ведунье~
+Старая ведунья стоит здесь.
+~
+От прочих женщин ее, пожалуй, отличает отсутсвие языка, что, впрочем,
+не делает ее менее привлекательной.
+~
+b0d0f0l0u0b2h2 c0d0e0f0k0r0z0A0a1m1r1 0 E
+41 -22 0 1d1+9650 24d29+30
+0d0+0 3500000
+8 8 2
+Saves: -125 -50 -50 -50
+Resistances: 25 20 20 30 50 50 50
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 30
+Initiative: 50
+Absorbe: 41
+AResist: 80
+MResist: 20
+Str: 20
+Dex: 25
+Int: 40
+Wis: 50
+Con: 10
+Cha: 20
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 1
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Feat: 1
+Feat: 3
+Feat: 10
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 17
+Feat: 21
+Skill: 22 200
+Spell: 1
+Spell: 9
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 71
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 124
+E
+T 94129
+T 94143
+#94125
+змей маг~
+Змей-маг~
+Змея-мага~
+Змею-магу~
+Змея-мага~
+Змеем-магом~
+Змее-маге~
+Старый полинялый змеечеловек стоит тут.
+~
+В отличии от других змеелюдей этот выглядит так, как будто ему сотня тысяч лет.
+~
+b0d0f0m0p0q0r0t0u0 b0c0d0e0f0g0h0m0n0r0 0 E
+50 -22 -10 1d1+14234 24d29+30
+0d0+1 4000000
+8 8 1
+Saves: -150 -90 -86 -86
+Resistances: 50 0 50 50 50 50 50
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 30
+Initiative: 30
+Absorbe: 50
+AResist: 80
+MResist: 20
+BareHandAttack: 6
+Str: 35
+Dex: 35
+Int: 35
+Wis: 50
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 2
+Class: 100
+Race: 102
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 200
+Skill: 4 200
+Skill: 22 200
+Skill: 136 200
+Skill: 154 200
+Spell: 25
+Spell: 25
+Spell: 56
+Spell: 56
+Spell: 58
+Spell: 94
+Spell: 124
+Spell: 132
+Spell: 132
+Spell: 133
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+E
+T 94130
+#94126
+танцовщик~
+Танцовщик~
+Танцовщика~
+Танцовщику~
+Танцовщика~
+Танцовщиком~
+Танцовщике~
+Молодой паренек пляшет тут.
+~
+Сильный и ловкий, пыщащий юным задором, парень отбивает чечетку.
+~
+b0d0f0l0m0r0t0 b0c0d0e0f0g0h0r0x0A0C0a1y1 0 E
+45 -22 0 1d1+9650 24d29+30
+100d50+0 3500000
+8 8 1
+Saves: -75 -70 -70 -70
+Resistances: 50 50 50 50 50 50 50
+PlusMem: 200
+CastSuccess: 90
+Success: 10
+Initiative: 50
+Absorbe: 45
+AResist: 30
+MResist: 30
+BareHandAttack: 5
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 1
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 21
+Skill: 5 110
+Skill: 141 170
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 9
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 40
+Spell: 40
+Spell: 48
+Spell: 48
+Spell: 56
+Spell: 58
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+E
+T 94115
+#94127
+танцовщица~
+Танцовщица~
+Танцовщицы~
+Танцовщице~
+Танцовщицу~
+Танцовщицей~
+Танцовщице~
+Молодая девушка отплясывает тут.
+~
+Красивая и гибкая, пыщащая юным задором, девушка задорно отплясывает.
+~
+b0d0f0l0m0r0t0 b0c0d0e0f0g0h0r0x0A0C0a1y1 0 E
+45 -22 0 1d1+9650 24d29+30
+100d50+0 3500000
+8 8 2
+Saves: -75 -70 -70 -70
+Resistances: 50 50 50 50 50 50 50
+PlusMem: 200
+CastSuccess: 90
+Success: 10
+Initiative: 50
+Absorbe: 45
+AResist: 30
+MResist: 30
+BareHandAttack: 5
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 1
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 21
+Skill: 5 110
+Skill: 141 170
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 9
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 40
+Spell: 40
+Spell: 48
+Spell: 48
+Spell: 56
+Spell: 58
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+E
+T 94116
+#94128
+предводитель секты~
+Предводитель секты~
+Предводителя секты~
+Предводителю секты~
+Предводителя секты~
+Предводителем секты~
+Предводителе секты~
+Смазанное нечто проносится мимо.
+~
+Предводитель секты Волха-огнезмея получает силу от темного бога.
+~
+b0d0e0f0l0 c0d0e0f0g0h0r0x0z0A0k1 0 E
+37 -22 -5 1d1+10001 24d29+30
+30d40+200 3000000
+8 8 1
+Saves: -200 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 80
+MResist: 50
+PResist: 50
+BareHandAttack: 10
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 2
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 5 120
+Skill: 132 120
+Skill: 136 120
+Spell: 23
+Spell: 53
+Spell: 56
+Spell: 68
+Spell: 68
+E
+T 94134
+T 94143
+#94129
+скрюченный сектант~
+Скрюченный сектант~
+Скрюченного сектанта~
+Скрюченному сектанту~
+Скрюченного сектанта~
+Скрюченным сектантом~
+Скрюченном сектанте~
+Окривевший мужик зашептывает раны.
+~
+Когда ума палата - сила не нужна... Жаль, что змеи об этом не знали и порвали
+жилы еретику. Теперь мужик остался кривым на всю жизнь, хорошо, что боль
+зашептывать научился.
+~
+b0d0e0f0l0m0q0 c0d0e0f0h0r0x0A0a1c1x1d2e2 0 E
+38 -22 -10 1d1+12101 24d29+30
+90d90+0 3500000
+8 8 1
+Saves: -75 -70 -70 -70
+Resistances: 35 30 30 50 50 50 50
+Armour: 10
+PlusMem: 200
+CastSuccess: 100
+Success: 15
+Initiative: 50
+Absorbe: 38
+AResist: 40
+MResist: 40
+BareHandAttack: 12
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: b1c1 
+Feat: 3
+Feat: 4
+Feat: 10
+Feat: 16
+Feat: 17
+Feat: 21
+Skill: 144 150
+Spell: 3
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 28
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 48
+Spell: 58
+Spell: 93
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 145
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+Spell: 146
+E
+T 94133
+T 94143
+#94130
+корчмарь~
+Корчмарь~
+Корчмаря~
+Корчмарю~
+Корчмаря~
+Корчмарем~
+Корчмаре~
+Хитрый мужик стоит за стойкой.
+~
+Судя по блуждающему взгляду и хихиканью - он уже с утра накатил.
+Чего и вам желает.
+~
+b0d0e0f0l0m0p0r0t0 c0d0e0f0j0k1B1e2 0 E
+40 -22 0 1d1+14570 24d29+30
+20d100+1500 4000000
+8 8 1
+Saves: -125 -50 -50 -50
+Resistances: 75 70 70 70 50 50 50
+Armour: 20
+PlusMem: 200
+CastSuccess: 120
+Success: 10
+Absorbe: 40
+AResist: 80
+MResist: 50
+BareHandAttack: 14
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 100
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Skill: 1 30
+Skill: 5 50
+Skill: 141 120
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 124
+Spell: 126
+Spell: 126
+Spell: 128
+Spell: 132
+Spell: 134
+Spell: 134
+Spell: 151
+Spell: 152
+E
+T 94131
+#94131
+окосевший змей~
+Окосевший змей~
+Окосевшего змея~
+Окосевшему змею~
+Окосевшего змея~
+Окосевшим змеем~
+Окосевшем змее~
+Окосевший на один глаз змей напивается тут.
+~
+Этот змей так окосел от выпитого, что напоминает одноглазую змею.
+~
+b0d0f0 c0d0e0f0g0h0j0k0m0n0A0C0 -600 E
+50 -22 -10 10d1+11234 30d50+10
+100d100+0 3500000
+8 8 1
+Saves: -130 -130 -130 -130
+Resistances: 60 60 60 60 50 50 50
+Armour: 50
+PlusMem: 50
+CastSuccess: 100
+Success: 30
+Initiative: 30
+Absorbe: 50
+AResist: 15
+MResist: 15
+BareHandAttack: 7
+Str: 50
+Dex: 50
+Int: 35
+Wis: 35
+Con: 30
+Cha: 50
+Size: 50
+MaxFactor: 3
+ExtraAttack: 2
+Class: 100
+Race: 102
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 4 160
+Skill: 5 100
+Skill: 21 100
+Skill: 22 100
+Skill: 132 160
+Skill: 136 200
+E
+#94132
+уставший караульный~
+Уставший караульный~
+Уставшего караульного~
+Уставшему караульному~
+Уставшего караульного~
+Уставшим караульным~
+Уставшем караульном~
+Уставший караульный мечтает добрести до лежанки.
+~
+Этот мужик голыми руками готов разорвать врага.
+~
+b0d0e0f0l0 c0d0e0f0g0h0r0s0x0z0A0k1q1r1u1e2 0 E
+37 -22 -5 1d1+9650 24d29+30
+30d40+20 3000000
+8 8 1
+Saves: -120 -34 -120 -34
+Resistances: 50 50 50 50 50 50 50
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 38
+Success: 20
+Initiative: 20
+Absorbe: 37
+AResist: 25
+MResist: 25
+BareHandAttack: 11
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 6
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 2
+Feat: 3
+Feat: 4
+Feat: 11
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 17
+Feat: 18
+Feat: 21
+Feat: 23
+Skill: 22 120
+Skill: 131 120
+Skill: 136 120
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 98
+Spell: 124
+E
+T 94114
+#94133
+скорняк~
+Скорняк~
+Скорняка~
+Скорняку~
+Скорняка~
+Скорняком~
+Скорняке~
+Суровый мужик обдирает шкуру.
+~
+Судя по всему, ему хватит и минуты, чтобы содрать с вас шкуру.
+Причем заживо.
+~
+d0e0f0l0m0p0r0t0 c0d0e0f0j0k1B1e2 0 E
+40 -22 0 1d1+18000 24d29+30
+20d100+0 4000000
+8 8 1
+Saves: -125 -50 -50 -50
+Resistances: 75 70 70 70 50 50 50
+Armour: 20
+PlusMem: 200
+CastSuccess: 120
+Success: 10
+Absorbe: 40
+AResist: 80
+MResist: 50
+BareHandAttack: 7
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 2
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Skill: 1 30
+Skill: 5 50
+Skill: 141 120
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 124
+Spell: 126
+Spell: 126
+Spell: 128
+Spell: 132
+Spell: 134
+Spell: 134
+Spell: 151
+Spell: 152
+E
+T 94114
+#94134
+змей кузнец~
+Змей-кузнец~
+Змея-кузнеца~
+Змею-кузнецу~
+Змея-кузнеца~
+Змеем-кузнецом~
+Змее-кузнеце~
+Здоровенный мужик бьет молотом по наковальне.
+~
+Связываться с ним - смерти подобно.
+~
+d0e0f0l0m0p0r0t0 c0d0e0f0j0k1B1e2 0 E
+40 -22 0 1d1+9650 24d29+30
+20d100+0 4000000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 75 70 70 70 50 50 50
+Armour: 20
+PlusMem: 200
+CastSuccess: 120
+Success: 10
+Absorbe: 40
+AResist: 80
+MResist: 50
+BareHandAttack: 5
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 3
+Class: 100
+Race: 102
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Skill: 1 30
+Skill: 5 50
+Skill: 141 120
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 124
+Spell: 126
+Spell: 126
+Spell: 128
+Spell: 132
+Spell: 134
+Spell: 134
+Spell: 151
+Spell: 152
+E
+T 94128
+#94135
+швейных дел мастер~
+Швейных дел мастер~
+Швейных дел мастера~
+Швейных дел мастеру~
+Швейных дел мастера~
+Швейных дел мастером~
+Швейных дел мастере~
+Швейных дел мастер вышивает узоры на куртке.
+~
+Мастер обращения с иголкой и ниткой.
+~
+d0e0f0l0m0p0r0t0 c0d0e0f0j0k1B1e2 0 E
+40 -22 0 1d1+11235 24d29+30
+20d100+0 4000000
+8 8 1
+Saves: -100 -50 -50 -50
+Resistances: 75 70 70 70 50 50 50
+Armour: 20
+PlusMem: 200
+CastSuccess: 120
+Success: 10
+Absorbe: 40
+AResist: 80
+MResist: 50
+BareHandAttack: 11
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 2
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Skill: 1 30
+Skill: 5 50
+Skill: 141 120
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 124
+Spell: 126
+Spell: 126
+Spell: 128
+Spell: 132
+Spell: 134
+Spell: 134
+Spell: 151
+Spell: 152
+E
+T 94114
+#94136
+богатей~
+Богатей~
+Богатея~
+Богатею~
+Богатея~
+Богатеем~
+Богатее~
+Шикарно одетый мужчина прогуливается тут.
+~
+Да... Даже нельзя и представить, сколько золота на нем надето.
+Явно стоит потрепать его.
+~
+d0f0l0m0 c0d0e0f0r0x0A0C0k1m1d2e2 0 E
+40 -22 -20 10d20+12010 24d29+30
+5d10+5000 4000000
+8 8 1
+Saves: -100 -100 -100 -100
+Resistances: 50 50 50 50 50 50 50
+Armour: 50
+CastSuccess: 47
+Success: 50
+Initiative: 50
+Absorbe: 40
+AResist: 30
+MResist: 30
+Str: 50
+Dex: 30
+Int: 35
+Wis: 35
+Con: 35
+Cha: 50
+Size: 100
+LikeWork: 100
+MaxFactor: 4
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: g0b1c1C3 
+Feat: 3
+Feat: 12
+Feat: 13
+Feat: 17
+Skill: 4 150
+Skill: 5 150
+Skill: 22 200
+Skill: 137 150
+Skill: 154 200
+Skill: 155 200
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 96
+Spell: 98
+Spell: 151
+E
+T 94114
+#94137
+воришка~
+Воришка~
+Воришки~
+Воришке~
+Воришку~
+Воришкой~
+Воришке~
+Юркий паренек юлой носится тут.
+~
+Следите за карманами. Явно тут что-то не так, толкнут-пихнут, и оп..
+кошелечек то тю-тю.
+~
+b0d0f0l0 c0e0f0g0k0A0C0 0 E
+28 -22 -20 5d7+9650 24d29+30
+5d8+450 1700000
+8 8 1
+Saves: -50 -120 -18 -20
+Resistances: 30 30 30 30 30 30 30
+HPreg: 50
+Armour: 50
+PlusMem: 50
+CastSuccess: 50
+Success: 50
+Initiative: 5
+Absorbe: 28
+AResist: 30
+MResist: 30
+PResist: 30
+BareHandAttack: 10
+Str: 32
+Dex: 30
+Int: 30
+Wis: 25
+Con: 30
+Cha: 32
+Size: 100
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 3
+Class: 102
+Race: 101
+Height: 175
+Weight: 120
+Special_Bitvector: b1c1d1 
+Skill: 5 130
+Skill: 136 100
+Skill: 137 110
+Skill: 139 200
+E
+T 94114
+#94138
+лентяй~
+Лентяй~
+Лентяя~
+Лентяю~
+Лентяя~
+Лентяем~
+Лентяе~
+Представитель золотой молодежи валяется тут.
+~
+Ну что тут скажешь, лентяй он и в Африке лентяй. Пока мама с папой зарабатывают
+деньги, эта тварь и прогуливает, да пропивает в пьянках и гулянках.
+~
+d0f0m0 c0d0e0f0g0h0 -600 E
+42 -22 -30 10d10+10000 10d20+50
+500d20+150 3500000
+8 8 1
+Saves: -120 -120 -120 -120
+Resistances: 50 50 50 50 50 50 50
+Armour: 40
+CastSuccess: 53
+Success: 30
+Initiative: 100
+Absorbe: 42
+AResist: 20
+BareHandAttack: 8
+Str: 50
+Dex: 50
+Int: 40
+Wis: 35
+Con: 50
+Cha: 50
+Size: 100
+LikeWork: 100
+MaxFactor: 30
+ExtraAttack: 1
+Class: 100
+Race: 101
+Height: 200
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 150
+Skill: 22 150
+Skill: 132 120
+Skill: 137 100
+Skill: 154 150
+E
+T 94132
+T 94114
+#94139
+зазывала~
+Зазывала~
+Зазывалы~
+Зазывале~
+Зазывалу~
+Зазывалой~
+Зазывале~
+Юркий паренек громко кричит.
+~
+Зазывале нравится его дело, что в прочем не мешает ему слегка подворовывать.
+~
+b0d0f0l0 c0e0f0g0k0A0C0 0 E
+28 -22 -20 5d7+9650 24d29+30
+5d8+450 3000000
+8 8 1
+Saves: -20 -20 -20 -20
+Resistances: 20 20 20 20 20 20 20
+HPreg: 20
+Armour: 20
+PlusMem: 20
+CastSuccess: 40
+Success: 20
+Initiative: 20
+Absorbe: 28
+AResist: 10
+MResist: 10
+BareHandAttack: 10
+Str: 32
+Dex: 30
+Int: 30
+Wis: 25
+Con: 30
+Cha: 32
+Size: 100
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 3
+Class: 102
+Race: 101
+Height: 175
+Weight: 120
+Special_Bitvector: b1c1d1 
+Skill: 5 130
+Skill: 136 100
+Skill: 137 110
+Skill: 139 200
+E
+T 94114
+#94140
+фокусник~
+Фокусник~
+Фокусника~
+Фокуснику~
+Фокусника~
+Фокусником~
+Фокуснике~
+Престарелый фокусник развлекает публику.
+~
+Сверкающая чешуя его выкрашена в черный цвет.
+~
+b0d0f0m0p0q0r0t0u0 b0c0d0e0f0g0h0m0n0r0 0 E
+50 -22 -10 1d1+13456 24d29+30
+0d0+0 3500000
+8 8 1
+Saves: -150 -90 -86 -86
+Resistances: 50 0 50 50 50 50 50
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 30
+Initiative: 30
+Absorbe: 50
+AResist: 20
+MResist: 20
+BareHandAttack: 5
+Str: 35
+Dex: 35
+Int: 35
+Wis: 50
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 200
+Skill: 4 200
+Skill: 22 200
+Skill: 136 200
+Skill: 154 200
+Spell: 25
+Spell: 25
+Spell: 56
+Spell: 56
+Spell: 58
+Spell: 94
+Spell: 124
+Spell: 132
+Spell: 132
+Spell: 133
+Spell: 134
+Spell: 134
+Spell: 134
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 152
+Spell: 156
+Spell: 156
+Spell: 156
+Spell: 156
+E
+T 94135
+T 94143
+#94141
+бродячий артист~
+Бродячий артист~
+Бродячего артиста~
+Бродячему артисту~
+Бродячего артиста~
+Бродячим артистом~
+Бродячем артисте~
+Бродячий артист играет на шарманке.
+~
+Этот змеечеловек извлекает странные звуки, крутя кривую ручку на деревянном
+ящичке.
+~
+b0d0f0l0m0r0t0 b0c0d0e0f0g0h0r0x0A0C0a1y1 0 E
+45 -22 -15 1d1+11000 24d29+30
+100d50+0 4500000
+8 8 1
+Saves: -75 -70 -70 -70
+Resistances: 50 50 50 50 50 50 50
+PlusMem: 200
+CastSuccess: 90
+Success: 10
+Initiative: 50
+Absorbe: 45
+AResist: 30
+MResist: 30
+BareHandAttack: 5
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 40
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 2
+Class: 100
+Race: 102
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 21
+Skill: 5 110
+Skill: 141 170
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 9
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 40
+Spell: 40
+Spell: 48
+Spell: 48
+Spell: 56
+Spell: 58
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+E
+T 94114
+#94142
+зевака~
+Зевака~
+Зеваки~
+Зеваке~
+Зеваку~
+Зевакой~
+Зеваке~
+Мужчина в сверкающей чешуе получает удовольствие от представления.
+~
+Мужчина в сверкающей чешуе неторопясь прогуливается по городу. Он удивительно красив,
+наверное пользуется успехом у дам.
+~
+b0d0f0m0 b0c0d0e0f0g0h0 -600 E
+42 -22 -30 10d10+10000 10d20+50
+500d20+1500 2500000
+8 8 1
+Saves: -120 -120 -120 -120
+Resistances: 50 50 50 50 50 50 50
+Armour: 40
+CastSuccess: 53
+Success: 30
+Initiative: 100
+Absorbe: 42
+AResist: 20
+BareHandAttack: 9
+Str: 50
+Dex: 50
+Int: 40
+Wis: 35
+Con: 50
+Cha: 50
+Size: 100
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 2
+Class: 100
+Race: 101
+Height: 200
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 150
+Skill: 22 150
+Skill: 132 120
+Skill: 137 100
+Skill: 154 150
+E
+T 94114
+#94143
+дворцовый страж~
+Дворцовый страж~
+Дворцового стража~
+Дворцовому стражу~
+Дворцового стража~
+Дворцовым стражем~
+Дворцовом страже~
+Стражник вооруженный алебардой стоит на страже дворца.
+~
+Стражник в позолоченном чешуйчатом доспехе. Всю жизнь он посвятил
+совершенствованию боевых искусств и теперь охраняет дворец от непрошенных
+гостей.
+~
+d0f0l0m0 b0c0d0e0f0g0h0x0z0A0C0 0 E
+47 -22 -10 1d1+14987 24d29+30
+200d20+150 4500000
+8 8 1
+Saves: -150 -90 -74 -74
+Resistances: 50 0 50 50 50 50 50
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 30
+Initiative: 30
+Absorbe: 47
+AResist: 20
+MResist: 20
+BareHandAttack: 3
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 7
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 200
+Skill: 4 200
+Skill: 22 200
+Skill: 136 200
+Skill: 154 200
+Spell: 94
+Spell: 124
+Spell: 128
+Spell: 132
+Spell: 132
+Spell: 133
+E
+T 94137
+#94144
+усталый стражник~
+Усталый стражник~
+Усталого стражника~
+Усталому стражнику~
+Усталого стражника~
+Усталым стражником~
+Усталом стражнике~
+Стражник вооруженный алебардой идет к своей лежанке.
+~
+Стражник в позолоченном чешуйчатом доспехе. Всю жизнь он посвятил
+совершенствованию боевых искусств и теперь охраняет дворец от непрошенных
+гостей.
+~
+d0f0m0 c0d0e0f0g0h0x0z0A0C0 0 E
+47 -22 -10 1d1+12345 24d29+30
+200d20+100 4200000
+8 8 1
+Saves: -150 -90 -74 -74
+Resistances: 50 0 50 50 50 50 50
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 30
+Initiative: 30
+Absorbe: 47
+AResist: 20
+MResist: 20
+BareHandAttack: 3
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 5
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 200
+Skill: 4 200
+Skill: 22 200
+Skill: 136 200
+Skill: 154 200
+Spell: 94
+Spell: 124
+Spell: 128
+Spell: 132
+Spell: 132
+Spell: 133
+E
+#94145
+вербовщик~
+Вербовщик~
+Вербовщика~
+Вербовщику~
+Вербовщика~
+Вербовщиком~
+Вербовщике~
+Щуплый мужичок записывает что-то в тетрадку.
+~
+Такой и поднести пива в корчме может, а потом глядишь и ты уже в отряде.
+Хорошо это или плохо - решать вам.
+~
+d0e0f0l0m0p0r0t0 c0d0e0f0j0k1B1e2 0 E
+40 -22 -18 1d1+15678 24d29+30
+20d100+0 3500000
+8 8 1
+Saves: -50 -50 -50 -50
+Resistances: 75 70 70 70 50 50 50
+Armour: 20
+PlusMem: 200
+CastSuccess: 120
+Success: 10
+Absorbe: 40
+AResist: 50
+MResist: 50
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 2
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Skill: 1 30
+Skill: 5 50
+Skill: 141 120
+Spell: 98
+Spell: 98
+Spell: 98
+Spell: 124
+Spell: 126
+Spell: 126
+Spell: 128
+Spell: 132
+Spell: 134
+Spell: 134
+Spell: 151
+Spell: 152
+E
+#94146
+командир дворцовой стражи~
+Командир дворцовой стражи~
+Командира дворцовой стражи~
+Командиру дворцовой стражи~
+Командира дворцовой стражи~
+Командиром дворцовой стражи~
+Командире дворцовой стражи~
+Командир дворцовой стражи склонился над планом дворца.
+~
+Стражник в позолоченном чешуйчатом доспехе. Всю жизнь он посвятил тому,
+чтобы стать лучшим среди лучших. Теперь он командир дворцовой стражи.
+~
+d0f0m0t0s1 c0d0e0f0g0h0z0A0C0m1o1q1 0 E
+47 -22 -21 1d1+34456 24d29+40
+0d0+0 6000000
+8 8 1
+Saves: -150 -90 -74 -74
+Resistances: 50 0 50 50 50 50 50
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 30
+Initiative: 30
+Absorbe: 47
+AResist: 20
+MResist: 20
+BareHandAttack: 3
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 4
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 200
+Skill: 4 200
+Skill: 22 200
+Skill: 136 200
+Skill: 154 200
+Spell: 94
+Spell: 124
+Spell: 128
+Spell: 132
+Spell: 132
+Spell: 133
+Helper: 94149
+Helper: 94147
+E
+T 94140
+T 94142
+#94147
+патрульный страж~
+Патрульный страж~
+Патрульного стража~
+Патрульному стражу~
+Патрульного стража~
+Патрульным стражем~
+Патрульном страже~
+Стражник вооруженный алебардой стоит на страже дворца.
+~
+Стражник в позолоченном чешуйчатом доспехе. Всю жизнь он посвятил
+совершенствованию боевых искусств и теперь охраняет дворец от
+непрошенных гостей.
+~
+b0d0f0m0 b0c0d0e0f0g0h0x0z0A0o1t1w1 0 E
+47 -22 -10 1d1+13098 24d29+30
+100d10+20 4900000
+8 8 1
+Saves: -150 -90 -74 -74
+Resistances: 50 0 50 50 50 50 50
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 30
+Initiative: 30
+Absorbe: 47
+AResist: 20
+MResist: 20
+BareHandAttack: 3
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 6
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Feat: 12
+Feat: 13
+Skill: 1 200
+Skill: 4 200
+Skill: 22 200
+Skill: 136 200
+Skill: 154 200
+Spell: 94
+Spell: 124
+Spell: 128
+Spell: 132
+Spell: 132
+Spell: 133
+E
+T 94138
+#94148
+проситель~
+Проситель~
+Просителя~
+Просителю~
+Просителя~
+Просителем~
+Просителе~
+Мужчина в сверкающей чешуе идет во дворец с прошением.
+~
+Мужчина в сверкающей чешуе неторопясь прогуливается по городу.
+Он удивительно красив, наверное пользуется успехом у дам.
+~
+d0f0m0 c0d0e0f0g0h0 -600 E
+42 -22 -30 10d10+10000 10d20+50
+500d20+150 2500000
+8 8 1
+Saves: -120 -120 -120 -120
+Resistances: 50 50 50 50 50 50 50
+Armour: 40
+CastSuccess: 53
+Success: 30
+Initiative: 100
+Absorbe: 42
+AResist: 20
+BareHandAttack: 12
+Str: 50
+Dex: 50
+Int: 40
+Wis: 35
+Con: 50
+Cha: 50
+Size: 100
+LikeWork: 100
+MaxFactor: 6
+ExtraAttack: 2
+Class: 100
+Race: 101
+Height: 200
+Weight: 140
+Special_Bitvector: 0 
+Skill: 1 150
+Skill: 22 150
+Skill: 132 120
+Skill: 137 100
+Skill: 154 150
+E
+#94149
+патрульный маг~
+Патрульный маг~
+Патрульного мага~
+Патрульному магу~
+Патрульного мага~
+Патрульным магом~
+Патрульном маге~
+Патрульный маг стоит в дозоре.
+~
+Змей-маг готов сжечь любого врага.
+~
+b0d0f0l0m0r0t0 b0c0d0e0f0g0h0r0x0A0C0a1y1 0 E
+45 -22 0 1d1+9650 24d29+30
+100d50+0 4900000
+8 8 1
+Saves: -75 -70 -70 -70
+Resistances: 50 50 50 50 50 50 50
+PlusMem: 200
+CastSuccess: 90
+Success: 10
+Initiative: 50
+Absorbe: 45
+AResist: 30
+MResist: 30
+BareHandAttack: 5
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 7
+ExtraAttack: 1
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Feat: 12
+Feat: 13
+Feat: 14
+Feat: 21
+Skill: 5 110
+Skill: 141 170
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 5
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 6
+Spell: 9
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 26
+Spell: 28
+Spell: 28
+Spell: 40
+Spell: 40
+Spell: 48
+Spell: 48
+Spell: 56
+Spell: 58
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+E
+T 94139
+T 94143
+#94150
+вельможа~
+Вельможа~
+Вельможи~
+Вельможе~
+Вельможу~
+Вельможей~
+Вельможе~
+Великолепно одетый мужчина прогуливается тут.
+~
+Вот что значит присосаться к кормушке... У... Собака.
+~
+d0f0l0m0 c0d0e0f0r0x0A0C0k1m1d2e2 0 E
+40 -22 -20 10d20+9650 24d29+30
+5d10+0 4900000
+8 8 1
+Saves: -100 -100 -100 -100
+Resistances: 50 50 50 50 50 50 50
+Armour: 50
+CastSuccess: 47
+Success: 50
+Initiative: 50
+Absorbe: 40
+AResist: 30
+MResist: 30
+Str: 50
+Dex: 30
+Int: 35
+Wis: 35
+Con: 35
+Cha: 50
+Size: 100
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: g0b1c1C3 
+Feat: 3
+Feat: 12
+Feat: 13
+Feat: 17
+Skill: 4 150
+Skill: 5 150
+Skill: 22 200
+Skill: 137 150
+Skill: 154 200
+Skill: 155 200
+Spell: 82
+Spell: 82
+Spell: 88
+Spell: 88
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 96
+Spell: 98
+Spell: 151
+E
+#94151
+айсул сын полоза~
+Айсул сын Полоза~
+Айсула сына Полоза~
+Айсулу сыну Полоза~
+Айсула сына Полоза~
+Айсулом сыном Полоза~
+Айсуле сыне Полоза~
+Мертворожденая тварь сидит на троне.
+~
+Наследник Полоза был убит матерью при рождении, однако впоследствии оживлен
+отцом своим.
+~
+b0d0f0t0s1 c0d0e0f0h0m0n0r0x0A0C0a1k1l1m1r1t1w1 0 E
+50 -22 0 1d1+28900 30d29+30
+500d30+10 6000000
+8 8 1
+Saves: -130 -130 -130 -130
+Resistances: 75 75 75 75 50 50 50
+Armour: 50
+PlusMem: 100
+CastSuccess: 120
+Success: 35
+Initiative: 50
+Absorbe: 50
+AResist: 80
+MResist: 80
+BareHandAttack: 8
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 3
+Class: 100
+Race: 102
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 1
+Feat: 3
+Skill: 4 200
+Skill: 134 120
+Skill: 145 200
+Spell: 68
+Spell: 68
+Spell: 71
+Spell: 86
+Spell: 88
+Spell: 94
+Spell: 113
+Spell: 126
+Spell: 127
+Spell: 128
+Spell: 130
+Spell: 133
+Spell: 134
+E
+T 94143
+T 94117
+#94152
+телохранитель~
+Телохранитель~
+Телохранителя~
+Телохранителю~
+Телохранителя~
+Телохранителем~
+Телохранителе~
+Матерый телохранитель набросился на вас.
+~
+Жизни не пожалеет, чтобы защитить владыку.
+~
+b0d0f0 b0c0d0e0f0h0k0m0n0z0A0 0 E
+46 -22 -24 1d1+16000 24d29+30
+0d0+0 4000000
+8 8 1
+Saves: -100 -100 -100 -100
+Resistances: 60 60 60 60 50 50 50
+Armour: 50
+PlusMem: 100
+CastSuccess: 80
+Success: 40
+Initiative: 70
+Absorbe: 46
+AResist: 80
+MResist: 40
+BareHandAttack: 6
+Str: 35
+Dex: 35
+Int: 35
+Wis: 35
+Con: 35
+Cha: 35
+Size: 50
+LikeWork: 100
+MaxFactor: 3
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: a0 
+Feat: 1
+Feat: 3
+Skill: 22 120
+Skill: 146 120
+Spell: 62
+Spell: 63
+Spell: 64
+Spell: 68
+Spell: 68
+Spell: 68
+Spell: 71
+E
+T 94121
+#94153
+невеста полоза~
+Невеста Полоза~
+Невесты Полоза~
+Невесте Полоза~
+Невесту Полоза~
+Невестой Полоза~
+Невесте Полоза~
+Прекрасная женщина рыдает на подушках.
+~
+Как известно, Полоз воровал себе невест из верхнего мира,
+а после рождения наследников - убивал.
+~
+b0d0e0n0o0p0q0r0t0u0x0y0B0s1t1g2i2j2 c0d0e0f0k0a1n1o1p1q1r1x1y1z1b2c2e2 0 E
+0 -22 0 0d0+0 0d0+0
+0d0+0 0
+8 8 2
+Size: 50
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: i3 
+E
+T 94118
+T 94119
+T 94125
+#94154
+элитный телохранитель~
+Элитный телохранитель~
+Элитного телохранителя~
+Элитному телохранителю~
+Элитного телохранителя~
+Элитным телохранителем~
+Элитном телохранителе~
+Полузмей-получеловек вооруженный до зубов.
+~
+За Полоза он жизнь отдаст.
+~
+b0d0f0 c0d0e0f0k0r0x0A0C0o1r1 -600 E
+40 -22 0 1d1+17234 25d25+35
+1d1+6000 4500000
+8 8 1
+Saves: -125 -125 -125 -125
+Resistances: 60 60 60 200 50 50 50
+Armour: 50
+PlusMem: 50
+CastSuccess: 120
+Success: 40
+Initiative: 100
+Absorbe: 40
+AResist: 80
+MResist: 50
+BareHandAttack: 6
+Str: 30
+Dex: 30
+Int: 30
+Wis: 30
+Con: 30
+Cha: 30
+Size: 100
+LikeWork: 100
+MaxFactor: 6
+ExtraAttack: 3
+Class: 100
+Race: 101
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Spell: 124
+Spell: 132
+Spell: 135
+E
+T 94122
+#94155
+полоз~
+Полоз~
+Полоза~
+Полозу~
+Полоза~
+Полозом~
+Полозе~
+Огромный змей развалился на мягких подушках.
+~
+Вот он какой Царь змеиный.
+~
+b0d0e0f0l0m0n0o0p0t0A0s1t1a2g2h2 c0d0e0f0g0h0k0r0x0A0C0D0a1c1k1m1p1r1t1x1y1z1d2e2 0 E
+50 20 -25 1d1+49000 15d15+15
+0d0+20000 12000000
+8 8 1
+Saves: -130 -130 -180 -130
+Resistances: 75 75 75 75 50 50 50
+HPreg: 200
+Armour: 50
+PlusMem: 50
+CastSuccess: 150
+Success: 30
+Initiative: 50
+Absorbe: 62
+AResist: 30
+MResist: 30
+BareHandAttack: 2
+Str: 50
+Dex: 50
+Int: 50
+Wis: 50
+Con: 50
+Cha: 50
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 1
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 3
+Feat: 4
+Feat: 12
+Feat: 13
+Skill: 1 100
+Skill: 4 100
+Skill: 5 100
+Skill: 132 100
+Spell: 40
+Spell: 40
+Spell: 48
+Spell: 48
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 98
+Spell: 98
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 126
+Spell: 126
+Spell: 126
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 144
+Helper: 94154
+Helper: 94152
+Helper: 94146
+Role: 000000001
+E
+#94156
+полоз~
+Полоз~
+Полоза~
+Полозу~
+Полоза~
+Полозом~
+Полозе~
+Огромный змей развалился на мягких подушках.
+~
+Вот он какой Царь змеиный.
+~
+b0d0e0f0l0m0n0o0p0t0s1t1g2 c0d0e0f0g0h0k0r0x0A0C0D0a1c1k1m1p1r1t1x1y1z1d2e2 0 E
+50 -25 -25 1d1+49000 30d40+50
+0d0+20000 12000000
+8 8 1
+Saves: -130 -130 -180 -130
+Resistances: 75 75 75 75 50 50 50
+Armour: 50
+PlusMem: 50
+CastSuccess: 150
+Success: 30
+Initiative: 50
+Absorbe: 62
+AResist: 30
+MResist: 30
+BareHandAttack: 2
+Str: 50
+Dex: 50
+Int: 50
+Wis: 50
+Con: 50
+Cha: 50
+Size: 50
+LikeWork: 100
+MaxFactor: 1
+ExtraAttack: 3
+Class: 100
+Race: 105
+Height: 175
+Weight: 140
+Special_Bitvector: 0 
+Feat: 3
+Feat: 4
+Feat: 12
+Feat: 13
+Skill: 1 100
+Skill: 4 100
+Skill: 5 100
+Skill: 132 100
+Spell: 40
+Spell: 40
+Spell: 48
+Spell: 48
+Spell: 93
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 94
+Spell: 98
+Spell: 98
+Spell: 113
+Spell: 113
+Spell: 113
+Spell: 126
+Spell: 126
+Spell: 126
+Spell: 128
+Spell: 128
+Spell: 128
+Spell: 143
+Spell: 143
+Spell: 143
+Spell: 144
+Helper: 94146
+Helper: 94147
+Helper: 94149
+Helper: 94151
+Helper: 94152
+Helper: 94154
+Role: 000000001
+E
+T 94120
+T 94141
+$

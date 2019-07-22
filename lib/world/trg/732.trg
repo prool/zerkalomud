@@ -99,16 +99,16 @@ if %pogodka.contains(ночь)% && %arg.contains(огонь)%
   %load% mob 73230
   wecho Внезапно Вам почудилось легкое дуновение ветра.
   wait 1 s
-  wecho Мать Кендарат сказала : 'Приветствую вас, почтенные...'
-  wecho Мать Кендарат сказала : 'Судя по всему, держите выпуть в Самоцветные горы. Похвальный героизм.'
+  wecho Мать Кендарат сказала : 'Приветствую Вас, почтенные...'
+  wecho Мать Кендарат сказала : 'Судя по всему, держите Вы путь в Самоцветные горы. Похвальный героизм.'
   wecho Мать Кендарат сказала : 'Многие туда уходили, да только там же свою смерть и встретили.'
   wecho Мать Кендарат сказала : 'Послушайте совета моего, идите по домам, пока не поздно.'
   wait 1 s
-  wecho - А коли тверды вы в своих намерениях, то не откажите же мне в помощи.
+  wecho - А коли тверды Вы в своих намерениях, то не откажите же мне в помощи.
   wecho - Там, в самом сердце гор, за рудниками, в долине, в жилище хозяев, хранятся несметные сокровища.
   wecho - Среди прочих, имеется там Истовик-камень, самый чудесный минерал, когда-либо созданный природой.
   wecho - В руках простых смертных он бесполезен, но я, возможно, найду, как его использовать.
-  wecho - Об одном только вас молю - если камень окажется у вас, бегите со всех ног.
+  wecho - Об одном только Вас молю - если камень окажется у Вас, бегите со всех ног.
   wecho - Легенды гласят, что он держит своим присутствием сами горы, не давая им упасть.
   return 1
 end
@@ -119,7 +119,7 @@ end
 ~
 if (%object.vnum% != 73206)
   msend %actor% _- Нет, оставь лучше это себе.
-  брос %object.name%
+  брос all
   return 0
   halt
 end
@@ -129,110 +129,110 @@ switch %random.4%
   case 1
     if (%world.curobjs(73200)% < 2)
       mload obj 73200
-      дать щит %actor.name%
+      дать щит .%actor.name%
     end
   break
   case 2
     if (%world.curobjs(73204)% < 2)
       mload obj 73204
-      дать лезвие %actor.name%
+      дать лезвие .%actor.name%
     end
   break
   case 3
     if (%world.curobjs(73205)% < 4)
       mload obj 73205
-      дать крюч %actor.name%
+      дать крюч .%actor.name%
     end
   break
   case 4
     if (%world.curobjs(73207)% < 2)
       mload obj 73207
-      дать кольцо %actor.name%
+      дать кольцо .%actor.name%
     end
   break
 done
 set rnd %random.1000%
 if %rnd% < 200
   mload obj 73210
-  дать мешоч %actor.name%
+  дать мешоч .%actor.name%
 end
 switch %actor.class%
   case 0
     if %rnd% < 200
-      mspellturn %actor.name% мантия.теней set
+      mspellturn %actor% мантия.теней set
     end
   break
   case 1
     if %rnd% < 200
-      mspellturn %actor.name% суд.богов set
+      mspellturn %actor% суд.богов set
     end
   break   
   case 2
     if (%rnd% < 100 && char.skill(подножка) < 151)
-      mskilladd %actor.name% подножка 10
+      mskilladd %actor% подножка 10
     end
   break   
   case 3
     if (%rnd% < 100 && char.skill(оглушить) < 151)
-      mskilladd %actor.name% оглушить 20
+      mskilladd %actor% оглушить 20
     end
   break   
   case 4
     if (%rnd% < 100 && char.skill(осторожный стиль) < 151)
-      mskilladd %actor.name% осторожный.стиль 10
+      mskilladd %actor% осторожный.стиль 10
     end
   break   
   case 5
     if (%rnd% < 100 && char.skill(пнуть) < 151)
-      mskilladd %actor.name% пнуть 10
+      mskilladd %actor% пнуть 10
     end
   break   
   case 6
     if (%rnd% < 100 && char.skill(осторожный стиль) < 151)
-      mskillturn %actor.name% осторожный.стиль 20
+      mskillturn %actor% осторожный.стиль 20
     end
   break   
   case 7
     if %rnd% < 50
-      mspellturn %actor.name% защита.богов set
+      mspellturn %actor% защита.богов set
     end
   break
   
   case 8
     if %rnd% < 200
-      mspellturn %actor.name% силы.зла set
+      mspellturn %actor% силы.зла set
     end
   break   
   case 9
     if (%world.curobjs(73203)% < 1)
       mload obj 73203
-      дать посох %actor.name%
+      дать посох .%actor.name%
     else
       if %rnd% < 200
-        mskilladd %actor.name% палицы 20
+        mskilladd %actor% палицы 20
       end
     end 
   break   
   case 10
     if (%rnd% < 100 && char.skill(допол выстрел) < 151)
-      mskillturn %actor.name% допол.выстрел 10
+      mskillturn %actor% допол.выстрел 10
     end
   break   
   case 11
     if (%rnd% < 100 && char.skill(горное дело) < 101)
-      mskilladd %actor.name% горное.дело 10
+      mskilladd %actor% горное.дело 10
     end
   break   
   
   case 12
     if (%rnd% < 100 && char.skill(осторожный стиль) < 181)
-      mskilladd %actor.name% осторожный.стиль 10
+      mskilladd %actor% осторожный.стиль 10
     end
   break   
   case 13
     if %rnd% < 200
       mload obj 240
-      дать рун %actor.name%
+      дать рун .%actor.name%
     end
   break   
 done 
@@ -240,7 +240,7 @@ wait 1 s
 say Спасибо вам, путники!
 wait 3
 %echo% Мать Кендарат медленно скрылась из виду.
-mpurge мать.кендарат
+mpurge %self%
 ~
 #73207
 Репоп зоны 732 - самоцветные горы~

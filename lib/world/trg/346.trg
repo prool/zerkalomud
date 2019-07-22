@@ -31,8 +31,8 @@ wait 2s
 say Благодарю Тебя, Боже! Воистину велика сила Твоя!!
 wait 2s
 mecho Святой экзарх спрятал антиминс подальше.
-if ((%random.1000%  <= 10) && (%world.curobjs(3311)% < 2))
-  mload obj 3311
+if (%random.1000%  <= 10)
+  mload obj 103
   дать все .%actor.name%
 else
   %actor.exp(+100000)%

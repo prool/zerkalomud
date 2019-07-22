@@ -528,6 +528,7 @@ d0e0m0t1c2 c0d0e0f0k0x0z0o1r1u1x1 -600 E
 0d0+200 400000
 8 8 0
 Saves: -14 -14 -14 -14
+CastSuccess: 20
 BareHandAttack: 6
 Str: 12
 Dex: 26
@@ -977,6 +978,7 @@ d0 c0d0e0f0h0k0 600 E
 0d0+200 330000
 8 8 1
 Saves: -10 -10 -10 -10
+CastSuccess: 20
 BareHandAttack: 3
 Str: 18
 Dex: 28
@@ -1268,6 +1270,7 @@ b0d0 c0d0e0f0h0k0o1 -600 E
 0d0+500 450000
 8 8 1
 Saves: -18 -18 -18 -18
+CastSuccess: 23
 Str: 30
 Dex: 33
 Int: 36
@@ -1631,7 +1634,7 @@ Size: 93
 LikeWork: 99
 ExtraAttack: 2
 Class: 103
-Race: 104
+Race: 103
 Height: 150
 Weight: 95
 Special_Bitvector: 0 
