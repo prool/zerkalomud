@@ -385,6 +385,7 @@ char imya_trupa[PROOL_MAX_STRLEN];
 OBJ_DATA *k;
 
 send_to_char("Команда вызова трупа временно отключена, так как она может вызвать креш. Пруль.\r\n",ch);
+return;
 
 // поиск трупа
 
