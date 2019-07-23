@@ -104,7 +104,7 @@ act("$n получил$g от духа мада $o3!", FALSE, ch, obj, 0, TO_ROOM); \
 act("Вы получили от духа мада $o3.", FALSE, ch, obj, 0, TO_CHAR); /* load_otrigger(obj); obj_decay(obj); */ \
 olc_log("Духмада: %s load obj %s #%d", GET_NAME(ch), GET_OBJ_ALIAS(obj), obj_number);} }
 
-#define DUH_INSTR "Список вещей, которые вам может принести дух мада: хлеб, фляга, меч, нож, лук, палица, лампа, шарик, доспех, руны, сума, свиток познания, свиток возврата или сет (набор предметов), нумерованный от 0 до 23. Подробнее см. ПОМОЩЬ ДУХМАДА\r\n\r\nПример вызова:\r\nдухмада хлеб\r\nдухмада 10\r\n"
+#define DUH_INSTR "Список вещей, которые вам может принести дух мада: хлеб, фляга, меч, нож, лук, палица, лампа, шарик, доспех, руны, мешок, свиток познания, свиток возврата или сет (набор предметов), нумерованный от 0 до 23. Подробнее см. ПОМОЩЬ ДУХМАДА\r\n\r\nПример вызова:\r\nдухмада хлеб\r\nдухмада 10\r\n"
 
 ACMD(do_duhmada)
 {
@@ -123,17 +123,17 @@ if (*argument==0)
 else
 	{
 	argument++;
-	if (!strcmp(argument,"хлеб")) PUT_OBJ(2200 /*125*/)
-//	else if (!strcmp(argument,"рекол")) PUT_OBJ(2201/*115*/)
-	else if (!strcmp(argument,"меч")) PUT_OBJ(2202/*112*/)
-	else if (!strcmp(argument,"палица")) PUT_OBJ(2203/*121*/)
-	else if (!strcmp(argument,"нож")) PUT_OBJ(2204/*122*/)
-	else if (!strcmp(argument,"шарик")) PUT_OBJ(2205/*126*/)
-	else if (!strcmp(argument,"лампа")) PUT_OBJ(2206/*127*/)
-	else if (!strcmp(argument,"доспех")) PUT_OBJ(2207/*113*/)
-	else if (!strcmp(argument,"фляга")) PUT_OBJ(2208/*114*/)
-	else if (!strcmp(argument,"лук")) PUT_OBJ(2209/*109*/)
-	else if (!strcmp(argument,"сума")) PUT_OBJ(/*2214*/2045)
+	if (!strcmp(argument,"хлеб")) PUT_OBJ(125)
+//	else if (!strcmp(argument,"рекол")) PUT_OBJ(115)
+	else if (!strcmp(argument,"меч")) PUT_OBJ(112)
+	else if (!strcmp(argument,"палица")) PUT_OBJ(121)
+	else if (!strcmp(argument,"нож")) PUT_OBJ(122)
+	else if (!strcmp(argument,"шарик")) PUT_OBJ(126)
+	else if (!strcmp(argument,"лампа")) PUT_OBJ(127)
+	else if (!strcmp(argument,"доспех")) PUT_OBJ(113)
+	else if (!strcmp(argument,"фляга")) PUT_OBJ(114)
+	else if (!strcmp(argument,"лук")) PUT_OBJ(109)
+	else if (!strcmp(argument,"мешок")) PUT_OBJ(129)
 	else if (!strcmp(argument,"свиток познания")) PUT_OBJ(138)
 	else if (!strcmp(argument,"свиток возврата")) PUT_OBJ(139)
 	else if (!strcmp(argument,"руны")) /* runes */
@@ -384,7 +384,7 @@ char buf[PROOL_MAX_STRLEN];
 char imya_trupa[PROOL_MAX_STRLEN];
 OBJ_DATA *k;
 
-//send_to_char("do_accio_trup()\r\n",ch);
+send_to_char("Команда вызова трупа временно отключена, так как она может вызвать креш. Пруль.\r\n",ch);
 
 // поиск трупа
 
