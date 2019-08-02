@@ -1,6 +1,19 @@
 zerkalomud
 ==========
 
+ВНИМАНИЕ: Эта версия кода Зеркала закрыта в мае 2019 года! Причина: это очень-очень-очень старый код.
+В том же мае вместо этого создано Новое Зеркало на базе свежего кода Былин (в виде форка Былин):
+
+https://github.com/prool/mud
+
+Сайт мада Новое Зеркало: http://newzerkalo.virtustan.tk
+
+Адрес для мад-клиентов: newzerkalo.virtustan.tk 4000
+
+Домен zerkalo.kharkov.org теперь указывает туда же!
+
+---
+
 Zerkalo MUD server (middle Bylins MUD fork)
 
 **Command for /etc/rc.local file:**
@@ -28,18 +41,9 @@ apt-get install libboost-all-dev
 
 **Links**
 
-Работающий на этом коде MUD:
-connect zerkalo.kharkov.org 4000
-
-Его сайт: http://zerkalo.kharkov.org
-
 Оригинальные Былины:
 connect bylins.su 4000
 Их сайт: http://bylins.su
 Их код: https://github.com/bylins/mud
 
 Домашняя страница Пруля http://prool.kharkov.org
-
-Виртустан мад:
-connect mud.kharkov.org 3000
-Его сайт: http://mud.kharkov.org
