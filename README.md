@@ -6,11 +6,9 @@ zerkalomud
 
 https://github.com/prool/mud
 
-Сайт мада Новое Зеркало: http://newzerkalo.virtustan.tk
+Сайт мада Новое Зеркало: http://zerkalo.kharkov.org
 
-Адрес для мад-клиентов: newzerkalo.virtustan.tk 4000
-
-Домен zerkalo.kharkov.org теперь указывает туда же!
+Адрес для мад-клиентов: zerkalo.kharkov.org 4000
 
 ---
 
@@ -42,8 +40,13 @@ apt-get install libboost-all-dev
 **Links**
 
 Оригинальные Былины:
-connect bylins.su 4000
+
+bylins.su 4000
+
 Их сайт: http://bylins.su
+
 Их код: https://github.com/bylins/mud
 
 Домашняя страница Пруля http://prool.kharkov.org
+
+Блог Пруля про мады http://blog.mud.kharkov.org
