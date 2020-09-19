@@ -307,11 +307,11 @@ const char *START_MESSG =
 #else
 const char *WELC_MESSG =
 "\r\n &R 1 мая 2019: Проект Зеркало переехал!\
-Новое Зеркало работает по адресу newzerkalo.virtustan.tk 4000\
+Новое Зеркало работает по адресу zerkalo.kharkov.org 4000\
 \r\n\Пруль, имплементор старого и нового зеркал&n\r\n\r\n";
 const char *START_MESSG =
 "\r\n &R 1 мая 2019: Проект Зеркало переехал!\
-Новое Зеркало работает по адресу newzerkalo.virtustan.tk 4000\
+Новое Зеркало работает по адресу zerkalo.kharkov.org 4000\
 \r\n\Пруль, имплементор старого и нового зеркал&n\r\n\r\n";
 #endif
 
