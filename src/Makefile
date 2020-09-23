@@ -14,7 +14,7 @@ CXREF = cxref
 # Do Not Modify Anything Below This Line (unless you know what you're doing) #
 ##############################################################################
 
-BINDIR = ../../ZERKALO/bin
+BINDIR = ../bin
 
 CFLAGS = -ggdb3 -O2 -Wall -m32 -DUBUNTU64
 # use 'make test' for faster compile w/o optimizations, crypt and 34lvl god for first character
@@ -80,7 +80,6 @@ $(BINDIR)/circle-zerkalo : $(OBJFILES)
 	$(MKDIR) $(BINDIR)
 	$(CC) -o $(BINDIR)/circle-zerkalo $(OBJFILES) -m32 $(LIBS)
 	rm -f version.o
-	cp $(BINDIR)/circle-zerkalo ../bin/circle-zerkalo
 	@echo "Done building Bylins."
 
 clean:
