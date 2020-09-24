@@ -2894,7 +2894,7 @@ int process_input(DESCRIPTOR_DATA * t)
 					mccp_start(t, 1);
 				else if (ptr[2] == (char) TELOPT_COMPRESS2)
 					mccp_start(t, 2);
-				else if (ptr[2] == (char) MSSP) // prool
+				else if (0/*ptr[2] == (char) MSSP*/) // prool: тут было работающее MSSP, отключено за ненадобностью
                                         {char buf0[100];
                                         mssp_start(t);                                                                                 
                                         //printf("%s MSSP start %s. Online %i\n", ptime(), t->host, total_players);                   
