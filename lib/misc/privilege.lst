@@ -1,3 +1,5 @@
+# prool: Этот файл не должен ни на что влиять, так как я включил "упрощенную сборку" (см. файл privilege.cpp)
+
 # предустановленные группы (названия не менять):
 # default - команды, доступные всем иммам по умолчанию (демигоды не в счет)
 # default_demigod - команды всем демигодам по дефолту
@@ -30,10 +32,8 @@ hunt = last set (email) show (linkdrop) stat unregister users
 
 <gods>
 Пруль 853393105 default olc goto log boards hunt
-Бодрич 372662945 default olc goto log boards hunt
 Декабрь 592023494 load vnum
-Конерий 799092369 load vnum goto
-Юрин 829258484 load vnum goto default
-Явор 935610026 olc load vnum goto default
-# Домино 73508192 default olc goto log boards hunt
+Январь 799092369 load vnum goto
+Февраль 829258484 load vnum goto default
+Олег 935610026 olc load vnum goto default
 </gods>
