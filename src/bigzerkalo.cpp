@@ -6,7 +6,7 @@
 *   File: bigzerkalo.cpp                      Part of BigZerkalo MUD      *
 *  Usage: prool subprograms for BigZerkalo MUD                            *
 *                                                                         *
-*  Copyleft 2011-2018, Prool                                              *
+*  Copyleft 2011-2020, GPL, Prool                                         *
 *                                                                         *
 *  Author: Prool, proolix@gmail.com, http://prool.kharkov.org             *
 ************************************************************************ */
@@ -250,10 +250,10 @@ MSSP_VAR,MSSP_VAL,
 MSSP_VAR,MSSP_VAL,
 MSSP_VAR,MSSP_VAL,
 MSSP_VAR,MSSP_VAL,
-MSSP_VAR,MSSP_VAL,99 /*statistic_zones*/,
-MSSP_VAR,MSSP_VAL,1662 /*statistic_mobs*/,
-MSSP_VAR,MSSP_VAL,912 /*statistic_objs*/,
-MSSP_VAR,MSSP_VAL,3599 /*statistic_rooms*/,
+MSSP_VAR,MSSP_VAL,903 /*statistic_zones*/,
+MSSP_VAR,MSSP_VAL,14960 /*statistic_mobs*/,
+MSSP_VAR,MSSP_VAL,17047 /*statistic_objs*/,
+MSSP_VAR,MSSP_VAL,72118 /*statistic_rooms*/,
 MSSP_VAR,MSSP_VAL,
 MSSP_VAR,MSSP_VAL,
 MSSP_VAR,MSSP_VAL,
