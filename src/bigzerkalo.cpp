@@ -1,7 +1,5 @@
 // #define DEBUG
 
-#define SEND_EMAIL 0
-
 /* ************************************************************************
 *   File: bigzerkalo.cpp                      Part of BigZerkalo MUD      *
 *  Usage: prool subprograms for BigZerkalo MUD                            *
