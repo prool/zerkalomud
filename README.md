@@ -24,7 +24,7 @@ su prool -c ~prool/ZERKALO/autorun.zerkalo & > /dev/null
 
 Для сборки в 64 разрядной Ubuntu иногда нужно шаманство: например, инсталлировать свежий boost,
 отключить zlib (в Makefile и conf.h), добавить флаг -m32, скопировать свежие версии pugixml из каталога
-src/ubuntu64 в каталог src
+src/ubuntu64 в каталог src. Копирование новых pugixml требуется также для сборки в macOS Catalina.
 
 Например на Debian 7/64 BOOST устанавливается командой
 
