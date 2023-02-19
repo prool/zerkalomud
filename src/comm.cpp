@@ -433,8 +433,10 @@ else
 	printf("prool.cfg not open\n");
 	}
 
-printf("prooldebug: webstat = %i\n", webstat); // prool
-printf("prooldebug: email = %i\n", email); // prool
+#if 0
+printf("prooldebug: webstat = %i\n", webstat);
+printf("prooldebug: email = %i\n", email);
+#endif
 
 strcpy(room_title, "New room");
 strcpy(room_descr, "    Room descr\r\n");
