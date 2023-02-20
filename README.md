@@ -22,7 +22,7 @@ su prool -c ~prool/ZERKALO/autorun.zerkalo & > /dev/null
 
 **Замечания по сборке**
 
-Для сборки в 64 разрядной Ubuntu иногда нужно шаманство: например, инсталлировать свежий boost,
+Для сборки в 64 разрядной Ubuntu/Debian иногда нужно шаманство: например, инсталлировать свежий boost,
 отключить zlib (в Makefile и conf.h), добавить флаг -m32, скопировать свежие версии pugixml из каталога
 src/ubuntu64 в каталог src. Копирование новых pugixml требуется также для сборки в macOS Catalina.
 
@@ -31,7 +31,14 @@ src/ubuntu64 в каталог src. Копирование новых pugixml т
 apt-get install libboost-all-dev
 
 На 64-битных системах надо устанавливать gcc-multilib g++-multilib lib32z1-dev и обязательно флаг -m32 в двух местах
-файла Makefile (см. примеры мейкфайлов в исходниках). Также порой нужно libcrypt-dev:i386
+файла Makefile (см. примеры мейкфайлов в исходниках). Также порой нужно libcrypt-dev:i386 и иногда нужно вместо
+-lcrypt указывать полный путь к 32-разрядной libcrypt (на Ubuntu 22, Debian 11).
+
+libcrypt:i386 устанавливается так:
+
+sudo dpkg --add-architecture i386
+sudo apt update
+sudo apt install libcrypt1:i386
 
 На 32 битных системах все проще, чем 64, в Centos, Debian собирается без проблем
 
