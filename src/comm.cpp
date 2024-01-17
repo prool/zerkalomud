@@ -144,7 +144,10 @@ extern void print_rune_log();
 /* external global objects and containers */
 extern BanList *ban;
 
-// prool:                                                                                                                              
+// prool:
+int ports[10] = {4000,4002,-1,-1,-1,-1,-1,-1,-1,-1};
+socket_t mother_descs[10] = {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1};
+
 #if 1                                                                                                                                  
 extern int statistic_zones;                                                                                                            
 extern int statistic_rooms;                                                                                                            
@@ -159,6 +162,8 @@ int web_codetable;
 int webstat;
 int email;
 char mudname [PROOL_MAX_STRLEN];
+
+// end of prool
 
 /* local globals */
 DESCRIPTOR_DATA *descriptor_list = NULL;	/* master desc list */
@@ -207,9 +212,9 @@ ssize_t perform_socket_write(socket_t desc, const char *txt, size_t length);
 void sanity_check(void);
 void circle_sleep(struct timeval *timeout);
 int get_from_q(struct txt_q *queue, char *dest, int *aliased);
-void init_game(ush_int port);
+void init_game(int ports[]); // prool
 void signal_setup(void);
-void game_loop(socket_t mother_desc);
+void game_loop();
 socket_t init_socket(ush_int port);
 int new_descriptor(socket_t s);
 
@@ -367,7 +372,6 @@ extern int room_flag;
 	malloc_options = "A";
 #endif
 
-	ush_int port;
 	int pos = 1;
 	const char *dir;
 
@@ -453,7 +457,6 @@ room_flag=0;
 	GUSIDefaultSetup();
 #endif
 
-	port = DFLT_PORT;
 	dir = DFLT_DIR;
 
 	while ((pos < argc) && (*(argv[pos]) == '-'))
@@ -518,17 +521,22 @@ room_flag=0;
 	}
 
 	if (pos < argc)
-	{
+	{int i;
 		if (!isdigit(*argv[pos]))
 		{
 			printf("Usage: %s [-c] [-m] [-q] [-r] [-s] [-d pathname] [port #]\n", argv[0]);
 			exit(1);
 		}
-		else if ((port = atoi(argv[pos])) <= 1024)
+		else if ((i = atoi(argv[pos])) <= 1024)
 		{
-			printf("SYSERR: Illegal port number %d.\n", port);
+			printf("SYSERR: Illegal port number %d.\n", i);
 			exit(1);
 		}
+		else
+			{
+				printf("prool: port %i\n", i);
+				ports[0]=i; ports[1]=-1;
+			}
 	}
 
 	/* All arguments have been parsed, try to open log file. */
@@ -555,14 +563,13 @@ room_flag=0;
 	}
 	else
 	{
-		log("Running game on port %d.", port);
 
 		// стль и буст юзаются уже немало где, а про их экспешены никто не думает
 		// пока хотя бы стльные ловить и просто логировать факт того, что мы вышли
 		// по эксепшену для удобства отладки и штатного сброса сислога в файл, т.к. в коре будет фиг
 		try
 		{
-			init_game(port);
+			init_game(ports);
 		}
 		catch (std::exception &e)
 		{
@@ -580,9 +587,9 @@ room_flag=0;
 
 
 /* Init sockets, run game, and cleanup sockets */
-void init_game(ush_int port)
+void init_game(int ports [])
 {
-	socket_t mother_desc;
+int i;
 
 	/* We don't want to restart if we crash before we get up. */
 	touch(KILLSCRIPT_FILE);
@@ -591,8 +598,13 @@ void init_game(ush_int port)
 	log("Finding player limit.");
 	max_players = get_max_players();
 
-	log("Opening mother connection.");
-	mother_desc = init_socket(port);
+#if 1 // prool
+        log("Binding interface to ports:");
+        for (i = 0; ports[i] != -1;i++) {
+               log( "   Opening port %d ...", ports[i]);
+               mother_descs[i] = init_socket(ports[i]);
+               }
+#endif
 	//scripting::init(); // prool
 	boot_db();
 
@@ -606,7 +618,7 @@ void init_game(ush_int port)
 
 	log("Entering game loop.");
 
-	game_loop(mother_desc);
+	game_loop();
 
 	flush_player_index();
 
@@ -649,7 +661,11 @@ void init_game(ush_int port)
 	// должно идти после дисконекта плееров
 	FileCRC::save(true);
 
-	CLOSE_SOCKET(mother_desc);
+#if 1 // prool
+        for (i = 0; ports[i] != -1;i++) {
+               CLOSE_SOCKET(mother_descs[i]);
+               }
+#endif
 	if (circle_reboot != 2 && olc_save_list)  	/* Don't save zones. */
 	{
 		struct olc_save_info *entry, *next_entry;
@@ -974,11 +990,12 @@ inline void rotate(log_info * li, long pos, struct tm *time)
 }
 
 inline void process_io(fd_set input_set, fd_set output_set, fd_set exc_set, fd_set null_set,
-					   socket_t mother_desc, int maxdesc)
+					   int maxdesc)
 {
 	DESCRIPTOR_DATA *d, *next_d;
 	char comm[MAX_INPUT_LENGTH];
 	int aliased;
+	int i;
 
 	/* Poll (without blocking) for new input, output, and exceptions */
 	if (select(maxdesc + 1, &input_set, &output_set, &exc_set, &null_time)
@@ -989,8 +1006,12 @@ inline void process_io(fd_set input_set, fd_set output_set, fd_set exc_set, fd_s
 		return;
 	}
 	/* If there are new connections waiting, accept them. */
-	if (FD_ISSET(mother_desc, &input_set))
-		new_descriptor(mother_desc);
+#if 1 // prool
+    for (i = 0; mother_descs[i] != -1;i++) {
+          if (FD_ISSET(mother_descs[i], &input_set))
+                  new_descriptor(mother_descs[i]);
+                          }
+#endif
 
 	/* Kick out the freaky folks in the exception set and marked for close */
 	for (d = descriptor_list; d; d = next_d)
@@ -1138,13 +1159,14 @@ inline void process_io(fd_set input_set, fd_set output_set, fd_set exc_set, fd_s
  * output and sending it out to players, and calling "heartbeat" functions
  * such as mobile_activity().
  */
-void game_loop(socket_t mother_desc)
+void game_loop()
 {
 	fd_set input_set, output_set, exc_set, null_set;
 	struct timeval last_time, opt_time, process_time, temp_time;
 	struct timeval before_sleep, now, timeout;
 	DESCRIPTOR_DATA *d;
 	int missed_pulses = 0, maxdesc;
+	int i;
 
 	/* initialize various time values */
 	null_time.tv_sec = 0;
@@ -1164,28 +1186,44 @@ void game_loop(socket_t mother_desc)
 			log("No connections.  Going to sleep.");
 			make_who2html();
 			FD_ZERO(&input_set);
-			FD_SET(mother_desc, &input_set);
-			if (select(mother_desc + 1, &input_set, (fd_set *) 0, (fd_set *) 0, NULL) < 0)
-			{
-				if (errno == EINTR)
-					log("Waking up to process signal.");
-				else
-					perror("SYSERR: Select coma");
-			}
-			else	{
-				log("New connection.  Waking up.");
-				//printf("zerkalo new connection. Waking up\n"); // prool
-				}
-				
+
+
+
+#if 1 // 1 - prool: многопортовость
+                           for (i = 0;mother_descs[i] != -1;i++)
+                                FD_SET(mother_descs[i], &input_set);
+
+                                if (select(mother_descs[i-1] + 1, &input_set, (fd_set *) 0, (fd_set *) 0, NULL) < 0) {
+
+                                if (errno == EINTR)
+                                        {
+                                        log("Waking up to process signal");
+                                        //printf("Waking up to process signal\n"); //prool
+                                        }
+                                else
+                                        perror("SYSERR: Select coma");
+                                } else  {
+                                //printf("%s New connection.  Waking up\n", ptime()); //prool
+                                log("New connection.  Waking up");
+                                }
+#endif
+
 			gettimeofday(&last_time, (struct timezone *) 0);
 		}
 		/* Set up the input, output, and exception sets for select(). */
 		FD_ZERO(&input_set);
 		FD_ZERO(&output_set);
 		FD_ZERO(&exc_set);
-		FD_SET(mother_desc, &input_set);
+#if 1 // prool
+                maxdesc = -1;
+                /* add all mother sockets */
+                for (i = 0; mother_descs[i] != -1;i++) {
+                FD_SET(mother_descs[i], &input_set);
+                if (mother_descs[i] > maxdesc)
+                maxdesc = mother_descs[i];
+                }
+#endif
 
-		maxdesc = mother_desc;
 		for (d = descriptor_list; d; d = d->next)
 		{
 #ifndef CIRCLE_WINDOWS
@@ -1266,7 +1304,7 @@ void game_loop(socket_t mother_desc)
 		/* Now execute the heartbeat functions */
 		while (missed_pulses--)
 		{
-			process_io(input_set, output_set, exc_set, null_set, mother_desc, maxdesc);
+			process_io(input_set, output_set, exc_set, null_set, maxdesc);
 			heartbeat(missed_pulses);
 		}
 
