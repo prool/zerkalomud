@@ -6,9 +6,9 @@ zerkalomud
 
 https://github.com/prool/mud
 
-Сайт мада Новое Зеркало: http://zerkalo.kharkov.org
+Сайт мада Новое Зеркало: http://zerkalo.virtustan.net http://zerkalo.kharkov.org
 
-Адрес для мад-клиентов: zerkalo.kharkov.org 4000
+Адрес для мад-клиентов: zerkalo.virtustan.net 4000 или zerkalo.kharkov.org 4000
 
 ---
 
@@ -54,6 +54,7 @@ bylins.su 4000
 
 Их код: https://github.com/bylins/mud
 
-Домашняя страница Пруля http://prool.kharkov.org
+Домашняя страница Пруля http://prool.virtustan.net http://prool.kharkov.org
 
 Блог Пруля про мады http://blog.mud.kharkov.org
+

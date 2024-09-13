@@ -1,4 +1,4 @@
-# Make file for macOS
+# Make file
 
 # C compiler to use
 CC = g++
@@ -16,17 +16,15 @@ CXREF = cxref
 
 BINDIR = ../bin
 
-CFLAGS = -ggdb3 -O2 -Wall -DUBUNTU64 -Wno-invalid-source-encoding -DMACOS
+CFLAGS = -ggdb3 -O2 -Wall -m32 -DUBUNTU64
 # use 'make test' for faster compile w/o optimizations, crypt and 34lvl god for first character
 TESTCFLAGS = -ggdb3 -Wall -DNOCRYPT -DTEST_BUILD -DLOG_AUTOFLUSH
 DEBUGFLAGS = -D_GLIBCXX_DEBUG -D_GLIBXX_DEBUG_PEDANTIC
 FASTTEST   = -ggdb3 -Wall -DNOCRYPT -DTEST_BUILD -O3
 
 #LIBS =  -lsocket -lnsl
-# no lcrypt on darwin/osx/macOS. /prool
-#LIBS =  -lcrypt
-
-LIBS = /usr/lib/libiconv.dylib
+#LIBS =  -lz -lcrypt
+LIBS =  -lcrypt
 
 OBJFILES = act.comm.o act.informative.o act.item.o act.movement.o \
 	act.offensive.o act.other.o act.social.o act.wizard.o alias.o ban.o \
@@ -77,11 +75,12 @@ default: circle-zerkalo
 #	@./licheck less
 
 circle-zerkalo:
+	cp -p ubuntu64/* .
 	$(MAKE) $(BINDIR)/circle-zerkalo
 
 $(BINDIR)/circle-zerkalo : $(OBJFILES)
 	$(MKDIR) $(BINDIR)
-	$(CC) -o $(BINDIR)/circle-zerkalo $(OBJFILES) $(LIBS)
+	$(CC) -o $(BINDIR)/circle-zerkalo $(OBJFILES) -m32 $(LIBS)
 	rm -f version.o
 	@echo "Done building Bylins."
 
